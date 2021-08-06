@@ -1,0 +1,459 @@
+[Script Info]
+Title: Detective Conan - 0696 - Vandalisme al jardí infantil
+TL Source: Super3
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: White,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Cyan,Arial,60,&H00FFFF00,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Green,Arial,60,&H00008000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Yellow,Arial,60,&H0000FFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Songs,Arial,60,&H000000FF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Songs2,Arial,60,&H0032CD9A,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.28,0:00:07.40,White,,0,0,0,,-Ha passat una cosa molt greu.
+Dialogue: 0,0:00:04.28,0:00:07.40,White,,0,0,0,,-Vinga, afanyi's!
+Dialogue: 0,0:00:07.92,0:00:10.28,White,,0,0,0,,Necessitem l'ajuda\Ndel gran detectiu Mouri.
+Dialogue: 0,0:00:10.92,0:00:14.68,White,,0,0,0,,Ostres, noi! No us fa mandra, anar\Na jugar a aquestes hores del matí?
+Dialogue: 0,0:00:15.08,0:00:17.08,Cyan,,0,0,0,,Has sigut tu,\Nqui ha acceptat el cas, pare.
+Dialogue: 0,0:00:17.32,0:00:21.60,White,,0,0,0,,Perquè encara no sabia que la Yoko\Nactuaria al Wide Show d'aquest matí!
+Dialogue: 0,0:00:22.40,0:00:25.32,Yellow,,0,0,0,,(veu Shinichi) Oh, i tant.
+Dialogue: 0,0:00:22.40,0:00:25.32,White,,0,0,0,,Quina energia, de bon matí!
+Dialogue: 0,0:00:26.40,0:00:28.40,Yellow,,0,0,0,,"Per trobar la solució perfecta,
+Dialogue: 0,0:00:28.56,0:00:30.56,Yellow,,0,0,0,,cal desxifrar tots els misteris\Ni codis."
+Dialogue: 0,0:00:30.72,0:00:33.08,Yellow,,0,0,0,,"Un cadàver al jardí del centre cívic. Un truc extraordinari."
+Dialogue: 0,0:00:33.24,0:00:35.68,Yellow,,0,0,0,,"La veritat sempre s'acaba sabent."
+Dialogue: 0,0:00:35.84,0:00:40.24,Yellow,,0,0,0,,"Sembla un nen, però té el cervell d'un adult, i és el detectiu Conan!"
+Dialogue: 0,0:00:41.24,0:00:45.24,Songs,,0,0,0,,Mujun mansai shita mama\Nhashiri tsudzukeru basu
+Dialogue: 0,0:00:46.56,0:00:51.44,Songs,,0,0,0,,Nokkatta bokura wa mujaki ni warau
+Dialogue: 0,0:00:52.00,0:00:56.40,Songs,,0,0,0,,Migihidari nigiyaka\Nna sain ga afurete
+Dialogue: 0,0:00:57.36,0:01:01.96,Songs,,0,0,0,,Mayottara mi wo makasu desu yo ne, doraibaa.
+Dialogue: 0,0:01:03.20,0:01:06.28,Songs,,0,0,0,,Warugi nakute mo
+Dialogue: 0,0:01:08.64,0:01:11.28,Songs,,0,0,0,,tsumi wa umaremasu ka?
+Dialogue: 0,0:01:12.44,0:01:14.44,Songs,,0,0,0,,Kotae wa doko ni
+Dialogue: 0,0:01:15.12,0:01:17.68,Songs,,0,0,0,,kakusareteru no somebody knows.
+Dialogue: 0,0:01:18.12,0:01:20.16,Songs,,0,0,0,,Akiramenaide
+Dialogue: 0,0:01:20.48,0:01:23.32,Songs,,0,0,0,,mou choi kangaete,\Nquestion!, answer!
+Dialogue: 0,0:01:24.40,0:01:29.12,Songs,,0,0,0,,Kurayami ni ukanderu
+Dialogue: 0,0:01:29.64,0:01:34.44,Songs,,0,0,0,,sono hoho ni fureru.
+Dialogue: 0,0:01:35.16,0:01:39.84,Songs,,0,0,0,,Dare mo ga yuzurenai
+Dialogue: 0,0:01:40.48,0:01:45.80,Songs,,0,0,0,,seigi wo idaite.
+Dialogue: 0,0:01:46.12,0:01:48.12,Songs,,0,0,0,,Kotae wa koko ni
+Dialogue: 0,0:01:48.68,0:01:51.08,Songs,,0,0,0,,chanto aru janai everybody knows.
+Dialogue: 0,0:01:51.52,0:01:53.52,Songs,,0,0,0,,Dakedo mou hitotsu
+Dialogue: 0,0:01:54.24,0:01:56.48,Songs,,0,0,0,,kokoro ga harenai,\Nquestion!, answer!
+Dialogue: 0,0:01:57.08,0:01:59.12,Songs,,0,0,0,,Sono sabishisa wo
+Dialogue: 0,0:01:59.40,0:02:02.08,Songs,,0,0,0,,bokura wa ikiru,\Nquestion!, answer!
+Dialogue: 0,0:02:07.56,0:02:09.56,Yellow,,0,0,0,,(veu Conan) "Vandalisme\Nal jardí infantil"
+Dialogue: 0,0:02:15.80,0:02:17.80,White,,0,0,0,,(Ai) El centre cívic\Ndel barri de Beika?
+Dialogue: 0,0:02:18.36,0:02:21.56,Yellow,,0,0,0,,(veu Shinichi) Sí, és on els veïns es reuneixen per practicar esport...
+Dialogue: 0,0:02:21.64,0:02:23.64,Yellow,,0,0,0,,o fer activitats de tota mena.
+Dialogue: 0,0:02:23.72,0:02:27.96,White,,0,0,0,,Ah... Sigui com sigui, no sembla\Nque hi hagi passat res, aquí.
+Dialogue: 0,0:02:28.04,0:02:29.84,White,,0,0,0,,(Ayumi) És aquí!
+Dialogue: 0,0:02:28.04,0:02:29.84,Yellow,,0,0,0,,Ja.
+Dialogue: 0,0:02:34.96,0:02:36.76,White,,0,0,0,,Terrible, oi?
+Dialogue: 0,0:02:36.84,0:02:39.24,White,,0,0,0,,Està tot destrossat,\Ncom si hi hagués passat un huracà.
+Dialogue: 0,0:02:39.32,0:02:41.36,White,,0,0,0,,Els nens del barri som\Nels encarregats
+Dialogue: 0,0:02:41.44,0:02:44.28,White,,0,0,0,,de cuidar els arbres i les flors\Ndel jardí del centre cívic:
+Dialogue: 0,0:02:44.36,0:02:46.36,White,,0,0,0,,plantem llavors,\Nreguem les plantes...
+Dialogue: 0,0:02:47.04,0:02:50.60,White,,0,0,0,,Però últimament cada matí ens trobem el jardinet mig destrossat.
+Dialogue: 0,0:02:51.04,0:02:54.68,White,,0,0,0,,-Trobi el culpable, senyor Mouri.
+Dialogue: 0,0:02:51.04,0:02:54.68,White,,0,0,0,,-S'ha de tenir molt mala bava.
+Dialogue: 0,0:02:54.84,0:02:57.52,White,,0,0,0,,Parleu-ne amb la mestra\No amb les vostres mares.
+Dialogue: 0,0:02:57.72,0:02:59.52,Cyan,,0,0,0,,Pare!
+Dialogue: 0,0:02:57.72,0:02:59.52,White,,0,0,0,,Però...
+Dialogue: 0,0:02:59.60,0:03:01.44,White,,0,0,0,,Jo ja ho sabia,
+Dialogue: 0,0:03:01.52,0:03:03.96,White,,0,0,0,,que no serviria de res encarregar-li\Nel cas al senyor Mouri.
+Dialogue: 0,0:03:04.04,0:03:07.40,White,,0,0,0,,Doncs abans per telèfon\Nens ha promès que se n'ocuparia.
+Dialogue: 0,0:03:08.28,0:03:10.28,White,,0,0,0,,Oi, Genta? Ei!
+Dialogue: 0,0:03:11.16,0:03:14.44,White,,0,0,0,,-Què ha passat?
+Dialogue: 0,0:03:11.16,0:03:14.44,White,,0,0,0,,-Ai, carai. No entenc res.
+Dialogue: 0,0:03:15.16,0:03:17.16,White,,0,0,0,,El totxo que vaig fer jo\Nha desaparegut.
+Dialogue: 0,0:03:17.24,0:03:20.52,White,,0,0,0,,Estic convençut\Nque el vaig veure aquí fa uns dies.
+Dialogue: 0,0:03:20.60,0:03:22.60,Yellow,,0,0,0,,(veu Conan) Potser el gamberro\Nque ha destrossat el jardí
+Dialogue: 0,0:03:22.68,0:03:24.48,Yellow,,0,0,0,,l'ha trencat sense adonar-se'n.
+Dialogue: 0,0:03:24.56,0:03:26.56,White,,0,0,0,,Com es pot ser tan mala persona?
+Dialogue: 0,0:03:26.64,0:03:29.32,White,,0,0,0,,Veig que ens en haurem d'encarregar nosaltres sols, d'aquest cas.
+Dialogue: 0,0:03:29.40,0:03:31.68,White,,0,0,0,,-Esclar.
+Dialogue: 0,0:03:29.40,0:03:31.68,White,,0,0,0,,-Descobrirem qui és.
+Dialogue: 0,0:03:31.76,0:03:33.76,White,,0,0,0,,-Eh?
+Dialogue: 0,0:03:31.76,0:03:33.76,White,,0,0,0,,-No ho podeu fer sols.
+Dialogue: 0,0:03:33.84,0:03:37.96,White,,0,0,0,,Sigui qui sigui, si actua de nit,\Nhaureu de venir amb un adult.
+Dialogue: 0,0:03:38.04,0:03:40.96,Cyan,,0,0,0,,Vinga, pare. Has de complir\Nel que els has promès!
+Dialogue: 0,0:03:41.96,0:03:45.44,Yellow,,0,0,0,,(Shinichi, pensa) "Ha-ha-ha!\NJa tenim aquí el gran detectiu..."
+Dialogue: 0,0:03:45.84,0:03:48.28,White,,0,0,0,,Bah! No tinc ganes de fer de cangur.
+Dialogue: 0,0:03:48.80,0:03:51.32,White,,0,0,0,,(dona) Hola, nois.\NHeu vingut tots, avui?
+Dialogue: 0,0:03:55.36,0:03:57.36,White,,0,0,0,,Qui... qui és aquesta bellesa?
+Dialogue: 0,0:03:57.68,0:04:00.68,White,,0,0,0,,(tots alhora) Bon dia,\Nsenyoretes Yamazaki i Saki.
+Dialogue: 0,0:04:01.20,0:04:04.88,White,,0,0,0,,Renoi... Últimament cada matí\Nens ho trobem igual, això.
+Dialogue: 0,0:04:05.76,0:04:08.64,White,,0,0,0,,Disculpi. Vostè treballa\Nal centre cívic, senyoreta?
+Dialogue: 0,0:04:09.08,0:04:12.20,White,,0,0,0,,Sí, sí, això mateix. Qui és vostè?
+Dialogue: 0,0:04:12.56,0:04:15.20,White,,0,0,0,,Hola. Soc el famós detectiu\NKogoro Mouri.
+Dialogue: 0,0:04:15.28,0:04:18.56,White,,0,0,0,,M'han demanat que investigui\Nels actes vandàlics del jardí.
+Dialogue: 0,0:04:19.16,0:04:21.16,White,,0,0,0,,Diu que és... detectiu?
+Dialogue: 0,0:04:21.40,0:04:24.56,White,,0,0,0,,Vinga, ja n'hi ha prou de xerrameca!\NHem d'arreglar tot això.
+Dialogue: 0,0:04:25.08,0:04:27.08,White,,0,0,0,,Sí, sí. Disculpi.
+Dialogue: 0,0:04:32.24,0:04:34.24,White,,0,0,0,,Ja soc aquí.
+Dialogue: 0,0:04:34.80,0:04:36.80,White,,0,0,0,,Ja ho tornen a fer malament, això.
+Dialogue: 0,0:04:37.20,0:04:40.24,White,,0,0,0,,Aquesta mena de coses no es poden deixar en mans d'aficionats.
+Dialogue: 0,0:04:40.40,0:04:42.68,White,,0,0,0,,Vostè dediqui's a fer la seva feina
+Dialogue: 0,0:04:42.76,0:04:44.76,White,,0,0,0,,i no es fiqui on no el demanen,\Nsi pot ser.
+Dialogue: 0,0:04:45.00,0:04:47.40,White,,0,0,0,,La meva feina, precisament,\Nés fer de jardiner.
+Dialogue: 0,0:04:48.12,0:04:49.60,White,,0,0,0,,No els sortirà car.
+Dialogue: 0,0:04:49.76,0:04:52.44,White,,0,0,0,,A veure...,els plançons, més l'adob,\Nmés la mà d'obra,
+Dialogue: 0,0:04:52.52,0:04:54.88,White,,0,0,0,,tot plegat sortiria\Nper un total de...
+Dialogue: 0,0:04:55.24,0:04:57.24,White,,0,0,0,,Ja li he dit que no el necessitem.
+Dialogue: 0,0:04:57.40,0:05:00.96,White,,0,0,0,,L'únic que busquen tots plegats\Nés la manera de treure'ns els diners!
+Dialogue: 0,0:05:01.68,0:05:03.48,Yellow,,0,0,0,,(Shinichi, pensa) "Tots plegats?"
+Dialogue: 0,0:05:03.72,0:05:06.48,White,,0,0,0,,Bé, aquí té el pressupost\Namb el descompte.
+Dialogue: 0,0:05:08.44,0:05:11.28,White,,0,0,0,,La senyoreta Yamazaki ja li ha dit\Nque no li interessa.
+Dialogue: 0,0:05:11.36,0:05:13.08,White,,0,0,0,,-Ah!
+Dialogue: 0,0:05:11.36,0:05:13.08,White,,0,0,0,,-Tu no t'hi fiquis.
+Dialogue: 0,0:05:14.04,0:05:16.08,White,,0,0,0,,-Calli!
+Dialogue: 0,0:05:14.04,0:05:16.08,White,,0,0,0,,-Es pot saber què fa?!
+Dialogue: 0,0:05:16.16,0:05:18.16,White,,0,0,0,,Aquests terrenys eren meus, abans.
+Dialogue: 0,0:05:18.24,0:05:21.32,White,,0,0,0,,Hi puc fer el que em doni la gana,\Nnomés faltaria!
+Dialogue: 0,0:05:21.40,0:05:23.40,White,,0,0,0,,Com està? S'ha fet mal?
+Dialogue: 0,0:05:23.56,0:05:25.36,White,,0,0,0,,No, no, estic bé...
+Dialogue: 0,0:05:26.08,0:05:29.96,White,,0,0,0,,El famós detectiu Kogoro Mouri\Nno pot tolerar cap mena d'agressió
+Dialogue: 0,0:05:30.04,0:05:32.04,White,,0,0,0,,contra una dona tan guapa!
+Dialogue: 0,0:05:32.12,0:05:33.92,White,,0,0,0,,Ha dit "detectiu"?
+Dialogue: 0,0:05:40.68,0:05:43.88,White,,0,0,0,,Per tant, l'acte vandàlic\Nté lloc en algun moment...
+Dialogue: 0,0:05:43.96,0:05:47.80,White,,0,0,0,,des que se'n van a casa al vespre\Nfins a primera hora del matí.
+Dialogue: 0,0:05:47.88,0:05:51.68,White,,0,0,0,,-Avui és el tercer dia.
+Dialogue: 0,0:05:47.88,0:05:51.68,White,,0,0,0,,-Quant fa que va començar tot plegat?
+Dialogue: 0,0:05:51.76,0:05:54.04,White,,0,0,0,,Disculpin, els matins\Nestic molt enfeinada.
+Dialogue: 0,0:05:54.60,0:05:56.92,White,,0,0,0,,Ja n'hi ha prou,\Nde jugar a detectius.
+Dialogue: 0,0:05:57.08,0:05:59.08,White,,0,0,0,,A veure, ¿coneix algú...
+Dialogue: 0,0:05:59.16,0:06:01.64,White,,0,0,0,,que estigui interessat a perjudicar el centre cívic?
+Dialogue: 0,0:06:02.04,0:06:06.12,White,,0,0,0,,-Es refereix a ell, oi?
+Dialogue: 0,0:06:02.04,0:06:06.12,White,,0,0,0,,-Doncs només se m'acut un nom...
+Dialogue: 0,0:06:06.28,0:06:08.28,White,,0,0,0,,-(nens) Mm!
+Dialogue: 0,0:06:06.28,0:06:08.28,White,,0,0,0,,-Mm?
+Dialogue: 0,0:06:08.36,0:06:10.16,White,,0,0,0,,Eh?
+Dialogue: 0,0:06:10.24,0:06:12.28,White,,0,0,0,,Ei, no heu d'anar a l'escola, vosaltres?
+Dialogue: 0,0:06:15.76,0:06:18.00,Cyan,,0,0,0,,És aquí, on fan els totxos\Npel jardinet?
+Dialogue: 0,0:06:18.08,0:06:19.84,White,,0,0,0,,Sí.
+Dialogue: 0,0:06:19.92,0:06:24.12,White,,0,0,0,,Tots tenen formes i mides diferents, perquè els fan els nens a mà.
+Dialogue: 0,0:06:24.52,0:06:26.72,White,,0,0,0,,La persona\Nque trepitja les flors cada nit
+Dialogue: 0,0:06:26.88,0:06:29.24,White,,0,0,0,,també esclafa les il·lusions\Ndels nens.
+Dialogue: 0,0:06:29.68,0:06:31.68,White,,0,0,0,,Segur que aquesta nit hi tornarà!
+Dialogue: 0,0:06:32.12,0:06:34.52,White,,0,0,0,,Si ha vingut tres vegades,\Nn'hi haurà una quarta, segur.
+Dialogue: 0,0:06:34.92,0:06:39.44,White,,0,0,0,,Aquesta nit vindrem amb el senyor\NMouri i l'enxamparem en plena acció.
+Dialogue: 0,0:06:39.92,0:06:41.92,White,,0,0,0,,(tots) Hip, hip, hurra!
+Dialogue: 0,0:06:42.44,0:06:45.48,White,,0,0,0,,Quina empenta que tenen, oi?
+Dialogue: 0,0:06:42.44,0:06:45.48,Yellow,,0,0,0,,(veu Shinichi) Mira-te'ls.
+Dialogue: 0,0:06:46.52,0:06:50.32,White,,0,0,0,,Ah, sí? O sigui que els seus pares\Nsón els amos d'aquella cafeteria?
+Dialogue: 0,0:06:50.40,0:06:52.68,White,,0,0,0,,La veritat és que hi passo sovint,\Nper aquella zona.
+Dialogue: 0,0:06:53.24,0:06:56.24,White,,0,0,0,,La pròxima vegada, entri.\NEl convidarem a una cervesa.
+Dialogue: 0,0:06:56.32,0:07:00.32,White,,0,0,0,,De debò? La pròxima vegada podria ser aquesta nit mateix.
+Dialogue: 0,0:07:00.40,0:07:02.48,Cyan,,0,0,0,,Ei!
+Dialogue: 0,0:07:00.40,0:07:02.48,White,,0,0,0,,Eh? Aquesta nit?
+Dialogue: 0,0:07:02.56,0:07:04.96,White,,0,0,0,,Ai, ai, ai...!
+Dialogue: 0,0:07:02.56,0:07:04.96,Cyan,,0,0,0,,Ja n'hi ha prou, de flirtejar!
+Dialogue: 0,0:07:05.36,0:07:08.00,White,,0,0,0,,Senyor Kogoro,\Nvolem venir aquest vespre...
+Dialogue: 0,0:07:08.08,0:07:10.80,White,,0,0,0,,per atrapar el gamberro\Nque ens destrossa el jardí.
+Dialogue: 0,0:07:10.88,0:07:12.88,White,,0,0,0,,-A les 8 va bé?
+Dialogue: 0,0:07:10.88,0:07:12.88,White,,0,0,0,,-Eh? Ah...
+Dialogue: 0,0:07:12.96,0:07:15.52,White,,0,0,0,,-Ha-ha-ha!
+Dialogue: 0,0:07:12.96,0:07:15.52,White,,0,0,0,,-Entesos, entesos.
+Dialogue: 0,0:07:16.16,0:07:20.24,White,,0,0,0,,-Eh? Sí, m'ho diuen sovint.
+Dialogue: 0,0:07:16.16,0:07:20.24,White,,0,0,0,,-És molt amable amb els nens.
+Dialogue: 0,0:07:20.32,0:07:23.28,White,,0,0,0,,Els detectius castiguem els forts\Ni protegim els febles,
+Dialogue: 0,0:07:23.36,0:07:25.36,White,,0,0,0,,ho portem a la sang.
+Dialogue: 0,0:07:28.32,0:07:31.40,White,,0,0,0,,Què hi dieu, nois?\NVoleu que us acompanyi a l'escola?
+Dialogue: 0,0:07:32.32,0:07:34.32,White,,0,0,0,,Ens veiem aquest vespre, doncs.
+Dialogue: 0,0:07:34.72,0:07:37.72,White,,0,0,0,,Ah, per cert! Un momentet, Ayumi.
+Dialogue: 0,0:07:38.44,0:07:41.96,White,,0,0,0,,Això és per tu.\NT'ho vaig prometre l'altre dia.
+Dialogue: 0,0:07:42.48,0:07:45.96,White,,0,0,0,,Només floreix a les nits,\Nl'he collit del jardí de casa.
+Dialogue: 0,0:07:46.12,0:07:48.16,White,,0,0,0,,Oh, quina il·lusió! Moltes gràcies.
+Dialogue: 0,0:07:48.24,0:07:51.28,White,,0,0,0,,En tinc una altra bosseta.\NSi la vols, és per tu.
+Dialogue: 0,0:07:51.80,0:07:54.36,White,,0,0,0,,-Ha-ha-ha!
+Dialogue: 0,0:07:51.80,0:07:54.36,White,,0,0,0,,-Moltes gràcies.
+Dialogue: 0,0:07:58.84,0:08:02.08,White,,0,0,0,,-Moltes gràcies, Saki.
+Dialogue: 0,0:07:58.84,0:08:02.08,White,,0,0,0,,-Tingui, una altra.
+Dialogue: 0,0:08:03.64,0:08:06.12,White,,0,0,0,,Benvinguts. Hola.
+Dialogue: 0,0:08:07.60,0:08:10.20,Yellow,,0,0,0,,(veu Conan) Ostres! Què hi fa, aquí?
+Dialogue: 0,0:08:07.60,0:08:10.20,White,,0,0,0,,Eh?
+Dialogue: 0,0:08:10.28,0:08:12.08,White,,0,0,0,,La mare està de viatge
+Dialogue: 0,0:08:12.16,0:08:14.28,White,,0,0,0,,i vinc a treballar a les nits\Nper donar un cop de mà.
+Dialogue: 0,0:08:14.64,0:08:18.48,Cyan,,0,0,0,,Quina cafeteria més acollidora!\NOi que ha dit que també vivien aquí?
+Dialogue: 0,0:08:18.96,0:08:22.04,White,,0,0,0,,Sí, casa nostra és aquí mateix,\Nal pis de dalt.
+Dialogue: 0,0:08:22.52,0:08:25.04,Cyan,,0,0,0,,Res, gràcies.
+Dialogue: 0,0:08:22.52,0:08:25.04,White,,0,0,0,,Què vols prendre?
+Dialogue: 0,0:08:25.12,0:08:27.12,Cyan,,0,0,0,,Només he vingut a buscar el pare.
+Dialogue: 0,0:08:27.96,0:08:31.52,Cyan,,0,0,0,,Pare, que no te'n recordes,\Nque has quedat amb els nens a les 8?
+Dialogue: 0,0:08:31.60,0:08:35.12,White,,0,0,0,,No me'n puc anar sense prendre'm\Nuna altra cervesa de la Saki!
+Dialogue: 0,0:08:35.20,0:08:38.12,Yellow,,0,0,0,,(Shinichi, pensa) "Quan se li fica una cosa al cap..."
+Dialogue: 0,0:08:38.40,0:08:42.92,Cyan,,0,0,0,,Quina vergonya!
+Dialogue: 0,0:08:38.40,0:08:42.92,White,,0,0,0,,Em sap greu, l'he fet beure massa.
+Dialogue: 0,0:08:46.04,0:08:48.32,White,,0,0,0,,(Genta) Fem tard\Nper culpa del senyor Mouri.
+Dialogue: 0,0:08:49.32,0:08:52.84,White,,0,0,0,,Ja són les 10, el culpable deu haver tocat el dos fa estona.
+Dialogue: 0,0:08:52.92,0:08:55.16,White,,0,0,0,,Espero que el jardinet estigui bé...
+Dialogue: 0,0:08:56.84,0:08:58.84,White,,0,0,0,,Oh! Les flors!
+Dialogue: 0,0:09:00.48,0:09:02.48,White,,0,0,0,,-(tots) Eh?!
+Dialogue: 0,0:09:00.48,0:09:02.48,White,,0,0,0,,-(Ayumi) Aaaah!
+Dialogue: 0,0:09:02.56,0:09:04.56,Yellow,,0,0,0,,(veu Conan) Què ha passat?
+Dialogue: 0,0:09:10.60,0:09:13.00,White,,0,0,0,,És la senyoreta Yamazaki.
+Dialogue: 0,0:09:13.16,0:09:15.72,White,,0,0,0,,Ran, avisa l'ambulància\Ni la policia.
+Dialogue: 0,0:09:15.88,0:09:17.08,Cyan,,0,0,0,,Sí!
+Dialogue: 0,0:09:19.28,0:09:21.08,Yellow,,0,0,0,,(veu Shinichi) Eh?
+Dialogue: 0,0:09:19.28,0:09:21.08,White,,0,0,0,,Kudo, has vist allò?
+Dialogue: 0,0:09:23.60,0:09:25.60,Yellow,,0,0,0,,És un pètal...
+Dialogue: 0,0:09:25.80,0:09:28.56,Yellow,,0,0,0,,(veu Conan) Eh?\NSenyor Mouri, atrapi'l!
+Dialogue: 0,0:09:28.64,0:09:30.44,White,,0,0,0,,Eh?
+Dialogue: 0,0:09:31.80,0:09:33.60,White,,0,0,0,,No t'escaparàs!
+Dialogue: 0,0:09:40.84,0:09:42.84,White,,0,0,0,,(tots) Ja el tenim!
+Dialogue: 0,0:09:43.44,0:09:45.24,White,,0,0,0,,-Però si és...
+Dialogue: 0,0:09:43.44,0:09:45.24,White,,0,0,0,,-Ah!
+Dialogue: 0,0:09:45.32,0:09:47.36,White,,0,0,0,,El florista!
+Dialogue: 0,0:09:51.48,0:09:55.44,White,,0,0,0,,La víctima es diu Toshiko Yamazaki i treballava al centre cívic de Beika.
+Dialogue: 0,0:09:55.60,0:09:58.80,White,,0,0,0,,L'hora aproximada de la mort són\Nles 8 del vespre.
+Dialogue: 0,0:09:58.96,0:10:01.00,White,,0,0,0,,Tot i que té senyals de cops\Nper tot el cos,
+Dialogue: 0,0:10:01.08,0:10:03.40,White,,0,0,0,,a causa de la mort és l'impacte\Nal cap
+Dialogue: 0,0:10:03.48,0:10:06.00,White,,0,0,0,,d'un dels totxos\Nque hi havia a terra.
+Dialogue: 0,0:10:06.20,0:10:09.40,White,,0,0,0,,La ferida coincideix amb la forma\Ndels totxos del marge del jardí.
+Dialogue: 0,0:10:09.56,0:10:11.56,White,,0,0,0,,Aquests totxos els fan els nens\Na mà,
+Dialogue: 0,0:10:11.72,0:10:13.72,White,,0,0,0,,de manera que no n'hi ha enlloc més.
+Dialogue: 0,0:10:13.88,0:10:15.36,White,,0,0,0,,L'han trobat ells.
+Dialogue: 0,0:10:15.52,0:10:17.52,Green,,0,0,0,,No hauríeu de voltar sols,\Na aquestes hores.
+Dialogue: 0,0:10:17.60,0:10:19.60,White,,0,0,0,,És que volíem atrapar el gamberro.
+Dialogue: 0,0:10:20.28,0:10:22.48,White,,0,0,0,,No estàvem sols,\Nhem vingut amb el senyor Mouri.
+Dialogue: 0,0:10:22.56,0:10:24.36,Green,,0,0,0,,Entesos, entesos...
+Dialogue: 0,0:10:25.28,0:10:29.48,White,,0,0,0,,El senyor Okuda té una floristeria.
+Dialogue: 0,0:10:25.28,0:10:29.48,Green,,0,0,0,,I aquest home qui és?
+Dialogue: 0,0:10:29.56,0:10:33.32,White,,0,0,0,,Estava amagat aquí quan hem trobat\Nel cos i després ha intentat fugir.
+Dialogue: 0,0:10:33.64,0:10:35.44,White,,0,0,0,,Però l'hem aturat.
+Dialogue: 0,0:10:36.44,0:10:39.68,White,,0,0,0,,Aquest home li té molta mania\Nal centre cívic.
+Dialogue: 0,0:10:39.76,0:10:41.52,Green,,0,0,0,,Qui és, vostè?
+Dialogue: 0,0:10:41.68,0:10:43.96,White,,0,0,0,,Treballava amb la senyoreta\NYamazaki.
+Dialogue: 0,0:10:44.12,0:10:47.60,White,,0,0,0,,La floristeria d'aquest home estava situada on som ara fins fa un any,
+Dialogue: 0,0:10:47.68,0:10:50.60,White,,0,0,0,,però l'hi van expropiar\Nper construir-hi el centre cívic.
+Dialogue: 0,0:10:50.68,0:10:54.40,White,,0,0,0,,Encara no ho ha paït, per això\Nens destrossa el jardinet cada nit.
+Dialogue: 0,0:10:54.80,0:10:57.28,White,,0,0,0,,És veritat, em van obligar\Na traslladar la floristeria...
+Dialogue: 0,0:10:57.36,0:10:59.16,White,,0,0,0,,i el negoci ja no em va tan bé.
+Dialogue: 0,0:10:59.48,0:11:01.48,White,,0,0,0,,És normal que estigui empipat, no?
+Dialogue: 0,0:11:02.28,0:11:04.28,White,,0,0,0,,Soc jo, qui destrossa el jardí, sí.
+Dialogue: 0,0:11:04.92,0:11:06.96,White,,0,0,0,,Però avui, quan he arribat,
+Dialogue: 0,0:11:07.12,0:11:11.04,White,,0,0,0,,ja estava tot regirat i m'he trobat\Naquella dona estesa a terra.
+Dialogue: 0,0:11:11.12,0:11:13.12,Green,,0,0,0,,Mm...
+Dialogue: 0,0:11:11.12,0:11:13.12,White,,0,0,0,,(Kogoro) Inspector.
+Dialogue: 0,0:11:14.68,0:11:17.04,White,,0,0,0,,Tot sembla indicar\Nque la senyoreta Yamazaki
+Dialogue: 0,0:11:17.12,0:11:19.92,White,,0,0,0,,ha caigut des d'aquell replà\Nde l'escala d'incendis.
+Dialogue: 0,0:11:20.76,0:11:22.56,White,,0,0,0,,Sí, segons el forense,
+Dialogue: 0,0:11:22.64,0:11:26.04,White,,0,0,0,,al replà del tercer pis de l'escala d'incendis hi ha diverses petjades
+Dialogue: 0,0:11:26.12,0:11:28.16,White,,0,0,0,,que es corresponen\Namb les sabates de la víctima
+Dialogue: 0,0:11:28.24,0:11:30.32,White,,0,0,0,,i les botes de goma del senyor Okuda.
+Dialogue: 0,0:11:31.44,0:11:33.24,White,,0,0,0,,Ja ho tinc, inspector.
+Dialogue: 0,0:11:33.40,0:11:35.32,White,,0,0,0,,Avui, a les 8 del vespre,
+Dialogue: 0,0:11:35.48,0:11:38.00,White,,0,0,0,,el senyor Okuda ha discutit\Namb la senyoreta Yamazaki
+Dialogue: 0,0:11:38.08,0:11:40.08,White,,0,0,0,,al replà del tercer pis.
+Dialogue: 0,0:11:40.16,0:11:42.16,White,,0,0,0,,Han forcejat breument\Ni ell l'ha empès.
+Dialogue: 0,0:11:42.24,0:11:44.24,White,,0,0,0,,S'ha espantat i ha fugit,
+Dialogue: 0,0:11:44.32,0:11:48.24,White,,0,0,0,,però ha tornat cap a les 10 de la nit i ha coincidit amb nosaltres,
+Dialogue: 0,0:11:48.32,0:11:50.64,White,,0,0,0,,que veníem a fer la ronda nocturna.
+Dialogue: 0,0:11:51.12,0:11:52.12,White,,0,0,0,,No.
+Dialogue: 0,0:11:52.28,0:11:55.20,White,,0,0,0,,L'escala d'incendis és l'únic lloc\Non es pot fumar,
+Dialogue: 0,0:11:55.36,0:11:57.52,White,,0,0,0,,i aquest matí hi he pujat\Na fer un cigarret.
+Dialogue: 0,0:11:58.32,0:12:01.96,White,,0,0,0,,Ha vingut aquella dona a fer-me fora\Ni hem tingut una picabaralla.
+Dialogue: 0,0:12:02.36,0:12:05.36,Green,,0,0,0,,Mm! I a les 8 del vespre,\Nl'hora del crim?
+Dialogue: 0,0:12:06.20,0:12:09.28,Green,,0,0,0,,Podria dir-me on era i què feia,\Nsi és tan amable?
+Dialogue: 0,0:12:09.44,0:12:12.60,White,,0,0,0,,He sortit amb la furgoneta\Na repartir un ram de flors.
+Dialogue: 0,0:12:12.76,0:12:15.44,White,,0,0,0,,Però era un encàrrec fals,\Nl'adreça no existia.
+Dialogue: 0,0:12:15.60,0:12:18.32,White,,0,0,0,,M'he passat una bona estona\Nfent voltes pels carrers.
+Dialogue: 0,0:12:18.48,0:12:21.44,Green,,0,0,0,,Anava sol, o hi ha algú\Nque ho pugui corroborar?
+Dialogue: 0,0:12:21.60,0:12:24.92,Green,,0,0,0,,Això vol dir que no té coartada.
+Dialogue: 0,0:12:21.60,0:12:24.92,White,,0,0,0,,Anava sol.
+Dialogue: 0,0:12:25.76,0:12:27.76,Green,,0,0,0,,Ens haurà d'acompanyar a comissaria.
+Dialogue: 0,0:12:28.48,0:12:30.28,White,,0,0,0,,Sí.
+Dialogue: 0,0:12:28.48,0:12:30.28,Green,,0,0,0,,Ei!
+Dialogue: 0,0:12:31.68,0:12:34.28,White,,0,0,0,,Jo no he fet res.\NHi ha hagut un error!
+Dialogue: 0,0:12:35.28,0:12:39.44,Green,,0,0,0,,De totes maneres, què hi feia,\Naquí, la senyoreta Yamazaki,
+Dialogue: 0,0:12:39.60,0:12:41.08,Green,,0,0,0,,a les 8 del vespre?
+Dialogue: 0,0:12:41.24,0:12:44.96,White,,0,0,0,,Daixò..., la senyoreta Yamazaki\Nhavia vingut a buscar això.
+Dialogue: 0,0:12:45.12,0:12:48.76,White,,0,0,0,,Jo soc la comptable.\NÚltimament, els números no sortien.
+Dialogue: 0,0:12:49.20,0:12:51.60,White,,0,0,0,,Hi havia un desfalc\Nen el fons d'operacions.
+Dialogue: 0,0:12:51.76,0:12:54.00,White,,0,0,0,,Sí.
+Dialogue: 0,0:12:51.76,0:12:54.00,Green,,0,0,0,,Un desfalc?
+Dialogue: 0,0:12:54.16,0:12:58.08,White,,0,0,0,,La senyoreta Yamazaki ens robava.\NSabia que jo l'havia descobert.
+Dialogue: 0,0:12:58.16,0:13:00.72,White,,0,0,0,,Per això aquest vespre ha vingut\Na eliminar les proves.
+Dialogue: 0,0:13:01.20,0:13:03.92,White,,0,0,0,,Però jo ja havia amagat el llibre\Nde comptabilitat.
+Dialogue: 0,0:13:04.08,0:13:05.60,White,,0,0,0,,Ara ho entenc!
+Dialogue: 0,0:13:05.76,0:13:09.48,White,,0,0,0,,S'ha trobat el senyor Okuda i ell l'ha empès daltabaix de l'escala.
+Dialogue: 0,0:13:10.72,0:13:13.12,Green,,0,0,0,,Tot encaixa, sí senyor.
+Dialogue: 0,0:13:13.28,0:13:15.44,White,,0,0,0,,Es nota que és detectiu!\NUna deducció brillant.
+Dialogue: 0,0:13:16.04,0:13:19.68,White,,0,0,0,,I ara! Aquest cas ha sigut\Nbufar i fer ampolles. Ha-ha-ha!
+Dialogue: 0,0:13:24.04,0:13:27.92,White,,0,0,0,,Em sembla que aquí hi ha algú\Nque no ho acaba de veure clar.
+Dialogue: 0,0:13:28.00,0:13:30.28,Yellow,,0,0,0,,(veu Shinichi) Fixa-t'hi.
+Dialogue: 0,0:13:30.96,0:13:34.28,White,,0,0,0,,Què són aquestes línies?\NSemblen marques d'un cordó.
+Dialogue: 0,0:13:35.04,0:13:38.28,Yellow,,0,0,0,,A la senyoreta Yamazaki\Nse li deu haver deslligat una sabata
+Dialogue: 0,0:13:38.36,0:13:40.36,Yellow,,0,0,0,,durant el forcejament.
+Dialogue: 0,0:13:40.44,0:13:42.44,Yellow,,0,0,0,,Sí.
+Dialogue: 0,0:13:40.44,0:13:42.44,White,,0,0,0,,Doncs aquí hi ha gat amagat.
+Dialogue: 0,0:13:43.28,0:13:45.56,Yellow,,0,0,0,,El cadàver tenia els cordons\Nben lligats.
+Dialogue: 0,0:13:46.52,0:13:48.32,Yellow,,0,0,0,,Això vol dir...
+Dialogue: 0,0:13:51.96,0:13:55.92,Yellow,,0,0,0,,(veu Conan) Inspector Takagi.\NI el pètal que hi havia al cadàver?
+Dialogue: 0,0:13:56.00,0:13:58.00,White,,0,0,0,,Ah, sí. Aquest, vols dir?
+Dialogue: 0,0:13:58.08,0:14:00.08,Green,,0,0,0,,Ha caigut en un jardí,
+Dialogue: 0,0:14:01.20,0:14:03.96,Green,,0,0,0,,no és estrany\Nque tingués un pètal entre la roba.
+Dialogue: 0,0:14:04.16,0:14:06.76,White,,0,0,0,,Sí.
+Dialogue: 0,0:14:04.16,0:14:06.76,Green,,0,0,0,,Però fes-lo analitzar per si de cas.
+Dialogue: 0,0:14:12.68,0:14:15.76,White,,0,0,0,,Aquell pètal no és\Nde cap de les flors del jardinet.
+Dialogue: 0,0:14:15.84,0:14:19.64,Yellow,,0,0,0,,(veu Shinichi) No. I ara té un color més clar que quan l'hem trobat.
+Dialogue: 0,0:14:19.72,0:14:21.52,Yellow,,0,0,0,,I si fos...?
+Dialogue: 0,0:14:23.96,0:14:26.40,Yellow,,0,0,0,,(veu Conan) La bosseta d'abans?
+Dialogue: 0,0:14:23.96,0:14:26.40,White,,0,0,0,,Què?
+Dialogue: 0,0:14:29.28,0:14:31.56,Yellow,,0,0,0,,(Shinichi, pensa) "Esclar que sí."
+Dialogue: 0,0:14:29.28,0:14:31.56,White,,0,0,0,,Sí.
+Dialogue: 0,0:14:31.64,0:14:34.96,Yellow,,0,0,0,,"Ja sé què ha passat. El problema\Nés que no en tinc cap prova."
+Dialogue: 0,0:14:35.28,0:14:37.80,White,,0,0,0,,Que bé que per fi hagin trobat\Nel culpable, oi?
+Dialogue: 0,0:14:38.20,0:14:41.36,White,,0,0,0,,Oh, i tant! Ara ja no ens faran malbé\Nel jardinet.
+Dialogue: 0,0:14:41.84,0:14:43.44,White,,0,0,0,,Doncs a mi no em sembla bé.
+Dialogue: 0,0:14:43.76,0:14:46.76,White,,0,0,0,,Ningú m'ha dit encara on ha anat\Na parar el totxo que vaig fer jo!
+Dialogue: 0,0:14:49.48,0:14:51.84,Yellow,,0,0,0,,(Shinichi, pens) "Calla.\NPotser la prova encara és allà!"
+Dialogue: 0,0:15:00.92,0:15:03.36,White,,0,0,0,,(veu Kogoro) Vaja!\NAmagant proves, eh.
+Dialogue: 0,0:15:04.84,0:15:07.36,White,,0,0,0,,O sigui que al final ha sigut vostè.
+Dialogue: 0,0:15:08.36,0:15:10.60,White,,0,0,0,,Ha estat a punt d'enganyar-me,\Nho reconec.
+Dialogue: 0,0:15:13.00,0:15:17.40,White,,0,0,0,,Un cadàver ple de cops,\Nels totxos del voltant del jardí...
+Dialogue: 0,0:15:17.56,0:15:19.04,White,,0,0,0,,Tot semblava indicar
+Dialogue: 0,0:15:19.20,0:15:21.64,White,,0,0,0,,que la senyoreta Yamazaki havia caigut per l'escala d'incendis.
+Dialogue: 0,0:15:23.16,0:15:27.48,White,,0,0,0,,Al replà hi havia les seves petjades barrejades amb les del senyor Okuda.
+Dialogue: 0,0:15:28.20,0:15:31.48,White,,0,0,0,,Així semblava ben bé\Nque el senyor Okuda hagués assassinat
+Dialogue: 0,0:15:31.56,0:15:33.88,White,,0,0,0,,la senyoreta Yamazaki\Nper ressentiment.
+Dialogue: 0,0:15:34.92,0:15:38.00,White,,0,0,0,,Vostè ha intentat inculpar-lo\Ndeixant-lo sense coartada,
+Dialogue: 0,0:15:38.08,0:15:40.08,White,,0,0,0,,però ha comès dos errors.
+Dialogue: 0,0:15:41.28,0:15:45.00,White,,0,0,0,,El primer ha sigut el cordó\Nde la sabata de la víctima.
+Dialogue: 0,0:15:45.16,0:15:48.64,White,,0,0,0,,A més de les petjades de la víctima\Ni del senyor Okuda,
+Dialogue: 0,0:15:48.80,0:15:51.00,White,,0,0,0,,al replà hi havia les marques\Nd'un cordó.
+Dialogue: 0,0:15:52.20,0:15:55.24,White,,0,0,0,,Probablement a la víctima\Nse li ha deslligat la sabata
+Dialogue: 0,0:15:55.40,0:15:57.64,White,,0,0,0,,mentre forcejava,
+Dialogue: 0,0:15:57.80,0:16:01.76,White,,0,0,0,,però quan l'hem trobat estesa a terra portava els cordons ben lligats.
+Dialogue: 0,0:16:02.68,0:16:04.88,White,,0,0,0,,Per tant, això demostra...
+Dialogue: 0,0:16:05.04,0:16:07.92,White,,0,0,0,,que la senyoreta Yamazaki\Nno ha caigut per l'escala.
+Dialogue: 0,0:16:08.84,0:16:12.84,White,,0,0,0,,Oh, són molt boniques, les flors\Ndel test que té damunt del taulell.
+Dialogue: 0,0:16:13.44,0:16:17.16,White,,0,0,0,,Aquestes flors que floreixen de nit\Nes diuen onagres, oi?
+Dialogue: 0,0:16:17.32,0:16:20.56,White,,0,0,0,,Quan s'obren al capvespre\Nsón blanques i,
+Dialogue: 0,0:16:20.72,0:16:23.48,White,,0,0,0,,a mesura que avança la nit,\Nes tornen de color rosa.
+Dialogue: 0,0:16:24.44,0:16:27.68,White,,0,0,0,,El pètal d'aquesta flor és\Nel segon error que ha comès.
+Dialogue: 0,0:16:28.52,0:16:31.00,White,,0,0,0,,Com que les onagres només\Nfloreixen de nit,
+Dialogue: 0,0:16:31.16,0:16:33.76,White,,0,0,0,,al jardí infantil no n'hi ha.
+Dialogue: 0,0:16:33.92,0:16:37.20,White,,0,0,0,,Malgrat tot, a l'esquena del cadàver\Nhi havia un pètal d'aquesta flor.
+Dialogue: 0,0:16:42.48,0:16:44.60,White,,0,0,0,,L'aroma de l'onagra ha sigut\Nel rastre
+Dialogue: 0,0:16:44.68,0:16:46.68,White,,0,0,0,,que m'ha guiat fins a vostè.
+Dialogue: 0,0:16:47.76,0:16:49.76,White,,0,0,0,,M'equivoco, senyoreta Okamura?
+Dialogue: 0,0:16:49.84,0:16:52.40,White,,0,0,0,,Li puc ben assegurar\Nque no sé de què em parla.
+Dialogue: 0,0:16:53.04,0:16:56.48,White,,0,0,0,,El cordó de la sabata l'hi deu haver\Ncordat algú altre.
+Dialogue: 0,0:16:56.64,0:16:59.08,White,,0,0,0,,I pel que fa a les onagres,\Nse'n troben a qualsevol lloc.
+Dialogue: 0,0:16:59.60,0:17:02.60,White,,0,0,0,,L'assassí ha sigut l'home\Nque ens destrossava el jardí.
+Dialogue: 0,0:17:03.32,0:17:06.52,White,,0,0,0,,(veu Kogoro) Sí, tothom sabia\Nque qui venia a aixafar les flors...
+Dialogue: 0,0:17:06.60,0:17:08.40,White,,0,0,0,,era el senyor Okuda.
+Dialogue: 0,0:17:08.48,0:17:11.28,White,,0,0,0,,Com que estava amb l'aigua al coll,\Nes dedicava a fer malbé jardins...
+Dialogue: 0,0:17:11.36,0:17:14.80,White,,0,0,0,,per poder vendre plançons i bulbs\Ni fer petites reparacions.
+Dialogue: 0,0:17:15.52,0:17:19.12,White,,0,0,0,,Llavors, vostè ha ideat un pla\Nper castigar el florista.
+Dialogue: 0,0:17:20.52,0:17:22.80,White,,0,0,0,,Aquest matí l'ha vist discutir\Namb la seva companya
+Dialogue: 0,0:17:22.88,0:17:24.68,White,,0,0,0,,a l'escala d'incendis,
+Dialogue: 0,0:17:24.76,0:17:27.08,White,,0,0,0,,i ha decidit que aquell seria\Nl'escenari del crim.
+Dialogue: 0,0:17:28.28,0:17:30.44,White,,0,0,0,,Per deixar el senyor Okuda\Nsense coartada,
+Dialogue: 0,0:17:30.52,0:17:32.52,White,,0,0,0,,li ha fet entregar un encàrrec\Na les 8 del vespre
+Dialogue: 0,0:17:32.60,0:17:34.40,White,,0,0,0,,amb una adreça falsa.
+Dialogue: 0,0:17:35.32,0:17:36.80,White,,0,0,0,,Però que no ho veu?
+Dialogue: 0,0:17:36.96,0:17:40.16,White,,0,0,0,,La senyoreta Yamazaki ha mort\Na les 8 del vespre.
+Dialogue: 0,0:17:40.32,0:17:42.32,White,,0,0,0,,A aquella hora jo estava\Ntreballant a la cafeteria,
+Dialogue: 0,0:17:42.48,0:17:45.96,White,,0,0,0,,m'hi he estat des de les 7\Nfins a dos quarts de 10.
+Dialogue: 0,0:17:46.12,0:17:49.16,White,,0,0,0,,Ja ho sap, m'ha vist\Namb els seus propis ulls.
+Dialogue: 0,0:17:49.32,0:17:53.12,White,,0,0,0,,És veritat que des d'aquí fins\Nal centre cívic hi ha 5 quilòmetres.
+Dialogue: 0,0:17:53.28,0:17:56.88,White,,0,0,0,,Es tarden 10 minuts ben bons\Na anar i tornar amb cotxe.
+Dialogue: 0,0:17:58.40,0:18:00.40,White,,0,0,0,,Com a teoria no està malament,
+Dialogue: 0,0:18:00.48,0:18:03.16,White,,0,0,0,,però hi trobo a faltar la part\Nmés important.
+Dialogue: 0,0:18:03.24,0:18:05.28,White,,0,0,0,,Quan han mort la senyoreta Yamazaki,
+Dialogue: 0,0:18:05.36,0:18:07.48,White,,0,0,0,,jo no podia ser a l'escenari del crim de cap manera.
+Dialogue: 0,0:18:08.00,0:18:10.76,White,,0,0,0,,-Què?!
+Dialogue: 0,0:18:08.00,0:18:10.76,White,,0,0,0,,-(veu Kogoro) La clau són els totxos.
+Dialogue: 0,0:18:11.24,0:18:14.52,White,,0,0,0,,Aprofitant els actes vandàlics\Nque van començar fa 3 dies,
+Dialogue: 0,0:18:14.68,0:18:16.76,White,,0,0,0,,vostè s'ha anat emportant totxos\Ndel jardinet
+Dialogue: 0,0:18:16.92,0:18:18.52,White,,0,0,0,,sense que ningú se n'adonés,
+Dialogue: 0,0:18:18.68,0:18:21.48,White,,0,0,0,,i ha construït un petit marge\Nal pati de la cafeteria.
+Dialogue: 0,0:18:27.20,0:18:30.40,White,,0,0,0,,La senyoreta Yamazaki\Nno l'han assassinat al centre cívic,
+Dialogue: 0,0:18:30.56,0:18:32.04,White,,0,0,0,,sinó en aquesta casa.
+Dialogue: 0,0:18:32.20,0:18:34.40,White,,0,0,0,,Per tant, la seva coartada\Ns'ha ensorrat.
+Dialogue: 0,0:18:34.72,0:18:38.84,White,,0,0,0,,Tot plegat era un truc enginyós per amagar l'autèntic escenari del crim.
+Dialogue: 0,0:18:39.76,0:18:43.32,White,,0,0,0,,Ha convidat la senyoreta Yamazaki abans d'obrir la cafeteria,
+Dialogue: 0,0:18:43.40,0:18:45.84,White,,0,0,0,,li ha fet respirar alguna cosa\Nper adormir-la
+Dialogue: 0,0:18:46.16,0:18:49.92,White,,0,0,0,,i ha estat treballant aquí\Ndes de les 7 fins a dos quarts de 10
+Dialogue: 0,0:18:50.00,0:18:52.00,White,,0,0,0,,per fabricar-se una coartada.
+Dialogue: 0,0:18:52.48,0:18:55.64,White,,0,0,0,,Cap a les 8, ha sortit 5 minuts\Nde darrere el taulell...
+Dialogue: 0,0:18:55.72,0:18:57.72,White,,0,0,0,,fent veure que anava al lavabo.
+Dialogue: 0,0:18:58.12,0:19:00.48,White,,0,0,0,,Li ha posat les sabates\Na la senyoreta Yamazaki,
+Dialogue: 0,0:19:00.64,0:19:02.44,White,,0,0,0,,que estava inconscient,
+Dialogue: 0,0:19:02.52,0:19:04.84,White,,0,0,0,,i l'ha llançat des del segon pis\Nfins al jardí,
+Dialogue: 0,0:19:04.92,0:19:08.36,White,,0,0,0,,on havia construït el marge\Namb els totxos del centre cívic.
+Dialogue: 0,0:19:08.88,0:19:12.12,White,,0,0,0,,Llavors, un pètal d'onagra\Nse li ha enganxat a la roba.
+Dialogue: 0,0:19:12.68,0:19:15.72,White,,0,0,0,,Després ha amagat el cadàver\Nal maleter del cotxe i,
+Dialogue: 0,0:19:15.96,0:19:18.88,White,,0,0,0,,quan ha tancat la cafeteria,\Nha portat el cos al centre cívic.
+Dialogue: 0,0:19:20.08,0:19:22.60,White,,0,0,0,,Aquest matí m'ha sentit parlar\Namb els nens
+Dialogue: 0,0:19:22.76,0:19:26.60,White,,0,0,0,,i ha sabut que pensàvem fer\Nuna ronda de vigilància nocturna.
+Dialogue: 0,0:19:26.76,0:19:30.20,White,,0,0,0,,Ha pensat que, si traslladava el cos\Nabans que arribéssim,
+Dialogue: 0,0:19:30.36,0:19:32.56,White,,0,0,0,,podríem confirmar la seva coartada.
+Dialogue: 0,0:19:33.44,0:19:35.44,White,,0,0,0,,Tot el que ha dit des del principi
+Dialogue: 0,0:19:35.60,0:19:37.60,White,,0,0,0,,només existeix\Nen la seva imaginació!
+Dialogue: 0,0:19:38.12,0:19:40.56,White,,0,0,0,,No té cap prova que m'inculpi,\Noi que no?!
+Dialogue: 0,0:19:40.88,0:19:42.96,White,,0,0,0,,Al seu jardí encara hi deu haver\Nels totxos
+Dialogue: 0,0:19:43.12,0:19:45.12,White,,0,0,0,,que ha agafat del centre cívic.
+Dialogue: 0,0:19:45.28,0:19:47.08,Yellow,,0,0,0,,(veu Conan) Sí!
+Dialogue: 0,0:19:45.28,0:19:47.08,White,,0,0,0,,Endavant, Conan.
+Dialogue: 0,0:19:50.32,0:19:53.72,Yellow,,0,0,0,,Apa! Tenia raó, senyor Mouri.\NHi ha un cabàs ple de totxos.
+Dialogue: 0,0:19:54.00,0:19:55.84,White,,0,0,0,,(veu Kogoro) Després de traslladar\Nel cos,
+Dialogue: 0,0:19:56.00,0:19:59.04,White,,0,0,0,,ha hagut d'anar a comissaria\Nperquè la interroguessin,
+Dialogue: 0,0:19:59.20,0:20:02.12,White,,0,0,0,,i no ha tingut temps de venir\Na desfer-se de les proves.
+Dialogue: 0,0:20:02.96,0:20:06.00,White,,0,0,0,,Si analitzem els totxos,\Nsegur que hi trobarem restes...
+Dialogue: 0,0:20:06.08,0:20:08.56,White,,0,0,0,,de l'assassinat\Nde la senyoreta Yamazaki.
+Dialogue: 0,0:20:11.28,0:20:13.88,White,,0,0,0,,A partir d'aquí només són hipòtesis,
+Dialogue: 0,0:20:14.04,0:20:17.40,White,,0,0,0,,però la responsable del desfalc\Nen els comptes és vostè, oi?
+Dialogue: 0,0:20:17.96,0:20:21.68,White,,0,0,0,,La senyoreta Yamazaki devia estar a punt de descobrir-la i li feia nosa.
+Dialogue: 0,0:20:22.52,0:20:25.12,White,,0,0,0,,És veritat, tinc molts deutes.
+Dialogue: 0,0:20:25.76,0:20:29.24,White,,0,0,0,,I treballant a la cafeteria de nits\Nno guanyava prou diners.
+Dialogue: 0,0:20:29.32,0:20:31.72,White,,0,0,0,,Vaig robar diners del centre cívic.
+Dialogue: 0,0:20:32.88,0:20:34.88,White,,0,0,0,,La Yamazaki em va descobrir
+Dialogue: 0,0:20:34.96,0:20:37.56,White,,0,0,0,,i em va amenaçar que em despatxarien\Nsi sortia a la llum.
+Dialogue: 0,0:20:38.28,0:20:41.48,White,,0,0,0,,Per això... per això...\Nhe hagut de...
+Dialogue: 0,0:20:42.76,0:20:44.76,White,,0,0,0,,(somica)
+Dialogue: 0,0:20:48.80,0:20:56.08,Songs,,0,0,0,,Miagetara haru no ame\Nmachi ni orite kita.
+Dialogue: 0,0:20:56.60,0:21:03.12,Songs,,0,0,0,,Kimi no aruku michi nurashite yuku.
+Dialogue: 0,0:21:04.64,0:21:12.32,Songs,,0,0,0,,Kinou sasatta toge no you\Nna kimi no kotoba hitotsu.
+Dialogue: 0,0:21:12.56,0:21:18.88,Songs,,0,0,0,,Mada honto wa nani mo shiranai yo.
+Dialogue: 0,0:21:18.96,0:21:20.64,Songs,,0,0,0,,
+Dialogue: 0,0:21:21.60,0:21:24.84,Songs,,0,0,0,,Sunao ni nareba
+Dialogue: 0,0:21:25.68,0:21:28.96,Songs,,0,0,0,,kodoku nante nai yo
+Dialogue: 0,0:21:29.52,0:21:36.56,Songs,,0,0,0,,hitori de wa nai kara!
+Dialogue: 0,0:21:37.76,0:21:41.00,Songs,,0,0,0,,Donna mirai
+Dialogue: 0,0:21:41.76,0:21:44.60,Songs,,0,0,0,,kimi to mirai.
+Dialogue: 0,0:21:45.72,0:21:54.20,Songs,,0,0,0,,Sono hitomi no shita he to tashikame ni iku yo.
+Dialogue: 0,0:21:54.80,0:22:01.80,Songs,,0,0,0,,Yukkuri to orite iku kara!
+Dialogue: 0,0:22:05.08,0:22:08.04,White,,0,0,0,,Visca! Ha aparegut el meu totxo\Nsa i estalvi!
+Dialogue: 0,0:22:08.72,0:22:11.16,White,,0,0,0,,Què hi va dibuixar, en Genta,\Nal seu totxo?
+Dialogue: 0,0:22:11.24,0:22:13.04,White,,0,0,0,,A veure? Ensenya'ns-el.
+Dialogue: 0,0:22:13.28,0:22:15.28,White,,0,0,0,,-El voleu veure? Tatxan!
+Dialogue: 0,0:22:16.44,0:22:20.00,White,,0,0,0,,-Ja ho heu endevinat?
+Dialogue: 0,0:22:16.44,0:22:20.00,White,,0,0,0,,-Eh? No em diguis que això és...?
+Dialogue: 0,0:22:20.64,0:22:22.64,White,,0,0,0,,Sí, arròs amb anguiles!
+Dialogue: 0,0:22:23.72,0:22:26.80,Yellow,,0,0,0,,(Shinichi, pensa) "Ha-ha-ha!"
+Dialogue: 0,0:22:23.72,0:22:26.80,White,,0,0,0,,(tots dos) Una altra vegada?!
+Dialogue: 0,0:22:26.88,0:22:28.88,Yellow,,0,0,0,,La seva passió\Nper l'arròs amb anguiles
+Dialogue: 0,0:22:28.96,0:22:30.76,Yellow,,0,0,0,,és més forta que qualsevol totxo.
+Dialogue: 0,0:22:33.28,0:22:35.92,White,,0,0,0,,Sé que la meva germana gran\Nno s'hauria suïcidat mai!
+Dialogue: 0,0:22:36.32,0:22:39.72,Yellow,,0,0,0,,Si tu mateixa ho vas veure, per què penses que no es va suïcidar?
+Dialogue: 0,0:22:40.28,0:22:44.20,White,,0,0,0,,Dona, no sé què dir-te. I treballen junts a la mateixa acadèmia.
+Dialogue: 0,0:22:44.64,0:22:48.32,White,,0,0,0,,Per això em nego a creure que allò que vaig veure fos un suïcidi!
+Dialogue: 0,0:22:48.72,0:22:51.64,White,,0,0,0,,Ho hauré de fer per convèncer\Naquella noia
+Dialogue: 0,0:22:51.72,0:22:53.52,White,,0,0,0,,i intentar que ho deixi córrer.
+Dialogue: 0,0:22:53.60,0:22:55.60,White,,0,0,0,,Ha-ha! És part de la meva feina.
+Dialogue: 0,0:22:56.36,0:22:58.36,Yellow,,0,0,0,,(veu Conan) "No us perdeu\Nel pròxim episodi:
+Dialogue: 0,0:22:58.44,0:23:00.44,Yellow,,0,0,0,,"'La finestra de l'acadèmia\Nde noies'."

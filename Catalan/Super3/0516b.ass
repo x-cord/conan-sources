@@ -1,0 +1,571 @@
+[Script Info]
+Title: Detective Conan - 0516b - El Furinkazan. El guerrer de l'armadura en un laberint (2a part)
+TL Source: Super3
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: White,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Cyan,Arial,60,&H00FFFF00,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Green,Arial,60,&H00008000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Yellow,Arial,60,&H0000FFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Songs,Arial,60,&H000000FF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Songs2,Arial,60,&H0032CD9A,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.36,0:00:03.36,Yellow,,0,0,0,,"S'obre el teló de l'era dels misteris."
+Dialogue: 0,0:00:03.52,0:00:05.72,Yellow,,0,0,0,,"No us perdeu l'espectacle de les deduccions."
+Dialogue: 0,0:00:05.80,0:00:07.68,Yellow,,0,0,0,,"Els tresors de Shingen. El misteri del Furinkazan."
+Dialogue: 0,0:00:07.84,0:00:09.84,Yellow,,0,0,0,,"Els crits de la Ran i la Kazuha ressonen amb angoixa."
+Dialogue: 0,0:00:10.00,0:00:12.00,Yellow,,0,0,0,,"La veritat sempre s'acaba sabent."
+Dialogue: 0,0:00:12.16,0:00:15.56,Yellow,,0,0,0,,"Sembla un nen però té el cervell d'un adult i és el detectiu Conan!"
+Dialogue: 0,0:00:15.64,0:00:20.00,Songs,,0,0,0,,Kakushiteokitai himitsu ga kimi ni atta toshitemo.
+Dialogue: 0,0:00:22.60,0:00:26.80,Songs,,0,0,0,,Boku nimo utagawareteshimau koto ga aru youni!
+Dialogue: 0,0:00:29.72,0:00:34.40,Songs,,0,0,0,,Aishisugiru kara yori fukaku shirou to shiteshimau.
+Dialogue: 0,0:00:37.48,0:00:41.24,Songs,,0,0,0,,Tsuki no uragawa ni futari no kokoro ha oiteikou!
+Dialogue: 0,0:00:43.44,0:00:47.16,Songs,,0,0,0,,Nigitta te no nukumori ga
+Dialogue: 0,0:00:47.64,0:00:50.64,Songs,,0,0,0,,hitotsu no tashikana mono.
+Dialogue: 0,0:00:51.72,0:00:56.88,Songs,,0,0,0,,Subete wo shitteshimau to sore ijou susumenai ki ga suru...
+Dialogue: 0,0:00:58.56,0:01:00.28,Songs,,0,0,0,,Mysterious!
+Dialogue: 0,0:01:00.64,0:01:04.56,Songs,,0,0,0,,Mysterious na mama dakiai tokeaitai!
+Dialogue: 0,0:01:05.16,0:01:08.44,Songs,,0,0,0,,Tsukiakari ni kimi ni oboreru.
+Dialogue: 0,0:01:08.52,0:01:11.76,Songs,,0,0,0,,Nanatsu no nazo no kimi no hohoemi!
+Dialogue: 0,0:01:12.08,0:01:17.64,Songs,,0,0,0,,Masui no youna show no makuake!
+Dialogue: 0,0:01:18.84,0:01:22.88,Songs,,0,0,0,,Mysterious, na mama kimi iro ni somaritai!
+Dialogue: 0,0:01:23.56,0:01:26.92,Songs,,0,0,0,,Nazo mo mata tanoshikarazuya!
+Dialogue: 0,0:01:27.00,0:01:30.24,Songs,,0,0,0,,Muboubi ni kimi wo shinjikiru yo.
+Dialogue: 0,0:01:30.60,0:01:36.56,Songs,,0,0,0,,Tokei shikake no show ga hajimaru!
+Dialogue: 0,0:01:36.64,0:01:44.68,Songs,,0,0,0,,
+Dialogue: 0,0:01:49.12,0:01:51.32,White,,0,0,0,,(Kazuha) És veritat. Ho hem vist, oi que sí?
+Dialogue: 0,0:01:52.16,0:01:54.68,Cyan,,0,0,0,,No ens ho hem imaginat, oi, Ran?No.
+Dialogue: 0,0:01:54.76,0:01:57.36,Cyan,,0,0,0,,Ho hem vist, no eren imaginacions nostres.
+Dialogue: 0,0:01:57.72,0:01:59.52,White,,0,0,0,,Vols dir? N'estàs segura?
+Dialogue: 0,0:02:00.20,0:02:02.00,White,,0,0,0,,Kazuha! Què us passa?
+Dialogue: 0,0:02:02.08,0:02:04.44,White,,0,0,0,,Ah, ei, Heiji. Hem vist una cosa estranya.
+Dialogue: 0,0:02:04.52,0:02:06.28,White,,0,0,0,,I què heu vist?
+Dialogue: 0,0:02:06.36,0:02:09.08,White,,0,0,0,,L'hem vist aquesta nit, amb la claror d'un llamp que ha caigut.
+Dialogue: 0,0:02:09.16,0:02:11.16,Cyan,,0,0,0,,Sí, l'hem vist darrere la porta de vidre.
+Dialogue: 0,0:02:11.24,0:02:15.80,Cyan,,0,0,0,,Sí, por-portava una armadura.Era un guerrer errant!
+Dialogue: 0,0:02:16.20,0:02:18.88,White,,0,0,0,,-Què? Un guerrer errant?!-Quina armadura portava?
+Dialogue: 0,0:02:18.96,0:02:20.84,White,,0,0,0,,¿La que era l'habitació d'en Shigetsugu
+Dialogue: 0,0:02:20.92,0:02:22.60,White,,0,0,0,,que van fer servir al festival?
+Dialogue: 0,0:02:22.68,0:02:24.36,Cyan,,0,0,0,,No, no era aquesta!
+Dialogue: 0,0:02:24.44,0:02:27.24,Cyan,,0,0,0,,L'armadura que portava tenia una mata de cabells al casc.
+Dialogue: 0,0:02:27.32,0:02:31.24,White,,0,0,0,,És el casc del clan Suwa Hossyo, el casc de Shingen Takeda!
+Dialogue: 0,0:02:31.32,0:02:34.80,White,,0,0,0,,Has dit "Takeda"? Vols dir l'armadura vermella?
+Dialogue: 0,0:02:36.24,0:02:38.84,Yellow,,0,0,0,,Però, era vermella, l'armadura?
+Dialogue: 0,0:02:41.00,0:02:45.16,White,,0,0,0,,No ho sé, nosaltres només n'hem vist la silueta. Eh?
+Dialogue: 0,0:02:47.48,0:02:52.04,White,,0,0,0,,Ah... Ah... Aaaaaaaaaaaaaah!
+Dialogue: 0,0:02:52.88,0:02:55.32,White,,0,0,0,,(Akira) Què? Que l'Ayaka s'ha tancat al lavabo?
+Dialogue: 0,0:02:56.00,0:02:58.72,White,,0,0,0,,I dius que estàveu parlant de l'armadura de Shingen Takeda?
+Dialogue: 0,0:02:59.12,0:03:02.28,White,,0,0,0,,-Ei, Ayaka! Què et passa?-No facis un espectacle! Va, surt!
+Dialogue: 0,0:03:02.36,0:03:04.40,White,,0,0,0,,-(porta: continua trucant)-Ayaka! Ayaka!
+Dialogue: 0,0:03:04.48,0:03:06.60,White,,0,0,0,,(mòbil: vibra)
+Dialogue: 0,0:03:08.04,0:03:12.44,White,,0,0,0,,Es pot saber què passa? On és, la meva jove? Aquí no hi és pas.
+Dialogue: 0,0:03:12.60,0:03:15.64,White,,0,0,0,,No ho entenc. Li asseguro que fa un moment era aquí dins.
+Dialogue: 0,0:03:16.04,0:03:18.36,White,,0,0,0,,M'ha dit que volia estar sola una estona,
+Dialogue: 0,0:03:18.52,0:03:20.52,White,,0,0,0,,no sabia què fer i me n'he anat.
+Dialogue: 0,0:03:20.68,0:03:22.80,White,,0,0,0,,Ha de ser per aquí, no pot haver anat gaire lluny.
+Dialogue: 0,0:03:22.96,0:03:24.68,White,,0,0,0,,Ens hem de separar i buscar-la.
+Dialogue: 0,0:03:24.76,0:03:27.88,White,,0,0,0,,-Jo sortiré a buscar-la amb la moto.-Jo agafaré el cotxe!
+Dialogue: 0,0:03:28.00,0:03:30.72,White,,0,0,0,,L'Akira, la Yui i jo la buscarem a cavall!
+Dialogue: 0,0:03:31.32,0:03:33.16,White,,0,0,0,,Els altres la buscarem a peu!
+Dialogue: 0,0:03:34.00,0:03:36.20,White,,0,0,0,,-Ayaka!-On ets?!
+Dialogue: 0,0:03:37.20,0:03:40.24,White,,0,0,0,,-On ets, Ayaka?-Ayaka!
+Dialogue: 0,0:03:40.64,0:03:42.72,White,,0,0,0,,Ayaka! Ayaka!
+Dialogue: 0,0:03:43.64,0:03:46.64,White,,0,0,0,,-Ayaka, contesta!-Ayaka!
+Dialogue: 0,0:03:47.04,0:03:49.88,White,,0,0,0,,-Ayaka!-On ets, Ayaka?
+Dialogue: 0,0:03:51.64,0:03:53.64,White,,0,0,0,,Quan he arribat...
+Dialogue: 0,0:03:58.52,0:04:00.36,White,,0,0,0,,...me l'he trobat així.
+Dialogue: 0,0:04:01.28,0:04:03.12,Cyan,,0,0,0,,Conan, tu no hauries de...
+Dialogue: 0,0:04:05.96,0:04:07.76,White,,0,0,0,,(xisclen)
+Dialogue: 0,0:04:08.00,0:04:10.20,White,,0,0,0,,-Què passa?-Qui ha cridat?
+Dialogue: 0,0:04:10.44,0:04:13.16,White,,0,0,0,,Ah! L'Ayaka està, l'Ayaka està...
+Dialogue: 0,0:04:14.28,0:04:16.40,White,,0,0,0,,Ayaka! Ayakaaaa!
+Dialogue: 0,0:04:16.48,0:04:18.24,White,,0,0,0,,Quiets tots!
+Dialogue: 0,0:04:19.24,0:04:21.48,White,,0,0,0,,Aquesta zona ara està sota control policial!
+Dialogue: 0,0:04:22.32,0:04:24.52,White,,0,0,0,,Qualsevol que hi entri se les haurà de veure amb mi!
+Dialogue: 0,0:04:24.88,0:04:26.64,White,,0,0,0,,Però què...?
+Dialogue: 0,0:04:29.00,0:04:32.32,White,,0,0,0,,Tu, la del cavall negre, surt del mig! Va, espavila!
+Dialogue: 0,0:04:32.40,0:04:34.20,White,,0,0,0,,D'acord.
+Dialogue: 0,0:04:35.12,0:04:36.84,White,,0,0,0,,Eh? Però què...?
+Dialogue: 0,0:04:38.24,0:04:40.40,White,,0,0,0,,No pot ser.... Ella no!
+Dialogue: 0,0:04:40.48,0:04:42.32,White,,0,0,0,,Però què ha passat?
+Dialogue: 0,0:04:48.32,0:04:50.16,White,,0,0,0,,Res, és morta.
+Dialogue: 0,0:04:50.68,0:04:53.28,White,,0,0,0,,Ei, Uehara, confirma l'hora, sisplau.
+Dialogue: 0,0:04:53.52,0:04:56.72,White,,0,0,0,,Ah, sí. Són les 8.59.
+Dialogue: 0,0:04:57.68,0:05:00.48,White,,0,0,0,,Ai, perdona. Ho sento, és el costum...
+Dialogue: 0,0:05:02.40,0:05:05.32,Yellow,,0,0,0,,No... passa res."El costum", ha dit?
+Dialogue: 0,0:05:05.44,0:05:07.60,White,,0,0,0,,-El costum?-Soc jo.
+Dialogue: 0,0:05:07.80,0:05:09.72,White,,0,0,0,,Hi ha hagut un mort al bosc de la família Torada.
+Dialogue: 0,0:05:10.00,0:05:12.20,White,,0,0,0,,Envieu l'equip del forense immediatament.
+Dialogue: 0,0:05:12.80,0:05:15.48,White,,0,0,0,,Sí, i tant. Això és cosa d'un assassí en sèrie.
+Dialogue: 0,0:05:15.80,0:05:17.96,White,,0,0,0,,Un... un assassí en sèrie?
+Dialogue: 0,0:05:18.28,0:05:19.92,White,,0,0,0,,Seguríssim.
+Dialogue: 0,0:05:20.00,0:05:21.96,White,,0,0,0,,Primer van assassinar en Yoshiro Torada,
+Dialogue: 0,0:05:22.12,0:05:25.12,White,,0,0,0,,el van deixar morir després... que el malferís un tornado.
+Dialogue: 0,0:05:26.64,0:05:29.00,White,,0,0,0,,Després van assassinar en Koji Tatsuo.
+Dialogue: 0,0:05:29.16,0:05:32.16,White,,0,0,0,,El van colpejar, el van lligar... i el van enterrar.
+Dialogue: 0,0:05:33.56,0:05:35.40,White,,0,0,0,,Com en els dos casos anteriors,
+Dialogue: 0,0:05:35.48,0:05:37.48,White,,0,0,0,,el d'en Yoshiro Torada i el d'en Koji Tatsuo,
+Dialogue: 0,0:05:37.56,0:05:41.72,White,,0,0,0,,al costat del cadàver de l'Ayaka Tatsuo... hi ha un centpeus mort!
+Dialogue: 0,0:05:42.96,0:05:44.60,White,,0,0,0,,Què?!
+Dialogue: 0,0:05:45.36,0:05:48.04,White,,0,0,0,,A més a més, el terra al voltant del centpeus...
+Dialogue: 0,0:05:48.12,0:05:50.88,White,,0,0,0,,està molt humit per la pluja que ha caigut fa poc,
+Dialogue: 0,0:05:51.48,0:05:53.36,White,,0,0,0,,però no hi ha cap empremta visible
+Dialogue: 0,0:05:53.44,0:05:55.84,White,,0,0,0,,tret de les meves petjades i la meva crossa.
+Dialogue: 0,0:05:56.12,0:05:58.44,White,,0,0,0,,Segons tots els indicis, després de ploure,
+Dialogue: 0,0:05:58.60,0:06:00.60,White,,0,0,0,,ningú s'ha acostat a aquest arbre.
+Dialogue: 0,0:06:00.76,0:06:03.60,White,,0,0,0,,Per força hauria deixat empremtes, tal com està el terra del voltant.
+Dialogue: 0,0:06:03.68,0:06:05.44,White,,0,0,0,,Per això...
+Dialogue: 0,0:06:06.56,0:06:08.20,Yellow,,0,0,0,,És impossible.
+Dialogue: 0,0:06:08.96,0:06:11.64,White,,0,0,0,,És un assassinat... impossible.
+Dialogue: 0,0:06:16.56,0:06:19.16,White,,0,0,0,,(Kogoro) Un assassinat impossible, eh?
+Dialogue: 0,0:06:19.44,0:06:22.60,White,,0,0,0,,Però, sempre hi ha la possibilitat que les seves empremtes...
+Dialogue: 0,0:06:22.68,0:06:25.64,White,,0,0,0,,fossin aquí abans que despengessin el cos de la noia,
+Dialogue: 0,0:06:26.04,0:06:29.96,White,,0,0,0,,no és veritat, inspector, que sempre és al lloc oportú al moment oportú?
+Dialogue: 0,0:06:32.36,0:06:34.52,White,,0,0,0,,Quan he arribat a casa dels Torada,
+Dialogue: 0,0:06:34.68,0:06:36.68,White,,0,0,0,,m'han dit que tothom estava buscant l'Ayaka Tatsuo,
+Dialogue: 0,0:06:36.84,0:06:38.84,White,,0,0,0,,és per això que he vingut aquí...
+Dialogue: 0,0:06:39.00,0:06:43.16,White,,0,0,0,,Ja, però sembla molta casualitat. ¿No podria ser...
+Dialogue: 0,0:06:43.72,0:06:46.96,White,,0,0,0,,...que hagi trucat a l'Ayaka amb el mòbil perquè sortís del lavabo,
+Dialogue: 0,0:06:47.12,0:06:50.52,White,,0,0,0,,l'hagi mort, ho hagi arreglat tot perquè semblés un suïcidi...
+Dialogue: 0,0:06:50.68,0:06:53.44,White,,0,0,0,,i hagi tornat a la casa fent veure que no sabia res?
+Dialogue: 0,0:06:53.60,0:06:55.60,White,,0,0,0,,Això no pot ser.Eh?
+Dialogue: 0,0:06:55.68,0:06:59.00,Yellow,,0,0,0,,He vist com l'inspector de policia despenjava el cadàver de l'arbre...
+Dialogue: 0,0:07:00.64,0:07:03.28,Yellow,,0,0,0,,i a terra no hi havia ni empremtes seves ni de la crossa.
+Dialogue: 0,0:07:03.60,0:07:05.92,White,,0,0,0,,M'han dit que abans de tancar-se al lavabo,
+Dialogue: 0,0:07:06.08,0:07:08.08,White,,0,0,0,,s'ha comportat d'una manera molt estranya.
+Dialogue: 0,0:07:08.16,0:07:09.84,White,,0,0,0,,Es pot saber per què?
+Dialogue: 0,0:07:10.04,0:07:13.24,Cyan,,0,0,0,,Aquesta nit, a través de la porta de vidre de la nostra habitació,
+Dialogue: 0,0:07:13.40,0:07:16.56,Cyan,,0,0,0,,hem vist la silueta d'un guerrer amb armadura...
+Dialogue: 0,0:07:16.72,0:07:19.88,White,,0,0,0,,Quan hem dit que el casc era del clan Suwa Hossyo per la forma,
+Dialogue: 0,0:07:20.04,0:07:21.64,White,,0,0,0,,l'Ayaka ha començat a tremolar.
+Dialogue: 0,0:07:22.04,0:07:24.08,White,,0,0,0,,-És una maledicció.-Eeeh?
+Dialogue: 0,0:07:25.00,0:07:26.92,White,,0,0,0,,Estaven maleïts.
+Dialogue: 0,0:07:27.00,0:07:30.08,White,,0,0,0,,És la maledicció de Shingen Takeda el que els ha provocat la mort.
+Dialogue: 0,0:07:31.12,0:07:34.44,White,,0,0,0,,I el centpeus mort d'aquí és la prova d'aquesta maledicció.
+Dialogue: 0,0:07:35.60,0:07:38.96,White,,0,0,0,,Què... té a veure Shingen Takeda amb el centpeus?
+Dialogue: 0,0:07:39.12,0:07:40.88,White,,0,0,0,,No ho sap?
+Dialogue: 0,0:07:41.04,0:07:43.16,White,,0,0,0,,El senyor de la guerra Shingen Takeda
+Dialogue: 0,0:07:43.24,0:07:46.28,White,,0,0,0,,anomenava els seus soldats al camp de batalla "centpeus".
+Dialogue: 0,0:07:46.76,0:07:49.88,White,,0,0,0,,I els feia portar estendards amb la imatge d'un centpeus.
+Dialogue: 0,0:07:50.56,0:07:54.28,White,,0,0,0,,Sí, esclar! Sabia que havia vist un centpeus en algun lloc.
+Dialogue: 0,0:07:54.44,0:07:57.04,White,,0,0,0,,Hi havia algú que portava un estendard amb un centpeus
+Dialogue: 0,0:07:57.12,0:07:59.20,White,,0,0,0,,al simulacre de batalla que van fer al festival.
+Dialogue: 0,0:07:59.36,0:08:03.08,White,,0,0,0,,Com pensaves trobar el tresor, si una cosa tan elemental ni la sabies?
+Dialogue: 0,0:08:03.16,0:08:05.40,White,,0,0,0,,¿Llavors el... el tresor que busques
+Dialogue: 0,0:08:05.48,0:08:08.28,White,,0,0,0,,és el tresor del senyor de la guerra Shingen Takeda?
+Dialogue: 0,0:08:08.80,0:08:11.72,White,,0,0,0,,Sí, el tresor amagat de Shingen Takeda!
+Dialogue: 0,0:08:12.12,0:08:14.12,White,,0,0,0,,Des que vam trobar uns mapes i uns pergamins
+Dialogue: 0,0:08:14.28,0:08:16.12,White,,0,0,0,,que parlaven de la seva existència,
+Dialogue: 0,0:08:16.20,0:08:18.36,White,,0,0,0,,que en Shigetsugu no ha pensat en res més.
+Dialogue: 0,0:08:18.84,0:08:21.84,White,,0,0,0,,Els dos que van assassinar primer i la pobra Ayaka,
+Dialogue: 0,0:08:22.96,0:08:27.32,White,,0,0,0,,juntament... amb l'Akira Tatsuo, col·laboraven en la recerca.
+Dialogue: 0,0:08:28.52,0:08:30.36,White,,0,0,0,,No, no ho fèiem per diners.
+Dialogue: 0,0:08:30.68,0:08:33.56,White,,0,0,0,,Pensàvem que trobar el tresor seria bo per la nostra comunitat.
+Dialogue: 0,0:08:34.00,0:08:36.80,White,,0,0,0,,I... i per què havia d'estar maleïda, l'Ayaka?
+Dialogue: 0,0:08:36.88,0:08:39.80,White,,0,0,0,,L'únic que feia era venir al lloc de l'excavació
+Dialogue: 0,0:08:39.88,0:08:41.84,White,,0,0,0,,a portar-nos menjar i material.
+Dialogue: 0,0:08:42.28,0:08:44.24,White,,0,0,0,,No és cap maledicció, això.
+Dialogue: 0,0:08:44.44,0:08:46.92,White,,0,0,0,,És un cas típic d'assassinats en sèrie, res més.
+Dialogue: 0,0:08:47.84,0:08:49.80,White,,0,0,0,,El paio del bigoti té raó.
+Dialogue: 0,0:08:50.28,0:08:54.08,White,,0,0,0,,A la bossa de mà de l'Ayaka no hi he trobat el mòbil, no hi és.
+Dialogue: 0,0:08:54.64,0:08:57.72,White,,0,0,0,,Algú l'ha convençut perquè sortís del lloc on s'havia tancat,
+Dialogue: 0,0:08:57.88,0:09:00.92,White,,0,0,0,,és evident que només pot haver sigut el mateix assassí en sèrie.
+Dialogue: 0,0:09:01.88,0:09:05.60,White,,0,0,0,,Bé, si no volen acabar morts, val més que no rondin per aquí sols,
+Dialogue: 0,0:09:09.04,0:09:11.04,White,,0,0,0,,sobretot aquells que es dediquen
+Dialogue: 0,0:09:11.12,0:09:13.88,White,,0,0,0,,a buscar tresors amagats de senyors de la guerra.
+Dialogue: 0,0:09:18.32,0:09:21.60,White,,0,0,0,,(Heiji) Llavors, aquest guerrer amb l'armadura estava dret aquí?
+Dialogue: 0,0:09:21.76,0:09:24.96,White,,0,0,0,,Sí.Però ha desaparegut de seguida.
+Dialogue: 0,0:09:25.20,0:09:29.48,White,,0,0,0,,Però, per què no heu obert la porta i l'heu atrapat amb cops de karate?
+Dialogue: 0,0:09:29.76,0:09:33.36,Cyan,,0,0,0,,Doncs perquè estava petrificada, crèiem que era un fantasma!
+Dialogue: 0,0:09:33.56,0:09:36.12,White,,0,0,0,,I el karate i l'aikido no funcionen amb fantasmes.
+Dialogue: 0,0:09:36.20,0:09:38.80,White,,0,0,0,,Au, va! No hi ha cap fantasma, per aquí.
+Dialogue: 0,0:09:39.60,0:09:42.64,Yellow,,0,0,0,,Eh?Ei, tu què diries que és, això?
+Dialogue: 0,0:09:43.36,0:09:46.72,White,,0,0,0,,Una corda de plàstic de les que fan servir per empaquetar esfilagarsada.
+Dialogue: 0,0:09:47.80,0:09:50.24,Yellow,,0,0,0,,Hi ha fibres d'aquesta corda a terra del passadís.
+Dialogue: 0,0:09:50.32,0:09:51.32,White,,0,0,0,,Esclar!
+Dialogue: 0,0:09:51.44,0:09:55.40,White,,0,0,0,,Han agafat les fibres, les han lligat i les han enganxat a un casc.
+Dialogue: 0,0:09:56.44,0:09:58.84,White,,0,0,0,,"Per això la silueta que heu vist a través de la porta
+Dialogue: 0,0:09:58.92,0:10:01.60,White,,0,0,0,,us ha semblat que era la d'un casc de Shingen Takeda."
+Dialogue: 0,0:10:02.16,0:10:03.92,White,,0,0,0,,Llavors, han fet servir l'armadura...
+Dialogue: 0,0:10:04.00,0:10:05.84,White,,0,0,0,,que hi havia a l'habitació d'en Shigetsugu
+Dialogue: 0,0:10:05.92,0:10:07.72,White,,0,0,0,,i que fan servir als festivals.
+Dialogue: 0,0:10:07.80,0:10:09.56,Yellow,,0,0,0,,Pot ser. Mireu això.
+Dialogue: 0,0:10:09.76,0:10:12.44,Yellow,,0,0,0,,Heu vist quines petjades més estranyes de sandàlies?
+Dialogue: 0,0:10:13.40,0:10:15.96,White,,0,0,0,,(Heiji) Sí, i van cap a la porta del darrere.
+Dialogue: 0,0:10:16.32,0:10:19.44,White,,0,0,0,,Així, això vol dir que algú de fora ha entrat,
+Dialogue: 0,0:10:19.60,0:10:23.12,White,,0,0,0,,ha agafat l'armadura i ha creat la silueta del guerrer Shingen.
+Dialogue: 0,0:10:23.28,0:10:26.80,White,,0,0,0,,O això, o algú de la casa ha creat les petjades perquè ens pensem...
+Dialogue: 0,0:10:26.96,0:10:29.36,White,,0,0,0,,que és algú de fora qui ha entrat i ha agafat l'armadura.
+Dialogue: 0,0:10:29.44,0:10:31.00,White,,0,0,0,,Ara que hi penso,
+Dialogue: 0,0:10:31.16,0:10:33.16,White,,0,0,0,,en Shigetsugu ha dit que la seva no era l'única armadura,
+Dialogue: 0,0:10:33.32,0:10:35.60,White,,0,0,0,,que n'hi havia una altra a casa de l'Akira.
+Dialogue: 0,0:10:36.08,0:10:38.88,Yellow,,0,0,0,,Eh? Hi ha una altra armadura a l'altra casa?
+Dialogue: 0,0:10:38.96,0:10:40.28,White,,0,0,0,,Sí.
+Dialogue: 0,0:10:40.36,0:10:43.16,Cyan,,0,0,0,,Diuen que l'armadura de casa dels Tatsuo és molt bonica.
+Dialogue: 0,0:10:44.76,0:10:47.68,White,,0,0,0,,Llavors, serà millor que anem a fer una visita als Tatsuo.
+Dialogue: 0,0:10:47.76,0:10:50.04,White,,0,0,0,,Vosaltres quedeu-vos amb el pare de la Ran.
+Dialogue: 0,0:10:50.32,0:10:51.48,White,,0,0,0,,Què?!
+Dialogue: 0,0:10:51.72,0:10:55.60,White,,0,0,0,,I vostè, és important que no perdi de vista aquest buscador de recompenses,
+Dialogue: 0,0:10:55.68,0:10:57.24,White,,0,0,0,,en Shigetsugu!
+Dialogue: 0,0:10:57.32,0:11:00.60,White,,0,0,0,,-No sabem quina en porta de cap.-Ha! Sé molt bé què he de fer.
+Dialogue: 0,0:11:01.04,0:11:02.76,White,,0,0,0,,-Fins després!-No s'hi val!
+Dialogue: 0,0:11:02.96,0:11:05.04,White,,0,0,0,,Ens han tornat a deixar de banda.
+Dialogue: 0,0:11:05.12,0:11:08.60,Cyan,,0,0,0,,No t'enfadis. Diria que només ho fa perquè no vol que et passi res.
+Dialogue: 0,0:11:08.76,0:11:09.80,White,,0,0,0,,Mmm...
+Dialogue: 0,0:11:09.96,0:11:11.96,Cyan,,0,0,0,,Sí, veiem coses horribles molt sovint,
+Dialogue: 0,0:11:12.04,0:11:14.04,Cyan,,0,0,0,,i a vegades també ens persegueixen assassins.
+Dialogue: 0,0:11:14.56,0:11:16.40,White,,0,0,0,,Tu creus que és per això?
+Dialogue: 0,0:11:16.56,0:11:18.56,Cyan,,0,0,0,,I tant, ara es fa el desinteressat,
+Dialogue: 0,0:11:18.64,0:11:21.28,Cyan,,0,0,0,,i després començarà a presumir dels descobriments que ha fet.
+Dialogue: 0,0:11:21.44,0:11:24.32,White,,0,0,0,,En Shinichi també ho feia.Ah, sí?
+Dialogue: 0,0:11:24.60,0:11:28.40,Cyan,,0,0,0,,Ah, però en Shinichi no ho feia pas perquè jo li agradés ni res.
+Dialogue: 0,0:11:28.48,0:11:31.68,White,,0,0,0,,"Fes que la teva velocitat... sigui com la del vent."
+Dialogue: 0,0:11:32.08,0:11:34.36,White,,0,0,0,,-Eh?-T'agrada, oi que sí?
+Dialogue: 0,0:11:34.76,0:11:36.76,White,,0,0,0,,Diria que t'agrada molt, aquest noi tan moreno.
+Dialogue: 0,0:11:37.48,0:11:38.92,White,,0,0,0,,Jo... Jo...
+Dialogue: 0,0:11:39.48,0:11:43.40,White,,0,0,0,,Pots decidir esperar i quedar-te quieta com una muntanya,
+Dialogue: 0,0:11:45.00,0:11:47.92,White,,0,0,0,,mentre l'altre es mou amb la rapidesa del vent
+Dialogue: 0,0:11:48.08,0:11:50.56,White,,0,0,0,,i a tu la flama de l'amor encara et crema per dins.
+Dialogue: 0,0:11:52.52,0:11:54.64,White,,0,0,0,,Si et quedes quieta sense fer res
+Dialogue: 0,0:11:54.72,0:11:57.36,White,,0,0,0,,i no fas saber a aquesta persona el que sents,
+Dialogue: 0,0:11:57.52,0:11:59.56,White,,0,0,0,,desapareixerà de la teva vida...
+Dialogue: 0,0:11:59.72,0:12:01.92,White,,0,0,0,,i lamentaràs per sempre el que no t'has atrevit a fer,
+Dialogue: 0,0:12:03.40,0:12:05.24,White,,0,0,0,,com ara ho lamento jo...
+Dialogue: 0,0:12:05.80,0:12:11.48,White,,0,0,0,,(pas a nivell: senyal acústic)
+Dialogue: 0,0:12:11.60,0:12:13.84,White,,0,0,0,,És estrany, no trobes, Kudo?
+Dialogue: 0,0:12:14.16,0:12:17.40,Yellow,,0,0,0,,(veu Shinichi) Sí, la mordassa que tapava la boca...
+Dialogue: 0,0:12:17.68,0:12:19.40,White,,0,0,0,,(alhora) ...de l'Ayaka.
+Dialogue: 0,0:12:20.04,0:12:23.60,White,,0,0,0,,Primer he pensat que portava la mordassa perquè no pogués cridar,
+Dialogue: 0,0:12:23.76,0:12:25.88,White,,0,0,0,,però si vols que sembli un suïcidi
+Dialogue: 0,0:12:25.96,0:12:27.80,White,,0,0,0,,provocat per la maledicció de Shingen,
+Dialogue: 0,0:12:27.88,0:12:29.88,White,,0,0,0,,no l'hi posaries o l'hi trauries, no creus?
+Dialogue: 0,0:12:29.96,0:12:32.36,Yellow,,0,0,0,,Això vol dir que no l'hi van treure per alguna raó,
+Dialogue: 0,0:12:32.52,0:12:34.68,Yellow,,0,0,0,,o que l'hi van posar després expressament.
+Dialogue: 0,0:12:35.08,0:12:38.80,White,,0,0,0,,Ja, però per quina raó l'hi havien de posar, una mordassa, al cadàver?
+Dialogue: 0,0:12:39.04,0:12:41.40,White,,0,0,0,,És... és difícil que un cadàver pugui parlar.
+Dialogue: 0,0:12:41.76,0:12:43.92,Yellow,,0,0,0,,Potser es tracta d'un missatge per a algú.
+Dialogue: 0,0:12:44.00,0:12:46.80,Yellow,,0,0,0,,Per aconsellar-li que no parli, que no digui res.
+Dialogue: 0,0:12:46.88,0:12:49.88,White,,0,0,0,,(tren: s'acosta)
+Dialogue: 0,0:12:52.28,0:12:55.36,White,,0,0,0,,(Heiji) Ostres, és una armadura realment impressionant!
+Dialogue: 0,0:12:56.00,0:12:58.52,White,,0,0,0,,És vermella, com les armadures vermelles de Shingen?
+Dialogue: 0,0:12:58.60,0:12:59.84,White,,0,0,0,,Sí.
+Dialogue: 0,0:13:00.52,0:13:03.12,Yellow,,0,0,0,,Tenen relació amb la família de Shingen Takeda?
+Dialogue: 0,0:13:03.20,0:13:06.52,White,,0,0,0,,No. Ma mare i jo som uns admiradors de Shingen Takeda.
+Dialogue: 0,0:13:06.64,0:13:08.40,White,,0,0,0,,Hi hem invertit una fortuna.
+Dialogue: 0,0:13:08.72,0:13:13.20,White,,0,0,0,,El difunt petit Koji, el meu fill, i en Yoshiro Torada,
+Dialogue: 0,0:13:14.00,0:13:16.00,White,,0,0,0,,eren grans admiradors de Shingen.
+Dialogue: 0,0:13:16.16,0:13:18.00,White,,0,0,0,,Venien sovint a veure l'armadura.
+Dialogue: 0,0:13:18.16,0:13:20.40,White,,0,0,0,,Al meu altre fill, l'Akira, això no li interessa.
+Dialogue: 0,0:13:20.48,0:13:23.68,Yellow,,0,0,0,,Però... tant en Koji com l'Akira són fills seus, oi?
+Dialogue: 0,0:13:23.76,0:13:26.80,Yellow,,0,0,0,,Com és que a un li diu "petit Koji" i a l'altre només Akira?
+Dialogue: 0,0:13:27.12,0:13:29.12,White,,0,0,0,,Ah, en "petit Koji" és el meu gendre.
+Dialogue: 0,0:13:29.20,0:13:32.24,White,,0,0,0,,Es va casar amb la meva filla, que va néixer després de l'Akira.
+Dialogue: 0,0:13:32.32,0:13:34.12,White,,0,0,0,,Va adoptar el nom de la família.
+Dialogue: 0,0:13:34.20,0:13:35.96,White,,0,0,0,,Per desgràcia, la meva filla...
+Dialogue: 0,0:13:36.04,0:13:38.16,White,,0,0,0,,va morir fa molts anys en un accident de cotxe.
+Dialogue: 0,0:13:38.52,0:13:40.28,White,,0,0,0,,Molt abans de casar-se,
+Dialogue: 0,0:13:40.36,0:13:42.60,White,,0,0,0,,el petit Koji havia sigut company de classe de l'Akira,
+Dialogue: 0,0:13:42.68,0:13:44.48,White,,0,0,0,,i venia sovint aquí a casa.
+Dialogue: 0,0:13:44.56,0:13:46.32,White,,0,0,0,,Des d'aleshores que li dic "petit Koji".
+Dialogue: 0,0:13:46.84,0:13:50.08,White,,0,0,0,,Parlant de companys de classe, en Yoshiro i en Shigetsugu,
+Dialogue: 0,0:13:50.16,0:13:53.24,White,,0,0,0,,de la família Torada, també havien anat a la mateixa classe.
+Dialogue: 0,0:13:53.64,0:13:54.64,White,,0,0,0,,Mm...
+Dialogue: 0,0:13:54.72,0:13:58.04,White,,0,0,0,,Com pot ser que germans d'edats diferents vagin a la mateixa classe?
+Dialogue: 0,0:13:58.12,0:13:59.84,White,,0,0,0,,Ah, sí.
+Dialogue: 0,0:13:59.92,0:14:02.64,White,,0,0,0,,En Yoshiro era el fill de la germana gran d'en Naonobu Torada.
+Dialogue: 0,0:14:02.72,0:14:04.96,White,,0,0,0,,Ella i el seu marit van morir ja fa molts anys.
+Dialogue: 0,0:14:05.16,0:14:07.28,White,,0,0,0,,La família va decidir adoptar en Yoshiro,
+Dialogue: 0,0:14:07.36,0:14:10.52,White,,0,0,0,,i ell i en Shigetsugu van créixer junts com si fossin germans.
+Dialogue: 0,0:14:10.84,0:14:14.24,White,,0,0,0,,Aleshores, pel que em diu, els 3 que han mort fa poc...
+Dialogue: 0,0:14:14.32,0:14:17.64,White,,0,0,0,,no eren ni de la família Torada ni de la família Tatsuo, oi que no?
+Dialogue: 0,0:14:18.12,0:14:21.16,White,,0,0,0,,No. I l'Ayaka tampoc, era la dona de l'Akira.
+Dialogue: 0,0:14:22.12,0:14:25.16,Yellow,,0,0,0,,Ei, què és aquest estendard que hi ha darrere de l'armadura?
+Dialogue: 0,0:14:25.68,0:14:28.44,White,,0,0,0,,Ah, és una reproducció, això d'aquí.
+Dialogue: 0,0:14:29.04,0:14:31.32,White,,0,0,0,,Series capaç de llegir-ho, fill meu?
+Dialogue: 0,0:14:31.84,0:14:35.12,White,,0,0,0,,"Fes que la teva velocitat sigui com la del vent;
+Dialogue: 0,0:14:35.28,0:14:39.08,White,,0,0,0,,el teu silenci, com el del bosc; quan ataquis, sigues com el foc,
+Dialogue: 0,0:14:39.24,0:14:42.48,White,,0,0,0,,i quan estiguis quiet, immòbil com una muntanya".
+Dialogue: 0,0:14:43.36,0:14:46.80,White,,0,0,0,,És de Sunzi, un extracte del tractat "L'art de la guerra".
+Dialogue: 0,0:14:47.92,0:14:49.36,White,,0,0,0,,Esclar.
+Dialogue: 0,0:14:49.44,0:14:51.20,White,,0,0,0,,En Yoshiro va morir abandonat
+Dialogue: 0,0:14:51.28,0:14:53.16,White,,0,0,0,,després que se l'emportés un tornado.
+Dialogue: 0,0:14:53.44,0:14:55.24,White,,0,0,0,,El vent.
+Dialogue: 0,0:14:55.72,0:14:57.96,Yellow,,0,0,0,,A en Koji el van pegar fins a la mort,
+Dialogue: 0,0:14:58.04,0:15:00.96,Yellow,,0,0,0,,el van lligar i el van enterrar en una mena de monticle.
+Dialogue: 0,0:15:01.44,0:15:03.16,Yellow,,0,0,0,,La muntanya.
+Dialogue: 0,0:15:03.44,0:15:05.32,White,,0,0,0,,A l'Ayaka l'han emmordassat
+Dialogue: 0,0:15:05.40,0:15:07.76,White,,0,0,0,,i després l'han penjat d'una branca d'un arbre.
+Dialogue: 0,0:15:08.16,0:15:09.72,Yellow,,0,0,0,,El bosc!
+Dialogue: 0,0:15:10.08,0:15:11.84,White,,0,0,0,,Què? No pot ser!
+Dialogue: 0,0:15:12.12,0:15:16.12,White,,0,0,0,,Sí, els assassinats segueixen les ensenyances de "L'art de la guerra"!
+Dialogue: 0,0:15:16.48,0:15:18.68,Yellow,,0,0,0,,Que estan escrites a l'estendard de guerra.
+Dialogue: 0,0:15:22.68,0:15:24.36,Yellow,,0,0,0,,El Furinkazan!!
+Dialogue: 0,0:15:30.32,0:15:32.08,White,,0,0,0,,El Furinkazan?
+Dialogue: 0,0:15:32.40,0:15:36.16,White,,0,0,0,,Dius que els assassinats segueixen la fórmula del Furinkazan?!
+Dialogue: 0,0:15:36.84,0:15:38.56,White,,0,0,0,,Sí. Això sembla.
+Dialogue: 0,0:15:38.64,0:15:41.52,White,,0,0,0,,Primer van matar en Yoshiro Torada. Se'l va emportar un tornado.
+Dialogue: 0,0:15:42.40,0:15:45.20,White,,0,0,0,,"El va aixecar i el va deixar caure damunt d'unes roques."
+Dialogue: 0,0:15:45.28,0:15:47.48,White,,0,0,0,,"El van deixar allà abandonat fins que va morir."
+Dialogue: 0,0:15:47.72,0:15:49.64,White,,0,0,0,,Un tornado fa referència al vent:
+Dialogue: 0,0:15:49.72,0:15:52.76,White,,0,0,0,,És a dir: "Fes que la teva velocitat sigui com la del vent".
+Dialogue: 0,0:15:53.60,0:15:55.84,White,,0,0,0,,"Després van assassinar en Koji Tatsuo."
+Dialogue: 0,0:15:56.12,0:15:58.52,White,,0,0,0,,"L'havien pegat fins a la mort amb un objecte contundent."
+Dialogue: 0,0:15:59.08,0:16:02.28,White,,0,0,0,,El van deixar enterrat en una mena de monticle de terra i pedres,
+Dialogue: 0,0:16:02.44,0:16:04.52,White,,0,0,0,,ben lligat perquè no es pogués moure.
+Dialogue: 0,0:16:04.80,0:16:07.84,White,,0,0,0,,És a dir, que el van deixar immòbil, com una muntanya.
+Dialogue: 0,0:16:08.24,0:16:11.64,White,,0,0,0,,"El tercer assassinat, ha sigut el de l'Ayaka Tatsuo."
+Dialogue: 0,0:16:11.80,0:16:15.68,White,,0,0,0,,"L'han trobada morta al bosc, penjada d'una branca. Estava emmordassada."
+Dialogue: 0,0:16:15.84,0:16:18.40,White,,0,0,0,,"És evident què significa la mordassa que duia a la boca."
+Dialogue: 0,0:16:18.48,0:16:21.20,White,,0,0,0,,Sí, esclar. Tens raó, és molt evident.
+Dialogue: 0,0:16:21.28,0:16:23.44,White,,0,0,0,,"Que el teu silenci sigui com el del bosc".
+Dialogue: 0,0:16:23.52,0:16:25.84,White,,0,0,0,,Sí, pel que sembla, aquest assassí en sèrie...
+Dialogue: 0,0:16:25.92,0:16:29.40,White,,0,0,0,,té una fixació amb el lema de l'estendard de Shingen Takeda.
+Dialogue: 0,0:16:29.72,0:16:32.76,White,,0,0,0,,Però per què, aquesta fixació amb Shingen? Què és, això?
+Dialogue: 0,0:16:32.84,0:16:36.60,White,,0,0,0,,Un complot per impedir que trobin el tresor amagat de Shingen Takeda?
+Dialogue: 0,0:16:36.68,0:16:38.48,White,,0,0,0,,No en tinc ni idea.
+Dialogue: 0,0:16:38.56,0:16:40.28,White,,0,0,0,,Per ara, l'únic que sabem...
+Dialogue: 0,0:16:40.36,0:16:42.20,White,,0,0,0,,és que encara queda una paraula de l'estendard
+Dialogue: 0,0:16:42.28,0:16:44.60,White,,0,0,0,,que no ha entrat en acció, la paraula "foc".
+Dialogue: 0,0:16:45.24,0:16:47.24,White,,0,0,0,,Això vol dir que l'assassí en sèrie
+Dialogue: 0,0:16:47.32,0:16:50.48,White,,0,0,0,,deu tenir previst tornar a matar una altra vegada, com a mínim.
+Dialogue: 0,0:16:50.84,0:16:52.88,White,,0,0,0,,I qui poden ser, les pròximes víctimes?
+Dialogue: 0,0:16:52.96,0:16:54.76,White,,0,0,0,,Els únics que queden
+Dialogue: 0,0:16:54.84,0:16:57.16,White,,0,0,0,,que han col·laborat en la recerca del tresor de Shingen
+Dialogue: 0,0:16:57.24,0:16:59.28,White,,0,0,0,,són en Shigetsugu i l'Akira.
+Dialogue: 0,0:16:59.36,0:17:01.20,White,,0,0,0,,"Sí, són els més probables."
+Dialogue: 0,0:17:01.64,0:17:03.40,White,,0,0,0,,Esclar que també podria ser
+Dialogue: 0,0:17:03.56,0:17:06.16,White,,0,0,0,,que l'assassí tingui la intenció de matar algú altre.
+Dialogue: 0,0:17:06.64,0:17:08.92,White,,0,0,0,,Haurem d'estar vigilants i no perdre'ls de vista.
+Dialogue: 0,0:17:09.60,0:17:12.88,White,,0,0,0,,"M'agradaria que fos vostè, qui els vigilés, sobretot a en Shigetsugu,
+Dialogue: 0,0:17:12.96,0:17:14.72,White,,0,0,0,,que és el que té més números."
+Dialogue: 0,0:17:14.80,0:17:18.08,White,,0,0,0,,-D'acord.-Ran, què és això del Furinkazan?
+Dialogue: 0,0:17:18.36,0:17:19.84,Cyan,,0,0,0,,No ho sé.
+Dialogue: 0,0:17:19.92,0:17:22.16,Cyan,,0,0,0,,Només n'he sentit parlar a la tele i en pel·lícules.
+Dialogue: 0,0:17:22.24,0:17:24.00,White,,0,0,0,,No sabeu què és, el Furinkazan?
+Dialogue: 0,0:17:24.08,0:17:26.76,White,,0,0,0,,"Fes que la teva velocitat sigui com la del vent;
+Dialogue: 0,0:17:26.92,0:17:30.32,White,,0,0,0,,el teu silenci, com el del bosc; quan ataquis, sigues com el foc,
+Dialogue: 0,0:17:30.48,0:17:33.60,White,,0,0,0,,i quan estiguis quiet, immòbil com una muntanya".
+Dialogue: 0,0:17:33.92,0:17:35.68,White,,0,0,0,,És un estendard inspirat
+Dialogue: 0,0:17:35.84,0:17:37.92,White,,0,0,0,,en el tractat "L'art de la guerra" de Sunzi.
+Dialogue: 0,0:17:38.52,0:17:41.28,White,,0,0,0,,"Quan mobilitzes un exèrcit, ha de ser ràpid com el vent."
+Dialogue: 0,0:17:41.36,0:17:44.40,White,,0,0,0,,"Quan l'exèrcit està quiet, ha de ser silenciós com el bosc."
+Dialogue: 0,0:17:44.84,0:17:47.44,White,,0,0,0,,"Quan ataques, ha de ser tan ferotge com el foc,
+Dialogue: 0,0:17:47.84,0:17:51.48,White,,0,0,0,,i quan decideixes defensar-te, ha d'estar immòbil com una muntanya."
+Dialogue: 0,0:17:52.08,0:17:54.76,White,,0,0,0,,Shingen Takeda va fer seu "L'art de la guerra" de Sunzi
+Dialogue: 0,0:17:54.84,0:17:57.72,White,,0,0,0,,i va inscriure aquests consells en tots els seus estendards.
+Dialogue: 0,0:17:57.80,0:18:01.20,White,,0,0,0,,Però això és el mateix que......el mateix que ens ha dit la Yui.
+Dialogue: 0,0:18:01.68,0:18:05.32,White,,0,0,0,,"Pots decidir esperar i quedar-te quieta com una muntanya,
+Dialogue: 0,0:18:05.48,0:18:08.04,White,,0,0,0,,mentre l'altre es mou amb la rapidesa del vent
+Dialogue: 0,0:18:08.12,0:18:10.84,White,,0,0,0,,i a tu la flama de l'amor encara et crema per dins".
+Dialogue: 0,0:18:11.20,0:18:14.44,Cyan,,0,0,0,,Esclar, ja ho entenc. També serveix per l'amor.
+Dialogue: 0,0:18:14.52,0:18:16.28,White,,0,0,0,,El Furinkazan és la solució.
+Dialogue: 0,0:18:16.60,0:18:18.56,White,,0,0,0,,(cavall: galopa)
+Dialogue: 0,0:18:31.16,0:18:33.12,White,,0,0,0,,(Heiji) Ah, ets aquí. T'estàvem buscant.
+Dialogue: 0,0:18:34.92,0:18:38.40,White,,0,0,0,,No crec que entrenar-te et serveixi per superar la mort de la teva dona.
+Dialogue: 0,0:18:38.56,0:18:40.20,White,,0,0,0,,Però està bé, que t'entrenis.
+Dialogue: 0,0:18:40.36,0:18:42.20,White,,0,0,0,,Exacte, s'acosta el festival,
+Dialogue: 0,0:18:42.28,0:18:44.76,White,,0,0,0,,i encara que vulgui, no puc deixar de practicar.
+Dialogue: 0,0:18:45.36,0:18:47.96,White,,0,0,0,,És una promesa que li vaig fer al meu mestre Kuroto Kai,
+Dialogue: 0,0:18:48.12,0:18:51.04,White,,0,0,0,,que defensaria el títol de millor arquer a cavall tan bé com pogués.
+Dialogue: 0,0:18:51.92,0:18:55.88,White,,0,0,0,,També ho he de fer, perquè és el que voldria la meva dona, l'Ayaka.
+Dialogue: 0,0:18:56.48,0:18:59.64,White,,0,0,0,,Si he fallat, no és per falta de concentració perquè estigui afectat.
+Dialogue: 0,0:19:00.24,0:19:02.64,White,,0,0,0,,Mireu! Algú ha vingut i ha mogut la diana.
+Dialogue: 0,0:19:03.36,0:19:06.40,White,,0,0,0,,Ostres, és veritat! Qui la pot haver mogut, la diana?
+Dialogue: 0,0:19:08.52,0:19:10.64,Yellow,,0,0,0,,Mireu, entre els arbres hi ha gent!
+Dialogue: 0,0:19:10.88,0:19:13.48,White,,0,0,0,,Ei! Ei! Què hi feu, aquí? Espereu!
+Dialogue: 0,0:19:13.80,0:19:15.44,White,,0,0,0,,Alto!
+Dialogue: 0,0:19:15.52,0:19:17.56,White,,0,0,0,,És probable que sigui gent del poble del costat.
+Dialogue: 0,0:19:18.88,0:19:21.36,White,,0,0,0,,Sí. Volen que perdi confiança, que em posi nerviós.
+Dialogue: 0,0:19:21.44,0:19:23.08,Yellow,,0,0,0,,Però per què?
+Dialogue: 0,0:19:23.16,0:19:25.96,White,,0,0,0,,(Yui) Perquè hi ha en joc l'honor del seu poble.
+Dialogue: 0,0:19:27.20,0:19:31.48,White,,0,0,0,,Tradicionalment, el festival l'organitzen els dos pobles veïns.
+Dialogue: 0,0:19:32.12,0:19:34.72,White,,0,0,0,,Però, esclar, només hi ha un arquer a cavall...
+Dialogue: 0,0:19:34.88,0:19:36.60,White,,0,0,0,,que s'emporta tota la glòria.
+Dialogue: 0,0:19:36.76,0:19:38.76,White,,0,0,0,,Si aconsegueixen vèncer l'Akira,
+Dialogue: 0,0:19:38.92,0:19:40.76,White,,0,0,0,,que ens representa en el festival
+Dialogue: 0,0:19:40.84,0:19:43.04,White,,0,0,0,,després de superar totes les proves preliminars,
+Dialogue: 0,0:19:43.12,0:19:45.68,White,,0,0,0,,el vencedor i l'estrella del festival serà l'arquer del poble,
+Dialogue: 0,0:19:45.76,0:19:48.04,White,,0,0,0,,i llavors en podrà presumir durant tot un any.
+Dialogue: 0,0:19:48.40,0:19:50.32,White,,0,0,0,,Començant amb en Kai,
+Dialogue: 0,0:19:50.40,0:19:52.92,White,,0,0,0,,el títol ha sigut del nostre poble durant més de 10 anys.
+Dialogue: 0,0:19:53.00,0:19:55.00,White,,0,0,0,,I com es fan, les proves preliminars?
+Dialogue: 0,0:19:55.20,0:19:57.48,White,,0,0,0,,Es fan als terrenys sagrats del poble.
+Dialogue: 0,0:19:57.64,0:20:00.68,White,,0,0,0,,Es col·loquen 10 dianes a una distància igual l'una de l'altra.
+Dialogue: 0,0:20:00.84,0:20:03.44,White,,0,0,0,,Anem llançant, fins que un falla i es decideix el guanyador.
+Dialogue: 0,0:20:03.52,0:20:05.36,White,,0,0,0,,Sí, però fa 6 anys,
+Dialogue: 0,0:20:05.44,0:20:09.76,White,,0,0,0,,tu i en Kai vau estar llançant tot el dia i no vau fallar cap diana.
+Dialogue: 0,0:20:10.32,0:20:13.80,White,,0,0,0,,Com que ja s'estava fent fosc, les proves van continuar l'endemà.
+Dialogue: 0,0:20:14.56,0:20:17.32,White,,0,0,0,,I llavors va ser quan en Kai va desaparèixer.
+Dialogue: 0,0:20:18.16,0:20:20.96,White,,0,0,0,,Després, al cap d'una setmana, el vaig trobar mort.
+Dialogue: 0,0:20:21.40,0:20:22.64,White,,0,0,0,,Sí.
+Dialogue: 0,0:20:22.72,0:20:24.80,White,,0,0,0,,Però si les proves haguessin continuat l'endemà,
+Dialogue: 0,0:20:24.88,0:20:26.92,White,,0,0,0,,segur que jo hauria perdut.
+Dialogue: 0,0:20:28.12,0:20:30.24,White,,0,0,0,,"Quan vam plegar perquè es feia fosc,
+Dialogue: 0,0:20:30.32,0:20:32.52,White,,0,0,0,,en Kai em va dir que pensava continuar practicant."
+Dialogue: 0,0:20:32.60,0:20:36.40,White,,0,0,0,,"Jo estava tan cansat que em veia incapaç fins i tot de moure'm."
+Dialogue: 0,0:20:36.92,0:20:39.56,Yellow,,0,0,0,,Va continuar practicant? Però era fosc, no?
+Dialogue: 0,0:20:39.64,0:20:42.88,White,,0,0,0,,Sí, però només li calia saber la localització de les dianes...
+Dialogue: 0,0:20:42.96,0:20:44.64,White,,0,0,0,,per encertar-les.
+Dialogue: 0,0:20:44.72,0:20:46.84,White,,0,0,0,,Encertava un blanc amb els ulls clucs.
+Dialogue: 0,0:20:46.92,0:20:49.60,White,,0,0,0,,Ja, però a les últimes proves va fallar un llançament, oi?
+Dialogue: 0,0:20:49.68,0:20:52.80,White,,0,0,0,,Estic segur que va ser cosa dels habitants del poble del costat.
+Dialogue: 0,0:20:53.84,0:20:57.08,White,,0,0,0,,Segur que va venir algú del poble del costat a moure la diana,
+Dialogue: 0,0:20:57.24,0:20:58.92,White,,0,0,0,,per fer-lo quedar en ridícul!
+Dialogue: 0,0:20:59.80,0:21:03.40,White,,0,0,0,,Però el meu sogre no ho sabia, això, i es va enfadar molt amb en Kai.
+Dialogue: 0,0:21:03.56,0:21:05.84,White,,0,0,0,,Li va començar a cridar. Estava furiós, fora de si.
+Dialogue: 0,0:21:05.92,0:21:08.84,White,,0,0,0,,M'has fet avergonyir, m'has deixat en ridícul!
+Dialogue: 0,0:21:09.32,0:21:11.16,White,,0,0,0,,Per què estava tan enfadat?
+Dialogue: 0,0:21:11.24,0:21:13.08,White,,0,0,0,,Es veu que va ser el meu sogre
+Dialogue: 0,0:21:13.16,0:21:15.28,White,,0,0,0,,qui havia ensenyat en Kai a tirar amb arc muntat a cavall.
+Dialogue: 0,0:21:15.72,0:21:17.96,White,,0,0,0,,Però llavors va aparèixer l'àvia Shigeyo
+Dialogue: 0,0:21:18.04,0:21:20.32,White,,0,0,0,,i tots dos es van començar a discutir.
+Dialogue: 0,0:21:20.68,0:21:22.20,White,,0,0,0,,¿Com t'atreveixes a dir-li res,
+Dialogue: 0,0:21:22.28,0:21:24.08,White,,0,0,0,,si no has competit mai en el festival?
+Dialogue: 0,0:21:24.16,0:21:25.72,White,,0,0,0,,Qui et penses que ets?
+Dialogue: 0,0:21:26.08,0:21:30.88,White,,0,0,0,,O sigui, que tothom tenia alguna relació o altra amb Kuroto Kai.
+Dialogue: 0,0:21:31.40,0:21:34.32,White,,0,0,0,,Sí, i tots, del primer a l'últim,
+Dialogue: 0,0:21:34.40,0:21:36.92,White,,0,0,0,,són sospitosos de cometre aquests assassinats en sèrie.
+Dialogue: 0,0:21:37.44,0:21:40.24,White,,0,0,0,,He investigat a consciència el lloc on han trobat morta l'Ayaka Tatsuo,
+Dialogue: 0,0:21:40.32,0:21:42.08,White,,0,0,0,,i només hi he trobat petjades
+Dialogue: 0,0:21:42.16,0:21:44.72,White,,0,0,0,,"...i empremtes dels membres del grup de recerca,
+Dialogue: 0,0:21:45.08,0:21:46.92,White,,0,0,0,,"marques de cascos de cavalls
+Dialogue: 0,0:21:47.00,0:21:49.60,White,,0,0,0,,i roderes d'una motocicleta i de cotxes."
+Dialogue: 0,0:21:50.68,0:21:53.28,White,,0,0,0,,És a dir, que els sospitosos d'haver comès l'assassinat,
+Dialogue: 0,0:21:53.44,0:21:58.60,White,,0,0,0,,tret de vosaltres, que sou de fora, són 7: en Naonobu, la Tatsue,
+Dialogue: 0,0:21:58.76,0:22:01.32,White,,0,0,0,,en Shigetsugu i la Yui de la família Torada,
+Dialogue: 0,0:22:01.40,0:22:04.96,White,,0,0,0,,i la Shigeyo, en Tamefumi i l'Akira de la família Tatsuo.
+Dialogue: 0,0:22:05.60,0:22:07.44,White,,0,0,0,,Diria que són 8!Eh?
+Dialogue: 0,0:22:08.28,0:22:10.28,White,,0,0,0,,També hi ha les seves empremtes.
+Dialogue: 0,0:22:10.36,0:22:13.44,White,,0,0,0,,I la marca de la seva crossa. No és veritat, inspector?
+Dialogue: 0,0:22:13.76,0:22:16.04,White,,0,0,0,,D'acord, afegiu-m'hi a mi, si voleu.
+Dialogue: 0,0:22:16.44,0:22:19.68,White,,0,0,0,,Senyora, ha vingut a buscar el cavall negre, oi que sí?
+Dialogue: 0,0:22:20.16,0:22:24.76,White,,0,0,0,,Doncs agafi'l i vagi-se'n amb la família Torada. I vostè també.
+Dialogue: 0,0:22:24.92,0:22:28.16,White,,0,0,0,,-Torni ara mateix a casa dels Tatsuo!-D'acord.
+Dialogue: 0,0:22:28.48,0:22:31.28,White,,0,0,0,,Quan arribin a casa, diguin això als seus familiars.
+Dialogue: 0,0:22:31.56,0:22:33.72,White,,0,0,0,,Que sé que l'assassí és un d'ells,
+Dialogue: 0,0:22:33.88,0:22:36.40,White,,0,0,0,,i que ja poden començar a resar als déus, perquè quan jo arribi...
+Dialogue: 0,0:22:36.56,0:22:39.88,White,,0,0,0,,detindré l'assassí davant de tothom, i no tindrà escapatòria.
+Dialogue: 0,0:22:45.12,0:22:49.68,White,,0,0,0,,Com és, que ara em dius senyora i ja no em tractes de tu, Kansuke?
+Dialogue: 0,0:22:50.88,0:22:54.48,White,,0,0,0,,Ho sento, però ja no ets la Yui que vaig conèixer quan era petit.
+Dialogue: 0,0:22:55.08,0:22:57.84,White,,0,0,0,,Tampoc no ets l'agent Uehara que estava a les meves ordres.
+Dialogue: 0,0:22:58.64,0:23:01.12,White,,0,0,0,,Ara només ets l'esposa d'una víctima d'assassinat,
+Dialogue: 0,0:23:01.32,0:23:03.32,White,,0,0,0,,i una sospitosa d'haver-lo comès.
+Dialogue: 0,0:23:03.72,0:23:06.04,White,,0,0,0,,(pensa) "Ha dit que estava a les seves ordres?"
+Dialogue: 0,0:23:06.96,0:23:08.68,Yellow,,0,0,0,,"La Yui era policia..."
+Dialogue: 0,0:23:09.96,0:23:12.04,White,,0,0,0,,(Shigetsugu) Quantes vegades us ho he de repetir?
+Dialogue: 0,0:23:12.12,0:23:15.16,White,,0,0,0,,No hi ha cap motiu perquè algú em vulgui matar, de veritat.
+Dialogue: 0,0:23:15.24,0:23:18.36,Cyan,,0,0,0,,Si tu ho dius... Però es pot saber què fas?
+Dialogue: 0,0:23:18.44,0:23:20.28,White,,0,0,0,,Amb tot això que ha passat,
+Dialogue: 0,0:23:20.36,0:23:23.32,White,,0,0,0,,he decidit aturar la recerca del tresor de Shingen Takeda,
+Dialogue: 0,0:23:23.40,0:23:25.80,White,,0,0,0,,i he vingut aquí a buscar les meves notes,
+Dialogue: 0,0:23:26.04,0:23:28.96,White,,0,0,0,,les que vaig prendre mentre buscava el tresor, però no les trobo.
+Dialogue: 0,0:23:29.12,0:23:32.00,White,,0,0,0,,I no podria ser que les hagués agafat l'Akira?
+Dialogue: 0,0:23:32.16,0:23:34.24,White,,0,0,0,,Si no m'equivoco, vostè i ell són els únics...
+Dialogue: 0,0:23:34.32,0:23:36.52,White,,0,0,0,,que queden vius del grup que buscava el tresor.
+Dialogue: 0,0:23:36.80,0:23:39.20,White,,0,0,0,,No ho sé, potser es vol quedar el tresor tot per ell.
+Dialogue: 0,0:23:39.36,0:23:41.56,White,,0,0,0,,Impossible! L'Akira no m'ho faria mai, això!
+Dialogue: 0,0:23:41.64,0:23:44.24,White,,0,0,0,,Sàpiga que l'Akira era l'heroi de la nostra classe!
+Dialogue: 0,0:23:44.56,0:23:48.36,White,,0,0,0,,Ho era, però ja saps que amb els anys la gent canvia, Shigetsugu.
+Dialogue: 0,0:23:48.72,0:23:51.44,White,,0,0,0,,Pensa que en el fons no deixa de ser un Tatsuo.
+Dialogue: 0,0:23:51.52,0:23:53.44,White,,0,0,0,,No te'n pots fiar mai, de cap d'ells
+Dialogue: 0,0:23:53.52,0:23:57.48,White,,0,0,0,,Idiota! No el jutgis com si fos un dels inútils dels teus fills.
+Dialogue: 0,0:23:57.92,0:23:59.68,White,,0,0,0,,L'Akira és un samurai,
+Dialogue: 0,0:23:59.84,0:24:02.04,White,,0,0,0,,vencedor 5 anys seguits de la competició de tir amb arc.
+Dialogue: 0,0:24:02.32,0:24:05.52,White,,0,0,0,,-Què hi feu, aquí?-Només hem vingut a buscar l'Akira.
+Dialogue: 0,0:24:05.76,0:24:07.92,White,,0,0,0,,No el trobem, i ens pensàvem que seria aquí.
+Dialogue: 0,0:24:08.00,0:24:10.96,White,,0,0,0,,Ah, no cal que pateixin. M'acaba de trucar en Heiji.
+Dialogue: 0,0:24:11.04,0:24:13.36,White,,0,0,0,,Diu que l'Akira ha acabat de practicar el tir amb arc
+Dialogue: 0,0:24:13.44,0:24:15.16,White,,0,0,0,,i que se n'ha anat cap a casa.
+Dialogue: 0,0:24:15.24,0:24:17.96,White,,0,0,0,,Bé, fantàstic, anem tots a casa i ens esperem allà...
+Dialogue: 0,0:24:18.04,0:24:19.88,White,,0,0,0,,fins que el cas estigui resolt.
+Dialogue: 0,0:24:19.96,0:24:21.64,White,,0,0,0,,És una idea excel·lent, no?
+Dialogue: 0,0:24:22.08,0:24:25.36,White,,0,0,0,,-Vostè també, senyor Shigetsugu!-Eh? D'acord.
+Dialogue: 0,0:24:26.20,0:24:28.60,White,,0,0,0,,Bé, en fi, nosaltres comencem a passar.
+Dialogue: 0,0:24:28.76,0:24:30.84,White,,0,0,0,,Vagin amb compte, tot tornant cap a casa.
+Dialogue: 0,0:24:30.92,0:24:33.32,White,,0,0,0,,Oh... Quin ogre de dona.
+Dialogue: 0,0:24:33.40,0:24:36.04,White,,0,0,0,,Algú li hauria de fer una cara nova, a aquest monstre.
+Dialogue: 0,0:24:36.12,0:24:37.60,White,,0,0,0,,El mateix et dic,
+Dialogue: 0,0:24:37.68,0:24:40.44,White,,0,0,0,,tros de gos petaner que té més pels al bigoti que a la closca!
+Dialogue: 0,0:24:40.52,0:24:42.12,White,,0,0,0,,Eh... Au, au, au.
+Dialogue: 0,0:24:42.20,0:24:44.20,White,,0,0,0,,Recordin el que deia Shingen:
+Dialogue: 0,0:24:44.28,0:24:46.88,White,,0,0,0,,"L'amistat és un aliat, les disputes, un enemic".
+Dialogue: 0,0:24:46.96,0:24:48.64,White,,0,0,0,,-Eh?-Eh?
+Dialogue: 0,0:24:49.16,0:24:51.28,White,,0,0,0,,¿No seria millor que paressin de barallar-se
+Dialogue: 0,0:24:51.36,0:24:53.28,White,,0,0,0,,i pel bé de les dues famílies
+Dialogue: 0,0:24:53.36,0:24:55.48,White,,0,0,0,,miressin de col·laborar per resoldre el cas?
+Dialogue: 0,0:24:55.92,0:24:57.12,White,,0,0,0,,Eh?
+Dialogue: 0,0:24:58.64,0:25:01.56,White,,0,0,0,,No tinc per què aguantar això d'un ximple com vostè.
+Dialogue: 0,0:25:02.20,0:25:05.16,White,,0,0,0,,Això que ha dit era la frase preferida de l'agent Kai.
+Dialogue: 0,0:25:06.24,0:25:08.84,White,,0,0,0,,Solia resoldre les disputes entre les dues famílies
+Dialogue: 0,0:25:08.92,0:25:10.84,White,,0,0,0,,amb aquestes mateixes paraules.
+Dialogue: 0,0:25:11.48,0:25:14.48,White,,0,0,0,,Deu ser un seguidor de Shingen, però és un babau!
+Dialogue: 0,0:25:19.32,0:25:22.28,White,,0,0,0,,(home) "Què? Et voldràs casar amb mi, quan siguis gran?"
+Dialogue: 0,0:25:22.36,0:25:26.96,White,,0,0,0,,"Ha-ha-ha-ha! És broma. A en Kansuke no li faria cap gràcia."
+Dialogue: 0,0:25:29.00,0:25:31.24,White,,0,0,0,,"Ei, sisplau, no em diguis mestre."
+Dialogue: 0,0:25:31.76,0:25:34.80,White,,0,0,0,,"Ja sé que soc més gran que tu, però no deixem de ser rivals."
+Dialogue: 0,0:25:35.32,0:25:37.32,White,,0,0,0,,"Digue'm Kai, i ja està."
+Dialogue: 0,0:25:39.52,0:25:42.72,Yellow,,0,0,0,,Escolta, Hattori, ¿tu per què creus que l'assassí s'inspira...
+Dialogue: 0,0:25:42.88,0:25:45.08,Yellow,,0,0,0,,en l'estendard Furinkazan pels seus assassinats?
+Dialogue: 0,0:25:45.32,0:25:47.60,White,,0,0,0,,No ho sé, és difícil de dir,
+Dialogue: 0,0:25:47.76,0:25:49.40,White,,0,0,0,,però potser no és casualitat
+Dialogue: 0,0:25:49.56,0:25:51.80,White,,0,0,0,,que els 3 morts busquessin el tresor de Shingen.
+Dialogue: 0,0:25:52.24,0:25:54.44,Yellow,,0,0,0,,O potser... ho fa per despistar,
+Dialogue: 0,0:25:54.52,0:25:57.12,Yellow,,0,0,0,,perquè no vol que se sàpiga el motiu de veritat.
+Dialogue: 0,0:25:57.44,0:26:01.52,White,,0,0,0,,Jo crec que la mort d'en Yoshiro pel tornado va ser casualitat,
+Dialogue: 0,0:26:02.16,0:26:04.52,White,,0,0,0,,però no ho és que al costat del seu cadàver
+Dialogue: 0,0:26:04.60,0:26:06.32,White,,0,0,0,,hi trobessin un centpeus mort.
+Dialogue: 0,0:26:06.68,0:26:09.00,Yellow,,0,0,0,,A mi em sembla que l'assassí ja feia molt temps
+Dialogue: 0,0:26:09.16,0:26:11.12,Yellow,,0,0,0,,que estava planejant matar-los a tots 3.
+Dialogue: 0,0:26:11.40,0:26:13.92,White,,0,0,0,,Llavors, estaria molt bé poder descobrir...
+Dialogue: 0,0:26:14.00,0:26:16.16,White,,0,0,0,,per què en Yoshiro Torada i en Koji Tatsuo
+Dialogue: 0,0:26:16.24,0:26:19.00,White,,0,0,0,,volien anar a veure l'inspector Yamato i què li volien dir.
+Dialogue: 0,0:26:19.44,0:26:22.80,Yellow,,0,0,0,,Sí, i també per què l'Ayaka s'ha espantat tant, abans de morir,
+Dialogue: 0,0:26:23.00,0:26:25.24,Yellow,,0,0,0,,quan ha sentit la història del casc de Shingen.
+Dialogue: 0,0:26:25.48,0:26:28.48,Yellow,,0,0,0,,Hi ha una altra cosa que no em lliga.Ja la sé.
+Dialogue: 0,0:26:28.56,0:26:31.24,White,,0,0,0,,(alhora) Que l'agent Kai caigués pel penya-segat.
+Dialogue: 0,0:26:32.04,0:26:36.32,Yellow,,0,0,0,,En fi, encara ens queda un dels 4 elements del Furinkazan, el foc.
+Dialogue: 0,0:26:39.32,0:26:42.04,White,,0,0,0,,Qui creus que serà, el següent? L'Akira o...?
+Dialogue: 0,0:26:42.12,0:26:44.20,White,,0,0,0,,(estrèpit)
+Dialogue: 0,0:26:46.72,0:26:48.92,Yellow,,0,0,0,,(veu Conan) Aquest soroll! Què ha sigut, això?
+Dialogue: 0,0:26:49.40,0:26:51.32,White,,0,0,0,,No ho sé, ha semblat com un tro.
+Dialogue: 0,0:26:51.40,0:26:52.52,White,,0,0,0,,(pas a nivell: senyal acústic)
+Dialogue: 0,0:26:52.60,0:26:54.52,White,,0,0,0,,(Kazuha) Heiji! Ha passat una cosa horrible!
+Dialogue: 0,0:26:55.00,0:26:57.16,White,,0,0,0,,Què, Kazuha? Què ha passat? Digues?
+Dialogue: 0,0:26:57.24,0:26:59.68,White,,0,0,0,,"He sentit un soroll molt fort,"
+Dialogue: 0,0:26:59.76,0:27:02.00,White,,0,0,0,,i quan m'he girat, en Shigetsugu havia desaparegut.
+Dialogue: 0,0:27:02.08,0:27:05.28,White,,0,0,0,,Quan l'he anat a buscar, al pas a nivell, el tren s'havia aturat...
+Dialogue: 0,0:27:05.84,0:27:08.60,White,,0,0,0,,i davant del tren hi ha una persona estirada a terra.
+Dialogue: 0,0:27:09.16,0:27:11.80,White,,0,0,0,,Una persona envoltada en flames, cremant-se!
+Dialogue: 0,0:27:12.36,0:27:16.72,White,,0,0,0,,-Que es crema una persona?-"Sí. Creus que és en Shigetsugu?"
+Dialogue: 0,0:27:17.08,0:27:19.40,White,,0,0,0,,No et moguis d'aquí, vinc ara mateix!
+Dialogue: 0,0:27:20.92,0:27:23.04,Yellow,,0,0,0,,"Pot tractar-se del foc?"
+Dialogue: 0,0:27:23.60,0:27:25.24,Yellow,,0,0,0,,"Ferotge... com el foc?"
+Dialogue: 0,0:27:27.36,0:27:33.72,Songs,,0,0,0,,Nagarete hanarete saki chitta to shitemo,
+Dialogue: 0,0:27:34.04,0:27:41.56,Songs,,0,0,0,,subete no mono ni wa minna imi ga aru kara.
+Dialogue: 0,0:27:41.64,0:27:48.80,Songs,,0,0,0,,
+Dialogue: 0,0:27:48.88,0:27:53.60,Songs,,0,0,0,,Hitori ni wa nareteita no ni.
+Dialogue: 0,0:27:55.20,0:28:00.08,Songs,,0,0,0,,Hajimari ga areba owari ga
+Dialogue: 0,0:28:00.32,0:28:05.96,Songs,,0,0,0,,kurutte wakatteita no ni,
+Dialogue: 0,0:28:06.04,0:28:10.40,Songs,,0,0,0,,koboreta ochiba noue.
+Dialogue: 0,0:28:10.96,0:28:14.92,Songs,,0,0,0,,Anata no ai ga...
+Dialogue: 0,0:28:15.20,0:28:21.36,Songs,,0,0,0,,Nagarete hanarete saki chitta to shitemo.
+Dialogue: 0,0:28:21.44,0:28:28.00,Songs,,0,0,0,,Subete no mono ni wa minna imi ga aru kara.
+Dialogue: 0,0:28:28.08,0:28:35.16,Songs,,0,0,0,,Anata wo aiseta koto ga watashi no,
+Dialogue: 0,0:28:35.24,0:28:43.24,Songs,,0,0,0,,tsubasa ni natteiku negai e go your own way.
+Dialogue: 0,0:28:43.92,0:28:47.88,Yellow,,0,0,0,,I al costat de la funda hi hem trobat un centpeus mort.
+Dialogue: 0,0:28:48.36,0:28:51.68,White,,0,0,0,,Què vols dir? Que la mort d'en Shigetsugu no ha sigut un accident?
+Dialogue: 0,0:28:52.00,0:28:54.32,White,,0,0,0,,No, és un assassinat en sèrie.
+Dialogue: 0,0:28:54.80,0:28:57.28,White,,0,0,0,,Sí. Llamps i trons.
+Dialogue: 0,0:28:59.28,0:29:01.32,White,,0,0,0,,Sento dir-vos que pel que sembla...
+Dialogue: 0,0:29:01.80,0:29:03.76,Yellow,,0,0,0,,...la batalla encara no s'ha acabat.
+Dialogue: 0,0:29:06.68,0:29:08.80,Yellow,,0,0,0,,No us perdeu el pròxim episodi!
+Dialogue: 0,0:29:08.88,0:29:11.68,Yellow,,0,0,0,,"El Furinkazan. Final amb llamps i ombres".

@@ -1,0 +1,496 @@
+[Script Info]
+Title: Detective Conan - 0811 - La foscor de la policia de la prefectura (2a part)
+TL Source: Super3
+ScriptType: v4.00+
+WrapStyle: 3
+PlayResX: 1440
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: White,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Cyan,Arial,60,&H00FFFF00,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Green,Arial,60,&H00008000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Yellow,Arial,60,&H0000FFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Songs,Arial,60,&H000000FF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+Style: Songs2,Arial,60,&H0032CD9A,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,50,50,120,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.04,0:00:03.20,Yellow,,0,0,0,,(veu Shinichi) "Érem a Nagano\Ni hem decidit
+Dialogue: 0,0:00:03.28,0:00:05.80,Yellow,,0,0,0,,"fer una visita\Nal camp de batalla de Kawanakajima,
+Dialogue: 0,0:00:05.88,0:00:07.88,Yellow,,0,0,0,,"i allà, per casualitat,
+Dialogue: 0,0:00:07.96,0:00:11.28,Yellow,,0,0,0,,"ens hem trobat l'inspector Yamato\Ni altres agents de policia de Nagano
+Dialogue: 0,0:00:11.36,0:00:13.52,Yellow,,0,0,0,,"que ens han acompanyat\Nmentre visitàvem la zona."
+Dialogue: 0,0:00:15.72,0:00:17.72,Yellow,,0,0,0,,"Quan hem arribat al riu Chikuma,
+Dialogue: 0,0:00:17.80,0:00:19.80,Yellow,,0,0,0,,"hem trobat el cap d'una persona\Nflotant a l'aigua
+Dialogue: 0,0:00:19.88,0:00:23.16,Yellow,,0,0,0,,"amb una marca de sang al front semblant a la petjada d'un picot."
+Dialogue: 0,0:00:23.24,0:00:26.24,Yellow,,0,0,0,,"El cap pertany a l'inspector\NTakeda i, poc després,
+Dialogue: 0,0:00:26.32,0:00:28.96,Yellow,,0,0,0,,"un altre agent del seu equip,\Nel subinspector Kano,
+Dialogue: 0,0:00:29.04,0:00:31.04,Yellow,,0,0,0,,"apareix mort penjat a casa seva."
+Dialogue: 0,0:00:35.68,0:00:37.72,Yellow,,0,0,0,,"El sentiment\Nque sempre hem portat al cor
+Dialogue: 0,0:00:37.80,0:00:39.96,Yellow,,0,0,0,,"ens fa emprendre el vol\Ncap al vintè aniversari."
+Dialogue: 0,0:00:40.04,0:00:42.04,Yellow,,0,0,0,,"Què passa al cos de policia?"
+Dialogue: 0,0:00:42.12,0:00:44.16,Yellow,,0,0,0,,"Algú ataca els agents,\Nl'un darrere l'altre."
+Dialogue: 0,0:00:44.24,0:00:45.88,Yellow,,0,0,0,,"La veritat sempre s'acaba sabent."
+Dialogue: 0,0:00:45.96,0:00:49.08,Yellow,,0,0,0,,"Sembla un nen, però té el cervell d'un adult i és el detectiu Conan!"
+Dialogue: 0,0:00:49.16,0:00:54.60,Songs,,0,0,0,,Kawaita tsumetai kaze\Nhari no you ni Sting.
+Dialogue: 0,0:00:55.68,0:01:01.48,Songs,,0,0,0,,Shin to shita kuuki no naka\Nharu ga hajimaru.
+Dialogue: 0,0:01:02.44,0:01:07.92,Songs,,0,0,0,,Tobitatsu tame no hane\Nhobo haesoroi.
+Dialogue: 0,0:01:08.92,0:01:14.36,Songs,,0,0,0,,Mada kurai sora wo mite\Nmayoi wo suteru.
+Dialogue: 0,0:01:15.68,0:01:18.60,Songs,,0,0,0,,Jikan wa kizu wo iyasu tte koto
+Dialogue: 0,0:01:18.68,0:01:21.92,Songs,,0,0,0,,wasureru koro shiru darou.
+Dialogue: 0,0:01:22.56,0:01:26.64,Songs,,0,0,0,,Atarimae no koto dakedo iu yo.
+Dialogue: 0,0:01:27.80,0:01:31.00,Songs,,0,0,0,,Subete wa style tobikata shidai
+Dialogue: 0,0:01:31.08,0:01:34.64,Songs,,0,0,0,,kawari wa dare ni mo yarasu na.
+Dialogue: 0,0:01:35.72,0:01:40.64,Songs,,0,0,0,,Sono me ni utsuru sekai ga\Nsubete to iu nara.
+Dialogue: 0,0:01:41.08,0:01:44.36,Songs,,0,0,0,,Chigau basho mite mimashou
+Dialogue: 0,0:01:44.44,0:01:48.24,Songs,,0,0,0,,marude shiranai koto darake.
+Dialogue: 0,0:01:49.12,0:01:54.04,Songs,,0,0,0,,Etai no shirenai osore ya\Ntaikutsu mo.
+Dialogue: 0,0:01:54.40,0:01:57.68,Songs,,0,0,0,,Hitotsu zutsu koete yuku
+Dialogue: 0,0:01:57.76,0:02:01.48,Songs,,0,0,0,,sou yatte shiagatte kuru.
+Dialogue: 0,0:02:02.28,0:02:06.56,Songs,,0,0,0,,Daijoubu,\Nboku wa kimi wo wasurenai.
+Dialogue: 0,0:02:10.60,0:02:13.16,Songs,,0,0,0,,Kimi wo wasurenai.
+Dialogue: 0,0:02:16.16,0:02:20.48,Yellow,,0,0,0,,(veu Conan) "La foscor de la policia\Nde la prefectura (Segona part)"
+Dialogue: 0,0:02:21.92,0:02:23.92,White,,0,0,0,,(trons)
+Dialogue: 0,0:02:32.12,0:02:34.88,White,,0,0,0,,Què és això del déu de la guerra?
+Dialogue: 0,0:02:35.24,0:02:37.48,White,,0,0,0,,"Destruiré els picots"?
+Dialogue: 0,0:02:38.12,0:02:41.60,White,,0,0,0,,-No patiu, que no ho dic jo.
+Dialogue: 0,0:02:38.12,0:02:41.60,White,,0,0,0,,-Es pot saber què dius, Kansuke?
+Dialogue: 0,0:02:41.68,0:02:45.44,White,,0,0,0,,És en aquest correu que m'ha enviat en Shoji fa una estona.
+Dialogue: 0,0:02:52.56,0:02:55.08,White,,0,0,0,,Sembla clar\Nque ha mort per estrangulació.
+Dialogue: 0,0:02:55.16,0:02:58.36,White,,0,0,0,,Basant-nos en la lividesa\N"post mortem" i en el "rigor mortis",
+Dialogue: 0,0:02:58.44,0:03:00.44,White,,0,0,0,,jo diria que l'hora de la mort\Nha sigut
+Dialogue: 0,0:03:00.52,0:03:02.52,White,,0,0,0,,entre fa una hora i una hora i mitja.
+Dialogue: 0,0:03:02.60,0:03:04.40,White,,0,0,0,,Per les marques que té al coll,
+Dialogue: 0,0:03:04.48,0:03:06.76,White,,0,0,0,,que acostumen a aparèixer sempre\Nque la víctima oposa resistència,
+Dialogue: 0,0:03:06.84,0:03:08.88,White,,0,0,0,,crec que algú l'ha estrangulat\Ndes de darrere.
+Dialogue: 0,0:03:10.52,0:03:13.92,White,,0,0,0,,Li han lligat la corda al coll\Ni l'han penjat del sostre.
+Dialogue: 0,0:03:14.20,0:03:16.20,White,,0,0,0,,Llavors estem parlant\Nde més d'una persona.
+Dialogue: 0,0:03:16.28,0:03:19.28,White,,0,0,0,,Han fet falta tres homes\Nper despenjar el cadàver d'en Shoji.
+Dialogue: 0,0:03:19.36,0:03:21.36,White,,0,0,0,,Sí, suposo que sí.
+Dialogue: 0,0:03:21.92,0:03:24.36,White,,0,0,0,,No, col·locant una cadira\Ndamunt de l'escriptori...
+Dialogue: 0,0:03:24.44,0:03:27.84,White,,0,0,0,,i obligant-lo a seure-hi, l'hauria pogut penjar una persona sola.
+Dialogue: 0,0:03:27.92,0:03:30.04,White,,0,0,0,,Encara que tingués problemes\Nper caminar.
+Dialogue: 0,0:03:30.48,0:03:31.92,White,,0,0,0,,Sí, es veritat.
+Dialogue: 0,0:03:32.32,0:03:35.36,Songs,,0,0,0,,-No és un mòbil, això que sona?
+Dialogue: 0,0:03:32.32,0:03:35.36,Songs,,0,0,0,,-(mòbil)
+Dialogue: 0,0:03:36.00,0:03:38.88,Songs,,0,0,0,,-(mòbil)
+Dialogue: 0,0:03:36.00,0:03:38.88,Songs,,0,0,0,,-Sembla que és el telèfon d'en Shoji.
+Dialogue: 0,0:03:38.96,0:03:40.96,Songs,,0,0,0,,(mòbil)
+Dialogue: 0,0:03:42.08,0:03:45.76,White,,0,0,0,,Li acaba d'arribar un correu\Ndes del mòbil de l'inspector Takeda.
+Dialogue: 0,0:03:46.20,0:03:49.88,White,,0,0,0,,I això què vol dir? Que li ha enviat la persona que ha mort l'inspector?
+Dialogue: 0,0:03:49.96,0:03:52.28,White,,0,0,0,,-I què diu? Llegeix-lo
+Dialogue: 0,0:03:49.96,0:03:52.28,White,,0,0,0,,-Podria ser.
+Dialogue: 0,0:03:52.84,0:03:56.20,White,,0,0,0,,El missatge diu:\N"Només queden tres picots".
+Dialogue: 0,0:03:58.28,0:04:00.00,White,,0,0,0,,Recapitulem.
+Dialogue: 0,0:04:00.68,0:04:02.68,White,,0,0,0,,Com que al front de l'inspector Kano\Ntambé hi han deixat
+Dialogue: 0,0:04:02.76,0:04:04.76,White,,0,0,0,,la marca de la petjada d'un picot,
+Dialogue: 0,0:04:04.84,0:04:07.28,White,,0,0,0,,és molt probable que els tres picots\Nque l'assassí diu que queden
+Dialogue: 0,0:04:07.36,0:04:09.20,White,,0,0,0,,també siguin membres\Ndel cos de policia.
+Dialogue: 0,0:04:09.28,0:04:11.08,White,,0,0,0,,No sap on s'ha ficat, aquest.
+Dialogue: 0,0:04:11.16,0:04:14.60,White,,0,0,0,,Li haurem d'ensenyar què passa, si algú gosa atacar el cos de policia.
+Dialogue: 0,0:04:14.96,0:04:16.40,White,,0,0,0,,(tots) Sí!
+Dialogue: 0,0:04:16.48,0:04:18.48,White,,0,0,0,,-Eh?
+Dialogue: 0,0:04:16.48,0:04:18.48,White,,0,0,0,,-Per cert, Kansuke.
+Dialogue: 0,0:04:18.56,0:04:21.36,White,,0,0,0,,Què en penses, de la corda\Nque té al voltant del coll?
+Dialogue: 0,0:04:21.56,0:04:25.84,White,,0,0,0,,La veritat és que...\Nla trobo una mica estranya.
+Dialogue: 0,0:04:25.92,0:04:28.48,White,,0,0,0,,Vigila, eh.\NNo toquis res sense guants.
+Dialogue: 0,0:04:28.56,0:04:31.96,White,,0,0,0,,Per què? Ja l'he tocat, la corda, quan l'hem despenjat. Tant se val.
+Dialogue: 0,0:04:32.36,0:04:34.36,White,,0,0,0,,Per cert, Kansuke, una cosa.
+Dialogue: 0,0:04:34.44,0:04:37.04,White,,0,0,0,,Un testimoni t'ha vist aquest matí\Na prop del pont
+Dialogue: 0,0:04:37.12,0:04:39.40,White,,0,0,0,,on hem trobat les restes socarrimades d'en Shigeru.
+Dialogue: 0,0:04:39.88,0:04:43.04,White,,0,0,0,,No pot ser. Ja us he dit\Nque al matí no hi he anat, al pont.
+Dialogue: 0,0:04:43.12,0:04:45.64,White,,0,0,0,,Em deu haver confós amb algú altre.
+Dialogue: 0,0:04:46.52,0:04:49.92,White,,0,0,0,,Home..., és una mica difícil,\Nque et puguin confondre amb un altre.
+Dialogue: 0,0:04:50.32,0:04:52.36,White,,0,0,0,,Doncs miri,\N¿no troba que potser també...
+Dialogue: 0,0:04:53.16,0:04:55.40,White,,0,0,0,,podríem dir el mateix de vostè?
+Dialogue: 0,0:04:56.92,0:04:59.00,White,,0,0,0,,(Kogoro) Què? Que l'han assassinat?
+Dialogue: 0,0:04:59.52,0:05:01.76,White,,0,0,0,,El subinspector Shoji Kano,\Nel que hem conegut avui?
+Dialogue: 0,0:05:02.08,0:05:04.60,White,,0,0,0,,Sí. Algú l'ha penjat a casa seva.
+Dialogue: 0,0:05:04.68,0:05:06.92,White,,0,0,0,,He investigat una mica\Na veure si trobava algú
+Dialogue: 0,0:05:07.00,0:05:09.84,White,,0,0,0,,que es volgués venjar de l'inspector Takeda i del subinspector Kano,
+Dialogue: 0,0:05:09.92,0:05:12.48,White,,0,0,0,,i això m'ha portat al tiroteig\Nde fa 9 anys,
+Dialogue: 0,0:05:12.56,0:05:16.12,White,,0,0,0,,i també al cas de l'home que es va atrinxerar en un banc fa 6 mesos.
+Dialogue: 0,0:05:16.20,0:05:19.80,White,,0,0,0,,En les dues ocasions, en Shoji\Nera de l'equip de l'inspector Takeda.
+Dialogue: 0,0:05:20.28,0:05:22.28,Cyan,,0,0,0,,Però em pensava\Nque els familiars de l'home
+Dialogue: 0,0:05:22.36,0:05:24.48,Cyan,,0,0,0,,que l'inspector Takeda\Nva matar d'un tret fa 9 anys
+Dialogue: 0,0:05:24.56,0:05:26.36,Cyan,,0,0,0,,havien mort de malaltia,
+Dialogue: 0,0:05:26.44,0:05:29.16,Cyan,,0,0,0,,i que només quedava viva l'àvia,\Nuna senyora de més de 80 anys.
+Dialogue: 0,0:05:29.24,0:05:32.20,White,,0,0,0,,Sí, i aquella velleta seria incapaç\Nde tallar-li el cap a algú,
+Dialogue: 0,0:05:32.28,0:05:35.24,White,,0,0,0,,i encara menys, d'estrangular\Nun home com l'inspector Kano...
+Dialogue: 0,0:05:35.32,0:05:37.52,White,,0,0,0,,i després penjar-lo del sostre.
+Dialogue: 0,0:05:37.60,0:05:40.12,White,,0,0,0,,És a dir, que de moment\Nencara no tenim cap sospitós clar.
+Dialogue: 0,0:05:40.52,0:05:42.88,White,,0,0,0,,-Eh?
+Dialogue: 0,0:05:40.52,0:05:42.88,White,,0,0,0,,-No..., s'equivoca. En tenim un.
+Dialogue: 0,0:05:43.48,0:05:45.92,White,,0,0,0,,Fa 9 anys van matar\Nel seu millor amic en presència seva.
+Dialogue: 0,0:05:46.00,0:05:47.80,White,,0,0,0,,Vols dir que...?
+Dialogue: 0,0:05:47.88,0:05:50.36,White,,0,0,0,,I fa 6 mesos es va oposar\Nal tiroteig del banc.
+Dialogue: 0,0:05:50.76,0:05:52.20,Yellow,,0,0,0,,Mm?
+Dialogue: 0,0:05:53.12,0:05:58.32,White,,0,0,0,,-Sí, Kansuke..., crec que ets tu.
+Dialogue: 0,0:05:53.12,0:05:58.32,White,,0,0,0,,-Què passa? Sospites de mi?
+Dialogue: 0,0:05:58.60,0:06:00.60,White,,0,0,0,,De debò penses\Nque l'assassí soc jo?
+Dialogue: 0,0:06:01.00,0:06:04.28,White,,0,0,0,,Tot el que hem descobert fins ara\Nens porta directament a tu.
+Dialogue: 0,0:06:05.36,0:06:07.36,White,,0,0,0,,Però què dius?!
+Dialogue: 0,0:06:07.56,0:06:10.36,White,,0,0,0,,És impossible,\Nque hagi sigut l'inspector Yamato.
+Dialogue: 0,0:06:11.44,0:06:14.24,White,,0,0,0,,I tu hauries de ser el primer\Nde saber-ho, Morofushi, no trobes?
+Dialogue: 0,0:06:14.92,0:06:17.56,White,,0,0,0,,Perquè, segons tinc entès,\Nsou amics íntims des que éreu petits.
+Dialogue: 0,0:06:18.00,0:06:20.88,White,,0,0,0,,Primera notícia. D'íntims\Nno ho hem sigut mai, nosaltres.
+Dialogue: 0,0:06:21.20,0:06:24.04,White,,0,0,0,,No. És veritat,\Ni el sentiment és mutu.
+Dialogue: 0,0:06:28.56,0:06:31.92,White,,0,0,0,,Mira..., a partir d'ara continuaré\Nla investigació jo sol.
+Dialogue: 0,0:06:32.40,0:06:35.04,White,,0,0,0,,-Tu mateix.
+Dialogue: 0,0:06:32.40,0:06:35.04,White,,0,0,0,,-L'hi pots dir a l'inspector Kuroda.
+Dialogue: 0,0:06:35.12,0:06:37.68,White,,0,0,0,,-Però... he dit...?
+Dialogue: 0,0:06:35.12,0:06:37.68,White,,0,0,0,,-Kansuke, on vas?
+Dialogue: 0,0:06:37.76,0:06:39.84,White,,0,0,0,,He dit alguna cosa\Nque no havia de dir?
+Dialogue: 0,0:06:40.32,0:06:43.04,White,,0,0,0,,Ara que hi penso,\Nquan vas començar a fer de policia,
+Dialogue: 0,0:06:43.12,0:06:45.12,White,,0,0,0,,en Kansuke\Nva ser el teu mentor, oi?
+Dialogue: 0,0:06:45.20,0:06:47.72,White,,0,0,0,,Espero que no li facis costat\Nnomés per això, ara.
+Dialogue: 0,0:06:47.80,0:06:51.64,White,,0,0,0,,Perquè, tot i que l'inspector Takeda és mort, encara ets del seu equip.
+Dialogue: 0,0:06:52.40,0:06:54.20,Yellow,,0,0,0,,Disculpin...
+Dialogue: 0,0:06:52.40,0:06:54.20,White,,0,0,0,,Sí, esclar.
+Dialogue: 0,0:06:54.76,0:06:57.64,Yellow,,0,0,0,,Han dit que el subinspector Kano havia anat un moment a casa seva
+Dialogue: 0,0:06:57.72,0:06:59.72,Yellow,,0,0,0,,perquè s'havia adonat\Nd'alguna cosa, no?
+Dialogue: 0,0:06:59.80,0:07:01.60,White,,0,0,0,,Sí, exacte.
+Dialogue: 0,0:07:01.68,0:07:04.32,White,,0,0,0,,No ho sé...
+Dialogue: 0,0:07:01.68,0:07:04.32,Yellow,,0,0,0,,I saben què l'ha fet reaccionar?
+Dialogue: 0,0:07:04.40,0:07:07.48,White,,0,0,0,,S'ha ficat el dit al front\Nuna bona estona i després, de cop,
+Dialogue: 0,0:07:07.56,0:07:09.56,White,,0,0,0,,ha semblat\Nque se li havia acudit alguna cosa.
+Dialogue: 0,0:07:09.84,0:07:11.64,Yellow,,0,0,0,,(Shinichi, pensa) "Al front?"
+Dialogue: 0,0:07:11.72,0:07:14.48,White,,0,0,0,,Jo diria que se li ha acudit\Nmentre pensava en la marca del picot
+Dialogue: 0,0:07:14.56,0:07:16.88,White,,0,0,0,,que l'inspector Takeda tenia al cap.
+Dialogue: 0,0:07:16.96,0:07:18.44,Yellow,,0,0,0,,I després, què han fet?
+Dialogue: 0,0:07:18.52,0:07:20.68,White,,0,0,0,,Ens hem separat i hem continuat\Nfent preguntes a la gent.
+Dialogue: 0,0:07:20.76,0:07:23.36,White,,0,0,0,,I li hem passat tota la informació\Na l'inspector en cap Kuroda.
+Dialogue: 0,0:07:23.44,0:07:25.72,White,,0,0,0,,Ah, i jo li he enviat un correu\Na l'inspector Yamato.
+Dialogue: 0,0:07:25.80,0:07:28.64,White,,0,0,0,,Però el preocupaven les trucades perdudes del subinspector Kano
+Dialogue: 0,0:07:28.72,0:07:30.52,White,,0,0,0,,i no l'ha llegit.
+Dialogue: 0,0:07:30.60,0:07:33.24,White,,0,0,0,,Es pot saber per què li hem d'explicar res, a aquest nano?
+Dialogue: 0,0:07:33.32,0:07:35.60,White,,0,0,0,,Per tant, en Kansuke sabia perfectament...
+Dialogue: 0,0:07:35.68,0:07:38.04,White,,0,0,0,,que el subinspector Kano\Nhavia tornat a casa seva.
+Dialogue: 0,0:07:38.12,0:07:41.24,White,,0,0,0,,Un moment. No m'ho puc creure,\Nque sospitis d'en Kansuke.
+Dialogue: 0,0:07:41.72,0:07:44.32,White,,0,0,0,,-Però quina barra que tens!
+Dialogue: 0,0:07:41.72,0:07:44.32,White,,0,0,0,,-Doncs sí. Passa res?
+Dialogue: 0,0:07:44.40,0:07:46.20,White,,0,0,0,,La Uehara té raó.
+Dialogue: 0,0:07:46.28,0:07:48.80,White,,0,0,0,,L'inspector Yamato seria incapaç\Nde cometre un assassinat.
+Dialogue: 0,0:07:48.88,0:07:50.92,White,,0,0,0,,-Aburakawa, tens una trucada.
+Dialogue: 0,0:07:48.88,0:07:50.92,White,,0,0,0,,-(mòbil)
+Dialogue: 0,0:07:51.00,0:07:53.04,White,,0,0,0,,-(mòbil)
+Dialogue: 0,0:07:51.00,0:07:53.04,White,,0,0,0,,-Que em dic Akiyama!
+Dialogue: 0,0:07:53.12,0:07:55.12,White,,0,0,0,,Ja ho hauríeu de saber,\Na aquestes altures.
+Dialogue: 0,0:07:55.20,0:07:58.00,White,,0,0,0,,No és una trucada,\Nm'acaben d'enviar un correu. Què?!
+Dialogue: 0,0:07:58.36,0:08:01.28,White,,0,0,0,,-Eh? Res.
+Dialogue: 0,0:07:58.36,0:08:01.28,White,,0,0,0,,-Què passa? Què et diuen?
+Dialogue: 0,0:08:01.36,0:08:03.36,White,,0,0,0,,Perdoneu,\Nperò vaig a canviar-me de roba.
+Dialogue: 0,0:08:03.44,0:08:07.12,White,,0,0,0,,Hem interrogat la gent sota la pluja\Ni vaig ben moll. Vaig aquí al costat.
+Dialogue: 0,0:08:07.20,0:08:10.04,White,,0,0,0,,-No, tranquil!
+Dialogue: 0,0:08:07.20,0:08:10.04,White,,0,0,0,,-Entesos, però no triguis, eh?
+Dialogue: 0,0:08:10.12,0:08:13.52,White,,0,0,0,,Ara que hi penso, va dir\Nque la seva mare vivia per aquí.
+Dialogue: 0,0:08:13.60,0:08:16.40,White,,0,0,0,,Sí. Té el saló de bellesa\Nque hi ha a la cantonada.
+Dialogue: 0,0:08:17.12,0:08:20.60,White,,0,0,0,,(Kansuke, pensa) "Soc Bishamonten...\NSoc Bishamonten."
+Dialogue: 0,0:08:21.08,0:08:26.64,White,,0,0,0,,"Soc... soc Bishamonten."
+Dialogue: 0,0:08:28.36,0:08:32.08,White,,0,0,0,,"Soc el déu de la guerra\Ni destruiré... els picots."
+Dialogue: 0,0:08:32.60,0:08:34.60,White,,0,0,0,,-Eh?
+Dialogue: 0,0:08:32.60,0:08:34.60,White,,0,0,0,,-(ocell: crida)
+Dialogue: 0,0:08:40.64,0:08:42.44,White,,0,0,0,,Sí? Coincideixen?
+Dialogue: 0,0:08:42.52,0:08:45.64,White,,0,0,0,,El cos cremat i el cap de l'inspector\NTakeda coincideixen?
+Dialogue: 0,0:08:45.72,0:08:49.04,White,,0,0,0,,Sí, l'ADN del dit gros del peu dret,\Nque gairebé no s'havia cremat,
+Dialogue: 0,0:08:49.12,0:08:51.12,White,,0,0,0,,coincideix amb el del cap.
+Dialogue: 0,0:08:51.20,0:08:53.00,White,,0,0,0,,On són els altres?
+Dialogue: 0,0:08:53.08,0:08:56.12,White,,0,0,0,,Bé, l'inspector Yamato ha decidit investigar el cas pel seu compte.
+Dialogue: 0,0:08:56.20,0:08:59.56,White,,0,0,0,,T'havia deixat ben clar\Nque no el perdessis de vista.
+Dialogue: 0,0:08:59.64,0:09:01.64,White,,0,0,0,,Ho sento, inspector.
+Dialogue: 0,0:09:01.72,0:09:03.84,White,,0,0,0,,Sembla que últimament\Nno ens avenim gaire, ell i jo.
+Dialogue: 0,0:09:03.92,0:09:05.72,White,,0,0,0,,On són en Shinsuke i en Mamoru?
+Dialogue: 0,0:09:05.80,0:09:08.40,White,,0,0,0,,El sergent Akiyama ha anat a casa\Nde la seva mare
+Dialogue: 0,0:09:08.48,0:09:10.48,White,,0,0,0,,a canviar-se de roba\Nperquè s'havia mullat.
+Dialogue: 0,0:09:10.56,0:09:13.24,White,,0,0,0,,Però com que fa estona que l'esperem\Ni no torna,
+Dialogue: 0,0:09:13.32,0:09:15.96,White,,0,0,0,,l'inspector Saegusa ha anat\Na veure què li passava.
+Dialogue: 0,0:09:16.04,0:09:18.04,White,,0,0,0,,(mòbil)
+Dialogue: 0,0:09:18.12,0:09:21.44,White,,0,0,0,,-Que ha passat alguna cosa?
+Dialogue: 0,0:09:18.12,0:09:21.44,White,,0,0,0,,-"Morofushi? Sóc en Mamoru."
+Dialogue: 0,0:09:22.16,0:09:23.84,White,,0,0,0,,Punyeta, ja ho pots ben dir.
+Dialogue: 0,0:09:23.92,0:09:25.96,White,,0,0,0,,Després de canviar-se de roba,
+Dialogue: 0,0:09:26.04,0:09:28.60,White,,0,0,0,,en Shinsuke ha agafat el cotxe\Nper anar al mont Saijo.
+Dialogue: 0,0:09:28.88,0:09:30.44,White,,0,0,0,,"Al mont Saijo?"
+Dialogue: 0,0:09:30.52,0:09:32.52,White,,0,0,0,,Sí, es veu que ha anat a la cabana\Nde la muntanya...
+Dialogue: 0,0:09:32.60,0:09:35.24,White,,0,0,0,,on s'amagava aquell lladre\Nque estava en cerca i captura.
+Dialogue: 0,0:09:35.32,0:09:37.16,White,,0,0,0,,Jo ara mateix hi vaig.\NEns trobem allà.
+Dialogue: 0,0:09:38.88,0:09:42.16,White,,0,0,0,,Aquest marrec...\NPer què has hagut de pujar al cotxe?
+Dialogue: 0,0:09:42.72,0:09:45.48,Yellow,,0,0,0,,He-he-he!\NPerquè tot això em té ben intrigat.
+Dialogue: 0,0:09:45.56,0:09:49.44,Yellow,,0,0,0,,Una cosa: com és que porten la roda de recanvi al seient del darrere?
+Dialogue: 0,0:09:49.52,0:09:52.24,White,,0,0,0,,Perquè últimament he punxat\Nunes quantes vegades.
+Dialogue: 0,0:09:52.32,0:09:54.36,White,,0,0,0,,Si la tinc aquí,\Nla puc canviar més de pressa.
+Dialogue: 0,0:09:54.44,0:09:56.68,Yellow,,0,0,0,,No, estic bé. Gràcies.
+Dialogue: 0,0:09:54.44,0:09:56.68,White,,0,0,0,,Que et fa nosa?
+Dialogue: 0,0:09:56.76,0:09:58.56,White,,0,0,0,,Per cert, aquella roda...
+Dialogue: 0,0:10:01.20,0:10:03.20,White,,0,0,0,,(veu mecanitzada) "Soc Bishamonten."
+Dialogue: 0,0:10:03.72,0:10:07.36,White,,0,0,0,,"Soc el déu de la guerra.\NI destruiré els picots."
+Dialogue: 0,0:10:11.32,0:10:13.32,White,,0,0,0,,Aquí a la cabana no hi és.
+Dialogue: 0,0:10:14.36,0:10:17.04,White,,0,0,0,,Doncs val més que ens afanyem\Na buscar-lo pels voltants.
+Dialogue: 0,0:10:18.72,0:10:20.72,White,,0,0,0,,Aaaah...! Aaaah...!
+Dialogue: 0,0:10:21.40,0:10:23.44,White,,0,0,0,,Ah! Ah..., aaaah!
+Dialogue: 0,0:10:24.60,0:10:27.80,White,,0,0,0,,-Veniu, sisplau..., ajudeu-me...
+Dialogue: 0,0:10:24.60,0:10:27.80,White,,0,0,0,,-És allà!
+Dialogue: 0,0:10:27.88,0:10:29.48,White,,0,0,0,,El cotxe l'arrossega!
+Dialogue: 0,0:10:29.80,0:10:31.80,White,,0,0,0,,El mòbil, mireu el mòbil...!
+Dialogue: 0,0:10:34.32,0:10:36.48,White,,0,0,0,,Aaaah...! Ah!
+Dialogue: 0,0:10:36.76,0:10:38.96,White,,0,0,0,,-Ah!
+Dialogue: 0,0:10:36.76,0:10:38.96,White,,0,0,0,,-No! Shinsuke!
+Dialogue: 0,0:10:43.84,0:10:45.64,White,,0,0,0,,Shinsuke!
+Dialogue: 0,0:10:52.04,0:10:53.84,White,,0,0,0,,Shinsuke!
+Dialogue: 0,0:10:56.32,0:10:58.32,White,,0,0,0,,Qui ho pot haver fet, això?
+Dialogue: 0,0:10:58.40,0:11:02.28,White,,0,0,0,,Mentre l'arrossegaven amb el cotxe, deia alguna cosa, oi?
+Dialogue: 0,0:11:02.60,0:11:03.92,White,,0,0,0,,Mireu el mòbil!
+Dialogue: 0,0:11:04.32,0:11:06.12,White,,0,0,0,,Oi que ho heu sentit?
+Dialogue: 0,0:11:06.20,0:11:09.08,White,,0,0,0,,-Sí..., d'acord.
+Dialogue: 0,0:11:06.20,0:11:09.08,White,,0,0,0,,-Va, de pressa, truqueu al seu mòbil.
+Dialogue: 0,0:11:09.68,0:11:11.68,White,,0,0,0,,(mòbil)
+Dialogue: 0,0:11:13.00,0:11:15.00,White,,0,0,0,,-Ja l'he trobat!
+Dialogue: 0,0:11:13.00,0:11:15.00,White,,0,0,0,,-(mòbil)
+Dialogue: 0,0:11:15.84,0:11:17.84,White,,0,0,0,,Sí, si no m'equivoco,\Nés el seu mòbil.
+Dialogue: 0,0:11:24.20,0:11:27.48,White,,0,0,0,,Pel que veig, ha rebut un correu aquesta tarda, a les 5.32.
+Dialogue: 0,0:11:27.56,0:11:29.56,White,,0,0,0,,Sí, me'n recordo,\Nperquè jo hi era.
+Dialogue: 0,0:11:29.64,0:11:32.44,White,,0,0,0,,Després de llegir-lo ha dit\Nque es volia canviar de roba
+Dialogue: 0,0:11:32.52,0:11:34.88,White,,0,0,0,,i ha anat al saló de bellesa\Nde la seva mare.
+Dialogue: 0,0:11:35.16,0:11:37.48,White,,0,0,0,,I llavors, en comptes de tornar\Na comissaria,
+Dialogue: 0,0:11:37.56,0:11:40.00,White,,0,0,0,,ha agafat el cotxe i ha vingut aquí,\Nal mont Saijo.
+Dialogue: 0,0:11:40.08,0:11:42.08,White,,0,0,0,,I què diu, el correu?
+Dialogue: 0,0:11:42.60,0:11:45.76,White,,0,0,0,,"He trobat per casualitat el mòbil\Nde l'inspector en cap Shigeru Takeda
+Dialogue: 0,0:11:45.84,0:11:47.84,White,,0,0,0,,entre les coses d'una altra persona,
+Dialogue: 0,0:11:47.92,0:11:49.72,White,,0,0,0,,i l'he fet servir per escriure't\Naquest missatge.
+Dialogue: 0,0:11:49.80,0:11:52.32,White,,0,0,0,,Aquesta persona és membre\Nde la policia.
+Dialogue: 0,0:11:52.40,0:11:55.52,White,,0,0,0,,Sisplau, inventa't una excusa i vine a la cabana que hi ha al mont Saijo.
+Dialogue: 0,0:11:55.60,0:11:57.80,White,,0,0,0,,Allà t'ho explicaré tot\Namb més detall.
+Dialogue: 0,0:11:59.48,0:12:01.08,White,,0,0,0,,Kansuke Yamato."
+Dialogue: 0,0:12:01.60,0:12:03.84,White,,0,0,0,,Com? Que en Kansuke...\Nli ha enviat aquest correu?
+Dialogue: 0,0:12:03.92,0:12:05.52,White,,0,0,0,,Què vol dir, això?
+Dialogue: 0,0:12:05.60,0:12:08.36,White,,0,0,0,,Que l'ha fet venir fins al mont Saijo i després l'ha assassinat?
+Dialogue: 0,0:12:08.44,0:12:11.08,White,,0,0,0,,Per cert, t'hi has pogut posar\Nen contacte, tu?
+Dialogue: 0,0:12:11.16,0:12:14.28,White,,0,0,0,,No, li he trucat unes quantes vegades\Nmentre veníem cap aquí,
+Dialogue: 0,0:12:14.36,0:12:17.08,White,,0,0,0,,però deu tenir el mòbil apagat.
+Dialogue: 0,0:12:17.16,0:12:20.24,White,,0,0,0,,Emetrem una ordre de detenció. Ara\Nen Kansuke és el principal sospitós.
+Dialogue: 0,0:12:20.88,0:12:23.24,White,,0,0,0,,Mm...
+Dialogue: 0,0:12:20.88,0:12:23.24,Yellow,,0,0,0,,Ho sento, però no necessàriament.
+Dialogue: 0,0:12:23.32,0:12:25.52,Yellow,,0,0,0,,Perquè no ens hem plantejat\Nuna cosa bàsica:
+Dialogue: 0,0:12:25.60,0:12:28.88,Yellow,,0,0,0,,potser el correu no l'han enviat\Nenviat des del mòbil de l'inspector.
+Dialogue: 0,0:12:28.96,0:12:30.52,Yellow,,0,0,0,,No es pot descartar
+Dialogue: 0,0:12:30.60,0:12:33.36,Yellow,,0,0,0,,que l'assassí hagi enviat el correu\Nfent-se passar per ell.
+Dialogue: 0,0:12:33.88,0:12:36.04,Yellow,,0,0,0,,A més, si l'inspector Yamato\Nfos l'assassí,
+Dialogue: 0,0:12:36.12,0:12:39.44,Yellow,,0,0,0,,no hagués deixat tirat un mòbil\Namb un correu tan comprometedor
+Dialogue: 0,0:12:39.52,0:12:42.12,Yellow,,0,0,0,,sense ni tan sols buscar-lo,\Nperquè l'incriminaria de seguida.
+Dialogue: 0,0:12:42.48,0:12:45.16,White,,0,0,0,,Però es pot saber què hi fa,\Naquest nano, aquí?
+Dialogue: 0,0:12:45.24,0:12:48.56,White,,0,0,0,,Ho sento, ens hem adonat que era\Nal cotxe quan ja havíem sortit.
+Dialogue: 0,0:12:48.64,0:12:50.16,White,,0,0,0,,Però la veritat\Nés que aquest nen...
+Dialogue: 0,0:12:50.24,0:12:53.20,White,,0,0,0,,Fa deduccions observant els fets\Ndes d'un altre punt de vista
+Dialogue: 0,0:12:53.28,0:12:56.00,White,,0,0,0,,i això l'ajuda a interpretar\Nles pistes i a resoldre casos.
+Dialogue: 0,0:12:56.08,0:12:58.80,White,,0,0,0,,És la font de saviesa\Nd'en Kogoro Dorment.
+Dialogue: 0,0:13:01.32,0:13:04.68,White,,0,0,0,,O almenys aquest és el rumor\Nque corre pel Departament de Policia.
+Dialogue: 0,0:13:04.76,0:13:08.96,Yellow,,0,0,0,,Això diuen? Vaja, ostres, tu!
+Dialogue: 0,0:13:04.76,0:13:08.96,White,,0,0,0,,És en Conan Edogawa.
+Dialogue: 0,0:13:09.04,0:13:11.04,White,,0,0,0,,De totes maneres, podria ser...
+Dialogue: 0,0:13:11.12,0:13:13.40,White,,0,0,0,,que estigués buscant el mòbil\Nquan hem arribat nosaltres
+Dialogue: 0,0:13:13.48,0:13:16.32,White,,0,0,0,,i no hagi tingut més remei que fugir perquè no el veiéssim.
+Dialogue: 0,0:13:16.88,0:13:19.56,White,,0,0,0,,O potser l'Akiyama ha pensat\Namb rapidesa i...
+Dialogue: 0,0:13:20.20,0:13:22.52,White,,0,0,0,,Ho sabia. Això ho explica tot.
+Dialogue: 0,0:13:22.80,0:13:26.20,White,,0,0,0,,El telèfon d'en Kansuke Yamato\Nestà bloquejat, ho veus?
+Dialogue: 0,0:13:26.28,0:13:29.36,White,,0,0,0,,Segur que el sergent Akiyama\Nha intuït d'alguna manera
+Dialogue: 0,0:13:29.44,0:13:31.24,White,,0,0,0,,que en Yamato el volia matar
+Dialogue: 0,0:13:31.32,0:13:33.76,White,,0,0,0,,i l'ha bloquejat per evitar\Nque pogués esborrar-ne les proves.
+Dialogue: 0,0:13:34.52,0:13:36.40,White,,0,0,0,,No pot ser!
+Dialogue: 0,0:13:36.48,0:13:38.48,White,,0,0,0,,O potser l'assassí\Nho ha preparat tot
+Dialogue: 0,0:13:38.56,0:13:40.64,White,,0,0,0,,per fer-nos creure\Nque el culpable era en Kansuke.
+Dialogue: 0,0:13:40.72,0:13:43.40,White,,0,0,0,,Sí... Jo pensava el mateix,\Nho reconec.
+Dialogue: 0,0:13:43.48,0:13:46.32,White,,0,0,0,,Fins que he rebut una trucada\Nde la policia Científica.
+Dialogue: 0,0:13:46.40,0:13:47.96,White,,0,0,0,,Una trucada?
+Dialogue: 0,0:13:48.32,0:13:51.36,White,,0,0,0,,Han trobat empremtes d'en Yamato\Na la corda del coll d'en Shoji.
+Dialogue: 0,0:13:52.00,0:13:54.40,White,,0,0,0,,Ordenaré que el detinguin\Ncom a sospitós d'assassinat.
+Dialogue: 0,0:13:56.88,0:13:58.88,White,,0,0,0,,No, sisplau, no es precipiti!
+Dialogue: 0,0:13:58.96,0:14:02.40,White,,0,0,0,,L'inspector Yamato ha tocat la corda\Nquan ha despenjat el cos.
+Dialogue: 0,0:14:02.48,0:14:04.88,White,,0,0,0,,Ja hi comptàvem, que trobaríem\Nles seves empremtes...
+Dialogue: 0,0:14:04.96,0:14:07.12,White,,0,0,0,,a la part de la corda\Nque estava penjada al llum.
+Dialogue: 0,0:14:07.20,0:14:09.96,White,,0,0,0,,Però també n'han trobat\Na la del voltant del coll.
+Dialogue: 0,0:14:10.04,0:14:12.84,White,,0,0,0,,I això demostra que l'ha fet servir per estrangular en Shoji.
+Dialogue: 0,0:14:13.24,0:14:14.68,White,,0,0,0,,Vol dir?
+Dialogue: 0,0:14:14.76,0:14:17.96,White,,0,0,0,,Morofushi, en Kansuke ha tocat\Nla corda del coll, en despenjar-lo?
+Dialogue: 0,0:14:18.04,0:14:19.48,White,,0,0,0,,No, mai.
+Dialogue: 0,0:14:19.56,0:14:22.44,White,,0,0,0,,Jo no m'he mogut del costat del cos\Nfins que ha arribat la Científica,
+Dialogue: 0,0:14:22.52,0:14:25.32,White,,0,0,0,,i li puc assegurar que ningú ha tocat la corda per la part del coll.
+Dialogue: 0,0:14:25.52,0:14:28.76,White,,0,0,0,,Si hi afegim un testimoni que afirma haver vist en Kansuke
+Dialogue: 0,0:14:28.84,0:14:31.32,White,,0,0,0,,a prop del pont\Non han trobat el cos d'en Shigeru,
+Dialogue: 0,0:14:31.40,0:14:34.20,White,,0,0,0,,i que va estar present\Ntant en el tiroteig de fa 9 anys
+Dialogue: 0,0:14:34.28,0:14:36.88,White,,0,0,0,,com en l'incident del banc\Nde fa 6 mesos,
+Dialogue: 0,0:14:36.96,0:14:40.20,White,,0,0,0,,crec que hauríem d'emetre una ordre\Nde detenció contra ell.
+Dialogue: 0,0:14:40.84,0:14:43.20,White,,0,0,0,,L'assassí és ell,\Nhem de ser objectius.
+Dialogue: 0,0:14:43.28,0:14:46.84,White,,0,0,0,,Ho sento, però jo estic segura\Nque en Kansuke no és un criminal!
+Dialogue: 0,0:14:47.44,0:14:50.60,White,,0,0,0,,Hem de prioritzar la justícia\Nper damunt de les emocions.
+Dialogue: 0,0:14:50.68,0:14:52.96,White,,0,0,0,,Si ara el deixem escapar,\Npotser més endavant ens en penedirem.
+Dialogue: 0,0:14:53.72,0:14:55.72,White,,0,0,0,,Bé, doncs,\Nestablirem punts de control.
+Dialogue: 0,0:14:55.80,0:14:58.32,White,,0,0,0,,Hem de detenir l'inspector Yamato\Ncosti el que costi.
+Dialogue: 0,0:14:58.40,0:15:01.00,White,,0,0,0,,No siguis indulgent amb ell\Nnomés perquè el coneixes.
+Dialogue: 0,0:15:01.08,0:15:05.80,White,,0,0,0,,Pensa que és un assassí en sèrie\Nque ha mort 3 policies en un sol dia.
+Dialogue: 0,0:15:06.36,0:15:09.40,White,,0,0,0,,Me'n vaig a comissaria.\NCoordinaré l'operació des d'allà.
+Dialogue: 0,0:15:09.48,0:15:12.12,White,,0,0,0,,Però, inspector..., i en Shinsuke?\NQuè fem?
+Dialogue: 0,0:15:12.36,0:15:14.16,White,,0,0,0,,De moment, res.
+Dialogue: 0,0:15:14.24,0:15:16.88,White,,0,0,0,,El terra està ben enfangat\Nde la pluja i ja s'ha fet fosc.
+Dialogue: 0,0:15:16.96,0:15:18.96,White,,0,0,0,,Podem recuperar el cos\Nquan es faci de dia.
+Dialogue: 0,0:15:19.28,0:15:21.28,White,,0,0,0,,Mamoru, puja amb mi al cotxe,\Nsisplau.
+Dialogue: 0,0:15:22.40,0:15:24.44,White,,0,0,0,,Al cotxe d'en Morofushi\Nno sé si hi cabràs,
+Dialogue: 0,0:15:24.52,0:15:27.52,White,,0,0,0,,tenint en compte que porta la roda\Nde recanvi al seient del darrere.
+Dialogue: 0,0:15:31.48,0:15:33.48,Yellow,,0,0,0,,Una cosa...
+Dialogue: 0,0:15:33.56,0:15:36.12,Yellow,,0,0,0,,¿És veritat que l'inspector Yamato\Nha sigut la persona
+Dialogue: 0,0:15:36.20,0:15:38.60,Yellow,,0,0,0,,que ha despenjat el cos\Ndel subinspector Kano?
+Dialogue: 0,0:15:38.68,0:15:41.12,White,,0,0,0,,Sí. En Kansuke s'ha enfilat\Na una cadira.
+Dialogue: 0,0:15:41.20,0:15:43.92,White,,0,0,0,,Llavors en Shinsuke i els altres\Nhan aixecat una mica el cos.
+Dialogue: 0,0:15:44.00,0:15:46.32,Yellow,,0,0,0,,Però l'inspector Yamato\Nté una cama malament, oi?
+Dialogue: 0,0:15:46.96,0:15:49.00,White,,0,0,0,,En Kansuke és alt i té molta força,\Ni a més,
+Dialogue: 0,0:15:49.08,0:15:51.08,White,,0,0,0,,si creu que una persona\Nencara és viva,
+Dialogue: 0,0:15:51.16,0:15:53.16,White,,0,0,0,,farà el que calgui per salvar-la\Nsense pensar-s'ho gens.
+Dialogue: 0,0:15:53.24,0:15:56.24,Yellow,,0,0,0,,Com que "aquella vegada"?
+Dialogue: 0,0:15:53.24,0:15:56.24,White,,0,0,0,,Sí, aquella vegada va passar igual.
+Dialogue: 0,0:15:56.32,0:15:59.12,Yellow,,0,0,0,,Vol dir que no és la primera vegada\Nque passa una cosa així?
+Dialogue: 0,0:15:59.20,0:16:00.68,White,,0,0,0,,Exacte.
+Dialogue: 0,0:16:00.76,0:16:04.08,White,,0,0,0,,Els pares d'aquell home\Nque es va atrinxerar al banc,
+Dialogue: 0,0:16:04.16,0:16:08.32,White,,0,0,0,,es van penjar perquè eren incapaços\Nde suportar la pressió dels veïns.
+Dialogue: 0,0:16:08.64,0:16:10.64,White,,0,0,0,,I només arribar al lloc dels fets,
+Dialogue: 0,0:16:10.72,0:16:13.48,White,,0,0,0,,en Kansuke es va enfilar a una cadira i els va despenjar.
+Dialogue: 0,0:16:13.56,0:16:17.68,White,,0,0,0,,Però, a diferència d'en Shoji, només va desfer els nusos de les cordes,
+Dialogue: 0,0:16:17.76,0:16:19.84,White,,0,0,0,,que estaven lligades\Na una biga del sostre.
+Dialogue: 0,0:16:19.92,0:16:23.40,Yellow,,0,0,0,,I com estava lligada, la corda que ha escanyat el subinspector Kano?
+Dialogue: 0,0:16:23.48,0:16:26.48,White,,0,0,0,,Doncs en Shoji estava penjat\Nd'una corda feta amb dues bagues
+Dialogue: 0,0:16:26.56,0:16:29.24,White,,0,0,0,,enllaçades d'una manera\Nuna mica inusual.
+Dialogue: 0,0:16:29.32,0:16:32.12,White,,0,0,0,,La baga superior estava lligada\Nal voltant del llum del sostre.
+Dialogue: 0,0:16:32.40,0:16:35.64,White,,0,0,0,,Recordo que en Kansuke ha agafat\Nla baga superior amb les dues mans
+Dialogue: 0,0:16:35.72,0:16:38.60,White,,0,0,0,,i l'ha tret de la barra del llum\Nque està collada al sostre.
+Dialogue: 0,0:16:38.68,0:16:42.56,Yellow,,0,0,0,,I les dues cordes que diu,\Nno estaven pas enllaçades així?
+Dialogue: 0,0:16:42.64,0:16:44.76,White,,0,0,0,,Doncs... jo diria que sí.
+Dialogue: 0,0:16:45.08,0:16:49.08,Yellow,,0,0,0,,I quan han deixat el cos a terra,\Nrecorda qui hi havia, allà?
+Dialogue: 0,0:16:49.40,0:16:51.08,White,,0,0,0,,Si no m'equivoco,
+Dialogue: 0,0:16:51.16,0:16:53.20,White,,0,0,0,,hi havia l'inspector Morofushi\Ni el sergent Akiyama,
+Dialogue: 0,0:16:53.28,0:16:55.28,White,,0,0,0,,que estaven inclinats\Na prop del cos.
+Dialogue: 0,0:16:55.36,0:16:57.44,White,,0,0,0,,Els altres estàvem drets\Na una certa distància.
+Dialogue: 0,0:16:57.52,0:17:01.60,Yellow,,0,0,0,,Mentre eren allà, no ha passat res? Alguna cosa que els distragués.
+Dialogue: 0,0:17:02.04,0:17:04.04,White,,0,0,0,,Ara que ho dius,\Nen aquell precís moment...
+Dialogue: 0,0:17:04.12,0:17:06.64,White,,0,0,0,,ha arribat un correu electrònic\Nal telèfon d'en Shoji,
+Dialogue: 0,0:17:06.72,0:17:10.76,White,,0,0,0,,i constava enviat des del mòbil\Nde l'inspector Takeda, que era mort.
+Dialogue: 0,0:17:11.60,0:17:13.60,White,,0,0,0,,Deia que només quedaven tres picots.
+Dialogue: 0,0:17:14.00,0:17:17.68,White,,0,0,0,,I no perdem de vista el correu\Nque ha rebut abans en Kansuke:
+Dialogue: 0,0:17:17.76,0:17:21.40,White,,0,0,0,,"Soc Bishamonten. Soc el déu\Nde la guerra i destruiré els picots".
+Dialogue: 0,0:17:21.92,0:17:24.68,Yellow,,0,0,0,,Si comptem el sergent Akiyama,\Nque ha mort després del correu,
+Dialogue: 0,0:17:24.76,0:17:28.12,Yellow,,0,0,0,,l'assassí té intenció de matar\Ndues persones més, oi?
+Dialogue: 0,0:17:28.20,0:17:30.84,White,,0,0,0,,Però encara no entenc per què.\NQuin motiu pot tenir?
+Dialogue: 0,0:17:30.92,0:17:32.92,White,,0,0,0,,I què és tot això dels picots?
+Dialogue: 0,0:17:33.00,0:17:35.68,Yellow,,0,0,0,,Ja ho començo a veure, però encara\Nno n'estic segur del tot.
+Dialogue: 0,0:17:35.76,0:17:38.60,Yellow,,0,0,0,,Però em sembla que sí que sé quines\Npoden ser les pròximes víctimes.
+Dialogue: 0,0:17:39.12,0:17:41.44,Yellow,,0,0,0,,Està relacionat amb els noms.
+Dialogue: 0,0:17:39.12,0:17:41.44,White,,0,0,0,,Què?
+Dialogue: 0,0:17:41.52,0:17:43.52,Yellow,,0,0,0,,No sé ben bé per quin motiu,
+Dialogue: 0,0:17:43.60,0:17:46.16,Yellow,,0,0,0,,però les tres persones\Nque han assassinat fins ara
+Dialogue: 0,0:17:46.24,0:17:48.36,Yellow,,0,0,0,,tenen noms semblants\Nals dels generals morts
+Dialogue: 0,0:17:48.44,0:17:50.44,Yellow,,0,0,0,,a la quarta batalla de Kawanakajima.
+Dialogue: 0,0:17:50.52,0:17:52.60,Yellow,,0,0,0,,L'inspector Takeda,\Nque ha sigut la primera víctima,
+Dialogue: 0,0:17:52.68,0:17:54.72,Yellow,,0,0,0,,es deia igual que en Nobushi Takeda.
+Dialogue: 0,0:17:54.80,0:17:57.04,Yellow,,0,0,0,,El subinspector Shoji Kano\Ntenia un cognom
+Dialogue: 0,0:17:57.12,0:17:59.20,Yellow,,0,0,0,,semblant al de Tadatsugu Hajikano.
+Dialogue: 0,0:17:59.28,0:18:02.08,Yellow,,0,0,0,,I el sergent Shinosuke Akiyama,\Nabans es deia Aburakawa de cognom,
+Dialogue: 0,0:18:02.16,0:18:04.16,Yellow,,0,0,0,,com Nobuyoshi Aburakawa.
+Dialogue: 0,0:18:04.24,0:18:06.24,White,,0,0,0,,Llavors, els dos que queden,\Nqui són?
+Dialogue: 0,0:18:06.52,0:18:10.24,Yellow,,0,0,0,,L'inspector Mamoru Saegusa,\Nque té el cognom de Morinao Saegusa.
+Dialogue: 0,0:18:10.32,0:18:12.32,Yellow,,0,0,0,,I el general de l'exèrcit\Nde Takeda,
+Dialogue: 0,0:18:12.40,0:18:14.40,Yellow,,0,0,0,,responsable de l'estratègia fallida
+Dialogue: 0,0:18:14.48,0:18:16.52,Yellow,,0,0,0,,i que es va llançar\Na les mans de l'enemic,
+Dialogue: 0,0:18:16.60,0:18:18.88,Yellow,,0,0,0,,resulta que es deia\NKansuke Yamamoto.
+Dialogue: 0,0:18:18.96,0:18:22.64,White,,0,0,0,,Què? I qui pot voler venjar-se\Nd'en Kansuke? No ho entenc!
+Dialogue: 0,0:18:22.72,0:18:25.80,Yellow,,0,0,0,,Potser té alguna cosa a veure\Namb el cas dels ostatges del banc
+Dialogue: 0,0:18:25.88,0:18:27.88,Yellow,,0,0,0,,que va tenir lloc fa 6 mesos.
+Dialogue: 0,0:18:27.96,0:18:30.48,White,,0,0,0,,Ah...
+Dialogue: 0,0:18:27.96,0:18:30.48,Yellow,,0,0,0,,Me'l podria explicar amb més detall?
+Dialogue: 0,0:18:30.56,0:18:33.60,White,,0,0,0,,Quan l'inspector Takeda li va disparar al delinqüent i el va matar?
+Dialogue: 0,0:18:33.68,0:18:36.44,White,,0,0,0,,En realitat, l'home estava a punt\Nd'entregar-se a la policia...
+Dialogue: 0,0:18:36.52,0:18:38.60,White,,0,0,0,,després de molta estona\Nd'intentar convence'l.
+Dialogue: 0,0:18:38.68,0:18:41.20,White,,0,0,0,,Però els homes de l'inspector\NTakeda, que havien rodejat el banc,
+Dialogue: 0,0:18:41.28,0:18:43.08,White,,0,0,0,,van decidir actuar.
+Dialogue: 0,0:18:43.16,0:18:46.80,White,,0,0,0,,L'home, en adonar-se'n, va començar\Na disparar a tort i a dret.
+Dialogue: 0,0:18:47.20,0:18:49.36,White,,0,0,0,,Llavor, l'inspector Takeda\Nno va tenir més remei...
+Dialogue: 0,0:18:49.44,0:18:51.48,White,,0,0,0,,que entrar al banc\Ni disparar a matar.
+Dialogue: 0,0:18:51.56,0:18:53.56,White,,0,0,0,,Per sort, no hi va haver\Nmés víctimes.
+Dialogue: 0,0:18:53.64,0:18:55.64,White,,0,0,0,,Però en Kansuke es va enfadar molt amb en Shigeru.
+Dialogue: 0,0:18:55.72,0:18:57.88,White,,0,0,0,,Espero que no et pensis\Nque perquè ets policia
+Dialogue: 0,0:18:57.96,0:18:59.96,White,,0,0,0,,pots matar qualsevol sospitós\Namb impunitat total!
+Dialogue: 0,0:19:00.44,0:19:01.84,White,,0,0,0,,Ve-t'ho aquí.
+Dialogue: 0,0:19:01.92,0:19:05.92,White,,0,0,0,,Recordo que es va dir que el mòbil\Nde l'home del banc havia desaparegut,
+Dialogue: 0,0:19:06.00,0:19:08.04,White,,0,0,0,,tot i que sembla que abans\Nque el matessin
+Dialogue: 0,0:19:08.12,0:19:10.12,White,,0,0,0,,havia parlat amb algú per telèfon.
+Dialogue: 0,0:19:10.20,0:19:13.12,White,,0,0,0,,Van sentir que deia: "Si em detenen,\Ntu també cauràs.
+Dialogue: 0,0:19:13.20,0:19:16.40,White,,0,0,0,,Diré d'on ha sortit la pistola i què vol dir la ics. Jo ja t'he avisat".
+Dialogue: 0,0:19:16.80,0:19:18.80,Yellow,,0,0,0,,(Shinichi, pensa) "De debò?"
+Dialogue: 0,0:19:16.80,0:19:18.80,White,,0,0,0,,"Què vol dir la ics"?
+Dialogue: 0,0:19:19.16,0:19:21.64,White,,0,0,0,,-Esclar.
+Dialogue: 0,0:19:19.16,0:19:21.64,White,,0,0,0,,-És veritat tot això que dius?
+Dialogue: 0,0:19:21.72,0:19:26.12,White,,0,0,0,,L'altre dia ho explicava en Shinsuke amb tots els detall. No hi eres, tu?
+Dialogue: 0,0:19:26.20,0:19:28.20,White,,0,0,0,,Potser l'inspector Saegusa\Nho va sentir,
+Dialogue: 0,0:19:28.28,0:19:30.60,White,,0,0,0,,perquè també és un dels homes\Nde l'equip d'en Shigeru.
+Dialogue: 0,0:19:30.68,0:19:34.44,Yellow,,0,0,0,,Perdoni... Per què el subinspector Kano apareix a la lletra T?
+Dialogue: 0,0:19:35.80,0:19:38.84,White,,0,0,0,,Daixò..., perquè en Shoji Kano\Nabans es deia Tsuchiya,
+Dialogue: 0,0:19:38.92,0:19:41.92,White,,0,0,0,,però quan es va casar va agafar\Nel cognom de la família de la dona.
+Dialogue: 0,0:19:42.00,0:19:43.80,Yellow,,0,0,0,,(Shinichi, pensa) "Ics?"
+Dialogue: 0,0:19:42.00,0:19:43.80,White,,0,0,0,,"Tsuchiya"...
+Dialogue: 0,0:19:45.40,0:19:47.96,White,,0,0,0,,Però què deu voler aquest assassí?\NNo ho entenc.
+Dialogue: 0,0:19:48.04,0:19:51.44,White,,0,0,0,,Quina fixació té, amb els que van morir a la batalla de Kawanakajima?
+Dialogue: 0,0:19:51.52,0:19:53.04,White,,0,0,0,,-No...
+Dialogue: 0,0:19:51.52,0:19:53.04,White,,0,0,0,,-Eh?
+Dialogue: 0,0:19:53.44,0:19:56.68,White,,0,0,0,,La clau no són els morts\Na la batalla, sinó la ics.
+Dialogue: 0,0:19:56.76,0:19:58.76,White,,0,0,0,,Sigui com sigui,\Nsembla que en Kansuke...
+Dialogue: 0,0:19:58.84,0:20:00.84,White,,0,0,0,,és a la llista de possibles víctimes de l'assassí.
+Dialogue: 0,0:20:01.88,0:20:05.80,Cyan,,0,0,0,,Conan, es pot saber on t'havies ficat? Estava preocupada per tu!
+Dialogue: 0,0:20:05.88,0:20:08.88,White,,0,0,0,,Ets un cas.
+Dialogue: 0,0:20:05.88,0:20:08.88,Yellow,,0,0,0,,Ho sento, no ho tornaré a fer.
+Dialogue: 0,0:20:09.32,0:20:12.32,White,,0,0,0,,Com ha anat? Us heu pogut posar\Nen contacte amb en Kansuke?
+Dialogue: 0,0:20:12.40,0:20:14.60,White,,0,0,0,,No, encara no, el seu mòbil\Nno para de comunicar.
+Dialogue: 0,0:20:14.96,0:20:16.96,White,,0,0,0,,Oh, inspector, tenim notícies.
+Dialogue: 0,0:20:17.04,0:20:19.80,White,,0,0,0,,Acabem de rebre una trucada dient\Nque fa poc han vist un home
+Dialogue: 0,0:20:19.88,0:20:21.88,White,,0,0,0,,que s'assemblava a en Kansuke.
+Dialogue: 0,0:20:21.96,0:20:23.96,White,,0,0,0,,Ho voldria confirmar,\Nperò no hi ha cap cotxe lliure.
+Dialogue: 0,0:20:24.04,0:20:26.04,White,,0,0,0,,Ah, Morofushi, ets aquí!
+Dialogue: 0,0:20:26.12,0:20:29.76,White,,0,0,0,,-Què? M'estimo més que no, ho sento.
+Dialogue: 0,0:20:26.12,0:20:29.76,White,,0,0,0,,-Em pots deixar el teu, sisplau?
+Dialogue: 0,0:20:29.84,0:20:32.24,White,,0,0,0,,Per què no l'hi deixes?\NQue passa res?
+Dialogue: 0,0:20:32.32,0:20:35.52,White,,0,0,0,,Home, és que l'inspector Saegusa\Nés molt brusc conduint.
+Dialogue: 0,0:20:35.60,0:20:37.20,White,,0,0,0,,-Sí?
+Dialogue: 0,0:20:35.60,0:20:37.20,White,,0,0,0,,-Morofushi...
+Dialogue: 0,0:20:37.44,0:20:40.96,White,,0,0,0,,És una emergència,\Nl'hi has de deixar. És una ordre.
+Dialogue: 0,0:20:41.48,0:20:44.76,White,,0,0,0,,-Gràcies, noi.
+Dialogue: 0,0:20:41.48,0:20:44.76,White,,0,0,0,,-Entesos. Té.
+Dialogue: 0,0:20:44.84,0:20:46.84,White,,0,0,0,,Si el testimoni és creïble,\Navisa'ns de seguida, d'acord?
+Dialogue: 0,0:20:46.92,0:20:48.72,White,,0,0,0,,Entesos.
+Dialogue: 0,0:20:50.92,0:20:52.92,White,,0,0,0,,(veu mecanitzada) "Soc Bishamonten."
+Dialogue: 0,0:20:54.08,0:20:57.88,White,,0,0,0,,"Soc el déu de la guerra...\Ni destruiré els picots."
+Dialogue: 0,0:21:06.56,0:21:08.56,White,,0,0,0,,(mòbil)
+Dialogue: 0,0:21:10.16,0:21:12.16,White,,0,0,0,,"Tot flueix com el riu".
+Dialogue: 0,0:21:13.68,0:21:15.48,White,,0,0,0,,"Kansuke".
+Dialogue: 0,0:21:16.80,0:21:18.84,Songs,,0,0,0,,("Unmei no roulette mawashite",\NLa PomPon)
+Dialogue: 0,0:21:18.92,0:21:24.68,Songs,,0,0,0,,Unmei no roulette mawashite
+Dialogue: 0,0:21:25.08,0:21:31.16,Songs,,0,0,0,,zutto kimi wo mite ita.
+Dialogue: 0,0:21:31.24,0:21:36.68,Songs,,0,0,0,,
+Dialogue: 0,0:21:36.76,0:21:41.68,Songs,,0,0,0,,Naze nano konna ni shiawase nanoni.
+Dialogue: 0,0:21:42.52,0:21:48.00,Songs,,0,0,0,,Suiheisen wo miru\Nto kanashiku naru.
+Dialogue: 0,0:21:49.48,0:21:53.16,Songs,,0,0,0,,Ano koro no jibun wo
+Dialogue: 0,0:21:53.24,0:22:00.28,Songs,,0,0,0,,tooku de mite iru sonna kanji.
+Dialogue: 0,0:22:01.52,0:22:07.20,Songs,,0,0,0,,Unmei no roulette mawashite
+Dialogue: 0,0:22:08.20,0:22:13.20,Songs,,0,0,0,,arekore fukaku kangaeru\Nno wa Mystery.
+Dialogue: 0,0:22:13.68,0:22:19.44,Songs,,0,0,0,,Hora unmei no hito wa soko ni iru
+Dialogue: 0,0:22:19.88,0:22:24.72,Songs,,0,0,0,,zutto kimi wo mite ita.
+Dialogue: 0,0:22:25.84,0:22:31.68,Songs,,0,0,0,,Zutto kimi wo mite ita.
+Dialogue: 0,0:22:33.28,0:22:35.28,White,,0,0,0,,En Kansuke m'ha enviat aquest correu.
+Dialogue: 0,0:22:35.36,0:22:38.40,White,,0,0,0,,(veu Kansuke) "Si no vens, revelaré\Ntot el que sé sobre la ics."
+Dialogue: 0,0:22:38.48,0:22:40.80,White,,0,0,0,,Què carai en saps, tu, de la ics?
+Dialogue: 0,0:22:41.20,0:22:44.08,Yellow,,0,0,0,,Sí, és el que pensava llavors.
+Dialogue: 0,0:22:41.20,0:22:44.08,White,,0,0,0,,La ics, dius?
+Dialogue: 0,0:22:44.16,0:22:46.28,Yellow,,0,0,0,,Perquè encara no sabia\Nque el clan dels picots
+Dialogue: 0,0:22:46.36,0:22:48.56,Yellow,,0,0,0,,també rebia aquest nom,\Ntambé es deia ics.
+Dialogue: 0,0:22:48.84,0:22:50.12,White,,0,0,0,,(pensa) "Kansuke..."
+Dialogue: 0,0:22:50.52,0:22:53.64,White,,0,0,0,,Ei! T'he vingut a buscar\Ntal com m'has demanat. Kansuke?
+Dialogue: 0,0:22:56.36,0:22:58.36,Yellow,,0,0,0,,(veu Conan) No us perdeu\Nel pròxim episodi:
+Dialogue: 0,0:22:58.44,0:23:01.72,Yellow,,0,0,0,,"La foscor de la policia\Nde la prefectura (Tercera part)".
