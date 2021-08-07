@@ -1,0 +1,408 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.08,0:00:02.69,Default,,0,0,0,,TOKIWA\NVILLAGE THERMAL
+Dialogue: 0,0:00:04.40,0:00:05.52,Default,,0,0,0,,HÔTEL TOKIWA
+Dialogue: 0,0:00:18.57,0:00:19.41,Default,,0,0,0,,Entrez !
+Dialogue: 0,0:00:20.65,0:00:22.84,Default,,0,0,0,,Taikô Meijin.\NVous êtes prêt ?
+Dialogue: 0,0:00:24.53,0:00:29.32,Default,,0,0,0,,Ne m'appelle pas "Meijin".\NPas avant tout à l'heure, du moins.
+Dialogue: 0,0:00:30.00,0:00:33.53,Default,,0,0,0,,Mais tout le monde vous appelle\N"Taikô Meijin".
+Dialogue: 0,0:00:33.64,0:00:37.28,Default,,0,0,0,,Avec déjà 6 titres sur 7,\Nvous êtes le favori incontesté !
+Dialogue: 0,0:00:37.45,0:00:39.13,Default,,0,0,0,,Non, restons prudent.
+Dialogue: 0,0:00:40.28,0:00:45.24,Default,,0,0,0,,Dans ce match pour le titre de Meijin,\Nnous en sommes à 3 partout,
+Dialogue: 0,0:00:45.56,0:00:47.89,Default,,0,0,0,,mais,\Ndurant la dernière partie d'hier,
+Dialogue: 0,0:00:48.04,0:00:51.04,Default,,0,0,0,,j'ai péniblement contenu\Nles attaques du Meijin.
+Dialogue: 0,0:00:51.61,0:00:54.52,Default,,0,0,0,,Hier soir,\Nle commentateur a pourtant dit :
+Dialogue: 0,0:00:54.69,0:00:57.60,Default,,0,0,0,,"Haneda a tenu,\Nil est en position de force" !
+Dialogue: 0,0:00:57.80,0:01:01.12,Default,,0,0,0,,Le Meijin semblait tourmenté\Npar votre coup scellé.
+Dialogue: 0,0:01:01.28,0:01:02.53,Default,,0,0,0,,C'est vrai ?
+Dialogue: 0,0:01:05.33,0:01:07.68,Default,,0,0,0,,- Une photo !\N- C'est votre petite amie ?
+Dialogue: 0,0:01:07.85,0:01:09.52,Default,,0,0,0,,Euh, oui...
+Dialogue: 0,0:01:12.09,0:01:13.13,Default,,0,0,0,,{\i1}Yumi...{\i0}
+Dialogue: 0,0:01:14.68,0:01:17.17,ST_HAUT,,0,0,0,,{\i1}Ah, cette enveloppe bizarre ?{\i0}
+Dialogue: 0,0:01:17.33,0:01:19.21,ST_HAUT,,0,0,0,,{\i1}- Je l'ai paumée !{\i0}
+Dialogue: 0,0:01:21.00,0:01:24.88,Default,,0,0,0,,{\i1}Bah, après ça,{\i0}\N{\i1}tu ne m'avais plus rappelée...{\i0}
+Dialogue: 0,0:01:25.36,0:01:28.72,Default,,0,0,0,,{\i1}Je t'avais dit en te la donnant{\i0}\N{\i1}de ne pas l'ouvrir{\i0}
+Dialogue: 0,0:01:28.88,0:01:31.41,Default,,0,0,0,,{\i1}avant que j'aie les sept{\i0}\N{\i1}en même temps !{\i0}
+Dialogue: 0,0:01:31.88,0:01:34.41,Default,,0,0,0,,{\i1}Oui. Alors, je l'ai balancée{\i0}\N{\i1}sans l'ouvrir.{\i0}
+Dialogue: 0,0:01:34.76,0:01:36.41,Default,,0,0,0,,{\i1}Quoi ?{\i0}\N{\i1}Mais le sous-entendu,{\i0}
+Dialogue: 0,0:01:36.96,0:01:39.96,Default,,0,0,0,,{\i1}c'était que tu devrais{\i0}\N{\i1}la garder précieusement !{\i0}
+Dialogue: 0,0:01:41.56,0:01:46.52,Default,,0,0,0,,{\i1}Et pourquoi tu as fait venir ici{\i0}\N{\i1}Yumi la belle fliquette{\i0}
+Dialogue: 0,0:01:46.84,0:01:48.33,Default,,0,0,0,,{\i1}un jour de repos ?{\i0}
+Dialogue: 0,0:01:49.80,0:01:53.65,Default,,0,0,0,,{\i1}Eh bien, je voulais vérifier{\i0}\N{\i1}que tu avais toujours l'enveloppe{\i0}
+Dialogue: 0,0:01:53.96,0:01:56.97,Default,,0,0,0,,{\i1}car j'en aurai bientôt{\i0}\N{\i1}sept sur sept.{\i0}
+Dialogue: 0,0:01:58.48,0:01:59.48,Default,,0,0,0,,{\i1}C'est tout ?{\i0}
+Dialogue: 0,0:02:00.44,0:02:01.84,Default,,0,0,0,,{\i1}Euh... oui...{\i0}
+Dialogue: 0,0:02:02.44,0:02:03.49,Default,,0,0,0,,Pour l'instant.
+Dialogue: 0,0:02:05.20,0:02:06.24,Default,,0,0,0,,{\i1}Je me tire.{\i0}
+Dialogue: 0,0:02:06.36,0:02:07.13,Default,,0,0,0,,{\i1}Yumi !{\i0}
+Dialogue: 0,0:02:07.44,0:02:09.28,Default,,0,0,0,,{\i1}Non, attends !{\i0}
+Dialogue: 0,0:02:09.96,0:02:11.89,Default,,0,0,0,,{\i1}Eh,{\i0}\N{\i1}mais ce serait pas Taikô Meijin ?{\i0}
+Dialogue: 0,0:02:12.68,0:02:13.88,Default,,0,0,0,,{\i1}Mais si, c'est lui !{\i0}
+Dialogue: 0,0:02:14.20,0:02:16.12,Default,,0,0,0,,{\i1}Je suis votre plus grand fan !{\i0}
+Dialogue: 0,0:02:16.76,0:02:18.44,Default,,0,0,0,,{\i1}Un autographe, S.V.P. !{\i0}
+Dialogue: 0,0:02:18.92,0:02:20.16,Default,,0,0,0,,{\i1}Merci !{\i0}
+Dialogue: 0,0:02:20.32,0:02:22.00,Default,,0,0,0,,{\i1}Hein ?{\i0}
+Dialogue: 0,0:02:23.08,0:02:23.96,Default,,0,0,0,,{\i1}Yumi !{\i0}
+Dialogue: 0,0:02:27.28,0:02:28.64,Default,,0,0,0,,{\i1}Yumi !{\i0}
+Dialogue: 0,0:02:30.36,0:02:33.24,Default,,0,0,0,,{\i1}Tu veux bien{\i0}\N{\i1}qu'on fasse une partie,{\i0}
+Dialogue: 0,0:02:34.20,0:02:36.20,Default,,0,0,0,,{\i1}Shûkichi Haneda ?{\i0}
+Dialogue: 0,0:02:40.48,0:02:43.80,Default,,0,0,0,,{\i1}Les années partagées{\i0}\N{\i1}nous font avancer à toute vitesse.{\i0}
+Dialogue: 0,0:02:44.60,0:02:47.80,Default,,0,0,0,,{\i1}Partie ajournée{\i0}\N{\i1}après la revendication d'un rapt.{\i0}
+Dialogue: 0,0:02:48.36,0:02:51.36,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:51.68,0:02:53.76,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:59.16,0:03:02.40,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:03:12.68,0:03:16.12,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:03:18.48,0:03:21.44,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:03:26.36,0:03:28.88,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:03:33.20,0:03:37.44,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"WE GO"
+Dialogue: 0,0:03:38.40,0:03:41.92,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:03:47.44,0:03:49.84,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:58.08,0:04:00.88,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:04:05.48,0:04:10.28,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:04:11.48,0:04:13.24,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:04:19.60,0:04:23.00,Default,,0,0,0,,{\i1}"Match pour le titre{\i0}\N{\i1}d'un Taikô amoureux (1re partie)" !{\i0}
+Dialogue: 0,0:04:28.48,0:04:29.56,Default,,0,0,0,,Ça va être l'heure.
+Dialogue: 0,0:04:30.08,0:04:31.56,Default,,0,0,0,,C'est-à-dire ?
+Dialogue: 0,0:04:31.72,0:04:32.72,Default,,0,0,0,,L'heure de quoi ?
+Dialogue: 0,0:04:32.96,0:04:35.44,Default,,0,0,0,,Celui que vous avez\Nrencontré une fois,
+Dialogue: 0,0:04:35.92,0:04:40.16,Default,,0,0,0,,Shûkichi Haneda, dit "Taikô Meijin",\Nva reprendre son match au sommet.
+Dialogue: 0,0:04:40.48,0:04:43.96,Default,,0,0,0,,En fait, Meijin est le seul titre\Nqui lui manque, aujourd'hui.
+Dialogue: 0,0:04:45.40,0:04:47.12,Default,,0,0,0,,Il a donc 6 couronnes ?
+Dialogue: 0,0:04:47.28,0:04:50.72,Default,,0,0,0,,C'est comme la triple couronne\Nau baseball ?
+Dialogue: 0,0:04:51.00,0:04:53.72,Default,,0,0,0,,Oui, et s'il redevient Meijin\Naujourd'hui,
+Dialogue: 0,0:04:53.88,0:04:57.60,Default,,0,0,0,,il sera le second de l'histoire\Nà réunir les sept couronnes.
+Dialogue: 0,0:04:57.96,0:04:58.96,Default,,0,0,0,,Alors,
+Dialogue: 0,0:04:59.12,0:05:02.08,Default,,0,0,0,,les sept choses dont parlait Yumi...
+Dialogue: 0,0:05:02.24,0:05:03.68,Default,,0,0,0,,... c'étaient ces titres ?
+Dialogue: 0,0:05:04.00,0:05:05.48,Default,,0,0,0,,Oui, probablement.
+Dialogue: 0,0:05:05.80,0:05:07.92,Default,,0,0,0,,Et s'il a les sept en même temps,
+Dialogue: 0,0:05:08.08,0:05:10.96,Default,,0,0,0,,Yumi saura ce qu'il y a\Ndans l'enveloppe !
+Dialogue: 0,0:05:11.28,0:05:13.04,Default,,0,0,0,,Qu'est-ce que ça peut être ?
+Dialogue: 0,0:05:13.20,0:05:14.60,Default,,0,0,0,,Le plus probable,
+Dialogue: 0,0:05:15.16,0:05:18.32,Default,,0,0,0,,c'est certainement\Nun formulaire de mariage.
+Dialogue: 0,0:05:18.88,0:05:21.52,Default,,0,0,0,,Yumi va se marier ?
+Dialogue: 0,0:05:21.68,0:05:23.28,Default,,0,0,0,,C'est génial !
+Dialogue: 0,0:05:23.44,0:05:24.56,Default,,0,0,0,,Attendez...
+Dialogue: 0,0:05:24.72,0:05:27.24,Default,,0,0,0,,Rien ne dit que ce soit vraiment ça.
+Dialogue: 0,0:05:30.24,0:05:32.00,Default,,0,0,0,,Oui, allô ?
+Dialogue: 0,0:05:32.16,0:05:33.60,Default,,0,0,0,,{\i1}Salut, Conan.{\i0}
+Dialogue: 0,0:05:33.76,0:05:34.88,Default,,0,0,0,,{\i1}Tu vas bien ?{\i0}
+Dialogue: 0,0:05:35.04,0:05:36.92,Default,,0,0,0,,C'est toi, Sera ?
+Dialogue: 0,0:05:37.36,0:05:38.80,Default,,0,0,0,,{\i1}Qu'est-ce qu'il y a ?{\i0}
+Dialogue: 0,0:05:39.04,0:05:42.16,Default,,0,0,0,,J'ai encore changé d'hôtel...
+Dialogue: 0,0:05:42.64,0:05:45.24,Default,,0,0,0,,Tu ne veux pas venir me voir ?
+Dialogue: 0,0:05:45.60,0:05:47.28,Default,,0,0,0,,Je suis au Hyde Pride,
+Dialogue: 0,0:05:47.44,0:05:49.96,Default,,0,0,0,,dans le coin\Nde votre agence de détectives.
+Dialogue: 0,0:05:50.12,0:05:53.40,Default,,0,0,0,,{\i1}Impossible.{\i0}\N{\i1}Je suis en voiture, loin de ton hôtel.{\i0}
+Dialogue: 0,0:05:54.72,0:05:57.24,Default,,0,0,0,,{\i1}Ah bon ?{\i0}\N{\i1}T'es sur une affaire ?{\i0}
+Dialogue: 0,0:05:57.40,0:06:00.32,Default,,0,0,0,,Non, on va voir différents\Nlieux magiques.
+Dialogue: 0,0:06:01.12,0:06:02.32,Default,,0,0,0,,Taikô Meijin...
+Dialogue: 0,0:06:02.64,0:06:03.56,Default,,0,0,0,,Taikô Meijin !
+Dialogue: 0,0:06:04.12,0:06:06.12,Default,,0,0,0,,Je vous parle, Taikô Meijin !
+Dialogue: 0,0:06:06.28,0:06:08.68,Default,,0,0,0,,Encore une fois,\Nje ne suis pas Meijin,
+Dialogue: 0,0:06:08.84,0:06:11.08,Default,,0,0,0,,et la partie va commencer.
+Dialogue: 0,0:06:11.24,0:06:15.36,Default,,0,0,0,,Mais je dois vous remettre ceci,\Njuste avant la reprise du 2e jour.
+Dialogue: 0,0:06:16.08,0:06:17.76,Default,,0,0,0,,Une lettre ?
+Dialogue: 0,0:06:18.68,0:06:22.16,Default,,0,0,0,,Un homme bizarre\Nl'a apportée hier matin.
+Dialogue: 0,0:06:22.32,0:06:25.40,Default,,0,0,0,,Selon lui, vous l'accepterez\Nen voyant l'expéditeur.
+Dialogue: 0,0:06:26.44,0:06:27.92,Default,,0,0,0,,{\i1}C'est Yumi qui m'écrit ?{\i0}
+Dialogue: 0,0:06:29.84,0:06:32.16,Default,,0,0,0,,{\i1}Mais pourquoi une lettre ?{\i0}
+Dialogue: 0,0:06:34.76,0:06:37.40,Default,,0,0,0,,Bien, je vais dévoiler\Nle coup scellé.
+Dialogue: 0,0:06:44.00,0:06:44.92,Default,,0,0,0,,Coup scellé :
+Dialogue: 0,0:06:45.48,0:06:47.08,Default,,0,0,0,,5 f argent.
+Dialogue: 0,0:06:59.32,0:07:00.28,Default,,0,0,0,,Qu'est-ce qu'il y a ?
+Dialogue: 0,0:07:00.44,0:07:01.88,Default,,0,0,0,,Que s'est-il passé ?
+Dialogue: 0,0:07:02.04,0:07:03.32,Default,,0,0,0,,Je m'octroie un délai.
+Dialogue: 0,0:07:10.28,0:07:11.04,Default,,0,0,0,,M. Haneda !
+Dialogue: 0,0:07:14.16,0:07:15.32,Default,,0,0,0,,Où allez-vous ?
+Dialogue: 0,0:07:15.68,0:07:16.68,Default,,0,0,0,,M. Haneda !
+Dialogue: 0,0:07:18.56,0:07:19.56,Default,,0,0,0,,À Tokyo.
+Dialogue: 0,0:07:28.72,0:07:31.40,Default,,0,0,0,,{\i1}Ta copine est entre mes mains.{\i0}
+Dialogue: 0,0:07:31.56,0:07:34.84,Default,,0,0,0,,{\i1}Si tu tiens à elle,{\i0}\N{\i1}déchiffre mon diagramme de jeu.{\i0}
+Dialogue: 0,0:07:35.00,0:07:37.72,Default,,0,0,0,,{\i1}J'attendrai jusqu'au bout{\i0}\N{\i1}de ton temps imparti.{\i0}
+Dialogue: 0,0:07:37.88,0:07:41.00,Default,,0,0,0,,{\i1}Mais bouche cousue,{\i0}\N{\i1}et défense d'appeler la police.{\i0}
+Dialogue: 0,0:07:41.68,0:07:43.32,Default,,0,0,0,,{\i1}Signé, le joueur sans tête.{\i0}
+Dialogue: 0,0:07:45.52,0:07:46.68,Default,,0,0,0,,{\i1}Partie 1 :{\i0}
+Dialogue: 0,0:07:47.00,0:07:50.08,Default,,0,0,0,,{\i1}Des bandits ont attaqué{\i0}\N{\i1}l'un des 7 sanctuaires,{\i0}
+Dialogue: 0,0:07:50.24,0:07:52.40,Default,,0,0,0,,{\i1}vidé en 2 jours{\i0}\N{\i1}le palais des trésors{\i0}
+Dialogue: 0,0:07:52.56,0:07:56.28,Default,,0,0,0,,{\i1}et enlevé la fille du prêtre,{\i0}\N{\i1}qui se cachait dans le puits.{\i0}
+Dialogue: 0,0:07:56.88,0:07:58.48,Default,,0,0,0,,{\i1}Voir la photo jointe.{\i0}
+Dialogue: 0,0:08:04.48,0:08:05.48,Default,,0,0,0,,{\i1}Yumi !{\i0}
+Dialogue: 0,0:08:09.60,0:08:11.48,Default,,0,0,0,,{\i1}Le 1er jour,{\i0}
+Dialogue: 0,0:08:11.80,0:08:13.92,Default,,0,0,0,,{\i1}j'ai déjà utilisé{\i0}\N{\i1}2 heures et 2 minutes.{\i0}
+Dialogue: 0,0:08:14.20,0:08:18.68,Default,,0,0,0,,{\i1}En comptant 1 heure pour le déjeuner,{\i0}\N{\i1}il me reste à peine 6 heures.{\i0}
+Dialogue: 0,0:08:19.60,0:08:22.00,Default,,0,0,0,,{\i1}Désolé de te faire{\i0}\N{\i1}toujours attendre.{\i0}
+Dialogue: 0,0:08:22.44,0:08:24.00,Default,,0,0,0,,{\i1}Mais, quoi qu'il arrive,{\i0}
+Dialogue: 0,0:08:24.56,0:08:28.00,Default,,0,0,0,,{\i1}je viendrai te chercher.{\i0}\N{\i1}Tu peux compter sur moi !{\i0}
+Dialogue: 0,0:08:38.92,0:08:41.24,Default,,0,0,0,,{\i1}Normalement, c'est bien ici.{\i0}
+Dialogue: 0,0:08:41.56,0:08:43.88,Default,,0,0,0,,{\i1}Mais où est le puits en question ?{\i0}
+Dialogue: 0,0:08:45.36,0:08:47.32,Default,,0,0,0,,{\i1}Il me reste 4 heures 10.{\i0}
+Dialogue: 0,0:08:47.88,0:08:51.00,Default,,0,0,0,,{\i1}Si je ne trouve pas{\i0}\N{\i1}ce puits d'ici là...{\i0}
+Dialogue: 0,0:08:51.24,0:08:52.76,Default,,0,0,0,,Quoi ? Taikô Meijin ?
+Dialogue: 0,0:08:53.80,0:08:55.28,Default,,0,0,0,,Tu es...
+Dialogue: 0,0:08:55.52,0:08:56.72,Default,,0,0,0,,Que fais-tu là ?
+Dialogue: 0,0:08:56.88,0:08:58.72,Default,,0,0,0,,Tu n'affrontes pas le Meijin ?
+Dialogue: 0,0:08:59.12,0:09:00.56,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:09:00.88,0:09:01.84,Default,,0,0,0,,En fait...
+Dialogue: 0,0:09:02.16,0:09:04.20,ST_BAS_GAUCHE,,0,0,0,,SI TU TIENS À ELLE...\NBOUCHE COUSUE
+Dialogue: 0,0:09:05.12,0:09:07.72,Default,,0,0,0,,Je viens me changer les idées\Nun moment.
+Dialogue: 0,0:09:07.88,0:09:09.12,Default,,0,0,0,,Un moment ?
+Dialogue: 0,0:09:09.28,0:09:12.96,Default,,0,0,0,,Mais le match a lieu\Ndans un hôtel de Yamanashi, non ?
+Dialogue: 0,0:09:13.28,0:09:18.00,Default,,0,0,0,,Oui, je suis venu en 2 heures\Npour demander l'aide des dieux.
+Dialogue: 0,0:09:18.56,0:09:21.00,Default,,0,0,0,,Ouah ! C'est Taikô Meijin !
+Dialogue: 0,0:09:21.16,0:09:22.32,Default,,0,0,0,,Un autographe !
+Dialogue: 0,0:09:23.24,0:09:26.32,Default,,0,0,0,,- Non, attends !\N- Allez ! Un autographe !
+Dialogue: 0,0:09:26.48,0:09:29.52,Default,,0,0,0,,Eh, mais ça serait pas\NTaikô, le Meijin ?
+Dialogue: 0,0:09:29.68,0:09:31.64,Default,,0,0,0,,Sérieux ?\NJe suis trop fan !
+Dialogue: 0,0:09:32.24,0:09:33.68,Default,,0,0,0,,Ça peut pas être lui...
+Dialogue: 0,0:09:33.84,0:09:35.88,Default,,0,0,0,,Aujourd'hui,\Nil affronte le Meijin.
+Dialogue: 0,0:09:36.40,0:09:39.04,Default,,0,0,0,,Ah, dommage...\NC'est un sosie ?
+Dialogue: 0,0:09:40.12,0:09:42.84,Default,,0,0,0,,Tu vois ?\NSi jamais quelqu'un te surveille,
+Dialogue: 0,0:09:43.00,0:09:45.36,Default,,0,0,0,,il croira que je suis juste un fan.
+Dialogue: 0,0:09:45.60,0:09:49.12,Default,,0,0,0,,Et comme tu ne peux pas être ici\Nle jour de ton match,
+Dialogue: 0,0:09:49.28,0:09:52.16,Default,,0,0,0,,les gens autour\Nte prennent pour un sosie.
+Dialogue: 0,0:09:52.32,0:09:54.00,Default,,0,0,0,,Oui, tu as raison...
+Dialogue: 0,0:09:54.72,0:09:57.32,Default,,0,0,0,,Alors écris\Nla vraie raison de ta venue
+Dialogue: 0,0:09:57.96,0:10:00.08,Default,,0,0,0,,comme si tu signais un autographe.
+Dialogue: 0,0:10:00.52,0:10:01.68,Default,,0,0,0,,OK.
+Dialogue: 0,0:10:02.60,0:10:05.00,Default,,0,0,0,,- C'est pas vrai !\N- Yumi a été enlevée ?
+Dialogue: 0,0:10:05.16,0:10:06.56,Default,,0,0,0,,Un kidnapping !
+Dialogue: 0,0:10:09.20,0:10:11.20,Default,,0,0,0,,{\i1}Ce qu'ils peuvent être lourds...{\i0}
+Dialogue: 0,0:10:11.68,0:10:13.84,Default,,0,0,0,,Et qu'y avait-il, dans le puits ?
+Dialogue: 0,0:10:14.16,0:10:18.28,Default,,0,0,0,,Eh bien, à vrai dire,\Nj'ignore où il se trouve.
+Dialogue: 0,0:10:18.44,0:10:21.64,Default,,0,0,0,,Attends...\NTu sais où il est, toi ?
+Dialogue: 0,0:10:22.04,0:10:26.20,Default,,0,0,0,,Oui. Dans ce sanctuaire,\Nça ne peut être que ce puits-là,
+Dialogue: 0,0:10:26.52,0:10:29.08,Default,,0,0,0,,et nous en revenons justement.
+Dialogue: 0,0:10:30.20,0:10:31.20,Default,,0,0,0,,À ce qu'on dit,
+Dialogue: 0,0:10:31.72,0:10:35.16,Default,,0,0,0,,ce puits porte bonheur\Naux visiteurs.
+Dialogue: 0,0:10:36.40,0:10:39.60,ST_HAUT,,0,0,0,,TEMPS RESTANT À SHÛKICHI HANEDA :\N3 HEURES 57 MINUTES
+Dialogue: 0,0:10:43.88,0:10:46.28,Default,,0,0,0,,Le puits le plus connu, ici,
+Dialogue: 0,0:10:46.80,0:10:50.92,Default,,0,0,0,,c'est le "puits de Kiyomasa",\Ncreusé, dit-on, par Kiyomasa Katô.
+Dialogue: 0,0:10:52.16,0:10:55.44,Default,,0,0,0,,Kiyomasa,\Nc'était le vassal de Hideyoshi.
+Dialogue: 0,0:10:55.60,0:10:56.68,Default,,0,0,0,,Ce super guerrier
+Dialogue: 0,0:10:56.84,0:11:01.12,Default,,0,0,0,,était aussi un grand bâtisseur,\Nà qui l'on doit le château de Kumoto.
+Dialogue: 0,0:11:01.28,0:11:03.80,Default,,0,0,0,,On raconte qu'il a vaincu un tigre !
+Dialogue: 0,0:11:04.56,0:11:07.68,Default,,0,0,0,,Depuis qu'un comique de la télé\Na soudain eu du succès
+Dialogue: 0,0:11:07.84,0:11:12.24,Default,,0,0,0,,après l'avoir pris en photo\Net utilisé comme fond d'écran,
+Dialogue: 0,0:11:12.40,0:11:15.88,Default,,0,0,0,,ce puits est devenu\Nun célèbre lieu porte-bonheur.
+Dialogue: 0,0:11:16.28,0:11:19.80,Default,,0,0,0,,Mais "Taikô", c'est le titre\Nde Toyotomi Hideyoshi...
+Dialogue: 0,0:11:19.96,0:11:24.12,Default,,0,0,0,,Comment Taikô Meijin\Npeut ignorer ces choses-là ?
+Dialogue: 0,0:11:24.28,0:11:25.44,Default,,0,0,0,,Hein, comment ?
+Dialogue: 0,0:11:25.60,0:11:29.04,Default,,0,0,0,,En fait, Taikô,\Nc'est juste un surnom.
+Dialogue: 0,0:11:29.24,0:11:31.20,Default,,0,0,0,,Je ne comprends pas...
+Dialogue: 0,0:11:32.32,0:11:36.16,Default,,0,0,0,,Comment peut-on savoir\Nque le texte désigne ce sanctuaire ?
+Dialogue: 0,0:11:36.56,0:11:40.24,Default,,0,0,0,,{\i1}"Des bandits ont attaqué{\i0}\N{\i1}l'un des 7 sanctuaires,{\i0}
+Dialogue: 0,0:11:40.40,0:11:42.84,Default,,0,0,0,,{\i1}"vidé en 2 jours{\i0}\N{\i1}le palais des trésors{\i0}
+Dialogue: 0,0:11:43.00,0:11:47.68,Default,,0,0,0,,{\i1}"et enlevé la fille du prêtre,{\i0}\N{\i1}qui se cachait dans le puits."{\i0}
+Dialogue: 0,0:11:48.04,0:11:51.52,Default,,0,0,0,,Ce 7 correspond\Naux 7 titres majeurs du shôgi.
+Dialogue: 0,0:11:52.24,0:11:56.60,Default,,0,0,0,,Meijin, Ryûô, Kiô, Ôshô, Ôza,
+Dialogue: 0,0:11:56.76,0:11:59.96,Default,,0,0,0,,Kisei et Ôi.
+Dialogue: 0,0:12:00.28,0:12:05.24,Default,,0,0,0,,Dans sa 1re lettre, le ravisseur\Nse qualifie de "joueur sans tête",
+Dialogue: 0,0:12:05.40,0:12:08.20,Default,,0,0,0,,et te demande de résoudre\Nson diagramme de jeu.
+Dialogue: 0,0:12:08.88,0:12:10.76,Default,,0,0,0,,Le roi du shôgi\Nest aussi le jade.
+Dialogue: 0,0:12:10.92,0:12:13.88,Default,,0,0,0,,À l'origine,\Nle jeu était plus une simulation
+Dialogue: 0,0:12:14.04,0:12:17.00,Default,,0,0,0,,du pillage des joyaux\Nque de la capture du roi.
+Dialogue: 0,0:12:17.32,0:12:20.68,Default,,0,0,0,,Le palais des trésors vidé\Nsignifie donc également
+Dialogue: 0,0:12:20.84,0:12:22.96,Default,,0,0,0,,que le roi a disparu.
+Dialogue: 0,0:12:23.64,0:12:26.84,Default,,0,0,0,,Les 7 titres majeurs ont tous "roi",\Ndit "ô", dans leur nom,
+Dialogue: 0,0:12:27.04,0:12:28.72,Default,,0,0,0,,sauf Meijin et Kisei.
+Dialogue: 0,0:12:29.36,0:12:32.12,Default,,0,0,0,,Quant aux trésors\Nqui ont disparu en 2 jours...
+Dialogue: 0,0:12:32.36,0:12:33.60,Default,,0,0,0,,4 titres,
+Dialogue: 0,0:12:34.08,0:12:36.28,Default,,0,0,0,,Meijin, Ryûô,
+Dialogue: 0,0:12:36.44,0:12:39.44,Default,,0,0,0,,Ôi et Ôshô,\Nse disputent sur 2 jours.
+Dialogue: 0,0:12:39.64,0:12:43.96,Default,,0,0,0,,Un seul titre ne comporte pas "roi",\N"ô", et se joue sur 2 jours : Meijin.
+Dialogue: 0,0:12:44.12,0:12:47.00,Default,,0,0,0,,Et le seul sanctuaire dont le nom\Ncontient "Meijin",
+Dialogue: 0,0:12:47.88,0:12:50.00,Default,,0,0,0,,c'est le Meiji Jingû.
+Dialogue: 0,0:12:50.64,0:12:54.28,Default,,0,0,0,,Voilà pourquoi tu as quitté la partie\Npour te précipiter ici,
+Dialogue: 0,0:12:54.80,0:12:56.00,Default,,0,0,0,,Taikô Meijin.
+Dialogue: 0,0:12:56.16,0:12:57.12,Default,,0,0,0,,En effet...
+Dialogue: 0,0:12:57.80,0:13:01.60,Default,,0,0,0,,Si la fille du prêtre s'y cachait\Nquand on l'a enlevée,
+Dialogue: 0,0:13:01.76,0:13:03.96,Default,,0,0,0,,j'espérais trouver dans le puits
+Dialogue: 0,0:13:04.12,0:13:07.56,Default,,0,0,0,,un indice concernant\Nle kidnapping de Yumi.
+Dialogue: 0,0:13:07.80,0:13:12.40,Default,,0,0,0,,Le ravisseur écrit qu'il attendra\Njusqu'à la fin de votre temps imparti...
+Dialogue: 0,0:13:12.84,0:13:14.72,Default,,0,0,0,,Ce qui fait combien ?
+Dialogue: 0,0:13:14.88,0:13:17.40,Default,,0,0,0,,3 heures et 52 minutes.
+Dialogue: 0,0:13:17.80,0:13:21.48,Default,,0,0,0,,Autrement dit,\Nla limite se situe vers 15 heures.
+Dialogue: 0,0:13:21.64,0:13:24.28,Default,,0,0,0,,Pas le temps de se la couler douce.
+Dialogue: 0,0:13:24.44,0:13:26.48,Default,,0,0,0,,Retournons au puits de Kiyomasa.
+Dialogue: 0,0:13:26.92,0:13:28.44,Default,,0,0,0,,Ouais !
+Dialogue: 0,0:13:30.00,0:13:32.72,Default,,0,0,0,,Mais s'il y a la queue,\Nj'y vais tout seul.
+Dialogue: 0,0:13:33.40,0:13:34.84,Default,,0,0,0,,Ne t'en fais pas,
+Dialogue: 0,0:13:35.16,0:13:37.80,Default,,0,0,0,,le buzz autour du puits\Ncommence à dater.
+Dialogue: 0,0:13:37.96,0:13:41.32,Default,,0,0,0,,Et Kiyomasa comme Taikô\Naimaient les festivités et le shôgi...
+Dialogue: 0,0:13:41.64,0:13:44.24,Default,,0,0,0,,Allons-y tous,\Npour que ce soit efficace.
+Dialogue: 0,0:13:44.76,0:13:46.96,Default,,0,0,0,,Même si le vrai Taikô
+Dialogue: 0,0:13:47.44,0:13:50.60,Default,,0,0,0,,n'était sans doute\Npas aussi fort que toi.
+Dialogue: 0,0:13:51.72,0:13:55.24,Default,,0,0,0,,Hein ? M. Haneda\Na pris un taxi pour Tokyo ?
+Dialogue: 0,0:13:55.72,0:13:57.44,Default,,0,0,0,,C'est vrai ?
+Dialogue: 0,0:13:57.60,0:13:59.76,Default,,0,0,0,,- Quel arrondissement ?\N- Aucune idée.
+Dialogue: 0,0:14:00.24,0:14:04.20,Default,,0,0,0,,Nous l'appelons sans cesse\Nsur son portable, en vain.
+Dialogue: 0,0:14:04.80,0:14:06.28,Default,,0,0,0,,Il ne l'a pas sur lui.
+Dialogue: 0,0:14:07.40,0:14:10.40,Default,,0,0,0,,Durant les parties,\Nil y a une règle tacite :
+Dialogue: 0,0:14:10.56,0:14:13.68,Default,,0,0,0,,ne jamais toucher\Nà son téléphone mobile.
+Dialogue: 0,0:14:14.32,0:14:17.20,Default,,0,0,0,,Les modèles actuels,\Nde vrais mini-ordinateurs,
+Dialogue: 0,0:14:17.60,0:14:20.72,Default,,0,0,0,,permettent de consulter\Ntous les coups standards.
+Dialogue: 0,0:14:21.52,0:14:23.96,Default,,0,0,0,,J'ignore ce qui lui est arrivé,
+Dialogue: 0,0:14:24.36,0:14:27.72,Default,,0,0,0,,mais il s'est octroyé un délai\Net a quitté la pièce.
+Dialogue: 0,0:14:28.56,0:14:31.32,Default,,0,0,0,,Ça veut dire\Nqu'il n'a pas renoncé à vaincre
+Dialogue: 0,0:14:31.48,0:14:33.96,Default,,0,0,0,,le vieux Chikara Katsumata.
+Dialogue: 0,0:14:35.60,0:14:38.40,Default,,0,0,0,,Attendons donc ce garçon\Nqui, en me battant,
+Dialogue: 0,0:14:38.56,0:14:42.44,Default,,0,0,0,,deviendrait, fort des 7 titres majeurs,\Nun véritable dieu.
+Dialogue: 0,0:14:43.32,0:14:45.76,Default,,0,0,0,,Ouah ! Quelle file !
+Dialogue: 0,0:14:45.92,0:14:47.72,Default,,0,0,0,,Elle s'est allongée !
+Dialogue: 0,0:14:48.16,0:14:51.52,Default,,0,0,0,,Il va falloir attendre,\Navant d'arriver au puits.
+Dialogue: 0,0:14:51.76,0:14:54.88,Default,,0,0,0,,Désolé de vous embarquer\Ndans cette histoire.
+Dialogue: 0,0:14:55.60,0:14:57.12,Default,,0,0,0,,Décidément,
+Dialogue: 0,0:14:57.68,0:15:01.08,Default,,0,0,0,,je fais attendre tout le monde,\Ny compris au shôgi.
+Dialogue: 0,0:15:01.80,0:15:04.36,Default,,0,0,0,,C'était déjà le cas\Nquand j'ai connu Yumi.
+Dialogue: 0,0:15:04.80,0:15:09.04,Default,,0,0,0,,- De quoi tu parles ?\N- De votre première rencontre ?
+Dialogue: 0,0:15:09.32,0:15:10.80,Default,,0,0,0,,Raconte-nous !
+Dialogue: 0,0:15:11.08,0:15:12.68,Default,,0,0,0,,C'est pas le moment...
+Dialogue: 0,0:15:12.84,0:15:15.72,Default,,0,0,0,,Yumi a été enlevée,\Nje vous rappelle.
+Dialogue: 0,0:15:15.92,0:15:18.60,Default,,0,0,0,,Ça nous fera patienter,\Nen faisant la queue.
+Dialogue: 0,0:15:19.48,0:15:20.56,Default,,0,0,0,,Tu nous racontes ?
+Dialogue: 0,0:15:20.72,0:15:21.84,Default,,0,0,0,,Euh... D'accord.
+Dialogue: 0,0:15:22.64,0:15:24.60,Default,,0,0,0,,C'était il y a environ dix ans.
+Dialogue: 0,0:15:25.40,0:15:29.92,Default,,0,0,0,,Sur la ligne circulaire Tôto,\Nje revenais d'une pré-finale...
+Dialogue: 0,0:15:30.24,0:15:32.88,Default,,0,0,0,,J'en avais gardé\Nun goût amer dans la bouche
+Dialogue: 0,0:15:33.04,0:15:35.04,Default,,0,0,0,,et j'étais mentalement épuisé.
+Dialogue: 0,0:15:35.60,0:15:36.64,Default,,0,0,0,,Au bout d'un moment...
+Dialogue: 0,0:15:36.96,0:15:37.96,Default,,0,0,0,,{\i1}Excuse-moi...{\i0}
+Dialogue: 0,0:15:38.48,0:15:39.84,Default,,0,0,0,,{\i1}Je te parle !{\i0}
+Dialogue: 0,0:15:41.64,0:15:45.20,Default,,0,0,0,,{\i1}Pardon !{\i0}\N{\i1}J'étais en train de dormir, là ?{\i0}
+Dialogue: 0,0:15:45.56,0:15:48.44,Default,,0,0,0,,{\i1}Oui. En bavant sur mon épaule.{\i0}
+Dialogue: 0,0:15:49.40,0:15:50.80,Default,,0,0,0,,{\i1}De la bave ?{\i0}
+Dialogue: 0,0:15:51.48,0:15:52.56,Default,,0,0,0,,{\i1}Laisse ça !{\i0}
+Dialogue: 0,0:15:53.60,0:15:56.64,Default,,0,0,0,,{\i1}Viens. C'est bien ici{\i0}\N{\i1}que tu descends, non ?{\i0}
+Dialogue: 0,0:15:56.80,0:15:57.64,Default,,0,0,0,,{\i1}Euh... Oui !{\i0}
+Dialogue: 0,0:15:58.20,0:16:00.72,Default,,0,0,0,,{\i1}Mais... comment le savez-vous ?{\i0}
+Dialogue: 0,0:16:00.84,0:16:02.20,Default,,0,0,0,,{\i1}Grâce à ton ticket.{\i0}
+Dialogue: 0,0:16:08.08,0:16:10.00,Default,,0,0,0,,{\i1}Ciao !{\i0}\N{\i1}Moi, je vais par ici. {\i0}
+Dialogue: 0,0:16:10.80,0:16:12.48,Default,,0,0,0,,{\i1}Merci infiniment.{\i0}
+Dialogue: 0,0:16:14.96,0:16:15.96,Default,,0,0,0,,"Intérieure" ?
+Dialogue: 0,0:16:16.40,0:16:19.36,Default,,0,0,0,,Notre train allait pourtant\Nvers l'extérieur de la ligne.
+Dialogue: 0,0:16:22.36,0:16:23.36,Default,,0,0,0,,{\i1}Miwako ?{\i0}
+Dialogue: 0,0:16:23.72,0:16:26.24,Default,,0,0,0,,- Désolée, je me suis endormie.\N- J'y crois pas...
+Dialogue: 0,0:16:26.76,0:16:31.00,Default,,0,0,0,,{\i1}J'ai largement dépassé la gare...{\i0}\N{\i1}Je vais revenir dans l'autre sens.{\i0}
+Dialogue: 0,0:16:32.20,0:16:35.88,Default,,0,0,0,,{\i1}- Tu peux commencer le karaoké...{\i0}\N{\i1}- Vous m'avez attendu ?{\i0}
+Dialogue: 0,0:16:37.64,0:16:40.68,Default,,0,0,0,,{\i1}Alors que le train{\i0}\N{\i1}avait dépassé votre gare,{\i0}
+Dialogue: 0,0:16:41.16,0:16:44.16,Default,,0,0,0,,{\i1}vous m'avez attendu{\i0}\N{\i1}sans me réveiller ?{\i0}
+Dialogue: 0,0:16:45.44,0:16:46.36,Default,,0,0,0,,{\i1}Oui... {\i0}
+Dialogue: 0,0:16:46.52,0:16:50.16,Default,,0,0,0,,{\i1}Tu étais trop mignon{\i0}\N{\i1}quand tu dormais.{\i0}
+Dialogue: 0,0:16:50.76,0:16:54.32,Default,,0,0,0,,Voilà. Désolé de jouer\Nles amoureux transis mais, au shôgi,
+Dialogue: 0,0:16:54.56,0:16:57.72,Default,,0,0,0,,on ne peut pas dire :\N"attendez, je rejoue".
+Dialogue: 0,0:16:57.88,0:17:00.52,Default,,0,0,0,,Alors,\Nle sourire de Yumi, ce jour-là...
+Dialogue: 0,0:17:02.52,0:17:04.04,Default,,0,0,0,,Yumi !
+Dialogue: 0,0:17:04.20,0:17:05.76,Default,,0,0,0,,C'est une fille bien !
+Dialogue: 0,0:17:05.92,0:17:07.04,Default,,0,0,0,,Je suis bouleversé !
+Dialogue: 0,0:17:07.40,0:17:10.68,Default,,0,0,0,,Tu dois à tout prix la sauver !
+Dialogue: 0,0:17:11.08,0:17:12.76,Default,,0,0,0,,Sois digne d'un Meijin !
+Dialogue: 0,0:17:13.20,0:17:15.24,Default,,0,0,0,,Un Meijin ne peut pas perdre !
+Dialogue: 0,0:17:15.64,0:17:19.84,Default,,0,0,0,,Une fois pour toutes,\Nje ne suis pas Meijin, actuellement.
+Dialogue: 0,0:17:21.92,0:17:24.64,Default,,0,0,0,,Ça va être notre tour.
+Dialogue: 0,0:17:26.72,0:17:29.84,Default,,0,0,0,,Veuillez ne pas mettre la main\Ndans le puits.
+Dialogue: 0,0:17:30.08,0:17:31.20,Default,,0,0,0,,Compris !
+Dialogue: 0,0:17:31.92,0:17:34.96,Default,,0,0,0,,{\i1}Si je comprends bien,{\i0}\N{\i1}quelque part autour du puits...{\i0}
+Dialogue: 0,0:17:37.12,0:17:38.76,Default,,0,0,0,,{\i1}Y a quelque chose, au fond.{\i0}
+Dialogue: 0,0:17:41.72,0:17:42.48,Default,,0,0,0,,{\i1}Une pièce...{\i0}
+Dialogue: 0,0:17:43.12,0:17:44.28,Default,,0,0,0,,{\i1}Le{\i0} kyôsha{\i1} !{\i0}
+Dialogue: 0,0:17:44.84,0:17:48.64,Default,,0,0,0,,C'est ça,\Nl'indice que le ravisseur a laissé ?
+Dialogue: 0,0:17:48.80,0:17:49.32,Default,,0,0,0,,Oui.
+Dialogue: 0,0:17:49.92,0:17:53.00,Default,,0,0,0,,Sur le côté, il y a écrit :\N"Partie 2".
+Dialogue: 0,0:17:53.68,0:17:56.68,Default,,0,0,0,,Cette pièce ne t'évoque rien ?
+Dialogue: 0,0:17:56.84,0:17:58.36,Default,,0,0,0,,Non, pas spécialement.
+Dialogue: 0,0:18:00.40,0:18:03.44,Default,,0,0,0,,Derrière,\Nil y a une drôle de figure !
+Dialogue: 0,0:18:03.60,0:18:04.24,Default,,0,0,0,,Une figure ?
+Dialogue: 0,0:18:07.56,0:18:08.56,Default,,0,0,0,,C'est quoi, ça ?
+Dialogue: 0,0:18:12.12,0:18:15.28,Default,,0,0,0,,{\i1}Et voilà, ton roi est en échec,{\i0}\N{\i1}Shûikichi Haneda.{\i0}
+Dialogue: 0,0:18:16.04,0:18:19.24,Default,,0,0,0,,{\i1}Tu es forcé de prendre{\i0}\N{\i1}mon pion d'or.{\i0}
+Dialogue: 0,0:18:19.40,0:18:22.04,Default,,0,0,0,,{\i1}Et alors, cette tour,{\i0}
+Dialogue: 0,0:18:22.44,0:18:23.60,Default,,0,0,0,,{\i1}qui est à moi,{\i0}
+Dialogue: 0,0:18:24.00,0:18:27.28,Default,,0,0,0,,{\i1}va ruiner ton attaque{\i0}\N{\i1}et démolir ton camp !{\i0}
+Dialogue: 0,0:18:27.80,0:18:29.80,Default,,0,0,0,,{\i1}Ma victoire est acquise.{\i0}
+Dialogue: 0,0:18:31.32,0:18:33.52,Default,,0,0,0,,{\i1}Je la mûris...{\i0}
+Dialogue: 0,0:18:36.20,0:18:38.16,Default,,0,0,0,,{\i1}... depuis 10 ans.{\i0}
+Dialogue: 0,0:18:43.08,0:18:45.44,Default,,0,0,0,,On dirait pas un visage ?
+Dialogue: 0,0:18:46.24,0:18:48.60,Default,,0,0,0,,Tu trouves ?
+Dialogue: 0,0:18:48.76,0:18:50.84,Default,,0,0,0,,Bah oui, une tête comme ça.
+Dialogue: 0,0:18:51.24,0:18:52.52,Default,,0,0,0,,Il y a un faux air.
+Dialogue: 0,0:18:53.00,0:18:56.04,Default,,0,0,0,,C'est clair !\NÇa doit être la tronche du criminel.
+Dialogue: 0,0:18:56.20,0:18:57.68,Default,,0,0,0,,N'importe quoi !
+Dialogue: 0,0:18:57.84,0:19:01.80,Default,,0,0,0,,Il faut d'abord trouver le sens\Ndes chiffres encerclés.
+Dialogue: 0,0:19:02.32,0:19:04.12,Default,,0,0,0,,7 et 3...
+Dialogue: 0,0:19:04.28,0:19:06.60,Default,,0,0,0,,7, c'est peut-être les 7 titres.\NMais 3 ?
+Dialogue: 0,0:19:07.00,0:19:11.04,Default,,0,0,0,,À part la ligue de 3e niveau du shogi,\Nje ne vois rien.
+Dialogue: 0,0:19:12.12,0:19:13.32,Default,,0,0,0,,L'inspecteur Satô !
+Dialogue: 0,0:19:13.72,0:19:15.24,Default,,0,0,0,,La police ?
+Dialogue: 0,0:19:15.80,0:19:17.76,Default,,0,0,0,,Allô, Conan ?
+Dialogue: 0,0:19:17.84,0:19:21.24,Default,,0,0,0,,C'est l'inspecteur Satô.\NTu ne saurais pas où est Yumi ?
+Dialogue: 0,0:19:21.72,0:19:23.68,Default,,0,0,0,,Elle ne vient pas depuis 2 jours,
+Dialogue: 0,0:19:23.84,0:19:27.08,Default,,0,0,0,,n'est pas chez elle\Net ne répond pas sur son mobile.
+Dialogue: 0,0:19:27.36,0:19:28.48,Default,,0,0,0,,T'as pas une idée ?
+Dialogue: 0,0:19:28.64,0:19:30.08,Default,,0,0,0,,DÉFENSE D'APPELER LA POLICE
+Dialogue: 0,0:19:30.24,0:19:31.84,Default,,0,0,0,,{\i1}Allô ? Conan ?{\i0}
+Dialogue: 0,0:19:32.16,0:19:35.24,Default,,0,0,0,,Je le sais...\NNous aussi, on la cherche.
+Dialogue: 0,0:19:36.96,0:19:41.04,Default,,0,0,0,,Avant-hier soir, elle a trop bu\Net a pris un taxi qui l'a déposée
+Dialogue: 0,0:19:41.20,0:19:43.16,Default,,0,0,0,,dans une ville inconnue.
+Dialogue: 0,0:19:43.32,0:19:47.04,Default,,0,0,0,,Ayant perdu son portable\Net son portefeuille,
+Dialogue: 0,0:19:47.20,0:19:49.04,Default,,0,0,0,,elle m'a appelé d'une cabine
+Dialogue: 0,0:19:49.20,0:19:52.36,Default,,0,0,0,,avec une pièce de sa poche,\Nmais ç'a coupé...
+Dialogue: 0,0:19:52.52,0:19:55.40,Default,,0,0,0,,Elle ne devait plus avoir de monnaie.
+Dialogue: 0,0:19:55.88,0:19:59.04,Default,,0,0,0,,Elle erre dans une ville\Ndepuis 2 jours ?
+Dialogue: 0,0:19:59.20,0:20:03.60,Default,,0,0,0,,{\i1}Connaissant Yumi,{\i0}\N{\i1}elle se débrouillera pour appeler.{\i0}
+Dialogue: 0,0:20:04.48,0:20:09.00,Default,,0,0,0,,En attendant, vous devriez préparer\Nl'un de vos mini-véhicules.
+Dialogue: 0,0:20:09.52,0:20:11.04,Default,,0,0,0,,{\i1}OK, compris.{\i0}
+Dialogue: 0,0:20:12.32,0:20:14.00,Default,,0,0,0,,Tu peux me l'avoir ?
+Dialogue: 0,0:20:14.16,0:20:17.36,Default,,0,0,0,,Oui, je vais en parler\Naux supérieurs.
+Dialogue: 0,0:20:17.52,0:20:18.92,Default,,0,0,0,,Très bien, vas-y.
+Dialogue: 0,0:20:19.08,0:20:20.00,Default,,0,0,0,,Compris !
+Dialogue: 0,0:20:20.16,0:20:21.28,Default,,0,0,0,,Ah, cette Yumi...
+Dialogue: 0,0:20:22.44,0:20:25.28,Default,,0,0,0,,{\i1}Yumi aurait pu aller{\i0}\N{\i1}à un poste local de police.{\i0}
+Dialogue: 0,0:20:25.96,0:20:29.64,Default,,0,0,0,,C'est bon, ils auront une voiture\Nprête à partir.
+Dialogue: 0,0:20:29.96,0:20:32.64,Default,,0,0,0,,Il ne reste plus\Nqu'à résoudre cette énigme.
+Dialogue: 0,0:20:32.80,0:20:35.28,Default,,0,0,0,,Il faut trouver le sens\Ndu 7 et du 3.
+Dialogue: 0,0:20:36.08,0:20:39.08,Default,,0,0,0,,"Kyôsha" n'aurait pas un autre sens ?
+Dialogue: 0,0:20:39.24,0:20:42.72,Default,,0,0,0,,C'est un symbole de fécondité,\Nje crois...
+Dialogue: 0,0:20:42.88,0:20:46.12,Default,,0,0,0,,Et jadis, on appelait ainsi\Nles mères-maquerelles.
+Dialogue: 0,0:20:46.56,0:20:48.60,Default,,0,0,0,,C'est quoi, une mère-maquerelle ?
+Dialogue: 0,0:20:48.76,0:20:49.88,Default,,0,0,0,,Une maman poisson ?
+Dialogue: 0,0:20:50.04,0:20:53.00,Default,,0,0,0,,Ça fait pas très honnête,\Ncomme nom.
+Dialogue: 0,0:20:53.60,0:20:54.60,Default,,0,0,0,,Euh, en fait...
+Dialogue: 0,0:20:55.24,0:20:59.48,Default,,0,0,0,,Et pourquoi on surnommait\Ncomme ça les mère-maquerelles ?
+Dialogue: 0,0:21:00.36,0:21:04.80,Default,,0,0,0,,Peut-être parce qu'on appelle aussi\Ncette pièce "yari", comme ces femmes.
+Dialogue: 0,0:21:05.24,0:21:07.48,Default,,0,0,0,,"Yari" ? Comme la lance ?
+Dialogue: 0,0:21:07.64,0:21:10.36,Default,,0,0,0,,Une hallebarde ou un javelot,\Npar exemple ?
+Dialogue: 0,0:21:10.52,0:21:12.08,Default,,0,0,0,,Mais pourquoi ce nom ?
+Dialogue: 0,0:21:12.52,0:21:16.20,Default,,0,0,0,,Parce que cette pièce\Npeut aller tout droit et loin.
+Dialogue: 0,0:21:16.56,0:21:18.36,Default,,0,0,0,,Exactement comme une lance.
+Dialogue: 0,0:21:21.00,0:21:24.24,Default,,0,0,0,,{\i1}Une seconde...{\i0}\N{\i1}Kiyomasa Katô, si je ne m'abuse...{\i0}
+Dialogue: 0,0:21:25.24,0:21:27.88,Default,,0,0,0,,{\i1}Dans ce cas, le 7 et le 3...{\i0}
+Dialogue: 0,0:21:28.08,0:21:29.88,Default,,0,0,0,,7 - 3
+Dialogue: 0,0:21:30.36,0:21:31.24,Default,,0,0,0,,{\i1}Mais oui...{\i0}
+Dialogue: 0,0:21:32.60,0:21:34.16,Default,,0,0,0,,{\i1}C'était donc ça.{\i0}
+Dialogue: 0,0:21:35.20,0:21:38.32,Default,,0,0,0,,Vous avez l'air d'avoir compris,\Ntous les deux.
+Dialogue: 0,0:21:38.80,0:21:42.76,Default,,0,0,0,,Vous allez partager avec nous\Nla solution, je présume.
+Dialogue: 0,0:21:44.00,0:21:46.32,Default,,0,0,0,,Prof !\NAmenez la voiture à l'entrée.
+Dialogue: 0,0:21:46.64,0:21:47.80,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:21:49.84,0:21:52.92,Default,,0,0,0,,On ne vous le dira\Nqu'une fois arrivés là-bas.
+Dialogue: 0,0:21:53.96,0:21:57.96,Default,,0,0,0,,C'est un endroit situé à mi-pente,\Nau nom effrayant.
+Dialogue: 0,0:21:58.32,0:22:00.00,Default,,0,0,0,,Vous venez quand même ?
+Dialogue: 0,0:22:06.24,0:22:09.92,ST_HAUT,,0,0,0,,TEMPS RESTANT À SHÛKICHI HANEDA :\N3 HEURES 4 MINUTES
+Dialogue: 0,0:22:10.88,0:22:13.92,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:15.04,0:22:18.08,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

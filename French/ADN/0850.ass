@@ -1,0 +1,394 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.95,0:00:02.96,Default,,0,0,0,,{\i1}Yumi, de la sécurité routière,{\i0}
+Dialogue: 0,0:00:03.11,0:00:05.95,Default,,0,0,0,,{\i1}a jeté par erreur\Nune lettre du maître Haneda{\i0}
+Dialogue: 0,0:00:06.12,0:00:08.09,Default,,0,0,0,,{\i1}avec des revues devenues inutiles.{\i0}
+Dialogue: 0,0:00:08.96,0:00:09.47,Default,,0,0,0,,{\i1}Par chance,{\i0}
+Dialogue: 0,0:00:09.81,0:00:13.47,Default,,0,0,0,,{\i1}le concierge de sa résidence\Na récupéré le tout...{\i0}
+Dialogue: 0,0:00:14.23,0:00:16.53,Default,,0,0,0,,{\i1}Mais moi, ce qui m'intéresse,{\i0}
+Dialogue: 0,0:00:16.76,0:00:19.56,Default,,0,0,0,,{\i1}c'est ce qu'il y avait\Navec mes revues...{\i0}
+Dialogue: 0,0:00:19.73,0:00:22.12,Default,,0,0,0,,{\i1}Ah !\NTu parles sûrement de ça...{\i0}
+Dialogue: 0,0:00:22.28,0:00:24.00,Default,,0,0,0,,{\i1}Non... Ne me dites pas...{\i0}
+Dialogue: 0,0:00:24.64,0:00:26.48,Default,,0,0,0,,{\i1}que vous avez regardé ?{\i0}
+Dialogue: 0,0:00:27.76,0:00:29.36,Default,,0,0,0,,{\i1}En quoi ça te gêne ?{\i0}
+Dialogue: 0,0:00:29.53,0:00:31.60,Default,,0,0,0,,{\i1}Vu qu'elle était jetée aux ordures.{\i0}
+Dialogue: 0,0:00:32.09,0:00:33.40,Default,,0,0,0,,{\i1}Vieux chnoque !{\i0}
+Dialogue: 0,0:00:33.56,0:00:35.04,Default,,0,0,0,,{\i1}Tant mieux, non ?{\i0}
+Dialogue: 0,0:00:35.36,0:00:37.93,Default,,0,0,0,,{\i1}C'était bien\Nune déclaration de mariage.{\i0}
+Dialogue: 0,0:00:38.17,0:00:39.16,Default,,0,0,0,,{\i1}Rendez-la-moi !{\i0}
+Dialogue: 0,0:00:39.73,0:00:42.32,ST_HAUT,,0,0,0,,{\i1}Il était écrit{\i0}\N{\i1}"maître de{\i0} shôgi{\i1} aux 7 couronnes"{\i0}
+Dialogue: 0,0:00:42.48,0:00:45.01,Default,,0,0,0,,{\i1}dans la case "emploi de l'époux".{\i0}
+Dialogue: 0,0:00:45.23,0:00:48.44,Default,,0,0,0,,{\i1}Cet acte a été rédigé\Navec une détermination inouïe,{\i0}
+Dialogue: 0,0:00:48.61,0:00:50.05,Default,,0,0,0,,{\i1}ça ne fait aucun doute !{\i0}
+Dialogue: 0,0:00:50.40,0:00:53.16,Default,,0,0,0,,{\i1}- Ça, je le sais bien !\N- Seulement,{\i0}
+Dialogue: 0,0:00:53.32,0:00:57.32,Default,,0,0,0,,{\i1}le Grand régent est actuellement\Nmis à mal dans le tournoi Ôshô.{\i0}
+Dialogue: 0,0:00:59.11,0:01:03.57,Default,,0,0,0,,{\i1}Si le Grand régent perd son titre\Nau cours de ce tournoi Ôshô,{\i0}
+Dialogue: 0,0:01:05.56,0:01:08.85,Default,,0,0,0,,{\i1}cet acte indiquant{\i0}\N{\i1}"maître de{\i0} shôgi{\i1} aux 7 couronnes"{\i0}
+Dialogue: 0,0:01:09.00,0:01:10.61,Default,,0,0,0,,{\i1}deviendra caduc !{\i0}
+Dialogue: 0,0:01:10.92,0:01:14.00,Default,,0,0,0,,{\i1}Vous savez où est cette enveloppe,\Npas vrai ?{\i0}
+Dialogue: 0,0:01:14.32,0:01:16.40,Default,,0,0,0,,{\i1}Où est-elle ?\NOù l'avez-vous cachée ?{\i0}
+Dialogue: 0,0:01:17.36,0:01:19.44,Default,,0,0,0,,{\i1}Il faudra que tu la mérites.{\i0}
+Dialogue: 0,0:01:20.43,0:01:21.93,Default,,0,0,0,,{\i1}Comment ça ?{\i0}
+Dialogue: 0,0:01:22.40,0:01:26.41,Default,,0,0,0,,{\i1}Prouve-moi que quoi qu'il arrive,\Ntu resteras toujours aux côtés{\i0}
+Dialogue: 0,0:01:27.11,0:01:28.43,Default,,0,0,0,,{\i1}du Grand régent !{\i0}
+Dialogue: 0,0:01:29.00,0:01:31.72,Default,,0,0,0,,{\i1}Dites ! Ce serait pas ça ?{\i0}
+Dialogue: 0,0:01:32.56,0:01:35.96,Default,,0,0,0,,{\i1}C'est écrit de taper\Nun code à 8 chiffres.{\i0}
+Dialogue: 0,0:01:36.60,0:01:40.36,Default,,0,0,0,,{\i1}C'est aussi marqué que c'est réservé\Nuniquement à dame Yodo.{\i0}
+Dialogue: 0,0:01:40.80,0:01:42.33,Default,,0,0,0,,{\i1}Il faut faire quoi, alors ?{\i0}
+Dialogue: 0,0:01:42.47,0:01:45.72,Default,,0,0,0,,{\i1}C'est simple ! Si on trouve\Nle code à 8 chiffres caché{\i0}
+Dialogue: 0,0:01:45.87,0:01:47.69,Default,,0,0,0,,{\i1}quelque part dans cette chambre,{\i0}
+Dialogue: 0,0:01:47.84,0:01:50.23,Default,,0,0,0,,{\i1}et que Yumi le tape\Nsur cet ordinateur,{\i0}
+Dialogue: 0,0:01:50.40,0:01:51.95,Default,,0,0,0,,{\i1}on saura où est l'enveloppe.{\i0}
+Dialogue: 0,0:01:52.40,0:01:54.43,Default,,0,0,0,,{\i1}C'est bien ça, non,{\i0}
+Dialogue: 0,0:01:54.84,0:01:56.52,Default,,0,0,0,,{\i1}monsieur le méchant concierge ?{\i0}
+Dialogue: 0,0:01:56.68,0:01:57.95,Default,,0,0,0,,{\i1}Euh, oui...{\i0}
+Dialogue: 0,0:01:58.40,0:02:01.32,Default,,0,0,0,,{\i1}Maintenant qu'on sait ça,\Nséparons-nous pour fouiller !{\i0}
+Dialogue: 0,0:02:01.47,0:02:02.47,Default,,0,0,0,,{\i1}Ouais !{\i0}
+Dialogue: 0,0:02:03.20,0:02:06.11,Default,,0,0,0,,{\i1}Mais après avoir inspecté\Ntoute la chambre,{\i0}
+Dialogue: 0,0:02:06.43,0:02:11.23,Default,,0,0,0,,{\i1}on n'a trouvé qu'un papier\Nrecouvert d'un mystérieux code.{\i0}
+Dialogue: 0,0:02:12.16,0:02:13.56,Default,,0,0,0,,C'est quoi, ces trucs ?
+Dialogue: 0,0:02:13.72,0:02:17.52,Default,,0,0,0,,Des chiffres,\Ndes lettres ou des figures ?
+Dialogue: 0,0:02:18.32,0:02:20.56,Default,,0,0,0,,Merde !\NEt même pas un début de piste !
+Dialogue: 0,0:02:34.40,0:02:35.87,Default,,0,0,0,,{\i1}Le ciel sera témoin d'énigmes{\i0}
+Dialogue: 0,0:02:36.32,0:02:38.40,Default,,0,0,0,,{\i1}résolues par une logique acérée !{\i0}
+Dialogue: 0,0:02:38.72,0:02:42.04,Default,,0,0,0,,{\i1}Quelle option réserve\Nce code indéchiffrable au couple ?{\i0}
+Dialogue: 0,0:02:42.84,0:02:46.52,Default,,0,0,0,,{\i1}Un cerveau d'adulte\Ndans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:46.68,0:02:48.40,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:57.56,0:03:00.16,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:03:10.40,0:03:12.87,Default,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:03:13.20,0:03:15.43,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:03:15.92,0:03:17.92,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:03:23.36,0:03:26.36,Default,,0,0,0,,Générique d'ouverture :\N"Ikusen no meikyû de ikusen no nazo o toite"
+Dialogue: 0,0:03:37.16,0:03:39.72,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:03:40.28,0:03:42.11,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:47.76,0:03:50.28,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:03:53.52,0:03:56.56,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:58.20,0:04:01.40,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:04:03.68,0:04:07.08,Default,,0,0,0,,{\i1}"Le Mot de passe de la déclaration\Nde mariage (2e partie)" !{\i0}
+Dialogue: 0,0:04:09.92,0:04:10.72,Default,,0,0,0,,Ah, au fait !
+Dialogue: 0,0:04:11.52,0:04:13.04,Default,,0,0,0,,D'après Naeko,
+Dialogue: 0,0:04:13.52,0:04:15.00,Default,,0,0,0,,tu l'aurais forcée à conduire
+Dialogue: 0,0:04:15.47,0:04:17.84,Default,,0,0,0,,la voiture de police\Njusqu'à Yamanashi ?
+Dialogue: 0,0:04:18.20,0:04:19.52,Default,,0,0,0,,Ben oui !
+Dialogue: 0,0:04:19.68,0:04:23.52,Default,,0,0,0,,Chûkichi allait arriver en retard\Nà une partie...
+Dialogue: 0,0:04:23.80,0:04:25.72,Default,,0,0,0,,{\i1}C'est fort, monsieur Haneda !{\i0}
+Dialogue: 0,0:04:26.23,0:04:30.84,Default,,0,0,0,,{\i1}Laisser tomber une partie importante\Npour passer du temps avec Yumi...{\i0}
+Dialogue: 0,0:04:31.04,0:04:33.40,Default,,0,0,0,,{\i1}Hein ? De quelle partie tu parles ?{\i0}
+Dialogue: 0,0:04:33.56,0:04:36.47,Default,,0,0,0,,{\i1}Je devais jouer\Npour le titre de Grand maître.{\i0}
+Dialogue: 0,0:04:36.64,0:04:37.80,Default,,0,0,0,,{\i1}"De Grand maître" ?{\i0}
+Dialogue: 0,0:04:38.20,0:04:40.04,Default,,0,0,0,,{\i1}Où ça et à quelle heure ?{\i0}
+Dialogue: 0,0:04:40.80,0:04:44.84,Default,,0,0,0,,{\i1}Il faudrait être à l'hôtel Tokiwa\Nà Yamanashi pour 15 h...{\i0}
+Dialogue: 0,0:04:45.23,0:04:47.68,Default,,0,0,0,,{\i1}Mais c'est dans 1 h 30,\Nimpossible d'y être.{\i0}
+Dialogue: 0,0:04:48.08,0:04:52.16,Default,,0,0,0,,{\i1}Tu ne sous-estimerais pas\Nnotre bolide, Chûkichi ?{\i0}
+Dialogue: 0,0:04:54.32,0:04:58.60,Default,,0,0,0,,Hé, la voiture de devant !\NChange de voie et laisse-nous passer !
+Dialogue: 0,0:04:59.68,0:05:02.43,Default,,0,0,0,,Arrêtez de traîner !\NDégagez le passage !
+Dialogue: 0,0:05:02.60,0:05:05.28,Default,,0,0,0,,{\i1}Stop, Yumi chérie !\NTu risques gros, là !{\i0}
+Dialogue: 0,0:05:05.76,0:05:08.72,Default,,0,0,0,,C'était sûrement\Nune partie de {\i1}shôgi{\i0}, en fait.
+Dialogue: 0,0:05:09.28,0:05:11.08,Default,,0,0,0,,Tu connais l'hôtel Tokiwa ?
+Dialogue: 0,0:05:11.23,0:05:12.04,Default,,0,0,0,,Non...
+Dialogue: 0,0:05:12.76,0:05:14.64,Default,,0,0,0,,{\i1}L'hôtel Tokiwa de Yamanashi ?{\i0}
+Dialogue: 0,0:05:14.80,0:05:18.92,Default,,0,0,0,,{\i1}C'est là-bas que le Grand régent\Na obtenu sa septième couronne.{\i0}
+Dialogue: 0,0:05:19.47,0:05:22.23,Default,,0,0,0,,{\i1}Il paraît\Nqu'il était arrivé pile à l'heure.{\i0}
+Dialogue: 0,0:05:22.40,0:05:24.52,Default,,0,0,0,,{\i1}Donc c'était en voiture de police !{\i0}
+Dialogue: 0,0:05:24.92,0:05:29.20,Default,,0,0,0,,On est bien arrivés\Nlà où se jouait la partie,
+Dialogue: 0,0:05:29.80,0:05:33.20,Default,,0,0,0,,mais Chûkichi\Nétait déboussolé d'avoir perdu
+Dialogue: 0,0:05:33.36,0:05:34.80,Default,,0,0,0,,ma photo porte-bonheur...
+Dialogue: 0,0:05:36.16,0:05:38.84,Default,,0,0,0,,Je l'ai donc embrassé avant sa partie !
+Dialogue: 0,0:05:39.20,0:05:41.20,Default,,0,0,0,,J'ai fait un "chû" à Chûkichi !
+Dialogue: 0,0:05:44.16,0:05:47.23,Default,,0,0,0,,{\i1}Cette petite...\NJe la prenais pour une "Chacha",{\i0}
+Dialogue: 0,0:05:47.76,0:05:48.95,Default,,0,0,0,,{\i1}mais en fait...{\i0}
+Dialogue: 0,0:05:51.20,0:05:52.47,Default,,0,0,0,,Regardez ça !
+Dialogue: 0,0:05:52.87,0:05:54.00,Default,,0,0,0,,Génial !
+Dialogue: 0,0:05:54.80,0:05:56.56,Default,,0,0,0,,Je peux avancer de combien ?
+Dialogue: 0,0:05:56.72,0:05:58.47,Default,,0,0,0,,De 10 000 cases, non ?
+Dialogue: 0,0:05:58.68,0:06:02.40,Default,,0,0,0,,Si on t'écoutait,\Nla partie serait aussitôt terminée !
+Dialogue: 0,0:06:02.87,0:06:06.47,Default,,0,0,0,,{\i1}Ils en ont marre de chercher{\i0}\N{\i1}et jouent au{\i0} Mawari shôgi{\i1}...{\i0}
+Dialogue: 0,0:06:07.56,0:06:11.32,Default,,0,0,0,,{\i1}Enfin, ça se comprend,\Nvu qu'on a tout fouillé en vain.{\i0}
+Dialogue: 0,0:06:12.16,0:06:13.08,Default,,0,0,0,,{\i1}Donc...{\i0}
+Dialogue: 0,0:06:13.68,0:06:16.84,Default,,0,0,0,,{\i1}ça signifie que le code\Nne concerne que ce papier.{\i0}
+Dialogue: 0,0:06:17.68,0:06:18.52,Default,,0,0,0,,N'empêche...
+Dialogue: 0,0:06:19.16,0:06:21.60,Default,,0,0,0,,Il fait un peu froid\Ndans cette chambre...
+Dialogue: 0,0:06:21.76,0:06:22.87,Default,,0,0,0,,C'est vrai, ça.
+Dialogue: 0,0:06:23.16,0:06:26.04,Default,,0,0,0,,Dites, m'sieur !\NVous pouvez mettre le chauffage ?
+Dialogue: 0,0:06:26.28,0:06:29.76,Default,,0,0,0,,Désolé,\Nj'aurais vraiment aimé le faire,
+Dialogue: 0,0:06:30.36,0:06:33.52,Default,,0,0,0,,mais le climatiseur\Nest en panne depuis hier.
+Dialogue: 0,0:06:33.76,0:06:35.52,Default,,0,0,0,,Il refuse de fonctionner !
+Dialogue: 0,0:06:36.11,0:06:38.23,Default,,0,0,0,,Il va falloir prendre sur vous.
+Dialogue: 0,0:06:39.64,0:06:42.20,Default,,0,0,0,,{\i1}La chambre était pourtant\Nun peu chauffée{\i0}
+Dialogue: 0,0:06:42.43,0:06:45.84,Default,,0,0,0,,{\i1}quand on y est entrés,\Ndonc le chauffage était allumé.{\i0}
+Dialogue: 0,0:06:46.68,0:06:50.04,Default,,0,0,0,,{\i1}Dans ce cas,\Npourquoi veut-il le cacher ?{\i0}
+Dialogue: 0,0:06:51.84,0:06:52.56,Default,,0,0,0,,Dites !
+Dialogue: 0,0:06:52.95,0:06:56.60,Default,,0,0,0,,C'est vraiment vous\Nqui avez inventé ce code ?
+Dialogue: 0,0:06:56.80,0:06:57.95,Default,,0,0,0,,Oui, pourquoi ?
+Dialogue: 0,0:06:58.68,0:06:59.84,Default,,0,0,0,,Tu as des doutes ?
+Dialogue: 0,0:07:00.00,0:07:04.08,Default,,0,0,0,,Ben oui, il n'a pas été écrit\Nà la main, c'est une photocopie.
+Dialogue: 0,0:07:05.20,0:07:06.08,Default,,0,0,0,,{\i1}Ah bon ?{\i0}
+Dialogue: 0,0:07:06.72,0:07:11.72,Default,,0,0,0,,{\i1}Mince ! Le photographier aussitôt\Nm'a empêché de bien l'examiner !{\i0}
+Dialogue: 0,0:07:11.87,0:07:15.23,Default,,0,0,0,,Je me demande donc\Nsi vous n'avez pas photocopié
+Dialogue: 0,0:07:15.40,0:07:17.36,Default,,0,0,0,,ce code je ne sais où !
+Dialogue: 0,0:07:17.76,0:07:18.56,Default,,0,0,0,,Non !
+Dialogue: 0,0:07:18.92,0:07:22.84,Default,,0,0,0,,C'est bel et bien moi\Nqui ai écrit ce code !
+Dialogue: 0,0:07:23.20,0:07:26.52,Default,,0,0,0,,Je l'ai photocopié\Nsur un coup de tête, c'est tout !
+Dialogue: 0,0:07:29.40,0:07:30.04,Default,,0,0,0,,{\i1}C'est faux...{\i0}
+Dialogue: 0,0:07:30.80,0:07:33.56,Default,,0,0,0,,{\i1}À première vue,\Nil n'y a pas d'imprimante ici.{\i0}
+Dialogue: 0,0:07:34.08,0:07:39.04,Default,,0,0,0,,{\i1}Pour le photocopier, il a dû aller\Nà la supérette à 10 minutes d'ici.{\i0}
+Dialogue: 0,0:07:39.52,0:07:42.60,Default,,0,0,0,,{\i1}Et le papier d'une copieuse\Nest rectangulaire.{\i0}
+Dialogue: 0,0:07:43.28,0:07:48.20,Default,,0,0,0,,{\i1}Il a encore dû le découper\Npour rendre celui de son code carré.{\i0}
+Dialogue: 0,0:07:48.80,0:07:51.76,Default,,0,0,0,,{\i1}Il ne l'a donc pas photocopié\Nsur un coup de tête,{\i0}
+Dialogue: 0,0:07:51.92,0:07:54.80,Default,,0,0,0,,{\i1}mais parce qu'il était forcé\Nde le faire.{\i0}
+Dialogue: 0,0:07:55.60,0:07:57.64,Default,,0,0,0,,{\i1}Seulement,\Nje n'en vois pas la raison.{\i0}
+Dialogue: 0,0:07:58.36,0:08:01.52,Default,,0,0,0,,{\i1}Il voulait masquer\Ndes traces de brouillon{\i0}
+Dialogue: 0,0:08:01.68,0:08:05.00,Default,,0,0,0,,{\i1}ou dissimuler des marques\Nde blanc correcteur ?{\i0}
+Dialogue: 0,0:08:05.84,0:08:07.00,Default,,0,0,0,,{\i1}Ou alors...{\i0}
+Dialogue: 0,0:08:07.36,0:08:11.43,Default,,0,0,0,,Si ce code est bien de vous,\Ndonnez-nous un indice !
+Dialogue: 0,0:08:11.60,0:08:12.87,Default,,0,0,0,,C'est le minimum !
+Dialogue: 0,0:08:14.11,0:08:15.52,Default,,0,0,0,,Pas besoin d'indice !
+Dialogue: 0,0:08:16.32,0:08:18.80,Default,,0,0,0,,Si tu es résolue à épouser et suivre
+Dialogue: 0,0:08:18.95,0:08:21.36,Default,,0,0,0,,le Grand régent jusqu'à sa mort,
+Dialogue: 0,0:08:21.72,0:08:24.00,Default,,0,0,0,,tu sauras vite déchiffrer ça !
+Dialogue: 0,0:08:25.28,0:08:26.87,Default,,0,0,0,,Mais pour cela,
+Dialogue: 0,0:08:27.28,0:08:29.68,Default,,0,0,0,,il faudra former un "vrai couple".
+Dialogue: 0,0:08:32.16,0:08:33.28,Default,,0,0,0,,{\i1}Un "vrai couple" ?{\i0}
+Dialogue: 0,0:08:35.16,0:08:37.11,Default,,0,0,0,,Je n'ai encore fait qu'un "1" !
+Dialogue: 0,0:08:37.60,0:08:39.84,Default,,0,0,0,,Je suis pourtant\Ntout près de l'arrivée !
+Dialogue: 0,0:08:40.00,0:08:42.36,Default,,0,0,0,,Tu avais si bien commencé...
+Dialogue: 0,0:08:42.52,0:08:45.43,Default,,0,0,0,,"Dans la vie,\Nil y a des hauts et des bas !"
+Dialogue: 0,0:08:46.64,0:08:49.08,Default,,0,0,0,,{\i1}Des hauts et des bas...{\i0}
+Dialogue: 0,0:08:50.47,0:08:51.64,Default,,0,0,0,,{\i1}Minute...{\i0}
+Dialogue: 0,0:08:52.52,0:08:56.87,Default,,0,0,0,,{\i1}Ce papier codé se trouvait\Ndans la poubelle, il me semble...{\i0}
+Dialogue: 0,0:08:57.56,0:09:00.11,Default,,0,0,0,,{\i1}Si j'ai vu juste,\Nil suffira de le plier{\i0}
+Dialogue: 0,0:09:00.68,0:09:02.28,Default,,0,0,0,,{\i1}selon le modèle voulu !{\i0}
+Dialogue: 0,0:09:04.20,0:09:05.23,Default,,0,0,0,,Montrez un peu !
+Dialogue: 0,0:09:06.56,0:09:07.56,Default,,0,0,0,,Hé !
+Dialogue: 0,0:09:08.23,0:09:09.28,Default,,0,0,0,,Conan ?
+Dialogue: 0,0:09:10.47,0:09:11.32,Default,,0,0,0,,Non ?
+Dialogue: 0,0:09:11.47,0:09:12.68,Default,,0,0,0,,Tu as saisi un truc ?
+Dialogue: 0,0:09:13.95,0:09:17.11,Default,,0,0,0,,Ça m'étonnerait !\NIl s'amuse, c'est tout !
+Dialogue: 0,0:09:17.40,0:09:19.84,Default,,0,0,0,,Le connaissant, c'est peu probable.
+Dialogue: 0,0:09:20.20,0:09:22.52,Default,,0,0,0,,Regarde bien, alors !
+Dialogue: 0,0:09:22.68,0:09:24.80,Default,,0,0,0,,Il a l'air de déchiffrer un code ?
+Dialogue: 0,0:09:24.95,0:09:28.56,Default,,0,0,0,,Non... C'est plutôt\Nce qu'on fait souvent enfant :
+Dialogue: 0,0:09:29.16,0:09:30.16,Default,,0,0,0,,de l'origami...
+Dialogue: 0,0:09:41.32,0:09:43.04,Default,,0,0,0,,Des caractères sont apparus !
+Dialogue: 0,0:09:44.56,0:09:45.72,Default,,0,0,0,,À toi, Yumi !
+Dialogue: 0,0:09:45.87,0:09:47.56,Default,,0,0,0,,Tape ce code à 8 chiffres !
+Dialogue: 0,0:09:47.72,0:09:49.68,Default,,0,0,0,,D'accord ! Voyons voir...
+Dialogue: 0,0:09:50.11,0:09:51.28,Default,,0,0,0,,Mais...
+Dialogue: 0,0:09:51.43,0:09:53.64,Default,,0,0,0,,... c'est pas des chiffres !
+Dialogue: 0,0:09:53.87,0:09:55.43,Default,,0,0,0,,C'est des {\i1}katakana{\i0}, non ?
+Dialogue: 0,0:09:56.04,0:09:58.84,Default,,0,0,0,,Ça ira. La plupart des adultes\Npeuvent citer
+Dialogue: 0,0:09:59.00,0:10:02.11,Default,,0,0,0,,8 chiffres à partir\Nde ce qui est apparu.
+Dialogue: 0,0:10:02.36,0:10:03.16,Default,,0,0,0,,Exact !
+Dialogue: 0,0:10:04.47,0:10:07.40,Default,,0,0,0,,Seulement, le code\Nne se limitera pas qu'à ça,
+Dialogue: 0,0:10:08.32,0:10:10.08,Default,,0,0,0,,car on parle d'un couple !
+Dialogue: 0,0:10:12.32,0:10:13.68,Default,,0,0,0,,Dis, Miwako.
+Dialogue: 0,0:10:14.52,0:10:16.92,Default,,0,0,0,,C'est bien ça, non ?
+Dialogue: 0,0:10:17.08,0:10:18.56,Default,,0,0,0,,Je pense...
+Dialogue: 0,0:10:18.72,0:10:21.92,Default,,0,0,0,,OK. J'appuie sur "entrée"\Npour confirmer, alors !
+Dialogue: 0,0:10:23.00,0:10:23.72,Default,,0,0,0,,Stop !
+Dialogue: 0,0:10:26.04,0:10:28.40,Default,,0,0,0,,Vérifions sur le Net pour être sûrs...
+Dialogue: 0,0:10:29.60,0:10:31.36,Default,,0,0,0,,Vu qu'une seule erreur
+Dialogue: 0,0:10:31.52,0:10:35.64,Default,,0,0,0,,te priverait de savoir où est\Nl'enveloppe avec la déclaration.
+Dialogue: 0,0:10:36.16,0:10:37.76,Default,,0,0,0,,Tu as raison...
+Dialogue: 0,0:10:38.32,0:10:41.64,Default,,0,0,0,,Incroyable !\NExactement comme l'avait dit Ai !
+Dialogue: 0,0:10:42.16,0:10:45.72,Default,,0,0,0,,Yumi a tapé les 8 chiffres\Nsans la moindre hésitation !
+Dialogue: 0,0:10:45.87,0:10:48.60,Default,,0,0,0,,Le code était pourtant\Nen {\i1}katakana{\i0}...
+Dialogue: 0,0:10:48.76,0:10:53.64,Default,,0,0,0,,Et comment savoir que ces syllabes\Napparaîtraient en pliant le papier ?
+Dialogue: 0,0:10:53.80,0:10:55.64,Default,,0,0,0,,On n'avait pourtant aucun indice !
+Dialogue: 0,0:10:56.16,0:10:57.84,Default,,0,0,0,,Détrompe-toi !
+Dialogue: 0,0:11:00.16,0:11:03.52,Default,,0,0,0,,Le fait que le papier codé\Nait été photocopié
+Dialogue: 0,0:11:04.11,0:11:07.72,Default,,0,0,0,,et se trouvait dans la poubelle\Nétait un indice en soi.
+Dialogue: 0,0:11:17.68,0:11:18.84,Default,,0,0,0,,La photocopie ?
+Dialogue: 0,0:11:19.56,0:11:22.28,Default,,0,0,0,,Vous savez ce que photocopier\Npermet de cacher ?
+Dialogue: 0,0:11:24.87,0:11:28.72,Default,,0,0,0,,Des traces de brouillon\Nou des marques de blanc correcteur ?
+Dialogue: 0,0:11:28.87,0:11:31.56,Default,,0,0,0,,Regardez le papier codé\Nque j'ai plié.
+Dialogue: 0,0:11:32.32,0:11:34.80,Default,,0,0,0,,Qu'est-ce qui disparaîtrait\Naprès copie ?
+Dialogue: 0,0:11:37.95,0:11:39.68,Default,,0,0,0,,Ah ! Mais oui !
+Dialogue: 0,0:11:40.64,0:11:41.72,Default,,0,0,0,,Les plis !
+Dialogue: 0,0:11:43.28,0:11:44.04,Default,,0,0,0,,Bingo !
+Dialogue: 0,0:11:45.28,0:11:47.76,Default,,0,0,0,,- Les plis ?\N- Ah bon ?
+Dialogue: 0,0:11:48.04,0:11:51.04,Default,,0,0,0,,Eh oui ! Car si les plis\Nsont là dès le départ,
+Dialogue: 0,0:11:51.20,0:11:55.11,Default,,0,0,0,,on devine tout de suite\Ncomment plier ce papier codé.
+Dialogue: 0,0:11:55.36,0:11:57.60,Default,,0,0,0,,Mais a contrario, sans ces plis,
+Dialogue: 0,0:11:57.76,0:12:00.11,Default,,0,0,0,,on ne voit pas du tout quoi faire.
+Dialogue: 0,0:12:00.68,0:12:03.80,Default,,0,0,0,,C'est pour ça que ce papier\Nétait dans la poubelle.
+Dialogue: 0,0:12:05.00,0:12:06.87,Default,,0,0,0,,Il a tenté de le jeter ?
+Dialogue: 0,0:12:07.04,0:12:07.60,Default,,0,0,0,,Mais non !
+Dialogue: 0,0:12:08.32,0:12:11.68,Default,,0,0,0,,- Il y a un vieux proverbe...\N- "Une grue dans un dépotoir."
+Dialogue: 0,0:12:12.47,0:12:16.23,Default,,0,0,0,,Ça signifie qu'on peut trouver\Ndes choses remarquables
+Dialogue: 0,0:12:16.40,0:12:19.11,Default,,0,0,0,,ou très jolies\Ndans un endroit ordinaire...
+Dialogue: 0,0:12:20.95,0:12:22.04,Default,,0,0,0,,Exactement.
+Dialogue: 0,0:12:22.72,0:12:25.68,Default,,0,0,0,,Un dépotoir,\Nc'est un endroit où on jette.
+Dialogue: 0,0:12:25.84,0:12:28.43,Default,,0,0,0,,Ce papier déposé dans la poubelle
+Dialogue: 0,0:12:28.95,0:12:31.56,Default,,0,0,0,,devait donc être plié\Nen forme de grue.
+Dialogue: 0,0:12:32.11,0:12:35.47,Default,,0,0,0,,Si on procède alors\Nau pliage de ce papier
+Dialogue: 0,0:12:35.64,0:12:37.28,Default,,0,0,0,,avec le code face visible...
+Dialogue: 0,0:12:41.60,0:12:43.56,Default,,0,0,0,,voilà ce qu'on obtient !
+Dialogue: 0,0:12:44.36,0:12:47.95,Default,,0,0,0,,On voit apparaître\Nles mots "{\i1}root{\i0}" et "{\i1}five{\i0}" !
+Dialogue: 0,0:12:48.64,0:12:50.36,Default,,0,0,0,,{\i1}"Root five" ?{\i0}
+Dialogue: 0,0:12:51.60,0:12:54.92,Default,,0,0,0,,C'est la traduction anglaise\Nde "racine carrée de 5",
+Dialogue: 0,0:12:55.08,0:12:57.23,Default,,0,0,0,,le nombre élevé au carré\Nqui donne 5.
+Dialogue: 0,0:12:57.40,0:13:02.28,Default,,0,0,0,,Au collège ou au lycée, on l'apprend\Njusqu'à 7 chiffres après la virgule.
+Dialogue: 0,0:13:02.64,0:13:04.64,Default,,0,0,0,,8 chiffres en tout, alors ?
+Dialogue: 0,0:13:04.80,0:13:07.04,Default,,0,0,0,,C'est impossible à retenir !
+Dialogue: 0,0:13:07.20,0:13:11.08,Default,,0,0,0,,Mais si, car il y a\Nun bon moyen de s'en souvenir.
+Dialogue: 0,0:13:11.23,0:13:12.43,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:13:13.32,0:13:16.92,Default,,0,0,0,,Pour √5, c'est "le perroquet\Ncraille au pied du mont Fuji".
+Dialogue: 0,0:13:17.08,0:13:20.92,Default,,0,0,0,,Ce qui en japonais\Ncorrespond à 2, 2360679.
+Dialogue: 0,0:13:21.80,0:13:25.11,Default,,0,0,0,,C'est pour ça\Nqu'en tapant ces 8 chiffres...
+Dialogue: 0,0:13:25.47,0:13:27.52,Default,,0,0,0,,OK, on dirait que c'est bien ça.
+Dialogue: 0,0:13:27.68,0:13:29.08,Default,,0,0,0,,Parfait ! J'y vais !
+Dialogue: 0,0:13:31.92,0:13:35.80,Default,,0,0,0,,"Tapez les 8 chiffres suivants" ?
+Dialogue: 0,0:13:36.20,0:13:39.76,Default,,0,0,0,,Le mot de passe ne s'arrêtait pas\Nà la racine carrée de 5 ?
+Dialogue: 0,0:13:39.92,0:13:44.64,Default,,0,0,0,,Relax ! Il suffit juste de replier\Nune grue avec le même papier.
+Dialogue: 0,0:13:45.64,0:13:50.28,Default,,0,0,0,,Vu que le créateur de ce code\Na donné "vrai couple" comme indice.
+Dialogue: 0,0:13:51.76,0:13:56.60,Default,,0,0,0,,Donc, il faut d'abord revenir\Nà la phase des petits carrés,
+Dialogue: 0,0:13:57.47,0:13:59.20,Default,,0,0,0,,puis faire comme ceci.
+Dialogue: 0,0:14:00.08,0:14:02.92,Default,,0,0,0,,Et enfin, replier une grue\Navec l'autre face.
+Dialogue: 0,0:14:03.52,0:14:07.20,Default,,0,0,0,,On devrait alors voir apparaître des mots,\Ncomme tout à l'heure.
+Dialogue: 0,0:14:10.80,0:14:13.32,Default,,0,0,0,,C'est pas des {\i1}katakana{\i0}, cette fois !
+Dialogue: 0,0:14:14.36,0:14:17.32,Default,,0,0,0,,Au verso aussi,\Nc'est une figure étrange.
+Dialogue: 0,0:14:18.28,0:14:21.72,Default,,0,0,0,,Comme le symbole couvrant ce cercle\Nest une racine,
+Dialogue: 0,0:14:21.87,0:14:24.80,Default,,0,0,0,,il doit suffire\Nde trouver le chiffre adéquat.
+Dialogue: 0,0:14:25.84,0:14:28.80,Default,,0,0,0,,Mais le seul indice\Nest cette forme étrange...
+Dialogue: 0,0:14:29.32,0:14:31.84,Default,,0,0,0,,Ça serait pas un "9", des fois ?
+Dialogue: 0,0:14:32.52,0:14:34.32,Default,,0,0,0,,Qu'est-ce qui te fait dire ça ?
+Dialogue: 0,0:14:34.47,0:14:39.43,Default,,0,0,0,,En haut, c'est la lune et en bas,\Nune coupe pour boire en l'admirant.
+Dialogue: 0,0:14:40.92,0:14:45.68,Default,,0,0,0,,Et comme la lune s'admire au 9e mois,\Ntu voyais un "9" dans ce cercle...
+Dialogue: 0,0:14:46.32,0:14:49.32,Default,,0,0,0,,Mais la √9 étant 3,\Nça ne donne pas 8 chiffres.
+Dialogue: 0,0:14:49.80,0:14:51.84,Default,,0,0,0,,Ah bon ? C'est pas ça, alors ?
+Dialogue: 0,0:14:52.00,0:14:56.72,Default,,0,0,0,,Pourtant, mon père aimerait souvent\Nboire un coup au clair de lune.
+Dialogue: 0,0:14:57.00,0:14:58.32,Default,,0,0,0,,- Eh ben...\N{\i1}- "Un coup" ?{\i0}
+Dialogue: 0,0:14:58.92,0:15:00.32,Default,,0,0,0,,{\i1}Mais oui !{\i0}
+Dialogue: 0,0:15:01.04,0:15:02.60,Default,,0,0,0,,{\i1}C'était donc ça !{\i0}
+Dialogue: 0,0:15:19.32,0:15:22.60,Default,,0,0,0,,On passe à l'analyse de notre partie ?
+Dialogue: 0,0:15:26.76,0:15:28.87,Default,,0,0,0,,Quoi ? Un {\i1}dakuten{\i0} ?
+Dialogue: 0,0:15:29.56,0:15:32.87,Default,,0,0,0,,C'était donc ça,\Nces 2 petits traits en haut à droite
+Dialogue: 0,0:15:33.11,0:15:34.64,Default,,0,0,0,,de la coupe ?
+Dialogue: 0,0:15:34.95,0:15:35.76,Default,,0,0,0,,Eh oui !
+Dialogue: 0,0:15:36.16,0:15:37.76,Default,,0,0,0,,C'est quoi, ce truc ?
+Dialogue: 0,0:15:37.92,0:15:40.80,Default,,0,0,0,,Un signe graphique\Nqui modifie certains sons.
+Dialogue: 0,0:15:42.36,0:15:45.84,Default,,0,0,0,,Comme le "ge" de Genta,\Nc'est un "ke" modifié par {\i1}dakuten{\i0}.
+Dialogue: 0,0:15:46.00,0:15:47.64,Default,,0,0,0,,Ah, c'est ça ?
+Dialogue: 0,0:15:48.20,0:15:51.95,Default,,0,0,0,,Mais comment ça permet\Nde trouver le chiffre du cercle ?
+Dialogue: 0,0:15:52.20,0:15:54.60,Default,,0,0,0,,Compte en japonais à partir de 1.
+Dialogue: 0,0:15:57.00,0:15:58.11,Default,,0,0,0,,Pour les doigts...
+Dialogue: 0,0:15:58.28,0:16:01.84,Default,,0,0,0,,{\i1}Ippon, nihon, sanbon, yonhon.{\i0}
+Dialogue: 0,0:16:02.40,0:16:03.64,Default,,0,0,0,,Pour les souris ?
+Dialogue: 0,0:16:03.80,0:16:07.60,Default,,0,0,0,,{\i1}Ippiki, nihiki, sanbiki, yonhiki.{\i0}
+Dialogue: 0,0:16:08.23,0:16:09.32,Default,,0,0,0,,Pour les boissons ?
+Dialogue: 0,0:16:09.47,0:16:12.76,Default,,0,0,0,,{\i1}Ippai, nihai, sanbai, yonhai.{\i0}
+Dialogue: 0,0:16:14.43,0:16:18.52,Default,,0,0,0,,Vous avez compris ? Quel chiffre\Nest modifié en "b" par le {\i1}dakuten{\i0} ?
+Dialogue: 0,0:16:19.04,0:16:19.95,Default,,0,0,0,,Le "3" !
+Dialogue: 0,0:16:20.40,0:16:21.28,Default,,0,0,0,,Bingo !
+Dialogue: 0,0:16:22.08,0:16:24.95,Default,,0,0,0,,Il faut taper\Nla racine carrée de "3", on dirait.
+Dialogue: 0,0:16:26.04,0:16:30.56,Default,,0,0,0,,Euh... "Invite-moi,\Ncomme tout le monde", en japonais...
+Dialogue: 0,0:16:30.92,0:16:34.56,Default,,0,0,0,,1, 7, 3, 2, 0, 5, 0, 8...
+Dialogue: 0,0:16:36.23,0:16:39.43,Default,,0,0,0,,"Invite-moi, comme tout le monde".\NParfait !
+Dialogue: 0,0:16:43.04,0:16:44.84,Default,,0,0,0,,C'est quoi, cette blague ?
+Dialogue: 0,0:16:45.47,0:16:50.20,Default,,0,0,0,,L'écran ne fait qu'afficher\Nce que la caméra de l'ordi filme !
+Dialogue: 0,0:16:50.84,0:16:52.40,Default,,0,0,0,,Où est l'enveloppe ?
+Dialogue: 0,0:16:53.60,0:16:55.64,Default,,0,0,0,,Regarde plus attentivement !
+Dialogue: 0,0:16:56.60,0:16:58.72,Default,,0,0,0,,Je fais que ça...
+Dialogue: 0,0:17:01.52,0:17:03.68,Default,,0,0,0,,La poche intérieure de ma veste !
+Dialogue: 0,0:17:06.60,0:17:08.11,Default,,0,0,0,,Génial !
+Dialogue: 0,0:17:08.72,0:17:09.95,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:17:10.36,0:17:14.16,Default,,0,0,0,,Vous l'avez glissée dans sa poche\Nen bon pickpocket
+Dialogue: 0,0:17:14.36,0:17:18.11,Default,,0,0,0,,quand Yumi vous a bousculé\Nà l'entrée, tout à l'heure.
+Dialogue: 0,0:17:18.64,0:17:20.84,Default,,0,0,0,,{\i1}D'où la coupure de chauffage !{\i0}
+Dialogue: 0,0:17:21.00,0:17:22.92,Default,,0,0,0,,{\i1}Il voulait qu'elle garde sa veste.{\i0}
+Dialogue: 0,0:17:24.08,0:17:26.40,Default,,0,0,0,,À moi, la déclaration de Chûkichi !
+Dialogue: 0,0:17:27.32,0:17:31.00,Default,,0,0,0,,Le tournoi Ôshô se déroule\Ndans l'auberge Jinya à Kanagawa
+Dialogue: 0,0:17:31.23,0:17:33.76,Default,,0,0,0,,et la pause déjeuner\Nse termine à 13 h 30.
+Dialogue: 0,0:17:34.00,0:17:36.23,Default,,0,0,0,,Si on prend un taxi, on y sera !
+Dialogue: 0,0:17:36.40,0:17:37.08,Default,,0,0,0,,Exact.
+Dialogue: 0,0:17:37.87,0:17:39.52,Default,,0,0,0,,Quoi ? J'ai un appel...
+Dialogue: 0,0:17:40.04,0:17:41.60,Default,,0,0,0,,Ça vient de Chûkichi.
+Dialogue: 0,0:17:43.76,0:17:46.16,Default,,0,0,0,,{\i1}- Allô ?{\i0}\N- Ah, Chûkichi...
+Dialogue: 0,0:17:47.23,0:17:50.16,Default,,0,0,0,,Minute. Le portable est interdit,\Nnormalement.
+Dialogue: 0,0:17:50.92,0:17:51.95,Default,,0,0,0,,{\i1}Non, c'est bon.{\i0}
+Dialogue: 0,0:17:52.11,0:17:53.64,Default,,0,0,0,,Quoi ? Comment ça ?
+Dialogue: 0,0:17:58.56,0:18:01.32,Default,,0,0,0,,La partie est déjà terminée...
+Dialogue: 0,0:18:02.92,0:18:04.68,Default,,0,0,0,,{\i1}Comment ça ?{\i0}
+Dialogue: 0,0:18:05.40,0:18:06.47,Default,,0,0,0,,C'est pourquoi...
+Dialogue: 0,0:18:07.20,0:18:09.04,Default,,0,0,0,,tu peux jeter l'enveloppe.
+Dialogue: 0,0:18:10.04,0:18:12.32,Default,,0,0,0,,Tout ça n'a plus aucun sens...
+Dialogue: 0,0:18:14.04,0:18:16.92,Default,,0,0,0,,Je ne te suis pas.\NPourquoi jeter l'enveloppe ?
+Dialogue: 0,0:18:17.95,0:18:21.60,Default,,0,0,0,,C'est terrible ! Je vois sur le Net\Nque le Grand régent
+Dialogue: 0,0:18:21.76,0:18:23.52,Default,,0,0,0,,a perdu le tournoi Ôshô !
+Dialogue: 0,0:18:28.11,0:18:29.20,Default,,0,0,0,,Voyons voir...
+Dialogue: 0,0:18:29.36,0:18:33.04,Default,,0,0,0,,"Apparemment soucieux,\Nle Grand régent
+Dialogue: 0,0:18:33.20,0:18:34.95,Default,,0,0,0,,"a enchaîné les erreurs
+Dialogue: 0,0:18:35.43,0:18:38.80,Default,,0,0,0,,"au point de perdre sèchement\Navant la pause déjeuner."
+Dialogue: 0,0:18:39.08,0:18:40.43,Default,,0,0,0,,Voilà ce que ça dit.
+Dialogue: 0,0:18:42.23,0:18:44.08,Default,,0,0,0,,Pourtant, Chûkichi...
+Dialogue: 0,0:18:44.23,0:18:45.72,Default,,0,0,0,,{\i1}"Rester sur sa première idée."{\i0}
+Dialogue: 0,0:18:47.08,0:18:48.84,Default,,0,0,0,,Mon beau-frère, Kôji Haneda,
+Dialogue: 0,0:18:49.32,0:18:52.47,Default,,0,0,0,,le joueur que je respecte le plus,\Navait fait
+Dialogue: 0,0:18:52.76,0:18:54.95,Default,,0,0,0,,de cette maxime sa devise.
+Dialogue: 0,0:18:55.36,0:18:57.16,Default,,0,0,0,,"Kôji Haneda" ?
+Dialogue: 0,0:18:58.87,0:19:00.84,Default,,0,0,0,,Pardonne-moi, Yûmi.
+Dialogue: 0,0:19:01.80,0:19:05.23,Default,,0,0,0,,En tant qu'homme,\Nje refuse de revenir sur une décision.
+Dialogue: 0,0:19:13.23,0:19:14.56,Default,,0,0,0,,Ah bon ? Je vois...
+Dialogue: 0,0:19:15.20,0:19:16.80,Default,,0,0,0,,{\i1}Sceau{\i0}
+Dialogue: 0,0:19:21.40,0:19:22.28,Default,,0,0,0,,{\i1}Yumi chérie...{\i0}
+Dialogue: 0,0:19:23.00,0:19:24.43,Default,,0,0,0,,Tu sais, mon gars...
+Dialogue: 0,0:19:25.04,0:19:28.08,Default,,0,0,0,,J'ignore ce que t'avais mis\Ndans ton enveloppe,
+Dialogue: 0,0:19:28.95,0:19:32.60,Default,,0,0,0,,{\i1}mais si t'as un truc à me dire,\Nfais-le en face !{\i0}
+Dialogue: 0,0:19:33.28,0:19:37.36,Default,,0,0,0,,{\i1}Et si tu réunis à nouveau tes 7\Net 8 trucs pour régner en maître,{\i0}
+Dialogue: 0,0:19:38.28,0:19:42.11,Default,,0,0,0,,j'aurai alors plus d'autre choix\Nque de te faire l'honneur
+Dialogue: 0,0:19:42.87,0:19:45.20,Default,,0,0,0,,{\i1}d'écouter ce que t'as à me dire !{\i0}
+Dialogue: 0,0:19:47.11,0:19:47.92,Default,,0,0,0,,{\i1}Donc...{\i0}
+Dialogue: 0,0:19:48.92,0:19:53.00,Default,,0,0,0,,t'as plus intérêt à perdre d'ici là,\Nespèce de souris dégarnie !
+Dialogue: 0,0:19:54.92,0:19:55.47,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:20:00.72,0:20:02.76,Default,,0,0,0,,La classe, Yumi !
+Dialogue: 0,0:20:03.36,0:20:07.56,Default,,0,0,0,,Loin d'être une Chacha "castratrice",\Nc'est une Nene "planche de salut" !
+Dialogue: 0,0:20:10.47,0:20:13.20,Default,,0,0,0,,Je vois d'ici\Nqui portera la culotte !
+Dialogue: 0,0:20:16.68,0:20:19.32,Default,,0,0,0,,{\i1}Euh...\NOn ne dirait pas plutôt Nobunaga ?{\i0}
+Dialogue: 0,0:20:36.08,0:20:38.72,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:20:39.08,0:20:41.76,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:21:42.08,0:21:42.92,Default,,0,0,0,,Tu plaisantes ?
+Dialogue: 0,0:21:43.76,0:21:46.72,Default,,0,0,0,,Il n'y a\Nqu'un seul tournoi d'Ôshô par an ?
+Dialogue: 0,0:21:46.87,0:21:51.32,Default,,0,0,0,,Exact. Le Grand régent ne pourra\Nte faire sa demande en mariage
+Dialogue: 0,0:21:51.47,0:21:53.95,Default,,0,0,0,,que dans un an, au plus tôt.
+Dialogue: 0,0:21:55.36,0:21:57.04,Default,,0,0,0,,Sérieux ?
+Dialogue: 0,0:21:57.20,0:22:00.08,Default,,0,0,0,,Je croyais\Nqu'il y en avait un tous les mois...
+Dialogue: 0,0:22:00.40,0:22:03.40,Default,,0,0,0,,Ensuite, le Grand régent\Nredescend à 6 couronnes.
+Dialogue: 0,0:22:03.56,0:22:07.56,Default,,0,0,0,,Et s'il reperd un titre après,\Nil faudra qu'il le regagne aussi.
+Dialogue: 0,0:22:09.64,0:22:12.76,Default,,0,0,0,,Ton mariage n'est peut-être pas\Npour tout de suite !
+Dialogue: 0,0:22:14.28,0:22:16.11,Default,,0,0,0,,Peu importe ses titres,
+Dialogue: 0,0:22:16.28,0:22:19.40,Default,,0,0,0,,je l'appelle pour qu'il valide\Nune autre déclaration !
+Dialogue: 0,0:22:19.56,0:22:22.32,Default,,0,0,0,,Non !\NTu gâcherais ta super prestation !
+Dialogue: 0,0:22:23.11,0:22:25.68,Default,,0,0,0,,Qu'ils se marient vite,\Ns'ils s'aiment !
+Dialogue: 0,0:22:25.84,0:22:27.11,Default,,0,0,0,,Ben ouais !
+Dialogue: 0,0:22:27.28,0:22:30.43,Default,,0,0,0,,C'est sûrement qu'un truc d'adultes\Nles en empêche !
+Dialogue: 0,0:22:30.60,0:22:31.40,Default,,0,0,0,,Dis.
+Dialogue: 0,0:22:32.28,0:22:33.32,Default,,0,0,0,,Connaîtrais-tu...
+Dialogue: 0,0:22:34.36,0:22:35.32,Default,,0,0,0,,Kôji Haneda ?
+Dialogue: 0,0:22:36.00,0:22:36.72,Default,,0,0,0,,Bien sûr !
+Dialogue: 0,0:22:36.87,0:22:41.28,Default,,0,0,0,,C'était un génie du {\i1}shôgi{\i0}\Nà qui on prédisait les 7 couronnes.
+Dialogue: 0,0:22:41.43,0:22:45.64,Default,,0,0,0,,Il allait souvent aux États-Unis\Npour disputer des tournois d'échecs.
+Dialogue: 0,0:22:45.92,0:22:49.84,Default,,0,0,0,,Mais il est décédé là-bas,\Nà la suite d'une affaire.
+Dialogue: 0,0:22:50.68,0:22:55.08,Default,,0,0,0,,Vu son nom, "Haneda",\Nje le croyais de famille avec le maître,
+Dialogue: 0,0:22:55.32,0:22:58.72,Default,,0,0,0,,mais de là à l'imaginer\Nbeau-frère du Grand régent...
+Dialogue: 0,0:23:01.00,0:23:02.72,Default,,0,0,0,,Un problème avec ce joueur ?
+Dialogue: 0,0:23:03.76,0:23:07.23,Default,,0,0,0,,Je me souviens avoir déjà vu\Nce nom quelque part.
+Dialogue: 0,0:23:09.95,0:23:14.36,Default,,0,0,0,,Il se trouvait dans la liste\Ndes victimes du APTX 4869.
+Dialogue: 0,0:23:14.80,0:23:17.40,Default,,0,0,0,,C'était le deuxième nom\Nen dessous du tien.
+Dialogue: 0,0:23:25.68,0:23:29.68,Default,,0,0,0,,SHINICHI KUDÔ : DISPARU\NKÔJI HANEDA : DÉCÉDÉ

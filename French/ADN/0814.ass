@@ -1,0 +1,384 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.48,0:00:04.33,Default,,0,0,0,,Je compte sur vous, professeur.
+Dialogue: 0,0:00:08.96,0:00:09.96,Default,,0,0,0,,Allez !
+Dialogue: 0,0:00:14.85,0:00:15.93,Default,,0,0,0,,C’est gagné !
+Dialogue: 0,0:00:16.17,0:00:20.40,Default,,0,0,0,,2e prix : des invitations au buffet\Nde pâtisseries de l’hôtel Beika West !
+Dialogue: 0,0:00:25.17,0:00:28.16,Default,,0,0,0,,Félicitations !
+Dialogue: 0,0:00:29.96,0:00:33.77,Default,,0,0,0,,{\i1}Vingt ans, et toujours la même envie{\i0}\N{\i1}d'aller plus loin !{\i0}
+Dialogue: 0,0:00:33.96,0:00:37.00,Default,,0,0,0,,{\i1}Ce qui est murmuré sur un blog{\i0}\N{\i1}n’a rien de mielleux !{\i0}
+Dialogue: 0,0:00:37.49,0:00:40.73,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:40.88,0:00:43.04,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:00:44.28,0:00:49.13,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:00:58.20,0:01:01.72,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:01:07.81,0:01:10.12,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:12.29,0:01:14.40,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:18.64,0:01:22.92,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Hane"
+Dialogue: 0,0:01:24.84,0:01:27.45,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:28.77,0:01:31.24,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:01:45.85,0:01:48.84,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:01:51.89,0:01:54.89,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:01:56.00,0:01:59.09,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:12.37,0:02:15.89,Default,,0,0,0,,{\i1}"Meurtre à huis clos{\i0}\N{\i1}de l’actrice blogueuse (1re partie)" !{\i0}
+Dialogue: 0,0:02:22.68,0:02:25.32,Default,,0,0,0,,Ç’a l’air trop bon !
+Dialogue: 0,0:02:25.68,0:02:28.08,Default,,0,0,0,,Il y a plein de gâteaux différents !
+Dialogue: 0,0:02:28.28,0:02:31.57,Default,,0,0,0,,On peut vraiment en manger\Nautant qu’on veut ?
+Dialogue: 0,0:02:31.72,0:02:34.17,Default,,0,0,0,,Oui,\Nvu que c’est un buffet à volonté.
+Dialogue: 0,0:02:34.52,0:02:38.05,Default,,0,0,0,,Vous avez vraiment\Nbeaucoup de chance à la loterie !
+Dialogue: 0,0:02:39.20,0:02:39.92,Default,,0,0,0,,En réalité,
+Dialogue: 0,0:02:40.24,0:02:44.80,Default,,0,0,0,,c’est l’assortiment d’aloyau\Npremier choix qu’il visait.
+Dialogue: 0,0:02:45.16,0:02:46.65,Default,,0,0,0,,Ah bon ?
+Dialogue: 0,0:02:52.28,0:02:53.93,Default,,0,0,0,,{\i1}Des gâteaux à volonté...{\i0}
+Dialogue: 0,0:02:54.08,0:02:56.81,Default,,0,0,0,,{\i1}Si Ran apprenait ça,{\i0}\N{\i1}elle serait jalouse !{\i0}
+Dialogue: 0,0:02:56.96,0:02:58.36,Default,,0,0,0,,{\i1}Ne lui disons pas...{\i0}
+Dialogue: 0,0:03:00.56,0:03:02.72,Default,,0,0,0,,Cool ! J’en ai pris la blinde !
+Dialogue: 0,0:03:02.88,0:03:05.05,Default,,0,0,0,,Genta ! C'est beaucoup trop !
+Dialogue: 0,0:03:05.20,0:03:06.36,Default,,0,0,0,,À mon tour, alors !
+Dialogue: 0,0:03:09.80,0:03:11.41,Default,,0,0,0,,Vous, c’est 2 maximum.
+Dialogue: 0,0:03:11.56,0:03:13.60,Default,,0,0,0,,Allez, quoi...
+Dialogue: 0,0:03:15.60,0:03:17.45,Default,,0,0,0,,D’accord... 2 seulement...
+Dialogue: 0,0:03:24.96,0:03:25.92,Default,,0,0,0,,Alors ?
+Dialogue: 0,0:03:27.12,0:03:29.44,Default,,0,0,0,,Ça s’est fini comment\Navec le policier ?
+Dialogue: 0,0:03:30.52,0:03:33.72,Default,,0,0,0,,Celui dont tu m’as envoyé\Nla photo pour que je voie !
+Dialogue: 0,0:03:34.32,0:03:35.80,Default,,0,0,0,,L’espèce d’épouvantail !
+Dialogue: 0,0:03:36.28,0:03:39.04,Default,,0,0,0,,Ah, le chef Kuroda...
+Dialogue: 0,0:03:39.44,0:03:42.32,Default,,0,0,0,,Il m’a dit pas mal de trucs louches,
+Dialogue: 0,0:03:42.48,0:03:46.08,Default,,0,0,0,,mais bon, il cherchait surtout\Nà coincer le coupable...
+Dialogue: 0,0:03:46.52,0:03:50.08,Default,,0,0,0,,Seulement, ça m’intrigue\Nqu’il me connaisse aussi bien...
+Dialogue: 0,0:03:50.68,0:03:54.36,Default,,0,0,0,,{\i1}Tu trouves des éléments inattendus{\i0}\N{\i1}pour résoudre les affaires{\i0}
+Dialogue: 0,0:03:54.52,0:03:56.08,Default,,0,0,0,,{\i1}en alimentant les déductions{\i0}
+Dialogue: 0,0:03:56.64,0:03:59.08,Default,,0,0,0,,{\i1}de "Kogorô l'endormi",{\i0}\N{\i1}dont tu es le cerveau.{\i0}
+Dialogue: 0,0:04:00.20,0:04:02.76,Default,,0,0,0,,{\i1}Voilà ce qu'on disait de toi,{\i0}\N{\i1}à l'Agence,{\i0}
+Dialogue: 0,0:04:03.44,0:04:05.08,Default,,0,0,0,,{\i1}Conan Edogawa.{\i0}
+Dialogue: 0,0:04:07.12,0:04:11.76,Default,,0,0,0,,Mais comme il est en poste à Nagano,\Non ne devrait pas souvent le croiser.
+Dialogue: 0,0:04:12.12,0:04:14.36,Default,,0,0,0,,Pas de quoi s’en faire !
+Dialogue: 0,0:04:14.52,0:04:16.40,Default,,0,0,0,,Ah bon ? Tant mieux...
+Dialogue: 0,0:04:16.88,0:04:19.12,Default,,0,0,0,,On va se régaler !
+Dialogue: 0,0:04:28.32,0:04:29.44,Default,,0,0,0,,Trop bon !
+Dialogue: 0,0:04:29.60,0:04:30.92,Default,,0,0,0,,C’est délicieux !
+Dialogue: 0,0:04:32.12,0:04:35.16,Default,,0,0,0,,Genta ! Je te conseille\Nde manger moins vite !
+Dialogue: 0,0:04:35.32,0:04:39.04,Default,,0,0,0,,Mais il n'y en aura plus,\Nsi je me dépêche pas !
+Dialogue: 0,0:04:39.64,0:04:41.44,Default,,0,0,0,,Tu comptes retourner en prendre ?
+Dialogue: 0,0:04:44.28,0:04:45.44,Default,,0,0,0,,C’est quoi, ce truc ?
+Dialogue: 0,0:04:45.76,0:04:47.40,Default,,0,0,0,,Un hélicoptère ?
+Dialogue: 0,0:04:49.16,0:04:51.92,Default,,0,0,0,,C’est le Petit Falcon !\NIl fait un malheur !
+Dialogue: 0,0:04:52.08,0:04:54.48,Default,,0,0,0,,Mais d’où vient-il ?
+Dialogue: 0,0:04:54.76,0:04:55.76,Default,,0,0,0,,Pardon !
+Dialogue: 0,0:04:56.08,0:04:58.12,Default,,0,0,0,,Tu n’es pas blessé, petit ?
+Dialogue: 0,0:05:00.16,0:05:04.72,Default,,0,0,0,,J’ai acheté ça au magasin de jouets\Nqu'il y a devant l’hôtel,
+Dialogue: 0,0:05:05.12,0:05:08.20,Default,,0,0,0,,mais il n’a pas volé comme prévu\Nquand je l’ai activé.
+Dialogue: 0,0:05:08.36,0:05:09.64,Default,,0,0,0,,Quoi ? Mais...
+Dialogue: 0,0:05:09.92,0:05:12.68,Default,,0,0,0,,Vous ne seriez pas\NSaya Kitami, la vedette ?
+Dialogue: 0,0:05:13.68,0:05:15.56,Default,,0,0,0,,Vous avez joué dans {\i1}Gomera{\i0} !
+Dialogue: 0,0:05:16.56,0:05:20.08,Default,,0,0,0,,La fille qui se fait sucer\Nle sang par le monstre ennemi ?
+Dialogue: 0,0:05:20.96,0:05:23.04,ST_HAUT,,0,0,0,,Ne parlez pas si fort !
+Dialogue: 0,0:05:23.24,0:05:26.32,ST_HAUT,,0,0,0,,Je suis ici incognito, d’accord ?
+Dialogue: 0,0:05:26.76,0:05:30.80,Default,,0,0,0,,Bon, je me ressers en gâteaux\Net on prend une photo ensemble, OK ?
+Dialogue: 0,0:05:31.08,0:05:32.08,Default,,0,0,0,,Génial !
+Dialogue: 0,0:05:32.48,0:05:34.60,Default,,0,0,0,,Toujours aussi indécente...
+Dialogue: 0,0:05:35.92,0:05:38.20,Default,,0,0,0,,Tu prends des photos\Navec des enfants,
+Dialogue: 0,0:05:38.36,0:05:41.16,Default,,0,0,0,,puis tu les uploades sur ton blog
+Dialogue: 0,0:05:41.32,0:05:44.92,Default,,0,0,0,,pour qu’il grimpe\Ndans le classement de popularité...
+Dialogue: 0,0:05:45.44,0:05:49.00,ST_HAUT,,0,0,0,,Tu comptes la nommer\N"photo prise avec des enfants
+Dialogue: 0,0:05:49.16,0:05:51.84,ST_HAUT,,0,0,0,,"rencontrés à un buffet\Nde pâtisseries" ?
+Dialogue: 0,0:05:52.44,0:05:55.36,Default,,0,0,0,,Mais non, pas du tout...
+Dialogue: 0,0:05:55.72,0:05:59.60,Default,,0,0,0,,Hé, ces 2 femmes, ce serait pas\NSaya Kitami et Kyôna Shôno ?
+Dialogue: 0,0:05:59.96,0:06:03.40,Default,,0,0,0,,Sérieux ? J’ai entendu dire\Nqu’elles se détestaient !
+Dialogue: 0,0:06:03.56,0:06:07.88,Default,,0,0,0,,Ah oui, elles faisaient une bataille\Nde blogs pour une émission !
+Dialogue: 0,0:06:08.24,0:06:11.40,Default,,0,0,0,,La perdante devait\Nse raser le crâne, je crois...
+Dialogue: 0,0:06:12.32,0:06:14.64,Default,,0,0,0,,- "Se raser le crâne" ?\N- Sérieux ?
+Dialogue: 0,0:06:15.24,0:06:18.68,Default,,0,0,0,,Mais bon, je suis sûre de gagner,\Naprès tout...
+Dialogue: 0,0:06:19.16,0:06:21.68,Default,,0,0,0,,Ça, il est encore trop tôt\Npour le dire...
+Dialogue: 0,0:06:22.00,0:06:26.00,Default,,0,0,0,,Quoi ? Tu n’as pas encore\Nvu mon blog, c’est ça ?
+Dialogue: 0,0:06:26.20,0:06:29.88,Default,,0,0,0,,Sache que j’ai fini\Npar l’apprendre, ton petit secret...
+Dialogue: 0,0:06:30.36,0:06:32.56,Default,,0,0,0,,Je te conseille\Nd’abandonner fissa
+Dialogue: 0,0:06:32.72,0:06:34.96,Default,,0,0,0,,si tu ne veux pas que je le dévoile.
+Dialogue: 0,0:06:35.56,0:06:37.68,Default,,0,0,0,,Et puis,\Ntu as déjà les cheveux courts,
+Dialogue: 0,0:06:37.84,0:06:39.96,Default,,0,0,0,,t'es plus à ça près...
+Dialogue: 0,0:06:40.64,0:06:41.76,Default,,0,0,0,,Tu plaisantes ?
+Dialogue: 0,0:06:42.72,0:06:43.72,Default,,0,0,0,,J'y vais.
+Dialogue: 0,0:06:44.24,0:06:47.84,Default,,0,0,0,,Et la photo de vous\Nen train de manger un gâteau ?
+Dialogue: 0,0:06:48.24,0:06:51.16,Default,,0,0,0,,Ce serait minable\Nde faire pareil qu'elle !
+Dialogue: 0,0:06:51.60,0:06:54.24,Default,,0,0,0,,Va plutôt m’acheter\Nce que je t’ai demandé !
+Dialogue: 0,0:06:54.40,0:06:55.32,Default,,0,0,0,,D'accord...
+Dialogue: 0,0:06:56.00,0:06:58.72,Default,,0,0,0,,Tiens ? C’est toi, Sakurako ?
+Dialogue: 0,0:06:58.88,0:07:00.28,Default,,0,0,0,,Conan ?
+Dialogue: 0,0:07:00.80,0:07:02.80,Default,,0,0,0,,Qu’est-ce que tu fais ici ?
+Dialogue: 0,0:07:03.04,0:07:05.68,Default,,0,0,0,,Tu n’étais pas femme de ménage ?
+Dialogue: 0,0:07:06.08,0:07:08.32,Default,,0,0,0,,Sa manager est enrhumée...
+Dialogue: 0,0:07:08.96,0:07:11.28,ST_HAUT,,0,0,0,,Mon agence a reçu une demande
+Dialogue: 0,0:07:11.48,0:07:15.56,ST_HAUT,,0,0,0,,pour qu’on s’occupe de la remplacer\Nle temps qu’elle guérisse.
+Dialogue: 0,0:07:17.96,0:07:19.68,Default,,0,0,0,,Mais pourquoi ces 2 actrices
+Dialogue: 0,0:07:20.12,0:07:22.68,Default,,0,0,0,,séjournent-elles\Ndans le même hôtel ?
+Dialogue: 0,0:07:22.88,0:07:25.60,Default,,0,0,0,,Elles ont l’air\Nde se détester, pourtant !
+Dialogue: 0,0:07:26.48,0:07:27.08,Default,,0,0,0,,En fait,
+Dialogue: 0,0:07:27.56,0:07:31.76,Default,,0,0,0,,un feuilleton tourné ici\Nsera diffusé ce printemps.
+Dialogue: 0,0:07:31.96,0:07:34.48,Default,,0,0,0,,Et elles en sont les héroïnes.
+Dialogue: 0,0:07:34.84,0:07:38.00,Default,,0,0,0,,Ah oui, je connais.\N"{\i1}Top Class{\i0}", c’est ça ?
+Dialogue: 0,0:07:38.16,0:07:41.48,Default,,0,0,0,,Comme il a plutôt bien marché,\Nils ont fait une suite...
+Dialogue: 0,0:07:42.92,0:07:44.52,Default,,0,0,0,,C’est quel genre de feuilleton ?
+Dialogue: 0,0:07:45.08,0:07:49.28,Default,,0,0,0,,C’est un duel qui met à nu\Nla nature tortueuse des femmes...
+Dialogue: 0,0:07:49.48,0:07:52.52,Default,,0,0,0,,Vous voulez le voir ?\NC’est plutôt intéressant...
+Dialogue: 0,0:07:54.24,0:07:56.04,Default,,0,0,0,,Non... Ça ira, merci...
+Dialogue: 0,0:07:57.44,0:07:58.92,Default,,0,0,0,,Bon, sur ce...
+Dialogue: 0,0:07:59.20,0:08:01.36,Default,,0,0,0,,J’ai des courses à faire...
+Dialogue: 0,0:08:01.76,0:08:02.64,Default,,0,0,0,,Excusez-moi !
+Dialogue: 0,0:08:03.48,0:08:05.64,Default,,0,0,0,,Vous pourriez venir dans ma chambre,
+Dialogue: 0,0:08:05.84,0:08:08.88,Default,,0,0,0,,la 504, après lui avoir donné\Nce qu’elle voulait ?
+Dialogue: 0,0:08:09.28,0:08:12.08,Default,,0,0,0,,J’aimerais vous dire\Nquelque chose à son sujet...
+Dialogue: 0,0:08:12.24,0:08:15.32,Default,,0,0,0,,D’accord !\NÀ tout de suite, alors.
+Dialogue: 0,0:08:27.04,0:08:28.32,Default,,0,0,0,,Dis, Conan !
+Dialogue: 0,0:08:29.04,0:08:31.04,Default,,0,0,0,,Qu’est-ce que tu regardes,\Ncomme ça ?
+Dialogue: 0,0:08:31.20,0:08:33.12,Default,,0,0,0,,Le blog de Kyôna Shôno.
+Dialogue: 0,0:08:33.76,0:08:36.12,Default,,0,0,0,,C’est vrai qu’elle en parlait.
+Dialogue: 0,0:08:36.28,0:08:40.12,Default,,0,0,0,,Elle disait que le secret\Nde Saya Kitami s’y trouvait.
+Dialogue: 0,0:08:40.48,0:08:44.12,Default,,0,0,0,,Ouais... Je le parcours\Ndepuis tout à l’heure...
+Dialogue: 0,0:08:44.60,0:08:46.40,Default,,0,0,0,,Elle joue avec un chien...
+Dialogue: 0,0:08:47.12,0:08:49.68,Default,,0,0,0,,présente ses mangas préférés...
+Dialogue: 0,0:08:50.32,0:08:51.88,Default,,0,0,0,,et fait la cuisine...
+Dialogue: 0,0:08:52.20,0:08:55.40,Default,,0,0,0,,Mais aucune trace\Nde ce fameux secret !
+Dialogue: 0,0:08:55.56,0:08:56.36,Default,,0,0,0,,Minute !
+Dialogue: 0,0:08:56.68,0:08:57.96,Default,,0,0,0,,C’est quoi, ça ?
+Dialogue: 0,0:08:58.16,0:09:01.64,Default,,0,0,0,,Je voulais une brosse à dents\Navec des poils ultra fins !
+Dialogue: 0,0:09:01.80,0:09:04.40,Default,,0,0,0,,Désolée,\Nmais ils ne vendaient que ça !
+Dialogue: 0,0:09:04.84,0:09:07.16,Default,,0,0,0,,Je vais en racheter une ailleurs !
+Dialogue: 0,0:09:07.36,0:09:10.32,Default,,0,0,0,,Plus la peine !\NLe tournage commence à 18 h...
+Dialogue: 0,0:09:10.52,0:09:12.88,Default,,0,0,0,,Tu peux venir me réveiller à 17 h ?
+Dialogue: 0,0:09:13.08,0:09:15.08,Default,,0,0,0,,Je vais faire un petit somme.
+Dialogue: 0,0:09:15.24,0:09:16.76,Default,,0,0,0,,D’accord ! Ce sera fait !
+Dialogue: 0,0:09:17.20,0:09:19.76,Default,,0,0,0,,Je te préviens !\NPeu importe qui toquera,
+Dialogue: 0,0:09:19.92,0:09:22.08,Default,,0,0,0,,je n’ouvrirai qu’à toi !
+Dialogue: 0,0:09:22.24,0:09:24.40,Default,,0,0,0,,Réveille-moi à 17h, sans faute !
+Dialogue: 0,0:09:24.56,0:09:25.56,Default,,0,0,0,,Compris ?
+Dialogue: 0,0:09:25.96,0:09:26.80,Default,,0,0,0,,Entendu !
+Dialogue: 0,0:09:34.52,0:09:39.28,Default,,0,0,0,,Voyons voir, la 504... La 504...
+Dialogue: 0,0:09:39.92,0:09:42.20,Default,,0,0,0,,La voila !\NC'est ici...
+Dialogue: 0,0:09:46.00,0:09:47.72,Default,,0,0,0,,Un cœur ?
+Dialogue: 0,0:09:50.28,0:09:51.92,Default,,0,0,0,,Ah ! Pardon !
+Dialogue: 0,0:09:52.56,0:09:54.60,Default,,0,0,0,,Ça va ? Vous n’êtes pas blessée ?
+Dialogue: 0,0:09:54.76,0:09:56.72,Default,,0,0,0,,Non ! Tout va bien !
+Dialogue: 0,0:09:57.52,0:09:59.80,Default,,0,0,0,,Il y a quelque chose\Nsur votre porte.
+Dialogue: 0,0:10:00.16,0:10:02.44,Default,,0,0,0,,D’où ça peut venir ? D’un fan ?
+Dialogue: 0,0:10:03.76,0:10:06.08,Default,,0,0,0,,De quoi souhaitiez-vous me parler ?
+Dialogue: 0,0:10:06.24,0:10:09.32,Default,,0,0,0,,Ah, oui...\NÇa n’a plus d’importance...
+Dialogue: 0,0:10:09.48,0:10:10.72,Default,,0,0,0,,Excusez-moi !
+Dialogue: 0,0:10:15.68,0:10:17.44,Default,,0,0,0,,Je m'en suis mis plein le bide !
+Dialogue: 0,0:10:17.92,0:10:19.68,Default,,0,0,0,,Vivement le dîner !
+Dialogue: 0,0:10:19.84,0:10:23.40,Default,,0,0,0,,- T'abuses !\N- Tu manges trop, Genta !
+Dialogue: 0,0:10:23.60,0:10:24.96,Default,,0,0,0,,C’est inquiétant !
+Dialogue: 0,0:10:25.28,0:10:27.16,Default,,0,0,0,,Il faut absolument aller ouvrir !
+Dialogue: 0,0:10:27.32,0:10:29.08,Default,,0,0,0,,J’aimerais bien, mais...
+Dialogue: 0,0:10:29.48,0:10:31.72,Default,,0,0,0,,Il s’est passé un truc, Sakurako ?
+Dialogue: 0,0:10:32.08,0:10:33.48,Default,,0,0,0,,Ah, Conan !
+Dialogue: 0,0:10:33.64,0:10:38.56,Default,,0,0,0,,J’ai eu beau sonner plusieurs fois,\NMlle Shôno ne sort pas de sa chambre !
+Dialogue: 0,0:10:39.64,0:10:42.24,Default,,0,0,0,,Ça craint, ça !
+Dialogue: 0,0:10:42.76,0:10:44.00,Default,,0,0,0,,Mademoiselle Kitami ?
+Dialogue: 0,0:10:44.16,0:10:46.40,Default,,0,0,0,,Moi, je n'ai rien aujourd’hui,
+Dialogue: 0,0:10:46.56,0:10:49.88,Default,,0,0,0,,mais Kyôna doit commencer\Nà tourner dans 30 minutes.
+Dialogue: 0,0:10:50.40,0:10:52.44,Default,,0,0,0,,Et vu qu’elle doit se maquiller,
+Dialogue: 0,0:10:52.80,0:10:54.88,Default,,0,0,0,,elle devrait être sur le plateau !
+Dialogue: 0,0:10:55.16,0:10:58.48,Default,,0,0,0,,Ouvrez la porte sur-le-champ\Navec votre passe-partout !
+Dialogue: 0,0:10:58.76,0:10:59.64,Default,,0,0,0,,Entendu...
+Dialogue: 0,0:11:04.04,0:11:06.12,Default,,0,0,0,,Mademoiselle ! Que se passe-t-il ?
+Dialogue: 0,0:11:06.76,0:11:08.80,Default,,0,0,0,,Le tournage va commencer !
+Dialogue: 0,0:11:11.16,0:11:12.56,Default,,0,0,0,,Mademoiselle Shôno !
+Dialogue: 0,0:11:12.72,0:11:14.28,Default,,0,0,0,,Mademoiselle Shôno !
+Dialogue: 0,0:11:14.56,0:11:16.52,Default,,0,0,0,,Vous êtes là, n'est-ce pas ?
+Dialogue: 0,0:11:17.36,0:11:18.48,Default,,0,0,0,,Mademoiselle Shô...
+Dialogue: 0,0:11:35.12,0:11:36.24,Default,,0,0,0,,Que se passe-t-il ?
+Dialogue: 0,0:11:37.00,0:11:38.84,Default,,0,0,0,,Appelez les secours et la police !
+Dialogue: 0,0:11:39.88,0:11:41.00,Default,,0,0,0,,Tout de suite !
+Dialogue: 0,0:11:44.64,0:11:45.64,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:11:45.88,0:11:46.88,Default,,0,0,0,,Conan...
+Dialogue: 0,0:11:47.28,0:11:49.56,Default,,0,0,0,,C’est une carte-clé, c’est ça ?
+Dialogue: 0,0:11:50.68,0:11:52.68,Default,,0,0,0,,Mais c’est bizarre, alors !
+Dialogue: 0,0:11:52.88,0:11:55.00,Default,,0,0,0,,Cet hôtel\Nn’a pas d’auto-verrouillage !
+Dialogue: 0,0:11:56.08,0:11:58.96,Default,,0,0,0,,Comment le coupable\Na-t-il refermé la porte ?
+Dialogue: 0,0:11:59.76,0:12:01.48,Default,,0,0,0,,{\i1}Un meurtre à huis-clos ?{\i0}
+Dialogue: 0,0:12:04.44,0:12:06.24,Default,,0,0,0,,{\i1}C’est quoi, cette tache blanche ?{\i0}
+Dialogue: 0,0:12:11.80,0:12:12.92,Default,,0,0,0,,{\i1}De la crème fraîche ?{\i0}
+Dialogue: 0,0:12:13.44,0:12:14.56,Default,,0,0,0,,{\i1}Donc...{\i0}
+Dialogue: 0,0:12:15.44,0:12:16.52,Default,,0,0,0,,Mais qui a fait ça ?
+Dialogue: 0,0:12:17.32,0:12:18.04,Default,,0,0,0,,{\i1}Non ?{\i0}
+Dialogue: 0,0:12:18.44,0:12:19.52,Default,,0,0,0,,{\i1}La coupable serait...{\i0}
+Dialogue: 0,0:12:21.24,0:12:23.52,Default,,0,0,0,,Qui a fait\Nune chose aussi horrible ?
+Dialogue: 0,0:12:28.36,0:12:29.36,Default,,0,0,0,,{\i1}Pas possible...{\i0}
+Dialogue: 0,0:12:32.64,0:12:34.28,Default,,0,0,0,,C’est bien cela...
+Dialogue: 0,0:12:35.32,0:12:39.48,Default,,0,0,0,,Elle m’avait ordonné\Nde venir la réveiller à 17 h,
+Dialogue: 0,0:12:39.80,0:12:43.68,Default,,0,0,0,,mais comme elle ne répondait pas\Nalors que je sonnais,
+Dialogue: 0,0:12:44.28,0:12:47.76,Default,,0,0,0,,j’ai demandé à la réception\Nde déverrouiller la porte.
+Dialogue: 0,0:12:48.04,0:12:50.88,Default,,0,0,0,,Et quand cet employé\Nm’a ouvert avec son passe-partout,
+Dialogue: 0,0:12:51.76,0:12:56.40,Default,,0,0,0,,j’ai découvert Mlle Shôno par terre\Navec la tête en sang.
+Dialogue: 0,0:12:56.56,0:12:57.88,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:12:58.04,0:13:01.88,Default,,0,0,0,,Mais dites-moi, vous n’étiez pas\Nfemme de ménage, à la base ?
+Dialogue: 0,0:13:02.36,0:13:05.92,Default,,0,0,0,,J’ai accepté de m’occuper d’elle
+Dialogue: 0,0:13:06.44,0:13:09.72,Default,,0,0,0,,le temps que sa manager guérisse...
+Dialogue: 0,0:13:10.16,0:13:13.72,Default,,0,0,0,,Et voila que je revis un drame\Nsur mon lieu de travail...
+Dialogue: 0,0:13:14.48,0:13:17.36,Default,,0,0,0,,Se pourrait-il que je sois maudite ?
+Dialogue: 0,0:13:17.76,0:13:19.36,Default,,0,0,0,,Mais non...
+Dialogue: 0,0:13:19.52,0:13:21.36,Default,,0,0,0,,{\i1}Pour moi, il y a pire...{\i0}
+Dialogue: 0,0:13:21.88,0:13:24.36,Default,,0,0,0,,{\i1}Conan est toujours témoin{\i0}\N{\i1}de ces affaires...{\i0}
+Dialogue: 0,0:13:24.52,0:13:28.24,Default,,0,0,0,,{\i1}C’est plutôt lui qu’on croirait{\i0}\N{\i1}être la Mort en personne...{\i0}
+Dialogue: 0,0:13:29.68,0:13:32.56,Default,,0,0,0,,Alors ? Quelle est\Nl’heure présumée du décès ?
+Dialogue: 0,0:13:32.80,0:13:35.32,Default,,0,0,0,,Entre 16 h et 16 h 30.
+Dialogue: 0,0:13:35.56,0:13:40.40,Default,,0,0,0,,On l’aurait frappée à la tête\Navec un objet contondant.
+Dialogue: 0,0:13:40.96,0:13:45.96,Default,,0,0,0,,Vous confirmez\Nque cette carte-clé se trouvait ici
+Dialogue: 0,0:13:46.16,0:13:49.04,Default,,0,0,0,,alors que l'hôtel\Nn’a pas d’auto-verrouillage ?
+Dialogue: 0,0:13:49.52,0:13:50.32,Default,,0,0,0,,Oui...
+Dialogue: 0,0:13:52.52,0:13:56.08,Default,,0,0,0,,Ça signifie donc qu'on a affaire\Nà un meurtre à huis-clos.
+Dialogue: 0,0:13:57.04,0:13:58.52,Default,,0,0,0,,Mais c'est bizarre !
+Dialogue: 0,0:13:58.68,0:14:02.88,Default,,0,0,0,,Mlle Shôno m’a demandé\Nde venir la réveiller sans faute
+Dialogue: 0,0:14:03.08,0:14:05.76,Default,,0,0,0,,en affirmant\Nqu’elle n’ouvrirait qu’à moi !
+Dialogue: 0,0:14:06.28,0:14:08.12,Default,,0,0,0,,Alors pourquoi a-t-elle ouvert ?
+Dialogue: 0,0:14:08.80,0:14:11.76,Default,,0,0,0,,Elle vous a vraiment dit ça ?
+Dialogue: 0,0:14:12.08,0:14:14.80,Default,,0,0,0,,C’est un peu étrange\Ncomme requête...
+Dialogue: 0,0:14:14.96,0:14:17.48,Default,,0,0,0,,- En effet...\N- C’est à cause de ce harceleur.
+Dialogue: 0,0:14:19.08,0:14:22.00,Default,,0,0,0,,Quelqu’un se faisant passer\Npour un membre du staff
+Dialogue: 0,0:14:22.16,0:14:24.60,Default,,0,0,0,,a déjà failli\Nl’agresser dans un hôtel.
+Dialogue: 0,0:14:24.76,0:14:28.28,Default,,0,0,0,,Depuis, connaissance ou pas,\Nplus personne n’entre
+Dialogue: 0,0:14:28.48,0:14:31.92,Default,,0,0,0,,dans sa chambre\Nsans y être invité au préalable.
+Dialogue: 0,0:14:32.24,0:14:35.84,Default,,0,0,0,,Ah, oui, j’avais lu ça\Ndans un hebdomadaire, moi aussi !
+Dialogue: 0,0:14:36.08,0:14:38.68,Default,,0,0,0,,C’est pas du gâteau,\Nla vie de vedette...
+Dialogue: 0,0:14:39.08,0:14:41.96,Default,,0,0,0,,À ce sujet,\Nvous êtes connue, vous aussi...
+Dialogue: 0,0:14:42.12,0:14:46.92,Default,,0,0,0,,C’est Saya Kitami, elle devait tourner\Ndans une série avec Mlle Shôno.
+Dialogue: 0,0:14:47.20,0:14:51.68,Default,,0,0,0,,Elle était prévue dans cet hôtel\Ndans lequel elle aussi séjourne.
+Dialogue: 0,0:14:51.84,0:14:55.44,Default,,0,0,0,,J’ai entendu à la réception\Nque Kyôna restait enfermée.
+Dialogue: 0,0:14:55.76,0:14:58.68,Default,,0,0,0,,Comme ça m’inquiétait,\Nj’ai suivi Sakurako...
+Dialogue: 0,0:14:59.36,0:15:02.68,Default,,0,0,0,,mais je n’imaginais pas\Nqu’elle avait subi un tel sort !
+Dialogue: 0,0:15:04.84,0:15:08.76,Default,,0,0,0,,Nous allons examiner\Ncet endroit plus en détails.
+Dialogue: 0,0:15:08.92,0:15:12.48,Default,,0,0,0,,Mademoiselle Kitami, Sakurako,\Net Conan, en tant que témoins,
+Dialogue: 0,0:15:12.64,0:15:15.24,Default,,0,0,0,,vous attendrez\Ndans la chambre de Mlle Kitami.
+Dialogue: 0,0:15:15.56,0:15:16.08,Default,,0,0,0,,Bien.
+Dialogue: 0,0:15:16.68,0:15:18.12,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:15:23.84,0:15:25.84,Default,,0,0,0,,Saya ! C’est la vérité ?
+Dialogue: 0,0:15:26.44,0:15:28.84,Default,,0,0,0,,Kyôna a été tuée dans sa chambre ?
+Dialogue: 0,0:15:29.00,0:15:32.72,Default,,0,0,0,,Oui... La police\Ns’y trouve actuellement...
+Dialogue: 0,0:15:33.12,0:15:37.04,Default,,0,0,0,,- C'est un cauchemar !\N- Et le tournage d'aujourd'hui, alors ?
+Dialogue: 0,0:15:37.20,0:15:41.20,Default,,0,0,0,,Abruti ! C’est carrément\Nle feuilleton qui est annulé !
+Dialogue: 0,0:15:41.36,0:15:44.76,Default,,0,0,0,,Vous pourrez dire à ma maquilleuse\Nde rentrer chez elle ?
+Dialogue: 0,0:15:45.20,0:15:48.44,Default,,0,0,0,,Quoi ?\NVotre maquilleuse était là, Saya ?
+Dialogue: 0,0:15:49.88,0:15:51.32,Default,,0,0,0,,Évidemment !
+Dialogue: 0,0:15:51.48,0:15:53.16,Default,,0,0,0,,Vu que la grande scène du jour,
+Dialogue: 0,0:15:53.32,0:15:57.16,Default,,0,0,0,,c’était les retrouvailles\Nde Kyôna et Saya dans cet hôtel !
+Dialogue: 0,0:15:58.48,0:16:01.52,Default,,0,0,0,,Pourquoi nous avoir affirmé\Nle contraire, Saya ?
+Dialogue: 0,0:16:01.68,0:16:02.72,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:16:03.08,0:16:07.08,Default,,0,0,0,,Vous savez bien ! Vous avez dit\Nque vous ne tourniez pas aujourd’hui !
+Dialogue: 0,0:16:08.64,0:16:13.64,Default,,0,0,0,,Comme si vous saviez que le tournage\Ndu jour serait annulé...
+Dialogue: 0,0:16:19.16,0:16:21.36,Default,,0,0,0,,Je m’étais trompée, en fait !
+Dialogue: 0,0:16:21.68,0:16:25.72,Default,,0,0,0,,Ah, c’était une erreur ?\NJe vois, ça arrive !
+Dialogue: 0,0:16:30.20,0:16:32.80,Default,,0,0,0,,{\i1}J’avais vu juste.{\i0}\N{\i1}C’est elle, la coupable.{\i0}
+Dialogue: 0,0:16:33.60,0:16:36.20,Default,,0,0,0,,{\i1}Le problème,{\i0}\N{\i1}c’est cette carte-clé...{\i0}
+Dialogue: 0,0:16:36.36,0:16:38.88,Default,,0,0,0,,{\i1}Avec, on peut fermer de l’extérieur,{\i0}
+Dialogue: 0,0:16:39.04,0:16:42.40,Default,,0,0,0,,{\i1}et la faire glisser sous la porte...{\i0}
+Dialogue: 0,0:16:43.04,0:16:44.96,Default,,0,0,0,,{\i1}Mais même en y allant fort,{\i0}
+Dialogue: 0,0:16:45.20,0:16:47.52,Default,,0,0,0,,{\i1}elle n’atteindra jamais{\i0}\N{\i1}le bout de la pièce.{\i0}
+Dialogue: 0,0:16:48.28,0:16:51.40,Default,,0,0,0,,{\i1}Elle l’aurait déplacée{\i0}\N{\i1}avec ce jouet ? Mais comment ?{\i0}
+Dialogue: 0,0:16:52.44,0:16:56.92,Default,,0,0,0,,{\i1}Et d’ailleurs, comment est-elle{\i0}\N{\i1}entrée dans la chambre de Kyôna,{\i0}
+Dialogue: 0,0:16:57.08,0:16:58.92,Default,,0,0,0,,{\i1}qui n’attendait que Sakurako ?{\i0}
+Dialogue: 0,0:16:59.72,0:17:01.88,Default,,0,0,0,,{\i1}Elles étaient à couteaux tirés.{\i0}
+Dialogue: 0,0:17:02.04,0:17:04.60,Default,,0,0,0,,{\i1}Elle ne l’aurait pas laissée entrer.{\i0}
+Dialogue: 0,0:17:05.36,0:17:09.80,Default,,0,0,0,,{\i1}Une chose est sûre, il manque{\i0}\N{\i1}encore des pièces au puzzle...{\i0}
+Dialogue: 0,0:17:13.20,0:17:13.80,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:17:14.52,0:17:17.24,Default,,0,0,0,,C’est pile en dessous\Nde la chambre de Kyôna ?
+Dialogue: 0,0:17:18.32,0:17:22.16,Default,,0,0,0,,Vu qu’elle, elle avait la 604.
+Dialogue: 0,0:17:22.32,0:17:24.36,Default,,0,0,0,,Ah oui... On dirait bien...
+Dialogue: 0,0:17:28.52,0:17:31.96,Default,,0,0,0,,Eh ben, même l’agencement\Nest quasi pareil !
+Dialogue: 0,0:17:32.16,0:17:33.16,Default,,0,0,0,,Oui...
+Dialogue: 0,0:17:33.32,0:17:36.84,Default,,0,0,0,,Au fait, c’était quoi,\Nce truc scotché sur la porte ?
+Dialogue: 0,0:17:37.92,0:17:39.92,Default,,0,0,0,,Un mauvais tour d’un fan, je crois.
+Dialogue: 0,0:17:40.44,0:17:41.96,Default,,0,0,0,,De quoi vous parlez ?
+Dialogue: 0,0:17:42.64,0:17:47.00,Default,,0,0,0,,D’une enveloppe bizarre.\NElle était collée sur sa porte.
+Dialogue: 0,0:17:47.16,0:17:48.64,Default,,0,0,0,,À quoi elle ressemblait ?
+Dialogue: 0,0:17:49.12,0:17:52.00,Default,,0,0,0,,Il y avait un gros cœur noir dessus.
+Dialogue: 0,0:17:52.20,0:17:56.00,Default,,0,0,0,,Elle devait être scotchée\Njuste en dessous du judas.
+Dialogue: 0,0:17:57.68,0:17:59.76,Default,,0,0,0,,Vous voulez boire quelque chose ?
+Dialogue: 0,0:17:59.92,0:18:02.28,Default,,0,0,0,,Si vous n’êtes pas trop exigeants...
+Dialogue: 0,0:18:02.52,0:18:04.60,Default,,0,0,0,,Une café glacé, s’il vous plaît !
+Dialogue: 0,0:18:04.76,0:18:06.60,Default,,0,0,0,,Et un thé pour moi, alors.
+Dialogue: 0,0:18:06.76,0:18:07.76,Default,,0,0,0,,OK !
+Dialogue: 0,0:18:10.88,0:18:13.16,Default,,0,0,0,,C’est tout de même incroyable.
+Dialogue: 0,0:18:13.84,0:18:17.72,Default,,0,0,0,,Être logée dans une chambre\Naussi immense le temps d'un tournage...
+Dialogue: 0,0:18:18.08,0:18:21.28,Default,,0,0,0,,Ce feuilleton\Nfait aussi de la pub pour l'hôtel,
+Dialogue: 0,0:18:21.60,0:18:25.52,Default,,0,0,0,,ils ont donc préparé ces chambres\Nspécialement pour les 2 héroïnes.
+Dialogue: 0,0:18:26.12,0:18:28.92,Default,,0,0,0,,Mais maintenant\Nque le feuilleton est tombé à l’eau,
+Dialogue: 0,0:18:29.08,0:18:32.44,Default,,0,0,0,,je devrai sûrement\Nla quitter dès demain...
+Dialogue: 0,0:18:34.12,0:18:35.52,Default,,0,0,0,,C'est sûr...
+Dialogue: 0,0:18:36.48,0:18:39.32,Default,,0,0,0,,Tu regardes quoi\Ndepuis tout à l’heure ?
+Dialogue: 0,0:18:39.48,0:18:40.92,Default,,0,0,0,,Le blog de Saya !
+Dialogue: 0,0:18:42.48,0:18:46.68,Default,,0,0,0,,Je me disais qu’il n’avait vraiment\Nrien à voir avec celui de Kyôna.
+Dialogue: 0,0:18:46.84,0:18:47.80,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:18:48.48,0:18:52.96,Default,,0,0,0,,Ben oui, Kyôna apparaissait\Nsur toutes les photos de son blog,
+Dialogue: 0,0:18:53.40,0:18:56.88,Default,,0,0,0,,alors que sur le vôtre,\Non ne vous voit presque pas.
+Dialogue: 0,0:18:57.04,0:19:00.00,Default,,0,0,0,,Ou alors,\Nc’est vraiment en tout petit...
+Dialogue: 0,0:19:00.48,0:19:04.60,Default,,0,0,0,,Contrairement à Kyôna,\Nj'aime pas trop me montrer en photo.
+Dialogue: 0,0:19:05.20,0:19:08.36,Default,,0,0,0,,Si on veut me voir,\Nqu’on regarde ce dans quoi je joue...
+Dialogue: 0,0:19:12.16,0:19:14.60,Default,,0,0,0,,Au fait, il est passé où ?
+Dialogue: 0,0:19:15.04,0:19:15.76,Default,,0,0,0,,De quoi ?
+Dialogue: 0,0:19:16.20,0:19:17.64,Default,,0,0,0,,Votre Petit Falcon !
+Dialogue: 0,0:19:17.84,0:19:20.76,Default,,0,0,0,,Celui que vous faisiez voler\Nau buffet !
+Dialogue: 0,0:19:21.16,0:19:23.56,Default,,0,0,0,,Ah, ça !
+Dialogue: 0,0:19:23.76,0:19:26.68,Default,,0,0,0,,Comme il ne marchait pas bien,\Nje l’ai jeté !
+Dialogue: 0,0:19:26.84,0:19:29.48,Default,,0,0,0,,Ah bon ? C'est dommage !
+Dialogue: 0,0:19:29.64,0:19:31.44,Default,,0,0,0,,On pourra pas faire la course !
+Dialogue: 0,0:19:31.88,0:19:33.60,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:19:35.76,0:19:36.76,Default,,0,0,0,,Ah, les voila !
+Dialogue: 0,0:19:40.60,0:19:43.44,Default,,0,0,0,,C’est mes amis !\NIls peuvent entrer ?
+Dialogue: 0,0:19:43.60,0:19:44.96,Default,,0,0,0,,Excusez le dérangement !
+Dialogue: 0,0:19:45.44,0:19:48.16,Default,,0,0,0,,Tiens.\NJe t’ai acheté ton Petit Falcon.
+Dialogue: 0,0:19:48.32,0:19:49.60,Default,,0,0,0,,Ah, merci !
+Dialogue: 0,0:19:49.76,0:19:51.96,Default,,0,0,0,,C’est trop dur à piloter !
+Dialogue: 0,0:19:52.40,0:19:54.24,Default,,0,0,0,,Ça vole moins bien que prévu !
+Dialogue: 0,0:19:54.40,0:19:56.64,Default,,0,0,0,,Il faut vraiment\Navoir la technique !
+Dialogue: 0,0:19:56.80,0:19:57.84,Default,,0,0,0,,Voyons voir ça...
+Dialogue: 0,0:20:07.72,0:20:09.36,Default,,0,0,0,,Ouah, t'es fort !
+Dialogue: 0,0:20:09.52,0:20:11.92,Default,,0,0,0,,Ben quoi ? C’est plutôt fastoche !
+Dialogue: 0,0:20:14.36,0:20:16.88,Default,,0,0,0,,Mince !\NIl s’est coincé dans la clim’ !
+Dialogue: 0,0:20:17.40,0:20:20.16,Default,,0,0,0,,Euh... Il n’y aurait pas\Nune tige quelque part ?
+Dialogue: 0,0:20:27.00,0:20:28.92,Default,,0,0,0,,- Tiens.\N- Merci !
+Dialogue: 0,0:20:29.44,0:20:32.84,Default,,0,0,0,,Dans cette chambre,\Ntu risques encore de le coincer.
+Dialogue: 0,0:20:33.00,0:20:35.28,Default,,0,0,0,,Choisis un endroit plus spacieux.
+Dialogue: 0,0:20:35.44,0:20:36.40,Default,,0,0,0,,Tu as raison.
+Dialogue: 0,0:20:38.60,0:20:41.16,Default,,0,0,0,,Bon ! On va jouer dehors !
+Dialogue: 0,0:20:41.32,0:20:43.60,Default,,0,0,0,,Vous pourrez prévenir la police ?
+Dialogue: 0,0:20:43.84,0:20:44.76,Default,,0,0,0,,Minute !
+Dialogue: 0,0:20:49.04,0:20:50.60,Default,,0,0,0,,Alors ?
+Dialogue: 0,0:20:50.76,0:20:53.16,Default,,0,0,0,,Tu as compris\Nl'astuce du huis-clos ?
+Dialogue: 0,0:20:53.56,0:20:55.28,Default,,0,0,0,,Non, pas encore...
+Dialogue: 0,0:20:55.76,0:20:59.08,Default,,0,0,0,,Mais j’ai la méthode d’intrusion\Net l’arme du crime.
+Dialogue: 0,0:21:00.88,0:21:04.20,Default,,0,0,0,,C’est vraiment\Ncette vedette, la coupable ?
+Dialogue: 0,0:21:04.36,0:21:06.36,Default,,0,0,0,,Oui. Aucun doute possible.
+Dialogue: 0,0:21:06.60,0:21:07.60,Default,,0,0,0,,C'est vrai ?
+Dialogue: 0,0:21:07.76,0:21:10.28,Default,,0,0,0,,Elle a l’air gentille, pourtant !
+Dialogue: 0,0:21:11.04,0:21:14.04,Default,,0,0,0,,L’apparence et la nature\Nd’une femme, c’est différent.
+Dialogue: 0,0:21:14.28,0:21:19.20,Default,,0,0,0,,Même si celle qui a été tuée\Nsemblait acerbe, violente et rustre,
+Dialogue: 0,0:21:19.56,0:21:22.00,Default,,0,0,0,,son blog avait le don de surprendre
+Dialogue: 0,0:21:22.16,0:21:24.24,Default,,0,0,0,,par son côté délicat\Net consciencieux.
+Dialogue: 0,0:21:25.36,0:21:27.52,Default,,0,0,0,,Qu'est-ce qui te fait dire ça ?
+Dialogue: 0,0:21:28.04,0:21:31.28,Default,,0,0,0,,Ses vernis à ongle\Nétaient alignés par numéro.
+Dialogue: 0,0:21:31.68,0:21:35.40,Default,,0,0,0,,Et avec cette marque,\Nil faut les retourner pour les voir.
+Dialogue: 0,0:21:37.08,0:21:39.76,Default,,0,0,0,,{\i1}Minute ! Et cette photo, alors !{\i0}
+Dialogue: 0,0:21:43.08,0:21:46.92,Default,,0,0,0,,{\i1}Je vois... C’était donc ça,{\i0}\N{\i1}le secret dont elle parlait...{\i0}
+Dialogue: 0,0:21:47.64,0:21:51.12,Default,,0,0,0,,{\i1}Mais est-ce que c’est une raison{\i0}\N{\i1}pour tuer quelqu’un ?{\i0}
+Dialogue: 0,0:21:51.68,0:21:52.68,Default,,0,0,0,,{\i1}Attends...{\i0}
+Dialogue: 0,0:21:54.00,0:21:55.00,Default,,0,0,0,,{\i1}Un instant...{\i0}
+Dialogue: 0,0:21:55.96,0:21:58.36,Default,,0,0,0,,{\i1}Si on prend le sens original...{\i0}
+Dialogue: 0,0:21:59.40,0:22:02.32,Default,,0,0,0,,{\i1}Mais oui ! J'ai compris !{\i0}
+Dialogue: 0,0:22:03.80,0:22:08.32,Default,,0,0,0,,{\i1}Je sais pourquoi elle a été{\i0}\N{\i1}obligée de tuer Kyôna Shôno !{\i0}
+Dialogue: 0,0:22:21.96,0:22:24.20,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:24.56,0:22:26.80,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

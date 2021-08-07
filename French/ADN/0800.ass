@@ -1,0 +1,363 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.48,0:00:02.65,Default,,0,0,0,,Un instant,\Nmonsieur le commissaire...
+Dialogue: 0,0:00:02.88,0:00:04.88,Default,,0,0,0,,Je ne peux pas être d'accord !
+Dialogue: 0,0:00:05.49,0:00:06.65,Default,,0,0,0,,Mme Tanaka.
+Dialogue: 0,0:00:06.81,0:00:08.76,Default,,0,0,0,,Vous vous rendez compte ?
+Dialogue: 0,0:00:08.93,0:00:11.48,Default,,0,0,0,,Le ravisseur a tout de même menacé
+Dialogue: 0,0:00:11.92,0:00:16.01,ST_HAUT,,0,0,0,,de tuer la petite\Nsi la police était mise au courant !
+Dialogue: 0,0:00:18.40,0:00:19.80,Default,,0,0,0,,Que lui fera-t-il
+Dialogue: 0,0:00:19.97,0:00:22.73,Default,,0,0,0,,s'il apprend qu'il y a\Ndes émetteurs "G.P..." truc
+Dialogue: 0,0:00:23.60,0:00:26.68,ST_HAUT,,0,0,0,,dans le sac et dans la voiture ?
+Dialogue: 0,0:00:27.36,0:00:29.45,Default,,0,0,0,,Vous ne pensez pas comme moi,\Nmadame ?
+Dialogue: 0,0:00:29.60,0:00:31.16,Default,,0,0,0,,Si, mais...
+Dialogue: 0,0:00:31.45,0:00:35.00,Default,,0,0,0,,Mme Tanaka.\NJe comprends votre réaction.
+Dialogue: 0,0:00:36.05,0:00:38.24,Default,,0,0,0,,Nous voulons tout autant que vous
+Dialogue: 0,0:00:38.40,0:00:41.40,Default,,0,0,0,,retrouver la petite Reina\Nsaine et sauve.
+Dialogue: 0,0:00:42.08,0:00:44.85,Default,,0,0,0,,Votre aide nous fera avancer\Nvers la solution.
+Dialogue: 0,0:00:45.01,0:00:48.36,Default,,0,0,0,,Suzuko,\Nfaites ce que vous dit le commissaire.
+Dialogue: 0,0:00:49.77,0:00:50.88,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:00:51.53,0:00:55.45,ST_HAUT,,0,0,0,,Surtout, ne donnez le fric à ce type\Nqu'en échange de Reina !
+Dialogue: 0,0:00:55.68,0:00:57.69,ST_HAUT,,0,0,0,,S'il dit qu'il la libérera après,
+Dialogue: 0,0:00:57.85,0:00:59.81,ST_HAUT,,0,0,0,,ne lui filez pas un kopeck !
+Dialogue: 0,0:01:00.24,0:01:01.44,Default,,0,0,0,,Vous êtes sérieux ?
+Dialogue: 0,0:01:01.84,0:01:05.00,Default,,0,0,0,,Qui sait ce qu'il ferait à Reina,\Nsi je refusais ?
+Dialogue: 0,0:01:05.16,0:01:07.53,Default,,0,0,0,,Je ne vous demande pas de refuser.
+Dialogue: 0,0:01:07.68,0:01:09.57,Default,,0,0,0,,Remettez le sac sans rien dire.
+Dialogue: 0,0:01:09.88,0:01:11.21,Default,,0,0,0,,Dis donc, commissaire !
+Dialogue: 0,0:01:11.76,0:01:14.84,Default,,0,0,0,,C'est facile à dire,\Nquand c'est pas son pognon !
+Dialogue: 0,0:01:15.00,0:01:17.20,Default,,0,0,0,,On parle de 100 millions, là !
+Dialogue: 0,0:01:17.36,0:01:21.17,Default,,0,0,0,,On fait quoi s'il prend l'argent\Nsans relâcher ma fille, hein ?
+Dialogue: 0,0:01:21.64,0:01:24.21,Default,,0,0,0,,Mais ce ravisseur\Nest aussi un être humain.
+Dialogue: 0,0:01:24.36,0:01:27.17,Default,,0,0,0,,En voyant ma bonne volonté,\Nil la libérera !
+Dialogue: 0,0:01:29.56,0:01:32.52,Default,,0,0,0,,Je me demande\Ns'il est bien raisonnable
+Dialogue: 0,0:01:32.68,0:01:35.48,Default,,0,0,0,,d'envoyer la gouvernante\Nlivrer la rançon.
+Dialogue: 0,0:01:36.04,0:01:38.17,Default,,0,0,0,,Je crains que le malfaiteur
+Dialogue: 0,0:01:38.32,0:01:41.32,Default,,0,0,0,,lui fasse faire tout ce qu'il veut\Navant de la jeter.
+Dialogue: 0,0:01:44.08,0:01:45.25,Default,,0,0,0,,Eh bien, j'y vais.
+Dialogue: 0,0:01:45.80,0:01:47.00,Default,,0,0,0,,On compte sur vous !
+Dialogue: 0,0:01:48.08,0:01:48.77,Default,,0,0,0,,Madame !
+Dialogue: 0,0:01:49.88,0:01:51.68,Default,,0,0,0,,Vous avez un truc\Nsur la manche.
+Dialogue: 0,0:01:52.56,0:01:53.16,Default,,0,0,0,,Merci.
+Dialogue: 0,0:02:01.52,0:02:03.16,Default,,0,0,0,,{\i1}Amour et enquêtes géniales,{\i0}
+Dialogue: 0,0:02:03.32,0:02:05.08,Default,,0,0,0,,{\i1}les fondamentaux demeurent !{\i0}
+Dialogue: 0,0:02:05.48,0:02:07.12,Default,,0,0,0,,{\i1}La rançon de l'otage échoue{\i0}
+Dialogue: 0,0:02:07.28,0:02:09.08,Default,,0,0,0,,{\i1}dans un endroit inattendu.{\i0}
+Dialogue: 0,0:02:09.48,0:02:12.56,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:12.84,0:02:15.04,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:35.20,0:02:38.84,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:43.64,0:02:47.16,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:02:47.92,0:02:51.16,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:57.12,0:02:59.64,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:03:02.72,0:03:06.64,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Nazo"
+Dialogue: 0,0:03:12.72,0:03:14.76,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:03:16.64,0:03:18.88,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:29.32,0:03:32.08,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:03:33.12,0:03:35.40,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:36.60,0:03:38.88,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:45.76,0:03:48.04,Default,,0,0,0,,{\i1}"Cent millions de yens à rattraper" !{\i0}
+Dialogue: 0,0:03:54.96,0:03:58.72,ST_HAUT,,0,0,0,,{\i1}Votre fille Reina est avec moi.{\i0}
+Dialogue: 0,0:03:59.24,0:04:03.08,Default,,0,0,0,,{\i1}Si vous voulez la récupérer vivante,{\i0}\N{\i1}que Mme Suzuko Tanaka{\i0}
+Dialogue: 0,0:04:03.24,0:04:06.20,Default,,0,0,0,,{\i1}vienne seule dans 2 heures,{\i0}\N{\i1}c'est-à-dire à 10 h,{\i0}
+Dialogue: 0,0:04:06.36,0:04:08.04,Default,,0,0,0,,{\i1}au parc central de Beika{\i0}
+Dialogue: 0,0:04:08.20,0:04:10.44,Default,,0,0,0,,{\i1}avec 100 millions de yens.{\i0}
+Dialogue: 0,0:04:11.12,0:04:14.96,Default,,0,0,0,,{\i1}Si vous prévenez la police,{\i0}\N{\i1}je tuerai votre fille.{\i0}
+Dialogue: 0,0:04:16.32,0:04:17.96,Default,,0,0,0,,L'auto avance normalement.
+Dialogue: 0,0:04:18.48,0:04:20.36,Default,,0,0,0,,Elle arrive dans 5 minutes.
+Dialogue: 0,0:04:21.12,0:04:22.12,Default,,0,0,0,,Bien reçu.
+Dialogue: 0,0:04:22.56,0:04:26.12,Default,,0,0,0,,Pour l'instant,\Npas d'individu au comportement louche.
+Dialogue: 0,0:04:26.60,0:04:27.60,Default,,0,0,0,,{\i1}Très bien,{\i0}
+Dialogue: 0,0:04:27.76,0:04:30.08,Default,,0,0,0,,{\i1}je répète les consignes{\i0}\N{\i1}à tout le monde...{\i0}
+Dialogue: 0,0:04:31.44,0:04:34.44,Default,,0,0,0,,Si le ravisseur se présente\Navec l'otage,
+Dialogue: 0,0:04:34.60,0:04:37.92,Default,,0,0,0,,capturez-le et libérez l'enfant.
+Dialogue: 0,0:04:38.08,0:04:41.80,Default,,0,0,0,,S'il vient tout seul,\Nsuivez-le à distance,
+Dialogue: 0,0:04:41.96,0:04:43.12,Default,,0,0,0,,sans intervenir.
+Dialogue: 0,0:04:43.64,0:04:45.20,Default,,0,0,0,,Sans intervenir ?
+Dialogue: 0,0:04:45.36,0:04:47.88,Default,,0,0,0,,Et mes 100 millions, commissaire ?
+Dialogue: 0,0:04:48.04,0:04:50.16,Default,,0,0,0,,Pas de panique, M. Saeki.
+Dialogue: 0,0:04:51.32,0:04:52.96,Default,,0,0,0,,Chacun son métier...
+Dialogue: 0,0:04:53.12,0:04:55.52,Default,,0,0,0,,Nous avons pris\Nles bonnes dispositions.
+Dialogue: 0,0:04:55.68,0:04:57.40,Default,,0,0,0,,Faites-nous confiance.
+Dialogue: 0,0:04:58.08,0:05:02.36,Default,,0,0,0,,Nous avons mis un émetteur\Ndans le sac contenant les 100 millions,
+Dialogue: 0,0:05:02.72,0:05:05.44,Default,,0,0,0,,un autre dans la voiture\Net un troisième
+Dialogue: 0,0:05:05.60,0:05:09.04,Default,,0,0,0,,sur la broche que Suzuko\Nporte à la poitrine.
+Dialogue: 0,0:05:09.28,0:05:12.76,Default,,0,0,0,,Alors, quoi que puisse faire\Nle malfaiteur...
+Dialogue: 0,0:05:13.76,0:05:15.28,Default,,0,0,0,,{\i1}Allô ? Oui, c'est moi.{\i0}
+Dialogue: 0,0:05:15.92,0:05:18.48,Default,,0,0,0,,{\i1}Oui, je viens d'arriver au parc.{\i0}
+Dialogue: 0,0:05:19.36,0:05:22.68,ST_HAUT,,0,0,0,,{\i1}J'ai l'argent avec moi.{\i0}\N{\i1}Reina va bien ?{\i0}
+Dialogue: 0,0:05:23.72,0:05:24.68,Default,,0,0,0,,{\i1}Hein ?{\i0}
+Dialogue: 0,0:05:24.84,0:05:28.20,Default,,0,0,0,,{\i1}Le nom et la date d'anniversaire{\i0}\N{\i1}de sa prof de danse ?{\i0}
+Dialogue: 0,0:05:28.44,0:05:32.12,Default,,0,0,0,,Pourquoi le kidnappeur\Npeut-il bien demander ça ?
+Dialogue: 0,0:05:33.08,0:05:36.52,Default,,0,0,0,,C'est pour vérifier qu'il s'agit bien\Nde la vraie Suzuko.
+Dialogue: 0,0:05:36.68,0:05:39.60,Default,,0,0,0,,{\i1}La prof de Reina{\i0}\N{\i1}s'appelle Miyuki Ishikawa...{\i0}
+Dialogue: 0,0:05:40.44,0:05:41.96,Default,,0,0,0,,{\i1}Et j'ai déjà entendu dire{\i0}
+Dialogue: 0,0:05:42.36,0:05:45.16,Default,,0,0,0,,{\i1}qu'elle était née{\i0}\N{\i1}le jour de la Saint-Valentin.{\i0}
+Dialogue: 0,0:05:46.92,0:05:48.48,Default,,0,0,0,,Le bac à sable ?
+Dialogue: 0,0:05:49.24,0:05:53.12,Default,,0,0,0,,D'accord. Je dois creuser\Ndans le coin ouest, dites-vous ?
+Dialogue: 0,0:05:53.96,0:05:55.04,Default,,0,0,0,,Dans le bac à sable ?
+Dialogue: 0,0:06:10.72,0:06:11.72,Default,,0,0,0,,Ça y est,
+Dialogue: 0,0:06:12.36,0:06:13.36,Default,,0,0,0,,je l'ai trouvé !
+Dialogue: 0,0:06:16.52,0:06:18.92,Default,,0,0,0,,Oui. Il y a un plan.
+Dialogue: 0,0:06:19.84,0:06:22.64,Default,,0,0,0,,À Haido, le terrain\Nd'une usine d'autos rasée ?
+Dialogue: 0,0:06:26.32,0:06:29.20,Default,,0,0,0,,Le type a laissé un van\Navec un autre sac dedans
+Dialogue: 0,0:06:29.36,0:06:32.40,Default,,0,0,0,,sur l'ancien terrain\Nd'une usine de voitures à Haido.
+Dialogue: 0,0:06:32.76,0:06:36.16,Default,,0,0,0,,Suzuko doit y transvaser l'argent\Net continuer avec ce van.
+Dialogue: 0,0:06:36.72,0:06:40.76,Default,,0,0,0,,Le malfaiteur doit se douter\Nque la police est au courant
+Dialogue: 0,0:06:40.92,0:06:42.88,Default,,0,0,0,,et se méfier des émetteurs.
+Dialogue: 0,0:06:43.04,0:06:45.64,Default,,0,0,0,,Purée !\NIl est malin, le gaillard !
+Dialogue: 0,0:06:46.32,0:06:49.64,Default,,0,0,0,,Foncez tous à ce terrain\Net mettez des émetteurs
+Dialogue: 0,0:06:49.80,0:06:53.52,Default,,0,0,0,,dans le van et dans le sac\Nque le malfaiteur a amenés là-bas.
+Dialogue: 0,0:06:54.24,0:06:57.52,Default,,0,0,0,,Que ce soit fini à tout prix\Navant l'arrivée de Suzuko.
+Dialogue: 0,0:07:11.24,0:07:12.88,Default,,0,0,0,,Cet ancien terrain d'usine,
+Dialogue: 0,0:07:13.60,0:07:14.60,Default,,0,0,0,,c'est là ?
+Dialogue: 0,0:07:16.56,0:07:17.40,Default,,0,0,0,,Hé, mais...
+Dialogue: 0,0:07:18.36,0:07:21.36,Default,,0,0,0,,{\i1}Il est trop dangereux{\i0}\N{\i1}de s'approcher du véhicule !{\i0}
+Dialogue: 0,0:07:21.60,0:07:23.52,Default,,0,0,0,,Comment ? En quoi ?
+Dialogue: 0,0:07:24.12,0:07:25.12,Default,,0,0,0,,{\i1}Regardez !{\i0}
+Dialogue: 0,0:07:26.96,0:07:29.96,Default,,0,0,0,,{\i1}La zone autour du véhicule{\i0}\N{\i1}est totalement dégagée.{\i0}
+Dialogue: 0,0:07:30.80,0:07:33.40,Default,,0,0,0,,{\i1}Nos agents seraient{\i0}\N{\i1}tout de suite repérés !{\i0}
+Dialogue: 0,0:07:33.64,0:07:34.68,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:07:35.20,0:07:38.84,Default,,0,0,0,,Ne vous approchez pas du véhicule\Net attendez mes ordres !
+Dialogue: 0,0:07:39.40,0:07:43.52,Default,,0,0,0,,On ne va plus pouvoir compter\Nsur les émetteurs de l'auto et du sac.
+Dialogue: 0,0:07:43.84,0:07:45.08,Default,,0,0,0,,Tonton...
+Dialogue: 0,0:07:45.76,0:07:49.36,Default,,0,0,0,,Comment le malfaiteur\Nveut-il transporter la rançon ?
+Dialogue: 0,0:07:49.76,0:07:52.12,Default,,0,0,0,,C'est lourd, 100 millions de yens.
+Dialogue: 0,0:07:52.60,0:07:56.20,Default,,0,0,0,,Lourd ?\N10 kg, tout au plus.
+Dialogue: 0,0:07:56.36,0:07:59.24,Default,,0,0,0,,S'il a une voiture,\Nje vois pas le problème...
+Dialogue: 0,0:07:59.60,0:08:02.92,Default,,0,0,0,,Mais si ce malfaiteur\Nse méfie des émetteurs,
+Dialogue: 0,0:08:03.08,0:08:07.12,Default,,0,0,0,,il doit aussi se douter que la police\Na noté les numéros des billets.
+Dialogue: 0,0:08:08.40,0:08:09.88,Default,,0,0,0,,Oui, je suppose...
+Dialogue: 0,0:08:10.56,0:08:13.60,Default,,0,0,0,,Comme il y a\Ndes caméras de surveillance partout,
+Dialogue: 0,0:08:13.76,0:08:16.80,Default,,0,0,0,,il sera vite identifié\Ns'il utilise ces billets.
+Dialogue: 0,0:08:18.44,0:08:20.08,Default,,0,0,0,,{\i1}Commissaire, ici Takagi.{\i0}
+Dialogue: 0,0:08:20.72,0:08:23.40,Default,,0,0,0,,{\i1}Suzuko a mis l'argent{\i0}\N{\i1}dans l'autre sac,{\i0}
+Dialogue: 0,0:08:23.56,0:08:25.32,Default,,0,0,0,,{\i1}puis est partie avec le van.{\i0}
+Dialogue: 0,0:08:38.88,0:08:39.88,Default,,0,0,0,,Allô ?
+Dialogue: 0,0:08:40.04,0:08:43.68,Default,,0,0,0,,{\i1}Vous devez connaître{\i0}\N{\i1}la bijouterie Matsubara, à Kuîn.{\i0}
+Dialogue: 0,0:08:44.04,0:08:46.96,Default,,0,0,0,,La bijouterie Matsubara\Ndu district de Kuîn ?
+Dialogue: 0,0:08:47.28,0:08:48.56,Default,,0,0,0,,{\i1}Oui, je la connais.{\i0}
+Dialogue: 0,0:08:49.20,0:08:51.32,Default,,0,0,0,,{\i1}Achetez-y des diamants{\i0}
+Dialogue: 0,0:08:51.48,0:08:54.08,Default,,0,0,0,,{\i1}avec tout l'argent de la rançon,{\i0}
+Dialogue: 0,0:08:54.68,0:08:56.20,Default,,0,0,0,,{\i1}soit 100 millions de yens.{\i0}
+Dialogue: 0,0:08:57.12,0:09:00.08,Default,,0,0,0,,{\i1}Que j'achète pour 100 millions{\i0}\N{\i1}de diamants ?{\i0}
+Dialogue: 0,0:09:01.64,0:09:03.04,Default,,0,0,0,,Ah, d'accord...
+Dialogue: 0,0:09:03.20,0:09:05.56,Default,,0,0,0,,Il veut changer les billets\Nen diamants.
+Dialogue: 0,0:09:06.24,0:09:07.80,Default,,0,0,0,,{\i1}On peut débarquer{\i0}\N{\i1}à l'improviste{\i0}
+Dialogue: 0,0:09:08.20,0:09:10.48,Default,,0,0,0,,{\i1}et acheter pour 100 millions de ¥{\i0}\N{\i1}de diamants ?{\i0}
+Dialogue: 0,0:09:10.64,0:09:12.20,Default,,0,0,0,,{\i1}Ne vous en faites pas.{\i0}
+Dialogue: 0,0:09:12.36,0:09:15.40,Default,,0,0,0,,{\i1}10 diamants ont été commandés{\i0}
+Dialogue: 0,0:09:15.56,0:09:17.08,Default,,0,0,0,,{\i1}au nom de M. Saeki.{\i0}
+Dialogue: 0,0:09:17.56,0:09:20.96,Default,,0,0,0,,C'est quoi, ce délire ?\NJ'ai jamais demandé ça, moi !
+Dialogue: 0,0:09:21.24,0:09:23.64,Default,,0,0,0,,{\i1}Je vous rappellerai plus tard.{\i0}
+Dialogue: 0,0:09:26.88,0:09:29.28,Default,,0,0,0,,Ce ravisseur a pensé à tout...
+Dialogue: 0,0:09:29.56,0:09:32.64,Default,,0,0,0,,10 diamants,\Nça se cache dans les poches,
+Dialogue: 0,0:09:32.80,0:09:34.80,Default,,0,0,0,,et ça s'échange\Ncontre des billets
+Dialogue: 0,0:09:35.08,0:09:38.36,Default,,0,0,0,,dont la police n'aura pas\Nnoté les numéros.
+Dialogue: 0,0:09:39.16,0:09:40.64,Default,,0,0,0,,Prévenons la bijouterie
+Dialogue: 0,0:09:40.80,0:09:43.00,Default,,0,0,0,,elle ne doit pas\Nvendre les diamants.
+Dialogue: 0,0:09:43.24,0:09:45.04,Default,,0,0,0,,Certainement pas.
+Dialogue: 0,0:09:45.20,0:09:47.76,Default,,0,0,0,,Désobéir au criminel\Nserait trop risqué.
+Dialogue: 0,0:09:49.52,0:09:52.36,Default,,0,0,0,,Quel abruti, ce Matsubara !
+Dialogue: 0,0:09:52.60,0:09:55.40,Default,,0,0,0,,C'est pas comme si\Non s'était connus hier !
+Dialogue: 0,0:09:55.64,0:09:57.52,Default,,0,0,0,,Il y a 100 millions en jeu !
+Dialogue: 0,0:09:58.24,0:10:00.60,Default,,0,0,0,,Depuis le temps\Nque je suis son client...
+Dialogue: 0,0:10:00.76,0:10:03.88,Default,,0,0,0,,Il lui aurait suffi d'un mot\Npour vérifier !
+Dialogue: 0,0:10:05.20,0:10:06.12,Default,,0,0,0,,BIJOUTERIE MATSUBARA
+Dialogue: 0,0:10:06.28,0:10:08.04,Default,,0,0,0,,Faites bien attention...
+Dialogue: 0,0:10:08.64,0:10:10.76,ST_HAUT,,0,0,0,,Ils représentent une sacrée somme.
+Dialogue: 0,0:10:11.16,0:10:11.80,ST_HAUT,,0,0,0,,Bien sûr...
+Dialogue: 0,0:10:12.28,0:10:16.52,Default,,0,0,0,,Mes plus sincères amitiés\Nau président Saeki.
+Dialogue: 0,0:10:16.96,0:10:18.40,Default,,0,0,0,,Merci infiniment.
+Dialogue: 0,0:10:27.16,0:10:28.16,Default,,0,0,0,,{\i1}Allô ?{\i0}
+Dialogue: 0,0:10:28.68,0:10:30.48,Default,,0,0,0,,{\i1}Vous avez acheté les diams ?{\i0}
+Dialogue: 0,0:10:30.72,0:10:33.68,Default,,0,0,0,,{\i1}Oui. 10 diamants{\i0}\N{\i1}gros comme le bout du petit doigt.{\i0}
+Dialogue: 0,0:10:35.40,0:10:36.84,Default,,0,0,0,,{\i1}Et maintenant ?{\i0}
+Dialogue: 0,0:10:37.24,0:10:40.80,Default,,0,0,0,,{\i1}Roulez lentement{\i0}\N{\i1}en direction de la rue Sakura,{\i0}
+Dialogue: 0,0:10:41.40,0:10:44.04,Default,,0,0,0,,{\i1}et tournez à gauche au premier feu.{\i0}
+Dialogue: 0,0:10:44.36,0:10:46.84,Default,,0,0,0,,À gauche au premier feu,\Ndites-vous ?
+Dialogue: 0,0:10:47.36,0:10:48.36,Default,,0,0,0,,{\i1}Compris.{\i0}
+Dialogue: 0,0:10:50.00,0:10:51.64,Default,,0,0,0,,Qu'y a-t-il plus loin ?
+Dialogue: 0,0:10:52.24,0:10:53.56,Default,,0,0,0,,La gare centrale de Tôto.
+Dialogue: 0,0:10:54.16,0:10:58.84,Default,,0,0,0,,Une gare où convergent le métro,\Nla ligne TR et d'autres lignes de train...
+Dialogue: 0,0:10:59.60,0:11:02.24,Default,,0,0,0,,Pour s'enfuir,\Nc'est pas le choix qui manque.
+Dialogue: 0,0:11:02.40,0:11:04.48,Default,,0,0,0,,Il peut même prendre un autocar.
+Dialogue: 0,0:11:07.08,0:11:10.04,Default,,0,0,0,,Tous à la gare centrale de Tôto !
+Dialogue: 0,0:11:10.60,0:11:14.68,Default,,0,0,0,,On ne va plus pouvoir se fier\Nqu'aux informations de Suzuko.
+Dialogue: 0,0:11:18.84,0:11:21.24,Default,,0,0,0,,Je ne vais pas à la gare centrale ?
+Dialogue: 0,0:11:21.48,0:11:24.48,Default,,0,0,0,,Alors, où dois-je me rendre ?\NDites-le-moi !
+Dialogue: 0,0:11:24.84,0:11:28.92,Default,,0,0,0,,{\i1}Que se passe-t-il ?{\i0}\N{\i1}Pourquoi êtes-vous si nerveuse ?{\i0}
+Dialogue: 0,0:11:29.08,0:11:30.76,Default,,0,0,0,,Pour rien...
+Dialogue: 0,0:11:30.92,0:11:34.84,Default,,0,0,0,,Je veux juste revoir Reina\Nle plus tôt possible.
+Dialogue: 0,0:11:35.36,0:11:38.28,Default,,0,0,0,,{\i1}Vraiment ?{\i0}\N{\i1}Moi aussi, je veux la libérer{\i0}
+Dialogue: 0,0:11:38.44,0:11:41.32,Default,,0,0,0,,{\i1}aussi vite que possible.{\i0}
+Dialogue: 0,0:11:41.48,0:11:42.60,Default,,0,0,0,,{\i1}Seulement,{\i0}
+Dialogue: 0,0:11:43.00,0:11:47.12,Default,,0,0,0,,{\i1}vous avez un micro sur vous,{\i0}\N{\i1}Mme Tanaka...{\i0}
+Dialogue: 0,0:11:49.88,0:11:51.92,Default,,0,0,0,,{\i1}Je le sais très bien...{\i0}
+Dialogue: 0,0:11:52.16,0:11:55.64,Default,,0,0,0,,{\i1}Vous répétez{\i0}\N{\i1}pratiquement toutes mes phrases.{\i0}
+Dialogue: 0,0:11:56.12,0:12:00.96,Default,,0,0,0,,{\i1}Au début, je croyais que c'était{\i0}\N{\i1}pour être sûre d'avoir bien compris,{\i0}
+Dialogue: 0,0:12:01.28,0:12:03.20,Default,,0,0,0,,{\i1}mais cela semble être, en fait,{\i0}
+Dialogue: 0,0:12:03.36,0:12:07.20,Default,,0,0,0,,{\i1}pour communiquer à la police {\i0}\N{\i1}tous les détails de la situation.{\i0}
+Dialogue: 0,0:12:08.04,0:12:12.88,Default,,0,0,0,,{\i1}Mais non, voyons ! Comme convenu,{\i0}\N{\i1}nous n'avons pas alerté la police !{\i0}
+Dialogue: 0,0:12:13.96,0:12:18.44,Default,,0,0,0,,{\i1}Votre broche ne renfermerait-elle pas{\i0}\N{\i1}un micro miniature ?{\i0}
+Dialogue: 0,0:12:23.36,0:12:27.00,Default,,0,0,0,,{\i1}Je l'avais remarqué depuis le début{\i0}\N{\i1}grâce à mes jumelles.{\i0}
+Dialogue: 0,0:12:27.28,0:12:29.24,Default,,0,0,0,,{\i1}Si vous voulez récupérer Reina,{\i0}
+Dialogue: 0,0:12:29.40,0:12:31.72,Default,,0,0,0,,{\i1}jetez ce truc par la fenêtre.{\i0}
+Dialogue: 0,0:12:32.36,0:12:35.60,Default,,0,0,0,,{\i1}La police ne peut que gêner{\i0}\N{\i1}le bon déroulement{\i0}
+Dialogue: 0,0:12:35.76,0:12:37.80,Default,,0,0,0,,{\i1}de notre transaction.{\i0}
+Dialogue: 0,0:12:38.68,0:12:39.76,Default,,0,0,0,,{\i1}Compris.{\i0}
+Dialogue: 0,0:12:40.56,0:12:41.56,Default,,0,0,0,,Suzuko !
+Dialogue: 0,0:12:44.16,0:12:46.36,Default,,0,0,0,,C'est pas vrai ! Elle l'a cassé !
+Dialogue: 0,0:12:52.56,0:12:54.24,Default,,0,0,0,,Et elle ne décroche pas.
+Dialogue: 0,0:13:06.32,0:13:07.32,Default,,0,0,0,,Commissaire Megure !
+Dialogue: 0,0:13:08.52,0:13:11.00,Default,,0,0,0,,Quoi ? Vous l'avez perdue de vue ?
+Dialogue: 0,0:13:11.40,0:13:16.00,Default,,0,0,0,,Oui. Apparemment, le ravisseur\Navait amené à l'avance un vélo,
+Dialogue: 0,0:13:16.16,0:13:18.44,Default,,0,0,0,,avec lequel Suzuko file\Ndans les ruelles.
+Dialogue: 0,0:13:18.88,0:13:21.76,Default,,0,0,0,,C'est exactement\Nla situation que je craignais.
+Dialogue: 0,0:13:22.16,0:13:24.16,Default,,0,0,0,,Elle veut tellement sauver l'otage
+Dialogue: 0,0:13:24.32,0:13:27.32,Default,,0,0,0,,qu'elle a perdu\Ntoute capacité de jugement.
+Dialogue: 0,0:13:28.92,0:13:33.00,Default,,0,0,0,,Ou a-t-elle pu emporter\Nces 100 millions de yens de diamants ?
+Dialogue: 0,0:13:33.36,0:13:36.60,Default,,0,0,0,,Là où se cache le kidnappeur,\Npardi...
+Dialogue: 0,0:13:37.92,0:13:41.00,Default,,0,0,0,,Et si Suzuko était sa complice ?
+Dialogue: 0,0:13:43.44,0:13:47.28,Default,,0,0,0,,Alors, elle s'est sauvée\Navec 100 millions de yens en diamants,
+Dialogue: 0,0:13:47.44,0:13:51.00,Default,,0,0,0,,et nous roulait depuis que la gosse\Na été enlevée hier ?
+Dialogue: 0,0:13:51.16,0:13:52.68,Default,,0,0,0,,Ça paraît inimaginable...
+Dialogue: 0,0:14:22.48,0:14:23.48,Default,,0,0,0,,Madame !
+Dialogue: 0,0:14:24.60,0:14:25.88,Default,,0,0,0,,Le gamin !
+Dialogue: 0,0:14:26.40,0:14:27.68,Default,,0,0,0,,Que fais-tu ici ?
+Dialogue: 0,0:14:28.28,0:14:29.28,Default,,0,0,0,,Les diamants...
+Dialogue: 0,0:14:29.64,0:14:30.92,Default,,0,0,0,,Où sont-ils ?
+Dialogue: 0,0:14:32.60,0:14:36.48,Default,,0,0,0,,Je les ai mis dans une bouteille\Nà ruban rouge,
+Dialogue: 0,0:14:36.64,0:14:38.80,Default,,0,0,0,,que j'ai laissé filer sur l'eau.
+Dialogue: 0,0:14:39.44,0:14:41.44,Default,,0,0,0,,C'étaient les ordres du criminel ?
+Dialogue: 0,0:14:42.00,0:14:45.88,Default,,0,0,0,,Oui. En venant sur cette jetée\Nqu'il m'avait indiquée,
+Dialogue: 0,0:14:46.24,0:14:49.20,Default,,0,0,0,,j'ai trouvé une bouteille\Nornée d'un ruban rouge.
+Dialogue: 0,0:14:49.52,0:14:52.08,Default,,0,0,0,,Et là, j'ai fait\Nce qu'il m'avait dit...
+Dialogue: 0,0:14:52.64,0:14:56.20,Default,,0,0,0,,Et à part ça,\Nvous n'avez rien remarqué de spécial ?
+Dialogue: 0,0:14:57.76,0:15:00.80,Default,,0,0,0,,Ah, si ! Sur cette bouteille\Nsoigneusement lavée,
+Dialogue: 0,0:15:00.96,0:15:02.92,Default,,0,0,0,,il y avait des fourmis.
+Dialogue: 0,0:15:03.44,0:15:05.80,Default,,0,0,0,,- Des fourmis ?\N- Oui, plein.
+Dialogue: 0,0:15:08.56,0:15:12.08,Default,,0,0,0,,Madame.\NVous devriez appeler les policiers,
+Dialogue: 0,0:15:12.24,0:15:14.36,Default,,0,0,0,,ils doivent s'inquiéter pour vous.
+Dialogue: 0,0:15:15.28,0:15:16.36,Default,,0,0,0,,Oui, tu as raison.
+Dialogue: 0,0:15:24.64,0:15:25.96,Default,,0,0,0,,{\i1}Alors,{\i0}
+Dialogue: 0,0:15:27.00,0:15:28.76,Default,,0,0,0,,{\i1}c'était donc ça ?{\i0}
+Dialogue: 0,0:15:47.24,0:15:48.96,Default,,0,0,0,,Reina ! Reina !
+Dialogue: 0,0:16:04.88,0:16:06.08,Default,,0,0,0,,{\i1}Champagne !{\i0}
+Dialogue: 0,0:16:09.64,0:16:11.12,Default,,0,0,0,,Quelle allégresse...
+Dialogue: 0,0:16:14.48,0:16:16.60,Default,,0,0,0,,Vous avez quelque chose à fêter ?
+Dialogue: 0,0:16:17.60,0:16:20.44,Default,,0,0,0,,Qu'est-ce que tu fais là, petit ?
+Dialogue: 0,0:16:21.12,0:16:24.96,Default,,0,0,0,,Vous savez qu'il y a eu\Nun enlèvement, aujourd'hui ?
+Dialogue: 0,0:16:25.48,0:16:29.24,Default,,0,0,0,,Ben, je crois qu'ils en ont parlé\Nà la télé.
+Dialogue: 0,0:16:32.44,0:16:35.76,Default,,0,0,0,,Non, je pense qu'aucun media\Nne l'a mentionné.
+Dialogue: 0,0:16:41.00,0:16:43.60,Default,,0,0,0,,Dans une bouteille\Njetée à la rivière ?
+Dialogue: 0,0:16:43.76,0:16:45.28,Default,,0,0,0,,Oui, parfaitement.
+Dialogue: 0,0:16:45.92,0:16:49.20,Default,,0,0,0,,Et la petite Reina est sauvée ?
+Dialogue: 0,0:16:49.80,0:16:51.76,Default,,0,0,0,,Elle a été libérée en soirée.
+Dialogue: 0,0:16:52.28,0:16:55.36,Default,,0,0,0,,Quel soulagement !\NSi, après la perte de la rançon,
+Dialogue: 0,0:16:55.52,0:16:58.04,Default,,0,0,0,,Reina n'était même pas revenue...
+Dialogue: 0,0:16:58.20,0:16:59.92,Default,,0,0,0,,Non, vous n'y êtes pas.
+Dialogue: 0,0:17:01.88,0:17:03.08,Default,,0,0,0,,Regardez...
+Dialogue: 0,0:17:03.24,0:17:06.16,Default,,0,0,0,,J'ai la bouteille\Nqui contient les diamants.
+Dialogue: 0,0:17:07.88,0:17:09.76,Default,,0,0,0,,Et à l'intérieur,
+Dialogue: 0,0:17:11.00,0:17:13.16,Default,,0,0,0,,il y a bien 10 diamants.
+Dialogue: 0,0:17:15.12,0:17:16.84,Default,,0,0,0,,Mais c'est bizarre...
+Dialogue: 0,0:17:17.52,0:17:20.76,Default,,0,0,0,,Pourquoi le malfaiteur\Na-t-il relâché Reina
+Dialogue: 0,0:17:20.92,0:17:22.80,Default,,0,0,0,,sans avoir reçu les diamants ?
+Dialogue: 0,0:17:22.96,0:17:25.80,Default,,0,0,0,,C'est vrai, ça.\NJe me le demande bien...
+Dialogue: 0,0:17:25.96,0:17:27.96,Default,,0,0,0,,Et il y a autre chose d'étrange...
+Dialogue: 0,0:17:29.16,0:17:33.60,Default,,0,0,0,,Avec 100 millions, on ne peut pas\Nacheter 10 diamants de cette taille.
+Dialogue: 0,0:17:34.12,0:17:37.20,Default,,0,0,0,,Je parie que ce sont\Nde faux diamants.
+Dialogue: 0,0:17:37.40,0:17:38.60,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:17:38.76,0:17:41.00,Default,,0,0,0,,Alors cette gouvernante, Suzuko,
+Dialogue: 0,0:17:41.16,0:17:43.24,Default,,0,0,0,,a échangé les vrais avec des faux.
+Dialogue: 0,0:17:43.76,0:17:48.48,Default,,0,0,0,,Elle doit être complice du ravisseur.\NC'est pour ça que Reina a été libérée.
+Dialogue: 0,0:17:48.64,0:17:49.80,Default,,0,0,0,,Pas du tout.
+Dialogue: 0,0:17:50.92,0:17:54.00,Default,,0,0,0,,Si Suzuko était de mèche\Navec le malfaiteur,
+Dialogue: 0,0:17:54.24,0:17:58.36,Default,,0,0,0,,il n'y aurait eu aucun besoin\Nde se procurer ces faux.
+Dialogue: 0,0:17:58.76,0:18:03.24,Default,,0,0,0,,Il lui aurait suffit de dire\Nqu'elle avait bien remis les diamants.
+Dialogue: 0,0:18:03.80,0:18:06.08,Default,,0,0,0,,Tu n'as pas tort...
+Dialogue: 0,0:18:06.24,0:18:08.00,Default,,0,0,0,,Alors, qui ça peut être ?
+Dialogue: 0,0:18:08.16,0:18:10.28,Default,,0,0,0,,Arrêtez de jouer les innocents...
+Dialogue: 0,0:18:11.00,0:18:14.80,Default,,0,0,0,,C'est vous qui avez vendu\Nces billes de verre pour 100 millions,
+Dialogue: 0,0:18:15.68,0:18:17.68,Default,,0,0,0,,monsieur le bijoutier
+Dialogue: 0,0:18:19.40,0:18:21.36,Default,,0,0,0,,Akira Matsubara.
+Dialogue: 0,0:18:24.28,0:18:26.28,Default,,0,0,0,,Tu as perdu la tête ?
+Dialogue: 0,0:18:26.76,0:18:30.44,Default,,0,0,0,,Certes, j'ai remis à cette Suzuko\Ndes diamants valant 100...
+Dialogue: 0,0:18:30.60,0:18:35.44,Default,,0,0,0,,Deux raisons vous ont conduit\Nà choisir Suzuko pour livrer la rançon.
+Dialogue: 0,0:18:36.44,0:18:37.48,Default,,0,0,0,,Premièrement :
+Dialogue: 0,0:18:37.64,0:18:42.64,Default,,0,0,0,,son affection indéfectible\Npour la petite Reina.
+Dialogue: 0,0:18:43.56,0:18:48.12,Default,,0,0,0,,Vous saviez que, pour sauver Reina,\Nelle ferait tout ce que vous lui diriez.
+Dialogue: 0,0:18:49.04,0:18:50.84,Default,,0,0,0,,Seconde raison :
+Dialogue: 0,0:18:51.00,0:18:55.16,Default,,0,0,0,,plutôt que le richissime M. Saeki\Nou son épouse,
+Dialogue: 0,0:18:55.52,0:18:58.72,Default,,0,0,0,,qui auraient pu remarquer\Nque ces diamants étaient faux,
+Dialogue: 0,0:18:59.32,0:19:02.20,Default,,0,0,0,,vous préfériez utiliser\Nla gouvernante Suzuko
+Dialogue: 0,0:19:02.36,0:19:05.20,Default,,0,0,0,,qui, peu habituée\Nà voir de gros diamants,
+Dialogue: 0,0:19:05.36,0:19:07.96,Default,,0,0,0,,ne risquait guère\Nde deviner la tromperie.
+Dialogue: 0,0:19:08.84,0:19:11.68,Default,,0,0,0,,Après avoir vendu\Nces faux diamants,
+Dialogue: 0,0:19:11.84,0:19:13.76,Default,,0,0,0,,vous avez ordonné à Suzuko
+Dialogue: 0,0:19:14.28,0:19:17.96,Default,,0,0,0,,de les mettre dans cette bouteille\Net de les jeter à la rivière.
+Dialogue: 0,0:19:18.88,0:19:21.60,Default,,0,0,0,,Car si jamais on\Ndécouvrait qu'ils étaient faux,
+Dialogue: 0,0:19:21.88,0:19:24.24,Default,,0,0,0,,c'est vous qu'on aurait soupçonné.
+Dialogue: 0,0:19:24.64,0:19:29.20,Default,,0,0,0,,Suzuko était trop remuée\Npour s'en apercevoir,
+Dialogue: 0,0:19:29.36,0:19:32.32,Default,,0,0,0,,mais cette bouteille\Nest étrangement légère.
+Dialogue: 0,0:19:33.56,0:19:35.92,Default,,0,0,0,,Même une bouteille normale
+Dialogue: 0,0:19:36.08,0:19:38.96,Default,,0,0,0,,n'aurait sans doute pas\Nété récupérée dans l'eau
+Dialogue: 0,0:19:39.24,0:19:42.60,Default,,0,0,0,,mais, pour vous approcher\Nau plus près du risque zéro,
+Dialogue: 0,0:19:42.76,0:19:44.52,Default,,0,0,0,,vous avez utilisé celle-ci.
+Dialogue: 0,0:19:45.24,0:19:48.28,Default,,0,0,0,,Un accessoire employé\Npour les films et les séries,
+Dialogue: 0,0:19:48.64,0:19:50.96,Default,,0,0,0,,et constitué\Nde "verre en sucre".
+Dialogue: 0,0:19:51.80,0:19:55.68,Default,,0,0,0,,Que cette bouteille spéciale\Nait fondu dans l'eau
+Dialogue: 0,0:19:55.84,0:19:58.52,Default,,0,0,0,,ou se soit pulvérisée\Nen heurtant un obstacle,
+Dialogue: 0,0:19:58.96,0:20:03.32,Default,,0,0,0,,les faux diamants devaient couler\Npour toujours au fond de la rivière.
+Dialogue: 0,0:20:03.60,0:20:08.16,Default,,0,0,0,,Et ainsi, vous auriez pu dépenser\Nsans rougir les 100 millions de yens.
+Dialogue: 0,0:20:08.92,0:20:13.16,Default,,0,0,0,,Après tout, vous les aviez gagnés\Nen toute honnêteté...
+Dialogue: 0,0:20:14.68,0:20:16.08,Default,,0,0,0,,C'était un sacré plan...
+Dialogue: 0,0:20:16.36,0:20:19.68,Default,,0,0,0,,La rançon d'un otage\Nse transmet habituellement
+Dialogue: 0,0:20:19.84,0:20:22.20,Default,,0,0,0,,à la toute fin de l'opération
+Dialogue: 0,0:20:22.72,0:20:26.60,Default,,0,0,0,,mais vous, vous l'avez reçue\Nau cours même du transport,
+Dialogue: 0,0:20:26.76,0:20:29.48,Default,,0,0,0,,sous les yeux de la police.
+Dialogue: 0,0:20:30.00,0:20:32.68,Default,,0,0,0,,Tu n'as pas la moindre preuve !
+Dialogue: 0,0:20:33.12,0:20:35.40,Default,,0,0,0,,La preuve, c'est cette bouteille.
+Dialogue: 0,0:20:36.84,0:20:40.96,Default,,0,0,0,,Comme ces bouteilles en sucre\Nont un usage limité
+Dialogue: 0,0:20:41.12,0:20:42.76,Default,,0,0,0,,et se conservent mal,
+Dialogue: 0,0:20:42.92,0:20:45.20,Default,,0,0,0,,on les fabrique une par une\Nà la main.
+Dialogue: 0,0:20:45.92,0:20:49.36,Default,,0,0,0,,Alors, en cherchant où et comment\Ncelle-ci a été acquise,
+Dialogue: 0,0:20:49.52,0:20:51.96,Default,,0,0,0,,on tombera normalement\Nsur votre nom.
+Dialogue: 0,0:20:52.28,0:20:52.84,Default,,0,0,0,,Et puis,
+Dialogue: 0,0:20:53.32,0:20:57.80,Default,,0,0,0,,si vous pensiez que ces faux diamants\Nfiniraient au fond de la rivière,
+Dialogue: 0,0:20:57.96,0:20:59.48,Default,,0,0,0,,vous avez dû sans crainte
+Dialogue: 0,0:20:59.76,0:21:02.40,Default,,0,0,0,,y laisser vos empreintes digitales.
+Dialogue: 0,0:21:05.56,0:21:07.88,Default,,0,0,0,,Attends que j'explose\Ncette bouteille,
+Dialogue: 0,0:21:08.20,0:21:09.52,Default,,0,0,0,,y aura plus de preuve !
+Dialogue: 0,0:21:19.68,0:21:20.40,Default,,0,0,0,,Les voilà...
+Dialogue: 0,0:21:27.28,0:21:30.32,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:31.44,0:21:34.48,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:46.52,0:22:50.36,Default,,0,0,0,,AGENCE MÔRI - ENQUÊTES PRIVÉES
+Dialogue: 0,0:22:51.96,0:22:54.08,Default,,0,0,0,,T'as la crève, gamin ?
+Dialogue: 0,0:22:55.96,0:22:58.28,Default,,0,0,0,,J'ai comme des frissons...
+Dialogue: 0,0:22:58.44,0:23:01.20,Default,,0,0,0,,Prends du sirop,\Net couvre-toi bien...
+Dialogue: 0,0:23:01.36,0:23:02.64,Default,,0,0,0,,Entendu...
+Dialogue: 0,0:23:03.12,0:23:07.84,Default,,0,0,0,,Au fait... Ce matin, en prenant\Ntes affaires pour les mettre à laver,
+Dialogue: 0,0:23:08.00,0:23:11.60,Default,,0,0,0,,Ran a vu jaillir un petit poisson\Nde ta poche.
+Dialogue: 0,0:23:11.92,0:23:15.64,Default,,0,0,0,,Tu n'as quand même pas\Nnagé dans la rivière, j'espère...
+Dialogue: 0,0:23:15.96,0:23:17.24,Default,,0,0,0,,Mais non, ça va pas ?
+Dialogue: 0,0:23:17.40,0:23:18.84,Default,,0,0,0,,Ah, je me disais bien...
+Dialogue: 0,0:23:19.00,0:23:21.48,Default,,0,0,0,,Même avec ta petite tête\Nde gamin,
+Dialogue: 0,0:23:21.64,0:23:24.24,Default,,0,0,0,,t'aurais jamais fait ça\Npar ce froid-là...
+Dialogue: 0,0:23:26.80,0:23:29.56,Default,,0,0,0,,{\i1}Et pourtant, je l'ai fait...{\i0}

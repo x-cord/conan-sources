@@ -1,0 +1,366 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:02.58,Default,,0,0,0,,{\i1}Déçue par Chiba,{\i0}
+Dialogue: 0,0:00:03.08,0:00:05.83,Default,,0,0,0,,{\i1}la brigadière Naeko Miike\Nest allée au karaoké{\i0}
+Dialogue: 0,0:00:06.04,0:00:09.71,Default,,0,0,0,,{\i1}avec 2 collègues\Npour se distraire après le travail.{\i0}
+Dialogue: 0,0:00:10.88,0:00:12.01,Default,,0,0,0,,{\i1}Sur le chemin du retour...{\i0}
+Dialogue: 0,0:00:14.80,0:00:16.43,ST_HAUT,,0,0,0,,{\i1}Tu es sûre que ça va aller ?{\i0}
+Dialogue: 0,0:00:16.80,0:00:19.72,ST_HAUT,,0,0,0,,{\i1}- Je peux te la confier ?\N- Oui, oui ! Aucun problème !{\i0}
+Dialogue: 0,0:00:20.27,0:00:21.85,Default,,0,0,0,,{\i1}Maudit Chiba...{\i0}
+Dialogue: 0,0:00:22.73,0:00:24.35,Default,,0,0,0,,{\i1}t'es qu'un idiot !{\i0}
+Dialogue: 0,0:00:30.69,0:00:32.53,Default,,0,0,0,,{\i1}Euh... Excusez-moi.{\i0}
+Dialogue: 0,0:00:33.82,0:00:35.41,Default,,0,0,0,,{\i1}J'ai entendu{\i0}
+Dialogue: 0,0:00:35.57,0:00:39.41,Default,,0,0,0,,{\i1}une petite fille pleurer\Ndans les toilettes du parc.{\i0}
+Dialogue: 0,0:00:39.95,0:00:41.87,Default,,0,0,0,,{\i1}Vous pourriez aller jeter un œil ?{\i0}
+Dialogue: 0,0:00:42.41,0:00:44.29,Default,,0,0,0,,{\i1}Il y a quelqu'un ?{\i0}
+Dialogue: 0,0:00:50.88,0:00:52.17,Default,,0,0,0,,{\i1}Je me disais bien avoir ressenti{\i0}
+Dialogue: 0,0:00:52.46,0:00:55.01,Default,,0,0,0,,{\i1}une drôle de présence dernièrement.{\i0}
+Dialogue: 0,0:00:56.43,0:00:59.93,Default,,0,0,0,,{\i1}Je suis officier de police.\NOn dirait bien{\i0}
+Dialogue: 0,0:01:00.43,0:01:01.35,Default,,0,0,0,,{\i1}que tu as mal choisi ta cible.{\i0}
+Dialogue: 0,0:01:08.81,0:01:10.32,Default,,0,0,0,,{\i1}Au contraire...{\i0}
+Dialogue: 0,0:01:11.19,0:01:12.36,Default,,0,0,0,,{\i1}Je savais très bien{\i0}
+Dialogue: 0,0:01:12.57,0:01:13.69,Default,,0,0,0,,{\i1}à qui je m'attaquais !{\i0}
+Dialogue: 0,0:01:16.61,0:01:18.91,Default,,0,0,0,,{\i1}Près du corps\Ndu sergent Tôko Momosaki,{\i0}
+Dialogue: 0,0:01:19.07,0:01:20.95,Default,,0,0,0,,{\i1}découvert dans un parc,{\i0}
+Dialogue: 0,0:01:21.70,0:01:23.62,Default,,0,0,0,,{\i1}on a trouvé une pièce tordue.{\i0}
+Dialogue: 0,0:01:24.04,0:01:24.70,Default,,0,0,0,,{\i1}Autre piste,{\i0}
+Dialogue: 0,0:01:24.95,0:01:28.96,Default,,0,0,0,,{\i1}une marque de doigt de la victime\Nsemblant indiquer quelque chose.{\i0}
+Dialogue: 0,0:01:29.88,0:01:31.63,Default,,0,0,0,,{\i1}Quant à l'objet pointé...{\i0}
+Dialogue: 0,0:01:36.01,0:01:39.80,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:40.30,0:01:43.56,Default,,0,0,0,,{\i1}Une diction au rythme fluide\Npour un raisonnement parfait !{\i0}
+Dialogue: 0,0:01:43.81,0:01:45.23,Default,,0,0,0,,{\i1}Messages post-mortem{\i0}
+Dialogue: 0,0:01:45.39,0:01:46.89,Default,,0,0,0,,{\i1}et série de crimes à stopper !{\i0}
+Dialogue: 0,0:01:47.23,0:01:50.65,ST_BAS_DROITE,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:50.81,0:01:52.90,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:15.38,0:02:17.26,ST_HAUT,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:02:25.14,0:02:26.89,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:29.60,0:02:31.31,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:37.36,0:02:39.11,ST_HAUT_DROITE,,0,0,0,,Générique d'ouverture :\N"Makkana Lip"
+Dialogue: 0,0:02:41.99,0:02:43.74,ST_HAUT_DROITE,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:02:45.70,0:02:47.45,ST_HAUT_DROITE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:51.71,0:02:53.75,ST_BAS_DROITE,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:56.42,0:02:58.17,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:04.47,0:03:06.72,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:17.11,0:03:20.24,Default,,0,0,0,,{\i1}La Sécurité routière prise pour cible\N(2e partie) !{\i0}
+Dialogue: 0,0:03:24.95,0:03:27.33,Default,,0,0,0,,Écartez-vous, je vous prie.
+Dialogue: 0,0:03:33.38,0:03:33.92,Default,,0,0,0,,Bien.
+Dialogue: 0,0:03:35.25,0:03:35.84,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:03:40.97,0:03:42.13,Default,,0,0,0,,La victime,
+Dialogue: 0,0:03:42.30,0:03:45.93,Default,,0,0,0,,Tôko Momosaki,\Net Shiori Yagi s'entendaient bien ?
+Dialogue: 0,0:03:46.14,0:03:48.89,Default,,0,0,0,,Oui,\Nelles étaient ensemble au lycée.
+Dialogue: 0,0:03:49.35,0:03:51.10,Default,,0,0,0,,Toi aussi, non ?
+Dialogue: 0,0:03:51.27,0:03:53.81,Default,,0,0,0,,Tu as téléphoné\Npendant qu'on était au karaoké.
+Dialogue: 0,0:03:54.40,0:03:55.86,Default,,0,0,0,,{\i1}Encore toi, Yumi ?{\i0}
+Dialogue: 0,0:03:56.02,0:03:58.53,Default,,0,0,0,,{\i1}Si tu as le temps de téléphoner,\Nrejoins-nous !{\i0}
+Dialogue: 0,0:03:58.69,0:04:00.57,Default,,0,0,0,,{\i1}On chantera comme au lycée !{\i0}
+Dialogue: 0,0:04:00.90,0:04:04.57,Default,,0,0,0,,{\i1}Elle a raison !\NTu pourrais venir aussi, Yumi !{\i0}
+Dialogue: 0,0:04:07.58,0:04:09.04,Default,,0,0,0,,Tu te méprends !
+Dialogue: 0,0:04:09.20,0:04:12.46,Default,,0,0,0,,Ça, c'était "Yumiko",\Nune autre copine de lycée.
+Dialogue: 0,0:04:12.71,0:04:13.92,Default,,0,0,0,,"Yumiko" ?
+Dialogue: 0,0:04:14.42,0:04:17.63,Default,,0,0,0,,Elle est hôtesse\Ndans un bar à Ginza, je crois.
+Dialogue: 0,0:04:17.79,0:04:21.34,Default,,0,0,0,,Ah bon ?\NEt elles l'appellent "Yumi" ?
+Dialogue: 0,0:04:22.05,0:04:26.09,Default,,0,0,0,,Oui, je leur avais dit de changer\Npour éviter les confusions...
+Dialogue: 0,0:04:30.35,0:04:32.56,Default,,0,0,0,,Et donc, vous n'avez aucune idée
+Dialogue: 0,0:04:32.77,0:04:36.35,Default,,0,0,0,,de possible cause de rancœur\Nenvers le Brigadier-chef Momosaki ?
+Dialogue: 0,0:04:38.36,0:04:41.78,Default,,0,0,0,,On en veut souvent à tort\Net à travers à notre milieu...
+Dialogue: 0,0:04:42.44,0:04:43.36,Default,,0,0,0,,Seulement,
+Dialogue: 0,0:04:43.90,0:04:48.20,Default,,0,0,0,,je me souviens de 3 contrevenants\Nqu'elles avaient conduits au poste
+Dialogue: 0,0:04:48.74,0:04:51.62,Default,,0,0,0,,et qui s'étaient beaucoup plaints.
+Dialogue: 0,0:04:51.95,0:04:54.46,Default,,0,0,0,,Cette histoire\Ns'est passée quand et où ?
+Dialogue: 0,0:04:54.66,0:04:56.29,Default,,0,0,0,,Il y a une semaine.
+Dialogue: 0,0:04:56.46,0:05:00.25,Default,,0,0,0,,Au carrefour\Ndu 5e bloc de Beika, je crois.
+Dialogue: 0,0:05:00.84,0:05:04.63,Default,,0,0,0,,{\i1}"Le 5e bloc" ? Mais c'est juste\Nà côté de l'agence Môri !{\i0}
+Dialogue: 0,0:05:05.13,0:05:07.93,Default,,0,0,0,,- Tu te souviens de ces 3 hommes ?\N- Oui.
+Dialogue: 0,0:05:08.18,0:05:11.14,Default,,0,0,0,,Naeko et moi avons participé\Naux interrogatoires.
+Dialogue: 0,0:05:11.39,0:05:12.89,Default,,0,0,0,,J'ai noté leur nom !
+Dialogue: 0,0:05:13.56,0:05:17.02,Default,,0,0,0,,Le premier, qui en plus de tripoter\Nson portable au volant,
+Dialogue: 0,0:05:17.19,0:05:20.90,Default,,0,0,0,,n'avait pas son permis sur lui :\NKengo Aono.
+Dialogue: 0,0:05:21.61,0:05:25.07,Default,,0,0,0,,Le second qui roulait sans casque\Net en sens inverse :
+Dialogue: 0,0:05:25.24,0:05:26.65,Default,,0,0,0,,Manji Akamine.
+Dialogue: 0,0:05:27.57,0:05:30.12,Default,,0,0,0,,Le troisième n'avait pas sa ceinture
+Dialogue: 0,0:05:30.28,0:05:32.20,Default,,0,0,0,,et un contrôle technique périmé :
+Dialogue: 0,0:05:32.37,0:05:34.08,ST_BAS_DROITE,,0,0,0,,Yûzô Shiroyama.
+Dialogue: 0,0:05:35.00,0:05:37.25,Default,,0,0,0,,Ils semblaient tous les 3\Ntrès pressés.
+Dialogue: 0,0:05:37.92,0:05:40.25,Default,,0,0,0,,Ils ont tenté de fuir\Navant de recevoir le PV
+Dialogue: 0,0:05:40.42,0:05:43.59,Default,,0,0,0,,et ont été traînés au poste\Npour entrave.
+Dialogue: 0,0:05:43.76,0:05:45.80,Default,,0,0,0,,Ils ne semblent pas très nets...
+Dialogue: 0,0:05:46.09,0:05:47.26,Default,,0,0,0,,Tout à l'heure,
+Dialogue: 0,0:05:47.43,0:05:50.80,Default,,0,0,0,,on m'a dit que Tôko Momosaki\Nse sentait suivie
+Dialogue: 0,0:05:51.01,0:05:52.43,Default,,0,0,0,,depuis une semaine.
+Dialogue: 0,0:05:53.06,0:05:56.81,Default,,0,0,0,,{\i1}Chiotte ! J'ai pensé que Kogorô\Navait peut-être vu quelque chose,{\i0}
+Dialogue: 0,0:05:56.98,0:06:00.40,Default,,0,0,0,,{\i1}mais il participait à un voyage\Ndu quartier, la semaine dernière.{\i0}
+Dialogue: 0,0:06:01.11,0:06:04.61,Default,,0,0,0,,{\i1}Minute ! Amuro a peut-être vu\Nquelque chose du {\i0}Poirot{\i1} !{\i0}
+Dialogue: 0,0:06:05.24,0:06:06.57,Default,,0,0,0,,Hé ! Conan !
+Dialogue: 0,0:06:07.20,0:06:10.32,Default,,0,0,0,,- C'est l'heure de l'école !\N- Oui ! J'arrive !
+Dialogue: 0,0:06:12.41,0:06:14.08,Default,,0,0,0,,Tu as appris quelque chose ?
+Dialogue: 0,0:06:14.41,0:06:17.62,Default,,0,0,0,,La victime était officière\Nde la Sécurité routière.
+Dialogue: 0,0:06:18.75,0:06:21.13,Default,,0,0,0,,Quoi ? On a tué une policière ?
+Dialogue: 0,0:06:21.29,0:06:23.21,Default,,0,0,0,,C'est une affaire grave !
+Dialogue: 0,0:06:23.38,0:06:24.84,Default,,0,0,0,,Ça fait un peu peur !
+Dialogue: 0,0:06:25.17,0:06:26.26,Default,,0,0,0,,Pas vrai, Ai ?
+Dialogue: 0,0:06:27.38,0:06:28.76,Default,,0,0,0,,{\i1}Moi, c'est plutôt toi{\i0}
+Dialogue: 0,0:06:28.93,0:06:32.72,Default,,0,0,0,,{\i1}qui me fais peur à t'incruster\Nsur les lieux du crime.{\i0}
+Dialogue: 0,0:06:34.10,0:06:35.06,Default,,0,0,0,,Un problème ?
+Dialogue: 0,0:06:35.77,0:06:36.64,Default,,0,0,0,,Non, rien.
+Dialogue: 0,0:06:37.56,0:06:40.35,Default,,0,0,0,,Il me semble nécessaire\Nde partager ces infos
+Dialogue: 0,0:06:40.52,0:06:42.19,Default,,0,0,0,,sur les 3 contrevenants.
+Dialogue: 0,0:06:42.36,0:06:46.23,Default,,0,0,0,,Je te transmets ça.\NJe verrai s'il n'y a rien d'autre.
+Dialogue: 0,0:06:46.44,0:06:47.11,Default,,0,0,0,,S'il te plaît.
+Dialogue: 0,0:06:47.53,0:06:49.90,Default,,0,0,0,,Bon, je retourne patrouiller.
+Dialogue: 0,0:06:50.07,0:06:51.78,Default,,0,0,0,,Appelle-moi s'il y a du nouveau.
+Dialogue: 0,0:06:51.99,0:06:52.74,Default,,0,0,0,,OK !
+Dialogue: 0,0:06:53.62,0:06:54.24,Default,,0,0,0,,Naeko !
+Dialogue: 0,0:07:19.43,0:07:21.27,Default,,0,0,0,,10e TENTATIVE ERRONÉE\NRÉINITIALISATION
+Dialogue: 0,0:07:21.77,0:07:23.10,Default,,0,0,0,,Putain !
+Dialogue: 0,0:07:32.45,0:07:35.03,Default,,0,0,0,,Eh ben... Impressionnant !
+Dialogue: 0,0:07:35.37,0:07:37.37,Default,,0,0,0,,Il fallait le faire\Npour me débusquer.
+Dialogue: 0,0:07:37.91,0:07:40.29,Default,,0,0,0,,J'ai demandé\Nà vos collègues de travail !
+Dialogue: 0,0:07:40.62,0:07:42.62,Default,,0,0,0,,Ils m'ont dit que vous seriez ici.
+Dialogue: 0,0:07:43.04,0:07:46.42,Default,,0,0,0,,Bravo.\NLa police japonaise est remarquable.
+Dialogue: 0,0:07:46.71,0:07:50.13,Default,,0,0,0,,J'en étais sûre !\NC'est vous qui avez tué Tôko !
+Dialogue: 0,0:07:50.47,0:07:51.05,Default,,0,0,0,,Bon...
+Dialogue: 0,0:07:51.59,0:07:54.26,Default,,0,0,0,,Que me veut\Nnotre éminente policière ?
+Dialogue: 0,0:07:54.76,0:07:56.89,Default,,0,0,0,,Tu es venue te venger, c'est ça ?
+Dialogue: 0,0:07:59.10,0:08:00.27,Default,,0,0,0,,Rendez-vous !
+Dialogue: 0,0:08:00.64,0:08:03.69,Default,,0,0,0,,Il n'est pas trop tard.\NLivrez-vous à la police !
+Dialogue: 0,0:08:04.06,0:08:05.77,Default,,0,0,0,,Conformez-vous à la loi
+Dialogue: 0,0:08:05.94,0:08:07.69,Default,,0,0,0,,et acceptez d'être jugé !
+Dialogue: 0,0:08:10.19,0:08:13.32,Default,,0,0,0,,Scrupuleuse au point de respecter\Nla loi à la lettre...
+Dialogue: 0,0:08:13.53,0:08:16.16,Default,,0,0,0,,En fin de compte,\Ntu n'es qu'une larve !
+Dialogue: 0,0:08:17.58,0:08:18.41,Default,,0,0,0,,Pas si vite !
+Dialogue: 0,0:09:08.04,0:09:10.00,Default,,0,0,0,,Plus qu'une...
+Dialogue: 0,0:09:11.92,0:09:15.38,Default,,0,0,0,,{\i1}Central à toutes les unités !\NOn signale une femme au sol{\i0}
+Dialogue: 0,0:09:15.55,0:09:18.72,Default,,0,0,0,,{\i1}la tête en sang dans une ruelle\Ndu 3e bloc de Haido !{\i0}
+Dialogue: 0,0:09:19.43,0:09:20.93,Default,,0,0,0,,{\i1}Que toute patrouille{\i0}
+Dialogue: 0,0:09:21.10,0:09:24.10,Default,,0,0,0,,{\i1}ou agent à proximité\Nse rende sur place illico !{\i0}
+Dialogue: 0,0:09:24.27,0:09:25.98,Default,,0,0,0,,C'est à deux pas d'ici, Chiba.
+Dialogue: 0,0:09:26.14,0:09:26.98,Default,,0,0,0,,Allons-y !
+Dialogue: 0,0:09:35.32,0:09:36.99,Default,,0,0,0,,Chef Kuroda !
+Dialogue: 0,0:09:37.57,0:09:38.70,Default,,0,0,0,,Que faites-vous ici ?
+Dialogue: 0,0:09:39.12,0:09:43.24,Default,,0,0,0,,Le hasard a voulu que je sois\Ndans le coin, je suis donc venu.
+Dialogue: 0,0:09:43.95,0:09:46.58,Default,,0,0,0,,Mais désormais,\Nles choses sont claires.
+Dialogue: 0,0:09:46.83,0:09:48.50,Default,,0,0,0,,Que voulez-vous dire ?
+Dialogue: 0,0:09:49.08,0:09:52.50,Default,,0,0,0,,Un des agents qui est accouru\Nconnaissait la victime.
+Dialogue: 0,0:09:53.51,0:09:57.09,Default,,0,0,0,,Elle était inspecteur adjoint\Nà la Sécurité routière
+Dialogue: 0,0:09:57.34,0:09:59.18,Default,,0,0,0,,et s'appelait Shiori Yagi.
+Dialogue: 0,0:10:00.10,0:10:04.31,Default,,0,0,0,,De plus, une pièce de 100 yens\Na été enfoncée dans son portable.
+Dialogue: 0,0:10:04.64,0:10:06.73,Default,,0,0,0,,Tout comme celle trouvée ce matin
+Dialogue: 0,0:10:06.89,0:10:09.44,Default,,0,0,0,,dans le parc\Nprès du corps de la policière,
+Dialogue: 0,0:10:09.60,0:10:11.77,Default,,0,0,0,,elle a été sciemment tordue.
+Dialogue: 0,0:10:12.48,0:10:15.69,Default,,0,0,0,,Des fleurs de cerisier\Nsont gravées sur cette pièce.
+Dialogue: 0,0:10:16.49,0:10:20.78,Default,,0,0,0,,Il va sans dire que cette fleur\Nest l'emblème de la police nipponne.
+Dialogue: 0,0:10:21.12,0:10:23.66,Default,,0,0,0,,Mais alors...\NSe pourrait-il que...
+Dialogue: 0,0:10:24.20,0:10:26.66,Default,,0,0,0,,Oui, pas d'erreur possible.
+Dialogue: 0,0:10:29.46,0:10:31.29,Default,,0,0,0,,Il s'agit de meurtres en série
+Dialogue: 0,0:10:31.92,0:10:33.96,Default,,0,0,0,,visant des femmes policières !
+Dialogue: 0,0:10:39.84,0:10:41.05,Default,,0,0,0,,Non ? Sérieux ?
+Dialogue: 0,0:10:41.72,0:10:44.81,Default,,0,0,0,,- Un cadavre en bas d'une résidence !\N- C'est pas vrai ?
+Dialogue: 0,0:10:45.10,0:10:46.64,Default,,0,0,0,,Où ça ? Près d'ici ?
+Dialogue: 0,0:10:47.23,0:10:50.06,Default,,0,0,0,,IL Y A PLEIN DE FLICS !\NC'EST ARRIVÉ AU 3e BLOC DE HAIDO !
+Dialogue: 0,0:10:58.82,0:11:02.91,Default,,0,0,0,,La victime était inspecteur adjoint\Nà la Sécurité routière.
+Dialogue: 0,0:11:03.07,0:11:05.58,Default,,0,0,0,,Elle s'appelait Shiori Yagi\Net avait 28 ans.
+Dialogue: 0,0:11:06.29,0:11:09.83,Default,,0,0,0,,La position du corps\Nindique une chute mortelle.
+Dialogue: 0,0:11:10.37,0:11:14.59,Default,,0,0,0,,On a dû la pousser du haut\Nde l'escalier de cet immeuble.
+Dialogue: 0,0:11:15.17,0:11:19.72,Default,,0,0,0,,De plus, cette pièce tordue\Nde 100 yens est identique à celle
+Dialogue: 0,0:11:20.09,0:11:22.84,Default,,0,0,0,,trouvée près du corps\Ndu brigadier Momosaki
+Dialogue: 0,0:11:23.39,0:11:24.64,Default,,0,0,0,,dans un parc ce matin.
+Dialogue: 0,0:11:24.80,0:11:29.02,Default,,0,0,0,,Les fleurs de cerisiers gravées\Ndessus symbolisant la force publique,
+Dialogue: 0,0:11:29.23,0:11:32.73,Default,,0,0,0,,il y a fort à parier\Nque l'assassin en veut
+Dialogue: 0,0:11:32.90,0:11:33.86,Default,,0,0,0,,à la police !
+Dialogue: 0,0:11:38.32,0:11:42.16,Default,,0,0,0,,Les femmes policières\Ndevront évidemment être prudentes,
+Dialogue: 0,0:11:42.57,0:11:45.87,Default,,0,0,0,,mais j'invite toute la profession\Nà rester sur ses gardes.
+Dialogue: 0,0:11:46.28,0:11:50.04,Default,,0,0,0,,Recensez tout délit qui pourrait\Npermettre d'arrêter le coupable !
+Dialogue: 0,0:11:50.25,0:11:50.96,Default,,0,0,0,,À vos ordres !
+Dialogue: 0,0:11:51.58,0:11:53.71,Default,,0,0,0,,Commençons\Npar interroger le voisinage.
+Dialogue: 0,0:11:53.88,0:11:56.54,Default,,0,0,0,,Oui, occupons-nous d'abord\Nde cet immeuble.
+Dialogue: 0,0:11:56.88,0:11:58.38,Default,,0,0,0,,Séparons-nous.
+Dialogue: 0,0:12:00.88,0:12:04.68,Default,,0,0,0,,À tout à l'heure pour la réunion\Nd'enquête, chef Kuroda.
+Dialogue: 0,0:12:07.89,0:12:10.81,Default,,0,0,0,,Qu'y a-t-il, Satô ?\NQuelque chose t'intrigue ?
+Dialogue: 0,0:12:11.18,0:12:12.19,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:12:12.64,0:12:14.98,Default,,0,0,0,,C'est le visage de Shiori Yagi...
+Dialogue: 0,0:12:16.77,0:12:18.78,Default,,0,0,0,,Le traumatisme\Ndu lobe temporal droit
+Dialogue: 0,0:12:18.94,0:12:22.49,Default,,0,0,0,,semble être dû à sa chute\Ndu haut de l'immeuble.
+Dialogue: 0,0:12:23.07,0:12:26.53,Default,,0,0,0,,Normalement, sa blessure\Ndevrait être orientée vers le sol.
+Dialogue: 0,0:12:26.99,0:12:29.24,Default,,0,0,0,,Mais là, sa tête\Nest relevée vers la droite.
+Dialogue: 0,0:12:29.70,0:12:33.50,Default,,0,0,0,,Autre chose, la main de la victime\Npointe son portable.
+Dialogue: 0,0:12:34.29,0:12:35.63,Default,,0,0,0,,Généralement,
+Dialogue: 0,0:12:35.79,0:12:38.75,Default,,0,0,0,,on ne manipule pas l'écran\Nsans le regarder.
+Dialogue: 0,0:12:39.55,0:12:42.88,Default,,0,0,0,,Et si la victime\Navait tenté de téléphoner,
+Dialogue: 0,0:12:43.17,0:12:46.01,Default,,0,0,0,,son visage\Nserait tourné vers la gauche.
+Dialogue: 0,0:12:46.34,0:12:49.06,Default,,0,0,0,,Mais là,\Nil est pointé vers la droite.
+Dialogue: 0,0:12:49.31,0:12:51.52,Default,,0,0,0,,Ce qui, comme la blessure,\Nest anormal.
+Dialogue: 0,0:12:51.98,0:12:54.44,Default,,0,0,0,,Ça ne peut pas être dû au hasard ?
+Dialogue: 0,0:12:54.69,0:12:57.81,Default,,0,0,0,,Le contrecoup de la chute\Npeut avoir changé la donne.
+Dialogue: 0,0:12:58.15,0:13:01.03,Default,,0,0,0,,Quant à son portable,\Non ignore encore tout.
+Dialogue: 0,0:13:01.44,0:13:03.78,Default,,0,0,0,,Oui, mais regardez bien.
+Dialogue: 0,0:13:04.36,0:13:07.99,Default,,0,0,0,,Le visage de la victime\Nn'est pas particulièrement blessé.
+Dialogue: 0,0:13:08.37,0:13:12.29,Default,,0,0,0,,Seulement, le bout de son nez\Nsemble étrangement égratigné.
+Dialogue: 0,0:13:12.95,0:13:15.46,Default,,0,0,0,,De même, on voit\Nune trace de rouge à lèvres
+Dialogue: 0,0:13:15.62,0:13:18.08,Default,,0,0,0,,qui semble essuyé,\Nsur le coin de sa bouche.
+Dialogue: 0,0:13:18.59,0:13:22.55,Default,,0,0,0,,On dirait qu'elle a tourné la tête\Nvers la droite en râpant le sol.
+Dialogue: 0,0:13:23.05,0:13:24.05,Default,,0,0,0,,En effet...
+Dialogue: 0,0:13:24.22,0:13:27.80,Default,,0,0,0,,Elle a peut-être suivi du regard\Nle coupable qui s'enfuyait.
+Dialogue: 0,0:13:28.22,0:13:31.81,Default,,0,0,0,,Demandons aux experts\Nd'examiner son portable d'urgence.
+Dialogue: 0,0:13:32.43,0:13:34.27,Default,,0,0,0,,Si elle a appelé quelqu'un,
+Dialogue: 0,0:13:34.43,0:13:37.85,Default,,0,0,0,,son interlocuteur\Na peut-être entendu quelque chose.
+Dialogue: 0,0:13:39.44,0:13:43.78,Default,,0,0,0,,{\i1}Impossible. J'ai brisé le portable\Navant que quelqu'un décroche.{\i0}
+Dialogue: 0,0:13:44.74,0:13:48.53,Default,,0,0,0,,{\i1}Seulement, il en reste une.\NMais où est-elle ?{\i0}
+Dialogue: 0,0:13:49.28,0:13:52.33,Default,,0,0,0,,{\i1}Elle fait partie de celles\Nqui ont causé la mort d'Aiko !{\i0}
+Dialogue: 0,0:13:52.49,0:13:53.83,Default,,0,0,0,,{\i1}Tout à fait !{\i0}
+Dialogue: 0,0:13:54.00,0:13:55.75,Default,,0,0,0,,{\i1}Comme il a tenté de s'enfuir,{\i0}
+Dialogue: 0,0:13:55.91,0:13:57.62,Default,,0,0,0,,{\i1}on va l'interroger au poste.{\i0}
+Dialogue: 0,0:13:58.00,0:14:00.75,Default,,0,0,0,,{\i1}On risque d'arriver\Navec pas mal de retard.{\i0}
+Dialogue: 0,0:14:00.92,0:14:02.25,Default,,0,0,0,,{\i1}Cette sale garce !{\i0}
+Dialogue: 0,0:14:02.46,0:14:06.01,Default,,0,0,0,,{\i1}Dis-lui qu'elle commence à chanter\Net qu'on la rejoindra après.{\i0}
+Dialogue: 0,0:14:06.17,0:14:07.22,Default,,0,0,0,,{\i1}OK !{\i0}
+Dialogue: 0,0:14:07.72,0:14:09.55,Default,,0,0,0,,{\i1}Où se planque-t-elle ?{\i0}
+Dialogue: 0,0:14:10.01,0:14:13.52,Default,,0,0,0,,{\i1}Sur ce, merci\Npour ta compréhension, Yumi !{\i0}
+Dialogue: 0,0:14:16.52,0:14:17.48,Default,,0,0,0,,{\i1}En fin de compte,{\i0}
+Dialogue: 0,0:14:17.64,0:14:20.94,Default,,0,0,0,,{\i1}ça doit être lié aux contrevenants\Nde la semaine dernière.{\i0}
+Dialogue: 0,0:14:21.40,0:14:25.03,Default,,0,0,0,,{\i1}Mais les infractions étant mineures,\Npersonne n'en parle...{\i0}
+Dialogue: 0,0:14:30.24,0:14:33.58,Default,,0,0,0,,{\i1}Je vais plutôt tenter\Nde récolter des infos au {\i0}Poirot{\i1}.{\i0}
+Dialogue: 0,0:14:38.62,0:14:39.92,Default,,0,0,0,,Il y a une semaine ?
+Dialogue: 0,0:14:40.63,0:14:43.46,Default,,0,0,0,,Oui, il y a eu du grabuge\Nà ce carrefour.
+Dialogue: 0,0:14:43.63,0:14:46.34,Default,,0,0,0,,Tu peux me raconter en détail\Nce qui s'est passé ?
+Dialogue: 0,0:14:47.30,0:14:48.17,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:14:48.68,0:14:51.30,Default,,0,0,0,,Conan veut qu'on lui dise\Nce qui s'est passé
+Dialogue: 0,0:14:51.47,0:14:53.51,Default,,0,0,0,,au carrefour il y a une semaine.
+Dialogue: 0,0:14:55.22,0:14:58.23,Default,,0,0,0,,Deux policières\Nont eu une discussion orageuse
+Dialogue: 0,0:14:58.39,0:15:00.27,Default,,0,0,0,,avec trois conducteurs.
+Dialogue: 0,0:15:00.77,0:15:03.94,Default,,0,0,0,,Ils avaient commis\Ndes infractions, coup sur coup.
+Dialogue: 0,0:15:04.36,0:15:07.44,Default,,0,0,0,,Elles voulaient tous\Nles interroger au poste
+Dialogue: 0,0:15:07.90,0:15:11.45,Default,,0,0,0,,et les avaient coincés\Nen relevant leur numéro de plaque.
+Dialogue: 0,0:15:12.03,0:15:15.20,Default,,0,0,0,,Est-ce qu'un de ces hommes\Nétait très en colère ?
+Dialogue: 0,0:15:15.70,0:15:19.04,Default,,0,0,0,,Ils étaient tous les trois\Nbien remontés, en fait...
+Dialogue: 0,0:15:19.87,0:15:22.71,Default,,0,0,0,,Chacun devant se rendre\Nquelque part au plus vite...
+Dialogue: 0,0:15:23.50,0:15:26.50,Default,,0,0,0,,L'homme qui tripotait\Nson portable au volant
+Dialogue: 0,0:15:26.67,0:15:29.01,Default,,0,0,0,,et avait oublié son permis\Npleurait
+Dialogue: 0,0:15:29.55,0:15:31.89,Default,,0,0,0,,pour qu'on le laisse rejoindre\Nau plus vite
+Dialogue: 0,0:15:32.05,0:15:34.14,Default,,0,0,0,,sa petite amie dépressive.
+Dialogue: 0,0:15:35.18,0:15:37.77,Default,,0,0,0,,Celui qui roulait sans casque\Nen sens inverse
+Dialogue: 0,0:15:38.31,0:15:41.44,Default,,0,0,0,,hurlait qu'il devait vite\Naller sauver son ex-femme
+Dialogue: 0,0:15:41.60,0:15:44.19,Default,,0,0,0,,des coups de son nouveau compagnon.
+Dialogue: 0,0:15:44.90,0:15:48.61,Default,,0,0,0,,Celui qui roulait sans ceinture\Net avec un contrôle technique périmé
+Dialogue: 0,0:15:49.19,0:15:51.74,Default,,0,0,0,,était pressé\Nde se rendre auprès de sa sœur
+Dialogue: 0,0:15:51.91,0:15:55.28,Default,,0,0,0,,qui était en danger\Ncar un homme la harcelait.
+Dialogue: 0,0:15:55.99,0:15:57.70,Default,,0,0,0,,Mais pourquoi cette question ?
+Dialogue: 0,0:15:58.12,0:16:01.04,Default,,0,0,0,,Parce que les policières\Nqui se disputaient avec eux
+Dialogue: 0,0:16:01.50,0:16:03.08,Default,,0,0,0,,ont été assassinées.
+Dialogue: 0,0:16:05.59,0:16:06.46,Default,,0,0,0,,C'est pas vrai !
+Dialogue: 0,0:16:06.63,0:16:08.17,Default,,0,0,0,,Je me suis donc demandé
+Dialogue: 0,0:16:08.34,0:16:09.92,Default,,0,0,0,,si l'un de ces trois hommes
+Dialogue: 0,0:16:10.09,0:16:13.01,Default,,0,0,0,,pratiquait le base-ball ou le golf
+Dialogue: 0,0:16:13.18,0:16:15.22,Default,,0,0,0,,ou était lié à la musique...
+Dialogue: 0,0:16:16.14,0:16:17.22,Default,,0,0,0,,Pourquoi ça ?
+Dialogue: 0,0:16:17.56,0:16:20.68,Default,,0,0,0,,Parce que la première policière,\Ntuée dans un parc,
+Dialogue: 0,0:16:20.93,0:16:23.10,Default,,0,0,0,,pointait une balançoire du doigt.
+Dialogue: 0,0:16:23.65,0:16:26.23,Default,,0,0,0,,Et "balançoire"\Nse dit "{\i1}swing{\i0}" en anglais.
+Dialogue: 0,0:16:26.82,0:16:31.03,Default,,0,0,0,,Je vois. Le "swing" est un mouvement\Neffectué avec un club ou une batte
+Dialogue: 0,0:16:31.40,0:16:35.24,Default,,0,0,0,,et en jazz, c'est une façon de dire\Nqu'on est dans le rythme.
+Dialogue: 0,0:16:35.74,0:16:37.16,Default,,0,0,0,,Je comprends mieux.
+Dialogue: 0,0:16:37.58,0:16:41.91,Default,,0,0,0,,Malheureusement, rien n'indiquait\Nce que ces hommes font dans la vie.
+Dialogue: 0,0:16:42.33,0:16:43.46,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:16:46.33,0:16:48.75,Default,,0,0,0,,Si un détail te revient, appelle-moi.
+Dialogue: 0,0:16:49.30,0:16:49.88,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:16:51.09,0:16:53.97,Default,,0,0,0,,Ce Conan,\Non dirait vraiment un détective.
+Dialogue: 0,0:16:54.30,0:16:55.26,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:16:56.01,0:16:58.01,Default,,0,0,0,,En plus, il ne laisse rien passer.
+Dialogue: 0,0:16:58.47,0:16:59.93,Default,,0,0,0,,Il a l'œil du privé.
+Dialogue: 0,0:17:09.11,0:17:11.94,Default,,0,0,0,,{\i1}Tu as commis une grave erreur,\NShûichi Akai.{\i0}
+Dialogue: 0,0:17:13.24,0:17:17.24,Default,,0,0,0,,{\i1}Je crois pouvoir te retourner\Nces paroles telles quelles.{\i0}
+Dialogue: 0,0:17:17.95,0:17:19.20,Default,,0,0,0,,{\i1}Tu n'es pas sérieux ?{\i0}
+Dialogue: 0,0:17:19.37,0:17:22.20,Default,,0,0,0,,{\i1}Tu as perdu au moment où j'ai su\Nqui était réellement{\i0}
+Dialogue: 0,0:17:22.37,0:17:23.62,Default,,0,0,0,,{\i1}Subaru Okiya !{\i0}
+Dialogue: 0,0:17:24.12,0:17:26.96,Default,,0,0,0,,{\i1}Et si tu étais arrivé\Njusqu'ici uniquement{\i0}
+Dialogue: 0,0:17:27.21,0:17:29.63,Default,,0,0,0,,{\i1}parce que j'avais lu dans ton jeu ?{\i0}
+Dialogue: 0,0:17:32.88,0:17:34.38,Default,,0,0,0,,"L'œil du privé" ?
+Dialogue: 0,0:17:34.97,0:17:36.76,Default,,0,0,0,,Tu ne trouverais pas ça cocasse ?
+Dialogue: 0,0:17:56.53,0:17:58.11,Default,,0,0,0,,Tu en es sûre, Miwako ?
+Dialogue: 0,0:17:58.53,0:18:01.49,Default,,0,0,0,,Oui, je sors tout juste\Nde la réunion d'enquête.
+Dialogue: 0,0:18:01.99,0:18:04.66,Default,,0,0,0,,C'est pas vrai ! Shiori aussi...
+Dialogue: 0,0:18:05.50,0:18:08.88,Default,,0,0,0,,Il est fort probable\Nque l'assassin vise des policières.
+Dialogue: 0,0:18:09.29,0:18:12.34,Default,,0,0,0,,Et comme vous, elles étaient\Nde la Sécurité routière.
+Dialogue: 0,0:18:12.84,0:18:13.76,Default,,0,0,0,,Soyez prudentes !
+Dialogue: 0,0:18:14.26,0:18:15.34,Default,,0,0,0,,Shiori...
+Dialogue: 0,0:18:17.18,0:18:18.01,Default,,0,0,0,,Naeko !
+Dialogue: 0,0:18:18.47,0:18:21.51,Default,,0,0,0,,Oui, ça ira !\NJ'arrête de pleurer !
+Dialogue: 0,0:18:22.14,0:18:24.60,Default,,0,0,0,,On a une idée\Nde l'identité du tueur ?
+Dialogue: 0,0:18:24.93,0:18:27.73,Default,,0,0,0,,On soupçonne\Nun des trois contrevenants
+Dialogue: 0,0:18:27.89,0:18:31.40,Default,,0,0,0,,amenés au poste la semaine dernière\Net on leur a téléphonés.
+Dialogue: 0,0:18:31.98,0:18:33.69,Default,,0,0,0,,Mais ils restent injoignables.
+Dialogue: 0,0:18:34.19,0:18:36.36,Default,,0,0,0,,Et le seul indice est la balançoire ?
+Dialogue: 0,0:18:36.53,0:18:38.45,Default,,0,0,0,,Oui, mais à ce sujet...
+Dialogue: 0,0:18:38.95,0:18:41.95,Default,,0,0,0,,Est-ce que l'inspecteur Yagi\Navait un tic ?
+Dialogue: 0,0:18:42.41,0:18:46.20,Default,,0,0,0,,Tournait-elle la tête comme ça\Npour exprimer quelque chose ?
+Dialogue: 0,0:18:46.58,0:18:49.71,Default,,0,0,0,,Eh bien... Pas que je sache, non.
+Dialogue: 0,0:18:50.33,0:18:51.13,Default,,0,0,0,,"La tête" ?
+Dialogue: 0,0:18:51.54,0:18:55.09,Default,,0,0,0,,Je te transfère\Nla photo du corps sur ton portable.
+Dialogue: 0,0:18:55.76,0:18:59.51,Default,,0,0,0,,Contacte-moi aussitôt\Nsi tu remarques un truc !
+Dialogue: 0,0:18:59.84,0:19:02.72,Default,,0,0,0,,Moi, il faut que j'enquête.\NJe compte sur toi.
+Dialogue: 0,0:19:03.93,0:19:04.60,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:19:08.31,0:19:09.85,Default,,0,0,0,,Shiori...
+Dialogue: 0,0:19:10.02,0:19:11.19,Default,,0,0,0,,C'est vrai...
+Dialogue: 0,0:19:11.60,0:19:14.36,Default,,0,0,0,,On dirait qu'elle cherche\Nà tourner la tête.
+Dialogue: 0,0:19:18.65,0:19:22.03,Default,,0,0,0,,C'est au fond de la ruelle\Ndu 3e bloc de Haido, non ?
+Dialogue: 0,0:19:22.41,0:19:22.91,Default,,0,0,0,,Si.
+Dialogue: 0,0:19:24.41,0:19:25.49,Default,,0,0,0,,{\i1}Minute...{\i0}
+Dialogue: 0,0:19:25.99,0:19:28.71,Default,,0,0,0,,{\i1}Cette ruelle... Et ce parc...{\i0}
+Dialogue: 0,0:19:31.96,0:19:34.17,Default,,0,0,0,,Un appel d'un numéro inconnu ?
+Dialogue: 0,0:19:39.47,0:19:41.93,Default,,0,0,0,,Oui... Allô ?
+Dialogue: 0,0:19:42.26,0:19:45.60,Default,,0,0,0,,Pourquoi tu bloques mes appels ?
+Dialogue: 0,0:19:45.76,0:19:46.81,Default,,0,0,0,,Chûkichi ?
+Dialogue: 0,0:19:47.39,0:19:51.56,Default,,0,0,0,,{\i1}Désolée ! Mais comme tu m'appelais\Ntoutes les 10 minutes...{\i0}
+Dialogue: 0,0:19:51.73,0:19:53.61,Default,,0,0,0,,C'est que je m'inquiète, moi !
+Dialogue: 0,0:19:53.77,0:19:57.57,Default,,0,0,0,,D'après les infos,\Nune deuxième policière a été tuée !
+Dialogue: 0,0:19:57.98,0:20:00.36,Default,,0,0,0,,Ouais, ouais...\NMerci de t'inquiéter...
+Dialogue: 0,0:20:00.78,0:20:03.32,Default,,0,0,0,,Au fait, à qui est ce portable ?
+Dialogue: 0,0:20:03.70,0:20:05.70,Default,,0,0,0,,C'est celui d'un collègue de shôgi.
+Dialogue: 0,0:20:06.12,0:20:08.95,Default,,0,0,0,,J'étais au centre pour une interview.
+Dialogue: 0,0:20:09.12,0:20:12.33,Default,,0,0,0,,{\i1}- Le pauvre, tu n'aurais pas dû !\N{\i0}- Mais...
+Dialogue: 0,0:20:12.71,0:20:14.96,Default,,0,0,0,,Pour commencer, rentre vite chez toi.
+Dialogue: 0,0:20:15.17,0:20:18.38,Default,,0,0,0,,Et pense plutôt\Nà ton prochain match pour le titre !
+Dialogue: 0,0:20:18.55,0:20:20.17,Default,,0,0,0,,{\i1}D'accord...{\i0}
+Dialogue: 0,0:20:20.42,0:20:22.88,Default,,0,0,0,,{\i1}Mais fais-en autant, alors.{\i0}
+Dialogue: 0,0:20:23.18,0:20:26.47,Default,,0,0,0,,{\i1}Tu as passé la nuit à jouer\Nau mah-jong chez moi, hier.{\i0}
+Dialogue: 0,0:20:26.64,0:20:27.85,Default,,0,0,0,,- "Au mah-jong" ?\N{\i1}- Ensuite,{\i0}
+Dialogue: 0,0:20:28.14,0:20:31.85,Default,,0,0,0,,{\i1}mange comme il faut\Net hydrate-toi bien aussi...{\i0}
+Dialogue: 0,0:20:32.10,0:20:34.15,Default,,0,0,0,,Ouais, ouais, j'ai compris...
+Dialogue: 0,0:20:34.73,0:20:36.86,Default,,0,0,0,,Franchement, quel inquiet de nature !
+Dialogue: 0,0:20:37.19,0:20:38.02,Default,,0,0,0,,Yumi !
+Dialogue: 0,0:20:38.48,0:20:40.82,Default,,0,0,0,,Tu as encore joué au mah-jong\Ntoute la nuit ?
+Dialogue: 0,0:20:40.99,0:20:43.99,Default,,0,0,0,,- Je t'ai dit que c'était pas bon !\N- Ah, euh...
+Dialogue: 0,0:20:45.32,0:20:49.29,Default,,0,0,0,,Vous vous êtes donné le mot ou quoi ?\NAh, mais c'est pas le moment !
+Dialogue: 0,0:20:50.08,0:20:52.12,Default,,0,0,0,,Où tu vas comme ça, Yumi ?
+Dialogue: 0,0:20:52.41,0:20:56.25,Default,,0,0,0,,J'ai une course à faire.\NTu peux rentrer sans moi !
+Dialogue: 0,0:20:56.75,0:20:59.34,Default,,0,0,0,,Fais très attention sur le chemin !
+Dialogue: 0,0:21:04.55,0:21:06.43,Default,,0,0,0,,Alors ? Des témoins ?
+Dialogue: 0,0:21:06.85,0:21:11.02,Default,,0,0,0,,Non, la plupart des résidents\Nétaient absents à l'heure du crime.
+Dialogue: 0,0:21:11.31,0:21:15.02,Default,,0,0,0,,Hormis des personnes âgées\Nqui ne sont pas sorties de chez elles
+Dialogue: 0,0:21:15.35,0:21:17.44,Default,,0,0,0,,et qui n'ont bien sûr rien vu.
+Dialogue: 0,0:21:18.06,0:21:21.19,Default,,0,0,0,,Bon, interrogeons aussi\Nles habitants des alentours.
+Dialogue: 0,0:21:21.36,0:21:23.99,Default,,0,0,0,,Oui, il faut battre le fer\Nquand il est chaud.
+Dialogue: 0,0:21:24.15,0:21:24.95,Default,,0,0,0,,En effet.
+Dialogue: 0,0:21:34.91,0:21:36.42,Default,,0,0,0,,C'est la voiture du boulot,
+Dialogue: 0,0:21:36.58,0:21:39.29,Default,,0,0,0,,mais vu que j'aide à l'enquête,\Nça devrait passer.
+Dialogue: 0,0:21:43.21,0:21:44.34,Default,,0,0,0,,Qui est là ?
+Dialogue: 0,0:21:46.34,0:21:48.60,Default,,0,0,0,,Personne... J'ai dû rêver...
+Dialogue: 0,0:21:49.64,0:21:53.68,Default,,0,0,0,,Franchement,\Nune vraie poule mouillée...
+Dialogue: 0,0:21:57.40,0:22:01.11,Default,,0,0,0,,Euh...\NIl me semble qu'ici, c'est...
+Dialogue: 0,0:22:20.42,0:22:22.42,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:24.59,0:22:26.63,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

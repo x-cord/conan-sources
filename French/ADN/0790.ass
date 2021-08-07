@@ -1,0 +1,389 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.08,0:00:01.45,Default,,0,0,0,,CAFÉ POIROT
+Dialogue: 0,0:00:01.60,0:00:04.48,Default,,0,0,0,,Concernant l'affaire\Nque vous m'avez confiée,
+Dialogue: 0,0:00:05.33,0:00:07.85,Default,,0,0,0,,voici le résultat\Nde mon enquête détaillée...
+Dialogue: 0,0:00:08.53,0:00:09.56,Default,,0,0,0,,M. Kanzaki...
+Dialogue: 0,0:00:14.29,0:00:17.28,Default,,0,0,0,,Il n'y a absolument personne\Nqui vous en veuille !
+Dialogue: 0,0:00:18.24,0:00:21.05,ST_HAUT,,0,0,0,,Mais quelqu'un a juré de me tuer,\Nau téléphone !
+Dialogue: 0,0:00:21.64,0:00:25.44,Default,,0,0,0,,Ah ! Ces deux ou trois appels\Ndont vous m'avez parlé l'autre jour
+Dialogue: 0,0:00:25.61,0:00:28.73,Default,,0,0,0,,venaient, d'après moi,\Nd'un ami farceur.
+Dialogue: 0,0:00:28.88,0:00:30.36,Default,,0,0,0,,C'était une farce ?
+Dialogue: 0,0:00:30.52,0:00:33.61,Default,,0,0,0,,Tout le monde\Nne m'a dit que du bien de vous !
+Dialogue: 0,0:00:33.96,0:00:35.56,Default,,0,0,0,,On vous a fait marcher !
+Dialogue: 0,0:00:36.05,0:00:38.44,Default,,0,0,0,,{\i1}Oui, certainement...{\i0}
+Dialogue: 0,0:00:39.01,0:00:41.20,ST_HAUT,,0,0,0,,Vous êtes vraiment sûr
+Dialogue: 0,0:00:41.36,0:00:44.48,ST_HAUT,,0,0,0,,que personne ne veut attenter\Nà la vie de Kanzaki ?
+Dialogue: 0,0:00:44.96,0:00:46.73,Default,,0,0,0,,M. Udagawa, c'est bien ça ?
+Dialogue: 0,0:00:47.09,0:00:49.60,Default,,0,0,0,,Je conçois votre inquiétude de chef,
+Dialogue: 0,0:00:50.13,0:00:54.48,Default,,0,0,0,,mais je vois mal un assassin\Nannoncer son crime à l'avance.
+Dialogue: 0,0:00:54.93,0:00:56.77,Default,,0,0,0,,Mettre en alerte sa victime...
+Dialogue: 0,0:00:57.20,0:00:59.77,Default,,0,0,0,,... ne ferait\Nque lui compliquer la tâche.
+Dialogue: 0,0:01:08.57,0:01:09.97,Default,,0,0,0,,{\i1}Mais quelques jours après...{\i0}
+Dialogue: 0,0:01:19.08,0:01:19.92,Default,,0,0,0,,Crève,
+Dialogue: 0,0:01:20.08,0:01:21.44,Default,,0,0,0,,Kanzaki !
+Dialogue: 0,0:01:37.40,0:01:39.61,Default,,0,0,0,,{\i1}Un mystère insoluble ?{\i0}\N{\i1}Conan est là !{\i0}
+Dialogue: 0,0:01:39.76,0:01:41.89,Default,,0,0,0,,{\i1}L'époque change,{\i0}\N{\i1}pas les fondamentaux !{\i0}
+Dialogue: 0,0:01:42.04,0:01:45.85,Default,,0,0,0,,{\i1}La mascotte d'un hypermarché{\i0}\N{\i1}mystérieusement poignardée...{\i0}
+Dialogue: 0,0:01:46.12,0:01:49.52,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:49.68,0:01:51.72,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:11.80,0:02:15.45,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:20.24,0:02:23.77,ST_HAUT,,0,0,0,,Character design : Masatomo Sudo\NDirecteur artistique : Junichi Higashi
+Dialogue: 0,0:02:24.52,0:02:27.77,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:33.72,0:02:36.24,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:39.32,0:02:43.24,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Nazo"
+Dialogue: 0,0:02:49.32,0:02:51.37,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:53.24,0:02:55.52,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:05.92,0:03:08.69,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:03:09.72,0:03:12.00,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:13.20,0:03:15.49,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:32.92,0:03:35.68,Default,,0,0,0,,{\i1}"Bekapon et la promo qui tue" !{\i0}
+Dialogue: 0,0:03:40.04,0:03:43.04,Default,,0,0,0,,SUPER BEIKADÔ
+Dialogue: 0,0:03:46.36,0:03:48.28,Default,,0,0,0,,Navré de vous demander\Nencore une fois
+Dialogue: 0,0:03:48.56,0:03:50.16,Default,,0,0,0,,la même chose...
+Dialogue: 0,0:03:53.92,0:03:54.80,Default,,0,0,0,,M. Môri ?
+Dialogue: 0,0:03:55.60,0:03:58.20,Default,,0,0,0,,Commissaire Megure !\NQui a été poignardé ?
+Dialogue: 0,0:03:59.00,0:04:02.64,Default,,0,0,0,,Gôsuke Shimomura, 25 ans,\Nemployé de cet hypermarché.
+Dialogue: 0,0:04:03.16,0:04:05.80,Default,,0,0,0,,Comme Kanzaki,\Nil est sous mes ordres.
+Dialogue: 0,0:04:06.48,0:04:09.88,Default,,0,0,0,,L'ambulance\Nvient de partir pour l'hôpital.
+Dialogue: 0,0:04:10.08,0:04:14.80,Default,,0,0,0,,L'assassin a vraiment pris\Nce M. Shimomura
+Dialogue: 0,0:04:15.28,0:04:17.32,Default,,0,0,0,,- pour M. Kanzaki ?\N- Oui...
+Dialogue: 0,0:04:18.40,0:04:20.24,Default,,0,0,0,,S'il n'avait pas fait Bekapon...
+Dialogue: 0,0:04:20.68,0:04:21.80,Default,,0,0,0,,Bekapon ?
+Dialogue: 0,0:04:22.12,0:04:25.40,Default,,0,0,0,,C'est la mascotte de Beikadô,\Nn'est-ce pas ?
+Dialogue: 0,0:04:26.00,0:04:28.72,ST_HAUT,,0,0,0,,Je suis Hiroshi Fujii,\Ndirecteur du magasin.
+Dialogue: 0,0:04:29.16,0:04:32.28,ST_HAUT,,0,0,0,,Chez Super Beikadô,\Ntous les dimanches,
+Dialogue: 0,0:04:32.68,0:04:35.48,Default,,0,0,0,,Bekapon distribue aux clients
+Dialogue: 0,0:04:35.64,0:04:37.40,Default,,0,0,0,,des ballons et des prospectus.
+Dialogue: 0,0:04:39.68,0:04:41.28,Default,,0,0,0,,Ici, au magasin de Jôsai,
+Dialogue: 0,0:04:41.48,0:04:45.40,Default,,0,0,0,,c'est toujours Kanzaki\Nqui enfile le costume.
+Dialogue: 0,0:04:46.04,0:04:47.96,Default,,0,0,0,,- Vous ?\N- Oui...
+Dialogue: 0,0:04:48.20,0:04:52.72,Default,,0,0,0,,Je devais le faire aujourd'hui mais,\Ndepuis ce matin, j'avais la diarrhée.
+Dialogue: 0,0:04:53.12,0:04:56.60,Default,,0,0,0,,Alors, après discussion avec Udagawa,\Nson chef de rayon...
+Dialogue: 0,0:05:00.76,0:05:03.92,ST_HAUT,,0,0,0,,{\i1}Je dois faire Bekapon{\i0}\N{\i1}à la place de Kanzaki ?{\i0}
+Dialogue: 0,0:05:04.36,0:05:07.44,Default,,0,0,0,,{\i1}Après lui, c'est toi le plus jeune.{\i0}
+Dialogue: 0,0:05:07.80,0:05:09.44,Default,,0,0,0,,{\i1}S'il te plaît, Shimomura...{\i0}
+Dialogue: 0,0:05:10.12,0:05:13.16,Default,,0,0,0,,{\i1}Les enfants{\i0}\N{\i1}veulent tous voir Bekapon.{\i0}
+Dialogue: 0,0:05:13.84,0:05:15.88,Default,,0,0,0,,{\i1}Oh non !{\i0}\N{\i1}Ça me reprend...{\i0}
+Dialogue: 0,0:05:16.36,0:05:18.92,Default,,0,0,0,,{\i1}Le médicament que je t'ai filé{\i0}\N{\i1}agit déjà.{\i0}
+Dialogue: 0,0:05:19.08,0:05:21.88,Default,,0,0,0,,{\i1}En sortant des W.-C.,{\i0}\N{\i1}repose-toi en salle de pause.{\i0}
+Dialogue: 0,0:05:22.80,0:05:24.04,Default,,0,0,0,,{\i1}Je suis désolé.{\i0}
+Dialogue: 0,0:05:26.04,0:05:28.36,Default,,0,0,0,,{\i1}Je compte sur toi,{\i0}\N{\i1}c'est une urgence...{\i0}
+Dialogue: 0,0:05:28.52,0:05:30.92,Default,,0,0,0,,{\i1}Sois en poste{\i0}\N{\i1}devant le magasin à 11 h.{\i0}
+Dialogue: 0,0:05:31.40,0:05:34.36,Default,,0,0,0,,{\i1}Si c'est un ordre,{\i0}\N{\i1}je n'ai pas le choix...{\i0}
+Dialogue: 0,0:05:34.52,0:05:35.92,Default,,0,0,0,,{\i1}Hein, Bekapon ?{\i0}
+Dialogue: 0,0:05:36.84,0:05:38.40,Default,,0,0,0,,{\i1}10 heures 50...{\i0}
+Dialogue: 0,0:05:38.76,0:05:40.44,Default,,0,0,0,,{\i1}Il est temps d'y aller...{\i0}
+Dialogue: 0,0:05:46.84,0:05:51.00,ST_HAUT,,0,0,0,,{\i1}Le boulot, c'est le boulot, mais moi,{\i0}\N{\i1}j'ai aucune envie de faire ça.{\i0}
+Dialogue: 0,0:05:57.64,0:05:58.56,Default,,0,0,0,,{\i1}Crève,{\i0}
+Dialogue: 0,0:05:58.72,0:06:00.08,Default,,0,0,0,,{\i1}Kanzaki !{\i0}
+Dialogue: 0,0:06:07.24,0:06:10.28,Default,,0,0,0,,Le meurtrier a donc crié\N"Crève, Kanzaki" ?
+Dialogue: 0,0:06:10.44,0:06:12.12,Default,,0,0,0,,Oui, je suis formelle.
+Dialogue: 0,0:06:12.56,0:06:15.92,Default,,0,0,0,,Le coupable devait savoir\Nque c'était M. Kanzaki
+Dialogue: 0,0:06:16.08,0:06:18.00,Default,,0,0,0,,qui portait toujours\Nle costume.
+Dialogue: 0,0:06:18.16,0:06:22.68,Default,,0,0,0,,Ignorant que le préposé habituel\Navait aujourd'hui été remplacé,
+Dialogue: 0,0:06:22.88,0:06:27.16,Default,,0,0,0,,il a attaqué sans le savoir\NM. Shimomura avant de s'enfuir.
+Dialogue: 0,0:06:27.76,0:06:30.12,Default,,0,0,0,,Il s'agirait ainsi\Nd'une victime fortuite,
+Dialogue: 0,0:06:30.28,0:06:32.08,Default,,0,0,0,,une erreur de cible, quoi.
+Dialogue: 0,0:06:33.04,0:06:36.56,Default,,0,0,0,,Les menaces de mort\Nn'étaient donc pas un canular,
+Dialogue: 0,0:06:36.72,0:06:37.72,Default,,0,0,0,,M. Môri.
+Dialogue: 0,0:06:38.32,0:06:42.40,Default,,0,0,0,,Et Shimomura\Ns'est fait poignarder à ma place...
+Dialogue: 0,0:06:43.52,0:06:46.24,Default,,0,0,0,,Mon enquête\Nn'était pas assez approfondie ?
+Dialogue: 0,0:06:46.76,0:06:50.60,Default,,0,0,0,,Mais pourquoi le coupable\Na-t-il choisi le moment où M. Kanzaki
+Dialogue: 0,0:06:50.76,0:06:52.32,Default,,0,0,0,,était déguisé ?
+Dialogue: 0,0:06:53.84,0:06:57.92,Default,,0,0,0,,Parce que ce costume\Nempêchait le sang de gicler sur lui !
+Dialogue: 0,0:06:58.32,0:07:00.00,Default,,0,0,0,,C'est possible, mais...
+Dialogue: 0,0:07:00.36,0:07:03.52,Default,,0,0,0,,Se tromper de victime\Npour cette raison-là,
+Dialogue: 0,0:07:03.68,0:07:05.52,Default,,0,0,0,,ça relève de l'amateurisme.
+Dialogue: 0,0:07:07.60,0:07:09.60,Default,,0,0,0,,Mais cet amateur
+Dialogue: 0,0:07:09.76,0:07:12.88,Default,,0,0,0,,va bientôt apprendre son erreur.
+Dialogue: 0,0:07:13.44,0:07:15.84,Default,,0,0,0,,Et il va m'attaquer pour de bon ?
+Dialogue: 0,0:07:16.00,0:07:18.24,Default,,0,0,0,,Oui !\NMais rassurez-vous...
+Dialogue: 0,0:07:18.40,0:07:20.96,Default,,0,0,0,,Je l'aurai débusqué avant,
+Dialogue: 0,0:07:21.68,0:07:23.48,Default,,0,0,0,,foi de détective !
+Dialogue: 0,0:07:23.64,0:07:24.72,Default,,0,0,0,,- Môri !\N- M. Môri !
+Dialogue: 0,0:07:27.00,0:07:30.28,Default,,0,0,0,,{\i1}Attends... Et comment{\i0}\N{\i1}tu vas le débusquer, tonton ?{\i0}
+Dialogue: 0,0:07:32.32,0:07:33.20,Default,,0,0,0,,Commissaire...
+Dialogue: 0,0:07:34.16,0:07:39.08,Default,,0,0,0,,Personne, sur les vidéos de sécurité,\Nn'est vêtu comme l'a décrit le témoin.
+Dialogue: 0,0:07:40.52,0:07:43.44,Default,,0,0,0,,Mais je l'ai vu, je vous assure !
+Dialogue: 0,0:07:43.96,0:07:46.84,Default,,0,0,0,,Il avait un blouson jaune\Net un pantalon rouge !
+Dialogue: 0,0:07:47.00,0:07:49.92,Default,,0,0,0,,Pour être moins voyant,\Nil a dû ôter sa cagoule
+Dialogue: 0,0:07:50.08,0:07:52.36,Default,,0,0,0,,et changer de vêtements.
+Dialogue: 0,0:07:53.08,0:07:57.04,Default,,0,0,0,,Soit il a emporté ces affaires\Ndans sa fuite,
+Dialogue: 0,0:07:57.24,0:07:59.32,Default,,0,0,0,,soit il travaille ici
+Dialogue: 0,0:07:59.80,0:08:01.84,Default,,0,0,0,,et les a cachées quelque part
+Dialogue: 0,0:08:02.16,0:08:04.24,Default,,0,0,0,,dans ce magasin.
+Dialogue: 0,0:08:04.96,0:08:07.32,Default,,0,0,0,,Vous soupçonnez mon personnel ?
+Dialogue: 0,0:08:07.84,0:08:11.04,Default,,0,0,0,,Les employés savaient que M. Kanzaki
+Dialogue: 0,0:08:11.20,0:08:13.64,Default,,0,0,0,,était habituellement\Ndans le costume.
+Dialogue: 0,0:08:14.28,0:08:16.24,Default,,0,0,0,,Sans doute, mais...
+Dialogue: 0,0:08:16.84,0:08:20.48,Default,,0,0,0,,Patron... Laissons la police\Nfouiller partout,
+Dialogue: 0,0:08:20.64,0:08:23.36,Default,,0,0,0,,pour qu'elle cesse\Nde nous soupçonner
+Dialogue: 0,0:08:23.52,0:08:26.00,Default,,0,0,0,,d'avoir caché la cagoule et le reste.
+Dialogue: 0,0:08:26.28,0:08:27.24,Default,,0,0,0,,T'as raison...
+Dialogue: 0,0:08:27.96,0:08:31.08,Default,,0,0,0,,Entendu. Vous avez\Nla totale coopération du personnel.
+Dialogue: 0,0:08:31.24,0:08:34.16,Default,,0,0,0,,Inspectez tout,\Ny compris les effets personnels.
+Dialogue: 0,0:08:34.36,0:08:35.48,Default,,0,0,0,,Merci beaucoup.
+Dialogue: 0,0:08:35.88,0:08:37.80,Default,,0,0,0,,- Takagi, Chiba...\N- On y va !
+Dialogue: 0,0:08:38.56,0:08:40.88,Default,,0,0,0,,Moi, je vais vous interroger,\NM. Kanzaki.
+Dialogue: 0,0:08:41.04,0:08:41.68,Default,,0,0,0,,Très bien.
+Dialogue: 0,0:08:42.88,0:08:46.64,Default,,0,0,0,,{\i1}Cette affaire de victime erronée{\i0}\N{\i1}est pleine de bizarreries...{\i0}
+Dialogue: 0,0:08:47.88,0:08:50.08,Default,,0,0,0,,Si j'ai une idée de qui a fait ça ?
+Dialogue: 0,0:08:50.56,0:08:54.08,Default,,0,0,0,,Si je le savais,\Nje n'aurais pas fait appel à M. Môri.
+Dialogue: 0,0:08:55.16,0:08:59.12,Default,,0,0,0,,Il n'y a vraiment rien\Nqui vous vient à l'esprit ?
+Dialogue: 0,0:08:59.28,0:09:01.28,Default,,0,0,0,,{\i1}Tout d'abord,{\i0}\N{\i1}l'annonce du crime.{\i0}
+Dialogue: 0,0:09:01.44,0:09:04.12,Default,,0,0,0,,{\i1}Pourquoi le coupable{\i0}\N{\i1}a-t-il averti sa victime ?{\i0}
+Dialogue: 0,0:09:04.60,0:09:07.00,Default,,0,0,0,,Un blouson jaune\Net un pantalon rouge ?
+Dialogue: 0,0:09:07.68,0:09:10.32,Default,,0,0,0,,Le coupable doit être jeune.
+Dialogue: 0,0:09:10.48,0:09:12.60,Default,,0,0,0,,Ou alors,\Nil s'en est donné l'air
+Dialogue: 0,0:09:12.76,0:09:15.72,Default,,0,0,0,,en mettant volontairement\Nune tenue criarde.
+Dialogue: 0,0:09:16.52,0:09:19.20,Default,,0,0,0,,{\i1}S'il n'est pas{\i0}\N{\i1}sur les vidéos de sécurité,{\i0}
+Dialogue: 0,0:09:19.68,0:09:23.44,Default,,0,0,0,,{\i1}c'est qu'il a mis ces habits voyants{\i0}\N{\i1}juste avant son crime,{\i0}
+Dialogue: 0,0:09:23.60,0:09:26.64,Default,,0,0,0,,{\i1}et qu'il s'est rechangé ensuite.{\i0}
+Dialogue: 0,0:09:27.24,0:09:29.44,Default,,0,0,0,,{\i1}Pourquoi s'embarrasser à faire ça ?{\i0}
+Dialogue: 0,0:09:30.72,0:09:33.68,Default,,0,0,0,,{\i1}Il aurait mieux fait d'agir la nuit,{\i0}\N{\i1}dans la rue.{\i0}
+Dialogue: 0,0:09:34.36,0:09:39.00,Default,,0,0,0,,Ils ne sont pas là. Allons faire\Nanalyser leurs affaires personnelles.
+Dialogue: 0,0:09:39.16,0:09:39.76,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:09:40.72,0:09:42.24,Default,,0,0,0,,Je suis vraiment désolé
+Dialogue: 0,0:09:42.52,0:09:45.04,Default,,0,0,0,,de te faire approvisionner\Nles rayons.
+Dialogue: 0,0:09:45.20,0:09:47.56,Default,,0,0,0,,Je suis bien obligé,
+Dialogue: 0,0:09:47.72,0:09:49.36,Default,,0,0,0,,il manque deux jeunes.
+Dialogue: 0,0:09:57.72,0:09:58.52,Default,,0,0,0,,On suffoque !
+Dialogue: 0,0:09:59.52,0:10:02.52,Default,,0,0,0,,Udagawa !\NT'es en nage !
+Dialogue: 0,0:10:03.08,0:10:06.52,Default,,0,0,0,,Enlève ton blouson, toi aussi.\NOu remonte tes manches.
+Dialogue: 0,0:10:06.88,0:10:10.12,Default,,0,0,0,,Euh non, je ne préfère pas...\NJ'ai un peu la crève.
+Dialogue: 0,0:10:10.36,0:10:13.56,Default,,0,0,0,,N'empêche,\Nje n'en reviens pas que la police
+Dialogue: 0,0:10:13.76,0:10:15.52,Default,,0,0,0,,ose nous soupçonner.
+Dialogue: 0,0:10:16.16,0:10:17.56,Default,,0,0,0,,Moi non plus.
+Dialogue: 0,0:10:21.16,0:10:25.28,Default,,0,0,0,,Je suis désolée...\NBekapon n'est pas là, aujourd'hui.
+Dialogue: 0,0:10:26.56,0:10:28.92,Default,,0,0,0,,{\i1}Mais le plus étrange,{\i0}
+Dialogue: 0,0:10:29.16,0:10:31.88,Default,,0,0,0,,{\i1}c'est qu'il y ait eu,{\i0}\N{\i1}juste le jour du crime,{\i0}
+Dialogue: 0,0:10:32.04,0:10:35.40,Default,,0,0,0,,{\i1}un remplaçant{\i0}\N{\i1}dans le costume de mascotte.{\i0}
+Dialogue: 0,0:10:39.28,0:10:40.40,Default,,0,0,0,,{\i1}Une seconde...{\i0}
+Dialogue: 0,0:10:40.80,0:10:42.88,Default,,0,0,0,,{\i1}Et si ce n'était pas un hasard ?{\i0}
+Dialogue: 0,0:10:44.24,0:10:46.80,Default,,0,0,0,,{\i1}Dans ce cas, tout s'expliquerait...{\i0}
+Dialogue: 0,0:10:49.28,0:10:52.56,ST_HAUT,,0,0,0,,Si Kanzaki et Shimomura\Ns'entendent bien ?
+Dialogue: 0,0:10:53.08,0:10:55.40,Default,,0,0,0,,Oui, il m'a dit\Nde vous le demander.
+Dialogue: 0,0:10:56.52,0:10:59.40,Default,,0,0,0,,Kanzaki est chaleureux\Net enthousiaste,
+Dialogue: 0,0:10:59.88,0:11:02.48,Default,,0,0,0,,tout le contraire de Shimomura.
+Dialogue: 0,0:11:02.64,0:11:05.24,Default,,0,0,0,,Bref, ils n'avaient pas\Nd'atomes crochus ?
+Dialogue: 0,0:11:05.48,0:11:06.84,Default,,0,0,0,,Pas spécialement.
+Dialogue: 0,0:11:08.44,0:11:09.36,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:11:10.44,0:11:11.84,Default,,0,0,0,,Ah, chef...
+Dialogue: 0,0:11:12.00,0:11:13.92,Default,,0,0,0,,C'est M. Môri qui l'envoie.
+Dialogue: 0,0:11:14.08,0:11:15.36,Default,,0,0,0,,Pour savoir quoi ?
+Dialogue: 0,0:11:15.76,0:11:17.80,Default,,0,0,0,,Moi-même, je n'en sais trop rien.
+Dialogue: 0,0:11:17.96,0:11:19.96,Default,,0,0,0,,Merci, mademoiselle !
+Dialogue: 0,0:11:27.28,0:11:29.84,Default,,0,0,0,,T'es encore là, toi ?
+Dialogue: 0,0:11:30.24,0:11:34.28,Default,,0,0,0,,Où étiez-vous, au moment\Noù M. Shimomura s'est fait attaquer ?
+Dialogue: 0,0:11:35.16,0:11:36.36,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:11:36.60,0:11:38.96,Default,,0,0,0,,Tonton m'a dit de vous le demander.
+Dialogue: 0,0:11:39.40,0:11:42.44,Default,,0,0,0,,- M. Môri ?\N- Il nous soupçonne...
+Dialogue: 0,0:11:42.68,0:11:44.52,Default,,0,0,0,,nous, les employés.
+Dialogue: 0,0:11:45.16,0:11:49.28,Default,,0,0,0,,Mais Kanzaki, à ce moment-là,\Nétait dans la salle de pause.
+Dialogue: 0,0:11:51.20,0:11:54.12,Default,,0,0,0,,Peu après 11 heures du matin,\NIzumi a accouru...
+Dialogue: 0,0:11:56.12,0:11:57.52,Default,,0,0,0,,{\i1}Vous êtes là, chef ?{\i0}
+Dialogue: 0,0:11:58.36,0:12:01.64,Default,,0,0,0,,{\i1}Je suis venu voir{\i0}\N{\i1}si Kanzaki allait mieux.{\i0}
+Dialogue: 0,0:12:02.32,0:12:03.92,Default,,0,0,0,,{\i1}Il dort à poings fermés.{\i0}
+Dialogue: 0,0:12:04.08,0:12:05.44,Default,,0,0,0,,{\i1}C'est affreux, chef...{\i0}
+Dialogue: 0,0:12:05.76,0:12:07.76,Default,,0,0,0,,{\i1}Shimomura s'est fait poignarder !{\i0}
+Dialogue: 0,0:12:09.92,0:12:12.24,Default,,0,0,0,,Je peux témoigner de son innocence.
+Dialogue: 0,0:12:12.72,0:12:15.12,Default,,0,0,0,,Dis-le bien à M. Môri.
+Dialogue: 0,0:12:15.84,0:12:16.28,Default,,0,0,0,,Oui !
+Dialogue: 0,0:12:17.08,0:12:18.40,Default,,0,0,0,,Tu te sens mieux ?
+Dialogue: 0,0:12:19.08,0:12:21.76,Default,,0,0,0,,Oui, votre médicament\Nm'a totalement guéri.
+Dialogue: 0,0:12:22.20,0:12:24.36,Default,,0,0,0,,Bien, tu peux retourner en magasin.
+Dialogue: 0,0:12:24.52,0:12:27.76,Default,,0,0,0,,Entendu, j'irai tout de suite\Naprès avoir déjeuné.
+Dialogue: 0,0:12:28.32,0:12:31.00,Default,,0,0,0,,Alors comme ça,\NM. Môri me suspectait ?
+Dialogue: 0,0:12:31.16,0:12:32.24,Default,,0,0,0,,Non, en fait...
+Dialogue: 0,0:12:32.60,0:12:35.60,Default,,0,0,0,,Je n'aurais pas vraiment reçu\Nde menaces de mort,
+Dialogue: 0,0:12:35.76,0:12:39.64,Default,,0,0,0,,j'aurais feint d'être malade\Npour que Shimomura fasse Bekapon
+Dialogue: 0,0:12:39.80,0:12:44.08,Default,,0,0,0,,et je l'aurais tué, en faisant croire\Nque je m'étais trompé de victime...
+Dialogue: 0,0:12:44.24,0:12:47.28,Default,,0,0,0,,Voilà ce que M. Môri devait se dire.
+Dialogue: 0,0:12:49.24,0:12:51.24,Default,,0,0,0,,{\i1}C'est ce que moi, je pensais.{\i0}
+Dialogue: 0,0:13:01.16,0:13:04.00,Default,,0,0,0,,Vous avez donc vraiment reçu\Nces menaces...
+Dialogue: 0,0:13:04.68,0:13:05.32,Default,,0,0,0,,Oui...
+Dialogue: 0,0:13:05.60,0:13:08.52,Default,,0,0,0,,La 1re fois, sur mon portable.
+Dialogue: 0,0:13:08.72,0:13:11.00,Default,,0,0,0,,Mais c'est la 2e\Nqui m'a le plus effaré.
+Dialogue: 0,0:13:12.00,0:13:15.00,Default,,0,0,0,,{\i1}Y a-t-il ici un M. Kanzaki ?{\i0}
+Dialogue: 0,0:13:15.36,0:13:16.76,Default,,0,0,0,,{\i1}Oui, c'est moi.{\i0}
+Dialogue: 0,0:13:19.64,0:13:21.28,Default,,0,0,0,,{\i1}Allô, c'est M. Kanzaki.{\i0}
+Dialogue: 0,0:13:22.20,0:13:25.76,Default,,0,0,0,,Kanzaki...\NTu peux me croire, je vais te tuer.
+Dialogue: 0,0:13:27.12,0:13:29.28,Default,,0,0,0,,{\i1}Comment il sait que je suis là ?{\i0}
+Dialogue: 0,0:13:31.08,0:13:32.92,Default,,0,0,0,,{\i1}Tiens ? Kanzaki...{\i0}
+Dialogue: 0,0:13:33.60,0:13:35.16,Default,,0,0,0,,{\i1}T'es là, toi aussi ?{\i0}
+Dialogue: 0,0:13:35.32,0:13:37.44,Default,,0,0,0,,{\i1}Qu'est-ce que t'as ?{\i0}\N{\i1}T'es tout pâle.{\i0}
+Dialogue: 0,0:13:38.28,0:13:42.00,Default,,0,0,0,,Sous le choc,\Nj'ai tout raconté à mon chef,
+Dialogue: 0,0:13:42.16,0:13:44.64,Default,,0,0,0,,qui m'a conseillé\Nd'engager un détective.
+Dialogue: 0,0:13:45.28,0:13:47.72,Default,,0,0,0,,C'est pour ça\Nque vous avez appelé tonton ?
+Dialogue: 0,0:13:48.48,0:13:51.64,Default,,0,0,0,,Et vos problèmes gastriques\Nde tout à l'heure ?
+Dialogue: 0,0:13:52.16,0:13:55.80,Default,,0,0,0,,Avant d'arriver ici ce matin,\Nje n'avais rien du tout...
+Dialogue: 0,0:13:56.28,0:14:00.12,Default,,0,0,0,,Mais, quand j'ai bu mon thé\Nau briefing de 9 heures...
+Dialogue: 0,0:14:01.52,0:14:02.48,Default,,0,0,0,,{\i1}Kanzaki...{\i0}
+Dialogue: 0,0:14:03.04,0:14:06.24,Default,,0,0,0,,{\i1}Aujourd'hui, Bekapon{\i0}\N{\i1}ira aussi devant la gare...{\i0}
+Dialogue: 0,0:14:07.12,0:14:07.88,Default,,0,0,0,,{\i1}Ça va pas ?{\i0}
+Dialogue: 0,0:14:08.92,0:14:11.80,Default,,0,0,0,,{\i1}Excusez-moi,{\i0}\N{\i1}il faut que j'aille aux toilettes.{\i0}
+Dialogue: 0,0:14:13.20,0:14:14.96,Default,,0,0,0,,Ç'a été foudroyant...
+Dialogue: 0,0:14:15.44,0:14:17.64,Default,,0,0,0,,Vous ne voyez pas d'où ça venait ?
+Dialogue: 0,0:14:19.64,0:14:20.84,Default,,0,0,0,,Non, aucune idée...
+Dialogue: 0,0:14:24.68,0:14:27.72,Default,,0,0,0,,À ce moment-là,\Non m'avait demandé
+Dialogue: 0,0:14:28.24,0:14:30.60,Default,,0,0,0,,de faire le ménage là-bas.
+Dialogue: 0,0:14:30.88,0:14:32.72,Default,,0,0,0,,Ah, vraiment ?
+Dialogue: 0,0:14:32.88,0:14:34.48,Default,,0,0,0,,C'est quand même dingue,
+Dialogue: 0,0:14:34.64,0:14:37.56,Default,,0,0,0,,d'être tout de suite\Ntémoin d'un crime...
+Dialogue: 0,0:14:37.72,0:14:38.72,Default,,0,0,0,,"Tout de suite" ?
+Dialogue: 0,0:14:39.28,0:14:42.64,Default,,0,0,0,,Je ne travaille ici\Nque depuis hier.
+Dialogue: 0,0:14:42.80,0:14:44.24,Default,,0,0,0,,Je suis la nouvelle, quoi.
+Dialogue: 0,0:14:45.12,0:14:47.48,Default,,0,0,0,,{\i1}Voilà pourquoi elle a été choisie...{\i0}
+Dialogue: 0,0:14:47.84,0:14:49.48,Default,,0,0,0,,{\i1}Ça y est, j'ai compris.{\i0}
+Dialogue: 0,0:14:50.84,0:14:53.08,Default,,0,0,0,,{\i1}Après,{\i0}\N{\i1}le seul endroit pour les cacher,{\i0}
+Dialogue: 0,0:14:53.80,0:14:55.28,Default,,0,0,0,,{\i1}c'était cette pièce.{\i0}
+Dialogue: 0,0:14:59.20,0:15:00.28,Default,,0,0,0,,C'est pas vrai !
+Dialogue: 0,0:15:00.64,0:15:02.96,Default,,0,0,0,,Où sont-ils,\Nces habits jaune et rouge ?
+Dialogue: 0,0:15:05.00,0:15:06.00,Default,,0,0,0,,{\i1}Mais oui !{\i0}
+Dialogue: 0,0:15:06.64,0:15:07.92,Default,,0,0,0,,{\i1}C'est pour ça que lui...{\i0}
+Dialogue: 0,0:15:19.72,0:15:22.44,Default,,0,0,0,,Commissaire !\NVous savez donc qui a fait ça ?
+Dialogue: 0,0:15:24.52,0:15:26.28,Default,,0,0,0,,Qu'est-ce que tu racontes ?
+Dialogue: 0,0:15:26.56,0:15:31.64,Default,,0,0,0,,C'est toi qui le sais ! Tu m'as appelé\Npour que je réunisse tout le monde !
+Dialogue: 0,0:15:33.20,0:15:35.56,Default,,0,0,0,,Non, c'est vous qui m'avez télé...
+Dialogue: 0,0:15:37.88,0:15:40.64,Default,,0,0,0,,Bekapon, patapon,\NBekapon, et cetera...
+Dialogue: 0,0:15:43.00,0:15:45.32,Default,,0,0,0,,C'est le célèbre\N"Kogorô l'endormi" !
+Dialogue: 0,0:15:46.64,0:15:49.08,Default,,0,0,0,,Alors, qui est-ce ?
+Dialogue: 0,0:15:49.24,0:15:52.24,Default,,0,0,0,,Qui a poignardé Shimomura\Nen le prenant pour moi ?
+Dialogue: 0,0:15:52.76,0:15:54.48,Default,,0,0,0,,Il n'y a pas eu méprise,
+Dialogue: 0,0:15:54.72,0:15:58.24,Default,,0,0,0,,le coupable\Nvisait vraiment M. Shimomura.
+Dialogue: 0,0:16:00.00,0:16:01.76,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:16:02.28,0:16:05.52,Default,,0,0,0,,De son point de vue,\Nil devait supprimer M. Shimomura.
+Dialogue: 0,0:16:06.20,0:16:09.60,Default,,0,0,0,,Mais, avec un meurtre normal,\Nson mobile aurait éclaté
+Dialogue: 0,0:16:09.76,0:16:12.20,Default,,0,0,0,,et la police serait remontée\Njusqu'à lui.
+Dialogue: 0,0:16:12.72,0:16:14.28,Default,,0,0,0,,Pour empêcher cela,
+Dialogue: 0,0:16:14.88,0:16:16.88,Default,,0,0,0,,il a fait croire
+Dialogue: 0,0:16:17.04,0:16:20.16,Default,,0,0,0,,qu'il avait tué\NM. Shimomura par erreur
+Dialogue: 0,0:16:21.20,0:16:23.32,Default,,0,0,0,,en visant M. Kanzaki.
+Dialogue: 0,0:16:24.92,0:16:27.84,Default,,0,0,0,,Prenant M. Shimomura\Npour une victime collatérale,
+Dialogue: 0,0:16:28.56,0:16:32.44,Default,,0,0,0,,nous n'avons pas songé\Nà enquêter sur lui.
+Dialogue: 0,0:16:33.64,0:16:35.28,Default,,0,0,0,,Cette affaire
+Dialogue: 0,0:16:35.60,0:16:38.72,Default,,0,0,0,,est donc un homicide volontaire\Navec préméditation
+Dialogue: 0,0:16:38.88,0:16:40.52,Default,,0,0,0,,maquillé en erreur de cible
+Dialogue: 0,0:16:41.24,0:16:42.68,Default,,0,0,0,,pour échapper à l'enquête.
+Dialogue: 0,0:16:43.16,0:16:44.88,Default,,0,0,0,,N'est-ce pas, M. Udagawa ?
+Dialogue: 0,0:16:48.44,0:16:49.44,Default,,0,0,0,,Le chef ?
+Dialogue: 0,0:16:50.20,0:16:53.40,Default,,0,0,0,,M. Shimomura étant toujours\Nentre la vie et la mort,
+Dialogue: 0,0:16:53.56,0:16:56.72,Default,,0,0,0,,ce n'est pour l'instant\Nqu'une tentative d'homicide.
+Dialogue: 0,0:16:56.88,0:16:58.64,Default,,0,0,0,,Quelles preuves avez-vous ?
+Dialogue: 0,0:16:59.40,0:17:02.16,Default,,0,0,0,,Le contexte dit tout...
+Dialogue: 0,0:17:02.60,0:17:06.64,Default,,0,0,0,,Vous avez d'abord menacé de mort\NM. Kanzaki par téléphone.
+Dialogue: 0,0:17:07.76,0:17:10.68,Default,,0,0,0,,Kanzaki...\NTu peux me croire, je vais te tuer.
+Dialogue: 0,0:17:12.32,0:17:14.20,Default,,0,0,0,,{\i1}Tiens ? Kanzaki...{\i0}
+Dialogue: 0,0:17:14.68,0:17:16.32,Default,,0,0,0,,{\i1}T'es là, toi ?{\i0}
+Dialogue: 0,0:17:17.24,0:17:19.04,Default,,0,0,0,,C'était vous, au téléphone ?
+Dialogue: 0,0:17:19.48,0:17:21.04,Default,,0,0,0,,De quoi tu parles ?
+Dialogue: 0,0:17:21.80,0:17:24.04,Default,,0,0,0,,Vous avez ensuite incité M. Kanzaki
+Dialogue: 0,0:17:24.20,0:17:27.32,Default,,0,0,0,,à me demander de mener l'enquête.
+Dialogue: 0,0:17:28.60,0:17:32.28,Default,,0,0,0,,Car il vous fallait fabriquer un témoin\Npouvant attester
+Dialogue: 0,0:17:32.44,0:17:35.60,Default,,0,0,0,,que la vie de M. Kanzaki\Nétait menacée.
+Dialogue: 0,0:17:36.32,0:17:38.04,Default,,0,0,0,,Et pour faire ce témoin,
+Dialogue: 0,0:17:38.44,0:17:41.68,Default,,0,0,0,,vous m'avez utilisé,\Navec toute ma renommée.
+Dialogue: 0,0:17:42.28,0:17:45.20,Default,,0,0,0,,Vous avez mis un laxatif\Ndans le thé de M. Kanzaki
+Dialogue: 0,0:17:45.36,0:17:47.28,Default,,0,0,0,,pour lui donner la diarrhée.
+Dialogue: 0,0:17:47.92,0:17:50.20,Default,,0,0,0,,Puis vous avez ordonné\Nà M. Shimomura
+Dialogue: 0,0:17:50.36,0:17:52.12,Default,,0,0,0,,de le suppléer\Ndans le costume
+Dialogue: 0,0:17:52.40,0:17:54.04,Default,,0,0,0,,et avez tenté de le tuer.
+Dialogue: 0,0:17:54.52,0:17:55.24,Default,,0,0,0,,{\i1}Crève,{\i0}
+Dialogue: 0,0:17:55.52,0:17:56.76,Default,,0,0,0,,{\i1}Kanzaki !{\i0}
+Dialogue: 0,0:17:59.60,0:18:02.68,Default,,0,0,0,,Pour faire croire\Nà une erreur sur la personne,
+Dialogue: 0,0:18:02.84,0:18:05.00,Default,,0,0,0,,vous aviez besoin que quelqu'un
+Dialogue: 0,0:18:05.16,0:18:07.76,Default,,0,0,0,,vous entende crier\N"crève, Kanzaki".
+Dialogue: 0,0:18:08.32,0:18:12.40,Default,,0,0,0,,C'est pour ça que vous m'avez dit\Nde faire le ménage là-bas !
+Dialogue: 0,0:18:12.68,0:18:13.88,Default,,0,0,0,,C'est une coïncidence !
+Dialogue: 0,0:18:14.24,0:18:15.28,Default,,0,0,0,,Un pur hasard...
+Dialogue: 0,0:18:15.84,0:18:19.68,Default,,0,0,0,,Mme Teruko, la nouvelle,\Nétait parfaite pour ce rôle.
+Dialogue: 0,0:18:19.84,0:18:24.28,Default,,0,0,0,,Car un employé ayant de l'ancienneté\Naurait pu reconnaître votre voix.
+Dialogue: 0,0:18:25.12,0:18:29.28,Default,,0,0,0,,Après avoir poignardé M. Shimomura,\Nvous vous êtes sauvé jusqu'ici.
+Dialogue: 0,0:18:30.84,0:18:33.12,Default,,0,0,0,,M. Kanzaki était là,
+Dialogue: 0,0:18:33.28,0:18:35.20,Default,,0,0,0,,mais il dormait profondément.
+Dialogue: 0,0:18:36.04,0:18:40.36,Default,,0,0,0,,Sûrement à cause d'un somnifère\Nmélangé à l'antidiarrhéique.
+Dialogue: 0,0:18:42.16,0:18:46.56,Default,,0,0,0,,Vous avez enlevé votre cagoule\Net avez remis votre tenue d'employé.
+Dialogue: 0,0:18:48.12,0:18:49.68,Default,,0,0,0,,{\i1}Vous êtes là, chef ?{\i0}
+Dialogue: 0,0:18:50.52,0:18:53.80,Default,,0,0,0,,{\i1}Je suis venu voir{\i0}\N{\i1}si Kanzaki allait mieux.{\i0}
+Dialogue: 0,0:18:54.32,0:18:55.92,Default,,0,0,0,,{\i1}Il dort à poings fermés.{\i0}
+Dialogue: 0,0:18:57.04,0:18:58.24,Default,,0,0,0,,C'est du délire !
+Dialogue: 0,0:18:58.40,0:19:02.08,Default,,0,0,0,,Pourquoi aurais-je assassiné\NShimomura ?
+Dialogue: 0,0:19:02.96,0:19:05.84,Default,,0,0,0,,Je n'ai pas eu le temps\Nde chercher votre mobile.
+Dialogue: 0,0:19:06.36,0:19:11.00,Default,,0,0,0,,Si je tardais, vous risquiez\Nde détruire les preuves matérielles.
+Dialogue: 0,0:19:11.60,0:19:13.24,Default,,0,0,0,,C'est-à-dire...
+Dialogue: 0,0:19:13.40,0:19:15.84,Default,,0,0,0,,- le blouson jaune...\N- ... et le pantalon rouge ?
+Dialogue: 0,0:19:16.32,0:19:17.84,Default,,0,0,0,,Sans oublier la cagoule.
+Dialogue: 0,0:19:18.52,0:19:21.96,Default,,0,0,0,,Vu l'intense agitation\Nqui a suivi le crime,
+Dialogue: 0,0:19:22.12,0:19:24.60,Default,,0,0,0,,il n'a pas eu le temps\Nde les emmener dehors.
+Dialogue: 0,0:19:25.00,0:19:28.84,Default,,0,0,0,,Mais, s'il les avait cachés ici,\Naurait-il parlé ainsi ?
+Dialogue: 0,0:19:29.60,0:19:30.60,Default,,0,0,0,,{\i1}Patron...{\i0}
+Dialogue: 0,0:19:30.92,0:19:33.04,Default,,0,0,0,,{\i1}Laissons la police{\i0}\N{\i1}fouiller partout.{\i0}
+Dialogue: 0,0:19:33.96,0:19:36.88,Default,,0,0,0,,En fouillant ce magasin,\Non perdait notre temps...
+Dialogue: 0,0:19:37.24,0:19:38.96,Default,,0,0,0,,N'est-ce pas, M. Udagawa ?
+Dialogue: 0,0:19:40.36,0:19:42.84,Default,,0,0,0,,Car vous portez encore ces affaires.
+Dialogue: 0,0:19:43.40,0:19:44.40,Default,,0,0,0,,Encore ?
+Dialogue: 0,0:19:46.04,0:19:48.88,Default,,0,0,0,,Voilà pourquoi\Nvous ne pouviez pas vous dévêtir.
+Dialogue: 0,0:19:50.08,0:19:53.12,Default,,0,0,0,,{\i1}Udagawa !{\i0}\N{\i1}T'es en nage !{\i0}
+Dialogue: 0,0:19:53.60,0:19:56.68,Default,,0,0,0,,{\i1}Euh non, je ne préfère pas...{\i0}\N{\i1}J'ai un peu la crève.{\i0}
+Dialogue: 0,0:19:59.80,0:20:01.56,Default,,0,0,0,,- Lâchez-moi !\N- Permettez !
+Dialogue: 0,0:20:03.88,0:20:05.04,Default,,0,0,0,,Il est réversible ?
+Dialogue: 0,0:20:05.36,0:20:07.32,Default,,0,0,0,,Vous aviez cousu une doublure jaune
+Dialogue: 0,0:20:07.52,0:20:10.08,Default,,0,0,0,,à l'intérieur de ce blouson !
+Dialogue: 0,0:20:10.64,0:20:11.56,Default,,0,0,0,,Autrement dit...
+Dialogue: 0,0:20:13.28,0:20:14.04,Default,,0,0,0,,C'est ça !
+Dialogue: 0,0:20:15.20,0:20:17.44,Default,,0,0,0,,Il n'a pas changé de vêtements.
+Dialogue: 0,0:20:18.08,0:20:21.76,Default,,0,0,0,,Après avoir commis son crime,\Nil n'a eu qu'à retourner
+Dialogue: 0,0:20:21.92,0:20:23.68,Default,,0,0,0,,son blouson et son pantalon.
+Dialogue: 0,0:20:25.40,0:20:28.20,Default,,0,0,0,,Nous avons les habits,\Nmais où est la cagoule ?
+Dialogue: 0,0:20:29.00,0:20:32.32,Default,,0,0,0,,M. Udagawa\Nl'a forcément aussi sur lui.
+Dialogue: 0,0:20:33.40,0:20:34.96,Default,,0,0,0,,C'est exact.
+Dialogue: 0,0:20:41.00,0:20:43.60,Default,,0,0,0,,Désolée, je ne devrais pas rire...
+Dialogue: 0,0:20:45.16,0:20:48.96,Default,,0,0,0,,On n'utilise pas comme slip\Nce qui s'enfile sur la tête !
+Dialogue: 0,0:20:49.36,0:20:50.88,Default,,0,0,0,,Comment dire ?
+Dialogue: 0,0:20:51.32,0:20:52.96,Default,,0,0,0,,C'est sacrilège.
+Dialogue: 0,0:20:53.60,0:20:54.92,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:20:55.32,0:20:58.12,Default,,0,0,0,,Je n'ai pas trouvé\Nd'autre moyen de les cacher.
+Dialogue: 0,0:20:58.52,0:21:00.96,Default,,0,0,0,,Mais non !\NPourquoi l'avez-vous poignardé ?
+Dialogue: 0,0:21:01.32,0:21:06.48,Default,,0,0,0,,Tu allais être nommé directeur\Ndu 5e Bekadô qui ouvrira bientôt !
+Dialogue: 0,0:21:07.04,0:21:09.76,Default,,0,0,0,,Justement, il y avait urgence...
+Dialogue: 0,0:21:10.48,0:21:14.80,Default,,0,0,0,,Shimomura s'était rendu compte\Nque je piquais dans la caisse.
+Dialogue: 0,0:21:15.32,0:21:18.28,Default,,0,0,0,,Comme désinhibé,\Nil a menacé de me dénoncer.
+Dialogue: 0,0:21:18.84,0:21:21.20,Default,,0,0,0,,Je devais absolument le tuer\Npour enfin
+Dialogue: 0,0:21:21.36,0:21:23.44,Default,,0,0,0,,diriger un magasin !
+Dialogue: 0,0:21:23.80,0:21:25.52,Default,,0,0,0,,Espèce de cinglé !
+Dialogue: 0,0:21:28.20,0:21:29.76,Default,,0,0,0,,Megure, j'écoute...
+Dialogue: 0,0:21:30.76,0:21:33.64,Default,,0,0,0,,Ah, vraiment ?\NEntendu...
+Dialogue: 0,0:21:34.56,0:21:37.72,Default,,0,0,0,,M. Shimomura est tiré d'affaire.
+Dialogue: 0,0:21:37.96,0:21:39.84,Default,,0,0,0,,- Quelle divine nouvelle !\N- Oui...
+Dialogue: 0,0:21:40.76,0:21:45.24,Default,,0,0,0,,L'épaisseur du costume aurait atténué\Nla gravité de la blessure.
+Dialogue: 0,0:21:45.60,0:21:48.32,Default,,0,0,0,,Si j'avais enfoncé un peu plus\Nle couteau...
+Dialogue: 0,0:21:48.48,0:21:52.12,Default,,0,0,0,,Qu'est-ce qu'il marmonne,\Nl'abruti en tenue dégradante ?
+Dialogue: 0,0:21:52.28,0:21:53.64,Default,,0,0,0,,Embarquez-le !
+Dialogue: 0,0:21:54.08,0:21:55.08,Default,,0,0,0,,À vos ordres !
+Dialogue: 0,0:21:57.24,0:22:01.12,Default,,0,0,0,,{\i1}C'est vrai qu'il fait peine à voir,{\i0}\N{\i1}ce coupable.{\i0}
+Dialogue: 0,0:22:02.60,0:22:05.64,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:06.76,0:22:09.76,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:23:22.32,0:23:25.16,Default,,0,0,0,,Les amis !\NVenez tous par ici !
+Dialogue: 0,0:23:25.80,0:23:27.96,Default,,0,0,0,,Vous avez vu ce sparadrap ?
+Dialogue: 0,0:23:28.12,0:23:29.60,Default,,0,0,0,,Votre Bekapon
+Dialogue: 0,0:23:29.76,0:23:32.16,Default,,0,0,0,,est invulnérable !
+Dialogue: 0,0:23:32.60,0:23:34.04,Default,,0,0,0,,Beka !
+Dialogue: 0,0:23:35.00,0:23:37.68,Default,,0,0,0,,Beka, Beka !\NVotre Bekapon à tous !
+Dialogue: 0,0:23:39.04,0:23:42.36,Default,,0,0,0,,{\i1}Tu t'en sers pour attirer{\i0}\N{\i1}encore plus de mômes, Bekapon ?{\i0}

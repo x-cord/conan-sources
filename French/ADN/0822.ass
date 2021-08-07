@@ -1,0 +1,410 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.88,0:00:03.37,Default,,0,0,0,,Et donc ?
+Dialogue: 0,0:00:03.92,0:00:06.64,Default,,0,0,0,,Il ne te dit vraiment rien ?
+Dialogue: 0,0:00:06.81,0:00:07.37,Default,,0,0,0,,Qui ça ?
+Dialogue: 0,0:00:07.93,0:00:09.84,Default,,0,0,0,,Le chef Kuroda, pardi !
+Dialogue: 0,0:00:11.01,0:00:12.96,Default,,0,0,0,,Ah, lui... Rien du tout.
+Dialogue: 0,0:00:13.56,0:00:17.85,Default,,0,0,0,,Tu t’es pourtant bien agrippée\Nà moi quand tu l’as vu !
+Dialogue: 0,0:00:18.44,0:00:22.48,Default,,0,0,0,,Tu m’excuseras, mais comment\Naurais-je pu rester de marbre
+Dialogue: 0,0:00:22.77,0:00:24.81,Default,,0,0,0,,face à un visage aussi effrayant ?
+Dialogue: 0,0:00:25.48,0:00:26.48,Default,,0,0,0,,Ah, en effet...
+Dialogue: 0,0:00:26.80,0:00:29.05,Default,,0,0,0,,{\i1}Elle a juste eu peur de sa tête...{\i0}
+Dialogue: 0,0:00:29.36,0:00:30.36,Default,,0,0,0,,Tu m'étonnes !
+Dialogue: 0,0:00:31.33,0:00:33.76,Default,,0,0,0,,Il avait une tête d’épouvantail !
+Dialogue: 0,0:00:33.93,0:00:35.36,Default,,0,0,0,,Il m’a fichu la frousse !
+Dialogue: 0,0:00:35.52,0:00:37.72,Default,,0,0,0,,Moi, j’ai même failli pleurer !
+Dialogue: 0,0:00:37.88,0:00:39.57,Default,,0,0,0,,Ah bon ?
+Dialogue: 0,0:00:43.25,0:00:45.32,Default,,0,0,0,,Enfin, ça devrait aller.
+Dialogue: 0,0:00:45.57,0:00:49.72,Default,,0,0,0,,Si, comme tu le penses,\NKuroda était vraiment Rhum,
+Dialogue: 0,0:00:50.21,0:00:53.25,Default,,0,0,0,,en voyant le visage\Nde l’ex-Sherry d’aussi près,
+Dialogue: 0,0:00:53.72,0:00:56.69,Default,,0,0,0,,il aurait reconnu celle\Nqui a trahi l’Organisation
+Dialogue: 0,0:00:56.85,0:01:00.45,Default,,0,0,0,,et serait déjà entré\Nde force chez le professeur.
+Dialogue: 0,0:01:01.12,0:01:05.04,Default,,0,0,0,,Mais comme son dernier mail\Nne parle que du repas du soir...
+Dialogue: 0,0:01:05.20,0:01:06.64,Default,,0,0,0,,Tant mieux, alors...
+Dialogue: 0,0:01:07.20,0:01:09.57,Default,,0,0,0,,Mais on n’est jamais trop prudent.
+Dialogue: 0,0:01:11.32,0:01:12.45,Default,,0,0,0,,Qu’est-ce qu’il y a ?
+Dialogue: 0,0:01:18.32,0:01:19.33,Default,,0,0,0,,Hé ! Ai !
+Dialogue: 0,0:01:21.68,0:01:23.48,Default,,0,0,0,,{\i1}Un raisonnement vif recolorera{\i0}
+Dialogue: 0,0:01:23.64,0:01:25.56,Default,,0,0,0,,{\i1}une toile noircie par le crime !{\i0}
+Dialogue: 0,0:01:26.20,0:01:27.97,Default,,0,0,0,,{\i1}L’information qui a surpris Ai{\i0}
+Dialogue: 0,0:01:28.12,0:01:30.09,Default,,0,0,0,,{\i1}est l’amorce{\i0}\N{\i1}d’une nouvelle affaire !{\i0}
+Dialogue: 0,0:01:30.36,0:01:33.89,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:34.04,0:01:36.20,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:38.04,0:01:41.92,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:43.24,0:01:46.97,Default,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:01:58.36,0:02:00.88,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:03.08,0:02:05.61,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:09.08,0:02:11.60,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:17.72,0:02:20.17,Default,,0,0,0,,Générique d'ouverture :\N"Sekai wa anata no iro ni naru"
+Dialogue: 0,0:02:23.04,0:02:25.08,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:32.52,0:02:34.76,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:02:52.40,0:02:54.72,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:56.84,0:02:58.96,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:01.92,0:03:05.32,Default,,0,0,0,,"Suspicion d’un couple enflammé\N(1re partie)" !
+Dialogue: 0,0:03:10.92,0:03:12.64,Default,,0,0,0,,Non ? C’est le professeur ?
+Dialogue: 0,0:03:15.88,0:03:17.96,Default,,0,0,0,,DÉBUT D’IDYLLE\NENTRE RYÛSUKE ET YÔKO !
+Dialogue: 0,0:03:18.20,0:03:21.76,Default,,0,0,0,,Quoi ? Mais c’est rien\Nqu’un vulgaire potin, ça !
+Dialogue: 0,0:03:21.92,0:03:23.08,Default,,0,0,0,,Tu m’as fait peur !
+Dialogue: 0,0:03:24.24,0:03:26.32,Default,,0,0,0,,- C’est vrai, ça ?\N- Sérieux ?
+Dialogue: 0,0:03:26.48,0:03:28.24,Default,,0,0,0,,C’est un couple de rêve !
+Dialogue: 0,0:03:28.40,0:03:31.72,Default,,0,0,0,,Ils auront sûrement\Nun beau bébé footballer !
+Dialogue: 0,0:03:31.88,0:03:34.44,Default,,0,0,0,,Ou une chanteuse,\Nsi c’est une fille !
+Dialogue: 0,0:03:34.60,0:03:37.44,Default,,0,0,0,,C’est sûr !\NTu n’es pas d’accord, Ai ?
+Dialogue: 0,0:03:39.24,0:03:40.24,Default,,0,0,0,,Ai ?
+Dialogue: 0,0:03:40.52,0:03:42.60,Default,,0,0,0,,Tu es pâle comme un linge...
+Dialogue: 0,0:03:43.00,0:03:45.24,Default,,0,0,0,,Euh... Elle ne respire plus, là...
+Dialogue: 0,0:03:47.20,0:03:50.36,Default,,0,0,0,,{\i1}Minute...{\i0}\N{\i1}S’il s’agit de Yôko Okino...{\i0}
+Dialogue: 0,0:03:50.52,0:03:51.92,Default,,0,0,0,,{\i1}l'autre aussi va déchanter...{\i0}
+Dialogue: 0,0:03:52.20,0:03:53.76,Default,,0,0,0,,Voyons, papa !
+Dialogue: 0,0:03:53.92,0:03:56.76,Default,,0,0,0,,Reprends-toi, bon sang !
+Dialogue: 0,0:03:59.36,0:04:00.36,Default,,0,0,0,,{\i1}Bingo...{\i0}
+Dialogue: 0,0:04:02.28,0:04:04.40,Default,,0,0,0,,{\i1}De plus,{\i0}\N{\i1}les agences des 2 stars,{\i0}
+Dialogue: 0,0:04:04.56,0:04:07.52,Default,,0,0,0,,{\i1}n’ayant pas encore pu{\i0}\N{\i1}les contacter aujourd’hui,{\i0}
+Dialogue: 0,0:04:07.68,0:04:09.88,Default,,0,0,0,,{\i1}n’étaient pas en mesure{\i0}\N{\i1}de commenter.{\i0}
+Dialogue: 0,0:04:10.48,0:04:12.72,Default,,0,0,0,,{\i1}D’après un coéquipier{\i0}\N{\i1}de Ryûsuke...{\i0}
+Dialogue: 0,0:04:23.56,0:04:27.04,Default,,0,0,0,,Dis, pourquoi ne pas vérifier,\Navant de déprimer ?
+Dialogue: 0,0:04:27.52,0:04:30.76,Default,,0,0,0,,Tu enquêtes souvent\Nsur des relations adultères, non ?
+Dialogue: 0,0:04:30.92,0:04:31.96,Default,,0,0,0,,Abrutie !
+Dialogue: 0,0:04:32.12,0:04:36.08,Default,,0,0,0,,Un détective n’enquête pas\Npour assouvir sa propre curiosité !
+Dialogue: 0,0:04:36.24,0:04:38.08,Default,,0,0,0,,Question de principe !
+Dialogue: 0,0:04:38.24,0:04:41.64,Default,,0,0,0,,Et si je vous le demande,\Nvous enquêteriez pour moi ?
+Dialogue: 0,0:04:44.80,0:04:46.04,Default,,0,0,0,,Ai ?
+Dialogue: 0,0:04:47.72,0:04:51.16,Default,,0,0,0,,Enquêtez sur la conduite\Nde Ryûsuke Higo et Yôko Okino.
+Dialogue: 0,0:04:51.68,0:04:52.56,Default,,0,0,0,,C’est une requête !
+Dialogue: 0,0:04:54.00,0:04:55.44,Default,,0,0,0,,Gratuitement, bien sûr !
+Dialogue: 0,0:05:04.40,0:05:06.96,Default,,0,0,0,,OK ! J’accepte ta requête !
+Dialogue: 0,0:05:08.68,0:05:09.84,Default,,0,0,0,,Ils sont tous fous...
+Dialogue: 0,0:05:10.72,0:05:14.08,Default,,0,0,0,,Mais comment\Nvous allez faire pour les trouver ?
+Dialogue: 0,0:05:14.32,0:05:17.44,Default,,0,0,0,,On a affaire à des vedettes,\Non ignore leurs adresses.
+Dialogue: 0,0:05:17.76,0:05:21.60,Default,,0,0,0,,Même leurs agences n’ont pas pu\Nles contacter, paraît-il !
+Dialogue: 0,0:05:21.76,0:05:22.56,Default,,0,0,0,,Crétin !
+Dialogue: 0,0:05:23.20,0:05:26.52,Default,,0,0,0,,Normalement, les agences\Nauraient dû noyer le poisson.
+Dialogue: 0,0:05:26.88,0:05:30.60,Default,,0,0,0,,Il est donc fort probable\Nqu’ignorant cette sale rumeur,
+Dialogue: 0,0:05:30.76,0:05:33.24,Default,,0,0,0,,ces deux-là\Nse voient encore aujourd’hui.
+Dialogue: 0,0:05:33.72,0:05:38.00,Default,,0,0,0,,Il leur suffit de les joindre\Nsur leurs téléphones portable, non ?
+Dialogue: 0,0:05:38.16,0:05:42.60,Default,,0,0,0,,La manager de Yôko se plaignait\Nque Yôko ne percute jamais
+Dialogue: 0,0:05:42.76,0:05:44.16,Default,,0,0,0,,quand le sien est déchargé.
+Dialogue: 0,0:05:44.72,0:05:49.40,Default,,0,0,0,,Et on dit que Ryûsuke coupe le sien\Nquand il ne travaille pas.
+Dialogue: 0,0:05:49.64,0:05:50.40,Default,,0,0,0,,Donc...
+Dialogue: 0,0:05:50.72,0:05:54.16,Default,,0,0,0,,en lançant une recherche\Nsur "Yôko Okino", "Ryûsuke Higo"
+Dialogue: 0,0:05:54.32,0:05:56.24,Default,,0,0,0,,et "rencard" avec la date du jour...
+Dialogue: 0,0:05:58.40,0:05:59.68,Default,,0,0,0,,J’ai une occurrence !
+Dialogue: 0,0:05:59.84,0:06:01.84,Default,,0,0,0,,Un blogueur signale les avoir vus
+Dialogue: 0,0:06:02.36,0:06:03.84,Default,,0,0,0,,dans un resto de Haido !
+Dialogue: 0,0:06:04.20,0:06:07.96,Default,,0,0,0,,Mais ils n’ont fait qu’acheter\Nune montre pour homme ensemble...
+Dialogue: 0,0:06:08.20,0:06:11.52,Default,,0,0,0,,Ryûsuke a peut-être aidé Yôko\Nà choisir un cadeau
+Dialogue: 0,0:06:11.68,0:06:13.44,Default,,0,0,0,,pour son petit frère...
+Dialogue: 0,0:06:13.60,0:06:17.00,Default,,0,0,0,,Et en retour,\NYôko l’a invité pour le remercier.
+Dialogue: 0,0:06:18.00,0:06:19.76,Default,,0,0,0,,Yôko n’a pas de petit frère !
+Dialogue: 0,0:06:20.24,0:06:23.92,Default,,0,0,0,,Et pourquoi justement demander\Nà Ryûsuke de choisir ?
+Dialogue: 0,0:06:24.08,0:06:26.52,Default,,0,0,0,,- C’est incompréhensible !\N- En effet...
+Dialogue: 0,0:06:26.96,0:06:30.20,Default,,0,0,0,,Dans ce cas,\Nc'est qu'ils sortent ensemble !
+Dialogue: 0,0:06:32.60,0:06:34.96,Default,,0,0,0,,Pardon ! Oubliez ce que j’ai dit !
+Dialogue: 0,0:06:35.60,0:06:38.40,Default,,0,0,0,,Et si tu allais dans ce resto,\Npour commencer ?
+Dialogue: 0,0:06:38.56,0:06:40.72,Default,,0,0,0,,Malheureusement,\Nle nom n’est pas cité.
+Dialogue: 0,0:06:40.88,0:06:45.64,Default,,0,0,0,,J’y pense... Un ancien du club\Nde Ryûsuke a pris sa retraite
+Dialogue: 0,0:06:45.80,0:06:48.92,Default,,0,0,0,,et a ouvert\Nun restaurant italien à Haido.
+Dialogue: 0,0:06:49.08,0:06:50.56,Default,,0,0,0,,Où se trouve-t-il ?
+Dialogue: 0,0:06:50.72,0:06:53.88,Default,,0,0,0,,Mais rien ne dit\Nque c’est là-bas qu’ils sont...
+Dialogue: 0,0:06:55.40,0:06:57.20,Default,,0,0,0,,{\i1}Eh si... Et tous les 2, en plus...{\i0}
+Dialogue: 0,0:06:58.00,0:06:59.24,Default,,0,0,0,,{\i1}Quand même...{\i0}
+Dialogue: 0,0:06:59.72,0:07:01.60,Default,,0,0,0,,{\i1}quelle hargne...{\i0}
+Dialogue: 0,0:07:01.76,0:07:03.92,Default,,0,0,0,,{\i1}Tu m'étonnes{\i0}\N{\i1}que Ran se soit abstenue.{\i0}
+Dialogue: 0,0:07:05.72,0:07:07.80,Default,,0,0,0,,Hé ! Qu’est-ce que tu tapes ?
+Dialogue: 0,0:07:08.00,0:07:10.96,Default,,0,0,0,,Le nombre de fois\Nqu'elle lui sourit !
+Dialogue: 0,0:07:13.00,0:07:17.64,Default,,0,0,0,,Tu ne m’as pas dit maintes fois\Nque tu aimais les chansons de Yôko ?
+Dialogue: 0,0:07:17.80,0:07:20.28,Default,,0,0,0,,Je les ai toutes effacées\Ntout à l’heure.
+Dialogue: 0,0:07:21.40,0:07:22.48,Default,,0,0,0,,Et donc...
+Dialogue: 0,0:07:23.12,0:07:26.68,Default,,0,0,0,,c’est cet homme là-bas,\Nl’ancien du club de ce footeux ?
+Dialogue: 0,0:07:28.08,0:07:29.32,Default,,0,0,0,,Mais non !
+Dialogue: 0,0:07:30.04,0:07:34.84,Default,,0,0,0,,Le patron, c'est Teiya Asuka, ancien\Narrière latéral des Tokyo Spirits.
+Dialogue: 0,0:07:35.00,0:07:37.84,Default,,0,0,0,,Il a même joué\Npour l'équipe nationale.
+Dialogue: 0,0:07:38.36,0:07:41.96,Default,,0,0,0,,Cet homme doit être\Nle sommelier du restaurant.
+Dialogue: 0,0:07:42.44,0:07:43.64,Default,,0,0,0,,L’enfoiré !
+Dialogue: 0,0:07:43.80,0:07:46.76,Default,,0,0,0,,Il veut faire quoi\Nen saoulant ma Yôko ?
+Dialogue: 0,0:07:50.12,0:07:52.04,Default,,0,0,0,,Euh... Et M. Asuka ?
+Dialogue: 0,0:07:52.76,0:07:53.76,Default,,0,0,0,,Le gérant ?
+Dialogue: 0,0:07:54.20,0:07:58.44,ST_HAUT,,0,0,0,,Il est parti acheter du vin,\Nil ne devrait plus tarder.
+Dialogue: 0,0:07:59.12,0:08:01.88,Default,,0,0,0,,Je l’envoie à votre table\Ndès son retour ?
+Dialogue: 0,0:08:02.04,0:08:03.72,Default,,0,0,0,,Oui, s’il vous plaît.
+Dialogue: 0,0:08:03.88,0:08:05.36,Default,,0,0,0,,Sur ce, prenez votre temps.
+Dialogue: 0,0:08:07.12,0:08:10.04,ST_HAUT,,0,0,0,,Veuillez m’excuser.\NVoici vos desserts.
+Dialogue: 0,0:08:13.24,0:08:13.92,Default,,0,0,0,,Pardon !
+Dialogue: 0,0:08:15.32,0:08:17.56,Default,,0,0,0,,Cette serveuse\Nest une vraie novice !
+Dialogue: 0,0:08:17.88,0:08:20.36,Default,,0,0,0,,Elle devait être\Nfascinée par Ryûsuke.
+Dialogue: 0,0:08:26.24,0:08:27.44,Default,,0,0,0,,La gaffe...
+Dialogue: 0,0:08:27.60,0:08:30.64,Default,,0,0,0,,C’est pas Higo,\Nune connaissance du patron ?
+Dialogue: 0,0:08:30.80,0:08:33.08,Default,,0,0,0,,Bonjour le savon s’il avait été là !
+Dialogue: 0,0:08:33.68,0:08:34.72,Default,,0,0,0,,Aucun problème...
+Dialogue: 0,0:08:35.16,0:08:37.88,Default,,0,0,0,,Il ne s’est jamais\Nmis en colère contre moi.
+Dialogue: 0,0:08:38.88,0:08:42.12,Default,,0,0,0,,Te la joue pas\Nparce que t’es avec lui !
+Dialogue: 0,0:08:42.52,0:08:45.20,Default,,0,0,0,,Parle pour toi !\NÉvite de te la ramener
+Dialogue: 0,0:08:45.36,0:08:46.64,Default,,0,0,0,,parce que t’es mon ex !
+Dialogue: 0,0:08:49.24,0:08:52.04,ST_HAUT,,0,0,0,,YASUTO KÔNOE (28 ANS) -\NSERVEUR
+Dialogue: 0,0:08:52.88,0:08:55.24,Default,,0,0,0,,Il en met du temps, le patron !
+Dialogue: 0,0:08:55.84,0:08:58.20,Default,,0,0,0,,Oui, il devrait déjà être là...
+Dialogue: 0,0:08:58.36,0:09:00.48,Default,,0,0,0,,On va voir s’il est rentré ?
+Dialogue: 0,0:09:00.64,0:09:01.84,Default,,0,0,0,,Bonne idée...
+Dialogue: 0,0:09:02.36,0:09:05.36,Default,,0,0,0,,Je vais jeter un œil\Nau local avec Yasuto.
+Dialogue: 0,0:09:05.52,0:09:06.16,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:09:06.32,0:09:08.64,Default,,0,0,0,,ENTRÉE - ENTREPÔT - SALLE DE REPOS
+Dialogue: 0,0:09:08.92,0:09:11.68,Default,,0,0,0,,Je te confie l’entrepôt, Reiko.
+Dialogue: 0,0:09:11.84,0:09:13.08,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:09:15.88,0:09:16.88,Default,,0,0,0,,Il n'est pas là.
+Dialogue: 0,0:09:17.64,0:09:20.56,Default,,0,0,0,,Il fait toujours\Nun petit somme ici, pourtant.
+Dialogue: 0,0:09:21.16,0:09:23.84,Default,,0,0,0,,Il semblait manquer de sommeil,\Ndernièrement.
+Dialogue: 0,0:09:26.32,0:09:30.36,Default,,0,0,0,,Au fait, vous vous êtes\Ndisputé avec le patron, hier ?
+Dialogue: 0,0:09:30.52,0:09:32.44,Default,,0,0,0,,Il trouvait mes vins trop chers.
+Dialogue: 0,0:09:33.24,0:09:36.24,Default,,0,0,0,,Mais bon,\Nc’est son restaurant, après tout.
+Dialogue: 0,0:09:36.56,0:09:38.28,Default,,0,0,0,,Il n’est pas à l'entrepôt !
+Dialogue: 0,0:09:38.96,0:09:41.40,Default,,0,0,0,,Attendons encore un peu,\Ndans ce cas.
+Dialogue: 0,0:09:41.56,0:09:42.92,Default,,0,0,0,,- OK.\N- D’accord.
+Dialogue: 0,0:09:45.56,0:09:47.20,Default,,0,0,0,,Ils m’ont encore demandé
+Dialogue: 0,0:09:47.64,0:09:49.64,Default,,0,0,0,,si M. Asuka était rentré...
+Dialogue: 0,0:09:50.48,0:09:51.64,Default,,0,0,0,,C'est ennuyeux...
+Dialogue: 0,0:09:52.08,0:09:54.00,Default,,0,0,0,,On cherche encore ?
+Dialogue: 0,0:09:54.16,0:09:56.32,Default,,0,0,0,,- Vérifions aux toilettes.\N- D’accord.
+Dialogue: 0,0:09:56.48,0:09:59.08,Default,,0,0,0,,Je me charge\Nd’inspecter les toilettes !
+Dialogue: 0,0:09:59.24,0:10:00.72,Default,,0,0,0,,Je compte sur toi.
+Dialogue: 0,0:10:05.96,0:10:08.32,Default,,0,0,0,,Il n’était pas à l'entrepôt.
+Dialogue: 0,0:10:08.76,0:10:10.68,Default,,0,0,0,,Pas aux toilettes non plus !
+Dialogue: 0,0:10:11.36,0:10:12.80,Default,,0,0,0,,Je l'ai trouvé.
+Dialogue: 0,0:10:13.04,0:10:15.00,Default,,0,0,0,,Il fait un somme sur le sofa.
+Dialogue: 0,0:10:15.16,0:10:16.00,Default,,0,0,0,,Sérieux ?
+Dialogue: 0,0:10:16.28,0:10:19.20,Default,,0,0,0,,Oui. Il a même mis\Nsa tête sous la couverture.
+Dialogue: 0,0:10:19.68,0:10:22.12,Default,,0,0,0,,Il ne sait pas que son ami est là ?
+Dialogue: 0,0:10:22.44,0:10:25.52,Default,,0,0,0,,Tant pis. Revenons\Nle réveiller dans 10 minutes.
+Dialogue: 0,0:10:30.48,0:10:32.52,Default,,0,0,0,,Les 10 min sont bientôt passées.
+Dialogue: 0,0:10:32.96,0:10:37.24,Default,,0,0,0,,Bon, je vais au local\Npour réveiller le gérant.
+Dialogue: 0,0:10:37.40,0:10:38.44,Default,,0,0,0,,D'accord...
+Dialogue: 0,0:10:45.80,0:10:47.60,Default,,0,0,0,,C’est un mail du patron.
+Dialogue: 0,0:10:48.40,0:10:53.20,Default,,0,0,0,,"Amène discrètement\NRyûsuke et Yôko à l'entrepôt" ?
+Dialogue: 0,0:10:53.36,0:10:56.00,Default,,0,0,0,,Il s’est réveillé, finalement !
+Dialogue: 0,0:10:56.16,0:10:58.88,Default,,0,0,0,,Bon, je les conduis là-bas...
+Dialogue: 0,0:10:59.08,0:10:59.80,Default,,0,0,0,,S'il te plaît.
+Dialogue: 0,0:11:04.24,0:11:05.28,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:11:05.68,0:11:07.28,Default,,0,0,0,,Il les emmène ailleurs.
+Dialogue: 0,0:11:12.52,0:11:15.48,Default,,0,0,0,,Cette chanteuse\Nne le colle pas un peu trop ?
+Dialogue: 0,0:11:16.48,0:11:18.96,Default,,0,0,0,,C’est ce footeux qui lambine...
+Dialogue: 0,0:11:20.04,0:11:22.60,Default,,0,0,0,,Bon, je vais faire\Nune pause aux toilettes.
+Dialogue: 0,0:11:22.76,0:11:25.68,Default,,0,0,0,,Minute ! On n’a pas\Nle droit de fumer aux W.-C. !
+Dialogue: 0,0:11:27.40,0:11:31.28,Default,,0,0,0,,Ça y sentait pourtant la cigarette,\Ntout à l’heure.
+Dialogue: 0,0:11:31.52,0:11:32.84,Default,,0,0,0,,Ah bon ? C’est vrai ?
+Dialogue: 0,0:11:33.00,0:11:34.00,Default,,0,0,0,,Oui.
+Dialogue: 0,0:11:36.56,0:11:37.84,Default,,0,0,0,,C’était Yôko, ça !
+Dialogue: 0,0:11:39.84,0:11:41.16,Default,,0,0,0,,Où sont-ils passés ?
+Dialogue: 0,0:11:41.44,0:11:43.40,Default,,0,0,0,,Dans l’entrepôt du sous-sol...
+Dialogue: 0,0:11:43.60,0:11:45.28,Default,,0,0,0,,J’espère que ce footeux
+Dialogue: 0,0:11:45.72,0:11:47.92,Default,,0,0,0,,n’a rien fait de déplacé à ma Yôko !
+Dialogue: 0,0:11:48.80,0:11:49.80,Default,,0,0,0,,Yôko !
+Dialogue: 0,0:11:56.76,0:11:59.76,Default,,0,0,0,,Hé ! Teiya !\NAccroche-toi !
+Dialogue: 0,0:12:00.20,0:12:02.64,Default,,0,0,0,,Teiya ! Teiya !
+Dialogue: 0,0:12:08.44,0:12:13.44,Default,,0,0,0,,La victime est le gérant\Nde ce restaurant, Teiya Asuka, 31 ans.
+Dialogue: 0,0:12:13.76,0:12:18.72,Default,,0,0,0,,Heure du décès : il y a environ\Nune heure, entre 19 et 20 heures.
+Dialogue: 0,0:12:18.88,0:12:21.68,Default,,0,0,0,,Cause : carotide tranchée,\Ndonc hémorragie.
+Dialogue: 0,0:12:22.12,0:12:25.40,Default,,0,0,0,,Arme du crime :\Ncutter retrouvé près du cadavre.
+Dialogue: 0,0:12:26.08,0:12:28.36,Default,,0,0,0,,Et justement, il en manquait un
+Dialogue: 0,0:12:28.52,0:12:31.64,Default,,0,0,0,,dans leur salle de pause.
+Dialogue: 0,0:12:31.80,0:12:33.24,Default,,0,0,0,,Il vient sans doute de là.
+Dialogue: 0,0:12:33.40,0:12:34.16,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:12:34.60,0:12:39.56,Default,,0,0,0,,Et les premiers à avoir découvert\Nle corps sont donc ces 2 clients :
+Dialogue: 0,0:12:40.08,0:12:42.44,Default,,0,0,0,,Ryûsuke Higo,\Nfootballeur de J-League,
+Dialogue: 0,0:12:42.60,0:12:45.60,Default,,0,0,0,,et Yôko Okino,\Njeune vedette. C’est exact ?
+Dialogue: 0,0:12:45.76,0:12:46.32,Default,,0,0,0,,Oui !
+Dialogue: 0,0:12:46.60,0:12:50.04,Default,,0,0,0,,Mais que faisaient\Ndes clients dans cet entrepôt ?
+Dialogue: 0,0:12:50.28,0:12:53.04,Default,,0,0,0,,C'est le serveur\Nqui nous y a amenés !
+Dialogue: 0,0:12:53.44,0:12:57.84,Default,,0,0,0,,Il aurait reçu un mail de Teiya\Nlui ordonnant de le faire.
+Dialogue: 0,0:12:58.08,0:12:59.84,Default,,0,0,0,,Vous connaissiez la victime ?
+Dialogue: 0,0:13:00.32,0:13:04.36,Default,,0,0,0,,Oui, Teiya était un ancien\Nde mon club de foot au lycée.
+Dialogue: 0,0:13:04.56,0:13:07.36,Default,,0,0,0,,Je devais le voir\Npour lui demander conseil.
+Dialogue: 0,0:13:07.56,0:13:10.96,Default,,0,0,0,,Moi aussi, je suis\Nune ancienne élève du lycée Kônan.
+Dialogue: 0,0:13:11.32,0:13:15.72,Default,,0,0,0,,Dans ce cas, la victime\Nne vous a pas contactés directement ?
+Dialogue: 0,0:13:16.12,0:13:19.16,Default,,0,0,0,,Non. Lui et moi\Nne sommes pas très proches.
+Dialogue: 0,0:13:19.32,0:13:22.40,Default,,0,0,0,,Moi,\Nj'ai égaré mon portable quelque part.
+Dialogue: 0,0:13:22.60,0:13:24.72,Default,,0,0,0,,Même si je croyais l'avoir amené ici.
+Dialogue: 0,0:13:25.36,0:13:29.48,Default,,0,0,0,,Ensuite, j'aimerais\Nvous poser une autre question...
+Dialogue: 0,0:13:30.08,0:13:32.40,Default,,0,0,0,,Est-ce que vous êtes ensemble ?
+Dialogue: 0,0:13:34.96,0:13:37.92,Default,,0,0,0,,- C'est quoi, cette question ?\N- Vous ne savez pas ?
+Dialogue: 0,0:13:38.08,0:13:40.40,Default,,0,0,0,,On ne parle plus que de ça !
+Dialogue: 0,0:13:40.56,0:13:41.36,Default,,0,0,0,,Regardez.
+Dialogue: 0,0:13:42.60,0:13:46.64,Default,,0,0,0,,On parle d’une idylle\Nentre Yôko Okino et Ryûsuke Higo !
+Dialogue: 0,0:13:48.52,0:13:49.92,Default,,0,0,0,,Alors ? C'est vrai ?
+Dialogue: 0,0:13:50.44,0:13:51.64,Default,,0,0,0,,Répondez !
+Dialogue: 0,0:13:53.64,0:13:56.04,Default,,0,0,0,,Que font Môri et ces enfants ici ?
+Dialogue: 0,0:13:56.32,0:13:58.16,Default,,0,0,0,,Un pur hasard, il paraît...
+Dialogue: 0,0:13:58.76,0:14:03.44,Default,,0,0,0,,Et pourquoi ne pas interroger\Nles employés du restaurant ?
+Dialogue: 0,0:14:04.12,0:14:07.84,Default,,0,0,0,,Ils semblaient plutôt agités\Navant la découverte du corps.
+Dialogue: 0,0:14:10.36,0:14:11.72,Default,,0,0,0,,Nous, agités ?
+Dialogue: 0,0:14:12.16,0:14:14.92,Default,,0,0,0,,Ah !\NComme M. Asuka tardait à rentrer,
+Dialogue: 0,0:14:15.08,0:14:17.56,Default,,0,0,0,,on s'est séparés pour le chercher.
+Dialogue: 0,0:14:17.80,0:14:21.60,Default,,0,0,0,,Il était rentré en catimini\Npour dormir dans le local.
+Dialogue: 0,0:14:21.76,0:14:24.48,Default,,0,0,0,,Et comme des clients\Nsouhaitaient le voir...
+Dialogue: 0,0:14:24.76,0:14:27.12,Default,,0,0,0,,Lui et moi\Nsommes allés voir en salle de repos.
+Dialogue: 0,0:14:27.28,0:14:29.44,Default,,0,0,0,,Il devait être 19 heures.
+Dialogue: 0,0:14:30.28,0:14:33.40,Default,,0,0,0,,Quant à elle,\Nje l’ai envoyée vérifier à l’entrepôt.
+Dialogue: 0,0:14:34.28,0:14:35.72,Default,,0,0,0,,De quel local parlez-vous ?
+Dialogue: 0,0:14:36.48,0:14:39.68,Default,,0,0,0,,C'est cette pièce-ci,\Nelle fait office de vestiaire.
+Dialogue: 0,0:14:41.72,0:14:43.48,Default,,0,0,0,,Et où sommeillait-il ?
+Dialogue: 0,0:14:43.64,0:14:44.56,Default,,0,0,0,,Sur ce sofa.
+Dialogue: 0,0:14:45.32,0:14:48.80,Default,,0,0,0,,Mais au départ,\Nil n'y avait que cette couverture.
+Dialogue: 0,0:14:49.40,0:14:50.76,Default,,0,0,0,,Sans personne dedans.
+Dialogue: 0,0:14:53.28,0:14:57.52,Default,,0,0,0,,Le gérant n'était pas dans l'entrepôt\Nquand vous êtes allée voir ?
+Dialogue: 0,0:14:58.00,0:14:58.56,Default,,0,0,0,,Non...
+Dialogue: 0,0:14:59.04,0:15:03.28,Default,,0,0,0,,Mais quand on est retournés\Nchercher 10 minutes plus tard.
+Dialogue: 0,0:15:03.56,0:15:07.08,Default,,0,0,0,,Cette fois, c’est moi\Nqui ai vérifié dans le local.
+Dialogue: 0,0:15:07.28,0:15:09.76,Default,,0,0,0,,Et ce coup-ci, M. Asuka y était.
+Dialogue: 0,0:15:10.04,0:15:11.24,Default,,0,0,0,,Non ? Le gérant !
+Dialogue: 0,0:15:11.56,0:15:15.76,Default,,0,0,0,,Oui. Il dormait sur le sofa,\Nle visage sous une couverture.
+Dialogue: 0,0:15:16.24,0:15:19.76,Default,,0,0,0,,C'étaient ses chaussures\Nprès du sofa, j'en suis certaine !
+Dialogue: 0,0:15:20.08,0:15:23.44,Default,,0,0,0,,Et pourtant...\NPourquoi est-il...
+Dialogue: 0,0:15:25.92,0:15:27.72,Default,,0,0,0,,Bien, et ensuite ?
+Dialogue: 0,0:15:27.88,0:15:32.28,Default,,0,0,0,,Eh bien, j'ai proposé d'attendre\N10 minutes avant de le réveiller.
+Dialogue: 0,0:15:32.72,0:15:35.00,Default,,0,0,0,,Mais il ne dormait plus sur le sofa.
+Dialogue: 0,0:15:35.16,0:15:38.48,Default,,0,0,0,,C'est à ce moment\Nque j'ai reçu un mail de M. Asuka.
+Dialogue: 0,0:15:38.76,0:15:42.92,Default,,0,0,0,,Il disait : "Amène discrètement\NRyûsuke et Yôko à l'entrepôt."
+Dialogue: 0,0:15:44.68,0:15:46.56,Default,,0,0,0,,Et il était quelle heure ?
+Dialogue: 0,0:15:46.84,0:15:48.84,Default,,0,0,0,,19 heures 30.
+Dialogue: 0,0:15:49.36,0:15:52.84,Default,,0,0,0,,Je les ai donc guidés\Njusqu’à l’endroit en question.
+Dialogue: 0,0:15:53.40,0:15:56.68,Default,,0,0,0,,Mais M. Asuka n’a pas répondu\Nquand je l’ai appelé.
+Dialogue: 0,0:15:57.36,0:16:01.00,Default,,0,0,0,,J’ai alors cru\Nqu’il était retourné au local.
+Dialogue: 0,0:16:01.28,0:16:04.44,Default,,0,0,0,,J’ai donc laissé les clients\Npour aller vérifier,
+Dialogue: 0,0:16:04.60,0:16:05.92,Default,,0,0,0,,mais seul M. Yamada y était.
+Dialogue: 0,0:16:06.48,0:16:10.08,Default,,0,0,0,,Et alors qu’on se demandait\Noù M. Asuka était passé...
+Dialogue: 0,0:16:10.24,0:16:12.32,Default,,0,0,0,,on a entendu le cri de Mlle Okino...
+Dialogue: 0,0:16:12.52,0:16:14.32,Default,,0,0,0,,On est allés vers l’entrepôt...
+Dialogue: 0,0:16:14.76,0:16:17.08,Default,,0,0,0,,Et le détective Môri est arrivé...
+Dialogue: 0,0:16:17.24,0:16:20.56,Default,,0,0,0,,Avouez ! Vous avez insisté\Npour inviter Yôko dans ce resto !
+Dialogue: 0,0:16:20.72,0:16:21.88,Default,,0,0,0,,Euh... Non...
+Dialogue: 0,0:16:22.12,0:16:24.60,Default,,0,0,0,,L’invitation\Nne venait pas plutôt de vous ?
+Dialogue: 0,0:16:26.00,0:16:28.12,Default,,0,0,0,,{\i1}Mais sur quoi ils enquêtent ?{\i0}
+Dialogue: 0,0:16:29.00,0:16:31.76,Default,,0,0,0,,Vous avez découvert\Nle corps en attendant ici ?
+Dialogue: 0,0:16:31.92,0:16:34.92,Default,,0,0,0,,Oui, quand on a commencé\Nà faire le tour de l'entrepôt
+Dialogue: 0,0:16:35.12,0:16:37.28,Default,,0,0,0,,car le serveur\Nprenait trop de temps...
+Dialogue: 0,0:16:37.44,0:16:39.76,Default,,0,0,0,,Il devait être 19 heures 50.
+Dialogue: 0,0:16:40.32,0:16:44.00,Default,,0,0,0,,19 heures 50 ? Ça colle\Navec l’heure supposée du décès.
+Dialogue: 0,0:16:44.16,0:16:46.56,Default,,0,0,0,,Oui,\Nça en fait également des suspects.
+Dialogue: 0,0:16:48.76,0:16:52.56,Default,,0,0,0,,Quoi qu’il en soit, je vais\Nvous interroger individuellement.
+Dialogue: 0,0:16:53.48,0:16:55.08,Default,,0,0,0,,Je vous l’ai déjà dit.
+Dialogue: 0,0:16:55.40,0:16:57.20,Default,,0,0,0,,Je ne peux pas l’avoir tué !
+Dialogue: 0,0:16:57.40,0:16:59.40,Default,,0,0,0,,Quand j’ai commencé\Nà le chercher,
+Dialogue: 0,0:16:59.56,0:17:02.96,Default,,0,0,0,,c’était ici avec M. Yamada,\Npuis aux toilettes...
+Dialogue: 0,0:17:03.44,0:17:06.20,Default,,0,0,0,,Enfin, quand j’ai conduit\Nce couple à l'entrepôt,
+Dialogue: 0,0:17:06.44,0:17:08.64,Default,,0,0,0,,je n’ai fait\Nqu’appeler le gérant,
+Dialogue: 0,0:17:08.80,0:17:10.60,Default,,0,0,0,,je ne suis pas allé au fond.
+Dialogue: 0,0:17:10.80,0:17:11.32,Default,,0,0,0,,Pourtant...
+Dialogue: 0,0:17:12.12,0:17:15.40,Default,,0,0,0,,vous avez pu gagner l'entrepôt\Nen feignant d’aller aux W.-C.
+Dialogue: 0,0:17:15.56,0:17:17.96,Default,,0,0,0,,pendant que Mlle Banba\Nservait les clients.
+Dialogue: 0,0:17:18.36,0:17:22.16,Default,,0,0,0,,Impossible !\NL'entrepôt est toujours fermé à clé !
+Dialogue: 0,0:17:22.32,0:17:25.24,Default,,0,0,0,,Et la clé est toujours\Naccrochée au mur de l’entrée,
+Dialogue: 0,0:17:25.40,0:17:27.96,Default,,0,0,0,,de manière\Nà ce que toute l’équipe la voie.
+Dialogue: 0,0:17:28.20,0:17:30.48,Default,,0,0,0,,Pourquoi l'exposer ainsi ?
+Dialogue: 0,0:17:30.76,0:17:33.12,Default,,0,0,0,,Avant, un employé s’introduisait
+Dialogue: 0,0:17:33.28,0:17:36.08,Default,,0,0,0,,dans l'entrepôt\Nou ce vestiaire pour fumer.
+Dialogue: 0,0:17:36.36,0:17:38.08,Default,,0,0,0,,C'était pour empêcher ça.
+Dialogue: 0,0:17:38.52,0:17:40.36,Default,,0,0,0,,M. Asuka détestait qu'on fume.
+Dialogue: 0,0:17:40.84,0:17:43.40,Default,,0,0,0,,Donc cette pièce\Nétait également fermée ?
+Dialogue: 0,0:17:43.56,0:17:45.60,Default,,0,0,0,,Oui, ainsi que la porte de derrière.
+Dialogue: 0,0:17:45.84,0:17:48.36,Default,,0,0,0,,M. Asuka était le seul\Nà avoir les doubles.
+Dialogue: 0,0:17:49.08,0:17:51.80,Default,,0,0,0,,On les a retrouvés sur son corps ?
+Dialogue: 0,0:17:51.96,0:17:54.24,Default,,0,0,0,,Oui, dans la poche de son pantalon.
+Dialogue: 0,0:17:54.68,0:17:58.08,Default,,0,0,0,,Par contre,\Non n’a pas trouvé son portable.
+Dialogue: 0,0:17:58.32,0:18:01.44,Default,,0,0,0,,L’expert est en train\Nde chercher dans l'entrepôt.
+Dialogue: 0,0:18:01.64,0:18:02.64,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:18:03.52,0:18:04.36,Default,,0,0,0,,En tout cas,
+Dialogue: 0,0:18:04.92,0:18:06.20,Default,,0,0,0,,ce n'est pas moi !
+Dialogue: 0,0:18:06.36,0:18:08.44,Default,,0,0,0,,Je n’avais rien contre M. Asuka !
+Dialogue: 0,0:18:09.40,0:18:12.68,Default,,0,0,0,,C’était pourtant vous\Nqui fumiez ici, non ?
+Dialogue: 0,0:18:13.68,0:18:15.48,Default,,0,0,0,,La serveuse me l’a dit !
+Dialogue: 0,0:18:15.64,0:18:17.76,Default,,0,0,0,,Le gérant\Nvous aurait même sermonné !
+Dialogue: 0,0:18:18.04,0:18:19.28,Default,,0,0,0,,C’est ça, le mobile ?
+Dialogue: 0,0:18:19.44,0:18:21.68,Default,,0,0,0,,Mais non, pas du tout...
+Dialogue: 0,0:18:22.00,0:18:25.20,Default,,0,0,0,,Dépêchez-vous d’avouer,\Nsi c’est vous le coupable.
+Dialogue: 0,0:18:25.96,0:18:30.44,Default,,0,0,0,,Et si vous parlez de mobiles,\Nles 2 autres en ont plus que moi !
+Dialogue: 0,0:18:32.00,0:18:36.84,Default,,0,0,0,,M. Yamada, s’est disputé hier soir\Navec M. Asuka à cause des vins !
+Dialogue: 0,0:18:37.04,0:18:40.00,Default,,0,0,0,,Quant à Reiko Banba,\Nelle était avec le gérant !
+Dialogue: 0,0:18:40.80,0:18:41.68,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:18:43.48,0:18:46.84,Default,,0,0,0,,Peut-être qu'ils ont rompu,\Net que du coup, elle l'a tué !
+Dialogue: 0,0:18:48.24,0:18:49.36,Default,,0,0,0,,Oui, c'est exact.
+Dialogue: 0,0:18:49.84,0:18:52.16,Default,,0,0,0,,J'étais en couple avec M. Asuka.
+Dialogue: 0,0:18:52.32,0:18:54.08,Default,,0,0,0,,Mais on n’a jamais rompu !
+Dialogue: 0,0:18:54.36,0:18:56.92,Default,,0,0,0,,Pourtant,\Nd’après M. Kônoe, le serveur,
+Dialogue: 0,0:18:57.08,0:19:00.12,Default,,0,0,0,,vous ne rentriez plus ensemble,\Ndernièrement.
+Dialogue: 0,0:19:00.60,0:19:03.16,Default,,0,0,0,,Ça, c’est parce qu’il dormait ici
+Dialogue: 0,0:19:03.32,0:19:06.16,Default,,0,0,0,,pour réfléchir à un moyen\Nde remonter la pente.
+Dialogue: 0,0:19:06.32,0:19:08.16,Default,,0,0,0,,Ah bon ? Il dormait ici ?
+Dialogue: 0,0:19:08.72,0:19:09.76,Default,,0,0,0,,Exact !
+Dialogue: 0,0:19:09.92,0:19:13.96,Default,,0,0,0,,D’ailleurs, le casier de gauche\Nest rempli d’affaires de rechange !
+Dialogue: 0,0:19:17.72,0:19:18.84,Default,,0,0,0,,En effet...
+Dialogue: 0,0:19:19.52,0:19:21.32,Default,,0,0,0,,Il y a même des chaussures.
+Dialogue: 0,0:19:21.96,0:19:26.16,Default,,0,0,0,,Si le serveur a dit ça,\Nc’est parce que c’est mon ex !
+Dialogue: 0,0:19:26.32,0:19:27.68,Default,,0,0,0,,Il doit être jaloux !
+Dialogue: 0,0:19:28.44,0:19:30.60,Default,,0,0,0,,Votre ex, dites-vous ?
+Dialogue: 0,0:19:30.76,0:19:31.76,Default,,0,0,0,,Mais...
+Dialogue: 0,0:19:32.08,0:19:35.60,Default,,0,0,0,,S’il était sous une couverture\Nquand il dormait sur ce sofa,
+Dialogue: 0,0:19:35.76,0:19:37.32,Default,,0,0,0,,son visage devait être caché...
+Dialogue: 0,0:19:37.48,0:19:38.80,Default,,0,0,0,,Oui, c’est vrai...
+Dialogue: 0,0:19:39.16,0:19:42.96,Default,,0,0,0,,On pouvait très bien mettre\Nquelque chose sous la couverture
+Dialogue: 0,0:19:43.12,0:19:45.16,Default,,0,0,0,,pour faire croire qu’il dormait là.
+Dialogue: 0,0:19:45.64,0:19:49.48,Default,,0,0,0,,Pardon ? Et qu’est-ce\Nque j’aurais gagné à faire ça ?
+Dialogue: 0,0:19:49.80,0:19:52.24,Default,,0,0,0,,Lors de votre premier passage\Nà l’entrepôt,
+Dialogue: 0,0:19:52.40,0:19:54.48,Default,,0,0,0,,vous avez tué M. Asuka.
+Dialogue: 0,0:19:54.68,0:19:58.40,Default,,0,0,0,,Ensuite, vous avez fait croire\Nqu’il était toujours en vie.
+Dialogue: 0,0:19:58.80,0:20:01.12,Default,,0,0,0,,Mais M. Yamada était à l'entrepôt
+Dialogue: 0,0:20:01.28,0:20:04.44,Default,,0,0,0,,quand je suis venue\Nchercher dans ce local !
+Dialogue: 0,0:20:04.92,0:20:08.16,Default,,0,0,0,,Dans votre thèse,\Nil aurait dû découvrir le corps !
+Dialogue: 0,0:20:08.32,0:20:09.68,Default,,0,0,0,,C'est vrai...
+Dialogue: 0,0:20:09.92,0:20:13.56,Default,,0,0,0,,Au passage,\Nce local est vraiment impeccable...
+Dialogue: 0,0:20:14.16,0:20:16.84,Default,,0,0,0,,Évidemment !\NLe gérant restait souvent seul
+Dialogue: 0,0:20:17.00,0:20:20.00,Default,,0,0,0,,après la fermeture\Npour faire le ménage.
+Dialogue: 0,0:20:20.40,0:20:22.32,Default,,0,0,0,,Il aimait la propreté ?
+Dialogue: 0,0:20:22.72,0:20:25.88,Default,,0,0,0,,Oui. Il m’arrivait même\Nde l’entendre passer l’aspirateur
+Dialogue: 0,0:20:26.04,0:20:27.44,Default,,0,0,0,,là où j'avais déjà nettoyé.
+Dialogue: 0,0:20:28.12,0:20:31.64,Default,,0,0,0,,Il aspirait jusqu'à la moindre\Npetite poussière...
+Dialogue: 0,0:20:34.12,0:20:36.44,Default,,0,0,0,,Quand je suis allé dans l’entrepôt ?
+Dialogue: 0,0:20:36.80,0:20:39.16,Default,,0,0,0,,Non, M. Asuka n’y était pas.
+Dialogue: 0,0:20:39.32,0:20:41.16,Default,,0,0,0,,Même si, comme le serveur,
+Dialogue: 0,0:20:41.32,0:20:43.96,Default,,0,0,0,,je n’ai fait\Nque l’appeler de l’entrée.
+Dialogue: 0,0:20:44.24,0:20:45.04,Default,,0,0,0,,Autrement dit,
+Dialogue: 0,0:20:45.20,0:20:49.36,Default,,0,0,0,,il était peut-être\Ndéjà mort au fond de l'entrepôt...
+Dialogue: 0,0:20:49.52,0:20:50.96,Default,,0,0,0,,Oui, vu comme ça...
+Dialogue: 0,0:20:51.56,0:20:55.36,Default,,0,0,0,,À ce propos, le ton est monté\Nentre le gérant et vous, hier soir ?
+Dialogue: 0,0:20:55.76,0:20:59.52,Default,,0,0,0,,Oui, les affaires ne marchaient\Npas très bien, dernièrement.
+Dialogue: 0,0:20:59.68,0:21:03.08,Default,,0,0,0,,M. Asuka souhaitait donc changer\Npour des vins moins chers.
+Dialogue: 0,0:21:03.24,0:21:06.12,Default,,0,0,0,,Lui qui désirait pourtant\Nl’authenticité italienne.
+Dialogue: 0,0:21:06.28,0:21:08.84,Default,,0,0,0,,Je lui ai juste fait remarquer !
+Dialogue: 0,0:21:09.20,0:21:11.04,Default,,0,0,0,,Et vous l’avez donc tué.
+Dialogue: 0,0:21:12.04,0:21:14.80,Default,,0,0,0,,Pour acheter\Ndes vins onéreux à votre goût !
+Dialogue: 0,0:21:14.96,0:21:18.12,Default,,0,0,0,,Comment le pourrais-je,\Ns'il est mort ?
+Dialogue: 0,0:21:19.08,0:21:20.08,Default,,0,0,0,,Inspecteur,
+Dialogue: 0,0:21:21.04,0:21:25.12,Default,,0,0,0,,on a trouvé tous ces mégots\Ndans la poubelle des toilettes.
+Dialogue: 0,0:21:25.88,0:21:28.12,Default,,0,0,0,,C’est pourtant interdit\Nd’y fumer, non ?
+Dialogue: 0,0:21:28.28,0:21:30.88,Default,,0,0,0,,Si, mais c’est sûrement le serveur.
+Dialogue: 0,0:21:31.56,0:21:35.68,Default,,0,0,0,,Il s’est déjà fait sermonner\Npar le gérant parce qu’il fumait ici.
+Dialogue: 0,0:21:35.84,0:21:38.56,Default,,0,0,0,,Il devait sûrement\Nfumer en douce aux toilettes.
+Dialogue: 0,0:21:38.92,0:21:42.72,Default,,0,0,0,,Vu qu’on peut toujours prétexter\Nque c’est les clients.
+Dialogue: 0,0:21:42.88,0:21:45.08,Default,,0,0,0,,Voila pourquoi ça puait la clope !
+Dialogue: 0,0:21:45.60,0:21:48.36,Default,,0,0,0,,Quand j’y repense,\Nquand j’ai parlé des W.-C.,
+Dialogue: 0,0:21:48.52,0:21:50.60,Default,,0,0,0,,il a aussitôt proposé d’y aller.
+Dialogue: 0,0:21:50.96,0:21:54.24,Default,,0,0,0,,Probablement\Npour qu’on ne découvre pas l’odeur.
+Dialogue: 0,0:21:57.88,0:21:59.68,Default,,0,0,0,,{\i1}Il y a 5 suspects,{\i0}
+Dialogue: 0,0:21:59.84,0:22:01.88,Default,,0,0,0,,{\i1}et ce trio est particulièrement louche.{\i0}
+Dialogue: 0,0:22:04.24,0:22:08.60,Default,,0,0,0,,{\i1}Mais comment le coupable{\i0}\N{\i1}a-t-il bien pu commettre son crime ?{\i0}
+Dialogue: 0,0:22:20.72,0:22:22.96,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:23.32,0:22:25.56,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

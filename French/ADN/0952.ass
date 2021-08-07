@@ -1,0 +1,404 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:30.11,0:00:33.03,Default,,0,0,0,,Tu as commis une grave erreur,\NShûichi Akai.
+Dialogue: 0,0:00:34.32,0:00:38.37,Default,,0,0,0,,Je crois pouvoir te retourner\Nces paroles telles quelles...
+Dialogue: 0,0:00:44.21,0:00:45.21,Default,,0,0,0,,Bourbon...
+Dialogue: 0,0:00:47.58,0:00:49.96,Default,,0,0,0,,{\i1}Un éclair illumine les ténèbres !{\i0}
+Dialogue: 0,0:00:50.13,0:00:51.92,Default,,0,0,0,,{\i1}Sois transcendante,\Ndéduction posée !{\i0}
+Dialogue: 0,0:00:52.17,0:00:55.68,Default,,0,0,0,,{\i1}Une affaire inattendue\Nsuccédera à cette rencontre de titans !{\i0}
+Dialogue: 0,0:00:55.93,0:00:59.01,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:59.18,0:01:00.89,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:05.73,0:01:08.15,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:12.15,0:01:14.65,Default,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:01:16.40,0:01:18.78,Default,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:01:21.37,0:01:23.87,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:25.87,0:01:28.38,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:36.97,0:01:39.80,ST_HAUT_GAUCHE,,0,0,0,,Générique d'ouverture :
+Dialogue: 0,0:01:58.41,0:02:00.66,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:09.58,0:02:12.09,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:13.96,0:02:16.38,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:18.30,0:02:21.26,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:31.06,0:02:33.48,Default,,0,0,0,,{\i1}L'énigme du cocktail (1re partie) !{\i0}
+Dialogue: 0,0:02:36.53,0:02:39.78,Default,,0,0,0,,9 HEURES PLUS TÔT...
+Dialogue: 0,0:02:40.99,0:02:44.28,Default,,0,0,0,,Quoi ?\NVous vous apprêtiez à sortir ?
+Dialogue: 0,0:02:44.66,0:02:45.29,Default,,0,0,0,,Exact.
+Dialogue: 0,0:02:45.66,0:02:49.54,Default,,0,0,0,,Quel dommage. Moi qui vous avais\Napporté des sandwichs...
+Dialogue: 0,0:02:49.71,0:02:51.29,Default,,0,0,0,,Toujours aussi gentil !
+Dialogue: 0,0:02:51.62,0:02:55.46,Default,,0,0,0,,Tu n'as qu'à les laisser ici,\Non les mangera ce soir.
+Dialogue: 0,0:02:55.63,0:02:56.71,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:02:57.01,0:02:59.88,Default,,0,0,0,,Ce sont des invendus du {\i1}Poirot{\i0},\Nde toute façon, non ?
+Dialogue: 0,0:03:00.05,0:03:01.43,Default,,0,0,0,,Voyons, papa !
+Dialogue: 0,0:03:02.43,0:03:03.64,Default,,0,0,0,,Je suis démasqué ?
+Dialogue: 0,0:03:04.85,0:03:08.35,Default,,0,0,0,,C'est pour une nouvelle affaire\Nque vous sortez ?
+Dialogue: 0,0:03:08.85,0:03:10.56,Default,,0,0,0,,Qu'est-ce qui te fait penser ça ?
+Dialogue: 0,0:03:11.52,0:03:15.15,Default,,0,0,0,,On pouvait très bien sortir\Nmanger tous ensemble, non ?
+Dialogue: 0,0:03:15.32,0:03:19.78,Default,,0,0,0,,M. Môri a dit\Nqu'il mangerait mes sandwichs ce soir.
+Dialogue: 0,0:03:20.11,0:03:23.49,Default,,0,0,0,,Ce serait donc bizarre\Nque vous sortiez dîner.
+Dialogue: 0,0:03:23.99,0:03:25.87,Default,,0,0,0,,Qu'en est-il, maître Môri ?
+Dialogue: 0,0:03:26.37,0:03:28.50,Default,,0,0,0,,Disons que tu as à moitié bon.
+Dialogue: 0,0:03:28.75,0:03:33.00,Default,,0,0,0,,Un homme fortuné s'affole\Nd'avoir reçu une lettre de menaces.
+Dialogue: 0,0:03:34.00,0:03:35.67,Default,,0,0,0,,J'emmène Ran et Conan avec moi
+Dialogue: 0,0:03:35.84,0:03:40.13,Default,,0,0,0,,pour écouter ce qu'il avait à dire\Ndevant un petit dîner.
+Dialogue: 0,0:03:40.34,0:03:41.42,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:03:41.80,0:03:43.64,Default,,0,0,0,,Je ne suis pas encore au point.
+Dialogue: 0,0:03:44.09,0:03:45.43,Default,,0,0,0,,Ah, j'y pense !
+Dialogue: 0,0:03:45.60,0:03:48.39,Default,,0,0,0,,Vu qu'on parle d'affaire,\Nton voyage scolaire
+Dialogue: 0,0:03:48.77,0:03:51.73,Default,,0,0,0,,n'a pas semblé être de tout repos, Ran !
+Dialogue: 0,0:03:51.89,0:03:53.27,Default,,0,0,0,,En effet...
+Dialogue: 0,0:03:53.56,0:03:54.52,Default,,0,0,0,,Par chance,
+Dialogue: 0,0:03:55.36,0:03:58.53,Default,,0,0,0,,l'affaire a pu être résolue\Nsans encombre
+Dialogue: 0,0:03:58.86,0:04:01.03,Default,,0,0,0,,grâce à ton camarade, Shinichi Kudô.
+Dialogue: 0,0:04:01.49,0:04:03.41,Default,,0,0,0,,En effet...
+Dialogue: 0,0:04:03.78,0:04:05.66,Default,,0,0,0,,Où est-il à présent ?
+Dialogue: 0,0:04:05.82,0:04:06.91,Default,,0,0,0,,Désolée...
+Dialogue: 0,0:04:07.24,0:04:09.87,Default,,0,0,0,,Mais nos professeurs\Nnous ont demandé de...
+Dialogue: 0,0:04:10.50,0:04:13.62,Default,,0,0,0,,{\i1}J'en étais sûr...\NIl est venu enquêter à mon sujet.{\i0}
+Dialogue: 0,0:04:14.08,0:04:15.17,Default,,0,0,0,,Pourtant,
+Dialogue: 0,0:04:15.42,0:04:19.59,Default,,0,0,0,,d'après Sonoko, tu irais souvent\Nfaire le ménage chez lui.
+Dialogue: 0,0:04:19.75,0:04:21.97,Default,,0,0,0,,Oui, de temps en temps...
+Dialogue: 0,0:04:22.30,0:04:23.26,Default,,0,0,0,,Dis !
+Dialogue: 0,0:04:24.13,0:04:27.43,Default,,0,0,0,,Viens voir avec nous\Nde quoi cette affaire retourne !
+Dialogue: 0,0:04:27.72,0:04:30.35,Default,,0,0,0,,Tu es le disciple de tonton, pas vrai ?
+Dialogue: 0,0:04:30.56,0:04:32.02,Default,,0,0,0,,Moi ? Je peux ?
+Dialogue: 0,0:04:32.43,0:04:34.27,Default,,0,0,0,,Bien sûr que tu peux venir !
+Dialogue: 0,0:04:34.64,0:04:38.52,Default,,0,0,0,,On va dire que ces sandwichs\Npaieront ta leçon du soir !
+Dialogue: 0,0:04:39.48,0:04:40.61,Default,,0,0,0,,Très bien.
+Dialogue: 0,0:04:41.03,0:04:43.78,Default,,0,0,0,,J'ai terminé mon service, après tout.
+Dialogue: 0,0:04:46.66,0:04:48.41,Default,,0,0,0,,Et vu que tu as l'air
+Dialogue: 0,0:04:48.87,0:04:49.91,Default,,0,0,0,,d'y tenir...
+Dialogue: 0,0:04:54.04,0:04:54.79,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:04:55.21,0:04:56.42,Default,,0,0,0,,Mince !
+Dialogue: 0,0:04:58.25,0:05:01.00,Default,,0,0,0,,On dirait\Nque j'ai oublié mon portable...
+Dialogue: 0,0:05:01.17,0:05:02.55,Default,,0,0,0,,Ah bon ?\NEt où ça ?
+Dialogue: 0,0:05:02.96,0:05:03.88,Default,,0,0,0,,À mon avis,
+Dialogue: 0,0:05:04.05,0:05:08.01,Default,,0,0,0,,j'ai dû le laisser\Nà côté de l'assiette de sandwichs.
+Dialogue: 0,0:05:08.18,0:05:10.68,Default,,0,0,0,,Tu es sûr que tu l'avais sorti ?
+Dialogue: 0,0:05:11.14,0:05:13.77,Default,,0,0,0,,Oui, un ami m'a appelé\Nau moment où je montais
+Dialogue: 0,0:05:13.93,0:05:15.69,Default,,0,0,0,,vous apporter l'assiette.
+Dialogue: 0,0:05:15.98,0:05:18.10,Default,,0,0,0,,Je vais le chercher, alors.
+Dialogue: 0,0:05:18.56,0:05:19.81,Default,,0,0,0,,Merci, Ran.
+Dialogue: 0,0:05:20.19,0:05:22.73,Default,,0,0,0,,C'est pas vrai...\NQuelle tête en l'air tu fais !
+Dialogue: 0,0:05:23.23,0:05:25.07,Default,,0,0,0,,Oui, c'est indigne d'un détective.
+Dialogue: 0,0:05:38.38,0:05:40.21,Default,,0,0,0,,Il était bien là-haut.
+Dialogue: 0,0:05:40.38,0:05:41.29,Default,,0,0,0,,Parfait.
+Dialogue: 0,0:05:41.63,0:05:43.00,Default,,0,0,0,,Merci beaucoup.
+Dialogue: 0,0:05:43.84,0:05:46.76,Default,,0,0,0,,Bon, débarquons en force, alors !
+Dialogue: 0,0:05:48.22,0:05:48.97,Default,,0,0,0,,Au fait,
+Dialogue: 0,0:05:49.47,0:05:51.22,Default,,0,0,0,,dans quel restaurant on va ?
+Dialogue: 0,0:05:51.97,0:05:55.23,Default,,0,0,0,,Ça s'appelle "{\i1}Le Lapin noir{\i0}", il paraît.
+Dialogue: 0,0:05:55.64,0:05:58.73,Default,,0,0,0,,Ça doit sûrement être\Nun de ces restos chicos...
+Dialogue: 0,0:05:59.15,0:06:01.36,Default,,0,0,0,,Ou alors\Nun vieux restaurant occidental !
+Dialogue: 0,0:06:02.07,0:06:03.98,Default,,0,0,0,,J'ai hâte d'y être !\NPas toi, Conan ?
+Dialogue: 0,0:06:04.28,0:06:04.86,Default,,0,0,0,,Si !
+Dialogue: 0,0:06:10.45,0:06:12.12,Default,,0,0,0,,Attends une minute !
+Dialogue: 0,0:06:13.20,0:06:16.12,Default,,0,0,0,,Ce n'est pas du tout\Nun restaurant haut de gamme !
+Dialogue: 0,0:06:17.79,0:06:19.37,Default,,0,0,0,,LE LAPIN NOIR
+Dialogue: 0,0:06:20.54,0:06:22.75,Default,,0,0,0,,C'est un bar à {\i1}bunny girls{\i0} !
+Dialogue: 0,0:06:33.39,0:06:35.27,Default,,0,0,0,,C'est vrai qu'il porte bien son nom.
+Dialogue: 0,0:06:35.64,0:06:38.39,Default,,0,0,0,,C'est plein de petites lapines noires !
+Dialogue: 0,0:06:39.73,0:06:41.15,Default,,0,0,0,,C'est à peine croyable...
+Dialogue: 0,0:06:41.86,0:06:46.07,Default,,0,0,0,,Si j'avais su,\Nje n'aurais pas amené Conan !
+Dialogue: 0,0:06:46.40,0:06:48.03,Default,,0,0,0,,Moi, ça ne me dérange pas.
+Dialogue: 0,0:06:48.99,0:06:53.28,Default,,0,0,0,,Regarde ! Il y a de l'omelette\Net du curry, ç'a l'air bon !
+Dialogue: 0,0:06:55.04,0:06:56.45,Default,,0,0,0,,Désolé pour l'attente.
+Dialogue: 0,0:06:56.75,0:06:59.21,Default,,0,0,0,,Vous êtes bien Kogorô Môri,\Nle détective ?
+Dialogue: 0,0:06:59.83,0:07:04.21,ST_HAUT,,0,0,0,,Enchanté, je suis Gunzô Morooka.\NC'est moi qui vous ai contacté.
+Dialogue: 0,0:07:04.92,0:07:05.75,Default,,0,0,0,,Enchanté.
+Dialogue: 0,0:07:06.05,0:07:08.72,Default,,0,0,0,,Et cette fameuse lettre de menaces ?
+Dialogue: 0,0:07:09.30,0:07:11.22,Default,,0,0,0,,Je l'ai amenée, bien sûr.
+Dialogue: 0,0:07:11.76,0:07:13.85,Default,,0,0,0,,Fukamachi.\NMontrez-lui, je vous prie.
+Dialogue: 0,0:07:14.10,0:07:15.47,Default,,0,0,0,,Bien, monsieur.
+Dialogue: 0,0:07:16.43,0:07:17.31,ST_HAUT,,0,0,0,,ATSUFUMI FUKAMACHI
+Dialogue: 0,0:07:17.47,0:07:19.64,ST_HAUT,,0,0,0,,Voici la lettre de menaces
+Dialogue: 0,0:07:20.35,0:07:22.65,Default,,0,0,0,,- reçue par monsieur.\N- Laissez-moi voir.
+Dialogue: 0,0:07:25.32,0:07:28.15,Default,,0,0,0,,Des caractères découpés dans un journal,\Nde nos jours ?
+Dialogue: 0,0:07:28.69,0:07:32.41,Default,,0,0,0,,"Si tu tiens à la vie,\Nne t'approche plus du {\i1}Lapin noir{\i0}."
+Dialogue: 0,0:07:33.03,0:07:37.04,Default,,0,0,0,,Mais c'est justement ici, non,\N{\i1}Le{\i0} {\i1}Lapin noir{\i0} ?
+Dialogue: 0,0:07:37.33,0:07:39.16,Default,,0,0,0,,Exact.\NEt comme je pense
+Dialogue: 0,0:07:39.50,0:07:44.17,Default,,0,0,0,,que l'impudent qui en veut à ma vie\Ndoit se trouver dans ce bar,
+Dialogue: 0,0:07:44.58,0:07:48.55,Default,,0,0,0,,je vous y ai fait venir\Npour le débusquer, cher détective.
+Dialogue: 0,0:07:48.84,0:07:50.80,Default,,0,0,0,,C'est plutôt absurde...
+Dialogue: 0,0:07:50.97,0:07:54.80,Default,,0,0,0,,Mais rien ne dit qu'il ne s'en prendra\Nà vous qu'à l'intérieur.
+Dialogue: 0,0:07:55.18,0:08:00.06,Default,,0,0,0,,Non, mais je suis toujours accompagné\Npar 2 ou 3 gardes du corps.
+Dialogue: 0,0:08:00.35,0:08:03.77,Default,,0,0,0,,S'il veut m'avoir,\Nce sera forcément ici !
+Dialogue: 0,0:08:03.94,0:08:07.15,Default,,0,0,0,,Mais où sont\Nvos gardes du corps actuellement ?
+Dialogue: 0,0:08:07.32,0:08:08.82,Default,,0,0,0,,Réfléchissez !
+Dialogue: 0,0:08:09.32,0:08:12.70,Default,,0,0,0,,Si j'amène une bande de costauds\Nà l'air patibulaire ici,
+Dialogue: 0,0:08:13.07,0:08:15.95,Default,,0,0,0,,je risque de casser l'ambiance, voyons !
+Dialogue: 0,0:08:16.28,0:08:17.78,Default,,0,0,0,,Comme vous dites...
+Dialogue: 0,0:08:18.62,0:08:20.04,Default,,0,0,0,,M. Morooka !
+Dialogue: 0,0:08:20.58,0:08:21.96,Default,,0,0,0,,Soyez le bienvenu !
+Dialogue: 0,0:08:22.54,0:08:25.46,ST_HAUT,,0,0,0,,Vous êtes revenu me voir ?\NMerci !
+Dialogue: 0,0:08:26.00,0:08:29.38,Default,,0,0,0,,Oh, ma petite Yuri.\NJ'avais à faire ici, ce soir.
+Dialogue: 0,0:08:29.55,0:08:30.01,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:08:30.46,0:08:32.42,Default,,0,0,0,,Vous avez amené votre fille ?
+Dialogue: 0,0:08:32.63,0:08:33.88,Default,,0,0,0,,Il y a même un petit !
+Dialogue: 0,0:08:34.30,0:08:35.47,Default,,0,0,0,,Qu'il est mignon !
+Dialogue: 0,0:08:35.64,0:08:37.01,Default,,0,0,0,,Non, ces enfants...
+Dialogue: 0,0:08:38.76,0:08:41.14,Default,,0,0,0,,Oh là là, pardon !\NMa main a glissé...
+Dialogue: 0,0:08:41.56,0:08:44.69,Default,,0,0,0,,M. Môri !\NCe n'est pas le genre de la maison !
+Dialogue: 0,0:08:44.85,0:08:46.65,Default,,0,0,0,,Oups...\NJe suis désolé !
+Dialogue: 0,0:08:47.27,0:08:50.53,Default,,0,0,0,,{\i1}Il touche les fesses d'une{\i0} bunny girl\N{\i1}devant sa fille...{\i0}
+Dialogue: 0,0:08:51.07,0:08:53.32,Default,,0,0,0,,C'est du harcèlement sexuel,\Nvous savez ?
+Dialogue: 0,0:08:53.65,0:08:55.03,Default,,0,0,0,,Je ne le ferai plus...
+Dialogue: 0,0:08:55.20,0:08:56.03,Default,,0,0,0,,J'hallucine !
+Dialogue: 0,0:08:56.87,0:08:59.41,Default,,0,0,0,,Oublions ça,\Ncommençons déjà par commander !
+Dialogue: 0,0:08:59.83,0:09:02.50,Default,,0,0,0,,Toi aussi, Yuri.\NTu peux prendre ce que tu veux.
+Dialogue: 0,0:09:03.04,0:09:05.21,Default,,0,0,0,,Même de la nourriture ?
+Dialogue: 0,0:09:05.37,0:09:07.96,Default,,0,0,0,,J'ai raté le déjeuner,\Nje meurs de faim !
+Dialogue: 0,0:09:08.25,0:09:10.38,Default,,0,0,0,,Mais oui, bien sûr !
+Dialogue: 0,0:09:10.67,0:09:11.55,Default,,0,0,0,,Voyons voir...
+Dialogue: 0,0:09:12.17,0:09:13.17,Default,,0,0,0,,Alors...
+Dialogue: 0,0:09:13.59,0:09:16.55,Default,,0,0,0,,Un plateau de fruits, une omelette
+Dialogue: 0,0:09:17.14,0:09:18.72,Default,,0,0,0,,et des sandwichs !
+Dialogue: 0,0:09:18.89,0:09:20.31,Default,,0,0,0,,Tu es affamée, dis donc !
+Dialogue: 0,0:09:22.35,0:09:24.14,Default,,0,0,0,,{\i1}Toi, tu as le droit, c'est ça ?{\i0}
+Dialogue: 0,0:09:24.31,0:09:27.19,Default,,0,0,0,,Allez !\NCe soir, c'est moi qui régale !
+Dialogue: 0,0:09:27.81,0:09:31.19,Default,,0,0,0,,Vous pouvez commander\Nce que vous voulez, les filles !
+Dialogue: 0,0:09:32.94,0:09:34.53,Default,,0,0,0,,Vous aussi, Fukamachi.
+Dialogue: 0,0:09:35.49,0:09:38.70,Default,,0,0,0,,Pas de cérémonie.\NVenez trinquer avec nous.
+Dialogue: 0,0:09:38.87,0:09:40.12,Default,,0,0,0,,Bien, monsieur.
+Dialogue: 0,0:09:41.12,0:09:45.21,Default,,0,0,0,,Ce qui est gênant dans ces bars,\Nc'est qu'on ne sait où regarder...
+Dialogue: 0,0:09:45.58,0:09:48.58,Default,,0,0,0,,{\i1}Tu essuies tes lunettes\Npour te rincer l'œil, pourtant !{\i0}
+Dialogue: 0,0:09:48.92,0:09:50.46,Default,,0,0,0,,Désolée pour l'attente !
+Dialogue: 0,0:09:52.13,0:09:53.51,Default,,0,0,0,,Ça m'a l'air délicieux !
+Dialogue: 0,0:09:54.05,0:09:56.01,Default,,0,0,0,,J'attaque sans plus tarder.
+Dialogue: 0,0:09:56.51,0:09:57.63,Default,,0,0,0,,Alors...
+Dialogue: 0,0:09:58.51,0:10:02.26,Default,,0,0,0,,Fukamachi ! Vous pouvez me passer\Nla sauce à côté de vous ?
+Dialogue: 0,0:10:04.31,0:10:05.43,Default,,0,0,0,,Vous, alors...
+Dialogue: 0,0:10:05.73,0:10:07.31,Default,,0,0,0,,Je vais me débrouiller.
+Dialogue: 0,0:10:09.31,0:10:10.98,Default,,0,0,0,,Des lunettes ?
+Dialogue: 0,0:10:11.44,0:10:12.98,Default,,0,0,0,,Ce sont les vôtres ?
+Dialogue: 0,0:10:13.15,0:10:16.82,Default,,0,0,0,,Oui, je croyais\Nles avoir posées sur la table...
+Dialogue: 0,0:10:17.53,0:10:18.99,Default,,0,0,0,,Quoi qu'il en soit,
+Dialogue: 0,0:10:19.16,0:10:22.74,Default,,0,0,0,,j'ai une paire de rechange\Ndans la voiture, je vais la chercher.
+Dialogue: 0,0:10:22.91,0:10:24.08,Default,,0,0,0,,Attendez.
+Dialogue: 0,0:10:24.24,0:10:26.83,Default,,0,0,0,,C'est dangereux\Nd'y aller sans vos lunettes.
+Dialogue: 0,0:10:27.50,0:10:29.67,Default,,0,0,0,,J'y vais à votre place.
+Dialogue: 0,0:10:30.13,0:10:31.54,Default,,0,0,0,,Merci, monsieur !
+Dialogue: 0,0:10:31.71,0:10:35.21,Default,,0,0,0,,Elles sont dans la boîte à gants\Ncôté passager.
+Dialogue: 0,0:10:35.76,0:10:36.67,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:10:37.13,0:10:38.72,Default,,0,0,0,,Bon, je vais l'accompagner.
+Dialogue: 0,0:10:39.63,0:10:42.22,Default,,0,0,0,,Pardon, laissez-moi passer.
+Dialogue: 0,0:10:45.06,0:10:46.93,Default,,0,0,0,,Merci, Yuri !
+Dialogue: 0,0:10:47.10,0:10:49.10,Default,,0,0,0,,Ce n'est pas moi qui ai payé !
+Dialogue: 0,0:10:49.44,0:10:53.61,Default,,0,0,0,,Oui, mais comme M. Morooka t'a choisie\Navant de nous payer à boire,
+Dialogue: 0,0:10:53.77,0:10:55.53,Default,,0,0,0,,ça compte pour ton pourcentage !
+Dialogue: 0,0:10:55.69,0:10:57.61,Default,,0,0,0,,Tu seras peut-être la n° 1 ce soir !
+Dialogue: 0,0:10:57.78,0:10:59.74,ST_HAUT,,0,0,0,,- Mais non !\N- C'est possible !
+Dialogue: 0,0:10:59.99,0:11:01.91,ST_HAUT,,0,0,0,,SANA MURAKAMI (28 ANS)\NHÔTESSE
+Dialogue: 0,0:11:07.29,0:11:09.54,Default,,0,0,0,,- Non !\N- Un séisme ?
+Dialogue: 0,0:11:12.42,0:11:14.00,Default,,0,0,0,,Excusez-moi !
+Dialogue: 0,0:11:14.17,0:11:16.00,Default,,0,0,0,,J'ai voulu vérifier mes mails
+Dialogue: 0,0:11:16.17,0:11:18.47,Default,,0,0,0,,et ç'a déclenché l'alarme.
+Dialogue: 0,0:11:18.63,0:11:19.30,Default,,0,0,0,,Faites voir !
+Dialogue: 0,0:11:26.47,0:11:27.68,Default,,0,0,0,,Faites attention.
+Dialogue: 0,0:11:28.31,0:11:29.93,Default,,0,0,0,,Ce modèle de Smartphone
+Dialogue: 0,0:11:30.27,0:11:34.56,Default,,0,0,0,,possède une alarme qui se déclenche\Nquand on maintient simultanément
+Dialogue: 0,0:11:35.15,0:11:37.61,Default,,0,0,0,,les boutons "on" et "+" du volume.
+Dialogue: 0,0:11:37.78,0:11:39.69,Default,,0,0,0,,Ah bon ?
+Dialogue: 0,0:11:40.40,0:11:42.70,Default,,0,0,0,,Tu parles d'une frayeur !
+Dialogue: 0,0:11:42.86,0:11:44.95,Default,,0,0,0,,Ce n'était pas un séisme,\Nheureusement !
+Dialogue: 0,0:11:45.28,0:11:47.12,Default,,0,0,0,,Je suis vraiment navré...
+Dialogue: 0,0:11:47.29,0:11:47.95,Default,,0,0,0,,C'est rien !
+Dialogue: 0,0:11:48.54,0:11:52.92,Default,,0,0,0,,Les hôtesses mettent toutes\Nleur portable dans leur dos.
+Dialogue: 0,0:11:53.08,0:11:56.71,Default,,0,0,0,,Oui, les clients nous appellent souvent\Npour savoir
+Dialogue: 0,0:11:57.00,0:11:59.46,Default,,0,0,0,,s'il y a du monde ou pas.
+Dialogue: 0,0:11:59.88,0:12:04.18,Default,,0,0,0,,Et il nous arrive aussi\Nde les contacter pour les inviter.
+Dialogue: 0,0:12:05.93,0:12:07.76,Default,,0,0,0,,Oups ! Désolée...
+Dialogue: 0,0:12:08.52,0:12:10.39,Default,,0,0,0,,Il y en a dans le vestiaire.
+Dialogue: 0,0:12:10.93,0:12:12.35,Default,,0,0,0,,Va la changer, non ?
+Dialogue: 0,0:12:12.52,0:12:13.77,Default,,0,0,0,,Oui, merci.
+Dialogue: 0,0:12:25.45,0:12:27.28,Default,,0,0,0,,Allô ?\NMonsieur Adachi ?
+Dialogue: 0,0:12:27.66,0:12:29.33,Default,,0,0,0,,Merci pour votre fidélité !
+Dialogue: 0,0:12:29.70,0:12:32.33,Default,,0,0,0,,Je suis navrée,\Nmais nous sommes complets.
+Dialogue: 0,0:12:32.62,0:12:34.29,Default,,0,0,0,,Retentez d'ici une heure.
+Dialogue: 0,0:12:39.59,0:12:42.80,Default,,0,0,0,,La voilà !\NJ'ai trouvé sa paire de rechange !
+Dialogue: 0,0:12:43.47,0:12:46.14,Default,,0,0,0,,Désolé pour le dérangement, M. Môri.
+Dialogue: 0,0:12:46.30,0:12:49.60,Default,,0,0,0,,Il est plutôt tête-en-l'air,\Nvotre intendant.
+Dialogue: 0,0:12:49.97,0:12:53.73,Default,,0,0,0,,Non, non.\NIl est assez rigide et conservateur,
+Dialogue: 0,0:12:53.89,0:12:57.56,Default,,0,0,0,,mais il fait de l'excellent travail,\Nc'est un bon élément.
+Dialogue: 0,0:12:58.19,0:13:03.03,Default,,0,0,0,,Il était au service de la famille\Nde ma défunte femme depuis un bail.
+Dialogue: 0,0:13:03.19,0:13:04.15,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:13:04.95,0:13:06.66,Default,,0,0,0,,Au fait, cette hôtesse...
+Dialogue: 0,0:13:06.91,0:13:08.58,Default,,0,0,0,,"Yuri", c'est ça ?
+Dialogue: 0,0:13:09.03,0:13:11.66,Default,,0,0,0,,Vous semblez très intimes,\Ntous les deux.
+Dialogue: 0,0:13:11.83,0:13:13.62,Default,,0,0,0,,Ah bon ? Vous trouvez ?
+Dialogue: 0,0:13:13.79,0:13:16.67,Default,,0,0,0,,C'est vrai que je la choisis toujours...
+Dialogue: 0,0:13:17.58,0:13:20.80,Default,,0,0,0,,Vous fréquentez ce bar\Nassez régulièrement ?
+Dialogue: 0,0:13:20.96,0:13:21.88,Default,,0,0,0,,Non, non.
+Dialogue: 0,0:13:22.05,0:13:25.30,Default,,0,0,0,,C'est juste qu'il y a un tailleur à côté
+Dialogue: 0,0:13:25.63,0:13:30.35,Default,,0,0,0,,et que je passe voir les filles\Nà chaque nouveau costume.
+Dialogue: 0,0:13:30.51,0:13:32.93,Default,,0,0,0,,- C'est tout.\N- Je comprends...
+Dialogue: 0,0:13:33.52,0:13:35.06,Default,,0,0,0,,Tenez, Fukamachi.
+Dialogue: 0,0:13:35.23,0:13:37.06,Default,,0,0,0,,Merci, monsieur.
+Dialogue: 0,0:13:37.98,0:13:39.90,Default,,0,0,0,,Tiens ?\NOù est passée Yuri ?
+Dialogue: 0,0:13:40.07,0:13:43.40,Default,,0,0,0,,Elle s'est précipitée\Nvers le vestiaire, tout à l'heure.
+Dialogue: 0,0:13:43.57,0:13:44.44,Default,,0,0,0,,Tiens donc ?
+Dialogue: 0,0:13:45.11,0:13:49.32,Default,,0,0,0,,Les plats qu'elle avait commandés\Nont tous été servis, pourtant...
+Dialogue: 0,0:13:53.58,0:13:57.33,Default,,0,0,0,,Et hop, le grand Kogorô Môri\Navait encore vu juste !
+Dialogue: 0,0:13:57.50,0:13:58.46,Default,,0,0,0,,C'est incroyable !
+Dialogue: 0,0:13:59.17,0:14:02.05,Default,,0,0,0,,Alors ?\NVous buvez un coup, Fukamachi ?
+Dialogue: 0,0:14:02.25,0:14:03.84,Default,,0,0,0,,Euh, oui...
+Dialogue: 0,0:14:05.59,0:14:07.34,Default,,0,0,0,,Le plateau de fruits !
+Dialogue: 0,0:14:07.80,0:14:09.34,Default,,0,0,0,,Il a l'air délicieux !
+Dialogue: 0,0:14:09.51,0:14:14.22,Default,,0,0,0,,On t'a attendue sans y toucher,\Nvu que c'était ta commande !
+Dialogue: 0,0:14:14.39,0:14:16.73,Default,,0,0,0,,Vraiment ?\NJe suis confuse !
+Dialogue: 0,0:14:17.23,0:14:19.73,Default,,0,0,0,,- Allez ! Régale-toi !\N- Merci !
+Dialogue: 0,0:14:20.15,0:14:22.27,Default,,0,0,0,,J'attaque !
+Dialogue: 0,0:14:25.07,0:14:26.40,Default,,0,0,0,,Quel délice !
+Dialogue: 0,0:14:26.74,0:14:28.36,Default,,0,0,0,,Laisse-moi goûter pour voir.
+Dialogue: 0,0:14:28.53,0:14:30.78,Default,,0,0,0,,Alors, quel est mon verre, déjà ?
+Dialogue: 0,0:14:31.32,0:14:32.78,Default,,0,0,0,,Ah ! C'est celui-ci !
+Dialogue: 0,0:14:33.37,0:14:37.00,Default,,0,0,0,,Alors ? Vous avez repéré\Nquelqu'un de suspect ?
+Dialogue: 0,0:14:37.16,0:14:39.46,Default,,0,0,0,,Non... Pas spécialement...
+Dialogue: 0,0:14:39.62,0:14:41.96,Default,,0,0,0,,Et toi, Amuro ?\NTu as senti un truc ?
+Dialogue: 0,0:14:42.13,0:14:45.05,Default,,0,0,0,,Non, rien qui puisse laisser\Nsupposer un meurtre...
+Dialogue: 0,0:14:56.85,0:14:57.68,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:15:15.62,0:15:16.87,Default,,0,0,0,,Yu... Yuri !
+Dialogue: 0,0:15:17.83,0:15:18.58,Default,,0,0,0,,Yuri !
+Dialogue: 0,0:15:19.33,0:15:20.96,Default,,0,0,0,,Est-ce que ça va, Yuri ?
+Dialogue: 0,0:15:22.63,0:15:23.29,Default,,0,0,0,,Yuri !
+Dialogue: 0,0:15:23.84,0:15:25.59,Default,,0,0,0,,Ne la touchez surtout pas !
+Dialogue: 0,0:15:26.09,0:15:28.80,Default,,0,0,0,,Ran !\NAppelle une ambulance et la police !
+Dialogue: 0,0:15:28.97,0:15:30.26,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:15:31.80,0:15:34.22,Default,,0,0,0,,Mais comment est-ce possible ?
+Dialogue: 0,0:15:34.64,0:15:35.56,Default,,0,0,0,,Peut-être
+Dialogue: 0,0:15:36.01,0:15:39.68,Default,,0,0,0,,s'est-elle intoxiquée\Nen mangeant un de ces fruits...
+Dialogue: 0,0:15:40.19,0:15:42.69,Default,,0,0,0,,- Une intoxication alimentaire ?\N- Non !
+Dialogue: 0,0:15:43.23,0:15:44.48,Default,,0,0,0,,Impossible !
+Dialogue: 0,0:15:45.11,0:15:48.28,Default,,0,0,0,,M. Morooka aussi\Na goûté un de ces fruits,
+Dialogue: 0,0:15:48.57,0:15:52.20,Default,,0,0,0,,il est donc impensable\Nqu'elle soit la seule intoxiquée.
+Dialogue: 0,0:15:52.82,0:15:56.83,Default,,0,0,0,,Yuri a dit avoir sauté le déjeuner,\Net mourir de faim.
+Dialogue: 0,0:15:57.37,0:15:59.91,Default,,0,0,0,,Et les symptômes\Nd'une intoxication alimentaire
+Dialogue: 0,0:16:00.08,0:16:03.29,Default,,0,0,0,,apparaissent au plus vite\N30 minutes après avoir mangé.
+Dialogue: 0,0:16:04.58,0:16:08.71,Default,,0,0,0,,J'ai entendu ça\Ndans une émission de quiz à la télé !
+Dialogue: 0,0:16:09.05,0:16:11.47,Default,,0,0,0,,{\i1}Quelle émission parlerait de ça ?{\i0}
+Dialogue: 0,0:16:12.34,0:16:13.22,Default,,0,0,0,,Donc,
+Dialogue: 0,0:16:13.59,0:16:16.14,Default,,0,0,0,,quelqu'un a empoisonné un de ces fruits,
+Dialogue: 0,0:16:16.72,0:16:19.97,Default,,0,0,0,,et Yuri n'a pas eu de chance\Nen y goûtant.
+Dialogue: 0,0:16:20.81,0:16:24.69,Default,,0,0,0,,Ou alors, on a versé du poison\Ndans le verre d'alcool
+Dialogue: 0,0:16:25.02,0:16:27.65,Default,,0,0,0,,dans lequel elle vient de boire.
+Dialogue: 0,0:16:28.40,0:16:31.44,Default,,0,0,0,,Est-ce que j'ai bon, cher détective ?
+Dialogue: 0,0:16:31.74,0:16:33.66,Default,,0,0,0,,Pourquoi me demander ça à moi ?
+Dialogue: 0,0:16:34.03,0:16:36.16,Default,,0,0,0,,Pose plutôt la question à tonton !
+Dialogue: 0,0:16:36.45,0:16:36.91,Default,,0,0,0,,Hein ?
+Dialogue: 0,0:16:37.28,0:16:40.41,Default,,0,0,0,,Oui ! Nous sommes dans un bar\Nappelé "{\i1}Le Lapin noir{\i0}".
+Dialogue: 0,0:16:40.75,0:16:42.37,Default,,0,0,0,,Venez tout de suite !
+Dialogue: 0,0:16:42.62,0:16:44.21,Default,,0,0,0,,Merci d'avance !
+Dialogue: 0,0:16:46.17,0:16:46.67,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:16:47.25,0:16:48.80,Default,,0,0,0,,Mon portefeuille a disparu !
+Dialogue: 0,0:16:49.09,0:16:50.92,Default,,0,0,0,,Zut...\NÀ quoi ressemble-t-il ?
+Dialogue: 0,0:16:53.43,0:16:55.18,Default,,0,0,0,,Il porte des motifs ginkgo.
+Dialogue: 0,0:16:55.59,0:16:59.56,Default,,0,0,0,,Il n'y a pas beaucoup d'argent dedans,\Nmais mes clés...
+Dialogue: 0,0:16:59.72,0:17:01.18,Default,,0,0,0,,Alors, c'est peut-être
+Dialogue: 0,0:17:01.73,0:17:02.77,Default,,0,0,0,,celui-ci ?
+Dialogue: 0,0:17:03.60,0:17:04.94,Default,,0,0,0,,Oui, c'est bien lui !
+Dialogue: 0,0:17:07.94,0:17:09.57,Default,,0,0,0,,Quel soulagement !
+Dialogue: 0,0:17:09.73,0:17:11.40,Default,,0,0,0,,Merci infiniment !
+Dialogue: 0,0:17:11.86,0:17:13.32,Default,,0,0,0,,Où l'avez-vous trouvé ?
+Dialogue: 0,0:17:14.07,0:17:15.99,Default,,0,0,0,,Par terre, devant les toilettes.
+Dialogue: 0,0:17:16.41,0:17:17.24,Default,,0,0,0,,Du moins,
+Dialogue: 0,0:17:17.78,0:17:20.83,Default,,0,0,0,,c'est ce que m'a dit ce bel homme\Nen me le confiant.
+Dialogue: 0,0:17:21.95,0:17:22.95,Default,,0,0,0,,Amuro ?
+Dialogue: 0,0:17:23.46,0:17:25.04,Default,,0,0,0,,Malheureusement,
+Dialogue: 0,0:17:25.37,0:17:27.92,Default,,0,0,0,,ce n'était pas celui de Yuri.
+Dialogue: 0,0:17:28.08,0:17:32.05,Default,,0,0,0,,Ça m'aurait permis de savoir\Noù elle voyait M. Morooka en secret.
+Dialogue: 0,0:17:33.47,0:17:35.59,Default,,0,0,0,,M. Morooka et Yuri seraient...
+Dialogue: 0,0:17:35.97,0:17:38.55,Default,,0,0,0,,Oui, je suis certaine\Nqu'ils sont ensemble.
+Dialogue: 0,0:17:39.10,0:17:42.72,Default,,0,0,0,,D'ordinaire,\NM. Morooka l'appelle "sa petite Yuri",
+Dialogue: 0,0:17:42.89,0:17:44.85,Default,,0,0,0,,mais pas tout à l'heure.
+Dialogue: 0,0:17:45.64,0:17:49.23,Default,,0,0,0,,Quant à toi, j'ignore\Nquels sont tes rapports avec M. Morooka,
+Dialogue: 0,0:17:49.65,0:17:51.19,Default,,0,0,0,,mais je t'invite à la prudence.
+Dialogue: 0,0:17:51.36,0:17:52.73,Default,,0,0,0,,D'accord...
+Dialogue: 0,0:17:57.41,0:18:00.74,Default,,0,0,0,,LE LAPIN NOIR
+Dialogue: 0,0:18:02.87,0:18:03.75,Default,,0,0,0,,De l'arsenic ?
+Dialogue: 0,0:18:04.37,0:18:07.96,Default,,0,0,0,,On a trouvé des traces d'arsenic\Ndans le verre de Yuri ?
+Dialogue: 0,0:18:08.29,0:18:09.00,Default,,0,0,0,,Exact.
+Dialogue: 0,0:18:09.46,0:18:11.42,Default,,0,0,0,,Pas possible...
+Dialogue: 0,0:18:11.75,0:18:14.92,Default,,0,0,0,,Et Yuri, comment va-t-elle ?
+Dialogue: 0,0:18:15.84,0:18:18.93,Default,,0,0,0,,L'hôpital lui a administré\Nles premiers soins,
+Dialogue: 0,0:18:19.09,0:18:21.47,Default,,0,0,0,,mais elle est toujours dans le coma.
+Dialogue: 0,0:18:23.43,0:18:24.31,Default,,0,0,0,,Bon...
+Dialogue: 0,0:18:24.47,0:18:29.06,Default,,0,0,0,,Savez-vous si quelqu'un\Nen avait après la vie de la victime ?
+Dialogue: 0,0:18:30.65,0:18:31.65,Default,,0,0,0,,Je ne pense pas...
+Dialogue: 0,0:18:32.86,0:18:34.32,Default,,0,0,0,,C'est moi...
+Dialogue: 0,0:18:35.15,0:18:38.78,Default,,0,0,0,,En réalité, c'est moi\Nqui étais visé par ce poison !
+Dialogue: 0,0:18:38.95,0:18:41.53,Default,,0,0,0,,Ma petite Yuri l'a ingéré par erreur !
+Dialogue: 0,0:18:42.16,0:18:43.79,Default,,0,0,0,,- Hein ?\N- Comment ça ?
+Dialogue: 0,0:18:44.33,0:18:47.16,Default,,0,0,0,,Car c'est moi\Nqui ai reçu une lettre de menaces !
+Dialogue: 0,0:18:47.58,0:18:49.67,Default,,0,0,0,,Une lettre de menaces ?
+Dialogue: 0,0:18:49.83,0:18:51.21,Default,,0,0,0,,SI TU TIENS À LA VIE,\NNE T'APPROCHE PLUS DU LAPIN NOIR.
+Dialogue: 0,0:18:51.38,0:18:52.54,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:18:53.55,0:18:56.17,Default,,0,0,0,,On vous a donc adressé\Ncette lettre de menaces...
+Dialogue: 0,0:18:56.88,0:19:00.59,Default,,0,0,0,,Oui, mais c'est Yuri\Nqui en a fait les frais à ma place !
+Dialogue: 0,0:19:00.76,0:19:01.85,Default,,0,0,0,,Pourtant,
+Dialogue: 0,0:19:02.47,0:19:07.35,Default,,0,0,0,,vos deux verres\Nétaient de formes bien différentes !
+Dialogue: 0,0:19:07.68,0:19:08.52,Default,,0,0,0,,Pardon ?
+Dialogue: 0,0:19:09.02,0:19:12.15,Default,,0,0,0,,Yuri buvait dans une flûte à champagne,
+Dialogue: 0,0:19:12.31,0:19:14.69,Default,,0,0,0,,mais vous, dans un long verre ordinaire.
+Dialogue: 0,0:19:15.15,0:19:17.24,Default,,0,0,0,,Difficile de les confondre...
+Dialogue: 0,0:19:17.74,0:19:21.57,Default,,0,0,0,,Tu veux dire que Yuri\Nétait bel et bien la cible du coupable ?
+Dialogue: 0,0:19:22.99,0:19:25.54,Default,,0,0,0,,Il est encore trop tôt pour l'affirmer.
+Dialogue: 0,0:19:25.91,0:19:27.41,Default,,0,0,0,,Yuri s'est effondrée
+Dialogue: 0,0:19:27.58,0:19:32.04,Default,,0,0,0,,en revenant boire à notre table\Ndont elle s'était éloignée un moment.
+Dialogue: 0,0:19:33.13,0:19:35.42,Default,,0,0,0,,Et comme avant de quitter la table,
+Dialogue: 0,0:19:35.71,0:19:39.01,Default,,0,0,0,,elle avait couvert sa flûte\Nd'un sous-bock,
+Dialogue: 0,0:19:39.88,0:19:42.01,Default,,0,0,0,,les seuls qui ont pu verser le poison
+Dialogue: 0,0:19:42.18,0:19:44.35,Default,,0,0,0,,sont M. Morooka, qui a croisé Yuri
+Dialogue: 0,0:19:44.51,0:19:48.06,Default,,0,0,0,,avec son verre à la main\Navant qu'elle quitte la table...
+Dialogue: 0,0:19:48.89,0:19:51.02,Default,,0,0,0,,{\i1}J'y vais à votre place.{\i0}
+Dialogue: 0,0:19:51.56,0:19:52.98,Default,,0,0,0,,{\i1}Merci, monsieur.{\i0}
+Dialogue: 0,0:19:53.15,0:19:56.65,Default,,0,0,0,,{\i1}Elles sont dans la boîte à gants\Ncôté passager.{\i0}
+Dialogue: 0,0:19:57.15,0:19:58.15,Default,,0,0,0,,{\i1}D'accord.{\i0}
+Dialogue: 0,0:19:58.53,0:20:00.15,Default,,0,0,0,,{\i1}Bon, je vais l'accompagner.{\i0}
+Dialogue: 0,0:20:01.03,0:20:03.66,Default,,0,0,0,,{\i1}Pardon, laissez-moi passer.{\i0}
+Dialogue: 0,0:20:06.95,0:20:11.71,Default,,0,0,0,,Celui à côté d'elle quand elle a posé\Nson verre sur la table, surprise
+Dialogue: 0,0:20:12.46,0:20:13.75,Default,,0,0,0,,par l'alarme du portable,
+Dialogue: 0,0:20:14.38,0:20:15.38,Default,,0,0,0,,M. Fukamachi.
+Dialogue: 0,0:20:20.88,0:20:23.13,Default,,0,0,0,,{\i1}- Non !\N- Un séisme ?{\i0}
+Dialogue: 0,0:20:26.01,0:20:27.64,Default,,0,0,0,,{\i1}Excusez-moi !{\i0}
+Dialogue: 0,0:20:27.81,0:20:32.10,Default,,0,0,0,,{\i1}J'ai voulu vérifier mes mails\Net ç'a déclenché l'alarme.{\i0}
+Dialogue: 0,0:20:32.27,0:20:33.10,Default,,0,0,0,,{\i1}Faites voir !{\i0}
+Dialogue: 0,0:20:33.65,0:20:37.65,Default,,0,0,0,,Et enfin, celle qui a renversé\Ndu vin rouge sur sa manchette,
+Dialogue: 0,0:20:38.19,0:20:40.86,Default,,0,0,0,,l'obligeant ainsi à quitter sa place,
+Dialogue: 0,0:20:41.65,0:20:43.32,Default,,0,0,0,,Mlle Murakami, l'hôtesse.
+Dialogue: 0,0:20:44.28,0:20:48.54,Default,,0,0,0,,{\i1}Et il nous arrive aussi\Nde les contacter pour les inviter.{\i0}
+Dialogue: 0,0:20:50.29,0:20:52.12,Default,,0,0,0,,{\i1}Oups ! Désolée...{\i0}
+Dialogue: 0,0:20:52.87,0:20:54.75,Default,,0,0,0,,{\i1}Il y en a dans le vestiaire.{\i0}
+Dialogue: 0,0:20:55.17,0:20:56.63,Default,,0,0,0,,{\i1}Va la changer, non ?{\i0}
+Dialogue: 0,0:20:56.92,0:20:58.17,Default,,0,0,0,,{\i1}Oui, merci.{\i0}
+Dialogue: 0,0:20:59.34,0:21:01.67,Default,,0,0,0,,D'après les souvenirs que j'ai,
+Dialogue: 0,0:21:01.97,0:21:04.93,Default,,0,0,0,,les seuls à avoir pu\Nempoisonner le verre de Yuri
+Dialogue: 0,0:21:05.26,0:21:07.51,Default,,0,0,0,,sont ces trois personnes.
+Dialogue: 0,0:21:08.26,0:21:10.06,Default,,0,0,0,,N'est-ce pas, maître Môri ?
+Dialogue: 0,0:21:10.31,0:21:12.77,Default,,0,0,0,,Ah, euh... Oui, en effet.
+Dialogue: 0,0:21:13.27,0:21:15.44,Default,,0,0,0,,{\i1}Il est vraiment bon observateur...{\i0}
+Dialogue: 0,0:21:16.10,0:21:19.23,Default,,0,0,0,,Dans ce cas,\Nje m'adresse aux 3 personnes citées.
+Dialogue: 0,0:21:19.77,0:21:20.86,Default,,0,0,0,,M. Morooka,
+Dialogue: 0,0:21:21.53,0:21:22.57,Default,,0,0,0,,M. Fukamachi,
+Dialogue: 0,0:21:23.24,0:21:25.45,Default,,0,0,0,,et enfin Mlle Murakami,
+Dialogue: 0,0:21:26.03,0:21:27.45,Default,,0,0,0,,qui travaille dans ce bar.
+Dialogue: 0,0:21:28.16,0:21:32.45,Default,,0,0,0,,Pourriez-vous me raconter en détail\Nce qui s'est réellement passé ?
+Dialogue: 0,0:21:34.37,0:21:36.21,Default,,0,0,0,,{\i1}Amuro a raison.{\i0}
+Dialogue: 0,0:21:36.62,0:21:39.79,Default,,0,0,0,,{\i1}Le coupable est forcément\Nparmi ces trois-là.{\i0}
+Dialogue: 0,0:21:40.71,0:21:44.13,Default,,0,0,0,,{\i1}Mais lequel des trois\Ncela peut-il bien être ?{\i0}
+Dialogue: 0,0:21:44.30,0:21:47.72,Default,,0,0,0,,{\i1}Et comment a-t-il versé le poison\Ndans le verre de Yuri ?{\i0}
+Dialogue: 0,0:22:19.33,0:22:21.84,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:22.17,0:22:24.63,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

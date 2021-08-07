@@ -1,0 +1,402 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.69,0:00:09.09,Default,,0,0,0,,Genta...\NEssaie de viser le but, au moins !
+Dialogue: 0,0:00:09.44,0:00:11.92,Default,,0,0,0,,Excuse...\NJe vais récupérer la balle !
+Dialogue: 0,0:00:12.11,0:00:13.33,Default,,0,0,0,,Ça va aller ?
+Dialogue: 0,0:00:13.48,0:00:14.60,Default,,0,0,0,,J'en peux plus...
+Dialogue: 0,0:00:17.87,0:00:20.56,Default,,0,0,0,,Tiens ?\NIl n'y a personne, on dirait...
+Dialogue: 0,0:00:24.28,0:00:27.17,Default,,0,0,0,,Un peu de nerf, professeur !
+Dialogue: 0,0:00:27.65,0:00:32.00,Default,,0,0,0,,On remet ça\Ndès que Genta aura ramené le ballon !
+Dialogue: 0,0:00:32.40,0:00:36.12,Default,,0,0,0,,Ça commence à faire long,\Nd'ailleurs, non ?
+Dialogue: 0,0:00:36.28,0:00:38.68,Default,,0,0,0,,Ça doit lui prendre du temps...
+Dialogue: 0,0:00:40.96,0:00:41.96,Default,,0,0,0,,Cette voix...
+Dialogue: 0,0:00:42.32,0:00:44.23,Default,,0,0,0,,Ce ne serait pas Genta ?
+Dialogue: 0,0:00:47.77,0:00:50.23,Default,,0,0,0,,Genta ! Ça va ?\NQue s'est-il passé ?
+Dialogue: 0,0:00:50.41,0:00:51.28,Default,,0,0,0,,Regarde !
+Dialogue: 0,0:00:57.00,0:00:57.87,Default,,0,0,0,,{\i1}Mais c'est...{\i0}
+Dialogue: 0,0:00:58.23,0:00:59.73,Default,,0,0,0,,Il ne serait pas...
+Dialogue: 0,0:01:01.21,0:01:02.80,Default,,0,0,0,,Ça va, les enfants ?
+Dialogue: 0,0:01:02.96,0:01:06.04,Default,,0,0,0,,- Ouf ! Genta n'a rien !\N- Une minute !
+Dialogue: 0,0:01:08.44,0:01:10.57,Default,,0,0,0,,Professeur ! Appelez le SAMU !
+Dialogue: 0,0:01:11.32,0:01:13.17,Default,,0,0,0,,On a une victime à l'intérieur !
+Dialogue: 0,0:01:13.33,0:01:14.09,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:01:15.84,0:01:17.72,Default,,0,0,0,,Pour moi, il n'y a personne.
+Dialogue: 0,0:01:17.87,0:01:20.40,Default,,0,0,0,,J'ai déjà sonné, tout à l'heure.
+Dialogue: 0,0:01:20.56,0:01:22.77,Default,,0,0,0,,On va devoir briser une vitre...
+Dialogue: 0,0:01:23.80,0:01:26.81,Default,,0,0,0,,C'est pour quoi, tout ce tapage ?
+Dialogue: 0,0:01:28.52,0:01:29.77,Default,,0,0,0,,Doucement, petit !
+Dialogue: 0,0:01:44.52,0:01:45.52,Default,,0,0,0,,Ça ne se fait pas !
+Dialogue: 0,0:01:47.80,0:01:48.40,Default,,0,0,0,,Alors ?
+Dialogue: 0,0:01:49.23,0:01:50.09,Default,,0,0,0,,Professeur...
+Dialogue: 0,0:01:50.60,0:01:53.17,Default,,0,0,0,,Oubliez le SAMU\Net appelez la police.
+Dialogue: 0,0:01:53.47,0:01:54.88,Default,,0,0,0,,Ne me dis pas que...
+Dialogue: 0,0:01:55.23,0:01:57.76,Default,,0,0,0,,Si, ils sont probablement morts...
+Dialogue: 0,0:01:58.28,0:01:59.04,Default,,0,0,0,,Tous les deux.
+Dialogue: 0,0:01:59.56,0:02:00.69,Default,,0,0,0,,"Tous les deux" ?
+Dialogue: 0,0:02:05.87,0:02:07.92,Default,,0,0,0,,{\i1}La réponse viendra d'une déduction{\i0}
+Dialogue: 0,0:02:08.11,0:02:10.37,Default,,0,0,0,,{\i1}après la fin du compte à rebours !{\i0}
+Dialogue: 0,0:02:12.92,0:02:16.47,Default,,0,0,0,,{\i1}Qu'est-il arrivé aux deux victimes\Ndans cette villa ?{\i0}
+Dialogue: 0,0:02:16.64,0:02:19.88,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:20.04,0:02:22.32,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:22.47,0:02:25.47,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:42.40,0:02:44.04,Default,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:02:45.40,0:02:47.23,Default,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:02:47.40,0:02:49.40,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:50.60,0:02:52.72,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:57.04,0:02:59.60,Default,,0,0,0,,Générique d'ouverture :\N"Countdown"
+Dialogue: 0,0:03:00.00,0:03:02.28,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:03:07.04,0:03:09.23,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:13.32,0:03:15.60,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:03:28.11,0:03:30.36,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:34.60,0:03:36.72,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:04:01.36,0:04:03.04,Default,,0,0,0,,{\i1}Deux cadavres et une seule vérité !{\i0}
+Dialogue: 0,0:04:10.08,0:04:11.40,Default,,0,0,0,,On a deux victimes.
+Dialogue: 0,0:04:11.56,0:04:13.92,Default,,0,0,0,,Cet homme de grande taille,
+Dialogue: 0,0:04:14.08,0:04:16.43,ST_HAUT,,0,0,0,,Shinzô Kawai, qui habite ici.
+Dialogue: 0,0:04:17.36,0:04:19.60,Default,,0,0,0,,Il a été blessé au ventre,
+Dialogue: 0,0:04:19.76,0:04:24.60,Default,,0,0,0,,mais est mort d'une hémorragie,\Nle cœur perforé par un pic à glace.
+Dialogue: 0,0:04:25.00,0:04:28.20,Default,,0,0,0,,L'arme du crime\Nse trouvait dans la pièce.
+Dialogue: 0,0:04:28.43,0:04:32.87,Default,,0,0,0,,Quant à cet homme plus petit,\Nil s'agit de Kensuke Shibata.
+Dialogue: 0,0:04:33.11,0:04:36.32,ST_HAUT,,0,0,0,,Il est mort d'une lésion à la tête.
+Dialogue: 0,0:04:36.95,0:04:38.76,Default,,0,0,0,,L'hémorragie est minime.
+Dialogue: 0,0:04:38.92,0:04:41.72,Default,,0,0,0,,Il s'est probablement cogné violemment
+Dialogue: 0,0:04:41.87,0:04:44.60,Default,,0,0,0,,au coin de l'accoudoir de ce canapé.
+Dialogue: 0,0:04:45.32,0:04:48.52,Default,,0,0,0,,Quant aux traces de sang sur son pull,
+Dialogue: 0,0:04:48.68,0:04:51.20,Default,,0,0,0,,elles correspondent à celui de M. Kawai.
+Dialogue: 0,0:04:51.47,0:04:54.47,Default,,0,0,0,,Le sang a dû gicler\Nquand il l'a poignardé.
+Dialogue: 0,0:04:55.32,0:04:58.00,Default,,0,0,0,,Et à quand remonte leur mort ?
+Dialogue: 0,0:04:58.36,0:05:00.52,Default,,0,0,0,,À environ 2 heures, tous les deux.
+Dialogue: 0,0:05:00.68,0:05:04.36,Default,,0,0,0,,Les corps ont été découverts\Nil y a une heure.
+Dialogue: 0,0:05:04.80,0:05:06.36,Default,,0,0,0,,Je vois... Donc,
+Dialogue: 0,0:05:07.20,0:05:09.23,Default,,0,0,0,,ce sont eux qui les ont trouvés.
+Dialogue: 0,0:05:09.72,0:05:10.47,Default,,0,0,0,,Autre chose.
+Dialogue: 0,0:05:11.04,0:05:15.68,Default,,0,0,0,,Ce directeur immobilier\Net son ex-employé se connaissaient.
+Dialogue: 0,0:05:15.92,0:05:20.40,Default,,0,0,0,,M. Shibata avait été renvoyé\Nil y a quelques mois
+Dialogue: 0,0:05:20.56,0:05:22.52,Default,,0,0,0,,pour détournement de fonds.
+Dialogue: 0,0:05:22.68,0:05:24.56,Default,,0,0,0,,Une querelle d'argent ?
+Dialogue: 0,0:05:24.76,0:05:26.00,Default,,0,0,0,,Et cette dame ?
+Dialogue: 0,0:05:26.60,0:05:28.87,Default,,0,0,0,,C'est la femme de M. Kawai, Yûko.
+Dialogue: 0,0:05:29.04,0:05:31.11,ST_HAUT,,0,0,0,,Elle faisait un somme au 1er
+Dialogue: 0,0:05:31.28,0:05:34.04,ST_HAUT,,0,0,0,,à l'heure où c'est arrivé.
+Dialogue: 0,0:05:34.20,0:05:35.23,Default,,0,0,0,,Un somme ?
+Dialogue: 0,0:05:35.92,0:05:39.11,Default,,0,0,0,,Vu les traces de lutte\Nqu'on peut voir,
+Dialogue: 0,0:05:39.47,0:05:41.40,Default,,0,0,0,,ç'a dû faire du bruit, non ?
+Dialogue: 0,0:05:41.87,0:05:45.11,Default,,0,0,0,,En effet, on lui a posé la question.
+Dialogue: 0,0:05:45.47,0:05:49.36,Default,,0,0,0,,Mais fatiguée de s'être occupée\Nde sa mère ce matin,
+Dialogue: 0,0:05:49.52,0:05:52.11,Default,,0,0,0,,elle ne s'est rendue compte de rien.
+Dialogue: 0,0:05:52.28,0:05:54.52,Default,,0,0,0,,La chambre à coucher est éloignée.
+Dialogue: 0,0:05:58.11,0:06:02.36,Default,,0,0,0,,Pardonnez ma question\Ndans ce moment difficile, mais...
+Dialogue: 0,0:06:02.52,0:06:03.56,Default,,0,0,0,,Oui ?
+Dialogue: 0,0:06:03.80,0:06:08.92,Default,,0,0,0,,Votre mari avait-il prévu\Nde voir M. Shibata ici ?
+Dialogue: 0,0:06:09.32,0:06:12.60,Default,,0,0,0,,Oui, car il devait\Nle rembourser, aujourd'hui.
+Dialogue: 0,0:06:12.76,0:06:14.43,Default,,0,0,0,,"Le rembourser" ?
+Dialogue: 0,0:06:14.76,0:06:18.16,Default,,0,0,0,,M. Shibata\Ns'était servi de l'argent détourné
+Dialogue: 0,0:06:18.32,0:06:20.68,Default,,0,0,0,,pour aider un parent hospitalisé.
+Dialogue: 0,0:06:21.76,0:06:24.87,Default,,0,0,0,,Mon mari avait accepté\Nde le reprendre
+Dialogue: 0,0:06:25.04,0:06:28.43,Default,,0,0,0,,à condition\Nqu'il le rembourse aujourd'hui.
+Dialogue: 0,0:06:29.04,0:06:30.23,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:06:30.40,0:06:33.43,Default,,0,0,0,,D'où la venue de M. Shibata chez vous...
+Dialogue: 0,0:06:34.28,0:06:37.76,Default,,0,0,0,,Connaissez-vous\Nla somme à rembourser ?
+Dialogue: 0,0:06:38.00,0:06:40.92,Default,,0,0,0,,Un million de yens, il me semble.
+Dialogue: 0,0:06:43.52,0:06:44.84,Default,,0,0,0,,Conan !
+Dialogue: 0,0:06:45.00,0:06:47.68,Default,,0,0,0,,C'est une scène de crime,\Nn'entre pas ici !
+Dialogue: 0,0:06:48.28,0:06:49.80,Default,,0,0,0,,Pardon...
+Dialogue: 0,0:06:50.43,0:06:52.00,Default,,0,0,0,,Franchement !
+Dialogue: 0,0:06:52.40,0:06:55.32,Default,,0,0,0,,Tiens ?\NVous êtes blessée au pied...
+Dialogue: 0,0:06:55.52,0:06:56.92,Default,,0,0,0,,Ah, ça ?
+Dialogue: 0,0:06:57.43,0:07:00.11,Default,,0,0,0,,Je me suis fait une entorse,\Nl'autre jour.
+Dialogue: 0,0:07:00.60,0:07:04.36,Default,,0,0,0,,Et vous vous occupez quand même\Nde votre mère ?
+Dialogue: 0,0:07:04.52,0:07:05.56,Default,,0,0,0,,Vous ne chômez pas.
+Dialogue: 0,0:07:06.52,0:07:07.64,Default,,0,0,0,,Quand bien même,
+Dialogue: 0,0:07:07.80,0:07:10.56,Default,,0,0,0,,ma mère est plus handicapée que moi.
+Dialogue: 0,0:07:11.40,0:07:13.20,Default,,0,0,0,,Ça n'a rien de comparable.
+Dialogue: 0,0:07:13.60,0:07:16.68,Default,,0,0,0,,Cette dame a l'air fatiguée...
+Dialogue: 0,0:07:16.84,0:07:19.16,Default,,0,0,0,,Elle doit pas dormir beaucoup...
+Dialogue: 0,0:07:19.32,0:07:21.11,Default,,0,0,0,,En plus, elle est blessée
+Dialogue: 0,0:07:21.28,0:07:24.20,Default,,0,0,0,,et vient de perdre son mari,\Nje la plains...
+Dialogue: 0,0:07:24.43,0:07:27.08,Default,,0,0,0,,Ça doit être dur\Nde s'occuper de sa mère.
+Dialogue: 0,0:07:27.76,0:07:29.43,Default,,0,0,0,,Si je n'avais pas dormi
+Dialogue: 0,0:07:30.16,0:07:32.08,Default,,0,0,0,,et remarqué le problème,
+Dialogue: 0,0:07:32.60,0:07:34.08,Default,,0,0,0,,ça ne serait pas arrivé...
+Dialogue: 0,0:07:35.04,0:07:36.60,Default,,0,0,0,,C'est ma faute !
+Dialogue: 0,0:07:37.92,0:07:39.28,Default,,0,0,0,,Au fait,
+Dialogue: 0,0:07:39.68,0:07:42.95,Default,,0,0,0,,vous avez mis du temps\Nà nous ouvrir.
+Dialogue: 0,0:07:43.11,0:07:45.00,Default,,0,0,0,,L'interphone vous a réveillée ?
+Dialogue: 0,0:07:47.00,0:07:49.08,Default,,0,0,0,,Non, c'est plutôt
+Dialogue: 0,0:07:49.43,0:07:52.95,Default,,0,0,0,,le cri de ce grand garçon\Nqui m'a sortie de mon sommeil.
+Dialogue: 0,0:07:53.28,0:07:54.16,Default,,0,0,0,,"Ce grand garçon" ?
+Dialogue: 0,0:07:54.92,0:07:56.92,Default,,0,0,0,,Le plus grand de la troupe.
+Dialogue: 0,0:07:57.28,0:07:58.72,Default,,0,0,0,,Ah, Genta...
+Dialogue: 0,0:07:59.08,0:07:59.76,Default,,0,0,0,,D'ailleurs,
+Dialogue: 0,0:08:00.23,0:08:03.64,Default,,0,0,0,,l'interphone est détraqué\Net sonne difficilement.
+Dialogue: 0,0:08:04.11,0:08:05.00,Default,,0,0,0,,Désolée...
+Dialogue: 0,0:08:06.95,0:08:08.16,Default,,0,0,0,,Euh, Conan...
+Dialogue: 0,0:08:09.56,0:08:12.23,Default,,0,0,0,,Bon, on va sortir un peu.
+Dialogue: 0,0:08:12.56,0:08:13.92,Default,,0,0,0,,Viens, Conan.
+Dialogue: 0,0:08:18.43,0:08:20.16,Default,,0,0,0,,Ce Shibata n'a pas détourné
+Dialogue: 0,0:08:20.32,0:08:23.95,Default,,0,0,0,,l'argent pour payer\Ndes frais d'hospitalisation.
+Dialogue: 0,0:08:24.11,0:08:26.16,Default,,0,0,0,,Comment tu peux le savoir ?
+Dialogue: 0,0:08:26.92,0:08:30.36,Default,,0,0,0,,Parce qu'il portait\Nun pull de grande marque.
+Dialogue: 0,0:08:30.80,0:08:34.56,Default,,0,0,0,,On n'achète pas ça\Nquand on est gêné financièrement.
+Dialogue: 0,0:08:36.04,0:08:39.04,Default,,0,0,0,,Il n'avait pas l'air cher, pourtant.
+Dialogue: 0,0:08:39.36,0:08:43.76,Default,,0,0,0,,Monsieur le grand détective\Nn'y connaît rien à la mode...
+Dialogue: 0,0:08:43.92,0:08:45.08,Default,,0,0,0,,Tu m'excuseras, hein.
+Dialogue: 0,0:08:45.84,0:08:48.16,Default,,0,0,0,,On a trouvé ce sac sur le canapé.
+Dialogue: 0,0:08:48.32,0:08:49.84,Default,,0,0,0,,Il était rempli d'argent.
+Dialogue: 0,0:08:50.28,0:08:53.43,Default,,0,0,0,,La somme à rembourser\Nétait d'un million.
+Dialogue: 0,0:08:53.60,0:08:55.60,Default,,0,0,0,,Le compte a l'air d'y être.
+Dialogue: 0,0:08:56.08,0:08:57.84,Default,,0,0,0,,Il avait réuni l'argent ?
+Dialogue: 0,0:08:58.43,0:09:01.84,Default,,0,0,0,,Pourquoi se sont-ils battus, alors ?
+Dialogue: 0,0:09:04.40,0:09:06.36,Default,,0,0,0,,Allô ? Je vois...
+Dialogue: 0,0:09:07.32,0:09:08.87,Default,,0,0,0,,OK. J'ai compris.
+Dialogue: 0,0:09:09.72,0:09:10.64,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:09:10.80,0:09:13.52,Default,,0,0,0,,D'après un employé de l'agence Kawai,
+Dialogue: 0,0:09:13.68,0:09:17.36,Default,,0,0,0,,il semblerait\Nque le directeur ne comptait pas
+Dialogue: 0,0:09:17.52,0:09:19.16,Default,,0,0,0,,reprendre M. Shibata.
+Dialogue: 0,0:09:19.72,0:09:22.52,Default,,0,0,0,,Il avait menti\Npour se faire rembourser.
+Dialogue: 0,0:09:23.72,0:09:28.72,Default,,0,0,0,,Il a donc trahi sa promesse\Naprès avoir récupéré l'argent...
+Dialogue: 0,0:09:29.08,0:09:30.52,Default,,0,0,0,,Si c'est bien ça,
+Dialogue: 0,0:09:31.28,0:09:33.56,Default,,0,0,0,,M. Shibata a pu vouloir se venger
+Dialogue: 0,0:09:33.92,0:09:37.28,Default,,0,0,0,,en prenant\Nce qui lui passait sous la main...
+Dialogue: 0,0:09:38.52,0:09:40.64,Default,,0,0,0,,... et tuer M. Kawai.
+Dialogue: 0,0:09:45.23,0:09:48.80,Default,,0,0,0,,L'interphone\Nsemble bel et bien détraqué.
+Dialogue: 0,0:09:48.95,0:09:49.76,Default,,0,0,0,,Ouais...
+Dialogue: 0,0:09:50.28,0:09:52.95,Default,,0,0,0,,Vous étiez là, vous deux ?
+Dialogue: 0,0:09:53.23,0:09:57.04,Default,,0,0,0,,Allez, on fonce au parc\Nfinir notre partie de foot !
+Dialogue: 0,0:09:57.20,0:10:00.60,Default,,0,0,0,,Tâche de viser le but,\Ncette fois-ci !
+Dialogue: 0,0:10:00.76,0:10:02.52,Default,,0,0,0,,C'est bon, j'ai pigé !
+Dialogue: 0,0:10:04.20,0:10:05.80,Default,,0,0,0,,Alors, qu'en penses-tu ?
+Dialogue: 0,0:10:05.95,0:10:08.11,Default,,0,0,0,,- De quoi ?\N- De cette affaire !
+Dialogue: 0,0:10:08.47,0:10:09.60,Default,,0,0,0,,À première vue,
+Dialogue: 0,0:10:10.08,0:10:11.64,Default,,0,0,0,,l'homme poignardé
+Dialogue: 0,0:10:11.80,0:10:15.11,Default,,0,0,0,,a aussitôt poussé violemment\Nson agresseur.
+Dialogue: 0,0:10:15.60,0:10:18.36,Default,,0,0,0,,Et ils ont tous les deux succombé
+Dialogue: 0,0:10:20.08,0:10:21.56,Default,,0,0,0,,à une blessure fatale.
+Dialogue: 0,0:10:22.40,0:10:24.72,Default,,0,0,0,,Ça suffit à tout expliquer, alors.
+Dialogue: 0,0:10:25.04,0:10:26.72,Default,,0,0,0,,En effet, oui...
+Dialogue: 0,0:10:26.95,0:10:28.68,Default,,0,0,0,,Quel manque de conviction...
+Dialogue: 0,0:10:28.84,0:10:31.68,Default,,0,0,0,,Tu as remarqué un truc louche ?
+Dialogue: 0,0:10:31.87,0:10:33.08,Default,,0,0,0,,Pas vraiment.
+Dialogue: 0,0:10:33.40,0:10:37.16,Default,,0,0,0,,Tout a dû se passer\Ncomme tu viens de le dire.
+Dialogue: 0,0:10:37.64,0:10:40.84,Default,,0,0,0,,Confie le reste à la police, alors...
+Dialogue: 0,0:10:43.40,0:10:46.08,Default,,0,0,0,,- Conan !\N- Allez ! On y va !
+Dialogue: 0,0:10:47.68,0:10:49.80,Default,,0,0,0,,Tu as attrapé froid, Genta ?
+Dialogue: 0,0:10:49.95,0:10:53.47,Default,,0,0,0,,Non, j'ai dû m'enrouer\Nen criant trop fort...
+Dialogue: 0,0:10:54.08,0:10:55.87,Default,,0,0,0,,Tu m'as fait peur, tu sais ?
+Dialogue: 0,0:10:56.16,0:10:59.04,Default,,0,0,0,,Ton drôle de cri sortait de nulle part !
+Dialogue: 0,0:10:59.20,0:11:01.76,Default,,0,0,0,,Il était si bizarre que ça ?
+Dialogue: 0,0:11:02.11,0:11:04.72,Default,,0,0,0,,Enfin, en localisant la voix,
+Dialogue: 0,0:11:04.87,0:11:08.00,Default,,0,0,0,,on a vite compris que c'était la tienne.
+Dialogue: 0,0:11:08.95,0:11:10.52,Default,,0,0,0,,{\i1}"Localiser la voix" ?{\i0}
+Dialogue: 0,0:11:11.68,0:11:14.87,Default,,0,0,0,,{\i1}En effet, ça ne pouvait être que Genta.{\i0}
+Dialogue: 0,0:11:16.32,0:11:17.16,Default,,0,0,0,,{\i1}Minute...{\i0}
+Dialogue: 0,0:11:18.47,0:11:20.64,Default,,0,0,0,,Désolé, mais partez devant !
+Dialogue: 0,0:11:20.95,0:11:22.64,Default,,0,0,0,,Que se passe-t-il ?
+Dialogue: 0,0:11:23.36,0:11:27.16,Default,,0,0,0,,Le professeur a oublié\Nde dire un truc à la police.
+Dialogue: 0,0:11:27.52,0:11:28.76,Default,,0,0,0,,Pas vrai ?
+Dialogue: 0,0:11:28.92,0:11:31.52,Default,,0,0,0,,Quoi ?\NJ'ai oublié quelque chose, moi ?
+Dialogue: 0,0:11:32.60,0:11:33.87,Default,,0,0,0,,Euh...
+Dialogue: 0,0:11:34.40,0:11:36.52,Default,,0,0,0,,Ah oui, c'est vrai !
+Dialogue: 0,0:11:36.68,0:11:40.20,Default,,0,0,0,,Ça m'était complètement\Nsorti de la tête !
+Dialogue: 0,0:11:45.16,0:11:48.23,Default,,0,0,0,,Allez, vous autres !\NOn part devant !
+Dialogue: 0,0:11:55.04,0:11:56.80,Default,,0,0,0,,Qu'y a-t-il, Shinichi ?
+Dialogue: 0,0:11:57.04,0:11:59.23,Default,,0,0,0,,Un truc te chiffonne ?
+Dialogue: 0,0:11:59.60,0:12:00.28,Default,,0,0,0,,Oui,
+Dialogue: 0,0:12:00.43,0:12:04.40,Default,,0,0,0,,cette affaire n'a pas l'air\Naussi simple qu'elle n'y paraît.
+Dialogue: 0,0:12:04.56,0:12:05.95,Default,,0,0,0,,Ah bon ?
+Dialogue: 0,0:12:06.11,0:12:10.36,Default,,0,0,0,,Enfin, ça m'évitera au moins\Nde courir au parc !
+Dialogue: 0,0:12:11.00,0:12:12.00,Default,,0,0,0,,Bravo...
+Dialogue: 0,0:12:14.04,0:12:18.47,Default,,0,0,0,,M. Shibata n'a pas dû\Nse cogner la tête tout seul.
+Dialogue: 0,0:12:19.04,0:12:23.00,Default,,0,0,0,,Il a plutôt dû tomber\Naprès une violente bousculade...
+Dialogue: 0,0:12:23.40,0:12:27.23,Default,,0,0,0,,La fenêtre et la porte d'entrée\Nétaient verrouillées.
+Dialogue: 0,0:12:27.84,0:12:30.40,Default,,0,0,0,,Un crime extérieur\Nsemble peu probable.
+Dialogue: 0,0:12:31.04,0:12:34.68,Default,,0,0,0,,Tu as vérifié\Nle témoignage de la veuve ?
+Dialogue: 0,0:12:35.04,0:12:35.76,Default,,0,0,0,,Oui.
+Dialogue: 0,0:12:35.92,0:12:40.04,Default,,0,0,0,,Elle a dit vrai, aussi bien\Npour son pied que pour sa mère.
+Dialogue: 0,0:12:40.23,0:12:40.76,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:12:41.36,0:12:44.76,Default,,0,0,0,,Et même réveillée,\Nje vois mal une femme blessée
+Dialogue: 0,0:12:45.23,0:12:48.52,Default,,0,0,0,,pousser M. Shibata\Navec autant de force...
+Dialogue: 0,0:12:49.23,0:12:50.95,Default,,0,0,0,,{\i1}Il n'a pas tort...{\i0}
+Dialogue: 0,0:12:51.56,0:12:54.00,Default,,0,0,0,,{\i1}Mais quoi ? Bon sang !{\i0}
+Dialogue: 0,0:12:54.16,0:12:56.04,Default,,0,0,0,,{\i1}Qu'est-ce qui me gêne ?{\i0}
+Dialogue: 0,0:12:56.47,0:13:00.11,Default,,0,0,0,,Tu t'es fait quoi à la main, Shinichi ?
+Dialogue: 0,0:13:02.36,0:13:06.64,Default,,0,0,0,,J'ai dû frapper trop fort\Nà la porte, tout à l'heure.
+Dialogue: 0,0:13:09.40,0:13:10.40,Default,,0,0,0,,Inspecteur.
+Dialogue: 0,0:13:10.56,0:13:14.87,Default,,0,0,0,,Le bouton trouvé\Ndans le pot sur le meuble
+Dialogue: 0,0:13:15.47,0:13:18.11,Default,,0,0,0,,appartenait bien à M. Shibata.
+Dialogue: 0,0:13:18.36,0:13:21.40,Default,,0,0,0,,Je vois...\NIl a dû atterrir dans ce pot
+Dialogue: 0,0:13:21.92,0:13:24.28,Default,,0,0,0,,quand ils se sont empoignés.
+Dialogue: 0,0:13:26.04,0:13:29.28,Default,,0,0,0,,{\i1}Parce qu'il portait\Nun pull de grande marque.{\i0}
+Dialogue: 0,0:13:29.95,0:13:31.95,Default,,0,0,0,,{\i1}Le plus grand de la troupe.{\i0}
+Dialogue: 0,0:13:45.40,0:13:47.23,Default,,0,0,0,,Doucement, Conan !
+Dialogue: 0,0:13:47.40,0:13:50.56,Default,,0,0,0,,J'ai perdu un truc, en fait...
+Dialogue: 0,0:13:50.72,0:13:53.23,Default,,0,0,0,,Mais il n'a pas l'air d'être ici.
+Dialogue: 0,0:13:54.28,0:13:57.56,Default,,0,0,0,,Ben alors !\NN'entre pas sans permission !
+Dialogue: 0,0:13:58.11,0:14:01.92,Default,,0,0,0,,Hé ! Ce n'est pas\Nun terrain de jeu pour enfants !
+Dialogue: 0,0:14:02.08,0:14:04.60,Default,,0,0,0,,Pardon, je suis désolé...
+Dialogue: 0,0:14:07.43,0:14:09.52,Default,,0,0,0,,Tu n'en fais qu'à ta tête !
+Dialogue: 0,0:14:09.84,0:14:11.32,Default,,0,0,0,,J'étais obligé !
+Dialogue: 0,0:14:11.52,0:14:13.84,Default,,0,0,0,,L'astuce était très audacieuse.
+Dialogue: 0,0:14:14.00,0:14:15.28,Default,,0,0,0,,C'était moins une.
+Dialogue: 0,0:14:16.11,0:14:17.28,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:14:17.76,0:14:19.32,Default,,0,0,0,,J'ai enfin compris
+Dialogue: 0,0:14:19.68,0:14:24.28,Default,,0,0,0,,la vérité sur le voile\Nqui enveloppait cette affaire.
+Dialogue: 0,0:14:32.40,0:14:33.28,Default,,0,0,0,,Ils traînent...
+Dialogue: 0,0:14:34.28,0:14:36.40,Default,,0,0,0,,Inspecteur. En fin de compte,
+Dialogue: 0,0:14:36.56,0:14:38.20,Default,,0,0,0,,c'est à cause de l'argent
+Dialogue: 0,0:14:38.52,0:14:41.72,Default,,0,0,0,,qu'ils ont fini\Npar se battre et s'entre-tuer.
+Dialogue: 0,0:14:41.92,0:14:45.23,Default,,0,0,0,,Oui, tu as probablement raison.
+Dialogue: 0,0:14:45.95,0:14:47.00,Default,,0,0,0,,Madame Kawai.
+Dialogue: 0,0:14:47.28,0:14:51.68,Default,,0,0,0,,J'aimerais plus de détails\Nsur ces 2 hommes et cette affaire.
+Dialogue: 0,0:14:51.84,0:14:53.76,Default,,0,0,0,,Me suivriez-vous au poste ?
+Dialogue: 0,0:14:54.11,0:14:54.72,Default,,0,0,0,,Bien sûr.
+Dialogue: 0,0:14:54.95,0:14:56.43,Default,,0,0,0,,Un instant.
+Dialogue: 0,0:14:56.95,0:14:58.80,Default,,0,0,0,,Qu'y a-t-il, M. Agasa ?
+Dialogue: 0,0:14:59.20,0:15:04.20,Default,,0,0,0,,J'aimerais juste vous dire\Ncomment ça s'est réellement passé.
+Dialogue: 0,0:15:05.52,0:15:09.68,Default,,0,0,0,,Nous avons déjà fait un recoupement\Net tiré nos conclusions.
+Dialogue: 0,0:15:10.16,0:15:12.36,Default,,0,0,0,,Ma conclusion à moi,
+Dialogue: 0,0:15:12.52,0:15:15.80,Default,,0,0,0,,c'est que M. Shibata\Nne pouvait pas tuer M. Kawai !
+Dialogue: 0,0:15:16.20,0:15:19.16,Default,,0,0,0,,Comment ça, il ne pouvait pas ?
+Dialogue: 0,0:15:19.60,0:15:22.00,Default,,0,0,0,,À cause de leur différence de taille.
+Dialogue: 0,0:15:22.16,0:15:23.56,Default,,0,0,0,,Ça saute aux yeux !
+Dialogue: 0,0:15:23.95,0:15:25.23,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:15:27.23,0:15:30.20,Default,,0,0,0,,M. Kawai faisait 1,85 m
+Dialogue: 0,0:15:30.36,0:15:32.28,Default,,0,0,0,,et M. Shibata, 1,60 m.
+Dialogue: 0,0:15:32.43,0:15:35.20,Default,,0,0,0,,C'est vrai qu'il y a un sacré contraste.
+Dialogue: 0,0:15:35.52,0:15:36.76,Default,,0,0,0,,Voilà.
+Dialogue: 0,0:15:36.95,0:15:39.08,Default,,0,0,0,,Si M. Shibata avait poignardé
+Dialogue: 0,0:15:39.23,0:15:43.92,Default,,0,0,0,,M. Kawai au cœur,\Nétant beaucoup plus petit que lui,
+Dialogue: 0,0:15:44.16,0:15:47.08,Default,,0,0,0,,il aurait tenu l'arme comme ça.
+Dialogue: 0,0:15:48.00,0:15:51.95,Default,,0,0,0,,Il aurait donc dû avoir du sang\Nsur son petit doigt.
+Dialogue: 0,0:15:54.16,0:15:56.32,Default,,0,0,0,,Autre élément bizarre.
+Dialogue: 0,0:15:56.95,0:15:57.76,Default,,0,0,0,,"Bizarre" ?
+Dialogue: 0,0:15:58.28,0:16:01.16,Default,,0,0,0,,Le bouton de M. Shibata.
+Dialogue: 0,0:16:02.08,0:16:04.08,Default,,0,0,0,,En soulevant son pull,
+Dialogue: 0,0:16:04.36,0:16:06.40,Default,,0,0,0,,Conan a clairement vu
+Dialogue: 0,0:16:07.00,0:16:10.40,Default,,0,0,0,,que son troisième bouton était arraché.
+Dialogue: 0,0:16:11.16,0:16:14.36,Default,,0,0,0,,Et même si les 2 hommes\Nse sont empoignés,
+Dialogue: 0,0:16:14.52,0:16:17.36,Default,,0,0,0,,ce bouton situé sous son pull
+Dialogue: 0,0:16:17.64,0:16:21.20,Default,,0,0,0,,ne pouvait pas\Nse retrouver dans ce pot.
+Dialogue: 0,0:16:21.72,0:16:23.32,Default,,0,0,0,,En effet...
+Dialogue: 0,0:16:24.23,0:16:26.60,Default,,0,0,0,,Autre élément étrange.
+Dialogue: 0,0:16:27.08,0:16:28.23,Default,,0,0,0,,Madame Kawai.
+Dialogue: 0,0:16:28.72,0:16:32.47,Default,,0,0,0,,Vous étiez ici avant notre arrivée,\Nn'est-ce pas ?
+Dialogue: 0,0:16:32.64,0:16:35.47,Default,,0,0,0,,Non, j'étais dans ma chambre au 1er.
+Dialogue: 0,0:16:35.84,0:16:39.20,Default,,0,0,0,,Comment saviez-vous\Npour Genta, alors ?
+Dialogue: 0,0:16:39.72,0:16:43.20,Default,,0,0,0,,Aucune fenêtre\Nne donne sur le jardin au 1er.
+Dialogue: 0,0:16:45.16,0:16:49.08,Default,,0,0,0,,L'entendre crier\Nne suffisait pas à l'identifier.
+Dialogue: 0,0:16:49.56,0:16:51.28,Default,,0,0,0,,Pourtant, vous l'avez reconnu.
+Dialogue: 0,0:16:51.80,0:16:54.04,Default,,0,0,0,,C'est parce que vous l'observiez
+Dialogue: 0,0:16:54.20,0:16:57.11,Default,,0,0,0,,au moment où vous avez entendu ce cri.
+Dialogue: 0,0:16:57.76,0:16:59.40,Default,,0,0,0,,C'est la seule explication.
+Dialogue: 0,0:16:59.95,0:17:01.36,Default,,0,0,0,,J'ai tort ?
+Dialogue: 0,0:17:02.11,0:17:03.36,Default,,0,0,0,,C'est-à-dire que...
+Dialogue: 0,0:17:03.72,0:17:05.87,Default,,0,0,0,,Le pic à glace, les traces de sang,
+Dialogue: 0,0:17:06.16,0:17:08.87,Default,,0,0,0,,le bouton de M. Shibata dans le pot
+Dialogue: 0,0:17:09.20,0:17:12.64,Default,,0,0,0,,et le fait\Nque cette maison était fermée.
+Dialogue: 0,0:17:12.95,0:17:15.28,Default,,0,0,0,,Quand on réunit tout ça,
+Dialogue: 0,0:17:15.43,0:17:17.72,Default,,0,0,0,,la seule personne dans la villa
+Dialogue: 0,0:17:17.87,0:17:20.64,Default,,0,0,0,,au moment du crime\Ncapable de tuer M. Kawai,
+Dialogue: 0,0:17:21.64,0:17:24.04,Default,,0,0,0,,c'est vous, madame Kawai, non ?
+Dialogue: 0,0:17:25.40,0:17:28.16,Default,,0,0,0,,Mais comment l'aurait-elle poignardé ?
+Dialogue: 0,0:17:28.32,0:17:30.28,Default,,0,0,0,,Elle n'est pas très grande
+Dialogue: 0,0:17:30.56,0:17:33.20,Default,,0,0,0,,et en plus, elle est blessée au pied.
+Dialogue: 0,0:17:33.64,0:17:36.92,Default,,0,0,0,,Et si M. Kawai,\Npoignardé par M. Shibata,
+Dialogue: 0,0:17:37.08,0:17:39.32,Default,,0,0,0,,était assis sur un fauteuil ?
+Dialogue: 0,0:17:39.56,0:17:41.28,Default,,0,0,0,,Une entorse au pied
+Dialogue: 0,0:17:41.43,0:17:44.64,Default,,0,0,0,,n'empêche pas\Nd'achever un blessé grave.
+Dialogue: 0,0:17:45.08,0:17:46.76,Default,,0,0,0,,Si mon mari était assis,
+Dialogue: 0,0:17:46.92,0:17:51.28,Default,,0,0,0,,M. Shibata a très bien pu\Nle tuer à ce moment, non ?
+Dialogue: 0,0:17:51.92,0:17:56.16,Default,,0,0,0,,Là, on ne pourrait plus\Nexpliquer sa chute mortelle.
+Dialogue: 0,0:17:56.76,0:17:59.36,Default,,0,0,0,,Car un blessé assis sur un fauteuil
+Dialogue: 0,0:17:59.52,0:18:03.92,Default,,0,0,0,,n'aurait pas la force de faire tomber\Nquelqu'un en le poussant.
+Dialogue: 0,0:18:04.32,0:18:07.47,Default,,0,0,0,,Quand vous êtes entrée dans cette pièce,
+Dialogue: 0,0:18:07.64,0:18:09.43,Default,,0,0,0,,M. Shibata était déjà mort.
+Dialogue: 0,0:18:09.87,0:18:14.28,Default,,0,0,0,,J'ignore quelle discussion\Nvous avez eue avec votre mari,
+Dialogue: 0,0:18:14.43,0:18:17.43,Default,,0,0,0,,mais elle vous a poussée à l'achever
+Dialogue: 0,0:18:17.87,0:18:21.68,Default,,0,0,0,,en vous saisissant du pic à glace,\Nje me trompe ?
+Dialogue: 0,0:18:22.43,0:18:25.16,Default,,0,0,0,,Tout ça, c'est vous qui le dites !
+Dialogue: 0,0:18:25.52,0:18:28.23,Default,,0,0,0,,Quant au cri,\Nj'ai compris en entendant
+Dialogue: 0,0:18:28.40,0:18:31.56,Default,,0,0,0,,ce garçon appelé "Genta"\Nen parler à la police.
+Dialogue: 0,0:18:32.52,0:18:36.32,Default,,0,0,0,,Arrêtez de m'accuser sans preuve,\Nvous voulez bien ?
+Dialogue: 0,0:18:37.47,0:18:38.72,Default,,0,0,0,,Et le bouton ?
+Dialogue: 0,0:18:39.76,0:18:40.60,Default,,0,0,0,,"Le bouton" ?
+Dialogue: 0,0:18:41.04,0:18:43.56,Default,,0,0,0,,En quoi c'est une preuve ?
+Dialogue: 0,0:18:43.72,0:18:47.08,Default,,0,0,0,,Je l'aurais ramassé\Net mis dans le pot, c'est ça ?
+Dialogue: 0,0:18:47.52,0:18:50.28,Default,,0,0,0,,Non, le bouton est bien arrivé là
+Dialogue: 0,0:18:50.43,0:18:52.47,Default,,0,0,0,,au moment de la bagarre.
+Dialogue: 0,0:18:52.64,0:18:57.60,Default,,0,0,0,,Mais dans votre empressement,\Nvous n'avez pas dû le voir.
+Dialogue: 0,0:18:58.56,0:19:00.32,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:19:00.47,0:19:02.60,Default,,0,0,0,,De quoi parlez-vous ?
+Dialogue: 0,0:19:03.56,0:19:04.92,Default,,0,0,0,,Un instant...
+Dialogue: 0,0:19:05.08,0:19:07.84,Default,,0,0,0,,Si le bouton\Ns'est arraché dans la bagarre,
+Dialogue: 0,0:19:08.00,0:19:10.47,Default,,0,0,0,,comment est-il entré dans le pot ?
+Dialogue: 0,0:19:11.08,0:19:12.84,Default,,0,0,0,,La réponse est simple.
+Dialogue: 0,0:19:13.16,0:19:17.23,Default,,0,0,0,,Parce que M. Shibata\Nne portait pas de pull !
+Dialogue: 0,0:19:21.92,0:19:22.92,Default,,0,0,0,,Madame Kawai.
+Dialogue: 0,0:19:23.36,0:19:26.76,Default,,0,0,0,,C'est le vôtre\Nque portait M. Shibata, hein...
+Dialogue: 0,0:19:27.23,0:19:29.11,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:19:29.64,0:19:30.95,Default,,0,0,0,,C'est simple.
+Dialogue: 0,0:19:31.64,0:19:36.08,Default,,0,0,0,,Vous deviez vous débarrasser\Ndu pull taché de sang.
+Dialogue: 0,0:19:36.43,0:19:38.60,Default,,0,0,0,,Vous avez alors remarqué
+Dialogue: 0,0:19:38.76,0:19:41.60,Default,,0,0,0,,que M. Shibata faisait votre taille.
+Dialogue: 0,0:19:42.20,0:19:44.76,Default,,0,0,0,,Et pour lui faire porter le chapeau,
+Dialogue: 0,0:19:44.92,0:19:46.72,Default,,0,0,0,,vous lui avez mis votre pull.
+Dialogue: 0,0:19:47.40,0:19:51.40,Default,,0,0,0,,Vous aviez même la chance\Nde porter une couleur mixte.
+Dialogue: 0,0:19:52.16,0:19:55.23,Default,,0,0,0,,Si l'affaire avait été classée,
+Dialogue: 0,0:19:55.40,0:19:58.04,Default,,0,0,0,,on serait peut-être passés à côté.
+Dialogue: 0,0:19:58.28,0:19:59.84,Default,,0,0,0,,Mais une analyse minutieuse
+Dialogue: 0,0:20:00.00,0:20:03.32,Default,,0,0,0,,nous dira si vous avez porté\Nce pull ou non !
+Dialogue: 0,0:20:06.28,0:20:07.60,Default,,0,0,0,,Yûko Kawai.
+Dialogue: 0,0:20:07.76,0:20:11.23,Default,,0,0,0,,Vous me racontez à nouveau\Nce qui s'est passé ?
+Dialogue: 0,0:20:12.23,0:20:13.84,Default,,0,0,0,,Juste une chose...
+Dialogue: 0,0:20:24.43,0:20:25.64,Default,,0,0,0,,{\i1}Chéri !{\i0}
+Dialogue: 0,0:20:27.08,0:20:28.47,Default,,0,0,0,,{\i1}Maudit Shibata !{\i0}
+Dialogue: 0,0:20:28.64,0:20:33.04,Default,,0,0,0,,{\i1}Il croyait retrouver son boulot\Nen s'excusant et en me remboursant !{\i0}
+Dialogue: 0,0:20:33.47,0:20:36.52,Default,,0,0,0,,{\i1}Mais tu lui avais promis, pourtant...{\i0}
+Dialogue: 0,0:20:38.08,0:20:41.43,Default,,0,0,0,,{\i1}Au final,\Nson parent hospitalisé est mort{\i0}
+Dialogue: 0,0:20:41.60,0:20:43.28,Default,,0,0,0,,{\i1}et lui finit comme ça.{\i0}
+Dialogue: 0,0:20:43.43,0:20:44.80,Default,,0,0,0,,{\i1}Il l'a bien mérité.{\i0}
+Dialogue: 0,0:20:45.23,0:20:46.40,Default,,0,0,0,,{\i1}Tu es odieux...{\i0}
+Dialogue: 0,0:20:46.68,0:20:49.16,Default,,0,0,0,,{\i1}Appelle plutôt une ambulance !{\i0}
+Dialogue: 0,0:20:49.68,0:20:52.11,Default,,0,0,0,,{\i1}Tu m'avais pourtant dit que ça irait{\i0}
+Dialogue: 0,0:20:52.28,0:20:54.87,Default,,0,0,0,,{\i1}et que tu t'occuperais de lui...{\i0}
+Dialogue: 0,0:20:55.11,0:20:55.68,Default,,0,0,0,,{\i1}La ferme !{\i0}
+Dialogue: 0,0:20:56.87,0:21:01.52,Default,,0,0,0,,{\i1}C'est parce que tu as eu pitié\Nde ce déchet que c'est arrivé !{\i0}
+Dialogue: 0,0:21:02.08,0:21:06.64,Default,,0,0,0,,{\i1}En plus, tu gâches mon argent\Navec cette vieille inutile !{\i0}
+Dialogue: 0,0:21:13.60,0:21:15.47,Default,,0,0,0,,{\i1}Mais... tu es folle ?{\i0}
+Dialogue: 0,0:21:23.20,0:21:26.47,Default,,0,0,0,,J'ai longtemps supporté\Nce mari arrogant.
+Dialogue: 0,0:21:27.00,0:21:30.56,Default,,0,0,0,,{\i1}Mais ses propos\Npiétinant les sentiments d'autrui{\i0}
+Dialogue: 0,0:21:31.28,0:21:33.32,Default,,0,0,0,,{\i1}m'ont mise hors de moi...{\i0}
+Dialogue: 0,0:21:34.95,0:21:39.76,Default,,0,0,0,,{\i1}au point de faire porter le chapeau\Nà M. Shibata...{\i0}
+Dialogue: 0,0:21:52.84,0:21:55.36,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:55.68,0:21:58.20,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:23:06.04,0:23:07.72,Default,,0,0,0,,Conan ! T'as vu l'heure ?
+Dialogue: 0,0:23:08.04,0:23:09.23,Default,,0,0,0,,Ouais, excuse...
+Dialogue: 0,0:23:09.47,0:23:13.52,Default,,0,0,0,,On n'a pas pu jouer beaucoup\Npour aider le professeur à maigrir.
+Dialogue: 0,0:23:13.92,0:23:15.36,Default,,0,0,0,,C'est dommage...
+Dialogue: 0,0:23:15.52,0:23:16.47,Default,,0,0,0,,Je sais !
+Dialogue: 0,0:23:16.64,0:23:19.52,Default,,0,0,0,,La prochaine fois,\Non commencera le matin !
+Dialogue: 0,0:23:20.00,0:23:22.11,Default,,0,0,0,,Euh, non... Ça ira...
+Dialogue: 0,0:23:22.47,0:23:25.23,Default,,0,0,0,,J'ai hâte d'y être ! Pas vous ?
+Dialogue: 0,0:23:25.64,0:23:27.32,Default,,0,0,0,,Non, pas vraiment...
+Dialogue: 0,0:23:27.47,0:23:31.04,Default,,0,0,0,,Quelle chance !\NVous allez vite maigrir comme ça...
+Dialogue: 0,0:23:31.36,0:23:36.08,Default,,0,0,0,,Je vais vous aider\Nà modérer vos repas, alors.
+Dialogue: 0,0:23:36.43,0:23:38.47,Default,,0,0,0,,C'est un cauchemar ou quoi ?
+Dialogue: 0,0:23:40.92,0:23:42.68,Default,,0,0,0,,{\i1}Courage, professeur !{\i0}

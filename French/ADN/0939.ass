@@ -1,0 +1,391 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.29,0:00:04.71,Default,,0,0,0,,"En surfant sur votre site\Nconsacré au village d'Oninoha,
+Dialogue: 0,0:00:05.21,0:00:08.80,Default,,0,0,0,,"j'ai lu qu'on aurait exhumé\Nune 'déjection lunaire'
+Dialogue: 0,0:00:08.96,0:00:11.97,Default,,0,0,0,,"du site de fouilles\Nde la galerie d'Oninoha.
+Dialogue: 0,0:00:12.34,0:00:15.97,Default,,0,0,0,,"D'après mes recherches,\Nla strate où a été découvert le fossile
+Dialogue: 0,0:00:16.14,0:00:19.10,Default,,0,0,0,,"date de 130 millions d'années.
+Dialogue: 0,0:00:19.47,0:00:23.60,Default,,0,0,0,,"Or, aucune 'déjection lunaire'\Nn'a jamais été découverte
+Dialogue: 0,0:00:23.77,0:00:25.81,Default,,0,0,0,,"dans une strate de cette époque.
+Dialogue: 0,0:00:26.35,0:00:30.98,Default,,0,0,0,,"J'aimerais donc vous rencontrer\Npour avoir plus de détails à ce sujet."
+Dialogue: 0,0:00:31.40,0:00:33.78,Default,,0,0,0,,Mais elle nous suspecte carrément !
+Dialogue: 0,0:00:33.95,0:00:34.90,Default,,0,0,0,,Oui...
+Dialogue: 0,0:00:35.32,0:00:36.61,Default,,0,0,0,,Que va–t-on faire ?
+Dialogue: 0,0:00:37.12,0:00:38.03,Default,,0,0,0,,Il faut agir,
+Dialogue: 0,0:00:38.20,0:00:42.08,Default,,0,0,0,,ou l'origine du fossile\Nrisque d'être percée à jour !
+Dialogue: 0,0:00:42.29,0:00:43.50,Default,,0,0,0,,Allons, allons...
+Dialogue: 0,0:00:44.16,0:00:47.96,Default,,0,0,0,,Ce n'est pas une petite journaliste\Nqui va vous inquiéter.
+Dialogue: 0,0:00:48.13,0:00:50.00,Default,,0,0,0,,Pas vrai, M. le politicien ?
+Dialogue: 0,0:00:50.17,0:00:52.92,Default,,0,0,0,,Ça va pas, non ?\NJ'ai pas tous les pouvoirs !
+Dialogue: 0,0:00:53.09,0:00:54.42,Default,,0,0,0,,Je suis que maire !
+Dialogue: 0,0:00:54.59,0:00:55.93,Default,,0,0,0,,Sérieux ?
+Dialogue: 0,0:00:56.18,0:00:58.76,Default,,0,0,0,,Pourquoi croyez-vous\Nqu'on est associés ?
+Dialogue: 0,0:00:59.43,0:01:01.64,Default,,0,0,0,,C'est à vous de régler\Nces choses-là !
+Dialogue: 0,0:01:04.02,0:01:06.77,Default,,0,0,0,,Au pire,\Nproposez-lui de l'argent !
+Dialogue: 0,0:01:07.77,0:01:10.36,Default,,0,0,0,,Ça, vous en avez,\Ncontrairement au pouvoir.
+Dialogue: 0,0:01:10.52,0:01:11.27,Default,,0,0,0,,Mais...
+Dialogue: 0,0:01:12.03,0:01:13.74,Default,,0,0,0,,Vous allez payer, pas vrai ?
+Dialogue: 0,0:01:14.03,0:01:16.40,Default,,0,0,0,,Sans ça,\Nje ne donne pas cher
+Dialogue: 0,0:01:16.57,0:01:18.28,Default,,0,0,0,,de votre carrière politique.
+Dialogue: 0,0:01:25.96,0:01:27.17,Default,,0,0,0,,Maudit bon à rien !
+Dialogue: 0,0:01:41.14,0:01:44.27,ST_BAS_DROITE,,0,0,0,,{\i1}Un regard, un max d'idées !\NUne déduction, une réaction !{\i0}
+Dialogue: 0,0:01:44.64,0:01:48.10,Default,,0,0,0,,{\i1}Conversation suspecte,\Nfossile rare et nouvelle affaire !{\i0}
+Dialogue: 0,0:01:48.27,0:01:51.36,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:51.65,0:01:53.73,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:11.92,0:02:14.34,ST_HAUT_GAUCHE,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:20.64,0:02:22.76,ST_HAUT_GAUCHE,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:02:25.18,0:02:26.89,ST_HAUT_DROITE,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:02:28.39,0:02:29.94,ST_HAUT_GAUCHE,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:32.11,0:02:34.15,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:37.69,0:02:40.07,ST_HAUT_DROITE,,0,0,0,,Générique d'ouverture :\N"Barairo no jinsei"
+Dialogue: 0,0:02:49.41,0:02:51.08,ST_HAUT_GAUCHE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:56.63,0:02:58.38,ST_HAUT_DROITE,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:59.22,0:03:01.34,ST_HAUT_DROITE,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:16.69,0:03:19.69,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:35.88,0:03:38.05,Default,,0,0,0,,{\i1}"Une funeste collecte de fossiles !"{\i0}
+Dialogue: 0,0:03:49.14,0:03:51.27,Default,,0,0,0,,GALERIE DE FOSSILES D'ONINOHA
+Dialogue: 0,0:03:54.52,0:03:56.77,ST_HAUT,,0,0,0,,C'est si beau que ça,\Nune ammonite ?
+Dialogue: 0,0:03:56.94,0:04:00.40,ST_HAUT,,0,0,0,,Moi, je voyais plus les fossiles\Ncomme des cailloux !
+Dialogue: 0,0:04:00.74,0:04:03.91,Default,,0,0,0,,En fait, les fossiles ordinaires\Nsont plus austères.
+Dialogue: 0,0:04:04.11,0:04:07.08,Default,,0,0,0,,Pourquoi celui-ci\Nbrille autant, alors ?
+Dialogue: 0,0:04:07.24,0:04:09.62,Default,,0,0,0,,Parce qu'il s'est formé différemment.
+Dialogue: 0,0:04:10.00,0:04:12.62,Default,,0,0,0,,Un fossile ordinaire,\Nos ou coquille, se forme
+Dialogue: 0,0:04:12.79,0:04:15.04,Default,,0,0,0,,par remplacement minéralogique.
+Dialogue: 0,0:04:15.21,0:04:16.88,Default,,0,0,0,,Si ce fossile brille,
+Dialogue: 0,0:04:17.04,0:04:21.55,Default,,0,0,0,,c'est parce qu'il a été remplacé\Npar de l'opale ou de l'aragonite.
+Dialogue: 0,0:04:23.05,0:04:24.97,Default,,0,0,0,,Vous êtes calés, les enfants.
+Dialogue: 0,0:04:27.10,0:04:29.22,Default,,0,0,0,,Il n'y a que des fossiles rares.
+Dialogue: 0,0:04:29.43,0:04:31.18,Default,,0,0,0,,Tu as l'œil, toi !
+Dialogue: 0,0:04:31.73,0:04:35.19,ST_BAS_GAUCHE,,0,0,0,,Ils ont été achetés à l'étranger,\Nj'en suis très fier.
+Dialogue: 0,0:04:35.65,0:04:38.48,Default,,0,0,0,,Vous les avez fait importer ?
+Dialogue: 0,0:04:38.86,0:04:40.90,Default,,0,0,0,,Eh oui, c'est ma passion.
+Dialogue: 0,0:04:41.11,0:04:43.70,Default,,0,0,0,,J'en achèterai aux États-Unis\Nle mois prochain.
+Dialogue: 0,0:04:44.90,0:04:46.45,Default,,0,0,0,,À Tucson, en Arizona,
+Dialogue: 0,0:04:46.61,0:04:49.70,Default,,0,0,0,,aura lieu la plus grande\Nfoire aux fossiles du monde !
+Dialogue: 0,0:04:50.99,0:04:52.33,Default,,0,0,0,,En Arizona ?
+Dialogue: 0,0:04:52.58,0:04:54.71,Default,,0,0,0,,Vous être un vrai mordu, dis donc !
+Dialogue: 0,0:04:55.12,0:04:55.75,Default,,0,0,0,,Oui...
+Dialogue: 0,0:04:55.92,0:04:59.71,Default,,0,0,0,,Admirer un joli fossile suffit\Nà me rendre heureux.
+Dialogue: 0,0:05:03.09,0:05:03.92,Default,,0,0,0,,Allô ?
+Dialogue: 0,0:05:04.84,0:05:05.63,Default,,0,0,0,,Oui.
+Dialogue: 0,0:05:06.18,0:05:09.10,Default,,0,0,0,,Ah, vous êtes à l'entrée ?\NJ'arrive tout de suite.
+Dialogue: 0,0:05:12.60,0:05:14.60,Default,,0,0,0,,Bonjour. Et désolé pour l'attente.
+Dialogue: 0,0:05:15.14,0:05:17.10,Default,,0,0,0,,Oogami, propriétaire de la galerie.
+Dialogue: 0,0:05:17.56,0:05:19.61,ST_HAUT,,0,0,0,,Miyashita, journaliste indépendante.
+Dialogue: 0,0:05:20.11,0:05:22.03,ST_HAUT,,0,0,0,,Ravie de vous rencontrer.
+Dialogue: 0,0:05:22.69,0:05:24.65,Default,,0,0,0,,- Bien, sans plus tarder...\N- Bonjour !
+Dialogue: 0,0:05:24.82,0:05:27.20,Default,,0,0,0,,Et merci d'être venue d'aussi loin !
+Dialogue: 0,0:05:27.45,0:05:29.41,ST_HAUT,,0,0,0,,Nakatani, maire de ce village.
+Dialogue: 0,0:05:29.57,0:05:33.58,ST_HAUT,,0,0,0,,Vous pourrez l'interviewer\Naprès la visite guidée de la galerie.
+Dialogue: 0,0:05:35.25,0:05:37.12,Default,,0,0,0,,Attendez-moi à l'intérieur.
+Dialogue: 0,0:05:37.33,0:05:38.12,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:05:41.21,0:05:42.21,Default,,0,0,0,,Oogami !
+Dialogue: 0,0:05:43.96,0:05:47.47,Default,,0,0,0,,J'ai suivi ton conseil.\NJe réglerai ça avec du fric.
+Dialogue: 0,0:05:47.63,0:05:50.18,Default,,0,0,0,,Parfait.\NBien joué, monsieur le maire...
+Dialogue: 0,0:05:50.51,0:05:53.97,Default,,0,0,0,,Tu n'as plus à t'inquiéter\Npour quoi que ce soit.
+Dialogue: 0,0:05:58.06,0:05:58.85,Default,,0,0,0,,Lui, alors...
+Dialogue: 0,0:06:01.69,0:06:05.36,Default,,0,0,0,,Une journaliste ?\NVous êtes venue nous interviewer ?
+Dialogue: 0,0:06:05.53,0:06:07.65,Default,,0,0,0,,Qu'est-ce que tu racontes ?
+Dialogue: 0,0:06:07.99,0:06:10.74,Default,,0,0,0,,Un fossile rare a été découvert,\Nc'est ça ?
+Dialogue: 0,0:06:10.91,0:06:14.74,Default,,0,0,0,,Maintenant que tu le dis,\Nj'ai vu ça sur le site du village.
+Dialogue: 0,0:06:15.00,0:06:16.33,Default,,0,0,0,,Exactement !
+Dialogue: 0,0:06:16.50,0:06:19.04,Default,,0,0,0,,Je l'ai lu aussi, d'où ma venue.
+Dialogue: 0,0:06:19.25,0:06:19.87,Default,,0,0,0,,Regardez !
+Dialogue: 0,0:06:20.54,0:06:22.88,Default,,0,0,0,,Ils ont découvert\Nune "déjection lunaire" !
+Dialogue: 0,0:06:23.21,0:06:25.55,Default,,0,0,0,,C'est quoi, une "déjection lunaire" ?
+Dialogue: 0,0:06:25.80,0:06:28.26,Default,,0,0,0,,Un coquillage transformé en pierre.
+Dialogue: 0,0:06:28.43,0:06:30.39,Default,,0,0,0,,C'est plus compréhensible ?
+Dialogue: 0,0:06:30.68,0:06:32.64,Default,,0,0,0,,C'est un fossile très précieux !
+Dialogue: 0,0:06:32.93,0:06:35.89,Default,,0,0,0,,On l'a trouvé dans le site\Nde fouilles du village ?
+Dialogue: 0,0:06:36.06,0:06:37.18,Default,,0,0,0,,Tout à fait !
+Dialogue: 0,0:06:37.64,0:06:38.44,Default,,0,0,0,,Regarde !
+Dialogue: 0,0:06:39.60,0:06:40.77,Default,,0,0,0,,Mais c'est du caca !
+Dialogue: 0,0:06:41.06,0:06:44.27,Default,,0,0,0,,Exact. "Déjection" signifie "caca".
+Dialogue: 0,0:06:47.44,0:06:52.32,Default,,0,0,0,,Les gens devaient croire que du caca\Nde lapin tombait de la lune...
+Dialogue: 0,0:06:52.87,0:06:55.45,Default,,0,0,0,,Mais elle n'est exposée nulle part.
+Dialogue: 0,0:06:55.74,0:06:58.16,Default,,0,0,0,,Je pensais en faire\Nle symbole du village.
+Dialogue: 0,0:06:58.79,0:07:00.92,Default,,0,0,0,,Elle est exposée à la mairie.
+Dialogue: 0,0:07:02.50,0:07:04.21,Default,,0,0,0,,Faire d'un caca un symbole...
+Dialogue: 0,0:07:04.38,0:07:06.30,Default,,0,0,0,,Genta, t'exagères !
+Dialogue: 0,0:07:06.84,0:07:09.17,Default,,0,0,0,,Espérons qu'il ne soit pas néfaste.
+Dialogue: 0,0:07:11.09,0:07:12.18,Default,,0,0,0,,Chers visiteurs !
+Dialogue: 0,0:07:12.39,0:07:15.31,Default,,0,0,0,,J'ai préparé\Nde quoi expérimenter une fouille !
+Dialogue: 0,0:07:15.47,0:07:17.43,Default,,0,0,0,,Allez-y ! Je vous en prie !
+Dialogue: 0,0:07:17.60,0:07:18.85,Default,,0,0,0,,Génial !
+Dialogue: 0,0:07:23.36,0:07:24.27,Default,,0,0,0,,Monsieur Oogami.
+Dialogue: 0,0:07:24.48,0:07:28.65,Default,,0,0,0,,Vous pourrez me montrer l'endroit\Noù a été trouvé le fossile après ?
+Dialogue: 0,0:07:28.82,0:07:30.15,Default,,0,0,0,,Oui, bien sûr.
+Dialogue: 0,0:07:30.78,0:07:34.16,Default,,0,0,0,,En fait, moi aussi,\Nje voulais vous parler.
+Dialogue: 0,0:07:34.53,0:07:35.49,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:07:43.67,0:07:46.88,Default,,0,0,0,,Allez !\NJe vais vous dénicher une ammonite !
+Dialogue: 0,0:07:47.38,0:07:49.63,Default,,0,0,0,,Genta ! Tu n'en trouveras pas.
+Dialogue: 0,0:07:49.92,0:07:51.51,Default,,0,0,0,,Pourquoi ça ?
+Dialogue: 0,0:07:51.68,0:07:54.51,Default,,0,0,0,,On pourrait très bien faire\Nune grande découverte !
+Dialogue: 0,0:07:55.05,0:07:57.85,Default,,0,0,0,,Les fossiles diffèrent\Nd'une strate à l'autre.
+Dialogue: 0,0:07:58.01,0:08:01.02,Default,,0,0,0,,Ici, on ne devrait trouver\Nque des coquillages
+Dialogue: 0,0:08:01.18,0:08:02.52,Default,,0,0,0,,genre corbicule ou huître.
+Dialogue: 0,0:08:03.06,0:08:04.48,Default,,0,0,0,,Des corbicules ?
+Dialogue: 0,0:08:04.65,0:08:07.40,Default,,0,0,0,,Il y en avait\Ndans mon bouillon, ce matin !
+Dialogue: 0,0:08:07.77,0:08:10.74,Default,,0,0,0,,Mais on a déjà trouvé\Ndes os ou des empreintes
+Dialogue: 0,0:08:10.90,0:08:13.36,Default,,0,0,0,,d'ornithomimidé, un dinosaure.
+Dialogue: 0,0:08:13.74,0:08:16.57,Default,,0,0,0,,- Sérieux ?\N- Je veux trouver un dinosaure !
+Dialogue: 0,0:08:16.74,0:08:18.95,Default,,0,0,0,,- Faisons de notre mieux !\N- Oui !
+Dialogue: 0,0:08:35.14,0:08:38.51,Default,,0,0,0,,Non, rien qui ressemble à un fossile\Ndans cette pierre.
+Dialogue: 0,0:08:38.81,0:08:41.31,Default,,0,0,0,,C'est pas facile à trouver...
+Dialogue: 0,0:08:41.73,0:08:43.60,Default,,0,0,0,,Il ne doit pas y en avoir ici.
+Dialogue: 0,0:08:44.81,0:08:45.81,Default,,0,0,0,,Encore raté !
+Dialogue: 0,0:08:47.15,0:08:49.07,Default,,0,0,0,,Genta ! T'as failli me l'envoyer !
+Dialogue: 0,0:08:50.11,0:08:51.32,Default,,0,0,0,,Excuse...
+Dialogue: 0,0:08:53.15,0:08:54.61,Default,,0,0,0,,C'est un fossile, ça !
+Dialogue: 0,0:08:55.53,0:08:58.87,Default,,0,0,0,,Ici, vous voyez.\NLa couleur est plus sombre.
+Dialogue: 0,0:08:59.62,0:09:01.45,Default,,0,0,0,,C'est un fossile de corbicule.
+Dialogue: 0,0:09:02.00,0:09:04.33,Default,,0,0,0,,- C'est tout petit !\N- Et banal...
+Dialogue: 0,0:09:05.42,0:09:08.63,Default,,0,0,0,,Les plus gros\Nne se trouvent pas aussi vite.
+Dialogue: 0,0:09:09.13,0:09:12.92,Default,,0,0,0,,Le seul raccourci pour en trouver,\Nc'est de creuser un maximum !
+Dialogue: 0,0:09:13.09,0:09:14.01,Default,,0,0,0,,C'est tout.
+Dialogue: 0,0:09:14.55,0:09:17.51,Default,,0,0,0,,D'accord !\NJe vais creuser à fond, alors !
+Dialogue: 0,0:09:19.39,0:09:20.93,Default,,0,0,0,,Voilà ! C'est bien !
+Dialogue: 0,0:09:21.10,0:09:24.31,Default,,0,0,0,,Creusez avec ardeur\Net vous serez récompensés !
+Dialogue: 0,0:09:24.48,0:09:25.48,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:09:29.36,0:09:32.19,Default,,0,0,0,,Eh ben, c'est pas facile\Nde trouver des fossiles !
+Dialogue: 0,0:09:32.36,0:09:33.99,Default,,0,0,0,,Je n'y comprends rien !
+Dialogue: 0,0:09:34.44,0:09:38.78,Default,,0,0,0,,Pourtant, vous promouvez\Nla déjection lunaire, paraît-il.
+Dialogue: 0,0:09:39.03,0:09:42.04,Default,,0,0,0,,C'est Oogami\Nqui s'occupe quasiment de tout.
+Dialogue: 0,0:09:42.20,0:09:45.04,Default,,0,0,0,,Moi, je ne fais\Nqu'apposer mon cachet.
+Dialogue: 0,0:09:50.67,0:09:52.50,Default,,0,0,0,,Euh... Je peux vous parler ?
+Dialogue: 0,0:09:52.92,0:09:53.71,Default,,0,0,0,,Oui...
+Dialogue: 0,0:09:54.42,0:09:57.55,Default,,0,0,0,,J'ai longtemps hésité\Nà vous en parler...
+Dialogue: 0,0:09:57.72,0:09:59.05,Default,,0,0,0,,Oogami !
+Dialogue: 0,0:09:59.68,0:10:01.14,Default,,0,0,0,,Tu as une minute ?
+Dialogue: 0,0:10:01.30,0:10:02.26,Default,,0,0,0,,J'arrive !
+Dialogue: 0,0:10:02.89,0:10:05.02,Default,,0,0,0,,Excusez-moi. On reprendra après.
+Dialogue: 0,0:10:11.73,0:10:14.40,Default,,0,0,0,,Ai !\NTu m'accompagnes aux toilettes ?
+Dialogue: 0,0:10:14.57,0:10:15.40,Default,,0,0,0,,Si tu veux.
+Dialogue: 0,0:10:21.45,0:10:23.54,Default,,0,0,0,,Il y a quelqu'un à l'intérieur.
+Dialogue: 0,0:10:27.66,0:10:28.75,Default,,0,0,0,,Tout va bien ?
+Dialogue: 0,0:10:30.38,0:10:31.42,Default,,0,0,0,,Cette odeur...
+Dialogue: 0,0:10:31.84,0:10:33.21,Default,,0,0,0,,Ayumi ! Recule !
+Dialogue: 0,0:10:50.06,0:10:51.27,Default,,0,0,0,,Qu'y a-t-il, Ayumi ?
+Dialogue: 0,0:10:52.77,0:10:53.82,Default,,0,0,0,,Les toilettes...
+Dialogue: 0,0:10:56.99,0:10:57.99,Default,,0,0,0,,Monsieur Oogami !
+Dialogue: 0,0:10:59.90,0:11:01.03,Default,,0,0,0,,{\i1}Cette odeur...{\i0}
+Dialogue: 0,0:11:19.55,0:11:22.09,ST_BAS_GAUCHE,,0,0,0,,Ah... OK, je vois...
+Dialogue: 0,0:11:22.80,0:11:26.64,Default,,0,0,0,,La victime était le propriétaire\Nde la galerie de fossiles d'Oninoha,
+Dialogue: 0,0:11:26.81,0:11:28.35,Default,,0,0,0,,Akira Oogami.
+Dialogue: 0,0:11:28.77,0:11:31.39,Default,,0,0,0,,La cause de la mort\Nest un empoisonnement
+Dialogue: 0,0:11:31.56,0:11:33.73,Default,,0,0,0,,par substance cyanurée toxique,
+Dialogue: 0,0:11:33.90,0:11:34.90,Default,,0,0,0,,si je ne m'abuse.
+Dialogue: 0,0:11:35.19,0:11:37.40,Default,,0,0,0,,Ah bon, vraiment ?
+Dialogue: 0,0:11:37.69,0:11:40.07,Default,,0,0,0,,La victime n'ayant rien avalé
+Dialogue: 0,0:11:40.24,0:11:42.99,Default,,0,0,0,,durant la visite guidée\Ndu site de fouille,
+Dialogue: 0,0:11:43.66,0:11:45.16,Default,,0,0,0,,on peut en déduire
+Dialogue: 0,0:11:45.49,0:11:48.58,Default,,0,0,0,,que quelqu'un\Na préalablement enduit
+Dialogue: 0,0:11:48.75,0:11:52.87,Default,,0,0,0,,les W.-C de poison\Nafin que la victime le touche.
+Dialogue: 0,0:11:53.79,0:11:56.54,Default,,0,0,0,,Ne me dites pas\Nque vous nous soupçonnez !
+Dialogue: 0,0:11:56.71,0:11:58.55,Default,,0,0,0,,On ne ferait jamais ça !
+Dialogue: 0,0:11:58.71,0:11:59.92,Default,,0,0,0,,Elle a raison !
+Dialogue: 0,0:12:00.09,0:12:02.88,Default,,0,0,0,,Qui tuerait quelqu'un\Nde cette façon ?
+Dialogue: 0,0:12:03.05,0:12:03.64,Default,,0,0,0,,Imaginez !
+Dialogue: 0,0:12:04.01,0:12:07.18,Default,,0,0,0,,Ces enfants\Nauraient pu être empoisonnés aussi !
+Dialogue: 0,0:12:08.77,0:12:10.56,Default,,0,0,0,,Ah, certes, bien vu...
+Dialogue: 0,0:12:14.31,0:12:16.48,Default,,0,0,0,,Non ? Mais c'est Conan !
+Dialogue: 0,0:12:16.65,0:12:20.65,Default,,0,0,0,,Se pourrait-il\Nque M. Môri soit là aussi ?
+Dialogue: 0,0:12:20.82,0:12:23.11,Default,,0,0,0,,Non, pas aujourd'hui.
+Dialogue: 0,0:12:23.53,0:12:25.03,Default,,0,0,0,,C'est vous, M. Agasa ?
+Dialogue: 0,0:12:25.41,0:12:29.37,Default,,0,0,0,,N'empêche, on vous croise souvent\Nsur des lieux de crime.
+Dialogue: 0,0:12:29.91,0:12:32.91,Default,,0,0,0,,Euh... Je ne pense pas\Nqu'il s'agisse d'un crime.
+Dialogue: 0,0:12:34.08,0:12:36.79,Default,,0,0,0,,- Qui êtes-vous ?\N- Le maire, Nakatani.
+Dialogue: 0,0:12:37.50,0:12:39.17,Default,,0,0,0,,Monsieur le maire ?
+Dialogue: 0,0:12:39.59,0:12:41.38,Default,,0,0,0,,Je vous prie de m'excuser...
+Dialogue: 0,0:12:41.55,0:12:45.39,Default,,0,0,0,,Depuis peu, Oogami semblait tourmenté\Npar quelque chose.
+Dialogue: 0,0:12:45.55,0:12:47.51,Default,,0,0,0,,"Tourmenté" vous dites ?
+Dialogue: 0,0:12:47.68,0:12:51.56,Default,,0,0,0,,Oui, il ne trouvait plus le sommeil\Net disait vouloir mourir.
+Dialogue: 0,0:12:52.06,0:12:52.89,Default,,0,0,0,,Et pourquoi ça ?
+Dialogue: 0,0:12:53.06,0:12:54.77,Default,,0,0,0,,Ça, je l'ignore.
+Dialogue: 0,0:12:54.94,0:12:56.35,Default,,0,0,0,,Si ça se trouve,
+Dialogue: 0,0:12:57.23,0:12:59.48,Default,,0,0,0,,c'est à cause\Nde la déjection lunaire.
+Dialogue: 0,0:12:59.73,0:13:00.65,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:13:01.11,0:13:03.24,Default,,0,0,0,,C'est quoi,\Nune déjection lunaire ?
+Dialogue: 0,0:13:03.61,0:13:05.78,Default,,0,0,0,,Un fossile de coquillage univalve.
+Dialogue: 0,0:13:06.03,0:13:07.37,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:13:07.62,0:13:08.74,Default,,0,0,0,,En fait,
+Dialogue: 0,0:13:09.24,0:13:12.12,Default,,0,0,0,,j'étais venu éventer un mensonge\Nsur ce fossile.
+Dialogue: 0,0:13:12.54,0:13:14.12,Default,,0,0,0,,"Un mensonge" ?
+Dialogue: 0,0:13:14.29,0:13:15.04,Default,,0,0,0,,Oui.
+Dialogue: 0,0:13:15.29,0:13:19.96,Default,,0,0,0,,Je pense que cette déjection lunaire\Nprovient d'un autre site de fouille.
+Dialogue: 0,0:13:20.13,0:13:23.63,Default,,0,0,0,,Et il se serait suicidé\Npar peur d'être démasqué ?
+Dialogue: 0,0:13:23.88,0:13:24.59,Default,,0,0,0,,Oui.
+Dialogue: 0,0:13:24.84,0:13:28.09,Default,,0,0,0,,Surtout qu'il disait vouloir\Nse confier à moi...
+Dialogue: 0,0:13:28.35,0:13:31.89,Default,,0,0,0,,Je pense qu'il ne supportait plus\Nle poids de son crime.
+Dialogue: 0,0:13:32.64,0:13:33.93,Default,,0,0,0,,C'est pas vrai !
+Dialogue: 0,0:13:34.10,0:13:37.44,Default,,0,0,0,,C'était difficile\Nà remarquer pour un novice,
+Dialogue: 0,0:13:37.60,0:13:39.65,Default,,0,0,0,,vous n'y pouviez probablement rien.
+Dialogue: 0,0:13:40.11,0:13:44.65,Default,,0,0,0,,Le projet de promotion du village\Nétait déjà bien avancé...
+Dialogue: 0,0:13:46.53,0:13:49.70,Default,,0,0,0,,Bon, c'est donc bien un suicide.\NAffaire classée !
+Dialogue: 0,0:13:51.08,0:13:53.91,Default,,0,0,0,,Moi qui pensais enfin pouvoir régler
+Dialogue: 0,0:13:54.08,0:13:56.29,Default,,0,0,0,,une affaire en beauté...
+Dialogue: 0,0:13:56.71,0:14:01.04,Default,,0,0,0,,Pourtant, M. Oogami avait hâte\Nde partir en voyage le mois prochain.
+Dialogue: 0,0:14:02.13,0:14:04.17,Default,,0,0,0,,De quel voyage tu parles ?
+Dialogue: 0,0:14:04.51,0:14:07.05,Default,,0,0,0,,Il avait prévu\Nd'aller aux États-Unis.
+Dialogue: 0,0:14:07.43,0:14:10.01,Default,,0,0,0,,Son billet d'avion\Nétait sur son bureau.
+Dialogue: 0,0:14:10.43,0:14:14.68,Default,,0,0,0,,Quelqu'un qui pense au suicide\Nréserverait-il un vol ?
+Dialogue: 0,0:14:14.85,0:14:18.31,Default,,0,0,0,,Ses pulsions suicidaires\Nont pu lui venir après.
+Dialogue: 0,0:14:18.60,0:14:23.65,Default,,0,0,0,,Ça, on pourra toujours le déduire\Nune fois du poison détecté ou non.
+Dialogue: 0,0:14:23.82,0:14:26.49,Default,,0,0,0,,On n'a pas été fouillés,\Nd'ailleurs.
+Dialogue: 0,0:14:33.03,0:14:34.04,Default,,0,0,0,,Vous voyez ?
+Dialogue: 0,0:14:34.20,0:14:36.08,Default,,0,0,0,,Aucune trace de poison,
+Dialogue: 0,0:14:36.25,0:14:37.58,Default,,0,0,0,,nulle part !
+Dialogue: 0,0:14:38.08,0:14:39.21,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:14:39.67,0:14:43.34,Default,,0,0,0,,Oui. Rien sur les endroits\Nque le défunt aurait pu toucher.
+Dialogue: 0,0:14:43.63,0:14:46.09,Default,,0,0,0,,Ses empreintes sont nombreuses,\Npourtant.
+Dialogue: 0,0:14:46.26,0:14:48.76,Default,,0,0,0,,C'est donc bien un suicide,\Npoint final !
+Dialogue: 0,0:14:48.93,0:14:51.89,Default,,0,0,0,,Excusez-moi, j'ai omis un détail.
+Dialogue: 0,0:14:52.89,0:14:55.56,Default,,0,0,0,,C'est au sujet\Ndes lingettes du défunt.
+Dialogue: 0,0:14:55.72,0:14:58.64,Default,,0,0,0,,Aucune trace de cyanure,\Nmais elles sont plus acides
+Dialogue: 0,0:14:58.81,0:15:00.98,Default,,0,0,0,,que celles du commerce.
+Dialogue: 0,0:15:02.19,0:15:04.15,Default,,0,0,0,,- Plus acides ?\N- Oui.
+Dialogue: 0,0:15:04.32,0:15:05.90,Default,,0,0,0,,- Vraiment ?\N- Oui.
+Dialogue: 0,0:15:06.40,0:15:09.24,Default,,0,0,0,,Ça n'a aucun rapport\Navec l'affaire, ça !
+Dialogue: 0,0:15:09.40,0:15:11.61,Default,,0,0,0,,Vous parliez d'un combiné cyanuré !
+Dialogue: 0,0:15:12.53,0:15:15.37,Default,,0,0,0,,Bon, allons tous\Njeter un œil à la galerie !
+Dialogue: 0,0:15:16.54,0:15:19.71,Default,,0,0,0,,Il est pourtant clair\Nque le coupable est le maire.
+Dialogue: 0,0:15:20.04,0:15:21.12,Default,,0,0,0,,Ah bon ?
+Dialogue: 0,0:15:21.29,0:15:23.00,Default,,0,0,0,,Mais je n'ai pas de preuve.
+Dialogue: 0,0:15:23.75,0:15:25.80,Default,,0,0,0,,Hé ! C'est quoi, ce carnage ?
+Dialogue: 0,0:15:27.09,0:15:28.47,Default,,0,0,0,,Qu'est-ce qui se passe ?
+Dialogue: 0,0:15:28.72,0:15:31.51,Default,,0,0,0,,Regarde !\NTous ces insectes sont morts !
+Dialogue: 0,0:15:31.93,0:15:32.84,Default,,0,0,0,,Les pauvres...
+Dialogue: 0,0:15:33.01,0:15:35.51,Default,,0,0,0,,Creusons-leur une tombe !
+Dialogue: 0,0:15:35.68,0:15:36.47,Default,,0,0,0,,Attendez !
+Dialogue: 0,0:15:41.64,0:15:43.31,Default,,0,0,0,,Se pourrait-il que...
+Dialogue: 0,0:15:44.31,0:15:45.98,Default,,0,0,0,,Ne touchez pas aux insectes !
+Dialogue: 0,0:15:46.52,0:15:47.94,Default,,0,0,0,,Qu'est-ce qu'il y a, Conan ?
+Dialogue: 0,0:15:48.11,0:15:49.74,Default,,0,0,0,,Tu as saisi quelque chose ?
+Dialogue: 0,0:15:50.07,0:15:52.24,Default,,0,0,0,,Oui, grâce à vous,\Nles Detective boys !
+Dialogue: 0,0:16:00.46,0:16:03.92,Default,,0,0,0,,Bon, aucune trace de poison\Ndans la galerie non plus.
+Dialogue: 0,0:16:04.08,0:16:06.75,Default,,0,0,0,,- C'est donc bien un suicide.\N- Pas du tout.
+Dialogue: 0,0:16:08.30,0:16:10.26,Default,,0,0,0,,C'est un meurtre.
+Dialogue: 0,0:16:10.88,0:16:12.26,Default,,0,0,0,,J'ai enfin compris
+Dialogue: 0,0:16:12.72,0:16:16.01,Default,,0,0,0,,comment l'assassin s'y est pris\Npour tuer M. Oogami.
+Dialogue: 0,0:16:16.76,0:16:19.93,Default,,0,0,0,,Monsieur Agasa,\Non n'a détecté de poison nulle part.
+Dialogue: 0,0:16:20.10,0:16:22.77,Default,,0,0,0,,Comment le criminel\Naurait fait, alors ?
+Dialogue: 0,0:16:23.60,0:16:27.77,Default,,0,0,0,,Le défunt a lui-même ingurgité\Nle poison, je ne vois que ça !
+Dialogue: 0,0:16:28.27,0:16:30.44,Default,,0,0,0,,Non, car pour commencer,
+Dialogue: 0,0:16:30.61,0:16:33.15,Default,,0,0,0,,il n'a avalé aucun poison.
+Dialogue: 0,0:16:33.91,0:16:36.32,Default,,0,0,0,,Mais qu'est-ce que vous racontez ?
+Dialogue: 0,0:16:36.49,0:16:39.54,Default,,0,0,0,,Le défunt est bien mort empoisonné !
+Dialogue: 0,0:16:40.04,0:16:42.33,Default,,0,0,0,,Mais nul besoin de boire
+Dialogue: 0,0:16:42.50,0:16:45.54,Default,,0,0,0,,ou de lécher du poison\Npour être empoisonné.
+Dialogue: 0,0:16:51.38,0:16:52.88,Default,,0,0,0,,{\i1}Il ne comprend pas ?{\i0}
+Dialogue: 0,0:16:53.30,0:16:54.26,Default,,0,0,0,,Mais oui !
+Dialogue: 0,0:16:54.43,0:16:56.55,Default,,0,0,0,,Le poison a été inhalé !
+Dialogue: 0,0:16:57.47,0:16:58.30,Default,,0,0,0,,Exact.
+Dialogue: 0,0:16:58.56,0:17:00.81,Default,,0,0,0,,"Inhalé", mais comment ?
+Dialogue: 0,0:17:00.97,0:17:04.94,Default,,0,0,0,,On dit qu'avaler\Nun composé cyanuré est mortel,
+Dialogue: 0,0:17:05.35,0:17:09.19,Default,,0,0,0,,mais en réalité, le composé\Nen lui-même n'est pas toxique.
+Dialogue: 0,0:17:09.48,0:17:13.19,Default,,0,0,0,,C'est par réaction\Nà la chlorhydrie contenue dans l'estomac
+Dialogue: 0,0:17:13.36,0:17:15.57,Default,,0,0,0,,que sont engendrés des gaz toxiques.
+Dialogue: 0,0:17:15.74,0:17:20.16,Default,,0,0,0,,C'est pour ça qu'on dit qu'avaler\Nun composé cyanuré est mortel ?
+Dialogue: 0,0:17:20.33,0:17:21.16,Default,,0,0,0,,Exact.
+Dialogue: 0,0:17:22.58,0:17:24.21,Default,,0,0,0,,Où voulez-vous en venir ?
+Dialogue: 0,0:17:24.66,0:17:27.92,Default,,0,0,0,,Que c'est en ajoutant de l'acide\Nà un composé cyanuré
+Dialogue: 0,0:17:28.08,0:17:30.84,Default,,0,0,0,,qu'on génère des gaz toxiques !
+Dialogue: 0,0:17:31.17,0:17:33.72,Default,,0,0,0,,En ajoutant de l'acide ?
+Dialogue: 0,0:17:34.13,0:17:36.43,Default,,0,0,0,,Exact,\Nle coupable a probablement dissous
+Dialogue: 0,0:17:36.59,0:17:41.22,Default,,0,0,0,,un composé cyanuré dans l'eau\Nde la cuvette des toilettes.
+Dialogue: 0,0:17:41.43,0:17:44.89,Default,,0,0,0,,Ne restait qu'à ajouter un acide\Npour produire un gaz toxique.
+Dialogue: 0,0:17:45.56,0:17:48.44,Default,,0,0,0,,Il y avait de l'acide chlorhydrique\Ndans la hutte.
+Dialogue: 0,0:17:48.69,0:17:51.73,Default,,0,0,0,,On s'en sert pour nettoyer\Nles fossiles, paraît-il.
+Dialogue: 0,0:17:52.03,0:17:55.24,Default,,0,0,0,,Non, ce n'est pas ça\Nqu'on a dû utiliser.
+Dialogue: 0,0:17:55.61,0:17:59.45,Default,,0,0,0,,Car avec l'acide chlorhydrique,\Nle gaz se produit aussitôt.
+Dialogue: 0,0:18:00.12,0:18:02.24,Default,,0,0,0,,Il suffit de rabattre le couvercle !
+Dialogue: 0,0:18:02.41,0:18:04.75,Default,,0,0,0,,Ce serait risquer de tuer
+Dialogue: 0,0:18:04.91,0:18:08.67,Default,,0,0,0,,quelqu'un qui utiliserait\Nles W.-C avant M. Oogami !
+Dialogue: 0,0:18:09.54,0:18:12.59,Default,,0,0,0,,Ah, effectivement...\NComment a fait l'assassin, alors ?
+Dialogue: 0,0:18:12.96,0:18:17.34,Default,,0,0,0,,Ce n'est pas le coupable\Nmais M. Oogami qui a ajouté l'acide.
+Dialogue: 0,0:18:19.14,0:18:23.22,Default,,0,0,0,,Il a dû s'essuyer les mains\Navec une lingette et la jeter après.
+Dialogue: 0,0:18:24.60,0:18:25.98,Default,,0,0,0,,Dans la cuvette ?
+Dialogue: 0,0:18:26.27,0:18:27.19,Default,,0,0,0,,Exact.
+Dialogue: 0,0:18:27.35,0:18:30.11,Default,,0,0,0,,Selon l'expert,\Nses lingettes étaient plus acides
+Dialogue: 0,0:18:30.27,0:18:33.23,Default,,0,0,0,,que celles vendues dans le commerce,\Npas vrai ?
+Dialogue: 0,0:18:33.61,0:18:38.82,Default,,0,0,0,,Le coupable a dû verser\Nde l'acide chlorhydrique dilué dessus.
+Dialogue: 0,0:18:39.28,0:18:41.78,Default,,0,0,0,,Le composé cyanuré dans la cuvette
+Dialogue: 0,0:18:41.95,0:18:45.95,Default,,0,0,0,,et l'acide contenue dans la lingette\Nont alors engendré un gaz toxique...
+Dialogue: 0,0:18:46.45,0:18:49.21,Default,,0,0,0,,De la sorte,\Nsi quelqu'un entrait avant M. Oogami,
+Dialogue: 0,0:18:49.37,0:18:52.71,Default,,0,0,0,,le composé cyanuré\Naurait été évacué par la chasse,
+Dialogue: 0,0:18:52.88,0:18:54.67,Default,,0,0,0,,sans victime collatérale.
+Dialogue: 0,0:18:55.17,0:18:58.72,Default,,0,0,0,,Le coupable a dû dire à M. Oogami\Nqu'il avait dissimulé
+Dialogue: 0,0:18:58.88,0:19:01.05,Default,,0,0,0,,un objet important à ses yeux
+Dialogue: 0,0:19:01.22,0:19:06.02,Default,,0,0,0,,dans le réservoir des W.-C\Nafin que ce dernier vienne vérifier.
+Dialogue: 0,0:19:06.18,0:19:08.23,Default,,0,0,0,,Ce maniaque de la propreté
+Dialogue: 0,0:19:08.39,0:19:13.06,Default,,0,0,0,,a dû s'essuyer avec une lingette\Navant de la jeter dans la cuvette.
+Dialogue: 0,0:19:14.40,0:19:18.86,Default,,0,0,0,,Cela a alors engendré un gaz toxique\Nqui a causé la mort de M. Oogami.
+Dialogue: 0,0:19:20.45,0:19:22.62,Default,,0,0,0,,Et qui est le coupable ?
+Dialogue: 0,0:19:22.95,0:19:26.41,Default,,0,0,0,,Celui qui savait que M. Oogami\Nétait un maniaque de la propreté
+Dialogue: 0,0:19:26.58,0:19:29.71,Default,,0,0,0,,et qu'il avait toujours\Ndes lingettes sur lui.
+Dialogue: 0,0:19:30.46,0:19:31.50,Default,,0,0,0,,Monsieur Nakatani,
+Dialogue: 0,0:19:32.17,0:19:33.79,Default,,0,0,0,,c'est vous !
+Dialogue: 0,0:19:35.17,0:19:36.84,Default,,0,0,0,,Attendez une minute !
+Dialogue: 0,0:19:37.01,0:19:39.34,Default,,0,0,0,,Ce ne sont que des hypothèses !
+Dialogue: 0,0:19:39.55,0:19:40.68,Default,,0,0,0,,Vous avez des preuves ?
+Dialogue: 0,0:19:40.88,0:19:44.14,Default,,0,0,0,,Pouvez-vous prouver qu'Oogami\Na inhalé un gaz toxique ?
+Dialogue: 0,0:19:44.85,0:19:48.14,Default,,0,0,0,,Bien sûr que je le peux,\Nj'ai une preuve irréfutable !
+Dialogue: 0,0:19:52.56,0:19:54.15,Default,,0,0,0,,C'est quoi, ce carnage ?
+Dialogue: 0,0:19:54.56,0:19:58.90,Default,,0,0,0,,Ce ne sont que des insectes morts !\NQu'est-ce que ça prouve ?
+Dialogue: 0,0:19:59.53,0:20:02.07,Default,,0,0,0,,J'ai vérifié\Nsuite à la demande de M. Agasa.
+Dialogue: 0,0:20:02.28,0:20:04.16,Default,,0,0,0,,Ces insectes sont morts
+Dialogue: 0,0:20:04.32,0:20:07.66,Default,,0,0,0,,empoisonnés par du cyanure,\Ncomme la victime.
+Dialogue: 0,0:20:09.33,0:20:12.83,Default,,0,0,0,,Vous voyez, ils sont juste\Nen dessous de la ventilation.
+Dialogue: 0,0:20:14.88,0:20:19.59,Default,,0,0,0,,Tous ces insectes ont dû inhaler\Nle gaz toxique rejeté des W.-C.
+Dialogue: 0,0:20:19.80,0:20:21.05,Default,,0,0,0,,C'est pas vrai...
+Dialogue: 0,0:20:21.22,0:20:24.22,Default,,0,0,0,,Craignant qu'il reste du gaz\Nà l'intérieur,
+Dialogue: 0,0:20:24.39,0:20:29.31,Default,,0,0,0,,vous avez activé la ventilation,\Nmais ça s'est retourné contre vous.
+Dialogue: 0,0:20:30.35,0:20:31.73,Default,,0,0,0,,Saleté d'insectes !
+Dialogue: 0,0:20:31.98,0:20:33.52,Default,,0,0,0,,Saleté d'insectes !
+Dialogue: 0,0:20:34.35,0:20:36.65,Default,,0,0,0,,Hé, qu'est-ce que vous faites ?
+Dialogue: 0,0:20:36.82,0:20:39.82,Default,,0,0,0,,Ces saletés\Nont fichu mon plan en l'air !
+Dialogue: 0,0:20:40.03,0:20:42.32,Default,,0,0,0,,Vous avez donc bien assassiné\NM. Oogami ?
+Dialogue: 0,0:20:42.49,0:20:45.20,Default,,0,0,0,,Oui ! C'est moi qui l'ai tué !
+Dialogue: 0,0:20:45.57,0:20:50.29,Default,,0,0,0,,C'est également vous qui avez menti\Nau sujet de la déjection lunaire !
+Dialogue: 0,0:20:50.45,0:20:52.96,Default,,0,0,0,,Non, à ce sujet,\Nils étaient complices.
+Dialogue: 0,0:20:53.62,0:20:54.62,Default,,0,0,0,,"Complices" ?
+Dialogue: 0,0:20:54.87,0:20:56.08,Default,,0,0,0,,C'est vrai !
+Dialogue: 0,0:20:56.42,0:21:00.51,Default,,0,0,0,,On a eu l'idée ensemble,\Nmais il allait tout remettre sur moi !
+Dialogue: 0,0:21:00.67,0:21:04.59,Default,,0,0,0,,Je lui ai donc dit que j'avais caché\Nun enregistrement dans les W.-C !
+Dialogue: 0,0:21:04.84,0:21:06.72,Default,,0,0,0,,Mais de là à le tuer...
+Dialogue: 0,0:21:06.89,0:21:10.27,Default,,0,0,0,,Si je ne le faisais pas,\Nj'étais mort politiquement !
+Dialogue: 0,0:21:10.93,0:21:13.73,Default,,0,0,0,,J'avais encore\Ntant de choses à accomplir...
+Dialogue: 0,0:21:18.44,0:21:20.82,Default,,0,0,0,,Vous êtes le pire des maires...
+Dialogue: 0,0:21:20.98,0:21:24.57,Default,,0,0,0,,Il ne vous reste plus\Nqu'une chose à faire !
+Dialogue: 0,0:21:26.70,0:21:28.45,Default,,0,0,0,,Vous repentir sincèrement
+Dialogue: 0,0:21:28.62,0:21:32.00,Default,,0,0,0,,et ainsi expier votre crime !
+Dialogue: 0,0:21:51.18,0:21:53.68,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:54.02,0:21:56.48,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:23:09.59,0:23:12.76,Default,,0,0,0,,Regardez !\NJ'ai déniché un fossile d'huître !
+Dialogue: 0,0:23:12.93,0:23:15.14,Default,,0,0,0,,Moi,\Nje trouve que des corbicules !
+Dialogue: 0,0:23:15.72,0:23:18.10,Default,,0,0,0,,Que va devenir\Nla galerie des fossiles ?
+Dialogue: 0,0:23:18.27,0:23:21.15,Default,,0,0,0,,Je ferai en sorte\Nqu'elle puisse perdurer.
+Dialogue: 0,0:23:21.52,0:23:23.27,Default,,0,0,0,,Moi, j'ai trouvé que ça !
+Dialogue: 0,0:23:23.82,0:23:25.11,Default,,0,0,0,,C'est quoi, ce truc ?
+Dialogue: 0,0:23:25.28,0:23:26.19,Default,,0,0,0,,C'est dégoûtant.
+Dialogue: 0,0:23:26.36,0:23:28.65,Default,,0,0,0,,Ouais... Je vais le balancer !
+Dialogue: 0,0:23:28.90,0:23:32.16,Default,,0,0,0,,Attends ! Ce ne serait pas\Nune crotte de dinosaure ?
+Dialogue: 0,0:23:33.95,0:23:36.45,Default,,0,0,0,,Si c'est ça,\Nc'est une sacrée découverte !
+Dialogue: 0,0:23:36.83,0:23:40.12,Default,,0,0,0,,Sérieux ?\NJ'ai marché dedans du pied gauche !
+Dialogue: 0,0:23:40.87,0:23:42.04,Default,,0,0,0,,C'est ça, ouais...

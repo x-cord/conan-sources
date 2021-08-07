@@ -1,0 +1,414 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.16,0:00:03.09,Default,,0,0,0,,{\i1}Sous la pluie,{\i0}\N{\i1}les Detective Boys,{\i0}
+Dialogue: 0,0:00:03.24,0:00:04.52,Default,,0,0,0,,{\i1}Haibara et moi{\i0}
+Dialogue: 0,0:00:04.85,0:00:09.61,Default,,0,0,0,,{\i1}sommes tombés sur un homme louche{\i0}\N{\i1}poursuivi par de probables policiers.{\i0}
+Dialogue: 0,0:00:12.61,0:00:15.28,Default,,0,0,0,,{\i1}Tu peux pas faire gaffe,{\i0}\N{\i1}sale gosse ?{\i0}
+Dialogue: 0,0:00:15.45,0:00:16.52,Default,,0,0,0,,{\i1}Le voilà !{\i0}
+Dialogue: 0,0:00:20.12,0:00:20.97,Default,,0,0,0,,{\i1}Bouge pas !{\i0}
+Dialogue: 0,0:00:25.64,0:00:28.60,Default,,0,0,0,,{\i1}Ce type était apparemment{\i0}\N{\i1}un trafiquant de drogue.{\i0}
+Dialogue: 0,0:00:29.25,0:00:31.33,Default,,0,0,0,,{\i1}Grâce à son carnet{\i0}\N{\i1}tombé par terre,{\i0}
+Dialogue: 0,0:00:31.48,0:00:34.56,Default,,0,0,0,,{\i1}j'ai trouvé où et quand{\i0}\N{\i1}aurait lieu une transaction.{\i0}
+Dialogue: 0,0:00:37.44,0:00:39.85,Default,,0,0,0,,{\i1}Ainsi, le code E22{\i0}\N{\i1}correspond à "Ma",{\i0}
+Dialogue: 0,0:00:40.00,0:00:41.92,Default,,0,0,0,,{\i1}Y21, à "Tsuki",{\i0}
+Dialogue: 0,0:00:42.09,0:00:45.48,Default,,0,0,0,,{\i1}et G11, à "Nihon".{\i0}
+Dialogue: 0,0:00:45.77,0:00:47.44,Default,,0,0,0,,{\i1}J'en ai tout de suite déduit{\i0}
+Dialogue: 0,0:00:47.60,0:00:52.16,Default,,0,0,0,,{\i1}qu'il s'agissait des identifiants{\i0}\N{\i1}des lignes et des stations de métro.{\i0}
+Dialogue: 0,0:00:54.04,0:00:58.21,Default,,0,0,0,,{\i1}Dans E22, comme c'est le 3e caractère{\i0}\N{\i1}qui est encerclé,{\i0}
+Dialogue: 0,0:00:58.37,0:01:01.56,ST_BAS_DROITE,,0,0,0,,{\i1}on prend le 3e kanji d'Azabu Jûban,{\i0}\N{\i1}à savoir, "jû".{\i0}
+Dialogue: 0,0:01:01.81,0:01:05.28,ST_BAS_DROITE,,0,0,0,,{\i1}Si on applique cette règle{\i0}\N{\i1}aux 5 premières lignes,{\i0}
+Dialogue: 0,0:01:05.45,0:01:08.17,ST_BAS_DROITE,,0,0,0,,{\i1}E22 correspond à "jû",{\i0}\N{\i1}comme je viens de le dire...{\i0}
+Dialogue: 0,0:01:08.36,0:01:11.65,ST_BAS_DROITE,,0,0,0,,{\i1}C10, c'est Nijûbashi-mae.{\i0}
+Dialogue: 0,0:01:11.81,0:01:14.01,ST_BAS_DROITE,,0,0,0,,{\i1}Le cercle étant en premier,{\i0}\N{\i1}on garde le "ni".{\i0}
+Dialogue: 0,0:01:14.40,0:01:18.36,ST_HAUT,,0,0,0,,{\i1}Pour Y21, c'est-à-dire Tsukishima,{\i0}\N{\i1}on prend le "tsuki".{\i0}
+Dialogue: 0,0:01:18.52,0:01:22.68,ST_HAUT,,0,0,0,,{\i1}Pour M09, Shinjuku Sanchome,{\i0}\N{\i1}on prend le "san".{\i0}
+Dialogue: 0,0:01:22.84,0:01:26.37,ST_HAUT,,0,0,0,,{\i1}Pour G11, c'est-à-dire Nihonbashi,{\i0}\N{\i1}on prend le "hi".{\i0}
+Dialogue: 0,0:01:26.52,0:01:29.89,ST_HAUT,,0,0,0,,{\i1}Si on lit bout à bout,{\i0}\N{\i1}ça donne "3 décembre".{\i0}
+Dialogue: 0,0:01:32.08,0:01:35.41,Default,,0,0,0,,{\i1}Comme je ne parvenais pas{\i0}\N{\i1}à élucider l'énigme,{\i0}
+Dialogue: 0,0:01:36.20,0:01:39.64,Default,,0,0,0,,{\i1}Heiji Hattori m'est venu en aide{\i0}\N{\i1}par téléphone, mais...{\i0}
+Dialogue: 0,0:01:41.84,0:01:43.24,Default,,0,0,0,,{\i1}Je vois...{\i0}
+Dialogue: 0,0:01:44.24,0:01:48.69,Default,,0,0,0,,{\i1}Un code basé sur les identifiants{\i0}\N{\i1}des stations et des lignes du métro.{\i0}
+Dialogue: 0,0:01:49.08,0:01:50.57,Default,,0,0,0,,{\i1}Ç'a l'air cool...{\i0}
+Dialogue: 0,0:01:50.84,0:01:54.97,Default,,0,0,0,,{\i1}Vous avez vu ?{\i0}\N{\i1}Il y a des codes écrits bien à gauche{\i0}
+Dialogue: 0,0:01:55.12,0:01:57.76,Default,,0,0,0,,{\i1}et d'autres qui sont alignés à droite.{\i0}
+Dialogue: 0,0:01:59.00,0:02:01.32,Default,,0,0,0,,{\i1}Ah oui, c'est vrai.{\i0}
+Dialogue: 0,0:02:01.48,0:02:06.29,Default,,0,0,0,,{\i1}C'est peut-être pour distinguer{\i0}\N{\i1}Tokyo et Osaka.{\i0}
+Dialogue: 0,0:02:06.44,0:02:09.80,Default,,0,0,0,,{\i1}Alors, Osaka, ville de l'ouest,{\i0}\N{\i1}doit être à gauche,{\i0}
+Dialogue: 0,0:02:09.96,0:02:13.25,Default,,0,0,0,,{\i1}et Tokyo, située à l'est,{\i0}\N{\i1}doit logiquement être à droite.{\i0}
+Dialogue: 0,0:02:13.88,0:02:15.88,Default,,0,0,0,,{\i1}C'est ça ! Les escalators !{\i0}
+Dialogue: 0,0:02:16.64,0:02:18.45,Default,,0,0,0,,{\i1}À Osaka, dans les escalators,{\i0}
+Dialogue: 0,0:02:18.60,0:02:21.92,Default,,0,0,0,,{\i1}on se range à droite{\i0}\N{\i1}et on laisse le passage à gauche.{\i0}
+Dialogue: 0,0:02:22.08,0:02:23.92,Default,,0,0,0,,{\i1}À Tokyo, c'est l'inverse, non ?{\i0}
+Dialogue: 0,0:02:24.08,0:02:28.08,Default,,0,0,0,,{\i1}Si ça se trouve, ce qui est écrit{\i0}\N{\i1}sur la droite concerne Osaka,{\i0}
+Dialogue: 0,0:02:28.24,0:02:31.60,Default,,0,0,0,,{\i1}et ce qui est à gauche désigne{\i0}\N{\i1}les stations de Tokyo !{\i0}
+Dialogue: 0,0:02:32.36,0:02:33.60,Default,,0,0,0,,{\i1}Hattori !{\i0}
+Dialogue: 0,0:02:33.76,0:02:36.72,Default,,0,0,0,,{\i1}Il y a aussi{\i0}\N{\i1}un pont Ebisubashi, chez vous ?{\i0}
+Dialogue: 0,0:02:39.40,0:02:40.24,Default,,0,0,0,,{\i1}Hattori ?{\i0}
+Dialogue: 0,0:02:41.84,0:02:44.12,Default,,0,0,0,,{\i1}Oui, il y en a un à Osaka aussi !{\i0}
+Dialogue: 0,0:02:45.24,0:02:46.88,Default,,0,0,0,,{\i1}Ça ne s'écrit pas pareil,{\i0}
+Dialogue: 0,0:02:47.96,0:02:50.20,Default,,0,0,0,,{\i1}mais on dit bien{\i0}\N{\i1}"Ebisubashi" !{\i0}
+Dialogue: 0,0:02:50.36,0:02:52.44,Default,,0,0,0,,{\i1}Et c'est souvent là{\i0}\N{\i1}qu'on se donne rendez-vous !{\i0}
+Dialogue: 0,0:02:53.72,0:02:55.40,Default,,0,0,0,,{\i1}Hattori ? Tu es là ?{\i0}
+Dialogue: 0,0:02:56.04,0:02:57.00,Default,,0,0,0,,{\i1}Hattori ?{\i0}
+Dialogue: 0,0:02:57.20,0:02:59.32,Default,,0,0,0,,{\i1}Tu n'entends plus sa voix ?{\i0}
+Dialogue: 0,0:02:59.48,0:03:01.40,Default,,0,0,0,,{\i1}Il lui est arrivé{\i0}\N{\i1}quelque chose ?{\i0}
+Dialogue: 0,0:03:02.36,0:03:05.68,Default,,0,0,0,,{\i1}Il a tenté de capturer{\i0}\N{\i1}le malfaiteur et s'est fait...{\i0}
+Dialogue: 0,0:03:06.20,0:03:09.92,Default,,0,0,0,,{\i1}Effectivement, ça ne m'étonnerait pas{\i0}\N{\i1}de cette tête brûlée.{\i0}
+Dialogue: 0,0:03:10.08,0:03:10.92,Default,,0,0,0,,{\i1}Hattori !{\i0}
+Dialogue: 0,0:03:11.36,0:03:13.44,Default,,0,0,0,,{\i1}Réponds-moi, Hattori !{\i0}
+Dialogue: 0,0:03:13.72,0:03:14.72,Default,,0,0,0,,{\i1}Hattori !{\i0}
+Dialogue: 0,0:03:14.88,0:03:16.28,Default,,0,0,0,,{\i1}J'en vois trois.{\i0}
+Dialogue: 0,0:03:17.56,0:03:21.04,Default,,0,0,0,,{\i1}Je viens de faire le tour{\i0}\N{\i1}du pont d'Ebisubashi.{\i0}
+Dialogue: 0,0:03:21.60,0:03:23.80,Default,,0,0,0,,{\i1}J'ai vu 3 personnes attendre{\i0}
+Dialogue: 0,0:03:23.96,0:03:27.04,Default,,0,0,0,,{\i1}en portant des roses blanches.{\i0}
+Dialogue: 0,0:03:31.00,0:03:33.16,Default,,0,0,0,,{\i1}Mais il est midi moins cinq.{\i0}
+Dialogue: 0,0:03:33.56,0:03:34.40,Default,,0,0,0,,{\i1}Ouais...{\i0}
+Dialogue: 0,0:03:34.56,0:03:39.12,Default,,0,0,0,,{\i1}On a 5 minutes pour trouver lequel{\i0}\N{\i1}est le vrai acteur de la transaction.{\i0}
+Dialogue: 0,0:03:40.64,0:03:42.32,Default,,0,0,0,,{\i1}Sans l'aide de personne.{\i0}
+Dialogue: 0,0:03:45.24,0:03:48.80,Default,,0,0,0,,{\i1}En chiromancie secrète,{\i0}\N{\i1}la déduction est liée à la ligne du cœur.{\i0}
+Dialogue: 0,0:03:48.96,0:03:50.80,Default,,0,0,0,,{\i1}Enquête conjointe{\i0}\N{\i1}via un smartphone...{\i0}
+Dialogue: 0,0:03:50.96,0:03:52.92,Default,,0,0,0,,{\i1}Comment va réagir Hattori{\i0}\N{\i1}en voyant Kazuha ?{\i0}
+Dialogue: 0,0:03:53.08,0:03:56.20,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:03:56.36,0:03:58.40,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:04:07.20,0:04:10.28,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:04:29.80,0:04:32.76,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:04:33.44,0:04:36.56,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:04:37.24,0:04:40.20,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:04:44.40,0:04:47.64,ST_HAUT,,0,0,0,,Générique d'ouverture :\NDYNAMITE
+Dialogue: 0,0:04:49.24,0:04:51.48,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:04:57.76,0:04:59.96,ST_HAUT_GAUCHE,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:05:06.96,0:05:09.56,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:05:10.60,0:05:14.00,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:05:19.96,0:05:22.40,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:05:25.08,0:05:28.80,Default,,0,0,0,,{\i1}"Conan et Heiji, le code de l'amour{\i0}\N{\i1}(2e partie)" !{\i0}
+Dialogue: 0,0:05:30.12,0:05:33.12,Default,,0,0,0,,PONT EBISUBASHI
+Dialogue: 0,0:05:33.28,0:05:33.96,Default,,0,0,0,,Alors,
+Dialogue: 0,0:05:34.64,0:05:36.92,Default,,0,0,0,,à quoi ils ressemblent,\Nles trois suspects ?
+Dialogue: 0,0:05:37.08,0:05:39.44,Default,,0,0,0,,{\i1}Il y a deux hommes et une femme.{\i0}
+Dialogue: 0,0:05:39.60,0:05:42.72,Default,,0,0,0,,{\i1}Je peux vous les montrer{\i0}\N{\i1}en mode vidéo.{\i0}
+Dialogue: 0,0:05:43.28,0:05:45.60,Default,,0,0,0,,Si le dealer vient,
+Dialogue: 0,0:05:45.76,0:05:48.36,Default,,0,0,0,,tu le reconnaîtras aussi.
+Dialogue: 0,0:05:48.56,0:05:52.56,Default,,0,0,0,,{\i1}Alors on reste au téléphone,{\i0}\N{\i1}et tu envoies l'image sur mon portable.{\i0}
+Dialogue: 0,0:05:52.72,0:05:53.72,Default,,0,0,0,,OK !
+Dialogue: 0,0:05:54.40,0:05:55.48,Default,,0,0,0,,APPEL VIDÉO
+Dialogue: 0,0:05:56.56,0:05:58.48,Default,,0,0,0,,C'est bon ? Tu vois bien ?
+Dialogue: 0,0:05:58.92,0:05:59.68,Default,,0,0,0,,Oui !
+Dialogue: 0,0:05:59.84,0:06:01.08,Default,,0,0,0,,Impeccable !
+Dialogue: 0,0:06:01.24,0:06:02.36,Default,,0,0,0,,C'est parfait !
+Dialogue: 0,0:06:02.52,0:06:04.12,Default,,0,0,0,,Alors, où sont les trois ?
+Dialogue: 0,0:06:05.76,0:06:06.88,Default,,0,0,0,,Le premier...
+Dialogue: 0,0:06:07.72,0:06:10.88,Default,,0,0,0,,C'est ce type a l'air flippant.
+Dialogue: 0,0:06:12.84,0:06:14.80,Default,,0,0,0,,Il a l'air dangereux !
+Dialogue: 0,0:06:14.96,0:06:16.36,Default,,0,0,0,,Très louche, en effet.
+Dialogue: 0,0:06:16.52,0:06:18.92,Default,,0,0,0,,Il n'arrête pas de regarder l'heure
+Dialogue: 0,0:06:19.08,0:06:21.64,Default,,0,0,0,,et il porte une montre de luxe.
+Dialogue: 0,0:06:22.16,0:06:24.76,Default,,0,0,0,,Il se préoccupe aussi de...\NVoilà, il recommence !
+Dialogue: 0,0:06:25.32,0:06:28.52,Default,,0,0,0,,Il regarde ce truc\Nqu'il a tiré de sa poche intérieure !
+Dialogue: 0,0:06:29.16,0:06:31.04,Default,,0,0,0,,On dirait un téléphone portable.
+Dialogue: 0,0:06:32.08,0:06:35.52,Default,,0,0,0,,Il l'agite devant ses yeux !\NC'est peut-être un signal...
+Dialogue: 0,0:06:36.96,0:06:38.84,Default,,0,0,0,,Il n'a pas dû beaucoup dormir.
+Dialogue: 0,0:06:39.12,0:06:41.24,Default,,0,0,0,,Il n'arrête pas de bâiller.
+Dialogue: 0,0:06:42.40,0:06:44.64,Default,,0,0,0,,Mais je ne vois pas\Nde rose blanche.
+Dialogue: 0,0:06:44.80,0:06:47.20,Default,,0,0,0,,Il l'a dans sa main droite ?
+Dialogue: 0,0:06:47.48,0:06:48.52,Default,,0,0,0,,Ouais.
+Dialogue: 0,0:06:49.24,0:06:51.60,Default,,0,0,0,,En fait, il tient précieusement
+Dialogue: 0,0:06:52.32,0:06:54.76,Default,,0,0,0,,tout un bouquet de roses blanches.
+Dialogue: 0,0:06:57.20,0:07:00.00,Default,,0,0,0,,Ça doit être lui, le bandit.
+Dialogue: 0,0:07:00.16,0:07:01.52,Default,,0,0,0,,Je pense comme toi.
+Dialogue: 0,0:07:01.68,0:07:02.88,Default,,0,0,0,,Moi aussi !
+Dialogue: 0,0:07:03.08,0:07:04.72,Default,,0,0,0,,Et les deux autres ?
+Dialogue: 0,0:07:05.16,0:07:09.24,Default,,0,0,0,,La deuxième porte une rose blanche\Ndans les cheveux...
+Dialogue: 0,0:07:09.80,0:07:11.28,Default,,0,0,0,,C'est cette jeune femme.
+Dialogue: 0,0:07:13.36,0:07:16.04,Default,,0,0,0,,J'aime trop ses cheveux ondulés !
+Dialogue: 0,0:07:16.20,0:07:17.60,Default,,0,0,0,,C'est un mannequin ?
+Dialogue: 0,0:07:17.76,0:07:19.60,Default,,0,0,0,,Elle doit attendre son copain.
+Dialogue: 0,0:07:19.76,0:07:20.80,Default,,0,0,0,,C'est pas normal...
+Dialogue: 0,0:07:21.76,0:07:23.88,Default,,0,0,0,,Regarde bien.
+Dialogue: 0,0:07:24.20,0:07:26.56,Default,,0,0,0,,Tu as vu son sac à main ?
+Dialogue: 0,0:07:27.60,0:07:29.92,Default,,0,0,0,,C'est le dernier modèle\Nde chez Fusae.
+Dialogue: 0,0:07:30.08,0:07:34.16,Default,,0,0,0,,Elle a osé épingler une rose\Nsur un sac hors de prix...
+Dialogue: 0,0:07:34.32,0:07:36.92,Default,,0,0,0,,Il n'est même pas encore\Nen vente au Japon !
+Dialogue: 0,0:07:37.52,0:07:39.16,Default,,0,0,0,,Alors, où elle l'a eu ?
+Dialogue: 0,0:07:39.72,0:07:41.08,Default,,0,0,0,,{\i1}C'est ça qui te choque ?{\i0}
+Dialogue: 0,0:07:41.60,0:07:43.96,Default,,0,0,0,,Oh ! Elle regarde ses escarpins !
+Dialogue: 0,0:07:44.92,0:07:46.80,Default,,0,0,0,,Elle a marché\Nsur quelque chose ?
+Dialogue: 0,0:07:47.24,0:07:48.36,Default,,0,0,0,,Elle s'accroupit.
+Dialogue: 0,0:07:49.44,0:07:50.96,Default,,0,0,0,,Elle a mis quelque chose
+Dialogue: 0,0:07:51.64,0:07:52.64,Default,,0,0,0,,dans sa chaussure !
+Dialogue: 0,0:07:54.36,0:07:56.12,Default,,0,0,0,,Elle est suspecte !
+Dialogue: 0,0:07:56.28,0:07:57.68,Default,,0,0,0,,Je suis d'accord.
+Dialogue: 0,0:07:57.84,0:07:58.92,Default,,0,0,0,,Moi aussi !
+Dialogue: 0,0:08:01.28,0:08:03.52,Default,,0,0,0,,Quant au troisième...
+Dialogue: 0,0:08:04.08,0:08:07.64,Default,,0,0,0,,C'est ce frimeur qui porte\Nune rose blanche à la boutonnière.
+Dialogue: 0,0:08:08.04,0:08:11.40,Default,,0,0,0,,{\i1}C'est moi, ou il parle à quelqu'un ?{\i0}
+Dialogue: 0,0:08:11.80,0:08:13.80,Default,,0,0,0,,Ouais, il parle à une fille !
+Dialogue: 0,0:08:13.96,0:08:16.76,Default,,0,0,0,,Ça fait un moment\Nqu'il cause avec elle...
+Dialogue: 0,0:08:20.84,0:08:22.16,Default,,0,0,0,,{\i1}Kazuha !{\i0}
+Dialogue: 0,0:08:24.20,0:08:26.12,Default,,0,0,0,,{\i1}Qu'est-ce que tu fais là ?{\i0}
+Dialogue: 0,0:08:26.56,0:08:28.44,Default,,0,0,0,,Hé, Hattori...
+Dialogue: 0,0:08:28.80,0:08:32.80,Default,,0,0,0,,Cette fille,\Non dirait vraiment Kazuha.
+Dialogue: 0,0:08:32.96,0:08:33.64,Default,,0,0,0,,{\i1}Ouais !{\i0}
+Dialogue: 0,0:08:34.28,0:08:35.72,Default,,0,0,0,,C'est bien elle !
+Dialogue: 0,0:08:35.88,0:08:39.92,Default,,0,0,0,,Cette idiote se fait draguer\Npar un pauvre type !
+Dialogue: 0,0:08:40.48,0:08:43.92,Default,,0,0,0,,Mais, en tout cas,\Nça le place hors de soupçons.
+Dialogue: 0,0:08:44.36,0:08:48.20,Default,,0,0,0,,Faudrait vraiment être bête\Npour draguer juste avant le deal !
+Dialogue: 0,0:08:48.36,0:08:52.40,Default,,0,0,0,,{\i1}C'est peut-être un policier{\i0}\N{\i1}que Kazuha connaît.{\i0}
+Dialogue: 0,0:08:52.56,0:08:54.56,Default,,0,0,0,,Attends, tu l'as bien regardé ?
+Dialogue: 0,0:08:55.12,0:08:58.68,Default,,0,0,0,,Cheveux décolorés, nez {\i1}piercé{\i0},\Ntatouage au cou...
+Dialogue: 0,0:08:58.84,0:09:01.04,Default,,0,0,0,,J'ai jamais vu un flic comme ça !
+Dialogue: 0,0:09:01.56,0:09:03.00,Default,,0,0,0,,C'est vrai...
+Dialogue: 0,0:09:03.56,0:09:05.68,Default,,0,0,0,,Midi moins deux...
+Dialogue: 0,0:09:06.20,0:09:08.20,Default,,0,0,0,,{\i1}Hattori, le temps presse.{\i0}
+Dialogue: 0,0:09:08.36,0:09:10.00,Default,,0,0,0,,Je sais, calmos...
+Dialogue: 0,0:09:10.16,0:09:12.48,Default,,0,0,0,,Si c'est pas ce frimeur,
+Dialogue: 0,0:09:12.64,0:09:16.52,Default,,0,0,0,,alors c'est soit le vieux type,\Nsoit la fille.
+Dialogue: 0,0:09:32.40,0:09:35.00,Default,,0,0,0,,Hattori ! Je peux te dire\Nce que je pense ?
+Dialogue: 0,0:09:36.36,0:09:37.36,Default,,0,0,0,,{\i1}Hattori !{\i0}
+Dialogue: 0,0:09:37.88,0:09:39.32,Default,,0,0,0,,{\i1}Hé, Hattori !{\i0}
+Dialogue: 0,0:09:39.88,0:09:41.00,Default,,0,0,0,,{\i1}Hattori !{\i0}
+Dialogue: 0,0:09:43.72,0:09:46.28,Default,,0,0,0,,{\i1}Ça craint,{\i0}\N{\i1}je peux pas me concentrer !{\i0}
+Dialogue: 0,0:09:47.88,0:09:49.28,Default,,0,0,0,,{\i1}Hattori !{\i0}
+Dialogue: 0,0:09:49.44,0:09:51.00,Default,,0,0,0,,{\i1}Oh, Hattori !{\i0}
+Dialogue: 0,0:09:51.48,0:09:54.00,Default,,0,0,0,,{\i1}Tu m'écoutes, Hattori ?{\i0}
+Dialogue: 0,0:09:54.56,0:09:55.60,Default,,0,0,0,,Hattori !
+Dialogue: 0,0:09:55.76,0:09:57.52,Default,,0,0,0,,{\i1}Arrête de gueuler !{\i0}
+Dialogue: 0,0:09:58.00,0:10:01.12,Default,,0,0,0,,Vas-y, dis-moi ce que tu penses,\Nqu'on en finisse !
+Dialogue: 0,0:10:01.92,0:10:04.04,Default,,0,0,0,,{\i1}OK. Le premier,{\i0}
+Dialogue: 0,0:10:04.48,0:10:08.36,Default,,0,0,0,,le type flippant qui porte\Nun bouquet de roses blanches,
+Dialogue: 0,0:10:08.80,0:10:10.72,Default,,0,0,0,,n'a rien à voir avec le deal.
+Dialogue: 0,0:10:12.96,0:10:15.72,Default,,0,0,0,,Il a pourtant la tête la plus suspecte.
+Dialogue: 0,0:10:16.08,0:10:19.44,Default,,0,0,0,,Et il tirait discrètement\Nquelque chose de son manteau !
+Dialogue: 0,0:10:19.96,0:10:22.96,Default,,0,0,0,,Pour envoyer un signal chelou !
+Dialogue: 0,0:10:23.36,0:10:27.68,Default,,0,0,0,,En fait, il regardait dans un miroir\Ns'il n'était pas décoiffé.
+Dialogue: 0,0:10:27.84,0:10:31.04,Default,,0,0,0,,Il se réarrangait la mèche\Ntout en tenant ce miroir,
+Dialogue: 0,0:10:31.20,0:10:33.48,Default,,0,0,0,,d'où ce geste étrange.
+Dialogue: 0,0:10:33.76,0:10:35.72,Default,,0,0,0,,Et quand il bâillait ?
+Dialogue: 0,0:10:36.04,0:10:40.68,Default,,0,0,0,,Là, il vérifiait simplement\Nson haleine.
+Dialogue: 0,0:10:40.96,0:10:44.32,Default,,0,0,0,,Et le bouquet de roses blanches\Ncaché dans le dos,
+Dialogue: 0,0:10:44.48,0:10:48.24,Default,,0,0,0,,c'était pour faire une surprise\Nà celle qui va arriver.
+Dialogue: 0,0:10:48.40,0:10:49.24,Default,,0,0,0,,{\i1}T'as raison...{\i0}
+Dialogue: 0,0:10:49.60,0:10:53.04,Default,,0,0,0,,Si les roses blanches\Nétaient son signe de reconnaissance,
+Dialogue: 0,0:10:53.20,0:10:55.92,Default,,0,0,0,,il les mettrait bien en évidence.
+Dialogue: 0,0:10:56.08,0:10:56.80,Default,,0,0,0,,Autrement dit,
+Dialogue: 0,0:10:57.88,0:11:00.12,Default,,0,0,0,,ce type a probablement...
+Dialogue: 0,0:11:03.84,0:11:05.88,Default,,0,0,0,,un rencard !
+Dialogue: 0,0:11:06.32,0:11:07.72,Default,,0,0,0,,Oui, c'est ça !
+Dialogue: 0,0:11:08.08,0:11:09.20,Default,,0,0,0,,Trop fort !
+Dialogue: 0,0:11:09.36,0:11:11.52,Default,,0,0,0,,On voit\Nque c'est le maître de Conan !
+Dialogue: 0,0:11:11.68,0:11:14.88,Default,,0,0,0,,Attendez ! C'est moi\Nqui ai quasiment tout deviné.
+Dialogue: 0,0:11:15.32,0:11:19.92,Default,,0,0,0,,Et cette fille chicos,\Nà la rose blanche dans les cheveux ?
+Dialogue: 0,0:11:20.08,0:11:23.04,Default,,0,0,0,,Ses chaussures\Nsemblaient la préoccuper.
+Dialogue: 0,0:11:23.44,0:11:26.16,Default,,0,0,0,,Elle a même mis\Nquelque chose dedans.
+Dialogue: 0,0:11:26.32,0:11:28.52,Default,,0,0,0,,Sûrement une arme miniature.
+Dialogue: 0,0:11:28.96,0:11:30.96,Default,,0,0,0,,Non, elle devait les enlever
+Dialogue: 0,0:11:31.12,0:11:34.24,Default,,0,0,0,,parce qu'elles lui faisaient mal.
+Dialogue: 0,0:11:34.40,0:11:36.40,Default,,0,0,0,,Elle avait même un sparadrap.
+Dialogue: 0,0:11:36.80,0:11:39.92,Default,,0,0,0,,Même les malfaiteurs\Nont mal aux pieds.
+Dialogue: 0,0:11:40.12,0:11:43.36,Default,,0,0,0,,Mais ils ne viennent sûrement pas\Nà un deal de drogue
+Dialogue: 0,0:11:43.52,0:11:46.28,Default,,0,0,0,,avec des chaussures\Nqui leur vont encore mal.
+Dialogue: 0,0:11:46.64,0:11:49.96,Default,,0,0,0,,Ces chaussures à talons\Ntrop neuves
+Dialogue: 0,0:11:50.12,0:11:54.40,Default,,0,0,0,,seraient rédhibitoires\Npour prendre la fuite
+Dialogue: 0,0:11:54.56,0:11:58.60,Default,,0,0,0,,si jamais la police débarquait\Npendant la transaction.
+Dialogue: 0,0:11:58.92,0:11:59.64,Default,,0,0,0,,En plus,
+Dialogue: 0,0:11:59.88,0:12:04.44,Default,,0,0,0,,sa coiffure est trop élégante,\Nelle a l'air de sortir du salon.
+Dialogue: 0,0:12:05.00,0:12:05.80,Default,,0,0,0,,Ça colle pas.
+Dialogue: 0,0:12:06.60,0:12:10.64,Default,,0,0,0,,Pourquoi ? Les criminelles\Nn'ont pas le droit de se faire belles ?
+Dialogue: 0,0:12:11.00,0:12:14.16,Default,,0,0,0,,Normalement, quand on attend\Nun trafiquant de drogue,
+Dialogue: 0,0:12:14.32,0:12:18.24,Default,,0,0,0,,on se dit qu'il aura\Nun look passe-partout.
+Dialogue: 0,0:12:18.40,0:12:19.84,Default,,0,0,0,,D'ailleurs, c'était le cas.
+Dialogue: 0,0:12:20.56,0:12:23.88,Default,,0,0,0,,Dans une ruelle peu fréquentée,\Npasse encore,
+Dialogue: 0,0:12:24.04,0:12:26.88,Default,,0,0,0,,mais dans la foule d'Ebisubashi,
+Dialogue: 0,0:12:27.08,0:12:31.24,Default,,0,0,0,,si un homme et une femme aussi\Nmal assortis discutaient ici,
+Dialogue: 0,0:12:31.40,0:12:34.56,Default,,0,0,0,,les passants se souviendraient d'eux\Npar la suite.
+Dialogue: 0,0:12:35.08,0:12:39.24,Default,,0,0,0,,En plus, la rose accrochée au sac\Nserait aussi une aberration.
+Dialogue: 0,0:12:39.40,0:12:42.16,Default,,0,0,0,,Compte tenu\Ndu signe de reconnaissance,
+Dialogue: 0,0:12:42.32,0:12:44.76,Default,,0,0,0,,elle aurait dû\Nen épingler une blanche.
+Dialogue: 0,0:12:45.64,0:12:49.20,Default,,0,0,0,,Avec une rouge, elle risquerait\Nde désorienter le dealer.
+Dialogue: 0,0:12:49.36,0:12:50.48,Default,,0,0,0,,{\i1}Je vois...{\i0}
+Dialogue: 0,0:12:51.04,0:12:55.64,Default,,0,0,0,,Une coiffure chic, une rose épinglée,\Ndes talons hauts trop neufs...
+Dialogue: 0,0:12:55.80,0:12:58.48,Default,,0,0,0,,Je parie que cette fille
+Dialogue: 0,0:12:59.16,0:13:01.80,Default,,0,0,0,,est invitée à un mariage ou à une fête
+Dialogue: 0,0:13:01.96,0:13:04.48,Default,,0,0,0,,et a rendez-vous ici avec son amie.
+Dialogue: 0,0:13:04.80,0:13:06.04,Default,,0,0,0,,Il a encore vu juste !
+Dialogue: 0,0:13:06.20,0:13:08.36,Default,,0,0,0,,Il est balèze, notre ami d'Osaka !
+Dialogue: 0,0:13:08.52,0:13:09.48,Default,,0,0,0,,Magnifique !
+Dialogue: 0,0:13:09.64,0:13:11.24,Default,,0,0,0,,Ça aussi, c'était moi !
+Dialogue: 0,0:13:11.68,0:13:12.92,Default,,0,0,0,,Attends.
+Dialogue: 0,0:13:13.08,0:13:17.00,Default,,0,0,0,,Ça voudrait donc dire que ce frimeur\Nqui cause avec Kazuha
+Dialogue: 0,0:13:17.16,0:13:20.36,Default,,0,0,0,,serait l'homme qui a rendez-vous\Navec le trafiquant ?
+Dialogue: 0,0:13:24.28,0:13:25.28,Default,,0,0,0,,Non, impossible !
+Dialogue: 0,0:13:25.72,0:13:29.76,Default,,0,0,0,,Comme je l'ai dit, il ne draguerait pas\Njuste avant la transaction.
+Dialogue: 0,0:13:29.92,0:13:32.28,Default,,0,0,0,,Qui t'a dit qu'il draguait ?
+Dialogue: 0,0:13:32.96,0:13:37.28,Default,,0,0,0,,Ça peut très bien être Kazuha\Nqui lui a adressé la parole.
+Dialogue: 0,0:13:38.68,0:13:39.92,Default,,0,0,0,,Encore plus impossible !
+Dialogue: 0,0:13:40.60,0:13:43.16,Default,,0,0,0,,Pourquoi Kazuha\Nparlerait à un minet
+Dialogue: 0,0:13:43.56,0:13:48.08,Default,,0,0,0,,qui, en plus,\Nfait dans le trafic de drogue ?
+Dialogue: 0,0:13:48.24,0:13:50.92,Default,,0,0,0,,{\i1}Peut-être qu'ils se connaissent.{\i0}
+Dialogue: 0,0:13:51.40,0:13:55.16,Default,,0,0,0,,{\i1}Et puis, la transaction{\i0}\N{\i1}peut très bien avoir été annulée,{\i0}
+Dialogue: 0,0:13:55.32,0:13:58.92,Default,,0,0,0,,{\i1}auquel cas{\i0}\N{\i1}ce serait juste un type ordinaire.{\i0}
+Dialogue: 0,0:14:01.36,0:14:03.00,Default,,0,0,0,,Calme-toi, Hattori !
+Dialogue: 0,0:14:03.16,0:14:05.96,Default,,0,0,0,,En temps normal,\Nça t'aurait paru évident !
+Dialogue: 0,0:14:06.60,0:14:09.00,Default,,0,0,0,,{\i1}Enfin, je comprends{\i0}\N{\i1}ce que tu ressens...{\i0}
+Dialogue: 0,0:14:10.64,0:14:12.72,Default,,0,0,0,,Plus qu'une minute avant la transaction.
+Dialogue: 0,0:14:13.04,0:14:13.92,Default,,0,0,0,,Oh non !
+Dialogue: 0,0:14:14.52,0:14:18.96,Default,,0,0,0,,Le trafiquant est peut-être\Ndéjà sur le pont !
+Dialogue: 0,0:14:19.12,0:14:20.92,Default,,0,0,0,,Hattori, on n'a plus le temps.
+Dialogue: 0,0:14:21.28,0:14:25.12,Default,,0,0,0,,Si le trafiquant arrive,\NKazuha pourrait être en danger.
+Dialogue: 0,0:14:25.28,0:14:27.20,Default,,0,0,0,,Emmène-la loin de là !
+Dialogue: 0,0:14:27.96,0:14:29.40,Default,,0,0,0,,Qu'est-ce que tu fous ?
+Dialogue: 0,0:14:29.76,0:14:32.08,Default,,0,0,0,,{\i1}Je n'ai plus d'image !{\i0}
+Dialogue: 0,0:14:32.40,0:14:36.96,Default,,0,0,0,,J'envoie un SMS à Kazuha\Npour savoir qui est ce frimeur.
+Dialogue: 0,0:14:37.28,0:14:39.40,Default,,0,0,0,,Je crois que c'est bon là, Kazuha !
+Dialogue: 0,0:14:39.56,0:14:42.68,Default,,0,0,0,,Oh que non ! Je ne te lâcherai pas !
+Dialogue: 0,0:14:43.96,0:14:45.28,Default,,0,0,0,,Un instant...
+Dialogue: 0,0:14:47.08,0:14:48.72,Default,,0,0,0,,Un SMS de Heiji !
+Dialogue: 0,0:14:50.12,0:14:52.00,Default,,0,0,0,,Il me demande ce que je fais.
+Dialogue: 0,0:14:57.12,0:14:59.00,Default,,0,0,0,,{\i1}Qu'est-ce qu'il fout{\i0}\N{\i1}avec sa veste ?{\i0}
+Dialogue: 0,0:14:59.96,0:15:02.56,Default,,0,0,0,,{\i1}Cette bosse sous son bras...{\i0}
+Dialogue: 0,0:15:02.92,0:15:04.00,Default,,0,0,0,,{\i1}Ça doit être...{\i0}
+Dialogue: 0,0:15:05.96,0:15:07.12,Default,,0,0,0,,{\i1}Un flingue !{\i0}
+Dialogue: 0,0:15:17.24,0:15:19.52,Default,,0,0,0,,{\i1}Qu'est-ce qu'il fout{\i0}\N{\i1}avec sa veste ?{\i0}
+Dialogue: 0,0:15:20.20,0:15:22.76,Default,,0,0,0,,{\i1}Cette bosse sous son bras...{\i0}
+Dialogue: 0,0:15:23.56,0:15:24.56,Default,,0,0,0,,{\i1}Ça doit être...{\i0}
+Dialogue: 0,0:15:26.60,0:15:27.72,Default,,0,0,0,,{\i1}Un flingue !{\i0}
+Dialogue: 0,0:15:28.60,0:15:29.96,Default,,0,0,0,,{\i1}Quelle ordure...{\i0}
+Dialogue: 0,0:15:31.32,0:15:33.40,Default,,0,0,0,,Tu m'entends ?\NÉcoute-moi bien...
+Dialogue: 0,0:15:34.28,0:15:35.36,Default,,0,0,0,,Ce frimeur,
+Dialogue: 0,0:15:36.00,0:15:38.32,Default,,0,0,0,,il cache un flingue dans sa veste !
+Dialogue: 0,0:15:38.48,0:15:39.36,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:15:39.72,0:15:43.28,Default,,0,0,0,,Je ne sais pas si c'est lui\Nqui vient pour la transaction,
+Dialogue: 0,0:15:43.96,0:15:46.60,Default,,0,0,0,,mais ce n'est sûrement pas\Nun type ordinaire.
+Dialogue: 0,0:15:46.76,0:15:47.88,Default,,0,0,0,,{\i1}Hattori...{\i0}
+Dialogue: 0,0:15:48.04,0:15:50.08,Default,,0,0,0,,{\i1}Ne t'occupe plus{\i0}\N{\i1}de la transaction.{\i0}
+Dialogue: 0,0:15:51.00,0:15:54.20,Default,,0,0,0,,Prends Kazuha par la main\Net emmène-la loin !
+Dialogue: 0,0:15:54.84,0:15:56.00,Default,,0,0,0,,{\i1}Tu délires ?{\i0}
+Dialogue: 0,0:15:56.16,0:15:58.00,Default,,0,0,0,,Ben elle est en danger !
+Dialogue: 0,0:15:59.08,0:16:00.08,Default,,0,0,0,,Mais non !
+Dialogue: 0,0:16:00.24,0:16:03.16,Default,,0,0,0,,Je viens de recevoir\Nsa réponse.
+Dialogue: 0,0:16:03.64,0:16:06.84,Default,,0,0,0,,"Je suis tombée sur Yakumaru,\Nmon ancien voisin,
+Dialogue: 0,0:16:07.00,0:16:09.48,Default,,0,0,0,,"à Ebisubashi.
+Dialogue: 0,0:16:09.64,0:16:13.56,Default,,0,0,0,,"Il disait qu'il était\Nen fac de pharmacie,
+Dialogue: 0,0:16:13.72,0:16:16.32,Default,,0,0,0,,"mais je trouve son look\Nplutôt voyant.
+Dialogue: 0,0:16:16.48,0:16:18.20,Default,,0,0,0,,"Là, il attend sa copine.
+Dialogue: 0,0:16:18.60,0:16:22.52,Default,,0,0,0,,{\i1}"Je vais tout faire pour voir{\i0}\N{\i1}à quoi elle ressemble."{\i0}
+Dialogue: 0,0:16:22.68,0:16:24.76,Default,,0,0,0,,{\i1}C'est quoi, ce message débile ?{\i0}
+Dialogue: 0,0:16:25.48,0:16:26.96,Default,,0,0,0,,Il baratine à fond !
+Dialogue: 0,0:16:27.24,0:16:32.04,Default,,0,0,0,,Un diplômé en pharmacie tatoué,\Nteint en blond et "piercé" ?
+Dialogue: 0,0:16:32.20,0:16:33.32,Default,,0,0,0,,Mes fesses, oui !
+Dialogue: 0,0:16:34.08,0:16:37.48,Default,,0,0,0,,Il a juste pris un air honnête\Npour approcher Kazuha.
+Dialogue: 0,0:16:38.04,0:16:41.88,Default,,0,0,0,,Le père de Kazuha est le chef\Nde la brigade criminelle d'Osaka.
+Dialogue: 0,0:16:42.04,0:16:46.88,Default,,0,0,0,,Ce mec doit vouloir enjôler sa fille\Npour avoir des infos sur la police.
+Dialogue: 0,0:16:47.12,0:16:47.96,Default,,0,0,0,,Hein ? Quoi ?
+Dialogue: 0,0:16:49.24,0:16:50.76,Default,,0,0,0,,Vous êtes qui, vous ?
+Dialogue: 0,0:16:50.92,0:16:51.88,Default,,0,0,0,,Ça va pas, non ?
+Dialogue: 0,0:16:53.04,0:16:53.88,Default,,0,0,0,,{\i1}Kazuha !{\i0}
+Dialogue: 0,0:16:54.32,0:16:57.36,Default,,0,0,0,,Attends, Hattori !\NCe blond doit être...
+Dialogue: 0,0:16:58.56,0:17:00.28,Default,,0,0,0,,{\i1}Tu m'écoutes, Hattori ?{\i0}
+Dialogue: 0,0:17:00.44,0:17:02.68,Default,,0,0,0,,Aïe ! Lâchez-moi, bande d'abrutis !
+Dialogue: 0,0:17:03.04,0:17:05.20,Default,,0,0,0,,Bas les pattes, obsédé !
+Dialogue: 0,0:17:05.44,0:17:09.44,Default,,0,0,0,,Arrêtez ! Qui êtes-vous ?\NOù vous m'emmenez ?
+Dialogue: 0,0:17:10.52,0:17:11.28,Default,,0,0,0,,Kazuha !
+Dialogue: 0,0:17:13.32,0:17:14.04,Default,,0,0,0,,{\i1}Heiji ?{\i0}
+Dialogue: 0,0:17:17.40,0:17:19.44,Default,,0,0,0,,Merci,\Nje savais plus quoi faire.
+Dialogue: 0,0:17:24.76,0:17:26.64,Default,,0,0,0,,Hé ! Qu'est-ce que tu fais ?
+Dialogue: 0,0:17:27.08,0:17:29.12,Default,,0,0,0,,Je te retourne la question !
+Dialogue: 0,0:17:29.92,0:17:31.64,Default,,0,0,0,,Qu'est-ce que tu fais...
+Dialogue: 0,0:17:32.32,0:17:34.36,Default,,0,0,0,,à ma Kazuha ?
+Dialogue: 0,0:17:35.56,0:17:36.56,Default,,0,0,0,,Heiji...
+Dialogue: 0,0:17:40.92,0:17:43.16,Default,,0,0,0,,Oh ! T'as amené tous tes potes !
+Dialogue: 0,0:17:43.80,0:17:47.00,Default,,0,0,0,,Une belle brochette\Nde sales gueules !
+Dialogue: 0,0:17:47.16,0:17:48.04,Default,,0,0,0,,Non, attends...
+Dialogue: 0,0:17:48.60,0:17:49.88,Default,,0,0,0,,Trop tard, mon gars !
+Dialogue: 0,0:17:50.44,0:17:53.64,Default,,0,0,0,,Je vais tous vous balancer\Ndans le canal Dôtonbori !
+Dialogue: 0,0:17:54.16,0:17:55.24,Default,,0,0,0,,Amenez-vous !
+Dialogue: 0,0:17:57.72,0:17:59.28,Default,,0,0,0,,Oh, Hattori !
+Dialogue: 0,0:18:02.12,0:18:03.12,Default,,0,0,0,,Ç'a coupé.
+Dialogue: 0,0:18:10.04,0:18:14.20,Default,,0,0,0,,Le jeune frimeur fait partie\Nde la brigade des stupéfiants ?
+Dialogue: 0,0:18:14.56,0:18:15.56,Default,,0,0,0,,Ouais.
+Dialogue: 0,0:18:15.96,0:18:19.40,Default,,0,0,0,,Le service qui enquête\Nsur les crimes liés à la drogue.
+Dialogue: 0,0:18:19.56,0:18:22.72,Default,,0,0,0,,Généralement, on les appelle\Nles "stups" ou les "narcs".
+Dialogue: 0,0:18:23.08,0:18:25.60,Default,,0,0,0,,Mais alors, c'est un policier !
+Dialogue: 0,0:18:25.76,0:18:28.52,Default,,0,0,0,,Tu disais que c'était pas un flic !
+Dialogue: 0,0:18:28.68,0:18:32.84,Default,,0,0,0,,Non, les agents des stups\Nne sont pas des policiers, au Japon.
+Dialogue: 0,0:18:33.60,0:18:35.88,Default,,0,0,0,,Ils dépendent\Ndu ministère de la Santé,
+Dialogue: 0,0:18:36.04,0:18:38.36,Default,,0,0,0,,et comme ils font de l'infiltration,
+Dialogue: 0,0:18:38.52,0:18:43.12,Default,,0,0,0,,ils ont droit aux teintures,\Ntatouages, piercings et compagnie.
+Dialogue: 0,0:18:43.28,0:18:46.24,Default,,0,0,0,,Et bien sûr, si la mission l'exige,
+Dialogue: 0,0:18:46.40,0:18:48.40,Default,,0,0,0,,ils peuvent porter des armes à feu.
+Dialogue: 0,0:18:48.84,0:18:50.80,Default,,0,0,0,,J'en avais déjà entendu parler.
+Dialogue: 0,0:18:51.32,0:18:53.80,Default,,0,0,0,,Compte tenu de la nature des missions,
+Dialogue: 0,0:18:53.96,0:18:57.28,Default,,0,0,0,,beaucoup d'entre eux\Nsont d'anciens étudiants en pharmacie.
+Dialogue: 0,0:18:57.44,0:19:00.16,Default,,0,0,0,,Ouais !\NC'est ce qui m'a fait tilter.
+Dialogue: 0,0:19:00.44,0:19:04.32,Default,,0,0,0,,Alors, ce type était là\Npour les besoins d'une enquête...
+Dialogue: 0,0:19:04.72,0:19:05.72,Default,,0,0,0,,Exactement !
+Dialogue: 0,0:19:05.88,0:19:09.36,Default,,0,0,0,,Aux dires du commissaire Ôtaki,\Nqui vient de m'appeler,
+Dialogue: 0,0:19:09.52,0:19:12.72,Default,,0,0,0,,le client du deal,\Narrêté à Osaka, a tout avoué...
+Dialogue: 0,0:19:12.88,0:19:15.52,Default,,0,0,0,,Le lieu de rendez-vous,\Nles roses blanches...
+Dialogue: 0,0:19:15.68,0:19:20.96,Default,,0,0,0,,Alors, l'agent s'est fait passer\Npour lui et a attendu le trafiquant.
+Dialogue: 0,0:19:21.32,0:19:24.84,Default,,0,0,0,,Ah, d'accord. C'est pour ça\Nqu'il a demandé à ses collègues
+Dialogue: 0,0:19:25.00,0:19:27.44,Default,,0,0,0,,d'éloigner Kazuha\Ndu lieu de rendez-vous.
+Dialogue: 0,0:19:27.60,0:19:31.48,Default,,0,0,0,,Ouais. Sa présence aurait éveillé\Nla méfiance du trafiquant,
+Dialogue: 0,0:19:31.64,0:19:34.08,Default,,0,0,0,,et il ne fallait pas\Nla mettre en danger.
+Dialogue: 0,0:19:34.48,0:19:36.24,Default,,0,0,0,,Mais bon, comme le trafiquant
+Dialogue: 0,0:19:36.40,0:19:39.80,Default,,0,0,0,,a été arrêté alors qu'il se cachait\Ndans un manga café,
+Dialogue: 0,0:19:39.96,0:19:41.96,Default,,0,0,0,,l'affaire est réglée.
+Dialogue: 0,0:19:42.12,0:19:45.00,Default,,0,0,0,,Mais ça ira, pour ton maître ?
+Dialogue: 0,0:19:46.48,0:19:49.48,Default,,0,0,0,,Quand le commissaire Ôtaki\Na expliqué la situation,
+Dialogue: 0,0:19:49.64,0:19:51.48,Default,,0,0,0,,ils l'ont relâché.
+Dialogue: 0,0:19:51.84,0:19:56.08,Default,,0,0,0,,{\i1}Mais bon, il a d'autres soucis...{\i0}
+Dialogue: 0,0:19:57.92,0:20:00.96,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:20:02.08,0:20:05.04,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:21:20.60,0:21:25.56,Default,,0,0,0,,4e OFFICE GOUVERNEMENTALE D'OSAKA
+Dialogue: 0,0:21:27.32,0:21:29.32,Default,,0,0,0,,Enfoirés de stups...
+Dialogue: 0,0:21:30.04,0:21:32.72,Default,,0,0,0,,Ils ont pas honte de s'exciter\Nsur un lycéen ?
+Dialogue: 0,0:21:33.12,0:21:35.40,Default,,0,0,0,,Ils auraient pu y aller mollo...
+Dialogue: 0,0:21:36.88,0:21:37.36,Default,,0,0,0,,Hé...
+Dialogue: 0,0:21:37.92,0:21:40.72,Default,,0,0,0,,En plus, j'ai eu droit à un sermon.
+Dialogue: 0,0:21:40.96,0:21:42.36,Default,,0,0,0,,Dis-moi, Heiji...
+Dialogue: 0,0:21:42.76,0:21:47.28,Default,,0,0,0,,Ils parleront à mon père pour moi ?
+Dialogue: 0,0:21:47.44,0:21:49.52,Default,,0,0,0,,Pas la peine, je m'en fous !
+Dialogue: 0,0:21:50.00,0:21:52.96,Default,,0,0,0,,Heiji ! Qu'est-que tu as voulu dire ?
+Dialogue: 0,0:21:54.76,0:21:58.20,Default,,0,0,0,,Depuis quand je t'appartiens ?
+Dialogue: 0,0:22:00.52,0:22:01.88,Default,,0,0,0,,De quoi tu parles ?
+Dialogue: 0,0:22:05.88,0:22:06.88,Default,,0,0,0,,Tu l'as dit !
+Dialogue: 0,0:22:07.48,0:22:09.84,Default,,0,0,0,,"Qu'est-ce que tu fais\Nà ma Kazuha ?"
+Dialogue: 0,0:22:10.00,0:22:11.68,Default,,0,0,0,,"Je vais te tuer, fumier !"
+Dialogue: 0,0:22:13.28,0:22:16.56,Default,,0,0,0,,J'ai pas dit ces conneries !
+Dialogue: 0,0:22:17.96,0:22:22.72,Default,,0,0,0,,Peut-être pas mot pour mot,\Nmais en gros, c'était ça.
+Dialogue: 0,0:22:24.32,0:22:26.32,Default,,0,0,0,,Réponds-moi, Heiji.
+Dialogue: 0,0:22:27.96,0:22:28.80,Default,,0,0,0,,Heiji ?
+Dialogue: 0,0:22:28.96,0:22:31.80,Default,,0,0,0,,La ferme !\NPourquoi je devrais te le dire ?
+Dialogue: 0,0:22:33.36,0:22:34.36,Default,,0,0,0,,{\i1}Heiji...{\i0}
+Dialogue: 0,0:22:36.24,0:22:39.16,Default,,0,0,0,,Écoute bien,\Nje ne te le dirai qu'une fois !
+Dialogue: 0,0:22:40.64,0:22:43.24,Default,,0,0,0,,La chose la plus importante\Npour moi,
+Dialogue: 0,0:22:47.60,0:22:48.64,Default,,0,0,0,,c'est la preuve.
+Dialogue: 0,0:22:50.96,0:22:54.52,Default,,0,0,0,,Si t'as pas de preuve,\Nviens pas m'emmerder !
+Dialogue: 0,0:22:55.32,0:22:56.92,Default,,0,0,0,,Attends, Heiji !
+Dialogue: 0,0:22:57.08,0:23:00.88,Default,,0,0,0,,Quelle preuve tu veux ?\NJe t'ai clairement entendu !
+Dialogue: 0,0:23:01.04,0:23:03.20,Default,,0,0,0,,Tu devrais te laver les oreilles !
+Dialogue: 0,0:23:03.36,0:23:05.76,Default,,0,0,0,,T'as dit "ma Kazuha adorée" !
+Dialogue: 0,0:23:05.92,0:23:07.60,Default,,0,0,0,,Jamais de la vie !
+Dialogue: 0,0:23:07.76,0:23:09.12,Default,,0,0,0,,Alors, tu t'en souviens !
+Dialogue: 0,0:23:09.28,0:23:12.60,Default,,0,0,0,,Aïe, aïe ! J'entends rien\Nà cause des bourdonnements !
+Dialogue: 0,0:23:12.76,0:23:14.04,Default,,0,0,0,,Heiji !
+Dialogue: 0,0:23:15.04,0:23:16.36,Default,,0,0,0,,Aïe, aïe, aïe, aïe !
+Dialogue: 0,0:23:16.52,0:23:18.20,Default,,0,0,0,,Je vais envoyer un\NSMS à Ran !
+Dialogue: 0,0:23:18.36,0:23:20.16,Default,,0,0,0,,Surtout pas, idiote !
+Dialogue: 0,0:23:22.16,0:23:24.76,Default,,0,0,0,,{\i1}Moi, je l'ai enregistré.{\i0}
+Dialogue: 0,0:23:25.20,0:23:27.80,Default,,0,0,0,,{\i1}"Qu'est-ce que tu fais{\i0}\N{\i1}à ma Kazuha ?"{\i0}

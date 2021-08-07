@@ -1,0 +1,403 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.16,0:00:03.37,Default,,0,0,0,,{\i1}En visitant un lieu de tournage,{\i0}
+Dialogue: 0,0:00:04.32,0:00:07.72,Default,,0,0,0,,{\i1}nous avons rencontré{\i0}\N{\i1}une équipe venue tourner une suite.{\i0}
+Dialogue: 0,0:00:08.97,0:00:11.41,Default,,0,0,0,,{\i1}Mais au cours du tournage,{\i0}
+Dialogue: 0,0:00:11.57,0:00:13.88,Default,,0,0,0,,{\i1}Takashi Harawaki,{\i0}\N{\i1}le producteur, est mort.{\i0}
+Dialogue: 0,0:00:14.69,0:00:17.96,Default,,0,0,0,,{\i1}Pire, Kyôko Ejiri,{\i0}\N{\i1}la caméraman, a été assassinée{\i0}
+Dialogue: 0,0:00:18.16,0:00:21.45,Default,,0,0,0,,{\i1}pendant le raffut{\i0}\N{\i1}de faux zombies venus auditionner.{\i0}
+Dialogue: 0,0:00:24.36,0:00:26.20,Default,,0,0,0,,{\i1}Un raisonnement vif recolorera{\i0}
+Dialogue: 0,0:00:26.37,0:00:28.25,Default,,0,0,0,,{\i1}une toile noircie par le crime !{\i0}
+Dialogue: 0,0:00:28.48,0:00:30.40,Default,,0,0,0,,{\i1}Heiji résoudra le mystère{\i0}
+Dialogue: 0,0:00:30.56,0:00:32.73,Default,,0,0,0,,{\i1}grâce à l'encombrant Yamamura...{\i0}
+Dialogue: 0,0:00:32.96,0:00:36.64,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:36.81,0:00:39.00,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:00:41.09,0:00:44.96,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:00:46.24,0:00:49.96,Default,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:01:01.40,0:01:03.89,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:06.13,0:01:08.60,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:12.13,0:01:14.60,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:20.77,0:01:23.17,Default,,0,0,0,,Générique d'ouverture :\N"Sekai wa anata no iro ni naru"
+Dialogue: 0,0:01:26.08,0:01:28.09,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:01:35.57,0:01:37.77,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:01:55.40,0:01:57.80,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:01:59.92,0:02:02.04,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:05.20,0:02:08.05,Default,,0,0,0,,{\i1}"La villa encerclée{\i0}\N{\i1}par les zombies (3e partie)" !{\i0}
+Dialogue: 0,0:02:13.56,0:02:14.49,Default,,0,0,0,,Ah... Euh...
+Dialogue: 0,0:02:17.64,0:02:20.53,Default,,0,0,0,,Les zombies m'ont dit\Nqu'ils avaient fait venir
+Dialogue: 0,0:02:20.68,0:02:23.00,Default,,0,0,0,,un inspecteur de Gunma...
+Dialogue: 0,0:02:24.20,0:02:25.08,Default,,0,0,0,,Ran ?
+Dialogue: 0,0:02:25.24,0:02:27.29,Default,,0,0,0,,Un inspecteur de Gunma ?
+Dialogue: 0,0:02:27.88,0:02:29.17,Default,,0,0,0,,Mais alors...
+Dialogue: 0,0:02:29.68,0:02:30.89,Default,,0,0,0,,C'est pas vrai...
+Dialogue: 0,0:02:31.24,0:02:33.60,Default,,0,0,0,,Vous qui avez\Ndes problèmes de zombies,
+Dialogue: 0,0:02:33.76,0:02:35.68,Default,,0,0,0,,me voici enfin !
+Dialogue: 0,0:02:37.00,0:02:40.61,Default,,0,0,0,,Avec Yamamura, votre chasseur\Nde monstres, tout ira...
+Dialogue: 0,0:02:41.12,0:02:41.84,Default,,0,0,0,,bien ?
+Dialogue: 0,0:02:48.16,0:02:50.13,Default,,0,0,0,,C'est bourré de zombies !
+Dialogue: 0,0:02:51.52,0:02:54.96,Default,,0,0,0,,{\i1}Vade retro, satanas ! Vade retro,{\i0}\N{\i1}satanas ! Vade retro, satanas !{\i0}
+Dialogue: 0,0:02:56.76,0:02:58.25,Default,,0,0,0,,À quoi vous jouez ?
+Dialogue: 0,0:02:58.40,0:02:59.80,Default,,0,0,0,,Le cadavre est au 1er...
+Dialogue: 0,0:02:59.96,0:03:01.68,Default,,0,0,0,,Vous, ici ?
+Dialogue: 0,0:03:02.68,0:03:05.72,Default,,0,0,0,,OK, je vois...\NDonc, si j'ai bien compris...
+Dialogue: 0,0:03:06.48,0:03:08.96,Default,,0,0,0,,Une fois le tournage\Ndu teaser terminé,
+Dialogue: 0,0:03:09.12,0:03:13.24,Default,,0,0,0,,vous êtes allés appeler M. Harawaki\Npour qu'il vienne manger,
+Dialogue: 0,0:03:13.68,0:03:17.16,Default,,0,0,0,,mais vous l'avez trouvé\Ngisant dans une chambre voisine.
+Dialogue: 0,0:03:17.64,0:03:21.44,Default,,0,0,0,,Dans son portable se trouvaient\Nune vidéo où il buvait du poison
+Dialogue: 0,0:03:21.60,0:03:24.12,Default,,0,0,0,,et une sorte de testament...
+Dialogue: 0,0:03:24.72,0:03:28.88,Default,,0,0,0,,Ensuite, surpris par les zombies\Ninvités par M. Harawaki,
+Dialogue: 0,0:03:29.04,0:03:31.40,Default,,0,0,0,,vous avez envoyé l'équipe au 1er.
+Dialogue: 0,0:03:31.56,0:03:35.12,Default,,0,0,0,,Puis, pendant que vous affrontiez\Nles zombies ensemble,
+Dialogue: 0,0:03:35.56,0:03:40.48,Default,,0,0,0,,cette Kyôko Ejiri a été égorgée\Nsans qu'on sache pourquoi, c'est ça ?
+Dialogue: 0,0:03:40.64,0:03:41.88,Default,,0,0,0,,Exactement.
+Dialogue: 0,0:03:42.36,0:03:46.72,Default,,0,0,0,,De plus,\Nla scène de sa mort a été filmée
+Dialogue: 0,0:03:46.96,0:03:50.40,Default,,0,0,0,,et l'assassin s'avère être\NM. Harawaki, le suicidé,
+Dialogue: 0,0:03:51.04,0:03:55.48,Default,,0,0,0,,qui avait disparu subitement\Nde la pièce où il s'était empoisonné.
+Dialogue: 0,0:03:55.72,0:03:56.92,Default,,0,0,0,,Donc...
+Dialogue: 0,0:03:57.48,0:03:59.04,Default,,0,0,0,,Pas de doute...
+Dialogue: 0,0:04:01.76,0:04:05.40,Default,,0,0,0,,M. Harawaki s'est transformé en zombie\Net a tué Mlle Ejiri !
+Dialogue: 0,0:04:05.56,0:04:07.40,Default,,0,0,0,,C'est atroce ! Effrayant !
+Dialogue: 0,0:04:07.80,0:04:09.00,Default,,0,0,0,,{\i1}J'en étais sûr...{\i0}
+Dialogue: 0,0:04:09.16,0:04:11.12,Default,,0,0,0,,{\i1}Il n'a pas trahi nos attentes...{\i0}
+Dialogue: 0,0:04:11.52,0:04:14.88,Default,,0,0,0,,Si c'est le cas,\Noù a disparu M. Harawaki, alors ?
+Dialogue: 0,0:04:15.04,0:04:17.24,Default,,0,0,0,,Il a fui en se mêlant\Naux autres zombies.
+Dialogue: 0,0:04:17.40,0:04:20.12,Default,,0,0,0,,C'est pour ça\Nqu'il en a fait venir autant !
+Dialogue: 0,0:04:20.56,0:04:22.92,Default,,0,0,0,,{\i1}J'y crois pas !{\i0}\N{\i1}C'est cohérent en plus...{\i0}
+Dialogue: 0,0:04:23.20,0:04:26.40,Default,,0,0,0,,Comment cette vidéo\Naurait-elle pu être filmée sinon ?
+Dialogue: 0,0:04:26.56,0:04:29.68,Default,,0,0,0,,Ç'a enregistré jusqu'à\Nce que vous stoppiez, non ?
+Dialogue: 0,0:04:29.84,0:04:30.32,Default,,0,0,0,,Si...
+Dialogue: 0,0:04:30.88,0:04:34.16,Default,,0,0,0,,Et même s'il avait dupé Mlle Ejiri\Npour la filmer,
+Dialogue: 0,0:04:34.32,0:04:38.56,Default,,0,0,0,,elle n'aurait jamais accepté\Nqu'un zombie la morde à mort !
+Dialogue: 0,0:04:39.24,0:04:43.08,Default,,0,0,0,,Et pour commencer,\NMlle Ejiri est caméraman, pas actrice.
+Dialogue: 0,0:04:43.28,0:04:47.12,Default,,0,0,0,,Oui, même si elle avait joué\Ndans un film de zombies à la fac,
+Dialogue: 0,0:04:47.28,0:04:49.24,Default,,0,0,0,,il y a 8 ans de ça.
+Dialogue: 0,0:04:50.12,0:04:55.04,Default,,0,0,0,,Mais ils ont bien dû vérifier\Nles images de leur propre film...
+Dialogue: 0,0:04:55.20,0:04:57.00,Default,,0,0,0,,Ils doivent donc savoir...
+Dialogue: 0,0:04:57.96,0:04:59.44,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:05:00.12,0:05:02.88,Default,,0,0,0,,Personne n'a vu le film\Ntourné il y a 8 ans ?
+Dialogue: 0,0:05:03.04,0:05:04.40,Default,,0,0,0,,C'est une blague ?
+Dialogue: 0,0:05:04.56,0:05:05.20,Default,,0,0,0,,Non...
+Dialogue: 0,0:05:05.72,0:05:08.00,ST_HAUT,,0,0,0,,En fait, le président était censé
+Dialogue: 0,0:05:08.16,0:05:11.08,ST_HAUT,,0,0,0,,nous le montrer plus tard,\Nune fois monté...
+Dialogue: 0,0:05:11.24,0:05:14.68,Default,,0,0,0,,C'est pourquoi Kyôko, qui était\Nla caméraman et qui aurait pu
+Dialogue: 0,0:05:14.84,0:05:17.56,Default,,0,0,0,,vouloir retourner une scène,\Ns'était plainte
+Dialogue: 0,0:05:17.72,0:05:20.84,Default,,0,0,0,,qu'il ne lui ait\Nrien montré du tout.
+Dialogue: 0,0:05:21.00,0:05:25.12,ST_HAUT,,0,0,0,,Mon frère devait vous considérer\Ncomme ses premiers spectateurs
+Dialogue: 0,0:05:25.28,0:05:28.40,ST_HAUT,,0,0,0,,et se faisait une joie\Nde voir vos réactions.
+Dialogue: 0,0:05:29.08,0:05:33.76,Default,,0,0,0,,Et quels rôles avaient M. Harawaki\Net Mlle Ejiri dans ce film, au fait ?
+Dialogue: 0,0:05:33.92,0:05:35.92,Default,,0,0,0,,Euh...\NSi je me souviens bien,
+Dialogue: 0,0:05:36.60,0:05:40.76,Default,,0,0,0,,Takashi devenu zombie devait attaquer\NKyôko mais ne le faisait pas
+Dialogue: 0,0:05:41.08,0:05:44.08,Default,,0,0,0,,car c'était sa fiancée,\Nce n'est pas ça ?
+Dialogue: 0,0:05:44.24,0:05:47.16,Default,,0,0,0,,Ça, c'est le scénario\Nrejeté par le président
+Dialogue: 0,0:05:47.32,0:05:49.28,Default,,0,0,0,,qui refusait tout romantisme...
+Dialogue: 0,0:05:49.44,0:05:53.08,Default,,0,0,0,,Takashi ne voulait pas\Nse contenter de devenir un zombie,
+Dialogue: 0,0:05:53.24,0:05:55.56,Default,,0,0,0,,il voulait un peu\Nrésister à son sort.
+Dialogue: 0,0:05:55.72,0:05:56.56,Default,,0,0,0,,Je l'ignorais.
+Dialogue: 0,0:05:57.12,0:06:00.08,Default,,0,0,0,,Quoi ? Personne\Nn'a de souvenirs plus clairs ?
+Dialogue: 0,0:06:00.80,0:06:01.28,Default,,0,0,0,,Dites.
+Dialogue: 0,0:06:01.80,0:06:04.20,Default,,0,0,0,,Les enregistrements de ce film
+Dialogue: 0,0:06:04.36,0:06:06.60,Default,,0,0,0,,ont vraiment disparu ?
+Dialogue: 0,0:06:06.76,0:06:09.56,Default,,0,0,0,,Exact. Même Kyôko\Nl'a dit, d'ailleurs, non ?
+Dialogue: 0,0:06:09.84,0:06:12.04,Default,,0,0,0,,Pourtant,\NTakashi m'a avoué
+Dialogue: 0,0:06:12.20,0:06:15.48,Default,,0,0,0,,avoir le fichier\Nsur sa tablette.
+Dialogue: 0,0:06:15.64,0:06:17.32,Default,,0,0,0,,Il la prenait avec lui ?
+Dialogue: 0,0:06:18.00,0:06:20.64,Default,,0,0,0,,Oui, Takashi avait bien\Nune mini tablette...
+Dialogue: 0,0:06:20.80,0:06:23.88,Default,,0,0,0,,Il la rangeait toujours\Nà l'intérieur de sa veste.
+Dialogue: 0,0:06:27.36,0:06:28.08,Default,,0,0,0,,La voilà !
+Dialogue: 0,0:06:30.76,0:06:33.68,Default,,0,0,0,,C'est râpé !\NToutes les données ont été effacées.
+Dialogue: 0,0:06:34.68,0:06:35.92,Default,,0,0,0,,Ah, cependant...
+Dialogue: 0,0:06:36.40,0:06:40.72,Default,,0,0,0,,j'ai une photo de nous,\Nà l'époque où on a tourné le film.
+Dialogue: 0,0:06:41.52,0:06:42.32,Default,,0,0,0,,Regardez.
+Dialogue: 0,0:06:44.60,0:06:47.60,Default,,0,0,0,,Dites, ce T-shirt\Nque porte Mlle Ejiri...
+Dialogue: 0,0:06:49.04,0:06:52.48,Default,,0,0,0,,Ah, ça ? C'est un T-shirt\Nde la marque avec un "E"
+Dialogue: 0,0:06:52.64,0:06:54.92,Default,,0,0,0,,qu'aimait porter Kyôko à l'époque.
+Dialogue: 0,0:06:55.96,0:06:58.32,Default,,0,0,0,,Comme c'était l'initiale de son nom,
+Dialogue: 0,0:06:58.48,0:07:00.68,Default,,0,0,0,,elle en avait de plusieurs couleurs.
+Dialogue: 0,0:07:01.16,0:07:05.44,Default,,0,0,0,,En parlant de vêtements, Mlle Ejiri\Na changé de haut avant d'être tuée.
+Dialogue: 0,0:07:05.60,0:07:07.08,Default,,0,0,0,,Vous savez pourquoi ?
+Dialogue: 0,0:07:07.24,0:07:08.68,Default,,0,0,0,,Il était un peu mouillé.
+Dialogue: 0,0:07:09.12,0:07:12.48,Default,,0,0,0,,Elle s'est peut-être changée\Naprès avoir sué...
+Dialogue: 0,0:07:12.72,0:07:16.32,Default,,0,0,0,,Pendant la pause-toilettes\Ndu tournage, elle m'avait dit
+Dialogue: 0,0:07:16.52,0:07:19.88,Default,,0,0,0,,qu'elle aimerait vite\Nse changer et prendre un bain.
+Dialogue: 0,0:07:20.36,0:07:25.20,Default,,0,0,0,,Elle n'a pas eu lieu une heure avant\Nqu'on aille chercher M. Harawaki ?
+Dialogue: 0,0:07:25.36,0:07:26.16,Default,,0,0,0,,Si, si !
+Dialogue: 0,0:07:26.64,0:07:30.64,Default,,0,0,0,,Moi aussi, j'ai profité\Nde cette pause pour y aller
+Dialogue: 0,0:07:30.80,0:07:32.56,Default,,0,0,0,,et il s'est passé un truc bizarre.
+Dialogue: 0,0:07:32.88,0:07:34.08,Default,,0,0,0,,Tu peux en dire plus ?
+Dialogue: 0,0:07:34.48,0:07:36.60,Default,,0,0,0,,Ran est allée aux W.-C. avant moi
+Dialogue: 0,0:07:36.76,0:07:41.44,Default,,0,0,0,,et m'a prévenue qu'il ne restait\Nplus qu'un rouleau, mais en y allant,
+Dialogue: 0,0:07:41.80,0:07:43.08,Default,,0,0,0,,plus rien !
+Dialogue: 0,0:07:43.72,0:07:48.72,Default,,0,0,0,,Pire, quand j'y suis retournée après,\Nce fameux rouleau avait réapparu !
+Dialogue: 0,0:07:49.76,0:07:52.76,Default,,0,0,0,,Plutôt sinistre,\Nvous ne trouvez pas ?
+Dialogue: 0,0:07:53.36,0:07:56.36,Default,,0,0,0,,Enfin, je devine plus ou moins\Npourquoi on l'a utilisé.
+Dialogue: 0,0:07:56.52,0:07:57.76,Default,,0,0,0,,C'est clair !
+Dialogue: 0,0:07:58.12,0:08:00.36,Default,,0,0,0,,Ah bon ?\NToi aussi, Conan ?
+Dialogue: 0,0:08:00.52,0:08:03.84,Default,,0,0,0,,Non... En fait,\Nj'imitais juste Heiji...
+Dialogue: 0,0:08:06.48,0:08:09.96,Default,,0,0,0,,Et pas de trappe cachée\Ndans cette pièce, on dirait...
+Dialogue: 0,0:08:10.96,0:08:13.32,Default,,0,0,0,,Ce rouleau de papier n'a pu servir
+Dialogue: 0,0:08:13.48,0:08:15.68,Default,,0,0,0,,qu'à se changer de zombie en momie.
+Dialogue: 0,0:08:18.16,0:08:19.08,Default,,0,0,0,,Oh là là ! Zut !
+Dialogue: 0,0:08:21.40,0:08:21.84,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:08:22.68,0:08:26.68,Default,,0,0,0,,Ces perles entrées par ce tiroir\Nsont ressorties par en dessous.
+Dialogue: 0,0:08:27.28,0:08:27.84,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:08:28.36,0:08:29.80,Default,,0,0,0,,{\i1}Mais c'est bien sûr !{\i0}
+Dialogue: 0,0:08:30.04,0:08:31.68,Default,,0,0,0,,{\i1}"On ne voit mal...{\i0}
+Dialogue: 0,0:08:31.84,0:08:33.32,Default,,0,0,0,,{\i1}"... que ce qui est trop près."{\i0}
+Dialogue: 0,0:08:34.04,0:08:36.24,Default,,0,0,0,,Au fait, je ne t'ai pas demandé,
+Dialogue: 0,0:08:36.40,0:08:39.16,Default,,0,0,0,,vous êtes venus ensemble\Nd'Osaka en moto ?
+Dialogue: 0,0:08:40.56,0:08:44.60,Default,,0,0,0,,On est venus en Shinkansen\Njusqu'à Tokyo d'où on a loué la moto.
+Dialogue: 0,0:08:44.84,0:08:47.36,Default,,0,0,0,,On se rendait\Nà une villa en montagne.
+Dialogue: 0,0:08:47.72,0:08:50.84,Default,,0,0,0,,Donc, tu as encore insisté\Npour le suivre, c'est ça ?
+Dialogue: 0,0:08:51.00,0:08:53.12,Default,,0,0,0,,C'est Heiji qui m'a invitée !
+Dialogue: 0,0:08:53.72,0:08:56.92,Default,,0,0,0,,Soi-disant qu'il avait\Nun truc important à me dire...
+Dialogue: 0,0:08:57.40,0:08:58.92,Default,,0,0,0,,"Un truc important" ?
+Dialogue: 0,0:09:02.64,0:09:05.68,Default,,0,0,0,,Quoi ? Tu as l'assassin\Net tu veux résoudre l'énigme ?
+Dialogue: 0,0:09:06.28,0:09:08.68,Default,,0,0,0,,Oui, avec ce petit gars.
+Dialogue: 0,0:09:10.12,0:09:12.08,Default,,0,0,0,,Tu as démasqué le coupable ?
+Dialogue: 0,0:09:12.24,0:09:16.76,Default,,0,0,0,,Mais non ! Moi, je vais juste\Ndonner un coup de main à Heiji !
+Dialogue: 0,0:09:16.96,0:09:17.76,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:09:18.40,0:09:21.28,Default,,0,0,0,,{\i1}Pas de Kogorô l'endormi,{\i0}\N{\i1}aujourd'hui...{\i0}
+Dialogue: 0,0:09:21.44,0:09:24.92,Default,,0,0,0,,{\i1}Et ça, parce qu'une intoxication{\i0}\N{\i1}le cloue déjà au lit !{\i0}
+Dialogue: 0,0:09:26.12,0:09:27.24,Default,,0,0,0,,{\i1}Trop drôle !{\i0}
+Dialogue: 0,0:09:27.40,0:09:28.64,Default,,0,0,0,,{\i1}Il est taré, ce type ?{\i0}
+Dialogue: 0,0:09:29.00,0:09:31.60,Default,,0,0,0,,Mais... ce n'est pas Takashi,\Nle coupable ?
+Dialogue: 0,0:09:31.76,0:09:35.80,Default,,0,0,0,,Ben oui ! Il a été filmé\Nen train d'agresser Kyôko !
+Dialogue: 0,0:09:36.28,0:09:40.28,Default,,0,0,0,,Et puis, il y a aussi cette vidéo\Noù on le voit avaler du poison.
+Dialogue: 0,0:09:40.76,0:09:43.36,Default,,0,0,0,,Comment comptes-tu\Nexpliquer ces images ?
+Dialogue: 0,0:09:44.60,0:09:49.92,Default,,0,0,0,,En fait, elles proviennent toutes\Ndu film tourné ici il y a 8 ans.
+Dialogue: 0,0:09:52.00,0:09:55.52,Default,,0,0,0,,En filmant les vidéos\Nde la tablette de M. Harawaki
+Dialogue: 0,0:09:55.68,0:09:57.36,Default,,0,0,0,,avec le portable des victimes
+Dialogue: 0,0:09:58.04,0:09:59.84,Default,,0,0,0,,et en profitant de la coupure
+Dialogue: 0,0:10:00.00,0:10:04.28,Default,,0,0,0,,pour plaquer la lentille par terre\Nou sur l'assise de la chaise
+Dialogue: 0,0:10:04.44,0:10:07.12,Default,,0,0,0,,sans arrêter de filmer pour autant !
+Dialogue: 0,0:10:08.20,0:10:11.76,Default,,0,0,0,,Tu te souviens d'une scène\Noù Takashi avalait du poison ?
+Dialogue: 0,0:10:11.92,0:10:12.92,Default,,0,0,0,,Alors là...
+Dialogue: 0,0:10:13.12,0:10:15.32,Default,,0,0,0,,M. Harawaki l'avait dit, pourtant.
+Dialogue: 0,0:10:15.48,0:10:18.52,Default,,0,0,0,,Il ne voulait pas juste\Nse zombifier, mais résister.
+Dialogue: 0,0:10:19.00,0:10:22.76,Default,,0,0,0,,Il a dû la tourner en cachette\Navec le président,
+Dialogue: 0,0:10:23.08,0:10:26.24,Default,,0,0,0,,cette fameuse scène\Noù il se suicidait au poison.
+Dialogue: 0,0:10:26.72,0:10:29.52,Default,,0,0,0,,Et puis,\Nd'après le script de départ,
+Dialogue: 0,0:10:29.68,0:10:32.24,Default,,0,0,0,,l'héroïne\Néliminait avec l'épée magique
+Dialogue: 0,0:10:32.52,0:10:35.88,Default,,0,0,0,,ses amis devenus zombies\Nles uns après les autres, non ?
+Dialogue: 0,0:10:36.04,0:10:37.28,Default,,0,0,0,,Si...
+Dialogue: 0,0:10:37.76,0:10:40.00,Default,,0,0,0,,Tout a donc dû être filmé !
+Dialogue: 0,0:10:40.20,0:10:42.64,Default,,0,0,0,,Y compris quand M. Harawaki\Nmord Mlle Ejiri
+Dialogue: 0,0:10:42.80,0:10:44.76,Default,,0,0,0,,et en fait un zombie à son tour.
+Dialogue: 0,0:10:45.36,0:10:48.80,Default,,0,0,0,,C'est ça que le coupable\Na utilisé astucieusement.
+Dialogue: 0,0:10:49.20,0:10:52.76,Default,,0,0,0,,Mais de là à affirmer\Nque ces images sont anciennes...
+Dialogue: 0,0:10:52.92,0:10:55.28,Default,,0,0,0,,Surtout\Nque l'arrière-plan est le même...
+Dialogue: 0,0:10:55.72,0:10:57.92,Default,,0,0,0,,Mais il y a des preuves à l'écran !
+Dialogue: 0,0:11:10.20,0:11:14.28,Default,,0,0,0,,M. Harawaki\Navait un bouc avant de mourir.
+Dialogue: 0,0:11:14.44,0:11:16.68,Default,,0,0,0,,Or, il ne l'a plus sur la vidéo.
+Dialogue: 0,0:11:16.84,0:11:19.20,Default,,0,0,0,,Et son pantalon\Nest d'une autre couleur.
+Dialogue: 0,0:11:19.84,0:11:24.00,Default,,0,0,0,,Mlle Ejiri avait du rouge à lèvres,\Net là, plus rien non plus.
+Dialogue: 0,0:11:24.40,0:11:27.76,Default,,0,0,0,,En plus, ses cheveux\Nétaient dénoués, comme à la fac.
+Dialogue: 0,0:11:28.40,0:11:30.36,Default,,0,0,0,,Et en parlant de cette période,
+Dialogue: 0,0:11:30.56,0:11:35.04,Default,,0,0,0,,Mlle Ejiri portait un des T-shirts\Nde cette boutique avec son initiale,
+Dialogue: 0,0:11:35.20,0:11:37.72,Default,,0,0,0,,comme sur la photo\Nmontrée tout à l'heure.
+Dialogue: 0,0:11:38.00,0:11:39.36,Default,,0,0,0,,Ici, regardez !
+Dialogue: 0,0:11:39.68,0:11:41.96,Default,,0,0,0,,On le voit mal à cause de ses mains,
+Dialogue: 0,0:11:42.20,0:11:43.52,Default,,0,0,0,,mais en zoomant...
+Dialogue: 0,0:11:44.12,0:11:46.16,Default,,0,0,0,,on voit la lettre "E", pas vrai ?
+Dialogue: 0,0:11:46.56,0:11:47.92,Default,,0,0,0,,C'est vrai !
+Dialogue: 0,0:11:48.08,0:11:51.68,Default,,0,0,0,,Mlle Ejiri ne portait pourtant\Nqu'un simple T-shirt blanc.
+Dialogue: 0,0:11:51.96,0:11:56.16,Default,,0,0,0,,Ça prouve qu'ils ont été tués\Ntous les deux par la même personne.
+Dialogue: 0,0:11:56.52,0:11:59.00,Default,,0,0,0,,Et le testament de Takashi, alors ?
+Dialogue: 0,0:11:59.72,0:12:02.00,Default,,0,0,0,,Le "Cortège des âmes" qui y figurait
+Dialogue: 0,0:12:02.40,0:12:06.04,Default,,0,0,0,,était le sous-titre du film\Nque Takashi avait imaginé
+Dialogue: 0,0:12:06.20,0:12:08.16,Default,,0,0,0,,et mis sous enveloppe !
+Dialogue: 0,0:12:08.52,0:12:11.88,Default,,0,0,0,,D'après toi, il était même\Nle seul à avoir pu l'écrire !
+Dialogue: 0,0:12:12.48,0:12:15.00,Default,,0,0,0,,On n'y avait pas pensé\Nà ce moment-là.
+Dialogue: 0,0:12:15.20,0:12:16.76,Default,,0,0,0,,Qui aurait pu croire
+Dialogue: 0,0:12:17.16,0:12:20.12,Default,,0,0,0,,que le coupable\Nutiliserait ceci pour le voir ?
+Dialogue: 0,0:12:20.40,0:12:22.24,Default,,0,0,0,,Un rouleau de papier toilette ?
+Dialogue: 0,0:12:22.40,0:12:24.04,Default,,0,0,0,,Comment s'y est-il pris ?
+Dialogue: 0,0:12:24.44,0:12:25.64,Default,,0,0,0,,C'est simple !
+Dialogue: 0,0:12:25.80,0:12:28.68,Default,,0,0,0,,On le pose juste sur l'enveloppe\Net on regarde
+Dialogue: 0,0:12:28.92,0:12:30.16,Default,,0,0,0,,par le trou.
+Dialogue: 0,0:12:30.76,0:12:32.04,Default,,0,0,0,,Tu veux voir ?
+Dialogue: 0,0:12:32.40,0:12:33.40,Default,,0,0,0,,Oui...
+Dialogue: 0,0:12:36.80,0:12:39.44,Default,,0,0,0,,C'est vrai !\NOn voit un peu à travers !
+Dialogue: 0,0:12:39.60,0:12:40.68,Default,,0,0,0,,Mais pourquoi ?
+Dialogue: 0,0:12:41.12,0:12:42.88,Default,,0,0,0,,À cause de la lumière !
+Dialogue: 0,0:12:43.20,0:12:46.08,Default,,0,0,0,,Normalement,\Nsa réflexion sur l'enveloppe
+Dialogue: 0,0:12:46.24,0:12:48.12,Default,,0,0,0,,empêche de voir son contenu.
+Dialogue: 0,0:12:48.40,0:12:52.64,Default,,0,0,0,,C'est pourquoi si on bloque\Nla lumière comme il faut,
+Dialogue: 0,0:12:52.80,0:12:55.20,Default,,0,0,0,,le contenu devient visible.
+Dialogue: 0,0:12:55.52,0:12:59.88,Default,,0,0,0,,Donc, si ce rouleau avait disparu\Npendant la pause toilettes...
+Dialogue: 0,0:13:00.04,0:13:04.64,Default,,0,0,0,,Oui, l'assassin a empoisonné\NM. Harawaki pendant cette pause,
+Dialogue: 0,0:13:04.96,0:13:08.72,Default,,0,0,0,,lu le contenu de l'enveloppe\Net tapé ce testament.
+Dialogue: 0,0:13:09.12,0:13:12.76,Default,,0,0,0,,Mais... et le corps de Takashi,\Noù est-il passé ?
+Dialogue: 0,0:13:13.20,0:13:15.92,Default,,0,0,0,,Il est bien ici,\Ndans cette chambre !
+Dialogue: 0,0:13:17.04,0:13:19.48,Default,,0,0,0,,À l'intérieur de cette armoire !
+Dialogue: 0,0:13:20.64,0:13:22.84,Default,,0,0,0,,Mais qu'est-ce que tu racontes ?
+Dialogue: 0,0:13:23.40,0:13:25.80,Default,,0,0,0,,Il n'y a qu'une veste dedans !
+Dialogue: 0,0:13:25.96,0:13:27.72,Default,,0,0,0,,Et les tiroirs sont vides !
+Dialogue: 0,0:13:27.88,0:13:29.52,Default,,0,0,0,,Bon, regardez bien alors !
+Dialogue: 0,0:13:29.68,0:13:30.68,Default,,0,0,0,,D'abord...
+Dialogue: 0,0:13:32.20,0:13:34.00,Default,,0,0,0,,on enlève les deux tiroirs.
+Dialogue: 0,0:13:34.52,0:13:36.28,Default,,0,0,0,,Puis la planche centrale.
+Dialogue: 0,0:13:37.28,0:13:39.08,Default,,0,0,0,,On va sûrement trouver au fond...
+Dialogue: 0,0:13:39.88,0:13:41.08,Default,,0,0,0,,le corps de M. Harawaki
+Dialogue: 0,0:13:41.96,0:13:43.76,Default,,0,0,0,,sur un chariot.
+Dialogue: 0,0:13:44.84,0:13:45.76,Default,,0,0,0,,Non ?
+Dialogue: 0,0:13:45.92,0:13:47.48,Default,,0,0,0,,On dirait de la magie !
+Dialogue: 0,0:13:49.16,0:13:53.16,Default,,0,0,0,,Le truc réside dans la planche\Net le tiroir du haut.
+Dialogue: 0,0:13:53.72,0:13:57.68,Default,,0,0,0,,Regardez. Ce qui a été rogné\Nsuffit à faire passer un tronc.
+Dialogue: 0,0:13:58.44,0:14:02.04,Default,,0,0,0,,En utilisant ce stratagème,\Non peut cacher une personne
+Dialogue: 0,0:14:02.20,0:14:04.44,Default,,0,0,0,,à l'intérieur de ces tiroirs !
+Dialogue: 0,0:14:04.88,0:14:08.00,Default,,0,0,0,,Voilà pourquoi les perles\Nentrées par le haut
+Dialogue: 0,0:14:08.16,0:14:10.68,Default,,0,0,0,,sont ressorties par le bas !
+Dialogue: 0,0:14:11.16,0:14:14.92,Default,,0,0,0,,Oui, elles sont tombées en dessous\Nen passant par le trou.
+Dialogue: 0,0:14:16.20,0:14:17.56,Default,,0,0,0,,On ne voit mal...
+Dialogue: 0,0:14:17.72,0:14:19.36,Default,,0,0,0,,... que ce qui est trop près !
+Dialogue: 0,0:14:20.40,0:14:23.44,Default,,0,0,0,,Plus c'est près,\Net moins on s'en rend compte.
+Dialogue: 0,0:14:23.88,0:14:25.80,Default,,0,0,0,,Pas vrai, Heiji ?
+Dialogue: 0,0:14:25.96,0:14:26.96,Default,,0,0,0,,Euh... Ouais...
+Dialogue: 0,0:14:27.56,0:14:28.44,Default,,0,0,0,,{\i1}Vermine !{\i0}
+Dialogue: 0,0:14:28.60,0:14:32.20,Default,,0,0,0,,{\i1}Tu as encore piqué ma réplique{\i0}\N{\i1}au meilleur moment !{\i0}
+Dialogue: 0,0:14:32.84,0:14:37.36,Default,,0,0,0,,Mais tu ne t'en étais pas rendu compte\Nen l'ouvrant tout à l'heure ?
+Dialogue: 0,0:14:37.52,0:14:40.08,Default,,0,0,0,,J'avais trouvé ce tiroir\Nun peu lourd...
+Dialogue: 0,0:14:40.92,0:14:43.24,Default,,0,0,0,,Mais comme le corps\Nétait sur le chariot
+Dialogue: 0,0:14:43.40,0:14:47.44,Default,,0,0,0,,et le poids, réparti sur la planche,\Nje suis passé à côté.
+Dialogue: 0,0:14:48.36,0:14:50.68,Default,,0,0,0,,Pourtant,\Nil a beau être sur un chariot,
+Dialogue: 0,0:14:50.84,0:14:53.40,Default,,0,0,0,,le corps devrait surgir\Nà l'ouverture...
+Dialogue: 0,0:14:53.68,0:14:57.44,Default,,0,0,0,,Regarde. Aucun des tiroirs\Nn'a de fond, pas vrai ?
+Dialogue: 0,0:14:58.44,0:15:03.00,Default,,0,0,0,,Il y a même un système qui permet\Nde fixer la planche par le dessus.
+Dialogue: 0,0:15:03.32,0:15:07.00,Default,,0,0,0,,Ça fait office de butée\Nquand on ouvre les tiroirs
+Dialogue: 0,0:15:07.16,0:15:08.72,Default,,0,0,0,,et empêche le corps de sortir.
+Dialogue: 0,0:15:08.96,0:15:12.68,Default,,0,0,0,,Pourtant, aucun d'entre nous\Nn'a eu le temps de préparer ça !
+Dialogue: 0,0:15:12.84,0:15:13.64,Default,,0,0,0,,Mais non !
+Dialogue: 0,0:15:14.12,0:15:16.16,Default,,0,0,0,,Ce n'est pas l'assassin,
+Dialogue: 0,0:15:16.64,0:15:20.40,Default,,0,0,0,,mais votre frère\Nqui a fabriqué ça il y a 8 ans !
+Dialogue: 0,0:15:20.56,0:15:22.32,Default,,0,0,0,,Quoi ? Jôji ?
+Dialogue: 0,0:15:22.72,0:15:26.20,Default,,0,0,0,,Donc, quand le président\Navait disparu de cette chambre...
+Dialogue: 0,0:15:26.36,0:15:29.56,Default,,0,0,0,,Vous avez compris.\NIl s'était caché dans cette armoire
+Dialogue: 0,0:15:29.72,0:15:31.56,Default,,0,0,0,,pour feindre une volatilisation !
+Dialogue: 0,0:15:32.08,0:15:35.96,Default,,0,0,0,,En effet, M. Naitô s'était\Nbel et bien caché dans l'armoire.
+Dialogue: 0,0:15:36.20,0:15:40.08,Default,,0,0,0,,La découverte\Nde son cadavre assis en tailleur
+Dialogue: 0,0:15:40.24,0:15:44.56,Default,,0,0,0,,prouve qu'il est mort de faim\Npour être resté coincé dedans.
+Dialogue: 0,0:15:44.92,0:15:48.56,Default,,0,0,0,,Il est donc mort\Nparce qu'il n'a pas réussi à sortir ?
+Dialogue: 0,0:15:48.72,0:15:49.32,Default,,0,0,0,,Non...
+Dialogue: 0,0:15:49.88,0:15:52.60,Default,,0,0,0,,On peut tout à fait\Ns'en extraire tout seul
+Dialogue: 0,0:15:52.92,0:15:56.60,Default,,0,0,0,,en poussant le tiroir du haut\Net en soulevant la planche.
+Dialogue: 0,0:15:56.88,0:15:58.56,Default,,0,0,0,,Mais alors, pourquoi ?
+Dialogue: 0,0:15:58.72,0:16:01.48,Default,,0,0,0,,Parce qu'il n'a pas pu\Npousser le tiroir.
+Dialogue: 0,0:16:02.08,0:16:03.08,Default,,0,0,0,,Une minute !
+Dialogue: 0,0:16:03.56,0:16:07.68,Default,,0,0,0,,Ne me dis pas que c'est parce\Nqu'il y a 8 ans, Takashi, Kyôko et moi
+Dialogue: 0,0:16:07.84,0:16:11.40,Default,,0,0,0,,avions bougé l'armoire\Npour trouver le président
+Dialogue: 0,0:16:11.64,0:16:14.24,Default,,0,0,0,,qu'il s'est retrouvé coincé...
+Dialogue: 0,0:16:14.68,0:16:18.32,Default,,0,0,0,,De ce fait, si Takashi et Kyôko\Nont été assassinés...
+Dialogue: 0,0:16:18.48,0:16:21.36,Default,,0,0,0,,... c'est que le coupable\Nest le frère du président ?
+Dialogue: 0,0:16:21.72,0:16:23.48,Default,,0,0,0,,Mais non, voyons, je...
+Dialogue: 0,0:16:23.96,0:16:26.48,Default,,0,0,0,,Bon, c'est l'une des causes...
+Dialogue: 0,0:16:26.76,0:16:28.04,Default,,0,0,0,,Mais pas le problème...
+Dialogue: 0,0:16:28.76,0:16:32.48,Default,,0,0,0,,Pourquoi M. Naitô,\Nmort de faim dans l'armoire,
+Dialogue: 0,0:16:32.64,0:16:37.28,Default,,0,0,0,,était-il assis quand vous êtes revenus\Nle chercher 4 jours plus tard ?
+Dialogue: 0,0:16:37.44,0:16:38.92,Default,,0,0,0,,Oui, pourquoi ?
+Dialogue: 0,0:16:39.24,0:16:41.20,Default,,0,0,0,,Parce que quelqu'un savait
+Dialogue: 0,0:16:41.36,0:16:44.20,Default,,0,0,0,,que M. Naitô\Nétait caché dans l'armoire.
+Dialogue: 0,0:16:45.28,0:16:48.56,Default,,0,0,0,,Pas vrai, mademoiselle l'actrice ?\NRia Kawabata...
+Dialogue: 0,0:16:49.08,0:16:52.56,Default,,0,0,0,,Vous avez également tué\NM. Harawaki et Mlle Ejiri.
+Dialogue: 0,0:16:55.32,0:16:57.72,Default,,0,0,0,,D'abord, pendant la pause toilettes,
+Dialogue: 0,0:16:58.00,0:17:02.96,Default,,0,0,0,,vous êtes allée dans la chambre\Nde M. Harawaki pour l'empoisonner.
+Dialogue: 0,0:17:03.68,0:17:07.32,Default,,0,0,0,,Vous avez tapé un testament\Ncontenant le sous-titre du film
+Dialogue: 0,0:17:07.48,0:17:09.28,Default,,0,0,0,,dans le portable de la victime
+Dialogue: 0,0:17:09.44,0:17:13.44,Default,,0,0,0,,avec lequel vous avez filmé\Nla scène tournée il y a 8 ans
+Dialogue: 0,0:17:13.60,0:17:15.72,Default,,0,0,0,,que contenait sa tablette.
+Dialogue: 0,0:17:16.08,0:17:20.16,Default,,0,0,0,,Vous avez remis le portable\Ndans sa main, lentille cachée,
+Dialogue: 0,0:17:20.32,0:17:23.28,Default,,0,0,0,,avant de rejoindre le plateau.
+Dialogue: 0,0:17:23.76,0:17:28.24,Default,,0,0,0,,En rester à ce premier crime\Naurait pu faire croire au suicide,
+Dialogue: 0,0:17:28.80,0:17:31.56,Default,,0,0,0,,mais Mlle Ejiri\Na compris pour les images.
+Dialogue: 0,0:17:31.92,0:17:35.36,Default,,0,0,0,,{\i1}Enfin, les retrouver{\i0}\N{\i1}nous permettrait peut-être{\i0}
+Dialogue: 0,0:17:35.72,0:17:39.24,Default,,0,0,0,,{\i1}d'élucider le mystère{\i0}\N{\i1}du suicide de Takashi.{\i0}
+Dialogue: 0,0:17:39.88,0:17:43.60,Default,,0,0,0,,Piégée, vous avez profité\Ndes "zombies" et de la fuite au 1er
+Dialogue: 0,0:17:43.76,0:17:46.52,Default,,0,0,0,,pour mouiller le haut de Mlle Ejiri,
+Dialogue: 0,0:17:46.68,0:17:48.92,Default,,0,0,0,,lui faire porter un T-shirt blanc
+Dialogue: 0,0:17:49.08,0:17:53.52,Default,,0,0,0,,et l'assassiner contre le mur\Nen lui tranchant la gorge
+Dialogue: 0,0:17:53.76,0:17:56.64,Default,,0,0,0,,pour que ça ressemble\Naux images d'il y a 8 ans.
+Dialogue: 0,0:17:57.32,0:18:01.84,Default,,0,0,0,,Vous avez filmé l'ancienne scène\Navec le portable de Mlle Ejiri,
+Dialogue: 0,0:18:02.00,0:18:06.48,Default,,0,0,0,,puis vous avez caché le corps\Nde M. Harawaki dans l'armoire
+Dialogue: 0,0:18:06.64,0:18:09.68,Default,,0,0,0,,pour faire croire\Nqu'il était devenu un zombie.
+Dialogue: 0,0:18:10.16,0:18:14.16,Default,,0,0,0,,En utilisant le truc que M. Naitô\Nvous avait appris il y a 8 ans.
+Dialogue: 0,0:18:16.32,0:18:19.88,Default,,0,0,0,,On devrait trouver des traces\Ndu sang de Mlle Ejiri sur vous
+Dialogue: 0,0:18:21.16,0:18:23.92,Default,,0,0,0,,en examinant vos vêtements.
+Dialogue: 0,0:18:24.68,0:18:28.48,Default,,0,0,0,,Mais elle n'était pas la seule\Nà pouvoir réaliser ce tour.
+Dialogue: 0,0:18:28.80,0:18:30.44,Default,,0,0,0,,Mlle Kawabata avait insisté...
+Dialogue: 0,0:18:31.16,0:18:33.48,Default,,0,0,0,,Quand j'ai voulu fouiller l'armoire,
+Dialogue: 0,0:18:33.68,0:18:36.04,Default,,0,0,0,,elle m'a dit\Nde regarder sous le lit.
+Dialogue: 0,0:18:38.04,0:18:41.96,Default,,0,0,0,,Vous aviez peur\Nde ma petite taille, c'est ça ?
+Dialogue: 0,0:18:42.32,0:18:45.80,Default,,0,0,0,,J'aurais pu voir\Nle corps caché dans l'armoire...
+Dialogue: 0,0:18:46.40,0:18:49.04,Default,,0,0,0,,D'ailleurs,\NMlle Baishô l'a bien dit.
+Dialogue: 0,0:18:49.20,0:18:53.84,Default,,0,0,0,,Quand Mlles Kawabata et Ejiri\Nsont montées chercher M. Naitô au 1er,
+Dialogue: 0,0:18:54.00,0:18:56.72,Default,,0,0,0,,elle n'a entendu Mlle Kawabata\Ncrier qu'après,
+Dialogue: 0,0:18:56.88,0:19:01.80,Default,,0,0,0,,puis l'a trouvée abasourdie\Navec Mlle Ejiri derrière elle.
+Dialogue: 0,0:19:02.84,0:19:05.68,Default,,0,0,0,,Heiji m'a dit\Nque c'est là qu'il a compris.
+Dialogue: 0,0:19:06.12,0:19:08.52,Default,,0,0,0,,Cette chambre\Nest tout près de l'escalier.
+Dialogue: 0,0:19:08.68,0:19:12.44,Default,,0,0,0,,L'une d'entre vous\Naurait dû la fouiller aussitôt.
+Dialogue: 0,0:19:12.60,0:19:15.84,Default,,0,0,0,,C'est donc bizarre\Nque ce cri ait tant tardé.
+Dialogue: 0,0:19:16.64,0:19:19.56,Default,,0,0,0,,Si Mlle Ejiri\Nétait debout derrière vous,
+Dialogue: 0,0:19:19.92,0:19:22.08,Default,,0,0,0,,c'est que vous aviez fait semblant
+Dialogue: 0,0:19:22.24,0:19:26.08,Default,,0,0,0,,d'être abasourdie\Naprès avoir sorti le corps de l'armoire.
+Dialogue: 0,0:19:27.56,0:19:30.36,Default,,0,0,0,,Honnêtement,\Nj'ai vraiment été surprise.
+Dialogue: 0,0:19:31.24,0:19:34.52,Default,,0,0,0,,Je pensais que le président\Nétait sorti de l'armoire
+Dialogue: 0,0:19:34.76,0:19:37.44,Default,,0,0,0,,et l'imaginait\Nronfler bruyamment sur ce lit.
+Dialogue: 0,0:19:37.88,0:19:39.84,Default,,0,0,0,,Mais il s'y trouvait toujours...
+Dialogue: 0,0:19:40.40,0:19:43.44,Default,,0,0,0,,C'est pour ça\Nque je l'ai sorti à la hâte
+Dialogue: 0,0:19:43.84,0:19:46.68,Default,,0,0,0,,et que j'ai crié\Naprès l'avoir assis.
+Dialogue: 0,0:19:47.24,0:19:49.20,Default,,0,0,0,,Comme si je venais de le trouver...
+Dialogue: 0,0:19:49.48,0:19:52.12,Default,,0,0,0,,Mais... c'est un accident, non ?
+Dialogue: 0,0:19:52.48,0:19:54.00,Default,,0,0,0,,Elle a raison !
+Dialogue: 0,0:19:54.24,0:19:56.80,Default,,0,0,0,,Cette grippe t'a clouée au lit !
+Dialogue: 0,0:19:57.60,0:20:00.56,Default,,0,0,0,,Ce n'est pas ce qu'a pensé Takashi.
+Dialogue: 0,0:20:01.44,0:20:03.64,Default,,0,0,0,,Quand on est venus tourner ici,
+Dialogue: 0,0:20:04.08,0:20:07.52,Default,,0,0,0,,il avait trouvé\Nles lettres de sang du président
+Dialogue: 0,0:20:07.68,0:20:10.48,Default,,0,0,0,,que je n'avais pas vues\Ndans l'armoire.
+Dialogue: 0,0:20:12.08,0:20:12.80,Default,,0,0,0,,C'est vrai...
+Dialogue: 0,0:20:13.48,0:20:16.80,Default,,0,0,0,,Carrément !\NIl a écrit qu'il la maudissait...
+Dialogue: 0,0:20:17.28,0:20:19.32,Default,,0,0,0,,Je n'aurais jamais cru ça possible...
+Dialogue: 0,0:20:19.80,0:20:23.40,Default,,0,0,0,,J'ai empoisonné Takashi\Nqui m'avait fait chanter
+Dialogue: 0,0:20:23.68,0:20:26.32,Default,,0,0,0,,pour que je tourne dans ce film,
+Dialogue: 0,0:20:26.76,0:20:31.24,Default,,0,0,0,,et j'ai tué Kyôko de mes mains\Navant qu'elle découvre le pot aux roses.
+Dialogue: 0,0:20:32.04,0:20:35.84,Default,,0,0,0,,Je devais jouer\Nune combattante tueuse de zombies,
+Dialogue: 0,0:20:36.80,0:20:39.56,Default,,0,0,0,,mais c'est peut-être moi,\Navec mon cœur putréfié,
+Dialogue: 0,0:20:40.16,0:20:42.12,Default,,0,0,0,,qui en suis devenue un.
+Dialogue: 0,0:20:44.96,0:20:47.48,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:20:48.92,0:20:51.92,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:08.40,0:22:10.64,Default,,0,0,0,,C'est pas le bruit\Nde la moto de Heiji ?
+Dialogue: 0,0:22:10.88,0:22:15.36,Default,,0,0,0,,Si, le service des routes\Nlui a fourni de l'essence.
+Dialogue: 0,0:22:15.72,0:22:17.52,Default,,0,0,0,,Je vais lui dire au revoir !
+Dialogue: 0,0:22:17.68,0:22:18.68,Default,,0,0,0,,Non ! Attends !
+Dialogue: 0,0:22:20.56,0:22:23.92,Default,,0,0,0,,Heiji avait un truc important\Nà dire à Kazuha...
+Dialogue: 0,0:22:28.64,0:22:30.32,Default,,0,0,0,,Un truc important, hein...
+Dialogue: 0,0:22:32.64,0:22:34.92,Default,,0,0,0,,Dis, Heiji. Au fait...
+Dialogue: 0,0:22:35.56,0:22:38.44,Default,,0,0,0,,tu n'avais pas\Nun truc important à me dire ?
+Dialogue: 0,0:22:38.84,0:22:42.60,Default,,0,0,0,,Kazuha... Ça fait un moment\Nque j'y pense, mais...
+Dialogue: 0,0:22:44.88,0:22:46.00,Default,,0,0,0,,En fait...
+Dialogue: 0,0:22:54.48,0:22:56.40,Default,,0,0,0,,C'était pas aujourd'hui,\Nl'audition ?
+Dialogue: 0,0:22:57.12,0:22:58.76,Default,,0,0,0,,C'était hier, crétin !
+Dialogue: 0,0:22:58.92,0:23:00.64,Default,,0,0,0,,C'est fini depuis un moment !
+Dialogue: 0,0:23:01.76,0:23:04.52,Default,,0,0,0,,Il paraît\Nque l'audition est terminée !
+Dialogue: 0,0:23:05.40,0:23:06.28,Default,,0,0,0,,Sérieux ?
+Dialogue: 0,0:23:09.64,0:23:11.80,Default,,0,0,0,,Alors ? Que voulais-tu me dire ?
+Dialogue: 0,0:23:12.04,0:23:15.40,Default,,0,0,0,,Tiens bien ta jupe\Npour qu'on ne voie pas ta culotte.
+Dialogue: 0,0:23:15.56,0:23:16.28,Default,,0,0,0,,Minute...
+Dialogue: 0,0:23:18.44,0:23:19.32,Default,,0,0,0,,Heiji !
+Dialogue: 0,0:23:19.96,0:23:21.32,Default,,0,0,0,,{\i1}C'était pas le moment.{\i0}
+Dialogue: 0,0:23:25.04,0:23:27.64,Default,,0,0,0,,{\i1}Au moins, j'ai remboursé ma dette...{\i0}

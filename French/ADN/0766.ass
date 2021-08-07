@@ -1,0 +1,384 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.20,0:00:04.85,Default,,0,0,0,,{\i1}L'équipe Detective Boys{\i0}\N{\i1}vient faire concourir son cerf-volant{\i0}
+Dialogue: 0,0:00:05.56,0:00:07.68,Default,,0,0,0,,{\i1}au tournoi des bords de la Tamizu.{\i0}
+Dialogue: 0,0:00:11.21,0:00:13.13,Default,,0,0,0,,{\i1}La chanson que Haibara écoute ?{\i0}
+Dialogue: 0,0:00:13.29,0:00:17.44,Default,,0,0,0,,{\i1}Oui, de temps en temps,{\i0}\N{\i1}elle la fredonne joyeusement.{\i0}
+Dialogue: 0,0:00:18.17,0:00:20.80,Default,,0,0,0,,{\i1}C'est pas le générique d'un {\i0}anime {\i1}?{\i0}
+Dialogue: 0,0:00:22.56,0:00:25.41,Default,,0,0,0,,{\i1}Ça ressemble un peu{\i0}\N{\i1}à une chanson de Yôko Okino.{\i0}
+Dialogue: 0,0:00:26.00,0:00:28.84,Default,,0,0,0,,{\i1}Pourquoi tu ne lui demandes pas ?{\i0}
+Dialogue: 0,0:00:29.01,0:00:30.81,Default,,0,0,0,,{\i1}Je l'ai fait, bien sûr !{\i0}
+Dialogue: 0,0:00:31.36,0:00:33.80,Default,,0,0,0,,{\i1}Mais elle a répondu{\i0}\N{\i1}que c'était un secret.{\i0}
+Dialogue: 0,0:00:35.52,0:00:37.41,Default,,0,0,0,,{\i1}T'embête pas pour ça...{\i0}
+Dialogue: 0,0:00:37.56,0:00:40.08,Default,,0,0,0,,{\i1}Ce doit être la dernière soupe{\i0}\N{\i1}à la mode.{\i0}
+Dialogue: 0,0:00:40.25,0:00:41.80,Default,,0,0,0,,{\i1}Excuse-moi...{\i0}
+Dialogue: 0,0:00:42.29,0:00:44.48,Default,,0,0,0,,{\i1}d'aimer la dernière soupe{\i0}\N{\i1}à la mode.{\i0}
+Dialogue: 0,0:00:44.64,0:00:45.60,Default,,0,0,0,,{\i1}Haibara ?{\i0}
+Dialogue: 0,0:00:48.16,0:00:51.69,Default,,0,0,0,,{\i1}Fais pas ta fière,{\i0}\N{\i1}dis-leur ce que c'est !{\i0}
+Dialogue: 0,0:00:52.21,0:00:53.92,Default,,0,0,0,,{\i1}Moi aussi, ça me titille.{\i0}
+Dialogue: 0,0:00:56.77,0:00:59.84,Default,,0,0,0,,{\i1}Pas question.{\i0}\N{\i1}Je ne vous le dirai jamais.{\i0}
+Dialogue: 0,0:01:02.53,0:01:05.37,Default,,0,0,0,,{\i1}Il y a encore une solution.{\i0}
+Dialogue: 0,0:01:09.04,0:01:10.89,Default,,0,0,0,,{\i1}La mettre sur écoute.{\i0}
+Dialogue: 0,0:01:12.33,0:01:15.33,Default,,0,0,0,,{\i1}Alors que nous faisons{\i0}\N{\i1}voler notre cerf-volant,{\i0}
+Dialogue: 0,0:01:15.80,0:01:19.60,ST_HAUT,,0,0,0,,{\i1}un membre de l'équipe voisine{\i0}\N{\i1}chute dans la Tamizu.{\i0}
+Dialogue: 0,0:01:23.92,0:01:25.00,Default,,0,0,0,,{\i1}C'est un accident ?{\i0}
+Dialogue: 0,0:01:25.16,0:01:26.41,Default,,0,0,0,,{\i1}Ryôta ?{\i0}
+Dialogue: 0,0:01:26.84,0:01:29.77,Default,,0,0,0,,{\i1}Que se passe-t-il, Ryôta ?{\i0}\N{\i1}Ryôta !{\i0}
+Dialogue: 0,0:01:29.92,0:01:32.53,Default,,0,0,0,,{\i1}Réponds-moi ! Ryôta !{\i0}
+Dialogue: 0,0:01:32.68,0:01:34.24,Default,,0,0,0,,{\i1}Non...{\i0}
+Dialogue: 0,0:01:35.44,0:01:36.96,Default,,0,0,0,,{\i1}Ça n'a rien d'un accident.{\i0}
+Dialogue: 0,0:01:42.16,0:01:45.73,Default,,0,0,0,,{\i1}En chiromancie secrète,{\i0}\N{\i1}la déduction est liée à la ligne du cœur.{\i0}
+Dialogue: 0,0:01:46.00,0:01:49.61,Default,,0,0,0,,{\i1}L'homme est relié au cerf-volant...{\i0}\N{\i1}Plus qu'aux autres hommes ?{\i0}
+Dialogue: 0,0:01:50.00,0:01:53.01,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:53.16,0:01:55.32,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:04.12,0:02:07.20,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:26.72,0:02:29.57,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:02:30.36,0:02:33.52,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:34.16,0:02:37.13,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:41.32,0:02:44.56,ST_HAUT,,0,0,0,,Générique d'ouverture :\NDYNAMITE
+Dialogue: 0,0:02:46.16,0:02:48.37,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:54.68,0:02:56.92,ST_HAUT_GAUCHE,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:03.88,0:03:06.48,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:03:07.52,0:03:10.92,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:16.88,0:03:19.36,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:21.92,0:03:25.24,Default,,0,0,0,,{\i1}"Le tournoi de cerfs-volants{\i0}\N{\i1}de la Tamizu (2e partie)" !{\i0}
+Dialogue: 0,0:03:30.60,0:03:34.88,ST_HAUT,,0,0,0,,J'aurais fait tomber Renno en le menant\Nlà où il n'y avait pas de cordes ?
+Dialogue: 0,0:03:35.36,0:03:37.08,Default,,0,0,0,,Arrêtez votre délire !
+Dialogue: 0,0:03:37.24,0:03:40.52,Default,,0,0,0,,Au contraire,\Nj'ai hurlé pour l'arrêter !
+Dialogue: 0,0:03:40.96,0:03:42.88,Default,,0,0,0,,Les gamins peuvent\Nvous le dire !
+Dialogue: 0,0:03:43.20,0:03:47.72,Default,,0,0,0,,Oui, il criait, avant que l'autre\Nne tombe dans la rivière,.
+Dialogue: 0,0:03:48.04,0:03:49.72,Default,,0,0,0,,{\i1}Qu'est-ce que tu fous ?{\i0}
+Dialogue: 0,0:03:50.28,0:03:52.56,Default,,0,0,0,,{\i1}Si tu continues à reculer...{\i0}
+Dialogue: 0,0:03:53.96,0:03:56.48,Default,,0,0,0,,Il avait l'air vraiment affolé.
+Dialogue: 0,0:03:57.12,0:04:00.92,Default,,0,0,0,,Mais on ne sait pas\Nsi M. Renno entendait sa voix.
+Dialogue: 0,0:04:02.56,0:04:07.08,Default,,0,0,0,,À côté, d'autres gens criaient aussi\Ndes instructions à leur partenaire.
+Dialogue: 0,0:04:07.64,0:04:09.28,Default,,0,0,0,,Et M. Renno était loin.
+Dialogue: 0,0:04:09.92,0:04:11.48,Default,,0,0,0,,C'est bien ça ?
+Dialogue: 0,0:04:11.64,0:04:15.72,Default,,0,0,0,,Oui ! Je me suis dit\Nqu'il m'avait à peu près entendu,
+Dialogue: 0,0:04:16.24,0:04:20.60,Default,,0,0,0,,mais, ensuite,\Nj'ai moi-même reculé assez loin.
+Dialogue: 0,0:04:20.76,0:04:23.40,Default,,0,0,0,,Mais même si M. Renno\Nne vous entendait pas,
+Dialogue: 0,0:04:23.56,0:04:27.40,Default,,0,0,0,,vous avez pu guider ses pas\Npar des gestes.
+Dialogue: 0,0:04:27.72,0:04:30.20,Default,,0,0,0,,J'ai jamais fait ça !
+Dialogue: 0,0:04:30.36,0:04:32.08,Default,,0,0,0,,Si vous ne me croyez pas,
+Dialogue: 0,0:04:32.24,0:04:37.16,Default,,0,0,0,,regardez la vidéo que l'organisation\Na prise pour déceler toute tricherie.
+Dialogue: 0,0:04:37.88,0:04:41.64,Default,,0,0,0,,Mais pourquoi avez-vous décidé\Nde vous éloigner ainsi ?
+Dialogue: 0,0:04:41.80,0:04:45.64,Default,,0,0,0,,Eh bien... Ayant constaté,\Nen regardant les autres cerfs-volants,
+Dialogue: 0,0:04:45.84,0:04:48.84,Default,,0,0,0,,que le vent semblait plus fort\Nà une certaine altitude,
+Dialogue: 0,0:04:49.00,0:04:52.48,Default,,0,0,0,,j'ai pris de la distance\Npour décoller très haut d'un coup.
+Dialogue: 0,0:04:53.52,0:04:56.64,Default,,0,0,0,,Comme il ne nous restait\Nque peu de temps,
+Dialogue: 0,0:04:56.80,0:04:59.12,Default,,0,0,0,,il fallait réussir du premier coup.
+Dialogue: 0,0:04:59.28,0:05:03.48,Default,,0,0,0,,Bien. Dites-moi,\Nquels sont vos liens avec M. Renno ?
+Dialogue: 0,0:05:04.04,0:05:08.32,Default,,0,0,0,,Je suis serveur dans son café.
+Dialogue: 0,0:05:08.64,0:05:09.48,Default,,0,0,0,,Alors aujourd'hui,
+Dialogue: 0,0:05:10.24,0:05:14.00,Default,,0,0,0,,on espérait remporter notre catégorie\Navec le logo du café.
+Dialogue: 0,0:05:14.52,0:05:18.52,Default,,0,0,0,,Exposé à la mairie, ce cerf-volant\Nnous aurait fait une belle pub.
+Dialogue: 0,0:05:19.32,0:05:23.76,Default,,0,0,0,,Et on aurait pu pavoiser aux réunions\Nde l'association de quartier.
+Dialogue: 0,0:05:23.92,0:05:24.80,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:05:27.36,0:05:30.28,ST_HAUT,,0,0,0,,C'est vrai,\Nj'ai brièvement discuté avec Renno.
+Dialogue: 0,0:05:30.60,0:05:33.48,Default,,0,0,0,,Peu avant qu'il ne tombe\Ndans la rivière.
+Dialogue: 0,0:05:33.64,0:05:35.32,Default,,0,0,0,,Que lui avez-vous dit ?
+Dialogue: 0,0:05:36.00,0:05:40.92,ST_HAUT,,0,0,0,,Que sa liaison avec un homme marié\Navait poussé ma sœur au suicide,
+Dialogue: 0,0:05:41.36,0:05:46.32,ST_HAUT,,0,0,0,,et que je voulais le voir à la fin\Ndu tournoi pour lui régler son compte.
+Dialogue: 0,0:05:46.72,0:05:50.12,Default,,0,0,0,,Finalement, tomber à l'eau,\Nc'est tout ce qu'il méritait.
+Dialogue: 0,0:05:50.28,0:05:54.80,Default,,0,0,0,,Vous aviez donc un mobile\Npour le faire tomber dans la rivière.
+Dialogue: 0,0:05:55.52,0:05:59.32,Default,,0,0,0,,Yatsukoshi aussi en avait un.
+Dialogue: 0,0:05:59.48,0:06:02.96,Default,,0,0,0,,Il est amoureux de ma sœur\Ndepuis le lycée.
+Dialogue: 0,0:06:03.52,0:06:06.80,Default,,0,0,0,,La femme de Renno aussi\Ndevait vouloir le tuer.
+Dialogue: 0,0:06:06.96,0:06:11.24,Default,,0,0,0,,J'ai vu sa rage, quand je lui ai dit\Nla vérité sur son mari et ma sœur.
+Dialogue: 0,0:06:11.92,0:06:13.88,Default,,0,0,0,,Est-il vrai que les deux époux
+Dialogue: 0,0:06:14.04,0:06:17.28,Default,,0,0,0,,étaient en conversation téléphonique\Ndepuis un moment ?
+Dialogue: 0,0:06:17.56,0:06:20.48,Default,,0,0,0,,Oui. C'est ce qu'il semblait.
+Dialogue: 0,0:06:20.64,0:06:21.96,Default,,0,0,0,,Alors si j'avais vraiment
+Dialogue: 0,0:06:22.44,0:06:25.56,Default,,0,0,0,,fait tomber Renno à l'eau\Npar de fausses indications,
+Dialogue: 0,0:06:26.12,0:06:29.68,Default,,0,0,0,,sa femme, à l'autre bout du fil,\Naurait dû m'entendre.
+Dialogue: 0,0:06:30.52,0:06:34.00,Default,,0,0,0,,De toute façon, nos cerfs-volants\Nétant de la même catégorie,
+Dialogue: 0,0:06:34.24,0:06:37.56,Default,,0,0,0,,Renno n'aurait jamais écouté\Nles conseils d'un rival.
+Dialogue: 0,0:06:37.96,0:06:41.44,Default,,0,0,0,,Mais vous avez vu M. Renno\Ntomber dans la rivière...
+Dialogue: 0,0:06:41.96,0:06:44.00,Default,,0,0,0,,Vous n'avez pas tenté\Nde l'arrêter ?
+Dialogue: 0,0:06:44.36,0:06:46.96,Default,,0,0,0,,Je me trouvais alors\Nassez loin de lui,
+Dialogue: 0,0:06:47.12,0:06:50.56,Default,,0,0,0,,j'ai cru qu'il voulait\Njeter une ordure à l'eau.
+Dialogue: 0,0:06:51.28,0:06:52.28,Default,,0,0,0,,Jeter quoi ?
+Dialogue: 0,0:06:52.76,0:06:55.16,Default,,0,0,0,,Une bouteille en plastique vide
+Dialogue: 0,0:06:55.80,0:06:58.16,Default,,0,0,0,,qu'il avait sous le bras.
+Dialogue: 0,0:07:00.12,0:07:03.04,Default,,0,0,0,,Et quels sont vos liens,\Nà tous les trois ?
+Dialogue: 0,0:07:03.48,0:07:07.36,Default,,0,0,0,,Je jouais avec Renno dans l'équipe\Nde baseball de notre lycée.
+Dialogue: 0,0:07:07.64,0:07:09.16,Default,,0,0,0,,Yatsukoshi est plus jeune,
+Dialogue: 0,0:07:09.32,0:07:12.68,Default,,0,0,0,,mais je le connais aussi car,\Naprès avoir quitté le lycée,
+Dialogue: 0,0:07:13.20,0:07:16.56,Default,,0,0,0,,je revenais souvent aider le club,\Net il en était membre.
+Dialogue: 0,0:07:17.76,0:07:19.56,Default,,0,0,0,,Vous n'êtes pas sérieux !
+Dialogue: 0,0:07:19.96,0:07:22.88,Default,,0,0,0,,Comment pouvez-vous me suspecter ?
+Dialogue: 0,0:07:23.04,0:07:25.08,Default,,0,0,0,,Je lui téléphonais de chez nous !
+Dialogue: 0,0:07:25.64,0:07:27.28,Default,,0,0,0,,Et avec le fixe, en plus !
+Dialogue: 0,0:07:27.44,0:07:31.24,Default,,0,0,0,,Mais la seule personne qui ait pu\Nle mener entre les poteaux,
+Dialogue: 0,0:07:31.40,0:07:33.56,Default,,0,0,0,,c'est vous, son interlocutrice...
+Dialogue: 0,0:07:33.72,0:07:37.12,Default,,0,0,0,,Si, par hasard,\Nvous habitez une tour assez haute
+Dialogue: 0,0:07:37.28,0:07:39.12,Default,,0,0,0,,pour pouvoir voir jusqu'ici...
+Dialogue: 0,0:07:39.28,0:07:42.44,Default,,0,0,0,,Nous habitons\Nune petite maison à un étage !
+Dialogue: 0,0:07:42.60,0:07:46.00,Default,,0,0,0,,Mais en appel vidéo,\Nvous auriez pu apercevoir les lieux,
+Dialogue: 0,0:07:46.72,0:07:48.12,Default,,0,0,0,,la position des poteaux...
+Dialogue: 0,0:07:48.44,0:07:51.56,Default,,0,0,0,,Petit... Une femme qui appelle\Nson mari de la maison
+Dialogue: 0,0:07:51.96,0:07:56.44,Default,,0,0,0,,pour lui dire de reculer\Nou de se décaler un peu à gauche,
+Dialogue: 0,0:07:56.60,0:07:58.04,Default,,0,0,0,,elle n'est pas écoutée !
+Dialogue: 0,0:07:58.96,0:08:00.52,Default,,0,0,0,,{\i1}C'est pas faux.{\i0}
+Dialogue: 0,0:08:00.96,0:08:05.20,Default,,0,0,0,,Et, au téléphone, avez-vous entendu\Nla voix de M. Kakura ?
+Dialogue: 0,0:08:05.64,0:08:09.44,Default,,0,0,0,,Oui. C'est le frère de la maîtresse\Nde mon mari, n'est-ce pas ?
+Dialogue: 0,0:08:09.60,0:08:11.20,Default,,0,0,0,,Je l'entendais clairement.
+Dialogue: 0,0:08:11.84,0:08:16.04,Default,,0,0,0,,Enfin bon,\Nil m'avait déjà appris que mon mari
+Dialogue: 0,0:08:16.20,0:08:17.96,Default,,0,0,0,,me trompait avec sa sœur.
+Dialogue: 0,0:08:18.24,0:08:21.96,Default,,0,0,0,,A-t-il dit quelque chose qui puisse\Nguider les pas de M. Renno ?
+Dialogue: 0,0:08:22.28,0:08:23.76,Default,,0,0,0,,Non, pas vraiment.
+Dialogue: 0,0:08:24.12,0:08:27.28,Default,,0,0,0,,D'ailleurs, mon mari\Nétait trop occupé à me mentir.
+Dialogue: 0,0:08:28.52,0:08:32.24,Default,,0,0,0,,Mais peut-être tenaient-ils\Nune discussion secrète,
+Dialogue: 0,0:08:32.84,0:08:35.96,Default,,0,0,0,,car il m'a dit d'attendre\Net a éloigné son téléphone.
+Dialogue: 0,0:08:36.68,0:08:38.52,Default,,0,0,0,,Un double appel, peut-être ?
+Dialogue: 0,0:08:39.12,0:08:41.44,Default,,0,0,0,,Il n'y a pas eu\Nde musique d'attente.
+Dialogue: 0,0:08:42.08,0:08:46.04,Default,,0,0,0,,Et j'entendais mon mari manipuler\Nquelque chose avec insistance.
+Dialogue: 0,0:08:46.44,0:08:50.20,Default,,0,0,0,,Peut-être avait-il\Nreçu un SMS, alors ?
+Dialogue: 0,0:08:50.80,0:08:54.96,Default,,0,0,0,,En plein appel,\Nil aurait difficilement pu le lire !
+Dialogue: 0,0:08:55.44,0:09:00.24,Default,,0,0,0,,En plus, je l'avais menacé de divorcer\Nsur-le-champ s'il raccrochait.
+Dialogue: 0,0:09:06.00,0:09:10.68,Default,,0,0,0,,Comme il l'a dit, M. Yatsukoshi\Nne fait pas de gestes suspects.
+Dialogue: 0,0:09:10.84,0:09:13.84,Default,,0,0,0,,Exact...\NIl boit à la bouteille, c'est tout.
+Dialogue: 0,0:09:14.08,0:09:16.08,Default,,0,0,0,,{\i1}Qu'est-ce que tu fous ?{\i0}
+Dialogue: 0,0:09:16.52,0:09:19.12,Default,,0,0,0,,{\i1}Si tu continues à reculer...{\i0}
+Dialogue: 0,0:09:20.76,0:09:23.36,Default,,0,0,0,,On voit certes M. Kakura
+Dialogue: 0,0:09:23.88,0:09:26.28,Default,,0,0,0,,juste après la chute de M. Renno,
+Dialogue: 0,0:09:26.44,0:09:30.88,Default,,0,0,0,,Mais, comme il l'a également déclaré,\Nil se trouvait un peu trop loin
+Dialogue: 0,0:09:31.04,0:09:33.76,Default,,0,0,0,,pour pouvoir le guider\Nentre les poteaux.
+Dialogue: 0,0:09:34.44,0:09:37.12,Default,,0,0,0,,Il ne reste\Ndonc plus que l'épouse...
+Dialogue: 0,0:09:37.56,0:09:41.64,Default,,0,0,0,,Là encore, reconnaissons avec elle\Nque ça semble impossible.
+Dialogue: 0,0:09:42.28,0:09:44.12,Default,,0,0,0,,Autrement dit,
+Dialogue: 0,0:09:44.28,0:09:47.40,Default,,0,0,0,,le coupable n'est peut-être pas\Nparmi ces trois-là.
+Dialogue: 0,0:09:48.36,0:09:50.64,Default,,0,0,0,,{\i1}Si. Tout s'est éclairci...{\i0}
+Dialogue: 0,0:09:51.32,0:09:56.04,Default,,0,0,0,,{\i1}Je suis sûr d'avoir trouvé le coupable,{\i0}\N{\i1}c'est un des trois suspects.{\i0}
+Dialogue: 0,0:09:56.92,0:10:00.92,Default,,0,0,0,,{\i1}Il me manque juste les preuves.{\i0}
+Dialogue: 0,0:10:01.08,0:10:02.88,Default,,0,0,0,,Tu as l'air de sécher,
+Dialogue: 0,0:10:03.72,0:10:05.08,Default,,0,0,0,,espèce de sale espion.
+Dialogue: 0,0:10:07.72,0:10:09.76,Default,,0,0,0,,Ayumi a craché le morceau ?
+Dialogue: 0,0:10:09.92,0:10:11.20,Default,,0,0,0,,Faut me comprendre !
+Dialogue: 0,0:10:11.36,0:10:13.84,Default,,0,0,0,,Mais tu as été bien puni...
+Dialogue: 0,0:10:14.00,0:10:17.84,Default,,0,0,0,,Ton portable a disparu.
+Dialogue: 0,0:10:18.00,0:10:18.72,Default,,0,0,0,,Sérieux ?
+Dialogue: 0,0:10:19.32,0:10:20.88,Default,,0,0,0,,Tu l'as perdu, Ayumi ?
+Dialogue: 0,0:10:21.04,0:10:25.36,Default,,0,0,0,,Oui, devant les toilettes.\NEt quelqu'un l'a ramassé !
+Dialogue: 0,0:10:25.52,0:10:28.12,Default,,0,0,0,,Alors il suffit\Nd'appeler mon numéro !
+Dialogue: 0,0:10:28.28,0:10:28.96,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:10:29.40,0:10:31.68,Default,,0,0,0,,Nous l'avons fait, évidemment.
+Dialogue: 0,0:10:31.84,0:10:35.48,Default,,0,0,0,,Ç'a sonné quelques instants\Navant de couper.
+Dialogue: 0,0:10:35.64,0:10:39.00,Default,,0,0,0,,J'ai ensuite réessayé plein de fois,
+Dialogue: 0,0:10:39.16,0:10:41.48,Default,,0,0,0,,mais l'appareil\Nsemblait avoir été éteint.
+Dialogue: 0,0:10:42.08,0:10:46.48,Default,,0,0,0,,Et du coup, on ne peut pas non plus\Nle retrouver par GPS.
+Dialogue: 0,0:10:47.04,0:10:50.52,Default,,0,0,0,,Qui était près de toi\Nquand tu l'as fait tomber ?
+Dialogue: 0,0:10:50.68,0:10:51.76,Default,,0,0,0,,Euh...
+Dialogue: 0,0:10:52.24,0:10:55.16,Default,,0,0,0,,Quelqu'un s'est cassé la figure\Nderrière moi,
+Dialogue: 0,0:10:55.32,0:10:57.08,Default,,0,0,0,,mais je n'ai pas vu sa tête.
+Dialogue: 0,0:10:57.24,0:10:57.88,Default,,0,0,0,,À mon avis,
+Dialogue: 0,0:10:58.04,0:11:02.52,Default,,0,0,0,,cette personne a dû emporter\Nl'appareil en le prenant pour le sien.
+Dialogue: 0,0:11:05.24,0:11:08.24,Default,,0,0,0,,Prof ! Quand avez-vous\Nfait votre 1er appel ?
+Dialogue: 0,0:11:08.40,0:11:10.64,Default,,0,0,0,,Après le départ de l'ambulance.
+Dialogue: 0,0:11:11.20,0:11:15.16,Default,,0,0,0,,À cause du drame, je n'ai plus\Ndu tout pensé à ton portable.
+Dialogue: 0,0:11:15.84,0:11:20.12,Default,,0,0,0,,{\i1}Je vois... Dans ce cas,{\i0}\N{\i1}elle y est peut-être encore,{\i0}
+Dialogue: 0,0:11:21.00,0:11:23.88,Default,,0,0,0,,{\i1}la voix du diable{\i0}\N{\i1}qui a utilisé{\i0}
+Dialogue: 0,0:11:24.92,0:11:26.68,Default,,0,0,0,,{\i1}ce stratagème primitif.{\i0}
+Dialogue: 0,0:11:33.32,0:11:36.24,Default,,0,0,0,,Combien de fois\Ndoit-on vous le dire ?
+Dialogue: 0,0:11:36.64,0:11:39.76,Default,,0,0,0,,Il nous était impossible\Nde le faire tomber à l'eau.
+Dialogue: 0,0:11:40.16,0:11:42.24,Default,,0,0,0,,Comme vous l'avez dit,
+Dialogue: 0,0:11:42.40,0:11:46.76,Default,,0,0,0,,quelqu'un a pu trafiquer les cordes\Nqui reliaient ces poteaux...
+Dialogue: 0,0:11:47.40,0:11:51.32,Default,,0,0,0,,Mais, même si mon mari reculait\Nen tenant un cerf-volant,
+Dialogue: 0,0:11:51.48,0:11:54.20,Default,,0,0,0,,on ne pouvait pas pour autant\Nguider ses pas
+Dialogue: 0,0:11:54.36,0:11:56.28,Default,,0,0,0,,entre ces deux poteaux.
+Dialogue: 0,0:11:56.64,0:11:58.36,ST_HAUT,,0,0,0,,Néanmoins,
+Dialogue: 0,0:11:58.52,0:12:01.76,ST_HAUT,,0,0,0,,les cordes n'ont été manipulées\Nque tout récemment.
+Dialogue: 0,0:12:02.32,0:12:05.96,Default,,0,0,0,,Et cela a forcément été fait\Npour que M. Renno tombe à l'eau.
+Dialogue: 0,0:12:06.40,0:12:09.00,Default,,0,0,0,,Mais comment l'a-t-on fait tomber ?
+Dialogue: 0,0:12:09.16,0:12:10.72,Default,,0,0,0,,Expliquez-nous.
+Dialogue: 0,0:12:10.88,0:12:14.12,Default,,0,0,0,,De quelle manière l'a-t-on\Nattiré entre les poteaux ?
+Dialogue: 0,0:12:14.56,0:12:17.88,Default,,0,0,0,,Moi, je passais\Nl'épreuve de cerf-volant avec lui,
+Dialogue: 0,0:12:18.28,0:12:22.64,Default,,0,0,0,,mais, au moment de sa chute,\Nj'étais trop loin pour qu'il m'entende
+Dialogue: 0,0:12:23.16,0:12:26.64,Default,,0,0,0,,et je ne le guidais pas non plus\Npar de grands gestes.
+Dialogue: 0,0:12:27.12,0:12:30.64,Default,,0,0,0,,Moi aussi, j'étais bien loin,\Nquand il est tombé à l'eau.
+Dialogue: 0,0:12:31.68,0:12:35.52,Default,,0,0,0,,Si je lui avais crié quelque chose,\Nsa femme, au bout du fil,
+Dialogue: 0,0:12:35.68,0:12:37.44,Default,,0,0,0,,m'aurait entendu, non ?
+Dialogue: 0,0:12:37.60,0:12:42.12,Default,,0,0,0,,Moi, j'étais certes au téléphone\Navec mon mari jusqu'à ce qu'il tombe,
+Dialogue: 0,0:12:42.60,0:12:45.60,Default,,0,0,0,,mais je ne pouvais pas\Nle diriger correctement
+Dialogue: 0,0:12:45.92,0:12:48.52,Default,,0,0,0,,en étant à la maison\Net en utilisant le fixe !
+Dialogue: 0,0:12:49.04,0:12:52.20,Default,,0,0,0,,Alors, pourquoi continuez-vous\Nà me soupçonner ?
+Dialogue: 0,0:12:52.36,0:12:56.28,Default,,0,0,0,,Mais il doit bien exister
+Dialogue: 0,0:12:56.64,0:12:57.84,Default,,0,0,0,,un moyen...
+Dialogue: 0,0:12:58.24,0:12:59.32,Default,,0,0,0,,Pas forcément !
+Dialogue: 0,0:13:01.04,0:13:05.20,Default,,0,0,0,,À part l'utilisation\Nde pouvoirs surnaturels.
+Dialogue: 0,0:13:05.56,0:13:08.08,Default,,0,0,0,,Des pouvoirs surnaturels ?
+Dialogue: 0,0:13:09.96,0:13:12.12,Default,,0,0,0,,Bien,\Navant de vous laisser rentrer,
+Dialogue: 0,0:13:12.28,0:13:16.60,Default,,0,0,0,,nous voudrions vous soumettre\Nà une fouille corporelle.
+Dialogue: 0,0:13:16.92,0:13:18.76,Default,,0,0,0,,Vous plaisantez ?
+Dialogue: 0,0:13:18.92,0:13:21.00,Default,,0,0,0,,Pourquoi devrions-nous subir ça ?
+Dialogue: 0,0:13:21.40,0:13:23.68,Default,,0,0,0,,Il n'y a même pas eu\Nmort d'homme.
+Dialogue: 0,0:13:23.84,0:13:26.52,Default,,0,0,0,,Les fouilles sont optionnelles, non ?
+Dialogue: 0,0:13:26.96,0:13:29.12,Default,,0,0,0,,Dans ce cas, je refuse.
+Dialogue: 0,0:13:29.88,0:13:31.64,Default,,0,0,0,,Moi aussi.
+Dialogue: 0,0:13:31.80,0:13:33.32,Default,,0,0,0,,De même, je m'en passerai.
+Dialogue: 0,0:13:33.80,0:13:35.08,Default,,0,0,0,,Attendez !
+Dialogue: 0,0:13:35.48,0:13:37.20,Default,,0,0,0,,C'est pas grave...
+Dialogue: 0,0:13:37.92,0:13:40.44,Default,,0,0,0,,Quand M. Renno\Naura repris connaissance,
+Dialogue: 0,0:13:40.60,0:13:44.00,Default,,0,0,0,,on saura tout de suite\Nqui est le coupable.
+Dialogue: 0,0:13:47.04,0:13:49.16,Default,,0,0,0,,Tu es sûr, Conan ?
+Dialogue: 0,0:13:49.32,0:13:50.60,Default,,0,0,0,,Quasiment.
+Dialogue: 0,0:13:50.76,0:13:55.36,Default,,0,0,0,,Peut-être nous dira-t-il aussi comment\Nil a été attiré entre les poteaux.
+Dialogue: 0,0:13:55.52,0:13:58.40,Default,,0,0,0,,Et s'il ne revenait jamais à lui ?
+Dialogue: 0,0:13:59.00,0:14:03.68,Default,,0,0,0,,Dans ce cas, on devra laisser tomber.\NOn n'a trouvé aucun indice.
+Dialogue: 0,0:14:04.44,0:14:06.36,Default,,0,0,0,,En parlant de recherches...
+Dialogue: 0,0:14:06.52,0:14:08.72,Default,,0,0,0,,Tu as trouvé ton portable, Conan ?
+Dialogue: 0,0:14:08.88,0:14:09.84,Default,,0,0,0,,Pas encore.
+Dialogue: 0,0:14:10.16,0:14:13.56,Default,,0,0,0,,La personne qui l'a ramassé\Nl'a peut-être jeté.
+Dialogue: 0,0:14:13.72,0:14:16.16,Default,,0,0,0,,Pas dans la rivière, j'espère !
+Dialogue: 0,0:14:16.32,0:14:19.56,Default,,0,0,0,,Peu importe.\NIl est totalement étanche.
+Dialogue: 0,0:14:19.84,0:14:22.24,Default,,0,0,0,,Et nous saurons sans doute\Nqui l'a jeté.
+Dialogue: 0,0:14:22.92,0:14:25.64,Default,,0,0,0,,Comme l'appli dictaphone\Nétait en marche,
+Dialogue: 0,0:14:25.80,0:14:29.52,Default,,0,0,0,,la voix de cette personne\Na été enregistrée.
+Dialogue: 0,0:14:29.96,0:14:33.64,Default,,0,0,0,,Et si elle emporte\Nle téléphone et le détruit ?
+Dialogue: 0,0:14:33.80,0:14:35.92,Default,,0,0,0,,Je le trouverai avant.
+Dialogue: 0,0:14:36.08,0:14:37.20,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:14:37.36,0:14:42.00,Default,,0,0,0,,Le Prof m'y avait implanté\Nun émetteur spécial.
+Dialogue: 0,0:14:42.16,0:14:46.00,Default,,0,0,0,,Alors, si on utilise son PC,\Non localisera ce téléphone.
+Dialogue: 0,0:14:46.84,0:14:48.20,Default,,0,0,0,,Pas vrai, Prof ?
+Dialogue: 0,0:14:48.36,0:14:49.76,Default,,0,0,0,,Hein ? Oui, bien sûr.
+Dialogue: 0,0:14:50.40,0:14:53.76,Default,,0,0,0,,{\i1}Je ne me rappelle pas{\i0}\N{\i1}avoir implanté d'émetteur.{\i0}
+Dialogue: 0,0:14:54.20,0:14:57.44,Default,,0,0,0,,Et si les données d'enregistrement\Nont été effacées ?
+Dialogue: 0,0:14:57.92,0:15:01.20,Default,,0,0,0,,Rassure-toi.\NLe téléphone est verrouillé
+Dialogue: 0,0:15:01.96,0:15:04.36,Default,,0,0,0,,avec un code confidentiel\Nà 4 chiffres
+Dialogue: 0,0:15:04.52,0:15:07.24,Default,,0,0,0,,que vous ne pourrez jamais trouver.
+Dialogue: 0,0:15:10.52,0:15:14.44,Default,,0,0,0,,C'est pas "5794", comme\N"Hé, Conan !" transcrit en chiffres ?
+Dialogue: 0,0:15:14.92,0:15:15.72,Default,,0,0,0,,Pas du tout.
+Dialogue: 0,0:15:16.12,0:15:19.20,Default,,0,0,0,,Je sais ! Puisque tu poursuis\NKid l'Insaisissable,
+Dialogue: 0,0:15:19.36,0:15:21.96,Default,,0,0,0,,ce doit être\Nson numéro de criminel, 1412 !
+Dialogue: 0,0:15:22.40,0:15:23.28,Default,,0,0,0,,C'est ça ?
+Dialogue: 0,0:15:23.44,0:15:24.52,Default,,0,0,0,,Non, encore faux.
+Dialogue: 0,0:15:24.84,0:15:26.68,Default,,0,0,0,,Alors c'est 110 !
+Dialogue: 0,0:15:26.84,0:15:29.40,Default,,0,0,0,,Tu nous dis toujours\Nd'appeler la police !
+Dialogue: 0,0:15:29.56,0:15:31.16,Default,,0,0,0,,J'ai dit 4 chiffres.
+Dialogue: 0,0:15:31.56,0:15:35.24,Default,,0,0,0,,C'est quand même pas 4869 ?
+Dialogue: 0,0:15:35.80,0:15:37.64,Default,,0,0,0,,Toi qui es fan de Sherlock...
+Dialogue: 0,0:15:39.48,0:15:42.36,Default,,0,0,0,,Bien sûr que non,\Nne dis pas de bêtises.
+Dialogue: 0,0:15:42.52,0:15:43.44,Default,,0,0,0,,C'est ça, hein ?
+Dialogue: 0,0:15:43.60,0:15:45.40,Default,,0,0,0,,Mais non, je te dis.
+Dialogue: 0,0:15:54.16,0:15:55.04,Default,,0,0,0,,{\i1}Bon sang !{\i0}
+Dialogue: 0,0:15:56.72,0:15:58.32,Default,,0,0,0,,{\i1}Comment ça se fait ?{\i0}
+Dialogue: 0,0:15:58.96,0:16:00.56,Default,,0,0,0,,{\i1}4869...{\i0}
+Dialogue: 0,0:16:02.36,0:16:05.32,Default,,0,0,0,,SAISIE DU CODE PIN
+Dialogue: 0,0:16:05.48,0:16:07.24,Default,,0,0,0,,{\i1}... ne marche pas !{\i0}
+Dialogue: 0,0:16:10.12,0:16:12.84,Default,,0,0,0,,{\i1}Ce gosse{\i0}\N{\i1}n'aurait quand même pas...{\i0}
+Dialogue: 0,0:16:14.32,0:16:15.44,Default,,0,0,0,,{\i1}Merde !{\i0}
+Dialogue: 0,0:16:21.40,0:16:23.28,Default,,0,0,0,,Juste un instant !
+Dialogue: 0,0:16:26.68,0:16:30.32,Default,,0,0,0,,{\i1}J'ai pas le choix...{\i0}\N{\i1}Je dois ramener ce portable chez moi{\i0}
+Dialogue: 0,0:16:30.60,0:16:32.60,Default,,0,0,0,,{\i1}et le pulvériser avec un marteau.{\i0}
+Dialogue: 0,0:16:38.16,0:16:40.96,Default,,0,0,0,,Alors, c'était bien vous,
+Dialogue: 0,0:16:41.84,0:16:43.32,Default,,0,0,0,,M. Takeshi Yatsukoshi.
+Dialogue: 0,0:16:44.88,0:16:47.36,Default,,0,0,0,,De quoi parlez-vous ?
+Dialogue: 0,0:16:47.96,0:16:52.08,Default,,0,0,0,,Vous avez le téléphone portable\Nde Conan, n'est-ce pas ?
+Dialogue: 0,0:16:54.52,0:16:55.92,Default,,0,0,0,,Celui-ci ?
+Dialogue: 0,0:16:56.24,0:16:58.84,Default,,0,0,0,,Je l'ai ramassé\Nen le prenant pour le mien.
+Dialogue: 0,0:16:59.00,0:17:01.28,Default,,0,0,0,,Le modèle et la couleur\Nsont les mêmes,
+Dialogue: 0,0:17:01.80,0:17:06.08,Default,,0,0,0,,mais pas le code... En plus,\Nje pensais l'avoir laissé chez moi.
+Dialogue: 0,0:17:06.24,0:17:08.72,Default,,0,0,0,,Je ne comprenais pas, du coup...
+Dialogue: 0,0:17:09.16,0:17:11.60,Default,,0,0,0,,C'est tout\Nce que vous aviez à me dire ?
+Dialogue: 0,0:17:11.76,0:17:14.68,Default,,0,0,0,,Non. La preuve\Nest maintenant établie,
+Dialogue: 0,0:17:15.08,0:17:18.64,Default,,0,0,0,,c'est vous qui avez aiguillé\NM. Renno vers la rivière
+Dialogue: 0,0:17:22.72,0:17:24.60,Default,,0,0,0,,pour le faire tomber dedans !
+Dialogue: 0,0:17:25.08,0:17:27.04,Default,,0,0,0,,Qu'est-ce que vous racontez ?
+Dialogue: 0,0:17:27.20,0:17:28.68,Default,,0,0,0,,Je vous l'ai déjà dit !
+Dialogue: 0,0:17:29.16,0:17:32.12,Default,,0,0,0,,Il m'était impossible\Nde guider ses pas !
+Dialogue: 0,0:17:32.56,0:17:36.68,Default,,0,0,0,,Comment aurais-je pu,\Nsans faire de grands gestes,
+Dialogue: 0,0:17:36.84,0:17:40.48,Default,,0,0,0,,diriger un homme\Ntrop éloigné pour entendre ma voix ?
+Dialogue: 0,0:17:40.64,0:17:42.20,Default,,0,0,0,,Vous lui avez téléphoné.
+Dialogue: 0,0:17:42.80,0:17:44.28,Default,,0,0,0,,Téléphoné ?
+Dialogue: 0,0:17:44.64,0:17:48.04,Default,,0,0,0,,De cette manière,\Nvous pouviez lui parler de loin.
+Dialogue: 0,0:17:48.56,0:17:51.92,Default,,0,0,0,,Mais enfin ! Renno était\Nau téléphone avec sa femme,
+Dialogue: 0,0:17:52.08,0:17:55.20,Default,,0,0,0,,qui a démenti\Nl'entrée d'un double appel !
+Dialogue: 0,0:17:55.60,0:17:57.44,Default,,0,0,0,,Je parle d'un autre téléphone.
+Dialogue: 0,0:18:00.60,0:18:02.84,Default,,0,0,0,,Allô, Ayumi ?
+Dialogue: 0,0:18:03.28,0:18:04.88,Default,,0,0,0,,{\i1}Tu m'entends ?{\i0}
+Dialogue: 0,0:18:05.04,0:18:07.60,Default,,0,0,0,,Oui ! Cinq sur cinq !
+Dialogue: 0,0:18:08.12,0:18:09.36,Default,,0,0,0,,Ce genre de téléphones.
+Dialogue: 0,0:18:11.72,0:18:14.24,Default,,0,0,0,,Vous aviez le matériel\Npour en faire un.
+Dialogue: 0,0:18:14.92,0:18:17.24,Default,,0,0,0,,Un long fil pour relier\Nles 2 partenaires,
+Dialogue: 0,0:18:17.72,0:18:20.48,Default,,0,0,0,,et 2 bouteilles vides\Npour les combinés.
+Dialogue: 0,0:18:20.96,0:18:24.48,Default,,0,0,0,,Vous aviez chacun enroulé le fil\Nautour d'une bouteille,
+Dialogue: 0,0:18:25.04,0:18:27.24,Default,,0,0,0,,et vous-même,\Nvous feigniez de boire
+Dialogue: 0,0:18:27.80,0:18:29.76,Default,,0,0,0,,pour donner des instructions.
+Dialogue: 0,0:18:30.36,0:18:34.24,Default,,0,0,0,,{\i1}Un peu plus à gauche...{\i0}\N{\i1}Encore... Oui, comme ça...{\i0}
+Dialogue: 0,0:18:34.64,0:18:36.64,Default,,0,0,0,,{\i1}Recule encore. Recule !{\i0}
+Dialogue: 0,0:18:37.36,0:18:38.92,Default,,0,0,0,,C'est bien ça ?
+Dialogue: 0,0:18:39.08,0:18:43.08,Default,,0,0,0,,Mais s'il ne m'entendait pas,\Ncomment pouvais-je l'avertir
+Dialogue: 0,0:18:43.24,0:18:46.12,Default,,0,0,0,,d'utiliser ce téléphone ?
+Dialogue: 0,0:18:46.28,0:18:48.92,Default,,0,0,0,,Par des signaux très simples.
+Dialogue: 0,0:18:49.08,0:18:52.92,Default,,0,0,0,,Par exemple, "quand je tire 2 fois\Nsur le fil, utilise-le."
+Dialogue: 0,0:18:53.36,0:18:56.32,Default,,0,0,0,,Mme Renno en a parlé...
+Dialogue: 0,0:18:57.40,0:19:01.20,Default,,0,0,0,,{\i1}Mais peut-être tenaient-ils{\i0}\N{\i1}une discussion secrète,{\i0}
+Dialogue: 0,0:19:01.96,0:19:05.12,Default,,0,0,0,,{\i1}car il m'a dit d'attendre{\i0}\N{\i1}et a éloigné son téléphone.{\i0}
+Dialogue: 0,0:19:05.80,0:19:09.76,Default,,0,0,0,,C'est une blague ou quoi ?\NApportez-moi des preuves !
+Dialogue: 0,0:19:09.92,0:19:11.96,Default,,0,0,0,,{\i1}Plus à droite... à droite !{\i0}
+Dialogue: 0,0:19:13.16,0:19:15.88,Default,,0,0,0,,{\i1}Tu peux encore reculer de dix pas ?{\i0}
+Dialogue: 0,0:19:16.28,0:19:20.88,Default,,0,0,0,,Comme vous aviez mis mon portable\Ndans votre poche de poitrine,
+Dialogue: 0,0:19:21.36,0:19:23.08,Default,,0,0,0,,j'ai pu enregistrer...
+Dialogue: 0,0:19:23.24,0:19:24.76,Default,,0,0,0,,{\i1}Qu'est-ce que tu fais ?{\i0}
+Dialogue: 0,0:19:25.28,0:19:27.84,Default,,0,0,0,,{\i1}Si tu continues à reculer...{\i0}
+Dialogue: 0,0:19:31.24,0:19:32.76,Default,,0,0,0,,... la voix du diable.
+Dialogue: 0,0:19:33.84,0:19:35.52,Default,,0,0,0,,{\i1}Va en enfer.{\i0}
+Dialogue: 0,0:19:43.36,0:19:45.44,Default,,0,0,0,,{\i1}Il est tombé à l'eau !{\i0}
+Dialogue: 0,0:19:47.40,0:19:51.04,Default,,0,0,0,,L'analyse nous dira très vite\Nà qui est cette voix.
+Dialogue: 0,0:19:51.20,0:19:55.48,Default,,0,0,0,,De toute façon, M. Renno\Nvient de reprendre connaissance.
+Dialogue: 0,0:19:55.84,0:19:58.84,Default,,0,0,0,,Posons-lui donc\Ndirectement la question.
+Dialogue: 0,0:19:59.24,0:20:01.36,Default,,0,0,0,,Je pense évidemment
+Dialogue: 0,0:20:01.88,0:20:05.92,Default,,0,0,0,,que le mobile de votre acte\Nétait lié à la sœur de M. Kakura.
+Dialogue: 0,0:20:16.24,0:20:18.68,Default,,0,0,0,,Il est quand même incroyable...
+Dialogue: 0,0:20:19.76,0:20:21.44,Default,,0,0,0,,Je parle de Conan.
+Dialogue: 0,0:20:21.60,0:20:24.80,Default,,0,0,0,,C'est grâce à lui\Nque nous avons résolu l'affaire.
+Dialogue: 0,0:20:26.20,0:20:29.48,Default,,0,0,0,,Moi, je soupçonnais ce type\Ndès le départ !
+Dialogue: 0,0:20:29.64,0:20:30.80,Default,,0,0,0,,Moi aussi !
+Dialogue: 0,0:20:30.96,0:20:31.88,Default,,0,0,0,,C'est vrai ?
+Dialogue: 0,0:20:32.28,0:20:35.24,Default,,0,0,0,,Mais bon, le stratagème\Nétait un simple jeu...
+Dialogue: 0,0:20:35.68,0:20:38.04,Default,,0,0,0,,Seul un enfant pouvait y penser.
+Dialogue: 0,0:20:38.76,0:20:42.60,Default,,0,0,0,,Et finalement,\Nquel est ton code PIN ?
+Dialogue: 0,0:20:42.76,0:20:44.36,Default,,0,0,0,,C'est un secret.
+Dialogue: 0,0:20:45.80,0:20:48.84,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:20:49.96,0:20:52.96,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:05.76,0:22:06.96,Default,,0,0,0,,Ah bon ?
+Dialogue: 0,0:22:07.68,0:22:12.16,Default,,0,0,0,,Vous ne savez donc toujours pas\Nquelle est la chanson qu'Ai aime tant.
+Dialogue: 0,0:22:12.32,0:22:13.00,Default,,0,0,0,,Eh non.
+Dialogue: 0,0:22:14.40,0:22:15.36,Default,,0,0,0,,Silence.
+Dialogue: 0,0:22:15.80,0:22:19.04,Default,,0,0,0,,Je regarde l'interview de Yôko  !
+Dialogue: 0,0:22:19.20,0:22:22.16,Default,,0,0,0,,{\i1}Nous avons un message spécial{\i0}\N{\i1}pour vous, Yôko.{\i0}
+Dialogue: 0,0:22:22.32,0:22:24.24,Default,,0,0,0,,{\i1}Ah bon ? Qui est-ce ?{\i0}
+Dialogue: 0,0:22:24.60,0:22:28.84,Default,,0,0,0,,{\i1}Quel est mon type de femmes{\i0}\N{\i1}parmi les célébrités ?{\i0}
+Dialogue: 0,0:22:30.68,0:22:32.44,Default,,0,0,0,,{\i1}Je ne vois pas vraiment...{\i0}
+Dialogue: 0,0:22:32.60,0:22:35.96,Default,,0,0,0,,{\i1}Mais il y a une chanson{\i0}\N{\i1}que j'écoute en m'échauffant.{\i0}
+Dialogue: 0,0:22:36.12,0:22:39.00,Default,,0,0,0,,{\i1}Je vais toutefois éviter{\i0}\N{\i1}de dire laquelle...{\i0}
+Dialogue: 0,0:22:39.16,0:22:43.48,Default,,0,0,0,,{\i1}Moi, je sais ! C'est{\i0} Dandy Lion{\i1},{\i0}\N{\i1}le dernier single de Yôko Okino !{\i0}
+Dialogue: 0,0:22:43.64,0:22:44.64,Default,,0,0,0,,{\i1}Takahiro !{\i0}
+Dialogue: 0,0:22:45.12,0:22:49.04,Default,,0,0,0,,{\i1}Ça porte le bouc pour faire viril,{\i0}\N{\i1}et ça écoute des{\i0} idols...
+Dialogue: 0,0:22:49.20,0:22:50.96,Default,,0,0,0,,{\i1}Moi, j'aurais honte !{\i0}
+Dialogue: 0,0:22:51.12,0:22:54.88,Default,,0,0,0,,{\i1}Alors comme ça, Ryôsuke Higo{\i0}\N{\i1}est fan de Yôko Okino ?{\i0}
+Dialogue: 0,0:22:55.36,0:22:59.68,Default,,0,0,0,,{\i1}Non, disons que... Comme elle a été{\i0}\N{\i1}élève du même lycée que moi,{\i0}
+Dialogue: 0,0:22:59.84,0:23:02.88,Default,,0,0,0,,{\i1}je l'ai écoutée par curiosité{\i0}\N{\i1}et je suis devenu accro.{\i0}
+Dialogue: 0,0:23:03.44,0:23:05.64,Default,,0,0,0,,{\i1}Cette chanson me donne la pêche.{\i0}
+Dialogue: 0,0:23:06.12,0:23:11.24,Default,,0,0,0,,{\i1}Elle m'aide à visualiser le tir idéal.{\i0}\N{\i1}Ça parle des pissenlits, je crois.{\i0}
+Dialogue: 0,0:23:11.68,0:23:12.56,Default,,0,0,0,,{\i1}Ah, OK !{\i0}
+Dialogue: 0,0:23:13.12,0:23:16.60,Default,,0,0,0,,{\i1}"Pissenlit" se dit "dandelion",{\i0}\N{\i1}d'où le titre{\i0} Dandy Lion{\i1}.{\i0}
+Dialogue: 0,0:23:16.80,0:23:18.68,Default,,0,0,0,,{\i1}Fallait y penser !{\i0}
+Dialogue: 0,0:23:18.84,0:23:20.40,Default,,0,0,0,,{\i1}Toi, fous le camp !{\i0}
+Dialogue: 0,0:23:22.04,0:23:23.16,Default,,0,0,0,,{\i1}Ça doit être ça.{\i0}

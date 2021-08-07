@@ -1,0 +1,401 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.09,0:00:01.53,Default,,0,0,0,,AGENCE MÔRI
+Dialogue: 0,0:00:09.13,0:00:13.20,Default,,0,0,0,,Papa ! Je t'ai déjà dit\Nde ne boire qu'après le repas !
+Dialogue: 0,0:00:13.36,0:00:16.97,Default,,0,0,0,,Sans quoi, tu t'endors toujours\Nsans rien débarrasser !
+Dialogue: 0,0:00:17.13,0:00:18.00,Default,,0,0,0,,Oh, ça va !
+Dialogue: 0,0:00:18.16,0:00:22.96,Default,,0,0,0,,Laisse-moi savourer ma bière\Naprès ma dure journée de labeur !
+Dialogue: 0,0:00:23.20,0:00:24.29,Default,,0,0,0,,Dis donc, papa !
+Dialogue: 0,0:00:24.89,0:00:27.20,Default,,0,0,0,,Tu ne peux peut-être pas comprendre,
+Dialogue: 0,0:00:27.80,0:00:30.33,Default,,0,0,0,,mais c'est mon petit régal...\NOu plutôt non,
+Dialogue: 0,0:00:30.48,0:00:32.96,Default,,0,0,0,,c'est mon unique plaisir actuel !
+Dialogue: 0,0:00:33.13,0:00:36.17,Default,,0,0,0,,OK, OK... Tu peux boire,\Nmais après le repas !
+Dialogue: 0,0:00:41.80,0:00:43.52,Default,,0,0,0,,Allô ? Môri à l'appareil.
+Dialogue: 0,0:00:43.97,0:00:45.44,Default,,0,0,0,,Inspecteur Takagi ?
+Dialogue: 0,0:00:45.89,0:00:48.48,Default,,0,0,0,,Oui. Conan est bien là, pourquoi ?
+Dialogue: 0,0:00:49.20,0:00:50.28,Default,,0,0,0,,En fait...
+Dialogue: 0,0:00:54.68,0:00:57.29,Default,,0,0,0,,Il doit témoigner\Ndans une affaire de meurtre ?
+Dialogue: 0,0:01:00.89,0:01:05.48,ST_HAUT,,0,0,0,,{\i1}La réponse viendra d'une déduction{\i0}\N{\i1}après la fin du compte à rebours !{\i0}
+Dialogue: 0,0:01:07.77,0:01:11.44,Default,,0,0,0,,{\i1}En quoi suis-je lié à l'affaire\Ndont parle l'inspecteur Takagi ?{\i0}
+Dialogue: 0,0:01:11.73,0:01:15.05,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:15.20,0:01:17.29,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:17.53,0:01:20.53,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:37.48,0:01:39.08,Default,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:01:40.48,0:01:42.32,Default,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:01:42.48,0:01:44.45,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:45.64,0:01:47.77,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:52.12,0:01:54.65,Default,,0,0,0,,Générique d'ouverture :\N"Countdown"
+Dialogue: 0,0:01:55.08,0:01:57.32,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:02.08,0:02:04.28,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:08.36,0:02:10.65,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:02:23.20,0:02:25.45,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:29.68,0:02:31.77,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:46.16,0:02:48.32,Default,,0,0,0,,{\i1}Les Detective boys,\Nmodèles d'une toile !{\i0}
+Dialogue: 0,0:02:55.92,0:02:58.44,Default,,0,0,0,,Je vous résume rapidement l'affaire.
+Dialogue: 0,0:02:58.60,0:03:00.09,Default,,0,0,0,,D'accord, je t'écoute.
+Dialogue: 0,0:03:00.76,0:03:03.96,ST_HAUT,,0,0,0,,La victime, Seihô Kitasono,\Nâgée de 72 ans,
+Dialogue: 0,0:03:04.12,0:03:05.85,ST_HAUT,,0,0,0,,a été tuée d'un coup à l'occiput.
+Dialogue: 0,0:03:06.60,0:03:09.36,Default,,0,0,0,,On pense que cette sculpture\Nest l'arme du crime.
+Dialogue: 0,0:03:10.12,0:03:13.93,Default,,0,0,0,,M. Kitasono était un peintre\Nde renommée nationale
+Dialogue: 0,0:03:14.20,0:03:17.88,Default,,0,0,0,,et présidait le jury\Nde diverses expositions.
+Dialogue: 0,0:03:18.48,0:03:21.36,Default,,0,0,0,,On évalue l'heure du décès\Nà environ 15 h 30.
+Dialogue: 0,0:03:21.52,0:03:22.76,Default,,0,0,0,,Le corps a été trouvé
+Dialogue: 0,0:03:23.12,0:03:26.12,Default,,0,0,0,,par Kengo Higashio,\Nle disciple de la victime.
+Dialogue: 0,0:03:26.68,0:03:29.12,Default,,0,0,0,,En entrant dans son atelier,
+Dialogue: 0,0:03:29.72,0:03:32.76,Default,,0,0,0,,M. Higashio a trouvé M. Kitasono\Ngisant dans son sang.
+Dialogue: 0,0:03:33.04,0:03:35.40,Default,,0,0,0,,Il était 15 h 50, d'après lui.
+Dialogue: 0,0:03:36.04,0:03:40.04,Default,,0,0,0,,M. Higashio a alors quitté l'atelier\Net regagné le bâtiment principal
+Dialogue: 0,0:03:40.20,0:03:43.16,Default,,0,0,0,,pour en informer Shizu Minamida,\Nla domestique.
+Dialogue: 0,0:03:43.48,0:03:47.40,Default,,0,0,0,,Kinuko Kitasono, l'épouse du défunt,\Nest rentrée au même moment.
+Dialogue: 0,0:03:48.04,0:03:50.04,Default,,0,0,0,,Après constatation du décès,
+Dialogue: 0,0:03:50.20,0:03:52.40,Default,,0,0,0,,Mme Minamida a prévenu la police
+Dialogue: 0,0:03:52.80,0:03:54.72,Default,,0,0,0,,à 15 h 58.
+Dialogue: 0,0:03:55.24,0:03:56.28,Default,,0,0,0,,C'est ensuite
+Dialogue: 0,0:03:56.56,0:04:00.32,Default,,0,0,0,,qu'est arrivé Daiki Nishiyama,\Nsecond disciple de la victime.
+Dialogue: 0,0:04:01.00,0:04:04.60,Default,,0,0,0,,Il est parvenu sur les lieux\Naprès nous, vers 17 h.
+Dialogue: 0,0:04:05.08,0:04:06.32,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:04:06.48,0:04:07.32,Default,,0,0,0,,Dites...
+Dialogue: 0,0:04:07.48,0:04:11.60,Default,,0,0,0,,Vous pouvez m'expliquer pourquoi Conan\Nest convoqué comme témoin ?
+Dialogue: 0,0:04:11.76,0:04:12.84,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:04:14.00,0:04:15.92,Default,,0,0,0,,Il l'a déjà terminé ?
+Dialogue: 0,0:04:16.08,0:04:17.48,Default,,0,0,0,,C'est Conan et ses amis !
+Dialogue: 0,0:04:17.76,0:04:21.84,Default,,0,0,0,,Ce tableau a été peint aujourd'hui\Nau lac Okuho par M. Nishiyama,
+Dialogue: 0,0:04:22.00,0:04:24.24,Default,,0,0,0,,qui arrivé en retard, tout à l'heure.
+Dialogue: 0,0:04:24.68,0:04:29.48,Default,,0,0,0,,Et c'est pour vérifier l'horaire\Nque j'ai convoqué Conan.
+Dialogue: 0,0:04:29.96,0:04:32.64,Default,,0,0,0,,Je pense que c'est vers 11 h
+Dialogue: 0,0:04:32.80,0:04:35.56,Default,,0,0,0,,qu'on a rencontré ce M. Nishiyama.
+Dialogue: 0,0:04:35.96,0:04:39.64,Default,,0,0,0,,Seulement, comme on l'a quitté\Naprès 15 minutes de croquis,
+Dialogue: 0,0:04:40.00,0:04:43.60,Default,,0,0,0,,je ne sais pas jusqu'à quelle heure\Nil est resté peindre.
+Dialogue: 0,0:04:43.76,0:04:44.56,Default,,0,0,0,,Mais bon...
+Dialogue: 0,0:04:45.20,0:04:48.24,Default,,0,0,0,,N'empêche que pour peindre tout ça,
+Dialogue: 0,0:04:48.40,0:04:51.64,Default,,0,0,0,,on peut affirmer\Nqu'il y est resté un bon moment.
+Dialogue: 0,0:04:52.60,0:04:53.76,Default,,0,0,0,,{\i1}En effet...{\i0}
+Dialogue: 0,0:04:55.28,0:04:56.40,Default,,0,0,0,,Alors, inspecteur ?
+Dialogue: 0,0:04:56.84,0:05:00.00,Default,,0,0,0,,Vous avez compris quelque chose,\Noui ou non ?
+Dialogue: 0,0:05:00.36,0:05:03.32,Default,,0,0,0,,Pour l'instant,\Non réunit des informations.
+Dialogue: 0,0:05:03.48,0:05:04.68,Default,,0,0,0,,Il est encore trop tôt.
+Dialogue: 0,0:05:05.20,0:05:06.76,ST_HAUT,,0,0,0,,Pour commencer,
+Dialogue: 0,0:05:06.92,0:05:10.16,ST_HAUT,,0,0,0,,impossible d'en vouloir au maître\Nau point de le tuer !
+Dialogue: 0,0:05:10.32,0:05:11.12,ST_HAUT,,0,0,0,,Tiens donc ?
+Dialogue: 0,0:05:11.28,0:05:12.96,ST_HAUT,,0,0,0,,Vous dites ça,
+Dialogue: 0,0:05:13.68,0:05:16.12,ST_HAUT,,0,0,0,,mais celui qui a tué mon mari,
+Dialogue: 0,0:05:16.56,0:05:17.56,ST_HAUT,,0,0,0,,c'est vous, non ?
+Dialogue: 0,0:05:19.00,0:05:20.60,Default,,0,0,0,,Mais vous délirez !
+Dialogue: 0,0:05:21.32,0:05:25.60,Default,,0,0,0,,Vous lui en vouliez de ne pas\Nvous avoir recommandé comme professeur
+Dialogue: 0,0:05:25.76,0:05:27.52,Default,,0,0,0,,aux Beaux-Arts de Beika, non ?
+Dialogue: 0,0:05:29.72,0:05:30.88,Default,,0,0,0,,N'importe quoi !
+Dialogue: 0,0:05:31.32,0:05:35.52,Default,,0,0,0,,C'est plutôt vous\Nqui vous êtes disputée avec le maître
+Dialogue: 0,0:05:35.84,0:05:38.40,Default,,0,0,0,,à cause du gigolo que vous entretenez.
+Dialogue: 0,0:05:38.96,0:05:41.68,Default,,0,0,0,,Ne semblez-vous pas\Nplus louche que moi ?
+Dialogue: 0,0:05:42.60,0:05:45.64,Default,,0,0,0,,Ça suffit, à la fin !\NVous croyez que c'est le moment ?
+Dialogue: 0,0:05:46.16,0:05:48.60,ST_HAUT,,0,0,0,,Le maître vient à peine de mourir...
+Dialogue: 0,0:05:49.24,0:05:52.76,Default,,0,0,0,,Quoi, M. Nishiyama ?\NVous aussi, vous êtes suspect !
+Dialogue: 0,0:05:53.80,0:05:58.12,Default,,0,0,0,,Mon mari ne vous avait pas proposé\Nde vous sélectionner à une exposition
+Dialogue: 0,0:05:58.28,0:05:59.76,Default,,0,0,0,,contre de l'argent ?
+Dialogue: 0,0:06:00.36,0:06:03.76,ST_HAUT,,0,0,0,,Mais comme vous n'aviez pas la somme,\Nvous l'avez tué !
+Dialogue: 0,0:06:03.92,0:06:05.36,ST_HAUT,,0,0,0,,C'est totalement faux...
+Dialogue: 0,0:06:07.96,0:06:10.44,Default,,0,0,0,,Permettez-moi\Nde vous interroger à nouveau.
+Dialogue: 0,0:06:10.60,0:06:12.08,Default,,0,0,0,,M. Higashio.
+Dialogue: 0,0:06:12.32,0:06:14.88,Default,,0,0,0,,La porte était ouverte à votre arrivée ?
+Dialogue: 0,0:06:15.36,0:06:18.12,Default,,0,0,0,,Oui. Généralement,\Nle maître la fermait à clé,
+Dialogue: 0,0:06:18.28,0:06:21.48,Default,,0,0,0,,mais il l'ouvrait parfois\Nquand il savait qu'on venait,
+Dialogue: 0,0:06:21.64,0:06:23.24,Default,,0,0,0,,comme aujourd'hui.
+Dialogue: 0,0:06:23.60,0:06:28.04,Default,,0,0,0,,D'après la police scientifique,\Nla fenêtre n'était pas verrouillée.
+Dialogue: 0,0:06:28.20,0:06:28.80,Default,,0,0,0,,En effet.
+Dialogue: 0,0:06:29.44,0:06:32.08,Default,,0,0,0,,Il travaillait parfois\Nla fenêtre ouverte.
+Dialogue: 0,0:06:32.24,0:06:36.08,Default,,0,0,0,,Quand on peint à l'huile,\Nl'odeur des couleurs s'imprègne vite.
+Dialogue: 0,0:06:36.52,0:06:40.28,Default,,0,0,0,,Je vois. Seulement,\Nle maître aurait aussitôt remarqué
+Dialogue: 0,0:06:40.44,0:06:44.32,Default,,0,0,0,,l'intrusion d'un inconnu,\Nqu'il entre par la porte ou la fenêtre.
+Dialogue: 0,0:06:44.68,0:06:46.80,Default,,0,0,0,,Rien n'est moins sûr...
+Dialogue: 0,0:06:46.96,0:06:48.72,Default,,0,0,0,,Quand il était concentré,
+Dialogue: 0,0:06:48.88,0:06:52.32,Default,,0,0,0,,il en oubliait même de manger\Nou d'aller aux toilettes.
+Dialogue: 0,0:06:54.28,0:06:58.52,Default,,0,0,0,,Autre chose, y avait-il\Ndes objets de valeur dans l'atelier ?
+Dialogue: 0,0:06:58.92,0:07:01.08,Default,,0,0,0,,J'ignore si ça valait quelque chose,
+Dialogue: 0,0:07:01.24,0:07:03.88,Default,,0,0,0,,mais il y avait\Nplusieurs toiles de mon mari.
+Dialogue: 0,0:07:04.04,0:07:07.60,Default,,0,0,0,,Et je ne saurais dire\Nsi certaines ont disparu ou non.
+Dialogue: 0,0:07:08.04,0:07:11.92,Default,,0,0,0,,À la revente, il y en aurait minimum\Npour un million pièce.
+Dialogue: 0,0:07:12.32,0:07:14.08,Default,,0,0,0,,Quoi ? Un million de yens ?
+Dialogue: 0,0:07:17.24,0:07:18.28,Default,,0,0,0,,Pardonnez-le...
+Dialogue: 0,0:07:18.56,0:07:21.16,Default,,0,0,0,,Plusieurs millions, même,\Npour être exact.
+Dialogue: 0,0:07:21.32,0:07:24.36,Default,,0,0,0,,Car certaines grandes toiles\Nfrôlent les 10 millions.
+Dialogue: 0,0:07:26.24,0:07:29.76,Default,,0,0,0,,Dans ce cas, la piste du vol\Nest aussi envisageable.
+Dialogue: 0,0:07:30.40,0:07:31.40,Default,,0,0,0,,Ensuite,
+Dialogue: 0,0:07:32.04,0:07:35.80,Default,,0,0,0,,redites-moi où vous étiez\Nà l'heure présumée du crime,
+Dialogue: 0,0:07:36.28,0:07:38.72,Default,,0,0,0,,entre 15 h 10 et 15 h 40.
+Dialogue: 0,0:07:40.32,0:07:42.60,Default,,0,0,0,,Je suis resté chez moi jusqu'à 15 h,
+Dialogue: 0,0:07:42.76,0:07:46.36,Default,,0,0,0,,puis je suis sorti en voiture\Npour venir jusqu'ici.
+Dialogue: 0,0:07:46.84,0:07:51.36,Default,,0,0,0,,Moi, je suis sortie avant midi\Ndéjeuner au grand magasin de Beika.
+Dialogue: 0,0:07:51.52,0:07:54.36,Default,,0,0,0,,Puis j'ai fait un tour\Ndans deux autres centres.
+Dialogue: 0,0:07:54.84,0:07:58.60,Default,,0,0,0,,Moi, j'étais dans le train\Nqui mène du lac Okuho à Beika.
+Dialogue: 0,0:07:59.96,0:08:02.92,Default,,0,0,0,,Quant à moi,\Nje suis sortie un peu avant 15 h
+Dialogue: 0,0:08:03.08,0:08:05.76,Default,,0,0,0,,faire des courses\Nau supermarché près d'ici.
+Dialogue: 0,0:08:06.28,0:08:09.64,Default,,0,0,0,,Je suis rentrée 5 minutes\Navant que M. Higashio arrive.
+Dialogue: 0,0:08:10.04,0:08:11.16,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:08:11.32,0:08:14.88,Default,,0,0,0,,Et pouvez-vous\Nme présenter quelque chose ou quelqu'un
+Dialogue: 0,0:08:15.04,0:08:17.24,Default,,0,0,0,,en mesure de prouver votre alibi ?
+Dialogue: 0,0:08:17.72,0:08:18.52,Default,,0,0,0,,Prouver...
+Dialogue: 0,0:08:18.88,0:08:19.96,Default,,0,0,0,,Notre alibi ?
+Dialogue: 0,0:08:20.36,0:08:22.48,Default,,0,0,0,,Un alibi... Facile à dire...
+Dialogue: 0,0:08:23.44,0:08:24.88,Default,,0,0,0,,Hé, je te reconnais !
+Dialogue: 0,0:08:25.04,0:08:27.76,Default,,0,0,0,,Eh oui !\NVous avez déjà terminé votre toile ?
+Dialogue: 0,0:08:27.92,0:08:32.00,Default,,0,0,0,,Exact, c'est à cause d'elle\Nque je suis arrivé en retard ici.
+Dialogue: 0,0:08:32.16,0:08:35.92,Default,,0,0,0,,Je peux la prendre en photo\Npour la montrer aux autres ?
+Dialogue: 0,0:08:36.40,0:08:37.80,Default,,0,0,0,,Bien sûr !
+Dialogue: 0,0:08:38.16,0:08:38.96,Default,,0,0,0,,Mais oui !
+Dialogue: 0,0:08:39.36,0:08:40.64,Default,,0,0,0,,En parlant de photo !
+Dialogue: 0,0:08:41.76,0:08:45.56,Default,,0,0,0,,Inspecteur ! J'ai pris celle-ci\Nà la gare du lac Okuho.
+Dialogue: 0,0:08:46.00,0:08:47.52,Default,,0,0,0,,Est-ce que c'est une preuve ?
+Dialogue: 0,0:08:49.20,0:08:52.96,Default,,0,0,0,,C'est vrai qu'on voit\Nqu'elle a été prise là-bas...
+Dialogue: 0,0:08:53.12,0:08:57.08,Default,,0,0,0,,Mais il aurait fallu voir l'heure\Npour valider l'alibi.
+Dialogue: 0,0:08:57.40,0:08:58.64,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:08:58.96,0:09:00.96,Default,,0,0,0,,Je peux la voir aussi ?
+Dialogue: 0,0:09:01.12,0:09:02.24,Default,,0,0,0,,Si tu veux.
+Dialogue: 0,0:09:05.64,0:09:08.32,Default,,0,0,0,,Tiens ? Regardez un peu ça !
+Dialogue: 0,0:09:09.92,0:09:13.44,Default,,0,0,0,,Le tableau des départs\Nderrière M. Nishiyama !
+Dialogue: 0,0:09:13.80,0:09:16.12,Default,,0,0,0,,Il suffit d'agrandir la photo...\NEt hop !
+Dialogue: 0,0:09:17.20,0:09:18.84,Default,,0,0,0,,Ah ! Voilà !
+Dialogue: 0,0:09:19.00,0:09:22.32,Default,,0,0,0,,C'est ce train de 14 h 02\Nque j'ai pris pour rentrer !
+Dialogue: 0,0:09:22.80,0:09:25.16,Default,,0,0,0,,Et de la gare du lac Okuho à ici...
+Dialogue: 0,0:09:25.32,0:09:28.24,Default,,0,0,0,,Le trajet dure près de 2 heures.
+Dialogue: 0,0:09:28.40,0:09:30.56,Default,,0,0,0,,Votre alibi semble recevable.
+Dialogue: 0,0:09:32.20,0:09:32.96,Default,,0,0,0,,En tout cas,
+Dialogue: 0,0:09:33.36,0:09:37.00,Default,,0,0,0,,nous enquêterons en gardant\Nl'éventualité d'un vol en tête.
+Dialogue: 0,0:09:37.48,0:09:38.32,Default,,0,0,0,,Néanmoins,
+Dialogue: 0,0:09:38.72,0:09:42.32,Default,,0,0,0,,nous vérifierons votre alibi à tous.
+Dialogue: 0,0:09:43.20,0:09:45.36,Default,,0,0,0,,Je compte sur votre collaboration.
+Dialogue: 0,0:09:51.16,0:09:54.48,Default,,0,0,0,,Dire que je dois me farcir\Nquatre enfants en bonus...
+Dialogue: 0,0:09:54.64,0:09:56.44,Default,,0,0,0,,C'est pas gentil de dire ça !
+Dialogue: 0,0:09:56.60,0:09:59.88,Default,,0,0,0,,On vous donne un coup de main\Npour votre enquête !
+Dialogue: 0,0:10:00.04,0:10:03.32,Default,,0,0,0,,Et on se souvient bien\Nde quand on a servi de modèles !
+Dialogue: 0,0:10:03.84,0:10:06.52,Default,,0,0,0,,Enfin, avec la toile\Net la photo de la gare,
+Dialogue: 0,0:10:06.68,0:10:11.12,Default,,0,0,0,,l'alibi de M. Nishiyama est quasi sûr,\Nl'enquête sera vite terminée.
+Dialogue: 0,0:10:11.28,0:10:13.44,Default,,0,0,0,,C'est vrai, mais quand même...
+Dialogue: 0,0:10:16.00,0:10:18.12,Default,,0,0,0,,Franchement, vous auriez pu prévenir !
+Dialogue: 0,0:10:18.36,0:10:19.80,Default,,0,0,0,,Merci de collaborer.
+Dialogue: 0,0:10:20.32,0:10:22.24,Default,,0,0,0,,C'est à quel sujet ?
+Dialogue: 0,0:10:22.40,0:10:24.64,Default,,0,0,0,,Nous avons enquêté à Mitsuboshi
+Dialogue: 0,0:10:24.80,0:10:26.72,Default,,0,0,0,,et Marukawa, aujourd'hui.
+Dialogue: 0,0:10:27.16,0:10:30.84,Default,,0,0,0,,Vous disiez y être allée,\Nmais nous n'avons trouvé personne
+Dialogue: 0,0:10:31.52,0:10:34.72,Default,,0,0,0,,qui puisse témoigner vous y avoir vue.
+Dialogue: 0,0:10:35.12,0:10:38.12,Default,,0,0,0,,Nous avons également vérifié\Nla vidéosurveillance,
+Dialogue: 0,0:10:39.08,0:10:43.28,Default,,0,0,0,,mais à l'horaire du crime,\Nvous n'apparaissez sur aucune vidéo.
+Dialogue: 0,0:10:45.52,0:10:48.88,Default,,0,0,0,,Pourriez-vous me dire\Noù vous vous trouviez
+Dialogue: 0,0:10:49.72,0:10:52.56,Default,,0,0,0,,et ce que vous faisiez réellement hier,
+Dialogue: 0,0:10:52.80,0:10:54.48,Default,,0,0,0,,entre midi et 16 h ?
+Dialogue: 0,0:10:56.28,0:10:59.64,Default,,0,0,0,,{\i1}Gare d'Aohata !\NCorrespondance pour le lac d'Okuho...{\i0}
+Dialogue: 0,0:10:59.84,0:11:01.92,Default,,0,0,0,,- Regardez !\N- Y a plein de montagnes !
+Dialogue: 0,0:11:05.52,0:11:07.64,Default,,0,0,0,,Oui ? À qui ai-je l'honneur ?
+Dialogue: 0,0:11:09.48,0:11:10.32,Default,,0,0,0,,M. Higashio.
+Dialogue: 0,0:11:10.48,0:11:14.44,Default,,0,0,0,,Vous disiez être\Ndans votre appartement à 13 h, hier.
+Dialogue: 0,0:11:15.16,0:11:19.72,Default,,0,0,0,,Mais le livreur affirme ne pas avoir eu\Nde réponse quand il a sonné.
+Dialogue: 0,0:11:20.44,0:11:22.92,Default,,0,0,0,,Bien sûr que si que j'étais là !
+Dialogue: 0,0:11:23.08,0:11:26.64,Default,,0,0,0,,Mais comme je n'aime pas\Nme montrer en pyjama,
+Dialogue: 0,0:11:26.80,0:11:28.00,Default,,0,0,0,,je n'ai pas répondu.
+Dialogue: 0,0:11:28.16,0:11:29.16,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:11:29.60,0:11:33.28,Default,,0,0,0,,Dans ce cas, j'aimerais\Nvous interroger plus en détail.
+Dialogue: 0,0:11:33.88,0:11:35.44,Default,,0,0,0,,Vous me suivez au poste ?
+Dialogue: 0,0:11:37.44,0:11:39.80,Default,,0,0,0,,GARE DU LAC OKUHO
+Dialogue: 0,0:11:40.40,0:11:42.56,Default,,0,0,0,,Vous voyez ?\NC'est comme on avait dit !
+Dialogue: 0,0:11:43.08,0:11:45.32,Default,,0,0,0,,Le tableau des départs a changé
+Dialogue: 0,0:11:45.48,0:11:48.20,Default,,0,0,0,,au moment même où le train a démarré !
+Dialogue: 0,0:11:48.36,0:11:52.00,Default,,0,0,0,,Il ne pouvait donc monter\Nque dans le train de 14 h 02 !
+Dialogue: 0,0:11:52.16,0:11:54.40,Default,,0,0,0,,Même l'agent de gare l'a dit !
+Dialogue: 0,0:11:54.88,0:11:57.64,Default,,0,0,0,,{\i1}Dites, monsieur,\Nvous savez quand change{\i0}
+Dialogue: 0,0:11:58.00,0:12:00.20,Default,,0,0,0,,{\i1}l'affichage du tableau des départs ?{\i0}
+Dialogue: 0,0:12:00.76,0:12:05.64,Default,,0,0,0,,{\i1}Il change automatiquement dès l'heure\Ndu départ du train précédent.{\i0}
+Dialogue: 0,0:12:05.80,0:12:09.88,Default,,0,0,0,,{\i1}Il faut dire que le trafic japonais\Nest le meilleur au monde.{\i0}
+Dialogue: 0,0:12:10.44,0:12:13.20,Default,,0,0,0,,Celui qui a peint ce tableau\Nest quelqu'un de bien.
+Dialogue: 0,0:12:13.48,0:12:15.28,Default,,0,0,0,,C'est compris, inspecteur Takagi ?
+Dialogue: 0,0:12:19.24,0:12:21.60,Default,,0,0,0,,- Takagi à l'appareil.\N{\i1}- C'est moi.{\i0}
+Dialogue: 0,0:12:22.32,0:12:24.84,Default,,0,0,0,,{\i1}- Tu es où, là ?{\i0}\N- Alors...
+Dialogue: 0,0:12:26.80,0:12:30.36,Default,,0,0,0,,Excusez-moi, inspecteur.\NJe viens d'arriver au lac Okuho.
+Dialogue: 0,0:12:30.72,0:12:35.08,Default,,0,0,0,,Je vois. On a pu vérifier\Nl'alibi de la domestique.
+Dialogue: 0,0:12:35.24,0:12:37.88,Default,,0,0,0,,Quant à l'épouse, on a découvert
+Dialogue: 0,0:12:38.04,0:12:41.24,Default,,0,0,0,,qu'elle voyait son gigolo\Nà l'heure du crime.
+Dialogue: 0,0:12:41.80,0:12:45.72,Default,,0,0,0,,Ne reste plus qu'à confirmer\Npour MM. Higashio et Nishiyama.
+Dialogue: 0,0:12:46.24,0:12:50.16,Default,,0,0,0,,Entendu. Je vous recontacte\Ndès que j'ai du nouveau.
+Dialogue: 0,0:12:51.84,0:12:54.36,Default,,0,0,0,,C'est là-bas qu'il nous a peints.
+Dialogue: 0,0:12:55.12,0:12:57.44,Default,,0,0,0,,Voilà ! C'est ici !
+Dialogue: 0,0:12:58.40,0:12:59.60,Default,,0,0,0,,Voyons voir.
+Dialogue: 0,0:13:01.00,0:13:03.24,Default,,0,0,0,,En effet, c'est exactement pareil.
+Dialogue: 0,0:13:03.64,0:13:07.52,Default,,0,0,0,,Normal, vu qu'il ne s'est passé\Nqu'une journée !
+Dialogue: 0,0:13:07.68,0:13:10.56,Default,,0,0,0,,Et ce n'est pas en un jour\Nque tu vas maigrir
+Dialogue: 0,0:13:10.72,0:13:13.80,Default,,0,0,0,,ou que Conan risque de grandir !
+Dialogue: 0,0:13:15.08,0:13:18.24,Default,,0,0,0,,À ce propos,\Nun truc m'intrigue depuis hier.
+Dialogue: 0,0:13:18.40,0:13:21.20,Default,,0,0,0,,Comment en êtes-vous arrivés à poser ?
+Dialogue: 0,0:13:21.72,0:13:24.16,Default,,0,0,0,,En fait, il y avait un chien ici.
+Dialogue: 0,0:13:27.52,0:13:28.88,Default,,0,0,0,,{\i1}Il est trop mimi !{\i0}
+Dialogue: 0,0:13:29.72,0:13:30.96,Default,,0,0,0,,{\i1}Comment tu t'appelles ?{\i0}
+Dialogue: 0,0:13:32.52,0:13:34.00,Default,,0,0,0,,{\i1}Vous êtes en école primaire ?{\i0}
+Dialogue: 0,0:13:34.16,0:13:34.84,Default,,0,0,0,,{\i1}Exact !{\i0}
+Dialogue: 0,0:13:35.12,0:13:37.44,Default,,0,0,0,,{\i1}On est en CP à l'école Teitan !{\i0}
+Dialogue: 0,0:13:38.08,0:13:40.08,Default,,0,0,0,,{\i1}Vous faites une excursion ?{\i0}
+Dialogue: 0,0:13:40.72,0:13:42.88,Default,,0,0,0,,{\i1}Ça vous dirait de me servir de modèles ?{\i0}
+Dialogue: 0,0:13:43.96,0:13:46.64,Default,,0,0,0,,Je vois.\NÇa s'est donc passé comme ça...
+Dialogue: 0,0:13:46.84,0:13:50.16,Default,,0,0,0,,Vous avez compris ?\NNous témoignons tous les quatre
+Dialogue: 0,0:13:50.72,0:13:52.60,Default,,0,0,0,,de l'alibi de cet homme !
+Dialogue: 0,0:13:54.12,0:13:55.36,Default,,0,0,0,,D'accord, d'accord.
+Dialogue: 0,0:13:56.12,0:13:59.40,Default,,0,0,0,,Bon, maintenant que c'est vérifié,\Non va rentrer.
+Dialogue: 0,0:14:00.32,0:14:03.08,Default,,0,0,0,,On repart déjà\Naprès avoir fait tout ce chemin ?
+Dialogue: 0,0:14:03.48,0:14:05.28,Default,,0,0,0,,Amusons-nous encore un peu !
+Dialogue: 0,0:14:05.64,0:14:09.08,Default,,0,0,0,,Pas question !\NOn n'est pas venus ici pour ça !
+Dialogue: 0,0:14:12.32,0:14:13.04,Default,,0,0,0,,PRÉCÉDENT : 12 h 35\NSUIVANT : 13 h 17
+Dialogue: 0,0:14:13.08,0:14:14.92,Default,,0,0,0,,PRÉCÉDENT : 13 h 17\NSUIVANT : 14 h 02
+Dialogue: 0,0:14:15.68,0:14:18.40,Default,,0,0,0,,Je vois... Pas d'erreur possible ?
+Dialogue: 0,0:14:18.80,0:14:21.92,Default,,0,0,0,,Non,\Nl'alibi de M. Nishiyama est confirmé.
+Dialogue: 0,0:14:22.40,0:14:24.88,Default,,0,0,0,,Ne reste plus que celui de M. Higashio.
+Dialogue: 0,0:14:25.08,0:14:27.48,Default,,0,0,0,,Satô est en train de l'interroger.
+Dialogue: 0,0:14:27.72,0:14:28.68,Default,,0,0,0,,{\i1}Très bien.{\i0}
+Dialogue: 0,0:14:31.52,0:14:35.04,Default,,0,0,0,,Je crève de faim...\NJe peux plus bouger...
+Dialogue: 0,0:14:35.20,0:14:36.96,Default,,0,0,0,,OK, j'ai compris.
+Dialogue: 0,0:14:37.12,0:14:40.44,Default,,0,0,0,,Je t'achèterai un truc\Nen attendant notre correspondance.
+Dialogue: 0,0:14:40.68,0:14:43.32,Default,,0,0,0,,Non ! Moi,\Nc'est de l'anguille que je veux !
+Dialogue: 0,0:14:43.84,0:14:47.32,Default,,0,0,0,,On est en montagne,\Nil y a sûrement de l'anguille sauvage !
+Dialogue: 0,0:14:47.88,0:14:50.48,Default,,0,0,0,,De l'anguille sauvage, hein...
+Dialogue: 0,0:14:51.04,0:14:53.56,Default,,0,0,0,,Eh ben, j'en ai de la chance !
+Dialogue: 0,0:14:54.16,0:14:58.72,Default,,0,0,0,,Me faire cuisiner\Npar une jolie inspectrice comme vous...
+Dialogue: 0,0:15:02.08,0:15:04.44,Default,,0,0,0,,Dépêchez-vous !\NLe train va partir !
+Dialogue: 0,0:15:04.60,0:15:08.44,Default,,0,0,0,,Ça, ça... Non, pas ça !\NAh, mais ça, j'en veux bien !
+Dialogue: 0,0:15:19.04,0:15:21.08,Default,,0,0,0,,Pardonnez-moi !
+Dialogue: 0,0:15:21.24,0:15:23.84,Default,,0,0,0,,J'avoue ! J'ai menti !
+Dialogue: 0,0:15:24.64,0:15:26.52,Default,,0,0,0,,Attendez-moi !
+Dialogue: 0,0:15:27.08,0:15:28.64,Default,,0,0,0,,Stop ! Attendez !
+Dialogue: 0,0:15:29.88,0:15:30.96,Default,,0,0,0,,Ça va aller ?
+Dialogue: 0,0:15:31.28,0:15:33.16,Default,,0,0,0,,Merci bien, jeune homme !
+Dialogue: 0,0:15:36.88,0:15:38.08,Default,,0,0,0,,Inspecteur ! Regardez !
+Dialogue: 0,0:15:41.84,0:15:42.64,Default,,0,0,0,,Mais...
+Dialogue: 0,0:15:47.64,0:15:50.12,Default,,0,0,0,,Dites ! Pourquoi on fait demi-tour ?
+Dialogue: 0,0:15:50.28,0:15:52.00,Default,,0,0,0,,On repart s'amuser ?
+Dialogue: 0,0:15:52.40,0:15:56.36,Default,,0,0,0,,Non. Je dois y retourner\Npour vérifier autre chose.
+Dialogue: 0,0:15:56.52,0:15:59.64,Default,,0,0,0,,"Vérifier autre chose" ?\NVraiment ?
+Dialogue: 0,0:16:00.04,0:16:01.52,Default,,0,0,0,,Tu n'as pas remarqué ?
+Dialogue: 0,0:16:01.80,0:16:02.92,Default,,0,0,0,,De quoi tu parles ?
+Dialogue: 0,0:16:03.12,0:16:06.04,Default,,0,0,0,,Le tableau des départs\Nde la gare d'Aohata
+Dialogue: 0,0:16:06.20,0:16:09.48,Default,,0,0,0,,a changé alors que le train\Nn'était pas parti.
+Dialogue: 0,0:16:10.68,0:16:13.96,Default,,0,0,0,,Donc, s'il s'est passé la même chose\Nquand M. Nishiyama
+Dialogue: 0,0:16:14.12,0:16:16.00,Default,,0,0,0,,a pris sa photo,
+Dialogue: 0,0:16:17.16,0:16:21.28,Default,,0,0,0,,ça revient à dire\Nqu'il a pu prendre le train précédent.
+Dialogue: 0,0:16:24.56,0:16:26.00,Default,,0,0,0,,Oui. Takagi à l'appareil.
+Dialogue: 0,0:16:26.56,0:16:29.20,Default,,0,0,0,,L'alibi de M. Higashio est confirmé.
+Dialogue: 0,0:16:29.60,0:16:32.96,Default,,0,0,0,,{\i1}À l'heure du crime,\Nil se trouvait avec une femme mariée.{\i0}
+Dialogue: 0,0:16:33.40,0:16:35.64,Default,,0,0,0,,Un intrus n'aurait pas pu\Nfaire le coup ?
+Dialogue: 0,0:16:36.04,0:16:37.36,Default,,0,0,0,,Justement, à ce sujet...
+Dialogue: 0,0:16:37.52,0:16:42.12,Default,,0,0,0,,La police judiciaire n'a décelé\Naucune trace d'effraction.
+Dialogue: 0,0:16:44.60,0:16:46.28,Default,,0,0,0,,Quoi ? Hier ?
+Dialogue: 0,0:16:46.64,0:16:50.00,Default,,0,0,0,,Oui.\NAucun train n'est parti en retard ?
+Dialogue: 0,0:16:50.16,0:16:52.00,Default,,0,0,0,,Si, il y en a eu un.
+Dialogue: 0,0:16:52.32,0:16:53.88,Default,,0,0,0,,Celui de quelle heure ?
+Dialogue: 0,0:16:54.36,0:16:57.68,Default,,0,0,0,,Le train de 13 h 17\Nà destination de la gare d'Aohata.
+Dialogue: 0,0:16:57.84,0:16:59.16,Default,,0,0,0,,Pour quelle raison ?
+Dialogue: 0,0:16:59.32,0:17:03.00,Default,,0,0,0,,Normalement,\Nle train devait partir à l'heure,
+Dialogue: 0,0:17:03.16,0:17:06.12,Default,,0,0,0,,mais le premier passage à niveau\Nne s'abaissant pas,
+Dialogue: 0,0:17:06.52,0:17:11.04,Default,,0,0,0,,le conducteur de train a réalisé\Nqu'on avait vandalisé la barrière.
+Dialogue: 0,0:17:11.40,0:17:15.68,Default,,0,0,0,,Vous nous avez dit\Nque le tableau changeait automatiquement
+Dialogue: 0,0:17:15.84,0:17:18.32,Default,,0,0,0,,après le départ du train précédent.
+Dialogue: 0,0:17:18.48,0:17:20.64,Default,,0,0,0,,Ça signifie donc que le tableau
+Dialogue: 0,0:17:20.80,0:17:23.84,Default,,0,0,0,,a affiché 14 h 02 pendant le retard ?
+Dialogue: 0,0:17:24.00,0:17:25.32,Default,,0,0,0,,Oui, c'est bien ça.
+Dialogue: 0,0:17:25.76,0:17:27.76,Default,,0,0,0,,Dans ce cas, vous pouvez regarder
+Dialogue: 0,0:17:27.92,0:17:31.04,Default,,0,0,0,,à quelle heure ce train\Nest arrivé en gare d'Aohata ?
+Dialogue: 0,0:17:31.96,0:17:33.12,Default,,0,0,0,,Voyons voir...
+Dialogue: 0,0:17:33.72,0:17:35.44,Default,,0,0,0,,Il est parti 5 minutes en retard,
+Dialogue: 0,0:17:35.96,0:17:38.16,Default,,0,0,0,,mais a récupéré un peu en route,
+Dialogue: 0,0:17:38.32,0:17:42.52,Default,,0,0,0,,pour arriver à 13 h 53\Nau lieu des 13 h 50 prévues.
+Dialogue: 0,0:17:42.68,0:17:44.56,Default,,0,0,0,,Où veux-tu en venir ?
+Dialogue: 0,0:17:45.08,0:17:48.16,Default,,0,0,0,,En arrivant à 13 h 53 en gare d'Aohata,
+Dialogue: 0,0:17:48.40,0:17:51.56,Default,,0,0,0,,on peut attraper\Nle train express de 13 h 55 !
+Dialogue: 0,0:17:52.16,0:17:53.60,Default,,0,0,0,,Mais il reste un problème...
+Dialogue: 0,0:17:56.20,0:17:57.72,Default,,0,0,0,,C'est identique...
+Dialogue: 0,0:17:58.36,0:18:01.64,Default,,0,0,0,,Pas d'erreur possible.\NIl a peint sa toile ici.
+Dialogue: 0,0:18:02.00,0:18:05.56,Default,,0,0,0,,Pourtant, c'est vers 11 h\Nqu'on a rencontré M. Nishiyama.
+Dialogue: 0,0:18:06.00,0:18:08.20,Default,,0,0,0,,En commençant à peindre\Nà cette heure-là,
+Dialogue: 0,0:18:08.36,0:18:11.84,Default,,0,0,0,,impossible de réaliser un tel tableau\Nen à peine 2 heures
+Dialogue: 0,0:18:12.36,0:18:14.44,Default,,0,0,0,,pour monter dans le train de 13 h 17.
+Dialogue: 0,0:18:15.12,0:18:16.60,Default,,0,0,0,,Tiens ? C'est quoi, ça ?
+Dialogue: 0,0:18:17.04,0:18:20.16,Default,,0,0,0,,C'est sûrement\Nun mauvais coup de pinceau.
+Dialogue: 0,0:18:24.24,0:18:25.84,Default,,0,0,0,,C'est le toutou d'hier !
+Dialogue: 0,0:18:26.28,0:18:30.00,Default,,0,0,0,,Monsieur. Vous aviez accroché\Nce chien à l'arbre, hier ?
+Dialogue: 0,0:18:30.32,0:18:33.36,Default,,0,0,0,,Oui, j'étais parti pêcher en dessous.
+Dialogue: 0,0:18:33.52,0:18:35.12,Default,,0,0,0,,Ça mord bien.
+Dialogue: 0,0:18:35.56,0:18:37.76,Default,,0,0,0,,Vous habitez près d'ici ?
+Dialogue: 0,0:18:37.92,0:18:38.80,Default,,0,0,0,,Oui.
+Dialogue: 0,0:18:39.00,0:18:41.76,Default,,0,0,0,,En fait, on aimerait\Nvous montrer quelque chose.
+Dialogue: 0,0:18:42.64,0:18:45.76,Default,,0,0,0,,Vous savez ce qui est peint ici ?
+Dialogue: 0,0:18:46.12,0:18:49.12,Default,,0,0,0,,Oui. Des rubans d'interdiction d'accès.
+Dialogue: 0,0:18:49.28,0:18:50.52,Default,,0,0,0,,Pourquoi y en a-t-il ?
+Dialogue: 0,0:18:50.96,0:18:54.08,Default,,0,0,0,,Les employés de mairie\Nont abattu un arbre mort
+Dialogue: 0,0:18:54.24,0:18:56.52,Default,,0,0,0,,qui risquait de tomber,\Nla semaine dernière.
+Dialogue: 0,0:18:56.84,0:18:58.16,Default,,0,0,0,,La semaine dernière ?
+Dialogue: 0,0:18:58.64,0:19:02.04,Default,,0,0,0,,Vers quelle heure\Navez-vous rentré votre chien, hier ?
+Dialogue: 0,0:19:02.48,0:19:06.28,Default,,0,0,0,,Il devait être 12 h 30,\Nvu que je suis rentré déjeuner.
+Dialogue: 0,0:19:06.44,0:19:09.28,Default,,0,0,0,,Et quelqu'un peignait ici,\Nn'est-ce pas ?
+Dialogue: 0,0:19:09.44,0:19:12.00,Default,,0,0,0,,Non, je n'ai vu personne peindre.
+Dialogue: 0,0:19:12.96,0:19:14.36,Default,,0,0,0,,Il n'était plus là ?
+Dialogue: 0,0:19:14.76,0:19:15.96,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:19:18.52,0:19:20.52,Default,,0,0,0,,Merci beaucoup, monsieur.
+Dialogue: 0,0:19:22.40,0:19:24.64,Default,,0,0,0,,L'affaire est résolue,\Ninspecteur Takagi.
+Dialogue: 0,0:19:25.12,0:19:25.84,Default,,0,0,0,,Oui.
+Dialogue: 0,0:19:26.96,0:19:27.92,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:19:28.08,0:19:30.28,Default,,0,0,0,,L'alibi de M. Nishiyama s'est effondré ?
+Dialogue: 0,0:19:31.80,0:19:35.24,Default,,0,0,0,,Oui, et voici le stratagème\Nqu'il a utilisé...
+Dialogue: 0,0:19:35.68,0:19:40.36,Default,,0,0,0,,Pour commencer, il a peint son tableau\Nla semaine dernière.
+Dialogue: 0,0:19:40.56,0:19:43.72,Default,,0,0,0,,Seulement, ça ne suffisait pas\Nà établir son alibi.
+Dialogue: 0,0:19:44.40,0:19:47.56,Default,,0,0,0,,Il nous a donc demandé\Nde lui servir de modèles
+Dialogue: 0,0:19:48.04,0:19:51.24,Default,,0,0,0,,et nous a ajoutés hier\Nau paysage déjà peint.
+Dialogue: 0,0:19:51.76,0:19:55.56,Default,,0,0,0,,Seulement, il avait peint une chose\Nqui ne devait plus être là.
+Dialogue: 0,0:19:56.00,0:19:59.52,Default,,0,0,0,,{\i1}L'arbre qui avait été abattu\Nla semaine dernière.{\i0}
+Dialogue: 0,0:20:00.52,0:20:03.40,Default,,0,0,0,,Ensuite,\NM. Nishiyama a regagné la gare,
+Dialogue: 0,0:20:03.56,0:20:06.76,Default,,0,0,0,,trafiqué la barrière\Npour retarder le train...
+Dialogue: 0,0:20:07.32,0:20:10.92,Default,,0,0,0,,... et attendu que le tableau change\Npour le photographier.
+Dialogue: 0,0:20:12.24,0:20:13.52,Default,,0,0,0,,{\i1}Mais comme en réalité,{\i0}
+Dialogue: 0,0:20:14.04,0:20:16.40,Default,,0,0,0,,{\i1}il est monté dans le train de 13 h 17...{\i0}
+Dialogue: 0,0:20:16.56,0:20:21.24,Default,,0,0,0,,{\i1}... il a pu attraper le train express\Nde 13 h 55 en gare d'Aohata !{\i0}
+Dialogue: 0,0:20:21.72,0:20:24.20,Default,,0,0,0,,Et en prenant ce train,\Nil devait pouvoir
+Dialogue: 0,0:20:24.72,0:20:26.92,Default,,0,0,0,,{\i1}arriver à l'atelier\Npour l'heure du crime.{\i0}
+Dialogue: 0,0:20:27.96,0:20:29.76,Default,,0,0,0,,J'ignore le mobile,
+Dialogue: 0,0:20:30.24,0:20:32.96,Default,,0,0,0,,mais pour avoir manigancé tout ça\Nau préalable,
+Dialogue: 0,0:20:34.12,0:20:36.96,Default,,0,0,0,,celui qui a tué Seihô Kitasono
+Dialogue: 0,0:20:37.48,0:20:40.08,Default,,0,0,0,,ne peut être que Daiki Nishiyama.
+Dialogue: 0,0:20:44.92,0:20:48.08,Default,,0,0,0,,Non... Je ne suis pas en tort !
+Dialogue: 0,0:20:48.76,0:20:49.72,Default,,0,0,0,,C'est le maître...
+Dialogue: 0,0:20:50.12,0:20:51.16,Default,,0,0,0,,C'est lui...
+Dialogue: 0,0:20:51.88,0:20:53.72,Default,,0,0,0,,C'est l'unique fautif !
+Dialogue: 0,0:20:55.28,0:20:59.72,Default,,0,0,0,,Il réclamait de l'argent\Npour sélectionner des œuvres.
+Dialogue: 0,0:21:00.72,0:21:02.68,Default,,0,0,0,,Mais comme je n'en avais pas,
+Dialogue: 0,0:21:03.08,0:21:05.28,Default,,0,0,0,,j'étais recalé à chaque fois !
+Dialogue: 0,0:21:05.44,0:21:09.88,Default,,0,0,0,,M. Nishiyama.\NPourquoi êtes-vous devenu peintre ?
+Dialogue: 0,0:21:10.96,0:21:13.12,Default,,0,0,0,,Parce que vous aimiez peindre
+Dialogue: 0,0:21:13.60,0:21:17.32,Default,,0,0,0,,et pour le sourire\Ndes enfants émerveillés
+Dialogue: 0,0:21:17.48,0:21:19.32,Default,,0,0,0,,par vos toiles, non ?
+Dialogue: 0,0:21:20.64,0:21:22.00,Default,,0,0,0,,Seulement,
+Dialogue: 0,0:21:22.16,0:21:24.88,Default,,0,0,0,,vous avez trahi ces enfants\Nchoisis comme modèles,
+Dialogue: 0,0:21:25.40,0:21:27.56,Default,,0,0,0,,trompé ceux qui ont vu votre toile
+Dialogue: 0,0:21:27.72,0:21:30.64,Default,,0,0,0,,et utilisé votre œuvre\Npour un acte ignoble.
+Dialogue: 0,0:21:31.16,0:21:34.88,Default,,0,0,0,,C'est pour cette raison\Nque vous avez été trahi à votre tour
+Dialogue: 0,0:21:35.24,0:21:37.72,Default,,0,0,0,,par une de ces toiles que vous adoriez.
+Dialogue: 0,0:21:53.16,0:21:55.68,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:56.00,0:21:58.52,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:23:04.20,0:23:07.12,Default,,0,0,0,,C'est pas juste !\NGenta a eu une glace !
+Dialogue: 0,0:23:07.60,0:23:10.44,Default,,0,0,0,,Vous n'avez demandé qu'une boisson !
+Dialogue: 0,0:23:10.60,0:23:12.80,Default,,0,0,0,,Et personne n'a parlé de glace !
+Dialogue: 0,0:23:12.96,0:23:15.84,Default,,0,0,0,,Inspecteur Takagi !\NNous aussi, on veut une glace !
+Dialogue: 0,0:23:16.00,0:23:18.44,Default,,0,0,0,,Vous auriez pu deviner\Nqu'on en voulait !
+Dialogue: 0,0:23:18.88,0:23:21.12,Default,,0,0,0,,Je n'ai pas le choix, on dirait...
+Dialogue: 0,0:23:26.52,0:23:29.60,Default,,0,0,0,,Le trafic japonais\Nest le meilleur au monde...
+Dialogue: 0,0:23:29.76,0:23:32.84,Default,,0,0,0,,Nos glaces !

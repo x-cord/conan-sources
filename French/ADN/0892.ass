@@ -1,0 +1,363 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.64,0:00:05.61,Default,,0,0,0,,{\i1}Un certain Komakichi Kurataya\Na écrit à tonton Kogorô{\i0}
+Dialogue: 0,0:00:06.08,0:00:08.60,Default,,0,0,0,,{\i1}pour lui céder un trésor familial.{\i0}
+Dialogue: 0,0:00:09.21,0:00:11.85,Default,,0,0,0,,{\i1}Ran et moi l'avons accompagné\Nà Yamaguchi.{\i0}
+Dialogue: 0,0:00:12.73,0:00:15.47,ST_HAUT,,0,0,0,,{\i1}Mais il est arrêté sur place,{\i0}\N{\i1}à tort,{\i0}
+Dialogue: 0,0:00:16.12,0:00:17.00,Default,,0,0,0,,{\i1}pour complicité.{\i0}
+Dialogue: 0,0:00:18.68,0:00:21.09,ST_HAUT,,0,0,0,,{\i1}En réalité, Komakichi Kurataya{\i0}
+Dialogue: 0,0:00:21.60,0:00:25.28,Default,,0,0,0,,{\i1}est le braqueur d'un butin\Nestimé à plusieurs millions.{\i0}
+Dialogue: 0,0:00:26.53,0:00:30.73,ST_HAUT,,0,0,0,,{\i1}Par chance, Asuka Natsume,{\i0}\N{\i1}journaliste d'un site de news,{\i0}
+Dialogue: 0,0:00:30.87,0:00:32.64,Default,,0,0,0,,{\i1}parvient à le faire libérer.{\i0}
+Dialogue: 0,0:00:33.47,0:00:36.12,Default,,0,0,0,,{\i1}Elle s'avère aussi être l'auteur{\i0}
+Dialogue: 0,0:00:36.28,0:00:39.43,Default,,0,0,0,,{\i1}de la lettre signée Komakichi Kurataya.{\i0}
+Dialogue: 0,0:00:40.88,0:00:43.32,Default,,0,0,0,,{\i1}Elle désirait en fait que tonton{\i0}
+Dialogue: 0,0:00:43.48,0:00:46.28,ST_HAUT,,0,0,0,,{\i1}enquête en secret sur le braquage.{\i0}
+Dialogue: 0,0:00:48.72,0:00:50.32,Default,,0,0,0,,{\i1}À la recherche d'une piste,{\i0}
+Dialogue: 0,0:00:50.60,0:00:52.48,Default,,0,0,0,,{\i1}nous avons donc quitté Yamaguchi{\i0}
+Dialogue: 0,0:00:52.65,0:00:54.32,Default,,0,0,0,,{\i1}pour la ville de Hagi...{\i0}
+Dialogue: 0,0:00:57.01,0:00:58.76,Default,,0,0,0,,{\i1}La vue est belle d'ici !{\i0}
+Dialogue: 0,0:01:01.17,0:01:01.73,Default,,0,0,0,,{\i1}OK !{\i0}
+Dialogue: 0,0:01:02.60,0:01:03.57,Default,,0,0,0,,{\i1}Ran ! Baisse-toi !{\i0}
+Dialogue: 0,0:01:04.48,0:01:06.24,Default,,0,0,0,,{\i1}Ne touchez à rien !{\i0}
+Dialogue: 0,0:01:08.40,0:01:09.64,Default,,0,0,0,,{\i1}Hé ! À quoi tu...{\i0}
+Dialogue: 0,0:01:13.11,0:01:15.20,Default,,0,0,0,,{\i1}Derrière le pousse-pousse !{\i0}
+Dialogue: 0,0:01:15.80,0:01:17.41,Default,,0,0,0,,{\i1}Que se passe-t-il ?{\i0}
+Dialogue: 0,0:01:18.68,0:01:19.85,Default,,0,0,0,,{\i1}Tu n'as rien, Ran ?{\i0}
+Dialogue: 0,0:01:20.04,0:01:20.65,Default,,0,0,0,,{\i1}Non...{\i0}
+Dialogue: 0,0:01:21.11,0:01:22.11,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:01:22.43,0:01:25.16,Default,,0,0,0,,Komakichi Kurataya\Nen aurait après la vie
+Dialogue: 0,0:01:26.64,0:01:27.65,Default,,0,0,0,,de tonton ?
+Dialogue: 0,0:01:29.00,0:01:30.53,Default,,0,0,0,,{\i1}Un rayon de soleil\Nm'annonce le matin !{\i0}
+Dialogue: 0,0:01:30.95,0:01:32.53,Default,,0,0,0,,{\i1}Le samedi, c'est amour et enquête !{\i0}
+Dialogue: 0,0:01:33.08,0:01:34.36,Default,,0,0,0,,{\i1}Le revolver menaçant{\i0}
+Dialogue: 0,0:01:35.00,0:01:36.84,Default,,0,0,0,,{\i1}nous mènera-t-il au trésor ?{\i0}
+Dialogue: 0,0:01:37.32,0:01:41.01,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:41.16,0:01:43.84,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:46.87,0:01:50.33,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:53.84,0:01:56.43,Default,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:01:56.60,0:01:59.17,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:00.28,0:02:02.64,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:15.08,0:02:18.11,Default,,0,0,0,,Générique d'ouverture :\N"Everything OK!!"
+Dialogue: 0,0:02:18.68,0:02:21.20,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:23.20,0:02:25.68,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:27.68,0:02:30.28,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:02:39.60,0:02:41.95,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:04.11,0:03:07.11,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:13.72,0:03:17.36,Default,,0,0,0,,{\i1}"Le mystérieux tour Bakumatsu-Ishin,\N2e partie : Hagi" !{\i0}
+Dialogue: 0,0:03:27.40,0:03:28.72,Default,,0,0,0,,Papa, attends !
+Dialogue: 0,0:03:29.11,0:03:32.40,Default,,0,0,0,,Chiotte !\NC'est pas le moment de moisir ici !
+Dialogue: 0,0:03:32.56,0:03:33.76,Default,,0,0,0,,Mais où tu vas ?
+Dialogue: 0,0:03:34.80,0:03:36.60,Default,,0,0,0,,Et ta déposition ?
+Dialogue: 0,0:03:37.28,0:03:39.52,Default,,0,0,0,,C'était pour rassurer Asuka
+Dialogue: 0,0:03:39.95,0:03:43.36,Default,,0,0,0,,que j'ai tourné cette vidéo\Npour son site.
+Dialogue: 0,0:03:43.76,0:03:46.84,Default,,0,0,0,,Seulement, je n'ai fait\Nqu'attiser le coupable.
+Dialogue: 0,0:03:47.43,0:03:48.36,Default,,0,0,0,,Mais alors...
+Dialogue: 0,0:03:48.76,0:03:52.32,Default,,0,0,0,,Oui. Asuka pourrait\Nêtre en danger, elle aussi.
+Dialogue: 0,0:03:53.47,0:03:56.87,Default,,0,0,0,,Ran !\NIl faut la prévenir au plus vite !
+Dialogue: 0,0:03:57.04,0:03:58.04,Default,,0,0,0,,D'accord...
+Dialogue: 0,0:04:03.76,0:04:06.23,Default,,0,0,0,,- Allô ? Asuka...\N- {\i1}... n'est pas disponible...{\i0}
+Dialogue: 0,0:04:06.40,0:04:08.60,Default,,0,0,0,,Je tombe sur son répondeur.
+Dialogue: 0,0:04:08.95,0:04:11.87,Default,,0,0,0,,Allez ! On fonce à sa rencontre !
+Dialogue: 0,0:04:12.04,0:04:13.04,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:04:18.52,0:04:19.87,Default,,0,0,0,,Encore vous ?
+Dialogue: 0,0:04:21.04,0:04:22.08,Default,,0,0,0,,Où allez-vous ?
+Dialogue: 0,0:04:22.72,0:04:24.36,Default,,0,0,0,,Vous êtes visé.
+Dialogue: 0,0:04:25.36,0:04:26.43,Default,,0,0,0,,Et alors ?
+Dialogue: 0,0:04:27.08,0:04:29.28,Default,,0,0,0,,Nous assurerons votre protection.
+Dialogue: 0,0:04:29.64,0:04:31.08,Default,,0,0,0,,On va vous couvrir.
+Dialogue: 0,0:04:32.47,0:04:34.84,Default,,0,0,0,,Pas besoin de votre protection !
+Dialogue: 0,0:04:35.00,0:04:36.23,Default,,0,0,0,,Allons-y, Ran !
+Dialogue: 0,0:04:37.72,0:04:39.64,Default,,0,0,0,,Merde... Vous plaisantez...
+Dialogue: 0,0:04:41.43,0:04:43.23,Default,,0,0,0,,Restez sagement ici.
+Dialogue: 0,0:04:44.52,0:04:48.00,Default,,0,0,0,,Dis, papa...\NOn va faire comment pour Asuka ?
+Dialogue: 0,0:04:48.43,0:04:51.04,Default,,0,0,0,,Eh ben, on va guetter l'occasion...
+Dialogue: 0,0:04:51.20,0:04:52.28,Default,,0,0,0,,Inspecteur Takajô !
+Dialogue: 0,0:04:58.76,0:04:59.76,Default,,0,0,0,,Compris.
+Dialogue: 0,0:04:59.92,0:05:02.04,Default,,0,0,0,,J'appelle directement le Q.G.
+Dialogue: 0,0:05:02.32,0:05:04.04,Default,,0,0,0,,Vous, surveillez-les...
+Dialogue: 0,0:05:04.76,0:05:06.76,Default,,0,0,0,,Merde ! Détective à la manque...
+Dialogue: 0,0:05:07.43,0:05:09.64,Default,,0,0,0,,Mais cherchez-le, bon sang !
+Dialogue: 0,0:05:09.80,0:05:10.80,Default,,0,0,0,,À vos ordres !
+Dialogue: 0,0:05:14.68,0:05:15.56,ST_HAUT,,0,0,0,,FOUR À RÉVERBÈRE DE HAGI
+Dialogue: 0,0:05:15.72,0:05:17.36,ST_HAUT,,0,0,0,,Entré au patrimoine mondial,
+Dialogue: 0,0:05:17.87,0:05:22.40,ST_HAUT,,0,0,0,,voici le four à réverbère\Nde la révolution industrielle Meiji.
+Dialogue: 0,0:05:23.00,0:05:27.00,Default,,0,0,0,,{\i1}C'est un four à fusion\Nqui servait à affiner{\i0}
+Dialogue: 0,0:05:27.16,0:05:28.80,Default,,0,0,0,,{\i1}l'acier pour canons.{\i0}
+Dialogue: 0,0:05:29.36,0:05:31.28,Default,,0,0,0,,Les jeunes du fief de Chôshû
+Dialogue: 0,0:05:31.43,0:05:35.43,Default,,0,0,0,,l'ont fabriqué avec passion\Npar leurs propres moyens.
+Dialogue: 0,0:05:36.92,0:05:40.92,Default,,0,0,0,,Au final, cette ardeur\Nn'a pas porté ses fruits.
+Dialogue: 0,0:05:41.60,0:05:43.68,Default,,0,0,0,,Mais aujourd'hui encore,
+Dialogue: 0,0:05:43.84,0:05:46.23,Default,,0,0,0,,on ressent l'ardeur de ces patriotes
+Dialogue: 0,0:05:46.52,0:05:48.56,Default,,0,0,0,,défiant leurs rêves.
+Dialogue: 0,0:05:58.80,0:06:00.32,Default,,0,0,0,,{\i1}Oui ? Asuka à l'appareil.{\i0}
+Dialogue: 0,0:06:00.47,0:06:02.00,Default,,0,0,0,,Asuka ! Vous n'avez rien ?
+Dialogue: 0,0:06:02.36,0:06:04.64,Default,,0,0,0,,Quoi ? Monsieur Môri ?
+Dialogue: 0,0:06:04.80,0:06:06.76,Default,,0,0,0,,Non, je vais bien...
+Dialogue: 0,0:06:07.28,0:06:08.20,Default,,0,0,0,,Dieu merci !
+Dialogue: 0,0:06:08.36,0:06:09.56,Default,,0,0,0,,{\i1}Un problème ?{\i0}
+Dialogue: 0,0:06:11.16,0:06:15.56,Default,,0,0,0,,En fait, on m'a tiré dessus\Navec un revolver, tout à l'heure.
+Dialogue: 0,0:06:15.92,0:06:17.36,Default,,0,0,0,,Un revolver ?
+Dialogue: 0,0:06:17.72,0:06:19.16,Default,,0,0,0,,Vous n'êtes pas blessé ?
+Dialogue: 0,0:06:19.64,0:06:21.95,Default,,0,0,0,,Non, j'ai eu de la chance.
+Dialogue: 0,0:06:22.52,0:06:25.80,Default,,0,0,0,,Mais c'était sûrement\NKomakichi Kurataya.
+Dialogue: 0,0:06:26.95,0:06:29.20,Default,,0,0,0,,Komakichi Kurataya...
+Dialogue: 0,0:06:30.28,0:06:32.43,Default,,0,0,0,,Vous êtes en danger, vous aussi.
+Dialogue: 0,0:06:33.40,0:06:35.80,Default,,0,0,0,,{\i1}Vous êtes au four à réverbère ?{\i0}
+Dialogue: 0,0:06:35.95,0:06:36.56,Default,,0,0,0,,Oui.
+Dialogue: 0,0:06:37.16,0:06:39.56,Default,,0,0,0,,Sur le parking en bas de l'escalier.
+Dialogue: 0,0:06:40.04,0:06:41.00,Default,,0,0,0,,{\i1}Compris !{\i0}
+Dialogue: 0,0:06:41.36,0:06:43.87,Default,,0,0,0,,{\i1}J'arrive de suite, ne bougez pas !{\i0}
+Dialogue: 0,0:06:44.43,0:06:45.56,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:06:46.23,0:06:47.76,Default,,0,0,0,,Mais faites vite...
+Dialogue: 0,0:06:49.52,0:06:51.56,Default,,0,0,0,,{\i1}Que se passe-t-il ? Asuka ?{\i0}
+Dialogue: 0,0:06:51.80,0:06:53.80,Default,,0,0,0,,{\i1}Asuka ! Tout va bien ?{\i0}
+Dialogue: 0,0:06:53.95,0:06:54.80,Default,,0,0,0,,{\i1}Asuka !{\i0}
+Dialogue: 0,0:06:54.95,0:06:57.11,Default,,0,0,0,,{\i1}Répondez-moi ! Asuka !{\i0}
+Dialogue: 0,0:06:57.36,0:06:58.04,Default,,0,0,0,,{\i1}Asuka !{\i0}
+Dialogue: 0,0:07:05.36,0:07:06.04,Default,,0,0,0,,Asuka !
+Dialogue: 0,0:07:06.52,0:07:07.68,Default,,0,0,0,,Où êtes-vous ?
+Dialogue: 0,0:07:08.40,0:07:10.16,Default,,0,0,0,,Si vous êtes là, répondez !
+Dialogue: 0,0:07:10.72,0:07:13.43,Default,,0,0,0,,Asuka !
+Dialogue: 0,0:07:20.40,0:07:21.40,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:07:22.32,0:07:23.64,Default,,0,0,0,,C'est son smartphone !
+Dialogue: 0,0:07:25.08,0:07:27.32,Default,,0,0,0,,Un appel visio de M. Takarada ?
+Dialogue: 0,0:07:28.80,0:07:31.00,Default,,0,0,0,,{\i1}Tiens ? Où est Asuka ?{\i0}
+Dialogue: 0,0:07:31.76,0:07:32.76,Default,,0,0,0,,Monsieur Takarada !
+Dialogue: 0,0:07:33.43,0:07:36.00,Default,,0,0,0,,Asuka vient d'être kidnappée !
+Dialogue: 0,0:07:36.56,0:07:37.68,Default,,0,0,0,,{\i1}Comment ?{\i0}
+Dialogue: 0,0:07:38.00,0:07:40.47,Default,,0,0,0,,On n'a trouvé que son smartphone
+Dialogue: 0,0:07:40.68,0:07:44.08,Default,,0,0,0,,sur le parking où elle nous a dit être.
+Dialogue: 0,0:07:45.84,0:07:46.87,Default,,0,0,0,,{\i1}Monsieur Môri.{\i0}
+Dialogue: 0,0:07:47.52,0:07:51.28,Default,,0,0,0,,{\i1}C'est peut-être un coup de Me Fujiki.{\i0}
+Dialogue: 0,0:07:51.95,0:07:53.40,Default,,0,0,0,,Votre avocat ?
+Dialogue: 0,0:07:53.56,0:07:56.40,Default,,0,0,0,,{\i1}Asuka le soupçonnait de se cacher{\i0}
+Dialogue: 0,0:07:56.56,0:07:59.08,Default,,0,0,0,,{\i1}derrière Komakichi Kurataya.{\i0}
+Dialogue: 0,0:07:59.56,0:08:02.52,Default,,0,0,0,,Quand bien même,\Noù l'aurait-il emmenée ?
+Dialogue: 0,0:08:02.92,0:08:03.92,Default,,0,0,0,,{\i1}Je ne sais pas.{\i0}
+Dialogue: 0,0:08:04.52,0:08:07.72,Default,,0,0,0,,{\i1}Seulement,\Nil lui aurait donné rendez-vous{\i0}
+Dialogue: 0,0:08:07.87,0:08:11.16,Default,,0,0,0,,{\i1}plusieurs fois au parc Shizuki,\Nparaît-il.{\i0}
+Dialogue: 0,0:08:11.56,0:08:13.16,Default,,0,0,0,,Au parc Shizuki ?
+Dialogue: 0,0:08:13.32,0:08:13.80,Default,,0,0,0,,{\i1}Oui.{\i0}
+Dialogue: 0,0:08:14.52,0:08:17.16,ST_HAUT,,0,0,0,,{\i1}Celui des ruines du château de Hagi.{\i0}
+Dialogue: 0,0:08:17.68,0:08:20.60,ST_HAUT,,0,0,0,,{\i1}Il a peut-être caché{\i0}\N{\i1}les pièces volées{\i0}
+Dialogue: 0,0:08:21.36,0:08:25.04,Default,,0,0,0,,{\i1}dans les douves\Nou les murs de pierre.{\i0}
+Dialogue: 0,0:08:25.47,0:08:28.08,Default,,0,0,0,,Et il aurait emmené Asuka là-bas ?
+Dialogue: 0,0:08:28.47,0:08:30.72,Default,,0,0,0,,{\i1}Je vous rejoins de suite !{\i0}
+Dialogue: 0,0:08:31.20,0:08:34.28,Default,,0,0,0,,{\i1}Mais j'en aurai\Npour une heure de route.{\i0}
+Dialogue: 0,0:08:34.43,0:08:35.11,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:08:35.56,0:08:37.04,Default,,0,0,0,,On part devant !
+Dialogue: 0,0:08:40.64,0:08:42.04,Default,,0,0,0,,{\i1}Je ne comprends pas...{\i0}
+Dialogue: 0,0:08:43.92,0:08:46.16,Default,,0,0,0,,{\i1}On a tiré sur tonton,{\i0}
+Dialogue: 0,0:08:46.60,0:08:48.23,Default,,0,0,0,,{\i1}mais pas sur Asuka.{\i0}
+Dialogue: 0,0:08:51.23,0:08:54.28,Default,,0,0,0,,{\i1}On voulait juste intimider tonton ?{\i0}
+Dialogue: 0,0:08:55.11,0:08:58.04,Default,,0,0,0,,{\i1}Dans ce cas, a-t-on vraiment enlevé{\i0}
+Dialogue: 0,0:08:58.20,0:09:00.23,Default,,0,0,0,,{\i1}Asuka pour la tuer ?{\i0}
+Dialogue: 0,0:09:01.04,0:09:03.16,Default,,0,0,0,,{\i1}Mais où l'a-t-on emmenée ?{\i0}
+Dialogue: 0,0:09:03.68,0:09:06.47,Default,,0,0,0,,{\i1}Sûrement dans un endroit discret.{\i0}
+Dialogue: 0,0:09:08.40,0:09:12.28,Default,,0,0,0,,{\i1}Ces pièces d'or de l'ère Keichô\Nsont pures à 90 %,{\i0}
+Dialogue: 0,0:09:12.72,0:09:15.47,Default,,0,0,0,,{\i1}elles seront aisément vendables{\i0}
+Dialogue: 0,0:09:15.64,0:09:17.80,Default,,0,0,0,,{\i1}une fois fondues en lingots.{\i0}
+Dialogue: 0,0:09:19.32,0:09:21.00,Default,,0,0,0,,{\i1}Non ? Asuka...{\i0}
+Dialogue: 0,0:09:24.47,0:09:27.43,Default,,0,0,0,,Ran !\NPasse-moi le portable d'Asuka !
+Dialogue: 0,0:09:28.43,0:09:31.68,Default,,0,0,0,,Je vais checker\Nles anciennes vidéos de son site !
+Dialogue: 0,0:09:33.23,0:09:33.92,Default,,0,0,0,,J'ai trouvé !
+Dialogue: 0,0:09:34.43,0:09:38.11,Default,,0,0,0,,{\i1}Pour moi, le four de Hagi\Nest une source d'énergie.{\i0}
+Dialogue: 0,0:09:38.32,0:09:39.56,Default,,0,0,0,,{\i1}Comment ça ?{\i0}
+Dialogue: 0,0:09:40.20,0:09:43.23,Default,,0,0,0,,{\i1}Le fief de Chôshû\Ns'est attaqué au défi{\i0}
+Dialogue: 0,0:09:43.40,0:09:45.84,Default,,0,0,0,,{\i1}de le construire sans plan.{\i0}
+Dialogue: 0,0:09:46.32,0:09:49.68,Default,,0,0,0,,{\i1}Je viens souvent ici\Npour ressentir leur force{\i0}
+Dialogue: 0,0:09:50.52,0:09:52.47,Default,,0,0,0,,{\i1}face aux difficultés.{\i0}
+Dialogue: 0,0:09:54.23,0:09:55.92,ST_BAS_DROITE,,0,0,0,,{\i1}En plus, c'est tout près{\i0}
+Dialogue: 0,0:09:56.20,0:09:58.80,ST_BAS_DROITE,,0,0,0,,{\i1}de l'usine de fonte{\i0}\N{\i1}que vous utilisez.{\i0}
+Dialogue: 0,0:09:59.08,0:09:59.95,ST_BAS_DROITE,,0,0,0,,{\i1}Exact.{\i0}
+Dialogue: 0,0:10:00.64,0:10:02.11,Default,,0,0,0,,Chauffeur ! Stop !
+Dialogue: 0,0:10:05.04,0:10:06.52,Default,,0,0,0,,Qu'est-ce qui te prend ?
+Dialogue: 0,0:10:07.08,0:10:09.64,Default,,0,0,0,,Partez devant, au parc Shizuki.
+Dialogue: 0,0:10:10.47,0:10:12.72,Default,,0,0,0,,Moi, je dois vérifier un truc.
+Dialogue: 0,0:10:13.60,0:10:15.92,Default,,0,0,0,,De quoi tu parles, bon sang ?
+Dialogue: 0,0:10:36.40,0:10:37.80,Default,,0,0,0,,Zut ! Abaisse-toi !
+Dialogue: 0,0:10:38.16,0:10:39.16,Default,,0,0,0,,C'est la police !
+Dialogue: 0,0:10:44.23,0:10:45.80,Default,,0,0,0,,C'était moins une...
+Dialogue: 0,0:10:46.20,0:10:49.95,Default,,0,0,0,,C'est comme si c'était nous,\Nles criminels...
+Dialogue: 0,0:10:50.32,0:10:51.92,Default,,0,0,0,,J'y peux rien, moi...
+Dialogue: 0,0:10:52.08,0:10:53.32,Default,,0,0,0,,C'est lui.
+Dialogue: 0,0:10:53.80,0:10:56.04,Default,,0,0,0,,{\i1}Nous assurerons votre protection.{\i0}
+Dialogue: 0,0:10:56.32,0:10:58.08,Default,,0,0,0,,On va vous couvrir.
+Dialogue: 0,0:10:59.08,0:11:02.72,Default,,0,0,0,,Minute...\NHagi est hors de sa juridiction !
+Dialogue: 0,0:11:03.80,0:11:07.08,Default,,0,0,0,,Que fait-il près de là\Noù on m'a tiré dessus ?
+Dialogue: 0,0:11:07.64,0:11:08.87,Default,,0,0,0,,{\i1}Ce sale flic{\i0}
+Dialogue: 0,0:11:09.11,0:11:12.36,Default,,0,0,0,,{\i1}serait Komakichi Kurataya ?{\i0}
+Dialogue: 0,0:11:26.95,0:11:29.64,Default,,0,0,0,,{\i1}Où est-elle ?\NOù est cette usine ?{\i0}
+Dialogue: 0,0:11:32.47,0:11:33.43,Default,,0,0,0,,Elle est là-bas !
+Dialogue: 0,0:11:33.95,0:11:34.84,Default,,0,0,0,,Vite !
+Dialogue: 0,0:12:18.52,0:12:19.23,Default,,0,0,0,,Conan !
+Dialogue: 0,0:12:24.68,0:12:27.16,Default,,0,0,0,,Je dois stopper ce tapis roulant !
+Dialogue: 0,0:12:29.68,0:12:30.28,Default,,0,0,0,,C'est ça ?
+Dialogue: 0,0:12:30.43,0:12:31.56,Default,,0,0,0,,Conan ! Vite !
+Dialogue: 0,0:12:33.95,0:12:35.28,Default,,0,0,0,,Arrête-le !
+Dialogue: 0,0:12:36.36,0:12:37.64,Default,,0,0,0,,Allez !
+Dialogue: 0,0:12:50.23,0:12:51.47,Default,,0,0,0,,C'était juste...
+Dialogue: 0,0:13:00.00,0:13:01.56,Default,,0,0,0,,Toi, attends ici.
+Dialogue: 0,0:13:02.32,0:13:04.40,Default,,0,0,0,,Ce type est armé.
+Dialogue: 0,0:13:04.60,0:13:06.40,Default,,0,0,0,,Ne me suis surtout pas !
+Dialogue: 0,0:13:07.68,0:13:08.92,Default,,0,0,0,,Papa...
+Dialogue: 0,0:13:12.87,0:13:14.60,Default,,0,0,0,,Conan ? Où es-tu ?
+Dialogue: 0,0:13:15.04,0:13:17.80,Default,,0,0,0,,Ran ! J'ai trouvé Asuka !
+Dialogue: 0,0:13:18.08,0:13:19.87,Default,,0,0,0,,{\i1}Vraiment ? Elle va bien ?{\i0}
+Dialogue: 0,0:13:20.04,0:13:22.47,Default,,0,0,0,,Oui. Et tonton Kogorô ?
+Dialogue: 0,0:13:23.04,0:13:26.84,Default,,0,0,0,,Il vient de partir seul\Npour le parc Shizuki.
+Dialogue: 0,0:13:39.08,0:13:40.52,Default,,0,0,0,,Fujiki, l'avocat ?
+Dialogue: 0,0:13:46.84,0:13:48.40,Default,,0,0,0,,Et ce sale flic le suit ?
+Dialogue: 0,0:13:49.36,0:13:50.92,Default,,0,0,0,,C'était donc bien eux...
+Dialogue: 0,0:13:51.60,0:13:54.92,Default,,0,0,0,,MAISON DE THÉ HANAE
+Dialogue: 0,0:14:17.80,0:14:19.04,Default,,0,0,0,,Papa !
+Dialogue: 0,0:14:24.11,0:14:25.20,Default,,0,0,0,,Plus un geste !
+Dialogue: 0,0:14:26.16,0:14:27.32,Default,,0,0,0,,Détective raté...
+Dialogue: 0,0:14:28.56,0:14:29.43,Default,,0,0,0,,Takajô...
+Dialogue: 0,0:14:29.84,0:14:31.64,Default,,0,0,0,,C'était donc vous...
+Dialogue: 0,0:14:35.60,0:14:36.36,Default,,0,0,0,,Papa !
+Dialogue: 0,0:14:40.36,0:14:41.36,Default,,0,0,0,,Ne bougez pas.
+Dialogue: 0,0:14:53.36,0:14:55.20,Default,,0,0,0,,Merde... Il s'est enfui...
+Dialogue: 0,0:14:56.47,0:14:58.43,Default,,0,0,0,,Je n'étais pas votre cible ?
+Dialogue: 0,0:14:59.11,0:15:01.64,Default,,0,0,0,,Pourquoi je vous tirerais dessus ?
+Dialogue: 0,0:15:02.68,0:15:05.40,Default,,0,0,0,,Quelqu'un vous visait depuis ce buisson.
+Dialogue: 0,0:15:05.84,0:15:06.76,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:15:11.11,0:15:12.84,Default,,0,0,0,,Il a dû le faire tomber...
+Dialogue: 0,0:15:13.16,0:15:15.23,Default,,0,0,0,,Mais alors, le coupable est...
+Dialogue: 0,0:15:18.23,0:15:19.52,Default,,0,0,0,,Oui, allô ?
+Dialogue: 0,0:15:20.64,0:15:21.60,Default,,0,0,0,,Hé, gamin !
+Dialogue: 0,0:15:22.00,0:15:24.00,Default,,0,0,0,,Où étais-tu passé ?
+Dialogue: 0,0:15:25.52,0:15:26.23,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:15:34.28,0:15:36.36,Default,,0,0,0,,Désolé pour mon retard !
+Dialogue: 0,0:15:36.84,0:15:38.95,Default,,0,0,0,,Je vous attendais.
+Dialogue: 0,0:15:39.36,0:15:43.32,Default,,0,0,0,,Il faut donc bien\Nplus d'une heure de Yamaguchi...
+Dialogue: 0,0:15:43.47,0:15:44.76,Default,,0,0,0,,Oui...
+Dialogue: 0,0:15:46.28,0:15:49.68,ST_HAUT,,0,0,0,,Mais dites-moi plutôt,\Nvous avez trouvé Asuka ?
+Dialogue: 0,0:15:52.47,0:15:55.84,Default,,0,0,0,,Que fait Me Fujiki avec la police ?
+Dialogue: 0,0:15:58.00,0:15:59.04,Default,,0,0,0,,Vous m'expliquez ?
+Dialogue: 0,0:15:59.95,0:16:01.08,Default,,0,0,0,,Monsieur Takarada.
+Dialogue: 0,0:16:01.95,0:16:06.64,Default,,0,0,0,,Vous saviez que Me Fujiki\Navait pris Yûichi Fukuhara
+Dialogue: 0,0:16:06.80,0:16:08.20,Default,,0,0,0,,comme client ?
+Dialogue: 0,0:16:09.23,0:16:10.47,Default,,0,0,0,,M. Fukuhara pense
+Dialogue: 0,0:16:10.64,0:16:14.52,Default,,0,0,0,,qu'en réalité, c'est vous,\NKomakichi Kurataya.
+Dialogue: 0,0:16:14.92,0:16:17.11,Default,,0,0,0,,Qui ça ? Moi ?
+Dialogue: 0,0:16:17.43,0:16:21.23,Default,,0,0,0,,Vous vous étiez plaint\Ndu testament de votre père.
+Dialogue: 0,0:16:22.56,0:16:23.80,Default,,0,0,0,,Ce dernier ordonnait
+Dialogue: 0,0:16:24.16,0:16:27.68,Default,,0,0,0,,de faire don à la région\Ndes œuvres d'art
+Dialogue: 0,0:16:27.84,0:16:30.08,Default,,0,0,0,,et des antiquités de la remise.
+Dialogue: 0,0:16:31.00,0:16:33.95,Default,,0,0,0,,Vous souhaitiez au moins les pièces,
+Dialogue: 0,0:16:34.23,0:16:37.64,Default,,0,0,0,,en supposant qu'elles seraient vendables
+Dialogue: 0,0:16:37.80,0:16:38.92,Default,,0,0,0,,une fois fondues.
+Dialogue: 0,0:16:39.08,0:16:42.56,Default,,0,0,0,,Une petite minute !\NVous avez des preuves ?
+Dialogue: 0,0:16:43.76,0:16:45.32,Default,,0,0,0,,Non, aucune.
+Dialogue: 0,0:16:45.68,0:16:48.52,Default,,0,0,0,,Mais vous aviez dû sentir qu'Asuka
+Dialogue: 0,0:16:48.68,0:16:50.92,Default,,0,0,0,,vous soupçonnait, non ?
+Dialogue: 0,0:16:51.36,0:16:54.76,Default,,0,0,0,,Vous l'avez donc enlevée\Npour la faire taire.
+Dialogue: 0,0:16:54.92,0:16:59.36,Default,,0,0,0,,Vous n'avez quand même pas cru\Nces gens, inspecteur ?
+Dialogue: 0,0:16:59.64,0:17:01.95,Default,,0,0,0,,Le braqueur m'a touché au bras !
+Dialogue: 0,0:17:02.23,0:17:03.47,Default,,0,0,0,,En effet...
+Dialogue: 0,0:17:03.72,0:17:05.87,Default,,0,0,0,,Mais la balle vous a effleuré,
+Dialogue: 0,0:17:06.04,0:17:08.40,Default,,0,0,0,,éraflant juste votre bras gauche.
+Dialogue: 0,0:17:08.84,0:17:12.64,Default,,0,0,0,,Vous avez pu jouer la victime\Nen vous tirant dessus.
+Dialogue: 0,0:17:14.00,0:17:16.76,Default,,0,0,0,,N'importe quoi !\NVous pouvez le prouver ?
+Dialogue: 0,0:17:16.95,0:17:18.32,Default,,0,0,0,,J'en ai une !
+Dialogue: 0,0:17:19.28,0:17:21.72,Default,,0,0,0,,Vous m'avez tiré deux fois dessus.
+Dialogue: 0,0:17:22.84,0:17:24.56,Default,,0,0,0,,De quoi vous parlez ?
+Dialogue: 0,0:17:25.87,0:17:28.40,Default,,0,0,0,,La première,\Nil y a une heure et demie.
+Dialogue: 0,0:17:31.32,0:17:33.84,Default,,0,0,0,,Et la seconde, il y a une heure.
+Dialogue: 0,0:17:37.60,0:17:39.84,Default,,0,0,0,,Mais j'ai un alibi solide !
+Dialogue: 0,0:17:40.47,0:17:43.56,Default,,0,0,0,,Je viens juste d'arriver !
+Dialogue: 0,0:17:43.76,0:17:46.28,Default,,0,0,0,,Et avant ça, j'étais à Yamaguchi !
+Dialogue: 0,0:17:46.43,0:17:49.08,Default,,0,0,0,,Je vous ai même appelé de mon garage...
+Dialogue: 0,0:17:49.23,0:17:52.40,Default,,0,0,0,,De votre garage ?\NVous en êtes bien sûr ?
+Dialogue: 0,0:17:53.68,0:17:58.04,Default,,0,0,0,,J'ai bien vu cette voiture\Nde sport criarde derrière vous.
+Dialogue: 0,0:17:58.40,0:18:02.04,Default,,0,0,0,,C'est idéal pour qu'on vous croie\Ndans un garage...
+Dialogue: 0,0:18:03.28,0:18:04.16,Default,,0,0,0,,Je ne saisis pas !
+Dialogue: 0,0:18:04.52,0:18:06.43,Default,,0,0,0,,Si Komakichi Kurataya
+Dialogue: 0,0:18:06.60,0:18:09.80,Default,,0,0,0,,s'est laissé filmer,\Ngrimé en milicien,
+Dialogue: 0,0:18:10.68,0:18:12.60,Default,,0,0,0,,c'est pour que la tenue
+Dialogue: 0,0:18:12.95,0:18:15.16,Default,,0,0,0,,ait plus d'impact que le voleur.
+Dialogue: 0,0:18:15.80,0:18:18.76,Default,,0,0,0,,N'avez-vous pas usé\Ndu même stratagème
+Dialogue: 0,0:18:18.92,0:18:21.23,Default,,0,0,0,,pour simuler un garage
+Dialogue: 0,0:18:21.40,0:18:23.56,Default,,0,0,0,,avec cette voiture tape-à-l'œil ?
+Dialogue: 0,0:18:24.87,0:18:27.56,Default,,0,0,0,,Expliquez-moi où j'étais, alors !
+Dialogue: 0,0:18:28.80,0:18:30.20,Default,,0,0,0,,- Ran !\N- Oui !
+Dialogue: 0,0:18:30.76,0:18:32.84,Default,,0,0,0,,Tu es prêt, Conan ?
+Dialogue: 0,0:18:33.28,0:18:35.43,Default,,0,0,0,,{\i1}Oui ! C'est quand tu veux !{\i0}
+Dialogue: 0,0:18:35.72,0:18:36.92,Default,,0,0,0,,Je tourne le portable.
+Dialogue: 0,0:18:39.32,0:18:41.08,Default,,0,0,0,,{\i1}Bonjour, monsieur Takarada !{\i0}
+Dialogue: 0,0:18:41.43,0:18:44.47,Default,,0,0,0,,{\i1}Les travaux près de chez vous\Nétaient censés{\i0}
+Dialogue: 0,0:18:44.64,0:18:46.84,Default,,0,0,0,,{\i1}vous gêner du matin au soir.{\i0}
+Dialogue: 0,0:18:47.60,0:18:49.47,Default,,0,0,0,,{\i1}Mais on n'a rien entendu{\i0}
+Dialogue: 0,0:18:50.11,0:18:52.60,Default,,0,0,0,,{\i1}pendant votre appel, tout à l'heure.{\i0}
+Dialogue: 0,0:18:54.92,0:18:56.95,Default,,0,0,0,,{\i1}C'est là que j'ai compris !{\i0}
+Dialogue: 0,0:18:57.23,0:18:59.52,Default,,0,0,0,,{\i1}Vous n'étiez pas dans un garage,{\i0}
+Dialogue: 0,0:19:00.11,0:19:02.11,Default,,0,0,0,,{\i1}mais dans un camion !{\i0}
+Dialogue: 0,0:19:04.52,0:19:08.87,Default,,0,0,0,,{\i1}Vous avez feint tout ce temps\Nd'appeler de votre garage,{\i0}
+Dialogue: 0,0:19:09.43,0:19:12.47,Default,,0,0,0,,{\i1}mais en fait, vous étiez à Hagi{\i0}
+Dialogue: 0,0:19:12.64,0:19:14.87,Default,,0,0,0,,{\i1}et téléphoniez de ce camion, non ?{\i0}
+Dialogue: 0,0:19:15.32,0:19:17.60,Default,,0,0,0,,Tiens ? Où est Asuka ?
+Dialogue: 0,0:19:18.36,0:19:19.36,Default,,0,0,0,,{\i1}Monsieur Takarada !{\i0}
+Dialogue: 0,0:19:20.00,0:19:22.72,Default,,0,0,0,,{\i1}Asuka vient d'être kidnappée.{\i0}
+Dialogue: 0,0:19:23.11,0:19:24.23,Default,,0,0,0,,{\i1}Comment ?{\i0}
+Dialogue: 0,0:19:24.60,0:19:25.95,Default,,0,0,0,,{\i1}C'est également là{\i0}
+Dialogue: 0,0:19:26.32,0:19:28.92,Default,,0,0,0,,{\i1}que vous aviez caché Asuka.{\i0}
+Dialogue: 0,0:19:29.43,0:19:30.43,Default,,0,0,0,,{\i1}M. Takarada.{\i0}
+Dialogue: 0,0:19:31.64,0:19:34.36,Default,,0,0,0,,{\i1}Komakichi Kurataya, le braqueur,{\i0}
+Dialogue: 0,0:19:34.92,0:19:36.32,Default,,0,0,0,,{\i1}c'était vous !{\i0}
+Dialogue: 0,0:19:37.56,0:19:38.56,Default,,0,0,0,,Fait chier !
+Dialogue: 0,0:19:39.40,0:19:40.20,Default,,0,0,0,,Tu rêves !
+Dialogue: 0,0:19:51.84,0:19:52.80,Default,,0,0,0,,Merde !
+Dialogue: 0,0:20:23.11,0:20:25.64,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:20:25.95,0:20:28.47,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:21:40.68,0:21:41.68,Default,,0,0,0,,Yûichi !
+Dialogue: 0,0:21:44.20,0:21:45.11,Default,,0,0,0,,Asuka ?
+Dialogue: 0,0:21:47.64,0:21:48.60,Default,,0,0,0,,Ravie de te revoir.
+Dialogue: 0,0:21:50.95,0:21:52.04,Default,,0,0,0,,Moi aussi.
+Dialogue: 0,0:21:57.36,0:22:00.16,Default,,0,0,0,,Quoi ?\NAsuka et M. Fukuhara étaient plus
+Dialogue: 0,0:22:00.40,0:22:02.52,Default,,0,0,0,,que de simples connaissances ?
+Dialogue: 0,0:22:02.76,0:22:04.72,Default,,0,0,0,,C'est pas de bol, hein, tonton !
+Dialogue: 0,0:22:04.87,0:22:05.80,Default,,0,0,0,,La ferme !
+Dialogue: 0,0:22:07.00,0:22:08.43,Default,,0,0,0,,Quelle chance
+Dialogue: 0,0:22:08.76,0:22:10.95,Default,,0,0,0,,d'avoir été libéré un an après.
+Dialogue: 0,0:22:11.47,0:22:13.32,Default,,0,0,0,,Je suis sûr qu'Asuka
+Dialogue: 0,0:22:13.56,0:22:16.00,Default,,0,0,0,,voulait trouver le coupable
+Dialogue: 0,0:22:16.16,0:22:18.32,Default,,0,0,0,,avant qu'il ait purgé sa peine.
+Dialogue: 0,0:22:18.60,0:22:19.84,Default,,0,0,0,,Exactement.
+Dialogue: 0,0:22:20.80,0:22:22.64,Default,,0,0,0,,Car M. Fukuhara avait dit
+Dialogue: 0,0:22:22.80,0:22:26.08,Default,,0,0,0,,qu'il le coincerait lui-même\Nà sa sortie.
+Dialogue: 0,0:22:26.47,0:22:29.60,Default,,0,0,0,,Seulement,\NAsuka avait trouvé ça trop risqué.
+Dialogue: 0,0:22:30.95,0:22:33.64,Default,,0,0,0,,Dites voir,\Nvous n'étiez pas au courant
+Dialogue: 0,0:22:33.84,0:22:36.11,Default,,0,0,0,,de son plan dès le début ?
+Dialogue: 0,0:22:37.47,0:22:39.92,Default,,0,0,0,,Enfin compris, détective à la noix ?
+Dialogue: 0,0:22:40.08,0:22:41.87,Default,,0,0,0,,De quoi ? Flic de pacotille !
+Dialogue: 0,0:22:43.32,0:22:46.47,Default,,0,0,0,,Celui qui a incité Asuka\Nà vous mêler à ça,
+Dialogue: 0,0:22:46.80,0:22:47.64,Default,,0,0,0,,c'est moi.
+Dialogue: 0,0:22:49.92,0:22:52.04,Default,,0,0,0,,Car pour régler cette affaire,
+Dialogue: 0,0:22:52.20,0:22:54.08,Default,,0,0,0,,il fallait le n° 1 du Japon,
+Dialogue: 0,0:22:56.43,0:22:58.80,Default,,0,0,0,,Kogorô Môri, et personne d'autre.
+Dialogue: 0,0:23:01.72,0:23:03.80,Default,,0,0,0,,Que diriez-vous de fêter ça
+Dialogue: 0,0:23:03.95,0:23:07.36,Default,,0,0,0,,devant des {\i1}kawara soba{\i0} de Yamaguchi ?
+Dialogue: 0,0:23:07.64,0:23:11.40,Default,,0,0,0,,Déguster une bonne spécialité\Ndevrait vous apaiser.
+Dialogue: 0,0:23:12.11,0:23:14.47,Default,,0,0,0,,C'est pas ça qui va me calmer !
+Dialogue: 0,0:23:14.64,0:23:16.87,Default,,0,0,0,,On a aussi de bons sakés locaux.
+Dialogue: 0,0:23:18.40,0:23:21.40,Default,,0,0,0,,Ah bon ?\NDans ce cas-là, je vous pardonne !
+Dialogue: 0,0:23:24.43,0:23:27.36,Default,,0,0,0,,{\i1}Un flic à la noix\Net un détective de pacotille...{\i0}
+Dialogue: 0,0:23:29.40,0:23:31.56,Default,,0,0,0,,{\i1}Quel tandem de choc...{\i0}

@@ -1,0 +1,407 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.45,0:00:03.08,Default,,0,0,0,,{\i1}Une alerte à la bombe{\i0}
+Dialogue: 0,0:00:03.25,0:00:05.71,Default,,0,0,0,,{\i1}a provoqué la panique dans une banque.{\i0}
+Dialogue: 0,0:00:06.17,0:00:07.67,Default,,0,0,0,,{\i1}Pris dans la cohue,{\i0}
+Dialogue: 0,0:00:07.96,0:00:10.67,Default,,0,0,0,,{\i1}Genta, M. Kagura et d'autres gens\Nont été blessés.{\i0}
+Dialogue: 0,0:00:11.84,0:00:15.22,Default,,0,0,0,,{\i1}D'après ses amis\NGô Kôchiyama et Haruka Ibe,{\i0}
+Dialogue: 0,0:00:15.76,0:00:19.60,Default,,0,0,0,,{\i1}Sumito Kagura aurait déjà eu\Nun accident 2 semaines plus tôt.{\i0}
+Dialogue: 0,0:00:20.97,0:00:23.18,Default,,0,0,0,,{\i1}Et difficile de croire au hasard{\i0}
+Dialogue: 0,0:00:23.35,0:00:26.10,Default,,0,0,0,,{\i1}quand deux mésaventures similaires\Nse succèdent.{\i0}
+Dialogue: 0,0:00:26.77,0:00:30.15,Default,,0,0,0,,{\i1}N'aurait-il pas pris goût\Naux indemnités versées{\i0}
+Dialogue: 0,0:00:30.57,0:00:35.07,Default,,0,0,0,,{\i1}et provoqué lui-même la panique\Npour être dédommagé à nouveau ?{\i0}
+Dialogue: 0,0:00:35.95,0:00:39.87,Default,,0,0,0,,{\i1}Des témoignages ont corroboré\Nnos doutes sur M. Kagura.{\i0}
+Dialogue: 0,0:00:40.41,0:00:43.20,Default,,0,0,0,,{\i1}Et alors qu'on espérait\Nune preuve déterminante,{\i0}
+Dialogue: 0,0:00:44.75,0:00:47.00,Default,,0,0,0,,{\i1}une des victimes de la bousculade,{\i0}
+Dialogue: 0,0:00:47.17,0:00:49.34,Default,,0,0,0,,{\i1}M. Kikuhide Ootsubo, a été assassinée.{\i0}
+Dialogue: 0,0:00:50.63,0:00:51.84,Default,,0,0,0,,En fait,
+Dialogue: 0,0:00:52.01,0:00:55.68,Default,,0,0,0,,on peut penser,\Ncomme Conan l'a supposé hier,
+Dialogue: 0,0:00:56.05,0:00:59.43,Default,,0,0,0,,qu'il a appris un grave secret\Nau sujet de l'affaire
+Dialogue: 0,0:00:59.72,0:01:02.10,Default,,0,0,0,,et qu'on l'a tué pour le faire taire.
+Dialogue: 0,0:01:02.56,0:01:04.60,Default,,0,0,0,,Mais alors,\Nce ne serait pas M. Kagura,
+Dialogue: 0,0:01:05.27,0:01:08.10,Default,,0,0,0,,l'assassin de M. Ootsubo ?
+Dialogue: 0,0:01:10.48,0:01:12.07,Default,,0,0,0,,Ça reste cohérent, mais...
+Dialogue: 0,0:01:14.19,0:01:15.61,Default,,0,0,0,,quelque chose cloche...
+Dialogue: 0,0:01:16.40,0:01:18.16,Default,,0,0,0,,Pas besoin de preuve !
+Dialogue: 0,0:01:18.62,0:01:20.87,Default,,0,0,0,,Je vais le choper au collet
+Dialogue: 0,0:01:21.03,0:01:22.74,Default,,0,0,0,,et le faire avouer !
+Dialogue: 0,0:01:22.91,0:01:24.25,Default,,0,0,0,,- Genta !\N- Attends !
+Dialogue: 0,0:01:25.50,0:01:27.08,Default,,0,0,0,,On fait quoi, Conan ?
+Dialogue: 0,0:01:27.37,0:01:28.96,Default,,0,0,0,,C'est peut-être pas bête.
+Dialogue: 0,0:01:30.21,0:01:31.92,Default,,0,0,0,,On ne le chopera pas au collet,
+Dialogue: 0,0:01:32.21,0:01:35.97,Default,,0,0,0,,mais une confrontation directe\Nnous apprendra peut-être un truc.
+Dialogue: 0,0:01:36.63,0:01:39.84,Default,,0,0,0,,Et avec un peu de chance,\Nquelque chose lui échappera.
+Dialogue: 0,0:01:40.01,0:01:43.85,Default,,0,0,0,,Voilà. Allons tenter\Nun coup de bluff avec M. Kagura !
+Dialogue: 0,0:01:46.85,0:01:48.94,Default,,0,0,0,,{\i1}Un éclair illumine les ténèbres !{\i0}
+Dialogue: 0,0:01:49.15,0:01:51.02,Default,,0,0,0,,{\i1}Sois transcendante,\Ndéduction posée !{\i0}
+Dialogue: 0,0:01:51.27,0:01:54.36,Default,,0,0,0,,{\i1}Quelle terrible vérité\Ncachent ces adultes intéressés ?{\i0}
+Dialogue: 0,0:01:54.82,0:01:58.07,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:58.28,0:02:00.66,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:04.70,0:02:07.16,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:11.13,0:02:13.59,Default,,0,0,0,,Projet : Michihiko Suwa
+Dialogue: 0,0:02:15.38,0:02:17.76,Default,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:02:20.34,0:02:22.80,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:24.85,0:02:27.31,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:35.94,0:02:38.90,Default,,0,0,0,,Générique d'ouverture :\N"Answer"
+Dialogue: 0,0:02:47.62,0:02:50.08,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:57.38,0:02:59.63,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:08.56,0:03:11.02,Default,,0,0,0,,Producteurs en chef :\NTakuya Matsumoto, Keiichi Ishiyama
+Dialogue: 0,0:03:12.94,0:03:15.32,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:17.28,0:03:20.53,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:29.95,0:03:32.83,Default,,0,0,0,,{\i1}Le prix à payer pour des Likes\N(2e partie) !{\i0}
+Dialogue: 0,0:03:41.72,0:03:44.97,ST_HAUT,,0,0,0,,Déjà ? Tu m'avais pourtant dit\Nvers 12 h, au téléphone.
+Dialogue: 0,0:03:47.10,0:03:48.22,Default,,0,0,0,,Ah, c'est vous ?
+Dialogue: 0,0:03:48.89,0:03:50.06,Default,,0,0,0,,On a à vous parler.
+Dialogue: 0,0:03:51.60,0:03:54.56,Default,,0,0,0,,Je ne saisis pas trop,\Nmais on discutera en chemin...
+Dialogue: 0,0:03:55.23,0:03:57.94,Default,,0,0,0,,Ma paie a été virée hier,\Nmais avec tout ce foin,
+Dialogue: 0,0:03:58.48,0:04:01.07,Default,,0,0,0,,je n'ai pas eu le temps de la retirer.
+Dialogue: 0,0:04:05.07,0:04:06.20,Default,,0,0,0,,Il a été assassiné ?
+Dialogue: 0,0:04:06.83,0:04:08.20,Default,,0,0,0,,M. Ootsubo ?
+Dialogue: 0,0:04:08.41,0:04:10.37,Default,,0,0,0,,Vous le saviez déjà, hein...
+Dialogue: 0,0:04:12.29,0:04:13.37,Default,,0,0,0,,Non, pourquoi ?
+Dialogue: 0,0:04:15.21,0:04:16.71,Default,,0,0,0,,À ce propos, M. Kagura...
+Dialogue: 0,0:04:17.13,0:04:20.38,Default,,0,0,0,,Vous avez dit à votre troupe\Nque vous aimeriez bien subir
+Dialogue: 0,0:04:20.55,0:04:24.01,Default,,0,0,0,,un autre accident aussi lucratif,\Nn'est-ce pas ?
+Dialogue: 0,0:04:24.76,0:04:26.51,Default,,0,0,0,,- Qui ça ?\N- Vous, pardi !
+Dialogue: 0,0:04:27.30,0:04:31.77,Default,,0,0,0,,Non, c'est faux.\NJe n'ai jamais rien dit d'aussi culotté.
+Dialogue: 0,0:04:31.93,0:04:33.81,Default,,0,0,0,,- Ah, stop !\N- Attendez !
+Dialogue: 0,0:04:35.94,0:04:38.23,Default,,0,0,0,,Difficile de se faire une idée...
+Dialogue: 0,0:04:38.40,0:04:41.40,Default,,0,0,0,,Entre nous,\Nil n'a pas l'air de mentir...
+Dialogue: 0,0:04:41.57,0:04:42.82,Default,,0,0,0,,Ne vous faites pas avoir !
+Dialogue: 0,0:04:42.99,0:04:44.90,Default,,0,0,0,,C'est un comédien, après tout.
+Dialogue: 0,0:04:46.66,0:04:49.49,Default,,0,0,0,,Les amis...\NVous êtes vraiment sûr qu'il a dit
+Dialogue: 0,0:04:49.66,0:04:51.83,Default,,0,0,0,,vouloir revivre ce rêve alléchant ?
+Dialogue: 0,0:04:52.00,0:04:53.04,Default,,0,0,0,,Tu doutes de nous ?
+Dialogue: 0,0:04:53.20,0:04:55.17,Default,,0,0,0,,Tu crois qu'on ne sait pas enquêter ?
+Dialogue: 0,0:04:55.33,0:04:57.17,Default,,0,0,0,,CHÔNENTEN
+Dialogue: 0,0:04:57.50,0:05:00.55,Default,,0,0,0,,Vous confirmez\Nque M. Kagura a clairement dit ça ?
+Dialogue: 0,0:05:00.92,0:05:03.05,ST_HAUT,,0,0,0,,Oui, c'est ce qu'on m'a raconté.
+Dialogue: 0,0:05:03.38,0:05:04.92,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:05:05.09,0:05:08.80,Default,,0,0,0,,M. Kagura\Nne vous l'avait pas dit directement ?
+Dialogue: 0,0:05:09.39,0:05:11.85,Default,,0,0,0,,Non, pas en personne,
+Dialogue: 0,0:05:12.43,0:05:13.81,Default,,0,0,0,,c'est lui qui me l'a dit.
+Dialogue: 0,0:05:14.81,0:05:16.69,Default,,0,0,0,,Kagura a bien déclaré
+Dialogue: 0,0:05:17.06,0:05:20.69,Default,,0,0,0,,"vouloir subir un autre accident\Naussi lucratif", pas vrai ?
+Dialogue: 0,0:05:21.19,0:05:21.86,Default,,0,0,0,,Oui.
+Dialogue: 0,0:05:22.57,0:05:23.44,Default,,0,0,0,,Il paraît.
+Dialogue: 0,0:05:23.78,0:05:25.07,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:05:25.24,0:05:28.87,Default,,0,0,0,,"On m'a raconté", "il paraît",\Nc'est de moins en moins crédible.
+Dialogue: 0,0:05:29.62,0:05:31.83,Default,,0,0,0,,Et vous, qui vous l'a rapporté ?
+Dialogue: 0,0:05:32.24,0:05:35.08,Default,,0,0,0,,Kôchiyama... Mais bon,\Nvous ne devez pas connaître.
+Dialogue: 0,0:05:36.12,0:05:37.83,Default,,0,0,0,,{\i1}M. Kôchiyama ?{\i0}
+Dialogue: 0,0:05:38.50,0:05:40.13,Default,,0,0,0,,- Salut...\N- Hello.
+Dialogue: 0,0:05:40.88,0:05:42.34,Default,,0,0,0,,C'est la femme d'hier !
+Dialogue: 0,0:05:42.50,0:05:43.96,Default,,0,0,0,,Elle aussi a témoigné !
+Dialogue: 0,0:05:44.38,0:05:45.97,Default,,0,0,0,,Vous avez bien dit
+Dialogue: 0,0:05:46.13,0:05:49.68,Default,,0,0,0,,que M. Kagura espérait subir\Nun autre accident, pas vrai ?
+Dialogue: 0,0:05:49.84,0:05:52.97,Default,,0,0,0,,Ben oui, vu que c'est\Nce que Kôchiyama m'a raconté !
+Dialogue: 0,0:05:53.35,0:05:53.97,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:05:54.52,0:05:55.98,Default,,0,0,0,,À elle aussi ?
+Dialogue: 0,0:05:56.23,0:05:59.73,Default,,0,0,0,,On dirait que M. Kôchiyama\Nest à l'origine de la rumeur.
+Dialogue: 0,0:06:00.15,0:06:03.02,Default,,0,0,0,,M. Kôchiyama est l'ami de M. Kagura,\Nn'est-ce pas ?
+Dialogue: 0,0:06:03.27,0:06:04.86,Default,,0,0,0,,Vous le connaissez aussi ?
+Dialogue: 0,0:06:05.44,0:06:07.49,Default,,0,0,0,,On était ensemble en théâtre à la fac.
+Dialogue: 0,0:06:07.95,0:06:11.74,Default,,0,0,0,,Il est devenu employé depuis,\Nmais on reste en contact.
+Dialogue: 0,0:06:12.53,0:06:15.12,Default,,0,0,0,,Il passe même régulièrement au café.
+Dialogue: 0,0:06:16.37,0:06:18.75,Default,,0,0,0,,Il était donc comédien, lui aussi ?
+Dialogue: 0,0:06:18.92,0:06:20.67,Default,,0,0,0,,Il a peut-être menti, alors...
+Dialogue: 0,0:06:20.83,0:06:21.67,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:06:22.21,0:06:26.01,Default,,0,0,0,,Kôchiyama pourrait avoir propagé\Ncette fausse rumeur sciemment
+Dialogue: 0,0:06:26.38,0:06:28.84,Default,,0,0,0,,pour faire croire\Nque Kagura est un minable
+Dialogue: 0,0:06:29.01,0:06:31.80,Default,,0,0,0,,dans le but de gagner le cœur de Haruka.
+Dialogue: 0,0:06:32.22,0:06:34.18,Default,,0,0,0,,- C'est plausible.\N- Carrément !
+Dialogue: 0,0:06:35.47,0:06:36.60,Default,,0,0,0,,Vous me suivez ?
+Dialogue: 0,0:06:36.77,0:06:38.02,Default,,0,0,0,,De qui parlent-ils ?
+Dialogue: 0,0:06:38.31,0:06:41.81,Default,,0,0,0,,De la jeune femme\Nqui les accompagnait hier ?
+Dialogue: 0,0:06:42.11,0:06:44.94,Default,,0,0,0,,Ce n'est peut-être pas\Nun simple trio d'amis, alors...
+Dialogue: 0,0:06:49.53,0:06:50.66,Default,,0,0,0,,En tout cas,
+Dialogue: 0,0:06:50.99,0:06:53.58,Default,,0,0,0,,en vérifiant auprès de M. Kôchiyama,
+Dialogue: 0,0:06:53.74,0:06:56.66,Default,,0,0,0,,on saura si M. Kagura\Na réellement tenu ces propos ou pas.
+Dialogue: 0,0:06:56.83,0:06:58.20,Default,,0,0,0,,C'est vrai,
+Dialogue: 0,0:06:58.58,0:07:02.21,Default,,0,0,0,,mais quand bien même,\Nça ne sera pas suffisant.
+Dialogue: 0,0:07:02.38,0:07:05.30,Default,,0,0,0,,Ce qu'il nous faut,\Nc'est une preuve irréfutable.
+Dialogue: 0,0:07:05.46,0:07:07.84,Default,,0,0,0,,Mais qu'est-ce que ça pourrait être ?
+Dialogue: 0,0:07:08.01,0:07:09.34,Default,,0,0,0,,Il nous faut une piste...
+Dialogue: 0,0:07:09.51,0:07:10.72,Default,,0,0,0,,J'en étais sûr.
+Dialogue: 0,0:07:12.18,0:07:14.47,Default,,0,0,0,,C'est l'article de M. Kôchiyama, non ?
+Dialogue: 0,0:07:15.06,0:07:19.35,Default,,0,0,0,,Donc, si M. Ootsubo\Navait pris M. Kagura en filature...
+Dialogue: 0,0:07:20.10,0:07:21.85,Default,,0,0,0,,Il aurait dû le...
+Dialogue: 0,0:07:23.15,0:07:24.11,Default,,0,0,0,,Mais alors...
+Dialogue: 0,0:07:25.36,0:07:26.36,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:07:26.52,0:07:28.61,Default,,0,0,0,,Mais si c'est ça, pour quelle raison ?
+Dialogue: 0,0:07:30.82,0:07:31.36,Default,,0,0,0,,Conan !
+Dialogue: 0,0:07:32.91,0:07:34.57,Default,,0,0,0,,Vous savez où je peux trouver...
+Dialogue: 0,0:07:35.91,0:07:36.74,Default,,0,0,0,,HARUKA IBE
+Dialogue: 0,0:07:37.45,0:07:38.37,Default,,0,0,0,,... cette personne ?
+Dialogue: 0,0:07:45.21,0:07:47.75,ST_HAUT,,0,0,0,,GÔ KÔCHIYAMA (26 ANS)
+Dialogue: 0,0:07:48.80,0:07:50.26,Default,,0,0,0,,Un triangle amoureux ?
+Dialogue: 0,0:07:50.88,0:07:53.76,Default,,0,0,0,,Entre Sumito, Gô et moi ?
+Dialogue: 0,0:07:54.09,0:07:56.76,ST_HAUT,,0,0,0,,HARUKA IBE (24 ANS)
+Dialogue: 0,0:07:57.60,0:07:58.68,Default,,0,0,0,,Non, non !
+Dialogue: 0,0:07:58.85,0:08:00.93,Default,,0,0,0,,Mais pas du tout !\NJamais de la vie !
+Dialogue: 0,0:08:01.27,0:08:04.27,Default,,0,0,0,,Pourtant,\Nc'est ce que votre troupe a dit...
+Dialogue: 0,0:08:04.69,0:08:08.61,Default,,0,0,0,,À la base, j'étais fan de Sumito\Nen tant que comédien.
+Dialogue: 0,0:08:08.98,0:08:11.24,Default,,0,0,0,,Et je voulais tellement jouer avec lui
+Dialogue: 0,0:08:11.53,0:08:14.16,Default,,0,0,0,,que j'ai rejoint la troupe\Nil y a un an.
+Dialogue: 0,0:08:14.66,0:08:18.49,Default,,0,0,0,,C'est peu de temps après\Nque Sumito m'a présenté Gô.
+Dialogue: 0,0:08:20.04,0:08:21.58,Default,,0,0,0,,{\i1}C'est lui, Gô Kôchiyama.{\i0}
+Dialogue: 0,0:08:21.83,0:08:24.42,Default,,0,0,0,,{\i1}Je connais ce bouffon depuis la fac.{\i0}
+Dialogue: 0,0:08:25.46,0:08:26.67,Default,,0,0,0,,{\i1}Le bouffon te salue !{\i0}
+Dialogue: 0,0:08:27.34,0:08:29.00,Default,,0,0,0,,{\i1}C'est quoi, cette voix ?{\i0}
+Dialogue: 0,0:08:29.63,0:08:30.67,Default,,0,0,0,,{\i1}Haruka Ibe.{\i0}
+Dialogue: 0,0:08:31.55,0:08:33.76,Default,,0,0,0,,{\i1}On est aussitôt devenus amis.{\i0}
+Dialogue: 0,0:08:34.84,0:08:35.80,Default,,0,0,0,,{\i1}On y va, Sumito !{\i0}
+Dialogue: 0,0:08:36.14,0:08:36.80,Default,,0,0,0,,{\i1}Allez !{\i0}
+Dialogue: 0,0:08:42.89,0:08:44.98,Default,,0,0,0,,{\i1}De quel côté es-tu, toi ?{\i0}
+Dialogue: 0,0:08:45.40,0:08:47.27,Default,,0,0,0,,Sumito et Gô
+Dialogue: 0,0:08:47.44,0:08:49.94,Default,,0,0,0,,s'entendaient si bien\Nque je les enviais.
+Dialogue: 0,0:08:50.53,0:08:52.19,Default,,0,0,0,,{\i1}Il est redoutable !\NAide-moi !{\i0}
+Dialogue: 0,0:08:52.65,0:08:53.24,Default,,0,0,0,,{\i1}OK !{\i0}
+Dialogue: 0,0:08:55.95,0:08:58.58,Default,,0,0,0,,{\i1}À deux contre un !\NC'est pas du jeu !{\i0}
+Dialogue: 0,0:09:02.20,0:09:06.54,Default,,0,0,0,,J'étais si heureuse\Nqu'ils partagent leur amitié avec moi !
+Dialogue: 0,0:09:07.88,0:09:12.17,Default,,0,0,0,,Il n'y a aucun sentiment amoureux\Nentre nous trois.
+Dialogue: 0,0:09:15.09,0:09:17.80,Default,,0,0,0,,Ah, désolée !\NIl faut que j'y retourne.
+Dialogue: 0,0:09:18.51,0:09:19.35,Default,,0,0,0,,Ciao !
+Dialogue: 0,0:09:20.22,0:09:22.68,Default,,0,0,0,,Elle n'en a peut-être pas conscience,
+Dialogue: 0,0:09:23.43,0:09:24.10,Default,,0,0,0,,mais bon...
+Dialogue: 0,0:09:25.81,0:09:29.23,Default,,0,0,0,,Oui, on ignore\Nce que les deux autres pensent d'elle.
+Dialogue: 0,0:09:29.61,0:09:30.52,Default,,0,0,0,,Mais quoi ?
+Dialogue: 0,0:09:30.90,0:09:33.28,Default,,0,0,0,,Qu'es-tu venu vérifier ?
+Dialogue: 0,0:09:34.03,0:09:37.49,Default,,0,0,0,,Ce qu'il y avait derrière\Nl'affaire de l'alerte à la bombe
+Dialogue: 0,0:09:37.95,0:09:40.03,Default,,0,0,0,,et le meurtre de M. Ootsubo.
+Dialogue: 0,0:09:45.71,0:09:47.50,Default,,0,0,0,,Voilà qui expliquerait tout.
+Dialogue: 0,0:09:48.12,0:09:50.67,Default,,0,0,0,,Et si ma déduction est correcte...
+Dialogue: 0,0:09:51.84,0:09:53.46,Default,,0,0,0,,Merci beaucoup !
+Dialogue: 0,0:10:01.30,0:10:04.14,Default,,0,0,0,,Non, l'enquête\Nn'a encore révélé aucun lien
+Dialogue: 0,0:10:04.31,0:10:06.27,Default,,0,0,0,,entre l'alerte à la bombe
+Dialogue: 0,0:10:06.43,0:10:08.77,Default,,0,0,0,,et le meurtre de Kikuhide Ootsubo.
+Dialogue: 0,0:10:09.31,0:10:11.44,Default,,0,0,0,,Mais pour l'alerte à la bombe,
+Dialogue: 0,0:10:11.82,0:10:13.65,Default,,0,0,0,,vous avez bien trouvé une piste
+Dialogue: 0,0:10:13.82,0:10:15.57,Default,,0,0,0,,pour identifier le coupable, non ?
+Dialogue: 0,0:10:17.28,0:10:19.28,Default,,0,0,0,,Non, aucune...
+Dialogue: 0,0:10:19.61,0:10:20.82,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:10:22.70,0:10:24.70,Default,,0,0,0,,Après les faits, on aurait aperçu
+Dialogue: 0,0:10:25.20,0:10:28.25,Default,,0,0,0,,un agent de service en train de nettoyer
+Dialogue: 0,0:10:28.42,0:10:30.92,Default,,0,0,0,,la cabine utilisée\Npour l'alerte à la bombe.
+Dialogue: 0,0:10:31.42,0:10:35.38,Default,,0,0,0,,Mais la société en charge affirme\Nn'avoir envoyé personne le faire.
+Dialogue: 0,0:10:35.63,0:10:37.84,Default,,0,0,0,,C'était probablement le coupable.
+Dialogue: 0,0:10:38.55,0:10:42.30,Default,,0,0,0,,Seulement, on n'a absolument rien\Nsur cet individu...
+Dialogue: 0,0:10:43.26,0:10:46.47,Default,,0,0,0,,On dirait que ta déduction\Nétait mauvaise, Conan...
+Dialogue: 0,0:10:46.81,0:10:47.68,Default,,0,0,0,,Ouais...
+Dialogue: 0,0:10:48.77,0:10:50.77,Default,,0,0,0,,Car le stratagème tombe à l'eau
+Dialogue: 0,0:10:50.94,0:10:53.44,Default,,0,0,0,,si aucun indice n'a été laissé.
+Dialogue: 0,0:10:54.23,0:10:55.23,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:10:56.07,0:10:57.15,Default,,0,0,0,,Ah, inspecteur ?
+Dialogue: 0,0:10:58.07,0:10:58.65,Default,,0,0,0,,Oui.
+Dialogue: 0,0:10:59.20,0:10:59.82,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:11:00.95,0:11:01.61,Default,,0,0,0,,Bien...
+Dialogue: 0,0:11:03.49,0:11:06.08,Default,,0,0,0,,Le poste a reçu l'appel\Nd'un témoin anonyme.
+Dialogue: 0,0:11:06.37,0:11:09.96,Default,,0,0,0,,Il aurait vu quelqu'un s'enfuir\Ndu lieu où a été tué M. Ootsubo
+Dialogue: 0,0:11:10.12,0:11:12.38,Default,,0,0,0,,hier soir, vers 20 heures.
+Dialogue: 0,0:11:12.88,0:11:14.75,Default,,0,0,0,,- À l'heure du crime ?\N- Oui.
+Dialogue: 0,0:11:15.13,0:11:16.80,Default,,0,0,0,,Et d'après le témoin,
+Dialogue: 0,0:11:17.13,0:11:20.18,Default,,0,0,0,,cet individu louche\Npourrait être "le poissard"
+Dialogue: 0,0:11:20.34,0:11:22.93,Default,,0,0,0,,présenté sur le Net récemment.
+Dialogue: 0,0:11:23.14,0:11:25.89,Default,,0,0,0,,- Mais j'ignore qui c'est...\N- C'est M. Kagura !
+Dialogue: 0,0:11:26.35,0:11:27.64,Default,,0,0,0,,C'était bien lui, alors !
+Dialogue: 0,0:11:28.85,0:11:30.02,Default,,0,0,0,,C'était donc ça...
+Dialogue: 0,0:11:30.85,0:11:32.77,Default,,0,0,0,,Le plan ne s'arrêtait pas là !
+Dialogue: 0,0:11:33.31,0:11:37.40,Default,,0,0,0,,Si son but final va plus loin\Nque ce que j'avais supposé...
+Dialogue: 0,0:11:37.69,0:11:38.40,Default,,0,0,0,,Non !
+Dialogue: 0,0:11:38.69,0:11:42.16,Default,,0,0,0,,Si, ça expliquerait aussi pourquoi\Non n'a rien trouvé
+Dialogue: 0,0:11:42.32,0:11:43.57,Default,,0,0,0,,dans la cabine.
+Dialogue: 0,0:11:44.78,0:11:46.03,Default,,0,0,0,,De quoi tu parles ?
+Dialogue: 0,0:11:46.33,0:11:47.16,Default,,0,0,0,,Si j'ai vu juste,
+Dialogue: 0,0:11:47.79,0:11:48.54,Default,,0,0,0,,ça urge !
+Dialogue: 0,0:11:49.16,0:11:50.08,Default,,0,0,0,,Suivez-moi !
+Dialogue: 0,0:11:50.58,0:11:51.71,Default,,0,0,0,,Allez, vite !
+Dialogue: 0,0:11:52.17,0:11:53.12,Default,,0,0,0,,Nous aussi !
+Dialogue: 0,0:11:53.29,0:11:54.46,Default,,0,0,0,,- Allons-y !\N- Oui !
+Dialogue: 0,0:12:08.89,0:12:11.02,Default,,0,0,0,,Au poissard malin...
+Dialogue: 0,0:12:11.60,0:12:14.65,Default,,0,0,0,,Au futé qui compte encore\Nfaire le buzz avec moi...
+Dialogue: 0,0:12:16.65,0:12:17.40,Default,,0,0,0,,Stop !
+Dialogue: 0,0:12:22.07,0:12:24.78,Default,,0,0,0,,Police.\NVeuillez-nous excuser un instant.
+Dialogue: 0,0:12:25.20,0:12:26.20,Default,,0,0,0,,Les enfants ?
+Dialogue: 0,0:12:26.62,0:12:27.78,Default,,0,0,0,,La police ?
+Dialogue: 0,0:12:28.24,0:12:31.79,Default,,0,0,0,,Il vaut mieux éviter l'alcool\Nquand on est blessé, non ?
+Dialogue: 0,0:12:32.29,0:12:33.25,Default,,0,0,0,,Ou alors,
+Dialogue: 0,0:12:35.67,0:12:38.42,Default,,0,0,0,,que diriez-vous d'échanger\Nvos verres, MM. Kagura
+Dialogue: 0,0:12:38.71,0:12:39.92,Default,,0,0,0,,et Kôchiyama ?
+Dialogue: 0,0:12:45.51,0:12:48.26,Default,,0,0,0,,L'accident dont a été victime\NM. Kagura hier
+Dialogue: 0,0:12:48.51,0:12:50.31,Default,,0,0,0,,n'était pas dû au hasard.
+Dialogue: 0,0:12:50.89,0:12:52.89,Default,,0,0,0,,Il a été piégé par le coupable.
+Dialogue: 0,0:12:53.98,0:12:54.89,Default,,0,0,0,,N'est-ce pas,
+Dialogue: 0,0:12:55.56,0:12:56.31,Default,,0,0,0,,M. Kôchiyama ?
+Dialogue: 0,0:12:58.86,0:13:00.65,Default,,0,0,0,,Je ne comprends pas...
+Dialogue: 0,0:13:01.40,0:13:02.90,Default,,0,0,0,,On était le 25, hier,
+Dialogue: 0,0:13:03.07,0:13:05.36,Default,,0,0,0,,le jour de virement de votre paie.
+Dialogue: 0,0:13:05.53,0:13:09.87,Default,,0,0,0,,Vous alliez forcément retirer l'argent\Ndans la banque la plus proche.
+Dialogue: 0,0:13:10.33,0:13:14.00,Default,,0,0,0,,Étant votre ami,\NM. Kôchiyama le savait forcément.
+Dialogue: 0,0:13:14.58,0:13:18.04,Default,,0,0,0,,Grimé en agent de nettoyage,\Nil vous a attendu.
+Dialogue: 0,0:13:18.92,0:13:22.51,Default,,0,0,0,,Et en calculant le moment\Noù vous passeriez devant la banque...
+Dialogue: 0,0:13:23.67,0:13:27.14,Default,,0,0,0,,{\i1}J'ai posé plusieurs bombes\Ndans votre banque.{\i0}
+Dialogue: 0,0:13:30.93,0:13:32.56,Default,,0,0,0,,Pourquoi aurait-il fait ça ?
+Dialogue: 0,0:13:33.14,0:13:37.56,Default,,0,0,0,,M. Kagura. Vous avez été indemnisé\Nsuite à l'autre accident
+Dialogue: 0,0:13:37.73,0:13:39.44,Default,,0,0,0,,d'il y a deux semaines.
+Dialogue: 0,0:13:40.48,0:13:41.86,Default,,0,0,0,,Il voulait faire croire
+Dialogue: 0,0:13:42.03,0:13:45.36,Default,,0,0,0,,que vous avez vous-même\Nprovoqué la panique
+Dialogue: 0,0:13:45.53,0:13:47.66,Default,,0,0,0,,pour toucher d'autres indemnités
+Dialogue: 0,0:13:48.20,0:13:50.12,Default,,0,0,0,,auxquelles vous aviez pris goût.
+Dialogue: 0,0:13:51.08,0:13:53.79,Default,,0,0,0,,Non, je n'aurais jamais fait\Nune chose pareille...
+Dialogue: 0,0:13:53.95,0:13:57.04,Default,,0,0,0,,Vous avez même préparé le terrain\Navec son entourage.
+Dialogue: 0,0:14:01.59,0:14:04.42,Default,,0,0,0,,{\i1}Tu sais ce que Kagura m'a dit ?{\i0}
+Dialogue: 0,0:14:05.30,0:14:07.68,Default,,0,0,0,,{\i1}Il aimerait bien être victime{\i0}
+Dialogue: 0,0:14:07.84,0:14:10.55,Default,,0,0,0,,{\i1}d'un autre accident aussi lucratif.{\i0}
+Dialogue: 0,0:14:11.05,0:14:11.76,Default,,0,0,0,,Vous voyez ?
+Dialogue: 0,0:14:12.10,0:14:14.43,Default,,0,0,0,,Mais je n'ai jamais dit ça !
+Dialogue: 0,0:14:14.77,0:14:17.39,Default,,0,0,0,,Il en a remis une couche, hier.
+Dialogue: 0,0:14:18.69,0:14:22.07,Default,,0,0,0,,Le but de cet article\Nn'était pas de gagner des Likes,
+Dialogue: 0,0:14:22.23,0:14:25.19,Default,,0,0,0,,mais plutôt\Nde vous faire porter le chapeau.
+Dialogue: 0,0:14:26.15,0:14:27.11,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:14:27.36,0:14:31.70,Default,,0,0,0,,Le commentaire de M. Kôchiyama\Nsous son pseudo Tanuki Ponkichi
+Dialogue: 0,0:14:32.16,0:14:34.83,Default,,0,0,0,,insiste lourdement\Nsur le fait qu'être victime
+Dialogue: 0,0:14:35.00,0:14:38.33,Default,,0,0,0,,du même type d'accident\N2 fois en 2 semaines est incroyable.
+Dialogue: 0,0:14:38.67,0:14:39.87,Default,,0,0,0,,C'est pour ça
+Dialogue: 0,0:14:40.04,0:14:43.46,Default,,0,0,0,,qu'on a cru que M. Kagura\Navait fait ça pour l'argent.
+Dialogue: 0,0:14:43.63,0:14:45.96,Default,,0,0,0,,On s'est fait avoir comme des bleus !
+Dialogue: 0,0:14:46.26,0:14:48.34,Default,,0,0,0,,Comme il l'espérait.
+Dialogue: 0,0:14:48.63,0:14:49.68,Default,,0,0,0,,Non, non !
+Dialogue: 0,0:14:49.84,0:14:53.22,Default,,0,0,0,,Pourquoi a-t-il voulu\Nfaire de moi le coupable ?
+Dialogue: 0,0:14:54.64,0:14:57.85,Default,,0,0,0,,S'il avait seulement voulu\Nvous faire porter le chapeau,
+Dialogue: 0,0:14:58.27,0:15:02.23,Default,,0,0,0,,il aurait déposé un indice\Nmenant la police à vous...
+Dialogue: 0,0:15:02.61,0:15:04.57,Default,,0,0,0,,Mais il n'a rien laissé.
+Dialogue: 0,0:15:04.73,0:15:05.73,Default,,0,0,0,,Rien du tout.
+Dialogue: 0,0:15:06.15,0:15:07.28,Default,,0,0,0,,Et ça,
+Dialogue: 0,0:15:07.94,0:15:09.32,Default,,0,0,0,,parce que s'il l'avait fait,
+Dialogue: 0,0:15:09.53,0:15:11.74,Default,,0,0,0,,la police vous aurait arrêté.
+Dialogue: 0,0:15:12.37,0:15:15.74,Default,,0,0,0,,L'empêchant alors\Nd'atteindre son but final...
+Dialogue: 0,0:15:17.33,0:15:20.21,Default,,0,0,0,,Vous comptiez vous en charger\Nhier soir, pas vrai ?
+Dialogue: 0,0:15:21.42,0:15:24.34,Default,,0,0,0,,{\i1}Je passerai boire un coup\Npour éloigner le malheur, ce soir.{\i0}
+Dialogue: 0,0:15:24.88,0:15:26.63,Default,,0,0,0,,{\i1}Tu seras chez toi ?{\i0}
+Dialogue: 0,0:15:27.38,0:15:28.97,Default,,0,0,0,,Mais en surgissant,
+Dialogue: 0,0:15:29.67,0:15:31.93,Default,,0,0,0,,Kikuhide Ootsubo a chamboulé vos plans.
+Dialogue: 0,0:15:32.72,0:15:34.01,Default,,0,0,0,,M. Ootsubo...
+Dialogue: 0,0:15:34.18,0:15:34.80,Default,,0,0,0,,Oui.
+Dialogue: 0,0:15:35.06,0:15:39.18,Default,,0,0,0,,Sa raison de vivre, c'était de gagner\Ndes Likes avec des sujets alléchants.
+Dialogue: 0,0:15:39.43,0:15:42.52,Default,,0,0,0,,Et en espérant trouver\Nde quoi faire le buzz,
+Dialogue: 0,0:15:42.69,0:15:44.61,Default,,0,0,0,,il vous suivait en cachette.
+Dialogue: 0,0:15:45.11,0:15:45.90,Default,,0,0,0,,Moi ?
+Dialogue: 0,0:15:46.36,0:15:47.69,Default,,0,0,0,,Autre chose,
+Dialogue: 0,0:15:47.90,0:15:51.91,Default,,0,0,0,,M. Ootsubo considérait Tanuki Ponkichi\Ncomme son rival.
+Dialogue: 0,0:15:52.57,0:15:54.70,Default,,0,0,0,,Et en tombant face à lui,
+Dialogue: 0,0:15:55.87,0:15:58.41,Default,,0,0,0,,il a décidé de le suivre à son tour.
+Dialogue: 0,0:15:59.29,0:16:02.00,Default,,0,0,0,,Il espérait tomber\Nsur un sujet alléchant.
+Dialogue: 0,0:16:02.42,0:16:03.58,Default,,0,0,0,,Rien de plus.
+Dialogue: 0,0:16:04.83,0:16:08.30,Default,,0,0,0,,Mais par aventure,\NM. Ootsubo a fini par réaliser
+Dialogue: 0,0:16:08.92,0:16:11.22,Default,,0,0,0,,que c'était vous, l'auteur de l'alerte.
+Dialogue: 0,0:16:11.38,0:16:12.22,Default,,0,0,0,,Non, c'est...
+Dialogue: 0,0:16:12.38,0:16:14.34,Default,,0,0,0,,Vous l'avez donc fait taire !
+Dialogue: 0,0:16:15.05,0:16:18.72,Default,,0,0,0,,Ébranlé par votre crime,\Nvous avez renoncé à votre plan, hier.
+Dialogue: 0,0:16:19.52,0:16:23.73,Default,,0,0,0,,Vous l'avez reporté à aujourd'hui\Naprès cet appel anonyme à la police.
+Dialogue: 0,0:16:24.48,0:16:28.86,Default,,0,0,0,,{\i1}On aurait dit le type qu'on présente\Ncomme un poissard sur le Net.{\i0}
+Dialogue: 0,0:16:29.32,0:16:31.53,Default,,0,0,0,,Vous avez fait exprès d'être vague
+Dialogue: 0,0:16:31.78,0:16:34.03,Default,,0,0,0,,pour que la police tarde à intervenir.
+Dialogue: 0,0:16:34.66,0:16:37.70,Default,,0,0,0,,En résumé, voici le plan\Nque vous aviez préparé.
+Dialogue: 0,0:16:38.70,0:16:41.16,Default,,0,0,0,,{\i1}J'ai réussi à provoquer une bousculade{\i0}
+Dialogue: 0,0:16:41.50,0:16:43.37,Default,,0,0,0,,{\i1}pour toucher des indemnités,{\i0}
+Dialogue: 0,0:16:43.75,0:16:45.33,Default,,0,0,0,,{\i1}mais Ootsubo l'a découvert{\i0}
+Dialogue: 0,0:16:46.67,0:16:48.04,Default,,0,0,0,,{\i1}et je l'ai tué.{\i0}
+Dialogue: 0,0:16:49.00,0:16:52.30,Default,,0,0,0,,{\i1}Ma capture n'est plus\Nqu'une question de temps.{\i0}
+Dialogue: 0,0:16:52.84,0:16:56.89,Default,,0,0,0,,C'est ce que vous comptiez affirmer\Nà la police après votre signalement.
+Dialogue: 0,0:16:57.26,0:16:58.60,Default,,0,0,0,,{\i1}Je n'y comprends rien !{\i0}
+Dialogue: 0,0:16:58.81,0:17:01.02,Default,,0,0,0,,{\i1}Kagura a commencé à se tordre de douleur{\i0}
+Dialogue: 0,0:17:01.56,0:17:03.14,Default,,0,0,0,,{\i1}après avoir bu sa bière !{\i0}
+Dialogue: 0,0:17:05.02,0:17:09.02,Default,,0,0,0,,Vous vouliez faire croire\Nqu'acculé, il s'était suicidé.
+Dialogue: 0,0:17:10.57,0:17:12.82,Default,,0,0,0,,Faire passer ma mort pour un suicide ?
+Dialogue: 0,0:17:13.53,0:17:14.49,Default,,0,0,0,,Mais pourquoi ?
+Dialogue: 0,0:17:17.87,0:17:18.78,Default,,0,0,0,,Probablement,
+Dialogue: 0,0:17:21.83,0:17:23.58,Default,,0,0,0,,à cause de Haruka Ibe...
+Dialogue: 0,0:17:25.71,0:17:27.17,Default,,0,0,0,,Elle n'est pas liée à ça !
+Dialogue: 0,0:17:28.88,0:17:30.05,Default,,0,0,0,,À votre réaction,
+Dialogue: 0,0:17:30.75,0:17:31.92,Default,,0,0,0,,il avait vu juste.
+Dialogue: 0,0:17:34.63,0:17:37.30,Default,,0,0,0,,C'est quoi, le problème avec Haruka ?
+Dialogue: 0,0:17:42.89,0:17:44.43,Default,,0,0,0,,Haruka nous a dit
+Dialogue: 0,0:17:45.60,0:17:47.94,Default,,0,0,0,,que vous étiez de très bons amis,
+Dialogue: 0,0:17:49.23,0:17:51.94,Default,,0,0,0,,mais qu'il n'était pas question\Nd'amour entre vous.
+Dialogue: 0,0:17:52.19,0:17:53.44,Default,,0,0,0,,Et c'est la vérité !
+Dialogue: 0,0:17:54.11,0:17:58.45,Default,,0,0,0,,Peut-être pas pour M. Kôchiyama,\Nà ce qu'on dirait.
+Dialogue: 0,0:18:01.83,0:18:04.12,Default,,0,0,0,,Tu es amoureux de Haruka ?
+Dialogue: 0,0:18:05.87,0:18:08.42,Default,,0,0,0,,Tout en passant\Ndu bon temps tous les trois,
+Dialogue: 0,0:18:09.04,0:18:12.30,Default,,0,0,0,,M. Kôchiyama caressait le désir\Nde garder Haruka
+Dialogue: 0,0:18:12.46,0:18:14.92,Default,,0,0,0,,pour lui tout seul.
+Dialogue: 0,0:18:15.97,0:18:19.47,Default,,0,0,0,,Tout en espérant\Nvous faire disparaître de ce monde.
+Dialogue: 0,0:18:21.60,0:18:25.60,Default,,0,0,0,,Mais avec un simple meurtre,\Nla police aurait enquêté.
+Dialogue: 0,0:18:25.77,0:18:27.89,Default,,0,0,0,,D'où cette idée de suicide.
+Dialogue: 0,0:18:28.44,0:18:30.73,Default,,0,0,0,,Mais pour ça, il fallait un motif.
+Dialogue: 0,0:18:31.56,0:18:35.82,Default,,0,0,0,,C'est alors que M. Kagura\Na été victime d'un explosif
+Dialogue: 0,0:18:36.32,0:18:38.28,Default,,0,0,0,,qui vous a inspiré votre plan.
+Dialogue: 0,0:18:39.86,0:18:42.24,Default,,0,0,0,,Votre suicide serait dû aux remords
+Dialogue: 0,0:18:42.41,0:18:45.33,Default,,0,0,0,,suite aux proportions\Nprises par l'alerte à la bombe,
+Dialogue: 0,0:18:45.54,0:18:48.33,Default,,0,0,0,,dont le but\Nétait de provoquer la panique
+Dialogue: 0,0:18:48.83,0:18:51.08,Default,,0,0,0,,pour toucher d'autres indemnités.
+Dialogue: 0,0:18:51.67,0:18:54.92,Default,,0,0,0,,En fait, c'était cette photo,\Nl'amorce de votre stratagème.
+Dialogue: 0,0:18:56.46,0:18:59.09,Default,,0,0,0,,Ça dure donc depuis deux semaines...
+Dialogue: 0,0:19:00.26,0:19:04.01,Default,,0,0,0,,Le meurtre de M. Ootsubo\Nn'était pas prévu au départ,
+Dialogue: 0,0:19:04.51,0:19:07.52,Default,,0,0,0,,mais vous avez pensé\Nà l'ajouter à la liste.
+Dialogue: 0,0:19:08.35,0:19:10.15,Default,,0,0,0,,Le fait d'avoir tué quelqu'un
+Dialogue: 0,0:19:10.40,0:19:13.11,Default,,0,0,0,,renforçant le mobile du suicide...
+Dialogue: 0,0:19:13.82,0:19:15.73,Default,,0,0,0,,Tout ça n'est que déduction,
+Dialogue: 0,0:19:16.32,0:19:17.90,Default,,0,0,0,,je n'ai aucune preuve.
+Dialogue: 0,0:19:18.24,0:19:22.37,Default,,0,0,0,,Mais si on découvre du poison\Ndans le verre de M. Kagura,
+Dialogue: 0,0:19:22.91,0:19:26.37,Default,,0,0,0,,nous ouvrirons une enquête\Npour tentative de meurtre.
+Dialogue: 0,0:19:26.87,0:19:29.83,Default,,0,0,0,,On éclairera alors\Ntous les aspects de l'affaire.
+Dialogue: 0,0:19:37.42,0:19:40.01,Default,,0,0,0,,Tout est bien comme l'a dit ce petit.
+Dialogue: 0,0:19:40.47,0:19:41.59,Default,,0,0,0,,Vous avouez ?
+Dialogue: 0,0:19:42.26,0:19:44.47,Default,,0,0,0,,Le meurtre de Kikuhide Ootsubo aussi ?
+Dialogue: 0,0:19:45.97,0:19:47.77,Default,,0,0,0,,Il m'avait vu.
+Dialogue: 0,0:19:48.98,0:19:51.14,Default,,0,0,0,,Quand j'ai téléphoné, grimé en agent.
+Dialogue: 0,0:19:52.19,0:19:54.73,Default,,0,0,0,,Ça ne l'avait pas interpellé\Nsur le coup.
+Dialogue: 0,0:20:00.11,0:20:02.49,Default,,0,0,0,,{\i1}Cette tenue, ce ne serait pas...{\i0}
+Dialogue: 0,0:20:03.32,0:20:07.24,Default,,0,0,0,,{\i1}Mais alors,\Nc'est toi qui as passé ce coup de fil !{\i0}
+Dialogue: 0,0:20:07.99,0:20:10.08,Default,,0,0,0,,J'ignorais qu'on me suivait !
+Dialogue: 0,0:20:11.75,0:20:14.46,Default,,0,0,0,,{\i1}Provoquer une cohue\Npour faire le buzz...{\i0}
+Dialogue: 0,0:20:15.29,0:20:19.30,Default,,0,0,0,,{\i1}C'est donc en grugeant\Nque Tanuki Ponkichi gagne ses Likes ?{\i0}
+Dialogue: 0,0:20:20.42,0:20:22.84,Default,,0,0,0,,Il s'était mépris sur le but de l'appel.
+Dialogue: 0,0:20:23.43,0:20:24.76,Default,,0,0,0,,Mais quoi qu'il en soit...
+Dialogue: 0,0:20:25.35,0:20:27.39,Default,,0,0,0,,{\i1}Je vais tout révéler au grand jour !{\i0}
+Dialogue: 0,0:20:27.85,0:20:29.47,Default,,0,0,0,,... s'il me dénonçait,
+Dialogue: 0,0:20:30.56,0:20:32.89,Default,,0,0,0,,il ruinait mon plan\Namorcé il y a 2 semaines.
+Dialogue: 0,0:20:33.94,0:20:35.15,Default,,0,0,0,,Et pour éviter ça,
+Dialogue: 0,0:20:38.19,0:20:41.11,Default,,0,0,0,,j'étais obligé de le faire taire !
+Dialogue: 0,0:20:54.79,0:20:55.96,Default,,0,0,0,,Gô ?
+Dialogue: 0,0:21:00.71,0:21:03.80,Default,,0,0,0,,Pourquoi\Nest-ce que la police t'embarque ?
+Dialogue: 0,0:21:20.32,0:21:21.57,Default,,0,0,0,,Pauvre bouffon !
+Dialogue: 0,0:21:34.91,0:21:37.46,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:37.75,0:21:40.25,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:52.41,0:22:54.74,Default,,0,0,0,,Dire que ce trio s'entendait si bien...
+Dialogue: 0,0:22:54.91,0:22:57.58,Default,,0,0,0,,Les histoires d'adultes,\Nc'est compliqué...
+Dialogue: 0,0:22:59.83,0:23:03.75,Default,,0,0,0,,Qu'y a-t-il, Genta ?\NPourquoi cet air si grave ?
+Dialogue: 0,0:23:04.13,0:23:06.97,Default,,0,0,0,,Combien je vais recevoir d'indemnités ?
+Dialogue: 0,0:23:07.63,0:23:08.34,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:23:09.13,0:23:11.76,Default,,0,0,0,,Au moins 100 bols de riz à l'anguille...
+Dialogue: 0,0:23:12.26,0:23:13.89,Default,,0,0,0,,Les simplets sont effrayants...
+Dialogue: 0,0:23:14.06,0:23:15.89,Default,,0,0,0,,Il a pris un mauvais pli ?
+Dialogue: 0,0:23:16.39,0:23:17.89,Default,,0,0,0,,Tu es nul, Genta !
+Dialogue: 0,0:23:18.35,0:23:19.60,Default,,0,0,0,,C'est minable !
+Dialogue: 0,0:23:19.94,0:23:21.35,Default,,0,0,0,,Ah, attendez !
+Dialogue: 0,0:23:21.52,0:23:23.90,Default,,0,0,0,,Je partagerai avec vous !
+Dialogue: 0,0:23:24.07,0:23:25.73,Default,,0,0,0,,Là n'est pas le problème !
+Dialogue: 0,0:23:25.90,0:23:26.74,Default,,0,0,0,,Va-t'en !
+Dialogue: 0,0:23:26.90,0:23:29.70,Default,,0,0,0,,- Et avec du bouillon de foie ?\N- C'est quoi, ça ?
+Dialogue: 0,0:23:29.86,0:23:31.16,Default,,0,0,0,,C'est écœurant !

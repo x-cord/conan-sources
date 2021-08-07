@@ -1,0 +1,393 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.40,0:00:03.85,ST_HAUT,,0,0,0,,MONT SAIJO,\NDÉPARTEMENT DE NAGANO
+Dialogue: 0,0:00:13.48,0:00:15.44,Default,,0,0,0,,Non, attends...
+Dialogue: 0,0:00:16.05,0:00:18.81,Default,,0,0,0,,Je m'excuse...\NJe te demande pardon !
+Dialogue: 0,0:00:19.17,0:00:21.84,Default,,0,0,0,,Et d'abord, réfléchis un peu...
+Dialogue: 0,0:00:22.05,0:00:24.08,Default,,0,0,0,,Si jamais quelqu'un l'apprend,
+Dialogue: 0,0:00:24.64,0:00:26.21,Default,,0,0,0,,ta vie sera foutue !
+Dialogue: 0,0:00:26.92,0:00:29.04,Default,,0,0,0,,Qui veut vivre à tout prix meurt.
+Dialogue: 0,0:00:33.85,0:00:36.05,Default,,0,0,0,,Qui veut mourir à tout prix vit.
+Dialogue: 0,0:01:00.56,0:01:02.48,Default,,0,0,0,,Je suis Bishamonten...
+Dialogue: 0,0:01:04.84,0:01:06.89,Default,,0,0,0,,Le dieu de la guerre
+Dialogue: 0,0:01:07.80,0:01:09.36,Default,,0,0,0,,qui détruit les piverts.
+Dialogue: 0,0:01:11.89,0:01:15.60,ST_BAS_DROITE,,0,0,0,,{\i1}Vingt ans, et toujours la même envie{\i0}\N{\i1}d'aller plus loin !{\i0}
+Dialogue: 0,0:01:15.89,0:01:17.48,Default,,0,0,0,,{\i1}Sur le champ de bataille,{\i0}
+Dialogue: 0,0:01:17.64,0:01:19.32,Default,,0,0,0,,{\i1}le pivert ébranle la police !{\i0}
+Dialogue: 0,0:01:19.68,0:01:23.29,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:23.45,0:01:25.08,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:26.29,0:01:31.12,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:40.21,0:01:43.73,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:01:49.80,0:01:52.13,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:54.29,0:01:56.41,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:00.64,0:02:04.92,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Hane"
+Dialogue: 0,0:02:06.84,0:02:09.44,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:10.76,0:02:13.25,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:27.84,0:02:30.85,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:02:33.88,0:02:36.89,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:37.96,0:02:41.08,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:54.56,0:02:57.76,Default,,0,0,0,,"Les Ténèbres de la police\Ndépartementale (1re partie)" !
+Dialogue: 0,0:03:00.72,0:03:03.13,Default,,0,0,0,,Et cet endroit où tu voulais\Nqu'on passe...
+Dialogue: 0,0:03:03.28,0:03:06.05,Default,,0,0,0,,Quand on vient à Nagano,\Nil faut absolument voir
+Dialogue: 0,0:03:06.80,0:03:10.05,Default,,0,0,0,,le champ de bataille\Nde Kawanakajima, où Kenshin Uesugi
+Dialogue: 0,0:03:10.40,0:03:13.48,Default,,0,0,0,,a affronté Shingen Takeda.
+Dialogue: 0,0:03:15.04,0:03:18.52,Default,,0,0,0,,Je ne savais pas\Nque tu étais féru d'histoire, papa.
+Dialogue: 0,0:03:18.76,0:03:20.69,Default,,0,0,0,,Ah ? Vraiment ?
+Dialogue: 0,0:03:21.24,0:03:24.52,Default,,0,0,0,,{\i1}À propos, dans le téléfilm historique{\i0}\N{\i1}de l'autre jour,{\i0}
+Dialogue: 0,0:03:24.68,0:03:28.85,Default,,0,0,0,,{\i1}Yôko Okino jouait la princesse Yû,{\i0}\N{\i1}la dulcinée de Kansuke Yamamoto,{\i0}
+Dialogue: 0,0:03:29.00,0:03:30.68,Default,,0,0,0,,{\i1}le stratège du camp Takeda.{\i0}
+Dialogue: 0,0:03:31.04,0:03:34.45,Default,,0,0,0,,Sinon, la spécialité de Nagano,\Nce sont les {\i1}Shinshû soba{\i0}.
+Dialogue: 0,0:03:34.64,0:03:37.16,Default,,0,0,0,,Comment s'appelle\Ncette stratégie, déjà ?
+Dialogue: 0,0:03:37.32,0:03:41.20,Default,,0,0,0,,Celle qui fut utilisée ici,\Nelle a le nom d'un oiseau...
+Dialogue: 0,0:03:41.96,0:03:43.08,Default,,0,0,0,,Le pivert.
+Dialogue: 0,0:03:44.48,0:03:46.44,Default,,0,0,0,,C'est la tactique du pivert, Ran.
+Dialogue: 0,0:03:48.08,0:03:49.56,Default,,0,0,0,,Inspecteur Yui !
+Dialogue: 0,0:03:49.72,0:03:52.00,Default,,0,0,0,,Au cours de cette opération,
+Dialogue: 0,0:03:52.48,0:03:54.96,Default,,0,0,0,,à l'image du pivert\Nqui martèle l'écorce
+Dialogue: 0,0:03:55.12,0:03:58.84,Default,,0,0,0,,et attend la sortie des insectes\Nde l'autre côté du tronc,
+Dialogue: 0,0:03:59.36,0:04:01.84,Default,,0,0,0,,la moitié de l'armée de Takeda
+Dialogue: 0,0:04:02.12,0:04:05.60,Default,,0,0,0,,attaqua de nuit les forces de Uesugi\Npostées en montagne,
+Dialogue: 0,0:04:05.76,0:04:07.84,Default,,0,0,0,,et quand celles-ci\Ndévalèrent la pente,
+Dialogue: 0,0:04:08.00,0:04:10.40,Default,,0,0,0,,l'autre moitié l'attendait en bas.
+Dialogue: 0,0:04:10.60,0:04:13.20,Default,,0,0,0,,Pris en tenaille,\Nl'ennemi devait être anéanti !
+Dialogue: 0,0:04:14.00,0:04:17.84,Default,,0,0,0,,Et cette célèbre tactique\Naurait été suggérée à Shingen Takeda
+Dialogue: 0,0:04:18.00,0:04:20.88,Default,,0,0,0,,par Kansuke Yamamoto...\NN'est-ce pas, Kan ?
+Dialogue: 0,0:04:21.04,0:04:24.28,Default,,0,0,0,,C'est pas moi qui l'ai conçue...
+Dialogue: 0,0:04:24.72,0:04:28.36,Default,,0,0,0,,Mais comme Kenshin Uesugi\Navait tout deviné,
+Dialogue: 0,0:04:28.52,0:04:32.68,Default,,0,0,0,,le plan s'avéra décevant,\Net surtout fatal pour Shingen Takeda.
+Dialogue: 0,0:04:32.84,0:04:35.52,Default,,0,0,0,,C'était pas mon plan,\Nje vous dis...
+Dialogue: 0,0:04:36.08,0:04:38.36,Default,,0,0,0,,Qu'est-ce qui vous amène ?
+Dialogue: 0,0:04:38.52,0:04:39.24,Default,,0,0,0,,Un crime ?
+Dialogue: 0,0:04:39.68,0:04:44.00,Default,,0,0,0,,Non, nous faisons juste un saut,\Nde retour d'une enquête de terrain.
+Dialogue: 0,0:04:44.36,0:04:47.24,Default,,0,0,0,,Le commissaire Yamato\Nn'était jamais venu...
+Dialogue: 0,0:04:47.84,0:04:50.52,Default,,0,0,0,,{\i1}Kansuke Yamato,{\i0}\N{\i1}de la police de Nagano.{\i0}
+Dialogue: 0,0:04:51.16,0:04:54.68,Default,,0,0,0,,{\i1}Borgne, grand, les cheveux longs,{\i0}\N{\i1}marchant avec une canne.{\i0}
+Dialogue: 0,0:04:55.40,0:04:58.84,Default,,0,0,0,,{\i1}L'individu le plus proche{\i0}\N{\i1}de la description que Haibara{\i0}
+Dialogue: 0,0:04:59.00,0:05:01.76,Default,,0,0,0,,{\i1}a faite de Rum,{\i0}\N{\i1}le n° 2 des Hommes en noir.{\i0}
+Dialogue: 0,0:05:02.60,0:05:03.76,Default,,0,0,0,,{\i1}Je me demande{\i0}
+Dialogue: 0,0:05:04.44,0:05:05.88,Default,,0,0,0,,{\i1}si c'est vraiment lui...{\i0}
+Dialogue: 0,0:05:08.64,0:05:09.96,Default,,0,0,0,,Bah quoi, petit ?
+Dialogue: 0,0:05:10.12,0:05:12.04,Default,,0,0,0,,J'ai un truc sur la figure ?
+Dialogue: 0,0:05:12.20,0:05:13.12,Default,,0,0,0,,Non, rien...
+Dialogue: 0,0:05:17.64,0:05:19.16,Default,,0,0,0,,Oh ! Yamato !
+Dialogue: 0,0:05:21.04,0:05:23.00,Default,,0,0,0,,Qu'est-ce que tu fous là ?
+Dialogue: 0,0:05:23.64,0:05:27.08,ST_HAUT,,0,0,0,,Tu te balades en amoureux\Navec Uehara, ton amie d'enfance,
+Dialogue: 0,0:05:27.24,0:05:29.36,ST_HAUT,,0,0,0,,pendant vos heures de service ?
+Dialogue: 0,0:05:29.72,0:05:31.36,Default,,0,0,0,,Mais pas du tout !
+Dialogue: 0,0:05:32.00,0:05:34.00,Default,,0,0,0,,Et vous,\Nque venez-vous faire ici ?
+Dialogue: 0,0:05:35.56,0:05:39.44,Default,,0,0,0,,Sur le chemin de la planque\Nd'un braqueur en cavale,
+Dialogue: 0,0:05:39.60,0:05:43.16,Default,,0,0,0,,on est passés se recueillir\Nsur la tombe de Shingen.
+Dialogue: 0,0:05:43.88,0:05:46.32,Default,,0,0,0,,Moi, je suis pas là pour glander...
+Dialogue: 0,0:05:46.48,0:05:48.32,Default,,0,0,0,,Je m'appelle pas Aburakawa.
+Dialogue: 0,0:05:49.12,0:05:51.68,Default,,0,0,0,,Mon nom, c'est "Akiyama",\Npas "Aburakawa" !
+Dialogue: 0,0:05:52.28,0:05:55.32,ST_HAUT,,0,0,0,,Je vous l'ai dit...\NMes parents ont divorcé l'an passé,
+Dialogue: 0,0:05:55.48,0:05:57.96,ST_HAUT,,0,0,0,,et j'ai pris le nom de ma mère !
+Dialogue: 0,0:05:58.40,0:05:59.48,Default,,0,0,0,,Désolé...
+Dialogue: 0,0:05:59.64,0:06:01.96,Default,,0,0,0,,Sinon,\Nvous n'avez pas vu notre chef ?
+Dialogue: 0,0:06:02.32,0:06:04.44,Default,,0,0,0,,Vous parlez bien de M. Takeda ?
+Dialogue: 0,0:06:04.88,0:06:08.32,ST_HAUT,,0,0,0,,Oui, on devait se retrouver ici,
+Dialogue: 0,0:06:08.48,0:06:10.96,ST_HAUT,,0,0,0,,mais il est introuvable.
+Dialogue: 0,0:06:11.44,0:06:13.16,Default,,0,0,0,,Et injoignable au téléphone.
+Dialogue: 0,0:06:13.32,0:06:15.56,Default,,0,0,0,,Où il peut bien être passé ?
+Dialogue: 0,0:06:15.72,0:06:17.72,Default,,0,0,0,,Il a dû se tromper d'endroit...
+Dialogue: 0,0:06:17.88,0:06:19.76,Default,,0,0,0,,Il n'est plus tout jeune...
+Dialogue: 0,0:06:19.92,0:06:21.08,Default,,0,0,0,,C'est possible.
+Dialogue: 0,0:06:21.24,0:06:23.40,Default,,0,0,0,,- Allons voir ailleurs !\N- On vous laisse.
+Dialogue: 0,0:06:24.32,0:06:27.88,Default,,0,0,0,,Attends. Si vous trouvez Takeda,\Ndites-lui ceci...
+Dialogue: 0,0:06:28.36,0:06:31.36,Default,,0,0,0,,"Même si c'est un ordre\Nvenu d'en-haut,
+Dialogue: 0,0:06:31.64,0:06:33.56,Default,,0,0,0,,"plutôt crever
+Dialogue: 0,0:06:34.68,0:06:36.76,Default,,0,0,0,,"que retourner dans votre équipe !"
+Dialogue: 0,0:06:39.20,0:06:41.16,Default,,0,0,0,,D'accord, on lui transmettra.
+Dialogue: 0,0:06:41.44,0:06:44.08,Default,,0,0,0,,Tu serais pourtant parfait\Npour notre équipe.
+Dialogue: 0,0:06:44.68,0:06:45.92,Default,,0,0,0,,Oui, c'est dommage...
+Dialogue: 0,0:06:48.48,0:06:51.40,Default,,0,0,0,,Il a eu des ennuis, ce Takeda ?
+Dialogue: 0,0:06:51.56,0:06:54.16,Default,,0,0,0,,Quelques-uns, par le passé.
+Dialogue: 0,0:06:54.44,0:06:59.16,Default,,0,0,0,,Mais voulez-vous que je vous guide\Nsur l'ancien champ de bataille ?
+Dialogue: 0,0:06:59.56,0:07:00.52,Default,,0,0,0,,Vous feriez ça ?
+Dialogue: 0,0:07:01.00,0:07:05.16,Default,,0,0,0,,Il est vrai qu'on a un peu de temps\Navant le début de la réunion.
+Dialogue: 0,0:07:05.48,0:07:09.60,Default,,0,0,0,,Et si on retourne déjà au Q.G.,\Non n'aura droit qu'à ton café dégueu.
+Dialogue: 0,0:07:09.76,0:07:13.44,Default,,0,0,0,,Je te permets pas !\NLe chef a dit qu'il s'était amélioré.
+Dialogue: 0,0:07:13.96,0:07:16.32,Default,,0,0,0,,Ça, c'était l'ancien chef de la crim'.
+Dialogue: 0,0:07:16.60,0:07:19.00,Default,,0,0,0,,Le chef actuel préfère le thé,\Nje crois.
+Dialogue: 0,0:07:19.28,0:07:21.72,Default,,0,0,0,,Un amateur de thé ?\NAvec cette gueule ?
+Dialogue: 0,0:07:21.88,0:07:25.00,Default,,0,0,0,,T'es mal placé\Npour dénigrer la tête des autres.
+Dialogue: 0,0:07:25.16,0:07:27.24,Default,,0,0,0,,Dépêchons,\Nsi vous le voulez bien.
+Dialogue: 0,0:07:28.24,0:07:32.24,Default,,0,0,0,,Kansuke Yamamoto serait mort\Nà cet endroit, d'où le nom
+Dialogue: 0,0:07:32.76,0:07:34.12,Default,,0,0,0,,de "sanctuaire Kansuke".
+Dialogue: 0,0:07:34.92,0:07:37.52,Default,,0,0,0,,Ici, c'est la tombe de Kansuke.
+Dialogue: 0,0:07:38.32,0:07:38.88,Default,,0,0,0,,Et là,
+Dialogue: 0,0:07:39.56,0:07:43.36,Default,,0,0,0,,c'est le pont où sa tête et son corps\Nont parfaitement coïncidé.
+Dialogue: 0,0:07:43.68,0:07:45.64,Default,,0,0,0,,"Parfaitement coïncidé" ?
+Dialogue: 0,0:07:46.04,0:07:50.12,Default,,0,0,0,,Oui. Les serviteurs de Kansuke\Nont récupéré quelques-unes
+Dialogue: 0,0:07:50.28,0:07:53.40,Default,,0,0,0,,des têtes des généraux alliés\Nprises par l'ennemi,
+Dialogue: 0,0:07:53.56,0:07:57.16,Default,,0,0,0,,mais, couvertes de sang,\Nelles n'étaient pas identifiables.
+Dialogue: 0,0:07:57.60,0:08:00.72,Default,,0,0,0,,Sauf que l'une d'elles\Na parfaitement collé
+Dialogue: 0,0:08:00.88,0:08:04.40,Default,,0,0,0,,avec le corps décapité\Nqui portait l'armure de Kansuke...
+Dialogue: 0,0:08:04.88,0:08:06.68,Default,,0,0,0,,Et ça s'est passé sur ce pont.
+Dialogue: 0,0:08:08.24,0:08:09.16,Default,,0,0,0,,En fait...
+Dialogue: 0,0:08:09.72,0:08:14.60,Default,,0,0,0,,c'est plus un "Kansuke Yamato tour"\Nqu'une visite du champ de bataille.
+Dialogue: 0,0:08:14.96,0:08:16.48,Default,,0,0,0,,Non, disons que...
+Dialogue: 0,0:08:16.64,0:08:18.08,Default,,0,0,0,,Quoi de plus normal...
+Dialogue: 0,0:08:18.68,0:08:22.84,Default,,0,0,0,,Quand votre ami d'enfance\Ns'appelle Kansuke Yamato,
+Dialogue: 0,0:08:23.00,0:08:24.76,Default,,0,0,0,,Kansuke Yamamoto\Nvous intéresse.
+Dialogue: 0,0:08:25.20,0:08:29.04,Default,,0,0,0,,J'espère juste que,\Nmalgré la ressemblance de vos noms,
+Dialogue: 0,0:08:29.20,0:08:32.32,Default,,0,0,0,,tu n'iras pas au-devant de la mort\Npour expier l'échec,
+Dialogue: 0,0:08:32.48,0:08:34.36,Default,,0,0,0,,comme Kansuke Yamamoto.
+Dialogue: 0,0:08:34.88,0:08:39.92,Default,,0,0,0,,Enfin, toi, tu n'as pas l'air du genre\Nà être dérangé outre mesure par l'échec.
+Dialogue: 0,0:08:40.08,0:08:40.76,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:08:41.96,0:08:43.80,Default,,0,0,0,,Allons allons, vous deux...
+Dialogue: 0,0:08:44.12,0:08:46.72,Default,,0,0,0,,Ça va être l'heure.\NVoulez-vous, pour finir,
+Dialogue: 0,0:08:46.88,0:08:49.28,Default,,0,0,0,,- aller voir la rivière Chikuma ?\N- OK !
+Dialogue: 0,0:08:52.44,0:08:54.04,Default,,0,0,0,,Quelle belle vue !
+Dialogue: 0,0:08:55.08,0:08:55.72,Default,,0,0,0,,Et la rivière
+Dialogue: 0,0:08:56.24,0:08:57.72,Default,,0,0,0,,est tout aussi belle !
+Dialogue: 0,0:08:58.40,0:09:02.20,Default,,0,0,0,,Difficile d'imaginer que ce fut\Nautrefois un champ de bataille.
+Dialogue: 0,0:09:02.56,0:09:07.08,Default,,0,0,0,,Il me semble qu'il y a un poème\Nsur cette rivière du champ de bataille.
+Dialogue: 0,0:09:08.96,0:09:09.96,Default,,0,0,0,,"Des tas d'os
+Dialogue: 0,0:09:10.16,0:09:12.72,Default,,0,0,0,,"Qui font couler leur fluide,
+Dialogue: 0,0:09:13.16,0:09:16.64,Default,,0,0,0,,"Vestiges de guerriers\Ndans l'eau de la rivière rouge."
+Dialogue: 0,0:09:23.36,0:09:24.48,Default,,0,0,0,,"La rivière rouge" ?
+Dialogue: 0,0:09:25.04,0:09:26.60,Default,,0,0,0,,C'est-à-dire ?
+Dialogue: 0,0:09:27.08,0:09:30.36,Default,,0,0,0,,Il n'est pas sûr que c'était\Nun affluent de cette Chikuma,
+Dialogue: 0,0:09:30.96,0:09:32.88,Default,,0,0,0,,mais, en tout cas,
+Dialogue: 0,0:09:33.04,0:09:36.84,Default,,0,0,0,,plus de 8 000 hommes auraient\Ntrouvé la mort à Kawanakajima.
+Dialogue: 0,0:09:37.60,0:09:40.84,Default,,0,0,0,,Ce poème de Retsu Asai\Nrend hommage aux soldats tués,
+Dialogue: 0,0:09:41.96,0:09:43.84,Default,,0,0,0,,et dont le sang aurait,
+Dialogue: 0,0:09:44.00,0:09:46.20,Default,,0,0,0,,selon la légende,\Nteint la rivière de rouge
+Dialogue: 0,0:09:46.88,0:09:49.24,Default,,0,0,0,,durant 3 jours et 3 nuits.
+Dialogue: 0,0:09:51.68,0:09:54.72,Default,,0,0,0,,Depuis cette bataille,\Nla rivière et le sanctuaire
+Dialogue: 0,0:09:54.88,0:09:57.96,Default,,0,0,0,,sont appelés "Akagawa",\Nc'est-à-dire "rivière rouge".
+Dialogue: 0,0:09:58.76,0:10:00.36,Default,,0,0,0,,Faut pas exagérer...
+Dialogue: 0,0:10:00.92,0:10:04.88,Default,,0,0,0,,Comment une rivière pourrait\Nrester rouge sang pendant 3...
+Dialogue: 0,0:10:08.08,0:10:08.80,Default,,0,0,0,,Du sang !
+Dialogue: 0,0:10:12.20,0:10:13.08,Default,,0,0,0,,On dirait...
+Dialogue: 0,0:10:15.84,0:10:16.84,Default,,0,0,0,,Une tête humaine !
+Dialogue: 0,0:10:17.16,0:10:19.24,Default,,0,0,0,,Uehara... Appelle les experts !
+Dialogue: 0,0:10:19.40,0:10:20.64,Default,,0,0,0,,Tout de suite !
+Dialogue: 0,0:10:29.60,0:10:32.16,Default,,0,0,0,,C'est vraiment une tête humaine ?
+Dialogue: 0,0:10:32.32,0:10:33.16,Default,,0,0,0,,Oui.
+Dialogue: 0,0:10:33.52,0:10:35.28,Default,,0,0,0,,Et on connaissait cet homme.
+Dialogue: 0,0:10:37.00,0:10:40.04,Default,,0,0,0,,C'est le commissaire Shigeru Takeda,
+Dialogue: 0,0:10:40.80,0:10:44.24,Default,,0,0,0,,chef d'une équipe\Nde la brigade criminelle de Nagano.
+Dialogue: 0,0:10:46.16,0:10:48.40,Default,,0,0,0,,Mais où se trouve son corps ?
+Dialogue: 0,0:10:49.64,0:10:50.84,Default,,0,0,0,,Ici.
+Dialogue: 0,0:10:51.44,0:10:53.32,Default,,0,0,0,,Il semble hélas avoir été brûlé
+Dialogue: 0,0:10:53.48,0:10:55.76,Default,,0,0,0,,et quelque peu dégradé.
+Dialogue: 0,0:10:56.52,0:10:58.36,Default,,0,0,0,,Impossible d'y accoler la tête
+Dialogue: 0,0:10:58.52,0:11:01.60,Default,,0,0,0,,comme ce fut fait\Npour Kansuke Yamamoto.
+Dialogue: 0,0:11:05.92,0:11:07.36,Default,,0,0,0,,Le commissaire Takeda ?
+Dialogue: 0,0:11:08.24,0:11:10.40,Default,,0,0,0,,- Qui a pu faire ça ?\N- Et pourquoi ?
+Dialogue: 0,0:11:10.80,0:11:12.52,Default,,0,0,0,,D'après l'état du cadavre,
+Dialogue: 0,0:11:12.68,0:11:15.28,Default,,0,0,0,,on l'a brûlé\Nil y a plus de 12 heures.
+Dialogue: 0,0:11:15.92,0:11:20.28,Default,,0,0,0,,Alors pourquoi n'y avait-il que la tête\Nquand j'ai regardé la rivière ?
+Dialogue: 0,0:11:20.88,0:11:24.28,Default,,0,0,0,,Sûrement parce qu'elle était pendue\Nà la rampe du pont.
+Dialogue: 0,0:11:25.60,0:11:26.64,Default,,0,0,0,,Regardez !
+Dialogue: 0,0:11:29.72,0:11:31.92,Default,,0,0,0,,Il y a un genre de ruban,\Nattaché.
+Dialogue: 0,0:11:32.36,0:11:36.88,Default,,0,0,0,,Le coupable a dû mettre cette tête\Net du faux sang dans un sac plastique.
+Dialogue: 0,0:11:37.04,0:11:41.44,Default,,0,0,0,,Au bout d'un moment, le ruban\Ndevait céder, et le sac, tomber à l'eau.
+Dialogue: 0,0:11:41.84,0:11:44.84,Default,,0,0,0,,Et des pierres dans ce sac\Nl'ont fait couler.
+Dialogue: 0,0:11:45.08,0:11:47.80,Default,,0,0,0,,J'en suis certain.\NÇa a même fait "plouf".
+Dialogue: 0,0:11:48.12,0:11:49.84,Default,,0,0,0,,T'es d'accord, Kogorô ?
+Dialogue: 0,0:11:50.28,0:11:51.08,Default,,0,0,0,,Ouais...
+Dialogue: 0,0:11:51.24,0:11:52.68,Default,,0,0,0,,Pourquoi du faux sang ?
+Dialogue: 0,0:11:53.16,0:11:57.68,Default,,0,0,0,,Au lieu de descendre la rivière,\Ndu vrai sang aurait coagulé et fondu.
+Dialogue: 0,0:11:58.24,0:12:00.92,Default,,0,0,0,,Mais pourquoi se donner ce mal ?
+Dialogue: 0,0:12:01.08,0:12:03.24,Default,,0,0,0,,Pour que la tête soit découverte.
+Dialogue: 0,0:12:03.68,0:12:06.00,Default,,0,0,0,,Moi, je l'ai vue émerger par hasard,
+Dialogue: 0,0:12:06.16,0:12:10.24,Default,,0,0,0,,mais sinon, elle aurait juste eu l'air\Nd'un déchet qui flottait.
+Dialogue: 0,0:12:10.64,0:12:14.32,Default,,0,0,0,,Euh... Il avait sur le front\Nune tache de sang anormale,
+Dialogue: 0,0:12:14.48,0:12:17.44,Default,,0,0,0,,et le luminol a révélé\Nune marque étrange.
+Dialogue: 0,0:12:17.64,0:12:18.12,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:12:20.60,0:12:23.32,Default,,0,0,0,,C'est la lettre "x" ?
+Dialogue: 0,0:12:23.48,0:12:27.52,Default,,0,0,0,,Non, on dirait plutôt\Nune trace d'animal.
+Dialogue: 0,0:12:28.08,0:12:29.52,Default,,0,0,0,,Une trace de pivert.
+Dialogue: 0,0:12:32.28,0:12:36.36,Default,,0,0,0,,Pour pouvoir rester fermement\Naccroché à l'arbre,
+Dialogue: 0,0:12:37.08,0:12:40.36,Default,,0,0,0,,le pivert\Na des pattes en forme de "x".
+Dialogue: 0,0:12:40.92,0:12:42.48,Default,,0,0,0,,Vous ne le saviez pas ?
+Dialogue: 0,0:12:44.00,0:12:45.40,Default,,0,0,0,,{\i1}Un homme grand{\i0}
+Dialogue: 0,0:12:46.76,0:12:47.84,Default,,0,0,0,,{\i1}et borgne !{\i0}
+Dialogue: 0,0:12:55.36,0:12:56.24,Default,,0,0,0,,Le meurtrier
+Dialogue: 0,0:12:57.08,0:12:59.48,Default,,0,0,0,,devait sacrément en vouloir\Nà Takeda.
+Dialogue: 0,0:13:00.12,0:13:04.28,Default,,0,0,0,,Enfin, on n'est pas sûr\Nque ce soit vraiment son corps.
+Dialogue: 0,0:13:04.44,0:13:06.16,Default,,0,0,0,,Mais il y a un moyen...
+Dialogue: 0,0:13:06.68,0:13:09.24,Default,,0,0,0,,Au bout d'une chaussure\Nayant survécu au feu,
+Dialogue: 0,0:13:09.40,0:13:11.56,Default,,0,0,0,,on a trouvé un gros orteil droit.
+Dialogue: 0,0:13:11.72,0:13:14.04,Default,,0,0,0,,On devrait pouvoir vérifier\Navec l'ADN.
+Dialogue: 0,0:13:14.80,0:13:15.80,ST_HAUT,,0,0,0,,Très bien...
+Dialogue: 0,0:13:16.04,0:13:17.72,ST_HAUT,,0,0,0,,Faites-le tout de suite.
+Dialogue: 0,0:13:18.12,0:13:22.20,ST_HAUT,,0,0,0,,À propos, l'équipe Takeda\Navait un mandat pour se rendre
+Dialogue: 0,0:13:22.36,0:13:25.52,ST_HAUT,,0,0,0,,au repaire d'un braqueur\Nrecherché par les services.
+Dialogue: 0,0:13:26.04,0:13:28.68,Default,,0,0,0,,Depuis ce matin,\NTakeda était injoignable
+Dialogue: 0,0:13:28.84,0:13:31.76,Default,,0,0,0,,et on l'a attendu en vain\Nau sanctuaire Hachiman.
+Dialogue: 0,0:13:32.24,0:13:34.60,Default,,0,0,0,,Finalement,\Non est entrés sans lui
+Dialogue: 0,0:13:34.76,0:13:36.92,Default,,0,0,0,,dans la baraque du braqueur,
+Dialogue: 0,0:13:37.08,0:13:40.04,Default,,0,0,0,,mais elle était vide,\Nil devait savoir qu'on venait.
+Dialogue: 0,0:13:40.56,0:13:44.40,Default,,0,0,0,,Alors que nous nous étions séparés\Npour chercher le commissaire,
+Dialogue: 0,0:13:44.72,0:13:47.56,Default,,0,0,0,,nous avons appris\Nqu'on avait trouvé son corps.
+Dialogue: 0,0:13:47.92,0:13:52.04,Default,,0,0,0,,Il nous aurait devancé\Npour se confronter seul au malfaiteur ?
+Dialogue: 0,0:13:52.20,0:13:55.04,Default,,0,0,0,,- Et il aurait été tué ?\N- Connaissant Takeda,
+Dialogue: 0,0:13:55.84,0:13:56.84,Default,,0,0,0,,ça m'étonnerait...
+Dialogue: 0,0:13:57.24,0:14:01.56,Default,,0,0,0,,Il préférait tuer un suspect\Nplutôt que de le laisser filer.
+Dialogue: 0,0:14:02.16,0:14:06.32,Default,,0,0,0,,Moi, ce qui m'intrigue,\Nc'est la trace de pivert sur le front.
+Dialogue: 0,0:14:06.48,0:14:09.44,Default,,0,0,0,,Il faut trouver ce qu'elle signifie...
+Dialogue: 0,0:14:10.08,0:14:14.36,Default,,0,0,0,,Le tueur a juste dû utiliser une patte\Nde pivert pour faire une croix,
+Dialogue: 0,0:14:14.52,0:14:16.28,Default,,0,0,0,,comme sur un tableau de chasse.
+Dialogue: 0,0:14:16.44,0:14:18.96,Default,,0,0,0,,Toujours aussi flippantes,\Ntes hypothèses...
+Dialogue: 0,0:14:19.40,0:14:23.36,Default,,0,0,0,,Quelqu'un voit un lien\Nentre Takeda et les piverts ?
+Dialogue: 0,0:14:23.52,0:14:24.96,Default,,0,0,0,,- Non.\N- Pas spécialement.
+Dialogue: 0,0:14:25.48,0:14:26.72,Default,,0,0,0,,La Société des Piverts.
+Dialogue: 0,0:14:30.20,0:14:32.68,Default,,0,0,0,,Mon défunt mari Yoshirô Torada
+Dialogue: 0,0:14:32.84,0:14:34.72,Default,,0,0,0,,m'avait dit un jour
+Dialogue: 0,0:14:35.44,0:14:40.12,Default,,0,0,0,,qu'il y avait, dans la police de Nagano,\Nun groupe nommé "la Société des Piverts".
+Dialogue: 0,0:14:40.88,0:14:43.96,Default,,0,0,0,,Jamais entendu parler...\NC'est quel genre de groupe ?
+Dialogue: 0,0:14:44.56,0:14:49.08,Default,,0,0,0,,Quand je lui ai dit que j'étais\Nune ex-policière, il est devenu muet,
+Dialogue: 0,0:14:49.84,0:14:53.24,Default,,0,0,0,,mais en tout cas,\Nil ne semblait pas en penser du bien.
+Dialogue: 0,0:14:53.68,0:14:54.68,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:14:55.04,0:14:58.04,Default,,0,0,0,,Enfin, si on a brûlé\Nle corps sous ce pont,
+Dialogue: 0,0:14:58.20,0:15:01.12,Default,,0,0,0,,quelqu'un a peut-être vu\Ndu feu ou de la fumée.
+Dialogue: 0,0:15:01.36,0:15:05.00,Default,,0,0,0,,Saegusa, Kano et Akiyama,\Nfaites l'enquête de terrain.
+Dialogue: 0,0:15:05.16,0:15:05.76,Default,,0,0,0,,Bien !
+Dialogue: 0,0:15:06.44,0:15:08.72,Default,,0,0,0,,Yamamoto, Morofushi et Uehara,
+Dialogue: 0,0:15:08.88,0:15:12.32,Default,,0,0,0,,trouvez qui pouvait lui en vouloir\Nà cause d'une affaire.
+Dialogue: 0,0:15:12.48,0:15:13.16,Default,,0,0,0,,Compris !
+Dialogue: 0,0:15:13.80,0:15:16.24,Default,,0,0,0,,Cherchez bien.\NSi cette trace de pivert
+Dialogue: 0,0:15:16.40,0:15:19.76,Default,,0,0,0,,représente ce que Yamato a suggéré,
+Dialogue: 0,0:15:20.00,0:15:21.80,Default,,0,0,0,,le suspect compte peut-être
+Dialogue: 0,0:15:21.96,0:15:25.20,Default,,0,0,0,,tous nous accrocher\Nà son tableau de chasse.
+Dialogue: 0,0:15:25.96,0:15:29.60,Default,,0,0,0,,J'ai entendu parler de vous,\Nmonsieur le détective Kogorô Môri.
+Dialogue: 0,0:15:29.92,0:15:34.52,Default,,0,0,0,,Navré, mais vous suivrez Uehara\Net les autres pendant un moment.
+Dialogue: 0,0:15:34.68,0:15:37.56,Default,,0,0,0,,Vous êtes l'un de ceux\Nqui ont trouvé le corps.
+Dialogue: 0,0:15:37.72,0:15:38.44,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:15:38.96,0:15:40.04,Default,,0,0,0,,C'est naturel !
+Dialogue: 0,0:15:40.56,0:15:41.68,Default,,0,0,0,,Inspecteur Yui...
+Dialogue: 0,0:15:42.44,0:15:43.96,Default,,0,0,0,,Qu'y a-t-il, Conan ?
+Dialogue: 0,0:15:44.68,0:15:47.48,Default,,0,0,0,,J'aimerais vous poser\Ndes questions, après.
+Dialogue: 0,0:15:51.84,0:15:55.08,ST_HAUT,,0,0,0,,Hein ? Il est resté\Nprès de 10 ans dans le coma ?
+Dialogue: 0,0:15:55.72,0:15:57.00,Default,,0,0,0,,À l'hôpital de la police ?
+Dialogue: 0,0:15:57.64,0:16:02.00,Default,,0,0,0,,Le chef Kuroda a apparemment\Neu un grave accident.
+Dialogue: 0,0:16:02.40,0:16:03.40,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:16:03.76,0:16:06.48,Default,,0,0,0,,c'est pour ça qu'il a été muté\Nà cet âge-là.
+Dialogue: 0,0:16:06.64,0:16:08.76,Default,,0,0,0,,Oui. D'habitude, on est plus jeune,
+Dialogue: 0,0:16:08.92,0:16:12.28,Default,,0,0,0,,quand on est muté\Nde Tokyo vers la province.
+Dialogue: 0,0:16:12.68,0:16:14.60,Default,,0,0,0,,Alors, cette brûlure...
+Dialogue: 0,0:16:14.92,0:16:17.28,Default,,0,0,0,,Elle doit être liée\Nà son accident...
+Dialogue: 0,0:16:18.08,0:16:19.96,Default,,0,0,0,,Et son œil gauche est une prothèse.
+Dialogue: 0,0:16:20.12,0:16:23.80,Default,,0,0,0,,L'infirmière qui a ôté le bandage\Nde son visage a eu un choc.
+Dialogue: 0,0:16:24.32,0:16:28.44,Default,,0,0,0,,Le stress de l'accident avait\Ntotalement blanchi ses cheveux noirs.
+Dialogue: 0,0:16:28.60,0:16:30.28,Default,,0,0,0,,On aurait dit un autre homme.
+Dialogue: 0,0:16:30.92,0:16:32.04,Default,,0,0,0,,{\i1}"Un autre homme" ?{\i0}
+Dialogue: 0,0:16:32.60,0:16:34.28,Default,,0,0,0,,Même s'il est réveillé,
+Dialogue: 0,0:16:34.44,0:16:38.48,Default,,0,0,0,,il dit qu'il a oublié\Nune foule de petits détails.
+Dialogue: 0,0:16:39.00,0:16:42.16,Default,,0,0,0,,Le chef t'intéresse tant que ça,\NConan ?
+Dialogue: 0,0:16:42.32,0:16:43.32,Default,,0,0,0,,Pas vraiment.
+Dialogue: 0,0:16:43.48,0:16:45.60,Default,,0,0,0,,Je comprendrais qu'il t'intrigue...
+Dialogue: 0,0:16:46.00,0:16:48.96,Default,,0,0,0,,Il a une gueule de super-boss\Nd'une organisation.
+Dialogue: 0,0:16:50.76,0:16:54.08,Default,,0,0,0,,Franchement,\Nton visage n'est pas plus rassurant...
+Dialogue: 0,0:16:54.24,0:16:56.12,Default,,0,0,0,,Tu peux pas la fermer, toi ?
+Dialogue: 0,0:16:56.28,0:16:57.84,Default,,0,0,0,,Bon, vous avez du nouveau ?
+Dialogue: 0,0:16:58.44,0:17:00.92,Default,,0,0,0,,Oui. Sur le PC\Nde la salle de recherches,
+Dialogue: 0,0:17:01.08,0:17:04.32,Default,,0,0,0,,j'ai vu toutes les affaires\Nde la carrière de M. Takeda.
+Dialogue: 0,0:17:04.48,0:17:07.84,Default,,0,0,0,,Bien sûr, les plus notables\Nsont les deux fois
+Dialogue: 0,0:17:08.00,0:17:09.48,Default,,0,0,0,,où il a abattu un suspect.
+Dialogue: 0,0:17:09.80,0:17:11.32,Default,,0,0,0,,Il les a tués ?
+Dialogue: 0,0:17:12.08,0:17:14.72,Default,,0,0,0,,Oui. La 1re affaire\Ndate d'il y a 9 ans.
+Dialogue: 0,0:17:16.72,0:17:20.08,Default,,0,0,0,,Un toxico tirant dans les rues\Nsur tout ce qui bouge.
+Dialogue: 0,0:17:20.84,0:17:24.60,Default,,0,0,0,,Puis, il y a 6 mois,\Nun preneur d'otages dans une banque.
+Dialogue: 0,0:17:25.24,0:17:29.60,Default,,0,0,0,,Les deux se sont fait\Nexploser la cervelle par Takeda.
+Dialogue: 0,0:17:30.20,0:17:33.28,Default,,0,0,0,,Malgré leur mort,\Nleurs dossiers ont été instruits.
+Dialogue: 0,0:17:33.44,0:17:35.76,Default,,0,0,0,,Alors, des proches de ces 2 criminels
+Dialogue: 0,0:17:35.92,0:17:37.60,Default,,0,0,0,,lui en ont voulu pour ça ?
+Dialogue: 0,0:17:37.80,0:17:42.20,Default,,0,0,0,,Nous le pensions, mais les parents\Ndu type retranché dans une banque
+Dialogue: 0,0:17:42.36,0:17:45.72,Default,,0,0,0,,se sont tués de dépit,\Net il n'avait ni frère ni sœur.
+Dialogue: 0,0:17:46.36,0:17:50.60,Default,,0,0,0,,Les parents du tireur fou d'il y a 9 ans,\Neux, sont morts de maladie.
+Dialogue: 0,0:17:51.08,0:17:54.12,Default,,0,0,0,,Il ne reste que\Nla grand-mère octogénaire du suspect.
+Dialogue: 0,0:17:54.88,0:17:57.36,Default,,0,0,0,,Je vois mal cette mamie\Ncommettre un tel crime.
+Dialogue: 0,0:17:57.96,0:18:00.56,Default,,0,0,0,,Au fait,\Ntu n'as pas vu de fumée étrange
+Dialogue: 0,0:18:00.72,0:18:02.92,Default,,0,0,0,,ou d'individu louche ?
+Dialogue: 0,0:18:04.20,0:18:07.84,Default,,0,0,0,,Ce pont est sur ton parcours\Ndestiné à rééduquer ta jambe.
+Dialogue: 0,0:18:08.12,0:18:10.96,Default,,0,0,0,,Aujourd'hui,\Nj'avais trop à faire pour y aller.
+Dialogue: 0,0:18:12.88,0:18:15.28,Default,,0,0,0,,Désolé.\NVoilà encore un truc à faire.
+Dialogue: 0,0:18:15.96,0:18:18.20,Default,,0,0,0,,Envoie-moi un message\Ns'il y a du nouveau.
+Dialogue: 0,0:18:18.36,0:18:19.36,Default,,0,0,0,,Kan !
+Dialogue: 0,0:18:19.52,0:18:23.16,Default,,0,0,0,,Le commissaire Yamato\Na dit "cette mamie"...
+Dialogue: 0,0:18:23.32,0:18:25.04,Default,,0,0,0,,Il connaît la grand-mère ?
+Dialogue: 0,0:18:25.56,0:18:27.60,Default,,0,0,0,,Oui. Le tireur fou,
+Dialogue: 0,0:18:27.76,0:18:30.96,Default,,0,0,0,,qui avait semé la panique\Ndans les rues il y a 9 ans,
+Dialogue: 0,0:18:31.88,0:18:34.36,Default,,0,0,0,,était l'un de ses amis d'enfance.
+Dialogue: 0,0:18:35.08,0:18:39.92,Default,,0,0,0,,Je les revois, gamins, s'amuser\Nensemble jusqu'à la nuit tombée.
+Dialogue: 0,0:18:40.28,0:18:41.60,Default,,0,0,0,,J'étais un peu jalouse.
+Dialogue: 0,0:18:42.00,0:18:43.52,Default,,0,0,0,,Vous jalousiez cet ami...
+Dialogue: 0,0:18:43.68,0:18:45.84,Default,,0,0,0,,Mais ne le dis pas à Kan !
+Dialogue: 0,0:18:46.00,0:18:46.92,Default,,0,0,0,,Juré !
+Dialogue: 0,0:18:47.08,0:18:50.60,Default,,0,0,0,,Voilà pourquoi il a dit ça,\Nau sanctuaire...
+Dialogue: 0,0:18:51.24,0:18:52.96,Default,,0,0,0,,{\i1}"plutôt crever{\i0}
+Dialogue: 0,0:18:54.20,0:18:56.12,Default,,0,0,0,,{\i1}"que retourner dans votre équipe !"{\i0}
+Dialogue: 0,0:18:56.44,0:18:59.84,Default,,0,0,0,,C'est parce que Takeda\Na abattu son ami.
+Dialogue: 0,0:19:00.00,0:19:00.84,Default,,0,0,0,,Oui.
+Dialogue: 0,0:19:01.32,0:19:02.88,Default,,0,0,0,,Et sous ses yeux, en plus.
+Dialogue: 0,0:19:03.96,0:19:08.36,Default,,0,0,0,,Membre de l'équipe Takeda,\NKansuke était sur les lieux.
+Dialogue: 0,0:19:08.80,0:19:12.12,Default,,0,0,0,,Mais, comme le forcené\Nfaisait des victimes,
+Dialogue: 0,0:19:12.84,0:19:15.60,Default,,0,0,0,,il était prétendument\Ninévitable de le tuer.
+Dialogue: 0,0:19:22.04,0:19:23.92,Default,,0,0,0,,C'est pas vrai... Où il est ?
+Dialogue: 0,0:19:26.28,0:19:29.80,Default,,0,0,0,,Le rapport d'enquête\Nde cette affaire devrait être...
+Dialogue: 0,0:19:30.12,0:19:32.16,Default,,0,0,0,,Ça y est ! Je l'ai trouvé.
+Dialogue: 0,0:19:37.96,0:19:40.32,Default,,0,0,0,,MORT D'UNE BALLE DANS LA TÊTE
+Dialogue: 0,0:19:41.28,0:19:44.32,Default,,0,0,0,,Je vois... C'était donc ça.
+Dialogue: 0,0:19:48.04,0:19:51.04,Default,,0,0,0,,Je dois vite le lui faire savoir.
+Dialogue: 0,0:19:57.92,0:19:59.04,Default,,0,0,0,,Hé, où est Yamato ?
+Dialogue: 0,0:19:59.52,0:20:01.76,Default,,0,0,0,,Où il s'est tiré, cet enfoiré ?
+Dialogue: 0,0:20:01.92,0:20:03.40,Default,,0,0,0,,Qu'est-il arrivé ?
+Dialogue: 0,0:20:04.00,0:20:07.04,Default,,0,0,0,,Le groupe de Saegusa\Na eu un renseignement.
+Dialogue: 0,0:20:07.20,0:20:11.92,Default,,0,0,0,,Ce matin, un témoin a vu près du pont\Nquelqu'un qui ressemblait à Yamato.
+Dialogue: 0,0:20:12.64,0:20:14.52,Default,,0,0,0,,Hein ? Mais Kan...
+Dialogue: 0,0:20:14.68,0:20:17.56,Default,,0,0,0,,Le commissaire Yamato\Nnie y être passé ce matin !
+Dialogue: 0,0:20:18.12,0:20:20.24,Default,,0,0,0,,En tout cas, on doit lui parler.
+Dialogue: 0,0:20:21.64,0:20:22.96,Default,,0,0,0,,C'est lui.
+Dialogue: 0,0:20:24.32,0:20:27.00,Default,,0,0,0,,- Kansuke ?\N{\i1}- M. Kano est là ?{\i0}
+Dialogue: 0,0:20:27.20,0:20:29.16,Default,,0,0,0,,Il demande où est M. Kano.
+Dialogue: 0,0:20:29.64,0:20:33.40,Default,,0,0,0,,Après s'être aperçu de quelque chose,\Nil est retourné chez lui.
+Dialogue: 0,0:20:33.56,0:20:38.00,Default,,0,0,0,,Il y garde les copies des rapports\Ndes enquêtes auxquelles il a été mêlé.
+Dialogue: 0,0:20:38.16,0:20:39.84,Default,,0,0,0,,Il est retourné chez lui.
+Dialogue: 0,0:20:40.68,0:20:42.52,Default,,0,0,0,,Que lui voulais-tu ?
+Dialogue: 0,0:20:42.68,0:20:45.08,Default,,0,0,0,,{\i1}J'ai sur mon portable{\i0}
+Dialogue: 0,0:20:45.24,0:20:47.60,Default,,0,0,0,,{\i1}plus de 10 appels manqués{\i0}\N{\i1}venant de lui.{\i0}
+Dialogue: 0,0:20:48.08,0:20:51.36,Default,,0,0,0,,Et il ne décroche pas.\NIl a forcément eu un problème !
+Dialogue: 0,0:20:51.72,0:20:54.08,Default,,0,0,0,,{\i1}Je vais chez lui,{\i0}\N{\i1}retrouvez-moi là-bas !{\i0}
+Dialogue: 0,0:20:54.64,0:20:55.64,Default,,0,0,0,,Attends...
+Dialogue: 0,0:20:56.24,0:20:57.12,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:20:57.52,0:21:02.04,Default,,0,0,0,,Il trouve inquiétant que M. Kano\Nlui ait passé de nombreux appels,
+Dialogue: 0,0:21:02.20,0:21:04.20,Default,,0,0,0,,et fonce à son domicile.
+Dialogue: 0,0:21:04.36,0:21:04.84,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:21:05.20,0:21:07.68,Default,,0,0,0,,Nous devrions nous y rendre,\Nnous aussi.
+Dialogue: 0,0:21:07.84,0:21:08.84,Default,,0,0,0,,Compris !
+Dialogue: 0,0:21:11.20,0:21:13.20,Default,,0,0,0,,- Morofushi...\N- Commissaire ?
+Dialogue: 0,0:21:14.40,0:21:16.68,Default,,0,0,0,,Ne lâche pas Yamato des yeux.
+Dialogue: 0,0:21:17.56,0:21:20.96,Default,,0,0,0,,Aujourd'hui, c'est le 9e anniversaire\Nde la fusillade
+Dialogue: 0,0:21:21.16,0:21:23.16,Default,,0,0,0,,et de la mort de son ami.
+Dialogue: 0,0:21:23.88,0:21:25.52,Default,,0,0,0,,Tu vois ce que je veux dire ?
+Dialogue: 0,0:21:26.20,0:21:27.16,Default,,0,0,0,,Oui.
+Dialogue: 0,0:21:28.88,0:21:30.60,Default,,0,0,0,,Ce n'est pas fermé à clé.
+Dialogue: 0,0:21:34.20,0:21:35.48,Default,,0,0,0,,{\i1}Les godasses de Kan...{\i0}
+Dialogue: 0,0:21:38.68,0:21:40.72,Default,,0,0,0,,- Où es-tu ?\N- M. Kano !
+Dialogue: 0,0:21:50.84,0:21:53.52,Default,,0,0,0,,Je suis Bishamonten.
+Dialogue: 0,0:21:55.68,0:21:57.00,Default,,0,0,0,,Ah... Kan !
+Dialogue: 0,0:21:57.52,0:21:59.96,Default,,0,0,0,,Le dieu de la guerre
+Dialogue: 0,0:22:01.28,0:22:02.88,Default,,0,0,0,,qui détruit les piverts.
+Dialogue: 0,0:22:16.72,0:22:19.20,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:19.56,0:22:21.88,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

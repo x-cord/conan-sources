@@ -1,0 +1,391 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.04,0:00:04.29,Default,,0,0,0,,{\i1}En voyage à Tottori,{\i0}\N{\i1}Kogorô, Ran et moi débarquons{\i0}
+Dialogue: 0,0:00:04.88,0:00:06.56,Default,,0,0,0,,{\i1}sur les lieux d'un vol.{\i0}
+Dialogue: 0,0:00:07.85,0:00:10.01,Default,,0,0,0,,{\i1}Un individu a agressé Shûko Kumadô,{\i0}
+Dialogue: 0,0:00:10.17,0:00:12.08,Default,,0,0,0,,{\i1}la belle-fille{\i0}\N{\i1}d'un notable local,{\i0}
+Dialogue: 0,0:00:13.05,0:00:15.04,Default,,0,0,0,,{\i1}et a dérobé{\i0}\N{\i1}un précieux encensoir.{\i0}
+Dialogue: 0,0:00:16.64,0:00:19.93,Default,,0,0,0,,{\i1}Un temps suspectée,{\i0}\N{\i1}l'ex-employée de maison Naomi Senda{\i0}
+Dialogue: 0,0:00:20.12,0:00:21.56,Default,,0,0,0,,{\i1}est blanchie par un alibi.{\i0}
+Dialogue: 0,0:00:22.73,0:00:25.81,Default,,0,0,0,,{\i1}Alors que Kogorô{\i0}\N{\i1}penche pour la piste familiale,{\i0}
+Dialogue: 0,0:00:26.52,0:00:30.16,Default,,0,0,0,,{\i1}l'encensoir volé{\i0}\N{\i1}est inexplicablement rendu.{\i0}
+Dialogue: 0,0:00:32.84,0:00:34.45,Default,,0,0,0,,{\i1}Amour et enquêtes géniales,{\i0}
+Dialogue: 0,0:00:34.64,0:00:36.36,Default,,0,0,0,,{\i1}les fondamentaux demeurent !{\i0}
+Dialogue: 0,0:00:36.73,0:00:38.60,Default,,0,0,0,,{\i1}Un vol trop plein de mystères.{\i0}
+Dialogue: 0,0:00:38.77,0:00:40.84,Default,,0,0,0,,{\i1}Qui accuser, dans les dunes ? {\i0}
+Dialogue: 0,0:00:41.24,0:00:44.36,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:44.64,0:00:46.85,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:06.73,0:01:10.36,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:15.17,0:01:18.68,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:01:19.45,0:01:22.69,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:28.68,0:01:31.17,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:34.29,0:01:38.21,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Nazo"
+Dialogue: 0,0:01:44.28,0:01:46.32,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:48.20,0:01:50.44,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:00.88,0:02:03.65,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:02:04.68,0:02:06.97,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:08.16,0:02:10.45,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:17.00,0:02:20.72,Default,,0,0,0,,{\i1}"Jeu de piste à Tottori{\i0}\N{\i1}(2e partie : Tottori)" !{\i0}
+Dialogue: 0,0:02:23.68,0:02:24.60,Default,,0,0,0,,Le coupable
+Dialogue: 0,0:02:24.88,0:02:26.73,Default,,0,0,0,,a piteusement jeté l'éponge.
+Dialogue: 0,0:02:28.24,0:02:33.25,Default,,0,0,0,,Il savait forcément qu'après ce vol,\Nla police ne quitterait pas les lieux.
+Dialogue: 0,0:02:33.76,0:02:37.53,Default,,0,0,0,,Il l'a quand même commis,\Nsûr de pouvoir extorquer de l'argent,
+Dialogue: 0,0:02:38.08,0:02:40.92,Default,,0,0,0,,mais il y a eu\Nun événement imprévu...
+Dialogue: 0,0:02:41.64,0:02:43.12,Default,,0,0,0,,L'entrée en jeu
+Dialogue: 0,0:02:43.40,0:02:46.09,Default,,0,0,0,,du célèbre détective Kogorô Môri !
+Dialogue: 0,0:02:48.04,0:02:50.44,Default,,0,0,0,,Impressionné par un tel adversaire,
+Dialogue: 0,0:02:50.60,0:02:54.77,Default,,0,0,0,,il a craint d'être démasqué\Ns'il gardait le trésor avec lui
+Dialogue: 0,0:02:54.92,0:02:56.28,Default,,0,0,0,,et l'a rendu fissa.
+Dialogue: 0,0:02:58.32,0:03:00.85,Default,,0,0,0,,Or, seuls les membres\Nde la famille Kumadô
+Dialogue: 0,0:03:01.00,0:03:03.16,Default,,0,0,0,,savaient que j'étais de la partie.
+Dialogue: 0,0:03:03.60,0:03:06.48,Default,,0,0,0,,Conclusion :\Nle coupable est bien parmi vous !
+Dialogue: 0,0:03:13.84,0:03:17.52,ST_HAUT,,0,0,0,,La peur du détective\Nt'a poussée à le rendre, Makie ?
+Dialogue: 0,0:03:17.96,0:03:19.48,ST_HAUT,,0,0,0,,C'est pas toi, plutôt ?
+Dialogue: 0,0:03:20.36,0:03:21.72,ST_HAUT,,0,0,0,,Ou alors, Sôichi.
+Dialogue: 0,0:03:22.92,0:03:24.40,ST_HAUT,,0,0,0,,C'est pas moi, je vous dis.
+Dialogue: 0,0:03:25.12,0:03:26.32,ST_HAUT,,0,0,0,,Ça suffit !
+Dialogue: 0,0:03:26.72,0:03:29.60,ST_HAUT,,0,0,0,,Remarquez,\Ndu moment qu'on l'a récupéré,
+Dialogue: 0,0:03:29.76,0:03:31.84,Default,,0,0,0,,peu importe qui était le coupable.
+Dialogue: 0,0:03:33.24,0:03:34.24,ST_HAUT,,0,0,0,,C'est vrai...
+Dialogue: 0,0:03:35.28,0:03:38.88,ST_HAUT,,0,0,0,,Vous plaisantez ?\NIl s'agit tout de même d'un vol...
+Dialogue: 0,0:03:39.64,0:03:42.96,Default,,0,0,0,,Pourquoi le coupable\Na-t-il donc rendu l'encensoir ?
+Dialogue: 0,0:03:44.40,0:03:46.20,Default,,0,0,0,,Je vous l'ai dit,\Nil a renoncé.
+Dialogue: 0,0:03:46.36,0:03:48.48,Default,,0,0,0,,Et il avait trop peur de le garder.
+Dialogue: 0,0:03:49.04,0:03:51.36,Default,,0,0,0,,Dans ce cas,\Nil n'avait qu'à le jeter,
+Dialogue: 0,0:03:51.52,0:03:52.88,Default,,0,0,0,,au lieu de le rendre.
+Dialogue: 0,0:03:54.72,0:03:55.96,Default,,0,0,0,,C'est pas faux...
+Dialogue: 0,0:03:56.56,0:03:58.64,Default,,0,0,0,,Il est consciencieux, ce voleur.
+Dialogue: 0,0:04:02.92,0:04:05.56,Default,,0,0,0,,Comment identifier\Nle coupable parmi eux ?
+Dialogue: 0,0:04:06.32,0:04:08.56,Default,,0,0,0,,En suivant votre piste familiale,
+Dialogue: 0,0:04:08.72,0:04:11.52,Default,,0,0,0,,nous allons faire éplucher\Nleurs 4 alibis.
+Dialogue: 0,0:04:11.68,0:04:15.64,Default,,0,0,0,,Ran, le môme et moi,\Non ne pouvait pas tout examiner...
+Dialogue: 0,0:04:15.80,0:04:17.84,Default,,0,0,0,,Il faut trouver l'alibi bidon.
+Dialogue: 0,0:04:18.00,0:04:20.04,Default,,0,0,0,,On devrait vite avoir la réponse.
+Dialogue: 0,0:04:20.60,0:04:23.68,Default,,0,0,0,,{\i1}Je laisse Kogorô et la police{\i0}\N{\i1}enquêter sur ces gens{\i0}
+Dialogue: 0,0:04:24.24,0:04:26.12,Default,,0,0,0,,{\i1}et je m'occupe de l'autre...{\i0}
+Dialogue: 0,0:04:27.08,0:04:30.88,Default,,0,0,0,,Il n'y aurait pas quelqu'un\Nqui connaîtrait bien Naomi Senda ?
+Dialogue: 0,0:04:34.52,0:04:36.20,Default,,0,0,0,,Tu la trouves louche, non ?
+Dialogue: 0,0:04:36.56,0:04:39.44,Default,,0,0,0,,On ne connaît pas ses relations...
+Dialogue: 0,0:04:39.60,0:04:42.52,Default,,0,0,0,,Et elle n'a plus de famille\Ndepuis longtemps...
+Dialogue: 0,0:04:42.84,0:04:44.96,Default,,0,0,0,,Elle disait avoir un oncle, non ?
+Dialogue: 0,0:04:46.48,0:04:47.76,Default,,0,0,0,,Ah oui, peut-être...
+Dialogue: 0,0:04:48.72,0:04:52.24,Default,,0,0,0,,Je crois qu'il était employé\Nau musée de la Poire.
+Dialogue: 0,0:04:55.36,0:04:58.76,ST_HAUT,,0,0,0,,MUSÉE DE LA POIRE JAPONAISE\N"NIJISSEIKI" DE TOTTORI
+Dialogue: 0,0:04:59.12,0:05:02.36,Default,,0,0,0,,C'est vrai qu'elle est louche,\Ncette Naomi.
+Dialogue: 0,0:05:02.52,0:05:04.76,Default,,0,0,0,,Son alibi avait l'air préparé.
+Dialogue: 0,0:05:05.20,0:05:06.52,Default,,0,0,0,,Il n'y a pas que ça...
+Dialogue: 0,0:05:06.68,0:05:10.72,Default,,0,0,0,,Pourquoi avait-elle rendu visite\Naux Kumadô, la veille du vol ?
+Dialogue: 0,0:05:11.20,0:05:12.76,Default,,0,0,0,,Pour emprunter de l'argent !
+Dialogue: 0,0:05:13.32,0:05:14.64,Default,,0,0,0,,Ah, c'est lui...
+Dialogue: 0,0:05:19.80,0:05:23.40,Default,,0,0,0,,C'est l'un des plus grands poiriers\N{\i1}nijisseiki {\i0}du Japon...
+Dialogue: 0,0:05:23.88,0:05:26.92,ST_HAUT,,0,0,0,,- Je vous en prie...\N- Euh, nous aurions des questions...
+Dialogue: 0,0:05:27.60,0:05:29.92,ST_HAUT,,0,0,0,,Au sujet de Naomi, j'imagine.
+Dialogue: 0,0:05:30.28,0:05:33.92,Default,,0,0,0,,Il paraît\Nqu'elle est lourdement endettée.
+Dialogue: 0,0:05:34.44,0:05:36.56,Default,,0,0,0,,Tu vois ?\ND'où sa demande de prêt...
+Dialogue: 0,0:05:36.80,0:05:39.56,Default,,0,0,0,,Mais elle n'avait aucune chance\Nde l'obtenir...
+Dialogue: 0,0:05:39.76,0:05:41.08,Default,,0,0,0,,{\i1}Évidemment !{\i0}
+Dialogue: 0,0:05:41.24,0:05:44.20,Default,,0,0,0,,{\i1}Ça lui apprendra{\i0}\N{\i1}à partir avec mon pognon !{\i0}
+Dialogue: 0,0:05:44.84,0:05:46.04,Default,,0,0,0,,Tu as raison.
+Dialogue: 0,0:05:46.60,0:05:50.08,Default,,0,0,0,,Si ça se trouve,\Nelle avait un atout dans sa manche...
+Dialogue: 0,0:05:51.36,0:05:54.96,Default,,0,0,0,,Du genre, un truc compromettant\Nsur l'un des Kumadô !
+Dialogue: 0,0:05:59.60,0:06:00.20,Default,,0,0,0,,Allô.
+Dialogue: 0,0:06:01.44,0:06:03.20,Default,,0,0,0,,Entendu, j'arrive.
+Dialogue: 0,0:06:04.64,0:06:08.00,Default,,0,0,0,,Je suis navré,\Nmais nous avons un problème...
+Dialogue: 0,0:06:08.44,0:06:10.36,Default,,0,0,0,,Vous avez repensé\Nà quelque chose ?
+Dialogue: 0,0:06:12.16,0:06:14.64,Default,,0,0,0,,C'est vrai ?\NDites-nous ce que c'est...
+Dialogue: 0,0:06:16.20,0:06:18.40,Default,,0,0,0,,Je l'avais réprimandée\Ncar elle ricanait
+Dialogue: 0,0:06:18.56,0:06:21.80,Default,,0,0,0,,de gens\Nqui la traitaient si bien.
+Dialogue: 0,0:06:22.24,0:06:25.80,Default,,0,0,0,,{\i1}Elle a vu un homme en cachette,{\i0}\N{\i1}dans les dunes.{\i0}
+Dialogue: 0,0:06:26.24,0:06:30.76,ST_HAUT,,0,0,0,,{\i1}J'aurais pas cru ça d'elle,{\i0}\N{\i1}avec ses airs de sainte-nitouche...{\i0}
+Dialogue: 0,0:06:33.52,0:06:36.72,Default,,0,0,0,,C'était il y a 2 ans,\Njuste avant sa démission.
+Dialogue: 0,0:06:36.88,0:06:39.88,Default,,0,0,0,,Quelle idiote !\N"C'est trop beau", qu'elle disait !
+Dialogue: 0,0:06:42.44,0:06:45.52,Default,,0,0,0,,"Trop beau" ?\NElle l'a fait chanter, je suppose.
+Dialogue: 0,0:06:45.68,0:06:48.76,Default,,0,0,0,,Mais Shûko\Ntrompait vraiment son mari ?
+Dialogue: 0,0:06:49.08,0:06:51.12,Default,,0,0,0,,Que ce soit le cas ou non,\Ntoujours est-il
+Dialogue: 0,0:06:51.28,0:06:53.96,Default,,0,0,0,,que Naomi avait vu\Nla rencontre secrète.
+Dialogue: 0,0:06:54.16,0:06:57.04,Default,,0,0,0,,Menacée d'être dénoncée,
+Dialogue: 0,0:06:57.20,0:06:59.76,Default,,0,0,0,,Shûko a dû la payer\Npour avoir son silence.
+Dialogue: 0,0:07:00.60,0:07:04.76,Default,,0,0,0,,Mais je doute qu'elle ait eu\Ntant d'argent que ça à disposition.
+Dialogue: 0,0:07:05.80,0:07:08.08,Default,,0,0,0,,Mais oui, j'ai compris !
+Dialogue: 0,0:07:08.24,0:07:10.64,Default,,0,0,0,,C'est pour ça\Nque Shûko était ligotée.
+Dialogue: 0,0:07:11.76,0:07:13.12,Default,,0,0,0,,Sois plus clair...
+Dialogue: 0,0:07:16.96,0:07:18.92,Default,,0,0,0,,Ils ont tous les quatre un alibi ?
+Dialogue: 0,0:07:19.64,0:07:23.92,Default,,0,0,0,,Tous ont été vus par des témoins\Nvers 13 h au moment des faits...
+Dialogue: 0,0:07:24.20,0:07:26.24,Default,,0,0,0,,Que ce soit Iwao, le patriarche,
+Dialogue: 0,0:07:26.44,0:07:28.20,Default,,0,0,0,,Makie, l'aînée,
+Dialogue: 0,0:07:28.56,0:07:30.48,Default,,0,0,0,,Sôichi, le cadet,
+Dialogue: 0,0:07:30.64,0:07:32.40,Default,,0,0,0,,ou Junji, le benjamin.
+Dialogue: 0,0:07:32.88,0:07:35.28,Default,,0,0,0,,Ils sont tous les quatre innocents ?
+Dialogue: 0,0:07:39.76,0:07:42.00,Default,,0,0,0,,{\i1}Pourtant,{\i0}\N{\i1}seul un membre de la famille{\i0}
+Dialogue: 0,0:07:42.24,0:07:44.88,Default,,0,0,0,,{\i1}pouvait avoir les clés,{\i0}
+Dialogue: 0,0:07:45.04,0:07:49.08,Default,,0,0,0,,{\i1}et ramasser le collier que Naomi Senda{\i0}\N{\i1}avait fait tomber la veille.{\i0}
+Dialogue: 0,0:07:49.52,0:07:52.40,Default,,0,0,0,,{\i1}Une seconde...{\i0}\N{\i1}Si ça se trouve,{\i0}
+Dialogue: 0,0:07:52.72,0:07:54.12,Default,,0,0,0,,{\i1}cette affaire de vol...{\i0}
+Dialogue: 0,0:07:57.40,0:07:59.08,Default,,0,0,0,,Alors, toi aussi ?
+Dialogue: 0,0:07:59.24,0:08:01.64,Default,,0,0,0,,J'ai eu la même intuition\Nque ce môme ?
+Dialogue: 0,0:08:02.12,0:08:05.52,Default,,0,0,0,,Mais vous n'avez fait\Nque de simples hypothèses...
+Dialogue: 0,0:08:06.00,0:08:07.92,Default,,0,0,0,,Il manque des preuves, hein ?
+Dialogue: 0,0:08:08.40,0:08:09.84,Default,,0,0,0,,Mais, d'après moi,
+Dialogue: 0,0:08:10.12,0:08:14.64,Default,,0,0,0,,on peut contester le fait\Nque le vol ait eu lieu vers 13 h.
+Dialogue: 0,0:08:15.48,0:08:17.08,Default,,0,0,0,,Kumadô ?
+Dialogue: 0,0:08:18.72,0:08:23.20,Default,,0,0,0,,C'est à midi pile\Nque je suis venu la première fois.
+Dialogue: 0,0:08:26.76,0:08:30.60,Default,,0,0,0,,Mais comme personne ne répondait,\Nj'ai laissé un avis de passage et,
+Dialogue: 0,0:08:31.24,0:08:34.32,Default,,0,0,0,,après avoir reçu un coup de fil\Nen ce sens,
+Dialogue: 0,0:08:34.48,0:08:37.12,Default,,0,0,0,,je suis revenu livrer.\NC'est tout ?
+Dialogue: 0,0:08:37.84,0:08:39.84,Default,,0,0,0,,Pardon de vous avoir dérangé.
+Dialogue: 0,0:08:42.12,0:08:46.40,Default,,0,0,0,,J'avais trouvé un peu étrange\Nque Shûko aille hâtivement à la porte.
+Dialogue: 0,0:08:46.80,0:08:47.76,Default,,0,0,0,,{\i1}Allô.{\i0}
+Dialogue: 0,0:08:48.64,0:08:49.52,Default,,0,0,0,,{\i1}Un colis ?{\i0}
+Dialogue: 0,0:08:50.00,0:08:50.88,Default,,0,0,0,,{\i1}J'arrive.{\i0}
+Dialogue: 0,0:08:51.04,0:08:52.68,Default,,0,0,0,,{\i1}Laisse, j'y vais.{\i0}
+Dialogue: 0,0:08:53.88,0:08:58.56,Default,,0,0,0,,Elle craignait que la famille apprenne\Nque le livreur était déjà venu.
+Dialogue: 0,0:08:58.84,0:09:00.28,Default,,0,0,0,,Et que,\Nseule à la maison,
+Dialogue: 0,0:09:00.88,0:09:04.04,Default,,0,0,0,,elle n'avait pas pu\Nréceptionner le colis à midi.
+Dialogue: 0,0:09:04.44,0:09:06.92,Default,,0,0,0,,Shûko, à ce moment-là...
+Dialogue: 0,0:09:12.92,0:09:14.96,Default,,0,0,0,,... était sûrement déjà ligotée.
+Dialogue: 0,0:09:16.84,0:09:18.56,Default,,0,0,0,,Oui, ça se tient.
+Dialogue: 0,0:09:19.80,0:09:21.32,Default,,0,0,0,,Tout commence\Nil y a 2 ans
+Dialogue: 0,0:09:21.80,0:09:25.08,Default,,0,0,0,,quand Naomi Senda voit Shûko\Nrencontrer un homme
+Dialogue: 0,0:09:25.24,0:09:27.56,Default,,0,0,0,,dans les dunes.
+Dialogue: 0,0:09:27.96,0:09:31.56,Default,,0,0,0,,À partir de là,\Nelle se met à la faire chanter.
+Dialogue: 0,0:09:31.88,0:09:36.08,Default,,0,0,0,,À chaque fois, Shûko a dû\Ntrouver l'argent à grand-peine.
+Dialogue: 0,0:09:36.68,0:09:38.32,Default,,0,0,0,,Ça ne pouvait pas durer.
+Dialogue: 0,0:09:38.64,0:09:40.12,Default,,0,0,0,,Elles s'accocient
+Dialogue: 0,0:09:40.28,0:09:44.20,Default,,0,0,0,,et projettent de voler l'encensoir\Npour extorquer de l'argent.
+Dialogue: 0,0:09:45.32,0:09:47.12,Default,,0,0,0,,Une fois seule à la maison,
+Dialogue: 0,0:09:47.28,0:09:49.80,Default,,0,0,0,,Shûko cache l'objet quelque part,
+Dialogue: 0,0:09:50.36,0:09:54.16,Default,,0,0,0,,et fait entrer Naomi Senda\Npar la porte de derrière.
+Dialogue: 0,0:09:54.68,0:09:58.16,Default,,0,0,0,,Celle-ci lui attache les mains\Net les pieds,
+Dialogue: 0,0:09:58.64,0:10:00.64,Default,,0,0,0,,place le collier sous le sofa,
+Dialogue: 0,0:10:01.32,0:10:02.48,Default,,0,0,0,,fissure un pot,
+Dialogue: 0,0:10:02.64,0:10:05.48,Default,,0,0,0,,puis, fixant\Nle moment de l'agression à 13 h,
+Dialogue: 0,0:10:06.04,0:10:09.00,Default,,0,0,0,,part se fabriquer un alibi\Npour cet horaire.
+Dialogue: 0,0:10:09.92,0:10:11.92,Default,,0,0,0,,{\i1}J'ai perdu mon temps{\i0}\N{\i1}et mes sous.{\i0}
+Dialogue: 0,0:10:12.92,0:10:15.84,Default,,0,0,0,,{\i1}Elle retarde, cette horloge.{\i0}
+Dialogue: 0,0:10:17.08,0:10:18.16,Default,,0,0,0,,{\i1}Désolée, Kazuma.{\i0}
+Dialogue: 0,0:10:18.68,0:10:20.00,Default,,0,0,0,,{\i1}Ce ne sera pas long.{\i0}
+Dialogue: 0,0:10:21.04,0:10:23.92,Default,,0,0,0,,Et, à l'heure convenue,\NShûko appelle la police.
+Dialogue: 0,0:10:24.36,0:10:28.92,Default,,0,0,0,,Elle était ligotée pour faire croire\Nà un cambriolage, c'est ça ?
+Dialogue: 0,0:10:29.52,0:10:31.84,Default,,0,0,0,,Le plus capital\Ndans cette mise en scène
+Dialogue: 0,0:10:32.00,0:10:34.60,Default,,0,0,0,,était de cacher\Nqu'elles étaient complices.
+Dialogue: 0,0:10:35.12,0:10:38.36,Default,,0,0,0,,Alors, elles ont utilisé le collier\Npour se disputer.
+Dialogue: 0,0:10:38.88,0:10:42.84,Default,,0,0,0,,Elles ont carrément tenté\Nde se faire passer pour des ennemies.
+Dialogue: 0,0:10:43.48,0:10:47.04,Default,,0,0,0,,Elles avaient lié leur destin ?\NÇa sent pas bon...
+Dialogue: 0,0:10:47.44,0:10:48.72,Default,,0,0,0,,Mais, Kogorô...
+Dialogue: 0,0:10:48.92,0:10:51.40,Default,,0,0,0,,Pourquoi Shûko\Na-t-elle rendu l'encensoir ?
+Dialogue: 0,0:10:52.80,0:10:55.24,Default,,0,0,0,,Elle a eu peur de moi,\Nje vous ai dit !
+Dialogue: 0,0:10:55.56,0:10:57.72,Default,,0,0,0,,Elle aurait renoncé si facilement ?
+Dialogue: 0,0:10:57.92,0:11:00.12,Default,,0,0,0,,Elle avait pourtant besoin d'argent.
+Dialogue: 0,0:11:01.40,0:11:02.56,Default,,0,0,0,,Pour payer Naomi ?
+Dialogue: 0,0:11:02.88,0:11:04.56,Default,,0,0,0,,Et puis, à ce moment-là...
+Dialogue: 0,0:11:05.04,0:11:07.32,Default,,0,0,0,,{\i1}J'assurerai votre protection.{\i0}
+Dialogue: 0,0:11:08.64,0:11:11.16,Default,,0,0,0,,{\i1}Pas la peine,{\i0}\N{\i1}c'est juste pour me faire peur.{\i0}
+Dialogue: 0,0:11:11.60,0:11:13.92,Default,,0,0,0,,Si elle voulait montrer\Nleur inimitié...
+Dialogue: 0,0:11:14.40,0:11:16.80,Default,,0,0,0,,... elle aurait accepté\Ncette protection
+Dialogue: 0,0:11:16.96,0:11:19.32,Default,,0,0,0,,en disant craindre le pire de Naomi.
+Dialogue: 0,0:11:19.56,0:11:20.96,Default,,0,0,0,,Je ne pourrai comprendre
+Dialogue: 0,0:11:21.12,0:11:23.80,Default,,0,0,0,,qu'en confrontant l'intéressée\Nà ma théorie !
+Dialogue: 0,0:11:24.88,0:11:26.80,Default,,0,0,0,,Hein ?\NPartie voir Naomi Senda ?
+Dialogue: 0,0:11:27.24,0:11:28.84,Default,,0,0,0,,Oui. Elle vient de sortir.
+Dialogue: 0,0:11:29.28,0:11:32.04,Default,,0,0,0,,{\i1}Naomi vient de m'appeler,{\i0}\N{\i1}elle veut me voir.{\i0}
+Dialogue: 0,0:11:32.72,0:11:35.24,Default,,0,0,0,,{\i1}Elle semble encore fâchée{\i0}\N{\i1}contre moi.{\i0}
+Dialogue: 0,0:11:35.92,0:11:38.00,Default,,0,0,0,,{\i1}Je voudrais lui faire mes excuses.{\i0}
+Dialogue: 0,0:11:38.68,0:11:39.68,Default,,0,0,0,,{\i1}D'accord, vas-y.{\i0}
+Dialogue: 0,0:11:39.84,0:11:42.52,Default,,0,0,0,,{\i1}Je garderai Kazuma avec Sôichi.{\i0}
+Dialogue: 0,0:11:46.12,0:11:48.40,Default,,0,0,0,,Naomi Senda lui a demandé de venir ?
+Dialogue: 0,0:11:48.56,0:11:50.00,Default,,0,0,0,,C'était le bon moment.
+Dialogue: 0,0:11:50.60,0:11:54.52,Default,,0,0,0,,Sans le retour de l'encensoir,\Nmon père l'aurait sûrement retenue.
+Dialogue: 0,0:11:54.72,0:11:56.00,Default,,0,0,0,,La garce !
+Dialogue: 0,0:11:56.16,0:11:59.40,Default,,0,0,0,,Après cet échec,\Nelle l'appelle pour un autre plan !
+Dialogue: 0,0:11:59.56,0:12:00.72,Default,,0,0,0,,C'est pas vrai !
+Dialogue: 0,0:12:01.04,0:12:05.08,Default,,0,0,0,,Mais, dans ce cas, Shûko\Nn'aurait pas dit qu'elle allait la voir.
+Dialogue: 0,0:12:05.36,0:12:06.44,Default,,0,0,0,,Où va-t-elle ?
+Dialogue: 0,0:12:06.92,0:12:09.08,Default,,0,0,0,,Elle a parlé de la côte d'Uradome.
+Dialogue: 0,0:12:09.40,0:12:10.40,Default,,0,0,0,,{\i1}La côte ?{\i0}
+Dialogue: 0,0:12:11.00,0:12:12.08,Default,,0,0,0,,Faut la stopper !
+Dialogue: 0,0:12:13.28,0:12:14.80,Default,,0,0,0,,Shûko a des problèmes ?
+Dialogue: 0,0:12:15.00,0:12:16.96,Default,,0,0,0,,{\i1}Ça y est, j'ai compris !{\i0}
+Dialogue: 0,0:12:17.84,0:12:21.36,Default,,0,0,0,,{\i1}Vite ! C'est maintenant{\i0}\N{\i1}que le vrai drame va survenir !{\i0}
+Dialogue: 0,0:12:26.24,0:12:28.00,ST_HAUT,,0,0,0,,CÔTE D'URADOME
+Dialogue: 0,0:12:32.88,0:12:35.00,ST_HAUT,,0,0,0,,SANCTUAIRE ARASUNA
+Dialogue: 0,0:12:42.64,0:12:44.64,Default,,0,0,0,,Allez, passe-moi le fric.
+Dialogue: 0,0:12:46.80,0:12:48.16,Default,,0,0,0,,Un peu plus loin.
+Dialogue: 0,0:12:52.60,0:12:54.04,Default,,0,0,0,,Vous voilà réunies...
+Dialogue: 0,0:12:56.24,0:12:58.96,Default,,0,0,0,,En haut,\Nil y a un terrible précipice, non ?
+Dialogue: 0,0:13:00.28,0:13:01.84,Default,,0,0,0,,Une chute serait fatale.
+Dialogue: 0,0:13:04.36,0:13:05.64,Default,,0,0,0,,Allons sur les dunes,
+Dialogue: 0,0:13:05.80,0:13:08.60,Default,,0,0,0,,là où tout a commencé\Nil y a 2 ans,
+Dialogue: 0,0:13:09.04,0:13:12.08,Default,,0,0,0,,pour aboutir à ce ce pseudo-vol.
+Dialogue: 0,0:13:12.36,0:13:14.96,Default,,0,0,0,,Comment ça, un "pseudo-vol" ?
+Dialogue: 0,0:13:15.12,0:13:16.96,Default,,0,0,0,,Inutile de continuer, Naomi.
+Dialogue: 0,0:13:17.96,0:13:20.36,Default,,0,0,0,,J'ai tout deviné de A à Z.
+Dialogue: 0,0:13:21.08,0:13:23.16,Default,,0,0,0,,C'était son plan à elle !
+Dialogue: 0,0:13:23.76,0:13:27.16,Default,,0,0,0,,Même si c'était vrai,\Nqui l'a acculée jusque-là ?
+Dialogue: 0,0:13:45.16,0:13:48.72,Default,,0,0,0,,Que vouliez-vous faire faire à Shûko,\Nce coup-ci ?
+Dialogue: 0,0:13:49.16,0:13:50.52,Default,,0,0,0,,Pourquoi "ce coup-ci" ?
+Dialogue: 0,0:13:51.72,0:13:54.56,Default,,0,0,0,,Ce coup-ci,\Nque vouliez-vous...
+Dialogue: 0,0:13:54.76,0:13:55.56,Default,,0,0,0,,Papa...
+Dialogue: 0,0:13:58.64,0:14:00.08,Default,,0,0,0,,Alors, c'est ça...
+Dialogue: 0,0:14:00.28,0:14:03.04,Default,,0,0,0,,Vous avez appelé Shûko\Npour qu'elle vous donne
+Dialogue: 0,0:14:03.48,0:14:05.56,Default,,0,0,0,,les 10 millions qu'elle a pris ?
+Dialogue: 0,0:14:05.92,0:14:06.96,Default,,0,0,0,,Exactement.
+Dialogue: 0,0:14:07.92,0:14:09.20,Default,,0,0,0,,Non, c'est l'inverse.
+Dialogue: 0,0:14:09.36,0:14:13.40,Default,,0,0,0,,C'est Shûko qui vous a fait venir\Nsur ce littoral.
+Dialogue: 0,0:14:13.96,0:14:16.00,Default,,0,0,0,,Pour accomplir son véritable but.
+Dialogue: 0,0:14:17.96,0:14:20.48,Default,,0,0,0,,Même ça, vous l'aviez deviné ?
+Dialogue: 0,0:14:21.12,0:14:22.48,Default,,0,0,0,,De quoi parlez-vous ?
+Dialogue: 0,0:14:23.16,0:14:26.00,Default,,0,0,0,,Quel était ce véritable but, papa ?
+Dialogue: 0,0:14:26.48,0:14:27.36,Default,,0,0,0,,Pour quelle raison
+Dialogue: 0,0:14:27.84,0:14:31.44,Default,,0,0,0,,avez-vous secrètement rencontré\Nun homme il y a 2 ans ?
+Dialogue: 0,0:14:33.20,0:14:36.20,Default,,0,0,0,,Sans cela,\Npersonne ne vous aurait fait chanter.
+Dialogue: 0,0:14:36.88,0:14:40.24,Default,,0,0,0,,Mon mari est un homme bon...
+Dialogue: 0,0:14:41.04,0:14:43.80,Default,,0,0,0,,En plus, c'est le fils\Nd'une famille notoire.
+Dialogue: 0,0:14:44.72,0:14:47.48,Default,,0,0,0,,Quand j'ai accepté\Nsa demande en mariage,
+Dialogue: 0,0:14:47.64,0:14:49.88,Default,,0,0,0,,mes parents étaient aux anges.
+Dialogue: 0,0:14:50.80,0:14:53.92,Default,,0,0,0,,Mais j'ai vite compris\Nl'erreur que j'avais faite.
+Dialogue: 0,0:14:55.28,0:14:56.84,Default,,0,0,0,,J'ai songé au divorce,
+Dialogue: 0,0:14:57.72,0:14:59.32,Default,,0,0,0,,mais, pour mes parents...
+Dialogue: 0,0:15:00.92,0:15:02.28,Default,,0,0,0,,Un jour,
+Dialogue: 0,0:15:03.12,0:15:06.72,Default,,0,0,0,,Kotani, un camarade de lycée,\Nm'a demandé de venir ici.
+Dialogue: 0,0:15:07.36,0:15:09.24,Default,,0,0,0,,C'est ce médecin ?
+Dialogue: 0,0:15:11.88,0:15:13.36,Default,,0,0,0,,L'homme qui, il y a peu,
+Dialogue: 0,0:15:14.12,0:15:16.08,Default,,0,0,0,,est mort en Afrique du Sud.
+Dialogue: 0,0:15:18.44,0:15:20.16,Default,,0,0,0,,{\i1}Je pars pour l'Afrique du Sud.{\i0}
+Dialogue: 0,0:15:22.00,0:15:23.72,Default,,0,0,0,,{\i1}Comme tu l'avais toujours dit !{\i0}
+Dialogue: 0,0:15:24.16,0:15:25.60,Default,,0,0,0,,{\i1}Viens avec moi.{\i0}
+Dialogue: 0,0:15:27.68,0:15:31.24,Default,,0,0,0,,{\i1}Je sais dans quelle situation{\i0}\N{\i1}tu es actuellement.{\i0}
+Dialogue: 0,0:15:31.88,0:15:33.96,Default,,0,0,0,,{\i1}Je n'ai jamais cessé{\i0}\N{\i1}de penser à toi.{\i0}
+Dialogue: 0,0:15:36.76,0:15:39.68,Default,,0,0,0,,{\i1}Un peu avant,{\i0}\N{\i1}j'aurais peut-être accepté,{\i0}
+Dialogue: 0,0:15:40.48,0:15:42.16,Default,,0,0,0,,{\i1}mais j'attends un garçon.{\i0}
+Dialogue: 0,0:15:43.52,0:15:45.00,Default,,0,0,0,,{\i1}Quand je l'ai su,{\i0}
+Dialogue: 0,0:15:45.44,0:15:50.12,Default,,0,0,0,,{\i1}j'ai décidé de ne plus m'épanouir{\i0}\N{\i1}qu'à travers lui...{\i0}
+Dialogue: 0,0:15:50.76,0:15:53.84,Default,,0,0,0,,{\i1}Et d'abandonner{\i0}\N{\i1}tous mes autres rêves.{\i0}
+Dialogue: 0,0:15:54.44,0:15:55.44,Default,,0,0,0,,{\i1}Je vois.{\i0}
+Dialogue: 0,0:15:56.12,0:15:59.80,Default,,0,0,0,,{\i1}Là-bas, je prierai{\i0}\N{\i1}pour que tu aies un magnifique bébé.{\i0}
+Dialogue: 0,0:16:01.84,0:16:02.84,Default,,0,0,0,,{\i1}Merci.{\i0}
+Dialogue: 0,0:16:04.96,0:16:06.44,Default,,0,0,0,,{\i1}Bonne chance, toi aussi.{\i0}
+Dialogue: 0,0:16:13.52,0:16:16.72,Default,,0,0,0,,{\i1}Quel bel homme,{\i0}\N{\i1}Mme Kumadô !{\i0}
+Dialogue: 0,0:16:19.84,0:16:23.88,Default,,0,0,0,,{\i1}Si ton beau-père voit ça,{\i0}\N{\i1}il te chassera !{\i0}
+Dialogue: 0,0:16:24.32,0:16:27.92,Default,,0,0,0,,{\i1}Et comme c'est un garçon{\i0}\N{\i1}que tu as dans le ventre...{\i0}
+Dialogue: 0,0:16:29.12,0:16:30.76,Default,,0,0,0,,Mon beau-père
+Dialogue: 0,0:16:31.28,0:16:35.48,Default,,0,0,0,,aurait cherché par tous les moyens\Nà me prendre mon enfant.
+Dialogue: 0,0:16:35.96,0:16:38.04,Default,,0,0,0,,Dès lors,\Npour vous faire chanter,
+Dialogue: 0,0:16:38.72,0:16:42.00,Default,,0,0,0,,Naomi a utilisé votre peur\Nd'être séparée de lui.
+Dialogue: 0,0:16:42.52,0:16:44.92,Default,,0,0,0,,Mais on ne trouve pas\Ndes sous à l'infini.
+Dialogue: 0,0:16:45.40,0:16:49.16,Default,,0,0,0,,Et chaque versement ne vous donnait\Nqu'une paix temporaire.
+Dialogue: 0,0:16:49.44,0:16:51.00,Default,,0,0,0,,Vous avez alors imaginé
+Dialogue: 0,0:16:51.36,0:16:52.76,Default,,0,0,0,,la faire taire à jamais.
+Dialogue: 0,0:16:53.92,0:16:56.60,Default,,0,0,0,,C'était ça,\Nle véritable objectif de Shûko ?
+Dialogue: 0,0:16:56.76,0:16:58.72,Default,,0,0,0,,Tu voulais me tuer ?
+Dialogue: 0,0:17:00.24,0:17:01.72,Default,,0,0,0,,Je n'avais pas le choix.
+Dialogue: 0,0:17:02.32,0:17:05.20,Default,,0,0,0,,Mais pour vous décider,\Nil fallait un déclic,
+Dialogue: 0,0:17:05.92,0:17:08.76,Default,,0,0,0,,qui a dû être l'annonce\Ndu décès de M. Kotani.
+Dialogue: 0,0:17:10.28,0:17:13.96,Default,,0,0,0,,{\i1}C'est aujourd'hui{\i0}\N{\i1}qu'a été rapatrié d'Afrique du Sud{\i0}
+Dialogue: 0,0:17:14.12,0:17:16.00,Default,,0,0,0,,{\i1}le corps du Dr Yasunobu Kotani...{\i0}
+Dialogue: 0,0:17:16.72,0:17:20.52,Default,,0,0,0,,Le type qu'elle rencontrait\Nétait un médecin du nom de Kotani ?
+Dialogue: 0,0:17:21.16,0:17:23.16,Default,,0,0,0,,Quand elle a su qui il était,
+Dialogue: 0,0:17:23.68,0:17:26.36,Default,,0,0,0,,j'ai eu peur\Nde ne plus pouvoir m'échapper.
+Dialogue: 0,0:17:26.52,0:17:28.40,Default,,0,0,0,,Et vous avez décidé de la tuer.
+Dialogue: 0,0:17:28.72,0:17:31.96,Default,,0,0,0,,Mais, pour ne pas être démasquée,
+Dialogue: 0,0:17:32.16,0:17:34.40,Default,,0,0,0,,vous avez élaboré ce pseudo-vol.
+Dialogue: 0,0:17:36.16,0:17:37.28,Default,,0,0,0,,Explique-toi !
+Dialogue: 0,0:17:38.40,0:17:40.84,Default,,0,0,0,,J'ai proposé à Naomi un plan :
+Dialogue: 0,0:17:41.64,0:17:43.60,Default,,0,0,0,,voler le précieux encensoir,
+Dialogue: 0,0:17:43.96,0:17:46.20,Default,,0,0,0,,extorquer aux Kumadô\Nune grosse somme
+Dialogue: 0,0:17:46.64,0:17:48.48,Default,,0,0,0,,et la lui remettre entièrement
+Dialogue: 0,0:17:48.72,0:17:50.80,Default,,0,0,0,,pour en finir avec ce chantage.
+Dialogue: 0,0:17:51.24,0:17:54.72,Default,,0,0,0,,Même si la police était là,\Nil lui suffisait, soi-disant,
+Dialogue: 0,0:17:54.92,0:17:58.20,Default,,0,0,0,,de voler pendant la nuit\Nle fric préparé pour le matin.
+Dialogue: 0,0:17:58.60,0:18:02.04,Default,,0,0,0,,Vous l'avez crue\Net, pour l'aider dans son plan,
+Dialogue: 0,0:18:02.20,0:18:05.80,Default,,0,0,0,,vous êtes revenue à Tottori\Ncommettre ce pseudo-vol.
+Dialogue: 0,0:18:05.96,0:18:07.80,Default,,0,0,0,,Et comme convenu...
+Dialogue: 0,0:18:07.96,0:18:09.68,Default,,0,0,0,,{\i1}Qu'est-ce que tu me chantes ?{\i0}
+Dialogue: 0,0:18:09.84,0:18:11.44,Default,,0,0,0,,{\i1}- Arrête de mentir !{\i0}\N{\i1}- Arrêtez !{\i0}
+Dialogue: 0,0:18:12.08,0:18:13.84,Default,,0,0,0,,{\i1}Comptez sur moi,{\i0}
+Dialogue: 0,0:18:14.00,0:18:16.32,Default,,0,0,0,,{\i1}je vous revaudrai ça{\i0}\N{\i1}comme il se doit.{\i0}
+Dialogue: 0,0:18:17.24,0:18:20.44,Default,,0,0,0,,{\i1}Cette femme va me tuer !{\i0}
+Dialogue: 0,0:18:20.84,0:18:22.12,Default,,0,0,0,,{\i1}Vous avez pris ça{\i0}
+Dialogue: 0,0:18:22.44,0:18:26.24,Default,,0,0,0,,{\i1}pour une manœuvre destinée{\i0}\N{\i1}à cacher que vous étiez complices.{\i0}
+Dialogue: 0,0:18:26.40,0:18:28.44,Default,,0,0,0,,{\i1}C'est ce qu'on avait prévu.{\i0}
+Dialogue: 0,0:18:28.88,0:18:30.60,Default,,0,0,0,,La vérité est tout autre...
+Dialogue: 0,0:18:30.88,0:18:34.68,Default,,0,0,0,,Shûko voulait juste vous attirer\Nsur ce littoral en prétendant
+Dialogue: 0,0:18:34.84,0:18:36.84,Default,,0,0,0,,qu'elle vous remettrait l'argent.
+Dialogue: 0,0:18:37.20,0:18:40.32,Default,,0,0,0,,{\i1}Allez, passe-moi le fric.{\i0}
+Dialogue: 0,0:18:47.24,0:18:50.00,Default,,0,0,0,,Lorsque Shûko aurait accompli\Nson but...
+Dialogue: 0,0:18:51.44,0:18:52.60,Default,,0,0,0,,{\i1}Malgré mes excuses,{\i0}
+Dialogue: 0,0:18:53.12,0:18:55.84,Default,,0,0,0,,{\i1}Naomi ne voulait pas me pardonner !{\i0}
+Dialogue: 0,0:18:57.40,0:18:59.68,Default,,0,0,0,,{\i1}Elle a tenté de me jeter de là-haut !{\i0}
+Dialogue: 0,0:19:00.16,0:19:03.08,Default,,0,0,0,,{\i1}Je me suis défendue{\i0}\N{\i1}de toutes mes forces,{\i0}
+Dialogue: 0,0:19:03.84,0:19:04.92,Default,,0,0,0,,{\i1}sans réaliser que...{\i0}
+Dialogue: 0,0:19:05.44,0:19:08.32,Default,,0,0,0,,{\i1}Vous disiez bien{\i0}\N{\i1}qu'elle risquait de vous tuer.{\i0}
+Dialogue: 0,0:19:08.64,0:19:10.16,Default,,0,0,0,,{\i1}C'était une vraie furie...{\i0}
+Dialogue: 0,0:19:11.68,0:19:14.16,Default,,0,0,0,,{\i1}C'est un cas de légitime défense.{\i0}
+Dialogue: 0,0:19:17.12,0:19:18.76,Default,,0,0,0,,{\i1}Vous n'êtes pas fautive.{\i0}
+Dialogue: 0,0:19:18.96,0:19:21.68,Default,,0,0,0,,{\i1}Dans la police,{\i0}\N{\i1}on le sait mieux que quiconque !{\i0}
+Dialogue: 0,0:19:22.48,0:19:24.00,Default,,0,0,0,,Tuer Naomi
+Dialogue: 0,0:19:24.16,0:19:27.68,Default,,0,0,0,,et être disculpée\Npour légitime défense...
+Dialogue: 0,0:19:28.48,0:19:30.16,Default,,0,0,0,,C'est uniquement pour cela
+Dialogue: 0,0:19:30.32,0:19:32.68,Default,,0,0,0,,que vous aviez imaginé\Nce pseudo-vol.
+Dialogue: 0,0:19:33.00,0:19:37.12,Default,,0,0,0,,Tu m'as fait revenir à Tottori\Ndans le seul but de me tuer ?
+Dialogue: 0,0:19:37.52,0:19:40.40,Default,,0,0,0,,Seulement,\Npour mettre ce plan à exécution,
+Dialogue: 0,0:19:40.56,0:19:42.72,Default,,0,0,0,,vous deviez sortir toute seule.
+Dialogue: 0,0:19:43.12,0:19:46.44,Default,,0,0,0,,Or, dans la tension consécutive\Nau vol de l'encensoir,
+Dialogue: 0,0:19:46.60,0:19:50.00,Default,,0,0,0,,jamais votre beau-père\Nne vous aurait laissé y aller.
+Dialogue: 0,0:19:50.64,0:19:52.80,Default,,0,0,0,,C'est pour ça\Nque vous l'avez rendu.
+Dialogue: 0,0:19:52.96,0:19:55.36,Default,,0,0,0,,Et que vous avez refusé\Nma protection.
+Dialogue: 0,0:19:55.84,0:19:59.48,Default,,0,0,0,,Escortée par un détective,\Nvous auriez été coincée...
+Dialogue: 0,0:20:00.56,0:20:02.76,Default,,0,0,0,,Mais j'ai fait tout cela pour rien.
+Dialogue: 0,0:20:03.60,0:20:05.52,Default,,0,0,0,,M. Môri a tout découvert.
+Dialogue: 0,0:20:06.16,0:20:07.16,Default,,0,0,0,,Mais, papa...
+Dialogue: 0,0:20:07.32,0:20:09.92,Default,,0,0,0,,Eh oui,\Nil n'y a pas tentative de meurtre.
+Dialogue: 0,0:20:10.52,0:20:12.92,Default,,0,0,0,,Elle a pourtant bien essayé\Nde me tuer !
+Dialogue: 0,0:20:13.32,0:20:14.64,Default,,0,0,0,,C'était juste un plan !
+Dialogue: 0,0:20:14.88,0:20:17.24,Default,,0,0,0,,Elle ne vous a pas touchée !
+Dialogue: 0,0:20:22.40,0:20:26.52,Default,,0,0,0,,Mais ça revient au même...
+Dialogue: 0,0:20:27.72,0:20:31.40,Default,,0,0,0,,On ne peut pas occulter\Nl'existence de ce pseudo-vol.
+Dialogue: 0,0:20:31.68,0:20:34.72,Default,,0,0,0,,Je serai inculpée pour cela,
+Dialogue: 0,0:20:34.96,0:20:39.20,Default,,0,0,0,,et comme j'ai volé le précieux trésor,\Nje serai chassée de la famille.
+Dialogue: 0,0:20:39.60,0:20:41.88,Default,,0,0,0,,Et je ne pourrai plus voir Kazuma !
+Dialogue: 0,0:20:42.32,0:20:43.64,Default,,0,0,0,,Mon Dieu !
+Dialogue: 0,0:20:43.80,0:20:45.36,Default,,0,0,0,,Et un détective ne règle pas
+Dialogue: 0,0:20:46.00,0:20:47.76,Default,,0,0,0,,les affaires de famille.
+Dialogue: 0,0:20:48.40,0:20:49.56,Default,,0,0,0,,Moi, je suis là !
+Dialogue: 0,0:20:56.04,0:20:59.44,Default,,0,0,0,,Je n'ai qu'à rompre avec ma famille !
+Dialogue: 0,0:20:59.80,0:21:02.72,Default,,0,0,0,,Et laisser à Junji\Nla place de successeur.
+Dialogue: 0,0:21:03.08,0:21:07.48,Default,,0,0,0,,Toi et moi, avec Kazuma,\Non va fonder un nouveau foyer.
+Dialogue: 0,0:21:08.60,0:21:09.68,Default,,0,0,0,,Sôichi...
+Dialogue: 0,0:21:10.96,0:21:12.92,Default,,0,0,0,,Tu ne le savais peut-être pas,
+Dialogue: 0,0:21:13.68,0:21:16.48,Default,,0,0,0,,mais je t'aime vraiment, Shûko.
+Dialogue: 0,0:21:25.44,0:21:28.48,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:29.60,0:21:32.64,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:44.88,0:22:46.24,Default,,0,0,0,,Arrêtez de me pousser !
+Dialogue: 0,0:22:46.40,0:22:47.40,Default,,0,0,0,,OK...
+Dialogue: 0,0:22:47.80,0:22:48.80,Default,,0,0,0,,Shûko !
+Dialogue: 0,0:22:51.52,0:22:52.52,Default,,0,0,0,,Nous t'attendons,
+Dialogue: 0,0:22:53.16,0:22:54.52,Default,,0,0,0,,Kazuma et moi.
+Dialogue: 0,0:22:56.40,0:22:57.00,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:22:58.04,0:22:59.00,Default,,0,0,0,,Ça finit bien...
+Dialogue: 0,0:23:01.60,0:23:02.60,Default,,0,0,0,,M. Môri.
+Dialogue: 0,0:23:03.00,0:23:05.32,Default,,0,0,0,,Je suis vraiment fier\Nde vous connaître.
+Dialogue: 0,0:23:06.12,0:23:09.52,Default,,0,0,0,,Papa !\NT'as entendu ?
+Dialogue: 0,0:23:10.00,0:23:12.44,Default,,0,0,0,,{\i1}Non, ça m'étonnerait...{\i0}
+Dialogue: 0,0:23:13.72,0:23:15.56,Default,,0,0,0,,Je veux du crabe... du crabe !
+Dialogue: 0,0:23:17.96,0:23:20.32,Default,,0,0,0,,Derrière la dune, il y a...
+Dialogue: 0,0:23:20.88,0:23:22.72,Default,,0,0,0,,... la mer.
+Dialogue: 0,0:23:24.12,0:23:26.60,Default,,0,0,0,,- Kogorô !\N- Papa !

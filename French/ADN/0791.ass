@@ -1,0 +1,330 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.28,0:00:05.81,Default,,0,0,0,,Espèce de fumier !
+Dialogue: 0,0:00:05.96,0:00:07.52,Default,,0,0,0,,Lâche-moi !
+Dialogue: 0,0:00:09.33,0:00:10.53,Default,,0,0,0,,Ça va pas, non ?
+Dialogue: 0,0:00:11.41,0:00:12.68,Default,,0,0,0,,Appelez la police !
+Dialogue: 0,0:00:14.93,0:00:16.24,Default,,0,0,0,,Et merde...
+Dialogue: 0,0:00:21.72,0:00:23.05,Default,,0,0,0,,Ça va ?
+Dialogue: 0,0:00:23.80,0:00:24.84,Default,,0,0,0,,Oui.
+Dialogue: 0,0:00:25.01,0:00:27.33,Default,,0,0,0,,Hé, vous êtes blessé ?
+Dialogue: 0,0:00:27.48,0:00:28.92,Default,,0,0,0,,Non, ça peut aller.
+Dialogue: 0,0:00:29.40,0:00:31.29,Default,,0,0,0,,Qu'est-ce qui s'est passé ?
+Dialogue: 0,0:00:31.56,0:00:34.16,Default,,0,0,0,,Rien, c'est juste une bagarre.
+Dialogue: 0,0:00:37.09,0:00:39.00,Default,,0,0,0,,{\i1}Amour et enquêtes géniales,{\i0}
+Dialogue: 0,0:00:39.17,0:00:40.96,Default,,0,0,0,,{\i1}les fondamentaux demeurent !{\i0}
+Dialogue: 0,0:00:41.12,0:00:43.08,Default,,0,0,0,,{\i1}Un policier menotté en cavale ?{\i0}
+Dialogue: 0,0:00:43.24,0:00:45.01,Default,,0,0,0,,{\i1}La longue journée de Takagi !{\i0}
+Dialogue: 0,0:00:45.21,0:00:48.60,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:48.77,0:00:50.80,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:10.89,0:01:14.49,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:19.28,0:01:22.85,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:01:23.61,0:01:26.85,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:32.80,0:01:35.32,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:38.40,0:01:42.32,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Nazo"
+Dialogue: 0,0:01:48.40,0:01:50.45,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:52.32,0:01:54.57,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:05.00,0:02:07.77,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:02:08.80,0:02:11.08,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:12.28,0:02:14.56,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:32.24,0:02:34.93,Default,,0,0,0,,{\i1}"L'Inspecteur Takagi{\i0}\N{\i1}menotté et en cavale !"{\i0}
+Dialogue: 0,0:02:38.04,0:02:42.13,ST_HAUT,,0,0,0,,TROIS JOURS PLUS TARD
+Dialogue: 0,0:02:43.28,0:02:46.41,Default,,0,0,0,,Tu me fais mal, abruti !\NJe t'ai dit de pas me tirer !
+Dialogue: 0,0:02:46.84,0:02:48.96,ST_HAUT,,0,0,0,,Fais pas d'histoires, Someya !
+Dialogue: 0,0:02:49.12,0:02:51.92,ST_HAUT,,0,0,0,,Je t'emmène au Q.G.\Nde la police de Tokyo.
+Dialogue: 0,0:02:52.84,0:02:55.37,Default,,0,0,0,,Voilà, nous vous le confions.
+Dialogue: 0,0:02:55.64,0:02:56.84,Default,,0,0,0,,Beau travail.
+Dialogue: 0,0:03:06.44,0:03:09.41,Default,,0,0,0,,C'est flippant.\NImagine qu'on dégringole.
+Dialogue: 0,0:03:10.32,0:03:12.36,Default,,0,0,0,,Et si on essayait, pour voir ?
+Dialogue: 0,0:03:14.36,0:03:16.41,Default,,0,0,0,,Mais t'es malade ?\NArrête, Someya !
+Dialogue: 0,0:03:16.60,0:03:19.08,Default,,0,0,0,,Allez, bascule !\NBascule !
+Dialogue: 0,0:03:40.40,0:03:41.96,Default,,0,0,0,,On va se dire au revoir.
+Dialogue: 0,0:03:50.20,0:03:53.60,Default,,0,0,0,,Dommage,\Nil n'a pas de flingue sur lui.
+Dialogue: 0,0:03:59.76,0:04:02.12,Default,,0,0,0,,Pas besoin d'avoir une arme à feu
+Dialogue: 0,0:04:02.28,0:04:05.40,Default,,0,0,0,,pour transporter le responsable\Nd'une simple rixe.
+Dialogue: 0,0:04:07.16,0:04:10.32,Default,,0,0,0,,Y a pas à dire,\Nc'est exactement la même situation !
+Dialogue: 0,0:04:10.48,0:04:11.76,Default,,0,0,0,,T'as dit quoi, là ?
+Dialogue: 0,0:04:12.60,0:04:13.76,Default,,0,0,0,,Non, rien...
+Dialogue: 0,0:04:14.36,0:04:15.44,Default,,0,0,0,,Rien du tout.
+Dialogue: 0,0:04:18.28,0:04:20.20,Default,,0,0,0,,- Descends.\N- Aïe, fais gaffe !
+Dialogue: 0,0:04:22.92,0:04:25.80,Default,,0,0,0,,Ça va, Kishida ?
+Dialogue: 0,0:04:26.64,0:04:27.80,Default,,0,0,0,,Oui...
+Dialogue: 0,0:04:31.80,0:04:34.48,Default,,0,0,0,,On va rester ici\Net attendre de l'aide.
+Dialogue: 0,0:04:34.80,0:04:36.08,Default,,0,0,0,,Appelle la préfecture.
+Dialogue: 0,0:04:36.48,0:04:37.64,Default,,0,0,0,,Tout de suite.
+Dialogue: 0,0:04:39.24,0:04:41.00,Default,,0,0,0,,Lui, il en a un.
+Dialogue: 0,0:04:42.04,0:04:43.00,Default,,0,0,0,,Qu'est-ce que...
+Dialogue: 0,0:04:45.64,0:04:46.64,Default,,0,0,0,,Enflure !
+Dialogue: 0,0:04:46.80,0:04:48.92,Default,,0,0,0,,Ramasse la clé\Net démenotte-moi.
+Dialogue: 0,0:05:00.00,0:05:02.28,Default,,0,0,0,,Même si tu tires,\Ntu pourras pas fuir !
+Dialogue: 0,0:05:02.44,0:05:05.16,Default,,0,0,0,,Enfoiré !\NOK, voilà ce que je vais faire !
+Dialogue: 0,0:05:05.32,0:05:06.32,Default,,0,0,0,,Dans tes rêves !
+Dialogue: 0,0:05:18.16,0:05:19.12,Default,,0,0,0,,Inspecteur Takagi !
+Dialogue: 0,0:05:23.96,0:05:24.96,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:05:25.40,0:05:27.88,Default,,0,0,0,,Takagi est tombé à l'eau\Navec l'inculpé ?
+Dialogue: 0,0:05:29.28,0:05:30.00,Default,,0,0,0,,Takagi...
+Dialogue: 0,0:05:30.56,0:05:33.52,Default,,0,0,0,,Faites quadriller la zone\Net monter des barrages !
+Dialogue: 0,0:05:33.68,0:05:34.68,Default,,0,0,0,,À vos ordres !
+Dialogue: 0,0:05:43.40,0:05:46.24,Default,,0,0,0,,Bon sang...\NCette saleté veut pas se péter !
+Dialogue: 0,0:05:52.04,0:05:55.72,Default,,0,0,0,,Les menottes de la police\Nne sont pas si fragiles que ça !
+Dialogue: 0,0:05:56.20,0:05:58.28,Default,,0,0,0,,Laisse tomber...\NHein ?
+Dialogue: 0,0:05:58.44,0:06:01.40,Default,,0,0,0,,Il marche plus...\NJ'ai regardé tout à l'heure.
+Dialogue: 0,0:06:02.96,0:06:03.84,Default,,0,0,0,,La poisse...
+Dialogue: 0,0:06:05.84,0:06:07.08,Default,,0,0,0,,J'abandonne...
+Dialogue: 0,0:06:07.24,0:06:08.92,Default,,0,0,0,,Aïe, aïe, aïe !
+Dialogue: 0,0:06:09.72,0:06:11.44,Default,,0,0,0,,Hé, tu déconnes, là !
+Dialogue: 0,0:06:11.60,0:06:13.24,Default,,0,0,0,,C'est quoi, cette mollesse ?
+Dialogue: 0,0:06:13.84,0:06:16.36,Default,,0,0,0,,Mets un peu d'entrain\Nà tenter de t'enfuir !
+Dialogue: 0,0:06:17.32,0:06:18.84,Default,,0,0,0,,T'as un objectif, non ?
+Dialogue: 0,0:06:19.24,0:06:20.32,Default,,0,0,0,,Un objectif ?
+Dialogue: 0,0:06:20.48,0:06:23.12,Default,,0,0,0,,C'est pas pour ça\Nque t'as voulu t'évader ?
+Dialogue: 0,0:06:25.00,0:06:27.96,Default,,0,0,0,,La ville de tout à l'heure,\Nc'est là où tu es né.
+Dialogue: 0,0:06:28.40,0:06:32.76,Default,,0,0,0,,Tu n'avais plus nulle part où t'enfuir,\Nmais selon la police locale,
+Dialogue: 0,0:06:32.92,0:06:36.64,Default,,0,0,0,,tu as tout de suite acheté\Nun billet pour retourner à Tokyo.
+Dialogue: 0,0:06:37.08,0:06:38.72,Default,,0,0,0,,Où comptais-tu aller ?
+Dialogue: 0,0:06:38.88,0:06:43.08,Default,,0,0,0,,N'importe où... Je voulais pas encore\Nme faire arrêter, c'est tout.
+Dialogue: 0,0:06:43.52,0:06:46.68,Default,,0,0,0,,Tu te fous de moi ?\NRegarde ça !
+Dialogue: 0,0:06:46.92,0:06:49.12,Default,,0,0,0,,On est attachés l'un à l'autre !
+Dialogue: 0,0:06:49.56,0:06:51.08,Default,,0,0,0,,Comme dans l'histoire !
+Dialogue: 0,0:06:52.68,0:06:54.20,Default,,0,0,0,,Quelle histoire ?
+Dialogue: 0,0:06:55.84,0:06:57.60,Default,,0,0,0,,Tu sais bien !
+Dialogue: 0,0:07:01.24,0:07:02.72,Default,,0,0,0,,Je suis inquiet.
+Dialogue: 0,0:07:02.88,0:07:06.60,Default,,0,0,0,,Moi aussi. Pourvu que son naturel\Nne reprenne pas le dessus...
+Dialogue: 0,0:07:07.16,0:07:08.44,Default,,0,0,0,,Son naturel ?
+Dialogue: 0,0:07:09.28,0:07:09.96,Default,,0,0,0,,Un film ?
+Dialogue: 0,0:07:10.20,0:07:11.76,Default,,0,0,0,,Oui, un film !
+Dialogue: 0,0:07:11.92,0:07:15.00,Default,,0,0,0,,{\i1}L'Évasion menottée.{\i0}\NTu vois lequel c'est ?
+Dialogue: 0,0:07:15.28,0:07:16.40,Default,,0,0,0,,Jamais entendu parler.
+Dialogue: 0,0:07:17.36,0:07:18.88,Default,,0,0,0,,Sérieux ? C'est une blague ?
+Dialogue: 0,0:07:19.32,0:07:21.56,Default,,0,0,0,,C'est un grand classique du 7e art !
+Dialogue: 0,0:07:21.72,0:07:22.88,Default,,0,0,0,,Un chef d'œuvre !
+Dialogue: 0,0:07:23.52,0:07:27.64,Default,,0,0,0,,Et alors ?\NPourquoi tu m'en parles ?
+Dialogue: 0,0:07:28.48,0:07:31.00,Default,,0,0,0,,Deux hommes\Nreliés par des menottes
+Dialogue: 0,0:07:31.16,0:07:34.68,Default,,0,0,0,,surmontent leur hostilité\Npour apprendre à se connaître
+Dialogue: 0,0:07:34.84,0:07:38.04,Default,,0,0,0,,et finissent par se lier d'amitié\Nmalgré la situation...
+Dialogue: 0,0:07:38.20,0:07:40.12,Default,,0,0,0,,C'est une grande aventure poignante !
+Dialogue: 0,0:07:40.56,0:07:41.88,Default,,0,0,0,,Personnellement,
+Dialogue: 0,0:07:42.04,0:07:44.64,Default,,0,0,0,,je l'ai vu 12 fois en DVD !
+Dialogue: 0,0:07:45.44,0:07:48.28,Default,,0,0,0,,Alors Someya,\Nsi tu caches quelque chose,
+Dialogue: 0,0:07:48.84,0:07:52.20,Default,,0,0,0,,au nom de ce lien,\Nraconte-moi tout...
+Dialogue: 0,0:07:54.56,0:07:56.44,Default,,0,0,0,,Maintenant, tu la boucles.
+Dialogue: 0,0:07:57.52,0:08:01.28,Default,,0,0,0,,Oui, parfait ! Au début,\Nfaut que tu puisses pas me supporter.
+Dialogue: 0,0:08:01.44,0:08:03.36,Default,,0,0,0,,Ça commence bien...
+Dialogue: 0,0:08:03.52,0:08:05.44,Default,,0,0,0,,Je t'ai dit de la fermer !
+Dialogue: 0,0:08:06.00,0:08:06.68,Default,,0,0,0,,Viens !
+Dialogue: 0,0:08:07.12,0:08:09.96,Default,,0,0,0,,Ah, qu'est-ce que je disais ?\NT'as un objectif !
+Dialogue: 0,0:08:10.36,0:08:11.36,Default,,0,0,0,,Ta gueule !
+Dialogue: 0,0:08:13.12,0:08:14.16,Default,,0,0,0,,{\i1}Fait divers...{\i0}
+Dialogue: 0,0:08:14.48,0:08:15.96,Default,,0,0,0,,- Papa, Conan !\N{\i1}- Ce matin,{\i0}
+Dialogue: 0,0:08:16.12,0:08:17.96,Default,,0,0,0,,{\i1}un policier a disparu{\i0}
+Dialogue: 0,0:08:18.12,0:08:20.48,Default,,0,0,0,,{\i1}avec le suspect qu'il transférait.{\i0}
+Dialogue: 0,0:08:20.64,0:08:23.80,Default,,0,0,0,,{\i1}L'individu interpellé{\i0}\N{\i1}pour coups et blessures,{\i0}
+Dialogue: 0,0:08:23.96,0:08:26.24,ST_HAUT,,0,0,0,,{\i1}Ryûta Someya, 28 ans, était escorté{\i0}
+Dialogue: 0,0:08:26.76,0:08:29.96,Default,,0,0,0,,{\i1}- par l'inspecteur...{\i0}\N- Qu'est-ce qu'il a foutu, Takagi ?
+Dialogue: 0,0:08:30.80,0:08:32.80,Default,,0,0,0,,Conan !\NCe type...
+Dialogue: 0,0:08:34.40,0:08:35.84,Default,,0,0,0,,C'est celui du resto.
+Dialogue: 0,0:08:36.96,0:08:40.40,Default,,0,0,0,,Si on peut même plus profiter\Nde son dimanche...
+Dialogue: 0,0:08:40.60,0:08:42.16,Default,,0,0,0,,La police a déjà dû passer
+Dialogue: 0,0:08:42.32,0:08:44.48,Default,,0,0,0,,recueillir tous les témoignages !
+Dialogue: 0,0:08:45.80,0:08:48.72,Default,,0,0,0,,Mais il y a quelque chose\Nqui me paraît bizarre.
+Dialogue: 0,0:08:50.40,0:08:53.52,Default,,0,0,0,,Effectivement,\Nles policiers sont déjà venus.
+Dialogue: 0,0:08:53.84,0:08:58.20,Default,,0,0,0,,Je leur ai répondu que j'ignorais\Noù Someya pouvait être passé.
+Dialogue: 0,0:08:58.48,0:08:59.52,Default,,0,0,0,,Il y a autre chose ?
+Dialogue: 0,0:08:59.68,0:09:02.24,Default,,0,0,0,,La jeune femme,\Nc'était une cliente ?
+Dialogue: 0,0:09:02.40,0:09:03.24,Default,,0,0,0,,Laquelle ?
+Dialogue: 0,0:09:03.80,0:09:07.76,Default,,0,0,0,,Celle qui était assise là-bas,\Nquand vous vous êtes battus.
+Dialogue: 0,0:09:08.44,0:09:11.28,ST_HAUT,,0,0,0,,YASUO NASHIMOTO (28 ANS)
+Dialogue: 0,0:09:11.44,0:09:12.92,ST_HAUT,,0,0,0,,Dois-je vous le dire ?
+Dialogue: 0,0:09:14.92,0:09:19.68,Default,,0,0,0,,En fait, Konaka était\Ncontinuellement suivie par Someya.
+Dialogue: 0,0:09:21.16,0:09:23.20,Default,,0,0,0,,- Quoi ?\N- Un harceleur ?
+Dialogue: 0,0:09:23.64,0:09:26.16,Default,,0,0,0,,Moi, j'ai essayé de le faire cesser,
+Dialogue: 0,0:09:26.56,0:09:28.96,Default,,0,0,0,,et voilà ce que ça m'a valu.
+Dialogue: 0,0:09:29.32,0:09:30.96,Default,,0,0,0,,Vous l'avez dit aux flics ?
+Dialogue: 0,0:09:31.56,0:09:32.56,Default,,0,0,0,,Non...
+Dialogue: 0,0:09:32.72,0:09:36.72,Default,,0,0,0,,Elle était complètement terrorisée\Npar ce taré.
+Dialogue: 0,0:09:37.24,0:09:39.20,Default,,0,0,0,,Vous savez où elle habite ?
+Dialogue: 0,0:09:39.36,0:09:42.40,Default,,0,0,0,,Oui, elle me l'a dit\Nquand elle m'a demandé conseil.
+Dialogue: 0,0:09:43.00,0:09:45.64,Default,,0,0,0,,Ce type est sûrement allé là-bas !
+Dialogue: 0,0:09:45.80,0:09:48.64,Default,,0,0,0,,Oui, c'est dans ce but\Nqu'il s'est échappé.
+Dialogue: 0,0:09:54.40,0:09:56.48,ST_HAUT,,0,0,0,,Vous êtes bien Mlle Chie Konaka ?
+Dialogue: 0,0:09:56.80,0:09:59.48,ST_HAUT,,0,0,0,,Je suis Kogorô Môri, détective privé.
+Dialogue: 0,0:09:59.72,0:10:01.28,ST_HAUT,,0,0,0,,Un détective ?
+Dialogue: 0,0:10:01.76,0:10:04.64,Default,,0,0,0,,Pourrais-je vous poser\Nquelques questions ?
+Dialogue: 0,0:10:05.20,0:10:08.44,Default,,0,0,0,,Désolée,\Nmais je suis un peu souffrante.
+Dialogue: 0,0:10:09.80,0:10:12.60,Default,,0,0,0,,N'est-ce pas plutôt\Nparce que vous avez peur
+Dialogue: 0,0:10:13.08,0:10:14.08,Default,,0,0,0,,de cet homme ?
+Dialogue: 0,0:10:15.52,0:10:18.60,Default,,0,0,0,,Tout ira bien !\NCroyez-moi, papa est un fin limier !
+Dialogue: 0,0:10:19.20,0:10:20.20,Default,,0,0,0,,Excusez-moi.
+Dialogue: 0,0:10:22.12,0:10:22.84,Default,,0,0,0,,Attendez !
+Dialogue: 0,0:10:30.84,0:10:31.92,Default,,0,0,0,,Papa...
+Dialogue: 0,0:10:33.04,0:10:34.96,Default,,0,0,0,,Merci de nous avoir prévenus.
+Dialogue: 0,0:10:35.44,0:10:36.76,Default,,0,0,0,,Il y a du nouveau ?
+Dialogue: 0,0:10:37.04,0:10:40.64,Default,,0,0,0,,Pour le moment,\Nles barrages routiers n'ont rien donné.
+Dialogue: 0,0:10:40.80,0:10:42.84,Default,,0,0,0,,J'ai peur\Npour l'inspecteur Takagi.
+Dialogue: 0,0:10:44.08,0:10:46.60,Default,,0,0,0,,Ah ! Oui, bien sûr...\NMerci de t'inquiéter.
+Dialogue: 0,0:10:49.24,0:10:53.16,Default,,0,0,0,,C'est quand même capital d'avoir appris\Npourquoi Someya avait fui.
+Dialogue: 0,0:10:53.88,0:10:58.24,Default,,0,0,0,,S'il veut faire du mal à cette fille,\Nil finira par venir ici.
+Dialogue: 0,0:10:58.52,0:11:01.64,Default,,0,0,0,,Ouais.\NC'est très probable.
+Dialogue: 0,0:11:02.36,0:11:05.32,Default,,0,0,0,,{\i1}Il y a quelque chose de louche{\i0}\N{\i1}dans cette affaire...{\i0}
+Dialogue: 0,0:11:05.80,0:11:07.04,Default,,0,0,0,,{\i1}Mais quoi ?{\i0}
+Dialogue: 0,0:11:14.40,0:11:18.40,Default,,0,0,0,,T'es sûr que les roues du train\Nbriseront la chaîne de menottes ?
+Dialogue: 0,0:11:18.56,0:11:19.40,Default,,0,0,0,,Ouais, sûr !
+Dialogue: 0,0:11:20.36,0:11:25.04,Default,,0,0,0,,Il y a une scène similaire\Ndans le film, mais dans la réalité...
+Dialogue: 0,0:11:28.52,0:11:29.32,Default,,0,0,0,,Le voilà !
+Dialogue: 0,0:12:10.56,0:12:11.88,Default,,0,0,0,,Pourquoi t'as fait ça ?
+Dialogue: 0,0:12:12.36,0:12:15.56,Default,,0,0,0,,Il n'y avait pas assez de place\Nsous le train !
+Dialogue: 0,0:12:15.72,0:12:17.32,Default,,0,0,0,,Tu te serais fait aplatir !
+Dialogue: 0,0:12:17.48,0:12:21.12,Default,,0,0,0,,- Te fous pas de moi !\N- Mais c'est vrai, je t'assure !
+Dialogue: 0,0:12:21.44,0:12:22.80,Default,,0,0,0,,Tu vas la fermer, oui ?
+Dialogue: 0,0:12:50.20,0:12:51.20,Default,,0,0,0,,Someya...
+Dialogue: 0,0:12:52.16,0:12:55.04,Default,,0,0,0,,Tiens, prends-la...
+Dialogue: 0,0:12:55.20,0:12:56.20,Default,,0,0,0,,Someya !
+Dialogue: 0,0:12:59.48,0:13:01.04,Default,,0,0,0,,C'est quoi, ça ?
+Dialogue: 0,0:13:01.40,0:13:06.16,Default,,0,0,0,,La clé que l'agent a balancée\Nétait celle de mes menottes à moi.
+Dialogue: 0,0:13:06.80,0:13:08.44,Default,,0,0,0,,La bonne, c'est celle-ci !
+Dialogue: 0,0:13:09.72,0:13:11.92,Default,,0,0,0,,Arrête tes conneries !
+Dialogue: 0,0:13:12.64,0:13:15.80,Default,,0,0,0,,Dépêche-toi !\NSinon, on va tomber tous les deux !
+Dialogue: 0,0:13:16.52,0:13:18.16,Default,,0,0,0,,Toi, tu peux t'en tirer...
+Dialogue: 0,0:13:20.08,0:13:21.72,Default,,0,0,0,,Grouille-toi !
+Dialogue: 0,0:13:28.80,0:13:29.80,Default,,0,0,0,,Bordel...
+Dialogue: 0,0:13:30.24,0:13:32.88,Default,,0,0,0,,de merde !
+Dialogue: 0,0:13:40.12,0:13:42.80,Default,,0,0,0,,Someya ! Tu...
+Dialogue: 0,0:13:43.04,0:13:45.72,Default,,0,0,0,,La clé... Passe-moi la clé !
+Dialogue: 0,0:13:49.08,0:13:49.76,Default,,0,0,0,,Je l'ai pas !
+Dialogue: 0,0:13:50.60,0:13:51.60,Default,,0,0,0,,Je l'ai lâchée !
+Dialogue: 0,0:13:52.04,0:13:54.52,Default,,0,0,0,,- Quoi ?\N- Je suis désolé.
+Dialogue: 0,0:13:56.44,0:13:59.00,Default,,0,0,0,,Pas la peine de t'excuser, abruti !
+Dialogue: 0,0:13:59.16,0:14:02.08,Default,,0,0,0,,Tu m'as sauvé !\NMerci !
+Dialogue: 0,0:14:03.28,0:14:06.12,Default,,0,0,0,,Les flics sont pas censés\Nremercier les suspects !
+Dialogue: 0,0:14:06.48,0:14:08.20,Default,,0,0,0,,C'est pas faux.
+Dialogue: 0,0:14:08.36,0:14:11.36,Default,,0,0,0,,Mais si tu m'avais pas tiré,\Nà l'heure qu'il est...
+Dialogue: 0,0:14:11.72,0:14:14.24,Default,,0,0,0,,Comme si j'avais eu le choix...
+Dialogue: 0,0:14:14.84,0:14:16.72,Default,,0,0,0,,On est reliés l'un à l'autre.
+Dialogue: 0,0:14:18.48,0:14:19.24,Default,,0,0,0,,Mais oui !
+Dialogue: 0,0:14:52.60,0:14:53.72,Default,,0,0,0,,Agent Satô !
+Dialogue: 0,0:14:54.80,0:14:56.16,Default,,0,0,0,,Ils ont été vus !
+Dialogue: 0,0:14:56.52,0:14:57.52,Default,,0,0,0,,Où ça ?
+Dialogue: 0,0:14:57.68,0:14:59.24,Default,,0,0,0,,L'inspecteur Takagi va bien ?
+Dialogue: 0,0:15:00.12,0:15:02.12,Default,,0,0,0,,Sur l'aire de repos\Ninterdépartementale.
+Dialogue: 0,0:15:02.44,0:15:06.00,Default,,0,0,0,,Le poste local m'a envoyé les images\Nd'une caméra de sécurité.
+Dialogue: 0,0:15:10.08,0:15:13.68,Default,,0,0,0,,Ma parole !\NIls ont l'air de bien s'entendre !
+Dialogue: 0,0:15:15.84,0:15:17.60,Default,,0,0,0,,Et voilà,\Nson foutu naturel...
+Dialogue: 0,0:15:20.16,0:15:21.96,Default,,0,0,0,,Non, rien...
+Dialogue: 0,0:15:22.24,0:15:24.08,Default,,0,0,0,,Où est ce camion, à présent ?
+Dialogue: 0,0:15:24.52,0:15:27.64,Default,,0,0,0,,On pense qu'il est entré\Ndans la métropole de Tokyo,
+Dialogue: 0,0:15:28.04,0:15:31.12,Default,,0,0,0,,mais il échappe encore\Naux mailles de notre filet.
+Dialogue: 0,0:15:31.80,0:15:33.80,Default,,0,0,0,,On va devoir attendre ici.
+Dialogue: 0,0:15:36.00,0:15:37.60,Default,,0,0,0,,Tu n'as pas de copine ?
+Dialogue: 0,0:15:40.12,0:15:41.12,Default,,0,0,0,,Et toi ?
+Dialogue: 0,0:15:42.12,0:15:45.20,Default,,0,0,0,,Ben... Je crois qu'on peut dire\Nque j'en ai une.
+Dialogue: 0,0:15:45.44,0:15:46.76,Default,,0,0,0,,Moi aussi, peut-être.
+Dialogue: 0,0:15:47.32,0:15:49.64,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:15:50.32,0:15:53.60,Default,,0,0,0,,Dis, tu peux me laisser téléphoner ?
+Dialogue: 0,0:15:54.68,0:15:55.84,Default,,0,0,0,,Ensuite,
+Dialogue: 0,0:15:57.04,0:15:58.12,Default,,0,0,0,,je me livrerai...
+Dialogue: 0,0:15:58.64,0:16:01.24,Default,,0,0,0,,Du moins,\Nj'irai au commissariat avec toi.
+Dialogue: 0,0:16:01.52,0:16:03.76,Default,,0,0,0,,C'est vrai ?
+Dialogue: 0,0:16:03.92,0:16:07.24,Default,,0,0,0,,Ben ouais...\NÇa rime à rien, de continuer avec ça...
+Dialogue: 0,0:16:07.68,0:16:08.68,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:16:13.28,0:16:15.60,Default,,0,0,0,,- Je peux utiliser les W.-C. ?\N- Bien sûr.
+Dialogue: 0,0:16:25.88,0:16:27.04,Default,,0,0,0,,Ah, regardez.
+Dialogue: 0,0:16:27.68,0:16:29.76,Default,,0,0,0,,Chie parle au téléphone.
+Dialogue: 0,0:16:30.16,0:16:32.24,Default,,0,0,0,,Avec Someya, je suppose.
+Dialogue: 0,0:16:35.60,0:16:36.60,Default,,0,0,0,,Elle a raccroché !
+Dialogue: 0,0:16:52.68,0:16:55.20,Default,,0,0,0,,Someya a dû lui donner rendez-vous.
+Dialogue: 0,0:16:55.56,0:17:00.16,Default,,0,0,0,,Oui. La menaçant du pire si jamais\Nelle alerte la police, il la tabassera.
+Dialogue: 0,0:17:00.76,0:17:02.08,Default,,0,0,0,,C'est affreux !
+Dialogue: 0,0:17:10.56,0:17:11.80,Default,,0,0,0,,C'est pas vrai !
+Dialogue: 0,0:17:12.16,0:17:14.32,Default,,0,0,0,,Demande des renforts\Nau commissaire.
+Dialogue: 0,0:17:15.56,0:17:16.56,Default,,0,0,0,,Compris.
+Dialogue: 0,0:17:17.00,0:17:18.96,Default,,0,0,0,,{\i1}Est-ce que par hasard,{\i0}\N{\i1}ce type...{\i0}
+Dialogue: 0,0:17:19.44,0:17:21.12,Default,,0,0,0,,Commissaire ? Ici Chiba.
+Dialogue: 0,0:17:21.28,0:17:22.24,Default,,0,0,0,,Conan !
+Dialogue: 0,0:17:29.56,0:17:34.28,Default,,0,0,0,,Excusez-moi ! Où est le serveur\Nqui s'est fait frapper par M. Someya ?
+Dialogue: 0,0:17:34.80,0:17:36.04,Default,,0,0,0,,Nashimoto ?
+Dialogue: 0,0:17:36.36,0:17:39.04,Default,,0,0,0,,Il est allé répondre à un appel\Nau vestiaire.
+Dialogue: 0,0:17:39.60,0:17:41.00,Default,,0,0,0,,Nashimoto...
+Dialogue: 0,0:17:41.36,0:17:42.36,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:17:43.72,0:17:45.28,Default,,0,0,0,,Où est-il passé ?
+Dialogue: 0,0:17:45.44,0:17:46.80,Default,,0,0,0,,NASHIMOTO
+Dialogue: 0,0:17:49.36,0:17:50.48,Default,,0,0,0,,{\i1}C'est quoi, ça ?{\i0}
+Dialogue: 0,0:17:51.28,0:17:53.20,Default,,0,0,0,,{\i1}C'est bien ce que je pensais.{\i0}
+Dialogue: 0,0:17:59.36,0:18:00.12,Default,,0,0,0,,{\i1}Oh non !{\i0}
+Dialogue: 0,0:18:00.84,0:18:02.08,Default,,0,0,0,,Petit...
+Dialogue: 0,0:18:02.96,0:18:06.88,Default,,0,0,0,,Tu devrais trouver Nashimoto\Ndans une usine désaffectée de Haido.
+Dialogue: 0,0:18:08.48,0:18:12.28,Default,,0,0,0,,Il y avait ce bout de papier\Nsur la table.
+Dialogue: 0,0:18:17.96,0:18:20.68,Default,,0,0,0,,Où tu m'emmènes, Someya ?\NExplique-moi !
+Dialogue: 0,0:18:21.08,0:18:23.16,Default,,0,0,0,,Tu devais te livrer à la police !
+Dialogue: 0,0:18:23.52,0:18:24.68,Default,,0,0,0,,Je le ferai
+Dialogue: 0,0:18:25.32,0:18:27.56,Default,,0,0,0,,quand je lui aurai réglé son compte.
+Dialogue: 0,0:18:28.08,0:18:29.80,Default,,0,0,0,,Tu peux être plus clair ?
+Dialogue: 0,0:18:34.84,0:18:36.20,Default,,0,0,0,,{\i1}C'est quoi, ce délire ?{\i0}
+Dialogue: 0,0:18:36.76,0:18:39.00,Default,,0,0,0,,Elle est à moi !
+Dialogue: 0,0:18:41.24,0:18:44.08,Default,,0,0,0,,Je ne te la laisserai jamais !
+Dialogue: 0,0:19:03.88,0:19:05.64,Default,,0,0,0,,{\i1}Go!{\i0}
+Dialogue: 0,0:19:14.12,0:19:15.80,Default,,0,0,0,,Conan !
+Dialogue: 0,0:19:16.52,0:19:17.88,Default,,0,0,0,,Pourquoi t'es là ?
+Dialogue: 0,0:19:18.72,0:19:20.32,Default,,0,0,0,,D'où il sort, ce type ?
+Dialogue: 0,0:19:20.68,0:19:23.36,Default,,0,0,0,,Le vrai harceleur, c'était lui.
+Dialogue: 0,0:19:24.72,0:19:25.64,Default,,0,0,0,,Le harceleur ?
+Dialogue: 0,0:19:26.16,0:19:28.76,Default,,0,0,0,,M. Someya a fait tout ça\Npour protéger
+Dialogue: 0,0:19:28.92,0:19:31.44,Default,,0,0,0,,sa petite amie de ce type.
+Dialogue: 0,0:19:33.84,0:19:34.84,Default,,0,0,0,,Someya ?
+Dialogue: 0,0:19:35.72,0:19:38.08,Default,,0,0,0,,Il s'est sauvé !\NLa tuile !
+Dialogue: 0,0:19:38.24,0:19:40.40,Default,,0,0,0,,Je ne crois pas\Nqu'il se soit enfui.
+Dialogue: 0,0:19:41.52,0:19:44.44,Default,,0,0,0,,Il n'aurait pas passé\Ndeux coups de fil ?
+Dialogue: 0,0:19:49.44,0:19:52.12,Default,,0,0,0,,Si, en effet.\NIl a fait deux numéros...
+Dialogue: 0,0:19:59.52,0:20:02.76,Default,,0,0,0,,J'ai compris...\NSomeya a appelé ce type
+Dialogue: 0,0:20:03.28,0:20:06.12,Default,,0,0,0,,et sa petite amie\Nvictime de ce harcèlement.
+Dialogue: 0,0:20:06.56,0:20:07.76,Default,,0,0,0,,Exactement.
+Dialogue: 0,0:20:08.24,0:20:11.76,Default,,0,0,0,,Faites-lui confiance jusqu'au bout,\Ninspecteur Takagi.
+Dialogue: 0,0:20:14.64,0:20:15.64,Default,,0,0,0,,OK.
+Dialogue: 0,0:20:20.92,0:20:23.92,Default,,0,0,0,,Je ne peux plus attendre.\NJe lance les recherches.
+Dialogue: 0,0:20:24.08,0:20:26.08,Default,,0,0,0,,Non, un peu de patience !
+Dialogue: 0,0:20:26.24,0:20:29.64,Default,,0,0,0,,Attendez encore dix petites minutes,\Nou même cinq !
+Dialogue: 0,0:20:30.12,0:20:32.36,Default,,0,0,0,,Réveille-toi, Takagi !
+Dialogue: 0,0:20:32.68,0:20:34.20,Default,,0,0,0,,On est pas dans un film.
+Dialogue: 0,0:20:35.68,0:20:38.04,Default,,0,0,0,,Je sais bien, mais bon...
+Dialogue: 0,0:20:50.64,0:20:51.64,Default,,0,0,0,,Someya !
+Dialogue: 0,0:20:53.96,0:20:57.48,Default,,0,0,0,,Fais pas cette tête,\Nt'es inspecteur de police.
+Dialogue: 0,0:20:57.72,0:21:00.40,Default,,0,0,0,,Non, c'est pas ça que tu dois dire !
+Dialogue: 0,0:21:02.28,0:21:04.08,Default,,0,0,0,,Tu sais bien !
+Dialogue: 0,0:21:07.76,0:21:10.00,Default,,0,0,0,,OK, je crois que j'ai pas le choix...
+Dialogue: 0,0:21:14.48,0:21:16.52,Default,,0,0,0,,Comment aurais-je pu me sauver ?
+Dialogue: 0,0:21:16.76,0:21:18.32,Default,,0,0,0,,On est liés, toi et moi.
+Dialogue: 0,0:21:18.64,0:21:20.28,Default,,0,0,0,,Oui ! C'est ça !
+Dialogue: 0,0:21:21.48,0:21:23.68,Default,,0,0,0,,Il l'a dit !
+Dialogue: 0,0:21:25.92,0:21:28.16,Default,,0,0,0,,Pile ce que j'attendais !\NGénial !
+Dialogue: 0,0:21:36.24,0:21:39.28,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:40.40,0:21:43.40,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:56.04,0:22:59.72,Default,,0,0,0,,Tous ces pervers,\Nfaudrait leur couper les mains.
+Dialogue: 0,0:22:59.92,0:23:02.20,Default,,0,0,0,,En plus, il nous a blousés.
+Dialogue: 0,0:23:02.52,0:23:06.96,Default,,0,0,0,,Alors M. Someya s'est évadé\Npour protéger Chie,
+Dialogue: 0,0:23:07.12,0:23:08.32,Default,,0,0,0,,menotte au poignet.
+Dialogue: 0,0:23:08.76,0:23:11.56,Default,,0,0,0,,Autrement dit,\Nil a brisé les menottes,
+Dialogue: 0,0:23:11.72,0:23:13.92,Default,,0,0,0,,sans tremper les mains\Ndans le crime.
+Dialogue: 0,0:23:14.24,0:23:17.68,Default,,0,0,0,,Oui. En vérité, c'était un type bien.
+Dialogue: 0,0:23:19.16,0:23:21.52,Default,,0,0,0,,Il n'avait pas les mains sales
+Dialogue: 0,0:23:21.68,0:23:23.48,Default,,0,0,0,,et a brisé les menottes...
+Dialogue: 0,0:23:23.80,0:23:26.52,Default,,0,0,0,,Pourquoi tu répètes ça\Ncomme un idiot ?
+Dialogue: 0,0:23:29.04,0:23:32.16,Default,,0,0,0,,L'homme aux mains propres\Na brisé les menottes.
+Dialogue: 0,0:23:32.60,0:23:33.96,Default,,0,0,0,,"Menottes"...
+Dialogue: 0,0:23:34.12,0:23:37.00,ST_BAS_GAUCHE,,0,0,0,,"Mains."\NTu vois le jeu de mots ?
+Dialogue: 0,0:23:37.16,0:23:38.96,Default,,0,0,0,,Désopilant, non ?
+Dialogue: 0,0:23:41.20,0:23:43.16,Default,,0,0,0,,{\i1}C'est fini pour le sketch...{\i0}

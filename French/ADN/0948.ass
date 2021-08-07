@@ -1,0 +1,438 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:12.76,0:00:16.14,ST_HAUT,,0,0,0,,{\i1}Bienvenue dans cette salle\Ndu musée des dinosaures de Beika{\i0}
+Dialogue: 0,0:00:16.30,0:00:17.72,ST_HAUT,,0,0,0,,{\i1}créée pour ce spectacle !{\i0}
+Dialogue: 0,0:00:18.35,0:00:21.73,Default,,0,0,0,,{\i1}Aujourd'hui, nous accueillerons\Nles 2 grandes stars du crétacé,{\i0}
+Dialogue: 0,0:00:22.56,0:00:23.85,Default,,0,0,0,,{\i1}j'ai nommé{\i0}
+Dialogue: 0,0:00:24.14,0:00:26.48,Default,,0,0,0,,{\i1}le tyrannosaure et le tricératops !{\i0}
+Dialogue: 0,0:00:29.32,0:00:32.61,Default,,0,0,0,,{\i1}Sur ce, je vous souhaite\Nde passer un excellent moment !{\i0}
+Dialogue: 0,0:00:37.20,0:00:38.62,Default,,0,0,0,,Tiens, c'est pour toi.
+Dialogue: 0,0:00:40.24,0:00:42.83,Default,,0,0,0,,C'est offert au public du spectacle.
+Dialogue: 0,0:00:43.33,0:00:44.29,Default,,0,0,0,,Merci !
+Dialogue: 0,0:00:44.46,0:00:47.79,ST_BAS_DROITE,,0,0,0,,Il n'y en a qu'un par jour,\Nalors profites-en bien !
+Dialogue: 0,0:00:48.17,0:00:49.42,Default,,0,0,0,,Tiens, sers-toi.
+Dialogue: 0,0:00:49.59,0:00:50.38,Default,,0,0,0,,Merci !
+Dialogue: 0,0:00:53.09,0:00:54.01,Default,,0,0,0,,{\i1}C'est terrible !{\i0}
+Dialogue: 0,0:00:54.47,0:00:56.72,Default,,0,0,0,,{\i1}Le tyrannosaure est déchaîné !{\i0}
+Dialogue: 0,0:00:57.34,0:00:59.14,Default,,0,0,0,,{\i1}Faites attention, les enfants !{\i0}
+Dialogue: 0,0:01:07.52,0:01:08.36,Default,,0,0,0,,Ayumi !
+Dialogue: 0,0:01:11.02,0:01:12.03,Default,,0,0,0,,{\i1}Oh là là !{\i0}
+Dialogue: 0,0:01:12.36,0:01:14.44,Default,,0,0,0,,{\i1}Le tricératops s'interpose !{\i0}
+Dialogue: 0,0:01:16.03,0:01:16.95,Default,,0,0,0,,Tout va bien ?
+Dialogue: 0,0:01:18.49,0:01:19.20,Default,,0,0,0,,Tu n'as rien ?
+Dialogue: 0,0:01:19.74,0:01:20.58,Default,,0,0,0,,Ça va...
+Dialogue: 0,0:01:20.74,0:01:22.04,Default,,0,0,0,,Désolé pour la frayeur.
+Dialogue: 0,0:01:24.91,0:01:26.83,Default,,0,0,0,,{\i1}Les deux éternels rivaux,{\i0}
+Dialogue: 0,0:01:27.46,0:01:29.83,Default,,0,0,0,,{\i1}le tyrannosaure et le tricératops,{\i0}
+Dialogue: 0,0:01:30.50,0:01:33.84,Default,,0,0,0,,{\i1}se font face !\NQui des deux l'emportera ?{\i0}
+Dialogue: 0,0:01:38.68,0:01:40.80,ST_HAUT,,0,0,0,,{\i1}Un éclair illumine les ténèbres !{\i0}
+Dialogue: 0,0:01:40.97,0:01:42.85,Default,,0,0,0,,{\i1}Sois transcendante,\Ndéduction posée !{\i0}
+Dialogue: 0,0:01:43.06,0:01:44.68,Default,,0,0,0,,{\i1}Que va-t-il encore se passer{\i0}
+Dialogue: 0,0:01:44.85,0:01:46.60,Default,,0,0,0,,{\i1}après le duel des deux dinosaures ?{\i0}
+Dialogue: 0,0:01:46.77,0:01:49.98,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:50.15,0:01:51.82,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:56.65,0:01:59.07,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:03.08,0:02:05.58,ST_HAUT,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:02:07.33,0:02:09.71,ST_HAUT,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:02:12.29,0:02:14.80,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:16.80,0:02:19.30,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:27.89,0:02:30.73,ST_HAUT_GAUCHE,,0,0,0,,Générique d'ouverture :
+Dialogue: 0,0:02:49.33,0:02:51.58,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:03:00.51,0:03:03.01,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:04.89,0:03:07.31,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:09.23,0:03:12.19,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:21.95,0:03:24.45,Default,,0,0,0,,{\i1}L'homme écrasé par un dinosaure !{\i0}
+Dialogue: 0,0:03:30.08,0:03:32.08,Default,,0,0,0,,C'était super impressionnant !
+Dialogue: 0,0:03:32.25,0:03:33.71,Default,,0,0,0,,Oui ! J'étais tout excité !
+Dialogue: 0,0:03:34.33,0:03:36.00,Default,,0,0,0,,Mais c'était effrayant !
+Dialogue: 0,0:03:36.17,0:03:37.13,Default,,0,0,0,,Tu n'as rien eu ?
+Dialogue: 0,0:03:37.63,0:03:41.13,Default,,0,0,0,,Non ! Et puis,\Nle présentateur m'a aidée...
+Dialogue: 0,0:03:41.30,0:03:44.80,Default,,0,0,0,,N'empêche, ils étaient\Ntrès réalistes, ces dinosaures !
+Dialogue: 0,0:03:45.18,0:03:46.01,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:03:47.26,0:03:47.89,Default,,0,0,0,,C'était quoi ?
+Dialogue: 0,0:03:48.06,0:03:51.52,Default,,0,0,0,,On aurait dit le bruit\Nd'un truc énorme qui tombe !
+Dialogue: 0,0:03:55.27,0:03:57.07,Default,,0,0,0,,C'est terrible ! Que faire...
+Dialogue: 0,0:03:57.23,0:03:59.44,Default,,0,0,0,,Que s'est-il passé, mademoiselle ?
+Dialogue: 0,0:04:00.28,0:04:02.70,ST_HAUT,,0,0,0,,C'est ce fossile de dinosaure\Ndans la salle...
+Dialogue: 0,0:04:05.62,0:04:06.37,Default,,0,0,0,,Oh non !
+Dialogue: 0,0:04:06.91,0:04:09.37,Default,,0,0,0,,Ce squelette de dinosaure\Ns'est effondré !
+Dialogue: 0,0:04:10.25,0:04:11.75,Default,,0,0,0,,Appelez le directeur !
+Dialogue: 0,0:04:11.91,0:04:12.54,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:04:14.71,0:04:16.00,ST_HAUT,,0,0,0,,C'est pas vrai...
+Dialogue: 0,0:04:16.21,0:04:17.54,ST_HAUT,,0,0,0,,Mon brachiosaure...
+Dialogue: 0,0:04:17.92,0:04:20.17,Default,,0,0,0,,Merde ! Comment ç'a pu arriver ?
+Dialogue: 0,0:04:20.55,0:04:21.46,Default,,0,0,0,,Hé ! Regardez !
+Dialogue: 0,0:04:21.84,0:04:23.51,Default,,0,0,0,,Il y a quelqu'un en dessous !
+Dialogue: 0,0:04:23.68,0:04:25.76,Default,,0,0,0,,Vite ! Il faut le tirer de là !
+Dialogue: 0,0:04:29.35,0:04:30.18,Default,,0,0,0,,Le directeur...
+Dialogue: 0,0:04:30.72,0:04:32.23,Default,,0,0,0,,C'est le directeur !
+Dialogue: 0,0:04:32.48,0:04:33.35,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:04:44.90,0:04:46.41,Default,,0,0,0,,{\i1}C'est quoi, ce liquide ?{\i0}
+Dialogue: 0,0:04:50.24,0:04:52.12,Default,,0,0,0,,MUSÉE DES DINOSAURES DE BEIKA
+Dialogue: 0,0:04:52.62,0:04:53.58,Default,,0,0,0,,Quelle tragédie...
+Dialogue: 0,0:04:53.79,0:04:55.37,Default,,0,0,0,,Finir écrasé par un dinosaure...
+Dialogue: 0,0:04:55.92,0:04:57.83,Default,,0,0,0,,C'est à peine croyable...
+Dialogue: 0,0:04:58.00,0:04:59.21,Default,,0,0,0,,Reculez, les enfants !
+Dialogue: 0,0:04:59.42,0:05:00.84,Default,,0,0,0,,Il y a eu un mort ici !
+Dialogue: 0,0:05:01.13,0:05:04.09,Default,,0,0,0,,Inspecteur Takagi !\NC'est un accident ?
+Dialogue: 0,0:05:04.26,0:05:05.38,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:05:06.38,0:05:07.93,Default,,0,0,0,,On ne sait pas encore...
+Dialogue: 0,0:05:08.22,0:05:08.89,Default,,0,0,0,,Donc
+Dialogue: 0,0:05:09.35,0:05:12.72,Default,,0,0,0,,cette salle d'exposition secondaire\Nétait interdite d'accès.
+Dialogue: 0,0:05:13.14,0:05:13.77,Default,,0,0,0,,C'est ça.
+Dialogue: 0,0:05:14.60,0:05:16.39,Default,,0,0,0,,Elle devait ouvrir plus tard
+Dialogue: 0,0:05:16.56,0:05:19.27,Default,,0,0,0,,car l'assemblage des spécimens\Nétait en cours.
+Dialogue: 0,0:05:20.15,0:05:23.32,Default,,0,0,0,,Celui de ce brachiosaure\Nétait encore provisoire.
+Dialogue: 0,0:05:24.07,0:05:27.86,Default,,0,0,0,,Le directeur n'est entré en poste\Ndans ce musée que le mois dernier.
+Dialogue: 0,0:05:28.41,0:05:29.78,Default,,0,0,0,,Il était très zélé.
+Dialogue: 0,0:05:30.37,0:05:32.99,Default,,0,0,0,,Peut-être était-il venu\Ncontrôler les spécimens.
+Dialogue: 0,0:05:33.58,0:05:35.79,Default,,0,0,0,,Qui aurait pu croire\Nà un tel accident ?
+Dialogue: 0,0:05:36.50,0:05:38.25,Default,,0,0,0,,Non, justement...
+Dialogue: 0,0:05:38.58,0:05:39.83,Default,,0,0,0,,Après enquête,
+Dialogue: 0,0:05:40.00,0:05:42.71,Default,,0,0,0,,on a découvert que quelqu'un\Na sectionné les câbles
+Dialogue: 0,0:05:42.88,0:05:45.30,Default,,0,0,0,,qui soutenaient ce fossile.
+Dialogue: 0,0:05:46.30,0:05:47.80,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:05:50.64,0:05:51.55,Default,,0,0,0,,C'est vrai...
+Dialogue: 0,0:05:51.93,0:05:53.64,Default,,0,0,0,,Ici ! Et là aussi !
+Dialogue: 0,0:05:54.47,0:05:56.10,Default,,0,0,0,,Mais il faut du temps
+Dialogue: 0,0:05:56.27,0:05:57.81,Default,,0,0,0,,pour couper autant de câbles !
+Dialogue: 0,0:05:58.10,0:05:58.90,Default,,0,0,0,,Exact.
+Dialogue: 0,0:05:59.10,0:06:00.86,Default,,0,0,0,,C'est pourquoi le coupable
+Dialogue: 0,0:06:01.02,0:06:03.48,Default,,0,0,0,,a dû sectionner la majorité\Nau préalable
+Dialogue: 0,0:06:03.69,0:06:07.82,Default,,0,0,0,,et attendre l'arrivée du directeur\Npour couper le dernier.
+Dialogue: 0,0:06:08.49,0:06:10.66,Default,,0,0,0,,La pince qu'on a dû utiliser pour ça
+Dialogue: 0,0:06:10.82,0:06:13.66,Default,,0,0,0,,était juste à côté du fossile\Nqui s'est effondré.
+Dialogue: 0,0:06:14.20,0:06:14.83,Default,,0,0,0,,L'accueil
+Dialogue: 0,0:06:15.25,0:06:17.12,Default,,0,0,0,,et les gardiens n'ont vu personne
+Dialogue: 0,0:06:17.29,0:06:18.83,Default,,0,0,0,,entrer ou sortir
+Dialogue: 0,0:06:19.00,0:06:21.92,Default,,0,0,0,,de ce bâtiment ou son enceinte\Njuste avant ou après
+Dialogue: 0,0:06:22.09,0:06:23.55,Default,,0,0,0,,la chute du fossile.
+Dialogue: 0,0:06:24.13,0:06:25.34,Default,,0,0,0,,Mais alors,
+Dialogue: 0,0:06:25.51,0:06:27.63,Default,,0,0,0,,Le directeur a été tué...
+Dialogue: 0,0:06:28.13,0:06:30.05,Default,,0,0,0,,... par l'un d'entre nous ?
+Dialogue: 0,0:06:31.47,0:06:33.26,Default,,0,0,0,,C'est un meurtre ?
+Dialogue: 0,0:06:34.43,0:06:37.23,Default,,0,0,0,,M. Agasa,\Néloignez les enfants d'ici !
+Dialogue: 0,0:06:37.43,0:06:38.77,Default,,0,0,0,,Désolé...
+Dialogue: 0,0:06:38.94,0:06:41.86,Default,,0,0,0,,Allez, on y va.\NIl ne faut pas gêner la police.
+Dialogue: 0,0:06:42.44,0:06:45.90,Default,,0,0,0,,Bien, que faisiez-vous\Nquand le fossile s'est effondré ?
+Dialogue: 0,0:06:46.28,0:06:48.40,Default,,0,0,0,,Le présentateur n'est pas concerné !
+Dialogue: 0,0:06:48.86,0:06:50.53,Default,,0,0,0,,Il n'a pas quitté la scène !
+Dialogue: 0,0:06:51.41,0:06:52.28,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:06:52.45,0:06:54.12,Default,,0,0,0,,Merci, petite demoiselle.
+Dialogue: 0,0:06:54.70,0:06:57.29,Default,,0,0,0,,MUSÉE DES DINOSAURES DE BEIKA
+Dialogue: 0,0:07:03.63,0:07:04.54,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:07:09.09,0:07:09.80,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:07:10.43,0:07:13.30,Default,,0,0,0,,D'après vous, Yua Katsuragawa,\Nvous étiez seule
+Dialogue: 0,0:07:13.80,0:07:15.68,Default,,0,0,0,,au bureau et n'en avez pas bougé.
+Dialogue: 0,0:07:16.22,0:07:17.02,Default,,0,0,0,,C'est ça.
+Dialogue: 0,0:07:17.39,0:07:18.27,Default,,0,0,0,,M. Kuchiki ?
+Dialogue: 0,0:07:18.43,0:07:21.73,Default,,0,0,0,,Moi, j'étais dans la salle\Nde préparatifs du musée,
+Dialogue: 0,0:07:21.90,0:07:23.90,Default,,0,0,0,,pour la prochaine exposition,
+Dialogue: 0,0:07:24.40,0:07:25.44,Default,,0,0,0,,seul...
+Dialogue: 0,0:07:26.36,0:07:27.36,Default,,0,0,0,,Dans ce cas,
+Dialogue: 0,0:07:27.53,0:07:30.86,Default,,0,0,0,,vous êtes les deux seuls\Nà ne pas avoir d'alibi.
+Dialogue: 0,0:07:32.66,0:07:35.66,Default,,0,0,0,,Inspecteur !\NJ'ai une idée du coupable !
+Dialogue: 0,0:07:38.20,0:07:39.54,Default,,0,0,0,,Une minute, M. Kuchiki...
+Dialogue: 0,0:07:39.95,0:07:41.71,Default,,0,0,0,,Vous sous-entendez que c'est moi ?
+Dialogue: 0,0:07:41.96,0:07:43.71,Default,,0,0,0,,Oui ! C'est toi !
+Dialogue: 0,0:07:44.17,0:07:45.63,Default,,0,0,0,,Ça ne peut être que toi !
+Dialogue: 0,0:07:45.84,0:07:46.84,Default,,0,0,0,,Attendez !
+Dialogue: 0,0:07:47.00,0:07:49.21,Default,,0,0,0,,Mais pourquoi pensez-vous ça ?
+Dialogue: 0,0:07:49.38,0:07:51.26,Default,,0,0,0,,- En fait, M. Shida...\N- M. Kuchiki !
+Dialogue: 0,0:07:52.01,0:07:54.97,Default,,0,0,0,,Ça suffit ! Il y a des choses\Nqu'on ne peut pas dire !
+Dialogue: 0,0:07:55.47,0:07:57.81,Default,,0,0,0,,La police finira par l'apprendre !
+Dialogue: 0,0:07:57.97,0:07:58.97,Default,,0,0,0,,Le directeur
+Dialogue: 0,0:07:59.39,0:08:01.98,Default,,0,0,0,,avait des vues sur cette femme !
+Dialogue: 0,0:08:04.65,0:08:07.32,Default,,0,0,0,,Mlle Katsuragawa,\Nvous confirmez ?
+Dialogue: 0,0:08:07.90,0:08:08.98,Default,,0,0,0,,C'est la vérité...
+Dialogue: 0,0:08:09.15,0:08:11.44,Default,,0,0,0,,Ma mère souffre\Nd'une longue maladie...
+Dialogue: 0,0:08:12.36,0:08:14.82,Default,,0,0,0,,Et quand j'en ai parlé\Nau directeur,
+Dialogue: 0,0:08:15.45,0:08:18.99,Default,,0,0,0,,il m'a proposé de payer la clinique,\Nsi je devenais sa maîtresse.
+Dialogue: 0,0:08:20.33,0:08:22.79,Default,,0,0,0,,M. Shida était une ordure,
+Dialogue: 0,0:08:23.71,0:08:26.29,Default,,0,0,0,,mais je ne l'ai pas tué pour autant !
+Dialogue: 0,0:08:26.84,0:08:27.71,Default,,0,0,0,,Et d'ailleurs,
+Dialogue: 0,0:08:27.92,0:08:30.67,Default,,0,0,0,,je n'étais pas la seule\Nà souhaiter sa mort !
+Dialogue: 0,0:08:31.30,0:08:34.30,Default,,0,0,0,,Vous aussi,\Nvous le haïssiez, pas vrai ?
+Dialogue: 0,0:08:35.30,0:08:36.85,Default,,0,0,0,,Vous le saviez aussi, non ?
+Dialogue: 0,0:08:37.72,0:08:39.56,Default,,0,0,0,,Euh... Plus ou moins...
+Dialogue: 0,0:08:39.81,0:08:41.22,Default,,0,0,0,,Oui, c'est vrai.
+Dialogue: 0,0:08:42.14,0:08:44.64,Default,,0,0,0,,Cette ordure de Shida, sous prétexte
+Dialogue: 0,0:08:44.81,0:08:47.69,Default,,0,0,0,,qu'il était devenu\Ndirecteur du musée...
+Dialogue: 0,0:08:50.03,0:08:52.07,Default,,0,0,0,,{\i1}Exposer des fossiles ? Tu rêves !{\i0}
+Dialogue: 0,0:08:52.40,0:08:55.86,Default,,0,0,0,,{\i1}Ce qu'il faut, c'est un gros show\Npour attirer les clients !{\i0}
+Dialogue: 0,0:08:56.07,0:08:58.45,Default,,0,0,0,,{\i1}Un spectacle pour enfants !{\i0}
+Dialogue: 0,0:08:58.95,0:09:00.12,Default,,0,0,0,,{\i1}Mais, directeur...{\i0}
+Dialogue: 0,0:09:00.58,0:09:02.66,Default,,0,0,0,,{\i1}Ce fossile de plésiosaurien{\i0}
+Dialogue: 0,0:09:02.83,0:09:04.75,Default,,0,0,0,,{\i1}- est scientifiquement...\N- La ferme !{\i0}
+Dialogue: 0,0:09:05.00,0:09:07.25,Default,,0,0,0,,{\i1}Ces déchets ne rapportent rien !{\i0}
+Dialogue: 0,0:09:08.50,0:09:09.67,Default,,0,0,0,,{\i1}Jette-les-tous !{\i0}
+Dialogue: 0,0:09:13.38,0:09:14.38,Default,,0,0,0,,C'est vrai !
+Dialogue: 0,0:09:14.59,0:09:15.68,Default,,0,0,0,,Je le détestais !
+Dialogue: 0,0:09:16.47,0:09:18.68,Default,,0,0,0,,Mais je ne l'ai pas tué !
+Dialogue: 0,0:09:18.89,0:09:20.56,Default,,0,0,0,,Allons ! Calmez-vous !
+Dialogue: 0,0:09:21.26,0:09:24.48,Default,,0,0,0,,Pour commencer, je vous interrogerai\Nl'un après l'autre.
+Dialogue: 0,0:09:24.64,0:09:27.02,Default,,0,0,0,,Commençons par Mlle Katsuragawa.\NPar ici.
+Dialogue: 0,0:09:27.23,0:09:27.94,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:09:34.44,0:09:36.15,Default,,0,0,0,,Euh... M. Kuchiki...
+Dialogue: 0,0:09:36.40,0:09:38.20,Default,,0,0,0,,C'est dommage pour le fossile...
+Dialogue: 0,0:09:38.37,0:09:39.49,Default,,0,0,0,,Me touche pas !
+Dialogue: 0,0:09:49.96,0:09:52.30,Default,,0,0,0,,MUSÉE DES DINOSAURES DE BEIKA
+Dialogue: 0,0:09:56.38,0:09:57.55,Default,,0,0,0,,Quand je pense
+Dialogue: 0,0:09:57.72,0:09:59.55,Default,,0,0,0,,qu'on allait bientôt t'exposer...
+Dialogue: 0,0:09:59.72,0:10:00.47,Default,,0,0,0,,Monsieur.
+Dialogue: 0,0:10:01.72,0:10:03.26,Default,,0,0,0,,Les enfants...
+Dialogue: 0,0:10:03.68,0:10:05.31,Default,,0,0,0,,Vous adorez les dinosaures !
+Dialogue: 0,0:10:05.64,0:10:06.35,Default,,0,0,0,,Oui...
+Dialogue: 0,0:10:07.19,0:10:11.36,Default,,0,0,0,,J'ai leur image en tête\Ndepuis toujours.
+Dialogue: 0,0:10:11.52,0:10:14.23,Default,,0,0,0,,Je comprends très bien\Nce que vous ressentez !
+Dialogue: 0,0:10:14.90,0:10:18.24,Default,,0,0,0,,Dire que de telles créatures\Nfoulaient la terre
+Dialogue: 0,0:10:18.66,0:10:20.78,Default,,0,0,0,,il y a des millions d'années !
+Dialogue: 0,0:10:20.99,0:10:23.83,Default,,0,0,0,,C'est excitant rien que d'y penser !
+Dialogue: 0,0:10:25.16,0:10:26.04,Default,,0,0,0,,C'est vrai...
+Dialogue: 0,0:10:26.41,0:10:28.79,Default,,0,0,0,,Oui, bien avant que l'homme naisse,
+Dialogue: 0,0:10:29.21,0:10:32.13,Default,,0,0,0,,ces créatures\Nont vécu et parcouru la terre.
+Dialogue: 0,0:10:32.50,0:10:33.46,Default,,0,0,0,,C'est beau, hein...
+Dialogue: 0,0:10:34.25,0:10:35.96,Default,,0,0,0,,Ne me compare pas à toi !
+Dialogue: 0,0:10:36.97,0:10:39.97,Default,,0,0,0,,C'est vrai que je présente\Nun simple show d'automates.
+Dialogue: 0,0:10:40.64,0:10:44.39,Default,,0,0,0,,Mais moi aussi,\Nje fais ça pour le bonheur des gens !
+Dialogue: 0,0:10:45.81,0:10:47.73,Default,,0,0,0,,Ça reste de la camelote !
+Dialogue: 0,0:10:48.14,0:10:50.02,Default,,0,0,0,,Moi, je voulais montrer des vrais.
+Dialogue: 0,0:10:50.31,0:10:51.90,Default,,0,0,0,,Je mettais mon honneur en jeu !
+Dialogue: 0,0:10:52.06,0:10:53.06,Default,,0,0,0,,Quand bien même,
+Dialogue: 0,0:10:53.86,0:10:56.82,Default,,0,0,0,,je refuse\Nqu'on me fasse porter le chapeau !
+Dialogue: 0,0:10:56.99,0:10:58.86,Default,,0,0,0,,Tout s'est bien passé, Yua ?
+Dialogue: 0,0:10:59.36,0:11:01.32,Default,,0,0,0,,Oui, car le bureau où se trouvait
+Dialogue: 0,0:11:01.49,0:11:04.83,Default,,0,0,0,,Mlle Katsuragawa\Nest derrière le local du personnel.
+Dialogue: 0,0:11:05.37,0:11:08.16,Default,,0,0,0,,Il lui était donc impossible\Nd'en sortir
+Dialogue: 0,0:11:08.33,0:11:11.50,Default,,0,0,0,,avant ou après le meurtre,\Nsans être vue.
+Dialogue: 0,0:11:12.00,0:11:12.71,Default,,0,0,0,,Exact.
+Dialogue: 0,0:11:12.88,0:11:14.21,Default,,0,0,0,,Je suis innocente !
+Dialogue: 0,0:11:14.42,0:11:16.84,Default,,0,0,0,,Donc, M. Kuchiki,\Nle plus suspect,
+Dialogue: 0,0:11:17.51,0:11:18.67,Default,,0,0,0,,c'est vous !
+Dialogue: 0,0:11:20.01,0:11:20.72,Default,,0,0,0,,Moi ?
+Dialogue: 0,0:11:20.97,0:11:22.34,Default,,0,0,0,,Ça suffit à la fin !
+Dialogue: 0,0:11:22.51,0:11:23.35,Default,,0,0,0,,Allons, allons.
+Dialogue: 0,0:11:24.01,0:11:24.76,Default,,0,0,0,,M. Kuchiki.
+Dialogue: 0,0:11:25.26,0:11:27.85,Default,,0,0,0,,Nous avons découvert\Nplusieurs preuves.
+Dialogue: 0,0:11:28.22,0:11:29.43,Default,,0,0,0,,Lesquelles ?
+Dialogue: 0,0:11:42.07,0:11:43.99,Default,,0,0,0,,On a trouvé ceci dans la poubelle
+Dialogue: 0,0:11:44.70,0:11:46.74,Default,,0,0,0,,du bureau du directeur.
+Dialogue: 0,0:11:47.58,0:11:49.04,Default,,0,0,0,,"J'ai à vous parler.
+Dialogue: 0,0:11:49.20,0:11:53.21,Default,,0,0,0,,"Attendez-moi sous le brachiosaure\Nde la salle d'exposition secondaire.
+Dialogue: 0,0:11:53.38,0:11:54.00,Default,,0,0,0,,"Kuchiki."
+Dialogue: 0,0:11:56.92,0:11:58.05,Default,,0,0,0,,Vous voyez ?
+Dialogue: 0,0:11:58.21,0:11:59.76,Default,,0,0,0,,C'est bien vous, finalement !
+Dialogue: 0,0:11:59.92,0:12:00.92,Default,,0,0,0,,Mais non !
+Dialogue: 0,0:12:01.13,0:12:02.88,Default,,0,0,0,,Je n'ai jamais écrit ça !
+Dialogue: 0,0:12:03.39,0:12:04.76,Default,,0,0,0,,Stop, les faux-fuyants !
+Dialogue: 0,0:12:04.93,0:12:06.01,Default,,0,0,0,,Yua, calme-toi.
+Dialogue: 0,0:12:06.68,0:12:08.77,Default,,0,0,0,,Ça ira. Je m'en charge.
+Dialogue: 0,0:12:09.47,0:12:10.27,Default,,0,0,0,,M. Kuchiki.
+Dialogue: 0,0:12:10.85,0:12:14.44,Default,,0,0,0,,Vous avez coupé plusieurs câbles\Ndu dinosaure au préalable.
+Dialogue: 0,0:12:14.85,0:12:18.61,Default,,0,0,0,,Puis, vous êtes allé appeler\Nle directeur au début du show.
+Dialogue: 0,0:12:18.90,0:12:21.19,Default,,0,0,0,,Ensuite, vous êtes retourné couper
+Dialogue: 0,0:12:21.36,0:12:23.78,Default,,0,0,0,,le dernier câble\Npour tuer le directeur.
+Dialogue: 0,0:12:24.45,0:12:25.32,Default,,0,0,0,,C'est faux !
+Dialogue: 0,0:12:25.99,0:12:27.24,Default,,0,0,0,,Ce n'est pas moi !
+Dialogue: 0,0:12:28.83,0:12:30.70,Default,,0,0,0,,Et ça, vous savez ce que c'est ?
+Dialogue: 0,0:12:32.12,0:12:34.21,Default,,0,0,0,,Un agent d'enrobage pour fossile.
+Dialogue: 0,0:12:34.62,0:12:35.96,Default,,0,0,0,,C'est quoi, ce truc ?
+Dialogue: 0,0:12:36.63,0:12:37.38,Default,,0,0,0,,Exact.
+Dialogue: 0,0:12:37.67,0:12:40.80,Default,,0,0,0,,D'après l'expert,\Nc'est une sorte de résine
+Dialogue: 0,0:12:40.96,0:12:43.97,Default,,0,0,0,,qui se caractérise\Npar sa très grande transparence
+Dialogue: 0,0:12:44.13,0:12:46.55,Default,,0,0,0,,et qui sert à protéger les fossiles.
+Dialogue: 0,0:12:48.30,0:12:49.85,Default,,0,0,0,,Comme ça, en fait.
+Dialogue: 0,0:12:50.31,0:12:53.60,Default,,0,0,0,,C'est le même\Nque celui qu'on nous a offert !
+Dialogue: 0,0:12:54.31,0:12:57.52,Default,,0,0,0,,On en a trouvé par terre\Nprès du lieu du crime.
+Dialogue: 0,0:12:58.65,0:12:59.98,Default,,0,0,0,,D'après l'expert,
+Dialogue: 0,0:13:00.57,0:13:02.28,Default,,0,0,0,,ça ne remonte pas à longtemps.
+Dialogue: 0,0:13:02.86,0:13:03.70,Default,,0,0,0,,M. Kuchiki.
+Dialogue: 0,0:13:03.99,0:13:07.03,Default,,0,0,0,,Vous utilisez ce liquide\Nau quotidien, n'est-ce pas ?
+Dialogue: 0,0:13:07.20,0:13:08.87,Default,,0,0,0,,Oui, mais...
+Dialogue: 0,0:13:09.41,0:13:12.79,Default,,0,0,0,,Vous allez m'expliquer ça en détail\Ndans une autre pièce.
+Dialogue: 0,0:13:16.42,0:13:18.79,Default,,0,0,0,,Dire que c'était lui le coupable...
+Dialogue: 0,0:13:18.96,0:13:19.63,Default,,0,0,0,,Quel choc...
+Dialogue: 0,0:13:20.21,0:13:23.59,Default,,0,0,0,,Moi qui croyais que tous les fans\Nde dinosaures étaient gentils.
+Dialogue: 0,0:13:25.97,0:13:27.05,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:13:33.73,0:13:35.23,Default,,0,0,0,,{\i1}Bureau du directeur...{\i0}
+Dialogue: 0,0:13:35.48,0:13:36.90,Default,,0,0,0,,{\i1}Salle d'exposition secondaire.{\i0}
+Dialogue: 0,0:13:37.06,0:13:37.65,Default,,0,0,0,,SALLE DE SPECTACLE
+Dialogue: 0,0:13:37.81,0:13:39.81,Default,,0,0,0,,{\i1}Salle de spectacle centrale.{\i0}
+Dialogue: 0,0:13:49.53,0:13:51.87,Default,,0,0,0,,Qu'est-ce qu'il a, Conan ?
+Dialogue: 0,0:13:52.45,0:13:54.00,Default,,0,0,0,,Il commence sûrement
+Dialogue: 0,0:13:54.20,0:13:56.96,Default,,0,0,0,,à s'intéresser\Nau spectacle de dinosaures.
+Dialogue: 0,0:13:57.25,0:13:59.00,Default,,0,0,0,,Conan aussi ?
+Dialogue: 0,0:13:59.17,0:14:01.17,Default,,0,0,0,,C'était impressionnant, après tout !
+Dialogue: 0,0:14:01.88,0:14:03.55,Default,,0,0,0,,{\i1}C'est bien les mêmes...{\i0}
+Dialogue: 0,0:14:03.92,0:14:05.72,Default,,0,0,0,,Tiens ? Ayumi !
+Dialogue: 0,0:14:06.01,0:14:07.84,Default,,0,0,0,,Ta jupe est tachée !
+Dialogue: 0,0:14:08.47,0:14:10.55,Default,,0,0,0,,C'est vrai !\NMais je me suis salie quand ?
+Dialogue: 0,0:14:17.06,0:14:17.94,Default,,0,0,0,,J'ai trouvé !
+Dialogue: 0,0:14:18.10,0:14:18.73,Default,,0,0,0,,Conan !
+Dialogue: 0,0:14:19.06,0:14:19.94,Default,,0,0,0,,C'est ça ?
+Dialogue: 0,0:14:20.77,0:14:22.11,Default,,0,0,0,,J'avais vu juste...
+Dialogue: 0,0:14:22.36,0:14:23.44,Default,,0,0,0,,Bien joué, Genta !
+Dialogue: 0,0:14:23.90,0:14:25.94,Default,,0,0,0,,Ouais, merci...
+Dialogue: 0,0:14:30.28,0:14:32.45,Default,,0,0,0,,M. Agasa... Encore ?
+Dialogue: 0,0:14:32.91,0:14:34.33,Default,,0,0,0,,Inspecteur Megure.
+Dialogue: 0,0:14:34.49,0:14:37.29,Default,,0,0,0,,M. Kuchiki\Nest-il réellement le coupable ?
+Dialogue: 0,0:14:37.46,0:14:37.96,Default,,0,0,0,,Oui.
+Dialogue: 0,0:14:38.58,0:14:41.50,Default,,0,0,0,,Il n'a pas d'alibi\Net il a laissé des indices.
+Dialogue: 0,0:14:41.75,0:14:45.55,Default,,0,0,0,,C'est justement ça\Nque j'ai bien du mal à croire...
+Dialogue: 0,0:14:46.38,0:14:50.14,Default,,0,0,0,,M. Kuchiki a consacré sa vie\Nà étudier les dinosaures
+Dialogue: 0,0:14:50.30,0:14:53.18,Default,,0,0,0,,et les aime\Ndu plus profond de son cœur.
+Dialogue: 0,0:14:53.51,0:14:56.56,Default,,0,0,0,,Et pourtant,\Nil aurait démoli ce beau spécimen ?
+Dialogue: 0,0:14:56.93,0:15:00.23,Default,,0,0,0,,Autrement dit, il y aurait\Nun autre suspect d'après vous ?
+Dialogue: 0,0:15:00.69,0:15:01.44,Default,,0,0,0,,Le problème,
+Dialogue: 0,0:15:01.65,0:15:05.03,Default,,0,0,0,,c'est que tous les autres\Nont un alibi.
+Dialogue: 0,0:15:05.28,0:15:08.45,Default,,0,0,0,,Oui. Surtout vous, M. Naitô,\Nqui présentiez le show.
+Dialogue: 0,0:15:08.74,0:15:12.32,Default,,0,0,0,,Vous avez un alibi\Nqu'on pourrait qualifier de parfait.
+Dialogue: 0,0:15:14.74,0:15:17.00,Default,,0,0,0,,Le spectacle de dinosaures\Nétait génial !
+Dialogue: 0,0:15:17.83,0:15:18.75,Default,,0,0,0,,Merci.
+Dialogue: 0,0:15:19.04,0:15:21.75,Default,,0,0,0,,Vous n'avez pas quitté la scène\Npendant celui-ci.
+Dialogue: 0,0:15:22.75,0:15:23.54,Default,,0,0,0,,Exact.
+Dialogue: 0,0:15:24.13,0:15:27.26,Default,,0,0,0,,Pourtant, vous ne vous êtes\Nréellement montré
+Dialogue: 0,0:15:28.59,0:15:30.63,Default,,0,0,0,,que pendant une trentaine\Nde secondes.
+Dialogue: 0,0:15:34.68,0:15:38.89,Default,,0,0,0,,M. Naitô s'est d'abord montré\Nau début du spectacle.
+Dialogue: 0,0:15:39.52,0:15:40.35,Default,,0,0,0,,Bienvenue
+Dialogue: 0,0:15:40.77,0:15:44.65,Default,,0,0,0,,dans cette salle du musée des dinosaures\Nde Beika créée pour ce spectacle !
+Dialogue: 0,0:15:45.02,0:15:46.61,Default,,0,0,0,,Supposons une chose...
+Dialogue: 0,0:15:46.78,0:15:49.36,Default,,0,0,0,,Et s'il avait aussitôt\Nquitté la scène
+Dialogue: 0,0:15:49.53,0:15:51.65,Default,,0,0,0,,pour se rendre\Nau bureau du directeur ?
+Dialogue: 0,0:15:52.07,0:15:52.78,Default,,0,0,0,,Hein ?
+Dialogue: 0,0:15:54.91,0:15:57.99,Default,,0,0,0,,Est-ce que vous seriez en train\Nde me soupçonner ?
+Dialogue: 0,0:15:58.16,0:16:01.04,Default,,0,0,0,,Pourtant, je n'ai pas arrêté\Nde commenter le spectacle !
+Dialogue: 0,0:16:01.50,0:16:04.04,Default,,0,0,0,,Votre oreillette est sans fil.
+Dialogue: 0,0:16:04.42,0:16:07.84,Default,,0,0,0,,Vous pouviez aller dans le bureau\Ndu directeur tout en parlant.
+Dialogue: 0,0:16:08.42,0:16:10.67,Default,,0,0,0,,{\i1}Voici les deux ennemis jurés !{\i0}
+Dialogue: 0,0:16:11.05,0:16:13.68,Default,,0,0,0,,{\i1}Le tyrannosaure\Nest le roi des carnivores !{\i0}
+Dialogue: 0,0:16:14.43,0:16:17.68,Default,,0,0,0,,{\i1}Le tricératops\Nest le champion des herbivores !{\i0}
+Dialogue: 0,0:16:22.14,0:16:25.27,Default,,0,0,0,,Arrêtez ! Je ne suis pas allé\Ndans le bureau du directeur !
+Dialogue: 0,0:16:25.90,0:16:28.98,Default,,0,0,0,,Ce spectacle n'a lieu\Nqu'une fois par jour, non ?
+Dialogue: 0,0:16:30.69,0:16:32.61,Default,,0,0,0,,Il y avait plein de confettis.
+Dialogue: 0,0:16:33.53,0:16:37.41,Default,,0,0,0,,Dont un dans le couloir\Ndevant le bureau du directeur.
+Dialogue: 0,0:16:38.74,0:16:42.33,Default,,0,0,0,,Il devait être sur vous\Navant de tomber.
+Dialogue: 0,0:16:44.33,0:16:47.71,Default,,0,0,0,,Ensuite, vous êtes aussitôt\Nrevenu sur scène.
+Dialogue: 0,0:16:52.13,0:16:54.72,Default,,0,0,0,,En vous remontrant\Nune fois au public,
+Dialogue: 0,0:16:55.22,0:16:57.22,Default,,0,0,0,,vous pouviez donner l'impression
+Dialogue: 0,0:16:57.72,0:16:59.47,Default,,0,0,0,,d'avoir toujours été là.
+Dialogue: 0,0:17:00.56,0:17:02.93,Default,,0,0,0,,Puis, sous le couvert de la fumée,
+Dialogue: 0,0:17:03.10,0:17:04.35,Default,,0,0,0,,vous avez quitté la scène
+Dialogue: 0,0:17:05.10,0:17:07.02,Default,,0,0,0,,pour passer par l'extérieur
+Dialogue: 0,0:17:07.36,0:17:11.94,Default,,0,0,0,,et rejoindre par la porte de derrière\Nla salle d'exposition secondaire.
+Dialogue: 0,0:17:16.11,0:17:19.37,Default,,0,0,0,,{\i1}Hé, Naitô ! Tu ne devrais pas\Nêtre en plein spectacle, là ?{\i0}
+Dialogue: 0,0:17:20.24,0:17:21.08,Default,,0,0,0,,{\i1}C'est terrible !{\i0}
+Dialogue: 0,0:17:21.54,0:17:23.46,Default,,0,0,0,,{\i1}Le tricératops est en danger !{\i0}
+Dialogue: 0,0:17:24.08,0:17:27.83,Default,,0,0,0,,{\i1}Prêtez tous main-forte\Nau tricératops, les enfants !{\i0}
+Dialogue: 0,0:17:28.38,0:17:30.92,Default,,0,0,0,,{\i1}Encouragez-le en criant très fort !{\i0}
+Dialogue: 0,0:17:31.55,0:17:32.59,Default,,0,0,0,,{\i1}Courage !{\i0}
+Dialogue: 0,0:17:33.47,0:17:34.88,Default,,0,0,0,,{\i1}Tricératops !{\i0}
+Dialogue: 0,0:17:35.63,0:17:37.05,Default,,0,0,0,,{\i1}Tiens bon !{\i0}
+Dialogue: 0,0:17:45.35,0:17:48.44,Default,,0,0,0,,Vous avez couvert\Nle bruit de chute du fossile
+Dialogue: 0,0:17:48.61,0:17:50.73,Default,,0,0,0,,avec les effets sonores du spectacle.
+Dialogue: 0,0:17:51.23,0:17:53.99,Default,,0,0,0,,Enfin, après avoir répandu\Nde l'agent d'enrobage,
+Dialogue: 0,0:17:54.19,0:17:57.24,Default,,0,0,0,,vous êtes retourné sur scène\Npour conclure le show.
+Dialogue: 0,0:17:57.49,0:17:59.62,Default,,0,0,0,,Vous racontez n'importe quoi !
+Dialogue: 0,0:18:00.03,0:18:01.99,Default,,0,0,0,,Il y avait un morceau de fossile
+Dialogue: 0,0:18:02.16,0:18:05.04,Default,,0,0,0,,derrière l'accès arrière\Nde la salle d'exposition.
+Dialogue: 0,0:18:05.37,0:18:07.25,Default,,0,0,0,,Il est sûrement tombé de la rainure
+Dialogue: 0,0:18:07.42,0:18:10.63,Default,,0,0,0,,de la chaussure avec laquelle\Nvous avez dû écraser le fossile
+Dialogue: 0,0:18:11.17,0:18:12.88,Default,,0,0,0,,après sa chute.
+Dialogue: 0,0:18:15.22,0:18:16.72,Default,,0,0,0,,C'était donc toi ?
+Dialogue: 0,0:18:16.93,0:18:19.51,Default,,0,0,0,,C'est toi qui l'as tué\Navec mon dinosaure !
+Dialogue: 0,0:18:19.80,0:18:21.89,Default,,0,0,0,,Non ! Ce n'est pas moi !
+Dialogue: 0,0:18:22.06,0:18:25.23,Default,,0,0,0,,C'est après le spectacle\Nque ce fossile est tombé !
+Dialogue: 0,0:18:25.39,0:18:25.89,Default,,0,0,0,,Pas vrai,
+Dialogue: 0,0:18:26.23,0:18:27.39,Default,,0,0,0,,les enfants ?
+Dialogue: 0,0:18:27.56,0:18:28.14,Default,,0,0,0,,Si...
+Dialogue: 0,0:18:28.31,0:18:29.48,Default,,0,0,0,,Vous voyez ?
+Dialogue: 0,0:18:29.73,0:18:33.15,Default,,0,0,0,,Il n'y a que cet homme et ses délires\Nqui me croit coupable !
+Dialogue: 0,0:18:33.57,0:18:36.53,Default,,0,0,0,,Regardez ça.\NC'est votre costume de scène, non ?
+Dialogue: 0,0:18:38.32,0:18:42.16,Default,,0,0,0,,Il y avait la télécommande\Ndes effets sonores dans la poche.
+Dialogue: 0,0:18:42.58,0:18:44.37,Default,,0,0,0,,C'est avec ça que vous avez fait
+Dialogue: 0,0:18:44.54,0:18:46.33,Default,,0,0,0,,le bruit de chute après le show.
+Dialogue: 0,0:18:48.54,0:18:49.25,Default,,0,0,0,,{\i1}C'était quoi ?{\i0}
+Dialogue: 0,0:18:49.42,0:18:52.54,Default,,0,0,0,,{\i1}On aurait dit le bruit\Nd'un truc énorme qui tombe !{\i0}
+Dialogue: 0,0:18:52.96,0:18:57.09,Default,,0,0,0,,Pour faire croire que le fossile\Nétait tombé à ce moment-là !
+Dialogue: 0,0:18:57.38,0:19:00.39,Default,,0,0,0,,Je vois... Contacte l'expert.
+Dialogue: 0,0:19:00.55,0:19:04.10,Default,,0,0,0,,Qu'il examine le bureau du directeur\Net l'arrière de la salle d'expo.
+Dialogue: 0,0:19:04.35,0:19:04.81,Default,,0,0,0,,Entendu !
+Dialogue: 0,0:19:05.27,0:19:06.06,Default,,0,0,0,,M. Naitô.
+Dialogue: 0,0:19:06.93,0:19:10.10,Default,,0,0,0,,Je vais faire examiner vos semelles.
+Dialogue: 0,0:19:11.31,0:19:12.65,Default,,0,0,0,,Mon plan était parfait...
+Dialogue: 0,0:19:13.11,0:19:14.40,Default,,0,0,0,,Oui, absolument parfait...
+Dialogue: 0,0:19:14.90,0:19:16.23,Default,,0,0,0,,Alors pourquoi ?
+Dialogue: 0,0:19:16.57,0:19:17.99,Default,,0,0,0,,Ben ça...
+Dialogue: 0,0:19:18.90,0:19:21.28,Default,,0,0,0,,Vous étiez un peu bizarre.
+Dialogue: 0,0:19:22.37,0:19:24.20,Default,,0,0,0,,Vous avez couvert Mlle Katsuragawa
+Dialogue: 0,0:19:24.53,0:19:26.70,Default,,0,0,0,,et expliqué le crime de M. Kuchiki.
+Dialogue: 0,0:19:27.25,0:19:28.91,Default,,0,0,0,,Car c'était ça, votre plan,
+Dialogue: 0,0:19:29.08,0:19:31.71,Default,,0,0,0,,faire accuser M. Kuchiki\Nle plus vite possible.
+Dialogue: 0,0:19:32.29,0:19:33.13,Default,,0,0,0,,N'est-ce pas ?
+Dialogue: 0,0:19:34.38,0:19:36.30,Default,,0,0,0,,Ensuite, il y a autre chose.
+Dialogue: 0,0:19:36.55,0:19:39.13,Default,,0,0,0,,La poche de votre costume est tachée.
+Dialogue: 0,0:19:40.05,0:19:43.60,Default,,0,0,0,,Vous aviez laissé l'agent d'enrobage\Ndedans, pas vrai ?
+Dialogue: 0,0:19:44.18,0:19:47.39,Default,,0,0,0,,Mais par mésaventure,\Nla bouteille s'est mise à fuir.
+Dialogue: 0,0:19:47.89,0:19:49.68,Default,,0,0,0,,Et quand vous avez aidé Ayumi
+Dialogue: 0,0:19:49.85,0:19:52.31,Default,,0,0,0,,à se relever pendant le spectacle,
+Dialogue: 0,0:19:53.02,0:19:56.07,Default,,0,0,0,,vous avez également taché sa robe.
+Dialogue: 0,0:19:59.86,0:20:02.45,Default,,0,0,0,,Je vois... C'était donc ça...
+Dialogue: 0,0:20:04.12,0:20:05.87,Default,,0,0,0,,M. Naitô...
+Dialogue: 0,0:20:06.03,0:20:06.99,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:20:07.37,0:20:09.04,Default,,0,0,0,,Pourquoi avez-vous fait ça ?
+Dialogue: 0,0:20:16.63,0:20:18.21,Default,,0,0,0,,M. Shida, le directeur...
+Dialogue: 0,0:20:18.63,0:20:21.59,Default,,0,0,0,,Cette ordure\Navait l'intention de me tuer !
+Dialogue: 0,0:20:23.43,0:20:24.30,Default,,0,0,0,,En fait,
+Dialogue: 0,0:20:24.76,0:20:26.85,Default,,0,0,0,,j'étais de mèche avec lui.
+Dialogue: 0,0:20:27.31,0:20:28.52,Default,,0,0,0,,Je l'ai aidé
+Dialogue: 0,0:20:28.72,0:20:31.60,Default,,0,0,0,,à acquérir ce musée\Nen y mettant tout mon argent.
+Dialogue: 0,0:20:32.02,0:20:32.69,Default,,0,0,0,,Seulement,
+Dialogue: 0,0:20:33.27,0:20:34.90,Default,,0,0,0,,une fois devenu directeur,
+Dialogue: 0,0:20:35.27,0:20:38.23,Default,,0,0,0,,il a dit qu'il ne me donnerait\Nrien en retour.
+Dialogue: 0,0:20:38.94,0:20:40.03,Default,,0,0,0,,Et ce n'est pas tout...
+Dialogue: 0,0:20:49.66,0:20:52.50,Default,,0,0,0,,C'est de là\Nque vient votre blessure au bras ?
+Dialogue: 0,0:20:53.08,0:20:53.75,Default,,0,0,0,,Oui...
+Dialogue: 0,0:20:54.46,0:20:57.59,Default,,0,0,0,,Je l'ai donc tué\Navant qu'il ne m'élimine !
+Dialogue: 0,0:20:58.34,0:21:01.84,Default,,0,0,0,,De cette manière,\Nce musée me serait revenu !
+Dialogue: 0,0:21:02.55,0:21:03.51,Default,,0,0,0,,Et alors...
+Dialogue: 0,0:21:04.88,0:21:06.05,Default,,0,0,0,,Putain !
+Dialogue: 0,0:21:07.35,0:21:08.60,Default,,0,0,0,,Fait chier !
+Dialogue: 0,0:21:14.73,0:21:17.23,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:17.56,0:21:20.03,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:31.97,0:22:33.97,Default,,0,0,0,,Quelle sale affaire...
+Dialogue: 0,0:22:34.52,0:22:37.48,Default,,0,0,0,,Dire qu'ils se disputaient\Nla même proie...
+Dialogue: 0,0:22:38.27,0:22:40.98,Default,,0,0,0,,C'était comme deux féroces dinosaures !
+Dialogue: 0,0:22:41.23,0:22:42.48,Default,,0,0,0,,Non, tu te trompes.
+Dialogue: 0,0:22:43.27,0:22:45.11,Default,,0,0,0,,Même le plus féroce des dinosaures
+Dialogue: 0,0:22:45.28,0:22:47.24,Default,,0,0,0,,n'attaque pas sa proie sans raison.
+Dialogue: 0,0:22:47.90,0:22:50.07,Default,,0,0,0,,Il ne le fait\Nque quand il est affamé.
+Dialogue: 0,0:22:50.28,0:22:52.74,Default,,0,0,0,,Uniquement pour survivre.
+Dialogue: 0,0:22:53.79,0:22:56.33,Default,,0,0,0,,Il n'y a que l'être humain\Nqui attaque autrui
+Dialogue: 0,0:22:56.50,0:22:57.50,Default,,0,0,0,,par intérêt.
+Dialogue: 0,0:22:59.62,0:23:00.67,Default,,0,0,0,,Hé...
+Dialogue: 0,0:23:00.83,0:23:02.04,Default,,0,0,0,,Ai...
+Dialogue: 0,0:23:03.04,0:23:04.09,Default,,0,0,0,,Du moins,
+Dialogue: 0,0:23:04.25,0:23:06.26,Default,,0,0,0,,c'est ce que j'ai vu à la télé, hier !
+Dialogue: 0,0:23:11.72,0:23:13.85,Default,,0,0,0,,Je meurs de faim, tout à coup !
+Dialogue: 0,0:23:14.01,0:23:15.85,Default,,0,0,0,,Payez-moi un steak haché !
+Dialogue: 0,0:23:16.02,0:23:16.81,Default,,0,0,0,,Bonne idée !
+Dialogue: 0,0:23:16.98,0:23:20.10,Default,,0,0,0,,- Moi, je veux des sushis !\N- Et moi, un parfait au chocolat !
+Dialogue: 0,0:23:20.27,0:23:23.06,Default,,0,0,0,,Je n'ai jamais dit\Nque je vous invitais !
+Dialogue: 0,0:23:25.57,0:23:27.74,Default,,0,0,0,,Ils ont un appétit de dinosaure...
+Dialogue: 0,0:23:27.90,0:23:29.90,Default,,0,0,0,,Manger !

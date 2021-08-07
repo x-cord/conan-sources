@@ -1,0 +1,412 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.87,0:00:06.44,Default,,0,0,0,,Des tickets repas ?
+Dialogue: 0,0:00:07.68,0:00:09.64,Default,,0,0,0,,Encore un tirage gagnant ?
+Dialogue: 0,0:00:09.81,0:00:11.05,Default,,0,0,0,,C'est incroyable !
+Dialogue: 0,0:00:11.21,0:00:13.56,Default,,0,0,0,,Vous avez toujours autant de chance !
+Dialogue: 0,0:00:15.17,0:00:17.32,Default,,0,0,0,,Je pensais donc vous inviter
+Dialogue: 0,0:00:17.47,0:00:20.77,Default,,0,0,0,,au dernier étage\Ndu centre commercial de Beika
+Dialogue: 0,0:00:20.92,0:00:23.36,Default,,0,0,0,,pour un lunch\Ndans un restaurant chic.
+Dialogue: 0,0:00:23.73,0:00:25.33,Default,,0,0,0,,Trop bien !
+Dialogue: 0,0:00:25.47,0:00:27.47,Default,,0,0,0,,Ne vous réjouissez pas trop vite,
+Dialogue: 0,0:00:27.64,0:00:31.37,Default,,0,0,0,,car une autre surprise vous attend,\Nles enfants.
+Dialogue: 0,0:00:32.52,0:00:35.08,Default,,0,0,0,,- Et quoi donc ?\N- Allez, dites-nous tout !
+Dialogue: 0,0:00:36.37,0:00:38.36,Default,,0,0,0,,Pour l'instant, je garde ça secret.
+Dialogue: 0,0:00:39.69,0:00:41.87,Default,,0,0,0,,- Non...\N- Faites pas votre cachottier !
+Dialogue: 0,0:00:42.64,0:00:45.43,Default,,0,0,0,,{\i1}Si Masumi est la petite sœur\Nde Shûichi Akai,{\i0}
+Dialogue: 0,0:00:45.87,0:00:49.37,Default,,0,0,0,,{\i1}pourquoi avoir quitté les États-Unis\Npour le Japon ?{\i0}
+Dialogue: 0,0:00:49.96,0:00:53.40,Default,,0,0,0,,{\i1}Pour vérifier la véracité\Nde la mort de son frère ?{\i0}
+Dialogue: 0,0:00:54.29,0:00:57.56,Default,,0,0,0,,{\i1}Elle m'a approché\Npour mes contacts avec le FBI ?{\i0}
+Dialogue: 0,0:00:58.29,0:01:02.05,Default,,0,0,0,,{\i1}Si c'était le cas,\Nelle m'aurait sondé davantage.{\i0}
+Dialogue: 0,0:01:02.76,0:01:07.33,Default,,0,0,0,,{\i1}Tout ça doit finalement être lié\Nà la fille aux airs de collégienne{\i0}
+Dialogue: 0,0:01:07.48,0:01:09.69,Default,,0,0,0,,{\i1}qu'elle cache\Ndans sa chambre d'hôtel.{\i0}
+Dialogue: 0,0:01:10.36,0:01:11.95,Default,,0,0,0,,{\i1}La présumée "Mary".{\i0}
+Dialogue: 0,0:01:12.52,0:01:16.08,Default,,0,0,0,,{\i1}Cette "sœur hors territoire"\Nressemble beaucoup à Masumi...{\i0}
+Dialogue: 0,0:01:16.84,0:01:20.48,Default,,0,0,0,,{\i1}Non, il y en a une autre\Nà qui elle ressemble encore plus...{\i0}
+Dialogue: 0,0:01:20.95,0:01:23.21,Default,,0,0,0,,Ben alors ?\NPerdu dans tes pensées ?
+Dialogue: 0,0:01:23.64,0:01:25.73,Default,,0,0,0,,Ah, euh... On peut dire ça...
+Dialogue: 0,0:01:25.87,0:01:29.23,Default,,0,0,0,,C'est quoi, ces cernes\Nque tu as sous les yeux ?
+Dialogue: 0,0:01:29.80,0:01:32.40,Default,,0,0,0,,J'ai aperçu un cafard\Navant de me coucher, hier.
+Dialogue: 0,0:01:32.60,0:01:36.01,Default,,0,0,0,,J'ai dû lutter jusqu'à 4 h du matin\Npour l'éliminer.
+Dialogue: 0,0:01:36.40,0:01:38.01,Default,,0,0,0,,Ah, quand même...
+Dialogue: 0,0:01:38.36,0:01:41.37,Default,,0,0,0,,Le professeur\Ns'est endormi aussitôt, lui...
+Dialogue: 0,0:01:43.28,0:01:45.60,Default,,0,0,0,,Alors ? À quoi tu pensais ?
+Dialogue: 0,0:01:46.92,0:01:48.40,Default,,0,0,0,,Euh, en fait...
+Dialogue: 0,0:01:48.72,0:01:52.24,Default,,0,0,0,,je me demandais juste\Nà quoi ressemblait un lunch de luxe.
+Dialogue: 0,0:01:53.76,0:01:54.76,Default,,0,0,0,,Ah bon...
+Dialogue: 0,0:01:55.36,0:01:56.57,Default,,0,0,0,,Quel insouciant.
+Dialogue: 0,0:01:59.56,0:02:00.72,Default,,0,0,0,,Désolé...
+Dialogue: 0,0:02:03.43,0:02:05.41,Default,,0,0,0,,{\i1}Un raisonnement vif recolorera{\i0}
+Dialogue: 0,0:02:05.56,0:02:07.60,Default,,0,0,0,,{\i1}une toile noircie par le crime !{\i0}
+Dialogue: 0,0:02:08.00,0:02:09.92,Default,,0,0,0,,{\i1}Manger primera sur la réflexion{\i0}
+Dialogue: 0,0:02:10.08,0:02:12.11,Default,,0,0,0,,{\i1}jusqu'à l'éclatement d'une affaire !{\i0}
+Dialogue: 0,0:02:12.47,0:02:16.11,Default,,0,0,0,,{\i1}Un cerveau d'adulte\Ndans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:16.28,0:02:18.43,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:20.04,0:02:23.92,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:25.23,0:02:28.92,Default,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:02:40.36,0:02:42.87,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:45.08,0:02:47.60,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:51.08,0:02:53.60,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:59.72,0:03:02.16,Default,,0,0,0,,Générique d'ouverture :\N"Sekai wa anata no iro ni naru"
+Dialogue: 0,0:03:05.08,0:03:07.08,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:14.52,0:03:16.76,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:03:34.40,0:03:36.80,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:38.92,0:03:41.04,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:44.36,0:03:47.68,Default,,0,0,0,,{\i1}"Les Detective boys\Ndans le brouillard (1re partie)" !{\i0}
+Dialogue: 0,0:04:01.43,0:04:02.47,Default,,0,0,0,,C'est magnifique !
+Dialogue: 0,0:04:02.92,0:04:05.32,Default,,0,0,0,,Cette galerie est remplie de sapins !
+Dialogue: 0,0:04:05.47,0:04:06.76,Default,,0,0,0,,Trop cool !
+Dialogue: 0,0:04:06.92,0:04:08.87,Default,,0,0,0,,C'est plutôt excitant !
+Dialogue: 0,0:04:09.32,0:04:11.11,Default,,0,0,0,,Oh ! C'est le père Noël !
+Dialogue: 0,0:04:11.28,0:04:12.76,Default,,0,0,0,,Il distribue des ballons !
+Dialogue: 0,0:04:12.92,0:04:15.04,Default,,0,0,0,,- Allons en prendre un !\N- D'accord !
+Dialogue: 0,0:04:15.64,0:04:17.47,Default,,0,0,0,,Joyeux Noël !
+Dialogue: 0,0:04:17.64,0:04:19.32,Default,,0,0,0,,Merci beaucoup !
+Dialogue: 0,0:04:19.64,0:04:22.40,Default,,0,0,0,,Les enfants !\NL'ascenseur est par là !
+Dialogue: 0,0:04:22.95,0:04:27.28,Default,,0,0,0,,{\i1}Quelle poisse. Avec Noël qui approche,\Nc'est carrément bondé.{\i0}
+Dialogue: 0,0:04:29.68,0:04:31.43,Default,,0,0,0,,Hé, Ai ! Regarde là-bas !
+Dialogue: 0,0:04:32.16,0:04:34.04,Default,,0,0,0,,On peut se faire maquiller !
+Dialogue: 0,0:04:34.28,0:04:37.43,Default,,0,0,0,,Une démonstration de cosmétiques\Nà but lucratif...
+Dialogue: 0,0:04:38.28,0:04:41.00,Default,,0,0,0,,Ce mascara est plutôt sympa !
+Dialogue: 0,0:04:41.16,0:04:44.11,Default,,0,0,0,,Vous serez prête\Npour votre rendez-vous de Noël !
+Dialogue: 0,0:04:44.28,0:04:45.20,Default,,0,0,0,,C'est vrai !
+Dialogue: 0,0:04:45.56,0:04:46.60,Default,,0,0,0,,Du mascara ?
+Dialogue: 0,0:04:46.76,0:04:48.20,Default,,0,0,0,,La chance !
+Dialogue: 0,0:04:48.40,0:04:50.72,Default,,0,0,0,,Les filles !\NLe professeur nous appelle !
+Dialogue: 0,0:04:51.28,0:04:54.36,Default,,0,0,0,,Et vous êtes bien trop jeunes\Npour vous maquiller !
+Dialogue: 0,0:04:56.11,0:04:57.95,Default,,0,0,0,,Comment ça, c'est impossible ?
+Dialogue: 0,0:04:58.52,0:05:02.40,Default,,0,0,0,,Vous ne nous considérez pas\Ncomme des clientes, c'est ça ?
+Dialogue: 0,0:05:02.56,0:05:04.64,Default,,0,0,0,,Euh, si c'était pour votre maman...
+Dialogue: 0,0:05:05.43,0:05:07.04,Default,,0,0,0,,Allons, Ai...
+Dialogue: 0,0:05:07.56,0:05:11.52,Default,,0,0,0,,Maquille-les vite fait.\NLeur mère ne tardera pas à venir...
+Dialogue: 0,0:05:11.72,0:05:12.95,Default,,0,0,0,,Euh... D'accord...
+Dialogue: 0,0:05:16.11,0:05:17.87,Default,,0,0,0,,Par ici, je vous prie.
+Dialogue: 0,0:05:18.32,0:05:19.23,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:05:20.28,0:05:22.40,Default,,0,0,0,,Alors ? Ça donne quoi ?
+Dialogue: 0,0:05:22.92,0:05:24.20,Default,,0,0,0,,Ça nous change ?
+Dialogue: 0,0:05:28.52,0:05:29.60,Default,,0,0,0,,Vous êtes jolies !
+Dialogue: 0,0:05:30.60,0:05:32.84,Default,,0,0,0,,{\i1}Oui, méconnaissables, même...{\i0}
+Dialogue: 0,0:05:33.95,0:05:37.87,Default,,0,0,0,,Ah, euh... Où est ta maman ?
+Dialogue: 0,0:05:38.23,0:05:41.52,Default,,0,0,0,,Elle est morte\Naussitôt après ma naissance.
+Dialogue: 0,0:05:44.32,0:05:46.76,Default,,0,0,0,,Bien. Allons manger, Ayumi.
+Dialogue: 0,0:05:46.92,0:05:47.64,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:05:47.95,0:05:53.00,Default,,0,0,0,,Hé, les filles ! Vous ne comptez pas\Naller au restaurant comme ça ?
+Dialogue: 0,0:05:56.72,0:05:59.11,Default,,0,0,0,,Elles n'ont rien acheté, au final...
+Dialogue: 0,0:06:08.40,0:06:09.80,Default,,0,0,0,,J'ai bien mangé, moi !
+Dialogue: 0,0:06:10.04,0:06:11.28,Default,,0,0,0,,Je suis rassasié !
+Dialogue: 0,0:06:11.43,0:06:14.56,Default,,0,0,0,,- Il y en avait juste assez !\N- C'est vrai !
+Dialogue: 0,0:06:14.92,0:06:19.16,Default,,0,0,0,,On a quand même partagé\N3 portions adulte à nous 6...
+Dialogue: 0,0:06:20.11,0:06:22.32,Default,,0,0,0,,{\i1}Elle s'est démaquillée, finalement.{\i0}
+Dialogue: 0,0:06:22.56,0:06:25.36,Default,,0,0,0,,Alors, professeur,\Net ce fameux secret ?
+Dialogue: 0,0:06:25.52,0:06:27.84,Default,,0,0,0,,Il reste une surprise,\Nn'est-ce pas ?
+Dialogue: 0,0:06:28.00,0:06:29.08,Default,,0,0,0,,C'est quoi ?
+Dialogue: 0,0:06:30.43,0:06:33.80,Default,,0,0,0,,En fait, en plus des tickets restaurant,
+Dialogue: 0,0:06:33.95,0:06:37.92,Default,,0,0,0,,j'ai aussi gagné un bon\Nà dépenser dans ce centre commercial.
+Dialogue: 0,0:06:39.20,0:06:41.32,Default,,0,0,0,,- Sérieusement ?\N- C'est génial !
+Dialogue: 0,0:06:41.80,0:06:43.52,Default,,0,0,0,,Et comme c'est bientôt Noël,
+Dialogue: 0,0:06:43.68,0:06:46.36,Default,,0,0,0,,je comptais utiliser ces 10 000 yens
+Dialogue: 0,0:06:46.52,0:06:49.60,Default,,0,0,0,,pour vous offrir des cadeaux à tous...
+Dialogue: 0,0:06:50.68,0:06:52.56,Default,,0,0,0,,Tiens ? Où sont-ils passés ?
+Dialogue: 0,0:06:52.80,0:06:53.92,Default,,0,0,0,,Là-bas...
+Dialogue: 0,0:06:54.23,0:06:57.92,Default,,0,0,0,,Ça faisait un moment\Nque j'avais envie d'un télescope !
+Dialogue: 0,0:06:58.08,0:07:00.23,Default,,0,0,0,,Moi, je veux un gant et une batte.
+Dialogue: 0,0:07:00.40,0:07:02.40,Default,,0,0,0,,Et moi, une énorme peluche !
+Dialogue: 0,0:07:02.92,0:07:03.95,Default,,0,0,0,,Mais non...
+Dialogue: 0,0:07:04.68,0:07:07.04,Default,,0,0,0,,Je n'ai gagné que 10 000 yens...
+Dialogue: 0,0:07:07.20,0:07:11.87,Default,,0,0,0,,Et si j'allais jeter un œil\Naux derniers sacs de chez Fusae ?
+Dialogue: 0,0:07:13.28,0:07:15.68,Default,,0,0,0,,Bon sang ! Même Ai s'y met...
+Dialogue: 0,0:07:16.00,0:07:18.00,Default,,0,0,0,,Vous m'avez demandé, monsieur ?
+Dialogue: 0,0:07:18.16,0:07:20.23,Default,,0,0,0,,C'est vous, le chef ?
+Dialogue: 0,0:07:20.60,0:07:21.60,ST_HAUT,,0,0,0,,Oui.
+Dialogue: 0,0:07:21.76,0:07:25.00,ST_HAUT,,0,0,0,,Je suis le chef cuisinier\Nde ce restaurant.
+Dialogue: 0,0:07:25.16,0:07:27.23,ST_HAUT,,0,0,0,,Un problème avec un de mes plats ?
+Dialogue: 0,0:07:27.60,0:07:32.64,Default,,0,0,0,,Non, mais mon mari me soutient\Nqu'il y avait du miso dans la soupe.
+Dialogue: 0,0:07:32.80,0:07:35.11,Default,,0,0,0,,Oui, c'est du Hatcho miso.
+Dialogue: 0,0:07:35.36,0:07:37.72,Default,,0,0,0,,Vous avez un palais d'expert.
+Dialogue: 0,0:07:37.95,0:07:40.76,Default,,0,0,0,,Alors ?\NTu vois que j'avais raison !
+Dialogue: 0,0:07:40.92,0:07:42.60,Default,,0,0,0,,Tu m'en bouches un coin !
+Dialogue: 0,0:07:42.76,0:07:43.60,Default,,0,0,0,,Chef...
+Dialogue: 0,0:07:44.87,0:07:47.32,Default,,0,0,0,,Encore un appel de ce procédurier...
+Dialogue: 0,0:07:48.28,0:07:49.84,Default,,0,0,0,,Celui à la voix bizarre ?
+Dialogue: 0,0:07:50.40,0:07:52.60,Default,,0,0,0,,Il dit se trouver dans la galerie
+Dialogue: 0,0:07:52.76,0:07:55.36,Default,,0,0,0,,et aimerait vous rencontrer.
+Dialogue: 0,0:07:55.64,0:07:59.36,Default,,0,0,0,,Ce serait gênant\Nqu'il fasse un scandale ici.
+Dialogue: 0,0:08:00.23,0:08:04.68,Default,,0,0,0,,Dis-lui de venir dans 30 minutes\Naux escaliers près du restaurant.
+Dialogue: 0,0:08:05.40,0:08:06.23,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:08:09.68,0:08:12.76,Default,,0,0,0,,Bon, et si on se mettait\Nà la recherche des petits ?
+Dialogue: 0,0:08:13.43,0:08:14.76,Default,,0,0,0,,Inutile...
+Dialogue: 0,0:08:15.60,0:08:20.00,Default,,0,0,0,,Ils ont trouvé leur bonheur\Net me spamment de les rejoindre.
+Dialogue: 0,0:08:21.47,0:08:23.40,Default,,0,0,0,,En plus,\Nils ont tous joint une photo.
+Dialogue: 0,0:08:23.76,0:08:28.40,Default,,0,0,0,,Voyons voir. Genta est au 6e,\Ndans une boutique de sport.
+Dialogue: 0,0:08:28.64,0:08:31.92,Default,,0,0,0,,Mitsuhiko est au 4e,\Ndans un magasin d'appareils photo.
+Dialogue: 0,0:08:32.43,0:08:35.60,Default,,0,0,0,,Ayumi est au 3e, au rayon jouets.
+Dialogue: 0,0:08:35.87,0:08:40.16,Default,,0,0,0,,Et Ai, au rez-de-chaussée,\Nà l'étage des sacs de marque.
+Dialogue: 0,0:08:41.64,0:08:44.52,Default,,0,0,0,,Ils sont bien décidés\Nà me faire tout acheter...
+Dialogue: 0,0:08:45.00,0:08:47.04,Default,,0,0,0,,Qu'y a-t-il, Shinichi ?
+Dialogue: 0,0:08:47.43,0:08:51.43,Default,,0,0,0,,Rien. Je me disais juste\Nque les 30 minutes étaient passées...
+Dialogue: 0,0:08:54.95,0:08:56.47,Default,,0,0,0,,C'était quoi, ce cri ?
+Dialogue: 0,0:08:56.64,0:08:57.80,Default,,0,0,0,,Les escaliers !
+Dialogue: 0,0:08:59.40,0:09:00.52,Default,,0,0,0,,Laissez-moi passer !
+Dialogue: 0,0:09:06.80,0:09:09.43,Default,,0,0,0,,C'est le chef du restaurant\Noù on a mangé, non ?
+Dialogue: 0,0:09:09.60,0:09:11.36,Default,,0,0,0,,Ça va ? Tenez bon !
+Dialogue: 0,0:09:13.47,0:09:16.04,Default,,0,0,0,,Le coupable... est en bas...
+Dialogue: 0,0:09:20.76,0:09:23.47,Default,,0,0,0,,Professeur ! Appelez\Nune ambulance et la police !
+Dialogue: 0,0:09:25.47,0:09:26.95,Default,,0,0,0,,Hé ! Vous m'entendez ?
+Dialogue: 0,0:09:27.76,0:09:29.95,Default,,0,0,0,,Quelqu'un a été poignardé au 9e !
+Dialogue: 0,0:09:30.60,0:09:32.43,Default,,0,0,0,,Le coupable est en fuite !
+Dialogue: 0,0:09:32.92,0:09:35.20,Default,,0,0,0,,Si vous êtes près des escaliers,
+Dialogue: 0,0:09:35.36,0:09:37.80,Default,,0,0,0,,vérifiez que personne ne s'échappe !
+Dialogue: 0,0:09:38.20,0:09:40.80,Default,,0,0,0,,Ai ! Signale ça à l'accueil\Net demande-leur
+Dialogue: 0,0:09:40.95,0:09:44.43,Default,,0,0,0,,d'arrêter tout individu essoufflé\Nqui tentera de sortir !
+Dialogue: 0,0:09:44.60,0:09:45.40,Default,,0,0,0,,{\i1}Compris !{\i0}
+Dialogue: 0,0:09:45.56,0:09:48.43,Default,,0,0,0,,Quant aux autres,\Nsurveillez, et rien d'autre !
+Dialogue: 0,0:09:48.60,0:09:51.04,Default,,0,0,0,,Mémorisez sa tête\Nou ses vêtements !
+Dialogue: 0,0:09:51.84,0:09:54.76,Default,,0,0,0,,Cet individu a tenté\Nde poignarder quelqu'un.
+Dialogue: 0,0:09:55.00,0:09:57.23,Default,,0,0,0,,Il est capable de tout\Ns'il est menacé !
+Dialogue: 0,0:09:57.87,0:09:59.92,Default,,0,0,0,,Ne tentez rien par vous-mêmes !
+Dialogue: 0,0:10:00.11,0:10:01.11,Default,,0,0,0,,{\i1}Compris !{\i0}
+Dialogue: 0,0:10:07.00,0:10:09.16,Default,,0,0,0,,Suite aux instructions de Conan,
+Dialogue: 0,0:10:09.64,0:10:12.16,Default,,0,0,0,,ces 3 personnes ont été retenues
+Dialogue: 0,0:10:12.87,0:10:16.68,Default,,0,0,0,,alors qu'elles s'apprêtaient\Nà quitter les lieux à la hâte.
+Dialogue: 0,0:10:17.36,0:10:20.28,Default,,0,0,0,,Il paraît que vous étiez\Ntous les trois en nage.
+Dialogue: 0,0:10:20.43,0:10:22.72,Default,,0,0,0,,Je cherchais des W.-C. libres !
+Dialogue: 0,0:10:23.36,0:10:25.36,ST_HAUT,,0,0,0,,Mais ils étaient tous occupés !
+Dialogue: 0,0:10:25.52,0:10:28.87,ST_HAUT,,0,0,0,,J'étais donc forcé\Nde me rabattre sur une supérette,
+Dialogue: 0,0:10:29.04,0:10:30.23,Default,,0,0,0,,mais on m'a retenu.
+Dialogue: 0,0:10:30.80,0:10:31.84,Default,,0,0,0,,Et vous ?
+Dialogue: 0,0:10:32.00,0:10:34.40,Default,,0,0,0,,Moi, je cherchais mon portefeuille !
+Dialogue: 0,0:10:35.11,0:10:37.32,ST_HAUT,,0,0,0,,Pensant l'avoir oublié quelque part,
+Dialogue: 0,0:10:37.47,0:10:41.16,ST_HAUT,,0,0,0,,je faisais le tour des rayons\Nau pas de course !
+Dialogue: 0,0:10:41.56,0:10:44.64,Default,,0,0,0,,Et vous l'avez retrouvé,\Nce portefeuille ?
+Dialogue: 0,0:10:44.84,0:10:46.40,Default,,0,0,0,,Quoi ? Oui...
+Dialogue: 0,0:10:46.72,0:10:49.40,Default,,0,0,0,,Il était dans mon sac,\Nj'avais mal regardé...
+Dialogue: 0,0:10:49.87,0:10:51.43,Default,,0,0,0,,Et vous ?
+Dialogue: 0,0:10:51.60,0:10:54.87,Default,,0,0,0,,J'ai mangé thaïlandais\Ndans un restaurant de ce centre.
+Dialogue: 0,0:10:55.08,0:10:58.16,Default,,0,0,0,,Étant moi-même chef,\Nj'en profite pour étudier les saveurs.
+Dialogue: 0,0:10:58.68,0:11:02.84,ST_HAUT,,0,0,0,,Mais les légumes étaient si épicés\Nque j'en ai sué comme un bœuf.
+Dialogue: 0,0:11:03.11,0:11:06.80,ST_HAUT,,0,0,0,,Je ne pensais donc plus\Nqu'à rentrer chez moi en vitesse
+Dialogue: 0,0:11:06.95,0:11:08.16,Default,,0,0,0,,pour me doucher.
+Dialogue: 0,0:11:09.80,0:11:12.72,Default,,0,0,0,,En tout cas,\Nils ont tous une excuse.
+Dialogue: 0,0:11:12.87,0:11:15.56,Default,,0,0,0,,Ne reste plus\Nqu'à entendre le témoignage
+Dialogue: 0,0:11:15.92,0:11:17.84,Default,,0,0,0,,des enfants qui ont vu le coupable.
+Dialogue: 0,0:11:18.00,0:11:19.20,Default,,0,0,0,,Ça ira.
+Dialogue: 0,0:11:19.43,0:11:23.00,Default,,0,0,0,,Ils n'ont pas vu son visage,\Nmais ils ont son signalement.
+Dialogue: 0,0:11:23.68,0:11:25.11,Default,,0,0,0,,- Pas vrai ?\N- Ouais !
+Dialogue: 0,0:11:25.28,0:11:27.47,Default,,0,0,0,,- Je l'ai vu !\N- Aucun problème !
+Dialogue: 0,0:11:27.87,0:11:30.20,Default,,0,0,0,,Il était plutôt petit
+Dialogue: 0,0:11:30.40,0:11:32.52,Default,,0,0,0,,et il avait un "2"\Nsur ses vêtements
+Dialogue: 0,0:11:32.68,0:11:34.76,Default,,0,0,0,,qui étaient de couleur grise !
+Dialogue: 0,0:11:35.20,0:11:38.47,Default,,0,0,0,,Exactement la même couleur\Nque la veste d'Ai !
+Dialogue: 0,0:11:38.68,0:11:40.00,Default,,0,0,0,,Pas du tout !
+Dialogue: 0,0:11:40.76,0:11:44.43,Default,,0,0,0,,Il était plutôt grand\Net portait des habits gris foncé
+Dialogue: 0,0:11:44.60,0:11:46.64,Default,,0,0,0,,et avait une course masculine !
+Dialogue: 0,0:11:47.60,0:11:49.56,Default,,0,0,0,,Mais non, il était petit !
+Dialogue: 0,0:11:49.72,0:11:53.08,Default,,0,0,0,,C'est parce que t'es un minus\Nqu'il a dû te sembler grand !
+Dialogue: 0,0:11:53.23,0:11:56.64,Default,,0,0,0,,Non, pas d'erreur possible,\Nil était de grande taille !
+Dialogue: 0,0:11:57.32,0:12:00.43,Default,,0,0,0,,Pour moi, ce coupable\Nressemblait plutôt à une femme.
+Dialogue: 0,0:12:00.87,0:12:05.20,Default,,0,0,0,,Ses habits étaient blanc-gris\Net elle était de taille normale,
+Dialogue: 0,0:12:05.68,0:12:08.23,Default,,0,0,0,,voire un peu plus grande\Nque le professeur.
+Dialogue: 0,0:12:11.40,0:12:12.32,Default,,0,0,0,,{\i1}Ah ouais...{\i0}
+Dialogue: 0,0:12:12.84,0:12:13.84,Default,,0,0,0,,C'est pas gagné...
+Dialogue: 0,0:12:14.23,0:12:15.40,Default,,0,0,0,,Non, il était grand !
+Dialogue: 0,0:12:15.56,0:12:18.32,Default,,0,0,0,,{\i1}Leurs témoignages\Nne concordent pas...{\i0}
+Dialogue: 0,0:12:18.80,0:12:22.00,Default,,0,0,0,,Je te jure qu'il était petit\Net portait du gris !
+Dialogue: 0,0:12:22.16,0:12:26.36,Default,,0,0,0,,Non ! C'était un homme grand\Nhabillé en gris foncé !
+Dialogue: 0,0:12:26.52,0:12:30.32,Default,,0,0,0,,Non, une femme en gris clair\Nplus grande que le professeur !
+Dialogue: 0,0:12:31.00,0:12:35.08,Default,,0,0,0,,Euh, bon... Si je remets\Nde l'ordre dans vos déclarations...
+Dialogue: 0,0:12:35.47,0:12:39.11,Default,,0,0,0,,Voici le signalement du coupable\Nqui a poignardé M. Hosogoe
+Dialogue: 0,0:12:39.28,0:12:41.20,Default,,0,0,0,,près du 9e,
+Dialogue: 0,0:12:41.36,0:12:44.60,Default,,0,0,0,,l'étage des restaurants,\Navant de fuir par l'escalier
+Dialogue: 0,0:12:45.16,0:12:47.56,Default,,0,0,0,,selon Genta, qui était au 6e :
+Dialogue: 0,0:12:47.72,0:12:50.52,Default,,0,0,0,,un homme petit\Navec un "2" sur ses habits
+Dialogue: 0,0:12:50.68,0:12:54.04,Default,,0,0,0,,qui lui ont paru être\Nde la même couleur que ceux d'Ai.
+Dialogue: 0,0:12:54.20,0:12:54.72,Default,,0,0,0,,Ouais !
+Dialogue: 0,0:12:55.52,0:12:57.76,Default,,0,0,0,,Pour Mitsuhiko qui était au 4e,
+Dialogue: 0,0:12:58.20,0:13:01.08,Default,,0,0,0,,il était grand,\Ncourait comme un homme
+Dialogue: 0,0:13:01.23,0:13:03.87,Default,,0,0,0,,et semblait porter\Ndes habits gris foncé.
+Dialogue: 0,0:13:04.16,0:13:04.87,Default,,0,0,0,,Exact !
+Dialogue: 0,0:13:05.43,0:13:08.16,Default,,0,0,0,,Quant à Ayumi qui était au 3e,
+Dialogue: 0,0:13:08.32,0:13:11.40,Default,,0,0,0,,c'était une femme de taille normale
+Dialogue: 0,0:13:11.56,0:13:15.11,Default,,0,0,0,,un peu plus grande que le professeur\Net vêtue en gris clair.
+Dialogue: 0,0:13:15.28,0:13:16.04,Default,,0,0,0,,Oui !
+Dialogue: 0,0:13:16.60,0:13:17.32,Default,,0,0,0,,Surprenant...
+Dialogue: 0,0:13:17.80,0:13:20.20,Default,,0,0,0,,Toutes les personnes qui ont tenté
+Dialogue: 0,0:13:20.36,0:13:23.60,Default,,0,0,0,,de quitter ce centre à la hâte\Nsont habillées en gris.
+Dialogue: 0,0:13:23.76,0:13:27.16,Default,,0,0,0,,Oui, même si la couleur\Nest plus ou moins foncée.
+Dialogue: 0,0:13:27.76,0:13:32.64,Default,,0,0,0,,C'est M. Kamaya qui a une veste\Nde couleur semblable à celle d'Ai.
+Dialogue: 0,0:13:32.84,0:13:34.76,Default,,0,0,0,,Vous plaisantez, j'espère !
+Dialogue: 0,0:13:35.20,0:13:38.80,Default,,0,0,0,,Moi, je cherchais juste\Ndes toilettes libres !
+Dialogue: 0,0:13:39.20,0:13:43.04,Default,,0,0,0,,Tiens ? Vous semblez blessé\Nà la main droite...
+Dialogue: 0,0:13:43.20,0:13:45.92,Default,,0,0,0,,Ça ? C'est juste une foulure...
+Dialogue: 0,0:13:46.08,0:13:48.68,Default,,0,0,0,,Je me suis heurté\Nà la porte des toilettes.
+Dialogue: 0,0:13:49.28,0:13:52.43,Default,,0,0,0,,Et d'ailleurs,\Nles deux autres gamins
+Dialogue: 0,0:13:52.60,0:13:55.68,Default,,0,0,0,,ont parlé d'un gris\Nplus foncé ou plus clair.
+Dialogue: 0,0:13:56.28,0:14:01.08,Default,,0,0,0,,En plus, le petit gros\Nparlait d'un "2" sur des habits,
+Dialogue: 0,0:14:01.23,0:14:02.43,Default,,0,0,0,,mais regardez,
+Dialogue: 0,0:14:02.84,0:14:05.68,Default,,0,0,0,,il n'y a que des idéogrammes\Nsur ma veste !
+Dialogue: 0,0:14:07.76,0:14:09.08,Default,,0,0,0,,En effet...
+Dialogue: 0,0:14:09.23,0:14:13.11,Default,,0,0,0,,Donc, la femme en gris clair\Ndont parlait Ayumi...
+Dialogue: 0,0:14:13.28,0:14:14.68,Default,,0,0,0,,Attendez une minute !
+Dialogue: 0,0:14:15.20,0:14:18.36,Default,,0,0,0,,Je vous ai déjà dit\Nque je faisais le tour des stands
+Dialogue: 0,0:14:18.52,0:14:21.20,Default,,0,0,0,,à la hâte\Npour retrouver mon portefeuille !
+Dialogue: 0,0:14:21.84,0:14:25.84,Default,,0,0,0,,Mais vous l'avez retrouvé\Ndans votre propre sac, non ?
+Dialogue: 0,0:14:26.00,0:14:29.40,Default,,0,0,0,,Alors pourquoi avoir tenté\Nde vous précipiter hors d'ici ?
+Dialogue: 0,0:14:29.68,0:14:31.40,Default,,0,0,0,,Parce que je me suis souvenue
+Dialogue: 0,0:14:31.56,0:14:35.23,Default,,0,0,0,,de la rediffusion\Ndu feuilleton que j'avais raté.
+Dialogue: 0,0:14:36.11,0:14:37.52,Default,,0,0,0,,Vous êtes enrhumée ?
+Dialogue: 0,0:14:38.32,0:14:40.72,Default,,0,0,0,,Oui, j'étais presque guérie...
+Dialogue: 0,0:14:42.56,0:14:46.32,Default,,0,0,0,,Mais j'ai peut-être repris froid\Nen suant après cette course.
+Dialogue: 0,0:14:47.76,0:14:51.20,Default,,0,0,0,,Et pas de chiffre "2"\Nsur vos vêtements non plus.
+Dialogue: 0,0:14:51.64,0:14:55.32,Default,,0,0,0,,Cette broche sur votre torse\Nressemble à un chiffre,
+Dialogue: 0,0:14:55.47,0:14:57.20,Default,,0,0,0,,mais plus à un "6" qu'un "2".
+Dialogue: 0,0:14:58.64,0:15:01.32,Default,,0,0,0,,Ne reste plus que vous,\Nmonsieur Miyadai,
+Dialogue: 0,0:15:01.47,0:15:05.00,Default,,0,0,0,,avec votre veste gris foncé\Ndont parlait Mitsuhiko.
+Dialogue: 0,0:15:05.16,0:15:05.84,Default,,0,0,0,,Doucement !
+Dialogue: 0,0:15:06.20,0:15:09.20,Default,,0,0,0,,Moi, j'avais sué\Naprès avoir mangé trop épicé.
+Dialogue: 0,0:15:09.36,0:15:11.32,Default,,0,0,0,,Je me dépêchais de sortir
+Dialogue: 0,0:15:11.47,0:15:14.84,Default,,0,0,0,,pour aller prendre une douche\Nchez moi, c'est la vérité !
+Dialogue: 0,0:15:15.23,0:15:19.52,Default,,0,0,0,,En fait, j'ai entendu une rumeur\Nqui affirmait que la soupe
+Dialogue: 0,0:15:19.68,0:15:23.04,Default,,0,0,0,,de ce restaurant thaïlandais\Nressemblait à la mienne.
+Dialogue: 0,0:15:23.20,0:15:25.28,Default,,0,0,0,,Vous étiez venu vous plaindre ?
+Dialogue: 0,0:15:25.64,0:15:27.36,Default,,0,0,0,,Euh, oui...
+Dialogue: 0,0:15:27.56,0:15:32.08,Default,,0,0,0,,Mais nos recettes étant différentes,\Nje suis reparti sans broncher.
+Dialogue: 0,0:15:33.11,0:15:37.32,Default,,0,0,0,,On dirait qu'il y a quelque chose\Nd'écrit derrière votre blouson.
+Dialogue: 0,0:15:38.80,0:15:41.32,Default,,0,0,0,,Ce ne sont pas des numéros !
+Dialogue: 0,0:15:41.56,0:15:43.28,Default,,0,0,0,,"Tokyo Spirits"...
+Dialogue: 0,0:15:46.04,0:15:49.16,Default,,0,0,0,,Pourquoi remuez-vous le pied\Ndepuis tout à l'heure ?
+Dialogue: 0,0:15:49.87,0:15:51.76,Default,,0,0,0,,Parce que j'ai une mycose !
+Dialogue: 0,0:15:51.92,0:15:55.56,Default,,0,0,0,,J'aimerais rentrer au plus vite\Npour mettre de la pommade...
+Dialogue: 0,0:15:56.60,0:16:00.92,Default,,0,0,0,,Il nous reste enfin à savoir pourquoi\NAyumi a cru voir une femme...
+Dialogue: 0,0:16:01.16,0:16:03.20,Default,,0,0,0,,Qu'est-ce qui t'a fait penser ça ?
+Dialogue: 0,0:16:03.36,0:16:04.80,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:16:05.23,0:16:09.20,Default,,0,0,0,,Parce que j'en ai eu\Nvaguement l'impression.
+Dialogue: 0,0:16:09.56,0:16:11.87,Default,,0,0,0,,- Quoi ?\N- "Vaguement" ?
+Dialogue: 0,0:16:12.56,0:16:13.76,Default,,0,0,0,,Inspecteur Megure !
+Dialogue: 0,0:16:15.32,0:16:19.36,Default,,0,0,0,,On a trouvé un lien entre M. Hosogoe\Net chacune de ces 3 personnes !
+Dialogue: 0,0:16:19.68,0:16:20.11,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:16:22.56,0:16:26.04,Default,,0,0,0,,M. Kamaya\Na travaillé jusqu'il y a 2 ans
+Dialogue: 0,0:16:26.36,0:16:29.23,Default,,0,0,0,,dans le restaurant\Noù la victime était chef,
+Dialogue: 0,0:16:29.76,0:16:32.76,Default,,0,0,0,,avant d'être licencié\Npour sa mauvaise attitude.
+Dialogue: 0,0:16:33.40,0:16:37.11,Default,,0,0,0,,Mme Shikama habite en face\Nde l'appartement de la victime.
+Dialogue: 0,0:16:37.52,0:16:39.60,Default,,0,0,0,,Elle se disputait souvent avec lui
+Dialogue: 0,0:16:39.76,0:16:42.11,Default,,0,0,0,,à cause des aboiements de son chien.
+Dialogue: 0,0:16:42.87,0:16:45.28,Default,,0,0,0,,M. Miyadai, lui, a fait un scandale
+Dialogue: 0,0:16:45.92,0:16:49.87,Default,,0,0,0,,dans le restaurant il y a 3 ans,\Nprétextant un plagiat de sa recette.
+Dialogue: 0,0:16:50.04,0:16:52.40,Default,,0,0,0,,La police avait même dû intervenir.
+Dialogue: 0,0:16:53.23,0:16:54.52,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:16:54.95,0:16:57.43,Default,,0,0,0,,On dirait bien que je vais devoir
+Dialogue: 0,0:16:57.60,0:17:00.92,Default,,0,0,0,,vous interroger tous les 3\Nun peu plus en détail.
+Dialogue: 0,0:17:08.32,0:17:09.11,Default,,0,0,0,,Dites !
+Dialogue: 0,0:17:09.43,0:17:13.32,Default,,0,0,0,,Avant ça, demandez-leur\Ns'ils ont des gants.
+Dialogue: 0,0:17:13.80,0:17:15.52,Default,,0,0,0,,- Des gants ?\N- C'est ça.
+Dialogue: 0,0:17:16.87,0:17:21.20,Default,,0,0,0,,Il n'y avait pas d'empreinte\Nsur le couteau de l'agresseur.
+Dialogue: 0,0:17:21.43,0:17:23.72,Default,,0,0,0,,Le coupable\Navait forcément des gants.
+Dialogue: 0,0:17:23.87,0:17:28.08,Default,,0,0,0,,Moi, si du sang avait giclé dessus,\Nje les aurais jetés.
+Dialogue: 0,0:17:29.64,0:17:31.00,Default,,0,0,0,,Qu'en est-il ?
+Dialogue: 0,0:17:31.47,0:17:33.84,Default,,0,0,0,,- J'ai les miens.\N- Moi aussi...
+Dialogue: 0,0:17:34.11,0:17:35.11,Default,,0,0,0,,Il fait pas chaud...
+Dialogue: 0,0:17:42.43,0:17:45.36,Default,,0,0,0,,Aucune des paires\Nne semble tachée de sang.
+Dialogue: 0,0:17:45.52,0:17:46.95,Default,,0,0,0,,D'après le légiste,
+Dialogue: 0,0:17:47.16,0:17:51.60,Default,,0,0,0,,c'est en tentant d'extraire la lame\Nque la victime a saigné.
+Dialogue: 0,0:17:51.92,0:17:55.40,Default,,0,0,0,,Le coupable n'a probablement pas dû\Nêtre éclaboussé.
+Dialogue: 0,0:17:55.76,0:17:56.76,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:17:57.36,0:17:59.68,Default,,0,0,0,,Et comment va l'agressé ?
+Dialogue: 0,0:18:00.11,0:18:01.95,Default,,0,0,0,,L'opération s'est bien terminée,
+Dialogue: 0,0:18:02.20,0:18:04.16,Default,,0,0,0,,mais il reste inconscient.
+Dialogue: 0,0:18:05.80,0:18:11.00,Default,,0,0,0,,Commençons déjà par vous interroger\Nplus en détail dans une autre pièce.
+Dialogue: 0,0:18:12.40,0:18:13.76,Default,,0,0,0,,On vous suit !
+Dialogue: 0,0:18:14.32,0:18:15.36,Default,,0,0,0,,Pas question !
+Dialogue: 0,0:18:15.80,0:18:18.40,Default,,0,0,0,,C'est désormais\Ndu ressort de la police.
+Dialogue: 0,0:18:21.56,0:18:24.04,Default,,0,0,0,,J'y crois pas, sérieux !
+Dialogue: 0,0:18:24.47,0:18:27.64,Default,,0,0,0,,Pourquoi on peut pas\Nassister à l'interrogatoire ?
+Dialogue: 0,0:18:28.08,0:18:32.04,Default,,0,0,0,,Après des témoignages pareils,\Nc'est pas étonnant...
+Dialogue: 0,0:18:32.47,0:18:33.92,Default,,0,0,0,,Ils étaient béton !
+Dialogue: 0,0:18:34.08,0:18:35.23,Default,,0,0,0,,Je l'ai bien vue !
+Dialogue: 0,0:18:35.40,0:18:36.76,Default,,0,0,0,,J'ai dit la vérité !
+Dialogue: 0,0:18:36.92,0:18:38.43,Default,,0,0,0,,Allons, du calme !
+Dialogue: 0,0:18:38.92,0:18:41.84,Default,,0,0,0,,Donc, Genta,\Nle suspect que tu as vu était petit
+Dialogue: 0,0:18:42.00,0:18:44.08,Default,,0,0,0,,et avait un "2" sur un vêtement
+Dialogue: 0,0:18:44.23,0:18:47.76,Default,,0,0,0,,de la même couleur\Nque la veste d'Ai, c'est ça ?
+Dialogue: 0,0:18:48.08,0:18:48.95,Default,,0,0,0,,Ouais !
+Dialogue: 0,0:18:49.11,0:18:52.00,Default,,0,0,0,,Pourquoi tu n'as pas vu\Nson visage, alors ?
+Dialogue: 0,0:18:52.16,0:18:53.60,Default,,0,0,0,,Ben ça...
+Dialogue: 0,0:18:54.20,0:18:56.32,Default,,0,0,0,,J'ai été gêné par les basketteurs
+Dialogue: 0,0:18:56.47,0:19:00.87,Default,,0,0,0,,qui repartaient par les escaliers\Naprès être passés au rayon sport.
+Dialogue: 0,0:19:01.56,0:19:03.47,Default,,0,0,0,,Des basketteurs ?
+Dialogue: 0,0:19:04.16,0:19:07.47,Default,,0,0,0,,Ah, je vois ! C'est le club\Nde basket du lycée Haido !
+Dialogue: 0,0:19:08.00,0:19:10.20,Default,,0,0,0,,Leurs maillots étaient prêts.
+Dialogue: 0,0:19:10.36,0:19:12.76,Default,,0,0,0,,Ils sont venus les récupérer\Nensemble.
+Dialogue: 0,0:19:14.32,0:19:17.64,Default,,0,0,0,,Il n'y avait que des adultes,\Ntous de grande taille.
+Dialogue: 0,0:19:17.80,0:19:22.11,Default,,0,0,0,,Ils ont vite passé leur maillot\Nau-dessus de leurs habits
+Dialogue: 0,0:19:22.36,0:19:25.23,Default,,0,0,0,,et étaient ravis\Nde rentrer chez eux comme ça.
+Dialogue: 0,0:19:25.40,0:19:27.11,Default,,0,0,0,,On aurait dit des gosses !
+Dialogue: 0,0:19:27.64,0:19:30.43,Default,,0,0,0,,Vous sauriez\Nme décrire ces maillots ?
+Dialogue: 0,0:19:30.76,0:19:34.52,Default,,0,0,0,,Bien sûr ! J'ai même pris\Nune petite photo souvenir.
+Dialogue: 0,0:19:35.16,0:19:36.04,Default,,0,0,0,,Regarde !
+Dialogue: 0,0:19:38.64,0:19:42.56,Default,,0,0,0,,Ces maillots sont du même gris\Nque la veste d'Ai.
+Dialogue: 0,0:19:42.72,0:19:43.43,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:19:43.95,0:19:45.11,Default,,0,0,0,,Voilà !
+Dialogue: 0,0:19:45.28,0:19:48.00,Default,,0,0,0,,Et le suspect\Nportait la même couleur !
+Dialogue: 0,0:19:48.23,0:19:51.11,Default,,0,0,0,,Il est passé en vitesse\Ndevant les basketteurs
+Dialogue: 0,0:19:51.28,0:19:53.84,Default,,0,0,0,,qui s'apprêtaient\Nà descendre l'escalier.
+Dialogue: 0,0:19:54.16,0:19:57.76,Default,,0,0,0,,Dans ce cas, ces basketteurs\Nont dû le voir aussi, non ?
+Dialogue: 0,0:19:57.92,0:19:59.16,Default,,0,0,0,,Probablement que non...
+Dialogue: 0,0:20:00.04,0:20:03.32,Default,,0,0,0,,Parce qu'ils ont tous regardé\Ndans ma direction
+Dialogue: 0,0:20:03.52,0:20:06.11,Default,,0,0,0,,quand je leur ai crié\Nde se pousser...
+Dialogue: 0,0:20:06.72,0:20:10.52,Default,,0,0,0,,Mais tout maillot de basket\Na son numéro, pas vrai ?
+Dialogue: 0,0:20:11.04,0:20:14.56,Default,,0,0,0,,Dans ce cas, tu pourrais très bien\Navoir confondu
+Dialogue: 0,0:20:14.72,0:20:18.00,Default,,0,0,0,,avec le basketteur\Nqui portait le numéro "2".
+Dialogue: 0,0:20:18.20,0:20:19.95,Default,,0,0,0,,C'est impossible !
+Dialogue: 0,0:20:20.11,0:20:22.00,Default,,0,0,0,,C'était le seul à courir !
+Dialogue: 0,0:20:22.16,0:20:25.52,Default,,0,0,0,,Mais comme il y avait\Nplein de numéros à ce moment-là...
+Dialogue: 0,0:20:25.68,0:20:26.00,Default,,0,0,0,,Non.
+Dialogue: 0,0:20:26.60,0:20:29.16,Default,,0,0,0,,C'est bien un "2" qu'a vu Genta.
+Dialogue: 0,0:20:29.92,0:20:33.36,Default,,0,0,0,,Et ça, parce qu'en basket,\Nles numéros 1 à 3 sont exclus.
+Dialogue: 0,0:20:33.80,0:20:34.80,Default,,0,0,0,,Vous voyez...
+Dialogue: 0,0:20:34.95,0:20:37.52,Default,,0,0,0,,Et pourquoi il n'y en a pas ?
+Dialogue: 0,0:20:37.95,0:20:42.32,Default,,0,0,0,,Parce que l'arbitre désigne\Nle joueur fautif avec ses doigts.
+Dialogue: 0,0:20:42.64,0:20:44.52,Default,,0,0,0,,Mais il en fait de même
+Dialogue: 0,0:20:44.68,0:20:46.47,Default,,0,0,0,,pour un lancer franc,
+Dialogue: 0,0:20:46.64,0:20:48.68,Default,,0,0,0,,un tir normal ou un 3 points.
+Dialogue: 0,0:20:49.16,0:20:52.72,Default,,0,0,0,,La fédération internationale de basket-ball\Na donc proscrit
+Dialogue: 0,0:20:52.87,0:20:56.08,Default,,0,0,0,,les 3 premiers chiffres\Npour éviter toute confusion.
+Dialogue: 0,0:20:57.72,0:21:01.68,Default,,0,0,0,,Mais aucun des 3 suspects\Nn'avait de "2" sur ses habits !
+Dialogue: 0,0:21:02.20,0:21:03.87,Default,,0,0,0,,C'est là le problème...
+Dialogue: 0,0:21:04.04,0:21:07.76,Default,,0,0,0,,Si seulement\Nvous aviez photographié le suspect...
+Dialogue: 0,0:21:07.92,0:21:10.52,Default,,0,0,0,,Il fallait nous le dire\Ndès le départ, alors !
+Dialogue: 0,0:21:11.56,0:21:15.20,Default,,0,0,0,,Tes mains sont prises\Npar la batte et le gant...
+Dialogue: 0,0:21:15.68,0:21:17.68,Default,,0,0,0,,Qui a pris cette photo ?
+Dialogue: 0,0:21:18.00,0:21:20.72,Default,,0,0,0,,Un des basketteurs\Ndont je vous ai parlé.
+Dialogue: 0,0:21:20.87,0:21:21.72,Default,,0,0,0,,Ah bon ?
+Dialogue: 0,0:21:22.36,0:21:25.52,Default,,0,0,0,,Mitsuhiko et Ai semblent\Navoir pris la leur eux-mêmes.
+Dialogue: 0,0:21:26.11,0:21:28.32,Default,,0,0,0,,Mais pas toi, Ayumi,\Nn'est-ce pas ?
+Dialogue: 0,0:21:28.68,0:21:29.56,Default,,0,0,0,,Effectivement.
+Dialogue: 0,0:21:29.72,0:21:33.36,Default,,0,0,0,,C'est une gentille employée\Ndu rayon jouets qui l'a prise !
+Dialogue: 0,0:21:33.52,0:21:35.87,Default,,0,0,0,,Elle m'a emmenée au bon endroit
+Dialogue: 0,0:21:36.04,0:21:38.95,Default,,0,0,0,,quand tu m'as contactée pour me dire
+Dialogue: 0,0:21:39.11,0:21:41.36,Default,,0,0,0,,que le coupable\Nfuyait par les escaliers.
+Dialogue: 0,0:21:41.84,0:21:43.72,Default,,0,0,0,,Dans ce cas, cette employée...
+Dialogue: 0,0:21:44.32,0:21:45.95,Default,,0,0,0,,... a peut-être aussi...
+Dialogue: 0,0:21:46.68,0:21:48.87,Default,,0,0,0,,... vu le coupable.
+Dialogue: 0,0:21:49.40,0:21:51.76,Default,,0,0,0,,Commençons\Npar aller au rayon jouets !
+Dialogue: 0,0:21:52.16,0:21:53.00,Default,,0,0,0,,Ouais !
+Dialogue: 0,0:21:53.60,0:21:56.40,Default,,0,0,0,,Attendez !\NL'ascenseur est de l'autre côté !
+Dialogue: 0,0:21:56.64,0:21:59.16,Default,,0,0,0,,Mieux vaut prendre les escaliers !
+Dialogue: 0,0:22:26.36,0:22:29.00,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:29.36,0:22:32.00,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

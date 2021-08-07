@@ -1,0 +1,371 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.75,0:00:02.58,ST_HAUT,,0,0,0,,{\i1}Un certain Junpei Haruyama{\i0}
+Dialogue: 0,0:00:03.29,0:00:05.04,ST_HAUT,,0,0,0,,{\i1}a été tué au couteau,{\i0}
+Dialogue: 0,0:00:06.13,0:00:09.88,ST_HAUT,,0,0,0,,{\i1}bientôt suivi d'un homme\Nnommé Yôji Natsukawa.{\i0}
+Dialogue: 0,0:00:11.01,0:00:12.30,ST_HAUT,,0,0,0,,{\i1}Il y a dix ans,{\i0}
+Dialogue: 0,0:00:12.47,0:00:14.01,ST_HAUT,,0,0,0,,{\i1}les deux victimes{\i0}
+Dialogue: 0,0:00:14.22,0:00:17.68,ST_HAUT,,0,0,0,,{\i1}ainsi que Miyako Akiba\Net Yûzaburô Fuyuki{\i0}
+Dialogue: 0,0:00:18.05,0:00:21.81,ST_HAUT,,0,0,0,,{\i1}avaient escroqué beaucoup d'argent\Nà Takashi Kômoto.{\i0}
+Dialogue: 0,0:00:22.98,0:00:25.98,ST_HAUT,,0,0,0,,{\i1}Ce dernier étant mourant,{\i0}
+Dialogue: 0,0:00:26.31,0:00:29.11,ST_HAUT,,0,0,0,,{\i1}il a décidé de se venger\Nde ses voleurs.{\i0}
+Dialogue: 0,0:00:30.11,0:00:32.57,Default,,0,0,0,,{\i1}Il a cependant chuté fortuitement{\i0}
+Dialogue: 0,0:00:33.53,0:00:35.53,Default,,0,0,0,,{\i1}et nous le pensions mort.{\i0}
+Dialogue: 0,0:00:37.53,0:00:39.16,Default,,0,0,0,,{\i1}Mais deux jours plus tard,{\i0}
+Dialogue: 0,0:00:39.70,0:00:42.87,Default,,0,0,0,,{\i1}Miyako Akiba a été assassinée\Nde la même façon.{\i0}
+Dialogue: 0,0:00:44.54,0:00:46.92,Default,,0,0,0,,{\i1}Criblée de coups de couteau,{\i0}
+Dialogue: 0,0:00:47.08,0:00:48.63,Default,,0,0,0,,{\i1}c'est la même méthode.{\i0}
+Dialogue: 0,0:00:49.67,0:00:50.84,Default,,0,0,0,,{\i1}"T. K." ?{\i0}
+Dialogue: 0,0:00:53.09,0:00:54.63,Default,,0,0,0,,{\i1}Takashi Kômoto !{\i0}
+Dialogue: 0,0:00:55.47,0:00:59.68,Default,,0,0,0,,{\i1}Mme Akiba a été tuée\Ncette nuit vers 11 heures.{\i0}
+Dialogue: 0,0:00:59.89,0:01:00.43,Default,,0,0,0,,{\i1}En outre,{\i0}
+Dialogue: 0,0:01:00.97,0:01:03.31,Default,,0,0,0,,{\i1}nous avons trouvé les empreintes{\i0}
+Dialogue: 0,0:01:03.48,0:01:05.94,Default,,0,0,0,,{\i1}de Kômoto sur un briquet\Nlaissé par terre.{\i0}
+Dialogue: 0,0:01:06.39,0:01:10.61,Default,,0,0,0,,{\i1}Le bougre avait donc\Nsurvécu à sa chute.{\i0}
+Dialogue: 0,0:01:10.86,0:01:14.44,Default,,0,0,0,,{\i1}Et il a repris\Nsa sinistre vengeance.{\i0}
+Dialogue: 0,0:01:14.99,0:01:17.07,Default,,0,0,0,,{\i1}Aidez-moi ! Je vous en prie !{\i0}
+Dialogue: 0,0:01:20.78,0:01:22.62,Default,,0,0,0,,APPEL D'UNE CABINE TÉLÉPHONIQUE
+Dialogue: 0,0:01:24.95,0:01:26.04,Default,,0,0,0,,{\i1}Allô ?{\i0}
+Dialogue: 0,0:01:26.62,0:01:27.79,Default,,0,0,0,,C'est moi, Kômoto.
+Dialogue: 0,0:01:29.00,0:01:29.83,Default,,0,0,0,,{\i1}Kômoto ?{\i0}
+Dialogue: 0,0:01:32.09,0:01:34.88,Default,,0,0,0,,Il ne reste plus que toi, Fuyuki.
+Dialogue: 0,0:01:35.30,0:01:38.68,Default,,0,0,0,,Tu vas regretter de m'avoir arnaqué,\Nil y a dix ans !
+Dialogue: 0,0:01:39.34,0:01:41.18,Default,,0,0,0,,{\i1}Épargne-moi, Kômoto !{\i0}
+Dialogue: 0,0:01:41.47,0:01:42.51,Default,,0,0,0,,{\i1}Je suis désolé,{\i0}
+Dialogue: 0,0:01:42.89,0:01:46.56,Default,,0,0,0,,{\i1}je te rendrai l'argent au centuple !{\i0}
+Dialogue: 0,0:01:46.73,0:01:48.52,Default,,0,0,0,,L'argent, toujours l'argent !
+Dialogue: 0,0:01:48.98,0:01:51.02,Default,,0,0,0,,Tu crois que ça effacera ton crime ?
+Dialogue: 0,0:01:51.69,0:01:55.03,Default,,0,0,0,,Tu penses pouvoir acheter ta survie ?
+Dialogue: 0,0:01:55.61,0:01:58.07,Default,,0,0,0,,T'es toujours un salaud.
+Dialogue: 0,0:02:00.16,0:02:00.95,Default,,0,0,0,,{\i1}Kômoto ?{\i0}
+Dialogue: 0,0:02:01.53,0:02:05.62,Default,,0,0,0,,{\i1}Allô ? Kômotô ?\NÉpargne-moi, je t'en prie !{\i0}
+Dialogue: 0,0:02:06.12,0:02:09.62,Default,,0,0,0,,{\i1}Trouvez-le !\NOn doit l'attraper à tout prix !{\i0}
+Dialogue: 0,0:02:10.04,0:02:10.75,Default,,0,0,0,,{\i1}Tout de suite !{\i0}
+Dialogue: 0,0:02:12.50,0:02:14.75,Default,,0,0,0,,{\i1}Elle n'était pas complète,{\i0}
+Dialogue: 0,0:02:15.09,0:02:16.01,Default,,0,0,0,,{\i1}sa vengeance.{\i0}
+Dialogue: 0,0:02:16.42,0:02:17.09,Default,,0,0,0,,{\i1}Non...{\i0}
+Dialogue: 0,0:02:17.59,0:02:21.30,Default,,0,0,0,,{\i1}Mais pourquoi\Na-t-il appelé cette fois ?{\i0}
+Dialogue: 0,0:02:23.43,0:02:26.02,Default,,0,0,0,,{\i1}Car c'est celui qu'il hait le plus.{\i0}
+Dialogue: 0,0:02:26.52,0:02:30.27,Default,,0,0,0,,{\i1}Rappelle-toi,\Nc'est lui qui a lancé l'arnaque.{\i0}
+Dialogue: 0,0:02:31.27,0:02:33.44,Default,,0,0,0,,C'est vrai mais bon,
+Dialogue: 0,0:02:34.90,0:02:36.44,Default,,0,0,0,,quelque chose cloche.
+Dialogue: 0,0:02:54.04,0:02:55.25,Default,,0,0,0,,C'est quoi, ça ?
+Dialogue: 0,0:02:58.17,0:03:01.30,Default,,0,0,0,,Comment ?\NVous avez trouvé le corps de Kômoto ?
+Dialogue: 0,0:03:02.05,0:03:04.80,Default,,0,0,0,,Les empreintes correspondent ?
+Dialogue: 0,0:03:05.68,0:03:08.27,Default,,0,0,0,,Très bien, j'arrive tout de suite !
+Dialogue: 0,0:03:09.43,0:03:10.98,ST_HAUT,,0,0,0,,{\i1}Le premier pas d'un long chemin,{\i0}
+Dialogue: 0,0:03:11.14,0:03:13.27,ST_HAUT,,0,0,0,,{\i1}1000 mystères résolus,\Nen route vers un nouveau monde !{\i0}
+Dialogue: 0,0:03:13.48,0:03:17.15,Default,,0,0,0,,{\i1}Le suspect disparaît, sa vengeance\Nprend une tournure inattendue !{\i0}
+Dialogue: 0,0:03:17.32,0:03:20.53,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:03:20.70,0:03:23.24,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:03:24.37,0:03:26.66,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:03:37.88,0:03:39.51,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:03:40.34,0:03:42.18,ST_HAUT,,0,0,0,,Directeur artistique :\NJunichi Higashi
+Dialogue: 0,0:03:45.68,0:03:47.60,ST_HAUT,,0,0,0,,Direction du son :\NY. Urakami, K. Urakami
+Dialogue: 0,0:03:49.64,0:03:51.56,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:03:56.31,0:03:58.40,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Zero kara hajimete"
+Dialogue: 0,0:04:00.53,0:04:02.70,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:04:04.16,0:04:06.20,ST_HAUT,,0,0,0,,Projet initial : Takenori Ichihara,\NNaota Machida
+Dialogue: 0,0:04:14.00,0:04:16.08,ST_HAUT,,0,0,0,,Producteurs : Isato Yonekura,\NKiyoaki Terashima
+Dialogue: 0,0:04:23.26,0:04:25.51,ST_HAUT,,0,0,0,,Chefs producteurs :\NKana Sasaki, Keiichi Ishiyama
+Dialogue: 0,0:04:32.02,0:04:34.52,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:04:45.99,0:04:48.41,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:04:51.75,0:04:53.79,Default,,0,0,0,,{\i1}Le Vengeur (2e partie){\i0}
+Dialogue: 0,0:04:57.33,0:04:59.13,Default,,0,0,0,,D'après l'autopsie,
+Dialogue: 0,0:04:59.38,0:05:02.71,Default,,0,0,0,,il serait mort\Nd'une contusion cérébrale.
+Dialogue: 0,0:05:03.09,0:05:06.93,Default,,0,0,0,,Il avait de nombreuses\Ncontusions et fractures,
+Dialogue: 0,0:05:07.09,0:05:10.26,Default,,0,0,0,,le légiste pense\Nqu'il est tombé d'assez haut.
+Dialogue: 0,0:05:12.06,0:05:15.64,Default,,0,0,0,,Il estime qu'il est mort\Nhier vers midi.
+Dialogue: 0,0:05:17.94,0:05:19.98,Default,,0,0,0,,S'il est mort hier midi,
+Dialogue: 0,0:05:20.98,0:05:22.15,Default,,0,0,0,,ça voudrait dire...
+Dialogue: 0,0:05:22.44,0:05:24.61,Default,,0,0,0,,Oui, l'heure concorde avec celle
+Dialogue: 0,0:05:24.78,0:05:27.70,Default,,0,0,0,,de sa chute au ravin\Nde la Shikigawa.
+Dialogue: 0,0:05:27.86,0:05:30.58,Default,,0,0,0,,Il était donc bien mort !
+Dialogue: 0,0:05:31.74,0:05:32.45,Default,,0,0,0,,Mais alors...
+Dialogue: 0,0:05:32.83,0:05:36.62,Default,,0,0,0,,Pourquoi a-t-on trouvé\Nson corps sur un chantier ?
+Dialogue: 0,0:05:36.79,0:05:41.46,Default,,0,0,0,,Et surtout,\Nqui a tué Miyako Akiba cette nuit ?
+Dialogue: 0,0:05:43.96,0:05:46.80,Default,,0,0,0,,{\i1}S'il est mort de sa chute...{\i0}
+Dialogue: 0,0:05:49.01,0:05:52.35,Default,,0,0,0,,Il n'y a qu'une seule possibilité.
+Dialogue: 0,0:05:52.93,0:05:55.27,Default,,0,0,0,,Et quelle est-elle donc,\Nmon bon Môri ?
+Dialogue: 0,0:05:55.85,0:05:58.60,Default,,0,0,0,,Takashi Kômoto est mort
+Dialogue: 0,0:05:58.77,0:06:01.77,Default,,0,0,0,,alors qu'il tentait de se venger.
+Dialogue: 0,0:06:02.36,0:06:05.69,Default,,0,0,0,,Mais un certain M. X\Na repris le flambeau
+Dialogue: 0,0:06:06.11,0:06:08.45,Default,,0,0,0,,pour accomplir sa vengeance.
+Dialogue: 0,0:06:09.61,0:06:11.03,Default,,0,0,0,,Il aurait un remplaçant ?
+Dialogue: 0,0:06:12.70,0:06:13.54,Default,,0,0,0,,Exactement !
+Dialogue: 0,0:06:13.87,0:06:18.33,Default,,0,0,0,,Ce dernier a assassiné Miyako Akiba\Nde la même façon
+Dialogue: 0,0:06:18.62,0:06:21.88,Default,,0,0,0,,pour accomplir\Nla vengeance de Kômoto.
+Dialogue: 0,0:06:22.46,0:06:24.67,Default,,0,0,0,,Il a laissé son briquet sur place
+Dialogue: 0,0:06:25.01,0:06:28.17,Default,,0,0,0,,et a appelé Fuyuki\Nen se faisant passer pour lui.
+Dialogue: 0,0:06:28.63,0:06:31.30,Default,,0,0,0,,En effet, c'est une possibilité.
+Dialogue: 0,0:06:33.56,0:06:37.93,Default,,0,0,0,,Ce complice X avait sûrement\Naccompagné Kômoto
+Dialogue: 0,0:06:38.10,0:06:40.06,Default,,0,0,0,,au ravin.
+Dialogue: 0,0:06:40.90,0:06:45.40,Default,,0,0,0,,Il a vite récupéré son corps
+Dialogue: 0,0:06:45.57,0:06:47.07,Default,,0,0,0,,après sa chute
+Dialogue: 0,0:06:47.61,0:06:50.57,Default,,0,0,0,,et l'a dissimulé dans un chantier.
+Dialogue: 0,0:06:51.57,0:06:55.95,Default,,0,0,0,,Tout ça pour nous faire croire\Nqu'il avait survécu.
+Dialogue: 0,0:06:56.83,0:07:00.83,Default,,0,0,0,,Cela expliquerait pourquoi\Nle cadavre a été enterré.
+Dialogue: 0,0:07:01.21,0:07:04.21,Default,,0,0,0,,Et pourquoi il y avait ce briquet.
+Dialogue: 0,0:07:05.92,0:07:09.47,Default,,0,0,0,,La question est de savoir\Nqui est ce complice X.
+Dialogue: 0,0:07:10.43,0:07:11.76,Default,,0,0,0,,Il a repris sa vendetta.
+Dialogue: 0,0:07:12.14,0:07:16.10,Default,,0,0,0,,C'est forcément quelqu'un\Nqui lui doit beaucoup
+Dialogue: 0,0:07:16.35,0:07:20.77,Default,,0,0,0,,pour accepter de mener\Ndes crimes aussi terribles.
+Dialogue: 0,0:07:21.06,0:07:23.10,Default,,0,0,0,,Il aurait une dette envers Kômoto ?
+Dialogue: 0,0:07:23.61,0:07:26.52,Default,,0,0,0,,Suivons les déductions de Môri,
+Dialogue: 0,0:07:26.69,0:07:28.61,Default,,0,0,0,,fouillez les relations de Kômoto !
+Dialogue: 0,0:07:28.90,0:07:29.53,Default,,0,0,0,,Tout de suite !
+Dialogue: 0,0:07:29.78,0:07:30.90,Default,,0,0,0,,Et toi, Chiba,
+Dialogue: 0,0:07:31.28,0:07:34.20,Default,,0,0,0,,renforce la protection de M. Fuyuki.
+Dialogue: 0,0:07:34.62,0:07:35.49,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:07:42.33,0:07:44.04,Default,,0,0,0,,- Mais tout de même...\N- Quoi ?
+Dialogue: 0,0:07:44.38,0:07:46.29,Default,,0,0,0,,Même s'il a une dette envers lui,
+Dialogue: 0,0:07:46.71,0:07:49.21,Default,,0,0,0,,il irait jusqu'à\Ncommettre un meurtre ?
+Dialogue: 0,0:07:49.42,0:07:51.38,Default,,0,0,0,,Ce M. X est une personne droite,
+Dialogue: 0,0:07:51.80,0:07:52.80,Default,,0,0,0,,vraiment fidèle.
+Dialogue: 0,0:07:55.97,0:07:58.31,Default,,0,0,0,,PRIX CASSÉ
+Dialogue: 0,0:08:02.52,0:08:03.60,Default,,0,0,0,,M. l'inspecteur ?
+Dialogue: 0,0:08:04.06,0:08:07.48,Default,,0,0,0,,Vous avez déjà trouvé\Nqui était M. X ?
+Dialogue: 0,0:08:07.65,0:08:09.98,Default,,0,0,0,,Non, pas encore.
+Dialogue: 0,0:08:11.74,0:08:15.91,Default,,0,0,0,,Mais M. Fuyuki a reçu\Nun nouvel appel de sa part.
+Dialogue: 0,0:08:19.04,0:08:20.12,Default,,0,0,0,,Fuyuki ?
+Dialogue: 0,0:08:20.66,0:08:23.75,Default,,0,0,0,,Tu as dû comprendre\Nque je ne suis pas Kômoto.
+Dialogue: 0,0:08:25.17,0:08:29.38,Default,,0,0,0,,J'ai assassiné Miyako Akiba\Npour le venger,
+Dialogue: 0,0:08:30.05,0:08:34.18,Default,,0,0,0,,mais tuer quelqu'un m'a laissé\Nun goût amer en bouche.
+Dialogue: 0,0:08:34.97,0:08:35.89,Default,,0,0,0,,{\i1}Tu veux dire que...{\i0}
+Dialogue: 0,0:08:36.30,0:08:37.68,Default,,0,0,0,,J'ai donc une proposition.
+Dialogue: 0,0:08:38.14,0:08:42.14,Default,,0,0,0,,Tu as dit ce matin\Nque tu étais prêt à payer.
+Dialogue: 0,0:08:43.39,0:08:46.44,Default,,0,0,0,,{\i1}Oui, et pas qu'un peu !\NCombien tu veux ?{\i0}
+Dialogue: 0,0:08:46.60,0:08:47.73,ST_HAUT,,0,0,0,,APPEL D'UNE CABINE TÉLÉPHONIQUE
+Dialogue: 0,0:08:47.90,0:08:49.94,ST_HAUT,,0,0,0,,T'es vraiment un salaud.
+Dialogue: 0,0:08:51.36,0:08:52.28,Default,,0,0,0,,Mais d'accord,
+Dialogue: 0,0:08:52.69,0:08:55.41,Default,,0,0,0,,je rappellerai pour les détails.
+Dialogue: 0,0:09:00.79,0:09:02.37,Default,,0,0,0,,C'est étrange, non ?
+Dialogue: 0,0:09:02.58,0:09:05.46,Default,,0,0,0,,Si M. X tuait\Npar sens du devoir envers Kômoto,
+Dialogue: 0,0:09:05.62,0:09:07.42,Default,,0,0,0,,il ne demanderait pas d'argent.
+Dialogue: 0,0:09:07.79,0:09:10.92,Default,,0,0,0,,C'était peut-être\Nson véritable objectif.
+Dialogue: 0,0:09:12.26,0:09:13.67,Default,,0,0,0,,Non, M. l'inspecteur.
+Dialogue: 0,0:09:14.17,0:09:15.34,Default,,0,0,0,,C'est un piège.
+Dialogue: 0,0:09:16.47,0:09:17.34,Default,,0,0,0,,"Un piège" ?
+Dialogue: 0,0:09:17.51,0:09:18.35,Default,,0,0,0,,Tout à fait !
+Dialogue: 0,0:09:18.80,0:09:21.89,Default,,0,0,0,,Il veut que M. Fuyuki s'expose
+Dialogue: 0,0:09:22.14,0:09:23.98,Default,,0,0,0,,pour pouvoir l'attaquer !
+Dialogue: 0,0:09:24.52,0:09:25.73,Default,,0,0,0,,Je comprends mieux !
+Dialogue: 0,0:09:26.31,0:09:28.65,Default,,0,0,0,,C'est notre chance de l'attraper !
+Dialogue: 0,0:09:29.27,0:09:32.07,Default,,0,0,0,,On lui fait croire\Nqu'il a mordu à l'hameçon
+Dialogue: 0,0:09:32.36,0:09:33.99,Default,,0,0,0,,et on lui saute dessus !
+Dialogue: 0,0:09:35.24,0:09:39.28,Default,,0,0,0,,{\i1}Le raisonnement de tonton\Ntient debout mais...{\i0}
+Dialogue: 0,0:09:40.53,0:09:43.04,ST_HAUT,,0,0,0,,LE LENDEMAIN
+Dialogue: 0,0:09:58.64,0:10:02.85,Default,,0,0,0,,Avec un tel dispositif,\Nil ne pourra pas nous échapper.
+Dialogue: 0,0:10:09.40,0:10:11.06,Default,,0,0,0,,Dites, inspecteur,
+Dialogue: 0,0:10:12.52,0:10:15.03,Default,,0,0,0,,je préfère payer, vous savez.
+Dialogue: 0,0:10:15.36,0:10:18.15,Default,,0,0,0,,Mais c'est peut-être un piège,\Nje vous le répète.
+Dialogue: 0,0:10:22.20,0:10:23.08,Default,,0,0,0,,Dis, tonton,
+Dialogue: 0,0:10:24.41,0:10:27.33,Default,,0,0,0,,ce n'est pas trop le style\Nd'un grand détective
+Dialogue: 0,0:10:27.50,0:10:29.25,Default,,0,0,0,,de rester à attendre.
+Dialogue: 0,0:10:30.75,0:10:32.25,Default,,0,0,0,,Maintenant que tu le dis...
+Dialogue: 0,0:10:32.92,0:10:35.71,Default,,0,0,0,,Je n'aurai pas\Nl'occasion de briller.
+Dialogue: 0,0:10:36.38,0:10:38.97,Default,,0,0,0,,Allez, partons à sa recherche !
+Dialogue: 0,0:10:39.26,0:10:40.14,Default,,0,0,0,,Bonne idée !
+Dialogue: 0,0:10:46.35,0:10:46.93,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:10:47.68,0:10:48.89,Default,,0,0,0,,L'homme qui arrive,
+Dialogue: 0,0:10:49.69,0:10:51.27,Default,,0,0,0,,regardez à son ventre !
+Dialogue: 0,0:10:52.98,0:10:54.82,Default,,0,0,0,,Il a une bombe autour du ventre ?
+Dialogue: 0,0:10:59.40,0:11:00.78,Default,,0,0,0,,Ce serait M. X ?
+Dialogue: 0,0:11:04.95,0:11:07.00,Default,,0,0,0,,Mais... aïe !\NQu'est-ce qui vous prend ?
+Dialogue: 0,0:11:07.16,0:11:08.00,Default,,0,0,0,,Je l'ai !
+Dialogue: 0,0:11:08.29,0:11:10.50,Default,,0,0,0,,C'est une ceinture\Npour mes hanches !
+Dialogue: 0,0:11:11.33,0:11:14.38,Default,,0,0,0,,- Hein ?\N- Rendez-la moi, bon sang !
+Dialogue: 0,0:11:16.84,0:11:18.51,Default,,0,0,0,,- On y va, gamin.\N- OK.
+Dialogue: 0,0:11:19.17,0:11:23.43,Default,,0,0,0,,Ce type a une énorme dette\Nenvers Kômoto.
+Dialogue: 0,0:11:23.60,0:11:26.51,Default,,0,0,0,,Mais tu es sûr\Nque c'est la bonne piste ?
+Dialogue: 0,0:11:27.72,0:11:29.48,Default,,0,0,0,,Seul Kômoto lui-même
+Dialogue: 0,0:11:29.64,0:11:33.15,Default,,0,0,0,,a pu révéler\Nà M. X son plan de vengeance.
+Dialogue: 0,0:11:33.44,0:11:35.02,Default,,0,0,0,,Sur ça, on est d'accord.
+Dialogue: 0,0:11:35.19,0:11:39.36,Default,,0,0,0,,Il n'aurait pas parlé\Nde ses projets de meurtres
+Dialogue: 0,0:11:39.53,0:11:41.15,Default,,0,0,0,,à n'importe qui !
+Dialogue: 0,0:11:42.20,0:11:45.66,Default,,0,0,0,,Et puis,\Nseule une personne dévouée
+Dialogue: 0,0:11:45.95,0:11:48.45,Default,,0,0,0,,aurait récupéré\Net enterré le corps !
+Dialogue: 0,0:11:52.29,0:11:53.96,Default,,0,0,0,,{\i1}"Récupérer le corps" ?{\i0}
+Dialogue: 0,0:11:54.29,0:11:57.17,Default,,0,0,0,,{\i1}Et s'il respirait encore\Nà ce moment-là ?{\i0}
+Dialogue: 0,0:11:57.96,0:11:59.09,Default,,0,0,0,,{\i1}Dans ce cas...{\i0}
+Dialogue: 0,0:12:01.97,0:12:03.51,Default,,0,0,0,,Vous avez bien dit
+Dialogue: 0,0:12:03.89,0:12:08.10,Default,,0,0,0,,qu'il y avait quelqu'un d'autre,\Nquand il est tombé.
+Dialogue: 0,0:12:08.39,0:12:11.06,Default,,0,0,0,,Et que cette personne avait disparu.
+Dialogue: 0,0:12:11.69,0:12:13.56,ST_HAUT,,0,0,0,,En effet, à ce moment-là...
+Dialogue: 0,0:12:13.98,0:12:15.65,Default,,0,0,0,,J'ai aperçu un pêcheur
+Dialogue: 0,0:12:16.23,0:12:18.32,Default,,0,0,0,,quand j'ai regardé en bas.
+Dialogue: 0,0:12:19.03,0:12:22.24,Default,,0,0,0,,Je me suis dit\Nqu'il avait dû voir la scène.
+Dialogue: 0,0:12:22.61,0:12:26.32,Default,,0,0,0,,Mais il n'était plus là\Nquand on est descendus à la rivière.
+Dialogue: 0,0:12:26.74,0:12:28.95,Default,,0,0,0,,Vous savez qui était cette personne ?
+Dialogue: 0,0:12:29.58,0:12:30.62,Default,,0,0,0,,Aucune idée.
+Dialogue: 0,0:12:31.66,0:12:34.83,Default,,0,0,0,,C'était la première fois\Nqu'on venait là-bas.
+Dialogue: 0,0:12:36.38,0:12:38.50,Default,,0,0,0,,Il travaille à l'hôpital.
+Dialogue: 0,0:12:39.75,0:12:42.92,ST_HAUT,,0,0,0,,Il travaille à l'hôpital\Nde Shikigawa.
+Dialogue: 0,0:12:43.26,0:12:46.34,ST_HAUT,,0,0,0,,Il a pris soin de moi\Nquand j'ai été hospitalisée.
+Dialogue: 0,0:12:46.89,0:12:49.35,Default,,0,0,0,,Ce gentil garçon s'appelle Otosaka.
+Dialogue: 0,0:12:49.85,0:12:51.27,Default,,0,0,0,,"Otosaka" ?
+Dialogue: 0,0:12:55.81,0:12:58.57,Default,,0,0,0,,Attendez encore un petit peu,
+Dialogue: 0,0:12:59.19,0:13:01.86,Default,,0,0,0,,j'ai trouvé une solution,\Nje vais rembourser.
+Dialogue: 0,0:13:03.03,0:13:05.03,ST_HAUT,,0,0,0,,JINICHI OTOSAKA\NEMPLOYÉ D'HÔPITAL
+Dialogue: 0,0:13:05.20,0:13:06.32,ST_HAUT,,0,0,0,,M. Otosaka ?
+Dialogue: 0,0:13:07.70,0:13:08.32,Default,,0,0,0,,Oui ?
+Dialogue: 0,0:13:08.49,0:13:11.20,Default,,0,0,0,,Un petit garçon est venu vous voir.
+Dialogue: 0,0:13:12.62,0:13:13.54,Default,,0,0,0,,Un garçon ?
+Dialogue: 0,0:13:18.92,0:13:20.59,Default,,0,0,0,,C'est moi, Otosaka,
+Dialogue: 0,0:13:21.13,0:13:22.67,Default,,0,0,0,,tu voulais me voir ?
+Dialogue: 0,0:13:23.17,0:13:27.68,Default,,0,0,0,,Je viens de la part\Ndu détective Kogorô Môri.
+Dialogue: 0,0:13:29.35,0:13:30.76,Default,,0,0,0,,Kogorô Môri ?
+Dialogue: 0,0:13:38.81,0:13:39.56,Default,,0,0,0,,HÔPITAL SHIKIGAWA
+Dialogue: 0,0:13:39.73,0:13:41.23,Default,,0,0,0,,Ah, ce jour-là !
+Dialogue: 0,0:13:41.78,0:13:43.61,Default,,0,0,0,,J'étais de service l'après-midi,
+Dialogue: 0,0:13:43.90,0:13:46.70,Default,,0,0,0,,alors je suis allé pêcher le matin.
+Dialogue: 0,0:13:47.57,0:13:50.37,Default,,0,0,0,,Mais je n'ai vu personne tomber,
+Dialogue: 0,0:13:51.20,0:13:54.20,Default,,0,0,0,,je devais déjà être parti.
+Dialogue: 0,0:13:54.54,0:13:55.46,Default,,0,0,0,,D'accord,
+Dialogue: 0,0:13:55.62,0:13:58.00,Default,,0,0,0,,vous n'avez donc rien vu.
+Dialogue: 0,0:13:58.21,0:14:00.25,Default,,0,0,0,,Je transmets à tonton Kogorô !
+Dialogue: 0,0:14:04.80,0:14:08.22,Default,,0,0,0,,Ah bon ?\NM. Otosaka a de gros soucis, alors.
+Dialogue: 0,0:14:08.76,0:14:10.10,Default,,0,0,0,,Ça reste entre nous.
+Dialogue: 0,0:14:11.60,0:14:14.18,Default,,0,0,0,,Mais sinon,\Nil prend toujours sa voiture
+Dialogue: 0,0:14:14.35,0:14:15.43,Default,,0,0,0,,pour aller pêcher ?
+Dialogue: 0,0:14:16.31,0:14:17.19,Default,,0,0,0,,Oui, je pense.
+Dialogue: 0,0:14:17.52,0:14:20.69,Default,,0,0,0,,Il se gare toujours au bout là-bas.
+Dialogue: 0,0:14:24.11,0:14:26.99,Default,,0,0,0,,{\i1}S'il s'en sert\Npour se rendre à son travail,{\i0}
+Dialogue: 0,0:14:27.28,0:14:28.74,Default,,0,0,0,,{\i1}il a pu s'arrêter en chemin.{\i0}
+Dialogue: 0,0:14:29.99,0:14:32.53,ST_HAUT,,0,0,0,,RAVIN DE LA RIVIÈRE SHIKIGAWA
+Dialogue: 0,0:14:38.00,0:14:40.29,Default,,0,0,0,,Par ici, M. Otosaka !
+Dialogue: 0,0:14:41.71,0:14:44.05,Default,,0,0,0,,On ne s'est pas croisés à l'hôpital ?
+Dialogue: 0,0:14:44.21,0:14:46.26,Default,,0,0,0,,Si, je me souviens de vous,\Ninspecteur.
+Dialogue: 0,0:14:46.42,0:14:48.05,Default,,0,0,0,,Que faites-vous là ?
+Dialogue: 0,0:14:48.22,0:14:50.26,Default,,0,0,0,,Je ne sais pas vraiment.
+Dialogue: 0,0:14:50.72,0:14:54.35,Default,,0,0,0,,Tonton Kogorô m'a demandé\Nde le faire venir.
+Dialogue: 0,0:15:00.94,0:15:01.60,Default,,0,0,0,,M. l'inspecteur !
+Dialogue: 0,0:15:02.02,0:15:03.61,Default,,0,0,0,,Tu peux m'expliquer ?
+Dialogue: 0,0:15:03.82,0:15:05.82,Default,,0,0,0,,Pourquoi nous faire venir ?
+Dialogue: 0,0:15:06.82,0:15:07.99,Default,,0,0,0,,Mais je n'ai pas...
+Dialogue: 0,0:15:10.20,0:15:13.62,Default,,0,0,0,,x² + y² = ...
+Dialogue: 0,0:15:14.62,0:15:15.99,Default,,0,0,0,,Jinichi Otosaka,
+Dialogue: 0,0:15:16.54,0:15:19.62,Default,,0,0,0,,vous avez vu un homme,\NTakashi Kômoto,
+Dialogue: 0,0:15:20.46,0:15:24.42,Default,,0,0,0,,chuter lors de votre\Nsession de pêche il y trois jours.
+Dialogue: 0,0:15:29.05,0:15:32.01,Default,,0,0,0,,J'ai dit que j'étais déjà parti.
+Dialogue: 0,0:15:32.47,0:15:34.97,Default,,0,0,0,,Non, il est tombé devant vous
+Dialogue: 0,0:15:35.14,0:15:37.89,Default,,0,0,0,,en hurlant.
+Dialogue: 0,0:15:38.77,0:15:41.52,Default,,0,0,0,,Gravement blessé mais encore vivant,
+Dialogue: 0,0:15:41.69,0:15:43.61,Default,,0,0,0,,vous l'avez secouru.
+Dialogue: 0,0:15:44.40,0:15:48.69,Default,,0,0,0,,Vous avez préféré votre voiture\Nà une ambulance
+Dialogue: 0,0:15:49.15,0:15:52.95,Default,,0,0,0,,et vous avez filé\Nen direction de l'hôpital.
+Dialogue: 0,0:15:56.33,0:15:58.50,Default,,0,0,0,,C'est pendant le voyage\Nque Kômoto
+Dialogue: 0,0:15:59.08,0:16:00.29,Default,,0,0,0,,a dû vous demander.
+Dialogue: 0,0:16:02.42,0:16:04.21,Default,,0,0,0,,{\i1}Laissez tomber l'hôpital...{\i0}
+Dialogue: 0,0:16:04.38,0:16:05.25,Default,,0,0,0,,{\i1}Comment ?{\i0}
+Dialogue: 0,0:16:06.25,0:16:08.67,Default,,0,0,0,,{\i1}Il ne me reste\Nque peu de temps à vivre.{\i0}
+Dialogue: 0,0:16:10.09,0:16:12.72,Default,,0,0,0,,{\i1}Je voudrais plutôt que tu écoutes{\i0}
+Dialogue: 0,0:16:13.43,0:16:14.26,Default,,0,0,0,,{\i1}ce que j'ai à dire...{\i0}
+Dialogue: 0,0:16:14.76,0:16:15.60,Default,,0,0,0,,{\i1}Je t'en prie !{\i0}
+Dialogue: 0,0:16:17.93,0:16:22.89,Default,,0,0,0,,Il vous a parlé de sa vengeance\Ncontre les quatre escrocs.
+Dialogue: 0,0:16:23.85,0:16:27.90,Default,,0,0,0,,Il a alors exprimé sa frustration\Nde ne pas avoir pu l'achever.
+Dialogue: 0,0:16:28.57,0:16:31.70,Default,,0,0,0,,{\i1}Bon sang, j'y étais presque...{\i0}
+Dialogue: 0,0:16:32.78,0:16:33.70,Default,,0,0,0,,{\i1}M. Kômoto !{\i0}
+Dialogue: 0,0:16:37.33,0:16:38.20,Default,,0,0,0,,Mais alors...
+Dialogue: 0,0:16:38.66,0:16:43.04,Default,,0,0,0,,M. Otosaka est M. X,\Nle remplaçant de Kômoto ?
+Dialogue: 0,0:16:43.50,0:16:44.42,Default,,0,0,0,,C'était toi ?
+Dialogue: 0,0:16:47.17,0:16:49.67,Default,,0,0,0,,En effet, en temps normal,
+Dialogue: 0,0:16:50.21,0:16:52.55,Default,,0,0,0,,personne n'avouerait ainsi ses meurtres,
+Dialogue: 0,0:16:52.72,0:16:54.47,Default,,0,0,0,,mais il était à l'agonie.
+Dialogue: 0,0:16:55.22,0:16:59.60,Default,,0,0,0,,C'est humain de vouloir\Nexprimer ses regrets à quelqu'un.
+Dialogue: 0,0:17:02.35,0:17:06.19,Default,,0,0,0,,M. Otosaka, maintenant\Nau courant du plan de vengeance,
+Dialogue: 0,0:17:06.90,0:17:09.57,Default,,0,0,0,,a imaginé une façon de s'en servir :
+Dialogue: 0,0:17:10.32,0:17:13.19,Default,,0,0,0,,extorquer de l'argent à M. Fuyuki.
+Dialogue: 0,0:17:16.36,0:17:19.08,Default,,0,0,0,,Il n'a jamais compté reprendre
+Dialogue: 0,0:17:19.78,0:17:21.58,Default,,0,0,0,,la vendetta de Kômoto.
+Dialogue: 0,0:17:25.21,0:17:29.92,Default,,0,0,0,,Il a tué Miyako Akiba\Npour s'assurer que M. Fuyuki paierait.
+Dialogue: 0,0:17:30.46,0:17:34.72,Default,,0,0,0,,En effet, ce dernier\Nétait prêt à céder sa fortune
+Dialogue: 0,0:17:34.88,0:17:38.26,Default,,0,0,0,,tant il était terrifié\Naprès ce troisième meurtre.
+Dialogue: 0,0:17:38.97,0:17:41.14,Default,,0,0,0,,Il aurait tué Miyako Akiba
+Dialogue: 0,0:17:41.35,0:17:44.85,Default,,0,0,0,,seulement pour attiser\Nla peur de M. Fuyuki ?
+Dialogue: 0,0:17:46.81,0:17:51.11,Default,,0,0,0,,En effet, vous êtes criblé de dettes,\Nn'est-ce pas ?
+Dialogue: 0,0:17:53.36,0:17:56.07,Default,,0,0,0,,Après avoir enterré le corps\Nde Takashi Kômoto,
+Dialogue: 0,0:17:56.61,0:17:58.37,Default,,0,0,0,,vous avez tué Miyako Akiba
+Dialogue: 0,0:17:59.16,0:18:01.91,Default,,0,0,0,,en faisait croire\Nque c'était son œuvre.
+Dialogue: 0,0:18:02.16,0:18:04.25,Default,,0,0,0,,Vous avez alors téléphoné.
+Dialogue: 0,0:18:04.58,0:18:05.71,Default,,0,0,0,,C'est moi, Kômoto.
+Dialogue: 0,0:18:06.16,0:18:08.12,Default,,0,0,0,,Il ne reste plus que toi, Fuyuki.
+Dialogue: 0,0:18:08.58,0:18:09.71,Default,,0,0,0,,{\i1}Je rembourserai !{\i0}
+Dialogue: 0,0:18:10.09,0:18:11.96,Default,,0,0,0,,{\i1}Je te rendrai l'argent au centuple !{\i0}
+Dialogue: 0,0:18:13.05,0:18:15.84,Default,,0,0,0,,Il a fait la proposition\Nque vous vouliez.
+Dialogue: 0,0:18:16.63,0:18:19.51,Default,,0,0,0,,Mais le plan a alors déraillé.
+Dialogue: 0,0:18:20.35,0:18:22.14,Default,,0,0,0,,Le corps de Kômoto a été trouvé,
+Dialogue: 0,0:18:22.31,0:18:24.77,Default,,0,0,0,,révélant la supercherie.
+Dialogue: 0,0:18:25.60,0:18:28.52,Default,,0,0,0,,Vous avez donc avoué\Navoir repris le flambeau
+Dialogue: 0,0:18:28.77,0:18:31.02,Default,,0,0,0,,et exigé de l'argent\Nde but en blanc.
+Dialogue: 0,0:18:31.90,0:18:34.07,Default,,0,0,0,,Nous avons cru à un piège,
+Dialogue: 0,0:18:34.53,0:18:37.49,Default,,0,0,0,,mais l'argent était bien son objectif.
+Dialogue: 0,0:18:41.87,0:18:45.79,Default,,0,0,0,,Ce ne sont que des suppositions\Nsans aucune preuve.
+Dialogue: 0,0:18:46.25,0:18:49.58,Default,,0,0,0,,Je n'ai jamais secouru ce Kômoto !
+Dialogue: 0,0:18:50.13,0:18:52.75,Default,,0,0,0,,Alors que faisiez-vous à ce moment
+Dialogue: 0,0:18:53.50,0:18:57.42,Default,,0,0,0,,sur le parking de cette supérette ?
+Dialogue: 0,0:18:59.51,0:19:00.72,Default,,0,0,0,,J'ai récupéré
+Dialogue: 0,0:19:01.09,0:19:03.85,Default,,0,0,0,,l'enregistrement des caméras.
+Dialogue: 0,0:19:13.94,0:19:18.36,Default,,0,0,0,,Vous êtes passé à l'arrière\Nde la voiture pendant 10 minutes.
+Dialogue: 0,0:19:18.74,0:19:20.57,Default,,0,0,0,,Que faisiez-vous ?
+Dialogue: 0,0:19:21.82,0:19:24.66,Default,,0,0,0,,Takashi Kômoto est tombé vers midi
+Dialogue: 0,0:19:25.08,0:19:27.83,Default,,0,0,0,,et il est mort\Ndans la même tranche horaire.
+Dialogue: 0,0:19:28.91,0:19:31.79,Default,,0,0,0,,Mais vous preniez votre service\Nl'après-midi
+Dialogue: 0,0:19:32.13,0:19:36.50,Default,,0,0,0,,et vous n'aviez pas le temps\Nde passer au chantier.
+Dialogue: 0,0:19:37.38,0:19:41.34,Default,,0,0,0,,Vous l'avez donc enterré\Naprès votre journée !
+Dialogue: 0,0:19:42.01,0:19:43.01,Default,,0,0,0,,Ainsi,
+Dialogue: 0,0:19:43.30,0:19:47.35,Default,,0,0,0,,son corps est resté dans la voiture\Npendant votre service.
+Dialogue: 0,0:19:48.31,0:19:49.48,Default,,0,0,0,,Alors à ce moment-là...
+Dialogue: 0,0:19:50.02,0:19:54.02,Default,,0,0,0,,Le corps de Kômoto\Nétait tout proche ?
+Dialogue: 0,0:19:54.52,0:19:55.11,Default,,0,0,0,,Oui,
+Dialogue: 0,0:19:55.61,0:19:59.74,Default,,0,0,0,,il devait être\Ndissimulé dans la voiture.
+Dialogue: 0,0:20:00.82,0:20:01.65,Default,,0,0,0,,Dans ce cas,
+Dialogue: 0,0:20:02.20,0:20:03.53,Default,,0,0,0,,on devrait trouver
+Dialogue: 0,0:20:04.07,0:20:07.66,Default,,0,0,0,,des cheveux et du sang\Ndans le véhicule.
+Dialogue: 0,0:20:09.08,0:20:11.46,Default,,0,0,0,,Et prouver qu'il a caché le corps.
+Dialogue: 0,0:20:13.71,0:20:16.42,Default,,0,0,0,,On a trouvé un objet\Nlaissé par le meurtrier
+Dialogue: 0,0:20:16.63,0:20:19.17,Default,,0,0,0,,chez Miyako Akiba.
+Dialogue: 0,0:20:21.01,0:20:23.05,Default,,0,0,0,,En analysant les empreintes,
+Dialogue: 0,0:20:23.51,0:20:25.97,Default,,0,0,0,,elles devraient\Ncorrespondre aux vôtres.
+Dialogue: 0,0:20:31.98,0:20:34.31,Default,,0,0,0,,M. Môri a raison sur toute la ligne.
+Dialogue: 0,0:20:34.85,0:20:37.27,Default,,0,0,0,,Je voulais lui taper son pognon !
+Dialogue: 0,0:20:38.44,0:20:39.28,Default,,0,0,0,,Enfoiré !
+Dialogue: 0,0:20:39.90,0:20:43.70,Default,,0,0,0,,Vous êtes de sales crapules,\Ntoi et Akiba.
+Dialogue: 0,0:20:44.16,0:20:45.57,Default,,0,0,0,,Ça ne justifie pas
+Dialogue: 0,0:20:45.82,0:20:49.04,Default,,0,0,0,,de les tuer ou de les extorquer !
+Dialogue: 0,0:20:57.50,0:20:58.80,Default,,0,0,0,,Je ne me suis pas endetté
+Dialogue: 0,0:20:59.46,0:21:01.88,Default,,0,0,0,,pour me faire plaisir.
+Dialogue: 0,0:21:02.38,0:21:03.84,Default,,0,0,0,,J'avais des proches
+Dialogue: 0,0:21:04.34,0:21:06.22,Default,,0,0,0,,dans le besoin.
+Dialogue: 0,0:21:06.97,0:21:08.47,Default,,0,0,0,,Je devais les aider...
+Dialogue: 0,0:21:11.73,0:21:13.81,Default,,0,0,0,,Il dit peut-être la vérité.
+Dialogue: 0,0:21:14.10,0:21:18.06,Default,,0,0,0,,Il a sorti Kômoto de la rivière\Npour l'emmener à l'hôpital
+Dialogue: 0,0:21:18.36,0:21:20.15,Default,,0,0,0,,avec les meilleures intentions.
+Dialogue: 0,0:21:20.61,0:21:21.48,Default,,0,0,0,,Pourtant...
+Dialogue: 0,0:21:22.11,0:21:22.78,Default,,0,0,0,,Oui,
+Dialogue: 0,0:21:23.15,0:21:26.91,Default,,0,0,0,,il s'est égaré en voulant\Nse servir de sa mort
+Dialogue: 0,0:21:27.20,0:21:30.74,Default,,0,0,0,,et il s'est livré\Nà des actes impardonnables.
+Dialogue: 0,0:21:32.29,0:21:33.50,Default,,0,0,0,,Quel idiot.
+Dialogue: 0,0:21:33.83,0:21:38.25,Default,,0,0,0,,Tout a commencé\Navec votre escroquerie 10 ans plus tôt !
+Dialogue: 0,0:21:38.75,0:21:42.55,Default,,0,0,0,,Vous n'imaginiez tout de même pas\Néchapper à la justice ?
+Dialogue: 0,0:22:02.73,0:22:05.45,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:05.82,0:22:08.45,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:23:13.64,0:23:16.47,Default,,0,0,0,,J'ai encore résolu l'affaire\Nde main de maître !
+Dialogue: 0,0:23:16.64,0:23:20.10,Default,,0,0,0,,D'ailleurs, c'est qui ce Otosaka ?
+Dialogue: 0,0:23:20.35,0:23:24.23,Default,,0,0,0,,J'ai su que c'était le coupable\Nsans même le connaître !

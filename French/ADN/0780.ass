@@ -1,0 +1,395 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.16,0:00:04.13,Default,,0,0,0,,{\i1}Alors que je préviens{\i0}\N{\i1}l'agent Jodie, du FBI,{\i0}
+Dialogue: 0,0:00:04.28,0:00:06.76,Default,,0,0,0,,{\i1}qu'un membre de l'Organisation,{\i0}
+Dialogue: 0,0:00:07.37,0:00:10.77,Default,,0,0,0,,{\i1}Tôru Amuro dit Bourbon,{\i0}\N{\i1}enquête sur Rikumichi Kusuda,{\i0}
+Dialogue: 0,0:00:10.93,0:00:13.20,Default,,0,0,0,,{\i1}on l'informe{\i0}\N{\i1}que son amie Natsuko Shibuya{\i0}
+Dialogue: 0,0:00:13.37,0:00:15.88,Default,,0,0,0,,{\i1}a été poussée{\i0}\N{\i1}du haut d'un escalier.{\i0}
+Dialogue: 0,0:00:17.44,0:00:22.01,Default,,0,0,0,,{\i1}Accourus sur les lieux, nous devinons{\i0}\N{\i1}qu'elle a été en fait été agressée{\i0}
+Dialogue: 0,0:00:22.16,0:00:24.36,Default,,0,0,0,,{\i1}dans l'école où elle enseigne...{\i0}
+Dialogue: 0,0:00:24.53,0:00:25.61,Default,,0,0,0,,ÉCOLE DE HAIDO
+Dialogue: 0,0:00:25.76,0:00:27.60,Default,,0,0,0,,{\i1}3 suspects ont été convoqués,{\i0}
+Dialogue: 0,0:00:28.40,0:00:29.41,Default,,0,0,0,,{\i1}lorsqu'arrive...{\i0}
+Dialogue: 0,0:00:33.04,0:00:37.00,Default,,0,0,0,,{\i1}Elle m'avait engagé parce qu'un type{\i0}\N{\i1}la suivait tout le temps.{\i0}
+Dialogue: 0,0:00:37.49,0:00:39.44,Default,,0,0,0,,Bourbon ?
+Dialogue: 0,0:00:40.05,0:00:43.16,Default,,0,0,0,,{\i1}Qui sont ces deux personnes ?{\i0}\N{\i1}Des professeurs d'anglais ?{\i0}
+Dialogue: 0,0:00:45.08,0:00:49.24,Default,,0,0,0,,{\i1}Non, ils sont du FBI{\i0}\N{\i1}et, pour une certaine raison,{\i0}
+Dialogue: 0,0:00:49.40,0:00:51.81,Default,,0,0,0,,{\i1}ils collaborent à notre enquête.{\i0}
+Dialogue: 0,0:00:54.77,0:00:56.80,Default,,0,0,0,,{\i1}Le FBI, dites-vous.{\i0}
+Dialogue: 0,0:00:57.89,0:01:01.32,Default,,0,0,0,,{\i1}Le bureau fédéral d'enquêtes{\i0}\N{\i1}des États-Unis d'Amérique.{\i0}
+Dialogue: 0,0:01:01.97,0:01:04.97,Default,,0,0,0,,{\i1}Ses agents,{\i0}\N{\i1}dans beaucoup de films et de séries,{\i0}
+Dialogue: 0,0:01:05.76,0:01:08.77,Default,,0,0,0,,{\i1}déboulent sur la scène de crime{\i0}\N{\i1}en quête de lauriers{\i0}
+Dialogue: 0,0:01:08.93,0:01:11.61,Default,,0,0,0,,{\i1}et perturbent avec un air suffisant{\i0}
+Dialogue: 0,0:01:11.92,0:01:13.92,Default,,0,0,0,,{\i1}l'enquête de la police locale,{\i0}
+Dialogue: 0,0:01:14.48,0:01:16.68,Default,,0,0,0,,{\i1}au grand agacement{\i0}\N{\i1}du téléspectateur.{\i0}
+Dialogue: 0,0:01:17.04,0:01:17.69,Default,,0,0,0,,{\i1}Quoi ?{\i0}
+Dialogue: 0,0:01:17.96,0:01:21.65,Default,,0,0,0,,{\i1}Mais je ne dis pas ça pour vous.{\i0}
+Dialogue: 0,0:01:22.72,0:01:24.37,Default,,0,0,0,,{\i1}J'ai juste vu ça à la télé.{\i0}
+Dialogue: 0,0:01:24.52,0:01:25.68,Default,,0,0,0,,À cause de lui
+Dialogue: 0,0:01:26.40,0:01:29.64,Default,,0,0,0,,et de ses potes, Akai est...
+Dialogue: 0,0:01:31.88,0:01:32.45,Default,,0,0,0,,{\i1}Camel...{\i0}
+Dialogue: 0,0:01:33.88,0:01:38.61,Default,,0,0,0,,{\i1}Calme-toi, ou il va piger qu'on sait{\i0}\N{\i1}qu'il appartient à l'Organisation.{\i0}
+Dialogue: 0,0:01:39.72,0:01:40.89,Default,,0,0,0,,{\i1}OK...{\i0}
+Dialogue: 0,0:01:48.16,0:01:51.96,Default,,0,0,0,,{\i1}Les années partagées{\i0}\N{\i1}nous font avancer à toute vitesse.{\i0}
+Dialogue: 0,0:01:52.48,0:01:55.88,Default,,0,0,0,,{\i1}Amuro m'intrigue,{\i0}\N{\i1}mais le contrôle de math d'abord !{\i0}
+Dialogue: 0,0:01:56.28,0:01:59.33,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:59.56,0:02:01.68,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:07.16,0:02:10.33,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:20.68,0:02:24.12,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:02:26.48,0:02:29.45,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:34.36,0:02:36.84,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:41.20,0:02:45.40,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"WE GO"
+Dialogue: 0,0:02:46.36,0:02:49.92,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:55.44,0:02:57.84,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:06.08,0:03:08.84,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:03:13.48,0:03:18.28,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:19.44,0:03:21.20,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:28.28,0:03:30.08,Default,,0,0,0,,{\i1}"La Poursuite écarlate" !{\i0}
+Dialogue: 0,0:03:34.24,0:03:35.88,Default,,0,0,0,,Comme je l'ai déjà dit,
+Dialogue: 0,0:03:36.48,0:03:38.96,Default,,0,0,0,,jusqu'à 20 heures 30 passées,
+Dialogue: 0,0:03:39.12,0:03:42.64,Default,,0,0,0,,j'étais vraiment au gymnase\Npour ranger le matériel.
+Dialogue: 0,0:03:43.28,0:03:46.16,ST_HAUT,,0,0,0,,En voyant l'heure,\Nje suis venu dans cette salle
+Dialogue: 0,0:03:46.32,0:03:49.56,ST_HAUT,,0,0,0,,retrouver Mlle Shibuya\Npour repartir avec elle,
+Dialogue: 0,0:03:49.72,0:03:50.92,Default,,0,0,0,,mais elle n'était pas là.
+Dialogue: 0,0:03:51.24,0:03:54.64,Default,,0,0,0,,Vous aviez convenu auparavant\Nde rentrer ensemble ?
+Dialogue: 0,0:03:54.80,0:03:55.64,Default,,0,0,0,,Non,
+Dialogue: 0,0:03:56.04,0:03:58.96,Default,,0,0,0,,mais je me disais\Nque la présence d'un homme
+Dialogue: 0,0:03:59.12,0:04:00.88,Default,,0,0,0,,la rassurerait, le soir.
+Dialogue: 0,0:04:01.04,0:04:02.88,Default,,0,0,0,,Il y a un certain temps,
+Dialogue: 0,0:04:03.04,0:04:05.16,Default,,0,0,0,,vous lui avez déclaré\Nvotre flamme,
+Dialogue: 0,0:04:05.48,0:04:07.48,Default,,0,0,0,,et elle vous avait éconduit...
+Dialogue: 0,0:04:08.76,0:04:10.76,Default,,0,0,0,,Elle vous l'a dit ?
+Dialogue: 0,0:04:11.16,0:04:14.04,Default,,0,0,0,,Non, je l'ai appris par vos collègues,
+Dialogue: 0,0:04:15.00,0:04:16.48,Default,,0,0,0,,quand je suis venu ici
+Dialogue: 0,0:04:16.92,0:04:20.60,Default,,0,0,0,,enquêter sur l'individu\Nqui la suivait dans la rue.
+Dialogue: 0,0:04:21.64,0:04:25.08,Default,,0,0,0,,Depuis, vous étiez\Nmon suspect numéro un.
+Dialogue: 0,0:04:25.24,0:04:28.28,Default,,0,0,0,,C'est vous qui harceliez Natsuko ?
+Dialogue: 0,0:04:28.64,0:04:33.20,Default,,0,0,0,,Non, au contraire ! Je la protégeais\Ndes types dangereux...
+Dialogue: 0,0:04:33.68,0:04:35.52,Default,,0,0,0,,- Vous la protégiez ?\N- Oui.
+Dialogue: 0,0:04:36.00,0:04:38.36,Default,,0,0,0,,Je l'escortais\Npresque tous les soirs
+Dialogue: 0,0:04:38.52,0:04:41.28,Default,,0,0,0,,pour qu'elle rentre chez elle\Nen sécurité.
+Dialogue: 0,0:04:41.44,0:04:44.92,Default,,0,0,0,,Enfin, disons plutôt\Nque je la suivais
+Dialogue: 0,0:04:45.08,0:04:48.92,Default,,0,0,0,,pour l'admirer en secret.
+Dialogue: 0,0:04:49.92,0:04:52.76,Default,,0,0,0,,Elle me faisait trop craquer
+Dialogue: 0,0:04:52.92,0:04:56.40,Default,,0,0,0,,quand elle sentait ma présence\Net regardait de tous côtés...
+Dialogue: 0,0:04:56.92,0:04:59.72,Default,,0,0,0,,J'avais l'impression\Nd'être son ange gardien.
+Dialogue: 0,0:04:59.88,0:05:02.08,Default,,0,0,0,,C'est exactement ça, du harcèlement !
+Dialogue: 0,0:05:02.88,0:05:06.08,Default,,0,0,0,,Elle vous a demandé d'arrêter,\Net vous avez disjoncté ?
+Dialogue: 0,0:05:06.24,0:05:08.52,Default,,0,0,0,,Non, jamais de la vie !
+Dialogue: 0,0:05:08.68,0:05:12.24,Default,,0,0,0,,Elle n'était plus là à 20 heures 30,\Nje vous l'assure !
+Dialogue: 0,0:05:12.68,0:05:17.08,Default,,0,0,0,,En plus, son sac contenait\Nun paquet de contrôles corrigés...
+Dialogue: 0,0:05:17.52,0:05:20.32,Default,,0,0,0,,Je sais très bien,\Nen tant qu'enseignant,
+Dialogue: 0,0:05:20.48,0:05:22.96,Default,,0,0,0,,qu'on ne doit pas\Nles ramener chez soi.
+Dialogue: 0,0:05:24.08,0:05:25.08,Default,,0,0,0,,Des contrôles ?
+Dialogue: 0,0:05:25.56,0:05:28.72,ST_HAUT,,0,0,0,,Ah oui,\Nquand je l'ai vue ici hier soir,
+Dialogue: 0,0:05:28.88,0:05:31.20,ST_HAUT,,0,0,0,,elle les corrigeait d'un air pressé.
+Dialogue: 0,0:05:31.56,0:05:35.64,Default,,0,0,0,,Elle n'a dû entendre mes remontrances\Nque d'une oreille.
+Dialogue: 0,0:05:35.80,0:05:36.84,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:05:37.00,0:05:39.84,Default,,0,0,0,,Vous veniez pour lui demander
+Dialogue: 0,0:05:40.00,0:05:43.04,Default,,0,0,0,,d'arrêter de provoquer votre fils,\Navez-vous dit.
+Dialogue: 0,0:05:43.52,0:05:44.88,Default,,0,0,0,,En quelle classe est-il ?
+Dialogue: 0,0:05:45.04,0:05:46.24,Default,,0,0,0,,J'imagine
+Dialogue: 0,0:05:46.56,0:05:49.36,Default,,0,0,0,,qu'il est en CP, comme Conan...
+Dialogue: 0,0:05:49.52,0:05:53.60,Default,,0,0,0,,Natsuko m'a dit\Nqu'on lui avait confié les CP 3.
+Dialogue: 0,0:05:54.88,0:05:59.48,Default,,0,0,0,,C'est mignon, un enfant de CP\Nqui tombe amoureux de sa maîtresse.
+Dialogue: 0,0:05:59.64,0:06:01.88,Default,,0,0,0,,Vous délirez ou quoi ?
+Dialogue: 0,0:06:03.28,0:06:05.28,Default,,0,0,0,,Comment ça, je délire ?
+Dialogue: 0,0:06:05.64,0:06:09.52,Default,,0,0,0,,À son âge, mon fils est encore\Nimmature et impressionnable...
+Dialogue: 0,0:06:09.68,0:06:12.96,Default,,0,0,0,,C'est pourquoi j'ai exigé\Nqu'elle soit plus discrète.
+Dialogue: 0,0:06:13.12,0:06:17.44,Default,,0,0,0,,Au demeurant,\Nil est en CM2, pas en CP !
+Dialogue: 0,0:06:18.60,0:06:21.76,Default,,0,0,0,,Il s'est épris de la maîtresse\Nd'une autre classe ?
+Dialogue: 0,0:06:21.92,0:06:23.20,Default,,0,0,0,,Comme Mlle Shibuya
+Dialogue: 0,0:06:23.56,0:06:27.84,Default,,0,0,0,,a longtemps étudié aux USA\Net maîtrise parfaitement l'anglais,
+Dialogue: 0,0:06:28.00,0:06:31.92,Default,,0,0,0,,elle assurait les cours d'anglais\Ndes grandes classes.
+Dialogue: 0,0:06:33.08,0:06:35.20,Default,,0,0,0,,C'est exactement comme mon ex-mari.
+Dialogue: 0,0:06:35.68,0:06:38.80,Default,,0,0,0,,Il s'est ruiné\Npour une hôtesse de bar eurasienne
+Dialogue: 0,0:06:38.96,0:06:40.92,Default,,0,0,0,,qui a fini par le larguer.
+Dialogue: 0,0:06:41.08,0:06:45.04,Default,,0,0,0,,Je ne veux pas que mon fils\Nsuive la même voie !
+Dialogue: 0,0:06:46.24,0:06:50.76,Default,,0,0,0,,Mais tout le monde autour de moi\Nessaie de le dépraver !
+Dialogue: 0,0:06:51.44,0:06:52.56,Default,,0,0,0,,De le dépraver ?
+Dialogue: 0,0:06:53.00,0:06:56.28,Default,,0,0,0,,Excusez-moi,\Nauriez-vous un mouchoir ?
+Dialogue: 0,0:06:56.44,0:06:59.60,Default,,0,0,0,,J'ai oublié le mien dans le taxi\Nqui m'a amenée ici.
+Dialogue: 0,0:06:59.76,0:07:01.88,Default,,0,0,0,,Tenez, je vous prête le mien...
+Dialogue: 0,0:07:02.44,0:07:03.36,Default,,0,0,0,,Merci.
+Dialogue: 0,0:07:03.52,0:07:04.80,Default,,0,0,0,,Un taxi ?
+Dialogue: 0,0:07:05.20,0:07:07.04,Default,,0,0,0,,Vous n'avez pas de voiture ?
+Dialogue: 0,0:07:07.20,0:07:10.88,Default,,0,0,0,,J'ai dû la vendre pour rembourser\Nles dettes de mon mari.
+Dialogue: 0,0:07:11.04,0:07:13.52,Default,,0,0,0,,Mais j'ai quand même\Nrenouvelé mon permis.
+Dialogue: 0,0:07:14.64,0:07:16.12,Default,,0,0,0,,On vous l'a volée ?
+Dialogue: 0,0:07:16.84,0:07:18.52,Default,,0,0,0,,Votre voiture ?
+Dialogue: 0,0:07:19.80,0:07:24.24,ST_HAUT,,0,0,0,,Quand je suis sorti ce matin,\Nla porte de mon garage était cassée,
+Dialogue: 0,0:07:24.40,0:07:25.88,ST_HAUT,,0,0,0,,et mon auto avait disparu.
+Dialogue: 0,0:07:26.28,0:07:27.36,Default,,0,0,0,,Vous l'avez signalé ?
+Dialogue: 0,0:07:27.52,0:07:28.76,Default,,0,0,0,,Oui, immédiatement.
+Dialogue: 0,0:07:29.28,0:07:33.08,Default,,0,0,0,,J'ai pris le train pour aller bosser\Net le bus pour venir ici.
+Dialogue: 0,0:07:33.76,0:07:37.88,Default,,0,0,0,,Et pour finir de me pourrir la vie,\Non me soupçonne de meurtre.
+Dialogue: 0,0:07:38.04,0:07:39.76,Default,,0,0,0,,Natsuko est toujours en vie.
+Dialogue: 0,0:07:40.84,0:07:43.40,Default,,0,0,0,,Excusez-moi...\NIl est interdit de fumer.
+Dialogue: 0,0:07:43.56,0:07:44.52,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:07:44.96,0:07:48.84,Default,,0,0,0,,Hier, vous êtes arrivé ici\Npeu avant 21 heures, avez-vous dit...
+Dialogue: 0,0:07:49.00,0:07:49.52,Default,,0,0,0,,Ouais...
+Dialogue: 0,0:07:50.04,0:07:53.16,Default,,0,0,0,,Je le répète,\Ntout le bâtiment était éteint,
+Dialogue: 0,0:07:53.32,0:07:54.96,Default,,0,0,0,,et les portes, fermées.
+Dialogue: 0,0:07:55.12,0:07:58.20,Default,,0,0,0,,Ce prof de gym pervers\Nou cette bonne femme
+Dialogue: 0,0:07:58.36,0:08:01.08,Default,,0,0,0,,devait déjà\Nl'avoir transportée ailleurs.
+Dialogue: 0,0:08:02.00,0:08:06.28,Default,,0,0,0,,Vous avez aussi pu l'emmener\Nvous-même une fois Mme Ueno repartie,
+Dialogue: 0,0:08:06.44,0:08:09.36,Default,,0,0,0,,et avant que M. Sugamoto n'arrive.
+Dialogue: 0,0:08:09.52,0:08:10.68,Default,,0,0,0,,Mouais...
+Dialogue: 0,0:08:11.16,0:08:16.20,Default,,0,0,0,,Quoi qu'il en soit, je suis venu\Nà l'heure dite, et elle n'était pas là.
+Dialogue: 0,0:08:16.36,0:08:20.64,Default,,0,0,0,,Vous aviez donc rendez-vous\Nvers 21 heures avec Mlle Shibuya ?
+Dialogue: 0,0:08:20.80,0:08:21.56,Default,,0,0,0,,Oui.
+Dialogue: 0,0:08:22.16,0:08:24.52,Default,,0,0,0,,Pourtant,\Nil y avait dans son portable
+Dialogue: 0,0:08:24.68,0:08:26.76,Default,,0,0,0,,ce SMS non envoyé :
+Dialogue: 0,0:08:26.92,0:08:30.88,Default,,0,0,0,,"Je vous attendais à 20 h 30.\NPouvez-vous encore venir ?"
+Dialogue: 0,0:08:31.04,0:08:33.12,Default,,0,0,0,,Était-ce un message pour vous ?
+Dialogue: 0,0:08:33.40,0:08:38.16,Default,,0,0,0,,J'en sais rien ! D'après votre question,\Nelle a pas dû écrire le destinataire.
+Dialogue: 0,0:08:38.32,0:08:40.60,Default,,0,0,0,,Elle écrivait peut-être\Nà cette femme,
+Dialogue: 0,0:08:40.76,0:08:44.24,Default,,0,0,0,,qui serait arrivée\Navant que le message soit envoyé.
+Dialogue: 0,0:08:45.80,0:08:48.36,Default,,0,0,0,,Et même si ce SMS m'était destiné,
+Dialogue: 0,0:08:48.88,0:08:53.64,Default,,0,0,0,,l'instit a dû se tromper sur l'heure\Nà force de voir tous ces chiffres.
+Dialogue: 0,0:08:53.88,0:08:56.16,Default,,0,0,0,,Elle était en pleine correction, non ?
+Dialogue: 0,0:09:00.36,0:09:03.12,Default,,0,0,0,,Voilà donc les fameux contrôles...
+Dialogue: 0,0:09:03.28,0:09:03.96,Default,,0,0,0,,Oui.
+Dialogue: 0,0:09:04.44,0:09:08.16,Default,,0,0,0,,Enfin, désolé,\Nils sont en cours d'analyse.
+Dialogue: 0,0:09:08.32,0:09:10.60,Default,,0,0,0,,Ici, nous ne les avons qu'en photo.
+Dialogue: 0,0:09:11.28,0:09:15.36,Default,,0,0,0,,Je ne vois que des calculs simples,\Nmais tous ces chiffres, en effet,
+Dialogue: 0,0:09:15.84,0:09:17.92,Default,,0,0,0,,peuvent embrouiller l'esprit.
+Dialogue: 0,0:09:18.08,0:09:18.60,Default,,0,0,0,,Bah oui...
+Dialogue: 0,0:09:19.84,0:09:22.60,Default,,0,0,0,,Ça confirme\Nce que m'avait dit Natsuko...
+Dialogue: 0,0:09:23.48,0:09:26.36,Default,,0,0,0,,Regardez ce dessin, en haut à droite.
+Dialogue: 0,0:09:26.96,0:09:31.76,Default,,0,0,0,,En Amérique, quand l'élève a 100/100,\Non écrit "excellent",
+Dialogue: 0,0:09:31.92,0:09:34.48,Default,,0,0,0,,mais ici,\Non fait une fleur en spirale.
+Dialogue: 0,0:09:35.88,0:09:36.76,Default,,0,0,0,,C'est tout ?
+Dialogue: 0,0:09:37.88,0:09:40.28,Default,,0,0,0,,C'est tout, l'agent du FBI ?
+Dialogue: 0,0:09:40.44,0:09:41.92,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:09:42.08,0:09:44.00,Default,,0,0,0,,Et vous, le Germano-Américain ?
+Dialogue: 0,0:09:44.88,0:09:49.12,Default,,0,0,0,,Je vous demande si vous ne déduisez\Nrien d'autre de cette photo.
+Dialogue: 0,0:09:55.16,0:09:58.16,Default,,0,0,0,,Si les Japonais font un cercle\Nquand c'est correct,
+Dialogue: 0,0:09:58.32,0:10:00.28,Default,,0,0,0,,le contrôle du haut de la pile
+Dialogue: 0,0:10:00.44,0:10:02.52,Default,,0,0,0,,est corrigé comme il faut.
+Dialogue: 0,0:10:06.04,0:10:09.44,Default,,0,0,0,,Je le savais, nous sommes les seuls\Nà l'avoir remarqué.
+Dialogue: 0,0:10:09.60,0:10:10.36,Default,,0,0,0,,"Nous" ?
+Dialogue: 0,0:10:11.40,0:10:12.40,Default,,0,0,0,,Je me trompe,
+Dialogue: 0,0:10:13.96,0:10:15.24,Default,,0,0,0,,Conan Edogawa ?
+Dialogue: 0,0:10:16.48,0:10:17.64,Default,,0,0,0,,De quoi tu parles ?
+Dialogue: 0,0:10:17.80,0:10:20.76,Default,,0,0,0,,Après avoir vu la photo,\Ntu as regardé fixement
+Dialogue: 0,0:10:21.28,0:10:22.92,Default,,0,0,0,,l'auteur du crime.
+Dialogue: 0,0:10:24.16,0:10:27.04,Default,,0,0,0,,- Alors...\N- Vous savez qui c'est ?
+Dialogue: 0,0:10:27.20,0:10:29.52,Default,,0,0,0,,Oui, à peu près.
+Dialogue: 0,0:10:30.04,0:10:32.04,Default,,0,0,0,,Et j'ai enfin l'explication...
+Dialogue: 0,0:10:32.76,0:10:34.76,Default,,0,0,0,,Je me demandais depuis le début
+Dialogue: 0,0:10:35.60,0:10:37.84,Default,,0,0,0,,pourquoi elle avait engagé\Nun détective
+Dialogue: 0,0:10:38.00,0:10:40.44,Default,,0,0,0,,pour identifier l'homme\Nqui la suivait
+Dialogue: 0,0:10:41.04,0:10:43.88,Default,,0,0,0,,alors qu'elle avait une amie au FBI.
+Dialogue: 0,0:10:44.80,0:10:48.64,Default,,0,0,0,,Qu'insinuez-vous ?\NQu'elle m'en jugeait incapable ?
+Dialogue: 0,0:10:48.80,0:10:51.20,Default,,0,0,0,,Elle n'osait pas le demander,\Nc'est tout.
+Dialogue: 0,0:10:51.36,0:10:54.44,Default,,0,0,0,,Nous sommes au Japon\Nen touristes.
+Dialogue: 0,0:10:54.80,0:10:57.16,Default,,0,0,0,,En touristes, dites-vous ?
+Dialogue: 0,0:10:57.32,0:11:01.92,Default,,0,0,0,,Si vous n'avez pas de visa,\Nil doit vous rester très peu de jours.
+Dialogue: 0,0:11:02.56,0:11:06.76,Default,,0,0,0,,Maintenant que vous avez bien profité,\Nveuillez partir sans tarder...
+Dialogue: 0,0:11:09.68,0:11:11.20,Default,,0,0,0,,de mon Japon.
+Dialogue: 0,0:11:14.24,0:11:15.72,Default,,0,0,0,,Tu as un instant, Zéro ?
+Dialogue: 0,0:11:16.76,0:11:18.96,Default,,0,0,0,,Enfin, je veux dire, Amuro...\NViens.
+Dialogue: 0,0:11:24.96,0:11:27.72,Default,,0,0,0,,Dis-moi, Amuro...
+Dialogue: 0,0:11:28.76,0:11:30.80,Default,,0,0,0,,Tu es bien leur ennemi,
+Dialogue: 0,0:11:31.72,0:11:33.04,Default,,0,0,0,,aux méchants ?
+Dialogue: 0,0:11:43.16,0:11:44.04,Default,,0,0,0,,"Zéro"...
+Dialogue: 0,0:11:44.96,0:11:49.28,Default,,0,0,0,,C'était bel et bien mon surnom\Nquand j'étais gosse.
+Dialogue: 0,0:11:50.36,0:11:52.68,Default,,0,0,0,,J'ai un peu l'impression
+Dialogue: 0,0:11:53.28,0:11:55.20,Default,,0,0,0,,que tu fais erreur à mon sujet.
+Dialogue: 0,0:11:58.72,0:11:59.68,Default,,0,0,0,,{\i1}Erreur ?{\i0}
+Dialogue: 0,0:12:05.64,0:12:08.36,Default,,0,0,0,,Maintenant,\Nrésolvons le mystère.
+Dialogue: 0,0:12:10.00,0:12:13.44,Default,,0,0,0,,Tout d'abord,\Nregardez bien la photo des copies.
+Dialogue: 0,0:12:15.20,0:12:16.80,Default,,0,0,0,,Vous ne remarquez rien ?
+Dialogue: 0,0:12:19.16,0:12:20.64,Default,,0,0,0,,{\i1}Je me suis trompé ?{\i0}
+Dialogue: 0,0:12:21.32,0:12:24.56,Default,,0,0,0,,{\i1}La faculté de voir{\i0}\N{\i1}instantanément la vérité.{\i0}
+Dialogue: 0,0:12:25.48,0:12:29.00,Default,,0,0,0,,{\i1}Sa façon de ne pas éliminer Haibara{\i0}\N{\i1}sur le Bell Tree Express.{\i0}
+Dialogue: 0,0:12:30.84,0:12:33.16,Default,,0,0,0,,{\i1}Sa réaction{\i0}\N{\i1}en entendant le mot "zéro".{\i0}
+Dialogue: 0,0:12:36.52,0:12:39.24,Default,,0,0,0,,{\i1}Et pour finir de me convaincre,{\i0}
+Dialogue: 0,0:12:40.16,0:12:42.56,Default,,0,0,0,,{\i1}ce qu'il a dit{\i0}\N{\i1}à ces agents du FBI.{\i0}
+Dialogue: 0,0:12:43.20,0:12:45.12,Default,,0,0,0,,{\i1}Veuillez partir sans tarder...{\i0}
+Dialogue: 0,0:12:46.68,0:12:48.16,Default,,0,0,0,,{\i1}de mon Japon.{\i0}
+Dialogue: 0,0:12:49.52,0:12:50.92,Default,,0,0,0,,{\i1}J'ai vu sa conviction...{\i0}
+Dialogue: 0,0:12:51.80,0:12:56.12,Default,,0,0,0,,{\i1}"Zéro" est le surnom d'un service{\i0}\N{\i1}censé "ne pas exister",{\i0}
+Dialogue: 0,0:12:57.12,0:13:00.68,Default,,0,0,0,,{\i1}et qui doit garantir{\i0}\N{\i1}l'ordre et la sécurité du Japon...{\i0}
+Dialogue: 0,0:13:02.04,0:13:04.16,Default,,0,0,0,,{\i1}la Police secrète.{\i0}
+Dialogue: 0,0:13:04.92,0:13:07.88,Default,,0,0,0,,{\i1}S'il en est un agent{\i0}\N{\i1}infiltré dans l'Organisation,{\i0}
+Dialogue: 0,0:13:08.04,0:13:11.96,Default,,0,0,0,,{\i1}je pensais éviter le pire{\i0}\N{\i1}en lui expliquant notre situation.{\i0}
+Dialogue: 0,0:13:12.92,0:13:14.32,Default,,0,0,0,,{\i1}Mais s'il n'en est pas un,{\i0}
+Dialogue: 0,0:13:15.60,0:13:17.96,Default,,0,0,0,,{\i1}le plan élaboré si longuement...{\i0}
+Dialogue: 0,0:13:21.20,0:13:23.68,Default,,0,0,0,,{\i1}Alors, Akai ?{\i0}
+Dialogue: 0,0:13:25.24,0:13:27.36,Default,,0,0,0,,{\i1}Ce quitte ou double{\i0}
+Dialogue: 0,0:13:27.96,0:13:28.84,Default,,0,0,0,,{\i1}te tente ?{\i0}
+Dialogue: 0,0:13:29.76,0:13:30.92,Default,,0,0,0,,{\i1}Bien sûr.{\i0}
+Dialogue: 0,0:13:33.36,0:13:34.44,Default,,0,0,0,,{\i1}... sera éventé !{\i0}
+Dialogue: 0,0:13:35.56,0:13:37.52,Default,,0,0,0,,{\i1}Non, du calme...{\i0}
+Dialogue: 0,0:13:38.40,0:13:40.12,Default,,0,0,0,,{\i1}Il n'a pas encore deviné.{\i0}
+Dialogue: 0,0:13:40.64,0:13:43.48,Default,,0,0,0,,{\i1}Il y a encore un truc{\i0}\N{\i1}qu'il ne peut pas savoir.{\i0}
+Dialogue: 0,0:13:44.32,0:13:47.28,Default,,0,0,0,,{\i1}Il va tenter quelque chose{\i0}\N{\i1}pour l'obtenir.{\i0}
+Dialogue: 0,0:13:48.72,0:13:50.20,Default,,0,0,0,,{\i1}Mais quoi ?{\i0}
+Dialogue: 0,0:13:56.48,0:13:58.32,Default,,0,0,0,,J'abandonne, Amuro...
+Dialogue: 0,0:13:58.80,0:14:00.20,Default,,0,0,0,,Dites-nous donc
+Dialogue: 0,0:14:00.36,0:14:03.08,Default,,0,0,0,,ce qu'il y a de louche\Nsur ces feuilles.
+Dialogue: 0,0:14:03.24,0:14:04.80,Default,,0,0,0,,Regardez un peu mieux
+Dialogue: 0,0:14:05.44,0:14:10.52,Default,,0,0,0,,les réponses de la feuille du dessus\Net celles du contrôle caché en-dessous.
+Dialogue: 0,0:14:11.60,0:14:13.68,Default,,0,0,0,,Par exemple, ce 4 + 5...
+Dialogue: 0,0:14:14.04,0:14:18.28,Default,,0,0,0,,La même réponse, "9",\Nest ici encerclée, et là, barrée.
+Dialogue: 0,0:14:18.44,0:14:21.96,Default,,0,0,0,,En plus, la feuille\Nde cet Umihiko Hirai
+Dialogue: 0,0:14:22.12,0:14:25.84,Default,,0,0,0,,a beau être remplie d'erreurs,\Nil a eu 100/100 avec la fleur.
+Dialogue: 0,0:14:26.68,0:14:28.48,Default,,0,0,0,,C'est étrange, non ?
+Dialogue: 0,0:14:28.64,0:14:30.24,Default,,0,0,0,,En effet...
+Dialogue: 0,0:14:31.24,0:14:31.80,Default,,0,0,0,,{\i1}Mais...{\i0}
+Dialogue: 0,0:14:32.72,0:14:37.20,Default,,0,0,0,,{\i1}Minute. Il est impensable que le FBI{\i0}\N{\i1}et Bourbon, membre de l'Organisation,{\i0}
+Dialogue: 0,0:14:37.36,0:14:40.04,Default,,0,0,0,,{\i1}se voient par hasard{\i0}\N{\i1}sur une scène de crime.{\i0}
+Dialogue: 0,0:14:41.08,0:14:44.00,Default,,0,0,0,,{\i1}Au départ,{\i0}\N{\i1}il y a eu un déclencheur...{\i0}
+Dialogue: 0,0:14:45.88,0:14:47.08,Default,,0,0,0,,Mlle Jodie !
+Dialogue: 0,0:14:52.48,0:14:53.36,Default,,0,0,0,,Quoi donc ?
+Dialogue: 0,0:14:53.52,0:14:56.04,Default,,0,0,0,,Pourquoi avez-vous appelé\Nvotre amie hier ?
+Dialogue: 0,0:14:56.20,0:14:59.36,Default,,0,0,0,,Parce qu'on devait aller boire\Nun coup ensemble.
+Dialogue: 0,0:14:59.52,0:15:02.84,Default,,0,0,0,,- Qui avait eu l'idée ?\N- Elle m'avait invitée par SMS.
+Dialogue: 0,0:15:03.32,0:15:07.20,Default,,0,0,0,,Curieusement, elle ne se souvenait\Npas l'avoir envoyé.
+Dialogue: 0,0:15:07.68,0:15:11.28,Default,,0,0,0,,Mais le message\Nétait bien dans son portable,
+Dialogue: 0,0:15:11.44,0:15:13.40,Default,,0,0,0,,et elle est assez tête en l'air.
+Dialogue: 0,0:15:13.56,0:15:16.72,Default,,0,0,0,,Et comme vous n'aviez\Nplus de batterie, avez-vous dit,
+Dialogue: 0,0:15:16.88,0:15:19.32,Default,,0,0,0,,l'agent Camel vous a prêté\Nson portable...
+Dialogue: 0,0:15:19.48,0:15:20.96,Default,,0,0,0,,Oui.
+Dialogue: 0,0:15:21.12,0:15:24.52,Default,,0,0,0,,Je le recharge chaque soir,\Nmais je m'en sers tellement
+Dialogue: 0,0:15:24.68,0:15:27.44,Default,,0,0,0,,qu'il me lâche\Ndès la fin de l'après-midi.
+Dialogue: 0,0:15:27.64,0:15:30.32,Default,,0,0,0,,Je crains le pire.\NSi ça se trouve...
+Dialogue: 0,0:15:30.48,0:15:31.52,Default,,0,0,0,,Quoi donc ?
+Dialogue: 0,0:15:31.68,0:15:34.52,Default,,0,0,0,,N'est-ce pas, agent Jodie Starling ?
+Dialogue: 0,0:15:35.72,0:15:37.96,Default,,0,0,0,,Un peu d'attention,\Ns'il vous plaît !
+Dialogue: 0,0:15:38.12,0:15:40.04,Default,,0,0,0,,Je vais révéler
+Dialogue: 0,0:15:40.20,0:15:43.40,Default,,0,0,0,,qui a si abominablement\Nagressé votre amie.
+Dialogue: 0,0:15:44.80,0:15:47.88,Default,,0,0,0,,Eh oui. Au Japon, on entoure\Nles bonnes réponses
+Dialogue: 0,0:15:48.36,0:15:50.16,Default,,0,0,0,,et on barre les mauvaises,
+Dialogue: 0,0:15:50.96,0:15:51.92,Default,,0,0,0,,mais, aux USA,
+Dialogue: 0,0:15:52.96,0:15:55.16,Default,,0,0,0,,on barre les bonnes réponses.
+Dialogue: 0,0:15:57.20,0:15:59.68,Default,,0,0,0,,N'est-ce pas, agent Jodie ?
+Dialogue: 0,0:15:59.84,0:16:03.04,Default,,0,0,0,,Oui. Enfin, pour être exacte,\Non ne barre pas, on coche.
+Dialogue: 0,0:16:03.80,0:16:08.68,Default,,0,0,0,,Tout comme le font les Japonais\Nsur les QCM à lecture optique.
+Dialogue: 0,0:16:09.04,0:16:11.84,Default,,0,0,0,,Mais pourquoi entourer\Nquand c'est faux ?
+Dialogue: 0,0:16:12.00,0:16:16.52,Default,,0,0,0,,Pour inciter l'élève à revoir\Nle problème sur lequel il a chuté.
+Dialogue: 0,0:16:17.00,0:16:20.72,Default,,0,0,0,,Enfin, ça peut varier\Nselon les enseignants...
+Dialogue: 0,0:16:21.72,0:16:24.36,Default,,0,0,0,,Autrement dit,\Nla feuille cachée en-dessous
+Dialogue: 0,0:16:24.52,0:16:27.60,Default,,0,0,0,,a été corrigée\Nà l'américaine par Natsuko,
+Dialogue: 0,0:16:27.76,0:16:30.00,Default,,0,0,0,,et celle qu'on voit au-dessus
+Dialogue: 0,0:16:30.16,0:16:32.68,Default,,0,0,0,,l'a été à la japonaise\Npar le coupable ?
+Dialogue: 0,0:16:32.84,0:16:37.64,Default,,0,0,0,,Oui. En plus, les cercles du test\Ndu dessus sont assez mal faits...
+Dialogue: 0,0:16:38.20,0:16:40.88,Default,,0,0,0,,Certains dépassent largement\Nde la case.
+Dialogue: 0,0:16:41.04,0:16:43.20,Default,,0,0,0,,C'est vrai.\NMais pourquoi ?
+Dialogue: 0,0:16:43.76,0:16:47.44,Default,,0,0,0,,Soit le coupable était maladroit,
+Dialogue: 0,0:16:47.60,0:16:51.48,Default,,0,0,0,,soit il a voulu cacher au stylo rouge\Nquelque chose de rouge.
+Dialogue: 0,0:16:52.80,0:16:53.80,Default,,0,0,0,,Du sang ?
+Dialogue: 0,0:16:53.96,0:16:57.52,Default,,0,0,0,,Mais oui !\NQuand il a frappé la victime,
+Dialogue: 0,0:16:57.68,0:17:01.16,Default,,0,0,0,,le sang de celle-ci\Na éclaboussé la feuille non corrigée,
+Dialogue: 0,0:17:01.32,0:17:05.52,Default,,0,0,0,,et pour cacher les petites taches,\Nil a tracé des cercle rouges
+Dialogue: 0,0:17:05.68,0:17:07.24,Default,,0,0,0,,qui ont l'air maladroit.
+Dialogue: 0,0:17:08.08,0:17:11.00,Default,,0,0,0,,Excellente réponse.\NReste à savoir
+Dialogue: 0,0:17:11.16,0:17:13.64,Default,,0,0,0,,lequel des trois a fait ça.
+Dialogue: 0,0:17:15.04,0:17:18.08,Default,,0,0,0,,Et vous savez qui c'est, j'imagine...
+Dialogue: 0,0:17:18.24,0:17:19.36,Default,,0,0,0,,Évidemment !
+Dialogue: 0,0:17:19.72,0:17:21.68,Default,,0,0,0,,C'est simple, non ?\NConan.
+Dialogue: 0,0:17:22.40,0:17:23.56,Default,,0,0,0,,Ouais...
+Dialogue: 0,0:17:24.00,0:17:28.68,Default,,0,0,0,,En voyant les fleurs en spirale\Nsur la photo, j'ai tout de suite su
+Dialogue: 0,0:17:29.08,0:17:30.92,Default,,0,0,0,,qui avait fait celle du dessus.
+Dialogue: 0,0:17:31.24,0:17:32.68,Default,,0,0,0,,Les fleurs en spirale ?
+Dialogue: 0,0:17:32.84,0:17:36.00,Default,,0,0,0,,Oui. Comparez\Nla fleur de Mlle Shibuya
+Dialogue: 0,0:17:36.16,0:17:38.96,Default,,0,0,0,,avec celle du coupable.
+Dialogue: 0,0:17:39.48,0:17:41.80,Default,,0,0,0,,Le sens des spirales\Nn'est pas le même.
+Dialogue: 0,0:17:42.32,0:17:46.64,Default,,0,0,0,,Celle du coupable va dans le sens\Ninverse des aiguilles d'une montre !
+Dialogue: 0,0:17:47.40,0:17:49.40,Default,,0,0,0,,En général, on fait le contraire.
+Dialogue: 0,0:17:49.56,0:17:50.60,Default,,0,0,0,,Oui.
+Dialogue: 0,0:17:51.04,0:17:52.44,Default,,0,0,0,,Conclusion :
+Dialogue: 0,0:17:52.60,0:17:53.64,Default,,0,0,0,,l'auteur des faits
+Dialogue: 0,0:17:53.80,0:17:58.08,Default,,0,0,0,,n'est ni M. Sugamoto,\Nqui s'épongeait de la main droite,
+Dialogue: 0,0:17:58.24,0:18:02.48,Default,,0,0,0,,ni Mme Ueno, qui a pris le mouchoir\Nde M. Camel de la main droite,
+Dialogue: 0,0:18:02.64,0:18:06.76,Default,,0,0,0,,mais M. Kandachi,\Nqui a voulu allumer son briquet
+Dialogue: 0,0:18:07.12,0:18:08.28,Default,,0,0,0,,de la main gauche.
+Dialogue: 0,0:18:12.96,0:18:17.64,Default,,0,0,0,,Je vois, un gaucher dessine la spirale\Ndans le sens inverse des aiguilles.
+Dialogue: 0,0:18:18.80,0:18:21.72,Default,,0,0,0,,Attendez. C'est vrai,\Nje suis gaucher mais, moi,
+Dialogue: 0,0:18:21.88,0:18:24.28,Default,,0,0,0,,je démarre\Npar le centre de la spirale.
+Dialogue: 0,0:18:24.44,0:18:26.76,Default,,0,0,0,,Ce n'est donc pas moi qui l'ai...
+Dialogue: 0,0:18:26.92,0:18:27.92,Default,,0,0,0,,Si.
+Dialogue: 0,0:18:28.48,0:18:33.20,Default,,0,0,0,,Le trait des deux spirales s'amenuise\Nvers le centre, preuve que vous aussi,
+Dialogue: 0,0:18:33.36,0:18:35.24,Default,,0,0,0,,vous êtes parti de l'extérieur.
+Dialogue: 0,0:18:35.80,0:18:37.24,Default,,0,0,0,,En plus,\Nvous avez supposé
+Dialogue: 0,0:18:37.88,0:18:39.96,Default,,0,0,0,,que la victime\Ns'était trompé d'heure
+Dialogue: 0,0:18:40.12,0:18:44.52,Default,,0,0,0,,à force de voir tous les chiffres\Ndu test qu'elle corrigeait.
+Dialogue: 0,0:18:45.16,0:18:48.00,Default,,0,0,0,,Pourtant, une instit\Nenseigne d'autres matières.
+Dialogue: 0,0:18:48.16,0:18:49.52,Default,,0,0,0,,Comment avez-vous su
+Dialogue: 0,0:18:50.04,0:18:53.00,Default,,0,0,0,,qu'elle corrigeait\Neffectivement du calcul ?
+Dialogue: 0,0:18:53.56,0:18:55.88,Default,,0,0,0,,Trouvez une autre excuse
+Dialogue: 0,0:18:56.28,0:19:00.12,Default,,0,0,0,,que "je l'ai vu\Nsur la scène de crime."
+Dialogue: 0,0:19:05.88,0:19:07.40,Default,,0,0,0,,Elle a rigolé.
+Dialogue: 0,0:19:07.88,0:19:10.36,Default,,0,0,0,,Quand j'ai crié\Nparce qu'elle avait mal corrigé,
+Dialogue: 0,0:19:10.52,0:19:14.00,Default,,0,0,0,,elle m'a dit qu'elle avait gardé\Nses habitudes d'Amérique.
+Dialogue: 0,0:19:14.48,0:19:15.68,Default,,0,0,0,,D'où votre violence...
+Dialogue: 0,0:19:15.84,0:19:20.60,Default,,0,0,0,,J'ignorais que les Américains\Nne corrigeaient pas comme nous !
+Dialogue: 0,0:19:21.04,0:19:25.20,Default,,0,0,0,,Certes, Natsuko a eu tort\Nde ne pas procéder à la japonaise,
+Dialogue: 0,0:19:25.36,0:19:28.12,Default,,0,0,0,,mais en regardant mieux,\Nvous auriez compris.
+Dialogue: 0,0:19:28.72,0:19:30.76,Default,,0,0,0,,J'étais trop énervé pour ça.
+Dialogue: 0,0:19:31.12,0:19:33.56,Default,,0,0,0,,Alors le vol de votre voiture...
+Dialogue: 0,0:19:33.72,0:19:35.08,Default,,0,0,0,,C'est bidon.
+Dialogue: 0,0:19:35.24,0:19:40.00,Default,,0,0,0,,Je l'ai confiée à un ami, de peur\Nqu'on trouve ses cheveux dedans.
+Dialogue: 0,0:19:40.24,0:19:41.68,Default,,0,0,0,,Excusez-moi !
+Dialogue: 0,0:19:42.20,0:19:44.04,Default,,0,0,0,,L'hôpital vient d'appeler !
+Dialogue: 0,0:19:44.20,0:19:47.92,Default,,0,0,0,,L'état de Mlle Shibuya s'est aggravé !\NLe pire est à craindre !
+Dialogue: 0,0:19:50.44,0:19:51.40,Default,,0,0,0,,{\i1}Natsuko !{\i0}
+Dialogue: 0,0:20:08.40,0:20:11.08,Default,,0,0,0,,Qu'est-ce que tu viens\Nchercher de plus ?
+Dialogue: 0,0:20:12.36,0:20:15.32,Default,,0,0,0,,C'est tout de même ma cliente.
+Dialogue: 0,0:20:17.12,0:20:17.60,Default,,0,0,0,,En plus,
+Dialogue: 0,0:20:20.20,0:20:23.44,Default,,0,0,0,,vous m'avez l'air de ne pas\Nsavoir tenir votre langue.
+Dialogue: 0,0:20:25.80,0:20:27.24,Default,,0,0,0,,Pitié, Natsuko...
+Dialogue: 0,0:20:29.08,0:20:29.88,Default,,0,0,0,,Ne meurs pas !
+Dialogue: 0,0:20:30.64,0:20:31.24,Default,,0,0,0,,Natsuko !
+Dialogue: 0,0:20:33.76,0:20:36.56,Default,,0,0,0,,Jodie !\NTu es venue tout de suite ?
+Dialogue: 0,0:20:36.72,0:20:37.48,Default,,0,0,0,,Euh, oui...
+Dialogue: 0,0:20:37.96,0:20:41.56,Default,,0,0,0,,Comment tu as su\Nque j'avais repris connaissance ?
+Dialogue: 0,0:20:42.48,0:20:46.52,Default,,0,0,0,,Comme ce qui est arrivé\Nest en partie de ma faute,
+Dialogue: 0,0:20:47.00,0:20:49.92,Default,,0,0,0,,je les ai priés de ne pas encore\Navertir l'école.
+Dialogue: 0,0:20:50.08,0:20:51.40,Default,,0,0,0,,{\i1}On est mal !{\i0}
+Dialogue: 0,0:20:51.88,0:20:52.72,Default,,0,0,0,,Mlle Jodie !
+Dialogue: 0,0:20:53.32,0:20:54.36,Default,,0,0,0,,Où est M. Camel ?
+Dialogue: 0,0:20:55.56,0:20:56.84,Default,,0,0,0,,Sur le parking, non ?
+Dialogue: 0,0:20:59.72,0:21:02.76,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:03.68,0:21:06.68,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:18.72,0:22:19.76,Default,,0,0,0,,HÔPITAL DE HAIDO
+Dialogue: 0,0:22:19.92,0:22:21.36,Default,,0,0,0,,Rikumichi Kusuda ?
+Dialogue: 0,0:22:21.92,0:22:24.04,Default,,0,0,0,,Jamais entendu parler.
+Dialogue: 0,0:22:24.28,0:22:26.32,Default,,0,0,0,,C'est un patient de cet hôpital
+Dialogue: 0,0:22:26.64,0:22:30.08,Default,,0,0,0,,qui a disparu après avoir abandonné\Nsa voiture près d'ici.
+Dialogue: 0,0:22:31.04,0:22:33.40,Default,,0,0,0,,Il y avait un flingue,\Ndans l'histoire.
+Dialogue: 0,0:22:33.72,0:22:35.68,Default,,0,0,0,,Ça ne vous dit rien ?
+Dialogue: 0,0:22:36.24,0:22:38.36,Default,,0,0,0,,- Non.\N- Je comprends...
+Dialogue: 0,0:22:39.08,0:22:43.84,Default,,0,0,0,,L'information n'est pas descendue\Njusqu'à un sous-fifre de votre genre.
+Dialogue: 0,0:22:44.52,0:22:48.36,Default,,0,0,0,,Qu'est-ce que tu racontes ?\NOn partage toutes nos infor...
+Dialogue: 0,0:22:48.52,0:22:49.52,Default,,0,0,0,,Camel !
+Dialogue: 0,0:22:49.92,0:22:51.28,Default,,0,0,0,,Qu'est-ce que tu fous ?
+Dialogue: 0,0:22:51.72,0:22:53.28,Default,,0,0,0,,Reste avec moi.
+Dialogue: 0,0:22:59.56,0:23:02.44,Default,,0,0,0,,Tu ne lui as rien dit\Nsur Kusuda, j'espère.
+Dialogue: 0,0:23:02.60,0:23:03.80,Default,,0,0,0,,Bien sûr que non.
+Dialogue: 0,0:23:04.28,0:23:07.68,Default,,0,0,0,,Même sous la torture,\Njamais je ne lui dirai que Kusuda
+Dialogue: 0,0:23:07.84,0:23:10.48,Default,,0,0,0,,s'est suicidé avec un flingue\Ndans son auto.
+Dialogue: 0,0:23:11.24,0:23:13.64,Default,,0,0,0,,Je vois. Merci.
+Dialogue: 0,0:23:13.96,0:23:17.68,Default,,0,0,0,,Enfin, comme c'est arrivé\Navant qu'on m'envoie au Japon,
+Dialogue: 0,0:23:17.84,0:23:20.64,Default,,0,0,0,,je l'ai appris par Akai.
+Dialogue: 0,0:23:22.04,0:23:22.92,Default,,0,0,0,,Jodie ?
+Dialogue: 0,0:23:24.44,0:23:25.56,Default,,0,0,0,,Où êtes-vous ?
+Dialogue: 0,0:23:26.84,0:23:27.84,Default,,0,0,0,,Jodie !

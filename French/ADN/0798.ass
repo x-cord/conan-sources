@@ -1,0 +1,395 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.61,Default,,0,0,0,,BEIKA\N"SEMAINE VERTE"
+Dialogue: 0,0:00:08.20,0:00:09.36,Default,,0,0,0,,{\i1}C'est pas vrai...{\i0}
+Dialogue: 0,0:00:09.73,0:00:10.93,Default,,0,0,0,,{\i1}Il est déjà 8 h ?{\i0}
+Dialogue: 0,0:00:17.57,0:00:18.24,Default,,0,0,0,,{\i1}Oh non !{\i0}
+Dialogue: 0,0:00:20.53,0:00:21.40,Default,,0,0,0,,{\i1}Il l'a pas vu !{\i0}
+Dialogue: 0,0:00:22.68,0:00:23.41,Default,,0,0,0,,{\i1}Vite !{\i0}
+Dialogue: 0,0:00:34.48,0:00:36.20,Default,,0,0,0,,Que s'est-il passé ?
+Dialogue: 0,0:00:36.53,0:00:38.21,Default,,0,0,0,,Monsieur !\NVous n'avez rien ?
+Dialogue: 0,0:00:39.48,0:00:41.00,Default,,0,0,0,,Vous êtes sain et sauf !
+Dialogue: 0,0:00:42.36,0:00:47.29,Default,,0,0,0,,Vous avez failli être écrasé\Npar cet homme tombé du toit.
+Dialogue: 0,0:00:51.72,0:00:54.28,Default,,0,0,0,,Lui non plus, il n'a rien de grave.
+Dialogue: 0,0:00:56.49,0:00:59.36,ST_HAUT,,0,0,0,,SADAO FUKUROKÔJI (43 ANS)\NEMPLOYÉ
+Dialogue: 0,0:01:02.17,0:01:03.96,Default,,0,0,0,,Sadao Fukurokôji...
+Dialogue: 0,0:01:04.36,0:01:06.48,Default,,0,0,0,,Pourquoi est-il tombé, hein ?
+Dialogue: 0,0:01:07.88,0:01:10.09,Default,,0,0,0,,Je parie qu'il a tenté\Nde se suicider.
+Dialogue: 0,0:01:10.93,0:01:11.84,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:01:12.17,0:01:15.08,Default,,0,0,0,,Au bar, il disait\Ntoujours la même chose...
+Dialogue: 0,0:01:15.53,0:01:18.09,Default,,0,0,0,,{\i1}Quoi que je fasse,{\i0}\N{\i1}ça tourne mal...{\i0}
+Dialogue: 0,0:01:18.40,0:01:20.49,Default,,0,0,0,,{\i1}J'ai hâte de mourir...{\i0}
+Dialogue: 0,0:01:21.09,0:01:22.33,Default,,0,0,0,,Tous les soirs.
+Dialogue: 0,0:01:23.00,0:01:25.44,ST_HAUT,,0,0,0,,Il allait me tuer en se suicidant ?
+Dialogue: 0,0:01:25.72,0:01:29.00,ST_HAUT,,0,0,0,,Décidément, je n'ai jamais eu de veine.
+Dialogue: 0,0:01:31.40,0:01:33.89,Default,,0,0,0,,Il y a des gens\Nqui sont nés comme ça...
+Dialogue: 0,0:01:37.08,0:01:38.85,Default,,0,0,0,,{\i1}Amour et enquêtes géniales,{\i0}
+Dialogue: 0,0:01:39.16,0:01:40.77,Default,,0,0,0,,{\i1}les fondamentaux demeurent !{\i0}
+Dialogue: 0,0:01:41.20,0:01:43.04,Default,,0,0,0,,{\i1}Lors d'un rendez-vous amoureux,{\i0}
+Dialogue: 0,0:01:43.20,0:01:45.16,Default,,0,0,0,,{\i1}un petit décalage change tout.{\i0}
+Dialogue: 0,0:01:45.32,0:01:48.05,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:48.48,0:01:50.77,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:10.80,0:02:14.45,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:19.24,0:02:22.76,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:02:23.52,0:02:26.76,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:32.72,0:02:35.25,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:38.32,0:02:42.24,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Nazo"
+Dialogue: 0,0:02:48.32,0:02:50.37,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:52.24,0:02:54.48,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:04.92,0:03:07.69,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:03:08.72,0:03:11.00,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:12.20,0:03:14.48,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:21.40,0:03:23.24,Default,,0,0,0,,{\i1}"Cible mouvante".{\i0}
+Dialogue: 0,0:03:30.80,0:03:32.44,Default,,0,0,0,,Une tentative de suicide,
+Dialogue: 0,0:03:32.88,0:03:35.44,Default,,0,0,0,,c'est pas l'affaire\Ndes Detective Boys...
+Dialogue: 0,0:03:35.68,0:03:39.40,Default,,0,0,0,,On veut quand même aller\Njeter un coup d'œil sur les lieux.
+Dialogue: 0,0:03:39.56,0:03:42.08,Default,,0,0,0,,Vu que c'est arrivé\Nsur notre territoire...
+Dialogue: 0,0:03:42.32,0:03:43.52,Default,,0,0,0,,Bah oui !
+Dialogue: 0,0:03:45.76,0:03:47.00,Default,,0,0,0,,C'est là, au coin.
+Dialogue: 0,0:03:50.60,0:03:52.32,Default,,0,0,0,,La 1re division d'enquêtes ?
+Dialogue: 0,0:03:53.52,0:03:55.24,Default,,0,0,0,,Ah, c'est cet enfant...
+Dialogue: 0,0:03:55.44,0:03:58.44,Default,,0,0,0,,Un gosse à lunettes,\Nça ne pouvait être que Conan.
+Dialogue: 0,0:03:58.76,0:04:02.32,Default,,0,0,0,,Tu tombes à pic ! J'ai des questions\Nau sujet d'hier soir.
+Dialogue: 0,0:04:02.72,0:04:04.60,Default,,0,0,0,,Il ne s'est pas jeté ?
+Dialogue: 0,0:04:05.08,0:04:09.52,Default,,0,0,0,,Non. Comme l'entrée est fermée\Ndurant ces jours fériés,
+Dialogue: 0,0:04:09.76,0:04:13.72,Default,,0,0,0,,on ne peut monter sur le toit\Nque par l'escalier de secours.
+Dialogue: 0,0:04:14.04,0:04:16.16,Default,,0,0,0,,- Or...\N- M. Fukurokôji était ivre,
+Dialogue: 0,0:04:16.56,0:04:18.72,Default,,0,0,0,,il tenait à peine debout.
+Dialogue: 0,0:04:19.12,0:04:21.16,Default,,0,0,0,,Alors, monter seul par l'escalier...
+Dialogue: 0,0:04:21.48,0:04:22.84,Default,,0,0,0,,... lui était impossible.
+Dialogue: 0,0:04:23.12,0:04:25.32,Default,,0,0,0,,Compte tenu de son état d'ébriété,
+Dialogue: 0,0:04:25.48,0:04:28.16,Default,,0,0,0,,quelqu'un l'a forcément porté\Njusqu'au toit,
+Dialogue: 0,0:04:28.52,0:04:30.28,Default,,0,0,0,,et l'a jeté dans le vide.
+Dialogue: 0,0:04:30.64,0:04:31.20,Default,,0,0,0,,Donc...
+Dialogue: 0,0:04:31.92,0:04:35.52,Default,,0,0,0,,C'est une tentative de meurtre,\Net non de suicide.
+Dialogue: 0,0:04:36.16,0:04:39.16,Default,,0,0,0,,Le coupable a dû se sauver
+Dialogue: 0,0:04:39.32,0:04:41.72,Default,,0,0,0,,en se glissant parmi les curieux.
+Dialogue: 0,0:04:41.88,0:04:44.32,Default,,0,0,0,,Tu n'as vu personne de louche ?
+Dialogue: 0,0:04:47.24,0:04:48.28,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:04:48.44,0:04:50.20,Default,,0,0,0,,Je peux aller sur le toit ?
+Dialogue: 0,0:04:50.84,0:04:52.88,Default,,0,0,0,,Quelque chose\Nme reviendra peut-être.
+Dialogue: 0,0:04:55.80,0:04:58.68,Default,,0,0,0,,Il est tombé d'ici.\NOn est juste à la verticale.
+Dialogue: 0,0:04:59.12,0:05:00.92,Default,,0,0,0,,Et il y a des traces\Nde frottement.
+Dialogue: 0,0:05:01.24,0:05:03.48,Default,,0,0,0,,Comment ça, quelles traces ?
+Dialogue: 0,0:05:03.92,0:05:07.72,Default,,0,0,0,,Regarde. On croirait qu'on a essuyé\Nla saleté de la rambarde.
+Dialogue: 0,0:05:08.16,0:05:12.12,Default,,0,0,0,,En basculant dans le vide,\NM. Fukurokôji y a frotté ses habits ?
+Dialogue: 0,0:05:12.28,0:05:17.24,Default,,0,0,0,,Mais pourquoi le criminel s'est-il\Nembêté à porter sa victime jusqu'ici ?
+Dialogue: 0,0:05:17.60,0:05:20.00,Default,,0,0,0,,Sans doute pour faire croire\Nà un suicide.
+Dialogue: 0,0:05:20.44,0:05:22.80,Default,,0,0,0,,Il y avait des moyens plus simples...
+Dialogue: 0,0:05:23.92,0:05:26.00,Default,,0,0,0,,Il y a d'autres marques, ici.
+Dialogue: 0,0:05:28.40,0:05:31.08,Default,,0,0,0,,Autrement dit,\Nle criminel a d'abord tenté
+Dialogue: 0,0:05:31.24,0:05:35.00,Default,,0,0,0,,de jeter sa victime d'ici,\Nmais devant la résistance de celle-ci,
+Dialogue: 0,0:05:35.44,0:05:38.52,Default,,0,0,0,,il a finalement décidé\Nde la balancer de là-bas.
+Dialogue: 0,0:05:39.56,0:05:42.20,Default,,0,0,0,,M. Fukurokôji\Nétait-il en état de résister ?
+Dialogue: 0,0:05:44.36,0:05:45.28,Default,,0,0,0,,Commissaire !
+Dialogue: 0,0:05:47.76,0:05:51.96,Default,,0,0,0,,Sadao Fukurokôji était trop soûl,\Nil ne se souvient de rien.
+Dialogue: 0,0:05:52.56,0:05:56.40,Default,,0,0,0,,En plus, il ne voit pas\Nqui aurait bien pu en vouloir
+Dialogue: 0,0:05:56.56,0:05:59.08,Default,,0,0,0,,à un "perdant\Nde la société de compétition".
+Dialogue: 0,0:06:00.72,0:06:03.20,Default,,0,0,0,,Il a pourtant bel et bien\Nfailli être tué.
+Dialogue: 0,0:06:03.64,0:06:07.48,Default,,0,0,0,,En tout cas, nous allons retracer\Nson itinéraire d'hier soir.
+Dialogue: 0,0:06:08.52,0:06:11.08,Default,,0,0,0,,Trouvez où le coupable\Nl'a rencontré !
+Dialogue: 0,0:06:11.56,0:06:12.32,Default,,0,0,0,,Compris !
+Dialogue: 0,0:06:14.44,0:06:16.48,Default,,0,0,0,,Tu as l'air perplexe.
+Dialogue: 0,0:06:17.08,0:06:19.08,Default,,0,0,0,,Oui, quelque chose me...
+Dialogue: 0,0:06:20.40,0:06:21.12,Default,,0,0,0,,Ce type...
+Dialogue: 0,0:06:24.20,0:06:25.40,Default,,0,0,0,,C'est là !
+Dialogue: 0,0:06:26.68,0:06:28.52,Default,,0,0,0,,Juste à cet endroit.
+Dialogue: 0,0:06:28.72,0:06:31.80,Default,,0,0,0,,J'ai failli\Nme faire écrabouiller ici.
+Dialogue: 0,0:06:32.68,0:06:34.36,ST_HAUT,,0,0,0,,C'est bon, j'ai compris...
+Dialogue: 0,0:06:34.72,0:06:36.56,ST_HAUT,,0,0,0,,Je sais que t'as jamais de bol.
+Dialogue: 0,0:06:37.12,0:06:40.08,Default,,0,0,0,,Vous parlez aussi à votre ami\Nde votre malchance ?
+Dialogue: 0,0:06:41.08,0:06:42.20,Default,,0,0,0,,Le gosse d'hier !
+Dialogue: 0,0:06:42.60,0:06:46.60,Default,,0,0,0,,Voici Daisuke Yukigaya,\Nl'ami dont je suis le plus fier.
+Dialogue: 0,0:06:47.56,0:06:49.56,Default,,0,0,0,,N'ennuie pas les gamins avec ça.
+Dialogue: 0,0:06:50.00,0:06:51.56,Default,,0,0,0,,Moi, je vous laisse.
+Dialogue: 0,0:06:52.52,0:06:53.32,Default,,0,0,0,,Ciao !
+Dialogue: 0,0:06:55.20,0:06:55.88,Default,,0,0,0,,Yukigawa
+Dialogue: 0,0:06:56.28,0:06:59.12,Default,,0,0,0,,est passé me voir\Nparce qu'il n'était pas loin.
+Dialogue: 0,0:06:59.52,0:07:02.28,Default,,0,0,0,,C'est un cadre performant,\Nun grand sportif
+Dialogue: 0,0:07:02.44,0:07:04.44,Default,,0,0,0,,et le fils d'un homme richissime.
+Dialogue: 0,0:07:04.60,0:07:06.52,Default,,0,0,0,,Il déborde de confiance en lui.
+Dialogue: 0,0:07:06.92,0:07:10.00,Default,,0,0,0,,On a autant d'années de boîte\Nmais tout nous oppose.
+Dialogue: 0,0:07:10.64,0:07:15.16,Default,,0,0,0,,Lui, il n'a pas subi le moindre revers\Njusqu'à maintenant.
+Dialogue: 0,0:07:15.36,0:07:18.32,Default,,0,0,0,,Il y en a, comme ça,\Nqui sont parfaits en tout...
+Dialogue: 0,0:07:18.80,0:07:21.80,Default,,0,0,0,,Ça t'inspire quoi,\Nun homme qui n'a eu aucun échec ?
+Dialogue: 0,0:07:21.96,0:07:25.32,Default,,0,0,0,,Pourquoi pas,\Ns'il arrive à vivre ainsi toute sa vie.
+Dialogue: 0,0:07:25.80,0:07:28.80,Default,,0,0,0,,Alors que moi,\Nje n'ai connu que la scoumoune.
+Dialogue: 0,0:07:28.96,0:07:32.32,Default,,0,0,0,,Hier soir,\Nvous passiez ici par hasard, non ?
+Dialogue: 0,0:07:32.84,0:07:36.84,Default,,0,0,0,,Pas par hasard.\NJ'avais rendez-vous.
+Dialogue: 0,0:07:37.00,0:07:39.84,Default,,0,0,0,,Une inconnue\Nm'avait envoyé une lettre d'amour !
+Dialogue: 0,0:07:41.56,0:07:44.28,Default,,0,0,0,,Mais finalement,\Nelle ne s'est pas montrée...
+Dialogue: 0,0:07:44.52,0:07:47.40,Default,,0,0,0,,Sans doute à cause\Nde toute cette pagaille...
+Dialogue: 0,0:07:47.76,0:07:49.76,Default,,0,0,0,,Un rendez-vous avec une inconnue ?
+Dialogue: 0,0:07:50.36,0:07:52.84,Default,,0,0,0,,À 20 h, devant cet immeuble.
+Dialogue: 0,0:07:53.52,0:07:56.40,Default,,0,0,0,,Au début,\Nje l'attendais devant l'entrée,
+Dialogue: 0,0:07:56.56,0:07:59.04,Default,,0,0,0,,mais ma montre s'était arrêtée...
+Dialogue: 0,0:08:01.72,0:08:03.04,Default,,0,0,0,,{\i1}La pile est morte !{\i0}
+Dialogue: 0,0:08:03.64,0:08:05.56,Default,,0,0,0,,Quelle heure est-il ?
+Dialogue: 0,0:08:05.84,0:08:07.96,Default,,0,0,0,,{\i1}Là-bas, y a une horloge,{\i0}\N{\i1}je crois !{\i0}
+Dialogue: 0,0:08:08.84,0:08:10.12,Default,,0,0,0,,{\i1}L'horloge, vite !{\i0}
+Dialogue: 0,0:08:11.12,0:08:13.84,Default,,0,0,0,,Quand je suis arrivé ici,\Ndevant l'horloge,
+Dialogue: 0,0:08:15.04,0:08:16.76,Default,,0,0,0,,il a chuté droit sur moi.
+Dialogue: 0,0:08:17.24,0:08:19.40,Default,,0,0,0,,J'ai vraiment pas de bol.
+Dialogue: 0,0:08:26.88,0:08:29.04,Default,,0,0,0,,Au début, il était là.\NC'est-à-dire
+Dialogue: 0,0:08:30.16,0:08:32.00,Default,,0,0,0,,juste en bas des autres marques !
+Dialogue: 0,0:08:32.72,0:08:34.64,Default,,0,0,0,,Qu'est-ce qu'il y a, Conan ?
+Dialogue: 0,0:08:35.28,0:08:37.80,Default,,0,0,0,,Bien que,\Nd'après l'inspecteur Takagi,
+Dialogue: 0,0:08:37.96,0:08:40.04,Default,,0,0,0,,c'est à cause de sa résistance
+Dialogue: 0,0:08:40.20,0:08:43.92,Default,,0,0,0,,que M. Fukurokôji a été jeté\Nailleurs qu'à l'endroit prévu...
+Dialogue: 0,0:08:45.20,0:08:46.24,Default,,0,0,0,,Y a une autre thèse.
+Dialogue: 0,0:08:47.20,0:08:48.20,Default,,0,0,0,,Laquelle ?
+Dialogue: 0,0:08:49.40,0:08:52.76,Default,,0,0,0,,C'est peut-être parce que la cible\Ns'était déplacée.
+Dialogue: 0,0:08:56.24,0:08:59.16,Default,,0,0,0,,Ciblé autant que M. Fukurokôji\Npar le coupable,
+Dialogue: 0,0:08:59.32,0:09:01.16,Default,,0,0,0,,M. Komatsu devait passer, lui,
+Dialogue: 0,0:09:01.92,0:09:03.84,Default,,0,0,0,,pour une victime collatérale.
+Dialogue: 0,0:09:05.36,0:09:08.44,Default,,0,0,0,,Le coupable voulait faire\Nd'une pierre deux coups ?
+Dialogue: 0,0:09:08.84,0:09:10.84,Default,,0,0,0,,Ça expliquerait pourquoi
+Dialogue: 0,0:09:11.32,0:09:14.32,Default,,0,0,0,,il a attiré ici M. Komatsu\Nen lui écrivant
+Dialogue: 0,0:09:14.80,0:09:18.80,Default,,0,0,0,,et lui a jeté dessus M. Fukurokôji,\Nqu'il avait transporté jusqu'au toit.
+Dialogue: 0,0:09:19.40,0:09:22.52,Default,,0,0,0,,C'est donc quelqu'un\Nqui en veut à la fois
+Dialogue: 0,0:09:22.68,0:09:24.80,Default,,0,0,0,,à M. Fukurokôji et à M. Komatsu.
+Dialogue: 0,0:09:26.56,0:09:28.32,Default,,0,0,0,,Quelqu'un vous en veut ?
+Dialogue: 0,0:09:28.56,0:09:30.12,Default,,0,0,0,,Hein ? À moi ?
+Dialogue: 0,0:09:32.36,0:09:34.76,Default,,0,0,0,,Non, je ne vois vraiment personne...
+Dialogue: 0,0:09:35.24,0:09:38.84,Default,,0,0,0,,Alors pourriez-vous nous montrer\Nla déclaration d'amour ?
+Dialogue: 0,0:09:39.92,0:09:44.76,Default,,0,0,0,,Nous qui n'en avons jamais reçu,\Non meurt d'envie d'en voir une...
+Dialogue: 0,0:09:48.92,0:09:52.00,Default,,0,0,0,,Je croyais pourtant\Nqu'il y aurait des indices...
+Dialogue: 0,0:09:52.28,0:09:53.24,Default,,0,0,0,,Franchement...
+Dialogue: 0,0:09:53.64,0:09:58.64,Default,,0,0,0,,"J'ai toujours été amoureuse de vous,\Nqui ne flanchez pas face à l'infortune.
+Dialogue: 0,0:09:58.80,0:10:00.60,Default,,0,0,0,,"Laissez-moi me lier à vous.
+Dialogue: 0,0:10:00.96,0:10:05.76,Default,,0,0,0,,"Je vous attendrai le 13 à 20 h\Ndevant l'immeuble numéro 1 de Beika.
+Dialogue: 0,0:10:05.96,0:10:10.04,Default,,0,0,0,,"Votre admiratrice secrète,\Nqui n'a d'yeux que vous vous."
+Dialogue: 0,0:10:10.48,0:10:12.68,Default,,0,0,0,,Vous avez cru\Nune lettre non-signée
+Dialogue: 0,0:10:12.84,0:10:15.08,Default,,0,0,0,,et avez eu l'inconscience\Nd'y aller ?
+Dialogue: 0,0:10:15.32,0:10:16.20,Default,,0,0,0,,C'est bizarre !
+Dialogue: 0,0:10:16.64,0:10:20.88,Default,,0,0,0,,Attendez ! Moi, j'en aime une autre,\Nmême si ce n'est pas réciproque.
+Dialogue: 0,0:10:21.04,0:10:24.60,Default,,0,0,0,,Et j'étais venu refuser\Nles avances de cette inconnue !
+Dialogue: 0,0:10:25.84,0:10:28.00,Default,,0,0,0,,Moi, il y a un point\Nqui m'échappe...
+Dialogue: 0,0:10:28.40,0:10:30.44,Default,,0,0,0,,"P.-S. À notre rendez-vous,
+Dialogue: 0,0:10:30.60,0:10:33.72,Default,,0,0,0,,"venez sans faute\Navec cette lettre."
+Dialogue: 0,0:10:34.24,0:10:35.24,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:10:35.44,0:10:37.16,Default,,0,0,0,,Pour la reprendre.
+Dialogue: 0,0:10:37.32,0:10:38.48,Default,,0,0,0,,C'est une preuve.
+Dialogue: 0,0:10:38.72,0:10:41.04,Default,,0,0,0,,Il n'aurait sûrement pas pu\Nla récupérer
+Dialogue: 0,0:10:41.20,0:10:44.48,Default,,0,0,0,,dans le chaos qu'il y aurait eu\Nsi le plan avait réussi.
+Dialogue: 0,0:10:44.88,0:10:47.24,Default,,0,0,0,,Alors pourquoi a-t-il eu\Ncette exigence ?
+Dialogue: 0,0:10:50.12,0:10:52.40,Default,,0,0,0,,Je meurs de faim !\NAllons déjeuner !
+Dialogue: 0,0:10:53.16,0:10:54.04,Default,,0,0,0,,Je vote pour !
+Dialogue: 0,0:10:54.32,0:10:56.40,Default,,0,0,0,,Très bien, venez avec moi.
+Dialogue: 0,0:10:56.56,0:10:58.64,Default,,0,0,0,,Je vous offre le menu enfant.
+Dialogue: 0,0:10:59.08,0:11:01.20,Default,,0,0,0,,Il n'a rien d'un sale type...
+Dialogue: 0,0:11:01.48,0:11:04.32,Default,,0,0,0,,Et pourtant,\Nquelqu'un veut l'éliminer.
+Dialogue: 0,0:11:06.80,0:11:07.92,Default,,0,0,0,,C'est ce restaurant.
+Dialogue: 0,0:11:10.68,0:11:12.64,Default,,0,0,0,,Sakiko fait plaisir à voir...
+Dialogue: 0,0:11:12.80,0:11:15.00,Default,,0,0,0,,Elle est si gaie, si vivante !
+Dialogue: 0,0:11:15.28,0:11:17.08,Default,,0,0,0,,C'est elle que vous aimez...
+Dialogue: 0,0:11:17.24,0:11:19.00,Default,,0,0,0,,... sans que ce soit réciproque ?
+Dialogue: 0,0:11:21.08,0:11:22.28,Default,,0,0,0,,Comment vous le savez ?
+Dialogue: 0,0:11:28.28,0:11:30.80,Default,,0,0,0,,- C'était délicieux !\N- Je suis repu.
+Dialogue: 0,0:11:31.36,0:11:33.80,ST_HAUT,,0,0,0,,SAKIKO NAGAI (24 ANS),\NSERVEUSE
+Dialogue: 0,0:11:34.28,0:11:37.20,Default,,0,0,0,,Je mange ici tous les midis.
+Dialogue: 0,0:11:37.36,0:11:38.80,Default,,0,0,0,,C'est près du bureau.
+Dialogue: 0,0:11:40.04,0:11:41.84,Default,,0,0,0,,Vous travaillez dans le coin ?
+Dialogue: 0,0:11:42.16,0:11:44.16,Default,,0,0,0,,Mais M. Yukigaya, tout à l'heure...
+Dialogue: 0,0:11:44.68,0:11:46.40,Default,,0,0,0,,Qu'est-ce qu'il avait ?
+Dialogue: 0,0:11:46.76,0:11:50.00,Default,,0,0,0,,À propos, il ne vient plus,\Ndepuis quelque temps...
+Dialogue: 0,0:11:50.80,0:11:54.12,Default,,0,0,0,,Avant,\Nil déjeunait toujours ici, lui aussi.
+Dialogue: 0,0:11:58.48,0:12:00.08,Default,,0,0,0,,Je vais aux toilettes.
+Dialogue: 0,0:12:03.44,0:12:07.04,Default,,0,0,0,,Vous avez repensé à quelque chose,\NSakiko ?
+Dialogue: 0,0:12:08.28,0:12:09.72,Default,,0,0,0,,Ça s'est vu ?
+Dialogue: 0,0:12:11.84,0:12:15.28,Default,,0,0,0,,il y a une quinzaine de jours,\NM. Yukigaya m'a proposé
+Dialogue: 0,0:12:15.64,0:12:17.68,Default,,0,0,0,,un rendez-vous !
+Dialogue: 0,0:12:18.44,0:12:20.92,Default,,0,0,0,,{\i1}Tu viens au ciné avec moi,{\i0}\N{\i1}dimanche ?{\i0}
+Dialogue: 0,0:12:23.88,0:12:25.60,Default,,0,0,0,,Mais je n'ai pas accepté,
+Dialogue: 0,0:12:25.76,0:12:28.92,Default,,0,0,0,,et à partir du lendemain,\Nil n'est plus revenu.
+Dialogue: 0,0:12:29.44,0:12:31.96,Default,,0,0,0,,Juste parce que vous avez\Nrefusé son rencard ?
+Dialogue: 0,0:12:32.12,0:12:33.92,Default,,0,0,0,,Il devait être gêné...
+Dialogue: 0,0:12:34.28,0:12:38.20,Default,,0,0,0,,Mais pourquoi avoir dit non ?\NM. Yukigaya a tout pour plaire !
+Dialogue: 0,0:12:38.60,0:12:43.60,Default,,0,0,0,,Moi, les prétentieux\Nqui se vantent de tout avoir,
+Dialogue: 0,0:12:43.76,0:12:45.44,Default,,0,0,0,,ça me tape sur le système !
+Dialogue: 0,0:12:45.84,0:12:47.56,Default,,0,0,0,,Bienvenue au club.
+Dialogue: 0,0:12:48.56,0:12:51.32,Default,,0,0,0,,Koma, lui, est tout le contraire...
+Dialogue: 0,0:12:52.76,0:12:55.28,Default,,0,0,0,,Il croit en Dieu...
+Dialogue: 0,0:12:55.80,0:12:58.80,Default,,0,0,0,,Selon lui,\Nsa longue malchance fera place,
+Dialogue: 0,0:12:58.96,0:13:01.44,Default,,0,0,0,,un beau jour,\Nà un immense bonheur...
+Dialogue: 0,0:13:01.84,0:13:04.32,Default,,0,0,0,,Car Dieu ne peut pas\Nêtre injuste, dit-il.
+Dialogue: 0,0:13:04.52,0:13:08.24,Default,,0,0,0,,C'est admirable\Nde croire en ces choses-là !
+Dialogue: 0,0:13:10.84,0:13:13.36,Default,,0,0,0,,Pardon,\Nj'apporte les desserts et le café !
+Dialogue: 0,0:13:16.72,0:13:18.92,Default,,0,0,0,,Contrairement\Nà ce qu'a dit M. Komatsu,
+Dialogue: 0,0:13:19.08,0:13:22.04,Default,,0,0,0,,il a tapé dans l'œil\Nde Sakaki.
+Dialogue: 0,0:13:22.20,0:13:24.60,Default,,0,0,0,,Et tout le monde\Nautour d'eux le sait.
+Dialogue: 0,0:13:24.80,0:13:27.96,Default,,0,0,0,,Il est le seul\Nà ne pas l'avoir remarqué.
+Dialogue: 0,0:13:28.12,0:13:30.36,Default,,0,0,0,,Quel lourdaud, ce M. Komatsu...
+Dialogue: 0,0:13:31.64,0:13:33.08,Default,,0,0,0,,Je sais qui l'a fait.
+Dialogue: 0,0:13:33.96,0:13:35.72,Default,,0,0,0,,Le coupable, c'est Yukigaya.
+Dialogue: 0,0:13:37.04,0:13:39.24,Default,,0,0,0,,Il dit être passé chez M. Komatsu
+Dialogue: 0,0:13:39.40,0:13:42.28,Default,,0,0,0,,parce qu'il n'était pas loin...
+Dialogue: 0,0:13:42.92,0:13:46.40,Default,,0,0,0,,S'il n'était pas venu depuis longtemps,\Nje comprendrais...
+Dialogue: 0,0:13:46.76,0:13:51.16,Default,,0,0,0,,Mais lui aussi vient tous les jours\Ndans le quartier, pour travailler.
+Dialogue: 0,0:13:51.56,0:13:54.16,Default,,0,0,0,,Ça peut effectivement\Nsembler bizarre...
+Dialogue: 0,0:13:54.52,0:13:57.76,Default,,0,0,0,,Il s'est peut-être\Nrendu chez M. Komatsu
+Dialogue: 0,0:13:57.92,0:14:00.44,Default,,0,0,0,,afin de s'assurer que personne
+Dialogue: 0,0:14:00.60,0:14:03.08,Default,,0,0,0,,n'avait décelé sa culpabilité.
+Dialogue: 0,0:14:03.40,0:14:05.48,Default,,0,0,0,,Et puis, si c'est lui le coupable,
+Dialogue: 0,0:14:05.64,0:14:10.20,Default,,0,0,0,,je vois pourquoi il a demandé\Nà M. Komatsu d'apporter la lettre.
+Dialogue: 0,0:14:10.76,0:14:13.20,Default,,0,0,0,,Mais ce coupable\Na voulu tuer les deux,
+Dialogue: 0,0:14:13.36,0:14:15.68,Default,,0,0,0,,pas uniquement M. Komatsu !
+Dialogue: 0,0:14:16.16,0:14:19.20,Default,,0,0,0,,Voilà pourquoi la probabilité\Nn'est encore que de 50 %.
+Dialogue: 0,0:14:19.52,0:14:23.60,Default,,0,0,0,,Si l'enquête de la police\Nfait aussi émerger ce type,
+Dialogue: 0,0:14:24.40,0:14:26.36,Default,,0,0,0,,alors ce sera du 100 %.
+Dialogue: 0,0:14:32.76,0:14:36.08,Default,,0,0,0,,Bref, vos investigations\Nont fait apparaître un suspect...
+Dialogue: 0,0:14:37.88,0:14:42.52,Default,,0,0,0,,Hier soir,\NM. Fukurokôji buvait seul au bar.
+Dialogue: 0,0:14:42.68,0:14:46.24,Default,,0,0,0,,en disant qu'il voulait mourir,\Ncomme d'habitude.
+Dialogue: 0,0:14:46.40,0:14:48.60,Default,,0,0,0,,Un type s'est alors\Napproché de lui...
+Dialogue: 0,0:14:49.48,0:14:50.88,Default,,0,0,0,,{\i1}Je veux mourir...{\i0}
+Dialogue: 0,0:14:51.04,0:14:53.76,Default,,0,0,0,,{\i1}Moi aussi, je veux en finir.{\i0}
+Dialogue: 0,0:14:54.52,0:14:55.68,Default,,0,0,0,,{\i1}Vous aussi ?{\i0}
+Dialogue: 0,0:14:56.08,0:14:57.28,Default,,0,0,0,,{\i1}Il y a de quoi...{\i0}
+Dialogue: 0,0:14:59.76,0:15:01.24,Default,,0,0,0,,{\i1}Allons boire ailleurs.{\i0}
+Dialogue: 0,0:15:02.04,0:15:03.52,Default,,0,0,0,,{\i1}Ouais, j'ai encore soif !{\i0}
+Dialogue: 0,0:15:04.16,0:15:06.60,Default,,0,0,0,,... et ils ont tous les deux\Nquitté le bar.
+Dialogue: 0,0:15:06.76,0:15:10.80,Default,,0,0,0,,L'homme avait des vêtements usés\Net des cheveux ébouriffés.
+Dialogue: 0,0:15:11.28,0:15:13.28,Default,,0,0,0,,Ça ne correspond pas.
+Dialogue: 0,0:15:13.44,0:15:15.28,Default,,0,0,0,,Ce n'était pas un grand ?
+Dialogue: 0,0:15:15.88,0:15:17.16,Default,,0,0,0,,Si, du genre sportif !
+Dialogue: 0,0:15:17.96,0:15:20.60,Default,,0,0,0,,La stature, elle,\Nne se dissimule pas.
+Dialogue: 0,0:15:20.76,0:15:21.44,Default,,0,0,0,,Bah non !
+Dialogue: 0,0:15:21.84,0:15:22.92,Default,,0,0,0,,Plus de doute.
+Dialogue: 0,0:15:23.36,0:15:27.60,Default,,0,0,0,,Mais en fait, il n'a certainement\Nrien à voir avec cette affaire.
+Dialogue: 0,0:15:27.96,0:15:28.68,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:15:29.28,0:15:31.88,Default,,0,0,0,,Quand on a parlé de lui\Nà M. Fukurokôji...
+Dialogue: 0,0:15:32.20,0:15:36.00,Default,,0,0,0,,{\i1}Oui, ça me revient...{\i0}\N{\i1}J'ai sympathisé avec quelqu'un.{\i0}
+Dialogue: 0,0:15:36.76,0:15:39.44,Default,,0,0,0,,{\i1}Mais je ne l'avais jamais vu{\i0}\N{\i1}auparavant.{\i0}
+Dialogue: 0,0:15:39.80,0:15:40.84,Default,,0,0,0,,Un inconnu ?
+Dialogue: 0,0:15:41.20,0:15:44.60,Default,,0,0,0,,Oui. S'ils étaient en conflit,\Nje comprendrais, mais là...
+Dialogue: 0,0:15:45.72,0:15:46.64,Default,,0,0,0,,À plus, Conan.
+Dialogue: 0,0:15:49.20,0:15:51.64,Default,,0,0,0,,Finalement,\Non n'a pas atteint les 100 %.
+Dialogue: 0,0:15:51.84,0:15:54.28,Default,,0,0,0,,Il avait la même stature\Nque Yukigawa,
+Dialogue: 0,0:15:54.44,0:15:56.08,Default,,0,0,0,,mais pas de mobile...
+Dialogue: 0,0:15:56.24,0:15:59.04,Default,,0,0,0,,- S'il ne l'avait jamais vu...\N- Tu t'es gouré.
+Dialogue: 0,0:16:01.48,0:16:05.44,Default,,0,0,0,,Je sais ! Le coupable n'a pas voulu\Nfaire d'une pierre deux coups.
+Dialogue: 0,0:16:05.96,0:16:07.84,Default,,0,0,0,,C'est pourtant\Nce qui s'est passé.
+Dialogue: 0,0:16:08.88,0:16:11.52,Default,,0,0,0,,Ne me dis pas que tu penses\Nce que je pense !
+Dialogue: 0,0:16:12.08,0:16:13.52,Default,,0,0,0,,Qu'est-ce que c'est ?
+Dialogue: 0,0:16:14.32,0:16:15.96,Default,,0,0,0,,Ils en sont capables,
+Dialogue: 0,0:16:16.44,0:16:17.96,Default,,0,0,0,,les hommes comme lui.
+Dialogue: 0,0:16:19.80,0:16:21.80,Default,,0,0,0,,C'est pour me parler de quoi,
+Dialogue: 0,0:16:22.04,0:16:23.12,Default,,0,0,0,,au juste ?
+Dialogue: 0,0:16:23.44,0:16:25.96,Default,,0,0,0,,Je l'ai amené\Ncomme vous me l'avez demandé.
+Dialogue: 0,0:16:26.72,0:16:28.56,Default,,0,0,0,,Ça alors ! Sakiko !
+Dialogue: 0,0:16:29.00,0:16:33.08,Default,,0,0,0,,Vous n'avez jamais subi de revers,\NM. Yukigawa ?
+Dialogue: 0,0:16:33.48,0:16:34.60,Default,,0,0,0,,C'est inouï, ça.
+Dialogue: 0,0:16:37.20,0:16:38.72,Default,,0,0,0,,Inouï, je ne sais pas...
+Dialogue: 0,0:16:39.24,0:16:41.12,Default,,0,0,0,,Mais, étant donné vos qualités,
+Dialogue: 0,0:16:41.28,0:16:44.92,Default,,0,0,0,,quand Sakiko\Na décliné votre invitation,
+Dialogue: 0,0:16:45.44,0:16:47.72,Default,,0,0,0,,vous avez dû avoir un terrible choc.
+Dialogue: 0,0:16:48.20,0:16:50.68,Default,,0,0,0,,Hein ? C'est vrai, cette histoire ?
+Dialogue: 0,0:16:50.84,0:16:52.16,Default,,0,0,0,,Et alors ?
+Dialogue: 0,0:16:52.68,0:16:55.60,Default,,0,0,0,,C'est ce qui vous a fait\Néchafauder votre plan.
+Dialogue: 0,0:16:56.16,0:16:56.76,Default,,0,0,0,,M. Komatsu.
+Dialogue: 0,0:16:57.92,0:17:00.84,Default,,0,0,0,,C'est probablement M. Yukigaya
+Dialogue: 0,0:17:01.28,0:17:03.36,Default,,0,0,0,,qui a écrit la déclaration d'amour
+Dialogue: 0,0:17:03.92,0:17:06.36,Default,,0,0,0,,et qui a fait tomber d'ici\NM. Fukurokôji.
+Dialogue: 0,0:17:08.52,0:17:10.24,Default,,0,0,0,,Il vous a envoyé
+Dialogue: 0,0:17:10.40,0:17:12.08,Default,,0,0,0,,la lettre d'une femme inventée,
+Dialogue: 0,0:17:12.52,0:17:17.16,Default,,0,0,0,,puis, hier soir, a traîné hors d'un bar\NM. Fukurokôji, qui était ivre mort,
+Dialogue: 0,0:17:17.40,0:17:19.76,Default,,0,0,0,,l'a porté jusqu'ici via l'escalier
+Dialogue: 0,0:17:19.92,0:17:23.52,Default,,0,0,0,,et l'a jeté sur vous,\Nqui aviez mordu à l'hameçon.
+Dialogue: 0,0:17:25.44,0:17:30.00,Default,,0,0,0,,Mais finalement, il n'a pas pu\Nvous tuer comme il l'avait prévu.
+Dialogue: 0,0:17:30.76,0:17:33.28,Default,,0,0,0,,Jamais il n'aurait fait ça !
+Dialogue: 0,0:17:33.56,0:17:37.08,Default,,0,0,0,,Pour quelle raison\Naurait-il voulu me tuer ?
+Dialogue: 0,0:17:37.68,0:17:39.72,Default,,0,0,0,,C'est vrai, quel intérêt
+Dialogue: 0,0:17:40.16,0:17:42.04,Default,,0,0,0,,aurais-je eu à tuer Komatsu ?
+Dialogue: 0,0:17:42.48,0:17:45.20,Default,,0,0,0,,Vous vouliez traumatiser Sakiko.
+Dialogue: 0,0:17:47.04,0:17:48.32,Default,,0,0,0,,Dans le mille, hein ?
+Dialogue: 0,0:17:48.76,0:17:50.08,Default,,0,0,0,,Me traumatiser ?
+Dialogue: 0,0:17:50.60,0:17:52.76,Default,,0,0,0,,Si votre plan avait réussi,
+Dialogue: 0,0:17:52.92,0:17:56.60,Default,,0,0,0,,ni M. Fukurokôji ni M. Komatsu\Nn'auraient survécu.
+Dialogue: 0,0:18:00.52,0:18:04.64,Default,,0,0,0,,En lisant cette lettre,\NSakiko serait restée K.-O.
+Dialogue: 0,0:18:05.08,0:18:07.96,Default,,0,0,0,,M. Komatsu qui accepte\Nl'invitation d'une femme,
+Dialogue: 0,0:18:08.20,0:18:10.56,Default,,0,0,0,,et la malchance qui finit\Npar le tuer...
+Dialogue: 0,0:18:11.16,0:18:12.92,Default,,0,0,0,,{\i1}Excusez-moi ! Je le connais !{\i0}
+Dialogue: 0,0:18:13.72,0:18:16.20,Default,,0,0,0,,{\i1}C'est pas possible !{\i0}\N{\i1}Koma !{\i0}
+Dialogue: 0,0:18:16.76,0:18:18.68,Default,,0,0,0,,{\i1}Idiot !{\i0}\N{\i1}Pourquoi, pourquoi ?{\i0}
+Dialogue: 0,0:18:22.20,0:18:26.00,Default,,0,0,0,,Pouvoir ricaner en savourant\Nvotre vengeance sur Sakiko...
+Dialogue: 0,0:18:26.24,0:18:29.56,Default,,0,0,0,,Telle était votre vraie motivation,\NM. Yukigaya.
+Dialogue: 0,0:18:30.16,0:18:34.36,Default,,0,0,0,,Voilà pourquoi M. Komatsu\Ndevait absolument apporter la lettre.
+Dialogue: 0,0:18:34.56,0:18:39.08,Default,,0,0,0,,C'était l'instrument indispensable\Npour briser le cœur de Sakiko.
+Dialogue: 0,0:18:40.08,0:18:41.08,Default,,0,0,0,,Mon Dieu !
+Dialogue: 0,0:18:41.60,0:18:46.44,Default,,0,0,0,,Pourquoi Sakiko aurait-elle pleuré\Nen me voyant mort avec, sur moi,
+Dialogue: 0,0:18:46.72,0:18:48.48,Default,,0,0,0,,le billet doux d'une femme ?
+Dialogue: 0,0:18:48.88,0:18:50.64,Default,,0,0,0,,Ouvrez un peu les yeux.
+Dialogue: 0,0:18:59.88,0:19:04.16,Default,,0,0,0,,Vous avez fait ça juste parce que\Nj'avais refusé votre invitation ?
+Dialogue: 0,0:19:06.00,0:19:08.64,Default,,0,0,0,,C'était trop dur à supporter.
+Dialogue: 0,0:19:08.84,0:19:12.64,Default,,0,0,0,,Surtout pour un orgueilleux\Nqui n'a jamais connu le moindre revers.
+Dialogue: 0,0:19:13.08,0:19:15.20,Default,,0,0,0,,Mais, une seconde...
+Dialogue: 0,0:19:15.36,0:19:18.16,Default,,0,0,0,,Pourquoi voulait-il aussi tuer\NM. Fukurokôji ?
+Dialogue: 0,0:19:18.80,0:19:20.56,Default,,0,0,0,,Ça, tu ne peux pas l'expliquer.
+Dialogue: 0,0:19:20.88,0:19:22.88,Default,,0,0,0,,N'importe qui faisait l'affaire.
+Dialogue: 0,0:19:23.36,0:19:25.24,Default,,0,0,0,,Si vous aviez jeté un parpaing,
+Dialogue: 0,0:19:25.52,0:19:28.84,Default,,0,0,0,,les enquêteurs auraient flairé\Nle meurtre prémédité...
+Dialogue: 0,0:19:29.24,0:19:31.84,Default,,0,0,0,,Vous deviez donc\Nfaire tomber un être humain.
+Dialogue: 0,0:19:33.56,0:19:36.72,Default,,0,0,0,,Un homme vivant\Nutilisé comme arme du crime,
+Dialogue: 0,0:19:37.00,0:19:39.36,Default,,0,0,0,,même la police\Nne pouvait l'imaginer.
+Dialogue: 0,0:19:39.52,0:19:40.60,Default,,0,0,0,,Comme arme ?
+Dialogue: 0,0:19:40.76,0:19:45.60,Default,,0,0,0,,Oui. C'est seulement pour vous tuer\Nqu'il a fait chuter M. Fukurokôji,
+Dialogue: 0,0:19:46.12,0:19:47.52,Default,,0,0,0,,tel un projectile humain.
+Dialogue: 0,0:19:50.20,0:19:53.20,Default,,0,0,0,,Vous étiez tombé sur lui\Nen cherchant un individu
+Dialogue: 0,0:19:53.36,0:19:56.04,Default,,0,0,0,,qui conviendrait à l'exécution\Nde votre plan.
+Dialogue: 0,0:19:56.52,0:19:59.16,Default,,0,0,0,,Il répétait sans cesse\Nqu'il voulait mourir...
+Dialogue: 0,0:19:59.32,0:20:02.76,Default,,0,0,0,,Alors, si vous le jetiez du toit,\Ntout le monde penserait
+Dialogue: 0,0:20:02.92,0:20:05.28,Default,,0,0,0,,qu'il avait juste fini\Npar se suicider.
+Dialogue: 0,0:20:07.00,0:20:11.16,Default,,0,0,0,,Les déchets de son espèce\Nne méritent pas de vivre...
+Dialogue: 0,0:20:11.48,0:20:15.08,Default,,0,0,0,,Pire encore : ils souillent le monde\Npar leur simple présence.
+Dialogue: 0,0:20:15.76,0:20:17.76,Default,,0,0,0,,Yukigaya !\NQu'est-ce que tu...
+Dialogue: 0,0:20:18.48,0:20:20.88,Default,,0,0,0,,M. Yukigaya,\Nnous voudrions vous parler.
+Dialogue: 0,0:20:22.20,0:20:23.28,Default,,0,0,0,,C'est fini !
+Dialogue: 0,0:20:23.76,0:20:26.68,Default,,0,0,0,,Alors pourquoi nous as-tu fait\Nvenir à 4 h ?
+Dialogue: 0,0:20:26.88,0:20:29.04,Default,,0,0,0,,J'ai pas dit 3 h 30 ?
+Dialogue: 0,0:20:29.20,0:20:31.40,Default,,0,0,0,,Et qu'est-ce qui est fini, d'abord ?
+Dialogue: 0,0:20:31.68,0:20:35.24,Default,,0,0,0,,Apparemment, il a reconnu\Nêtre l'auteur
+Dialogue: 0,0:20:35.40,0:20:37.08,Default,,0,0,0,,de la double tentative de meurtre.
+Dialogue: 0,0:20:38.80,0:20:41.00,Default,,0,0,0,,Mais, sans preuves,\Nimpossible de me...
+Dialogue: 0,0:20:41.36,0:20:44.24,Default,,0,0,0,,De coincer le coupable,\Nje veux dire.
+Dialogue: 0,0:20:46.24,0:20:49.72,Default,,0,0,0,,Et comme ce coupable\Nest extrêmement brillant,
+Dialogue: 0,0:20:50.16,0:20:53.56,Default,,0,0,0,,il n'a pas pu laisser\Nle moindre indice compromettant.
+Dialogue: 0,0:20:53.72,0:20:55.64,Default,,0,0,0,,Ça, c'est ce que vous croyez...
+Dialogue: 0,0:20:56.88,0:21:00.08,Default,,0,0,0,,Nous les avions prélevés\Ndès le début,
+Dialogue: 0,0:21:00.24,0:21:03.40,Default,,0,0,0,,mais ils ne matchaient\Navec personne.
+Dialogue: 0,0:21:04.00,0:21:05.16,Default,,0,0,0,,Des cheveux ?
+Dialogue: 0,0:21:05.60,0:21:08.36,Default,,0,0,0,,Pris sur un bouton de veste\Nde M. Fukurokôji.
+Dialogue: 0,0:21:09.08,0:21:11.32,Default,,0,0,0,,Ils ont dû s'y déposer\Nà ce moment-là...
+Dialogue: 0,0:21:13.64,0:21:17.24,Default,,0,0,0,,Veuillez nous donner\Nl'un de vos cheveux, pour vérifier.
+Dialogue: 0,0:21:18.68,0:21:23.24,Default,,0,0,0,,J'ai laissé une trace\Nsur la veste de ce déchet humain ?
+Dialogue: 0,0:21:25.12,0:21:27.48,Default,,0,0,0,,Même si ce sont mes cheveux,
+Dialogue: 0,0:21:27.64,0:21:30.12,Default,,0,0,0,,je pourrai trouver mille faux-fuyants.
+Dialogue: 0,0:21:31.72,0:21:35.40,Default,,0,0,0,,Mais je ne m'abaisserai pas à cela...
+Dialogue: 0,0:21:35.64,0:21:40.16,Default,,0,0,0,,Une sortie sans classe\Nserait indigne de moi !
+Dialogue: 0,0:21:42.12,0:21:43.24,Default,,0,0,0,,Yukigawa...
+Dialogue: 0,0:21:43.76,0:21:45.64,Default,,0,0,0,,C'est un cas, ce type...
+Dialogue: 0,0:21:49.32,0:21:52.36,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:53.48,0:21:56.48,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:23:09.04,0:23:13.16,Default,,0,0,0,,Koma ! Alors comme ça,\Ntu as reçu une déclaration d'amour ?
+Dialogue: 0,0:23:14.16,0:23:17.36,Default,,0,0,0,,Comme on dit,\Nà quelque chose malheur est bon.
+Dialogue: 0,0:23:17.52,0:23:20.00,Default,,0,0,0,,Ou alors,\Nle bonheur peut tomber du ciel...
+Dialogue: 0,0:23:20.16,0:23:22.32,Default,,0,0,0,,Tire avantage de toute chose.
+Dialogue: 0,0:23:22.48,0:23:24.64,Default,,0,0,0,,La fortune vient en dormant.
+Dialogue: 0,0:23:24.80,0:23:27.12,Default,,0,0,0,,Celui qui croira sera sauvé.
+Dialogue: 0,0:23:27.56,0:23:30.16,Default,,0,0,0,,Apparemment, Dieu existe.
+Dialogue: 0,0:23:30.32,0:23:31.72,Default,,0,0,0,,Je t'aime !

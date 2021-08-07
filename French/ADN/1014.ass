@@ -1,0 +1,390 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:23.89,0:00:27.77,Default,,0,0,0,,Mince, il est 15 h 30 !\NOn va manquer le goûter !
+Dialogue: 0,0:00:28.11,0:00:29.40,Default,,0,0,0,,Sérieusement ?
+Dialogue: 0,0:00:30.57,0:00:31.28,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:00:31.94,0:00:33.74,Default,,0,0,0,,Si je me souviens bien,
+Dialogue: 0,0:00:33.90,0:00:37.03,Default,,0,0,0,,l'écrivain Shintarô Tawake\Nhabite dans le coin.
+Dialogue: 0,0:00:37.53,0:00:39.87,Default,,0,0,0,,Ah oui,\Nl'auteur de romans policiers.
+Dialogue: 0,0:00:40.12,0:00:43.87,Default,,0,0,0,,Tous ses bouquins se vendent\Ncomme des petits pains.
+Dialogue: 0,0:00:45.37,0:00:46.33,Default,,0,0,0,,M. l'inspecteur ?
+Dialogue: 0,0:00:48.88,0:00:50.46,Default,,0,0,0,,Encore toi !
+Dialogue: 0,0:00:50.63,0:00:52.59,Default,,0,0,0,,S'ils vous ont envoyés...
+Dialogue: 0,0:00:53.09,0:00:56.01,Default,,0,0,0,,Oui,\Nle romancier Shintarô Tawake
+Dialogue: 0,0:00:56.18,0:00:59.35,Default,,0,0,0,,a été retrouvé mort chez lui,\Ntué par balles.
+Dialogue: 0,0:00:59.93,0:01:01.85,Default,,0,0,0,,Quoi ? On lui a tiré dessus ?
+Dialogue: 0,0:01:05.52,0:01:06.94,ST_HAUT,,0,0,0,,{\i1}Le premier pas d'un long chemin,{\i0}
+Dialogue: 0,0:01:07.10,0:01:09.19,ST_HAUT,,0,0,0,,{\i1}1 000 mystères résolus,\Nen route vers un nouveau monde !{\i0}
+Dialogue: 0,0:01:09.73,0:01:11.73,Default,,0,0,0,,{\i1}Un écrivain à succès abattu,{\i0}
+Dialogue: 0,0:01:11.90,0:01:13.78,Default,,0,0,0,,{\i1}mystère dans une pièce sans soleil !{\i0}
+Dialogue: 0,0:01:13.99,0:01:17.07,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:17.24,0:01:19.49,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:20.41,0:01:22.62,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:33.88,0:01:35.47,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:01:36.34,0:01:38.22,ST_HAUT,,0,0,0,,Directeur artistique :\NJunichi Higashi
+Dialogue: 0,0:01:41.68,0:01:43.64,ST_HAUT_GAUCHE,,0,0,0,,Direction du son :\NY. Urakami, K. Urakami
+Dialogue: 0,0:01:45.64,0:01:47.60,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:01:52.36,0:01:54.36,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Zero kara hajimete"
+Dialogue: 0,0:01:56.57,0:01:58.78,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:00.16,0:02:02.28,ST_HAUT,,0,0,0,,Projet initial : Takenori Ichihara,\NNaota Machida
+Dialogue: 0,0:02:10.00,0:02:12.09,ST_HAUT,,0,0,0,,Producteurs : Isato Yonekura,\NKiyoaki Terashima
+Dialogue: 0,0:02:19.43,0:02:21.43,ST_HAUT,,0,0,0,,Chefs producteurs :\NKana Sasaki, Keiichi Ishiyama
+Dialogue: 0,0:02:27.98,0:02:30.69,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:02:41.95,0:02:44.37,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:47.12,0:02:49.54,Default,,0,0,0,,{\i1}Un romancier\Nqu'on appelait Roi-sorcier{\i0}
+Dialogue: 0,0:02:53.04,0:02:56.34,ST_HAUT,,0,0,0,,La victime est Shintarô Tawake,\N55 ans.
+Dialogue: 0,0:02:56.59,0:03:00.05,Default,,0,0,0,,Vous le savez peut-être,\Nmais c'est un auteur policier.
+Dialogue: 0,0:03:00.55,0:03:03.76,Default,,0,0,0,,Il a fait une hémorragie\Nà cause d'une blessure à l'abdomen
+Dialogue: 0,0:03:04.18,0:03:08.68,Default,,0,0,0,,causée certainement par un fusil\Ntrouvé au sol près du corps.
+Dialogue: 0,0:03:09.43,0:03:10.52,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:03:11.39,0:03:15.32,Default,,0,0,0,,On lui a donc tiré dessus\Nquand il était couché sur le sofa.
+Dialogue: 0,0:03:17.44,0:03:20.20,Default,,0,0,0,,La fenêtre du bureau\Ndonne sur le nord,
+Dialogue: 0,0:03:20.36,0:03:22.45,Default,,0,0,0,,il faut une lampe\Nmême en journée.
+Dialogue: 0,0:03:22.91,0:03:26.49,Default,,0,0,0,,Le soleil n'éclaire pas\Ndans cette direction.
+Dialogue: 0,0:03:26.74,0:03:31.58,Default,,0,0,0,,Il serait mort vers midi,\Nd'après l'estimation des enquêteurs.
+Dialogue: 0,0:03:33.75,0:03:37.05,Default,,0,0,0,,Dites,\Nil a bien été tué avec ce fusil ?
+Dialogue: 0,0:03:37.38,0:03:40.55,Default,,0,0,0,,Il était par terre,\Ndonc c'est fort probable.
+Dialogue: 0,0:03:41.93,0:03:43.18,Default,,0,0,0,,On peut supposer
+Dialogue: 0,0:03:43.80,0:03:46.14,Default,,0,0,0,,que le coupable est entré
+Dialogue: 0,0:03:46.72,0:03:50.27,Default,,0,0,0,,quand M. Tawake dormait\Net l'a tué à la chevrotine.
+Dialogue: 0,0:03:50.81,0:03:53.27,Default,,0,0,0,,Il a ensuite laissé le fusil\Net s'est enfui.
+Dialogue: 0,0:03:53.85,0:03:55.36,Default,,0,0,0,,Voilà mon hypothèse.
+Dialogue: 0,0:03:56.40,0:03:57.40,Default,,0,0,0,,Elle semble juste.
+Dialogue: 0,0:03:57.65,0:04:00.28,Default,,0,0,0,,La porte-fenêtre était entrouverte,
+Dialogue: 0,0:04:00.44,0:04:02.82,Default,,0,0,0,,le tueur est sûrement passé par là.
+Dialogue: 0,0:04:04.16,0:04:05.91,Default,,0,0,0,,Laissons le corps au légiste.
+Dialogue: 0,0:04:08.99,0:04:12.54,Default,,0,0,0,,Rien n'a été touché,\Npeu de chance que ce soit un voleur.
+Dialogue: 0,0:04:13.42,0:04:14.75,Default,,0,0,0,,Une vengeance ?
+Dialogue: 0,0:04:20.05,0:04:20.92,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:04:21.67,0:04:22.63,Default,,0,0,0,,C'est du sang.
+Dialogue: 0,0:04:22.97,0:04:25.09,Default,,0,0,0,,Il a dû gicler au moment du tir.
+Dialogue: 0,0:04:25.26,0:04:27.68,Default,,0,0,0,,Mais il n'y en a pas sur les rideaux,
+Dialogue: 0,0:04:28.18,0:04:30.22,Default,,0,0,0,,ils devaient donc être ouverts.
+Dialogue: 0,0:04:31.22,0:04:33.56,Default,,0,0,0,,Le coupable les aurait fermés ?
+Dialogue: 0,0:04:37.86,0:04:40.03,Default,,0,0,0,,Si c'est bien le cas, pour quoi faire ?
+Dialogue: 0,0:04:40.61,0:04:43.45,Default,,0,0,0,,Pour retarder\Nla découverte du corps ?
+Dialogue: 0,0:04:43.86,0:04:45.95,Default,,0,0,0,,Et avoir le temps de s'enfuir.
+Dialogue: 0,0:04:46.36,0:04:47.20,Default,,0,0,0,,Mais enfin,
+Dialogue: 0,0:04:47.49,0:04:49.53,Default,,0,0,0,,qui espionnerait cette fenêtre ?
+Dialogue: 0,0:04:50.66,0:04:53.16,Default,,0,0,0,,Le voisin aurait pu, non ?
+Dialogue: 0,0:04:54.46,0:04:55.67,Default,,0,0,0,,C'est étrange,
+Dialogue: 0,0:04:56.21,0:04:58.42,Default,,0,0,0,,les volets sont tous fermés
+Dialogue: 0,0:04:59.00,0:05:00.30,Default,,0,0,0,,alors qu'il fait beau.
+Dialogue: 0,0:05:01.09,0:05:04.67,Default,,0,0,0,,Le voisin a déménagé\Nla semaine dernière,
+Dialogue: 0,0:05:04.88,0:05:06.55,Default,,0,0,0,,laissant la maison inhabitée.
+Dialogue: 0,0:05:06.72,0:05:08.01,Default,,0,0,0,,Elle est vide, alors.
+Dialogue: 0,0:05:08.60,0:05:09.22,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:05:10.26,0:05:12.39,Default,,0,0,0,,Il y a aussi du sang là-dessus,
+Dialogue: 0,0:05:13.10,0:05:15.89,Default,,0,0,0,,mais pas sur le sol\Net les murs alentour.
+Dialogue: 0,0:05:17.56,0:05:20.86,Default,,0,0,0,,Le marchepied était ailleurs\Nlors du meurtre
+Dialogue: 0,0:05:21.27,0:05:23.78,Default,,0,0,0,,et le tueur l'a déplacé.
+Dialogue: 0,0:05:24.40,0:05:26.28,Default,,0,0,0,,{\i1}Pourquoi faire cela ?{\i0}
+Dialogue: 0,0:05:27.07,0:05:28.03,Default,,0,0,0,,Inspecteur Meguri,
+Dialogue: 0,0:05:28.41,0:05:30.74,Default,,0,0,0,,j'ai interrogé les voisins,
+Dialogue: 0,0:05:31.53,0:05:34.33,Default,,0,0,0,,mais aucun d'entre eux\Nn'a vu de personne suspecte.
+Dialogue: 0,0:05:34.79,0:05:36.16,Default,,0,0,0,,En outre...
+Dialogue: 0,0:05:37.87,0:05:40.38,Default,,0,0,0,,personne n'a entendu le coup de feu.
+Dialogue: 0,0:05:41.92,0:05:45.26,Default,,0,0,0,,Ce n'est pas étonnant\Navec un tel boucan !
+Dialogue: 0,0:05:46.13,0:05:49.47,Default,,0,0,0,,Ce sont bien ses disciples\Nqui ont trouvé son corps ?
+Dialogue: 0,0:05:49.72,0:05:51.35,Default,,0,0,0,,Ils attendent au salon.
+Dialogue: 0,0:05:51.93,0:05:55.18,Default,,0,0,0,,Le grand Shintarô Tawake\Navait donc des disciples.
+Dialogue: 0,0:05:56.14,0:05:56.94,ST_HAUT,,0,0,0,,NAOYA AKAIKE
+Dialogue: 0,0:05:57.10,0:05:58.60,ST_HAUT,,0,0,0,,Ces quatre personnes
+Dialogue: 0,0:05:58.98,0:06:00.77,ST_HAUT,,0,0,0,,sont les disciples de M. Tawake.
+Dialogue: 0,0:06:00.94,0:06:01.61,ST_HAUT,,0,0,0,,MIYUKI DEGAWA
+Dialogue: 0,0:06:02.27,0:06:04.61,ST_HAUT,,0,0,0,,RYÛNOSUKE BITÔ
+Dialogue: 0,0:06:05.24,0:06:07.61,ST_HAUT,,0,0,0,,HARUO CHIGASAKI
+Dialogue: 0,0:06:08.24,0:06:10.99,Default,,0,0,0,,Ces deux personnes l'ont trouvé.
+Dialogue: 0,0:06:11.20,0:06:12.66,Default,,0,0,0,,Je m'appelle Naoya Akaike.
+Dialogue: 0,0:06:12.87,0:06:14.24,Default,,0,0,0,,Et moi, Miyuki Degawa.
+Dialogue: 0,0:06:14.91,0:06:18.12,Default,,0,0,0,,Les deux autres\Nsont venus tout de suite
+Dialogue: 0,0:06:18.29,0:06:20.38,Default,,0,0,0,,quand je les ai appelés.
+Dialogue: 0,0:06:20.92,0:06:22.67,Default,,0,0,0,,Je suis Ryûnosuke Bitô.
+Dialogue: 0,0:06:22.84,0:06:24.38,Default,,0,0,0,,Haruo Chigasaki.
+Dialogue: 0,0:06:24.92,0:06:29.13,Default,,0,0,0,,Nous nous relayions\Npour aider notre maître.
+Dialogue: 0,0:06:29.76,0:06:34.51,Default,,0,0,0,,Je suis venu aujourd'hui\Ncar c'était mon tour.
+Dialogue: 0,0:06:35.14,0:06:37.64,Default,,0,0,0,,{\i1}Tu peux entrer, Naoya.{\i0}
+Dialogue: 0,0:06:38.10,0:06:41.52,Default,,0,0,0,,{\i1}Reviens vers 15 h,\Nj'aurai du boulot pour toi.{\i0}
+Dialogue: 0,0:06:42.19,0:06:44.82,Default,,0,0,0,,{\i1}Amène Miyuki avec toi,\Nje dois lui parler.{\i0}
+Dialogue: 0,0:06:45.11,0:06:47.40,Default,,0,0,0,,{\i1}Entendu, à tout à l'heure.{\i0}
+Dialogue: 0,0:06:48.40,0:06:51.36,Default,,0,0,0,,Et quand nous sommes revenus...
+Dialogue: 0,0:06:58.41,0:07:00.92,Default,,0,0,0,,J'ai tout de suite appelé la police.
+Dialogue: 0,0:07:01.08,0:07:04.00,Default,,0,0,0,,Nous n'avons pas touché\Nà la scène de crime.
+Dialogue: 0,0:07:04.75,0:07:07.51,Default,,0,0,0,,{\i1}Le tueur a bien bougé\Nles rideaux et le marchepied.{\i0}
+Dialogue: 0,0:07:08.84,0:07:10.80,Default,,0,0,0,,Au fait, pour le rendez-vous,
+Dialogue: 0,0:07:11.09,0:07:12.51,Default,,0,0,0,,il faut les prévenir.
+Dialogue: 0,0:07:13.01,0:07:13.76,Default,,0,0,0,,Tu as raison.
+Dialogue: 0,0:07:14.30,0:07:17.52,Default,,0,0,0,,Ils vont être embêtés,\Nsi je ne les appelle pas.
+Dialogue: 0,0:07:18.27,0:07:19.64,Default,,0,0,0,,Excusez-moi une minute.
+Dialogue: 0,0:07:22.10,0:07:23.86,Default,,0,0,0,,De qui vous parlez ?
+Dialogue: 0,0:07:24.31,0:07:25.40,Default,,0,0,0,,Du dentiste.
+Dialogue: 0,0:07:25.90,0:07:29.65,Default,,0,0,0,,Notre maître avait demandé\Nà M. Akaike de prendre rendez-vous.
+Dialogue: 0,0:07:30.45,0:07:32.41,Default,,0,0,0,,{\i1}Satanée molaire.{\i0}
+Dialogue: 0,0:07:32.78,0:07:34.37,Default,,0,0,0,,{\i1}Oui, je vous en prie.{\i0}
+Dialogue: 0,0:07:35.37,0:07:37.37,Default,,0,0,0,,{\i1}J'ai un rendez-vous demain 19 h.{\i0}
+Dialogue: 0,0:07:38.08,0:07:40.71,Default,,0,0,0,,Mais maintenant qu'il est mort...
+Dialogue: 0,0:07:41.00,0:07:44.63,Default,,0,0,0,,Je voudrais annuler le rendez-vous\Nque j'ai pris hier.
+Dialogue: 0,0:07:45.00,0:07:45.54,Default,,0,0,0,,Oui.
+Dialogue: 0,0:07:46.09,0:07:48.42,Default,,0,0,0,,M. Tawake avait donc\Ndes problèmes dentaires.
+Dialogue: 0,0:07:49.76,0:07:52.72,Default,,0,0,0,,Le Roi-sorcier est délivré\Nde sa rage de dent,
+Dialogue: 0,0:07:52.88,0:07:54.43,Default,,0,0,0,,pour l'éternité.
+Dialogue: 0,0:07:54.93,0:07:55.80,Default,,0,0,0,,Le "Roi-sorcier" ?
+Dialogue: 0,0:07:56.97,0:07:59.56,Default,,0,0,0,,Pourquoi l'appelez-vous ainsi ?
+Dialogue: 0,0:08:03.90,0:08:06.44,Default,,0,0,0,,L'enquête le révélera\Nde toute manière.
+Dialogue: 0,0:08:07.40,0:08:10.78,Default,,0,0,0,,Eh bien pour tout vous dire,\Nmessieurs les inspecteurs,
+Dialogue: 0,0:08:10.94,0:08:13.36,Default,,0,0,0,,M. Tawake était une machine à succès,
+Dialogue: 0,0:08:13.82,0:08:17.66,Default,,0,0,0,,mais il n'aurait jamais pu\Nsortir ainsi dix livres par an.
+Dialogue: 0,0:08:17.95,0:08:20.87,Default,,0,0,0,,Depuis plusieurs années,\Nses œuvres
+Dialogue: 0,0:08:21.29,0:08:24.12,Default,,0,0,0,,étaient écrites par nous quatre.
+Dialogue: 0,0:08:24.54,0:08:25.50,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:08:27.59,0:08:28.92,Default,,0,0,0,,On les écrivait
+Dialogue: 0,0:08:29.17,0:08:32.38,Default,,0,0,0,,et notre maître\Nles retouchait légèrement...
+Dialogue: 0,0:08:32.84,0:08:35.26,Default,,0,0,0,,Il n'écrivait presque rien\Nlui-même ?
+Dialogue: 0,0:08:35.68,0:08:38.76,Default,,0,0,0,,C'était un secret de Polichinelle\Ndans le milieu.
+Dialogue: 0,0:08:39.10,0:08:41.73,Default,,0,0,0,,Il nous payait une somme rondelette,
+Dialogue: 0,0:08:42.10,0:08:45.02,Default,,0,0,0,,mais je détestais\Njouer la prête-plume !
+Dialogue: 0,0:08:45.31,0:08:47.27,Default,,0,0,0,,C'était impossible de lui dire non.
+Dialogue: 0,0:08:47.94,0:08:52.03,Default,,0,0,0,,{\i1}Si vous me servez bien,\Nje vous ferai faire vos débuts.{\i0}
+Dialogue: 0,0:08:52.19,0:08:56.28,Default,,0,0,0,,{\i1}Mais si vous fuyez,\Nfaites une croix sur vos carrières.{\i0}
+Dialogue: 0,0:09:00.62,0:09:02.41,Default,,0,0,0,,Il vend un paquet de livres
+Dialogue: 0,0:09:02.58,0:09:05.79,Default,,0,0,0,,et il a beaucoup d'influence\Nauprès des éditeurs !
+Dialogue: 0,0:09:06.83,0:09:10.13,Default,,0,0,0,,Mais il n'a jamais compté\Nlancer nos carrières.
+Dialogue: 0,0:09:10.34,0:09:14.09,Default,,0,0,0,,Je voulais devenir son disciple,\Npas son esclave.
+Dialogue: 0,0:09:14.55,0:09:16.26,Default,,0,0,0,,D'où l'origine du surnom.
+Dialogue: 0,0:09:17.09,0:09:19.97,Default,,0,0,0,,M. Tawake vous pourrissait la vie.
+Dialogue: 0,0:09:20.51,0:09:24.85,Default,,0,0,0,,Seule sa mort pouvait\Nvous permettre de prendre votre envol.
+Dialogue: 0,0:09:26.52,0:09:29.44,Default,,0,0,0,,Vous lui en vouliez tous les quatre.
+Dialogue: 0,0:09:29.98,0:09:32.07,Default,,0,0,0,,Et vous aviez donc un mobile.
+Dialogue: 0,0:09:32.57,0:09:36.07,Default,,0,0,0,,Vous insinuez qu'il a été tué\Npar l'un d'entre nous ?
+Dialogue: 0,0:09:37.11,0:09:38.95,Default,,0,0,0,,Inspecteur, l'équipe s'en va.
+Dialogue: 0,0:09:39.28,0:09:41.83,Default,,0,0,0,,Bien, je vais rester encore un peu.
+Dialogue: 0,0:09:42.20,0:09:43.75,Default,,0,0,0,,C'est l'arme du crime ?
+Dialogue: 0,0:09:44.20,0:09:45.46,Default,,0,0,0,,Mais ce fusil...
+Dialogue: 0,0:09:55.09,0:09:56.84,Default,,0,0,0,,Il n'est pas dans le casier.
+Dialogue: 0,0:09:57.51,0:10:00.55,Default,,0,0,0,,J'en étais sûr,\Nc'est bien le fusil de M. Tawake.
+Dialogue: 0,0:10:00.93,0:10:03.35,Default,,0,0,0,,L'arme appartenait à la victime ?
+Dialogue: 0,0:10:05.98,0:10:08.02,Default,,0,0,0,,Notre maître cachait ici
+Dialogue: 0,0:10:08.19,0:10:11.36,Default,,0,0,0,,un fusil\Nqu'il détenait illégalement.
+Dialogue: 0,0:10:11.69,0:10:13.86,Default,,0,0,0,,Vous étiez tous au courant ?
+Dialogue: 0,0:10:14.61,0:10:16.70,Default,,0,0,0,,Ça prouve\Nque nous sommes innocents !
+Dialogue: 0,0:10:16.99,0:10:20.70,Default,,0,0,0,,On savait qu'on serait suspects\Nsi on s'en servait.
+Dialogue: 0,0:10:20.87,0:10:23.12,Default,,0,0,0,,Nous ne sommes pas stupides.
+Dialogue: 0,0:10:23.95,0:10:25.04,Default,,0,0,0,,Bien d'accord.
+Dialogue: 0,0:10:25.66,0:10:28.50,Default,,0,0,0,,Et si vous l'aviez fait\Nen connaissance de cause ?
+Dialogue: 0,0:10:28.96,0:10:32.25,Default,,0,0,0,,En sachant\Nque vous pourriez vous défendre
+Dialogue: 0,0:10:32.63,0:10:34.92,Default,,0,0,0,,comme vous venez de le faire.
+Dialogue: 0,0:10:35.76,0:10:38.43,Default,,0,0,0,,On va tourner en rond\Nsi on prend ce chemin.
+Dialogue: 0,0:10:39.01,0:10:42.93,Default,,0,0,0,,Mais si vous avez un alibi,\Nvous serez innocentés.
+Dialogue: 0,0:10:43.39,0:10:44.56,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:10:44.89,0:10:48.31,Default,,0,0,0,,J'aimerais donc savoir\Noù vous étiez
+Dialogue: 0,0:10:48.73,0:10:51.77,Default,,0,0,0,,et ce que vous faisiez vers midi.
+Dialogue: 0,0:11:02.53,0:11:05.58,Default,,0,0,0,,J'ai pu vérifier l'alibi de M. Akaike.
+Dialogue: 0,0:11:05.91,0:11:08.46,Default,,0,0,0,,Plusieurs témoins le confirment.
+Dialogue: 0,0:11:09.41,0:11:13.84,Default,,0,0,0,,Mais concernant ceux de MM. Bitô,\NChigasaki et Mme Degawa,
+Dialogue: 0,0:11:14.00,0:11:15.55,Default,,0,0,0,,impossible de vérifier.
+Dialogue: 0,0:11:16.05,0:11:19.30,Default,,0,0,0,,Forcément, nous écrivions !
+Dialogue: 0,0:11:19.47,0:11:21.05,Default,,0,0,0,,- Oui.\N- C'est vrai.
+Dialogue: 0,0:11:21.51,0:11:24.18,Default,,0,0,0,,Nous sommes passés de quatre\Nà trois suspects.
+Dialogue: 0,0:11:24.55,0:11:26.22,Default,,0,0,0,,Une minute, vous insinuez que...
+Dialogue: 0,0:11:26.60,0:11:31.19,Default,,0,0,0,,Bien entendu, cela ne fait pas\Nde vous les coupables.
+Dialogue: 0,0:11:31.44,0:11:34.23,Default,,0,0,0,,Mais si on ne peut pas\Nvérifier vos alibis...
+Dialogue: 0,0:11:34.65,0:11:39.36,Default,,0,0,0,,Voilà que je me retrouve suspecté\Nà cause de tes idioties !
+Dialogue: 0,0:11:40.15,0:11:42.74,Default,,0,0,0,,C'est plutôt Miyuki\Nqui est capable de l'avoir tué !
+Dialogue: 0,0:11:43.74,0:11:46.74,Default,,0,0,0,,M. Bitô est bien plus\Nsuspect que moi !
+Dialogue: 0,0:11:47.12,0:11:49.95,Default,,0,0,0,,Arrêtons de douter\Nles uns des autres !
+Dialogue: 0,0:11:51.33,0:11:54.21,Default,,0,0,0,,Une dispute qui semble\Npréparée à l'avance.
+Dialogue: 0,0:11:54.58,0:11:57.55,Default,,0,0,0,,Et si vous l'aviez tué\Ntous les trois ?
+Dialogue: 0,0:11:58.09,0:11:58.96,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:12:00.72,0:12:02.34,Default,,0,0,0,,Comment en est-on arrivés là ?
+Dialogue: 0,0:12:04.22,0:12:05.14,Default,,0,0,0,,Ne pleure pas !
+Dialogue: 0,0:12:05.68,0:12:08.97,Default,,0,0,0,,Facile à dire pour toi,\Ntu as un alibi !
+Dialogue: 0,0:12:09.31,0:12:12.64,Default,,0,0,0,,Tu as une part de responsabilité,\NNaoya !
+Dialogue: 0,0:12:12.81,0:12:17.32,Default,,0,0,0,,T'es le plus âgé,\Nmais tu n'as rien fait face à ce tyran !
+Dialogue: 0,0:12:17.52,0:12:19.28,Default,,0,0,0,,- C'est vrai !\N- Bien d'accord !
+Dialogue: 0,0:12:21.61,0:12:23.11,Default,,0,0,0,,Bien, c'est compris.
+Dialogue: 0,0:12:23.61,0:12:27.74,Default,,0,0,0,,L'autopsie a révélé du somnifère\Ndans le sang de la victime.
+Dialogue: 0,0:12:27.91,0:12:29.04,Default,,0,0,0,,Du somnifère ?
+Dialogue: 0,0:12:30.66,0:12:33.79,Default,,0,0,0,,Le Roi-sorcier n'en a jamais pris.
+Dialogue: 0,0:12:34.25,0:12:37.09,Default,,0,0,0,,C'est sûrement un coup du tueur,
+Dialogue: 0,0:12:37.34,0:12:39.59,Default,,0,0,0,,mais pourquoi l'endormir ?
+Dialogue: 0,0:12:39.84,0:12:43.47,Default,,0,0,0,,S'il était en mesure\Nde lui faire prendre un somnifère,
+Dialogue: 0,0:12:43.63,0:12:46.18,Default,,0,0,0,,il aurait pu simplement\Nutiliser du poison.
+Dialogue: 0,0:12:46.72,0:12:49.47,Default,,0,0,0,,Mais oui,\Nl'empoisonner aurait été facile.
+Dialogue: 0,0:12:50.22,0:12:52.10,Default,,0,0,0,,S'il a choisi de le tuer par balle,
+Dialogue: 0,0:12:52.27,0:12:54.89,Default,,0,0,0,,c'est qu'il avait une bonne raison !
+Dialogue: 0,0:12:55.31,0:12:58.57,Default,,0,0,0,,{\i1}Forcément,\Nen tant qu'auteurs policiers,{\i0}
+Dialogue: 0,0:12:58.73,0:13:01.40,Default,,0,0,0,,{\i1}ce sont des pros de la déduction.{\i0}
+Dialogue: 0,0:13:01.90,0:13:03.19,Default,,0,0,0,,Mais bien sûr !
+Dialogue: 0,0:13:03.36,0:13:06.07,Default,,0,0,0,,Il s'est servi du fusil\Npour faire croire
+Dialogue: 0,0:13:06.32,0:13:10.16,Default,,0,0,0,,que le tueur était\Nun de ses disciples !
+Dialogue: 0,0:13:10.45,0:13:11.58,Default,,0,0,0,,C'est forcément ça !
+Dialogue: 0,0:13:11.75,0:13:13.79,Default,,0,0,0,,Il voulait nous piéger !
+Dialogue: 0,0:13:15.92,0:13:17.75,Default,,0,0,0,,{\i1}Mais quelque chose cloche.{\i0}
+Dialogue: 0,0:13:18.88,0:13:19.92,Default,,0,0,0,,{\i1}Une minute !{\i0}
+Dialogue: 0,0:13:21.38,0:13:23.05,Default,,0,0,0,,{\i1}Concernant les rideaux,{\i0}
+Dialogue: 0,0:13:23.80,0:13:24.84,Default,,0,0,0,,{\i1}peut-être que...{\i0}
+Dialogue: 0,0:13:26.05,0:13:27.18,Default,,0,0,0,,{\i1}Si c'est le cas,{\i0}
+Dialogue: 0,0:13:28.22,0:13:29.55,Default,,0,0,0,,{\i1}il y aura une trace !{\i0}
+Dialogue: 0,0:13:35.23,0:13:38.81,Default,,0,0,0,,TAWAKE
+Dialogue: 0,0:14:02.00,0:14:03.71,Default,,0,0,0,,{\i1}Du papier d'aluminium.{\i0}
+Dialogue: 0,0:14:04.30,0:14:05.80,Default,,0,0,0,,{\i1}Ç'a servi à le fabriquer.{\i0}
+Dialogue: 0,0:14:12.64,0:14:14.22,Default,,0,0,0,,{\i1}Mais comment le prouver ?{\i0}
+Dialogue: 0,0:14:14.47,0:14:16.39,Default,,0,0,0,,{\i1}Si on réfléchit au profil du tueur...{\i0}
+Dialogue: 0,0:14:18.19,0:14:19.69,Default,,0,0,0,,{\i1}Peut-être qu'en fait...{\i0}
+Dialogue: 0,0:14:19.98,0:14:22.19,Default,,0,0,0,,DENTISTE SHIGA
+Dialogue: 0,0:14:25.40,0:14:26.82,Default,,0,0,0,,{\i1}J'en étais sûr.{\i0}
+Dialogue: 0,0:14:27.11,0:14:28.61,Default,,0,0,0,,{\i1}Concernant la météo,{\i0}
+Dialogue: 0,0:14:29.16,0:14:32.83,Default,,0,0,0,,{\i1}il fera beau demain,\Ndonc ce sera parfait !{\i0}
+Dialogue: 0,0:14:35.08,0:14:38.92,Default,,0,0,0,,Le coupable est clairement\Nun de ses disciples,
+Dialogue: 0,0:14:39.21,0:14:42.71,Default,,0,0,0,,mais qui est-il parmi les trois ?
+Dialogue: 0,0:14:45.42,0:14:48.05,Default,,0,0,0,,Oui, tonton a trouvé le coupable !
+Dialogue: 0,0:14:48.51,0:14:49.68,Default,,0,0,0,,Qui est-ce ?
+Dialogue: 0,0:14:49.88,0:14:52.93,Default,,0,0,0,,Il a dit qu'il viendra demain\Nsur le lieu du crime,
+Dialogue: 0,0:14:53.47,0:14:56.02,Default,,0,0,0,,vers midi comme lors du meurtre !
+Dialogue: 0,0:14:56.43,0:14:59.44,Default,,0,0,0,,Comment ? M. l'inspecteur\Nnous demande de partir ?
+Dialogue: 0,0:14:59.77,0:15:02.11,Default,,0,0,0,,Oui, mais on doit revenir demain.
+Dialogue: 0,0:15:04.98,0:15:07.19,ST_HAUT,,0,0,0,,LE LENDEMAIN
+Dialogue: 0,0:15:12.37,0:15:15.33,Default,,0,0,0,,Voyons mon bon Môri,\Ntu m'expliques pourquoi
+Dialogue: 0,0:15:15.66,0:15:17.25,Default,,0,0,0,,le tueur va se pointer ?
+Dialogue: 0,0:15:17.41,0:15:17.95,Default,,0,0,0,,Hein ?
+Dialogue: 0,0:15:18.50,0:15:22.92,Default,,0,0,0,,Vous voulez dire\Nque tout le monde ici est innocent ?
+Dialogue: 0,0:15:23.08,0:15:24.34,Default,,0,0,0,,Quel soulagement !
+Dialogue: 0,0:15:24.84,0:15:27.21,Default,,0,0,0,,Je n'ai jamais dit\Nà M. l'inspecteur de...
+Dialogue: 0,0:15:30.38,0:15:32.05,Default,,0,0,0,,Je n'ai pas... appelé...
+Dialogue: 0,0:15:32.89,0:15:35.06,Default,,0,0,0,,Merci... infiniment...
+Dialogue: 0,0:15:35.39,0:15:37.47,Default,,0,0,0,,Kogorô l'Endormi entre en scène !
+Dialogue: 0,0:15:37.85,0:15:38.56,Default,,0,0,0,,Mes amis,
+Dialogue: 0,0:15:39.43,0:15:42.65,Default,,0,0,0,,vous êtes tombés\Ndans le panneau du "whodunit" !
+Dialogue: 0,0:15:43.15,0:15:45.98,Default,,0,0,0,,Concentrés sur la recherche\Ndu coupable,
+Dialogue: 0,0:15:46.48,0:15:48.61,Default,,0,0,0,,vous avez ignoré un détail crucial :
+Dialogue: 0,0:15:49.11,0:15:50.20,Default,,0,0,0,,le "howdunit",
+Dialogue: 0,0:15:50.53,0:15:53.91,Default,,0,0,0,,comment le tueur\Na procédé pour tuer M. Tawake.
+Dialogue: 0,0:15:55.53,0:15:58.29,Default,,0,0,0,,Il l'a endormi avec du somnifère,
+Dialogue: 0,0:15:58.50,0:16:01.67,Default,,0,0,0,,puis il l'a abattu, voilà tout !
+Dialogue: 0,0:16:02.04,0:16:03.54,Default,,0,0,0,,Inspecteur Takagi,
+Dialogue: 0,0:16:03.88,0:16:05.13,Default,,0,0,0,,ce que je vous ai demandé.
+Dialogue: 0,0:16:06.09,0:16:07.67,Default,,0,0,0,,Tout de suite. Chiba !
+Dialogue: 0,0:16:08.21,0:16:08.88,Default,,0,0,0,,Je suis là.
+Dialogue: 0,0:16:11.88,0:16:13.39,Default,,0,0,0,,Ça devrait coller.
+Dialogue: 0,0:16:13.84,0:16:15.05,Default,,0,0,0,,Merci, inspecteur Chiba.
+Dialogue: 0,0:16:15.93,0:16:20.18,Default,,0,0,0,,Le fusil a été fixé\Nsur le marchepied
+Dialogue: 0,0:16:20.64,0:16:23.27,Default,,0,0,0,,et placé à côté de moi.
+Dialogue: 0,0:16:23.65,0:16:25.56,Default,,0,0,0,,Il a été chargé
+Dialogue: 0,0:16:26.06,0:16:28.57,Default,,0,0,0,,avec une munition de peinture.
+Dialogue: 0,0:16:29.19,0:16:32.03,Default,,0,0,0,,Nous avons suivi vos instructions.
+Dialogue: 0,0:16:32.24,0:16:33.82,Default,,0,0,0,,Si c'est ce que je pense...
+Dialogue: 0,0:16:33.99,0:16:36.20,Default,,0,0,0,,Ça en a tout l'air...
+Dialogue: 0,0:16:36.37,0:16:38.79,Default,,0,0,0,,C'est impossible dans ce bureau !
+Dialogue: 0,0:16:38.95,0:16:40.91,Default,,0,0,0,,La fenêtre donne sur le nord.
+Dialogue: 0,0:16:41.20,0:16:43.25,Default,,0,0,0,,J'ouvre les rideaux, tonton.
+Dialogue: 0,0:16:43.96,0:16:45.25,Default,,0,0,0,,Voilà.
+Dialogue: 0,0:16:45.71,0:16:46.88,Default,,0,0,0,,Qu'est-ce que c'est ?
+Dialogue: 0,0:16:52.80,0:16:53.93,Default,,0,0,0,,Un miroir ?
+Dialogue: 0,0:16:55.18,0:16:56.51,Default,,0,0,0,,Un miroir concave.
+Dialogue: 0,0:16:56.89,0:17:01.10,Default,,0,0,0,,Du papier d'aluminium\Nsur une armature en bois.
+Dialogue: 0,0:17:01.73,0:17:05.40,Default,,0,0,0,,{\i1}J'ai demandé au professeur Agasa\Nde me le fabriquer.{\i0}
+Dialogue: 0,0:17:06.15,0:17:10.78,Default,,0,0,0,,Le vrai coupable qui a tué M. Tawake\Nva bientôt apparaître.
+Dialogue: 0,0:17:17.37,0:17:19.41,Default,,0,0,0,,- Mais alors...\N- Ce serait vraiment...
+Dialogue: 0,0:17:19.87,0:17:20.79,Default,,0,0,0,,Incroyable !
+Dialogue: 0,0:17:29.42,0:17:30.30,Default,,0,0,0,,Une mise à feu
+Dialogue: 0,0:17:30.67,0:17:32.84,Default,,0,0,0,,par concentration des rayons !
+Dialogue: 0,0:17:33.21,0:17:37.09,Default,,0,0,0,,Oui, un phénomène connu\Npour provoquer des incendies.
+Dialogue: 0,0:17:37.64,0:17:41.14,Default,,0,0,0,,C'est un artifice souvent utilisé\Ndans les romans policiers.
+Dialogue: 0,0:17:41.35,0:17:44.56,Default,,0,0,0,,Il nécessite normalement\Nune fenêtre plein sud.
+Dialogue: 0,0:17:44.85,0:17:48.94,Default,,0,0,0,,Très malin de le réaliser\Ndans ce bureau grâce à un miroir.
+Dialogue: 0,0:17:49.11,0:17:49.90,Default,,0,0,0,,C'est clair !
+Dialogue: 0,0:17:50.11,0:17:53.23,Default,,0,0,0,,L'assassin a tué M. Tawake\Nde cette manière.
+Dialogue: 0,0:17:53.86,0:17:57.99,Default,,0,0,0,,Il a attendu une heure précise\Npour couvrir le bruit tir
+Dialogue: 0,0:17:58.28,0:18:01.74,Default,,0,0,0,,et ainsi éviter que le corps\Nsoit trouvé prématurément.
+Dialogue: 0,0:18:02.62,0:18:04.79,Default,,0,0,0,,Il s'est servi du bruit du chantier !
+Dialogue: 0,0:18:05.12,0:18:07.42,Default,,0,0,0,,Ça explique le somnifère !
+Dialogue: 0,0:18:07.62,0:18:12.50,Default,,0,0,0,,Il devait l'endormir\Npour qu'il reste dans la ligne de mire.
+Dialogue: 0,0:18:13.42,0:18:15.38,Default,,0,0,0,,Et il a déplacé le marchepied
+Dialogue: 0,0:18:16.01,0:18:18.39,Default,,0,0,0,,pour cacher son montage
+Dialogue: 0,0:18:18.55,0:18:20.14,Default,,0,0,0,,après l'exécution du crime.
+Dialogue: 0,0:18:21.05,0:18:24.47,Default,,0,0,0,,Il avait ouvert les rideaux\Npour laisser passer
+Dialogue: 0,0:18:24.81,0:18:26.98,Default,,0,0,0,,les rayons du soleil.
+Dialogue: 0,0:18:27.48,0:18:29.31,Default,,0,0,0,,Il les a donc tirés après
+Dialogue: 0,0:18:29.52,0:18:32.32,Default,,0,0,0,,pour s'assurer que personne\Nne trouve le corps.
+Dialogue: 0,0:18:33.73,0:18:36.86,Default,,0,0,0,,Ses quatre disciples\Nconnaissent cet artifice
+Dialogue: 0,0:18:37.40,0:18:40.03,Default,,0,0,0,,et n'importe lequel d'entre eux\Naurait pu le réaliser.
+Dialogue: 0,0:18:42.49,0:18:45.33,Default,,0,0,0,,Mais pourquoi s'embêter\Nà faire tout ça ?
+Dialogue: 0,0:18:45.70,0:18:49.67,Default,,0,0,0,,Pour se créer un alibi,\Nbien entendu.
+Dialogue: 0,0:18:49.87,0:18:52.13,Default,,0,0,0,,Et ainsi éviter d'être suspecté.
+Dialogue: 0,0:18:52.63,0:18:56.59,Default,,0,0,0,,Le coupable est donc celui\Nqui possède un solide alibi.
+Dialogue: 0,0:18:57.09,0:18:58.76,Default,,0,0,0,,Mais ça veut dire que...
+Dialogue: 0,0:18:58.93,0:19:00.05,Default,,0,0,0,,Impossible...
+Dialogue: 0,0:19:00.26,0:19:01.55,Default,,0,0,0,,C'était vous, M. Akaike ?
+Dialogue: 0,0:19:02.39,0:19:04.56,Default,,0,0,0,,Attendez, M. Môri...
+Dialogue: 0,0:19:04.93,0:19:07.23,Default,,0,0,0,,Hier, c'était votre tour\Nd'aider M. Tawake,
+Dialogue: 0,0:19:07.56,0:19:10.10,Default,,0,0,0,,vous lui avez fait\Nboire le somnifère.
+Dialogue: 0,0:19:10.69,0:19:12.69,Default,,0,0,0,,{\i1}J'ai sommeil d'un coup...{\i0}
+Dialogue: 0,0:19:13.15,0:19:15.61,Default,,0,0,0,,{\i1}Tu peux y aller, Naoya.{\i0}
+Dialogue: 0,0:19:16.28,0:19:18.15,Default,,0,0,0,,Vous avez pris le fusil du casier
+Dialogue: 0,0:19:18.65,0:19:21.66,Default,,0,0,0,,et l'avez disposé,\Npuis avez ouvert les rideaux
+Dialogue: 0,0:19:22.32,0:19:23.99,Default,,0,0,0,,ainsi que les volets d'en face.
+Dialogue: 0,0:19:24.24,0:19:25.74,Default,,0,0,0,,Vous avez placé le miroir
+Dialogue: 0,0:19:26.33,0:19:28.37,Default,,0,0,0,,et vous vous êtes fait\Nun alibi à midi.
+Dialogue: 0,0:19:29.29,0:19:31.04,Default,,0,0,0,,Vous avez ainsi tué M. Tawake,
+Dialogue: 0,0:19:34.21,0:19:36.67,Default,,0,0,0,,puis vous êtes revenu\Narranger la pièce.
+Dialogue: 0,0:19:36.84,0:19:39.17,Default,,0,0,0,,Vous avez entrouvert\Nla porte fenêtre
+Dialogue: 0,0:19:39.38,0:19:41.34,Default,,0,0,0,,pour faire croire à une effraction.
+Dialogue: 0,0:19:45.18,0:19:47.64,Default,,0,0,0,,Vous avez détruit et jeté le miroir
+Dialogue: 0,0:19:48.02,0:19:49.52,Default,,0,0,0,,fait de papier d'aluminium,
+Dialogue: 0,0:19:50.10,0:19:51.27,Default,,0,0,0,,et fermé les volets.
+Dialogue: 0,0:19:52.31,0:19:56.44,Default,,0,0,0,,Vous êtes revenu trouver le corps\Navec Miyuki Degawa
+Dialogue: 0,0:19:56.94,0:20:01.78,Default,,0,0,0,,pour prouver que personne\Nn'avait touché à la scène de crime.
+Dialogue: 0,0:20:03.70,0:20:06.33,Default,,0,0,0,,Ce ne sont que des suppositions !
+Dialogue: 0,0:20:06.79,0:20:11.50,Default,,0,0,0,,J'ai dû emprunter la clé d'en face\Nauprès de l'agence immobilière
+Dialogue: 0,0:20:11.92,0:20:13.67,Default,,0,0,0,,et vous avez procédé comme moi.
+Dialogue: 0,0:20:14.29,0:20:19.30,Default,,0,0,0,,Vous leur avez dit que M. Tawake\Nvoulait visiter car il pensait acheter.
+Dialogue: 0,0:20:19.71,0:20:21.34,Default,,0,0,0,,Vous avez ainsi fait un double.
+Dialogue: 0,0:20:21.68,0:20:23.47,Default,,0,0,0,,C'est aussi une supposition !
+Dialogue: 0,0:20:24.09,0:20:27.72,Default,,0,0,0,,Mais vous avez fait une erreur,\NM. Akaike :
+Dialogue: 0,0:20:28.31,0:20:29.72,Default,,0,0,0,,le dentiste !
+Dialogue: 0,0:20:31.64,0:20:35.65,Default,,0,0,0,,J'ai vérifié et il n'y a jamais eu\Nde rendez-vous pour M. Tawake.
+Dialogue: 0,0:20:36.40,0:20:38.48,Default,,0,0,0,,Vous n'avez pris aucun rendez-vous.
+Dialogue: 0,0:20:39.86,0:20:41.82,Default,,0,0,0,,{\i1}J'ai un rendez-vous demain 19 h.{\i0}
+Dialogue: 0,0:20:42.11,0:20:43.66,Default,,0,0,0,,C'était de la comédie,
+Dialogue: 0,0:20:43.82,0:20:45.57,Default,,0,0,0,,comme l'annulation hier.
+Dialogue: 0,0:20:46.20,0:20:49.54,Default,,0,0,0,,{\i1}Je voudrais annuler le rendez-vous\Nque j'ai pris hier.{\i0}
+Dialogue: 0,0:20:50.16,0:20:51.58,Default,,0,0,0,,Vous faisiez semblant.
+Dialogue: 0,0:20:52.37,0:20:56.38,Default,,0,0,0,,Vous n'avez pas pris rendez-vous\Ncar vous saviez que c'était inutile.
+Dialogue: 0,0:20:56.84,0:20:59.50,Default,,0,0,0,,Oui, car vous saviez déjà
+Dialogue: 0,0:20:59.88,0:21:01.63,Default,,0,0,0,,que M. Tawake allait mourir.
+Dialogue: 0,0:21:02.63,0:21:05.22,Default,,0,0,0,,Seul le tueur pouvait\Nle savoir à l'avance !
+Dialogue: 0,0:21:10.02,0:21:13.94,Default,,0,0,0,,Notre maître manquait souvent\Nses rendez-vous sans prévenir.
+Dialogue: 0,0:21:14.27,0:21:16.90,Default,,0,0,0,,Si j'avais pris ce dernier,
+Dialogue: 0,0:21:17.15,0:21:20.11,Default,,0,0,0,,il aurait encore\Nembêté ce pauvre dentiste.
+Dialogue: 0,0:21:21.86,0:21:25.20,Default,,0,0,0,,Je me suis donc dit\Nque je devais moi-même
+Dialogue: 0,0:21:25.36,0:21:29.66,Default,,0,0,0,,vaincre ce fichu Roi-sorcier\Nqui pourrissait son monde !
+Dialogue: 0,0:21:30.24,0:21:32.33,Default,,0,0,0,,Et ainsi nous libérer,
+Dialogue: 0,0:21:32.50,0:21:33.58,Default,,0,0,0,,tous les quatre...
+Dialogue: 0,0:21:34.16,0:21:35.62,Default,,0,0,0,,Je devais le faire...
+Dialogue: 0,0:21:35.96,0:21:37.71,Default,,0,0,0,,Je suis l'aîné du groupe...
+Dialogue: 0,0:21:52.02,0:21:55.48,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:58.02,0:22:00.73,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:23:05.46,0:23:09.30,Default,,0,0,0,,M. Tawake m'a bien déçu\Nquand j'ai appris
+Dialogue: 0,0:23:09.72,0:23:11.93,Default,,0,0,0,,qu'il faisait écrire ses romans.
+Dialogue: 0,0:23:12.10,0:23:17.02,Default,,0,0,0,,Comme ce détective qui fait\Nrésoudre les affaires à sa place.
+Dialogue: 0,0:23:17.43,0:23:19.14,Default,,0,0,0,,De quel détective tu parles ?
+Dialogue: 0,0:23:19.94,0:23:22.81,Default,,0,0,0,,Mince, j'ai comme un pic\Ndans la poitrine !
+Dialogue: 0,0:23:23.02,0:23:24.82,Default,,0,0,0,,{\i1}Il en souffrirait inconsciemment ?{\i0}
+Dialogue: 0,0:23:25.15,0:23:26.94,Default,,0,0,0,,Ah non, c'était un cure-dent !
+Dialogue: 0,0:23:27.11,0:23:29.03,Default,,0,0,0,,{\i1}Non, il a la conscience tranquille.{\i0}

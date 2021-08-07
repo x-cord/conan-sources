@@ -1,0 +1,405 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.50,0:00:03.42,Default,,0,0,0,,Ça sent bon.
+Dialogue: 0,0:00:04.37,0:00:06.42,Default,,0,0,0,,Voyons s'il est réussi.
+Dialogue: 0,0:00:09.50,0:00:10.67,Default,,0,0,0,,C'est délicieux.
+Dialogue: 0,0:00:13.26,0:00:14.68,Default,,0,0,0,,Et l'ingrédient secret...
+Dialogue: 0,0:00:19.35,0:00:22.35,Default,,0,0,0,,Alors, du porc, des patates...
+Dialogue: 0,0:00:22.81,0:00:24.35,Default,,0,0,0,,Des carottes, des oignons...
+Dialogue: 0,0:00:25.44,0:00:27.23,Default,,0,0,0,,- Du radis blanc !\N- Des bardanes !
+Dialogue: 0,0:00:29.32,0:00:30.28,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:00:30.65,0:00:31.74,Default,,0,0,0,,Dans un curry ?
+Dialogue: 0,0:00:32.28,0:00:36.16,Default,,0,0,0,,C'est une racine comme le radis\Net ça croque sous la dent.
+Dialogue: 0,0:00:36.99,0:00:37.82,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:00:38.28,0:00:42.25,Default,,0,0,0,,Reprenons...\NPoulet, bœuf, fruits de mer,
+Dialogue: 0,0:00:42.50,0:00:45.12,Default,,0,0,0,,champignons collybie et épinards.
+Dialogue: 0,0:00:47.67,0:00:49.00,Default,,0,0,0,,Et pour finir,
+Dialogue: 0,0:00:49.17,0:00:51.38,Default,,0,0,0,,une bonne dose d'amour !
+Dialogue: 0,0:00:51.55,0:00:53.13,Default,,0,0,0,,{\i1}Bonjour l'indigestion.{\i0}
+Dialogue: 0,0:00:57.72,0:00:58.39,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:01:01.97,0:01:04.39,ST_HAUT,,0,0,0,,Oui, j'en suis certain,
+Dialogue: 0,0:01:04.89,0:01:06.90,Default,,0,0,0,,c'est moi qui l'ai tué.\NPour sauver Erina...
+Dialogue: 0,0:01:07.06,0:01:09.98,Default,,0,0,0,,Non !\NShôhei n'a rien fait de mal !
+Dialogue: 0,0:01:10.77,0:01:14.07,Default,,0,0,0,,Calmez-vous et racontez-nous.
+Dialogue: 0,0:01:14.24,0:01:15.78,Default,,0,0,0,,Inspecteur Meguri.
+Dialogue: 0,0:01:17.20,0:01:19.49,Default,,0,0,0,,Sacré Môri, d'où tu sors ?
+Dialogue: 0,0:01:19.66,0:01:22.62,Default,,0,0,0,,S'il y a un crime,\NKogorô Môri n'est jamais loin !
+Dialogue: 0,0:01:22.87,0:01:26.71,Default,,0,0,0,,D'ailleurs M. l'inspecteur,\Nqu'aimez-vous mettre dans le curry ?
+Dialogue: 0,0:01:27.17,0:01:30.46,Default,,0,0,0,,Ce n'est pas le moment\Nde discuter cuisine.
+Dialogue: 0,0:01:34.17,0:01:35.59,ST_HAUT,,0,0,0,,{\i1}Le premier pas d'un long chemin,{\i0}
+Dialogue: 0,0:01:35.76,0:01:37.88,ST_HAUT,,0,0,0,,{\i1}1 000 mystères résolus,\Nen route vers un nouveau monde !{\i0}
+Dialogue: 0,0:01:38.13,0:01:39.59,Default,,0,0,0,,{\i1}Il défend son épouse adorée,{\i0}
+Dialogue: 0,0:01:39.76,0:01:41.68,Default,,0,0,0,,{\i1}mais quel est l'ingrédient secret ?{\i0}
+Dialogue: 0,0:01:41.93,0:01:45.31,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:45.48,0:01:47.94,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:49.06,0:01:51.27,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:02.53,0:02:04.08,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:02:05.00,0:02:06.83,ST_HAUT,,0,0,0,,Directeur artistique :\NJunichi Higashi
+Dialogue: 0,0:02:10.33,0:02:12.25,ST_HAUT_GAUCHE,,0,0,0,,Direction du son :\NY. Urakami, K. Urakami
+Dialogue: 0,0:02:14.30,0:02:16.21,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:02:21.01,0:02:22.97,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Zero kara hajimete"
+Dialogue: 0,0:02:25.18,0:02:27.39,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:28.77,0:02:30.90,ST_HAUT,,0,0,0,,Projet initial : Takenori Ichihara,\NNaota Machida
+Dialogue: 0,0:02:38.61,0:02:40.70,ST_HAUT,,0,0,0,,Producteurs : Isato Yonekura,\NKiyoaki Terashima
+Dialogue: 0,0:02:47.91,0:02:50.04,ST_HAUT,,0,0,0,,Chefs producteurs :\NKana Sasaki, Keiichi Ishiyama
+Dialogue: 0,0:02:56.63,0:02:59.30,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:03:10.64,0:03:13.02,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:15.98,0:03:18.07,Default,,0,0,0,,{\i1}L'homme qui aimait trop{\i0}
+Dialogue: 0,0:03:21.40,0:03:23.45,Default,,0,0,0,,Alors si j'ai bien compris,
+Dialogue: 0,0:03:23.66,0:03:27.95,Default,,0,0,0,,vous étiez partis acheter\Nle cadeau d'anniversaire d'Erina.
+Dialogue: 0,0:03:28.58,0:03:33.21,Default,,0,0,0,,Vous avez trouvé en rentrant\Nla fenêtre de l'entrée brisée.
+Dialogue: 0,0:03:33.38,0:03:36.25,ST_HAUT,,0,0,0,,Vous êtes entrés discrètement
+Dialogue: 0,0:03:36.42,0:03:38.17,Default,,0,0,0,,et vous avez vu
+Dialogue: 0,0:03:38.42,0:03:41.42,Default,,0,0,0,,un homme en train\Nde fouiller le salon.
+Dialogue: 0,0:03:41.59,0:03:42.80,Default,,0,0,0,,Un cambrioleur...
+Dialogue: 0,0:03:47.31,0:03:49.47,Default,,0,0,0,,Il vous a alors remarqués
+Dialogue: 0,0:03:49.64,0:03:53.02,ST_HAUT,,0,0,0,,et il s'est avancé vers Erina\Nen sortant un couteau.
+Dialogue: 0,0:03:54.73,0:03:58.82,Default,,0,0,0,,Mais Shôhei l'a défendue\Navec un club de golf.
+Dialogue: 0,0:03:59.73,0:04:01.28,Default,,0,0,0,,Le cambrioleur est mort
+Dialogue: 0,0:04:01.78,0:04:04.03,Default,,0,0,0,,en se cognant la tête\Nsur cet objet.
+Dialogue: 0,0:04:04.20,0:04:06.57,Default,,0,0,0,,Oui, c'est bien ça.\NC'est moi qui...
+Dialogue: 0,0:04:07.33,0:04:08.08,Default,,0,0,0,,C'est moi...
+Dialogue: 0,0:04:08.24,0:04:11.66,Default,,0,0,0,,Il voulait me protéger,\Nmais dans la panique...
+Dialogue: 0,0:04:12.62,0:04:16.13,Default,,0,0,0,,Nous avons pu déterminer\Nl'identité du défunt
+Dialogue: 0,0:04:16.29,0:04:17.54,Default,,0,0,0,,grâce à son portable.
+Dialogue: 0,0:04:17.79,0:04:20.05,Default,,0,0,0,,Susumu Masuoka, 38 ans.
+Dialogue: 0,0:04:20.55,0:04:24.26,Default,,0,0,0,,Il a déjà été arrêté trois fois\Npour vols
+Dialogue: 0,0:04:24.43,0:04:25.72,Default,,0,0,0,,et effractions.
+Dialogue: 0,0:04:25.89,0:04:27.60,Default,,0,0,0,,Il a donc des antécédents.
+Dialogue: 0,0:04:27.93,0:04:28.56,Default,,0,0,0,,Mais dis-moi,
+Dialogue: 0,0:04:28.85,0:04:31.06,Default,,0,0,0,,c'est le sac du macchabée ?
+Dialogue: 0,0:04:34.69,0:04:37.73,Default,,0,0,0,,Ces colliers et bracelets\Nsont à moi.
+Dialogue: 0,0:04:39.23,0:04:41.40,Default,,0,0,0,,Leur déposition tient debout.
+Dialogue: 0,0:04:41.57,0:04:42.28,Default,,0,0,0,,En effet,
+Dialogue: 0,0:04:42.74,0:04:46.45,Default,,0,0,0,,un mari défend sa femme\Net ça tourne au drame.
+Dialogue: 0,0:04:47.07,0:04:48.45,Default,,0,0,0,,C'est ce qu'il semblerait.
+Dialogue: 0,0:04:48.83,0:04:49.74,Default,,0,0,0,,Un conseil,
+Dialogue: 0,0:04:49.91,0:04:53.33,Default,,0,0,0,,témoignez en toute franchise\Nau commissariat.
+Dialogue: 0,0:04:53.87,0:04:58.59,Default,,0,0,0,,Si vous leur montrez\Ntout l'amour que vous portez à Erina,
+Dialogue: 0,0:04:58.79,0:05:00.63,Default,,0,0,0,,cela devrait bien se passer.
+Dialogue: 0,0:05:01.05,0:05:04.13,Default,,0,0,0,,Vous expierez\Nhonnêtement votre faute.
+Dialogue: 0,0:05:04.38,0:05:05.68,Default,,0,0,0,,Vous êtes d'accord ?
+Dialogue: 0,0:05:05.84,0:05:06.59,Default,,0,0,0,,Oui,
+Dialogue: 0,0:05:06.97,0:05:09.85,Default,,0,0,0,,tu n'auras pas\Nà t'endormir cette fois.
+Dialogue: 0,0:05:10.81,0:05:12.22,Default,,0,0,0,,Merci pour tout.
+Dialogue: 0,0:05:12.52,0:05:15.27,Default,,0,0,0,,- J'aurais d'autres questions...\N- Gamin,
+Dialogue: 0,0:05:15.44,0:05:16.39,Default,,0,0,0,,on va aux courses.
+Dialogue: 0,0:05:16.64,0:05:17.35,Default,,0,0,0,,OK.
+Dialogue: 0,0:05:21.19,0:05:23.11,Default,,0,0,0,,Tomates, avocats...
+Dialogue: 0,0:05:23.94,0:05:26.57,Default,,0,0,0,,Et pourquoi pas\Nun sauté de margose ?
+Dialogue: 0,0:05:26.74,0:05:30.24,Default,,0,0,0,,Un sauté, sans façon.\NMais de la margose, pourquoi pas.
+Dialogue: 0,0:05:33.04,0:05:34.29,Default,,0,0,0,,JOYEUX ANNIVERSAIRE
+Dialogue: 0,0:05:36.79,0:05:37.62,Default,,0,0,0,,{\i1}Une carte...{\i0}
+Dialogue: 0,0:05:38.50,0:05:39.79,Default,,0,0,0,,{\i1}d'anniversaire ?{\i0}
+Dialogue: 0,0:05:40.17,0:05:41.38,Default,,0,0,0,,{\i1}Reste ma superbe lady,\NShôhei.{\i0}
+Dialogue: 0,0:05:41.80,0:05:43.21,Default,,0,0,0,,Que fait-elle là ?
+Dialogue: 0,0:05:49.89,0:05:52.31,Default,,0,0,0,,Hé, qu'est-ce que tu fiches ?\NOn y va !
+Dialogue: 0,0:05:52.47,0:05:55.10,Default,,0,0,0,,Attends,\Nje vais passer aux toilettes.
+Dialogue: 0,0:05:56.27,0:05:56.94,Default,,0,0,0,,Franchement...
+Dialogue: 0,0:06:09.41,0:06:11.37,Default,,0,0,0,,{\i1}Une seule paire de chaussures ?{\i0}
+Dialogue: 0,0:06:12.45,0:06:13.41,Default,,0,0,0,,{\i1}Un sac de golf ?{\i0}
+Dialogue: 0,0:06:13.91,0:06:14.70,Default,,0,0,0,,{\i1}Ici ?{\i0}
+Dialogue: 0,0:06:14.87,0:06:16.08,Default,,0,0,0,,Oui, c'est ça,
+Dialogue: 0,0:06:16.58,0:06:17.41,Default,,0,0,0,,on est entrés
+Dialogue: 0,0:06:17.66,0:06:19.87,Default,,0,0,0,,par la porte de devant,\NErina et moi.
+Dialogue: 0,0:06:22.88,0:06:24.05,Default,,0,0,0,,{\i1}C'est faux,{\i0}
+Dialogue: 0,0:06:24.42,0:06:27.42,Default,,0,0,0,,{\i1}il est entré seul\Npar la porte arrière.{\i0}
+Dialogue: 0,0:06:28.47,0:06:30.09,Default,,0,0,0,,C'est toi, Conan ?
+Dialogue: 0,0:06:30.26,0:06:32.93,Default,,0,0,0,,Pardon,\Nje peux utiliser vos toilettes ?
+Dialogue: 0,0:06:33.18,0:06:33.89,Default,,0,0,0,,Je t'en prie.
+Dialogue: 0,0:06:34.22,0:06:35.35,Default,,0,0,0,,Merci.
+Dialogue: 0,0:06:49.24,0:06:50.82,Default,,0,0,0,,Dites, Erina...
+Dialogue: 0,0:06:52.16,0:06:53.66,Default,,0,0,0,,Qu'y a-t-il, mon garçon ?
+Dialogue: 0,0:06:53.87,0:06:56.91,Default,,0,0,0,,Il y a plein de photos de vous\Nsur l'étagère.
+Dialogue: 0,0:06:57.58,0:07:01.42,Default,,0,0,0,,Oui, mon mari\Nme photographie quotidiennement.
+Dialogue: 0,0:07:01.88,0:07:04.75,Default,,0,0,0,,Shôhei vous aime énormément.
+Dialogue: 0,0:07:04.92,0:07:05.63,Default,,0,0,0,,Oui,
+Dialogue: 0,0:07:06.00,0:07:09.34,Default,,0,0,0,,il me dit\Nqu'il m'aime tous les jours
+Dialogue: 0,0:07:09.51,0:07:11.09,Default,,0,0,0,,et il se dévoue pour moi.
+Dialogue: 0,0:07:12.01,0:07:15.47,Default,,0,0,0,,Je ne lui ai pourtant\Njamais dit en retour,
+Dialogue: 0,0:07:15.81,0:07:18.43,Default,,0,0,0,,mais je suis celle\Nqu'il aime le plus au monde.
+Dialogue: 0,0:07:19.39,0:07:21.23,Default,,0,0,0,,Mais en fait, c'est faux...
+Dialogue: 0,0:07:21.98,0:07:23.10,Default,,0,0,0,,Tout va bien ?
+Dialogue: 0,0:07:23.52,0:07:24.56,Default,,0,0,0,,Attention où tu marches !
+Dialogue: 0,0:07:27.07,0:07:29.69,Default,,0,0,0,,Je tiens beaucoup à ces tasses.
+Dialogue: 0,0:07:30.07,0:07:33.20,Default,,0,0,0,,Elles ont de la valeur,\Nelles viennent d'Europe.
+Dialogue: 0,0:07:33.41,0:07:34.78,Default,,0,0,0,,Je suis désolé...
+Dialogue: 0,0:07:35.16,0:07:38.83,Default,,0,0,0,,Une chance que vos tasses\Net photos soient intactes.
+Dialogue: 0,0:07:39.29,0:07:41.08,Default,,0,0,0,,Oui, c'est sûr !
+Dialogue: 0,0:07:41.58,0:07:42.46,Default,,0,0,0,,Erina !
+Dialogue: 0,0:07:42.62,0:07:45.34,Default,,0,0,0,,Puis-je vous poser\Nquelques questions ?
+Dialogue: 0,0:07:45.67,0:07:46.80,Default,,0,0,0,,J'arrive !
+Dialogue: 0,0:07:51.26,0:07:53.59,Default,,0,0,0,,{\i1}La maison est sens dessus dessous,{\i0}
+Dialogue: 0,0:07:54.18,0:07:56.51,Default,,0,0,0,,{\i1}mais leurs trésors sont indemnes.{\i0}
+Dialogue: 0,0:07:57.18,0:07:58.56,Default,,0,0,0,,{\i1}Simple coïncidence ?{\i0}
+Dialogue: 0,0:08:05.56,0:08:07.07,Default,,0,0,0,,{\i1}Seulement là ?{\i0}
+Dialogue: 0,0:08:10.57,0:08:12.11,Default,,0,0,0,,{\i1}Le fauteuil est tombé !{\i0}
+Dialogue: 0,0:08:14.20,0:08:17.12,Default,,0,0,0,,{\i1}Le cambrioleur était dessus ?{\i0}
+Dialogue: 0,0:08:18.70,0:08:20.87,Default,,0,0,0,,{\i1}Mais pourquoi se serait-il assis ?{\i0}
+Dialogue: 0,0:08:24.29,0:08:27.63,Default,,0,0,0,,{\i1}Tiens ?\NLe mur n'a pas la même couleur ici.{\i0}
+Dialogue: 0,0:08:29.00,0:08:30.63,Default,,0,0,0,,{\i1}Le calendrier a été déplacé.{\i0}
+Dialogue: 0,0:08:31.34,0:08:32.76,Default,,0,0,0,,{\i1}Que fait-il là ?{\i0}
+Dialogue: 0,0:08:35.55,0:08:36.68,Default,,0,0,0,,{\i1}C'est quoi, cet impact ?{\i0}
+Dialogue: 0,0:08:37.55,0:08:40.68,Default,,0,0,0,,{\i1}Le calendrier aurait été\Ndéplacé pour le cacher ?{\i0}
+Dialogue: 0,0:09:11.76,0:09:13.88,Default,,0,0,0,,{\i1}Cette histoire n'est pas{\i0}
+Dialogue: 0,0:09:14.22,0:09:15.55,Default,,0,0,0,,{\i1}un simple cambriolage !{\i0}
+Dialogue: 0,0:09:16.55,0:09:17.97,Default,,0,0,0,,{\i1}Ils mentent tous !{\i0}
+Dialogue: 0,0:09:19.14,0:09:20.22,Default,,0,0,0,,{\i1}Il s'est passé un truc !{\i0}
+Dialogue: 0,0:09:34.15,0:09:35.70,Default,,0,0,0,,{\i1}Que s'est-il passé ?{\i0}
+Dialogue: 0,0:09:36.24,0:09:38.07,Default,,0,0,0,,Tu me fais poireauter dehors
+Dialogue: 0,0:09:38.66,0:09:40.83,Default,,0,0,0,,et je te retrouve ici à traîner !
+Dialogue: 0,0:09:40.99,0:09:42.29,Default,,0,0,0,,Allez, on s'en va !
+Dialogue: 0,0:09:42.62,0:09:45.25,Default,,0,0,0,,Tiens ? Tu es encore là, toi ?
+Dialogue: 0,0:09:45.41,0:09:46.79,Default,,0,0,0,,Tu n'étais pas parti ?
+Dialogue: 0,0:09:46.96,0:09:48.88,Default,,0,0,0,,Non, désolé du dérangement,
+Dialogue: 0,0:09:49.04,0:09:50.59,Default,,0,0,0,,je file tout de suite !
+Dialogue: 0,0:09:50.75,0:09:52.17,Default,,0,0,0,,Oui, s'il te plaît.
+Dialogue: 0,0:09:52.50,0:09:54.17,Default,,0,0,0,,Viens, on décolle !
+Dialogue: 0,0:09:54.34,0:09:57.05,Default,,0,0,0,,Lâche-moi, tonton !\NIl y a du curry !
+Dialogue: 0,0:09:57.22,0:09:58.05,Default,,0,0,0,,Du curry ?
+Dialogue: 0,0:09:59.22,0:10:00.18,Default,,0,0,0,,Ah, mais c'est vrai !
+Dialogue: 0,0:10:00.64,0:10:02.68,Default,,0,0,0,,Ça sent bon les épices !
+Dialogue: 0,0:10:03.72,0:10:05.56,Default,,0,0,0,,L'odeur est alléchante,
+Dialogue: 0,0:10:05.73,0:10:07.69,Default,,0,0,0,,- c'est pour le dîner ?\N- Oui.
+Dialogue: 0,0:10:07.98,0:10:10.44,Default,,0,0,0,,On va faire un curry, nous aussi !
+Dialogue: 0,0:10:10.61,0:10:12.73,Default,,0,0,0,,Vous le préparez tous les deux ?
+Dialogue: 0,0:10:12.90,0:10:15.44,Default,,0,0,0,,Oui,\Nc'est toujours Ran qui cuisine,
+Dialogue: 0,0:10:15.61,0:10:18.20,Default,,0,0,0,,alors on voulait\Nlui faire une surprise.
+Dialogue: 0,0:10:18.53,0:10:21.95,Default,,0,0,0,,On se demandait comment faire\Nun curry réussi.
+Dialogue: 0,0:10:22.16,0:10:24.87,Default,,0,0,0,,Vous avez une recette maison ?
+Dialogue: 0,0:10:25.04,0:10:28.33,Default,,0,0,0,,Je serais ravi d'avoir vos conseils.
+Dialogue: 0,0:10:28.75,0:10:31.08,Default,,0,0,0,,Eh bien, en fait...
+Dialogue: 0,0:10:31.25,0:10:33.17,Default,,0,0,0,,Tu devrais leur dire, Erina !
+Dialogue: 0,0:10:34.13,0:10:36.46,Default,,0,0,0,,Donne-leur ton ingrédient secret !
+Dialogue: 0,0:10:36.88,0:10:38.05,Default,,0,0,0,,Son ingrédient secret ?
+Dialogue: 0,0:10:38.38,0:10:41.93,Default,,0,0,0,,Notre curry est toujours\Nun vrai délice.
+Dialogue: 0,0:10:42.10,0:10:43.85,Default,,0,0,0,,Avec l'ingrédient secret,
+Dialogue: 0,0:10:44.14,0:10:47.81,Default,,0,0,0,,je pourrais en manger\Ntous les jours sans me lasser !
+Dialogue: 0,0:10:48.06,0:10:49.35,Default,,0,0,0,,Hein, Erina ?
+Dialogue: 0,0:10:49.81,0:10:51.23,Default,,0,0,0,,Euh... oui.
+Dialogue: 0,0:10:51.56,0:10:53.90,Default,,0,0,0,,Alors, c'est quoi cet ingrédient ?
+Dialogue: 0,0:10:54.07,0:10:56.61,Default,,0,0,0,,Vous voulez bien nous le révéler ?
+Dialogue: 0,0:10:56.78,0:10:57.86,Default,,0,0,0,,Eh bien,
+Dialogue: 0,0:10:58.36,0:11:01.07,Default,,0,0,0,,l'ingrédient secret de mon curry...
+Dialogue: 0,0:11:03.66,0:11:05.12,Default,,0,0,0,,C'est de l'amour !
+Dialogue: 0,0:11:08.87,0:11:12.75,Default,,0,0,0,,Je le prépare en pensant\Nà mon mari que j'aime tant.
+Dialogue: 0,0:11:15.46,0:11:18.76,Default,,0,0,0,,S'il vous plaît, Erina,\Nje peux le goûter ?
+Dialogue: 0,0:11:18.92,0:11:19.59,Default,,0,0,0,,Ah non !
+Dialogue: 0,0:11:23.09,0:11:26.01,Default,,0,0,0,,Désolée, je ne suis pas sûre\Nde l'avoir réussi.
+Dialogue: 0,0:11:26.47,0:11:29.14,Default,,0,0,0,,Tu deviens malpoli, sacripant !
+Dialogue: 0,0:11:29.39,0:11:32.52,Default,,0,0,0,,Pardon, je suis vraiment désolé.
+Dialogue: 0,0:11:33.98,0:11:35.73,Default,,0,0,0,,{\i1}Qu'ont-ils fait brûler ?{\i0}
+Dialogue: 0,0:11:39.82,0:11:41.11,Default,,0,0,0,,{\i1}Ce doit être ça.{\i0}
+Dialogue: 0,0:11:46.79,0:11:47.49,Default,,0,0,0,,{\i1}Mais c'est...{\i0}
+Dialogue: 0,0:11:48.16,0:11:50.25,Default,,0,0,0,,Arrête tes bêtises, bon sang !
+Dialogue: 0,0:11:50.41,0:11:51.33,Default,,0,0,0,,Tonton !
+Dialogue: 0,0:11:51.75,0:11:52.87,Default,,0,0,0,,Regarde ça !
+Dialogue: 0,0:11:54.42,0:11:56.46,Default,,0,0,0,,Il y a quelque chose d'écrit.
+Dialogue: 0,0:11:57.75,0:11:58.80,Default,,0,0,0,,Voyons voir...
+Dialogue: 0,0:11:59.26,0:12:03.30,Default,,0,0,0,,"Je t'aime, je t'aime profondément."
+Dialogue: 0,0:12:03.68,0:12:04.84,Default,,0,0,0,,C'est quoi, ça ?
+Dialogue: 0,0:12:06.18,0:12:07.97,Default,,0,0,0,,C'est moi qui l'ai écrit.
+Dialogue: 0,0:12:08.14,0:12:09.47,Default,,0,0,0,,C'est de vous, Shôhei ?
+Dialogue: 0,0:12:09.72,0:12:12.23,Default,,0,0,0,,Oui, lisez la suite.
+Dialogue: 0,0:12:12.48,0:12:13.48,Default,,0,0,0,,La suite ?
+Dialogue: 0,0:12:14.15,0:12:17.86,Default,,0,0,0,,"Partons au lac Yamanaka\Naujourd'hui."
+Dialogue: 0,0:12:18.32,0:12:22.45,Default,,0,0,0,,Je voulais l'emmener en voyage\Npour son anniversaire,
+Dialogue: 0,0:12:22.61,0:12:25.32,Default,,0,0,0,,mais je ne savais pas bien\Ncomment lui dire,
+Dialogue: 0,0:12:25.49,0:12:27.83,Default,,0,0,0,,alors j'ai écrit le texte et répété.
+Dialogue: 0,0:12:28.08,0:12:31.37,Default,,0,0,0,,Le lac Yamanaka\Nest une destination prisée.
+Dialogue: 0,0:12:31.87,0:12:36.38,Default,,0,0,0,,Vous lui dites pourtant\Ntous les jours que vous l'aimez,
+Dialogue: 0,0:12:36.75,0:12:39.13,Default,,0,0,0,,vous aviez besoin de répéter ?
+Dialogue: 0,0:12:41.42,0:12:43.97,Default,,0,0,0,,Shôhei a bien écrit cette note,
+Dialogue: 0,0:12:44.26,0:12:48.14,Default,,0,0,0,,il n'y a que lui pour déclarer ainsi\Nson amour à Erina.
+Dialogue: 0,0:12:51.06,0:12:53.89,Default,,0,0,0,,{\i1}Non, ce n'est pas son écriture.{\i0}
+Dialogue: 0,0:12:54.52,0:12:56.81,Default,,0,0,0,,{\i1}Ce serait celle de Masuoka ?{\i0}
+Dialogue: 0,0:12:57.86,0:12:58.90,Default,,0,0,0,,{\i1}Peut-être qu'en fait{\i0}
+Dialogue: 0,0:12:59.19,0:13:01.82,Default,,0,0,0,,{\i1}Erina était assise en face de lui !{\i0}
+Dialogue: 0,0:13:02.11,0:13:03.53,Default,,0,0,0,,{\i1}Et ils étaient seuls.{\i0}
+Dialogue: 0,0:13:04.61,0:13:05.78,Default,,0,0,0,,{\i1}"Je t'aime."{\i0}
+Dialogue: 0,0:13:09.83,0:13:14.04,Default,,0,0,0,,Le cambrioleur est bien mort\Nen se cognant la tête là-dessus ?
+Dialogue: 0,0:13:14.21,0:13:15.87,Default,,0,0,0,,Oui, et alors ?
+Dialogue: 0,0:13:16.04,0:13:18.42,Default,,0,0,0,,C'est une ancre de bateau, non ?
+Dialogue: 0,0:13:18.84,0:13:20.71,Default,,0,0,0,,Une ancre ?
+Dialogue: 0,0:13:21.30,0:13:23.05,Default,,0,0,0,,Regarde, elle pèse 3 kg.
+Dialogue: 0,0:13:23.76,0:13:25.51,Default,,0,0,0,,Shôhei, Erina,
+Dialogue: 0,0:13:25.68,0:13:28.05,Default,,0,0,0,,qu'est-ce que ça fait\Ndans votre salon ?
+Dialogue: 0,0:13:28.76,0:13:30.81,Default,,0,0,0,,Eh bien, vous voyez, je...
+Dialogue: 0,0:13:31.01,0:13:32.47,Default,,0,0,0,,Vous en avez acheté un,
+Dialogue: 0,0:13:33.52,0:13:35.19,Default,,0,0,0,,vous avez carrément un bateau !
+Dialogue: 0,0:13:35.69,0:13:38.81,Default,,0,0,0,,En fait,\Nje pensais en faire l'acquisition.
+Dialogue: 0,0:13:40.07,0:13:41.15,Default,,0,0,0,,{\i1}Là,{\i0}
+Dialogue: 0,0:13:41.61,0:13:43.07,Default,,0,0,0,,{\i1}c'est une fibre de corde.{\i0}
+Dialogue: 0,0:13:45.24,0:13:49.20,Default,,0,0,0,,Ce ne serait pas le cambrioleur\Nqui l'aurait amenée ?
+Dialogue: 0,0:13:49.95,0:13:51.41,Default,,0,0,0,,Le cambrioleur ?
+Dialogue: 0,0:13:51.95,0:13:53.45,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:13:55.83,0:13:56.75,Default,,0,0,0,,En fait...
+Dialogue: 0,0:13:58.92,0:14:01.63,Default,,0,0,0,,Je suis navré,\Nmais vous allez devoir
+Dialogue: 0,0:14:01.80,0:14:05.09,Default,,0,0,0,,nous suivre au commissariat\Navec votre femme
+Dialogue: 0,0:14:05.26,0:14:07.51,Default,,0,0,0,,pour nous donner plus de détails.
+Dialogue: 0,0:14:08.13,0:14:10.93,Default,,0,0,0,,Mais chéri,\Ntu dois prendre ton médicament.
+Dialogue: 0,0:14:11.10,0:14:12.51,Default,,0,0,0,,- Mon médicament ?\N- Mais oui,
+Dialogue: 0,0:14:12.97,0:14:14.10,Default,,0,0,0,,ça presse !
+Dialogue: 0,0:14:14.81,0:14:18.65,Default,,0,0,0,,Il a une maladie chronique,\Nle remède est dans notre chambre.
+Dialogue: 0,0:14:18.98,0:14:20.02,Default,,0,0,0,,Dépêche-toi.
+Dialogue: 0,0:14:27.24,0:14:30.24,Default,,0,0,0,,Tu as failli leur dire la vérité.
+Dialogue: 0,0:14:30.53,0:14:32.62,Default,,0,0,0,,Non, c'est juste que...
+Dialogue: 0,0:14:32.83,0:14:35.12,Default,,0,0,0,,C'est pas le moment, ressaisis-toi !
+Dialogue: 0,0:14:35.66,0:14:37.75,Default,,0,0,0,,Pardon, je vais faire attention.
+Dialogue: 0,0:14:40.71,0:14:44.50,Default,,0,0,0,,Je ferais n'importe quoi\Npour toi, je te le jure !
+Dialogue: 0,0:14:44.67,0:14:46.88,Default,,0,0,0,,Si tu savais comme je t'aime.
+Dialogue: 0,0:14:49.09,0:14:51.39,Default,,0,0,0,,C'est ce que je déteste chez toi !
+Dialogue: 0,0:14:51.80,0:14:55.27,Default,,0,0,0,,Il vaudrait mieux\Nque tu disparaisses !
+Dialogue: 0,0:14:55.56,0:14:57.77,Default,,0,0,0,,C'est pour ça\Nque j'ai fait appel à lui !
+Dialogue: 0,0:14:58.27,0:15:01.35,Default,,0,0,0,,"Faire appel à lui" ?\N"Qu'il disparaisse" ?
+Dialogue: 0,0:15:03.02,0:15:03.65,Default,,0,0,0,,{\i1}Mince !{\i0}
+Dialogue: 0,0:15:05.53,0:15:07.24,Default,,0,0,0,,Je te trouve enfin !
+Dialogue: 0,0:15:07.40,0:15:09.28,Default,,0,0,0,,On s'en va !\NOn a des courses à faire !
+Dialogue: 0,0:15:10.66,0:15:13.32,Default,,0,0,0,,Désolés d'avoir traîné\Nsi longtemps, Inspecteur.
+Dialogue: 0,0:15:14.03,0:15:16.54,Default,,0,0,0,,Sale garnement !\NJe t'attends dans l'entrée.
+Dialogue: 0,0:15:17.04,0:15:18.16,Default,,0,0,0,,Pardon du dérangement,
+Dialogue: 0,0:15:18.33,0:15:20.67,Default,,0,0,0,,nous allons maintenant vous laisser.
+Dialogue: 0,0:15:21.75,0:15:22.83,Default,,0,0,0,,Rentrez bien.
+Dialogue: 0,0:15:23.21,0:15:24.96,Default,,0,0,0,,Comptez sur moi !\NAu revoir !
+Dialogue: 0,0:15:39.98,0:15:42.31,Default,,0,0,0,,- Vous allez bien ?\N- Que t'arrive-t-il ?
+Dialogue: 0,0:15:42.81,0:15:45.94,Default,,0,0,0,,Je ne partirai qu'après avoir\Nrésolu cette affaire.
+Dialogue: 0,0:15:46.36,0:15:47.44,Default,,0,0,0,,Que dites-vous ?
+Dialogue: 0,0:15:47.61,0:15:50.07,Default,,0,0,0,,Il n'y a rien de plus à élucider !
+Dialogue: 0,0:15:50.28,0:15:53.95,Default,,0,0,0,,Shôhei l'a tué en légitime défense\Npour protéger Erina.
+Dialogue: 0,0:15:54.12,0:15:55.33,Default,,0,0,0,,"Légitime défense",
+Dialogue: 0,0:15:55.95,0:15:59.45,Default,,0,0,0,,c'est à première vue\Nle scénario le plus évident.
+Dialogue: 0,0:15:59.95,0:16:03.88,Default,,0,0,0,,Mais Shôhei et Erina\Nont fait de faux témoignages,
+Dialogue: 0,0:16:04.38,0:16:07.46,Default,,0,0,0,,ils nous ont menés en bateau.
+Dialogue: 0,0:16:08.96,0:16:09.88,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:16:10.22,0:16:12.97,Default,,0,0,0,,Ils auraient menti ?\NTu délires ou quoi ?
+Dialogue: 0,0:16:13.43,0:16:14.80,Default,,0,0,0,,J'ai trouvé par terre
+Dialogue: 0,0:16:15.35,0:16:18.10,Default,,0,0,0,,une carte d'anniversaire pour Erina
+Dialogue: 0,0:16:18.31,0:16:20.43,Default,,0,0,0,,près de la porte d'entrée.
+Dialogue: 0,0:16:21.02,0:16:25.02,Default,,0,0,0,,J'ai aussi vu les traces de Shôhei\Nmenant à la porte arrière.
+Dialogue: 0,0:16:25.77,0:16:28.32,Default,,0,0,0,,Vous êtes sorti et rentré seul
+Dialogue: 0,0:16:28.57,0:16:30.94,Default,,0,0,0,,par la porte arrière, n'est-ce pas ?
+Dialogue: 0,0:16:31.61,0:16:35.07,Default,,0,0,0,,Le bas de votre pantalon\Nest couvert de boue.
+Dialogue: 0,0:16:37.58,0:16:39.37,Default,,0,0,0,,Vous étiez donc seul !
+Dialogue: 0,0:16:39.54,0:16:42.50,Default,,0,0,0,,Et où se trouvait Erina\Npendant ce temps ?
+Dialogue: 0,0:16:43.04,0:16:45.63,Default,,0,0,0,,Elle rencontrait Masuoka ici même.
+Dialogue: 0,0:16:46.92,0:16:50.80,Default,,0,0,0,,Elle voyait Masuoka ?\NMais que faisait-elle avec lui ?
+Dialogue: 0,0:16:51.38,0:16:53.80,Default,,0,0,0,,Ce n'était pas un cambrioleur.
+Dialogue: 0,0:16:54.34,0:16:55.80,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:16:56.09,0:16:57.47,Default,,0,0,0,,Je vais m'expliquer.
+Dialogue: 0,0:16:58.05,0:16:59.93,Default,,0,0,0,,Masuoka a demandé à Erina
+Dialogue: 0,0:17:00.10,0:17:02.89,Default,,0,0,0,,d'inviter Shôhei pour un voyage.
+Dialogue: 0,0:17:03.39,0:17:05.35,Default,,0,0,0,,Il devait le tuer là-bas au couteau
+Dialogue: 0,0:17:05.69,0:17:09.07,Default,,0,0,0,,et faire couler son corps\Ndans le lac avec l'ancre.
+Dialogue: 0,0:17:09.52,0:17:12.32,Default,,0,0,0,,Mais Erina était bien embarrassée,
+Dialogue: 0,0:17:12.57,0:17:15.57,Default,,0,0,0,,elle ne savait pas\Ncomment s'y prendre pour l'inviter.
+Dialogue: 0,0:17:16.11,0:17:18.41,Default,,0,0,0,,Elle ne lui avait jamais dit\N"je t'aime".
+Dialogue: 0,0:17:18.62,0:17:22.00,Default,,0,0,0,,{\i1}Je ne lui ai pourtant\Njamais dit en retour.{\i0}
+Dialogue: 0,0:17:22.79,0:17:26.67,Default,,0,0,0,,Masuoka a donc rédigé le texte\Npour qu'Erina s'entraîne.
+Dialogue: 0,0:17:27.17,0:17:28.92,Default,,0,0,0,,Voilà l'origine de la note.
+Dialogue: 0,0:17:29.46,0:17:32.96,Default,,0,0,0,,"Je t'aime, je t'aime profondément."
+Dialogue: 0,0:17:33.67,0:17:35.47,Default,,0,0,0,,Le drame est alors arrivé :
+Dialogue: 0,0:17:35.76,0:17:38.09,Default,,0,0,0,,Shôhei est rentré.
+Dialogue: 0,0:17:38.39,0:17:40.60,Default,,0,0,0,,Il a cru que vous le trompiez.
+Dialogue: 0,0:17:40.89,0:17:43.10,Default,,0,0,0,,- Que vous...\N- ... le trompiez ?
+Dialogue: 0,0:17:48.90,0:17:52.03,Default,,0,0,0,,{\i1}Oui, mettez-y de l'émotion.{\i0}
+Dialogue: 0,0:17:52.53,0:17:54.11,Default,,0,0,0,,{\i1}De l'émotion...{\i0}
+Dialogue: 0,0:17:54.28,0:17:55.53,Default,,0,0,0,,{\i1}C'est ça, madame.{\i0}
+Dialogue: 0,0:17:56.28,0:17:57.86,Default,,0,0,0,,{\i1}Dites "je t'aime".{\i0}
+Dialogue: 0,0:17:59.37,0:17:59.95,Default,,0,0,0,,{\i1}Oui,{\i0}
+Dialogue: 0,0:18:01.16,0:18:02.24,Default,,0,0,0,,{\i1}"je t'aime."{\i0}
+Dialogue: 0,0:18:02.54,0:18:04.29,Default,,0,0,0,,{\i1}"Je t'aime, je t'aime profondément."{\i0}
+Dialogue: 0,0:18:04.50,0:18:05.79,Default,,0,0,0,,{\i1}"Je t'aime"...{\i0}
+Dialogue: 0,0:18:06.08,0:18:09.21,Default,,0,0,0,,{\i1}Erina aime cet homme ?{\i0}
+Dialogue: 0,0:18:25.60,0:18:29.56,Default,,0,0,0,,La colère de Shôhei\Ns'est tournée vers Erina.
+Dialogue: 0,0:18:29.77,0:18:31.73,Default,,0,0,0,,{\i1}Tu m'as trompé\Navec un type pareil...{\i0}
+Dialogue: 0,0:18:31.90,0:18:35.15,Default,,0,0,0,,{\i1}Alors que je t'aime à la folie,\NErina !{\i0}
+Dialogue: 0,0:18:35.40,0:18:37.28,Default,,0,0,0,,{\i1}Dis-moi que c'est faux, Erina !{\i0}
+Dialogue: 0,0:18:37.45,0:18:41.12,Default,,0,0,0,,{\i1}Tu t'es fourrée avec cet homme,\Nalors que tu m'as moi pour mari !{\i0}
+Dialogue: 0,0:18:45.70,0:18:47.87,Default,,0,0,0,,L'impact est caché derrière moi
+Dialogue: 0,0:18:48.12,0:18:50.04,Default,,0,0,0,,sous le calendrier.
+Dialogue: 0,0:18:50.29,0:18:52.04,Default,,0,0,0,,Vous vérifierez vous-même.
+Dialogue: 0,0:18:52.21,0:18:54.92,Default,,0,0,0,,Une minute, Môri !\NJe ne comprends plus !
+Dialogue: 0,0:18:55.63,0:18:58.30,Default,,0,0,0,,L'inviter en voyage ?\NLe tuer et le couler ?
+Dialogue: 0,0:18:58.47,0:19:00.18,Default,,0,0,0,,C'est quoi, cette histoire ?
+Dialogue: 0,0:19:00.34,0:19:02.93,Default,,0,0,0,,Qu'est-ce qu'Erina\Na demandé à Masuoka ?
+Dialogue: 0,0:19:03.47,0:19:05.97,Default,,0,0,0,,Alors que je cherchais Conan\Ntout à l'heure,
+Dialogue: 0,0:19:06.27,0:19:09.19,Default,,0,0,0,,j'ai entendu leur discussion\Ndans la chambre.
+Dialogue: 0,0:19:09.73,0:19:13.06,Default,,0,0,0,,{\i1}Il vaudrait mieux\Nque tu disparaisses !{\i0}
+Dialogue: 0,0:19:13.48,0:19:15.57,Default,,0,0,0,,{\i1}C'est pour ça\Nque j'ai fait appel à lui !{\i0}
+Dialogue: 0,0:19:16.32,0:19:18.07,Default,,0,0,0,,"Elle a fait appel à lui" ?
+Dialogue: 0,0:19:18.70,0:19:20.95,Default,,0,0,0,,"Il vaudrait mieux qu'il disparaisse" ?
+Dialogue: 0,0:19:21.53,0:19:22.32,Default,,0,0,0,,Erina,
+Dialogue: 0,0:19:22.70,0:19:26.45,Default,,0,0,0,,vous avez demandé à Masuoka\Nd'assassiner Shôhei.
+Dialogue: 0,0:19:26.83,0:19:28.46,Default,,0,0,0,,Un contrat
+Dialogue: 0,0:19:28.79,0:19:30.50,Default,,0,0,0,,pour tuer Shôhei ?
+Dialogue: 0,0:19:30.79,0:19:31.75,Default,,0,0,0,,C'est faux !
+Dialogue: 0,0:19:32.29,0:19:34.13,Default,,0,0,0,,Je n'ai jamais fait ça !
+Dialogue: 0,0:19:34.29,0:19:35.38,Default,,0,0,0,,Inspecteur Takagi,
+Dialogue: 0,0:19:35.84,0:19:37.80,Default,,0,0,0,,cherchez au fond du curry.
+Dialogue: 0,0:19:40.93,0:19:41.63,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:19:43.93,0:19:44.72,Default,,0,0,0,,Erina,
+Dialogue: 0,0:19:45.18,0:19:47.31,Default,,0,0,0,,voilà donc l'ingrédient secret
+Dialogue: 0,0:19:47.68,0:19:49.35,Default,,0,0,0,,préparé pour Shôhei ?
+Dialogue: 0,0:19:50.64,0:19:52.27,Default,,0,0,0,,En l'absence de Shôhei,
+Dialogue: 0,0:19:52.52,0:19:55.48,Default,,0,0,0,,Erina a fait venir Masuoka\Npour le payer
+Dialogue: 0,0:19:55.82,0:19:58.90,Default,,0,0,0,,afin qu'il exécute le meurtre.
+Dialogue: 0,0:19:59.86,0:20:00.65,Default,,0,0,0,,C'est faux !
+Dialogue: 0,0:20:01.40,0:20:03.37,Default,,0,0,0,,Il y a du sang sur ces billets,
+Dialogue: 0,0:20:03.70,0:20:05.62,Default,,0,0,0,,c'est sûrement celui de Masuoka.
+Dialogue: 0,0:20:06.20,0:20:10.04,Default,,0,0,0,,Si on les analyse, il devrait y avoir\Naussi vos empreintes.
+Dialogue: 0,0:20:12.92,0:20:14.83,Default,,0,0,0,,Après la mort de Masuoka,
+Dialogue: 0,0:20:15.25,0:20:18.76,Default,,0,0,0,,il restait nombre de preuves\Nde son projet de meurtre
+Dialogue: 0,0:20:19.13,0:20:22.18,Default,,0,0,0,,et Erina n'a pas pu\Nlui cacher la vérité.
+Dialogue: 0,0:20:22.88,0:20:27.06,Default,,0,0,0,,Elle lui a donc demandé\Nde donner un faux témoignage.
+Dialogue: 0,0:20:27.93,0:20:30.43,Default,,0,0,0,,{\i1}Pardon, je suis désolé, Erina...{\i0}
+Dialogue: 0,0:20:30.64,0:20:32.10,Default,,0,0,0,,{\i1}Que dois-je faire ?{\i0}
+Dialogue: 0,0:20:32.73,0:20:36.36,Default,,0,0,0,,{\i1}Si la police apprend\Nque je comptais te tuer,{\i0}
+Dialogue: 0,0:20:36.52,0:20:37.82,Default,,0,0,0,,{\i1}je suis finie...{\i0}
+Dialogue: 0,0:20:38.02,0:20:40.07,Default,,0,0,0,,{\i1}Erina, que dois-je faire ?{\i0}
+Dialogue: 0,0:20:42.40,0:20:43.70,Default,,0,0,0,,{\i1}Tu dois mentir.{\i0}
+Dialogue: 0,0:20:45.03,0:20:48.08,Default,,0,0,0,,{\i1}Si tu m'aimes plus que tout,{\i0}
+Dialogue: 0,0:20:49.79,0:20:50.58,Default,,0,0,0,,{\i1}alors mens !{\i0}
+Dialogue: 0,0:20:52.00,0:20:53.16,Default,,0,0,0,,{\i1}Fais-le pour moi.{\i0}
+Dialogue: 0,0:20:56.88,0:20:59.05,Default,,0,0,0,,Ce n'est pas ma faute.
+Dialogue: 0,0:20:59.21,0:21:01.21,Default,,0,0,0,,Oui, elle n'a rien fait de mal !
+Dialogue: 0,0:21:02.88,0:21:05.01,Default,,0,0,0,,Tout est de ma faute !
+Dialogue: 0,0:21:05.39,0:21:08.26,Default,,0,0,0,,Je n'ai pas su devenir\Nle mari qu'elle désirait.
+Dialogue: 0,0:21:08.76,0:21:11.18,Default,,0,0,0,,Je n'ai pas su mourir pour elle.
+Dialogue: 0,0:21:11.43,0:21:14.69,Default,,0,0,0,,Je n'ai pas pu\Nprotéger son mensonge.
+Dialogue: 0,0:21:15.02,0:21:15.60,Default,,0,0,0,,Alors,
+Dialogue: 0,0:21:16.69,0:21:19.19,Default,,0,0,0,,ce n'est pas sa faute...
+Dialogue: 0,0:21:20.98,0:21:23.07,Default,,0,0,0,,Hein ? Erina...
+Dialogue: 0,0:21:23.90,0:21:26.41,Default,,0,0,0,,Ma précieuse Erina...
+Dialogue: 0,0:21:32.08,0:21:33.54,Default,,0,0,0,,Tu me dégoûtes.
+Dialogue: 0,0:21:44.30,0:21:47.76,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:50.31,0:21:53.02,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:59.83,0:23:03.71,Default,,0,0,0,,Il est vraiment réussi !\NTu sais y faire quand tu t'y mets !
+Dialogue: 0,0:23:03.88,0:23:06.55,Default,,0,0,0,,Bien entendu !\NPour moi, rien n'est impossible.
+Dialogue: 0,0:23:07.05,0:23:10.43,ST_HAUT,,0,0,0,,Ajoutons maintenant\Nl'ingrédient secret : un peu de sel !
+Dialogue: 0,0:23:10.59,0:23:11.55,ST_HAUT,,0,0,0,,C'est trop salé.
+Dialogue: 0,0:23:11.72,0:23:13.05,ST_HAUT,,0,0,0,,Hein ? Du sucre alors !
+Dialogue: 0,0:23:13.22,0:23:14.06,ST_HAUT,,0,0,0,,Trop sucré !
+Dialogue: 0,0:23:14.22,0:23:15.06,ST_HAUT,,0,0,0,,Du vinaigre !
+Dialogue: 0,0:23:15.22,0:23:16.52,ST_HAUT,,0,0,0,,De la sauce {\i1}yakiniku{\i0} ?
+Dialogue: 0,0:23:16.68,0:23:18.98,ST_HAUT,,0,0,0,,Non, il faut du wasabi !
+Dialogue: 0,0:23:19.14,0:23:20.52,ST_HAUT,,0,0,0,,Et du piment doux ?
+Dialogue: 0,0:23:20.69,0:23:23.06,ST_HAUT,,0,0,0,,Oui, et de l'œuf pour finir !
+Dialogue: 0,0:23:24.32,0:23:25.86,Default,,0,0,0,,Allô ? Ran ?
+Dialogue: 0,0:23:26.03,0:23:28.53,Default,,0,0,0,,Tu peux acheter à manger\Nen rentrant ?
+Dialogue: 0,0:23:29.03,0:23:30.07,Default,,0,0,0,,Beurk !

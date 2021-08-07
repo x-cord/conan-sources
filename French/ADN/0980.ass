@@ -1,0 +1,435 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.67,0:00:06.84,Default,,0,0,0,,Bienvenue.
+Dialogue: 0,0:00:07.25,0:00:10.34,Default,,0,0,0,,Dans cet endroit,\Nvos souhaits se réaliseront.
+Dialogue: 0,0:00:11.72,0:00:12.88,Default,,0,0,0,,Ah oui ?
+Dialogue: 0,0:00:13.80,0:00:15.89,ST_HAUT,,0,0,0,,Mes souhaits, vraiment ?
+Dialogue: 0,0:00:16.59,0:00:19.39,Default,,0,0,0,,C'est forcément la raison\Nde votre venue.
+Dialogue: 0,0:00:19.56,0:00:21.56,Default,,0,0,0,,Faites-moi simplement confiance.
+Dialogue: 0,0:00:21.73,0:00:24.14,Default,,0,0,0,,Si vous suivez mes instructions...
+Dialogue: 0,0:00:24.56,0:00:27.86,Default,,0,0,0,,... "vous réaliserez le crime parfait".
+Dialogue: 0,0:00:28.44,0:00:29.27,Default,,0,0,0,,J'ai bon ?
+Dialogue: 0,0:00:29.69,0:00:31.03,Default,,0,0,0,,Tout à fait.
+Dialogue: 0,0:00:31.23,0:00:35.11,Default,,0,0,0,,Je suis le Professeur Moriarty\Nde notre temps.
+Dialogue: 0,0:00:35.32,0:00:39.20,Default,,0,0,0,,Mon travail consiste\Nà offrir le crime parfait
+Dialogue: 0,0:00:39.37,0:00:41.29,Default,,0,0,0,,aux personnes comme vous.
+Dialogue: 0,0:00:41.66,0:00:43.04,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:00:46.79,0:00:50.75,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:00:51.00,0:00:54.13,Default,,0,0,0,,{\i1}Une diction au rythme fluide\Npour un raisonnement parfait !{\i0}
+Dialogue: 0,0:00:54.30,0:00:56.18,Default,,0,0,0,,{\i1}Un créateur de crime,{\i0}
+Dialogue: 0,0:00:56.34,0:00:58.01,Default,,0,0,0,,{\i1}tonton est l'appât parfait !{\i0}
+Dialogue: 0,0:00:58.18,0:01:01.47,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:01.64,0:01:03.85,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:29.04,0:01:31.09,ST_HAUT_GAUCHE,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:01:36.17,0:01:38.01,ST_HAUT_DROITE,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:40.39,0:01:42.39,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:48.06,0:01:50.19,ST_HAUT_DROITE,,0,0,0,,Générique d'ouverture :\N"Makkana Lip"
+Dialogue: 0,0:01:53.11,0:01:54.86,ST_HAUT_DROITE,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:01:56.86,0:01:58.57,ST_HAUT_DROITE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:02.74,0:02:04.66,ST_HAUT_GAUCHE,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:07.46,0:02:09.12,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:15.42,0:02:17.55,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:28.77,0:02:31.19,Default,,0,0,0,,{\i1}L'Appel du crime parfait{\i0}
+Dialogue: 0,0:02:34.90,0:02:36.74,Default,,0,0,0,,Oui, c'est cela.
+Dialogue: 0,0:02:37.15,0:02:41.24,Default,,0,0,0,,Il y a une vague\Nde crimes étranges en ville.
+Dialogue: 0,0:02:43.07,0:02:44.03,Default,,0,0,0,,Voyons...
+Dialogue: 0,0:02:44.45,0:02:48.08,Default,,0,0,0,,Arnaque au mariage,\Nbraquage de banque et cambriolage.
+Dialogue: 0,0:02:48.46,0:02:50.75,Default,,0,0,0,,Ces crimes semblent sans rapport
+Dialogue: 0,0:02:50.92,0:02:53.84,Default,,0,0,0,,mais ils ont tous un point commun.
+Dialogue: 0,0:02:54.34,0:02:55.88,Default,,0,0,0,,Regardez cette notice.
+Dialogue: 0,0:02:57.34,0:02:58.34,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:02:58.88,0:03:01.38,Default,,0,0,0,,... un guide pour réaliser un crime.
+Dialogue: 0,0:03:02.01,0:03:04.39,Default,,0,0,0,,Les accusés clament tous
+Dialogue: 0,0:03:04.68,0:03:06.85,Default,,0,0,0,,avoir acheté un plan d'action
+Dialogue: 0,0:03:07.02,0:03:09.64,Default,,0,0,0,,auprès d'un certain\N"conseiller en crime".
+Dialogue: 0,0:03:10.02,0:03:11.02,Default,,0,0,0,,De mieux en mieux,
+Dialogue: 0,0:03:11.19,0:03:14.27,Default,,0,0,0,,c'est nouveau\Ndans les milieux criminels ?
+Dialogue: 0,0:03:14.69,0:03:17.90,Default,,0,0,0,,Ce conseiller en crime autoproclamé
+Dialogue: 0,0:03:18.07,0:03:19.86,Default,,0,0,0,,est extrêmement prudent,
+Dialogue: 0,0:03:20.03,0:03:23.32,Default,,0,0,0,,nous venons seulement\Nde le localiser.
+Dialogue: 0,0:03:23.62,0:03:27.04,Default,,0,0,0,,Nous avons une faveur\Nà vous demander à ce sujet.
+Dialogue: 0,0:03:27.49,0:03:29.08,Default,,0,0,0,,Laquelle, dites-moi ?
+Dialogue: 0,0:03:30.66,0:03:32.12,Default,,0,0,0,,Une opération d'infiltration.
+Dialogue: 0,0:03:33.04,0:03:36.29,Default,,0,0,0,,En bref,\Nvous serez notre conseiller.
+Dialogue: 0,0:03:36.75,0:03:39.76,Default,,0,0,0,,C'est une enquête hors-norme
+Dialogue: 0,0:03:39.92,0:03:42.30,Default,,0,0,0,,et votre aide sera précieuse.
+Dialogue: 0,0:03:42.93,0:03:44.01,Default,,0,0,0,,Je vois,
+Dialogue: 0,0:03:44.30,0:03:48.22,Default,,0,0,0,,il vous faut\Nle meilleur conseiller qui soit.
+Dialogue: 0,0:03:48.72,0:03:51.39,Default,,0,0,0,,{\i1}Espérons qu'il ait\Ndes conseils à donner.{\i0}
+Dialogue: 0,0:03:51.73,0:03:54.48,Default,,0,0,0,,Mais tu m'expliques\Npourquoi t'es là ?
+Dialogue: 0,0:03:54.65,0:03:55.56,Default,,0,0,0,,Eh bien,
+Dialogue: 0,0:03:55.73,0:04:00.11,Default,,0,0,0,,vous aurez moins l'air de policiers\Nsi je suis là.
+Dialogue: 0,0:04:00.57,0:04:03.78,Default,,0,0,0,,Quel criminel\Nemmènerait son marmot ?
+Dialogue: 0,0:04:04.41,0:04:06.41,Default,,0,0,0,,Laissez-le venir, M. Môri.
+Dialogue: 0,0:04:06.57,0:04:09.79,Default,,0,0,0,,Les affaires se résolvent\Ncomme par magie quand il est là.
+Dialogue: 0,0:04:14.17,0:04:16.04,Default,,0,0,0,,Voilà donc son agence ?
+Dialogue: 0,0:04:16.67,0:04:18.84,Default,,0,0,0,,Oui, il n'y a pas de doute.
+Dialogue: 0,0:04:19.05,0:04:20.71,Default,,0,0,0,,- Entrons.\N- Entendu.
+Dialogue: 0,0:04:20.88,0:04:22.97,Default,,0,0,0,,À vous de jouer, M. Môri.
+Dialogue: 0,0:04:23.22,0:04:23.84,Default,,0,0,0,,Compris.
+Dialogue: 0,0:04:24.80,0:04:27.05,Default,,0,0,0,,Je suis Mme Satô,\Nj'ai rendez-vous.
+Dialogue: 0,0:04:28.01,0:04:29.26,Default,,0,0,0,,Bienvenue.
+Dialogue: 0,0:04:29.97,0:04:33.56,Default,,0,0,0,,Dans cet endroit,\Nvos souhaits se réaliseront.
+Dialogue: 0,0:04:33.98,0:04:35.56,Default,,0,0,0,,Vous êtes le fameux...
+Dialogue: 0,0:04:36.02,0:04:36.90,Default,,0,0,0,,Oui,
+Dialogue: 0,0:04:38.86,0:04:42.99,Default,,0,0,0,,je suis le professeur James Moriarty\Nde notre temps.
+Dialogue: 0,0:04:43.36,0:04:46.82,ST_HAUT,,0,0,0,,Misao Hamanaka, conseiller en crime.
+Dialogue: 0,0:04:47.20,0:04:50.83,Default,,0,0,0,,Et en quoi consiste votre métier ?
+Dialogue: 0,0:04:51.16,0:04:53.46,Default,,0,0,0,,Pourquoi cette question ?
+Dialogue: 0,0:04:53.79,0:04:56.83,Default,,0,0,0,,N'êtes-vous point\Nen quête de mes conseils ?
+Dialogue: 0,0:04:57.50,0:05:00.34,Default,,0,0,0,,Vous trouverez ici\Ntoute la documentation
+Dialogue: 0,0:05:00.71,0:05:04.63,Default,,0,0,0,,et tout le matériel\Npour accomplir des crimes.
+Dialogue: 0,0:05:05.13,0:05:08.85,Default,,0,0,0,,En bref,\Nsi vous suivez mes instructions,
+Dialogue: 0,0:05:09.35,0:05:12.35,Default,,0,0,0,,vous réaliserez le crime parfait.
+Dialogue: 0,0:05:12.85,0:05:15.23,Default,,0,0,0,,Attendez, ne seriez-vous pas
+Dialogue: 0,0:05:15.48,0:05:18.73,Default,,0,0,0,,l'illustre détective Kogorô Môri ?
+Dialogue: 0,0:05:19.02,0:05:22.23,Default,,0,0,0,,Je devine à leur allure
+Dialogue: 0,0:05:22.61,0:05:26.99,Default,,0,0,0,,que vos deux amis\Nsont des inspecteurs de police ?
+Dialogue: 0,0:05:27.32,0:05:29.12,Default,,0,0,0,,{\i1}C'était trop évident.{\i0}
+Dialogue: 0,0:05:29.87,0:05:33.29,Default,,0,0,0,,J'aurais quelques questions,\NM. Hamanaka.
+Dialogue: 0,0:05:34.79,0:05:35.66,Default,,0,0,0,,Si vous voulez.
+Dialogue: 0,0:05:36.29,0:05:38.17,Default,,0,0,0,,J'attendais une occasion
+Dialogue: 0,0:05:38.67,0:05:41.54,Default,,0,0,0,,d'échanger\Navec un détective et la police.
+Dialogue: 0,0:05:42.75,0:05:45.80,Default,,0,0,0,,Veuillez regarder ces guides.
+Dialogue: 0,0:05:45.97,0:05:47.05,Default,,0,0,0,,Voyons voir...
+Dialogue: 0,0:05:47.76,0:05:50.43,Default,,0,0,0,,Je suis l'auteur\Nde toutes ces notices.
+Dialogue: 0,0:05:51.60,0:05:52.93,Default,,0,0,0,,Vous le reconnaissez ?
+Dialogue: 0,0:05:53.26,0:05:55.98,Default,,0,0,0,,À quoi cela me servirait de mentir ?
+Dialogue: 0,0:05:56.14,0:05:58.40,Default,,0,0,0,,Ce sont mes œuvres,
+Dialogue: 0,0:05:58.56,0:06:02.11,Default,,0,0,0,,des plans criminels\Nrédigés par mes soins.
+Dialogue: 0,0:06:02.27,0:06:04.94,Default,,0,0,0,,Des intrigues de romans, voyez-vous.
+Dialogue: 0,0:06:05.32,0:06:06.95,Default,,0,0,0,,Des intrigues ?
+Dialogue: 0,0:06:07.28,0:06:11.45,Default,,0,0,0,,Comme les schémas d'un roman\Nou d'une pièce de théâtre ?
+Dialogue: 0,0:06:11.83,0:06:15.20,Default,,0,0,0,,Un document qui présente\Nla structure de l'histoire
+Dialogue: 0,0:06:15.37,0:06:17.12,Default,,0,0,0,,et son résumé, en effet.
+Dialogue: 0,0:06:17.29,0:06:18.12,Default,,0,0,0,,Mais ce sont...
+Dialogue: 0,0:06:18.54,0:06:20.29,Default,,0,0,0,,Des plans de crimes !
+Dialogue: 0,0:06:20.54,0:06:22.25,Default,,0,0,0,,C'est exactement cela !
+Dialogue: 0,0:06:22.50,0:06:25.05,Default,,0,0,0,,Je vends ces intrigues, voyez-vous.
+Dialogue: 0,0:06:25.34,0:06:27.80,Default,,0,0,0,,Des scénarios criminels,\Nle plus souvent.
+Dialogue: 0,0:06:29.30,0:06:31.30,Default,,0,0,0,,- Et c'est ?\N- Ma tarification.
+Dialogue: 0,0:06:31.85,0:06:32.72,Default,,0,0,0,,Vos tarifs ?
+Dialogue: 0,0:06:33.18,0:06:36.47,Default,,0,0,0,,Les prix sont classés\Npar type de crime.
+Dialogue: 0,0:06:36.85,0:06:39.73,Default,,0,0,0,,Je suis un commerçant, après tout.
+Dialogue: 0,0:06:39.89,0:06:41.73,Default,,0,0,0,,Il y en a pour tous les goûts.
+Dialogue: 0,0:06:42.06,0:06:45.86,Default,,0,0,0,,Options meurtre,\Nbraquage, arnaque...
+Dialogue: 0,0:06:46.07,0:06:48.82,Default,,0,0,0,,Et même\N"punaises dans les chaussons".
+Dialogue: 0,0:06:49.24,0:06:51.28,Default,,0,0,0,,Cela va du meurtre au délit mineur,
+Dialogue: 0,0:06:51.57,0:06:54.37,Default,,0,0,0,,de l'intrigue complète\Nau simple résumé
+Dialogue: 0,0:06:54.53,0:06:57.83,Default,,0,0,0,,en passant\Npar la version "première moitié".
+Dialogue: 0,0:06:58.20,0:07:00.83,Default,,0,0,0,,En quoi consiste cette dernière ?
+Dialogue: 0,0:07:01.33,0:07:04.00,Default,,0,0,0,,Elle répond aux besoins\Nde certains clients.
+Dialogue: 0,0:07:04.34,0:07:05.71,Default,,0,0,0,,Des personnes
+Dialogue: 0,0:07:05.88,0:07:09.34,Default,,0,0,0,,désirant une intrigue\Nsans en avoir les moyens.
+Dialogue: 0,0:07:09.88,0:07:13.35,Default,,0,0,0,,Mais pourquoi ce client\Ns'est fait attraper ?
+Dialogue: 0,0:07:14.22,0:07:17.27,Default,,0,0,0,,C'était l'intrigue simplifiée\Nd'un braquage.
+Dialogue: 0,0:07:20.77,0:07:24.56,Default,,0,0,0,,Il a fait l'erreur de ne pas prendre\Nle découpeur à plasma.
+Dialogue: 0,0:07:24.86,0:07:28.07,Default,,0,0,0,,Il s'est fait attraper\Navant de percer le coffre.
+Dialogue: 0,0:07:28.57,0:07:29.94,Default,,0,0,0,,Et celui-là ?
+Dialogue: 0,0:07:31.53,0:07:34.91,Default,,0,0,0,,Une version simplifiée\Nde vol à la tire.
+Dialogue: 0,0:07:36.28,0:07:40.21,Default,,0,0,0,,La personne était trop grosse\Npour réussir à s'enfuir.
+Dialogue: 0,0:07:40.50,0:07:44.33,Default,,0,0,0,,Et cette version "première moitié"\Nde cambriolage ?
+Dialogue: 0,0:07:44.67,0:07:46.21,Default,,0,0,0,,On l'a vite attrapé.
+Dialogue: 0,0:07:46.63,0:07:49.88,Default,,0,0,0,,Ah oui, je me souviens bien\Nde cette affaire.
+Dialogue: 0,0:07:50.05,0:07:54.97,Default,,0,0,0,,Je n'en revenais pas qu'il tente\Nun cambriolage sans mettre de gants.
+Dialogue: 0,0:07:55.14,0:07:56.35,Default,,0,0,0,,Au final,
+Dialogue: 0,0:07:57.01,0:08:00.02,Default,,0,0,0,,ils se font tous arrêter\Navec vos intrigues.
+Dialogue: 0,0:08:00.48,0:08:03.40,Default,,0,0,0,,C'est du pipeau, votre crime parfait.
+Dialogue: 0,0:08:03.81,0:08:05.19,Default,,0,0,0,,Absolument pas !
+Dialogue: 0,0:08:05.36,0:08:07.82,Default,,0,0,0,,De nombreux clients\Nn'ont pas été inquiétés !
+Dialogue: 0,0:08:09.07,0:08:10.44,Default,,0,0,0,,Certains crimes
+Dialogue: 0,0:08:10.61,0:08:14.20,Default,,0,0,0,,n'ont pas été résolus\Ndepuis plusieurs années.
+Dialogue: 0,0:08:14.70,0:08:18.20,Default,,0,0,0,,Pouvez-vous nous parler\Nde ces affaires en détail ?
+Dialogue: 0,0:08:19.41,0:08:22.29,Default,,0,0,0,,Je suis navré mais c'est impossible.
+Dialogue: 0,0:08:22.46,0:08:26.21,Default,,0,0,0,,Je ne peux divulguer\Nd'informations sur mes clients.
+Dialogue: 0,0:08:26.54,0:08:29.96,Default,,0,0,0,,Vous comprenez que\Nnous ne pouvons pas en rester là.
+Dialogue: 0,0:08:30.42,0:08:33.72,Default,,0,0,0,,Je vous aiderais si je le pouvais,
+Dialogue: 0,0:08:33.88,0:08:36.39,Default,,0,0,0,,mais la confiance est d'or\Ndans mon métier.
+Dialogue: 0,0:08:36.59,0:08:38.14,Default,,0,0,0,,Ne m'en voulez pas.
+Dialogue: 0,0:08:41.18,0:08:42.52,Default,,0,0,0,,Pas un pas de plus.
+Dialogue: 0,0:08:42.73,0:08:44.31,Default,,0,0,0,,Souvenez-vous,
+Dialogue: 0,0:08:44.48,0:08:47.61,Default,,0,0,0,,je ne suis qu'un conseiller\Nen roman criminel.
+Dialogue: 0,0:08:47.77,0:08:50.57,Default,,0,0,0,,Je ne fais qu'offrir\Nmes idées d'intrigues,
+Dialogue: 0,0:08:50.73,0:08:53.40,Default,,0,0,0,,je ne commets aucun crime.
+Dialogue: 0,0:08:53.74,0:08:55.41,Default,,0,0,0,,Vous comprenez ?
+Dialogue: 0,0:08:55.82,0:09:00.41,Default,,0,0,0,,En outre, je n'encourage pas\Nmes clients à passer à l'acte.
+Dialogue: 0,0:09:00.83,0:09:02.83,Default,,0,0,0,,Tous ces scénarios
+Dialogue: 0,0:09:03.00,0:09:06.00,Default,,0,0,0,,sont des œuvres de fiction.
+Dialogue: 0,0:09:06.17,0:09:10.25,Default,,0,0,0,,Tous les lieux, groupes\Net personnages sont imaginaires
+Dialogue: 0,0:09:10.46,0:09:14.09,Default,,0,0,0,,et n'ont aucun rapport\Navec la réalité.
+Dialogue: 0,0:09:14.34,0:09:15.09,Default,,0,0,0,,Petit malin...
+Dialogue: 0,0:09:15.51,0:09:17.64,Default,,0,0,0,,La police ne peut donc pas
+Dialogue: 0,0:09:17.80,0:09:21.35,Default,,0,0,0,,poser un seul doigt sur moi !
+Dialogue: 0,0:09:33.61,0:09:34.86,Default,,0,0,0,,Misao Hamanaka,
+Dialogue: 0,0:09:35.03,0:09:37.32,Default,,0,0,0,,je vous arrête\Npour incitation au crime.
+Dialogue: 0,0:09:39.57,0:09:41.20,Default,,0,0,0,,Quoi que vous en disiez,
+Dialogue: 0,0:09:41.37,0:09:44.95,Default,,0,0,0,,des crimes sont réalisés\Nsur la base de vos intrigues,
+Dialogue: 0,0:09:45.12,0:09:46.83,Default,,0,0,0,,c'est de l'incitation.
+Dialogue: 0,0:09:47.04,0:09:48.71,Default,,0,0,0,,C'est impossible...
+Dialogue: 0,0:09:49.29,0:09:53.25,Default,,0,0,0,,Vous faisiez ce métier\Nsans le savoir ?
+Dialogue: 0,0:09:53.42,0:09:54.63,Default,,0,0,0,,Eh bien, non...
+Dialogue: 0,0:09:55.05,0:09:56.55,Default,,0,0,0,,Crachez le morceau,
+Dialogue: 0,0:09:57.26,0:09:58.89,Default,,0,0,0,,je veux tous les crimes
+Dialogue: 0,0:09:59.43,0:10:01.51,Default,,0,0,0,,que vous avez fomentés !
+Dialogue: 0,0:10:01.68,0:10:03.52,Default,,0,0,0,,C'est une plaisanterie...
+Dialogue: 0,0:10:03.89,0:10:04.93,Default,,0,0,0,,Je vous préviens,
+Dialogue: 0,0:10:05.10,0:10:08.40,Default,,0,0,0,,vous allez le regretter\Nsi vous ne coopérez pas.
+Dialogue: 0,0:10:09.60,0:10:12.40,Default,,0,0,0,,L'incarcération,\Nle témoignage au tribunal,
+Dialogue: 0,0:10:12.57,0:10:14.07,Default,,0,0,0,,la liberté sous caution...
+Dialogue: 0,0:10:14.82,0:10:19.32,Default,,0,0,0,,Votre vie va devenir\Nsacrément mouvementée, non ?
+Dialogue: 0,0:10:22.08,0:10:23.16,Default,,0,0,0,,En fait, M. Takagi,
+Dialogue: 0,0:10:23.58,0:10:25.95,Default,,0,0,0,,vous n'aviez pas besoin\Nde conseiller.
+Dialogue: 0,0:10:26.20,0:10:27.58,Default,,0,0,0,,Oui, en effet...
+Dialogue: 0,0:10:27.91,0:10:30.58,Default,,0,0,0,,Alors, que préférez-vous ?
+Dialogue: 0,0:10:31.67,0:10:33.09,Default,,0,0,0,,Données transférées.
+Dialogue: 0,0:10:33.88,0:10:36.59,Default,,0,0,0,,- OK, fais une sauvegarde.\N- D'accord.
+Dialogue: 0,0:10:37.72,0:10:39.72,Default,,0,0,0,,Nous avons cinq affaires,
+Dialogue: 0,0:10:40.18,0:10:42.51,Default,,0,0,0,,dont trois non résolues
+Dialogue: 0,0:10:42.68,0:10:44.85,Default,,0,0,0,,et deux encore en cours.
+Dialogue: 0,0:10:45.39,0:10:49.44,Default,,0,0,0,,Nous avons les infos précises\Nsur les crimes et leurs auteurs.
+Dialogue: 0,0:10:49.89,0:10:52.90,Default,,0,0,0,,{\i1}Wataru vient\Nde vous envoyer les données.{\i0}
+Dialogue: 0,0:10:53.27,0:10:54.36,Default,,0,0,0,,Compris.
+Dialogue: 0,0:10:54.61,0:10:58.74,Default,,0,0,0,,Nous avons reçu des infos\Nsur des crimes non résolus.
+Dialogue: 0,0:10:58.99,0:11:00.99,Default,,0,0,0,,C'est une chance inespérée !
+Dialogue: 0,0:11:01.36,0:11:04.74,Default,,0,0,0,,Mobilisez tout le monde\Npour appréhender les suspects.
+Dialogue: 0,0:11:05.24,0:11:07.75,Default,,0,0,0,,- Il n'y a pas de temps à perdre !\N- À vos ordres !
+Dialogue: 0,0:11:07.91,0:11:11.12,Default,,0,0,0,,BANQUE BEIKA
+Dialogue: 0,0:11:13.84,0:11:14.42,Default,,0,0,0,,Ne bougez plus !
+Dialogue: 0,0:11:14.96,0:11:15.96,Default,,0,0,0,,Vous êtes qui, vous ?
+Dialogue: 0,0:11:16.38,0:11:18.38,Default,,0,0,0,,Suspects identifiés ! Attrapez-les !
+Dialogue: 0,0:11:19.01,0:11:20.13,Default,,0,0,0,,Suspects appréhendés.
+Dialogue: 0,0:11:20.47,0:11:21.63,Default,,0,0,0,,ENLÈVEMENT DU PETIT YOSHIO
+Dialogue: 0,0:11:21.80,0:11:22.89,Default,,0,0,0,,ÉLUCIDÉ
+Dialogue: 0,0:11:23.60,0:11:24.89,Default,,0,0,0,,Suspect appréhendé !
+Dialogue: 0,0:11:25.26,0:11:26.39,Default,,0,0,0,,MEURTRE DE TAKARAZUKA
+Dialogue: 0,0:11:26.56,0:11:27.64,Default,,0,0,0,,ÉLUCIDÉ
+Dialogue: 0,0:11:28.48,0:11:29.35,Default,,0,0,0,,On l'a !
+Dialogue: 0,0:11:30.02,0:11:31.14,Default,,0,0,0,,PROMENADES DU LAPIN
+Dialogue: 0,0:11:31.31,0:11:32.40,Default,,0,0,0,,ÉLUCIDÉ
+Dialogue: 0,0:11:33.31,0:11:34.31,Default,,0,0,0,,Interpellé !
+Dialogue: 0,0:11:34.77,0:11:35.90,Default,,0,0,0,,DÉGUISEMENT DE ROCKEUR RATÉ
+Dialogue: 0,0:11:36.07,0:11:37.15,Default,,0,0,0,,ÉLUCIDÉ
+Dialogue: 0,0:11:37.48,0:11:38.28,Default,,0,0,0,,Parfait !
+Dialogue: 0,0:11:39.28,0:11:41.28,Default,,0,0,0,,Il ne reste plus qu'une affaire !
+Dialogue: 0,0:11:42.28,0:11:44.78,Default,,0,0,0,,La vengeance sur Takashi Ishigami.
+Dialogue: 0,0:11:45.49,0:11:49.29,Default,,0,0,0,,Le suspect se nomme Tatsumi Wada,\Ncélibataire de 48 ans.
+Dialogue: 0,0:11:49.79,0:11:52.33,Default,,0,0,0,,Sans emploi,\Nil a trois crimes sur son casier.
+Dialogue: 0,0:11:52.50,0:11:54.92,Default,,0,0,0,,Il vient seulement\Nde sortir de prison.
+Dialogue: 0,0:11:55.38,0:11:57.96,Default,,0,0,0,,Il passera à l'acte\Naujourd'hui à 16 heures.
+Dialogue: 0,0:11:58.55,0:12:01.80,Default,,0,0,0,,Il est 15 heures passées,\Nnous avons peu de temps.
+Dialogue: 0,0:12:02.55,0:12:05.39,Default,,0,0,0,,C'est un meurtre\Nen version complète.
+Dialogue: 0,0:12:05.72,0:12:08.43,Default,,0,0,0,,Il compte faire exploser\Ntout un bâtiment
+Dialogue: 0,0:12:08.81,0:12:11.02,Default,,0,0,0,,en répandant un gaz inodore.
+Dialogue: 0,0:12:11.52,0:12:12.94,Default,,0,0,0,,Une explosion de gaz ?
+Dialogue: 0,0:12:13.77,0:12:16.94,Default,,0,0,0,,{\i1}Il y a le schéma\Nd'un détonateur à distance.{\i0}
+Dialogue: 0,0:12:17.65,0:12:19.98,Default,,0,0,0,,{\i1}Il compte éliminer les preuves.{\i0}
+Dialogue: 0,0:12:20.28,0:12:20.94,Default,,0,0,0,,Écoutez,
+Dialogue: 0,0:12:21.32,0:12:22.53,Default,,0,0,0,,M. Wada fut licencié
+Dialogue: 0,0:12:22.70,0:12:25.95,Default,,0,0,0,,à cause de Takashi Ishigami\Ndix ans plus tôt
+Dialogue: 0,0:12:26.12,0:12:29.70,Default,,0,0,0,,et il en a gardé\Nune profonde rancune.
+Dialogue: 0,0:12:30.20,0:12:33.29,Default,,0,0,0,,La police est en route\Npour le domicile du suspect
+Dialogue: 0,0:12:33.46,0:12:34.96,Default,,0,0,0,,et le bureau de sa cible.
+Dialogue: 0,0:12:35.79,0:12:37.92,Default,,0,0,0,,L'affaire sera vite réglée.
+Dialogue: 0,0:12:39.96,0:12:40.84,Default,,0,0,0,,Police !
+Dialogue: 0,0:12:44.59,0:12:45.64,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:12:45.84,0:12:48.97,Default,,0,0,0,,{\i1}Son domicile est vide,\Naucune trace du suspect.{\i0}
+Dialogue: 0,0:12:49.14,0:12:51.89,Default,,0,0,0,,Malédiction !\NSurveillez les alentours.
+Dialogue: 0,0:12:52.81,0:12:53.64,Default,,0,0,0,,{\i1}De votre côté ?{\i0}
+Dialogue: 0,0:12:54.27,0:12:57.02,Default,,0,0,0,,Pas de trace du suspect.
+Dialogue: 0,0:12:57.36,0:13:00.23,Default,,0,0,0,,Nous prenons en charge sa cible,\NM. Ishigami.
+Dialogue: 0,0:13:00.48,0:13:02.57,Default,,0,0,0,,Il n'a rien vu d'anormal.
+Dialogue: 0,0:13:03.11,0:13:03.82,Default,,0,0,0,,Écoutez,
+Dialogue: 0,0:13:03.99,0:13:07.16,Default,,0,0,0,,le suspect compte déclencher\Nune explosion de gaz.
+Dialogue: 0,0:13:07.41,0:13:09.58,Default,,0,0,0,,Vérifiez s'il n'y a pas de bonbonne
+Dialogue: 0,0:13:09.74,0:13:11.04,Default,,0,0,0,,{\i1}ou de dispositif caché.{\i0}
+Dialogue: 0,0:13:11.20,0:13:11.95,Default,,0,0,0,,Bien reçu.
+Dialogue: 0,0:13:13.96,0:13:15.37,Default,,0,0,0,,Déjà 15 heures 30.
+Dialogue: 0,0:13:16.08,0:13:17.83,Default,,0,0,0,,{\i1}S'il suit le scénario,{\i0}
+Dialogue: 0,0:13:18.00,0:13:20.38,Default,,0,0,0,,{\i1}beaucoup de vies seront en danger.{\i0}
+Dialogue: 0,0:13:20.80,0:13:23.30,Default,,0,0,0,,{\i1}On doit empêcher l'explosion.{\i0}
+Dialogue: 0,0:13:24.76,0:13:26.13,Default,,0,0,0,,C'est entendu.
+Dialogue: 0,0:13:26.97,0:13:31.14,Default,,0,0,0,,Ils n'ont rien trouvé\Nau bureau de M. Ishigami.
+Dialogue: 0,0:13:31.68,0:13:33.14,Default,,0,0,0,,Comment ça se fait ?
+Dialogue: 0,0:13:34.02,0:13:36.94,Default,,0,0,0,,Il n'est peut-être\Npas encore passé à l'action.
+Dialogue: 0,0:13:37.10,0:13:38.65,Default,,0,0,0,,Il doit agir aujourd'hui
+Dialogue: 0,0:13:39.27,0:13:42.53,Default,,0,0,0,,et le suspect est introuvable\Nje te rappelle !
+Dialogue: 0,0:13:43.19,0:13:46.15,Default,,0,0,0,,La situation\Nne suggère pas l'optimisme.
+Dialogue: 0,0:13:46.86,0:13:50.41,Default,,0,0,0,,{\i1}Où est-il ?\NOù se trouve donc cet explosif ?{\i0}
+Dialogue: 0,0:13:59.92,0:14:02.75,ST_HAUT,,0,0,0,,CONCENTRATION EN GAZ
+Dialogue: 0,0:14:10.39,0:14:11.68,Default,,0,0,0,,L'heure tourne,
+Dialogue: 0,0:14:12.01,0:14:14.93,Default,,0,0,0,,nous devons vite trouver un indice.
+Dialogue: 0,0:14:15.27,0:14:17.94,Default,,0,0,0,,Je vous l'ai dit et vous le répète,
+Dialogue: 0,0:14:18.10,0:14:20.23,Default,,0,0,0,,s'il suit mes instructions,
+Dialogue: 0,0:14:20.40,0:14:22.82,Default,,0,0,0,,il commettra le crime parfait.
+Dialogue: 0,0:14:23.53,0:14:24.78,ST_HAUT,,0,0,0,,Souvenez-vous !
+Dialogue: 0,0:14:25.03,0:14:26.86,ST_HAUT,,0,0,0,,De quoi avez-vous parlé ?
+Dialogue: 0,0:14:27.07,0:14:27.82,ST_HAUT,,0,0,0,,Comment ça ?
+Dialogue: 0,0:14:28.20,0:14:31.12,ST_HAUT,,0,0,0,,Rappelez-vous chaque mot\Nsans exception !
+Dialogue: 0,0:14:31.28,0:14:32.74,ST_HAUT,,0,0,0,,Très bien...
+Dialogue: 0,0:14:32.91,0:14:36.96,ST_HAUT,,0,0,0,,Mais vous savez,\Nj'étais presque seul à parler.
+Dialogue: 0,0:14:37.16,0:14:39.04,ST_HAUT,,0,0,0,,Il n'a rien dit de spécial ?
+Dialogue: 0,0:14:39.21,0:14:40.88,ST_HAUT,,0,0,0,,Comme quoi ?
+Dialogue: 0,0:14:41.17,0:14:42.59,Default,,0,0,0,,Tiens, mais j'y pense...
+Dialogue: 0,0:14:43.29,0:14:45.88,Default,,0,0,0,,{\i1}C'est forcément la raison\Nde votre venue.{\i0}
+Dialogue: 0,0:14:46.05,0:14:48.30,Default,,0,0,0,,{\i1}Faites-moi simplement confiance.{\i0}
+Dialogue: 0,0:14:48.59,0:14:50.84,Default,,0,0,0,,{\i1}Si vous suivez mes instructions...{\i0}
+Dialogue: 0,0:14:51.51,0:14:54.68,Default,,0,0,0,,{\i1}... "vous réaliserez le crime parfait".{\i0}
+Dialogue: 0,0:14:55.10,0:14:55.97,Default,,0,0,0,,{\i1}J'ai bon ?{\i0}
+Dialogue: 0,0:14:56.47,0:14:59.98,Default,,0,0,0,,Étrangement,\Nil connaissait ma réplique fétiche.
+Dialogue: 0,0:15:00.19,0:15:02.48,Default,,0,0,0,,Il venait acheter une intrigue,
+Dialogue: 0,0:15:02.65,0:15:04.82,Default,,0,0,0,,cela n'a rien d'étonnant !
+Dialogue: 0,0:15:05.15,0:15:07.49,Default,,0,0,0,,Vous marquez un point.
+Dialogue: 0,0:15:08.07,0:15:10.78,Default,,0,0,0,,Ça me revient,\Nil m'a demandé
+Dialogue: 0,0:15:10.95,0:15:13.83,Default,,0,0,0,,un détonateur manuel\Net non automatique.
+Dialogue: 0,0:15:13.99,0:15:17.50,Default,,0,0,0,,Il veut peut-être\Ntuer sa cible de ses mains.
+Dialogue: 0,0:15:17.91,0:15:21.00,Default,,0,0,0,,Il hait cette personne à ce point ?
+Dialogue: 0,0:15:21.67,0:15:23.50,Default,,0,0,0,,C'est fort probable.
+Dialogue: 0,0:15:25.67,0:15:27.51,ST_HAUT,,0,0,0,,CONCENTRATION : 7/20
+Dialogue: 0,0:15:28.26,0:15:32.34,Default,,0,0,0,,M. Wada a dit clairement\Nque sa cible était M. Ishigami, non ?
+Dialogue: 0,0:15:32.80,0:15:34.10,Default,,0,0,0,,Oui, en effet.
+Dialogue: 0,0:15:34.55,0:15:37.64,Default,,0,0,0,,Je base mes intrigues\Nsur les dires de mes clients.
+Dialogue: 0,0:15:38.06,0:15:42.02,Default,,0,0,0,,Il n'y a donc pas de doute :\Nsa cible est M. Ishigami.
+Dialogue: 0,0:15:42.19,0:15:43.86,Default,,0,0,0,,Le meilleur plan
+Dialogue: 0,0:15:44.23,0:15:47.44,Default,,0,0,0,,est donc de le protéger\Net d'attendre le suspect.
+Dialogue: 0,0:15:48.07,0:15:50.36,Default,,0,0,0,,{\i1}L'inspecteur Takagi a raison,{\i0}
+Dialogue: 0,0:15:50.95,0:15:52.36,Default,,0,0,0,,{\i1}mais quelque chose cloche.{\i0}
+Dialogue: 0,0:15:53.70,0:15:55.16,Default,,0,0,0,,{\i1}Bon, je n'ai plus le choix.{\i0}
+Dialogue: 0,0:16:03.63,0:16:05.92,Default,,0,0,0,,Ça me refait le coup\Nsans prévenir...
+Dialogue: 0,0:16:06.17,0:16:07.42,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:16:07.84,0:16:08.92,Default,,0,0,0,,Kogorô l'Endormi !
+Dialogue: 0,0:16:09.55,0:16:12.68,Default,,0,0,0,,Laissez-moi vous poser\Nquelques questions.
+Dialogue: 0,0:16:14.84,0:16:16.68,ST_HAUT,,0,0,0,,CONCENTRATION : 14/20
+Dialogue: 0,0:16:16.85,0:16:18.68,ST_HAUT,,0,0,0,,EXPLOSION POSSIBLE
+Dialogue: 0,0:16:19.27,0:16:20.39,Default,,0,0,0,,D'abord,
+Dialogue: 0,0:16:20.64,0:16:24.19,Default,,0,0,0,,pourquoi pensez-vous\Nqu'il soit venu vous voir ?
+Dialogue: 0,0:16:24.48,0:16:27.19,ST_HAUT,,0,0,0,,Parce que je suis le meilleur,\Npardi !
+Dialogue: 0,0:16:29.03,0:16:30.69,Default,,0,0,0,,D'accord, admettons.
+Dialogue: 0,0:16:31.07,0:16:33.70,Default,,0,0,0,,Il a eu vent de votre réputation.
+Dialogue: 0,0:16:34.24,0:16:36.41,Default,,0,0,0,,Mais lors de votre échange,
+Dialogue: 0,0:16:36.57,0:16:39.12,Default,,0,0,0,,n'avez-vous rien trouvé d'étrange ?
+Dialogue: 0,0:16:39.29,0:16:41.45,Default,,0,0,0,,Vous me prenez de court...
+Dialogue: 0,0:16:41.91,0:16:44.29,Default,,0,0,0,,Son histoire coince à mes yeux.
+Dialogue: 0,0:16:44.62,0:16:46.46,Default,,0,0,0,,Il s'est fait virer, d'accord.
+Dialogue: 0,0:16:46.75,0:16:51.09,Default,,0,0,0,,Mais pourquoi élaborer\Nun plan si complexe pour se venger ?
+Dialogue: 0,0:16:51.46,0:16:53.13,Default,,0,0,0,,La question se pose, en effet.
+Dialogue: 0,0:16:53.30,0:16:55.51,Default,,0,0,0,,Je comprends qu'il le haïsse,
+Dialogue: 0,0:16:55.68,0:16:58.22,Default,,0,0,0,,mais de là à vouloir l'assassiner...
+Dialogue: 0,0:16:58.97,0:17:01.27,ST_HAUT,,0,0,0,,Surtout qu'il a dû payer\Nune forte somme.
+Dialogue: 0,0:17:01.43,0:17:02.27,ST_HAUT,,0,0,0,,Exact.
+Dialogue: 0,0:17:02.43,0:17:04.73,ST_HAUT,,0,0,0,,- En êtes-vous sûrs ?\N- Comment ?
+Dialogue: 0,0:17:05.40,0:17:08.31,Default,,0,0,0,,D'après ma longue expérience,
+Dialogue: 0,0:17:08.57,0:17:11.28,Default,,0,0,0,,on ne peut pas rationaliser ainsi
+Dialogue: 0,0:17:11.44,0:17:13.36,Default,,0,0,0,,les comportements criminels.
+Dialogue: 0,0:17:13.57,0:17:14.86,ST_HAUT,,0,0,0,,Mais en fait,
+Dialogue: 0,0:17:15.07,0:17:17.53,ST_HAUT,,0,0,0,,votre business dure depuis longtemps ?
+Dialogue: 0,0:17:17.78,0:17:19.28,ST_HAUT,,0,0,0,,Relativement, oui...
+Dialogue: 0,0:17:19.45,0:17:23.71,ST_HAUT,,0,0,0,,Cela doit faire dix ans\Nplus ou moins.
+Dialogue: 0,0:17:25.33,0:17:26.96,Default,,0,0,0,,- Dites !\N- Conan ?
+Dialogue: 0,0:17:27.46,0:17:28.71,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:17:28.88,0:17:30.13,Default,,0,0,0,,Tu as une piste ?
+Dialogue: 0,0:17:30.30,0:17:31.21,Default,,0,0,0,,{\i1}Plus de doute,{\i0}
+Dialogue: 0,0:17:32.05,0:17:33.72,Default,,0,0,0,,{\i1}si mon raisonnement est bon...{\i0}
+Dialogue: 0,0:17:34.01,0:17:34.97,Default,,0,0,0,,Conan ?
+Dialogue: 0,0:17:35.97,0:17:37.30,Default,,0,0,0,,Où sont les toilettes ?
+Dialogue: 0,0:17:37.47,0:17:40.35,Default,,0,0,0,,En sortant au fond du couloir.
+Dialogue: 0,0:17:40.51,0:17:41.47,Default,,0,0,0,,Merci !
+Dialogue: 0,0:17:42.68,0:17:44.73,Default,,0,0,0,,- On n'a plus de temps.\N- M. Môri !
+Dialogue: 0,0:17:45.27,0:17:46.23,Default,,0,0,0,,Il y a sept ans,
+Dialogue: 0,0:17:47.02,0:17:51.15,Default,,0,0,0,,vous avez écrit une intrigue,\Nvous en souvenez-vous ?
+Dialogue: 0,0:17:52.82,0:17:55.11,Default,,0,0,0,,J'en conclus que non.
+Dialogue: 0,0:17:55.74,0:18:00.12,Default,,0,0,0,,Je parle du braquage\Nqui a mené M. Wada en prison.
+Dialogue: 0,0:18:01.16,0:18:02.79,Default,,0,0,0,,Vous voulez dire
+Dialogue: 0,0:18:02.95,0:18:05.37,Default,,0,0,0,,que M. Hamanaka\Nest lié à cette affaire ?
+Dialogue: 0,0:18:06.67,0:18:07.96,Default,,0,0,0,,Je me souviens !
+Dialogue: 0,0:18:08.12,0:18:10.92,Default,,0,0,0,,Il voulait voler\Nles usuriers de Beika !
+Dialogue: 0,0:18:11.09,0:18:12.17,Default,,0,0,0,,Exactement !
+Dialogue: 0,0:18:13.46,0:18:17.26,Default,,0,0,0,,Vous avez scénarisé ce crime\Nil y a sept ans.
+Dialogue: 0,0:18:17.59,0:18:19.01,Default,,0,0,0,,Mais dans ce cas...
+Dialogue: 0,0:18:19.26,0:18:21.10,Default,,0,0,0,,D'après le fichier de police,
+Dialogue: 0,0:18:21.26,0:18:23.77,Default,,0,0,0,,M. Wada fuyait après son braquage
+Dialogue: 0,0:18:24.43,0:18:27.27,Default,,0,0,0,,quand la caméra haute résolution
+Dialogue: 0,0:18:27.60,0:18:29.52,Default,,0,0,0,,d'un centre commercial
+Dialogue: 0,0:18:29.69,0:18:32.27,Default,,0,0,0,,a filmé son véhicule,
+Dialogue: 0,0:18:32.61,0:18:34.53,Default,,0,0,0,,sa plaque d'immatriculation
+Dialogue: 0,0:18:34.94,0:18:37.45,Default,,0,0,0,,et bien pire encore,
+Dialogue: 0,0:18:37.61,0:18:39.57,Default,,0,0,0,,son visage au volant.
+Dialogue: 0,0:18:40.32,0:18:43.70,Default,,0,0,0,,Vous n'avez pas pris en compte\Nce centre commercial,
+Dialogue: 0,0:18:43.87,0:18:45.41,Default,,0,0,0,,vous vous êtes planté.
+Dialogue: 0,0:18:47.37,0:18:49.75,Default,,0,0,0,,M. Wada vous tient sans doute
+Dialogue: 0,0:18:49.92,0:18:52.25,Default,,0,0,0,,responsable de son arrestation
+Dialogue: 0,0:18:53.38,0:18:57.17,Default,,0,0,0,,car votre intrigue était défaillante.
+Dialogue: 0,0:18:57.34,0:18:59.18,ST_HAUT,,0,0,0,,CONCENTRATION : 18/20
+Dialogue: 0,0:18:59.76,0:19:00.80,Default,,0,0,0,,En effet,
+Dialogue: 0,0:19:01.18,0:19:03.18,Default,,0,0,0,,j'ai commis une erreur.
+Dialogue: 0,0:19:03.56,0:19:05.56,Default,,0,0,0,,Voici ma théorie :
+Dialogue: 0,0:19:06.10,0:19:09.27,Default,,0,0,0,,M. Wada est récemment\Nsorti de prison
+Dialogue: 0,0:19:09.52,0:19:13.27,Default,,0,0,0,,et s'est rendu de nouveau\Nà votre agence.
+Dialogue: 0,0:19:13.69,0:19:18.24,Default,,0,0,0,,Mais vous l'aviez oublié,\Nlui et son affaire.
+Dialogue: 0,0:19:18.82,0:19:21.70,Default,,0,0,0,,Cela l'a décidé à passer à l'acte.
+Dialogue: 0,0:19:22.37,0:19:25.20,Default,,0,0,0,,Il se souvenait\Nde votre réplique fétiche,
+Dialogue: 0,0:19:26.04,0:19:30.17,Default,,0,0,0,,preuve que vous êtes devenu\Nune obsession pour lui.
+Dialogue: 0,0:19:30.42,0:19:31.33,Default,,0,0,0,,En bref...
+Dialogue: 0,0:19:31.58,0:19:34.17,Default,,0,0,0,,- La cible n'est pas M. Ishigami.\N- Non,
+Dialogue: 0,0:19:34.63,0:19:36.09,Default,,0,0,0,,c'est vous !
+Dialogue: 0,0:19:38.67,0:19:40.34,Default,,0,0,0,,Mais alors le détonateur...
+Dialogue: 0,0:19:40.80,0:19:42.84,Default,,0,0,0,,Vous avez juste, l'explosif
+Dialogue: 0,0:19:43.93,0:19:45.06,Default,,0,0,0,,est caché ici !
+Dialogue: 0,0:19:56.40,0:19:58.03,Default,,0,0,0,,{\i1}Allô ?{\i0}
+Dialogue: 0,0:19:58.32,0:20:01.49,Default,,0,0,0,,Tu sais qui je suis, Hamanaka ?
+Dialogue: 0,0:20:02.28,0:20:04.24,Default,,0,0,0,,{\i1}Tatsumi Wada, je présume.{\i0}
+Dialogue: 0,0:20:04.41,0:20:07.37,Default,,0,0,0,,Sais-tu pourquoi je t'appelle ?
+Dialogue: 0,0:20:07.58,0:20:09.00,Default,,0,0,0,,{\i1}Non, pas vraiment...{\i0}
+Dialogue: 0,0:20:09.33,0:20:12.46,Default,,0,0,0,,Je voulais entendre ta voix\Nune dernière fois.
+Dialogue: 0,0:20:12.62,0:20:14.50,Default,,0,0,0,,{\i1}Quoi ? Attendez !{\i0}
+Dialogue: 0,0:20:16.63,0:20:18.67,Default,,0,0,0,,Bon vent, sale arnaqueur.
+Dialogue: 0,0:20:23.01,0:20:25.26,Default,,0,0,0,,Merde, pourquoi ça n'explose pas ?
+Dialogue: 0,0:20:25.97,0:20:28.43,Default,,0,0,0,,Il ne va rien se passer, M. Wada.
+Dialogue: 0,0:20:29.60,0:20:30.23,Default,,0,0,0,,T'es qui, toi ?
+Dialogue: 0,0:20:31.02,0:20:33.44,Default,,0,0,0,,Nous avons coupé l'arrivée de gaz
+Dialogue: 0,0:20:33.73,0:20:37.48,Default,,0,0,0,,et retiré le détonateur\Ndu purificateur d'air.
+Dialogue: 0,0:20:38.69,0:20:40.86,Default,,0,0,0,,On vous a arrêté la première fois
+Dialogue: 0,0:20:41.03,0:20:42.36,Default,,0,0,0,,pour un cambriolage.
+Dialogue: 0,0:20:42.86,0:20:45.70,Default,,0,0,0,,En inspectant l'entrée\Nde M. Hamanaka,
+Dialogue: 0,0:20:45.87,0:20:48.24,Default,,0,0,0,,j'ai trouvé\Ndes traces de crochetage.
+Dialogue: 0,0:20:48.83,0:20:51.71,Default,,0,0,0,,La bombe était donc forcément
+Dialogue: 0,0:20:51.87,0:20:53.50,Default,,0,0,0,,dans le bureau.
+Dialogue: 0,0:20:54.42,0:20:57.21,Default,,0,0,0,,Le dispositif devait être\Nprès du sol
+Dialogue: 0,0:20:57.38,0:21:00.51,Default,,0,0,0,,pour faire détonner le gaz lourd.
+Dialogue: 0,0:21:00.92,0:21:01.88,Default,,0,0,0,,Bon sang...
+Dialogue: 0,0:21:02.97,0:21:05.51,Default,,0,0,0,,Mais comment vous saviez\Noù j'étais ?
+Dialogue: 0,0:21:06.05,0:21:06.85,Default,,0,0,0,,C'est simple,
+Dialogue: 0,0:21:07.01,0:21:09.60,Default,,0,0,0,,vous vouliez un détonateur manuel
+Dialogue: 0,0:21:09.76,0:21:11.60,Default,,0,0,0,,et non automatique, n'est-ce pas ?
+Dialogue: 0,0:21:12.06,0:21:14.02,Default,,0,0,0,,Pour vous venger de votre main.
+Dialogue: 0,0:21:14.60,0:21:18.11,Default,,0,0,0,,Vous étiez donc\Naux premières loges du spectacle.
+Dialogue: 0,0:21:22.15,0:21:23.19,Default,,0,0,0,,Tu m'as eu.
+Dialogue: 0,0:21:23.36,0:21:24.03,Default,,0,0,0,,Tatsumi Wada !
+Dialogue: 0,0:21:24.53,0:21:27.45,Default,,0,0,0,,Je vous arrête\Npour tentative de meurtre !
+Dialogue: 0,0:21:48.01,0:21:50.68,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:51.06,0:21:54.02,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:55.16,0:22:57.41,Default,,0,0,0,,C'était un coup de maître, M. Môri !
+Dialogue: 0,0:22:57.58,0:22:59.42,Default,,0,0,0,,Oui, on peut dire ça...
+Dialogue: 0,0:23:00.63,0:23:04.96,Default,,0,0,0,,Nous avons pu résoudre\Ncinq affaires en une grâce à vous.
+Dialogue: 0,0:23:05.42,0:23:08.72,Default,,0,0,0,,Le fameux crime parfait\Nde M. Hamanaka
+Dialogue: 0,0:23:08.88,0:23:11.59,Default,,0,0,0,,ne marchait que sur le papier.
+Dialogue: 0,0:23:11.76,0:23:14.06,Default,,0,0,0,,Ça lui aura valu un client mécontent
+Dialogue: 0,0:23:14.22,0:23:16.98,Default,,0,0,0,,qui voulait lui faire la peau.
+Dialogue: 0,0:23:17.31,0:23:20.48,Default,,0,0,0,,Il a eu la malchance\Nde croiser la route
+Dialogue: 0,0:23:20.94,0:23:24.19,Default,,0,0,0,,d'un solide conseiller comme moi.
+Dialogue: 0,0:23:26.90,0:23:28.99,Default,,0,0,0,,{\i1}Il est mal placé pour parler.{\i0}

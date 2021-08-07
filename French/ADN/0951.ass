@@ -1,0 +1,416 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.41,0:00:02.29,Default,,0,0,0,,Ho ! hisse ! Ho ! hisse !
+Dialogue: 0,0:00:12.30,0:00:14.47,Default,,0,0,0,,La locomotive s'est mise en marche !
+Dialogue: 0,0:00:14.80,0:00:17.22,Default,,0,0,0,,Elle est toujours aussi classe !
+Dialogue: 0,0:00:17.64,0:00:19.85,ST_HAUT,,0,0,0,,Mince ! Il est déjà 11 h ?
+Dialogue: 0,0:00:20.10,0:00:21.10,ST_HAUT,,0,0,0,,Vite, les enfants !
+Dialogue: 0,0:00:21.31,0:00:22.81,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:00:23.27,0:00:25.77,Default,,0,0,0,,Ho ! hisse ! Ho ! hisse !
+Dialogue: 0,0:00:26.94,0:00:28.82,Default,,0,0,0,,{\i1}Un éclair illumine les ténèbres !{\i0}
+Dialogue: 0,0:00:28.98,0:00:30.82,Default,,0,0,0,,{\i1}Sois transcendante,\Ndéduction posée !{\i0}
+Dialogue: 0,0:00:31.07,0:00:34.28,Default,,0,0,0,,{\i1}Notre book-café préféré\Nva connaître une sale affaire !{\i0}
+Dialogue: 0,0:00:34.45,0:00:37.53,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:37.70,0:00:39.87,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:00:44.71,0:00:47.13,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:00:51.13,0:00:53.63,Default,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:00:55.38,0:00:57.76,Default,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:01:00.35,0:01:02.85,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:04.85,0:01:07.35,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:15.95,0:01:18.78,Default,,0,0,0,,Générique d'ouverture :
+Dialogue: 0,0:01:37.38,0:01:39.64,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:48.56,0:01:51.06,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:01:52.94,0:01:55.36,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:01:57.28,0:02:00.24,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:10.79,0:02:13.38,Default,,0,0,0,,{\i1}Librairie ancienne et sifflet de train 2 !{\i0}
+Dialogue: 0,0:02:16.30,0:02:19.22,Default,,0,0,0,,MIZUTANI
+Dialogue: 0,0:02:20.89,0:02:24.68,Default,,0,0,0,,C'est le Tamaki Book Café,\Npour le rachat à domicile.
+Dialogue: 0,0:02:25.93,0:02:27.52,ST_HAUT,,0,0,0,,Je vous attendais.
+Dialogue: 0,0:02:27.81,0:02:29.44,ST_HAUT,,0,0,0,,Entrez, je vous en prie.
+Dialogue: 0,0:02:33.65,0:02:35.23,Default,,0,0,0,,C'est rempli de livres !
+Dialogue: 0,0:02:35.40,0:02:37.74,Default,,0,0,0,,Lesquels souhaitez-vous vendre ?
+Dialogue: 0,0:02:37.90,0:02:39.20,Default,,0,0,0,,Tous, en fait.
+Dialogue: 0,0:02:39.49,0:02:40.45,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:02:40.95,0:02:41.87,Default,,0,0,0,,Sur ce,
+Dialogue: 0,0:02:43.62,0:02:45.45,Default,,0,0,0,,permettez-moi d'y jeter un œil.
+Dialogue: 0,0:02:55.80,0:02:57.88,Default,,0,0,0,,50 000 yens pour les livres bon marché,
+Dialogue: 0,0:02:58.05,0:03:00.68,Default,,0,0,0,,et plus de 200 000 pièce\Npour les livres de valeur.
+Dialogue: 0,0:03:00.84,0:03:02.59,Default,,0,0,0,,Non ? Tant que ça ?
+Dialogue: 0,0:03:03.30,0:03:05.39,Default,,0,0,0,,C'est le prix,\Npour des éditions rares.
+Dialogue: 0,0:03:05.56,0:03:06.72,Default,,0,0,0,,"Des éditions rares" ?
+Dialogue: 0,0:03:06.93,0:03:10.39,Default,,0,0,0,,Ce sont des ouvrages anciens rares\Nou des éditions limitées,
+Dialogue: 0,0:03:10.56,0:03:14.11,Default,,0,0,0,,des livres de valeur qui comptent\Npeu d'exemplaires dans le monde.
+Dialogue: 0,0:03:14.44,0:03:16.11,Default,,0,0,0,,- C'est bien ça ?\N- Oui.
+Dialogue: 0,0:03:16.86,0:03:18.23,Default,,0,0,0,,Prenez ce livre.
+Dialogue: 0,0:03:18.40,0:03:22.28,Default,,0,0,0,,Il n'a été imprimé\Nqu'à 500 exemplaires en 1920.
+Dialogue: 0,0:03:22.45,0:03:26.79,Default,,0,0,0,,Beaucoup circulent sur le marché,\Nmais celui-ci est en très bon état.
+Dialogue: 0,0:03:27.33,0:03:30.79,Default,,0,0,0,,Peu importe...\NVous pouvez tout me racheter ?
+Dialogue: 0,0:03:31.33,0:03:34.04,Default,,0,0,0,,Excusez ma question,\Nmais ces livres sont à vous ?
+Dialogue: 0,0:03:35.09,0:03:37.42,Default,,0,0,0,,Non, ils appartiennent à mon mari.
+Dialogue: 0,0:03:38.05,0:03:40.63,Default,,0,0,0,,Est-il au courant de cette transaction ?
+Dialogue: 0,0:03:43.13,0:03:44.76,Default,,0,0,0,,On dirait bien que non...
+Dialogue: 0,0:03:45.18,0:03:47.89,Default,,0,0,0,,Ce n'est pas grave,\Nvu qu'il est hospitalisé.
+Dialogue: 0,0:03:48.35,0:03:50.52,Default,,0,0,0,,Et ces livres prennent de la place.
+Dialogue: 0,0:03:50.98,0:03:53.52,Default,,0,0,0,,Quoi ? Vous ne voulez plus\Nme les racheter ?
+Dialogue: 0,0:03:53.69,0:03:57.27,Default,,0,0,0,,Au contraire,\Nj'aimerais beaucoup les acquérir,
+Dialogue: 0,0:03:57.69,0:04:01.28,Default,,0,0,0,,mais obtenez d'abord\Nle consentement de votre époux.
+Dialogue: 0,0:04:10.37,0:04:11.29,Default,,0,0,0,,C'est joli, hein ?
+Dialogue: 0,0:04:11.75,0:04:12.46,Default,,0,0,0,,Oui !
+Dialogue: 0,0:04:12.71,0:04:14.04,Default,,0,0,0,,Je les ai prises moi-même
+Dialogue: 0,0:04:14.54,0:04:15.83,Default,,0,0,0,,avec mon téléphone.
+Dialogue: 0,0:04:16.00,0:04:17.54,Default,,0,0,0,,Vous êtes douée !
+Dialogue: 0,0:04:19.17,0:04:20.34,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:04:20.80,0:04:22.84,Default,,0,0,0,,Il y a un insecte dans ce livre !
+Dialogue: 0,0:04:23.26,0:04:25.55,Default,,0,0,0,,C'est un lépisme.
+Dialogue: 0,0:04:25.72,0:04:28.10,Default,,0,0,0,,"Un lépisme" ?\NC'est quoi, ce truc ?
+Dialogue: 0,0:04:28.56,0:04:30.77,ST_HAUT,,0,0,0,,Ça s'écrit\Navec "papier" et "poisson".
+Dialogue: 0,0:04:30.93,0:04:34.10,ST_HAUT,,0,0,0,,C'est un insecte qui adore\Nmanger la colle des reliures.
+Dialogue: 0,0:04:34.52,0:04:36.90,Default,,0,0,0,,Un insecte dont le nom\Ns'écrit avec "poisson" ?
+Dialogue: 0,0:04:37.23,0:04:38.86,Default,,0,0,0,,Regarde bien son corps.
+Dialogue: 0,0:04:39.77,0:04:41.99,Default,,0,0,0,,Les écailles argentées de son épiderme
+Dialogue: 0,0:04:42.15,0:04:44.82,Default,,0,0,0,,et ses mouvements onduleux\Nne te rappellent rien ?
+Dialogue: 0,0:04:44.99,0:04:47.62,Default,,0,0,0,,C'est vrai qu'on dirait un poisson !
+Dialogue: 0,0:04:48.07,0:04:50.66,Default,,0,0,0,,C'est dégoûtant.\NQue peut-on faire ?
+Dialogue: 0,0:04:50.91,0:04:53.91,Default,,0,0,0,,Rassurez-vous. J'ai un moyen facile\Nde vous en débarrasser.
+Dialogue: 0,0:04:55.17,0:04:55.87,Default,,0,0,0,,Avec ceci
+Dialogue: 0,0:04:56.67,0:04:59.00,Default,,0,0,0,,et un bout de papier...
+Dialogue: 0,0:04:59.42,0:05:00.38,Default,,0,0,0,,M. Yûjirô !
+Dialogue: 0,0:05:01.00,0:05:02.13,Default,,0,0,0,,Utilisez ça !
+Dialogue: 0,0:05:02.51,0:05:03.51,Default,,0,0,0,,Merci.
+Dialogue: 0,0:05:04.05,0:05:05.38,Default,,0,0,0,,Je verse une goutte...
+Dialogue: 0,0:05:05.93,0:05:07.39,Default,,0,0,0,,Ça sent bon !
+Dialogue: 0,0:05:07.59,0:05:09.01,Default,,0,0,0,,Ça, c'est de la lavande.
+Dialogue: 0,0:05:09.51,0:05:13.27,Default,,0,0,0,,Les lépismes détestent les plantes,\Nsurtout la lavande.
+Dialogue: 0,0:05:14.31,0:05:17.69,Default,,0,0,0,,Il suffit de placer\Nle papier imprégné de lavande
+Dialogue: 0,0:05:17.85,0:05:19.86,Default,,0,0,0,,dans l'étagère, comme ceci,
+Dialogue: 0,0:05:20.02,0:05:22.48,Default,,0,0,0,,pour faire disparaître les lépismes.
+Dialogue: 0,0:05:22.90,0:05:24.11,Default,,0,0,0,,C'est génial !
+Dialogue: 0,0:05:24.28,0:05:26.32,Default,,0,0,0,,C'est très instructif !
+Dialogue: 0,0:05:26.49,0:05:28.49,Default,,0,0,0,,{\i1}Je testerai le prochain coup.{\i0}
+Dialogue: 0,0:05:31.37,0:05:33.37,Default,,0,0,0,,Sur ce, nous allons vous laisser.
+Dialogue: 0,0:05:34.58,0:05:37.04,Default,,0,0,0,,D'accord.\NDésolée pour le dérangement.
+Dialogue: 0,0:05:43.84,0:05:46.26,ST_HAUT,,0,0,0,,Bonjour !\NAsseyez-vous où vous voulez !
+Dialogue: 0,0:05:50.35,0:05:52.14,Default,,0,0,0,,Ils valent combien, ces bouquins ?
+Dialogue: 0,0:05:52.76,0:05:54.14,Default,,0,0,0,,C'est pour une estimation ?
+Dialogue: 0,0:05:54.47,0:05:55.39,Default,,0,0,0,,Faites voir.
+Dialogue: 0,0:05:56.52,0:05:59.35,Default,,0,0,0,,Il n'y a que des livres rares,\Non dirait.
+Dialogue: 0,0:06:00.19,0:06:01.19,Default,,0,0,0,,Excusez-moi.
+Dialogue: 0,0:06:01.82,0:06:03.73,Default,,0,0,0,,Ça peut monter à 500 000 yens ?
+Dialogue: 0,0:06:04.32,0:06:05.53,Default,,0,0,0,,Bien plus que ça !
+Dialogue: 0,0:06:05.69,0:06:09.53,Default,,0,0,0,,Tout dépend de l'état, mais le tout\Npeut valoir jusqu'à 2 millions.
+Dialogue: 0,0:06:10.41,0:06:11.53,Default,,0,0,0,,L'ordure...
+Dialogue: 0,0:06:11.99,0:06:15.58,Default,,0,0,0,,Impossible d'estimer précisément\Nsans avoir les livres en main.
+Dialogue: 0,0:06:15.83,0:06:18.79,Default,,0,0,0,,Amenez-les-moi ici, si c'est possible.
+Dialogue: 0,0:06:21.21,0:06:23.00,Default,,0,0,0,,Au plaisir de vous revoir !
+Dialogue: 0,0:06:30.80,0:06:33.43,Default,,0,0,0,,On se sent vraiment à l'aise ici !
+Dialogue: 0,0:06:33.97,0:06:35.77,ST_HAUT,,0,0,0,,Merci de venir si souvent !
+Dialogue: 0,0:06:35.97,0:06:37.77,ST_HAUT,,0,0,0,,Que diriez-vous d'un autre verre ?
+Dialogue: 0,0:06:37.98,0:06:39.94,Default,,0,0,0,,Avec plaisir, je veux bien !
+Dialogue: 0,0:06:40.35,0:06:42.65,Default,,0,0,0,,M. Yûjirô n'est pas là, aujourd'hui ?
+Dialogue: 0,0:06:42.81,0:06:44.32,Default,,0,0,0,,Beau-papa est au fond.
+Dialogue: 0,0:06:44.82,0:06:48.90,Default,,0,0,0,,Il vérifie et restaure la tonne\Nde livres qu'il a rachetée hier.
+Dialogue: 0,0:06:56.79,0:06:58.46,Default,,0,0,0,,Oh ! Content de vous voir !
+Dialogue: 0,0:06:59.12,0:07:01.12,Default,,0,0,0,,Ces livres, ce sont ceux...
+Dialogue: 0,0:07:01.29,0:07:03.63,Default,,0,0,0,,De Mme Mizutani, oui.
+Dialogue: 0,0:07:04.00,0:07:05.71,Default,,0,0,0,,Il y a aussi les éditions rares ?
+Dialogue: 0,0:07:06.17,0:07:10.13,Default,,0,0,0,,Non, son mari ne souhaitait pas\Nles vendre, paraît-il.
+Dialogue: 0,0:07:10.30,0:07:12.68,Default,,0,0,0,,Je lui ai donc repris le reste.
+Dialogue: 0,0:07:13.18,0:07:14.64,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:07:14.85,0:07:17.97,Default,,0,0,0,,Beau-papa. J'ai une certaine\NMme Mizutani au téléphone.
+Dialogue: 0,0:07:19.93,0:07:21.56,Default,,0,0,0,,Yûjirô Tamaki à l'appareil.
+Dialogue: 0,0:07:22.10,0:07:23.73,Default,,0,0,0,,Quoi ? Vraiment ?
+Dialogue: 0,0:07:24.65,0:07:26.73,Default,,0,0,0,,Mais non, jamais de la vie...
+Dialogue: 0,0:07:27.98,0:07:30.24,Default,,0,0,0,,Entendu, j'arrive tout de suite.
+Dialogue: 0,0:07:31.20,0:07:32.24,Default,,0,0,0,,Un problème ?
+Dialogue: 0,0:07:32.99,0:07:34.91,Default,,0,0,0,,On a volé ses éditions rares.
+Dialogue: 0,0:07:36.74,0:07:40.04,Default,,0,0,0,,Mais pourquoi\Nvous a-t-elle contacté, alors ?
+Dialogue: 0,0:07:40.21,0:07:44.29,Default,,0,0,0,,On dirait bien qu'elle pense\Nque c'est moi le voleur...
+Dialogue: 0,0:07:44.46,0:07:46.04,Default,,0,0,0,,MIZUTANI
+Dialogue: 0,0:07:46.34,0:07:48.30,Default,,0,0,0,,Rendez-moi ce que vous avez volé !
+Dialogue: 0,0:07:48.55,0:07:50.26,Default,,0,0,0,,Calmez-vous un peu...
+Dialogue: 0,0:07:50.47,0:07:53.76,Default,,0,0,0,,Et racontez-moi d'abord\Ncomment les livres ont été volés.
+Dialogue: 0,0:07:55.97,0:07:58.60,Default,,0,0,0,,Je suis sortie\Ndéjeuner avec une amie, ce midi.
+Dialogue: 0,0:07:58.89,0:08:01.39,Default,,0,0,0,,On a fini de manger vers 13 h.
+Dialogue: 0,0:08:01.69,0:08:03.14,Default,,0,0,0,,Je suis rentrée aussitôt.
+Dialogue: 0,0:08:03.44,0:08:07.98,Default,,0,0,0,,J'ai alors remarqué la vitre brisée\Net la disparition des livres !
+Dialogue: 0,0:08:08.78,0:08:10.61,Default,,0,0,0,,Vous avez prévenu la police ?
+Dialogue: 0,0:08:11.15,0:08:12.24,Default,,0,0,0,,Bien sûr.
+Dialogue: 0,0:08:12.40,0:08:15.99,Default,,0,0,0,,Et d'après elle, cette effraction\Nserait l'œuvre d'un pro.
+Dialogue: 0,0:08:16.16,0:08:18.41,Default,,0,0,0,,Je n'ai pas bougé du café,\Naujourd'hui.
+Dialogue: 0,0:08:18.58,0:08:21.00,Default,,0,0,0,,Je n'ai pas pu venir vous voler...
+Dialogue: 0,0:08:21.50,0:08:24.17,Default,,0,0,0,,M. Yûjirô a un alibi solide !
+Dialogue: 0,0:08:24.33,0:08:28.09,Default,,0,0,0,,Ça ne veut rien dire !\NIl a pu engager quelqu'un.
+Dialogue: 0,0:08:28.25,0:08:30.26,Default,,0,0,0,,Je ne ferais jamais ça, voyons !
+Dialogue: 0,0:08:30.76,0:08:33.47,Default,,0,0,0,,Ces livres sont restés ici\Npendant 20 ans !
+Dialogue: 0,0:08:33.63,0:08:36.85,Default,,0,0,0,,Et ils ont été volés\Njuste après votre estimation.
+Dialogue: 0,0:08:37.14,0:08:39.14,Default,,0,0,0,,Comment comptez-vous expliquer ça ?
+Dialogue: 0,0:08:39.39,0:08:40.27,Default,,0,0,0,,C'est-à-dire que...
+Dialogue: 0,0:08:43.81,0:08:45.56,Default,,0,0,0,,Cette dame soupçonnait M. Yûjirô.
+Dialogue: 0,0:08:45.73,0:08:47.77,Default,,0,0,0,,Oui, de toute évidence...
+Dialogue: 0,0:08:48.23,0:08:51.53,Default,,0,0,0,,Attrapons nous-mêmes\Nle véritable coupable !
+Dialogue: 0,0:08:51.90,0:08:55.24,Default,,0,0,0,,Du calme !\NLaissons plutôt la police enquêter.
+Dialogue: 0,0:08:55.41,0:08:56.03,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:08:56.74,0:08:57.57,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:08:57.74,0:08:59.28,Default,,0,0,0,,Je n'ai plus mon portable.
+Dialogue: 0,0:08:59.49,0:09:00.66,Default,,0,0,0,,Il doit être au café.
+Dialogue: 0,0:09:01.12,0:09:02.70,Default,,0,0,0,,Tu veux aller le récupérer ?
+Dialogue: 0,0:09:02.87,0:09:05.79,Default,,0,0,0,,Il doit encore y avoir quelqu'un\Nà cette heure-ci.
+Dialogue: 0,0:09:06.37,0:09:08.29,Default,,0,0,0,,Désolé...\NOn va faire ça, oui.
+Dialogue: 0,0:09:12.55,0:09:15.26,Default,,0,0,0,,Désolé, mais le café est fermé !
+Dialogue: 0,0:09:16.22,0:09:19.26,Default,,0,0,0,,Vous étiez venu pour une estimation,\Nl'autre jour...
+Dialogue: 0,0:09:19.51,0:09:21.81,Default,,0,0,0,,J'aimerais connaître\Nla valeur exacte de ça.
+Dialogue: 0,0:09:22.56,0:09:26.19,Default,,0,0,0,,Entendu.\NLaissez-moi y jeter un coup d'œil.
+Dialogue: 0,0:09:29.61,0:09:31.32,Default,,0,0,0,,Ce sont de superbes livres.
+Dialogue: 0,0:09:31.86,0:09:35.32,Default,,0,0,0,,En plus, leur état est bon.\NIls valent un très joli prix.
+Dialogue: 0,0:09:36.32,0:09:39.91,Default,,0,0,0,,C'est fou,\Nil y a parfois de sacrés hasards !
+Dialogue: 0,0:09:41.49,0:09:45.41,Default,,0,0,0,,Je viens tout juste\Nd'estimer les mêmes livres.
+Dialogue: 0,0:09:45.58,0:09:47.83,Default,,0,0,0,,Je n'aurais jamais cru\Nle faire 2 jours de suite !
+Dialogue: 0,0:09:49.00,0:09:50.04,Default,,0,0,0,,Ah, mince !
+Dialogue: 0,0:09:55.34,0:09:57.63,Default,,0,0,0,,Où avez-vous trouvé ces livres,\Nmonsieur ?
+Dialogue: 0,0:09:57.80,0:10:00.68,Default,,0,0,0,,On s'en fiche de ça !\NDépêchez-vous de les estimer !
+Dialogue: 0,0:10:01.10,0:10:04.14,Default,,0,0,0,,Tu les as volés\Nchez Mme Mizutani, avoue !
+Dialogue: 0,0:10:04.31,0:10:05.43,Default,,0,0,0,,Pas du tout !
+Dialogue: 0,0:10:05.64,0:10:08.23,Default,,0,0,0,,Tu m'excuseras,\Nmais j'appelle la police !
+Dialogue: 0,0:10:08.90,0:10:11.40,Default,,0,0,0,,De quoi ?\NCes bouquins sont à moi !
+Dialogue: 0,0:10:11.61,0:10:13.57,Default,,0,0,0,,Tu verras ça avec la police.
+Dialogue: 0,0:10:13.98,0:10:14.82,Default,,0,0,0,,Attends !
+Dialogue: 0,0:10:15.53,0:10:16.61,Default,,0,0,0,,Arrête !
+Dialogue: 0,0:10:29.37,0:10:31.29,Default,,0,0,0,,Il s'est passé quelque chose ?
+Dialogue: 0,0:10:31.50,0:10:32.46,Default,,0,0,0,,Allons voir !
+Dialogue: 0,0:10:35.59,0:10:37.34,Default,,0,0,0,,Il est arrivé un truc grave ?
+Dialogue: 0,0:10:37.72,0:10:39.38,Default,,0,0,0,,Ah ! M. Yûjirô !
+Dialogue: 0,0:10:40.84,0:10:42.72,Default,,0,0,0,,Vous êtes blessé, M. Yûjirô ?
+Dialogue: 0,0:10:42.97,0:10:44.51,Default,,0,0,0,,Encore vous ?
+Dialogue: 0,0:10:44.85,0:10:47.77,Default,,0,0,0,,Je suis venu récupérer mon portable\Nau café d'à côté.
+Dialogue: 0,0:10:47.98,0:10:49.98,Default,,0,0,0,,Mais comme on a vu du monde...
+Dialogue: 0,0:10:50.65,0:10:52.73,Default,,0,0,0,,Ce sang n'est pas le mien.
+Dialogue: 0,0:10:53.27,0:10:54.27,Default,,0,0,0,,Mais alors...
+Dialogue: 0,0:10:57.11,0:10:59.86,Default,,0,0,0,,C'est le principal suspect\Nde cette affaire.
+Dialogue: 0,0:11:07.45,0:11:09.62,Default,,0,0,0,,Dites, vous pouvez m'expliquer ?
+Dialogue: 0,0:11:10.21,0:11:11.62,Default,,0,0,0,,C'est moi qui l'ai signalé.
+Dialogue: 0,0:11:12.29,0:11:15.05,Default,,0,0,0,,C'est elle qui a découvert tout ça.
+Dialogue: 0,0:11:15.25,0:11:17.13,Default,,0,0,0,,Je l'ai bien vu !
+Dialogue: 0,0:11:17.67,0:11:19.63,Default,,0,0,0,,Cet homme était à côté du cadavre !
+Dialogue: 0,0:11:20.43,0:11:23.60,Default,,0,0,0,,Inspecteur Megure,\Non a identifié le défunt.
+Dialogue: 0,0:11:24.47,0:11:27.18,Default,,0,0,0,,Il s'agit de Ryôsuke Sawada,\Nâgé de 35 ans.
+Dialogue: 0,0:11:27.60,0:11:29.64,Default,,0,0,0,,Sans emploi, il habitait à proximité.
+Dialogue: 0,0:11:29.81,0:11:32.31,Default,,0,0,0,,Bien...\NQuelle est la cause de la mort ?
+Dialogue: 0,0:11:32.56,0:11:34.98,Default,,0,0,0,,Lésion cérébrale\Nsuite à un coup au crâne.
+Dialogue: 0,0:11:35.40,0:11:36.52,Default,,0,0,0,,L'arme du crime
+Dialogue: 0,0:11:36.90,0:11:39.94,Default,,0,0,0,,est cette pierre tachée de sang\Nretrouvée sur place.
+Dialogue: 0,0:11:40.11,0:11:41.65,Default,,0,0,0,,On y a trouvé des empreintes ?
+Dialogue: 0,0:11:41.82,0:11:42.91,Default,,0,0,0,,Non.
+Dialogue: 0,0:11:43.32,0:11:44.07,Default,,0,0,0,,Seulement...
+Dialogue: 0,0:11:44.53,0:11:45.45,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:11:45.78,0:11:48.04,Default,,0,0,0,,On a relevé\Nde la crème à mains dessus.
+Dialogue: 0,0:11:48.33,0:11:50.66,Default,,0,0,0,,- De la crème à mains ?\N- Oui.
+Dialogue: 0,0:11:51.16,0:11:53.83,Default,,0,0,0,,J'y pense.\NDans les métiers du livre,
+Dialogue: 0,0:11:54.00,0:11:57.13,Default,,0,0,0,,on en met souvent\Npour éviter de s'abîmer les mains.
+Dialogue: 0,0:11:57.46,0:11:58.46,Default,,0,0,0,,Je me trompe ?
+Dialogue: 0,0:11:59.01,0:11:59.55,Default,,0,0,0,,Non...
+Dialogue: 0,0:12:00.05,0:12:02.01,Default,,0,0,0,,Vous en avez sur vous ?
+Dialogue: 0,0:12:02.18,0:12:02.80,Default,,0,0,0,,Oui.
+Dialogue: 0,0:12:04.43,0:12:07.06,Default,,0,0,0,,Vous permettez que je l'analyse ?
+Dialogue: 0,0:12:07.51,0:12:09.31,Default,,0,0,0,,Bien sûr, ça ne me dérange pas.
+Dialogue: 0,0:12:09.64,0:12:12.56,Default,,0,0,0,,- Chiba. Donne ça au légiste.\N- À vos ordres !
+Dialogue: 0,0:12:13.23,0:12:17.27,Default,,0,0,0,,Bien, pouvez-vous\Nm'expliquer ce qui s'est passé ?
+Dialogue: 0,0:12:17.48,0:12:18.32,Default,,0,0,0,,Oui.
+Dialogue: 0,0:12:18.86,0:12:20.74,Default,,0,0,0,,Il m'a demandé au téléphone
+Dialogue: 0,0:12:20.90,0:12:22.49,Default,,0,0,0,,de le rejoindre au parc.
+Dialogue: 0,0:12:22.78,0:12:24.53,Default,,0,0,0,,C'était quand à peu près ?
+Dialogue: 0,0:12:25.12,0:12:26.45,Default,,0,0,0,,Vers 19 h.
+Dialogue: 0,0:12:26.91,0:12:29.45,Default,,0,0,0,,Il était par terre quand je suis arrivé.
+Dialogue: 0,0:12:29.87,0:12:32.04,Default,,0,0,0,,J'ai couru vers lui, mais...
+Dialogue: 0,0:12:32.41,0:12:34.87,Default,,0,0,0,,C'est là\Nque vous vous êtes taché de sang...
+Dialogue: 0,0:12:35.04,0:12:35.67,Default,,0,0,0,,Exact.
+Dialogue: 0,0:12:36.21,0:12:38.96,Default,,0,0,0,,Mais pourquoi le défunt\Nvous a-t-il téléphoné ?
+Dialogue: 0,0:12:39.42,0:12:41.92,Default,,0,0,0,,Il ne me l'a pas dit.\NÀ mon avis,
+Dialogue: 0,0:12:42.26,0:12:45.22,Default,,0,0,0,,ça concernait probablement\Nces fameux livres.
+Dialogue: 0,0:12:45.39,0:12:46.64,Default,,0,0,0,,Quels livres ?
+Dialogue: 0,0:12:49.76,0:12:51.60,Default,,0,0,0,,- Papa !\N- Beau-papa !
+Dialogue: 0,0:12:52.02,0:12:53.89,Default,,0,0,0,,Désolé de vous avoir inquiétés.
+Dialogue: 0,0:12:54.48,0:12:55.81,Default,,0,0,0,,C'est ça, inspecteur.
+Dialogue: 0,0:12:59.40,0:13:01.86,Default,,0,0,0,,Il y en a une dizaine dans ce sac.
+Dialogue: 0,0:13:02.40,0:13:05.70,Default,,0,0,0,,Il me les a apportés en fin d'après-midi\Npour estimation.
+Dialogue: 0,0:13:06.99,0:13:07.95,Default,,0,0,0,,J'y pense...
+Dialogue: 0,0:13:08.49,0:13:09.45,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:13:09.78,0:13:13.96,Default,,0,0,0,,Je dois les avoir vus en photo\Ndans le portable de la victime.
+Dialogue: 0,0:13:15.87,0:13:17.33,Default,,0,0,0,,Voilà ! C'est celle-ci !
+Dialogue: 0,0:13:17.88,0:13:21.76,Default,,0,0,0,,C'est la photo qu'il m'a montrée\Nla première fois qu'il est venu !
+Dialogue: 0,0:13:22.09,0:13:25.26,Default,,0,0,0,,Quoi ? La victime\Nest déjà venue ici auparavant ?
+Dialogue: 0,0:13:25.43,0:13:28.26,Default,,0,0,0,,Oui,\Nil m'a d'abord montré cette photo,
+Dialogue: 0,0:13:28.89,0:13:32.06,Default,,0,0,0,,mais j'ai dit avoir besoin des livres\Npour l'estimation.
+Dialogue: 0,0:13:32.22,0:13:33.27,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:13:34.06,0:13:35.19,Default,,0,0,0,,À ce propos,
+Dialogue: 0,0:13:35.56,0:13:36.90,Default,,0,0,0,,combien valent-ils ?
+Dialogue: 0,0:13:37.48,0:13:39.65,Default,,0,0,0,,Environ 2 millions et demi le tout.
+Dialogue: 0,0:13:39.81,0:13:41.90,Default,,0,0,0,,Quoi ? Tant que ça ?
+Dialogue: 0,0:13:47.28,0:13:50.28,Default,,0,0,0,,Ah, c'est une des feuilles de mon carnet\Nque j'avais donnée !
+Dialogue: 0,0:13:51.62,0:13:52.95,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:13:53.58,0:13:56.04,Default,,0,0,0,,Elle devait aider à lutter\Ncontre les lépismes
+Dialogue: 0,0:13:56.21,0:13:59.33,Default,,0,0,0,,présents dans les livres\Nchez Mme Mizutani.
+Dialogue: 0,0:14:00.96,0:14:04.96,Default,,0,0,0,,Je l'avais remarquée aussi\Net j'ai pensé qu'il était le voleur.
+Dialogue: 0,0:14:06.30,0:14:07.97,Default,,0,0,0,,Le voleur ?\NComment ça ?
+Dialogue: 0,0:14:08.43,0:14:12.47,Default,,0,0,0,,Des éditions rares ont été volées\Nchez Mme Mizutani ce midi.
+Dialogue: 0,0:14:14.22,0:14:15.23,Default,,0,0,0,,C'est vrai ?
+Dialogue: 0,0:14:15.73,0:14:16.43,Default,,0,0,0,,Oui.
+Dialogue: 0,0:14:16.60,0:14:20.11,Default,,0,0,0,,La victime a donc volé ces livres\Nchez Mme Mizutani
+Dialogue: 0,0:14:20.27,0:14:21.86,Default,,0,0,0,,pour venir les vendre ici.
+Dialogue: 0,0:14:22.02,0:14:24.40,Default,,0,0,0,,C'est pourquoi\Nj'ai voulu prévenir la police.
+Dialogue: 0,0:14:24.82,0:14:27.61,Default,,0,0,0,,Seulement,\Nil s'est enfui précipitamment.
+Dialogue: 0,0:14:28.11,0:14:31.45,Default,,0,0,0,,C'est après qu'il m'a téléphoné\Npour me faire venir au parc.
+Dialogue: 0,0:14:31.62,0:14:32.91,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:14:33.99,0:14:34.70,Default,,0,0,0,,{\i1}Quoi ?{\i0}
+Dialogue: 0,0:14:39.37,0:14:41.21,Default,,0,0,0,,Quoi encore, Conan ?
+Dialogue: 0,0:14:41.50,0:14:43.84,Default,,0,0,0,,Vous pouvez me remontrer le portable ?
+Dialogue: 0,0:14:45.51,0:14:47.13,Default,,0,0,0,,Ai-je vraiment le choix ?
+Dialogue: 0,0:14:47.30,0:14:48.38,Default,,0,0,0,,Merci !
+Dialogue: 0,0:14:52.72,0:14:53.72,Default,,0,0,0,,{\i1}J'avais vu juste.{\i0}
+Dialogue: 0,0:14:54.39,0:14:57.52,Default,,0,0,0,,{\i1}On ne retrouve pas cette tache noire\Nsur les livres.{\i0}
+Dialogue: 0,0:14:58.06,0:14:59.64,Default,,0,0,0,,{\i1}Donc...{\i0}
+Dialogue: 0,0:15:00.94,0:15:02.52,Default,,0,0,0,,{\i1}La lentille est intacte.{\i0}
+Dialogue: 0,0:15:05.57,0:15:06.65,Default,,0,0,0,,C'est quoi, ça ?
+Dialogue: 0,0:15:07.19,0:15:08.32,Default,,0,0,0,,On dirait un bouton...
+Dialogue: 0,0:15:08.78,0:15:09.99,Default,,0,0,0,,Ah ! Stop !
+Dialogue: 0,0:15:10.78,0:15:11.74,Default,,0,0,0,,Qu'y a-t-il, Chiba ?
+Dialogue: 0,0:15:12.37,0:15:14.62,Default,,0,0,0,,La victime semblait s'être battue,
+Dialogue: 0,0:15:14.78,0:15:17.54,Default,,0,0,0,,il manquait un bouton à sa chemise.
+Dialogue: 0,0:15:17.75,0:15:19.71,Default,,0,0,0,,Je pense que c'est celui-ci.
+Dialogue: 0,0:15:20.25,0:15:22.71,Default,,0,0,0,,Comment cela se fait-il, M. Tamaki ?
+Dialogue: 0,0:15:23.34,0:15:24.04,Default,,0,0,0,,En fait,
+Dialogue: 0,0:15:24.50,0:15:28.05,Default,,0,0,0,,on s'est un peu accrochés\Nquand j'ai voulu appeler la police.
+Dialogue: 0,0:15:28.76,0:15:30.59,Default,,0,0,0,,C'est peut-être à ce moment-là...
+Dialogue: 0,0:15:30.76,0:15:33.43,Default,,0,0,0,,Pourquoi\Nnous avoir tu cette information ?
+Dialogue: 0,0:15:33.97,0:15:35.01,Default,,0,0,0,,C'est-à-dire que...
+Dialogue: 0,0:15:37.72,0:15:38.60,Default,,0,0,0,,Allô ?
+Dialogue: 0,0:15:39.39,0:15:40.19,Default,,0,0,0,,Oui.
+Dialogue: 0,0:15:41.39,0:15:42.31,Default,,0,0,0,,Oui.
+Dialogue: 0,0:15:42.77,0:15:43.77,Default,,0,0,0,,Compris !
+Dialogue: 0,0:15:45.02,0:15:48.74,Default,,0,0,0,,La crème à mains relevée\Nsur l'arme du crime correspond.
+Dialogue: 0,0:15:50.07,0:15:50.99,Default,,0,0,0,,C'est pas vrai !
+Dialogue: 0,0:15:51.45,0:15:53.41,Default,,0,0,0,,Vous vous êtes battu avec la victime
+Dialogue: 0,0:15:53.57,0:15:57.79,Default,,0,0,0,,et la crème relevée sur l'arme du crime\Ncorrespond à la vôtre.
+Dialogue: 0,0:15:58.24,0:16:00.75,Default,,0,0,0,,Ces présomptions me suffisent amplement.
+Dialogue: 0,0:16:01.75,0:16:03.17,Default,,0,0,0,,Yûjirô Tamaki,
+Dialogue: 0,0:16:03.33,0:16:05.38,Default,,0,0,0,,voulez-vous bien me suivre au poste ?
+Dialogue: 0,0:16:05.75,0:16:09.01,Default,,0,0,0,,- C'est impossible !\N- Il y a sûrement erreur !
+Dialogue: 0,0:16:09.51,0:16:10.26,Default,,0,0,0,,Alors ?
+Dialogue: 0,0:16:10.76,0:16:13.18,Default,,0,0,0,,Si tu n'interviens pas,\Nils vont l'embarquer.
+Dialogue: 0,0:16:13.34,0:16:16.60,Default,,0,0,0,,Je le sais bien.\NMais je n'ai rien de déterminant.
+Dialogue: 0,0:16:18.77,0:16:21.48,Default,,0,0,0,,Mince ! J'ai laissé l'eau\Nà bouillir sur le feu !
+Dialogue: 0,0:16:21.64,0:16:23.52,Default,,0,0,0,,C'est bon, je vais éteindre.
+Dialogue: 0,0:16:26.61,0:16:27.90,Default,,0,0,0,,Merci beaucoup !
+Dialogue: 0,0:16:35.74,0:16:37.41,Default,,0,0,0,,Tu as découvert un truc, hein...
+Dialogue: 0,0:16:37.74,0:16:38.62,Default,,0,0,0,,Ouais.
+Dialogue: 0,0:16:40.04,0:16:41.58,Default,,0,0,0,,Attendez une minute.
+Dialogue: 0,0:16:42.33,0:16:44.67,Default,,0,0,0,,M. Tamaki n'est pas le coupable.
+Dialogue: 0,0:16:45.17,0:16:48.17,Default,,0,0,0,,Euh, pourtant, vu les présomptions...
+Dialogue: 0,0:16:48.88,0:16:52.59,Default,,0,0,0,,La crème à mains est faite d'huile,\Nelle repousse les liquides.
+Dialogue: 0,0:16:53.22,0:16:57.64,Default,,0,0,0,,Je pense qu'en frappant avec une pierre\Ntenue dans une main enduite de crème,
+Dialogue: 0,0:16:57.80,0:17:02.81,Default,,0,0,0,,le sang n'aurait pas accroché\Nsur la partie huileuse.
+Dialogue: 0,0:17:03.31,0:17:07.77,Default,,0,0,0,,Mais d'après le légiste,\Nil y avait bien du sang sur la crème.
+Dialogue: 0,0:17:08.06,0:17:11.78,Default,,0,0,0,,Ça signifie donc que la pierre\Na été enduite de crème
+Dialogue: 0,0:17:11.94,0:17:13.45,Default,,0,0,0,,après qu'on a frappé avec.
+Dialogue: 0,0:17:13.86,0:17:15.57,Default,,0,0,0,,Mais pour quelle raison ?
+Dialogue: 0,0:17:15.78,0:17:21.04,Default,,0,0,0,,C'est évident ! Le vrai coupable\Nvoulait faire accuser M. Tamaki !
+Dialogue: 0,0:17:21.37,0:17:23.83,Default,,0,0,0,,Et qui serait le vrai coupable ?
+Dialogue: 0,0:17:24.29,0:17:29.38,Default,,0,0,0,,L'autre individu\Nqui a participé au vol des livres !
+Dialogue: 0,0:17:29.59,0:17:31.96,Default,,0,0,0,,Il y aurait un complice ?
+Dialogue: 0,0:17:32.30,0:17:36.47,Default,,0,0,0,,Regardez à nouveau la photo\Ndans le portable de la victime.
+Dialogue: 0,0:17:37.43,0:17:38.60,Default,,0,0,0,,La voici...
+Dialogue: 0,0:17:39.26,0:17:40.76,Default,,0,0,0,,Sur cette photo des livres,
+Dialogue: 0,0:17:41.10,0:17:43.31,Default,,0,0,0,,on en voit un noirci en partie.
+Dialogue: 0,0:17:46.31,0:17:47.35,Default,,0,0,0,,Ici, n'est-ce pas ?
+Dialogue: 0,0:17:47.98,0:17:51.11,Default,,0,0,0,,Cette tache n'existe pas\Nsur le livre en question.
+Dialogue: 0,0:17:51.57,0:17:53.86,Default,,0,0,0,,En effet, il est impeccable.
+Dialogue: 0,0:17:54.32,0:17:58.28,Default,,0,0,0,,Autrement dit,\Ncette tache noire provient d'une rayure
+Dialogue: 0,0:17:58.45,0:18:00.37,Default,,0,0,0,,ou d'une saleté sur la lentille.
+Dialogue: 0,0:18:00.87,0:18:04.83,Default,,0,0,0,,Seulement, je n'en ai pas vu\Nsur celle du portable de la victime.
+Dialogue: 0,0:18:05.46,0:18:10.29,Default,,0,0,0,,Donc, cette photo a été prise\Navec un autre appareil.
+Dialogue: 0,0:18:10.46,0:18:15.26,Default,,0,0,0,,J'ai vu des photos avec la même\Ntache noire chez Mme Mizutani !
+Dialogue: 0,0:18:16.22,0:18:18.89,Default,,0,0,0,,Je m'en souviens !\NLes photos de fleurs, c'est ça ?
+Dialogue: 0,0:18:19.22,0:18:22.18,Default,,0,0,0,,Mais alors,\Nl'auteur de cette photo serait...
+Dialogue: 0,0:18:22.64,0:18:23.52,Default,,0,0,0,,Mme Mizutani.
+Dialogue: 0,0:18:24.10,0:18:26.27,Default,,0,0,0,,Pouvez-vous me montrer votre portable ?
+Dialogue: 0,0:18:30.98,0:18:32.40,Default,,0,0,0,,La lentille est abîmée !
+Dialogue: 0,0:18:32.98,0:18:36.57,Default,,0,0,0,,C'est une preuve irréfutable\Nque Mme Mizutani a envoyé
+Dialogue: 0,0:18:36.74,0:18:40.91,Default,,0,0,0,,cette photo des livres à la victime\Npour lui ordonner de les voler.
+Dialogue: 0,0:18:41.07,0:18:42.41,Default,,0,0,0,,Est-ce que c'est vrai ?
+Dialogue: 0,0:18:44.16,0:18:46.91,Default,,0,0,0,,Oui, c'est moi\Nqui lui ai demandé de le faire.
+Dialogue: 0,0:18:47.33,0:18:50.25,Default,,0,0,0,,Mais pourquoi se faire voler\Nses propres livres ?
+Dialogue: 0,0:18:50.42,0:18:53.92,Default,,0,0,0,,En termes plus précis,\Nce sont ceux de son mari, pas les siens.
+Dialogue: 0,0:18:54.67,0:18:58.72,Default,,0,0,0,,Au départ, elle a dû vouloir profiter\Nde l'hospitalisation de son mari
+Dialogue: 0,0:18:58.88,0:19:01.14,Default,,0,0,0,,pour se faire de l'argent avec...
+Dialogue: 0,0:19:01.55,0:19:04.01,Default,,0,0,0,,Mais M. Yûjirô a refusé !
+Dialogue: 0,0:19:04.26,0:19:05.02,Default,,0,0,0,,Voilà.
+Dialogue: 0,0:19:06.02,0:19:08.18,Default,,0,0,0,,C'est vrai pour le vol des livres,
+Dialogue: 0,0:19:08.69,0:19:10.27,Default,,0,0,0,,mais pas pour le meurtre !
+Dialogue: 0,0:19:10.44,0:19:13.69,Default,,0,0,0,,Ou alors, vous avez une preuve\Nque c'est moi qui l'ai tué ?
+Dialogue: 0,0:19:14.19,0:19:15.78,Default,,0,0,0,,Oui, vos lunettes !
+Dialogue: 0,0:19:16.32,0:19:17.15,Default,,0,0,0,,Mes lunettes ?
+Dialogue: 0,0:19:17.65,0:19:19.90,Default,,0,0,0,,Quand vous avez éteint la bouilloire,
+Dialogue: 0,0:19:20.36,0:19:22.95,Default,,0,0,0,,vous avez eu de la vapeur sur le visage.
+Dialogue: 0,0:19:23.16,0:19:26.24,Default,,0,0,0,,Mais un seul de vos verres\Ns'est embué à ce moment.
+Dialogue: 0,0:19:26.95,0:19:30.79,Default,,0,0,0,,La crème à mains\Nest parfois utilisée comme anti-buée.
+Dialogue: 0,0:19:31.58,0:19:34.46,Default,,0,0,0,,C'est sûrement\Nqu'au moment d'enduire la pierre
+Dialogue: 0,0:19:34.63,0:19:39.42,Default,,0,0,0,,avec la même crème à mains que M. Tamaki\Npour le faire accuser,
+Dialogue: 0,0:19:40.38,0:19:42.72,Default,,0,0,0,,vous avez dû en mettre par mégarde
+Dialogue: 0,0:19:42.89,0:19:45.89,Default,,0,0,0,,sur un des verres de vos lunettes.
+Dialogue: 0,0:19:47.31,0:19:48.06,Default,,0,0,0,,C'est faux !
+Dialogue: 0,0:19:48.73,0:19:51.14,Default,,0,0,0,,Si vous avez mis la crème\Naprès avoir frappé,
+Dialogue: 0,0:19:51.31,0:19:55.19,Default,,0,0,0,,il doit rester un minimum de sang\Nmélangé à celle-ci.
+Dialogue: 0,0:19:55.40,0:19:59.82,Default,,0,0,0,,Une analyse minutieuse de vos lunettes\Ndevrait révéler
+Dialogue: 0,0:20:00.32,0:20:02.82,Default,,0,0,0,,des traces de sang de la victime.
+Dialogue: 0,0:20:03.57,0:20:07.45,Default,,0,0,0,,Mme Mizutani.\NPouvons-nous analyser vos lunettes ?
+Dialogue: 0,0:20:11.92,0:20:13.46,Default,,0,0,0,,C'est moi qui l'ai tué.
+Dialogue: 0,0:20:14.33,0:20:16.09,Default,,0,0,0,,Je voulais qu'il vende les livres
+Dialogue: 0,0:20:16.25,0:20:19.38,Default,,0,0,0,,et lui donner une partie de l'argent\Npour le rétribuer.
+Dialogue: 0,0:20:19.71,0:20:22.68,Default,,0,0,0,,Mais en apprenant\Nla valeur réelle de ceux-ci,
+Dialogue: 0,0:20:22.84,0:20:25.39,Default,,0,0,0,,il a compris\Nque j'avais voulu le gruger.
+Dialogue: 0,0:20:25.76,0:20:30.10,Default,,0,0,0,,Il m'a menacée de tout dire à mon mari\Nsi je ne lui donnais pas plus.
+Dialogue: 0,0:20:30.60,0:20:32.77,Default,,0,0,0,,Vous vouliez le faire taire ?
+Dialogue: 0,0:20:32.94,0:20:36.11,Default,,0,0,0,,Oui, car même si j'avais payé\Nce qu'il voulait,
+Dialogue: 0,0:20:36.27,0:20:38.86,Default,,0,0,0,,il m'aurait peut-être\Nencore fait chanter.
+Dialogue: 0,0:20:39.23,0:20:44.24,Default,,0,0,0,,Et puis, si j'avais payé autant,\Nma part aurait diminué, non ?
+Dialogue: 0,0:20:44.78,0:20:47.99,Default,,0,0,0,,Mais pourquoi avoir voulu\Nfaire accuser M. Tamaki ?
+Dialogue: 0,0:20:49.41,0:20:53.12,Default,,0,0,0,,Parce que s'il avait gentiment\Naccepté d'acheter les livres,
+Dialogue: 0,0:20:53.29,0:20:56.33,Default,,0,0,0,,je n'aurais pas été obligée\Nde les faire voler !
+Dialogue: 0,0:20:56.96,0:21:00.26,Default,,0,0,0,,C'est pour ça\Nqu'avant de confier les livres à Sawada,
+Dialogue: 0,0:21:01.13,0:21:03.01,Default,,0,0,0,,j'ai glissé le papier
+Dialogue: 0,0:21:03.47,0:21:06.76,Default,,0,0,0,,pour qu'on croie aussitôt\Nqu'il les avait volés.
+Dialogue: 0,0:21:07.55,0:21:11.64,Default,,0,0,0,,De cette manière, j'étais certaine\Nqu'ils en viendraient aux mains !
+Dialogue: 0,0:21:12.31,0:21:16.65,Default,,0,0,0,,Ensuite, j'ai fait venir Sawada au parc\Npour qu'il appelle Tamaki.
+Dialogue: 0,0:21:17.11,0:21:18.48,Default,,0,0,0,,Et avant qu'il arrive,
+Dialogue: 0,0:21:18.65,0:21:22.90,Default,,0,0,0,,j'ai éliminé Sawada et informé la police\Nde la découverte du corps.
+Dialogue: 0,0:21:23.40,0:21:26.20,Default,,0,0,0,,Moi qui croyais avoir réussi\Nparfaitement mon coup...
+Dialogue: 0,0:21:38.88,0:21:41.38,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:41.71,0:21:44.17,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:55.33,0:22:58.00,Default,,0,0,0,,CLASSE DE CP GROUPE B\NL'ÉVEIL
+Dialogue: 0,0:22:58.16,0:22:59.54,Default,,0,0,0,,C'est quoi, ce livre ?
+Dialogue: 0,0:23:00.21,0:23:02.59,Default,,0,0,0,,C'est un recueil\Nécrit par notre classe !
+Dialogue: 0,0:23:02.88,0:23:05.71,Default,,0,0,0,,Il y en a très peu,\Nil est donc hyper rare !
+Dialogue: 0,0:23:05.96,0:23:08.05,Default,,0,0,0,,Je pense qu'il vaut une fortune !
+Dialogue: 0,0:23:08.51,0:23:09.93,Default,,0,0,0,,Ah, euh...
+Dialogue: 0,0:23:10.47,0:23:13.93,Default,,0,0,0,,C'est un joli livre,\Nmais je ne peux pas l'estimer...
+Dialogue: 0,0:23:16.02,0:23:17.93,Default,,0,0,0,,Enfin, ce sera différent
+Dialogue: 0,0:23:18.10,0:23:21.27,Default,,0,0,0,,si vous devenez célèbres\Nd'ici quelques années.
+Dialogue: 0,0:23:21.69,0:23:23.69,Default,,0,0,0,,Gardez-le précieusement d'ici là.
+Dialogue: 0,0:23:24.32,0:23:25.69,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:23:26.61,0:23:27.74,Default,,0,0,0,,D'ici 5 ans, alors ?
+Dialogue: 0,0:23:28.03,0:23:30.91,Default,,0,0,0,,- Tu comptes devenir célèbre en 5 ans ?\N- C'est largement faisable !

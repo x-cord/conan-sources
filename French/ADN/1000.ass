@@ -1,0 +1,434 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.66,0:00:02.12,ST_HAUT,,0,0,0,,{\i1}Le premier pas d'un long chemin,{\i0}
+Dialogue: 0,0:00:02.29,0:00:04.33,ST_HAUT,,0,0,0,,{\i1}1000 mystères résolus,\Nen route vers un nouveau monde !{\i0}
+Dialogue: 0,0:00:04.50,0:00:06.21,ST_HAUT,,0,0,0,,{\i1}Une affaire légendaire{\i0}
+Dialogue: 0,0:00:06.38,0:00:08.55,ST_HAUT,,0,0,0,,{\i1}et une mystérieuse mélodie\Nau piano !{\i0}
+Dialogue: 0,0:00:09.05,0:00:11.97,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:12.13,0:00:14.38,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:00:15.93,0:00:18.43,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:00:19.51,0:00:21.89,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:00:23.94,0:00:26.31,ST_HAUT_DROITE,,0,0,0,,Directeur artistique :\NJunichi Higashi
+Dialogue: 0,0:00:29.32,0:00:31.69,ST_HAUT_DROITE,,0,0,0,,Direction du son : Yasuo Urakami\NKeiko Urakami
+Dialogue: 0,0:00:32.74,0:00:35.57,ST_HAUT,,0,0,0,,{\i1}L'ombre commencera à disparaître\Nà la pleine lune.{\i0}
+Dialogue: 0,0:00:35.74,0:00:38.58,ST_HAUT,,0,0,0,,{\i1}Veuillez enquêter.\NKeiji Asô.{\i0}
+Dialogue: 0,0:00:39.78,0:00:42.16,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:00:46.67,0:00:49.04,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Zero kara hajimete"
+Dialogue: 0,0:00:50.59,0:00:52.96,ST_HAUT_GAUCHE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:01.56,0:01:03.93,ST_HAUT_GAUCHE,,0,0,0,,Projet initial : Takenori Ichihara,\NNaota Machida
+Dialogue: 0,0:01:09.02,0:01:11.48,ST_HAUT,,0,0,0,,Producteurs : Isato Yonekura,\NKiyoaki Terashima
+Dialogue: 0,0:01:18.49,0:01:20.87,ST_HAUT_GAUCHE,,0,0,0,,Chefs producteurs :\NKana Sasaki, Keiichi Ishiyama
+Dialogue: 0,0:01:26.54,0:01:28.83,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:01:31.42,0:01:33.71,ST_HAUT_DROITE,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:01:41.14,0:01:45.14,Default,,0,0,0,,{\i1}Le Meurtre de la Sonate\Nau Clair de lune (1re partie){\i0}
+Dialogue: 0,0:01:46.69,0:01:47.81,ST_HAUT,,0,0,0,,MAIRIE DE TSUKIKAGE
+Dialogue: 0,0:01:47.98,0:01:49.35,ST_HAUT,,0,0,0,,Je ne le trouve pas.
+Dialogue: 0,0:01:49.73,0:01:51.40,Default,,0,0,0,,Il n'est pas sur notre île.
+Dialogue: 0,0:01:51.56,0:01:52.32,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:01:52.73,0:01:54.86,Default,,0,0,0,,Cherchez mieux !
+Dialogue: 0,0:01:55.28,0:01:58.86,Default,,0,0,0,,Il m'a confié une enquête\Ndans cette lettre.
+Dialogue: 0,0:01:59.03,0:01:59.86,Default,,0,0,0,,Peut-être,
+Dialogue: 0,0:02:00.32,0:02:03.45,Default,,0,0,0,,mais il n'est pas\Ndans la liste des habitants.
+Dialogue: 0,0:02:03.66,0:02:06.83,Default,,0,0,0,,Et puis vous savez,\Nje suis arrivé le mois dernier...
+Dialogue: 0,0:02:07.00,0:02:08.21,Default,,0,0,0,,Il y a un problème ?
+Dialogue: 0,0:02:09.21,0:02:11.46,Default,,0,0,0,,Pas vraiment, mais ce monsieur
+Dialogue: 0,0:02:11.92,0:02:15.84,Default,,0,0,0,,dit être venu sur l'invitation\Nd'un habitant de l'île...
+Dialogue: 0,0:02:16.01,0:02:16.84,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:02:17.22,0:02:20.55,Default,,0,0,0,,Oui, un monsieur nommé Keiji Asô.
+Dialogue: 0,0:02:20.72,0:02:22.30,Default,,0,0,0,,Keiji Asô, dis-tu ?
+Dialogue: 0,0:02:27.64,0:02:29.56,Default,,0,0,0,,C'est tout bonnement impossible !
+Dialogue: 0,0:02:30.81,0:02:32.15,Default,,0,0,0,,C'est bien simple,
+Dialogue: 0,0:02:32.52,0:02:35.57,Default,,0,0,0,,il est mort il y a plus de 10 ans !
+Dialogue: 0,0:02:37.86,0:02:39.11,Default,,0,0,0,,C'est arrivé
+Dialogue: 0,0:02:39.78,0:02:42.53,Default,,0,0,0,,il y a 12 ans,\Npar une nuit de pleine lune.
+Dialogue: 0,0:02:43.12,0:02:47.16,Default,,0,0,0,,C'était un pianiste reconnu\Noriginaire de l'île.
+Dialogue: 0,0:02:47.54,0:02:50.54,Default,,0,0,0,,Après un concert\Nà la salle municipale,
+Dialogue: 0,0:02:50.96,0:02:53.96,Default,,0,0,0,,il s'est enfermé chez lui\Navec sa famille
+Dialogue: 0,0:02:55.21,0:02:57.21,Default,,0,0,0,,et a mis le feu à leur demeure !
+Dialogue: 0,0:02:58.17,0:03:00.09,Default,,0,0,0,,D'après les gens\Nvenus à son secours,
+Dialogue: 0,0:03:00.26,0:03:03.97,Default,,0,0,0,,il a tué sa femme et sa fille\Nà coup de couteau
+Dialogue: 0,0:03:04.14,0:03:07.72,Default,,0,0,0,,avant de jouer la même mélodie,\Nencore et encore,
+Dialogue: 0,0:03:08.18,0:03:11.52,Default,,0,0,0,,en plein brasier, comme un possédé.
+Dialogue: 0,0:03:12.23,0:03:14.23,Default,,0,0,0,,La sonate pour piano de Beethoven :
+Dialogue: 0,0:03:14.65,0:03:15.98,Default,,0,0,0,,{\i1}Sonate au Clair de lune{\i0}.
+Dialogue: 0,0:03:21.70,0:03:24.49,Default,,0,0,0,,Bon sang,\Nc'est vraiment une blague tordue !
+Dialogue: 0,0:03:24.74,0:03:26.45,Default,,0,0,0,,Ce n'en est peut-être pas une.
+Dialogue: 0,0:03:27.37,0:03:30.37,Default,,0,0,0,,Tes honoraires ont été payés, non ?
+Dialogue: 0,0:03:30.58,0:03:31.25,Default,,0,0,0,,Oui.
+Dialogue: 0,0:03:31.75,0:03:33.50,Default,,0,0,0,,Et la lettre a été tamponnée
+Dialogue: 0,0:03:33.88,0:03:35.84,Default,,0,0,0,,sur l'île Tsukikage.
+Dialogue: 0,0:03:36.00,0:03:37.00,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:03:37.34,0:03:40.22,Default,,0,0,0,,Ça veut dire que\Nquelqu'un sur cette île
+Dialogue: 0,0:03:40.38,0:03:44.26,Default,,0,0,0,,souhaite que tonton enquête\Nsur ce Keiji Asô.
+Dialogue: 0,0:03:44.43,0:03:45.64,Default,,0,0,0,,Ça paraît logique !
+Dialogue: 0,0:03:45.80,0:03:47.10,Default,,0,0,0,,C'est bien gentil,
+Dialogue: 0,0:03:47.26,0:03:49.89,Default,,0,0,0,,mais le type en question\Nest décédé...
+Dialogue: 0,0:03:50.35,0:03:53.27,Default,,0,0,0,,Allons interroger le maire du village,
+Dialogue: 0,0:03:53.44,0:03:56.15,Default,,0,0,0,,ils étaient apparemment bons amis.
+Dialogue: 0,0:03:56.52,0:03:59.65,Default,,0,0,0,,En effet, et si j'ai bien compris,\Nle maire serait
+Dialogue: 0,0:03:59.82,0:04:01.65,Default,,0,0,0,,- au centre municipal.\N- Allez, Kenta,
+Dialogue: 0,0:04:01.86,0:04:04.36,Default,,0,0,0,,assure-toi de dormir bien au chaud.
+Dialogue: 0,0:04:05.20,0:04:07.12,Default,,0,0,0,,Au revoir, docteur Narumi !
+Dialogue: 0,0:04:07.49,0:04:08.87,Default,,0,0,0,,Bye bye !
+Dialogue: 0,0:04:09.04,0:04:11.41,Default,,0,0,0,,- Excusez-moi.\N- Oui ?
+Dialogue: 0,0:04:11.91,0:04:14.67,Default,,0,0,0,,Savez-vous où se trouve\Nle centre municipal ?
+Dialogue: 0,0:04:15.71,0:04:18.21,Default,,0,0,0,,Pour vous y rendre, vous tournez ici
+Dialogue: 0,0:04:18.59,0:04:20.51,Default,,0,0,0,,et ce sera au bout, tout droit.
+Dialogue: 0,0:04:21.05,0:04:23.22,Default,,0,0,0,,Vous venez du continent ?
+Dialogue: 0,0:04:23.38,0:04:25.22,Default,,0,0,0,,Oui, nous venons de Tokyo.
+Dialogue: 0,0:04:25.47,0:04:28.85,Default,,0,0,0,,Vraiment ?\NMoi aussi, je viens de là-bas !
+Dialogue: 0,0:04:29.43,0:04:30.60,Default,,0,0,0,,Ah bon.
+Dialogue: 0,0:04:30.77,0:04:34.44,Default,,0,0,0,,Cette île est un paradis,\Nen comparaison de Tokyo.
+Dialogue: 0,0:04:34.60,0:04:37.73,Default,,0,0,0,,L'air y est pur\Net c'est si tranquille !
+Dialogue: 0,0:04:37.90,0:04:42.24,Default,,0,0,0,,{\i1}Pour protéger la pêche\Nsur notre belle île de Tsukikage,{\i0}
+Dialogue: 0,0:04:42.74,0:04:45.49,Default,,0,0,0,,{\i1}votez Masato Shimizu !\NDonnez-lui votre voix !{\i0}
+Dialogue: 0,0:04:46.07,0:04:48.78,Default,,0,0,0,,C'est très calme d'habitude,
+Dialogue: 0,0:04:49.24,0:04:51.12,Default,,0,0,0,,mais l'élection du maire approche.
+Dialogue: 0,0:04:51.45,0:04:53.37,Default,,0,0,0,,- Une élection ?\N- Eh oui.
+Dialogue: 0,0:04:54.00,0:04:55.71,ST_HAUT,,0,0,0,,Il y a trois candidats.
+Dialogue: 0,0:04:56.33,0:04:59.17,Default,,0,0,0,,D'après ce qu'en disent\Nmes patients,
+Dialogue: 0,0:04:59.46,0:05:01.80,Default,,0,0,0,,M. Kawashima est en bonne place.
+Dialogue: 0,0:05:01.96,0:05:03.55,Default,,0,0,0,,Mlle l'infirmière,
+Dialogue: 0,0:05:03.76,0:05:06.13,Default,,0,0,0,,cette élection n'est pas le but\Nde notre venue.
+Dialogue: 0,0:05:06.63,0:05:09.01,ST_HAUT,,0,0,0,,Mon nom est Narumi Asai\Net je suis médecin,
+Dialogue: 0,0:05:09.22,0:05:11.01,ST_HAUT,,0,0,0,,j'ai mon diplôme de docteur.
+Dialogue: 0,0:05:11.26,0:05:14.14,Default,,0,0,0,,Pardonnez-moi,\Nvous êtes donc docteur.
+Dialogue: 0,0:05:16.23,0:05:21.27,Default,,0,0,0,,Si vous allez au centre municipal,\Nvous croiserez peut-être les trois.
+Dialogue: 0,0:05:22.48,0:05:25.86,Default,,0,0,0,,Un service bouddhiste va s'y dérouler
+Dialogue: 0,0:05:26.20,0:05:29.62,Default,,0,0,0,,pour honorer la mémoire\Ndu précédent maire Isamu Kameyama.
+Dialogue: 0,0:05:32.95,0:05:35.62,Default,,0,0,0,,À bas la tyrannie\Ndu maire Kuroiwa !
+Dialogue: 0,0:05:36.33,0:05:38.46,Default,,0,0,0,,Ne polluez pas nos lieux de pêche !
+Dialogue: 0,0:05:38.79,0:05:40.17,ST_HAUT,,0,0,0,,Ils osent venir
+Dialogue: 0,0:05:40.54,0:05:43.42,ST_HAUT,,0,0,0,,alors qu'on célèbre la mémoire\Ndu précédent maire.
+Dialogue: 0,0:05:43.76,0:05:44.88,ST_HAUT,,0,0,0,,De vrais malotrus !
+Dialogue: 0,0:05:45.05,0:05:45.88,ST_HAUT,,0,0,0,,En effet,
+Dialogue: 0,0:05:46.26,0:05:47.97,ST_HAUT,,0,0,0,,qu'est-ce qu'ils sont bruyants.
+Dialogue: 0,0:05:48.55,0:05:49.26,ST_HAUT,,0,0,0,,Hirata !
+Dialogue: 0,0:05:49.51,0:05:50.22,ST_HAUT,,0,0,0,,Oui ?
+Dialogue: 0,0:05:50.51,0:05:51.85,ST_HAUT,,0,0,0,,Qu'attendez-vous ?
+Dialogue: 0,0:05:52.01,0:05:54.35,ST_HAUT,,0,0,0,,Faites taire ces gens.
+Dialogue: 0,0:05:54.97,0:05:56.73,Default,,0,0,0,,Tout de suite, mademoiselle.
+Dialogue: 0,0:05:58.56,0:06:01.15,Default,,0,0,0,,Ça sent le roussi, non ?
+Dialogue: 0,0:06:01.40,0:06:02.15,Default,,0,0,0,,Shûichi ?
+Dialogue: 0,0:06:02.98,0:06:06.19,ST_HAUT,,0,0,0,,Si on écoute les villageois,
+Dialogue: 0,0:06:06.74,0:06:09.82,ST_HAUT,,0,0,0,,ton père est mal barré\Npour l'élection.
+Dialogue: 0,0:06:10.37,0:06:12.66,Default,,0,0,0,,- Mais c'est...\N- Il a raison.
+Dialogue: 0,0:06:13.33,0:06:17.41,ST_HAUT,,0,0,0,,Il semble que j'ai bien plus\Nde soutiens parmi eux.
+Dialogue: 0,0:06:18.71,0:06:21.58,Default,,0,0,0,,Tu sais graisser les bonnes pattes,\Nil faut dire.
+Dialogue: 0,0:06:23.21,0:06:25.76,Default,,0,0,0,,J'ai simplement suivi ton exemple.
+Dialogue: 0,0:06:25.92,0:06:29.55,Default,,0,0,0,,Pardonnez-moi,\Nquelqu'un voudrait rencontrer le maire.
+Dialogue: 0,0:06:29.93,0:06:32.30,Default,,0,0,0,,Maintenant ? Qui est-ce donc ?
+Dialogue: 0,0:06:33.01,0:06:35.02,Default,,0,0,0,,Eh bien, ce serait un détective
+Dialogue: 0,0:06:35.39,0:06:36.85,Default,,0,0,0,,venu de Tokyo.
+Dialogue: 0,0:06:37.06,0:06:37.77,Default,,0,0,0,,Franchement,
+Dialogue: 0,0:06:38.48,0:06:40.44,Default,,0,0,0,,il compte\Nme faire attendre longtemps ?
+Dialogue: 0,0:06:40.65,0:06:43.77,Default,,0,0,0,,Il doit être pris par la cérémonie.\NHein, Conan ?
+Dialogue: 0,0:06:44.57,0:06:45.57,Default,,0,0,0,,Conan ?
+Dialogue: 0,0:06:48.74,0:06:49.57,Default,,0,0,0,,Un piano ?
+Dialogue: 0,0:06:50.78,0:06:51.74,Default,,0,0,0,,Attends, Conan !
+Dialogue: 0,0:06:52.32,0:06:53.62,Default,,0,0,0,,Qu'est-ce qu'il y a ?
+Dialogue: 0,0:06:55.87,0:06:57.25,Default,,0,0,0,,Sacrée pièce !
+Dialogue: 0,0:06:57.87,0:07:00.04,Default,,0,0,0,,Ils y font des concerts de piano ?
+Dialogue: 0,0:07:02.71,0:07:04.29,Default,,0,0,0,,La mer est juste là.
+Dialogue: 0,0:07:04.79,0:07:08.09,Default,,0,0,0,,Le piano a l'air assez vieux,
+Dialogue: 0,0:07:08.26,0:07:09.51,Default,,0,0,0,,voyons s'il marche.
+Dialogue: 0,0:07:09.67,0:07:10.30,Default,,0,0,0,,Arrêtez !
+Dialogue: 0,0:07:10.76,0:07:12.55,Default,,0,0,0,,Ne touchez pas à ce piano !
+Dialogue: 0,0:07:13.14,0:07:15.60,Default,,0,0,0,,C'est le piano maudit
+Dialogue: 0,0:07:15.76,0:07:18.43,Default,,0,0,0,,sur lequel M. Asô a joué un concert
+Dialogue: 0,0:07:18.64,0:07:20.44,Default,,0,0,0,,le jour de sa mort !
+Dialogue: 0,0:07:21.06,0:07:23.19,Default,,0,0,0,,Vous nous faites marcher.
+Dialogue: 0,0:07:23.77,0:07:25.73,Default,,0,0,0,,Ce n'est pas la seule victime !
+Dialogue: 0,0:07:26.19,0:07:28.94,Default,,0,0,0,,C'est aussi arrivé\Nau précédent maire...
+Dialogue: 0,0:07:29.69,0:07:30.61,Default,,0,0,0,,Vous parlez
+Dialogue: 0,0:07:31.07,0:07:33.95,Default,,0,0,0,,de M. Isamu Kameyama,\Ndont on célèbre la mémoire ?
+Dialogue: 0,0:07:34.37,0:07:35.12,Default,,0,0,0,,Oui.
+Dialogue: 0,0:07:35.74,0:07:37.24,Default,,0,0,0,,C'était il y a deux ans,
+Dialogue: 0,0:07:37.45,0:07:41.79,Default,,0,0,0,,par une nuit de pleine lune,\Ncomme pour M. Asô...
+Dialogue: 0,0:07:43.71,0:07:48.59,Default,,0,0,0,,Je passais par hasard\Nprès du centre municipal désert,
+Dialogue: 0,0:07:48.76,0:07:50.97,Default,,0,0,0,,quand j'entendis\Nune mélodie de piano.
+Dialogue: 0,0:07:51.55,0:07:55.47,Default,,0,0,0,,J'ai demandé s'il y avait quelqu'un\Net la musique s'est arrêtée.
+Dialogue: 0,0:07:56.47,0:07:57.85,Default,,0,0,0,,Je suis alors entré
+Dialogue: 0,0:07:59.35,0:08:03.19,Default,,0,0,0,,et j'ai trouvé M. Kameyama mort\Nsur le clavier du piano !
+Dialogue: 0,0:08:04.81,0:08:07.19,Default,,0,0,0,,Il avait fait une crise cardiaque,
+Dialogue: 0,0:08:07.86,0:08:11.99,Default,,0,0,0,,et, plus effrayant,\Nil jouait la même mélodie
+Dialogue: 0,0:08:12.32,0:08:15.07,Default,,0,0,0,,que M. Asô dans l'incendie :
+Dialogue: 0,0:08:15.24,0:08:17.45,Default,,0,0,0,,le {\i1}Clair de lune {\i0}!
+Dialogue: 0,0:08:20.87,0:08:25.33,Default,,0,0,0,,Depuis lors, ce piano\Nest considéré comme maudit
+Dialogue: 0,0:08:25.63,0:08:28.75,Default,,0,0,0,,et personne n'a le courage\Nd'y toucher.
+Dialogue: 0,0:08:32.05,0:08:34.68,Default,,0,0,0,,Il n'a rien de spécial, ce piano.
+Dialogue: 0,0:08:35.18,0:08:36.26,Default,,0,0,0,,Conan !
+Dialogue: 0,0:08:38.14,0:08:42.18,Default,,0,0,0,,Quoi qu'il en soit,\Nattendez dehors la fin de l'office !
+Dialogue: 0,0:08:42.35,0:08:43.85,Default,,0,0,0,,Tiens, comme on se retrouve.
+Dialogue: 0,0:08:44.27,0:08:45.02,Default,,0,0,0,,Narumi !
+Dialogue: 0,0:08:46.31,0:08:47.81,Default,,0,0,0,,Vous avez pu voir le maire ?
+Dialogue: 0,0:08:48.52,0:08:50.03,Default,,0,0,0,,Non, pas encore.
+Dialogue: 0,0:08:50.40,0:08:52.15,Default,,0,0,0,,Vous allez à l'office ?
+Dialogue: 0,0:08:52.32,0:08:53.03,Default,,0,0,0,,Oui.
+Dialogue: 0,0:08:53.70,0:08:58.49,Default,,0,0,0,,C'était la première autopsie\Nque j'ai pratiquée sur l'île,
+Dialogue: 0,0:08:59.08,0:09:01.08,Default,,0,0,0,,alors je voulais allumer\Nde l'encens.
+Dialogue: 0,0:09:01.75,0:09:03.04,Default,,0,0,0,,Tiens, mais au fait !
+Dialogue: 0,0:09:03.33,0:09:05.67,ST_HAUT,,0,0,0,,Voici M. Shimizu,\Ncandidat à l'élection.
+Dialogue: 0,0:09:06.17,0:09:08.63,ST_HAUT,,0,0,0,,Bonjour, je suis Masato Shimizu,
+Dialogue: 0,0:09:09.13,0:09:10.13,Default,,0,0,0,,enchanté !
+Dialogue: 0,0:09:12.34,0:09:14.13,ST_HAUT,,0,0,0,,ÉLECTION MUNICIPALE DE TSUKIKAGE
+Dialogue: 0,0:09:21.93,0:09:23.89,ST_HAUT,,0,0,0,,KEN NISHIMOTO\NSANS EMPLOI
+Dialogue: 0,0:09:28.48,0:09:29.31,Default,,0,0,0,,Sale fouineur,
+Dialogue: 0,0:09:30.32,0:09:33.94,Default,,0,0,0,,t'as embauché un détective\Npour enquêter sur moi ?
+Dialogue: 0,0:09:35.53,0:09:36.40,Default,,0,0,0,,N'importe quoi.
+Dialogue: 0,0:09:36.82,0:09:38.53,Default,,0,0,0,,Hé ! Où tu vas ?
+Dialogue: 0,0:09:40.33,0:09:41.53,Default,,0,0,0,,Je vais aux toilettes.
+Dialogue: 0,0:09:47.71,0:09:48.71,Default,,0,0,0,,{\i1}C'est étrange.{\i0}
+Dialogue: 0,0:09:49.96,0:09:54.51,Default,,0,0,0,,{\i1}Le piano sonnait juste\Nalors que personne ne s'en approche.{\i0}
+Dialogue: 0,0:09:55.84,0:09:58.26,Default,,0,0,0,,{\i1}Quelqu'un a dû l'accorder en secret.{\i0}
+Dialogue: 0,0:09:59.05,0:10:02.06,Default,,0,0,0,,{\i1}Et cette lettre\Narrivée il y a une semaine...{\i0}
+Dialogue: 0,0:10:02.22,0:10:03.52,Default,,0,0,0,,KEIJI ASÔ
+Dialogue: 0,0:10:10.73,0:10:11.65,Default,,0,0,0,,Cette mélodie...
+Dialogue: 0,0:10:12.11,0:10:13.02,Default,,0,0,0,,Clair de lune {\i1}!{\i0}
+Dialogue: 0,0:10:13.44,0:10:14.90,Default,,0,0,0,,-{\i1} Malédiction !\N{\i0}- Conan ?
+Dialogue: 0,0:10:21.57,0:10:23.70,Default,,0,0,0,,{\i1}Bon sang, c'est trop tard !{\i0}
+Dialogue: 0,0:10:31.17,0:10:33.46,Default,,0,0,0,,Il n'y a rien à faire, il est décédé.
+Dialogue: 0,0:10:33.71,0:10:36.21,Default,,0,0,0,,- M. Kawashima est mort ?\N- Mais comment ?
+Dialogue: 0,0:10:36.46,0:10:38.72,Default,,0,0,0,,Ran, contacte le poste de police.
+Dialogue: 0,0:10:40.09,0:10:43.05,Default,,0,0,0,,Restez tous ici, je vous prie.
+Dialogue: 0,0:10:43.64,0:10:44.56,Default,,0,0,0,,Docteur Narumi.
+Dialogue: 0,0:10:45.14,0:10:45.77,Default,,0,0,0,,Oui ?
+Dialogue: 0,0:10:46.22,0:10:48.06,Default,,0,0,0,,Pouvez-vous inspecter le corps ?
+Dialogue: 0,0:10:48.48,0:10:49.52,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:10:54.73,0:10:56.82,Default,,0,0,0,,{\i1}J'aurais dû comprendre !{\i0}
+Dialogue: 0,0:10:57.99,0:11:00.41,Default,,0,0,0,,{\i1}La lettre annonçait ce meurtre.{\i0}
+Dialogue: 0,0:11:00.95,0:11:04.28,Default,,0,0,0,,{\i1}Bon sang,\Nsi j'avais percuté plus tôt...{\i0}
+Dialogue: 0,0:11:05.41,0:11:06.54,Default,,0,0,0,,C'est la malédiction...
+Dialogue: 0,0:11:07.50,0:11:09.46,Default,,0,0,0,,La malédiction du piano !
+Dialogue: 0,0:11:09.75,0:11:11.04,Default,,0,0,0,,ll n'a rien de maudit !
+Dialogue: 0,0:11:11.92,0:11:13.50,Default,,0,0,0,,Regardez mieux.
+Dialogue: 0,0:11:14.09,0:11:17.67,Default,,0,0,0,,La musique ne vient pas\Nd'un fantôme ou d'une malédiction,
+Dialogue: 0,0:11:18.34,0:11:20.22,Default,,0,0,0,,mais d'une radiocassette.
+Dialogue: 0,0:11:23.30,0:11:27.31,Default,,0,0,0,,Quelqu'un a voulu faire en sorte\Nque ce crime ressemble
+Dialogue: 0,0:11:27.56,0:11:28.89,Default,,0,0,0,,aux deux précédents.
+Dialogue: 0,0:11:29.31,0:11:31.02,Default,,0,0,0,,C'est un meurtre !
+Dialogue: 0,0:11:33.06,0:11:36.15,Default,,0,0,0,,Bonjour, les hypothèses fumeuses.
+Dialogue: 0,0:11:36.61,0:11:38.94,Default,,0,0,0,,Et puis vous êtes qui, vous ?
+Dialogue: 0,0:11:39.57,0:11:40.45,Default,,0,0,0,,Moi ?
+Dialogue: 0,0:11:41.07,0:11:42.66,Default,,0,0,0,,Venu expressément de Tokyo,
+Dialogue: 0,0:11:44.12,0:11:46.66,Default,,0,0,0,,je suis le grand détective\NKogorô Môri !
+Dialogue: 0,0:11:48.29,0:11:49.87,Default,,0,0,0,,Tu le connais ?
+Dialogue: 0,0:11:50.08,0:11:50.91,Default,,0,0,0,,Non.
+Dialogue: 0,0:11:55.79,0:11:56.84,Default,,0,0,0,,{\i1}De l'eau de mer ?{\i0}
+Dialogue: 0,0:12:03.55,0:12:05.30,Default,,0,0,0,,D'après l'état du corps,
+Dialogue: 0,0:12:05.60,0:12:09.85,Default,,0,0,0,,il est décédé\Ndepuis 30 à 60 minutes.
+Dialogue: 0,0:12:10.06,0:12:12.10,Default,,0,0,0,,L'asphyxie est la cause de la mort
+Dialogue: 0,0:12:12.39,0:12:15.40,Default,,0,0,0,,et je pense qu'il a été noyé\Npar quelqu'un.
+Dialogue: 0,0:12:15.56,0:12:17.61,Default,,0,0,0,,"Noyé", vous dites ?
+Dialogue: 0,0:12:18.15,0:12:21.40,Default,,0,0,0,,Je ne peux rien affirmer\Navant l'autopsie.
+Dialogue: 0,0:12:21.57,0:12:23.86,Default,,0,0,0,,Je pense que Narumi a vu juste.
+Dialogue: 0,0:12:24.78,0:12:26.87,Default,,0,0,0,,Regarde donc par la fenêtre.
+Dialogue: 0,0:12:27.74,0:12:29.83,Default,,0,0,0,,C'est la veste de M. Kawashima, non ?
+Dialogue: 0,0:12:30.33,0:12:32.91,Default,,0,0,0,,Quelque chose a été traîné au sol
+Dialogue: 0,0:12:33.08,0:12:35.13,Default,,0,0,0,,depuis la porte qui donne sur la mer,
+Dialogue: 0,0:12:35.29,0:12:38.42,Default,,0,0,0,,et il y a de la terre et du sable\Nsur son dos.
+Dialogue: 0,0:12:39.30,0:12:41.17,Default,,0,0,0,,De plus, les portes et fenêtres
+Dialogue: 0,0:12:41.34,0:12:44.59,Default,,0,0,0,,ont toutes été verrouillées
+Dialogue: 0,0:12:45.09,0:12:48.14,Default,,0,0,0,,et la cassette est muette\Nles premières minutes.
+Dialogue: 0,0:12:48.30,0:12:50.31,Default,,0,0,0,,On peut donc supposer
+Dialogue: 0,0:12:50.97,0:12:56.27,Default,,0,0,0,,que le meurtrier a noyé M. Kawashima\Npendant l'office funéraire,
+Dialogue: 0,0:12:56.48,0:12:59.15,Default,,0,0,0,,puis il a tiré le corps ici\Net tout verrouillé,
+Dialogue: 0,0:12:59.36,0:13:02.40,Default,,0,0,0,,avant d'allumer le lecteur\Net de s'en aller.
+Dialogue: 0,0:13:03.19,0:13:06.78,Default,,0,0,0,,Une fois le début\Nde la cassette passé,
+Dialogue: 0,0:13:06.95,0:13:09.08,Default,,0,0,0,,la {\i1}Sonate au Clair de lune\N{\i0}s'est lancée.
+Dialogue: 0,0:13:09.62,0:13:10.99,Default,,0,0,0,,C'est bien ça, hein, tonton ?
+Dialogue: 0,0:13:11.75,0:13:13.37,Default,,0,0,0,,Oui, exactement !
+Dialogue: 0,0:13:14.00,0:13:16.50,Default,,0,0,0,,Mais si c'est bien le cas,
+Dialogue: 0,0:13:16.67,0:13:20.75,Default,,0,0,0,,nous sommes restés\Ndevant le bâtiment, donc...
+Dialogue: 0,0:13:21.71,0:13:23.17,Default,,0,0,0,,Attendez une minute !
+Dialogue: 0,0:13:23.34,0:13:24.67,Default,,0,0,0,,Alors le meurtrier
+Dialogue: 0,0:13:25.93,0:13:27.89,Default,,0,0,0,,serait toujours parmi nous ?
+Dialogue: 0,0:13:29.64,0:13:30.26,Default,,0,0,0,,Oui,
+Dialogue: 0,0:13:30.60,0:13:33.89,Default,,0,0,0,,s'il n'a pas profité\Nde la panique pour s'enfuir.
+Dialogue: 0,0:13:34.06,0:13:35.44,Default,,0,0,0,,M. le détective,
+Dialogue: 0,0:13:35.81,0:13:38.10,Default,,0,0,0,,ce n'est pas forcément un mobile,
+Dialogue: 0,0:13:38.27,0:13:41.48,Default,,0,0,0,,mais celui qui se réjouira\Nle plus de sa mort,
+Dialogue: 0,0:13:41.82,0:13:45.07,Default,,0,0,0,,c'est son rival à l'élection,
+Dialogue: 0,0:13:45.24,0:13:47.41,Default,,0,0,0,,notre bon Shimizu ici présent.
+Dialogue: 0,0:13:47.82,0:13:48.70,Default,,0,0,0,,Que dites-vous ?
+Dialogue: 0,0:13:48.87,0:13:52.08,Default,,0,0,0,,C'est aussi votre cas,\Nmonsieur le maire !
+Dialogue: 0,0:13:52.24,0:13:53.08,Default,,0,0,0,,Comment oses-tu ?
+Dialogue: 0,0:13:53.24,0:13:55.25,Default,,0,0,0,,Du calme, s'il vous plaît.
+Dialogue: 0,0:13:57.21,0:14:00.34,Default,,0,0,0,,Dites-moi plutôt,\Nce piano est là depuis longtemps ?
+Dialogue: 0,0:14:00.92,0:14:05.47,Default,,0,0,0,,Il nous a été donné par M. Asô\Nil y a maintenant 15 ans.
+Dialogue: 0,0:14:05.67,0:14:07.51,Default,,0,0,0,,On l'a laissé ici.
+Dialogue: 0,0:14:07.84,0:14:09.34,Default,,0,0,0,,Un don de M. Asô ?
+Dialogue: 0,0:14:09.55,0:14:10.22,Default,,0,0,0,,C'est ça.
+Dialogue: 0,0:14:10.68,0:14:14.10,Default,,0,0,0,,Son nom est inscrit\Nsur le couvercle.
+Dialogue: 0,0:14:16.31,0:14:17.31,Default,,0,0,0,,C'est quoi, ça ?
+Dialogue: 0,0:14:18.19,0:14:18.81,Default,,0,0,0,,Une partition ?
+Dialogue: 0,0:14:23.48,0:14:27.45,Default,,0,0,0,,C'est bizarre, elle n'y était pas\Ncet après-midi.
+Dialogue: 0,0:14:31.07,0:14:32.74,Default,,0,0,0,,C'est qui, cet énergumène ?
+Dialogue: 0,0:14:32.99,0:14:34.91,Default,,0,0,0,,Ken Nishimoto.
+Dialogue: 0,0:14:35.08,0:14:36.04,Default,,0,0,0,,"Nishimoto" ?
+Dialogue: 0,0:14:36.50,0:14:39.71,Default,,0,0,0,,C'était un modèle de réussite avant,
+Dialogue: 0,0:14:40.17,0:14:42.84,Default,,0,0,0,,mais il vit reclus chez lui
+Dialogue: 0,0:14:43.00,0:14:45.55,Default,,0,0,0,,depuis la mort\Ndu précédent maire.
+Dialogue: 0,0:14:46.26,0:14:48.51,Default,,0,0,0,,Il y a deux ans...
+Dialogue: 0,0:14:48.76,0:14:50.09,Default,,0,0,0,,Si je ne me trompe pas,
+Dialogue: 0,0:14:50.34,0:14:51.80,Default,,0,0,0,,vous êtes ami avec lui
+Dialogue: 0,0:14:52.10,0:14:54.06,Default,,0,0,0,,depuis l'enfance, M. le maire.
+Dialogue: 0,0:14:54.93,0:14:57.06,Default,,0,0,0,,Oui, c'est bien possible...
+Dialogue: 0,0:14:58.73,0:14:59.69,Default,,0,0,0,,Papa !
+Dialogue: 0,0:15:01.98,0:15:03.69,Default,,0,0,0,,J'ai amené le policier.
+Dialogue: 0,0:15:04.02,0:15:05.69,Default,,0,0,0,,T'en as mis du temps.
+Dialogue: 0,0:15:05.86,0:15:07.57,Default,,0,0,0,,J'ai fait ce que j'ai pu...
+Dialogue: 0,0:15:07.82,0:15:11.11,Default,,0,0,0,,Excusez-moi, qui m'a fait venir ?
+Dialogue: 0,0:15:11.28,0:15:14.20,Default,,0,0,0,,C'est ce monsieur,\Nun certain Kogorô Môri.
+Dialogue: 0,0:15:16.24,0:15:17.62,Default,,0,0,0,,Est-ce qu'on se connaît ?
+Dialogue: 0,0:15:20.04,0:15:22.00,Default,,0,0,0,,Bref, il se fait tard !
+Dialogue: 0,0:15:22.17,0:15:24.71,Default,,0,0,0,,On recueillera\Nles témoignages demain.
+Dialogue: 0,0:15:28.30,0:15:29.47,Default,,0,0,0,,{\i1}Bon sang...{\i0}
+Dialogue: 0,0:15:29.63,0:15:31.97,Default,,0,0,0,,{\i1}Cette affaire est pleine\Nde zones d'ombre.{\i0}
+Dialogue: 0,0:15:32.97,0:15:36.85,Default,,0,0,0,,{\i1}Pourquoi le meurtrier a disposé\Nle corps sur le piano ?{\i0}
+Dialogue: 0,0:15:37.93,0:15:41.77,Default,,0,0,0,,{\i1}Quel sens a cette partition\Nlaissée avec le cadavre ?{\i0}
+Dialogue: 0,0:15:42.90,0:15:46.52,Default,,0,0,0,,{\i1}Et cette lettre\Nqui annonçait toute l'affaire...{\i0}
+Dialogue: 0,0:15:48.19,0:15:50.32,Default,,0,0,0,,{\i1}Une minute, la lettre disait :{\i0}
+Dialogue: 0,0:15:51.32,0:15:52.86,Default,,0,0,0,,{\i1}"commencera à disparaître" !{\i0}
+Dialogue: 0,0:15:54.20,0:15:56.33,Default,,0,0,0,,{\i1}Mais alors ce meurtre ne serait...{\i0}
+Dialogue: 0,0:15:56.83,0:15:57.74,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:15:58.12,0:16:01.83,Default,,0,0,0,,Cette lettre annonçait\Nen fait le meurtre ?
+Dialogue: 0,0:16:03.17,0:16:07.05,Default,,0,0,0,,L'ombre qui disparaît,\Nc'est l'arrivée de la lumière !
+Dialogue: 0,0:16:07.50,0:16:11.26,Default,,0,0,0,,Et cette lumière,\Nc'est le clair de lune !
+Dialogue: 0,0:16:11.59,0:16:14.89,Default,,0,0,0,,Mais bien sûr, M. Asô, il y a 15 ans,
+Dialogue: 0,0:16:15.10,0:16:19.77,Default,,0,0,0,,et M. Kameyama, il y a 2 ans,\Njouaient la {\i1}Sonate au Clair de lune {\i0}!
+Dialogue: 0,0:16:20.48,0:16:23.48,Default,,0,0,0,,Si l'ombre se dissipe à nouveau,
+Dialogue: 0,0:16:23.73,0:16:27.73,Default,,0,0,0,,c'est que la musique va retentir\Net que des gens vont mourir !
+Dialogue: 0,0:16:28.57,0:16:29.40,Default,,0,0,0,,Attendez !
+Dialogue: 0,0:16:30.03,0:16:32.90,Default,,0,0,0,,La lettre dit\Nqu'elle "commencera" à disparaître.
+Dialogue: 0,0:16:34.28,0:16:38.28,Default,,0,0,0,,Ça voudrait dire\Nqu'il va y avoir d'autres meurtres ?
+Dialogue: 0,0:16:41.66,0:16:42.79,Default,,0,0,0,,Diable !
+Dialogue: 0,0:16:44.33,0:16:46.58,Default,,0,0,0,,Vous devez avoir perdu la tête
+Dialogue: 0,0:16:46.75,0:16:49.67,Default,,0,0,0,,pour vouloir dormir près du corps.
+Dialogue: 0,0:16:50.34,0:16:51.92,Default,,0,0,0,,Eh bien, enfin...
+Dialogue: 0,0:16:52.42,0:16:56.05,Default,,0,0,0,,D'ailleurs,\Nqui s'est permis de le déplacer ?
+Dialogue: 0,0:16:57.18,0:16:58.14,Default,,0,0,0,,C'est moi.
+Dialogue: 0,0:16:58.35,0:17:02.23,Default,,0,0,0,,Le pauvre bougre\Nme faisait de la peine.
+Dialogue: 0,0:17:02.39,0:17:06.19,Default,,0,0,0,,C'est embêtant, la scène\Nn'a pas encore été inspectée.
+Dialogue: 0,0:17:06.35,0:17:07.40,Default,,0,0,0,,Tiens donc ?
+Dialogue: 0,0:17:08.11,0:17:09.86,Default,,0,0,0,,La partition a disparu.
+Dialogue: 0,0:17:10.28,0:17:11.11,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:17:12.24,0:17:15.70,Default,,0,0,0,,Je l'ai mise de côté\Npour ne pas la perdre.
+Dialogue: 0,0:17:16.11,0:17:16.82,Default,,0,0,0,,Tenez.
+Dialogue: 0,0:17:18.03,0:17:21.08,Default,,0,0,0,,Tiens,\Nc'est la partition du {\i1}Clair de lune{\i0}.
+Dialogue: 0,0:17:21.70,0:17:22.37,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:17:24.12,0:17:27.67,Default,,0,0,0,,Mais quelque chose cloche\Navec la quatrième portée.
+Dialogue: 0,0:17:27.88,0:17:28.92,Default,,0,0,0,,La quatrième ?
+Dialogue: 0,0:17:29.63,0:17:31.17,Default,,0,0,0,,Qu'est-ce qui ne va pas ?
+Dialogue: 0,0:17:31.46,0:17:32.51,Default,,0,0,0,,Écoutez.
+Dialogue: 0,0:17:33.59,0:17:35.43,Default,,0,0,0,,Si je la joue...
+Dialogue: 0,0:17:39.89,0:17:40.81,Default,,0,0,0,,Vous voyez ?
+Dialogue: 0,0:17:41.64,0:17:42.72,Default,,0,0,0,,Si ça se trouve,
+Dialogue: 0,0:17:43.18,0:17:44.81,Default,,0,0,0,,cette ligne est peut-être
+Dialogue: 0,0:17:45.48,0:17:47.77,Default,,0,0,0,,un message laissé par M. Kawashima !
+Dialogue: 0,0:17:48.69,0:17:53.32,Default,,0,0,0,,Le meurtrier risque de vouloir\Nla récupérer dans ce cas.
+Dialogue: 0,0:17:56.61,0:17:58.28,Default,,0,0,0,,Docteur Narumi !
+Dialogue: 0,0:17:58.57,0:18:02.20,Default,,0,0,0,,J'ai appelé l'auberge\Net ils m'ont dit que vous étiez ici.
+Dialogue: 0,0:18:02.62,0:18:04.83,Default,,0,0,0,,Je vous ai apporté\Nun casse-croûte.
+Dialogue: 0,0:18:05.62,0:18:06.87,Default,,0,0,0,,Bonne idée...
+Dialogue: 0,0:18:11.63,0:18:14.88,Default,,0,0,0,,Vous n'êtes pas originaire de l'île,\Nc'est ça ?
+Dialogue: 0,0:18:15.26,0:18:15.84,Default,,0,0,0,,Non,
+Dialogue: 0,0:18:16.22,0:18:18.84,Default,,0,0,0,,je rentre à Tokyo chaque week-end.
+Dialogue: 0,0:18:19.39,0:18:22.10,Default,,0,0,0,,C'est comme ça depuis deux ans.
+Dialogue: 0,0:18:22.43,0:18:26.48,Default,,0,0,0,,Il y a deux ans,\Nquand le maire Kameyama est décédé.
+Dialogue: 0,0:18:26.89,0:18:30.52,Default,,0,0,0,,En effet, il avait le cœur fragile
+Dialogue: 0,0:18:30.73,0:18:32.69,Default,,0,0,0,,et il a fait une crise cardiaque.
+Dialogue: 0,0:18:33.32,0:18:36.36,Default,,0,0,0,,Mais il avait le visage\Ndéformé par un rictus
+Dialogue: 0,0:18:37.15,0:18:39.91,Default,,0,0,0,,comme s'il avait vu\Nune chose horrible.
+Dialogue: 0,0:18:40.66,0:18:44.04,Default,,0,0,0,,Il aurait vu "une chose horrible" ?
+Dialogue: 0,0:18:47.12,0:18:48.42,Default,,0,0,0,,Quoi qu'il en soit,
+Dialogue: 0,0:18:48.71,0:18:51.13,Default,,0,0,0,,je vais monter la garde sans dormir,
+Dialogue: 0,0:18:51.42,0:18:53.04,Default,,0,0,0,,alors au lit vous tous !
+Dialogue: 0,0:18:53.21,0:18:54.30,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:18:54.46,0:18:55.46,Default,,0,0,0,,{\i1}22 h 58{\i0}
+Dialogue: 0,0:18:57.34,0:18:58.84,Default,,0,0,0,,{\i1}Hé, Môri !{\i0}
+Dialogue: 0,0:18:59.72,0:19:00.97,Default,,0,0,0,,{\i1}Môri !{\i0}
+Dialogue: 0,0:19:01.22,0:19:03.89,Default,,0,0,0,,Debout, il est presque midi.
+Dialogue: 0,0:19:04.06,0:19:04.97,Default,,0,0,0,,{\i1}11 h 24{\i0}
+Dialogue: 0,0:19:05.14,0:19:06.43,Default,,0,0,0,,Inspecteur Meguri ?
+Dialogue: 0,0:19:06.77,0:19:07.89,Default,,0,0,0,,Que faites-vous là ?
+Dialogue: 0,0:19:08.06,0:19:11.15,Default,,0,0,0,,T'es mal réveillé ou quoi ?
+Dialogue: 0,0:19:11.52,0:19:13.82,Default,,0,0,0,,Je suis venu expressément
+Dialogue: 0,0:19:14.11,0:19:16.53,Default,,0,0,0,,quand j'ai appris\Nque t'étais sur l'affaire.
+Dialogue: 0,0:19:17.28,0:19:20.57,Default,,0,0,0,,Au fait,\Nj'ai une chose à vous donner.
+Dialogue: 0,0:19:20.74,0:19:23.41,Default,,0,0,0,,Conan m'a déjà donné la partition.
+Dialogue: 0,0:19:24.49,0:19:25.79,Default,,0,0,0,,Et les trois
+Dialogue: 0,0:19:26.12,0:19:28.79,Default,,0,0,0,,m'ont fait un point\Nsur la situation.
+Dialogue: 0,0:19:29.50,0:19:33.34,Default,,0,0,0,,Ils sont restés éveillés\Njusqu'à mon arrivée, eux.
+Dialogue: 0,0:19:35.92,0:19:39.59,Default,,0,0,0,,Bref, nous allons mener\Nles interrogatoires à la mairie,
+Dialogue: 0,0:19:39.80,0:19:41.05,Default,,0,0,0,,viens nous aider.
+Dialogue: 0,0:19:41.97,0:19:42.51,Default,,0,0,0,,Compris !
+Dialogue: 0,0:19:43.60,0:19:46.18,Default,,0,0,0,,{\i1}17 h 58{\i0}
+Dialogue: 0,0:19:51.81,0:19:53.86,Default,,0,0,0,,Alors, vous tenez le coupable ?
+Dialogue: 0,0:19:54.02,0:19:55.32,Default,,0,0,0,,Ne dis pas de bêtises,
+Dialogue: 0,0:19:55.48,0:19:58.40,Default,,0,0,0,,il y a 38 personnes à interroger.
+Dialogue: 0,0:19:58.82,0:20:01.36,Default,,0,0,0,,Vous allez aussi m'interroger ?
+Dialogue: 0,0:20:01.70,0:20:04.82,Default,,0,0,0,,Vous devez être fatiguée,\Nvous passerez en dernière.
+Dialogue: 0,0:20:05.24,0:20:08.50,Default,,0,0,0,,Je vais me passer\Nde l'eau sur le visage alors.
+Dialogue: 0,0:20:09.00,0:20:09.75,Default,,0,0,0,,Dis,
+Dialogue: 0,0:20:10.83,0:20:13.79,Default,,0,0,0,,il reste combien de gens\Nà questionner ?
+Dialogue: 0,0:20:14.00,0:20:14.58,Default,,0,0,0,,Eh bien,
+Dialogue: 0,0:20:15.21,0:20:18.59,Default,,0,0,0,,il reste Narumi et les quatre là-bas
+Dialogue: 0,0:20:19.05,0:20:22.09,Default,,0,0,0,,et aussi M. Nishimoto\Nqui est avec les policiers.
+Dialogue: 0,0:20:23.72,0:20:24.47,Default,,0,0,0,,Pauvre idiot !
+Dialogue: 0,0:20:24.89,0:20:26.81,Default,,0,0,0,,Je t'en donnerai\Ndes pianos maudits !
+Dialogue: 0,0:20:26.97,0:20:29.93,Default,,0,0,0,,C'est ce machin\Nqui cause des catastrophes !
+Dialogue: 0,0:20:30.56,0:20:31.69,Default,,0,0,0,,Mais M. le maire...
+Dialogue: 0,0:20:32.10,0:20:34.56,Default,,0,0,0,,Débarrasse-t-en tout de suite,\Npigé ?
+Dialogue: 0,0:20:36.36,0:20:37.48,Default,,0,0,0,,Ce sera fait.
+Dialogue: 0,0:20:42.95,0:20:44.99,Default,,0,0,0,,Arrêtez de dire n'importe quoi !
+Dialogue: 0,0:20:45.32,0:20:48.99,Default,,0,0,0,,Je n'avais aucune raison\Nde le tuer !
+Dialogue: 0,0:20:49.45,0:20:50.70,Default,,0,0,0,,C'est dingue,
+Dialogue: 0,0:20:51.12,0:20:53.75,Default,,0,0,0,,Reiko hurle depuis dix minutes.
+Dialogue: 0,0:20:54.58,0:20:55.38,Default,,0,0,0,,{\i1}C'est bizarre,{\i0}
+Dialogue: 0,0:20:56.29,0:20:59.30,Default,,0,0,0,,{\i1}ils ont déjà été écoutés\Nmais ils ne partent pas.{\i0}
+Dialogue: 0,0:21:01.46,0:21:02.59,Default,,0,0,0,,Je passe aux toilettes !
+Dialogue: 0,0:21:05.26,0:21:06.01,Default,,0,0,0,,{\i1}Il n'est pas là !{\i0}
+Dialogue: 0,0:21:07.01,0:21:08.93,Default,,0,0,0,,Vous avez vu M. Nishimoto ?
+Dialogue: 0,0:21:09.10,0:21:11.31,Default,,0,0,0,,Non, il n'y a que Shimizu.
+Dialogue: 0,0:21:11.81,0:21:13.18,Default,,0,0,0,,{\i1}Il serait en haut ?{\i0}
+Dialogue: 0,0:21:14.60,0:21:15.31,Default,,0,0,0,,{\i1}Bon sang !{\i0}
+Dialogue: 0,0:21:16.15,0:21:17.44,Default,,0,0,0,,Cette mélodie...
+Dialogue: 0,0:21:19.02,0:21:20.69,Default,,0,0,0,,Le 2e mouvement du {\i1}Clair de lune{\i0} !
+Dialogue: 0,0:21:21.57,0:21:22.82,Default,,0,0,0,,D'où ça vient ?
+Dialogue: 0,0:21:24.78,0:21:25.41,Default,,0,0,0,,{\i1}La salle de diffusion ?{\i0}
+Dialogue: 0,0:21:26.78,0:21:27.70,Default,,0,0,0,,M. Nishimoto !
+Dialogue: 0,0:21:31.70,0:21:32.87,Default,,0,0,0,,M. Kuroiwa !
+Dialogue: 0,0:21:33.25,0:21:35.58,Default,,0,0,0,,Appelez les experts et le légiste !
+Dialogue: 0,0:21:35.75,0:21:37.08,Default,,0,0,0,,Mais monsieur,
+Dialogue: 0,0:21:37.46,0:21:40.63,Default,,0,0,0,,le légiste est retourné à Tokyo\Npour l'autopsie.
+Dialogue: 0,0:21:40.88,0:21:43.09,Default,,0,0,0,,Merde, au pire moment !
+Dialogue: 0,0:21:43.26,0:21:43.92,Default,,0,0,0,,Inspecteur,
+Dialogue: 0,0:21:45.22,0:21:46.80,Default,,0,0,0,,je peux m'en occuper.
+Dialogue: 0,0:21:47.09,0:21:48.18,Default,,0,0,0,,Docteur Narumi.
+Dialogue: 0,0:21:48.89,0:21:50.43,Default,,0,0,0,,Votre aide est bienvenue,
+Dialogue: 0,0:21:50.64,0:21:53.35,Default,,0,0,0,,vous commencerez\Ndès l'arrivée des experts.
+Dialogue: 0,0:21:53.52,0:21:54.14,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:21:54.43,0:21:55.60,Default,,0,0,0,,{\i1}Ça recommence !{\i0}
+Dialogue: 0,0:21:56.14,0:21:59.02,Default,,0,0,0,,{\i1}Encore une victime\Nalors que je savais !{\i0}
+Dialogue: 0,0:21:59.73,0:22:00.90,Default,,0,0,0,,{\i1}Il ne m'échappera pas !{\i0}
+Dialogue: 0,0:22:01.11,0:22:04.82,Default,,0,0,0,,{\i1}Il annonce son crime\Navant de l'exécuter tranquillement.{\i0}
+Dialogue: 0,0:22:06.82,0:22:08.95,Default,,0,0,0,,{\i1}Je jure que je vais l'avoir !{\i0}
+Dialogue: 0,0:22:17.21,0:22:20.67,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:23.21,0:22:25.92,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

@@ -1,0 +1,416 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.16,0:00:02.29,Default,,0,0,0,,{\i1}Tonton a reçu une lettre{\i0}
+Dialogue: 0,0:00:02.66,0:00:05.08,Default,,0,0,0,,{\i1}d'un certain Taisei Nichihara{\i0}
+Dialogue: 0,0:00:05.25,0:00:09.55,Default,,0,0,0,,{\i1}qui lui a demandé\Nde déchiffrer une grille codée{\i0}
+Dialogue: 0,0:00:09.80,0:00:13.17,Default,,0,0,0,,{\i1}laissée par un ami\Nqui s'est suicidé.{\i0}
+Dialogue: 0,0:00:13.68,0:00:16.93,Default,,0,0,0,,{\i1}Nous nous sommes rendus\Nà l'endroit indiqué{\i0}
+Dialogue: 0,0:00:17.55,0:00:20.85,Default,,0,0,0,,{\i1}au fin fond des montagnes de Nagano.{\i0}
+Dialogue: 0,0:00:23.02,0:00:25.77,Default,,0,0,0,,{\i1}C'est là que nous avons appris\Nque ce Nichihara{\i0}
+Dialogue: 0,0:00:26.40,0:00:29.48,Default,,0,0,0,,{\i1}était en fait l'homme\Nqui s'était pendu.{\i0}
+Dialogue: 0,0:00:30.03,0:00:34.32,Default,,0,0,0,,{\i1}La mystérieuse personne\Nqui nous a rassemblés{\i0}
+Dialogue: 0,0:00:35.03,0:00:38.91,Default,,0,0,0,,{\i1}nous a alors fait chercher\Ndes messages codés dans l'église.{\i0}
+Dialogue: 0,0:00:42.75,0:00:44.29,Default,,0,0,0,,{\i1}Ah, nous y voilà.{\i0}
+Dialogue: 0,0:00:45.37,0:00:47.00,Default,,0,0,0,,{\i1}Hé, mon gars !{\i0}
+Dialogue: 0,0:00:47.83,0:00:49.50,Default,,0,0,0,,{\i1}Combien de temps ça te prend...{\i0}
+Dialogue: 0,0:00:50.21,0:00:50.92,Default,,0,0,0,,{\i1}Bon sang !{\i0}
+Dialogue: 0,0:00:52.09,0:00:52.92,Default,,0,0,0,,{\i1}Mais comment ?{\i0}
+Dialogue: 0,0:00:54.34,0:00:55.63,ST_HAUT,,0,0,0,,{\i1}Que se passe-t-il ?{\i0}
+Dialogue: 0,0:00:55.80,0:00:57.05,ST_HAUT,,0,0,0,,KÔHEI WADA (28 ANS)
+Dialogue: 0,0:00:58.72,0:01:00.10,ST_HAUT,,0,0,0,,{\i1}Le premier pas d'un long chemin,{\i0}
+Dialogue: 0,0:01:00.26,0:01:02.47,ST_HAUT,,0,0,0,,{\i1}1000 mystères résolus,\Nen route vers un nouveau monde !{\i0}
+Dialogue: 0,0:01:02.81,0:01:04.64,Default,,0,0,0,,{\i1}Piégés dans la montagne,{\i0}
+Dialogue: 0,0:01:04.81,0:01:06.64,Default,,0,0,0,,{\i1}l'enquête de Conan et Tôru\Ncommence !{\i0}
+Dialogue: 0,0:01:06.85,0:01:10.23,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:10.40,0:01:12.94,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:13.49,0:01:15.82,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:27.00,0:01:28.67,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:01:29.50,0:01:31.34,ST_HAUT,,0,0,0,,Directeur artistique :\NJunichi Higashi
+Dialogue: 0,0:01:34.80,0:01:36.76,ST_HAUT_GAUCHE,,0,0,0,,Direction du son :\NY. Urakami, K. Urakami
+Dialogue: 0,0:01:38.76,0:01:40.72,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:01:45.48,0:01:47.52,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Zero kara hajimete"
+Dialogue: 0,0:01:49.69,0:01:51.90,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:53.27,0:01:55.40,ST_HAUT,,0,0,0,,Projet initial : Takenori Ichihara,\NNaota Machida
+Dialogue: 0,0:02:03.12,0:02:05.20,ST_HAUT,,0,0,0,,Producteurs : Isato Yonekura,\NKiyoaki Terashima
+Dialogue: 0,0:02:12.59,0:02:14.55,ST_HAUT,,0,0,0,,Chefs producteurs :\NKana Sasaki, Keiichi Ishiyama
+Dialogue: 0,0:02:21.09,0:02:23.81,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:02:35.11,0:02:37.49,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:40.20,0:02:43.58,Default,,0,0,0,,{\i1}Un jeu parfait de 36 cases\N(2e partie){\i0}
+Dialogue: 0,0:02:48.83,0:02:49.91,Default,,0,0,0,,Que se passe-t-il ?
+Dialogue: 0,0:02:50.62,0:02:53.00,Default,,0,0,0,,Pourquoi Wada est par terre
+Dialogue: 0,0:02:53.17,0:02:54.38,Default,,0,0,0,,et couvert de sang ?
+Dialogue: 0,0:02:55.38,0:02:57.34,Default,,0,0,0,,Allez, Wada !\NRéponds-moi, Kôhei !
+Dialogue: 0,0:02:57.59,0:02:59.34,Default,,0,0,0,,N'approchez pas !
+Dialogue: 0,0:03:01.09,0:03:03.14,Default,,0,0,0,,C'est une scène de crime !
+Dialogue: 0,0:03:04.10,0:03:05.43,Default,,0,0,0,,Une scène de crime ?
+Dialogue: 0,0:03:06.14,0:03:08.77,ST_HAUT,,0,0,0,,Vous voulez dire\Nque Kôhei est mort ?
+Dialogue: 0,0:03:09.98,0:03:10.89,ST_HAUT,,0,0,0,,Mais pourquoi ?
+Dialogue: 0,0:03:12.60,0:03:15.40,ST_HAUT,,0,0,0,,Et vous,\Nvous avez le droit d'y toucher ?
+Dialogue: 0,0:03:15.77,0:03:17.73,ST_HAUT,,0,0,0,,Vous n'êtes pas policiers,
+Dialogue: 0,0:03:18.03,0:03:21.70,ST_HAUT,,0,0,0,,ça va poser problème,\Nsi vous faites n'importe quoi.
+Dialogue: 0,0:03:24.12,0:03:27.20,Default,,0,0,0,,Arrêtez vos jérémiades,\Nça me vrille les tympans !
+Dialogue: 0,0:03:27.62,0:03:30.66,Default,,0,0,0,,Ouvrez grand vos esgourdes,
+Dialogue: 0,0:03:31.04,0:03:35.84,Default,,0,0,0,,ce grand détective est capable\Nde faire taire les pleurs d'enfants.
+Dialogue: 0,0:03:36.13,0:03:37.84,Default,,0,0,0,,{\i1}Qu'est-ce qu'il raconte ?{\i0}
+Dialogue: 0,0:03:38.00,0:03:40.01,Default,,0,0,0,,Son nom est Kogorô Môri.
+Dialogue: 0,0:03:40.51,0:03:45.35,Default,,0,0,0,,Oui, vous avez devant vous l'homme\Nque l'on surnomme Kogorô L'Endormi !
+Dialogue: 0,0:03:46.30,0:03:48.31,Default,,0,0,0,,Kogorô L'Endormi ? Ici ?
+Dialogue: 0,0:03:48.81,0:03:51.27,Default,,0,0,0,,Vous disiez être venu à cause
+Dialogue: 0,0:03:51.43,0:03:53.35,Default,,0,0,0,,d'une lettre de Nichihara.
+Dialogue: 0,0:03:53.98,0:03:54.65,Default,,0,0,0,,En effet,
+Dialogue: 0,0:03:55.15,0:04:00.28,Default,,0,0,0,,l'expéditeur avait des doutes\Nsur les circonstances de sa mort.
+Dialogue: 0,0:04:00.65,0:04:04.61,Default,,0,0,0,,Il voulait qu'on décode la grille\Npour découvrir la vérité.
+Dialogue: 0,0:04:05.28,0:04:07.37,Default,,0,0,0,,Mais tout porte à croire
+Dialogue: 0,0:04:07.91,0:04:12.21,Default,,0,0,0,,qu'il pense que vous êtes\Nresponsables de son suicide.
+Dialogue: 0,0:04:13.08,0:04:14.12,Default,,0,0,0,,Impossible !
+Dialogue: 0,0:04:14.54,0:04:17.96,Default,,0,0,0,,Si vous ne voulez pas\Nqu'il y ait d'autres victimes,
+Dialogue: 0,0:04:18.17,0:04:20.63,Default,,0,0,0,,laissez les pros travailler !
+Dialogue: 0,0:04:20.96,0:04:24.68,Default,,0,0,0,,Mes chers amis,\Nne soyez pas si durs.
+Dialogue: 0,0:04:25.01,0:04:28.85,Default,,0,0,0,,Leur ami a été tué,\Nc'est normal qu'ils paniquent.
+Dialogue: 0,0:04:29.18,0:04:32.77,Default,,0,0,0,,Commençons par rapporter les faits\Nà la police de Nagano,
+Dialogue: 0,0:04:32.93,0:04:34.48,Default,,0,0,0,,ils aviseront ensuite.
+Dialogue: 0,0:04:34.81,0:04:36.65,Default,,0,0,0,,Comme vous dites, maître !
+Dialogue: 0,0:04:36.81,0:04:37.98,Default,,0,0,0,,Vous avez raison.
+Dialogue: 0,0:04:40.03,0:04:42.69,Default,,0,0,0,,{\i1}On dirait le trio\Nde la série{\i0} Mito Kômon{\i1}.{\i0}
+Dialogue: 0,0:04:43.24,0:04:44.07,ST_HAUT,,0,0,0,,Comment ?
+Dialogue: 0,0:04:44.24,0:04:46.36,ST_HAUT,,0,0,0,,Quelqu'un a été assassiné ?
+Dialogue: 0,0:04:46.82,0:04:48.74,Default,,0,0,0,,Mais qu'est-ce que vous fichez ?
+Dialogue: 0,0:04:48.91,0:04:50.95,Default,,0,0,0,,{\i1}Je n'y peux rien, moi !{\i0}
+Dialogue: 0,0:04:51.45,0:04:53.04,Default,,0,0,0,,Quelle est la situation ?
+Dialogue: 0,0:04:53.71,0:04:56.21,Default,,0,0,0,,D'après son permis de conduire,
+Dialogue: 0,0:04:56.54,0:04:59.88,Default,,0,0,0,,la victime est Kôhei Wada,\N28 ans.
+Dialogue: 0,0:05:00.50,0:05:02.80,Default,,0,0,0,,Une arbalète bricolée pour tirer
+Dialogue: 0,0:05:03.09,0:05:06.63,Default,,0,0,0,,à l'ouverture du placard\Navait été disposée.
+Dialogue: 0,0:05:07.14,0:05:10.97,Default,,0,0,0,,Le carreau a perforé\Nla tête de M. Wada.
+Dialogue: 0,0:05:11.81,0:05:13.35,Default,,0,0,0,,Je ne comprends pas.
+Dialogue: 0,0:05:13.77,0:05:17.02,Default,,0,0,0,,Qu'est-ce que cette arbalète\Nfaisait là ?
+Dialogue: 0,0:05:17.27,0:05:18.31,Default,,0,0,0,,C'était un piège
+Dialogue: 0,0:05:18.48,0:05:21.07,Default,,0,0,0,,placé par celui\Nqui nous a rassemblés ici.
+Dialogue: 0,0:05:22.03,0:05:24.78,Default,,0,0,0,,Je vais garder la pièce en état,
+Dialogue: 0,0:05:25.07,0:05:28.53,Default,,0,0,0,,on en reparlera\Nquand vous arriverez demain.
+Dialogue: 0,0:05:28.91,0:05:32.37,Default,,0,0,0,,{\i1}Fais une vidéo de la scène\Net envoie-la nous !{\i0}
+Dialogue: 0,0:05:36.21,0:05:37.54,Default,,0,0,0,,C'est moche.
+Dialogue: 0,0:05:38.00,0:05:39.83,Default,,0,0,0,,En plein dans le front.
+Dialogue: 0,0:05:40.42,0:05:43.51,Default,,0,0,0,,La victime\Na vraiment été malchanceuse.
+Dialogue: 0,0:05:43.71,0:05:45.51,Default,,0,0,0,,Non, si le tueur savait
+Dialogue: 0,0:05:45.67,0:05:49.30,Default,,0,0,0,,que cet homme\Nallait ouvrir le placard,
+Dialogue: 0,0:05:49.80,0:05:53.35,Default,,0,0,0,,il a pu ajuster son piège\Npour qu'il vise à cet endroit.
+Dialogue: 0,0:05:53.72,0:05:55.81,Default,,0,0,0,,Mais M. Môri a pourtant précisé
+Dialogue: 0,0:05:56.27,0:05:59.85,Default,,0,0,0,,qu'ils avaient assigné les pièces\Nen tirant au sort.
+Dialogue: 0,0:06:00.44,0:06:04.44,Default,,0,0,0,,C'est pour ça\Nque ce n'est qu'une hypothèse.
+Dialogue: 0,0:06:05.44,0:06:07.57,Default,,0,0,0,,Pouvez-vous revenir en arrière ?
+Dialogue: 0,0:06:08.74,0:06:09.82,Default,,0,0,0,,Ici ?
+Dialogue: 0,0:06:16.04,0:06:18.50,Default,,0,0,0,,{\i1}Le blond qui se tient derrière,{\i0}
+Dialogue: 0,0:06:19.92,0:06:20.71,Default,,0,0,0,,{\i1}je l'ai déjà vu{\i0}
+Dialogue: 0,0:06:21.33,0:06:22.21,Default,,0,0,0,,{\i1}quelque part.{\i0}
+Dialogue: 0,0:06:24.71,0:06:27.09,Default,,0,0,0,,Celui qui nous a amenés ici
+Dialogue: 0,0:06:28.01,0:06:30.39,Default,,0,0,0,,et qui a tué M. Wada\Ncherche d'après moi
+Dialogue: 0,0:06:30.80,0:06:33.39,Default,,0,0,0,,à venger la mort de M. Nichihara
+Dialogue: 0,0:06:33.64,0:06:37.52,Default,,0,0,0,,qui s'est suicidé\Ndeux mois plus tôt.
+Dialogue: 0,0:06:38.73,0:06:39.77,Default,,0,0,0,,Sérieusement ?
+Dialogue: 0,0:06:39.94,0:06:41.23,Default,,0,0,0,,C'était donc bien ça,
+Dialogue: 0,0:06:41.69,0:06:44.90,Default,,0,0,0,,et c'est Wada\Nqui s'est logiquement fait tuer.
+Dialogue: 0,0:06:45.19,0:06:46.48,Default,,0,0,0,,Arrête, Raito !
+Dialogue: 0,0:06:46.69,0:06:47.99,Default,,0,0,0,,C'est malvenu.
+Dialogue: 0,0:06:49.28,0:06:50.24,Default,,0,0,0,,Pardon...
+Dialogue: 0,0:06:50.82,0:06:53.03,Default,,0,0,0,,{\i1}Comment ça, "logiquement" ?{\i0}
+Dialogue: 0,0:06:53.74,0:06:56.12,Default,,0,0,0,,Vous savez qui est le meurtrier ?
+Dialogue: 0,0:06:56.54,0:06:57.29,Default,,0,0,0,,Non,
+Dialogue: 0,0:06:57.66,0:06:59.91,Default,,0,0,0,,il est peut-être parmi vous
+Dialogue: 0,0:07:00.21,0:07:03.17,Default,,0,0,0,,ou bien il se cache dans l'église.
+Dialogue: 0,0:07:03.59,0:07:07.63,Default,,0,0,0,,Sa vengeance a peut-être\Nété assouvie, ou peut-être pas.
+Dialogue: 0,0:07:08.09,0:07:11.13,Default,,0,0,0,,Vous voulez dire\Nqu'il va s'en prendre à nous ?
+Dialogue: 0,0:07:11.30,0:07:14.26,Default,,0,0,0,,On ne pourra plus\Naller seuls aux toilettes !
+Dialogue: 0,0:07:14.80,0:07:16.81,Default,,0,0,0,,J'ai donc une proposition.
+Dialogue: 0,0:07:17.18,0:07:18.68,Default,,0,0,0,,Si on formait des paires ?
+Dialogue: 0,0:07:19.48,0:07:20.77,Default,,0,0,0,,On se déplacera à deux,
+Dialogue: 0,0:07:21.39,0:07:23.94,Default,,0,0,0,,avec quelqu'un de confiance.
+Dialogue: 0,0:07:24.31,0:07:25.65,Default,,0,0,0,,Bonne idée !
+Dialogue: 0,0:07:25.94,0:07:28.86,Default,,0,0,0,,Mais je suis la seule fille ici !
+Dialogue: 0,0:07:29.07,0:07:30.82,Default,,0,0,0,,Mettez-vous ensemble,
+Dialogue: 0,0:07:31.32,0:07:33.16,Default,,0,0,0,,vous étiez en couple à l'époque.
+Dialogue: 0,0:07:33.66,0:07:34.57,Default,,0,0,0,,Mais du coup,
+Dialogue: 0,0:07:35.12,0:07:39.08,Default,,0,0,0,,on peut se retrouver\Nen duo avec le tueur !
+Dialogue: 0,0:07:39.45,0:07:42.21,Default,,0,0,0,,Il se donne du mal pour nous mener
+Dialogue: 0,0:07:42.67,0:07:44.08,Default,,0,0,0,,par le bout du nez,
+Dialogue: 0,0:07:44.25,0:07:47.59,Default,,0,0,0,,il ne révélera pas son identité\Nen tuant son binôme.
+Dialogue: 0,0:07:48.17,0:07:51.09,Default,,0,0,0,,Du coup,\Non se met ensemble, Ikue ?
+Dialogue: 0,0:07:51.30,0:07:52.01,Default,,0,0,0,,Oui.
+Dialogue: 0,0:07:52.59,0:07:55.72,Default,,0,0,0,,Alors je serai avec Nishino,\Nd'accord ?
+Dialogue: 0,0:07:55.97,0:07:57.97,Default,,0,0,0,,Ouais, ça me va.
+Dialogue: 0,0:07:58.52,0:08:00.48,Default,,0,0,0,,Je me mets avec Conan.
+Dialogue: 0,0:08:00.64,0:08:01.10,Default,,0,0,0,,Oui !
+Dialogue: 0,0:08:01.60,0:08:04.19,Default,,0,0,0,,Et moi,\Nje serai avec maître Môri.
+Dialogue: 0,0:08:04.35,0:08:05.02,Default,,0,0,0,,OK !
+Dialogue: 0,0:08:07.98,0:08:10.94,Default,,0,0,0,,Nous allons\Nles premiers aux toilettes,
+Dialogue: 0,0:08:11.53,0:08:14.28,Default,,0,0,0,,évitez d'agir seuls\Npendant notre absence.
+Dialogue: 0,0:08:19.70,0:08:21.20,Default,,0,0,0,,Dis, M. Amuro,
+Dialogue: 0,0:08:21.37,0:08:23.58,Default,,0,0,0,,tu sais qui est le coupable ?
+Dialogue: 0,0:08:24.08,0:08:24.79,Default,,0,0,0,,Pas du tout,
+Dialogue: 0,0:08:28.42,0:08:31.97,Default,,0,0,0,,on a tiré au sort\Nqui allait aux toilettes,
+Dialogue: 0,0:08:32.47,0:08:36.18,Default,,0,0,0,,alors ça ne peut être qu'un hasard
+Dialogue: 0,0:08:36.34,0:08:38.14,Default,,0,0,0,,si c'est M. Wada qui a été tué.
+Dialogue: 0,0:08:38.68,0:08:40.39,Default,,0,0,0,,Le meurtrier a même pu
+Dialogue: 0,0:08:40.77,0:08:45.65,Default,,0,0,0,,placer d'autres pièges\Npour tuer tout le monde,
+Dialogue: 0,0:08:46.06,0:08:50.53,Default,,0,0,0,,et n'importe qui aurait pu\Nplacer l'arbalète bien avant.
+Dialogue: 0,0:08:50.98,0:08:55.78,Default,,0,0,0,,Le carreau a touché M. Wada\Nau front car il est grand,
+Dialogue: 0,0:08:55.99,0:08:59.33,Default,,0,0,0,,mais il n'aurait pas touché\NMlle Ikue.
+Dialogue: 0,0:08:59.58,0:09:00.99,Default,,0,0,0,,Oui, tu as raison.
+Dialogue: 0,0:09:01.45,0:09:03.75,Default,,0,0,0,,Mais le tirage au sort
+Dialogue: 0,0:09:04.29,0:09:06.00,Default,,0,0,0,,avait l'air honnête.
+Dialogue: 0,0:09:08.34,0:09:09.42,Default,,0,0,0,,Par ailleurs,
+Dialogue: 0,0:09:09.96,0:09:11.63,Default,,0,0,0,,j'ai une question bizarre.
+Dialogue: 0,0:09:12.96,0:09:14.38,Default,,0,0,0,,Tu connais Rhum,
+Dialogue: 0,0:09:17.97,0:09:19.35,Default,,0,0,0,,je me trompe ?
+Dialogue: 0,0:09:22.64,0:09:23.98,Default,,0,0,0,,Mais où as-tu obtenu
+Dialogue: 0,0:09:24.35,0:09:25.98,Default,,0,0,0,,cette information ?
+Dialogue: 0,0:09:26.73,0:09:28.06,Default,,0,0,0,,Tu l'as déjà rencontré ?
+Dialogue: 0,0:09:29.94,0:09:31.69,Default,,0,0,0,,Je ne sais pas trop comment
+Dialogue: 0,0:09:32.28,0:09:33.28,Default,,0,0,0,,je dois te répondre.
+Dialogue: 0,0:09:35.53,0:09:37.66,Default,,0,0,0,,Si je te réponds que oui,
+Dialogue: 0,0:09:37.99,0:09:42.33,Default,,0,0,0,,tu vas commencer à enquêter\Nsur les personnes qui m'entourent.
+Dialogue: 0,0:09:42.95,0:09:44.41,Default,,0,0,0,,Si je te réponds que non,
+Dialogue: 0,0:09:44.75,0:09:48.96,Default,,0,0,0,,tu vas te méfier des gens\Nqui s'approchent de nous.
+Dialogue: 0,0:09:49.75,0:09:50.75,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:09:51.50,0:09:53.84,Default,,0,0,0,,Je ne gagne rien dans les deux cas,
+Dialogue: 0,0:09:54.92,0:09:57.34,Default,,0,0,0,,mais sache que c'est un vrai fouineur,
+Dialogue: 0,0:09:57.80,0:09:59.14,Default,,0,0,0,,c'est tout.
+Dialogue: 0,0:10:00.30,0:10:01.76,Default,,0,0,0,,{\i1}Un "fouineur ?{\i0}
+Dialogue: 0,0:10:06.18,0:10:08.52,Default,,0,0,0,,C'est la tempête dehors.
+Dialogue: 0,0:10:08.69,0:10:12.02,Default,,0,0,0,,Pas sûr que l'aide arrive demain...
+Dialogue: 0,0:10:12.57,0:10:13.98,Default,,0,0,0,,Ce serait un problème !
+Dialogue: 0,0:10:14.28,0:10:16.03,Default,,0,0,0,,Notre stock d'eau est limité.
+Dialogue: 0,0:10:16.70,0:10:19.53,Default,,0,0,0,,Tu passes ton temps à boire, aussi !
+Dialogue: 0,0:10:19.70,0:10:21.99,Default,,0,0,0,,Je peux prendre une boisson ?
+Dialogue: 0,0:10:22.33,0:10:22.99,Default,,0,0,0,,Vas-y.
+Dialogue: 0,0:10:25.66,0:10:28.04,Default,,0,0,0,,Vous avez entendu ce bruit ?
+Dialogue: 0,0:10:28.21,0:10:30.21,Default,,0,0,0,,On aurait dit du verre brisé.
+Dialogue: 0,0:10:30.38,0:10:33.34,Default,,0,0,0,,Ça vient du bâtiment d'à côté.
+Dialogue: 0,0:10:34.21,0:10:36.55,Default,,0,0,0,,Il y a peut-être vraiment quelqu'un !
+Dialogue: 0,0:10:36.72,0:10:38.80,Default,,0,0,0,,Il faut aller vérifier !
+Dialogue: 0,0:10:39.09,0:10:40.84,Default,,0,0,0,,Sinon, impossible de dormir !
+Dialogue: 0,0:10:41.01,0:10:43.60,Default,,0,0,0,,Mais on devrait éviter\Nde se séparer.
+Dialogue: 0,0:10:43.97,0:10:44.97,Default,,0,0,0,,Dans ce cas,
+Dialogue: 0,0:10:45.27,0:10:48.56,Default,,0,0,0,,une paire pourrait aller voir,\Nnon ?
+Dialogue: 0,0:10:48.98,0:10:52.19,Default,,0,0,0,,À deux, ils s'en sortiront\Nquoi qu'il arrive.
+Dialogue: 0,0:10:52.61,0:10:54.23,Default,,0,0,0,,Oui, c'est vrai.
+Dialogue: 0,0:10:54.90,0:10:57.61,Default,,0,0,0,,Je vous déconseille de faire ça.
+Dialogue: 0,0:10:57.99,0:10:58.70,Default,,0,0,0,,Oui,
+Dialogue: 0,0:10:58.99,0:11:01.78,Default,,0,0,0,,c'est sûrement le vent qui a envoyé
+Dialogue: 0,0:11:01.95,0:11:04.28,Default,,0,0,0,,un objet dans une fenêtre.
+Dialogue: 0,0:11:07.83,0:11:10.08,Default,,0,0,0,,On devrait vraiment aller voir...
+Dialogue: 0,0:11:10.46,0:11:13.29,Default,,0,0,0,,Mais comment décider\Nqui va se dévouer ?
+Dialogue: 0,0:11:13.67,0:11:15.67,Default,,0,0,0,,On peut faire un chifoumi ?
+Dialogue: 0,0:11:15.84,0:11:18.63,Default,,0,0,0,,Ah non ! Je suis nulle à ce jeu !
+Dialogue: 0,0:11:19.84,0:11:23.93,Default,,0,0,0,,Tu as bien dit que tu avais\Nplusieurs boîtes de pastilles ?
+Dialogue: 0,0:11:24.55,0:11:26.18,Default,,0,0,0,,Tu peux m'en passer ?
+Dialogue: 0,0:11:27.43,0:11:29.14,Default,,0,0,0,,Je prends trois boîtes
+Dialogue: 0,0:11:29.73,0:11:31.10,Default,,0,0,0,,parmi celles-ci,
+Dialogue: 0,0:11:31.77,0:11:33.77,Default,,0,0,0,,puis j'en vide deux...
+Dialogue: 0,0:11:35.40,0:11:36.15,Default,,0,0,0,,Ainsi,
+Dialogue: 0,0:11:36.36,0:11:39.78,Default,,0,0,0,,celles qui ne font pas de bruit\Nsont gagnantes
+Dialogue: 0,0:11:40.28,0:11:43.45,Default,,0,0,0,,et le duo qui prendra la pleine\Nsera perdant.
+Dialogue: 0,0:11:43.95,0:11:47.79,Default,,0,0,0,,Et ces derniers iront voir,\Nça vous va ?
+Dialogue: 0,0:11:48.41,0:11:51.08,Default,,0,0,0,,Bien sûr, mon groupe devra prendre
+Dialogue: 0,0:11:51.50,0:11:53.83,Default,,0,0,0,,celle qui restera.
+Dialogue: 0,0:11:55.50,0:11:57.05,Default,,0,0,0,,Allez-y, servez-vous.
+Dialogue: 0,0:11:57.50,0:12:01.13,Default,,0,0,0,,Maître Môri a l'œil\Npour identifier la mauvaise pioche.
+Dialogue: 0,0:12:01.30,0:12:03.09,Default,,0,0,0,,T'inquiète, je m'en occupe !
+Dialogue: 0,0:12:03.76,0:12:04.80,Default,,0,0,0,,Hop-là !
+Dialogue: 0,0:12:05.68,0:12:06.55,Default,,0,0,0,,Voyons voir...
+Dialogue: 0,0:12:16.56,0:12:17.32,Default,,0,0,0,,Elle est vide !
+Dialogue: 0,0:12:17.48,0:12:19.32,Default,,0,0,0,,Vous êtes un génie !
+Dialogue: 0,0:12:23.66,0:12:25.03,Default,,0,0,0,,Elle est vide aussi !
+Dialogue: 0,0:12:30.29,0:12:33.62,Default,,0,0,0,,Tant pis, on va devoir\Naller jeter un œil.
+Dialogue: 0,0:12:33.92,0:12:34.83,Default,,0,0,0,,Eh oui...
+Dialogue: 0,0:12:37.63,0:12:38.29,Default,,0,0,0,,Oui,
+Dialogue: 0,0:12:38.50,0:12:41.63,Default,,0,0,0,,on a bien entendu\Nun bruit de verre brisé.
+Dialogue: 0,0:12:42.17,0:12:44.55,Default,,0,0,0,,Vous les avez laissé partir ?
+Dialogue: 0,0:12:44.88,0:12:47.72,Default,,0,0,0,,J'ai tout de même essayé\Nde les retenir.
+Dialogue: 0,0:12:49.56,0:12:50.47,Default,,0,0,0,,Qui est-ce ?
+Dialogue: 0,0:12:51.14,0:12:53.18,Default,,0,0,0,,Qui a envoyé un message à Kawasaki ?
+Dialogue: 0,0:12:53.60,0:12:54.44,Default,,0,0,0,,Un message ?
+Dialogue: 0,0:12:54.77,0:12:56.10,Default,,0,0,0,,On n'a rien envoyé.
+Dialogue: 0,0:12:56.44,0:12:58.94,Default,,0,0,0,,Il est devenu livide en le lisant
+Dialogue: 0,0:12:59.40,0:13:00.69,Default,,0,0,0,,et il a couru à la salle d'eau.
+Dialogue: 0,0:13:12.62,0:13:14.62,Default,,0,0,0,,C'était la voix de Kawasaki.
+Dialogue: 0,0:13:14.79,0:13:16.46,Default,,0,0,0,,Il allait bien à la salle d'eau ?
+Dialogue: 0,0:13:22.13,0:13:23.01,Default,,0,0,0,,M. Kawasaki !
+Dialogue: 0,0:13:27.80,0:13:28.72,Default,,0,0,0,,Reprenez-vous !
+Dialogue: 0,0:13:36.39,0:13:37.06,Default,,0,0,0,,Du poison ?
+Dialogue: 0,0:13:39.19,0:13:40.52,Default,,0,0,0,,Si je me fie à l'odeur,
+Dialogue: 0,0:13:40.94,0:13:43.40,Default,,0,0,0,,il a été empoisonné\Nau cyanure d'hydrogène.
+Dialogue: 0,0:13:45.65,0:13:49.03,Default,,0,0,0,,Il n'y a pourtant pas\Nde réaction d'oxydoréduction
+Dialogue: 0,0:13:49.20,0:13:50.95,Default,,0,0,0,,avec l'eau de sa bouteille.
+Dialogue: 0,0:13:51.62,0:13:54.70,Default,,0,0,0,,Il n'y avait pas de poison\Ndans celle-ci.
+Dialogue: 0,0:13:55.96,0:13:57.08,Default,,0,0,0,,Mais alors comment ?
+Dialogue: 0,0:13:57.75,0:13:59.17,Default,,0,0,0,,Je n'y suis pour rien !
+Dialogue: 0,0:14:02.71,0:14:04.42,Default,,0,0,0,,Encore ce code !
+Dialogue: 0,0:14:05.59,0:14:06.97,Default,,0,0,0,,Si cette grille
+Dialogue: 0,0:14:07.80,0:14:09.72,Default,,0,0,0,,a été laissée là,\Nça veut dire...
+Dialogue: 0,0:14:11.14,0:14:11.97,Default,,0,0,0,,qu'à priori
+Dialogue: 0,0:14:13.64,0:14:14.97,Default,,0,0,0,,les meurtres
+Dialogue: 0,0:14:16.64,0:14:17.48,Default,,0,0,0,,vont continuer.
+Dialogue: 0,0:14:31.62,0:14:34.29,Default,,0,0,0,,Bon sang,\Nle téléphone ne passe pas !
+Dialogue: 0,0:14:34.58,0:14:37.41,Default,,0,0,0,,Impossible de contacter la police !
+Dialogue: 0,0:14:38.16,0:14:39.67,Default,,0,0,0,,Alors qu'on a
+Dialogue: 0,0:14:39.83,0:14:41.84,Default,,0,0,0,,deux macchabées sur les bras !
+Dialogue: 0,0:14:42.29,0:14:46.26,Default,,0,0,0,,L'antenne-relais\Na dû être esquintée
+Dialogue: 0,0:14:46.42,0:14:47.97,Default,,0,0,0,,par la tempête de neige.
+Dialogue: 0,0:14:48.59,0:14:49.30,Default,,0,0,0,,Mais...
+Dialogue: 0,0:14:49.88,0:14:51.47,Default,,0,0,0,,pourquoi Kawasaki ?
+Dialogue: 0,0:14:51.76,0:14:53.81,Default,,0,0,0,,Il a vraiment été empoisonné ?
+Dialogue: 0,0:14:54.31,0:14:54.97,Default,,0,0,0,,Oui,
+Dialogue: 0,0:14:55.35,0:14:58.35,Default,,0,0,0,,quelqu'un l'a forcé\Nà prendre du cyanure
+Dialogue: 0,0:14:58.60,0:15:01.81,Default,,0,0,0,,ou l'a piégé afin qu'il soit\Namené à en prendre.
+Dialogue: 0,0:15:02.19,0:15:05.94,Default,,0,0,0,,Mais alors, il y aurait vraiment\Nquelqu'un d'autre
+Dialogue: 0,0:15:06.32,0:15:08.07,Default,,0,0,0,,qui se cache dans l'église ?
+Dialogue: 0,0:15:09.24,0:15:10.07,Default,,0,0,0,,Vous l'avez dit,
+Dialogue: 0,0:15:10.66,0:15:12.07,Default,,0,0,0,,il n'y a pas de poison
+Dialogue: 0,0:15:12.53,0:15:16.16,Default,,0,0,0,,dans la bouteille d'eau\Ntombée au sol.
+Dialogue: 0,0:15:16.79,0:15:17.58,Default,,0,0,0,,Alors...
+Dialogue: 0,0:15:18.00,0:15:20.62,Default,,0,0,0,,ça veut dire\Nque quelqu'un l'a peut-être
+Dialogue: 0,0:15:20.79,0:15:23.08,Default,,0,0,0,,forcé à avaler le poison !
+Dialogue: 0,0:15:23.54,0:15:25.09,Default,,0,0,0,,C'est possible...
+Dialogue: 0,0:15:25.84,0:15:27.71,Default,,0,0,0,,Kawasaki avait peur des microbes,
+Dialogue: 0,0:15:27.96,0:15:29.47,Default,,0,0,0,,il se serait méfié
+Dialogue: 0,0:15:29.67,0:15:32.18,Default,,0,0,0,,et n'aurait pas bu n'importe quoi.
+Dialogue: 0,0:15:32.89,0:15:36.72,Default,,0,0,0,,Par contre,\Nil buvait tout le temps de l'eau.
+Dialogue: 0,0:15:37.06,0:15:38.68,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:15:38.93,0:15:42.94,Default,,0,0,0,,Une fois au club,\Nil s'est évanoui de déshydratation.
+Dialogue: 0,0:15:43.19,0:15:46.86,Default,,0,0,0,,Depuis, il boit de l'eau\Ndès qu'il en a l'occasion.
+Dialogue: 0,0:15:47.28,0:15:51.45,Default,,0,0,0,,Il buvait dès qu'il passait\Naux toilettes ou que le cours finissait.
+Dialogue: 0,0:15:51.86,0:15:53.91,Default,,0,0,0,,C'était devenu une manie.
+Dialogue: 0,0:15:54.45,0:15:55.58,Default,,0,0,0,,Mais attendez,
+Dialogue: 0,0:15:56.24,0:15:58.83,Default,,0,0,0,,si on l'avait forcé à boire
+Dialogue: 0,0:15:59.12,0:16:01.12,Default,,0,0,0,,pour faire descendre le poison,
+Dialogue: 0,0:16:01.71,0:16:04.29,Default,,0,0,0,,de l'eau aurait coulé\Nde sa bouche
+Dialogue: 0,0:16:04.63,0:16:06.80,Default,,0,0,0,,ou il en aurait recraché.
+Dialogue: 0,0:16:06.96,0:16:10.88,Default,,0,0,0,,Pourtant, son visage,\Nson cou et son col sont secs.
+Dialogue: 0,0:16:11.38,0:16:14.18,Default,,0,0,0,,Vous croyez\Nqu'on l'a vraiment forcé ?
+Dialogue: 0,0:16:14.84,0:16:16.39,Default,,0,0,0,,Si ce n'est pas le cas,
+Dialogue: 0,0:16:16.68,0:16:19.39,Default,,0,0,0,,quelqu'un l'a empoisonné\Nà son insu
+Dialogue: 0,0:16:20.39,0:16:21.64,Default,,0,0,0,,et c'est sûrement
+Dialogue: 0,0:16:22.27,0:16:23.48,Default,,0,0,0,,l'un d'entre vous.
+Dialogue: 0,0:16:24.40,0:16:28.32,Default,,0,0,0,,Mais au fait,\Nvous avez mentionné
+Dialogue: 0,0:16:28.69,0:16:32.78,Default,,0,0,0,,qu'il avait reçu un message\Nvenant de l'un de vous.
+Dialogue: 0,0:16:33.70,0:16:34.41,Default,,0,0,0,,En effet,
+Dialogue: 0,0:16:34.82,0:16:38.95,Default,,0,0,0,,il a pâli en le lisant\Net il est parti en courant.
+Dialogue: 0,0:16:39.58,0:16:42.71,Default,,0,0,0,,Je ne sais pas\Ns'il ne voulait pas que je le voie,
+Dialogue: 0,0:16:42.91,0:16:46.92,Default,,0,0,0,,ou s'il voulait\Nappeler l'expéditeur
+Dialogue: 0,0:16:47.09,0:16:48.29,Default,,0,0,0,,en privé.
+Dialogue: 0,0:16:49.71,0:16:53.17,Default,,0,0,0,,On sera fixés\Nen inspectant son portable.
+Dialogue: 0,0:16:53.80,0:16:54.63,Default,,0,0,0,,Oui.
+Dialogue: 0,0:16:57.10,0:17:00.97,Default,,0,0,0,,Son téléphone se déverrouille\Navec ses empreintes.
+Dialogue: 0,0:17:01.47,0:17:02.81,Default,,0,0,0,,Je me permets donc
+Dialogue: 0,0:17:05.06,0:17:06.40,Default,,0,0,0,,d'utiliser son doigt.
+Dialogue: 0,0:17:10.11,0:17:12.86,Default,,0,0,0,,Il avait bien reçu un message.
+Dialogue: 0,0:17:13.61,0:17:15.53,Default,,0,0,0,,Concernant son contenu...
+Dialogue: 0,0:17:15.95,0:17:19.70,Default,,0,0,0,,"Tu devais emporter\Nce secret dans la tombe,
+Dialogue: 0,0:17:20.29,0:17:21.49,Default,,0,0,0,,"sale traître."
+Dialogue: 0,0:17:23.37,0:17:26.12,Default,,0,0,0,,Vous savez de quel secret il s'agit ?
+Dialogue: 0,0:17:27.08,0:17:28.04,Default,,0,0,0,,Aucune idée.
+Dialogue: 0,0:17:28.54,0:17:31.96,Default,,0,0,0,,Le mot "traître" m'intrigue aussi.
+Dialogue: 0,0:17:32.34,0:17:35.26,Default,,0,0,0,,Je ne pige pas du tout\Nde quoi il parle !
+Dialogue: 0,0:17:35.43,0:17:37.51,Default,,0,0,0,,Qui est l'expéditeur ?
+Dialogue: 0,0:17:37.80,0:17:42.02,Default,,0,0,0,,On saura qui l'a envoyé\Nen regardant l'adresse.
+Dialogue: 0,0:17:42.18,0:17:43.22,Default,,0,0,0,,Vous trois,
+Dialogue: 0,0:17:43.39,0:17:46.73,Default,,0,0,0,,montrez-nous vos adresses mail.
+Dialogue: 0,0:17:47.44,0:17:51.40,Default,,0,0,0,,On va les comparer\Nà celle de l'expéditeur.
+Dialogue: 0,0:17:54.99,0:17:56.40,Default,,0,0,0,,Non mais oh !
+Dialogue: 0,0:17:56.99,0:17:58.62,Default,,0,0,0,,C'est quoi, ce délire ?
+Dialogue: 0,0:17:59.32,0:18:02.49,Default,,0,0,0,,Aucune des adresses ne correspond !
+Dialogue: 0,0:18:02.95,0:18:04.95,Default,,0,0,0,,Qui l'a donc envoyé ?
+Dialogue: 0,0:18:05.41,0:18:07.75,Default,,0,0,0,,S'il possède plusieurs adresses,
+Dialogue: 0,0:18:07.92,0:18:09.79,Default,,0,0,0,,il a pu rapidement effacer
+Dialogue: 0,0:18:09.96,0:18:11.92,Default,,0,0,0,,celle qui a envoyé le message.
+Dialogue: 0,0:18:12.09,0:18:16.63,Default,,0,0,0,,L'un d'entre eux dissimule\Npeut-être un second portable,
+Dialogue: 0,0:18:17.38,0:18:20.14,Default,,0,0,0,,ou alors il y a peut-être vraiment,
+Dialogue: 0,0:18:20.68,0:18:22.39,Default,,0,0,0,,dans cette église en ruine,
+Dialogue: 0,0:18:22.60,0:18:24.64,Default,,0,0,0,,une autre personne
+Dialogue: 0,0:18:25.23,0:18:26.98,Default,,0,0,0,,qui se cache quelque part.
+Dialogue: 0,0:18:30.06,0:18:32.82,Default,,0,0,0,,On va vraiment devoir les décoder.
+Dialogue: 0,0:18:33.73,0:18:35.40,Default,,0,0,0,,Il y avait des grilles
+Dialogue: 0,0:18:36.15,0:18:38.41,Default,,0,0,0,,dans la lettre,\Ndans la chapelle,
+Dialogue: 0,0:18:38.99,0:18:41.70,Default,,0,0,0,,aux endroits où on a fouillé
+Dialogue: 0,0:18:42.41,0:18:44.79,Default,,0,0,0,,et une dernière près du corps.
+Dialogue: 0,0:18:45.87,0:18:47.87,Default,,0,0,0,,Ça nous fait quatre grilles codées.
+Dialogue: 0,0:18:49.25,0:18:52.46,Default,,0,0,0,,Elles sont certainement\Nliées au suicide
+Dialogue: 0,0:18:52.63,0:18:54.80,Default,,0,0,0,,de Taisei Nichihara, en effet.
+Dialogue: 0,0:18:55.42,0:18:59.51,Default,,0,0,0,,Ce M. Nichihara\Nétait à l'école avec vous ?
+Dialogue: 0,0:19:00.05,0:19:00.80,Default,,0,0,0,,Oui.
+Dialogue: 0,0:19:01.05,0:19:04.18,Default,,0,0,0,,Vous avez dû\Npartager des choses avec lui, non ?
+Dialogue: 0,0:19:04.47,0:19:08.98,Default,,0,0,0,,Comme une grosse bêtise\Nque vous avez gardée secrète ?
+Dialogue: 0,0:19:09.14,0:19:10.56,Default,,0,0,0,,Rien de tout cela !
+Dialogue: 0,0:19:11.81,0:19:13.06,Default,,0,0,0,,Notre passé commun
+Dialogue: 0,0:19:13.82,0:19:16.65,Default,,0,0,0,,se résume au fait qu'il est allé
+Dialogue: 0,0:19:17.19,0:19:20.49,Default,,0,0,0,,à l'université Shinano avec Wada,
+Dialogue: 0,0:19:20.95,0:19:24.70,Default,,0,0,0,,Kawasaki et Fujide.
+Dialogue: 0,0:19:25.04,0:19:27.83,Default,,0,0,0,,C'est un établissement réputé !
+Dialogue: 0,0:19:28.00,0:19:29.87,Default,,0,0,0,,Oui, c'est vrai.
+Dialogue: 0,0:19:34.42,0:19:38.42,Default,,0,0,0,,Tiens, il y a quelque chose\Ndans les fentes du téléphone.
+Dialogue: 0,0:19:39.42,0:19:40.09,Default,,0,0,0,,Ah oui,
+Dialogue: 0,0:19:40.76,0:19:41.89,Default,,0,0,0,,un genre de gelée ?
+Dialogue: 0,0:19:46.89,0:19:47.93,Default,,0,0,0,,{\i1}Cette odeur...{\i0}
+Dialogue: 0,0:19:51.48,0:19:52.60,Default,,0,0,0,,{\i1}C'est du miel !{\i0}
+Dialogue: 0,0:19:53.61,0:19:54.98,Default,,0,0,0,,{\i1}Que fait-il là ?{\i0}
+Dialogue: 0,0:19:55.15,0:19:57.44,Default,,0,0,0,,Dites-moi, vous deux,
+Dialogue: 0,0:19:57.82,0:20:00.70,Default,,0,0,0,,vous m'avez l'air très complices.
+Dialogue: 0,0:20:01.32,0:20:01.91,Default,,0,0,0,,Ah oui !
+Dialogue: 0,0:20:02.24,0:20:03.20,Default,,0,0,0,,C'est sûr !
+Dialogue: 0,0:20:03.66,0:20:07.45,Default,,0,0,0,,Enfin, on a juste sympathisé\Nquand je passais
+Dialogue: 0,0:20:07.62,0:20:09.70,Default,,0,0,0,,de temps à autre\Nau bureau de M. Môri.
+Dialogue: 0,0:20:10.00,0:20:14.33,Default,,0,0,0,,Pourtant, vous formez\Nun duo inséparable.
+Dialogue: 0,0:20:14.96,0:20:18.96,Default,,0,0,0,,Et le petit lunetteux\Nest vraiment un petit malin.
+Dialogue: 0,0:20:21.80,0:20:25.60,Default,,0,0,0,,Il joue simplement au détective\Nen singeant M. Môri.
+Dialogue: 0,0:20:25.93,0:20:28.22,Default,,0,0,0,,Ce n'est qu'un enfant, après tout.
+Dialogue: 0,0:20:30.93,0:20:31.73,Default,,0,0,0,,En tout cas,
+Dialogue: 0,0:20:32.10,0:20:35.15,Default,,0,0,0,,il est promis à un bel avenir.
+Dialogue: 0,0:20:45.37,0:20:46.70,Default,,0,0,0,,Toujours pas ?
+Dialogue: 0,0:20:47.24,0:20:51.29,Default,,0,0,0,,Le tunnel\Nn'est pas encore déblayé ?
+Dialogue: 0,0:20:51.66,0:20:54.62,Default,,0,0,0,,Non,\Nmais ils en font leur priorité.
+Dialogue: 0,0:20:54.96,0:20:55.79,Default,,0,0,0,,Merde !
+Dialogue: 0,0:20:56.17,0:20:58.46,Default,,0,0,0,,J'espère qu'on évitera le pire.
+Dialogue: 0,0:20:58.92,0:21:00.13,Default,,0,0,0,,{\i1}Ce jeune blond,{\i0}
+Dialogue: 0,0:21:02.63,0:21:04.09,Default,,0,0,0,,{\i1}je l'ai rencontré{\i0}
+Dialogue: 0,0:21:05.89,0:21:07.80,Default,,0,0,0,,{\i1}quand j'étais à l'université.{\i0}
+Dialogue: 0,0:21:08.30,0:21:12.31,Default,,0,0,0,,{\i1}J'avais donné rendez-vous\Ndans un café{\i0}
+Dialogue: 0,0:21:12.81,0:21:15.23,Default,,0,0,0,,{\i1}à mon frère Hiromitsu,\Nqui vivait à Tokyo.{\i0}
+Dialogue: 0,0:21:16.56,0:21:17.15,Default,,0,0,0,,{\i1}Oui,{\i0}
+Dialogue: 0,0:21:18.94,0:21:21.11,Default,,0,0,0,,{\i1}c'était l'ami qu'il avait amené.{\i0}
+Dialogue: 0,0:21:21.99,0:21:22.65,Default,,0,0,0,,{\i1}Takaaki,{\i0}
+Dialogue: 0,0:21:23.95,0:21:26.57,Default,,0,0,0,,{\i1}je te présente mon ami Rei Furuya.{\i0}
+Dialogue: 0,0:21:27.62,0:21:30.79,Default,,0,0,0,,{\i1}Il veut entrer dans la police,\Ncomme nous.{\i0}
+Dialogue: 0,0:21:33.37,0:21:34.08,Default,,0,0,0,,{\i1}Rei...{\i0}
+Dialogue: 0,0:21:34.71,0:21:35.46,Default,,0,0,0,,{\i1}Zéro !{\i0}
+Dialogue: 0,0:21:36.29,0:21:37.08,Default,,0,0,0,,{\i1}Si c'était lui{\i0}
+Dialogue: 0,0:21:37.42,0:21:40.25,Default,,0,0,0,,{\i1}qui avait envoyé le téléphone percé{\i0}
+Dialogue: 0,0:21:40.88,0:21:41.92,Default,,0,0,0,,{\i1}de mon frère ?{\i0}
+Dialogue: 0,0:21:46.09,0:21:46.93,Default,,0,0,0,,Allô ?
+Dialogue: 0,0:21:47.30,0:21:49.68,Default,,0,0,0,,{\i1}Ça fait une paie, Yamato.{\i0}
+Dialogue: 0,0:21:49.85,0:21:51.56,Default,,0,0,0,,Chef de division Kuroda ?
+Dialogue: 0,0:21:52.22,0:21:53.14,Default,,0,0,0,,Crétin,
+Dialogue: 0,0:21:53.35,0:21:56.06,Default,,0,0,0,,je ne suis plus à ce poste.
+Dialogue: 0,0:21:56.73,0:21:58.44,Default,,0,0,0,,Passe-moi Morofushi,
+Dialogue: 0,0:21:59.77,0:22:01.07,Default,,0,0,0,,j'ai une question pour lui.
+Dialogue: 0,0:22:02.90,0:22:04.28,Default,,0,0,0,,Kômei ?
+Dialogue: 0,0:22:06.28,0:22:07.16,Default,,0,0,0,,Dépêche,
+Dialogue: 0,0:22:07.61,0:22:08.87,Default,,0,0,0,,passe-le moi !
+Dialogue: 0,0:22:18.25,0:22:21.71,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:24.26,0:22:26.97,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

@@ -1,0 +1,364 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.00,0:00:07.88,Default,,0,0,0,,Ayumi ?
+Dialogue: 0,0:00:16.35,0:00:17.14,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:00:20.93,0:00:24.48,Default,,0,0,0,,Il est bien amoché,\Nune voiture l'a renversé ?
+Dialogue: 0,0:00:24.64,0:00:27.27,Default,,0,0,0,,Non, je n'en ai pas l'impression.
+Dialogue: 0,0:00:28.73,0:00:31.48,Default,,0,0,0,,S'il n'a pas été percuté\Npar une voiture,
+Dialogue: 0,0:00:32.15,0:00:35.32,Default,,0,0,0,,c'est que quelqu'un\Nl'a roué de coups.
+Dialogue: 0,0:00:35.66,0:00:37.74,Default,,0,0,0,,Pourquoi faire une chose pareille ?
+Dialogue: 0,0:00:37.91,0:00:39.12,Default,,0,0,0,,C'est inhumain.
+Dialogue: 0,0:00:39.74,0:00:42.83,Default,,0,0,0,,Voilà nos indices\Npour trouver le coupable,
+Dialogue: 0,0:00:43.29,0:00:44.75,Default,,0,0,0,,des fils et du sang.
+Dialogue: 0,0:00:45.00,0:00:47.58,Default,,0,0,0,,Ils viennent de l'agresseur ?
+Dialogue: 0,0:00:47.79,0:00:49.63,Default,,0,0,0,,Du jaune et du rose,
+Dialogue: 0,0:00:49.84,0:00:51.50,Default,,0,0,0,,ce n'est pas banal.
+Dialogue: 0,0:00:52.09,0:00:54.05,Default,,0,0,0,,On doit trouver le coupable,
+Dialogue: 0,0:00:56.59,0:00:58.89,Default,,0,0,0,,mais il faut d'abord\Nle faire soigner.
+Dialogue: 0,0:00:59.14,0:01:00.51,Default,,0,0,0,,Allons-y, Ayumi.
+Dialogue: 0,0:01:01.77,0:01:04.35,Default,,0,0,0,,{\i1}C'est vraiment une crème\Navec les animaux.{\i0}
+Dialogue: 0,0:01:06.56,0:01:09.65,Default,,0,0,0,,Il est affaibli mais il s'en sortira.
+Dialogue: 0,0:01:10.15,0:01:13.11,Default,,0,0,0,,Il va se rétablir\Nmais cela prendra du temps.
+Dialogue: 0,0:01:14.32,0:01:15.86,Default,,0,0,0,,CLINIQUE VÉTÉRINAIRE DE BEIKA
+Dialogue: 0,0:01:16.03,0:01:19.12,Default,,0,0,0,,Maintenant,\Ncherchons le coupable...
+Dialogue: 0,0:01:21.74,0:01:22.99,Default,,0,0,0,,{\i1}Un crime ?{\i0}
+Dialogue: 0,0:01:23.83,0:01:27.67,Default,,0,0,0,,AUBERGE BOTCHAN
+Dialogue: 0,0:01:28.00,0:01:30.09,Default,,0,0,0,,"L'auberge Botchan" ?
+Dialogue: 0,0:01:30.25,0:01:32.17,Default,,0,0,0,,Encore vous, les mioches ?
+Dialogue: 0,0:01:33.09,0:01:34.92,Default,,0,0,0,,À croire que c'est le destin.
+Dialogue: 0,0:01:35.22,0:01:37.43,Default,,0,0,0,,{\i1}Je pourrais dire la même chose.{\i0}
+Dialogue: 0,0:01:48.23,0:01:50.90,Default,,0,0,0,,Sa chemise est jaune et rose !
+Dialogue: 0,0:01:51.06,0:01:52.57,Default,,0,0,0,,Alors ce serait lui ?
+Dialogue: 0,0:01:53.11,0:01:54.48,Default,,0,0,0,,L'agresseur du chat.
+Dialogue: 0,0:01:56.49,0:01:59.07,Default,,0,0,0,,{\i1}Le chat serait lié à ce crime ?{\i0}
+Dialogue: 0,0:02:00.70,0:02:04.70,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:05.04,0:02:08.04,Default,,0,0,0,,{\i1}Une diction au rythme fluide\Npour un raisonnement parfait !{\i0}
+Dialogue: 0,0:02:08.21,0:02:09.96,Default,,0,0,0,,{\i1}Une auberge sortie d'un roman,{\i0}
+Dialogue: 0,0:02:10.13,0:02:12.21,Default,,0,0,0,,{\i1}les détectives sont sur le coup !{\i0}
+Dialogue: 0,0:02:12.38,0:02:15.55,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:15.71,0:02:17.80,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:42.91,0:02:44.74,ST_HAUT_GAUCHE,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:02:50.08,0:02:51.92,ST_HAUT_DROITE,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:54.29,0:02:56.30,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:03:01.97,0:03:04.10,ST_HAUT_DROITE,,0,0,0,,Générique d'ouverture :\N"Makkana Lip"
+Dialogue: 0,0:03:07.02,0:03:08.77,ST_HAUT_DROITE,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:03:10.77,0:03:12.48,ST_HAUT_DROITE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:03:16.69,0:03:18.57,ST_HAUT_GAUCHE,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:21.36,0:03:23.07,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:29.37,0:03:31.67,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:41.97,0:03:44.80,Default,,0,0,0,,{\i1}Bienvenue à l'auberge Botchan\N(1ère partie){\i0}
+Dialogue: 0,0:03:47.97,0:03:50.60,ST_HAUT,,0,0,0,,La victime est\Nun employé de l'auberge,
+Dialogue: 0,0:03:50.77,0:03:53.02,ST_HAUT,,0,0,0,,Ushio Koga, 36 ans.
+Dialogue: 0,0:03:53.56,0:03:58.02,Default,,0,0,0,,L'arme du crime, sûrement un couteau,\Nest introuvable.
+Dialogue: 0,0:03:58.53,0:04:01.03,Default,,0,0,0,,Il a été jeté dans l'étang Sanshirô.
+Dialogue: 0,0:04:01.28,0:04:03.45,Default,,0,0,0,,D'après l'état du corps,
+Dialogue: 0,0:04:03.61,0:04:06.32,Default,,0,0,0,,il aurait été tué\Ncette nuit vers minuit.
+Dialogue: 0,0:04:08.49,0:04:10.50,Default,,0,0,0,,Encore vous, les enfants ?
+Dialogue: 0,0:04:11.41,0:04:14.75,Default,,0,0,0,,Ne vous mettez pas\Ndans nos pattes.
+Dialogue: 0,0:04:15.25,0:04:16.00,Default,,0,0,0,,Bien entendu !
+Dialogue: 0,0:04:16.17,0:04:17.84,Default,,0,0,0,,Continue, Wataru.
+Dialogue: 0,0:04:18.00,0:04:18.84,Default,,0,0,0,,Tout de suite.
+Dialogue: 0,0:04:19.17,0:04:23.72,Default,,0,0,0,,Le cadavre a été trouvé ce matin\Npar le gérant de l'auberge,
+Dialogue: 0,0:04:23.88,0:04:27.05,ST_HAUT,,0,0,0,,M. Zenichi Akazawa ici présent.
+Dialogue: 0,0:04:27.22,0:04:29.10,Default,,0,0,0,,Qui a pu faire ça à Courge-Verte ?
+Dialogue: 0,0:04:29.68,0:04:32.06,Default,,0,0,0,,Le chat se trouvait peut-être
+Dialogue: 0,0:04:32.27,0:04:34.73,Default,,0,0,0,,par hasard sur le lieu du crime.
+Dialogue: 0,0:04:36.31,0:04:40.11,Default,,0,0,0,,Le meurtrier a voulu\Ns'assurer son silence...
+Dialogue: 0,0:04:40.48,0:04:43.11,Default,,0,0,0,,Et il aurait blessé le pauvre chat ?
+Dialogue: 0,0:04:43.28,0:04:44.36,Default,,0,0,0,,C'est immonde.
+Dialogue: 0,0:04:44.70,0:04:46.99,Default,,0,0,0,,Mais c'est un chat,\Npas un vrai témoin.
+Dialogue: 0,0:04:47.16,0:04:49.62,Default,,0,0,0,,Le meurtrier a pu\Npenser le contraire.
+Dialogue: 0,0:04:49.99,0:04:54.71,Default,,0,0,0,,On doit trouver le coupable\Npour rendre justice à ce chat.
+Dialogue: 0,0:04:55.50,0:04:57.25,Default,,0,0,0,,- Bien d'accord.\N- Ouais !
+Dialogue: 0,0:04:59.63,0:05:03.05,Default,,0,0,0,,Il est peu probable\Nque le criminel vienne de l'extérieur
+Dialogue: 0,0:05:03.21,0:05:05.97,Default,,0,0,0,,si le crime\Na été commis dans l'auberge.
+Dialogue: 0,0:05:06.13,0:05:10.51,Default,,0,0,0,,Il est fort possible\Nqu'il fasse partie du personnel.
+Dialogue: 0,0:05:11.06,0:05:13.52,Default,,0,0,0,,Ce serait un employé de l'auberge.
+Dialogue: 0,0:05:13.73,0:05:14.60,Default,,0,0,0,,Inspecteur Meguri !
+Dialogue: 0,0:05:15.19,0:05:17.27,Default,,0,0,0,,Les employés sont arrivés.
+Dialogue: 0,0:05:17.48,0:05:19.11,Default,,0,0,0,,Bien, ils sont tous là.
+Dialogue: 0,0:05:34.75,0:05:37.33,Default,,0,0,0,,Ce sont nos uniformes, voyez-vous.
+Dialogue: 0,0:05:39.50,0:05:40.54,Default,,0,0,0,,C'est un carnaval ?
+Dialogue: 0,0:05:40.88,0:05:43.67,Default,,0,0,0,,Crévindiou, Courge-Verte a été tué ?
+Dialogue: 0,0:05:43.84,0:05:45.55,Default,,0,0,0,,- Pour sûr ?\N- Vrai de vrai ?
+Dialogue: 0,0:05:46.17,0:05:48.26,ST_HAUT,,0,0,0,,Quel vilain a pu faire ça ?
+Dialogue: 0,0:05:48.47,0:05:51.81,ST_HAUT,,0,0,0,,Les dieux lui pardonneront\Npeut-être, mais pas moi !
+Dialogue: 0,0:05:52.14,0:05:53.18,ST_HAUT,,0,0,0,,Bravo, Botchan,
+Dialogue: 0,0:05:53.43,0:05:57.56,ST_HAUT,,0,0,0,,votre sens de la justice\Nfait la fierté de votre Kiyo.
+Dialogue: 0,0:05:57.94,0:05:59.85,Default,,0,0,0,,{\i1}"Botchan" et "Kiyo" ?{\i0}
+Dialogue: 0,0:06:00.65,0:06:03.36,ST_HAUT,,0,0,0,,T'as fini par passer à l'acte,\NChemise-rouge !
+Dialogue: 0,0:06:03.53,0:06:05.65,ST_HAUT,,0,0,0,,Pour t'accaparer Madone !
+Dialogue: 0,0:06:06.36,0:06:08.28,ST_HAUT,,0,0,0,,Ne dites pas cela, Porc-Épic,
+Dialogue: 0,0:06:08.82,0:06:11.41,ST_HAUT,,0,0,0,,on croirait que je suis responsable.
+Dialogue: 0,0:06:12.12,0:06:16.91,Default,,0,0,0,,Je ne m'abaisserai jamais\Nà assassiner quelqu'un.
+Dialogue: 0,0:06:17.50,0:06:18.96,ST_HAUT,,0,0,0,,Tout à fait,
+Dialogue: 0,0:06:19.12,0:06:21.67,ST_HAUT,,0,0,0,,accuser le patron est une idiotie.
+Dialogue: 0,0:06:21.84,0:06:23.46,Default,,0,0,0,,On t'a pas sonné, le Bouffon !
+Dialogue: 0,0:06:24.00,0:06:27.84,ST_HAUT,,0,0,0,,Du calme, évitons de s'accuser\Nles uns les autres.
+Dialogue: 0,0:06:28.43,0:06:30.59,Default,,0,0,0,,Tu ne te mouilles jamais,\Nle Blaireau.
+Dialogue: 0,0:06:32.80,0:06:36.43,Default,,0,0,0,,L'auberge Botchan\Nmet en scène le roman.
+Dialogue: 0,0:06:37.02,0:06:40.35,Default,,0,0,0,,Tu as tout compris !\NC'est l'attrait de l'établissement.
+Dialogue: 0,0:06:41.65,0:06:43.23,Default,,0,0,0,,Quel roman ?
+Dialogue: 0,0:06:43.40,0:06:45.86,Default,,0,0,0,,Vous ne connaissez pas {\i1}Botchan{\i0} ?
+Dialogue: 0,0:06:46.48,0:06:48.53,Default,,0,0,0,,Ils sont encore en CP, après tout.
+Dialogue: 0,0:06:48.78,0:06:49.65,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:06:50.03,0:06:51.87,Default,,0,0,0,,Explique-leur, Mitsuhiko.
+Dialogue: 0,0:06:53.62,0:06:56.24,Default,,0,0,0,,{\i1}Botchan{\i0} est un roman très célèbre
+Dialogue: 0,0:06:56.41,0:06:59.87,Default,,0,0,0,,écrit par Natsume Sôseki\Npendant l'ère Meiji.
+Dialogue: 0,0:07:00.62,0:07:04.88,Default,,0,0,0,,Le héros Botchan quitte Tokyo\Nen laissant sa servante Kiyo
+Dialogue: 0,0:07:05.34,0:07:08.76,Default,,0,0,0,,pour enseigner\Ndans une école de Shikoku.
+Dialogue: 0,0:07:09.34,0:07:11.43,Default,,0,0,0,,{\i1}Des criquets ou des sauterelles ?{\i0}
+Dialogue: 0,0:07:11.59,0:07:13.51,Default,,0,0,0,,{\i1}C'est du pareil au même !{\i0}
+Dialogue: 0,0:07:14.14,0:07:19.39,Default,,0,0,0,,Ses élèves lui en font voir\Nde toutes les couleurs.
+Dialogue: 0,0:07:20.23,0:07:22.85,Default,,0,0,0,,Le directeur surnommé Blaireau\Nest un incompétent
+Dialogue: 0,0:07:23.19,0:07:27.65,Default,,0,0,0,,et Botchan découvre que Chemise-Rouge\Ntente de séduire Madone,
+Dialogue: 0,0:07:27.94,0:07:30.70,Default,,0,0,0,,fiancée de son collègue\NCourge-Verte.
+Dialogue: 0,0:07:30.95,0:07:32.91,Default,,0,0,0,,Guidé par son sens de la justice,
+Dialogue: 0,0:07:33.32,0:07:37.16,Default,,0,0,0,,Botchan et son collègue Porc-Épic\Nfilent une correction
+Dialogue: 0,0:07:37.74,0:07:40.16,Default,,0,0,0,,à Chemise-Rouge\Net son sbire le Bouffon.
+Dialogue: 0,0:07:40.91,0:07:43.04,Default,,0,0,0,,C'est une histoire poignante !
+Dialogue: 0,0:07:44.21,0:07:45.67,Default,,0,0,0,,Ç'a l'air marrant !
+Dialogue: 0,0:07:45.84,0:07:47.05,Default,,0,0,0,,Mademoiselle,
+Dialogue: 0,0:07:47.75,0:07:50.80,Default,,0,0,0,,vous avez de la chance\Nde servir les clients
+Dialogue: 0,0:07:50.97,0:07:53.55,Default,,0,0,0,,dans de si beaux habits.
+Dialogue: 0,0:07:53.80,0:07:56.05,Default,,0,0,0,,Ce n'est pas ma seule attribution.
+Dialogue: 0,0:07:56.47,0:07:58.35,Default,,0,0,0,,Vous faites quoi d'autre ?
+Dialogue: 0,0:08:06.15,0:08:08.27,Default,,0,0,0,,"La danse de Botchan" ?
+Dialogue: 0,0:08:08.44,0:08:10.28,Default,,0,0,0,,Ils dansent tous ensemble.
+Dialogue: 0,0:08:16.41,0:08:18.91,Default,,0,0,0,,Cherchons plutôt le coupable.
+Dialogue: 0,0:08:19.20,0:08:19.70,Default,,0,0,0,,Oui.
+Dialogue: 0,0:08:20.54,0:08:22.91,Default,,0,0,0,,{\i1}Il se trouve parmi eux.{\i0}
+Dialogue: 0,0:08:25.17,0:08:28.80,Default,,0,0,0,,L'auberge a fermé,\Nils pourraient nous laisser partir.
+Dialogue: 0,0:08:28.96,0:08:32.72,Default,,0,0,0,,Les flics veulent nous interroger.
+Dialogue: 0,0:08:33.05,0:08:36.22,Default,,0,0,0,,Au moins,\Non va pouvoir manger à l'œil.
+Dialogue: 0,0:08:36.59,0:08:39.22,Default,,0,0,0,,Tu n'as donc aucune fierté ?
+Dialogue: 0,0:08:40.02,0:08:40.97,Default,,0,0,0,,Mais il a raison,
+Dialogue: 0,0:08:41.39,0:08:43.52,Default,,0,0,0,,ça fait plaisir\Nde gagner un repas.
+Dialogue: 0,0:08:47.15,0:08:48.11,Default,,0,0,0,,Ils rigolent
+Dialogue: 0,0:08:48.94,0:08:50.98,Default,,0,0,0,,malgré le meurtre de leur collègue.
+Dialogue: 0,0:08:52.32,0:08:53.61,Default,,0,0,0,,Je peux les comprendre.
+Dialogue: 0,0:08:54.78,0:08:57.12,Default,,0,0,0,,Il faut dire\Nque Courge-Verte était...
+Dialogue: 0,0:08:59.70,0:09:01.66,Default,,0,0,0,,Il posait problème ?
+Dialogue: 0,0:09:06.21,0:09:07.92,Default,,0,0,0,,{\i1}Vous osez me suspecter ?{\i0}
+Dialogue: 0,0:09:09.46,0:09:11.55,Default,,0,0,0,,Nous avons un témoignage.
+Dialogue: 0,0:09:11.92,0:09:17.30,Default,,0,0,0,,La victime Ushio Koga et vous\Nconvoitiez la même femme :
+Dialogue: 0,0:09:17.97,0:09:20.89,Default,,0,0,0,,Chiaki Tôyama, actrice de Madone.
+Dialogue: 0,0:09:21.72,0:09:22.77,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:09:23.77,0:09:26.98,Default,,0,0,0,,Vous résidez en outre\Ndans l'auberge,
+Dialogue: 0,0:09:27.15,0:09:32.32,Default,,0,0,0,,vous avez pu attirer ici\Nvotre contrariant rival.
+Dialogue: 0,0:09:32.90,0:09:37.95,Default,,0,0,0,,C'est absurde,\Nc'est lui qui manage mes employés.
+Dialogue: 0,0:09:38.20,0:09:42.12,Default,,0,0,0,,Quel gérant s'en prendrait\Nau pilier de son équipe ?
+Dialogue: 0,0:09:42.66,0:09:44.87,Default,,0,0,0,,Un coup de sang, peut-être ?
+Dialogue: 0,0:09:45.08,0:09:48.83,Default,,0,0,0,,Il a refusé de vous laisser Madone
+Dialogue: 0,0:09:49.00,0:09:51.25,Default,,0,0,0,,et vous avez perdu le contrôle.
+Dialogue: 0,0:09:51.75,0:09:55.01,Default,,0,0,0,,Et pourquoi aurais-je pris\Nun couteau avec moi ?
+Dialogue: 0,0:09:55.38,0:09:56.63,Default,,0,0,0,,Pour l'intimider.
+Dialogue: 0,0:09:56.80,0:10:00.01,Default,,0,0,0,,Chemise-Rouge est capable du pire.
+Dialogue: 0,0:10:00.39,0:10:03.26,Default,,0,0,0,,Ne mélangez pas\Nla réalité et la fiction.
+Dialogue: 0,0:10:03.85,0:10:06.89,Default,,0,0,0,,Si vous voulez m'accuser,\Nprésentez des preuves.
+Dialogue: 0,0:10:10.65,0:10:12.82,Default,,0,0,0,,Est-ce bien vrai ?
+Dialogue: 0,0:10:13.44,0:10:15.99,Default,,0,0,0,,Ils avaient\Ndes sentiments pour moi ?
+Dialogue: 0,0:10:16.15,0:10:18.20,Default,,0,0,0,,Vous l'ignoriez ?
+Dialogue: 0,0:10:19.53,0:10:24.45,Default,,0,0,0,,Je pensais qu'ils jouaient\Nleurs rôles pour les clients.
+Dialogue: 0,0:10:30.46,0:10:35.34,Default,,0,0,0,,Ça doit lui faire un choc d'apprendre\Nqu'ils se déchiraient à cause d'elle.
+Dialogue: 0,0:10:35.67,0:10:40.43,Default,,0,0,0,,Si on trouve qu'en plus\Nc'est bien la cause du meurtre...
+Dialogue: 0,0:10:40.59,0:10:42.01,Default,,0,0,0,,C'est dur pour elle...
+Dialogue: 0,0:10:42.43,0:10:45.89,Default,,0,0,0,,Mais au fait,\Nqu'est-ce qu'elle essayait de dire ?
+Dialogue: 0,0:10:46.10,0:10:48.10,Default,,0,0,0,,Elle parlait de Courge-Verte.
+Dialogue: 0,0:10:48.31,0:10:49.06,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:10:50.94,0:10:54.52,Default,,0,0,0,,La victime était détestée\Npar tout le monde ?
+Dialogue: 0,0:10:54.69,0:10:57.40,Default,,0,0,0,,Il doit y avoir une erreur !
+Dialogue: 0,0:10:57.78,0:11:00.36,Default,,0,0,0,,Courge-Verte est un type bien !
+Dialogue: 0,0:11:00.53,0:11:01.78,Default,,0,0,0,,Dans le roman, oui.
+Dialogue: 0,0:11:02.16,0:11:04.37,Default,,0,0,0,,Mais en vérité,\Nles acteurs sont tous
+Dialogue: 0,0:11:04.62,0:11:07.29,Default,,0,0,0,,très différents\Nde leurs personnages.
+Dialogue: 0,0:11:07.70,0:11:09.04,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:11:09.50,0:11:11.04,Default,,0,0,0,,Chemise-Rouge, par exemple,
+Dialogue: 0,0:11:11.42,0:11:15.25,Default,,0,0,0,,c'est un gérant très apprécié,\Ncontrairement à son rôle.
+Dialogue: 0,0:11:15.88,0:11:19.76,Default,,0,0,0,,L'acteur de Botchan\Nest cynique et peu scrupuleux.
+Dialogue: 0,0:11:20.34,0:11:23.14,Default,,0,0,0,,Porc-Épic est très doux et émotif.
+Dialogue: 0,0:11:23.68,0:11:29.18,Default,,0,0,0,,Et la frêle Madone était lutteuse\Npendant ses années étudiantes.
+Dialogue: 0,0:11:30.23,0:11:33.19,Default,,0,0,0,,Courge-Verte était intransigeant
+Dialogue: 0,0:11:33.36,0:11:37.07,Default,,0,0,0,,et s'emportait souvent\Ncontre l'équipe.
+Dialogue: 0,0:11:38.15,0:11:40.24,Default,,0,0,0,,{\i1}Votre jeu est fade !{\i0}
+Dialogue: 0,0:11:40.90,0:11:44.70,Default,,0,0,0,,{\i1}On vous paie pour ce job,\Nalors jouez vos rôles correctement,{\i0}
+Dialogue: 0,0:11:44.87,0:11:46.12,Default,,0,0,0,,{\i1}bande d'abrutis !{\i0}
+Dialogue: 0,0:11:46.79,0:11:47.91,Default,,0,0,0,,{\i1}C'est compris ?{\i0}
+Dialogue: 0,0:11:49.08,0:11:54.08,Default,,0,0,0,,Du coup, toute l'équipe d'accueil\Nle détestait cordialement.
+Dialogue: 0,0:11:55.13,0:11:56.42,Default,,0,0,0,,On a notre réponse.
+Dialogue: 0,0:11:56.59,0:11:58.63,Default,,0,0,0,,Voilà ce qu'elle voulait dire.
+Dialogue: 0,0:11:59.30,0:12:01.84,Default,,0,0,0,,Je vois, rien à voir avec le roman.
+Dialogue: 0,0:12:03.18,0:12:07.10,Default,,0,0,0,,Dans ce cas,\Nle coupable doit être un des gentils,
+Dialogue: 0,0:12:07.26,0:12:09.14,Default,,0,0,0,,Botchan ou Porc-Épic.
+Dialogue: 0,0:12:09.31,0:12:12.10,Default,,0,0,0,,Laissez tomber le roman, par pitié.
+Dialogue: 0,0:12:13.10,0:12:15.73,Default,,0,0,0,,C'est peut-être une vieille rancune.
+Dialogue: 0,0:12:15.90,0:12:18.86,Default,,0,0,0,,Nous devons interroger\Nl'équipe des acteurs.
+Dialogue: 0,0:12:21.44,0:12:23.70,Default,,0,0,0,,Très bien, rassemblez-les.
+Dialogue: 0,0:12:24.24,0:12:29.62,Default,,0,0,0,,{\i1}Chemise-Rouge n'est donc pas seul\Nà avoir un mobile pour ce meurtre.{\i0}
+Dialogue: 0,0:12:35.50,0:12:36.71,Default,,0,0,0,,AUBERGE BOTCHAN
+Dialogue: 0,0:12:42.09,0:12:44.22,Default,,0,0,0,,Cela va se jouer sur les alibis.
+Dialogue: 0,0:12:44.68,0:12:46.34,Default,,0,0,0,,On a vraiment de la chance,
+Dialogue: 0,0:12:46.51,0:12:50.56,Default,,0,0,0,,c'est bien tombé que tu sois\Nvenue dormir chez moi hier.
+Dialogue: 0,0:12:50.72,0:12:53.85,Default,,0,0,0,,Cela nous fait un alibi\Nà toutes les deux.
+Dialogue: 0,0:12:54.10,0:12:55.81,Default,,0,0,0,,Oui, cet employé...
+Dialogue: 0,0:12:56.27,0:12:59.19,Default,,0,0,0,,C'est au tour de mon équipe\Nd'être suspectée.
+Dialogue: 0,0:12:59.36,0:13:02.24,Default,,0,0,0,,Ils ont un mobile pour ce meurtre,
+Dialogue: 0,0:13:02.74,0:13:04.24,Default,,0,0,0,,tout comme vous.
+Dialogue: 0,0:13:06.16,0:13:09.12,Default,,0,0,0,,Sa déclaration est donc vérifiée ?
+Dialogue: 0,0:13:11.58,0:13:14.25,Default,,0,0,0,,Les seuls qui n'ont pas d'alibi sont
+Dialogue: 0,0:13:14.83,0:13:16.54,Default,,0,0,0,,M. Shima, acteur de Botchan,
+Dialogue: 0,0:13:17.08,0:13:19.13,Default,,0,0,0,,M. Hotta, acteur de Porc-Épic
+Dialogue: 0,0:13:19.75,0:13:21.46,Default,,0,0,0,,et M. Yoshikawa, acteur du Bouffon.
+Dialogue: 0,0:13:22.30,0:13:25.13,Default,,0,0,0,,Il ne reste que vous trois.
+Dialogue: 0,0:13:25.68,0:13:27.84,Default,,0,0,0,,C'est un miracle d'avoir un alibi !
+Dialogue: 0,0:13:28.64,0:13:30.18,Default,,0,0,0,,Il était minuit, bon sang !
+Dialogue: 0,0:13:30.68,0:13:34.14,Default,,0,0,0,,C'est absurde que cela\Nfasse de nous des suspects.
+Dialogue: 0,0:13:34.48,0:13:37.10,Default,,0,0,0,,En effet, laissons cela de côté.
+Dialogue: 0,0:13:37.52,0:13:39.65,Default,,0,0,0,,Nous allons vous interroger.
+Dialogue: 0,0:13:39.94,0:13:42.15,Default,,0,0,0,,On ne peut pas rentrer chez nous ?
+Dialogue: 0,0:13:43.19,0:13:44.53,Default,,0,0,0,,Je compte sur votre coopération.
+Dialogue: 0,0:13:49.07,0:13:50.91,Default,,0,0,0,,Au sujet des trois sans alibi,
+Dialogue: 0,0:13:51.58,0:13:55.29,Default,,0,0,0,,des témoignages clament\Nqu'ils détestaient la victime.
+Dialogue: 0,0:13:55.50,0:13:59.88,Default,,0,0,0,,Allons interroger tout le monde,\Npeut-être que l'un d'eux a parlé
+Dialogue: 0,0:14:00.04,0:14:02.50,Default,,0,0,0,,de son désir\Nde tuer Courge-Verte.
+Dialogue: 0,0:14:02.67,0:14:04.01,Default,,0,0,0,,Ce serait une piste.
+Dialogue: 0,0:14:04.17,0:14:06.17,Default,,0,0,0,,Laissez-moi vous aider !
+Dialogue: 0,0:14:06.72,0:14:08.55,Default,,0,0,0,,Séparons-nous et faisons de même.
+Dialogue: 0,0:14:10.93,0:14:12.56,Default,,0,0,0,,Est-ce que je le haïssais ?
+Dialogue: 0,0:14:13.06,0:14:15.35,Default,,0,0,0,,Nous parlons bien de Courge-Verte ?
+Dialogue: 0,0:14:15.64,0:14:17.60,Default,,0,0,0,,Il vous traitait mal.
+Dialogue: 0,0:14:17.77,0:14:20.31,Default,,0,0,0,,Ma femme m'a quitté, voyez-vous.
+Dialogue: 0,0:14:20.56,0:14:23.32,ST_HAUT,,0,0,0,,En me laissant\Nune énorme dette au passage.
+Dialogue: 0,0:14:23.78,0:14:27.57,Default,,0,0,0,,Je bosse comme un dingue\Npour pouvoir la rembourser.
+Dialogue: 0,0:14:27.74,0:14:28.70,Default,,0,0,0,,C'est pas la question.
+Dialogue: 0,0:14:29.28,0:14:30.99,Default,,0,0,0,,Ce satané Courge-Verte
+Dialogue: 0,0:14:31.62,0:14:36.37,Default,,0,0,0,,insultait mon jeu en permanence,\Nme forçant à jouer le maniéré.
+Dialogue: 0,0:14:40.08,0:14:44.09,Default,,0,0,0,,Ce n'est pas un rôle\Npour un vrai homme, bon sang !
+Dialogue: 0,0:14:45.21,0:14:48.01,Default,,0,0,0,,{\i1}Il est tout l'opposé\Nde son personnage.{\i0}
+Dialogue: 0,0:14:48.34,0:14:50.84,Default,,0,0,0,,Ma mère a clamsé l'an dernier,
+Dialogue: 0,0:14:51.05,0:14:53.30,Default,,0,0,0,,elle m'aura méprisé jusqu'au bout.
+Dialogue: 0,0:14:53.56,0:14:56.85,Default,,0,0,0,,Pour elle, j'étais un raté\Nincapable de garder un job.
+Dialogue: 0,0:14:57.52,0:15:02.81,Default,,0,0,0,,Je me suis accroché à ce boulot\Npour lui montrer qu'elle avait tort.
+Dialogue: 0,0:15:02.98,0:15:06.61,Default,,0,0,0,,Mais ce salaud de Courge-Verte\Nétait insupportable !
+Dialogue: 0,0:15:08.32,0:15:12.07,Default,,0,0,0,,Je n'y peux rien\Nsi je n'ai pas l'âme d'un justicier.
+Dialogue: 0,0:15:14.99,0:15:19.16,Default,,0,0,0,,Ma mère continue de m'encourager\Ndans ses lettres.
+Dialogue: 0,0:15:19.54,0:15:22.63,Default,,0,0,0,,Elle me dit que je dois\Ncroire en mes rêves.
+Dialogue: 0,0:15:23.04,0:15:26.25,Default,,0,0,0,,Alors j'ai insisté\Nauprès de Courge-Verte
+Dialogue: 0,0:15:26.42,0:15:29.76,Default,,0,0,0,,pour qu'il me donne\Nle rôle de Madone.
+Dialogue: 0,0:15:31.93,0:15:32.89,Default,,0,0,0,,Et pourtant...
+Dialogue: 0,0:15:33.85,0:15:37.18,Default,,0,0,0,,Il n'a rien voulu entendre !
+Dialogue: 0,0:15:38.35,0:15:42.23,Default,,0,0,0,,C'est sûr que ces trois-là\Nle détestaient mais bon...
+Dialogue: 0,0:15:42.40,0:15:44.27,Default,,0,0,0,,Ils n'ont pas le cran de tuer.
+Dialogue: 0,0:15:44.44,0:15:45.86,Default,,0,0,0,,Le "cran", vous dites ?
+Dialogue: 0,0:15:46.78,0:15:48.36,Default,,0,0,0,,En tout cas, c'est super bon !
+Dialogue: 0,0:15:49.11,0:15:52.36,Default,,0,0,0,,C'est ma spécialité,\Ndes sauterelles marinées.
+Dialogue: 0,0:15:53.28,0:15:54.62,Default,,0,0,0,,Ce n'est pas du poisson ?
+Dialogue: 0,0:15:55.08,0:15:57.29,Default,,0,0,0,,Non, c'est des criquets.
+Dialogue: 0,0:15:57.74,0:15:58.62,Default,,0,0,0,,Pas possible !
+Dialogue: 0,0:15:59.37,0:16:02.00,Default,,0,0,0,,Contents ou pas,\Non n'a pas vraiment le choix,
+Dialogue: 0,0:16:02.87,0:16:05.50,Default,,0,0,0,,on nous a recruté\Nprécisément pour ces rôles.
+Dialogue: 0,0:16:06.13,0:16:07.96,Default,,0,0,0,,Ah bon, vous aussi ?
+Dialogue: 0,0:16:08.71,0:16:10.55,Default,,0,0,0,,Sur mon physique uniquement.
+Dialogue: 0,0:16:13.68,0:16:17.10,Default,,0,0,0,,Je ne ressemble pas du tout\Nà Kiyo en vérité.
+Dialogue: 0,0:16:23.56,0:16:27.15,Default,,0,0,0,,Je suis déjà très heureuse\Nd'avoir ce travail.
+Dialogue: 0,0:16:27.40,0:16:30.15,Default,,0,0,0,,Madone est un rôle fantastique.
+Dialogue: 0,0:16:30.82,0:16:34.07,Default,,0,0,0,,Ce n'est pas exactement ça.\NJ'avais une petite sœur
+Dialogue: 0,0:16:34.99,0:16:37.16,Default,,0,0,0,,et elle adorait le roman {\i1}Botchan{\i0}.
+Dialogue: 0,0:16:37.33,0:16:41.08,Default,,0,0,0,,Elle voulait travailler\Ndans cette auberge.
+Dialogue: 0,0:16:41.58,0:16:46.58,Default,,0,0,0,,Mais elle est décédée il y a 6 mois\Nd'hémorragie méningée.
+Dialogue: 0,0:16:49.96,0:16:54.38,Default,,0,0,0,,Alors j'ai voulu\Ntravailler ici à sa place.
+Dialogue: 0,0:16:55.09,0:16:58.01,Default,,0,0,0,,Pour réaliser\Nle souhait de votre sœur.
+Dialogue: 0,0:16:59.14,0:17:01.85,Default,,0,0,0,,Mais c'était peut-être une erreur...
+Dialogue: 0,0:17:02.43,0:17:04.64,Default,,0,0,0,,Si ma présence ici
+Dialogue: 0,0:17:04.98,0:17:07.94,Default,,0,0,0,,a pu provoquer un meurtre...
+Dialogue: 0,0:17:16.07,0:17:19.41,Default,,0,0,0,,Plus besoin de jouer\Nun rôle devant un enfant.
+Dialogue: 0,0:17:20.16,0:17:21.62,Default,,0,0,0,,J'étais au courant, bien sûr.
+Dialogue: 0,0:17:22.12,0:17:24.91,Default,,0,0,0,,Je savais que Courge-Verte\Nétait détesté.
+Dialogue: 0,0:17:25.58,0:17:29.34,Default,,0,0,0,,Mais il faut bien quelqu'un\Npour prendre ce rôle
+Dialogue: 0,0:17:29.88,0:17:31.96,Default,,0,0,0,,pour tenir un établissement.
+Dialogue: 0,0:17:32.76,0:17:37.26,Default,,0,0,0,,Je lui ai confié ce travail difficile\Nen connaissance de cause.
+Dialogue: 0,0:17:38.01,0:17:41.47,Default,,0,0,0,,C'était le meilleur associé possible\Npour vous.
+Dialogue: 0,0:17:42.31,0:17:45.48,Default,,0,0,0,,Mais vous aimiez la même femme,\Nn'est-ce pas ?
+Dialogue: 0,0:17:46.48,0:17:49.98,Default,,0,0,0,,Je rêvais depuis tout jeune\Nde créer cette auberge
+Dialogue: 0,0:17:50.36,0:17:53.19,Default,,0,0,0,,et j'ai travaillé dur\Npour réunir l'argent.
+Dialogue: 0,0:17:54.03,0:17:56.20,Default,,0,0,0,,J'avais fait l'impasse sur l'amour
+Dialogue: 0,0:17:56.82,0:18:00.53,Default,,0,0,0,,et je me suis retrouvé à mon âge\Navec un rival amoureux.
+Dialogue: 0,0:18:15.34,0:18:17.93,Default,,0,0,0,,Pas un seul indice déterminant.
+Dialogue: 0,0:18:18.34,0:18:21.51,Default,,0,0,0,,Le coupable est peut-être\Nl'un des trois,
+Dialogue: 0,0:18:21.97,0:18:24.27,Default,,0,0,0,,ou même Chemise-Rouge...
+Dialogue: 0,0:18:25.31,0:18:27.10,Default,,0,0,0,,On le déterminera demain !
+Dialogue: 0,0:18:29.73,0:18:31.69,Default,,0,0,0,,{\i1}Mais le lendemain...{\i0}
+Dialogue: 0,0:18:43.79,0:18:47.29,ST_HAUT,,0,0,0,,"Je l'ai tué sur un coup de sang,\Nje meurs pour expier mon crime."
+Dialogue: 0,0:18:47.75,0:18:50.29,Default,,0,0,0,,Inspecteur,\Nc'était chez Chemise-Rouge !
+Dialogue: 0,0:18:53.13,0:18:56.09,Default,,0,0,0,,C'est certainement l'arme\Nqui a tué Courge-Verte.
+Dialogue: 0,0:18:58.09,0:19:00.76,Default,,0,0,0,,Il aurait tué son rival en amour
+Dialogue: 0,0:19:01.01,0:19:04.47,Default,,0,0,0,,puis se serait suicidé\Ncar il était dans une impasse.
+Dialogue: 0,0:19:04.81,0:19:09.35,Default,,0,0,0,,Je vous avais dit dès le début\Nque c'était un coup de Chemise-Rouge.
+Dialogue: 0,0:19:09.52,0:19:13.69,Default,,0,0,0,,Vous me rappelez\Nqui accusait Botchan et Porc-Épic ?
+Dialogue: 0,0:19:15.19,0:19:17.19,Default,,0,0,0,,C'était vraiment Chemise-Rouge.
+Dialogue: 0,0:19:17.61,0:19:19.32,Default,,0,0,0,,Pauvre Madone...
+Dialogue: 0,0:19:20.49,0:19:21.74,Default,,0,0,0,,C'est ma faute...
+Dialogue: 0,0:19:23.28,0:19:28.75,Default,,0,0,0,,Alors qu'elle voulait simplement\Nréaliser le souhait de sa sœur.
+Dialogue: 0,0:19:29.29,0:19:30.37,Default,,0,0,0,,T'es dubitatif.
+Dialogue: 0,0:19:31.42,0:19:36.46,Default,,0,0,0,,Pourquoi cacher le couteau chez lui\Nsi c'est l'assassin ?
+Dialogue: 0,0:19:36.88,0:19:40.09,Default,,0,0,0,,Il s'en était peut-être débarrassé
+Dialogue: 0,0:19:40.26,0:19:42.72,Default,,0,0,0,,mais il l'a récupéré\Navant de se tuer.
+Dialogue: 0,0:19:43.35,0:19:46.47,Default,,0,0,0,,Et pourquoi n'a-t-il pas\Nécrit sur du papier ?
+Dialogue: 0,0:19:47.27,0:19:48.73,Default,,0,0,0,,L'écriture le trahirait.
+Dialogue: 0,0:19:49.23,0:19:52.27,Default,,0,0,0,,Alors ce ne serait pas un suicide ?
+Dialogue: 0,0:19:53.10,0:19:55.07,Default,,0,0,0,,C'est peut-être une mise en scène.
+Dialogue: 0,0:19:55.82,0:19:58.49,Default,,0,0,0,,Le coupable a pu l'assommer\Net le pendre
+Dialogue: 0,0:19:59.86,0:20:01.57,Default,,0,0,0,,avant d'écrire ce message
+Dialogue: 0,0:20:02.20,0:20:04.37,Default,,0,0,0,,et de placer l'arme du crime.
+Dialogue: 0,0:20:04.62,0:20:08.29,Default,,0,0,0,,Et ainsi faire passer Chemise-Rouge\Npour le meurtrier.
+Dialogue: 0,0:20:08.83,0:20:09.95,Default,,0,0,0,,C'est plausible.
+Dialogue: 0,0:20:10.16,0:20:12.46,Default,,0,0,0,,Si c'est vrai,\Nil doit rester des traces.
+Dialogue: 0,0:20:18.05,0:20:19.30,Default,,0,0,0,,C'est humide.
+Dialogue: 0,0:20:19.92,0:20:22.59,Default,,0,0,0,,Il y a des gouttes\Nsur les feuilles en dessous.
+Dialogue: 0,0:20:24.18,0:20:27.35,Default,,0,0,0,,Ses cheveux et habits sont mouillés,\Npourquoi ?
+Dialogue: 0,0:20:27.68,0:20:29.52,Default,,0,0,0,,Il devait sortir du bain.
+Dialogue: 0,0:20:30.02,0:20:33.02,Default,,0,0,0,,Tu gènes les adultes, du balais !
+Dialogue: 0,0:20:33.44,0:20:38.02,Default,,0,0,0,,Si le raisonnement de Conan est bon,\Nle coupable est l'un des trois.
+Dialogue: 0,0:20:38.48,0:20:40.07,Default,,0,0,0,,Peut-être Porc-Épic,
+Dialogue: 0,0:20:40.28,0:20:43.45,Default,,0,0,0,,il a pu porter Chemise-Rouge\Ncar il est costaud.
+Dialogue: 0,0:20:43.61,0:20:46.41,Default,,0,0,0,,Ce n'est pas certain\Nque ce soit une mise en scène.
+Dialogue: 0,0:20:46.91,0:20:49.33,Default,,0,0,0,,Si le chat pouvait parler,
+Dialogue: 0,0:20:49.49,0:20:52.00,Default,,0,0,0,,il pourrait\Nnous révéler le coupable.
+Dialogue: 0,0:20:52.50,0:20:54.75,Default,,0,0,0,,J'espère qu'il va bien.
+Dialogue: 0,0:20:56.13,0:20:59.05,Default,,0,0,0,,Sa vie n'est pas en danger\Nmais quand même...
+Dialogue: 0,0:20:59.30,0:21:02.80,Default,,0,0,0,,Le pauvre avait deux pattes cassées.
+Dialogue: 0,0:21:03.43,0:21:05.68,Default,,0,0,0,,- C'est impossible alors.\N- Quoi donc ?
+Dialogue: 0,0:21:08.56,0:21:10.27,Default,,0,0,0,,Quelle mouche t'a piqué ?
+Dialogue: 0,0:21:11.02,0:21:13.31,Default,,0,0,0,,On a trouvé le chat ici, pas vrai ?
+Dialogue: 0,0:21:13.48,0:21:14.89,Default,,0,0,0,,Il miaulait là-dessous.
+Dialogue: 0,0:21:15.40,0:21:17.86,Default,,0,0,0,,On est loin de l'auberge Botchan,
+Dialogue: 0,0:21:18.31,0:21:22.28,Default,,0,0,0,,beaucoup trop pour un chat\Navec deux pattes cassées.
+Dialogue: 0,0:21:22.53,0:21:24.07,Default,,0,0,0,,Tu veux dire que...
+Dialogue: 0,0:21:24.57,0:21:27.28,Default,,0,0,0,,Oui, le chat a été roué de coups ici
+Dialogue: 0,0:21:27.49,0:21:29.58,Default,,0,0,0,,et non à l'auberge !
+Dialogue: 0,0:21:29.83,0:21:31.83,Default,,0,0,0,,Et qu'est-ce que ça change ?
+Dialogue: 0,0:21:36.00,0:21:36.92,Default,,0,0,0,,Conan !
+Dialogue: 0,0:21:38.04,0:21:39.84,Default,,0,0,0,,Des traces de sang et un bâton !
+Dialogue: 0,0:21:40.30,0:21:42.09,Default,,0,0,0,,Il y a des poils dessus !
+Dialogue: 0,0:21:42.96,0:21:46.34,Default,,0,0,0,,Le véritable lieu du crime\Nétait ce parc !
+Dialogue: 0,0:21:54.18,0:21:55.73,Default,,0,0,0,,{\i1}C'est maintenant clair,{\i0}
+Dialogue: 0,0:21:56.10,0:21:59.23,Default,,0,0,0,,{\i1}ce n'est pas Chemise-Rouge\Nqui a tué Courge-Verte !{\i0}
+Dialogue: 0,0:22:00.23,0:22:04.78,Default,,0,0,0,,{\i1}Et le véritable coupable\Na mis en scène son suicide !{\i0}
+Dialogue: 0,0:22:25.34,0:22:27.97,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:28.39,0:22:31.35,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

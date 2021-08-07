@@ -1,0 +1,378 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.32,0:00:04.85,Default,,0,0,0,,Là, vous allez\Ndans la direction opposée.
+Dialogue: 0,0:00:05.16,0:00:07.64,Default,,0,0,0,,La poisse !\NQu'est-ce qu'on va faire ?
+Dialogue: 0,0:00:07.93,0:00:10.61,Default,,0,0,0,,Et on ne pourra pas\Nrentrer avant la nuit.
+Dialogue: 0,0:00:10.77,0:00:13.72,Default,,0,0,0,,Il y a un endroit\Noù passer la nuit près d'ici ?
+Dialogue: 0,0:00:14.61,0:00:16.72,ST_HAUT,,0,0,0,,Oui, une auberge\Nen bas de la montagne.
+Dialogue: 0,0:00:17.43,0:00:19.05,Default,,0,0,0,,On n'a qu'à dormir là-bas !
+Dialogue: 0,0:00:19.47,0:00:21.40,Default,,0,0,0,,Merci infiniment !
+Dialogue: 0,0:00:21.57,0:00:22.69,Default,,0,0,0,,Mais non...
+Dialogue: 0,0:00:26.23,0:00:28.36,Default,,0,0,0,,Euh... C'était quoi, ce bruit ?
+Dialogue: 0,0:00:29.20,0:00:31.12,Default,,0,0,0,,Le grognement d'un {\i1}tengu{\i0}.
+Dialogue: 0,0:00:33.68,0:00:35.36,Default,,0,0,0,,{\i1}Un raisonnement vif recolorera{\i0}
+Dialogue: 0,0:00:35.53,0:00:37.43,Default,,0,0,0,,{\i1}une toile noircie par le crime !{\i0}
+Dialogue: 0,0:00:38.05,0:00:39.80,Default,,0,0,0,,{\i1}Ce grognement qu'on a entendu{\i0}
+Dialogue: 0,0:00:40.11,0:00:42.36,Default,,0,0,0,,{\i1}marquera le début{\i0}\N{\i1}de l'affaire du{\i0} tengu {\i1}!{\i0}
+Dialogue: 0,0:00:42.52,0:00:46.09,Default,,0,0,0,,{\i1}Un cerveau d'adulte\Ndans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:46.24,0:00:48.64,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:00:50.09,0:00:53.95,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:00:55.29,0:00:58.96,Default,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:01:10.40,0:01:12.93,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:15.12,0:01:17.61,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:21.11,0:01:23.64,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:29.76,0:01:32.16,Default,,0,0,0,,Générique d'ouverture :\N"Sekai wa anata no iro ni naru"
+Dialogue: 0,0:01:35.08,0:01:37.09,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:01:44.56,0:01:46.81,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:02:04.43,0:02:06.85,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:08.95,0:02:11.08,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:14.36,0:02:16.56,Default,,0,0,0,,{\i1}"Les grognements du{\i0} tengu{\i1}" !{\i0}
+Dialogue: 0,0:02:23.28,0:02:24.77,Default,,0,0,0,,C'est magnifique !
+Dialogue: 0,0:02:27.43,0:02:29.24,Default,,0,0,0,,D'où provenait ton argent ?
+Dialogue: 0,0:02:29.72,0:02:31.24,Default,,0,0,0,,De quoi tu parles ?
+Dialogue: 0,0:02:31.56,0:02:34.84,ST_HAUT,,0,0,0,,De ta caisse noire\Nnon-mentionnée dans ton bilan !
+Dialogue: 0,0:02:35.00,0:02:36.64,Default,,0,0,0,,Quelle imagination !
+Dialogue: 0,0:02:36.80,0:02:38.53,Default,,0,0,0,,Arrête avec tes délires
+Dialogue: 0,0:02:38.68,0:02:41.40,Default,,0,0,0,,ou je porte plainte\Npour diffamation, Imazu !
+Dialogue: 0,0:02:43.40,0:02:44.96,Default,,0,0,0,,Essaie un peu pour voir !
+Dialogue: 0,0:02:51.23,0:02:52.92,Default,,0,0,0,,Pauvre looser...
+Dialogue: 0,0:02:55.60,0:02:58.37,Default,,0,0,0,,Ce bain m'a fait un bien fou !
+Dialogue: 0,0:02:58.64,0:02:59.52,Default,,0,0,0,,Tu l'as dit !
+Dialogue: 0,0:02:59.68,0:03:01.36,Default,,0,0,0,,Je meurs de faim !
+Dialogue: 0,0:03:01.52,0:03:04.04,Default,,0,0,0,,Notre sauveur !\NEncore merci pour l'info !
+Dialogue: 0,0:03:04.32,0:03:05.95,Default,,0,0,0,,Mais non, ce n'était rien.
+Dialogue: 0,0:03:07.40,0:03:09.92,Default,,0,0,0,,Monsieur Shimomura, par ici !
+Dialogue: 0,0:03:16.08,0:03:19.40,Default,,0,0,0,,FÊTE POUR LA PUBLICATION\NDU LIVRE DE M. SHIMOMURA
+Dialogue: 0,0:03:20.95,0:03:22.60,Default,,0,0,0,,C'est donc un écrivain ?
+Dialogue: 0,0:03:22.76,0:03:25.08,Default,,0,0,0,,Monsieur Shimomura !\NUn petit discours !
+Dialogue: 0,0:03:28.84,0:03:30.76,Default,,0,0,0,,9 h 50 ?
+Dialogue: 0,0:03:30.92,0:03:33.60,Default,,0,0,0,,Il reste une heure\Navant l'arrivée du bus...
+Dialogue: 0,0:03:33.76,0:03:38.36,Default,,0,0,0,,Conan ! Papa ! Il y a une grotte\Nprès d'ici ! On va y jeter un œil ?
+Dialogue: 0,0:03:38.64,0:03:40.76,Default,,0,0,0,,Bonne idée, ça tuera le temps !
+Dialogue: 0,0:03:40.92,0:03:43.28,Default,,0,0,0,,BIENVENUE À LA GROTTE DU TENGU
+Dialogue: 0,0:03:43.76,0:03:46.76,Default,,0,0,0,,Une chance d'avoir pu\Nlaisser nos bagages à l'auberge.
+Dialogue: 0,0:03:47.43,0:03:49.04,Default,,0,0,0,,Ça doit être là, non ?
+Dialogue: 0,0:03:49.68,0:03:51.84,Default,,0,0,0,,Voyons un peu ce qui est écrit...
+Dialogue: 0,0:03:55.40,0:03:56.04,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:03:57.28,0:03:58.95,Default,,0,0,0,,Euh... Désolé !
+Dialogue: 0,0:03:59.11,0:04:00.11,Default,,0,0,0,,Y a pas de mal...
+Dialogue: 0,0:04:01.92,0:04:04.36,Default,,0,0,0,,Qu'est-ce qu'il fichait là ?
+Dialogue: 0,0:04:04.80,0:04:06.60,Default,,0,0,0,,La porte est fermée !
+Dialogue: 0,0:04:09.80,0:04:11.23,Default,,0,0,0,,Excusez-moi !
+Dialogue: 0,0:04:11.72,0:04:12.95,Default,,0,0,0,,Je vous ouvre !
+Dialogue: 0,0:04:15.11,0:04:17.64,ST_HAUT,,0,0,0,,Les visites débutent à 10 heures...
+Dialogue: 0,0:04:20.28,0:04:22.16,Default,,0,0,0,,Je vous en prie, entrez !
+Dialogue: 0,0:04:32.76,0:04:33.72,Default,,0,0,0,,Parfait...
+Dialogue: 0,0:04:34.43,0:04:35.43,Default,,0,0,0,,C'est bon...
+Dialogue: 0,0:04:35.80,0:04:36.80,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:04:37.20,0:04:38.32,Default,,0,0,0,,Un problème ?
+Dialogue: 0,0:04:38.47,0:04:40.00,Default,,0,0,0,,Le masque a disparu !
+Dialogue: 0,0:04:42.64,0:04:44.23,Default,,0,0,0,,C'est l'intérieur de la grotte ?
+Dialogue: 0,0:04:44.84,0:04:45.72,Default,,0,0,0,,Oui.
+Dialogue: 0,0:04:45.87,0:04:49.00,Default,,0,0,0,,C'est pour que ceux\Nqui ne passent pas puissent voir.
+Dialogue: 0,0:04:49.47,0:04:51.16,Default,,0,0,0,,Regarde ça, Conan !
+Dialogue: 0,0:04:51.84,0:04:54.11,Default,,0,0,0,,Il y a une chapelle\Nsur la corniche !
+Dialogue: 0,0:04:54.92,0:04:58.11,Default,,0,0,0,,- C'est la chapelle du {\i1}tengu{\i0}...\N- Tiens ? Quoi ?
+Dialogue: 0,0:04:58.92,0:04:59.52,Default,,0,0,0,,Là !
+Dialogue: 0,0:05:02.60,0:05:04.52,Default,,0,0,0,,- Un pendu !\N- Quoi ?
+Dialogue: 0,0:05:07.28,0:05:08.20,Default,,0,0,0,,C'est terrible !
+Dialogue: 0,0:05:09.47,0:05:10.47,Default,,0,0,0,,Il est tombé !
+Dialogue: 0,0:05:10.84,0:05:11.56,Default,,0,0,0,,Vite !
+Dialogue: 0,0:05:15.16,0:05:17.08,Default,,0,0,0,,Attention à vos têtes !
+Dialogue: 0,0:05:18.23,0:05:19.72,Default,,0,0,0,,Ça va, papa ?
+Dialogue: 0,0:05:19.87,0:05:21.64,Default,,0,0,0,,Oui... Mais j'ai mal...
+Dialogue: 0,0:05:21.87,0:05:23.87,Default,,0,0,0,,C'est vrai que c'est étroit...
+Dialogue: 0,0:05:25.43,0:05:27.36,Default,,0,0,0,,Ouf... Enfin la sortie !
+Dialogue: 0,0:05:28.95,0:05:29.95,Default,,0,0,0,,C'est là-bas ?
+Dialogue: 0,0:05:47.11,0:05:48.28,Default,,0,0,0,,C'est le maire !
+Dialogue: 0,0:05:48.87,0:05:51.20,Default,,0,0,0,,Je ne sens pas son pouls.\NIl est mort.
+Dialogue: 0,0:05:51.40,0:05:53.23,Default,,0,0,0,,Ran ! Appelle la police !
+Dialogue: 0,0:05:55.04,0:05:58.36,Default,,0,0,0,,Vous ne capterez pas ici.\NIl faut retourner à l'auberge.
+Dialogue: 0,0:05:58.52,0:05:59.76,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:06:09.84,0:06:12.32,Default,,0,0,0,,Voilà ce qui a dû se passer...
+Dialogue: 0,0:06:12.52,0:06:15.40,Default,,0,0,0,,Le maire s'est pendu\Nà une poutre de la chapelle,
+Dialogue: 0,0:06:15.56,0:06:18.95,Default,,0,0,0,,mais celle-ci a cédé\Nsous le poids de la victime.
+Dialogue: 0,0:06:19.16,0:06:22.80,Default,,0,0,0,,Au passage, il fallait le vouloir\Npour monter si haut...
+Dialogue: 0,0:06:23.72,0:06:25.00,Default,,0,0,0,,C'est quoi, ça ?
+Dialogue: 0,0:06:25.95,0:06:27.20,Default,,0,0,0,,Un échafaudage !
+Dialogue: 0,0:06:29.47,0:06:32.60,Default,,0,0,0,,Il permettait d'aller\Njusque sous la chapelle.
+Dialogue: 0,0:06:33.11,0:06:35.60,Default,,0,0,0,,Mais là, il est démonté.
+Dialogue: 0,0:06:36.20,0:06:39.00,Default,,0,0,0,,Il était encore là\Nhier matin, pourtant.
+Dialogue: 0,0:06:39.32,0:06:41.11,Default,,0,0,0,,Qui a bien pu le désassembler ?
+Dialogue: 0,0:06:42.23,0:06:45.00,Default,,0,0,0,,Je me demande\Nsi on peut monter sans...
+Dialogue: 0,0:06:54.36,0:06:56.76,Default,,0,0,0,,Pas moyen !\NImpossible de grimper !
+Dialogue: 0,0:06:57.84,0:06:59.60,Default,,0,0,0,,Il faut avoir le coup.
+Dialogue: 0,0:07:01.40,0:07:02.72,Default,,0,0,0,,Monsieur Shimomura !
+Dialogue: 0,0:07:05.08,0:07:07.00,Default,,0,0,0,,Comme on se retrouve...
+Dialogue: 0,0:07:07.36,0:07:10.64,Default,,0,0,0,,Seulement, doué ou pas,\Ncette corniche est inaccessible.
+Dialogue: 0,0:07:11.56,0:07:13.28,Default,,0,0,0,,Mais...
+Dialogue: 0,0:07:13.43,0:07:16.20,Default,,0,0,0,,C'est le maire... Il est décédé.
+Dialogue: 0,0:07:18.87,0:07:20.76,Default,,0,0,0,,Je me souviens qu'autrefois,
+Dialogue: 0,0:07:20.92,0:07:24.32,Default,,0,0,0,,tu grimpais souvent là-haut\Navec tes camarades, Hirai.
+Dialogue: 0,0:07:24.47,0:07:27.95,Default,,0,0,0,,Oui. Et vous nous avez\Nmaintes fois grondés à cause de ça.
+Dialogue: 0,0:07:28.11,0:07:30.84,Default,,0,0,0,,Dites,\Nvous faites quoi dans la vie ?
+Dialogue: 0,0:07:31.00,0:07:34.23,Default,,0,0,0,,C'était le directeur\Nde mon ancienne école.
+Dialogue: 0,0:07:34.87,0:07:37.60,Default,,0,0,0,,Il a pris sa retraite il y a 2 ans.
+Dialogue: 0,0:07:37.76,0:07:40.84,Default,,0,0,0,,Depuis, il voue sa vie\Nà l'étude des {\i1}tengu{\i0}.
+Dialogue: 0,0:07:41.20,0:07:43.68,Default,,0,0,0,,C'est ça, le thème de votre livre ?
+Dialogue: 0,0:07:44.28,0:07:47.40,Default,,0,0,0,,Oui, mes anciens élèves\Nse sont cotisés pour l'éditer.
+Dialogue: 0,0:07:47.56,0:07:49.95,Default,,0,0,0,,Ils ont même organisé une fête,\Nhier soir.
+Dialogue: 0,0:07:50.11,0:07:51.68,Default,,0,0,0,,J'ai beaucoup de chance.
+Dialogue: 0,0:07:53.95,0:07:57.20,Default,,0,0,0,,Le maire et M. Imazu\Nsont aussi d'anciens élèves ?
+Dialogue: 0,0:07:57.68,0:08:00.87,Default,,0,0,0,,Oui, mais ils n'ont pas étudié\Nà la même époque.
+Dialogue: 0,0:08:02.87,0:08:03.84,Default,,0,0,0,,{\i1}Encore ?{\i0}
+Dialogue: 0,0:08:04.47,0:08:07.72,Default,,0,0,0,,C'est quoi, en fait,\Nce gémissement de {\i1}tengu{\i0} ?
+Dialogue: 0,0:08:07.87,0:08:10.40,Default,,0,0,0,,Ah, ça... Je me le demande...
+Dialogue: 0,0:08:13.32,0:08:14.87,Default,,0,0,0,,Mayama ?
+Dialogue: 0,0:08:18.64,0:08:19.60,Default,,0,0,0,,Qui est-ce ?
+Dialogue: 0,0:08:20.28,0:08:21.64,Default,,0,0,0,,M. Imazu.
+Dialogue: 0,0:08:21.95,0:08:25.04,Default,,0,0,0,,Il était maire\Njusqu'à sa défaite contre M. Mayama
+Dialogue: 0,0:08:25.20,0:08:26.76,Default,,0,0,0,,aux dernières élections.
+Dialogue: 0,0:08:27.20,0:08:28.95,Default,,0,0,0,,Monsieur Imazu...
+Dialogue: 0,0:08:29.20,0:08:31.64,Default,,0,0,0,,Je peux vous poser\Nquelques questions ?
+Dialogue: 0,0:08:31.80,0:08:33.00,Default,,0,0,0,,Qui êtes-vous ?
+Dialogue: 0,0:08:33.87,0:08:35.28,Default,,0,0,0,,Kogorô Môri.
+Dialogue: 0,0:08:35.72,0:08:36.72,Default,,0,0,0,,Détective.
+Dialogue: 0,0:08:38.16,0:08:40.95,Default,,0,0,0,,Depuis quand\Nétiez-vous devant la grotte ?
+Dialogue: 0,0:08:42.28,0:08:43.68,Default,,0,0,0,,8 h 30, je pense...
+Dialogue: 0,0:08:44.36,0:08:46.92,Default,,0,0,0,,Avez-vous vu M. Mayama entrer ?
+Dialogue: 0,0:08:47.08,0:08:47.56,Default,,0,0,0,,Oui.
+Dialogue: 0,0:08:48.11,0:08:50.00,Default,,0,0,0,,Il est arrivé vers 9 heures.
+Dialogue: 0,0:08:50.32,0:08:51.08,Default,,0,0,0,,Seul ?
+Dialogue: 0,0:08:51.43,0:08:52.43,Default,,0,0,0,,Oui.
+Dialogue: 0,0:08:52.68,0:08:57.28,Default,,0,0,0,,Il faut aussi que j'explique\Npourquoi j'étais devant la grotte ?
+Dialogue: 0,0:08:57.43,0:08:58.32,Default,,0,0,0,,S'il vous plaît...
+Dialogue: 0,0:08:59.68,0:09:01.40,Default,,0,0,0,,Ça remonte à la nuit dernière.
+Dialogue: 0,0:09:03.68,0:09:04.76,Default,,0,0,0,,{\i1}C'est du chantage ?{\i0}
+Dialogue: 0,0:09:05.60,0:09:06.76,Default,,0,0,0,,{\i1}Combien vous voulez ?{\i0}
+Dialogue: 0,0:09:07.64,0:09:09.72,Default,,0,0,0,,{\i1}D'accord.\NEt pour le rendez-vous ?{\i0}
+Dialogue: 0,0:09:10.08,0:09:13.56,Default,,0,0,0,,{\i1}Dans la grotte du{\i0} tengu\N{\i1}demain à 9 h ? J'y serai.{\i0}
+Dialogue: 0,0:09:14.23,0:09:15.80,Default,,0,0,0,,De ce que j'imagine,
+Dialogue: 0,0:09:15.95,0:09:19.60,Default,,0,0,0,,on devait le faire chanter\Nau sujet de sa caisse noire.
+Dialogue: 0,0:09:20.52,0:09:23.56,Default,,0,0,0,,J'ai donc décidé\Nde l'épier devant la grotte.
+Dialogue: 0,0:09:33.16,0:09:35.60,Default,,0,0,0,,Mais il a tardé à sortir...
+Dialogue: 0,0:09:36.56,0:09:40.84,Default,,0,0,0,,Je me demandais quoi faire\Nquand je suis tombé sur vous.
+Dialogue: 0,0:09:41.04,0:09:44.16,Default,,0,0,0,,Quelqu'un d'autre\Nest entré entre-temps ?
+Dialogue: 0,0:09:44.40,0:09:45.32,Default,,0,0,0,,Personne.
+Dialogue: 0,0:09:45.47,0:09:47.52,Default,,0,0,0,,- Dites, monsieur Imazu.\N- Quoi ?
+Dialogue: 0,0:09:48.08,0:09:50.60,Default,,0,0,0,,Vous travaillez\Ndans la construction.
+Dialogue: 0,0:09:50.76,0:09:53.40,Default,,0,0,0,,C'est vous\Nqui avez démonté l'échafaudage ?
+Dialogue: 0,0:09:54.56,0:09:55.56,Default,,0,0,0,,Exact.
+Dialogue: 0,0:09:55.72,0:09:57.68,Default,,0,0,0,,Et vous l'avez fait quand ?
+Dialogue: 0,0:09:57.84,0:10:01.92,Default,,0,0,0,,Hier midi. C'est Mayama\Nqui me l'a ordonné par téléphone.
+Dialogue: 0,0:10:02.47,0:10:04.08,Default,,0,0,0,,Bizarre...
+Dialogue: 0,0:10:04.28,0:10:06.28,Default,,0,0,0,,C'était pourtant plus simple
+Dialogue: 0,0:10:06.43,0:10:08.64,Default,,0,0,0,,de se pendre\Nen gardant l'échafaudage.
+Dialogue: 0,0:10:08.80,0:10:10.72,Default,,0,0,0,,Pourquoi l'enlever la veille ?
+Dialogue: 0,0:10:11.36,0:10:15.40,Default,,0,0,0,,Ça ne devait pas être prémédité.\NIl a dû se tuer sur un coup de tête.
+Dialogue: 0,0:10:15.56,0:10:17.92,Default,,0,0,0,,Non, non, c'était bien prémédité.
+Dialogue: 0,0:10:18.64,0:10:21.76,Default,,0,0,0,,Vu qu'il avait préparé\Nla corde pour se pendre.
+Dialogue: 0,0:10:22.32,0:10:24.23,Default,,0,0,0,,Laissez-moi vous expliquer.
+Dialogue: 0,0:10:24.84,0:10:28.36,Default,,0,0,0,,À 9 heures,\NM. Mayama est entré dans la grotte,
+Dialogue: 0,0:10:28.52,0:10:31.20,Default,,0,0,0,,seul, sans savoir\Nque M. Imazu l'épiait.
+Dialogue: 0,0:10:32.04,0:10:33.87,Default,,0,0,0,,Il a fermé de l'intérieur
+Dialogue: 0,0:10:34.32,0:10:36.95,Default,,0,0,0,,et a volé le masque\Naccroché dans le bureau.
+Dialogue: 0,0:10:37.36,0:10:39.36,Default,,0,0,0,,Il a ensuite escaladé la corniche,
+Dialogue: 0,0:10:39.56,0:10:43.84,Default,,0,0,0,,accroché sa corde à une poutre\Nde la chapelle et s'est pendu.
+Dialogue: 0,0:10:45.20,0:10:47.68,Default,,0,0,0,,Euh... Et le maître-chanteur ?
+Dialogue: 0,0:10:47.92,0:10:49.84,Default,,0,0,0,,Il n'est pas venu ?
+Dialogue: 0,0:10:50.11,0:10:51.32,Default,,0,0,0,,Je pense que si,
+Dialogue: 0,0:10:51.47,0:10:55.43,Default,,0,0,0,,mais il a dû rebrousser chemin\Nen remarquant la présence de M. Imazu.
+Dialogue: 0,0:10:55.60,0:10:56.64,Default,,0,0,0,,Ça se tient...
+Dialogue: 0,0:10:57.92,0:11:00.08,Default,,0,0,0,,Ne reste plus\Nqu'à découvrir pourquoi.
+Dialogue: 0,0:11:00.32,0:11:02.36,Default,,0,0,0,,Quelqu'un a une idée ?
+Dialogue: 0,0:11:11.20,0:11:12.00,Default,,0,0,0,,{\i1}Tiens ?{\i0}
+Dialogue: 0,0:11:15.72,0:11:16.84,Default,,0,0,0,,{\i1}Quoi d'autre ?{\i0}
+Dialogue: 0,0:11:21.28,0:11:23.84,Default,,0,0,0,,{\i1}Des taches cadavériques ?\NC'est bizarre !{\i0}
+Dialogue: 0,0:11:24.16,0:11:26.64,Default,,0,0,0,,{\i1}Quand on se pend,\Nelles se trouvent aux pieds.{\i0}
+Dialogue: 0,0:11:27.04,0:11:28.04,Default,,0,0,0,,{\i1}Mais alors...{\i0}
+Dialogue: 0,0:11:31.11,0:11:33.47,Default,,0,0,0,,{\i1}Il ne s'agit pas d'un suicide !{\i0}
+Dialogue: 0,0:11:39.04,0:11:42.28,Default,,0,0,0,,{\i1}Mais quand l'assassin\Nest-il entré et sorti ?{\i0}
+Dialogue: 0,0:11:43.20,0:11:46.36,Default,,0,0,0,,{\i1}Rien ne garantit\Nle témoignage de M. Imazu...{\i0}
+Dialogue: 0,0:11:46.60,0:11:48.80,Default,,0,0,0,,{\i1}Et il peut avoir raté quelqu'un.{\i0}
+Dialogue: 0,0:11:49.40,0:11:53.52,Default,,0,0,0,,{\i1}Seulement, la porte était bel et bien\Nfermée quand on est arrivés.{\i0}
+Dialogue: 0,0:11:59.43,0:12:00.80,Default,,0,0,0,,{\i1}Je vais tenter de grimper.{\i0}
+Dialogue: 0,0:12:03.11,0:12:04.11,Default,,0,0,0,,Allez !
+Dialogue: 0,0:12:08.11,0:12:10.08,Default,,0,0,0,,Stop, Conan ! C'est dangereux !
+Dialogue: 0,0:12:10.28,0:12:11.72,Default,,0,0,0,,T'inquiète ! Ça ira !
+Dialogue: 0,0:12:29.40,0:12:30.20,Default,,0,0,0,,5 minutes...
+Dialogue: 0,0:12:35.68,0:12:38.16,Default,,0,0,0,,C'est ici qu'on a rencontré\NM. Shimomura, hier.
+Dialogue: 0,0:12:41.64,0:12:43.36,Default,,0,0,0,,{\i1}D'où ce grognement de{\i0} tengu{\i1}...{\i0}
+Dialogue: 0,0:12:44.40,0:12:47.11,Default,,0,0,0,,Il devait se croire coincé\Npar ces menaces.
+Dialogue: 0,0:12:47.68,0:12:49.32,Default,,0,0,0,,Il a toujours été comme ça !
+Dialogue: 0,0:12:49.47,0:12:52.11,Default,,0,0,0,,Il se défilait\Ndès que ça tournait mal !
+Dialogue: 0,0:12:52.47,0:12:53.47,Default,,0,0,0,,C'est vrai...
+Dialogue: 0,0:12:53.72,0:12:55.20,Default,,0,0,0,,Non, vous vous trompez.
+Dialogue: 0,0:12:55.76,0:12:58.36,Default,,0,0,0,,Il a sûrement été pris de remords.
+Dialogue: 0,0:12:59.04,0:13:03.36,Default,,0,0,0,,Le {\i1}kurama tengu{\i0}\Nsymbolise le pourfendeur du Mal,
+Dialogue: 0,0:13:03.56,0:13:07.11,Default,,0,0,0,,n'aurait-il pas mis ce masque\Npour laisser ce message ?
+Dialogue: 0,0:13:08.11,0:13:09.80,Default,,0,0,0,,{\i1}Le balancement a été salvateur.{\i0}
+Dialogue: 0,0:13:09.95,0:13:13.95,Default,,0,0,0,,{\i1}Le corps aurait été bien abîmé\Ns'il était tombé sur l'échafaudage.{\i0}
+Dialogue: 0,0:13:17.32,0:13:19.16,Default,,0,0,0,,{\i1}Mais pourquoi bougeait-il ?{\i0}
+Dialogue: 0,0:13:19.60,0:13:21.43,Default,,0,0,0,,{\i1}Sûrement à cause du vent, mais...{\i0}
+Dialogue: 0,0:13:24.56,0:13:28.04,Default,,0,0,0,,C'est étroit. Tu es sûre\Nque j'arriverai à passer ?
+Dialogue: 0,0:13:28.20,0:13:30.80,Default,,0,0,0,,Mais oui !\NFaites attention à votre tête.
+Dialogue: 0,0:13:34.04,0:13:36.56,Default,,0,0,0,,Je pense\Nque l'appel du maître-chanteur
+Dialogue: 0,0:13:36.72,0:13:39.28,Default,,0,0,0,,et la fête en l'honneur\Nde M. Shimomura
+Dialogue: 0,0:13:39.52,0:13:42.00,Default,,0,0,0,,ont été les éléments déclencheurs.
+Dialogue: 0,0:13:42.60,0:13:43.52,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:14:02.08,0:14:02.80,Default,,0,0,0,,{\i1}J'ai trouvé !{\i0}
+Dialogue: 0,0:14:07.00,0:14:07.72,Default,,0,0,0,,Donc,
+Dialogue: 0,0:14:08.08,0:14:09.00,Default,,0,0,0,,l'affaire...
+Dialogue: 0,0:14:09.16,0:14:10.23,Default,,0,0,0,,est réglée...
+Dialogue: 0,0:14:14.68,0:14:15.68,Default,,0,0,0,,Papa !
+Dialogue: 0,0:14:18.84,0:14:20.80,Default,,0,0,0,,Du moins, j'aurais aimé...
+Dialogue: 0,0:14:21.11,0:14:23.28,Default,,0,0,0,,Mais j'aurais fait\Nle jeu du coupable.
+Dialogue: 0,0:14:23.60,0:14:24.36,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:14:24.52,0:14:26.56,Default,,0,0,0,,Regardez le dos de la victime.
+Dialogue: 0,0:14:26.72,0:14:28.76,Default,,0,0,0,,Il y a des marques, n'est-ce pas ?
+Dialogue: 0,0:14:31.20,0:14:32.08,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:14:32.43,0:14:34.92,Default,,0,0,0,,En cas de pendaison,\Non les trouve aux pieds.
+Dialogue: 0,0:14:35.08,0:14:37.60,Default,,0,0,0,,Et dans le dos\Nquand on meurt allongé.
+Dialogue: 0,0:14:37.95,0:14:41.92,Default,,0,0,0,,Il a donc été pendu\Naprès avoir été tué sur le dos ?
+Dialogue: 0,0:14:42.08,0:14:43.76,Default,,0,0,0,,Ça, c'est impossible.
+Dialogue: 0,0:14:43.92,0:14:47.11,Default,,0,0,0,,Comment pourrait-on transporter\Nun corps aussi haut ?
+Dialogue: 0,0:14:47.36,0:14:48.43,Default,,0,0,0,,En effet...
+Dialogue: 0,0:14:48.60,0:14:50.84,Default,,0,0,0,,Surtout que ça n'aurait\Naucun intérêt.
+Dialogue: 0,0:14:51.52,0:14:53.16,Default,,0,0,0,,- Monsieur Hirai.\N- Oui ?
+Dialogue: 0,0:14:53.40,0:14:57.28,Default,,0,0,0,,Rappelez-vous\Nce que vous avez vu à l'écran.
+Dialogue: 0,0:14:57.43,0:14:58.36,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:14:59.76,0:15:02.68,Default,,0,0,0,,J'ai vu le maire\Npendu au bout d'une corde.
+Dialogue: 0,0:15:03.04,0:15:05.40,Default,,0,0,0,,Quoi d'autre ?
+Dialogue: 0,0:15:05.56,0:15:06.92,Default,,0,0,0,,Son corps oscillait.
+Dialogue: 0,0:15:07.52,0:15:11.40,Default,,0,0,0,,Et c'est grâce à ça\Nqu'il n'a pas heurté l'échafaudage.
+Dialogue: 0,0:15:11.76,0:15:13.43,Default,,0,0,0,,Il faut remercier le vent.
+Dialogue: 0,0:15:13.60,0:15:14.95,Default,,0,0,0,,Est-ce vraiment le vent ?
+Dialogue: 0,0:15:15.16,0:15:18.60,Default,,0,0,0,,Souvenez-vous de la source\Nau premier plan à l'écran.
+Dialogue: 0,0:15:19.52,0:15:20.43,Default,,0,0,0,,Aucun doute.
+Dialogue: 0,0:15:20.87,0:15:22.92,Default,,0,0,0,,Elle n'ondulait pas,\Ncomme maintenant.
+Dialogue: 0,0:15:23.47,0:15:26.23,Default,,0,0,0,,C'est parce qu'il venait\Njuste de se pendre...
+Dialogue: 0,0:15:26.47,0:15:28.32,Default,,0,0,0,,Il s'est débattu et ç'a balancé.
+Dialogue: 0,0:15:28.68,0:15:31.80,Default,,0,0,0,,D'après les marques cadavériques,\Nc'est impossible.
+Dialogue: 0,0:15:32.43,0:15:34.40,Default,,0,0,0,,D'où venait ce mouvement alors ?
+Dialogue: 0,0:15:35.00,0:15:36.92,Default,,0,0,0,,Il s'est lui-même balancé.
+Dialogue: 0,0:15:38.64,0:15:40.32,Default,,0,0,0,,Le corps bougeait tout seul ?
+Dialogue: 0,0:15:40.68,0:15:41.95,Default,,0,0,0,,C'est impossible !
+Dialogue: 0,0:15:42.43,0:15:43.76,Default,,0,0,0,,Ce n'était pas le corps.
+Dialogue: 0,0:15:44.11,0:15:45.87,Default,,0,0,0,,Ce que nous avons vu à l'écran,
+Dialogue: 0,0:15:46.08,0:15:48.72,Default,,0,0,0,,c'était l'assassin grimé en cadavre.
+Dialogue: 0,0:15:48.95,0:15:50.43,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:15:51.16,0:15:55.52,Default,,0,0,0,,M. Mayama s'est présenté à la grotte\Nà 9 h comme le maître-chanteur
+Dialogue: 0,0:15:55.68,0:15:57.40,Default,,0,0,0,,le lui avait ordonné la veille.
+Dialogue: 0,0:15:58.16,0:16:00.11,Default,,0,0,0,,L'assassin attendait à l'intérieur.
+Dialogue: 0,0:16:00.56,0:16:02.95,Default,,0,0,0,,C'est lui qui a fermé la porte.
+Dialogue: 0,0:16:04.11,0:16:08.64,Default,,0,0,0,,Il avait une bonne heure\Nd'ici sa réouverture par M. Hirai.
+Dialogue: 0,0:16:09.08,0:16:11.36,Default,,0,0,0,,Largement de quoi\Ncommettre son crime.
+Dialogue: 0,0:16:13.16,0:16:17.16,Default,,0,0,0,,Ensuite, alors qu'il guidait M. Mayama\Nvers le fond de la grotte,
+Dialogue: 0,0:16:18.32,0:16:21.64,Default,,0,0,0,,il l'a étranglé avec la corde\Nqu'il avait préparée.
+Dialogue: 0,0:16:24.84,0:16:28.40,Default,,0,0,0,,Ensuite, l'assassin a mis la veste\Net le pantalon de M. Mayama
+Dialogue: 0,0:16:29.04,0:16:31.23,Default,,0,0,0,,ainsi que le masque de {\i1}tengu{\i0}.
+Dialogue: 0,0:16:31.43,0:16:35.04,Default,,0,0,0,,Ce masque servait uniquement\Nà cacher son visage.
+Dialogue: 0,0:16:36.00,0:16:38.68,Default,,0,0,0,,Il a escaladé la corniche\Njusqu'à la chapelle.
+Dialogue: 0,0:16:39.23,0:16:42.95,Default,,0,0,0,,Il a lié à la poutre\Nla corde employée pour son crime
+Dialogue: 0,0:16:43.40,0:16:46.47,Default,,0,0,0,,qu'il a ensuite cassée\Npour la faire chuter.
+Dialogue: 0,0:16:47.43,0:16:50.60,Default,,0,0,0,,Puis il a utilisé une autre corde\Nen guise de harnais
+Dialogue: 0,0:16:50.76,0:16:53.64,Default,,0,0,0,,pour s'attacher\Net se suspendre à la poutre.
+Dialogue: 0,0:16:54.04,0:16:58.43,Default,,0,0,0,,Il a dû faire en sorte que la corde\Nse défasse quand on la lâche.
+Dialogue: 0,0:16:59.16,0:17:03.20,Default,,0,0,0,,Il s'est élancé en se balançant\Npour sauter sur des rochers proches,
+Dialogue: 0,0:17:03.95,0:17:07.60,Default,,0,0,0,,une cavité plane\Nqui n'est pas visible à l'écran.
+Dialogue: 0,0:17:07.95,0:17:12.56,Default,,0,0,0,,Vérifiez. Vous y trouverez\Nun morceau de la veste de la victime.
+Dialogue: 0,0:17:19.00,0:17:20.00,Default,,0,0,0,,Effectivement !
+Dialogue: 0,0:17:21.08,0:17:23.95,Default,,0,0,0,,L'assassin\Na ensuite rhabillé M. Mayama
+Dialogue: 0,0:17:24.40,0:17:26.43,Default,,0,0,0,,et lui a mis le masque de {\i1}tengu{\i0}.
+Dialogue: 0,0:17:27.00,0:17:28.32,Default,,0,0,0,,Voilà ma théorie.
+Dialogue: 0,0:17:29.64,0:17:33.64,Default,,0,0,0,,Ce n'est pas un peu trop facile ?\NEt le timing de fuite ?
+Dialogue: 0,0:17:33.87,0:17:37.11,Default,,0,0,0,,Comment l'assassin a-t-il su\Nque vous arriviez ?
+Dialogue: 0,0:17:37.60,0:17:39.23,Default,,0,0,0,,Grâce au grognement du {\i1}tengu{\i0} !
+Dialogue: 0,0:17:41.95,0:17:44.47,Default,,0,0,0,,Mais ça n'existe pas, les {\i1}tengu{\i0} !
+Dialogue: 0,0:17:45.04,0:17:46.92,Default,,0,0,0,,En effet, c'est le bruit du vent.
+Dialogue: 0,0:17:47.40,0:17:50.80,Default,,0,0,0,,Il se produit quand on ouvre\Nou ferme la porte d'entrée.
+Dialogue: 0,0:17:51.11,0:17:53.84,Default,,0,0,0,,On entend même légèrement\Nles gens parler.
+Dialogue: 0,0:17:54.32,0:17:55.72,Default,,0,0,0,,C'est hyper étroit...
+Dialogue: 0,0:17:56.08,0:17:58.23,Default,,0,0,0,,Comment\Non va transporter le corps ?
+Dialogue: 0,0:17:59.47,0:18:02.28,Default,,0,0,0,,Le coupable s'est caché\Nen entendant ces bruits.
+Dialogue: 0,0:18:02.64,0:18:06.23,Default,,0,0,0,,C'était donc ça...\NMais qui est le coupable ?
+Dialogue: 0,0:18:07.04,0:18:08.92,Default,,0,0,0,,On peut déjà exclure M. Hirai,
+Dialogue: 0,0:18:09.40,0:18:12.52,Default,,0,0,0,,vu qu'il a été témoin\Nde la "chute" avec nous.
+Dialogue: 0,0:18:13.00,0:18:14.87,Default,,0,0,0,,- Donc...\N- C'est pas moi !
+Dialogue: 0,0:18:15.47,0:18:19.23,Default,,0,0,0,,Ni moi. Le coupable a dû s'enfuir\Nen escaladant la corniche.
+Dialogue: 0,0:18:19.40,0:18:21.56,Default,,0,0,0,,C'est ça ! Ratissez la montagne !
+Dialogue: 0,0:18:22.95,0:18:26.84,Default,,0,0,0,,En fait, un truc cloche\Navec ces grognements de {\i1}tengu{\i0}.
+Dialogue: 0,0:18:28.60,0:18:31.28,Default,,0,0,0,,Le premier qu'on a entendu\Ns'est produit
+Dialogue: 0,0:18:31.47,0:18:33.56,Default,,0,0,0,,quand Ran est sortie d'ici.
+Dialogue: 0,0:18:34.23,0:18:35.40,Default,,0,0,0,,{\i1}D'accord !{\i0}
+Dialogue: 0,0:18:36.23,0:18:38.36,Default,,0,0,0,,Le grognement du {\i1}tengu{\i0} provenait
+Dialogue: 0,0:18:38.52,0:18:41.23,Default,,0,0,0,,de l'ouverture de la porte par Ran.
+Dialogue: 0,0:18:42.76,0:18:43.95,ST_HAUT,,0,0,0,,1er GROGNEMENT
+Dialogue: 0,0:18:44.11,0:18:47.43,Default,,0,0,0,,On a entendu le deuxième\Npeu avant l'arrivée de M. Imazu.
+Dialogue: 0,0:18:47.60,0:18:50.56,Default,,0,0,0,,C'était donc quand il a ouvert\Nla porte à son tour.
+Dialogue: 0,0:18:50.72,0:18:51.52,ST_HAUT,,0,0,0,,2e GROGNEMENT
+Dialogue: 0,0:18:51.68,0:18:55.43,ST_HAUT,,0,0,0,,Personne n'est entré ou sorti\Nentre ces 2 grognements.
+Dialogue: 0,0:18:56.16,0:19:00.20,Default,,0,0,0,,Quand êtes-vous donc arrivé\Ndans la grotte, monsieur Shimomura ?
+Dialogue: 0,0:19:01.00,0:19:04.32,Default,,0,0,0,,Vous le savez...\NJuste après vous, pourquoi ?
+Dialogue: 0,0:19:04.52,0:19:07.60,Default,,0,0,0,,Après ce premier grognement\Nque vous avez cité.
+Dialogue: 0,0:19:07.92,0:19:10.32,Default,,0,0,0,,Vous avez donc dû croiser Ran.
+Dialogue: 0,0:19:11.11,0:19:13.52,Default,,0,0,0,,Et je vous défends\Nde dire le contraire,
+Dialogue: 0,0:19:13.87,0:19:15.60,Default,,0,0,0,,car le passage est très étroit !
+Dialogue: 0,0:19:16.43,0:19:19.16,Default,,0,0,0,,C'était peut-être\Nun peu après, alors...
+Dialogue: 0,0:19:19.40,0:19:21.52,Default,,0,0,0,,Vous n'avez pas dû faire attention.
+Dialogue: 0,0:19:21.87,0:19:24.64,Default,,0,0,0,,Vous comptez nier jusqu'au bout ?
+Dialogue: 0,0:19:25.04,0:19:26.64,Default,,0,0,0,,Je ne nie rien du tout...
+Dialogue: 0,0:19:26.80,0:19:31.08,Default,,0,0,0,,Hier, quand on s'est croisés,\Nvotre serviette pendait à votre cou.
+Dialogue: 0,0:19:31.32,0:19:33.00,Default,,0,0,0,,Mais là, elle est enroulée.
+Dialogue: 0,0:19:33.56,0:19:37.40,Default,,0,0,0,,Ne serait-ce pas pour cacher\Ndes éraflures compromettantes ?
+Dialogue: 0,0:19:37.60,0:19:40.00,Default,,0,0,0,,Comme des frottements de rochers...
+Dialogue: 0,0:19:40.16,0:19:41.47,Default,,0,0,0,,N'importe quoi !
+Dialogue: 0,0:19:41.84,0:19:44.52,Default,,0,0,0,,C'est dans la montagne\Nque je me suis éraflé !
+Dialogue: 0,0:19:45.23,0:19:47.56,Default,,0,0,0,,Si vous n'en avez que là, peut-être.
+Dialogue: 0,0:19:47.72,0:19:52.36,Default,,0,0,0,,Mais que direz-vous si vos jambes\Net vos cuisses sont éraflées aussi ?
+Dialogue: 0,0:19:53.64,0:19:56.84,Default,,0,0,0,,Inspecteur.\NExaminez le corps de M. Mayama.
+Dialogue: 0,0:19:57.04,0:20:00.16,Default,,0,0,0,,Il n'a aucune blessure\Nmalgré ses habits arrachés.
+Dialogue: 0,0:20:06.72,0:20:07.80,Default,,0,0,0,,Je confirme !
+Dialogue: 0,0:20:11.04,0:20:12.80,Default,,0,0,0,,La corde utilisée pour sauter
+Dialogue: 0,0:20:13.32,0:20:14.80,Default,,0,0,0,,est dans votre sac à dos ?
+Dialogue: 0,0:20:15.64,0:20:16.68,Default,,0,0,0,,Exact...
+Dialogue: 0,0:20:16.84,0:20:18.92,Default,,0,0,0,,Monsieur Shimomura... Pourquoi ?
+Dialogue: 0,0:20:19.76,0:20:21.60,Default,,0,0,0,,Eh bien, il y a quelques jours...
+Dialogue: 0,0:20:21.84,0:20:25.72,Default,,0,0,0,,je suis tombé sur un arpenteur\Nlors d'une randonnée en montagne.
+Dialogue: 0,0:20:25.92,0:20:27.95,Default,,0,0,0,,En lui demandant ce qu'il mesurait,
+Dialogue: 0,0:20:28.16,0:20:32.92,Default,,0,0,0,,j'ai appris qu'on allait construire\Nune usine de traitement de déchets.
+Dialogue: 0,0:20:34.28,0:20:39.56,Default,,0,0,0,,C'était la condition d'une entreprise\Npour financer la campagne de Mayama.
+Dialogue: 0,0:20:41.04,0:20:42.32,Default,,0,0,0,,Ç'a été la goutte de trop.
+Dialogue: 0,0:20:42.84,0:20:47.87,Default,,0,0,0,,Pour son intérêt, il allait détruire\Nla richesse culturelle d'un village.
+Dialogue: 0,0:20:48.56,0:20:51.47,Default,,0,0,0,,J'ai été forcé de le tuer\Npour empêcher ça.
+Dialogue: 0,0:20:52.08,0:20:54.16,Default,,0,0,0,,Pour le village, je me devais
+Dialogue: 0,0:20:54.32,0:20:56.60,Default,,0,0,0,,de faire justice au nom du {\i1}tengu{\i0}.
+Dialogue: 0,0:20:57.84,0:21:00.95,Default,,0,0,0,,Si je me suis fait passer\Npour un maître-chanteur,
+Dialogue: 0,0:21:01.20,0:21:03.87,Default,,0,0,0,,c'était pour être sûr\Nque Mayama viendrait.
+Dialogue: 0,0:21:04.87,0:21:09.11,Default,,0,0,0,,Le démontage de l'échafaudage\Nm'a surpris, mais pas affolé.
+Dialogue: 0,0:21:10.11,0:21:13.84,Default,,0,0,0,,Faire croire que Mayama\Ns'était écrasé contre l'échafaudage
+Dialogue: 0,0:21:14.00,0:21:15.87,Default,,0,0,0,,aurait été plus convaincant,
+Dialogue: 0,0:21:16.08,0:21:18.43,Default,,0,0,0,,mais je n'ai pas pu m'y résoudre...
+Dialogue: 0,0:21:19.00,0:21:23.68,Default,,0,0,0,,À 10 h, Hirai a bien assisté à la chute,\Ncomme je l'avais prévu.
+Dialogue: 0,0:21:23.84,0:21:27.87,Default,,0,0,0,,Je comptais fuir\Npendant qu'il irait appeler la police.
+Dialogue: 0,0:21:28.68,0:21:33.08,Default,,0,0,0,,Mais comment deviner qu'il serait\Naccompagné du grand détective Môri ?
+Dialogue: 0,0:21:33.52,0:21:35.72,Default,,0,0,0,,Mon absence n'aurait rien changé.
+Dialogue: 0,0:21:36.08,0:21:38.36,Default,,0,0,0,,Vu que M. Imazu\Nétait à l'extérieur...
+Dialogue: 0,0:21:39.80,0:21:41.11,Default,,0,0,0,,C'est vrai...
+Dialogue: 0,0:21:49.47,0:21:52.00,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:53.40,0:21:56.40,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:23:13.76,0:23:16.23,Default,,0,0,0,,Encore une belle déduction\Nde ma part !
+Dialogue: 0,0:23:18.40,0:23:20.36,Default,,0,0,0,,Écoute-le se vanter...
+Dialogue: 0,0:23:20.52,0:23:23.16,Default,,0,0,0,,Il risque d'avoir\Nles chevilles qui enflent...

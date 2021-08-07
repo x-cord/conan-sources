@@ -1,0 +1,379 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.00,0:00:05.75,Default,,0,0,0,,{\i1}Toujours aussi chanceuse,{\i0}
+Dialogue: 0,0:00:05.96,0:00:07.96,ST_HAUT,,0,0,0,,{\i1}Ran a gagné des billets{\i0}
+Dialogue: 0,0:00:08.13,0:00:11.30,ST_HAUT,,0,0,0,,{\i1}de Shinkansen pour Kanazawa,\Noù nous l'avons suivie.{\i0}
+Dialogue: 0,0:00:11.84,0:00:14.80,ST_HAUT,,0,0,0,,MUSÉE MUROO SAISEI
+Dialogue: 0,0:00:26.98,0:00:30.03,ST_HAUT,,0,0,0,,ARCHIVES DU QUARTIER NISHICHAYA\NDE KANAZAWA
+Dialogue: 0,0:00:30.19,0:00:32.03,Default,,0,0,0,,SEIJIRÔ SHIMADA
+Dialogue: 0,0:00:43.29,0:00:45.33,Default,,0,0,0,,Bon !\NEt si on allait manger ?
+Dialogue: 0,0:00:45.79,0:00:47.67,Default,,0,0,0,,Dans un petit bar, ça serait bien !
+Dialogue: 0,0:00:47.88,0:00:50.30,Default,,0,0,0,,Déjà ?\NIl est encore bien trop tôt !
+Dialogue: 0,0:00:50.75,0:00:54.01,Default,,0,0,0,,On en a suffisamment appris\Nsur l'histoire de Kanazawa !
+Dialogue: 0,0:00:54.17,0:00:56.59,Default,,0,0,0,,Maintenant,\Non va passer à sa gastronomie.
+Dialogue: 0,0:00:57.64,0:00:59.97,Default,,0,0,0,,On visite encore un peu, avant.
+Dialogue: 0,0:01:00.14,0:01:02.52,Default,,0,0,0,,Non !\NOn mange d'abord !
+Dialogue: 0,0:01:02.68,0:01:03.81,Default,,0,0,0,,On visite !
+Dialogue: 0,0:01:03.98,0:01:04.98,Default,,0,0,0,,On mange !
+Dialogue: 0,0:01:06.14,0:01:07.81,Default,,0,0,0,,Tu préfères quoi, Conan ?
+Dialogue: 0,0:01:12.73,0:01:16.53,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:17.03,0:01:20.03,Default,,0,0,0,,{\i1}Une diction au rythme fluide\Npour un raisonnement parfait !{\i0}
+Dialogue: 0,0:01:20.20,0:01:22.16,Default,,0,0,0,,{\i1}Repas ou visite ?\NOn est à Kanazawa !{\i0}
+Dialogue: 0,0:01:22.33,0:01:24.08,Default,,0,0,0,,{\i1}Rencontre et intrigue à Hyakumangoku !{\i0}
+Dialogue: 0,0:01:24.25,0:01:27.37,ST_BAS_DROITE,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:27.54,0:01:29.75,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:52.44,0:01:54.11,ST_HAUT,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:02:02.03,0:02:03.79,ST_HAUT_DROITE,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:06.12,0:02:08.21,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:14.09,0:02:16.01,ST_HAUT_DROITE,,0,0,0,,Générique d'ouverture :\N"Makkana Lip"
+Dialogue: 0,0:02:18.84,0:02:20.64,ST_HAUT,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:02:22.64,0:02:24.39,ST_HAUT_DROITE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:28.52,0:02:30.48,ST_HAUT_GAUCHE,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:33.31,0:02:35.03,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:41.32,0:02:43.62,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:53.84,0:02:57.09,Default,,0,0,0,,{\i1}Tourisme, intrigue\Net héritière de Kaga (1re partie) !{\i0}
+Dialogue: 0,0:03:00.59,0:03:02.72,Default,,0,0,0,,Ça suffit, on va manger !\NSuivez-moi !
+Dialogue: 0,0:03:15.90,0:03:17.86,Default,,0,0,0,,Pardon...\NJe suis désolé.
+Dialogue: 0,0:03:21.20,0:03:22.36,Default,,0,0,0,,Vous n'avez rien ?
+Dialogue: 0,0:03:23.57,0:03:26.12,ST_HAUT,,0,0,0,,Non, tout va bien.\NMerci.
+Dialogue: 0,0:03:29.04,0:03:31.29,Default,,0,0,0,,Votre manteau est taché !
+Dialogue: 0,0:03:31.50,0:03:33.12,Default,,0,0,0,,Ne t'en fais pas pour ça.
+Dialogue: 0,0:03:33.63,0:03:36.00,Default,,0,0,0,,Il a l'air plutôt cher, pourtant...
+Dialogue: 0,0:03:36.50,0:03:39.51,Default,,0,0,0,,Je ne le porterai plus\Nde toute façon, peu importe.
+Dialogue: 0,0:03:40.47,0:03:42.47,Default,,0,0,0,,Quel gâchis !\NMais pourquoi ?
+Dialogue: 0,0:03:44.01,0:03:46.97,Default,,0,0,0,,C'est la honte\Nde s'habiller toujours pareil, non ?
+Dialogue: 0,0:03:49.60,0:03:53.48,Default,,0,0,0,,Il est drôlement lourd, votre sac.\NIl y a quoi dedans ?
+Dialogue: 0,0:03:53.98,0:03:58.07,Default,,0,0,0,,Quel manque de manière\Nd'oser demander ça à une demoiselle !
+Dialogue: 0,0:03:59.07,0:04:00.44,Default,,0,0,0,,Je suis désolé...
+Dialogue: 0,0:04:02.20,0:04:04.91,Default,,0,0,0,,Au fait,\Nj'aimerais aller à Yamanakaza,
+Dialogue: 0,0:04:05.07,0:04:06.78,Default,,0,0,0,,indiquez-moi le chemin.
+Dialogue: 0,0:04:08.33,0:04:09.70,Default,,0,0,0,,Vraiment désolés,
+Dialogue: 0,0:04:09.87,0:04:13.62,Default,,0,0,0,,mais nous sommes des touristes,\Nvous guider sera difficile...
+Dialogue: 0,0:04:14.96,0:04:16.38,Default,,0,0,0,,Vous ne servez à rien...
+Dialogue: 0,0:04:17.84,0:04:20.71,Default,,0,0,0,,Pourquoi ne pas y aller en taxi ?
+Dialogue: 0,0:04:20.96,0:04:23.76,Default,,0,0,0,,Avec l'adresse,\Nle chauffeur vous y emmènera.
+Dialogue: 0,0:04:24.93,0:04:25.93,Default,,0,0,0,,En taxi ?
+Dialogue: 0,0:04:27.18,0:04:28.39,Default,,0,0,0,,Ça pose problème ?
+Dialogue: 0,0:04:28.81,0:04:32.89,Default,,0,0,0,,Où peut-on en trouver un ?\NJe n'en ai jamais pris !
+Dialogue: 0,0:04:41.78,0:04:42.90,Default,,0,0,0,,Yamanakaza.
+Dialogue: 0,0:04:43.28,0:04:44.03,Default,,0,0,0,,Bien.
+Dialogue: 0,0:04:44.74,0:04:46.66,Default,,0,0,0,,Ça suffira pour le pourboire ?
+Dialogue: 0,0:04:47.99,0:04:49.49,Default,,0,0,0,,Sérieusement ?
+Dialogue: 0,0:04:50.66,0:04:53.66,Default,,0,0,0,,On est au Japon ici,\Npas besoin de pourboire !
+Dialogue: 0,0:04:54.00,0:04:55.12,Default,,0,0,0,,Ah bon ?
+Dialogue: 0,0:05:00.84,0:05:05.72,Default,,0,0,0,,On aurait pu faire un festin ce midi,\Navec ces 10 000 yens !
+Dialogue: 0,0:05:06.05,0:05:08.22,Default,,0,0,0,,Mais qu'est-ce que tu racontes encore ?
+Dialogue: 0,0:05:10.01,0:05:13.14,Default,,0,0,0,,{\i1}Même Sonoko ne boxe pas\Ndans la même catégorie...{\i0}
+Dialogue: 0,0:05:14.23,0:05:17.40,ST_HAUT,,0,0,0,,STATION THERMALE YAMANAKAZA
+Dialogue: 0,0:05:22.98,0:05:24.57,Default,,0,0,0,,YAMANAKAZA
+Dialogue: 0,0:05:37.87,0:05:40.34,Default,,0,0,0,,C'est bientôt l'heure\Nde rejoindre tonton.
+Dialogue: 0,0:05:40.71,0:05:42.92,Default,,0,0,0,,Aller manger un en-cas tout seul...
+Dialogue: 0,0:05:43.09,0:05:46.09,Default,,0,0,0,,Il ne sait vraiment pas attendre,\Nc'est dingue !
+Dialogue: 0,0:05:50.22,0:05:51.18,Default,,0,0,0,,Au secours !
+Dialogue: 0,0:05:51.51,0:05:52.47,Default,,0,0,0,,Cette fille...
+Dialogue: 0,0:05:55.02,0:05:56.35,Default,,0,0,0,,Je suis plein !
+Dialogue: 0,0:05:56.89,0:05:58.85,Default,,0,0,0,,Tonton !\NAttrape cet homme !
+Dialogue: 0,0:05:59.19,0:06:00.69,Default,,0,0,0,,Il a volé un sac !
+Dialogue: 0,0:06:00.86,0:06:01.48,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:06:01.94,0:06:02.90,Default,,0,0,0,,Stop !
+Dialogue: 0,0:06:12.78,0:06:14.20,Default,,0,0,0,,Ça va, papa ?
+Dialogue: 0,0:06:14.70,0:06:17.00,Default,,0,0,0,,Oh, la vache !
+Dialogue: 0,0:06:17.16,0:06:19.37,Default,,0,0,0,,Il est drôlement lourd, ce sac.
+Dialogue: 0,0:06:19.75,0:06:20.96,Default,,0,0,0,,Il y a quoi dedans ?
+Dialogue: 0,0:06:30.22,0:06:32.47,Default,,0,0,0,,Merci d'avoir récupéré mon sac.
+Dialogue: 0,0:06:32.85,0:06:33.85,Default,,0,0,0,,Je vous en prie.
+Dialogue: 0,0:06:34.01,0:06:36.98,Default,,0,0,0,,À ce propos,\Nque faites-vous avec une telle somme ?
+Dialogue: 0,0:06:38.06,0:06:39.23,Default,,0,0,0,,C'est-à-dire que...
+Dialogue: 0,0:06:40.19,0:06:42.15,Default,,0,0,0,,Mince !\NC'est l'heure !
+Dialogue: 0,0:06:46.40,0:06:47.57,Default,,0,0,0,,Elle est partie...
+Dialogue: 0,0:06:48.40,0:06:50.91,Default,,0,0,0,,C'était pour quoi, tout cet argent ?
+Dialogue: 0,0:06:51.20,0:06:52.20,Default,,0,0,0,,Aucune idée...
+Dialogue: 0,0:06:52.57,0:06:54.03,Default,,0,0,0,,C'est une fille à papa.
+Dialogue: 0,0:06:54.20,0:06:58.41,Default,,0,0,0,,Ça doit lui arriver\Nde se balader avec des millions...
+Dialogue: 0,0:06:58.58,0:07:00.42,Default,,0,0,0,,Sans garde du corps ?
+Dialogue: 0,0:07:01.00,0:07:04.00,Default,,0,0,0,,J'y connais rien\Naux histoires de riches, moi !
+Dialogue: 0,0:07:08.09,0:07:09.22,Default,,0,0,0,,La revoilà !
+Dialogue: 0,0:07:12.72,0:07:14.97,Default,,0,0,0,,Tiens ?\NElle n'a plus son sac !
+Dialogue: 0,0:07:15.56,0:07:16.72,Default,,0,0,0,,C'est vrai !
+Dialogue: 0,0:07:17.43,0:07:19.73,Default,,0,0,0,,Dites !\NIl est passé où, votre sac ?
+Dialogue: 0,0:07:20.35,0:07:21.60,Default,,0,0,0,,Je l'ai déposé.
+Dialogue: 0,0:07:22.69,0:07:24.02,Default,,0,0,0,,Mais pourquoi ?
+Dialogue: 0,0:07:25.40,0:07:27.15,Default,,0,0,0,,Vous pouvez nous dire pourquoi ?
+Dialogue: 0,0:07:30.86,0:07:33.49,Default,,0,0,0,,En fait, c'était une rançon.
+Dialogue: 0,0:07:36.45,0:07:37.58,Default,,0,0,0,,Où l'avez-vous laissé ?
+Dialogue: 0,0:07:37.91,0:07:38.83,Default,,0,0,0,,Sur le parking !
+Dialogue: 0,0:07:40.66,0:07:41.62,Default,,0,0,0,,Où ça ?
+Dialogue: 0,0:07:43.58,0:07:44.33,Default,,0,0,0,,Là !
+Dialogue: 0,0:07:47.92,0:07:49.80,Default,,0,0,0,,{\i1}On arrive trop tard...{\i0}
+Dialogue: 0,0:07:51.84,0:07:53.34,Default,,0,0,0,,Je suis soulagée...
+Dialogue: 0,0:07:53.51,0:07:56.05,Default,,0,0,0,,Manabu rentrera indemne comme ça...
+Dialogue: 0,0:07:58.26,0:07:59.85,Default,,0,0,0,,J'ai bien fait, n'est-ce pas ?
+Dialogue: 0,0:08:00.35,0:08:04.23,Default,,0,0,0,,Vu que j'ai payé la rançon,\Nl'otage sera libéré, non ?
+Dialogue: 0,0:08:04.56,0:08:06.36,Default,,0,0,0,,Euh... Peut-être pas...
+Dialogue: 0,0:08:07.90,0:08:08.98,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:08:09.32,0:08:12.36,Default,,0,0,0,,Pour le ravisseur,\Nl'otage est devenu inutile.
+Dialogue: 0,0:08:12.70,0:08:15.24,Default,,0,0,0,,Il n'a plus aucune raison\Nde le laisser en vie.
+Dialogue: 0,0:08:16.53,0:08:17.70,Default,,0,0,0,,C'est pas vrai !
+Dialogue: 0,0:08:18.03,0:08:20.41,Default,,0,0,0,,Ran !\NContacte la police !
+Dialogue: 0,0:08:20.70,0:08:21.25,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:08:31.26,0:08:34.18,Default,,0,0,0,,Pourquoi n'avez-vous pas\Nprévenu la police ?
+Dialogue: 0,0:08:34.51,0:08:36.59,ST_HAUT,,0,0,0,,SÔICHI HAYASHI (52 ANS)
+Dialogue: 0,0:08:36.76,0:08:39.56,ST_HAUT,,0,0,0,,On n'a fait\Nqu'obéir aux ordres du ravisseur !
+Dialogue: 0,0:08:40.14,0:08:41.43,ST_HAUT,,0,0,0,,J'ai accompli mon devoir.
+Dialogue: 0,0:08:41.77,0:08:43.81,ST_HAUT,,0,0,0,,Président, calmez-vous un peu.
+Dialogue: 0,0:08:44.48,0:08:47.81,Default,,0,0,0,,Une comptable n'a pas à parler\Nà son président sur ce ton !
+Dialogue: 0,0:08:48.02,0:08:49.15,Default,,0,0,0,,Très bien...
+Dialogue: 0,0:08:51.03,0:08:52.99,Default,,0,0,0,,Voici Manabu Saikawa.
+Dialogue: 0,0:08:54.90,0:08:56.99,Default,,0,0,0,,Quand vous a-t-on envoyé cette photo ?
+Dialogue: 0,0:08:57.66,0:09:00.16,Default,,0,0,0,,À 10 h, sur la boîte de l'entreprise.
+Dialogue: 0,0:09:00.58,0:09:02.50,Default,,0,0,0,,L'appel du ravisseur aussi ?
+Dialogue: 0,0:09:02.83,0:09:03.66,Default,,0,0,0,,Exact.
+Dialogue: 0,0:09:04.29,0:09:06.96,Default,,0,0,0,,Dites !\NManabu ne risque plus rien, pas vrai ?
+Dialogue: 0,0:09:08.54,0:09:12.01,Default,,0,0,0,,Deux heures ont passé\Ndepuis la livraison de la rançon.
+Dialogue: 0,0:09:13.01,0:09:15.55,Default,,0,0,0,,La situation n'est guère à l'optimisme.
+Dialogue: 0,0:09:15.80,0:09:17.05,Default,,0,0,0,,C'est pas vrai...
+Dialogue: 0,0:09:17.80,0:09:21.43,Default,,0,0,0,,La police vérifie\Nla vidéosurveillance du parking.
+Dialogue: 0,0:09:21.89,0:09:26.94,Default,,0,0,0,,L'individu qui a emporté la rançon\Ny apparaît sûrement...
+Dialogue: 0,0:09:28.52,0:09:31.07,Default,,0,0,0,,Seulement, il a déjà pris de l'avance.
+Dialogue: 0,0:09:31.52,0:09:34.57,Default,,0,0,0,,On aura beau découvrir\Nune piste menant au ravisseur,
+Dialogue: 0,0:09:34.90,0:09:36.20,Default,,0,0,0,,d'ici là...
+Dialogue: 0,0:09:37.03,0:09:38.70,Default,,0,0,0,,Je n'y suis pour rien, moi !
+Dialogue: 0,0:09:39.03,0:09:40.95,Default,,0,0,0,,Et qui êtes-vous d'ailleurs ?
+Dialogue: 0,0:09:41.99,0:09:43.16,Default,,0,0,0,,Moi ?
+Dialogue: 0,0:09:43.54,0:09:45.58,Default,,0,0,0,,Je suis Kogorô Môri.
+Dialogue: 0,0:09:46.67,0:09:48.04,Default,,0,0,0,,J'ai entendu parler de vous !
+Dialogue: 0,0:09:48.33,0:09:50.71,Default,,0,0,0,,Vous êtes un célèbre détective de Tokyo
+Dialogue: 0,0:09:50.88,0:09:52.59,Default,,0,0,0,,et on vous surnomme "Kogorô le..."
+Dialogue: 0,0:09:52.75,0:09:54.63,Default,,0,0,0,,Ça va me revenir...
+Dialogue: 0,0:09:55.34,0:09:57.80,Default,,0,0,0,,Ah oui !\N"Kogorô l'Ivrogne" !
+Dialogue: 0,0:10:00.43,0:10:02.47,Default,,0,0,0,,{\i1}Enfin, elle n'a pas tort...{\i0}
+Dialogue: 0,0:10:02.89,0:10:05.89,Default,,0,0,0,,Mais non, c'est "Kogorô l'Endormi" !
+Dialogue: 0,0:10:08.94,0:10:09.73,Default,,0,0,0,,Président !
+Dialogue: 0,0:10:11.40,0:10:13.78,Default,,0,0,0,,Rintarô !\NOù étais-tu passé ?
+Dialogue: 0,0:10:14.57,0:10:16.07,Default,,0,0,0,,Désolé...\NJ'avais à faire...
+Dialogue: 0,0:10:17.03,0:10:19.11,ST_HAUT,,0,0,0,,Et le maître, il est sain et sauf ?
+Dialogue: 0,0:10:19.57,0:10:20.99,Default,,0,0,0,,On ne sait pas encore.
+Dialogue: 0,0:10:21.16,0:10:22.12,Default,,0,0,0,,Qui est-ce ?
+Dialogue: 0,0:10:22.28,0:10:23.49,Default,,0,0,0,,Le disciple de Manabu.
+Dialogue: 0,0:10:24.08,0:10:25.54,Default,,0,0,0,,Que vous enseignait-il ?
+Dialogue: 0,0:10:26.04,0:10:27.41,Default,,0,0,0,,La teinture {\i1}Yûzen{\i0}.
+Dialogue: 0,0:10:29.04,0:10:31.79,Default,,0,0,0,,L'otage est donc un maître teinturier ?
+Dialogue: 0,0:10:32.13,0:10:35.30,Default,,0,0,0,,Oui, c'était un artisan\Nrenommé dans les environs.
+Dialogue: 0,0:10:35.96,0:10:38.72,Default,,0,0,0,,"C'était" ?\NParce que ce n'est plus le cas ?
+Dialogue: 0,0:10:39.18,0:10:42.64,Default,,0,0,0,,Voilà... Il a eu un accident\Ndans la remise, il y a peu.
+Dialogue: 0,0:10:42.80,0:10:44.56,Default,,0,0,0,,Il ne peut plus utiliser sa main.
+Dialogue: 0,0:10:53.61,0:10:55.65,Default,,0,0,0,,Ça l'a forcé à renoncer à son métier.
+Dialogue: 0,0:10:56.03,0:10:57.90,Default,,0,0,0,,C'est terrible, ça.
+Dialogue: 0,0:10:58.74,0:10:59.95,Default,,0,0,0,,Il y a plus important,
+Dialogue: 0,0:11:00.28,0:11:02.28,Default,,0,0,0,,la vie de mon maître.
+Dialogue: 0,0:11:02.45,0:11:04.41,Default,,0,0,0,,On ne peut vraiment rien faire ?
+Dialogue: 0,0:11:05.66,0:11:09.46,Default,,0,0,0,,Malheureusement,\Non ne peut que prier pour son salut.
+Dialogue: 0,0:11:17.26,0:11:18.72,Default,,0,0,0,,C'est peut-être le ravisseur !
+Dialogue: 0,0:11:19.55,0:11:20.80,Default,,0,0,0,,Parlez-lui calmement.
+Dialogue: 0,0:11:24.68,0:11:25.47,Default,,0,0,0,,Allô ?
+Dialogue: 0,0:11:26.10,0:11:27.97,Default,,0,0,0,,{\i1}Président ?\NC'est moi...{\i0}
+Dialogue: 0,0:11:28.27,0:11:30.23,Default,,0,0,0,,Manabu ?\NC'est toi, Manabu ?
+Dialogue: 0,0:11:41.24,0:11:42.20,Default,,0,0,0,,Compris !
+Dialogue: 0,0:11:43.99,0:11:46.62,Default,,0,0,0,,Après avoir été libéré\Npar son ravisseur,
+Dialogue: 0,0:11:46.79,0:11:50.66,Default,,0,0,0,,M. Saikawa s'est aussitôt précipité\Ndans un poste de police.
+Dialogue: 0,0:11:51.25,0:11:53.50,Default,,0,0,0,,Il est sain et sauf, alors !
+Dialogue: 0,0:11:53.71,0:11:55.54,Default,,0,0,0,,Oui, il va bien.
+Dialogue: 0,0:11:56.34,0:11:58.63,Default,,0,0,0,,Il devrait aussitôt revenir ici
+Dialogue: 0,0:11:58.80,0:12:00.63,Default,,0,0,0,,après un petit interrogatoire.
+Dialogue: 0,0:12:13.14,0:12:14.19,Default,,0,0,0,,Manabu !
+Dialogue: 0,0:12:16.27,0:12:17.86,Default,,0,0,0,,Vous êtes sain et sauf !
+Dialogue: 0,0:12:18.11,0:12:20.44,Default,,0,0,0,,Ravi de vous revoir indemne, maître !
+Dialogue: 0,0:12:21.15,0:12:23.49,ST_HAUT,,0,0,0,,Désolé de vous avoir causé du souci.
+Dialogue: 0,0:12:24.41,0:12:26.70,Default,,0,0,0,,Vos habits sont sales, changez-vous.
+Dialogue: 0,0:12:27.49,0:12:28.58,Default,,0,0,0,,Merci.
+Dialogue: 0,0:12:29.66,0:12:30.50,Default,,0,0,0,,Président !
+Dialogue: 0,0:12:31.12,0:12:33.21,Default,,0,0,0,,Désolé pour tous ces ennuis.
+Dialogue: 0,0:12:34.25,0:12:37.71,Default,,0,0,0,,Tu as porté préjudice à l'entreprise,\Nporte-malheur !
+Dialogue: 0,0:12:38.29,0:12:39.38,Default,,0,0,0,,Père !
+Dialogue: 0,0:12:39.55,0:12:42.88,Default,,0,0,0,,Manabu ne s'est pas fait enlever\Npar plaisir !
+Dialogue: 0,0:12:43.26,0:12:45.30,Default,,0,0,0,,Non, mais...
+Dialogue: 0,0:12:45.89,0:12:49.76,Default,,0,0,0,,Le président aime tellement sa fille\Nqu'il en perd son autorité.
+Dialogue: 0,0:12:50.39,0:12:53.14,Default,,0,0,0,,Enfin, sauf quand ça concerne\Nson petit ami...
+Dialogue: 0,0:12:53.89,0:12:57.19,Default,,0,0,0,,{\i1}L'archétype même\Nde la jeune fille bien gardée...{\i0}
+Dialogue: 0,0:12:58.36,0:13:00.53,Default,,0,0,0,,Désolé de couper votre conversation.
+Dialogue: 0,0:13:01.07,0:13:04.36,Default,,0,0,0,,Ravi que vous soyez indemne, M. Saikawa.
+Dialogue: 0,0:13:04.78,0:13:05.70,Default,,0,0,0,,Vous êtes ?
+Dialogue: 0,0:13:06.32,0:13:09.37,Default,,0,0,0,,Kogorô Môri, je suis détective.
+Dialogue: 0,0:13:09.53,0:13:10.49,Default,,0,0,0,,Un détective ?
+Dialogue: 0,0:13:10.91,0:13:13.96,Default,,0,0,0,,J'ai entendu que le ravisseur\Nétait toujours en fuite.
+Dialogue: 0,0:13:14.46,0:13:16.42,Default,,0,0,0,,Je pourrais peut-être aider...
+Dialogue: 0,0:13:17.08,0:13:20.63,Default,,0,0,0,,J'aimerais bien,\Nmais comme j'avais les yeux bandés,
+Dialogue: 0,0:13:20.80,0:13:22.71,Default,,0,0,0,,je n'ai pas vu mon ravisseur.
+Dialogue: 0,0:13:22.88,0:13:24.97,Default,,0,0,0,,Sa voix ne vous disait rien ?
+Dialogue: 0,0:13:25.26,0:13:28.72,Default,,0,0,0,,Non, vu qu'il la modifiait\Navec un appareil.
+Dialogue: 0,0:13:29.64,0:13:31.72,Default,,0,0,0,,Aucune piste, alors...
+Dialogue: 0,0:13:32.18,0:13:34.18,Default,,0,0,0,,Tu ne sers vraiment à rien !
+Dialogue: 0,0:13:35.14,0:13:36.10,Default,,0,0,0,,Désolé...
+Dialogue: 0,0:13:36.52,0:13:39.86,Default,,0,0,0,,Dites !\NQuand et où avez-vous été enlevé ?
+Dialogue: 0,0:13:40.73,0:13:42.11,Default,,0,0,0,,Si je me souviens bien,
+Dialogue: 0,0:13:42.69,0:13:46.28,Default,,0,0,0,,c'était vers 9 h,\Nsur le chemin du travail.
+Dialogue: 0,0:13:46.78,0:13:49.12,Default,,0,0,0,,Donc, ça pourrait signifier
+Dialogue: 0,0:13:49.28,0:13:52.49,Default,,0,0,0,,que le ravisseur\Nconnaissait vos habitudes.
+Dialogue: 0,0:13:53.16,0:13:57.21,Default,,0,0,0,,Si c'est le cas, vous le connaissez\Npeut-être même de vue.
+Dialogue: 0,0:13:57.54,0:14:00.21,Default,,0,0,0,,S'il a utilisé un appareil\Npour changer sa voix,
+Dialogue: 0,0:14:00.50,0:14:03.63,Default,,0,0,0,,c'est peut-être aussi\Nparce que M. Saikawa la connaît bien.
+Dialogue: 0,0:14:07.84,0:14:10.89,Default,,0,0,0,,Vous ne me soupçonnez pas, quand même ?
+Dialogue: 0,0:14:11.39,0:14:14.06,Default,,0,0,0,,C'est juste une éventualité à envisager.
+Dialogue: 0,0:14:14.47,0:14:17.89,Default,,0,0,0,,Au passage, où étiez-vous tous,\Nce matin à 9 h ?
+Dialogue: 0,0:14:18.35,0:14:20.90,Default,,0,0,0,,Moi, j'étais encore au lit !
+Dialogue: 0,0:14:21.27,0:14:23.27,Default,,0,0,0,,Quelqu'un peut le prouver ?
+Dialogue: 0,0:14:25.86,0:14:28.99,Default,,0,0,0,,Moi, j'ai bien vu Mari\Nen train de dormir !
+Dialogue: 0,0:14:29.57,0:14:33.16,Default,,0,0,0,,Sa porte était entrouverte,\Nje l'ai aperçue en faisant le ménage.
+Dialogue: 0,0:14:34.41,0:14:37.04,Default,,0,0,0,,Moi, je préparais mon travail\Nà l'atelier.
+Dialogue: 0,0:14:37.21,0:14:40.04,Default,,0,0,0,,D'ailleurs,\Nj'ai vu Yûko faire le ménage.
+Dialogue: 0,0:14:40.67,0:14:41.84,Default,,0,0,0,,En effet, oui.
+Dialogue: 0,0:14:42.21,0:14:46.13,Default,,0,0,0,,Je vois... Vous confirmez\Nvous être vus les uns les autres.
+Dialogue: 0,0:14:46.55,0:14:48.22,Default,,0,0,0,,Vos alibis sont établis.
+Dialogue: 0,0:14:48.84,0:14:50.30,Default,,0,0,0,,Et vous, président ?
+Dialogue: 0,0:14:50.93,0:14:54.18,Default,,0,0,0,,Moi... J'étais en train\Nde cuver en dormant.
+Dialogue: 0,0:14:54.93,0:14:57.56,Default,,0,0,0,,Vous avez vu le président, Mme Kaede ?
+Dialogue: 0,0:14:58.06,0:14:58.85,Default,,0,0,0,,Non.
+Dialogue: 0,0:14:59.48,0:15:02.81,Default,,0,0,0,,Autrement dit,\Npersonne ne peut prouver votre alibi.
+Dialogue: 0,0:15:03.19,0:15:04.36,Default,,0,0,0,,Minute !
+Dialogue: 0,0:15:04.77,0:15:07.86,Default,,0,0,0,,Admettons que ça soit le cas,\Nj'étais ici au moment
+Dialogue: 0,0:15:08.03,0:15:09.74,Default,,0,0,0,,où la rançon a été livrée !
+Dialogue: 0,0:15:10.07,0:15:11.36,Default,,0,0,0,,Ça ne peut pas être moi !
+Dialogue: 0,0:15:12.32,0:15:13.74,Default,,0,0,0,,En effet...
+Dialogue: 0,0:15:14.08,0:15:17.50,Default,,0,0,0,,Autrement dit,\Nle coupable n'est pas parmi vous...
+Dialogue: 0,0:15:18.83,0:15:21.62,Default,,0,0,0,,Mari ! Et l'autre, là,\Nil ne serait pas louche ?
+Dialogue: 0,0:15:21.96,0:15:23.00,Default,,0,0,0,,De qui parlez-vous ?
+Dialogue: 0,0:15:23.38,0:15:26.50,Default,,0,0,0,,Du sale parasite\Nqui s'intéresse à ma fille.
+Dialogue: 0,0:15:27.01,0:15:28.84,Default,,0,0,0,,Ne parle pas de lui comme ça !
+Dialogue: 0,0:15:29.01,0:15:31.18,Default,,0,0,0,,Takumi est mon petit ami,\Nje te signale !
+Dialogue: 0,0:15:32.39,0:15:34.01,Default,,0,0,0,,Je ne l'accepte pas !
+Dialogue: 0,0:15:34.47,0:15:36.51,Default,,0,0,0,,Quoi qu'il en soit, fais-le venir ici !
+Dialogue: 0,0:15:48.07,0:15:50.78,Default,,0,0,0,,Mari !\NPourquoi voulais-tu que je...
+Dialogue: 0,0:15:52.91,0:15:55.41,Default,,0,0,0,,Vous êtes bien Takumi Kondô ?
+Dialogue: 0,0:15:56.45,0:15:59.16,ST_HAUT,,0,0,0,,Oui, mais c'est quoi, ce cirque ?
+Dialogue: 0,0:15:59.75,0:16:01.29,Default,,0,0,0,,C'est toi le ravisseur, avoue !
+Dialogue: 0,0:16:01.79,0:16:04.04,Default,,0,0,0,,Pardon ?\NMais de quoi vous parlez ?
+Dialogue: 0,0:16:04.50,0:16:05.46,Default,,0,0,0,,Arrête ton char !
+Dialogue: 0,0:16:05.63,0:16:09.30,Default,,0,0,0,,C'est toi qui as enlevé Manabu\Net volé mes 30 millions !
+Dialogue: 0,0:16:10.47,0:16:13.34,Default,,0,0,0,,Oser me traiter de ravisseur...\NC'est intolérable !
+Dialogue: 0,0:16:13.76,0:16:15.60,Default,,0,0,0,,Il a raison !\NC'est grave !
+Dialogue: 0,0:16:15.80,0:16:18.47,Default,,0,0,0,,Tu t'es rapproché de Mari\Npour mon argent !
+Dialogue: 0,0:16:18.97,0:16:20.27,Default,,0,0,0,,Ne fais pas l'innocent !
+Dialogue: 0,0:16:20.64,0:16:22.39,Default,,0,0,0,,N'importe quoi !
+Dialogue: 0,0:16:22.69,0:16:25.15,Default,,0,0,0,,C'est par amour que je suis avec elle.
+Dialogue: 0,0:16:25.31,0:16:26.40,Default,,0,0,0,,M. Kondô.
+Dialogue: 0,0:16:26.90,0:16:30.11,Default,,0,0,0,,Où étiez-vous\Net que faisiez-vous à 9 h, ce matin ?
+Dialogue: 0,0:16:30.65,0:16:31.90,Default,,0,0,0,,Ce matin ?
+Dialogue: 0,0:16:32.70,0:16:34.70,Default,,0,0,0,,Je dormais encore, à cette heure-là.
+Dialogue: 0,0:16:34.91,0:16:37.08,Default,,0,0,0,,Quelqu'un peut le prouver ?
+Dialogue: 0,0:16:37.45,0:16:40.25,Default,,0,0,0,,Comment voulez-vous ?\NJe vis seul !
+Dialogue: 0,0:16:40.83,0:16:42.46,Default,,0,0,0,,Tu n'as pas d'alibi !
+Dialogue: 0,0:16:42.66,0:16:45.50,Default,,0,0,0,,C'est donc bien toi !\NRends-moi mon argent !
+Dialogue: 0,0:16:45.67,0:16:47.17,Default,,0,0,0,,Stop !\NCalmez-vous !
+Dialogue: 0,0:16:49.21,0:16:50.42,Default,,0,0,0,,Ça va ?
+Dialogue: 0,0:16:51.01,0:16:53.63,Default,,0,0,0,,J'ai comme un coup de fatigue...
+Dialogue: 0,0:16:54.26,0:16:56.80,Default,,0,0,0,,C'est normal,\Naprès avoir été séquestré...
+Dialogue: 0,0:16:57.22,0:17:00.06,Default,,0,0,0,,Vous feriez mieux\Nde vous reposer un moment.
+Dialogue: 0,0:17:00.60,0:17:01.73,Default,,0,0,0,,Excusez-moi...
+Dialogue: 0,0:17:01.89,0:17:04.44,Default,,0,0,0,,Je vous reconduis chez vous.
+Dialogue: 0,0:17:05.23,0:17:06.23,Default,,0,0,0,,Merci...
+Dialogue: 0,0:17:08.48,0:17:11.57,Default,,0,0,0,,Je suis vraiment soulagée\Nqu'il n'ait pas été blessé.
+Dialogue: 0,0:17:12.28,0:17:16.07,Default,,0,0,0,,Quand je l'ai vu ligoté,\Nj'ai eu peur qu'on l'ait violenté.
+Dialogue: 0,0:17:23.29,0:17:26.21,ST_HAUT,,0,0,0,,STATION THERMALE YAMASHIRO\NBAIN PUBLIC ANCIEN
+Dialogue: 0,0:17:26.79,0:17:29.42,ST_HAUT,,0,0,0,,SANCTUAIRE HATTORI
+Dialogue: 0,0:17:40.72,0:17:42.43,Default,,0,0,0,,Vous comptez faire quoi avec ça ?
+Dialogue: 0,0:17:45.27,0:17:46.56,Default,,0,0,0,,Que faites-vous ici ?
+Dialogue: 0,0:17:47.06,0:17:49.40,Default,,0,0,0,,On s'est permis de vous suivre.
+Dialogue: 0,0:17:49.94,0:17:51.07,Default,,0,0,0,,Mais pourquoi ?
+Dialogue: 0,0:17:51.69,0:17:53.74,Default,,0,0,0,,Parce que je me suis rendu compte
+Dialogue: 0,0:17:54.15,0:17:57.82,Default,,0,0,0,,que votre histoire d'enlèvement\Nn'était qu'une fumisterie !
+Dialogue: 0,0:17:58.32,0:18:01.66,Default,,0,0,0,,Et cet argent\Nen est la meilleure des preuves !
+Dialogue: 0,0:18:02.08,0:18:04.45,Default,,0,0,0,,J'ai trouvé ce sac par hasard !
+Dialogue: 0,0:18:04.75,0:18:06.12,Default,,0,0,0,,Arrête de mentir !
+Dialogue: 0,0:18:06.46,0:18:09.04,Default,,0,0,0,,C'est toi qui as inventé\Nce faux enlèvement !
+Dialogue: 0,0:18:09.33,0:18:11.38,Default,,0,0,0,,Jamais de la vie !
+Dialogue: 0,0:18:11.75,0:18:15.09,Default,,0,0,0,,Pourquoi vous n'avez pas\Nde marques aux poignets, alors ?
+Dialogue: 0,0:18:15.26,0:18:17.13,Default,,0,0,0,,Vos mains étaient ligotées, non ?
+Dialogue: 0,0:18:17.34,0:18:20.14,Default,,0,0,0,,Elles sont parties,\Nau bout d'un moment...
+Dialogue: 0,0:18:20.30,0:18:23.81,Default,,0,0,0,,Faux !\NVous n'avez jamais été attaché !
+Dialogue: 0,0:18:24.47,0:18:26.48,Default,,0,0,0,,Quand on observe bien cette photo,
+Dialogue: 0,0:18:26.64,0:18:29.90,Default,,0,0,0,,on voit le reflet de votre dos\Nsur la vitre !
+Dialogue: 0,0:18:30.56,0:18:34.19,Default,,0,0,0,,Vous avez juste les mains dans le dos,\Nvous n'êtes pas attaché !
+Dialogue: 0,0:18:37.03,0:18:38.28,Default,,0,0,0,,Dommage pour vous,
+Dialogue: 0,0:18:39.07,0:18:42.99,Default,,0,0,0,,mais impossible de tromper\Nles yeux du grand Kogorô Môri !
+Dialogue: 0,0:18:43.54,0:18:46.20,Default,,0,0,0,,{\i1}Ouais...\NC'est moi qui l'ai remarqué...{\i0}
+Dialogue: 0,0:18:46.54,0:18:49.58,Default,,0,0,0,,C'est juste la lumière\Nqui donne cette impression...
+Dialogue: 0,0:18:49.75,0:18:50.88,Default,,0,0,0,,Vous savez quoi ?
+Dialogue: 0,0:18:51.04,0:18:54.88,Default,,0,0,0,,La forme des oreilles est unique,\Ncomme les empreintes digitales...
+Dialogue: 0,0:18:55.21,0:18:57.30,Default,,0,0,0,,Quoi ?\NOù veux-tu en venir ?
+Dialogue: 0,0:18:57.67,0:19:01.68,Default,,0,0,0,,La vidéosurveillance a filmé\Ncelui qui a récupéré la rançon.
+Dialogue: 0,0:19:02.05,0:19:04.26,Default,,0,0,0,,Son visage était masqué,
+Dialogue: 0,0:19:04.43,0:19:06.52,Default,,0,0,0,,mais comme on voit bien ses oreilles,
+Dialogue: 0,0:19:06.68,0:19:09.23,Default,,0,0,0,,il suffira de les comparer aux vôtres
+Dialogue: 0,0:19:09.39,0:19:11.69,Default,,0,0,0,,pour savoir si c'est vous ou pas.
+Dialogue: 0,0:19:12.27,0:19:14.19,Default,,0,0,0,,Vous allez persister à nier ?
+Dialogue: 0,0:19:17.69,0:19:20.20,Default,,0,0,0,,Manabu !\NTu n'as pas honte, ingrat ?
+Dialogue: 0,0:19:20.57,0:19:22.82,Default,,0,0,0,,C'est comme ça que tu me remercies ?
+Dialogue: 0,0:19:23.28,0:19:25.33,Default,,0,0,0,,Tout ça, c'est votre faute !
+Dialogue: 0,0:19:25.66,0:19:27.83,Default,,0,0,0,,C'est pour ma prime de départ !
+Dialogue: 0,0:19:28.20,0:19:30.87,Default,,0,0,0,,Vous raconterez tout ça au poste.
+Dialogue: 0,0:19:31.42,0:19:33.71,Default,,0,0,0,,Merde !\NVous ne m'arrêterez pas !
+Dialogue: 0,0:19:43.93,0:19:44.72,Default,,0,0,0,,Stop !
+Dialogue: 0,0:19:46.47,0:19:48.06,Default,,0,0,0,,Ça va, papa ?
+Dialogue: 0,0:19:49.39,0:19:51.35,Default,,0,0,0,,30 millions, ça fait son poids !
+Dialogue: 0,0:19:52.10,0:19:54.11,Default,,0,0,0,,Tu vas arrêter avec tes bêtises ?
+Dialogue: 0,0:20:04.70,0:20:05.37,Default,,0,0,0,,Quel régal !
+Dialogue: 0,0:20:05.87,0:20:08.54,Default,,0,0,0,,Papa !\NCe ne sont pas des manières !
+Dialogue: 0,0:20:09.25,0:20:10.37,Default,,0,0,0,,Merci...
+Dialogue: 0,0:20:11.08,0:20:14.04,Default,,0,0,0,,C'est très gentil\Nde nous offrir un tel festin.
+Dialogue: 0,0:20:14.46,0:20:17.21,Default,,0,0,0,,Vous m'avez permis\Nde récupérer mes 30 millions,
+Dialogue: 0,0:20:17.38,0:20:19.13,Default,,0,0,0,,ce n'est vraiment pas cher payé !
+Dialogue: 0,0:20:19.63,0:20:22.01,Default,,0,0,0,,Seulement, Manabu s'est enfui...
+Dialogue: 0,0:20:23.01,0:20:27.14,Default,,0,0,0,,La police locale est à sa poursuite,\Nelle le coincera tôt ou tard !
+Dialogue: 0,0:20:27.93,0:20:29.22,Default,,0,0,0,,Maudit Manabu...
+Dialogue: 0,0:20:29.93,0:20:32.31,Default,,0,0,0,,Si on l'attrape, je lui en colle une.
+Dialogue: 0,0:20:32.89,0:20:35.02,Default,,0,0,0,,Au fait, avant de s'enfuir,
+Dialogue: 0,0:20:35.19,0:20:38.15,Default,,0,0,0,,M. Saikawa a parlé d'une prime.\NDe quoi s'agit-il ?
+Dialogue: 0,0:20:38.73,0:20:40.61,Default,,0,0,0,,Je pense qu'il parlait
+Dialogue: 0,0:20:40.78,0:20:44.28,Default,,0,0,0,,de sa prime de départ\Nque mon père a revu à la baisse.
+Dialogue: 0,0:20:44.61,0:20:45.41,Default,,0,0,0,,C'est vrai ?
+Dialogue: 0,0:20:46.12,0:20:48.62,Default,,0,0,0,,C'est lui qui a démissionné\Naprès sa blessure.
+Dialogue: 0,0:20:49.08,0:20:51.83,Default,,0,0,0,,Mais ça s'est passé\Nsur son lieu de travail, non ?
+Dialogue: 0,0:20:52.16,0:20:53.87,Default,,0,0,0,,Un mioche ne peut pas comprendre !
+Dialogue: 0,0:20:54.21,0:20:57.63,Default,,0,0,0,,C'est à moi que cette blessure\Na fait perdre énormément !
+Dialogue: 0,0:20:58.21,0:20:59.96,Default,,0,0,0,,Pardon...
+Dialogue: 0,0:21:01.92,0:21:03.01,Default,,0,0,0,,Bonne nuit !
+Dialogue: 0,0:21:03.34,0:21:04.80,Default,,0,0,0,,Bonne nuit !
+Dialogue: 0,0:21:06.47,0:21:07.85,Default,,0,0,0,,J'ai bien mangé, moi !
+Dialogue: 0,0:21:08.01,0:21:09.64,Default,,0,0,0,,Il s'en est passé des trucs !
+Dialogue: 0,0:21:09.81,0:21:11.02,Default,,0,0,0,,Tu l'as dit...
+Dialogue: 0,0:21:11.22,0:21:13.64,Default,,0,0,0,,Laissons la police s'occuper du reste !
+Dialogue: 0,0:21:13.98,0:21:15.73,Default,,0,0,0,,Nous, on va rentrer se coucher
+Dialogue: 0,0:21:16.15,0:21:18.27,Default,,0,0,0,,et on reprendra les visites demain !
+Dialogue: 0,0:21:18.48,0:21:19.19,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:21:19.36,0:21:22.86,Default,,0,0,0,,Mais avant de regagner l'hôtel,\Non va conclure avec des {\i1}râmen{\i0} !
+Dialogue: 0,0:21:23.61,0:21:25.07,Default,,0,0,0,,Tu vas encore manger ?
+Dialogue: 0,0:21:25.24,0:21:26.74,Default,,0,0,0,,Évidemment !
+Dialogue: 0,0:21:27.37,0:21:28.16,Default,,0,0,0,,Et pas qu'un peu !
+Dialogue: 0,0:21:28.99,0:21:29.99,Default,,0,0,0,,C'est parti !
+Dialogue: 0,0:21:36.62,0:21:38.50,Default,,0,0,0,,Pourquoi ç'a pris ces proportions ?
+Dialogue: 0,0:21:39.29,0:21:41.38,Default,,0,0,0,,Je voulais juste récupérer mon argent...
+Dialogue: 0,0:21:53.98,0:21:55.10,Default,,0,0,0,,Ordure...
+Dialogue: 0,0:21:55.52,0:21:59.23,Default,,0,0,0,,N'espère pas\Nt'en tirer à bon compte après ça...
+Dialogue: 0,0:22:13.87,0:22:16.21,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:20.29,0:22:22.42,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

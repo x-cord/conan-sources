@@ -1,0 +1,294 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:07.04,0:00:08.34,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:00:09.13,0:00:12.22,ST_HAUT,,0,0,0,,Vous avez bien dit\N"Kogorô Môri, le grand détective" ?
+Dialogue: 0,0:00:14.34,0:00:15.09,Default,,0,0,0,,Oui...
+Dialogue: 0,0:00:15.59,0:00:19.14,Default,,0,0,0,,Et qu'est-ce qu'il me veut,\Nle grand détective ?
+Dialogue: 0,0:00:19.31,0:00:23.35,Default,,0,0,0,,Voici Petit tatou, c'est l'animal\Nde ma cliente qui a disparu.
+Dialogue: 0,0:00:23.89,0:00:28.36,Default,,0,0,0,,C'est une grande dame de Ginza\Nqui habite à Haido.
+Dialogue: 0,0:00:36.82,0:00:39.33,Default,,0,0,0,,{\i1}Monsieur Môri,\Nvous êtes un grand détective.{\i0}
+Dialogue: 0,0:00:39.91,0:00:43.41,ST_HAUT,,0,0,0,,{\i1}J'aimerais\Nque vous cherchiez mon Petit tatou.{\i0}
+Dialogue: 0,0:00:43.83,0:00:45.58,Default,,0,0,0,,{\i1}Voici sa photo.{\i0}
+Dialogue: 0,0:00:46.37,0:00:48.00,Default,,0,0,0,,{\i1}Un tatou, vous dites ?{\i0}
+Dialogue: 0,0:00:48.50,0:00:51.92,Default,,0,0,0,,{\i1}Oui, il a disparu hier\Naux environs du pont de Birinmon{\i0}
+Dialogue: 0,0:00:52.09,0:00:55.47,Default,,0,0,0,,{\i1}alors que j'étais sur le point\Nde le ramener chez moi !{\i0}
+Dialogue: 0,0:00:56.18,0:00:59.47,Default,,0,0,0,,{\i1}Je vois...\NLe pont de Birinmon, hein.{\i0}
+Dialogue: 0,0:01:00.43,0:01:03.60,Default,,0,0,0,,{\i1}Il y a un marché aux poissons là-bas,{\i0}
+Dialogue: 0,0:01:04.60,0:01:06.98,Default,,0,0,0,,{\i1}j'ai peur que mon Petit tatou{\i0}
+Dialogue: 0,0:01:07.94,0:01:09.19,Default,,0,0,0,,{\i1}y ait été transformé{\i0}
+Dialogue: 0,0:01:09.98,0:01:11.40,Default,,0,0,0,,{\i1}en surimi !{\i0}
+Dialogue: 0,0:01:11.90,0:01:15.36,Default,,0,0,0,,{\i1}S'il vous plaît, monsieur Môri !\NRetrouvez-le !{\i0}
+Dialogue: 0,0:01:15.70,0:01:16.91,Default,,0,0,0,,{\i1}Retrouvez{\i0}
+Dialogue: 0,0:01:17.45,0:01:19.16,Default,,0,0,0,,{\i1}mon Petit tatou !{\i0}
+Dialogue: 0,0:01:19.78,0:01:22.20,Default,,0,0,0,,{\i1}Je vous en supplie !{\i0}
+Dialogue: 0,0:01:22.99,0:01:24.87,Default,,0,0,0,,Vous savez tout...
+Dialogue: 0,0:01:25.16,0:01:27.17,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:01:27.62,0:01:29.54,Default,,0,0,0,,Ce tatou aurait été transformé
+Dialogue: 0,0:01:31.17,0:01:33.30,Default,,0,0,0,,en surimi au marché\Nde Birinmon, hein ?
+Dialogue: 0,0:01:34.46,0:01:37.55,Default,,0,0,0,,Moi, c'est un commerce de thon\Nque je tiens.
+Dialogue: 0,0:01:39.18,0:01:42.60,Default,,0,0,0,,Je sais bien... Et loin de moi\Nl'idée de croire que...
+Dialogue: 0,0:01:42.76,0:01:44.02,Default,,0,0,0,,Fichez le camp !
+Dialogue: 0,0:01:44.72,0:01:49.40,Default,,0,0,0,,On ne vend pas de tatou\Ndans ce marché aux poissons !
+Dialogue: 0,0:01:51.98,0:01:54.03,Default,,0,0,0,,C'est un marché aux poissons, ici !
+Dialogue: 0,0:01:56.19,0:01:58.07,Default,,0,0,0,,Un tatou, c'est pas un poisson !
+Dialogue: 0,0:02:00.16,0:02:02.45,Default,,0,0,0,,On ne vend pas de ça ici !
+Dialogue: 0,0:02:09.62,0:02:13.63,Default,,0,0,0,,MARCHÉ AUX POISSONS
+Dialogue: 0,0:02:18.80,0:02:20.22,Default,,0,0,0,,On rentre à l'agence...
+Dialogue: 0,0:02:20.55,0:02:21.64,Default,,0,0,0,,Il vaut mieux, oui.
+Dialogue: 0,0:02:27.14,0:02:27.93,Default,,0,0,0,,Hop !
+Dialogue: 0,0:02:29.60,0:02:30.73,Default,,0,0,0,,À Beika !
+Dialogue: 0,0:02:32.61,0:02:36.61,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:36.90,0:02:40.36,Default,,0,0,0,,{\i1}Une diction au rythme fluide\Npour un raisonnement parfait !{\i0}
+Dialogue: 0,0:02:40.53,0:02:42.07,Default,,0,0,0,,{\i1}Pas de tatou au marché,{\i0}
+Dialogue: 0,0:02:42.24,0:02:44.16,Default,,0,0,0,,{\i1}mais un curieux chauffeur de taxi...{\i0}
+Dialogue: 0,0:02:44.33,0:02:47.37,ST_BAS_DROITE,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:47.54,0:02:49.83,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:03:14.73,0:03:16.65,ST_HAUT_GAUCHE,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:03:21.99,0:03:23.82,ST_HAUT_DROITE,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:03:26.20,0:03:28.20,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:03:33.88,0:03:36.00,ST_HAUT_DROITE,,0,0,0,,Générique d'ouverture :\N"Makkana Lip"
+Dialogue: 0,0:03:38.92,0:03:40.67,ST_HAUT_DROITE,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:03:42.68,0:03:44.39,ST_HAUT_DROITE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:03:48.60,0:03:50.48,ST_HAUT_GAUCHE,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:53.27,0:03:55.11,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:04:01.40,0:04:03.66,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:04:14.50,0:04:17.04,Default,,0,0,0,,{\i1}Enquête et poursuite en taxi !{\i0}
+Dialogue: 0,0:04:26.59,0:04:28.22,Default,,0,0,0,,N'empêche...
+Dialogue: 0,0:04:28.56,0:04:32.48,Default,,0,0,0,,Je me demande où peut bien\Nêtre passé ce Petit tatou.
+Dialogue: 0,0:04:34.14,0:04:37.31,Default,,0,0,0,,Mais vous êtes Kogorô Môri,\Nl'illustre détective !
+Dialogue: 0,0:04:38.65,0:04:41.44,Default,,0,0,0,,En effet,\Non ne peut rien vous cacher...
+Dialogue: 0,0:04:41.99,0:04:44.74,ST_HAUT,,0,0,0,,Je suis un grand fan, monsieur Môri !
+Dialogue: 0,0:04:45.07,0:04:46.41,Default,,0,0,0,,Épousez-moi !
+Dialogue: 0,0:04:47.12,0:04:47.78,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:04:47.95,0:04:50.16,Default,,0,0,0,,Monsieur, le volant !
+Dialogue: 0,0:04:57.83,0:05:00.38,Default,,0,0,0,,Pardonnez-moi, c'est l'émotion...
+Dialogue: 0,0:05:00.63,0:05:03.72,Default,,0,0,0,,C'est sorti tout seul,\Nvous comprenez...
+Dialogue: 0,0:05:04.47,0:05:06.05,Default,,0,0,0,,Mais ne vous méprenez pas,
+Dialogue: 0,0:05:06.22,0:05:08.05,Default,,0,0,0,,je suis juste hyper fan !
+Dialogue: 0,0:05:08.22,0:05:09.72,Default,,0,0,0,,- Regardez devant vous !\N- D'accord...
+Dialogue: 0,0:05:10.18,0:05:12.89,Default,,0,0,0,,Fan au point de vouloir m'épouser ?
+Dialogue: 0,0:05:13.10,0:05:14.06,Default,,0,0,0,,Ça te fait plaisir ?
+Dialogue: 0,0:05:14.23,0:05:15.56,Default,,0,0,0,,Mais non, pas du tout !
+Dialogue: 0,0:05:16.14,0:05:17.77,Default,,0,0,0,,Pas du tout, mais...
+Dialogue: 0,0:05:20.57,0:05:21.82,Default,,0,0,0,,Si, ça te fait plaisir.
+Dialogue: 0,0:05:24.28,0:05:25.20,Default,,0,0,0,,Chauffeur...
+Dialogue: 0,0:05:25.57,0:05:28.57,Default,,0,0,0,,Qu'y a-t-il,\Ntrès cher Kogorô Môri ?
+Dialogue: 0,0:05:29.99,0:05:31.33,Default,,0,0,0,,Nous ne sommes pas pressés.
+Dialogue: 0,0:05:31.66,0:05:34.62,Default,,0,0,0,,Vous pouvez faire\Nun petit détour, si vous voulez.
+Dialogue: 0,0:05:35.41,0:05:37.08,Default,,0,0,0,,Merci infiniment !
+Dialogue: 0,0:05:40.21,0:05:41.38,Default,,0,0,0,,Ah, j'y pense !
+Dialogue: 0,0:05:41.71,0:05:44.34,Default,,0,0,0,,Monsieur Môri,\Ngrand détective devant l'éternel !
+Dialogue: 0,0:05:44.76,0:05:47.01,Default,,0,0,0,,Qu'y a-t-il, chauffeur ?
+Dialogue: 0,0:05:47.22,0:05:49.80,Default,,0,0,0,,Parler de détour\Nm'a rappelé quelque chose.
+Dialogue: 0,0:05:50.18,0:05:52.10,Default,,0,0,0,,Et quoi donc ?
+Dialogue: 0,0:05:52.26,0:05:54.43,Default,,0,0,0,,2 frères louches\Naux lunettes noires.
+Dialogue: 0,0:05:54.68,0:05:56.73,Default,,0,0,0,,"2 frères louches\Naux lunettes noires" ?
+Dialogue: 0,0:05:58.31,0:05:59.06,Default,,0,0,0,,Oui.
+Dialogue: 0,0:05:59.40,0:06:03.32,Default,,0,0,0,,Ils sont montés hier au carrefour\Ndu marché aux poissons de Birinmon
+Dialogue: 0,0:06:03.48,0:06:05.07,Default,,0,0,0,,où je vous ai pris tout à l'heure.
+Dialogue: 0,0:06:09.32,0:06:10.57,Default,,0,0,0,,Quant à vous dire
+Dialogue: 0,0:06:11.12,0:06:13.20,Default,,0,0,0,,comment j'ai su\Nqu'ils étaient frères...
+Dialogue: 0,0:06:14.70,0:06:16.37,Default,,0,0,0,,{\i1}Allez-y...{\i0}
+Dialogue: 0,0:06:16.54,0:06:18.04,Default,,0,0,0,,{\i1}Tout droit...{\i0}
+Dialogue: 0,0:06:18.21,0:06:22.09,Default,,0,0,0,,{\i1}- Je vous prie !\N- Je vous prie !{\i0}
+Dialogue: 0,0:06:23.00,0:06:28.59,Default,,0,0,0,,Seuls deux frères pouvaient chanter\Naussi bien à l'unisson !
+Dialogue: 0,0:06:29.22,0:06:31.18,Default,,0,0,0,,Et quelle était leur destination ?
+Dialogue: 0,0:06:31.72,0:06:32.55,Default,,0,0,0,,Je te le dirai pas.
+Dialogue: 0,0:06:33.76,0:06:38.23,Default,,0,0,0,,Et donc, ces deux frères\Nont fait un détour, c'est ça ?
+Dialogue: 0,0:06:38.52,0:06:41.48,Default,,0,0,0,,Je reconnais bien là\NKogorô Môri, le grand détective !
+Dialogue: 0,0:06:41.65,0:06:43.57,Default,,0,0,0,,Brillante déduction !
+Dialogue: 0,0:06:44.36,0:06:45.40,Default,,0,0,0,,Je sais !
+Dialogue: 0,0:06:45.65,0:06:48.28,Default,,0,0,0,,Monsieur Môri,\Ndétective parmi les détectives !
+Dialogue: 0,0:06:48.61,0:06:49.28,Default,,0,0,0,,Quoi encore ?
+Dialogue: 0,0:06:49.78,0:06:51.28,Default,,0,0,0,,Pour vous remercier,
+Dialogue: 0,0:06:51.45,0:06:54.08,Default,,0,0,0,,je vais vous dévoiler\Nle détour qu'ils ont fait !
+Dialogue: 0,0:06:55.08,0:06:57.00,Default,,0,0,0,,Mais non, c'est pas la peine !
+Dialogue: 0,0:06:57.29,0:06:59.75,Default,,0,0,0,,Si, laissez-moi vous montrer !
+Dialogue: 0,0:07:00.58,0:07:02.25,Default,,0,0,0,,Non !
+Dialogue: 0,0:07:07.92,0:07:10.76,ST_HAUT,,0,0,0,,MARCHÉ AUX POISSONS DE BIRINMON
+Dialogue: 0,0:07:11.51,0:07:15.60,Default,,0,0,0,,C'est à ce carrefour que sont montés\Nces deux frères bizarres.
+Dialogue: 0,0:07:16.43,0:07:19.77,Default,,0,0,0,,On est ensuite allés tout droit,\Non a passé un feu,
+Dialogue: 0,0:07:20.19,0:07:22.35,Default,,0,0,0,,puis deux.
+Dialogue: 0,0:07:23.15,0:07:25.07,Default,,0,0,0,,Au troisième feu,
+Dialogue: 0,0:07:25.40,0:07:27.03,Default,,0,0,0,,on a tourné à gauche.
+Dialogue: 0,0:07:27.78,0:07:30.65,Default,,0,0,0,,On est arrivés\Ndans ce quartier de petites usines.
+Dialogue: 0,0:07:31.15,0:07:34.91,Default,,0,0,0,,Puis, on a tourné au fond à gauche\Net emprunté cette voie à sens unique
+Dialogue: 0,0:07:35.08,0:07:38.33,Default,,0,0,0,,le long de la digue bétonnée\Nde la rivière Teimuzu.
+Dialogue: 0,0:07:42.00,0:07:44.42,Default,,0,0,0,,On a continué tout droit\Njusqu'à apercevoir
+Dialogue: 0,0:07:44.79,0:07:46.92,Default,,0,0,0,,ce parc en hauteur sur la gauche.
+Dialogue: 0,0:07:47.50,0:07:51.42,Default,,0,0,0,,Après ce parc, on a passé une, deux,
+Dialogue: 0,0:07:51.84,0:07:55.43,Default,,0,0,0,,trois, quatre ruelles.\NEt à la cinquième,
+Dialogue: 0,0:07:55.68,0:07:57.35,Default,,0,0,0,,on a tourné à gauche.
+Dialogue: 0,0:08:00.27,0:08:04.15,Default,,0,0,0,,Ensuite, en tournant à nouveau\Nà la deuxième à gauche,
+Dialogue: 0,0:08:04.60,0:08:07.77,Default,,0,0,0,,on est arrivés\Nà un petit parking avec parcmètre.
+Dialogue: 0,0:08:09.03,0:08:11.53,Default,,0,0,0,,Et comme ils m'ont dit de m'arrêter,\Nj'ai obéi.
+Dialogue: 0,0:08:12.03,0:08:14.78,Default,,0,0,0,,{\i1}Arrêtez-vous, ici !{\i0}
+Dialogue: 0,0:08:19.04,0:08:23.54,Default,,0,0,0,,{\i1}Un tel détour n'était pas nécessaire\Npour venir ici, messieurs !{\i0}
+Dialogue: 0,0:08:23.87,0:08:28.63,Default,,0,0,0,,{\i1}Je connaissais un raccourci,\Nça vous aurait coûté moins cher !{\i0}
+Dialogue: 0,0:08:28.84,0:08:31.92,Default,,0,0,0,,{\i1}Ce n'est rien !{\i0}
+Dialogue: 0,0:08:32.09,0:08:33.05,Default,,0,0,0,,{\i1}Vraiment ?{\i0}
+Dialogue: 0,0:08:33.38,0:08:36.30,Default,,0,0,0,,{\i1}Ce n'est rien !{\i0}
+Dialogue: 0,0:08:38.10,0:08:40.97,Default,,0,0,0,,{\i1}Laissez tourner le compteur !{\i0}
+Dialogue: 0,0:08:41.64,0:08:42.18,Default,,0,0,0,,{\i1}Hein ?{\i0}
+Dialogue: 0,0:08:42.73,0:08:45.23,Default,,0,0,0,,- {\i1}Nous reviendrons...\N{\i0}- {\i1}... aussitôt...{\i0}
+Dialogue: 0,0:08:45.40,0:08:47.94,Default,,0,0,0,,{\i1}... qu'on aura terminé !{\i0}
+Dialogue: 0,0:08:48.40,0:08:49.11,Default,,0,0,0,,OK...
+Dialogue: 0,0:08:49.27,0:08:51.23,Default,,0,0,0,,{\i1}La porte !{\i0}
+Dialogue: 0,0:08:51.40,0:08:52.28,Default,,0,0,0,,{\i1}Ah oui...{\i0}
+Dialogue: 0,0:08:58.24,0:09:00.29,Default,,0,0,0,,Au début,\Nj'ai cru qu'ils m'avaient roulé,
+Dialogue: 0,0:09:00.45,0:09:02.37,Default,,0,0,0,,mais ils sont revenus payer après.
+Dialogue: 0,0:09:02.54,0:09:06.12,Default,,0,0,0,,Où sont allés ces deux frères\Nune fois descendus ?
+Dialogue: 0,0:09:06.79,0:09:08.63,Default,,0,0,0,,Ils ont pris ces escaliers en pierre
+Dialogue: 0,0:09:09.21,0:09:10.88,Default,,0,0,0,,jusqu'aux berges de la rivière.
+Dialogue: 0,0:09:16.01,0:09:20.64,Default,,0,0,0,,C'est le raisonnement endormi\Nde Kogorô Môri, le grand détective !
+Dialogue: 0,0:09:21.35,0:09:25.14,Default,,0,0,0,,"Pourquoi ces deux frères bizarres\Nont-ils fait un détour
+Dialogue: 0,0:09:25.31,0:09:27.23,Default,,0,0,0,,"pour se rendre à ce parking
+Dialogue: 0,0:09:27.85,0:09:31.19,Default,,0,0,0,,"avant de monter ces escaliers\Nqui mènent au barrage ?"
+Dialogue: 0,0:09:31.36,0:09:33.90,Default,,0,0,0,,Je suis sûr\Nque c'est à ça qu'il cogite !
+Dialogue: 0,0:09:35.11,0:09:36.03,Default,,0,0,0,,La classe !
+Dialogue: 0,0:09:36.95,0:09:39.49,Default,,0,0,0,,Monsieur Môri,\Nmon grand détective,
+Dialogue: 0,0:09:39.82,0:09:41.37,Default,,0,0,0,,je vous adore !
+Dialogue: 0,0:09:48.42,0:09:51.54,Default,,0,0,0,,Ouvrez ! Ouvrez cette porte ! Vite !
+Dialogue: 0,0:09:56.26,0:10:00.01,Default,,0,0,0,,Monsieur Kogorô Môri,\Nmon grand détective adoré !
+Dialogue: 0,0:10:01.81,0:10:02.85,Default,,0,0,0,,C'est quoi, ce bruit ?
+Dialogue: 0,0:10:04.06,0:10:07.69,Default,,0,0,0,,Ils répètent sûrement pour la fête\Ndes cheminées fantômes...
+Dialogue: 0,0:10:07.85,0:10:09.65,Default,,0,0,0,,"La fête des cheminées fantômes" ?
+Dialogue: 0,0:10:11.11,0:10:12.23,Default,,0,0,0,,J'avais vu juste.
+Dialogue: 0,0:10:19.11,0:10:21.45,Default,,0,0,0,,FÊTE
+Dialogue: 0,0:10:27.00,0:10:30.75,Default,,0,0,0,,Des grandes cheminées crachaient\Ndes fumées de différentes couleurs
+Dialogue: 0,0:10:31.04,0:10:35.26,Default,,0,0,0,,ici avant la guerre, on les appelait\N"les cheminées fantômes",
+Dialogue: 0,0:10:35.67,0:10:39.30,Default,,0,0,0,,mais après leur destruction,\Non a construit un parc à la place.
+Dialogue: 0,0:10:39.84,0:10:44.10,Default,,0,0,0,,Seulement, par nostalgie,\Nles habitants du quartier de Birinmon
+Dialogue: 0,0:10:44.26,0:10:47.06,Default,,0,0,0,,ont inventé\Ncette fête des Cheminées fantômes.
+Dialogue: 0,0:10:47.98,0:10:49.44,Default,,0,0,0,,Il y a même des stands !
+Dialogue: 0,0:10:50.44,0:10:54.48,Default,,0,0,0,,Ils s'inspirent d'Halloween et vendent\Ndes costumes et des accessoires.
+Dialogue: 0,0:10:54.65,0:10:56.94,Default,,0,0,0,,C'est une fête très animée !
+Dialogue: 0,0:10:57.74,0:11:02.12,Default,,0,0,0,,Depuis, ç'a été posté sur le Net\Net ç'a attiré les fans de fantômes
+Dialogue: 0,0:11:02.28,0:11:05.08,Default,,0,0,0,,de tout le Japon et du monde entier !
+Dialogue: 0,0:11:05.24,0:11:07.20,Default,,0,0,0,,Il doit y avoir foule...
+Dialogue: 0,0:11:07.75,0:11:11.62,Default,,0,0,0,,Oui, au point qu'il paraît\Nqu'ils ont même prévu un gros coffre
+Dialogue: 0,0:11:11.83,0:11:14.54,Default,,0,0,0,,au local du comité\Ndes Cheminées fantômes.
+Dialogue: 0,0:11:21.09,0:11:23.18,Default,,0,0,0,,LOCAL DU COMITÉ\NDES CHEMINÉES FANTÔMES
+Dialogue: 0,0:11:28.60,0:11:31.94,Default,,0,0,0,,FÊTE DES CHEMINÉES FANTÔMES
+Dialogue: 0,0:11:37.44,0:11:40.20,Default,,0,0,0,,Ils font quoi de l'argent\Ndans le coffre ?
+Dialogue: 0,0:11:40.65,0:11:43.74,Default,,0,0,0,,Un fourgon de transport de fonds\Nvient le récupérer.
+Dialogue: 0,0:11:44.53,0:11:46.08,Default,,0,0,0,,"Un fourgon" ?
+Dialogue: 0,0:11:46.49,0:11:47.29,Default,,0,0,0,,Regarde.
+Dialogue: 0,0:11:48.70,0:11:51.21,Default,,0,0,0,,Une affiche qui indique les horaires
+Dialogue: 0,0:11:51.37,0:11:54.71,Default,,0,0,0,,où on pourra circuler le jour\Nde la fête des Cheminées fantômes ?
+Dialogue: 0,0:11:55.38,0:11:58.96,Default,,0,0,0,,Le fourgon de transport de fonds\Nsemble passer vers 16 heures,
+Dialogue: 0,0:11:59.13,0:12:01.59,Default,,0,0,0,,vu que les stands\Nferment à 15 heures.
+Dialogue: 0,0:12:02.47,0:12:04.97,Default,,0,0,0,,Et où pourra-t-on se garer\Nprès d'ici ?
+Dialogue: 0,0:12:05.55,0:12:08.22,Default,,0,0,0,,Uniquement\Nà ce fameux parking 2 places...
+Dialogue: 0,0:12:11.64,0:12:12.60,Default,,0,0,0,,{\i1}Je vois...{\i0}
+Dialogue: 0,0:12:12.94,0:12:14.27,Default,,0,0,0,,{\i1}C'était donc ça...{\i0}
+Dialogue: 0,0:12:16.86,0:12:18.11,Default,,0,0,0,,Ça soulage !
+Dialogue: 0,0:12:20.24,0:12:22.53,Default,,0,0,0,,Monsieur Kogorô Môri,\Nmon cher détective !
+Dialogue: 0,0:12:23.91,0:12:27.16,Default,,0,0,0,,Monsieur Môri ! D'après vous,\Npourquoi ces étranges frères
+Dialogue: 0,0:12:27.37,0:12:32.16,Default,,0,0,0,,ont-ils volontairement fait un détour\Nen taxi jusqu'à ce parc ?
+Dialogue: 0,0:12:32.50,0:12:36.29,Default,,0,0,0,,Faites-moi l'honneur de me livrer\Nune de vos célèbres déductions !
+Dialogue: 0,0:12:36.67,0:12:38.55,Default,,0,0,0,,C'est parce qu'en fait...
+Dialogue: 0,0:12:38.80,0:12:39.67,Default,,0,0,0,,Oui ?
+Dialogue: 0,0:12:40.26,0:12:44.55,Default,,0,0,0,,Ces deux étranges frères\Nfaisaient un concours !
+Dialogue: 0,0:12:44.72,0:12:46.09,Default,,0,0,0,,"Un concours" ?
+Dialogue: 0,0:12:46.43,0:12:50.14,Default,,0,0,0,,C'était à celui qui se retiendrait\Nle plus longtemps d'uriner !
+Dialogue: 0,0:12:51.10,0:12:52.56,Default,,0,0,0,,Mais c'est bien sûr !
+Dialogue: 0,0:12:52.73,0:12:55.94,Default,,0,0,0,,Je reconnais bien là\Nle grand détective que vous êtes !
+Dialogue: 0,0:12:57.73,0:12:58.52,Default,,0,0,0,,Il m'applaudit !
+Dialogue: 0,0:12:59.86,0:13:01.82,Default,,0,0,0,,Mais moi, je sais quel détour
+Dialogue: 0,0:13:01.99,0:13:05.74,Default,,0,0,0,,les 2 frères aux lunettes noires\Nont fait quand ils sont repartis
+Dialogue: 0,0:13:06.16,0:13:07.37,Default,,0,0,0,,avec vous !
+Dialogue: 0,0:13:27.26,0:13:30.60,Default,,0,0,0,,FÊTE DES CHEMINÉES FANTÔMES
+Dialogue: 0,0:14:07.30,0:14:09.64,Default,,0,0,0,,MASQUES -\NACCESSOIRES FANTÔMES
+Dialogue: 0,0:14:13.47,0:14:15.48,Default,,0,0,0,,Petit tatou !
+Dialogue: 0,0:14:15.64,0:14:17.02,Default,,0,0,0,,Où es-tu ?
+Dialogue: 0,0:14:17.35,0:14:18.14,Default,,0,0,0,,Ohé !
+Dialogue: 0,0:14:18.73,0:14:21.40,Default,,0,0,0,,Montre-toi, Petit tatou !
+Dialogue: 0,0:14:22.52,0:14:27.15,Default,,0,0,0,,Bon sang ! Je jure de retrouver\Nl'animal de compagnie de ma cliente !
+Dialogue: 0,0:14:30.32,0:14:33.33,Default,,0,0,0,,BOULETTES DE POULPE -\NGRANITÉS
+Dialogue: 0,0:14:36.54,0:14:37.04,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:14:37.83,0:14:40.46,Default,,0,0,0,,Où est passé le petit binoclard ?
+Dialogue: 0,0:14:41.88,0:14:43.92,Default,,0,0,0,,Il fait sûrement le tour des stands
+Dialogue: 0,0:14:44.09,0:14:46.05,Default,,0,0,0,,avec l'argent\Nque Ran a dû lui donner.
+Dialogue: 0,0:14:46.55,0:14:47.80,Default,,0,0,0,,Ce gamin, alors...
+Dialogue: 0,0:14:54.14,0:14:58.06,ST_HAUT,,0,0,0,,{\i1}C'est le seul endroit à proximité\Nde la fête où on peut se garer.{\i0}
+Dialogue: 0,0:14:59.44,0:15:02.69,Default,,0,0,0,,{\i1}Les convoyeurs de fonds\Nvont se garer ici{\i0}
+Dialogue: 0,0:15:03.19,0:15:06.03,Default,,0,0,0,,{\i1}pour aller récupérer l'argent\Nau local.{\i0}
+Dialogue: 0,0:15:07.28,0:15:09.95,Default,,0,0,0,,{\i1}Les frères aux lunettes noires{\i0}
+Dialogue: 0,0:15:10.11,0:15:12.99,Default,,0,0,0,,{\i1}vont en profiter\Npour se garer à côté.{\i0}
+Dialogue: 0,0:15:17.12,0:15:20.71,Default,,0,0,0,,{\i1}Ensuite, ils vont attendre le retour\Ndes convoyeurs pour les voler{\i0}
+Dialogue: 0,0:15:23.29,0:15:24.84,Default,,0,0,0,,{\i1}et s'enfuir avec l'argent.{\i0}
+Dialogue: 0,0:15:27.13,0:15:29.84,Default,,0,0,0,,{\i1}À nous le magot !{\i0}
+Dialogue: 0,0:15:49.49,0:15:51.36,Default,,0,0,0,,- À bras !\N- Et hop là !
+Dialogue: 0,0:15:53.16,0:15:54.49,Default,,0,0,0,,{\i1}Ce n'était pas eux...{\i0}
+Dialogue: 0,0:16:00.50,0:16:02.46,Default,,0,0,0,,{\i1}Mais si la place est prise,{\i0}
+Dialogue: 0,0:16:02.75,0:16:06.00,Default,,0,0,0,,{\i1}les 2 frères\Nne pourront pas se garer ici...{\i0}
+Dialogue: 0,0:16:06.88,0:16:09.21,Default,,0,0,0,,{\i1}Où vont-ils laisser\Nleur voiture, alors ?{\i0}
+Dialogue: 0,0:16:14.47,0:16:15.55,Default,,0,0,0,,- OK.\N- C'est bon.
+Dialogue: 0,0:16:23.77,0:16:26.27,Default,,0,0,0,,{\i1}À nous le magot !{\i0}
+Dialogue: 0,0:16:26.98,0:16:28.53,Default,,0,0,0,,{\i1}Je ne vois que ça !{\i0}
+Dialogue: 0,0:16:29.82,0:16:31.07,Default,,0,0,0,,{\i1}15 h...{\i0}
+Dialogue: 0,0:16:31.61,0:16:33.70,Default,,0,0,0,,{\i1}C'est l'heure\Nde fermeture des stands.{\i0}
+Dialogue: 0,0:16:44.17,0:16:46.79,Default,,0,0,0,,{\i1}16 h... Ils ne devraient plus tarder.{\i0}
+Dialogue: 0,0:16:51.42,0:16:52.42,Default,,0,0,0,,{\i1}Les voilà...{\i0}
+Dialogue: 0,0:17:09.98,0:17:12.99,Default,,0,0,0,,{\i1}Les 2 frères en voiture\Nvont bientôt se montrer...{\i0}
+Dialogue: 0,0:17:20.37,0:17:20.91,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:17:21.37,0:17:23.71,Default,,0,0,0,,Ohé, Petit tatou !
+Dialogue: 0,0:17:24.33,0:17:25.21,Default,,0,0,0,,Tonton ?
+Dialogue: 0,0:17:25.50,0:17:27.71,Default,,0,0,0,,Petit tatou ! Où es-tu ?
+Dialogue: 0,0:17:28.29,0:17:29.96,Default,,0,0,0,,"Petit tatou" ?
+Dialogue: 0,0:17:31.50,0:17:32.34,Default,,0,0,0,,Ce sont eux !
+Dialogue: 0,0:17:32.84,0:17:34.67,Default,,0,0,0,,{\i1}Seuls deux frères{\i0}
+Dialogue: 0,0:17:34.84,0:17:38.39,Default,,0,0,0,,{\i1}pourraient chanter aussi bien\Nà l'unisson !{\i0}
+Dialogue: 0,0:17:39.22,0:17:40.39,Default,,0,0,0,,Aux voleurs !
+Dialogue: 0,0:17:41.01,0:17:42.64,Default,,0,0,0,,Attrapez ces deux hommes !
+Dialogue: 0,0:17:49.02,0:17:50.23,Default,,0,0,0,,Hé, gamin !
+Dialogue: 0,0:17:50.90,0:17:51.86,Default,,0,0,0,,{\i1}Chiotte !{\i0}
+Dialogue: 0,0:17:52.03,0:17:55.49,Default,,0,0,0,,{\i1}Ils s'étaient grimés en convoyeurs\Ndès le départ pour voler l'argent !{\i0}
+Dialogue: 0,0:18:07.33,0:18:09.63,Default,,0,0,0,,{\i1}Je sais par où\Nils comptent s'enfuir !{\i0}
+Dialogue: 0,0:19:05.68,0:19:07.23,Default,,0,0,0,,Il faut suivre ce fourgon !
+Dialogue: 0,0:19:07.68,0:19:09.23,Default,,0,0,0,,Je pige pas tout, mais OK...
+Dialogue: 0,0:19:28.66,0:19:31.37,Default,,0,0,0,,MARCHÉ AUX POISSONS DE BIRINMON
+Dialogue: 0,0:19:47.43,0:19:48.48,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:19:52.77,0:19:55.23,Default,,0,0,0,,- Chiotte ! Oh là là !\N- Oh là là !
+Dialogue: 0,0:19:55.52,0:19:56.98,Default,,0,0,0,,Ordures !
+Dialogue: 0,0:20:02.66,0:20:03.53,Default,,0,0,0,,Prenez ça !
+Dialogue: 0,0:20:31.06,0:20:32.64,Default,,0,0,0,,Petit tatou !
+Dialogue: 0,0:20:39.57,0:20:43.86,Default,,0,0,0,,On a trouvé ce tatou près du marché\Naux poissons de Birinmon !
+Dialogue: 0,0:20:44.16,0:20:46.49,Default,,0,0,0,,Et on l'a utilisé
+Dialogue: 0,0:20:46.83,0:20:49.87,Default,,0,0,0,,afin de forcer les convoyeurs
+Dialogue: 0,0:20:50.20,0:20:53.08,Default,,0,0,0,,à stopper leur fourgon
+Dialogue: 0,0:20:57.96,0:21:01.59,Default,,0,0,0,,pour leur voler !
+Dialogue: 0,0:21:06.68,0:21:07.60,Default,,0,0,0,,Là, c'est normal...
+Dialogue: 0,0:21:18.02,0:21:20.36,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:24.40,0:21:26.49,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:36.85,0:22:38.48,Default,,0,0,0,,Désolé pour l'attente !
+Dialogue: 0,0:22:38.85,0:22:43.61,Default,,0,0,0,,J'ai retrouvé votre animal de compagnie,\Nle tatou qui avait disparu !
+Dialogue: 0,0:22:44.19,0:22:48.61,Default,,0,0,0,,Merci infiniment ! Vous êtes\Nun grand détective, monsieur Môri.
+Dialogue: 0,0:22:49.49,0:22:51.74,Default,,0,0,0,,Mais ce n'est pas\Nqu'un animal de compagnie.
+Dialogue: 0,0:22:52.28,0:22:52.83,Default,,0,0,0,,Pardon ?
+Dialogue: 0,0:22:53.28,0:22:55.00,Default,,0,0,0,,Qu'entendez-vous par là ?
+Dialogue: 0,0:22:58.54,0:23:00.67,Default,,0,0,0,,Je compte en faire un animal vedette
+Dialogue: 0,0:23:01.00,0:23:03.75,Default,,0,0,0,,qui me rapportera énormément d'argent.
+Dialogue: 0,0:23:12.89,0:23:16.10,Default,,0,0,0,,Que diriez-vous de former\Nun duo avec lui, monsieur Môri ?
+Dialogue: 0,0:23:16.77,0:23:18.27,Default,,0,0,0,,Non merci, ça ira !
+Dialogue: 0,0:23:19.60,0:23:21.60,Default,,0,0,0,,Mon Petit tatou s'est encore enfui !
+Dialogue: 0,0:23:21.77,0:23:24.40,Default,,0,0,0,,Attrapez-le, monsieur Môri !
+Dialogue: 0,0:23:24.61,0:23:25.61,Default,,0,0,0,,C'est hors de question !
+Dialogue: 0,0:23:26.69,0:23:28.61,Default,,0,0,0,,Armadillo & Kogorô...

@@ -1,0 +1,380 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.80,0:00:03.37,Default,,0,0,0,,{\i1}Un livre non publié{\i0}
+Dialogue: 0,0:00:04.08,0:00:06.04,Default,,0,0,0,,{\i1}a été envoyé à tonton Kogorô{\i0}
+Dialogue: 0,0:00:06.48,0:00:09.88,Default,,0,0,0,,{\i1}pour l'avertir\Nd'une série d'attentats à la bombe.{\i0}
+Dialogue: 0,0:00:11.09,0:00:12.92,Default,,0,0,0,,{\i1}On a soupçonné Takuji Hirukawa,{\i0}
+Dialogue: 0,0:00:13.93,0:00:15.87,ST_HAUT,,0,0,0,,{\i1}poseur de bombes déjà condamné{\i0}
+Dialogue: 0,0:00:16.04,0:00:18.88,ST_HAUT,,0,0,0,,{\i1}et demi-frère{\i0}\N{\i1}de l'auteur décédé du livre.{\i0}
+Dialogue: 0,0:00:19.95,0:00:21.04,Default,,0,0,0,,{\i1}Grâce à tonton,{\i0}
+Dialogue: 0,0:00:22.01,0:00:24.77,Default,,0,0,0,,{\i1}sa deuxième bombe\Nn'a pas pu exploser.{\i0}
+Dialogue: 0,0:00:28.72,0:00:29.72,Default,,0,0,0,,Dieu merci...
+Dialogue: 0,0:00:30.40,0:00:31.12,Default,,0,0,0,,On a réussi !
+Dialogue: 0,0:00:31.43,0:00:32.47,Default,,0,0,0,,INCONNU
+Dialogue: 0,0:00:35.96,0:00:38.56,Default,,0,0,0,,{\i1}Tic, tac. Tic, tac. Boum !{\i0}
+Dialogue: 0,0:00:39.41,0:00:42.36,Default,,0,0,0,,{\i1}Vous êtes un sacré détective,\NKogorô Môri.{\i0}
+Dialogue: 0,0:00:43.23,0:00:45.08,Default,,0,0,0,,{\i1}Mais le jeu est loin{\i0}
+Dialogue: 0,0:00:45.92,0:00:47.09,Default,,0,0,0,,{\i1}d'être terminé.{\i0}
+Dialogue: 0,0:00:48.12,0:00:49.43,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:00:51.21,0:00:53.76,Default,,0,0,0,,{\i1}"Pépé Tic-tac est horloger.{\i0}
+Dialogue: 0,0:00:54.53,0:00:56.57,Default,,0,0,0,,{\i1}"Tic, tac. Tic, tac.{\i0}
+Dialogue: 0,0:00:57.32,0:00:58.96,Default,,0,0,0,,{\i1}"Livrons la dernière horloge{\i0}
+Dialogue: 0,0:00:59.41,0:01:01.73,Default,,0,0,0,,{\i1}"au milieu des 7."{\i0}
+Dialogue: 0,0:01:03.92,0:01:08.16,ST_HAUT,,0,0,0,,{\i1}Le rideau se lève sur le héros !{\i0}\N{\i1}Il élucidera l'affaire avec brio !{\i0}
+Dialogue: 0,0:01:08.43,0:01:12.20,Default,,0,0,0,,{\i1}Le "7" qui indique la dernière bombe\Nmarquera un revirement !{\i0}
+Dialogue: 0,0:01:12.84,0:01:16.33,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:16.47,0:01:18.81,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:19.47,0:01:22.96,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:54.87,0:01:57.87,Default,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:01:58.72,0:02:01.72,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:02.60,0:02:05.61,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:10.40,0:02:14.17,Default,,0,0,0,,Générique d'ouverture :\N"Lie, lie, lie"
+Dialogue: 0,0:02:14.52,0:02:17.65,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:18.52,0:02:21.72,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:22.43,0:02:25.43,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:02:32.80,0:02:35.33,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:37.60,0:02:40.64,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:50.20,0:02:53.61,Default,,0,0,0,,{\i1}"Le Poseur de bombes\Nsorti d'un livre (2e partie)" !{\i0}
+Dialogue: 0,0:02:55.32,0:02:58.40,Default,,0,0,0,,LIVRONS LA DERNIÈRE HORLOGE\NAU MILIEU DES SEPT.
+Dialogue: 0,0:02:59.23,0:03:02.65,Default,,0,0,0,,Bon sang !\NC'est quoi, "le milieu des 7" ?
+Dialogue: 0,0:03:03.28,0:03:06.00,Default,,0,0,0,,7 divisé par 2 égal 3, 5...
+Dialogue: 0,0:03:06.32,0:03:09.60,Default,,0,0,0,,"7", "nana" en japonais...\NLe milieu des 2 "na" ?
+Dialogue: 0,0:03:11.36,0:03:13.04,Default,,0,0,0,,{\i1}"Seven" ! "Ve" ?{\i0}
+Dialogue: 0,0:03:14.80,0:03:17.32,Default,,0,0,0,,J'ai l'impression que rien ne colle...
+Dialogue: 0,0:03:18.36,0:03:20.20,Default,,0,0,0,,Je pige pas !
+Dialogue: 0,0:03:23.80,0:03:24.84,Default,,0,0,0,,Hé, vous !
+Dialogue: 0,0:03:25.00,0:03:28.00,Default,,0,0,0,,Vous ne vous souvenez\Nvraiment pas des réponses ?
+Dialogue: 0,0:03:28.16,0:03:28.95,Default,,0,0,0,,Désolé...
+Dialogue: 0,0:03:29.56,0:03:32.87,ST_HAUT,,0,0,0,,Comme je vous l'ai déjà dit,\Nla publication avait été reportée,
+Dialogue: 0,0:03:33.04,0:03:36.84,ST_HAUT,,0,0,0,,et trop occupé,\Nje n'ai pu que survoler le livre.
+Dialogue: 0,0:03:37.84,0:03:39.47,Default,,0,0,0,,Mais je me souviens de la fin.
+Dialogue: 0,0:03:39.92,0:03:40.92,Default,,0,0,0,,De la fin ?
+Dialogue: 0,0:03:41.28,0:03:43.68,Default,,0,0,0,,Ce n'était pas à 100 % un happy end.
+Dialogue: 0,0:03:43.92,0:03:46.36,Default,,0,0,0,,Et comme le livre\Nétait destiné aux enfants,
+Dialogue: 0,0:03:46.60,0:03:48.56,Default,,0,0,0,,ç'avait posé problème au siège.
+Dialogue: 0,0:03:48.80,0:03:52.68,Default,,0,0,0,,Je l'ai lu en entier\Net j'ai pensé pareil.
+Dialogue: 0,0:03:52.84,0:03:55.43,Default,,0,0,0,,Ça tranchait\Navec le côté mignon du livre.
+Dialogue: 0,0:03:55.95,0:03:57.20,Default,,0,0,0,,De quoi tu parles ?
+Dialogue: 0,0:03:57.36,0:03:58.43,Default,,0,0,0,,Du pépé qui meurt !
+Dialogue: 0,0:03:58.92,0:04:01.11,Default,,0,0,0,,En fait, on apprend à la fin du livre
+Dialogue: 0,0:04:01.28,0:04:04.28,Default,,0,0,0,,que Pépé Tic-tac\Nétait gravement malade.
+Dialogue: 0,0:04:05.32,0:04:08.40,Default,,0,0,0,,Mais on est un peu soulagé\Npar l'épilogue
+Dialogue: 0,0:04:08.56,0:04:11.11,Default,,0,0,0,,car on voit\Nson petit-fils lui succéder
+Dialogue: 0,0:04:11.28,0:04:14.72,Default,,0,0,0,,10 ans plus tard\Net devenir un remarquable horloger.
+Dialogue: 0,0:04:15.28,0:04:16.43,Default,,0,0,0,,C'est bien ça.
+Dialogue: 0,0:04:16.60,0:04:17.72,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:04:17.87,0:04:20.36,Default,,0,0,0,,C'était pas un indice\Nqui mène à la bombe ?
+Dialogue: 0,0:04:20.68,0:04:23.92,Default,,0,0,0,,Moi, ce que je veux,\Nc'est la réponse à la devinette !
+Dialogue: 0,0:04:24.20,0:04:25.95,Default,,0,0,0,,Tu auras beau dire...
+Dialogue: 0,0:04:26.11,0:04:27.23,Default,,0,0,0,,Désolé...
+Dialogue: 0,0:04:28.11,0:04:30.47,Default,,0,0,0,,Dites...\NÇa vous fait penser à quoi, "7" ?
+Dialogue: 0,0:04:31.92,0:04:34.00,Default,,0,0,0,,Qu'est-ce que vous évoque "7" ?
+Dialogue: 0,0:04:34.16,0:04:35.56,Default,,0,0,0,,Ce que ça nous évoque ?
+Dialogue: 0,0:04:36.20,0:04:37.52,Default,,0,0,0,,Ah, mais oui !
+Dialogue: 0,0:04:37.68,0:04:39.95,Default,,0,0,0,,Les 7 jours d'une semaine,\Npar exemple ?
+Dialogue: 0,0:04:40.11,0:04:40.76,Default,,0,0,0,,Voilà !
+Dialogue: 0,0:04:41.20,0:04:43.92,Default,,0,0,0,,Il y a aussi\Nles 7 couleurs de l'arc-en-ciel.
+Dialogue: 0,0:04:46.08,0:04:47.68,Default,,0,0,0,,Ou les 7 notes de la gamme !
+Dialogue: 0,0:04:47.95,0:04:49.92,Default,,0,0,0,,Et quel est leur milieu ?
+Dialogue: 0,0:04:50.52,0:04:52.36,Default,,0,0,0,,"Jeudi" pour la semaine.
+Dialogue: 0,0:04:52.52,0:04:53.72,Default,,0,0,0,,Pour l'arc-en-ciel...
+Dialogue: 0,0:04:54.80,0:04:56.95,Default,,0,0,0,,C'est le vert, il me semble.
+Dialogue: 0,0:04:57.56,0:04:59.95,Default,,0,0,0,,Pour la gamme, c'est le "fa"...
+Dialogue: 0,0:05:00.20,0:05:02.80,Default,,0,0,0,,C'est pas les exemples qui manquent...
+Dialogue: 0,0:05:03.28,0:05:04.00,Default,,0,0,0,,C'est vrai.
+Dialogue: 0,0:05:04.16,0:05:08.36,Default,,0,0,0,,Mais si une bombe explose\Ndans un lieu indiqué par l'indice ?
+Dialogue: 0,0:05:08.52,0:05:10.08,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:05:10.32,0:05:12.80,Default,,0,0,0,,Oui... On se doit d'intervenir !
+Dialogue: 0,0:05:13.16,0:05:17.20,Default,,0,0,0,,Que tous les effectifs se lancent\Nà la recherche de la bombe !
+Dialogue: 0,0:05:17.43,0:05:18.36,Default,,0,0,0,,À vos ordres !
+Dialogue: 0,0:05:20.20,0:05:21.68,Default,,0,0,0,,Euh, inspecteur...
+Dialogue: 0,0:05:22.16,0:05:24.23,Default,,0,0,0,,Je ne ferai sûrement que vous gêner
+Dialogue: 0,0:05:24.47,0:05:26.20,Default,,0,0,0,,en restant ici davantage...
+Dialogue: 0,0:05:26.68,0:05:27.80,Default,,0,0,0,,En effet...
+Dialogue: 0,0:05:28.08,0:05:30.40,Default,,0,0,0,,Surtout qu'on sait\Noù orienter l'enquête.
+Dialogue: 0,0:05:30.72,0:05:32.60,Default,,0,0,0,,Vous pouvez rentrer chez vous.
+Dialogue: 0,0:05:33.23,0:05:34.64,Default,,0,0,0,,Merci beaucoup.
+Dialogue: 0,0:05:36.52,0:05:39.28,Default,,0,0,0,,Ah, merci.\NSur ce, je vous laisse.
+Dialogue: 0,0:05:41.60,0:05:43.16,Default,,0,0,0,,Ah, le livre !
+Dialogue: 0,0:05:44.56,0:05:46.72,Default,,0,0,0,,Passe-le-moi, Conan !\NVous oubliez ça !
+Dialogue: 0,0:05:47.23,0:05:49.08,Default,,0,0,0,,Vous n'en avez plus besoin ?
+Dialogue: 0,0:05:52.04,0:05:54.32,Default,,0,0,0,,{\i1}C'est bizarre, quand même...{\i0}
+Dialogue: 0,0:05:55.08,0:05:58.04,Default,,0,0,0,,{\i1}Jusqu'à présent,\Nmême si c'était des devinettes,{\i0}
+Dialogue: 0,0:05:58.20,0:06:01.16,Default,,0,0,0,,{\i1}elles menaient forcément\Nà une seule réponse.{\i0}
+Dialogue: 0,0:06:02.04,0:06:05.43,Default,,0,0,0,,{\i1}Mais cette fois,\Nla devinette est très vague.{\i0}
+Dialogue: 0,0:06:07.08,0:06:08.56,Default,,0,0,0,,{\i1}Je me demande pourquoi.{\i0}
+Dialogue: 0,0:06:09.43,0:06:10.80,Default,,0,0,0,,{\i1}Autre chose,{\i0}
+Dialogue: 0,0:06:11.40,0:06:14.64,Default,,0,0,0,,{\i1}la bombe que tonton a jetée\Ndans l'égout m'intrigue.{\i0}
+Dialogue: 0,0:06:16.52,0:06:17.36,Default,,0,0,0,,{\i1}D'ailleurs,{\i0}
+Dialogue: 0,0:06:18.20,0:06:20.60,Default,,0,0,0,,{\i1}comme tous les effectifs\Nsont mobilisés,{\i0}
+Dialogue: 0,0:06:21.60,0:06:23.23,Default,,0,0,0,,{\i1}ils laissent de côté l'enquête{\i0}
+Dialogue: 0,0:06:23.72,0:06:25.56,Default,,0,0,0,,{\i1}sur cette bombe non déclenchée.{\i0}
+Dialogue: 0,0:06:27.56,0:06:28.64,Default,,0,0,0,,{\i1}Se pourrait-il que...{\i0}
+Dialogue: 0,0:06:29.28,0:06:31.47,Default,,0,0,0,,- Bien, continuez.\N- Inspecteur Megure !
+Dialogue: 0,0:06:31.64,0:06:34.00,Default,,0,0,0,,Oui ? Qu'y a-t-il, Conan ?
+Dialogue: 0,0:06:34.52,0:06:36.95,Default,,0,0,0,,Concrètement, il avait fait quoi,
+Dialogue: 0,0:06:37.11,0:06:39.23,Default,,0,0,0,,Hirukawa, le poseur de bombes ?
+Dialogue: 0,0:06:39.64,0:06:41.36,Default,,0,0,0,,Quelle question...
+Dialogue: 0,0:06:41.52,0:06:43.72,Default,,0,0,0,,Il posait des bombes, pardi !
+Dialogue: 0,0:06:43.95,0:06:45.80,Default,,0,0,0,,Il les fabriquait lui-même
+Dialogue: 0,0:06:45.95,0:06:48.47,Default,,0,0,0,,pour faire exploser\Ndes coffres de banque
+Dialogue: 0,0:06:48.72,0:06:51.23,Default,,0,0,0,,ou des fourgons de transport de fonds
+Dialogue: 0,0:06:51.40,0:06:53.36,Default,,0,0,0,,pour voler de fortes sommes.
+Dialogue: 0,0:06:54.87,0:06:56.87,Default,,0,0,0,,Mais pourquoi cette question ?
+Dialogue: 0,0:06:57.04,0:06:58.76,Default,,0,0,0,,Non, pour rien !
+Dialogue: 0,0:06:59.76,0:07:00.95,Default,,0,0,0,,{\i1}Ça ne colle pas !{\i0}
+Dialogue: 0,0:07:01.60,0:07:04.87,Default,,0,0,0,,{\i1}Ça n'a rien à voir\Navec le mobile de vengeance{\i0}
+Dialogue: 0,0:07:05.36,0:07:06.36,Default,,0,0,0,,{\i1}de cette fois-ci.{\i0}
+Dialogue: 0,0:07:21.60,0:07:23.95,Default,,0,0,0,,SOCIÉTÉ DE SÉCURITÉ MEGREZ
+Dialogue: 0,0:07:28.20,0:07:29.92,Default,,0,0,0,,Il s'est passé un truc ?
+Dialogue: 0,0:07:30.20,0:07:31.20,Default,,0,0,0,,Je ne sais pas...
+Dialogue: 0,0:07:34.08,0:07:36.32,Default,,0,0,0,,Quoi ? Vous avez trouvé la bombe ?
+Dialogue: 0,0:07:37.64,0:07:39.95,Default,,0,0,0,,Dépôt d'ordure du building Jeudi n° 3
+Dialogue: 0,0:07:40.56,0:07:41.84,Default,,0,0,0,,à Toriya ?
+Dialogue: 0,0:07:42.20,0:07:43.72,Default,,0,0,0,,On en a trouvé une autre !
+Dialogue: 0,0:07:44.40,0:07:46.36,Default,,0,0,0,,Au verger de Kenbashi,
+Dialogue: 0,0:07:46.95,0:07:49.47,Default,,0,0,0,,dans une poubelle\Ndu bureau de gestion.
+Dialogue: 0,0:07:50.04,0:07:52.92,Default,,0,0,0,,Je suis à l'usine d'Alliage FA\Nà Daitoma.
+Dialogue: 0,0:07:53.28,0:07:55.00,Default,,0,0,0,,C'est une usine de placage
+Dialogue: 0,0:07:55.68,0:07:57.11,Default,,0,0,0,,surnommée "Al-Fa".
+Dialogue: 0,0:07:57.68,0:08:00.47,Default,,0,0,0,,On a trouvé une bombe\Ndans une benne à cartons.
+Dialogue: 0,0:08:01.72,0:08:03.76,Default,,0,0,0,,3 bombes en même temps ?
+Dialogue: 0,0:08:09.00,0:08:10.40,Default,,0,0,0,,Il s'est passé quelque chose ?
+Dialogue: 0,0:08:10.56,0:08:12.00,Default,,0,0,0,,Je suis désolé,
+Dialogue: 0,0:08:12.28,0:08:14.52,Default,,0,0,0,,mais on a découvert une bombe\Nplus loin.
+Dialogue: 0,0:08:14.68,0:08:16.92,Default,,0,0,0,,Une bombe ?
+Dialogue: 0,0:08:17.20,0:08:20.04,Default,,0,0,0,,On a trouvé tes bombes !\NTrois en tout !
+Dialogue: 0,0:08:20.72,0:08:22.20,Default,,0,0,0,,Comment on les désactive ?
+Dialogue: 0,0:08:22.84,0:08:24.36,Default,,0,0,0,,Hé ! Réponds !
+Dialogue: 0,0:08:25.36,0:08:26.52,Default,,0,0,0,,Réponds, bon sang !
+Dialogue: 0,0:08:36.72,0:08:38.76,Default,,0,0,0,,BOUH ! JE T'AI FAIT PEUR ?
+Dialogue: 0,0:08:40.87,0:08:44.43,Default,,0,0,0,,Quoi ?\NLes 3 bombes étaient factices ?
+Dialogue: 0,0:08:45.80,0:08:47.04,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:08:50.20,0:08:53.80,Default,,0,0,0,,Saleté ! Il cherchait quoi,\Nce maudit Hirukawa ?
+Dialogue: 0,0:08:53.95,0:08:55.08,Default,,0,0,0,,C'est un piège !
+Dialogue: 0,0:08:56.23,0:08:58.40,Default,,0,0,0,,Comme avec les autres devinettes.
+Dialogue: 0,0:08:58.56,0:09:02.43,Default,,0,0,0,,Ces 3 bombes étaient des leurres,\Nla vraie est ailleurs !
+Dialogue: 0,0:09:02.87,0:09:03.92,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:09:05.28,0:09:06.20,Default,,0,0,0,,Encore !
+Dialogue: 0,0:09:06.68,0:09:07.68,Default,,0,0,0,,Encore !
+Dialogue: 0,0:09:08.20,0:09:09.16,Default,,0,0,0,,Encore !
+Dialogue: 0,0:09:09.43,0:09:10.43,Default,,0,0,0,,Encore !
+Dialogue: 0,0:09:10.68,0:09:11.68,Default,,0,0,0,,Encore !
+Dialogue: 0,0:09:23.72,0:09:25.04,Default,,0,0,0,,Un problème ?
+Dialogue: 0,0:09:25.68,0:09:27.68,Default,,0,0,0,,Hé ! Monsieur l'agent ?
+Dialogue: 0,0:09:30.36,0:09:31.60,Default,,0,0,0,,Tout va bien ?
+Dialogue: 0,0:09:50.04,0:09:51.95,Default,,0,0,0,,"Société de sécurité Megrez" ?
+Dialogue: 0,0:09:53.95,0:09:56.00,Default,,0,0,0,,Ça ne va pas, Conan ?
+Dialogue: 0,0:09:56.23,0:09:59.04,Default,,0,0,0,,Le "Megrez"\Ndans "société de sécurité Megrez",
+Dialogue: 0,0:09:59.36,0:10:00.72,Default,,0,0,0,,c'est cette étoile.
+Dialogue: 0,0:10:02.11,0:10:03.16,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:10:04.56,0:10:06.52,Default,,0,0,0,,un dessin de la Grande Ourse...
+Dialogue: 0,0:10:07.87,0:10:09.04,Default,,0,0,0,,Le Septentrion ?
+Dialogue: 0,0:10:09.47,0:10:13.36,Default,,0,0,0,,Exact ! Les 7 étoiles\Nde l'arrière de la Grande Ourse
+Dialogue: 0,0:10:13.52,0:10:15.47,Default,,0,0,0,,sont appelées "Septentrion".
+Dialogue: 0,0:10:15.76,0:10:19.68,Default,,0,0,0,,Et celle qui se trouve\Nau milieu des 7, c'est Megrez.
+Dialogue: 0,0:10:20.20,0:10:22.36,Default,,0,0,0,,{\i1}"Au milieu des 7", c'est ça ?{\i0}
+Dialogue: 0,0:10:24.32,0:10:26.36,Default,,0,0,0,,{\i1}Maudit poseur de bombes...{\i0}
+Dialogue: 0,0:10:26.72,0:10:28.76,Default,,0,0,0,,{\i1}Sachant\Nqu'on n'arriverait pas à temps,{\i0}
+Dialogue: 0,0:10:28.92,0:10:30.87,Default,,0,0,0,,{\i1}il a joué le jeu...{\i0}
+Dialogue: 0,0:10:31.47,0:10:33.92,Default,,0,0,0,,Inspecteur Megure !\NRegardez ça !
+Dialogue: 0,0:10:34.60,0:10:36.68,Default,,0,0,0,,{\i1}Lieu d'explosion\N                                 Parc Kanematsu{\i0}
+Dialogue: 0,0:10:37.04,0:10:38.56,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:10:39.08,0:10:40.43,Default,,0,0,0,,... le plan des égouts ?
+Dialogue: 0,0:10:40.87,0:10:42.04,Default,,0,0,0,,Exactement !
+Dialogue: 0,0:10:42.20,0:10:44.40,Default,,0,0,0,,Il part de la bouche\Ndu parc Kanematsu,
+Dialogue: 0,0:10:44.56,0:10:48.43,Default,,0,0,0,,où M. Môri a jeté la bombe,\Npour arriver jusqu'ici.
+Dialogue: 0,0:10:49.84,0:10:53.64,Default,,0,0,0,,Ne me dites pas\Nque la bombe a flotté jusqu'ici ?
+Dialogue: 0,0:10:54.43,0:10:56.32,Default,,0,0,0,,{\i1}Si, aucun doute possible !{\i0}
+Dialogue: 0,0:10:56.84,0:10:57.92,Default,,0,0,0,,Avec la pluie d'hier,
+Dialogue: 0,0:10:58.11,0:11:01.64,Default,,0,0,0,,elle a dû être emportée\Npar le surplus d'eau dans l'égout
+Dialogue: 0,0:11:02.00,0:11:04.20,Default,,0,0,0,,et stoppée par la grille à déchets.
+Dialogue: 0,0:11:05.84,0:11:07.60,Default,,0,0,0,,D'après les experts,
+Dialogue: 0,0:11:08.08,0:11:11.72,Default,,0,0,0,,on a très bien pu la faire exploser\Navec une télécommande.
+Dialogue: 0,0:11:12.16,0:11:14.84,Default,,0,0,0,,Euh, en bref, ça signifie quoi ?
+Dialogue: 0,0:11:15.32,0:11:18.87,Default,,0,0,0,,Dès le départ,\Nil devait probablement viser
+Dialogue: 0,0:11:19.16,0:11:21.68,Default,,0,0,0,,ce fourgon de convoi de fonds, non ?
+Dialogue: 0,0:11:22.40,0:11:23.52,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:11:23.80,0:11:25.84,Default,,0,0,0,,On dirait bien que oui, au final...
+Dialogue: 0,0:11:26.64,0:11:29.43,Default,,0,0,0,,S'il t'a fait jeter cette bombe\Ndans l'égout,
+Dialogue: 0,0:11:30.28,0:11:32.80,Default,,0,0,0,,c'était pour qu'elle arrive ici.
+Dialogue: 0,0:11:33.36,0:11:35.43,Default,,0,0,0,,Quant à la première explosion,
+Dialogue: 0,0:11:36.20,0:11:39.92,Default,,0,0,0,,elle lui a servi\Nà camoufler ce fameux coup.
+Dialogue: 0,0:11:40.64,0:11:41.84,Default,,0,0,0,,C'est pas vrai...
+Dialogue: 0,0:11:43.47,0:11:45.60,Default,,0,0,0,,Il s'est foutu de moi !
+Dialogue: 0,0:11:46.23,0:11:47.23,Default,,0,0,0,,Inspecteur Megure !
+Dialogue: 0,0:11:49.87,0:11:50.47,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:11:51.11,0:11:53.23,Default,,0,0,0,,On a trouvé la planque de Hirukawa ?
+Dialogue: 0,0:11:57.87,0:11:58.95,Default,,0,0,0,,Je vous guide !
+Dialogue: 0,0:12:02.08,0:12:03.64,Default,,0,0,0,,Inspecteur ! Suivons-les !
+Dialogue: 0,0:12:03.80,0:12:04.56,Default,,0,0,0,,OK !
+Dialogue: 0,0:12:04.72,0:12:05.72,Default,,0,0,0,,Attendez !
+Dialogue: 0,0:12:06.52,0:12:08.68,Default,,0,0,0,,Comment l'avez-vous découverte ?
+Dialogue: 0,0:12:10.20,0:12:12.87,Default,,0,0,0,,Suite à un appel anonyme à la police.
+Dialogue: 0,0:12:14.56,0:12:18.47,Default,,0,0,0,,Quelqu'un a aperçu Takuji Hirukawa\Net demandé qu'on l'arrête.
+Dialogue: 0,0:12:19.08,0:12:21.32,Default,,0,0,0,,Il a donné l'adresse et a raccroché.
+Dialogue: 0,0:12:24.11,0:12:26.72,Default,,0,0,0,,{\i1}Je vois... C'était donc ça !{\i0}
+Dialogue: 0,0:13:24.56,0:13:25.84,Default,,0,0,0,,Regardez qui voilà !
+Dialogue: 0,0:13:26.28,0:13:28.95,Default,,0,0,0,,Votre blessure est guérie,\Nà ce que je vois.
+Dialogue: 0,0:13:30.23,0:13:31.64,Default,,0,0,0,,Monsieur Tomonaga.
+Dialogue: 0,0:13:33.36,0:13:36.80,Default,,0,0,0,,On dirait vraiment\Nque vous n'avez jamais été blessé.
+Dialogue: 0,0:13:37.43,0:13:39.04,Default,,0,0,0,,Où voulez-vous en venir ?
+Dialogue: 0,0:13:39.95,0:13:43.08,Default,,0,0,0,,Vous vous mettez bientôt\Nà votre compte, il paraît.
+Dialogue: 0,0:13:43.28,0:13:47.28,Default,,0,0,0,,C'est grâce à l'argent\Nque Hirukawa a volé dans le fourgon ?
+Dialogue: 0,0:13:48.36,0:13:51.43,Default,,0,0,0,,Je ne vois pas de quoi vous parlez...
+Dialogue: 0,0:13:51.87,0:13:53.84,Default,,0,0,0,,Vous avez vu les informations ?
+Dialogue: 0,0:13:54.92,0:13:58.40,Default,,0,0,0,,La planque de Hirukawa\Na explosé avant de brûler.
+Dialogue: 0,0:13:58.72,0:14:00.56,Default,,0,0,0,,Oui, j'ai vu ça tout à l'heure.
+Dialogue: 0,0:14:00.87,0:14:04.68,Default,,0,0,0,,D'après l'expert,\Nmême additionner les billets trouvés
+Dialogue: 0,0:14:04.95,0:14:07.28,Default,,0,0,0,,à ceux qui ont brûlé\Ndans les décombres
+Dialogue: 0,0:14:07.56,0:14:09.95,Default,,0,0,0,,ne permet pas\Nd'atteindre la somme volée.
+Dialogue: 0,0:14:10.72,0:14:13.72,Default,,0,0,0,,Je me demandais donc\Noù était passé le reste...
+Dialogue: 0,0:14:13.87,0:14:16.60,Default,,0,0,0,,Ça, je ne saurais pas\Nvous répondre...
+Dialogue: 0,0:14:16.76,0:14:21.52,Default,,0,0,0,,Autre chose, un appel anonyme\Na signalé la planque de Hirukawa.
+Dialogue: 0,0:14:21.76,0:14:22.47,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:14:23.20,0:14:25.84,Default,,0,0,0,,Il disait avoir vu Takuji Hirukawa
+Dialogue: 0,0:14:26.00,0:14:28.52,Default,,0,0,0,,et voulait qu'on l'arrête aussitôt.
+Dialogue: 0,0:14:29.28,0:14:30.76,Default,,0,0,0,,Oui. Et alors ?
+Dialogue: 0,0:14:31.23,0:14:33.47,Default,,0,0,0,,Il a utilisé un changeur de voix...
+Dialogue: 0,0:14:34.04,0:14:36.23,Default,,0,0,0,,Sa voix était modifiée\Npar un appareil.
+Dialogue: 0,0:14:36.92,0:14:39.32,Default,,0,0,0,,Ça complique l'identification vocale.
+Dialogue: 0,0:14:39.47,0:14:42.52,Default,,0,0,0,,Et alors ?\NQuel rapport avec moi ?
+Dialogue: 0,0:14:42.95,0:14:46.52,Default,,0,0,0,,Ce n'est pas la voix,\Nmais le contenu qui pose problème.
+Dialogue: 0,0:14:47.84,0:14:48.76,Default,,0,0,0,,Le contenu ?
+Dialogue: 0,0:14:49.00,0:14:51.87,Default,,0,0,0,,Les médias n'avaient pas encore\Nrévélé de nom
+Dialogue: 0,0:14:52.04,0:14:53.95,Default,,0,0,0,,au moment de l'appel.
+Dialogue: 0,0:14:55.08,0:14:58.23,Default,,0,0,0,,Les seuls à le connaître\Nétaient la police, nous
+Dialogue: 0,0:14:58.40,0:14:59.52,Default,,0,0,0,,et vous !
+Dialogue: 0,0:15:00.80,0:15:03.23,Default,,0,0,0,,Mais personne d'autre,\Nmonsieur Tomonaga !
+Dialogue: 0,0:15:03.43,0:15:06.87,Default,,0,0,0,,Quelqu'un s'est peut-être souvenu\Nde son visage
+Dialogue: 0,0:15:07.04,0:15:10.92,Default,,0,0,0,,qui avait été diffusé\Nlors d'une précédente affaire...
+Dialogue: 0,0:15:11.43,0:15:12.28,Default,,0,0,0,,Vous ?
+Dialogue: 0,0:15:13.20,0:15:15.84,Default,,0,0,0,,Quoi ? Comment ça, moi ?
+Dialogue: 0,0:15:16.23,0:15:18.87,Default,,0,0,0,,Ne me dites pas\Nque vous me suspectez ?
+Dialogue: 0,0:15:19.04,0:15:20.87,Default,,0,0,0,,Si, j'ai des soupçons.
+Dialogue: 0,0:15:21.28,0:15:23.11,Default,,0,0,0,,Enfin, une conviction, plutôt.
+Dialogue: 0,0:15:23.80,0:15:26.23,Default,,0,0,0,,C'est vous\Nqui avez poussé Hirukawa à agir,
+Dialogue: 0,0:15:26.72,0:15:28.04,Default,,0,0,0,,monsieur Tomonaga.
+Dialogue: 0,0:15:28.84,0:15:32.28,Default,,0,0,0,,Comme un responsable d'édition\Nguiderait un jeune auteur.
+Dialogue: 0,0:15:34.36,0:15:37.87,Default,,0,0,0,,Montrez-moi vos preuves alors,\Nsi vous me suspectez !
+Dialogue: 0,0:15:38.56,0:15:42.87,Default,,0,0,0,,Toutes les bombes étaient équipées\Nd'un compte à rebours,
+Dialogue: 0,0:15:43.11,0:15:46.11,Default,,0,0,0,,mais aussi d'un détonateur\Nactivable à distance.
+Dialogue: 0,0:15:46.60,0:15:49.04,Default,,0,0,0,,D'après une analyse poussée\Nde l'expert,
+Dialogue: 0,0:15:49.20,0:15:51.40,Default,,0,0,0,,la portée de la télécommande
+Dialogue: 0,0:15:51.56,0:15:53.87,Default,,0,0,0,,n'excédait pas les 30 mètres.
+Dialogue: 0,0:15:54.23,0:15:56.36,Default,,0,0,0,,Oui ? Et où voulez-vous en venir ?
+Dialogue: 0,0:15:56.84,0:16:00.68,Default,,0,0,0,,Celui qui a accéléré le compte\Nà rebours de la deuxième bombe
+Dialogue: 0,0:16:01.68,0:16:05.11,Default,,0,0,0,,et qui m'a envoyé des messages\Nau même moment
+Dialogue: 0,0:16:06.40,0:16:07.87,Default,,0,0,0,,était donc sur les lieux.
+Dialogue: 0,0:16:08.76,0:16:10.23,Default,,0,0,0,,Hiroyuki Tomonaga.
+Dialogue: 0,0:16:11.80,0:16:13.36,Default,,0,0,0,,Ça ne peut être que vous !
+Dialogue: 0,0:16:14.52,0:16:18.64,Default,,0,0,0,,Vous avez demandé à l'inspecteur\Nl'autorisation de nous accompagner,
+Dialogue: 0,0:16:19.28,0:16:20.80,Default,,0,0,0,,suivi mes actions,
+Dialogue: 0,0:16:21.36,0:16:24.23,Default,,0,0,0,,et envoyé vos messages\Navec le bon timing.
+Dialogue: 0,0:16:26.11,0:16:27.56,Default,,0,0,0,,Je me trompe ?
+Dialogue: 0,0:16:29.64,0:16:33.28,Default,,0,0,0,,Vous avez proposé à Hirukawa\Nde braquer un fourgon
+Dialogue: 0,0:16:33.43,0:16:37.08,Default,,0,0,0,,en faisant croire à des attentats\Npour venger son frère,
+Dialogue: 0,0:16:37.52,0:16:41.11,Default,,0,0,0,,et en m'impliquant dans l'affaire,\Nmoi, Kogorô Môri.
+Dialogue: 0,0:16:41.47,0:16:43.84,Default,,0,0,0,,Tout ça pour cacher\Nvotre véritable cible.
+Dialogue: 0,0:16:44.64,0:16:48.43,Default,,0,0,0,,Enfin, pour terminer,\Nil suffisait de faire taire Hirukawa
+Dialogue: 0,0:16:48.72,0:16:50.95,Default,,0,0,0,,avec une bombe fabriquée en plus.
+Dialogue: 0,0:16:52.04,0:16:53.64,Default,,0,0,0,,Sacré détective.
+Dialogue: 0,0:16:53.95,0:16:55.87,Default,,0,0,0,,Ce raisonnement est intéressant.
+Dialogue: 0,0:16:56.43,0:17:00.08,Default,,0,0,0,,Que diriez-vous d'écrire un polar\Npour ma prochaine boîte ?
+Dialogue: 0,0:17:00.72,0:17:05.08,Default,,0,0,0,,Un roman policier d'un détective\Nferait assurément un best-seller.
+Dialogue: 0,0:17:06.04,0:17:09.04,Default,,0,0,0,,Seulement, vos hypothèses\Nsont dépourvues de preuves.
+Dialogue: 0,0:17:09.23,0:17:13.11,Default,,0,0,0,,Les fans {\i1}hardcore{\i0} de polars\Nvous le reprocheraient sûrement...
+Dialogue: 0,0:17:13.60,0:17:15.72,Default,,0,0,0,,Ce n'est pas un roman policier,
+Dialogue: 0,0:17:16.04,0:17:17.64,Default,,0,0,0,,mais la réalité.
+Dialogue: 0,0:17:18.28,0:17:22.52,Default,,0,0,0,,Les aveux de Hirukawa, votre complice,\Nchangeront la donne.
+Dialogue: 0,0:17:22.92,0:17:26.08,Default,,0,0,0,,Qu'est-ce que vous racontez ?\NIl est mort !
+Dialogue: 0,0:17:27.20,0:17:30.08,Default,,0,0,0,,Euh...\NDe ce que j'ai vu aux informations...
+Dialogue: 0,0:17:30.60,0:17:34.60,Default,,0,0,0,,Non, les informations\Nn'ont rien dit de tel.
+Dialogue: 0,0:17:34.87,0:17:36.32,Default,,0,0,0,,Ni moi, d'ailleurs.
+Dialogue: 0,0:17:37.43,0:17:39.00,Default,,0,0,0,,Pas possible...
+Dialogue: 0,0:17:39.95,0:17:41.68,Default,,0,0,0,,Eh si, il est toujours vivant.
+Dialogue: 0,0:17:42.43,0:17:43.56,Default,,0,0,0,,Hirukawa a survécu.
+Dialogue: 0,0:17:44.00,0:17:47.08,Default,,0,0,0,,Et ça, grâce aux déductions\Nde ce cher Môri.
+Dialogue: 0,0:17:48.64,0:17:51.72,Default,,0,0,0,,Vous disiez avoir oublié\Nles indices des devinettes,
+Dialogue: 0,0:17:52.04,0:17:55.52,Default,,0,0,0,,mais vous avez brusquement évoqué\Nla fin du livre.
+Dialogue: 0,0:17:56.08,0:17:57.95,Default,,0,0,0,,Je n'ai pas saisi sur le coup,
+Dialogue: 0,0:17:58.47,0:18:00.76,Default,,0,0,0,,mais en fait,\Nvous souhaitiez l'imiter.
+Dialogue: 0,0:18:01.36,0:18:04.87,Default,,0,0,0,,Faire croire\Nque le coupable s'était fait sauter
+Dialogue: 0,0:18:05.52,0:18:08.08,Default,,0,0,0,,pour que sa mort\Ncolle à celle du livre.
+Dialogue: 0,0:18:10.56,0:18:13.95,Default,,0,0,0,,Quand M. Môri l'a compris,\Nil a pris les devants
+Dialogue: 0,0:18:14.11,0:18:17.23,Default,,0,0,0,,en nous contactant\Npour mettre Hirukawa à l'abri.
+Dialogue: 0,0:18:17.87,0:18:20.00,Default,,0,0,0,,On a donc dépassé la voiture de police
+Dialogue: 0,0:18:20.68,0:18:22.47,Default,,0,0,0,,avant d'extraire Hirukawa
+Dialogue: 0,0:18:25.16,0:18:28.52,Default,,0,0,0,,de sa planque in extremis\Nen passant par-derrière.
+Dialogue: 0,0:18:29.08,0:18:30.52,Default,,0,0,0,,Et sans rien en savoir,
+Dialogue: 0,0:18:30.84,0:18:33.56,Default,,0,0,0,,vous avez activé la bombe à distance
+Dialogue: 0,0:18:34.04,0:18:37.36,Default,,0,0,0,,dès que la police a encerclé\Nla planque en question.
+Dialogue: 0,0:18:39.23,0:18:42.80,Default,,0,0,0,,Quand il apprendra\Nque vous vous êtes servi de lui
+Dialogue: 0,0:18:42.95,0:18:47.52,Default,,0,0,0,,et que vous avez tenté de le tuer,\NHirukawa se mettra sûrement à table.
+Dialogue: 0,0:18:52.32,0:18:55.00,Default,,0,0,0,,Quand avez-vous compris\Nque c'était moi ?
+Dialogue: 0,0:18:55.52,0:18:56.76,Default,,0,0,0,,Quand vous avez dit
+Dialogue: 0,0:18:57.43,0:18:59.76,Default,,0,0,0,,que l'épreuve était un "souvenir".
+Dialogue: 0,0:19:01.76,0:19:02.56,Default,,0,0,0,,Conan !
+Dialogue: 0,0:19:02.72,0:19:03.60,Default,,0,0,0,,J'arrive !
+Dialogue: 0,0:19:04.08,0:19:05.08,Default,,0,0,0,,Regardez un peu !
+Dialogue: 0,0:19:05.92,0:19:09.23,Default,,0,0,0,,Ça n'a rien d'une épreuve,\Nc'est plutôt une copie !
+Dialogue: 0,0:19:10.00,0:19:13.47,Default,,0,0,0,,Un original prêt à imprimer\Nne peut pas être décalé !
+Dialogue: 0,0:19:16.76,0:19:21.00,Default,,0,0,0,,En souvenir de son frère, Hirukawa\Naurait forcément réclamé l'original.
+Dialogue: 0,0:19:22.28,0:19:24.64,Default,,0,0,0,,Mais il a dit qu'il ne l'avait pas.
+Dialogue: 0,0:19:25.04,0:19:29.36,Default,,0,0,0,,Vous êtes donc la seule personne\Nà pouvoir l'avoir à l'heure actuelle.
+Dialogue: 0,0:19:29.92,0:19:32.60,Default,,0,0,0,,Vous avez forcément pu le consulter
+Dialogue: 0,0:19:32.92,0:19:34.68,Default,,0,0,0,,au cours de l'affaire.
+Dialogue: 0,0:19:35.20,0:19:37.40,Default,,0,0,0,,Mais vous avez indiqué le contraire.
+Dialogue: 0,0:19:38.28,0:19:41.87,Default,,0,0,0,,Et ça, car vous êtes le coupable,\Nou plutôt, l'éminence grise
+Dialogue: 0,0:19:42.20,0:19:45.92,Default,,0,0,0,,qui avait élaboré le plan\Nde cet acte criminel !
+Dialogue: 0,0:20:09.56,0:20:12.60,Default,,0,0,0,,Pour terminer,\Nj'ai une question à vous poser.
+Dialogue: 0,0:20:13.20,0:20:16.95,Default,,0,0,0,,Pourquoi ne pas avoir remis\Nl'original à Hirukawa ?
+Dialogue: 0,0:20:17.60,0:20:18.68,Default,,0,0,0,,Parce que...
+Dialogue: 0,0:20:23.80,0:20:25.60,Default,,0,0,0,,Parce que c'est un chef-d'œuvre !
+Dialogue: 0,0:20:26.16,0:20:28.11,Default,,0,0,0,,Je reste un éditeur !
+Dialogue: 0,0:20:28.40,0:20:29.60,Default,,0,0,0,,J'ai l'œil pour ça.
+Dialogue: 0,0:20:30.08,0:20:33.60,Default,,0,0,0,,Et demi-frère ou pas,\Nun criminel n'en était pas digne !
+Dialogue: 0,0:20:34.56,0:20:35.36,Default,,0,0,0,,En plus,
+Dialogue: 0,0:20:35.64,0:20:37.72,Default,,0,0,0,,il fallait arracher les indices.
+Dialogue: 0,0:20:39.11,0:20:43.32,Default,,0,0,0,,J'ai beau être l'auteur de ce plan,\Nje ne pouvais pas m'y résigner.
+Dialogue: 0,0:20:43.95,0:20:45.56,Default,,0,0,0,,Je m'étais promis
+Dialogue: 0,0:20:46.04,0:20:49.23,Default,,0,0,0,,de le publier moi-même, un jour.
+Dialogue: 0,0:20:49.40,0:20:50.47,Default,,0,0,0,,Ça suffit !
+Dialogue: 0,0:20:51.23,0:20:52.43,Default,,0,0,0,,Arrêtez !
+Dialogue: 0,0:20:52.72,0:20:54.95,Default,,0,0,0,,Vous n'avez pas le droit de dire ça !
+Dialogue: 0,0:20:57.23,0:20:58.84,Default,,0,0,0,,Copie ou pas,
+Dialogue: 0,0:20:59.56,0:21:02.68,Default,,0,0,0,,vous avez utilisé ce livre splendide\Npour vos méfaits.
+Dialogue: 0,0:21:04.00,0:21:06.47,Default,,0,0,0,,Son auteur doit en pleurer du paradis !
+Dialogue: 0,0:21:29.64,0:21:32.32,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:34.95,0:21:37.47,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:45.32,0:22:46.60,Default,,0,0,0,,{\i1}Six mois plus tard,{\i0}
+Dialogue: 0,0:22:46.80,0:22:50.76,Default,,0,0,0,,{\i1}sans savoir si M. Tomonaga,\Nl'éditeur, l'aurait voulu ou non,{\i0}
+Dialogue: 0,0:22:51.32,0:22:53.11,Default,,0,0,0,,{\i1}le livre fut publié{\i0}
+Dialogue: 0,0:22:54.08,0:22:57.11,Default,,0,0,0,,{\i1}et remporta avec brio\Nle concours des jeunes auteurs.{\i0}
+Dialogue: 0,0:22:58.60,0:23:00.40,Default,,0,0,0,,{\i1}Fauché en pleine jeunesse,{\i0}
+Dialogue: 0,0:23:00.56,0:23:03.64,Default,,0,0,0,,{\i1}son malheureux auteur\Nn'aura qu'un succès posthume.{\i0}
+Dialogue: 0,0:23:03.95,0:23:05.87,Default,,0,0,0,,{\i1}Mais ça, c'est une autre histoire.{\i0}
+Dialogue: 0,0:23:06.76,0:23:10.64,Default,,0,0,0,,J'y crois pas,\Non m'aura fait courir comme un taré
+Dialogue: 0,0:23:11.08,0:23:13.20,Default,,0,0,0,,pour pas grand-chose...
+Dialogue: 0,0:23:13.36,0:23:15.36,Default,,0,0,0,,Je n'ai fait que me fatiguer...
+Dialogue: 0,0:23:15.76,0:23:17.16,Default,,0,0,0,,Enfin, peu importe !
+Dialogue: 0,0:23:17.32,0:23:20.56,Default,,0,0,0,,La bière est toujours meilleure\Nquand on a bien sué !
+Dialogue: 0,0:23:26.92,0:23:27.95,Default,,0,0,0,,Trop bon !
+Dialogue: 0,0:23:28.11,0:23:30.16,Default,,0,0,0,,C'est comme d'habitude, non ?
+Dialogue: 0,0:23:31.16,0:23:32.43,Default,,0,0,0,,Comme tu dis...

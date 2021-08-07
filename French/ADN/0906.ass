@@ -1,0 +1,418 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.05,0:00:02.57,Default,,0,0,0,,{\i1}Au gîte Hatobue de Nishiokuho,{\i0}
+Dialogue: 0,0:00:02.93,0:00:04.95,Default,,0,0,0,,{\i1}nous sommes tombés\Nsur Ôtarô Minakitaya,{\i0}
+Dialogue: 0,0:00:05.56,0:00:08.33,ST_HAUT,,0,0,0,,{\i1}une vedette à succès,{\i0}\N{\i1}dit le "Prince de la bière",{\i0}
+Dialogue: 0,0:00:08.81,0:00:10.92,Default,,0,0,0,,{\i1}venu loger au même endroit que nous.{\i0}
+Dialogue: 0,0:00:12.80,0:00:14.20,Default,,0,0,0,,{\i1}Étrangement, Miona,{\i0}
+Dialogue: 0,0:00:14.40,0:00:16.93,ST_HAUT,,0,0,0,,{\i1}la fille d'Asako Yuri,{\i0}\N{\i1}la gérante du gîte,{\i0}
+Dialogue: 0,0:00:17.41,0:00:21.20,Default,,0,0,0,,{\i1}était terrifiée à l'évocation de Byûn,\Nla Comète masquée,{\i0}
+Dialogue: 0,0:00:21.56,0:00:24.48,Default,,0,0,0,,{\i1}un feuilleton de super-héros\Ndiffusé 7 ans plus tôt.{\i0}
+Dialogue: 0,0:00:26.60,0:00:27.28,Default,,0,0,0,,{\i1}Parallèlement,{\i0}
+Dialogue: 0,0:00:27.48,0:00:31.53,ST_HAUT,,0,0,0,,{\i1}le corps d'un homme a été découvert{\i0}\N{\i1}dans un étang à 7 km à l'est.{\i0}
+Dialogue: 0,0:00:32.56,0:00:35.72,Default,,0,0,0,,{\i1}La victime\Nétait l'ex-partenaire d'Ôtarô,{\i0}
+Dialogue: 0,0:00:36.01,0:00:37.72,Default,,0,0,0,,{\i1}Kyûjirô Minakitaya.{\i0}
+Dialogue: 0,0:00:40.37,0:00:41.32,Default,,0,0,0,,{\i1}Pire, cette nuit-là,{\i0}
+Dialogue: 0,0:00:41.87,0:00:44.43,Default,,0,0,0,,{\i1}Ôtarô Minakitaya\Na également succombé.{\i0}
+Dialogue: 0,0:00:49.40,0:00:53.61,ST_HAUT,,0,0,0,,{\i1}La réponse viendra d'une déduction{\i0}\N{\i1}après la fin du compte à rebours !{\i0}
+Dialogue: 0,0:00:55.69,0:00:59.43,Default,,0,0,0,,{\i1}L'ex-duo de comiques est mort...\NMais qu'a fait la Comète masquée ?{\i0}
+Dialogue: 0,0:00:59.77,0:01:03.04,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:03.21,0:01:05.37,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:05.52,0:01:08.53,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:25.44,0:01:27.09,Default,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:01:28.43,0:01:30.28,Default,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:01:30.52,0:01:32.43,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:33.64,0:01:35.77,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:40.08,0:01:42.65,Default,,0,0,0,,Générique d'ouverture :\N"Countdown"
+Dialogue: 0,0:01:43.04,0:01:45.33,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:50.08,0:01:52.28,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:01:56.36,0:01:58.64,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:02:11.16,0:02:13.41,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:02:17.64,0:02:19.77,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:34.47,0:02:37.44,Default,,0,0,0,,{\i1}Un témoignage livré 7 ans plus tard\N(2e partie) !{\i0}
+Dialogue: 0,0:02:40.60,0:02:41.60,Default,,0,0,0,,Le défunt
+Dialogue: 0,0:02:42.00,0:02:44.47,Default,,0,0,0,,est Kôtarô Minamida,
+Dialogue: 0,0:02:45.23,0:02:46.93,Default,,0,0,0,,alias Ôtarô Minakitaya.
+Dialogue: 0,0:02:48.16,0:02:51.16,ST_HAUT,,0,0,0,,Qui est la dernière personne\Nà l'avoir vu ?
+Dialogue: 0,0:02:51.43,0:02:52.44,ST_HAUT,,0,0,0,,Ça doit être moi.
+Dialogue: 0,0:02:53.23,0:02:56.80,ST_HAUT,,0,0,0,,Je l'ai vu prendre\Nun décapsuleur et des bières
+Dialogue: 0,0:02:57.43,0:02:59.73,Default,,0,0,0,,alors que je rangeais\Nla salle à manger.
+Dialogue: 0,0:03:00.28,0:03:02.40,Default,,0,0,0,,C'était vers quelle heure ?
+Dialogue: 0,0:03:03.40,0:03:04.60,Default,,0,0,0,,23 heures.
+Dialogue: 0,0:03:05.08,0:03:07.32,Default,,0,0,0,,Qui d'autre y est entré ensuite ?
+Dialogue: 0,0:03:07.68,0:03:09.52,Default,,0,0,0,,Moi, je n'arrivais pas à dormir.
+Dialogue: 0,0:03:09.68,0:03:12.52,Default,,0,0,0,,Je suis donc descendu\Npour boire une bière.
+Dialogue: 0,0:03:12.87,0:03:14.00,Default,,0,0,0,,Vers minuit.
+Dialogue: 0,0:03:14.36,0:03:16.23,Default,,0,0,0,,Combien de temps êtes-vous resté ?
+Dialogue: 0,0:03:16.80,0:03:19.40,ST_HAUT,,0,0,0,,J'ai joué 30 minutes\Nà coller des capsules
+Dialogue: 0,0:03:19.68,0:03:22.56,ST_HAUT,,0,0,0,,à l'aimant bovin,\Npuis je suis remonté me coucher.
+Dialogue: 0,0:03:22.92,0:03:24.43,Default,,0,0,0,,Ensuite, Mlle Fujiyoshi
+Dialogue: 0,0:03:24.60,0:03:28.36,Default,,0,0,0,,a trouvé la salle à manger ravagée\Nvers 2 heures du matin.
+Dialogue: 0,0:03:28.76,0:03:31.43,ST_BAS_GAUCHE,,0,0,0,,Elle a donc été saccagée\Ndurant ce laps de temps.
+Dialogue: 0,0:03:32.08,0:03:35.08,Default,,0,0,0,,C'est à la même période\Nque M. Minakitaya est mort.
+Dialogue: 0,0:03:35.43,0:03:36.20,Default,,0,0,0,,En effet.
+Dialogue: 0,0:03:36.68,0:03:38.40,Default,,0,0,0,,Et vous, M. Shirogane ?
+Dialogue: 0,0:03:38.72,0:03:40.64,ST_BAS_DROITE,,0,0,0,,Je dormais dans ma chambre.
+Dialogue: 0,0:03:41.32,0:03:42.40,Default,,0,0,0,,Et vous deux ?
+Dialogue: 0,0:03:42.76,0:03:46.95,Default,,0,0,0,,Moi, je dormais avec ma fille\Ndans le bâtiment annexe.
+Dialogue: 0,0:03:47.23,0:03:49.00,Default,,0,0,0,,C'est Ran qui m'a réveillée.
+Dialogue: 0,0:03:49.68,0:03:51.23,Default,,0,0,0,,J'étais chez moi.
+Dialogue: 0,0:03:51.47,0:03:53.60,Default,,0,0,0,,Je suis revenu\Nquand on m'a téléphoné.
+Dialogue: 0,0:03:54.16,0:03:55.80,Default,,0,0,0,,Sa mort est accidentelle.
+Dialogue: 0,0:03:56.43,0:03:59.08,Default,,0,0,0,,Ivre, il a glissé sur une bouteille vide
+Dialogue: 0,0:03:59.60,0:04:02.60,Default,,0,0,0,,et s'est tué\Nen se cognant la tête sur une autre.
+Dialogue: 0,0:04:03.52,0:04:06.08,Default,,0,0,0,,Sacré coup du sort\Npour un ex-duo comique,
+Dialogue: 0,0:04:06.40,0:04:09.64,Default,,0,0,0,,ils sont morts accidentellement\Nl'un après l'autre.
+Dialogue: 0,0:04:09.84,0:04:12.52,Default,,0,0,0,,Le problème,\Nc'est que la situation a changé.
+Dialogue: 0,0:04:13.95,0:04:17.56,Default,,0,0,0,,L'eau qu'on a retrouvée\Ndans les poumons de Kyûjirô
+Dialogue: 0,0:04:17.92,0:04:19.47,Default,,0,0,0,,provenait d'un robinet !
+Dialogue: 0,0:04:20.11,0:04:21.20,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:04:22.08,0:04:25.28,Default,,0,0,0,,On l'a donc jeté dans l'étang\Naprès l'avoir tué ailleurs,
+Dialogue: 0,0:04:25.47,0:04:26.92,Default,,0,0,0,,c'est bien ça ?
+Dialogue: 0,0:04:27.08,0:04:27.87,Default,,0,0,0,,Exact.
+Dialogue: 0,0:04:28.43,0:04:29.20,Default,,0,0,0,,Un instant !
+Dialogue: 0,0:04:29.60,0:04:33.43,Default,,0,0,0,,Ça signifie que M. Minakitaya\Na pu commettre ce crime ?
+Dialogue: 0,0:04:34.11,0:04:38.52,Default,,0,0,0,,Kyûjirô fouillait\Ndans la vie privée d'Ôtarô.
+Dialogue: 0,0:04:38.95,0:04:42.32,Default,,0,0,0,,On a trouvé cet appareil d'écoute\Ndans sa chambre.
+Dialogue: 0,0:04:42.92,0:04:44.95,Default,,0,0,0,,Il porte les empreintes de Kyûjirô.
+Dialogue: 0,0:04:45.40,0:04:46.76,Default,,0,0,0,,On l'aurait fait taire
+Dialogue: 0,0:04:46.92,0:04:51.20,Default,,0,0,0,,parce qu'il aurait appris\Nun énorme secret grâce à ça ?
+Dialogue: 0,0:04:51.52,0:04:53.87,Default,,0,0,0,,Et ce serait quoi,\Ncet énorme secret ?
+Dialogue: 0,0:04:54.04,0:04:55.68,Default,,0,0,0,,On a du nouveau, inspecteur.
+Dialogue: 0,0:04:56.20,0:04:57.16,Default,,0,0,0,,Quoi encore ?
+Dialogue: 0,0:04:58.32,0:04:59.84,Default,,0,0,0,,De quoi vous parlez ?
+Dialogue: 0,0:05:02.72,0:05:07.04,Default,,0,0,0,,L'empreinte sous la table\Ncorrespond bien au sang d'Ôtarô.
+Dialogue: 0,0:05:07.43,0:05:09.84,Default,,0,0,0,,- Mais ce n'est pas tout...\N- Quoi donc ?
+Dialogue: 0,0:05:10.60,0:05:12.04,Default,,0,0,0,,Il y a 7 ans de ça,
+Dialogue: 0,0:05:12.47,0:05:17.28,Default,,0,0,0,,les deux assassins s'étaient enfuis\Nen jetant leurs masques dans un fossé,
+Dialogue: 0,0:05:17.84,0:05:21.20,Default,,0,0,0,,mais ils ont oublié\Nd'effacer une empreinte.
+Dialogue: 0,0:05:21.76,0:05:22.84,Default,,0,0,0,,Une empreinte ?
+Dialogue: 0,0:05:23.43,0:05:24.08,Default,,0,0,0,,Non...
+Dialogue: 0,0:05:24.52,0:05:27.16,Default,,0,0,0,,Elle correspond\Nà celle de M. Minakitaya.
+Dialogue: 0,0:05:27.92,0:05:28.64,Default,,0,0,0,,Sérieux ?
+Dialogue: 0,0:05:30.28,0:05:35.00,Default,,0,0,0,,Donc, M. Minakitaya est l'un\Ndes deux coupables de cette affaire ?
+Dialogue: 0,0:05:35.28,0:05:39.84,Default,,0,0,0,,Et il aurait tué Kyûjirô\Nparce qu'il avait appris son secret ?
+Dialogue: 0,0:05:40.36,0:05:42.72,Default,,0,0,0,,De ce fait, plus moyen de classer
+Dialogue: 0,0:05:42.92,0:05:45.95,Default,,0,0,0,,la mort de M. Minakitaya\Ncomme accidentelle.
+Dialogue: 0,0:05:46.20,0:05:49.52,Default,,0,0,0,,Dites, le témoin de cette affaire\Nd'il y a 7 ans,
+Dialogue: 0,0:05:50.04,0:05:52.08,Default,,0,0,0,,ce ne serait pas Miona ?
+Dialogue: 0,0:05:59.32,0:06:03.72,Default,,0,0,0,,Si, il s'agit bien de Miona.\NElle avait 5 ans à l'époque des faits.
+Dialogue: 0,0:06:05.64,0:06:10.72,Default,,0,0,0,,Travaillant alors à Haido,\Nj'avais participé à l'enquête.
+Dialogue: 0,0:06:11.08,0:06:13.95,Default,,0,0,0,,Elle n'a pas vu\Nle visage des coupables ?
+Dialogue: 0,0:06:14.60,0:06:16.56,Default,,0,0,0,,On ne sait pas vraiment.
+Dialogue: 0,0:06:16.80,0:06:18.43,Default,,0,0,0,,Le choc a dû être terrible,
+Dialogue: 0,0:06:18.84,0:06:20.92,Default,,0,0,0,,car ses souvenirs sont vagues...
+Dialogue: 0,0:06:21.56,0:06:26.32,Default,,0,0,0,,Donc, si M. Minakitaya venait souvent\Ndans le gîte où vivait Miona...
+Dialogue: 0,0:06:26.76,0:06:30.08,Default,,0,0,0,,... c'était pour voir\Nsi elle ne recouvrait pas la mémoire.
+Dialogue: 0,0:06:31.43,0:06:32.32,Default,,0,0,0,,Madame !
+Dialogue: 0,0:06:35.47,0:06:36.56,Default,,0,0,0,,Excusez-moi...
+Dialogue: 0,0:06:37.04,0:06:37.95,Default,,0,0,0,,Voilà pourquoi
+Dialogue: 0,0:06:38.32,0:06:42.08,Default,,0,0,0,,Miona est terrifiée\Nquand on parle de la Comète masquée...
+Dialogue: 0,0:06:42.43,0:06:44.04,Default,,0,0,0,,C'est à cause de ce meurtre
+Dialogue: 0,0:06:44.20,0:06:47.84,Default,,0,0,0,,que Byûn, la Comète masquée,\Na été interrompu, n'est-ce pas ?
+Dialogue: 0,0:06:48.08,0:06:50.92,Default,,0,0,0,,Cette affaire\Na bien eu des conséquences,
+Dialogue: 0,0:06:51.08,0:06:54.87,Default,,0,0,0,,mais comme l'audimat et les ventes\Nde produits dérivés stagnaient,
+Dialogue: 0,0:06:55.32,0:06:58.64,Default,,0,0,0,,l'arrêt prématuré de la série\Nétait déjà à l'étude avant.
+Dialogue: 0,0:06:58.87,0:07:00.84,Default,,0,0,0,,Ce meurtre n'est pas l'unique cause.
+Dialogue: 0,0:07:01.20,0:07:03.47,Default,,0,0,0,,Comment pouvez-vous\Nen savoir autant ?
+Dialogue: 0,0:07:03.64,0:07:07.47,Default,,0,0,0,,En réalité, je ne suis pas pigiste,\Nmais scénariste.
+Dialogue: 0,0:07:07.95,0:07:11.47,Default,,0,0,0,,J'étais auteur principal\Nsur Byûn, la Comète masquée.
+Dialogue: 0,0:07:12.87,0:07:13.68,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:07:13.84,0:07:16.36,Default,,0,0,0,,Vous connaissiez déjà Miona ?
+Dialogue: 0,0:07:17.00,0:07:19.84,Default,,0,0,0,,Vous aviez l'article de journal\Nsur l'affaire.
+Dialogue: 0,0:07:21.95,0:07:22.76,Default,,0,0,0,,À l'époque,
+Dialogue: 0,0:07:22.95,0:07:27.08,Default,,0,0,0,,l'identité de Miona\Nn'avait évidemment pas été révélée.
+Dialogue: 0,0:07:27.47,0:07:30.28,Default,,0,0,0,,Seulement, un insouciant\Nl'a divulguée sur le Net.
+Dialogue: 0,0:07:32.00,0:07:35.23,Default,,0,0,0,,Lors d'un reportage au village\Nil y a un an de ça,
+Dialogue: 0,0:07:35.56,0:07:37.28,Default,,0,0,0,,j'ai aperçu Miona.
+Dialogue: 0,0:07:37.80,0:07:40.04,Default,,0,0,0,,Préoccupé par son traumatisme,
+Dialogue: 0,0:07:40.72,0:07:44.23,Default,,0,0,0,,j'ai profité d'une période creuse\Npour revenir.
+Dialogue: 0,0:07:44.84,0:07:46.80,Default,,0,0,0,,Vous saviez aussi, non, M. Ide ?
+Dialogue: 0,0:07:48.04,0:07:49.84,Default,,0,0,0,,Euh, c'est-à-dire que...
+Dialogue: 0,0:07:50.84,0:07:52.52,Default,,0,0,0,,Oui, je le savais.
+Dialogue: 0,0:07:53.08,0:07:54.95,Default,,0,0,0,,J'ai enquêté avec acharnement.
+Dialogue: 0,0:07:55.43,0:07:57.95,Default,,0,0,0,,- Mais pourquoi ?\N- Parce que...
+Dialogue: 0,0:07:59.04,0:08:00.04,Default,,0,0,0,,en réalité,
+Dialogue: 0,0:08:00.56,0:08:02.47,Default,,0,0,0,,le financier qui a été tué,
+Dialogue: 0,0:08:02.95,0:08:04.64,Default,,0,0,0,,c'était mon père.
+Dialogue: 0,0:08:06.47,0:08:09.64,Default,,0,0,0,,En fait, "Ide" est le nom de ma mère.
+Dialogue: 0,0:08:10.04,0:08:14.08,Default,,0,0,0,,J'avais dû m'occuper d'elle\Nsuite au choc du décès de mon père,
+Dialogue: 0,0:08:14.52,0:08:16.40,Default,,0,0,0,,laissant l'affaire de côté.
+Dialogue: 0,0:08:16.87,0:08:18.92,Default,,0,0,0,,Mais à sa mort, il y a 2 ans,
+Dialogue: 0,0:08:19.28,0:08:21.32,Default,,0,0,0,,j'ai repensé à tout ça
+Dialogue: 0,0:08:21.52,0:08:24.16,Default,,0,0,0,,et j'ai enquêté sur Miona...
+Dialogue: 0,0:08:24.52,0:08:27.68,Default,,0,0,0,,Ce qui explique pourquoi\Nvous aviez même ce masque...
+Dialogue: 0,0:08:28.16,0:08:30.28,Default,,0,0,0,,Je pensais\Nqu'elle se souviendrait...
+Dialogue: 0,0:08:30.52,0:08:33.95,Default,,0,0,0,,Je n'aurais jamais cru\Nqu'elle subirait un tel choc...
+Dialogue: 0,0:08:34.56,0:08:37.00,Default,,0,0,0,,Je suis vraiment désolé !
+Dialogue: 0,0:08:41.04,0:08:42.87,Default,,0,0,0,,J'y pense, il y avait une clé
+Dialogue: 0,0:08:43.43,0:08:44.95,Default,,0,0,0,,sur la table de la victime.
+Dialogue: 0,0:08:45.43,0:08:47.47,Default,,0,0,0,,Quelqu'un sait ce qu'elle ouvre ?
+Dialogue: 0,0:08:48.00,0:08:49.76,Default,,0,0,0,,{\i1}Je me le demandais aussi.{\i0}
+Dialogue: 0,0:08:50.32,0:08:51.95,Default,,0,0,0,,Quand je l'avais vu avant,
+Dialogue: 0,0:08:52.11,0:08:55.47,Default,,0,0,0,,il m'avait dit\Nqu'elle ouvrait la porte du bonheur.
+Dialogue: 0,0:08:55.92,0:08:58.23,Default,,0,0,0,,"La porte du bonheur", vous dites ?
+Dialogue: 0,0:08:58.80,0:09:00.36,Default,,0,0,0,,Qu'est-ce que ça signifie ?
+Dialogue: 0,0:09:03.80,0:09:06.60,Default,,0,0,0,,C'est qu'il commence\Nà faire faim, hein...
+Dialogue: 0,0:09:09.08,0:09:10.68,Default,,0,0,0,,Il fait bientôt jour.
+Dialogue: 0,0:09:13.56,0:09:16.23,Default,,0,0,0,,Je vais vous préparer un petit en-cas.
+Dialogue: 0,0:09:19.47,0:09:21.36,Default,,0,0,0,,Désolée de vous causer du souci.
+Dialogue: 0,0:09:21.64,0:09:23.16,Default,,0,0,0,,Elle va beaucoup mieux.
+Dialogue: 0,0:09:23.52,0:09:24.64,Default,,0,0,0,,Vous me rassurez !
+Dialogue: 0,0:09:25.11,0:09:27.20,Default,,0,0,0,,J'ai parlé avec Miona, hier.
+Dialogue: 0,0:09:27.60,0:09:30.08,Default,,0,0,0,,Vous habitiez à Haido avant, non ?
+Dialogue: 0,0:09:30.40,0:09:31.92,Default,,0,0,0,,Quand êtes-vous venues ici ?
+Dialogue: 0,0:09:32.28,0:09:35.16,Default,,0,0,0,,On a déménagé à Nishiokuho\Naprès cette affaire.
+Dialogue: 0,0:09:35.87,0:09:37.68,Default,,0,0,0,,J'ai pensé que vivre
+Dialogue: 0,0:09:37.92,0:09:40.68,Default,,0,0,0,,dans un endroit calme\Napaiserait son traumatisme.
+Dialogue: 0,0:09:41.16,0:09:43.72,Default,,0,0,0,,Quand avez-vous débuté\Nce travail au gîte ?
+Dialogue: 0,0:09:44.23,0:09:45.60,Default,,0,0,0,,Dès que j'ai emménagé ici.
+Dialogue: 0,0:09:46.11,0:09:49.28,Default,,0,0,0,,J'étais réceptionniste\Ndans un hôtel, avant.
+Dialogue: 0,0:09:50.87,0:09:51.92,Default,,0,0,0,,J'entre.
+Dialogue: 0,0:09:53.28,0:09:54.36,Default,,0,0,0,,Vous étiez donc là.
+Dialogue: 0,0:09:55.20,0:09:57.72,Default,,0,0,0,,J'ai préparé des sandwichs.\NVenez manger.
+Dialogue: 0,0:09:58.11,0:09:59.64,Default,,0,0,0,,Merci beaucoup.
+Dialogue: 0,0:10:00.84,0:10:03.20,Default,,0,0,0,,Vous êtes du village, M. Oohara ?
+Dialogue: 0,0:10:03.64,0:10:06.56,Default,,0,0,0,,Non, ça doit faire 4 ans\Nque j'ai emménagé ici.
+Dialogue: 0,0:10:07.20,0:10:10.28,Default,,0,0,0,,J'avais vu l'offre d'emploi\Naprès mon école de cuisine.
+Dialogue: 0,0:10:12.28,0:10:13.84,Default,,0,0,0,,On a trouvé
+Dialogue: 0,0:10:14.23,0:10:17.28,Default,,0,0,0,,un cheveu de Kyûjirô\Ndans la voiture de M. Minakitaya.
+Dialogue: 0,0:10:20.00,0:10:22.84,Default,,0,0,0,,Ça signifie donc\Nqu'on peut partir, alors ?
+Dialogue: 0,0:10:23.08,0:10:24.40,Default,,0,0,0,,Pas si vite !
+Dialogue: 0,0:10:24.56,0:10:26.76,Default,,0,0,0,,La mort d'Ôtarô\Nest accidentelle, non ?
+Dialogue: 0,0:10:27.00,0:10:28.92,Default,,0,0,0,,- Affaire classée !\N- Non...
+Dialogue: 0,0:10:29.16,0:10:31.00,Default,,0,0,0,,Il est encore trop tôt...
+Dialogue: 0,0:10:31.92,0:10:34.08,Default,,0,0,0,,Vous pensez donc à un crime, alors !
+Dialogue: 0,0:10:34.47,0:10:36.72,Default,,0,0,0,,Personne n'en est capable ici...
+Dialogue: 0,0:10:38.00,0:10:39.64,Default,,0,0,0,,Si ! C'est vous, en fait !
+Dialogue: 0,0:10:41.64,0:10:43.47,Default,,0,0,0,,Ça va pas la tête ?
+Dialogue: 0,0:10:43.76,0:10:45.64,Default,,0,0,0,,Vous vouliez venger votre père !
+Dialogue: 0,0:10:45.92,0:10:48.08,Default,,0,0,0,,J'ignorais encore\Nqui était l'assassin !
+Dialogue: 0,0:10:48.47,0:10:50.68,Default,,0,0,0,,Kyûjirô a dû vous le dire !
+Dialogue: 0,0:10:51.11,0:10:53.80,Default,,0,0,0,,Mais oui ! Vous l'avez tué aussi !
+Dialogue: 0,0:10:54.04,0:10:55.80,Default,,0,0,0,,Arrêtez de dire n'importe quoi...
+Dialogue: 0,0:10:56.08,0:10:58.36,Default,,0,0,0,,Surtout que j'étais\Ndans le même train
+Dialogue: 0,0:10:58.68,0:11:01.72,Default,,0,0,0,,que M. Môri à l'heure supposée\Nde la mort de Kyûjirô !
+Dialogue: 0,0:11:01.95,0:11:04.36,Default,,0,0,0,,Vous pouvez confirmer, M. Môri ?
+Dialogue: 0,0:11:04.95,0:11:08.20,Default,,0,0,0,,À vrai dire,\Nje ne l'ai pas vu dans le train.
+Dialogue: 0,0:11:08.52,0:11:10.92,Default,,0,0,0,,Il m'a accosté à ma descente.
+Dialogue: 0,0:11:11.43,0:11:13.40,Default,,0,0,0,,Je suis transparent ou quoi ?
+Dialogue: 0,0:11:13.84,0:11:15.23,Default,,0,0,0,,Vous voyez ?
+Dialogue: 0,0:11:15.56,0:11:18.72,Default,,0,0,0,,Le blason écrit au sang\Nest celui de votre chemisette !
+Dialogue: 0,0:11:19.80,0:11:21.40,Default,,0,0,0,,Calmez-vous, mademoiselle.
+Dialogue: 0,0:11:22.16,0:11:25.60,Default,,0,0,0,,Quant à vous,\Ncette affaire a ruiné votre feuilleton !
+Dialogue: 0,0:11:25.95,0:11:27.43,Default,,0,0,0,,Vous deviez lui en vouloir !
+Dialogue: 0,0:11:27.60,0:11:29.20,Default,,0,0,0,,C'est pas des choses à dire...
+Dialogue: 0,0:11:29.43,0:11:30.43,Default,,0,0,0,,Pareil pour vous !
+Dialogue: 0,0:11:30.80,0:11:33.60,Default,,0,0,0,,Si vous êtes si bon,\Nrésolvez cette affaire !
+Dialogue: 0,0:11:35.04,0:11:36.84,Default,,0,0,0,,Elle est gentille, elle...
+Dialogue: 0,0:11:37.16,0:11:39.11,Default,,0,0,0,,Tout s'est passé en chambre close.
+Dialogue: 0,0:11:41.23,0:11:42.28,Default,,0,0,0,,{\i1}Pas de doute...{\i0}
+Dialogue: 0,0:11:42.95,0:11:45.43,Default,,0,0,0,,{\i1}La porte était fermée à clé{\i0}
+Dialogue: 0,0:11:45.84,0:11:47.47,Default,,0,0,0,,{\i1}et le loquet, enclenché.{\i0}
+Dialogue: 0,0:11:48.08,0:11:49.04,Default,,0,0,0,,{\i1}De plus,{\i0}
+Dialogue: 0,0:11:49.56,0:11:51.56,Default,,0,0,0,,{\i1}la fenêtre était verrouillée.{\i0}
+Dialogue: 0,0:11:54.23,0:11:54.68,Default,,0,0,0,,{\i1}Quoi ?{\i0}
+Dialogue: 0,0:11:55.64,0:11:56.84,Default,,0,0,0,,{\i1}7 bouteilles vides{\i0}
+Dialogue: 0,0:11:57.64,0:11:58.92,Default,,0,0,0,,{\i1}pour 6 capsules ?{\i0}
+Dialogue: 0,0:11:59.92,0:12:01.60,Default,,0,0,0,,{\i1}Et la dernière ?{\i0}
+Dialogue: 0,0:12:02.11,0:12:03.36,Default,,0,0,0,,{\i1}Où est-elle ?{\i0}
+Dialogue: 0,0:12:06.08,0:12:06.87,Default,,0,0,0,,{\i1}Tiens ?{\i0}
+Dialogue: 0,0:12:08.47,0:12:10.00,Default,,0,0,0,,{\i1}La forme est différente.{\i0}
+Dialogue: 0,0:12:10.87,0:12:11.87,Default,,0,0,0,,{\i1}Et cette clé,{\i0}
+Dialogue: 0,0:12:12.23,0:12:14.16,Default,,0,0,0,,{\i1}à quoi sert-elle ?{\i0}
+Dialogue: 0,0:12:17.00,0:12:19.23,Default,,0,0,0,,{\i1}Et pourquoi l'avoir posée à part ?{\i0}
+Dialogue: 0,0:12:20.95,0:12:22.36,Default,,0,0,0,,{\i1}Encore cette bière bleue...{\i0}
+Dialogue: 0,0:12:23.43,0:12:25.72,Default,,0,0,0,,{\i1}Je me suis carrément fait avoir !{\i0}
+Dialogue: 0,0:12:26.23,0:12:29.00,Default,,0,0,0,,{\i1}"La clé qui ouvre\Nla porte du bonheur..."{\i0}
+Dialogue: 0,0:12:29.47,0:12:30.72,Default,,0,0,0,,{\i1}Mais oui, j'ai compris !{\i0}
+Dialogue: 0,0:12:31.72,0:12:32.72,Default,,0,0,0,,{\i1}Minute...{\i0}
+Dialogue: 0,0:12:33.43,0:12:34.43,Default,,0,0,0,,{\i1}Si c'est bien ça...{\i0}
+Dialogue: 0,0:12:36.08,0:12:37.00,Default,,0,0,0,,{\i1}Alors...{\i0}
+Dialogue: 0,0:12:37.80,0:12:39.00,Default,,0,0,0,,{\i1}Voilà, c'est ça !{\i0}
+Dialogue: 0,0:12:40.00,0:12:41.08,Default,,0,0,0,,{\i1}Aucun doute...{\i0}
+Dialogue: 0,0:12:41.47,0:12:44.32,Default,,0,0,0,,{\i1}La taille du tour de pouce,\Nla position du loquet...{\i0}
+Dialogue: 0,0:12:45.43,0:12:48.87,Default,,0,0,0,,{\i1}J'ai deviné\Nce qui s'est réellement passé !{\i0}
+Dialogue: 0,0:12:55.00,0:12:57.47,Default,,0,0,0,,Vous pouvez m'expliquer, M. Môri ?
+Dialogue: 0,0:12:58.04,0:12:58.84,Default,,0,0,0,,C'est simple.
+Dialogue: 0,0:12:59.40,0:13:02.87,Default,,0,0,0,,Je vais faire la lumière\Nsur cette affaire.
+Dialogue: 0,0:13:04.16,0:13:06.72,Default,,0,0,0,,- Vraiment ?\N- Je vous reconnais bien là !
+Dialogue: 0,0:13:07.00,0:13:11.00,Default,,0,0,0,,Pour commencer, ce n'est pas\NM. Minakitaya qui a tué Kyûjirô.
+Dialogue: 0,0:13:12.04,0:13:13.87,Default,,0,0,0,,Et le cheveu dans sa voiture ?
+Dialogue: 0,0:13:14.36,0:13:17.40,Default,,0,0,0,,Je vous rappelle\Nqu'il conduisait une décapotable.
+Dialogue: 0,0:13:17.76,0:13:20.23,Default,,0,0,0,,Transporterait-il un corps là-dedans ?
+Dialogue: 0,0:13:20.68,0:13:22.36,Default,,0,0,0,,Surtout qu'il a une berline.
+Dialogue: 0,0:13:22.76,0:13:23.64,Default,,0,0,0,,Vu comme ça...
+Dialogue: 0,0:13:23.80,0:13:26.87,Default,,0,0,0,,Ce cheveu est une ruse du vrai coupable
+Dialogue: 0,0:13:27.36,0:13:30.16,Default,,0,0,0,,pour faire porter le chapeau\Nà M. Minakitaya.
+Dialogue: 0,0:13:30.52,0:13:34.80,Default,,0,0,0,,Seulement, il n'avait pas prévu\Ncette décapotable achetée récemment.
+Dialogue: 0,0:13:35.11,0:13:37.43,Default,,0,0,0,,Quelqu'un a donc tué M. Minakitaya ?
+Dialogue: 0,0:13:37.87,0:13:40.87,Default,,0,0,0,,Oui, j'ai compris qui,\Net le truc de la chambre.
+Dialogue: 0,0:13:42.72,0:13:44.47,Default,,0,0,0,,Mais la fenêtre était fermée,
+Dialogue: 0,0:13:44.76,0:13:47.32,Default,,0,0,0,,la porte close\Net le loquet enclenché.
+Dialogue: 0,0:13:47.64,0:13:49.04,Default,,0,0,0,,Alors comment ?
+Dialogue: 0,0:13:49.56,0:13:53.36,Default,,0,0,0,,Eh bien, je vais vous faire\Nune démonstration. Conan !
+Dialogue: 0,0:13:54.16,0:13:55.11,Default,,0,0,0,,Présent !
+Dialogue: 0,0:13:55.68,0:13:56.95,Default,,0,0,0,,Pour commencer,
+Dialogue: 0,0:13:57.28,0:13:58.56,Default,,0,0,0,,on met le décapsuleur
+Dialogue: 0,0:13:59.16,0:14:00.40,Default,,0,0,0,,comme ça.
+Dialogue: 0,0:14:01.08,0:14:02.28,Default,,0,0,0,,Et on le fixe...
+Dialogue: 0,0:14:02.76,0:14:03.68,Default,,0,0,0,,Un aimant bovin !
+Dialogue: 0,0:14:04.28,0:14:05.32,Default,,0,0,0,,... avec cet aimant !
+Dialogue: 0,0:14:07.68,0:14:09.32,Default,,0,0,0,,Après avoir fermé la porte,
+Dialogue: 0,0:14:09.80,0:14:12.52,Default,,0,0,0,,si on fait bouger le décapsuleur\Navec l'aimant...
+Dialogue: 0,0:14:15.32,0:14:18.60,Default,,0,0,0,,on peut alors fermer à la fois\Nle verrou et le loquet !
+Dialogue: 0,0:14:18.76,0:14:22.64,Default,,0,0,0,,Ensuite, il suffit d'éloigner l'aimant\Net de secouer la porte...
+Dialogue: 0,0:14:25.32,0:14:26.36,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:14:26.52,0:14:31.56,Default,,0,0,0,,Et avec des bouteilles vides au sol,\Nce décapsuleur n'a rien d'étrange.
+Dialogue: 0,0:14:32.00,0:14:34.76,Default,,0,0,0,,C'était donc bien vous,\Nle coupable !
+Dialogue: 0,0:14:34.95,0:14:38.16,Default,,0,0,0,,Vous disiez avoir bu une bière\Nen jouant avec un aimant !
+Dialogue: 0,0:14:38.36,0:14:40.23,Default,,0,0,0,,C'est pas moi, bon sang !
+Dialogue: 0,0:14:40.40,0:14:41.87,Default,,0,0,0,,Avant de mourir,
+Dialogue: 0,0:14:42.40,0:14:45.23,Default,,0,0,0,,M. Minakitaya nous a indiqué\Nqui était l'assassin.
+Dialogue: 0,0:14:46.23,0:14:47.23,Default,,0,0,0,,J'en étais sûre...
+Dialogue: 0,0:14:47.76,0:14:50.87,Default,,0,0,0,,Non, cette marque n'était pas\Nl'emblème de Byûn.
+Dialogue: 0,0:14:51.36,0:14:53.11,Default,,0,0,0,,D'ailleurs, elle était à l'envers.
+Dialogue: 0,0:14:53.56,0:14:54.32,Default,,0,0,0,,"À l'envers" ?
+Dialogue: 0,0:14:54.60,0:14:55.87,Default,,0,0,0,,C'est à cause du fait
+Dialogue: 0,0:14:56.04,0:15:00.08,Default,,0,0,0,,que la Comète masquée\Nétait liée à l'affaire qu'on a cru ça.
+Dialogue: 0,0:15:00.43,0:15:04.08,Default,,0,0,0,,Mais en regardant la position des mains,\Nc'est évident.
+Dialogue: 0,0:15:04.47,0:15:08.47,Default,,0,0,0,,Autrement dit,\Nc'est un rond avec 2 bâtons en bas ?
+Dialogue: 0,0:15:08.68,0:15:10.56,Default,,0,0,0,,Ça correspond à quoi, ça ?
+Dialogue: 0,0:15:11.16,0:15:13.32,Default,,0,0,0,,Quand il signait un autographe,
+Dialogue: 0,0:15:13.92,0:15:16.43,Default,,0,0,0,,il dessinait un rond\Npour faire le "Ô" de "Ôtarô".
+Dialogue: 0,0:15:16.87,0:15:18.20,Default,,0,0,0,,Le rond est donc un "ô"
+Dialogue: 0,0:15:18.80,0:15:21.20,Default,,0,0,0,,et les 2 bâtons, le katakana "ha".
+Dialogue: 0,0:15:21.56,0:15:23.84,Default,,0,0,0,,Ils se sont juste superposés.
+Dialogue: 0,0:15:24.52,0:15:27.43,Default,,0,0,0,,Donc, le nom\Nqu'a voulu écrire M. Minakitaya...
+Dialogue: 0,0:15:28.87,0:15:29.72,Default,,0,0,0,,M. Oohara...
+Dialogue: 0,0:15:30.08,0:15:31.40,Default,,0,0,0,,C'est vous, le coupable !
+Dialogue: 0,0:15:31.72,0:15:33.64,Default,,0,0,0,,Vous dites n'importe quoi !
+Dialogue: 0,0:15:34.00,0:15:35.64,Default,,0,0,0,,Pourquoi j'aurais fait ça ?
+Dialogue: 0,0:15:36.00,0:15:38.87,Default,,0,0,0,,Parce que vous êtes\Nle complice de ce meurtre
+Dialogue: 0,0:15:39.04,0:15:40.80,Default,,0,0,0,,commis il y a 7 ans !
+Dialogue: 0,0:15:43.08,0:15:46.11,Default,,0,0,0,,Grâce au micro caché\Ndans la chambre de M. Minakitaya,
+Dialogue: 0,0:15:46.36,0:15:50.76,Default,,0,0,0,,Kyûjirô a appris votre secret\Net a commencé à vous faire chanter.
+Dialogue: 0,0:15:51.11,0:15:52.11,Default,,0,0,0,,Mais oui !
+Dialogue: 0,0:15:52.32,0:15:54.08,Default,,0,0,0,,La carte de Byûn qu'il avait
+Dialogue: 0,0:15:54.43,0:15:56.64,Default,,0,0,0,,visait à montrer qu'il savait tout !
+Dialogue: 0,0:15:57.20,0:16:01.40,Default,,0,0,0,,Vous avez d'abord tué Kyûjirô\Npour le faire taire.
+Dialogue: 0,0:16:02.00,0:16:05.20,Default,,0,0,0,,Vous avez dû prévoir\Nde l'eau de robinet au préalable.
+Dialogue: 0,0:16:06.56,0:16:08.72,Default,,0,0,0,,Vous l'avez noyé dans votre voiture
+Dialogue: 0,0:16:09.11,0:16:13.36,Default,,0,0,0,,et jeté son corps dans l'étang\Navant de venir nous prendre à la gare.
+Dialogue: 0,0:16:13.84,0:16:16.47,Default,,0,0,0,,Ensuite,\Nvous avez assassiné M. Minakitaya
+Dialogue: 0,0:16:16.72,0:16:18.43,Default,,0,0,0,,pour lui faire porter le chapeau.
+Dialogue: 0,0:16:19.64,0:16:21.23,Default,,0,0,0,,C'est faux ! Vous délirez !
+Dialogue: 0,0:16:21.76,0:16:24.84,Default,,0,0,0,,Dans ce cas,\Npourquoi avoir inventé
+Dialogue: 0,0:16:25.11,0:16:27.84,Default,,0,0,0,,qu'il avait pris un décapsuleur\Navec les bières ?
+Dialogue: 0,0:16:28.47,0:16:30.84,Default,,0,0,0,,C'est la vérité !\NJe l'ai vu !
+Dialogue: 0,0:16:31.43,0:16:34.36,Default,,0,0,0,,C'est ce qu'on ferait normalement, non ?
+Dialogue: 0,0:16:35.28,0:16:37.87,Default,,0,0,0,,M. Minakitaya n'en avait pas besoin.
+Dialogue: 0,0:16:38.52,0:16:41.87,Default,,0,0,0,,Et ça, parce qu'il possédait\Nson propre décapsuleur.
+Dialogue: 0,0:16:42.47,0:16:44.87,Default,,0,0,0,,Mais on n'a rien trouvé de tel !
+Dialogue: 0,0:16:45.28,0:16:47.16,Default,,0,0,0,,C'est son aspect qui vous a bernés.
+Dialogue: 0,0:16:47.76,0:16:49.52,Default,,0,0,0,,Tout comme cette bière bleue.
+Dialogue: 0,0:16:49.95,0:16:54.40,Default,,0,0,0,,Cette clé qui ouvrait la porte du bonheur\Nselon M. Minakitaya,
+Dialogue: 0,0:16:55.00,0:16:56.16,Default,,0,0,0,,c'est un décapsuleur !
+Dialogue: 0,0:16:56.60,0:16:57.76,Default,,0,0,0,,Cette clé ?
+Dialogue: 0,0:16:58.00,0:17:00.87,Default,,0,0,0,,Mais oui ! Pour un fan de bière\Ncomme M. Minakitaya,
+Dialogue: 0,0:17:01.20,0:17:05.16,Default,,0,0,0,,décapsuler une bouteille,\Nc'est ouvrir la porte du bonheur.
+Dialogue: 0,0:17:05.76,0:17:07.47,Default,,0,0,0,,Les capsules par terre
+Dialogue: 0,0:17:08.00,0:17:10.43,Default,,0,0,0,,pointaient un peu vers le haut.
+Dialogue: 0,0:17:11.00,0:17:13.92,Default,,0,0,0,,C'est sûrement dû\Nà la forme du décapsuleur.
+Dialogue: 0,0:17:14.72,0:17:18.40,Default,,0,0,0,,Il vous en fallait un\Npour fermer la chambre.
+Dialogue: 0,0:17:19.00,0:17:21.68,Default,,0,0,0,,Mais comme étonnamment,\Nil n'y en avait pas,
+Dialogue: 0,0:17:22.20,0:17:24.76,Default,,0,0,0,,vous êtes retourné\Nen prendre un en cuisine.
+Dialogue: 0,0:17:25.00,0:17:28.28,Default,,0,0,0,,Ce qui vous a forcé à mentir\Npour le cacher.
+Dialogue: 0,0:17:29.04,0:17:31.00,Default,,0,0,0,,Et le saccage de la salle à manger ?
+Dialogue: 0,0:17:31.43,0:17:32.56,Default,,0,0,0,,M. Ide avait collé
+Dialogue: 0,0:17:32.84,0:17:37.11,Default,,0,0,0,,beaucoup de capsules à l'aimant\Nen buvant sa bière avant de dormir.
+Dialogue: 0,0:17:38.00,0:17:42.16,Default,,0,0,0,,Il fallait les enlever de cet objet\Nafin de verrouiller la chambre.
+Dialogue: 0,0:17:42.64,0:17:46.20,Default,,0,0,0,,Seulement, impossible\Nde remettre tout dans l'état.
+Dialogue: 0,0:17:47.00,0:17:48.92,Default,,0,0,0,,Il a donc décidé
+Dialogue: 0,0:17:49.43,0:17:52.87,Default,,0,0,0,,de jeter les capsules à terre\Npour camoufler son acte.
+Dialogue: 0,0:17:53.36,0:17:56.11,Default,,0,0,0,,Vous avez des preuves\Nsur quoi vous baser ?
+Dialogue: 0,0:17:56.56,0:18:00.92,Default,,0,0,0,,Vous êtes celui qui connaît le mieux\Nla plus déterminante !
+Dialogue: 0,0:18:02.04,0:18:04.08,Default,,0,0,0,,Elle est sous votre montre.
+Dialogue: 0,0:18:05.64,0:18:09.72,Default,,0,0,0,,D'ordinaire, vous semblez toujours\Nla mettre dans votre poche.
+Dialogue: 0,0:18:10.20,0:18:12.68,Default,,0,0,0,,Mais plus depuis hier soir.
+Dialogue: 0,0:18:13.32,0:18:14.40,Default,,0,0,0,,Et alors ?
+Dialogue: 0,0:18:14.68,0:18:17.08,Default,,0,0,0,,Cette montre est déréglée,\Npas vrai ?
+Dialogue: 0,0:18:17.80,0:18:19.60,Default,,0,0,0,,Pour avoir l'heure, tout à l'heure,
+Dialogue: 0,0:18:19.92,0:18:23.08,Default,,0,0,0,,vous avez regardé votre montre,\Npuis l'horloge au mur.
+Dialogue: 0,0:18:23.60,0:18:25.04,Default,,0,0,0,,C'est-à-dire que...
+Dialogue: 0,0:18:25.43,0:18:28.87,Default,,0,0,0,,Vous comptiez remettre l'aimant\Ndans la salle à manger
+Dialogue: 0,0:18:29.47,0:18:32.52,Default,,0,0,0,,et rentrer chez vous\Naprès avoir tué M. Minakitaya.
+Dialogue: 0,0:18:33.36,0:18:38.56,Default,,0,0,0,,Seulement, Mlle Fujiyoshi a découvert\Nla salle à manger saccagée avant.
+Dialogue: 0,0:18:39.64,0:18:41.32,Default,,0,0,0,,Vous avez été obligé
+Dialogue: 0,0:18:41.64,0:18:45.36,Default,,0,0,0,,de fuir par l'arbre\Nprès de la fenêtre du 1er, au fond.
+Dialogue: 0,0:18:46.28,0:18:49.28,Default,,0,0,0,,L'aimant était dans votre poche\Nà ce moment.
+Dialogue: 0,0:18:49.80,0:18:51.80,Default,,0,0,0,,Tout comme votre montre.
+Dialogue: 0,0:18:52.47,0:18:55.00,Default,,0,0,0,,Et la force magnétique l'a déréglée !
+Dialogue: 0,0:18:55.43,0:18:57.47,Default,,0,0,0,,Une fois de retour,\Nil a dû guetter
+Dialogue: 0,0:18:57.80,0:19:00.92,Default,,0,0,0,,le bon moment pour jeter l'aimant\Ndans la salle à manger.
+Dialogue: 0,0:19:01.52,0:19:04.40,Default,,0,0,0,,Pouvez-vous ôter cette montre\Nde votre poignet ?
+Dialogue: 0,0:19:11.08,0:19:13.00,Default,,0,0,0,,C'est une marque de capsule.
+Dialogue: 0,0:19:13.40,0:19:17.04,Default,,0,0,0,,M. Minakitaya a dû se défendre\Navant de se faire tuer.
+Dialogue: 0,0:19:17.76,0:19:21.43,Default,,0,0,0,,M. Oohara a dû tomber à la renverse\Nsur une capsule
+Dialogue: 0,0:19:21.95,0:19:23.47,Default,,0,0,0,,et se blesser au bras.
+Dialogue: 0,0:19:25.08,0:19:26.87,Default,,0,0,0,,Si on analyse les capsules,
+Dialogue: 0,0:19:27.16,0:19:30.11,Default,,0,0,0,,on pourra y relever\Nmorceau de peau et sang.
+Dialogue: 0,0:19:30.68,0:19:32.04,Default,,0,0,0,,Allez-y, faites-le !
+Dialogue: 0,0:19:32.40,0:19:34.60,Default,,0,0,0,,Vous ne trouverez rien du tout !
+Dialogue: 0,0:19:34.87,0:19:35.95,Default,,0,0,0,,Sûrement...
+Dialogue: 0,0:19:36.60,0:19:38.95,Default,,0,0,0,,Vu que vous avez emporté la capsule.
+Dialogue: 0,0:19:39.32,0:19:42.72,Default,,0,0,0,,Seulement, vous n'avez pas pu\Nla jeter bien loin.
+Dialogue: 0,0:19:43.68,0:19:47.32,Default,,0,0,0,,De plus, inutile\Nde relever de la peau ou du sang.
+Dialogue: 0,0:19:47.76,0:19:50.76,Default,,0,0,0,,Chaque capsule\Nse déforme différemment à l'ouverture.
+Dialogue: 0,0:19:52.36,0:19:54.92,Default,,0,0,0,,Si la marque correspond,\Nce sera une preuve.
+Dialogue: 0,0:19:57.95,0:20:01.60,Default,,0,0,0,,C'est Ôtarô qui a commencé à dire\Nqu'on devait éliminer Kyûjirô.
+Dialogue: 0,0:20:01.92,0:20:04.47,Default,,0,0,0,,Dans ce cas,\Npourquoi l'avoir tué aussi ?
+Dialogue: 0,0:20:04.68,0:20:08.00,Default,,0,0,0,,Parce qu'il voulait\Nfaire taire Miona à tout prix !
+Dialogue: 0,0:20:08.16,0:20:12.23,Default,,0,0,0,,C'était pour la protéger,\Nje n'avais pas le choix !
+Dialogue: 0,0:20:12.68,0:20:14.28,Default,,0,0,0,,En êtes-vous bien sûr ?
+Dialogue: 0,0:20:15.52,0:20:16.95,Default,,0,0,0,,Le truc était simple,
+Dialogue: 0,0:20:17.23,0:20:21.47,Default,,0,0,0,,mais ce n'est pas une chose\Nqui vient immédiatement à l'esprit.
+Dialogue: 0,0:20:22.00,0:20:25.52,Default,,0,0,0,,Vous mûrissiez le projet\Nd'éliminer M. Minakitaya
+Dialogue: 0,0:20:25.95,0:20:28.20,Default,,0,0,0,,depuis un moment, n'est-ce pas ?
+Dialogue: 0,0:20:29.08,0:20:29.95,Default,,0,0,0,,Pas du tout !
+Dialogue: 0,0:20:30.16,0:20:33.80,Default,,0,0,0,,Vous comptiez le tuer\Net tout mettre sur son dos,
+Dialogue: 0,0:20:33.95,0:20:35.64,Default,,0,0,0,,et ce, dès le départ !
+Dialogue: 0,0:20:35.84,0:20:37.08,Default,,0,0,0,,Non ! C'est faux !
+Dialogue: 0,0:20:37.64,0:20:38.92,Default,,0,0,0,,Il y a 7 ans,
+Dialogue: 0,0:20:39.08,0:20:43.00,Default,,0,0,0,,il a voulu tuer la petite,\Nmais je l'en ai empêché !
+Dialogue: 0,0:20:43.43,0:20:45.23,Default,,0,0,0,,Je l'ai sauvée !
+Dialogue: 0,0:20:45.64,0:20:47.16,Default,,0,0,0,,J'ai eu très peur...
+Dialogue: 0,0:20:48.95,0:20:50.00,Default,,0,0,0,,Miona !
+Dialogue: 0,0:20:51.43,0:20:54.84,Default,,0,0,0,,Ce masque plein de sang\Ns'est approché de moi...
+Dialogue: 0,0:20:55.04,0:20:56.84,Default,,0,0,0,,Et puis, après...
+Dialogue: 0,0:20:59.72,0:21:02.20,Default,,0,0,0,,Je t'ai protégée... Pas vrai ?
+Dialogue: 0,0:21:02.64,0:21:03.84,Default,,0,0,0,,Tu te souviens ?
+Dialogue: 0,0:21:10.36,0:21:11.68,Default,,0,0,0,,{\i1}Tu vas oublier{\i0}
+Dialogue: 0,0:21:12.16,0:21:14.16,Default,,0,0,0,,{\i1}tout ce que tu viens de voir...{\i0}
+Dialogue: 0,0:21:14.56,0:21:17.84,Default,,0,0,0,,{\i1}Sans quoi,\Ntu subiras le même sort, petite...{\i0}
+Dialogue: 0,0:21:22.92,0:21:23.60,Default,,0,0,0,,Miona !
+Dialogue: 0,0:21:24.43,0:21:24.95,Default,,0,0,0,,Miona !
+Dialogue: 0,0:21:26.04,0:21:29.23,Default,,0,0,0,,Le coupable que j'ai vu il y a 7 ans,
+Dialogue: 0,0:21:29.68,0:21:30.60,Default,,0,0,0,,c'est lui !
+Dialogue: 0,0:23:04.84,0:23:07.11,Default,,0,0,0,,C'était une horrible affaire,
+Dialogue: 0,0:23:07.72,0:23:10.56,Default,,0,0,0,,mais au moins,\Nelle devrait retrouver le sourire.
+Dialogue: 0,0:23:11.23,0:23:12.43,Default,,0,0,0,,Sûrement...
+Dialogue: 0,0:23:17.16,0:23:19.92,Default,,0,0,0,,Tiens ?\NOù sont-ils tous passés ?
+Dialogue: 0,0:23:28.92,0:23:33.04,Default,,0,0,0,,Sacré tonton... Même une bière\Nsuffit à le mettre K.-O...

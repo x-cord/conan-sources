@@ -1,0 +1,411 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.91,0:00:02.83,Default,,0,0,0,,Excusez-moi !
+Dialogue: 0,0:00:03.71,0:00:05.08,Default,,0,0,0,,Aidez-moi, s'il vous plaît !
+Dialogue: 0,0:00:05.58,0:00:06.33,Default,,0,0,0,,Excusez-moi !
+Dialogue: 0,0:00:07.00,0:00:08.38,ST_HAUT,,0,0,0,,Je cherche mon épouse !
+Dialogue: 0,0:00:08.71,0:00:10.34,ST_HAUT,,0,0,0,,Aidez-moi, s'il vous plaît !
+Dialogue: 0,0:00:11.01,0:00:11.97,Default,,0,0,0,,S'il vous plaît !
+Dialogue: 0,0:00:14.55,0:00:15.34,Default,,0,0,0,,Excusez-moi !
+Dialogue: 0,0:00:15.64,0:00:16.80,Default,,0,0,0,,Je cherche mon épouse...
+Dialogue: 0,0:00:29.77,0:00:30.65,Default,,0,0,0,,Tomomi...
+Dialogue: 0,0:00:52.59,0:00:53.09,Default,,0,0,0,,Tomomi !
+Dialogue: 0,0:00:55.84,0:00:56.93,Default,,0,0,0,,Pardon...
+Dialogue: 0,0:00:57.09,0:01:00.06,Default,,0,0,0,,Dites... Je peux avoir une affiche ?
+Dialogue: 0,0:01:00.85,0:01:02.85,Default,,0,0,0,,Bien sûr ! Tenez.
+Dialogue: 0,0:01:03.06,0:01:04.64,Default,,0,0,0,,Vous m'en montrez une aussi ?
+Dialogue: 0,0:01:05.98,0:01:06.56,Default,,0,0,0,,Tiens.
+Dialogue: 0,0:01:07.02,0:01:07.90,Default,,0,0,0,,Merci.
+Dialogue: 0,0:01:08.27,0:01:10.23,ST_HAUT,,0,0,0,,TOMOMI HIGUCHI - 29 ANS\N1 M 65 - MINCE
+Dialogue: 0,0:01:10.40,0:01:11.98,Default,,0,0,0,,Tiens ? Cette femme...
+Dialogue: 0,0:01:12.65,0:01:14.53,Default,,0,0,0,,Tu la connais, Ran ?
+Dialogue: 0,0:01:15.53,0:01:19.24,Default,,0,0,0,,Elle travaille chez le fleuriste\Ndu quartier commerçant, non ?
+Dialogue: 0,0:01:20.28,0:01:21.91,Default,,0,0,0,,C'est ça ! C'est bien elle !
+Dialogue: 0,0:01:22.41,0:01:24.12,Default,,0,0,0,,Vous l'avez vue quelque part ?
+Dialogue: 0,0:01:24.91,0:01:26.79,Default,,0,0,0,,Elle a disparu après le travail,
+Dialogue: 0,0:01:27.17,0:01:29.17,Default,,0,0,0,,il y a 3 jours de ça.
+Dialogue: 0,0:01:34.59,0:01:38.55,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:38.89,0:01:42.18,Default,,0,0,0,,{\i1}Une diction au rythme fluide\Npour un raisonnement parfait !{\i0}
+Dialogue: 0,0:01:42.35,0:01:43.97,Default,,0,0,0,,{\i1}Que cachent ces affiches{\i0}
+Dialogue: 0,0:01:44.14,0:01:46.06,Default,,0,0,0,,{\i1}distribuées au coin de la rue ?{\i0}
+Dialogue: 0,0:01:46.23,0:01:49.52,ST_BAS_DROITE,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:49.69,0:01:51.82,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:16.80,0:02:18.63,ST_HAUT_GAUCHE,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:02:23.97,0:02:25.81,ST_HAUT_DROITE,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:28.18,0:02:30.19,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:35.86,0:02:37.99,ST_HAUT_DROITE,,0,0,0,,Générique d'ouverture :\N"Makkana Lip"
+Dialogue: 0,0:02:40.91,0:02:42.66,ST_HAUT_DROITE,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:02:44.66,0:02:46.37,ST_HAUT_DROITE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:50.58,0:02:52.46,ST_HAUT_GAUCHE,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:55.25,0:02:57.09,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:03.39,0:03:05.64,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:16.40,0:03:18.36,Default,,0,0,0,,{\i1}Une énigmatique disparition !{\i0}
+Dialogue: 0,0:03:21.86,0:03:24.95,Default,,0,0,0,,CAFÉ POIROT\NAGENCE MÔRI
+Dialogue: 0,0:03:25.87,0:03:26.95,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:03:27.54,0:03:29.95,Default,,0,0,0,,Voilà donc l'affiche en question.
+Dialogue: 0,0:03:30.37,0:03:31.25,Default,,0,0,0,,S'il vous plaît !
+Dialogue: 0,0:03:32.12,0:03:34.71,Default,,0,0,0,,Retrouvez Tomomi...\NRetrouvez mon épouse !
+Dialogue: 0,0:03:35.38,0:03:36.46,Default,,0,0,0,,Je vous en supplie !
+Dialogue: 0,0:03:37.63,0:03:40.47,Default,,0,0,0,,Il la cherchait désespérément\Nsous la pluie !
+Dialogue: 0,0:03:40.76,0:03:42.09,Default,,0,0,0,,Fais quelque chose !
+Dialogue: 0,0:03:42.55,0:03:44.47,Default,,0,0,0,,Tu auras beau dire...
+Dialogue: 0,0:03:44.89,0:03:47.31,Default,,0,0,0,,Ça ne fait que 3 jours, non ?
+Dialogue: 0,0:03:47.60,0:03:50.52,Default,,0,0,0,,Attendez encore un peu,\Nelle reviendra sûrement.
+Dialogue: 0,0:03:50.68,0:03:51.52,Default,,0,0,0,,Mais...
+Dialogue: 0,0:03:51.89,0:03:53.90,Default,,0,0,0,,C'est courant, ce genre de fugue !
+Dialogue: 0,0:03:54.27,0:03:57.19,Default,,0,0,0,,Vous ne l'auriez pas contrariée\Nen oubliant
+Dialogue: 0,0:03:57.48,0:04:00.82,Default,,0,0,0,,un rendez-vous\Nà cause d'une partie de Mah-jong ?
+Dialogue: 0,0:04:00.99,0:04:02.65,Default,,0,0,0,,Ce serait plutôt toi, ça...
+Dialogue: 0,0:04:04.53,0:04:05.37,Default,,0,0,0,,Non...
+Dialogue: 0,0:04:06.20,0:04:10.58,Default,,0,0,0,,C'est elle qui n'est pas venue\Nà notre rendez-vous ce jour-là.
+Dialogue: 0,0:04:11.29,0:04:14.67,ST_HAUT,,0,0,0,,{\i1}Quoi ? Au restaurant panoramique\Ndu Beika Center Building ?{\i0}
+Dialogue: 0,0:04:15.04,0:04:15.67,Default,,0,0,0,,{\i1}Oui.{\i0}
+Dialogue: 0,0:04:16.04,0:04:17.67,Default,,0,0,0,,{\i1}Tu as pu réserver{\i0}
+Dialogue: 0,0:04:17.92,0:04:19.80,Default,,0,0,0,,{\i1}dans un endroit aussi chic ?{\i0}
+Dialogue: 0,0:04:20.09,0:04:21.92,Default,,0,0,0,,{\i1}C'est que demain est un jour spécial.{\i0}
+Dialogue: 0,0:04:22.59,0:04:23.63,Default,,0,0,0,,{\i1}Je suis aux anges !{\i0}
+Dialogue: 0,0:04:26.05,0:04:27.80,Default,,0,0,0,,J'avais réservé pour célébrer
+Dialogue: 0,0:04:28.68,0:04:30.43,Default,,0,0,0,,notre anniversaire de mariage.
+Dialogue: 0,0:04:31.39,0:04:33.56,Default,,0,0,0,,Ça nous sortait de l'ordinaire
+Dialogue: 0,0:04:33.94,0:04:36.40,Default,,0,0,0,,et ma femme\Nse faisait une joie d'y aller.
+Dialogue: 0,0:04:40.48,0:04:42.82,Default,,0,0,0,,Elle n'avait donc\Naucune raison de fuguer !
+Dialogue: 0,0:04:44.49,0:04:45.24,Default,,0,0,0,,Surtout pas
+Dialogue: 0,0:04:45.53,0:04:48.62,Default,,0,0,0,,en laissant téléphone\Net portefeuille dans le séjour !
+Dialogue: 0,0:04:49.87,0:04:51.75,Default,,0,0,0,,Vous en avez informé la police ?
+Dialogue: 0,0:04:52.29,0:04:56.67,Default,,0,0,0,,Évidemment ! Mais selon elle,\Nça ne justifie pas une enquête.
+Dialogue: 0,0:04:57.13,0:04:58.13,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:04:58.63,0:05:03.05,Default,,0,0,0,,J'ai peur qu'on l'ait enlevée\Nou qu'elle ait été impliquée
+Dialogue: 0,0:05:03.84,0:05:05.63,Default,,0,0,0,,dans une sale affaire !
+Dialogue: 0,0:05:06.05,0:05:07.26,Default,,0,0,0,,Papa !
+Dialogue: 0,0:05:08.26,0:05:10.51,Default,,0,0,0,,Entendu ! J'accepte votre requête.
+Dialogue: 0,0:05:11.72,0:05:13.02,Default,,0,0,0,,Merci infiniment !
+Dialogue: 0,0:05:13.56,0:05:15.02,Default,,0,0,0,,Vraiment...
+Dialogue: 0,0:05:15.81,0:05:17.23,Default,,0,0,0,,Je m'en remets à vous !
+Dialogue: 0,0:05:22.23,0:05:26.15,Default,,0,0,0,,C'est lui qui risque de partir\Nen vrille avant qu'on la débusque...
+Dialogue: 0,0:05:26.40,0:05:28.20,Default,,0,0,0,,Retrouve-la vite alors !
+Dialogue: 0,0:05:28.37,0:05:29.87,Default,,0,0,0,,Ça, je m'en doute !
+Dialogue: 0,0:05:31.08,0:05:32.91,Default,,0,0,0,,C'est bien beau tout ça,
+Dialogue: 0,0:05:33.24,0:05:36.37,Default,,0,0,0,,mais à part interroger\Nle voisinage et ses collègues,
+Dialogue: 0,0:05:36.54,0:05:38.17,Default,,0,0,0,,je ne vois pas quoi faire.
+Dialogue: 0,0:05:39.00,0:05:42.05,Default,,0,0,0,,Mme Higuchi a disparu ce mercredi,
+Dialogue: 0,0:05:42.50,0:05:44.21,Default,,0,0,0,,ça remonte à 3 jours.
+Dialogue: 0,0:05:44.63,0:05:47.30,Default,,0,0,0,,Le lendemain de la prise\Nde la photo de l'affiche.
+Dialogue: 0,0:05:47.93,0:05:51.05,Default,,0,0,0,,Elle est sortie\Nde son travail vers 14 h
+Dialogue: 0,0:05:51.76,0:05:54.14,Default,,0,0,0,,et avait rendez-vous\Navec son mari à 19 h.
+Dialogue: 0,0:05:54.77,0:05:57.14,Default,,0,0,0,,Malheureusement,\Nc'était un jour de semaine,
+Dialogue: 0,0:05:57.89,0:06:00.02,Default,,0,0,0,,j'espère que quelqu'un l'a aperçue !
+Dialogue: 0,0:06:00.52,0:06:02.32,Default,,0,0,0,,Tu m'as encore suivi, morveux ?
+Dialogue: 0,0:06:02.61,0:06:03.73,Default,,0,0,0,,C'est mieux, non ?
+Dialogue: 0,0:06:03.90,0:06:08.32,Default,,0,0,0,,Les gens seront moins tendus\Net te parleront plus facilement !
+Dialogue: 0,0:06:10.95,0:06:11.70,Default,,0,0,0,,Enfin...
+Dialogue: 0,0:06:12.03,0:06:15.45,Default,,0,0,0,,Vu comment tu me supplies,\Nce serait cruel de refuser.
+Dialogue: 0,0:06:15.83,0:06:16.83,Default,,0,0,0,,Tu peux venir,
+Dialogue: 0,0:06:17.12,0:06:18.50,Default,,0,0,0,,mais ne me gêne pas !
+Dialogue: 0,0:06:18.92,0:06:20.58,Default,,0,0,0,,{\i1}Je t'ai jamais supplié !{\i0}
+Dialogue: 0,0:06:21.00,0:06:22.04,ST_HAUT,,0,0,0,,MASAKI & TOMOMI HIGUCHI
+Dialogue: 0,0:06:22.21,0:06:24.75,ST_HAUT,,0,0,0,,C'est donc ici\Nqu'habitent les Higuchi.
+Dialogue: 0,0:06:26.01,0:06:26.88,Default,,0,0,0,,Bon !
+Dialogue: 0,0:06:27.47,0:06:30.05,Default,,0,0,0,,Commençons par interroger\Nles voisins.
+Dialogue: 0,0:06:30.22,0:06:30.72,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:06:31.64,0:06:33.97,Default,,0,0,0,,- "Il y a 3 jours" ?\N- Oui.
+Dialogue: 0,0:06:34.43,0:06:39.02,Default,,0,0,0,,J'ai bien vu Tomomi revenir\Nde son travail, en effet.
+Dialogue: 0,0:06:39.27,0:06:40.48,Default,,0,0,0,,Quelle heure était-il ?
+Dialogue: 0,0:06:41.69,0:06:43.48,Default,,0,0,0,,14 h 30, je pense...
+Dialogue: 0,0:06:43.82,0:06:46.48,Default,,0,0,0,,Vous n'avez rien remarqué\Nd'étrange à ce moment ?
+Dialogue: 0,0:06:46.86,0:06:49.53,Default,,0,0,0,,Non, elle était comme d'habitude.
+Dialogue: 0,0:06:49.99,0:06:53.99,Default,,0,0,0,,Elle était ravie d'aller dîner\Nau restaurant, le soir.
+Dialogue: 0,0:06:54.37,0:06:59.12,Default,,0,0,0,,Vous n'avez aperçu ni individu\Nni véhicule louche, ce jour-là ?
+Dialogue: 0,0:07:02.54,0:07:04.63,Default,,0,0,0,,Je ne pense pas, non.
+Dialogue: 0,0:07:05.09,0:07:08.34,Default,,0,0,0,,Mais j'ai la mémoire qui flanche,\Nces temps-ci.
+Dialogue: 0,0:07:08.88,0:07:11.63,Default,,0,0,0,,Même si je me souviens très bien\Nde mon passé.
+Dialogue: 0,0:07:12.01,0:07:14.80,Default,,0,0,0,,Vous n'avez rien entendu\Nde bizarre non plus ?
+Dialogue: 0,0:07:14.97,0:07:16.14,Default,,0,0,0,,Non.
+Dialogue: 0,0:07:16.60,0:07:19.98,Default,,0,0,0,,Et d'ailleurs, on aurait réagi\Ndans le lotissement
+Dialogue: 0,0:07:20.14,0:07:22.06,Default,,0,0,0,,en cas de bruit suspect.
+Dialogue: 0,0:07:22.69,0:07:23.52,Default,,0,0,0,,En effet...
+Dialogue: 0,0:07:23.94,0:07:25.98,Default,,0,0,0,,Franchement, je n'en sais rien.
+Dialogue: 0,0:07:26.15,0:07:29.03,Default,,0,0,0,,Je ne fréquente pas trop\Nles gens du coin.
+Dialogue: 0,0:07:35.74,0:07:36.66,Default,,0,0,0,,Chiotte alors !
+Dialogue: 0,0:07:36.99,0:07:39.20,Default,,0,0,0,,Je n'ai trouvé aucune piste !
+Dialogue: 0,0:07:39.37,0:07:43.88,Default,,0,0,0,,On a juste appris qu'elle était ravie\Nd'aller au restaurant.
+Dialogue: 0,0:07:44.13,0:07:44.79,Default,,0,0,0,,Ouais...
+Dialogue: 0,0:07:45.25,0:07:48.63,Default,,0,0,0,,Interrogeons ceux qui habitent\Nà l'arrière de sa maison.
+Dialogue: 0,0:07:50.97,0:07:52.55,Default,,0,0,0,,Mme Higuchi, vous dites ?
+Dialogue: 0,0:07:53.09,0:07:57.56,Default,,0,0,0,,Je l'ai vue la semaine dernière\Nsur la berge de la rivière Teimuzu.
+Dialogue: 0,0:07:58.22,0:07:59.43,Default,,0,0,0,,"La semaine dernière" ?
+Dialogue: 0,0:08:00.06,0:08:02.06,Default,,0,0,0,,Elle avait l'air comment ?
+Dialogue: 0,0:08:02.52,0:08:05.36,Default,,0,0,0,,On aurait dit\Nqu'elle se disputait avec son mari,
+Dialogue: 0,0:08:05.61,0:08:07.19,Default,,0,0,0,,j'ai donc évité de lui parler.
+Dialogue: 0,0:08:07.77,0:08:09.65,Default,,0,0,0,,"Elle se disputait avec son mari" ?
+Dialogue: 0,0:08:09.82,0:08:10.44,Default,,0,0,0,,Oui.
+Dialogue: 0,0:08:10.78,0:08:14.45,Default,,0,0,0,,Elle hurlait qu'il l'épargne\Net la laisse vivre une nuit de plus.
+Dialogue: 0,0:08:14.78,0:08:16.57,Default,,0,0,0,,Rien de très gai, en tout cas...
+Dialogue: 0,0:08:19.08,0:08:22.21,Default,,0,0,0,,En effet, j'ai entendu des cris.
+Dialogue: 0,0:08:22.75,0:08:24.67,Default,,0,0,0,,Ça venait de chez les Higuchi ?
+Dialogue: 0,0:08:24.92,0:08:25.71,Default,,0,0,0,,Oui.
+Dialogue: 0,0:08:26.29,0:08:28.63,Default,,0,0,0,,Ils se disputaient souvent la nuit.
+Dialogue: 0,0:08:28.88,0:08:31.72,Default,,0,0,0,,Ça n'avait pas l'air\Nde coller entre ces deux-là.
+Dialogue: 0,0:08:32.34,0:08:34.88,Default,,0,0,0,,Mme Higuchi\Ns'est enfuie de la maison ?
+Dialogue: 0,0:08:35.84,0:08:39.60,Default,,0,0,0,,Oui, je l'ai bien vue\Nse disputer avec son mari.
+Dialogue: 0,0:08:40.35,0:08:43.85,Default,,0,0,0,,C'était dimanche,\Nau parc à côté de leur maison.
+Dialogue: 0,0:08:44.02,0:08:45.85,Default,,0,0,0,,Vous pouvez me décrire la scène ?
+Dialogue: 0,0:08:46.10,0:08:47.11,Default,,0,0,0,,C'est-à-dire que...
+Dialogue: 0,0:08:47.27,0:08:48.98,Default,,0,0,0,,Bannissez-moi !
+Dialogue: 0,0:08:49.36,0:08:52.61,Default,,0,0,0,,Dis donc, toi !\NDépêche-toi de finir tes devoirs !
+Dialogue: 0,0:08:52.78,0:08:53.65,Default,,0,0,0,,D'accord...
+Dialogue: 0,0:08:54.07,0:08:55.99,Default,,0,0,0,,Euh... C'était quoi, ça ?
+Dialogue: 0,0:08:56.74,0:09:00.24,Default,,0,0,0,,Pardon... En fait,\Nc'est exactement ce qu'a crié
+Dialogue: 0,0:09:00.95,0:09:03.75,Default,,0,0,0,,Mme Higuchi en vouvoyant son mari.
+Dialogue: 0,0:09:04.50,0:09:07.29,Default,,0,0,0,,Il s'est passé\Nquelque chose chez eux ?
+Dialogue: 0,0:09:14.88,0:09:16.05,Default,,0,0,0,,Fichez le camp !
+Dialogue: 0,0:09:17.68,0:09:19.39,Default,,0,0,0,,- C'est la voix de M. Higuchi.\N- Oui.
+Dialogue: 0,0:09:20.18,0:09:24.23,Default,,0,0,0,,Moi qui croyais que vous étiez venus\Nenquêter sur Tomomi !
+Dialogue: 0,0:09:24.39,0:09:26.14,Default,,0,0,0,,Un problème, monsieur Higuchi ?
+Dialogue: 0,0:09:26.64,0:09:27.44,Default,,0,0,0,,Monsieur Môri !
+Dialogue: 0,0:09:28.15,0:09:29.77,Default,,0,0,0,,C'est quoi ce bazar, Takagi ?
+Dialogue: 0,0:09:30.07,0:09:34.32,Default,,0,0,0,,En fait, on a reçu\Nun appel anonyme, tout à l'heure...
+Dialogue: 0,0:09:34.49,0:09:37.53,Default,,0,0,0,,On m'accuse d'avoir tué Tomomi\Net de l'avoir enterrée
+Dialogue: 0,0:09:37.70,0:09:39.66,Default,,0,0,0,,dans mon jardin !
+Dialogue: 0,0:09:43.54,0:09:45.12,Default,,0,0,0,,Bon, monsieur Higuchi.
+Dialogue: 0,0:09:45.87,0:09:47.04,Default,,0,0,0,,Vous permettez ?
+Dialogue: 0,0:09:47.29,0:09:49.79,Default,,0,0,0,,D'accord, mais faites vite alors !
+Dialogue: 0,0:09:50.34,0:09:52.71,Default,,0,0,0,,- C'est bon, allez-y !\N- À vos ordres !
+Dialogue: 0,0:09:56.42,0:09:58.30,Default,,0,0,0,,Vous ne trouverez aucun corps...
+Dialogue: 0,0:09:59.22,0:10:02.31,Default,,0,0,0,,Et ça,\Nparce que Tomomi n'est pas morte !
+Dialogue: 0,0:10:07.14,0:10:10.06,Default,,0,0,0,,On a trouvé quelque chose,\Nc'est un corps de femme !
+Dialogue: 0,0:10:12.40,0:10:13.57,Default,,0,0,0,,C'est pas vrai !
+Dialogue: 0,0:10:15.24,0:10:16.24,Default,,0,0,0,,- Tomomi !\N- Stop !
+Dialogue: 0,0:10:17.24,0:10:20.82,Default,,0,0,0,,Je comprends votre émotion,\Nmais n'approchez pas du corps.
+Dialogue: 0,0:10:24.41,0:10:25.25,Default,,0,0,0,,Tomomi...
+Dialogue: 0,0:10:25.58,0:10:27.21,Default,,0,0,0,,Tomomi !
+Dialogue: 0,0:10:41.93,0:10:45.27,Default,,0,0,0,,La victime est Tomomi Higuchi,\Nelle était âgée de 29 ans
+Dialogue: 0,0:10:45.47,0:10:47.56,Default,,0,0,0,,et vivait dans cette maison.
+Dialogue: 0,0:10:48.27,0:10:49.27,Default,,0,0,0,,Elle est morte
+Dialogue: 0,0:10:49.44,0:10:51.27,Default,,0,0,0,,d'une hémorragie à l'abdomen
+Dialogue: 0,0:10:51.44,0:10:52.86,Default,,0,0,0,,après avoir été perforée
+Dialogue: 0,0:10:53.11,0:10:54.48,Default,,0,0,0,,par ce coupe-branches
+Dialogue: 0,0:10:54.65,0:10:56.32,Default,,0,0,0,,enterré à ses côtés.
+Dialogue: 0,0:10:57.15,0:11:01.78,Default,,0,0,0,,Et voici le mari de la victime,\NMasaki Higuchi.
+Dialogue: 0,0:11:02.41,0:11:03.53,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:11:03.78,0:11:04.58,Default,,0,0,0,,Et enfin,
+Dialogue: 0,0:11:04.99,0:11:09.37,Default,,0,0,0,,voici les voisins que M. Môri\Nm'a conseillé de convoquer.
+Dialogue: 0,0:11:11.25,0:11:13.08,Default,,0,0,0,,Monsieur Higuchi, on a signalé
+Dialogue: 0,0:11:13.59,0:11:17.59,Default,,0,0,0,,que vous auriez tué et enterré\Nvotre épouse dans ce jardin...
+Dialogue: 0,0:11:17.76,0:11:19.09,Default,,0,0,0,,Il y a forcément erreur !
+Dialogue: 0,0:11:19.42,0:11:21.59,Default,,0,0,0,,Je n'aurais jamais pu tuer Tomomi...
+Dialogue: 0,0:11:22.05,0:11:23.85,Default,,0,0,0,,C'est impossible !
+Dialogue: 0,0:11:24.22,0:11:28.10,Default,,0,0,0,,Vous m'expliquerez ça\Nen détail au poste.
+Dialogue: 0,0:11:28.48,0:11:29.98,Default,,0,0,0,,- Takagi.\N- À vos ordres !
+Dialogue: 0,0:11:30.19,0:11:31.35,Default,,0,0,0,,Monsieur Môri !
+Dialogue: 0,0:11:33.23,0:11:34.06,Default,,0,0,0,,Monsieur Môri...
+Dialogue: 0,0:11:49.16,0:11:50.00,Default,,0,0,0,,{\i1}Mais c'est...{\i0}
+Dialogue: 0,0:11:50.62,0:11:52.00,Default,,0,0,0,,Non, mais franchement...
+Dialogue: 0,0:11:52.42,0:11:54.75,Default,,0,0,0,,Et ça me demande\Nde chercher sa femme ?
+Dialogue: 0,0:11:55.25,0:11:56.63,Default,,0,0,0,,Hé, Môri !
+Dialogue: 0,0:11:57.09,0:11:59.92,Default,,0,0,0,,D'après le voisinage,\Nvotre couple battait de l'aile !
+Dialogue: 0,0:12:00.09,0:12:03.39,Default,,0,0,0,,Vos disputes parlaient même\Nde menaces de meurtre !
+Dialogue: 0,0:12:04.59,0:12:07.39,Default,,0,0,0,,Attendez,\Non ne s'est jamais disputés !
+Dialogue: 0,0:12:08.06,0:12:10.73,Default,,0,0,0,,Moi qui vous croyais innocent...
+Dialogue: 0,0:12:10.89,0:12:14.52,Default,,0,0,0,,Mais j'ai vite changé d'avis\Nau fil de mon enquête !
+Dialogue: 0,0:12:17.65,0:12:18.69,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:12:19.53,0:12:21.15,Default,,0,0,0,,Mais pourquoi ?
+Dialogue: 0,0:12:21.57,0:12:24.74,Default,,0,0,0,,Vous m'avez complètement berné\Navec votre comédie !
+Dialogue: 0,0:12:26.12,0:12:26.95,Default,,0,0,0,,Takagi.
+Dialogue: 0,0:12:27.53,0:12:28.24,Default,,0,0,0,,À vos ordres !
+Dialogue: 0,0:12:28.74,0:12:30.41,Default,,0,0,0,,Allons, relevez-vous.
+Dialogue: 0,0:12:31.45,0:12:33.04,Default,,0,0,0,,Un instant !
+Dialogue: 0,0:12:33.46,0:12:35.67,Default,,0,0,0,,- Qu'y a-t-il, Môri ?\N- Qui ça ?
+Dialogue: 0,0:12:36.63,0:12:37.17,Default,,0,0,0,,Moi ?
+Dialogue: 0,0:12:43.88,0:12:45.18,Default,,0,0,0,,J'ai tout compris.
+Dialogue: 0,0:12:45.80,0:12:48.68,Default,,0,0,0,,Je sais qui est\Nle véritable assassin de Mme Higuchi.
+Dialogue: 0,0:12:50.89,0:12:55.69,Default,,0,0,0,,Hé ! Tu viens pourtant de dire\Nque son mari t'avait berné, non ?
+Dialogue: 0,0:12:56.06,0:12:58.73,Default,,0,0,0,,Oui, mais en fait,
+Dialogue: 0,0:12:58.90,0:13:02.74,Default,,0,0,0,,ce n'est pas moi qui ai été trompé,\Nmais ces personnes.
+Dialogue: 0,0:13:03.53,0:13:04.20,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:13:04.57,0:13:09.16,Default,,0,0,0,,Ce sont les voisins qui ont affirmé\Nque M. Higuchi se disputait
+Dialogue: 0,0:13:09.33,0:13:10.70,Default,,0,0,0,,avec sa femme.
+Dialogue: 0,0:13:11.41,0:13:14.96,Default,,0,0,0,,Ils se souvenaient tous très bien\Ndu contenu de leurs disputes.
+Dialogue: 0,0:13:15.58,0:13:20.09,Default,,0,0,0,,C'est parce que leurs propos\Nétaient vraiment inquiétants.
+Dialogue: 0,0:13:20.71,0:13:26.01,Default,,0,0,0,,Son épouse a hurlé qu'il la laisse\Nvivre et ne la tue que le lendemain.
+Dialogue: 0,0:13:26.30,0:13:30.72,Default,,0,0,0,,Et moi, je l'ai entendue le supplier\Nen pleine nuit de l'épargner !
+Dialogue: 0,0:13:30.89,0:13:34.77,Default,,0,0,0,,Quant à moi, je l'ai entendue hurler\Nqu'il la bannisse de la maison.
+Dialogue: 0,0:13:35.39,0:13:36.52,Default,,0,0,0,,Mais c'était...
+Dialogue: 0,0:13:36.94,0:13:39.44,Default,,0,0,0,,Oui, "Tuez-moi demain, laissez-moi
+Dialogue: 0,0:13:39.77,0:13:41.15,Default,,0,0,0,,vivre cette nuit."
+Dialogue: 0,0:13:41.48,0:13:42.32,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:13:42.61,0:13:43.78,Default,,0,0,0,,Vous ne saisissez pas ?
+Dialogue: 0,0:13:44.40,0:13:48.91,Default,,0,0,0,,C'est une réplique de Desdémone,\Nun personnage d'Othello de Shakespeare.
+Dialogue: 0,0:13:50.20,0:13:51.37,Default,,0,0,0,,"D'Othello" ?
+Dialogue: 0,0:13:51.53,0:13:54.79,Default,,0,0,0,,Il a raison, on ne se disputait pas.
+Dialogue: 0,0:13:55.33,0:13:57.25,Default,,0,0,0,,On répétait une pièce !
+Dialogue: 0,0:13:58.04,0:13:58.63,Default,,0,0,0,,Conan !
+Dialogue: 0,0:13:58.92,0:14:00.04,Default,,0,0,0,,J'arrive !
+Dialogue: 0,0:14:00.46,0:14:01.59,Default,,0,0,0,,Conan ?
+Dialogue: 0,0:14:02.17,0:14:04.51,Default,,0,0,0,,Regardez ! C'est écrit là aussi !
+Dialogue: 0,0:14:06.13,0:14:07.43,Default,,0,0,0,,C'est vrai !
+Dialogue: 0,0:14:08.18,0:14:11.72,Default,,0,0,0,,Votre épouse faisait partie\Nd'une troupe de théâtre amateur ?
+Dialogue: 0,0:14:12.35,0:14:12.93,Default,,0,0,0,,En effet.
+Dialogue: 0,0:14:13.72,0:14:14.68,Default,,0,0,0,,Et d'ailleurs...
+Dialogue: 0,0:14:18.06,0:14:19.94,Default,,0,0,0,,{\i1}Regarde un peu ça !{\i0}
+Dialogue: 0,0:14:22.07,0:14:23.19,Default,,0,0,0,,{\i1}Que se passe-t-il ?{\i0}
+Dialogue: 0,0:14:23.57,0:14:26.57,Default,,0,0,0,,{\i1}J'ai eu une excellente nouvelle,\Naujourd'hui !{\i0}
+Dialogue: 0,0:14:29.99,0:14:32.74,Default,,0,0,0,,Elle avait reçu son premier grand rôle.
+Dialogue: 0,0:14:33.03,0:14:34.70,Default,,0,0,0,,Elle débordait d'enthousiasme.
+Dialogue: 0,0:14:35.29,0:14:39.58,Default,,0,0,0,,D'où vos répétitions\Nprès des berges ou au parc...
+Dialogue: 0,0:14:40.04,0:14:43.71,Default,,0,0,0,,Oui, impossible\Nde déclamer trop fort à la maison...
+Dialogue: 0,0:14:44.00,0:14:46.26,Default,,0,0,0,,Pour éviter\Nde troubler le voisinage...
+Dialogue: 0,0:14:47.26,0:14:50.72,Default,,0,0,0,,Dans ce cas,\Nquelque chose cloche, non ?
+Dialogue: 0,0:14:51.18,0:14:55.47,ST_HAUT,,0,0,0,,Mme Tsutsumi affirme\Navoir entendu crier en pleine nuit.
+Dialogue: 0,0:14:57.06,0:14:58.02,Default,,0,0,0,,C'est vrai...
+Dialogue: 0,0:14:58.56,0:14:59.35,Default,,0,0,0,,C'est-à-dire que...
+Dialogue: 0,0:14:59.69,0:15:01.44,Default,,0,0,0,,J'ai dû me méprendre un peu...
+Dialogue: 0,0:15:01.60,0:15:04.15,Default,,0,0,0,,Non, ce n'est pas une méprise.
+Dialogue: 0,0:15:04.69,0:15:07.74,Default,,0,0,0,,Vous avez volontairement fait\Nun faux témoignage.
+Dialogue: 0,0:15:08.11,0:15:11.61,Default,,0,0,0,,Et pour quelle raison\Nj'aurais menti, dites-moi ?
+Dialogue: 0,0:15:11.87,0:15:13.12,Default,,0,0,0,,Parce que celle
+Dialogue: 0,0:15:13.70,0:15:16.37,Default,,0,0,0,,qui a tué Mme Higuchi\Navec un coupe-branches,
+Dialogue: 0,0:15:16.87,0:15:18.75,Default,,0,0,0,,c'est vous !
+Dialogue: 0,0:15:22.21,0:15:26.76,Default,,0,0,0,,Mais qu'est-ce que vous racontez ?\NCe n'était qu'une voisine...
+Dialogue: 0,0:15:27.55,0:15:28.38,Default,,0,0,0,,Et d'ailleurs...
+Dialogue: 0,0:15:29.05,0:15:32.01,Default,,0,0,0,,je n'avais aucune raison\Nde vouloir la tuer.
+Dialogue: 0,0:15:32.30,0:15:37.02,Default,,0,0,0,,Si, et c'est l'affiche réalisée\Npar M. Higuchi qui me l'a apprise !
+Dialogue: 0,0:15:37.52,0:15:39.89,Default,,0,0,0,,Cet avis de recherche ?
+Dialogue: 0,0:15:40.19,0:15:40.94,Default,,0,0,0,,Exact.
+Dialogue: 0,0:15:41.48,0:15:46.02,Default,,0,0,0,,La photo a été prise la veille\Nde la disparition de Mme Higuchi.
+Dialogue: 0,0:15:46.82,0:15:48.57,Default,,0,0,0,,Regardez-la bien.
+Dialogue: 0,0:15:49.11,0:15:50.78,Default,,0,0,0,,Vous ne remarquez rien ?
+Dialogue: 0,0:15:51.11,0:15:52.66,Default,,0,0,0,,Tu auras beau dire...
+Dialogue: 0,0:15:52.82,0:15:55.95,Default,,0,0,0,,Je ne vois rien\Nde spécialement bizarre.
+Dialogue: 0,0:15:56.24,0:16:00.96,Default,,0,0,0,,Focalisez-vous sur l'olivier de Chine\Nsitué derrière Mme Higuchi.
+Dialogue: 0,0:16:01.62,0:16:05.46,Default,,0,0,0,,Les branches sont plus courtes\Nque sur la photo, non ?
+Dialogue: 0,0:16:06.84,0:16:07.80,Default,,0,0,0,,C'est vrai !
+Dialogue: 0,0:16:08.88,0:16:10.80,Default,,0,0,0,,C'est Tomomi qui les a coupées.
+Dialogue: 0,0:16:11.34,0:16:14.55,Default,,0,0,0,,Avec le coupe-branches\Nqu'on a utilisé pour la tuer.
+Dialogue: 0,0:16:15.22,0:16:18.81,Default,,0,0,0,,C'est vrai qu'elle voulait\Nles couper depuis un moment,
+Dialogue: 0,0:16:18.97,0:16:21.14,Default,,0,0,0,,elles faisaient de l'ombre au potager.
+Dialogue: 0,0:16:21.77,0:16:25.90,Default,,0,0,0,,Mais en quoi ce serait lié\Nà la mort de mon épouse ?
+Dialogue: 0,0:16:26.40,0:16:28.73,Default,,0,0,0,,C'est un mobile bien suffisant.
+Dialogue: 0,0:16:29.11,0:16:33.74,Default,,0,0,0,,Les problèmes d'élagages entre voisins\Nsont loin d'être négligeables.
+Dialogue: 0,0:16:34.11,0:16:38.12,Default,,0,0,0,,En effet, il n'est pas rare\Nque ça finisse au tribunal, même.
+Dialogue: 0,0:16:38.41,0:16:40.20,Default,,0,0,0,,Voilà, exactement !
+Dialogue: 0,0:16:40.58,0:16:42.96,Default,,0,0,0,,Mais malheureusement,\Nla victime l'ignorait
+Dialogue: 0,0:16:43.29,0:16:45.38,Default,,0,0,0,,et a coupé ces branches.
+Dialogue: 0,0:16:46.33,0:16:47.29,Default,,0,0,0,,Madame Tsutsumi.
+Dialogue: 0,0:16:47.46,0:16:51.63,Default,,0,0,0,,C'est vous qui l'avez tuée\Nsous le coup de la colère !
+Dialogue: 0,0:16:51.97,0:16:55.39,Default,,0,0,0,,Attendez une minute !\NC'est moi qui ai coupé ces branches !
+Dialogue: 0,0:16:55.55,0:16:56.59,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:16:57.35,0:17:01.39,Default,,0,0,0,,Les fleurs de votre jardin\Nsont toutes fanées, pourtant !
+Dialogue: 0,0:17:02.18,0:17:03.52,Default,,0,0,0,,C'est vrai, ça.
+Dialogue: 0,0:17:04.14,0:17:06.35,Default,,0,0,0,,Quand je vois l'état de votre jardin,
+Dialogue: 0,0:17:06.52,0:17:09.02,Default,,0,0,0,,j'ai du mal à vous imaginer
+Dialogue: 0,0:17:09.61,0:17:11.32,Default,,0,0,0,,couper vos branches régulièrement.
+Dialogue: 0,0:17:13.36,0:17:18.32,Default,,0,0,0,,Bon, d'accord ! C'est bien elle\Nqui a coupé ces branches. Et alors ?
+Dialogue: 0,0:17:18.83,0:17:22.04,Default,,0,0,0,,Ça ne prouve pas pour autant\Nque je l'ai tuée !
+Dialogue: 0,0:17:22.37,0:17:24.54,Default,,0,0,0,,Ah, euh... C'est vrai, mais...
+Dialogue: 0,0:17:24.71,0:17:27.04,Default,,0,0,0,,Môri. Tu as des preuves ?
+Dialogue: 0,0:17:27.50,0:17:28.46,Default,,0,0,0,,Bien sûr.
+Dialogue: 0,0:17:29.00,0:17:31.42,Default,,0,0,0,,Comme vous aviez vu rouge,
+Dialogue: 0,0:17:31.84,0:17:34.92,Default,,0,0,0,,vous n'avez sûrement pas\Nfait le tour pour entrer.
+Dialogue: 0,0:17:35.30,0:17:38.30,Default,,0,0,0,,- Mais qu'est-ce que vous racontez ?\N- Autrement dit,
+Dialogue: 0,0:17:38.72,0:17:43.14,Default,,0,0,0,,vous avez forcément enjambé\Ncette haie de roses !
+Dialogue: 0,0:17:43.73,0:17:45.94,Default,,0,0,0,,Qu'est-ce qui vous fait dire ça ?
+Dialogue: 0,0:17:46.52,0:17:47.81,Default,,0,0,0,,L'état de vos jambes !
+Dialogue: 0,0:17:48.44,0:17:50.57,Default,,0,0,0,,C'est arrivé à ce moment-là, non ?
+Dialogue: 0,0:17:53.86,0:17:55.78,Default,,0,0,0,,En voyant la haie tout à l'heure,
+Dialogue: 0,0:17:56.15,0:18:00.70,Default,,0,0,0,,j'ai eu un flash en remarquant\Ncette zone avec des roses écrasées.
+Dialogue: 0,0:18:01.03,0:18:04.87,Default,,0,0,0,,Takagi ! Les roses sont écloses\Nà cet endroit sur l'affiche ?
+Dialogue: 0,0:18:05.71,0:18:08.25,Default,,0,0,0,,Eh bien... Oui, en effet.
+Dialogue: 0,0:18:08.63,0:18:11.84,Default,,0,0,0,,Tiens ?\NOn dirait du sang sur ces épines...
+Dialogue: 0,0:18:12.05,0:18:13.09,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:18:13.63,0:18:16.63,Default,,0,0,0,,- L'expert attend dehors, appelle-le !\N- Tout de suite !
+Dialogue: 0,0:18:17.30,0:18:18.39,Default,,0,0,0,,Une analyse
+Dialogue: 0,0:18:18.93,0:18:21.97,Default,,0,0,0,,confirmera sûrement\Nqu'il s'agit de votre sang.
+Dialogue: 0,0:18:22.64,0:18:23.93,Default,,0,0,0,,Pouvez-vous me dire
+Dialogue: 0,0:18:24.39,0:18:26.56,Default,,0,0,0,,pourquoi vous avez enjambé cette haie
+Dialogue: 0,0:18:26.81,0:18:28.98,Default,,0,0,0,,pour pénétrer dans ce jardin ?
+Dialogue: 0,0:18:29.77,0:18:30.69,Default,,0,0,0,,C'est-à-dire que...
+Dialogue: 0,0:18:31.19,0:18:31.82,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:18:32.65,0:18:33.36,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:18:36.86,0:18:40.57,Default,,0,0,0,,D'autres traces de sang\Nont été isolées sur l'arme du crime !
+Dialogue: 0,0:18:40.91,0:18:41.70,Default,,0,0,0,,À mon avis,
+Dialogue: 0,0:18:42.41,0:18:44.95,Default,,0,0,0,,elles proviennent sûrement de vous.
+Dialogue: 0,0:18:45.83,0:18:48.29,Default,,0,0,0,,On peut effacer des empreintes,
+Dialogue: 0,0:18:48.54,0:18:49.75,Default,,0,0,0,,mais pas du sang.
+Dialogue: 0,0:18:50.83,0:18:51.92,Default,,0,0,0,,Dommage pour vous...
+Dialogue: 0,0:18:55.92,0:18:59.01,Default,,0,0,0,,Et cet appel anonyme,\Nc'était elle aussi ?
+Dialogue: 0,0:18:59.47,0:19:01.01,Default,,0,0,0,,Oui, pas de doute.
+Dialogue: 0,0:19:01.43,0:19:03.68,Default,,0,0,0,,On n'aurait rien su sans cet appel,
+Dialogue: 0,0:19:04.14,0:19:06.18,Default,,0,0,0,,mais comme on l'avait interrogée,
+Dialogue: 0,0:19:06.64,0:19:10.52,Default,,0,0,0,,elle a dû croire qu'il valait mieux\Nfaire accuser M. Higuchi à sa place.
+Dialogue: 0,0:19:11.48,0:19:12.61,Default,,0,0,0,,Exact !
+Dialogue: 0,0:19:14.07,0:19:16.78,Default,,0,0,0,,Je comptais\Nvous faire porter le chapeau !
+Dialogue: 0,0:19:17.15,0:19:18.53,Default,,0,0,0,,Pourquoi avoir fait ça ?
+Dialogue: 0,0:19:18.90,0:19:20.41,Default,,0,0,0,,J'en avais assez !
+Dialogue: 0,0:19:20.57,0:19:24.28,Default,,0,0,0,,Vous voir entretenir joyeusement\Nvotre jardin m'exaspérait !
+Dialogue: 0,0:19:25.87,0:19:29.79,Default,,0,0,0,,Et vous en prendre à mes branches\Na été la goutte de trop !
+Dialogue: 0,0:19:35.67,0:19:37.92,Default,,0,0,0,,{\i1}- Dis donc, vous !\N- Oui ?{\i0}
+Dialogue: 0,0:19:38.47,0:19:39.67,Default,,0,0,0,,{\i1}Vous faites quoi, là ?{\i0}
+Dialogue: 0,0:19:41.84,0:19:44.51,Default,,0,0,0,,{\i1}Je taille ces branches\Nqui entraient chez moi.{\i0}
+Dialogue: 0,0:19:44.68,0:19:47.18,Default,,0,0,0,,{\i1}Laissez mon arbre tranquille !{\i0}
+Dialogue: 0,0:19:48.22,0:19:48.93,Default,,0,0,0,,{\i1}Désolée...{\i0}
+Dialogue: 0,0:19:49.52,0:19:51.85,Default,,0,0,0,,{\i1}Mais il est tout broussailleux,{\i0}
+Dialogue: 0,0:19:52.10,0:19:54.23,Default,,0,0,0,,{\i1}il vaut mieux le tailler !{\i0}
+Dialogue: 0,0:19:54.77,0:19:56.32,Default,,0,0,0,,{\i1}Le pauvre arbre...{\i0}
+Dialogue: 0,0:19:56.65,0:19:58.15,Default,,0,0,0,,{\i1}Comment ?{\i0}
+Dialogue: 0,0:19:58.36,0:20:00.40,Default,,0,0,0,,{\i1}Mêlez-vous de vos affaires !{\i0}
+Dialogue: 0,0:20:06.41,0:20:08.79,Default,,0,0,0,,Toujours à me prendre de haut !
+Dialogue: 0,0:20:08.95,0:20:11.58,Default,,0,0,0,,- Pour qui elle se prenait ?\N- Quoi qu'il en soit,
+Dialogue: 0,0:20:12.08,0:20:14.08,Default,,0,0,0,,vous me raconterez ça au poste...
+Dialogue: 0,0:20:15.59,0:20:16.80,Default,,0,0,0,,Attendez une minute...
+Dialogue: 0,0:20:18.05,0:20:19.01,Default,,0,0,0,,Ne me dites pas...
+Dialogue: 0,0:20:19.51,0:20:22.72,Default,,0,0,0,,que c'est pour ça\Nque vous avez tué Tomomi ?
+Dialogue: 0,0:20:22.97,0:20:23.47,Default,,0,0,0,,{\i1}Houlà !{\i0}
+Dialogue: 0,0:20:23.64,0:20:26.26,Default,,0,0,0,,Doucement, monsieur Higuchi !\NCalmez-vous !
+Dialogue: 0,0:20:26.55,0:20:28.06,Default,,0,0,0,,Arrêtez, monsieur Higuchi !
+Dialogue: 0,0:20:29.77,0:20:34.56,Default,,0,0,0,,Réfléchissez bien. Ça ne ferait pas\Nplaisir à votre épouse.
+Dialogue: 0,0:20:39.73,0:20:40.65,Default,,0,0,0,,Tomomi...
+Dialogue: 0,0:20:42.57,0:20:45.41,Default,,0,0,0,,{\i1}J'ai eu une excellente nouvelle,\Naujourd'hui !{\i0}
+Dialogue: 0,0:20:47.08,0:20:49.58,ST_HAUT,,0,0,0,,{\i1}On m'a enfin donné un grand rôle !{\i0}
+Dialogue: 0,0:20:50.04,0:20:52.00,Default,,0,0,0,,{\i1}Tiens ? Qu'est-ce que tu fais ?{\i0}
+Dialogue: 0,0:20:53.21,0:20:56.08,Default,,0,0,0,,{\i1}Je suis en train\Nde planter des fines herbes.{\i0}
+Dialogue: 0,0:20:56.46,0:20:58.63,Default,,0,0,0,,{\i1}C'est bon pour la gorge, il paraît !{\i0}
+Dialogue: 0,0:21:02.76,0:21:03.59,Default,,0,0,0,,Tomomi...
+Dialogue: 0,0:21:05.43,0:21:06.22,Default,,0,0,0,,Tomomi...
+Dialogue: 0,0:21:09.93,0:21:10.64,Default,,0,0,0,,Tomomi...
+Dialogue: 0,0:21:12.35,0:21:13.73,Default,,0,0,0,,Tomomi !
+Dialogue: 0,0:21:26.74,0:21:29.58,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:31.08,0:21:33.37,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:39.65,0:22:41.23,Default,,0,0,0,,S'il vous plaît !
+Dialogue: 0,0:22:42.15,0:22:43.19,Default,,0,0,0,,Aidez-moi !
+Dialogue: 0,0:22:43.69,0:22:45.40,Default,,0,0,0,,Je cherche mon chat !
+Dialogue: 0,0:22:46.11,0:22:46.86,Default,,0,0,0,,Excusez-moi.
+Dialogue: 0,0:22:47.86,0:22:48.36,Default,,0,0,0,,Oui ?
+Dialogue: 0,0:22:48.61,0:22:50.78,Default,,0,0,0,,Je peux avoir une affiche ?
+Dialogue: 0,0:22:51.07,0:22:53.08,Default,,0,0,0,,Bien sûr ! Merci infiniment !
+Dialogue: 0,0:22:53.24,0:22:54.62,Default,,0,0,0,,Mademoiselle !
+Dialogue: 0,0:22:55.04,0:22:56.25,Default,,0,0,0,,Doucement, papa !
+Dialogue: 0,0:22:56.45,0:23:00.79,Default,,0,0,0,,Vous pouvez confier cette recherche\Nà Kogorô Môri, le grand détective !
+Dialogue: 0,0:23:01.17,0:23:03.80,Default,,0,0,0,,Je retrouverai\Nvotre chat à coup sûr !
+Dialogue: 0,0:23:05.84,0:23:08.88,Default,,0,0,0,,- C'est le célèbre détective !\N- Kogorô l'Endormi !
+Dialogue: 0,0:23:09.93,0:23:12.01,Default,,0,0,0,,Retrouvez aussi mon chien !
+Dialogue: 0,0:23:12.64,0:23:14.35,Default,,0,0,0,,Et ma tortue !
+Dialogue: 0,0:23:15.22,0:23:16.98,ST_HAUT,,0,0,0,,Et mon poisson rouge !
+Dialogue: 0,0:23:19.89,0:23:21.77,Default,,0,0,0,,Accepte leur requête, va !
+Dialogue: 0,0:23:23.11,0:23:24.90,Default,,0,0,0,,Bon courage, tonton...
+Dialogue: 0,0:23:25.07,0:23:27.49,Default,,0,0,0,,Le poisson\Nn'a pas dû aller bien loin...

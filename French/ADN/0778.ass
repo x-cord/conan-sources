@@ -1,0 +1,351 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:26.48,0:00:30.09,Default,,0,0,0,,{\i1}Les années partagées{\i0}\N{\i1}nous font avancer à toute vitesse.{\i0}
+Dialogue: 0,0:00:30.48,0:00:33.20,Default,,0,0,0,,{\i1}La clé du meurtre invisible{\i0}\N{\i1}est un étrange mirage.{\i0}
+Dialogue: 0,0:00:33.81,0:00:37.29,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:37.45,0:00:39.72,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:00:45.13,0:00:48.28,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:00:58.64,0:01:02.09,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:01:04.44,0:01:07.40,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:01:12.33,0:01:14.81,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:01:19.16,0:01:23.36,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"WE GO"
+Dialogue: 0,0:01:24.32,0:01:27.89,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:33.40,0:01:35.80,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:01:44.05,0:01:46.80,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:01:51.45,0:01:56.24,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:01:57.40,0:01:59.16,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:06.24,0:02:08.73,Default,,0,0,0,,{\i1}"Le Mirage de l'ange disparu".{\i0}
+Dialogue: 0,0:02:12.57,0:02:13.64,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:02:14.05,0:02:18.40,Default,,0,0,0,,Vous me demandez\Nde retrouver votre mari disparu.
+Dialogue: 0,0:02:18.57,0:02:22.65,Default,,0,0,0,,Oui. Le voici,\Nil s'appelle Satoru Aoki.
+Dialogue: 0,0:02:23.28,0:02:24.81,ST_HAUT,,0,0,0,,Artiste-peintre,
+Dialogue: 0,0:02:24.97,0:02:29.61,ST_HAUT,,0,0,0,,il était déjà parti peindre en province\Nsans me donner sa destination,
+Dialogue: 0,0:02:30.24,0:02:35.20,ST_HAUT,,0,0,0,,mais il me tenait toujours informée\Nde l'avancement de son travail.
+Dialogue: 0,0:02:36.16,0:02:39.00,Default,,0,0,0,,Il m'envoyait chaque jour\Nune photo de sa toile.
+Dialogue: 0,0:02:39.48,0:02:42.53,Default,,0,0,0,,Et depuis avant-hier, plus rien ?
+Dialogue: 0,0:02:42.88,0:02:46.01,Default,,0,0,0,,Oui. Voici la dernière image\Nque j'ai reçue.
+Dialogue: 0,0:02:46.60,0:02:49.53,Default,,0,0,0,,- Splendide...\N- Mais ce tableau est bizarre...
+Dialogue: 0,0:02:50.92,0:02:51.76,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:02:52.32,0:02:56.28,Default,,0,0,0,,Mon mari peint uniquement\Nce qu'il voit de ses yeux.
+Dialogue: 0,0:02:57.00,0:03:01.05,Default,,0,0,0,,Or, cette scène est à l'évidence\Nfantasmagorique.
+Dialogue: 0,0:03:01.44,0:03:04.57,Default,,0,0,0,,En effet.\NAurait-il changé de style ?
+Dialogue: 0,0:03:05.92,0:03:09.13,Default,,0,0,0,,Moi, je sais où se trouve M. Aoki.
+Dialogue: 0,0:03:10.76,0:03:12.40,Default,,0,0,0,,Quelle mer magnifique...
+Dialogue: 0,0:03:13.12,0:03:15.72,Default,,0,0,0,,T'es vraiment sûr que c'est ici ?
+Dialogue: 0,0:03:16.24,0:03:20.09,Default,,0,0,0,,Oui. Le scintillement bleu pâle\Ndes vagues peintes par M. Aoki
+Dialogue: 0,0:03:20.24,0:03:23.20,Default,,0,0,0,,est émis par des bancs\Nde calmars lucioles.
+Dialogue: 0,0:03:23.72,0:03:26.13,Default,,0,0,0,,Ces céphalopodes luminescents
+Dialogue: 0,0:03:26.28,0:03:28.80,Default,,0,0,0,,ne viennent s'accoupler\Nque sur les côtes
+Dialogue: 0,0:03:28.96,0:03:30.85,Default,,0,0,0,,de la baie de Toyama.
+Dialogue: 0,0:03:31.32,0:03:35.12,Default,,0,0,0,,Et c'est ici qu'on a observé\Nce phénomène pour la dernière fois.
+Dialogue: 0,0:03:35.56,0:03:38.32,Default,,0,0,0,,Tu es drôlement calé...
+Dialogue: 0,0:03:38.56,0:03:40.28,Default,,0,0,0,,Je l'ai vu à la télé, c'est tout.
+Dialogue: 0,0:03:40.68,0:03:44.28,Default,,0,0,0,,- Ça y est, il la ramène...\N- Mais comment on va le trouver ?
+Dialogue: 0,0:03:44.44,0:03:47.76,Default,,0,0,0,,Passons d'abord\Nles hôtels du coin au peigne fin.
+Dialogue: 0,0:03:58.40,0:03:59.24,Default,,0,0,0,,Satoru !
+Dialogue: 0,0:03:59.84,0:04:01.24,Default,,0,0,0,,Satoru !
+Dialogue: 0,0:04:04.64,0:04:07.72,Default,,0,0,0,,La victime est le peintre\NSatoru Aoki, 52 ans.
+Dialogue: 0,0:04:09.16,0:04:12.32,ST_HAUT,,0,0,0,,Vous l'avez identifié sacrément vite.
+Dialogue: 0,0:04:12.48,0:04:14.16,ST_HAUT,,0,0,0,,C'est parce que
+Dialogue: 0,0:04:14.52,0:04:19.20,Default,,0,0,0,,son épouse était venue\Nà sa recherche avec un détective.
+Dialogue: 0,0:04:19.40,0:04:21.80,Default,,0,0,0,,Bonjour.\NKogorô Môri, détective.
+Dialogue: 0,0:04:22.44,0:04:23.44,Default,,0,0,0,,Môri ?
+Dialogue: 0,0:04:24.44,0:04:26.08,Default,,0,0,0,,Kogorô l'endormi ?
+Dialogue: 0,0:04:26.24,0:04:27.72,Default,,0,0,0,,Il s'est noyé ?
+Dialogue: 0,0:04:28.24,0:04:29.60,Default,,0,0,0,,Oui, probablement.
+Dialogue: 0,0:04:29.76,0:04:34.88,Default,,0,0,0,,Il serait mort hier,\Nentre 20 et 23 heures.
+Dialogue: 0,0:04:35.04,0:04:38.36,Default,,0,0,0,,La mer était agitée, je crois.
+Dialogue: 0,0:04:38.52,0:04:41.76,Default,,0,0,0,,C'est vrai.\NEt on a trouvé ça dans sa veste.
+Dialogue: 0,0:04:42.16,0:04:44.00,Default,,0,0,0,,Il avait bu.
+Dialogue: 0,0:04:44.48,0:04:47.84,Default,,0,0,0,,D'après son épouse,\NM. Aoki avait du mal à marcher
+Dialogue: 0,0:04:48.28,0:04:50.72,Default,,0,0,0,,à cause d'une jambe boiteuse.
+Dialogue: 0,0:04:51.44,0:04:54.52,Default,,0,0,0,,Ivre, il a dû trébucher\Net tomber à la mer.
+Dialogue: 0,0:04:54.84,0:04:56.88,Default,,0,0,0,,- Non, en fait...\N- Ça alors...
+Dialogue: 0,0:04:57.36,0:05:01.44,Default,,0,0,0,,Il a un bleu sur la joue.\NRegardez.
+Dialogue: 0,0:05:01.88,0:05:04.20,Default,,0,0,0,,Il s'est fait ça\Nen tombant à l'eau ?
+Dialogue: 0,0:05:04.36,0:05:08.12,Default,,0,0,0,,Il est aussi possible\Nque quelqu'un l'ait frappé.
+Dialogue: 0,0:05:09.04,0:05:11.52,Default,,0,0,0,,Tu traînes encore\Nsur la scène de crime ?
+Dialogue: 0,0:05:15.40,0:05:17.56,ST_HAUT,,0,0,0,,CHÛJI ISHIGURO (57 ANS)\NPÊCHEUR
+Dialogue: 0,0:05:17.72,0:05:19.36,ST_HAUT,,0,0,0,,Qui est-ce ?
+Dialogue: 0,0:05:19.92,0:05:22.76,Default,,0,0,0,,Ishiguro, un marin-pêcheur du coin.
+Dialogue: 0,0:05:23.28,0:05:26.40,Default,,0,0,0,,Gros travailleur,\Nmais toujours prêt pour la bagarre.
+Dialogue: 0,0:05:28.76,0:05:32.64,Default,,0,0,0,,Excusez-nous. Nous sommes\Nles policiers qui vous ont contacté.
+Dialogue: 0,0:05:34.08,0:05:37.40,Default,,0,0,0,,Oui, M. Aoki séjournait ici
+Dialogue: 0,0:05:37.56,0:05:39.64,ST_HAUT,,0,0,0,,depuis une quinzaine de jours.
+Dialogue: 0,0:05:40.16,0:05:42.64,ST_HAUT,,0,0,0,,Quelle affreuse nouvelle...
+Dialogue: 0,0:05:43.72,0:05:46.68,Default,,0,0,0,,En cas de besoin,\Nje suis à votre disposition.
+Dialogue: 0,0:05:46.96,0:05:47.96,Default,,0,0,0,,Merci.
+Dialogue: 0,0:05:49.88,0:05:51.56,Default,,0,0,0,,Hé ! La toile n'est pas là.
+Dialogue: 0,0:05:57.12,0:05:59.44,Default,,0,0,0,,J'ai trouvé\Nle tableau de M. Aoki !
+Dialogue: 0,0:06:00.04,0:06:02.60,Default,,0,0,0,,Pourquoi l'avait-il\Nrangé là-dedans ?
+Dialogue: 0,0:06:02.76,0:06:07.00,Default,,0,0,0,,Sans doute pour protéger la peinture\Ndu soleil, de la poussière
+Dialogue: 0,0:06:07.16,0:06:09.68,Default,,0,0,0,,et des changements de température.
+Dialogue: 0,0:06:11.08,0:06:13.68,Default,,0,0,0,,C'est celui\Ndont il m'avait envoyé la photo.
+Dialogue: 0,0:06:14.08,0:06:17.20,Default,,0,0,0,,Mais regardez...\NIl a ajouté quelque chose.
+Dialogue: 0,0:06:19.28,0:06:21.52,Default,,0,0,0,,Ah oui, ce truc dans le ciel.
+Dialogue: 0,0:06:22.88,0:06:26.04,Default,,0,0,0,,Ça rappelle un peu notre maison.
+Dialogue: 0,0:06:28.00,0:06:29.68,Default,,0,0,0,,En effet, ça y ressemble.
+Dialogue: 0,0:06:30.12,0:06:33.88,Default,,0,0,0,,Là, on dirait un ange\Nqui monte au Ciel.
+Dialogue: 0,0:06:34.12,0:06:39.08,Default,,0,0,0,,Et la forme blanche en-dessous\Ndoit être l'âme guidée par l'ange.
+Dialogue: 0,0:06:39.72,0:06:44.16,Default,,0,0,0,,Pourtant, M. Aoki ne peignait\Nque ce qu'il voyait.
+Dialogue: 0,0:06:44.40,0:06:46.44,Default,,0,0,0,,L'ivresse l'a fait halluciner ?
+Dialogue: 0,0:06:47.04,0:06:50.36,Default,,0,0,0,,Il avait peut-être la prémonition
+Dialogue: 0,0:06:50.80,0:06:53.20,Default,,0,0,0,,que le Ciel allait l'appeler.
+Dialogue: 0,0:06:58.28,0:07:00.92,Default,,0,0,0,,C'est l'appareil photo numérique\Nde mon mari.
+Dialogue: 0,0:07:01.52,0:07:05.60,Default,,0,0,0,,Il peignait toujours\Nen regardant les images de paysages
+Dialogue: 0,0:07:06.00,0:07:08.68,Default,,0,0,0,,qu'il avait prises\Navec cet appareil.
+Dialogue: 0,0:07:09.64,0:07:10.92,Default,,0,0,0,,Je peux voir ?
+Dialogue: 0,0:07:11.80,0:07:12.24,Default,,0,0,0,,OK...
+Dialogue: 0,0:07:13.40,0:07:14.56,Default,,0,0,0,,{\i1}Je le savais.{\i0}
+Dialogue: 0,0:07:14.84,0:07:17.72,Default,,0,0,0,,- Qu'est-ce que tu fous ?\N- Elles sont effacées,
+Dialogue: 0,0:07:18.24,0:07:20.52,Default,,0,0,0,,les images ayant servi de modèle.
+Dialogue: 0,0:07:20.92,0:07:22.44,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:07:22.60,0:07:25.88,Default,,0,0,0,,Les calmars lucioles\Nont brillé il y a 10 jours.
+Dialogue: 0,0:07:26.20,0:07:28.44,Default,,0,0,0,,Il n'y a aucune donnée\Npour ce soir-là.
+Dialogue: 0,0:07:28.84,0:07:31.32,Default,,0,0,0,,Effectivement, tu as raison.
+Dialogue: 0,0:07:31.48,0:07:33.48,Default,,0,0,0,,Il manque le dossier du 6 mai !
+Dialogue: 0,0:07:35.04,0:07:37.28,Default,,0,0,0,,Les données ont été effacées ?
+Dialogue: 0,0:07:37.68,0:07:40.52,Default,,0,0,0,,Oui.\NIl ne s'est rien passé d'étrange ?
+Dialogue: 0,0:07:43.36,0:07:45.72,Default,,0,0,0,,Maintenant que j'y repense,\Nhier soir,
+Dialogue: 0,0:07:46.04,0:07:48.68,Default,,0,0,0,,vers minuit, je crois...
+Dialogue: 0,0:07:50.96,0:07:51.96,Default,,0,0,0,,{\i1}Bonsoir !{\i0}
+Dialogue: 0,0:07:56.24,0:07:57.40,Default,,0,0,0,,{\i1}M. Aoki ?{\i0}
+Dialogue: 0,0:08:00.04,0:08:03.88,Default,,0,0,0,,La victime était déjà morte\Nà cette heure-là.
+Dialogue: 0,0:08:04.12,0:08:06.56,Default,,0,0,0,,L'individu que vous avez vu
+Dialogue: 0,0:08:06.72,0:08:10.12,Default,,0,0,0,,n'était certainement pas M. Aoki,\Nmais son assassin.
+Dialogue: 0,0:08:10.32,0:08:13.04,Default,,0,0,0,,Comment ne vous en êtes-vous\Npas aperçu ?
+Dialogue: 0,0:08:13.20,0:08:15.96,Default,,0,0,0,,Pardonnez-moi.\NIl faisait sombre.
+Dialogue: 0,0:08:16.28,0:08:20.64,Default,,0,0,0,,En plus, ce type boitait,\Ncomme M. Aoki.
+Dialogue: 0,0:08:21.20,0:08:26.16,Default,,0,0,0,,Aucun doute, l'assassin a imité\NM. Aoki pour venir effacer les images.
+Dialogue: 0,0:08:26.72,0:08:29.84,Default,,0,0,0,,On devait y voir\Nquelque chose de compromettant.
+Dialogue: 0,0:08:30.20,0:08:31.04,Default,,0,0,0,,Je sais !
+Dialogue: 0,0:08:31.56,0:08:33.92,Default,,0,0,0,,Le tueur a sûrement\Ndes pouvoirs surnaturels !
+Dialogue: 0,0:08:34.40,0:08:36.68,Default,,0,0,0,,Hein ?\NMais qu'est-ce que tu nous sors ?
+Dialogue: 0,0:08:37.04,0:08:40.84,Default,,0,0,0,,Ben, il est directement allé\Ndans la chambre de M. Aoki.
+Dialogue: 0,0:08:41.20,0:08:44.64,Default,,0,0,0,,Un humain ordinaire\Nn'aurait jamais su laquelle c'était.
+Dialogue: 0,0:08:46.00,0:08:46.64,Default,,0,0,0,,En effet...
+Dialogue: 0,0:08:47.20,0:08:51.12,Default,,0,0,0,,Il lui était impossible d'aller\Ntout droit à la bonne porte.
+Dialogue: 0,0:08:51.64,0:08:54.28,Default,,0,0,0,,Le coupable avait donc\Ndéjà rendu visite
+Dialogue: 0,0:08:54.44,0:08:57.24,Default,,0,0,0,,à M. Aoki dans sa chambre.
+Dialogue: 0,0:09:02.44,0:09:04.72,Default,,0,0,0,,Mme Aoki était très abattue.
+Dialogue: 0,0:09:05.44,0:09:08.00,Default,,0,0,0,,On aurait peut-être\Ndû l'accompagner...
+Dialogue: 0,0:09:10.12,0:09:13.52,Default,,0,0,0,,C'est normal que la mort de son mari\Nla mette dans cet état.
+Dialogue: 0,0:09:13.84,0:09:17.16,Default,,0,0,0,,Nous, on n'a qu'une chose à faire :\Ntrouver l'assassin.
+Dialogue: 0,0:09:22.28,0:09:25.92,ST_HAUT,,0,0,0,,J'ai déjà parlé de ça aux policiers\Ntout à l'heure !
+Dialogue: 0,0:09:26.32,0:09:29.32,Default,,0,0,0,,En fait, je ne suis pas avec eux...
+Dialogue: 0,0:09:29.92,0:09:32.24,Default,,0,0,0,,Mme Aoki t'a demandé
+Dialogue: 0,0:09:32.40,0:09:35.72,Default,,0,0,0,,de retracer les derniers pas\Nde son mari, n'est-ce pas ?
+Dialogue: 0,0:09:36.00,0:09:37.00,Default,,0,0,0,,Ouais.
+Dialogue: 0,0:09:37.20,0:09:39.28,Default,,0,0,0,,Ah, dans ce cas...
+Dialogue: 0,0:09:39.48,0:09:42.24,Default,,0,0,0,,En effet, j'ai rencontré M. Aoki.
+Dialogue: 0,0:09:42.48,0:09:45.88,Default,,0,0,0,,Avant-hier, je suis passé\Nà cette chambre d'hôtes,
+Dialogue: 0,0:09:46.28,0:09:48.52,Default,,0,0,0,,j'y ai déposé une affiche
+Dialogue: 0,0:09:49.64,0:09:51.28,Default,,0,0,0,,de ma petite amie disparue.
+Dialogue: 0,0:09:52.00,0:09:53.56,Default,,0,0,0,,{\i1}J'apprécie votre aide.{\i0}
+Dialogue: 0,0:09:54.16,0:09:56.80,Default,,0,0,0,,{\i1}Ce doit être terrible à vivre.{\i0}\N{\i1}Bonne chance.{\i0}
+Dialogue: 0,0:09:57.12,0:09:59.20,Default,,0,0,0,,{\i1}Merci beaucoup.{\i0}
+Dialogue: 0,0:10:02.84,0:10:03.88,Default,,0,0,0,,{\i1}Excusez-moi.{\i0}
+Dialogue: 0,0:10:04.96,0:10:07.84,Default,,0,0,0,,AVIS DE RECHERCHE\NNOUS RECHERCHONS CETTE FEMME
+Dialogue: 0,0:10:10.36,0:10:13.40,Default,,0,0,0,,{\i1}Laissez tomber,{\i0}\N{\i1}il est trop tard.{\i0}
+Dialogue: 0,0:10:13.76,0:10:15.08,Default,,0,0,0,,{\i1}Répète ça ?{\i0}
+Dialogue: 0,0:10:16.24,0:10:18.20,Default,,0,0,0,,J'ai vu rouge !
+Dialogue: 0,0:10:19.24,0:10:21.60,Default,,0,0,0,,Mais je ne l'ai plus revu depuis.
+Dialogue: 0,0:10:23.24,0:10:24.60,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:10:27.04,0:10:30.60,ST_HAUT,,0,0,0,,Oui. Je l'ai vu avant-hier,\Nen début de soirée.
+Dialogue: 0,0:10:31.04,0:10:33.72,Default,,0,0,0,,Je marchais sur la plage
+Dialogue: 0,0:10:33.88,0:10:36.60,Default,,0,0,0,,afin d'admirer le fameux mirage.
+Dialogue: 0,0:10:37.08,0:10:38.20,Default,,0,0,0,,Et en fait,
+Dialogue: 0,0:10:42.28,0:10:45.24,Default,,0,0,0,,il semblait plongé\Ndans de douloureuses pensées,
+Dialogue: 0,0:10:45.48,0:10:47.60,Default,,0,0,0,,comme s'il songeait au suicide.
+Dialogue: 0,0:10:48.36,0:10:50.36,Default,,0,0,0,,J'ai décidé de lui parler.
+Dialogue: 0,0:10:51.04,0:10:53.32,Default,,0,0,0,,Nous avons sympathisé
+Dialogue: 0,0:10:53.52,0:10:56.56,Default,,0,0,0,,et passé la nuit\Nà boire dans sa chambre.
+Dialogue: 0,0:10:57.12,0:10:59.00,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:10:59.92,0:11:02.00,Default,,0,0,0,,Dites...\NC'est quoi, ça ?
+Dialogue: 0,0:11:03.40,0:11:04.40,Default,,0,0,0,,Dis donc, petit !
+Dialogue: 0,0:11:06.16,0:11:09.00,Default,,0,0,0,,Personne n'aime\Nqu'on regarde dans ses affaires.
+Dialogue: 0,0:11:09.16,0:11:10.16,Default,,0,0,0,,Désolé.
+Dialogue: 0,0:11:11.40,0:11:14.52,Default,,0,0,0,,M. Aoki s'est-il suicidé ?
+Dialogue: 0,0:11:17.32,0:11:18.24,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:11:21.12,0:11:22.60,Default,,0,0,0,,Je prendrai ceci.
+Dialogue: 0,0:11:22.88,0:11:24.60,Default,,0,0,0,,C'est pour votre famille ?
+Dialogue: 0,0:11:25.08,0:11:27.60,Default,,0,0,0,,Oui, pour mon épouse\Net pour ma fille.
+Dialogue: 0,0:11:33.28,0:11:34.76,Default,,0,0,0,,Qu'est-ce qu'il y a ?
+Dialogue: 0,0:11:36.04,0:11:37.76,Default,,0,0,0,,C'est par vous qu'on termine ?
+Dialogue: 0,0:11:41.04,0:11:43.28,Default,,0,0,0,,Je l'ai vu hier matin.
+Dialogue: 0,0:11:43.96,0:11:47.24,Default,,0,0,0,,En livrant mon poisson frais\Nà la chambre d'hôtes.
+Dialogue: 0,0:11:49.24,0:11:52.00,Default,,0,0,0,,Il y a même pas touché !
+Dialogue: 0,0:11:52.16,0:11:55.24,Default,,0,0,0,,Désolé, mais il n'en voulait pas.
+Dialogue: 0,0:11:55.40,0:11:57.52,Default,,0,0,0,,Hein ? Où il est ?
+Dialogue: 0,0:11:58.12,0:12:02.16,Default,,0,0,0,,Dans mon métier,\Non risque nos vies pour pêcher !
+Dialogue: 0,0:12:02.44,0:12:06.68,Default,,0,0,0,,Et vous voulez que je reste calme\Nquand on gâche mon poisson ?
+Dialogue: 0,0:12:06.84,0:12:09.60,Default,,0,0,0,,Vous avez fait irruption\Ndans sa chambre ?
+Dialogue: 0,0:12:09.84,0:12:12.92,Default,,0,0,0,,Ouais ! Mais j'ai pas touché\Nun seul de ses cheveux.
+Dialogue: 0,0:12:13.20,0:12:15.52,Default,,0,0,0,,Comment vous êtes-vous fait\Ncette blessure ?
+Dialogue: 0,0:12:16.72,0:12:18.28,Default,,0,0,0,,Ça ?
+Dialogue: 0,0:12:18.48,0:12:20.80,Default,,0,0,0,,Dans un accident en mer,\Nil y a trois ans.
+Dialogue: 0,0:12:21.32,0:12:24.28,Default,,0,0,0,,Ma main y a perdu\Nune bonne part de sa mobilité.
+Dialogue: 0,0:12:31.48,0:12:34.00,Default,,0,0,0,,Qui peut bien avoir fait ça ?
+Dialogue: 0,0:12:34.80,0:12:37.80,Default,,0,0,0,,Aucun des trois n'a d'alibi\Nle soir du meurtre.
+Dialogue: 0,0:12:38.36,0:12:41.48,Default,,0,0,0,,Et d'abord, est-ce un meurtre
+Dialogue: 0,0:12:41.92,0:12:44.24,Default,,0,0,0,,ou un accident ?\NOu un suicide ?
+Dialogue: 0,0:12:44.84,0:12:47.36,Default,,0,0,0,,C'est pas vrai !\NJ'en ai aucune idée !
+Dialogue: 0,0:12:47.60,0:12:51.56,Default,,0,0,0,,- Donc, M. Aoki était ivre et...\N- Que regardent ces gens ?
+Dialogue: 0,0:12:52.72,0:12:54.80,Default,,0,0,0,,Le mirage du printemps, sans doute.
+Dialogue: 0,0:12:55.28,0:12:58.08,Default,,0,0,0,,Uozu est également célèbre\Npour ses mirages.
+Dialogue: 0,0:12:59.08,0:13:01.92,Default,,0,0,0,,{\i1}Un mirage ?{\i0}\N{\i1}Si ça se trouve, cette forme...{\i0}
+Dialogue: 0,0:13:03.56,0:13:04.76,Default,,0,0,0,,{\i1}Mais alors...{\i0}
+Dialogue: 0,0:13:10.84,0:13:13.20,Default,,0,0,0,,J'en peux plus...\NJe suis claqué.
+Dialogue: 0,0:13:13.80,0:13:16.44,Default,,0,0,0,,On a marché toute la journée.
+Dialogue: 0,0:13:16.60,0:13:19.92,Default,,0,0,0,,Finalement, vous n'avez pas trouvé
+Dialogue: 0,0:13:20.08,0:13:23.24,Default,,0,0,0,,qui a effacé la vidéo\Nde l'appareil de M. Aoki ?
+Dialogue: 0,0:13:23.72,0:13:25.84,Default,,0,0,0,,Non, hélas.
+Dialogue: 0,0:13:26.08,0:13:27.36,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:13:28.32,0:13:30.00,Default,,0,0,0,,C'est prêt !
+Dialogue: 0,0:13:30.80,0:13:32.48,Default,,0,0,0,,Ç'a l'air délicieux !
+Dialogue: 0,0:13:32.92,0:13:36.28,Default,,0,0,0,,J'ai pêché ces poissons\Ndans l'après-midi.
+Dialogue: 0,0:13:36.60,0:13:39.56,Default,,0,0,0,,Ah bon ?\NVous pêchez, vous aussi ?
+Dialogue: 0,0:13:39.72,0:13:40.76,Default,,0,0,0,,Ça m'arrive, oui.
+Dialogue: 0,0:13:41.16,0:13:43.24,Default,,0,0,0,,C'était mon métier, autrefois.
+Dialogue: 0,0:13:43.76,0:13:45.84,Default,,0,0,0,,Alors j'ai une question...
+Dialogue: 0,0:13:46.00,0:13:50.56,Default,,0,0,0,,M. Ishiguro porte-t-il toujours\Nun bonnet noir quand il sort en mer ?
+Dialogue: 0,0:13:50.76,0:13:53.76,Default,,0,0,0,,- Oui, c'est son porte-bonheur.\N- Vraiment ?
+Dialogue: 0,0:13:54.84,0:13:55.88,Default,,0,0,0,,Ah, au fait...
+Dialogue: 0,0:13:56.20,0:13:58.08,Default,,0,0,0,,Avant de rentrer à Tokyo,
+Dialogue: 0,0:13:58.24,0:14:01.64,Default,,0,0,0,,voulez-vous voir la pêche de nuit\Naux calmars lucioles ?
+Dialogue: 0,0:14:01.92,0:14:05.44,Default,,0,0,0,,Le scintillement bleu de la mer\Na un côté très romantique.
+Dialogue: 0,0:14:05.88,0:14:08.16,Default,,0,0,0,,Bof, j'ai la flemme...
+Dialogue: 0,0:14:08.60,0:14:11.92,Default,,0,0,0,,Mais si, allons-y !\NT'es d'accord, Conan ?
+Dialogue: 0,0:14:14.16,0:14:15.08,Default,,0,0,0,,Ouais !
+Dialogue: 0,0:14:20.08,0:14:21.04,Default,,0,0,0,,Monsieur !
+Dialogue: 0,0:14:23.00,0:14:24.00,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:14:24.36,0:14:27.20,Default,,0,0,0,,Tonton Kogorô m'a demandé\Nquelque chose...
+Dialogue: 0,0:14:29.24,0:14:30.24,Default,,0,0,0,,Ah bon ?
+Dialogue: 0,0:14:31.04,0:14:33.72,Default,,0,0,0,,- D'accord, j'ouvrirai l'œil.\N- Merci.
+Dialogue: 0,0:14:37.92,0:14:40.32,Default,,0,0,0,,Il est 2 heures du matin.
+Dialogue: 0,0:14:40.52,0:14:42.08,Default,,0,0,0,,Vous voulez vraiment y aller ?
+Dialogue: 0,0:14:42.52,0:14:44.56,Default,,0,0,0,,Ils quittent le port à 3 heures...
+Dialogue: 0,0:14:44.76,0:14:46.68,Default,,0,0,0,,Allez, du nerf !
+Dialogue: 0,0:14:47.00,0:14:48.96,Default,,0,0,0,,Je compte sur vous.
+Dialogue: 0,0:14:49.40,0:14:51.12,Default,,0,0,0,,Entendu.\NSoyez prudents.
+Dialogue: 0,0:15:16.92,0:15:18.32,Default,,0,0,0,,Stop !
+Dialogue: 0,0:15:21.76,0:15:22.40,Default,,0,0,0,,Vous ?
+Dialogue: 0,0:15:23.04,0:15:26.32,Default,,0,0,0,,M. Môri, vous êtes sûr\Nque c'est lui, le tueur ?
+Dialogue: 0,0:15:26.96,0:15:30.48,Default,,0,0,0,,Mais c'est vous qui avez annoncé\Nl'arrivée du coupable !
+Dialogue: 0,0:15:33.60,0:15:36.44,Default,,0,0,0,,Fondue de fruits de mer,\Nbière et saké...
+Dialogue: 0,0:15:36.96,0:15:39.72,Default,,0,0,0,,Voilà pourquoi on l'appelle\N"Kogorô l'endormi"...
+Dialogue: 0,0:15:40.08,0:15:43.12,Default,,0,0,0,,Tout à l'heure,\Nj'ai tendu un piège au coupable.
+Dialogue: 0,0:15:43.80,0:15:45.28,Default,,0,0,0,,"À Tokyo, lui ai-je dit,
+Dialogue: 0,0:15:45.52,0:15:49.20,Default,,0,0,0,,"je pourrai peut-être restaurer\Nles données effacées.
+Dialogue: 0,0:15:50.12,0:15:52.96,Default,,0,0,0,,"Alors, que nul n'approche\Nde cette chambre."
+Dialogue: 0,0:15:53.44,0:15:56.24,Default,,0,0,0,,Et le meurtrier est apparu\Ncomme prévu.
+Dialogue: 0,0:15:56.88,0:15:57.72,Default,,0,0,0,,N'est-ce pas,
+Dialogue: 0,0:15:58.68,0:16:01.96,Default,,0,0,0,,M. Tarô Hayashi,\Npatron de cette chambre d'hôtes ?
+Dialogue: 0,0:16:02.92,0:16:04.60,Default,,0,0,0,,Vous plaisantez ?
+Dialogue: 0,0:16:04.80,0:16:07.96,Default,,0,0,0,,Je protège cet appareil\Ncomme on me l'a demandé.
+Dialogue: 0,0:16:08.56,0:16:12.68,Default,,0,0,0,,L'auteur de ce meurtre\Ndoit remplir 2 conditions.
+Dialogue: 0,0:16:13.16,0:16:15.44,Default,,0,0,0,,Être gaucher
+Dialogue: 0,0:16:15.80,0:16:18.12,Default,,0,0,0,,et savoir faire marcher un bateau.
+Dialogue: 0,0:16:19.92,0:16:22.88,Default,,0,0,0,,Le cadavre de M. Aoki\Navait une marque de coup
+Dialogue: 0,0:16:23.12,0:16:24.48,Default,,0,0,0,,sur la joue droite.
+Dialogue: 0,0:16:25.20,0:16:29.28,Default,,0,0,0,,Autrement dit, on l'a frappé de face,\Nde la main gauche.
+Dialogue: 0,0:16:29.88,0:16:32.76,Default,,0,0,0,,Et la capacité\Nde faire marcher un bateau ?
+Dialogue: 0,0:16:33.04,0:16:37.00,Default,,0,0,0,,Le coupable a effacé des images\Nde l'appareil de M. Aoki.
+Dialogue: 0,0:16:37.48,0:16:40.56,Default,,0,0,0,,L'œuvre réalisée d'après celles-ci
+Dialogue: 0,0:16:40.80,0:16:44.36,Default,,0,0,0,,comportait donc\Ndes indices menant à cet individu.
+Dialogue: 0,0:16:44.68,0:16:45.88,Default,,0,0,0,,Ran ! Le tableau !
+Dialogue: 0,0:16:46.44,0:16:47.24,Default,,0,0,0,,OK.
+Dialogue: 0,0:16:48.48,0:16:52.72,Default,,0,0,0,,Nous pensions que ce tableau\Nreprésentait l'hallucination
+Dialogue: 0,0:16:52.96,0:16:55.72,Default,,0,0,0,,d'un ange menant une âme au paradis,
+Dialogue: 0,0:16:56.08,0:17:00.04,Default,,0,0,0,,Mais M. Aoki ne peignait\Nque ce qu'il voyait.
+Dialogue: 0,0:17:00.52,0:17:03.40,Default,,0,0,0,,En fait, il s'agit de la réalité.
+Dialogue: 0,0:17:04.72,0:17:07.40,Default,,0,0,0,,Mais ç'a l'air\Ntotalement imaginaire...
+Dialogue: 0,0:17:07.56,0:17:09.04,Default,,0,0,0,,C'est un mirage.
+Dialogue: 0,0:17:09.20,0:17:10.52,Default,,0,0,0,,Un mirage ?
+Dialogue: 0,0:17:10.84,0:17:15.96,Default,,0,0,0,,Au printemps, l'air proche de la surface\Nse refroidit et se densifie.
+Dialogue: 0,0:17:16.64,0:17:20.24,Default,,0,0,0,,La lumière est réfractée\Net fait apparaître en hauteur
+Dialogue: 0,0:17:20.40,0:17:24.36,Default,,0,0,0,,l'image inversée du paysage.\NOn parle alors de "mirage supérieur".
+Dialogue: 0,0:17:25.16,0:17:28.08,Default,,0,0,0,,Nous devrions donc voir,\Nen retournant la toile,
+Dialogue: 0,0:17:28.24,0:17:31.76,Default,,0,0,0,,ce qu'eût été la vraie image\Nqui n'était pas encore peinte.
+Dialogue: 0,0:17:33.72,0:17:34.68,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:17:35.32,0:17:38.84,Default,,0,0,0,,Eh oui... La maison blanche\Nest en fait un bateau de pêche.
+Dialogue: 0,0:17:39.48,0:17:43.24,Default,,0,0,0,,L'ange montant au ciel\Nest une femme poussée à la mer.
+Dialogue: 0,0:17:43.72,0:17:46.28,Default,,0,0,0,,Et l'âme peinte en dessous
+Dialogue: 0,0:17:46.56,0:17:49.04,Default,,0,0,0,,est le bonnet blanc du meurtrier.
+Dialogue: 0,0:17:49.40,0:17:54.36,Default,,0,0,0,,Autrement dit, ce tableau\Ndépeint un terrible meurtre.
+Dialogue: 0,0:17:58.48,0:17:59.84,Default,,0,0,0,,Cette affreuse vérité,
+Dialogue: 0,0:18:00.16,0:18:04.92,Default,,0,0,0,,M. Aoki l'a devinée à force de voir\Net revoir les images dont il se servait
+Dialogue: 0,0:18:05.20,0:18:06.52,Default,,0,0,0,,pour son tableau.
+Dialogue: 0,0:18:07.32,0:18:10.76,Default,,0,0,0,,C'est pour cela qu'il a dit\Nau jeune Akagi de renoncer,
+Dialogue: 0,0:18:11.40,0:18:13.76,Default,,0,0,0,,qu'il regardait la mer\Nd'un air grave
+Dialogue: 0,0:18:14.20,0:18:17.64,Default,,0,0,0,,et qu'il n'avait pas d'appétit
+Dialogue: 0,0:18:17.80,0:18:20.08,Default,,0,0,0,,au petit-déjeuner.
+Dialogue: 0,0:18:20.24,0:18:22.52,Default,,0,0,0,,Mais qui est cette femme\Nassassinée ?
+Dialogue: 0,0:18:23.12,0:18:27.52,Default,,0,0,0,,Le spectacle des calmars lucioles\Ndu tableau a eu lieu il y a 10 jours,
+Dialogue: 0,0:18:27.88,0:18:31.44,Default,,0,0,0,,à la date précise\Noù la petite amie d'Akagi a disparu.
+Dialogue: 0,0:18:32.32,0:18:36.68,Default,,0,0,0,,À en juger par sa coiffure\Net ses vêtements, c'est bien elle.
+Dialogue: 0,0:18:37.40,0:18:41.80,Default,,0,0,0,,M. Aoki s'est fait tuer\Npour l'avoir découvert.
+Dialogue: 0,0:18:42.28,0:18:45.24,Default,,0,0,0,,Le meurtrier\Nest donc forcément un gaucher
+Dialogue: 0,0:18:45.40,0:18:47.48,Default,,0,0,0,,qui sait manœuvrer un bateau.
+Dialogue: 0,0:18:48.28,0:18:50.92,Default,,0,0,0,,Akagi donnait ses affiches\Nde la main gauche,
+Dialogue: 0,0:18:51.12,0:18:53.72,Default,,0,0,0,,mais il ne sait pas\Nconduire de bateau.
+Dialogue: 0,0:18:54.52,0:18:58.16,Default,,0,0,0,,M. Shirakawa, lui, a verrouillé\Nsa valise de la main droite.
+Dialogue: 0,0:18:59.04,0:19:01.20,Default,,0,0,0,,M. Ishiguro a un chalutier, mais
+Dialogue: 0,0:19:01.72,0:19:03.20,Default,,0,0,0,,sa main gauche\Nest infirme,
+Dialogue: 0,0:19:03.68,0:19:07.68,Default,,0,0,0,,et il ne sort jamais en mer\Nsans son bonnet noir.
+Dialogue: 0,0:19:08.32,0:19:12.20,Default,,0,0,0,,Le seul homme à savoir\Nque M. Aoki logeait dans cette chambre
+Dialogue: 0,0:19:12.68,0:19:14.44,Default,,0,0,0,,et à remplir les 2 conditions,
+Dialogue: 0,0:19:16.08,0:19:19.72,Default,,0,0,0,,c'est celui qui tenait ses baguettes\Nde la main gauche
+Dialogue: 0,0:19:19.88,0:19:22.52,Default,,0,0,0,,et qui nous a servi\Nsa propre pêche à dîner,
+Dialogue: 0,0:19:23.24,0:19:26.60,Default,,0,0,0,,le patron de cette chambre d'hôtes.
+Dialogue: 0,0:19:28.00,0:19:29.72,Default,,0,0,0,,Ça ne suffit pas à me...
+Dialogue: 0,0:19:30.24,0:19:32.36,Default,,0,0,0,,Vous avez dit tout à l'heure...
+Dialogue: 0,0:19:32.96,0:19:35.72,Default,,0,0,0,,{\i1}Finalement,{\i0}\N{\i1}vous n'avez pas trouvé{\i0}
+Dialogue: 0,0:19:36.20,0:19:39.36,Default,,0,0,0,,{\i1}qui a effacé la vidéo{\i0}\N{\i1}de l'appareil de M. Aoki ?{\i0}
+Dialogue: 0,0:19:39.92,0:19:43.00,Default,,0,0,0,,Certes, cet appareil\Npermet aussi de filmer,
+Dialogue: 0,0:19:43.76,0:19:46.44,Default,,0,0,0,,mais comment saviez-vous\Nqu'on avait effacé
+Dialogue: 0,0:19:46.60,0:19:48.72,Default,,0,0,0,,une vidéo, et non une photo ?
+Dialogue: 0,0:19:49.40,0:19:52.12,Default,,0,0,0,,Les seuls à le savoir\Nétaient feu M. Aoki
+Dialogue: 0,0:19:52.40,0:19:56.64,Default,,0,0,0,,et le meurtrier,\Nqui a supprimé le répertoire.
+Dialogue: 0,0:19:59.20,0:20:01.64,Default,,0,0,0,,Et le personnage louche qu'il a vu ?
+Dialogue: 0,0:20:02.20,0:20:06.64,Default,,0,0,0,,Il l'a inventé\Npour éloigner les soupçons.
+Dialogue: 0,0:20:10.32,0:20:12.80,Default,,0,0,0,,Au départ, c'était un accident.
+Dialogue: 0,0:20:35.96,0:20:39.12,Default,,0,0,0,,Je ne pouvais pas imaginer\Nqu'on me filmait.
+Dialogue: 0,0:20:41.52,0:20:44.44,Default,,0,0,0,,Il m'a conseillé\Nd'aller me dénoncer.
+Dialogue: 0,0:20:45.32,0:20:47.04,Default,,0,0,0,,Pour soulager ma conscience.
+Dialogue: 0,0:20:47.64,0:20:48.64,Default,,0,0,0,,Alors...
+Dialogue: 0,0:20:58.48,0:21:01.44,Default,,0,0,0,,Je pensais avoir effacé\Ntoutes les preuves...
+Dialogue: 0,0:21:02.12,0:21:03.40,Default,,0,0,0,,Je suis foutu !
+Dialogue: 0,0:21:10.40,0:21:13.44,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:14.56,0:21:17.56,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:30.20,0:22:32.92,Default,,0,0,0,,Je ne sais comment vous remercier.
+Dialogue: 0,0:22:33.72,0:22:38.44,Default,,0,0,0,,Soyez fière de votre mari,\Nil a aidé à résoudre l'affaire.
+Dialogue: 0,0:22:38.64,0:22:42.64,Default,,0,0,0,,En plus,\Nje pense qu'il a sauvé une vie.
+Dialogue: 0,0:22:43.84,0:22:45.84,Default,,0,0,0,,Quelle vie, Conan ?
+Dialogue: 0,0:22:46.24,0:22:47.72,Default,,0,0,0,,Celle de M. Shirakawa.
+Dialogue: 0,0:22:48.00,0:22:51.24,Default,,0,0,0,,Il venait soi-disant\Nadmirer le mirage,
+Dialogue: 0,0:22:51.44,0:22:54.60,Default,,0,0,0,,mais il n'avait ni jumelles\Nni appareil photo.
+Dialogue: 0,0:22:55.20,0:22:59.64,Default,,0,0,0,,Et puis, sa valise ne contenait\Nque deux flacons de somnifères.
+Dialogue: 0,0:23:00.28,0:23:04.88,Default,,0,0,0,,Il devait être allé à Uozu\Npour mettre fin à ses jours.
+Dialogue: 0,0:23:05.32,0:23:08.64,Default,,0,0,0,,Mais à l'hôtel, il a acheté\Ndes cadeaux pour sa famille.
+Dialogue: 0,0:23:09.08,0:23:11.64,Default,,0,0,0,,Ça prouve qu'il avait changé d'avis.
+Dialogue: 0,0:23:11.84,0:23:15.44,Default,,0,0,0,,En fait, c'est sans doute M. Aoki\Nqui a empêché M. Shirakawa
+Dialogue: 0,0:23:15.60,0:23:17.52,Default,,0,0,0,,de se suicider.
+Dialogue: 0,0:23:19.16,0:23:21.20,Default,,0,0,0,,Oui, probablement.
+Dialogue: 0,0:23:27.12,0:23:30.12,Default,,0,0,0,,Tu as raison.\NJ'en suis persuadée.

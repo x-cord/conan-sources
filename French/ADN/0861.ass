@@ -1,0 +1,396 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.95,0:00:04.61,Default,,0,0,0,,"Kôji Haneda.\NIl y a 17 ans de ça,
+Dialogue: 0,0:00:04.80,0:00:07.16,Default,,0,0,0,,"ce maître de {\i1}shôgi{\i0} aux 4 couronnes
+Dialogue: 0,0:00:07.33,0:00:09.01,Default,,0,0,0,,"s'est rendu aux États-Unis
+Dialogue: 0,0:00:09.17,0:00:12.60,Default,,0,0,0,,"pour participer\Nà un tournoi d'échecs, son hobby.
+Dialogue: 0,0:00:13.17,0:00:17.04,Default,,0,0,0,,"Mais on l'a retrouvé mort,\Nagressé dans sa chambre d'hôtel,
+Dialogue: 0,0:00:17.20,0:00:19.29,Default,,0,0,0,,"la veille de la compétition.
+Dialogue: 0,0:00:19.84,0:00:22.00,Default,,0,0,0,,"La chambre avait été saccagée
+Dialogue: 0,0:00:22.29,0:00:25.57,Default,,0,0,0,,"et M. Haneda\Nsemble avoir tenté de se défendre,
+Dialogue: 0,0:00:25.72,0:00:27.52,Default,,0,0,0,,"mais on ignore la cause du décès.
+Dialogue: 0,0:00:30.16,0:00:33.57,Default,,0,0,0,,"Même mort inexpliquée\Npour la riche Amanda Hugues,
+Dialogue: 0,0:00:33.72,0:00:37.56,Default,,0,0,0,,"le même jour,\Ndans une autre chambre du même hôtel.
+Dialogue: 0,0:00:38.09,0:00:41.43,Default,,0,0,0,,"Grande fan,\Nl'Américaine avait côtoyé M. Haneda.
+Dialogue: 0,0:00:41.61,0:00:46.56,Default,,0,0,0,,"Le garde du corps qui l'escortait\Ns'est volatilisé le jour de sa mort.
+Dialogue: 0,0:00:47.43,0:00:50.64,Default,,0,0,0,,"Cet individu,\Nque Mme Hugues appelait "Asaka",
+Dialogue: 0,0:00:50.80,0:00:53.69,Default,,0,0,0,,"est de ce fait considéré\Ncomme le suspect n° 1
+Dialogue: 0,0:00:53.85,0:00:56.11,Default,,0,0,0,,"mais n'a toujours pas été retrouvé.
+Dialogue: 0,0:00:57.05,0:01:01.32,Default,,0,0,0,,"De plus, de nombreux mystères\Nentourent l'énigmatique Asaka.
+Dialogue: 0,0:01:01.48,0:01:03.77,Default,,0,0,0,,"Aucun proche ou ami de Mme Hugues
+Dialogue: 0,0:01:03.92,0:01:08.21,Default,,0,0,0,,"ne sait par quel biais\Nle garde du corps a été engagé."
+Dialogue: 0,0:01:10.01,0:01:13.29,Default,,0,0,0,,Dis...\NTu ne connais pas d'Asaka, toi ?
+Dialogue: 0,0:01:13.68,0:01:16.04,Default,,0,0,0,,Non, ça ne me dit rien.
+Dialogue: 0,0:01:16.47,0:01:18.60,Default,,0,0,0,,Mais la mort inexpliquée de Haneda
+Dialogue: 0,0:01:19.20,0:01:22.24,Default,,0,0,0,,et la présence de son nom\Nsur la liste des personnes
+Dialogue: 0,0:01:22.40,0:01:24.61,Default,,0,0,0,,à qui on a fait boire l'APTX 4869
+Dialogue: 0,0:01:25.16,0:01:29.33,Default,,0,0,0,,indiquent qu'Asaka pourrait bien\Nfaire partie de l'Organisation.
+Dialogue: 0,0:01:29.76,0:01:31.52,Default,,0,0,0,,Tu ne trouves pas ça bizarre ?
+Dialogue: 0,0:01:31.68,0:01:35.11,Default,,0,0,0,,Comment se fait-il que le nom de Haneda,\Ntué il y a 17 ans,
+Dialogue: 0,0:01:35.28,0:01:37.21,Default,,0,0,0,,soit 2 lignes en dessous du mien ?
+Dialogue: 0,0:01:37.84,0:01:41.77,Default,,0,0,0,,Soit l'auteur de la liste\Nne l'a pas établie dans l'ordre,
+Dialogue: 0,0:01:41.92,0:01:45.37,Default,,0,0,0,,soit il a classé les victimes\Npar groupe sanguin.
+Dialogue: 0,0:01:45.87,0:01:49.00,Default,,0,0,0,,Autre chose,\Nsi ce poison qu'on m'a fait boire
+Dialogue: 0,0:01:49.16,0:01:51.76,Default,,0,0,0,,existait déjà il y a 17 ans...
+Dialogue: 0,0:01:54.00,0:01:56.48,Default,,0,0,0,,Ça te fait quel âge, en fait ?
+Dialogue: 0,0:01:58.08,0:01:59.36,Default,,0,0,0,,Quel mufle !
+Dialogue: 0,0:01:59.52,0:02:01.69,Default,,0,0,0,,Je t'ai déjà dit avoir 18 ans !
+Dialogue: 0,0:02:04.36,0:02:08.16,Default,,0,0,0,,Cette substance est probablement\Ncelle produite par mes parents.
+Dialogue: 0,0:02:08.72,0:02:11.41,Default,,0,0,0,,Moi, je l'ai juste recréée\Nd'après des archives
+Dialogue: 0,0:02:11.56,0:02:13.64,Default,,0,0,0,,récupérées après l'incendie.
+Dialogue: 0,0:02:14.11,0:02:15.23,Default,,0,0,0,,Quel incendie ?
+Dialogue: 0,0:02:15.80,0:02:18.04,Default,,0,0,0,,Celui du labo de mes parents.
+Dialogue: 0,0:02:18.20,0:02:21.23,Default,,0,0,0,,Ils ont péri dans les flammes\Navec leurs données.
+Dialogue: 0,0:02:21.60,0:02:26.04,Default,,0,0,0,,C'était "un malheureux accident",\Nd'après ceux de l'Organisation...
+Dialogue: 0,0:02:28.72,0:02:33.56,Default,,0,0,0,,Et d'ailleurs, c'est un autre poison\Nqu'on m'a fait fabriquer, en réalité.
+Dialogue: 0,0:02:33.92,0:02:35.11,Default,,0,0,0,,N'empêche...
+Dialogue: 0,0:02:35.72,0:02:40.16,Default,,0,0,0,,Quelle raison ces hommes avaient\Nde tuer ce joueur de {\i1}shôgi{\i0} ?
+Dialogue: 0,0:02:40.72,0:02:44.76,Default,,0,0,0,,Il pourrait avoir surpris\Nle meurtre de la riche Américaine
+Dialogue: 0,0:02:45.16,0:02:47.87,Default,,0,0,0,,devenue gênante\Npour l'Organisation, non ?
+Dialogue: 0,0:02:48.11,0:02:50.72,Default,,0,0,0,,Surtout que cette Amanda\Navait ses entrées
+Dialogue: 0,0:02:50.87,0:02:53.08,Default,,0,0,0,,au FBI et à la CIA, paraît-il.
+Dialogue: 0,0:02:53.72,0:02:58.20,Default,,0,0,0,,Il est prouvé qu'elle s'est rendue\Ndans la chambre de Haneda.
+Dialogue: 0,0:02:59.84,0:03:04.43,Default,,0,0,0,,Poignée de porte, canapé,\Ntasse de thé, assiette et fourchette
+Dialogue: 0,0:03:04.60,0:03:06.68,Default,,0,0,0,,portaient ses empreintes.
+Dialogue: 0,0:03:07.08,0:03:10.28,Default,,0,0,0,,Ils ont commandé boissons\Net gâteaux au service d'étage
+Dialogue: 0,0:03:10.43,0:03:12.43,Default,,0,0,0,,pour prendre le thé ensemble ?
+Dialogue: 0,0:03:12.92,0:03:15.80,Default,,0,0,0,,De la vaisselle semble avoir été brisée
+Dialogue: 0,0:03:15.95,0:03:17.64,Default,,0,0,0,,quand la chambre a été saccagée.
+Dialogue: 0,0:03:18.00,0:03:19.92,Default,,0,0,0,,Oui, on a retrouvé éparpillés
+Dialogue: 0,0:03:20.08,0:03:24.80,Default,,0,0,0,,des débris de tasses et d'assiettes\Nmarquées au nom de l'hôtel Juke.
+Dialogue: 0,0:03:26.32,0:03:29.20,Default,,0,0,0,,Tiens ? On aperçoit du verre\Nparmi les morceaux...
+Dialogue: 0,0:03:29.47,0:03:30.52,Default,,0,0,0,,C'est un miroir ?
+Dialogue: 0,0:03:31.16,0:03:32.76,Default,,0,0,0,,On voit des lettres...
+Dialogue: 0,0:03:33.08,0:03:35.11,Default,,0,0,0,,P, T, O, N ?
+Dialogue: 0,0:03:36.76,0:03:38.56,Default,,0,0,0,,Ça devait être l'inscription
+Dialogue: 0,0:03:39.04,0:03:41.08,Default,,0,0,0,,"PUT ON MASCARA".
+Dialogue: 0,0:03:42.43,0:03:45.08,Default,,0,0,0,,À l'époque,\Nun fabricant de cosmétiques a sorti
+Dialogue: 0,0:03:45.23,0:03:47.68,Default,,0,0,0,,un mascara équipé d'un miroir
+Dialogue: 0,0:03:47.84,0:03:49.52,Default,,0,0,0,,qui a fait un carton
+Dialogue: 0,0:03:49.68,0:03:52.00,Default,,0,0,0,,avec ce slogan "Mettons du mascara".
+Dialogue: 0,0:03:52.64,0:03:56.92,Default,,0,0,0,,Ma sœur gardait un miroir identique,\Nun souvenir de ma mère.
+Dialogue: 0,0:03:57.08,0:04:00.76,Default,,0,0,0,,Mais que faisait ce miroir\Ndans la chambre de Haneda ?
+Dialogue: 0,0:04:00.92,0:04:03.28,Default,,0,0,0,,La riche Américaine assassinée
+Dialogue: 0,0:04:03.43,0:04:06.32,Default,,0,0,0,,était une vieille dame de 80 ans...
+Dialogue: 0,0:04:06.47,0:04:10.40,Default,,0,0,0,,Haneda l'avait peut-être reçu\Nde sa propre mère.
+Dialogue: 0,0:04:10.56,0:04:13.47,Default,,0,0,0,,Ce joueur de {\i1}shôgi{\i0}\Ndevait veiller à son apparence.
+Dialogue: 0,0:04:14.56,0:04:18.68,Default,,0,0,0,,Le plus intrigant, c'est le bazar\Ndans lequel on a laissé la pièce.
+Dialogue: 0,0:04:19.23,0:04:22.08,Default,,0,0,0,,L'Organisation\Nn'aurait jamais agi de la sorte.
+Dialogue: 0,0:04:22.52,0:04:26.47,Default,,0,0,0,,Elle laisse toujours les lieux\Ncomme elle les a trouvés.
+Dialogue: 0,0:04:28.92,0:04:32.68,Default,,0,0,0,,Sans oublier les traces de passage\Ndans la chambre d'Amanda.
+Dialogue: 0,0:04:33.04,0:04:37.23,Default,,0,0,0,,Oui. Il est écrit que le robinet\Nde la salle de bains était ouvert.
+Dialogue: 0,0:04:37.64,0:04:41.32,Default,,0,0,0,,En tout cas, bravo\Npour avoir trouvé toutes ces infos.
+Dialogue: 0,0:04:41.47,0:04:44.87,Default,,0,0,0,,Quelqu'un les ré-uploade\Npériodiquement sur la toile
+Dialogue: 0,0:04:45.04,0:04:47.16,Default,,0,0,0,,sans se soucier qu'on les efface.
+Dialogue: 0,0:04:47.92,0:04:52.87,Default,,0,0,0,,C'est vraiment comme s'il voulait\Nque quelqu'un résolve l'énigme...
+Dialogue: 0,0:04:53.32,0:04:57.08,Default,,0,0,0,,Mais comment sait-on\Nque Haneda a tenté de se protéger ?
+Dialogue: 0,0:04:57.56,0:05:02.00,Default,,0,0,0,,Les traces de défense\Nface à des coups de pied et de poing
+Dialogue: 0,0:05:02.16,0:05:04.20,Default,,0,0,0,,présentes sur ses bras le prouvent.
+Dialogue: 0,0:05:04.92,0:05:07.47,Default,,0,0,0,,Et d'après les marques\Nsur sa main droite,
+Dialogue: 0,0:05:07.87,0:05:11.95,Default,,0,0,0,,il avait serré les petits ciseaux\Nse trouvant dans sa chambre.
+Dialogue: 0,0:05:12.56,0:05:14.68,Default,,0,0,0,,Il serrait des ciseaux ?
+Dialogue: 0,0:05:15.00,0:05:18.11,Default,,0,0,0,,Oui. Ça te semble bizarre ?
+Dialogue: 0,0:05:18.36,0:05:22.72,Default,,0,0,0,,Non... C'est juste qu'il y a eu\Nun meurtre ce matin à Okuhochô...
+Dialogue: 0,0:05:23.40,0:05:28.64,Default,,0,0,0,,Et comme la victime serrait aussi\Ndes ciseaux de mon invention,
+Dialogue: 0,0:05:28.80,0:05:30.76,Default,,0,0,0,,l'inspecteur Megure m'a demandé
+Dialogue: 0,0:05:30.92,0:05:35.11,Default,,0,0,0,,de venir lui donner des détails\Naprès midi, sur les lieux du crime.
+Dialogue: 0,0:05:36.64,0:05:41.52,Default,,0,0,0,,Ces ciseaux ridicules qui font "clic"\Nquand leurs anneaux se touchent ?
+Dialogue: 0,0:05:41.68,0:05:43.40,Default,,0,0,0,,Ça se vend, ça ?
+Dialogue: 0,0:05:45.08,0:05:48.72,Default,,0,0,0,,Les gens trouvent ce bruit\Nsubtil et agréable.
+Dialogue: 0,0:05:49.11,0:05:52.72,Default,,0,0,0,,Excusez-moi,\Nsi cela ne vous dérange pas,
+Dialogue: 0,0:05:53.80,0:05:57.87,Default,,0,0,0,,j'aimerais beaucoup vous accompagner\Nsur les lieux du crime, je peux ?
+Dialogue: 0,0:06:11.43,0:06:15.36,Default,,0,0,0,,{\i1}Le ciel sera témoin d'énigmes\Nrésolues par une logique acérée !{\i0}
+Dialogue: 0,0:06:15.80,0:06:17.28,Default,,0,0,0,,{\i1}APTX, meurtres à l'hôtel,{\i0}
+Dialogue: 0,0:06:17.43,0:06:19.52,Default,,0,0,0,,{\i1}ciseaux et menace en vue...{\i0}
+Dialogue: 0,0:06:20.08,0:06:23.60,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:06:23.76,0:06:26.36,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:06:34.56,0:06:37.16,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:06:47.40,0:06:49.87,Default,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:06:50.20,0:06:52.40,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:06:52.92,0:06:54.92,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:07:00.36,0:07:03.36,Default,,0,0,0,,Générique d'ouverture :\N"Ikusen no meikyû de ikusen no nazo o toite"
+Dialogue: 0,0:07:14.20,0:07:16.68,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:07:17.28,0:07:19.11,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:07:24.76,0:07:27.28,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:07:30.52,0:07:33.52,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:07:35.20,0:07:38.40,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:07:41.04,0:07:44.47,Default,,0,0,0,,{\i1}"Scènes de crime analogues\Nà 17 ans d'intervalle (1re partie)" !{\i0}
+Dialogue: 0,0:07:46.32,0:07:48.80,Default,,0,0,0,,Subaru ? Que fais-tu ici ?
+Dialogue: 0,0:07:50.72,0:07:54.08,Default,,0,0,0,,Je crois avoir préparé\Ntrop de patates à la viande.
+Dialogue: 0,0:07:54.76,0:07:55.72,Default,,0,0,0,,On partage ?
+Dialogue: 0,0:07:56.08,0:07:59.32,Default,,0,0,0,,Euh... Dis-moi plutôt\Npourquoi tu veux m'accompagner ?
+Dialogue: 0,0:08:00.11,0:08:01.43,Default,,0,0,0,,Car cette affaire
+Dialogue: 0,0:08:01.84,0:08:03.76,Default,,0,0,0,,m'intrigue sur certains points.
+Dialogue: 0,0:08:04.64,0:08:07.84,Default,,0,0,0,,Dans ce cas,\Nallons sur les lieux sans plus tarder !
+Dialogue: 0,0:08:08.00,0:08:08.72,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:08:09.00,0:08:11.87,Default,,0,0,0,,Attends...\NToi, tu n'as pas besoin de venir.
+Dialogue: 0,0:08:21.36,0:08:22.84,Default,,0,0,0,,Tu peux garder la maison
+Dialogue: 0,0:08:23.40,0:08:24.43,Default,,0,0,0,,toute seule, non ?
+Dialogue: 0,0:08:25.40,0:08:26.43,Default,,0,0,0,,Si tu veux...
+Dialogue: 0,0:08:27.87,0:08:31.95,Default,,0,0,0,,Je dois rester seule ici\Npour manger ce plat raté, c'est ça ?
+Dialogue: 0,0:08:33.04,0:08:34.40,Default,,0,0,0,,Le dernier était mauvais ?
+Dialogue: 0,0:08:36.64,0:08:39.95,Default,,0,0,0,,Les légumes de ta blanquette\Nde la dernière fois
+Dialogue: 0,0:08:40.32,0:08:42.68,Default,,0,0,0,,n'étaient même pas cuits.
+Dialogue: 0,0:08:42.87,0:08:47.23,Default,,0,0,0,,Comme si tu l'avais bâclée\Naprès avoir espionné notre conversation
+Dialogue: 0,0:08:47.40,0:08:50.95,Default,,0,0,0,,pour trouver une excuse\Nafin de participer à notre enquête.
+Dialogue: 0,0:08:52.60,0:08:54.11,Default,,0,0,0,,Ne dis pas n'importe quoi !
+Dialogue: 0,0:08:54.32,0:08:56.84,Default,,0,0,0,,Je suis juste mauvais cuisinier,\Nc'est tout.
+Dialogue: 0,0:08:57.47,0:08:59.95,Default,,0,0,0,,Tu peux le remettre à mijoter
+Dialogue: 0,0:09:00.11,0:09:02.60,Default,,0,0,0,,d'ici à notre retour,\Nça me dépannerait.
+Dialogue: 0,0:09:04.32,0:09:08.00,Default,,0,0,0,,Les ingrédients et l'assaisonnement\Ndoivent être corrects...
+Dialogue: 0,0:09:20.43,0:09:21.92,Default,,0,0,0,,Ne la quitte pas des yeux.
+Dialogue: 0,0:09:23.72,0:09:25.52,Default,,0,0,0,,Je compte sur toi, Camel.
+Dialogue: 0,0:09:28.20,0:09:29.20,Default,,0,0,0,,Entendu.
+Dialogue: 0,0:09:35.20,0:09:37.28,Default,,0,0,0,,Je vous attendais,\Nmonsieur Agasa !
+Dialogue: 0,0:09:37.64,0:09:40.76,Default,,0,0,0,,- Mais... vous n'êtes pas seul ?\N- Euh...
+Dialogue: 0,0:09:40.92,0:09:45.47,Default,,0,0,0,,J'ai moi aussi aidé\Nà la création de ces fameux ciseaux.
+Dialogue: 0,0:09:45.84,0:09:47.23,Default,,0,0,0,,Mais je dérange peut-être.
+Dialogue: 0,0:09:47.40,0:09:49.68,Default,,0,0,0,,Non, si c'est ça...
+Dialogue: 0,0:09:50.43,0:09:53.92,Default,,0,0,0,,{\i1}Ces ciseaux\Nétaient une invention si éminente ?{\i0}
+Dialogue: 0,0:09:58.95,0:10:01.47,Default,,0,0,0,,Ça n'a pas eu lieu\Ndans le bâtiment principal ?
+Dialogue: 0,0:10:01.84,0:10:03.56,Default,,0,0,0,,Par mesure de sécurité,
+Dialogue: 0,0:10:03.92,0:10:07.52,Default,,0,0,0,,la victime restait plutôt\Ndans ce pavillon, dernièrement.
+Dialogue: 0,0:10:08.76,0:10:11.08,Default,,0,0,0,,{\i1}Drôlement costauds, ces deux-là...{\i0}
+Dialogue: 0,0:10:12.00,0:10:13.56,Default,,0,0,0,,{\i1}Ce sont des gardes du corps ?{\i0}
+Dialogue: 0,0:10:20.16,0:10:21.64,Default,,0,0,0,,Oh, monsieur Agasa !
+Dialogue: 0,0:10:22.32,0:10:25.20,Default,,0,0,0,,Merci d'avoir pris la peine de venir !
+Dialogue: 0,0:10:25.36,0:10:26.64,Default,,0,0,0,,Je vous en prie...
+Dialogue: 0,0:10:31.28,0:10:33.40,Default,,0,0,0,,{\i1}Ils n'ont pas encore\Nenlevé le corps ?{\i0}
+Dialogue: 0,0:10:34.08,0:10:35.80,Default,,0,0,0,,Pour vous expliquer, en gros,
+Dialogue: 0,0:10:36.36,0:10:38.95,Default,,0,0,0,,le propriétaire de cette demeure,
+Dialogue: 0,0:10:39.16,0:10:43.32,ST_HAUT,,0,0,0,,Kunihisa Hiyama, 61 ans,\Ndirigeait une agence immobilière.
+Dialogue: 0,0:10:43.80,0:10:46.76,Default,,0,0,0,,Il a été frappé à mort\Navec un objet contondant.
+Dialogue: 0,0:10:46.92,0:10:49.64,Default,,0,0,0,,Il a dû être agressé\Ndans une autre pièce
+Dialogue: 0,0:10:49.80,0:10:52.32,Default,,0,0,0,,et tenter de se réfugier\Ndans la salle de bains
+Dialogue: 0,0:10:52.84,0:10:56.20,Default,,0,0,0,,avant que le tueur\Nn'en défonce la porte pour l'achever.
+Dialogue: 0,0:10:56.72,0:10:57.20,Default,,0,0,0,,Enfin,
+Dialogue: 0,0:10:57.56,0:11:02.60,Default,,0,0,0,,la victime serrait dans sa main\Ndes ciseaux de la marque Agasa.
+Dialogue: 0,0:11:02.76,0:11:04.20,Default,,0,0,0,,Qu'ont-ils de spécial ?
+Dialogue: 0,0:11:04.64,0:11:06.28,Default,,0,0,0,,- Eh bien...\N- Stop !
+Dialogue: 0,0:11:07.16,0:11:09.23,Default,,0,0,0,,Attention,\Nvous pourriez vous blesser.
+Dialogue: 0,0:11:09.56,0:11:11.00,Default,,0,0,0,,{\i1}Des débris de verre ?{\i0}
+Dialogue: 0,0:11:12.80,0:11:14.16,Default,,0,0,0,,{\i1}Des motifs et des lettres ?{\i0}
+Dialogue: 0,0:11:17.43,0:11:21.16,Default,,0,0,0,,{\i1}On dirait le même verre\Nque celui sur ce lavabo.{\i0}
+Dialogue: 0,0:11:23.28,0:11:26.16,Default,,0,0,0,,Peut-on penser\Nque la victime a jeté ce verre
+Dialogue: 0,0:11:26.72,0:11:29.20,Default,,0,0,0,,sur l'agresseur qui tentait d'entrer ?
+Dialogue: 0,0:11:29.36,0:11:30.64,Default,,0,0,0,,Euh... Oui.
+Dialogue: 0,0:11:31.00,0:11:35.04,Default,,0,0,0,,Il aurait voulu se défendre\Navec les ciseaux
+Dialogue: 0,0:11:35.20,0:11:39.23,Default,,0,0,0,,qui lui servaient\Nà tailler sa moustache ?
+Dialogue: 0,0:11:39.40,0:11:40.60,Default,,0,0,0,,Probablement...
+Dialogue: 0,0:11:41.40,0:11:43.95,Default,,0,0,0,,Dans ce cas,\Nvous ne trouvez pas ça bizarre ?
+Dialogue: 0,0:11:44.11,0:11:45.47,Default,,0,0,0,,Et quoi donc ?
+Dialogue: 0,0:11:46.04,0:11:48.36,Default,,0,0,0,,Ce balai derrière la victime.
+Dialogue: 0,0:11:48.80,0:11:50.64,Default,,0,0,0,,Ce balai ?
+Dialogue: 0,0:11:51.60,0:11:54.11,Default,,0,0,0,,Face à quelqu'un\Narmé d'un objet contondant,
+Dialogue: 0,0:11:54.28,0:11:57.28,Default,,0,0,0,,utiliser le manche de ce balai\Naurait été plus adéquat.
+Dialogue: 0,0:11:57.60,0:11:58.80,Default,,0,0,0,,Pourquoi ces ciseaux ?
+Dialogue: 0,0:11:58.95,0:12:00.40,Default,,0,0,0,,Vous avez raison...
+Dialogue: 0,0:12:00.80,0:12:03.04,Default,,0,0,0,,Mais qui êtes-vous, au fait ?
+Dialogue: 0,0:12:03.47,0:12:05.52,Default,,0,0,0,,Pardon, je ne me suis pas présenté.
+Dialogue: 0,0:12:05.68,0:12:09.60,Default,,0,0,0,,Je suis Subaru Okiya,\Nl'assistant du Pr Agasa.
+Dialogue: 0,0:12:10.04,0:12:10.92,Default,,0,0,0,,Monsieur
+Dialogue: 0,0:12:11.36,0:12:12.11,Default,,0,0,0,,Okiya ?
+Dialogue: 0,0:12:12.28,0:12:14.80,Default,,0,0,0,,J'étais venu au sujet des ciseaux...
+Dialogue: 0,0:12:15.20,0:12:16.56,Default,,0,0,0,,Ah oui, voilà !
+Dialogue: 0,0:12:16.72,0:12:20.32,Default,,0,0,0,,Ils font un bruit\Nquand leurs anneaux se touchent.
+Dialogue: 0,0:12:20.52,0:12:22.11,Default,,0,0,0,,Ils peuvent enregistrer ?
+Dialogue: 0,0:12:22.84,0:12:25.20,Default,,0,0,0,,Non, pas de fonction aussi pratique.
+Dialogue: 0,0:12:26.08,0:12:27.52,Default,,0,0,0,,Désolé...
+Dialogue: 0,0:12:29.20,0:12:33.28,Default,,0,0,0,,Moi qui pensais qu'il avait enregistré\Nla voix de son assassin...
+Dialogue: 0,0:12:33.43,0:12:37.16,Default,,0,0,0,,Mais il y a du sang\Nsur les débris de verre à l'entrée.
+Dialogue: 0,0:12:37.43,0:12:39.20,Default,,0,0,0,,L'assassin a marché dessus...
+Dialogue: 0,0:12:39.36,0:12:42.00,Default,,0,0,0,,Conan ! Il ne faut pas entrer !
+Dialogue: 0,0:12:42.43,0:12:46.80,Default,,0,0,0,,Vous trouverez le tueur en comparant\Nce sang à celui des visiteurs.
+Dialogue: 0,0:12:47.36,0:12:50.08,Default,,0,0,0,,Euh, justement... À ce sujet...
+Dialogue: 0,0:12:51.04,0:12:54.08,Default,,0,0,0,,Quoi ?\NC'est celui du découvreur du corps
+Dialogue: 0,0:12:54.72,0:12:56.23,Default,,0,0,0,,et non du coupable ?
+Dialogue: 0,0:12:56.40,0:12:59.32,Default,,0,0,0,,Oui. Il s'appelle Kazunori Senba.
+Dialogue: 0,0:12:59.80,0:13:02.87,Default,,0,0,0,,Il tenait une boutique de friandises\Ndont M. Hiyama
+Dialogue: 0,0:13:03.04,0:13:08.23,Default,,0,0,0,,avait acheté le terrain à son fils\Net sa belle-fille, dans son dos.
+Dialogue: 0,0:13:08.40,0:13:10.60,Default,,0,0,0,,Il était venu s'en plaindre ce matin.
+Dialogue: 0,0:13:11.00,0:13:13.80,Default,,0,0,0,,Dans ce cas,\Nc'est certainement lui, le coupable.
+Dialogue: 0,0:13:14.11,0:13:16.23,Default,,0,0,0,,Ça, c'est impossible.
+Dialogue: 0,0:13:16.47,0:13:17.60,Default,,0,0,0,,Pourquoi ça ?
+Dialogue: 0,0:13:19.00,0:13:19.95,Default,,0,0,0,,Comme vous voyez,
+Dialogue: 0,0:13:20.56,0:13:24.23,Default,,0,0,0,,toutes les fenêtres de ce pavillon\Nont des barreaux.
+Dialogue: 0,0:13:24.92,0:13:27.32,Default,,0,0,0,,Seule l'entrée principale\Nest accessible.
+Dialogue: 0,0:13:27.47,0:13:30.23,Default,,0,0,0,,Mais ces 2 gardes du corps\Nla surveillent.
+Dialogue: 0,0:13:30.56,0:13:32.56,Default,,0,0,0,,Et ils fouillaient tous ceux
+Dialogue: 0,0:13:32.72,0:13:35.36,Default,,0,0,0,,qui souhaitaient\Nentrer dans ce pavillon.
+Dialogue: 0,0:13:35.76,0:13:38.23,Default,,0,0,0,,Ils utilisaient même\Nun détecteur de métaux.
+Dialogue: 0,0:13:38.68,0:13:41.23,Default,,0,0,0,,Un objet contondant\Naurait été vite repéré.
+Dialogue: 0,0:13:41.80,0:13:44.95,Default,,0,0,0,,N'aurait-il pas pu\Navoir utilisé comme arme
+Dialogue: 0,0:13:45.11,0:13:47.64,Default,,0,0,0,,un objet déjà présent dans le pavillon ?
+Dialogue: 0,0:13:48.00,0:13:48.95,Default,,0,0,0,,Si.
+Dialogue: 0,0:13:49.11,0:13:53.80,Default,,0,0,0,,Mais les affaires immobilières\Nde M. Hiyama n'étaient pas nettes
+Dialogue: 0,0:13:53.95,0:13:55.92,Default,,0,0,0,,et il se méfiait de ses ennemis.
+Dialogue: 0,0:13:56.08,0:13:59.47,Default,,0,0,0,,La seule arme\Nqu'un visiteur aurait pu utiliser,
+Dialogue: 0,0:13:59.64,0:14:02.00,Default,,0,0,0,,c'est le balai de tout à l'heure.
+Dialogue: 0,0:14:02.43,0:14:06.60,Default,,0,0,0,,On l'a bien sûr analysé,\Nmais on n'a relevé aucune trace de sang.
+Dialogue: 0,0:14:07.04,0:14:10.00,Default,,0,0,0,,Donc, M. Hiyama\Nétait déjà mort quand M. Senba
+Dialogue: 0,0:14:10.16,0:14:12.16,Default,,0,0,0,,a pénétré dans le pavillon ?
+Dialogue: 0,0:14:12.40,0:14:13.04,Default,,0,0,0,,Oui...
+Dialogue: 0,0:14:13.52,0:14:15.68,Default,,0,0,0,,C'est après avoir été fouillé
+Dialogue: 0,0:14:15.84,0:14:19.28,Default,,0,0,0,,qu'il y est entré\Net a appelé M. Hiyama, en vain.
+Dialogue: 0,0:14:19.43,0:14:22.16,Default,,0,0,0,,Et c'est\Npar la salle de bains entrouverte
+Dialogue: 0,0:14:22.32,0:14:25.84,Default,,0,0,0,,qu'il a découvert M. Hiyama au sol,\Nsaignant de la tête.
+Dialogue: 0,0:14:26.04,0:14:29.72,Default,,0,0,0,,Il a marché sur le verre\Nen se précipitant vers l'entrée
+Dialogue: 0,0:14:29.87,0:14:33.56,Default,,0,0,0,,où se trouvaient les gardes du corps\Nà qui il a tout raconté.
+Dialogue: 0,0:14:35.43,0:14:37.56,Default,,0,0,0,,Et où se trouve-t-il actuellement ?
+Dialogue: 0,0:14:38.08,0:14:41.00,Default,,0,0,0,,Il se fait soigner\Ndans le bâtiment principal.
+Dialogue: 0,0:14:41.16,0:14:44.56,Default,,0,0,0,,Excusez-moi.\NDésolé si je me trompe, mais...
+Dialogue: 0,0:14:45.16,0:14:48.64,Default,,0,0,0,,Est-ce que par hasard,\Nle robinet sur les lieux du crime
+Dialogue: 0,0:14:48.87,0:14:51.32,Default,,0,0,0,,était encore ouvert ?
+Dialogue: 0,0:14:51.80,0:14:55.43,Default,,0,0,0,,Oui, en effet...\NMais comment le savez-vous ?
+Dialogue: 0,0:14:56.20,0:14:57.80,Default,,0,0,0,,{\i1}J'en étais sûr...{\i0}
+Dialogue: 0,0:15:01.08,0:15:02.20,Default,,0,0,0,,Dis, Akai...
+Dialogue: 0,0:15:03.72,0:15:05.76,Default,,0,0,0,,Ça cache quelque chose ?
+Dialogue: 0,0:15:05.95,0:15:07.95,Default,,0,0,0,,Tu dois l'avoir remarqué, non ?
+Dialogue: 0,0:15:08.52,0:15:09.87,Default,,0,0,0,,Ça ressemble beaucoup
+Dialogue: 0,0:15:10.04,0:15:13.72,Default,,0,0,0,,au meurtre de Kôji Haneda\Nqui a été commis il y a 17 ans.
+Dialogue: 0,0:15:16.84,0:15:19.87,Default,,0,0,0,,Cette affaire qui m'a poussé
+Dialogue: 0,0:15:20.60,0:15:21.60,Default,,0,0,0,,à rejoindre
+Dialogue: 0,0:15:22.92,0:15:24.04,Default,,0,0,0,,le FBI...
+Dialogue: 0,0:15:31.56,0:15:33.76,Default,,0,0,0,,Ça t'a poussé à rejoindre le FBI ?
+Dialogue: 0,0:15:34.32,0:15:39.16,Default,,0,0,0,,Tu t'es occupé de l'affaire Kôji Haneda,\Nil y a 17 ans ?
+Dialogue: 0,0:15:39.64,0:15:43.28,Default,,0,0,0,,Non, pas directement.\NC'est plutôt mon père.
+Dialogue: 0,0:15:43.68,0:15:48.20,Default,,0,0,0,,Mais alors...\Nlui aussi était agent du FBI ?
+Dialogue: 0,0:15:48.36,0:15:49.40,Default,,0,0,0,,Non...
+Dialogue: 0,0:15:49.76,0:15:51.28,Default,,0,0,0,,Il n'était pas du FBI.
+Dialogue: 0,0:15:51.76,0:15:55.80,Default,,0,0,0,,Mais si je te parle de lui,\Nil faudra m'en dire plus sur toi.
+Dialogue: 0,0:15:56.47,0:15:58.56,Default,,0,0,0,,Pour savoir qui tu es réellement...
+Dialogue: 0,0:15:58.84,0:16:02.23,Default,,0,0,0,,Ah, euh... Ça, ce sera uniquement\Nquand tout sera réglé...
+Dialogue: 0,0:16:02.60,0:16:03.60,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:16:04.64,0:16:07.11,Default,,0,0,0,,{\i1}Même si je sens\Nqu'il m'a déjà démasqué...{\i0}
+Dialogue: 0,0:16:07.47,0:16:10.08,Default,,0,0,0,,Hé ! C'est quoi, cette histoire ?
+Dialogue: 0,0:16:12.52,0:16:15.95,ST_HAUT,,0,0,0,,J'étais pas censé pouvoir rentrer\Naprès avoir été soigné ?
+Dialogue: 0,0:16:16.32,0:16:19.23,Default,,0,0,0,,On aurait encore\Nquelques questions à vous poser...
+Dialogue: 0,0:16:19.40,0:16:21.84,Default,,0,0,0,,- C'est lui dont vous parliez ?\N- Oui.
+Dialogue: 0,0:16:22.56,0:16:25.80,Default,,0,0,0,,C'est bien Kazunori Senba,\Ncelui qui a trouvé le corps.
+Dialogue: 0,0:16:26.92,0:16:31.04,Default,,0,0,0,,L'homme qui s'est blessé en marchant\Nsur le verre de la scène du crime ?
+Dialogue: 0,0:16:31.20,0:16:32.20,Default,,0,0,0,,C'est ça...
+Dialogue: 0,0:16:33.84,0:16:37.60,Default,,0,0,0,,Excusez-moi. \NC'est votre pied droit qui a été blessé ?
+Dialogue: 0,0:16:38.72,0:16:42.87,Default,,0,0,0,,Vous sembliez marcher\Nen y faisant attention...
+Dialogue: 0,0:16:43.04,0:16:45.95,Default,,0,0,0,,Non, aujourd'hui,\Nc'est le pied gauche.
+Dialogue: 0,0:16:46.47,0:16:48.60,Default,,0,0,0,,J'ai eu un accident le mois dernier,
+Dialogue: 0,0:16:48.76,0:16:51.80,Default,,0,0,0,,ma jambe droite a été brisée net.\ND'où ces séquelles.
+Dialogue: 0,0:16:51.95,0:16:55.40,Default,,0,0,0,,J'étais encore hospitalisé\Nla semaine dernière, d'ailleurs.
+Dialogue: 0,0:16:55.84,0:16:58.36,Default,,0,0,0,,Mais qui êtes-vous d'abord ?\NUn inspecteur ?
+Dialogue: 0,0:16:58.52,0:17:01.72,Default,,0,0,0,,Non. Cet homme a participé\Nà l'invention des ciseaux
+Dialogue: 0,0:17:01.87,0:17:04.08,Default,,0,0,0,,que serrait M. Hiyama, la victime.
+Dialogue: 0,0:17:04.23,0:17:09.16,Default,,0,0,0,,Pourriez-vous reconstituer\Nla découverte du corps ?
+Dialogue: 0,0:17:09.56,0:17:12.00,Default,,0,0,0,,Certains points m'intriguent un peu.
+Dialogue: 0,0:17:13.04,0:17:15.76,Default,,0,0,0,,Pourquoi je devrais faire ça\Npour un civil ?
+Dialogue: 0,0:17:15.92,0:17:17.87,Default,,0,0,0,,En fait, ces ciseaux
+Dialogue: 0,0:17:18.47,0:17:21.04,Default,,0,0,0,,sont équipés\Nd'une autre fonction spéciale.
+Dialogue: 0,0:17:21.28,0:17:24.32,Default,,0,0,0,,Elle pourrait s'être activée\Nsi vous avez effectué
+Dialogue: 0,0:17:24.47,0:17:26.80,Default,,0,0,0,,une certaine action près du corps.
+Dialogue: 0,0:17:27.43,0:17:29.04,Default,,0,0,0,,Pas vrai, professeur ?
+Dialogue: 0,0:17:29.23,0:17:30.47,Default,,0,0,0,,En effet...
+Dialogue: 0,0:17:30.87,0:17:33.00,Default,,0,0,0,,Et de quoi tu parles ?
+Dialogue: 0,0:17:33.16,0:17:35.16,Default,,0,0,0,,Je ne peux pas encore vous le dire.
+Dialogue: 0,0:17:35.72,0:17:39.56,Default,,0,0,0,,Quoi qu'il en soit, merci\Nde rejouer votre découverte du corps.
+Dialogue: 0,0:17:41.16,0:17:43.64,Default,,0,0,0,,{\i1}Ces ciseaux ont une autre fonction ?{\i0}
+Dialogue: 0,0:17:45.56,0:17:47.92,Default,,0,0,0,,Pour commencer, j'ai été fouillé
+Dialogue: 0,0:17:48.08,0:17:52.28,Default,,0,0,0,,par ces 2 gardes du corps\Ndevant l'entrée du pavillon.
+Dialogue: 0,0:17:53.68,0:17:54.28,Default,,0,0,0,,Ensuite,
+Dialogue: 0,0:17:54.87,0:17:56.80,Default,,0,0,0,,j'ai ouvert la porte coulissante
+Dialogue: 0,0:17:56.95,0:17:59.87,Default,,0,0,0,,et j'ai attendu quelque temps,\Nen vain...
+Dialogue: 0,0:18:00.28,0:18:01.95,Default,,0,0,0,,Je suis entré en criant,
+Dialogue: 0,0:18:02.40,0:18:04.72,Default,,0,0,0,,mais rien n'y a fait.
+Dialogue: 0,0:18:05.11,0:18:06.11,Default,,0,0,0,,Puis,
+Dialogue: 0,0:18:06.87,0:18:10.72,Default,,0,0,0,,je me suis aperçu\Nque la salle de bains était ouverte.
+Dialogue: 0,0:18:11.36,0:18:13.00,Default,,0,0,0,,Et en y jetant un œil,
+Dialogue: 0,0:18:13.43,0:18:15.87,Default,,0,0,0,,j'ai découvert ce triste spectacle.
+Dialogue: 0,0:18:16.28,0:18:17.40,Default,,0,0,0,,C'est pour quoi ?
+Dialogue: 0,0:18:17.80,0:18:19.72,Default,,0,0,0,,La fonction spéciale des ciseaux
+Dialogue: 0,0:18:19.87,0:18:23.00,Default,,0,0,0,,ayant pu s'activer,\Non demande à M. Senba de rejouer
+Dialogue: 0,0:18:23.16,0:18:25.11,Default,,0,0,0,,la scène de découverte du corps.
+Dialogue: 0,0:18:27.08,0:18:29.84,Default,,0,0,0,,Et donc, en voyant\Nle corps recroquevillé
+Dialogue: 0,0:18:30.00,0:18:32.60,Default,,0,0,0,,de M. Hiyama qui saignait de la tête,
+Dialogue: 0,0:18:32.76,0:18:34.92,Default,,0,0,0,,vous vous êtes précipité\Nsans réfléchir.
+Dialogue: 0,0:18:35.08,0:18:36.00,Default,,0,0,0,,Ouais...
+Dialogue: 0,0:18:36.68,0:18:38.20,Default,,0,0,0,,Alors que ces débris de verre
+Dialogue: 0,0:18:38.36,0:18:41.52,Default,,0,0,0,,étaient éparpillés au sol,\Nbien en évidence ?
+Dialogue: 0,0:18:41.95,0:18:43.04,Default,,0,0,0,,Non...
+Dialogue: 0,0:18:43.20,0:18:47.52,Default,,0,0,0,,Quand j'ai jeté un œil,\Nla porte n'était qu'entrouverte.
+Dialogue: 0,0:18:47.84,0:18:50.95,Default,,0,0,0,,Je n'ai donc pas vu ces débris
+Dialogue: 0,0:18:51.11,0:18:54.23,Default,,0,0,0,,que j'ai écrasés\Nen accourant vers le corps.
+Dialogue: 0,0:18:54.40,0:18:56.08,Default,,0,0,0,,C'est bizarre alors...
+Dialogue: 0,0:18:57.32,0:18:58.43,Default,,0,0,0,,Ben oui...
+Dialogue: 0,0:18:58.72,0:19:00.95,Default,,0,0,0,,Si la porte était presque fermée,
+Dialogue: 0,0:19:01.11,0:19:03.92,Default,,0,0,0,,en l'ouvrant franchement pour entrer,
+Dialogue: 0,0:19:04.08,0:19:08.52,Default,,0,0,0,,les débris de verre auraient dû\Nêtre balayés par la porte.
+Dialogue: 0,0:19:10.08,0:19:12.80,Default,,0,0,0,,Et si le coupable avait fermé la porte,
+Dialogue: 0,0:19:12.95,0:19:16.64,Default,,0,0,0,,tous ces morceaux\Nseraient alors plus près de l'entrée.
+Dialogue: 0,0:19:16.80,0:19:19.43,Default,,0,0,0,,Ah oui ! Je me suis trompé !
+Dialogue: 0,0:19:19.92,0:19:22.60,Default,,0,0,0,,En fait,\Nla porte était grande ouverte !
+Dialogue: 0,0:19:22.76,0:19:26.60,Default,,0,0,0,,Distrait par le corps,\Nje n'ai pas pensé à regarder au sol.
+Dialogue: 0,0:19:27.28,0:19:28.60,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:19:29.72,0:19:31.16,Default,,0,0,0,,De quoi ?
+Dialogue: 0,0:19:31.43,0:19:33.68,Default,,0,0,0,,Tu sous-entends\Nque je suis l'assassin ?
+Dialogue: 0,0:19:34.20,0:19:35.52,Default,,0,0,0,,Regarde bien !
+Dialogue: 0,0:19:35.68,0:19:39.08,Default,,0,0,0,,Quand on frappe un homme à mort,\Nson sang vous éclabousse !
+Dialogue: 0,0:19:39.56,0:19:43.40,Default,,0,0,0,,Mais il n'y en a pas\Nune seule trace sur moi !
+Dialogue: 0,0:19:43.64,0:19:44.92,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:19:45.08,0:19:48.56,Default,,0,0,0,,Vous avez boutonné\Nsamedi avec dimanche !
+Dialogue: 0,0:19:52.36,0:19:55.47,Default,,0,0,0,,Et votre chemise\Nn'est pas dans votre pantalon.
+Dialogue: 0,0:19:55.72,0:19:59.68,Default,,0,0,0,,Ça fait plutôt négligé,\Ncomparé à votre cravate bien nouée.
+Dialogue: 0,0:19:59.84,0:20:03.23,Default,,0,0,0,,Euh, non... Aujourd'hui, je...\NC'est juste un hasard !
+Dialogue: 0,0:20:03.80,0:20:08.47,Default,,0,0,0,,Quoi qu'il en soit, je ne portais pas\Nd'arme contondante sur moi !
+Dialogue: 0,0:20:08.64,0:20:10.84,Default,,0,0,0,,C'est la preuve\Nque je suis innocent !
+Dialogue: 0,0:20:11.72,0:20:13.52,Default,,0,0,0,,Vous m'agacez, je rentre !
+Dialogue: 0,0:20:14.08,0:20:14.84,Default,,0,0,0,,Pas encore !
+Dialogue: 0,0:20:15.68,0:20:17.36,Default,,0,0,0,,Attendez un instant !
+Dialogue: 0,0:20:18.36,0:20:20.36,Default,,0,0,0,,S'il vous plaît, monsieur Senba !
+Dialogue: 0,0:20:20.56,0:20:22.23,Default,,0,0,0,,Bon, les photos sont prises.
+Dialogue: 0,0:20:23.08,0:20:25.23,Default,,0,0,0,,On récupère les débris de verre ?
+Dialogue: 0,0:20:25.40,0:20:26.36,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:20:26.64,0:20:27.64,Default,,0,0,0,,Est-ce que M. Senba
+Dialogue: 0,0:20:28.28,0:20:30.56,Default,,0,0,0,,a écrasé le verre en chaussettes ?
+Dialogue: 0,0:20:30.72,0:20:33.16,Default,,0,0,0,,Non, il portait des pantoufles.
+Dialogue: 0,0:20:33.47,0:20:35.16,Default,,0,0,0,,Comme vous pouvez le voir.
+Dialogue: 0,0:20:37.56,0:20:38.68,Default,,0,0,0,,{\i1}Mais c'est bien sûr...{\i0}
+Dialogue: 0,0:20:38.92,0:20:40.40,Default,,0,0,0,,{\i1}C'était donc ça...{\i0}
+Dialogue: 0,0:20:44.08,0:20:46.20,Default,,0,0,0,,Euh... Est-ce que ces pantoufles
+Dialogue: 0,0:20:46.36,0:20:50.11,Default,,0,0,0,,ont un rapport avec la fonction\Ndes ciseaux de M. Agasa ?
+Dialogue: 0,0:20:50.28,0:20:54.04,Default,,0,0,0,,Ce verre cassé est le même\Nque celui sur le lavabo,
+Dialogue: 0,0:20:54.20,0:20:55.47,Default,,0,0,0,,n'est-ce pas ?
+Dialogue: 0,0:20:55.92,0:20:56.56,Default,,0,0,0,,Oui.
+Dialogue: 0,0:20:57.08,0:21:01.43,Default,,0,0,0,,Il aurait été créé par Fusae\Net un fabriquant de vaisselle.
+Dialogue: 0,0:21:02.20,0:21:03.43,Default,,0,0,0,,{\i1}Par Fusae ?{\i0}
+Dialogue: 0,0:21:03.84,0:21:07.11,Default,,0,0,0,,Alors ? Quel rapport\Nentre ce verre et vos ciseaux ?
+Dialogue: 0,0:21:07.28,0:21:09.72,Default,,0,0,0,,Excusez-nous !\NOn passe avec le corps.
+Dialogue: 0,0:21:19.08,0:21:20.08,Default,,0,0,0,,{\i1}Une odeur...{\i0}
+Dialogue: 0,0:21:21.11,0:21:22.23,Default,,0,0,0,,{\i1}... sucrée...{\i0}
+Dialogue: 0,0:21:26.28,0:21:29.32,Default,,0,0,0,,Le corps sentait une drôle d'odeur...
+Dialogue: 0,0:21:29.47,0:21:30.04,Default,,0,0,0,,Oui...
+Dialogue: 0,0:21:30.64,0:21:33.95,Default,,0,0,0,,Une sorte de pâte\Nqui ressemblait à du miel
+Dialogue: 0,0:21:34.11,0:21:36.80,Default,,0,0,0,,a été retrouvée\Nsur la plaie du cadavre...
+Dialogue: 0,0:21:37.08,0:21:38.20,Default,,0,0,0,,{\i1}Du miel ?{\i0}
+Dialogue: 0,0:21:38.64,0:21:42.00,Default,,0,0,0,,Ce miel a un rapport avec les ciseaux ?
+Dialogue: 0,0:21:43.68,0:21:47.56,Default,,0,0,0,,S'il n'y en a pas, pourriez-vous\Nquitter la scène de crime ?
+Dialogue: 0,0:21:48.16,0:21:50.32,Default,,0,0,0,,Euh... Vous m'écoutez ?
+Dialogue: 0,0:21:50.80,0:21:53.40,Default,,0,0,0,,{\i1}Des ciseaux que serrait la victime...{\i0}
+Dialogue: 0,0:21:54.04,0:21:55.84,Default,,0,0,0,,{\i1}Du verre brisé au sol...{\i0}
+Dialogue: 0,0:21:56.40,0:21:59.04,Default,,0,0,0,,{\i1}Une odeur sucrée émanant du corps...{\i0}
+Dialogue: 0,0:21:59.87,0:22:01.84,Default,,0,0,0,,{\i1}Un robinet ouvert...{\i0}
+Dialogue: 0,0:22:02.32,0:22:06.72,Default,,0,0,0,,{\i1}Comment le coupable\Na-t-il assassiné la victime ?{\i0}
+Dialogue: 0,0:22:26.40,0:22:29.04,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:29.40,0:22:32.08,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara

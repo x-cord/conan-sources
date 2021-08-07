@@ -1,0 +1,391 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.77,0:00:04.37,Default,,0,0,0,,Tokyo recèle donc un si bel endroit ?
+Dialogue: 0,0:00:04.88,0:00:07.92,Default,,0,0,0,,Tu vois\Nque ça valait la peine de venir !
+Dialogue: 0,0:00:09.32,0:00:11.65,Default,,0,0,0,,L'air est pur et la vue, superbe !
+Dialogue: 0,0:00:11.85,0:00:13.95,Default,,0,0,0,,De quoi bien lever le coude !
+Dialogue: 0,0:00:14.20,0:00:16.00,Default,,0,0,0,,Par ici, je vous prie.
+Dialogue: 0,0:00:19.95,0:00:23.61,Default,,0,0,0,,Dites, mademoiselle !\NCe moulin à eau ne tourne plus ?
+Dialogue: 0,0:00:24.01,0:00:28.36,Default,,0,0,0,,Non, mais il irriguait autrefois\Nle champ de wasabi.
+Dialogue: 0,0:00:28.95,0:00:31.48,Default,,0,0,0,,Aujourd'hui,\Non l'utilise comme glacière.
+Dialogue: 0,0:00:32.00,0:00:33.36,Default,,0,0,0,,Comme glacière ?
+Dialogue: 0,0:00:34.41,0:00:36.65,Default,,0,0,0,,C'est un réfrigérateur naturel.
+Dialogue: 0,0:00:37.04,0:00:37.95,Default,,0,0,0,,Exact.
+Dialogue: 0,0:00:38.12,0:00:42.00,Default,,0,0,0,,On y stocke la glace\Nqu'on sert dans cette auberge.
+Dialogue: 0,0:00:42.17,0:00:43.16,Default,,0,0,0,,Excusez-nous !
+Dialogue: 0,0:00:46.52,0:00:49.80,ST_HAUT,,0,0,0,,Vous ne seriez pas Kogorô Môri ?
+Dialogue: 0,0:00:51.43,0:00:53.37,Default,,0,0,0,,Si... Pourquoi ?
+Dialogue: 0,0:00:53.61,0:00:56.60,Default,,0,0,0,,Pourrait-on faire un selfie avec vous ?
+Dialogue: 0,0:00:57.05,0:00:58.95,Default,,0,0,0,,Bien sûr ! Avec plaisir !
+Dialogue: 0,0:00:59.57,0:01:01.05,Default,,0,0,0,,Je la prends ?
+Dialogue: 0,0:01:01.72,0:01:03.12,Default,,0,0,0,,Non, pas la peine.
+Dialogue: 0,0:01:07.65,0:01:10.44,Default,,0,0,0,,Mettons-nous ici, devant la rivière.
+Dialogue: 0,0:01:10.95,0:01:13.36,Default,,0,0,0,,Monsieur Môri, les enfants, venez !
+Dialogue: 0,0:01:15.16,0:01:16.23,Default,,0,0,0,,Toi aussi, Maria.
+Dialogue: 0,0:01:18.47,0:01:19.41,Default,,0,0,0,,Mets-toi ici.
+Dialogue: 0,0:01:22.87,0:01:24.88,Default,,0,0,0,,- Poussez-vous !\N- Yûko !
+Dialogue: 0,0:01:28.52,0:01:29.85,Default,,0,0,0,,J'y vais !
+Dialogue: 0,0:01:30.11,0:01:31.60,Default,,0,0,0,,Dites "cheese" !
+Dialogue: 0,0:01:32.16,0:01:33.56,Default,,0,0,0,,{\i1}Cheese!{\i0}
+Dialogue: 0,0:01:36.80,0:01:41.33,ST_HAUT,,0,0,0,,{\i1}La réponse viendra d'une déduction{\i0}\N{\i1}après la fin du compte à rebours !{\i0}
+Dialogue: 0,0:01:43.64,0:01:45.53,Default,,0,0,0,,{\i1}Photo-souvenir devant une rivière.{\i0}
+Dialogue: 0,0:01:45.68,0:01:47.69,Default,,0,0,0,,{\i1}Est-ce vraiment un trio d'amies ?{\i0}
+Dialogue: 0,0:01:47.95,0:01:51.23,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:51.40,0:01:53.32,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:53.47,0:01:56.53,Default,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:13.43,0:02:15.04,Default,,0,0,0,,Planning : Michihiko Suwa
+Dialogue: 0,0:02:16.43,0:02:18.29,Default,,0,0,0,,Character design : Masatomi Sudô\NDirecteur artistique : Junichi Igashi
+Dialogue: 0,0:02:18.43,0:02:20.40,Default,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:21.60,0:02:23.73,Default,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:28.08,0:02:30.60,Default,,0,0,0,,Générique d'ouverture :\N"Countdown"
+Dialogue: 0,0:02:31.04,0:02:33.28,Default,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:38.04,0:02:40.23,Default,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:02:44.32,0:02:46.64,Default,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:02:59.11,0:03:01.40,Default,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:05.64,0:03:07.72,Default,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:22.11,0:03:24.43,Default,,0,0,0,,{\i1}Une amitié emportée par une rivière !{\i0}
+Dialogue: 0,0:03:27.47,0:03:28.84,Default,,0,0,0,,J'ai mal !
+Dialogue: 0,0:03:29.08,0:03:30.52,Default,,0,0,0,,Regardez cette ampoule !
+Dialogue: 0,0:03:31.28,0:03:34.20,Default,,0,0,0,,Je suis crevée\Nd'avoir dû marcher jusqu'ici !
+Dialogue: 0,0:03:34.52,0:03:37.00,Default,,0,0,0,,Mais c'est toi qui as choisi, Yûko.
+Dialogue: 0,0:03:37.36,0:03:40.92,Default,,0,0,0,,Parce que Juri voulait\Nqu'on aille à trois quelque part !
+Dialogue: 0,0:03:42.16,0:03:43.80,Default,,0,0,0,,Allez, c'est bon.
+Dialogue: 0,0:03:44.20,0:03:46.60,Default,,0,0,0,,On est ici pour se réconcilier.
+Dialogue: 0,0:03:49.95,0:03:52.56,Default,,0,0,0,,T'aurais pas un pansement, Maria ?
+Dialogue: 0,0:03:57.23,0:03:57.95,Default,,0,0,0,,Merci...
+Dialogue: 0,0:03:59.47,0:04:01.04,Default,,0,0,0,,Veuillez m'excuser !
+Dialogue: 0,0:04:03.95,0:04:05.76,Default,,0,0,0,,Voici les amuse-bouches.
+Dialogue: 0,0:04:06.04,0:04:07.47,Default,,0,0,0,,Mais ç'a l'air bon !
+Dialogue: 0,0:04:08.52,0:04:10.36,Default,,0,0,0,,J'en prends une aussi.
+Dialogue: 0,0:04:12.60,0:04:14.80,Default,,0,0,0,,Qu'est-ce qu'elles fichent ?
+Dialogue: 0,0:04:16.28,0:04:17.84,Default,,0,0,0,,Tu ne sais pas, papa ?
+Dialogue: 0,0:04:18.11,0:04:22.43,Default,,0,0,0,,C'est à la mode de poster\Ndes photos mimi sur le Net !
+Dialogue: 0,0:04:23.36,0:04:24.92,Default,,0,0,0,,Même moi, je le fais !
+Dialogue: 0,0:04:27.95,0:04:30.04,Default,,0,0,0,,"Mimi", hein...
+Dialogue: 0,0:04:31.36,0:04:32.11,Default,,0,0,0,,Un problème ?
+Dialogue: 0,0:04:33.43,0:04:35.23,Default,,0,0,0,,Ah, les oiseaux chantent !
+Dialogue: 0,0:04:38.16,0:04:41.76,Default,,0,0,0,,Je n'arrive pas à trouver le bon angle.
+Dialogue: 0,0:04:43.68,0:04:44.92,Default,,0,0,0,,Regarde celle-là !
+Dialogue: 0,0:04:45.72,0:04:47.47,Default,,0,0,0,,Mais c'est qu'elle est mimi !
+Dialogue: 0,0:04:49.08,0:04:50.76,Default,,0,0,0,,Ça fait sainte-nitouche.
+Dialogue: 0,0:04:51.32,0:04:52.52,Default,,0,0,0,,Comme toujours...
+Dialogue: 0,0:04:53.80,0:04:55.20,Default,,0,0,0,,Et la mienne ?
+Dialogue: 0,0:04:55.36,0:04:58.11,Default,,0,0,0,,Maria m'a montré une nouvelle appli !
+Dialogue: 0,0:04:59.23,0:05:00.47,Default,,0,0,0,,Pas trop mal.
+Dialogue: 0,0:05:00.76,0:05:03.84,Default,,0,0,0,,Mais c'est nul\Nde faire des modifs avec une appli.
+Dialogue: 0,0:05:04.28,0:05:05.60,Default,,0,0,0,,Et la tienne ?
+Dialogue: 0,0:05:06.80,0:05:07.43,Default,,0,0,0,,Alors ?
+Dialogue: 0,0:05:08.11,0:05:10.68,Default,,0,0,0,,J'ai eu beaucoup de mal\Navec l'ombre !
+Dialogue: 0,0:05:11.16,0:05:12.28,Default,,0,0,0,,Trop banal.
+Dialogue: 0,0:05:13.47,0:05:14.47,Default,,0,0,0,,Tu as dit quoi ?
+Dialogue: 0,0:05:14.84,0:05:16.56,Default,,0,0,0,,Moi ? Rien.
+Dialogue: 0,0:05:16.72,0:05:19.76,Default,,0,0,0,,Demandons au détective\Nde nous départager !
+Dialogue: 0,0:05:20.16,0:05:20.87,Default,,0,0,0,,Bonne idée !
+Dialogue: 0,0:05:23.20,0:05:24.56,Default,,0,0,0,,Excusez-nous !
+Dialogue: 0,0:05:25.68,0:05:28.28,Default,,0,0,0,,Vous pouvez jeter un œil\Nà nos photos ?
+Dialogue: 0,0:05:28.95,0:05:29.56,Default,,0,0,0,,D'accord...
+Dialogue: 0,0:05:29.72,0:05:34.23,Default,,0,0,0,,On voulait les envoyer à un concours\Norganisé par un éditeur !
+Dialogue: 0,0:05:34.80,0:05:36.16,Default,,0,0,0,,J'en ai entendu parler !
+Dialogue: 0,0:05:36.32,0:05:39.87,Default,,0,0,0,,Le vainqueur\Naura son album photo publié.
+Dialogue: 0,0:05:40.32,0:05:41.11,Default,,0,0,0,,Exact !
+Dialogue: 0,0:05:41.47,0:05:43.68,Default,,0,0,0,,N'hésitez pas à nous conseiller.
+Dialogue: 0,0:05:45.16,0:05:48.47,Default,,0,0,0,,Mais je n'y connais rien\Nen photo, moi...
+Dialogue: 0,0:05:48.92,0:05:50.11,Default,,0,0,0,,Franchement...
+Dialogue: 0,0:05:50.28,0:05:54.20,Default,,0,0,0,,C'est une blague\Nd'espérer gagner avec ça.
+Dialogue: 0,0:05:55.87,0:05:57.23,Default,,0,0,0,,Je sors une minute.
+Dialogue: 0,0:06:02.23,0:06:04.84,Default,,0,0,0,,Mince ! Je n'ai plus de batterie !
+Dialogue: 0,0:06:05.08,0:06:07.76,Default,,0,0,0,,Et moi, ma carte mémoire est pleine !
+Dialogue: 0,0:06:08.16,0:06:10.52,Default,,0,0,0,,- On en profite pour régler ça ?\N- OK !
+Dialogue: 0,0:06:11.23,0:06:14.43,Default,,0,0,0,,Désolée, on remettra ça à plus tard.
+Dialogue: 0,0:06:19.64,0:06:21.36,Default,,0,0,0,,Il faudrait savoir...
+Dialogue: 0,0:06:29.11,0:06:31.08,Default,,0,0,0,,Il ne sait pas se tenir...
+Dialogue: 0,0:06:32.04,0:06:34.80,Default,,0,0,0,,Elles en mettent, un temps,\Nquand même...
+Dialogue: 0,0:06:35.56,0:06:37.60,Default,,0,0,0,,Oui, ça fait un moment déjà.
+Dialogue: 0,0:06:38.11,0:06:40.23,Default,,0,0,0,,Leur repas va refroidir...
+Dialogue: 0,0:06:40.40,0:06:42.16,Default,,0,0,0,,Elle devrait essayer aussi.
+Dialogue: 0,0:06:42.43,0:06:44.64,Default,,0,0,0,,Ces applis sont pratiques, pourtant !
+Dialogue: 0,0:06:45.11,0:06:47.87,Default,,0,0,0,,Tiens ?\NYûko n'est pas encore revenue ?
+Dialogue: 0,0:06:48.68,0:06:52.08,Default,,0,0,0,,Elle doit être absorbée\Npar ses photos...
+Dialogue: 0,0:06:52.52,0:06:53.64,Default,,0,0,0,,Sûrement.
+Dialogue: 0,0:06:54.20,0:06:55.43,Default,,0,0,0,,Mangeons sans elle.
+Dialogue: 0,0:06:58.47,0:07:00.72,Default,,0,0,0,,Ce poisson est diaphane !
+Dialogue: 0,0:07:00.87,0:07:02.92,Default,,0,0,0,,Il est trop beau pour être mangé !
+Dialogue: 0,0:07:03.64,0:07:05.32,Default,,0,0,0,,Désolée pour l'attente.
+Dialogue: 0,0:07:05.56,0:07:08.92,Default,,0,0,0,,Voici notre fierté,\Nde la glace pilée naturelle !
+Dialogue: 0,0:07:14.00,0:07:15.00,Default,,0,0,0,,Trop mimi !
+Dialogue: 0,0:07:15.16,0:07:17.08,Default,,0,0,0,,D'abord, une petite photo !
+Dialogue: 0,0:07:19.08,0:07:20.16,Default,,0,0,0,,C'est quoi, ça ?
+Dialogue: 0,0:07:25.00,0:07:25.87,Default,,0,0,0,,Un problème ?
+Dialogue: 0,0:07:26.84,0:07:27.92,Default,,0,0,0,,Là-bas !
+Dialogue: 0,0:07:32.84,0:07:33.84,Default,,0,0,0,,C'est Yûko ?
+Dialogue: 0,0:07:34.56,0:07:35.92,Default,,0,0,0,,- Quoi ?\N- Vite !
+Dialogue: 0,0:07:36.52,0:07:37.47,Default,,0,0,0,,Conan, attends !
+Dialogue: 0,0:07:37.64,0:07:39.52,Default,,0,0,0,,- Un DAE, vite !\N- Papa !
+Dialogue: 0,0:07:39.72,0:07:41.36,Default,,0,0,0,,Pousse-toi, gamin !
+Dialogue: 0,0:07:42.80,0:07:43.60,Default,,0,0,0,,Papa !
+Dialogue: 0,0:07:46.04,0:07:47.00,Default,,0,0,0,,Tonton !
+Dialogue: 0,0:07:50.60,0:07:52.00,Default,,0,0,0,,Hé ! Tout va bien ?
+Dialogue: 0,0:07:56.08,0:07:56.76,Default,,0,0,0,,Trop tard !
+Dialogue: 0,0:07:57.23,0:07:59.23,Default,,0,0,0,,Ran ! Appelle la police !
+Dialogue: 0,0:07:59.40,0:08:00.52,Default,,0,0,0,,D'accord...
+Dialogue: 0,0:08:05.40,0:08:07.23,Default,,0,0,0,,{\i1}- Mais c'est...{\i0}\N- Hé, gamin !
+Dialogue: 0,0:08:07.95,0:08:12.28,Default,,0,0,0,,Combien de fois devrai-je te dire\Nde ne pas faire ça ?
+Dialogue: 0,0:08:12.43,0:08:13.56,Default,,0,0,0,,Va là-bas !
+Dialogue: 0,0:08:14.04,0:08:14.72,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:08:15.84,0:08:16.52,Default,,0,0,0,,Yûko...
+Dialogue: 0,0:08:16.68,0:08:18.16,Default,,0,0,0,,Reprends-toi !
+Dialogue: 0,0:08:20.80,0:08:21.43,Default,,0,0,0,,Tiens.
+Dialogue: 0,0:08:28.80,0:08:33.23,Default,,0,0,0,,Môri ! Encore témoin\Nd'un crime par hasard ?
+Dialogue: 0,0:08:33.60,0:08:35.00,Default,,0,0,0,,Je suis confus !
+Dialogue: 0,0:08:35.16,0:08:37.95,Default,,0,0,0,,C'est le destin\Nde tout grand détective...
+Dialogue: 0,0:08:38.11,0:08:42.11,Default,,0,0,0,,Explique-moi déjà\Ncomment le corps est arrivé ici.
+Dialogue: 0,0:08:42.64,0:08:44.40,Default,,0,0,0,,Euh, en fait...
+Dialogue: 0,0:08:44.92,0:08:49.47,Default,,0,0,0,,Ne me dis pas que tu as oublié\Nparce que tu étais ivre à midi.
+Dialogue: 0,0:08:52.52,0:08:54.32,Default,,0,0,0,,Vous n'y pensez pas !
+Dialogue: 0,0:08:54.47,0:08:56.23,Default,,0,0,0,,Vous plaisantez, hein...
+Dialogue: 0,0:08:58.00,0:09:00.84,Default,,0,0,0,,On était venues prendre des photos.
+Dialogue: 0,0:09:01.00,0:09:04.76,Default,,0,0,0,,Mais Yûko est sortie\Naprès avoir reçu un mail.
+Dialogue: 0,0:09:05.43,0:09:07.56,Default,,0,0,0,,Ne la voyant pas revenir,
+Dialogue: 0,0:09:08.16,0:09:09.56,Default,,0,0,0,,on s'inquiétait...
+Dialogue: 0,0:09:12.11,0:09:12.87,Default,,0,0,0,,Et soudain,
+Dialogue: 0,0:09:13.43,0:09:15.76,Default,,0,0,0,,de l'eau couleur sang a coulé...
+Dialogue: 0,0:09:16.28,0:09:19.23,Default,,0,0,0,,Et puis on a aperçu Yûko\Nen plein milieu.
+Dialogue: 0,0:09:20.36,0:09:24.95,Default,,0,0,0,,Voilà ! Et réveillé par un cri,\Nj'ai plongé dans la rivière
+Dialogue: 0,0:09:25.32,0:09:27.80,Default,,0,0,0,,afin de la sortir de l'eau.
+Dialogue: 0,0:09:27.95,0:09:29.16,Default,,0,0,0,,Je note...
+Dialogue: 0,0:09:29.36,0:09:30.95,Default,,0,0,0,,{\i1}Tu vois que tu dormais ?{\i0}
+Dialogue: 0,0:09:32.11,0:09:33.95,Default,,0,0,0,,Dites, mesdemoiselles !
+Dialogue: 0,0:09:34.36,0:09:35.32,Default,,0,0,0,,Quoi, petit ?
+Dialogue: 0,0:09:35.80,0:09:39.36,Default,,0,0,0,,Vous disiez être venues\Npour vous réconcilier.
+Dialogue: 0,0:09:39.52,0:09:40.47,Default,,0,0,0,,Dans quel sens ?
+Dialogue: 0,0:09:43.60,0:09:44.95,Default,,0,0,0,,C'est compliqué...
+Dialogue: 0,0:09:46.76,0:09:47.68,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:09:48.43,0:09:50.04,Default,,0,0,0,,On a le rapport du légiste !
+Dialogue: 0,0:09:50.56,0:09:54.84,Default,,0,0,0,,Contusion cérébrale\Nsuite à un violent coup à l'occiput.
+Dialogue: 0,0:09:55.00,0:09:58.16,Default,,0,0,0,,Et pour cette fameuse eau rouge ?
+Dialogue: 0,0:09:58.32,0:09:59.52,Default,,0,0,0,,Oui, j'y viens.
+Dialogue: 0,0:09:59.68,0:10:02.00,Default,,0,0,0,,C'est de l'azolla japonica,
+Dialogue: 0,0:10:02.16,0:10:06.08,Default,,0,0,0,,une espèce de fougère\Nqui croît dans les lacs.
+Dialogue: 0,0:10:06.43,0:10:09.23,Default,,0,0,0,,Tu en sais des choses, Conan !
+Dialogue: 0,0:10:09.40,0:10:11.47,Default,,0,0,0,,J'ai vu ça à la télé, l'autre jour.
+Dialogue: 0,0:10:11.87,0:10:15.28,Default,,0,0,0,,Ces petites plantes flottantes rouges
+Dialogue: 0,0:10:15.43,0:10:19.40,Default,,0,0,0,,ressemblent à du sang\Nquand elles prolifèrent.
+Dialogue: 0,0:10:19.60,0:10:20.32,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:10:20.76,0:10:23.16,Default,,0,0,0,,Ensuite, on a trouvé un objet
+Dialogue: 0,0:10:23.32,0:10:26.56,Default,,0,0,0,,qu'on attribue à la défunte\Nprès du moulin à eau.
+Dialogue: 0,0:10:27.80,0:10:30.72,Default,,0,0,0,,Cela vous dit quelque chose,\Nmesdemoiselles ?
+Dialogue: 0,0:10:31.16,0:10:32.40,Default,,0,0,0,,C'est à Yûko.
+Dialogue: 0,0:10:32.80,0:10:34.20,Default,,0,0,0,,Il y a une étiquette.
+Dialogue: 0,0:10:34.68,0:10:37.23,Default,,0,0,0,,On a aussi trouvé...\Nexcusez-moi...
+Dialogue: 0,0:10:38.08,0:10:40.43,Default,,0,0,0,,ce cliché dans son portable.
+Dialogue: 0,0:10:41.72,0:10:44.40,Default,,0,0,0,,La défunte a pu tomber de cet endroit
+Dialogue: 0,0:10:44.56,0:10:47.08,Default,,0,0,0,,en voulant prendre une photo...
+Dialogue: 0,0:10:47.32,0:10:48.80,Default,,0,0,0,,- Faites voir !\N-  Hé !
+Dialogue: 0,0:10:49.23,0:10:50.23,Default,,0,0,0,,{\i1}Mais c'est...{\i0}
+Dialogue: 0,0:10:51.43,0:10:53.23,Default,,0,0,0,,Ça ne se fait pas, Conan !
+Dialogue: 0,0:10:53.40,0:10:54.80,Default,,0,0,0,,Pardon...
+Dialogue: 0,0:10:58.52,0:11:00.80,Default,,0,0,0,,Tiens ?\NQu'y a-t-il, monsieur ?
+Dialogue: 0,0:11:01.36,0:11:04.76,Default,,0,0,0,,En fait,\Nje voudrais aller au moulin à eau,
+Dialogue: 0,0:11:05.11,0:11:07.56,Default,,0,0,0,,mais pas moyen à cause de l'enquête.
+Dialogue: 0,0:11:07.95,0:11:11.76,Default,,0,0,0,,Vous parlez de celui\Nqui fait office de glacière ?
+Dialogue: 0,0:11:12.08,0:11:14.36,Default,,0,0,0,,- Oui, mais...\N- Merci, monsieur !
+Dialogue: 0,0:11:16.80,0:11:18.36,Default,,0,0,0,,{\i1}L'inspecteur Megure a raison.{\i0}
+Dialogue: 0,0:11:18.60,0:11:20.84,Default,,0,0,0,,{\i1}La mort peut être accidentelle.{\i0}
+Dialogue: 0,0:11:21.40,0:11:22.84,Default,,0,0,0,,{\i1}Dans ce cas, cette photo...{\i0}
+Dialogue: 0,0:11:23.08,0:11:25.20,Default,,0,0,0,,DÉFENSE DE PASSER\NENQUÊTE EN COURS
+Dialogue: 0,0:11:25.56,0:11:26.92,Default,,0,0,0,,Monsieur l'agent !
+Dialogue: 0,0:11:27.16,0:11:29.92,Default,,0,0,0,,Vous n'avez pas vu\Nmon scarabée voler ?
+Dialogue: 0,0:11:30.32,0:11:32.43,Default,,0,0,0,,Non, je n'ai rien vu.
+Dialogue: 0,0:11:32.60,0:11:33.43,Default,,0,0,0,,Ah ! Le voilà !
+Dialogue: 0,0:11:33.60,0:11:34.72,Default,,0,0,0,,Stop, petit !
+Dialogue: 0,0:11:35.08,0:11:37.40,Default,,0,0,0,,Juri Matsui, c'est bien ça ?
+Dialogue: 0,0:11:38.68,0:11:41.56,Default,,0,0,0,,Vous étiez sortie quand c'est arrivé.
+Dialogue: 0,0:11:41.72,0:11:44.08,Default,,0,0,0,,Je suis suspectée ou quoi ?
+Dialogue: 0,0:11:44.32,0:11:45.52,Default,,0,0,0,,Non, non !
+Dialogue: 0,0:11:45.68,0:11:48.68,Default,,0,0,0,,Je pose la question à tout le monde...
+Dialogue: 0,0:11:49.87,0:11:52.84,Default,,0,0,0,,J'étais partie acheter une carte mémoire.
+Dialogue: 0,0:11:53.52,0:11:57.43,Default,,0,0,0,,L'employé de la supérette\Npourra vous le confirmer.
+Dialogue: 0,0:11:58.92,0:12:00.20,Default,,0,0,0,,Je vais garder ça.
+Dialogue: 0,0:12:01.72,0:12:04.20,Default,,0,0,0,,Vous étiez venues ensemble,\Nc'est ça ?
+Dialogue: 0,0:12:04.92,0:12:08.11,Default,,0,0,0,,On s'était disputées\Nparce que Yûko voulait
+Dialogue: 0,0:12:08.72,0:12:10.68,Default,,0,0,0,,dissoudre notre club photo...
+Dialogue: 0,0:12:11.47,0:12:13.95,Default,,0,0,0,,On était venues ici pour se réconcilier.
+Dialogue: 0,0:12:26.00,0:12:27.04,Default,,0,0,0,,{\i1}Il fait frais ici !{\i0}
+Dialogue: 0,0:12:27.28,0:12:28.68,Default,,0,0,0,,{\i1}C'est la glacière...{\i0}
+Dialogue: 0,0:12:30.92,0:12:34.56,Default,,0,0,0,,{\i1}Ce moulin à eau tourne\Nalors qu'il ne devrait pas.{\i0}
+Dialogue: 0,0:12:37.80,0:12:41.00,Default,,0,0,0,,{\i1}Cette sciure\Nempêche la glace de fondre ?{\i0}
+Dialogue: 0,0:12:44.87,0:12:46.00,Default,,0,0,0,,{\i1}Plus de doute !{\i0}
+Dialogue: 0,0:12:46.87,0:12:48.52,Default,,0,0,0,,{\i1}Ce n'était pas un accident,{\i0}
+Dialogue: 0,0:12:49.40,0:12:50.80,Default,,0,0,0,,{\i1}mais bien un meurtre !{\i0}
+Dialogue: 0,0:12:52.47,0:12:55.68,Default,,0,0,0,,J'étais allée récupérer mon chargeur.
+Dialogue: 0,0:12:56.08,0:12:59.16,Default,,0,0,0,,J'ai croisé le chef en chemin,\Ndemandez-lui !
+Dialogue: 0,0:12:59.60,0:13:02.60,Default,,0,0,0,,Qui a proposé de venir ici ?
+Dialogue: 0,0:13:02.92,0:13:03.95,Default,,0,0,0,,C'est Yûko.
+Dialogue: 0,0:13:04.11,0:13:07.40,Default,,0,0,0,,Une fan de son blog\Nlui a recommandé cet endroit.
+Dialogue: 0,0:13:07.95,0:13:11.95,Default,,0,0,0,,Vous savez pourquoi\Nelle est allée au moulin à eau ?
+Dialogue: 0,0:13:12.87,0:13:16.40,Default,,0,0,0,,Probablement pour prendre des photos...
+Dialogue: 0,0:13:16.80,0:13:18.92,Default,,0,0,0,,Elle avait un côté égoïste.
+Dialogue: 0,0:13:26.60,0:13:27.84,Default,,0,0,0,,Des églantines ?
+Dialogue: 0,0:13:36.16,0:13:37.16,Default,,0,0,0,,{\i1}Mais c'est...{\i0}
+Dialogue: 0,0:13:48.36,0:13:49.60,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:13:51.23,0:13:52.80,Default,,0,0,0,,C'était donc ça.
+Dialogue: 0,0:13:58.32,0:13:59.36,Default,,0,0,0,,Conan !
+Dialogue: 0,0:14:00.11,0:14:02.36,Default,,0,0,0,,Où est encore passé ce satané gamin ?
+Dialogue: 0,0:14:02.95,0:14:06.52,Default,,0,0,0,,Vous avez encore besoin de nous,\Ninspecteur ?
+Dialogue: 0,0:14:06.80,0:14:10.47,Default,,0,0,0,,Je suis trop triste\Npour rester ici plus longtemps.
+Dialogue: 0,0:14:10.92,0:14:11.68,Default,,0,0,0,,Inspecteur.
+Dialogue: 0,0:14:13.95,0:14:15.92,Default,,0,0,0,,Ça ne peut être qu'un accident.
+Dialogue: 0,0:14:16.16,0:14:20.68,Default,,0,0,0,,Yûko voulait remporter\Nle concours de photos d'un éditeur.
+Dialogue: 0,0:14:20.87,0:14:25.16,Default,,0,0,0,,Elle a donc lâché ses amies\Npour photographier le moulin,
+Dialogue: 0,0:14:25.72,0:14:30.11,Default,,0,0,0,,mais a chuté en cherchant\Nle meilleur angle avec sa perche.
+Dialogue: 0,0:14:32.92,0:14:34.00,Default,,0,0,0,,Conan !
+Dialogue: 0,0:14:34.47,0:14:36.43,Default,,0,0,0,,Où étais-tu passé, toi ?
+Dialogue: 0,0:14:36.87,0:14:38.56,Default,,0,0,0,,Je suis désolé !
+Dialogue: 0,0:14:40.95,0:14:42.16,Default,,0,0,0,,Stop ! Conan...
+Dialogue: 0,0:14:48.47,0:14:49.32,Default,,0,0,0,,Inspecteur.
+Dialogue: 0,0:14:49.60,0:14:51.08,Default,,0,0,0,,Ce n'était pas un accident,
+Dialogue: 0,0:14:51.60,0:14:54.00,Default,,0,0,0,,mais bel et bien un crime !
+Dialogue: 0,0:14:55.56,0:14:57.52,Default,,0,0,0,,Qu'est-ce que tu racontes ?
+Dialogue: 0,0:14:57.72,0:15:01.16,Default,,0,0,0,,Tu parlais encore d'une chute\Nil y a 2 minutes !
+Dialogue: 0,0:15:01.87,0:15:04.87,Default,,0,0,0,,Ça, c'était la pensée\Nd'un homme ordinaire.
+Dialogue: 0,0:15:05.64,0:15:08.36,Default,,0,0,0,,Passons maintenant\Nà la déduction du détective.
+Dialogue: 0,0:15:09.08,0:15:10.60,Default,,0,0,0,,Ça ne vous a pas choqués ?
+Dialogue: 0,0:15:10.92,0:15:14.28,Default,,0,0,0,,On a retrouvé\Nsa perche à selfie sur la rive.
+Dialogue: 0,0:15:14.87,0:15:19.00,Default,,0,0,0,,Mais si Yûko avait glissé\Nen voulant prendre une photo,
+Dialogue: 0,0:15:19.28,0:15:22.04,Default,,0,0,0,,elle aurait dû tomber à l'eau avec.
+Dialogue: 0,0:15:22.84,0:15:23.56,Default,,0,0,0,,C'est vrai, ça.
+Dialogue: 0,0:15:24.20,0:15:26.56,Default,,0,0,0,,Quelqu'un a donc déposé cette perche
+Dialogue: 0,0:15:27.72,0:15:29.80,Default,,0,0,0,,pour faire croire à un accident.
+Dialogue: 0,0:15:30.43,0:15:33.08,Default,,0,0,0,,Et il s'agit de l'assassin de Yûko.
+Dialogue: 0,0:15:33.47,0:15:34.56,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:15:35.20,0:15:38.76,Default,,0,0,0,,Le coupable a mailé Yûko\Navec une boîte jetable...
+Dialogue: 0,0:15:39.28,0:15:40.68,Default,,0,0,0,,{\i1}Je sors une minute.{\i0}
+Dialogue: 0,0:15:41.64,0:15:44.20,Default,,0,0,0,,{\i1}Désolée, on remettra ça à plus tard.{\i0}
+Dialogue: 0,0:15:44.36,0:15:48.08,Default,,0,0,0,,... puis a utilisé\Nun prétexte pour la suivre.
+Dialogue: 0,0:15:48.92,0:15:51.00,Default,,0,0,0,,Devant le moulin à eau,
+Dialogue: 0,0:15:51.16,0:15:54.87,Default,,0,0,0,,il l'a flattée\Nen lui demandant des conseils
+Dialogue: 0,0:15:55.28,0:15:57.28,Default,,0,0,0,,afin qu'elle fasse un selfie.
+Dialogue: 0,0:15:58.00,0:15:58.87,Default,,0,0,0,,Ensuite,
+Dialogue: 0,0:15:59.32,0:16:03.36,Default,,0,0,0,,il l'a attirée dans le moulin à eau\Ndont le cadenas était cassé.
+Dialogue: 0,0:16:03.92,0:16:05.84,Default,,0,0,0,,Et à l'aide d'un bloc de glace,
+Dialogue: 0,0:16:06.72,0:16:07.72,Default,,0,0,0,,il a tué Yûko.
+Dialogue: 0,0:16:08.47,0:16:09.95,Default,,0,0,0,,Sur le sol, on a trouvé
+Dialogue: 0,0:16:10.60,0:16:13.20,Default,,0,0,0,,des traces de sciure balayées.
+Dialogue: 0,0:16:13.80,0:16:18.11,Default,,0,0,0,,C'est la preuve que l'assassin\Na tenté d'effacer ses empreintes.
+Dialogue: 0,0:16:19.00,0:16:22.08,Default,,0,0,0,,Ce dernier a ensuite transféré le corps
+Dialogue: 0,0:16:22.23,0:16:24.40,Default,,0,0,0,,à l'aide d'un chariot
+Dialogue: 0,0:16:25.08,0:16:28.00,Default,,0,0,0,,pour le jeter dans la rivière.
+Dialogue: 0,0:16:28.56,0:16:30.43,Default,,0,0,0,,Enfin, pour simuler une chute,
+Dialogue: 0,0:16:30.76,0:16:33.87,Default,,0,0,0,,il a posé la perche de Yûko\Nsur la rive.
+Dialogue: 0,0:16:34.95,0:16:38.60,Default,,0,0,0,,L'assassin qui a maquillé\Nson meurtre en accident
+Dialogue: 0,0:16:39.68,0:16:40.92,Default,,0,0,0,,est parmi nous !
+Dialogue: 0,0:16:44.40,0:16:45.60,Default,,0,0,0,,Tendez l'oreille !
+Dialogue: 0,0:16:48.76,0:16:49.64,Default,,0,0,0,,Il a dit ça ?
+Dialogue: 0,0:16:55.52,0:16:57.08,Default,,0,0,0,,Mais, Môri...
+Dialogue: 0,0:16:57.47,0:17:00.60,Default,,0,0,0,,Ces deux demoiselles\Nn'étaient pas avec toi
+Dialogue: 0,0:17:00.92,0:17:03.40,Default,,0,0,0,,quand Yûko est tombée dans la rivière ?
+Dialogue: 0,0:17:03.87,0:17:06.40,Default,,0,0,0,,Exact !\NVous l'avez vue aussi, non ?
+Dialogue: 0,0:17:06.56,0:17:09.16,Default,,0,0,0,,Yûko flottait dans cette eau rouge.
+Dialogue: 0,0:17:09.60,0:17:12.52,Default,,0,0,0,,C'était une ruse pour avoir un alibi !
+Dialogue: 0,0:17:14.32,0:17:16.80,Default,,0,0,0,,Inspecteur Takagi !\NVous êtes prêt ?
+Dialogue: 0,0:17:17.23,0:17:20.04,Default,,0,0,0,,Takagi ?\NOù est-il passé au fait ?
+Dialogue: 0,0:17:22.11,0:17:26.32,Default,,0,0,0,,Je vais maintenant reproduire\Nle stratagème utilisé.
+Dialogue: 0,0:17:30.11,0:17:31.40,Default,,0,0,0,,C'est bon !
+Dialogue: 0,0:17:32.40,0:17:33.28,Default,,0,0,0,,Voyons...
+Dialogue: 0,0:17:49.11,0:17:50.56,Default,,0,0,0,,La roue a bougé !
+Dialogue: 0,0:17:50.80,0:17:51.60,Default,,0,0,0,,Exact.
+Dialogue: 0,0:17:51.76,0:17:55.23,Default,,0,0,0,,Le coupable a ouvert une écluse\Nnormalement fermée.
+Dialogue: 0,0:17:56.20,0:18:00.72,Default,,0,0,0,,L'eau de la rivière a emporté\Nles azollas japonica du canal
+Dialogue: 0,0:18:01.28,0:18:02.95,Default,,0,0,0,,jusqu'à la retenue
+Dialogue: 0,0:18:03.84,0:18:07.11,Default,,0,0,0,,dont le volume d'eau a fini par croître.
+Dialogue: 0,0:18:09.56,0:18:12.08,Default,,0,0,0,,Ça commence à faire long.
+Dialogue: 0,0:18:12.23,0:18:13.95,Default,,0,0,0,,Il ne se passe rien.
+Dialogue: 0,0:18:14.60,0:18:19.47,Default,,0,0,0,,C'est ce délai\Nque l'assassin a calculé pour son alibi.
+Dialogue: 0,0:18:23.64,0:18:26.95,Default,,0,0,0,,Cette retenue est née d'une courbure
+Dialogue: 0,0:18:27.11,0:18:29.16,Default,,0,0,0,,du courant principal.
+Dialogue: 0,0:18:29.47,0:18:32.40,Default,,0,0,0,,Quand elle déborde,\Ntout corps jeté dedans
+Dialogue: 0,0:18:32.56,0:18:34.23,Default,,0,0,0,,finit dans la rivière.
+Dialogue: 0,0:18:34.80,0:18:38.52,Default,,0,0,0,,Et celle qui a manigancé tout ça,\Nc'est vous, Maria !
+Dialogue: 0,0:18:39.92,0:18:40.68,Default,,0,0,0,,Moi ?
+Dialogue: 0,0:18:41.00,0:18:44.00,Default,,0,0,0,,Le corps était couvert\Nde petites griffures.
+Dialogue: 0,0:18:44.47,0:18:47.43,Default,,0,0,0,,Sûrement à cause\Ndes églantines couvrant
+Dialogue: 0,0:18:47.72,0:18:49.56,Default,,0,0,0,,le chemin jusqu'à la retenue.
+Dialogue: 0,0:18:50.23,0:18:53.76,Default,,0,0,0,,L'assassin a forcément\Ndes égratignures semblables.
+Dialogue: 0,0:18:54.40,0:18:57.32,Default,,0,0,0,,Maria... C'est pas vrai...
+Dialogue: 0,0:18:57.47,0:19:00.28,Default,,0,0,0,,Mais non, Juri ! C'est...
+Dialogue: 0,0:19:02.28,0:19:03.28,Default,,0,0,0,,Tu dois me croire !
+Dialogue: 0,0:19:03.76,0:19:05.20,Default,,0,0,0,,Ce n'est pas moi !
+Dialogue: 0,0:19:05.36,0:19:07.00,Default,,0,0,0,,Cessez cette comédie !
+Dialogue: 0,0:19:07.80,0:19:09.16,Default,,0,0,0,,J'avais remarqué
+Dialogue: 0,0:19:09.52,0:19:12.72,Default,,0,0,0,,ce pansement\Nque vous n'aviez pas en arrivant.
+Dialogue: 0,0:19:13.40,0:19:16.43,Default,,0,0,0,,Il était collé à votre main\Nà votre retour.
+Dialogue: 0,0:19:17.56,0:19:18.32,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:19:18.87,0:19:21.00,Default,,0,0,0,,Les examens menés par l'expert
+Dialogue: 0,0:19:21.56,0:19:23.56,Default,,0,0,0,,ont permis de déceler
+Dialogue: 0,0:19:23.80,0:19:26.80,Default,,0,0,0,,une trace de sang\Nqui appartiendrait à Yûko.
+Dialogue: 0,0:19:27.40,0:19:29.20,Default,,0,0,0,,Quoi ? C'est vrai ?
+Dialogue: 0,0:19:29.95,0:19:32.92,Default,,0,0,0,,Ne serait-il pas temps d'avouer ?
+Dialogue: 0,0:19:33.11,0:19:35.23,Default,,0,0,0,,Tout ça n'est que spéculation !
+Dialogue: 0,0:19:35.95,0:19:37.64,Default,,0,0,0,,Montrez-moi une preuve
+Dialogue: 0,0:19:37.84,0:19:40.43,Default,,0,0,0,,qui atteste que je l'ai tuée !
+Dialogue: 0,0:19:40.80,0:19:43.43,Default,,0,0,0,,Cette preuve, vous l'avez sur vous.
+Dialogue: 0,0:19:44.32,0:19:47.47,Default,,0,0,0,,Les gants utilisés pour porter la glace
+Dialogue: 0,0:19:47.84,0:19:49.68,Default,,0,0,0,,n'ont pas été retrouvés.
+Dialogue: 0,0:19:50.56,0:19:53.08,Default,,0,0,0,,Le sang de Yûko a dû gicler dessus.
+Dialogue: 0,0:19:53.52,0:19:56.92,Default,,0,0,0,,De plus, de la sciure a dû s'y fixer !
+Dialogue: 0,0:19:57.36,0:19:59.00,Default,,0,0,0,,Veuillez m'excuser !
+Dialogue: 0,0:20:01.04,0:20:02.08,Default,,0,0,0,,Je les ai !
+Dialogue: 0,0:20:05.23,0:20:06.28,Default,,0,0,0,,Cette garce...
+Dialogue: 0,0:20:06.87,0:20:08.52,Default,,0,0,0,,Elle l'a bien mérité.
+Dialogue: 0,0:20:09.47,0:20:13.00,Default,,0,0,0,,On formait un trio\Nde bonnes amies à la fac.
+Dialogue: 0,0:20:13.87,0:20:17.95,Default,,0,0,0,,La gagnante du concours\Naurait eu son album photo publié.
+Dialogue: 0,0:20:18.56,0:20:20.64,Default,,0,0,0,,Ç'aurait été notre ultime souvenir
+Dialogue: 0,0:20:21.32,0:20:24.32,Default,,0,0,0,,et le vainqueur\Naurait partagé les honneurs.
+Dialogue: 0,0:20:24.47,0:20:26.64,Default,,0,0,0,,C'est ce qu'on s'était promis.
+Dialogue: 0,0:20:31.95,0:20:32.92,Default,,0,0,0,,Mais l'autre jour,
+Dialogue: 0,0:20:33.76,0:20:37.16,Default,,0,0,0,,j'ai compris que Yûko\Nme critiquait dans les commentaires.
+Dialogue: 0,0:20:40.23,0:20:41.68,Default,,0,0,0,,{\i1}Désolée pour l'attente !{\i0}
+Dialogue: 0,0:20:43.92,0:20:44.92,Default,,0,0,0,,C'EST GLAUQUE.
+Dialogue: 0,0:20:46.20,0:20:47.64,Default,,0,0,0,,{\i1}Yûko, c'est toi qui...{\i0}
+Dialogue: 0,0:20:47.80,0:20:50.43,Default,,0,0,0,,{\i1}La honte !\NTu m'as grillée ?{\i0}
+Dialogue: 0,0:20:51.11,0:20:53.04,Default,,0,0,0,,{\i1}Ben quoi ? C'est la vérité.{\i0}
+Dialogue: 0,0:20:53.56,0:20:57.08,Default,,0,0,0,,{\i1}De toute façon,\Nc'est moi qui gagnerai ce concours.{\i0}
+Dialogue: 0,0:20:58.32,0:21:01.72,Default,,0,0,0,,Tu comprends ?\NPour gagner le concours,
+Dialogue: 0,0:21:01.87,0:21:04.80,Default,,0,0,0,,elle discréditait toutes nos photos !
+Dialogue: 0,0:21:05.47,0:21:08.95,Default,,0,0,0,,Le lendemain, elle a fait\Ncomme si de rien n'était
+Dialogue: 0,0:21:09.52,0:21:12.16,Default,,0,0,0,,en continuant\Nses commentaires blessants !
+Dialogue: 0,0:21:13.20,0:21:15.23,Default,,0,0,0,,Je n'en pouvais plus !
+Dialogue: 0,0:21:15.87,0:21:19.32,Default,,0,0,0,,J'ai testé maintes fois\Nmon plan qui était parfait.
+Dialogue: 0,0:21:20.00,0:21:23.56,Default,,0,0,0,,Ensuite,\Nj'ai entraîné anonymement Yûko ici...
+Dialogue: 0,0:21:26.76,0:21:27.95,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:21:28.11,0:21:30.08,Default,,0,0,0,,Pourquoi ne pas me l'avoir dit ?
+Dialogue: 0,0:21:30.60,0:21:32.52,Default,,0,0,0,,On est amies, non ?
+Dialogue: 0,0:21:33.68,0:21:34.36,Default,,0,0,0,,Pardon...
+Dialogue: 0,0:21:37.16,0:21:38.72,Default,,0,0,0,,Je suis désolée !
+Dialogue: 0,0:21:51.92,0:21:54.43,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:54.76,0:21:57.28,Default,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:23:05.43,0:23:06.36,Default,,0,0,0,,Je suis de retour !
+Dialogue: 0,0:23:06.92,0:23:08.68,Default,,0,0,0,,Bonsoir, Ran !
+Dialogue: 0,0:23:09.00,0:23:13.40,Default,,0,0,0,,J'ai trouvé un vendeur\Nde glace naturelle près d'ici !
+Dialogue: 0,0:23:13.76,0:23:16.11,Default,,0,0,0,,On ira ensemble la prochaine fois ?
+Dialogue: 0,0:23:16.28,0:23:17.16,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:23:17.87,0:23:19.72,Default,,0,0,0,,À quoi bon manger de la glace,
+Dialogue: 0,0:23:19.87,0:23:22.76,Default,,0,0,0,,vous n'êtes pas des manchots !
+Dialogue: 0,0:23:23.04,0:23:24.92,Default,,0,0,0,,Et alors, si ça nous plaît !
+Dialogue: 0,0:23:26.00,0:23:29.32,Default,,0,0,0,,{\i1}Les manchots ne mangent pas\Nde glace, tonton...{\i0}

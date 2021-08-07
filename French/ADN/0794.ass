@@ -1,0 +1,347 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:24.68,0:00:25.69,Default,,0,0,0,,Cachez-vous !
+Dialogue: 0,0:00:29.12,0:00:31.52,Default,,0,0,0,,Je t'ai eu !\NQui c'est, le plus fort ?
+Dialogue: 0,0:00:35.65,0:00:37.97,Default,,0,0,0,,- Oh non !\N- On s'arrête là.
+Dialogue: 0,0:00:44.53,0:00:45.92,Default,,0,0,0,,Fin de l'exercice !
+Dialogue: 0,0:00:47.93,0:00:51.56,Default,,0,0,0,,Vous n'avez pas "désinfecté"\Nla pièce : moins 20 points.
+Dialogue: 0,0:00:51.72,0:00:54.49,Default,,0,0,0,,Vous y avez fait\Nentrer le "colis" tout seul :
+Dialogue: 0,0:00:54.68,0:00:56.20,Default,,0,0,0,,moins 30 points.
+Dialogue: 0,0:00:56.37,0:01:00.25,Default,,0,0,0,,Vous avez affronté un "susp"\Nsans autorisation : moins 20 points.
+Dialogue: 0,0:01:00.40,0:01:03.16,Default,,0,0,0,,Enfin, vous n'avez pas repéré\Nl'autre "susp" :
+Dialogue: 0,0:01:03.32,0:01:04.57,Default,,0,0,0,,moins 20 points.
+Dialogue: 0,0:01:05.00,0:01:08.16,Default,,0,0,0,,Résultat : vous avez laissé le "colis"\Nse faire tuer.
+Dialogue: 0,0:01:08.33,0:01:11.44,Default,,0,0,0,,Votre score\Nse passe de commentaire...
+Dialogue: 0,0:01:12.85,0:01:14.12,ST_HAUT,,0,0,0,,Vous êtes recalé.
+Dialogue: 0,0:01:14.48,0:01:16.88,ST_HAUT,,0,0,0,,Pour la énième fois, Môri...
+Dialogue: 0,0:01:17.04,0:01:19.61,ST_HAUT,,0,0,0,,Vous n'êtes plus flic ni détective.
+Dialogue: 0,0:01:19.81,0:01:22.56,Default,,0,0,0,,Vous ne défendez\Npas la loi ou la justice,
+Dialogue: 0,0:01:22.73,0:01:25.20,Default,,0,0,0,,mais uniquement la vie du "colis".
+Dialogue: 0,0:01:25.61,0:01:28.77,Default,,0,0,0,,Vous avez absolument raison.\NJ'ai honte...
+Dialogue: 0,0:01:29.44,0:01:32.25,Default,,0,0,0,,Je réessaie !\NJe veux dire, puis-je réessayer ?
+Dialogue: 0,0:01:33.49,0:01:34.41,Default,,0,0,0,,Bien réagi.
+Dialogue: 0,0:01:34.80,0:01:35.88,Default,,0,0,0,,Tous en place !
+Dialogue: 0,0:01:36.76,0:01:37.84,Default,,0,0,0,,{\i1}Génial !{\i0}
+Dialogue: 0,0:01:39.96,0:01:41.77,Default,,0,0,0,,{\i1}Amour et enquêtes géniales,{\i0}
+Dialogue: 0,0:01:41.92,0:01:43.89,Default,,0,0,0,,{\i1}les fondamentaux demeurent !{\i0}
+Dialogue: 0,0:01:44.04,0:01:45.81,Default,,0,0,0,,{\i1}Un tournage très louche...{\i0}
+Dialogue: 0,0:01:45.96,0:01:48.00,Default,,0,0,0,,{\i1}Kogorô le "gorille"{\i0}\N{\i1}en grand danger !{\i0}
+Dialogue: 0,0:01:48.16,0:01:51.36,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:51.52,0:01:53.77,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:13.80,0:02:17.45,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:22.24,0:02:25.81,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:02:26.56,0:02:29.80,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:02:35.76,0:02:38.28,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:02:41.36,0:02:45.29,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Nazo"
+Dialogue: 0,0:02:51.36,0:02:53.40,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:55.28,0:02:57.53,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:07.96,0:03:10.72,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:03:11.76,0:03:14.05,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:15.24,0:03:17.52,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:22.24,0:03:24.76,Default,,0,0,0,,{\i1}"Kogorô Môri garde du corps" !{\i0}
+Dialogue: 0,0:03:34.32,0:03:38.16,ST_HAUT,,0,0,0,,REINA SAWAZAKI (28 ANS),\NACTRICE
+Dialogue: 0,0:03:38.92,0:03:40.68,ST_HAUT,,0,0,0,,CHISATO ARIMURA (25 ANS)
+Dialogue: 0,0:03:40.84,0:03:43.12,ST_HAUT,,0,0,0,,Tenez, Reina. Un peu de café.
+Dialogue: 0,0:03:43.72,0:03:47.44,ST_HAUT,,0,0,0,,Vous pourriez faire\Nquelque chose pour ça, hein ?
+Dialogue: 0,0:03:49.12,0:03:52.84,ST_HAUT,,0,0,0,,HIDEO ISOGAWA (40 ANS),\NRÉALISATEUR À NICHIURI TV
+Dialogue: 0,0:03:56.28,0:03:58.60,Default,,0,0,0,,Ça ne vous dérange vraiment pas
+Dialogue: 0,0:03:58.84,0:04:01.00,Default,,0,0,0,,qu'on soit seuls ici\Navec vous ?
+Dialogue: 0,0:04:01.52,0:04:04.96,ST_HAUT,,0,0,0,,Hein ? Si mon garde du corps\Nétait dans un autre véhicule,
+Dialogue: 0,0:04:05.28,0:04:08.00,ST_HAUT,,0,0,0,,je pourrais être tuée\Npour de bon,
+Dialogue: 0,0:04:08.68,0:04:09.64,Default,,0,0,0,,ce coup-ci.
+Dialogue: 0,0:04:19.60,0:04:23.52,Default,,0,0,0,,Si j'ai pris comme garde du corps\Nun grand détective tel que vous,
+Dialogue: 0,0:04:24.00,0:04:26.20,Default,,0,0,0,,c'est à la fois pour être protégée
+Dialogue: 0,0:04:26.36,0:04:29.68,Default,,0,0,0,,et pour que le criminel\Nsoit démasqué par votre sagacité.
+Dialogue: 0,0:04:30.16,0:04:32.72,Default,,0,0,0,,Ça va de soi !\NFaites-moi confiance...
+Dialogue: 0,0:04:32.88,0:04:35.76,Default,,0,0,0,,C'est dans ce but\Nque j'ai choisi pour me former
+Dialogue: 0,0:04:35.92,0:04:38.56,Default,,0,0,0,,la boîte de sécurité\Nqu'utilise votre agence.
+Dialogue: 0,0:04:39.24,0:04:41.16,Default,,0,0,0,,Mais il a fallu qu'ils viennent...
+Dialogue: 0,0:04:43.96,0:04:45.76,Default,,0,0,0,,Vous devez avoir soif.
+Dialogue: 0,0:04:46.52,0:04:50.68,ST_HAUT,,0,0,0,,Permettez-moi de vous offrir\Nle jus de légumes spécial Ryô Haneki.
+Dialogue: 0,0:04:51.12,0:04:52.64,Default,,0,0,0,,Merci beaucoup.
+Dialogue: 0,0:04:52.80,0:04:54.08,Default,,0,0,0,,Eh bien, goûtons-y !
+Dialogue: 0,0:04:54.84,0:04:58.08,Default,,0,0,0,,Comme j'ai bien plus de temps libre\Nque sur une série,
+Dialogue: 0,0:04:58.24,0:05:00.84,Default,,0,0,0,,je suis heureuse d'avoir\Nà qui parler.
+Dialogue: 0,0:05:01.20,0:05:03.12,Default,,0,0,0,,C'est nous qui sommes ravis.
+Dialogue: 0,0:05:03.40,0:05:07.36,Default,,0,0,0,,Nous étions juste venus regarder\Net voilà que nous voyageons
+Dialogue: 0,0:05:07.52,0:05:09.24,Default,,0,0,0,,avec la célèbre Ryô Haneki !
+Dialogue: 0,0:05:09.88,0:05:12.16,Default,,0,0,0,,- N'est-ce pas, Conan ?\N- Oui !
+Dialogue: 0,0:05:16.20,0:05:19.16,ST_HAUT,,0,0,0,,LAC NAKAJIMA
+Dialogue: 0,0:05:25.60,0:05:28.52,ST_HAUT,,0,0,0,,AUBERGE MUTÔ
+Dialogue: 0,0:05:29.04,0:05:31.80,ST_HAUT,,0,0,0,,Bienvenue, mesdames et messieurs.
+Dialogue: 0,0:05:31.96,0:05:34.48,ST_HAUT,,0,0,0,,Vous devez être fatigués\Npar le voyage.
+Dialogue: 0,0:05:34.92,0:05:36.64,Default,,0,0,0,,Merci de votre accueil.
+Dialogue: 0,0:05:36.80,0:05:40.04,Default,,0,0,0,,Nous sommes enchantés\Nde tourner chez vous, M. Mutô.
+Dialogue: 0,0:05:40.20,0:05:42.52,Default,,0,0,0,,Merci à vous...\NPrenez tout votre temps.
+Dialogue: 0,0:05:43.00,0:05:46.40,Default,,0,0,0,,Moi, je vais "désinfecter"\Nl'intérieur sans tarder.
+Dialogue: 0,0:05:46.56,0:05:48.04,Default,,0,0,0,,Merci, M. Môri.
+Dialogue: 0,0:05:52.24,0:05:54.20,Default,,0,0,0,,Pas la peine, Môri.
+Dialogue: 0,0:05:54.64,0:05:56.64,Default,,0,0,0,,On a déjà "désinfecté" les lieux.
+Dialogue: 0,0:05:57.40,0:05:58.96,Default,,0,0,0,,M. Dobashi ?
+Dialogue: 0,0:05:59.44,0:06:01.88,Default,,0,0,0,,Vous êtes là, M. Dobashi ?
+Dialogue: 0,0:06:02.12,0:06:06.44,Default,,0,0,0,,Je vous croyais en famille...\NVous aviez pris votre journée, non ?
+Dialogue: 0,0:06:07.12,0:06:10.00,Default,,0,0,0,,Vous avez une fille,\Nsi je ne m'abuse.
+Dialogue: 0,0:06:11.64,0:06:15.20,Default,,0,0,0,,Rassurez-vous, je suis\Nparfaitement en phase avec ma fille.
+Dialogue: 0,0:06:16.76,0:06:19.00,Default,,0,0,0,,Quelle coïncidence !
+Dialogue: 0,0:06:19.16,0:06:21.40,Default,,0,0,0,,Moi aussi, j'ai une fille.
+Dialogue: 0,0:06:21.76,0:06:22.32,Default,,0,0,0,,Môri.
+Dialogue: 0,0:06:22.80,0:06:26.56,Default,,0,0,0,,Cette mission sera votre examen final\Nà Dobashi Security Guard.
+Dialogue: 0,0:06:26.72,0:06:28.48,Default,,0,0,0,,Mais oui, bien sûr !
+Dialogue: 0,0:06:29.24,0:06:31.32,Default,,0,0,0,,{\i1}Il me met une pression de dingue...{\i0}
+Dialogue: 0,0:06:31.72,0:06:35.56,Default,,0,0,0,,C'est rassurant d'être escortée\Npar deux charmants messieurs,
+Dialogue: 0,0:06:35.72,0:06:37.32,Default,,0,0,0,,comme une vraie princesse.
+Dialogue: 0,0:06:37.48,0:06:40.72,Default,,0,0,0,,Une princesse qui n'est plus\Ndans la fleur de l'âge...
+Dialogue: 0,0:06:40.96,0:06:42.20,Default,,0,0,0,,Reina !
+Dialogue: 0,0:06:42.84,0:06:46.00,Default,,0,0,0,,Alors, M. Dobashi\Nveillera sur la princesse Reina.
+Dialogue: 0,0:06:46.44,0:06:49.28,Default,,0,0,0,,Rien qu'avec M. Môri,\Nje me sens en sécurité.
+Dialogue: 0,0:06:52.12,0:06:53.84,Default,,0,0,0,,Papa, t'es incorrigible...
+Dialogue: 0,0:06:55.92,0:06:58.68,Default,,0,0,0,,Si c'est comme ça,\NKusumoto m'ira très bien.
+Dialogue: 0,0:06:59.04,0:07:01.52,Default,,0,0,0,,Je ne suis pas garde du corps,\Nvoyons !
+Dialogue: 0,0:07:01.68,0:07:02.44,Default,,0,0,0,,Je blague...
+Dialogue: 0,0:07:05.88,0:07:09.96,Default,,0,0,0,,Reina est une fauteuse de troubles,\Nc'est bien connu.
+Dialogue: 0,0:07:10.08,0:07:13.00,Default,,0,0,0,,Oui. Sur chaque tournage,\Nelle crée des conflits...
+Dialogue: 0,0:07:13.20,0:07:15.12,Default,,0,0,0,,- En plus...\N- Notre agence est la même,
+Dialogue: 0,0:07:15.60,0:07:17.36,Default,,0,0,0,,mais on ne se supporte pas.
+Dialogue: 0,0:07:18.28,0:07:19.84,Default,,0,0,0,,Ça aussi, c'est connu.
+Dialogue: 0,0:07:20.56,0:07:22.88,Default,,0,0,0,,Mais c'est peut-être moi,\Nle problème.
+Dialogue: 0,0:07:23.32,0:07:25.56,Default,,0,0,0,,Je ne m'entends avec personne.
+Dialogue: 0,0:07:25.72,0:07:28.80,Default,,0,0,0,,Je me demande pourquoi\Ntout le monde me déteste.
+Dialogue: 0,0:07:28.96,0:07:31.88,Default,,0,0,0,,Je m'implique trop,\Npour une simple émission ?
+Dialogue: 0,0:07:32.92,0:07:34.56,Default,,0,0,0,,Je fais perdre du temps ?
+Dialogue: 0,0:07:35.12,0:07:36.28,Default,,0,0,0,,Penses-tu !
+Dialogue: 0,0:07:36.80,0:07:39.36,Default,,0,0,0,,Cette émission\Nn'existerait pas sans toi !
+Dialogue: 0,0:07:39.68,0:07:41.52,Default,,0,0,0,,Je connais la rumeur, Kushy.
+Dialogue: 0,0:07:41.68,0:07:45.00,Default,,0,0,0,,On parle de déprogrammation.\NL'audience aurait baissé...
+Dialogue: 0,0:07:45.48,0:07:48.76,Default,,0,0,0,,Mais non !\NSi tu crois tout ce qu'on raconte...
+Dialogue: 0,0:07:50.52,0:07:53.88,Default,,0,0,0,,Désolée.\NSi vous perdez votre job,
+Dialogue: 0,0:07:54.32,0:07:56.04,Default,,0,0,0,,ce sera ma faute.
+Dialogue: 0,0:08:02.96,0:08:06.80,Default,,0,0,0,,C'est quand même elle\Nqui reçoit le plus gros cachet...
+Dialogue: 0,0:08:06.96,0:08:10.28,Default,,0,0,0,,Comme si son temps et ses efforts\Nvalaient tant que ça...
+Dialogue: 0,0:08:10.44,0:08:13.20,Default,,0,0,0,,Allons, allons, Isogawa...
+Dialogue: 0,0:08:14.24,0:08:15.84,Default,,0,0,0,,- C'est la voix de...\N- Reina !
+Dialogue: 0,0:08:16.00,0:08:18.88,Default,,0,0,0,,- "Désinfecté", mon œil !\N- Je ne comprends pas !
+Dialogue: 0,0:08:25.84,0:08:26.88,Default,,0,0,0,,Un problème ?
+Dialogue: 0,0:08:27.72,0:08:29.08,Default,,0,0,0,,Ça, par exemple !
+Dialogue: 0,0:08:34.92,0:08:36.40,Default,,0,0,0,,C'est l'horreur !
+Dialogue: 0,0:08:38.80,0:08:41.08,Default,,0,0,0,,Que s'est-il passé, Reina ?
+Dialogue: 0,0:08:41.76,0:08:42.68,Default,,0,0,0,,Ça vient d'eux ?
+Dialogue: 0,0:08:47.84,0:08:51.48,Default,,0,0,0,,Navré... Les chats errants\Nsont nombreux, par ici.
+Dialogue: 0,0:08:51.64,0:08:54.04,Default,,0,0,0,,Je vais immédiatement\Nrefaire le ménage.
+Dialogue: 0,0:08:54.88,0:08:57.60,Default,,0,0,0,,Tu le sais bien, Kushimoto,
+Dialogue: 0,0:08:57.76,0:09:00.04,Default,,0,0,0,,que j'y suis allergique...
+Dialogue: 0,0:09:00.92,0:09:02.24,Default,,0,0,0,,Allergique aux chats ?
+Dialogue: 0,0:09:02.40,0:09:05.48,Default,,0,0,0,,Désolé... Pourtant,\Nj'ai aussi briefé M. Môri
+Dialogue: 0,0:09:05.64,0:09:07.36,Default,,0,0,0,,à ton sujet.
+Dialogue: 0,0:09:07.52,0:09:09.32,Default,,0,0,0,,C'est moi, le fautif.
+Dialogue: 0,0:09:09.48,0:09:12.60,Default,,0,0,0,,J'aurais dû laisser faire Môri,\Nau lieu de m'en mêler.
+Dialogue: 0,0:09:13.04,0:09:13.88,Default,,0,0,0,,Excusez-moi.
+Dialogue: 0,0:09:14.32,0:09:16.24,Default,,0,0,0,,Il est arrivé quelque chose ?
+Dialogue: 0,0:09:16.60,0:09:20.00,Default,,0,0,0,,Non, j'ai juste réalisé\Nque personne ne me protégeait
+Dialogue: 0,0:09:20.44,0:09:23.80,Default,,0,0,0,,parce que je n'étais pas un "colis",\Ncomme ils disent.
+Dialogue: 0,0:09:34.40,0:09:35.64,Default,,0,0,0,,À la tienne !
+Dialogue: 0,0:09:37.04,0:09:39.88,Default,,0,0,0,,Elles sont si belles...\NLa grande classe.
+Dialogue: 0,0:09:40.04,0:09:41.12,Default,,0,0,0,,Tu l'as dit...
+Dialogue: 0,0:09:42.40,0:09:45.00,Default,,0,0,0,,{\i1}Qui croirait{\i0}\N{\i1}qu'elles ne se supportent pas ?{\i0}
+Dialogue: 0,0:09:45.52,0:09:47.12,Default,,0,0,0,,{\i1}C'est ça, les actrices...{\i0}
+Dialogue: 0,0:09:47.52,0:09:49.64,Default,,0,0,0,,Coupez !\NElle est bonne.
+Dialogue: 0,0:09:50.12,0:09:51.76,Default,,0,0,0,,On passe à la suivante !
+Dialogue: 0,0:09:52.16,0:09:54.20,Default,,0,0,0,,On ne refait pas celle d'avant ?
+Dialogue: 0,0:09:55.32,0:09:56.60,Default,,0,0,0,,Si, excusez-moi.
+Dialogue: 0,0:09:57.00,0:09:58.52,Default,,0,0,0,,Bonjour l'organisation...
+Dialogue: 0,0:09:58.68,0:10:02.24,Default,,0,0,0,,Qu'on n'y passe pas la nuit,\Nc'est mauvais pour ma peau.
+Dialogue: 0,0:10:02.68,0:10:06.48,Default,,0,0,0,,C'est vrai, ça. Ryô n'est plus\Nde la première jeunesse !
+Dialogue: 0,0:10:10.68,0:10:11.80,Default,,0,0,0,,OK, on refait l'autre !
+Dialogue: 0,0:10:13.56,0:10:15.24,Default,,0,0,0,,Merci, on s'arrête !
+Dialogue: 0,0:10:15.56,0:10:18.16,Default,,0,0,0,,Demain,\Naprès la scène du petit déjeuner,
+Dialogue: 0,0:10:18.32,0:10:20.32,Default,,0,0,0,,nous tournerons sur le lac.
+Dialogue: 0,0:10:20.68,0:10:22.28,Default,,0,0,0,,À demain !
+Dialogue: 0,0:10:40.40,0:10:42.48,Default,,0,0,0,,{\i1}Qui ça peut être, en pleine nuit ?{\i0}
+Dialogue: 0,0:10:49.64,0:10:52.16,Default,,0,0,0,,{\i1}C'est la chambre de Ryô.{\i0}
+Dialogue: 0,0:11:13.52,0:11:14.56,Default,,0,0,0,,Terminé !
+Dialogue: 0,0:11:21.60,0:11:22.40,Default,,0,0,0,,C'est quoi, ça ?
+Dialogue: 0,0:11:23.00,0:11:23.84,Default,,0,0,0,,Kusumoto !
+Dialogue: 0,0:11:25.12,0:11:26.12,Default,,0,0,0,,Halte !
+Dialogue: 0,0:11:28.24,0:11:31.56,Default,,0,0,0,,Inutile de vous sauver,\Nj'ai déjà prévenu la police.
+Dialogue: 0,0:11:33.24,0:11:35.76,Default,,0,0,0,,C'est à cause\Nde ton changement de poste ?
+Dialogue: 0,0:11:36.12,0:11:38.76,Default,,0,0,0,,Ouais. Je voulais rester\Nsur les tournages,
+Dialogue: 0,0:11:38.92,0:11:41.36,Default,,0,0,0,,et tu m'as fait envoyer\Ndans les bureaux !
+Dialogue: 0,0:11:41.76,0:11:44.88,Default,,0,0,0,,C'est pour ça que vous tentez\Nsans répit de la tuer ?
+Dialogue: 0,0:11:45.04,0:11:47.76,Default,,0,0,0,,Non.\NMoi, c'est la première fois !
+Dialogue: 0,0:11:50.56,0:11:52.64,Default,,0,0,0,,Il y a encore\Nplein d'autres gens
+Dialogue: 0,0:11:52.80,0:11:55.72,Default,,0,0,0,,qui veulent ta peau.
+Dialogue: 0,0:11:56.60,0:11:57.48,Default,,0,0,0,,Non !
+Dialogue: 0,0:11:58.12,0:11:59.20,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:11:59.80,0:12:00.72,Default,,0,0,0,,Papa !
+Dialogue: 0,0:12:01.84,0:12:05.24,Default,,0,0,0,,Non, euh... En fait...\NC'est juste...
+Dialogue: 0,0:12:15.16,0:12:18.40,Default,,0,0,0,,- Très agréable, ce vent...\N- Oui, ça fait du bien.
+Dialogue: 0,0:12:19.04,0:12:22.00,Default,,0,0,0,,Est-ce bien raisonnable\Nde poursuivre le tournage,
+Dialogue: 0,0:12:22.16,0:12:25.72,Default,,0,0,0,,si plein d'autres gens\Nen veulent à Ryô ?
+Dialogue: 0,0:12:25.88,0:12:30.16,Default,,0,0,0,,C'est sans doute pour ça\Nqu'ils continuent à les protéger...
+Dialogue: 0,0:12:32.04,0:12:33.16,Default,,0,0,0,,Coupez !
+Dialogue: 0,0:12:34.20,0:12:34.92,Default,,0,0,0,,C'est OK !
+Dialogue: 0,0:12:35.52,0:12:38.76,Default,,0,0,0,,Préparez les barques,\Ns'il vous plaît !
+Dialogue: 0,0:12:38.92,0:12:41.08,Default,,0,0,0,,La météo annonce du brouillard.
+Dialogue: 0,0:12:41.24,0:12:43.92,Default,,0,0,0,,Je vous préviens,\Nvous aurez du mal à ramer.
+Dialogue: 0,0:12:44.36,0:12:46.32,Default,,0,0,0,,Ah oui ? Et pourquoi ça ?
+Dialogue: 0,0:12:47.00,0:12:50.60,Default,,0,0,0,,Comme vous le voyez,\Nces collines ont une forme unique,
+Dialogue: 0,0:12:51.24,0:12:55.24,Default,,0,0,0,,et le vent qui en descend\Na un effet subtil sur les vagues.
+Dialogue: 0,0:12:56.52,0:12:57.76,Default,,0,0,0,,Pas très rassurant...
+Dialogue: 0,0:12:58.88,0:13:01.36,Default,,0,0,0,,M. Dobashi !\NUn appel pour vous !
+Dialogue: 0,0:13:01.80,0:13:03.64,Default,,0,0,0,,Sûrement le rapport d'enquête...
+Dialogue: 0,0:13:04.40,0:13:05.56,Default,,0,0,0,,Une enquête ?
+Dialogue: 0,0:13:17.12,0:13:18.24,Default,,0,0,0,,Kushizaki...
+Dialogue: 0,0:13:18.88,0:13:21.04,Default,,0,0,0,,envoie les deux figurants.
+Dialogue: 0,0:13:21.48,0:13:22.56,Default,,0,0,0,,Bien reçu.
+Dialogue: 0,0:13:22.72,0:13:25.32,Default,,0,0,0,,Conan, Ran... C'est à vous.
+Dialogue: 0,0:13:25.48,0:13:25.96,Default,,0,0,0,,OK !
+Dialogue: 0,0:13:26.40,0:13:27.40,Default,,0,0,0,,Allons-y.
+Dialogue: 0,0:13:28.44,0:13:29.68,Default,,0,0,0,,Que se passe-t-il ?
+Dialogue: 0,0:13:39.72,0:13:40.72,Default,,0,0,0,,C'est quoi, ça ?
+Dialogue: 0,0:13:44.16,0:13:45.60,Default,,0,0,0,,Quelle purée de pois !
+Dialogue: 0,0:13:45.76,0:13:47.28,Default,,0,0,0,,Vous vous en sortez ?
+Dialogue: 0,0:13:47.92,0:13:50.68,Default,,0,0,0,,{\i1}Ici Arimura.{\i0}\N{\i1}Ramer est si difficile{\i0}
+Dialogue: 0,0:13:50.84,0:13:52.96,Default,,0,0,0,,{\i1}qu'on a perdu de vue Ryô et Reina !{\i0}
+Dialogue: 0,0:13:53.12,0:13:54.68,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:13:56.28,0:13:58.88,Default,,0,0,0,,Môri.\NVérifiez que le "colis" va bien.
+Dialogue: 0,0:13:59.04,0:14:01.20,Default,,0,0,0,,{\i1}Hélas...{\i0}\N{\i1}Moi aussi, je rame en vain...{\i0}
+Dialogue: 0,0:14:01.64,0:14:02.92,Default,,0,0,0,,{\i1}Le "colis" a disparu !{\i0}
+Dialogue: 0,0:14:03.08,0:14:04.68,Default,,0,0,0,,Ça va aller, papa ?
+Dialogue: 0,0:14:05.04,0:14:07.84,Default,,0,0,0,,{\i1}Oui ! Je protégerai {\i0}\N{\i1}le "colis" coûte que coûte !{\i0}
+Dialogue: 0,0:14:08.00,0:14:11.16,Default,,0,0,0,,Attendez, j'ai reçu\Nle résultat d'une enquête.
+Dialogue: 0,0:14:11.40,0:14:15.48,Default,,0,0,0,,Ryô a peut-être inventé\Ntoutes ces tentatives de meurtre.
+Dialogue: 0,0:14:16.68,0:14:21.00,Default,,0,0,0,,Son agence avait décidé en interne\Nde la renvoyer...
+Dialogue: 0,0:14:21.28,0:14:23.52,Default,,0,0,0,,Et apparemment, elle l'a su.
+Dialogue: 0,0:14:23.72,0:14:27.04,Default,,0,0,0,,Elle a alors créé une histoire\Nqui enchante les médias...
+Dialogue: 0,0:14:27.20,0:14:28.76,Default,,0,0,0,,{\i1}Vous délirez ou quoi ?{\i0}
+Dialogue: 0,0:14:28.92,0:14:32.56,Default,,0,0,0,,Le problème,\Nc'est qu'elle est persuadée
+Dialogue: 0,0:14:32.72,0:14:35.12,Default,,0,0,0,,que son ennemie jurée\Naussi l'a appris.
+Dialogue: 0,0:14:35.48,0:14:37.20,Default,,0,0,0,,{\i1}Alors, pour cette raison...{\i0}
+Dialogue: 0,0:14:37.36,0:14:38.80,Default,,0,0,0,,{\i1}Ryô veut tuer Reina ?{\i0}
+Dialogue: 0,0:14:39.92,0:14:40.96,Default,,0,0,0,,Attends, Conan !
+Dialogue: 0,0:14:41.60,0:14:42.56,Default,,0,0,0,,Je vais ramer.
+Dialogue: 0,0:14:45.56,0:14:48.44,Default,,0,0,0,,J'ai beau ramer,\Non n'avance pas comme je veux.
+Dialogue: 0,0:14:48.76,0:14:50.56,Default,,0,0,0,,Tu vois quelque chose, Conan ?
+Dialogue: 0,0:14:50.88,0:14:52.80,Default,,0,0,0,,Non, rien.
+Dialogue: 0,0:14:55.40,0:14:58.00,Default,,0,0,0,,- Tu entends ce bruit ?\N- C'est quoi ?
+Dialogue: 0,0:15:03.08,0:15:04.24,Default,,0,0,0,,Ce bruit...
+Dialogue: 0,0:15:06.20,0:15:08.44,Default,,0,0,0,,Rien à faire,\Non est emportés.
+Dialogue: 0,0:15:08.84,0:15:10.60,Default,,0,0,0,,{\i1}Ça y est, j'ai compris !{\i0}
+Dialogue: 0,0:15:10.96,0:15:12.40,Default,,0,0,0,,Regarde, Conan !
+Dialogue: 0,0:15:23.88,0:15:26.48,Default,,0,0,0,,Ça craint...\NJe suis entraîné par le vent.
+Dialogue: 0,0:15:28.16,0:15:28.72,Default,,0,0,0,,Bon sang !
+Dialogue: 0,0:15:35.68,0:15:36.72,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:15:41.16,0:15:42.72,Default,,0,0,0,,C'est la barque de Ryô.
+Dialogue: 0,0:15:43.44,0:15:44.48,Default,,0,0,0,,Et celle de l'équipe.
+Dialogue: 0,0:15:49.32,0:15:50.64,Default,,0,0,0,,Ryô !
+Dialogue: 0,0:15:51.08,0:15:52.28,Default,,0,0,0,,Où êtes-vous ?
+Dialogue: 0,0:15:58.28,0:15:59.48,Default,,0,0,0,,Reina ?
+Dialogue: 0,0:16:01.36,0:16:04.88,Default,,0,0,0,,Elle est juste inconsciente.\NRyô aurait-elle...
+Dialogue: 0,0:16:11.80,0:16:14.16,Default,,0,0,0,,Tout le monde a été entraîné ici.
+Dialogue: 0,0:16:14.64,0:16:17.24,Default,,0,0,0,,Attends ici, Ran,\Nc'est trop dangereux.
+Dialogue: 0,0:16:17.40,0:16:19.92,Default,,0,0,0,,Pas question, Conan !\NJe viens avec toi.
+Dialogue: 0,0:16:28.44,0:16:29.12,Default,,0,0,0,,Ryô ?
+Dialogue: 0,0:16:29.48,0:16:31.12,Default,,0,0,0,,N'approchez pas, M. Môri.
+Dialogue: 0,0:16:31.72,0:16:34.04,Default,,0,0,0,,- Alors, c'était bien ça.\N- Ne bougez pas.
+Dialogue: 0,0:17:03.28,0:17:05.56,Default,,0,0,0,,- Papa !\N- Rien de cassé, tonton ?
+Dialogue: 0,0:17:06.00,0:17:08.48,Default,,0,0,0,,- Cachez-vous, vous deux !\N- M. Môri...
+Dialogue: 0,0:17:08.84,0:17:10.28,Default,,0,0,0,,Qui ça peut bien être ?
+Dialogue: 0,0:17:10.80,0:17:12.64,Default,,0,0,0,,Et Reina ? Où est-elle ?
+Dialogue: 0,0:17:13.44,0:17:15.56,Default,,0,0,0,,Ce ne serait pas elle, par hasard ?
+Dialogue: 0,0:17:16.28,0:17:19.04,Default,,0,0,0,,Elle a feint l'inconscience\Nle temps que je parte...
+Dialogue: 0,0:17:19.40,0:17:20.56,Default,,0,0,0,,C'est pas ça !
+Dialogue: 0,0:17:20.92,0:17:25.44,Default,,0,0,0,,Non, impossible. Sa phobie des chats\Nl'aurait empêchée d'arriver jusqu'ici.
+Dialogue: 0,0:17:25.84,0:17:30.24,Default,,0,0,0,,Demande-toi plutôt comment tu as su\Nque les barques avaient échoué ici !
+Dialogue: 0,0:17:34.00,0:17:35.48,Default,,0,0,0,,Mais oui, c'est ça !
+Dialogue: 0,0:17:36.04,0:17:38.80,Default,,0,0,0,,Ryô.\NVous me faites confiance ?
+Dialogue: 0,0:17:38.96,0:17:41.72,Default,,0,0,0,,Évidemment !\NVous êtes mon garde du corps.
+Dialogue: 0,0:17:42.28,0:17:44.16,Default,,0,0,0,,Parfait. Dans ce cas...
+Dialogue: 0,0:17:46.60,0:17:49.80,Default,,0,0,0,,Ryô ! Abritez-vous\Nderrière ce grand arbre !
+Dialogue: 0,0:17:50.44,0:17:52.80,Default,,0,0,0,,{\i1}Tu n'as même pas{\i0}\N{\i1}"désinfecté" l'endroit !{\i0}
+Dialogue: 0,0:18:01.68,0:18:02.44,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:18:09.72,0:18:10.72,Default,,0,0,0,,M. Dobashi ?
+Dialogue: 0,0:18:12.72,0:18:14.40,Default,,0,0,0,,Tout va bien, papa ?
+Dialogue: 0,0:18:14.56,0:18:15.92,Default,,0,0,0,,Beau travail, tonton !
+Dialogue: 0,0:18:16.44,0:18:19.56,Default,,0,0,0,,Dobashi. Je parie\Nque vous aviez étudié à l'avance
+Dialogue: 0,0:18:19.88,0:18:23.36,Default,,0,0,0,,le sens du vent en cas de brume,\Nle mouvement des vagues,
+Dialogue: 0,0:18:23.84,0:18:28.20,Default,,0,0,0,,l'endroit où on échoue...\NAutrement dit, vous aviez "désinfecté".
+Dialogue: 0,0:18:29.92,0:18:34.72,Default,,0,0,0,,Pour pouvoir arriver avant nous,\Nvous aviez préparé un canot à moteur
+Dialogue: 0,0:18:34.92,0:18:38.84,Default,,0,0,0,,qui n'était affecté ni par le vent\Nni par les vagues.
+Dialogue: 0,0:18:39.24,0:18:41.84,Default,,0,0,0,,Ce bruit,\Nc'était un bateau à moteur ?
+Dialogue: 0,0:18:42.24,0:18:45.04,Default,,0,0,0,,Tout ça pour assassiner Ryô\Nen faisant croire
+Dialogue: 0,0:18:45.20,0:18:49.16,Default,,0,0,0,,que celle-ci m'avait tué\Nquand j'avais voulu protéger Reina,
+Dialogue: 0,0:18:49.28,0:18:51.36,Default,,0,0,0,,et qu'elle s'était suicidée.
+Dialogue: 0,0:18:53.48,0:18:56.12,Default,,0,0,0,,Vous avez parlé d'une enquête,\Nn'est-ce pas ?
+Dialogue: 0,0:18:56.28,0:18:58.08,Default,,0,0,0,,C'est ça, la vraie invention.
+Dialogue: 0,0:18:58.24,0:19:02.88,Default,,0,0,0,,Vous avez prié un de vos employés\Nde vous appeler à une certaine heure
+Dialogue: 0,0:19:03.32,0:19:05.04,Default,,0,0,0,,pour une raison quelconque.
+Dialogue: 0,0:19:05.28,0:19:07.12,Default,,0,0,0,,Ce sera très facile à vérifier.
+Dialogue: 0,0:19:08.68,0:19:10.80,Default,,0,0,0,,Nous vous avons enfin retrouvés...
+Dialogue: 0,0:19:10.96,0:19:14.60,Default,,0,0,0,,On a bien débarqué,\Nmais on s'est perdus dans la brume.
+Dialogue: 0,0:19:15.44,0:19:17.68,Default,,0,0,0,,On a cru entendre des coups de feu.
+Dialogue: 0,0:19:18.12,0:19:19.68,Default,,0,0,0,,Que s'est-il passé ?
+Dialogue: 0,0:19:20.44,0:19:22.08,Default,,0,0,0,,Alors,\Nqu'allez-vous faire ?
+Dialogue: 0,0:19:22.32,0:19:25.76,Default,,0,0,0,,Vous ne pourrez pas faire taire\Ntout ce monde.
+Dialogue: 0,0:19:28.20,0:19:29.56,Default,,0,0,0,,Le mois dernier...
+Dialogue: 0,0:19:30.68,0:19:34.00,Default,,0,0,0,,ma fille a échoué\Nà une audition pour une série.
+Dialogue: 0,0:19:34.88,0:19:38.80,Default,,0,0,0,,Désespérée, elle a tenté\Nde se suicider le lendemain.
+Dialogue: 0,0:19:39.36,0:19:42.32,Default,,0,0,0,,C'est elle qui jugeait les candidats.
+Dialogue: 0,0:19:43.28,0:19:47.48,Default,,0,0,0,,Je ne suis qu'un père\Ndéterminé à venger sa fille.
+Dialogue: 0,0:19:47.84,0:19:50.56,Default,,0,0,0,,Une seconde.\NCe n'était pas moi.
+Dialogue: 0,0:19:52.44,0:19:54.20,Default,,0,0,0,,Ce jour-là, j'étais malade,
+Dialogue: 0,0:19:54.64,0:19:56.88,Default,,0,0,0,,et on m'a remplacée.
+Dialogue: 0,0:19:57.04,0:19:58.08,Default,,0,0,0,,Qui ça ?
+Dialogue: 0,0:19:58.48,0:19:59.56,Default,,0,0,0,,Par moi.
+Dialogue: 0,0:20:00.64,0:20:01.60,Default,,0,0,0,,C'est l'horreur !
+Dialogue: 0,0:20:02.32,0:20:06.68,Default,,0,0,0,,J'ai chuté en voulant éviter des chats\Net j'ai perdu connaissance !
+Dialogue: 0,0:20:06.92,0:20:10.08,Default,,0,0,0,,Et maintenant,\Nça me gratte épouvantablement !
+Dialogue: 0,0:20:11.16,0:20:12.48,Default,,0,0,0,,C'était vous, la juge ?
+Dialogue: 0,0:20:12.96,0:20:15.96,Default,,0,0,0,,Alors, si vous devez tuer quelqu'un,\Nc'est moi...
+Dialogue: 0,0:20:16.16,0:20:18.96,Default,,0,0,0,,Faut pas vous tromper.\NSoit dit en passant...
+Dialogue: 0,0:20:20.08,0:20:22.96,Default,,0,0,0,,vous lui manquez, à votre fille.
+Dialogue: 0,0:20:24.24,0:20:28.72,Default,,0,0,0,,Reina est allée la voir à l'hôpital\Nces trois derniers jours.
+Dialogue: 0,0:20:29.04,0:20:30.96,Default,,0,0,0,,Quoi, tu le savais ?
+Dialogue: 0,0:20:33.16,0:20:36.16,Default,,0,0,0,,Ça te ressemble tellement...\NContrairement à moi.
+Dialogue: 0,0:20:36.80,0:20:40.00,Default,,0,0,0,,Mais vous, M. Dobashi,\Nvous ne le saviez même pas.
+Dialogue: 0,0:20:45.04,0:20:47.68,Default,,0,0,0,,Vous êtes en phase\Navec votre fille, hein ?
+Dialogue: 0,0:20:48.24,0:20:50.88,Default,,0,0,0,,En phase pour commettre\Nun meurtre, peut-être ?
+Dialogue: 0,0:20:51.52,0:20:55.60,Default,,0,0,0,,Vous ne l'avez pas fait pour elle,\Nmais pour vous-même,
+Dialogue: 0,0:20:55.80,0:20:58.76,Default,,0,0,0,,pour justifier votre statut de père
+Dialogue: 0,0:20:59.16,0:21:01.44,Default,,0,0,0,,à vos propres yeux !
+Dialogue: 0,0:21:07.04,0:21:09.60,Default,,0,0,0,,Garde du corps discrédité\Net père indigne !
+Dialogue: 0,0:21:11.00,0:21:14.28,Default,,0,0,0,,Remarquez,\Nje suis mal placé pour vous juger.
+Dialogue: 0,0:21:14.44,0:21:15.60,Default,,0,0,0,,Papa...
+Dialogue: 0,0:21:17.96,0:21:20.40,Default,,0,0,0,,Exact. Vous aussi\Nêtes un garde du corps discrédité,
+Dialogue: 0,0:21:21.24,0:21:24.40,Default,,0,0,0,,Môri.\NVous m'avez prise comme appât.
+Dialogue: 0,0:21:25.40,0:21:27.16,Default,,0,0,0,,Non, euh...\NEn fait...
+Dialogue: 0,0:21:27.64,0:21:31.32,Default,,0,0,0,,Vous êtes viré !\NRetournez d'où vous venez !
+Dialogue: 0,0:21:32.72,0:21:33.72,Default,,0,0,0,,Compris.
+Dialogue: 0,0:21:37.40,0:21:39.48,Default,,0,0,0,,Merci, monsieur le détective.
+Dialogue: 0,0:21:43.68,0:21:46.72,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:47.84,0:21:50.84,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:23:02.92,0:23:04.88,Default,,0,0,0,,AGENCE MÔRI, ENQUÊTES PRIVÉES
+Dialogue: 0,0:23:05.04,0:23:06.92,Default,,0,0,0,,RYÔ RACCROCHE\NET CRÉE SON AGENCE !
+Dialogue: 0,0:23:07.12,0:23:10.00,Default,,0,0,0,,Ryô se libère de son agence\Net devient patronne !
+Dialogue: 0,0:23:10.16,0:23:12.96,Default,,0,0,0,,Elle a débauché Reina\Ncomme première actrice
+Dialogue: 0,0:23:13.12,0:23:15.20,Default,,0,0,0,,de sa propre agence.
+Dialogue: 0,0:23:15.40,0:23:16.72,Default,,0,0,0,,Ah, c'est là...
+Dialogue: 0,0:23:17.88,0:23:20.28,Default,,0,0,0,,Je croyais que tu étais viré, papa !
+Dialogue: 0,0:23:20.44,0:23:22.40,Default,,0,0,0,,Quand je me serai aguerri,
+Dialogue: 0,0:23:22.56,0:23:25.40,Default,,0,0,0,,j'assurerai\Nla protection rapprochée de Yôko !
+Dialogue: 0,0:23:25.56,0:23:27.40,Default,,0,0,0,,{\i1}C'est ça qu'il a en tête ?{\i0}
+Dialogue: 0,0:23:28.80,0:23:30.44,Default,,0,0,0,,{\i1}Il est irrécupérable...{\i0}

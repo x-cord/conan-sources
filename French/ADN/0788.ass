@@ -1,0 +1,384 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,2,20,20,100,1
+Style: ST_BAS_GAUCHE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,1,205,20,115,1
+Style: ST_BAS_DROITE,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,3,20,205,115,1
+Style: ST_HAUT,Verdana,65,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,8,20,20,115,1
+Style: ST_HAUT_GAUCHE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,7,205,20,115,1
+Style: ST_HAUT_ALT,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,20,20,200,1
+Style: ST_HAUT_DROITE,Verdana,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,2,1,9,20,205,115,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.56,0:00:05.33,Default,,0,0,0,,{\i1}Masumi Sera reçoit trois visiteurs{\i0}\N{\i1}à l'hôtel où elle réside :{\i0}
+Dialogue: 0,0:00:05.56,0:00:06.80,Default,,0,0,0,,{\i1}Ran, Sonoko et moi.{\i0}
+Dialogue: 0,0:00:07.81,0:00:10.41,Default,,0,0,0,,{\i1}Nous nous précipitons à la piscine,{\i0}
+Dialogue: 0,0:00:10.73,0:00:12.76,Default,,0,0,0,,{\i1}mais Nagami,{\i0}
+Dialogue: 0,0:00:12.93,0:00:15.88,ST_HAUT,,0,0,0,,{\i1}la fille du propriétaire,{\i0}\N{\i1}fait évacuer les lieux{\i0}
+Dialogue: 0,0:00:16.04,0:00:19.05,ST_HAUT,,0,0,0,,{\i1}pour chercher le collier{\i0}\N{\i1}qu'elle vient d'égarer.{\i0}
+Dialogue: 0,0:00:21.04,0:00:23.76,Default,,0,0,0,,{\i1}En retournant à la piscine{\i0}\N{\i1}après le déjeuner,{\i0}
+Dialogue: 0,0:00:23.93,0:00:25.69,Default,,0,0,0,,{\i1}nous apprenons{\i0}\N{\i1}que Nagami a disparu.{\i0}
+Dialogue: 0,0:00:26.92,0:00:27.92,Default,,0,0,0,,{\i1}Et soudain...{\i0}
+Dialogue: 0,0:00:28.88,0:00:30.05,Default,,0,0,0,,{\i1}Hé, regarde !{\i0}
+Dialogue: 0,0:00:30.68,0:00:33.96,Default,,0,0,0,,{\i1}Là, au milieu !{\i0}\N{\i1}Il y a quelque chose sous l'eau !{\i0}
+Dialogue: 0,0:00:35.49,0:00:38.52,Default,,0,0,0,,{\i1}On dirait un corps !{\i0}
+Dialogue: 0,0:00:46.49,0:00:47.44,Default,,0,0,0,,Nagami...
+Dialogue: 0,0:00:48.24,0:00:49.64,Default,,0,0,0,,C'est elle !
+Dialogue: 0,0:00:50.60,0:00:53.21,Default,,0,0,0,,{\i1}Mais Nagami disait bien{\i0}
+Dialogue: 0,0:00:53.85,0:00:56.24,ST_HAUT,,0,0,0,,{\i1}que son fiancé M. Samaki{\i0}
+Dialogue: 0,0:00:56.41,0:00:58.84,ST_HAUT,,0,0,0,,{\i1}entretenait une liaison{\i0}\N{\i1}avec sa sœur Hamaka{\i0}
+Dialogue: 0,0:00:59.61,0:01:03.85,Default,,0,0,0,,{\i1}et que le gérant les laissait{\i0}\N{\i1}se rencontrer ici en secret.{\i0}
+Dialogue: 0,0:01:04.20,0:01:07.49,Default,,0,0,0,,{\i1}- Il y avait erreur !{\i0}\N{\i1}- Ma sœur se faisait des idées !{\i0}
+Dialogue: 0,0:01:09.09,0:01:12.49,Default,,0,0,0,,{\i1}En fait,{\i0}\N{\i1}c'était bientôt son anniversaire...{\i0}
+Dialogue: 0,0:01:12.64,0:01:14.36,Default,,0,0,0,,{\i1}On venait se mettre d'accord{\i0}
+Dialogue: 0,0:01:14.52,0:01:18.76,Default,,0,0,0,,{\i1}pour le lui fêter{\i0}\N{\i1}dans sa suite préférée.{\i0}
+Dialogue: 0,0:01:18.92,0:01:21.53,Default,,0,0,0,,{\i1}Nous convenions{\i0}\N{\i1}de la décoration, du menu...{\i0}
+Dialogue: 0,0:01:22.00,0:01:26.89,ST_HAUT,,0,0,0,,{\i1}Bien sûr, Mlle Nagami n'en savait rien.{\i0}\N{\i1}C'était une surprise.{\i0}
+Dialogue: 0,0:01:27.24,0:01:30.53,Default,,0,0,0,,{\i1}Comme nous discutions de tout cela{\i0}\N{\i1}dans cette suite,{\i0}
+Dialogue: 0,0:01:30.76,0:01:33.28,Default,,0,0,0,,{\i1}ma sœur s'est imaginé des choses...{\i0}
+Dialogue: 0,0:01:33.68,0:01:36.76,Default,,0,0,0,,{\i1}Elle aimait tellement cette suite{\i0}
+Dialogue: 0,0:01:36.92,0:01:40.93,Default,,0,0,0,,{\i1}que je ne suis pas surpris{\i0}\N{\i1}de sa réaction de colère.{\i0}
+Dialogue: 0,0:01:41.88,0:01:42.89,Default,,0,0,0,,{\i1}À ce point-là ?{\i0}
+Dialogue: 0,0:01:43.04,0:01:46.57,Default,,0,0,0,,{\i1}Oui. elle a déjà expulsé des clients{\i0}\N{\i1}qui l'avaient réservée{\i0}
+Dialogue: 0,0:01:46.72,0:01:48.28,Default,,0,0,0,,{\i1}pour y passer la nuit.{\i0}
+Dialogue: 0,0:01:48.72,0:01:52.84,Default,,0,0,0,,{\i1}Nous n'avions{\i0}\N{\i1}aucune raison de la tuer !{\i0}
+Dialogue: 0,0:01:53.44,0:01:55.97,Default,,0,0,0,,{\i1}Nous allions lui fêter{\i0}\N{\i1}son anniversaire !{\i0}
+Dialogue: 0,0:01:56.12,0:01:59.52,Default,,0,0,0,,{\i1}Si vous nous suspectez,{\i0}\N{\i1}interrogez donc le personnel...{\i0}
+Dialogue: 0,0:02:00.24,0:02:04.25,Default,,0,0,0,,{\i1}Tout le monde a assisté{\i0}\N{\i1}aux discussions sur la décoration.{\i0}
+Dialogue: 0,0:02:05.08,0:02:08.08,Default,,0,0,0,,{\i1}Ça, nous le vérifierons plus tard.{\i0}
+Dialogue: 0,0:02:08.24,0:02:11.25,Default,,0,0,0,,{\i1}J'aimerais tout d'abord savoir{\i0}\N{\i1}ce que vous avez fait{\i0}
+Dialogue: 0,0:02:11.40,0:02:14.36,Default,,0,0,0,,{\i1}après avoir quitté Mlle Nagami.{\i0}
+Dialogue: 0,0:02:21.08,0:02:25.00,Default,,0,0,0,,Les années partagées\Nnous font avancer à toute vitesse.
+Dialogue: 0,0:02:25.48,0:02:29.00,Default,,0,0,0,,{\i1}Témoignage étrange à la piscine.{\i0}\N{\i1}La vérité émerge.{\i0}
+Dialogue: 0,0:02:29.24,0:02:32.32,Default,,0,0,0,,{\i1}Un cerveau d'adulte{\i0}\N{\i1}dans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:32.60,0:02:34.68,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:40.08,0:02:43.28,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:53.60,0:02:57.00,ST_HAUT,,0,0,0,,Character design : Hiromi Ogata\NDirecteur artistique : Kei Ichikura
+Dialogue: 0,0:02:59.40,0:03:02.36,ST_HAUT,,0,0,0,,Photographie : Takahisa Ogawa\NSon : Keiko Urakami
+Dialogue: 0,0:03:07.28,0:03:09.80,ST_HAUT,,0,0,0,,Musique : Katsuo Ohno
+Dialogue: 0,0:03:14.12,0:03:18.32,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"WE GO"
+Dialogue: 0,0:03:19.28,0:03:22.84,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:03:28.32,0:03:30.76,ST_HAUT,,0,0,0,,Producteurs :\NIsato Yonekura, Kiyoaki Terashima
+Dialogue: 0,0:03:38.96,0:03:41.76,ST_HAUT,,0,0,0,,Producteur en chef :\NKeiichi Ishiyama
+Dialogue: 0,0:03:46.40,0:03:51.20,ST_HAUT,,0,0,0,,Réalisateur : Yasuichiro Yamamoto
+Dialogue: 0,0:03:52.36,0:03:54.12,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:04:00.68,0:04:04.28,Default,,0,0,0,,{\i1}"Mystère estival au fond d'une piscine{\i0}\N{\i1}(2de partie)" !{\i0}
+Dialogue: 0,0:04:09.12,0:04:10.04,Default,,0,0,0,,Oui.
+Dialogue: 0,0:04:10.48,0:04:15.04,Default,,0,0,0,,Aucun client n'est entré après\Nqu'on nous a dit de fermer la piscine.
+Dialogue: 0,0:04:15.52,0:04:20.00,Default,,0,0,0,,Seuls sont venus M. le gérant,\NMlle Hamaka, M. le secretaire Sakaki
+Dialogue: 0,0:04:20.16,0:04:22.60,Default,,0,0,0,,et ces deux grooms.
+Dialogue: 0,0:04:23.56,0:04:28.00,Default,,0,0,0,,Avant que Mlle Nagami ne soit seule,\Nces jeunes gens aussi sont entrés.
+Dialogue: 0,0:04:28.68,0:04:30.76,Default,,0,0,0,,On avait oublié quelque chose.
+Dialogue: 0,0:04:31.40,0:04:34.00,Default,,0,0,0,,{\i1}En fait, on voulait voir{\i0}\N{\i1}ce qui se passait.{\i0}
+Dialogue: 0,0:04:34.40,0:04:38.76,Default,,0,0,0,,Et après que Mlle Nagami a fait partir\Ntout le monde pour chercher seule,
+Dialogue: 0,0:04:38.92,0:04:40.48,Default,,0,0,0,,qui est revenu en 1er ?
+Dialogue: 0,0:04:40.96,0:04:43.00,Default,,0,0,0,,Euh...\NSi j'ai bonne mémoire...
+Dialogue: 0,0:04:44.44,0:04:45.76,Default,,0,0,0,,M. Toyoshima, le gérant.
+Dialogue: 0,0:04:46.40,0:04:49.44,Default,,0,0,0,,Il voulait voir\Nsi Mlle Nagami allait bien.
+Dialogue: 0,0:04:49.88,0:04:51.60,Default,,0,0,0,,Quelle heure était-il ?
+Dialogue: 0,0:04:52.12,0:04:54.20,Default,,0,0,0,,Midi passé, je crois.
+Dialogue: 0,0:04:54.60,0:04:58.44,Default,,0,0,0,,Tu as reçu un SMS\Njuste à ce moment-là.
+Dialogue: 0,0:04:58.68,0:05:00.84,Default,,0,0,0,,Ah oui.\NVoyons voir...
+Dialogue: 0,0:05:01.32,0:05:02.68,Default,,0,0,0,,À 12 h 05.
+Dialogue: 0,0:05:03.16,0:05:05.04,Default,,0,0,0,,Et que faisait-elle ?
+Dialogue: 0,0:05:05.32,0:05:08.12,Default,,0,0,0,,Elle cherchait son collier sous l'eau.
+Dialogue: 0,0:05:08.84,0:05:12.44,Default,,0,0,0,,Elle était si absorbée\Nqu'elle ne m'a pas remarqué.
+Dialogue: 0,0:05:13.00,0:05:17.20,Default,,0,0,0,,Quand elle a fini par me voir,\Nelle m'a reproché de la gêner,
+Dialogue: 0,0:05:17.36,0:05:19.40,Default,,0,0,0,,alors je me suis vite retiré.
+Dialogue: 0,0:05:19.64,0:05:20.84,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:05:21.28,0:05:23.76,Default,,0,0,0,,Et après le départ\Nde monsieur le gérant ?
+Dialogue: 0,0:05:24.16,0:05:26.84,Default,,0,0,0,,- Euh...\N- La personne suivante fut...
+Dialogue: 0,0:05:27.96,0:05:29.24,Default,,0,0,0,,M. Samaki.
+Dialogue: 0,0:05:31.52,0:05:33.64,Default,,0,0,0,,Comme elle s'éternisait,
+Dialogue: 0,0:05:34.16,0:05:38.56,Default,,0,0,0,,je suis venu lui suggérer\Nde laisser quelqu'un d'autre le faire,
+Dialogue: 0,0:05:39.36,0:05:43.36,Default,,0,0,0,,mais je ne l'ai vue\Nni au bord de la piscine ni dedans.
+Dialogue: 0,0:05:44.24,0:05:48.08,Default,,0,0,0,,Pensant qu'elle pouvait être aux W.-C.,\Nj'ai attendu là,
+Dialogue: 0,0:05:48.84,0:05:52.60,Default,,0,0,0,,mais je ne la voyais pas revenir,\Nsi bien que je suis reparti.
+Dialogue: 0,0:05:53.00,0:05:56.76,Default,,0,0,0,,- Vous vous rappelez à quelle heure ?\N- Non.
+Dialogue: 0,0:05:57.28,0:05:59.32,Default,,0,0,0,,Nous non plus.
+Dialogue: 0,0:05:59.48,0:06:01.80,Default,,0,0,0,,Nous ne notons pas tout.
+Dialogue: 0,0:06:02.44,0:06:07.08,Default,,0,0,0,,Mais Mlle Hamaka, qui est arrivée\Nquand M. Samaki allait sortir,
+Dialogue: 0,0:06:07.24,0:06:09.28,Default,,0,0,0,,est repartie à 12 heures 54.
+Dialogue: 0,0:06:09.52,0:06:12.72,Default,,0,0,0,,En passant,\Nelle nous a demandé l'heure.
+Dialogue: 0,0:06:13.24,0:06:14.88,Default,,0,0,0,,Pour quelle raison ?
+Dialogue: 0,0:06:15.12,0:06:19.84,Default,,0,0,0,,J'avais réservé une table\Nau restaurant de l'hôtel pour 13 h,
+Dialogue: 0,0:06:20.16,0:06:24.72,Default,,0,0,0,,alors M. Samaki m'a dit d'aller voir\Naux toilettes et au vestiaire,
+Dialogue: 0,0:06:25.20,0:06:27.72,Default,,0,0,0,,mais je n'y ai pas trouvé ma sœur.
+Dialogue: 0,0:06:28.24,0:06:31.80,Default,,0,0,0,,Comme elle n'était pas non plus\Nà la piscine, j'ai paniqué
+Dialogue: 0,0:06:31.96,0:06:34.44,Default,,0,0,0,,et j'ai voulu savoir\Nsi mon portable
+Dialogue: 0,0:06:35.12,0:06:37.32,Default,,0,0,0,,donnait vraiment la bonne heure.
+Dialogue: 0,0:06:37.48,0:06:40.52,Default,,0,0,0,,À propos, où sont\Nces toilettes et ce vestiaire ?
+Dialogue: 0,0:06:40.68,0:06:41.68,Default,,0,0,0,,Par ici.
+Dialogue: 0,0:06:42.80,0:06:44.72,Default,,0,0,0,,Le vestiaire et les douches
+Dialogue: 0,0:06:45.00,0:06:48.64,Default,,0,0,0,,sont entre l'accueil et le bassin,\Net au fond, il y a les W.-C.
+Dialogue: 0,0:06:50.20,0:06:53.76,Default,,0,0,0,,Par là, on doit facilement\Npouvoir cacher un corps.
+Dialogue: 0,0:06:53.92,0:06:54.44,Default,,0,0,0,,Oui,
+Dialogue: 0,0:06:54.92,0:06:58.64,Default,,0,0,0,,d'où elles sont, les réceptionnistes\Nne voient pas ce passage.
+Dialogue: 0,0:06:59.00,0:07:01.60,Default,,0,0,0,,Et ensuite, que s'est-il passé ?
+Dialogue: 0,0:07:02.00,0:07:04.80,Default,,0,0,0,,Nous avons appelé\NM. Samaki et notre gérant,
+Dialogue: 0,0:07:04.96,0:07:06.56,Default,,0,0,0,,ainsi que les 2 grooms,
+Dialogue: 0,0:07:07.12,0:07:08.88,Default,,0,0,0,,et ils ont cherché partout.
+Dialogue: 0,0:07:09.08,0:07:11.08,Default,,0,0,0,,Mais ils n'ont pas\Ntrouvé Mlle Nagami ?
+Dialogue: 0,0:07:11.64,0:07:14.48,Default,,0,0,0,,Elle n'était pas dans la piscine...
+Dialogue: 0,0:07:14.64,0:07:17.44,Default,,0,0,0,,Ni au niveau des douches\Nou des casiers.
+Dialogue: 0,0:07:17.60,0:07:20.60,Default,,0,0,0,,Bien sûr, nous sommes aussi\Nallés voir côté hommes,
+Dialogue: 0,0:07:21.00,0:07:22.08,Default,,0,0,0,,en criant son nom.
+Dialogue: 0,0:07:22.84,0:07:25.68,Default,,0,0,0,,Au bout d'une heure\Nà chercher en vain,
+Dialogue: 0,0:07:25.84,0:07:28.72,Default,,0,0,0,,nous avons demandé\Naux deux réceptionnistes
+Dialogue: 0,0:07:28.88,0:07:31.48,Default,,0,0,0,,si elles ne l'avaient\Nvraiment pas vue sortir.
+Dialogue: 0,0:07:31.72,0:07:34.48,Default,,0,0,0,,C'est à ce moment-là\Nque ces jeunes sont arrivés.
+Dialogue: 0,0:07:35.12,0:07:40.04,Default,,0,0,0,,Alors qu'on leur exposait la situation,\Nles grooms ont vu le corps sous l'eau.
+Dialogue: 0,0:07:40.28,0:07:41.56,Default,,0,0,0,,Je vois.
+Dialogue: 0,0:07:42.16,0:07:45.84,Default,,0,0,0,,Mais pourquoi étiez-vous revenus\Nla chercher à la piscine ?
+Dialogue: 0,0:07:46.04,0:07:49.00,Default,,0,0,0,,Tous ensemble,\Nvous ne l'aviez pas trouvée.
+Dialogue: 0,0:07:49.16,0:07:52.04,Default,,0,0,0,,Nous avions\Ncomme un mauvais pressentiment.
+Dialogue: 0,0:07:52.36,0:07:56.60,Default,,0,0,0,,Nous avions entendu un bruit étrange\Nvenant de la piscine.
+Dialogue: 0,0:07:57.00,0:07:59.24,Default,,0,0,0,,Un grand bruit d'eau\Nqui s'agite brusquement.
+Dialogue: 0,0:08:11.28,0:08:14.36,Default,,0,0,0,,{\i1}Je le savais...{\i0}\N{\i1}La grille d'écoulement est vissée !{\i0}
+Dialogue: 0,0:08:15.04,0:08:16.28,Default,,0,0,0,,Regarde, Conan !
+Dialogue: 0,0:08:16.96,0:08:20.68,Default,,0,0,0,,Il y a un crochet\Nplanté à la verticale de la grille.
+Dialogue: 0,0:08:21.64,0:08:25.00,Default,,0,0,0,,Et ici, on est pile à mi-distance\Ndes deux bords.
+Dialogue: 0,0:08:26.00,0:08:27.96,Default,,0,0,0,,Hé ! Qu'est-ce que vous foutez ?
+Dialogue: 0,0:08:28.12,0:08:29.52,Default,,0,0,0,,{\i1}Aucun doute...{\i0}
+Dialogue: 0,0:08:30.28,0:08:32.20,Default,,0,0,0,,{\i1}On sait qui l'a fait !{\i0}
+Dialogue: 0,0:08:34.80,0:08:37.04,Default,,0,0,0,,Si je résume le fil des événements,
+Dialogue: 0,0:08:37.44,0:08:39.72,Default,,0,0,0,,Mlle Nagami Ôiso, la victime,
+Dialogue: 0,0:08:39.88,0:08:42.76,Default,,0,0,0,,vous expulse d'abord\Ntous les trois de la piscine
+Dialogue: 0,0:08:43.52,0:08:46.92,Default,,0,0,0,,pour chercher toute seule\Nle collier qu'elle y a perdu.
+Dialogue: 0,0:08:47.12,0:08:48.88,Default,,0,0,0,,Vers midi cinq,
+Dialogue: 0,0:08:49.04,0:08:54.04,Default,,0,0,0,,M. Toyoshima, le gérant de l'hôtel,\Nrevient voir ce que fait Mlle Nagami.
+Dialogue: 0,0:08:54.40,0:08:57.40,Default,,0,0,0,,Celle-ci le chasse\Nau motif qu'il la gêne, puis...
+Dialogue: 0,0:08:57.56,0:09:02.64,Default,,0,0,0,,quand arrive M. le secrétaire Samaki,\Nelle n'est plus dans la piscine.
+Dialogue: 0,0:09:03.40,0:09:06.16,Default,,0,0,0,,Croisant Mlle Hamaka\Nau moment de partir,
+Dialogue: 0,0:09:06.52,0:09:09.68,Default,,0,0,0,,il l'envoie chercher\Nau vestiaire et aux W.-C. dames,
+Dialogue: 0,0:09:10.16,0:09:12.20,Default,,0,0,0,,mais elle constate,\Nà 12 h 54,
+Dialogue: 0,0:09:12.56,0:09:14.68,Default,,0,0,0,,que Mlle Nagami n'est pas là.
+Dialogue: 0,0:09:15.36,0:09:20.28,Default,,0,0,0,,Ensuite, les deux grooms,\Nle gérant, M. Samaki et Mlle Hamaka
+Dialogue: 0,0:09:20.52,0:09:23.68,Default,,0,0,0,,la cherchent dans tous les coins,\Nsans résultat.
+Dialogue: 0,0:09:24.44,0:09:28.72,Default,,0,0,0,,Revenus à la piscine 10 minutes\Naprès la fin de ces recherches,
+Dialogue: 0,0:09:29.16,0:09:31.20,Default,,0,0,0,,les grooms découvrent Mlle Nagami
+Dialogue: 0,0:09:31.36,0:09:33.20,Default,,0,0,0,,immergée au centre du bassin.
+Dialogue: 0,0:09:34.08,0:09:36.84,Default,,0,0,0,,Les faits et le timing sont exacts ?
+Dialogue: 0,0:09:37.08,0:09:39.80,Default,,0,0,0,,- Oui.\N- Je pense.
+Dialogue: 0,0:09:40.20,0:09:44.72,Default,,0,0,0,,Mlle Nagami est morte\Nentre midi et 13 heures.
+Dialogue: 0,0:09:45.48,0:09:49.72,Default,,0,0,0,,Et seuls vous trois avez été présents\Nà la piscine durant cette heure.
+Dialogue: 0,0:09:50.16,0:09:53.96,Default,,0,0,0,,Normalement, le coupable\Nne peut être que l'un d'entre vous,
+Dialogue: 0,0:09:54.60,0:09:57.96,Default,,0,0,0,,mais si le corps était resté\Ncontinuellement dans l'eau,
+Dialogue: 0,0:09:58.32,0:10:02.00,Default,,0,0,0,,quelqu'un l'aurait trouvé\Nquand vous cherchiez à cinq.
+Dialogue: 0,0:10:02.72,0:10:05.44,Default,,0,0,0,,D'un autre côté,\Nil me semble impensable
+Dialogue: 0,0:10:05.60,0:10:08.00,Default,,0,0,0,,d'engloutir un corps\Nau milieu du bassin
+Dialogue: 0,0:10:08.36,0:10:11.40,Default,,0,0,0,,sans qu'un autre membre du groupe
+Dialogue: 0,0:10:11.56,0:10:13.68,Default,,0,0,0,,ne s'en aperçoive.
+Dialogue: 0,0:10:14.12,0:10:16.32,Default,,0,0,0,,C'est le crime impossible\Npar excellence !
+Dialogue: 0,0:10:16.64,0:10:17.76,Default,,0,0,0,,Hein, Takagi ?
+Dialogue: 0,0:10:18.32,0:10:20.00,Default,,0,0,0,,T'es pas d'accord ?
+Dialogue: 0,0:10:21.08,0:10:23.04,Default,,0,0,0,,Hé, mais... Takagi ?
+Dialogue: 0,0:10:23.60,0:10:27.96,Default,,0,0,0,,Après avoir parlé tout bas\Navec Conan et Sera,
+Dialogue: 0,0:10:28.16,0:10:29.88,Default,,0,0,0,,il est allé vers la piscine.
+Dialogue: 0,0:10:32.32,0:10:36.36,Default,,0,0,0,,Pendant que vous étiez aux W.-C.,\Nil portait un grand aquarium.
+Dialogue: 0,0:10:36.52,0:10:38.20,Default,,0,0,0,,C'est pour une expérience.
+Dialogue: 0,0:10:38.68,0:10:41.20,Default,,0,0,0,,Mais qu'est-ce qu'il fout,\Ndans mon dos ?
+Dialogue: 0,0:10:42.56,0:10:45.32,Default,,0,0,0,,Pour la énième fois,\Nappelle-la "Sera-chan" !
+Dialogue: 0,0:10:45.48,0:10:46.60,Default,,0,0,0,,Ah oui.
+Dialogue: 0,0:10:47.72,0:10:51.76,Default,,0,0,0,,Il nous a aussi dit\Nde venir assister à l'expérience.
+Dialogue: 0,0:10:51.92,0:10:54.04,Default,,0,0,0,,À la fin, on connaîtra le coupable !
+Dialogue: 0,0:11:04.64,0:11:06.28,Default,,0,0,0,,Takagi !
+Dialogue: 0,0:11:07.72,0:11:10.60,Default,,0,0,0,,C'est pas vrai !\NIl est nulle part !
+Dialogue: 0,0:11:11.44,0:11:14.72,Default,,0,0,0,,Et puis,\Npourquoi avoir rempli la piscine ?
+Dialogue: 0,0:11:14.96,0:11:19.12,Default,,0,0,0,,Pour tenter l'expérience de M. Takagi.\NL'inspection est terminée.
+Dialogue: 0,0:11:19.76,0:11:22.04,Default,,0,0,0,,Et c'est quoi, cette expérience ?
+Dialogue: 0,0:11:22.36,0:11:23.48,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:11:24.88,0:11:27.12,Default,,0,0,0,,Ne gâchez pas l'effet de surprise...
+Dialogue: 0,0:11:28.00,0:11:29.68,Default,,0,0,0,,Ça ne me dit rien qui vaille.
+Dialogue: 0,0:11:30.40,0:11:31.60,Default,,0,0,0,,Hé ! Takagi !
+Dialogue: 0,0:11:32.32,0:11:34.76,Default,,0,0,0,,Sors de ta planque\Net explique-toi !
+Dialogue: 0,0:11:35.12,0:11:37.48,Default,,0,0,0,,Hé ! Takagi !
+Dialogue: 0,0:11:38.32,0:11:39.36,Default,,0,0,0,,Quel cirque !
+Dialogue: 0,0:11:40.52,0:11:43.88,Default,,0,0,0,,- Où il est passé ?\N- Il est là, l'inspecteur Takagi.
+Dialogue: 0,0:11:45.08,0:11:46.28,Default,,0,0,0,,Dans la piscine.
+Dialogue: 0,0:11:49.92,0:11:52.20,Default,,0,0,0,,Bah non, il est pas là !
+Dialogue: 0,0:11:52.40,0:11:55.68,Default,,0,0,0,,- Où il est ?\N- Tu le vois, Conan ?
+Dialogue: 0,0:11:55.88,0:11:58.00,Default,,0,0,0,,Pour l'instant, non...
+Dialogue: 0,0:12:00.20,0:12:03.28,Default,,0,0,0,,Mais si je coupe le fil de pêche\Naccroché à ce crochet...
+Dialogue: 0,0:12:06.60,0:12:08.08,Default,,0,0,0,,Un aquarium ?
+Dialogue: 0,0:12:11.20,0:12:12.56,Default,,0,0,0,,- Inspecteur Takagi !\N- Takagi !
+Dialogue: 0,0:12:14.04,0:12:16.08,Default,,0,0,0,,Vous ne me voyiez pas ?
+Dialogue: 0,0:12:16.52,0:12:18.92,Default,,0,0,0,,Non...\NMais c'est dû à quoi ?
+Dialogue: 0,0:12:19.32,0:12:20.84,Default,,0,0,0,,À la réflexion totale.
+Dialogue: 0,0:12:22.48,0:12:25.24,Default,,0,0,0,,L'eau et l'air sont transparents,
+Dialogue: 0,0:12:25.40,0:12:27.72,Default,,0,0,0,,mais leur indice de réfraction diffère.
+Dialogue: 0,0:12:28.32,0:12:30.40,Default,,0,0,0,,Quand la lumière passe de l'eau,
+Dialogue: 0,0:12:30.56,0:12:33.60,Default,,0,0,0,,hautement réfractive,\Nà l'air, peu réfractif,
+Dialogue: 0,0:12:34.04,0:12:38.40,Default,,0,0,0,,si on regarde à peu près de face\Nla frontière entre l'eau et l'air,
+Dialogue: 0,0:12:38.60,0:12:42.16,Default,,0,0,0,,la lumière, entièrement reflétée,\Ndevient comme un miroir,
+Dialogue: 0,0:12:42.32,0:12:45.60,Default,,0,0,0,,et on ne voit plus\Nce qu'il y a derrière cette frontière.
+Dialogue: 0,0:12:46.92,0:12:49.32,Default,,0,0,0,,Et si on faisait un test basique ?
+Dialogue: 0,0:12:52.92,0:12:57.88,Default,,0,0,0,,Là, vous voyez ma pièce de 10 yens\Ndans l'eau de l'aquarium...
+Dialogue: 0,0:12:59.04,0:12:59.88,Default,,0,0,0,,Oui.
+Dialogue: 0,0:13:00.16,0:13:02.56,Default,,0,0,0,,Mais si je retourne ce verre
+Dialogue: 0,0:13:02.72,0:13:05.84,Default,,0,0,0,,et que je le pose,\Nplein d'air, sur la pièce,
+Dialogue: 0,0:13:07.72,0:13:08.64,Default,,0,0,0,,Elle a disparu !
+Dialogue: 0,0:13:08.96,0:13:10.92,Default,,0,0,0,,T'es génial, Conan !
+Dialogue: 0,0:13:11.08,0:13:16.04,Default,,0,0,0,,C'est qu'une expérience pour écoliers.\NT'as aussi dû la faire, en primaire.
+Dialogue: 0,0:13:16.56,0:13:18.24,Default,,0,0,0,,Tu crois ?
+Dialogue: 0,0:13:18.40,0:13:22.40,Default,,0,0,0,,{\i1}Les CP d'aujourd'hui apprennent{\i0}\N{\i1}des trucs si balèzes que ça ?{\i0}
+Dialogue: 0,0:13:22.76,0:13:24.80,Default,,0,0,0,,L'inspecteur Takagi, lui aussi,
+Dialogue: 0,0:13:25.36,0:13:28.88,Default,,0,0,0,,à l'intérieur de l'aquarium\Nretourné et rempli d'air,
+Dialogue: 0,0:13:29.04,0:13:32.08,Default,,0,0,0,,était invisible dans la piscine.
+Dialogue: 0,0:13:33.00,0:13:33.72,Default,,0,0,0,,Pourtant...
+Dialogue: 0,0:13:34.28,0:13:37.32,Default,,0,0,0,,Vu du dessus, on la voit !
+Dialogue: 0,0:13:37.80,0:13:40.96,Default,,0,0,0,,Oui, si on regarde\Nla frontière entre l'eau et l'air
+Dialogue: 0,0:13:41.12,0:13:43.44,Default,,0,0,0,,avec un angle d'incidence réduit,
+Dialogue: 0,0:13:43.84,0:13:45.72,Default,,0,0,0,,il n'y a pas d'effet miroir.
+Dialogue: 0,0:13:45.96,0:13:49.68,Default,,0,0,0,,Mais on est dans une piscine.\NImpossible de regarder d'en haut.
+Dialogue: 0,0:13:50.00,0:13:51.48,Default,,0,0,0,,En effet...
+Dialogue: 0,0:13:52.00,0:13:53.28,Default,,0,0,0,,Autrement dit,
+Dialogue: 0,0:13:53.44,0:13:57.84,Default,,0,0,0,,après avoir noyé Nagami,\Nqui cherchait toute seule son collier,
+Dialogue: 0,0:13:58.56,0:14:02.96,Default,,0,0,0,,le coupable a recouvert son corps\Navec un aquarium qu'il avait préparé
+Dialogue: 0,0:14:03.72,0:14:06.96,Default,,0,0,0,,et l'a retenu au fond\Ngrâce à du fil de pêche
+Dialogue: 0,0:14:07.52,0:14:09.60,Default,,0,0,0,,reliant les 2 grilles d'écoulement.
+Dialogue: 0,0:14:10.56,0:14:12.76,Default,,0,0,0,,Ensuite,\Nil a un peu soulevé le verre,
+Dialogue: 0,0:14:13.28,0:14:15.00,Default,,0,0,0,,passé la main par-dessous,
+Dialogue: 0,0:14:15.16,0:14:17.44,Default,,0,0,0,,et libéré l'air de la bouteille\Nde Nagami
+Dialogue: 0,0:14:17.60,0:14:20.76,Default,,0,0,0,,afin d'en remplir tout l'aquarium.
+Dialogue: 0,0:14:22.16,0:14:24.48,Default,,0,0,0,,L'élasticité du fil de pêche
+Dialogue: 0,0:14:24.64,0:14:27.48,Default,,0,0,0,,permettait assurément\Nde soulever l'aquarium.
+Dialogue: 0,0:14:29.44,0:14:32.36,Default,,0,0,0,,Mais comment a-t-il fait\Npour la noyer ?
+Dialogue: 0,0:14:33.08,0:14:34.40,Default,,0,0,0,,Rien de plus simple...
+Dialogue: 0,0:14:34.56,0:14:38.40,Default,,0,0,0,,Dans l'eau, il l'a baratinée\Npour détourner son attention,
+Dialogue: 0,0:14:38.96,0:14:41.20,Default,,0,0,0,,lui a attrapé le cou par derrière,
+Dialogue: 0,0:14:41.80,0:14:44.92,Default,,0,0,0,,lui a arraché son embout buccal\Net l'a fait plonger.
+Dialogue: 0,0:14:46.40,0:14:49.92,Default,,0,0,0,,Avec la bouteille et le lest,\Nelle était facile à engloutir.
+Dialogue: 0,0:14:50.12,0:14:52.96,Default,,0,0,0,,Et personne n'a pu\Nl'entendre crier sous l'eau.
+Dialogue: 0,0:14:54.00,0:14:56.68,Default,,0,0,0,,N'est-ce pas,\Nmonsieur le gérant de l'hôtel,
+Dialogue: 0,0:14:57.20,0:14:58.68,Default,,0,0,0,,Ensaku Toyoshima ?
+Dialogue: 0,0:15:00.52,0:15:04.40,Default,,0,0,0,,Dans la piscine, c'est en pointant\Nle doigt vers vos pieds
+Dialogue: 0,0:15:04.64,0:15:07.52,Default,,0,0,0,,et en prétendant que le collier\Nétait là, sous l'eau,
+Dialogue: 0,0:15:07.72,0:15:11.80,Default,,0,0,0,,que vous l'avez placée à votre merci.\NJe me trompe ?
+Dialogue: 0,0:15:12.32,0:15:16.80,Default,,0,0,0,,Mais peut-on vraiment bloquer\Nun aquarium avec un seul fil de fer ?
+Dialogue: 0,0:15:17.36,0:15:20.04,Default,,0,0,0,,Il était rempli d'air, non ?
+Dialogue: 0,0:15:20.20,0:15:23.44,Default,,0,0,0,,Si on taille 4 encoches\Npour y faire passer
+Dialogue: 0,0:15:23.60,0:15:26.24,Default,,0,0,0,,le fil de pêche\Naller et retour,
+Dialogue: 0,0:15:26.48,0:15:28.16,Default,,0,0,0,,normalement, il ne remonte pas.
+Dialogue: 0,0:15:28.88,0:15:31.36,Default,,0,0,0,,Et si on attache le bout du fil
+Dialogue: 0,0:15:31.52,0:15:35.04,Default,,0,0,0,,au crochet planté\Nprès de la surface de la piscine,
+Dialogue: 0,0:15:35.84,0:15:37.32,Default,,0,0,0,,pas besoin\Nd'entrer dans l'eau...
+Dialogue: 0,0:15:37.88,0:15:39.04,Default,,0,0,0,,On coupe le fil
+Dialogue: 0,0:15:39.60,0:15:43.60,Default,,0,0,0,,pour que l'aquarium émerge\Net que le corps apparaisse.
+Dialogue: 0,0:15:44.24,0:15:46.64,Default,,0,0,0,,Comme dans ton expérience, Conan.
+Dialogue: 0,0:15:47.72,0:15:51.64,Default,,0,0,0,,Quand M. Toyoshima est soi-disant\Nvenu voir ce que faisait Nagami,
+Dialogue: 0,0:15:51.80,0:15:54.72,Default,,0,0,0,,il a plongé son corps\Nau fond de la piscine
+Dialogue: 0,0:15:55.40,0:15:59.20,Default,,0,0,0,,et l'a rendu invisible au moyen\Ndu stratagème que je viens de décrire.
+Dialogue: 0,0:15:59.68,0:16:02.16,Default,,0,0,0,,Enfin,\Nquand le groupe a fini de chercher,
+Dialogue: 0,0:16:02.40,0:16:05.72,Default,,0,0,0,,il a coupé le fil\Npour faire apparaître le cadavre.
+Dialogue: 0,0:16:06.40,0:16:08.84,Default,,0,0,0,,Mais l'aquarium a fait\Nun grand bruit
+Dialogue: 0,0:16:09.00,0:16:11.16,Default,,0,0,0,,quand il est remonté\Nà la surface.
+Dialogue: 0,0:16:11.64,0:16:14.96,Default,,0,0,0,,Juste à ce moment-là,\NM. Toyoshima a crié...
+Dialogue: 0,0:16:15.48,0:16:18.96,Default,,0,0,0,,"Mlle Nagami ! Où êtes-vous ?"
+Dialogue: 0,0:16:19.72,0:16:23.64,Default,,0,0,0,,Comme tous ceux qui la cherchaient\Ncriaient sans doute aussi,
+Dialogue: 0,0:16:23.80,0:16:26.32,Default,,0,0,0,,le bruit a dû être\Npratiquement imperceptible.
+Dialogue: 0,0:16:26.96,0:16:29.52,Default,,0,0,0,,Mais l'aquarium\Nétait en mille morceaux.
+Dialogue: 0,0:16:29.72,0:16:34.64,Default,,0,0,0,,En plus, il se trouvait à côté du bord,\Net non au centre, près du corps.
+Dialogue: 0,0:16:35.08,0:16:37.40,Default,,0,0,0,,Mais oui, quand l'a-t-il déplacé ?
+Dialogue: 0,0:16:37.56,0:16:38.92,Default,,0,0,0,,Ce n'était possible
+Dialogue: 0,0:16:39.08,0:16:43.16,Default,,0,0,0,,que lorsque le corps de Nagami\Na été hissé hors du bassin,
+Dialogue: 0,0:16:43.32,0:16:44.12,Default,,0,0,0,,mais le gérant
+Dialogue: 0,0:16:44.56,0:16:47.64,Default,,0,0,0,,ne portait alors\Nque la bouteille de plongée.
+Dialogue: 0,0:16:48.04,0:16:50.52,Default,,0,0,0,,Il a dû mettre un pied\Ndans l'aquarium
+Dialogue: 0,0:16:50.76,0:16:54.04,Default,,0,0,0,,pour le pousser sous l'eau.
+Dialogue: 0,0:16:55.04,0:16:57.64,Default,,0,0,0,,Après l'avoir amené jusqu'au bord,
+Dialogue: 0,0:16:57.80,0:17:00.52,Default,,0,0,0,,il l'a fracassé\Navec la bouteille de plongée.
+Dialogue: 0,0:17:01.08,0:17:05.12,Default,,0,0,0,,Tout le monde regardait\Nle corps qu'on ramenait sur le bord,
+Dialogue: 0,0:17:05.28,0:17:08.04,Default,,0,0,0,,et le bruit fait sous l'eau\Nétait quasi-imperceptible.
+Dialogue: 0,0:17:08.52,0:17:13.40,Default,,0,0,0,,Mais le gérant s'est blessé\Nen marchant sur un morceau de verre !
+Dialogue: 0,0:17:14.12,0:17:17.84,Default,,0,0,0,,- Il l'a fait exprès, peut-être ?\N- À mon avis, oui !
+Dialogue: 0,0:17:18.28,0:17:22.88,Default,,0,0,0,,Personne ne soupçonne\Nle type qui s'est blessé,
+Dialogue: 0,0:17:23.04,0:17:26.20,Default,,0,0,0,,et, de toute façon,\Nla police allait trouver l'aquarium...
+Dialogue: 0,0:17:26.44,0:17:31.36,Default,,0,0,0,,Alors, moi, je l'aurais pulvérisé\Npour cacher quelle forme il avait.
+Dialogue: 0,0:17:31.60,0:17:36.00,Default,,0,0,0,,T'es vraiment qu'un petit vicelard.\NÇa promet pour plus tard !
+Dialogue: 0,0:17:36.44,0:17:37.28,Default,,0,0,0,,Non, en fait...
+Dialogue: 0,0:17:37.72,0:17:41.08,Default,,0,0,0,,Je me mettais juste\Ndans la tête du meurtrier.
+Dialogue: 0,0:17:41.32,0:17:43.04,Default,,0,0,0,,{\i1}C'est ça qui la fait réagir ?{\i0}
+Dialogue: 0,0:17:43.68,0:17:46.52,Default,,0,0,0,,Et tu as des preuves ?
+Dialogue: 0,0:17:46.72,0:17:48.40,Default,,0,0,0,,Oui, le fil de pêche.
+Dialogue: 0,0:17:49.04,0:17:52.04,Default,,0,0,0,,Après l'avoir coupé,\Nil fallait vite rembobiner
+Dialogue: 0,0:17:52.28,0:17:56.16,Default,,0,0,0,,la partie reliée\Nà la grille d'écoulement d'en face.
+Dialogue: 0,0:17:56.76,0:18:01.56,Default,,0,0,0,,Ce fil doit être couvert\Nd'empreintes digitales de M. Toyoshima.
+Dialogue: 0,0:18:02.24,0:18:05.64,Default,,0,0,0,,Mais c'est pas trop fin,\Nle fil de pêche ?
+Dialogue: 0,0:18:05.80,0:18:06.96,Default,,0,0,0,,Pris un par un, si.
+Dialogue: 0,0:18:07.64,0:18:11.04,Default,,0,0,0,,Mais en l'enroulant,\Nil a dû faire comme une bande,
+Dialogue: 0,0:18:11.80,0:18:15.40,Default,,0,0,0,,laissant des empreintes digitales\Nbien nettes en plusieurs endroits.
+Dialogue: 0,0:18:16.16,0:18:19.32,Default,,0,0,0,,C'est largement trouvable\Npour un légiste, non ?
+Dialogue: 0,0:18:19.48,0:18:20.32,Default,,0,0,0,,Évidemment !
+Dialogue: 0,0:18:20.80,0:18:24.92,Default,,0,0,0,,Mais il n'avait aucun mobile\Npour la tuer.
+Dialogue: 0,0:18:25.08,0:18:26.00,Default,,0,0,0,,C'est vrai !
+Dialogue: 0,0:18:26.32,0:18:30.76,Default,,0,0,0,,Nous avions discuté pour célébrer\Nensemble l'anniversaire de Nagami !
+Dialogue: 0,0:18:31.56,0:18:36.48,Default,,0,0,0,,Je ne voulais pas le fêter,\Nsurtout dans cette suite.
+Dialogue: 0,0:18:37.80,0:18:41.48,Default,,0,0,0,,J'avais une sœur\Nbien plus jeune que moi.
+Dialogue: 0,0:18:41.64,0:18:43.12,Default,,0,0,0,,Elle et son mari
+Dialogue: 0,0:18:43.28,0:18:47.40,Default,,0,0,0,,avaient réservé cette chambre\Ndans laquelle ils rêvaient
+Dialogue: 0,0:18:47.56,0:18:49.32,Default,,0,0,0,,de séjourner rien qu'une fois.
+Dialogue: 0,0:18:50.00,0:18:53.92,Default,,0,0,0,,C'était pour fêter\Nles 3 ans de leur fils.
+Dialogue: 0,0:18:55.04,0:18:56.88,Default,,0,0,0,,La vue y est magnifique,
+Dialogue: 0,0:18:57.04,0:19:01.64,Default,,0,0,0,,et ce soir-là, ils pourraient admirer\Nle feu d'artifice sur le balcon.
+Dialogue: 0,0:19:01.80,0:19:04.28,Default,,0,0,0,,Mais, le jour tant attendu,
+Dialogue: 0,0:19:04.44,0:19:07.76,Default,,0,0,0,,Mlle Nagami a soudainement voulu voir\Nle feu d'artifice
+Dialogue: 0,0:19:07.92,0:19:09.80,Default,,0,0,0,,de cette chambre-là,\Navec ses amis.
+Dialogue: 0,0:19:10.32,0:19:14.52,Default,,0,0,0,,Les époux et leur fils\Nont dû partir pour un autre hôtel,
+Dialogue: 0,0:19:14.68,0:19:17.52,Default,,0,0,0,,mais, avant d'y arriver,\Nils ont eu un accident
+Dialogue: 0,0:19:17.68,0:19:19.56,Default,,0,0,0,,qui leur a coûté la vie\Nà tous les 3.
+Dialogue: 0,0:19:20.44,0:19:21.44,Default,,0,0,0,,C'est affreux !
+Dialogue: 0,0:19:22.64,0:19:25.64,Default,,0,0,0,,Mais vous vous êtes\Ntrompé de cible, non ?
+Dialogue: 0,0:19:25.96,0:19:27.24,Default,,0,0,0,,Trompé de cible ?
+Dialogue: 0,0:19:27.68,0:19:28.96,Default,,0,0,0,,Pas du tout...
+Dialogue: 0,0:19:29.44,0:19:33.76,Default,,0,0,0,,Cette nuit-là, Mademoiselle\Nn'a pas dormi dans cette chambre.
+Dialogue: 0,0:19:34.36,0:19:36.24,Default,,0,0,0,,Vous savez pourquoi ?
+Dialogue: 0,0:19:37.12,0:19:40.76,Default,,0,0,0,,Parce que la voiture de l'ami\Nqui la conduisait jusqu'ici
+Dialogue: 0,0:19:40.92,0:19:43.04,Default,,0,0,0,,avait provoqué un accident.
+Dialogue: 0,0:19:43.56,0:19:44.48,Default,,0,0,0,,Eh oui...
+Dialogue: 0,0:19:44.80,0:19:49.76,Default,,0,0,0,,Cette femme était à bord de la voiture\Nqui a tué ma sœur et sa famille !
+Dialogue: 0,0:19:54.96,0:19:58.96,Default,,0,0,0,,Mais comment l'avez-vous su ?
+Dialogue: 0,0:19:59.72,0:20:00.84,Default,,0,0,0,,Ce soir-là,
+Dialogue: 0,0:20:01.20,0:20:03.64,Default,,0,0,0,,elle m'a appelé.
+Dialogue: 0,0:20:04.36,0:20:08.08,Default,,0,0,0,,Elle m'a dit qu'elle descendait\Nd'une voiture ayant causé un accident,
+Dialogue: 0,0:20:08.24,0:20:09.64,Default,,0,0,0,,mais, ne voulant pas d'ennuis,
+Dialogue: 0,0:20:10.40,0:20:13.64,Default,,0,0,0,,elle m'ordonna de la couvrir\Nen affirmant qu'elle était
+Dialogue: 0,0:20:13.80,0:20:16.60,Default,,0,0,0,,dans la fameuse suite\Ndepuis l'après-midi.
+Dialogue: 0,0:20:17.60,0:20:22.08,Default,,0,0,0,,Depuis lors, j'attendais,\Nqu'elle vienne dans cette piscine
+Dialogue: 0,0:20:22.68,0:20:25.64,Default,,0,0,0,,pour accomplir ma vengeance.
+Dialogue: 0,0:20:26.44,0:20:30.12,Default,,0,0,0,,Tenter de lui retirer le collier,\Nle déclencheur de mon projet,
+Dialogue: 0,0:20:30.28,0:20:33.16,Default,,0,0,0,,c'était jouer à quitte\Nou double,
+Dialogue: 0,0:20:34.36,0:20:37.52,Default,,0,0,0,,mais le Ciel était avec moi.
+Dialogue: 0,0:20:38.20,0:20:42.84,Default,,0,0,0,,Enfin, maintenant que mon plan\Nsi minutieusement élaboré
+Dialogue: 0,0:20:43.28,0:20:45.84,Default,,0,0,0,,a été découvert\Npar deux jeunes détectives,
+Dialogue: 0,0:20:46.08,0:20:49.60,Default,,0,0,0,,je me dis, et c'est le comble,\Nque tout tombe à l'eau.
+Dialogue: 0,0:20:53.28,0:20:56.32,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:20:57.44,0:21:00.48,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:15.92,0:22:16.96,Default,,0,0,0,,Désolée.
+Dialogue: 0,0:22:17.12,0:22:21.12,Default,,0,0,0,,J'aurais vraiment voulu\Nvous recevoir mieux que ça.
+Dialogue: 0,0:22:21.60,0:22:23.92,Default,,0,0,0,,C'est pas ta faute,\Nil y a eu un crime !
+Dialogue: 0,0:22:24.16,0:22:26.00,Default,,0,0,0,,C'est exactement
+Dialogue: 0,0:22:26.16,0:22:29.52,Default,,0,0,0,,comme au moment de l'émission\N{\i1}Trouvez le bon gâteau{\i0}...
+Dialogue: 0,0:22:30.00,0:22:32.28,Default,,0,0,0,,Tu fais brusquement
+Dialogue: 0,0:22:32.72,0:22:35.76,Default,,0,0,0,,apparaître et disparaître des gens,\Ncomme une magicienne.
+Dialogue: 0,0:22:36.12,0:22:37.40,Default,,0,0,0,,Une magicienne ?
+Dialogue: 0,0:22:38.72,0:22:41.36,Default,,0,0,0,,Il y a erreur sur la personne.
+Dialogue: 0,0:22:45.08,0:22:47.32,Default,,0,0,0,,{\i1}T'es un magicien, toi.{\i0}
+Dialogue: 0,0:22:53.20,0:22:54.16,Default,,0,0,0,,Dis-moi...
+Dialogue: 0,0:22:55.16,0:22:57.12,Default,,0,0,0,,Sera-chan,\Non ne se serait pas
+Dialogue: 0,0:22:57.28,0:23:00.60,Default,,0,0,0,,- déjà rencontrées ?\N- Ah ! T'as dit "Sera-chan" !
+Dialogue: 0,0:23:00.76,0:23:01.76,Default,,0,0,0,,Désolée.
+Dialogue: 0,0:23:02.12,0:23:04.24,Default,,0,0,0,,Pas de problème,\Nappelle-moi comme ça  !
+Dialogue: 0,0:23:04.52,0:23:06.24,Default,,0,0,0,,Tu vois,\Ny a pas de problème !
+Dialogue: 0,0:23:07.44,0:23:08.68,Default,,0,0,0,,Allez, à bientôt !
+Dialogue: 0,0:23:08.84,0:23:10.72,Default,,0,0,0,,- Oui !\N- Bye-bye !
+Dialogue: 0,0:23:11.96,0:23:14.88,Default,,0,0,0,,Bon, eh bien rentrons,\Nnous aussi !
+Dialogue: 0,0:23:17.72,0:23:18.28,Default,,0,0,0,,{\i1}Hein ?{\i0}
+Dialogue: 0,0:23:19.48,0:23:20.44,Default,,0,0,0,,{\i1}Cette fillette...{\i0}
+Dialogue: 0,0:23:23.08,0:23:25.16,Default,,0,0,0,,{\i1}Elle me dit quelque chose,{\i0}\N{\i1}elle aussi...{\i0}
