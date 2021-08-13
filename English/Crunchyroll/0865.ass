@@ -1,0 +1,432 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Naoko,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H0066725C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0010,0120,0050,0
+Style: Mamoru,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00752E3C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0068,0
+Style: Emi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C17175,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0102,0068,0
+Style: Yotaro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CB8A92,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0070,0010,0068,0
+Style: Hospital,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H008E8676,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: Kokubo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A04E75,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0150,0068,0
+Style: Station,Trebuchet MS,18,&H00000000,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0500,0041,0
+Style: Witnessed,Trebuchet MS,16,&H00000000,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0125,0010,0091,0
+Style: Testimony,Trebuchet MS,16,&H00000000,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0019,0010,0089,0
+Style: Death,Trebuchet MS,16,&H00000000,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0278,0010,0126,0
+Style: Hospital2,Trebuchet MS,14,&H00000000,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0040,0160,0
+Style: House,Trebuchet MS,14,&H00000000,&H000000FF,&H00BE854F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0010,0045,0145,0
+Style: Minutes,Trebuchet MS,14,&H00000000,&H000000FF,&H005BD5F8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0220,0010,0043,0
+Style: Minutes2,Trebuchet MS,14,&H00000000,&H000000FF,&H005BD5F8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0320,0010,0132,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.49,0:00:04.23,DCMain,MITSUHIKO,0000,0000,0000,,Conan-kun, here it comes!
+Dialogue: 0,0:00:04.23,0:00:07.61,Naoko,SIGN,0000,0000,0000,,Kokubo Naoko
+Dialogue: 0,0:00:05.68,0:00:07.61,DCMain,CONAN,0000,0000,0000,,Nice pass, Mitsuhiko!
+Dialogue: 0,0:00:07.92,0:00:10.11,DCMain,GENTA,0000,0000,0000,,Over here!
+Dialogue: 0,0:00:11.18,0:00:12.07,DCMain,CONAN,0000,0000,0000,,Genta!
+Dialogue: 0,0:00:12.07,0:00:13.95,DCMain,GENTA,0000,0000,0000,,Got it!
+Dialogue: 0,0:00:18.53,0:00:19.24,DCMain,GENTA,0000,0000,0000,,Ow.
+Dialogue: 0,0:00:21.58,0:00:22.62,DCMain,MAN,0000,0000,0000,,Call the police!
+Dialogue: 0,0:00:37.42,0:00:39.22,DCMain,CONAN,0000,0000,0000,,Even heaven is watching the \Nlabyrinths of the world!
+Dialogue: 0,0:00:39.22,0:00:41.22,DCMain,CONAN,0000,0000,0000,,Full throttle reasoning skills \Npenetrate all mysteries!
+Dialogue: 0,0:00:41.73,0:00:45.23,DCMain,CONAN,0000,0000,0000,,A foul-mouthed myna bird lets \Nslip something unexpected.
+Dialogue: 0,0:00:45.72,0:00:47.52,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:47.52,0:00:49.81,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:00:49.81,0:00:52.41,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:20.99,0:02:27.00,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(401,1)}The Foul-Mouthed Myna Bird
+Dialogue: 0,0:02:21.97,0:02:24.54,DCMain,CONAN,0000,0000,0000,,"The Foul-Mouthed Myna Bird!"
+Dialogue: 0,0:02:32.52,0:02:35.50,DCMain,MEGURE,0000,0000,0000,,Did the victim have a pet bird?
+Dialogue: 0,0:02:35.50,0:02:38.63,DCMain,TAKAGI,0000,0000,0000,,Yes. Apparently it's a myna bird.
+Dialogue: 0,0:02:40.22,0:02:42.56,DCMain,MEGURE,0000,0000,0000,,Judging by the state of this bird cage...
+Dialogue: 0,0:02:42.56,0:02:45.14,DCMain,TAKAGI,0000,0000,0000,,And since that window is open...
+Dialogue: 0,0:02:45.51,0:02:47.84,DCMain,MEGURE,0000,0000,0000,,It escaped.
+Dialogue: 0,0:02:48.31,0:02:49.14,DCMain,POLICE,0000,0000,0000,,Hello?
+Dialogue: 0,0:02:49.71,0:02:51.65,DCMain,POLICE,0000,0000,0000,,Is this Kokubo-san's house?
+Dialogue: 0,0:02:51.96,0:02:54.69,DCMain,POLICE,0000,0000,0000,,I'm calling from the Midoridai \NStation police box.
+Dialogue: 0,0:02:54.69,0:02:59.13,DCMain,POLICE,0000,0000,0000,,We have your myna bird, Nine.
+Dialogue: 0,0:02:57.07,0:03:00.32,DCNote,TEXT,0000,0000,0000,,Nine
+Dialogue: 0,0:02:59.13,0:03:00.32,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:03:00.64,0:03:02.62,DCMain,KOGORO,0000,0000,0000,,So your name is Nine.
+Dialogue: 0,0:03:02.62,0:03:05.30,DCMain,MYNA,0000,0000,0000,,You're a giant idiot.
+Dialogue: 0,0:03:05.30,0:03:06.96,DCMain,KOGORO,0000,0000,0000,,What?!
+Dialogue: 0,0:03:06.96,0:03:08.94,DCMain,KOGORO,0000,0000,0000,,I'm Mori Kogoro!
+Dialogue: 0,0:03:08.94,0:03:11.70,DCMain,RAN,0000,0000,0000,,Why are you getting mad at a bird?
+Dialogue: 0,0:03:11.70,0:03:15.50,DCMain,POLICE,0000,0000,0000,,What? Kokubo-san was murdered?
+Dialogue: 0,0:03:15.88,0:03:21.26,DCMain,MYNA,0000,0000,0000,,Moron, fool, twit, bonehead.
+Dialogue: 0,0:03:19.57,0:03:21.26,DCMain,RAN,0000,0000,0000,,{\an8}He's gone.
+Dialogue: 0,0:03:23.97,0:03:28.33,DCMain,MEGURE,0000,0000,0000,,Ah, Mori-kun. You caught the myna bird?
+Dialogue: 0,0:03:28.33,0:03:30.57,DCMain,MEGURE,0000,0000,0000,,We were just looking for it.
+Dialogue: 0,0:03:30.57,0:03:31.77,DCMain,MEGURE,0000,0000,0000,,Could you bring the bird here?
+Dialogue: 0,0:03:32.58,0:03:34.73,DCMain,MEGURE,0000,0000,0000,,What? You let it get away?
+Dialogue: 0,0:03:34.73,0:03:37.50,DCItalic,MEGURE,0000,0000,0000,,You idiot! Don't bother coming!
+Dialogue: 0,0:03:39.94,0:03:42.50,DCMain,KOGORO,0000,0000,0000,,Even the inspector called me an idiot.
+Dialogue: 0,0:03:43.89,0:03:45.24,DCMain,KOGORO,0000,0000,0000,,Ouch.
+Dialogue: 0,0:03:45.75,0:03:47.09,DCMain,POLICE,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:03:48.06,0:03:50.16,DCMain,RAN,0000,0000,0000,,He sprained his ankle while drinking.
+Dialogue: 0,0:03:50.16,0:03:52.38,DCMain,RAN,0000,0000,0000,,We were on our way to the hospital today.
+Dialogue: 0,0:03:52.38,0:03:57.17,DCMain,KOGORO,0000,0000,0000,,I told you, I don't need to \Ngo to the hospital—ouch.
+Dialogue: 0,0:03:58.53,0:04:00.17,DCMain,RAN,0000,0000,0000,,Come on.
+Dialogue: 0,0:04:00.67,0:04:02.17,DCMain,MITSUHIKO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:04:02.79,0:04:06.44,DCMain,MITSUHIKO,0000,0000,0000,,Apparently that man is Kokubo-san's nephew.
+Dialogue: 0,0:04:06.44,0:04:11.84,DCMain,GENTA,0000,0000,0000,,She was always getting mad \Nat him for asking for money.
+Dialogue: 0,0:04:12.18,0:04:16.68,DCMain,MITSUHIKO,0000,0000,0000,,I can't believe the old \Nwoman who smiled no matter
+Dialogue: 0,0:04:16.68,0:04:18.22,DCMain,MITSUHIKO,0000,0000,0000,,how much noise we made is dead.
+Dialogue: 0,0:04:24.70,0:04:29.20,Mamoru,TEXT,0000,0000,0000,,{\fad(250,1)}Kokubo Mamoru (30) \NVictim's Nephew
+Dialogue: 0,0:04:26.29,0:04:31.81,DCMain,MEGURE,0000,0000,0000,,{\an8}So that man who visited the \Nvictim discovered the body?
+Dialogue: 0,0:04:32.37,0:04:39.78,DCMain,TAKAGI,0000,0000,0000,,Yes, sir. The victim lived here with \Nher live-in maid, Yahagi Emi-san.
+Dialogue: 0,0:04:40.32,0:04:43.97,DCMain,MEGURE,0000,0000,0000,,Where's the maid?
+Dialogue: 0,0:04:43.97,0:04:45.74,DCMain,TAKAGI,0000,0000,0000,,According to a neighbor,
+Dialogue: 0,0:04:45.74,0:04:50.66,DCMain,TAKAGI,0000,0000,0000,,around this time the maid would go \Nshopping and the victim would take a nap.
+Dialogue: 0,0:04:50.66,0:04:54.48,DCMain,TAKAGI,0000,0000,0000,,Every day, from exactly 1PM to 2PM.
+Dialogue: 0,0:04:54.48,0:04:57.23,DCMain,MEGURE,0000,0000,0000,,But it's already past two.
+Dialogue: 0,0:04:58.30,0:05:01.20,DCMain,MEGURE,0000,0000,0000,,How was the victim's relationship \Nwith Yahagi Emi-san?
+Dialogue: 0,0:05:01.20,0:05:03.59,DCMain,TAKAGI,0000,0000,0000,,No one had anything particularly bad to say.
+Dialogue: 0,0:05:03.59,0:05:06.56,DCMain,TAKAGI,0000,0000,0000,,But Yahagi Emi-san's medical \Nbills were piling up
+Dialogue: 0,0:05:06.56,0:05:08.86,DCMain,TAKAGI,0000,0000,0000,,because her mother has \Nbeen sick for a long time,
+Dialogue: 0,0:05:08.86,0:05:11.87,DCMain,TAKAGI,0000,0000,0000,,and she was asking for a raise.
+Dialogue: 0,0:05:14.28,0:05:17.61,DCMain,MEGURE,0000,0000,0000,,There aren't any signs of a break-in.
+Dialogue: 0,0:05:20.24,0:05:24.13,DCMain,TAKAGI,0000,0000,0000,,The side entrance's semi-automatic \Nlock was locked.
+Dialogue: 0,0:05:24.38,0:05:25.65,DCMain,TAKAGI,0000,0000,0000,,There are two keys.
+Dialogue: 0,0:05:26.06,0:05:29.39,DCMain,TAKAGI,0000,0000,0000,,The victim and Yahagi Emi-san each had one.
+Dialogue: 0,0:05:29.39,0:05:31.48,DCMain,TAKAGI,0000,0000,0000,,It's apparently difficult to duplicate.
+Dialogue: 0,0:05:32.10,0:05:35.10,DCMain,MEGURE,0000,0000,0000,,So the culprit could only \Nhave used the main entrance.
+Dialogue: 0,0:05:35.10,0:05:38.18,DCMain,MEGURE,0000,0000,0000,,Is her nephew Kokubo Mamoru-san a student?
+Dialogue: 0,0:05:38.18,0:05:41.40,DCMain,TAKAGI,0000,0000,0000,,No. He learning how to write children's books.
+Dialogue: 0,0:05:41.79,0:05:44.52,DCMain,MEGURE,0000,0000,0000,,So he's still unemployed.
+Dialogue: 0,0:05:44.52,0:05:46.34,DCMain,MEGURE,0000,0000,0000,,When did he find her?
+Dialogue: 0,0:05:46.34,0:05:48.45,DCMain,TAKAGI,0000,0000,0000,,13:55.
+Dialogue: 0,0:05:48.45,0:05:51.11,DCMain,MEGURE,0000,0000,0000,,What? That's rather accurate.
+Dialogue: 0,0:05:51.11,0:05:52.65,DCMain,MEGURE,0000,0000,0000,,Is that was he said?
+Dialogue: 0,0:05:52.65,0:05:55.97,DCMain,TAKAGI,0000,0000,0000,,No, the children saw him.
+Dialogue: 0,0:05:55.97,0:05:58.67,DCMain,MEGURE,0000,0000,0000,,Children? Are they reliable, then?
+Dialogue: 0,0:05:58.67,0:06:00.10,DCMain,MITSUHIKO,0000,0000,0000,,We are!
+Dialogue: 0,0:06:00.10,0:06:00.94,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:06:01.61,0:06:04.35,DCMain,GENTA,0000,0000,0000,,You shouldn't underestimate kids!
+Dialogue: 0,0:06:06.18,0:06:08.50,DCMain,TAKAGI,0000,0000,0000,,As you can see, Inspector...
+Dialogue: 0,0:06:09.22,0:06:10.80,DCMain,MEGURE,0000,0000,0000,,Good grief.
+Dialogue: 0,0:06:12.09,0:06:13.52,DCMain,CONAN,0000,0000,0000,,Nine escaped.
+Dialogue: 0,0:06:14.14,0:06:16.89,DCMain,MEGURE,0000,0000,0000,,You know about the myna bird, too?
+Dialogue: 0,0:06:17.12,0:06:17.89,DCMain,MITSUHIKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:06:18.10,0:06:20.76,DCMain,MITSUHIKO,0000,0000,0000,,The mischievous Nine was famous.
+Dialogue: 0,0:06:22.80,0:06:27.49,DCMain,GENTA,0000,0000,0000,,Uh, oh. It's probably my \Nfault that the window is open.
+Dialogue: 0,0:06:32.82,0:06:33.83,DCMain,GENTA,0000,0000,0000,,Uh, oh.
+Dialogue: 0,0:06:34.66,0:06:36.18,DCItalic,GENTA,0000,0000,0000,,Sorry!
+Dialogue: 0,0:06:37.31,0:06:41.14,DCMain,MEGURE,0000,0000,0000,,I see. The myna bird escaped through there.
+Dialogue: 0,0:06:41.54,0:06:45.42,DCMain,CONAN,0000,0000,0000,,We were playing in the park \Nacross in front of the house.
+Dialogue: 0,0:06:45.66,0:06:51.10,DCMain,TAKAGI,0000,0000,0000,,Apparently no one entered or \Nleft after Yahagi Emi-san.
+Dialogue: 0,0:06:51.10,0:06:51.97,DCMain,ALL,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:53.47,0:06:56.43,Emi,TEXT,0000,0000,0000,,{\fad(250,265)}Yahagi Emi (18) \NKokubo Family Maid
+Dialogue: 0,0:06:53.58,0:06:54.70,DCMain,EMI,0000,0000,0000,,{\an8}Oh, no!
+Dialogue: 0,0:07:02.05,0:07:03.20,DCMain,EMI,0000,0000,0000,,The missus...?
+Dialogue: 0,0:07:04.34,0:07:08.29,DCMain,MEGURE,0000,0000,0000,,You found an abandoned child and \Nwere looking for its mother?
+Dialogue: 0,0:07:08.29,0:07:11.08,DCMain,EMI,0000,0000,0000,,Yes, asleep in their stroller.
+Dialogue: 0,0:07:11.08,0:07:12.78,DCMain,TAKAGI,0000,0000,0000,,Did you find the mother?
+Dialogue: 0,0:07:13.16,0:07:16.10,DCMain,EMI,0000,0000,0000,,Two girls passing by helped me look for her.
+Dialogue: 0,0:07:16.52,0:07:19.56,DCMain,EMI,0000,0000,0000,,Apparently she went to get her hat \Nthat was blown away by the wind.
+Dialogue: 0,0:07:19.56,0:07:23.83,DCMain,MEGURE,0000,0000,0000,,So you're late because you \Nwere watching the stroller?
+Dialogue: 0,0:07:24.08,0:07:27.15,DCMain,EMI,0000,0000,0000,,I was worried the missus would scold me.
+Dialogue: 0,0:07:27.48,0:07:29.92,DCMain,EMI,0000,0000,0000,,I certainly wasn't expecting this.
+Dialogue: 0,0:07:30.12,0:07:34.05,DCMain,MEGURE,0000,0000,0000,,The question is whether or not \Nyour story can be verified.
+Dialogue: 0,0:07:34.05,0:07:34.76,DCMain,EMI,0000,0000,0000,,What?
+Dialogue: 0,0:07:35.13,0:07:39.15,DCMain,MEGURE,0000,0000,0000,,You're the only person besides the victim \Nwho has a key to the side entrance.
+Dialogue: 0,0:07:39.68,0:07:45.54,DCMain,MEGURE,0000,0000,0000,,You could've secretly returned to the house and \Nkilled her and gone back to shopping afterwards.
+Dialogue: 0,0:07:45.54,0:07:46.77,DCMain,EMI,0000,0000,0000,,It wasn't me!
+Dialogue: 0,0:07:47.01,0:07:49.03,DCMain,TAKAGI,0000,0000,0000,,What's the name of the \Nwoman with the stroller?
+Dialogue: 0,0:07:49.03,0:07:52.09,DCMain,EMI,0000,0000,0000,,I-I didn't ask.
+Dialogue: 0,0:07:52.09,0:07:53.66,DCMain,TAKAGI,0000,0000,0000,,What about the girls?
+Dialogue: 0,0:07:53.66,0:07:55.04,DCMain,EMI,0000,0000,0000,,I-I don't know.
+Dialogue: 0,0:07:55.04,0:07:57.00,DCMain,TAKAGI,0000,0000,0000,,You didn't get their names?
+Dialogue: 0,0:07:58.54,0:08:00.04,DCMain,EMI,0000,0000,0000,,I would tell you if I knew!
+Dialogue: 0,0:08:01.96,0:08:02.98,DCMain,POLICE,0000,0000,0000,,Inspector Megure!
+Dialogue: 0,0:08:04.96,0:08:06.66,DCMain,CONAN,0000,0000,0000,,It's Kogoro-no-ojisan.
+Dialogue: 0,0:08:06.66,0:08:08.09,DCMain,RAN,0000,0000,0000,,Conan-kun.
+Dialogue: 0,0:08:08.09,0:08:11.26,DCMain,KOGORO,0000,0000,0000,,What are you kids doing here?
+Dialogue: 0,0:08:11.49,0:08:12.85,DCMain,EMI,0000,0000,0000,,Sayama-san?!
+Dialogue: 0,0:08:12.85,0:08:15.97,DCMain,SAYAMA,0000,0000,0000,,Well, hello. This is \Nquite the mess, isn't it?
+Dialogue: 0,0:08:16.22,0:08:20.22,DCMain,EMI,0000,0000,0000,,The missus was furious that\Nyou sold her a forgery.
+Dialogue: 0,0:08:21.06,0:08:22.27,DCMain,MEGURE,0000,0000,0000,,Who are you?
+Dialogue: 0,0:08:22.69,0:08:25.80,DCMain,KOGORO,0000,0000,0000,,{\an8}A used book seller named Sayama-san.
+Dialogue: 0,0:08:22.77,0:08:27.44,Yotaro,TEXT,0000,0000,0000,,{\fad(250,250)}Sayama Yotaro (60) \NUsed Book Seller
+Dialogue: 0,0:08:25.80,0:08:27.69,DCMain,KOGORO,0000,0000,0000,,{\an8}We met at the hospital.
+Dialogue: 0,0:08:28.56,0:08:30.72,DCItalic,DOCTOR,0000,0000,0000,,Don't push yourself too hard.
+Dialogue: 0,0:08:30.72,0:08:33.38,DCItalic,DOCTOR,0000,0000,0000,,I'll write you a prescription \Nfor the medicine right away.
+Dialogue: 0,0:08:33.75,0:08:34.94,DCItalic,SAYAMA,0000,0000,0000,,Doctor.
+Dialogue: 0,0:08:35.48,0:08:37.45,DCItalic,DOCTOR,0000,0000,0000,,What is it, Sayama-san?
+Dialogue: 0,0:08:37.71,0:08:40.89,DCItalic,SAYAMA,0000,0000,0000,,Isn't there anything you \Ncan do so I can drive?
+Dialogue: 0,0:08:40.89,0:08:43.50,DCItalic,SAYAMA,0000,0000,0000,,I can't work like this.
+Dialogue: 0,0:08:43.50,0:08:44.74,DCItalic,DOCTOR,0000,0000,0000,,That's impossible.
+Dialogue: 0,0:08:44.74,0:08:46.33,DCItalic,DOCTOR,0000,0000,0000,,It'll take three more days.
+Dialogue: 0,0:08:46.59,0:08:47.86,DCItalic,SAYAMA,0000,0000,0000,,I see...
+Dialogue: 0,0:08:51.09,0:08:55.34,Hospital,SIGN,0000,0000,0000,,Midoridai Hospital
+Dialogue: 0,0:08:51.32,0:08:53.68,DCItalic,KOGORO,0000,0000,0000,,Hey, was that him?
+Dialogue: 0,0:08:53.68,0:08:57.58,DCItalic,RAN,0000,0000,0000,,That was a crow, not a myna bird.
+Dialogue: 0,0:08:57.58,0:08:59.25,DCItalic,SAYAMA,0000,0000,0000,,Myna bird?
+Dialogue: 0,0:08:59.25,0:09:02.32,DCItalic,SAYAMA,0000,0000,0000,,That bird that flies around with a \Nred piece of yarn trailing behind it?
+Dialogue: 0,0:09:02.32,0:09:07.87,DCItalic,SAYAMA,0000,0000,0000,,Oh, I just thought you meant \NKokubo-san's myna bird.
+Dialogue: 0,0:09:09.48,0:09:10.36,DCItalic,SAYAMA,0000,0000,0000,,What is it?
+Dialogue: 0,0:09:11.03,0:09:12.01,DCItalic,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:09:12.44,0:09:14.74,DCItalic,KOGORO,0000,0000,0000,,Of course you haven't heard.
+Dialogue: 0,0:09:14.89,0:09:15.67,DCItalic,SAYAMA,0000,0000,0000,,What?
+Dialogue: 0,0:09:16.80,0:09:20.49,DCMain,KOGORO,0000,0000,0000,,I brought him because he \Nseemed to know the victim.
+Dialogue: 0,0:09:20.84,0:09:24.57,DCMain,RAN,0000,0000,0000,,Despite what he says, he just wants \Nto stick his nose in the case.
+Dialogue: 0,0:09:24.57,0:09:28.68,DCMain,CONAN,0000,0000,0000,,But it looks like he was \Nright to bring the old man.
+Dialogue: 0,0:09:28.68,0:09:29.50,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:09:29.78,0:09:33.40,DCMain,EMI,0000,0000,0000,,The missus collected rare old books.
+Dialogue: 0,0:09:33.40,0:09:36.53,DCMain,EMI,0000,0000,0000,,But the book she bought \Nfrom Sayama-san was...
+Dialogue: 0,0:09:36.53,0:09:39.97,DCMain,SAYAMA,0000,0000,0000,,I-It fooled me, too.
+Dialogue: 0,0:09:39.97,0:09:42.51,DCMain,SAYAMA,0000,0000,0000,,I meant to tell her the truth right away.
+Dialogue: 0,0:09:42.67,0:09:46.32,DCMain,EMI,0000,0000,0000,,But you still haven't \Nreturned her money, right?
+Dialogue: 0,0:09:47.64,0:09:50.52,DCMain,EMI,0000,0000,0000,,I overheard her before I went out.
+Dialogue: 0,0:09:51.22,0:09:56.78,DCItalic,EMI,0000,0000,0000,,Ma'am, shall I move the flowerpot \Nin the backyard to the kitchen?
+Dialogue: 0,0:09:56.82,0:09:59.78,Kokubo,TEXT,0000,0000,0000,,{\fad(250,1)}Kokubo Naoko (70) \NPicture Book Author
+Dialogue: 0,0:09:57.98,0:09:59.78,DCItalic,NAOKO,0000,0000,0000,,{\an8}You can do it later.
+Dialogue: 0,0:10:00.19,0:10:02.77,DCItalic,NAOKO,0000,0000,0000,,I'm sick of your excuses, Sayama-san.
+Dialogue: 0,0:10:03.60,0:10:05.29,DCItalic,EMI,0000,0000,0000,,It's already ten past.
+Dialogue: 0,0:10:05.45,0:10:08.53,DCItalic,NAOKO,0000,0000,0000,,Find the money and pay me back immediately!
+Dialogue: 0,0:10:10.37,0:10:11.54,DCItalic,EMI,0000,0000,0000,,Poor man.
+Dialogue: 0,0:10:12.18,0:10:15.88,DCMain,SAYAMA,0000,0000,0000,,I can't raise money with this kind of injury.
+Dialogue: 0,0:10:15.88,0:10:17.77,DCMain,EMI,0000,0000,0000,,I don't need your excuses.
+Dialogue: 0,0:10:17.77,0:10:20.55,DCMain,EMI,0000,0000,0000,,Does this mean you can't return the money?
+Dialogue: 0,0:10:20.90,0:10:24.43,DCMain,SAYAMA,0000,0000,0000,,You're just as angry as \Nyour mistress, Emi-chan.
+Dialogue: 0,0:10:24.70,0:10:26.45,DCMain,EMI,0000,0000,0000,,Don't call me that!
+Dialogue: 0,0:10:27.07,0:10:30.04,DCMain,TAKAGI,0000,0000,0000,,Inspector! I have a report from forensics.
+Dialogue: 0,0:10:30.04,0:10:30.81,DCMain,MEGURE,0000,0000,0000,,Got it.
+Dialogue: 0,0:10:31.06,0:10:34.44,DCMain,TAKAGI,0000,0000,0000,,They found strangulation \Nmarks on the victim's neck.
+Dialogue: 0,0:10:35.31,0:10:40.59,DCMain,TAKAGI,0000,0000,0000,,The weapon was the white stole the \Nvictim had wrapped around her neck.
+Dialogue: 0,0:10:41.95,0:10:46.34,DCMain,TAKAGI,0000,0000,0000,,The time of death was between 12:55 to 13:55.
+Dialogue: 0,0:10:46.34,0:10:52.33,DCMain,MEGURE,0000,0000,0000,,No, the actual murder occurred \Nbetween 13:35 and 13:55.
+Dialogue: 0,0:10:53.85,0:10:55.46,DCMain,CONAN,0000,0000,0000,,I'm going to the bathroom.
+Dialogue: 0,0:10:55.46,0:10:57.57,DCMain,RAN,0000,0000,0000,,Come back right away.
+Dialogue: 0,0:10:57.57,0:10:58.59,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:10:59.54,0:11:01.13,DCMain,MEGURE,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:11:02.69,0:11:04.79,DCMain,MEGURE,0000,0000,0000,,What room is this?
+Dialogue: 0,0:11:04.79,0:11:07.89,DCMain,MAMORU,0000,0000,0000,,My aunt's office.
+Dialogue: 0,0:11:07.89,0:11:09.85,DCMain,MAMORU,0000,0000,0000,,She wrote children's books.
+Dialogue: 0,0:11:10.09,0:11:12.33,DCMain,MAMORU,0000,0000,0000,,A long time ago, anyway.
+Dialogue: 0,0:11:18.66,0:11:21.54,DCMain,TAKAGI,0000,0000,0000,,Kokubo Naoko's books are here.
+Dialogue: 0,0:11:23.50,0:11:24.70,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:11:24.70,0:11:27.41,DCMain,MEGURE,0000,0000,0000,,I knew I recognized that name.
+Dialogue: 0,0:11:27.61,0:11:30.66,DCMain,MEGURE,0000,0000,0000,,I believe she stopped \Nwriting after a scandal.
+Dialogue: 0,0:11:30.88,0:11:32.56,DCMain,TAKAGI,0000,0000,0000,,I see. Thank you.
+Dialogue: 0,0:11:34.53,0:11:38.96,DCMain,TAKAGI,0000,0000,0000,,Sayama-san was seen speaking \Nover his cell phone
+Dialogue: 0,0:11:38.96,0:11:40.67,DCMain,TAKAGI,0000,0000,0000,,at Midoridai Station at 12:55.
+Dialogue: 0,0:11:41.26,0:11:44.41,DCMain,MEGURE,0000,0000,0000,,That matches Yahagi-san's story.
+Dialogue: 0,0:11:44.41,0:11:45.85,DCMain,MEGURE,0000,0000,0000,,How far is it to the station from here?
+Dialogue: 0,0:11:45.85,0:11:48.58,DCMain,TAKAGI,0000,0000,0000,,Since he doesn't seem to have taken a taxi,
+Dialogue: 0,0:11:48.58,0:11:51.16,DCMain,TAKAGI,0000,0000,0000,,it's about a forty-five minute walk.
+Dialogue: 0,0:11:52.17,0:11:53.38,DCMain,HAIBARA,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:11:54.78,0:11:55.57,DCMain,POLICE,0000,0000,0000,,Yes?
+Dialogue: 0,0:11:56.36,0:11:57.36,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:11:58.78,0:12:00.11,DCMain,HAIBARA,0000,0000,0000,,What kind of party is this?
+Dialogue: 0,0:12:00.63,0:12:02.40,DCMain,EMI,0000,0000,0000,,You're those girls.
+Dialogue: 0,0:12:02.78,0:12:05.44,DCMain,HAIBARA,0000,0000,0000,,Oh, you work here?
+Dialogue: 0,0:12:05.44,0:12:06.72,DCMain,EMI,0000,0000,0000,,That's right.
+Dialogue: 0,0:12:07.14,0:12:09.04,DCMain,EMI,0000,0000,0000,,Oh? You have Nine with you.
+Dialogue: 0,0:12:09.04,0:12:11.54,DCMain,AYUMI,0000,0000,0000,,Since he's famous, we \Nrecognized him right away.
+Dialogue: 0,0:12:11.54,0:12:12.41,DCMain,EMI,0000,0000,0000,,Thank you.
+Dialogue: 0,0:12:14.81,0:12:18.44,DCMain,MEGURE,0000,0000,0000,,The children can back up \NKokubo Mamoru-san's story,
+Dialogue: 0,0:12:18.44,0:12:20.65,DCMain,MEGURE,0000,0000,0000,,but what about Sayama Yotaro-san?
+Dialogue: 0,0:12:20.65,0:12:23.55,DCMain,TAKAGI,0000,0000,0000,,We have the victim's call history.
+Dialogue: 0,0:12:23.55,0:12:26.76,DCMain,TAKAGI,0000,0000,0000,,Their call lasted from 12:55 to 13:35.
+Dialogue: 0,0:12:28.10,0:12:29.97,DCMain,MEGURE,0000,0000,0000,,That's a long conversation.
+Dialogue: 0,0:12:29.97,0:12:32.58,DCMain,MEGURE,0000,0000,0000,,And he went to the hospital after that.
+Dialogue: 0,0:12:32.58,0:12:34.27,DCMain,MEGURE,0000,0000,0000,,Is it possible for him to have done it?
+Dialogue: 0,0:12:34.54,0:12:38.44,DCMain,TAKAGI,0000,0000,0000,,The hospital is about halfway \Nbetween here and the station.
+Dialogue: 0,0:12:38.44,0:12:53.04,Station,TEXT,0000,0000,0000,,{\fad(210,1)}Midoridai \NStation
+Dialogue: 0,0:12:38.44,0:12:53.04,Witnessed,TEXT,0000,0000,0000,,{\fad(210,1)}Sayama Witnessed
+Dialogue: 0,0:12:38.44,0:12:53.04,Testimony,TEXT,0000,0000,0000,,{\fad(210,1)}Kogoro's Testimony
+Dialogue: 0,0:12:38.44,0:12:53.04,Death,TEXT,0000,0000,0000,,{\fad(210,1)}Estimated \NTime of Death
+Dialogue: 0,0:12:38.44,0:12:53.04,Hospital2,TEXT,0000,0000,0000,,{\fad(210,1)}Hospital
+Dialogue: 0,0:12:38.44,0:12:53.04,House,TEXT,0000,0000,0000,,{\fad(210,1)}Kokubo House
+Dialogue: 0,0:12:39.44,0:12:41.74,DCMain,TAKAGI,0000,0000,0000,,If Sayama-san headed to the hospital
+Dialogue: 0,0:12:41.74,0:12:43.99,DCMain,TAKAGI,0000,0000,0000,,after making a call at the station,
+Dialogue: 0,0:12:42.07,0:12:53.04,Minutes,TEXT,0000,0000,0000,,{\fad(210,1)}minutes
+Dialogue: 0,0:12:43.99,0:12:46.63,DCMain,TAKAGI,0000,0000,0000,,and going to Kokubo Naoko-san's
+Dialogue: 0,0:12:46.07,0:12:53.04,Minutes2,TEXT,0000,0000,0000,,{\fad(234,1)}minutes
+Dialogue: 0,0:12:46.63,0:12:48.45,DCMain,TAKAGI,0000,0000,0000,,house to murder her,
+Dialogue: 0,0:12:48.45,0:12:51.23,DCMain,TAKAGI,0000,0000,0000,,that wouldn't match the time of death
+Dialogue: 0,0:12:51.23,0:12:53.04,DCMain,TAKAGI,0000,0000,0000,,or Mori-san's testimony.
+Dialogue: 0,0:12:53.45,0:12:55.54,DCMain,TAKAGI,0000,0000,0000,,The answer is clear.
+Dialogue: 0,0:12:55.93,0:12:59.56,DCMain,TAKAGI,0000,0000,0000,,Yahagi Emi-san is the only person \Nwho has no one to verify her alibi.
+Dialogue: 0,0:13:00.70,0:13:05.76,DCMain,MEGURE,0000,0000,0000,,Looks like we won't need the \NSleeping Kogoro this time.
+Dialogue: 0,0:13:13.72,0:13:16.98,DCMain,MEGURE,0000,0000,0000,,They all have alibis?
+Dialogue: 0,0:13:17.27,0:13:20.67,DCMain,AYUMI,0000,0000,0000,,I'll testify anytime!
+Dialogue: 0,0:13:21.17,0:13:23.55,DCMain,HAIBARA,0000,0000,0000,,Is that inconvenient for you?
+Dialogue: 0,0:13:23.55,0:13:26.24,DCMain,BIRD,0000,0000,0000,,Why don't you hang yourself with noodles?
+Dialogue: 0,0:13:31.40,0:13:34.54,DCMain,BIRD,0000,0000,0000,,Go hit your head on some tofu.
+Dialogue: 0,0:13:35.26,0:13:37.35,DCMain,KOGORO,0000,0000,0000,,What? How rude.
+Dialogue: 0,0:13:42.95,0:13:46.04,DCMain,HAIBARA,0000,0000,0000,,Why does Nine insult everyone?
+Dialogue: 0,0:13:46.44,0:13:49.34,DCMain,RAN,0000,0000,0000,,He was quiet earlier.
+Dialogue: 0,0:13:49.65,0:13:51.75,DCMain,HAIBARA,0000,0000,0000,,He's smart and likes people,
+Dialogue: 0,0:13:51.75,0:13:55.12,DCMain,HAIBARA,0000,0000,0000,,but I can't believe he \Nwas only taught insults.
+Dialogue: 0,0:13:55.73,0:13:57.98,DCMain,EMI,0000,0000,0000,,Maybe it's the missus' influence.
+Dialogue: 0,0:13:58.35,0:14:01.08,DCMain,EMI,0000,0000,0000,,After being betrayed by someone she trusted,
+Dialogue: 0,0:14:01.08,0:14:03.55,DCMain,EMI,0000,0000,0000,,she couldn't trust anyone anymore.
+Dialogue: 0,0:14:04.02,0:14:06.84,DCMain,EMI,0000,0000,0000,,She said all compliments were lies,
+Dialogue: 0,0:14:06.84,0:14:10.52,DCMain,EMI,0000,0000,0000,,and only insults were accurate.
+Dialogue: 0,0:14:10.95,0:14:15.80,DCMain,SAYAMA,0000,0000,0000,,Ah, you mean when Kokubo-san \Nplagiarized her mentor.
+Dialogue: 0,0:14:16.16,0:14:20.67,DCMain,SAYAMA,0000,0000,0000,,But according to insiders, \Nit was the other way around.
+Dialogue: 0,0:14:20.67,0:14:23.15,DCMain,EMI,0000,0000,0000,,It wasn't the missus who \Ncommitted plagiarism.
+Dialogue: 0,0:14:23.15,0:14:25.47,DCMain,EMI,0000,0000,0000,,Her mentor had writer's block.
+Dialogue: 0,0:14:26.18,0:14:29.31,DCMain,EMI,0000,0000,0000,,But the media sided with the major writer,
+Dialogue: 0,0:14:29.68,0:14:32.22,DCMain,EMI,0000,0000,0000,,and wouldn't listen to the missus.
+Dialogue: 0,0:14:33.15,0:14:35.72,DCMain,BIRD,0000,0000,0000,,People are blind.
+Dialogue: 0,0:14:36.05,0:14:38.73,DCMain,HAIBARA,0000,0000,0000,,It happens all the time.
+Dialogue: 0,0:14:39.11,0:14:43.70,DCItalic,MEGURE,0000,0000,0000,,Which one of them killed Naoko-san?
+Dialogue: 0,0:14:44.16,0:14:49.37,DCMain,MAMORU,0000,0000,0000,,That's why my aunt told me to stop writing.
+Dialogue: 0,0:14:49.87,0:14:51.39,DCMain,EMI,0000,0000,0000,,But, Mamoru-san,
+Dialogue: 0,0:14:51.74,0:14:58.87,DCMain,EMI,0000,0000,0000,,the missus always said you'd be successful.
+Dialogue: 0,0:14:59.34,0:15:00.25,DCMain,MAMORU,0000,0000,0000,,What?
+Dialogue: 0,0:15:05.12,0:15:06.15,DCMain,MAMORU,0000,0000,0000,,I see.
+Dialogue: 0,0:15:07.96,0:15:10.58,DCMain,EMI,0000,0000,0000,,Huh? That flowerpot...
+Dialogue: 0,0:15:13.66,0:15:17.69,DCMain,EMI,0000,0000,0000,,Mamoru-san, did you bring this inside?
+Dialogue: 0,0:15:17.69,0:15:19.64,DCMain,MAMORU,0000,0000,0000,,No, it wasn't me.
+Dialogue: 0,0:15:19.86,0:15:20.86,DCMain,EMI,0000,0000,0000,,I see.
+Dialogue: 0,0:15:21.86,0:15:25.54,DCMain,CONAN,0000,0000,0000,,How much trouble did the \Nold woman have walking?
+Dialogue: 0,0:15:25.54,0:15:28.99,DCMain,MAMORU,0000,0000,0000,,I think she said she could \Nbarely use a wheelchair.
+Dialogue: 0,0:15:28.99,0:15:31.40,DCMain,BIRD,0000,0000,0000,,I can't stand the stench. It stinks.
+Dialogue: 0,0:15:31.90,0:15:35.22,DCMain,KOGORO,0000,0000,0000,,Who stinks? You mean the culprit?
+Dialogue: 0,0:15:35.22,0:15:37.24,DCMain,RAN,0000,0000,0000,,How could he possibly know?
+Dialogue: 0,0:15:37.67,0:15:39.66,DCMain,RAN,0000,0000,0000,,He's just a bird.
+Dialogue: 0,0:15:39.66,0:15:41.96,DCMain,BIRD,0000,0000,0000,,I want eel.
+Dialogue: 0,0:15:42.22,0:15:43.18,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:15:44.31,0:15:45.96,DCMain,BIRD,0000,0000,0000,,I'm hungry.
+Dialogue: 0,0:15:46.32,0:15:47.84,DCMain,GENTA,0000,0000,0000,,He copied me.
+Dialogue: 0,0:15:51.18,0:15:54.60,DCMain,RAN,0000,0000,0000,,By the way, what's the band for?
+Dialogue: 0,0:15:54.60,0:15:59.38,DCMain,EMI,0000,0000,0000,,The missus put it on him this morning so he'd \Nbe easily identifiable if he escaped again.
+Dialogue: 0,0:15:59.73,0:16:01.64,DCMain,RAN,0000,0000,0000,,It certainly is eye-catching.
+Dialogue: 0,0:16:01.64,0:16:06.19,DCMain,RAN,0000,0000,0000,,Sayama-san called him the \Nmyna bird with the red yarn.
+Dialogue: 0,0:16:07.11,0:16:11.26,DCMain,CONAN,0000,0000,0000,,Hey, is there anything smelly in the house?
+Dialogue: 0,0:16:11.26,0:16:14.32,DCMain,MAMORU,0000,0000,0000,,There's all kinds of pickles.
+Dialogue: 0,0:16:14.32,0:16:16.39,DCMain,MAMORU,0000,0000,0000,,My aunt liked them.
+Dialogue: 0,0:16:16.39,0:16:18.24,DCMain,CONAN,0000,0000,0000,,But I don't smell anything.
+Dialogue: 0,0:16:18.60,0:16:21.62,DCMain,MAMORU,0000,0000,0000,,They're kept in the basement.
+Dialogue: 0,0:16:21.82,0:16:23.62,DCMain,CONAN,0000,0000,0000,,Where's that?
+Dialogue: 0,0:16:25.68,0:16:26.80,DCMain,EMI,0000,0000,0000,,They're down here.
+Dialogue: 0,0:16:27.55,0:16:28.79,DCMain,EMI,0000,0000,0000,,Is there something down there?
+Dialogue: 0,0:16:33.12,0:16:34.89,DCMain,BIRD,0000,0000,0000,,I can't stand the stench.
+Dialogue: 0,0:16:34.89,0:16:36.50,DCMain,BIRD,0000,0000,0000,,It stinks.
+Dialogue: 0,0:16:38.25,0:16:40.68,DCItalic,CONAN,0000,0000,0000,,I knew it. So that's how it is.
+Dialogue: 0,0:16:43.95,0:16:45.03,DCMain,KOGORO,0000,0000,0000,,How rude!
+Dialogue: 0,0:16:46.14,0:16:48.31,DCMain,MEGURE,0000,0000,0000,,It doesn't look like he'll be falling asleep.
+Dialogue: 0,0:16:49.84,0:16:51.08,DCMain,EMI,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:16:54.26,0:16:56.07,DCMain,TAKAGI,0000,0000,0000,,Inspector! It's Mori-san!
+Dialogue: 0,0:16:56.47,0:16:58.78,DCMain,MEGURE,0000,0000,0000,,Ah, I've been waiting for this.
+Dialogue: 0,0:16:59.33,0:17:01.79,DCMain,KOGORO,0000,0000,0000,,Sorry to keep you all waiting.
+Dialogue: 0,0:17:02.82,0:17:05.29,DCMain,KOGORO,0000,0000,0000,,This was a truly difficult case.
+Dialogue: 0,0:17:05.82,0:17:10.30,DCMain,KOGORO,0000,0000,0000,,After all, all three of \Nthe suspects have alibis.
+Dialogue: 0,0:17:11.17,0:17:15.68,DCMain,KOGORO,0000,0000,0000,,However, there's one person \Nwhose alibi doesn't hold up.
+Dialogue: 0,0:17:15.86,0:17:18.25,DCMain,TAKAGI,0000,0000,0000,,Their alibi doesn't hold up?
+Dialogue: 0,0:17:18.25,0:17:19.93,DCMain,MEGURE,0000,0000,0000,,Wh-Who is it?
+Dialogue: 0,0:17:20.52,0:17:22.43,DCMain,KOGORO,0000,0000,0000,,The owner of Sayama's Books.
+Dialogue: 0,0:17:24.02,0:17:25.96,DCMain,KOGORO,0000,0000,0000,,Sayama Yotaro-san.
+Dialogue: 0,0:17:25.96,0:17:28.14,DCMain,SAYAMA,0000,0000,0000,,Wh-What are you talking about?
+Dialogue: 0,0:17:28.52,0:17:32.86,DCMain,SAYAMA,0000,0000,0000,,You verified my alibi.
+Dialogue: 0,0:17:32.86,0:17:34.72,DCMain,KOGORO,0000,0000,0000,,Let me ask you something.
+Dialogue: 0,0:17:35.32,0:17:39.66,DCMain,KOGORO,0000,0000,0000,,Apparently you saw a myna bird \Nwith red yarn trailing behind him.
+Dialogue: 0,0:17:39.79,0:17:41.10,DCMain,SAYAMA,0000,0000,0000,,So, what?
+Dialogue: 0,0:17:41.10,0:17:45.84,DCMain,KOGORO,0000,0000,0000,,Nine left the yarn and his \Nleg band at the police box.
+Dialogue: 0,0:17:46.40,0:17:51.15,DCMain,KOGORO,0000,0000,0000,,When did you see a myna bird with red yarn?
+Dialogue: 0,0:17:51.15,0:17:53.82,DCMain,RAN,0000,0000,0000,,Oh, right. That's amazing, Dad.
+Dialogue: 0,0:17:53.82,0:17:56.91,DCMain,SAYAMA,0000,0000,0000,,I-I saw a myna bird with red yarn
+Dialogue: 0,0:17:56.91,0:17:59.93,DCMain,SAYAMA,0000,0000,0000,,on the way to the hospital!
+Dialogue: 0,0:18:00.26,0:18:01.28,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:18:01.69,0:18:03.61,DCMain,KOGORO,0000,0000,0000,,I'm impressed you were able to recognize that
+Dialogue: 0,0:18:04.26,0:18:07.35,DCMain,KOGORO,0000,0000,0000,,it was yarn and not red string.
+Dialogue: 0,0:18:08.41,0:18:13.29,DCMain,KOGORO,0000,0000,0000,,By the way, apparently the victim \Nattached the yarn to Nine this morning.
+Dialogue: 0,0:18:13.29,0:18:16.86,DCMain,SAYAMA,0000,0000,0000,,I-I just misspoke.
+Dialogue: 0,0:18:17.14,0:18:18.88,DCMain,TAKAGI,0000,0000,0000,,But, Mori-san,
+Dialogue: 0,0:18:18.88,0:18:23.92,DCMain,TAKAGI,0000,0000,0000,,Sayama-san was seen at \NMidoridai Station at 12:55.
+Dialogue: 0,0:18:23.92,0:18:28.40,DCMain,TAKAGI,0000,0000,0000,,It would have been impossible for \Nhim to meet you at the hospital
+Dialogue: 0,0:18:28.40,0:18:33.77,DCMain,TAKAGI,0000,0000,0000,,after speaking on the phone until 13:35
+Dialogue: 0,0:18:33.77,0:18:35.18,DCMain,TAKAGI,0000,0000,0000,,and killing Naoko-san here.
+Dialogue: 0,0:18:35.87,0:18:40.23,DCMain,KOGORO,0000,0000,0000,,What if Sayama-san kept walking
+Dialogue: 0,0:18:40.81,0:18:44.89,DCMain,KOGORO,0000,0000,0000,,after answering the victim's \Ncall at the station?
+Dialogue: 0,0:18:46.30,0:18:48.62,DCMain,KOGORO,0000,0000,0000,,The victim told him to come \Nto her home immediately.
+Dialogue: 0,0:18:49.02,0:18:51.83,DCMain,KOGORO,0000,0000,0000,,He simply followed her instructions.
+Dialogue: 0,0:18:51.83,0:18:53.40,DCMain,TAKAGI,0000,0000,0000,,I see.
+Dialogue: 0,0:18:53.40,0:18:57.80,DCMain,TAKAGI,0000,0000,0000,,He could've arrived at the house \Nby the time the call ended.
+Dialogue: 0,0:18:57.80,0:18:59.26,DCMain,MEGURE,0000,0000,0000,,But he couldn't have
+Dialogue: 0,0:19:00.00,0:19:04.46,DCMain,MEGURE,0000,0000,0000,,used the main entrance based \Non the children's testimony.
+Dialogue: 0,0:19:04.46,0:19:07.87,DCMain,MEGURE,0000,0000,0000,,How on earth did he get in?
+Dialogue: 0,0:19:07.87,0:19:09.10,DCMain,KOGORO,0000,0000,0000,,The side entrance.
+Dialogue: 0,0:19:09.10,0:19:09.71,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:19:10.00,0:19:11.71,DCMain,MEGURE,0000,0000,0000,,I thought it was locked.
+Dialogue: 0,0:19:12.08,0:19:17.34,DCMain,KOGORO,0000,0000,0000,,The victim Kokubo Naoko-san \Nopened it herself.
+Dialogue: 0,0:19:17.66,0:19:19.22,DCMain,MEGURE,0000,0000,0000,,What?!
+Dialogue: 0,0:19:19.58,0:19:22.26,DCMain,KOGORO,0000,0000,0000,,The flowerpot proves it.
+Dialogue: 0,0:19:22.26,0:19:25.00,DCMain,EMI,0000,0000,0000,,That's why that flowerpot was there.
+Dialogue: 0,0:19:25.73,0:19:28.22,DCMain,KOGORO,0000,0000,0000,,After being summoned to the side entrance,
+Dialogue: 0,0:19:28.52,0:19:33.12,DCMain,KOGORO,0000,0000,0000,,the victim instructed him to bring in \Nthe flowerpot by the rear entrance.
+Dialogue: 0,0:19:34.50,0:19:35.94,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:19:35.94,0:19:38.25,DCMain,KOGORO,0000,0000,0000,,Committing the crime and \Nleaving afterwards was simple.
+Dialogue: 0,0:19:38.25,0:19:43.15,DCMain,KOGORO,0000,0000,0000,,Since the lock is semi-automatic, it locks \N after pushing a button and exiting.
+Dialogue: 0,0:19:44.15,0:19:45.03,DCMain,KOGORO,0000,0000,0000,,Sayama-san.
+Dialogue: 0,0:19:45.89,0:19:48.14,DCMain,SAYAMA,0000,0000,0000,,B-But look at me!
+Dialogue: 0,0:19:48.14,0:19:50.29,DCMain,SAYAMA,0000,0000,0000,,I can't use my dominant hand!
+Dialogue: 0,0:19:50.65,0:19:54.46,DCMain,SAYAMA,0000,0000,0000,,Right?! I couldn't have done it!
+Dialogue: 0,0:19:54.60,0:19:57.56,DCMain,SAYAMA,0000,0000,0000,,Mori-san, you heard what the doctor said!
+Dialogue: 0,0:19:57.56,0:19:58.37,DCMain,KOGORO,0000,0000,0000,,Yes,
+Dialogue: 0,0:19:59.60,0:20:02.38,DCMain,KOGORO,0000,0000,0000,,that was your last excuse.
+Dialogue: 0,0:20:03.88,0:20:05.95,DCMain,KOGORO,0000,0000,0000,,Let me ask you something.
+Dialogue: 0,0:20:06.46,0:20:11.68,DCMain,KOGORO,0000,0000,0000,,Sayama-san, you're the one that \Nsaid this room stinks, aren't you?
+Dialogue: 0,0:20:12.97,0:20:15.91,DCMain,KOGORO,0000,0000,0000,,The clever Nine even \Nremembered how you said it.
+Dialogue: 0,0:20:16.61,0:20:19.88,DCMain,KOGORO,0000,0000,0000,,What could possibly have smelled so bad?
+Dialogue: 0,0:20:20.52,0:20:22.15,DCMain,KOGORO,0000,0000,0000,,Conan, are you there?
+Dialogue: 0,0:20:22.42,0:20:23.40,DCMain,CONAN,0000,0000,0000,,I'm here.
+Dialogue: 0,0:20:25.31,0:20:28.83,DCMain,CONAN,0000,0000,0000,,Okay. I'll try it.
+Dialogue: 0,0:20:29.93,0:20:30.86,DCMain,CONAN,0000,0000,0000,,There.
+Dialogue: 0,0:20:37.82,0:20:38.82,DCMain,CONAN,0000,0000,0000,,It's done.
+Dialogue: 0,0:20:42.32,0:20:47.18,DCMain,KOGORO,0000,0000,0000,,This allowed you to strangle \Nher with only one hand.
+Dialogue: 0,0:21:21.48,0:21:22.96,DCMain,SAYAMA,0000,0000,0000,,She was crazy.
+Dialogue: 0,0:21:23.23,0:21:26.20,DCMain,SAYAMA,0000,0000,0000,,Returning the money wasn't \Nenough to forgive me.
+Dialogue: 0,0:21:26.66,0:21:29.25,DCMain,SAYAMA,0000,0000,0000,,Post an apology at my store.
+Dialogue: 0,0:21:29.25,0:21:32.08,DCMain,SAYAMA,0000,0000,0000,,Send an apology to the newspaper.
+Dialogue: 0,0:21:32.08,0:21:35.32,DCMain,SAYAMA,0000,0000,0000,,Go into the basement and stir the pickles.
+Dialogue: 0,0:21:36.12,0:21:38.98,DCMain,SAYAMA,0000,0000,0000,,I couldn't take it anymore.
+Dialogue: 0,0:21:41.99,0:21:44.76,DCMain,MEGURE,0000,0000,0000,,You can tell us all about it at the station.
+Dialogue: 0,0:23:16.81,0:23:20.34,DCMain,RAN,0000,0000,0000,,She wrote such beautiful stories, too.
+Dialogue: 0,0:23:20.34,0:23:26.30,DCMain,MITSUHIKO,0000,0000,0000,,I can't believe she had such \Na terrifying side to her.
+Dialogue: 0,0:23:26.69,0:23:30.30,DCMain,CONAN,0000,0000,0000,,It just goes to show women \Nare different on the inside.
+Dialogue: 0,0:23:33.65,0:23:36.06,DCMain,RAN,0000,0000,0000,,Conan-kun...
+Dialogue: 0,0:23:36.44,0:23:37.57,DCMain,HAIBARA,0000,0000,0000,,Whoops.
+Dialogue: 0,0:23:38.95,0:23:40.04,DCMain,CONAN,0000,0000,0000,,Ouch.
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:46.10,0:23:47.46,DCMain,AKAI,0000,0000,0000,,Traitors...
+Dialogue: 0,0:23:55.75,0:23:58.58,DCMain,AKAI,0000,0000,0000,,...will be punished.
+Dialogue: 0,0:24:04.38,0:24:08.96,DCMain,AMURO,0000,0000,0000,,What a surprise to see you \Nhere, Okiya Subaru-san.
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,TEXT,0000,0000,0000,,The Traitor's Stage \N(Part 1)
+Dialogue: 0,0:24:09.69,0:24:14.13,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Traitor's Stage, Part One!"
+Dialogue: 0,0:24:29.98,0:24:34.99,Hint,TEXT,0000,0000,0000,,Rope
+Dialogue: 0,0:24:30.76,0:24:32.78,DCMain,HAIBARA,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.50,0:24:34.68,DCMain,CONAN,0000,0000,0000,,Rope!
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.11,0:24:35.86,DCMain,CONAN,0000,0000,0000,,{\an8}Myna bird!
+Dialogue: 0,0:24:35.86,0:24:36.67,DCMain,ALL,0000,0000,0000,,{\an8}Myna bird!
+Dialogue: 0,0:24:36.67,0:24:37.32,DCMain,CONAN,0000,0000,0000,,{\an8}Traitor!
+Dialogue: 0,0:24:37.32,0:24:37.98,DCMain,ALL,0000,0000,0000,,{\an8}Traitor!
+Dialogue: 0,0:24:37.98,0:24:39.69,DCMain,HAIBARA,0000,0000,0000,,{\an8}That's called parroting.
+Dialogue: 0,0:24:39.69,0:24:41.69,DCMain,,0000,0000,0000,,

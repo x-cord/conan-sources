@@ -1,0 +1,431 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Fusaya,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00804F74,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0152,0020,0064,0
+Style: Agency,Trebuchet MS,22,&H005D5E56,&H000000FF,&H00969A8F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0085,0018,0
+Style: News,Trebuchet MS,18,&H00683C24,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Io,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A1495C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0370,0020,0064,0
+Style: An,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00BA7593,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0172,0064,0
+Style: Raita,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00804F74,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0040,0020,0064,0
+Style: Police,Trebuchet MS,14,&H00FCFDFD,&H000000FF,&H007D2F31,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0045,0
+Style: Yoshia,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007E3145,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0295,0064,0
+Style: AnPoster,Trebuchet MS,22,&H0063655E,&H000000FF,&H00E0E5E4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0050,0018,0
+Style: FusayaPoster,Trebuchet MS,22,&H0063655E,&H000000FF,&H00EBF1F2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0060,0020,0022,0
+Style: Tebai,Trebuchet MS,22,&H00FFFCFF,&H000000FF,&H0096DFDA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: yasushi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AC5E60,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0060,0064,0
+Style: Tebai2,Trebuchet MS,18,&H00323232,&H000000FF,&H00D1D2D0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,KOGORO,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 990 "The \NAutomatic Tragedy (Part One)"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:03.77,0:00:07.23,Fusaya,TEXT,0000,0000,0000,,{\fad(250,460)}Oide Fusaya (22) \NOide Family Eldest Son
+Dialogue: 0,0:00:03.82,0:00:06.80,DCMain,FUSAYA,0000,0000,0000,,{\an8}This is the only place left I can turn to.
+Dialogue: 0,0:00:06.80,0:00:09.48,DCMain,CONAN,0000,0000,0000,,{\an8}Do you have business with \Nthe Mori Detective Agency?
+Dialogue: 0,0:00:10.73,0:00:14.16,DCMain,CONAN,0000,0000,0000,,It seemed like you were saying something \Nwhile looking at that window.
+Dialogue: 0,0:00:14.56,0:00:17.59,DCMain,CONAN,0000,0000,0000,,I guess you could say Detective \NMori looks after me.
+Dialogue: 0,0:00:17.59,0:00:19.87,DCMain,CONAN,0000,0000,0000,,I'm sort of like his apprentice.
+Dialogue: 0,0:00:20.48,0:00:23.41,DCMain,FUSAYA,0000,0000,0000,,He's really a great detective
+Dialogue: 0,0:00:23.41,0:00:27.78,DCMain,FUSAYA,0000,0000,0000,,who can solve any case, right?
+Dialogue: 0,0:00:29.92,0:00:35.18,Agency,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:00:30.44,0:00:35.18,DCMain,KOGORO,0000,0000,0000,,Yes, even the most difficult cases are a \Npiece of cake once I'm working on them.
+Dialogue: 0,0:00:35.44,0:00:37.54,DCMain,KOGORO,0000,0000,0000,,You can count on me.
+Dialogue: 0,0:00:38.14,0:00:44.06,DCMain,FUSAYA,0000,0000,0000,,I want you to find the culprit \Nresponsible for this case.
+Dialogue: 0,0:00:42.43,0:00:44.06,News,TEXT,0000,0000,0000,,Office worker slain in home and robbed
+Dialogue: 0,0:00:44.48,0:00:48.11,DCMain,KOGORO,0000,0000,0000,,A robbery and murder that happened last week?
+Dialogue: 0,0:00:48.11,0:00:49.03,DCMain,KOGORO,0000,0000,0000,,If I recall correctly—
+Dialogue: 0,0:00:49.03,0:00:51.60,DCMain,CONAN,0000,0000,0000,,It happened last Wednesday.
+Dialogue: 0,0:00:51.60,0:00:56.32,DCMain,CONAN,0000,0000,0000,,Office worker Oide Raita-san, 58 years \Nold, was at his home in Tebai City.
+Dialogue: 0,0:00:56.32,0:00:59.36,DCMain,CONAN,0000,0000,0000,,He died when someone struck him on the head,
+Dialogue: 0,0:00:59.36,0:01:02.58,DCMain,CONAN,0000,0000,0000,,and about 300 thousand \Nyen in cash was stolen.
+Dialogue: 0,0:01:02.84,0:01:06.60,DCMain,CONAN,0000,0000,0000,,And ten days later, they still \Nhaven't found the culprit.
+Dialogue: 0,0:01:06.60,0:01:09.94,DCMain,KOGORO,0000,0000,0000,,Go play somewhere, kid.
+Dialogue: 0,0:01:09.94,0:01:11.64,DCMain,CONAN,0000,0000,0000,,What's wrong with me staying?
+Dialogue: 0,0:01:11.64,0:01:14.47,DCMain,CONAN,0000,0000,0000,,After all, I showed our client in.
+Dialogue: 0,0:01:14.90,0:01:16.77,DCMain,CONAN,0000,0000,0000,,Right, Oide-san?
+Dialogue: 0,0:01:16.77,0:01:18.35,DCMain,FUSAYA,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:01:19.18,0:01:21.47,DCMain,KOGORO,0000,0000,0000,,Oide? Which means...
+Dialogue: 0,0:01:21.76,0:01:22.75,DCMain,FUSAYA,0000,0000,0000,,Yes.
+Dialogue: 0,0:01:22.75,0:01:27.04,DCMain,FUSAYA,0000,0000,0000,,I'm Oide Fusaya, the son of \Nthe murder victim Oide Raita.
+Dialogue: 0,0:01:30.24,0:01:31.15,DCMain,FUSAYA,0000,0000,0000,,My dad...
+Dialogue: 0,0:01:51.61,0:01:55.30,DCMain,FUSUYA,0000,0000,0000,,I made him die.
+Dialogue: 0,0:01:55.69,0:01:57.59,DCMain,KOGORO,0000,0000,0000,,You made him die?
+Dialogue: 0,0:01:57.78,0:01:59.32,DCMain,KOGORO,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:02:03.04,0:02:04.83,DCMain,CONAN,0000,0000,0000,,Find the question that solves the mystery!
+Dialogue: 0,0:02:04.83,0:02:06.98,DCMain,CONAN,0000,0000,0000,,Apply miraculous detective skills \Nto the secrets of the heart!
+Dialogue: 0,0:02:06.98,0:02:09.12,DCMain,CONAN,0000,0000,0000,,A strange request from a victim's family.
+Dialogue: 0,0:02:09.12,0:02:11.29,DCMain,CONAN,0000,0000,0000,,Who was it that turned the gears of tragedy?
+Dialogue: 0,0:02:11.29,0:02:12.89,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:12.89,0:02:14.81,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:14.81,0:02:17.15,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:57.00,0:04:03.01,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(403,1)}The Automatic Tragedy \N(Part One)
+Dialogue: 0,0:03:57.44,0:04:00.52,DCMain,CONAN,0000,0000,0000,,"The Automatic Tragedy, Part One!"
+Dialogue: 0,0:04:03.80,0:04:06.51,DCMain,FUSAYA,0000,0000,0000,,My father was a very serious person,
+Dialogue: 0,0:04:06.79,0:04:10.00,DCMain,FUSAYA,0000,0000,0000,,but there was a time when I went astray.
+Dialogue: 0,0:04:10.00,0:04:13.46,DCMain,FUSAYA,0000,0000,0000,,Because of that, I had a \Nhard time finding a job.
+Dialogue: 0,0:04:14.08,0:04:18.02,DCMain,FUSAYA,0000,0000,0000,,And the other day, my \Nolder sister got engaged.
+Dialogue: 0,0:04:18.83,0:04:22.03,DCMain,FUSAYA,0000,0000,0000,,Her partner is the son of a \Nlocally famous wealthy family.
+Dialogue: 0,0:04:22.62,0:04:28.45,DCMain,FUSAYA,0000,0000,0000,,My old friends caught wind of it \Nand tried to extort her partner.
+Dialogue: 0,0:04:30.08,0:04:33.16,DCMain,FUSAYA,0000,0000,0000,,I didn't want to trouble my sister,
+Dialogue: 0,0:04:33.93,0:04:36.42,DCMain,FUSAYA,0000,0000,0000,,so I planned to run away from home.
+Dialogue: 0,0:04:37.12,0:04:42.01,DCMain,FUSAYA,0000,0000,0000,,The morning of the incident, my mom and \Nsister were planning to go out together,
+Dialogue: 0,0:04:42.57,0:04:44.01,DCMain,FUSAYA,0000,0000,0000,,so I decided I'd leave then.
+Dialogue: 0,0:04:45.94,0:04:47.01,DCItalic,SISTER,0000,0000,0000,,Fusaya!
+Dialogue: 0,0:04:47.75,0:04:48.76,DCItalic,SISTER,0000,0000,0000,,Fusaya!
+Dialogue: 0,0:04:48.93,0:04:52.39,Io,TEXT,0000,0000,0000,,{\fad(250,460)}Oide Io (56) \NFusaya's Mother
+Dialogue: 0,0:04:48.93,0:04:52.39,An,TEXT,0000,0000,0000,,{\fad(250,460)}Oide An (24) \NFusaya's Older Sister
+Dialogue: 0,0:04:49.42,0:04:51.48,DCItalic,AN,0000,0000,0000,,{\an8}We're leaving now!
+Dialogue: 0,0:04:52.00,0:04:54.64,DCItalic,IO,0000,0000,0000,,{\an8}He's probably sleeping again.
+Dialogue: 0,0:04:54.64,0:04:55.64,DCItalic,AN,0000,0000,0000,,Seems like it.
+Dialogue: 0,0:04:57.38,0:05:01.90,DCMain,FUSAYA,0000,0000,0000,,My dad works in an office, so \Nwhen they go out, I'm home alone.
+Dialogue: 0,0:05:02.77,0:05:04.53,DCMain,FUSAYA,0000,0000,0000,,I thought it was the perfect opportunity.
+Dialogue: 0,0:05:05.99,0:05:07.54,DCItalic,FUSAYA,0000,0000,0000,,But then...
+Dialogue: 0,0:05:10.03,0:05:13.18,DCItalic,FUSAYA,0000,0000,0000,,Dad, why are you home so early?
+Dialogue: 0,0:05:13.18,0:05:14.54,DCItalic,RAITA,0000,0000,0000,,Ah, Fusaya.
+Dialogue: 0,0:05:14.71,0:05:18.13,Raita,TEXT,0000,0000,0000,,{\fad(250,460)}Oide Raita (58) \NFusaya's Father
+Dialogue: 0,0:05:14.96,0:05:18.10,DCItalic,RAITA,0000,0000,0000,,{\an8}I actually took the day off from work.
+Dialogue: 0,0:05:18.55,0:05:23.71,DCItalic,RAITA,0000,0000,0000,,I thought the two of us could \Ntalk about your future.
+Dialogue: 0,0:05:24.52,0:05:26.01,DCItalic,FUSAYA,0000,0000,0000,,You did that for me?
+Dialogue: 0,0:05:26.80,0:05:30.51,DCMain,FUSAYA,0000,0000,0000,,I was so grateful, I could've cried, \Nbut I'd already made my decision.
+Dialogue: 0,0:05:31.32,0:05:35.06,DCItalic,RAITA,0000,0000,0000,,Were you on your way out, too?
+Dialogue: 0,0:05:36.13,0:05:38.71,DCItalic,FUSAYA,0000,0000,0000,,I'm leaving this house.
+Dialogue: 0,0:05:38.71,0:05:39.52,DCItalic,RAITA,0000,0000,0000,,What?
+Dialogue: 0,0:05:39.92,0:05:42.90,DCItalic,FUSAYA,0000,0000,0000,,I'm moving out of this house!
+Dialogue: 0,0:05:43.35,0:05:46.32,DCItalic,FUSAYA,0000,0000,0000,,Looking at your face is suffocating!
+Dialogue: 0,0:05:46.32,0:05:48.58,DCItalic,RAITA,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:05:49.21,0:05:51.06,DCItalic,RAITA,0000,0000,0000,,You're unbelievable.
+Dialogue: 0,0:05:51.06,0:05:52.87,DCItalic,RAITA,0000,0000,0000,,Say that again.
+Dialogue: 0,0:05:53.36,0:05:56.37,DCItalic,RAITA,0000,0000,0000,,Do you have any idea how \Nimportant this time is?
+Dialogue: 0,0:05:56.37,0:05:59.38,DCItalic,RAITA,0000,0000,0000,,Why don't you show a little more \Nconsideration for your family?
+Dialogue: 0,0:05:59.86,0:06:02.30,DCItalic,RAITA,0000,0000,0000,,Are you trying to ruin An's wedding?
+Dialogue: 0,0:06:02.30,0:06:04.97,DCItalic,RAITA,0000,0000,0000,,When are you going to grow up?!
+Dialogue: 0,0:06:04.97,0:06:06.38,DCItalic,FUSAYA,0000,0000,0000,,Mind your own business!
+Dialogue: 0,0:06:08.33,0:06:13.89,DCMain,FUSAYA,0000,0000,0000,,We got into a bit of an argument, but \NI brushed him off and fled the house.
+Dialogue: 0,0:06:12.36,0:06:13.68,DCItalic,RAITA,0000,0000,0000,,{\an8}Hey, Fusaya!
+Dialogue: 0,0:06:14.31,0:06:15.78,DCItalic,RAITA,0000,0000,0000,,Fusaya, where are you going?
+Dialogue: 0,0:06:15.78,0:06:16.88,DCItalic,RAITA,0000,0000,0000,,Fusaya!
+Dialogue: 0,0:06:16.88,0:06:20.81,DCMain,FUSAYA,0000,0000,0000,,I heard what happened next \Nfrom my sister and mom.
+Dialogue: 0,0:06:20.81,0:06:23.90,DCMain,FUSAYA,0000,0000,0000,,They returned home that afternoon.
+Dialogue: 0,0:06:21.19,0:06:22.58,DCItalic,AN,0000,0000,0000,,{\an8}What happened to Fusaya?
+Dialogue: 0,0:06:22.58,0:06:24.16,DCItalic,IO,0000,0000,0000,,{\an8}We need to find him and bring him back.
+Dialogue: 0,0:06:24.16,0:06:25.28,DCItalic,RAITA,0000,0000,0000,,We'll split up and look for him.
+Dialogue: 0,0:06:26.13,0:06:28.29,DCMain,FUSAYA,0000,0000,0000,,Later, around 3:30...
+Dialogue: 0,0:06:29.32,0:06:30.32,DCItalic,RAITA,0000,0000,0000,,It's me.
+Dialogue: 0,0:06:30.77,0:06:33.25,DCItalic,RAITA,0000,0000,0000,,I'm back at the house.
+Dialogue: 0,0:06:33.25,0:06:35.81,DCItalic,RAITA,0000,0000,0000,,Well? Has anyone seen him?
+Dialogue: 0,0:06:35.81,0:06:38.76,DCMain,FUSAYA,0000,0000,0000,,Apparently he called my \Nsister from the house.
+Dialogue: 0,0:06:39.23,0:06:42.08,DCMain,FUSAYA,0000,0000,0000,,That was the last time we heard him speak.
+Dialogue: 0,0:06:42.82,0:06:44.34,DCMain,FUSAYA,0000,0000,0000,,Then, at 4:30...
+Dialogue: 0,0:07:00.41,0:07:01.90,DCMain,FUSAYA,0000,0000,0000,,My sister and mom discovered the body
+Dialogue: 0,0:07:01.90,0:07:05.26,DCMain,FUSAYA,0000,0000,0000,,when they returned home after \Ngiving up the search for me.
+Dialogue: 0,0:07:09.84,0:07:13.12,DCMain,FUSAYA,0000,0000,0000,,Normally my dad wouldn't be \Nat home during the evening.
+Dialogue: 0,0:07:13.61,0:07:15.99,DCMain,FUSAYA,0000,0000,0000,,He took the day off for me.
+Dialogue: 0,0:07:16.33,0:07:20.06,DCMain,FUSAYA,0000,0000,0000,,If I hadn't run away, the thief \Nwouldn't have entered the house.
+Dialogue: 0,0:07:21.15,0:07:23.92,DCMain,FUSAYA,0000,0000,0000,,I made my dad die.
+Dialogue: 0,0:07:24.47,0:07:27.37,DCMain,FUSAYA,0000,0000,0000,,On top of that, I've caused \Ntrouble for my sister.
+Dialogue: 0,0:07:28.29,0:07:32.17,DCMain,FUSAYA,0000,0000,0000,,Her partner's family says they can't get \Nmarried while the culprit is still unknown.
+Dialogue: 0,0:07:32.17,0:07:35.37,DCMain,FUSAYA,0000,0000,0000,,All the scheduling and arrangements \Nfor her wedding have been postponed.
+Dialogue: 0,0:07:36.35,0:07:37.92,DCMain,FUSAYA,0000,0000,0000,,I'm a curse.
+Dialogue: 0,0:07:38.73,0:07:41.39,DCMain,FUSAYA,0000,0000,0000,,I turned the gears of misfortune.
+Dialogue: 0,0:07:41.68,0:07:43.75,DCMain,KOGORO,0000,0000,0000,,You shouldn't say that.
+Dialogue: 0,0:07:43.75,0:07:45.37,DCMain,CONAN,0000,0000,0000,,He's right.
+Dialogue: 0,0:07:45.37,0:07:46.77,DCMain,FUSAYA,0000,0000,0000,,Over there.
+Dialogue: 0,0:07:47.32,0:07:50.53,DCMain,FUSAYA,0000,0000,0000,,That's my sister and mom \Nhanding out fliers over there.
+Dialogue: 0,0:07:51.21,0:07:55.07,DCMain,FUSAYA,0000,0000,0000,,They're looking for someone who might've \Nseen anyone suspicious that evening.
+Dialogue: 0,0:07:55.07,0:07:58.66,DCMain,KOGORO,0000,0000,0000,,So they're asking for information.
+Dialogue: 0,0:08:00.36,0:08:02.08,DCMain,FUSAYA,0000,0000,0000,,Mom, Sis!
+Dialogue: 0,0:08:04.21,0:08:05.58,DCMain,AN,0000,0000,0000,,Fusaya.
+Dialogue: 0,0:08:05.83,0:08:07.13,DCMain,FUSAYA,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:08:07.13,0:08:08.46,DCMain,FUSAYA,0000,0000,0000,,Don't push yourself.
+Dialogue: 0,0:08:08.80,0:08:11.44,DCMain,CONAN,0000,0000,0000,,Looks like they're taking it pretty hard.
+Dialogue: 0,0:08:11.44,0:08:14.07,DCMain,KOGORO,0000,0000,0000,,She probably hasn't been sleeping well.
+Dialogue: 0,0:08:20.33,0:08:21.35,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:25.97,0:08:27.76,DCMain,KOGORO,0000,0000,0000,,What's her deal?
+Dialogue: 0,0:08:27.76,0:08:30.48,DCMain,KOGORO,0000,0000,0000,,She was grinning while looking this way.
+Dialogue: 0,0:08:30.48,0:08:33.40,DCMain,CONAN,0000,0000,0000,,Maybe she knows someone in the Oide family.
+Dialogue: 0,0:08:34.08,0:08:36.91,DCMain,AN,0000,0000,0000,,I'll go with her.
+Dialogue: 0,0:08:37.18,0:08:39.77,DCMain,FUSAYA,0000,0000,0000,,Mori-san, I'm worried. I'm going, too.
+Dialogue: 0,0:08:39.77,0:08:42.17,DCMain,KOGORO,0000,0000,0000,,Then we'll meet at your home later.
+Dialogue: 0,0:08:42.17,0:08:43.66,DCMain,FUSAYA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:08:47.52,0:08:50.42,DCMain,KOGORO,0000,0000,0000,,I can't believe his mother collapsed, too.
+Dialogue: 0,0:08:51.47,0:08:53.50,DCMain,KOGORO,0000,0000,0000,,We'd better find the culprit soon.
+Dialogue: 0,0:08:54.09,0:08:56.93,Police,SIGN,0000,0000,0000,,{\fad(250,1)}Tebai Police Station
+Dialogue: 0,0:08:54.89,0:08:56.93,DCMain,KOGORO,0000,0000,0000,,{\an8}You think the thief turned violent?
+Dialogue: 0,0:08:57.16,0:09:00.51,DCMain,TAGIRI,0000,0000,0000,,{\an8}Yes. Just before 4:30PM that day,
+Dialogue: 0,0:08:57.47,0:09:00.93,Yoshia,TEXT,0000,0000,0000,,{\fad(250,460)}Lieutenant Tagiri Yoshia (45) \NTebai Station Officer
+Dialogue: 0,0:09:00.51,0:09:05.05,DCMain,TAGIRI,0000,0000,0000,,{\an8}a silent call was made to the Oide \Nresidence from a nearby public telephone.
+Dialogue: 0,0:09:05.05,0:09:06.94,DCMain,TAGIRI,0000,0000,0000,,We believe it was the culprit.
+Dialogue: 0,0:09:07.24,0:09:10.03,DCMain,KOGORO,0000,0000,0000,,They were determining if anyone was home.
+Dialogue: 0,0:09:10.03,0:09:13.56,DCMain,TAGIRI,0000,0000,0000,,Yes. Oide Raita didn't answer the call.
+Dialogue: 0,0:09:13.56,0:09:15.48,DCMain,TAGIRI,0000,0000,0000,,The answering machine answered instead.
+Dialogue: 0,0:09:15.48,0:09:18.38,DCMain,KOGORO,0000,0000,0000,,So the culprit thought the house was empty.
+Dialogue: 0,0:09:18.38,0:09:21.33,DCMain,TAGIRI,0000,0000,0000,,Yes. Apparently they picked the lock.
+Dialogue: 0,0:09:21.76,0:09:22.99,DCItalic,CONAN,0000,0000,0000,,They picked the lock?
+Dialogue: 0,0:09:24.00,0:09:25.71,DCMain,TAGIRI,0000,0000,0000,,See? This is it.
+Dialogue: 0,0:09:26.09,0:09:29.30,DCMain,KOGORO,0000,0000,0000,,After sneaking into the house,
+Dialogue: 0,0:09:29.30,0:09:31.49,DCMain,KOGORO,0000,0000,0000,,they ran into Oide and turned violent.
+Dialogue: 0,0:09:31.49,0:09:32.98,DCMain,CONAN,0000,0000,0000,,But, Mister...
+Dialogue: 0,0:09:33.88,0:09:34.64,DCMain,KOGORO,0000,0000,0000,,Kapow.
+Dialogue: 0,0:09:35.12,0:09:39.09,DCMain,TAGIRI,0000,0000,0000,,The weapon used to strike Oide's head
+Dialogue: 0,0:09:39.09,0:09:41.22,DCMain,TAGIRI,0000,0000,0000,,was an angular blunt object,
+Dialogue: 0,0:09:41.22,0:09:43.30,DCMain,TAGIRI,0000,0000,0000,,but we haven't found it yet.
+Dialogue: 0,0:09:43.30,0:09:45.73,DCMain,TAGIRI,0000,0000,0000,,We believe the culprit took it with them.
+Dialogue: 0,0:09:46.19,0:09:48.12,DCItalic,CONAN,0000,0000,0000,,An angular blunt object?
+Dialogue: 0,0:09:48.12,0:09:50.48,DCItalic,CONAN,0000,0000,0000,,I have questions about the weapon, too.
+Dialogue: 0,0:09:50.76,0:09:53.39,DCMain,KOGORO,0000,0000,0000,,Do you have any idea who the culprit is?
+Dialogue: 0,0:09:53.39,0:09:57.55,DCMain,TAGIRI,0000,0000,0000,,We're looking into everyone with break-ins \Nvia lockpicking on their record, but...
+Dialogue: 0,0:09:59.46,0:10:00.90,DCMain,CONAN,0000,0000,0000,,Hey, Mister.
+Dialogue: 0,0:10:00.90,0:10:04.20,DCMain,CONAN,0000,0000,0000,,Would someone who picks locks \Nto secretly enter empty homes
+Dialogue: 0,0:10:04.20,0:10:07.35,DCMain,CONAN,0000,0000,0000,,turn violent and kill someone?
+Dialogue: 0,0:10:07.35,0:10:10.66,DCMain,KOGORO,0000,0000,0000,,They probably did it spur of the moment \Nwhen they ran into the homeowner.
+Dialogue: 0,0:10:10.66,0:10:15.21,DCMain,CONAN,0000,0000,0000,,Yeah, but it's also odd that someone \Ntrying to rob an empty house
+Dialogue: 0,0:10:15.21,0:10:16.88,DCMain,CONAN,0000,0000,0000,,brought a weapon and ran away with it.
+Dialogue: 0,0:10:17.21,0:10:18.47,DCMain,KOGORO,0000,0000,0000,,Shut up.
+Dialogue: 0,0:10:18.47,0:10:20.77,DCMain,KOGORO,0000,0000,0000,,Thinking about that won't—
+Dialogue: 0,0:10:22.14,0:10:24.79,DCMain,FUSAYA,0000,0000,0000,,Mori-san, I'm sorry to keep you waiting.
+Dialogue: 0,0:10:25.34,0:10:28.64,DCMain,FUSAYA,0000,0000,0000,,My mom's going to be staying at the \Nhospital for two or three days.
+Dialogue: 0,0:10:29.01,0:10:31.68,DCMain,FUSAYA,0000,0000,0000,,The Oide family is falling apart.
+Dialogue: 0,0:10:31.68,0:10:33.06,DCMain,KOGORO,0000,0000,0000,,Fusaya-kun.
+Dialogue: 0,0:10:33.06,0:10:33.65,DCMain,FUSAYA,0000,0000,0000,,Yes?
+Dialogue: 0,0:10:34.21,0:10:37.90,DCMain,KOGORO,0000,0000,0000,,You mentioned something \Nabout the gears of tragedy.
+Dialogue: 0,0:10:38.36,0:10:41.66,DCMain,KOGORO,0000,0000,0000,,It wasn't you who turned them, but the culprit.
+Dialogue: 0,0:10:46.44,0:10:49.58,DCMain,KOGORO,0000,0000,0000,,Ten days may have passed, but it's \Nalways worth examining the crime scene.
+Dialogue: 0,0:10:49.76,0:10:54.17,DCMain,KOGORO,0000,0000,0000,,It's likely some kind of clue was left behind.
+Dialogue: 0,0:10:54.68,0:10:57.30,DCMain,FUSAYA,0000,0000,0000,,This is the living room where it happened.
+Dialogue: 0,0:10:57.52,0:11:00.47,DCMain,KOGORO,0000,0000,0000,,All right. Let's find those clues.
+Dialogue: 0,0:11:03.02,0:11:05.47,DCMain,KOGORO,0000,0000,0000,,Come on out, clues.
+Dialogue: 0,0:11:07.88,0:11:10.10,DCMain,KOGORO,0000,0000,0000,,Come on, clues.
+Dialogue: 0,0:11:12.10,0:11:15.98,AnPoster,RIGHT,0000,0000,0000,,An
+Dialogue: 0,0:11:12.10,0:11:15.98,FusayaPoster,LEFT,0000,0000,0000,,Fusaya
+Dialogue: 0,0:11:14.32,0:11:15.98,DCMain,KOGORO,0000,0000,0000,,I'm taking a break.
+Dialogue: 0,0:11:16.47,0:11:18.08,DCMain,CONAN,0000,0000,0000,,Hey, Fusaya-san.
+Dialogue: 0,0:11:18.78,0:11:19.87,DCMain,FUSAYA,0000,0000,0000,,What is it?
+Dialogue: 0,0:11:20.32,0:11:24.78,DCMain,CONAN,0000,0000,0000,,This door looks strangely \Nnew compared to the wall.
+Dialogue: 0,0:11:24.78,0:11:29.16,DCMain,FUSAYA,0000,0000,0000,,We replaced it about a month ago.
+Dialogue: 0,0:11:29.16,0:11:30.12,DCMain,KOGORO,0000,0000,0000,,What is it?
+Dialogue: 0,0:11:31.63,0:11:37.04,DCMain,CONAN,0000,0000,0000,,Lockpicking requires skill, but it's easy \Nto break in when you have a spare key.
+Dialogue: 0,0:11:37.04,0:11:37.67,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:39.01,0:11:39.90,DCMain,KOGORO,0000,0000,0000,,Fusaya-kun.
+Dialogue: 0,0:11:39.90,0:11:41.24,DCMain,FUSAYA,0000,0000,0000,,Y-Yes?
+Dialogue: 0,0:11:41.24,0:11:43.68,DCMain,KOGORO,0000,0000,0000,,Who replaced this door?
+Dialogue: 0,0:11:43.84,0:11:47.43,DCMain,FUSAYA,0000,0000,0000,,A nearby contractor called Tebai Engineering.
+Dialogue: 0,0:11:47.47,0:11:51.94,Tebai,SIGN,0000,0000,0000,,{\fad(335,1)}Tebai Engineering
+Dialogue: 0,0:11:48.47,0:11:49.65,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:11:49.65,0:11:55.56,DCMain,KOGORO,0000,0000,0000,,{\an8}So it was Taira Yasushi-san who was \Nresponsible for replacing the door.
+Dialogue: 0,0:11:52.10,0:11:55.52,yasushi,TEXT,0000,0000,0000,,{\fad(250,460)}Taira Yasushi (33) \NEngineering Firm Employee
+Dialogue: 0,0:11:55.87,0:12:01.91,DCMain,KOGORO,0000,0000,0000,,And he was out on a job ten days \Nago last Wednesday evening?
+Dialogue: 0,0:12:01.91,0:12:03.61,DCMain,WOMAN,0000,0000,0000,,One moment, please.
+Dialogue: 0,0:12:04.77,0:12:06.62,DCMain,WOMAN,0000,0000,0000,,On that day...
+Dialogue: 0,0:12:07.63,0:12:09.86,DCMain,WOMAN,0000,0000,0000,,Taira took the day off.
+Dialogue: 0,0:12:10.79,0:12:13.17,DCMain,KOGORO,0000,0000,0000,,I see. Thank you.
+Dialogue: 0,0:12:14.01,0:12:17.47,DCMain,KOGORO,0000,0000,0000,,What? He paid off his rent all at once?
+Dialogue: 0,0:12:17.47,0:12:21.05,DCMain,LANDLADY,0000,0000,0000,,Yes, the full amount he \Nowed. 280 thousand yen.
+Dialogue: 0,0:12:21.27,0:12:24.41,DCMain,KOGORO,0000,0000,0000,,Was that ten days ago?
+Dialogue: 0,0:12:24.41,0:12:26.97,DCMain,LANDLADY,0000,0000,0000,,Yes, it was around then.
+Dialogue: 0,0:12:27.53,0:12:28.47,DCItalic,CONAN,0000,0000,0000,,This is...
+Dialogue: 0,0:12:28.89,0:12:30.44,DCItalic,KOGORO,0000,0000,0000,,That must be it.
+Dialogue: 0,0:12:30.72,0:12:33.73,Tebai2,SIGN,0000,0000,0000,,Tebai Engineering
+Dialogue: 0,0:12:35.19,0:12:37.21,DCMain,KOGORO,0000,0000,0000,,You're Taira Yasushi-san, aren't you?
+Dialogue: 0,0:12:37.21,0:12:38.24,DCMain,TAIRA,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:38.24,0:12:40.66,DCMain,KOGORO,0000,0000,0000,,My name is Mori.
+Dialogue: 0,0:12:40.66,0:12:42.18,DCMain,KOGORO,0000,0000,0000,,I'm a private detective.
+Dialogue: 0,0:12:42.18,0:12:45.11,DCMain,TAIRA,0000,0000,0000,,What? The famous detective?
+Dialogue: 0,0:12:45.11,0:12:48.33,DCMain,KOGORO,0000,0000,0000,,I have a few questions \Nfor you about the robbery
+Dialogue: 0,0:12:48.33,0:12:51.62,DCMain,KOGORO,0000,0000,0000,,and murder that happened ten days ago.
+Dialogue: 0,0:12:52.86,0:12:57.51,DCMain,TAIRA,0000,0000,0000,,I'm actually really busy right now.
+Dialogue: 0,0:12:57.51,0:12:58.29,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:58.29,0:13:00.62,DCMain,TAIRA,0000,0000,0000,,That is to say, you know...
+Dialogue: 0,0:13:01.67,0:13:02.05,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:13:03.53,0:13:03.92,DCMain,KOGORO,0000,0000,0000,,Hey!
+Dialogue: 0,0:13:04.38,0:13:05.01,DCMain,KOGORO,0000,0000,0000,,You jerk!
+Dialogue: 0,0:13:06.64,0:13:08.10,DCMain,KOGORO,0000,0000,0000,,Stop, damn it!
+Dialogue: 0,0:13:09.24,0:13:12.02,DCMain,KOGORO,0000,0000,0000,,Where did that punk go?
+Dialogue: 0,0:13:15.54,0:13:16.08,DCMain,CONAN,0000,0000,0000,,Hey.
+Dialogue: 0,0:13:16.08,0:13:16.56,DCMain,TAIRA,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:18.18,0:13:20.86,DCMain,CONAN,0000,0000,0000,,I think you should tell us everything \Nyou know instead of running.
+Dialogue: 0,0:13:22.05,0:13:24.40,DCMain,KOGORO,0000,0000,0000,,The kid's right.
+Dialogue: 0,0:13:25.06,0:13:26.88,DCMain,KOGORO,0000,0000,0000,,This game of tag is over.
+Dialogue: 0,0:13:27.47,0:13:30.62,DCMain,KOGORO,0000,0000,0000,,Now why don't you answer my questions?
+Dialogue: 0,0:13:36.66,0:13:39.50,DCMain,KOGORO,0000,0000,0000,,You used the 300 thousand yen you stole
+Dialogue: 0,0:13:39.84,0:13:42.68,DCMain,KOGORO,0000,0000,0000,,to pay off four month's \Nworth of rent, didn't you?
+Dialogue: 0,0:13:42.68,0:13:46.63,DCMain,TAIRA,0000,0000,0000,,I, uh—I won the lottery.
+Dialogue: 0,0:13:46.90,0:13:51.00,DCMain,KOGORO,0000,0000,0000,,You secretly made a spare key \Nwhen you replaced the door,
+Dialogue: 0,0:13:51.00,0:13:53.92,DCMain,KOGORO,0000,0000,0000,,and used that to sneak \Ninto the Oide residence.
+Dialogue: 0,0:13:54.42,0:13:55.58,DCMain,KOGORO,0000,0000,0000,,Isn't that right?
+Dialogue: 0,0:13:55.58,0:13:58.31,DCMain,TAIRA,0000,0000,0000,,Well, I—
+Dialogue: 0,0:13:58.31,0:14:03.07,DCMain,CONAN,0000,0000,0000,,The scratches on the front door keyhole \Nwere a camouflage, weren't they?
+Dialogue: 0,0:14:03.68,0:14:07.82,DCMain,CONAN,0000,0000,0000,,You did it to make it look like \Nthe front door had been picked
+Dialogue: 0,0:14:08.15,0:14:11.32,DCMain,CONAN,0000,0000,0000,,and draw attention away from the back door.
+Dialogue: 0,0:14:12.75,0:14:15.37,DCMain,KOGORO,0000,0000,0000,,It's an old trick.
+Dialogue: 0,0:14:15.37,0:14:17.12,DCMain,KOGORO,0000,0000,0000,,So, where's the weapon?
+Dialogue: 0,0:14:17.41,0:14:18.62,DCMain,TAIRA,0000,0000,0000,,I-I don't know.
+Dialogue: 0,0:14:19.03,0:14:20.71,DCMain,TAIRA,0000,0000,0000,,No, wait. You've got it all wrong.
+Dialogue: 0,0:14:21.41,0:14:22.93,DCMain,KOGORO,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:14:22.93,0:14:24.21,DCMain,TAIRA,0000,0000,0000,,I'll confess.
+Dialogue: 0,0:14:24.21,0:14:28.51,DCMain,TAIRA,0000,0000,0000,,I'll tell you everything I know \Nif you'll prove my innocence.
+Dialogue: 0,0:14:28.86,0:14:29.63,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:14:32.30,0:14:34.64,DCMain,TAIRA,0000,0000,0000,,It's exactly like you said, Mori-san.
+Dialogue: 0,0:14:35.69,0:14:39.98,DCMain,TAIRA,0000,0000,0000,,I needed the money, so I broke \Ninto that house that day.
+Dialogue: 0,0:14:40.44,0:14:43.32,DCItalic,PHONE,0000,0000,0000,,We can't come to the phone at this time.
+Dialogue: 0,0:14:43.32,0:14:44.65,DCItalic,PHONE,0000,0000,0000,,Please leave your message after—
+Dialogue: 0,0:14:45.98,0:14:47.65,DCMain,TAIRA,0000,0000,0000,,I confirmed no one was home,
+Dialogue: 0,0:14:47.89,0:14:51.76,DCMain,TAIRA,0000,0000,0000,,and snuck in through the back \Ndoor using the spare key I made.
+Dialogue: 0,0:14:52.16,0:14:53.32,DCMain,TAIRA,0000,0000,0000,,Then...
+Dialogue: 0,0:14:55.48,0:14:57.92,DCMain,TAIRA,0000,0000,0000,,He was snoring in his sleep.
+Dialogue: 0,0:15:00.10,0:15:01.50,DCMain,TAIRA,0000,0000,0000,,Right on the floor here.
+Dialogue: 0,0:15:02.49,0:15:03.59,DCMain,TAGIRI,0000,0000,0000,,I see.
+Dialogue: 0,0:15:03.88,0:15:09.24,DCMain,TAGIRI,0000,0000,0000,,So Raita didn't answer the phone \Nbecause he was fast asleep.
+Dialogue: 0,0:15:09.24,0:15:15.16,DCMain,TAIRA,0000,0000,0000,,Yeah, but I thought it'd be fine \Nas long as I didn't wake him up.
+Dialogue: 0,0:15:20.36,0:15:24.61,DCMain,TAIRA,0000,0000,0000,,I quietly stole the cash, scratched \Nup the front door keyhole,
+Dialogue: 0,0:15:26.73,0:15:28.68,DCMain,TAIRA,0000,0000,0000,,and then left.
+Dialogue: 0,0:15:30.02,0:15:32.34,DCMain,CONAN,0000,0000,0000,,What time was that?
+Dialogue: 0,0:15:32.34,0:15:34.74,DCMain,TAIRA,0000,0000,0000,,Huh? Uh...
+Dialogue: 0,0:15:35.51,0:15:38.25,DCItalic,ANNOUNCE,0000,0000,0000,,The time is 4:30.
+Dialogue: 0,0:15:38.25,0:15:42.17,DCItalic,ANNOUNCE,0000,0000,0000,,Please be careful as you \Nreturn to your homes.
+Dialogue: 0,0:15:42.17,0:15:43.84,DCMain,TAIRA,0000,0000,0000,,It was after 4:30.
+Dialogue: 0,0:15:43.84,0:15:45.75,DCMain,TAIRA,0000,0000,0000,,There was a notice playing.
+Dialogue: 0,0:15:47.39,0:15:52.01,DCMain,KOGORO,0000,0000,0000,,Oide Raita-san's estimated time \Nof death is also after 4:30.
+Dialogue: 0,0:15:52.01,0:15:55.14,DCMain,KOGORO,0000,0000,0000,,Did you lock the front door when you left?
+Dialogue: 0,0:15:55.41,0:15:59.76,DCMain,TAIRA,0000,0000,0000,,No. I didn't have a key to the front door.
+Dialogue: 0,0:15:59.76,0:16:02.89,DCMain,TAIRA,0000,0000,0000,,Someone must've broken in after me.
+Dialogue: 0,0:16:03.12,0:16:06.10,DCMain,TAGIRI,0000,0000,0000,,In other words, this case \Nisn't a robbery and murder.
+Dialogue: 0,0:16:06.10,0:16:09.73,DCMain,TAGIRI,0000,0000,0000,,It's two separate cases: \Na burglary and a murder.
+Dialogue: 0,0:16:10.02,0:16:12.41,DCMain,TAIRA,0000,0000,0000,,Yeah, that's right.
+Dialogue: 0,0:16:12.41,0:16:19.26,DCMain,CONAN,0000,0000,0000,,Yeah, but do you really think a murderer \Nentered his home right after a burglar?
+Dialogue: 0,0:16:19.26,0:16:21.19,DCMain,CONAN,0000,0000,0000,,What kind of coincidence is that?
+Dialogue: 0,0:16:21.99,0:16:26.07,DCMain,TAIRA,0000,0000,0000,,But I didn't bring or leave with a weapon.
+Dialogue: 0,0:16:26.07,0:16:27.37,DCMain,KOGORO,0000,0000,0000,,Can you prove that?
+Dialogue: 0,0:16:27.37,0:16:32.09,DCMain,TAIRA,0000,0000,0000,,Isn't it a detective's \Njob to figure that out?
+Dialogue: 0,0:16:32.09,0:16:33.98,DCItalic,CONAN,0000,0000,0000,,A weapon, huh?
+Dialogue: 0,0:16:34.93,0:16:40.52,DCMain,TAGIRI,0000,0000,0000,,We'll hold him at our \Nstation as a key witness.
+Dialogue: 0,0:16:42.06,0:16:43.20,DCMain,FUSAYA,0000,0000,0000,,Mori-san.
+Dialogue: 0,0:16:43.20,0:16:48.08,DCMain,KOGORO,0000,0000,0000,,If we let the police handle it, \Nhe just might confess to it.
+Dialogue: 0,0:16:48.08,0:16:51.65,DCMain,FUSAYA,0000,0000,0000,,Mori-san, do you really \Nbelieve he's a murderer?
+Dialogue: 0,0:16:52.11,0:16:52.65,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:16:53.06,0:16:59.33,DCMain,FUSAYA,0000,0000,0000,,If the culprit is someone else, \Nthe police won't find him.
+Dialogue: 0,0:16:59.33,0:17:02.66,DCMain,FUSAYA,0000,0000,0000,,Only you can do it, Mori-san. So...
+Dialogue: 0,0:17:03.28,0:17:04.16,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:17:04.86,0:17:10.50,DCMain,KOGORO,0000,0000,0000,,If there's a true culprit who cleverly \Nbeat the police investigation,
+Dialogue: 0,0:17:10.50,0:17:14.30,DCMain,KOGORO,0000,0000,0000,,then finding them would \Nbe a job for Mori Kogoro.
+Dialogue: 0,0:17:14.60,0:17:15.98,DCMain,FUSAYA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:17:16.44,0:17:17.55,DCItalic,CONAN,0000,0000,0000,,Seriously?
+Dialogue: 0,0:17:18.12,0:17:21.68,DCMain,CONAN,0000,0000,0000,,Yeah, but we don't have any suspects.
+Dialogue: 0,0:17:21.96,0:17:26.99,DCMain,KOGORO,0000,0000,0000,,Generally speaking, the motive \Nis likely to be a grudge.
+Dialogue: 0,0:17:27.45,0:17:31.14,DCMain,KOGORO,0000,0000,0000,,May I speak with your sister and mother?
+Dialogue: 0,0:17:31.69,0:17:32.23,DCMain,FUSUYA,0000,0000,0000,,Yes.
+Dialogue: 0,0:17:32.59,0:17:34.12,DCMain,FUSAYA,0000,0000,0000,,I'll take you to the hospital.
+Dialogue: 0,0:17:36.39,0:17:37.93,DCItalic,CONAN,0000,0000,0000,,Well, whatever.
+Dialogue: 0,0:17:37.93,0:17:42.24,DCItalic,CONAN,0000,0000,0000,,Honestly, I doubt Taira \Nis the culprit either.
+Dialogue: 0,0:17:42.49,0:17:45.73,DCItalic,CONAN,0000,0000,0000,,This case seems like there's \Nmore to it than meets the eye.
+Dialogue: 0,0:17:47.17,0:17:53.51,DCMain,KOGORO,0000,0000,0000,,Can you think of anyone who \Nmay have resented Raita?
+Dialogue: 0,0:17:54.53,0:17:58.76,DCMain,FUSAYA,0000,0000,0000,,He was careful in his relationships \Nwith people. Right?
+Dialogue: 0,0:17:58.76,0:18:01.30,DCMain,AN,0000,0000,0000,,Yeah. Almost too careful.
+Dialogue: 0,0:18:01.72,0:18:04.43,DCMain,CONAN,0000,0000,0000,,Did being too careful cause any problems?
+Dialogue: 0,0:18:05.65,0:18:09.30,DCMain,AN,0000,0000,0000,,Yeah. He was reluctant to get \Non board with my engagement.
+Dialogue: 0,0:18:09.79,0:18:12.10,DCMain,AN,0000,0000,0000,,He was convinced marrying \Ninto a wealthy family
+Dialogue: 0,0:18:12.10,0:18:15.32,DCMain,AN,0000,0000,0000,,would make maintaining \Nrelationships difficult.
+Dialogue: 0,0:18:15.79,0:18:17.83,DCMain,AN,0000,0000,0000,,He let his imagination run wild.
+Dialogue: 0,0:18:18.81,0:18:22.06,DCMain,IO,0000,0000,0000,,But that had already been resolved.
+Dialogue: 0,0:18:22.52,0:18:27.21,DCMain,IO,0000,0000,0000,,He smiled and said he had \Nbeen worried about nothing.
+Dialogue: 0,0:18:27.96,0:18:29.42,DCMain,KOGORO,0000,0000,0000,,I have another question.
+Dialogue: 0,0:18:29.86,0:18:34.34,DCMain,KOGORO,0000,0000,0000,,Who knew Raita was at home that day?
+Dialogue: 0,0:18:34.97,0:18:37.36,DCMain,AN,0000,0000,0000,,I think it was just the three of us.
+Dialogue: 0,0:18:37.36,0:18:40.22,DCMain,IO,0000,0000,0000,,But he may have told someone.
+Dialogue: 0,0:18:40.53,0:18:44.85,DCMain,CONAN,0000,0000,0000,,The two of you were looking \Nfor Fusaya-san together
+Dialogue: 0,0:18:44.85,0:18:47.89,DCMain,CONAN,0000,0000,0000,,around 4:30 that day, right?
+Dialogue: 0,0:18:49.18,0:18:52.49,DCMain,AN,0000,0000,0000,,Not together. We split up.
+Dialogue: 0,0:18:52.49,0:18:54.27,DCMain,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:18:54.70,0:18:57.38,DCMain,CONAN,0000,0000,0000,,But you returned together, right?
+Dialogue: 0,0:18:57.38,0:19:00.12,DCMain,AN,0000,0000,0000,,Yeah. We met up at night.
+Dialogue: 0,0:19:00.12,0:19:02.06,DCMain,AN,0000,0000,0000,,We'd given up the search.
+Dialogue: 0,0:19:02.06,0:19:03.66,DCMain,CONAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:19:04.12,0:19:07.71,DCMain,KOGORO,0000,0000,0000,,What are you asking questions for?
+Dialogue: 0,0:19:07.71,0:19:10.93,DCMain,KOGORO,0000,0000,0000,,In any case, let me handle this.
+Dialogue: 0,0:19:10.93,0:19:14.17,DCMain,KOGORO,0000,0000,0000,,I promise I'll expose the heinous culprit.
+Dialogue: 0,0:19:14.73,0:19:18.16,DCMain,KOGORO,0000,0000,0000,,Take care. Excuse me.
+Dialogue: 0,0:19:21.33,0:19:24.55,DCMain,FUSAYA,0000,0000,0000,,He'll solve this case in no time, Sis.
+Dialogue: 0,0:19:25.10,0:19:26.58,DCMain,AN,0000,0000,0000,,It seems like it.
+Dialogue: 0,0:19:27.05,0:19:29.88,DCMain,AN,0000,0000,0000,,I haven't seen you smile in forever.
+Dialogue: 0,0:19:30.36,0:19:32.57,DCMain,FUSAYA,0000,0000,0000,,I could say the same thing about you.
+Dialogue: 0,0:19:33.54,0:19:34.75,DCMain,AN,0000,0000,0000,,What is it?
+Dialogue: 0,0:19:35.23,0:19:35.97,DCMain,FUSAYA,0000,0000,0000,,It's just...
+Dialogue: 0,0:19:37.01,0:19:43.18,DCMain,FUSAYA,0000,0000,0000,,This will finally stop the gears of tragedy \Nthat have been turning for our family.
+Dialogue: 0,0:19:44.30,0:19:45.33,DCMain,AN,0000,0000,0000,,You're right.
+Dialogue: 0,0:19:45.81,0:19:49.21,DCMain,AN,0000,0000,0000,,If Dad accepted my engagement,
+Dialogue: 0,0:19:49.21,0:19:52.33,DCMain,AN,0000,0000,0000,,then I should move ahead with \Nthe wedding planning soon.
+Dialogue: 0,0:19:52.75,0:19:55.32,DCMain,AN,0000,0000,0000,,More than anything, for Dad's sake, too.
+Dialogue: 0,0:19:56.53,0:20:00.54,DCMain,IO,0000,0000,0000,,That just leaves Fusaya's future.
+Dialogue: 0,0:20:08.30,0:20:09.61,DCMain,FUSAYA,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:20:09.61,0:20:12.37,DCMain,FUSAYA,0000,0000,0000,,I'll do something about it soon.
+Dialogue: 0,0:20:12.37,0:20:18.98,DCMain,IO,0000,0000,0000,,Anyway, you weren't lying when you said \Nthe famous Mori-san accepted the case.
+Dialogue: 0,0:20:19.17,0:20:21.99,DCMain,AN,0000,0000,0000,,You didn't believe him?
+Dialogue: 0,0:20:22.86,0:20:25.17,DCMain,CONAN,0000,0000,0000,,We learned a lot, Mister.
+Dialogue: 0,0:20:25.64,0:20:31.00,DCMain,CONAN,0000,0000,0000,,Only those three knew Oide \NRaita-san was at home.
+Dialogue: 0,0:20:31.42,0:20:35.72,DCMain,CONAN,0000,0000,0000,,And while he expressed his disapproval \Nof his daughter's engagement,
+Dialogue: 0,0:20:35.72,0:20:39.75,DCMain,CONAN,0000,0000,0000,,only his wife knew that issue \Nhad already been resolved.
+Dialogue: 0,0:20:40.30,0:20:46.51,DCMain,CONAN,0000,0000,0000,,Also, the sister and mom were acting \Nseparately when Raita-san was killed.
+Dialogue: 0,0:20:46.77,0:20:50.66,DCMain,KOGORO,0000,0000,0000,,Hold on. I hate to consider it, but...
+Dialogue: 0,0:20:51.59,0:20:56.21,DCMain,KOGORO,0000,0000,0000,,The mother secretly returned home \Nto help her daughter get engaged,
+Dialogue: 0,0:20:56.21,0:20:58.98,DCMain,KOGORO,0000,0000,0000,,but Raita continued to \Ndisapprove of the idea, and...
+Dialogue: 0,0:20:58.98,0:21:02.78,DCMain,KOGORO,0000,0000,0000,,If that feebleness is just an act, then...
+Dialogue: 0,0:21:04.79,0:21:06.24,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:21:06.52,0:21:09.89,DCMain,KOGORO,0000,0000,0000,,So she's definitely in a \Nweakened state due to anxiety.
+Dialogue: 0,0:21:09.89,0:21:14.54,DCMain,KOGORO,0000,0000,0000,,Is it possible she's living \Nan unhealthy life on purpose?
+Dialogue: 0,0:21:14.54,0:21:21.06,DCMain,DOCTOR,0000,0000,0000,,Mori-san, despite your stature, I can't tell \Nyou the details of a patient's condition.
+Dialogue: 0,0:21:24.50,0:21:26.51,DCMain,KOGORO,0000,0000,0000,,I guess it was all in my head.
+Dialogue: 0,0:21:26.78,0:21:31.76,DCItalic,CONAN,0000,0000,0000,,It's possible her fear of being \Nsuspected caused her anxiety.
+Dialogue: 0,0:21:31.92,0:21:35.10,DCMain,KOGORO,0000,0000,0000,,Damn it. I can't come up with anything.
+Dialogue: 0,0:21:35.10,0:21:37.75,DCMain,KOGORO,0000,0000,0000,,I guess we'll get dinner \Nand go home for today.
+Dialogue: 0,0:21:37.75,0:21:39.52,DCMain,CONAN,0000,0000,0000,,I want sushi.
+Dialogue: 0,0:21:39.73,0:21:41.68,DCMain,KOGORO,0000,0000,0000,,Nothing expensive.
+Dialogue: 0,0:21:42.17,0:21:43.53,DCMain,CONAN,0000,0000,0000,,Cheapskate.
+Dialogue: 0,0:21:43.53,0:21:45.88,DCMain,KOGORO,0000,0000,0000,,You're a kid. You should \Nbe eating kid's meals.
+Dialogue: 0,0:21:45.88,0:21:47.72,DCMain,KOGORO,0000,0000,0000,,I know. Let's go to a family restaurant.
+Dialogue: 0,0:21:47.72,0:21:49.53,DCMain,CONAN,0000,0000,0000,,Again?
+Dialogue: 0,0:21:52.05,0:21:53.17,DCMain,KOGORO,0000,0000,0000,,What is it?
+Dialogue: 0,0:21:53.17,0:21:55.33,DCMain,CONAN,0000,0000,0000,,I felt like someone was watching us.
+Dialogue: 0,0:21:56.73,0:21:58.33,DCMain,CONAN,0000,0000,0000,,Looks like it was my imagination.
+Dialogue: 0,0:21:58.62,0:22:01.21,DCMain,KOGORO,0000,0000,0000,,Jeez. Let's get out of here.
+Dialogue: 0,0:22:01.21,0:22:02.43,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:22:03.71,0:22:06.59,DCItalic,CONAN,0000,0000,0000,,The gears of tragedy that began \Nturning for the Oide family.
+Dialogue: 0,0:22:07.34,0:22:10.46,DCItalic,CONAN,0000,0000,0000,,What exactly put them into motion?
+Dialogue: 0,0:22:11.26,0:22:16.71,DCItalic,CONAN,0000,0000,0000,,Why was Oide Raita, who was home \Nthat day by chance, murdered?
+Dialogue: 0,0:22:20.21,0:22:22.83,DCItalic,CONAN,0000,0000,0000,,I'll definitely solve this mystery.
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.52,0:23:48.14,DCMain,CONAN,0000,0000,0000,,The sudden sleepiness Raita mentioned
+Dialogue: 0,0:23:48.14,0:23:50.53,DCMain,CONAN,0000,0000,0000,,was due to the sleeping pills \Nhe was given taking effect.
+Dialogue: 0,0:23:50.75,0:23:54.59,DCMain,WOMAN,0000,0000,0000,,I saw a suspicious person exit that house
+Dialogue: 0,0:23:54.59,0:23:56.99,DCMain,WOMAN,0000,0000,0000,,on the day of the incident \Nwhen the 4:30PM notice played.
+Dialogue: 0,0:23:57.34,0:24:00.60,DCMain,CONAN,0000,0000,0000,,Why didn't the culprit act right away?
+Dialogue: 0,0:24:01.35,0:24:05.13,DCMain,AN,0000,0000,0000,,Dad was really angry while \Nhe was fixing the shelf.
+Dialogue: 0,0:24:05.13,0:24:07.04,DCMain,KOGORO,0000,0000,0000,,We'll have to go to the hospital to check.
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,TEXT,0000,0000,0000,,The Automatic Tragedy \N(Part Two)
+Dialogue: 0,0:24:09.47,0:24:13.88,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Automatic Tragedy, Part Two!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,TEXT,0000,0000,0000,,Shelf
+Dialogue: 0,0:24:30.49,0:24:33.66,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.66,0:24:34.99,DCMain,CONAN,0000,0000,0000,,A shelf!
+Dialogue: 0,0:24:34.99,0:24:36.88,DCMain,KOGORO,0000,0000,0000,,{\an8}What happens in ten more episodes?
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.88,0:24:38.64,DCMain,CONAN,0000,0000,0000,,{\an8}The 1,000th episode!
+Dialogue: 0,0:24:38.64,0:24:39.70,DCMain,KOGORO,0000,0000,0000,,{\an8}1,000th!

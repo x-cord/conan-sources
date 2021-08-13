@@ -1,0 +1,402 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0060,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: PS,Trebuchet MS,24,&H00632F1A,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,7,0190,0010,0075,0
+Style: Tomoya,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AE7692,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0012,0010,0068,0
+Style: Reia,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CE8891,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0030,0068,0
+Style: Ritsuko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A4728E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0015,0068,0
+Style: Ayami,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AC7494,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0040,0068,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.80,0:00:02.50,DCMain,,0000,0000,0000,,Waves...
+Dialogue: 0,0:00:04.60,0:00:09.32,DCMain,RAN,0000,0000,0000,,Whenever I see Sera-san running away,
+Dialogue: 0,0:00:09.32,0:00:11.74,DCMain,RAN,0000,0000,0000,,I always hear it in the back of my mind.
+Dialogue: 0,0:00:16.26,0:00:20.93,DCMain,RAN,0000,0000,0000,,The sound of waves crashing,\Nas though I've had a spell cast on me.
+Dialogue: 0,0:00:22.32,0:00:25.50,DCMain,SERA,0000,0000,0000,,I started to miss Japan, so I came back.
+Dialogue: 0,0:00:26.76,0:00:31.68,DCItalic,SERA,0000,0000,0000,,To be reunited with a magician...
+Dialogue: 0,0:00:33.96,0:00:35.51,DCItalic,SERA,0000,0000,0000,,Huh? A postscript?
+Dialogue: 0,0:00:37.68,0:00:40.85,PS,TEXT,0000,0000,0000,,PS \NHave you already met your magician?
+Dialogue: 0,0:00:43.53,0:00:44.85,DCItalic,SERA,0000,0000,0000,,Well, yeah.
+Dialogue: 0,0:00:47.56,0:00:48.94,DCMain,SERA,0000,0000,0000,,A magician?
+Dialogue: 0,0:00:50.23,0:00:52.75,DCMain,SERA,0000,0000,0000,,I'm not the magician.
+Dialogue: 0,0:00:52.75,0:00:53.57,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:00:55.76,0:00:58.08,DCItalic,SERA,0000,0000,0000,,You're a magician.
+Dialogue: 0,0:01:01.34,0:01:03.04,DCMain,RAN,0000,0000,0000,,Listen...
+Dialogue: 0,0:01:03.88,0:01:07.34,DCMain,RAN,0000,0000,0000,,Sera-chan, have we met before?
+Dialogue: 0,0:01:10.83,0:01:12.90,DCMain,CONAN,0000,0000,0000,,Curtains rise as the headliner appears!
+Dialogue: 0,0:01:12.90,0:01:15.34,DCMain,CONAN,0000,0000,0000,,He beautifully dances his \Nmystery-solving steps!
+Dialogue: 0,0:01:15.34,0:01:19.48,DCMain,CONAN,0000,0000,0000,,Including the mysterious Sera, the high \Nschool girl trio show off their swimsuits.
+Dialogue: 0,0:01:19.48,0:01:21.35,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:21.35,0:01:23.27,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:23.27,0:01:25.72,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:05.95,0:03:11.97,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(402,1)}The Blind Spot in the Changing Room \NPart One
+Dialogue: 0,0:03:06.79,0:03:09.82,DCMain,CONAN,0000,0000,0000,,"The Blind Spot in the \NChanging Room, Part One!"
+Dialogue: 0,0:03:24.57,0:03:25.85,DCMain,RAN,0000,0000,0000,,Tada!
+Dialogue: 0,0:03:26.12,0:03:26.88,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:29.31,0:03:31.35,DCMain,RAN,0000,0000,0000,,Wh-What do you think?
+Dialogue: 0,0:03:35.11,0:03:35.98,DCMain,CONAN,0000,0000,0000,,U-Uh...
+Dialogue: 0,0:03:37.94,0:03:39.52,DCMain,CONAN,0000,0000,0000,,It's...
+Dialogue: 0,0:03:41.46,0:03:42.86,DCMain,SERA,0000,0000,0000,,It looks good.
+Dialogue: 0,0:03:42.86,0:03:47.08,DCMain,SONOKO,0000,0000,0000,,Shinichi-kun will fall head \Nover heels for you, Mrs. Kudo.
+Dialogue: 0,0:03:48.41,0:03:50.25,DCItalic,CONAN,0000,0000,0000,,I already have.
+Dialogue: 0,0:03:50.60,0:03:54.22,DCMain,RAN,0000,0000,0000,,We didn't invite Shinichi to the pool.
+Dialogue: 0,0:03:54.97,0:03:57.00,DCMain,SERA,0000,0000,0000,,Sonoko-kun, you're next.
+Dialogue: 0,0:03:58.34,0:04:00.69,DCMain,SONOKO,0000,0000,0000,,Tada!
+Dialogue: 0,0:04:01.50,0:04:02.38,DCMain,SERA,0000,0000,0000,,Oh...
+Dialogue: 0,0:04:02.38,0:04:03.51,DCMain,RAN,0000,0000,0000,,Wow.
+Dialogue: 0,0:04:04.00,0:04:05.29,DCMain,SONOKO,0000,0000,0000,,What do you think?
+Dialogue: 0,0:04:05.98,0:04:08.35,DCMain,SERA,0000,0000,0000,,It's sexy.
+Dialogue: 0,0:04:08.35,0:04:09.20,DCMain,SONOKO,0000,0000,0000,,Right?
+Dialogue: 0,0:04:09.20,0:04:13.06,DCMain,RAN,0000,0000,0000,,But Kyogoku-san might chide \Nyou if he saw you in that.
+Dialogue: 0,0:04:13.91,0:04:18.64,DCMain,RAN,0000,0000,0000,,"Sonoko-san, a woman must \Nkeep her hips warm."
+Dialogue: 0,0:04:18.64,0:04:19.44,DCMain,RAN,0000,0000,0000,,Like that.
+Dialogue: 0,0:04:19.44,0:04:21.91,DCMain,SONOKO,0000,0000,0000,,Ugh, I bet he'd say that.
+Dialogue: 0,0:04:21.91,0:04:24.99,DCMain,SERA,0000,0000,0000,,He's a typical Japanese man.
+Dialogue: 0,0:04:26.92,0:04:29.01,DCMain,SERA,0000,0000,0000,,I'm next.
+Dialogue: 0,0:04:29.87,0:04:31.58,DCMain,SERA,0000,0000,0000,,Look closely.
+Dialogue: 0,0:04:34.96,0:04:36.72,DCItalic,CONAN,0000,0000,0000,,What was that about?
+Dialogue: 0,0:04:38.71,0:04:40.17,DCMain,SERA,0000,0000,0000,,Tada!
+Dialogue: 0,0:04:40.37,0:04:41.07,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:42.30,0:04:43.66,DCMain,SONOKO,0000,0000,0000,,It looks good!
+Dialogue: 0,0:04:43.66,0:04:45.76,DCMain,RAN,0000,0000,0000,,It's sporty and cute.
+Dialogue: 0,0:04:47.28,0:04:50.93,DCMain,SERA,0000,0000,0000,,I used to wear swimsuits like \Nthis one when I was little.
+Dialogue: 0,0:04:51.39,0:04:55.53,DCMain,SERA,0000,0000,0000,,I was kind of drawn to \Nthe micro bikinis, but...
+Dialogue: 0,0:04:57.15,0:04:59.11,DCMain,BOTH,0000,0000,0000,,Maybe you shouldn't.
+Dialogue: 0,0:04:59.11,0:05:00.88,DCMain,SERA,0000,0000,0000,,Y-You think?
+Dialogue: 0,0:05:02.90,0:05:06.61,DCMain,SONOKO,0000,0000,0000,,If someone with your body \Nwore one of those...
+Dialogue: 0,0:05:06.61,0:05:07.99,DCMain,SERA,0000,0000,0000,,You're so mean.
+Dialogue: 0,0:05:08.21,0:05:09.36,DCMain,SERA,0000,0000,0000,,I should be filling out soon.
+Dialogue: 0,0:05:09.36,0:05:11.49,DCItalic,CONAN,0000,0000,0000,,I've seen that swimsuit before.
+Dialogue: 0,0:05:12.14,0:05:15.58,DCItalic,CONAN,0000,0000,0000,,If she was wearing a swimsuit, it \Nmust've been at the pool or the beach.
+Dialogue: 0,0:05:22.12,0:05:23.08,DCItalic,SHUKICHI,0000,0000,0000,,I'm afraid.
+Dialogue: 0,0:05:23.49,0:05:26.26,DCItalic,SHUKICHI,0000,0000,0000,,I feel like I've been possessed.
+Dialogue: 0,0:05:28.38,0:05:30.18,DCItalic,AKAI,0000,0000,0000,,Who are you?
+Dialogue: 0,0:05:31.57,0:05:33.46,DCItalic,MARY,0000,0000,0000,,One enthralled by the god of death...
+Dialogue: 0,0:05:34.74,0:05:36.35,DCItalic,SERA,0000,0000,0000,,You're a magician!
+Dialogue: 0,0:05:49.28,0:05:50.95,DCMain,SONOKO,0000,0000,0000,,Next, next!
+Dialogue: 0,0:05:50.95,0:05:52.53,DCMain,SONOKO,0000,0000,0000,,Let's try some more on!
+Dialogue: 0,0:05:52.76,0:05:55.45,DCMain,RAN,0000,0000,0000,,What? We're trying more?
+Dialogue: 0,0:05:55.70,0:05:56.43,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:00.29,0:06:01.69,DCMain,SERA,0000,0000,0000,,How's this?
+Dialogue: 0,0:06:17.91,0:06:19.98,DCItalic,CONAN,0000,0000,0000,,I feel like...
+Dialogue: 0,0:06:29.72,0:06:32.49,DCItalic,CONAN,0000,0000,0000,,...I don't belong here.
+Dialogue: 0,0:06:34.66,0:06:35.74,DCMain,CONAN,0000,0000,0000,,Hey!
+Dialogue: 0,0:06:36.87,0:06:39.31,DCMain,CONAN,0000,0000,0000,,Could I go check out the toys?
+Dialogue: 0,0:06:39.31,0:06:40.75,DCMain,RAN,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:06:41.10,0:06:43.37,DCMain,RAN,0000,0000,0000,,This can't be fun for you.
+Dialogue: 0,0:06:43.37,0:06:44.68,DCMain,CONAN,0000,0000,0000,,Uh, yeah.
+Dialogue: 0,0:06:44.68,0:06:48.11,DCMain,RAN,0000,0000,0000,,You can go, but don't follow any strangers.
+Dialogue: 0,0:06:48.11,0:06:49.36,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:49.36,0:06:51.86,DCMain,RAN,0000,0000,0000,,We'll come get you once we buy our swimsuits.
+Dialogue: 0,0:06:51.86,0:06:54.24,DCMain,RAN,0000,0000,0000,,Then we'll have lunch at a restaurant.
+Dialogue: 0,0:06:54.24,0:06:56.01,DCMain,SONOKO,0000,0000,0000,,I bet you're hungry, kid.
+Dialogue: 0,0:06:56.47,0:06:59.02,DCItalic,CONAN,0000,0000,0000,,Nope, I've already had my fill.
+Dialogue: 0,0:07:13.04,0:07:17.21,DCItalic,CONAN,0000,0000,0000,,What was that memory, though?
+Dialogue: 0,0:07:18.02,0:07:19.99,DCItalic,SERA,0000,0000,0000,,You're a magician!
+Dialogue: 0,0:07:19.99,0:07:23.35,DCItalic,CONAN,0000,0000,0000,,If that girl with the double tooth was Sera,
+Dialogue: 0,0:07:23.35,0:07:25.35,DCItalic,CONAN,0000,0000,0000,,then that man in the sunglasses...
+Dialogue: 0,0:07:26.02,0:07:27.81,DCItalic,AKAI,0000,0000,0000,,Who are you?
+Dialogue: 0,0:07:28.27,0:07:31.43,DCItalic,CONAN,0000,0000,0000,,He looked pretty young, but was it Akai-san?
+Dialogue: 0,0:07:31.76,0:07:36.00,DCItalic,CONAN,0000,0000,0000,,Then who are that boy and woman?
+Dialogue: 0,0:07:37.00,0:07:39.85,DCItalic,CONAN,0000,0000,0000,,I feel like I might have met them somewhere.
+Dialogue: 0,0:07:41.58,0:07:42.88,DCItalic,CONAN,0000,0000,0000,,But where?
+Dialogue: 0,0:07:42.88,0:07:44.48,DCMain,NITSUKA,0000,0000,0000,,You don't remember?
+Dialogue: 0,0:07:44.48,0:07:45.36,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:45.36,0:07:47.70,DCMain,NITSUKA,0000,0000,0000,,It's me, Nitsuka!
+Dialogue: 0,0:07:47.70,0:07:49.69,DCMain,NANBU,0000,0000,0000,,I-I see...
+Dialogue: 0,0:07:49.69,0:07:52.61,DCMain,NITSUKA,0000,0000,0000,,Nitsuka, the woman who collapsed \Nin the changing room last week,
+Dialogue: 0,0:07:52.76,0:07:55.48,DCMain,NITSUKA,0000,0000,0000,,{\an8}and was taken to the doctor!
+Dialogue: 0,0:07:52.86,0:07:56.99,Tomoya,TEXT,0000,0000,0000,,{\fad(250,1)}Nitsuka Tomoyo (43) \NCustomer
+Dialogue: 0,0:07:55.48,0:07:56.99,DCMain,NITSUKA,0000,0000,0000,,{\an8}Ni-tsu-ka!
+Dialogue: 0,0:07:57.25,0:07:59.65,DCMain,NANBU,0000,0000,0000,,{\an8}Oh, I remember now!
+Dialogue: 0,0:07:57.28,0:08:02.00,Reia,TEXT,0000,0000,0000,,{\fad(250,1)}Nanbu Reia (24) \NEmployee
+Dialogue: 0,0:07:59.65,0:08:02.00,DCMain,NANBU,0000,0000,0000,,{\an8}You were feeling anemic \Nand lost consciousness.
+Dialogue: 0,0:08:02.00,0:08:05.84,DCMain,NITSUKA,0000,0000,0000,,It wasn't anemia. It was my dog allergy.
+Dialogue: 0,0:08:05.84,0:08:08.52,DCMain,NITSUKA,0000,0000,0000,,Since that woman covered in dog hair
+Dialogue: 0,0:08:08.52,0:08:12.01,DCMain,NITSUKA,0000,0000,0000,,used the changing room before me,
+Dialogue: 0,0:08:12.01,0:08:15.24,DCMain,NITSUKA,0000,0000,0000,,I had an allergic reaction \Nand lost consciousness.
+Dialogue: 0,0:08:15.24,0:08:16.55,DCMain,NANBU,0000,0000,0000,,I-I see.
+Dialogue: 0,0:08:16.70,0:08:20.62,DCMain,NITSUKA,0000,0000,0000,,So I'm asking if that woman came here today.
+Dialogue: 0,0:08:22.22,0:08:25.48,DCMain,NANBU,0000,0000,0000,,I'm not sure who you're talking about.
+Dialogue: 0,0:08:25.48,0:08:30.43,DCMain,NITSUKA,0000,0000,0000,,That high-handed, unpleasant \Nlooking woman with gaudy nails.
+Dialogue: 0,0:08:30.43,0:08:31.36,DCMain,SASHIHARA,0000,0000,0000,,Oh?
+Dialogue: 0,0:08:32.58,0:08:36.33,DCMain,SASHIHARA,0000,0000,0000,,Could that high-handed, \Nunpleasant looking woman
+Dialogue: 0,0:08:36.33,0:08:40.95,DCMain,SASHIHARA,0000,0000,0000,,with gaudy nails you're \Ncomplaining about be me?
+Dialogue: 0,0:08:42.70,0:08:49.09,Ritsuko,TEXT,0000,0000,0000,,{\fad(250,250)}Sashihara Ritsuko (41) \NCustomer
+Dialogue: 0,0:08:42.85,0:08:45.76,DCMain,SASHIHARA,0000,0000,0000,,{\an8}Nitsuka-san, was it?
+Dialogue: 0,0:08:45.76,0:08:48.50,DCMain,SASHIHARA,0000,0000,0000,,{\an8}If you hate dog hair so much,
+Dialogue: 0,0:08:48.50,0:08:51.63,DCMain,SASHIHARA,0000,0000,0000,,{\an8}why don't you hold your breath \Nwhile you use the changing room?
+Dialogue: 0,0:08:51.97,0:08:53.49,DCMain,SASHIHARA,0000,0000,0000,,Right, Yamaki-san?
+Dialogue: 0,0:08:53.49,0:08:55.90,DCMain,SASHIHARA,0000,0000,0000,,Don't you agree?
+Dialogue: 0,0:08:56.45,0:08:57.39,DCMain,YAMAKI,0000,0000,0000,,But, ma'am,
+Dialogue: 0,0:08:57.64,0:09:04.02,Ayami,TEXT,0000,0000,0000,,{\fad(250,250)}Yamaki Ayami (35) \NCustomer
+Dialogue: 0,0:08:57.86,0:09:01.70,DCMain,YAMAKI,0000,0000,0000,,{\an8}an allergy to dogs can be triggered \Nnot just be inhaling dog hair,
+Dialogue: 0,0:09:01.70,0:09:05.77,DCMain,YAMAKI,0000,0000,0000,,{\an8}but also coming in contact \Nwith fur, dander, or saliva.
+Dialogue: 0,0:09:06.15,0:09:07.90,DCMain,SASHIHARA,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:09:07.90,0:09:11.88,DCMain,SASHIHARA,0000,0000,0000,,Then you won't be able to try any clothes on
+Dialogue: 0,0:09:11.88,0:09:13.92,DCMain,SASHIHARA,0000,0000,0000,,without wearing socks and a wet suit.
+Dialogue: 0,0:09:13.92,0:09:15.78,DCMain,NITSUKA,0000,0000,0000,,Wh-Why you...
+Dialogue: 0,0:09:16.22,0:09:17.17,DCMain,YAMAKI,0000,0000,0000,,Ma'am.
+Dialogue: 0,0:09:17.66,0:09:20.03,DCMain,YAMAKI,0000,0000,0000,,You may have gone too far.
+Dialogue: 0,0:09:20.03,0:09:23.45,DCMain,SASHIHARA,0000,0000,0000,,What? Are you trying to give me advice?
+Dialogue: 0,0:09:23.45,0:09:24.20,DCMain,YAMAKI,0000,0000,0000,,What?
+Dialogue: 0,0:09:24.58,0:09:27.10,DCMain,SASHIHARA,0000,0000,0000,,Have you forgotten that I \Nagreed to take on your debts,
+Dialogue: 0,0:09:27.10,0:09:31.09,DCMain,SASHIHARA,0000,0000,0000,,and even hired you to work at my company?
+Dialogue: 0,0:09:32.20,0:09:34.26,DCMain,YAMAKI,0000,0000,0000,,No, I...
+Dialogue: 0,0:09:35.75,0:09:39.08,DCMain,NANBU,0000,0000,0000,,Now, now. There are three changing rooms.
+Dialogue: 0,0:09:39.08,0:09:42.18,DCMain,NANBU,0000,0000,0000,,Why don't you agree on a way to share them?
+Dialogue: 0,0:09:42.18,0:09:45.27,DCMain,SASHIHARA,0000,0000,0000,,Oh, good idea.
+Dialogue: 0,0:09:46.07,0:09:48.71,DCMain,SASHIHARA,0000,0000,0000,,Hmm, Nanbu-san.
+Dialogue: 0,0:09:48.71,0:09:51.33,DCMain,SASHIHARA,0000,0000,0000,,I don't recognize you. Are you new?
+Dialogue: 0,0:09:51.33,0:09:55.65,DCMain,NANBU,0000,0000,0000,,Oh, yes. I was just assigned \Nto this shop last month.
+Dialogue: 0,0:09:56.04,0:09:59.91,DCMain,SASHIHARA,0000,0000,0000,,I know the owner. I'll be \Nsure to tell him about you.
+Dialogue: 0,0:10:00.98,0:10:02.41,DCMain,NANBU,0000,0000,0000,,Thank you!
+Dialogue: 0,0:10:03.31,0:10:07.65,DCMain,SASHIHARA,0000,0000,0000,,That there's an eyesore at his shop \Nwho dared to tell me what to do,
+Dialogue: 0,0:10:07.65,0:10:09.54,DCMain,SASHIHARA,0000,0000,0000,,and she should be fired!
+Dialogue: 0,0:10:10.42,0:10:11.75,DCMain,NANBU,0000,0000,0000,,B-But...
+Dialogue: 0,0:10:11.96,0:10:15.73,DCMain,SASHIHARA,0000,0000,0000,,Now show me some clothes!
+Dialogue: 0,0:10:15.73,0:10:18.84,DCMain,SASHIHARA,0000,0000,0000,,I'm going to another \Nparty overseas next week!
+Dialogue: 0,0:10:23.06,0:10:25.47,DCMain,SASHIHARA,0000,0000,0000,,Come on, hurry up!
+Dialogue: 0,0:10:25.47,0:10:28.88,DCMain,SASHIHARA,0000,0000,0000,,Unlike you, I don't have \Nall the time in the world!
+Dialogue: 0,0:10:29.28,0:10:32.36,DCItalic,CONAN,0000,0000,0000,,I don't know what's going on, \Nbut I'm staying out of that.
+Dialogue: 0,0:10:35.15,0:10:36.36,DCMain,SERA,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:36.64,0:10:39.73,DCMain,SERA,0000,0000,0000,,That crazy woman's one of their customers?
+Dialogue: 0,0:10:39.73,0:10:40.36,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:40.86,0:10:46.32,DCMain,SERA,0000,0000,0000,,She seems like the first person \Nto become a victim in a mystery.
+Dialogue: 0,0:10:46.32,0:10:50.37,DCMain,RAN,0000,0000,0000,,Sera-chan, don't say things like that.
+Dialogue: 0,0:10:51.79,0:10:53.69,DCMain,SONOKO,0000,0000,0000,,What shop was that?
+Dialogue: 0,0:10:53.69,0:10:56.84,DCMain,CONAN,0000,0000,0000,,A place called Shimusa on the fourth floor.
+Dialogue: 0,0:10:56.84,0:10:59.04,DCMain,SONOKO,0000,0000,0000,,Why don't we go there now?
+Dialogue: 0,0:10:59.04,0:10:59.63,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:10:59.80,0:11:02.37,DCMain,SONOKO,0000,0000,0000,,I'd like to see this woman.
+Dialogue: 0,0:11:02.37,0:11:07.12,DCMain,RAN,0000,0000,0000,,Don't. I'm in a good mood \Nafter buying a cute swimsuit.
+Dialogue: 0,0:11:07.12,0:11:08.14,DCItalic,CONAN,0000,0000,0000,,A swimsuit.
+Dialogue: 0,0:11:08.55,0:11:10.39,DCMain,CONAN,0000,0000,0000,,Hey, Sera-no-neechan.
+Dialogue: 0,0:11:10.39,0:11:11.30,DCMain,SERA,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:11.30,0:11:14.23,DCMain,CONAN,0000,0000,0000,,The first swimsuit you tried on today...
+Dialogue: 0,0:11:14.23,0:11:15.42,DCMain,RAN,0000,0000,0000,,Oh, that's right.
+Dialogue: 0,0:11:15.42,0:11:18.82,DCMain,RAN,0000,0000,0000,,Have you worn that swimsuit before?
+Dialogue: 0,0:11:19.16,0:11:21.58,DCMain,RAN,0000,0000,0000,,I thought I recognized it.
+Dialogue: 0,0:11:21.58,0:11:22.95,DCMain,SERA,0000,0000,0000,,Really?
+Dialogue: 0,0:11:23.25,0:11:27.50,DCItalic,CONAN,0000,0000,0000,,Come to think of it, Ran was there, too...
+Dialogue: 0,0:11:30.23,0:11:31.96,DCMain,SONOKO,0000,0000,0000,,Hey, look.
+Dialogue: 0,0:11:32.35,0:11:33.29,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:33.46,0:11:35.67,DCMain,RAN,0000,0000,0000,,What is it, Sonoko?
+Dialogue: 0,0:11:35.93,0:11:39.59,DCMain,SONOKO,0000,0000,0000,,That store the kid was \Ntalking about is nearby.
+Dialogue: 0,0:11:40.47,0:11:41.86,DCMain,SONOKO,0000,0000,0000,,Let's check it out.
+Dialogue: 0,0:11:41.86,0:11:43.59,DCMain,RAN,0000,0000,0000,,Let's not.
+Dialogue: 0,0:11:53.04,0:11:54.52,DCMain,RAN,0000,0000,0000,,W-Wait, Conan-kun!
+Dialogue: 0,0:11:54.52,0:11:56.27,DCMain,CUSTOMER,0000,0000,0000,,Someone's dead!
+Dialogue: 0,0:11:56.27,0:11:57.36,DCMain,CUSTOMER,0000,0000,0000,,Call the police!
+Dialogue: 0,0:11:57.36,0:11:58.34,DCMain,CUSTOMER,0000,0000,0000,,Someone help!
+Dialogue: 0,0:11:59.52,0:12:01.99,DCItalic,CONAN,0000,0000,0000,,Seriously? It's that store I was just at.
+Dialogue: 0,0:12:27.16,0:12:28.35,DCMain,RAN,0000,0000,0000,,W-Wait, Conan-kun!
+Dialogue: 0,0:12:28.35,0:12:30.14,DCMain,CUSTOMER,0000,0000,0000,,Someone's dead!
+Dialogue: 0,0:12:30.14,0:12:31.18,DCMain,CUSTOMER,0000,0000,0000,,Call the police!
+Dialogue: 0,0:12:31.18,0:12:32.38,DCMain,CUSTOMER,0000,0000,0000,,Someone help!
+Dialogue: 0,0:12:33.04,0:12:35.81,DCItalic,CONAN,0000,0000,0000,,Seriously? It's that store I was just at.
+Dialogue: 0,0:12:46.76,0:12:48.56,DCMain,SERA,0000,0000,0000,,Have you called the police?
+Dialogue: 0,0:12:48.56,0:12:49.35,DCMain,NANBU,0000,0000,0000,,I will.
+Dialogue: 0,0:12:49.35,0:12:52.31,DCMain,CONAN,0000,0000,0000,,Don't let anyone out of the store.
+Dialogue: 0,0:12:52.87,0:12:54.03,DCMain,NANBU,0000,0000,0000,,Got it.
+Dialogue: 0,0:12:54.98,0:12:56.86,DCItalic,SERA,0000,0000,0000,,There are Yoshikawa lines.
+Dialogue: 0,0:12:56.86,0:12:59.15,DCItalic,SERA,0000,0000,0000,,Looks like she was strangled.
+Dialogue: 0,0:13:02.63,0:13:05.01,DCItalic,CONAN,0000,0000,0000,,Her left hand is in her jacket.
+Dialogue: 0,0:13:05.58,0:13:06.45,DCItalic,CONAN,0000,0000,0000,,Why?
+Dialogue: 0,0:13:14.36,0:13:15.98,DCMain,CONAN,0000,0000,0000,,She's pointing next door.
+Dialogue: 0,0:13:16.48,0:13:18.94,DCMain,SERA,0000,0000,0000,,Who was in the changing room to the left?
+Dialogue: 0,0:13:18.94,0:13:20.86,DCMain,YAMAKI,0000,0000,0000,,Th-That was me.
+Dialogue: 0,0:13:21.12,0:13:23.60,DCMain,NITSUKA,0000,0000,0000,,You killed her?
+Dialogue: 0,0:13:23.60,0:13:26.44,DCMain,YAMAKI,0000,0000,0000,,Y-You can't be serious. It wasn't me.
+Dialogue: 0,0:13:26.44,0:13:28.28,DCMain,SERA,0000,0000,0000,,Who was to her right?
+Dialogue: 0,0:13:28.28,0:13:30.87,DCMain,NITSUKA,0000,0000,0000,,Me. Is there a problem?
+Dialogue: 0,0:13:31.94,0:13:35.25,DCMain,CONAN,0000,0000,0000,,Who was the first one to find her?
+Dialogue: 0,0:13:35.48,0:13:37.48,DCMain,NITSUKA,0000,0000,0000,,That employee.
+Dialogue: 0,0:13:37.86,0:13:41.63,DCMain,NANBU,0000,0000,0000,,Yes. There's a dead customer \Nin the changing room.
+Dialogue: 0,0:13:48.09,0:13:50.39,DCMain,SERA,0000,0000,0000,,She's holding something in her right hand.
+Dialogue: 0,0:13:53.50,0:13:54.58,DCMain,SERA,0000,0000,0000,,Lipstick?
+Dialogue: 0,0:13:56.18,0:13:59.82,DCMain,CONAN,0000,0000,0000,,Come to think of it, it looked like she \Nwiped her lipstick off with her finger.
+Dialogue: 0,0:14:00.77,0:14:05.15,DCMain,SERA,0000,0000,0000,,She put lipstick on her thumb and \Ngrasped it before she was killed.
+Dialogue: 0,0:14:05.84,0:14:07.65,DCItalic,SERA,0000,0000,0000,,But why?
+Dialogue: 0,0:14:08.38,0:14:10.16,DCItalic,CONAN,0000,0000,0000,,For what purpose?
+Dialogue: 0,0:14:20.35,0:14:21.04,DCMain,RAN,0000,0000,0000,,No way.
+Dialogue: 0,0:14:21.40,0:14:25.46,DCMain,RAN,0000,0000,0000,,The woman who died was the one \NConan-kun was talking about?
+Dialogue: 0,0:14:25.67,0:14:29.58,DCMain,SONOKO,0000,0000,0000,,Yeah, the high-handed and \Nunpleasant looking woman.
+Dialogue: 0,0:14:30.88,0:14:33.02,DCMain,RAN,0000,0000,0000,,It's Sera-chan's fault
+Dialogue: 0,0:14:33.02,0:14:35.72,DCMain,RAN,0000,0000,0000,,for saying she'd be killed \Nfirst in a mystery novel.
+Dialogue: 0,0:14:36.08,0:14:40.98,DCItalic,SONOKO,0000,0000,0000,,Actually, I think it's the \Nkid who caused her death.
+Dialogue: 0,0:14:42.43,0:14:44.48,DCMain,MEGURE,0000,0000,0000,,So, who's the victim?
+Dialogue: 0,0:14:44.78,0:14:48.86,DCMain,TAKAGI,0000,0000,0000,,Ah, yes, sir. Sashihara \NRitsuko-san, forty-one years old.
+Dialogue: 0,0:14:49.35,0:14:52.29,DCMain,TAKAGI,0000,0000,0000,,She was the president of a cosmetics company.
+Dialogue: 0,0:14:52.29,0:14:56.14,DCMain,TAKAGI,0000,0000,0000,,The cause of death was strangulation.
+Dialogue: 0,0:14:56.14,0:14:58.18,DCMain,TAKAGI,0000,0000,0000,,According to forensics,
+Dialogue: 0,0:14:58.18,0:15:02.62,DCMain,TAKAGI,0000,0000,0000,,the killer wrapped a rope around her neck
+Dialogue: 0,0:15:02.62,0:15:05.31,DCMain,TAKAGI,0000,0000,0000,,and lifted her onto their back.
+Dialogue: 0,0:15:05.31,0:15:06.83,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:15:06.83,0:15:09.11,DCMain,MEGURE,0000,0000,0000,,Who found the body first?
+Dialogue: 0,0:15:09.11,0:15:10.74,DCMain,TAKAGI,0000,0000,0000,,The body was discovered by...
+Dialogue: 0,0:15:10.74,0:15:12.64,DCMain,NANBU,0000,0000,0000,,I-It was me.
+Dialogue: 0,0:15:13.12,0:15:15.47,DCMain,MEGURE,0000,0000,0000,,And you are?
+Dialogue: 0,0:15:16.10,0:15:20.02,DCMain,NANBU,0000,0000,0000,,I'm Nanbu Reia. I work here.
+Dialogue: 0,0:15:20.35,0:15:24.86,DCMain,NANBU,0000,0000,0000,,Sashihara-sama hadn't come out \Nof the changing room for a while.
+Dialogue: 0,0:15:24.86,0:15:27.70,DCMain,NANBU,0000,0000,0000,,She didn't answer when I called to her,
+Dialogue: 0,0:15:27.70,0:15:31.78,DCMain,NANBU,0000,0000,0000,,so when I opened the curtain to look \Ninside, I-I found her like this.
+Dialogue: 0,0:15:31.97,0:15:36.52,DCMain,TAKAGI,0000,0000,0000,,Was anyone using the changing \Nrooms next to hers at the time?
+Dialogue: 0,0:15:36.52,0:15:39.36,DCMain,YAMAKI,0000,0000,0000,,I was using the left room.
+Dialogue: 0,0:15:40.13,0:15:44.60,DCMain,YAMAKI,0000,0000,0000,,Oh, I'm President Sashihara's \Nemployee, Yamaki.
+Dialogue: 0,0:15:44.60,0:15:48.30,DCMain,YAMAKI,0000,0000,0000,,I often accompanied the president \Nwhen she went shopping.
+Dialogue: 0,0:15:49.58,0:15:52.08,DCMain,NITSUKA,0000,0000,0000,,Since I know you'll ask,
+Dialogue: 0,0:15:52.08,0:15:55.30,DCMain,NITSUKA,0000,0000,0000,,I was in the right changing room.
+Dialogue: 0,0:15:55.59,0:15:57.89,DCMain,NITSUKA,0000,0000,0000,,I'm Nitsuka Tomoyo.
+Dialogue: 0,0:15:57.89,0:16:01.00,DCMain,NITSUKA,0000,0000,0000,,I'm just an ordinary customer
+Dialogue: 0,0:16:01.00,0:16:04.44,DCMain,NITSUKA,0000,0000,0000,,who had nothing to do with that woman.
+Dialogue: 0,0:16:04.72,0:16:07.73,DCMain,NITSUKA,0000,0000,0000,,And it looked like someone had used
+Dialogue: 0,0:16:07.73,0:16:11.26,DCMain,NITSUKA,0000,0000,0000,,the right changing room \Nbefore I went in there.
+Dialogue: 0,0:16:11.26,0:16:14.53,DCMain,MEGURE,0000,0000,0000,,Someone? You mean you didn't see their face?
+Dialogue: 0,0:16:14.53,0:16:19.45,DCMain,NITSUKA,0000,0000,0000,,No, I just saw the white sandals they \Nleft in front of the changing room.
+Dialogue: 0,0:16:19.80,0:16:22.34,DCMain,YAMAKI,0000,0000,0000,,I saw the sandals, too.
+Dialogue: 0,0:16:22.34,0:16:24.44,DCMain,NANBU,0000,0000,0000,,S-So did I.
+Dialogue: 0,0:16:24.86,0:16:28.96,DCMain,TAKAGI,0000,0000,0000,,How many customers were inside \Nthe store at the time?
+Dialogue: 0,0:16:29.71,0:16:33.68,DCMain,NANBU,0000,0000,0000,,About... four or five.
+Dialogue: 0,0:16:33.68,0:16:38.72,DCMain,NANBU,0000,0000,0000,,They left when they heard there had been a \Nmurder since they didn't want to get involved.
+Dialogue: 0,0:16:39.22,0:16:44.61,DCMain,NANBU,0000,0000,0000,,That boy told me not to \Nlet anyone leave, though.
+Dialogue: 0,0:16:44.61,0:16:46.60,DCMain,TAKAGI,0000,0000,0000,,Conan-kun, what are you doing here?
+Dialogue: 0,0:16:46.60,0:16:49.73,DCMain,CONAN,0000,0000,0000,,I heard the scream of the employee.
+Dialogue: 0,0:16:50.19,0:16:54.20,DCMain,CONAN,0000,0000,0000,,I was at the escalator next to the store.
+Dialogue: 0,0:16:54.20,0:16:56.48,DCMain,CONAN,0000,0000,0000,,Right, Sera-no-neechan?
+Dialogue: 0,0:16:56.48,0:16:57.50,DCMain,SERA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:57.50,0:17:02.47,DCMain,SERA,0000,0000,0000,,Conan-kun had been telling us \Nall about how the murdered woman
+Dialogue: 0,0:17:02.47,0:17:07.38,DCMain,SERA,0000,0000,0000,,and these three were \Narguing before the murder.
+Dialogue: 0,0:17:11.42,0:17:15.61,DCMain,MEGURE,0000,0000,0000,,But it's not good that \Nthe other customers left.
+Dialogue: 0,0:17:15.61,0:17:19.89,DCMain,TAKAGI,0000,0000,0000,,Yeah. I'm curious about the customer \Nwho left the white sandals, too.
+Dialogue: 0,0:17:20.61,0:17:22.60,DCMain,TAKAGI,0000,0000,0000,,Are there any security cameras in the store?
+Dialogue: 0,0:17:22.60,0:17:24.86,DCMain,EMPLOYEE 1,0000,0000,0000,,We do have some.
+Dialogue: 0,0:17:24.86,0:17:28.38,DCMain,EMPLOYEE 2,0000,0000,0000,,But I don't think we have \Nany near the changing rooms.
+Dialogue: 0,0:17:28.38,0:17:30.02,DCMain,TAKAGI,0000,0000,0000,,I see.
+Dialogue: 0,0:17:30.53,0:17:34.28,DCMain,MEGURE,0000,0000,0000,,Which leaves the victim's hands.
+Dialogue: 0,0:17:34.84,0:17:38.43,DCMain,MEGURE,0000,0000,0000,,Her left hand has the pointer \Nfinger and thumb extended.
+Dialogue: 0,0:17:38.43,0:17:42.79,DCMain,MEGURE,0000,0000,0000,,Her right hand was holding her thumb \Nwhich was stained with lipstick.
+Dialogue: 0,0:17:43.34,0:17:44.95,DCMain,MEGURE,0000,0000,0000,,What is this?
+Dialogue: 0,0:17:44.95,0:17:46.60,DCMain,SERA,0000,0000,0000,,You don't know?
+Dialogue: 0,0:17:48.26,0:17:50.42,DCMain,SERA,0000,0000,0000,,It's a dying message.
+Dialogue: 0,0:17:50.84,0:17:52.67,DCMain,SERA,0000,0000,0000,,A message from the dead.
+Dialogue: 0,0:17:52.96,0:17:57.62,DCMain,MEGURE,0000,0000,0000,,Maybe, but the killer \Ncould've left it on purpose.
+Dialogue: 0,0:17:57.62,0:18:02.24,DCMain,SERA,0000,0000,0000,,Look again at the palms of her hands.
+Dialogue: 0,0:18:02.24,0:18:03.93,DCMain,MEGURE,0000,0000,0000,,The palms of her hands?
+Dialogue: 0,0:18:04.24,0:18:08.23,DCMain,SERA,0000,0000,0000,,She still has nail marks on both hands.
+Dialogue: 0,0:18:08.23,0:18:13.19,DCMain,SERA,0000,0000,0000,,The killer couldn't have left those marks \Nif they'd closed her hands for her.
+Dialogue: 0,0:18:13.84,0:18:16.83,DCMain,SERA,0000,0000,0000,,The victim clenched her \Nhands as hard as she could
+Dialogue: 0,0:18:16.83,0:18:19.87,DCMain,SERA,0000,0000,0000,,while she was being strangled,
+Dialogue: 0,0:18:20.34,0:18:23.33,DCMain,SERA,0000,0000,0000,,so she could tell us who killed her.
+Dialogue: 0,0:18:23.53,0:18:24.65,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:18:24.65,0:18:29.14,DCMain,MEGURE,0000,0000,0000,,Which way was her left hand pointing \Nwhen the body was discovered?
+Dialogue: 0,0:18:29.14,0:18:31.83,DCMain,CONAN,0000,0000,0000,,It was inside the right side of her jacket,
+Dialogue: 0,0:18:31.83,0:18:34.28,DCMain,CONAN,0000,0000,0000,,so it was pointing left.
+Dialogue: 0,0:18:34.28,0:18:35.21,DCMain,MEGURE,0000,0000,0000,,Left?
+Dialogue: 0,0:18:35.46,0:18:39.01,DCMain,MEGURE,0000,0000,0000,,In other words, the woman using \Nthe left changing room...
+Dialogue: 0,0:18:39.01,0:18:41.85,DCMain,YAMAKI,0000,0000,0000,,I-I didn't do it.
+Dialogue: 0,0:18:42.49,0:18:45.70,DCMain,YAMAKI,0000,0000,0000,,If the person I killed had \Ntheir hand inside their jacket,
+Dialogue: 0,0:18:45.70,0:18:48.85,DCMain,YAMAKI,0000,0000,0000,,I would check to see what it was doing.
+Dialogue: 0,0:18:49.10,0:18:52.69,DCMain,YAMAKI,0000,0000,0000,,I'd be worried she was holding \Nsome kind of evidence.
+Dialogue: 0,0:18:53.08,0:18:55.44,DCMain,YAMAKI,0000,0000,0000,,Besides, the killer could've
+Dialogue: 0,0:18:55.44,0:18:58.78,DCMain,YAMAKI,0000,0000,0000,,changed the orientation of \Nher body after killing her.
+Dialogue: 0,0:18:58.78,0:19:01.45,DCMain,MEGURE,0000,0000,0000,,You're right.
+Dialogue: 0,0:19:01.77,0:19:05.62,DCMain,CONAN,0000,0000,0000,,Hey, maybe this is some kind of number.
+Dialogue: 0,0:19:05.98,0:19:07.00,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:19:09.24,0:19:11.75,DCMain,TAKAGI,0000,0000,0000,,A number? This?
+Dialogue: 0,0:19:11.75,0:19:16.60,DCMain,CONAN,0000,0000,0000,,The victim frequently traveled abroad, right?
+Dialogue: 0,0:19:16.60,0:19:19.89,DCMain,CONAN,0000,0000,0000,,She said she was going to \Na party overseas next week.
+Dialogue: 0,0:19:19.89,0:19:24.01,DCMain,YAMAKI,0000,0000,0000,,Yes, every week she flew all over the world
+Dialogue: 0,0:19:24.01,0:19:25.88,DCMain,YAMAKI,0000,0000,0000,,to expand her market.
+Dialogue: 0,0:19:25.88,0:19:28.93,DCMain,CONAN,0000,0000,0000,,Then she must've gone to Europe often, right?
+Dialogue: 0,0:19:28.93,0:19:29.89,DCMain,YAMAKI,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:31.12,0:19:33.62,DCMain,CONAN,0000,0000,0000,,When using fingers to count numbers,
+Dialogue: 0,0:19:33.62,0:19:36.97,DCMain,CONAN,0000,0000,0000,,Europeans generally count \None with their thumb,
+Dialogue: 0,0:19:36.97,0:19:41.53,DCMain,CONAN,0000,0000,0000,,two with their pointer finger, and \Nthree with their middle finger.
+Dialogue: 0,0:19:41.85,0:19:44.53,DCMain,TAKAGI,0000,0000,0000,,Which means this shape is two.
+Dialogue: 0,0:19:45.22,0:19:48.30,DCMain,TAKAGI,0000,0000,0000,,It's indicating Nitsuka-san.
+Dialogue: 0,0:19:48.30,0:19:50.51,DCMain,NITSUKA,0000,0000,0000,,Y-You can't be serious!
+Dialogue: 0,0:19:50.51,0:19:55.38,DCMain,NITSUKA,0000,0000,0000,,Why would I kill a total stranger?
+Dialogue: 0,0:19:55.38,0:19:57.75,DCMain,TAKAGI,0000,0000,0000,,Oh, uh, because...
+Dialogue: 0,0:19:58.18,0:20:02.42,DCMain,SERA,0000,0000,0000,,Conan-kun, is that really \Nwhat they do in Europe?
+Dialogue: 0,0:20:02.42,0:20:06.39,DCMain,CONAN,0000,0000,0000,,I saw on TV that they do \Nthis in Germany and France.
+Dialogue: 0,0:20:06.84,0:20:10.29,DCMain,SERA,0000,0000,0000,,But where I studied abroad,
+Dialogue: 0,0:20:10.29,0:20:13.96,DCMain,SERA,0000,0000,0000,,they counted the same way we do in Japan.
+Dialogue: 0,0:20:13.96,0:20:15.33,DCMain,SERA,0000,0000,0000,,Pointer finger first,
+Dialogue: 0,0:20:15.33,0:20:19.65,DCMain,SERA,0000,0000,0000,,middle finger second, and ring finger third.
+Dialogue: 0,0:20:19.86,0:20:23.04,DCMain,CONAN,0000,0000,0000,,You went to America, right?
+Dialogue: 0,0:20:23.04,0:20:25.28,DCMain,CONAN,0000,0000,0000,,America and Japan are the same.
+Dialogue: 0,0:20:26.36,0:20:28.84,DCMain,SERA,0000,0000,0000,,O-Oh, right.
+Dialogue: 0,0:20:29.57,0:20:33.77,DCMain,SERA,0000,0000,0000,,C-Come to think of it, that hand shape \Nlooks like something, doesn't it?
+Dialogue: 0,0:20:33.77,0:20:34.67,DCMain,MEGURE,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:36.59,0:20:38.46,DCMain,MEGURE,0000,0000,0000,,A-A gun?
+Dialogue: 0,0:20:40.16,0:20:44.71,DCMain,SERA,0000,0000,0000,,And the guns used by the \NJapanese police are...
+Dialogue: 0,0:20:44.71,0:20:46.16,DCMain,TAKAGI,0000,0000,0000,,New Nambus.
+Dialogue: 0,0:20:46.77,0:20:47.68,DCMain,TAKAGI,0000,0000,0000,,That's it!
+Dialogue: 0,0:20:48.31,0:20:51.56,DCMain,TAKAGI,0000,0000,0000,,That means Nanbu-san did it.
+Dialogue: 0,0:20:51.56,0:20:52.60,DCMain,NANBU,0000,0000,0000,,What?
+Dialogue: 0,0:20:52.85,0:20:55.97,DCMain,NANBU,0000,0000,0000,,I-I didn't do it!
+Dialogue: 0,0:20:56.84,0:20:58.09,DCMain,MEGURE,0000,0000,0000,,In other words,
+Dialogue: 0,0:20:58.78,0:21:01.01,DCMain,MEGURE,0000,0000,0000,,the left hand by itself
+Dialogue: 0,0:21:01.01,0:21:04.52,DCMain,MEGURE,0000,0000,0000,,can be interpreted in just about any way.
+Dialogue: 0,0:21:04.52,0:21:09.92,DCMain,MEGURE,0000,0000,0000,,Which means the key lies in the right hand
+Dialogue: 0,0:21:09.92,0:21:11.50,DCMain,MEGURE,0000,0000,0000,,holding her lipstick stained thumb,
+Dialogue: 0,0:21:11.50,0:21:14.00,DCMain,MEGURE,0000,0000,0000,,but we have no idea what it means.
+Dialogue: 0,0:21:14.19,0:21:19.12,DCMain,TAKAGI,0000,0000,0000,,It's strange that no one heard \Nthe victim scream, though.
+Dialogue: 0,0:21:19.12,0:21:20.38,DCMain,MEGURE,0000,0000,0000,,Yeah.
+Dialogue: 0,0:21:20.38,0:21:23.38,DCMain,MEGURE,0000,0000,0000,,Normally you'd say something
+Dialogue: 0,0:21:23.38,0:21:26.51,DCMain,MEGURE,0000,0000,0000,,if someone entered your room \Nwhile you were changing.
+Dialogue: 0,0:21:27.08,0:21:30.24,DCMain,MEGURE,0000,0000,0000,,In any case, we'd like \Nto question each of you
+Dialogue: 0,0:21:30.24,0:21:33.92,DCMain,MEGURE,0000,0000,0000,,individually in a separate room.
+Dialogue: 0,0:21:34.98,0:21:37.52,DCMain,CONAN,0000,0000,0000,,Can I go with you?
+Dialogue: 0,0:21:37.78,0:21:38.69,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:21:38.69,0:21:39.90,DCMain,TAKAGI,0000,0000,0000,,Wh-Why?
+Dialogue: 0,0:21:40.32,0:21:42.27,DCMain,SERA,0000,0000,0000,,Remember?
+Dialogue: 0,0:21:42.27,0:21:47.16,DCMain,SERA,0000,0000,0000,,Conan-kun saw them arguing with the victim.
+Dialogue: 0,0:21:52.92,0:21:54.28,DCMain,MEGURE,0000,0000,0000,,We don't have a choice.
+Dialogue: 0,0:21:54.28,0:21:55.92,DCMain,TAKAGI,0000,0000,0000,,Conan-kun, you can come.
+Dialogue: 0,0:21:55.92,0:21:59.42,DCMain,SERA,0000,0000,0000,,Then I'll come as Conan-kun's guardian.
+Dialogue: 0,0:21:59.83,0:22:00.66,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:23:44.90,0:23:47.23,DCMain,MEGURE,0000,0000,0000,,All three of them are \Nalmost exactly the same.
+Dialogue: 0,0:23:44.90,0:24:08.92,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:47.66,0:23:52.95,DCMain,TAKAGI,0000,0000,0000,,The question is how did the killer \Nget inside the changing room.
+Dialogue: 0,0:23:52.95,0:23:53.78,DCMain,MEGURE,0000,0000,0000,,Yeah.
+Dialogue: 0,0:23:54.16,0:23:57.62,DCMain,MEGURE,0000,0000,0000,,The killer's reflection should've \Nappeared in this mirror.
+Dialogue: 0,0:23:58.40,0:23:59.62,DCItalic,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:24:00.16,0:24:01.91,DCItalic,SERA,0000,0000,0000,,So that's how it is.
+Dialogue: 0,0:24:02.13,0:24:05.17,DCMain,SONOKO,0000,0000,0000,,What's this stuff for?
+Dialogue: 0,0:24:05.47,0:24:08.92,DCMain,CONAN,0000,0000,0000,,We're going to make another customer.
+Dialogue: 0,0:24:08.92,0:24:14.93,DCNextEp,TEXT,0000,0000,0000,,The Blind Spot in the Changing Room \N(Part Two)
+Dialogue: 0,0:24:09.66,0:24:13.84,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The Blind \NSpot in the Changing Room, Part Two!"
+Dialogue: 0,0:24:29.94,0:24:34.95,Hint,TEXT,0000,0000,0000,,Sandals
+Dialogue: 0,0:24:30.28,0:24:32.26,DCMain,SERA,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.75,0:24:34.56,DCMain,CONAN,0000,0000,0000,,Sandals!
+Dialogue: 0,0:24:34.95,0:24:36.06,DCMain,SERA,0000,0000,0000,,{\an8}Did you solve the mystery?
+Dialogue: 0,0:24:34.95,0:24:39.95,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.06,0:24:39.11,DCMain,CONAN,0000,0000,0000,,{\an8}Yeah, but I haven't solved yours yet.
+Dialogue: 0,0:24:39.11,0:24:41.11,DCMain,,0000,0000,0000,,

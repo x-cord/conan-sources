@@ -1,0 +1,468 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0060,1
+Style: Tatsuya,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007F2E72,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0047,0
+Style: Hikoichi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C37C7E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0035,0010,0068,0
+Style: Toyoko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AF7F93,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0068,0
+Style: Koyuki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CC8B91,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0150,0068,0
+Style: Yosuke,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00967488,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0035,0010,0068,0
+Style: Tameo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C06F73,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0072,0
+Style: Hiro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006F5357,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0090,0068,0
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Police,Times New Roman,18,&H0057A2B2,&H000000FF,&H00586255,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0180,0010,0015,0
+Style: Ezaki,Trebuchet MS,22,&H001A1F1F,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0015,0125,0
+Style: January,Trebuchet MS,22,&H0068371F,&H000000FF,&H00F6D5F4,&H007A4ACD,-1,0,0,0,100,100,0,0,1,1,2,7,0010,0010,0010,0
+Style: Submissions,Trebuchet MS,18,&H0054311B,&H000000FF,&H00F1ECE8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0100,0010,0142,0
+Style: Title,Trebuchet MS,18,&H0054311B,&H000000FF,&H00F1ECE8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,0118,0010,0100,0
+Style: Author,Trebuchet MS,18,&H0054311B,&H000000FF,&H00F1ECE8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0010,0085,0132,0
+Style: Search,Trebuchet MS,16,&H00727272,&H000000FF,&H00F6FAF5,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0170,0010,0
+Style: Zetto,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00803638,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0068,0
+Style: NewAuthor,Trebuchet MS,18,&H00271593,&H000000FF,&H00E6E8E8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0015,0015,0015,0
+Style: Terrible,Trebuchet MS,22,&H00271593,&H000000FF,&H00E6E8E8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0015,0015,0035,0
+Style: Dorosue,Trebuchet MS,20,&H002F17BB,&H000000FF,&H00282B3D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.31,0:00:05.48,DCMain,CONAN,0000,0000,0000,,{\an8}Amagi Tatsuya-san, a man alienated from \Nhis entire neighborhood, was murdered.
+Dialogue: 0,0:00:04.06,0:00:05.48,Tatsuya,TEXT,0000,0000,0000,,{\fad(250,1)}Amagi Tatsuya (24)
+Dialogue: 0,0:00:06.05,0:00:11.15,DCMain,CONAN,0000,0000,0000,,{\an8}The initial suspect, neighborhood association \Npresident Bando Hikoichi-san, was also murdered.
+Dialogue: 0,0:00:08.40,0:00:11.15,Hikoichi,TEXT,0000,0000,0000,,{\fad(250,1)}Bando Hikoichi (35) \NNeighborhood \NAssociation President
+Dialogue: 0,0:00:11.53,0:00:15.66,Toyoko,TEXT,0000,0000,0000,,{\fad(250,1)}Kanemitsu Toyoko (68) \NCafé Manager
+Dialogue: 0,0:00:11.75,0:00:15.66,DCMain,CONAN,0000,0000,0000,,{\an8}The testimony of Kanemitsu Toyoko-san, \Nthe owner of a nearby café,
+Dialogue: 0,0:00:15.87,0:00:18.66,DCMain,CONAN,0000,0000,0000,,and Detectives Takagi and Chiba's \Nreasoning cast suspicion
+Dialogue: 0,0:00:18.66,0:00:22.38,DCMain,CONAN,0000,0000,0000,,on college professor \NChiba Yosuke-san, but...
+Dialogue: 0,0:00:23.73,0:00:25.71,DCMain,CONAN,0000,0000,0000,,Inspector, you think it's \Nstrange, too, don't you?
+Dialogue: 0,0:00:26.08,0:00:29.84,DCMain,CONAN,0000,0000,0000,,It's hard to imagine someone \Nwho likes mysteries
+Dialogue: 0,0:00:29.84,0:00:32.93,DCMain,CONAN,0000,0000,0000,,making basic mistakes, like \Nputting poison in a bottle
+Dialogue: 0,0:00:32.93,0:00:34.72,DCMain,CONAN,0000,0000,0000,,or leaving the front door unlocked, right?
+Dialogue: 0,0:00:35.08,0:00:38.43,DCMain,CONAN,0000,0000,0000,,Which means Chino-san isn't X.
+Dialogue: 0,0:00:38.43,0:00:40.72,DCMain,MEGURE,0000,0000,0000,,He could've been set up.
+Dialogue: 0,0:00:40.72,0:00:41.57,DCMain,KOYUKI,0000,0000,0000,,What?
+Dialogue: 0,0:00:41.57,0:00:46.54,DCMain,KOYUKI,0000,0000,0000,,The customers there at that time were...
+Dialogue: 0,0:00:51.15,0:00:55.03,Koyuki,TEXT,0000,0000,0000,,{\fad(250,1)}Gamo Koyuki (23) \NWaitress
+Dialogue: 0,0:00:51.79,0:00:55.03,DCMain,KOYUKI,0000,0000,0000,,{\an8}Fukuda-san and his family, and \NEzaki Hiro-san and her friends.
+Dialogue: 0,0:00:55.22,0:00:55.89,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:00:56.67,0:00:59.44,DCItalic,CONAN,0000,0000,0000,,The man who first discovered Amagi-san's body
+Dialogue: 0,0:00:59.44,0:01:02.91,DCItalic,CONAN,0000,0000,0000,,and the woman who was most aggressively \Npestering Bando-san were there.
+Dialogue: 0,0:01:02.91,0:01:06.02,DCItalic,CONAN,0000,0000,0000,,Which means X is...
+Dialogue: 0,0:01:19.39,0:01:21.47,DCMain,CONAN,0000,0000,0000,,Even heaven is watching the \Nlabyrinths of the world!
+Dialogue: 0,0:01:21.47,0:01:23.31,DCMain,CONAN,0000,0000,0000,,Full throttle reasoning skills \Npenetrate all mysteries!
+Dialogue: 0,0:01:23.89,0:01:25.69,DCMain,CONAN,0000,0000,0000,,Who is trying to kill who?
+Dialogue: 0,0:01:25.69,0:01:27.70,DCMain,CONAN,0000,0000,0000,,An unexpected culprit is \Nfound in an unexpected place.
+Dialogue: 0,0:01:28.27,0:01:29.48,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:29.71,0:01:31.83,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:31.83,0:01:34.34,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:02.95,0:03:08.95,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(399,1)}The Shifting Mystery of Beika City \N(Part Two)
+Dialogue: 0,0:03:03.69,0:03:07.52,DCMain,CONAN,0000,0000,0000,,"The Shifting Mystery of \NBeika City, Part Two!"
+Dialogue: 0,0:03:09.57,0:03:10.46,DCMain,KOYUKI,0000,0000,0000,,What?
+Dialogue: 0,0:03:11.09,0:03:12.58,DCMain,KOYUKI,0000,0000,0000,,Chino-sensei?
+Dialogue: 0,0:03:13.06,0:03:16.38,DCMain,CONAN,0000,0000,0000,,I heard he sometimes judges \Nsubmissions for New Writer awards.
+Dialogue: 0,0:03:16.97,0:03:18.56,DCMain,KOYUKI,0000,0000,0000,,For mysteries, right?
+Dialogue: 0,0:03:18.56,0:03:20.63,DCMain,KOYUKI,0000,0000,0000,,He's in the middle of judging some right now.
+Dialogue: 0,0:03:21.06,0:03:24.05,DCMain,CONAN,0000,0000,0000,,That's what he said yesterday \Nat this café, right?
+Dialogue: 0,0:03:24.05,0:03:25.12,DCMain,KOYUKI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:25.12,0:03:27.56,DCMain,KOYUKI,0000,0000,0000,,It sounds like a lot of work.
+Dialogue: 0,0:03:27.79,0:03:30.26,DCItalic,CHINO,0000,0000,0000,,{\an8}I can't focus during the day.
+Dialogue: 0,0:03:27.81,0:03:33.06,Yosuke,TEXT,0000,0000,0000,,{\fad(250,1)}Chino Yosuke (35) \NCollege Professor
+Dialogue: 0,0:03:30.26,0:03:33.06,DCItalic,CHINO,0000,0000,0000,,{\an8}I'm going to lock myself in my \Nstudy and stay up all night again.
+Dialogue: 0,0:03:33.42,0:03:37.34,DCItalic,CONAN,0000,0000,0000,,X probably chose to act at night \Nbecause they overhead that.
+Dialogue: 0,0:03:38.01,0:03:40.19,DCMain,KOYUKI,0000,0000,0000,,But why'd you want to know about that?
+Dialogue: 0,0:03:40.19,0:03:43.57,DCMain,CONAN,0000,0000,0000,,Kogoro-no-ojisan told me \Nto ask, so I don't know.
+Dialogue: 0,0:03:44.05,0:03:46.08,DCItalic,CONAN,0000,0000,0000,,Both of them could've done it.
+Dialogue: 0,0:03:46.81,0:03:48.71,DCItalic,CONAN,0000,0000,0000,,Their motive is still unclear,
+Dialogue: 0,0:03:48.71,0:03:51.71,DCItalic,CONAN,0000,0000,0000,,but it's likely either \NFukuda-san or Ezaki-san is X.
+Dialogue: 0,0:03:52.64,0:03:55.42,DCItalic,CONAN,0000,0000,0000,,In any case, I need to confirm \Ntheir alibis for last night.
+Dialogue: 0,0:03:56.21,0:03:58.34,DCItalic,CONAN,0000,0000,0000,,I'll start with the man \Nwho discovered the body...
+Dialogue: 0,0:03:59.11,0:04:00.67,DCItalic,FUKUDA,0000,0000,0000,,He got what was coming.
+Dialogue: 0,0:04:00.71,0:04:03.18,Tameo,TEXT,0000,0000,0000,,{\fad(250,1)}Fukuda Tameo (33) \NOffice Worker
+Dialogue: 0,0:04:00.91,0:04:03.18,DCItalic,FUKUDA,0000,0000,0000,,{\an8}Amagi got what was coming to him.
+Dialogue: 0,0:04:03.80,0:04:05.64,DCItalic,CONAN,0000,0000,0000,,Fukuda Tameo-san.
+Dialogue: 0,0:04:06.18,0:04:08.93,Police,SIGN,0000,0000,0000,,Metropolitan Police Department \NBeika City Station
+Dialogue: 0,0:04:06.52,0:04:08.93,DCMain,CHINO,0000,0000,0000,,If I killed this Amagi fellow,
+Dialogue: 0,0:04:09.30,0:04:12.14,DCMain,CHINO,0000,0000,0000,,and wanted to frame Bando,
+Dialogue: 0,0:04:12.14,0:04:14.56,DCMain,CHINO,0000,0000,0000,,I wouldn't have used an awl!
+Dialogue: 0,0:04:15.11,0:04:18.69,DCMain,CHINO,0000,0000,0000,,I know Bando had a fear of needles
+Dialogue: 0,0:04:18.69,0:04:20.82,DCMain,CHINO,0000,0000,0000,,and couldn't have used an awl!
+Dialogue: 0,0:04:23.32,0:04:25.79,DCMain,BOTH,0000,0000,0000,,W-Well...
+Dialogue: 0,0:04:26.49,0:04:27.78,DCMain,TAKAGI,0000,0000,0000,,You did it deliberately!
+Dialogue: 0,0:04:27.78,0:04:28.71,DCMain,CHIBA,0000,0000,0000,,That's right.
+Dialogue: 0,0:04:28.71,0:04:31.05,DCMain,CHIBA,0000,0000,0000,,If you were ever exposed,
+Dialogue: 0,0:04:31.05,0:04:35.08,DCMain,CHIBA,0000,0000,0000,,you planned to escape by saying \Nyou'd never have chosen an awl
+Dialogue: 0,0:04:35.08,0:04:40.20,DCMain,CHIBA,0000,0000,0000,,for a weapon because you knew \NBando-san had a fear of needles.
+Dialogue: 0,0:04:40.20,0:04:44.54,DCMain,TAKAGI,0000,0000,0000,,Like you just did, Chino-sensei.
+Dialogue: 0,0:04:45.24,0:04:46.19,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:04:46.19,0:04:47.34,DCMain,MEGURE,0000,0000,0000,,You were trying to outsmart us.
+Dialogue: 0,0:04:47.34,0:04:48.51,DCMain,CHINO,0000,0000,0000,,What?
+Dialogue: 0,0:04:48.51,0:04:50.76,DCMain,CHINO,0000,0000,0000,,If you go by that logic, \Nthere's no end to it.
+Dialogue: 0,0:04:52.67,0:04:55.29,DCMain,CHIBA,0000,0000,0000,,We're doing awesomely this time.
+Dialogue: 0,0:04:55.29,0:04:56.84,DCMain,TAKAGI,0000,0000,0000,,I'm scaring myself.
+Dialogue: 0,0:04:56.84,0:04:58.77,DCMain,TAKAGI,0000,0000,0000,,It just keeps coming.
+Dialogue: 0,0:05:00.06,0:05:01.73,DCMain,CONAN,0000,0000,0000,,Hey, mister.
+Dialogue: 0,0:05:02.01,0:05:05.14,DCMain,CONAN,0000,0000,0000,,Does Fukuda-san work nights?
+Dialogue: 0,0:05:05.14,0:05:06.27,DCMain,MANAGER,0000,0000,0000,,Yeah...
+Dialogue: 0,0:05:08.69,0:05:10.32,DCItalic,CONAN,0000,0000,0000,,It would've been tough for him to do it.
+Dialogue: 0,0:05:10.32,0:05:12.37,DCItalic,CONAN,0000,0000,0000,,Which means it must be the other one.
+Dialogue: 0,0:05:12.37,0:05:14.73,DCItalic,EZAKI,0000,0000,0000,,{\an8}That useless man
+Dialogue: 0,0:05:12.83,0:05:17.62,Hiro,TEXT,0000,0000,0000,,{\fad(250,1)}Ezaki Hiro (20) \NCollege Student
+Dialogue: 0,0:05:14.73,0:05:18.00,DCItalic,EZAKI,0000,0000,0000,,{\an8}finally did something useful \Nfor the neighborhood.
+Dialogue: 0,0:05:18.40,0:05:23.63,DCItalic,EZAKI,0000,0000,0000,,How convenient that he \Nstabbed that awful nuisance.
+Dialogue: 0,0:05:24.23,0:05:28.92,DCItalic,CONAN,0000,0000,0000,,Ezaki Hiro-san, who pestered neighborhood \Nassociation president Bando-san
+Dialogue: 0,0:05:28.92,0:05:30.51,DCItalic,CONAN,0000,0000,0000,,more than anyone else to make Amagi-san stop.
+Dialogue: 0,0:05:30.51,0:05:32.51,Ezaki,SIGN,0000,0000,0000,,Ezaki
+Dialogue: 0,0:05:31.74,0:05:32.51,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:05:33.13,0:05:36.71,DCMain,CONAN,0000,0000,0000,,Ezaki Hiro-san's a student at Haido College?
+Dialogue: 0,0:05:36.71,0:05:38.52,DCMain,CONAN,0000,0000,0000,,Thank you!
+Dialogue: 0,0:05:38.90,0:05:41.17,DCItalic,CONAN,0000,0000,0000,,Chino-san is a professor at Haido College.
+Dialogue: 0,0:05:41.17,0:05:43.13,DCItalic,CONAN,0000,0000,0000,,There's a connection between them.
+Dialogue: 0,0:05:43.13,0:05:46.87,DCItalic,CONAN,0000,0000,0000,,Ezaki-san must've run into trouble with Chino-san\Nthrough the college, and out of spite...
+Dialogue: 0,0:05:46.87,0:05:48.28,DCMain,EZAKI,0000,0000,0000,,Hey!
+Dialogue: 0,0:05:48.65,0:05:51.14,DCMain,EZAKI,0000,0000,0000,,Why are you investigating me?
+Dialogue: 0,0:05:52.01,0:05:54.12,DCMain,EZAKI,0000,0000,0000,,Why are you sniffing around?!
+Dialogue: 0,0:05:54.89,0:05:55.87,DCMain,CONAN,0000,0000,0000,,Bye!
+Dialogue: 0,0:05:55.87,0:05:56.91,DCMain,EZAKI,0000,0000,0000,,Hey!
+Dialogue: 0,0:05:57.16,0:05:59.46,DCMain,EZAKI,0000,0000,0000,,Wait, you brat!
+Dialogue: 0,0:06:05.31,0:06:08.09,DCItalic,CHINO,0000,0000,0000,,Is there some reason she doesn't \Nwant to be investigated?
+Dialogue: 0,0:06:13.97,0:06:15.70,DCMain,KOYUKI,0000,0000,0000,,What are you going to do with those?
+Dialogue: 0,0:06:15.70,0:06:17.56,DCMain,TOYOKO,0000,0000,0000,,I'm taking them home.
+Dialogue: 0,0:06:18.07,0:06:20.31,DCMain,KOYUKI,0000,0000,0000,,But you just brought them here this morning.
+Dialogue: 0,0:06:20.64,0:06:22.65,DCMain,TOYOKO,0000,0000,0000,,I'm done using them.
+Dialogue: 0,0:06:23.07,0:06:24.64,DCMain,KOYUKI,0000,0000,0000,,Done using them?
+Dialogue: 0,0:06:24.64,0:06:28.80,DCMain,TOYOKO,0000,0000,0000,,I'm going to drop these off since \Nwe don't have any customers.
+Dialogue: 0,0:06:28.80,0:06:30.68,DCMain,TOYOKO,0000,0000,0000,,They're important.
+Dialogue: 0,0:06:31.47,0:06:32.65,DCMain,KOYUKI,0000,0000,0000,,See you later.
+Dialogue: 0,0:06:40.86,0:06:42.38,DCMain,CONAN,0000,0000,0000,,Important?
+Dialogue: 0,0:06:43.06,0:06:44.88,DCItalic,CONAN,0000,0000,0000,,But they're not new,
+Dialogue: 0,0:06:44.88,0:06:46.40,DCItalic,CONAN,0000,0000,0000,,and there's only one volume each.
+Dialogue: 0,0:06:46.40,0:06:49.88,DCItalic,KOGORO,0000,0000,0000,,She probably only bought them when \Nher favorite authors were featured.
+Dialogue: 0,0:06:50.08,0:06:54.53,DCMain,CONAN,0000,0000,0000,,Who is Kanemitsu Toyoko-san's \Nfavorite author?
+Dialogue: 0,0:06:54.53,0:06:58.39,DCMain,CONAN,0000,0000,0000,,The copy of "Mystery World" she \Nhad was last year's May issue.
+Dialogue: 0,0:06:59.03,0:07:01.26,DCMain,CONAN,0000,0000,0000,,There's nothing that stands out.
+Dialogue: 0,0:07:01.65,0:07:04.30,DCMain,CONAN,0000,0000,0000,,"Labyrinths" was this year's January issue.
+Dialogue: 0,0:07:05.82,0:07:06.67,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:06.67,0:07:07.65,DCMain,CONAN,0000,0000,0000,,This author...
+Dialogue: 0,0:07:08.52,0:07:10.90,DCItalic,CONAN,0000,0000,0000,,Their name was in "Mystery World," too.
+Dialogue: 0,0:07:10.90,0:07:17.41,January,TEXT,0000,0000,0000,,Monthly Magazine Labyrinths January
+Dialogue: 0,0:07:10.90,0:07:17.41,Submissions,TEXT,0000,0000,0000,,New Author Award Submissions
+Dialogue: 0,0:07:10.90,0:07:17.41,Title,TEXT,0000,0000,0000,,Title \NThe Melting Weapon
+Dialogue: 0,0:07:10.90,0:07:17.41,Author,TEXT,0000,0000,0000,,Author \NDorosue Yamiyo
+Dialogue: 0,0:07:11.39,0:07:14.32,DCItalic,CONAN,0000,0000,0000,,This is definitely it. Dorosue Yamiyo.
+Dialogue: 0,0:07:14.32,0:07:17.41,DCItalic,CONAN,0000,0000,0000,,They're the common author found \Nin the books on the bookshelf.
+Dialogue: 0,0:07:17.84,0:07:18.92,DCMain,KOGORO,0000,0000,0000,,Hello?
+Dialogue: 0,0:07:18.92,0:07:21.54,DCMain,KOGORO,0000,0000,0000,,Yes, this is Detective Mori.
+Dialogue: 0,0:07:21.93,0:07:24.54,DCMain,KOGORO,0000,0000,0000,,I have a bit of a random question.
+Dialogue: 0,0:07:24.54,0:07:33.55,Search,SIGN,0000,0000,0000,,Monthly Magazine Labyrinths - Magazine Search
+Dialogue: 0,0:07:25.96,0:07:29.43,DCMain,CONAN,0000,0000,0000,,It's a confusing story.
+Dialogue: 0,0:07:30.03,0:07:33.55,DCMain,ICHIMURA,0000,0000,0000,,The trick is insane, and their criminal \Nprofile is totally unrealistic.
+Dialogue: 0,0:07:33.80,0:07:39.77,Zetto,TEXT,0000,0000,0000,,{\fad(250,250)}Ichimura Zetto (32) \NEditor
+Dialogue: 0,0:07:34.12,0:07:35.76,DCMain,ICHIMURA,0000,0000,0000,,{\an8}They hate arguments so much,
+Dialogue: 0,0:07:35.76,0:07:40.31,DCMain,ICHIMURA,0000,0000,0000,,{\an8}they casually commit murders one \Nafter another to avoid them.
+Dialogue: 0,0:07:40.85,0:07:43.48,DCMain,ICHIMURA,0000,0000,0000,,No one like that could possibly exist.
+Dialogue: 0,0:07:43.48,0:07:47.73,NewAuthor,TEXT,0000,0000,0000,,New Author Award Submission
+Dialogue: 0,0:07:43.48,0:07:47.73,Terrible,TEXT,0000,0000,0000,,This is terrible!! Absolutely not!! \NChiba
+Dialogue: 0,0:07:44.02,0:07:46.90,DCMain,CONAN,0000,0000,0000,,It would be terrifying if they did.
+Dialogue: 0,0:07:48.37,0:07:50.74,DCMain,CONAN,0000,0000,0000,,Kogoro-no-ojisan wanted \Nme to ask you a question.
+Dialogue: 0,0:07:51.07,0:07:53.78,DCMain,CONAN,0000,0000,0000,,Do you recognize the name Dorosue Yamiyo?
+Dialogue: 0,0:07:54.08,0:07:55.78,DCMain,MEGURE,0000,0000,0000,,Dorosue Yamiyo?
+Dialogue: 0,0:07:57.64,0:08:01.54,DCMain,CHINO,0000,0000,0000,,They're the author of a ridiculous \Nstory "The Melting Weapon."
+Dialogue: 0,0:08:02.12,0:08:04.20,DCMain,CONAN,0000,0000,0000,,So you do recognize the name.
+Dialogue: 0,0:08:04.20,0:08:09.29,DCMain,CONAN,0000,0000,0000,,He told me this case doesn't end with ABC.
+Dialogue: 0,0:08:09.29,0:08:14.47,DCMain,CONAN,0000,0000,0000,,It's an ABCD case that \Nincludes Dorosue Yamiyo-san.
+Dialogue: 0,0:08:15.87,0:08:18.68,DCMain,CONAN,0000,0000,0000,,Chino-san, do you remember \Nanything about that story?
+Dialogue: 0,0:08:24.41,0:08:25.74,DCItalic,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:08:26.32,0:08:28.38,DCItalic,CONAN,0000,0000,0000,,It's all coming together now.
+Dialogue: 0,0:08:30.95,0:08:31.94,DCMain,TOYOKO,0000,0000,0000,,Really?
+Dialogue: 0,0:08:31.94,0:08:34.20,DCMain,TOYOKO,0000,0000,0000,,You like mysteries, too?
+Dialogue: 0,0:08:34.20,0:08:34.97,DCMain,CONAN,0000,0000,0000,,Yeah!
+Dialogue: 0,0:08:34.97,0:08:39.08,DCMain,CONAN,0000,0000,0000,,I thought we could discuss the case \Ntogether since we both like mysteries.
+Dialogue: 0,0:08:39.35,0:08:41.74,DCMain,TOYOKO,0000,0000,0000,,Is that why you wanted to see me?
+Dialogue: 0,0:08:42.69,0:08:43.37,DCMain,TOYOKO,0000,0000,0000,,Fine.
+Dialogue: 0,0:08:43.37,0:08:44.37,DCMain,TOYOKO,0000,0000,0000,,Let's go.
+Dialogue: 0,0:08:46.56,0:08:48.68,DCMain,TOYOKO,0000,0000,0000,,Conan-kun, right?
+Dialogue: 0,0:08:48.68,0:08:50.68,DCMain,TOYOKO,0000,0000,0000,,Don't you think it's too late, though?
+Dialogue: 0,0:08:50.68,0:08:53.88,DCMain,TOYOKO,0000,0000,0000,,Didn't Chino-sensei do it?
+Dialogue: 0,0:08:53.88,0:08:55.12,DCMain,CONAN,0000,0000,0000,,No.
+Dialogue: 0,0:08:55.12,0:08:57.53,DCMain,CONAN,0000,0000,0000,,I think the real culprit is X,
+Dialogue: 0,0:08:57.53,0:09:01.39,DCMain,CONAN,0000,0000,0000,,and they framed Chino-san.
+Dialogue: 0,0:09:02.75,0:09:05.14,DCMain,TOYOKO,0000,0000,0000,,But that's not enough.
+Dialogue: 0,0:09:05.69,0:09:09.28,DCMain,TOYOKO,0000,0000,0000,,Since X killed Amagi-san and Bando-san,
+Dialogue: 0,0:09:09.28,0:09:13.20,DCMain,TOYOKO,0000,0000,0000,,it doesn't make sense that \Nthey didn't kill Chino-sensei.
+Dialogue: 0,0:09:13.20,0:09:15.78,DCMain,CONAN,0000,0000,0000,,Maybe they deliberately didn't kill him.
+Dialogue: 0,0:09:16.16,0:09:17.28,DCMain,TOYOKO,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:09:17.62,0:09:21.62,DCMain,CONAN,0000,0000,0000,,X really hated Chino-san.
+Dialogue: 0,0:09:21.62,0:09:24.16,DCMain,CONAN,0000,0000,0000,,They thought it would be a waste
+Dialogue: 0,0:09:24.16,0:09:27.29,DCMain,CONAN,0000,0000,0000,,to quickly kill him like \NAmagi-san and Bando-san.
+Dialogue: 0,0:09:27.29,0:09:29.88,DCMain,CONAN,0000,0000,0000,,They wanted him to suffer \Na fate worse than death.
+Dialogue: 0,0:09:30.23,0:09:33.88,DCMain,TOYOKO,0000,0000,0000,,So they decided to frame him?
+Dialogue: 0,0:09:34.22,0:09:34.83,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:34.83,0:09:39.15,DCMain,CONAN,0000,0000,0000,,When you think of it that way, it \Nexplains why they didn't kill him.
+Dialogue: 0,0:09:39.15,0:09:39.98,DCMain,TOYOKO,0000,0000,0000,,I see.
+Dialogue: 0,0:09:39.98,0:09:43.02,DCMain,TOYOKO,0000,0000,0000,,What you're saying makes sense, Conan-kun.
+Dialogue: 0,0:09:43.39,0:09:45.45,DCMain,TOYOKO,0000,0000,0000,,Now it's my turn.
+Dialogue: 0,0:09:45.45,0:09:47.39,DCMain,TOYOKO,0000,0000,0000,,Who is X?
+Dialogue: 0,0:09:47.39,0:09:49.31,DCMain,TOYOKO,0000,0000,0000,,There are two points to consider.
+Dialogue: 0,0:09:49.69,0:09:50.35,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:50.35,0:09:53.82,DCMain,CONAN,0000,0000,0000,,Since X tried to frame Chino-san...
+Dialogue: 0,0:09:53.82,0:09:57.01,DCMain,TOYOKO,0000,0000,0000,,It had to be someone who knew Chino-sensei
+Dialogue: 0,0:09:57.01,0:09:59.37,DCMain,TOYOKO,0000,0000,0000,,would have no one to verify \Nhis alibi for yesterday.
+Dialogue: 0,0:09:59.37,0:10:03.20,DCMain,TOYOKO,0000,0000,0000,,They also had to be able to \Nsteal Chino-sensei's lighter.
+Dialogue: 0,0:10:03.49,0:10:04.87,DCMain,CONAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:10:05.15,0:10:06.87,DCMain,TOYOKO,0000,0000,0000,,Oh, my. Now that's a problem.
+Dialogue: 0,0:10:07.55,0:10:09.41,DCMain,TOYOKO,0000,0000,0000,,That would mean the customers
+Dialogue: 0,0:10:09.41,0:10:13.76,DCMain,TOYOKO,0000,0000,0000,,who were at my café yesterday \Nare the most suspicious.
+Dialogue: 0,0:10:13.76,0:10:18.08,DCMain,CONAN,0000,0000,0000,,I asked the waitress Koyuki-san \Nwho was at the café yesterday.
+Dialogue: 0,0:10:18.08,0:10:21.14,DCMain,CONAN,0000,0000,0000,,Of the people there, Fukuda-san \Nis particularly suspect.
+Dialogue: 0,0:10:21.45,0:10:25.16,DCMain,TOYOKO,0000,0000,0000,,Fukuda-san was being bothered by Amagi-san.
+Dialogue: 0,0:10:25.16,0:10:27.72,DCMain,TOYOKO,0000,0000,0000,,Perhaps he resented Bando-san \Nfor not doing anything,
+Dialogue: 0,0:10:27.72,0:10:31.15,DCMain,TOYOKO,0000,0000,0000,,despite being the neighborhood \Nassociation president.
+Dialogue: 0,0:10:31.43,0:10:33.60,DCMain,TOYOKO,0000,0000,0000,,That's sufficient motive.
+Dialogue: 0,0:10:33.60,0:10:36.57,DCMain,CONAN,0000,0000,0000,,But Bando-san couldn't have \Ncommitted the murders at night.
+Dialogue: 0,0:10:37.46,0:10:38.39,DCMain,TOYOKO,0000,0000,0000,,You're right.
+Dialogue: 0,0:10:38.39,0:10:41.32,DCMain,TOYOKO,0000,0000,0000,,Fukuda-san works nights.
+Dialogue: 0,0:10:41.64,0:10:42.48,DCMain,CONAN,0000,0000,0000,,Right.
+Dialogue: 0,0:10:42.48,0:10:45.45,DCMain,CONAN,0000,0000,0000,,Which means the next \Nsuspicious character is...
+Dialogue: 0,0:10:45.70,0:10:47.45,DCMain,TOYOKO,0000,0000,0000,,Ezaki Hiro-san?
+Dialogue: 0,0:10:47.89,0:10:50.19,DCMain,CONAN,0000,0000,0000,,Apparently she's a student at Haido College.
+Dialogue: 0,0:10:50.19,0:10:53.46,DCMain,CONAN,0000,0000,0000,,She may have had problems with Chino-san.
+Dialogue: 0,0:10:53.97,0:10:57.02,DCMain,CONAN,0000,0000,0000,,But it may not be her either.
+Dialogue: 0,0:10:57.02,0:11:00.34,DCMain,TOYOKO,0000,0000,0000,,But if Fukuda-san couldn't have done it...
+Dialogue: 0,0:11:00.71,0:11:04.85,DCMain,CONAN,0000,0000,0000,,In the first place, we can't narrow it \Ndown to only Fukuda-san and Ezaki-san.
+Dialogue: 0,0:11:06.10,0:11:11.10,DCMain,TOYOKO,0000,0000,0000,,It's possible Fukuda-san's wife or \NEzaki Hiro-san's friends did it.
+Dialogue: 0,0:11:11.46,0:11:13.08,DCMain,CONAN,0000,0000,0000,,It's possible.
+Dialogue: 0,0:11:13.08,0:11:15.77,DCMain,CONAN,0000,0000,0000,,It also might not have even been a customer.
+Dialogue: 0,0:11:16.73,0:11:20.03,DCMain,TOYOKO,0000,0000,0000,,You don't think Koyuki-chan...
+Dialogue: 0,0:11:20.54,0:11:21.91,DCMain,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:11:22.14,0:11:24.27,DCMain,CONAN,0000,0000,0000,,It's possible.
+Dialogue: 0,0:11:24.27,0:11:28.15,DCMain,CONAN,0000,0000,0000,,But the true identity of the person \Nwho killed Amagi-san and Bando-san,
+Dialogue: 0,0:11:28.15,0:11:31.32,DCMain,CONAN,0000,0000,0000,,and tried to frame Chino-san
+Dialogue: 0,0:11:31.32,0:11:34.07,DCMain,CONAN,0000,0000,0000,,for the murders is...
+Dialogue: 0,0:11:39.06,0:11:41.93,DCMain,CONAN,0000,0000,0000,,The true identity of X is...
+Dialogue: 0,0:11:42.40,0:11:43.93,DCMain,TOYOKO,0000,0000,0000,,Could it be?
+Dialogue: 0,0:11:45.51,0:11:46.85,DCMain,EZAKI,0000,0000,0000,,Oh, my.
+Dialogue: 0,0:11:47.56,0:11:49.68,DCMain,EZAKI,0000,0000,0000,,If it isn't the woman from the café.
+Dialogue: 0,0:11:50.57,0:11:52.19,DCMain,TOYOKO,0000,0000,0000,,Oh, Ezaki-san.
+Dialogue: 0,0:11:52.52,0:11:54.86,DCMain,EZAKI,0000,0000,0000,,I was just on my way to your café.
+Dialogue: 0,0:11:54.86,0:11:55.93,DCMain,EZAKI,0000,0000,0000,,Are you open?
+Dialogue: 0,0:11:55.93,0:11:59.17,DCMain,TOYOKO,0000,0000,0000,,Yes, Koyuki-chan is watching the store.
+Dialogue: 0,0:11:59.17,0:12:01.13,DCMain,TOYOKO,0000,0000,0000,,Oh, but isn't he...?
+Dialogue: 0,0:12:01.13,0:12:02.20,DCMain,EZAKI,0000,0000,0000,,Oh, crap.
+Dialogue: 0,0:12:02.69,0:12:05.86,DCMain,EZAKI,0000,0000,0000,,Uh, don't tell Ruriko.
+Dialogue: 0,0:12:05.86,0:12:08.03,DCMain,BOYFRIEND,0000,0000,0000,,Hey, are we going to be okay?
+Dialogue: 0,0:12:08.03,0:12:09.54,DCMain,EZAKI,0000,0000,0000,,It's fine.
+Dialogue: 0,0:12:09.54,0:12:11.47,DCMain,EZAKI,0000,0000,0000,,She's tight-lipped.
+Dialogue: 0,0:12:11.47,0:12:12.96,DCMain,EZAKI,0000,0000,0000,,Let's go.
+Dialogue: 0,0:12:14.09,0:12:16.54,DCMain,CONAN,0000,0000,0000,,She doesn't seem to be involved in the case.
+Dialogue: 0,0:12:17.00,0:12:19.92,DCMain,TOYOKO,0000,0000,0000,,She seems to have some nasty secrets.
+Dialogue: 0,0:12:20.18,0:12:22.55,DCMain,CONAN,0000,0000,0000,,If Ezaki-san is innocent,
+Dialogue: 0,0:12:22.55,0:12:25.09,DCMain,CONAN,0000,0000,0000,,that narrows down the \Nidentity of X quite a bit.
+Dialogue: 0,0:12:25.59,0:12:29.94,DCMain,CONAN,0000,0000,0000,,X killed Amagi Tatsuya-san \Nand Bando Hikoichi-san,
+Dialogue: 0,0:12:29.94,0:12:33.89,DCMain,CONAN,0000,0000,0000,,and is trying to frame Chino \NYosuke-san for the murders.
+Dialogue: 0,0:12:34.32,0:12:38.94,DCMain,CONAN,0000,0000,0000,,But they faced a fundamental \Nproblem in framing Chino-san.
+Dialogue: 0,0:12:38.94,0:12:41.40,DCMain,CONAN,0000,0000,0000,,Chino-san had no reason
+Dialogue: 0,0:12:41.40,0:12:45.03,DCMain,CONAN,0000,0000,0000,,to kill Amagi-san or Bando-san.
+Dialogue: 0,0:12:45.65,0:12:49.62,DCMain,CONAN,0000,0000,0000,,It's not possible to frame \NChino-san without a motive.
+Dialogue: 0,0:12:50.09,0:12:51.46,DCMain,CONAN,0000,0000,0000,,But when X learned
+Dialogue: 0,0:12:51.46,0:12:56.54,DCMain,CONAN,0000,0000,0000,,Chino-san examined the contents of \Nthe storehouse at Bando-san's mansion,
+Dialogue: 0,0:12:56.54,0:12:58.58,DCMain,CONAN,0000,0000,0000,,they realized they could use that.
+Dialogue: 0,0:12:59.09,0:13:00.50,DCMain,CONAN,0000,0000,0000,,Furthermore, yesterday...
+Dialogue: 0,0:13:01.21,0:13:03.72,DCItalic,CHINO,0000,0000,0000,,I can't focus during the day.
+Dialogue: 0,0:13:03.72,0:13:06.43,DCItalic,CHINO,0000,0000,0000,,I'm going to lock myself in my \Nstudy and stay up all night again.
+Dialogue: 0,0:13:08.15,0:13:10.91,DCMain,CONAN,0000,0000,0000,,They waited for an opportunity \Nto swap Chino-san's lighter
+Dialogue: 0,0:13:10.91,0:13:12.87,DCMain,CONAN,0000,0000,0000,,for a similar one and took his.
+Dialogue: 0,0:13:13.18,0:13:16.06,DCMain,CONAN,0000,0000,0000,,Since Chino-san would have \Nno one to verify his alibi,
+Dialogue: 0,0:13:16.06,0:13:18.69,DCMain,CONAN,0000,0000,0000,,they decided to act that night.
+Dialogue: 0,0:13:19.46,0:13:22.58,DCMain,CONAN,0000,0000,0000,,First they called Amagi-san to the park.
+Dialogue: 0,0:13:22.58,0:13:23.07,DCItalic,AMAGI,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:23.63,0:13:24.69,DCItalic,AMAGI,0000,0000,0000,,Who are you?
+Dialogue: 0,0:13:35.06,0:13:36.95,DCMain,CONAN,0000,0000,0000,,And then killed him.
+Dialogue: 0,0:13:39.66,0:13:40.71,DCMain,CONAN,0000,0000,0000,,Then...
+Dialogue: 0,0:13:59.15,0:14:01.15,DCMain,CONAN,0000,0000,0000,,They killed Bando-san.
+Dialogue: 0,0:14:01.78,0:14:05.84,DCMain,CONAN,0000,0000,0000,,They placed the pesticide bottle
+Dialogue: 0,0:14:05.84,0:14:08.66,DCMain,CONAN,0000,0000,0000,,and awl used to kill Amagi-san on the table,
+Dialogue: 0,0:14:09.52,0:14:12.75,DCMain,CONAN,0000,0000,0000,,left behind Chino-san's lighter \Nthey got that afternoon,
+Dialogue: 0,0:14:13.23,0:14:15.41,DCMain,CONAN,0000,0000,0000,,took Bando-san's examination card,
+Dialogue: 0,0:14:16.00,0:14:19.02,DCMain,CONAN,0000,0000,0000,,and left it near Amagi-san's body.
+Dialogue: 0,0:14:20.05,0:14:23.58,DCMain,CONAN,0000,0000,0000,,Then they waited for Amagi-san's \Nbody to be discovered.
+Dialogue: 0,0:14:24.51,0:14:28.01,DCMain,CONAN,0000,0000,0000,,Naturally, the police suspected \NBando-san when they found his card.
+Dialogue: 0,0:14:28.24,0:14:32.04,DCItalic,TOYOKO,0000,0000,0000,,I don't think that's what \Nhappened, detectives.
+Dialogue: 0,0:14:32.04,0:14:35.89,DCItalic,TOYOKO,0000,0000,0000,,Bando-san couldn't have committed a crime.
+Dialogue: 0,0:14:36.09,0:14:39.39,DCMain,CONAN,0000,0000,0000,,They appeared before the police \Nas a well-informed source.
+Dialogue: 0,0:14:39.67,0:14:41.31,DCItalic,TOYOKO,0000,0000,0000,,Isn't that lighter...?
+Dialogue: 0,0:14:41.31,0:14:42.08,DCItalic,TOYOKO,0000,0000,0000,,Remember?
+Dialogue: 0,0:14:42.08,0:14:44.90,DCItalic,KOYUKI,0000,0000,0000,,That's Chino-sensei's.
+Dialogue: 0,0:14:44.90,0:14:47.40,DCMain,CONAN,0000,0000,0000,,They directed them towards Chino-san.
+Dialogue: 0,0:14:47.40,0:14:49.79,DCItalic,TOYOKO,0000,0000,0000,,What a nonsensical duo.
+Dialogue: 0,0:14:49.79,0:14:50.48,DCItalic,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:14:50.48,0:14:51.79,DCItalic,CHIBA,0000,0000,0000,,Nonsense?
+Dialogue: 0,0:14:52.61,0:14:57.41,DCMain,CONAN,0000,0000,0000,,They provoked the detectives into following \Nthe scenario they had concocted...
+Dialogue: 0,0:14:57.63,0:14:59.14,DCItalic,TAKAGI,0000,0000,0000,,That's it!
+Dialogue: 0,0:14:59.14,0:15:00.29,DCItalic,CHIBA,0000,0000,0000,,There was one!
+Dialogue: 0,0:15:00.56,0:15:02.61,DCMain,CONAN,0000,0000,0000,,And led them into believing
+Dialogue: 0,0:15:02.61,0:15:05.93,DCMain,CONAN,0000,0000,0000,,there was indeed a treasure \Nin Bando-san's storehouse,
+Dialogue: 0,0:15:05.93,0:15:10.30,DCMain,CONAN,0000,0000,0000,,and Chino-san murdered the both \Nof them in order to steal it.
+Dialogue: 0,0:15:10.76,0:15:12.48,DCMain,TOYOKO,0000,0000,0000,,In other words,
+Dialogue: 0,0:15:12.48,0:15:17.28,DCMain,TOYOKO,0000,0000,0000,,X couldn't forgive neighborhood \Nnuisance Amagi-san,
+Dialogue: 0,0:15:17.28,0:15:19.43,DCMain,TOYOKO,0000,0000,0000,,or negligent neighborhood association \Npresident Bando-san either.
+Dialogue: 0,0:15:19.97,0:15:22.32,DCMain,CONAN,0000,0000,0000,,Even if they did something wrong,
+Dialogue: 0,0:15:22.32,0:15:25.41,DCMain,CONAN,0000,0000,0000,,it doesn't justify taking their lives.
+Dialogue: 0,0:15:25.41,0:15:29.05,DCMain,TOYOKO,0000,0000,0000,,I think your reasoning makes sense,
+Dialogue: 0,0:15:29.05,0:15:30.75,DCMain,TOYOKO,0000,0000,0000,,but even if it is true,
+Dialogue: 0,0:15:30.75,0:15:33.13,DCMain,TOYOKO,0000,0000,0000,,you still haven't solved the mystery.
+Dialogue: 0,0:15:33.13,0:15:35.70,DCMain,TOYOKO,0000,0000,0000,,Why would X hate Chino-san?
+Dialogue: 0,0:15:36.75,0:15:40.87,DCMain,CONAN,0000,0000,0000,,X left us a hint to solve that mystery.
+Dialogue: 0,0:15:41.52,0:15:43.64,DCMain,CONAN,0000,0000,0000,,Rather than hiding it,
+Dialogue: 0,0:15:43.64,0:15:46.56,DCMain,CONAN,0000,0000,0000,,showing the evidence necessary \Nto solve the mystery
+Dialogue: 0,0:15:46.56,0:15:48.98,DCMain,CONAN,0000,0000,0000,,is the ironclad rule of mysteries.
+Dialogue: 0,0:15:48.98,0:15:52.63,DCMain,CONAN,0000,0000,0000,,That's why X took us to the café.
+Dialogue: 0,0:15:53.18,0:15:54.67,DCMain,CONAN,0000,0000,0000,,Then they showed us the books
+Dialogue: 0,0:15:54.67,0:15:57.77,DCMain,CONAN,0000,0000,0000,,that were the key to solving the mystery.
+Dialogue: 0,0:15:58.53,0:16:03.31,DCMain,CONAN,0000,0000,0000,,The mystery books X brought from home.
+Dialogue: 0,0:16:03.92,0:16:08.65,DCMain,CONAN,0000,0000,0000,,Inside those books was the \Nclue to solving the mystery.
+Dialogue: 0,0:16:09.09,0:16:11.15,DCMain,TOYOKO,0000,0000,0000,,What clue?
+Dialogue: 0,0:16:11.96,0:16:13.53,DCMain,CONAN,0000,0000,0000,,Dorosue Yamiyo.
+Dialogue: 0,0:16:15.71,0:16:20.24,DCMain,CONAN,0000,0000,0000,,This author's name was in \Nall the books X showed us.
+Dialogue: 0,0:16:19.04,0:16:20.54,Dorosue,TEXT,0000,0000,0000,,Dorosue Yamiyo
+Dialogue: 0,0:16:20.99,0:16:23.75,DCMain,TOYOKO,0000,0000,0000,,Unfortunately, it seems the police
+Dialogue: 0,0:16:23.75,0:16:26.54,DCMain,TOYOKO,0000,0000,0000,,didn't notice the clue left by X.
+Dialogue: 0,0:16:26.91,0:16:29.55,DCMain,CONAN,0000,0000,0000,,I nearly missed it, too.
+Dialogue: 0,0:16:30.37,0:16:34.55,DCMain,CONAN,0000,0000,0000,,All of Dorosue Yamiyo's works were \Nrejected in the first round of judgment,
+Dialogue: 0,0:16:35.06,0:16:38.30,DCMain,CONAN,0000,0000,0000,,so I called the publisher \Nbecause I was curious.
+Dialogue: 0,0:16:38.52,0:16:41.81,DCMain,CONAN,0000,0000,0000,,That led me to discover another common point.
+Dialogue: 0,0:16:42.28,0:16:45.54,DCMain,CONAN,0000,0000,0000,,The man responsible for judging \Nall those submissions was...
+Dialogue: 0,0:16:48.68,0:16:50.57,DCMain,TOYOKO,0000,0000,0000,,...Chino Yosuke.
+Dialogue: 0,0:16:51.43,0:16:52.44,DCMain,CONAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:16:54.86,0:16:57.62,DCMain,CONAN,0000,0000,0000,,The true culprit in this case...
+Dialogue: 0,0:16:59.27,0:17:04.31,DCMain,CONAN,0000,0000,0000,,is a person who despised Chino-san \Nand plotted to frame him.
+Dialogue: 0,0:17:06.75,0:17:08.35,DCMain,CONAN,0000,0000,0000,,Dorosue Yamiyo.
+Dialogue: 0,0:17:09.61,0:17:12.67,DCMain,CONAN,0000,0000,0000,,After confirming my suspicions \Nwith Chino-san himself,
+Dialogue: 0,0:17:12.67,0:17:14.09,DCMain,CONAN,0000,0000,0000,,I figured it all out.
+Dialogue: 0,0:17:14.79,0:17:17.34,DCMain,CONAN,0000,0000,0000,,The person who killed Amagi-san and Bando-san,
+Dialogue: 0,0:17:17.64,0:17:20.35,DCMain,CONAN,0000,0000,0000,,and tried to frame Chino-san \Nfor the murders...
+Dialogue: 0,0:17:21.56,0:17:23.52,DCMain,CONAN,0000,0000,0000,,The identity of Dorosue Yamiyo...
+Dialogue: 0,0:17:24.44,0:17:25.94,DCMain,CONAN,0000,0000,0000,,Kanemitsu Toyoko-san.
+Dialogue: 0,0:17:29.72,0:17:31.62,DCMain,CONAN,0000,0000,0000,,It's you, isn't it?
+Dialogue: 0,0:17:43.52,0:17:46.96,DCMain,CONAN,0000,0000,0000,,Chino-san called your works...
+Dialogue: 0,0:17:47.40,0:17:48.45,DCMain,TOYOKO,0000,0000,0000,,That's right.
+Dialogue: 0,0:17:48.45,0:17:50.46,DCMain,TOYOKO,0000,0000,0000,,Right in front of me.
+Dialogue: 0,0:17:50.63,0:17:51.80,DCItalic,CHINO,0000,0000,0000,,Come to think of it,
+Dialogue: 0,0:17:51.80,0:17:55.18,DCItalic,CHINO,0000,0000,0000,,one of the works I'm reviewing \Nright now is incredible.
+Dialogue: 0,0:17:55.18,0:17:56.72,DCItalic,CHINO,0000,0000,0000,,It's called "The Melting Weapon,"
+Dialogue: 0,0:17:56.72,0:17:58.55,DCItalic,CHINO,0000,0000,0000,,but it's truly awful.
+Dialogue: 0,0:17:58.55,0:18:00.47,DCItalic,BANDO,0000,0000,0000,,That bad, huh?
+Dialogue: 0,0:18:00.47,0:18:02.96,DCItalic,CHINO,0000,0000,0000,,Everything about it is awful.
+Dialogue: 0,0:18:02.96,0:18:04.47,DCItalic,CHINO,0000,0000,0000,,Ma'am, listen to this.
+Dialogue: 0,0:18:04.81,0:18:06.42,DCMain,CONAN,0000,0000,0000,,He was harshly critical.
+Dialogue: 0,0:18:06.42,0:18:07.48,DCMain,CONAN,0000,0000,0000,,And then...
+Dialogue: 0,0:18:07.90,0:18:10.34,DCItalic,CHINO,0000,0000,0000,,The content was bad enough,
+Dialogue: 0,0:18:10.34,0:18:14.40,DCItalic,CHINO,0000,0000,0000,,but the pen name Dorosue \NYamiyo is awful, too.
+Dialogue: 0,0:18:14.40,0:18:18.20,DCItalic,CHINO,0000,0000,0000,,I question the character of \Nanyone capable of writing that.
+Dialogue: 0,0:18:20.79,0:18:24.70,DCMain,TOYOKO,0000,0000,0000,,He even mocked my character and rejected me.
+Dialogue: 0,0:18:25.22,0:18:26.08,DCMain,TOYOKO,0000,0000,0000,,That's why
+Dialogue: 0,0:18:28.31,0:18:31.38,DCMain,TOYOKO,0000,0000,0000,,I murdered neighborhood nuisance Amagi,
+Dialogue: 0,0:18:34.34,0:18:37.15,DCMain,TOYOKO,0000,0000,0000,,killed the useless Bando,
+Dialogue: 0,0:18:38.01,0:18:42.22,DCMain,TOYOKO,0000,0000,0000,,and plotted to frame Chino for my crimes.
+Dialogue: 0,0:18:42.53,0:18:46.01,DCMain,TOYOKO,0000,0000,0000,,I didn't particularly dislike those two.
+Dialogue: 0,0:18:46.01,0:18:49.67,DCMain,TOYOKO,0000,0000,0000,,I killed them because it fit perfectly
+Dialogue: 0,0:18:49.67,0:18:51.73,DCMain,TOYOKO,0000,0000,0000,,into my plan to frame Chino.
+Dialogue: 0,0:18:52.59,0:18:55.26,DCMain,TOYOKO,0000,0000,0000,,But, Conan-kun...
+Dialogue: 0,0:18:56.40,0:19:00.02,DCMain,TOYOKO,0000,0000,0000,,I'm impressed that you were \Nable to solve the mystery.
+Dialogue: 0,0:19:00.63,0:19:03.98,DCMain,CONAN,0000,0000,0000,,There's no evidence, so it's \Nall just my conjecture.
+Dialogue: 0,0:19:03.98,0:19:05.40,DCMain,TOYOKO,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:19:05.40,0:19:08.08,DCMain,TOYOKO,0000,0000,0000,,Once you solve the mystery, it's over.
+Dialogue: 0,0:19:08.08,0:19:11.41,DCMain,TOYOKO,0000,0000,0000,,A pure mystery doesn't need something
+Dialogue: 0,0:19:11.41,0:19:13.25,DCMain,TOYOKO,0000,0000,0000,,as filthy as evidence.
+Dialogue: 0,0:19:13.71,0:19:16.83,DCMain,CONAN,0000,0000,0000,,Toyoko-san, the ABC Murders you mentioned
+Dialogue: 0,0:19:17.28,0:19:19.04,DCMain,CONAN,0000,0000,0000,,were a hint, too.
+Dialogue: 0,0:19:19.51,0:19:24.50,DCMain,CONAN,0000,0000,0000,,Agatha Christie's story involved \Nnot just A, B, and C, but also D.
+Dialogue: 0,0:19:24.90,0:19:29.00,DCMain,CONAN,0000,0000,0000,,It was a hint that we should \Nalso consider a D in this case.
+Dialogue: 0,0:19:29.62,0:19:31.77,DCMain,CONAN,0000,0000,0000,,You really do like mysteries.
+Dialogue: 0,0:19:39.98,0:19:42.63,DCMain,CONAN,0000,0000,0000,,But you crossed the line.
+Dialogue: 0,0:19:43.59,0:19:47.28,DCMain,CONAN,0000,0000,0000,,You turned the mystery you \Ncame up with into a weapon.
+Dialogue: 0,0:19:48.92,0:19:51.01,DCMain,CONAN,0000,0000,0000,,No matter how much you like mysteries,
+Dialogue: 0,0:19:51.01,0:19:53.26,DCMain,CONAN,0000,0000,0000,,or how good the mystery is,
+Dialogue: 0,0:19:53.26,0:19:55.53,DCMain,CONAN,0000,0000,0000,,you can never cross the line.
+Dialogue: 0,0:19:56.50,0:20:00.46,DCMain,CONAN,0000,0000,0000,,You left us hints to solve \Nthe mystery, but those...
+Dialogue: 0,0:20:00.93,0:20:03.68,DCMain,TOYOKO,0000,0000,0000,,It was my nature and sin.
+Dialogue: 0,0:20:04.66,0:20:06.01,DCMain,TOYOKO,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:20:14.43,0:20:15.55,DCMain,KOGORO,0000,0000,0000,,What do you want, kid?
+Dialogue: 0,0:20:15.55,0:20:16.81,DCMain,KOGORO,0000,0000,0000,,Why'd you tell me to come here?
+Dialogue: 0,0:20:17.20,0:20:19.91,DCMain,CONAN,0000,0000,0000,,She wants you to accompany her.
+Dialogue: 0,0:20:19.91,0:20:20.72,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:20:20.72,0:20:21.84,DCMain,KOGORO,0000,0000,0000,,Where?
+Dialogue: 0,0:20:21.84,0:20:24.70,DCMain,TOYOKO,0000,0000,0000,,I don't like physical evidence,
+Dialogue: 0,0:20:24.70,0:20:27.06,DCMain,TOYOKO,0000,0000,0000,,but I thought the police would want some,
+Dialogue: 0,0:20:27.06,0:20:28.70,DCMain,TOYOKO,0000,0000,0000,,so I have some prepared.
+Dialogue: 0,0:20:29.23,0:20:31.20,DCMain,CONAN,0000,0000,0000,,It's a receipt from a hardware store.
+Dialogue: 0,0:20:31.68,0:20:34.72,DCMain,TOYOKO,0000,0000,0000,,It's from when I bought the \Nawl I used on Amagi-san
+Dialogue: 0,0:20:34.72,0:20:39.95,DCMain,TOYOKO,0000,0000,0000,,and the pesticide I used on Bando-san.
+Dialogue: 0,0:20:40.96,0:20:42.11,DCMain,KOGORO,0000,0000,0000,,What?!
+Dialogue: 0,0:20:42.11,0:20:43.13,DCMain,KOGORO,0000,0000,0000,,You...
+Dialogue: 0,0:20:43.52,0:20:46.64,DCMain,CONAN,0000,0000,0000,,You know where you're going, don't you?
+Dialogue: 0,0:20:47.28,0:20:48.79,DCMain,BOTH,0000,0000,0000,,What?!
+Dialogue: 0,0:20:49.34,0:20:53.02,DCMain,TAKAGI,0000,0000,0000,,Kanemitsu Toyoko-san killed both of them...
+Dialogue: 0,0:20:53.02,0:20:55.02,DCMain,CHIBA,0000,0000,0000,,And tried to frame Chino?
+Dialogue: 0,0:20:55.31,0:20:59.02,DCMain,MEGURE,0000,0000,0000,,All because he made fun of a story she wrote?
+Dialogue: 0,0:21:02.51,0:21:06.78,DCMain,MEGURE,0000,0000,0000,,I don't enjoy speaking harshly to seniors,
+Dialogue: 0,0:21:06.78,0:21:09.28,DCMain,MEGURE,0000,0000,0000,,but killing a person is...
+Dialogue: 0,0:21:09.56,0:21:12.52,DCMain,TOYOKO,0000,0000,0000,,I know how sinful it is.
+Dialogue: 0,0:21:12.52,0:21:13.50,DCMain,TOYOKO,0000,0000,0000,,It's why I'm here.
+Dialogue: 0,0:22:40.37,0:22:44.38,DCMain,KOGORO,0000,0000,0000,,So what's "The Melting Weapon" about?
+Dialogue: 0,0:22:44.67,0:22:48.13,DCMain,CONAN,0000,0000,0000,,Well, it's a locked room murder.
+Dialogue: 0,0:22:48.55,0:22:51.36,DCMain,CONAN,0000,0000,0000,,The culprit slips a slug covered in poison
+Dialogue: 0,0:22:51.36,0:22:55.68,DCMain,CONAN,0000,0000,0000,,through the door of a bedroom \Nlocked from the inside.
+Dialogue: 0,0:22:56.52,0:23:01.23,DCMain,CONAN,0000,0000,0000,,The moment the victim who's \Nsleeping inside touches the slug,
+Dialogue: 0,0:23:01.23,0:23:04.85,DCMain,CONAN,0000,0000,0000,,the poison seeps through their \Nskin, and they suffocate to death.
+Dialogue: 0,0:23:05.46,0:23:09.88,DCMain,CONAN,0000,0000,0000,,Meanwhile, the salt in the \Nsweat the victim produces
+Dialogue: 0,0:23:09.88,0:23:13.24,DCMain,CONAN,0000,0000,0000,,as they writhe to death melts away the slug.
+Dialogue: 0,0:23:13.24,0:23:15.86,DCMain,CONAN,0000,0000,0000,,And that's the locked room murder.
+Dialogue: 0,0:23:16.39,0:23:21.14,DCMain,KOGORO,0000,0000,0000,,How does the slug conveniently \Nmake its way to the victim?
+Dialogue: 0,0:23:21.14,0:23:25.68,DCMain,KOGORO,0000,0000,0000,,And why doesn't being coated \Nin poison kill the slug?
+Dialogue: 0,0:23:25.68,0:23:29.01,DCMain,CONAN,0000,0000,0000,,Unfortunately, there's no explanation.
+Dialogue: 0,0:23:29.01,0:23:30.02,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:23:30.02,0:23:31.50,DCMain,KOGORO,0000,0000,0000,,Seriously?
+Dialogue: 0,0:23:31.50,0:23:33.75,DCMain,KOGORO,0000,0000,0000,,That's too much of a mystery for me.
+Dialogue: 0,0:23:33.75,0:23:38.02,DCMain,CONAN,0000,0000,0000,,But it's fun if you think of it \Nas a blank for the reader to fill.
+Dialogue: 0,0:23:38.02,0:23:40.06,DCMain,CONAN,0000,0000,0000,,How would you explain it?
+Dialogue: 0,0:23:40.06,0:23:41.67,DCMain,KOGORO,0000,0000,0000,,A blank?
+Dialogue: 0,0:23:41.67,0:23:42.76,DCMain,KOGORO,0000,0000,0000,,Blank...
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.32,0:23:46.90,DCMain,MAN,0000,0000,0000,,That's enough!
+Dialogue: 0,0:23:47.06,0:23:47.86,DCMain,GENTA,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:48.23,0:23:52.11,DCMain,HAYASHIDA,0000,0000,0000,,Each time we increase the power, \Nit's coated with kerosene.
+Dialogue: 0,0:23:54.23,0:23:56.66,DCMain,AYUMI,0000,0000,0000,,I had a nightmare.
+Dialogue: 0,0:23:56.86,0:23:57.66,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:24:00.46,0:24:03.47,DCMain,MEGURE,0000,0000,0000,,Could we ask you a few questions
+Dialogue: 0,0:24:03.47,0:24:05.96,DCMain,MEGURE,0000,0000,0000,,about the late Yamakura-san?
+Dialogue: 0,0:24:05.96,0:24:07.13,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,TEXT,0000,0000,0000,,The Dark Mountain Route
+Dialogue: 0,0:24:09.73,0:24:13.61,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Dark Mountain Route!"
+Dialogue: 0,0:24:29.98,0:24:34.99,Hint,TEXT,0000,0000,0000,,Research Balloon
+Dialogue: 0,0:24:30.31,0:24:32.37,DCMain,TAKAGI,0000,0000,0000,,Next Conan's hint, boing!
+Dialogue: 0,0:24:32.87,0:24:34.99,DCMain,CONAN,0000,0000,0000,,A research balloon!
+Dialogue: 0,0:24:34.99,0:24:35.56,DCMain,CONAN,0000,0000,0000,,{\an8}What do you have today?
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.56,0:24:37.28,DCMain,TAKAGI,0000,0000,0000,,{\an8}The characters for love and song \Ntogether make "love letter."
+Dialogue: 0,0:24:37.28,0:24:38.51,DCMain,TAKAGI,0000,0000,0000,,{\an8}Oh, Sato-san.
+Dialogue: 0,0:24:38.51,0:24:39.48,DCMain,CONAN,0000,0000,0000,,{\an8}That's actually pretty decent.

@@ -1,0 +1,447 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0060,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: MISSING SIGN 01,Trebuchet MS,22,&H0003AEF8,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0018,0
+Style: MISSING SIGN 02,Times New Roman,22,&H000B00D7,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Legendary,Trebuchet MS,26,&H0022A2E1,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: GomeraVsYaiba,Trebuchet MS,22,&H001100D5,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Support,Trebuchet MS,22,&H0027E0F1,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0050,0
+Style: TVBuilding,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H009D3213,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0048,0
+Style: GrandHall,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C68E9C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0025,0044,0
+Style: NichiuriBanner,Trebuchet MS,16,&H000D33A2,&H000000FF,&H00EEF9FA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Isato,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00701F1E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0055,0020,0064,0
+Style: Hiromasa,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00844346,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0064,0
+Style: Warehouse,Trebuchet MS,22,&H003E3B3C,&H000000FF,&H00E0E2E2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Goro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00782E23,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0185,0064,0
+Style: MeetingRoom,Trebuchet MS,18,&H008A969B,&H000000FF,&H00FEFEFE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0080,0020,0030,0
+Style: InUse,Trebuchet MS,16,&H00F2F2E4,&H000000FF,&H00343A4A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0060,0020,0170,0
+Style: Nichiuri,Trebuchet MS,24,&H004EBDD1,&H000000FF,&H00FDFDFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Yoshito,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007A4557,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0080,0064,0
+Style: Takeru,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006D2E44,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0064,0
+Style: Fumimaro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00764960,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0135,0020,0064,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,GENTA,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,RAN,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:02.89,0:00:06.36,DCMain,CONAN,0000,0000,0000,,Happy New Year, everyone!
+Dialogue: 0,0:00:06.59,0:00:10.65,DCMain,CONAN,0000,0000,0000,,Thank you for all of your support last year.
+Dialogue: 0,0:00:10.65,0:00:15.53,DCMain,CONAN,0000,0000,0000,,We'll do our best to mouse-merize \Nyou again this year.
+Dialogue: 0,0:00:15.87,0:00:18.77,DCMain,CONAN,0000,0000,0000,,Thank you!
+Dialogue: 0,0:00:21.26,0:00:25.01,MISSING SIGN 01,,0000,0000,0000,,{\fad(1752,1)}Taiho Pictures
+Dialogue: 0,0:00:27.01,0:00:28.51,MISSING SIGN 02,,0000,0000,0000,,Nichiuri TV New Building\NCompletion Commemorative Movie
+Dialogue: 0,0:00:39.76,0:00:42.27,Legendary,TEXT,0000,0000,0000,,The Legendary Kaiju
+Dialogue: 0,0:00:52.13,0:00:54.20,DCMain,YAIBA,0000,0000,0000,,Yaiba Kick!
+Dialogue: 0,0:00:54.20,0:00:57.20,Legendary,TEXT,0000,0000,0000,,Or the Invincible Superhero
+Dialogue: 0,0:00:59.83,0:01:02.20,GomeraVsYaiba,TEXT,0000,0000,0000,,Kaiju Gomera VS Kamen Yaiba
+Dialogue: 0,0:01:02.20,0:01:05.93,MISSING SIGN 02,TEXT,0000,0000,0000,,{\fad(1,1670)}Production Announced!!
+Dialogue: 0,0:01:07.42,0:01:08.80,DCMain,GENTA,0000,0000,0000,,Isn't it amazing?
+Dialogue: 0,0:01:08.80,0:01:10.96,DCMain,GENTA,0000,0000,0000,,It's Gomera VS Yaiba!
+Dialogue: 0,0:01:11.13,0:01:13.54,DCMain,MITSUHIKO,0000,0000,0000,,It's a dream team-up!
+Dialogue: 0,0:01:13.54,0:01:15.26,DCMain,AYUMI,0000,0000,0000,,I wanna see it now!
+Dialogue: 0,0:01:15.26,0:01:20.07,DCMain,HAIBARA,0000,0000,0000,,But since they're announcing production, \Nthey're probably starting filming now.
+Dialogue: 0,0:01:20.07,0:01:21.85,DCMain,HAIBARA,0000,0000,0000,,It won't be released for a while.
+Dialogue: 0,0:01:21.85,0:01:25.10,DCMain,AYUMI,0000,0000,0000,,What? But I wanna see it now.
+Dialogue: 0,0:01:25.10,0:01:27.94,DCMain,HEIJI,0000,0000,0000,,Anyway, I can't believe \Nthey're making a kaiju movie
+Dialogue: 0,0:01:27.94,0:01:29.86,DCMain,HEIJI,0000,0000,0000,,to commemorate the construction \Nof their new building.
+Dialogue: 0,0:01:30.23,0:01:32.15,DCMain,HEIJI,0000,0000,0000,,Where there's a will, there's a way.
+Dialogue: 0,0:01:32.15,0:01:33.40,DCMain,CONAN,0000,0000,0000,,Well, yeah.
+Dialogue: 0,0:01:33.40,0:01:38.18,DCMain,CONAN,0000,0000,0000,,But because of that, because of our \Nstrange connection to Gomera and Yaiba,
+Dialogue: 0,0:01:38.18,0:01:40.95,DCMain,CONAN,0000,0000,0000,,all of us were invited.
+Dialogue: 0,0:01:41.98,0:01:43.38,DCMain,KOGORO,0000,0000,0000,,So good!
+Dialogue: 0,0:01:45.56,0:01:49.48,DCMain,CONAN,0000,0000,0000,,So, were you invited through your dad?
+Dialogue: 0,0:01:49.48,0:01:51.40,DCMain,HEIJI,0000,0000,0000,,Nah, her.
+Dialogue: 0,0:01:54.26,0:01:59.26,Support,TEXT,0000,0000,0000,,Kaiju or superhero? Who will you support?!
+Dialogue: 0,0:01:54.26,0:01:59.26,GomeraVsYaiba,TEXT,0000,0000,0000,,Kaiju Gomera VS Kamen Yaiba
+Dialogue: 0,0:01:54.76,0:01:57.27,DCMain,KAZUKA,0000,0000,0000,,Gomera is so cool!
+Dialogue: 0,0:01:57.27,0:01:59.26,DCMain,RAN,0000,0000,0000,,Uh, yeah...
+Dialogue: 0,0:01:59.70,0:02:02.58,DCMain,RAN,0000,0000,0000,,Kazuha-chan, I didn't know you like kaiju.
+Dialogue: 0,0:02:02.58,0:02:04.27,DCMain,KAZUHA,0000,0000,0000,,Gomera is special.
+Dialogue: 0,0:02:04.54,0:02:08.05,DCMain,KAZUHA,0000,0000,0000,,When I was a kid, I watched his \Nmovies at the theater with Heiji.
+Dialogue: 0,0:02:08.05,0:02:09.77,DCMain,KAZUHA,0000,0000,0000,,I was so moved!
+Dialogue: 0,0:02:10.00,0:02:12.27,DCMain,RAN,0000,0000,0000,,Really?
+Dialogue: 0,0:02:12.46,0:02:17.44,DCMain,KAZUHA,0000,0000,0000,,But starting in "Forever," after "Final \NBattle," the actor inside the costume changed.
+Dialogue: 0,0:02:17.44,0:02:21.80,DCMain,KAZUHA,0000,0000,0000,,His movies have been kind of off for \Na while, but now we're getting this.
+Dialogue: 0,0:02:21.80,0:02:24.32,DCMain,KAZUHA,0000,0000,0000,,I'm so excited!
+Dialogue: 0,0:02:24.32,0:02:25.86,DCMain,RAN,0000,0000,0000,,{\a6}You sure know a lot about him.
+Dialogue: 0,0:02:25.32,0:02:30.11,DCMain,HEIJI,0000,0000,0000,,I thought I knew everything about Kazuha, \Nbut there's still so much I don't know.
+Dialogue: 0,0:02:25.86,0:02:28.65,DCMain,KAZUHA,0000,0000,0000,,{\an8}It'll be an instant classic.
+Dialogue: 0,0:02:30.11,0:02:31.41,DCMain,KAZUHA,0000,0000,0000,,Let's watch it together.
+Dialogue: 0,0:02:31.41,0:02:32.39,DCMain,KAZUHA,0000,0000,0000,,Heiji!
+Dialogue: 0,0:02:32.39,0:02:33.29,DCMain,HEIJI,0000,0000,0000,,What?
+Dialogue: 0,0:02:33.57,0:02:36.62,DCMain,KAZUHA,0000,0000,0000,,Let's take a picture with Gomera!
+Dialogue: 0,0:02:36.62,0:02:37.89,DCMain,HEIJI,0000,0000,0000,,Sheesh.
+Dialogue: 0,0:02:37.89,0:02:39.80,DCMain,HEIJI,0000,0000,0000,,Give me a break.
+Dialogue: 0,0:02:40.28,0:02:42.34,DCItalic,CONAN,0000,0000,0000,,He's still going, though.
+Dialogue: 0,0:02:43.33,0:02:44.70,DCMain,RAN,0000,0000,0000,,I'm taking the picture.
+Dialogue: 0,0:02:45.49,0:02:47.31,DCMain,RAN,0000,0000,0000,,Say cheese.
+Dialogue: 0,0:02:46.19,0:02:47.31,DCMain,KAZUHA,0000,0000,0000,,{\an8}Gomera!
+Dialogue: 0,0:02:56.98,0:02:58.78,DCMain,CONAN,0000,0000,0000,,The rhythm on my lips is footloose!
+Dialogue: 0,0:02:58.78,0:03:00.27,DCMain,CONAN,0000,0000,0000,,The rhythm of my detective \Nskills is perfect!
+Dialogue: 0,0:03:00.27,0:03:01.65,DCMain,CONAN,0000,0000,0000,,Taking a photo with Gomera!
+Dialogue: 0,0:03:01.65,0:03:03.95,DCMain,CONAN,0000,0000,0000,,A murder occurs at the grand \Nopening of a new building!
+Dialogue: 0,0:03:03.95,0:03:05.12,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:03:05.12,0:03:06.93,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:03:06.93,0:03:09.61,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:48.01,0:04:54.02,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(403,1)}Kaiju Gomera VS Kamen Yaiba \N(Prologue)
+Dialogue: 0,0:04:48.43,0:04:52.48,DCMain,CONAN,0000,0000,0000,,"Kaiju Gomera VS Kamen Yaiba, Prologue!"
+Dialogue: 0,0:04:54.48,0:04:57.44,TVBuilding,TEXT,0000,0000,0000,,{\fad(250,460)}New Nichiuri TV Building
+Dialogue: 0,0:04:54.89,0:04:56.43,DCMain,YONEKURA,0000,0000,0000,,{\an8}Hello, everyone.
+Dialogue: 0,0:04:56.43,0:05:01.78,DCMain,YONEKURA,0000,0000,0000,,{\an8}Thank you for coming to the Nichiuri TV New \NBuilding Completion Commemorative Movie
+Dialogue: 0,0:04:57.98,0:05:01.36,GrandHall,TEXT,0000,0000,0000,,{\fad(250,460)}6th Floor Grand Hall
+Dialogue: 0,0:05:01.78,0:05:09.66,NichiuriBanner,TEXT,0000,0000,0000,,Nichiuri TV New Building Completion Commemorative Movie \N"Kaiju Gomera VS Kamen Yaiba" \NAnnouncement Event
+Dialogue: 0,0:05:02.01,0:05:09.66,DCMain,YONEKURA,0000,0000,0000,,"Kaiju Gomera VS Kamen Yaiba" Announcement Event.
+Dialogue: 0,0:05:02.07,0:05:05.49,Isato,TEXT,0000,0000,0000,,{\fad(250,460)}Yonekura Isato (43) \NNichiuri TV Movie Production \NDepartment Chief Producer
+Dialogue: 0,0:05:09.87,0:05:13.55,DCMain,HEIJI,0000,0000,0000,,I recognize that producer.
+Dialogue: 0,0:05:09.87,0:05:15.54,DCMain,YONEKURA,0000,0000,0000,,{\an8}After this we'll be putting \Non a Kamen Yaiba show,
+Dialogue: 0,0:05:13.55,0:05:17.73,DCMain,CONAN,0000,0000,0000,,Yeah. They call him the \Nhit maker of Nichiuri TV.
+Dialogue: 0,0:05:15.54,0:05:19.24,DCMain,YONEKURA,0000,0000,0000,,{\an8}as well as announcing new \Nkaiju, so don't miss it.
+Dialogue: 0,0:05:17.73,0:05:20.17,DCMain,CONAN,0000,0000,0000,,He even appears on TV sometimes.
+Dialogue: 0,0:05:20.78,0:05:24.42,DCMain,CONAN,0000,0000,0000,,He started making movies \Nin the past few years.
+Dialogue: 0,0:05:22.46,0:05:27.95,DCMain,SUZUKI,0000,0000,0000,,{\an8}We have preparations to make for the next \Nevent, so please talk amongst yourselves.
+Dialogue: 0,0:05:25.69,0:05:27.95,DCMain,HEIJI,0000,0000,0000,,From TV to movies, huh?
+Dialogue: 0,0:05:27.95,0:05:30.43,DCMain,KOSUGI,0000,0000,0000,,Sorry to interrupt your dinner.
+Dialogue: 0,0:05:30.69,0:05:34.01,DCMain,KOSUGI,0000,0000,0000,,You're the great detective \NMori Kogoro-san, aren't you?
+Dialogue: 0,0:05:34.01,0:05:35.18,DCMain,KOGORO,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:35.84,0:05:38.10,DCMain,KOSUGI,0000,0000,0000,,{\an8}I'm Yonekura's subordinate.
+Dialogue: 0,0:05:36.73,0:05:39.69,Hiromasa,TEXT,0000,0000,0000,,{\fad(250,1)}Kosugi Hiromasa (32) \NNichiuri TV Movie Production \NDepartment Producer
+Dialogue: 0,0:05:38.10,0:05:39.69,DCMain,KOSUGI,0000,0000,0000,,{\an8}My name is Kosugi.
+Dialogue: 0,0:05:39.92,0:05:41.19,DCMain,KOGORO,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:05:41.71,0:05:44.29,DCMain,KOSUGI,0000,0000,0000,,I look forward to working with \Nyou at tomorrow's film shoot.
+Dialogue: 0,0:05:44.29,0:05:46.10,DCMain,KOGORO,0000,0000,0000,,What? Film shoot?
+Dialogue: 0,0:05:46.10,0:05:50.37,DCMain,RAN,0000,0000,0000,,Dad, it was written on the invitation!
+Dialogue: 0,0:05:50.62,0:05:52.22,DCMain,KOGORO,0000,0000,0000,,W-Was it?
+Dialogue: 0,0:05:52.22,0:05:53.83,DCMain,KAZUHA,0000,0000,0000,,Yeah, mister.
+Dialogue: 0,0:05:53.83,0:05:57.66,DCMain,KAZUHA,0000,0000,0000,,They're filming a crowd scene \Nat Osaka Castle Park tomorrow.
+Dialogue: 0,0:05:57.88,0:05:59.20,DCMain,KOGORO,0000,0000,0000,,Crowd scene?
+Dialogue: 0,0:05:59.20,0:06:04.16,DCMain,MITSUHIKO,0000,0000,0000,,They're filming a scene in which people flee \Nfrom the kaiju that appears at Osaka Castle!
+Dialogue: 0,0:06:04.16,0:06:06.21,DCMain,GENTA,0000,0000,0000,,Et... cetera?
+Dialogue: 0,0:06:06.21,0:06:07.42,DCMain,HAIBARA,0000,0000,0000,,Extras.
+Dialogue: 0,0:06:07.42,0:06:10.59,DCMain,GENTA,0000,0000,0000,,We're playing those extras, right?
+Dialogue: 0,0:06:10.59,0:06:12.68,DCMain,AYUMI,0000,0000,0000,,We get to be in the movie, too, right?
+Dialogue: 0,0:06:12.93,0:06:14.62,DCMain,KOSUGI,0000,0000,0000,,Yes, of course.
+Dialogue: 0,0:06:14.62,0:06:15.85,DCMain,AYUMI,0000,0000,0000,,Yes!
+Dialogue: 0,0:06:15.85,0:06:19.55,DCMain,MITSUHIKO,0000,0000,0000,,But since it's a crowd scene, there \Nwill be a lot of people there.
+Dialogue: 0,0:06:19.55,0:06:22.62,DCMain,GENTA,0000,0000,0000,,Then let's dress so we really stand out.
+Dialogue: 0,0:06:22.62,0:06:23.78,DCMain,AYUMI,0000,0000,0000,,Like Kaito Kid?
+Dialogue: 0,0:06:23.78,0:06:25.69,DCMain,MITSUHIKO,0000,0000,0000,,Good idea!
+Dialogue: 0,0:06:38.69,0:06:40.00,DCMain,STAFF,0000,0000,0000,,Yonekura-san?
+Dialogue: 0,0:06:40.78,0:06:44.25,DCMain,STAFF,0000,0000,0000,,What's wrong? You were scowling.
+Dialogue: 0,0:06:44.25,0:06:47.74,DCMain,YONEKURA,0000,0000,0000,,Nothing. Just thinking.
+Dialogue: 0,0:06:47.74,0:06:49.55,DCMain,YONEKURA,0000,0000,0000,,See you later.
+Dialogue: 0,0:06:49.55,0:06:51.06,DCMain,STAFF,0000,0000,0000,,See you later.
+Dialogue: 0,0:06:53.01,0:06:55.01,Warehouse,TEXT,0000,0000,0000,,Scenery Warehouse B \NAlways Close the Door
+Dialogue: 0,0:07:02.37,0:07:04.02,DCMain,YONEKURA,0000,0000,0000,,Hey, Kosugi.
+Dialogue: 0,0:07:04.48,0:07:06.46,DCMain,YONEKURA,0000,0000,0000,,Where are you, Kosugi?
+Dialogue: 0,0:07:09.67,0:07:11.78,DCMain,YONEKURA,0000,0000,0000,,Jeez. You scared me.
+Dialogue: 0,0:07:32.81,0:07:36.05,DCMain,YONEKURA,0000,0000,0000,,Damn it. Why'd Onda have to do that?
+Dialogue: 0,0:07:58.58,0:08:01.21,DCMain,HAIBARA,0000,0000,0000,,They're giving us a rather long time to chat.
+Dialogue: 0,0:08:01.21,0:08:02.41,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:05.21,0:08:06.08,DCMain,HAIBARA,0000,0000,0000,,What's going on?
+Dialogue: 0,0:08:06.51,0:08:08.34,DCMain,HAIBARA,0000,0000,0000,,They seem flustered.
+Dialogue: 0,0:08:08.88,0:08:09.63,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:16.91,0:08:18.17,DCMain,KOGORO,0000,0000,0000,,Hey, kid!
+Dialogue: 0,0:08:18.47,0:08:20.60,DCMain,KOGORO,0000,0000,0000,,What's going on?
+Dialogue: 0,0:08:21.48,0:08:22.13,DCMain,KOGORO,0000,0000,0000,,Wait...
+Dialogue: 0,0:08:22.65,0:08:23.94,DCMain,KOGORO,0000,0000,0000,,What is that?
+Dialogue: 0,0:08:23.94,0:08:24.59,DCMain,CONAN,0000,0000,0000,,Excuse us!
+Dialogue: 0,0:08:24.59,0:08:25.20,DCMain,HEIJI,0000,0000,0000,,Let us through!
+Dialogue: 0,0:08:25.20,0:08:26.48,DCMain,SUZUKI,0000,0000,0000,,Hey, you kids!
+Dialogue: 0,0:08:26.48,0:08:27.95,DCMain,SUZUKI,0000,0000,0000,,You can't go in there!
+Dialogue: 0,0:08:30.77,0:08:32.53,DCMain,KOGORO,0000,0000,0000,,What's going on here?
+Dialogue: 0,0:08:32.53,0:08:34.31,DCMain,SUZUKI,0000,0000,0000,,W-Well...
+Dialogue: 0,0:08:35.92,0:08:37.87,DCMain,KOGORO,0000,0000,0000,,Wh-What's this?!
+Dialogue: 0,0:08:38.26,0:08:39.71,DCMain,KOGORO,0000,0000,0000,,Have you called the police?
+Dialogue: 0,0:08:39.71,0:08:41.88,DCMain,SUZUKI,0000,0000,0000,,Yes, just now.
+Dialogue: 0,0:08:41.88,0:08:43.87,DCMain,KOGORO,0000,0000,0000,,Hey, don't touch the body!
+Dialogue: 0,0:08:53.34,0:08:56.80,Goro,TEXT,0000,0000,0000,,{\fad(276390)}Otaki Goro \NOsaka Police \NDivision One Inspector
+Dialogue: 0,0:08:53.59,0:08:55.14,DCMain,OTAKI,0000,0000,0000,,{\an8}What an awful way to go.
+Dialogue: 0,0:08:55.14,0:08:57.44,DCMain,OTAKI,0000,0000,0000,,{\an8}Stabbed right in the stomach with a fang.
+Dialogue: 0,0:08:57.44,0:08:58.64,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:58.64,0:08:59.49,DCMain,POLICE,0000,0000,0000,,Go ahead.
+Dialogue: 0,0:08:59.49,0:09:00.18,DCMain,OTAKI,0000,0000,0000,,Thanks.
+Dialogue: 0,0:09:00.80,0:09:02.82,DCMain,KOGORO,0000,0000,0000,,The victim is Yonekura Isato.
+Dialogue: 0,0:09:02.82,0:09:04.77,DCMain,KOGORO,0000,0000,0000,,He worked here as a producer.
+Dialogue: 0,0:09:05.22,0:09:09.54,DCMain,OTAKI,0000,0000,0000,,I see. Anyway, it sure is dark in here.
+Dialogue: 0,0:09:09.54,0:09:11.74,DCMain,OTAKI,0000,0000,0000,,Can't we make it any brighter?
+Dialogue: 0,0:09:11.74,0:09:12.88,DCMain,POLICE,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:09:12.88,0:09:16.66,DCMain,POLICE,0000,0000,0000,,The electrical system's having problems, \Nso it doesn't get any brighter.
+Dialogue: 0,0:09:16.83,0:09:19.01,DCMain,OTAKI,0000,0000,0000,,Jeez. In that case...
+Dialogue: 0,0:09:19.01,0:09:20.64,DCMain,OTAKI,0000,0000,0000,,Hey, you there!
+Dialogue: 0,0:09:20.64,0:09:21.29,DCMain,POLICE,0000,0000,0000,,Yes?
+Dialogue: 0,0:09:21.72,0:09:25.33,DCMain,OTAKI,0000,0000,0000,,Open the door. That'll \Nmake it a little brighter.
+Dialogue: 0,0:09:25.33,0:09:26.67,DCMain,POLICE,0000,0000,0000,,Well, actually...
+Dialogue: 0,0:09:26.99,0:09:31.00,DCMain,POLICE,0000,0000,0000,,This door closes unless it's propped open.
+Dialogue: 0,0:09:31.80,0:09:32.92,DCMain,OTAKI,0000,0000,0000,,Are you stupid?
+Dialogue: 0,0:09:33.31,0:09:36.34,DCMain,OTAKI,0000,0000,0000,,Then keep it open with \Na doorstop or something.
+Dialogue: 0,0:09:36.34,0:09:37.64,DCMain,KOGORO,0000,0000,0000,,Now, now.
+Dialogue: 0,0:09:37.64,0:09:41.17,DCMain,KOGORO,0000,0000,0000,,Either way, it doesn't look \Nlike this was foul play.
+Dialogue: 0,0:09:41.17,0:09:42.50,DCMain,KOGORO,0000,0000,0000,,It shouldn't be a problem.
+Dialogue: 0,0:09:42.50,0:09:43.96,DCMain,OTAKI,0000,0000,0000,,I guess...
+Dialogue: 0,0:09:43.96,0:09:46.35,DCMain,HEIJI,0000,0000,0000,,You guys okay with that?
+Dialogue: 0,0:09:46.63,0:09:49.01,DCMain,KOGORO,0000,0000,0000,,Are we okay? No matter how you look at it...
+Dialogue: 0,0:09:49.01,0:09:51.23,DCMain,HEIJI,0000,0000,0000,,Look at the victim's right hand.
+Dialogue: 0,0:09:52.31,0:09:53.61,DCMain,KOGORO,0000,0000,0000,,What about his right hand?
+Dialogue: 0,0:09:54.94,0:09:55.85,DCMain,OTAKI,0000,0000,0000,,What's going on here?
+Dialogue: 0,0:09:55.85,0:09:58.74,DCMain,OTAKI,0000,0000,0000,,The blood's been wiped off \Nof just his pointer finger.
+Dialogue: 0,0:09:58.74,0:09:59.73,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:59.73,0:10:03.03,DCMain,CONAN,0000,0000,0000,,And look at the phone next to him.
+Dialogue: 0,0:10:03.03,0:10:03.87,DCMain,KOGORO,0000,0000,0000,,The phone?
+Dialogue: 0,0:10:04.36,0:10:05.35,DCMain,KOGORO,0000,0000,0000,,What's this?
+Dialogue: 0,0:10:05.35,0:10:08.75,DCMain,OTAKI,0000,0000,0000,,I see. The fingerprint ID button...
+Dialogue: 0,0:10:09.03,0:10:14.50,DCMain,HEIJI,0000,0000,0000,,The victim was probably conscious for a \Nwhile after he was stabbed in the stomach.
+Dialogue: 0,0:10:14.50,0:10:17.76,DCMain,HEIJI,0000,0000,0000,,He took out his phone and unlocked it.
+Dialogue: 0,0:10:17.99,0:10:23.42,DCMain,CONAN,0000,0000,0000,,And wiped the blood from his pointer finger \Nso it would recognize his fingerprint.
+Dialogue: 0,0:10:24.02,0:10:28.71,DCMain,OTAKI,0000,0000,0000,,Got it. I'll have the data on \Nthe phone analyzed immediately.
+Dialogue: 0,0:10:28.71,0:10:29.74,DCMain,HEIJI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:29.74,0:10:30.85,DCMain,POLICE,0000,0000,0000,,Inspector Otaki!
+Dialogue: 0,0:10:30.85,0:10:31.65,DCMain,OTAKI,0000,0000,0000,,What?
+Dialogue: 0,0:10:31.93,0:10:34.15,DCMain,POLICE,0000,0000,0000,,Take a look at this rope.
+Dialogue: 0,0:10:36.69,0:10:41.60,DCMain,HEIJI,0000,0000,0000,,I see. It's frayed, but this \Ndidn't break naturally.
+Dialogue: 0,0:10:41.60,0:10:42.41,DCMain,POLICE,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:42.81,0:10:47.85,DCMain,POLICE,0000,0000,0000,,It looks like a pretty tough rope, so \Nthey must've had some trouble cutting it.
+Dialogue: 0,0:10:47.85,0:10:52.13,DCMain,CONAN,0000,0000,0000,,Hey, there's some kind of scratch right here.
+Dialogue: 0,0:10:52.13,0:10:56.47,DCMain,POLICE,0000,0000,0000,,Yeah. That cut must have been made \Nby the end of a knife or something.
+Dialogue: 0,0:10:56.47,0:10:58.94,DCMain,KOGORO,0000,0000,0000,,A knife cut on the top of the shelf?
+Dialogue: 0,0:10:59.90,0:11:05.58,DCMain,KOGORO,0000,0000,0000,,In other words, the culprit dropped the knife \Nwhile cutting the rope, and cut the shelf there.
+Dialogue: 0,0:11:05.58,0:11:06.39,DCMain,POLICE,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:06.65,0:11:11.48,DCMain,POLICE,0000,0000,0000,,But the cut is too small. I'm not sure \Nwe'll be able to identify the weapon.
+Dialogue: 0,0:11:12.69,0:11:15.32,DCMain,HEIJI,0000,0000,0000,,Yeah, but now it's clear.
+Dialogue: 0,0:11:16.14,0:11:17.94,DCMain,HEIJI,0000,0000,0000,,This wasn't an accident.
+Dialogue: 0,0:11:19.38,0:11:21.32,DCMain,HEIJI,0000,0000,0000,,It's a murder.
+Dialogue: 0,0:11:21.32,0:11:25.33,MeetingRoom,TEXT,0000,0000,0000,,Meeting Room 601
+Dialogue: 0,0:11:21.32,0:11:25.33,InUse,TEXT,0000,0000,0000,,In Use
+Dialogue: 0,0:11:22.78,0:11:25.33,DCMain,KOSUGI,0000,0000,0000,,I can't believe what \Nhappened to Yonekura-san.
+Dialogue: 0,0:11:25.56,0:11:27.55,DCMain,KOSUGI,0000,0000,0000,,I don't know what's going on anymore.
+Dialogue: 0,0:11:27.55,0:11:32.71,DCMain,OTAKI,0000,0000,0000,,So, how's the security of the \Nwarehouse that is the crime scene?
+Dialogue: 0,0:11:32.94,0:11:38.13,DCMain,KOSUGI,0000,0000,0000,,It's unlocked using these key cards.
+Dialogue: 0,0:11:38.13,0:11:41.30,DCMain,KOGORO,0000,0000,0000,,Who had a key card?
+Dialogue: 0,0:11:41.30,0:11:45.22,DCMain,KOSUGI,0000,0000,0000,,Including Yonekura-san, I \Nbelieve it was about fifteen people.
+Dialogue: 0,0:11:45.72,0:11:49.84,DCMain,KOSUGI,0000,0000,0000,,The new kaiju in there were \Nbeing kept confidential
+Dialogue: 0,0:11:49.84,0:11:51.53,DCMain,KOSUGI,0000,0000,0000,,until they were announced at today's event,
+Dialogue: 0,0:11:51.53,0:11:55.73,DCMain,KOSUGI,0000,0000,0000,,so only a few people were \Nallowed to enter the room.
+Dialogue: 0,0:11:56.06,0:11:57.17,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:11:57.17,0:11:59.60,DCMain,KOGORO,0000,0000,0000,,That narrows down the suspects quite a bit.
+Dialogue: 0,0:11:59.60,0:12:00.96,DCMain,OTAKI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:00.96,0:12:01.82,DCMain,KOSUGI,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:12:02.42,0:12:05.49,DCMain,KOSUGI,0000,0000,0000,,Yonekura-san wasn't killed in an accident?
+Dialogue: 0,0:12:05.93,0:12:08.00,DCMain,OTAKI,0000,0000,0000,,We're investigating it right now.
+Dialogue: 0,0:12:08.00,0:12:12.50,DCMain,OTAKI,0000,0000,0000,,Anyway, I heard you got into \Na fight with the victim.
+Dialogue: 0,0:12:12.75,0:12:15.37,DCMain,KOSUGI,0000,0000,0000,,What? I-I...
+Dialogue: 0,0:12:15.37,0:12:18.38,DCMain,OTAKI,0000,0000,0000,,The staff saw you arguing.
+Dialogue: 0,0:12:19.16,0:12:23.76,DCMain,OTAKI,0000,0000,0000,,Apparently this movie was \Noriginally your idea,
+Dialogue: 0,0:12:23.76,0:12:26.45,DCMain,OTAKI,0000,0000,0000,,but the victim stole it.
+Dialogue: 0,0:12:26.45,0:12:27.39,DCMain,KOSUGI,0000,0000,0000,,You're wrong!
+Dialogue: 0,0:12:27.71,0:12:31.39,DCMain,KOSUGI,0000,0000,0000,,I discussed and planned \Neverything with Yonekura-san!
+Dialogue: 0,0:12:31.79,0:12:34.90,DCMain,KOGORO,0000,0000,0000,,But he took all the credit.
+Dialogue: 0,0:12:35.18,0:12:36.44,DCMain,KOSUGI,0000,0000,0000,,No!
+Dialogue: 0,0:12:36.44,0:12:37.98,DCMain,CONAN,0000,0000,0000,,Hey, mister.
+Dialogue: 0,0:12:38.54,0:12:42.34,DCMain,CONAN,0000,0000,0000,,Why did you go to the warehouse when you did?
+Dialogue: 0,0:12:42.34,0:12:43.07,DCMain,KOSUGI,0000,0000,0000,,What?
+Dialogue: 0,0:12:43.40,0:12:48.23,DCMain,KOSUGI,0000,0000,0000,,I received a note from Yonekura-san \Nsaying to come to the warehouse at 2:30.
+Dialogue: 0,0:12:48.23,0:12:52.36,DCMain,KOSUGI,0000,0000,0000,,Yonekura-san was to leave for Bangkok \Nimmediately after the event,
+Dialogue: 0,0:12:52.36,0:12:55.18,DCMain,KOSUGI,0000,0000,0000,,so I thought he wanted to \Ndiscuss something before then.
+Dialogue: 0,0:12:55.18,0:12:58.37,DCMain,OTAKI,0000,0000,0000,,So, where's that note now?
+Dialogue: 0,0:12:58.37,0:12:59.78,DCMain,KOSUGI,0000,0000,0000,,I threw it away.
+Dialogue: 0,0:12:59.78,0:13:01.71,DCMain,KOSUGI,0000,0000,0000,,That's what it said to do.
+Dialogue: 0,0:13:04.22,0:13:05.47,DCMain,KOSUGI,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:13:10.10,0:13:13.67,DCMain,AYUMI,0000,0000,0000,,Aw, darn. The Yaiba show's canceled.
+Dialogue: 0,0:13:13.67,0:13:17.23,DCMain,MITSUHIKO,0000,0000,0000,,I hope tomorrow's film \Nshoot happens as scheduled.
+Dialogue: 0,0:13:17.62,0:13:20.21,DCMain,GENTA,0000,0000,0000,,I'm so tired of waiting that I'm hungry.
+Dialogue: 0,0:13:20.21,0:13:22.61,DCMain,MITSUHIKO,0000,0000,0000,,Genta-kun, you're always hungry.
+Dialogue: 0,0:13:22.61,0:13:25.15,DCMain,AYUMI,0000,0000,0000,,The Yaiba show is more important.
+Dialogue: 0,0:13:25.15,0:13:27.36,DCMain,GENTA,0000,0000,0000,,But they're not doing the show.
+Dialogue: 0,0:13:34.00,0:13:35.03,DCMain,RAN,0000,0000,0000,,Ai-chan?
+Dialogue: 0,0:13:35.79,0:13:36.75,DCMain,RAN,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:13:38.81,0:13:39.92,DCMain,HAIBARA,0000,0000,0000,,It's nothing.
+Dialogue: 0,0:13:40.12,0:13:41.01,DCMain,RAN,0000,0000,0000,,I see.
+Dialogue: 0,0:13:41.01,0:13:44.17,DCMain,KAZUHA,0000,0000,0000,,Jeez. Not a peep from Heiji either.
+Dialogue: 0,0:13:44.17,0:13:45.94,DCMain,KAZUHA,0000,0000,0000,,What should we do, Ran-chan?
+Dialogue: 0,0:13:45.94,0:13:47.80,DCMain,RAN,0000,0000,0000,,Let's wait a little longer.
+Dialogue: 0,0:13:48.06,0:13:50.51,DCMain,RAN,0000,0000,0000,,Huh? Come to think of it, where's Conan-kun?
+Dialogue: 0,0:13:50.51,0:13:53.40,DCMain,MITSUHIKO,0000,0000,0000,,Now that you mention it, I \Nhaven't seen him in a while.
+Dialogue: 0,0:13:53.40,0:13:56.18,DCMain,AYUMI,0000,0000,0000,,Maybe he's with Heiji-oniisan.
+Dialogue: 0,0:13:56.18,0:13:59.06,DCMain,GENTA,0000,0000,0000,,Did he run off again?
+Dialogue: 0,0:14:06.61,0:14:09.83,Nichiuri,TEXT,0000,0000,0000,,{\fad(210,1)}Nichiuri TV
+Dialogue: 0,0:14:07.26,0:14:13.58,DCMain,STAFF,0000,0000,0000,,Yeah, come to think of it, Yonekura-san \Nwas glaring quite intensely at his phone.
+Dialogue: 0,0:14:13.96,0:14:16.20,DCMain,CONAN,0000,0000,0000,,Do you know what time that was?
+Dialogue: 0,0:14:17.36,0:14:23.26,DCMain,STAFF,0000,0000,0000,,It was right after the first afternoon \Nmeeting, so it might have been around 2:20.
+Dialogue: 0,0:14:24.77,0:14:25.96,DCMain,OTAKI,0000,0000,0000,,Hei-chan!
+Dialogue: 0,0:14:26.28,0:14:28.08,DCMain,OTAKI,0000,0000,0000,,We're ready for you.
+Dialogue: 0,0:14:28.08,0:14:29.85,DCMain,HEIJI,0000,0000,0000,,I'll be right there.
+Dialogue: 0,0:14:29.85,0:14:31.07,DCMain,HEIJI,0000,0000,0000,,Thanks.
+Dialogue: 0,0:14:32.22,0:14:35.80,DCMain,OTAKI,0000,0000,0000,,Of the staff that had key \Ncards to the warehouse,
+Dialogue: 0,0:14:35.80,0:14:40.98,DCMain,OTAKI,0000,0000,0000,,only two others besides Kosugi were \Nin the back at the time of the crime.
+Dialogue: 0,0:14:41.33,0:14:44.60,DCMain,HEIJI,0000,0000,0000,,That's great. So, who are they?
+Dialogue: 0,0:14:44.60,0:14:47.74,DCMain,OTAKI,0000,0000,0000,,I had them wait in the meeting room.
+Dialogue: 0,0:14:48.62,0:14:50.96,DCMain,OTAKI,0000,0000,0000,,Sorry to make you wait so long.
+Dialogue: 0,0:14:50.96,0:14:53.12,DCMain,MIHARA,0000,0000,0000,,How long were you going to make us wait?
+Dialogue: 0,0:14:53.71,0:14:57.87,DCMain,MIHARA,0000,0000,0000,,{\an8} Unlike the police, every second \Nmatters in our business.
+Dialogue: 0,0:14:53.91,0:14:57.37,Yoshito,TEXT,0000,0000,0000,,{\fad(250,460)}Mihara Yoshito (38) \NNichiuri TV Movie Production \NDepartment Producer
+Dialogue: 0,0:14:58.16,0:15:01.63,Takeru,TEXT,0000,0000,0000,,{\fad(250,460)}Kouchi Takeru (35) \NNichiuri TV Movie Production \NDepartment Producer
+Dialogue: 0,0:14:58.24,0:15:03.38,DCMain,KOUCHI,0000,0000,0000,,{\an8}We're busy enough without \Nwhat happened to Yonekura.
+Dialogue: 0,0:15:03.67,0:15:05.66,DCMain,HEIJI,0000,0000,0000,,You're awfully aggressive.
+Dialogue: 0,0:15:05.66,0:15:09.01,DCMain,HEIJI,0000,0000,0000,,Is there something you don't \Nwant to be asked about?
+Dialogue: 0,0:15:10.28,0:15:11.38,DCMain,MIHARA,0000,0000,0000,,Who are you?
+Dialogue: 0,0:15:12.00,0:15:13.12,DCMain,HEIJI,0000,0000,0000,,Me?
+Dialogue: 0,0:15:13.12,0:15:16.81,DCMain,HEIJI,0000,0000,0000,,I'm high school detective Hattori Heiji.
+Dialogue: 0,0:15:18.05,0:15:20.69,DCMain,MIHARA,0000,0000,0000,,I've heard of you.
+Dialogue: 0,0:15:21.04,0:15:27.00,DCMain,MIHARA,0000,0000,0000,,You're that brat claiming to be Kudo \NShinichi's rival high school detective of the west.
+Dialogue: 0,0:15:28.43,0:15:33.48,DCMain,KOUCHI,0000,0000,0000,,You sure you're not using your dad's \Nconnections to fabricate your achievements?
+Dialogue: 0,0:15:36.33,0:15:38.58,DCMain,OTAKI,0000,0000,0000,,Hey, guys.
+Dialogue: 0,0:15:39.60,0:15:41.16,DCMain,HEIJI,0000,0000,0000,,It's fine.
+Dialogue: 0,0:15:41.16,0:15:45.21,DCMain,HEIJI,0000,0000,0000,,I've got some questions for you \Nconcerning Yonekura-san's death.
+Dialogue: 0,0:15:45.49,0:15:47.78,DCMain,KOUCHI,0000,0000,0000,,Wasn't Yonekura's death an accident?
+Dialogue: 0,0:15:47.78,0:15:50.67,DCMain,KOUCHI,0000,0000,0000,,Why's a detective getting involved?
+Dialogue: 0,0:15:50.67,0:15:52.32,DCMain,MIHARA,0000,0000,0000,,Or what?
+Dialogue: 0,0:15:52.32,0:15:54.97,DCMain,MIHARA,0000,0000,0000,,Are you saying someone killed him?
+Dialogue: 0,0:15:55.48,0:15:58.47,DCMain,HEIJI,0000,0000,0000,,You were Yonekura-san's \Nsubordinates, weren't you?
+Dialogue: 0,0:15:58.47,0:16:00.24,DCMain,MIHARA,0000,0000,0000,,Yeah, that's right.
+Dialogue: 0,0:16:00.24,0:16:03.39,DCMain,MIHARA,0000,0000,0000,,He called us Team Yonekura.
+Dialogue: 0,0:16:03.39,0:16:08.11,DCMain,KOUCHI,0000,0000,0000,,But we came up with most of his recent plans.
+Dialogue: 0,0:16:08.53,0:16:11.56,DCMain,KOUCHI,0000,0000,0000,,They called him the hit maker,
+Dialogue: 0,0:16:11.56,0:16:14.61,DCMain,KOUCHI,0000,0000,0000,,but he was just a pretty face.
+Dialogue: 0,0:16:14.87,0:16:19.30,DCMain,HEIJI,0000,0000,0000,,And with Yonekura-san out of the way, \Nyou guys could take the top spot.
+Dialogue: 0,0:16:19.30,0:16:21.54,DCMain,HEIJI,0000,0000,0000,,That sounds like a motive to me.
+Dialogue: 0,0:16:21.54,0:16:23.00,DCMain,KOUCHI,0000,0000,0000,,Don't be ridiculous.
+Dialogue: 0,0:16:23.00,0:16:25.51,DCMain,MIHARA,0000,0000,0000,,Hold on, what about Kosugi?
+Dialogue: 0,0:16:25.51,0:16:27.50,DCMain,MIHARA,0000,0000,0000,,He was part of Team Yonekura, too.
+Dialogue: 0,0:16:27.72,0:16:29.81,DCMain,MIHARA,0000,0000,0000,,Why isn't he here?
+Dialogue: 0,0:16:29.81,0:16:34.26,DCMain,HEIJI,0000,0000,0000,,Shouldn't you be worrying \Nabout yourselves right now?
+Dialogue: 0,0:16:34.71,0:16:38.76,DCMain,HEIJI,0000,0000,0000,,Where were you and what were \Nyou doing around 2:30 PM today?
+Dialogue: 0,0:16:39.66,0:16:41.39,DCMain,MIHARA,0000,0000,0000,,You're checking our alibis?
+Dialogue: 0,0:16:41.94,0:16:47.86,DCMain,MIHARA,0000,0000,0000,,At that time, I was in the third floor \Nmeeting room planning the filming.
+Dialogue: 0,0:16:47.86,0:16:48.90,DCItalic,CONAN,0000,0000,0000,,Why?
+Dialogue: 0,0:16:48.90,0:16:52.41,DCMain,MIHARA,0000,0000,0000,,{\an8}I was alone the whole time, \Nso it's not an alibi.
+Dialogue: 0,0:16:49.59,0:16:52.41,DCItalic,CONAN,0000,0000,0000,,Why are these two so strangely confident?
+Dialogue: 0,0:16:52.92,0:16:54.40,DCMain,MIHARA,0000,0000,0000,,No, wait.
+Dialogue: 0,0:16:54.40,0:16:56.61,DCMain,MIHARA,0000,0000,0000,,Around 2:30,
+Dialogue: 0,0:16:56.61,0:17:04.12,DCMain,MIHARA,0000,0000,0000,,I had a girl get me some painkillers \Nfrom my car in the basement parking lot.
+Dialogue: 0,0:17:04.12,0:17:05.92,DCMain,HEIJI,0000,0000,0000,,Painkillers?
+Dialogue: 0,0:17:06.20,0:17:07.92,DCMain,MIHARA,0000,0000,0000,,Look at this.
+Dialogue: 0,0:17:08.42,0:17:11.42,DCMain,MIHARA,0000,0000,0000,,I tripped three days ago and twisted it.
+Dialogue: 0,0:17:11.81,0:17:17.30,DCMain,MIHARA,0000,0000,0000,,I had her come get my car keys around 2:20,
+Dialogue: 0,0:17:17.30,0:17:21.43,DCMain,MIHARA,0000,0000,0000,,and she brought me the medicine at 2:30.
+Dialogue: 0,0:17:21.78,0:17:26.10,DCMain,CONAN,0000,0000,0000,,It took her a long time \Njust to get some medicine.
+Dialogue: 0,0:17:26.10,0:17:26.81,DCMain,MIHARA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:27.32,0:17:32.55,DCMain,MIHARA,0000,0000,0000,,The elevator never arrived \Nbecause of today's event.
+Dialogue: 0,0:17:32.55,0:17:36.82,DCMain,MIHARA,0000,0000,0000,,Not only that, but she said the stairs from \Nthe first floor to the basement were packed,
+Dialogue: 0,0:17:36.82,0:17:39.32,DCMain,MIHARA,0000,0000,0000,,so it took her a while.
+Dialogue: 0,0:17:39.57,0:17:42.10,DCItalic,CONAN,0000,0000,0000,,That's about a ten minute gap in his alibi.
+Dialogue: 0,0:17:42.62,0:17:46.96,DCItalic,CONAN,0000,0000,0000,,If he couldn't use the elevator, \Nhe must've used the stairs.
+Dialogue: 0,0:17:47.28,0:17:49.59,DCItalic,HEIJI,0000,0000,0000,,His foot is injured.
+Dialogue: 0,0:17:49.59,0:17:53.46,DCItalic,HEIJI,0000,0000,0000,,It would've been tough for him to travel back \Nand forth between the third and sixth floors
+Dialogue: 0,0:17:53.46,0:17:54.96,DCItalic,HEIJI,0000,0000,0000,,and commit a murder in ten minutes.
+Dialogue: 0,0:17:55.73,0:17:57.97,DCMain,OTAKI,0000,0000,0000,,So, Kouchi-san, what about you?
+Dialogue: 0,0:17:58.27,0:18:03.97,DCMain,KOUCHI,0000,0000,0000,,I was checking bathrooms and other deserted \Nareas for suspicious objects alone.
+Dialogue: 0,0:18:04.65,0:18:07.98,DCMain,KOUCHI,0000,0000,0000,,I didn't meet any acquaintances, \Nso I have no alibi.
+Dialogue: 0,0:18:08.98,0:18:11.86,DCMain,KOUCHI,0000,0000,0000,,But I couldn't have killed Yonekura.
+Dialogue: 0,0:18:12.78,0:18:13.73,DCMain,HEIJI,0000,0000,0000,,Why not?
+Dialogue: 0,0:18:14.42,0:18:16.74,DCMain,KOUCHI,0000,0000,0000,,I'm afraid of heights.
+Dialogue: 0,0:18:16.74,0:18:17.84,DCMain,HEIJI,0000,0000,0000,,What?
+Dialogue: 0,0:18:17.84,0:18:20.30,DCMain,KOUCHI,0000,0000,0000,,I've got a severe case of acrophobia.
+Dialogue: 0,0:18:20.30,0:18:24.85,DCMain,KOUCHI,0000,0000,0000,,High places are naturally out of the \Nquestion, and I can't climb ladders.
+Dialogue: 0,0:18:24.85,0:18:29.75,DCMain,KOUCHI,0000,0000,0000,,I heard Yonekura was crushed beneath a kaiju.
+Dialogue: 0,0:18:30.29,0:18:36.26,DCMain,KOUCHI,0000,0000,0000,,Which means the culprit climbed the scaffolding \Nand cut the rope holding the kaiju, right?
+Dialogue: 0,0:18:36.59,0:18:39.51,DCMain,KOUCHI,0000,0000,0000,,I couldn't climb a scaffold.
+Dialogue: 0,0:18:39.82,0:18:41.18,DCMain,MIHARA,0000,0000,0000,,You sure that's true?
+Dialogue: 0,0:18:41.18,0:18:43.26,DCMain,MIHARA,0000,0000,0000,,A person can claim anything if it's just talk.
+Dialogue: 0,0:18:43.46,0:18:45.43,DCMain,KOUCHI,0000,0000,0000,,Are you stupid? You know it's true.
+Dialogue: 0,0:18:45.43,0:18:46.79,DCMain,MIHARA,0000,0000,0000,,Is that right?
+Dialogue: 0,0:18:57.74,0:19:00.78,DCMain,HEIJI,0000,0000,0000,,We should use something to prop this open.
+Dialogue: 0,0:19:00.78,0:19:01.74,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:01.74,0:19:04.82,DCMain,CONAN,0000,0000,0000,,Inspector Otaki might come get us.
+Dialogue: 0,0:19:07.05,0:19:09.84,DCMain,CONAN,0000,0000,0000,,Those two are suspicious.
+Dialogue: 0,0:19:09.84,0:19:14.57,DCMain,HEIJI,0000,0000,0000,,Yeah, but only Kosugi had \Nthe motive and opportunity.
+Dialogue: 0,0:19:16.59,0:19:18.63,DCMain,OTAKI,0000,0000,0000,,Hei-chan, where are you?
+Dialogue: 0,0:19:18.63,0:19:20.80,DCMain,HEIJI,0000,0000,0000,,Otaki-han, over here.
+Dialogue: 0,0:19:21.27,0:19:24.16,DCMain,OTAKI,0000,0000,0000,,We finished analyzing Yonekura-san's phone.
+Dialogue: 0,0:19:24.16,0:19:25.31,DCMain,HEIJI,0000,0000,0000,,Really?
+Dialogue: 0,0:19:25.31,0:19:29.90,DCMain,OTAKI,0000,0000,0000,,Yeah. It seems Yonekura-san \Ntook a picture of the culprit.
+Dialogue: 0,0:19:29.90,0:19:33.31,DCMain,HEIJI,0000,0000,0000,,That's amazing. That solves the case.
+Dialogue: 0,0:19:33.51,0:19:37.82,DCMain,OTAKI,0000,0000,0000,,Actually... Well, you'll see.
+Dialogue: 0,0:19:39.40,0:19:43.86,DCMain,OTAKI,0000,0000,0000,,It's impossible to identify \Nthem from this blurry photo.
+Dialogue: 0,0:19:43.86,0:19:46.61,DCMain,HEIJI,0000,0000,0000,,Otaki-han, where are Mihara and Kouchi?
+Dialogue: 0,0:19:46.61,0:19:49.08,DCMain,OTAKI,0000,0000,0000,,What? They headed down to the first floor.
+Dialogue: 0,0:19:49.27,0:19:50.87,DCMain,CONAN,0000,0000,0000,,Don't let them out of the building!
+Dialogue: 0,0:19:51.13,0:19:52.06,DCMain,OTAKI,0000,0000,0000,,What?
+Dialogue: 0,0:19:55.56,0:19:57.92,DCMain,OTAKI,0000,0000,0000,,Don't let them out? What do you mean?
+Dialogue: 0,0:19:57.92,0:19:59.86,DCMain,CONAN,0000,0000,0000,,Look closely at that photo.
+Dialogue: 0,0:20:00.85,0:20:05.98,DCMain,CONAN,0000,0000,0000,,That warehouse was dark because of \Nelectrical issues, but there's a little bit of light.
+Dialogue: 0,0:20:05.98,0:20:07.39,DCMain,OTAKI,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:20:07.61,0:20:10.24,DCMain,HEIJI,0000,0000,0000,,Where do you think that light came from?
+Dialogue: 0,0:20:10.24,0:20:11.39,DCMain,OTAKI,0000,0000,0000,,Where?
+Dialogue: 0,0:20:11.69,0:20:15.77,DCMain,CONAN,0000,0000,0000,,The door. The door was open, and \Nthe hallway light entered the room.
+Dialogue: 0,0:20:15.77,0:20:18.73,DCMain,OTAKI,0000,0000,0000,,Yeah, but that door closes on its own.
+Dialogue: 0,0:20:19.43,0:20:23.74,DCMain,HEIJI,0000,0000,0000,,That's right. Someone was \Nholding the door open.
+Dialogue: 0,0:20:24.11,0:20:26.52,DCMain,CONAN,0000,0000,0000,,In other words, there were two culprits.
+Dialogue: 0,0:20:26.52,0:20:29.37,DCMain,CONAN,0000,0000,0000,,Kouchi-san and Mihara-san \Nwere working together.
+Dialogue: 0,0:20:29.70,0:20:33.87,DCMain,CONAN,0000,0000,0000,,Kouchi-san helped Mihara-san and \Nhis injured foot on the stairs,
+Dialogue: 0,0:20:34.08,0:20:39.36,DCMain,CONAN,0000,0000,0000,,and Kouchi-san helped Mihara-san \Nclimb the scaffolding from below.
+Dialogue: 0,0:20:42.17,0:20:43.72,DCItalic,OTAKI,0000,0000,0000,,This is Otaki!
+Dialogue: 0,0:20:43.72,0:20:47.60,DCItalic,OTAKI,0000,0000,0000,,If you see Kouchi and Mihara, secure them!
+Dialogue: 0,0:20:51.96,0:20:53.23,DCMain,GUARD,0000,0000,0000,,Hey, you two!
+Dialogue: 0,0:20:55.10,0:20:56.60,DCMain,GUARD,0000,0000,0000,,Don't move!
+Dialogue: 0,0:20:55.34,0:20:57.80,DCMain,GUARD,0000,0000,0000,,{\an8}Kouchi and Mihara spotted \Nin the basement parking lot!
+Dialogue: 0,0:20:56.80,0:20:57.44,DCMain,MIHARA,0000,0000,0000,,Hurry up.
+Dialogue: 0,0:20:57.44,0:20:59.24,DCMain,KOUCHI,0000,0000,0000,,The spare key should be around here.
+Dialogue: 0,0:20:57.80,0:20:59.26,DCMain,GUARD,0000,0000,0000,,{\an8}Requesting backup!
+Dialogue: 0,0:20:59.24,0:20:59.94,DCMain,KOUCHI,0000,0000,0000,,Found it.
+Dialogue: 0,0:21:00.18,0:21:02.00,DCMain,MIHARA,0000,0000,0000,,Drive the car.
+Dialogue: 0,0:21:02.00,0:21:02.65,DCMain,KOUCHI,0000,0000,0000,,Got it.
+Dialogue: 0,0:21:02.94,0:21:03.95,DCMain,GUARD,0000,0000,0000,,Stop!
+Dialogue: 0,0:21:04.15,0:21:04.86,DCMain,MIHARA,0000,0000,0000,,Let go!
+Dialogue: 0,0:21:06.94,0:21:08.03,DCMain,GUARD,0000,0000,0000,,Open the door!
+Dialogue: 0,0:21:11.26,0:21:12.46,DCMain,GUARD,0000,0000,0000,,Mihara has been secured!
+Dialogue: 0,0:21:12.46,0:21:14.37,DCMain,GUARD,0000,0000,0000,,Kouchi is fleeing in Yonekura's car!
+Dialogue: 0,0:21:14.37,0:21:16.21,DCMain,GUARD,0000,0000,0000,,It's a large black SUV!
+Dialogue: 0,0:21:20.63,0:21:21.39,DCMain,HEIJI,0000,0000,0000,,Damn!
+Dialogue: 0,0:21:25.30,0:21:26.43,DCMain,CONAN,0000,0000,0000,,Ran!
+Dialogue: 0,0:21:25.30,0:21:26.43,DCMain,HEIJI,0000,0000,0000,,Kazuha!
+Dialogue: 0,0:21:29.68,0:21:30.72,DCMain,RAN,0000,0000,0000,,Kazuha-chan!
+Dialogue: 0,0:22:59.77,0:23:00.81,DCMain,RAN,0000,0000,0000,,Kazuha-chan!
+Dialogue: 0,0:23:08.51,0:23:09.40,DCMain,KAZUHA,0000,0000,0000,,Ran-chan!
+Dialogue: 0,0:23:09.40,0:23:10.78,DCMain,CONAN,0000,0000,0000,,Ran-neechan!
+Dialogue: 0,0:23:09.72,0:23:11.12,DCMain,HEIJI,0000,0000,0000,,{\an8}Are you okay, Kazuha?!
+Dialogue: 0,0:23:11.12,0:23:12.21,DCMain,RAN,0000,0000,0000,,Ouch...
+Dialogue: 0,0:23:12.21,0:23:13.99,DCMain,RAN,0000,0000,0000,,Thank you.
+Dialogue: 0,0:23:17.12,0:23:18.59,DCMain,CONAN,0000,0000,0000,,Inspector Ayanokoji!
+Dialogue: 0,0:23:18.58,0:23:22.00,Fumimaro,TEXT,0000,0000,0000,,{\fad(250,460)}Ayanokoji Fumimaro \NKyoto Police \NDivision 1 Inspector
+Dialogue: 0,0:23:18.79,0:23:20.14,DCMain,AYANOKOJI,0000,0000,0000,,{\an8}My, my.
+Dialogue: 0,0:23:20.14,0:23:22.92,DCMain,AYANOKOJI,0000,0000,0000,,{\an8}We meet again, Conan-kun.
+Dialogue: 0,0:23:25.69,0:23:27.58,DCMain,KOUCHI,0000,0000,0000,,I won't be arrested.
+Dialogue: 0,0:23:45.06,0:24:09.09,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.36,0:23:51.45,DCMain,HIRAKURA,0000,0000,0000,,Isn't it about time you explained what \Nyou're doing at the same crime scene?
+Dialogue: 0,0:23:52.12,0:23:57.23,DCMain,OTAKI,0000,0000,0000,,The Osaka and Kyoto Police will have to \Nform a joint investigation headquarters.
+Dialogue: 0,0:23:59.49,0:24:00.71,DCMain,GENTA,0000,0000,0000,,It's a kaiju!
+Dialogue: 0,0:24:00.93,0:24:02.46,DCMain,AYUMI,0000,0000,0000,,Help!
+Dialogue: 0,0:24:02.46,0:24:04.33,DCMain,MITSUHIKO,0000,0000,0000,,Ayumi-chan! This way!
+Dialogue: 0,0:24:05.25,0:24:09.09,DCMain,KAZUHA,0000,0000,0000,,Of course! It's Kamen Yaiba!
+Dialogue: 0,0:24:09.09,0:24:15.09,DCNextEp,TEXT,0000,0000,0000,,Kaiju Gomera VS Kamen Yaiba \N(Interlude)
+Dialogue: 0,0:24:09.64,0:24:14.79,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Kaiju \NGomera VS Kamen Yaiba, Interlude!"
+Dialogue: 0,0:24:30.11,0:24:35.03,Hint,TEXT,0000,0000,0000,,Bomb
+Dialogue: 0,0:24:30.50,0:24:33.27,DCMain,ALL,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.27,0:24:34.60,DCMain,CONAN,0000,0000,0000,,A bomb!
+Dialogue: 0,0:24:35.03,0:24:36.93,DCMain,HAIBARA,0000,0000,0000,,{\an8}Already a case first thing in the new year.
+Dialogue: 0,0:24:35.03,0:24:40.04,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.93,0:24:39.75,DCMain,ALL,0000,0000,0000,,{\an8}Thank you for another year!
+Dialogue: 0,0:24:39.75,0:24:41.75,DCMain,,0000,0000,0000,,

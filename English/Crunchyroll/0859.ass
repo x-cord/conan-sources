@@ -1,0 +1,503 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0060,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Kumomaru,Times New Roman,22,&H001C1D25,&H000000FF,&H005DA8BC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: Takemi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AA635F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0115,0068,0
+Style: Eiko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CB8991,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0105,0010,0068,0
+Style: Taro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00984F58,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0025,0068,0
+Style: Tokunori,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00792A5E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0050,0010,0068,0
+Style: Helium,Trebuchet MS,16,&H00AEB8C4,&H000000FF,&H00737F8B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,0110,0015,0115,0
+Style: Entrance,Trebuchet MS,22,&H001C1D25,&H000000FF,&H0080A7D0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0015,0015,0060,0
+Style: Cottage,Trebuchet MS,14,&H00313433,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0015,0240,0160,0
+Style: Campsite,Trebuchet MS,14,&H00313433,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0015,0300,0025,0
+Style: North,Trebuchet MS,14,&H00717570,&H000000FF,&H00FFFFFD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0010,0050,0120,0
+Style: Cottage2,Trebuchet MS,14,&H00717570,&H000000FF,&H00FFFFFD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0010,0163,0013,0
+Style: Campsite2,Trebuchet MS,14,&H00717570,&H000000FF,&H00FFFFFD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0160,0010,0127,0
+Style: Wind,Trebuchet MS,14,&H00717570,&H000000FF,&H00FFFFFD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0070,0060,0
+Style: South,Trebuchet MS,14,&H00717570,&H000000FF,&H00FFFFFD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0047,0010,0050,0
+Style: Approx,Times New Roman,16,&H00717570,&H000000FF,&H00E7EAE7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0120,0010,0100,0
+Style: Helium2,Trebuchet MS,18,&H00C6BDB5,&H000000FF,&H008A7F76,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0015,0150,0
+Style: Survey,Trebuchet MS,18,&H002B3238,&H000000FF,&H00E0F2F3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0015,0340,0065,0
+Style: Kumomaru2,Times New Roman,22,&H001C1D25,&H000000FF,&H005DA8BC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.74,0:00:02.67,DCMain,ALL,0000,0000,0000,,Camping, camping!
+Dialogue: 0,0:00:02.67,0:00:04.78,DCMain,ALL,0000,0000,0000,,We're going camping!
+Dialogue: 0,0:00:04.78,0:00:06.69,DCMain,GENTA,0000,0000,0000,,Wow!
+Dialogue: 0,0:00:07.72,0:00:10.19,DCMain,GENTA,0000,0000,0000,,She's climbing up that cliff.
+Dialogue: 0,0:00:14.92,0:00:16.49,DCMain,CONAN,0000,0000,0000,,There's a river on this side.
+Dialogue: 0,0:00:16.94,0:00:18.46,DCMain,CONAN,0000,0000,0000,,Someone's kayaking down it.
+Dialogue: 0,0:00:23.18,0:00:24.08,DCMain,AYUMI,0000,0000,0000,,They're so pretty.
+Dialogue: 0,0:00:24.08,0:00:25.12,DCMain,HAIBARA,0000,0000,0000,,Wait.
+Dialogue: 0,0:00:25.12,0:00:27.28,DCMain,HAIBARA,0000,0000,0000,,It's a rare mountain plant.
+Dialogue: 0,0:00:27.28,0:00:28.53,DCMain,HAIBARA,0000,0000,0000,,Don't pick it.
+Dialogue: 0,0:00:28.53,0:00:29.38,DCMain,AYUMI,0000,0000,0000,,Okay!
+Dialogue: 0,0:00:29.38,0:00:31.64,DCMain,MITSUHIKO,0000,0000,0000,,Let's hurry up and go.
+Dialogue: 0,0:00:31.64,0:00:36.49,DCMain,AGASA,0000,0000,0000,,Aren't you going to take a panoramic shot \Nof the city for your science project?
+Dialogue: 0,0:00:36.49,0:00:37.70,DCMain,AGASA,0000,0000,0000,,Now let's go.
+Dialogue: 0,0:00:37.70,0:00:38.55,DCMain,ALL,0000,0000,0000,,Okay.
+Dialogue: 0,0:00:38.57,0:00:40.78,Kumomaru,SIGN,0000,0000,0000,,Mount Kumomaru \NCottage Entrance
+Dialogue: 0,0:00:39.12,0:00:40.81,DCMain,MAN,0000,0000,0000,,That's enough!
+Dialogue: 0,0:00:41.37,0:00:44.42,DCMain,GENTA,0000,0000,0000,,Huh? It's those guys from earlier.
+Dialogue: 0,0:00:42.06,0:00:44.94,DCMain,MAN,0000,0000,0000,,{\an8}Why do you always act like this?
+Dialogue: 0,0:00:44.94,0:00:47.61,DCMain,MAN,0000,0000,0000,,You show up late and demand we cook for you!
+Dialogue: 0,0:00:47.79,0:00:50.28,DCMain,TAKEMI,0000,0000,0000,,{\an8}Oh, shut up. Who cares?
+Dialogue: 0,0:00:48.11,0:00:53.11,Takemi,TEXT,0000,0000,0000,,{\fad(250,250)}Yamakura Takemi (26) \NMountain Climber
+Dialogue: 0,0:00:50.28,0:00:53.11,DCMain,TAKEMI,0000,0000,0000,,{\an8}Eiko-san said she'd cook for me.
+Dialogue: 0,0:00:53.36,0:00:55.86,Eiko,TEXT,0000,0000,0000,,{\fad(250,1)}Ikeguchi Eiko (23) \NMountain Climber
+Dialogue: 0,0:00:53.45,0:00:55.86,DCMain,EIKO,0000,0000,0000,,{\an8}Yeah, I said I would.
+Dialogue: 0,0:00:56.13,0:00:57.53,DCMain,MAN,0000,0000,0000,,That's irrelevant.
+Dialogue: 0,0:00:57.53,0:00:59.91,DCMain,MAN,0000,0000,0000,,Takemi, you always do this.
+Dialogue: 0,0:01:00.16,0:01:03.41,Taro,TEXT,0000,0000,0000,,{\fad(250,1)}Hayashida Taro (28) \NMountain Climber
+Dialogue: 0,0:01:00.26,0:01:03.41,DCMain,HAYASHIDA,0000,0000,0000,,{\an8}Calm down, Ashizuka-san.
+Dialogue: 0,0:01:03.66,0:01:07.96,Tokunori,TEXT,0000,0000,0000,,{\fad(250,250)}Ashizuka Tokunori (33) \NMountain Climber
+Dialogue: 0,0:01:03.77,0:01:05.64,DCMain,ASHIZUKA,0000,0000,0000,,{\an8}No, I'm going to let her have it.
+Dialogue: 0,0:01:05.64,0:01:09.67,DCMain,ASHIZUKA,0000,0000,0000,,{\an8}She's always inconveniencing \Nthe group with her selfishness.
+Dialogue: 0,0:01:09.90,0:01:10.77,DCMain,TAKEMI,0000,0000,0000,,You're right.
+Dialogue: 0,0:01:11.27,0:01:13.34,DCMain,TAKEMI,0000,0000,0000,,That's why Motoki-san is dead, too.
+Dialogue: 0,0:01:16.72,0:01:17.59,DCMain,HAYASHIDA,0000,0000,0000,,You're wrong.
+Dialogue: 0,0:01:18.02,0:01:19.43,DCMain,HAYASHIDA,0000,0000,0000,,It was an accident.
+Dialogue: 0,0:01:21.10,0:01:22.26,DCMain,TAKEMI,0000,0000,0000,,I'm not so sure.
+Dialogue: 0,0:01:22.26,0:01:25.77,DCMain,TAKEMI,0000,0000,0000,,You think what happened three \Nyears ago is my fault, don't you?!
+Dialogue: 0,0:01:26.17,0:01:28.40,DCItalic,CONAN,0000,0000,0000,,An accident? Three years ago?
+Dialogue: 0,0:01:28.87,0:01:30.40,DCMain,EIKO,0000,0000,0000,,Wait, Takemi-san.
+Dialogue: 0,0:01:31.06,0:01:32.40,DCMain,EIKO,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:01:32.40,0:01:34.82,DCMain,EIKO,0000,0000,0000,,I shouldn't have said anything.
+Dialogue: 0,0:01:53.43,0:01:55.42,DCMain,CONAN,0000,0000,0000,,Even heaven is watching the \Nlabyrinths of the world!
+Dialogue: 0,0:01:55.42,0:01:57.51,DCMain,CONAN,0000,0000,0000,,Full throttle reasoning skills \Npenetrate all mysteries!
+Dialogue: 0,0:01:57.51,0:02:02.26,DCMain,CONAN,0000,0000,0000,,It was supposed to be a feel-good hiking \Ntrip but misfortune strikes an arguing group.
+Dialogue: 0,0:02:02.26,0:02:03.92,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:03.92,0:02:06.18,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:06.18,0:02:08.46,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:36.98,0:03:43.00,DCEpTitle,CONAN,0000,0000,0000,,{\fad(403,1)}The Dark Mountain Route
+Dialogue: 0,0:03:37.74,0:03:40.28,DCMain,CONAN,0000,0000,0000,,"The Dark Mountain Route!"
+Dialogue: 0,0:03:48.07,0:03:51.91,DCMain,HAIBARA,0000,0000,0000,,Apparently she's sleeping at the \Nbottom of this cliff tonight.
+Dialogue: 0,0:03:52.12,0:03:54.71,DCMain,GENTA,0000,0000,0000,,It seemed like they really hated each other.
+Dialogue: 0,0:03:56.21,0:03:58.64,DCMain,AGASA,0000,0000,0000,,I'm sure they have their reasons.
+Dialogue: 0,0:03:58.64,0:04:00.37,DCMain,HAYASHIDA,0000,0000,0000,,Sorry, guys.
+Dialogue: 0,0:04:01.91,0:04:03.80,DCMain,HAYASHIDA,0000,0000,0000,,I'm sorry you had to see that.
+Dialogue: 0,0:04:04.17,0:04:07.05,DCMain,CONAN,0000,0000,0000,,Hey, what's the accident that \Nhappened three years ago?
+Dialogue: 0,0:04:08.35,0:04:10.62,DCMain,HAYASHIDA,0000,0000,0000,,What? Oh, well...
+Dialogue: 0,0:04:11.83,0:04:15.32,DCMain,EIKO,0000,0000,0000,,We were part of the same club.
+Dialogue: 0,0:04:15.32,0:04:20.77,DCMain,EIKO,0000,0000,0000,,Three years ago, one of our \Nmembers had an accident.
+Dialogue: 0,0:04:20.77,0:04:24.24,DCMain,ASHIZUKA,0000,0000,0000,,Takemi ran off by herself.
+Dialogue: 0,0:04:24.80,0:04:28.88,DCMain,ASHIZUKA,0000,0000,0000,,When Motoki went after her, he \Nfell from the top of the cliff.
+Dialogue: 0,0:04:29.84,0:04:32.09,DCMain,ASHIZUKA,0000,0000,0000,,Motoki was my childhood friend.
+Dialogue: 0,0:04:32.45,0:04:35.16,DCMain,ASHIZUKA,0000,0000,0000,,We'd climbed several mountains together.
+Dialogue: 0,0:04:35.16,0:04:36.97,DCMain,ASHIZUKA,0000,0000,0000,,We were going to keep climbing, too.
+Dialogue: 0,0:04:38.00,0:04:40.14,DCMain,ASHIZUKA,0000,0000,0000,,But because of Takemi—
+Dialogue: 0,0:04:40.88,0:04:41.72,DCMain,ASHIZUKA,0000,0000,0000,,Damn it.
+Dialogue: 0,0:04:43.64,0:04:47.28,DCMain,HAYASHIDA,0000,0000,0000,,So we get together every year \Nto commemorate his death.
+Dialogue: 0,0:04:50.46,0:04:51.34,DCMain,GENTA,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:51.72,0:04:52.93,DCMain,GENTA,0000,0000,0000,,What's that sound?
+Dialogue: 0,0:04:53.64,0:04:54.90,DCMain,MITSUHIKO,0000,0000,0000,,Could it be?
+Dialogue: 0,0:04:55.19,0:05:03.24,Helium,TEXT,0000,0000,0000,,Helium
+Dialogue: 0,0:04:55.71,0:04:57.96,DCMain,MITSUHIKO,0000,0000,0000,,That's a research balloon, right?
+Dialogue: 0,0:04:57.96,0:04:58.98,DCMain,HAYASHIDA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:58.98,0:05:03.24,DCMain,HAYASHIDA,0000,0000,0000,,I'm sending it up to the stratosphere \Nto collect meteorological data.
+Dialogue: 0,0:05:03.77,0:05:06.89,DCMain,CONAN,0000,0000,0000,,Hayashida-san, you're a \Nweather station employee.
+Dialogue: 0,0:05:06.89,0:05:08.24,DCMain,HAYASHIDA,0000,0000,0000,,That's right.
+Dialogue: 0,0:05:08.24,0:05:11.62,DCMain,HAYASHIDA,0000,0000,0000,,For the next ten days, I'm going to \Nbe sending up my balloon every day.
+Dialogue: 0,0:05:12.22,0:05:14.00,DCMain,HAYASHIDA,0000,0000,0000,,I brought enough for the job.
+Dialogue: 0,0:05:15.16,0:05:17.25,DCMain,AYUMI,0000,0000,0000,,Something smells weird.
+Dialogue: 0,0:05:17.48,0:05:18.42,DCMain,HAYASHIDA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:18.42,0:05:21.50,DCMain,HAYASHIDA,0000,0000,0000,,Each time we increase the power, \Nit's coated with kerosene.
+Dialogue: 0,0:05:21.85,0:05:22.76,DCMain,HAYASHIDA,0000,0000,0000,,Done.
+Dialogue: 0,0:05:22.96,0:05:24.76,DCMain,GENTA,0000,0000,0000,,Wow!
+Dialogue: 0,0:05:24.76,0:05:30.65,DCMain,GENTA,0000,0000,0000,,Couldn't you use one of \Nthose to fly to the peak?
+Dialogue: 0,0:05:30.65,0:05:32.38,DCMain,MITSUHIKO,0000,0000,0000,,That's impossible.
+Dialogue: 0,0:05:32.77,0:05:37.27,DCMain,MITSUHIKO,0000,0000,0000,,A single balloon can only carry \Nfive or six kilograms at most.
+Dialogue: 0,0:05:37.50,0:05:38.43,DCMain,HAYASHIDA,0000,0000,0000,,There!
+Dialogue: 0,0:05:51.55,0:05:53.81,DCMain,CONAN,0000,0000,0000,,He moves so much in his sleep.
+Dialogue: 0,0:06:00.84,0:06:02.19,DCMain,EIKO,0000,0000,0000,,She's still not here.
+Dialogue: 0,0:06:02.19,0:06:03.65,DCMain,EIKO,0000,0000,0000,,I'm going to call her.
+Dialogue: 0,0:06:03.65,0:06:05.68,DCMain,ASHIZUKA,0000,0000,0000,,Forget her.
+Dialogue: 0,0:06:05.68,0:06:06.62,DCMain,EIKO,0000,0000,0000,,But...
+Dialogue: 0,0:06:07.97,0:06:08.63,DCMain,HAYASHIDA,0000,0000,0000,,Sorry.
+Dialogue: 0,0:06:08.63,0:06:09.84,DCMain,HAYASHIDA,0000,0000,0000,,Did we wake you?
+Dialogue: 0,0:06:09.84,0:06:11.11,DCMain,CONAN,0000,0000,0000,,No.
+Dialogue: 0,0:06:11.11,0:06:14.53,DCMain,CONAN,0000,0000,0000,,This must be when Motoki-san died.
+Dialogue: 0,0:06:15.06,0:06:17.43,DCMain,EIKO,0000,0000,0000,,Hello, Takemi-san?
+Dialogue: 0,0:06:18.07,0:06:19.56,DCItalic,TAKEMI,0000,0000,0000,,Don't wake me.
+Dialogue: 0,0:06:19.56,0:06:20.80,DCItalic,TAKEMI,0000,0000,0000,,I was sleeping.
+Dialogue: 0,0:06:22.02,0:06:23.34,DCItalic,TAKEMI,0000,0000,0000,,I know.
+Dialogue: 0,0:06:23.34,0:06:25.57,DCItalic,TAKEMI,0000,0000,0000,,I'll offer a silent prayer, too.
+Dialogue: 0,0:06:32.56,0:06:34.33,DCMain,CONAN,0000,0000,0000,,Huh? Where's Hayashida-san?
+Dialogue: 0,0:06:34.68,0:06:38.03,DCMain,ASHIZUKA,0000,0000,0000,,He said he was going to a nearby \Nmountain to collect data.
+Dialogue: 0,0:06:38.77,0:06:40.33,DCMain,CONAN,0000,0000,0000,,Ayumi-chan, what's wrong?
+Dialogue: 0,0:06:41.28,0:06:43.59,DCMain,AYUMI,0000,0000,0000,,I had a nightmare.
+Dialogue: 0,0:06:43.84,0:06:44.60,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:06:46.82,0:06:49.63,DCMain,EIKO,0000,0000,0000,,Really? Just look at you.
+Dialogue: 0,0:06:50.96,0:06:53.35,DCMain,EIKO,0000,0000,0000,,I'll cast a sleeping spell on you.
+Dialogue: 0,0:07:00.80,0:07:04.40,DCMain,MITSUHIKO,0000,0000,0000,,We're leaving as soon as we finish breakfast.
+Dialogue: 0,0:07:04.40,0:07:06.39,DCMain,MITSUHIKO,0000,0000,0000,,To the peak!
+Dialogue: 0,0:07:10.52,0:07:11.72,DCMain,CONAN,0000,0000,0000,,What's wrong, Genta?
+Dialogue: 0,0:07:11.72,0:07:13.72,DCMain,GENTA,0000,0000,0000,,Th-That.
+Dialogue: 0,0:07:17.71,0:07:19.23,DCMain,CONAN,0000,0000,0000,,Takemi-san's on the ground!
+Dialogue: 0,0:07:20.79,0:07:21.50,DCMain,AYUMI,0000,0000,0000,,Conan-kun!
+Dialogue: 0,0:07:22.42,0:07:23.75,DCItalic,CONAN,0000,0000,0000,,5:05.
+Dialogue: 0,0:07:23.76,0:07:26.39,Entrance,SIGN,0000,0000,0000,,Campsite Entrance
+Dialogue: 0,0:07:27.33,0:07:28.13,DCMain,ASHIZUKA,0000,0000,0000,,Over there!
+Dialogue: 0,0:07:29.24,0:07:30.63,DCItalic,CONAN,0000,0000,0000,,5:45.
+Dialogue: 0,0:07:30.95,0:07:31.83,DCMain,ASHIZUKA,0000,0000,0000,,Takemi!
+Dialogue: 0,0:07:34.99,0:07:36.23,DCMain,CONAN,0000,0000,0000,,She's dead.
+Dialogue: 0,0:07:37.16,0:07:38.93,DCMain,ASHIZUKA,0000,0000,0000,,It can't be...
+Dialogue: 0,0:07:38.93,0:07:41.02,DCMain,CONAN,0000,0000,0000,,Hey, look at this.
+Dialogue: 0,0:07:45.57,0:07:48.36,DCMain,ASHIZUKA,0000,0000,0000,,That's her hiking compass.
+Dialogue: 0,0:07:48.36,0:07:49.57,DCMain,HAYASHIDA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:57.00,0:07:58.31,DCMain,EIKO,0000,0000,0000,,Takemi-san!
+Dialogue: 0,0:07:58.31,0:08:00.38,DCMain,EIKO,0000,0000,0000,,How did this happen?
+Dialogue: 0,0:08:08.65,0:08:11.26,DCMain,MITSUHIKO,0000,0000,0000,,Is that a drone?
+Dialogue: 0,0:08:11.43,0:08:12.22,DCMain,TAKAGI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:12.22,0:08:15.51,DCMain,TAKAGI,0000,0000,0000,,We're using it to search the mountains.
+Dialogue: 0,0:08:15.51,0:08:17.52,DCMain,GENTA,0000,0000,0000,,Way to go, MPD.
+Dialogue: 0,0:08:18.30,0:08:19.68,DCMain,MEGURE,0000,0000,0000,,Are the three of you
+Dialogue: 0,0:08:19.68,0:08:23.80,DCMain,MEGURE,0000,0000,0000,,the late Yamakura \NTakemi-san's acquaintances?
+Dialogue: 0,0:08:23.80,0:08:24.62,DCMain,ALL,0000,0000,0000,,Yes.
+Dialogue: 0,0:08:24.62,0:08:26.04,DCMain,MEGURE,0000,0000,0000,,We found a backpack
+Dialogue: 0,0:08:26.04,0:08:30.59,DCMain,MEGURE,0000,0000,0000,,in the forest three kilometers \Nfrom the crime scene.
+Dialogue: 0,0:08:30.59,0:08:34.15,DCMain,MEGURE,0000,0000,0000,,We'd like you to confirm if \Nit belonged to Yamakura-san.
+Dialogue: 0,0:08:34.56,0:08:36.07,DCMain,HAYASHIDA,0000,0000,0000,,A backpack in the woods?
+Dialogue: 0,0:08:37.48,0:08:40.29,DCMain,EIKO,0000,0000,0000,,That's definitely it. It's Takemi-san's.
+Dialogue: 0,0:08:40.46,0:08:41.98,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:08:41.98,0:08:46.29,DCMain,MEGURE,0000,0000,0000,,Inside were the knife we believe is the \Nmurder weapon and an empty wallet.
+Dialogue: 0,0:08:46.54,0:08:49.04,DCMain,ASHIZUKA,0000,0000,0000,,The killer must've abandoned it.
+Dialogue: 0,0:08:49.04,0:08:53.92,DCMain,HAYASHIDA,0000,0000,0000,,Then the killer fled down the mountain \Nafter killing Takemi-san at the bottom.
+Dialogue: 0,0:08:54.15,0:08:56.51,DCMain,MEGURE,0000,0000,0000,,Well, actually...
+Dialogue: 0,0:08:56.51,0:08:58.38,DCMain,TAKAGI,0000,0000,0000,,According to the mountain guard,
+Dialogue: 0,0:08:58.38,0:09:01.09,DCMain,TAKAGI,0000,0000,0000,,he's been in the cottage at the entrance
+Dialogue: 0,0:09:01.09,0:09:02.97,DCMain,TAKAGI,0000,0000,0000,,to the foot of the \Nmountain since about 4 AM,
+Dialogue: 0,0:09:02.97,0:09:06.19,DCMain,TAKAGI,0000,0000,0000,,but no one suspicious left the mountain.
+Dialogue: 0,0:09:07.11,0:09:09.30,DCMain,ASHIZUKA,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:09:09.30,0:09:12.54,DCMain,MEGURE,0000,0000,0000,,Someone may have left the bag in the forest
+Dialogue: 0,0:09:12.54,0:09:15.31,DCMain,MEGURE,0000,0000,0000,,to make it look as though \Nan outsider killed her.
+Dialogue: 0,0:09:15.81,0:09:19.84,DCMain,HAYASHIDA,0000,0000,0000,,Which means one of us did it.
+Dialogue: 0,0:09:20.33,0:09:21.85,DCMain,ASHIZUKA,0000,0000,0000,,Wait.
+Dialogue: 0,0:09:21.85,0:09:23.41,DCMain,ASHIZUKA,0000,0000,0000,,We couldn't have killed her.
+Dialogue: 0,0:09:23.89,0:09:25.25,DCMain,MEGURE,0000,0000,0000,,Why not?
+Dialogue: 0,0:09:25.25,0:09:28.00,DCMain,ASHIZUKA,0000,0000,0000,,Takemi was alive until 3 AM.
+Dialogue: 0,0:09:28.00,0:09:29.44,DCMain,ASHIZUKA,0000,0000,0000,,You were there, too.
+Dialogue: 0,0:09:29.44,0:09:30.34,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:30.52,0:09:34.44,DCMain,CONAN,0000,0000,0000,,That's when Eiko-san called her on her phone.
+Dialogue: 0,0:09:34.44,0:09:35.26,DCMain,ASHIZUKA,0000,0000,0000,,That's right.
+Dialogue: 0,0:09:35.79,0:09:38.47,DCMain,ASHIZUKA,0000,0000,0000,,The body was found around 5 AM.
+Dialogue: 0,0:09:38.89,0:09:39.97,Cottage,TEXT,0000,0000,0000,,Cottage
+Dialogue: 0,0:09:38.89,0:09:39.97,Campsite,TEXT,0000,0000,0000,,Campsite
+Dialogue: 0,0:09:39.12,0:09:43.28,DCMain,ASHIZUKA,0000,0000,0000,,{\an8}In other words, the crime was \Ncommitted during those two hours.
+Dialogue: 0,0:09:43.28,0:09:45.84,DCMain,ASHIZUKA,0000,0000,0000,,But no matter how much you hurry,
+Dialogue: 0,0:09:45.84,0:09:49.86,DCMain,ASHIZUKA,0000,0000,0000,,it takes about forty to fifty minutes to \Ntake the path down to the crime scene.
+Dialogue: 0,0:09:50.17,0:09:52.90,DCMain,CONAN,0000,0000,0000,,That's about how long it took when we went.
+Dialogue: 0,0:09:54.08,0:09:57.00,DCMain,AGASA,0000,0000,0000,,Killing Takemi-san and leaving the bag
+Dialogue: 0,0:09:57.00,0:09:59.60,DCMain,AGASA,0000,0000,0000,,in the forest
+Dialogue: 0,0:09:59.60,0:10:04.25,DCMain,AGASA,0000,0000,0000,,three kilometers away would \Nadd another thirty to forty minutes.
+Dialogue: 0,0:10:04.25,0:10:09.00,DCMain,CONAN,0000,0000,0000,,Since the return trip is uphill, \Nit took more than sixty minutes.
+Dialogue: 0,0:10:09.00,0:10:11.85,DCMain,MITSUHIKO,0000,0000,0000,,All together, that's over 120 minutes.
+Dialogue: 0,0:10:11.85,0:10:13.89,DCMain,MITSUHIKO,0000,0000,0000,,It couldn't have been done within two hours.
+Dialogue: 0,0:10:13.89,0:10:18.26,DCMain,MITSUHIKO,0000,0000,0000,,And they were sleeping \Nin the cottage with us.
+Dialogue: 0,0:10:18.57,0:10:21.29,DCMain,AYUMI,0000,0000,0000,,Eiko-san was sleeping with me.
+Dialogue: 0,0:10:21.29,0:10:22.32,DCMain,ASHIZUKA,0000,0000,0000,,See?
+Dialogue: 0,0:10:22.32,0:10:23.64,DCMain,ASHIZUKA,0000,0000,0000,,Eiko and I couldn't have done it.
+Dialogue: 0,0:10:23.87,0:10:26.33,DCMain,ASHIZUKA,0000,0000,0000,,But, Hayashida, you...
+Dialogue: 0,0:10:26.33,0:10:29.02,DCMain,HAYASHIDA,0000,0000,0000,,I was surveying on another mountain!
+Dialogue: 0,0:10:29.46,0:10:31.00,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:10:31.00,0:10:34.09,DCMain,MEGURE,0000,0000,0000,,Could we ask you a few questions
+Dialogue: 0,0:10:34.09,0:10:36.53,DCMain,MEGURE,0000,0000,0000,,about the late Yamakura-san?
+Dialogue: 0,0:10:38.99,0:10:41.98,DCMain,GENTA,0000,0000,0000,,Did they really not do it?
+Dialogue: 0,0:10:41.98,0:10:43.73,DCMain,AYUMI,0000,0000,0000,,It wasn't Eiko-san.
+Dialogue: 0,0:10:43.73,0:10:45.49,DCMain,AYUMI,0000,0000,0000,,She definitely didn't do it.
+Dialogue: 0,0:10:45.49,0:10:49.63,DCMain,MITSUHIKO,0000,0000,0000,,But you saw the four of them fighting.
+Dialogue: 0,0:10:49.63,0:10:52.08,DCMain,MITSUHIKO,0000,0000,0000,,Shall we investigate?
+Dialogue: 0,0:10:52.08,0:10:52.83,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:10:53.10,0:10:54.29,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:10:55.27,0:10:57.90,DCMain,MITSUHIKO,0000,0000,0000,,If one of them is the killer,
+Dialogue: 0,0:10:57.90,0:10:59.47,DCMain,MITSUHIKO,0000,0000,0000,,that means they snuck out of the cottage,
+Dialogue: 0,0:10:59.47,0:11:05.22,DCMain,MITSUHIKO,0000,0000,0000,,went to the crime scene and forest, \Nand returned within two hours.
+Dialogue: 0,0:11:05.22,0:11:07.19,DCMain,MITSUHIKO,0000,0000,0000,,However, that's not actually possible.
+Dialogue: 0,0:11:07.60,0:11:10.06,DCMain,MITSUHIKO,0000,0000,0000,,But what if they climbed?
+Dialogue: 0,0:11:10.31,0:11:11.76,DCMain,BOTH,0000,0000,0000,,Climbed?
+Dialogue: 0,0:11:11.76,0:11:12.40,DCMain,MITSUHIKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:12.40,0:11:14.04,DCMain,MITSUHIKO,0000,0000,0000,,Instead of taking the mountain path,
+Dialogue: 0,0:11:14.04,0:11:16.55,DCMain,MITSUHIKO,0000,0000,0000,,if they climbed straight \Nup and down the cliff,
+Dialogue: 0,0:11:16.55,0:11:17.86,DCMain,MITSUHIKO,0000,0000,0000,,they could've done it within two hours.
+Dialogue: 0,0:11:17.86,0:11:21.16,DCMain,GENTA,0000,0000,0000,,Eiko-san was climbing yesterday.
+Dialogue: 0,0:11:21.16,0:11:24.08,DCMain,CONAN,0000,0000,0000,,No, that cliff is fifty meters tall.
+Dialogue: 0,0:11:24.08,0:11:27.58,DCMain,CONAN,0000,0000,0000,,Even an experienced climber \Nwould take an hour one way.
+Dialogue: 0,0:11:28.53,0:11:29.96,DCMain,MITSUHIKO,0000,0000,0000,,So it doesn't work.
+Dialogue: 0,0:11:30.15,0:11:31.50,DCMain,AYUMI,0000,0000,0000,,Then they used the river.
+Dialogue: 0,0:11:31.74,0:11:32.60,DCMain,ALL,0000,0000,0000,,The river?
+Dialogue: 0,0:11:32.60,0:11:33.29,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:33.29,0:11:35.76,DCMain,AYUMI,0000,0000,0000,,Ashizuka-san was kayaking, right?
+Dialogue: 0,0:11:35.76,0:11:40.85,DCMain,AYUMI,0000,0000,0000,,If he rode down the rapids in \Nthe river next to this field...
+Dialogue: 0,0:11:40.85,0:11:44.01,DCMain,CONAN,0000,0000,0000,,It does snake down to the crime scene, but...
+Dialogue: 0,0:11:44.01,0:11:47.16,DCMain,HAIBARA,0000,0000,0000,,That would get him there, \Nbut how would he return?
+Dialogue: 0,0:11:47.16,0:11:49.51,DCMain,HAIBARA,0000,0000,0000,,He couldn't have kayaked up the river,
+Dialogue: 0,0:11:49.51,0:11:52.23,DCMain,HAIBARA,0000,0000,0000,,and he'd need time to bring it back.
+Dialogue: 0,0:11:53.04,0:11:54.19,DCMain,AYUMI,0000,0000,0000,,So it doesn't work.
+Dialogue: 0,0:11:54.96,0:11:57.82,DCMain,GENTA,0000,0000,0000,,I know. They used the sky!
+Dialogue: 0,0:11:58.18,0:11:59.38,DCMain,GENTA,0000,0000,0000,,The balloon.
+Dialogue: 0,0:11:59.38,0:12:00.61,DCMain,ALL,0000,0000,0000,,The balloon?
+Dialogue: 0,0:12:00.61,0:12:01.28,DCMain,GENTA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:01.28,0:12:05.28,DCMain,GENTA,0000,0000,0000,,He flew through the air like a bird to \Nreach the crime scene and the forest.
+Dialogue: 0,0:12:04.99,0:12:10.58,North,TEXT,0000,0000,0000,,{\fad(335,335)}North
+Dialogue: 0,0:12:04.99,0:12:10.58,Cottage2,TEXT,0000,0000,0000,,{\fad(335,335)}Cottage
+Dialogue: 0,0:12:04.99,0:12:10.58,Campsite2,TEXT,0000,0000,0000,,{\fad(335,335)}Campsite
+Dialogue: 0,0:12:04.99,0:12:10.58,Wind,TEXT,0000,0000,0000,,{\fad(335,335)}Wind
+Dialogue: 0,0:12:04.99,0:12:10.58,South,TEXT,0000,0000,0000,,{\fad(335,335)}South
+Dialogue: 0,0:12:05.28,0:12:08.24,DCMain,CONAN,0000,0000,0000,,Since the wind is blowing south to north,
+Dialogue: 0,0:12:08.24,0:12:10.15,DCMain,CONAN,0000,0000,0000,,a balloon would get you there.
+Dialogue: 0,0:12:10.15,0:12:13.90,DCMain,MITSUHIKO,0000,0000,0000,,But a single balloon can barely \Ncarry five or six kilograms.
+Dialogue: 0,0:12:10.21,0:12:16.46,Approx,TEXT,0000,0000,0000,,{\fad(370,350)}Approx.
+Dialogue: 0,0:12:13.90,0:12:16.04,DCMain,MITSUHIKO,0000,0000,0000,,A person couldn't have used them to fly.
+Dialogue: 0,0:12:16.04,0:12:19.87,DCMain,GENTA,0000,0000,0000,,That's why he inflated all of them.
+Dialogue: 0,0:12:19.87,0:12:21.05,DCMain,GENTA,0000,0000,0000,,What do you think, Conan?
+Dialogue: 0,0:12:21.68,0:12:25.12,DCMain,CONAN,0000,0000,0000,,Hayashida-san said he had \Nenough balloons for ten days.
+Dialogue: 0,0:12:25.12,0:12:26.94,DCMain,CONAN,0000,0000,0000,,He has nine left now.
+Dialogue: 0,0:12:26.94,0:12:30.81,DCMain,CONAN,0000,0000,0000,,It would still be difficult even \Nif he used all his balloons.
+Dialogue: 0,0:12:31.39,0:12:32.98,DCMain,ALL,0000,0000,0000,,So it doesn't work.
+Dialogue: 0,0:12:33.31,0:12:35.44,DCMain,MITSUHIKO,0000,0000,0000,,This is a difficult problem.
+Dialogue: 0,0:12:35.44,0:12:38.23,DCMain,GENTA,0000,0000,0000,,I can't think of anything.
+Dialogue: 0,0:12:39.12,0:12:40.17,DCItalic,CONAN,0000,0000,0000,,It's dislodged.
+Dialogue: 0,0:12:42.61,0:12:43.86,Helium2,TEXT,0000,0000,0000,,Helium
+Dialogue: 0,0:12:46.78,0:12:47.57,DCMain,CONAN,0000,0000,0000,,Mud?
+Dialogue: 0,0:12:54.20,0:12:55.24,DCMain,CONAN,0000,0000,0000,,This is it.
+Dialogue: 0,0:12:57.20,0:12:58.64,DCMain,CONAN,0000,0000,0000,,Rope marks?
+Dialogue: 0,0:12:59.72,0:13:00.84,DCMain,AYUMI,0000,0000,0000,,Conan-kun.
+Dialogue: 0,0:13:02.21,0:13:03.47,DCMain,AYUMI,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:13:03.47,0:13:04.07,DCMain,CONAN,0000,0000,0000,,Oh...
+Dialogue: 0,0:13:04.07,0:13:04.79,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:06.02,0:13:06.97,DCMain,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:13:07.40,0:13:08.75,DCMain,HAIBARA,0000,0000,0000,,Wait, Edogawa-kun.
+Dialogue: 0,0:13:09.20,0:13:10.47,DCMain,HAIBARA,0000,0000,0000,,That fluff...
+Dialogue: 0,0:13:10.72,0:13:12.20,DCMain,GENTA,0000,0000,0000,,Hey!
+Dialogue: 0,0:13:12.20,0:13:14.98,DCMain,GENTA,0000,0000,0000,,There's something going on at the cottage!
+Dialogue: 0,0:13:15.23,0:13:16.27,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:13:22.77,0:13:24.97,DCMain,HAYASHIDA,0000,0000,0000,,Is this a balloon?
+Dialogue: 0,0:13:24.97,0:13:25.80,DCMain,TAKAGI,0000,0000,0000,,Yes.
+Dialogue: 0,0:13:25.80,0:13:27.76,DCMain,TAKAGI,0000,0000,0000,,We found it using the drone.
+Dialogue: 0,0:13:27.76,0:13:30.70,DCMain,TAKAGI,0000,0000,0000,,It was past the forest \Nwhere we found the bag.
+Dialogue: 0,0:13:31.27,0:13:33.70,DCMain,TAKAGI,0000,0000,0000,,It got caught on a tree branch and tore.
+Dialogue: 0,0:13:33.96,0:13:35.50,DCMain,ASHIZUKA,0000,0000,0000,,A balloon, huh?
+Dialogue: 0,0:13:35.50,0:13:36.76,DCMain,ASHIZUKA,0000,0000,0000,,That's it.
+Dialogue: 0,0:13:36.76,0:13:38.93,DCMain,ASHIZUKA,0000,0000,0000,,I knew you did it.
+Dialogue: 0,0:13:38.93,0:13:40.26,DCMain,HAYASHIDA,0000,0000,0000,,You think I killed her?
+Dialogue: 0,0:13:41.13,0:13:42.05,DCMain,ASHIZUKA,0000,0000,0000,,That's right.
+Dialogue: 0,0:13:42.05,0:13:44.49,DCMain,ASHIZUKA,0000,0000,0000,,You used this to transport the bag.
+Dialogue: 0,0:13:44.93,0:13:46.55,DCMain,HAYASHIDA,0000,0000,0000,,Transport a bag using a balloon?
+Dialogue: 0,0:13:47.03,0:13:50.76,DCMain,ASHIZUKA,0000,0000,0000,,At 3 AM, you said you were going surveying,
+Dialogue: 0,0:13:50.76,0:13:54.24,DCMain,ASHIZUKA,0000,0000,0000,,and took the balloon you hid down the cliff.
+Dialogue: 0,0:13:54.24,0:13:55.77,DCMain,ASHIZUKA,0000,0000,0000,,Then you killed Takemi.
+Dialogue: 0,0:13:56.49,0:14:01.47,DCMain,ASHIZUKA,0000,0000,0000,,Then you tied the balloon to her \Nbag and took it to the forest.
+Dialogue: 0,0:14:01.47,0:14:04.03,DCMain,ASHIZUKA,0000,0000,0000,,You could've made the trip within two hours.
+Dialogue: 0,0:14:04.28,0:14:07.78,DCMain,ASHIZUKA,0000,0000,0000,,Unfortunately for you, \Nit got caught on a tree.
+Dialogue: 0,0:14:07.78,0:14:09.20,DCMain,HAYASHIDA,0000,0000,0000,,Wait.
+Dialogue: 0,0:14:09.20,0:14:11.32,DCMain,HAYASHIDA,0000,0000,0000,,I was surveying during that time.
+Dialogue: 0,0:14:11.49,0:14:22.75,Survey,TEXT,0000,0000,0000,,Survey Log
+Dialogue: 0,0:14:11.56,0:14:13.25,DCMain,HAYASHIDA,0000,0000,0000,,I have logs.
+Dialogue: 0,0:14:13.25,0:14:16.45,DCMain,ASHIZUKA,0000,0000,0000,,{\a6}You could've made them up.
+Dialogue: 0,0:14:16.45,0:14:19.16,DCMain,ASHIZUKA,0000,0000,0000,,{\a6}Besides, wasn't the red \Ncompass at the crime scene
+Dialogue: 0,0:14:19.16,0:14:22.75,DCMain,ASHIZUKA,0000,0000,0000,,{\a6}the memento you got from Motoki?
+Dialogue: 0,0:14:24.04,0:14:26.13,DCMain,ASHIZUKA,0000,0000,0000,,You saw it at the crime scene, didn't you?
+Dialogue: 0,0:14:26.13,0:14:27.66,DCMain,ASHIZUKA,0000,0000,0000,,Why didn't you say anything?
+Dialogue: 0,0:14:28.64,0:14:30.73,DCMain,HAYASHIDA,0000,0000,0000,,I didn't want anyone to think I'd done it.
+Dialogue: 0,0:14:30.73,0:14:31.60,DCMain,ASHIZUKA,0000,0000,0000,,Liar!
+Dialogue: 0,0:14:31.94,0:14:34.09,DCMain,ASHIZUKA,0000,0000,0000,,You're just pretending not to know!
+Dialogue: 0,0:14:34.09,0:14:36.27,DCMain,ASHIZUKA,0000,0000,0000,,You're the one who killed her!
+Dialogue: 0,0:14:36.70,0:14:37.39,DCMain,POLICE,0000,0000,0000,,Inspector.
+Dialogue: 0,0:14:38.30,0:14:40.82,DCMain,POLICE,0000,0000,0000,,We found this in Hayashida-san's bag.
+Dialogue: 0,0:14:41.28,0:14:42.14,DCMain,MEGURE,0000,0000,0000,,What is this?
+Dialogue: 0,0:14:42.56,0:14:44.65,DCMain,HAYASHIDA,0000,0000,0000,,It's surveying equipment \Nfor attaching to balloons.
+Dialogue: 0,0:14:44.94,0:14:47.07,DCMain,HAYASHIDA,0000,0000,0000,,But I always keep it with me.
+Dialogue: 0,0:14:48.14,0:14:49.91,DCMain,MEGURE,0000,0000,0000,,There's blood on it.
+Dialogue: 0,0:14:50.21,0:14:52.78,DCMain,MEGURE,0000,0000,0000,,It could be the victim's.
+Dialogue: 0,0:14:52.78,0:14:54.91,DCMain,HAYASHIDA,0000,0000,0000,,No! I didn't do it!
+Dialogue: 0,0:14:55.13,0:14:57.96,DCMain,MITSUHIKO,0000,0000,0000,,So one of them is the killer.
+Dialogue: 0,0:14:57.96,0:15:01.50,DCMain,CONAN,0000,0000,0000,,Balloons... Kerosene... Wool...
+Dialogue: 0,0:15:01.50,0:15:03.60,DCMain,HAIBARA,0000,0000,0000,,There's something bothering you, isn't there?
+Dialogue: 0,0:15:12.78,0:15:14.05,DCItalic,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:15:15.12,0:15:16.56,DCMain,CONAN,0000,0000,0000,,Detective Takagi.
+Dialogue: 0,0:15:18.28,0:15:19.61,DCMain,CONAN,0000,0000,0000,,Stop it there.
+Dialogue: 0,0:15:20.71,0:15:21.78,DCMain,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:15:23.58,0:15:25.48,DCItalic,CONAN,0000,0000,0000,,So that's how it is.
+Dialogue: 0,0:15:25.91,0:15:28.60,DCMain,HAYASHIDA,0000,0000,0000,,No, I didn't do it!
+Dialogue: 0,0:15:28.60,0:15:29.61,DCMain,HAYASHIDA,0000,0000,0000,,It wasn't me!
+Dialogue: 0,0:15:30.17,0:15:31.89,DCMain,AGASA,0000,0000,0000,,Wait a minute, Inspector.
+Dialogue: 0,0:15:32.83,0:15:34.37,DCMain,AGASA,0000,0000,0000,,Hey, Shinichi.
+Dialogue: 0,0:15:34.58,0:15:36.79,DCMain,MEGURE,0000,0000,0000,,Is something wrong, Agasa-san?
+Dialogue: 0,0:15:36.79,0:15:40.32,DCMain,AGASA,0000,0000,0000,,There are a few things I'm wondering about.
+Dialogue: 0,0:15:40.32,0:15:44.88,DCMain,AGASA,0000,0000,0000,,Hayashida-san, did you wipe your \Nhands and body thoroughly yesterday?
+Dialogue: 0,0:15:45.16,0:15:45.76,DCMain,HAYASHIDA,0000,0000,0000,,What?
+Dialogue: 0,0:15:45.76,0:15:48.07,DCMain,HAYASHIDA,0000,0000,0000,,Yes, I did.
+Dialogue: 0,0:15:48.54,0:15:52.00,DCMain,AGASA,0000,0000,0000,,That's why you don't smell of kerosene.
+Dialogue: 0,0:15:52.00,0:15:53.26,DCMain,MEGURE,0000,0000,0000,,Kerosene?
+Dialogue: 0,0:15:53.26,0:15:54.07,DCMain,AGASA,0000,0000,0000,,Yes.
+Dialogue: 0,0:15:54.07,0:15:57.31,DCMain,AGASA,0000,0000,0000,,It's used to increase the \Nstrength of rubber balloons.
+Dialogue: 0,0:15:57.31,0:16:00.64,DCMain,AGASA,0000,0000,0000,,If anyone used the balloons, \Nthe smell would remain on them.
+Dialogue: 0,0:16:00.64,0:16:03.40,DCMain,MEGURE,0000,0000,0000,,Couldn't he have wiped his hands \Nimmediately after committing the crime?
+Dialogue: 0,0:16:03.40,0:16:06.55,DCMain,AGASA,0000,0000,0000,,Even if Hayashida-san did it,
+Dialogue: 0,0:16:06.55,0:16:08.34,DCMain,AGASA,0000,0000,0000,,he barely had two hours.
+Dialogue: 0,0:16:08.34,0:16:10.90,DCMain,AGASA,0000,0000,0000,,Did he have that kind of time?
+Dialogue: 0,0:16:11.85,0:16:14.46,DCMain,MEGURE,0000,0000,0000,,You mean someone else is the killer?
+Dialogue: 0,0:16:14.46,0:16:16.16,DCMain,AGASA,0000,0000,0000,,That is what that would mean.
+Dialogue: 0,0:16:16.51,0:16:19.66,DCMain,AGASA,0000,0000,0000,,There's something I'd like all of you to see.
+Dialogue: 0,0:16:21.55,0:16:22.41,DCMain,AGASA,0000,0000,0000,,This.
+Dialogue: 0,0:16:22.69,0:16:26.29,DCMain,AGASA,0000,0000,0000,,This plank is designed to come off.
+Dialogue: 0,0:16:27.78,0:16:29.03,DCMain,AGASA,0000,0000,0000,,There's something else.
+Dialogue: 0,0:16:29.03,0:16:30.33,DCMain,AGASA,0000,0000,0000,,Detective Takagi,
+Dialogue: 0,0:16:30.33,0:16:34.79,DCMain,AGASA,0000,0000,0000,,could you search the shed \Nbehind me for balloons?
+Dialogue: 0,0:16:34.79,0:16:35.51,DCMain,TAKAGI,0000,0000,0000,,Got it.
+Dialogue: 0,0:16:37.39,0:16:38.90,DCMain,TAKAGI,0000,0000,0000,,There's three left.
+Dialogue: 0,0:16:39.39,0:16:44.48,DCMain,AGASA,0000,0000,0000,,Hayashida-san, how many balloons \Nare supposed to be there?
+Dialogue: 0,0:16:44.48,0:16:45.56,DCMain,HAYASHIDA,0000,0000,0000,,Nine.
+Dialogue: 0,0:16:45.76,0:16:47.98,DCMain,AGASA,0000,0000,0000,,So six are missing.
+Dialogue: 0,0:16:47.98,0:16:51.07,DCMain,AGASA,0000,0000,0000,,The killer used those balloons.
+Dialogue: 0,0:16:51.07,0:16:51.83,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:16:51.83,0:16:54.32,DCMain,MEGURE,0000,0000,0000,,Agasa-san, what are you talking about?
+Dialogue: 0,0:16:54.51,0:16:58.45,DCMain,AGASA,0000,0000,0000,,The killer left the cottage before 3 AM \Nwhen everyone had fallen asleep,
+Dialogue: 0,0:16:59.17,0:17:03.05,DCMain,AGASA,0000,0000,0000,,and prepared six of the balloons.
+Dialogue: 0,0:17:03.71,0:17:07.21,DCMain,GENTA,0000,0000,0000,,But inflating them makes a lot of noise.
+Dialogue: 0,0:17:07.54,0:17:11.09,DCMain,AGASA,0000,0000,0000,,That's why they had to move \Naway from the cottage.
+Dialogue: 0,0:17:11.62,0:17:14.34,DCMain,AGASA,0000,0000,0000,,I found evidence of their activities.
+Dialogue: 0,0:17:14.58,0:17:18.54,DCMain,AGASA,0000,0000,0000,,After 3 AM, they offered a \Nsilent prayer to Motoki-san,
+Dialogue: 0,0:17:18.54,0:17:22.81,DCMain,AGASA,0000,0000,0000,,waited for the others to fall \Nback asleep, left the cottage,
+Dialogue: 0,0:17:23.24,0:17:26.23,DCMain,AGASA,0000,0000,0000,,retrieved the six balloons they had prepared,
+Dialogue: 0,0:17:26.55,0:17:30.23,DCMain,AGASA,0000,0000,0000,,and leaped from the top of the cliff.
+Dialogue: 0,0:17:30.41,0:17:31.83,DCMain,MEGURE,0000,0000,0000,,They jumped?
+Dialogue: 0,0:17:31.83,0:17:34.10,DCMain,GENTA,0000,0000,0000,,So they did fly.
+Dialogue: 0,0:17:34.10,0:17:35.18,DCMain,HAYASHIDA,0000,0000,0000,,That's impossible.
+Dialogue: 0,0:17:35.18,0:17:38.36,DCMain,HAYASHIDA,0000,0000,0000,,Only six balloons aren't \Nenough for a person to fly.
+Dialogue: 0,0:17:38.72,0:17:39.97,DCMain,AGASA,0000,0000,0000,,You're right.
+Dialogue: 0,0:17:39.97,0:17:43.62,DCMain,AGASA,0000,0000,0000,,But that's the key to this trick.
+Dialogue: 0,0:17:44.05,0:17:45.72,DCMain,AGASA,0000,0000,0000,,They won't make a person fly,
+Dialogue: 0,0:17:45.72,0:17:48.54,DCMain,AGASA,0000,0000,0000,,but it's enough to reduce their falling speed,
+Dialogue: 0,0:17:48.84,0:17:53.19,DCMain,AGASA,0000,0000,0000,,like a bird spreading \Ntheir wings to decelerate.
+Dialogue: 0,0:17:53.19,0:17:57.04,DCMain,AGASA,0000,0000,0000,,They reduced their speed by landing \Non the rocks partway down the cliff
+Dialogue: 0,0:17:57.04,0:17:59.14,DCMain,AGASA,0000,0000,0000,,before jumping the rest of the way down.
+Dialogue: 0,0:17:59.49,0:18:02.10,DCMain,AGASA,0000,0000,0000,,They reached the crime \Nscene quickly this way.
+Dialogue: 0,0:18:04.60,0:18:06.10,DCMain,ASHIZUKA,0000,0000,0000,,That's ridiculous.
+Dialogue: 0,0:18:06.10,0:18:07.48,DCMain,ASHIZUKA,0000,0000,0000,,They couldn't have done that.
+Dialogue: 0,0:18:07.93,0:18:08.98,DCMain,HAIBARA,0000,0000,0000,,Look at this.
+Dialogue: 0,0:18:09.82,0:18:11.94,DCMain,HAIBARA,0000,0000,0000,,It's a photo of the rocks \Nin the middle of the cliff.
+Dialogue: 0,0:18:12.60,0:18:16.37,DCMain,HAIBARA,0000,0000,0000,,There are some strange footprints \Npointing towards the edge.
+Dialogue: 0,0:18:17.73,0:18:18.90,DCMain,HAYASHIDA,0000,0000,0000,,Wait.
+Dialogue: 0,0:18:18.90,0:18:20.12,DCMain,HAYASHIDA,0000,0000,0000,,With only six balloons,
+Dialogue: 0,0:18:20.12,0:18:22.37,DCMain,HAYASHIDA,0000,0000,0000,,it would've had to have been \Nsomeone extremely light to...
+Dialogue: 0,0:18:23.37,0:18:24.68,DCMain,AGASA,0000,0000,0000,,That's right.
+Dialogue: 0,0:18:24.68,0:18:28.62,DCMain,AGASA,0000,0000,0000,,Ikuguchi Eiko-san, you killed her.
+Dialogue: 0,0:18:29.00,0:18:30.78,DCMain,EIKO,0000,0000,0000,,I killed her?
+Dialogue: 0,0:18:30.78,0:18:31.88,DCMain,AYUMI,0000,0000,0000,,You're wrong!
+Dialogue: 0,0:18:33.74,0:18:35.38,DCMain,AYUMI,0000,0000,0000,,It wasn't her!
+Dialogue: 0,0:18:35.82,0:18:36.67,DCMain,AGASA,0000,0000,0000,,No.
+Dialogue: 0,0:18:37.12,0:18:39.88,DCMain,AGASA,0000,0000,0000,,After reaching the bottom of the cliff,
+Dialogue: 0,0:18:40.33,0:18:43.01,DCMain,AGASA,0000,0000,0000,,you released five of the six balloons.
+Dialogue: 0,0:18:43.37,0:18:47.78,DCMain,AGASA,0000,0000,0000,,The balloons floated north \Non the wind to the lake,
+Dialogue: 0,0:18:47.78,0:18:49.27,DCMain,AGASA,0000,0000,0000,,where no one would find them.
+Dialogue: 0,0:18:49.60,0:18:51.77,DCMain,AGASA,0000,0000,0000,,You deflated the remaining balloon, cut it,
+Dialogue: 0,0:18:52.15,0:18:54.82,DCMain,AGASA,0000,0000,0000,,and kept it with you.
+Dialogue: 0,0:18:55.25,0:18:59.28,DCMain,AGASA,0000,0000,0000,,You killed Takemi-san, left Motoki-san's \Ncompass at the crime scene,
+Dialogue: 0,0:18:59.66,0:19:03.17,DCMain,AGASA,0000,0000,0000,,and headed north with \NTakemi-san's bag and wallet.
+Dialogue: 0,0:19:04.13,0:19:06.82,DCMain,AGASA,0000,0000,0000,,At the forest three kilometers \Naway, you left the bag,
+Dialogue: 0,0:19:06.82,0:19:11.58,DCMain,AGASA,0000,0000,0000,,and beyond that you left \Nthe deflated balloon.
+Dialogue: 0,0:19:12.04,0:19:13.83,DCMain,AGASA,0000,0000,0000,,Once you returned,
+Dialogue: 0,0:19:13.83,0:19:19.30,DCMain,AGASA,0000,0000,0000,,you put the surveying equipment with \NTakemi-san's blood in Hayashida-san's bag.
+Dialogue: 0,0:19:20.57,0:19:22.05,DCMain,EIKO,0000,0000,0000,,You're wrong.
+Dialogue: 0,0:19:22.30,0:19:24.80,DCMain,EIKO,0000,0000,0000,,You're wrong. I didn't do it!
+Dialogue: 0,0:19:25.10,0:19:27.81,DCMain,CONAN,0000,0000,0000,,Miss, you smell like kerosene.
+Dialogue: 0,0:19:28.06,0:19:28.79,DCMain,EIKO,0000,0000,0000,,What?
+Dialogue: 0,0:19:29.49,0:19:31.33,DCMain,CONAN,0000,0000,0000,,Now that I think about it,
+Dialogue: 0,0:19:31.33,0:19:35.61,DCMain,CONAN,0000,0000,0000,,there was meaning behind all of your actions.
+Dialogue: 0,0:19:35.61,0:19:36.19,DCMain,EIKO,0000,0000,0000,,Meaning?
+Dialogue: 0,0:19:36.59,0:19:37.23,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:19:38.00,0:19:41.55,DCMain,CONAN,0000,0000,0000,,You caused that fight and called her phone,
+Dialogue: 0,0:19:42.51,0:19:45.08,DCMain,CONAN,0000,0000,0000,,so Takemi-san would head
+Dialogue: 0,0:19:45.08,0:19:48.08,DCMain,CONAN,0000,0000,0000,,to the bottom of the cliff \Nand you could confirm
+Dialogue: 0,0:19:48.08,0:19:50.83,DCMain,CONAN,0000,0000,0000,,she was alive at 3 AM.
+Dialogue: 0,0:19:51.13,0:19:52.95,DCMain,EIKO,0000,0000,0000,,Don't be stupid.
+Dialogue: 0,0:19:52.95,0:19:56.08,DCMain,EIKO,0000,0000,0000,,I was sleeping with Ayumi-chan \Nwhen she was killed.
+Dialogue: 0,0:19:56.08,0:19:59.01,DCMain,HAIBARA,0000,0000,0000,,You planned that, too.
+Dialogue: 0,0:19:59.46,0:20:02.80,DCMain,HAIBARA,0000,0000,0000,,You wanted Yoshida-san to verify your alibi.
+Dialogue: 0,0:20:04.04,0:20:05.24,DCMain,AYUMI,0000,0000,0000,,Really?
+Dialogue: 0,0:20:05.24,0:20:06.18,DCMain,EIKO,0000,0000,0000,,No.
+Dialogue: 0,0:20:06.40,0:20:07.80,DCMain,EIKO,0000,0000,0000,,I've had enough!
+Dialogue: 0,0:20:07.80,0:20:10.98,DCMain,EIKO,0000,0000,0000,,I didn't kill her, and I \Ndidn't go to the forest!
+Dialogue: 0,0:20:10.98,0:20:12.70,DCMain,HAIBARA,0000,0000,0000,,We found this, too.
+Dialogue: 0,0:20:13.96,0:20:15.32,DCMain,HAIBARA,0000,0000,0000,,It's a species of horse thistle.
+Dialogue: 0,0:20:15.81,0:20:19.07,DCMain,HAIBARA,0000,0000,0000,,Around here, it only grows in that forest.
+Dialogue: 0,0:20:19.64,0:20:21.87,DCMain,HAIBARA,0000,0000,0000,,It was on Yoshida-san's pants.
+Dialogue: 0,0:20:21.87,0:20:24.49,DCMain,HAIBARA,0000,0000,0000,,It probably came from you while \Nyou were sleeping together.
+Dialogue: 0,0:20:27.28,0:20:30.87,DCMain,CONAN,0000,0000,0000,,See? You did go to the forest.
+Dialogue: 0,0:20:31.30,0:20:35.17,DCMain,CONAN,0000,0000,0000,,After going to the forest, \Nyou came to right below here.
+Dialogue: 0,0:20:35.17,0:20:36.95,DCMain,CONAN,0000,0000,0000,,All you had to do was return.
+Dialogue: 0,0:20:36.95,0:20:40.88,DCMain,CONAN,0000,0000,0000,,But using the mountain path \Nmight leave more evidence.
+Dialogue: 0,0:20:41.50,0:20:44.47,DCMain,CONAN,0000,0000,0000,,That's why you began climbing \Nback up this cliff.
+Dialogue: 0,0:20:45.00,0:20:49.39,DCMain,CONAN,0000,0000,0000,,But you were in such a hurry, you \Nmade a mistake at the very end.
+Dialogue: 0,0:20:49.72,0:20:51.49,DCMain,MEGURE,0000,0000,0000,,This is blood.
+Dialogue: 0,0:20:51.49,0:20:52.06,DCMain,MEGURE,0000,0000,0000,,Hey!
+Dialogue: 0,0:20:52.40,0:20:53.40,DCMain,TAKAGI,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:20:53.40,0:20:54.56,DCMain,TAKAGI,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:20:56.87,0:20:59.61,DCMain,TAKAGI,0000,0000,0000,,This mark must have been \Nleft by the balloons' rope.
+Dialogue: 0,0:21:01.04,0:21:03.74,DCMain,ASHIZUKA,0000,0000,0000,,Eiko, why did you kill her?
+Dialogue: 0,0:21:04.15,0:21:07.85,DCMain,EIKO,0000,0000,0000,,Motoki-san and I were secretly dating.
+Dialogue: 0,0:21:08.47,0:21:13.07,DCMain,EIKO,0000,0000,0000,,I couldn't forgive Takemi-san for \Nforcing him into that accident.
+Dialogue: 0,0:21:13.07,0:21:17.38,DCMain,HAYASHIDA,0000,0000,0000,,You spent three years planning her murder,
+Dialogue: 0,0:21:17.38,0:21:19.63,DCMain,HAYASHIDA,0000,0000,0000,,and learning to use balloons for that?
+Dialogue: 0,0:21:19.63,0:21:23.72,DCMain,ASHIZUKA,0000,0000,0000,,But why would you frame Hayashida?
+Dialogue: 0,0:21:23.72,0:21:27.59,DCMain,EIKO,0000,0000,0000,,Hayashida-san, you knew about us!
+Dialogue: 0,0:21:27.80,0:21:29.18,DCMain,EIKO,0000,0000,0000,,You were always jealous!
+Dialogue: 0,0:21:30.72,0:21:36.82,DCMain,EIKO,0000,0000,0000,,That's why you didn't tell Motoki-san he \Nwas heading towards a dangerous cliff!
+Dialogue: 0,0:23:12.58,0:23:15.75,Kumomaru2,SIGN,0000,0000,0000,,Mount Kumomaru \NPeak
+Dialogue: 0,0:23:13.24,0:23:15.74,DCMain,GENTA,0000,0000,0000,,Okay, let's take a commemorative photo first.
+Dialogue: 0,0:23:15.93,0:23:17.50,DCMain,GENTA,0000,0000,0000,,Is everyone ready?
+Dialogue: 0,0:23:17.50,0:23:18.05,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:23:18.05,0:23:19.86,DCMain,GENTA,0000,0000,0000,,Mitsuhiko, it's on you.
+Dialogue: 0,0:23:19.86,0:23:20.86,DCMain,MITSUHIKO,0000,0000,0000,,What?
+Dialogue: 0,0:23:20.86,0:23:23.56,DCMain,MITSUHIKO,0000,0000,0000,,But I want to be in the \Npicture with Haibara-san.
+Dialogue: 0,0:23:23.56,0:23:25.09,DCMain,MITSUHIKO,0000,0000,0000,,Sorry, Ayumi-chan.
+Dialogue: 0,0:23:25.09,0:23:26.45,DCMain,AYUMI,0000,0000,0000,,I want to be in the photo, too.
+Dialogue: 0,0:23:26.45,0:23:28.33,DCMain,AYUMI,0000,0000,0000,,Please, Conan-kun.
+Dialogue: 0,0:23:28.33,0:23:29.75,DCMain,CONAN,0000,0000,0000,,Me?
+Dialogue: 0,0:23:29.75,0:23:31.51,DCMain,CONAN,0000,0000,0000,,Fine, then.
+Dialogue: 0,0:23:32.85,0:23:34.43,DCMain,AYUMI,0000,0000,0000,,Detective Takagi.
+Dialogue: 0,0:23:34.90,0:23:37.89,DCMain,TAKAGI,0000,0000,0000,,This is to reward you for your help.
+Dialogue: 0,0:23:39.52,0:23:40.81,DCMain,TAKAGI,0000,0000,0000,,Say "cheese!"
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.14,0:23:48.05,DCMain,KOGORO,0000,0000,0000,,It's dangerous to walk alone at night.
+Dialogue: 0,0:23:51.87,0:23:53.32,DCMain,CONAN,0000,0000,0000,,Hey, Mister.
+Dialogue: 0,0:23:53.54,0:23:58.28,DCMain,CONAN,0000,0000,0000,,There's a weird smell mixed \Nin with the smell of alcohol.
+Dialogue: 0,0:23:58.28,0:23:59.66,DCMain,CONAN,0000,0000,0000,,He smells kind of like peppers.
+Dialogue: 0,0:23:59.99,0:24:03.49,DCMain,KOGORO,0000,0000,0000,,Anyway, this wall sure \Nis glossy like a mirror.
+Dialogue: 0,0:24:03.49,0:24:07.55,DCMain,CHIBA,0000,0000,0000,,That's because it has a UV coating.
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,TEXT,0000,0000,0000,,The Security System's Pitfall
+Dialogue: 0,0:24:09.62,0:24:13.88,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Security System's Pitfall!"
+Dialogue: 0,0:24:29.98,0:24:34.99,Hint,TEXT,0000,0000,0000,,Thief
+Dialogue: 0,0:24:30.56,0:24:32.18,DCMain,AGASA,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.63,0:24:34.19,DCMain,CONAN,0000,0000,0000,,A thief!
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.27,0:24:36.35,DCMain,CONAN,0000,0000,0000,,{\an8}It's already mid-May.
+Dialogue: 0,0:24:36.35,0:24:38.33,DCMain,AGASA,0000,0000,0000,,{\an8}Don't forget to go see "Crimson."
+Dialogue: 0,0:24:38.33,0:24:39.43,DCMain,ALL,0000,0000,0000,,{\an8}Got it!
+Dialogue: 0,0:24:39.43,0:24:41.43,DCMain,,0000,0000,0000,,

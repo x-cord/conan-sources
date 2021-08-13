@@ -1,0 +1,395 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00FFFFFF,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0030,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Farmer'sMarket,Trebuchet MS,18,&H00CA1820,&H000000FF,&H00E2E5E4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Park,Trebuchet MS,22,&H00D80893,&H000000FF,&H00E2E4E6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Farmer'sMarket2,Trebuchet MS,22,&H00CA1820,&H000000FF,&H00E2E5E4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0050,0
+Style: Fruits,Trebuchet MS,18,&H000F120F,&H000000FF,&H001390DC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0085,0
+Style: FoodCourt,Trebuchet MS,14,&H000F120F,&H000000FF,&H00E2E4E6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: Speech,Trebuchet MS,14,&H000F120F,&H000000FF,&H00E2E4E6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0120,0
+Style: Lineup,Trebuchet MS,16,&H0024E033,&H000000FF,&H00E0E5E5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0075,0
+Style: Yuji,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H008C6681,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0080,0020,0045,0
+Style: Kaori,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A47097,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0070,0020,0045,0
+Style: Nobuo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A07A5C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0120,0020,0045,0
+Style: Oil,Trebuchet MS,20,&H001C019C,&H000000FF,&H00DDDBDD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Restaurant,Trebuchet MS,22,&H005CEDFF,&H000000FF,&H00647135,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:02.25,0:00:04.98,DCMain,AYUMI,0000,0000,0000,,I wonder what Conan-kun's doing right now.
+Dialogue: 0,0:00:05.33,0:00:10.15,DCMain,MITSUHIKO,0000,0000,0000,,The professor said he suddenly \Nhad to go to Hokkaido.
+Dialogue: 0,0:00:10.32,0:00:14.41,DCMain,GENTA,0000,0000,0000,,He's probably stuffing himself \Nfull of tasty foods, like eel.
+Dialogue: 0,0:00:14.41,0:00:17.60,DCMain,MITSUHIKO,0000,0000,0000,,Yeah, right. He's not you.
+Dialogue: 0,0:00:17.60,0:00:18.53,DCMain,GENTA,0000,0000,0000,,So...
+Dialogue: 0,0:00:18.90,0:00:20.33,DCMain,GENTA,0000,0000,0000,,Tada!
+Dialogue: 0,0:00:18.95,0:00:20.33,Farmer'sMarket,SIGN,0000,0000,0000,,Farmer's Market
+Dialogue: 0,0:00:20.93,0:00:23.75,DCMain,GENTA,0000,0000,0000,,We should go to this event without him.
+Dialogue: 0,0:00:24.88,0:00:27.50,DCMain,AYUMI,0000,0000,0000,,The Beika City Farmer's Market?
+Dialogue: 0,0:00:27.50,0:00:29.89,Park,SIGN,0000,0000,0000,,Beika Central Park
+Dialogue: 0,0:00:27.50,0:00:32.51,Farmer'sMarket2,SIGN,0000,0000,0000,,Beika City Farmer's Market
+Dialogue: 0,0:00:27.50,0:00:32.51,Fruits,SIGN,0000,0000,0000,,Fruits and vegetables \Nfrom around the country!!
+Dialogue: 0,0:00:27.50,0:00:32.51,FoodCourt,SIGN,0000,0000,0000,,Come to Beika Central Park \Nnext weekend! Eat at the \Nfood court and enjoy the \Nfun sounds of the MPD band!
+Dialogue: 0,0:00:27.80,0:00:32.51,DCMain,MITSUHIKO,0000,0000,0000,,It's an event where farmers \Nbring their produce to sell.
+Dialogue: 0,0:00:28.18,0:00:32.51,Lineup,SIGN,0000,0000,0000,,Full line-up of food trucks at the food \Ncourt! Grade schoolers and younger eat free
+Dialogue: 0,0:00:28.26,0:00:32.51,Speech,SIGN,0000,0000,0000,,Listen to a speech from MPD Section 1 \NInspector Megure Juzo and \Na performance by the MPD Band! \N~Building a safe and secure city~
+Dialogue: 0,0:00:32.82,0:00:35.51,DCMain,GENTA,0000,0000,0000,,Lots of food trucks are coming, too.
+Dialogue: 0,0:00:35.51,0:00:37.76,DCMain,GENTA,0000,0000,0000,,And kids in grade school or younger eat free.
+Dialogue: 0,0:00:38.40,0:00:42.72,DCMain,MITSUHIKO,0000,0000,0000,,I see. So that's what you're after.
+Dialogue: 0,0:00:46.08,0:00:48.31,DCMain,AYUMI,0000,0000,0000,,There's a police event, too.
+Dialogue: 0,0:00:48.83,0:00:52.39,DCMain,AYUMI,0000,0000,0000,,See? He's wearing his uniform, but \Nthis is Inspector Megure, right?
+Dialogue: 0,0:00:52.39,0:00:53.57,DCMain,MITSUHIKO,0000,0000,0000,,You're right.
+Dialogue: 0,0:00:53.57,0:00:56.23,DCMain,GENTA,0000,0000,0000,,Forget that. Let's hurry.
+Dialogue: 0,0:00:56.23,0:00:58.27,DCMain,GENTA,0000,0000,0000,,I'm hungry.
+Dialogue: 0,0:00:58.27,0:00:59.45,DCMain,MAN,0000,0000,0000,,What?
+Dialogue: 0,0:00:59.75,0:01:02.33,DCMain,MAN,0000,0000,0000,,What do you mean it won't arrive in time?
+Dialogue: 0,0:01:02.53,0:01:04.77,DCMain,MAN,0000,0000,0000,,Didn't you say you ordered it?
+Dialogue: 0,0:01:04.77,0:01:07.21,DCMain,WOMAN,0000,0000,0000,,H-Hey, keep your voice down.
+Dialogue: 0,0:01:07.71,0:01:10.30,DCMain,YAMAWAKI,0000,0000,0000,,{\an8}The shipping company made a mistake.
+Dialogue: 0,0:01:07.88,0:01:11.34,Yuji,SIGN,0000,0000,0000,,{\fad(250,450)}Yamawaki Yuji (33)
+Dialogue: 0,0:01:10.30,0:01:12.09,DCMain,YAMAWAKI,0000,0000,0000,,{\an8}What can we do?
+Dialogue: 0,0:01:12.09,0:01:14.29,DCMain,YAMAWAKI,0000,0000,0000,,We'll have to give up on today.
+Dialogue: 0,0:01:14.17,0:01:17.59,Kaori,SIGN,0000,0000,0000,,{\fad(250,450)}Kanno Kaori (29)
+Dialogue: 0,0:01:14.29,0:01:18.01,DCMain,KAORI,0000,0000,0000,,{\an8}We can't! What do you think \Nwe've been preparing for?
+Dialogue: 0,0:01:18.43,0:01:21.48,DCMain,KAORI,0000,0000,0000,,If the stuff won't arrive today, \Nwe can just go buy it.
+Dialogue: 0,0:01:21.48,0:01:22.89,DCMain,YAMAWAKI,0000,0000,0000,,Y-Yeah, but...
+Dialogue: 0,0:01:23.60,0:01:24.45,DCMain,MAN,0000,0000,0000,,No.
+Dialogue: 0,0:01:25.09,0:01:28.15,DCMain,KADOKURA,0000,0000,0000,,{\an8}There's still time. It could still work out.
+Dialogue: 0,0:01:25.10,0:01:27.98,Nobuo,SIGN,0000,0000,0000,,{\fad(250,450)}Kadokura Nobuo (32)
+Dialogue: 0,0:01:28.40,0:01:32.27,DCMain,KAORI,0000,0000,0000,,You're right. Let's have an explosive \Ntime, just like we planned.
+Dialogue: 0,0:01:32.51,0:01:33.67,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:01:33.67,0:01:35.48,DCMain,MITSUHIKO,0000,0000,0000,,Did you hear that?
+Dialogue: 0,0:01:35.48,0:01:36.39,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:01:36.39,0:01:39.17,DCMain,GENTA,0000,0000,0000,,She said something about \Nhaving an explosive time.
+Dialogue: 0,0:01:39.17,0:01:41.59,DCMain,AYUMI,0000,0000,0000,,Speaking of explosions...
+Dialogue: 0,0:01:42.28,0:01:43.04,DCMain,GENTA,0000,0000,0000,,A bomb!
+Dialogue: 0,0:01:45.12,0:01:46.02,DCMain,YAMAWAKI,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:01:50.95,0:01:52.45,DCMain,KAORI,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:01:52.45,0:01:55.17,DCMain,KADOKURA,0000,0000,0000,,I thought I heard someone.
+Dialogue: 0,0:01:55.63,0:01:57.57,DCMain,KADOKURA,0000,0000,0000,,Must've been my imagination.
+Dialogue: 0,0:02:00.60,0:02:04.82,DCMain,GENTA,0000,0000,0000,,It sounds like they're planning \Nto set off a bomb at this event.
+Dialogue: 0,0:02:04.82,0:02:07.74,DCMain,MITSUHIKO,0000,0000,0000,,But it's just a farmer's market.
+Dialogue: 0,0:02:07.74,0:02:10.16,DCMain,AYUMI,0000,0000,0000,,What are they going to explode?
+Dialogue: 0,0:02:11.92,0:02:13.64,DCMain,ALL,0000,0000,0000,,Inspector Megure?!
+Dialogue: 0,0:02:18.47,0:02:20.11,DCMain,CONAN,0000,0000,0000,,In my eyes are maximum creation!
+Dialogue: 0,0:02:20.11,0:02:21.78,DCMain,CONAN,0000,0000,0000,,My detective skills are tomorrow's reaction!
+Dialogue: 0,0:02:21.78,0:02:23.39,DCMain,CONAN,0000,0000,0000,,The Detective Boys are minus Conan!
+Dialogue: 0,0:02:23.39,0:02:25.23,DCMain,CONAN,0000,0000,0000,,How will they handle the bombing case?
+Dialogue: 0,0:02:25.23,0:02:26.91,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:26.91,0:02:28.74,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:28.74,0:02:31.20,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:12.98,0:04:18.98,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(398,1)}Intrigue at the Food Court
+Dialogue: 0,0:04:13.67,0:04:15.98,DCMain,CONAN,0000,0000,0000,,"Intrigue at the Food Court!"
+Dialogue: 0,0:04:24.10,0:04:26.12,DCMain,AYUMI,0000,0000,0000,,We overheard something terrible.
+Dialogue: 0,0:04:26.48,0:04:27.85,DCMain,AYUMI,0000,0000,0000,,What should we do?
+Dialogue: 0,0:04:27.85,0:04:31.21,DCMain,GENTA,0000,0000,0000,,You're asking me? What can we do?
+Dialogue: 0,0:04:31.21,0:04:35.44,DCMain,MITSUHIKO,0000,0000,0000,,Well, shouldn't we tell the police?
+Dialogue: 0,0:04:35.44,0:04:37.64,DCMain,AYUMI,0000,0000,0000,,But will they believe us?
+Dialogue: 0,0:04:37.64,0:04:41.69,DCMain,GENTA,0000,0000,0000,,It'll probably end with them shooing \Nus away like they always do.
+Dialogue: 0,0:04:43.06,0:04:45.88,DCMain,AYUMI,0000,0000,0000,,If only Conan-kun were here.
+Dialogue: 0,0:04:46.30,0:04:47.57,DCItalic,CONAN,0000,0000,0000,,Nicely done, Ayumi-chan.
+Dialogue: 0,0:04:47.57,0:04:47.97,DCMain,AYUMI,0000,0000,0000,,What?
+Dialogue: 0,0:04:48.36,0:04:50.06,DCItalic,CONAN,0000,0000,0000,,You realized something important.
+Dialogue: 0,0:04:50.65,0:04:56.06,DCItalic,CONAN,0000,0000,0000,,If you want the police to believe you, \Nyou need to calmly come up with a plan.
+Dialogue: 0,0:04:56.34,0:04:57.19,DCMain,AYUMI,0000,0000,0000,,That's it!
+Dialogue: 0,0:04:57.57,0:05:01.57,DCMain,AYUMI,0000,0000,0000,,Let's calmly come up with a plan \Nso the police will believe us.
+Dialogue: 0,0:05:01.57,0:05:04.07,DCMain,MITSUHIKO,0000,0000,0000,,What? That's easier said than done.
+Dialogue: 0,0:05:05.95,0:05:09.53,DCMain,MITSUHIKO,0000,0000,0000,,I hate to admit it, but I \Nwish Conan-kun were here.
+Dialogue: 0,0:05:09.96,0:05:11.24,DCItalic,CONAN,0000,0000,0000,,Come on.
+Dialogue: 0,0:05:12.01,0:05:14.84,DCItalic,CONAN,0000,0000,0000,,Aren't you the Detective Boys?
+Dialogue: 0,0:05:15.90,0:05:18.75,DCItalic,CONAN,0000,0000,0000,,What's the most important part \Nof a police investigation?
+Dialogue: 0,0:05:19.27,0:05:23.72,DCMain,MITSUHIKO,0000,0000,0000,,Um... Is it evidence?
+Dialogue: 0,0:05:23.72,0:05:25.38,DCItalic,CONAN,0000,0000,0000,,So you do know the answer.
+Dialogue: 0,0:05:26.06,0:05:29.89,DCItalic,CONAN,0000,0000,0000,,If you want the police to act, \Nyou need evidence first.
+Dialogue: 0,0:05:30.15,0:05:31.01,DCMain,MITSUHIKO,0000,0000,0000,,That's it!
+Dialogue: 0,0:05:31.34,0:05:35.77,DCMain,MITSUHIKO,0000,0000,0000,,We need evidence that they're \Nplanning to set off a bomb.
+Dialogue: 0,0:05:36.02,0:05:38.04,DCMain,MITSUHIKO,0000,0000,0000,,Then the police will believe us.
+Dialogue: 0,0:05:38.04,0:05:39.27,DCMain,KADOKURA,0000,0000,0000,,See you guys in an hour.
+Dialogue: 0,0:05:39.61,0:05:40.51,DCMain,KAORI,0000,0000,0000,,Got it.
+Dialogue: 0,0:05:40.51,0:05:42.38,DCMain,KADOKURA,0000,0000,0000,,Make sure there aren't any leaks.
+Dialogue: 0,0:05:42.38,0:05:44.11,DCMain,YAMAWAKI,0000,0000,0000,,We know.
+Dialogue: 0,0:05:44.42,0:05:46.94,DCMain,GENTA,0000,0000,0000,,Hey, they're leaving.
+Dialogue: 0,0:05:46.94,0:05:47.86,DCMain,AYUMI,0000,0000,0000,,What should we do?
+Dialogue: 0,0:05:48.14,0:05:50.37,DCMain,MITSUHIKO,0000,0000,0000,,We should split up and follow them.
+Dialogue: 0,0:05:50.61,0:05:54.38,DCMain,GENTA,0000,0000,0000,,What? But I'm hungry.
+Dialogue: 0,0:05:54.38,0:05:55.79,DCItalic,CONAN,0000,0000,0000,,Excuse me, Genta-san.
+Dialogue: 0,0:05:56.13,0:06:02.72,DCItalic,CONAN,0000,0000,0000,,If you catch the bad guys, you might \Nbe rewarded with lots of tasty food.
+Dialogue: 0,0:06:02.72,0:06:03.73,DCMain,GENTA,0000,0000,0000,,What?
+Dialogue: 0,0:06:03.73,0:06:07.97,DCItalic,CONAN,0000,0000,0000,,And the other two are counting on you.
+Dialogue: 0,0:06:08.26,0:06:11.47,DCMain,GENTA,0000,0000,0000,,Oh, right. Yeah, you're right.
+Dialogue: 0,0:06:11.88,0:06:14.79,DCMain,GENTA,0000,0000,0000,,Okay, let's split up and follow them.
+Dialogue: 0,0:06:14.79,0:06:16.19,DCMain,MITSUHIKO,0000,0000,0000,,Didn't I just say that?
+Dialogue: 0,0:06:16.19,0:06:16.98,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:17.49,0:06:21.29,DCMain,TAKAGI,0000,0000,0000,,Sato-san, security is in place.
+Dialogue: 0,0:06:21.29,0:06:23.98,DCMain,TAKAGI,0000,0000,0000,,We just finished combing the area \Nfor suspicious persons, too.
+Dialogue: 0,0:06:24.36,0:06:28.40,DCMain,SATO,0000,0000,0000,,The background checks on the food truck \Nowners and vendors came back clean?
+Dialogue: 0,0:06:28.40,0:06:28.99,DCMain,TAKAGI,0000,0000,0000,,Yes.
+Dialogue: 0,0:06:29.37,0:06:31.86,DCMain,TAKAGI,0000,0000,0000,,We've asked them to present
+Dialogue: 0,0:06:31.86,0:06:34.51,DCMain,TAKAGI,0000,0000,0000,,the identification papers they prepared \Nbeforehand when they enter the park.
+Dialogue: 0,0:06:34.51,0:06:38.37,DCMain,SATO,0000,0000,0000,,Okay. Inspector Megure's \Nspeech is in about two hours.
+Dialogue: 0,0:06:38.56,0:06:41.25,DCMain,SATO,0000,0000,0000,,Let's patrol the area again.
+Dialogue: 0,0:06:41.71,0:06:44.75,DCMain,TAKAGI,0000,0000,0000,,What? Uh, r-roger...
+Dialogue: 0,0:06:45.99,0:06:47.88,DCMain,TAKAGI,0000,0000,0000,,Huh? What?
+Dialogue: 0,0:06:48.28,0:06:50.62,DCMain,SATO,0000,0000,0000,,Takagi-kun, what are you doing? Let's go.
+Dialogue: 0,0:06:50.62,0:06:52.64,DCMain,TAKAGI,0000,0000,0000,,Oh, sorry!
+Dialogue: 0,0:06:55.14,0:06:57.39,DCMain,GENTA,0000,0000,0000,,This guy...
+Dialogue: 0,0:07:01.03,0:07:02.90,DCMain,GENTA,0000,0000,0000,,Darn bad guys.
+Dialogue: 0,0:07:04.20,0:07:06.57,DCMain,GENTA,0000,0000,0000,,How far is he going?
+Dialogue: 0,0:07:06.57,0:07:07.77,DCMain,GENTA,0000,0000,0000,,Uh, oh.
+Dialogue: 0,0:07:18.23,0:07:19.37,DCItalic,CONAN,0000,0000,0000,,Genta-san.
+Dialogue: 0,0:07:19.73,0:07:22.23,DCItalic,CONAN,0000,0000,0000,,Try to calm down.
+Dialogue: 0,0:07:22.23,0:07:23.60,DCMain,GENTA,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:23.60,0:07:27.21,DCItalic,CONAN,0000,0000,0000,,And you should stay a little farther back.
+Dialogue: 0,0:07:27.21,0:07:29.63,DCMain,GENTA,0000,0000,0000,,I-I know that.
+Dialogue: 0,0:07:33.98,0:07:35.60,DCItalic,CONAN,0000,0000,0000,,Genta-san, Genta-san.
+Dialogue: 0,0:07:36.35,0:07:38.97,DCItalic,CONAN,0000,0000,0000,,You can't just look at his face.
+Dialogue: 0,0:07:39.34,0:07:43.50,DCItalic,CONAN,0000,0000,0000,,Memorize his clothes and possessions \Nand use them to spot him.
+Dialogue: 0,0:07:43.50,0:07:45.34,DCMain,GENTA,0000,0000,0000,,All right.
+Dialogue: 0,0:08:05.17,0:08:06.29,Oil,SIGN,0000,0000,0000,,Vegetable Oil
+Dialogue: 0,0:08:11.48,0:08:15.25,DCMain,GENTA,0000,0000,0000,,What's he buying all that stuff for?
+Dialogue: 0,0:08:15.25,0:08:17.97,DCItalic,CONAN,0000,0000,0000,,They're all highly flammable objects.
+Dialogue: 0,0:08:17.97,0:08:20.56,DCMain,GENTA,0000,0000,0000,,What? Then are they actually...
+Dialogue: 0,0:08:35.82,0:08:43.58,Restaurant,SIGN,0000,0000,0000,,Singaporean Restaurant
+Dialogue: 0,0:08:56.84,0:08:58.32,DCItalic,CONAN,0000,0000,0000,,What's wrong, Ayumi-chan?
+Dialogue: 0,0:08:58.76,0:09:01.34,DCMain,AYUMI,0000,0000,0000,,Th-There's a strange \Nsound coming from inside.
+Dialogue: 0,0:09:01.34,0:09:03.75,DCItalic,CONAN,0000,0000,0000,,It's okay. I'm here for you.
+Dialogue: 0,0:09:04.45,0:09:05.35,DCMain,AYUMI,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:16.27,0:09:20.59,DCItalic,CONAN,0000,0000,0000,,Watch your step. Walk slowly and carefully.
+Dialogue: 0,0:09:20.59,0:09:21.63,DCMain,AYUMI,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:32.15,0:09:33.38,DCMain,KAORI,0000,0000,0000,,Who are you?
+Dialogue: 0,0:10:07.49,0:10:08.33,DCMain,KADOKURA,0000,0000,0000,,Hello?
+Dialogue: 0,0:10:22.54,0:10:24.97,DCItalic,CONAN,0000,0000,0000,,Why are you making that face, Mitsuhiko?
+Dialogue: 0,0:10:25.48,0:10:29.07,DCMain,MITSUHIKO,0000,0000,0000,,There's something strange about his actions,
+Dialogue: 0,0:10:29.07,0:10:31.84,DCMain,MITSUHIKO,0000,0000,0000,,but I don't know what it is.
+Dialogue: 0,0:10:31.84,0:10:36.60,DCItalic,CONAN,0000,0000,0000,,Good grief. I thought you \Nwere smarter than this.
+Dialogue: 0,0:10:37.35,0:10:41.57,DCItalic,CONAN,0000,0000,0000,,Don't I always tell you how \Nimportant it is to observe?
+Dialogue: 0,0:10:42.21,0:10:45.24,DCItalic,CONAN,0000,0000,0000,,Think back on the things you saw.
+Dialogue: 0,0:10:45.99,0:10:50.25,DCMain,MITSUHIKO,0000,0000,0000,,You're right. He was sitting \Nin the non-smoking section.
+Dialogue: 0,0:10:51.01,0:10:55.25,DCMain,MITSUHIKO,0000,0000,0000,,But after taking a seat once, he switched \Nto a different table closer to the front.
+Dialogue: 0,0:10:55.84,0:10:58.13,DCMain,CONAN,0000,0000,0000,,Why did he do that?
+Dialogue: 0,0:11:00.26,0:11:01.39,DCMain,MITSUHIKO,0000,0000,0000,,I know!
+Dialogue: 0,0:11:01.82,0:11:04.39,DCMain,MITSUHIKO,0000,0000,0000,,The back of the restaurant \Nis near the smoking section.
+Dialogue: 0,0:11:04.70,0:11:06.89,DCMain,MITSUHIKO,0000,0000,0000,,The smell of cigarettes bothered him.
+Dialogue: 0,0:11:07.10,0:11:09.52,DCItalic,CONAN,0000,0000,0000,,So he hates cigarettes.
+Dialogue: 0,0:11:09.94,0:11:14.15,DCMain,MITSUHIKO,0000,0000,0000,,So why did he stop at a cigarette shop?
+Dialogue: 0,0:11:21.31,0:11:23.27,DCMain,MITSUHIKO,0000,0000,0000,,He bought something.
+Dialogue: 0,0:11:23.27,0:11:25.39,DCItalic,CONAN,0000,0000,0000,,Something's definitely fishy.
+Dialogue: 0,0:11:25.39,0:11:26.13,DCMain,MITSUHIKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:39.68,0:11:40.92,DCMain,KADOKURA,0000,0000,0000,,Hey, kid.
+Dialogue: 0,0:11:41.36,0:11:43.43,DCMain,KADOKURA,0000,0000,0000,,You got some business with me?
+Dialogue: 0,0:12:06.02,0:12:09.05,DCMain,KADOKURA,0000,0000,0000,,I see. So you overheard us.
+Dialogue: 0,0:12:09.05,0:12:12.50,DCMain,MITSUHIKO,0000,0000,0000,,Explain yourselves.
+Dialogue: 0,0:12:15.24,0:12:16.98,DCMain,MITSUHIKO,0000,0000,0000,,What's so funny?
+Dialogue: 0,0:12:17.50,0:12:21.01,DCMain,KADOKURA,0000,0000,0000,,Oh, sorry. An explosive time, huh?
+Dialogue: 0,0:12:21.40,0:12:26.51,DCMain,KADOKURA,0000,0000,0000,,I see. That certainly sounds \Nlike we're setting up a bomb.
+Dialogue: 0,0:12:26.78,0:12:28.67,DCMain,MITSUHIKO,0000,0000,0000,,What? You're not?
+Dialogue: 0,0:12:28.67,0:12:30.85,DCMain,YAMAWAKI,0000,0000,0000,,Hey, what's going on?
+Dialogue: 0,0:12:31.40,0:12:33.29,DCMain,YAMAWAKI,0000,0000,0000,,Who's the kid?
+Dialogue: 0,0:12:33.29,0:12:34.76,DCMain,GENTA,0000,0000,0000,,Mitsuhiko!
+Dialogue: 0,0:12:34.76,0:12:36.21,DCMain,GENTA,0000,0000,0000,,Be careful!
+Dialogue: 0,0:12:36.21,0:12:39.96,DCMain,GENTA,0000,0000,0000,,He was buying oil and gas \Nat the hardware store!
+Dialogue: 0,0:12:39.96,0:12:42.40,DCMain,GENTA,0000,0000,0000,,They must be planning \Nto build a bomb with it!
+Dialogue: 0,0:12:44.45,0:12:45.72,DCMain,YAMAWAKI,0000,0000,0000,,No way.
+Dialogue: 0,0:12:47.60,0:12:49.91,DCMain,KADOKURA,0000,0000,0000,,Listen, this is a misunderstanding.
+Dialogue: 0,0:12:50.31,0:12:53.21,DCMain,YAMAWAKI,0000,0000,0000,,This is our food truck.
+Dialogue: 0,0:12:53.21,0:12:57.29,DCMain,YAMAWAKI,0000,0000,0000,,We're trying to sell our \Nchicken rice here today.
+Dialogue: 0,0:12:57.50,0:12:59.42,DCMain,GENTA,0000,0000,0000,,Chicken rice?
+Dialogue: 0,0:12:59.88,0:13:02.42,DCMain,KADOKURA,0000,0000,0000,,It's a famous Singaporean dish.
+Dialogue: 0,0:13:02.42,0:13:06.83,DCMain,KADOKURA,0000,0000,0000,,We work at a nearby restaurant called Marina.
+Dialogue: 0,0:13:06.83,0:13:10.93,DCMain,KADOKURA,0000,0000,0000,,We decided to participate in this \Nevent to show off our best dish.
+Dialogue: 0,0:13:11.51,0:13:16.19,DCMain,KADOKURA,0000,0000,0000,,If we do well today, the restaurant will \Nget lots of customers starting tomorrow.
+Dialogue: 0,0:13:16.59,0:13:22.94,DCMain,YAMAWAKI,0000,0000,0000,,The explosive time you heard us talking \Nabout was in reference to explosive sales.
+Dialogue: 0,0:13:23.14,0:13:26.85,DCMain,GENTA,0000,0000,0000,,Chicken rice, huh? That sounds good.
+Dialogue: 0,0:13:26.85,0:13:29.83,DCMain,MITSUHIKO,0000,0000,0000,,Then what did you get at the cigarette shop?
+Dialogue: 0,0:13:31.13,0:13:35.33,DCMain,KADOKURA,0000,0000,0000,,These. I had a printer \Nfriend make them for me.
+Dialogue: 0,0:13:36.12,0:13:39.84,DCMain,KADOKURA,0000,0000,0000,,Since I ordered them late, they \Nweren't finished until today.
+Dialogue: 0,0:13:40.72,0:13:45.38,DCMain,KADOKURA,0000,0000,0000,,I was supposed to pick them up at a \Ncafé, but he was too busy to come,
+Dialogue: 0,0:13:45.38,0:13:48.84,DCMain,KADOKURA,0000,0000,0000,,so he called to say he left them \Nwith that shop he regularly visits.
+Dialogue: 0,0:13:54.17,0:13:55.35,DCMain,BOTH,0000,0000,0000,,Ayumi-chan!
+Dialogue: 0,0:13:54.17,0:13:55.35,DCMain,BOTH,0000,0000,0000,,Ayumi!
+Dialogue: 0,0:13:58.56,0:14:01.43,DCMain,AYUMI,0000,0000,0000,,It seems like we were confused.
+Dialogue: 0,0:14:01.88,0:14:04.19,DCMain,AYUMI,0000,0000,0000,,They're not bad people.
+Dialogue: 0,0:14:04.62,0:14:06.56,DCMain,KADOKURA,0000,0000,0000,,Where'd you find this girl?
+Dialogue: 0,0:14:06.56,0:14:10.95,DCMain,KAORI,0000,0000,0000,,I ran into her when I returned to the \Nrestaurant to pick up the prepped chicken.
+Dialogue: 0,0:14:11.41,0:14:15.13,DCMain,KAORI,0000,0000,0000,,Since I had the apron and knife \Nwe use to butcher chicken,
+Dialogue: 0,0:14:15.13,0:14:16.97,DCMain,KAORI,0000,0000,0000,,I scared her.
+Dialogue: 0,0:14:18.18,0:14:20.33,DCMain,AYUMI,0000,0000,0000,,They were just trying to cook.
+Dialogue: 0,0:14:20.83,0:14:22.59,DCMain,GENTA,0000,0000,0000,,Chicken rice, huh?
+Dialogue: 0,0:14:24.02,0:14:27.93,DCItalic,CONAN,0000,0000,0000,,Are you going to back down now, detective?
+Dialogue: 0,0:14:27.93,0:14:29.61,DCMain,MITSUHIKO,0000,0000,0000,,Of course not!
+Dialogue: 0,0:14:29.61,0:14:32.60,DCItalic,CONAN,0000,0000,0000,,Then hold out a little longer.
+Dialogue: 0,0:14:33.94,0:14:35.03,DCMain,MITSUHIKO,0000,0000,0000,,Hold out?
+Dialogue: 0,0:14:36.45,0:14:39.85,DCMain,MITSUHIKO,0000,0000,0000,,But why do you need so much oil and gas?
+Dialogue: 0,0:14:40.13,0:14:42.99,DCMain,YAMAWAKI,0000,0000,0000,,There was a mistake, and \Nour stuff didn't arrive.
+Dialogue: 0,0:14:42.99,0:14:45.34,DCMain,YAMAWAKI,0000,0000,0000,,We did the basic prep work at the restaurant,
+Dialogue: 0,0:14:45.34,0:14:51.06,DCMain,YAMAWAKI,0000,0000,0000,,but we heat up the soup and make \Nthe sauce inside the food truck.
+Dialogue: 0,0:14:51.06,0:14:55.37,DCMain,KADOKURA,0000,0000,0000,,We received our eating and cooking utensils, \Nbut we don't have any oil or gas.
+Dialogue: 0,0:14:56.07,0:14:59.05,DCMain,KADOKURA,0000,0000,0000,,We considered giving up,
+Dialogue: 0,0:14:59.05,0:15:02.63,DCMain,KADOKURA,0000,0000,0000,,but we managed to get everything \Nin time by going out and buying it.
+Dialogue: 0,0:15:03.29,0:15:07.63,DCMain,KADOKURA,0000,0000,0000,,Although the unnecessary expense \Nwill probably put us in the red.
+Dialogue: 0,0:15:07.91,0:15:12.14,DCMain,KAORI,0000,0000,0000,,Don't worry. If we spread the name \NMarina here, starting tomorrow...
+Dialogue: 0,0:15:12.66,0:15:16.51,DCMain,YAMAWAKI,0000,0000,0000,,...our sales could explode!
+Dialogue: 0,0:15:19.49,0:15:23.57,DCItalic,CONAN,0000,0000,0000,,This might have been a \Nmisunderstanding on our part.
+Dialogue: 0,0:15:23.57,0:15:27.56,DCItalic,CONAN,0000,0000,0000,,After all, they say there's \Nno such thing as an evil cook.
+Dialogue: 0,0:15:27.56,0:15:29.44,DCMain,GENTA,0000,0000,0000,,Yeah, you're right.
+Dialogue: 0,0:15:30.04,0:15:32.50,DCItalic,CONAN,0000,0000,0000,,Sounds like it was a misunderstanding.
+Dialogue: 0,0:15:32.50,0:15:33.54,DCMain,MITSUHIKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:15:33.54,0:15:35.48,DCItalic,CONAN,0000,0000,0000,,Well, don't worry about it.
+Dialogue: 0,0:15:35.48,0:15:37.86,DCItalic,CONAN,0000,0000,0000,,Detectives are bound to make mistakes.
+Dialogue: 0,0:15:41.17,0:15:45.19,DCItalic,CONAN,0000,0000,0000,,Ayumi-chan, are you sure you want to give up?
+Dialogue: 0,0:15:45.81,0:15:49.21,DCItalic,CONAN,0000,0000,0000,,Isn't there one last thing you need to confirm?
+Dialogue: 0,0:15:50.43,0:15:52.59,DCMain,AYUMI,0000,0000,0000,,Let us eat your chicken rice.
+Dialogue: 0,0:15:52.85,0:15:53.68,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:15:53.97,0:15:59.47,DCMain,AYUMI,0000,0000,0000,,If you really work in a restaurant, you \Nshould be able to make some chicken rice.
+Dialogue: 0,0:16:00.93,0:16:01.98,DCMain,YAMAWAKI,0000,0000,0000,,Good grief.
+Dialogue: 0,0:16:02.42,0:16:03.73,DCMain,KADOKURA,0000,0000,0000,,We don't have a choice.
+Dialogue: 0,0:16:04.17,0:16:05.73,DCMain,KAORI,0000,0000,0000,,We're not open yet, but...
+Dialogue: 0,0:16:06.07,0:16:07.86,DCMain,YAMAWAKI,0000,0000,0000,,We'll make an exception for you.
+Dialogue: 0,0:16:08.06,0:16:09.86,DCMain,GENTA,0000,0000,0000,,All right!
+Dialogue: 0,0:16:14.86,0:16:16.46,DCMain,KADOKURA,0000,0000,0000,,Three chicken rices ready.
+Dialogue: 0,0:16:16.46,0:16:17.62,DCMain,KAORI,0000,0000,0000,,Got it.
+Dialogue: 0,0:16:17.97,0:16:20.22,DCMain,KAORI,0000,0000,0000,,Thanks for waiting.
+Dialogue: 0,0:16:20.22,0:16:22.06,DCMain,KAORI,0000,0000,0000,,Use as much sauce as you'd like.
+Dialogue: 0,0:16:22.06,0:16:23.78,DCMain,KAORI,0000,0000,0000,,We didn't make it too spicy.
+Dialogue: 0,0:16:23.78,0:16:26.13,DCMain,AYUMI,0000,0000,0000,,What? This is chicken rice?
+Dialogue: 0,0:16:26.62,0:16:29.63,DCMain,MITSUHIKO,0000,0000,0000,,It's nothing like what I imagined.
+Dialogue: 0,0:16:29.83,0:16:31.54,DCMain,GENTA,0000,0000,0000,,It's not red.
+Dialogue: 0,0:16:33.09,0:16:38.89,DCMain,KAORI,0000,0000,0000,,What you normally eat is fried \Nrice flavored with ketchup, right?
+Dialogue: 0,0:16:38.89,0:16:43.97,DCMain,KADOKURA,0000,0000,0000,,Singaporean chicken rice is \Nrice cooked in chicken broth
+Dialogue: 0,0:16:43.97,0:16:46.44,DCMain,KADOKURA,0000,0000,0000,,and topped with steamed chicken.
+Dialogue: 0,0:16:46.44,0:16:50.05,DCMain,KADOKURA,0000,0000,0000,,Then you cover it with whatever \Nsauces you want and eat it.
+Dialogue: 0,0:16:50.05,0:16:53.03,DCMain,YAMAWAKI,0000,0000,0000,,It's the national dish of Singapore.
+Dialogue: 0,0:16:53.62,0:16:55.62,DCMain,ALL,0000,0000,0000,,Thanks for the food!
+Dialogue: 0,0:16:58.99,0:17:00.04,DCMain,GENTA,0000,0000,0000,,It's delicious!
+Dialogue: 0,0:17:01.16,0:17:02.29,DCMain,AYUMI,0000,0000,0000,,It's good!
+Dialogue: 0,0:17:02.66,0:17:05.29,DCMain,MITSUHIKO,0000,0000,0000,,This sauce goes perfectly with chicken!
+Dialogue: 0,0:17:05.66,0:17:07.67,DCMain,KADOKURA,0000,0000,0000,,Has this resolved our misunderstanding?
+Dialogue: 0,0:17:08.02,0:17:08.95,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:09.67,0:17:11.31,DCMain,GENTA,0000,0000,0000,,More!
+Dialogue: 0,0:17:12.12,0:17:16.03,DCMain,MITSUHIKO,0000,0000,0000,,We're really sorry. We were just confused.
+Dialogue: 0,0:17:16.95,0:17:19.18,DCMain,KADOKURA,0000,0000,0000,,It's fine. Don't worry about it.
+Dialogue: 0,0:17:24.24,0:17:25.93,DCMain,MITSUHIKO,0000,0000,0000,,Thanks for the food.
+Dialogue: 0,0:17:25.93,0:17:27.31,DCMain,GENTA,0000,0000,0000,,It was great.
+Dialogue: 0,0:17:27.31,0:17:29.44,DCMain,AYUMI,0000,0000,0000,,Can I ask you something?
+Dialogue: 0,0:17:29.96,0:17:30.96,DCMain,KADOKURA,0000,0000,0000,,What is it?
+Dialogue: 0,0:17:30.96,0:17:35.20,DCMain,AYUMI,0000,0000,0000,,Why do you have a giant \Nstar on your food truck?
+Dialogue: 0,0:17:37.03,0:17:38.50,DCMain,YAMAWAKI,0000,0000,0000,,What? Oh, this?
+Dialogue: 0,0:17:38.50,0:17:41.84,DCMain,YAMAWAKI,0000,0000,0000,,We like stargazing.
+Dialogue: 0,0:17:41.84,0:17:44.70,DCMain,YAMAWAKI,0000,0000,0000,,On our days off, we always go stargazing.
+Dialogue: 0,0:17:45.17,0:17:47.21,DCMain,KAORI,0000,0000,0000,,We just went last week.
+Dialogue: 0,0:17:47.56,0:17:48.92,DCMain,AYUMI,0000,0000,0000,,Really?
+Dialogue: 0,0:17:50.36,0:17:52.12,DCMain,KADOKURA,0000,0000,0000,,Be careful on your way home.
+Dialogue: 0,0:17:52.12,0:17:53.71,DCMain,KAORI,0000,0000,0000,,And come to our restaurant.
+Dialogue: 0,0:17:53.97,0:17:55.70,DCMain,ALL,0000,0000,0000,,Okay.
+Dialogue: 0,0:17:57.32,0:17:58.92,DCMain,TAKAGI,0000,0000,0000,,Huh? You kids.
+Dialogue: 0,0:17:58.92,0:18:00.80,DCMain,MITSUHIKO,0000,0000,0000,,Detectives Sato and Takagi.
+Dialogue: 0,0:18:01.97,0:18:05.18,DCMain,SATO,0000,0000,0000,,What are you doing? The \Nevent hasn't opened yet.
+Dialogue: 0,0:18:05.37,0:18:07.37,DCMain,AYUMI,0000,0000,0000,,Oh, this and that.
+Dialogue: 0,0:18:07.37,0:18:11.56,DCMain,GENTA,0000,0000,0000,,Those guys made us chicken rice.
+Dialogue: 0,0:18:15.85,0:18:18.95,DCMain,TAKAGI,0000,0000,0000,,Chicken rice? You mean rice \Nflavored with ketchup?
+Dialogue: 0,0:18:19.14,0:18:23.45,DCMain,GENTA,0000,0000,0000,,No! Singaporean chicken \Nrice is totally different!
+Dialogue: 0,0:18:23.45,0:18:27.82,DCMain,AYUMI,0000,0000,0000,,You serve steamed chicken over rice \Nand eat it with all kinds of sauces.
+Dialogue: 0,0:18:27.82,0:18:30.50,DCMain,MITSUHIKO,0000,0000,0000,,It's the national dish of Singapore.
+Dialogue: 0,0:18:30.88,0:18:33.67,DCMain,SATO,0000,0000,0000,,Did they teach you that?
+Dialogue: 0,0:18:34.02,0:18:35.05,DCMain,ALL,0000,0000,0000,,Yes!
+Dialogue: 0,0:18:35.48,0:18:38.55,DCMain,SATO,0000,0000,0000,,They certainly must work at \Na Singaporean restaurant.
+Dialogue: 0,0:18:41.64,0:18:45.03,DCMain,TAKAGI,0000,0000,0000,,That's quite the flashy food truck, though.
+Dialogue: 0,0:18:45.03,0:18:47.62,DCMain,TAKAGI,0000,0000,0000,,There's a giant star on it.
+Dialogue: 0,0:18:47.62,0:18:48.56,DCMain,SATO,0000,0000,0000,,Oh, that's—
+Dialogue: 0,0:18:49.12,0:18:51.92,DCMain,AYUMI,0000,0000,0000,,They said it's because they like stargazing.
+Dialogue: 0,0:18:51.92,0:18:55.27,DCMain,MITSUHIKO,0000,0000,0000,,They go stargazing on their days off.
+Dialogue: 0,0:18:56.33,0:18:58.74,DCMain,SATO,0000,0000,0000,,Really? Is that so?
+Dialogue: 0,0:18:59.18,0:19:02.04,DCMain,SATO,0000,0000,0000,,Well, we've got work to do.
+Dialogue: 0,0:19:03.62,0:19:05.45,DCMain,ALL,0000,0000,0000,,Bye!
+Dialogue: 0,0:19:08.94,0:19:11.96,DCMain,YAMAWAKI,0000,0000,0000,,Jeez. Those kids were odd.
+Dialogue: 0,0:19:12.26,0:19:16.46,DCMain,KAORI,0000,0000,0000,,I wasn't sure what to do when she \Nfollowed me to the restaurant.
+Dialogue: 0,0:19:16.98,0:19:20.22,DCMain,KADOKURA,0000,0000,0000,,They were strangely intelligent,
+Dialogue: 0,0:19:20.87,0:19:23.18,DCMain,KADOKURA,0000,0000,0000,,but kids are kids.
+Dialogue: 0,0:19:25.35,0:19:27.21,DCMain,KADOKURA,0000,0000,0000,,The deal is done.
+Dialogue: 0,0:19:27.65,0:19:33.23,DCMain,KADOKURA,0000,0000,0000,,If that old woman learned a \Nbomb was exchanged at her shop,
+Dialogue: 0,0:19:33.46,0:19:35.38,DCMain,KADOKURA,0000,0000,0000,,she'd be paralyzed with fear.
+Dialogue: 0,0:19:36.56,0:19:40.32,DCMain,YAMAWAKI,0000,0000,0000,,Will it work? It doesn't seem very powerful.
+Dialogue: 0,0:19:40.86,0:19:42.82,DCMain,KADOKURA,0000,0000,0000,,We're inside a car.
+Dialogue: 0,0:19:42.82,0:19:47.79,DCMain,KADOKURA,0000,0000,0000,,If we set it up near the gas tank, \Nthe truck itself will be a bomb.
+Dialogue: 0,0:19:47.79,0:19:51.92,DCMain,KAORI,0000,0000,0000,,And we've got oil, gas tanks, \Nand fuel accelerants.
+Dialogue: 0,0:19:52.28,0:19:56.57,DCMain,KAORI,0000,0000,0000,,I was worried when I heard \Nthe bomb wouldn't arrive
+Dialogue: 0,0:19:56.57,0:19:58.67,DCMain,KAORI,0000,0000,0000,,because of the shipping company's mistake.
+Dialogue: 0,0:19:58.67,0:20:02.43,DCMain,KADOKURA,0000,0000,0000,,But if all this stuff explodes at \Nonce, he won't stand a chance.
+Dialogue: 0,0:20:03.28,0:20:05.60,DCMain,KADOKURA,0000,0000,0000,,Not Megure.
+Dialogue: 0,0:20:07.01,0:20:08.93,DCMain,MEGURE,0000,0000,0000,,What about me?
+Dialogue: 0,0:20:10.18,0:20:11.56,DCMain,TAKAGI,0000,0000,0000,,Don't move!
+Dialogue: 0,0:20:17.64,0:20:19.92,DCMain,MEGURE,0000,0000,0000,,I remember you.
+Dialogue: 0,0:20:19.92,0:20:24.71,DCMain,MEGURE,0000,0000,0000,,We arrested you when you tried \Nto rob a bank seven years ago.
+Dialogue: 0,0:20:24.71,0:20:29.21,DCMain,MEGURE,0000,0000,0000,,I heard you'd gotten out, but to \Nthink you'd do this for revenge.
+Dialogue: 0,0:20:29.21,0:20:33.33,DCMain,SATO,0000,0000,0000,,All of Marina's employees \Nare under our protection.
+Dialogue: 0,0:20:33.99,0:20:40.13,DCMain,SATO,0000,0000,0000,,After entering the restaurant before opening \Nand stealing the ID's of the employees,
+Dialogue: 0,0:20:40.55,0:20:45.09,DCMain,SATO,0000,0000,0000,,they had them prep the chicken rice before \Ntying them up and trapping them in storage.
+Dialogue: 0,0:20:45.60,0:20:50.72,DCMain,MEGURE,0000,0000,0000,,And plotted to blow us up in the park.
+Dialogue: 0,0:20:50.72,0:20:54.43,DCMain,TAKAGI,0000,0000,0000,,They bought the bomb on an illegal website.
+Dialogue: 0,0:20:54.43,0:20:57.61,DCMain,TAKAGI,0000,0000,0000,,The cigarette shop was just \Nused as a drop-off location.
+Dialogue: 0,0:20:58.07,0:21:04.11,DCMain,TAKAGI,0000,0000,0000,,The cyber crimes unit identified \Nthe bomb maker and arrested him.
+Dialogue: 0,0:21:04.48,0:21:06.75,DCMain,KADOKURA,0000,0000,0000,,I thought our plan was perfect.
+Dialogue: 0,0:21:06.75,0:21:08.12,DCMain,KADOKURA,0000,0000,0000,,How did you figure it out?
+Dialogue: 0,0:21:08.61,0:21:10.67,DCMain,SATO,0000,0000,0000,,Thanks to some detectives.
+Dialogue: 0,0:21:10.67,0:21:15.62,DCMain,SATO,0000,0000,0000,,You didn't know what the star \Non this food truck meant.
+Dialogue: 0,0:21:15.96,0:21:16.87,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:21:17.25,0:21:22.22,DCMain,TAKAGI,0000,0000,0000,,America is sometimes called "rice country," \N and Russia is sometimes called "dew country."
+Dialogue: 0,0:21:22.22,0:21:24.01,DCMain,TAKAGI,0000,0000,0000,,What about Singapore?
+Dialogue: 0,0:21:24.38,0:21:26.01,DCMain,YAMAWAKI,0000,0000,0000,,I-Is it...
+Dialogue: 0,0:21:26.40,0:21:28.40,DCMain,SATO,0000,0000,0000,,That's right. It's "star country."
+Dialogue: 0,0:21:28.83,0:21:35.02,DCMain,SATO,0000,0000,0000,,I thought it was strange that someone working at \Na Singaporean restaurant wouldn't know that.
+Dialogue: 0,0:21:36.29,0:21:37.52,DCMain,KADOKURA,0000,0000,0000,,Damn it!
+Dialogue: 0,0:21:38.19,0:21:44.22,DCMain,MEGURE,0000,0000,0000,,The Detective Boys actually \Ndid a good job this time.
+Dialogue: 0,0:23:05.44,0:23:09.38,DCMain,AYUMI,0000,0000,0000,,Aw, shucks. I hope Conan-kun comes home soon.
+Dialogue: 0,0:23:09.38,0:23:12.20,DCMain,MITSUHIKO,0000,0000,0000,,I was so sure it was a case.
+Dialogue: 0,0:23:12.20,0:23:14.99,DCMain,GENTA,0000,0000,0000,,Who cares? The chicken rice was good.
+Dialogue: 0,0:23:15.25,0:23:18.41,DCMain,AYUMI,0000,0000,0000,,Hey, why don't we stop by \NProfessor Agasa's place?
+Dialogue: 0,0:23:18.41,0:23:19.65,DCMain,MITSUHIKO,0000,0000,0000,,Good idea.
+Dialogue: 0,0:23:19.65,0:23:22.46,DCMain,GENTA,0000,0000,0000,,He might have some tasty food.
+Dialogue: 0,0:23:22.46,0:23:23.88,DCMain,MITSUHIKO,0000,0000,0000,,You're still hungry?
+Dialogue: 0,0:23:23.88,0:23:25.71,DCMain,GENTA,0000,0000,0000,,For dessert.
+Dialogue: 0,0:23:27.61,0:23:30.65,DCMain,ALL,0000,0000,0000,,Professor Agasa!
+Dialogue: 0,0:23:33.71,0:23:36.47,DCItalic,CONAN,0000,0000,0000,,While the kids were visiting the professor,
+Dialogue: 0,0:23:36.87,0:23:42.17,DCItalic,CONAN,0000,0000,0000,,we were caught up in a \Nterrible plot because of him.
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.24,0:23:47.00,DCMain,MITSUHIKO,0000,0000,0000,,It's Sun Wukong.
+Dialogue: 0,0:23:47.00,0:23:49.74,DCMain,WOMAN,0000,0000,0000,,That's right. He's riding the Jindou cloud.
+Dialogue: 0,0:23:52.78,0:23:54.20,DCMain,AYUMI,0000,0000,0000,,What a beautiful ship.
+Dialogue: 0,0:23:56.47,0:23:58.20,DCMain,MITSUHIKO,0000,0000,0000,,It's Talos.
+Dialogue: 0,0:23:58.58,0:24:01.46,DCMain,MAN,0000,0000,0000,,If they don't stop, the company won't last.
+Dialogue: 0,0:24:04.55,0:24:05.69,DCMain,WOMAN,0000,0000,0000,,Tadashi-san?
+Dialogue: 0,0:24:05.69,0:24:07.12,DCMain,AYUMI,0000,0000,0000,,Where are you?
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,The Killer Fist of Talos \N(Part One)
+Dialogue: 0,0:24:09.50,0:24:14.27,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The \NKiller Fist of Talos, Part One!"
+Dialogue: 0,0:24:30.03,0:24:34.95,Hint,TEXT,0000,0000,0000,,Talos
+Dialogue: 0,0:24:30.82,0:24:33.29,DCMain,ALL,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.29,0:24:34.95,DCMain,CONAN,0000,0000,0000,,Talos!
+Dialogue: 0,0:24:34.95,0:24:35.74,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}That chicken rice!
+Dialogue: 0,0:24:34.95,0:24:39.95,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.74,0:24:36.75,DCMain,AYUMI,0000,0000,0000,,{\an8}It was delicious!
+Dialogue: 0,0:24:36.75,0:24:38.09,DCMain,GENTA,0000,0000,0000,,{\an8}Let's brag about it to Conan!
+Dialogue: 0,0:24:38.09,0:24:39.67,DCMain,CONAN,0000,0000,0000,,{\an8}It really is good.
+Dialogue: 0,0:24:39.67,0:24:41.67,DCMain,,0000,0000,0000,,

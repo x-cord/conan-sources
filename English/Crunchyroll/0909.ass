@@ -1,0 +1,411 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0020,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0020,0040,0050,0
+Style: Headline,Trebuchet MS,16,&H0059342A,&H000000FF,&H00F1ECE8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0200,0015,0
+Style: Headline2,Trebuchet MS,16,&H00656663,&H000000FF,&H00E5E5E5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0015,0
+Style: Headline3,Times New Roman,16,&H00656663,&H000000FF,&H00E5E5E5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0015,0
+Style: Toto,Trebuchet MS,22,&H003AEBD4,&H000000FF,&H008D444A,&H00DEE5E1,0,0,0,0,100,100,0,0,1,2,2,7,0020,0020,0018,0
+Style: Open,Trebuchet MS,16,&H0005160A,&H000000FF,&H00A4DED0,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0440,0050,0
+Style: Campground,Trebuchet MS,22,&H001D3C48,&H000000FF,&H0080C2D5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0090,0018,0
+Style: 7mart,Trebuchet MS,18,&H005A5F60,&H000000FF,&H00ABB6C0,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0160,0020,0040,0
+Style: Receipt,Trebuchet MS,14,&H005A5F60,&H000000FF,&H00ABB6C0,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0165,0020,0088,0
+Style: List,Trebuchet MS,12,&H005A5F60,&H000000FF,&H00ABB6C0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0030,0020,0130,0
+Style: Midori,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00983281,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0050,0066,0
+Style: Sumito,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00BA7579,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0065,0020,0066,0
+Style: Fumiaki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00974B48,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0110,0020,0066,0
+Style: Kuninori,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00886281,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0045,0066,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:10.75,0:00:11.99,Headline,TEXT,0000,0000,0000,,Genius Shogi Player's \NMysterious Death
+Dialogue: 0,0:00:21.13,0:00:24.47,Headline2,TEXT,0000,0000,0000,,{\fad(920,125)}Genius Shogi Player's Mysterious Death
+Dialogue: 0,0:00:24.37,0:00:27.04,Headline3,TEXT,0000,0000,0000,,{\fad(125,1)}Grade School Teacher Wakasa \NRumi Saves the Day! \NSubdues Professional Golfer!
+Dialogue: 0,0:00:28.72,0:00:29.66,DCMain,SHIRATORI,0000,0000,0000,,Sir?
+Dialogue: 0,0:00:30.52,0:00:31.57,DCMain,SHIRATORI,0000,0000,0000,,Sir?
+Dialogue: 0,0:00:32.18,0:00:33.46,DCMain,SHIRATORI,0000,0000,0000,,Managing Officer Kuroda?
+Dialogue: 0,0:00:35.88,0:00:38.30,DCMain,SHIRATORI,0000,0000,0000,,Is something wrong, sir?
+Dialogue: 0,0:00:38.30,0:00:40.32,DCMain,KURODA,0000,0000,0000,,It's nothing.
+Dialogue: 0,0:00:41.11,0:00:43.18,DCMain,KURODA,0000,0000,0000,,I was just thinking.
+Dialogue: 0,0:00:43.54,0:00:46.06,DCMain,KURODA,0000,0000,0000,,Did you need something, Shiratori?
+Dialogue: 0,0:00:46.24,0:00:47.53,DCMain,SHIRATORI,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:00:47.53,0:00:50.95,DCMain,SHIRATORI,0000,0000,0000,,I finished the report on \Nthe other day's robbery.
+Dialogue: 0,0:00:50.95,0:00:52.18,DCMain,SHIRATORI,0000,0000,0000,,Here it is.
+Dialogue: 0,0:00:52.18,0:00:52.99,DCMain,KURODA,0000,0000,0000,,Good work.
+Dialogue: 0,0:00:56.88,0:00:58.04,DCMain,SHIRATORI,0000,0000,0000,,Sir.
+Dialogue: 0,0:00:58.04,0:00:59.06,DCMain,KURODA,0000,0000,0000,,What is it?
+Dialogue: 0,0:00:59.06,0:01:01.66,DCMain,SHITATORI,0000,0000,0000,,You seem a bit tired.
+Dialogue: 0,0:01:03.00,0:01:05.62,DCMain,KURODA,0000,0000,0000,,I have a lot on my mind.
+Dialogue: 0,0:01:06.21,0:01:09.34,DCMain,SHIRATORI,0000,0000,0000,,Why not take a break?
+Dialogue: 0,0:01:09.80,0:01:13.28,DCMain,SHIRATORI,0000,0000,0000,,You haven't used any of your \Nvacation time, have you?
+Dialogue: 0,0:01:13.73,0:01:14.78,DCMain,KURODA,0000,0000,0000,,No.
+Dialogue: 0,0:01:15.28,0:01:16.13,DCMain,SHIRATORI,0000,0000,0000,,I know.
+Dialogue: 0,0:01:16.44,0:01:18.31,DCMain,SHIRATORI,0000,0000,0000,,How about camping?
+Dialogue: 0,0:01:18.85,0:01:21.62,DCMain,SHIRATORI,0000,0000,0000,,A nice campground was opened recently.
+Dialogue: 0,0:01:21.62,0:01:25.10,DCMain,SHIRATORI,0000,0000,0000,,Conan-kun and his friends \Nare going next weekend.
+Dialogue: 0,0:01:25.35,0:01:26.60,DCMain,KURODA,0000,0000,0000,,I see.
+Dialogue: 0,0:01:26.60,0:01:29.44,DCMain,KURODA,0000,0000,0000,,The Sleeping Kogoro's adviser, huh?
+Dialogue: 0,0:01:29.44,0:01:33.75,DCMain,SHIRATORI,0000,0000,0000,,Yes. Normally they go with Professor Agasa,
+Dialogue: 0,0:01:33.75,0:01:36.40,DCMain,SHIRATORI,0000,0000,0000,,but Agasa-san is sick.
+Dialogue: 0,0:01:36.40,0:01:39.38,DCMain,SHIRATORI,0000,0000,0000,,This time they'll be accompanied \Nby their grade school teacher.
+Dialogue: 0,0:01:39.84,0:01:41.70,DCMain,KURODA,0000,0000,0000,,A grade school teacher?
+Dialogue: 0,0:01:41.95,0:01:47.71,DCMain,SHIRATORI,0000,0000,0000,,You know, the one who was in the news \Nfor subduing the pro golfer murderer.
+Dialogue: 0,0:01:47.94,0:01:50.32,DCMain,SHIRATORI,0000,0000,0000,,Wakasa Rumi-sensei.
+Dialogue: 0,0:01:52.31,0:01:57.59,DCMain,SHIRATORI,0000,0000,0000,,I'd actually planned to take time \Noff and go with Kobayashi-sensei.
+Dialogue: 0,0:01:57.90,0:02:02.90,DCMain,SHIRATORI,0000,0000,0000,,But if we're going on a date, I thought it'd \Nbe better for just the two of us to go.
+Dialogue: 0,0:02:05.38,0:02:09.31,DCMain,SHIRATORI,0000,0000,0000,,I-In any case, I'll leave these \Ncampsite pamphlets with you.
+Dialogue: 0,0:02:08.19,0:02:09.31,Toto,TEXT,0000,0000,0000,,{\fad(250,1)}Toto Forest Campsite
+Dialogue: 0,0:02:08.19,0:02:09.31,Open,TEXT,0000,0000,0000,,{\fad(250,1)}NEW OPEN!! \NCamping & Barbecue Site
+Dialogue: 0,0:02:09.81,0:02:11.67,DCMain,SHIRATORI,0000,0000,0000,,Well, I should get going.
+Dialogue: 0,0:02:11.67,0:02:13.74,DCMain,KURODA,0000,0000,0000,,Sure. Good work.
+Dialogue: 0,0:02:18.44,0:02:22.94,DCMain,SHIRATORI,0000,0000,0000,,If you don't need those pamphlets, \Nfeel free to throw them away.
+Dialogue: 0,0:02:22.94,0:02:23.82,DCMain,KURODA,0000,0000,0000,,Sure.
+Dialogue: 0,0:02:23.82,0:02:24.69,DCMain,SHIRATORI,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:02:33.48,0:02:35.00,DCMain,KURODA,0000,0000,0000,,Camping, huh?
+Dialogue: 0,0:02:35.00,0:02:37.01,Toto,TEXT,0000,0000,0000,,Toto Forest Campground
+Dialogue: 0,0:02:35.00,0:02:37.01,Open,TEXT,0000,0000,0000,,NEW OPEN!! \NCamping & Barbecue Site
+Dialogue: 0,0:02:40.17,0:02:41.76,DCMain,KURODA,0000,0000,0000,,It's not my style.
+Dialogue: 0,0:02:44.14,0:02:48.27,DCMain,CONAN,0000,0000,0000,,When the countdown reaches zero, use your \Ndetective skills to produce an answer!
+Dialogue: 0,0:02:50.70,0:02:52.73,DCMain,CONAN,0000,0000,0000,,Managing Officer Kuroda and Wakasa-sensei!
+Dialogue: 0,0:02:53.15,0:02:54.82,DCMain,CONAN,0000,0000,0000,,The suspicious duo meets at our campsite!
+Dialogue: 0,0:02:55.07,0:02:56.90,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:56.90,0:02:58.42,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:58.42,0:03:00.49,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:39.00,0:04:45.01,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(404,1)}Mystery of the Burning Tent \N(Part One)
+Dialogue: 0,0:04:39.92,0:04:42.96,DCMain,CONAN,0000,0000,0000,,"Mystery of the Burning Tent, Part One!"
+Dialogue: 0,0:04:49.01,0:04:52.52,Campground,SIGN,0000,0000,0000,,Toto Forest Campground
+Dialogue: 0,0:05:08.74,0:05:09.78,DCMain,AYUMI,0000,0000,0000,,All right!
+Dialogue: 0,0:05:10.29,0:05:12.04,DCMain,ALL,0000,0000,0000,,We pitched the tent!
+Dialogue: 0,0:05:12.34,0:05:13.24,DCMain,WAKASA,0000,0000,0000,,Good.
+Dialogue: 0,0:05:13.81,0:05:15.04,DCMain,WAKASA,0000,0000,0000,,Okay, everyone.
+Dialogue: 0,0:05:15.46,0:05:19.04,DCMain,WAKASA,0000,0000,0000,,Could you go gather some firewood for dinner?
+Dialogue: 0,0:05:19.32,0:05:20.70,DCMain,ALL,0000,0000,0000,,Okay!
+Dialogue: 0,0:05:20.70,0:05:21.55,DCMain,AYUMI,0000,0000,0000,,Ai-chan, let's go!
+Dialogue: 0,0:05:21.85,0:05:22.88,DCMain,GENTA,0000,0000,0000,,There's a bunch over there!
+Dialogue: 0,0:05:22.88,0:05:24.80,DCMain,HAIBARA,0000,0000,0000,,Don't run.
+Dialogue: 0,0:05:26.04,0:05:27.90,DCItalic,CONAN,0000,0000,0000,,Wakasa Rumi-sensei.
+Dialogue: 0,0:05:28.64,0:05:32.05,DCItalic,CONAN,0000,0000,0000,,Assistant homeroom teacher to class \N1-B of Teitan Elementary School.
+Dialogue: 0,0:05:38.68,0:05:42.32,DCItalic,CONAN,0000,0000,0000,,The other day we happened to \Nbe invited to her apartment,
+Dialogue: 0,0:05:43.01,0:05:47.18,DCItalic,CONAN,0000,0000,0000,,and we just happened to get involved \Nin the murder of her neighbor.
+Dialogue: 0,0:05:48.64,0:05:53.45,DCItalic,CONAN,0000,0000,0000,,But the receipt I found in her \Napartment from that morning...
+Dialogue: 0,0:05:53.59,0:05:59.58,7mart,TEXT,0000,0000,0000,,7mart
+Dialogue: 0,0:05:53.59,0:05:59.58,Receipt,TEXT,0000,0000,0000,,Receipt
+Dialogue: 0,0:05:53.59,0:05:59.58,List,TEXT,0000,0000,0000,,Eggs \NBell Pepper \NCarrot \NOnion \NPlate (medium) \NGlass \NMug \NTotal Due \NCash Tendered \NChange
+Dialogue: 0,0:05:54.52,0:05:59.58,DCItalic,CONAN,0000,0000,0000,,It showed she'd bought \Nplates and mugs for us.
+Dialogue: 0,0:06:00.04,0:06:04.47,DCItalic,CONAN,0000,0000,0000,,In other words, that morning she knew \Nher neighbor would commit a murder.
+Dialogue: 0,0:06:05.05,0:06:07.66,DCItalic,CONAN,0000,0000,0000,,In order to involve us,
+Dialogue: 0,0:06:08.12,0:06:10.04,DCItalic,CONAN,0000,0000,0000,,she deliberately ruined the screen
+Dialogue: 0,0:06:10.04,0:06:13.85,DCItalic,CONAN,0000,0000,0000,,and invited us to her apartment \Nunder the pretense of repainting it.
+Dialogue: 0,0:06:14.53,0:06:15.35,DCItalic,CONAN,0000,0000,0000,,No.
+Dialogue: 0,0:06:15.79,0:06:17.28,DCItalic,CONAN,0000,0000,0000,,Not us.
+Dialogue: 0,0:06:17.78,0:06:19.28,DCItalic,CONAN,0000,0000,0000,,Is she after me?
+Dialogue: 0,0:06:20.12,0:06:24.86,DCItalic,CONAN,0000,0000,0000,,When we found the skeleton \Nin the old storage shed,
+Dialogue: 0,0:06:25.48,0:06:28.71,DCItalic,CONAN,0000,0000,0000,,the rust on the trapdoor to the basement \Nthat hadn't been opened in years
+Dialogue: 0,0:06:28.71,0:06:31.28,DCItalic,CONAN,0000,0000,0000,,had been recently removed.
+Dialogue: 0,0:06:32.96,0:06:36.42,DCItalic,CONAN,0000,0000,0000,,If she discovered the body beforehand,
+Dialogue: 0,0:06:37.14,0:06:40.80,DCItalic,CONAN,0000,0000,0000,,and pushed me to get involved in the case...
+Dialogue: 0,0:06:42.52,0:06:44.62,DCItalic,CONAN,0000,0000,0000,,Could this camping trip also be...?
+Dialogue: 0,0:06:45.61,0:06:46.88,DCMain,AYUMI,0000,0000,0000,,Hey, Conan-kun.
+Dialogue: 0,0:06:48.60,0:06:50.71,DCMain,AYUMI,0000,0000,0000,,There's someone like you.
+Dialogue: 0,0:06:50.71,0:06:51.44,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:52.14,0:06:53.64,DCMain,CONAN,0000,0000,0000,,Someone like me?
+Dialogue: 0,0:06:53.82,0:06:55.57,DCMain,GENTA,0000,0000,0000,,That guy over there.
+Dialogue: 0,0:06:55.57,0:06:56.81,DCMain,MITSUHIKO,0000,0000,0000,,He's just like you.
+Dialogue: 0,0:06:57.19,0:06:59.55,DCMain,URUSHIBARA,0000,0000,0000,,I told you.
+Dialogue: 0,0:06:59.55,0:07:00.81,DCMain,URUSHIBARA,0000,0000,0000,,Three more.
+Dialogue: 0,0:07:01.10,0:07:05.15,DCMain,URUSHIBARA,0000,0000,0000,,The curry won't be thick enough unless you \Nadd three more pieces of roux to the curry.
+Dialogue: 0,0:07:05.15,0:07:07.77,DCMain,URUSHIBARA,0000,0000,0000,,You've got to add at least two more.
+Dialogue: 0,0:07:07.77,0:07:09.58,DCMain,ASHIZAWA,0000,0000,0000,,I get it.
+Dialogue: 0,0:07:09.58,0:07:12.97,DCMain,ASHIZAWA,0000,0000,0000,,That's why Midori's out \Nbuying more right now.
+Dialogue: 0,0:07:11.30,0:07:13.55,DCMain,HAIBARA,0000,0000,0000,,I see. It's those fingers.
+Dialogue: 0,0:07:13.99,0:07:19.20,DCMain,HAIBARA,0000,0000,0000,,That's exactly what a certain someone \Ninfluenced by his Gallicized mother does.
+Dialogue: 0,0:07:19.91,0:07:22.46,DCMain,HAIBARA,0000,0000,0000,,This gesture means three, right?
+Dialogue: 0,0:07:22.77,0:07:23.60,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:23.60,0:07:26.45,DCMain,CONAN,0000,0000,0000,,That's three, but this is two.
+Dialogue: 0,0:07:26.45,0:07:28.71,DCMain,AYUMI,0000,0000,0000,,Huh? But that guy...
+Dialogue: 0,0:07:28.92,0:07:31.31,DCMain,GENTA,0000,0000,0000,,He did two like us.
+Dialogue: 0,0:07:29.38,0:07:30.83,DCMain,MIDORI,0000,0000,0000,,{\an8}I found some.
+Dialogue: 0,0:07:30.83,0:07:31.69,DCMain,MIDORI,0000,0000,0000,,{\an8}Here.
+Dialogue: 0,0:07:31.31,0:07:32.09,DCMain,MITSUHIKO,0000,0000,0000,,Why?
+Dialogue: 0,0:07:32.33,0:07:34.82,DCMain,CONAN,0000,0000,0000,,He represents three like \Nthis and two like this.
+Dialogue: 0,0:07:35.30,0:07:39.10,DCMain,CONAN,0000,0000,0000,,On top of that, his fingers \Nare taped, which means...
+Dialogue: 0,0:07:39.61,0:07:41.97,DCMain,CONAN,0000,0000,0000,,Hey, aren't you guys...
+Dialogue: 0,0:07:41.97,0:07:42.95,DCMain,ALL,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:42.95,0:07:45.36,DCMain,CONAN,0000,0000,0000,,...basketball players?
+Dialogue: 0,0:07:45.36,0:07:45.98,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:07:48.04,0:07:53.22,DCMain,CONAN,0000,0000,0000,,Basketball referees extend their pointer \Nand middle fingers to represent two,
+Dialogue: 0,0:07:53.22,0:07:55.52,DCMain,CONAN,0000,0000,0000,,but they use their pointer \Nfinger, middle finger,
+Dialogue: 0,0:07:55.52,0:07:58.99,DCMain,CONAN,0000,0000,0000,,and thumb to represent three so you \Ndon't confuse it with two, right?
+Dialogue: 0,0:07:59.17,0:08:04.26,DCMain,CONAN,0000,0000,0000,,I heard a lot of players \Npick up the same habit.
+Dialogue: 0,0:08:04.26,0:08:07.13,DCMain,MIDORI,0000,0000,0000,,That's amazing, kid. You're exactly right.
+Dialogue: 0,0:08:09.13,0:08:14.89,Midori,TEXT,0000,0000,0000,,{\fad(250,1)}Furuoka Midori (22) \NBasketball Team Manager
+Dialogue: 0,0:08:09.14,0:08:14.89,DCMain,MIDORI,0000,0000,0000,,{\an8}I'm Furuoka Midori, manager of the \NShiraami University basketball team.
+Dialogue: 0,0:08:15.30,0:08:18.36,DCMain,MIDORI,0000,0000,0000,,The guy stirring the curry is the man
+Dialogue: 0,0:08:18.36,0:08:22.64,DCMain,MIDORI,0000,0000,0000,,who became our star player this \Nyear, Ashizawa Sumito-kun.
+Dialogue: 0,0:08:22.84,0:08:25.88,DCMain,ASHIZAWA,0000,0000,0000,,{\an8}What? Don't call me that.
+Dialogue: 0,0:08:22.94,0:08:27.90,Sumito,TEXT,0000,0000,0000,,{\fad(250,1)}Ashizawa Sumito (22) \NBasketball Team Member
+Dialogue: 0,0:08:25.88,0:08:27.90,DCMain,ASHIZAWA,0000,0000,0000,,{\an8}I was riding the bench until last year.
+Dialogue: 0,0:08:28.17,0:08:31.06,DCMain,URUSHIBARA,0000,0000,0000,,But you've been approached \Nby professional teams, right?
+Dialogue: 0,0:08:31.06,0:08:34.20,DCMain,URUSHIBARA,0000,0000,0000,,The other day a scout came \Nto meet you before the game.
+Dialogue: 0,0:08:34.20,0:08:37.16,DCMain,ASHIZAWA,0000,0000,0000,,It was a coincidence.
+Dialogue: 0,0:08:37.16,0:08:40.47,DCMain,URUSHIBARA,0000,0000,0000,,I hope we'll still be friends \Neven after you become famous.
+Dialogue: 0,0:08:40.47,0:08:41.70,DCMain,ASHIZAWA,0000,0000,0000,,S-Sure...
+Dialogue: 0,0:08:41.95,0:08:48.21,Fumiaki,TEXT,0000,0000,0000,,{\fad(250,1)}Urushibara Fumiaki (22) \NBasketball Team Member
+Dialogue: 0,0:08:42.08,0:08:48.21,DCMain,URUSHIBARA,0000,0000,0000,,{\an8}I'm Urushibara Fumiaki, the \Ncornerstone of our team's defense.
+Dialogue: 0,0:08:48.56,0:08:52.14,DCMain,URUSHIBARA,0000,0000,0000,,I'm a stickler when it comes \Nto defending and making curry.
+Dialogue: 0,0:08:53.40,0:09:00.72,DCMain,DANNO,0000,0000,0000,,{\an8}And I'm Danno Kuninori, the former ace who \Nwas blinded by the cornerstone of our defense.
+Dialogue: 0,0:08:54.72,0:09:00.72,Kuninori,TEXT,0000,0000,0000,,{\fad(250,1)}Danno Kuninori (22) \NBasketball Team Manager
+Dialogue: 0,0:09:00.90,0:09:03.02,DCMain,MITSUHIUKO,0000,0000,0000,,B-Blinded?
+Dialogue: 0,0:09:03.02,0:09:04.48,DCMain,GENTA,0000,0000,0000,,Seriously?
+Dialogue: 0,0:09:04.88,0:09:08.72,DCMain,URUSHIBARA,0000,0000,0000,,Yeah. I gently bumped him with \Nmy elbow during practice.
+Dialogue: 0,0:09:08.72,0:09:10.50,DCMain,DANNO,0000,0000,0000,,It wasn't gentle!
+Dialogue: 0,0:09:10.50,0:09:12.00,DCMain,DANNO,0000,0000,0000,,I nearly lost my sight!
+Dialogue: 0,0:09:12.00,0:09:13.95,DCMain,DANNO,0000,0000,0000,,I almost got a glass eye!
+Dialogue: 0,0:09:35.02,0:09:36.97,DCItalic,CONAN,0000,0000,0000,,She's grasping something.
+Dialogue: 0,0:09:39.38,0:09:42.08,DCItalic,CONAN,0000,0000,0000,,What is it? What could it be?
+Dialogue: 0,0:09:42.51,0:09:44.04,DCMain,URUSHIBARA,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:09:44.45,0:09:47.58,DCMain,URUSHIBARA,0000,0000,0000,,Because of that, you got \Ncloser to Midori, right?
+Dialogue: 0,0:09:47.58,0:09:49.52,DCMain,URUSHIBARA,0000,0000,0000,,You should be thanking me.
+Dialogue: 0,0:09:49.52,0:09:50.15,DCMain,DANNO,0000,0000,0000,,What?
+Dialogue: 0,0:09:50.51,0:09:53.42,DCMain,ASHIZAWA,0000,0000,0000,,Urushibara, that's going too far.
+Dialogue: 0,0:09:53.42,0:09:54.38,DCMain,URUSHIBARA,0000,0000,0000,,What?
+Dialogue: 0,0:09:56.05,0:09:58.68,DCMain,URUSHIBARA,0000,0000,0000,,Watch what you say, Ashizawa.
+Dialogue: 0,0:09:58.68,0:09:59.66,DCMain,ASHIZAWA,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:00.09,0:10:03.44,DCMain,URUSHIBARA,0000,0000,0000,,I could crush you anytime I wanted.
+Dialogue: 0,0:10:03.91,0:10:05.54,DCMain,URUSHIBARA,0000,0000,0000,,Just like Danno!
+Dialogue: 0,0:10:05.90,0:10:07.79,DCMain,DANNO,0000,0000,0000,,Y-You bastard...
+Dialogue: 0,0:10:13.86,0:10:15.64,DCMain,URUSHIBARA,0000,0000,0000,,I've had enough.
+Dialogue: 0,0:10:15.64,0:10:17.31,DCMain,URUSHIBARA,0000,0000,0000,,I knew shouldn't have come.
+Dialogue: 0,0:10:17.31,0:10:18.80,DCMain,ASHIZAWA,0000,0000,0000,,Hey...
+Dialogue: 0,0:10:19.01,0:10:22.80,DCMain,URUSHIBARA,0000,0000,0000,,I'm going to drink, have \Nsome snacks, and go to bed.
+Dialogue: 0,0:10:23.11,0:10:25.98,DCMain,URUSHIBARA,0000,0000,0000,,Wake me before you leave tomorrow.
+Dialogue: 0,0:10:25.98,0:10:27.56,DCMain,MIDORI,0000,0000,0000,,Urushibara-kun!
+Dialogue: 0,0:10:32.13,0:10:33.82,DCMain,MIDORI,0000,0000,0000,,This sucks!
+Dialogue: 0,0:10:34.20,0:10:38.70,DCMain,MIDORI,0000,0000,0000,,I invited everyone camping because \Nthings have been tense recently.
+Dialogue: 0,0:10:38.70,0:10:41.06,DCMain,DANNO,0000,0000,0000,,Sorry. I just couldn't take it.
+Dialogue: 0,0:10:41.06,0:10:44.58,DCMain,ASHIZAWA,0000,0000,0000,,Now, now. He'll feel better \Nonce he has some curry.
+Dialogue: 0,0:10:44.89,0:10:47.58,DCMain,ASHIZAWA,0000,0000,0000,,He loves curry.
+Dialogue: 0,0:11:11.10,0:11:12.56,DCMain,GENTA,0000,0000,0000,,That's good!
+Dialogue: 0,0:11:12.88,0:11:15.21,DCMain,GENTA,0000,0000,0000,,This curry is really good!
+Dialogue: 0,0:11:15.21,0:11:16.78,DCMain,AYUMI,0000,0000,0000,,Yeah, it's delicious.
+Dialogue: 0,0:11:16.78,0:11:20.82,DCMain,MITSUHIKO,0000,0000,0000,,Curry tastes better when \Nyou make a lot of it.
+Dialogue: 0,0:11:21.07,0:11:22.54,DCMain,MIDORI,0000,0000,0000,,That's great.
+Dialogue: 0,0:11:22.54,0:11:25.20,DCMain,MIDORI,0000,0000,0000,,There's more, so eat all you want.
+Dialogue: 0,0:11:25.41,0:11:26.68,DCMain,ALL,0000,0000,0000,,Okay!
+Dialogue: 0,0:11:26.68,0:11:30.50,DCMain,WAKASA,0000,0000,0000,,Thank you for letting us join you.
+Dialogue: 0,0:11:30.78,0:11:33.00,DCMain,MIDORI,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:11:33.00,0:11:35.86,DCMain,MIDORI,0000,0000,0000,,We just combined your ingredients with ours.
+Dialogue: 0,0:11:35.86,0:11:39.08,DCMain,DANNO,0000,0000,0000,,And food tastes better when you're \Nsharing it with a large group.
+Dialogue: 0,0:11:39.08,0:11:40.28,DCMain,MIDORI,0000,0000,0000,,I agree.
+Dialogue: 0,0:11:41.01,0:11:42.63,DCMain,ASHIZAWA,0000,0000,0000,,It's no use.
+Dialogue: 0,0:11:43.41,0:11:47.36,DCMain,ASHIZAWA,0000,0000,0000,,Urushibara's hiding in his \Ntent and won't even respond.
+Dialogue: 0,0:11:47.36,0:11:48.76,DCMain,DANNO,0000,0000,0000,,I see.
+Dialogue: 0,0:11:48.76,0:11:50.84,DCMain,MIDORI,0000,0000,0000,,Maybe he's already gone to sleep.
+Dialogue: 0,0:11:51.24,0:11:54.15,DCMain,MIDORI,0000,0000,0000,,He complained when I talked to him earlier.
+Dialogue: 0,0:11:54.60,0:11:56.18,DCMain,MIDORI,0000,0000,0000,,Here, Ashizawa-kun.
+Dialogue: 0,0:11:56.18,0:11:57.74,DCMain,ASHIZAWA,0000,0000,0000,,Thanks.
+Dialogue: 0,0:11:58.27,0:12:00.01,DCMain,DANNO,0000,0000,0000,,But his light's on.
+Dialogue: 0,0:12:00.01,0:12:00.94,DCMain,ASHIZAWA,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:01.26,0:12:02.47,DCMain,MIDORI,0000,0000,0000,,You're right.
+Dialogue: 0,0:12:02.47,0:12:04.65,DCMain,DANNO,0000,0000,0000,,Looks like he's doing squats.
+Dialogue: 0,0:12:04.65,0:12:08.95,DCMain,ASHIZAWA,0000,0000,0000,,Come to think of it, Urushibara said \Nhe does them every night before bed.
+Dialogue: 0,0:12:08.95,0:12:09.95,DCMain,MIDORI,0000,0000,0000,,Really?
+Dialogue: 0,0:12:10.27,0:12:12.77,DCMain,DANNO,0000,0000,0000,,I know. Ashizawa, can I have that curry?
+Dialogue: 0,0:12:12.77,0:12:14.49,DCMain,ASHIZAWA,0000,0000,0000,,Huh? Sure.
+Dialogue: 0,0:12:15.24,0:12:17.59,DCMain,DANNO,0000,0000,0000,,I'm going to take this over there.
+Dialogue: 0,0:12:17.83,0:12:20.48,DCMain,MIDORI,0000,0000,0000,,I see. You're going to lure \Nhim out with the smell.
+Dialogue: 0,0:12:20.48,0:12:21.28,DCMain,DANNO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:21.28,0:12:22.72,DCMain,ASHIZAWA,0000,0000,0000,,You can do it.
+Dialogue: 0,0:12:25.54,0:12:27.44,DCMain,DANNO,0000,0000,0000,,Hey, Urushibara.
+Dialogue: 0,0:12:27.44,0:12:29.35,DCMain,DANNO,0000,0000,0000,,Sorry for picking a fight earlier.
+Dialogue: 0,0:12:30.00,0:12:33.12,DCMain,DANNO,0000,0000,0000,,I know you didn't do it on purpose.
+Dialogue: 0,0:12:33.52,0:12:34.99,DCMain,DANNO,0000,0000,0000,,Come on, Urushibara.
+Dialogue: 0,0:12:36.52,0:12:38.36,DCMain,GENTA,0000,0000,0000,,I'm stuffed.
+Dialogue: 0,0:12:38.36,0:12:41.11,DCMain,GENTA,0000,0000,0000,,I can't eat anymore.
+Dialogue: 0,0:12:41.11,0:12:42.74,DCMain,MITSUHIKO,0000,0000,0000,,Of course not.
+Dialogue: 0,0:12:42.74,0:12:46.24,DCMain,MITSUHIKO,0000,0000,0000,,You had five heaping servings of curry.
+Dialogue: 0,0:12:46.24,0:12:48.00,DCMain,AYUMI,0000,0000,0000,,You eat too much.
+Dialogue: 0,0:12:48.96,0:12:51.87,DCMain,DANNO,0000,0000,0000,,It's no use. He's not responding.
+Dialogue: 0,0:12:52.82,0:12:56.38,DCMain,DANNO,0000,0000,0000,,He's listening to music on his \Nheadphones while doing squats.
+Dialogue: 0,0:12:56.38,0:12:57.25,DCMain,MIDORI,0000,0000,0000,,I see.
+Dialogue: 0,0:13:01.19,0:13:02.70,DCMain,HAIBARA,0000,0000,0000,,Do you smell something burning?
+Dialogue: 0,0:13:02.70,0:13:03.43,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:04.67,0:13:05.43,DCMain,CONAN,0000,0000,0000,,You're right.
+Dialogue: 0,0:13:06.94,0:13:08.39,DCMain,GENTA,0000,0000,0000,,Hey, look.
+Dialogue: 0,0:13:10.23,0:13:11.93,DCMain,GENTA,0000,0000,0000,,The tent's on fire!
+Dialogue: 0,0:13:12.81,0:13:15.13,DCMain,DANNO,0000,0000,0000,,Isn't that Urushibara's tent?
+Dialogue: 0,0:13:15.13,0:13:15.97,DCMain,MIDORI,0000,0000,0000,,No way...
+Dialogue: 0,0:13:15.97,0:13:16.81,DCMain,ASHIZAWA,0000,0000,0000,,Seriously?
+Dialogue: 0,0:13:17.07,0:13:19.11,DCMain,CONAN,0000,0000,0000,,Water! Everyone get water!
+Dialogue: 0,0:13:19.50,0:13:20.36,DCMain,CONAN,0000,0000,0000,,Hurry!
+Dialogue: 0,0:13:30.92,0:13:31.83,DCMain,CONAN,0000,0000,0000,,Hurry!
+Dialogue: 0,0:14:11.46,0:14:13.00,DCMain,DANNO,0000,0000,0000,,Urushibara...
+Dialogue: 0,0:14:13.00,0:14:14.14,DCMain,MIDORI,0000,0000,0000,,No...
+Dialogue: 0,0:14:14.14,0:14:15.58,DCMain,ASHIZAWA,0000,0000,0000,,No way...
+Dialogue: 0,0:14:18.14,0:14:19.67,DCMain,AYUMI,0000,0000,0000,,Hey, Ai-chan.
+Dialogue: 0,0:14:19.67,0:14:22.09,DCMain,AYUMI,0000,0000,0000,,What happened to the man inside?
+Dialogue: 0,0:14:22.41,0:14:25.05,DCMain,HAIARA,0000,0000,0000,,Don't! You don't want to see that.
+Dialogue: 0,0:14:26.27,0:14:27.30,DCMain,AYUMI,0000,0000,0000,,Okay...
+Dialogue: 0,0:14:30.90,0:14:35.43,DCMain,GENTA,0000,0000,0000,,B-But, Mitsuhiko, why did the tent catch fire?
+Dialogue: 0,0:14:35.84,0:14:38.41,DCMain,MITSUHIKO,0000,0000,0000,,Well, because...
+Dialogue: 0,0:14:40.07,0:14:44.43,DCMain,MITSUHIKO,0000,0000,0000,,Maybe the person in the tent \Nnext door saw something.
+Dialogue: 0,0:14:45.18,0:14:47.30,DCMain,MITSUHIKO,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:14:47.30,0:14:48.70,DCMain,GENTA,0000,0000,0000,,Are you awake?
+Dialogue: 0,0:14:49.05,0:14:50.69,DCMain,MITSUHIKO,0000,0000,0000,,Hello?
+Dialogue: 0,0:14:50.69,0:14:52.14,DCMain,GENTA,0000,0000,0000,,Can you hear us?
+Dialogue: 0,0:14:52.14,0:14:53.70,DCMain,MITSUHIKO,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:14:53.70,0:14:54.93,DCMain,GENTA,0000,0000,0000,,Is anyone home?
+Dialogue: 0,0:14:54.93,0:14:55.98,DCMain,MITSUHIKO,0000,0000,0000,,Hello?
+Dialogue: 0,0:14:55.98,0:14:57.20,DCMain,GENTA,0000,0000,0000,,We're opening the flap!
+Dialogue: 0,0:15:04.79,0:15:06.46,DCItalic,CONAN,0000,0000,0000,,Managing Officer Kuroda?!
+Dialogue: 0,0:15:07.30,0:15:11.40,DCMain,KURODA,0000,0000,0000,,Sorry. I was sleeping with earplugs in.
+Dialogue: 0,0:15:12.70,0:15:15.45,DCMain,KURODA,0000,0000,0000,,But I can tell at a glance what's happening.
+Dialogue: 0,0:15:16.85,0:15:19.53,DCMain,KURODA,0000,0000,0000,,Let's call the police immediately.
+Dialogue: 0,0:15:20.52,0:15:21.88,DCMain,KURODA,0000,0000,0000,,Any objections?
+Dialogue: 0,0:15:24.03,0:15:26.19,DCMain,KURODA,0000,0000,0000,,Wakasa Rumi-sensei?
+Dialogue: 0,0:15:37.98,0:15:40.46,DCMain,AYUMI,0000,0000,0000,,Sensei? Sensei?
+Dialogue: 0,0:15:40.46,0:15:41.87,DCMain,AYUMI,0000,0000,0000,,Wakasa-sensei!
+Dialogue: 0,0:15:48.56,0:15:50.60,DCMain,WAKASA,0000,0000,0000,,What is it, Yoshida-san?
+Dialogue: 0,0:15:50.60,0:15:55.26,DCMain,AYUMI,0000,0000,0000,,That police officer with the scary face
+Dialogue: 0,0:15:55.26,0:15:57.76,DCMain,AYUMI,0000,0000,0000,,is asking if it's okay to call the police.
+Dialogue: 0,0:15:57.76,0:15:58.26,DCMain,WAKASA,0000,0000,0000,,What?
+Dialogue: 0,0:15:58.48,0:16:01.84,DCMain,KURODA,0000,0000,0000,,Well, Wakasa Rumi-sensei?
+Dialogue: 0,0:16:02.40,0:16:06.92,DCMain,WAKASA,0000,0000,0000,,A tent caught fire, and a man is dead.
+Dialogue: 0,0:16:06.92,0:16:09.82,DCMain,WAKASA,0000,0000,0000,,It seems natural to me \Nthat we'd call the police.
+Dialogue: 0,0:16:10.30,0:16:12.15,DCMain,WAKASA,0000,0000,0000,,Why are you asking me?
+Dialogue: 0,0:16:12.15,0:16:14.95,DCMain,WAKASA,0000,0000,0000,,And how do you know my name?
+Dialogue: 0,0:16:16.17,0:16:20.40,DCMain,KURODA,0000,0000,0000,,You were glaring at me with \Nsuch a fierce expression,
+Dialogue: 0,0:16:20.40,0:16:22.71,DCMain,KURODA,0000,0000,0000,,I thought you had an objection.
+Dialogue: 0,0:16:22.71,0:16:27.32,DCMain,KURODA,0000,0000,0000,,Because of this face, people often look away,
+Dialogue: 0,0:16:27.32,0:16:30.83,DCMain,KURODA,0000,0000,0000,,but they rarely stare.
+Dialogue: 0,0:16:31.22,0:16:32.72,DCMain,WAKASA,0000,0000,0000,,Really?
+Dialogue: 0,0:16:33.17,0:16:36.15,DCMain,KURODA,0000,0000,0000,,And I saw your name in the news.
+Dialogue: 0,0:16:36.15,0:16:40.12,DCMain,KURODA,0000,0000,0000,,"Grade School Teacher Wakasa \NRumi saves the day!"
+Dialogue: 0,0:16:40.12,0:16:42.73,DCMain,KURODA,0000,0000,0000,,"Subdues professional golfer!"
+Dialogue: 0,0:16:43.35,0:16:45.58,DCMain,WAKASA,0000,0000,0000,,You saw that?
+Dialogue: 0,0:16:45.58,0:16:47.32,DCMain,WAKASA,0000,0000,0000,,How embarrassing.
+Dialogue: 0,0:16:49.08,0:16:50.11,DCItalic,HAIBARA,0000,0000,0000,,This woman...
+Dialogue: 0,0:16:51.02,0:16:52.60,DCItalic,HAIBARA,0000,0000,0000,,Her right eye's blind.
+Dialogue: 0,0:16:55.84,0:16:57.46,DCItalic,CONAN,0000,0000,0000,,Come to think of it,
+Dialogue: 0,0:16:57.46,0:17:00.97,DCItalic,CONAN,0000,0000,0000,,when Wakasa-sensei first introduced\Nherself as our assistant homeroom teacher,
+Dialogue: 0,0:17:01.45,0:17:03.73,DCItalic,CONAN,0000,0000,0000,,she hit her head on the podium.
+Dialogue: 0,0:17:04.84,0:17:08.88,DCItalic,CONAN,0000,0000,0000,,She hit her head on the trapdoor to the \Nbasement in the old storage shed, too.
+Dialogue: 0,0:17:09.88,0:17:11.63,DCItalic,CONAN,0000,0000,0000,,I was beginning to think she was pretending
+Dialogue: 0,0:17:11.63,0:17:15.88,DCItalic,CONAN,0000,0000,0000,,to be a clumsy teacher so we'd \Nunderestimate her, but...
+Dialogue: 0,0:17:17.42,0:17:19.44,DCItalic,CONAN,0000,0000,0000,,What if hitting her head
+Dialogue: 0,0:17:21.29,0:17:23.59,DCItalic,CONAN,0000,0000,0000,,wasn't an accident?
+Dialogue: 0,0:17:48.74,0:17:50.54,DCMain,KURODA,0000,0000,0000,,Sorry, Yuminaga.
+Dialogue: 0,0:17:51.68,0:17:55.64,DCMain,KURODA,0000,0000,0000,,I wasn't sure whether to call \Nyou or violent crime's Megure.
+Dialogue: 0,0:17:55.64,0:17:57.86,DCMain,YUMINAGA,0000,0000,0000,,No problem, sir.
+Dialogue: 0,0:17:57.86,0:18:00.64,DCMain,YUMINAGA,0000,0000,0000,,A fire is arson's job.
+Dialogue: 0,0:18:00.86,0:18:01.68,DCMain,KURODA,0000,0000,0000,,I see.
+Dialogue: 0,0:18:02.06,0:18:03.75,DCMain,KURODA,0000,0000,0000,,So, what's the situation?
+Dialogue: 0,0:18:04.17,0:18:08.52,DCMain,YUMINAGA,0000,0000,0000,,The origin of the fire was the \Ncandle inside the lantern.
+Dialogue: 0,0:18:08.99,0:18:13.24,DCMain,YUMINAGA,0000,0000,0000,,It melted into the other \Ncandles scattered around it,
+Dialogue: 0,0:18:13.24,0:18:15.44,DCMain,YUMINAGA,0000,0000,0000,,so it's kind of a mess.
+Dialogue: 0,0:18:17.12,0:18:21.29,DCMain,YUMINAGA,0000,0000,0000,,The candle fell, igniting \Ncomic books and clothing.
+Dialogue: 0,0:18:21.29,0:18:23.41,DCMain,YUMINAGA,0000,0000,0000,,The fire spread quickly.
+Dialogue: 0,0:18:23.61,0:18:29.93,DCMain,YUMINAGA,0000,0000,0000,,Then it enveloped the victim sleeping in \Nthe legless chair, burning everything.
+Dialogue: 0,0:18:30.40,0:18:34.30,DCMain,YUMINAGA,0000,0000,0000,,It seems the victim had quite a bit to drink.
+Dialogue: 0,0:18:35.31,0:18:38.30,DCMain,YUMINAGA,0000,0000,0000,,The tent entrance was \Nzipped shut all the way.
+Dialogue: 0,0:18:38.30,0:18:43.56,DCMain,YUMINAGA,0000,0000,0000,,It even had a lock on it.
+Dialogue: 0,0:18:44.09,0:18:46.64,DCMain,KURODA,0000,0000,0000,,So it wasn't arson.
+Dialogue: 0,0:18:46.64,0:18:47.84,DCMain,YUMINAGA,0000,0000,0000,,No.
+Dialogue: 0,0:18:47.84,0:18:49.60,DCMain,YUMINAGA,0000,0000,0000,,I believe it was an accident.
+Dialogue: 0,0:18:49.60,0:18:52.04,DCMain,CONAN,0000,0000,0000,,Isn't it strange, though?
+Dialogue: 0,0:18:52.99,0:18:57.94,DCMain,CONAN,0000,0000,0000,,See? There's a single strip of bamboo \Nmixed in with the melted candle.
+Dialogue: 0,0:18:59.42,0:19:04.44,DCMain,YUMINAGA,0000,0000,0000,,That's probably one of the skewers
+Dialogue: 0,0:19:04.44,0:19:06.58,DCMain,YUMINAGA,0000,0000,0000,,from the dango the victim was eating.
+Dialogue: 0,0:19:06.81,0:19:08.00,DCMain,CONAN,0000,0000,0000,,Huh.
+Dialogue: 0,0:19:08.00,0:19:11.54,DCMain,YUMINAGA,0000,0000,0000,,I didn't realize you were here, Conan-kun.
+Dialogue: 0,0:19:11.54,0:19:16.20,DCMain,KURODA,0000,0000,0000,,You're familiar with the \NSleeping Kogoro's adviser?
+Dialogue: 0,0:19:16.20,0:19:17.07,DCMain,YUMINAGA,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:17.07,0:19:20.07,DCMain,YUMINAGA,0000,0000,0000,,He's advised me before.
+Dialogue: 0,0:19:20.07,0:19:24.60,DCMain,CONAN,0000,0000,0000,,Also, if you look closely \Nat the hardened candles,
+Dialogue: 0,0:19:24.90,0:19:28.60,DCMain,CONAN,0000,0000,0000,,there's one with a hole near the tip,
+Dialogue: 0,0:19:28.97,0:19:32.05,DCMain,CONAN,0000,0000,0000,,and for some reason there's a V shaped burn
+Dialogue: 0,0:19:32.05,0:19:35.36,DCMain,CONAN,0000,0000,0000,,on the cover of the magazine \Nnext to the laptop.
+Dialogue: 0,0:19:35.60,0:19:39.32,DCMain,CONAN,0000,0000,0000,,Maybe someone set some kind of mechanism.
+Dialogue: 0,0:19:39.32,0:19:40.79,DCMain,YUMINAGA,0000,0000,0000,,I see.
+Dialogue: 0,0:19:40.79,0:19:42.10,DCMain,YUMINAGA,0000,0000,0000,,You're right.
+Dialogue: 0,0:19:42.10,0:19:47.87,DCMain,KURODA,0000,0000,0000,,Which means that person \Nis one of you three
+Dialogue: 0,0:19:49.86,0:19:53.25,DCMain,KURODA,0000,0000,0000,,who visited his tent one at a time.
+Dialogue: 0,0:20:01.03,0:20:04.01,DCMain,KURODA,0000,0000,0000,,The first to visit his tent
+Dialogue: 0,0:20:04.89,0:20:08.28,DCMain,KURODA,0000,0000,0000,,was Furuoka Midori-san.
+Dialogue: 0,0:20:09.08,0:20:11.42,DCMain,KURODA,0000,0000,0000,,Next was Ashizawa Sumito-san.
+Dialogue: 0,0:20:12.52,0:20:16.35,DCMain,KURODA,0000,0000,0000,,And finally Danno Kuninori-san, correct?
+Dialogue: 0,0:20:16.99,0:20:18.02,DCMain,WAKASA,0000,0000,0000,,Oh, my.
+Dialogue: 0,0:20:19.02,0:20:24.15,DCMain,WAKASA,0000,0000,0000,,Earlier you said you were sleeping \Ninside your tent with earplugs in.
+Dialogue: 0,0:20:24.88,0:20:28.03,DCMain,WAKASA,0000,0000,0000,,But you know the order in which they visited?
+Dialogue: 0,0:20:28.58,0:20:31.95,DCMain,KURODA,0000,0000,0000,,Actually, while nodding off,
+Dialogue: 0,0:20:31.95,0:20:35.83,DCMain,KURODA,0000,0000,0000,,I was watching through a gap in my tent flap
+Dialogue: 0,0:20:36.32,0:20:39.55,DCMain,KURODA,0000,0000,0000,,as you cheerfully ate your curry.
+Dialogue: 0,0:20:39.94,0:20:43.65,DCMain,WAKASA,0000,0000,0000,,Was there someone who caught your interest?
+Dialogue: 0,0:20:44.15,0:20:45.23,DCMain,KURODA,0000,0000,0000,,No.
+Dialogue: 0,0:20:45.23,0:20:47.43,DCMain,KURODA,0000,0000,0000,,I had no particular reason for doing it.
+Dialogue: 0,0:20:47.94,0:20:50.72,DCMain,WAKASA,0000,0000,0000,,No particular reason, huh?
+Dialogue: 0,0:20:51.66,0:20:52.56,DCMain,KURODA,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:53.70,0:20:58.50,DCMain,KURODA,0000,0000,0000,,Since my tent was right next \Nto the tent that burned,
+Dialogue: 0,0:20:58.50,0:21:02.94,DCMain,KURODA,0000,0000,0000,,I remembered the faces and order \Nof the people who came this way.
+Dialogue: 0,0:21:03.33,0:21:06.12,DCMain,KURODA,0000,0000,0000,,But since I had earplugs in,
+Dialogue: 0,0:21:06.12,0:21:11.56,DCMain,KURODA,0000,0000,0000,,I don't know what the three of \Nthem discussed with the victim.
+Dialogue: 0,0:21:13.63,0:21:18.54,DCMain,WAKASA,0000,0000,0000,,And then you went to sleep?
+Dialogue: 0,0:21:21.33,0:21:25.05,DCMain,WAKASA,0000,0000,0000,,Surely you didn't ignore \Nthe tent engulfed in flames
+Dialogue: 0,0:21:25.45,0:21:30.54,DCMain,WAKASA,0000,0000,0000,,so you could observe the person \Nyou're so interested in,
+Dialogue: 0,0:21:30.54,0:21:32.06,DCMain,WAKASA,0000,0000,0000,,right?
+Dialogue: 0,0:21:33.02,0:21:34.25,DCMain,KURODA,0000,0000,0000,,No.
+Dialogue: 0,0:21:34.25,0:21:36.81,DCMain,KURODA,0000,0000,0000,,I made the mistake of falling asleep.
+Dialogue: 0,0:21:37.41,0:21:40.18,DCMain,KURODA,0000,0000,0000,,Though since there was a \Ngrade school teacher present,
+Dialogue: 0,0:21:40.18,0:21:44.53,DCMain,KURODA,0000,0000,0000,,I may have underestimated the situation \Nand believed nothing serious would occur.
+Dialogue: 0,0:21:45.12,0:21:46.82,DCMain,WAKASA,0000,0000,0000,,I see.
+Dialogue: 0,0:21:47.51,0:21:50.86,DCMain,YUMINAGA,0000,0000,0000,,Is she a teacher?
+Dialogue: 0,0:21:50.86,0:21:51.71,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:21:52.38,0:21:55.08,DCMain,CONAN,0000,0000,0000,,She's our assistant homeroom teacher.
+Dialogue: 0,0:21:55.08,0:21:56.58,DCMain,YUMINAGA,0000,0000,0000,,I see.
+Dialogue: 0,0:21:59.67,0:22:04.84,DCMain,KURODA,0000,0000,0000,,So why don't we ask you one by one again...
+Dialogue: 0,0:22:05.61,0:22:11.51,DCMain,KURODA,0000,0000,0000,,What did you discuss with the victim then?
+Dialogue: 0,0:22:12.65,0:22:16.70,DCMain,KURODA,0000,0000,0000,,Let's start with Furuoka Midori-san
+Dialogue: 0,0:22:16.70,0:22:18.66,DCMain,HAIBARA,0000,0000,0000,,who visited the victim's tent first.
+Dialogue: 0,0:22:19.22,0:22:20.66,DCMain,MIDORI,0000,0000,0000,,A-All right...
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.24,0:23:52.44,DCMain,YUMINAGA,0000,0000,0000,,Why did the victim Urushibara-san stay in his \Ntent instead of eating curry with everyone else?
+Dialogue: 0,0:23:52.44,0:23:55.02,DCMain,DANNO,0000,0000,0000,,We got into an argument.
+Dialogue: 0,0:23:55.48,0:23:56.24,DCMain,CONAN,0000,0000,0000,,Hey.
+Dialogue: 0,0:23:56.90,0:23:59.79,DCMain,CONAN,0000,0000,0000,,Danno-san claimed he used to be \Nthe ace of his basketball team.
+Dialogue: 0,0:23:59.79,0:24:00.60,DCMain,CONAN,0000,0000,0000,,Is that true?
+Dialogue: 0,0:24:00.60,0:24:02.04,DCMain,MIDORI,0000,0000,0000,,Yeah, he was.
+Dialogue: 0,0:24:02.56,0:24:03.75,DCMain,AYUMI,0000,0000,0000,,Look.
+Dialogue: 0,0:24:04.05,0:24:05.92,DCMain,AYUMI,0000,0000,0000,,A balancing acorn.
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,TEXT,0000,0000,0000,,Mystery of the Burning Tent \N(Part Two)
+Dialogue: 0,0:24:09.61,0:24:13.51,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Mystery \Nof the Burning Tent, Part Two!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,TEXT,0000,0000,0000,,Wakasa-sensei
+Dialogue: 0,0:24:30.73,0:24:33.06,DCMain,ALL,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.50,0:24:34.99,DCMain,CONAN,0000,0000,0000,,Wakasa-sensei!
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.26,0:24:37.32,DCMain,WAKASA,0000,0000,0000,,{\an8}Managing Officer Kuroda is a bit odd.
+Dialogue: 0,0:24:37.32,0:24:38.31,DCMain,CONAN,0000,0000,0000,,{\an8}Wakasa-sensei...
+Dialogue: 0,0:24:38.31,0:24:39.82,DCMain,HAIBARA,0000,0000,0000,,{\an8}No comment.
+Dialogue: 0,0:24:39.82,0:24:41.82,DCMain,,0000,0000,0000,,

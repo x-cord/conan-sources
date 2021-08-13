@@ -1,0 +1,452 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: LostandFound,Trebuchet MS,16,&H008C7F53,&H000000FF,&H00FFFFF9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Yuya,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007E2C2C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0070,0020,0066,0
+Style: Yuta,Trebuchet MS,22,&H008C8A83,&H000000FF,&H00DCDBD6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: BeachHouse,Trebuchet MS,20,&H00A7986C,&H000000FF,&H00E2E7F2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0100,0020,0012,0
+Style: PhoneStraps,Trebuchet MS,22,&H00FBFFFF,&H000000FF,&H006A76A4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: PlayerNames,Trebuchet MS,16,&H0083917E,&H000000FF,&H00EEF4ED,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0120,0080,0
+Style: PhoneStrapsAgain,Trebuchet MS,16,&H00FBFFFF,&H000000FF,&H00595A8D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0248,0020,0170,0
+Style: ChangingRooms,Trebuchet MS,18,&H00173E58,&H000000FF,&H009AD7FC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0137,0
+Style: BeachHouseAgain,Trebuchet MS,20,&H005792BB,&H000000FF,&H002B6590,&H009AD8F9,-1,0,0,0,100,100,0,0,1,2,2,8,0100,0020,0012,0
+Style: Higo1,Trebuchet MS,16,&H00F7F2F0,&H000000FF,&H0062805E,&H005EC75A,0,0,0,0,100,100,0,0,1,2,2,9,0020,0170,0100,0
+Style: Higo2,Trebuchet MS,16,&H00F7F2F0,&H000000FF,&H0062805E,&H005EC75A,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0018,0
+Style: Sanada1,Trebuchet MS,16,&H00F7F2F0,&H000000FF,&H0062805E,&H005EC75A,0,0,0,0,100,100,0,0,1,2,2,7,0050,0020,0100,0
+Style: Higo3,Trebuchet MS,16,&H00F7F2F0,&H000000FF,&H0062805E,&H005EC75A,0,0,0,0,100,100,0,0,1,2,2,8,0020,0080,0018,0
+Style: Higo4,Trebuchet MS,16,&H00F7F2F0,&H000000FF,&H0062805E,&H005EC75A,0,0,0,0,100,100,0,0,1,2,2,7,0090,0020,0160,0
+Style: Sanada2,Trebuchet MS,16,&H00F7F2F0,&H000000FF,&H0062805E,&H005EC75A,0,0,0,0,100,100,0,0,1,2,2,2,0020,0110,0150,0
+Style: From,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00797979,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0420,0020,0015,0
+Style: Subject,Trebuchet MS,18,&H00050505,&H000000FF,&H00A9A9A9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0420,0020,0040,0
+Style: Text,Trebuchet MS,18,&H00050505,&H000000FF,&H00D2D2D2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0420,0020,0065,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:02.46,0:00:06.98,DCMain,CONAN,0000,0000,0000,,After watching the BIG Osaka \Nversus Tokyo Spirits game,
+Dialogue: 0,0:00:06.98,0:00:08.86,DCMain,CONAN,0000,0000,0000,,we returned to Beika City by train.
+Dialogue: 0,0:00:10.07,0:00:14.57,DCMain,CONAN,0000,0000,0000,,Haibara the Higo super-fan was in a great \Nmood because she got a phone strap of him,
+Dialogue: 0,0:00:15.38,0:00:20.15,DCMain,CONAN,0000,0000,0000,,but when she learned she lost the strap, \Nshe became extremely disheartened.
+Dialogue: 0,0:00:21.79,0:00:25.29,DCMain,CONAN,0000,0000,0000,,Mitsuhiko's phone that was coincidentally \Nrecording a video captured
+Dialogue: 0,0:00:25.29,0:00:30.12,DCMain,CONAN,0000,0000,0000,,a man with his son who were riding \Non the same train picking up her strap.
+Dialogue: 0,0:00:31.01,0:00:33.69,DCMain,CONAN,0000,0000,0000,,Amuro-san, who was parked in front of \NProfessor Agasa's house, became involved,
+Dialogue: 0,0:00:33.69,0:00:36.59,DCMain,CONAN,0000,0000,0000,,and together we set out to \Nsearch for the strap, but...
+Dialogue: 0,0:00:37.22,0:00:39.85,LostandFound,SIGN,0000,0000,0000,,Toto Metro Lost and Found
+Dialogue: 0,0:00:37.69,0:00:39.30,DCMain,EMPLOYEE,0000,0000,0000,,Thanks for waiting, kids.
+Dialogue: 0,0:00:40.39,0:00:42.56,DCMain,EMPLOYEE,0000,0000,0000,,Here. This is the strap, right?
+Dialogue: 0,0:00:43.87,0:00:44.56,DCMain,AYUMI,0000,0000,0000,,What?
+Dialogue: 0,0:00:44.86,0:00:46.22,DCMain,AYUMI,0000,0000,0000,,That's not it!
+Dialogue: 0,0:00:46.22,0:00:48.33,DCMain,GENTA,0000,0000,0000,,That's Sanada!
+Dialogue: 0,0:00:48.33,0:00:51.07,DCMain,MITSUHIKO,0000,0000,0000,,We lost a Higo strap!
+Dialogue: 0,0:00:51.42,0:00:53.43,DCMain,EMPLOYEE,0000,0000,0000,,What? This isn't it?
+Dialogue: 0,0:00:54.14,0:00:58.31,DCMain,CONAN,0000,0000,0000,,Was this the man who turned that in?
+Dialogue: 0,0:00:59.85,0:01:03.08,DCMain,EMPLOYEE,0000,0000,0000,,No, it was a younger man.
+Dialogue: 0,0:01:05.46,0:01:06.88,DCMain,CONAN,0000,0000,0000,,Maybe...
+Dialogue: 0,0:01:07.33,0:01:08.78,DCMain,ALL,0000,0000,0000,,Maybe?
+Dialogue: 0,0:01:08.78,0:01:11.05,DCMain,CONAN,0000,0000,0000,,They could be digging for clams.
+Dialogue: 0,0:01:12.58,0:01:14.67,DCMain,AYUMI,0000,0000,0000,,You go digging for clams in spring!
+Dialogue: 0,0:01:14.67,0:01:16.58,DCMain,GENTA,0000,0000,0000,,We're on summer break!
+Dialogue: 0,0:01:16.58,0:01:20.35,DCMain,CONAN,0000,0000,0000,,Actually, you can do it all year round.
+Dialogue: 0,0:01:20.35,0:01:23.18,DCMain,ALL,0000,0000,0000,,What? Really?
+Dialogue: 0,0:01:23.18,0:01:24.10,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:01:24.63,0:01:30.36,DCMain,AMURO,0000,0000,0000,,And low tide at Chiyari \NBeach is at 5:59 today.
+Dialogue: 0,0:01:30.77,0:01:35.99,DCMain,AMURO,0000,0000,0000,,When digging for clams, it's best to \Narrive an hour or two before low tide,
+Dialogue: 0,0:01:36.47,0:01:39.16,DCMain,AMURO,0000,0000,0000,,so it makes sense that they took that train.
+Dialogue: 0,0:01:39.56,0:01:41.60,DCMain,AYUMI,0000,0000,0000,,Really? Then...
+Dialogue: 0,0:01:41.60,0:01:43.74,DCMain,GENTA,0000,0000,0000,,If we go to that beach...
+Dialogue: 0,0:01:43.74,0:01:46.66,DCMain,MITSUHIKO,0000,0000,0000,,We'll be able to retrieve \NHaibara-san's strap!
+Dialogue: 0,0:01:47.07,0:01:52.13,DCMain,CONAN,0000,0000,0000,,Once that boy realizes the strap \Nhis dad picked up isn't his,
+Dialogue: 0,0:01:52.13,0:01:53.55,DCMain,CONAN,0000,0000,0000,,I'm sure he'll hand it over.
+Dialogue: 0,0:01:53.93,0:01:55.01,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:01:55.01,0:01:56.11,DCMain,AYUMI,0000,0000,0000,,And once we get it,
+Dialogue: 0,0:01:56.11,0:02:01.22,DCMain,AYUMI,0000,0000,0000,,we won't let anyone else take it \Nuntil we return it to Ai-chan!
+Dialogue: 0,0:02:01.69,0:02:03.42,DCMain,AYUMI,0000,0000,0000,,No matter what!
+Dialogue: 0,0:02:03.88,0:02:05.15,DCMain,GENTA,0000,0000,0000,,Yeah!
+Dialogue: 0,0:02:05.15,0:02:07.94,DCMain,MITSUHIKO,0000,0000,0000,,Yes! Haibara-san will be so happy!
+Dialogue: 0,0:02:08.72,0:02:11.06,DCMain,AMURO,0000,0000,0000,,I'll go settle the bill.
+Dialogue: 0,0:02:11.43,0:02:13.94,DCMain,AMURO,0000,0000,0000,,You kids head to the car.
+Dialogue: 0,0:02:14.60,0:02:15.43,DCMain,CONAN,0000,0000,0000,,Sure.
+Dialogue: 0,0:02:16.41,0:02:18.78,DCMain,CONAN,0000,0000,0000,,Thanks, Amuro-san.
+Dialogue: 0,0:02:19.16,0:02:21.28,DCMain,ALL,0000,0000,0000,,Thanks for the food!
+Dialogue: 0,0:02:33.92,0:02:34.95,DCMain,AMURO,0000,0000,0000,,Kazami?
+Dialogue: 0,0:02:39.90,0:02:42.18,DCMain,CONAN,0000,0000,0000,,Time is the y-axis, and I'm the x-axis!
+Dialogue: 0,0:02:42.18,0:02:43.76,DCMain,CONAN,0000,0000,0000,,Inscribing love and cases \Nwith deductive reasoning!
+Dialogue: 0,0:02:44.04,0:02:45.79,DCMain,CONAN,0000,0000,0000,,It holds the key to my school trip!
+Dialogue: 0,0:02:45.79,0:02:47.77,DCMain,CONAN,0000,0000,0000,,Find Haibara's phone strap!
+Dialogue: 0,0:02:48.32,0:02:49.92,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:49.92,0:02:51.68,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:51.68,0:02:54.05,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:34.96,0:04:40.96,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(398,1)}The Heartfelt Strap \N(Part Two)
+Dialogue: 0,0:04:35.54,0:04:38.77,DCMain,CONAN,0000,0000,0000,,“The Heartfelt Strap, Part Two!”
+Dialogue: 0,0:04:45.95,0:04:47.32,DCMain,MITSUHIKO,0000,0000,0000,,It's raining.
+Dialogue: 0,0:04:47.32,0:04:48.39,DCMain,GENTA,0000,0000,0000,,Seriously?
+Dialogue: 0,0:04:48.81,0:04:50.86,DCMain,CONAN,0000,0000,0000,,Looks like it's showering.
+Dialogue: 0,0:04:50.86,0:04:53.63,DCMain,CONAN,0000,0000,0000,,Let's hurry up and get \Ninside Amuro-san's car.
+Dialogue: 0,0:04:53.63,0:04:55.02,DCMain,BOTH,0000,0000,0000,,Okay.
+Dialogue: 0,0:04:55.55,0:04:56.42,DCMain,GENTA,0000,0000,0000,,Aw, man.
+Dialogue: 0,0:04:57.22,0:04:59.57,DCMain,,0000,0000,0000,,The rain's gonna soak me to the core.
+Dialogue: 0,0:05:01.68,0:05:02.47,DCMain,AYUMI,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:05.63,0:05:06.91,DCMain,AYUMI,0000,0000,0000,,Hey! Genta-kun!
+Dialogue: 0,0:05:07.22,0:05:10.78,DCMain,AYUMI,0000,0000,0000,,Hurry up! You'll catch a cold!
+Dialogue: 0,0:05:11.00,0:05:12.79,DCMain,GENTA,0000,0000,0000,,Oh, yeah.
+Dialogue: 0,0:05:12.79,0:05:15.13,DCMain,GENTA,0000,0000,0000,,G-Give me a minute.
+Dialogue: 0,0:05:20.04,0:05:21.05,DCMain,OKIYA,0000,0000,0000,,I see.
+Dialogue: 0,0:05:21.22,0:05:23.93,DCMain,OKIYA,0000,0000,0000,,She's in that state
+Dialogue: 0,0:05:23.93,0:05:30.09,DCMain,OKIYA,0000,0000,0000,,because she lost the Higo \Nstrap that he himself touched?
+Dialogue: 0,0:05:30.09,0:05:31.31,DCMain,AGASA,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:05:31.72,0:05:36.31,DCMain,AGASA,0000,0000,0000,,Seeing her like that reminds me that \Neven though she normally acts so cool,
+Dialogue: 0,0:05:36.61,0:05:40.44,DCMain,AGASA,0000,0000,0000,,she's actually an 18 year-old \Ngirl on the inside.
+Dialogue: 0,0:05:41.39,0:05:46.87,DCMain,OKIYA,0000,0000,0000,,It's easier for us if she \Nremains a young girl.
+Dialogue: 0,0:05:47.47,0:05:48.95,DCMain,AGASA,0000,0000,0000,,Y-You're right.
+Dialogue: 0,0:05:49.48,0:05:53.84,DCMain,AGASA,0000,0000,0000,,I received a message saying \Nthe situation is complicated.
+Dialogue: 0,0:05:53.84,0:05:55.53,DCMain,AGASA,0000,0000,0000,,I wonder if they'll find it.
+Dialogue: 0,0:05:55.53,0:05:58.37,DCMain,OKIYA,0000,0000,0000,,Don't be silly, Professor Agasa.
+Dialogue: 0,0:05:58.37,0:05:59.21,DCMain,AGASA,0000,0000,0000,,S-Silly?
+Dialogue: 0,0:05:59.80,0:06:03.46,DCMain,OKIYA,0000,0000,0000,,It's less likely that it won't be found.
+Dialogue: 0,0:06:04.47,0:06:08.94,DCMain,OKIYA,0000,0000,0000,,Japan's top two inspectors are on the case.
+Dialogue: 0,0:06:12.68,0:06:15.30,DCMain,AYUMI,0000,0000,0000,,There are so many people!
+Dialogue: 0,0:06:15.95,0:06:18.29,DCMain,MITSUHIKO,0000,0000,0000,,It's not even clam hunting season...
+Dialogue: 0,0:06:18.29,0:06:21.11,DCMain,GENTA,0000,0000,0000,,We have to find them among all these people?
+Dialogue: 0,0:06:21.35,0:06:24.18,DCMain,MITSUHIKO,0000,0000,0000,,If only we knew their names...
+Dialogue: 0,0:06:27.48,0:06:28.69,DCMain,AMURO,0000,0000,0000,,Are you in?
+Dialogue: 0,0:06:28.69,0:06:29.63,DCItalic,KAZAMI,0000,0000,0000,,Yes.
+Dialogue: 0,0:06:29.63,0:06:35.64,DCItalic,KAZAMI,0000,0000,0000,,I've boarded the Shonan Shinjuku rapid \Ntrain that departed Takasaki at 13:14.
+Dialogue: 0,0:06:36.13,0:06:38.36,DCMain,AMURO,0000,0000,0000,,Third car from the front.
+Dialogue: 0,0:06:38.80,0:06:42.42,DCMain,AMURO,0000,0000,0000,,It's the center door on the left \Nside facing the direction of travel.
+Dialogue: 0,0:06:42.76,0:06:43.47,DCMain,KAZAMI,0000,0000,0000,,Got it.
+Dialogue: 0,0:06:56.43,0:06:59.85,Yuya,TEXT,0000,0000,0000,,{\fad(250,250)}Kazami Yuya (30) \NMPD Public Security Department
+Dialogue: 0,0:06:56.82,0:06:58.29,DCMain,KAZAMI,0000,0000,0000,,{\an8}I've arrived.
+Dialogue: 0,0:06:58.29,0:07:01.98,DCMain,KAZAMI,0000,0000,0000,,{\an8}I'm in front of the center \Nleft door of car three.
+Dialogue: 0,0:07:01.98,0:07:05.37,DCItalic,AMURO,0000,0000,0000,,Crouch in front of the \Ndoor and breathe on it.
+Dialogue: 0,0:07:05.37,0:07:06.14,DCMain,KAZAMI,0000,0000,0000,,What?
+Dialogue: 0,0:07:06.54,0:07:07.66,DCItalic,AMURO,0000,0000,0000,,Hurry up!
+Dialogue: 0,0:07:08.10,0:07:08.65,DCMain,KAZAMI,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:13.40,0:07:14.64,DCItalic,AMURO,0000,0000,0000,,What does it say?
+Dialogue: 0,0:07:15.35,0:07:16.62,DCMain,KAZAMI,0000,0000,0000,,It's in hiragana.
+Dialogue: 0,0:07:16.62,0:07:19.37,Yuta,TEXT,0000,0000,0000,,Yoshida Yuto
+Dialogue: 0,0:07:16.86,0:07:19.37,DCMain,KAZAMI,0000,0000,0000,,It says “Yoshida Yuto.”
+Dialogue: 0,0:07:20.04,0:07:21.94,DCItalic,AMURO,0000,0000,0000,,Yoshida Yuto, right?
+Dialogue: 0,0:07:22.45,0:07:25.69,DCItalic,AMURO,0000,0000,0000,,I'm glad you happened to be in Kanagawa.
+Dialogue: 0,0:07:25.69,0:07:30.04,DCMain,KAZAMI,0000,0000,0000,,Uh, Furuya-san, what exactly \Nare you investigating?
+Dialogue: 0,0:07:30.04,0:07:31.01,DCItalic,AMURO,0000,0000,0000,,Thanks.
+Dialogue: 0,0:07:31.01,0:07:32.89,DCItalic,KAZAMI,0000,0000,0000,,Hey, wait. Furuya-sa—
+Dialogue: 0,0:07:34.26,0:07:41.14,BeachHouse,SIGN,0000,0000,0000,,Beach House
+Dialogue: 0,0:07:34.81,0:07:36.01,DCMain,AMURO,0000,0000,0000,,I've got it.
+Dialogue: 0,0:07:36.43,0:07:39.37,DCMain,AMURO,0000,0000,0000,,His name is Yoshiya Yuto-kun.
+Dialogue: 0,0:07:39.91,0:07:41.14,DCMain,CONAN,0000,0000,0000,,Yoshida Yuto?
+Dialogue: 0,0:07:41.55,0:07:44.40,DCMain,CONAN,0000,0000,0000,,That's the boy's name?
+Dialogue: 0,0:07:44.40,0:07:45.15,DCMain,AMURO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:45.65,0:07:49.65,DCMain,AMURO,0000,0000,0000,,My friend happened to be on that train.
+Dialogue: 0,0:07:50.15,0:07:52.91,DCMain,AMURO,0000,0000,0000,,I had him breathe on the window
+Dialogue: 0,0:07:52.91,0:07:56.25,DCMain,AMURO,0000,0000,0000,,and check what that boy wrote.
+Dialogue: 0,0:07:56.25,0:07:58.00,DCMain,ALL,0000,0000,0000,,Really?
+Dialogue: 0,0:07:58.00,0:08:00.00,DCItalic,CONAN,0000,0000,0000,,Nice one, Amuro-san.
+Dialogue: 0,0:08:00.00,0:08:01.79,DCItalic,CONAN,0000,0000,0000,,Now that we know that,
+Dialogue: 0,0:08:02.41,0:08:07.41,DCItalic,CONAN,0000,0000,0000,,I'll set my bow tie-shaped voice-changer \Nto loudspeaker mode, and...
+Dialogue: 0,0:08:09.26,0:08:14.55,DCItalic,ANNOUNCE,0000,0000,0000,,Yoshida Yuto-sama from Tokyo, \Nyour friends have arrived.
+Dialogue: 0,0:08:14.55,0:08:17.97,DCItalic,ANNOUNCE,0000,0000,0000,,Please come to the beach house immediately.
+Dialogue: 0,0:08:17.97,0:08:22.46,DCItalic,ANNOUNCE,0000,0000,0000,,Once again, Yoshida Yuto-sama from \NTokyo, your friends have arrived.
+Dialogue: 0,0:08:22.46,0:08:25.61,DCItalic,ANNOUNCE,0000,0000,0000,,Please come to the beach house immediately.
+Dialogue: 0,0:08:25.61,0:08:27.61,DCMain,MITSUHIKO,0000,0000,0000,,H-Hold on, Conan-kun.
+Dialogue: 0,0:08:28.08,0:08:32.43,DCMain,MITSUHIKO,0000,0000,0000,,How do you know that boy's from Tokyo?
+Dialogue: 0,0:08:32.43,0:08:33.67,DCMain,CONAN,0000,0000,0000,,Why wouldn't I?
+Dialogue: 0,0:08:33.67,0:08:34.36,DCMain,MITSUHIKO,0000,0000,0000,,What?
+Dialogue: 0,0:08:34.64,0:08:38.86,DCMain,CONAN,0000,0000,0000,,That train gets crowded at Shinjuku \NStation near the Toto Stadium,
+Dialogue: 0,0:08:38.86,0:08:41.40,DCMain,CONAN,0000,0000,0000,,the Tokyo Spirits' home stadium.
+Dialogue: 0,0:08:41.83,0:08:44.37,DCMain,CONAN,0000,0000,0000,,In other words, the station where we got on.
+Dialogue: 0,0:08:44.62,0:08:48.38,DCMain,CONAN,0000,0000,0000,,But that father and son weren't sitting,
+Dialogue: 0,0:08:48.66,0:08:54.07,DCMain,CONAN,0000,0000,0000,,which means they either got \Non when we did or after that.
+Dialogue: 0,0:08:54.07,0:08:57.16,DCMain,CONAN,0000,0000,0000,,They could only be from Tokyo.
+Dialogue: 0,0:08:57.16,0:08:58.76,DCMain,ALL,0000,0000,0000,,I see...
+Dialogue: 0,0:09:01.13,0:09:02.93,DCMain,FATHER,0000,0000,0000,,E-Excuse me...
+Dialogue: 0,0:09:06.47,0:09:09.81,DCMain,FATHER,0000,0000,0000,,Yoshida Yuto is my son.
+Dialogue: 0,0:09:09.81,0:09:13.53,DCMain,FATHER,0000,0000,0000,,Are you looking for someone \Nelse by the same name?
+Dialogue: 0,0:09:14.99,0:09:16.49,DCMain,ALL,0000,0000,0000,,It's them!
+Dialogue: 0,0:09:18.04,0:09:22.41,DCMain,CONAN,0000,0000,0000,,Mister, you picked up a soccer \Nplayer strap on the train, right?
+Dialogue: 0,0:09:22.41,0:09:25.90,DCMain,FATHER,0000,0000,0000,,Y-Yeah, I thought it was my son's.
+Dialogue: 0,0:09:25.90,0:09:29.04,DCMain,FATHER,0000,0000,0000,,But it was of a different player.
+Dialogue: 0,0:09:29.04,0:09:32.23,DCMain,AYUMI,0000,0000,0000,,That's my friend's!
+Dialogue: 0,0:09:32.23,0:09:35.60,DCMain,MITSUIHKO,0000,0000,0000,,Your son's strap was at Chiyari Station!
+Dialogue: 0,0:09:35.60,0:09:37.30,DCMain,GENTA,0000,0000,0000,,Give it back!
+Dialogue: 0,0:09:38.88,0:09:41.68,DCMain,FATHER,0000,0000,0000,,Sure. I'm glad you came.
+Dialogue: 0,0:09:42.97,0:09:43.85,DCMain,FATHER,0000,0000,0000,,Here.
+Dialogue: 0,0:09:45.23,0:09:47.23,DCMain,FATHER,0000,0000,0000,,Sorry about that, kids.
+Dialogue: 0,0:09:47.61,0:09:48.73,DCMain,CONAN,0000,0000,0000,,No problem.
+Dialogue: 0,0:09:50.42,0:09:51.30,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:09:51.30,0:09:52.02,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:55.71,0:09:57.38,DCMain,ALL,0000,0000,0000,,What?!
+Dialogue: 0,0:09:57.38,0:09:58.37,DCMain,AYUMI,0000,0000,0000,,No way!
+Dialogue: 0,0:09:58.37,0:10:00.16,DCMain,GENTA,0000,0000,0000,,It was stolen?
+Dialogue: 0,0:10:00.16,0:10:01.85,DCMain,MITSUIHIKO,0000,0000,0000,,Who is that?
+Dialogue: 0,0:10:02.35,0:10:03.47,DCMain,CONAN,0000,0000,0000,,No!
+Dialogue: 0,0:10:03.47,0:10:05.05,DCMain,ALL,0000,0000,0000,,Conan-kun!
+Dialogue: 0,0:10:09.00,0:10:10.16,DCMain,CONAN,0000,0000,0000,,Damn!
+Dialogue: 0,0:10:10.16,0:10:14.20,DCMain,CONAN,0000,0000,0000,,Wait, why? It's just a phone strap!
+Dialogue: 0,0:10:14.20,0:10:17.39,DCMain,AMURO,0000,0000,0000,,Come to think of it, I recognize that man.
+Dialogue: 0,0:10:17.39,0:10:18.18,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:10:18.84,0:10:24.59,DCMain,AMURO,0000,0000,0000,,He was standing near the Chiyari Station \Nlost and found when we went there,
+Dialogue: 0,0:10:24.59,0:10:29.60,DCMain,AMURO,0000,0000,0000,,and I think he was sitting behind Ayumi-chan \Nat the family restaurant we just visited.
+Dialogue: 0,0:10:30.00,0:10:36.70,DCMain,MITSUHIKO,0000,0000,0000,,Then maybe he's been following us \Nthis whole time so he could swipe it!
+Dialogue: 0,0:10:36.70,0:10:38.03,DCMain,GENTA,0000,0000,0000,,Seriously?
+Dialogue: 0,0:10:38.03,0:10:39.28,DCMain,AYUMI,0000,0000,0000,,That's awful!
+Dialogue: 0,0:10:39.62,0:10:41.50,DCMain,CONAN,0000,0000,0000,,Yeah, but why?
+Dialogue: 0,0:10:41.88,0:10:44.74,DCMain,CONAN,0000,0000,0000,,It's just a Higo phone strap!
+Dialogue: 0,0:10:44.98,0:10:46.70,DCMain,AYUMI,0000,0000,0000,,It's not just a strap!
+Dialogue: 0,0:10:46.70,0:10:49.40,DCMain,GENTA,0000,0000,0000,,It was really important to Haibara!
+Dialogue: 0,0:10:49.40,0:10:52.54,DCMain,MITSUHIKO,0000,0000,0000,,There's only one strap like \Nit in the whole world!
+Dialogue: 0,0:10:53.20,0:10:56.55,DCItalic,CONAN,0000,0000,0000,,That doesn't answer the question...
+Dialogue: 0,0:10:57.02,0:10:58.90,DCMain,FATHER,0000,0000,0000,,Maybe...
+Dialogue: 0,0:10:59.88,0:11:03.01,DCMain,FATHER,0000,0000,0000,,It's because of what was inside the strap.
+Dialogue: 0,0:11:03.49,0:11:04.14,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:05.32,0:11:08.77,DCMain,FATHER,0000,0000,0000,,Yuto, there was something inside it, right?
+Dialogue: 0,0:11:08.77,0:11:09.43,DCMain,YUTO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:09.88,0:11:12.64,DCMain,YUTO,0000,0000,0000,,It was hard when I squeezed it.
+Dialogue: 0,0:11:13.48,0:11:15.91,DCMain,CONAN,0000,0000,0000,,There was something hard inside?
+Dialogue: 0,0:11:15.91,0:11:17.00,DCMain,MITSUHIKO,0000,0000,0000,,That something...
+Dialogue: 0,0:11:18.08,0:11:23.60,DCMain,MITSUHIKO,0000,0000,0000,,...must be a flash drive \Nwith top secret data on it.
+Dialogue: 0,0:11:23.60,0:11:24.86,DCMain,BOTH,0000,0000,0000,,What?!
+Dialogue: 0,0:11:24.86,0:11:26.88,DCMain,CONAN,0000,0000,0000,,Yeah, right.
+Dialogue: 0,0:11:26.88,0:11:29.66,DCMain,CONAN,0000,0000,0000,,We bought it at the stadium store.
+Dialogue: 0,0:11:30.11,0:11:33.76,DCMain,MITSUHIKO,0000,0000,0000,,Actually, the straps were sold out,
+Dialogue: 0,0:11:33.21,0:11:40.67,PhoneStraps,SIGN,0000,0000,0000,,{\fad(460,1)}Player Phone Straps
+Dialogue: 0,0:11:33.21,0:11:40.67,PlayerNames,SIGN,0000,0000,0000,,{\fad(460,1)}Higo - Sanada
+Dialogue: 0,0:11:33.76,0:11:39.23,DCMain,MITSUHIKO,0000,0000,0000,,and Haibara-san asked the clerk \Nto sell her the display product.
+Dialogue: 0,0:11:39.23,0:11:40.67,DCMain,CONAN,0000,0000,0000,,Really?!
+Dialogue: 0,0:11:41.10,0:11:46.05,DCMain,AMURO,0000,0000,0000,,Then that's not an impossible scenario.
+Dialogue: 0,0:11:46.30,0:11:51.15,DCMain,AMURO,0000,0000,0000,,One person picks up the display product and puts \Nsomething inside it while pretending to look at it.
+Dialogue: 0,0:11:51.15,0:11:53.43,DCMain,AMURO,0000,0000,0000,,Once that product sells out,
+Dialogue: 0,0:11:53.43,0:11:57.12,DCMain,AMURO,0000,0000,0000,,another person asks to \Npurchase the display product.
+Dialogue: 0,0:11:57.56,0:12:00.82,DCMain,AMURO,0000,0000,0000,,It's a way to secretly make a deal.
+Dialogue: 0,0:12:00.90,0:12:05.32,PhoneStrapsAgain,SIGN,0000,0000,0000,,{\fad(335,1)}Player Phone Straps
+Dialogue: 0,0:12:02.16,0:12:05.32,DCMain,AMURO,0000,0000,0000,,But your friend bought the \Ndisplay product first.
+Dialogue: 0,0:12:05.83,0:12:08.58,DCMain,AMURO,0000,0000,0000,,While following her in \Norder to get it back,
+Dialogue: 0,0:12:10.86,0:12:14.08,DCMain,AMURO,0000,0000,0000,,your friend dropped the \Nstrap when the train shook.
+Dialogue: 0,0:12:15.12,0:12:18.84,DCMain,AMURO,0000,0000,0000,,He took advantage of the opportunity to pick \Nup the strap, but it was the wrong one.
+Dialogue: 0,0:12:19.54,0:12:24.59,DCMain,AMURO,0000,0000,0000,,When he went to the station's lost \Nand found to turn in the strap,
+Dialogue: 0,0:12:24.59,0:12:25.84,DCMain,AMURO,0000,0000,0000,,you kids appeared.
+Dialogue: 0,0:12:26.30,0:12:28.85,DCMain,AMURO,0000,0000,0000,,Since it seemed like you'd find \Nthe strap he wanted for himself,
+Dialogue: 0,0:12:30.09,0:12:34.64,DCMain,AMURO,0000,0000,0000,,he resumed following you and waited \Nfor an opportunity to steal it.
+Dialogue: 0,0:12:35.92,0:12:38.68,DCMain,MITSUHIKO,0000,0000,0000,,Then once the deal is done...
+Dialogue: 0,0:12:38.68,0:12:40.85,DCMain,GENTA,0000,0000,0000,,...that strap...
+Dialogue: 0,0:12:40.85,0:12:42.79,DCMain,AYUMI,0000,0000,0000,,...will be thrown away.
+Dialogue: 0,0:12:42.79,0:12:48.07,DCMain,CONAN,0000,0000,0000,,We'll have to split up and find that man!
+Dialogue: 0,0:12:48.37,0:12:49.33,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:12:49.76,0:12:53.37,DCMain,CONAN,0000,0000,0000,,Amuro-san, watch the exits.
+Dialogue: 0,0:12:53.78,0:12:58.50,DCMain,CONAN,0000,0000,0000,,He wasn't dressed like \Nsomeone digging for clams.
+Dialogue: 0,0:12:58.83,0:13:03.63,DCMain,GENTA,0000,0000,0000,,But, Conan, there's still a lot of people.
+Dialogue: 0,0:13:04.37,0:13:09.33,DCMain,MITSUHIKO,0000,0000,0000,,People might help us if we were the police.
+Dialogue: 0,0:13:09.33,0:13:13.26,DCMain,AYUMI,0000,0000,0000,,They'd probably get mad at us \Nif we interrupted their digging.
+Dialogue: 0,0:13:13.64,0:13:16.54,DCMain,CONAN,0000,0000,0000,,Don't worry. We're kids.
+Dialogue: 0,0:13:16.54,0:13:18.65,DCMain,CONAN,0000,0000,0000,,They'll overlook a minor inconvenience.
+Dialogue: 0,0:13:19.02,0:13:22.97,DCMain,CONAN,0000,0000,0000,,Since we're small, we can slip \Nthrough the crowds to look for him.
+Dialogue: 0,0:13:23.38,0:13:27.91,DCMain,CONAN,0000,0000,0000,,In this case, we might actually be more \Neffective than your average police officer.
+Dialogue: 0,0:13:30.02,0:13:31.39,DCMain,GENTA,0000,0000,0000,,Okay!
+Dialogue: 0,0:13:31.39,0:13:33.07,DCMain,MITSUHIKO,0000,0000,0000,,Let's do it!
+Dialogue: 0,0:13:33.07,0:13:33.66,DCMain,AYUMI,0000,0000,0000,,Yeah!
+Dialogue: 0,0:13:34.55,0:13:37.45,DCMain,CONAN,0000,0000,0000,,In any case, loudly describe \Nthat man's appearance
+Dialogue: 0,0:13:37.45,0:13:40.67,DCMain,CONAN,0000,0000,0000,,so the people around you can hear you.
+Dialogue: 0,0:13:40.67,0:13:42.51,DCMain,CONAN,0000,0000,0000,,Once you find him, don't do anything.
+Dialogue: 0,0:13:42.51,0:13:44.67,DCMain,CONAN,0000,0000,0000,,Use your Detective Badge to notify me.
+Dialogue: 0,0:13:45.21,0:13:46.68,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:13:52.23,0:13:58.12,DCMain,AMURO,0000,0000,0000,,It's like you're using the Baker Street \NIrregulars to gather information for you,
+Dialogue: 0,0:13:58.64,0:14:00.44,DCMain,AMURO,0000,0000,0000,,just like Sherlock Holmes.
+Dialogue: 0,0:14:01.31,0:14:03.14,DCMain,AMURO,0000,0000,0000,,I'm surprised, though.
+Dialogue: 0,0:14:03.14,0:14:08.95,DCMain,AMURO,0000,0000,0000,,I didn't think you'd be so desperate to \Nfind the phone strap your friend lost.
+Dialogue: 0,0:14:09.51,0:14:10.52,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:11.66,0:14:13.48,DCMain,CONAN,0000,0000,0000,,There's a reason for that.
+Dialogue: 0,0:14:21.39,0:14:22.88,DCMain,MITSUHIKO,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:14:23.16,0:14:28.88,DCMain,MITSUHIKO,0000,0000,0000,,Has anyone seen a tall \Nman wearing a flat cap?!
+Dialogue: 0,0:14:29.28,0:14:32.18,DCMain,GENTA,0000,0000,0000,,A man wearing a suit jacket and pants!
+Dialogue: 0,0:14:32.18,0:14:34.39,DCMain,GENTA,0000,0000,0000,,Anyone seen him?!
+Dialogue: 0,0:14:34.39,0:14:37.77,DCMain,AYUMI,0000,0000,0000,,Where's the warmly dressed man?!
+Dialogue: 0,0:14:38.08,0:14:39.67,DCMain,MITSUHIKO,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:14:39.67,0:14:44.65,DCMain,MITSUHIKO,0000,0000,0000,,Have you seen a man wearing a flat cap?!
+Dialogue: 0,0:14:45.95,0:14:48.61,DCMain,GENTA,0000,0000,0000,,A man wearing a suit jacket and pants!
+Dialogue: 0,0:14:48.61,0:14:52.28,DCMain,GENTA,0000,0000,0000,,Our friend is watching the \Nexits, so you can't escape!
+Dialogue: 0,0:14:52.86,0:14:54.12,DCMain,MAN,0000,0000,0000,,Damn!
+Dialogue: 0,0:14:55.69,0:14:57.39,DCMain,AYUMI,0000,0000,0000,,A man wearing a suit!
+Dialogue: 0,0:14:57.39,0:14:59.23,DCMain,AYUMI,0000,0000,0000,,Where are you?!
+Dialogue: 0,0:14:59.23,0:15:03.95,DCMain,MITSUHIKO,0000,0000,0000,,Have you seen a tall man wearing a suit?!
+Dialogue: 0,0:15:03.95,0:15:06.01,DCMain,GENTA,0000,0000,0000,,A man wearing a suit jacket and pants!
+Dialogue: 0,0:15:06.01,0:15:09.30,DCMain,GENTA,0000,0000,0000,,Give yourself up! You can't escape!
+Dialogue: 0,0:15:09.30,0:15:11.55,ChangingRooms,SIGN,0000,0000,0000,,Men - Changing Room & Coin Lockers - Women
+Dialogue: 0,0:15:12.10,0:15:13.52,DCItalic,AYUMI,0000,0000,0000,,Ayumi here.
+Dialogue: 0,0:15:14.21,0:15:17.01,DCMain,AYUMI,0000,0000,0000,,I haven't found any sign of that man.
+Dialogue: 0,0:15:17.46,0:15:21.20,DCMain,GENTA,0000,0000,0000,,Maybe he took off his clothes and hat.
+Dialogue: 0,0:15:21.75,0:15:23.82,DCMain,MITSUHIKO,0000,0000,0000,,The sun's starting to set.
+Dialogue: 0,0:15:23.82,0:15:26.57,DCMain,MITSUHIKO,0000,0000,0000,,Maybe he's planning to blend \Nin with the people leaving.
+Dialogue: 0,0:15:26.89,0:15:29.32,DCItalic,MITSUHIKO,0000,0000,0000,,Or maybe he's already escaped.
+Dialogue: 0,0:15:29.62,0:15:32.22,DCMain,CONAN,0000,0000,0000,,He hasn't left. Don't worry.
+Dialogue: 0,0:15:32.22,0:15:36.40,DCMain,CONAN,0000,0000,0000,,As long as you guys keep \Nshouting, eventually...
+Dialogue: 0,0:15:47.65,0:15:50.88,DCMain,CONAN,0000,0000,0000,,I've been waiting for you, mister.
+Dialogue: 0,0:15:51.43,0:15:52.05,DCMain,MAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:52.64,0:15:55.30,DCMain,MAN,0000,0000,0000,,Wh-Who are you, son?
+Dialogue: 0,0:15:57.12,0:15:58.68,DCMain,CONAN,0000,0000,0000,,Don't play dumb.
+Dialogue: 0,0:15:59.15,0:16:01.92,DCMain,CONAN,0000,0000,0000,,You could immediately remove \Nyour hat and jacket,
+Dialogue: 0,0:16:01.92,0:16:05.22,DCMain,CONAN,0000,0000,0000,,swap them out for something you bought here,
+Dialogue: 0,0:16:05.22,0:16:08.69,DCMain,CONAN,0000,0000,0000,,and stuff them into one of \Nthe bags sold at the store,
+Dialogue: 0,0:16:09.34,0:16:12.45,DCMain,CONAN,0000,0000,0000,,but you can't change your pants \Nwithout visiting the changing room.
+Dialogue: 0,0:16:13.03,0:16:13.95,DCMain,MAN,0000,0000,0000,,What?
+Dialogue: 0,0:16:14.31,0:16:15.45,DCMain,CONAN,0000,0000,0000,,Am I wrong?
+Dialogue: 0,0:16:15.82,0:16:21.74,DCMain,MAN,0000,0000,0000,,Listen, I just came to change into \Nshorts so I could go digging for clams.
+Dialogue: 0,0:16:21.74,0:16:24.07,DCMain,CONAN,0000,0000,0000,,But look.
+Dialogue: 0,0:16:24.80,0:16:27.26,DCMain,CONAN,0000,0000,0000,,It's late in the afternoon.
+Dialogue: 0,0:16:27.26,0:16:29.34,DCMain,CONAN,0000,0000,0000,,Everyone's getting ready to leave.
+Dialogue: 0,0:16:30.69,0:16:32.65,DCMain,CONAN,0000,0000,0000,,You're going to start now?
+Dialogue: 0,0:16:33.41,0:16:36.23,DCMain,MAN,0000,0000,0000,,I-I can do what I want!
+Dialogue: 0,0:16:36.23,0:16:39.35,DCMain,CONAN,0000,0000,0000,,And there's a price tag on your hat.
+Dialogue: 0,0:16:39.35,0:16:39.97,DCMain,MAN,0000,0000,0000,,What?
+Dialogue: 0,0:16:40.37,0:16:41.61,DCMain,MAN,0000,0000,0000,,No way...
+Dialogue: 0,0:16:42.96,0:16:46.36,DCMain,CONAN,0000,0000,0000,,That proves you hastily put it \Non as soon as you bought it.
+Dialogue: 0,0:16:46.36,0:16:47.31,DCMain,CONAN,0000,0000,0000,,And besides,
+Dialogue: 0,0:16:47.98,0:16:50.56,DCMain,CONAN,0000,0000,0000,,I can see the head of the strap poking out.
+Dialogue: 0,0:16:50.56,0:16:52.12,DCMain,MAN,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:16:55.35,0:16:59.04,DCMain,MAN,0000,0000,0000,,You idiot. It's hidden right...
+Dialogue: 0,0:17:00.29,0:17:06.35,DCMain,CONAN,0000,0000,0000,,So you {\i1}are{\i0} the man who stole \Nthe Higo strap from us.
+Dialogue: 0,0:17:09.00,0:17:10.18,DCMain,MAN,0000,0000,0000,,Damn it!
+Dialogue: 0,0:17:11.54,0:17:12.71,DCItalic,CONAN,0000,0000,0000,,Idiot.
+Dialogue: 0,0:17:13.31,0:17:14.59,DCItalic,CONAN,0000,0000,0000,,You're not getting away!
+Dialogue: 0,0:17:16.63,0:17:21.29,DCMain,CONAN,0000,0000,0000,,My school trip!
+Dialogue: 0,0:17:22.48,0:17:23.90,DCMain,MITSUHIKO,0000,0000,0000,,This ends now!
+Dialogue: 0,0:17:37.34,0:17:38.36,DCMain,AYUMI,0000,0000,0000,,Whoops!
+Dialogue: 0,0:17:38.76,0:17:39.64,DCMain,MITSUHIKO,0000,0000,0000,,Hey!
+Dialogue: 0,0:17:40.34,0:17:41.03,DCMain,GENTA,0000,0000,0000,,Damn it!
+Dialogue: 0,0:17:45.83,0:17:46.92,DCMain,AYUMI,0000,0000,0000,,Conan-kun!
+Dialogue: 0,0:17:59.46,0:18:01.83,DCMain,ALL,0000,0000,0000,,C-Conan-kun!
+Dialogue: 0,0:18:03.17,0:18:05.06,DCItalic,CONAN,0000,0000,0000,,I managed to keep it from getting wet...
+Dialogue: 0,0:18:05.45,0:18:07.41,DCMain,ALL,0000,0000,0000,,All right!
+Dialogue: 0,0:18:07.41,0:18:11.11,DCItalic,AMURO,0000,0000,0000,,I see. So those are his \NPower-Enhancing Shoes.
+Dialogue: 0,0:18:11.53,0:18:13.23,DCMain,MITSUHIKO,0000,0000,0000,,Impressive, Conan-kun!
+Dialogue: 0,0:18:13.23,0:18:14.09,DCMain,AYUMI,0000,0000,0000,,Yeah!
+Dialogue: 0,0:18:14.09,0:18:16.33,DCMain,GENTA,0000,0000,0000,,You're amazing!
+Dialogue: 0,0:18:16.86,0:18:18.36,BeachHouseAgain,SIGN,0000,0000,0000,,Beach House
+Dialogue: 0,0:18:17.38,0:18:18.36,DCMain,ALL,0000,0000,0000,,What?!
+Dialogue: 0,0:18:18.59,0:18:20.62,DCMain,ALL,0000,0000,0000,,An engagement ring?
+Dialogue: 0,0:18:20.62,0:18:23.74,DCMain,MITSUHIKO,0000,0000,0000,,That's what you put inside the strap?
+Dialogue: 0,0:18:24.42,0:18:28.50,DCMain,MAN,0000,0000,0000,,Yeah. My girlfriend's a huge Higo fan.
+Dialogue: 0,0:18:28.88,0:18:31.33,DCMain,MAN,0000,0000,0000,,I was going to surprise her tonight.
+Dialogue: 0,0:18:34.07,0:18:36.39,DCMain,GENTA,0000,0000,0000,,I-It really was inside.
+Dialogue: 0,0:18:36.39,0:18:37.85,DCMain,AYUMI,0000,0000,0000,,It's so pretty.
+Dialogue: 0,0:18:37.85,0:18:39.76,DCMain,MITSUHIKO,0000,0000,0000,,It looks expensive.
+Dialogue: 0,0:18:40.15,0:18:45.89,DCMain,MAN,0000,0000,0000,,Yeah. I splurged on it, so I was worried \Nif it was actually still inside there.
+Dialogue: 0,0:18:46.44,0:18:50.90,DCMain,MAN,0000,0000,0000,,While checking it on the train,\NI dropped it when the train shook.
+Dialogue: 0,0:18:51.13,0:18:54.15,DCMain,MAN,0000,0000,0000,,I went to pick it up right away, \Nbut it was a different strap.
+Dialogue: 0,0:18:54.92,0:18:59.38,DCMain,MAN,0000,0000,0000,,I saw the father and son \Nstanding nearby pick it up.
+Dialogue: 0,0:18:59.38,0:19:03.91,DCMain,MAN,0000,0000,0000,,I thought I'd explain the situation \Nwhen they got off and exchange straps,
+Dialogue: 0,0:19:04.50,0:19:07.88,DCMain,MAN,0000,0000,0000,,but Chiyari Station was full of \Npeople there to dig for clams.
+Dialogue: 0,0:19:08.96,0:19:11.40,DCMain,MAN,0000,0000,0000,,I lost sight of them,
+Dialogue: 0,0:19:11.40,0:19:15.45,DCMain,MAN,0000,0000,0000,,so I thought if I turned in their strap \Nto the lost and found and waited there,
+Dialogue: 0,0:19:15.45,0:19:18.05,DCMain,MAN,0000,0000,0000,,they might show up.
+Dialogue: 0,0:19:18.30,0:19:19.88,DCMain,MAN,0000,0000,0000,,That's when these kids arrived.
+Dialogue: 0,0:19:19.88,0:19:23.37,DCMain,MAN,0000,0000,0000,,They seemed to be looking for \Nthe same strap for some reason,
+Dialogue: 0,0:19:23.37,0:19:25.76,DCMain,MAN,0000,0000,0000,,so I followed them.
+Dialogue: 0,0:19:25.76,0:19:28.73,DCMain,GENTA,0000,0000,0000,,Then you should've said so sooner.
+Dialogue: 0,0:19:28.73,0:19:31.61,DCMain,MITSUHIKO,0000,0000,0000,,If we'd known, we would've \Nhelped you look for it.
+Dialogue: 0,0:19:31.61,0:19:33.65,DCMain,MAN,0000,0000,0000,,But that girl...
+Dialogue: 0,0:19:34.15,0:19:35.19,DCItalic,AYUMI,0000,0000,0000,,Once we get it,
+Dialogue: 0,0:19:35.19,0:19:39.57,DCItalic,AYUMI,0000,0000,0000,,we won't let anyone else take it \Nuntil we return it to Ai-chan!
+Dialogue: 0,0:19:40.05,0:19:41.91,DCItalic,AYUMI,0000,0000,0000,,No matter what!
+Dialogue: 0,0:19:42.84,0:19:44.70,DCMain,MAN,0000,0000,0000,,I heard her say that, so...
+Dialogue: 0,0:19:45.07,0:19:49.94,DCMain,AMURO,0000,0000,0000,,In other words, three people dropped \Ntheir straps when the train shook.
+Dialogue: 0,0:19:48.33,0:19:50.47,Higo1,SIGN,0000,0000,0000,,{\fad(1,585)}'s Higo Strap
+Dialogue: 0,0:19:48.33,0:19:50.47,Higo2,SIGN,0000,0000,0000,,{\fad(1,585)}'s Higo Strap
+Dialogue: 0,0:19:48.33,0:19:50.47,Sanada1,SIGN,0000,0000,0000,,{\fad(1,585)}'s Sanada Strap
+Dialogue: 0,0:19:50.58,0:19:55.37,DCMain,AMURO,0000,0000,0000,,The father and son picked up his Higo strap,
+Dialogue: 0,0:19:51.34,0:19:59.85,Higo3,,0000,0000,0000,,'s Higo Strap
+Dialogue: 0,0:19:51.34,0:19:59.85,Higo4,,0000,0000,0000,,'s Higo Strap
+Dialogue: 0,0:19:55.37,0:19:59.84,DCMain,AMURO,0000,0000,0000,,and he picked up the son's Sanada strap.
+Dialogue: 0,0:19:56.05,0:19:59.84,Sanada2,SIGN,0000,0000,0000,,'s Sanada Strap
+Dialogue: 0,0:20:00.59,0:20:03.58,DCMain,AYUMI,0000,0000,0000,,Then where's Ai-chan's strap?
+Dialogue: 0,0:20:03.58,0:20:05.32,DCMain,MITSUHIKO,0000,0000,0000,,It's a mystery.
+Dialogue: 0,0:20:05.32,0:20:08.75,DCMain,GENTA,0000,0000,0000,,I found my Detective Badge, though.
+Dialogue: 0,0:20:09.85,0:20:11.67,DCMain,CONAN,0000,0000,0000,,Genta, where did you find it?
+Dialogue: 0,0:20:11.67,0:20:11.98,DCMain,GENTA,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:12.36,0:20:14.39,DCMain,GENTA,0000,0000,0000,,In the parking lot of the family restaurant.
+Dialogue: 0,0:20:14.39,0:20:18.60,DCMain,GENTA,0000,0000,0000,,I put on my hood when it started to rain,
+Dialogue: 0,0:20:18.60,0:20:21.24,DCMain,GENTA,0000,0000,0000,,and it fell out.
+Dialogue: 0,0:20:21.68,0:20:25.49,DCMain,MITSUHIKO,0000,0000,0000,,It must have gotten in there \Nwhen you tripped on the train.
+Dialogue: 0,0:20:25.49,0:20:26.58,DCMain,GENTA,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:20:26.58,0:20:28.79,DCMain,GENTA,0000,0000,0000,,H-Hey, what are you doing?
+Dialogue: 0,0:20:29.54,0:20:31.45,DCMain,CONAN,0000,0000,0000,,If it's not in here,
+Dialogue: 0,0:20:31.85,0:20:33.71,DCMain,CONAN,0000,0000,0000,,then Haibara's strap
+Dialogue: 0,0:20:34.70,0:20:36.96,DCMain,CONAN,0000,0000,0000,,is in the family restaurant parking lot!
+Dialogue: 0,0:20:38.38,0:20:39.74,DCMain,MITSUHIKO,0000,0000,0000,,Which means...
+Dialogue: 0,0:20:40.50,0:20:42.44,DCMain,MITSUHIKO,0000,0000,0000,,Haibara-san's strap
+Dialogue: 0,0:20:42.72,0:20:45.94,DCMain,MITSUHIKO,0000,0000,0000,,was also inside Genta-kun's hood?
+Dialogue: 0,0:20:46.36,0:20:47.96,DCMain,CONAN,0000,0000,0000,,Yeah, probably.
+Dialogue: 0,0:20:48.60,0:20:53.23,DCMain,CONAN,0000,0000,0000,,It must've fallen with his badge \Nwhen Genta put on his hood.
+Dialogue: 0,0:20:53.60,0:20:57.26,DCMain,CONAN,0000,0000,0000,,So it should be around here \Nwhere Genta put on his hood.
+Dialogue: 0,0:20:59.76,0:21:00.73,DCMain,CONAN,0000,0000,0000,,I found it!
+Dialogue: 0,0:21:01.22,0:21:02.78,DCMain,MITSUHIKO,0000,0000,0000,,We did it!
+Dialogue: 0,0:21:03.06,0:21:03.90,DCMain,GENTA,0000,0000,0000,,Finally!
+Dialogue: 0,0:21:03.90,0:21:05.98,DCMain,AYUMI,0000,0000,0000,,Ai-chan will be so happy!
+Dialogue: 0,0:21:05.98,0:21:07.28,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:22:34.06,0:22:37.58,DCMain,AGASA,0000,0000,0000,,You found Ai-kun's strap?
+Dialogue: 0,0:22:37.97,0:22:39.71,DCMain,CONAN,0000,0000,0000,,Yeah, somehow.
+Dialogue: 0,0:22:39.71,0:22:42.77,DCMain,OKIYA,0000,0000,0000,,Where's the driver of the RX-7?
+Dialogue: 0,0:22:42.77,0:22:44.73,DCMain,MITSUHIKO,0000,0000,0000,,Oh, Amuro-san?
+Dialogue: 0,0:22:44.73,0:22:46.59,DCMain,GENTA,0000,0000,0000,,He said he had something to do and left.
+Dialogue: 0,0:22:47.10,0:22:48.59,DCMain,OKIYA,0000,0000,0000,,I see.
+Dialogue: 0,0:22:52.58,0:22:53.72,DCMain,AYUMI,0000,0000,0000,,Ai-chan!
+Dialogue: 0,0:22:54.10,0:22:56.35,DCMain,AYUMI,0000,0000,0000,,We found your Higo-san strap!
+Dialogue: 0,0:22:56.56,0:22:57.10,DCMain,HAIBARA,0000,0000,0000,,Really?
+Dialogue: 0,0:22:58.56,0:22:59.53,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:22:59.53,0:23:01.10,DCMain,CONAN,0000,0000,0000,,It wasn't easy,
+Dialogue: 0,0:23:01.55,0:23:03.41,DCMain,CONAN,0000,0000,0000,,but we found it.
+Dialogue: 0,0:23:03.41,0:23:04.36,DCMain,ALL,0000,0000,0000,,Yeah.
+Dialogue: 0,0:23:04.65,0:23:06.39,DCMain,HAIBARA,0000,0000,0000,,Thank you!
+Dialogue: 0,0:23:06.39,0:23:09.86,DCMain,CONAN,0000,0000,0000,,Here. It's your long-awaited Higo-san strap.
+Dialogue: 0,0:23:12.43,0:23:14.56,DCMain,MITSUHIKO,0000,0000,0000,,A car ran over it.
+Dialogue: 0,0:23:14.56,0:23:16.78,DCMain,GENTA,0000,0000,0000,,It was really dirty.
+Dialogue: 0,0:23:16.78,0:23:19.08,DCMain,AYUMI,0000,0000,0000,,So we washed it clean with water.
+Dialogue: 0,0:23:20.79,0:23:24.75,DCMain,CONAN,0000,0000,0000,,The left eye had come off, so we \Ndrew it on with a magic marker.
+Dialogue: 0,0:23:25.81,0:23:27.88,DCMain,AGASA,0000,0000,0000,,Good work, kids.
+Dialogue: 0,0:23:27.88,0:23:30.44,DCMain,AGASA,0000,0000,0000,,I'll get you something cold to drink.
+Dialogue: 0,0:23:30.44,0:23:32.67,DCMain,ALL,0000,0000,0000,,Hooray!
+Dialogue: 0,0:23:35.48,0:23:37.31,DCMain,CONAN,0000,0000,0000,,That's not why we did it,
+Dialogue: 0,0:23:37.60,0:23:41.26,DCMain,CONAN,0000,0000,0000,,but if you don't mind, the \Nmedicine to restore my body...
+Dialogue: 0,0:23:41.26,0:23:44.38,DCMain,HAIBARA,0000,0000,0000,,Absolutely not!
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.19,0:23:46.57,DCMain,RAN,0000,0000,0000,,No, no, no, no!
+Dialogue: 0,0:23:46.57,0:23:47.98,DCMain,RAN,0000,0000,0000,,Give me a break!
+Dialogue: 0,0:23:48.37,0:23:49.42,DCMain,SONOKO,0000,0000,0000,,Come on.
+Dialogue: 0,0:23:49.42,0:23:53.49,DCMain,SONOKO,0000,0000,0000,,I'll take a romantic photo of you two.
+Dialogue: 0,0:23:54.78,0:23:56.03,DCMain,SHINICHI,0000,0000,0000,,Huh? Oh, yeah.
+Dialogue: 0,0:23:56.03,0:23:58.22,DCMain,SHINICHI,0000,0000,0000,,Didn't we meet on the \Nbeach when we were kids?
+Dialogue: 0,0:23:58.22,0:23:59.37,DCMain,SHINICHI,0000,0000,0000,,It's been ten years, right?
+Dialogue: 0,0:24:00.11,0:24:01.75,DCMain,SERA,0000,0000,0000,,Ten years?
+Dialogue: 0,0:24:02.71,0:24:04.33,From,TEXT,0000,0000,0000,,From: Kurachi Keiko
+Dialogue: 0,0:24:02.71,0:24:04.33,Subject,TEXT,0000,0000,0000,,Subject: No subject
+Dialogue: 0,0:24:02.71,0:24:04.33,Text,TEXT,0000,0000,0000,,Shinichi-kun, hurry! Come \Nto Nishiki-kun's room!!
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,The Scarlet School Trip \N(Bright Red Arc)
+Dialogue: 0,0:24:09.74,0:24:14.72,DCMain,CONAN,0000,0000,0000,,The next special episode of Conan is “The \NScarlet School Trip, Bright Red Arc!”
+Dialogue: 0,0:24:30.03,0:24:34.95,Hint,TEXT,0000,0000,0000,,Bloody Ceiling
+Dialogue: 0,0:24:30.55,0:24:33.13,DCMain,ALL,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.13,0:24:34.69,DCMain,CONAN,0000,0000,0000,,The Bloody Ceiling!
+Dialogue: 0,0:24:34.95,0:24:39.95,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.22,0:24:36.32,DCMain,CONAN,0000,0000,0000,,{\an8}What was that at the end there?
+Dialogue: 0,0:24:36.32,0:24:37.77,DCMain,HAIBARA,0000,0000,0000,,{\an8}Absolutely not.
+Dialogue: 0,0:24:37.77,0:24:39.79,DCMain,CONAN,0000,0000,0000,,{\an8}But, Haibara...

@@ -1,0 +1,372 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Fried Rice,Trebuchet MS,18,&H00386281,&H000000FF,&H00C8D1DE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Restaurant,Trebuchet MS,18,&H0095C1DF,&H000000FF,&H002E71B1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0100,0020,0018,0
+Style: Soba,Trebuchet MS,18,&H00EAD2C6,&H000000FF,&H00A76640,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0220,0018,0
+Style: Beer,Trebuchet MS,18,&H00150380,&H000000FF,&H005AC2CC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Tomoya,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00BD8070,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0055,0020,0064,0
+Style: Shin,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0093555D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0120,0020,0064,0
+Style: Hajime,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00814E55,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0260,0064,0
+Style: Kotani,Times New Roman,20,&H00080C09,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: BlueSigns1,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00B76C3A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0100,0018,0
+Style: BlueSigns2,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00B76C3A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0020,0020,0075,0
+Style: BlueSigns3,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00B76C3A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0020,0075,0
+Style: PoliceBox,Times New Roman,22,&H00515752,&H000000FF,&H00B6D2D8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Patrol,Trebuchet MS,18,&H00758984,&H000000FF,&H00BEDEDB,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0050,0018,0
+Style: Witness,Trebuchet MS,22,&H00BCBDBF,&H000000FF,&H00222524,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Victim,Trebuchet MS,20,&H00585B5A,&H000000FF,&H00BCBEBE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Akiho,Trebuchet MS,16,&H00585B5A,&H000000FF,&H00BCBEBE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0150,0020,0080,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode \N999 "Troublesome Kindness"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,KOTANI,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,KOTANI,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:02.98,0:00:05.98,Fried Rice,RED,0000,0000,0000,,Fried Rice & Pot Stickers
+Dialogue: 0,0:00:02.98,0:00:05.98,Restaurant,ORANGE,0000,0000,0000,,Chinese Restaurant
+Dialogue: 0,0:00:02.98,0:00:05.98,Soba,BLUE,0000,0000,0000,,Soba Restaurant
+Dialogue: 0,0:00:02.98,0:00:05.98,Beer,YELLOW,0000,0000,0000,,Beer
+Dialogue: 0,0:00:09.70,0:00:10.48,DCMain,KOGORO,0000,0000,0000,,That's good.
+Dialogue: 0,0:00:10.79,0:00:12.35,DCMain,KOGORO,0000,0000,0000,,Beer is great!
+Dialogue: 0,0:00:12.82,0:00:15.52,DCMain,RAN,0000,0000,0000,,Dad, don't drink too much.
+Dialogue: 0,0:00:15.52,0:00:16.81,DCMain,KOGORO,0000,0000,0000,,I know.
+Dialogue: 0,0:00:18.18,0:00:20.24,DCMain,KUSANO,0000,0000,0000,,Anyway, listen to this.
+Dialogue: 0,0:00:20.24,0:00:21.75,DCMain,YAMANASHI,0000,0000,0000,,What is it?
+Dialogue: 0,0:00:21.93,0:00:23.80,DCMain,KUSANO,0000,0000,0000,,{\an8}It's about the other day.
+Dialogue: 0,0:00:22.16,0:00:25.29,Tomoya,TEXT,0000,0000,0000,,{\fad(250,460)}Kusano Tomoya (30) \NSalaryman
+Dialogue: 0,0:00:23.80,0:00:25.50,DCMain,KUSANO,0000,0000,0000,,{\a6}What a masterpiece.
+Dialogue: 0,0:00:27.02,0:00:31.26,DCMain,KUSANO,0000,0000,0000,,While heading home the other day, I saw \Na strange man in front of my house.
+Dialogue: 0,0:00:31.75,0:00:33.76,DCMain,KUSANO,0000,0000,0000,,Totally suspicious, right?
+Dialogue: 0,0:00:34.69,0:00:37.67,DCMain,KUSANO,0000,0000,0000,,So I reported him to the police.
+Dialogue: 0,0:00:39.48,0:00:42.60,DCItalic,STRANGER,0000,0000,0000,,You're calling me suspicious? \NThat's ridiculous.
+Dialogue: 0,0:00:42.60,0:00:45.42,DCItalic,STRANGER,0000,0000,0000,,I came to check on my coworker \Nwho lives in this apartment,
+Dialogue: 0,0:00:45.42,0:00:48.52,DCItalic,STRANGER,0000,0000,0000,,but I forgot his room \Nnumber, so I texted him.
+Dialogue: 0,0:00:48.85,0:00:53.03,DCItalic,KUSANO,0000,0000,0000,,Sorry about that. My mistake.
+Dialogue: 0,0:00:53.17,0:00:56.03,DCItalic,STRANGER,0000,0000,0000,,You're the guy who should've \Nminded his own business!
+Dialogue: 0,0:00:56.77,0:00:59.03,DCMain,KUSANO,0000,0000,0000,,Can you believe that happened?
+Dialogue: 0,0:00:59.25,0:01:02.37,DCMain,YAMANASHI,0000,0000,0000,,You sure do love to meddle \Nin other people's business.
+Dialogue: 0,0:01:02.37,0:01:05.54,DCMain,KUSANO,0000,0000,0000,,I prefer to think of myself as considerate.
+Dialogue: 0,0:01:05.89,0:01:10.75,DCMain,KUSANO,0000,0000,0000,,Besides, it's his fault \Nfor behaving suspiciously.
+Dialogue: 0,0:01:17.18,0:01:19.03,DCMain,CONAN,0000,0000,0000,,Find the question that solves the mystery!
+Dialogue: 0,0:01:19.03,0:01:21.14,DCMain,CONAN,0000,0000,0000,,Apply miraculous detective skills \Nto the secrets of the heart!
+Dialogue: 0,0:01:21.14,0:01:23.14,DCMain,CONAN,0000,0000,0000,,A small kindness becomes a major nuisance!
+Dialogue: 0,0:01:23.14,0:01:25.18,DCMain,CONAN,0000,0000,0000,,A man's meddling turns into a case!
+Dialogue: 0,0:01:25.18,0:01:26.77,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:26.77,0:01:28.58,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:28.58,0:01:31.15,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:10.96,0:03:16.96,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(397,1)}Troublesome Kindness
+Dialogue: 0,0:03:11.67,0:03:13.90,DCMain,CONAN,0000,0000,0000,,"Troublesome Kindness!"
+Dialogue: 0,0:03:17.78,0:03:21.39,DCMain,KUSANO,0000,0000,0000,,{\an8}Everyone should be grateful for my actions.
+Dialogue: 0,0:03:19.63,0:03:22.47,Shin,TEXT,0000,0000,0000,,{\fad(250,1)}Kotani Shin (32) \NRestaurant Customer
+Dialogue: 0,0:03:22.69,0:03:26.22,DCMain,KUSANO,0000,0000,0000,,By the way, something else \Nhappened to me the other day.
+Dialogue: 0,0:03:27.20,0:03:30.23,DCMain,KUSANO,0000,0000,0000,,I was waiting in line to use the ATM
+Dialogue: 0,0:03:30.79,0:03:34.23,DCMain,KUSANO,0000,0000,0000,,when I noticed a man behaving strangely.
+Dialogue: 0,0:03:35.22,0:03:39.74,DCMain,KUSANO,0000,0000,0000,,He was standing in front of the ATM without \Nusing it while talking on the phone.
+Dialogue: 0,0:03:40.00,0:03:42.18,DCItalic,KOTANI,0000,0000,0000,,Yes, yes. I understand.
+Dialogue: 0,0:03:43.78,0:03:45.35,DCItalic,KOTANI,0000,0000,0000,,What? Next month, too?
+Dialogue: 0,0:03:45.35,0:03:47.44,DCItalic,KOTANI,0000,0000,0000,,Next month will be difficult.
+Dialogue: 0,0:03:47.44,0:03:50.00,DCItalic,KOTANI,0000,0000,0000,,Fine. I'll see what I can do.
+Dialogue: 0,0:03:50.77,0:03:53.31,DCItalic,KUSANO,0000,0000,0000,,I figured it must be phone fraud,
+Dialogue: 0,0:03:53.31,0:03:55.77,DCMain,KUSANO,0000,0000,0000,,so I reported him to the police immediately.
+Dialogue: 0,0:03:58.63,0:04:00.46,DCItalic,KOTANI,0000,0000,0000,,This really isn't phone fraud.
+Dialogue: 0,0:04:00.46,0:04:03.88,DCItalic,KOTANI,0000,0000,0000,,My mother called me. It has \Nnothing to do with this.
+Dialogue: 0,0:04:04.03,0:04:06.16,DCItalic,KOTANI,0000,0000,0000,,I was transferring money to my workplace.
+Dialogue: 0,0:04:06.16,0:04:08.19,DCItalic,POLICE,0000,0000,0000,,So it was a mistake.
+Dialogue: 0,0:04:08.83,0:04:12.39,DCItalic,BOSS,0000,0000,0000,,Kotani, what have you done?!
+Dialogue: 0,0:04:12.58,0:04:14.42,DCItalic,BOSS,0000,0000,0000,,The other party hasn't receive the funds yet!
+Dialogue: 0,0:04:14.42,0:04:15.77,DCItalic,BOSS,0000,0000,0000,,It's causing a huge problem!
+Dialogue: 0,0:04:16.10,0:04:17.74,DCItalic,KOTANI,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:04:17.74,0:04:19.98,DCItalic,BOSS,0000,0000,0000,,You'll pay for this.
+Dialogue: 0,0:04:20.64,0:04:22.61,DCMain,KUSANO,0000,0000,0000,,Can you believe what happened?
+Dialogue: 0,0:04:22.61,0:04:25.28,DCMain,KUSANO,0000,0000,0000,,He's hardly fit to be a working \Nmember of society, don't you think?
+Dialogue: 0,0:04:25.70,0:04:29.12,Hajime,TEXT,0000,0000,0000,,{\fad(250,460)}Yamanashi Hajime (30) \NSalaryman
+Dialogue: 0,0:04:25.83,0:04:27.57,DCMain,YAMANASHI,0000,0000,0000,,{\an8}I wouldn't go that far.
+Dialogue: 0,0:04:27.57,0:04:31.73,DCMain,KUSANO,0000,0000,0000,,{\an8}Guys like him don't get it until \Nsomething that drastic happens to them.
+Dialogue: 0,0:04:31.73,0:04:33.67,DCMain,YAMANASHI,0000,0000,0000,,That's awful.
+Dialogue: 0,0:04:40.26,0:04:42.13,DCItalic,KOTANI,0000,0000,0000,,Patient. Be patient.
+Dialogue: 0,0:04:42.70,0:04:44.13,DCMain,KUSANO,0000,0000,0000,,What's his deal?
+Dialogue: 0,0:04:44.60,0:04:45.91,DCMain,KOGORO,0000,0000,0000,,What is it, kid?
+Dialogue: 0,0:04:46.40,0:04:47.86,DCMain,CONAN,0000,0000,0000,,Nothing.
+Dialogue: 0,0:04:49.10,0:04:50.96,DCMain,KOGORO,0000,0000,0000,,He's just drunk.
+Dialogue: 0,0:04:55.24,0:04:57.74,DCMain,WAITER,0000,0000,0000,,Excuse me. Are you all right?
+Dialogue: 0,0:04:57.74,0:04:59.02,DCMain,KOTANI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:59.24,0:05:02.34,DCMain,KOGORO,0000,0000,0000,,Excuse me. Could I get another beer?
+Dialogue: 0,0:05:02.34,0:05:03.26,DCMain,WAITER,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:05:03.72,0:05:06.40,DCMain,RAN,0000,0000,0000,,Dad, if you get drunk, I'm leaving you here.
+Dialogue: 0,0:05:06.40,0:05:10.24,DCMain,KOGORO,0000,0000,0000,,{\an8}I'll be fine. Make it a large.
+Dialogue: 0,0:05:07.88,0:05:10.02,DCMain,RAN,0000,0000,0000,,Conan-kun, have you had some of this?
+Dialogue: 0,0:05:10.02,0:05:11.22,DCMain,RAN,0000,0000,0000,,It's good.
+Dialogue: 0,0:05:12.46,0:05:13.54,DCMain,RAN,0000,0000,0000,,Conan-kun?
+Dialogue: 0,0:05:18.54,0:05:22.40,DCMain,KUSANO,0000,0000,0000,,Anyway, I'm a genuinely good guy.
+Dialogue: 0,0:05:22.40,0:05:25.30,DCMain,KUSANO,0000,0000,0000,,I can't ignore someone who's in trouble.
+Dialogue: 0,0:05:25.75,0:05:29.80,DCMain,KUSANO,0000,0000,0000,,I'll keep living my life \Nin service of others...
+Dialogue: 0,0:05:28.85,0:05:31.80,DCMain,WAITER,0000,0000,0000,,{\an8}Sir, shall I bring you some water?
+Dialogue: 0,0:05:31.80,0:05:35.28,DCMain,KOTANI,0000,0000,0000,,No. Could I get another beer?
+Dialogue: 0,0:05:35.28,0:05:37.82,DCMain,WAITER,0000,0000,0000,,Okay, one beer.
+Dialogue: 0,0:05:42.24,0:05:43.83,DCMain,KUSANO,0000,0000,0000,,I'm going to the bathroom.
+Dialogue: 0,0:05:44.24,0:05:46.21,DCMain,YAMANASHI,0000,0000,0000,,Take a right outside the restaurant.
+Dialogue: 0,0:05:46.21,0:05:47.20,DCMain,KUSANO,0000,0000,0000,,I know.
+Dialogue: 0,0:05:57.96,0:05:59.46,Kotani,BOX,0000,0000,0000,,Kotani
+Dialogue: 0,0:06:02.71,0:06:06.22,DCNote,OFFICE,0000,0000,0000,,Mining Co.
+Dialogue: 0,0:07:20.03,0:07:20.91,DCMain,YAMANASHI,0000,0000,0000,,It's an emergency!
+Dialogue: 0,0:07:21.07,0:07:23.15,DCMain,YAMANASHI,0000,0000,0000,,Someone help!
+Dialogue: 0,0:07:24.16,0:07:25.26,DCMain,RAN,0000,0000,0000,,Conan-kun.
+Dialogue: 0,0:07:32.86,0:07:33.96,DCMain,KOGORO,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:07:34.82,0:07:38.04,DCMain,YAMANASHI,0000,0000,0000,,Kusano was taking a while \Nto return, so I came here.
+Dialogue: 0,0:07:41.00,0:07:42.45,DCMain,KOGORO,0000,0000,0000,,Ran, call an ambulance.
+Dialogue: 0,0:07:42.45,0:07:43.12,DCMain,RAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:07:43.12,0:07:44.42,DCMain,KOGORO,0000,0000,0000,,And the police.
+Dialogue: 0,0:07:44.42,0:07:45.52,DCMain,RAN,0000,0000,0000,,Got it.
+Dialogue: 0,0:07:46.64,0:07:48.36,DCMain,KOGORO,0000,0000,0000,,Damn. He's dead.
+Dialogue: 0,0:07:53.99,0:07:55.10,DCMain,KOTANI,0000,0000,0000,,No...
+Dialogue: 0,0:07:55.87,0:07:58.03,DCMain,KOTANI,0000,0000,0000,,No way. No way!
+Dialogue: 0,0:07:58.68,0:08:01.31,DCItalic,KOTANI,0000,0000,0000,,Wh-What's going on here?
+Dialogue: 0,0:08:08.33,0:08:12.42,DCItalic,CONAN,0000,0000,0000,,Kusano-san was struck on both \Nthe front and back of the head.
+Dialogue: 0,0:08:13.20,0:08:15.41,DCItalic,CONAN,0000,0000,0000,,The weapon is the deck \Nbrush next to the body.
+Dialogue: 0,0:08:16.98,0:08:21.06,DCItalic,CONAN,0000,0000,0000,,For some reason, there's a roll of toilet \Npaper stuck inside the hand drier.
+Dialogue: 0,0:08:22.16,0:08:24.39,DCItalic,CONAN,0000,0000,0000,,There are signs of a struggle.
+Dialogue: 0,0:08:26.10,0:08:27.94,DCItalic,CONAN,0000,0000,0000,,What's that?
+Dialogue: 0,0:08:29.72,0:08:30.69,DCMain,KOGORO,0000,0000,0000,,Hey!
+Dialogue: 0,0:08:31.57,0:08:34.98,DCMain,KOGORO,0000,0000,0000,,I'm always telling you not to \Nwander around crime scenes.
+Dialogue: 0,0:08:34.98,0:08:36.92,DCMain,CONAN,0000,0000,0000,,Sorry.
+Dialogue: 0,0:08:51.24,0:08:53.26,DCMain,TAKAGI,0000,0000,0000,,Let's go over your story again.
+Dialogue: 0,0:08:53.26,0:08:56.83,DCMain,TAKAGI,0000,0000,0000,,Your coworker Kusano-san was spending \Na long time in the bathroom,
+Dialogue: 0,0:08:56.83,0:08:59.10,DCMain,TAKAGI,0000,0000,0000,,so you went to check on him, correct?
+Dialogue: 0,0:08:59.82,0:09:00.67,DCMain,YAMANASHI,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:01.25,0:09:04.64,DCMain,YAMANASHI,0000,0000,0000,,I left the restaurant and was \Nheading towards the bathroom
+Dialogue: 0,0:09:04.64,0:09:08.49,DCMain,YAMANASHI,0000,0000,0000,,when I nearly ran into a man \Nwearing a cap low over his eyes.
+Dialogue: 0,0:09:08.49,0:09:12.11,DCMain,YAMANASHI,0000,0000,0000,,The man headed towards the stairs.
+Dialogue: 0,0:09:13.41,0:09:16.41,DCMain,YAMANASHI,0000,0000,0000,,I ignored him and stopped \Nin front of the bathroom.
+Dialogue: 0,0:09:16.41,0:09:20.33,DCMain,YAMANASHI,0000,0000,0000,,I heard the hand drier \Nrunning inside the bathroom,
+Dialogue: 0,0:09:20.33,0:09:24.34,DCMain,YAMANASHI,0000,0000,0000,,so I thought Kusano would be coming \Nout right away and waited for a while,
+Dialogue: 0,0:09:25.38,0:09:27.56,DCMain,YAMANASHI,0000,0000,0000,,but he didn't come out.
+Dialogue: 0,0:09:28.32,0:09:30.97,DCMain,TAKAGI,0000,0000,0000,,You didn't see anyone other than that man?
+Dialogue: 0,0:09:30.97,0:09:33.49,DCMain,YAMANASHI,0000,0000,0000,,No, I'm absolutely certain.
+Dialogue: 0,0:09:33.91,0:09:36.72,DCMain,YAMANASHI,0000,0000,0000,,That man who passed by \Nme must be the culprit.
+Dialogue: 0,0:09:37.56,0:09:39.89,DCMain,YAMANASHI,0000,0000,0000,,If only I'd gotten a better look at his face.
+Dialogue: 0,0:09:44.61,0:09:49.40,DCMain,TAKAGI,0000,0000,0000,,Immediately after that, you heard \NYamanashi-san's voice and came here, right?
+Dialogue: 0,0:09:49.40,0:09:54.00,DCMain,KOGORO,0000,0000,0000,,Yeah. When we arrived, \NYamanashi-san was sitting here.
+Dialogue: 0,0:09:54.00,0:09:57.78,DCMain,KOGORO,0000,0000,0000,,I checked Kusano-san's pulse, \Nbut he was already dead.
+Dialogue: 0,0:09:58.05,0:10:02.04,DCMain,TAKAGI,0000,0000,0000,,Mori-san, you didn't see the \Nman in the cap, did you?
+Dialogue: 0,0:10:02.04,0:10:05.54,DCMain,KOGORO,0000,0000,0000,,There wasn't anyone here when we arrived.
+Dialogue: 0,0:10:05.92,0:10:08.07,DCMain,TAKAGI,0000,0000,0000,,What about you two, Ran-san and Conan-kun?
+Dialogue: 0,0:10:08.07,0:10:11.00,DCMain,RAN,0000,0000,0000,,I didn't run into anyone on the way here.
+Dialogue: 0,0:10:11.00,0:10:14.60,DCMain,CONAN,0000,0000,0000,,I didn't see the man in the cap either.
+Dialogue: 0,0:10:14.60,0:10:15.55,DCMain,TAKAGI,0000,0000,0000,,I see.
+Dialogue: 0,0:10:16.13,0:10:20.68,DCMain,MEGURE,0000,0000,0000,,We've started an emergency search for him \Nand are gathering information in the area.
+Dialogue: 0,0:10:20.68,0:10:23.68,DCMain,MEGURE,0000,0000,0000,,I hope we find some useful information.
+Dialogue: 0,0:10:23.68,0:10:28.31,DCMain,KOGORO,0000,0000,0000,,Since his wallet is still here, it looks \Nlike the motive was a grudge and not theft.
+Dialogue: 0,0:10:28.59,0:10:32.86,DCMain,MEGURE,0000,0000,0000,,Most likely. That's how we're \Ninvestigating the case.
+Dialogue: 0,0:10:33.32,0:10:39.04,DCMain,TAKAGI,0000,0000,0000,,But what we don't understand concerns \Nthe elevator next to the bathroom.
+Dialogue: 0,0:10:39.50,0:10:45.38,DCMain,TAKAGI,0000,0000,0000,,Why did the culprit walk all the way to \Nthe stairs instead of using the elevator?
+Dialogue: 0,0:10:41.57,0:10:46.08,BlueSigns1,TOP,0000,0000,0000,,Bathroom \NElevator
+Dialogue: 0,0:10:43.95,0:10:46.08,BlueSigns2,LEFT,0000,0000,0000,,Stairs
+Dialogue: 0,0:10:43.95,0:10:46.08,BlueSigns3,RIGHT,0000,0000,0000,,Restaurant
+Dialogue: 0,0:10:46.21,0:10:48.63,DCMain,KOGORO,0000,0000,0000,,That's obvious.
+Dialogue: 0,0:10:48.63,0:10:52.97,DCMain,KOGORO,0000,0000,0000,,If someone found Kusano-san while \Nhe was waiting for the elevator,
+Dialogue: 0,0:10:52.97,0:10:54.09,DCMain,KOGORO,0000,0000,0000,,he'd have nowhere to run.
+Dialogue: 0,0:10:54.30,0:11:00.06,DCMain,MEGURE,0000,0000,0000,,But, Mori-kun, the culprit deliberately \Nactivated the hand drier before he fled.
+Dialogue: 0,0:11:00.06,0:11:02.25,DCMain,MEGURE,0000,0000,0000,,Creating noise for a prolonged period of time
+Dialogue: 0,0:11:02.25,0:11:04.10,DCMain,MEGURE,0000,0000,0000,,would mean someone would \Nnotice something was off sooner.
+Dialogue: 0,0:11:04.30,0:11:08.10,DCMain,MEGURE,0000,0000,0000,,In other words, didn't he do it so \Nthe body would be discovered quickly?
+Dialogue: 0,0:11:08.57,0:11:09.86,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:11:11.98,0:11:15.23,DCMain,KOGORO,0000,0000,0000,,If the culprit bothered \Nto do that, that means...
+Dialogue: 0,0:11:15.54,0:11:16.95,DCMain,RAN,0000,0000,0000,,That means...?
+Dialogue: 0,0:11:17.84,0:11:19.22,DCMain,KOGORO,0000,0000,0000,,What does it mean?
+Dialogue: 0,0:11:19.87,0:11:21.94,DCMain,TAKAGI,0000,0000,0000,,If the culprit wanted to \Nhang around the bathroom,
+Dialogue: 0,0:11:21.94,0:11:26.24,DCMain,TAKAGI,0000,0000,0000,,blending in with the customers at the various \Nrestaurants on this floor would be the natural choice.
+Dialogue: 0,0:11:26.78,0:11:31.25,DCMain,TAKAGI,0000,0000,0000,,The culprit could've used the confusion cause \Nby the discovery of Kusano-san's body to flee.
+Dialogue: 0,0:11:31.41,0:11:36.63,DCMain,MEGURE,0000,0000,0000,,None of the restaurants reported \Na customer wearing a cap.
+Dialogue: 0,0:11:36.82,0:11:42.13,DCMain,KOGORO,0000,0000,0000,,So the man came here, attacked \NKusano-san, and left.
+Dialogue: 0,0:11:42.32,0:11:46.21,DCMain,CONAN,0000,0000,0000,,And it doesn't make sense \Nsince he couldn't have known
+Dialogue: 0,0:11:46.21,0:11:47.64,DCMain,CONAN,0000,0000,0000,,when Kusano-san would go to the bathroom.
+Dialogue: 0,0:11:48.47,0:11:51.27,DCMain,KOGORO,0000,0000,0000,,You don't know what you're \Ntalking about, kid.
+Dialogue: 0,0:11:51.49,0:11:54.15,DCMain,MEGURE,0000,0000,0000,,No, he's right. It doesn't make sense.
+Dialogue: 0,0:11:54.15,0:11:57.84,DCMain,KOGORO,0000,0000,0000,,Yes, Inspector. Now that you \Nmention it, you're right.
+Dialogue: 0,0:11:57.84,0:12:01.15,DCMain,TAKAGI,0000,0000,0000,,Perhaps it was an indiscriminate murder.
+Dialogue: 0,0:12:02.80,0:12:07.59,DCMain,MEGURE,0000,0000,0000,,For the time being, we'll have to keep \Nall manner of possibilities in mind.
+Dialogue: 0,0:12:09.33,0:12:11.61,DCMain,CONAN,0000,0000,0000,,Hey, mister forensics officer.
+Dialogue: 0,0:12:12.41,0:12:15.64,DCMain,CONAN,0000,0000,0000,,Did you retrieve the belongings \Nthat were in the drain?
+Dialogue: 0,0:12:15.64,0:12:17.30,DCMain,POLICE,0000,0000,0000,,Of course.
+Dialogue: 0,0:12:17.95,0:12:18.92,DCMain,POLICE,0000,0000,0000,,You mean this?
+Dialogue: 0,0:12:19.17,0:12:20.54,DCItalic,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:12:22.13,0:12:24.31,DCItalic,CONAN,0000,0000,0000,,He's lying.
+Dialogue: 0,0:12:24.93,0:12:26.25,DCMain,KOGORO,0000,0000,0000,,You brat!
+Dialogue: 0,0:12:26.25,0:12:28.93,DCMain,KOGORO,0000,0000,0000,,How many times do I have to \Ntell you not to scamper around?
+Dialogue: 0,0:12:29.30,0:12:31.22,DCMain,CONAN,0000,0000,0000,,Sorry.
+Dialogue: 0,0:12:33.12,0:12:34.23,DCMain,KOGORO,0000,0000,0000,,Scamper, scamper.
+Dialogue: 0,0:12:34.39,0:12:35.63,DCMain,KOGORO,0000,0000,0000,,Scamper, scamper.
+Dialogue: 0,0:12:35.63,0:12:37.78,DCMain,KOGORO,0000,0000,0000,,Scamper away, little froggies.
+Dialogue: 0,0:12:37.78,0:12:39.34,DCMain,KOGORO,0000,0000,0000,,Scamper away together.
+Dialogue: 0,0:12:40.90,0:12:41.92,DCMain,MEGURE,0000,0000,0000,,Mori-kun?
+Dialogue: 0,0:12:41.92,0:12:42.99,DCMain,TAKAGI,0000,0000,0000,,Could it be?
+Dialogue: 0,0:12:43.88,0:12:46.38,DCMain,KOGORO,0000,0000,0000,,Yes, indeed.
+Dialogue: 0,0:12:46.81,0:12:49.22,DCMain,KOGORO,0000,0000,0000,,I've figured out the truth behind this case.
+Dialogue: 0,0:12:53.70,0:12:55.08,DCMain,KOGORO,0000,0000,0000,,Allow me to be direct.
+Dialogue: 0,0:12:55.72,0:13:01.84,DCMain,KOGORO,0000,0000,0000,,The culprit in this murder is the man \Nwho discovered the body, Yamanashi-san.
+Dialogue: 0,0:13:04.09,0:13:08.35,DCMain,MEGURE,0000,0000,0000,,Him? But what about the man wearing the cap?
+Dialogue: 0,0:13:08.56,0:13:10.32,DCMain,KOGORO,0000,0000,0000,,No such man exists.
+Dialogue: 0,0:13:10.75,0:13:14.85,DCMain,KOGORO,0000,0000,0000,,We were fooled by Yamanashi-san's lie.
+Dialogue: 0,0:13:17.62,0:13:19.44,DCMain,YAMANASHI,0000,0000,0000,,You're lying!
+Dialogue: 0,0:13:19.44,0:13:20.80,DCMain,YAMANASHI,0000,0000,0000,,What proof do you have?
+Dialogue: 0,0:13:20.80,0:13:22.53,DCMain,YAMANASHI,0000,0000,0000,,I really did see him.
+Dialogue: 0,0:13:22.84,0:13:24.86,DCMain,KOGORO,0000,0000,0000,,Allow me to explain.
+Dialogue: 0,0:13:25.44,0:13:30.63,DCItalic,KOGORO,0000,0000,0000,,It's possible that this case couldn't have \Nbeen solved by anyone other than me,
+Dialogue: 0,0:13:30.63,0:13:32.54,DCMain,KOGORO,0000,0000,0000,,who arrived just after Yamanashi-san.
+Dialogue: 0,0:13:34.08,0:13:38.17,DCMain,KOGORO,0000,0000,0000,,In fact, one clue is \Ndisappearing as we speak.
+Dialogue: 0,0:13:38.77,0:13:40.21,DCMain,TAKAGI,0000,0000,0000,,A clue?
+Dialogue: 0,0:13:41.50,0:13:44.86,DCMain,KOGORO,0000,0000,0000,,In order to cover the sound \Nof Kusano-san's scream,
+Dialogue: 0,0:13:44.86,0:13:48.95,DCMain,KOGORO,0000,0000,0000,,you attacked him the moment he put \Nhis hands inside the hand drier.
+Dialogue: 0,0:13:58.27,0:14:01.77,DCMain,KOGORO,0000,0000,0000,,Then you activated the hand drier once again
+Dialogue: 0,0:14:02.46,0:14:06.28,DCMain,KOGORO,0000,0000,0000,,so a third party would discover the body.
+Dialogue: 0,0:14:10.82,0:14:14.68,DCMain,KOGORO,0000,0000,0000,,However, something unexpected occurred.
+Dialogue: 0,0:14:16.70,0:14:19.46,DCItalic,KUSANO,0000,0000,0000,,How could you?
+Dialogue: 0,0:14:24.62,0:14:26.20,DCItalic,KUSANO,0000,0000,0000,,You'll pay for this!
+Dialogue: 0,0:14:38.44,0:14:41.52,DCMain,KOGORO,0000,0000,0000,,You believed the hand \Ndrier hadn't drowned out
+Dialogue: 0,0:14:41.52,0:14:44.88,DCMain,KOGORO,0000,0000,0000,,the loud noises made during your scuffle,
+Dialogue: 0,0:14:49.09,0:14:54.24,DCMain,KOGORO,0000,0000,0000,,so you hastily changed your plan \Nand decided you'd discover the body.
+Dialogue: 0,0:14:58.00,0:14:59.10,DCItalic,YAMANASHI,0000,0000,0000,,It's an emergency!
+Dialogue: 0,0:14:59.10,0:15:01.50,DCItalic,YAMANASHI,0000,0000,0000,,Someone help!
+Dialogue: 0,0:15:04.25,0:15:05.27,DCItalic,RAN,0000,0000,0000,,Conan-kun.
+Dialogue: 0,0:15:10.36,0:15:11.42,DCItalic,KOGORO,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:15:12.12,0:15:15.28,DCItalic,YAMANASHI,0000,0000,0000,,Kusano was taking a while \Nto return, so I came here.
+Dialogue: 0,0:15:18.39,0:15:19.94,DCItalic,KOGORO,0000,0000,0000,,Ran, call an ambulance!
+Dialogue: 0,0:15:19.94,0:15:20.57,DCItalic,RAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:15:20.57,0:15:21.87,DCItalic,KOGORO,0000,0000,0000,,And the police.
+Dialogue: 0,0:15:21.87,0:15:22.88,DCItalic,RAN,0000,0000,0000,,Got it.
+Dialogue: 0,0:15:24.02,0:15:25.90,DCItalic,KOGORO,0000,0000,0000,,Damn. He's dead.
+Dialogue: 0,0:15:33.41,0:15:36.29,DCMain,KOGORO,0000,0000,0000,,Naturally, there's no man wearing a cap.
+Dialogue: 0,0:15:36.78,0:15:40.41,DCMain,KOGORO,0000,0000,0000,,It's a lie you made up to \Nconfuse the investigation.
+Dialogue: 0,0:15:40.61,0:15:42.31,DCMain,YAMANASHI,0000,0000,0000,,That's a false accusation.
+Dialogue: 0,0:15:42.31,0:15:45.36,DCMain,YAMANASHI,0000,0000,0000,,How can you call someone \Na liar without any proof?
+Dialogue: 0,0:15:45.36,0:15:47.42,DCMain,YAMANASHI,0000,0000,0000,,Do you have any proof?
+Dialogue: 0,0:15:47.42,0:15:52.09,DCMain,KOGORO,0000,0000,0000,,The first piece of evidence I mentioned \Nearlier is already disappearing.
+Dialogue: 0,0:15:52.51,0:15:55.57,DCMain,KOGORO,0000,0000,0000,,When I saw you in front of the bathroom,
+Dialogue: 0,0:15:55.57,0:15:57.43,DCMain,KOGORO,0000,0000,0000,,I felt as though something was off.
+Dialogue: 0,0:16:04.13,0:16:06.72,DCMain,KOGORO,0000,0000,0000,,The cuff of your pants was wet,
+Dialogue: 0,0:16:07.95,0:16:12.57,DCMain,KOGORO,0000,0000,0000,,probably because Kusano-san \Ngrabbed it when he woke up.
+Dialogue: 0,0:16:12.57,0:16:13.61,DCMain,YAMANASHI,0000,0000,0000,,What?
+Dialogue: 0,0:16:15.06,0:16:17.00,DCMain,YAMANASHI,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:16:17.00,0:16:19.20,DCMain,YAMANASHI,0000,0000,0000,,That's just speculation.
+Dialogue: 0,0:16:19.20,0:16:20.20,DCMain,YAMANASHI,0000,0000,0000,,This is nonsense.
+Dialogue: 0,0:16:20.38,0:16:22.38,DCMain,KOGORO,0000,0000,0000,,Then allow me to confirm something.
+Dialogue: 0,0:16:22.38,0:16:27.72,DCMain,KOGORO,0000,0000,0000,,When you opened the bathroom door, you were \Nshocked to see Kusano-san on the floor.
+Dialogue: 0,0:16:27.72,0:16:29.48,DCMain,KOGORO,0000,0000,0000,,Then you shouted for help.
+Dialogue: 0,0:16:30.21,0:16:33.76,DCMain,KOGORO,0000,0000,0000,,In other words, you haven't set \Nfoot inside the bathroom, correct?
+Dialogue: 0,0:16:33.98,0:16:35.00,DCMain,YAMANASHI,0000,0000,0000,,That's right.
+Dialogue: 0,0:16:35.00,0:16:38.31,DCMain,YAMANASHI,0000,0000,0000,,Maybe you just thought \Nmy pant cuffs were wet.
+Dialogue: 0,0:16:38.82,0:16:40.93,DCMain,YAMANASHI,0000,0000,0000,,Look. They're not wet.
+Dialogue: 0,0:16:41.11,0:16:45.54,DCMain,KOGORO,0000,0000,0000,,Now that they're dry, I can't prove it.
+Dialogue: 0,0:16:46.32,0:16:49.67,DCMain,KOGORO,0000,0000,0000,,But what about your shirt sleeve button?
+Dialogue: 0,0:16:50.79,0:16:52.72,DCMain,YAMANASHI,0000,0000,0000,,Shirt sleeve button?
+Dialogue: 0,0:16:53.21,0:16:56.45,DCMain,KOGORO,0000,0000,0000,,When did you lose that?
+Dialogue: 0,0:16:56.67,0:16:58.38,DCMain,YAMANASHI,0000,0000,0000,,I...
+Dialogue: 0,0:16:59.10,0:17:04.56,DCMain,KOGORO,0000,0000,0000,,Forensics recovered the button \Nfrom the bathroom drain earlier.
+Dialogue: 0,0:17:05.88,0:17:08.15,DCItalic,CONAN,0000,0000,0000,,Hey, Mister Forensics Officer.
+Dialogue: 0,0:17:09.34,0:17:12.68,DCItalic,CONAN,0000,0000,0000,,Did you retrieve the belongings \Nthat were in the drain?
+Dialogue: 0,0:17:12.68,0:17:14.31,DCItalic,POLICE,0000,0000,0000,,Of course.
+Dialogue: 0,0:17:14.89,0:17:15.84,DCItalic,POLICE,0000,0000,0000,,You mean this?
+Dialogue: 0,0:17:20.21,0:17:25.34,DCMain,KOGORO,0000,0000,0000,,Kusano-san's body was \Ncovering the bathroom drain.
+Dialogue: 0,0:17:26.33,0:17:31.61,DCMain,KOGORO,0000,0000,0000,,If you haven't set foot inside the bathroom, \Nthen how did your button get in there?
+Dialogue: 0,0:17:35.07,0:17:40.35,DCMain,KOGORO,0000,0000,0000,,Yes, because that button came off \Nduring your scuffle with Kusano-san.
+Dialogue: 0,0:17:41.11,0:17:43.60,DCMain,KOGORO,0000,0000,0000,,It proves you're the culprit.
+Dialogue: 0,0:17:47.49,0:17:50.20,DCMain,MEGURE,0000,0000,0000,,Well, Yamanashi-san?
+Dialogue: 0,0:17:50.20,0:17:52.75,DCMain,TAKAGI,0000,0000,0000,,Why did you kill your coworker Kusano-san?
+Dialogue: 0,0:17:55.47,0:17:57.78,DCMain,YAMANASHI,0000,0000,0000,,I hated him.
+Dialogue: 0,0:17:58.57,0:18:00.54,DCMain,YAMANASHI,0000,0000,0000,,Because of his meddling...
+Dialogue: 0,0:18:02.30,0:18:06.44,DCMain,YAMANASHI,0000,0000,0000,,My sister was coming home \Nlate from work one night
+Dialogue: 0,0:18:05.88,0:18:07.55,DCMain,SALARYMAN,0000,0000,0000,,Help me!
+Dialogue: 0,0:18:07.25,0:18:11.31,DCMain,YAMANASHI,0000,0000,0000,,when she happened to witness a phantom \Nslasher stab someone to death.
+Dialogue: 0,0:18:16.11,0:18:18.11,PoliceBox,SIGN,0000,0000,0000,,Police Box
+Dialogue: 0,0:18:16.35,0:18:17.74,DCMain,YAMANASHI,0000,0000,0000,,The culprit pursued her.
+Dialogue: 0,0:18:18.11,0:18:20.41,DCMain,YAMANASHI,0000,0000,0000,,She attempted to get help from a police box,
+Dialogue: 0,0:18:19.61,0:18:21.62,Patrol,SIGN,0000,0000,0000,,Out On Patrol
+Dialogue: 0,0:18:20.88,0:18:25.62,DCMain,YAMANASHI,0000,0000,0000,,but because of Kusano, the officers were \Nout patrolling for a suspicious person.
+Dialogue: 0,0:18:32.50,0:18:37.51,Witness,TOP,0000,0000,0000,,Murder Witness Dead
+Dialogue: 0,0:18:32.50,0:18:37.51,Victim,RIGHT,0000,0000,0000,,The Victim Ran to a Police Box, \Nbut Officers Were Absent \NDue to Being on Patrol
+Dialogue: 0,0:18:32.50,0:18:37.51,Akiho,BOTTOM,0000,0000,0000,,Victim Yamanashi Akiho (25)
+Dialogue: 0,0:18:34.57,0:18:37.55,DCMain,YAMANASHI,0000,0000,0000,,There was no one there to protect my sister.
+Dialogue: 0,0:18:38.40,0:18:41.97,DCMain,YAMANASHI,0000,0000,0000,,When I learned it was Kusano's \Nfault that my sister died,
+Dialogue: 0,0:18:42.47,0:18:44.39,DCMain,YAMANASHI,0000,0000,0000,,I wanted to kill him.
+Dialogue: 0,0:18:45.52,0:18:47.78,DCMain,YAMANASHI,0000,0000,0000,,Damn. Damn it!
+Dialogue: 0,0:18:47.78,0:18:50.03,DCMain,YAMANASHI,0000,0000,0000,,He was a truly terrible person!
+Dialogue: 0,0:18:50.03,0:18:51.50,DCMain,YAMANASHI,0000,0000,0000,,Considerate? Yeah, right!
+Dialogue: 0,0:18:51.50,0:18:53.57,DCMain,YAMANASHI,0000,0000,0000,,He was always sticking his \Nnose where it didn't belong!
+Dialogue: 0,0:18:54.08,0:18:58.07,DCMain,KOGORO,0000,0000,0000,,Despite the injustice you experienced, \Nwhat you did was still a crime.
+Dialogue: 0,0:18:58.68,0:19:01.07,DCMain,KOGORO,0000,0000,0000,,It's unforgivable.
+Dialogue: 0,0:19:01.96,0:19:06.85,DCMain,KOGORO,0000,0000,0000,,There's someone here who \Nchose not to commit a crime,
+Dialogue: 0,0:19:07.38,0:19:08.83,DCMain,KOGORO,0000,0000,0000,,even though he faced injustice like you.
+Dialogue: 0,0:19:09.08,0:19:09.83,DCMain,YAMANASHI,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:10.03,0:19:10.96,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:19:12.60,0:19:14.48,DCMain,KOGORO,0000,0000,0000,,Yes, you.
+Dialogue: 0,0:19:15.00,0:19:17.47,DCMain,KOGORO,0000,0000,0000,,You had your eye on Kusano-san.
+Dialogue: 0,0:19:18.57,0:19:20.24,DCMain,KOGORO,0000,0000,0000,,You in the hoodie.
+Dialogue: 0,0:19:28.32,0:19:30.67,DCMain,RAN,0000,0000,0000,,The man from the restaurant?
+Dialogue: 0,0:19:31.25,0:19:36.11,DCMain,KOGORO,0000,0000,0000,,You clearly bore some \Ngrudge against Kusano-san.
+Dialogue: 0,0:19:44.98,0:19:45.75,DCMain,KOTANI,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:46.19,0:19:49.70,DCMain,KOTANI,0000,0000,0000,,Because of his meddling, \NI was fired from my job.
+Dialogue: 0,0:19:50.89,0:19:56.21,DCMain,KOTANI,0000,0000,0000,,Lately I'd been keeping an eye on him \Nand had been rehearsing my own murder.
+Dialogue: 0,0:19:56.51,0:19:57.96,DCMain,TAKAGI,0000,0000,0000,,You what?
+Dialogue: 0,0:19:58.21,0:19:59.90,DCMain,KOTANI,0000,0000,0000,,Not only that, but today
+Dialogue: 0,0:19:59.90,0:20:05.97,DCMain,KOTANI,0000,0000,0000,,I'd planned to kill him using exactly \Nthe same method you deduced, Mori-san.
+Dialogue: 0,0:20:06.52,0:20:07.22,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:20:07.56,0:20:08.76,DCMain,MEGURE,0000,0000,0000,,Unbelievable.
+Dialogue: 0,0:20:52.12,0:20:55.97,DCMain,KOTANI,0000,0000,0000,,So when the murder occurred,
+Dialogue: 0,0:20:55.97,0:20:59.44,DCMain,KOTANI,0000,0000,0000,,I thought I might've done it. I was scared.
+Dialogue: 0,0:20:59.76,0:21:01.86,DCMain,KOGORO,0000,0000,0000,,But you didn't do it.
+Dialogue: 0,0:21:01.86,0:21:05.70,DCMain,KOGORO,0000,0000,0000,,You made yourself stay in the \Nrestaurant. You controlled yourself.
+Dialogue: 0,0:21:05.87,0:21:09.65,DCMain,KOTANI,0000,0000,0000,,But if he hadn't acted,
+Dialogue: 0,0:21:09.65,0:21:13.33,DCMain,KOTANI,0000,0000,0000,,I think I probably would've \Nattacked Kusano-san.
+Dialogue: 0,0:21:13.51,0:21:16.79,DCMain,KOGORO,0000,0000,0000,,You've been watching Kusano-san for a while.
+Dialogue: 0,0:21:16.79,0:21:21.35,DCMain,KOGORO,0000,0000,0000,,You've probably had plenty of \Nchances to kill him until now.
+Dialogue: 0,0:21:22.77,0:21:24.04,DCMain,KOTANI,0000,0000,0000,,I...
+Dialogue: 0,0:21:25.32,0:21:33.06,DCMain,KOGORO,0000,0000,0000,,I believe you deliberately \Nchose not to commit a crime.
+Dialogue: 0,0:21:35.12,0:21:37.71,DCMain,KOTANI,0000,0000,0000,,M-Mori-san...
+Dialogue: 0,0:23:17.02,0:23:18.34,DCMain,WOMAN,0000,0000,0000,,Hup.
+Dialogue: 0,0:23:21.66,0:23:23.88,DCMain,KOGORO,0000,0000,0000,,Ma'am, allow me to hold that.
+Dialogue: 0,0:23:23.88,0:23:25.20,DCMain,WOMAN,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:23:25.20,0:23:27.14,DCMain,WOMAN,0000,0000,0000,,You're not trying to rob me, are you?
+Dialogue: 0,0:23:27.14,0:23:29.91,DCMain,KOGORO,0000,0000,0000,,What? Of course not.
+Dialogue: 0,0:23:32.55,0:23:35.05,DCMain,KOGORO,0000,0000,0000,,Hey, wait. Wait a minute.
+Dialogue: 0,0:23:35.48,0:23:39.81,DCMain,KOGORO,0000,0000,0000,,Jeez, it's so hard to be considerate.
+Dialogue: 0,0:23:40.65,0:23:42.10,DCMain,CONAN,0000,0000,0000,,You've got that right.
+Dialogue: 0,0:23:44.86,0:24:08.88,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.21,0:23:46.73,DCItalic,CONAN,0000,0000,0000,,We were too late.
+Dialogue: 0,0:23:47.03,0:23:49.08,DCMain,KOGORO,0000,0000,0000,,He's dead.
+Dialogue: 0,0:23:49.53,0:23:52.32,DCItalic,CONAN,0000,0000,0000,,This is what that letter \Nwas warning us about.
+Dialogue: 0,0:23:52.86,0:23:54.88,DCMain,MAN,0000,0000,0000,,It's the piano's curse!
+Dialogue: 0,0:23:54.88,0:23:56.29,DCMain,KOGORO,0000,0000,0000,,This isn't a curse.
+Dialogue: 0,0:23:57.11,0:23:59.16,DCMain,KOGORO,0000,0000,0000,,It's a murder case.
+Dialogue: 0,0:23:59.34,0:24:03.30,DCMain,CONAN,0000,0000,0000,,Does this sheet music that was found \Nwith the body mean anything?
+Dialogue: 0,0:24:03.93,0:24:07.17,DCMain,CONAN,0000,0000,0000,,And what about the letter \Nwarning us about this case?
+Dialogue: 0,0:24:08.16,0:24:08.88,DCMain,CONAN,0000,0000,0000,,Wait a minute.
+Dialogue: 0,0:24:08.88,0:24:14.89,DCNextEp,TEXT,0000,0000,0000,,The Moonlight Sonata Murder \N(Part One)
+Dialogue: 0,0:24:09.34,0:24:14.29,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The \NMoonlight Sonata Murder, Part One!"
+Dialogue: 0,0:24:29.90,0:24:34.82,Hint,TEXT,0000,0000,0000,,Moonshade Island
+Dialogue: 0,0:24:31.13,0:24:32.82,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.82,0:24:34.53,DCMain,CONAN,0000,0000,0000,,Moonshade Island!
+Dialogue: 0,0:24:34.82,0:24:36.33,DCMain,RAN,0000,0000,0000,,{\an8}We've finally reached 1,000 episodes!
+Dialogue: 0,0:24:34.82,0:24:39.83,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.33,0:24:37.59,DCMain,KOGORO,0000,0000,0000,,{\an8}All thanks to me?
+Dialogue: 0,0:24:37.59,0:24:39.19,DCMain,CONAN,0000,0000,0000,,{\an8}That's the number of times you've slept.

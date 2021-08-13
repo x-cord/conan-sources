@@ -1,0 +1,449 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Oda,Trebuchet MS,18,&H00B5CBCA,&H000000FF,&H00433C27,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0013,0010,0025,0
+Style: Locations,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H007F2C21,0,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0058,0
+Style: Project,Trebuchet MS,18,&H00261A24,&H000000FF,&H00D7D6B4,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0010,0081,0
+Style: Iwao,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00B57183,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0025,0010,0068,0
+Style: Album,Trebuchet MS,22,&H00DFD784,&H000000FF,&H004628A7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: Kengo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H005F1757,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0065,0010,0068,0
+Style: Teppei,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0091352F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0015,0010,0068,0
+Style: Koji,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0067522D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0068,0
+Style: Takuro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A65E63,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0068,0010,0068,0
+Style: Kurumi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A2408C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0040,0010,0068,0
+Style: Kimifusa,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007F2C33,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0125,0010,0068,0
+Style: Genta,Trebuchet MS,16,&H004E3227,&H000000FF,&H00F9E9DE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0230,0120,0
+Style: Call,Trebuchet MS,16,&H00B4332D,&H000000FF,&H00F9E9DE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0200,0150,0
+Style: Tamekichi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00814960,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0010,0068,0
+Style: Tile,Trebuchet MS,16,&H008F9682,&H000000FF,&H00FFFFFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0025,0010,0125,0
+Style: Statue,Trebuchet MS,16,&H008F9682,&H000000FF,&H00FFFFFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0025,0010,0133,0
+Style: Statue2,Trebuchet MS,20,&H00848181,&H000000FF,&H00FFFFFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0050,0010,0030,0
+Style: Security,Times New Roman,18,&H001B1D1D,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0280,0125,0
+Style: Gaizers,Trebuchet MS,18,&H00FFFFEF,&H000000FF,&H00C77A65,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0160,0010,0075,0
+Style: GaizersWanted,Trebuchet MS,18,&H00FFFFEF,&H000000FF,&H00C7A645,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0070,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,SIGN,0000,0000,0000,,Nobuna Gaizers
+Dialogue: 0,0:00:03.48,0:00:05.01,DCMain,GENTA,0000,0000,0000,,We're here!
+Dialogue: 0,0:00:05.52,0:00:07.03,DCMain,MITSUHIKO,0000,0000,0000,,We made it!
+Dialogue: 0,0:00:13.50,0:00:15.58,Oda,SIGN,0000,0000,0000,,Oda Nobunaga
+Dialogue: 0,0:00:17.90,0:00:19.44,DCMain,AYUMI,0000,0000,0000,,It's so shiny!
+Dialogue: 0,0:00:19.44,0:00:21.26,DCMain,MITSUHIKO,0000,0000,0000,,It's Nobunaga!
+Dialogue: 0,0:00:21.26,0:00:22.75,DCMain,GENTA,0000,0000,0000,,Wow!
+Dialogue: 0,0:00:23.21,0:00:25.80,DCItalic,CONAN,0000,0000,0000,,2017 is the 450th anniversary
+Dialogue: 0,0:00:25.80,0:00:31.96,DCItalic,CONAN,0000,0000,0000,,of Warring States General Oda \NNobunaga's entry into Gifu Castle.
+Dialogue: 0,0:00:32.61,0:00:35.14,DCItalic,CONAN,0000,0000,0000,,In addition to sightseeing around the city,
+Dialogue: 0,0:00:35.14,0:00:39.29,DCItalic,CONAN,0000,0000,0000,,{\an8}we've come to see the numerous \Nevents commemorating the event.
+Dialogue: 0,0:00:38.11,0:00:40.51,Locations,TEXT,0000,0000,0000,,{\fad(375,1)}Minna No Mori Gifu Media Cosmos
+Dialogue: 0,0:01:03.16,0:01:05.37,DCMain,AYUMI,0000,0000,0000,,Wasn't that interesting, Conan-kun?
+Dialogue: 0,0:01:05.77,0:01:07.37,DCMain,CONAN,0000,0000,0000,,Yeah, it was.
+Dialogue: 0,0:01:08.70,0:01:11.88,DCMain,GENTA,0000,0000,0000,,Ayumi, I didn't know you \Nliked this kind of thing.
+Dialogue: 0,0:01:12.23,0:01:14.85,DCMain,HAIBARA,0000,0000,0000,,Oh, a lot of girls do these days.
+Dialogue: 0,0:01:14.85,0:01:17.89,DCMain,MITSUHIKO,0000,0000,0000,,They're called History Buffs \Nor Warring States Girls.
+Dialogue: 0,0:01:18.21,0:01:21.18,DCMain,AYUMI,0000,0000,0000,,I don't know about that,
+Dialogue: 0,0:01:21.18,0:01:23.64,DCMain,AYUMI,0000,0000,0000,,but it was really interesting.
+Dialogue: 0,0:01:23.94,0:01:26.09,DCMain,AGASA,0000,0000,0000,,Let's head to the next place.
+Dialogue: 0,0:01:26.09,0:01:28.12,DCMain,ALL,0000,0000,0000,,Okay.
+Dialogue: 0,0:01:29.02,0:01:30.98,Project,TEXT,0000,0000,0000,,Nobunaga 450 Project
+Dialogue: 0,0:01:31.87,0:01:33.92,DCMain,CONAN,0000,0000,0000,,Curtains rise as the headliner appears!
+Dialogue: 0,0:01:33.92,0:01:36.42,DCMain,CONAN,0000,0000,0000,,He beautifully dances his \Nmystery-solving steps!
+Dialogue: 0,0:01:36.42,0:01:40.28,DCMain,CONAN,0000,0000,0000,,A case casts a shadow over new heroes of \NWarring States Era Gifu, the Nobuna Gaizers.
+Dialogue: 0,0:01:40.62,0:01:42.22,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:42.22,0:01:44.37,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:44.37,0:01:46.81,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:26.97,0:03:32.98,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(403,1)}The Nobunaga 450 Case
+Dialogue: 0,0:03:27.71,0:03:30.50,DCMain,CONAN,0000,0000,0000,,"The Nobunaga 450 Case!"
+Dialogue: 0,0:03:33.53,0:03:39.11,Locations,SIGN,0000,0000,0000,,{\fad(375,1)}Juhachiro
+Dialogue: 0,0:03:38.29,0:03:40.49,DCMain,AGASA,0000,0000,0000,,{\an8}This is where we're staying tonight.
+Dialogue: 0,0:03:40.95,0:03:43.00,DCMain,WOMAN,0000,0000,0000,,Welcome.
+Dialogue: 0,0:03:43.46,0:03:44.99,DCMain,ALL,0000,0000,0000,,Thank you!
+Dialogue: 0,0:03:47.02,0:03:48.17,DCMain,AGASA,0000,0000,0000,,Tobayama-san.
+Dialogue: 0,0:03:49.18,0:03:51.30,DCMain,TOBAYAMA,0000,0000,0000,,Ah, Agasa-san.
+Dialogue: 0,0:03:52.12,0:03:56.23,DCMain,AGASA,0000,0000,0000,,Kids, this my old friend \Nand the man who invited us,
+Dialogue: 0,0:03:56.23,0:04:00.51,DCMain,AGASA,0000,0000,0000,,cormorant fisherman Tobayama-san.
+Dialogue: 0,0:04:01.38,0:04:05.18,DCMain,TOBAYAMA,0000,0000,0000,,{\an8}Hello. You must be the Detective Boys.
+Dialogue: 0,0:04:01.43,0:04:05.18,Iwao,TEXT,0000,0000,0000,,{\fad(250,1)}Tobayama Iwao (55) \NCormorant Fisherman
+Dialogue: 0,0:04:05.40,0:04:07.55,DCMain,ALL,0000,0000,0000,,Nice to meet you!
+Dialogue: 0,0:04:08.54,0:04:10.18,DCMain,TOBAYAMA,0000,0000,0000,,Good, you're full of energy.
+Dialogue: 0,0:04:21.00,0:04:22.02,DCMain,GENTA,0000,0000,0000,,Wow.
+Dialogue: 0,0:04:22.02,0:04:22.82,DCMain,MITSUHIKO,0000,0000,0000,,It's so pretty.
+Dialogue: 0,0:04:26.12,0:04:27.83,DCMain,AGASA,0000,0000,0000,,Ah, Tobayama-san.
+Dialogue: 0,0:04:30.33,0:04:32.20,DCMain,ALL,0000,0000,0000,,Tobayama-san!
+Dialogue: 0,0:04:40.82,0:04:44.22,DCMain,AGASA,0000,0000,0000,,Where should we go next?
+Dialogue: 0,0:04:44.22,0:04:46.82,DCMain,AYUMI,0000,0000,0000,,Hey, that's the Gifu dialect.
+Dialogue: 0,0:04:46.82,0:04:50.60,DCMain,CONAN,0000,0000,0000,,Actually, "ikomaika" isn't the interrogative.
+Dialogue: 0,0:04:50.60,0:04:53.21,DCMain,CONAN,0000,0000,0000,,It means "let's go to a particular place."
+Dialogue: 0,0:04:53.21,0:04:57.34,DCMain,HAIBARA,0000,0000,0000,,I see you know everything, Mr. Detective.
+Dialogue: 0,0:04:57.34,0:04:58.52,DCMain,CONAN,0000,0000,0000,,Whatever.
+Dialogue: 0,0:04:58.52,0:05:01.44,DCMain,GENTA,0000,0000,0000,,I'm starving.
+Dialogue: 0,0:05:01.44,0:05:02.26,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:05:02.26,0:05:06.95,DCMain,AYUMI,0000,0000,0000,,Didn't you just eat three \NHida beef steaks, Genta-kun?
+Dialogue: 0,0:05:06.95,0:05:08.49,DCMain,GENTA,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:05:12.72,0:05:17.04,DCMain,MITSUHIKO,0000,0000,0000,,Oh, right. In that case, there's \Nsomewhere I'd like to go.
+Dialogue: 0,0:05:17.35,0:05:18.43,DCMain,ALL,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:19.46,0:05:21.84,DCMain,RED,0000,0000,0000,,Since Nobunaga took the \Ncastle, it's been 400...
+Dialogue: 0,0:05:23.57,0:05:24.63,DCMain,BLUE,0000,0000,0000,,...and 50 years!
+Dialogue: 0,0:05:24.92,0:05:26.93,DCMain,BLUE,0000,0000,0000,,In this year for the ages,
+Dialogue: 0,0:05:27.26,0:05:30.51,DCMain,GREEN,0000,0000,0000,,to this land, we bring \Njustice and friendship!
+Dialogue: 0,0:05:32.29,0:05:33.78,DCMain,BLACK,0000,0000,0000,,Courage and effort!
+Dialogue: 0,0:05:35.90,0:05:38.43,DCMain,PINK,0000,0000,0000,,Love and smiles!
+Dialogue: 0,0:05:40.52,0:05:44.28,DCMain,ALL,0000,0000,0000,,The Origami Squad Nobuna \NGaizers have arrived!
+Dialogue: 0,0:05:47.40,0:05:49.40,DCMain,CROWD,0000,0000,0000,,Nobuna Gaizers!
+Dialogue: 0,0:05:56.56,0:05:58.50,DCMain,CONAN,0000,0000,0000,,A local hero show, huh?
+Dialogue: 0,0:05:58.80,0:06:01.62,DCMain,GENTA,0000,0000,0000,,No... Nobu... Naza?
+Dialogue: 0,0:06:01.62,0:06:02.63,DCMain,GENTA,0000,0000,0000,,What are they called?
+Dialogue: 0,0:06:02.87,0:06:04.66,DCMain,HAIBARA,0000,0000,0000,,The Nobuna Gaizers.
+Dialogue: 0,0:06:04.66,0:06:08.13,DCMain,HAIBARA,0000,0000,0000,,They're heroes modeled after Oda Nobunaga.
+Dialogue: 0,0:06:08.36,0:06:09.58,DCMain,AYUMI,0000,0000,0000,,They're so cool.
+Dialogue: 0,0:06:09.58,0:06:11.11,DCMain,MITSUHIKO,0000,0000,0000,,Aren't they?!
+Dialogue: 0,0:06:11.11,0:06:13.97,DCMain,MITSUHIKO,0000,0000,0000,,I actually came here for this.
+Dialogue: 0,0:06:13.22,0:06:13.97,Album,TEXT,0000,0000,0000,,Local Hero Album
+Dialogue: 0,0:06:17.38,0:06:18.80,DCMain,GENTA,0000,0000,0000,,Seriously?
+Dialogue: 0,0:06:18.80,0:06:21.68,DCMain,AYUMI,0000,0000,0000,,Mitsuhiko-kun, did you make this?
+Dialogue: 0,0:06:21.68,0:06:22.36,DCMain,MITSUHIKO,0000,0000,0000,,Yes!
+Dialogue: 0,0:06:22.65,0:06:25.20,DCMain,MITSUHIKO,0000,0000,0000,,By going on trips and looking online,
+Dialogue: 0,0:06:25.20,0:06:29.61,DCMain,MITSUHIKO,0000,0000,0000,,I've gathered data on local \Nheroes across the country.
+Dialogue: 0,0:06:29.79,0:06:31.72,DCMain,GENTA,0000,0000,0000,,There's a lot of them.
+Dialogue: 0,0:06:31.72,0:06:35.12,DCMain,GENTA,0000,0000,0000,,With all those heroes, the \Nworld must be super safe.
+Dialogue: 0,0:06:35.90,0:06:37.06,DCMain,MITSUHIKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:44.75,0:06:46.76,DCMain,MITSUHIKO,0000,0000,0000,,Go!
+Dialogue: 0,0:06:58.88,0:07:00.31,DCMain,ALL,0000,0000,0000,,Nobuna Gaizers!
+Dialogue: 0,0:07:03.41,0:07:05.32,DCMain,CROWD,0000,0000,0000,,Nobuna Gaizers!
+Dialogue: 0,0:07:06.82,0:07:11.07,DCMain,MITSUHIKO,0000,0000,0000,,That was their signature move, the \NGaizer Triple Decker Knock Down!
+Dialogue: 0,0:07:11.28,0:07:12.77,DCMain,GENTA,0000,0000,0000,,They're so cool!
+Dialogue: 0,0:07:12.77,0:07:14.03,DCMain,AYUMI,0000,0000,0000,,They're amazing!
+Dialogue: 0,0:07:17.43,0:07:19.19,DCMain,MITSUHIKO,0000,0000,0000,,I'll help.
+Dialogue: 0,0:07:19.19,0:07:20.04,DCMain,AYUMI,0000,0000,0000,,Me, too.
+Dialogue: 0,0:07:20.04,0:07:21.67,DCMain,GENTA,0000,0000,0000,,Me, too.
+Dialogue: 0,0:07:23.08,0:07:24.17,DCMain,RED,0000,0000,0000,,Thanks.
+Dialogue: 0,0:07:24.94,0:07:27.42,DCMain,BLUE,0000,0000,0000,,The Nobuna Gaizers have something for you.
+Dialogue: 0,0:07:27.71,0:07:29.60,DCMain,GREEN,0000,0000,0000,,Make sure you get yours.
+Dialogue: 0,0:07:30.26,0:07:32.11,DCMain,BLACK,0000,0000,0000,,Line up, line up.
+Dialogue: 0,0:07:33.12,0:07:34.16,DCMain,PINK,0000,0000,0000,,Here you go.
+Dialogue: 0,0:07:34.16,0:07:35.43,DCMain,CHILD,0000,0000,0000,,Thank you.
+Dialogue: 0,0:07:37.77,0:07:38.76,DCMain,WOMAN,0000,0000,0000,,Oh, my.
+Dialogue: 0,0:07:38.76,0:07:40.06,DCMain,MAN,0000,0000,0000,,Ah.
+Dialogue: 0,0:07:40.28,0:07:41.55,DCMain,BOY,0000,0000,0000,,Hooray.
+Dialogue: 0,0:07:42.32,0:07:43.87,DCMain,PINK,0000,0000,0000,,Here you go.
+Dialogue: 0,0:07:43.87,0:07:46.06,DCMain,AYUMI,0000,0000,0000,,The paper's so pretty.
+Dialogue: 0,0:07:46.32,0:07:48.82,DCMain,MITSUHIKO,0000,0000,0000,,This is Minowa paper, isn't it?
+Dialogue: 0,0:07:48.82,0:07:51.07,DCMain,RED,0000,0000,0000,,Ah, you know what it is?
+Dialogue: 0,0:07:51.27,0:07:54.55,DCMain,MITSUHIKO,0000,0000,0000,,I looked up where you've been working
+Dialogue: 0,0:07:54.55,0:07:56.74,DCMain,MITSUHIKO,0000,0000,0000,,before coming.
+Dialogue: 0,0:07:57.03,0:07:59.17,DCMain,BLUE,0000,0000,0000,,That's amazing.
+Dialogue: 0,0:07:59.17,0:08:00.99,DCMain,GREEN,0000,0000,0000,,I'm so glad to hear that.
+Dialogue: 0,0:08:00.99,0:08:03.40,DCMain,BLACK,0000,0000,0000,,We couldn't exist without you.
+Dialogue: 0,0:08:04.10,0:08:05.13,DCMain,PINK,0000,0000,0000,,Thank you.
+Dialogue: 0,0:08:07.54,0:08:10.84,DCMain,MITSUHIKO,0000,0000,0000,,N-No, thank you! I'm overjoyed!
+Dialogue: 0,0:08:10.84,0:08:12.76,DCMain,MITSUHIKO,0000,0000,0000,,Thank you so much!
+Dialogue: 0,0:08:12.76,0:08:19.77,DCNote,,0000,0000,0000,,Origami Squad\N{\fs26\b1\c&H48A4B7&}Nobuna {\c&H2B2589&}Gaizers
+Dialogue: 0,0:08:13.07,0:08:14.93,DCMain,RED,0000,0000,0000,,No, thank you.
+Dialogue: 0,0:08:14.93,0:08:17.26,DCMain,RED,0000,0000,0000,,See you kids later!
+Dialogue: 0,0:08:17.26,0:08:19.77,DCMain,ALL,0000,0000,0000,,Bye!
+Dialogue: 0,0:08:20.05,0:08:23.77,DCMain,CONAN,0000,0000,0000,,That was crazy. I've never \Nseen Mitsuhiko like that.
+Dialogue: 0,0:08:23.77,0:08:24.38,DCMain,RED,0000,0000,0000,,Good work today.
+Dialogue: 0,0:08:24.38,0:08:25.86,DCMain,MAN,0000,0000,0000,,Good work.
+Dialogue: 0,0:08:25.86,0:08:26.96,DCMain,PINK,0000,0000,0000,,Good work.
+Dialogue: 0,0:08:26.96,0:08:28.57,DCMain,BLACK,0000,0000,0000,,Good work.
+Dialogue: 0,0:08:28.57,0:08:29.64,DCMain,BLUE,0000,0000,0000,,Good work.
+Dialogue: 0,0:08:30.10,0:08:31.24,DCMain,GREEN,0000,0000,0000,,Good work.
+Dialogue: 0,0:08:34.96,0:08:37.38,DCMain,MAN,0000,0000,0000,,Good work, everyone.
+Dialogue: 0,0:08:38.99,0:08:42.16,Kengo,TEXT,0000,0000,0000,,{\fad(250,1)}Akahoshi Kengo (28) \NNobuna Gaizer Red
+Dialogue: 0,0:08:44.37,0:08:46.67,Teppei,TEXT,0000,0000,0000,,{\fad(250,1)}Aoto Teppei (26) \NNobuna Gaizer Blue
+Dialogue: 0,0:08:48.21,0:08:51.17,Koji,TEXT,0000,0000,0000,,{\fad(250,1)}Midoriyama Koji (23) \NNobuna Gaizer Green
+Dialogue: 0,0:08:53.13,0:08:55.68,Takuro,TEXT,0000,0000,0000,,{\fad(250,1)}Kurotani Takuro (30) \NNobuna Gaizer Black
+Dialogue: 0,0:08:57.34,0:08:59.93,Kurumi,TEXT,0000,0000,0000,,{\fad(250,1)}Momochi Kurumi (22) \NNobuna Gaizer Pink
+Dialogue: 0,0:09:00.38,0:09:03.43,DCMain,OYABU,0000,0000,0000,,We have a meeting to \Ndiscuss tomorrow's event.
+Dialogue: 0,0:09:03.68,0:09:07.85,Kimifusa,TEXT,0000,0000,0000,,{\fad(250,1)}Oyabu Kimifusa (45) \NEvent Promoter
+Dialogue: 0,0:09:03.85,0:09:06.15,DCMain,OYABU,0000,0000,0000,,{\an8}We'll meet at the office.
+Dialogue: 0,0:09:06.15,0:09:07.31,DCMain,ALL,0000,0000,0000,,{\an8}Okay!
+Dialogue: 0,0:09:08.90,0:09:12.84,DCMain,MITSUHIKO,0000,0000,0000,,It's against the rules to see \Na hero's face, Conan-kun.
+Dialogue: 0,0:09:12.84,0:09:14.78,DCMain,CONAN,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:09:15.16,0:09:17.72,DCMain,AGASA,0000,0000,0000,,Let's head back to the hotel, kids.
+Dialogue: 0,0:09:17.72,0:09:19.28,DCMain,ALL,0000,0000,0000,,Okay!
+Dialogue: 0,0:09:20.78,0:09:23.29,DCMain,HAIBARA,0000,0000,0000,,I definitely feel full after that.
+Dialogue: 0,0:09:24.53,0:09:25.79,DCMain,CONAN,0000,0000,0000,,I agree.
+Dialogue: 0,0:09:26.05,0:09:29.91,DCMain,GENTA,0000,0000,0000,,What? I could keep eating.
+Dialogue: 0,0:09:29.91,0:09:34.06,DCMain,GENTA,0000,0000,0000,,Let's stop by a convenience store \Non the way back, Professor.
+Dialogue: 0,0:09:34.06,0:09:36.66,DCMain,GENTA,0000,0000,0000,,We need to get lunch boxes and pork buns
+Dialogue: 0,0:09:36.66,0:09:40.30,DCMain,GENTA,0000,0000,0000,,and sandwiches and chips and drinks.
+Dialogue: 0,0:09:40.30,0:09:42.31,DCMain,AGASA,0000,0000,0000,,Okay, okay.
+Dialogue: 0,0:09:42.48,0:09:45.65,DCMain,AYUMI,0000,0000,0000,,Genta-kun, that's too much food.
+Dialogue: 0,0:09:45.65,0:09:46.81,DCMain,MITSUHIKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:49.35,0:09:51.27,DCMain,AYUMI,0000,0000,0000,,What's wrong, Mitsuhiko-kun?
+Dialogue: 0,0:09:51.97,0:09:55.19,DCMain,MITSUHIKO,0000,0000,0000,,I forgot to ask them to sign my album.
+Dialogue: 0,0:09:55.46,0:09:57.11,DCMain,MITSUHIKO,0000,0000,0000,,This sucks.
+Dialogue: 0,0:09:57.68,0:10:01.99,DCMain,CONAN,0000,0000,0000,,Mitsuhiko, are you sure you \Nwant to give up so easily?
+Dialogue: 0,0:10:02.63,0:10:04.49,DCMain,HAIBARA,0000,0000,0000,,We'll wait for you.
+Dialogue: 0,0:10:04.49,0:10:05.54,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:05.74,0:10:08.58,DCMain,GENTA,0000,0000,0000,,But we're going to the \Nconvenience store after.
+Dialogue: 0,0:10:08.58,0:10:09.79,DCMain,MITSUHIKO,0000,0000,0000,,Thank you!
+Dialogue: 0,0:10:10.07,0:10:11.97,DCMain,AGASA,0000,0000,0000,,Be careful.
+Dialogue: 0,0:10:11.97,0:10:12.79,DCMain,MITSUHIKO,0000,0000,0000,,I will!
+Dialogue: 0,0:10:19.98,0:10:21.55,DCMain,MITSUHIKO,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:10:22.17,0:10:25.24,DCMain,MITSUHIKO,0000,0000,0000,,Are the members of Nobuna Gaizers in...
+Dialogue: 0,0:10:35.28,0:10:37.90,DCMain,GENTA,0000,0000,0000,,Mitsuhiko's taking a while.
+Dialogue: 0,0:10:38.34,0:10:41.07,DCMain,GENTA,0000,0000,0000,,I'm about to starve to death.
+Dialogue: 0,0:10:47.06,0:10:48.51,DCMain,AYUMI,0000,0000,0000,,It's quiet.
+Dialogue: 0,0:10:48.51,0:10:49.98,DCMain,GENTA,0000,0000,0000,,Let's try calling him.
+Dialogue: 0,0:10:54.01,0:10:55.59,DCMain,AYUMI,0000,0000,0000,,That's Mitsuhiko-kun's.
+Dialogue: 0,0:10:56.46,0:10:57.96,Genta,TEXT,0000,0000,0000,,Genta-kun
+Dialogue: 0,0:10:56.46,0:10:57.96,Call,TEXT,0000,0000,0000,,Incoming Call
+Dialogue: 0,0:10:58.64,0:10:59.69,DCMain,AYUMI,0000,0000,0000,,No way.
+Dialogue: 0,0:10:59.69,0:11:00.97,DCMain,CONAN,0000,0000,0000,,What's going on?
+Dialogue: 0,0:11:02.97,0:11:06.31,DCNote,,0000,0000,0000,,{\fs26\c&HD7F7F8&}Juhachiro
+Dialogue: 0,0:11:08.76,0:11:10.62,DCMain,TOBAYAMA,0000,0000,0000,,You still haven't found him?
+Dialogue: 0,0:11:10.62,0:11:12.35,DCMain,TOBAYAMA,0000,0000,0000,,It's been two hours.
+Dialogue: 0,0:11:12.80,0:11:15.57,DCMain,TOBAYAMA,0000,0000,0000,,I've told the other fishermen.
+Dialogue: 0,0:11:15.57,0:11:18.24,DCMain,TOBAYAMA,0000,0000,0000,,They'll call if they see or hear anything.
+Dialogue: 0,0:11:18.24,0:11:19.86,DCMain,AGASA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:11:20.12,0:11:22.09,DCMain,HAIBARA,0000,0000,0000,,What about the police?
+Dialogue: 0,0:11:22.09,0:11:25.74,DCMain,CONAN,0000,0000,0000,,The professor used the old man's \Nname to get them to look into it.
+Dialogue: 0,0:11:25.74,0:11:27.23,DCMain,CONAN,0000,0000,0000,,They should be coming soon.
+Dialogue: 0,0:11:35.89,0:11:36.80,DCMain,MATSUSHIRO,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:37.33,0:11:39.30,DCMain,MATSUSHIRO,0000,0000,0000,,You kids seem familiar...
+Dialogue: 0,0:11:39.47,0:11:41.01,DCMain,GENTA,0000,0000,0000,,I remember now!
+Dialogue: 0,0:11:41.01,0:11:45.18,DCMain,AYUMI,0000,0000,0000,,We met during the world heritage \Nsite Onizawa Village case.
+Dialogue: 0,0:11:45.54,0:11:47.78,DCMain,HAIBARA,0000,0000,0000,,Detective Matsushiro, right?
+Dialogue: 0,0:11:48.68,0:11:52.69,Tamekichi,TEXT,0000,0000,0000,,{\fad(278,1)}Matsushiro Tamekichi (38) \NGifu Prefectural Police
+Dialogue: 0,0:11:48.71,0:11:52.69,DCMain,MATSUSHIRO,0000,0000,0000,,{\an8}Is Mori-san not here today?
+Dialogue: 0,0:11:53.04,0:11:56.69,DCMain,CONAN,0000,0000,0000,,Professor Agasa came with us instead.
+Dialogue: 0,0:11:56.69,0:11:58.64,DCMain,MATSUSHIRO,0000,0000,0000,,Professor Agasa.
+Dialogue: 0,0:11:58.64,0:12:00.46,DCMain,MATSUSHIRO,0000,0000,0000,,I've heard about you.
+Dialogue: 0,0:12:00.46,0:12:03.41,DCMain,MATSUSHIRO,0000,0000,0000,,You solve cases with deductive abilities
+Dialogue: 0,0:12:03.64,0:12:06.14,DCMain,MATSUSHIRO,0000,0000,0000,,on par with Detective Mori's.
+Dialogue: 0,0:12:06.14,0:12:08.24,DCMain,AGASA,0000,0000,0000,,I-Is that right?
+Dialogue: 0,0:12:08.60,0:12:11.15,DCMain,CONAN,0000,0000,0000,,They're both me, though.
+Dialogue: 0,0:12:11.15,0:12:12.54,DCMain,HAIBARA,0000,0000,0000,,They'll hear you.
+Dialogue: 0,0:12:13.00,0:12:15.68,DCMain,MATSUSHIRO,0000,0000,0000,,Could you give me the \Ndetails of the case again?
+Dialogue: 0,0:12:16.62,0:12:21.22,DCMain,CONAN,0000,0000,0000,,But Mitsuhiko's whereabouts \Nremained unknown, and...
+Dialogue: 0,0:12:22.13,0:12:24.24,DCMain,CONAN,0000,0000,0000,,The Nobuna Gaizers are missing, too?
+Dialogue: 0,0:12:24.24,0:12:25.67,DCMain,HAIBARA,0000,0000,0000,,What does this mean?
+Dialogue: 0,0:12:25.67,0:12:28.56,DCMain,MATSUSHIRO,0000,0000,0000,,We wanted to question them too,
+Dialogue: 0,0:12:29.16,0:12:32.06,DCMain,MATSUSHIRO,0000,0000,0000,,but we still haven't been able \Nto get in touch with them.
+Dialogue: 0,0:12:33.12,0:12:35.19,DCMain,CONAN,0000,0000,0000,,I have a bad feeling about this.
+Dialogue: 0,0:12:35.71,0:12:36.57,DCMain,HAIBARA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:37.16,0:12:39.94,Locations,TEXT,0000,0000,0000,,{\fad(335,1)}Gifu City History Museum
+Dialogue: 0,0:12:45.95,0:12:48.95,Tile,SIGN,0000,0000,0000,,Golden Tile
+Dialogue: 0,0:12:45.95,0:12:48.95,Statue,SIGN,0000,0000,0000,,Solid Gold Nobunaga Statue \N(Miniature)
+Dialogue: 0,0:12:48.95,0:12:52.04,Statue2,SIGN,0000,0000,0000,,Solid Gold Nobunaga Statue (Miniature)
+Dialogue: 0,0:13:01.26,0:13:06.09,DCMain,MATSUSHIRO,0000,0000,0000,,The objects that were stolen include a \Nminiature solid gold Oda Nobunaga statue
+Dialogue: 0,0:13:06.32,0:13:07.72,DCMain,MATSUSHIRO,0000,0000,0000,,and a golden tile.
+Dialogue: 0,0:13:08.27,0:13:10.81,DCMain,MATSUSHIRO,0000,0000,0000,,They also took some ancient \Nmanuscripts with historical value.
+Dialogue: 0,0:13:11.28,0:13:13.93,DCMain,MATSUSHIRO,0000,0000,0000,,They're all treasures of Gifu.
+Dialogue: 0,0:13:14.57,0:13:19.23,DCMain,HAIBARA,0000,0000,0000,,If we don't hurry, they'll be sold on \Nthe black market and be sent overseas.
+Dialogue: 0,0:13:19.43,0:13:21.23,DCMain,AYUMI,0000,0000,0000,,R-Really?
+Dialogue: 0,0:13:21.23,0:13:23.24,DCMain,GENTA,0000,0000,0000,,This is turning into a big deal.
+Dialogue: 0,0:13:30.58,0:13:32.01,DCMain,AGASA,0000,0000,0000,,Uh,
+Dialogue: 0,0:13:32.01,0:13:35.61,DCMain,AGASA,0000,0000,0000,,could we see the security camera footage?
+Dialogue: 0,0:13:35.61,0:13:36.16,DCMain,MATSUSHIRO,0000,0000,0000,,Yes.
+Dialogue: 0,0:13:36.18,0:13:38.18,Security,SIGN,0000,0000,0000,,Security Office
+Dialogue: 0,0:13:38.71,0:13:40.92,DCMain,GENTA,0000,0000,0000,,Huh? These guys...
+Dialogue: 0,0:13:41.13,0:13:43.92,DCMain,AYUMI,0000,0000,0000,,They're the Nobuna Gaizers.
+Dialogue: 0,0:13:53.16,0:13:54.52,DCMain,GENTA,0000,0000,0000,,You can't be serious!
+Dialogue: 0,0:13:54.52,0:13:58.19,DCMain,GENTA,0000,0000,0000,,I didn't want to believe it, \Nbut the heroes are the thieves!
+Dialogue: 0,0:13:58.19,0:14:00.31,DCMain,AYUMI,0000,0000,0000,,They're the worst! They \Nwon't get away with this!
+Dialogue: 0,0:14:01.50,0:14:02.91,DCMain,MATSUSHIRO,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:14:03.82,0:14:06.57,DCMain,MATSUSHIRO,0000,0000,0000,,You found the Nobuna Gaizers' car?
+Dialogue: 0,0:14:18.58,0:14:20.28,DCMain,AYUMI,0000,0000,0000,,Wh-What's that?
+Dialogue: 0,0:14:22.69,0:14:24.29,DCMain,GENTA,0000,0000,0000,,It's a Nobunaga badge.
+Dialogue: 0,0:14:24.29,0:14:26.38,DCMain,AYUMI,0000,0000,0000,,Is it Mitsuhiko-kun's?
+Dialogue: 0,0:14:26.69,0:14:29.04,DCMain,GENTA,0000,0000,0000,,Was he in this car?
+Dialogue: 0,0:14:29.04,0:14:30.74,DCMain,MATSUSHIRO,0000,0000,0000,,Did they take him hostage?
+Dialogue: 0,0:14:30.74,0:14:31.89,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:14:32.21,0:14:33.05,DCMain,HAIBARA,0000,0000,0000,,Look.
+Dialogue: 0,0:14:33.05,0:14:34.89,DCMain,CONAN,0000,0000,0000,,Yeah, I noticed, too.
+Dialogue: 0,0:14:37.35,0:14:39.15,DCMain,CONAN,0000,0000,0000,,And look at the front wheels.
+Dialogue: 0,0:14:43.77,0:14:44.82,DCMain,HAIBARA,0000,0000,0000,,Is that...?
+Dialogue: 0,0:14:45.14,0:14:48.45,DCMain,CONAN,0000,0000,0000,,Yeah. It's asphalt tar.
+Dialogue: 0,0:14:48.45,0:15:02.33,Gaizers,TEXT,0000,0000,0000,,Nobuna Gaizers
+Dialogue: 0,0:14:48.45,0:15:02.33,GaizersWanted,TEXT,0000,0000,0000,,Nobuna Gaizers Wanted
+Dialogue: 0,0:14:49.00,0:14:52.22,DCItalic,NEWS,0000,0000,0000,,The Nobuna Gaizers, local heroes,
+Dialogue: 0,0:14:52.22,0:14:56.27,DCItalic,NEWS,0000,0000,0000,,popular for cleaning up the city
+Dialogue: 0,0:14:56.27,0:15:00.03,DCItalic,NEWS,0000,0000,0000,,and helping the elderly, are \Nwanted as suspects in a robbery.
+Dialogue: 0,0:15:00.37,0:15:04.16,DCItalic,NEWS,0000,0000,0000,,The five heroes on the run may have taken
+Dialogue: 0,0:15:04.16,0:15:06.70,DCItalic,NEWS,0000,0000,0000,,a grade school aged boy hostage—
+Dialogue: 0,0:15:07.53,0:15:09.84,DCMain,CONAN,0000,0000,0000,,It's my fault for saying that.
+Dialogue: 0,0:15:10.39,0:15:14.72,DCItalic,CONAN,0000,0000,0000,,Mitsuhiko, are you sure you \Nwant to give up so easily?
+Dialogue: 0,0:15:15.27,0:15:17.17,DCItalic,HAIBARA,0000,0000,0000,,We'll wait for you.
+Dialogue: 0,0:15:17.17,0:15:18.27,DCItalic,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:18.52,0:15:21.30,DCItalic,GENTA,0000,0000,0000,,But we're going to the \Nconvenience store after.
+Dialogue: 0,0:15:21.30,0:15:22.52,DCItalic,MITSUHIKO,0000,0000,0000,,Thank you!
+Dialogue: 0,0:15:22.92,0:15:24.65,DCItalic,AGASA,0000,0000,0000,,Be careful.
+Dialogue: 0,0:15:24.65,0:15:25.52,DCItalic,MITSUHIKO,0000,0000,0000,,I will!
+Dialogue: 0,0:15:25.75,0:15:28.00,DCMain,AYUMI,0000,0000,0000,,I told him to go, too.
+Dialogue: 0,0:15:28.00,0:15:29.75,DCMain,HAIBARA,0000,0000,0000,,I didn't try to stop him either.
+Dialogue: 0,0:15:29.75,0:15:30.78,DCMain,GENTA,0000,0000,0000,,Me, too.
+Dialogue: 0,0:15:30.78,0:15:32.03,DCMain,AGASA,0000,0000,0000,,Me, too.
+Dialogue: 0,0:15:32.32,0:15:34.03,DCMain,OYABU,0000,0000,0000,,Heroes, my butt.
+Dialogue: 0,0:15:34.03,0:15:35.95,DCMain,OYABU,0000,0000,0000,,They're just a bunch of nuisances.
+Dialogue: 0,0:15:42.10,0:15:46.54,DCMain,CONAN,0000,0000,0000,,Nobuna Gaizer Red is left handed, right?
+Dialogue: 0,0:15:52.00,0:15:56.21,DCMain,HAIBARA,0000,0000,0000,,Yeah, but he was right \Nhanded at the crime scene.
+Dialogue: 0,0:15:56.21,0:16:00.02,DCMain,HAIBARA,0000,0000,0000,,Blue and Green were switched \Nin their signature pose, too.
+Dialogue: 0,0:16:05.21,0:16:06.97,DCMain,GENTA,0000,0000,0000,,What does it mean?
+Dialogue: 0,0:16:06.97,0:16:08.09,DCMain,AYUMI,0000,0000,0000,,C-Could it be?
+Dialogue: 0,0:16:08.09,0:16:09.19,DCMain,AGASA,0000,0000,0000,,They're impostors?
+Dialogue: 0,0:16:09.48,0:16:12.10,DCMain,CONAN,0000,0000,0000,,Yeah, that's exactly right.
+Dialogue: 0,0:16:20.55,0:16:21.42,DCMain,MITSUHIKO,0000,0000,0000,,Huh? What?
+Dialogue: 0,0:16:21.88,0:16:24.37,DCMain,MITSUHIKO,0000,0000,0000,,Are you the Nobuna Gaizers?
+Dialogue: 0,0:16:31.41,0:16:33.59,DCMain,SHADOW A,0000,0000,0000,,Hello. Everything's ready here.
+Dialogue: 0,0:16:34.04,0:16:36.09,DCMain,SHADOW A,0000,0000,0000,,We'll handle the rest.
+Dialogue: 0,0:16:36.68,0:16:40.54,DCMain,CONAN,0000,0000,0000,,They kidnapped the real Nobuna \NGaizers, stole their costumes,
+Dialogue: 0,0:16:40.54,0:16:43.23,DCMain,CONAN,0000,0000,0000,,and committed the robbery while wearing them.
+Dialogue: 0,0:16:43.42,0:16:45.22,DCMain,GENTA,0000,0000,0000,,How dare they.
+Dialogue: 0,0:16:45.22,0:16:47.74,DCMain,AYUMI,0000,0000,0000,,But who would do this?
+Dialogue: 0,0:16:48.09,0:16:50.67,DCMain,HAIBARA,0000,0000,0000,,You already know, don't you?
+Dialogue: 0,0:16:50.67,0:16:52.11,DCMain,HAIBARA,0000,0000,0000,,Should we confirm your suspicions?
+Dialogue: 0,0:16:52.52,0:16:55.49,DCMain,CONAN,0000,0000,0000,,Yeah. Professor, call Detective Matsushiro.
+Dialogue: 0,0:17:01.15,0:17:03.37,DCMain,SHADOW,0000,0000,0000,,Got it. It's a success.
+Dialogue: 0,0:17:05.37,0:17:07.22,DCMain,HAIBARA,0000,0000,0000,,What's a success?
+Dialogue: 0,0:17:08.49,0:17:10.63,DCMain,CONAN,0000,0000,0000,,You mean your evil plan?
+Dialogue: 0,0:17:11.65,0:17:16.56,DCMain,AGASA,0000,0000,0000,,Yes, your plan to frame the \NNobuna Gaizers for a robbery.
+Dialogue: 0,0:17:16.56,0:17:20.39,DCMain,AGASA,0000,0000,0000,,Hero show promoter Oyabu Kimifusa-san.
+Dialogue: 0,0:17:22.58,0:17:24.71,DCMain,OYABU,0000,0000,0000,,Wh-Who are you?
+Dialogue: 0,0:17:24.71,0:17:26.76,DCMain,GENTA,0000,0000,0000,,We're the Detective Boys!
+Dialogue: 0,0:17:26.76,0:17:28.27,DCMain,AYUMI,0000,0000,0000,,Where's Mitsuhiko-kun?
+Dialogue: 0,0:17:28.56,0:17:30.53,DCMain,OYABU,0000,0000,0000,,Wh-What are you talking about?
+Dialogue: 0,0:17:30.53,0:17:31.86,DCMain,OYABU,0000,0000,0000,,I don't know anything.
+Dialogue: 0,0:17:32.02,0:17:34.99,DCMain,HAIBARA,0000,0000,0000,,Don't bother playing dumb. We have evidence.
+Dialogue: 0,0:17:34.99,0:17:36.24,DCMain,OYABU,0000,0000,0000,,Evidence?
+Dialogue: 0,0:17:36.24,0:17:38.92,DCMain,AYUMI,0000,0000,0000,,Nobuna Gaizer Red is left handed.
+Dialogue: 0,0:17:38.92,0:17:41.87,DCMain,AYUMI,0000,0000,0000,,Blue and Green's positions are switched, too.
+Dialogue: 0,0:17:43.17,0:17:46.71,DCMain,GENTA,0000,0000,0000,,You should've done more research if \Nyou wanted to frame them, mister.
+Dialogue: 0,0:17:46.97,0:17:50.40,DCMain,OYABU,0000,0000,0000,,They just happened to be different.
+Dialogue: 0,0:17:51.85,0:17:55.98,DCMain,AGASA,0000,0000,0000,,Then there's another piece \Nof damning evidence.
+Dialogue: 0,0:17:55.98,0:17:56.93,DCMain,AGASA,0000,0000,0000,,Your ring.
+Dialogue: 0,0:17:57.29,0:17:57.97,DCMain,OYABU,0000,0000,0000,,What?
+Dialogue: 0,0:17:58.34,0:18:00.69,DCMain,HAIBARA,0000,0000,0000,,You should've taken it off.
+Dialogue: 0,0:18:00.69,0:18:02.87,DCMain,HAIBARA,0000,0000,0000,,Heroes don't wear rings.
+Dialogue: 0,0:18:03.79,0:18:07.00,DCMain,AGASA,0000,0000,0000,,You hit the security \Nguard at the crime scene.
+Dialogue: 0,0:18:07.00,0:18:10.08,DCMain,AGASA,0000,0000,0000,,Your ring tore the glove when you did.
+Dialogue: 0,0:18:10.08,0:18:12.72,DCMain,AGASA,0000,0000,0000,,It should match the cut on the victim, too.
+Dialogue: 0,0:18:14.45,0:18:17.23,DCMain,MATSUSHIRO,0000,0000,0000,,We checked the costumes again \Nafter Agasa-san called.
+Dialogue: 0,0:18:17.82,0:18:20.95,DCMain,MATSUSHIRO,0000,0000,0000,,The costume's glove was torn.
+Dialogue: 0,0:18:21.14,0:18:24.59,DCMain,MATSUSHIRO,0000,0000,0000,,We'll have to examine that ring thoroughly.
+Dialogue: 0,0:18:27.04,0:18:28.98,DCMain,OYABU,0000,0000,0000,,I didn't have a choice.
+Dialogue: 0,0:18:28.98,0:18:30.52,DCMain,OYABU,0000,0000,0000,,My company was going under.
+Dialogue: 0,0:18:30.96,0:18:34.34,DCMain,OYABU,0000,0000,0000,,I was being threatened by loan sharks.
+Dialogue: 0,0:18:34.56,0:18:38.09,DCMain,AGASA,0000,0000,0000,,Were the other impostors \Nemployees of that loan company?
+Dialogue: 0,0:18:38.32,0:18:42.88,DCMain,OYABU,0000,0000,0000,,Y-Yeah. I was forced to help them.
+Dialogue: 0,0:18:44.36,0:18:47.23,DCMain,MATSUSHIRO,0000,0000,0000,,I'm impressed, Agasa-san.
+Dialogue: 0,0:18:47.43,0:18:50.71,DCMain,AGASA,0000,0000,0000,,Oh, uh... I guess that solves it.
+Dialogue: 0,0:18:51.61,0:18:54.42,DCMain,CONAN,0000,0000,0000,,It's not over yet. Where's Mitsuhiko?
+Dialogue: 0,0:18:54.42,0:18:56.44,DCMain,CONAN,0000,0000,0000,,Where are the real Nobuna Gaizers?
+Dialogue: 0,0:18:56.67,0:18:58.00,DCMain,MATSUSHIRO,0000,0000,0000,,Where are they?
+Dialogue: 0,0:18:58.67,0:19:00.65,DCMain,OYABU,0000,0000,0000,,I-I don't know.
+Dialogue: 0,0:19:00.65,0:19:03.28,DCMain,OYABU,0000,0000,0000,,They told me they'd handle the rest.
+Dialogue: 0,0:19:03.28,0:19:04.24,DCMain,OYABU,0000,0000,0000,,It's true!
+Dialogue: 0,0:19:04.24,0:19:06.74,DCMain,CONAN,0000,0000,0000,,What? Crap.
+Dialogue: 0,0:19:06.74,0:19:08.69,DCMain,AYUMI,0000,0000,0000,,What does it mean, Conan-kun?
+Dialogue: 0,0:19:08.69,0:19:11.60,DCMain,HAIBARA,0000,0000,0000,,It means if we don't hurry, \Nthey'll be silenced forever.
+Dialogue: 0,0:19:11.60,0:19:14.25,DCMain,HAIBARA,0000,0000,0000,,The heroes and Tsuburaya-kun.
+Dialogue: 0,0:19:14.25,0:19:14.96,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:19:14.96,0:19:15.49,DCMain,AGASA,0000,0000,0000,,What?
+Dialogue: 0,0:19:15.49,0:19:16.88,DCMain,MATSUSHIRO,0000,0000,0000,,Find them!
+Dialogue: 0,0:19:22.77,0:19:24.49,DCMain,RED,0000,0000,0000,,F-Fire!
+Dialogue: 0,0:19:24.49,0:19:25.81,DCMain,BLACK,0000,0000,0000,,We're done for!
+Dialogue: 0,0:19:26.33,0:19:27.98,DCMain,GREEN,0000,0000,0000,,We're finished!
+Dialogue: 0,0:19:27.98,0:19:30.14,DCMain,PINK,0000,0000,0000,,I don't want to die!
+Dialogue: 0,0:19:30.61,0:19:32.61,DCMain,MITSUHIKO,0000,0000,0000,,Don't give up!
+Dialogue: 0,0:19:32.61,0:19:35.15,DCMain,MITSUHIKO,0000,0000,0000,,Your fans are waiting for you!
+Dialogue: 0,0:19:36.05,0:19:39.03,DCMain,GENTA,0000,0000,0000,,Hey, Conan, what should we do?
+Dialogue: 0,0:19:40.46,0:19:43.98,DCItalic,CONAN,0000,0000,0000,,Yeah. It's asphalt tar.
+Dialogue: 0,0:19:43.98,0:19:45.53,DCMain,CONAN,0000,0000,0000,,Wait! Stop!
+Dialogue: 0,0:19:46.36,0:19:48.29,DCMain,CONAN,0000,0000,0000,,Where were you working this morning?
+Dialogue: 0,0:19:48.52,0:19:51.48,DCMain,MITSUHIKO,0000,0000,0000,,Almost... Almost...
+Dialogue: 0,0:19:51.48,0:19:52.44,DCMain,RED,0000,0000,0000,,All right.
+Dialogue: 0,0:19:56.29,0:19:58.10,DCMain,MITSUHIKO,0000,0000,0000,,Is anyone there?
+Dialogue: 0,0:19:58.10,0:19:59.30,DCMain,PINK,0000,0000,0000,,Help!
+Dialogue: 0,0:19:59.70,0:20:00.81,DCMain,BLACK,0000,0000,0000,,What should we do?
+Dialogue: 0,0:20:00.81,0:20:01.93,DCMain,GREEN,0000,0000,0000,,At this rate...
+Dialogue: 0,0:20:02.40,0:20:03.45,DCMain,RED,0000,0000,0000,,Over there.
+Dialogue: 0,0:20:03.45,0:20:04.80,DCMain,BLUE,0000,0000,0000,,We can use those.
+Dialogue: 0,0:20:09.07,0:20:12.60,Locations,TEXT,0000,0000,0000,,{\fad(365,1)}Gifu Castle
+Dialogue: 0,0:20:13.03,0:20:16.90,DCMain,CONAN,0000,0000,0000,,This morning the areas \Nthat were paved were...
+Dialogue: 0,0:20:16.90,0:20:19.43,DCMain,HAIBARA,0000,0000,0000,,...these two places.
+Dialogue: 0,0:20:19.43,0:20:21.74,DCMain,GENTA,0000,0000,0000,,They're practically in opposite directions.
+Dialogue: 0,0:20:21.74,0:20:23.74,DCMain,AYUMI,0000,0000,0000,,Which one is Mitsuhiko-kun at?
+Dialogue: 0,0:20:26.18,0:20:27.08,DCMain,CONAN,0000,0000,0000,,That's...
+Dialogue: 0,0:20:33.68,0:20:35.18,DCMain,PINK,0000,0000,0000,,It's okay.
+Dialogue: 0,0:20:35.18,0:20:37.22,DCMain,RED,0000,0000,0000,,We won't fall.
+Dialogue: 0,0:20:37.22,0:20:39.09,DCMain,BLACK,0000,0000,0000,,Trust us.
+Dialogue: 0,0:20:39.09,0:20:40.64,DCMain,BLUE,0000,0000,0000,,You can do it.
+Dialogue: 0,0:20:40.64,0:20:41.63,DCMain,GREEN,0000,0000,0000,,Mitsuhiko-kun.
+Dialogue: 0,0:20:41.88,0:20:42.79,DCMain,MITSUHIKO,0000,0000,0000,,Okay.
+Dialogue: 0,0:20:47.02,0:20:48.68,DCMain,CONAN,0000,0000,0000,,Hold on, Mitsuhiko.
+Dialogue: 0,0:20:48.92,0:20:51.76,DCMain,BLACK,0000,0000,0000,,Damn. We're out of paper.
+Dialogue: 0,0:20:52.35,0:20:53.18,DCMain,GREEN,0000,0000,0000,,What should we do?
+Dialogue: 0,0:20:53.40,0:20:56.02,DCMain,MITSUHIKO,0000,0000,0000,,Use my album.
+Dialogue: 0,0:20:58.31,0:21:01.23,DCMain,PINK,0000,0000,0000,,But isn't that important to you?
+Dialogue: 0,0:21:01.23,0:21:03.57,DCMain,MITSUHIKO,0000,0000,0000,,Heroes were made for moments like these.
+Dialogue: 0,0:21:03.98,0:21:06.50,DCMain,CONAN,0000,0000,0000,,This is it. He's nearby.
+Dialogue: 0,0:21:08.46,0:21:10.76,DCMain,CONAN,0000,0000,0000,,This is Mitsuhiko's album.
+Dialogue: 0,0:21:11.28,0:21:12.08,DCMain,HAIBARA,0000,0000,0000,,Over there.
+Dialogue: 0,0:21:12.35,0:21:13.43,DCMain,BOTH,0000,0000,0000,,Mitsuhiko!
+Dialogue: 0,0:21:12.79,0:21:14.92,DCMain,HAIBARA,0000,0000,0000,,Tsuburaya-kun!
+Dialogue: 0,0:21:13.43,0:21:15.22,DCMain,AYUMI,0000,0000,0000,,Mitsuhiko-kun!
+Dialogue: 0,0:21:16.04,0:21:18.58,DCMain,MITSUHIKO,0000,0000,0000,,Conan-kun, the door is locked!
+Dialogue: 0,0:21:18.86,0:21:20.14,DCMain,CONAN,0000,0000,0000,,Got it!
+Dialogue: 0,0:21:25.13,0:21:27.26,DCMain,MITSUHIKO,0000,0000,0000,,You came for me.
+Dialogue: 0,0:21:28.00,0:21:29.80,DCMain,MITSUHIKO,0000,0000,0000,,Thank you!
+Dialogue: 0,0:21:30.30,0:21:33.87,DCMain,MITSUHIKO,0000,0000,0000,,I was scared!
+Dialogue: 0,0:23:02.22,0:23:03.95,DCMain,RED,0000,0000,0000,,Thank you, Mitsuhiko-kun.
+Dialogue: 0,0:23:03.95,0:23:06.40,DCMain,RED,0000,0000,0000,,You're our hero.
+Dialogue: 0,0:23:07.84,0:23:09.09,DCMain,ALL,0000,0000,0000,,Thank you.
+Dialogue: 0,0:23:09.09,0:23:11.82,DCMain,MITSUHIKO,0000,0000,0000,,I-I'm honored!
+Dialogue: 0,0:23:12.37,0:23:17.20,DCMain,HAIBARA,0000,0000,0000,,The remaining impostors were arrested and \Nthe treasures of Gifu have been returned.
+Dialogue: 0,0:23:17.20,0:23:21.30,DCMain,CONAN,0000,0000,0000,,And the Nobuna Gaizers' \Nname has been cleared.
+Dialogue: 0,0:23:21.30,0:23:23.46,DCMain,GENTA,0000,0000,0000,,Nice job, Mitsuhiko.
+Dialogue: 0,0:23:23.46,0:23:25.71,DCMain,AYUMI,0000,0000,0000,,You're the pride of the Detective Boys.
+Dialogue: 0,0:23:25.98,0:23:28.53,DCMain,AGASA,0000,0000,0000,,Why don't you cosplay as heroes?
+Dialogue: 0,0:23:28.53,0:23:31.14,DCMain,AGASA,0000,0000,0000,,The Detective Heroes have arrived!
+Dialogue: 0,0:23:33.14,0:23:34.41,DCMain,HAIBARA,0000,0000,0000,,I'm out.
+Dialogue: 0,0:23:34.41,0:23:35.70,DCMain,CONAN,0000,0000,0000,,Me, too.
+Dialogue: 0,0:23:35.70,0:23:36.86,DCMain,AYUMI,0000,0000,0000,,Me, too.
+Dialogue: 0,0:23:36.86,0:23:37.93,DCMain,GENTA,0000,0000,0000,,Me, too.
+Dialogue: 0,0:23:37.93,0:23:41.55,DCMain,ALL,0000,0000,0000,,Local heroes Nobuna Gaizers!
+Dialogue: 0,0:23:41.55,0:23:43.22,DCMain,MITSUHIKO,0000,0000,0000,,Plus one!
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.50,0:23:48.94,DCMain,CONAN,0000,0000,0000,,The Black Organization \Nmust be interested, too.
+Dialogue: 0,0:23:49.96,0:23:51.32,DCMain,CONAN,0000,0000,0000,,A strange duo?
+Dialogue: 0,0:23:51.73,0:23:56.58,DCMain,MAN,0000,0000,0000,,And that piece of paper had \Nthe word "nue" written on it!
+Dialogue: 0,0:23:56.58,0:23:59.25,DCMain,RAN,0000,0000,0000,,Y-You mean it lives in this forest?
+Dialogue: 0,0:23:59.25,0:24:02.96,DCMain,KAZUHA,0000,0000,0000,,That monster from folktales?
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,TEXT,0000,0000,0000,,Conan and Heiji's Nue Legend \N(Roar Arc)
+Dialogue: 0,0:24:09.46,0:24:14.62,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Conan and Heiji's Nue Legend, Roar Arc!"
+Dialogue: 0,0:24:29.98,0:24:34.99,Hint,TEXT,0000,0000,0000,,Buried Treasure
+Dialogue: 0,0:24:30.50,0:24:33.12,DCMain,BOTH,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.12,0:24:34.70,DCMain,CONAN,0000,0000,0000,,Buried treasure!
+Dialogue: 0,0:24:34.99,0:24:36.53,DCMain,HAIBARA,0000,0000,0000,,{\an8}You did well this episode.
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.53,0:24:37.62,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}Nobuna Gaizers!
+Dialogue: 0,0:24:37.62,0:24:38.55,DCMain,CONAN,0000,0000,0000,,{\an8}That's enough.
+Dialogue: 0,0:24:38.55,0:24:39.70,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}Plus one!
+Dialogue: 0,0:24:39.70,0:24:41.70,DCMain,,0000,0000,0000,,

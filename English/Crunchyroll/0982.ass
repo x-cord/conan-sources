@@ -1,0 +1,392 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Bocchan,Trebuchet MS,20,&H0079DBE8,&H000000FF,&H0041725A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Ushio,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00998F95,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0052,0060,0
+Style: Zenichi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00BE6A5F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0165,0020,0065,0
+Style: Rokusuke,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A26E8F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0030,0020,0065,0
+Style: Uni,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00D38991,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0205,0059,0
+Style: Izumi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00865A78,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0050,0210,0065,0
+Style: Chiaki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00926489,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0040,0059,0
+Style: Kozo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C36C74,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0200,0020,0065,0
+Style: Toyoo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00835573,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0055,0065,0
+Style: WaitingRoom,Trebuchet MS,22,&H005F6667,&H000000FF,&H00E6EAF3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: HardwareBeika,Trebuchet MS,20,&H00FCFDF9,&H000000FF,&H0081A34B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Hospital,Trebuchet MS,18,&H00AA998F,&H000000FF,&H00EFF0ED,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0080,0020,0018,0
+Style: Reception,Trebuchet MS,16,&H00B15858,&H000000FF,&H00D9DFDB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: HardwareManaka,Trebuchet MS,20,&H00934FE2,&H000000FF,&H00FBF8F7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Madonna,Times New Roman,22,&H00716D70,&H000000FF,&H00D0E7E3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0230,0080,0
+Style: Toyoo - Copy,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007D363C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0140,0065,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 982 "Welcome \Nto Bocchan Restaurant (Part Two)"
+Dialogue: 0,0:00:02.13,0:00:05.56,DCMain,CONAN,0000,0000,0000,,The day Ayumi-chan took a \Nbadly injured cat to a vet,
+Dialogue: 0,0:00:05.56,0:00:08.07,Bocchan,SIGN,0000,0000,0000,,Bocchan Restaurant
+Dialogue: 0,0:00:05.84,0:00:07.79,DCMain,CONAN,0000,0000,0000,,at a restaurant called Bocchan Restaurant,
+Dialogue: 0,0:00:07.79,0:00:12.47,DCMain,CONAN,0000,0000,0000,,{\an8}head receptionist Uranari-san \Nwas found murdered.
+Dialogue: 0,0:00:10.90,0:00:13.07,Ushio,TEXT,0000,0000,0000,,{\fad(250,1)}Uranari \NKoga Ushio (36)
+Dialogue: 0,0:00:13.82,0:00:15.36,DCMain,CONAN,0000,0000,0000,,Judging by the situation,
+Dialogue: 0,0:00:15.57,0:00:17.49,DCMain,CONAN,0000,0000,0000,,the culprit was someone \Nworking at this restaurant
+Dialogue: 0,0:00:17.49,0:00:21.50,DCMain,CONAN,0000,0000,0000,,that recreates the world of \NNatsume Soseki's novel "Bocchan."
+Dialogue: 0,0:00:23.29,0:00:25.06,DCMain,CONAN,0000,0000,0000,,Suspicion initially fell \Non the manager Red Shirt,
+Dialogue: 0,0:00:25.06,0:00:31.54,DCMain,CONAN,0000,0000,0000,,{\an8}who was involved in a romantic rivalry \Nover the waitress Madonna-san.
+Dialogue: 0,0:00:25.21,0:00:28.00,Chiaki,TEXT,0000,0000,0000,,{\fad(250,1)}Madonna \NToyama Chiaki (24)
+Dialogue: 0,0:00:29.17,0:00:31.80,Zenichi,TEXT,0000,0000,0000,,{\fad(250,1)}Red Shirt \NAkazawa Zenichi (60)
+Dialogue: 0,0:00:31.96,0:00:33.80,Rokusuke,TEXT,0000,0000,0000,,{\fad(250,1)}Bocchan \NShima Rokusuke (22)
+Dialogue: 0,0:00:32.03,0:00:36.97,DCMain,CONAN,0000,0000,0000,,{\an8}But we learned waiters Bocchan, \NYamaarashi, and Nodaiko
+Dialogue: 0,0:00:33.84,0:00:35.30,Izumi,TEXT,0000,0000,0000,,{\fad(250,1)}Yamaarashi \NHotta Izumi (32)
+Dialogue: 0,0:00:35.34,0:00:36.97,Kozo,TEXT,0000,0000,0000,,{\fad(250,1)}Nodaiko \NYoshikawa Kozo (43)
+Dialogue: 0,0:00:36.97,0:00:40.49,DCMain,CONAN,0000,0000,0000,,all had motives for murder \Nand didn't have alibis.
+Dialogue: 0,0:00:41.25,0:00:46.51,DCMain,CONAN,0000,0000,0000,,However, the next day, Red Shirt \Nwas found hanging from the neck,
+Dialogue: 0,0:00:46.73,0:00:49.74,DCMain,CONAN,0000,0000,0000,,and the police determined \Nthat he was the culprit
+Dialogue: 0,0:00:48.11,0:00:52.49,DCNote,TEXT,0000,0000,0000,,I offer my own death as an \Napology to the man I killed
+Dialogue: 0,0:00:49.74,0:00:53.31,DCMain,CONAN,0000,0000,0000,,and killed himself when he realized \Nhe couldn't escape his guilt.
+Dialogue: 0,0:00:53.83,0:00:55.60,DCMain,CONAN,0000,0000,0000,,But I won't be fooled.
+Dialogue: 0,0:00:56.24,0:00:59.40,DCMain,CONAN,0000,0000,0000,,It wasn't Red Shirt who killed Uranari-san,
+Dialogue: 0,0:00:59.40,0:01:03.50,DCMain,CONAN,0000,0000,0000,,and Red Shirt's hanging was \Nfaked by the true culprit.
+Dialogue: 0,0:01:04.92,0:01:08.55,DCMain,CONAN,0000,0000,0000,,The search for the truth begins now.
+Dialogue: 0,0:01:13.92,0:01:15.54,DCMain,CONAN,0000,0000,0000,,The rhythm on my lips is footloose!
+Dialogue: 0,0:01:15.54,0:01:17.49,DCMain,CONAN,0000,0000,0000,,The rhythm of my detective \Nskills is perfect!
+Dialogue: 0,0:01:17.49,0:01:21.23,DCMain,CONAN,0000,0000,0000,,Behind the restaurant murders are \Nrelationships that extend beyond the novel!
+Dialogue: 0,0:01:21.23,0:01:22.80,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:22.80,0:01:24.60,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:24.60,0:01:26.94,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:04.95,0:03:10.96,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(401,1)}Welcome to Bocchan Restaurant \N(Part Two)
+Dialogue: 0,0:03:05.50,0:03:08.61,DCMain,CONAN,0000,0000,0000,,"Welcome to Bocchan Restaurant, Part Two!"
+Dialogue: 0,0:03:11.72,0:03:14.13,DCMain,MITSUHIKO,0000,0000,0000,,How do you know that?
+Dialogue: 0,0:03:14.63,0:03:20.01,DCMain,CONAN,0000,0000,0000,,The night before last, Uranari-san \Nwas actually killed here.
+Dialogue: 0,0:03:20.70,0:03:23.64,DCMain,CONAN,0000,0000,0000,,Because that cat happened \Nto be here at the same time,
+Dialogue: 0,0:03:24.15,0:03:26.64,DCMain,CONAN,0000,0000,0000,,they were harmed by the culprit.
+Dialogue: 0,0:03:28.59,0:03:31.81,DCMain,CONAN,0000,0000,0000,,The culprit who stabbed Uranari-san \Nused a car or something
+Dialogue: 0,0:03:31.81,0:03:34.90,DCMain,CONAN,0000,0000,0000,,to transport the body to Bocchan Restaurant
+Dialogue: 0,0:03:35.49,0:03:39.26,DCMain,CONAN,0000,0000,0000,,in order to convince us that \NSanshiro Lake was the crime scene.
+Dialogue: 0,0:03:40.40,0:03:44.66,DCMain,HAIBARA,0000,0000,0000,,So they could frame Red Shirt, \Nwho lives at the restaurant.
+Dialogue: 0,0:03:44.89,0:03:48.99,DCMain,CONAN,0000,0000,0000,,Yeah. No culprit deliberately \Nmakes themselves look suspicious.
+Dialogue: 0,0:03:49.27,0:03:50.44,DCMain,GENTA,0000,0000,0000,,You're right.
+Dialogue: 0,0:03:50.44,0:03:53.00,DCMain,MITSUHIKO,0000,0000,0000,,Which means Red Shirt is innocent.
+Dialogue: 0,0:03:53.36,0:03:55.88,DCMain,CONAN,0000,0000,0000,,Then there was no reason \Nfor him to kill himself.
+Dialogue: 0,0:03:59.73,0:04:01.23,DCMain,GENTA,0000,0000,0000,,Which means...
+Dialogue: 0,0:04:01.23,0:04:04.26,DCMain,MITSUHIKO,0000,0000,0000,,That suicide was faked by \Nthe true culprit as well.
+Dialogue: 0,0:04:04.78,0:04:09.77,DCMain,CONAN,0000,0000,0000,,So that Red Shirt would be framed \Nand the investigation would end.
+Dialogue: 0,0:04:10.04,0:04:16.02,DCMain,GENTA,0000,0000,0000,,But who among Bocchan, Yamaarashi, \Nand Nodaiko is the culprit?
+Dialogue: 0,0:04:16.25,0:04:19.79,DCMain,CONAN,0000,0000,0000,,In any case, we should tell Inspector Megure \Nand the old man about our reasoning so far—
+Dialogue: 0,0:04:19.79,0:04:20.91,DCMain,AYUMI,0000,0000,0000,,Conan-kun!
+Dialogue: 0,0:04:21.33,0:04:25.11,DCMain,AYUMI,0000,0000,0000,,I want us to be the ones who find the \Nculprit who was so cruel to that kitty.
+Dialogue: 0,0:04:25.70,0:04:26.71,DCMain,HAIBARA,0000,0000,0000,,You're right.
+Dialogue: 0,0:04:26.71,0:04:29.99,DCMain,HAIBARA,0000,0000,0000,,Let's find the culprit responsible for \Nthat and nail both of them at once.
+Dialogue: 0,0:04:30.39,0:04:31.28,DCMain,MITSUHIKO,0000,0000,0000,,Indeed.
+Dialogue: 0,0:04:31.28,0:04:32.25,DCMain,GENTA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:34.38,0:04:36.50,DCMain,CONAN,0000,0000,0000,,Let's go talk to those three again.
+Dialogue: 0,0:04:36.50,0:04:37.25,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:04:41.64,0:04:42.98,DCMain,MEGURE,0000,0000,0000,,Got it.
+Dialogue: 0,0:04:44.22,0:04:48.24,DCMain,MEGURE,0000,0000,0000,,The autopsy discovered something \Nstrange about Red Shirt's body.
+Dialogue: 0,0:04:48.24,0:04:49.43,DCMain,KOGORO,0000,0000,0000,,Something strange?
+Dialogue: 0,0:04:50.34,0:04:53.14,DCMain,MEGURE,0000,0000,0000,,It's about the ladder that \Nwas left by his feet.
+Dialogue: 0,0:04:53.14,0:04:57.18,DCMain,MEGURE,0000,0000,0000,,When a person is hanged \Nusing a step of that height,
+Dialogue: 0,0:04:57.18,0:05:01.11,DCMain,MEGURE,0000,0000,0000,,not much force should be applied to the neck.
+Dialogue: 0,0:05:01.73,0:05:07.13,DCMain,MEGURE,0000,0000,0000,,But there were signs that a rather strong \Nforce was applied to the body's neck.
+Dialogue: 0,0:05:07.13,0:05:08.74,DCMain,KOGORO,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:05:09.05,0:05:12.41,DCMain,MEGURE,0000,0000,0000,,I'm not sure, but it's possible \Nthat a third party was involved.
+Dialogue: 0,0:05:12.85,0:05:13.83,DCMain,BOTH,0000,0000,0000,,Which means...
+Dialogue: 0,0:05:14.28,0:05:19.00,DCMain,KOGORO,0000,0000,0000,,I see! Red Shirt's murder was \Nmade to look like a suicide,
+Dialogue: 0,0:05:19.00,0:05:22.75,DCMain,KOGORO,0000,0000,0000,,and the culprit is one of \NBocchan, Yamaarashi, or Nodaiko.
+Dialogue: 0,0:05:25.08,0:05:25.78,DCMain,MADONNA,0000,0000,0000,,What?
+Dialogue: 0,0:05:26.20,0:05:28.39,DCMain,MADONNA,0000,0000,0000,,They're in the waiting room.
+Dialogue: 0,0:05:28.65,0:05:31.32,DCMain,MADONNA,0000,0000,0000,,The police and Mori-san are talking to them.
+Dialogue: 0,0:05:31.85,0:05:33.77,DCMain,MITSUHIKO,0000,0000,0000,,They beat us to it.
+Dialogue: 0,0:05:38.86,0:05:42.34,DCMain,KOGORO,0000,0000,0000,,So, you don't have alibis for \Naround midnight last night,
+Dialogue: 0,0:05:42.34,0:05:46.90,DCMain,KOGORO,0000,0000,0000,,which is the time of Red Shirt's death?
+Dialogue: 0,0:05:47.58,0:05:49.92,DCMain,BOCCHAN,0000,0000,0000,,What's with the weird phrasing?
+Dialogue: 0,0:05:49.92,0:05:51.94,DCMain,YAMAARASHI,0000,0000,0000,,You think we did it?
+Dialogue: 0,0:05:51.94,0:05:54.66,DCMain,NODAIKO,0000,0000,0000,,Didn't the boss kill himself?
+Dialogue: 0,0:05:54.89,0:05:58.14,DCMain,MEGURE,0000,0000,0000,,No. Judging by the strength of the \Nforce applied to his neck,
+Dialogue: 0,0:05:58.14,0:06:00.29,DCMain,MEGURE,0000,0000,0000,,we believe there was a third party involved.
+Dialogue: 0,0:06:03.45,0:06:06.00,DCItalic,CONAN,0000,0000,0000,,A powerful force was applied \Nto his neck?
+Dialogue: 0,0:06:06.00,0:06:10.00,DCItalic,CONAN,0000,0000,0000,,They didn't just lift the body \Nand hang him by the neck?
+Dialogue: 0,0:06:10.49,0:06:12.25,DCItalic,CONAN,0000,0000,0000,,Then how did the culprit...?
+Dialogue: 0,0:06:12.86,0:06:19.70,DCMain,KOGORO,0000,0000,0000,,The motive for Red Shirt's murder \Nwas revenge for Uranari-san's death.
+Dialogue: 0,0:06:19.70,0:06:21.11,DCMain,ALL,0000,0000,0000,,Revenge?
+Dialogue: 0,0:06:21.33,0:06:26.69,DCMain,CONAN,0000,0000,0000,,I feel like he's already wrong based on his \Nassumption that Red Shirt killed Uranari-san.
+Dialogue: 0,0:06:26.69,0:06:30.24,DCMain,HAIBARA,0000,0000,0000,,Furthermore, how did he come up with revenge?
+Dialogue: 0,0:06:30.78,0:06:36.25,DCMain,BOCCHAN,0000,0000,0000,,You guys know that we hated Uranari.
+Dialogue: 0,0:06:36.51,0:06:38.66,DCMain,YAMAARASHI,0000,0000,0000,,He yelled at us all the time.
+Dialogue: 0,0:06:39.01,0:06:43.04,DCMain,NODAIKO,0000,0000,0000,,Why would we consider revenge?
+Dialogue: 0,0:06:43.77,0:06:51.00,DCMain,KOGORO,0000,0000,0000,,He's just claiming he hated him and \Nactually enjoyed being yelled at.
+Dialogue: 0,0:06:51.00,0:06:55.39,DCMain,KOGORO,0000,0000,0000,,The culprit had that kind \Nof peculiar side to them.
+Dialogue: 0,0:06:56.90,0:06:58.64,DCMain,BOCCHAN,0000,0000,0000,,Are you serious?
+Dialogue: 0,0:06:58.90,0:07:02.45,DCMain,MEGURE,0000,0000,0000,,Uh, regarding the motive...
+Dialogue: 0,0:07:03.19,0:07:07.78,DCMain,NODAIKO,0000,0000,0000,,There's no way we'd kill the boss!
+Dialogue: 0,0:07:11.14,0:07:14.43,DCMain,NODAIKO,0000,0000,0000,,This guy's an ill-natured twisted man,
+Dialogue: 0,0:07:14.43,0:07:16.54,DCMain,NODAIKO,0000,0000,0000,,and this guy's an effeminate crybaby.
+Dialogue: 0,0:07:16.90,0:07:20.04,DCMain,NODAIKO,0000,0000,0000,,And I'm inflexible and stubborn.
+Dialogue: 0,0:07:20.31,0:07:23.54,DCMain,NODAIKO,0000,0000,0000,,There aren't many jobs that we can do.
+Dialogue: 0,0:07:23.98,0:07:27.77,DCMain,BOCCHAN,0000,0000,0000,,But the boss hired us one year ago.
+Dialogue: 0,0:07:27.77,0:07:31.45,DCMain,BOCCHAN,0000,0000,0000,,He said he was opening a place called Bocchan \NRestaurant and asked if we wanted to work there.
+Dialogue: 0,0:07:31.45,0:07:35.72,DCMain,BOCCHAN,0000,0000,0000,,He recruited us just after looking at \Nus while I was walking around town.
+Dialogue: 0,0:07:36.09,0:07:37.77,DCMain,YAMAARASHI,0000,0000,0000,,We may have despised Uranari,
+Dialogue: 0,0:07:37.77,0:07:44.10,DCMain,YAMAARASHI,0000,0000,0000,,but we didn't quit because our \Nconsiderate boss paid us a high salary.
+Dialogue: 0,0:07:44.46,0:07:48.86,DCMain,BOCCHAN,0000,0000,0000,,But now that he's dead, this \Nrestaurant is done for.
+Dialogue: 0,0:07:49.32,0:07:53.24,DCMain,YAMAARASHI,0000,0000,0000,,What are we supposed to do?
+Dialogue: 0,0:07:53.63,0:07:57.74,DCMain,BOCCHAN,0000,0000,0000,,What kind of idiot would \Nhurt themselves like that?
+Dialogue: 0,0:07:57.74,0:07:59.24,DCMain,NODAIKO,0000,0000,0000,,Exactly.
+Dialogue: 0,0:07:59.42,0:08:01.39,DCMain,KOGORO,0000,0000,0000,,I-I see...
+Dialogue: 0,0:08:02.60,0:08:06.82,DCMain,CONAN,0000,0000,0000,,Those three probably aren't lying.
+Dialogue: 0,0:08:06.82,0:08:09.92,DCMain,CONAN,0000,0000,0000,,They didn't kill Red Shirt.
+Dialogue: 0,0:08:09.92,0:08:14.62,DCMain,CONAN,0000,0000,0000,,Besides, even if it's possible that they \Nhated Uranari-san enough to kill him,
+Dialogue: 0,0:08:14.62,0:08:18.89,DCMain,CONAN,0000,0000,0000,,they wouldn't have tried \Nto frame Red Shirt for it.
+Dialogue: 0,0:08:19.24,0:08:24.27,DCMain,HAIBARA,0000,0000,0000,,In other words, those three \Nare innocent of both murders.
+Dialogue: 0,0:08:24.57,0:08:29.27,DCMain,MITSUHIKO,0000,0000,0000,,But that leaves zero people \Nwho had motive and no alibi.
+Dialogue: 0,0:08:29.42,0:08:31.90,DCMain,GENTA,0000,0000,0000,,Who's the culprit?
+Dialogue: 0,0:08:32.47,0:08:35.45,DCMain,GENTA,0000,0000,0000,,Who hated Uranari-san enough to kill him?
+Dialogue: 0,0:08:35.60,0:08:40.45,DCMain,AYUMI,0000,0000,0000,,And kill Red Shirt in order to frame him?
+Dialogue: 0,0:08:42.39,0:08:43.96,DCMain,CONAN,0000,0000,0000,,It could be the opposite.
+Dialogue: 0,0:08:44.24,0:08:45.33,DCMain,HAIBARA,0000,0000,0000,,The opposite?
+Dialogue: 0,0:08:45.72,0:08:49.62,DCMain,CONAN,0000,0000,0000,,It was Red Shirt that the \Nculprit wanted to kill.
+Dialogue: 0,0:08:49.62,0:08:52.78,DCMain,CONAN,0000,0000,0000,,To do that, it was best to \Nmake it look like a suicide,
+Dialogue: 0,0:08:52.78,0:08:54.85,DCMain,CONAN,0000,0000,0000,,but they needed a motive for suicide.
+Dialogue: 0,0:08:54.85,0:08:58.11,DCMain,CONAN,0000,0000,0000,,So in order to create a false motive,
+Dialogue: 0,0:08:58.11,0:09:01.97,DCMain,CONAN,0000,0000,0000,,they murdered Uranari-san and directed \Nsuspicion towards Red Shirt.
+Dialogue: 0,0:09:02.34,0:09:04.72,DCMain,HAIBARA,0000,0000,0000,,That sounds possible.
+Dialogue: 0,0:09:04.72,0:09:08.06,DCMain,HAIBARA,0000,0000,0000,,But regardless of who \Ntheir true target was—
+Dialogue: 0,0:09:11.11,0:09:14.01,DCMain,GENTA,0000,0000,0000,,If all the waitstaff are innocent,
+Dialogue: 0,0:09:14.01,0:09:16.91,DCMain,GENTA,0000,0000,0000,,that means someone else \Nmust be the culprit, right?
+Dialogue: 0,0:09:16.91,0:09:20.47,DCMain,GENTA,0000,0000,0000,,Maybe this guy hated him.
+Dialogue: 0,0:09:20.47,0:09:23.29,DCMain,GENTA,0000,0000,0000,,He's being made to dance even \Nthough he's the head chef.
+Dialogue: 0,0:09:23.78,0:09:25.57,DCMain,ALL,0000,0000,0000,,Tanuki...
+Dialogue: 0,0:09:25.57,0:09:28.83,DCMain,TANKI,0000,0000,0000,,{\an8}We brought a gift for the \Nlittle detective crew.
+Dialogue: 0,0:09:27.12,0:09:29.59,Toyoo,TEXT,0000,0000,0000,,{\fad(250,460)}Tanuki \NTanuma Toyoo (58)
+Dialogue: 0,0:09:36.10,0:09:38.33,DCMain,GENTA,0000,0000,0000,,He must've come to spy on us.
+Dialogue: 0,0:09:38.33,0:09:41.01,DCMain,TANUKI,0000,0000,0000,,Also, you like these, don't you?
+Dialogue: 0,0:09:41.49,0:09:43.64,DCMain,GENTA,0000,0000,0000,,I don't like grasshoppers!
+Dialogue: 0,0:09:43.64,0:09:45.22,DCMain,MITSUHIKO,0000,0000,0000,,You were eating them earlier.
+Dialogue: 0,0:09:48.87,0:09:52.65,DCMain,MITSUHIKO,0000,0000,0000,,By the way, where were you last \Nnight and the night before last?
+Dialogue: 0,0:09:52.65,0:09:55.69,DCMain,TANUKI,0000,0000,0000,,Sleeping at home. What about it?
+Dialogue: 0,0:09:56.52,0:09:58.19,DCMain,MITSUHIKO,0000,0000,0000,,Nothing.
+Dialogue: 0,0:09:59.09,0:10:02.38,DCMain,KIYO,0000,0000,0000,,{\an8}They're confirming the alibis \Nof everyone involved.
+Dialogue: 0,0:09:59.41,0:10:02.87,Uni,TEXT,0000,0000,0000,,{\fad(250,460)}Kiyo \NKiyohara Uni (71)
+Dialogue: 0,0:10:02.38,0:10:05.75,DCMain,TANUKI,0000,0000,0000,,Then no one can verify mine. I live alone.
+Dialogue: 0,0:10:10.09,0:10:12.52,DCMain,KIYO,0000,0000,0000,,We were lucky again.
+Dialogue: 0,0:10:12.52,0:10:15.26,DCMain,KIYO,0000,0000,0000,,You were at my place last night, right?
+Dialogue: 0,0:10:16.63,0:10:18.70,DCMain,AYUMI,0000,0000,0000,,You stayed over again?
+Dialogue: 0,0:10:25.28,0:10:26.75,DCMain,MITSUHIKO,0000,0000,0000,,What is it?!
+Dialogue: 0,0:10:28.55,0:10:30.23,DCMain,TANUKI,0000,0000,0000,,What's gotten into them?
+Dialogue: 0,0:10:35.50,0:10:37.85,DCMain,MITSUHIKO,0000,0000,0000,,Did you figure out who the culprit is?
+Dialogue: 0,0:10:37.85,0:10:39.82,DCMain,GENTA,0000,0000,0000,,Is it Tanuki after all?
+Dialogue: 0,0:10:40.41,0:10:45.33,DCMain,CONAN,0000,0000,0000,,What I figured out is how the \Nculprit hanged Red Shirt.
+Dialogue: 0,0:10:45.33,0:10:48.12,DCMain,GENTA,0000,0000,0000,,So you didn't find the culprit?
+Dialogue: 0,0:10:48.70,0:10:51.14,DCMain,CONAN,0000,0000,0000,,You can't expect things to go that smoothly.
+Dialogue: 0,0:10:51.90,0:10:54.31,DCMain,CONAN,0000,0000,0000,,What were you going to say earlier?
+Dialogue: 0,0:10:54.31,0:10:59.38,DCMain,CONAN,0000,0000,0000,,About regardless of whether \Nit was Uranari-san or Red Shirt?
+Dialogue: 0,0:10:59.94,0:11:05.64,DCMain,HAIBARA,0000,0000,0000,,Either way, maybe the culprit used \Ntheir romantic rivalry against them.
+Dialogue: 0,0:11:06.22,0:11:10.14,DCMain,CONAN,0000,0000,0000,,It doesn't sound like there were \Nany other problems between them.
+Dialogue: 0,0:11:10.66,0:11:17.65,DCMain,AYUMI,0000,0000,0000,,Their romantic rivalry started when that \Nlady started working here six months ago, right?
+Dialogue: 0,0:11:17.99,0:11:22.03,DCMain,HAIBARA,0000,0000,0000,,I believe she said it was because her \Nyounger sister died of an illness.
+Dialogue: 0,0:11:22.40,0:11:27.05,DCMain,MITSUHIKO,0000,0000,0000,,She wanted to fulfill the desire of her \Nsister who loved the novel "Bocchan,"
+Dialogue: 0,0:11:27.05,0:11:30.04,DCMain,MITSUHIKO,0000,0000,0000,,and said she wanted to work here.
+Dialogue: 0,0:11:30.23,0:11:32.92,DCMain,CONAN,0000,0000,0000,,So she applied for the job instead.
+Dialogue: 0,0:11:34.54,0:11:38.52,DCMain,CONAN,0000,0000,0000,,The sister passed away from \Nsubarachnoid hemorrhaging, right?
+Dialogue: 0,0:11:38.52,0:11:41.09,DCMain,AYUMI,0000,0000,0000,,Yeah. Is it a rare disease?
+Dialogue: 0,0:11:41.34,0:11:43.19,DCMain,CONAN,0000,0000,0000,,No, not really.
+Dialogue: 0,0:11:43.19,0:11:46.52,DCMain,CONAN,0000,0000,0000,,But if she was her younger sister, \Nthen she must've still been young.
+Dialogue: 0,0:11:48.64,0:11:49.93,DCMain,MITSUHIKO,0000,0000,0000,,What is it?
+Dialogue: 0,0:11:55.10,0:11:58.19,DCMain,CONAN,0000,0000,0000,,I see. If they really wanted to...
+Dialogue: 0,0:11:58.85,0:12:00.69,DCMain,HAIBARA,0000,0000,0000,,You seem to have figured something out.
+Dialogue: 0,0:12:02.63,0:12:05.62,DCMain,CONAN,0000,0000,0000,,The question is how to prove it.
+Dialogue: 0,0:12:11.36,0:12:14.16,DCMain,CONAN,0000,0000,0000,,If that's true, that \Nwould explain everything.
+Dialogue: 0,0:12:16.27,0:12:18.10,DCMain,HAIBARA,0000,0000,0000,,But we need evidence.
+Dialogue: 0,0:12:18.10,0:12:21.26,DCMain,CONAN,0000,0000,0000,,Yeah. Let's split up and investigate.
+Dialogue: 0,0:12:22.41,0:12:23.55,DCMain,CONAN,0000,0000,0000,,I'm counting on you guys.
+Dialogue: 0,0:12:24.51,0:12:26.26,WaitingRoom,SIGN,0000,0000,0000,,Waiting Room
+Dialogue: 0,0:12:33.94,0:12:38.57,HardwareBeika,SIGN,0000,0000,0000,,Hardware Store Beika
+Dialogue: 0,0:12:34.99,0:12:37.12,DCMain,GENTA,0000,0000,0000,,They don't have it here.
+Dialogue: 0,0:12:37.12,0:12:38.57,DCMain,MITSUHIKO,0000,0000,0000,,Let's check the next store.
+Dialogue: 0,0:12:38.57,0:12:40.57,Hospital,SIGN,0000,0000,0000,,Toto General Hospital
+Dialogue: 0,0:12:40.57,0:12:43.03,Reception,SIGN,0000,0000,0000,,Outpatient Reception
+Dialogue: 0,0:12:48.20,0:12:50.20,HardwareManaka,SIGN,0000,0000,0000,,Hardware Store Manaka
+Dialogue: 0,0:13:05.13,0:13:06.01,DCMain,CONAN,0000,0000,0000,,All right.
+Dialogue: 0,0:13:06.01,0:13:08.75,DCMain,CONAN,0000,0000,0000,,We've got all the evidence now.
+Dialogue: 0,0:13:08.75,0:13:11.06,DCMain,HAIBARA,0000,0000,0000,,But we're still missing the key piece.
+Dialogue: 0,0:13:11.06,0:13:14.56,DCMain,CONAN,0000,0000,0000,,Well, it's just speculation, but that's—
+Dialogue: 0,0:13:15.65,0:13:18.36,DCMain,KOGORO,0000,0000,0000,,How long are you brats going to stay here?
+Dialogue: 0,0:13:18.36,0:13:20.90,DCMain,MEGURE,0000,0000,0000,,Mori-kun, can't you give us a break already?
+Dialogue: 0,0:13:20.90,0:13:23.28,DCMain,TAKAGI,0000,0000,0000,,Are you almost there, Mori-san?
+Dialogue: 0,0:13:23.28,0:13:25.57,DCMain,CHIBA,0000,0000,0000,,Can't you go to sleep soon?
+Dialogue: 0,0:13:26.85,0:13:29.28,DCMain,CONAN,0000,0000,0000,,Regarding the motive,
+Dialogue: 0,0:13:29.28,0:13:32.87,DCMain,CONAN,0000,0000,0000,,ultimately we'll have to get \Nthe culprit to admit it.
+Dialogue: 0,0:13:37.64,0:13:38.32,DCMain,MADONNA,0000,0000,0000,,What?
+Dialogue: 0,0:13:38.86,0:13:42.46,DCMain,MADONNA,0000,0000,0000,,You're saying I lied?
+Dialogue: 0,0:13:43.04,0:13:45.84,DCMain,CONAN,0000,0000,0000,,About Red Shirt and Uranari-san.
+Dialogue: 0,0:13:46.21,0:13:48.51,DCItalic,MADONNA,0000,0000,0000,,Is that true?
+Dialogue: 0,0:13:49.00,0:13:51.66,DCItalic,MADONNA,0000,0000,0000,,Did they both harbor \Nromantic feelings for me?
+Dialogue: 0,0:13:51.66,0:13:53.89,DCItalic,TAKAGI,0000,0000,0000,,You didn't know?
+Dialogue: 0,0:13:55.03,0:13:57.02,DCItalic,MADONNA,0000,0000,0000,,I thought they were simply pretending
+Dialogue: 0,0:13:57.02,0:14:00.15,DCItalic,MADONNA,0000,0000,0000,,in front of our customers as \Npart of our business strategy.
+Dialogue: 0,0:14:00.49,0:14:02.21,DCMain,CONAN,0000,0000,0000,,That was a lie, wasn't it?
+Dialogue: 0,0:14:02.21,0:14:06.51,DCMain,CONAN,0000,0000,0000,,After all, you pushed them towards \Nbecoming romantic rivals.
+Dialogue: 0,0:14:08.43,0:14:09.57,DCMain,HAIBARA,0000,0000,0000,,We checked.
+Dialogue: 0,0:14:11.10,0:14:14.62,DCMain,HAIBARA,0000,0000,0000,,With Bocchan, Nodaiko-san, \Nand Yamaarashi-san.
+Dialogue: 0,0:14:14.84,0:14:18.37,DCItalic,BOCCHAN,0000,0000,0000,,Of course Red Shirt and \NUranari had feelings for her.
+Dialogue: 0,0:14:18.69,0:14:23.13,DCItalic,NODAIKO,0000,0000,0000,,After all, she made both of \Nthem think she liked them.
+Dialogue: 0,0:14:23.50,0:14:26.88,DCItalic,YAMAARASHI,0000,0000,0000,,It's only natural that they \Nbecame romantic rivals.
+Dialogue: 0,0:14:27.27,0:14:29.32,DCMain,CONAN,0000,0000,0000,,You set it up beforehand, didn't you?
+Dialogue: 0,0:14:29.77,0:14:34.39,DCMain,CONAN,0000,0000,0000,,In order to frame Red Shirt \Nfor Uranari-san's murder.
+Dialogue: 0,0:14:34.92,0:14:40.15,DCMain,MADONNA,0000,0000,0000,,I don't know why you think I \Ndid it, but I have an alibi.
+Dialogue: 0,0:14:40.51,0:14:43.52,DCMain,CONAN,0000,0000,0000,,Both the night before last \Nwhen Uranari-san was killed
+Dialogue: 0,0:14:43.93,0:14:48.14,DCMain,CONAN,0000,0000,0000,,and last night when Red Shirt was \Nhanged, you stayed at Kiyo-san's house.
+Dialogue: 0,0:14:48.99,0:14:51.88,DCMain,AYUMI,0000,0000,0000,,The night before last you \Njust happened to visit,
+Dialogue: 0,0:14:51.88,0:14:56.24,DCMain,AYUMI,0000,0000,0000,,and last night it was because \Nthe murder scared you.
+Dialogue: 0,0:14:56.24,0:14:57.79,DCMain,AYUMI,0000,0000,0000,,Isn't that what you said?
+Dialogue: 0,0:14:58.79,0:15:00.98,DCMain,MADONNA,0000,0000,0000,,Because it's true.
+Dialogue: 0,0:15:00.98,0:15:03.92,DCMain,CONAN,0000,0000,0000,,But even if you stayed over, it was \Nstill possible for you to do it.
+Dialogue: 0,0:15:04.89,0:15:07.96,DCMain,CONAN,0000,0000,0000,,Both cases happened in \Nthe middle of the night.
+Dialogue: 0,0:15:07.96,0:15:10.94,DCMain,CONAN,0000,0000,0000,,As long as you slipped out \Nwhile Kiyo-san was asleep...
+Dialogue: 0,0:15:10.94,0:15:12.93,DCMain,HAIBARA,0000,0000,0000,,Kiyo-san said so herself.
+Dialogue: 0,0:15:14.53,0:15:17.28,DCItalic,KIYO,0000,0000,0000,,Normally I wake up to use the \Nbathroom during the night,
+Dialogue: 0,0:15:17.28,0:15:20.94,DCItalic,KIYO,0000,0000,0000,,but oddly, these past two nights \NI've slept soundly until morning.
+Dialogue: 0,0:15:21.36,0:15:24.11,DCMain,HAIBARA,0000,0000,0000,,As though she'd been drugged \Nwith sleeping pills.
+Dialogue: 0,0:15:26.32,0:15:29.22,DCMain,CONAN,0000,0000,0000,,You created a fake alibi
+Dialogue: 0,0:15:29.22,0:15:33.37,DCMain,CONAN,0000,0000,0000,,and first invited Uranari-san to \Nthe park the night before last.
+Dialogue: 0,0:15:36.81,0:15:38.45,DCItalic,URANARI,0000,0000,0000,,Why did you want to meet \Nin the middle of the night?
+Dialogue: 0,0:15:40.79,0:15:41.96,DCItalic,URANARI,0000,0000,0000,,I...
+Dialogue: 0,0:15:47.18,0:15:48.62,DCMain,CONAN,0000,0000,0000,,You stabbed him to death.
+Dialogue: 0,0:15:54.46,0:15:55.63,DCMain,CONAN,0000,0000,0000,,Then...
+Dialogue: 0,0:16:01.50,0:16:04.90,DCMain,CONAN,0000,0000,0000,,In order to make it seem like \Nthe crime scene was here,
+Dialogue: 0,0:16:04.90,0:16:07.68,DCMain,CONAN,0000,0000,0000,,you threw Uranari-san's body into the lake.
+Dialogue: 0,0:16:08.20,0:16:13.60,DCMain,CONAN,0000,0000,0000,,Ultimately, suspicion fell on Red Shirt, who \Nlives at the restaurant, just as you planned.
+Dialogue: 0,0:16:14.74,0:16:17.83,DCMain,CONAN,0000,0000,0000,,You created a motive for Red Shirt's suicide.
+Dialogue: 0,0:16:19.67,0:16:23.58,DCMain,CONAN,0000,0000,0000,,Last night, you asked Red Shirt \Nto meet you, knocked him out,
+Dialogue: 0,0:16:24.48,0:16:26.61,DCMain,CONAN,0000,0000,0000,,and killed him by stringing \Nhim up with a rope.
+Dialogue: 0,0:16:27.08,0:16:30.92,DCMain,CONAN,0000,0000,0000,,Then you made it look like a suicide.
+Dialogue: 0,0:16:31.16,0:16:33.93,DCItalic,TAKAGI,0000,0000,0000,,Inspector, this was found on \Nthe altar in Red Shirt's home!
+Dialogue: 0,0:16:34.80,0:16:37.93,DCItalic,MEGURE,0000,0000,0000,,That's probably the weapon \Nused in Uranari's murder.
+Dialogue: 0,0:16:38.50,0:16:41.28,DCItalic,MEGURE,0000,0000,0000,,After killing his romantic rival Uranari,
+Dialogue: 0,0:16:41.28,0:16:44.81,DCItalic,MEGURE,0000,0000,0000,,he realized he couldn't escape his \Nguilt, so he took his own life.
+Dialogue: 0,0:16:45.50,0:16:50.22,DCMain,CONAN,0000,0000,0000,,If you just wanted Red Shirt's \Ndeath to look like a suicide,
+Dialogue: 0,0:16:50.22,0:16:53.26,DCMain,CONAN,0000,0000,0000,,you could have lifted the \Nunconscious Red Shirt
+Dialogue: 0,0:16:53.26,0:16:56.32,DCMain,CONAN,0000,0000,0000,,and wrapped a rope around his neck.
+Dialogue: 0,0:16:56.85,0:17:02.83,DCMain,CONAN,0000,0000,0000,,But you chose that method because you wanted \Nto get revenge with your own hands, didn't you?
+Dialogue: 0,0:17:03.61,0:17:05.08,DCMain,CONAN,0000,0000,0000,,The police told us.
+Dialogue: 0,0:17:05.39,0:17:07.67,DCItalic,CHIBA,0000,0000,0000,,Madonna seems plain,
+Dialogue: 0,0:17:07.67,0:17:11.05,DCItalic,CHIBA,0000,0000,0000,,but she wrestled as a student.
+Dialogue: 0,0:17:11.81,0:17:15.05,DCMain,CONAN,0000,0000,0000,,With your strength, you could've done it.
+Dialogue: 0,0:17:15.31,0:17:17.97,DCMain,MADONNA,0000,0000,0000,,But if I lifted a person using the rope,
+Dialogue: 0,0:17:17.97,0:17:21.43,DCMain,MADONNA,0000,0000,0000,,wouldn't there be scrapes on the branch?
+Dialogue: 0,0:17:22.04,0:17:23.68,DCMain,CONAN,0000,0000,0000,,You used ice, didn't you?
+Dialogue: 0,0:17:25.21,0:17:29.81,DCMain,CONAN,0000,0000,0000,,For example, ice shaped like a horse saddle.
+Dialogue: 0,0:17:29.81,0:17:32.28,DCMain,CONAN,0000,0000,0000,,This wouldn't leave any scrape marks behind,
+Dialogue: 0,0:17:32.87,0:17:35.11,DCMain,CONAN,0000,0000,0000,,and the ice would melt by morning.
+Dialogue: 0,0:17:37.41,0:17:40.53,DCMain,CONAN,0000,0000,0000,,But there were traces left of the ice.
+Dialogue: 0,0:17:41.83,0:17:46.46,DCMain,CONAN,0000,0000,0000,,The branch was strangely damp, and \NRed Shirt's hair was wet, too.
+Dialogue: 0,0:17:47.10,0:17:50.29,DCMain,MITSUHIKO,0000,0000,0000,,There's one more thing \Nthat proves your guilt.
+Dialogue: 0,0:17:51.79,0:17:56.43,DCMain,CONAN,0000,0000,0000,,You had to make sure the ice \Nwouldn't melt before you used it.
+Dialogue: 0,0:17:56.43,0:17:59.18,DCMain,MITSUHIKO,0000,0000,0000,,You needed a cooler and dry ice.
+Dialogue: 0,0:17:59.57,0:18:02.81,DCMain,GENTA,0000,0000,0000,,The store employee remembered \Nyou buying them.
+Dialogue: 0,0:18:04.47,0:18:08.31,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}Since you're so pretty, you \Nmust've made an impression.
+Dialogue: 0,0:18:06.06,0:18:08.31,Madonna,SIGN,0000,0000,0000,,Madonna
+Dialogue: 0,0:18:11.21,0:18:13.65,DCMain,MADONNA,0000,0000,0000,,My alibi isn't ironclad.
+Dialogue: 0,0:18:13.65,0:18:18.20,DCMain,MADONNA,0000,0000,0000,,I am strong, and I did \Nbuy a cooler and dry ice.
+Dialogue: 0,0:18:18.73,0:18:23.01,DCMain,MADONNA,0000,0000,0000,,But why would I kill the two of them?
+Dialogue: 0,0:18:23.01,0:18:24.70,DCMain,MADONNA,0000,0000,0000,,I have no motive.
+Dialogue: 0,0:18:27.33,0:18:28.46,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:18:29.04,0:18:31.60,DCMain,CONAN,0000,0000,0000,,You really have no idea?
+Dialogue: 0,0:18:33.99,0:18:38.22,DCMain,AYUMI,0000,0000,0000,,You told me about your younger sister.
+Dialogue: 0,0:18:40.23,0:18:44.72,DCMain,CONAN,0000,0000,0000,,Subarachnoid hemorrhaging \Ncan appear in young people,
+Dialogue: 0,0:18:44.72,0:18:48.23,DCMain,CONAN,0000,0000,0000,,but it also happens if you \Nhit your head really hard.
+Dialogue: 0,0:18:49.94,0:18:54.73,DCMain,CONAN,0000,0000,0000,,I looked into the circumstances \Nof your sister's death.
+Dialogue: 0,0:18:57.96,0:19:05.01,DCItalic,MADONNA,0000,0000,0000,,Natsumi was pushed four \Ndays ago by two drunk men.
+Dialogue: 0,0:19:05.01,0:19:07.63,DCItalic,MADONNA,0000,0000,0000,,She hit her head then.
+Dialogue: 0,0:19:07.63,0:19:09.91,DCItalic,MADONNA,0000,0000,0000,,I can't think of anything else.
+Dialogue: 0,0:19:10.28,0:19:12.54,DCItalic,DOCTOR,0000,0000,0000,,That may be the cause.
+Dialogue: 0,0:19:12.54,0:19:16.13,DCItalic,DOCTOR,0000,0000,0000,,Even if the patient seems fine at the time, \Nthey sometimes suddenly pass away later.
+Dialogue: 0,0:19:17.89,0:19:21.70,DCItalic,DOCTOR,0000,0000,0000,,If she'd been seen by a doctor immediately,
+Dialogue: 0,0:19:21.70,0:19:25.14,DCItalic,DOCTOR,0000,0000,0000,,they may have been able to determine \Nif it caused her symptoms,
+Dialogue: 0,0:19:25.14,0:19:28.64,DCItalic,DOCTOR,0000,0000,0000,,but now that it's been several days...
+Dialogue: 0,0:19:29.73,0:19:30.81,DCItalic,MADONNA,0000,0000,0000,,No...
+Dialogue: 0,0:19:31.56,0:19:34.48,DCMain,CONAN,0000,0000,0000,,Her life was taken, but \Nthey'd never be charged.
+Dialogue: 0,0:19:35.44,0:19:37.28,DCMain,CONAN,0000,0000,0000,,So you swore revenge, didn't you?
+Dialogue: 0,0:19:37.77,0:19:41.15,DCMain,CONAN,0000,0000,0000,,And those two drunk men...
+Dialogue: 0,0:19:43.73,0:19:46.99,DCMain,AYUMI,0000,0000,0000,,You were close with your sister, weren't you?
+Dialogue: 0,0:19:49.50,0:19:52.37,DCMain,AYUMI,0000,0000,0000,,Very close, right?
+Dialogue: 0,0:19:55.56,0:19:56.28,DCMain,MADONNA,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:56.94,0:19:59.38,DCMain,MADONNA,0000,0000,0000,,After all, she was my only sister.
+Dialogue: 0,0:20:00.31,0:20:03.45,DCMain,MADONNA,0000,0000,0000,,{\an8}It was her birthday.
+Dialogue: 0,0:20:01.55,0:20:03.89,Toyoo - Copy,TEXT,0000,0000,0000,,{\fad(275,1)}Toyama Natsumi (21) \NMadonna's Younger Sister
+Dialogue: 0,0:20:04.37,0:20:06.73,DCMain,RED SHIRT,0000,0000,0000,,The problem is the girl who plays Madonna.
+Dialogue: 0,0:20:06.73,0:20:10.42,DCMain,URANARI,0000,0000,0000,,Yeah. The current girl does a good job,
+Dialogue: 0,0:20:10.42,0:20:11.89,DCMain,URANARI,0000,0000,0000,,but she leaves something to be desired.
+Dialogue: 0,0:20:17.01,0:20:17.77,DCItalic,MADONNA,0000,0000,0000,,Natsumi!
+Dialogue: 0,0:20:18.12,0:20:19.81,DCItalic,NATSUMI,0000,0000,0000,,Ouch...
+Dialogue: 0,0:20:19.81,0:20:21.52,DCItalic,RED SHIRT,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:20:21.52,0:20:22.53,DCItalic,URANARI,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:20:23.68,0:20:25.53,DCItalic,NATSUMI,0000,0000,0000,,I'm totally fine.
+Dialogue: 0,0:20:28.53,0:20:31.55,DCItalic,RED SHIRT,0000,0000,0000,,Aren't there any suitable girls around?
+Dialogue: 0,0:20:31.55,0:20:33.54,DCItalic,URANARI,0000,0000,0000,,A Madonna.
+Dialogue: 0,0:20:34.81,0:20:36.96,DCItalic,NATSUMI,0000,0000,0000,,I wonder what they mean by Madonna.
+Dialogue: 0,0:20:36.96,0:20:39.80,DCItalic,MADONNA,0000,0000,0000,,More importantly, are you sure you're okay?
+Dialogue: 0,0:20:40.03,0:20:42.92,DCItalic,NATSUMI,0000,0000,0000,,You always make too big a deal out of things.
+Dialogue: 0,0:20:46.46,0:20:50.14,DCMain,MADONNA,0000,0000,0000,,But four days later, Natsumi passed away.
+Dialogue: 0,0:20:50.88,0:20:53.69,DCMain,MADONNA,0000,0000,0000,,It may not have been malicious, \Nbut those two killed my sister.
+Dialogue: 0,0:20:54.37,0:20:57.69,DCMain,CONAN,0000,0000,0000,,So you looked for them.
+Dialogue: 0,0:20:59.66,0:21:01.00,DCMain,MADONNA,0000,0000,0000,,Madonna.
+Dialogue: 0,0:21:01.00,0:21:03.56,DCMain,MADONNA,0000,0000,0000,,That word was my only clue,
+Dialogue: 0,0:21:03.56,0:21:07.42,DCMain,MADONNA,0000,0000,0000,,and it led me to Bocchan Restaurant.
+Dialogue: 0,0:21:07.70,0:21:11.33,DCMain,MADONNA,0000,0000,0000,,I got a job, spent six months \Ndeveloping their romantic rivalry,
+Dialogue: 0,0:21:13.10,0:21:14.32,DCMain,MADONNA,0000,0000,0000,,and with these hands...
+Dialogue: 0,0:21:15.26,0:21:19.59,DCMain,MADONNA,0000,0000,0000,,Though ultimately, you Detective \NBoys figured it out.
+Dialogue: 0,0:21:21.08,0:21:23.76,DCMain,MADONNA,0000,0000,0000,,But this is for the best.
+Dialogue: 0,0:21:23.76,0:21:26.47,DCMain,MADONNA,0000,0000,0000,,If I'm not punished, it would be a lie.
+Dialogue: 0,0:21:26.86,0:21:32.37,DCMain,MADONNA,0000,0000,0000,,If I'd forced Natsumi to go the \Nthe hospital six months ago,
+Dialogue: 0,0:21:32.37,0:21:34.85,DCMain,MADONNA,0000,0000,0000,,maybe she wouldn't have died.
+Dialogue: 0,0:21:42.54,0:21:48.11,DCMain,MEGURE,0000,0000,0000,,Excuse me. I'm sorry, but we're \Nquestioning everyone again.
+Dialogue: 0,0:21:48.44,0:21:51.96,DCMain,CONAN,0000,0000,0000,,You have something you want \Nto tell them, too, right?
+Dialogue: 0,0:23:18.99,0:23:21.99,DCMain,GENTA,0000,0000,0000,,After the store closed, those guys...
+Dialogue: 0,0:23:21.99,0:23:24.63,DCMain,MITSUHIKO,0000,0000,0000,,Formed a theater company, right?
+Dialogue: 0,0:23:25.06,0:23:27.21,DCMain,AYUMI,0000,0000,0000,,I'm glad you got better, kitty.
+Dialogue: 0,0:23:27.21,0:23:28.93,DCMain,GIRL,0000,0000,0000,,Mii-chan!
+Dialogue: 0,0:23:28.93,0:23:29.84,DCMain,AYUMI,0000,0000,0000,,What?
+Dialogue: 0,0:23:30.90,0:23:33.18,DCMain,GIRL,0000,0000,0000,,Mii-chan!
+Dialogue: 0,0:23:34.33,0:23:37.35,DCMain,GIRL,0000,0000,0000,,Sis, Mii-chan came back!
+Dialogue: 0,0:23:37.68,0:23:39.12,DCMain,SISTER,0000,0000,0000,,That's great!
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.82,0:23:47.23,DCMain,HEIJI,0000,0000,0000,,"Fairy Lip."
+Dialogue: 0,0:23:47.92,0:23:49.11,DCMain,HEIJI,0000,0000,0000,,A pixie's...
+Dialogue: 0,0:23:49.32,0:23:51.36,DCMain,JIROKICHI,0000,0000,0000,,Are you with the police?
+Dialogue: 0,0:23:51.74,0:23:52.80,DCMain,HEIJI,0000,0000,0000,,Lips...
+Dialogue: 0,0:23:53.43,0:23:55.28,DCMain,NAKAMORI,0000,0000,0000,,He's coming after all!
+Dialogue: 0,0:23:55.76,0:23:58.29,DCItalic,KOGORO,0000,0000,0000,,He can actually read the kanji.
+Dialogue: 0,0:23:58.68,0:24:01.46,DCMain,CONAN,0000,0000,0000,,He may have rigged it in some way.
+Dialogue: 0,0:24:01.85,0:24:04.13,DCMain,HEIJI,0000,0000,0000,,Lips...
+Dialogue: 0,0:24:06.12,0:24:08.78,DCMain,KID,0000,0000,0000,,I see. In that case...
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,Kid vs. Komei: the Targeted Lips \N(Part One)
+Dialogue: 0,0:24:09.34,0:24:14.50,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Kid vs. \NKomei: the Targeted Lips, Part One!"
+Dialogue: 0,0:24:30.03,0:24:34.95,Hint,TEXT,0000,0000,0000,,Fairy Lip
+Dialogue: 0,0:24:30.37,0:24:32.96,DCMain,ALL,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.96,0:24:34.95,DCMain,CONAN,0000,0000,0000,,Fairy Lip!
+Dialogue: 0,0:24:34.95,0:24:35.80,DCMain,HAIBARA,0000,0000,0000,,{\an8}Next time.
+Dialogue: 0,0:24:34.95,0:24:39.95,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.80,0:24:36.52,DCMain,AYUMI,0000,0000,0000,,{\an8}Kid and...
+Dialogue: 0,0:24:36.52,0:24:37.23,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}Komei?
+Dialogue: 0,0:24:37.23,0:24:38.32,DCMain,GENTA,0000,0000,0000,,{\an8}Lips?
+Dialogue: 0,0:24:38.32,0:24:39.54,DCMain,CONAN,0000,0000,0000,,{\an8}Indeed.

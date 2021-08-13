@@ -1,0 +1,381 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Restaurant,Trebuchet MS,20,&H002E2125,&H000000FF,&H00B4C4CB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0140,0020,0018,0
+Style: Restaurant2,Trebuchet MS,16,&H002E2125,&H000000FF,&H00CED7DF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0130,0020,0080,0
+Style: Toyoko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00D37760,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+Style: Eiko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H009C7E59,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+Style: Kyoko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007B2780,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0200,0044,0
+Style: Yuko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H005F283C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0070,0044,0
+Style: Market,Trebuchet MS,22,&H00544931,&H000000FF,&H00F6F5E7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Cream,Trebuchet MS,22,&H00878983,&H000000FF,&H00EDEDE7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Restaurant3,Trebuchet MS,24,&H00482A26,&H000000FF,&H00B2C6D5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Restaurant4,Trebuchet MS,20,&H00482A26,&H000000FF,&H00D7F9FF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Police,Trebuchet MS,22,&H00080A0C,&H000000FF,&H00DDE1E2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Restaurant5,Trebuchet MS,24,&H002E4B5D,&H000000FF,&H0063C3EA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Hashtag,Trebuchet MS,16,&H00E03C40,&H000000FF,&H00FEFFFD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0120,0020,0050,0
+Style: Likes,Trebuchet MS,16,&H005A4132,&H000000FF,&H00FEFFFD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0102,0030,0
+Style: Vacation,Trebuchet MS,12,&H00E03C40,&H000000FF,&H00FEFFFD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0040,0020,0050,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:00.00,0:00:02.98,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:00:17.82,0:00:19.90,DCMain,KOGORO,0000,0000,0000,,You're such an annoying brat!
+Dialogue: 0,0:00:20.58,0:00:21.96,DCMain,CONAN,0000,0000,0000,,You're acting suspicious.
+Dialogue: 0,0:00:21.96,0:00:23.72,DCMain,KOGORO,0000,0000,0000,,There's nothing suspicious about me!
+Dialogue: 0,0:00:26.10,0:00:28.13,DCMain,KOGORO,0000,0000,0000,,Th-That's...
+Dialogue: 0,0:00:28.85,0:00:31.52,DCMain,CONAN,0000,0000,0000,,"Toyoko's monja restaurant \Nin Tsukishima."
+Dialogue: 0,0:00:31.52,0:00:36.26,DCMain,CONAN,0000,0000,0000,,"I hereby invite my beloved detective \NMori Kogoro-sensei to my restaurant."
+Dialogue: 0,0:00:36.26,0:00:37.29,DCMain,CONAN,0000,0000,0000,,"Signed, Toyoko."
+Dialogue: 0,0:00:37.29,0:00:39.97,DCMain,KOGORO,0000,0000,0000,,It's an invitation from a fan.
+Dialogue: 0,0:00:39.97,0:00:43.48,DCMain,CONAN,0000,0000,0000,,So you trim your nose hairs \Nto go eat monja in Tsukishima?
+Dialogue: 0,0:00:43.48,0:00:45.94,DCMain,KOGORO,0000,0000,0000,,It's my first time meeting \Nher. I want to look nice.
+Dialogue: 0,0:00:46.26,0:00:48.94,DCMain,CONAN,0000,0000,0000,,You mean perving on someone you're \Nmeeting for the first time?
+Dialogue: 0,0:00:49.30,0:00:51.19,DCMain,KOGORO,0000,0000,0000,,Perving?
+Dialogue: 0,0:01:01.86,0:01:04.50,DCMain,KOGORO,0000,0000,0000,,Honestly, there's a little bit of that.
+Dialogue: 0,0:01:04.50,0:01:05.77,DCMain,CONAN,0000,0000,0000,,So you admit it.
+Dialogue: 0,0:01:05.77,0:01:07.33,DCMain,KOGORO,0000,0000,0000,,I do.
+Dialogue: 0,0:01:08.56,0:01:09.96,DCMain,CONAN,0000,0000,0000,,I want monja, too.
+Dialogue: 0,0:01:11.15,0:01:12.22,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:01:17.18,0:01:19.47,DCMain,CONAN,0000,0000,0000,,Right now at this moment, \Nlight pierces the darkness!
+Dialogue: 0,0:01:19.47,0:01:21.51,DCMain,CONAN,0000,0000,0000,,Overcome all limits with \Nyour cool reasoning skills!
+Dialogue: 0,0:01:21.51,0:01:25.16,DCMain,CONAN,0000,0000,0000,,Kogoro is invited out for monja and \Nis hired by an unexpected client!
+Dialogue: 0,0:01:25.16,0:01:26.86,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:26.86,0:01:28.62,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:28.62,0:01:30.94,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:11.96,0:03:17.96,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(398,1)}The Tokyo Barls Collection
+Dialogue: 0,0:03:12.82,0:03:15.37,DCMain,CONAN,0000,0000,0000,,"The Tokyo Barls Collection!"
+Dialogue: 0,0:03:30.07,0:03:31.98,DCMain,KOGORO,0000,0000,0000,,Let's see...
+Dialogue: 0,0:03:34.44,0:03:35.98,DCMain,KOGORO,0000,0000,0000,,It's this way.
+Dialogue: 0,0:03:36.48,0:03:40.74,DCMain,CONAN,0000,0000,0000,,I want the deluxe gizzard and \Ngarlic monja with cheese.
+Dialogue: 0,0:03:40.99,0:03:44.46,DCMain,KOGORO,0000,0000,0000,,You idiot. Monja aren't \Nsupposed to be so luxurious.
+Dialogue: 0,0:03:44.46,0:03:47.99,DCMain,KOGORO,0000,0000,0000,,Monja are a simple food.
+Dialogue: 0,0:03:47.99,0:03:49.75,DCMain,CONAN,0000,0000,0000,,That's an old-fashioned way of thinking.
+Dialogue: 0,0:04:01.34,0:04:03.76,DCMain,KOGORO,0000,0000,0000,,It's just down that alleyway.
+Dialogue: 0,0:04:12.83,0:04:14.65,DCMain,KOGORO,0000,0000,0000,,What the hell is that?
+Dialogue: 0,0:04:14.65,0:04:18.40,DCMain,CONAN,0000,0000,0000,,Looks like Toyoko-san's \Nrestaurant is over there.
+Dialogue: 0,0:04:15.90,0:04:18.90,Restaurant,SIGN,0000,0000,0000,,Toyoko's Restaurant
+Dialogue: 0,0:04:19.08,0:04:21.90,DCMain,KOGORO,0000,0000,0000,,What is that old woman doing?
+Dialogue: 0,0:04:22.63,0:04:25.65,DCMain,TOYOKO,0000,0000,0000,,How rude! Who the hell are you?
+Dialogue: 0,0:04:28.58,0:04:33.33,DCMain,TOYOKO,0000,0000,0000,,Are you the famous detective \NMori Kogoro-sensei?
+Dialogue: 0,0:04:34.73,0:04:39.42,DCMain,KOGORO,0000,0000,0000,,I am indeed the super famous \Ndetective Mori Kogoro.
+Dialogue: 0,0:04:42.09,0:04:45.88,DCMain,TOYOKO,0000,0000,0000,,My, my. One moment, please.
+Dialogue: 0,0:04:45.88,0:04:47.05,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:04:47.68,0:04:50.06,DCMain,CONAN,0000,0000,0000,,Does she work here?
+Dialogue: 0,0:04:51.09,0:04:52.79,DCMain,CONAN,0000,0000,0000,,Excuse us.
+Dialogue: 0,0:04:54.21,0:04:55.48,DCMain,KOGORO,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:04:56.25,0:04:58.99,DCMain,TOYOKO,0000,0000,0000,,Oh, my. I'm Toyoko.
+Dialogue: 0,0:05:01.43,0:05:03.71,DCMain,KOGORO,0000,0000,0000,,I received your invitation.
+Dialogue: 0,0:05:04.60,0:05:06.07,DCMain,KOGORO,0000,0000,0000,,I'm the great detective...
+Dialogue: 0,0:05:07.44,0:05:08.74,DCMain,KOGORO,0000,0000,0000,,Mori Kogoro...
+Dialogue: 0,0:05:20.34,0:05:21.76,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:05:23.09,0:05:24.72,DCMain,TOYOKO,0000,0000,0000,,Oh, my.
+Dialogue: 0,0:05:24.99,0:05:26.91,DCMain,TOYOKO,0000,0000,0000,,I don't believe it.
+Dialogue: 0,0:05:26.91,0:05:31.60,DCMain,TOYOKO,0000,0000,0000,,The great detective Mori-sensei \Nis overwhelmed by my beauty.
+Dialogue: 0,0:05:31.60,0:05:33.06,DCMain,CONAN,0000,0000,0000,,I don't think that's it.
+Dialogue: 0,0:05:33.28,0:05:33.85,DCMain,CONAN,0000,0000,0000,,Ow.
+Dialogue: 0,0:05:34.60,0:05:35.85,DCMain,TOYOKO,0000,0000,0000,,I'm so upset!
+Dialogue: 0,0:05:37.12,0:05:40.87,DCMain,TOYOKO,0000,0000,0000,,Only the great river can \Nheal the wounds on my heart.
+Dialogue: 0,0:05:40.87,0:05:43.73,DCMain,TOYOKO,0000,0000,0000,,The great river has always healed my heart.
+Dialogue: 0,0:05:43.93,0:05:44.74,DCMain,CONAN,0000,0000,0000,,The great river?
+Dialogue: 0,0:05:46.35,0:05:49.62,DCMain,TOYOKO,0000,0000,0000,,The Sumida River has always healed my heart.
+Dialogue: 0,0:05:49.94,0:05:54.62,DCMain,TOYOKO,0000,0000,0000,,Sumida River, please \Nsoothe this broken heart.
+Dialogue: 0,0:05:59.07,0:06:00.38,DCMain,KOGORO,0000,0000,0000,,Ouch...
+Dialogue: 0,0:06:01.38,0:06:04.40,DCMain,KOGORO,0000,0000,0000,,Kid, where's the old woman?
+Dialogue: 0,0:06:04.40,0:06:08.38,DCMain,CONAN,0000,0000,0000,,She said something about being \Nupset and went to the Sumida River.
+Dialogue: 0,0:06:08.38,0:06:09.76,DCMain,KOGORO,0000,0000,0000,,Sumida River?
+Dialogue: 0,0:06:10.10,0:06:11.07,DCMain,KOGORO,0000,0000,0000,,What?!
+Dialogue: 0,0:06:11.07,0:06:15.92,DCMain,KOGORO,0000,0000,0000,,Was she so upset by my rejection that \Nshe's jumping into the Sumida River?
+Dialogue: 0,0:06:17.38,0:06:18.67,DCItalic,CONAN,0000,0000,0000,,No way.
+Dialogue: 0,0:06:24.61,0:06:25.79,DCMain,CONAN,0000,0000,0000,,There she is.
+Dialogue: 0,0:06:29.20,0:06:31.41,DCMain,CONAN,0000,0000,0000,,She's doing that weird dance again.
+Dialogue: 0,0:06:32.00,0:06:36.41,DCMain,TOYOKO,0000,0000,0000,,I used be a dancer at the \Nbig theater in Ginza.
+Dialogue: 0,0:06:36.41,0:06:37.48,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:06:37.48,0:06:39.81,DCMain,TOYOKO,0000,0000,0000,,The big theater in Ginza.
+Dialogue: 0,0:06:39.81,0:06:40.67,DCMain,TOYOKO,0000,0000,0000,,Heard of it?
+Dialogue: 0,0:06:40.92,0:06:43.26,DCMain,KOGORO,0000,0000,0000,,The big theater in Ginza?
+Dialogue: 0,0:06:43.73,0:06:48.17,DCMain,KOGORO,0000,0000,0000,,Come to think of it, I heard there \Nused to be a place like that.
+Dialogue: 0,0:06:48.61,0:06:51.18,DCMain,KOGORO,0000,0000,0000,,It looked something like this,
+Dialogue: 0,0:06:51.90,0:06:57.18,DCMain,KOGORO,0000,0000,0000,,and featured long lines of \Nbeautiful girls dancing.
+Dialogue: 0,0:06:58.61,0:07:01.41,DCMain,TOYOKO,0000,0000,0000,,We can continue our conversation over monja.
+Dialogue: 0,0:07:01.81,0:07:04.82,Restaurant2,SIGN,0000,0000,0000,,Toyoko's Restaurant
+Dialogue: 0,0:07:11.98,0:07:13.16,DCMain,CONAN,0000,0000,0000,,It's good!
+Dialogue: 0,0:07:13.40,0:07:15.64,DCMain,TOYOKO,0000,0000,0000,,Is it? That's good.
+Dialogue: 0,0:07:15.64,0:07:17.16,DCMain,TOYOKO,0000,0000,0000,,Eat all you'd like.
+Dialogue: 0,0:07:18.98,0:07:21.69,DCMain,KOGORO,0000,0000,0000,,Monja and draft beer in the afternoon...
+Dialogue: 0,0:07:21.69,0:07:22.92,DCMain,KOGORO,0000,0000,0000,,This is great!
+Dialogue: 0,0:07:24.20,0:07:26.55,DCMain,TOYOKO,0000,0000,0000,,I think I'll have some, too.
+Dialogue: 0,0:07:30.84,0:07:33.76,DCMain,TOYOKO,0000,0000,0000,,It's good. Go, me.
+Dialogue: 0,0:07:37.00,0:07:39.69,DCItalic,CONAN,0000,0000,0000,,Tokyo Barls Collection?
+Dialogue: 0,0:07:40.45,0:07:41.32,DCItalic,CONAN,0000,0000,0000,,What's that?
+Dialogue: 0,0:07:44.76,0:07:46.27,DCMain,KOGORO,0000,0000,0000,,What's wrong, ma'am?
+Dialogue: 0,0:07:47.86,0:07:49.28,DCMain,TOYOKO,0000,0000,0000,,I can't breathe...
+Dialogue: 0,0:07:49.49,0:07:51.90,DCMain,KOGORO,0000,0000,0000,,Hey, are you okay? Pull yourself together!
+Dialogue: 0,0:07:51.90,0:07:53.20,DCMain,CONAN,0000,0000,0000,,Mister, water!
+Dialogue: 0,0:07:53.87,0:07:54.82,DCMain,KOGORO,0000,0000,0000,,Have some water.
+Dialogue: 0,0:07:55.08,0:07:57.49,DCMain,KOGORO,0000,0000,0000,,Calm down. Drink slowly.
+Dialogue: 0,0:08:03.85,0:08:05.81,DCMain,CONAN,0000,0000,0000,,Are you okay, ma'am?
+Dialogue: 0,0:08:05.81,0:08:07.04,DCMain,KOGORO,0000,0000,0000,,What's this?
+Dialogue: 0,0:08:07.38,0:08:08.97,DCMain,KOGORO,0000,0000,0000,,The core of a cabbage?
+Dialogue: 0,0:08:08.97,0:08:10.52,DCMain,TOYOKO,0000,0000,0000,,S-Someone was...
+Dialogue: 0,0:08:11.52,0:08:13.88,DCMain,TOYOKO,0000,0000,0000,,Someone was trying to kill me!
+Dialogue: 0,0:08:13.88,0:08:16.55,DCMain,TOYOKO,0000,0000,0000,,They put the core of a cabbage in my monja!
+Dialogue: 0,0:08:16.77,0:08:18.06,DCMain,BOTH,0000,0000,0000,,What?!
+Dialogue: 0,0:08:18.38,0:08:20.56,DCMain,TOYOKO,0000,0000,0000,,I know who the culprit is!
+Dialogue: 0,0:08:20.74,0:08:22.35,DCMain,CONAN,0000,0000,0000,,The culprit?
+Dialogue: 0,0:08:22.35,0:08:24.57,DCMain,KOGORO,0000,0000,0000,,Calm down, ma'am.
+Dialogue: 0,0:08:24.57,0:08:26.89,DCMain,TOYOKO,0000,0000,0000,,It was one of my childhood friends.
+Dialogue: 0,0:08:26.89,0:08:27.44,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:08:28.16,0:08:32.82,DCMain,TOYOKO,0000,0000,0000,,They called us the Bufu'usu of Tsukishima.
+Dialogue: 0,0:08:33.19,0:08:35.07,DCMain,KOGORO,0000,0000,0000,,Tsu-Tsukishima's...
+Dialogue: 0,0:08:35.56,0:08:37.69,DCMain,CONAN,0000,0000,0000,,Bufu'usu?
+Dialogue: 0,0:08:40.99,0:08:44.33,Toyoko,SIGN,0000,0000,0000,,{\fad(250,1)}Busujima Toyoko (75)
+Dialogue: 0,0:08:41.31,0:08:44.33,DCMain,TOYOKO,0000,0000,0000,,{\an8}I, Busujima Toyoko, was Bu.
+Dialogue: 0,0:08:44.54,0:08:47.33,Eiko,SIGN,0000,0000,0000,,{\fad(250,1)}Fuda Eiko (75)
+Dialogue: 0,0:08:45.00,0:08:46.75,DCMain,TOYOKO,0000,0000,0000,,{\an8}Fuda Eiko was Fu.
+Dialogue: 0,0:08:47.50,0:08:50.34,Kyoko,SIGN,0000,0000,0000,,{\fad(250,1)}Ugajin Kyoko (74)
+Dialogue: 0,0:08:47.64,0:08:50.02,DCMain,TOYOKO,0000,0000,0000,,{\an8}Ugajin Kyoko was U.
+Dialogue: 0,0:08:50.50,0:08:53.34,Yuko,SIGN,0000,0000,0000,,{\fad(250,1)}Suo Yuko (75)
+Dialogue: 0,0:08:50.67,0:08:53.03,DCMain,TOYOKO,0000,0000,0000,,{\an8}Suo Yuko was Su.
+Dialogue: 0,0:08:54.53,0:08:56.44,DCItalic,EIKO,0000,0000,0000,,Modern women are no good.
+Dialogue: 0,0:08:56.44,0:09:00.33,DCItalic,EIKO,0000,0000,0000,,They don't drink skim milk \Nwith their school lunches.
+Dialogue: 0,0:09:00.33,0:09:03.10,DCItalic,YUKO,0000,0000,0000,,Those children know nothing of war.
+Dialogue: 0,0:09:03.35,0:09:06.16,DCItalic,KYOKO,0000,0000,0000,,I heard they don't do \Nthat at schools anymore.
+Dialogue: 0,0:09:06.16,0:09:07.10,DCItalic,YUKO,0000,0000,0000,,Don't do what?
+Dialogue: 0,0:09:07.73,0:09:11.98,DCItalic,KYOKO,0000,0000,0000,,Carry firewood while \Nstudying, like Ikkyu-san.
+Dialogue: 0,0:09:12.19,0:09:15.89,DCItalic,TOYOKO,0000,0000,0000,,That guy who came up with the \Ncrying nightingale Jomon culture?
+Dialogue: 0,0:09:15.89,0:09:18.49,DCItalic,KYOKO,0000,0000,0000,,What? Jomon culture?
+Dialogue: 0,0:09:18.67,0:09:21.45,DCItalic,EIKO,0000,0000,0000,,Bu, you're always showing off your intellect
+Dialogue: 0,0:09:21.45,0:09:23.87,DCItalic,EIKO,0000,0000,0000,,since you're the only one \Nwho attended high school.
+Dialogue: 0,0:09:24.16,0:09:25.44,DCItalic,YUKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:25.44,0:09:28.30,DCItalic,YUKO,0000,0000,0000,,You've got a big head just \Nbecause we didn't complete
+Dialogue: 0,0:09:28.30,0:09:29.88,DCItalic,YUKO,0000,0000,0000,,our compulsory education \Nto your satisfaction.
+Dialogue: 0,0:09:30.13,0:09:32.08,DCItalic,YUKO,0000,0000,0000,,I'm stuffing myself until \NI'm full of this shit!
+Dialogue: 0,0:09:32.08,0:09:33.13,DCItalic,BOTH,0000,0000,0000,,Me, too!
+Dialogue: 0,0:09:33.80,0:09:35.75,DCItalic,TOYOKO,0000,0000,0000,,Don't stuff yourselves with shit!
+Dialogue: 0,0:09:38.88,0:09:42.14,DCMain,TOYOKO,0000,0000,0000,,It must've been one of them.
+Dialogue: 0,0:09:42.59,0:09:44.14,DCItalic,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:09:44.44,0:09:45.94,DCMain,TOYOKO,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:09:45.94,0:09:50.14,DCMain,TOYOKO,0000,0000,0000,,Mid-century women can't \Nhelp but speak their minds.
+Dialogue: 0,0:09:51.35,0:09:52.68,DCMain,KOGORO,0000,0000,0000,,I understand.
+Dialogue: 0,0:09:52.68,0:09:55.15,DCMain,KOGORO,0000,0000,0000,,It's your age that makes you say that.
+Dialogue: 0,0:09:55.39,0:09:59.03,DCItalic,CONAN,0000,0000,0000,,No, you don't. Your age doesn't \Nmake you say anything.
+Dialogue: 0,0:09:59.53,0:10:01.94,DCMain,TOYOKO,0000,0000,0000,,Detective Mori Kogoro-sensei.
+Dialogue: 0,0:10:01.94,0:10:02.95,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:02.95,0:10:05.13,DCMain,TOYOKO,0000,0000,0000,,Could you investigate this case?
+Dialogue: 0,0:10:05.13,0:10:06.10,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:10:06.10,0:10:08.54,DCMain,TOYOKO,0000,0000,0000,,Here's your pay.
+Dialogue: 0,0:10:08.98,0:10:10.96,DCMain,KOGORO,0000,0000,0000,,I accept!
+Dialogue: 0,0:10:14.23,0:10:18.47,DCMain,KOGORO,0000,0000,0000,,Will suspect #1, Fuda Eiko-san, \Nalso known as Fu of Tsukishima,
+Dialogue: 0,0:10:18.78,0:10:22.79,DCMain,KOGORO,0000,0000,0000,,really appear on the bullet \Ntrain platform at Tokyo Station?
+Dialogue: 0,0:10:22.79,0:10:26.46,DCMain,CONAN,0000,0000,0000,,According to Toyoko-san, also \Nknown as Bu of Tsukishima.
+Dialogue: 0,0:10:31.04,0:10:33.36,DCMain,CONAN,0000,0000,0000,,I-Is that her?
+Dialogue: 0,0:10:33.70,0:10:35.36,DCMain,KOGORO,0000,0000,0000,,Fu of Tsukishima?
+Dialogue: 0,0:10:37.24,0:10:38.24,DCMain,KOGORO,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:10:38.51,0:10:41.80,DCMain,KOGORO,0000,0000,0000,,Are you Fuda Eiko-san, also \Nknown as Fu of Tsukishima?
+Dialogue: 0,0:10:41.80,0:10:43.37,DCMain,EIKO,0000,0000,0000,,You're here about Bu.
+Dialogue: 0,0:10:43.37,0:10:44.31,DCMain,KOGORO,0000,0000,0000,,How did you know?
+Dialogue: 0,0:10:44.31,0:10:45.42,DCMain,EIKO,0000,0000,0000,,Did she die?
+Dialogue: 0,0:10:45.42,0:10:47.03,DCMain,KOGORO,0000,0000,0000,,Not yet.
+Dialogue: 0,0:10:47.68,0:10:51.25,DCMain,EIKO,0000,0000,0000,,That Bu of Tsukishima is as tough as ever.
+Dialogue: 0,0:10:51.65,0:10:53.27,DCMain,KOGORO,0000,0000,0000,,Do you resent her for some reason?
+Dialogue: 0,0:10:53.27,0:10:55.13,DCMain,EIKO,0000,0000,0000,,Of course I do.
+Dialogue: 0,0:10:55.13,0:11:01.36,DCMain,EIKO,0000,0000,0000,,During middle school, I was dating \Nping pong team captain Cho-kun...
+Dialogue: 0,0:11:13.06,0:11:17.53,DCItalic,TOYOKO,0000,0000,0000,,Let him break up with Eiko, \Nlet him break up with Eiko.
+Dialogue: 0,0:11:19.46,0:11:22.61,DCItalic,TOYOKO,0000,0000,0000,,Break up with Eiko, break up with Eiko.
+Dialogue: 0,0:11:22.84,0:11:26.16,DCItalic,TOYOKO,0000,0000,0000,,Break up, break up, break up, \Nbreak up, break up, break up.
+Dialogue: 0,0:11:26.58,0:11:30.29,DCItalic,CAPTAIN,0000,0000,0000,,Fine, I'll do it! I'll break up with Eiko!
+Dialogue: 0,0:11:32.71,0:11:35.90,DCMain,KOGORO,0000,0000,0000,,I see. I'm sorry about—
+Dialogue: 0,0:11:36.70,0:11:37.42,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:37.89,0:11:38.87,DCMain,CONAN,0000,0000,0000,,Over there.
+Dialogue: 0,0:11:40.93,0:11:45.05,DCMain,EMPLOYEE,0000,0000,0000,,Please don't jog on the station \Nplatform! It's very dangerous!
+Dialogue: 0,0:11:48.04,0:11:52.31,DCMain,CONAN,0000,0000,0000,,Suspect #2, Ugaji Kyoko-san, \Nalso known as U of Tsukishima,
+Dialogue: 0,0:11:48.52,0:11:52.31,Market,SIGN,0000,0000,0000,,Toyonaka Market
+Dialogue: 0,0:11:52.59,0:11:55.06,DCMain,CONAN,0000,0000,0000,,butchers tuna at Toyonaka Market.
+Dialogue: 0,0:12:08.10,0:12:10.16,DCMain,KYOKO,0000,0000,0000,,You're here about Bu, aren't you?
+Dialogue: 0,0:12:10.92,0:12:12.41,DCMain,KOGORO,0000,0000,0000,,I'm surprised you knew.
+Dialogue: 0,0:12:13.38,0:12:18.42,DCMain,KYOKO,0000,0000,0000,,Eiko called me. She said a detective \Ncame to ask her about Bu.
+Dialogue: 0,0:12:18.88,0:12:21.05,DCMain,KOGORO,0000,0000,0000,,So you do resent her for some reason.
+Dialogue: 0,0:12:21.28,0:12:23.93,DCMain,KYOKO,0000,0000,0000,,Of course I resent that nincompoop.
+Dialogue: 0,0:12:23.93,0:12:29.69,DCMain,KYOKO,0000,0000,0000,,During middle school, I was dating \Nbaseball team captain Fuji-kun...
+Dialogue: 0,0:12:33.03,0:12:35.65,DCItalic,CAPTAIN,0000,0000,0000,,What a heavy roller.
+Dialogue: 0,0:12:36.90,0:12:39.44,DCItalic,TOYOKO,0000,0000,0000,,Break up with Kyoko and date me instead!
+Dialogue: 0,0:12:39.96,0:12:40.72,DCItalic,CAPTAIN,0000,0000,0000,,What?
+Dialogue: 0,0:12:40.72,0:12:44.58,DCItalic,TOYOKO,0000,0000,0000,,If you won't date me, then kill me!
+Dialogue: 0,0:12:46.58,0:12:48.58,DCItalic,TOYOKO,0000,0000,0000,,Kill me!
+Dialogue: 0,0:12:49.55,0:12:50.95,DCItalic,TOYOKO,0000,0000,0000,,Kill me!
+Dialogue: 0,0:12:51.22,0:12:53.46,DCItalic,TOYOKO,0000,0000,0000,,Push that roller over me!
+Dialogue: 0,0:12:53.96,0:12:55.60,DCItalic,CAPTAIN,0000,0000,0000,,Okay!
+Dialogue: 0,0:12:56.88,0:12:59.46,DCMain,KYOKO,0000,0000,0000,,I will have my revenge.
+Dialogue: 0,0:13:00.26,0:13:02.96,DCMain,KYOKO,0000,0000,0000,,Eko Eko Azarak!
+Dialogue: 0,0:13:03.79,0:13:05.47,DCMain,KOGORO,0000,0000,0000,,She's awfully energetic.
+Dialogue: 0,0:13:14.32,0:13:19.90,DCMain,KOGORO,0000,0000,0000,,Suspect #3, Suo Yuko-san, also \Nknown as Su of Tsukishima, is...
+Dialogue: 0,0:13:19.90,0:13:22.89,DCMain,YUKO,0000,0000,0000,,Hello, ni hao, guten tag.
+Dialogue: 0,0:13:22.89,0:13:25.48,DCMain,YUKO,0000,0000,0000,,I've got great souvenirs.
+Dialogue: 0,0:13:25.48,0:13:28.72,DCMain,YUKO,0000,0000,0000,,Good stuff from Mt. Fuji, \Ngood stuff from Hokkaido.
+Dialogue: 0,0:13:28.72,0:13:32.49,DCMain,YUKO,0000,0000,0000,,You, boss. I've got good stuff from Nikko, too.
+Dialogue: 0,0:13:32.93,0:13:37.00,DCMain,KOGORO,0000,0000,0000,,I'm not your boss, and I'm not a foreign tourist.
+Dialogue: 0,0:13:41.07,0:13:44.26,DCMain,YUKO,0000,0000,0000,,During middle school, I was dating...
+Dialogue: 0,0:13:44.49,0:13:47.26,DCMain,KOGORO,0000,0000,0000,,The basketball team captain, \Nwho she stole from you?
+Dialogue: 0,0:13:49.33,0:13:54.77,DCMain,YUKO,0000,0000,0000,,During middle school, I was dating \Njudo team captain Ban-kun...
+Dialogue: 0,0:13:55.28,0:13:59.56,DCMain,YUKO,0000,0000,0000,,Damn that Busujima Toyoko—I \Nmean, Bu of Tsukishima.
+Dialogue: 0,0:14:00.70,0:14:02.27,DCItalic,CAPTAIN,0000,0000,0000,,Ouch...
+Dialogue: 0,0:14:02.27,0:14:05.78,Cream,SIGN,0000,0000,0000,,Anti-itch Cream
+Dialogue: 0,0:14:03.54,0:14:05.94,DCItalic,CAPTAIN,0000,0000,0000,,This medicine should work.
+Dialogue: 0,0:14:07.78,0:14:09.43,DCItalic,CAPTAIN,0000,0000,0000,,It's working!
+Dialogue: 0,0:14:08.05,0:14:10.78,DCItalic,TOYOKO,0000,0000,0000,,{\an8}I saw you!
+Dialogue: 0,0:14:10.95,0:14:13.79,DCItalic,TOYOKO,0000,0000,0000,,I saw you doing something embarrassing!
+Dialogue: 0,0:14:16.93,0:14:18.04,DCItalic,CAPTAIN,0000,0000,0000,,Don't tell anyone.
+Dialogue: 0,0:14:18.50,0:14:23.04,DCItalic,TOYOKO,0000,0000,0000,,If you don't break up with Yuko and \Nstarting dating me instead, I might.
+Dialogue: 0,0:14:23.04,0:14:24.80,DCItalic,CAPTAIN,0000,0000,0000,,Don't tell anyone! Don't tell anyone!
+Dialogue: 0,0:14:25.21,0:14:28.04,DCItalic,CAPTAIN,0000,0000,0000,,Don't tell anyone!
+Dialogue: 0,0:14:35.44,0:14:37.46,DCItalic,CONAN,0000,0000,0000,,Something's not right.
+Dialogue: 0,0:14:37.46,0:14:44.11,DCItalic,CONAN,0000,0000,0000,,All three of the women named \Nas suspects resent Toyoko-san,
+Dialogue: 0,0:14:44.49,0:14:48.09,DCItalic,CONAN,0000,0000,0000,,but all three of them resent \Nher for the same reason.
+Dialogue: 0,0:14:48.89,0:14:54.53,DCItalic,EIKO,0000,0000,0000,,During middle school, I was dating \Nping pong team captain Cho-kun...
+Dialogue: 0,0:14:54.84,0:15:00.04,DCItalic,KYOKO,0000,0000,0000,,During middle school, I was dating \Nbaseball team captain Fuji-kun...
+Dialogue: 0,0:15:00.48,0:15:03.54,DCItalic,YUKO,0000,0000,0000,,During middle school, I was dating...
+Dialogue: 0,0:15:03.74,0:15:06.55,DCItalic,KOGORO,0000,0000,0000,,The basketball team captain, \Nwho she stole from you?
+Dialogue: 0,0:15:07.02,0:15:11.89,DCItalic,YUKO,0000,0000,0000,,During middle school, I was dating \Njudo team captain Ban-kun...
+Dialogue: 0,0:15:12.66,0:15:18.41,DCItalic,CONAN,0000,0000,0000,,Furthermore, Yuko-san said the exact same \Nthing after the old man's interruption.
+Dialogue: 0,0:15:19.22,0:15:21.90,DCItalic,CONAN,0000,0000,0000,,But why did those three—
+Dialogue: 0,0:15:21.90,0:15:25.47,DCItalic,CONAN,0000,0000,0000,,No, including Toyoko-san, \Nit's the four of them.
+Dialogue: 0,0:15:26.23,0:15:27.34,DCMain,KOGORO,0000,0000,0000,,Hey, kid.
+Dialogue: 0,0:15:27.34,0:15:28.03,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:28.42,0:15:31.59,DCMain,KOGORO,0000,0000,0000,,What are you scowling and thinking about?
+Dialogue: 0,0:15:32.13,0:15:34.28,DCMain,KOGORO,0000,0000,0000,,It's simple.
+Dialogue: 0,0:15:34.81,0:15:39.79,DCMain,KOGORO,0000,0000,0000,,Those three women conspired to \Nput a cabbage core in the monja
+Dialogue: 0,0:15:40.02,0:15:43.33,DCMain,KOGORO,0000,0000,0000,,to get their revenge.
+Dialogue: 0,0:15:43.33,0:15:44.79,DCMain,CONAN,0000,0000,0000,,But then...
+Dialogue: 0,0:15:44.97,0:15:46.54,DCMain,KOGORO,0000,0000,0000,,I know.
+Dialogue: 0,0:15:46.54,0:15:49.56,DCMain,KOGORO,0000,0000,0000,,We're dealing with women who \Ndon't have long left to live.
+Dialogue: 0,0:15:49.56,0:15:53.23,DCMain,KOGORO,0000,0000,0000,,I give them a proper talking to, \Nmake them reflect on their actions,
+Dialogue: 0,0:15:53.23,0:15:56.30,DCMain,KOGORO,0000,0000,0000,,and throw a proper sushi party with my pay.
+Dialogue: 0,0:15:59.31,0:16:01.31,Restaurant3,SIGN,0000,0000,0000,,Toyoko's Restaurant
+Dialogue: 0,0:16:00.25,0:16:01.31,DCMain,TOYOKO,0000,0000,0000,,What?!
+Dialogue: 0,0:16:01.67,0:16:06.57,DCMain,TOYOKO,0000,0000,0000,,So it was Eiko, Kyoko, and \NYuko who tried to kill me
+Dialogue: 0,0:16:06.57,0:16:09.07,DCMain,TOYOKO,0000,0000,0000,,by putting the cabbage core in my monja?!
+Dialogue: 0,0:16:10.36,0:16:14.07,DCMain,KOGORO,0000,0000,0000,,The great Mori Kogoro doesn't make mistakes!
+Dialogue: 0,0:16:15.29,0:16:17.42,DCItalic,CONAN,0000,0000,0000,,What happened to being proper?
+Dialogue: 0,0:16:17.42,0:16:20.23,DCMain,TOYOKO,0000,0000,0000,,By the way, detective Mori-sensei.
+Dialogue: 0,0:16:20.23,0:16:21.33,DCMain,KOGORO,0000,0000,0000,,Yes?
+Dialogue: 0,0:16:21.61,0:16:25.95,DCMain,TOYOKO,0000,0000,0000,,I know I should go to the local police,
+Dialogue: 0,0:16:25.95,0:16:28.40,DCMain,TOYOKO,0000,0000,0000,,but they're so unreliable.
+Dialogue: 0,0:16:28.40,0:16:32.64,DCMain,TOYOKO,0000,0000,0000,,Could you ask your friends \Nat the MPD to handle it?
+Dialogue: 0,0:16:32.64,0:16:35.94,DCMain,KOGORO,0000,0000,0000,,What? But...
+Dialogue: 0,0:16:38.56,0:16:40.00,DCMain,TOYOKO,0000,0000,0000,,My chronic pain...
+Dialogue: 0,0:16:40.00,0:16:41.60,DCMain,KOGORO,0000,0000,0000,,A-Are you all right?
+Dialogue: 0,0:16:42.70,0:16:45.94,DCMain,TOYOKO,0000,0000,0000,,Please. My days are numbered...
+Dialogue: 0,0:16:46.85,0:16:48.65,DCMain,KOGORO,0000,0000,0000,,Your days are numbered?
+Dialogue: 0,0:16:51.18,0:16:54.74,DCMain,KOGORO,0000,0000,0000,,Very well. I'll talk to them.
+Dialogue: 0,0:16:55.02,0:16:56.57,DCMain,TOYOKO,0000,0000,0000,,Thank you!
+Dialogue: 0,0:16:56.94,0:16:59.00,DCMain,TOYOKO,0000,0000,0000,,I'll bring you another beer.
+Dialogue: 0,0:16:59.56,0:17:00.95,DCMain,KOGORO,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:17:01.38,0:17:03.97,DCItalic,CONAN,0000,0000,0000,,He's too easy.
+Dialogue: 0,0:17:03.97,0:17:05.53,DCMain,KOGORO,0000,0000,0000,,They're not answering...
+Dialogue: 0,0:17:07.12,0:17:10.89,DCItalic,CONAN,0000,0000,0000,,Anyway, why is she doing this?
+Dialogue: 0,0:17:12.21,0:17:13.09,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:14.09,0:17:15.59,DCMain,CONAN,0000,0000,0000,,Isn't that...?
+Dialogue: 0,0:17:18.36,0:17:19.60,DCItalic,CONAN,0000,0000,0000,,I see!
+Dialogue: 0,0:17:26.34,0:17:28.06,DCItalic,CONAN,0000,0000,0000,,So that's how it is.
+Dialogue: 0,0:17:28.61,0:17:31.61,Restaurant3,SIGN,0000,0000,0000,,Toyoko's Restaurant
+Dialogue: 0,0:17:31.99,0:17:35.00,DCMain,TOYOKO,0000,0000,0000,,Here's your beer.
+Dialogue: 0,0:17:35.00,0:17:36.07,DCMain,KOGORO,0000,0000,0000,,Toyoko-san.
+Dialogue: 0,0:17:36.07,0:17:37.08,DCMain,TOYOKO,0000,0000,0000,,Yes?
+Dialogue: 0,0:17:37.47,0:17:40.12,DCMain,KOGORO,0000,0000,0000,,Picking up where we left off,
+Dialogue: 0,0:17:40.70,0:17:42.99,DCMain,KOGORO,0000,0000,0000,,when cooking monja,
+Dialogue: 0,0:17:42.99,0:17:48.37,DCMain,KOGORO,0000,0000,0000,,you use two spatulas to finely chop \Ningredients spread over a hot plate.
+Dialogue: 0,0:17:48.95,0:17:54.93,DCMain,KOGORO,0000,0000,0000,,In other words, even if a cabbage core \Nwere mixed in with the ingredients,
+Dialogue: 0,0:17:55.40,0:18:00.64,DCMain,KOGORO,0000,0000,0000,,it should've been chopped too small to get \Ncaught in your throat by the time you ate it.
+Dialogue: 0,0:18:01.00,0:18:05.02,DCMain,KOGORO,0000,0000,0000,,Therefore, the cabbage core you choked on
+Dialogue: 0,0:18:05.44,0:18:08.74,DCMain,KOGORO,0000,0000,0000,,must have been put in after you \Nfinished preparing the monja.
+Dialogue: 0,0:18:09.40,0:18:14.17,DCMain,KOGORO,0000,0000,0000,,Not only that, but if the core was \Ncarelessly thrown into the ingredients,
+Dialogue: 0,0:18:14.17,0:18:17.12,DCMain,KOGORO,0000,0000,0000,,the boy or I could've eaten it.
+Dialogue: 0,0:18:17.12,0:18:21.16,DCMain,KOGORO,0000,0000,0000,,There would be no guarantee \Nyou would choke on it.
+Dialogue: 0,0:18:21.78,0:18:26.01,DCMain,KOGORO,0000,0000,0000,,The only certain way to choke \Nyou would be to put it in
+Dialogue: 0,0:18:26.01,0:18:30.67,DCMain,KOGORO,0000,0000,0000,,just before you served yourself.
+Dialogue: 0,0:18:33.10,0:18:36.43,DCMain,KOGORO,0000,0000,0000,,However, this presents a fundamental problem.
+Dialogue: 0,0:18:36.90,0:18:40.83,DCMain,KOGORO,0000,0000,0000,,Would you not notice a cabbage core
+Dialogue: 0,0:18:40.83,0:18:44.74,DCMain,KOGORO,0000,0000,0000,,falling into the bit of \Nmonja you were about to eat?
+Dialogue: 0,0:18:46.69,0:18:52.91,DCMain,KOGORO,0000,0000,0000,,In other words, the four \Nof you worked together
+Dialogue: 0,0:18:52.91,0:18:55.19,DCMain,KOGORO,0000,0000,0000,,to cause a commotion by \Ninvolving me and the police.
+Dialogue: 0,0:18:56.95,0:18:59.41,DCMain,KOGORO,0000,0000,0000,,It was all a lie.
+Dialogue: 0,0:19:01.14,0:19:02.70,DCMain,CONAN,0000,0000,0000,,She's not even here.
+Dialogue: 0,0:19:06.53,0:19:11.35,DCItalic,CONAN,0000,0000,0000,,Does that mean she didn't \Nlisten to any of my reasoning?
+Dialogue: 0,0:19:21.60,0:19:23.22,DCItalic,CONAN,0000,0000,0000,,I knew they'd be here.
+Dialogue: 0,0:19:25.97,0:19:31.06,DCMain,TOYOKO,0000,0000,0000,,If the great detective Mori Kogoro and the \NMPD get involved in the investigation...
+Dialogue: 0,0:19:31.06,0:19:34.23,DCMain,EIKO,0000,0000,0000,,It'll be a huge story! \NThe media will swoop in!
+Dialogue: 0,0:19:34.55,0:19:39.30,DCMain,YUKO,0000,0000,0000,,Then everyone will be talking \Nabout the Tokyo Barls Collection!
+Dialogue: 0,0:19:39.30,0:19:42.49,DCMain,KYOKO,0000,0000,0000,,But won't we be arrested?
+Dialogue: 0,0:19:42.49,0:19:44.24,DCMain,YUKO,0000,0000,0000,,We'll cross that bridge when we get there.
+Dialogue: 0,0:19:44.47,0:19:47.74,DCMain,TOYOKO,0000,0000,0000,,Should we make a public apology then?
+Dialogue: 0,0:19:47.74,0:19:50.72,DCMain,EIKO,0000,0000,0000,,Then even more people \Nwill be talking about us.
+Dialogue: 0,0:19:50.72,0:19:53.25,DCMain,ALL,0000,0000,0000,,The Barls Collection is \Nguaranteed to be a success!
+Dialogue: 0,0:19:53.50,0:19:56.02,DCMain,KYOKO,0000,0000,0000,,Maybe we'll be invited to appear on TV.
+Dialogue: 0,0:19:56.02,0:19:58.50,DCMain,YUKO,0000,0000,0000,,And interviewed by handsome men.
+Dialogue: 0,0:19:58.50,0:20:01.36,DCMain,EIKO,0000,0000,0000,,That would really get people talking.
+Dialogue: 0,0:20:01.36,0:20:04.74,DCMain,ALL,0000,0000,0000,,The Barls Collection is \Nguaranteed to be a success!
+Dialogue: 0,0:20:11.01,0:20:12.45,DCItalic,CONAN,0000,0000,0000,,Well, whatever.
+Dialogue: 0,0:20:13.52,0:20:16.02,Restaurant4,SIGN,0000,0000,0000,,Toyoko's Restaurant
+Dialogue: 0,0:20:18.56,0:20:21.03,DCMain,KOGORO,0000,0000,0000,,Hello, Inspector?
+Dialogue: 0,0:20:21.37,0:20:25.79,DCMain,KOGORO,0000,0000,0000,,I'm sorry, but there's something \NI'd like to discuss with you.
+Dialogue: 0,0:20:26.43,0:20:30.53,DCItalic,CONAN,0000,0000,0000,,Uh, oh. He got a hold of Inspector Megure.
+Dialogue: 0,0:21:53.95,0:21:56.96,Restaurant5,SIGN,0000,0000,0000,,Toyoko's Restaurant
+Dialogue: 0,0:22:13.52,0:22:18.11,DCMain,TOYOKO,0000,0000,0000,,We just wanted to cheer \Nup all the elderly people
+Dialogue: 0,0:22:18.11,0:22:21.34,DCMain,TOYOKO,0000,0000,0000,,around the country who are our age.
+Dialogue: 0,0:22:21.34,0:22:27.42,DCMain,TOYOKO,0000,0000,0000,,We're terribly sorry for the \Ninconvenience our carelessness caused.
+Dialogue: 0,0:22:28.93,0:22:31.69,DCMain,ALL,0000,0000,0000,,We're sorry.
+Dialogue: 0,0:22:44.75,0:22:46.76,Hashtag,SIGN,0000,0000,0000,,#tokyobarlscollection
+Dialogue: 0,0:22:44.75,0:22:46.76,Likes,SIGN,0000,0000,0000,,Likes
+Dialogue: 0,0:23:13.23,0:23:17.68,DCItalic,CONAN,0000,0000,0000,,No one stands a chance against \Nthe Bufu'usu of Tsukishima.
+Dialogue: 0,0:23:17.68,0:23:20.75,DCMain,KOGORO,0000,0000,0000,,Hey, kid. What are you doing? Let's go.
+Dialogue: 0,0:23:20.92,0:23:22.06,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:23:22.46,0:23:25.53,DCMain,KOGORO,0000,0000,0000,,What's wrong with those women?
+Dialogue: 0,0:23:25.53,0:23:29.22,DCMain,CONAN,0000,0000,0000,,But it ended well, right? \NIt'll cheer up some old women.
+Dialogue: 0,0:23:29.22,0:23:31.63,DCMain,CONAN,0000,0000,0000,,And besides, didn't you get paid?
+Dialogue: 0,0:23:31.63,0:23:36.00,DCMain,KOGORO,0000,0000,0000,,Paid? There were just free \Nmonja coupons in that envelope.
+Dialogue: 0,0:23:36.00,0:23:37.79,DCMain,CONAN,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:23:38.84,0:23:42.48,DCMain,ALL,0000,0000,0000,,The Tokyo Barls Collection is \Nguaranteed to be a success!
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.34,0:23:47.94,DCMain,KAWA,0000,0000,0000,,Smile, Kagura. Look happy.
+Dialogue: 0,0:23:48.17,0:23:51.95,DCMain,KAGURA,0000,0000,0000,,I'll earn more likes for you.
+Dialogue: 0,0:23:52.50,0:23:57.27,DCMain,KAWA,0000,0000,0000,,Kagura suffered collateral \Ndamage about half a month ago.
+Dialogue: 0,0:23:57.27,0:23:57.87,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:23:58.24,0:24:00.54,DCMain,CONAN,0000,0000,0000,,This can't be a coincidence.
+Dialogue: 0,0:24:00.78,0:24:01.56,DCMain,GENTA,0000,0000,0000,,What?
+Dialogue: 0,0:24:01.56,0:24:03.17,DCMain,MITSUHIKO,0000,0000,0000,,Conan-kun, could it be?
+Dialogue: 0,0:24:05.23,0:24:08.15,DCMain,OTSUBO,0000,0000,0000,,I'll expose everything!
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,TEXT,0000,0000,0000,,The Cost of Likes \N(Part One)
+Dialogue: 0,0:24:09.63,0:24:14.10,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The \NCost of Likes, Part One!"
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,SIGN,0000,0000,0000,,SNS
+Dialogue: 0,0:24:29.98,0:24:34.91,Vacation,SIGN,0000,0000,0000,,#summervacationstartstoday!
+Dialogue: 0,0:24:30.45,0:24:33.11,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint.
+Dialogue: 0,0:24:33.11,0:24:34.91,DCMain,CONAN,0000,0000,0000,,Social networking service!
+Dialogue: 0,0:24:34.91,0:24:36.76,DCMain,KOGORO,0000,0000,0000,,{\an8}We'd be the Moe of Beika!
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,TEXT,0000,0000,0000,,Don's miss the next episode.
+Dialogue: 0,0:24:36.76,0:24:39.59,DCMain,CONAN,0000,0000,0000,,{\an8}I doubt anyone would hire the Moe Detectives.

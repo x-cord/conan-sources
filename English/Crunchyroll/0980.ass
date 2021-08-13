@@ -1,0 +1,434 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0033,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Tatsumi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H008B597C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0110,0020,0065,0
+Style: Planning,Times New Roman,22,&H00212925,&H000000FF,&H00A6B1AA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Misao,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H008C1F5C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0035,0065,0
+Style: BookTitles,Trebuchet MS,18,&H00130C18,&H000000FF,&H00EBEEE8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: PlotIdeas,Trebuchet MS,18,&H00131719,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Poject980,Times New Roman,18,&H00191823,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Industries,Trebuchet MS,18,&H005B5C32,&H000000FF,&H00959DA8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: GasDensity,Trebuchet MS,16,&H0072987A,&H000000FF,&H00BFE1CE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0220,0100,0
+Style: Explosion,Trebuchet MS,22,&H00435148,&H000000FF,&H00B0D6C3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Events,Trebuchet MS,16,&H00414141,&H000000FF,&H00FEFFFC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0010,0
+Style: Explosion2,Trebuchet MS,16,&H0072987A,&H000000FF,&H00BFE1CE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0250,0020,0160,0
+Style: Prison,Times New Roman,18,&H00A3ABB5,&H000000FF,&H00535060,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0027,0070,0
+Style: Bocchan,Trebuchet MS,20,&H0053B0C8,&H000000FF,&H00416556,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Crime,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0020,0020,0020,1
+Style: Solved,Trebuchet MS,24,&H003940A8,&H000000FF,&H00090909,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0040,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,SIGN,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 980 "An \NEncouragement of the Perfect Crime"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,SATO,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:05.63,0:00:06.98,DCMain,HAMANAKA,0000,0000,0000,,Welcome.
+Dialogue: 0,0:00:07.26,0:00:10.48,DCMain,HAMANAKA,0000,0000,0000,,This is the only place \Nthat can grant your wish.
+Dialogue: 0,0:00:11.71,0:00:12.79,DCMain,WADA,0000,0000,0000,,Oh, yeah?
+Dialogue: 0,0:00:13.57,0:00:16.03,Tatsumi,TEXT,0000,0000,0000,,{\fad(250,1)}Wada Tatsumi (39) \NUnemployed
+Dialogue: 0,0:00:13.69,0:00:16.03,DCMain,WADA,0000,0000,0000,,{\an8}My wish, huh?
+Dialogue: 0,0:00:16.54,0:00:19.48,DCMain,HAMANAKA,0000,0000,0000,,Surely you came here because you knew that.
+Dialogue: 0,0:00:19.48,0:00:21.71,DCMain,HAMANAKA,0000,0000,0000,,You simply have to believe.
+Dialogue: 0,0:00:21.71,0:00:24.29,DCMain,HAMANAKA,0000,0000,0000,,As long as you follow my instructions...
+Dialogue: 0,0:00:24.58,0:00:29.42,DCMain,WADA,0000,0000,0000,,I'll commit the perfect crime, right?
+Dialogue: 0,0:00:29.72,0:00:35.22,DCMain,HAMANAKA,0000,0000,0000,,Exactly. I'm like a modern \Nday Professor Moriarty.
+Dialogue: 0,0:00:35.22,0:00:41.43,DCMain,HAMANAKA,0000,0000,0000,,Providing people like you with \Nthe perfect crime is my job.
+Dialogue: 0,0:00:41.63,0:00:43.18,DCMain,WADA,0000,0000,0000,,I see...
+Dialogue: 0,0:00:50.98,0:00:52.59,DCMain,CONAN,0000,0000,0000,,The rhythm on my lips is footloose!
+Dialogue: 0,0:00:52.59,0:00:54.28,DCMain,CONAN,0000,0000,0000,,The rhythm of my detective \Nskills is perfect!
+Dialogue: 0,0:00:54.28,0:00:56.41,DCMain,CONAN,0000,0000,0000,,A world-famous planned crime!
+Dialogue: 0,0:00:56.41,0:00:58.17,DCMain,CONAN,0000,0000,0000,,The old man is selected for \Nan undercover operation!
+Dialogue: 0,0:00:58.17,0:00:59.78,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:59.78,0:01:01.63,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:01.63,0:01:04.00,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:42.01,0:02:48.03,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(402,1)}An Encouragement of the Perfect Crime
+Dialogue: 0,0:02:42.85,0:02:45.42,DCMain,CONAN,0000,0000,0000,,"An Encouragement of the Perfect Crime!"
+Dialogue: 0,0:02:48.98,0:02:51.02,DCMain,TAKAGI,0000,0000,0000,,Yes, that's correct.
+Dialogue: 0,0:02:49.02,0:02:51.02,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:02:51.28,0:02:55.52,DCMain,SATO,0000,0000,0000,,Several strange cases have \Noccurred in the city recently.
+Dialogue: 0,0:02:55.86,0:02:58.57,DCMain,KOGORO,0000,0000,0000,,I see. What's this?
+Dialogue: 0,0:02:58.57,0:03:02.36,DCMain,KOGORO,0000,0000,0000,,Marriage fraud, bank robbery, and burglary.
+Dialogue: 0,0:03:02.57,0:03:08.06,DCMain,TAKAGI,0000,0000,0000,,Though they seem unrelated at first, \Nthese cases have something in common.
+Dialogue: 0,0:03:08.53,0:03:10.16,DCMain,SATO,0000,0000,0000,,Take a look at these notes.
+Dialogue: 0,0:03:11.48,0:03:12.56,DCMain,KOGORO,0000,0000,0000,,What's this?
+Dialogue: 0,0:03:12.99,0:03:15.67,DCMain,CONAN,0000,0000,0000,,They look like instruction \Nmanuals for crimes.
+Dialogue: 0,0:03:16.13,0:03:18.72,DCMain,SATO,0000,0000,0000,,According to the arrested culprits,
+Dialogue: 0,0:03:18.72,0:03:23.93,DCMain,SATO,0000,0000,0000,,they purchased the plans from a man \Ncalling himself a criminal adviser.
+Dialogue: 0,0:03:24.14,0:03:28.56,DCMain,KOGORO,0000,0000,0000,,That's what's thriving in the underworld now?
+Dialogue: 0,0:03:28.81,0:03:34.15,DCMain,SATO,0000,0000,0000,,Said criminal adviser is a vigilant man.
+Dialogue: 0,0:03:34.15,0:03:37.67,DCMain,SATO,0000,0000,0000,,We only recently determined his location.
+Dialogue: 0,0:03:37.67,0:03:41.32,DCMain,TAKAGI,0000,0000,0000,,So we have a request for you.
+Dialogue: 0,0:03:41.54,0:03:43.31,DCMain,KOGORO,0000,0000,0000,,What is it? Spit it out.
+Dialogue: 0,0:03:44.91,0:03:46.40,DCMain,KOGORO,0000,0000,0000,,An undercover operation, huh?
+Dialogue: 0,0:03:47.30,0:03:50.58,DCMain,TAKAGI,0000,0000,0000,,You'd be more like an adviser.
+Dialogue: 0,0:03:50.89,0:03:56.59,DCMain,TAKAGI,0000,0000,0000,,Since it's a special case, we'd \Nappreciate it if you joined us.
+Dialogue: 0,0:03:57.02,0:03:58.44,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:03:58.44,0:04:02.51,DCMain,KOGORO,0000,0000,0000,,It takes a talented adviser \Nto take down an adviser.
+Dialogue: 0,0:04:02.81,0:04:05.55,DCItalic,CONAN,0000,0000,0000,,I hope he's got some decent advice to give.
+Dialogue: 0,0:04:05.79,0:04:08.75,DCMain,KOGORO,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:04:08.75,0:04:14.40,DCMain,CONAN,0000,0000,0000,,Since it's an undercover case, I thought \Nwe'd seem less like cops with me around.
+Dialogue: 0,0:04:14.65,0:04:18.07,DCMain,KOGORO,0000,0000,0000,,What kind of criminal \Nbrings a child with him?
+Dialogue: 0,0:04:18.49,0:04:20.62,DCMain,SATO,0000,0000,0000,,Why not let him come, Mori-san?
+Dialogue: 0,0:04:20.62,0:04:24.07,DCMain,SATO,0000,0000,0000,,When Conan-kun's around, the investigation \Nalways seems to go mysteriously well.
+Dialogue: 0,0:04:28.30,0:04:30.33,DCMain,KOGORO,0000,0000,0000,,His office is in there?
+Dialogue: 0,0:04:30.74,0:04:33.12,DCMain,TAKAGI,0000,0000,0000,,Yes, definitely.
+Dialogue: 0,0:04:33.12,0:04:34.29,DCMain,SATO,0000,0000,0000,,Let's go.
+Dialogue: 0,0:04:34.29,0:04:37.20,DCMain,TAKAGI,0000,0000,0000,,Yes, ma'am. Mori-san, \Nwe appreciate your help.
+Dialogue: 0,0:04:38.34,0:04:41.34,Planning,SIGN,0000,0000,0000,,Hamanaka Planning
+Dialogue: 0,0:04:38.92,0:04:41.34,DCMain,SATO,0000,0000,0000,,My name is Sato. I made an \Nappointment the other day.
+Dialogue: 0,0:04:42.10,0:04:43.54,DCMain,HAMANAKA,0000,0000,0000,,Welcome.
+Dialogue: 0,0:04:44.12,0:04:47.85,DCMain,HAMANAKA,0000,0000,0000,,This is the only place \Nthat can grant your wish.
+Dialogue: 0,0:04:48.09,0:04:49.85,DCMain,TAKAGI,0000,0000,0000,,You're the one we've heard about?
+Dialogue: 0,0:04:50.15,0:04:51.18,DCMain,HAMANAKA,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:52.93,0:04:57.42,DCMain,HAMANAKA,0000,0000,0000,,I am the modern day Professor James Moriarty.
+Dialogue: 0,0:04:57.42,0:05:01.11,DCMain,HAMANAKA,0000,0000,0000,,{\an8}I am Hamanaka Misao, criminal adviser.
+Dialogue: 0,0:04:58.48,0:05:01.11,Misao,TEXT,0000,0000,0000,,{\fad(250,1)}Hamanaka Misao (57) \NCriminal Adviser
+Dialogue: 0,0:05:01.36,0:05:05.11,DCMain,SATO,0000,0000,0000,,What does a criminal adviser do?
+Dialogue: 0,0:05:05.28,0:05:07.89,DCMain,HAMANAKA,0000,0000,0000,,You're asking that now?
+Dialogue: 0,0:05:07.89,0:05:11.12,DCMain,HAMANAKA,0000,0000,0000,,Isn't that what you're looking for?
+Dialogue: 0,0:05:11.12,0:05:14.62,BookTitles,SIGN,0000,0000,0000,,Perfect Crime Manual - Showa Criminal History - Heisei Criminal History - Criminal Chronology - Japan's Unsolved Cases
+Dialogue: 0,0:05:11.63,0:05:14.62,DCMain,HAMANAKA,0000,0000,0000,,In this office are all \Ndocuments related to crime,
+Dialogue: 0,0:05:14.81,0:05:18.87,DCMain,HAMANAKA,0000,0000,0000,,and all the tools you need to carry one out.
+Dialogue: 0,0:05:19.28,0:05:23.47,DCMain,HAMANAKA,0000,0000,0000,,In other words, as long as \Nyou follow my instructions,
+Dialogue: 0,0:05:23.47,0:05:26.63,DCMain,HAMANAKA,0000,0000,0000,,you will be able to commit the perfect crime.
+Dialogue: 0,0:05:26.96,0:05:27.92,DCMain,HAMANAKA,0000,0000,0000,,What?
+Dialogue: 0,0:05:27.92,0:05:33.02,DCMain,HAMANAKA,0000,0000,0000,,Aren't you the famous detective Mori Kogoro?
+Dialogue: 0,0:05:33.02,0:05:36.77,DCMain,HAMANAKA,0000,0000,0000,,Which means yours companions must be,
+Dialogue: 0,0:05:36.77,0:05:41.27,DCMain,HAMANAKA,0000,0000,0000,,judging by their appearance, police officers.
+Dialogue: 0,0:05:41.46,0:05:43.40,DCItalic,CONAN,0000,0000,0000,,Of course he figured it out.
+Dialogue: 0,0:05:43.91,0:05:47.57,DCMain,SATO,0000,0000,0000,,Hamanaka-san, could we speak with you?
+Dialogue: 0,0:05:48.90,0:05:49.95,DCMain,HAMANAKA,0000,0000,0000,,Very well.
+Dialogue: 0,0:05:50.40,0:05:55.76,DCMain,HAMANAKA,0000,0000,0000,,I've always wanted to speak \Nwith a detective or the police.
+Dialogue: 0,0:05:56.81,0:06:00.03,DCMain,SATO,0000,0000,0000,,You can start by taking a look \Nat these instruction manuals.
+Dialogue: 0,0:06:00.03,0:06:01.26,DCMain,HAMANAKA,0000,0000,0000,,Let me see.
+Dialogue: 0,0:06:01.89,0:06:04.71,DCMain,HAMANAKA,0000,0000,0000,,I did indeed write these.
+Dialogue: 0,0:06:04.86,0:06:07.22,DCMain,TAKAGI,0000,0000,0000,,What? You admit it?
+Dialogue: 0,0:06:07.39,0:06:10.25,DCMain,HAMANAKA,0000,0000,0000,,What point is there in lying about that?
+Dialogue: 0,0:06:10.25,0:06:12.70,DCMain,HAMANAKA,0000,0000,0000,,I produced all of these.
+Dialogue: 0,0:06:12.70,0:06:16.37,DCMain,HAMANAKA,0000,0000,0000,,They are undeniably blueprints \Nfor crimes written by me.
+Dialogue: 0,0:06:16.37,0:06:19.23,DCMain,HAMANAKA,0000,0000,0000,,Plots for novels.
+Dialogue: 0,0:06:19.46,0:06:21.23,DCMain,SATO,0000,0000,0000,,Plots for novels?
+Dialogue: 0,0:06:21.39,0:06:25.73,DCMain,CONAN,0000,0000,0000,,Plots are like the plan for \Na novel or play, right?
+Dialogue: 0,0:06:25.91,0:06:31.40,DCMain,TAKAGI,0000,0000,0000,,Yeah. They're like a summary \Nor framework of a story.
+Dialogue: 0,0:06:31.40,0:06:32.41,DCMain,SATO,0000,0000,0000,,You mean...
+Dialogue: 0,0:06:32.71,0:06:34.58,DCMain,KOGORO,0000,0000,0000,,A plan for a crime.
+Dialogue: 0,0:06:34.58,0:06:39.46,DCMain,HAMANAKA,0000,0000,0000,,Indeed. I sell those plots.
+Dialogue: 0,0:06:39.46,0:06:42.08,DCMain,HAMANAKA,0000,0000,0000,,Primarily plots for crime novels.
+Dialogue: 0,0:06:43.45,0:06:44.45,DCMain,TAKAGI,0000,0000,0000,,What's this?
+Dialogue: 0,0:06:44.45,0:06:45.59,DCMain,HAMANAKA,0000,0000,0000,,My price list.
+Dialogue: 0,0:06:45.92,0:06:47.01,DCMain,KOGORO,0000,0000,0000,,Price list?
+Dialogue: 0,0:06:47.25,0:06:50.90,DCMain,HAMANAKA,0000,0000,0000,,I've ranked them according \Nto the nature of the crime.
+Dialogue: 0,0:06:50.90,0:06:53.97,DCMain,HAMANAKA,0000,0000,0000,,My selling point is the variety I offer.
+Dialogue: 0,0:06:53.97,0:06:56.01,DCMain,HAMANAKA,0000,0000,0000,,I offer plots all kinds of crimes.
+Dialogue: 0,0:06:56.22,0:07:00.12,DCMain,CONAN,0000,0000,0000,,Murder, robbery, fraud...
+Dialogue: 0,0:07:00.12,0:07:03.11,DCMain,CONAN,0000,0000,0000,,There's even one called \N"thumbtack in slipper."
+Dialogue: 0,0:07:01.10,0:07:03.11,PlotIdeas,SIGN,0000,0000,0000,,Online Message \NPrank Call \NThumbtack in Slipper
+Dialogue: 0,0:07:03.38,0:07:07.62,DCMain,HAMANAKA,0000,0000,0000,,I offer an exhaustive list of crimes from \Nmurder to light offenses in complete versions,
+Dialogue: 0,0:07:07.62,0:07:12.11,DCMain,HAMANAKA,0000,0000,0000,,simple versions, abridged versions, \Nand first half only versions.
+Dialogue: 0,0:07:12.31,0:07:15.12,DCMain,TAKAGI,0000,0000,0000,,What's a first half only version?
+Dialogue: 0,0:07:15.43,0:07:18.41,DCMain,HAMANAKA,0000,0000,0000,,I'm meeting the needs of my customers.
+Dialogue: 0,0:07:18.41,0:07:23.63,DCMain,HAMANAKA,0000,0000,0000,,Some of them said they wanted my \Nplots but couldn't afford them.
+Dialogue: 0,0:07:24.05,0:07:27.63,DCMain,CONAN,0000,0000,0000,,So why did this person get caught?
+Dialogue: 0,0:07:28.34,0:07:31.55,DCMain,HAMANAKA,0000,0000,0000,,This is a simple version \Nof a bank robbery plot.
+Dialogue: 0,0:07:34.12,0:07:38.93,DCMain,HAMANAKA,0000,0000,0000,,Ah, he made the mistake of \Nnot acquiring a plasma torch.
+Dialogue: 0,0:07:38.93,0:07:42.35,DCMain,HAMANAKA,0000,0000,0000,,He was arrested because he cheaped out \Nand failed to break into the vault.
+Dialogue: 0,0:07:42.72,0:07:44.23,DCMain,SATO,0000,0000,0000,,How about this one?
+Dialogue: 0,0:07:44.67,0:07:49.18,DCMain,HAMANAKA,0000,0000,0000,,This is an abridged version \Nof a purse snatching plot.
+Dialogue: 0,0:07:50.32,0:07:54.49,DCMain,HAMANAKA,0000,0000,0000,,The culprit was simply too fat to run away.
+Dialogue: 0,0:07:54.70,0:07:58.74,DCMain,TAKAGI,0000,0000,0000,,Then what about this first half \Nonly version of a burglary?
+Dialogue: 0,0:07:58.74,0:08:00.50,DCMain,TAKAGI,0000,0000,0000,,They were arrested easily.
+Dialogue: 0,0:08:00.78,0:08:04.16,DCMain,HAMANAKA,0000,0000,0000,,I remember that case well.
+Dialogue: 0,0:08:04.16,0:08:09.27,DCMain,HAMANAKA,0000,0000,0000,,I can't believe they committed a \Nburglary without wearing gloves.
+Dialogue: 0,0:08:09.27,0:08:10.51,DCMain,CONAN,0000,0000,0000,,That's it?
+Dialogue: 0,0:08:11.18,0:08:14.30,DCMain,CONAN,0000,0000,0000,,Sounds like everyone who follows \Nyour plots gets arrested.
+Dialogue: 0,0:08:14.60,0:08:17.42,DCMain,CONAN,0000,0000,0000,,You were lying when you said \Nyou sold perfect crimes.
+Dialogue: 0,0:08:17.42,0:08:19.44,DCMain,HAMANAKA,0000,0000,0000,,Th-That's not true!
+Dialogue: 0,0:08:19.44,0:08:22.10,DCMain,HAMANAKA,0000,0000,0000,,There are plenty of criminals \Nwho haven't been arrested.
+Dialogue: 0,0:08:23.25,0:08:28.48,DCMain,HAMANAKA,0000,0000,0000,,I sold a plot that's been \Nunsolved for several years.
+Dialogue: 0,0:08:28.86,0:08:32.49,DCMain,SATO,0000,0000,0000,,Could you tell us more about that case?
+Dialogue: 0,0:08:33.53,0:08:36.56,DCMain,HAMANAKA,0000,0000,0000,,Unfortunately, I cannot do that.
+Dialogue: 0,0:08:36.56,0:08:40.49,DCMain,HAMANAKA,0000,0000,0000,,I can't just give away my \Ncustomers' information.
+Dialogue: 0,0:08:40.66,0:08:44.25,DCMain,TAKAGI,0000,0000,0000,,Maybe so, but we can't just let it go.
+Dialogue: 0,0:08:44.54,0:08:50.67,DCMain,HAMANAKA,0000,0000,0000,,I wish I could help you, but trust \Nis essential in my business.
+Dialogue: 0,0:08:50.67,0:08:52.42,DCMain,HAMANAKA,0000,0000,0000,,No hard feelings.
+Dialogue: 0,0:08:55.32,0:08:56.86,DCMain,HAMANAKA,0000,0000,0000,,Hold it right there.
+Dialogue: 0,0:08:56.86,0:09:01.83,DCMain,HAMANAKA,0000,0000,0000,,Don't forget that I'm just \Na crime novel adviser.
+Dialogue: 0,0:09:01.83,0:09:04.69,DCMain,HAMANAKA,0000,0000,0000,,I simply sell ideas for novels.
+Dialogue: 0,0:09:04.86,0:09:07.69,DCMain,HAMANAKA,0000,0000,0000,,I'm not committing any crimes.
+Dialogue: 0,0:09:07.88,0:09:09.69,DCMain,HAMANAKA,0000,0000,0000,,You understand that, don't you?
+Dialogue: 0,0:09:09.97,0:09:14.70,DCMain,HAMANAKA,0000,0000,0000,,Furthermore, I don't encourage \Nmy customers to commit crimes.
+Dialogue: 0,0:09:14.90,0:09:20.21,DCMain,HAMANAKA,0000,0000,0000,,The plots laid out on the table \Nare all works of fiction.
+Dialogue: 0,0:09:20.21,0:09:23.13,DCMain,HAMANAKA,0000,0000,0000,,The characters, organizations,
+Dialogue: 0,0:09:23.13,0:09:28.38,DCMain,HAMANAKA,0000,0000,0000,,and names are products of my imagination and \Nbear no relation to actual persons or events.
+Dialogue: 0,0:09:28.38,0:09:29.38,DCMain,KOGORO,0000,0000,0000,,Why, you...
+Dialogue: 0,0:09:29.59,0:09:35.63,DCMain,HAMANAKA,0000,0000,0000,,In other words, the police \Ncan't lay a finger on me.
+Dialogue: 0,0:09:46.63,0:09:47.35,DCMain,HAMANAKA,0000,0000,0000,,What?
+Dialogue: 0,0:09:47.74,0:09:51.61,DCMain,SATO,0000,0000,0000,,Hamanaka Misao, you're \Nunder arrest for abetment.
+Dialogue: 0,0:09:53.66,0:09:59.22,DCMain,SATO,0000,0000,0000,,No matter what you say, your \Nplots are causing actual crimes.
+Dialogue: 0,0:09:59.22,0:10:01.12,DCMain,SATO,0000,0000,0000,,You're guilty of abetment.
+Dialogue: 0,0:10:01.12,0:10:02.99,DCMain,HAMANAKA,0000,0000,0000,,B-But...
+Dialogue: 0,0:10:03.40,0:10:07.51,DCMain,SATO,0000,0000,0000,,Were you working as a criminal \Nadviser without even knowing that?
+Dialogue: 0,0:10:07.51,0:10:08.92,DCMain,HAMANAKA,0000,0000,0000,,Well, I...
+Dialogue: 0,0:10:09.15,0:10:10.54,DCMain,SATO,0000,0000,0000,,Now confess.
+Dialogue: 0,0:10:10.54,0:10:11.17,DCMain,HAMANAKA,0000,0000,0000,,What?
+Dialogue: 0,0:10:11.34,0:10:13.17,DCMain,SATO,0000,0000,0000,,The crimes you're involved it.
+Dialogue: 0,0:10:13.57,0:10:15.80,DCMain,SATO,0000,0000,0000,,Tell us about every last one.
+Dialogue: 0,0:10:15.80,0:10:17.80,DCMain,HAMANAKA,0000,0000,0000,,Y-You can't be serious.
+Dialogue: 0,0:10:17.98,0:10:19.21,DCMain,SATO,0000,0000,0000,,Are you sure?
+Dialogue: 0,0:10:19.21,0:10:22.68,DCMain,SATO,0000,0000,0000,,If you don't cooperate now, you'll regret it.
+Dialogue: 0,0:10:23.64,0:10:26.66,DCMain,SATO,0000,0000,0000,,How you're treated after incarceration, \Ntestimony during the trial,
+Dialogue: 0,0:10:26.66,0:10:28.35,DCMain,SATO,0000,0000,0000,,the impression made during bail hearings...
+Dialogue: 0,0:10:28.92,0:10:33.61,DCMain,SATO,0000,0000,0000,,A lot of things that will shape your \Nlife are about to happen to you.
+Dialogue: 0,0:10:36.17,0:10:40.24,DCMain,KOGORO,0000,0000,0000,,Hey, Takagi. Are you sure \Nyou needed an adviser?
+Dialogue: 0,0:10:40.24,0:10:41.87,DCMain,,0000,0000,0000,,Yeah...
+Dialogue: 0,0:10:42.07,0:10:44.87,DCMain,SATO,0000,0000,0000,,Well? What's it going to be?
+Dialogue: 0,0:10:45.74,0:10:47.37,DCMain,TAKAGI,0000,0000,0000,,Transfer complete.
+Dialogue: 0,0:10:48.01,0:10:50.11,DCMain,SATO,0000,0000,0000,,Roger that. Make a backup.
+Dialogue: 0,0:10:50.11,0:10:50.87,DCMain,TAKAGI,0000,0000,0000,,Got it.
+Dialogue: 0,0:10:51.86,0:10:54.27,DCMain,SATO,0000,0000,0000,,We've obtained information on five cases.
+Dialogue: 0,0:10:54.27,0:10:59.13,DCMain,SATO,0000,0000,0000,,Of those five, three are unsolved, \Nand two are currently in progress.
+Dialogue: 0,0:10:59.46,0:11:03.76,DCMain,SATO,0000,0000,0000,,We found detailed information on \Nthe suspects and their methods.
+Dialogue: 0,0:11:04.01,0:11:07.30,DCItalic,SATO,0000,0000,0000,,Takagi-kun just sent you the data.
+Dialogue: 0,0:11:07.30,0:11:08.65,DCMain,MEGURE,0000,0000,0000,,Got it.
+Dialogue: 0,0:11:08.65,0:11:13.02,DCMain,MEGURE,0000,0000,0000,,We've received strong information \Nrelating to a number of unsolved cases!
+Dialogue: 0,0:11:13.02,0:11:15.43,DCMain,MEGURE,0000,0000,0000,,This is a rare opportunity for us!
+Dialogue: 0,0:11:15.43,0:11:19.03,DCMain,MEGURE,0000,0000,0000,,Call on all officers and \Narrest all the suspects!
+Dialogue: 0,0:11:19.40,0:11:21.44,DCMain,MEGURE,0000,0000,0000,,Have everyone head to the scene!
+Dialogue: 0,0:11:21.44,0:11:22.03,DCMain,ALL,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:11:27.93,0:11:28.70,DCMain,POLICE,0000,0000,0000,,Don't move!
+Dialogue: 0,0:11:29.02,0:11:30.25,DCMain,CRIMINAL,0000,0000,0000,,Who are you?
+Dialogue: 0,0:11:30.52,0:11:32.67,DCMain,POLICE,0000,0000,0000,,Suspects confirmed! Arrest them!
+Dialogue: 0,0:11:33.06,0:11:34.42,DCMain,POLICE,0000,0000,0000,,Suspect arrested!
+Dialogue: 0,0:11:34.42,0:11:37.17,Crime,SIGN,0000,0000,0000,,{\fad(750,1)}Hoshio-chan's Kidnapping and Hostage Case
+Dialogue: 0,0:11:35.92,0:11:37.17,Solved,SIGN,0000,0000,0000,,{\fad(125,1)}Solved
+Dialogue: 0,0:11:37.67,0:11:39.17,DCMain,POLICE,0000,0000,0000,,Suspect arrested!
+Dialogue: 0,0:11:39.17,0:11:41.93,Crime,SIGN,0000,0000,0000,,{\fad(750,1)}Takarazuka's Treasure Murder Case
+Dialogue: 0,0:11:40.67,0:11:41.93,Solved,SIGN,0000,0000,0000,,{\fad(125,1)}Solved
+Dialogue: 0,0:11:42.57,0:11:43.56,DCMain,POLICE,0000,0000,0000,,Suspect arrested!
+Dialogue: 0,0:11:43.93,0:11:46.68,Crime,SIGN,0000,0000,0000,,{\fad(750,1)}Case of the Lop-Eared Rabbit's Walk
+Dialogue: 0,0:11:45.43,0:11:46.68,Solved,SIGN,0000,0000,0000,,{\fad(125,1)}Solved
+Dialogue: 0,0:11:47.47,0:11:48.68,DCMain,POLICE,0000,0000,0000,,Suspect arrested!
+Dialogue: 0,0:11:48.68,0:11:51.44,Crime,SIGN,0000,0000,0000,,{\fad(750,1)}Attempted Rock N' Roller Cosplay Case
+Dialogue: 0,0:11:50.18,0:11:51.44,Solved,SIGN,0000,0000,0000,,{\fad(125,1)}Solved
+Dialogue: 0,0:11:51.64,0:11:52.53,DCMain,MEGURE,0000,0000,0000,,All right!
+Dialogue: 0,0:11:53.40,0:11:55.56,DCMain,ALL,0000,0000,0000,,Only one case remains!
+Dialogue: 0,0:11:55.56,0:11:59.07,Poject980,SIGN,0000,0000,0000,,Project No. 980 \NIshigami Takashi's Revenge Plan \NHamanaka Planning
+Dialogue: 0,0:11:56.38,0:11:59.07,DCMain,TAKAGI,0000,0000,0000,,Ishigami Takashi's Revenge Plan.
+Dialogue: 0,0:11:59.58,0:12:03.57,DCMain,TAKAGI,0000,0000,0000,,The suspect's name is Wada Tatsumi, \Nforty-eight years old, single.
+Dialogue: 0,0:12:03.94,0:12:06.61,DCMain,TAKAGI,0000,0000,0000,,He has three previous offenses \Nand is currently unemployed.
+Dialogue: 0,0:12:06.61,0:12:09.20,DCMain,TAKAGI,0000,0000,0000,,He was just recently released from prison.
+Dialogue: 0,0:12:09.51,0:12:12.50,DCMain,SATO,0000,0000,0000,,The scheduled time of his \Ncrime is today at 4 PM.
+Dialogue: 0,0:12:12.50,0:12:16.08,DCMain,SATO,0000,0000,0000,,Since it's just after three now, \Nwe don't have much time left.
+Dialogue: 0,0:12:16.59,0:12:19.80,DCMain,CONAN,0000,0000,0000,,The plot is a complete version of a murder.
+Dialogue: 0,0:12:19.80,0:12:25.53,DCMain,CONAN,0000,0000,0000,,The method is to use an odorless \Ngas to blow up an entire building.
+Dialogue: 0,0:12:25.53,0:12:27.22,DCMain,KOGORO,0000,0000,0000,,A gas explosion?
+Dialogue: 0,0:12:27.88,0:12:31.22,DCItalic,CONAN,0000,0000,0000,,There's even a blueprint \Nshowing a remote detonator.
+Dialogue: 0,0:12:31.82,0:12:34.42,DCItalic,CONAN,0000,0000,0000,,Does he plan to blow up the evidence, too?
+Dialogue: 0,0:12:34.42,0:12:40.19,DCMain,HAMANAKA,0000,0000,0000,,Ishigami Takashi was Wada's superior at \Na company he worked for ten years ago.
+Dialogue: 0,0:12:40.19,0:12:43.99,DCMain,HAMANAKA,0000,0000,0000,,Apparently he believed he was \Nresponsible for Wada's firing.
+Dialogue: 0,0:12:44.33,0:12:49.24,DCMain,SATO,0000,0000,0000,,The police are already heading to the \Nsuspect's house and the target's office.
+Dialogue: 0,0:12:49.93,0:12:52.24,DCMain,SATO,0000,0000,0000,,The case should be resolved soon.
+Dialogue: 0,0:12:54.06,0:12:55.12,DCMain,POLICE,0000,0000,0000,,Police!
+Dialogue: 0,0:12:58.75,0:12:59.95,DCMain,MEGURE,0000,0000,0000,,What?!
+Dialogue: 0,0:12:59.95,0:13:03.20,DCItalic,POLICE,0000,0000,0000,,Wada's apartment is empty. \NThe suspect isn't here.
+Dialogue: 0,0:13:03.20,0:13:06.18,DCMain,MEGURE,0000,0000,0000,,Damn! Keep an eye on the area.
+Dialogue: 0,0:13:06.18,0:13:07.93,Industries,SIGN,0000,0000,0000,,Ishigami Industries
+Dialogue: 0,0:13:06.91,0:13:07.93,DCItalic,MEGURE,0000,0000,0000,,How are things over there?
+Dialogue: 0,0:13:08.40,0:13:11.40,DCMain,CHIBA,0000,0000,0000,,We haven't seen the suspect.
+Dialogue: 0,0:13:11.40,0:13:16.85,DCMain,CHIBA,0000,0000,0000,,We've secured the alleged target Ishigami-san, \Nbut there hasn't been any unusual activity.
+Dialogue: 0,0:13:17.19,0:13:21.48,DCMain,MEGURE,0000,0000,0000,,The suspect Wada is attempting \Nto cause a gas explosion.
+Dialogue: 0,0:13:21.48,0:13:25.30,DCItalic,MEGURE,0000,0000,0000,,Search every nook and cranny \Nfor hidden gas cylinders.
+Dialogue: 0,0:13:25.30,0:13:26.24,DCMain,CHIBA,0000,0000,0000,,Got it.
+Dialogue: 0,0:13:28.04,0:13:29.66,DCItalic,MEGURE,0000,0000,0000,,3:30 already.
+Dialogue: 0,0:13:30.17,0:13:34.66,DCItalic,MEGURE,0000,0000,0000,,According to the plot, a lot of people \Nwill get caught up in the explosion.
+Dialogue: 0,0:13:34.92,0:13:37.63,DCItalic,MEGURE,0000,0000,0000,,We must do whatever it takes \Nto stop the explosion.
+Dialogue: 0,0:13:38.81,0:13:40.42,DCMain,SATO,0000,0000,0000,,Got it.
+Dialogue: 0,0:13:41.07,0:13:45.42,DCMain,SATO,0000,0000,0000,,Nothing was found at \NIshigami-san's workplace.
+Dialogue: 0,0:13:45.75,0:13:47.43,DCMain,KOGORO,0000,0000,0000,,What's going on?
+Dialogue: 0,0:13:48.09,0:13:51.23,DCMain,TAKAGI,0000,0000,0000,,Maybe he's not carrying out his plan yet?
+Dialogue: 0,0:13:51.23,0:13:52.93,DCMain,SATO,0000,0000,0000,,The scheduled date is today.
+Dialogue: 0,0:13:53.40,0:13:56.77,DCMain,SATO,0000,0000,0000,,On top of that, we haven't \Ndetermined the suspect's location.
+Dialogue: 0,0:13:57.28,0:14:00.44,DCMain,SATO,0000,0000,0000,,I don't think we should be optimistic.
+Dialogue: 0,0:14:00.93,0:14:04.69,DCItalic,CONAN,0000,0000,0000,,Where is it? Where is the detonator?
+Dialogue: 0,0:14:14.04,0:14:17.04,GasDensity,SIGN,0000,0000,0000,,Gas Density
+Dialogue: 0,0:14:24.55,0:14:26.05,DCMain,SATO,0000,0000,0000,,We're running out of time.
+Dialogue: 0,0:14:26.20,0:14:29.30,DCMain,SATO,0000,0000,0000,,We need to find clues from here quickly.
+Dialogue: 0,0:14:29.47,0:14:34.57,DCMain,HAMANAKA,0000,0000,0000,,I told you, as long as my customers \Nfollow my instructions,
+Dialogue: 0,0:14:34.57,0:14:37.18,DCMain,HAMANAKA,0000,0000,0000,,they can commit the perfect crime.
+Dialogue: 0,0:14:37.75,0:14:41.25,DCMain,SATO,0000,0000,0000,,Remember! What did you and Wada discuss?
+Dialogue: 0,0:14:41.25,0:14:42.53,DCMain,HAMANAKA,0000,0000,0000,,What did we discuss?
+Dialogue: 0,0:14:42.53,0:14:45.46,DCMain,SATO,0000,0000,0000,,Tell me every last word \Nthat was said. Got it?
+Dialogue: 0,0:14:45.46,0:14:51.37,DCMain,HAMANAKA,0000,0000,0000,,A-All right, but I did most of the talking.
+Dialogue: 0,0:14:51.37,0:14:53.37,DCMain,SATO,0000,0000,0000,,Was there anything about him that seemed odd?
+Dialogue: 0,0:14:53.37,0:14:55.27,DCMain,HAMANAKA,0000,0000,0000,,Odd?
+Dialogue: 0,0:14:55.27,0:14:56.95,DCMain,HAMANAKA,0000,0000,0000,,Come to think of it...
+Dialogue: 0,0:14:57.47,0:15:00.22,DCItalic,HAMANAKA,0000,0000,0000,,Surely you came here because you knew that.
+Dialogue: 0,0:15:00.22,0:15:02.80,DCItalic,HAMANAKA,0000,0000,0000,,You simply have to believe.
+Dialogue: 0,0:15:02.80,0:15:05.21,DCItalic,HAMANAKA,0000,0000,0000,,As long as you follow my instructions...
+Dialogue: 0,0:15:05.69,0:15:10.34,DCItalic,WADA,0000,0000,0000,,I'll commit the perfect crime, right?
+Dialogue: 0,0:15:10.67,0:15:14.28,DCMain,HAMANAKA,0000,0000,0000,,For some reason he knew my catchphrase.
+Dialogue: 0,0:15:14.28,0:15:16.82,DCMain,KOGORO,0000,0000,0000,,He came to buy one of your plots.
+Dialogue: 0,0:15:16.82,0:15:19.31,DCMain,KOGORO,0000,0000,0000,,It's not that odd that he knew.
+Dialogue: 0,0:15:19.31,0:15:21.85,DCMain,HAMANAKA,0000,0000,0000,,I suppose not.
+Dialogue: 0,0:15:22.25,0:15:28.22,DCMain,HAMANAKA,0000,0000,0000,,Oh, right. He said he wanted the detonation \Nto be controlled remotely instead of automatic.
+Dialogue: 0,0:15:28.22,0:15:31.86,DCMain,TAKAGI,0000,0000,0000,,Perhaps he wants to deal \Nthe killing blow himself.
+Dialogue: 0,0:15:32.13,0:15:35.37,DCMain,SATO,0000,0000,0000,,Does he hate his target that much?
+Dialogue: 0,0:15:35.87,0:15:37.87,DCMain,TAKAGI,0000,0000,0000,,I believe so.
+Dialogue: 0,0:15:39.87,0:15:41.87,GasDensity,SIGN,0000,0000,0000,,Gas Density
+Dialogue: 0,0:15:42.41,0:15:46.71,DCMain,SATO,0000,0000,0000,,Wada clearly stated that his \Ntarget was Ishigami-san, right?
+Dialogue: 0,0:15:46.96,0:15:48.65,DCMain,HAMANAKA,0000,0000,0000,,Yes.
+Dialogue: 0,0:15:48.65,0:15:52.01,DCMain,HAMANAKA,0000,0000,0000,,I write my plots after listening \Nto my customers' requests.
+Dialogue: 0,0:15:52.28,0:15:56.35,DCMain,TAKAGI,0000,0000,0000,,Then Ishigami-san is definitely his target.
+Dialogue: 0,0:15:56.35,0:16:01.80,DCMain,TAKAGI,0000,0000,0000,,Isn't guarding the target and waiting for \Nthe suspect to arrive our best option?
+Dialogue: 0,0:16:02.30,0:16:06.78,DCItalic,CONAN,0000,0000,0000,,Detective Takagi is right, \Nbut something's off...
+Dialogue: 0,0:16:07.99,0:16:09.60,DCItalic,CONAN,0000,0000,0000,,Well, I guess I've got to do it.
+Dialogue: 0,0:16:17.77,0:16:20.29,DCMain,KOGORO,0000,0000,0000,,No forewarning again...
+Dialogue: 0,0:16:20.29,0:16:21.79,DCMain,TAKAGI,0000,0000,0000,,Th-This is...
+Dialogue: 0,0:16:22.06,0:16:23.29,DCMain,SATO,0000,0000,0000,,The Sleeping Kogoro.
+Dialogue: 0,0:16:23.75,0:16:27.04,DCMain,KOGORO,0000,0000,0000,,I have a few questions for you.
+Dialogue: 0,0:16:29.05,0:16:31.05,GasDensity,SIGN,0000,0000,0000,,Gas Density
+Dialogue: 0,0:16:31.05,0:16:33.05,Explosion,SIGN,0000,0000,0000,,Explosion Ready
+Dialogue: 0,0:16:33.50,0:16:38.56,DCMain,KOGORO,0000,0000,0000,,First, why do you believe he came to see you?
+Dialogue: 0,0:16:38.56,0:16:42.08,DCMain,HAMANAKA,0000,0000,0000,,Why? Because of my excellence, obviously.
+Dialogue: 0,0:16:42.08,0:16:43.18,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:16:43.18,0:16:45.23,DCMain,KOGORO,0000,0000,0000,,Fine.
+Dialogue: 0,0:16:45.23,0:16:48.06,DCMain,KOGORO,0000,0000,0000,,Let's assume he heard of \Nyour reputation somewhere.
+Dialogue: 0,0:16:48.43,0:16:53.46,DCMain,KOGORO,0000,0000,0000,,When you spoke with him, did you think \Nthere was anything strange about him?
+Dialogue: 0,0:16:53.46,0:16:55.82,DCMain,HAMANAKA,0000,0000,0000,,I'm not sure.
+Dialogue: 0,0:16:56.16,0:16:58.80,DCMain,KOGORO,0000,0000,0000,,I find it strange.
+Dialogue: 0,0:16:58.80,0:17:00.83,DCMain,KOGORO,0000,0000,0000,,He may have been fired,
+Dialogue: 0,0:17:00.98,0:17:05.46,DCMain,KOGORO,0000,0000,0000,,but why did he plan such \Nan elaborate assassination?
+Dialogue: 0,0:17:05.68,0:17:07.45,DCMain,TAKAGI,0000,0000,0000,,You're right.
+Dialogue: 0,0:17:07.45,0:17:12.59,DCMain,TAKAGI,0000,0000,0000,,You may hate someone for firing you, but \Nusually you wouldn't want to kill them.
+Dialogue: 0,0:17:13.13,0:17:15.55,DCMain,SATO,0000,0000,0000,,He paid a lot of money for it, too.
+Dialogue: 0,0:17:15.55,0:17:16.64,DCMain,TAKAGI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:16.64,0:17:18.52,DCMain,HAMANAKA,0000,0000,0000,,Are you certain?
+Dialogue: 0,0:17:18.52,0:17:19.10,DCMain,SATO,0000,0000,0000,,What?
+Dialogue: 0,0:17:19.61,0:17:22.72,DCMain,HAMANAKA,0000,0000,0000,,I've been doing this job a long time.
+Dialogue: 0,0:17:22.72,0:17:27.73,DCMain,HAMANAKA,0000,0000,0000,,The actions of a criminal hardly fall \Nwithin what's considered sensible.
+Dialogue: 0,0:17:27.73,0:17:31.97,DCMain,SATO,0000,0000,0000,,A long time? How long \Nhave you been doing this?
+Dialogue: 0,0:17:31.97,0:17:38.07,DCMain,HAMANAKA,0000,0000,0000,,W-Well, at the very least, I \Nthink it's been about ten years.
+Dialogue: 0,0:17:39.50,0:17:40.43,DCMain,CONAN,0000,0000,0000,,Hey!
+Dialogue: 0,0:17:40.43,0:17:41.33,DCMain,TAKAGI,0000,0000,0000,,Conan-kun?
+Dialogue: 0,0:17:41.68,0:17:43.08,DCMain,TAKAGI,0000,0000,0000,,What is it?
+Dialogue: 0,0:17:43.08,0:17:44.46,DCMain,SATO,0000,0000,0000,,Did you figure something out?
+Dialogue: 0,0:17:44.46,0:17:45.58,DCItalic,CONAN,0000,0000,0000,,That's definitely it.
+Dialogue: 0,0:17:45.58,0:17:49.33,Events,SIGN,0000,0000,0000,,9/13 Fired from Ishigami Industries \N8/20 Purchased plot from Hamanaka Planning \N9/5 Attack on Beika Finance
+Dialogue: 0,0:17:46.24,0:17:48.23,DCItalic,CONAN,0000,0000,0000,,If my reasoning is correct...
+Dialogue: 0,0:17:48.23,0:17:49.33,DCMain,TAKAGI,0000,0000,0000,,Conan-kun?
+Dialogue: 0,0:17:50.17,0:17:51.60,DCMain,CONAN,0000,0000,0000,,I was wondering where the bathroom is.
+Dialogue: 0,0:17:51.60,0:17:54.67,DCMain,HAMANAKA,0000,0000,0000,,The bathroom's at the end of the hallway.
+Dialogue: 0,0:17:54.67,0:17:55.84,DCMain,CONAN,0000,0000,0000,,Thanks.
+Dialogue: 0,0:17:56.85,0:17:58.06,DCMain,SATO,0000,0000,0000,,There's no time.
+Dialogue: 0,0:17:58.06,0:17:59.09,DCMain,TAKAGI,0000,0000,0000,,Mori-san.
+Dialogue: 0,0:17:59.52,0:18:05.66,DCMain,KOGORO,0000,0000,0000,,Do you recall the cases you \Nplotted seven years ago?
+Dialogue: 0,0:18:05.66,0:18:06.60,DCMain,HAMANAKA,0000,0000,0000,,What?
+Dialogue: 0,0:18:07.04,0:18:09.48,DCMain,KOGORO,0000,0000,0000,,Judging by your reaction, you've forgotten
+Dialogue: 0,0:18:09.96,0:18:12.98,DCMain,KOGORO,0000,0000,0000,,about the robbery that took place \Nseven years ago on this day,
+Dialogue: 0,0:18:12.98,0:18:14.48,DCMain,KOGORO,0000,0000,0000,,for which Wada Tatsumi was arrested.
+Dialogue: 0,0:18:14.73,0:18:15.42,DCMain,SATO,0000,0000,0000,,What?
+Dialogue: 0,0:18:15.42,0:18:19.79,DCMain,TAKAGI,0000,0000,0000,,Does Hamanaka have something \Nto do with Wada's arrest?
+Dialogue: 0,0:18:20.86,0:18:22.26,DCMain,HAMANAKA,0000,0000,0000,,I remember now!
+Dialogue: 0,0:18:22.26,0:18:25.31,DCMain,HAMANAKA,0000,0000,0000,,He attacked some black market \Nlenders in Beika City!
+Dialogue: 0,0:18:25.31,0:18:26.49,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:18:27.69,0:18:31.63,DCMain,KOGORO,0000,0000,0000,,It's the plot for the robbery \Nyou wrote seven years ago.
+Dialogue: 0,0:18:31.77,0:18:33.38,DCMain,TAKAGI,0000,0000,0000,,Y-You mean...
+Dialogue: 0,0:18:33.38,0:18:35.36,DCMain,KOGORO,0000,0000,0000,,According to police documents,
+Dialogue: 0,0:18:35.36,0:18:38.13,DCMain,KOGORO,0000,0000,0000,,after attacking the black market \Nlenders that were his target,
+Dialogue: 0,0:18:38.60,0:18:43.89,DCMain,KOGORO,0000,0000,0000,,the high performance security \Ncameras of the shopping mall
+Dialogue: 0,0:18:43.89,0:18:46.64,DCMain,KOGORO,0000,0000,0000,,along his escape route \Ncaptured his escape vehicle,
+Dialogue: 0,0:18:46.82,0:18:48.89,DCMain,KOGORO,0000,0000,0000,,his license plate number,
+Dialogue: 0,0:18:49.10,0:18:53.89,DCMain,KOGORO,0000,0000,0000,,and even the driver Wada's face.
+Dialogue: 0,0:18:54.55,0:18:59.78,DCMain,KOGORO,0000,0000,0000,,It was your mistake for failing to \Ntake into account the shopping mall.
+Dialogue: 0,0:19:01.56,0:19:06.54,DCMain,KOGORO,0000,0000,0000,,Wada probably believed it was \Nyour fault that he was arrested.
+Dialogue: 0,0:19:07.56,0:19:11.54,DCMain,KOGORO,0000,0000,0000,,The fault of the sloppy plot you wrote.
+Dialogue: 0,0:19:11.54,0:19:13.54,GasDensity,SIGN,0000,0000,0000,,Gas Density
+Dialogue: 0,0:19:11.54,0:19:13.54,Explosion2,SIGN,0000,0000,0000,,Explosion Ready
+Dialogue: 0,0:19:13.93,0:19:17.55,DCMain,HAMANAKA,0000,0000,0000,,You're right. That was my mistake.
+Dialogue: 0,0:19:17.77,0:19:20.23,DCMain,KOGORO,0000,0000,0000,,In other words, this is what happened.
+Dialogue: 0,0:19:19.43,0:19:24.01,Prison,SIGN,0000,0000,0000,,{\fad(625,1)}Haido Prison
+Dialogue: 0,0:19:20.23,0:19:23.74,DCMain,KOGORO,0000,0000,0000,,Wada Tatsumi recently finished his \Nsentence and was released from prison.
+Dialogue: 0,0:19:23.74,0:19:27.56,DCMain,KOGORO,0000,0000,0000,,Several days ago, he visited your office \Nfor the first time in seven years.
+Dialogue: 0,0:19:27.92,0:19:32.55,DCMain,KOGORO,0000,0000,0000,,However, you didn't remember \Nthe robbery or Wada himself.
+Dialogue: 0,0:19:33.03,0:19:36.07,DCMain,KOGORO,0000,0000,0000,,What's why he chose to act.
+Dialogue: 0,0:19:36.60,0:19:39.57,DCMain,KOGORO,0000,0000,0000,,He remembered your catchphrase.
+Dialogue: 0,0:19:40.24,0:19:44.64,DCMain,KOGORO,0000,0000,0000,,He was that fixated on you.
+Dialogue: 0,0:19:44.64,0:19:45.70,DCMain,KOGORO,0000,0000,0000,,In other words...
+Dialogue: 0,0:19:45.70,0:19:47.74,DCMain,SATO,0000,0000,0000,,The target isn't Ishigami-san.
+Dialogue: 0,0:19:47.74,0:19:48.49,DCMain,KOGORO,0000,0000,0000,,No.
+Dialogue: 0,0:19:48.49,0:19:50.30,DCMain,KOGORO,0000,0000,0000,,His target is you!
+Dialogue: 0,0:19:50.30,0:19:51.42,DCMain,HAMASAKI,0000,0000,0000,,What?
+Dialogue: 0,0:19:52.33,0:19:54.71,DCMain,TAKAGI,0000,0000,0000,,Th-Then the detonator is...
+Dialogue: 0,0:19:55.00,0:19:56.10,DCMain,KOGORO,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:56.10,0:19:59.25,DCMain,KOGORO,0000,0000,0000,,The detonator is here!
+Dialogue: 0,0:20:10.61,0:20:12.42,DCItalic,HAMASAKI,0000,0000,0000,,H-Hello?
+Dialogue: 0,0:20:12.42,0:20:15.86,DCMain,WADA,0000,0000,0000,,Hamanaka, you know who I am, don't you?
+Dialogue: 0,0:20:16.48,0:20:18.57,DCItalic,HAMASAKI,0000,0000,0000,,You're Wada Tatsumi-san.
+Dialogue: 0,0:20:18.57,0:20:21.74,DCMain,WADA,0000,0000,0000,,Do you know why I called you?
+Dialogue: 0,0:20:21.74,0:20:23.36,DCItalic,HAMASAKI,0000,0000,0000,,N-No, I...
+Dialogue: 0,0:20:23.55,0:20:26.80,DCMain,WADA,0000,0000,0000,,I wanted to hear your voice one last time.
+Dialogue: 0,0:20:26.80,0:20:28.87,DCItalic,HAMASAKI,0000,0000,0000,,What? W-Wait!
+Dialogue: 0,0:20:30.81,0:20:33.04,DCMain,WADA,0000,0000,0000,,Farewell, you fraud.
+Dialogue: 0,0:20:37.20,0:20:39.58,DCMain,WADA,0000,0000,0000,,Damn. Why isn't it exploding?
+Dialogue: 0,0:20:40.15,0:20:42.80,DCMain,CONAN,0000,0000,0000,,It won't explode, Wada-san.
+Dialogue: 0,0:20:43.77,0:20:44.59,DCMain,WADA,0000,0000,0000,,Who are you?
+Dialogue: 0,0:20:45.18,0:20:47.90,DCMain,CONAN,0000,0000,0000,,We just shut off the gas,
+Dialogue: 0,0:20:47.90,0:20:51.85,DCMain,CONAN,0000,0000,0000,,and the detonator you installed \Nin the air purifier was removed.
+Dialogue: 0,0:20:52.88,0:20:56.96,DCMain,CONAN,0000,0000,0000,,You were first arrested \Nfor a burglary, right?
+Dialogue: 0,0:20:56.96,0:21:00.07,DCMain,CONAN,0000,0000,0000,,When I examined the entrance \Nto Hamasaki-san's office,
+Dialogue: 0,0:21:00.07,0:21:02.61,DCMain,CONAN,0000,0000,0000,,I found signs of lock picking.
+Dialogue: 0,0:21:02.99,0:21:07.87,DCMain,CONAN,0000,0000,0000,,Knowing the detonator was hidden in his \Noffice narrowed down the hiding places.
+Dialogue: 0,0:21:08.53,0:21:11.53,DCMain,CONAN,0000,0000,0000,,In order to make a gas \Nheavier than air explode,
+Dialogue: 0,0:21:11.53,0:21:14.87,DCMain,CONAN,0000,0000,0000,,the detonator needed to be as \Nclose to the ground as possible.
+Dialogue: 0,0:21:15.10,0:21:16.19,DCMain,WADA,0000,0000,0000,,Damn.
+Dialogue: 0,0:21:17.21,0:21:19.88,DCMain,WADA,0000,0000,0000,,But how did you know I was here?
+Dialogue: 0,0:21:20.15,0:21:26.18,DCMain,CONAN,0000,0000,0000,,Because you asked to make the detonator \Nremote controlled instead of automatic.
+Dialogue: 0,0:21:26.18,0:21:28.39,DCMain,CONAN,0000,0000,0000,,That's how you'd take your revenge.
+Dialogue: 0,0:21:28.78,0:21:32.47,DCMain,CONAN,0000,0000,0000,,So I thought you'd be someplace \Nyou could see the explosion.
+Dialogue: 0,0:21:36.33,0:21:37.49,DCMain,WADA,0000,0000,0000,,I lost.
+Dialogue: 0,0:21:37.49,0:21:41.62,DCMain,SATO,0000,0000,0000,,Wada Tatsumi, you're under \Narrest for attempted murder!
+Dialogue: 0,0:23:07.88,0:23:11.76,DCMain,TAKAGI,0000,0000,0000,,Nice work, Mori-san.
+Dialogue: 0,0:23:11.76,0:23:13.78,DCMain,KOGORO,0000,0000,0000,,Oh, you know...
+Dialogue: 0,0:23:14.78,0:23:19.33,DCMain,SATO,0000,0000,0000,,Thanks to you, we were able \Nto solve five cases at once.
+Dialogue: 0,0:23:19.64,0:23:25.92,DCMain,TAKAGI,0000,0000,0000,,Ultimately, Hamasaki's perfect crimes \Nturned out to be armchair theories.
+Dialogue: 0,0:23:25.92,0:23:26.98,DCMain,SATO,0000,0000,0000,,I know.
+Dialogue: 0,0:23:26.98,0:23:31.34,DCMain,SATO,0000,0000,0000,,If it means making people hate you enough \Nto want to kill you, it's not worth it.
+Dialogue: 0,0:23:31.51,0:23:34.85,DCMain,KOGORO,0000,0000,0000,,I suppose it was unfortunate for him
+Dialogue: 0,0:23:35.15,0:23:38.51,DCMain,KOGORO,0000,0000,0000,,that you had a great adviser like me.
+Dialogue: 0,0:23:41.07,0:23:43.29,DCMain,CONAN,0000,0000,0000,,Who do you think you are?
+Dialogue: 0,0:23:45.02,0:23:48.03,Bocchan,SIGN,0000,0000,0000,,Bocchan Restaurant
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.89,0:23:48.03,DCMain,CONAN,0000,0000,0000,,Bocchan Restaurant?
+Dialogue: 0,0:23:49.88,0:23:52.85,DCMain,MAN,0000,0000,0000,,Now you've done it, you dastardly red shirt!
+Dialogue: 0,0:23:52.85,0:23:54.66,DCMain,WOMAN,0000,0000,0000,,Please, Yamaarashi-san.
+Dialogue: 0,0:23:55.01,0:23:57.79,DCMain,MAN,0000,0000,0000,,You suspect the president? What a fool.
+Dialogue: 0,0:23:58.04,0:24:01.54,DCMain,MAN,0000,0000,0000,,The sun may forgive you, but I will not!
+Dialogue: 0,0:24:01.74,0:24:06.04,DCMain,WOMAN,0000,0000,0000,,The young master's sense of justice \Nis this old Kiyo's pride and joy.
+Dialogue: 0,0:24:06.49,0:24:08.68,DCItalic,CONAN,0000,0000,0000,,Young master? Kiyo?
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,TEXT,0000,0000,0000,,Welcome to Bocchan Restaurant \N(Part One)
+Dialogue: 0,0:24:09.58,0:24:14.06,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Welcome \Nto Bocchan Restaurant, Part One!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,TEXT,0000,0000,0000,,Stray Cat
+Dialogue: 0,0:24:30.84,0:24:32.71,DCMain,SATO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.71,0:24:34.54,DCMain,CONAN,0000,0000,0000,,A stray cat!
+Dialogue: 0,0:24:34.99,0:24:36.69,DCMain,KOGORO,0000,0000,0000,,{\an8}We're off next week, and...
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.69,0:24:39.76,DCMain,CONAN,0000,0000,0000,,{\an8}The roadshow is on Friday, then we're on \Ntwo weeks back to back! Don't miss it!

@@ -1,0 +1,401 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0060,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Kenichiro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0080372E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0064,0
+Style: Mokichi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006B1D1F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0190,0064,0
+Style: Junko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006D111B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0064,0
+Style: Mei,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CE7C67,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0040,0064,0
+Style: Hideki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0073282D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0070,0064,0
+Style: Exit,Trebuchet MS,18,&H00ECF6E8,&H000000FF,&H0069914F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Yusaku,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006B273E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0380,0020,0064,0
+Style: Naoya,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00916388,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0370,0064,0
+Style: Kosuke,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CE7C67,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0330,0020,0064,0
+Style: Kiho,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CB8064,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0320,0064,0
+Style: Tsukinogi,Trebuchet MS,18,&H00665B5F,&H000000FF,&H00F1E9ED,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: HallAPoster,Trebuchet MS,20,&H0077E7F3,&H000000FF,&H00578690,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0075,0020,0018,0
+Style: SecretsRevealed,Trebuchet MS,18,&H001D262E,&H000000FF,&H00BDBE93,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0060,0018,0
+Style: Cane,Trebuchet MS,16,&H002B2622,&H000000FF,&H00DFD9D5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0250,0100,0
+Style: Cane2,Trebuchet MS,18,&H00595856,&H000000FF,&H00F0EEEC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0280,0080,0
+Style: Cane3,Trebuchet MS,18,&H004B4850,&H000000FF,&H00F0EEEC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0090,0020,0100,0
+Style: Headline,Trebuchet MS,22,&H00242424,&H000000FF,&H0074787A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Security,Times New Roman,22,&H004FD08B,&H000000FF,&H000C3A22,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Issues,Times New Roman,18,&H005CEDEB,&H000000FF,&H00433D46,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Duties,Trebuchet MS,18,&H00F4E76C,&H000000FF,&H005D4024,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Bankruptcy,Trebuchet MS,24,&H00DE317D,&H000000FF,&H00F0D7E6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0160,0
+Style: Rika,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00942932,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0030,0020,0064,0
+Style: Kogoro,Trebuchet MS,18,&H006E777D,&H000000FF,&H00EFF5F6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Banner,Trebuchet MS,22,&H002F3874,&H000000FF,&H00D6EAF9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Banner2,Trebuchet MS,22,&H003E3F4A,&H000000FF,&H00697071,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Part2,Trebuchet MS,20,&H00181D1A,&H000000FF,&H00E2EAED,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 963 "Mori \NKogoro's Grand Lecture (Part Two)"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,MEI,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,MEI,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:00.77,0:00:02.20,DCMain,CONAN,0000,0000,0000,,A murder occurred at a theater
+Dialogue: 0,0:00:02.20,0:00:08.48,DCMain,CONAN,0000,0000,0000,,holding a lecture titled "The Great \NDetective Mori Kogoro Reveals His Secrets."
+Dialogue: 0,0:00:09.38,0:00:13.44,DCMain,CONAN,0000,0000,0000,,{\an8}Panelist and actor Inokoshi Kenichiro-san
+Dialogue: 0,0:00:10.19,0:00:11.78,Kenichiro,TEXT,0000,0000,0000,,{\fad(250,1)}Inokoshi Kenichiro (48) \NActor
+Dialogue: 0,0:00:13.78,0:00:16.67,DCMain,CONAN,0000,0000,0000,,was found murdered inside \Nhis locked changing room.
+Dialogue: 0,0:00:19.10,0:00:20.29,DCMain,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:00:20.29,0:00:24.19,DCMain,CONAN,0000,0000,0000,,The body's keeping the door \Nshut instead of the lock.
+Dialogue: 0,0:00:24.84,0:00:26.21,DCMain,CONAN,0000,0000,0000,,In other words, this is...
+Dialogue: 0,0:00:28.52,0:00:29.28,DCMain,MEI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:00:29.97,0:00:32.93,DCMain,MEI,0000,0000,0000,,It's a locked room mystery.
+Dialogue: 0,0:00:32.93,0:00:33.82,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:00:34.60,0:00:38.26,DCMain,CONAN,0000,0000,0000,,The old man solved the locked room mystery,
+Dialogue: 0,0:00:38.26,0:00:40.56,DCMain,CONAN,0000,0000,0000,,and it seemed as though the \Nsuspect had been identified.
+Dialogue: 0,0:00:41.60,0:00:45.85,DCMain,CONAN,0000,0000,0000,,But the suspect Reizei \NMokichi-san confessed to...
+Dialogue: 0,0:00:46.90,0:00:51.84,DCMain,REIZEI,0000,0000,0000,,I knew you'd spot my cane trick eventually.
+Dialogue: 0,0:00:51.84,0:00:56.32,DCMain,REIZEI,0000,0000,0000,,But I killed someone else.
+Dialogue: 0,0:00:57.57,0:00:58.46,DCMain,KOGORO,0000,0000,0000,,Wha—
+Dialogue: 0,0:00:58.46,0:01:00.83,DCMain,KOGORO,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:01:09.50,0:01:11.67,DCMain,CONAN,0000,0000,0000,,Right now at this moment, \Nlight pierces the darkness!
+Dialogue: 0,0:01:11.67,0:01:13.55,DCMain,CONAN,0000,0000,0000,,Overcome all limits with \Nyour cool reasoning skills!
+Dialogue: 0,0:01:13.55,0:01:17.30,DCMain,CONAN,0000,0000,0000,,The old man's reasoning was right, \Nbut in reality, there are two cases!
+Dialogue: 0,0:01:17.54,0:01:19.27,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:19.27,0:01:21.01,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:21.01,0:01:23.43,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:04.95,0:03:10.96,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(401,1)}Mori Kogoro's Grand Lecture \N(Part Two)
+Dialogue: 0,0:03:05.47,0:03:08.78,DCMain,CONAN,0000,0000,0000,,"Mori Kogoro's Grand Lecture, Part Two!"
+Dialogue: 0,0:03:15.02,0:03:17.37,DCMain,CONAN,0000,0000,0000,,{\an8}Based on Reizei-san's confession,
+Dialogue: 0,0:03:16.21,0:03:19.67,Mokichi,TEXT,0000,0000,0000,,{\fad(250,460)}Reizei Mokichi (70) \NFormer HISHIDA Hall Manager
+Dialogue: 0,0:03:17.37,0:03:21.47,DCMain,CONAN,0000,0000,0000,,{\an8}an investigation of his crime and search \Nfor corroborating evidence were conducted.
+Dialogue: 0,0:03:24.01,0:03:26.85,Junko,TEXT,0000,0000,0000,,{\fad(250,1)}Hishida Junko (50) \NHISHIDA Hall Owner
+Dialogue: 0,0:03:34.86,0:03:38.11,DCItalic,RIKA,0000,0000,0000,,{\an8}Once again, we have an \Nannouncement for our guests.
+Dialogue: 0,0:03:38.86,0:03:41.50,DCItalic,RIKA,0000,0000,0000,,{\an8}Due to certain circumstances,
+Dialogue: 0,0:03:41.17,0:03:45.48,DCItalic,CONAN,0000,0000,0000,,With Inspector Megure's approval,
+Dialogue: 0,0:03:41.50,0:03:46.24,DCItalic,RIKA,0000,0000,0000,,{\an8}the start time of the lecture "The Great \NDetective Mori Kogoro Reveals His Secrets"
+Dialogue: 0,0:03:45.48,0:03:49.62,DCItalic,CONAN,0000,0000,0000,,the start time of the old man's \Nlecture was delayed an hour.
+Dialogue: 0,0:03:46.92,0:03:49.62,DCItalic,RIKA,0000,0000,0000,,{\an8}and panel will be delayed one hour.
+Dialogue: 0,0:03:50.00,0:03:53.75,DCMain,MEGURE,0000,0000,0000,,Anyway, I'm terribly sorry \Nfor the inconvenience,
+Dialogue: 0,0:03:53.94,0:03:55.75,DCMain,MEGURE,0000,0000,0000,,but we appreciate your cooperation.
+Dialogue: 0,0:03:55.92,0:03:59.34,Mei,TEXT,0000,0000,0000,,{\fad(250,460)}Tsukuba Mei (22) \NEvent Staff
+Dialogue: 0,0:03:56.05,0:03:57.28,DCMain,TSUKINOGI,0000,0000,0000,,{\an8}I understand.
+Dialogue: 0,0:03:57.92,0:03:59.76,DCMain,TSUKINOGI,0000,0000,0000,,{\an8}I'm in a bit of a bind though.
+Dialogue: 0,0:04:00.09,0:04:01.51,DCMain,MEGURE,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:04:01.83,0:04:07.26,DCMain,TSUKINOGI,0000,0000,0000,,{\an8}I'm honored I was invited \Nto appear on the panel.
+Dialogue: 0,0:04:03.68,0:04:07.10,Hideki,TEXT,0000,0000,0000,,{\fad(250,1)}Tsukinogi Hideki (40) \NSecurity Company President
+Dialogue: 0,0:04:07.93,0:04:10.84,DCMain,TSUKINOGI,0000,0000,0000,,But I have plans immediately after this.
+Dialogue: 0,0:04:10.84,0:04:12.87,DCMain,TSUKINOGI,0000,0000,0000,,I can't accommodate a one hour delay.
+Dialogue: 0,0:04:12.87,0:04:14.14,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:04:14.59,0:04:19.40,DCMain,TSUKINOGI,0000,0000,0000,,And you verified my alibi, didn't you?
+Dialogue: 0,0:04:19.64,0:04:21.14,DCMain,KOGORO,0000,0000,0000,,Of course.
+Dialogue: 0,0:04:21.14,0:04:22.24,DCMain,TSUKINOGI,0000,0000,0000,,In that case...
+Dialogue: 0,0:04:22.77,0:04:28.33,DCMain,MEGURE,0000,0000,0000,,But that alibi applies only to \NInokoshi Kenichiro-san's murder.
+Dialogue: 0,0:04:29.45,0:04:35.76,DCMain,MEGURE,0000,0000,0000,,Reizei may have confessed to \NHishida Junko-san's murder,
+Dialogue: 0,0:04:35.76,0:04:38.47,DCMain,MEGURE,0000,0000,0000,,but we haven't even determined \Nthe time of death—
+Dialogue: 0,0:04:38.47,0:04:38.96,DCMain,TAKAGI,0000,0000,0000,,Inspector!
+Dialogue: 0,0:04:40.51,0:04:42.46,DCMain,TAKAGI,0000,0000,0000,,We've determined the time of the crime.
+Dialogue: 0,0:04:46.17,0:04:50.76,DCMain,REIZEI,0000,0000,0000,,I just couldn't. I just couldn't accept it!
+Dialogue: 0,0:04:53.96,0:04:56.78,DCMain,REIZEI,0000,0000,0000,,Disregarding the achievements \Nof the late previous owner—
+Dialogue: 0,0:04:56.78,0:05:01.03,DCMain,REIZEI,0000,0000,0000,,rather, her father, was her style.
+Dialogue: 0,0:04:58.31,0:05:01.03,Exit,SIGN,0000,0000,0000,,Emergency Exit
+Dialogue: 0,0:05:01.42,0:05:06.16,DCMain,REIZEI,0000,0000,0000,,I wanted her to understand, so we \Ncontinued our conversation there.
+Dialogue: 0,0:05:06.53,0:05:08.24,DCMain,REIZEI,0000,0000,0000,,But...
+Dialogue: 0,0:05:09.49,0:05:11.41,DCItalic,HISHIDA,0000,0000,0000,,You never give up. I've had enough of you.
+Dialogue: 0,0:05:12.46,0:05:13.41,DCItalic,REIZEI,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:05:31.43,0:05:34.47,DCMain,TAKAGI,0000,0000,0000,,Take a look at this and this.
+Dialogue: 0,0:05:37.78,0:05:39.34,DCMain,KOGORO,0000,0000,0000,,Th-This is...
+Dialogue: 0,0:05:39.34,0:05:44.38,DCMain,MEGURE,0000,0000,0000,,Wasn't Inokoshi-san's time of death 2:50?
+Dialogue: 0,0:05:44.38,0:05:45.49,DCMain,TAKAGI,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:45.49,0:05:50.57,DCMain,TAKAGI,0000,0000,0000,,That's the time the victim's pocket watch \Nbroken by the weapon was stopped at.
+Dialogue: 0,0:05:50.84,0:05:56.81,DCMain,MEGURE,0000,0000,0000,,Which means Inokoshi-san \Nwasn't killed by Reizei-san.
+Dialogue: 0,0:05:56.81,0:06:00.58,DCMain,MEGURE,0000,0000,0000,,In other words, there's another culprit.
+Dialogue: 0,0:06:01.04,0:06:03.44,DCMain,MEGURE,0000,0000,0000,,I know it's a coincidence, \Nbut this isn't good.
+Dialogue: 0,0:06:03.44,0:06:07.03,DCMain,KOGORO,0000,0000,0000,,That's not all that's not good, Inspector.
+Dialogue: 0,0:06:07.03,0:06:07.80,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:06:08.29,0:06:10.00,DCMain,KOGORO,0000,0000,0000,,Have you forgotten?
+Dialogue: 0,0:06:10.00,0:06:13.55,DCMain,KOGORO,0000,0000,0000,,The two murders took place \Nat practically the same time.
+Dialogue: 0,0:06:14.23,0:06:15.70,DCMain,KOGORO,0000,0000,0000,,Aside from Reizei-san,
+Dialogue: 0,0:06:15.70,0:06:21.31,DCMain,KOGORO,0000,0000,0000,,the people whose alibis we verified for \NInokoshi-san's murder were all innocent.
+Dialogue: 0,0:06:21.83,0:06:22.67,DCMain,KOGORO,0000,0000,0000,,In other words...
+Dialogue: 0,0:06:22.67,0:06:26.94,DCMain,MEGURE,0000,0000,0000,,Not a single person doesn't have an alibi.
+Dialogue: 0,0:06:35.95,0:06:40.02,DCMain,TSUNOHAZU,0000,0000,0000,,Is it true that the owner \NHishida was killed as well?
+Dialogue: 0,0:06:40.02,0:06:41.69,DCMain,TSUNOHAZU,0000,0000,0000,,And the culprit was...
+Dialogue: 0,0:06:41.69,0:06:42.81,DCMain,UJIMORI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:42.81,0:06:47.16,DCMain,UJIMORI,0000,0000,0000,,That old man Reizei, the manager before me.
+Dialogue: 0,0:06:47.16,0:06:49.97,DCMain,FURUI,0000,0000,0000,,Did he kill Inokoshi-san, too?
+Dialogue: 0,0:06:50.13,0:06:53.60,Naoya,FURUI,0000,0000,0000,,{\fad(250,460)}Tsunohazu Naoya (35) \NEvent Company President
+Dialogue: 0,0:06:50.13,0:06:53.60,Yusaku,FURUI,0000,0000,0000,,{\fad(250,460)}Ujimori Yusaku (45) \NHISHIDA Hall Manager
+Dialogue: 0,0:06:50.25,0:06:52.32,DCMain,UJIMORI,0000,0000,0000,,{\an8}No, that wasn't him.
+Dialogue: 0,0:06:52.32,0:06:55.10,DCMain,TSUNOHAZU,0000,0000,0000,,{\an8}No, that wasn't him.
+Dialogue: 0,0:06:55.26,0:06:58.68,Kiho,TSUNOHAZU,0000,0000,0000,,{\fad(250,460)}Furui Kiho (25) \NEvent Staff
+Dialogue: 0,0:06:55.26,0:06:58.68,Kosuke,TSUNOHAZU,0000,0000,0000,,{\fad(250,460)}Amagi Kosuke (28) \NEvent Staff
+Dialogue: 0,0:06:55.35,0:06:59.14,DCMain,AMAGI,0000,0000,0000,,{\an8}Y-You mean there's another murderer?
+Dialogue: 0,0:06:59.74,0:07:00.60,DCMain,FURUI,0000,0000,0000,,No way.
+Dialogue: 0,0:07:00.98,0:07:05.32,DCMain,TSUNOHAZU,0000,0000,0000,,A-Are you sure we shouldn't cancel the lecture?
+Dialogue: 0,0:07:05.32,0:07:08.58,DCMain,TSUNOHAZU,0000,0000,0000,,If they don't arrest the culprit...
+Dialogue: 0,0:07:05.80,0:07:16.37,SecretsRevealed,SIGN,0000,0000,0000,,The great detective Mori \NKogoro reveals his secrets!
+Dialogue: 0,0:07:08.58,0:07:10.10,DCMain,UJIMORI,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:07:10.61,0:07:14.00,DCMain,UJIMORI,0000,0000,0000,,None other than the great detective \NSleeping Kogoro is here.
+Dialogue: 0,0:07:10.70,0:07:16.37,HallAPoster,SIGN,0000,0000,0000,,HISHIDA Hall \NRenovation Commemorative Lecture
+Dialogue: 0,0:07:14.00,0:07:16.37,DCMain,UJIMORI,0000,0000,0000,,I'm sure he'll solve the case.
+Dialogue: 0,0:07:16.63,0:07:20.50,DCMain,UJIMORI,0000,0000,0000,,So focus on assisting the audience.
+Dialogue: 0,0:07:20.50,0:07:25.50,DCMain,UJIMORI,0000,0000,0000,,And don't mention the case until the \Npolice explain the situation later.
+Dialogue: 0,0:07:25.50,0:07:27.57,DCMain,AMAGI,0000,0000,0000,,U-Understood.
+Dialogue: 0,0:07:27.57,0:07:29.62,DCMain,FURUI,0000,0000,0000,,We'll be standing by.
+Dialogue: 0,0:07:29.62,0:07:30.76,DCMain,FURUI,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:31.25,0:07:34.18,DCMain,FURUI,0000,0000,0000,,Come to think of it, where's Mei-chan?
+Dialogue: 0,0:07:35.02,0:07:38.89,DCMain,HAIBARA,0000,0000,0000,,Do you not care about \Nthe game? It's starting.
+Dialogue: 0,0:07:39.08,0:07:43.54,DCMain,CONAN,0000,0000,0000,,I know, but we can't leave now.
+Dialogue: 0,0:07:44.08,0:07:47.90,DCMain,CONAN,0000,0000,0000,,We have less than thirty minutes \Nuntil the old man's lecture starts.
+Dialogue: 0,0:07:48.34,0:07:53.28,DCMain,HAIBARA,0000,0000,0000,,Maybe so, but we need to come with \Nan excuse to tell those kids.
+Dialogue: 0,0:07:53.52,0:07:55.70,DCMain,CONAN,0000,0000,0000,,You can handle that.
+Dialogue: 0,0:07:55.70,0:07:56.85,DCMain,HAIBARA,0000,0000,0000,,Jeez.
+Dialogue: 0,0:07:56.85,0:07:58.54,DCMain,CONAN,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:07:59.04,0:08:02.13,DCMain,CONAN,0000,0000,0000,,Kogoro-no-ojisan asked me to do something.
+Dialogue: 0,0:08:06.12,0:08:08.30,DCMain,HAIBARA,0000,0000,0000,,So, do you have any leads?
+Dialogue: 0,0:08:08.52,0:08:10.82,DCMain,CONAN,0000,0000,0000,,Huh? Nope.
+Dialogue: 0,0:08:11.36,0:08:13.03,DCMain,HAIBARA,0000,0000,0000,,You're unbelievable.
+Dialogue: 0,0:08:16.76,0:08:17.78,DCMain,CONAN,0000,0000,0000,,What's that?
+Dialogue: 0,0:08:19.24,0:08:21.63,DCMain,CONAN,0000,0000,0000,,This wasn't here before, right?
+Dialogue: 0,0:08:22.98,0:08:25.36,DCMain,HAIBARA,0000,0000,0000,,Are those pages from a magazine or something?
+Dialogue: 0,0:08:25.36,0:08:27.19,DCMain,HAIBARA,0000,0000,0000,,Looks like they were torn out.
+Dialogue: 0,0:08:28.48,0:08:32.77,DCMain,CONAN,0000,0000,0000,,Judging by the quality of the paper and \Nprint, they're probably from the same magazine.
+Dialogue: 0,0:08:35.52,0:08:40.89,DCMain,CONAN,0000,0000,0000,,There's been a guard standing in front of this \Nchanging room since after the scene was examined.
+Dialogue: 0,0:08:41.76,0:08:46.53,DCMain,HAIBARA,0000,0000,0000,,So they reached in through the \Nwindow so they wouldn't be spotted?
+Dialogue: 0,0:08:47.39,0:08:51.52,DCMain,CONAN,0000,0000,0000,,The question is who left it \Nhere, and for what purpose.
+Dialogue: 0,0:08:51.52,0:08:54.22,DCMain,CONAN,0000,0000,0000,,Not only that, but now, after the murder.
+Dialogue: 0,0:08:57.21,0:08:58.27,DCMain,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:09:16.89,0:09:18.00,DCMain,HAIBARA,0000,0000,0000,,Found it.
+Dialogue: 0,0:09:26.18,0:09:27.33,DCMain,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:09:27.86,0:09:31.02,DCMain,CONAN,0000,0000,0000,,Are they different pages \Nfrom the same magazine?
+Dialogue: 0,0:09:31.02,0:09:32.52,DCMain,CONAN,0000,0000,0000,,And the one underneath is...
+Dialogue: 0,0:09:32.52,0:09:35.34,DCMain,CONAN,0000,0000,0000,,Is it from a gravure article?
+Dialogue: 0,0:09:35.61,0:09:39.72,DCMain,HAIBARA,0000,0000,0000,,It's probably the first page after the cover.
+Dialogue: 0,0:09:40.00,0:09:44.60,DCMain,CONAN,0000,0000,0000,,I feel like there's some meaning \Nbehind the way they're overlapped.
+Dialogue: 0,0:09:44.60,0:09:48.04,DCMain,HAIBARA,0000,0000,0000,,Either way, it could be some kind of message.
+Dialogue: 0,0:09:48.04,0:09:49.07,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:49.07,0:09:49.73,DCMain,MEI,0000,0000,0000,,Hey.
+Dialogue: 0,0:09:52.67,0:09:57.49,DCMain,MEI,0000,0000,0000,,If you found something, shouldn't \Nyou let Mori-san know?
+Dialogue: 0,0:09:58.02,0:10:01.28,DCMain,MEI,0000,0000,0000,,Right, little detective?
+Dialogue: 0,0:10:12.14,0:10:14.88,DCMain,KOGORO,0000,0000,0000,,Huh? What about this?
+Dialogue: 0,0:10:14.88,0:10:17.68,DCMain,CONAN,0000,0000,0000,,I thought it might be some kind of message.
+Dialogue: 0,0:10:18.60,0:10:19.54,DCMain,KOGORO,0000,0000,0000,,From who?
+Dialogue: 0,0:10:19.54,0:10:21.78,DCMain,CONAN,0000,0000,0000,,I don't know.
+Dialogue: 0,0:10:21.78,0:10:25.40,DCMain,KOGORO,0000,0000,0000,,Jeez. You went off and found \Nsomething trivial again.
+Dialogue: 0,0:10:25.97,0:10:28.89,DCMain,KOGORO,0000,0000,0000,,I'm sure it was just a prank.
+Dialogue: 0,0:10:29.44,0:10:31.15,DCMain,KOGORO,0000,0000,0000,,I'm busy over here.
+Dialogue: 0,0:10:31.53,0:10:32.77,DCMain,KOGORO,0000,0000,0000,,Stop bothering me.
+Dialogue: 0,0:10:38.17,0:10:40.91,DCMain,KOGORO,0000,0000,0000,,Excuse me, Inspector. And?
+Dialogue: 0,0:10:41.99,0:10:47.29,DCMain,MEGURE,0000,0000,0000,,We thought you solved the trick \Nused to create the locked room,
+Dialogue: 0,0:10:47.29,0:10:53.04,Cane,SIGN,0000,0000,0000,,Cane?
+Dialogue: 0,0:10:47.61,0:10:53.04,DCMain,MEGURE,0000,0000,0000,,but if Reizei-san's cane wasn't used to \Nprop up the chair with the body in it,
+Dialogue: 0,0:10:53.04,0:10:55.55,Cane2,SIGN,0000,0000,0000,,Cane?
+Dialogue: 0,0:10:53.37,0:10:55.55,DCMain,MEGURE,0000,0000,0000,,then what was?
+Dialogue: 0,0:10:56.73,0:11:00.32,DCMain,KOGORO,0000,0000,0000,,I've been thinking about that, too.
+Dialogue: 0,0:11:01.65,0:11:03.26,DCMain,MEGURE,0000,0000,0000,,Have you figured it out?
+Dialogue: 0,0:11:03.26,0:11:05.28,DCMain,KOGORO,0000,0000,0000,,No, I have no idea.
+Dialogue: 0,0:11:07.86,0:11:12.33,DCMain,MEGURE,0000,0000,0000,,In any case, there isn't a \Nsingle person without an alibi.
+Dialogue: 0,0:11:12.33,0:11:15.57,DCMain,MEGURE,0000,0000,0000,,We can't proceed with our investigation \Nif we can't solve that mystery.
+Dialogue: 0,0:11:18.57,0:11:22.57,DCMain,KOGORO,0000,0000,0000,,They must've used something \Nin place of a cane.
+Dialogue: 0,0:11:24.62,0:11:26.72,DCItalic,CONAN,0000,0000,0000,,In place of a cane?
+Dialogue: 0,0:11:26.72,0:11:28.16,DCItalic,CONAN,0000,0000,0000,,That's it. They used that!
+Dialogue: 0,0:11:28.92,0:11:30.50,DCMain,CONAN,0000,0000,0000,,Hey, mister.
+Dialogue: 0,0:11:30.72,0:11:35.88,DCMain,MEI,0000,0000,0000,,Maybe it's wrong to assume it \Nwas a long object like a cane.
+Dialogue: 0,0:11:37.20,0:11:41.76,DCMain,MEI,0000,0000,0000,,But recently they sell \Ntelescoping canes, too.
+Dialogue: 0,0:11:41.97,0:11:42.76,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:11:44.69,0:11:47.07,DCMain,KGOORO,0000,0000,0000,,A telescoping cane?
+Dialogue: 0,0:11:47.07,0:11:48.97,DCMain,KOGORO,0000,0000,0000,,This is why I can't stand amateurs!
+Dialogue: 0,0:11:49.46,0:11:51.53,DCMain,KOGORO,0000,0000,0000,,Stay out of—
+Dialogue: 0,0:11:52.73,0:11:54.65,DCMain,MEGURE,0000,0000,0000,,Wh-What is it, Mori-kun?
+Dialogue: 0,0:11:54.88,0:11:58.44,DCMain,KOGORO,0000,0000,0000,,Th-That's it! I've figured it out, Inspector!
+Dialogue: 0,0:11:58.70,0:12:00.55,DCMain,MEGURE,0000,0000,0000,,Really?
+Dialogue: 0,0:12:00.94,0:12:03.28,Tsukinogi,SIGN,0000,0000,0000,,Tsukinogi Hideki-sama
+Dialogue: 0,0:12:09.40,0:12:10.78,DCMain,KOGORO,0000,0000,0000,,Tsukinogi Hideki-san.
+Dialogue: 0,0:12:11.30,0:12:13.83,DCMain,KOGORO,0000,0000,0000,,You've retired from bodyguarding,
+Dialogue: 0,0:12:13.83,0:12:17.42,DCMain,KOGORO,0000,0000,0000,,but you still carry your gear with you.
+Dialogue: 0,0:12:19.66,0:12:21.03,DCMain,KOGORO,0000,0000,0000,,Yes, that.
+Dialogue: 0,0:12:21.03,0:12:23.93,DCMain,KOGORO,0000,0000,0000,,I'm talking about your \Ntelescoping nightstick.
+Dialogue: 0,0:12:24.77,0:12:28.23,DCMain,TSUKINOGI,0000,0000,0000,,It's a habit I developed over the years.
+Dialogue: 0,0:12:28.23,0:12:31.31,DCMain,TSUKINOGI,0000,0000,0000,,I feel anxious without it.
+Dialogue: 0,0:12:33.73,0:12:35.81,DCMain,TSUKINOGI,0000,0000,0000,,What about it?
+Dialogue: 0,0:12:36.48,0:12:38.19,DCMain,KOGORO,0000,0000,0000,,Don't play dumb.
+Dialogue: 0,0:12:38.52,0:12:40.32,DCMain,KOGORO,0000,0000,0000,,You extended your nightstick,
+Dialogue: 0,0:12:41.89,0:12:46.91,DCMain,KOGORO,0000,0000,0000,,pressed it against the back of the chair \Nsupporting Inokoshi-san's body, tilted it,
+Dialogue: 0,0:12:47.20,0:12:49.74,Cane3,SIGN,0000,0000,0000,,Cane
+Dialogue: 0,0:12:47.58,0:12:52.36,DCMain,KOGORO,0000,0000,0000,,and withdrew it while gradually closing \Nthe door, creating the locked room.
+Dialogue: 0,0:12:52.97,0:12:54.08,DCMain,KOGORO,0000,0000,0000,,Am I wrong?
+Dialogue: 0,0:12:56.14,0:13:01.13,DCMain,MEGURE,0000,0000,0000,,Would you hand over your \Nnightstick, Tsukinogi-san?
+Dialogue: 0,0:13:01.36,0:13:07.64,DCMain,TAKAGI,0000,0000,0000,,We'd like to see if the end of your \Nnightstick matches the mark left on the chair.
+Dialogue: 0,0:13:08.19,0:13:10.10,DCMain,TSUKINOGI,0000,0000,0000,,That's fine with me.
+Dialogue: 0,0:13:14.11,0:13:16.39,DCMain,TSUKINOGI,0000,0000,0000,,But this was actually stolen from me.
+Dialogue: 0,0:13:18.38,0:13:19.65,DCMain,KOGORO,0000,0000,0000,,Stolen?
+Dialogue: 0,0:13:20.08,0:13:23.72,DCMain,TSUKINOGI,0000,0000,0000,,I went to the bathroom \Nimmediately after arriving.
+Dialogue: 0,0:13:23.72,0:13:27.17,DCMain,TSUKINOGI,0000,0000,0000,,I took it off and left it in this \Nchanging room, and it went missing.
+Dialogue: 0,0:13:27.17,0:13:30.24,DCMain,TSUKINOGI,0000,0000,0000,,But when I just checked, \Nit had been returned.
+Dialogue: 0,0:13:30.59,0:13:34.04,DCMain,TSUKINOGI,0000,0000,0000,,I don't know who it was, but \NI thought it was strange.
+Dialogue: 0,0:13:34.30,0:13:37.54,DCMain,MEGURE,0000,0000,0000,,You think we'll believe that excuse?
+Dialogue: 0,0:13:38.17,0:13:42.84,DCMain,TSUKINOGI,0000,0000,0000,,In that case, don't I have an alibi?
+Dialogue: 0,0:13:43.29,0:13:46.51,DCMain,TSUKINOGI,0000,0000,0000,,I was with several others \Nwhen the murder took place.
+Dialogue: 0,0:13:47.22,0:13:52.64,DCMain,TSUKINOGI,0000,0000,0000,,Weren't you, the police, \Nthe ones who verified that?
+Dialogue: 0,0:13:52.93,0:13:54.64,DCMain,MEGURE,0000,0000,0000,,W-Well...
+Dialogue: 0,0:13:56.44,0:14:00.93,DCMain,TSUKINOGI,0000,0000,0000,,Forgive me, Mori-san, but \NI'm disappointed in you.
+Dialogue: 0,0:14:00.93,0:14:05.28,DCMain,TSUKINOGI,0000,0000,0000,,Is this the best the great \NSleeping Kogoro can do?
+Dialogue: 0,0:14:07.42,0:14:11.03,DCMain,CONAN,0000,0000,0000,,Hey, about the time of the crime...
+Dialogue: 0,0:14:11.40,0:14:18.54,DCMain,MEI,0000,0000,0000,,Wasn't that the time shown on the victim's \Npocket watch that was broken by the weapon?
+Dialogue: 0,0:14:21.72,0:14:22.96,DCMain,KOGORO,0000,0000,0000,,That's it!
+Dialogue: 0,0:14:23.89,0:14:30.20,DCMain,KOGORO,0000,0000,0000,,They broke it beforehand and \Nset the hands pointing at 2:50.
+Dialogue: 0,0:14:31.35,0:14:36.22,DCMain,MEGURE,0000,0000,0000,,Then they put it in the breast pocket \Nof the victim after they killed him.
+Dialogue: 0,0:14:36.22,0:14:37.94,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:14:37.94,0:14:42.61,DCMain,KOGORO,0000,0000,0000,,In other words, the murder actually \Ntook place earlier than that.
+Dialogue: 0,0:14:42.86,0:14:46.96,DCMain,MEGURE,0000,0000,0000,,Takagi, Chiba. Reconfirm \Ntheir alibis immediately.
+Dialogue: 0,0:14:46.96,0:14:47.86,DCMain,BOTH,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:14:52.89,0:14:55.85,DCMain,CHIBA,0000,0000,0000,,At the originally determined time of 2:50,
+Dialogue: 0,0:14:55.85,0:15:00.75,DCMain,CHIBA,0000,0000,0000,,Tsukinogi-san met with event \Ncompany president Tsunohazu-san
+Dialogue: 0,0:15:00.75,0:15:02.88,DCMain,CHIBA,0000,0000,0000,,and staff member Amagi-san.
+Dialogue: 0,0:15:03.20,0:15:07.05,DCMain,CHIBA,0000,0000,0000,,But no one saw Tsukinogi-san during \Nthe ten minutes before that.
+Dialogue: 0,0:15:07.05,0:15:11.02,DCMain,TAKAGI,0000,0000,0000,,We spoke with the others, and \Nthey all gave the same answer.
+Dialogue: 0,0:15:12.11,0:15:15.42,DCMain,MEGURE,0000,0000,0000,,Can you explain that, Tsukinogi-san?
+Dialogue: 0,0:15:16.68,0:15:18.71,DCMain,TSUKINOGI,0000,0000,0000,,What can I say?
+Dialogue: 0,0:15:18.71,0:15:21.01,DCMain,TSUKINOGI,0000,0000,0000,,I simply didn't encounter anyone else.
+Dialogue: 0,0:15:21.01,0:15:24.15,DCMain,TSUKINOGI,0000,0000,0000,,That doesn't mean I did it.
+Dialogue: 0,0:15:24.15,0:15:27.07,DCMain,MEGURE,0000,0000,0000,,Well, yes, but...
+Dialogue: 0,0:15:27.29,0:15:30.82,DCMain,MEI,0000,0000,0000,,Then what's that shining on your lapel?
+Dialogue: 0,0:15:31.18,0:15:31.87,DCMain,TSUKINOGI,0000,0000,0000,,What?
+Dialogue: 0,0:15:35.20,0:15:40.91,DCMain,MEI,0000,0000,0000,,Maybe it's a piece of glass from the \Npocket watch broken by the weapon.
+Dialogue: 0,0:15:45.35,0:15:47.75,DCMain,MEI,0000,0000,0000,,If it's a match,
+Dialogue: 0,0:15:47.75,0:15:51.41,DCMain,MEI,0000,0000,0000,,there's no way a piece of \Nglass could've gotten on you
+Dialogue: 0,0:15:51.41,0:15:54.18,DCMain,MEI,0000,0000,0000,,if the pocket watch was inside \Nthe victim's jacket was broken,
+Dialogue: 0,0:15:54.41,0:15:57.24,DCMain,MEI,0000,0000,0000,,so it must have been broken beforehand.
+Dialogue: 0,0:15:57.24,0:16:03.66,DCMain,MEI,0000,0000,0000,,And the pieces could only have \Ngotten on the person who broke it.
+Dialogue: 0,0:16:03.66,0:16:05.44,DCMain,MEI,0000,0000,0000,,Right, Mori-san?
+Dialogue: 0,0:16:05.73,0:16:06.52,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:16:06.52,0:16:09.07,DCMain,KOGORO,0000,0000,0000,,Uh... Yes, exactly.
+Dialogue: 0,0:16:10.38,0:16:14.69,DCMain,KOGORO,0000,0000,0000,,I was just about to say \Nthe same thing, Inspector.
+Dialogue: 0,0:16:18.28,0:16:20.83,DCMain,MEGURE,0000,0000,0000,,Well, Tsukinogi-san?
+Dialogue: 0,0:16:25.45,0:16:27.51,DCMain,TSUKINOGI,0000,0000,0000,,I-I couldn't forgive him.
+Dialogue: 0,0:16:28.39,0:16:30.70,DCMain,TSUKINOGI,0000,0000,0000,,I couldn't forgive him!
+Dialogue: 0,0:16:31.90,0:16:34.17,DCMain,CONAN,0000,0000,0000,,According to Tsukinogi-san's confession,
+Dialogue: 0,0:16:34.65,0:16:40.02,DCMain,CONAN,0000,0000,0000,,one year ago while guarding Inokoshi-san, \Nhe caught a woman stalking him.
+Dialogue: 0,0:16:39.53,0:16:49.62,Headline,TEXT,0000,0000,0000,,{\fad(835,960)}Inokoshi Kenichiro (48) Domestic Violence?! \NTotal Denial \NDomestic Violence Against Ex-girlfriend
+Dialogue: 0,0:16:40.61,0:16:44.94,DCMain,CONAN,0000,0000,0000,,She was actually Inokoshi-san's \Nex-girlfriend who was seeking an apology
+Dialogue: 0,0:16:45.54,0:16:48.11,DCMain,CONAN,0000,0000,0000,,and damages for domestic violence.
+Dialogue: 0,0:16:49.71,0:16:53.69,DCMain,CONAN,0000,0000,0000,,After explaining the situation and \Nturning the woman over to the police,
+Dialogue: 0,0:16:54.19,0:16:57.20,DCMain,CONAN,0000,0000,0000,,not only was he fired by Inokoshi-san,
+Dialogue: 0,0:16:57.20,0:16:59.94,DCMain,CONAN,0000,0000,0000,,but rumors of his uselessness were spread.
+Dialogue: 0,0:17:00.71,0:17:03.66,DCMain,CONAN,0000,0000,0000,,Because of that, he and the \Nsecurity company he manages
+Dialogue: 0,0:17:01.62,0:17:02.63,Security,TEXT,0000,0000,0000,,Tsukinogi Security  - Company Lack of Security Abilities
+Dialogue: 0,0:17:02.63,0:17:03.63,Issues,TEXT,0000,0000,0000,,Numerous Issues - Sloppy Personnel Dispatch
+Dialogue: 0,0:17:03.63,0:17:04.63,Duties,TEXT,0000,0000,0000,,Inability to Fulfill Duties - No Guarantee of Safety
+Dialogue: 0,0:17:03.66,0:17:06.83,DCMain,CONAN,0000,0000,0000,,would be forced into bankruptcy soon.
+Dialogue: 0,0:17:04.63,0:17:08.00,Bankruptcy,TEXT,0000,0000,0000,,Bankruptcy
+Dialogue: 0,0:17:09.05,0:17:11.01,DCMain,FURUI,0000,0000,0000,,You did it, Mei-chan!
+Dialogue: 0,0:17:11.01,0:17:12.99,DCMain,AMAGI,0000,0000,0000,,You beat the great detective!
+Dialogue: 0,0:17:14.79,0:17:17.09,DCMain,RAN,0000,0000,0000,,She's kind of amazing, isn't she?
+Dialogue: 0,0:17:17.09,0:17:19.51,DCMain,CONAN,0000,0000,0000,,Huh? Yeah, she sure is.
+Dialogue: 0,0:17:19.97,0:17:22.50,DCItalic,CONAN,0000,0000,0000,,Her detective skills certainly \Nare impressive, but...
+Dialogue: 0,0:17:23.46,0:17:25.04,DCMain,FURUI,0000,0000,0000,,We knew you could do it.
+Dialogue: 0,0:17:25.04,0:17:26.77,DCMain,MEI,0000,0000,0000,,It's just a coincidence.
+Dialogue: 0,0:17:26.77,0:17:28.46,DCMain,FURUI,0000,0000,0000,,{\an8}There's no need to be modest.
+Dialogue: 0,0:17:27.28,0:17:28.46,DCMain,HAIBARA,0000,0000,0000,,Something bothering you?
+Dialogue: 0,0:17:28.46,0:17:30.75,DCMain,MEI,0000,0000,0000,,{\an8}No, really.
+Dialogue: 0,0:17:32.04,0:17:36.53,DCMain,CONAN,0000,0000,0000,,In any case, the two murders were solved,
+Dialogue: 0,0:17:36.53,0:17:39.32,DCMain,CONAN,0000,0000,0000,,and the old man's lecture was to be held.
+Dialogue: 0,0:17:39.45,0:17:42.91,Rika,TEXT,0000,0000,0000,,{\fad(250,460)}Hanai Rika (23) \NMC
+Dialogue: 0,0:17:39.92,0:17:43.37,DCMain,RIKA,0000,0000,0000,,{\an8}Thank you for waiting, everyone.
+Dialogue: 0,0:17:43.37,0:17:46.79,DCMain,RIKA,0000,0000,0000,,The HISHIDA Hall renovation \Ncommemorative lecture,
+Dialogue: 0,0:17:46.79,0:17:53.42,Kogoro,SIGN,0000,0000,0000,,Mori Kogoro
+Dialogue: 0,0:17:47.32,0:17:53.42,DCMain,RIKA,0000,0000,0000,,presented by the Sleeping \NKogoro, Mori Kogoro himself,
+Dialogue: 0,0:17:53.62,0:17:58.18,DCMain,RIKA,0000,0000,0000,,"The Great Detective Mori Kogoro \NReveals His Secrets" will now begin.
+Dialogue: 0,0:17:53.88,0:17:58.18,Banner,TEXT,0000,0000,0000,,HISHIDA Hall Renovation Commemorative Lecture \NThe great detective Mori \NKogoro reveals his secrets!
+Dialogue: 0,0:18:01.51,0:18:08.87,DCMain,RIKA,0000,0000,0000,,I'm Hanai Rika, Nichiuri TV announcer, \Nand I'll be your MC today.
+Dialogue: 0,0:18:08.87,0:18:10.83,DCMain,ALL,0000,0000,0000,,Rika-pon!
+Dialogue: 0,0:18:10.83,0:18:12.45,DCMain,RIKA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:18:12.45,0:18:16.30,DCMain,RIKA,0000,0000,0000,,Now let's bring the star of the day onstage.
+Dialogue: 0,0:18:16.30,0:18:19.45,DCMain,RIKA,0000,0000,0000,,Everyone, please put your hands together
+Dialogue: 0,0:18:20.52,0:18:23.42,DCMain,RIKA,0000,0000,0000,,for the great detective Mori Kogoro!
+Dialogue: 0,0:18:26.93,0:18:27.87,DCMain,KOGORO,0000,0000,0000,,Thank you, thank you.
+Dialogue: 0,0:18:28.90,0:18:29.98,DCMain,KOGORO,0000,0000,0000,,Thank you, thank you.
+Dialogue: 0,0:18:31.41,0:18:33.84,DCMain,RAN,0000,0000,0000,,You can do it, Dad.
+Dialogue: 0,0:18:42.36,0:18:44.62,DCItalic,KOGORO,0000,0000,0000,,Red leather, yellow leather. \NRed leather, yellow leather.
+Dialogue: 0,0:18:45.21,0:18:47.35,DCItalic,KOGORO,0000,0000,0000,,Focus, focus.
+Dialogue: 0,0:18:52.70,0:18:54.75,DCMain,KOGORO,0000,0000,0000,,Thank you for waiting!
+Dialogue: 0,0:18:54.75,0:18:57.11,DCMain,KOGORO,0000,0000,0000,,As I was just introduced,
+Dialogue: 0,0:18:57.73,0:19:00.86,DCMain,KOGORO,0000,0000,0000,,I am the great detective
+Dialogue: 0,0:19:02.07,0:19:04.77,DCMain,KOGORO,0000,0000,0000,,Mori Kogoro!
+Dialogue: 0,0:19:02.82,0:19:07.12,Banner2,TEXT,0000,0000,0000,,HISHIDA Hall Renovation Commemorative Lecture \NThe great detective Mori \NKogoro reveals his secrets!
+Dialogue: 0,0:19:07.64,0:19:11.62,DCItalic,KOGORO,0000,0000,0000,,I should redeem myself here.
+Dialogue: 0,0:19:26.95,0:19:30.07,DCItalic,KOGORO,0000,0000,0000,,It's no use. I can't sleep.
+Dialogue: 0,0:19:33.56,0:19:37.28,DCMain,KOGORO,0000,0000,0000,,The case has already been solved, \Nso I won't be sleeping today.
+Dialogue: 0,0:19:38.62,0:19:39.65,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:19:39.90,0:19:41.65,DCMain,ALL,0000,0000,0000,,Seriously? I was looking forward to this!
+Dialogue: 0,0:19:44.02,0:19:47.49,DCMain,KOGORO,0000,0000,0000,,I'll tell you all about it eventually.
+Dialogue: 0,0:19:48.83,0:19:53.84,DCMain,KOGORO,0000,0000,0000,,The subject of today's lecture \Nis a great detective's secrets,
+Dialogue: 0,0:19:54.58,0:20:00.05,DCMain,KOGORO,0000,0000,0000,,and as such, I will be telling you \Nall about my abundant experience.
+Dialogue: 0,0:20:00.96,0:20:04.39,DCMain,RAN,0000,0000,0000,,Good. Nice one, Dad.
+Dialogue: 0,0:20:06.62,0:20:11.92,DCMain,CONAN,0000,0000,0000,,Then another panelist arrived.
+Dialogue: 0,0:20:13.19,0:20:16.88,DCMain,KOGORO,0000,0000,0000,,Anyway, that's enough from me.
+Dialogue: 0,0:20:14.15,0:20:27.20,Kogoro,SIGN,0000,0000,0000,,Mori Kogoro
+Dialogue: 0,0:20:16.88,0:20:20.50,DCMain,KOGORO,0000,0000,0000,,Thank you for listening.
+Dialogue: 0,0:20:21.52,0:20:24.30,DCMain,RIKA,0000,0000,0000,,That was the great detective Mori Kogoro-san.
+Dialogue: 0,0:20:24.30,0:20:27.20,DCMain,RIKA,0000,0000,0000,,Let's give him another round of applause.
+Dialogue: 0,0:20:29.56,0:20:31.45,DCMain,KOGORO,0000,0000,0000,,Thank you, thank you!
+Dialogue: 0,0:20:38.36,0:20:41.86,DCMain,RIKA,0000,0000,0000,,After a short break,
+Dialogue: 0,0:20:41.86,0:20:45.47,DCMain,RIKA,0000,0000,0000,,we'll move onto the panel.
+Dialogue: 0,0:20:46.57,0:20:49.20,DCMain,CONAN,0000,0000,0000,,The audience was informed that \Ndue to certain circumstances,
+Dialogue: 0,0:20:49.20,0:20:52.52,DCMain,CONAN,0000,0000,0000,,panelists Inokoshi Kenichiro-san and \NTsukinogi Hideki-san
+Dialogue: 0,0:20:52.52,0:20:55.48,DCMain,CONAN,0000,0000,0000,,were no longer able to attend.
+Dialogue: 0,0:20:56.25,0:21:00.21,DCMain,CONAN,0000,0000,0000,,The event organizers decided \Nto keep quiet about the case
+Dialogue: 0,0:21:00.21,0:21:02.58,DCMain,CONAN,0000,0000,0000,,until the police made their \Nofficial announcement.
+Dialogue: 0,0:21:04.15,0:21:05.20,DCMain,ERI,0000,0000,0000,,Thanks for waiting.
+Dialogue: 0,0:21:09.92,0:21:11.20,DCMain,RAN,0000,0000,0000,,Mom!
+Dialogue: 0,0:21:11.73,0:21:14.07,DCMain,ERI,0000,0000,0000,,Sounds like you had some trouble.
+Dialogue: 0,0:21:14.07,0:21:15.41,DCMain,ERI,0000,0000,0000,,I just heard the news.
+Dialogue: 0,0:21:16.23,0:21:20.21,DCMain,UJIMORI,0000,0000,0000,,But thanks to Mori-sensei, \Nthe cases were solved.
+Dialogue: 0,0:21:20.67,0:21:24.42,DCMain,UJIMORI,0000,0000,0000,,I know the circumstances are unusual, \Nbut everyone loved the lecture.
+Dialogue: 0,0:21:24.42,0:21:28.85,DCMain,UJIMORI,0000,0000,0000,,Keep up the same energy during \Nthe panel, Kisaki-sensei.
+Dialogue: 0,0:21:29.77,0:21:31.35,DCMain,ERI,0000,0000,0000,,Sure.
+Dialogue: 0,0:21:33.42,0:21:40.23,DCMain,ERI,0000,0000,0000,,But doesn't that mean it'll be \Njust the two of us going onstage?
+Dialogue: 0,0:21:40.53,0:21:42.53,DCMain,KOGORO,0000,0000,0000,,Something wrong with that?
+Dialogue: 0,0:21:43.40,0:21:44.77,DCMain,RAN,0000,0000,0000,,Dad!
+Dialogue: 0,0:21:44.77,0:21:47.36,DCMain,ERI,0000,0000,0000,,No, as long as you don't \Nhave a problem with it.
+Dialogue: 0,0:21:47.36,0:21:48.61,DCMain,RAN,0000,0000,0000,,Mom...
+Dialogue: 0,0:21:50.40,0:21:52.74,DCMain,TSUNOHAZU,0000,0000,0000,,Well, actually...
+Dialogue: 0,0:21:54.02,0:21:56.14,DCMain,TSUNOHAZU,0000,0000,0000,,About that...
+Dialogue: 0,0:21:56.75,0:22:00.75,Part2,TEXT,0000,0000,0000,,Part 2 \NWhat are the great \Ndetective's secrets?! \NA new heroine enquires! \NTsukuba Mei
+Dialogue: 0,0:21:59.39,0:22:00.34,DCMain,CONAN,0000,0000,0000,,What?!
+Dialogue: 0,0:22:07.55,0:22:08.92,DCMain,MEI,0000,0000,0000,,I'm Tsukuba Mei.
+Dialogue: 0,0:22:09.82,0:22:11.39,DCMain,MEI,0000,0000,0000,,I look forward to working with you.
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.24,0:23:48.19,DCMain,HAIBARA,0000,0000,0000,,We're looking for pages \Ntorn from this magazine.
+Dialogue: 0,0:23:48.49,0:23:51.20,DCMain,HAIBARA,0000,0000,0000,,They should be someplace visible.
+Dialogue: 0,0:23:51.52,0:23:54.45,DCMain,GENTA,0000,0000,0000,,All right! I'm not sure what's \Ngoing on, but let's do this!
+Dialogue: 0,0:23:54.65,0:23:55.70,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:23:56.14,0:23:59.76,DCMain,RIKA,0000,0000,0000,,It seems you have some questions \Nfor the Sleeping Kogoro.
+Dialogue: 0,0:23:59.76,0:24:01.30,DCMain,MEI,0000,0000,0000,,Oh, yes.
+Dialogue: 0,0:24:01.30,0:24:07.46,DCMain,MEI,0000,0000,0000,,It's actually about a murder that happened \Nat a certain college one year ago.
+Dialogue: 0,0:24:07.98,0:24:08.96,DCMain,ERI,0000,0000,0000,,What?
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,TEXT,0000,0000,0000,,Mori Kogoro's Grand Lecture \N(Part Three)
+Dialogue: 0,0:24:09.57,0:24:14.62,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Mori \NKogoro's Grand Lecture, Part Three!"
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,TEXT,0000,0000,0000,,Kisaki Eri
+Dialogue: 0,0:24:30.55,0:24:32.68,DCMain,HAIBARA,0000,0000,0000,,Next Conan's hint.
+Dialogue: 0,0:24:32.68,0:24:34.21,DCMain,CONAN,0000,0000,0000,,Kisaki Eri!
+Dialogue: 0,0:24:34.91,0:24:36.43,DCMain,HAIBARA,0000,0000,0000,,{\an8}I knew she'd show up.
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.43,0:24:37.19,DCMain,CONAN,0000,0000,0000,,{\an8}Curious?
+Dialogue: 0,0:24:37.19,0:24:37.76,DCMain,HAIBARA,0000,0000,0000,,{\an8}Of course.
+Dialogue: 0,0:24:37.76,0:24:38.61,DCMain,CONAN,0000,0000,0000,,{\an8}Then we'll find out next week.
+Dialogue: 0,0:24:38.61,0:24:39.66,DCMain,HAIBARA,0000,0000,0000,,{\an8}I'm sure we will.
+Dialogue: 0,0:24:39.66,0:24:41.66,DCMain,,0000,0000,0000,,

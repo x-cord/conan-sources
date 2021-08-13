@@ -1,0 +1,468 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0060,1
+Style: Yuna,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00B66493,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0060,0068,0
+Style: Sosuke,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C3736D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0030,0068,0
+Style: Osamu,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00753B39,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0150,0010,0068,0
+Style: NextDay,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00520D0D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0068,0
+Style: Winner,Trebuchet MS,22,&H00839FB3,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0010,0030,0015,0
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.29,0:00:04.96,DCMain,CONAN,0000,0000,0000,,Lured by the previous day's ramen TV special,
+Dialogue: 0,0:00:04.96,0:00:09.47,DCMain,CONAN,0000,0000,0000,,we ended up going to Sera's regular \Nramen spot on the way home from school.
+Dialogue: 0,0:00:09.91,0:00:13.24,DCMain,CONAN,0000,0000,0000,,{\an8}There we met Shono Yuna-san,
+Dialogue: 0,0:00:11.74,0:00:13.49,Yuna,TEXT,0000,0000,0000,,{\fad(250,1)}Shono Yuna (34) \NHostess
+Dialogue: 0,0:00:13.63,0:00:15.41,DCMain,CONAN,0000,0000,0000,,{\an8}Mizushina Sosuke-san,
+Dialogue: 0,0:00:13.65,0:00:15.41,Sosuke,TEXT,0000,0000,0000,,{\fad(250,1)}Mizushina Sosuke (29) \NPart-time Worker
+Dialogue: 0,0:00:15.55,0:00:17.60,DCMain,CONAN,0000,0000,0000,,{\an8}and Nakanishi Osamu-san.
+Dialogue: 0,0:00:15.66,0:00:17.87,Osamu,TEXT,0000,0000,0000,,{\fad(250,1)}Nakanishi Osamu (48) \NOffice Worker
+Dialogue: 0,0:00:18.19,0:00:22.09,DCMain,CONAN,0000,0000,0000,,Each of these unusual customers used \Nlarge quantities of vinegar, soy sauce,
+Dialogue: 0,0:00:22.09,0:00:23.79,DCMain,CONAN,0000,0000,0000,,and pepper in their food respectively.
+Dialogue: 0,0:00:25.29,0:00:29.11,DCMain,CONAN,0000,0000,0000,,According to officers Miyamoto \NYumi and Miike Naeko,
+Dialogue: 0,0:00:29.11,0:00:32.54,DCMain,CONAN,0000,0000,0000,,who arrived as the three \Nof them were leaving,
+Dialogue: 0,0:00:32.54,0:00:37.51,DCMain,CONAN,0000,0000,0000,,they were suspects in the robbery \Nmurder case that happened in the area.
+Dialogue: 0,0:00:38.63,0:00:42.98,DCMain,NAEKO,0000,0000,0000,,A week ago while Yumi-san and \NI were patrolling the area...
+Dialogue: 0,0:00:44.65,0:00:46.28,DCItalic,YUMI,0000,0000,0000,,You there!
+Dialogue: 0,0:00:46.28,0:00:47.48,DCItalic,YUMI,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:00:49.45,0:00:50.48,DCItalic,YUMI,0000,0000,0000,,Hold it right there!
+Dialogue: 0,0:00:51.20,0:00:54.91,DCMain,NAEKO,0000,0000,0000,,I circled around and waited for them,
+Dialogue: 0,0:00:54.91,0:00:56.92,DCMain,NAEKO,0000,0000,0000,,but only Yumi-san ever showed up.
+Dialogue: 0,0:00:58.02,0:01:01.06,DCMain,NAEKO,0000,0000,0000,,There was a get together at \Nthe shopping center that day,
+Dialogue: 0,0:01:01.06,0:01:04.74,DCMain,NAEKO,0000,0000,0000,,so most of the shops had their lights \Noff, and there weren't many passers-by.
+Dialogue: 0,0:01:04.74,0:01:11.17,DCMain,YUMI,0000,0000,0000,,The only place open was this \N"Ramen to Die For Ramen Ogura."
+Dialogue: 0,0:01:11.34,0:01:18.78,DCMain,CONAN,0000,0000,0000,,Then wouldn't the last customer to \Nrush into the shop be the culprit?
+Dialogue: 0,0:01:18.78,0:01:23.99,DCMain,SAYO,0000,0000,0000,,Actually, just like today, the three of \Nthem arrived at roughly the same time.
+Dialogue: 0,0:01:23.99,0:01:29.18,DCMain,SAYO,0000,0000,0000,,And the lady cops didn't \Nshow up until a while later.
+Dialogue: 0,0:01:29.18,0:01:29.92,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:01:29.92,0:01:32.15,DCMain,CONAN,0000,0000,0000,,I thought Yumi-san ran after the culprit.
+Dialogue: 0,0:01:32.39,0:01:37.31,DCMain,NAEKO,0000,0000,0000,,Apparently, she tripped \Nwhile chasing the culprit.
+Dialogue: 0,0:01:38.04,0:01:40.70,DCMain,YUMI,0000,0000,0000,,I only tripped because of the hose.
+Dialogue: 0,0:01:41.15,0:01:41.99,DCMain,CONAN,0000,0000,0000,,The hose?
+Dialogue: 0,0:01:42.25,0:01:46.08,DCMain,YUMI,0000,0000,0000,,While I was chasing him, \Nthe culprit threw a hose at me.
+Dialogue: 0,0:01:46.51,0:01:49.25,DCMain,NAEKO,0000,0000,0000,,At first we thought it was the murder weapon.
+Dialogue: 0,0:01:49.48,0:01:51.76,DCMain,SERA,0000,0000,0000,,Why did you think it was the weapon?
+Dialogue: 0,0:01:51.76,0:01:55.51,DCMain,SERA,0000,0000,0000,,Wasn't the victim's head bleeding?
+Dialogue: 0,0:01:55.82,0:01:58.58,DCMain,NAEKO,0000,0000,0000,,When we first saw the culprit,
+Dialogue: 0,0:01:58.90,0:02:04.01,DCMain,NAEKO,0000,0000,0000,,they were swinging the hose around in \Nthe entryway of the victim's house.
+Dialogue: 0,0:02:04.50,0:02:06.52,DCItalic,SERA,0000,0000,0000,,The culprit was swinging...
+Dialogue: 0,0:02:06.52,0:02:08.57,DCItalic,CONAN,0000,0000,0000,,...a hose?
+Dialogue: 0,0:02:09.28,0:02:11.84,DCMain,OGURA,0000,0000,0000,,Speaking of remembering things,
+Dialogue: 0,0:02:11.84,0:02:16.49,DCMain,OGURA,0000,0000,0000,,there was another customer here \Naround the time of the incident...
+Dialogue: 0,0:02:17.30,0:02:18.61,DCItalic,CONAN,0000,0000,0000,,A-Another customer?
+Dialogue: 0,0:02:18.61,0:02:19.99,DCMain,SERA,0000,0000,0000,,Here?
+Dialogue: 0,0:02:24.84,0:02:26.62,DCMain,CONAN,0000,0000,0000,,A canvas stained black with crime.
+Dialogue: 0,0:02:26.62,0:02:28.69,DCMain,CONAN,0000,0000,0000,,With brilliant detective \Nskills, its color is changed!
+Dialogue: 0,0:02:29.10,0:02:30.98,DCMain,CONAN,0000,0000,0000,,A fourth dangerous customer was in the shop?
+Dialogue: 0,0:02:30.98,0:02:33.16,DCMain,CONAN,0000,0000,0000,,Who is the culprit who swung \Nthe hose around their head?
+Dialogue: 0,0:02:33.16,0:02:36.82,DCMain,CONAN,0000,0000,0000,,Always determining the one truth with the \Nbody of a child and the mind of an adult,
+Dialogue: 0,0:02:36.82,0:02:39.47,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:18.98,0:04:24.99,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(404,1)}Ramen to Die For: 2 \N(Part Two)
+Dialogue: 0,0:04:19.75,0:04:23.34,DCMain,CONAN,0000,0000,0000,,"Ramen to Die For: 2, Part Two!"
+Dialogue: 0,0:04:25.64,0:04:28.08,DCMain,NAEKO,0000,0000,0000,,W-Wait a minute!
+Dialogue: 0,0:04:28.43,0:04:32.20,DCMain,NAEKO,0000,0000,0000,,There were only three customers here
+Dialogue: 0,0:04:32.20,0:04:35.35,DCMain,NAEKO,0000,0000,0000,,when we ran into the store that day.
+Dialogue: 0,0:04:35.35,0:04:39.51,DCMain,OGURA,0000,0000,0000,,Yeah, because about a minute \Nbefore the three of them arrived,
+Dialogue: 0,0:04:39.51,0:04:41.92,DCMain,OGURA,0000,0000,0000,,he finished his ramen and left.
+Dialogue: 0,0:04:42.28,0:04:44.08,DCMain,OGURA,0000,0000,0000,,Yumi-chan's boyfriend, that is.
+Dialogue: 0,0:04:45.15,0:04:47.93,DCItalic,SHUKICHI,0000,0000,0000,,This place has the best ramen.
+Dialogue: 0,0:04:48.22,0:04:50.26,DCItalic,BOTH,0000,0000,0000,,What? Haneda-meijin was here?
+Dialogue: 0,0:04:52.01,0:04:54.10,DCMain,NAEKO,0000,0000,0000,,B-But that's not possible.
+Dialogue: 0,0:04:54.56,0:04:56.30,DCMain,NAEKO,0000,0000,0000,,Didn't I tell you earlier?
+Dialogue: 0,0:04:56.30,0:05:00.30,DCMain,NAEKO,0000,0000,0000,,Yumi-san and I flanked the culprit \Nwho was running down the street
+Dialogue: 0,0:05:00.30,0:05:04.74,DCMain,NAEKO,0000,0000,0000,,in front of this shop and \Nchased him into here.
+Dialogue: 0,0:05:05.43,0:05:09.92,DCMain,NAEKO,0000,0000,0000,,If her boyfriend left just before \Nthe culprit entered the shop,
+Dialogue: 0,0:05:09.92,0:05:12.60,DCMain,NAEKO,0000,0000,0000,,Yumi-san or I would've seen him.
+Dialogue: 0,0:05:12.60,0:05:13.70,DCMain,NAEKO,0000,0000,0000,,Right?
+Dialogue: 0,0:05:19.58,0:05:20.99,DCMain,YUMI,0000,0000,0000,,W-Well, actually...
+Dialogue: 0,0:05:21.40,0:05:22.44,DCMain,NAEKO,0000,0000,0000,,What?
+Dialogue: 0,0:05:22.44,0:05:25.17,DCMain,NAEKO,0000,0000,0000,,You ran into him in the street?
+Dialogue: 0,0:05:28.08,0:05:31.08,DCMain,NAEKO,0000,0000,0000,,This is while you were \Npursuing the culprit, right?
+Dialogue: 0,0:05:31.45,0:05:33.18,DCMain,YUMI,0000,0000,0000,,Well, yeah.
+Dialogue: 0,0:05:33.54,0:05:36.72,DCMain,YUMI,0000,0000,0000,,He ran up to me when my feet got tangled
+Dialogue: 0,0:05:36.72,0:05:39.56,DCMain,YUMI,0000,0000,0000,,in the hose the culprit \Nthrew at me and I tripped.
+Dialogue: 0,0:05:39.73,0:05:41.59,DCItalic,YUMI,0000,0000,0000,,Ow, ow, ow...
+Dialogue: 0,0:05:42.14,0:05:43.44,DCItalic,SHUKICHI,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:05:44.90,0:05:46.36,DCItalic,YUMI,0000,0000,0000,,Ch-Chukichi?
+Dialogue: 0,0:05:46.36,0:05:47.49,DCItalic,SHUKICHI,0000,0000,0000,,Y-Yumi-san?
+Dialogue: 0,0:05:47.78,0:05:50.46,DCItalic,YUMI,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:05:50.46,0:05:51.49,DCItalic,SHUKICHI,0000,0000,0000,,What about you?
+Dialogue: 0,0:05:51.73,0:05:54.46,DCItalic,YUMI,0000,0000,0000,,I'm chasing a suspicious figure.
+Dialogue: 0,0:05:54.46,0:05:55.83,DCItalic,YUMI,0000,0000,0000,,Did you pass anyone like that?
+Dialogue: 0,0:05:56.44,0:05:57.75,DCItalic,SHUKICHI,0000,0000,0000,,Yeah, just now.
+Dialogue: 0,0:05:58.03,0:06:02.25,DCItalic,SHUKICHI,0000,0000,0000,,But it was dark. I only heard their \Nfootsteps and saw a silhouette.
+Dialogue: 0,0:06:02.77,0:06:04.06,DCItalic,YUMI,0000,0000,0000,,A silhouette, huh?
+Dialogue: 0,0:06:04.06,0:06:07.26,DCItalic,SHUKICHI,0000,0000,0000,,Also, it looked like they threw \Naway some kind of packing tape.
+Dialogue: 0,0:06:09.08,0:06:10.51,DCItalic,YUMI,0000,0000,0000,,Packing tape?
+Dialogue: 0,0:06:11.24,0:06:14.87,DCItalic,YUMI,0000,0000,0000,,In any case, the area's \Ndangerous. You should go home.
+Dialogue: 0,0:06:14.87,0:06:17.10,DCItalic,YUMI,0000,0000,0000,,I'll fill you in on the details later.
+Dialogue: 0,0:06:19.49,0:06:22.56,DCMain,YUMI,0000,0000,0000,,And I haven't called him since.
+Dialogue: 0,0:06:22.89,0:06:25.18,DCMain,YUMI,0000,0000,0000,,After all, the case hasn't been solved yet.
+Dialogue: 0,0:06:26.52,0:06:30.82,DCMain,NAEKO,0000,0000,0000,,No wonder you took so long even \Nthough all you did was trip.
+Dialogue: 0,0:06:30.82,0:06:32.34,DCMain,NAEKO,0000,0000,0000,,You should've told me.
+Dialogue: 0,0:06:32.34,0:06:33.27,DCMain,YUMI,0000,0000,0000,,Sorry.
+Dialogue: 0,0:06:33.27,0:06:38.54,DCMain,YUMI,0000,0000,0000,,He was breathing normally, \Nso I knew he wasn't the culprit.
+Dialogue: 0,0:06:38.54,0:06:41.29,DCMain,YUMI,0000,0000,0000,,I didn't want to get him \Ninvolved in the case.
+Dialogue: 0,0:06:41.48,0:06:45.11,DCMain,SONOKO,0000,0000,0000,,Yeah, but just because he \Nwas breathing normally...
+Dialogue: 0,0:06:45.11,0:06:45.72,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:06:45.72,0:06:46.94,DCMain,SERA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:46.94,0:06:49.54,DCMain,SERA,0000,0000,0000,,I'm not sure a police officer \Nshould've let him go
+Dialogue: 0,0:06:49.54,0:06:51.98,DCMain,SERA,0000,0000,0000,,without doing anything about it.
+Dialogue: 0,0:06:51.98,0:06:53.22,DCMain,RAN,0000,0000,0000,,B-But...
+Dialogue: 0,0:06:54.68,0:06:59.36,DCMain,YUMI,0000,0000,0000,,But if he was eating ramen here \Nuntil just before the incident,
+Dialogue: 0,0:06:59.36,0:07:01.73,DCMain,YUMI,0000,0000,0000,,Chukichi must be innocent, right?
+Dialogue: 0,0:07:01.73,0:07:03.01,DCMain,OGURA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:03.61,0:07:07.08,DCMain,SERA,0000,0000,0000,,So your boyfriend's name is Chukichi, huh?
+Dialogue: 0,0:07:07.08,0:07:08.49,DCMain,YUMI,0000,0000,0000,,He's my ex-boyfriend.
+Dialogue: 0,0:07:08.77,0:07:11.52,DCMain,CONAN,0000,0000,0000,,Then why don't you call him?
+Dialogue: 0,0:07:11.52,0:07:13.99,DCMain,CONAN,0000,0000,0000,,Doesn't your boyfriend have a good memory?
+Dialogue: 0,0:07:14.20,0:07:15.54,DCMain,YUMI,0000,0000,0000,,My ex-boyfriend.
+Dialogue: 0,0:07:15.54,0:07:18.00,DCMain,YUMI,0000,0000,0000,,Sheesh. I guess I don't have a choice.
+Dialogue: 0,0:07:18.28,0:07:20.86,DCMain,SERA,0000,0000,0000,,I'll try calling my brother, too.
+Dialogue: 0,0:07:20.86,0:07:23.74,DCMain,SERA,0000,0000,0000,,He's the one who told me about this place,
+Dialogue: 0,0:07:23.74,0:07:26.05,DCMain,SERA,0000,0000,0000,,so he might've seen those three before.
+Dialogue: 0,0:07:26.43,0:07:27.27,DCMain,RAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:27.27,0:07:31.56,DCMain,SONOKO,0000,0000,0000,,Maybe he'll know who did it after \Nhearing about it over the phone.
+Dialogue: 0,0:07:31.56,0:07:32.51,DCMain,RAN,0000,0000,0000,,Yeah, right.
+Dialogue: 0,0:07:35.29,0:07:36.51,DCMain,SHUKICHI,0000,0000,0000,,Hello, Yumi-tan.
+Dialogue: 0,0:07:37.04,0:07:41.48,DCMain,SHUKICHI,0000,0000,0000,,Sorry I couldn't make our date the other day.
+Dialogue: 0,0:07:41.48,0:07:43.32,DCMain,SHUKICHI,0000,0000,0000,,There was something I had
+Dialogue: 0,0:07:43.32,0:07:45.11,DCItalic,SHUKICHI,0000,0000,0000,,to do on your day off.
+Dialogue: 0,0:07:45.11,0:07:47.26,DCMain,YUMI,0000,0000,0000,,That's not important.
+Dialogue: 0,0:07:47.63,0:07:48.45,DCMain,YUMI,0000,0000,0000,,Do you remember
+Dialogue: 0,0:07:49.05,0:07:53.04,DCItalic,YUMI,0000,0000,0000,,a week ago when we ran into each other?
+Dialogue: 0,0:07:53.04,0:07:54.93,DCItalic,YUMI,0000,0000,0000,,I tripped while pursuing a suspicious figure.
+Dialogue: 0,0:07:55.31,0:07:56.31,DCMain,SHUKICHI,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:07:56.31,0:07:57.32,DCMain,SHUKICHI,0000,0000,0000,,Someone's calling.
+Dialogue: 0,0:07:57.32,0:07:58.16,DCMain,SHUKICHI,0000,0000,0000,,Give me a second.
+Dialogue: 0,0:07:58.97,0:08:00.18,DCMain,SERA,0000,0000,0000,,Hey, Bro.
+Dialogue: 0,0:08:00.18,0:08:01.18,DCMain,YUMI,0000,0000,0000,,Sheesh.
+Dialogue: 0,0:08:02.16,0:08:02.74,DCMain,SERA,0000,0000,0000,,What?
+Dialogue: 0,0:08:02.74,0:08:05.54,DCMain,SERA,0000,0000,0000,,You're on the phone with someone \Nimportant, so call you back?
+Dialogue: 0,0:08:05.54,0:08:06.45,DCMain,SERA,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:08:06.45,0:08:07.19,DCMain,YUMI,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:07.70,0:08:09.35,DCMain,YUMI,0000,0000,0000,,You're already done with your call?
+Dialogue: 0,0:08:09.35,0:08:10.42,DCMain,YUMI,0000,0000,0000,,Who was that?
+Dialogue: 0,0:08:10.79,0:08:12.53,DCMain,YUMI,0000,0000,0000,,Your new girlfriend?
+Dialogue: 0,0:08:12.53,0:08:13.63,DCItalic,SHUKICHI,0000,0000,0000,,No!
+Dialogue: 0,0:08:14.12,0:08:15.93,DCMain,SERA,0000,0000,0000,,Damn, he hung up on me.
+Dialogue: 0,0:08:16.59,0:08:19.22,DCItalic,CONAN,0000,0000,0000,,Their conversations are \Nweirdly synchronized...
+Dialogue: 0,0:08:19.45,0:08:20.82,DCMain,YUMI,0000,0000,0000,,Well, whatever.
+Dialogue: 0,0:08:20.82,0:08:24.72,DCMain,YUMI,0000,0000,0000,,Anyway, is there anything \Nyou haven't told me
+Dialogue: 0,0:08:24.72,0:08:26.90,DCMain,YUMI,0000,0000,0000,,about the person you passed by?
+Dialogue: 0,0:08:27.08,0:08:29.30,DCMain,SHUKICHI,0000,0000,0000,,Anything I haven't told you?
+Dialogue: 0,0:08:30.17,0:08:31.38,DCMain,SHUKICHI,0000,0000,0000,,Now that you mention it,
+Dialogue: 0,0:08:31.38,0:08:34.86,DCMain,SHUKICHI,0000,0000,0000,,they were making a weird sound \Nwith every step they took.
+Dialogue: 0,0:08:34.86,0:08:36.41,DCMain,SHUKICHI,0000,0000,0000,,A click-click sound.
+Dialogue: 0,0:08:36.68,0:08:37.56,DCMain,YUMI,0000,0000,0000,,What?
+Dialogue: 0,0:08:37.56,0:08:40.16,DCMain,YUMI,0000,0000,0000,,They made a weird click-click \Nsound with every step they took?
+Dialogue: 0,0:08:41.29,0:08:44.79,DCMain,YUMI,0000,0000,0000,,Oh, not click-click, but click... click...
+Dialogue: 0,0:08:45.16,0:08:48.02,DCItalic,CONAN,0000,0000,0000,,Not click-click, but click... click...
+Dialogue: 0,0:08:48.48,0:08:50.18,DCItalic,SERA,0000,0000,0000,,Every time they took a step?
+Dialogue: 0,0:08:51.18,0:08:52.05,DCItalic,SERA,0000,0000,0000,,That's it!
+Dialogue: 0,0:08:52.91,0:08:55.28,DCItalic,CONAN,0000,0000,0000,,The culprit did that to pick those up.
+Dialogue: 0,0:08:55.97,0:09:00.96,DCMain,CONAN,0000,0000,0000,,Hey. When you searched the shop, \Ndid you check the bathroom?
+Dialogue: 0,0:09:00.96,0:09:02.22,DCMain,NAEKO,0000,0000,0000,,Of course.
+Dialogue: 0,0:09:02.58,0:09:04.34,DCMain,SERA,0000,0000,0000,,What about the water tank?
+Dialogue: 0,0:09:04.34,0:09:08.23,DCMain,NAEKO,0000,0000,0000,,We glanced inside, but we didn't see \Nanything that looked like jewelry.
+Dialogue: 0,0:09:14.81,0:09:15.70,DCMain,SONOKO,0000,0000,0000,,Sera-chan?
+Dialogue: 0,0:09:15.70,0:09:16.70,DCMain,RAN,0000,0000,0000,,Conan-kun?
+Dialogue: 0,0:09:18.04,0:09:19.70,DCMain,OGURA,0000,0000,0000,,H-Hey...
+Dialogue: 0,0:09:25.40,0:09:26.82,DCItalic,SERA,0000,0000,0000,,I see.
+Dialogue: 0,0:09:26.82,0:09:29.71,DCItalic,SERA,0000,0000,0000,,So that's why the culprit \Nwas swinging the hose.
+Dialogue: 0,0:09:30.03,0:09:32.58,DCItalic,CONAN,0000,0000,0000,,They couldn't leave this at the crime scene.
+Dialogue: 0,0:09:33.22,0:09:37.11,DCItalic,CONAN,0000,0000,0000,,And if they're still coming \Nhere, that means...
+Dialogue: 0,0:09:38.20,0:09:40.47,DCItalic,SERA,0000,0000,0000,,They haven't been able to retrieve it yet.
+Dialogue: 0,0:09:40.82,0:09:44.48,DCItalic,CONAN,0000,0000,0000,,Their million yen treasure.
+Dialogue: 0,0:09:49.61,0:09:52.48,NextDay,TEXT,0000,0000,0000,,{\fad(625,1)}The Next Day
+Dialogue: 0,0:09:56.74,0:09:57.76,DCMain,OGURA,0000,0000,0000,,Welcome!
+Dialogue: 0,0:09:57.76,0:09:58.82,DCMain,OHASHI,0000,0000,0000,,Welcome!
+Dialogue: 0,0:09:58.82,0:10:00.02,DCMain,OGURA,0000,0000,0000,,Thanks for coming!
+Dialogue: 0,0:10:00.68,0:10:02.33,DCMain,MIZUSHINA,0000,0000,0000,,No customers today, huh?
+Dialogue: 0,0:10:03.61,0:10:07.08,DCMain,OHASHI,0000,0000,0000,,There was a group in here until a minute ago.
+Dialogue: 0,0:10:07.27,0:10:08.54,DCMain,MIZUSHINA,0000,0000,0000,,Really?
+Dialogue: 0,0:10:18.26,0:10:19.56,DCMain,SERA,0000,0000,0000,,Yo!
+Dialogue: 0,0:10:20.02,0:10:21.64,DCMain,SERA,0000,0000,0000,,We're back, Boss.
+Dialogue: 0,0:10:21.64,0:10:22.44,DCMain,OGURA,0000,0000,0000,,Hey.
+Dialogue: 0,0:10:22.44,0:10:24.90,DCMain,OGURA,0000,0000,0000,,You're here with the kid today, Mari-chan?
+Dialogue: 0,0:10:24.90,0:10:27.35,DCMain,SERA,0000,0000,0000,,My name's Masumi.
+Dialogue: 0,0:10:28.05,0:10:30.07,DCMain,MIZUSHINA,0000,0000,0000,,Boss, could I place an order?
+Dialogue: 0,0:10:30.07,0:10:30.85,DCMain,OGURA,0000,0000,0000,,Sure thing.
+Dialogue: 0,0:10:31.12,0:10:33.96,DCMain,MIZUSHINA,0000,0000,0000,,Could I get one order each of pot \Nstickers, shumai, spring rolls,
+Dialogue: 0,0:10:34.29,0:10:36.23,DCMain,MIZUSHINA,0000,0000,0000,,and a small rice?
+Dialogue: 0,0:10:36.23,0:10:37.36,DCMain,OGURA,0000,0000,0000,,What?
+Dialogue: 0,0:10:37.36,0:10:39.23,DCMain,OGURA,0000,0000,0000,,You're not having ramen today, either?
+Dialogue: 0,0:10:39.23,0:10:40.66,DCMain,OGURA,0000,0000,0000,,Are you sick of it?
+Dialogue: 0,0:10:40.84,0:10:43.95,DCMain,MIZUSHINA,0000,0000,0000,,Oh, no. It's not like that.
+Dialogue: 0,0:10:44.35,0:10:47.91,DCMain,OHASHI,0000,0000,0000,,He used to be all about the \NJudge of the Afterlife ramen.
+Dialogue: 0,0:10:47.91,0:10:49.96,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:10:49.96,0:10:54.46,DCMain,CONAN,0000,0000,0000,,But if that's the case, \Nwhy did you sit there?
+Dialogue: 0,0:10:54.67,0:10:55.59,DCMain,MIZUSHINA,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:55.76,0:10:58.09,DCMain,CONAN,0000,0000,0000,,There's not much soy sauce.
+Dialogue: 0,0:10:59.48,0:11:02.26,DCMain,CONAN,0000,0000,0000,,It'll run out soon.
+Dialogue: 0,0:11:02.54,0:11:07.92,DCMain,CONAN,0000,0000,0000,,Don't you eat pot stickers, shumai, \Nand spring rolls with soy sauce?
+Dialogue: 0,0:11:07.92,0:11:10.12,DCMain,CONAN,0000,0000,0000,,You were using a lot yesterday, too.
+Dialogue: 0,0:11:10.46,0:11:14.02,DCMain,CONAN,0000,0000,0000,,And you used a different soy sauce \Ncontainer when yours ran out.
+Dialogue: 0,0:11:14.25,0:11:15.86,DCMain,MIZUSHINA,0000,0000,0000,,Uh, well...
+Dialogue: 0,0:11:16.08,0:11:21.74,DCMain,CONAN,0000,0000,0000,,And there was nobody else \Nhere until we arrived.
+Dialogue: 0,0:11:22.18,0:11:25.89,DCMain,CONAN,0000,0000,0000,,So why did you sit at a seat \Nthat had so little soy sauce?
+Dialogue: 0,0:11:25.89,0:11:27.41,DCMain,CONAN,0000,0000,0000,,Why?
+Dialogue: 0,0:11:28.04,0:11:29.12,DCMain,MIZUSHINA,0000,0000,0000,,Um...
+Dialogue: 0,0:11:29.29,0:11:34.63,DCMain,SERA,0000,0000,0000,,Just because he's ordering \Ndishes that require soy sauce,
+Dialogue: 0,0:11:34.90,0:11:39.29,DCMain,SERA,0000,0000,0000,,doesn't mean he'd check how much soy \Nsauce is left at each seat beforehand.
+Dialogue: 0,0:11:39.29,0:11:41.88,DCMain,SERA,0000,0000,0000,,It's just a coincidence \Nthat you sat there, right?
+Dialogue: 0,0:11:42.86,0:11:43.89,DCMain,MIZUSHINA,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:11:44.26,0:11:46.61,DCMain,SERA,0000,0000,0000,,They're not popsicles.
+Dialogue: 0,0:11:46.61,0:11:50.98,DCMain,SERA,0000,0000,0000,,There's no prize at the bottom \Nof a soy sauce container.
+Dialogue: 0,0:11:47.19,0:11:50.98,Winner,TEXT,0000,0000,0000,,{\fad(460,1)}WINNER
+Dialogue: 0,0:11:51.63,0:11:52.73,DCMain,SERA,0000,0000,0000,,Right?
+Dialogue: 0,0:11:56.73,0:12:00.39,DCMain,SATO,0000,0000,0000,,Boss, could I get a large \NJudge of the Afterlife ramen,
+Dialogue: 0,0:12:00.39,0:12:01.80,DCMain,SATO,0000,0000,0000,,pot stickers, and fried rice?
+Dialogue: 0,0:12:01.80,0:12:03.11,DCMain,TAKAGI,0000,0000,0000,,H-Hold on, Sato...
+Dialogue: 0,0:12:03.43,0:12:06.86,DCMain,TAKAGI,0000,0000,0000,,Satoko-san, if you eat \Nthat much, you'll get fat.
+Dialogue: 0,0:12:06.86,0:12:09.62,DCMain,SATO,0000,0000,0000,,I'll be fine, Taka... o-kun.
+Dialogue: 0,0:12:11.83,0:12:14.46,DCMain,SATO,0000,0000,0000,,I'm planning on getting a \Nlot of exercise tonight.
+Dialogue: 0,0:12:21.15,0:12:23.34,DCMain,TAKAGI,0000,0000,0000,,B-By the way, have you heard?
+Dialogue: 0,0:12:23.34,0:12:27.18,DCMain,TAKAGI,0000,0000,0000,,There was a murder in this \Nneighborhood last week.
+Dialogue: 0,0:12:27.18,0:12:28.27,DCMain,SATO,0000,0000,0000,,What?!
+Dialogue: 0,0:12:28.27,0:12:29.47,DCMain,SATO,0000,0000,0000,,I had no idea!
+Dialogue: 0,0:12:29.86,0:12:33.98,DCMain,TAKAGI,0000,0000,0000,,A woman who returned home \Nto get something she forgot
+Dialogue: 0,0:12:33.98,0:12:35.88,DCMain,TAKAGI,0000,0000,0000,,and ran into a thief.
+Dialogue: 0,0:12:35.88,0:12:38.44,DCMain,TAKAGI,0000,0000,0000,,The thief pushed her as he tried to escape.
+Dialogue: 0,0:12:38.44,0:12:43.05,DCMain,TAKAGI,0000,0000,0000,,She hit her head on the stairs \Nin the entryway and died.
+Dialogue: 0,0:12:43.05,0:12:46.54,DCMain,TAKAGI,0000,0000,0000,,But the thief didn't leave right away.
+Dialogue: 0,0:12:46.54,0:12:50.99,DCMain,TAKAGI,0000,0000,0000,,He kept swinging around \Na two meter long hose.
+Dialogue: 0,0:12:51.89,0:12:53.33,DCMain,TAKAGI,0000,0000,0000,,Creepy, right?
+Dialogue: 0,0:12:53.99,0:12:55.75,DCMain,SATO,0000,0000,0000,,Seriously? What is that?
+Dialogue: 0,0:12:55.95,0:12:58.06,DCMain,SATO,0000,0000,0000,,I'm so scared!
+Dialogue: 0,0:12:59.47,0:13:03.26,DCMain,SERA,0000,0000,0000,,Hey, did that hose the \Nculprit was swinging around
+Dialogue: 0,0:13:03.50,0:13:06.08,DCMain,SERA,0000,0000,0000,,have anything stuck to the end of it?
+Dialogue: 0,0:13:06.08,0:13:06.76,DCMain,TAKAGI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:07.09,0:13:09.22,DCMain,TAKAGI,0000,0000,0000,,According to the police,
+Dialogue: 0,0:13:09.22,0:13:13.76,DCMain,TAKAGI,0000,0000,0000,,there were signs that packing tape had \Nbeen attached to one end of the hose.
+Dialogue: 0,0:13:13.76,0:13:16.27,DCMain,TAKAGI,0000,0000,0000,,Something may have been stuck to it.
+Dialogue: 0,0:13:17.01,0:13:19.17,DCMain,SATO,0000,0000,0000,,What was it?
+Dialogue: 0,0:13:19.17,0:13:23.38,DCMain,SERA,0000,0000,0000,,If the object taped to the end of the \Nhose were a breathable piece of cloth,
+Dialogue: 0,0:13:23.38,0:13:26.70,DCMain,SERA,0000,0000,0000,,and he swung the hose around above his head,
+Dialogue: 0,0:13:27.30,0:13:29.72,DCMain,SERA,0000,0000,0000,,it would've functioned as a vacuum cleaner.
+Dialogue: 0,0:13:29.72,0:13:34.72,DCMain,SERA,0000,0000,0000,,The centrifugal force forces \Nthe air inside the hose out,
+Dialogue: 0,0:13:35.16,0:13:39.58,DCMain,SERA,0000,0000,0000,,and an amount equal to the air forced \Nout is sucked in through the other end.
+Dialogue: 0,0:13:40.30,0:13:43.32,DCMain,SERA,0000,0000,0000,,I saw it performed in an \Nexperiment on TV the other day.
+Dialogue: 0,0:13:43.32,0:13:45.72,DCMain,SERA,0000,0000,0000,,Maybe the culprit saw it, too.
+Dialogue: 0,0:13:45.72,0:13:46.88,DCMain,SATO,0000,0000,0000,,Really?
+Dialogue: 0,0:13:47.74,0:13:50.26,DCMain,SATO,0000,0000,0000,,But what could he have used \Nfor the breathable fabric?
+Dialogue: 0,0:13:50.46,0:13:51.76,DCMain,SERA,0000,0000,0000,,Who knows?
+Dialogue: 0,0:13:51.76,0:13:54.79,DCMain,SERA,0000,0000,0000,,Apparently the hose \Nbelonged to the homeowner,
+Dialogue: 0,0:13:54.79,0:13:56.94,DCMain,SERA,0000,0000,0000,,so it must've either been \Nsomething at the house,
+Dialogue: 0,0:13:56.94,0:14:00.11,DCMain,SERA,0000,0000,0000,,or something the culprit had with them.
+Dialogue: 0,0:14:00.82,0:14:05.24,DCMain,SERA,0000,0000,0000,,But the texture of a handkerchief would \Nbe too fine to serve as a filter.
+Dialogue: 0,0:14:05.87,0:14:07.66,DCMain,SERA,0000,0000,0000,,Is there some kind of cloth
+Dialogue: 0,0:14:07.66,0:14:11.50,DCMain,SERA,0000,0000,0000,,that allows air through but \Ndoesn't have large holes?
+Dialogue: 0,0:14:11.50,0:14:15.19,DCMain,CONAN,0000,0000,0000,,Maybe it was a mask.
+Dialogue: 0,0:14:15.19,0:14:17.84,DCMain,CONAN,0000,0000,0000,,You can breathe through a mask,
+Dialogue: 0,0:14:17.84,0:14:20.25,DCMain,CONAN,0000,0000,0000,,but it doesn't let dust through.
+Dialogue: 0,0:14:20.44,0:14:22.25,DCMain,SERA,0000,0000,0000,,Hey, that's right.
+Dialogue: 0,0:14:22.25,0:14:22.97,DCMain,CONAN,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:14:22.97,0:14:24.67,DCMain,CONAN,0000,0000,0000,,Speaking of masks,
+Dialogue: 0,0:14:25.07,0:14:29.30,DCMain,CONAN,0000,0000,0000,,didn't you have one the day of the incident?
+Dialogue: 0,0:14:29.98,0:14:32.72,DCMain,MIZUSHINA,0000,0000,0000,,I-I had a bit of a cold that day.
+Dialogue: 0,0:14:32.95,0:14:34.43,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:14:34.62,0:14:40.31,DCMain,SERA,0000,0000,0000,,But what did he need to vacuum \Nup before running away?
+Dialogue: 0,0:14:40.57,0:14:41.67,DCMain,TAKAGI,0000,0000,0000,,Oh, that's right.
+Dialogue: 0,0:14:41.67,0:14:44.77,DCMain,TAKAGI,0000,0000,0000,,The policewoman who told \Nme about the case
+Dialogue: 0,0:14:44.77,0:14:50.02,DCMain,TAKAGI,0000,0000,0000,,said a guy who passed by the \Nculprit heard a weird noise.
+Dialogue: 0,0:14:50.02,0:14:50.70,DCMain,SATO,0000,0000,0000,,A noise?
+Dialogue: 0,0:14:50.98,0:14:52.00,DCMain,TAKAGI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:52.00,0:14:54.03,DCMain,TAKAGI,0000,0000,0000,,Every time the culprit took a step,
+Dialogue: 0,0:14:54.03,0:14:57.85,DCMain,TAKAGI,0000,0000,0000,,he made a click... click sound.
+Dialogue: 0,0:14:57.85,0:14:59.96,DCMain,SATO,0000,0000,0000,,Click... click?
+Dialogue: 0,0:15:00.16,0:15:03.73,DCMain,SATO,0000,0000,0000,,Maybe something was stuck \Nto one of his shoes.
+Dialogue: 0,0:15:04.18,0:15:08.24,DCMain,SATO,0000,0000,0000,,Maybe he accidentally stepped \Non something hard and sharp
+Dialogue: 0,0:15:08.24,0:15:09.97,DCMain,SATO,0000,0000,0000,,that got stuck to the sole of his shoe.
+Dialogue: 0,0:15:10.68,0:15:13.66,DCMain,SERA,0000,0000,0000,,But what did he step on?
+Dialogue: 0,0:15:14.02,0:15:16.77,DCMain,SERA,0000,0000,0000,,It was more important than fleeing the scene.
+Dialogue: 0,0:15:16.99,0:15:20.62,DCMain,CONAN,0000,0000,0000,,Maybe it was glasses.
+Dialogue: 0,0:15:20.92,0:15:23.15,DCMain,CONAN,0000,0000,0000,,The lenses would break \Nif you stepped on them.
+Dialogue: 0,0:15:23.91,0:15:25.52,DCMain,TAKAGI,0000,0000,0000,,That must be it!
+Dialogue: 0,0:15:25.52,0:15:28.29,DCMain,TAKAGI,0000,0000,0000,,The culprit must've dropped his \Nglasses and stepped on them
+Dialogue: 0,0:15:28.29,0:15:30.65,DCMain,TAKAGI,0000,0000,0000,,when he got into a fight with the woman.
+Dialogue: 0,0:15:30.97,0:15:34.87,DCMain,TAKAGI,0000,0000,0000,,That's why he collected the \Nshards of the broken lenses
+Dialogue: 0,0:15:34.87,0:15:37.41,DCMain,TAKAGI,0000,0000,0000,,using the hose vacuum before running away.
+Dialogue: 0,0:15:37.88,0:15:39.50,DCMain,TAKAGI,0000,0000,0000,,The type and prescription of a lens
+Dialogue: 0,0:15:39.50,0:15:41.59,DCMain,TAKAGI,0000,0000,0000,,can be determined from the smallest piece.
+Dialogue: 0,0:15:41.59,0:15:44.32,DCMain,TAKAGI,0000,0000,0000,,The police would've known who bought it.
+Dialogue: 0,0:15:44.66,0:15:47.42,DCMain,SATO,0000,0000,0000,,Wow, the police are so amazing!
+Dialogue: 0,0:15:47.65,0:15:48.44,DCMain,MIZUSHINA,0000,0000,0000,,Bo—
+Dialogue: 0,0:15:50.81,0:15:51.66,DCMain,MIZUSHINA,0000,0000,0000,,Boss!
+Dialogue: 0,0:15:51.66,0:15:54.58,DCMain,MIZUSHINA,0000,0000,0000,,I was wearing my glasses that day, right?!
+Dialogue: 0,0:15:54.58,0:15:55.49,DCMain,OGURA,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:55.49,0:15:57.47,DCMain,OGURA,0000,0000,0000,,Yeah, you were.
+Dialogue: 0,0:15:57.79,0:16:01.48,DCMain,SERA,0000,0000,0000,,But didn't you have
+Dialogue: 0,0:16:02.20,0:16:03.73,DCMain,SERA,0000,0000,0000,,a glasses case with you?
+Dialogue: 0,0:16:03.90,0:16:06.73,DCMain,MIZUSHINA,0000,0000,0000,,S-So, what?
+Dialogue: 0,0:16:07.26,0:16:09.84,DCMain,SERA,0000,0000,0000,,Conan-kun, do you have a glasses case on you?
+Dialogue: 0,0:16:09.84,0:16:11.08,DCMain,CONAN,0000,0000,0000,,No.
+Dialogue: 0,0:16:11.08,0:16:13.88,DCMain,CONAN,0000,0000,0000,,I always wear mine, so I don't need one.
+Dialogue: 0,0:16:13.88,0:16:18.37,DCMain,CONAN,0000,0000,0000,,The only people who carry cases are ones who \Nhave separate pairs for near and far sight,
+Dialogue: 0,0:16:18.37,0:16:23.12,DCMain,CONAN,0000,0000,0000,,or have just recently bought a new pair.
+Dialogue: 0,0:16:25.66,0:16:29.52,DCMain,CONAN,0000,0000,0000,,New glasses are always \Nstrong and make you dizzy,
+Dialogue: 0,0:16:29.52,0:16:33.26,DCMain,CONAN,0000,0000,0000,,so some people carry around an old pair \Nuntil they get used to the new ones.
+Dialogue: 0,0:16:33.47,0:16:35.09,DCMain,OGURA,0000,0000,0000,,Oh, yeah.
+Dialogue: 0,0:16:35.09,0:16:37.25,DCMain,OGURA,0000,0000,0000,,Come to think of it, what \Nhappened to your new glasses?
+Dialogue: 0,0:16:37.25,0:16:37.82,DCMain,MIZUSHINA,0000,0000,0000,,What?
+Dialogue: 0,0:16:37.82,0:16:39.76,DCMain,MIZUSHINA,0000,0000,0000,,Wh-What new glasses?
+Dialogue: 0,0:16:39.94,0:16:42.24,DCMain,OGUYA,0000,0000,0000,,Weren't you wearing them
+Dialogue: 0,0:16:42.24,0:16:45.52,DCMain,OGUYA,0000,0000,0000,,the day the lady who was killed \Ntried to pick a fight with you?
+Dialogue: 0,0:16:45.85,0:16:47.90,DCMain,MIZUSHINA,0000,0000,0000,,W-Was I?
+Dialogue: 0,0:16:48.40,0:16:49.98,DCMain,TAKAGI,0000,0000,0000,,That's odd, though.
+Dialogue: 0,0:16:49.98,0:16:53.90,DCMain,TAKAGI,0000,0000,0000,,The police even investigated \Nthe bathroom drain.
+Dialogue: 0,0:16:54.34,0:16:57.15,DCMain,TAKAGI,0000,0000,0000,,Why didn't they find the broken lenses?
+Dialogue: 0,0:16:57.15,0:16:58.12,DCMain,SATO,0000,0000,0000,,What?
+Dialogue: 0,0:16:58.12,0:16:59.28,DCMain,SATO,0000,0000,0000,,Really?
+Dialogue: 0,0:16:59.67,0:17:03.91,DCMain,TAKAGI,0000,0000,0000,,They even performed a body \Ncheck on the three suspects,
+Dialogue: 0,0:17:03.91,0:17:06.54,DCMain,TAKAGI,0000,0000,0000,,but none of them had it on them.
+Dialogue: 0,0:17:06.88,0:17:11.42,DCMain,SATO,0000,0000,0000,,I'm sure the police will find \Nit if we tell them about this.
+Dialogue: 0,0:17:11.59,0:17:12.26,DCMain,SATO,0000,0000,0000,,You know,
+Dialogue: 0,0:17:12.56,0:17:15.70,DCMain,SATO,0000,0000,0000,,because Japan's police force \Nis so exceptionally talented.
+Dialogue: 0,0:17:15.70,0:17:18.01,DCMain,TAKAGI,0000,0000,0000,,You're right, Satoko-san.
+Dialogue: 0,0:17:19.46,0:17:21.09,DCItalic,MIZUSHINA,0000,0000,0000,,Crap! Crap!
+Dialogue: 0,0:17:21.09,0:17:23.68,DCItalic,MIZUSHINA,0000,0000,0000,,I need to get it before the police find it!
+Dialogue: 0,0:17:24.08,0:17:25.35,DCItalic,MIZUSHINA,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:25.72,0:17:26.64,DCItalic,MIZUSHINA,0000,0000,0000,,It's gone!
+Dialogue: 0,0:17:26.64,0:17:28.23,DCItalic,MIZUSHINA,0000,0000,0000,,It's not here!
+Dialogue: 0,0:17:31.08,0:17:32.92,DCMain,MIZUSHINA,0000,0000,0000,,S-Someone's in here.
+Dialogue: 0,0:17:34.30,0:17:35.86,DCMain,MIZUSHINA,0000,0000,0000,,I said someone's in—
+Dialogue: 0,0:17:36.19,0:17:37.03,DCMain,MIZUSHINA,0000,0000,0000,,What?
+Dialogue: 0,0:17:42.42,0:17:45.71,DCMain,SATO,0000,0000,0000,,Are these the lens shards you're looking for?
+Dialogue: 0,0:17:46.22,0:17:50.35,DCMain,SATO,0000,0000,0000,,Sorry, but we found them half a day ago.
+Dialogue: 0,0:17:51.31,0:17:54.09,DCMain,SATO,0000,0000,0000,,I'm sure you thought about flushing them,
+Dialogue: 0,0:17:54.09,0:17:57.47,DCMain,SATO,0000,0000,0000,,but if the police searched the \Ndrain, you would've been screwed.
+Dialogue: 0,0:17:57.71,0:18:02.03,DCMain,TAKAGI,0000,0000,0000,,So you hid them at the \Nbottom of the water tank,
+Dialogue: 0,0:18:02.03,0:18:04.22,DCMain,TAKAGI,0000,0000,0000,,along with the other parts of your glasses.
+Dialogue: 0,0:18:04.48,0:18:08.88,DCMain,SERA,0000,0000,0000,,Lenses are hard to see underwater \Nunless you look really closely.
+Dialogue: 0,0:18:08.88,0:18:11.41,DCMain,SERA,0000,0000,0000,,And if your new glasses were frameless,
+Dialogue: 0,0:18:11.41,0:18:13.02,DCMain,SERA,0000,0000,0000,,all you had to hide in the water
+Dialogue: 0,0:18:13.02,0:18:16.21,DCMain,SERA,0000,0000,0000,,were the arms and bridge of the glasses.
+Dialogue: 0,0:18:16.54,0:18:20.52,DCMain,SERA,0000,0000,0000,,It was likely the police would assume
+Dialogue: 0,0:18:20.52,0:18:22.74,DCMain,SERA,0000,0000,0000,,they were part of the \Ntoilet and overlook them.
+Dialogue: 0,0:18:23.00,0:18:26.75,DCMain,CONAN,0000,0000,0000,,And at a glance, they wouldn't \Nlook like the stolen jewelry.
+Dialogue: 0,0:18:26.94,0:18:28.84,DCMain,SERA,0000,0000,0000,,You probably retrieved the arms and bridge
+Dialogue: 0,0:18:28.84,0:18:32.38,DCMain,SERA,0000,0000,0000,,the day after the murder.
+Dialogue: 0,0:18:32.96,0:18:35.13,DCMain,SATO,0000,0000,0000,,But an examination of the \Nlenses revealed the truth.
+Dialogue: 0,0:18:35.38,0:18:36.79,DCMain,SATO,0000,0000,0000,,A month ago,
+Dialogue: 0,0:18:37.15,0:18:39.65,DCMain,SATO,0000,0000,0000,,you bought these from an optician.
+Dialogue: 0,0:18:41.49,0:18:43.93,DCMain,MIZUSHINA,0000,0000,0000,,So what?
+Dialogue: 0,0:18:43.93,0:18:46.93,DCMain,MIZUSHINA,0000,0000,0000,,That doesn't prove I killed that woman!
+Dialogue: 0,0:18:47.14,0:18:48.10,DCMain,SATO,0000,0000,0000,,Oh,
+Dialogue: 0,0:18:48.10,0:18:52.36,DCMain,SATO,0000,0000,0000,,we already found the earrings you \Nhid in the soy sauce container.
+Dialogue: 0,0:18:52.61,0:18:53.32,DCMain,MIZUSHINA,0000,0000,0000,,What?
+Dialogue: 0,0:18:54.04,0:18:57.00,DCMain,SATO,0000,0000,0000,,You probably hid them there
+Dialogue: 0,0:18:57.34,0:18:59.03,DCMain,SATO,0000,0000,0000,,before Yumi and Naeko arrived at the shop.
+Dialogue: 0,0:18:59.32,0:19:01.81,DCMain,SATO,0000,0000,0000,,But you've been coming here every day
+Dialogue: 0,0:19:01.81,0:19:04.28,DCMain,SATO,0000,0000,0000,,because you lost track of which \Ncontainer they were in, right?
+Dialogue: 0,0:19:04.58,0:19:09.04,DCMain,TAKAGI,0000,0000,0000,,That's why you kept ordering \Ndishes that used soy sauce.
+Dialogue: 0,0:19:09.33,0:19:16.86,DCMain,SATO,0000,0000,0000,,And the fingerprints on the \Nearrings we found matched yours.
+Dialogue: 0,0:19:17.70,0:19:20.70,DCMain,SATO,0000,0000,0000,,We just got the warrant for your arrest,
+Dialogue: 0,0:19:20.70,0:19:22.44,DCMain,SATO,0000,0000,0000,,so we barged into the bathroom
+Dialogue: 0,0:19:22.44,0:19:24.05,DCMain,SATO,0000,0000,0000,,to place you under arrest.
+Dialogue: 0,0:19:24.83,0:19:26.97,DCMain,MIZUSHINA,0000,0000,0000,,Y-You're cops?
+Dialogue: 0,0:19:27.20,0:19:29.68,DCMain,SATO,0000,0000,0000,,Did you forget?
+Dialogue: 0,0:19:29.88,0:19:32.44,DCMain,TAKAGI,0000,0000,0000,,We've met before.
+Dialogue: 0,0:19:34.28,0:19:38.62,DCMain,SATO,0000,0000,0000,,MPD Section One Violent Crimes \NDivision Three, Sato Miwako!
+Dialogue: 0,0:19:39.37,0:19:41.70,DCMain,TAKAGI,0000,0000,0000,,And Takagi Wataru of the same department.
+Dialogue: 0,0:19:45.32,0:19:47.61,DCMain,SATO,0000,0000,0000,,We were told to wait outside the shop
+Dialogue: 0,0:19:47.61,0:19:50.79,DCMain,SATO,0000,0000,0000,,until the warrant arrived.
+Dialogue: 0,0:19:51.42,0:19:53.86,DCMain,SATO,0000,0000,0000,,But we couldn't let you take a hostage,
+Dialogue: 0,0:19:53.86,0:19:55.79,DCMain,SATO,0000,0000,0000,,and hole up inside the shop.
+Dialogue: 0,0:19:56.04,0:19:59.99,DCMain,TAKAGI,0000,0000,0000,,But since you'd seen us before,
+Dialogue: 0,0:19:59.99,0:20:02.72,DCMain,TAKAGI,0000,0000,0000,,you may have tried to run \Nif we entered the shop.
+Dialogue: 0,0:20:03.06,0:20:06.06,DCMain,SATO,0000,0000,0000,,So we put on disguises and put on an act,
+Dialogue: 0,0:20:06.55,0:20:09.10,DCMain,SATO,0000,0000,0000,,with the help of Conan-kun and the others.
+Dialogue: 0,0:20:09.34,0:20:12.85,DCItalic,CONAN,0000,0000,0000,,It seemed like they were \Nhaving a lot of fun, though.
+Dialogue: 0,0:20:13.07,0:20:17.32,DCMain,SATO,0000,0000,0000,,And you're the ones who told us \Nabout the truth behind this case.
+Dialogue: 0,0:20:17.32,0:20:19.07,DCMain,CONAN,0000,0000,0000,,I-It wasn't me.
+Dialogue: 0,0:20:19.30,0:20:21.38,DCMain,CONAN,0000,0000,0000,,It was actually Sera-no-neechan who...
+Dialogue: 0,0:20:21.82,0:20:22.49,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:22.72,0:20:25.49,DCMain,CONAN,0000,0000,0000,,Hey, where's Sera-no-neechan?
+Dialogue: 0,0:20:25.49,0:20:28.74,DCMain,OHASHI,0000,0000,0000,,Oh, she just left.
+Dialogue: 0,0:20:29.10,0:20:30.27,DCMain,OHASHI,0000,0000,0000,,She said she had something to do.
+Dialogue: 0,0:20:31.18,0:20:31.81,DCMain,OGURA,0000,0000,0000,,What?
+Dialogue: 0,0:20:31.81,0:20:34.20,DCMain,OGURA,0000,0000,0000,,Mari-chan left?
+Dialogue: 0,0:20:34.92,0:20:38.00,DCMain,OGURA,0000,0000,0000,,I forgot to give her her handkerchief again.
+Dialogue: 0,0:20:38.82,0:20:39.92,DCMain,CONAN,0000,0000,0000,,Her handkerchief?
+Dialogue: 0,0:20:39.92,0:20:40.69,DCMain,OGURA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:40.69,0:20:43.53,DCMain,OGURA,0000,0000,0000,,She forgot it here when \Nshe came the other day.
+Dialogue: 0,0:20:43.53,0:20:44.94,DCMain,OGURA,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:20:44.94,0:20:47.26,DCMain,OGURA,0000,0000,0000,,Could you return this to her?
+Dialogue: 0,0:20:47.86,0:20:49.91,DCMain,CONAN,0000,0000,0000,,Yeah, sure.
+Dialogue: 0,0:20:52.94,0:20:55.00,DCMain,MIZUSHINA,0000,0000,0000,,I didn't mean to kill her.
+Dialogue: 0,0:20:55.00,0:20:58.61,DCMain,MIZUSHINA,0000,0000,0000,,I just wanted to scare her.
+Dialogue: 0,0:20:58.61,0:20:59.56,DCMain,SATO,0000,0000,0000,,Yeah, yeah.
+Dialogue: 0,0:20:59.56,0:21:01.19,DCMain,SATO,0000,0000,0000,,Tell it to the police.
+Dialogue: 0,0:21:06.13,0:21:07.31,DCMain,SATO,0000,0000,0000,,Sheesh.
+Dialogue: 0,0:21:07.31,0:21:10.14,DCMain,TAKAGI,0000,0000,0000,,Apparently, he left scratches on the safe
+Dialogue: 0,0:21:10.14,0:21:12.70,DCMain,TAKAGI,0000,0000,0000,,in the victim's house, too.
+Dialogue: 0,0:21:13.08,0:21:18.07,DCMain,SATO,0000,0000,0000,,He didn't want to make \Nit obvious that the thief
+Dialogue: 0,0:21:18.07,0:21:20.71,DCMain,SATO,0000,0000,0000,,who stole the earrings heard \Nabout them at this shop.
+Dialogue: 0,0:21:20.93,0:21:22.52,DCMain,TAKAGI,0000,0000,0000,,In any case,
+Dialogue: 0,0:21:22.52,0:21:27.22,DCMain,TAKAGI,0000,0000,0000,,we should get to the station \Nto record his statement.
+Dialogue: 0,0:21:28.13,0:21:31.72,DCMain,TAKAGI,0000,0000,0000,,And there's still the matter \Nof tonight's exercise.
+Dialogue: 0,0:21:31.99,0:21:35.67,DCMain,SATO,0000,0000,0000,,If you want a workout, \Nwhy don't you go to the gym?
+Dialogue: 0,0:21:35.67,0:21:36.23,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:21:37.80,0:21:40.80,DCMain,TAKAGI,0000,0000,0000,,I... I think I'll do that.
+Dialogue: 0,0:21:42.13,0:21:42.99,DCItalic,SATO,0000,0000,0000,,Idiot.
+Dialogue: 0,0:23:05.37,0:23:06.23,DCItalic,OGURA,0000,0000,0000,,Look.
+Dialogue: 0,0:23:06.23,0:23:08.40,DCItalic,OGURA,0000,0000,0000,,It's embroidered right \Nhere on the handkerchief.
+Dialogue: 0,0:23:08.59,0:23:09.90,DCItalic,OGURA,0000,0000,0000,,It says "Mari."
+Dialogue: 0,0:23:10.72,0:23:13.75,DCItalic,CONAN,0000,0000,0000,,No, this isn't Mari.
+Dialogue: 0,0:23:13.75,0:23:14.91,DCItalic,CONAN,0000,0000,0000,,It's Mary.
+Dialogue: 0,0:23:15.19,0:23:18.41,DCItalic,CONAN,0000,0000,0000,,Then this handkerchief \Nbelongs not to Sera Masumi,
+Dialogue: 0,0:23:19.10,0:23:23.43,DCItalic,CONAN,0000,0000,0000,,but to the girl in the photo with her.
+Dialogue: 0,0:23:24.65,0:23:25.40,DCItalic,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:25.97,0:23:27.70,DCItalic,CONAN,0000,0000,0000,,Why did I assume that?
+Dialogue: 0,0:23:28.31,0:23:32.86,DCItalic,CONAN,0000,0000,0000,,It's possible that Mary is \NSera Masumi's real name.
+Dialogue: 0,0:23:33.61,0:23:37.81,DCItalic,CONAN,0000,0000,0000,,Which means I've met her and \Nheard that name somewhere before.
+Dialogue: 0,0:23:38.52,0:23:41.06,DCItalic,CONAN,0000,0000,0000,,But where?
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:47.80,0:23:49.15,DCMain,MAN,0000,0000,0000,,Wh-What is that?
+Dialogue: 0,0:23:49.44,0:23:53.09,DCMain,AYUMI,0000,0000,0000,,A nice old couple ran the shop.
+Dialogue: 0,0:23:54.07,0:23:57.80,DCMain,CONAN,0000,0000,0000,,Apparently the person who died on the \Nbridge was wearing brown shoes, too.
+Dialogue: 0,0:23:58.38,0:24:00.71,DCMain,NAGAI,0000,0000,0000,,An insurance salesman came that afternoon.
+Dialogue: 0,0:24:01.12,0:24:05.33,DCMain,SATO,0000,0000,0000,,That's strange. The person who \Ncame down this path was...
+Dialogue: 0,0:24:05.78,0:24:06.78,DCItalic,SHINICHI,0000,0000,0000,,That's right.
+Dialogue: 0,0:24:06.78,0:24:08.96,DCItalic,SHINICHI,0000,0000,0000,,The dirt from the shrine out back.
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,TEXT,0000,0000,0000,,The Mysterious Boy
+Dialogue: 0,0:24:09.62,0:24:12.61,DCMain,CONAN,0000,0000,0000,,The next episode of Conan \Nis "The Mysterious Boy!"
+Dialogue: 0,0:24:29.98,0:24:34.99,Hint,TEXT,0000,0000,0000,,Toy Engine
+Dialogue: 0,0:24:30.62,0:24:32.93,DCMain,ALL,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.93,0:24:34.99,DCMain,CONAN,0000,0000,0000,,A toy engine!
+Dialogue: 0,0:24:34.99,0:24:35.95,DCMain,RAN,0000,0000,0000,,{\an8}He loves soccer.
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.95,0:24:36.85,DCMain,SERA,0000,0000,0000,,{\an8}And wears glasses.
+Dialogue: 0,0:24:36.85,0:24:38.24,DCMain,SONOKO,0000,0000,0000,,{\an8}And is always going potty.
+Dialogue: 0,0:24:38.24,0:24:39.72,DCMain,CONAN,0000,0000,0000,,{\an8}He's not mysterious at all.
+Dialogue: 0,0:24:39.72,0:24:41.72,DCMain,,0000,0000,0000,,

@@ -1,0 +1,493 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Tournament,Trebuchet MS,22,&H002F3335,&H000000FF,&H00EEF1F6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: 30th,Trebuchet MS,18,&H00797979,&H000000FF,&H00F6F6F6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0030,0
+Style: TotoGym,Times New Roman,18,&H00ADAB95,&H000000FF,&H003B424C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0055,0
+Style: Soshi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00B67D86,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0090,0020,0065,0
+Style: Katsunari,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006F284A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0080,0020,0044,0
+Style: Nenji,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CC8790,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0430,0066,0
+Style: Tsuneyuki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00914743,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0380,0020,0066,0
+Style: Akane,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00915D7C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0040,0066,0
+Style: IndiaInk,Trebuchet MS,22,&H0008100C,&H000000FF,&H0037A6D7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0062,0
+Style: 05:37:75 30th,Trebuchet MS,18,&H00797979,&H000000FF,&H00F6F6F6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: Kurahiko,Trebuchet MS,18,&H00010304,&H000000FF,&H00F8FFFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0110,0070,0
+Style: Onimaru,Trebuchet MS,22,&H00C3D3D8,&H000000FF,&H002C2D2B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0170,0018,0
+Style: Winner,Trebuchet MS,18,&H006D92A1,&H000000FF,&H00FFFCFA,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0140,0
+Style: TourneyNamesRight,Trebuchet MS,14,&H00588079,&H000000FF,&H009CFCFC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0055,0120,0
+Style: TourneyNamesLeft,Trebuchet MS,14,&H00588079,&H000000FF,&H009CFCFC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0075,0020,0120,0
+Style: From,Trebuchet MS,18,&H00F7F2ED,&H000000FF,&H00B19888,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Subject,Trebuchet MS,18,&H006F4F3E,&H000000FF,&H00C5B6AB,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0045,0
+Style: Congrats,Trebuchet MS,22,&H005E391B,&H000000FF,&H00DBD4CC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0070,0
+Style: 08:27:42 TotoGym,Times New Roman,20,&H00ADAB95,&H000000FF,&H003B424C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0155,0
+Style: IncomingCall,Trebuchet MS,22,&H00755D4E,&H000000FF,&H00F3FAFB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0180,0020,0050,0
+Style: 17:57:77 IndiaInk,Trebuchet MS,18,&H0035403C,&H000000FF,&H003EA6D5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0085,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:01.98,Tournament,SIGN,0000,0000,0000,,National High School \NSpring Kendo Tournament
+Dialogue: 0,0:00:01.14,0:00:04.73,DCMain,CONAN,0000,0000,0000,,Ran and I came to the Toto \NGymnasium to cheer on Hattori,
+Dialogue: 0,0:00:01.98,0:00:03.69,30th,SIGN,0000,0000,0000,,30th National High School \NSpring Kendo Tournament
+Dialogue: 0,0:00:05.23,0:00:07.62,DCMain,CONAN,0000,0000,0000,,who traveled to Tokyo for a kendo tournament.
+Dialogue: 0,0:00:08.89,0:00:12.07,DCMain,CONAN,0000,0000,0000,,But while there, we came across a murder.
+Dialogue: 0,0:00:13.41,0:00:15.36,DCMain,CONAN,0000,0000,0000,,Furthermore, at the crime scene...
+Dialogue: 0,0:00:18.16,0:00:19.33,DCItalic,CONAN,0000,0000,0000,,Wh-Who are you?
+Dialogue: 0,0:00:20.52,0:00:21.66,DCItalic,OKITA,0000,0000,0000,,Who, me?
+Dialogue: 0,0:00:21.66,0:00:24.43,DCItalic,OKITA,0000,0000,0000,,I'm Kyoto Senshin High School student,
+Dialogue: 0,0:00:24.43,0:00:26.08,DCItalic,OKITA,0000,0000,0000,,Okita Soshi.
+Dialogue: 0,0:00:26.43,0:00:28.49,DCItalic,OKITA,0000,0000,0000,,Hattori-han.
+Dialogue: 0,0:00:28.49,0:00:31.16,DCItalic,OKITA,0000,0000,0000,,Maybe I misheard you,
+Dialogue: 0,0:00:31.16,0:00:35.47,DCItalic,OKITA,0000,0000,0000,,but did you just say something \Nabout winning the tournament?
+Dialogue: 0,0:00:35.62,0:00:38.85,DCItalic,OKITA,0000,0000,0000,,You think you'll beat me?
+Dialogue: 0,0:00:40.00,0:00:41.60,DCItalic,HEIJI,0000,0000,0000,,Of course, idiot!
+Dialogue: 0,0:00:41.86,0:00:44.27,DCItalic,OKITA,0000,0000,0000,,Then we don't need to wait until the match.
+Dialogue: 0,0:00:46.28,0:00:49.02,DCItalic,OKITA,0000,0000,0000,,Why don't we settle this here?
+Dialogue: 0,0:00:52.73,0:00:55.20,DCMain,CONAN,0000,0000,0000,,Time is the y-axis, and I'm the x-axis!
+Dialogue: 0,0:00:55.20,0:00:56.70,DCMain,CONAN,0000,0000,0000,,Inscribing love and cases \Nwith deductive reasoning!
+Dialogue: 0,0:00:57.11,0:00:58.89,DCMain,CONAN,0000,0000,0000,,Heiji and Okita, Kazuha and Ran.
+Dialogue: 0,0:00:58.89,0:01:00.79,DCMain,CONAN,0000,0000,0000,,How will the case and their contest end?
+Dialogue: 0,0:01:01.08,0:01:02.77,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:02.77,0:01:04.55,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:04.55,0:01:07.13,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:48.02,0:02:54.02,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(398,1)}Kendo Tournament of Love and Mystery \N(Part Two)
+Dialogue: 0,0:02:48.47,0:02:52.02,DCMain,CONAN,0000,0000,0000,,"Kendo Tournament of Love \Nand Mystery, Part Two!"
+Dialogue: 0,0:02:57.75,0:02:59.03,DCMain,HEIJI,0000,0000,0000,,Now that I've caught you,
+Dialogue: 0,0:03:03.08,0:03:04.70,DCMain,HEIJI,0000,0000,0000,,you're not getting away.
+Dialogue: 0,0:03:04.78,0:03:08.25,Soshi,TEXT,0000,0000,0000,,{\fad(279,271)}Okita Soshi \NKyoto Senshin High \NSchool Second-Year
+Dialogue: 0,0:03:05.11,0:03:08.45,DCMain,OKITA,0000,0000,0000,,{\an8}It is I who have come to find you.
+Dialogue: 0,0:03:08.74,0:03:10.75,DCMain,HEIJI,0000,0000,0000,,Come and get me.
+Dialogue: 0,0:03:10.75,0:03:12.86,DCMain,HEIJI,0000,0000,0000,,My throat's wide open.
+Dialogue: 0,0:03:13.28,0:03:15.21,DCMain,OKITA,0000,0000,0000,,You're exposing your left shoulder.
+Dialogue: 0,0:03:15.52,0:03:17.84,DCMain,OKITA,0000,0000,0000,,The tip of your sword is low and to the back.
+Dialogue: 0,0:03:18.28,0:03:22.34,DCMain,OKITA,0000,0000,0000,,That's the Yagyu Shinkage-ryu \Ncleaving stance.
+Dialogue: 0,0:03:22.98,0:03:24.47,DCMain,OKITA,0000,0000,0000,,In that case...
+Dialogue: 0,0:03:26.49,0:03:30.60,DCMain,HEIJI,0000,0000,0000,,That's the Tennen Rishin-ryu \Nhiraseigan stance.
+Dialogue: 0,0:03:31.06,0:03:36.36,DCMain,HEIJI,0000,0000,0000,,Your blade is sharply inclined as you \Naim for your opponent's left eye.
+Dialogue: 0,0:03:36.83,0:03:39.05,DCMain,OKITA,0000,0000,0000,,Shut up already.
+Dialogue: 0,0:03:39.05,0:03:41.40,DCMain,OKITA,0000,0000,0000,,If you want me to hit you, I will!
+Dialogue: 0,0:03:43.88,0:03:44.82,DCMain,SATO,0000,0000,0000,,Hold it!
+Dialogue: 0,0:03:47.16,0:03:50.53,DCMain,SATO,0000,0000,0000,,I wish I could keep watching,
+Dialogue: 0,0:03:50.53,0:03:53.67,DCMain,SATO,0000,0000,0000,,but I can't let you mess up the \Ncrime scene anymore than you have.
+Dialogue: 0,0:03:53.67,0:03:54.63,DCMain,SATO,0000,0000,0000,,But...
+Dialogue: 0,0:03:55.00,0:03:58.88,DCMain,SATO,0000,0000,0000,,if you can solve this case \Nby the time the matches resume,
+Dialogue: 0,0:03:59.46,0:04:02.09,DCMain,SATO,0000,0000,0000,,then we won't have to cancel the tournament.
+Dialogue: 0,0:04:02.09,0:04:03.31,DCMain,HEIJI,0000,0000,0000,,Really?
+Dialogue: 0,0:04:03.31,0:04:04.89,DCMain,TAKAGI,0000,0000,0000,,W-Wait, Sato-san.
+Dialogue: 0,0:04:05.25,0:04:06.52,DCMain,SATO,0000,0000,0000,,Why not?
+Dialogue: 0,0:04:06.52,0:04:10.47,DCMain,SATO,0000,0000,0000,,{\an8}Those three are our only suspects.
+Dialogue: 0,0:04:07.51,0:04:09.97,Tsuneyuki,TEXT,0000,0000,0000,,{\fad(250,263)}Yokote Tsuneyuki (28)\NFreelance Writer
+Dialogue: 0,0:04:07.81,0:04:10.27,Akane,TEXT,0000,0000,0000,,{\fad(250,271)}Sadamori Akane (31)\NFormer JSDF
+Dialogue: 0,0:04:08.10,0:04:10.56,Nenji,TEXT,0000,0000,0000,,{\fad(250,269)}Norimura Nenji (40)\NTournament Referee
+Dialogue: 0,0:04:10.77,0:04:16.01,DCMain,SATO,0000,0000,0000,,Besides, it seems like there's something \Nromantic about this tournament.
+Dialogue: 0,0:04:16.47,0:04:17.78,DCMain,HEIJI,0000,0000,0000,,Hey...
+Dialogue: 0,0:04:17.78,0:04:19.15,DCMain,RAN,0000,0000,0000,,E-Excuse me.
+Dialogue: 0,0:04:19.32,0:04:21.93,DCMain,RAN,0000,0000,0000,,Could I go to the bathroom?
+Dialogue: 0,0:04:21.93,0:04:24.73,DCMain,RAN,0000,0000,0000,,It doesn't look like I can use that one.
+Dialogue: 0,0:04:24.73,0:04:26.28,DCMain,SATO,0000,0000,0000,,Sure.
+Dialogue: 0,0:04:26.28,0:04:28.27,DCMain,SATO,0000,0000,0000,,We've already asked you all our questions.
+Dialogue: 0,0:04:28.27,0:04:30.04,DCMain,RAN,0000,0000,0000,,In that case, excuse me.
+Dialogue: 0,0:04:32.27,0:04:33.25,DCItalic,RAN,0000,0000,0000,,I want to know...
+Dialogue: 0,0:04:33.91,0:04:36.01,DCItalic,RAN,0000,0000,0000,,Who is Hattori-kun's opponent?
+Dialogue: 0,0:04:36.01,0:04:38.50,DCItalic,RAN,0000,0000,0000,,Will he make it to the finals?
+Dialogue: 0,0:04:39.00,0:04:43.86,DCItalic,RAN,0000,0000,0000,,And will Hattori-kun be able to win and \Nconfess his feelings to Kazuha-chan?
+Dialogue: 0,0:04:44.92,0:04:49.21,DCMain,CONAN,0000,0000,0000,,So, did you find a box \Ncutter in the bathroom?
+Dialogue: 0,0:04:49.81,0:04:51.31,DCMain,TAKAGI,0000,0000,0000,,No, not yet.
+Dialogue: 0,0:04:51.73,0:04:54.47,DCMain,SATO,0000,0000,0000,,Then we'll be checking your belongings.
+Dialogue: 0,0:04:54.47,0:04:57.05,DCMain,SATO,0000,0000,0000,,We'll start with your sword bag.
+Dialogue: 0,0:04:57.05,0:04:58.31,DCMain,NORIMURA,0000,0000,0000,,Okay.
+Dialogue: 0,0:04:58.31,0:05:04.07,TotoGym,SIGN,0000,0000,0000,,Toto Gymnasium
+Dialogue: 0,0:04:59.18,0:05:02.00,DCMain,SATO,0000,0000,0000,,Why did you bring your \Nsword bag to the bathroom?
+Dialogue: 0,0:05:02.00,0:05:04.07,DCMain,NORIMURA,0000,0000,0000,,The same reason as these boys.
+Dialogue: 0,0:05:04.52,0:05:06.80,DCMain,NORIMURA,0000,0000,0000,,I have a match tomorrow,
+Dialogue: 0,0:05:06.80,0:05:10.30,DCMain,NORIMURA,0000,0000,0000,,so I was going to do some practice \Nswings after using the bathroom.
+Dialogue: 0,0:05:10.30,0:05:11.33,DCMain,SATO,0000,0000,0000,,I see.
+Dialogue: 0,0:05:11.80,0:05:13.31,DCMain,SATO,0000,0000,0000,,Well?
+Dialogue: 0,0:05:13.31,0:05:16.85,DCMain,POLICE,0000,0000,0000,,We took apart the two swords \Nthat were in the bag.
+Dialogue: 0,0:05:16.85,0:05:18.83,DCMain,POLICE,0000,0000,0000,,We didn't find a box cutter.
+Dialogue: 0,0:05:19.31,0:05:25.19,DCMain,POLICE,0000,0000,0000,,We were curious about this thing \Nthat was in the bag though.
+Dialogue: 0,0:05:23.96,0:05:25.47,IndiaInk,TEXT,0000,0000,0000,,India Ink
+Dialogue: 0,0:05:25.70,0:05:26.96,DCMain,SATO,0000,0000,0000,,India ink?
+Dialogue: 0,0:05:26.96,0:05:28.63,DCMain,SATO,0000,0000,0000,,Why do you have this?
+Dialogue: 0,0:05:28.63,0:05:32.97,DCMain,NORIMURA,0000,0000,0000,,Since I'm a referee, I keep \Na spare bottle on hand.
+Dialogue: 0,0:05:33.17,0:05:37.73,DCMain,NORIMURA,0000,0000,0000,,At this tournament, we paint \Nover the name of the losers.
+Dialogue: 0,0:05:37.73,0:05:42.73,05:37:75 30th,SIGN,0000,0000,0000,,30th National High School \NSpring Kendo Tournament
+Dialogue: 0,0:05:38.23,0:05:39.26,DCItalic,RAN,0000,0000,0000,,Let's see.
+Dialogue: 0,0:05:39.26,0:05:42.30,DCItalic,RAN,0000,0000,0000,,Hattori-kun's opponent in the finals is...
+Dialogue: 0,0:05:42.73,0:05:48.66,Kurahiko,TEXT,0000,0000,0000,,Namakoshi Kurahiko
+Dialogue: 0,0:05:43.07,0:05:44.11,DCItalic,RAN,0000,0000,0000,,There.
+Dialogue: 0,0:05:44.11,0:05:46.92,DCItalic,RAN,0000,0000,0000,,It's Namakoshi Kurahiko-kun.
+Dialogue: 0,0:05:47.36,0:05:49.06,DCMain,STUDENT,0000,0000,0000,,Hey, Namakoshi.
+Dialogue: 0,0:05:49.06,0:05:51.28,DCMain,STUDENT,0000,0000,0000,,You should forfeit if your leg is cramping.
+Dialogue: 0,0:05:51.28,0:05:52.74,DCMain,NAMAKOSHI,0000,0000,0000,,I-I'm okay.
+Dialogue: 0,0:05:52.74,0:05:55.25,DCMain,NAMAKOSHI,0000,0000,0000,,I'll win in two more games.
+Dialogue: 0,0:05:55.52,0:05:58.66,DCMain,STUDENT,0000,0000,0000,,But you're up against Kaiho \NAcademy's Hattori next.
+Dialogue: 0,0:05:58.66,0:05:59.90,DCMain,NAMAKOSHI,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:05:59.90,0:06:03.25,DCMain,STUDENT,0000,0000,0000,,You've never beaten Hattori before.
+Dialogue: 0,0:06:03.63,0:06:06.27,DCItalic,RAN,0000,0000,0000,,S-Sounds like he'll make it to the finals.
+Dialogue: 0,0:06:06.27,0:06:10.27,DCItalic,RAN,0000,0000,0000,,So who's Okita-kun's opponent?
+Dialogue: 0,0:06:10.82,0:06:11.82,DCItalic,RAN,0000,0000,0000,,There it is.
+Dialogue: 0,0:06:11.82,0:06:13.56,DCItalic,RAN,0000,0000,0000,,They're representing Tokyo, huh?
+Dialogue: 0,0:06:13.56,0:06:15.86,DCItalic,RAN,0000,0000,0000,,Wait, what's with this guy?
+Dialogue: 0,0:06:15.86,0:06:18.82,DCItalic,RAN,0000,0000,0000,,His name sounds really strong.
+Dialogue: 0,0:06:19.97,0:06:23.77,DCMain,SADAMORI,0000,0000,0000,,There isn't a box cutter in my backpack.
+Dialogue: 0,0:06:24.10,0:06:25.50,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:26.11,0:06:28.06,DCMain,CONAN,0000,0000,0000,,This chocolate is melted.
+Dialogue: 0,0:06:28.06,0:06:29.30,DCMain,HEIJI,0000,0000,0000,,You're right.
+Dialogue: 0,0:06:29.30,0:06:31.66,DCMain,HEIJI,0000,0000,0000,,Just the ones on the edge are really melted.
+Dialogue: 0,0:06:32.28,0:06:35.84,DCMain,SADAMORI,0000,0000,0000,,I-It's because I had it in \Nmy jacket's inside pocket.
+Dialogue: 0,0:06:35.84,0:06:38.16,DCMain,SADAMORI,0000,0000,0000,,My body heat must've melted it.
+Dialogue: 0,0:06:39.04,0:06:39.92,DCItalic,RAN,0000,0000,0000,,Let's see.
+Dialogue: 0,0:06:40.13,0:06:43.56,DCItalic,RAN,0000,0000,0000,,Okita-kun's opponent is from Tokyo, so...
+Dialogue: 0,0:06:44.79,0:06:45.98,DCMain,RAN,0000,0000,0000,,Ouch...
+Dialogue: 0,0:06:45.98,0:06:46.92,DCMain,ONIMARU,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:06:47.13,0:06:48.88,Onimaru,TEXT,0000,0000,0000,,{\fad(250,1)}Onimaru
+Dialogue: 0,0:06:49.25,0:06:51.26,DCItalic,RAN,0000,0000,0000,,Th-This name...
+Dialogue: 0,0:06:51.47,0:06:54.01,DCItalic,RAN,0000,0000,0000,,He's Okita-kun's opponent.
+Dialogue: 0,0:06:54.64,0:06:55.89,DCMain,ONIMARU,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:06:56.31,0:06:57.77,DCMain,RAN,0000,0000,0000,,Y-Yes...
+Dialogue: 0,0:06:59.17,0:07:00.35,DCMain,MAN,0000,0000,0000,,Onimaru-kun!
+Dialogue: 0,0:07:00.35,0:07:03.94,DCMain,MAN,0000,0000,0000,,Is it true that you're \Nforfeiting your final match?
+Dialogue: 0,0:07:04.23,0:07:05.69,DCItalic,RAN,0000,0000,0000,,What? Forfeiting?
+Dialogue: 0,0:07:05.94,0:07:06.83,DCMain,ONIMARU,0000,0000,0000,,Yes.
+Dialogue: 0,0:07:06.83,0:07:11.16,DCMain,ONIMARU,0000,0000,0000,,Something came up, and I must go home.
+Dialogue: 0,0:07:11.16,0:07:12.95,DCMain,MAN,0000,0000,0000,,Wh-What came up?
+Dialogue: 0,0:07:13.36,0:07:17.48,DCMain,ONIMARU,0000,0000,0000,,The governor of Tokyo wants to \Nmake me an honorary citizen.
+Dialogue: 0,0:07:17.48,0:07:19.40,DCMain,ONIMARU,0000,0000,0000,,He's at my home right now.
+Dialogue: 0,0:07:19.40,0:07:21.25,DCMain,MAN,0000,0000,0000,,That's incredible.
+Dialogue: 0,0:07:21.25,0:07:22.96,DCMain,MAN,0000,0000,0000,,I thought only the elderly \Nwere given that title,
+Dialogue: 0,0:07:23.13,0:07:27.32,DCMain,MAN,0000,0000,0000,,but it's not inconceivable since you've won \Ntwo consecutive national tournaments at your age.
+Dialogue: 0,0:07:27.32,0:07:32.59,DCMain,ONIMARU,0000,0000,0000,,I don't believe I'm worthy of that title yet.
+Dialogue: 0,0:07:32.59,0:07:34.40,DCMain,ONIMARU,0000,0000,0000,,I'm going home to reject his offer.
+Dialogue: 0,0:07:34.40,0:07:36.64,DCMain,MAN,0000,0000,0000,,What a waste.
+Dialogue: 0,0:07:36.64,0:07:39.05,DCMain,ONIMARU,0000,0000,0000,,Don't worry. I'll participate \Nin my semi-final match.
+Dialogue: 0,0:07:39.05,0:07:41.85,DCMain,ONIMARU,0000,0000,0000,,It's someone I've been wanting to fight.
+Dialogue: 0,0:07:41.85,0:07:43.19,DCMain,MAN,0000,0000,0000,,I see, I see.
+Dialogue: 0,0:07:43.49,0:07:45.82,DCItalic,RAN,0000,0000,0000,,Two consecutive national tournament wins?
+Dialogue: 0,0:07:45.82,0:07:49.34,DCItalic,RAN,0000,0000,0000,,That means he's the strongest \Nkendo swordsman in Japan, right?
+Dialogue: 0,0:07:49.86,0:07:54.11,DCItalic,RAN,0000,0000,0000,,And since he won't fight in the finals \Neven if he wins his semi-final match,
+Dialogue: 0,0:07:54.50,0:07:58.70,Winner,TEXT,0000,0000,0000,,{\fad(460,1)}Winner
+Dialogue: 0,0:07:54.50,0:07:58.70,TourneyNamesRight,TEXT,0000,0000,0000,,{\fad(460,1)}Okita Soshi - Onimaru Isamu
+Dialogue: 0,0:07:54.50,0:07:58.70,TourneyNamesLeft,TEXT,0000,0000,0000,,{\fad(460,1)}Hattori Heiji - Namakoshi Kurahiko
+Dialogue: 0,0:07:54.64,0:07:58.45,DCItalic,RAN,0000,0000,0000,,if Hattori-kun fights, \Nhe'll win automatically!
+Dialogue: 0,0:07:59.30,0:08:01.06,DCMain,KAZUHA,0000,0000,0000,,What's Heiji doing?
+Dialogue: 0,0:08:01.06,0:08:04.42,DCMain,KAZUHA,0000,0000,0000,,His match is starting in twenty minutes.
+Dialogue: 0,0:08:06.68,0:08:08.21,DCMain,KAZUHA,0000,0000,0000,,It's from Ran-chan.
+Dialogue: 0,0:08:08.21,0:08:10.46,From,TEXT,0000,0000,0000,,From: Mori Ran
+Dialogue: 0,0:08:08.21,0:08:10.46,Subject,TEXT,0000,0000,0000,,Subject: No subject
+Dialogue: 0,0:08:08.21,0:08:10.46,Congrats,TEXT,0000,0000,0000,,Congratulations
+Dialogue: 0,0:08:08.76,0:08:10.46,DCItalic,KAZUHA,0000,0000,0000,,Congratulations?
+Dialogue: 0,0:08:11.81,0:08:14.01,DCItalic,KAZUHA,0000,0000,0000,,Heiji hasn't won yet.
+Dialogue: 0,0:08:16.06,0:08:18.12,DCMain,MOMIJI,0000,0000,0000,,Iori, how did it go?
+Dialogue: 0,0:08:18.12,0:08:19.89,DCMain,IORI,0000,0000,0000,,As we expected.
+Dialogue: 0,0:08:20.67,0:08:24.58,DCMain,MOMIJI,0000,0000,0000,,Then let's watch as my future husband
+Dialogue: 0,0:08:25.25,0:08:27.40,DCMain,MOMIJI,0000,0000,0000,,takes first place.
+Dialogue: 0,0:08:27.40,0:08:29.65,08:27:42 TotoGym,SIGN,0000,0000,0000,,Toto Gymnasium
+Dialogue: 0,0:08:30.47,0:08:33.07,DCMain,SATO,0000,0000,0000,,You seem to like taking pictures.
+Dialogue: 0,0:08:33.07,0:08:34.66,DCMain,YOKOTE,0000,0000,0000,,Y-Yeah, I guess.
+Dialogue: 0,0:08:35.10,0:08:39.15,DCMain,SATO,0000,0000,0000,,But the month's almost over, \Nand you've hardly taken any.
+Dialogue: 0,0:08:39.15,0:08:39.58,DCMain,YOKOTE,0000,0000,0000,,What?
+Dialogue: 0,0:08:39.88,0:08:43.83,DCMain,SATO,0000,0000,0000,,Last month and the month before that, \Nyou took close to 200 pictures.
+Dialogue: 0,0:08:44.18,0:08:46.67,DCMain,YOKOTE,0000,0000,0000,,I-I can do what I want!
+Dialogue: 0,0:08:47.97,0:08:48.88,DCMain,SATO,0000,0000,0000,,Someone's calling.
+Dialogue: 0,0:08:48.88,0:08:49.82,DCMain,SATO,0000,0000,0000,,I'm answering it.
+Dialogue: 0,0:08:50.92,0:08:52.31,DCMain,SATO,0000,0000,0000,,Hello?
+Dialogue: 0,0:08:53.02,0:08:55.46,DCItalic,MAN,0000,0000,0000,,Huh? This isn't Tsuneyuki's phone?
+Dialogue: 0,0:08:56.00,0:09:00.97,DCItalic,MAN,0000,0000,0000,,Are you the girl who likes cutters \Nthat Tsuneyuki said he met?
+Dialogue: 0,0:09:00.97,0:09:01.72,DCMain,SATO,0000,0000,0000,,Cutters?
+Dialogue: 0,0:09:03.01,0:09:06.12,DCMain,YOKOTE,0000,0000,0000,,A-As in those big sailboats.
+Dialogue: 0,0:09:06.12,0:09:08.73,DCMain,YOKOTE,0000,0000,0000,,I've been into sailboats recently.
+Dialogue: 0,0:09:09.41,0:09:12.29,DCMain,YOKOTE,0000,0000,0000,,It's got nothing to do \Nwith the murder weapon!
+Dialogue: 0,0:09:12.29,0:09:15.68,DCMain,YOKOTE,0000,0000,0000,,Didn't this old man hear the \Nculprit mention box cutters?
+Dialogue: 0,0:09:15.68,0:09:19.62,DCMain,YASUOKA,0000,0000,0000,,Now that I think about it, \NI think they said "cutter."
+Dialogue: 0,0:09:19.82,0:09:22.12,DCMain,YOKOTE,0000,0000,0000,,Give me a break.
+Dialogue: 0,0:09:20.26,0:09:22.12,DCItalic,HEIJI,0000,0000,0000,,{\an8}Cutter?
+Dialogue: 0,0:09:22.69,0:09:26.81,DCMain,SATO,0000,0000,0000,,None of them had a box cutter though.
+Dialogue: 0,0:09:26.81,0:09:29.77,DCMain,TAKAGI,0000,0000,0000,,And we didn't find one in the victim's bag.
+Dialogue: 0,0:09:29.77,0:09:30.67,DCMain,POLICE,0000,0000,0000,,No.
+Dialogue: 0,0:09:30.67,0:09:34.63,DCMain,POLICE,0000,0000,0000,,Inside the bag we found a wallet, \Na towel, a phone, a magazine,
+Dialogue: 0,0:09:35.09,0:09:39.80,DCMain,POLICE,0000,0000,0000,,an empty bag of stomach \Nmedicine, and the box it came in.
+Dialogue: 0,0:09:40.37,0:09:43.43,DCMain,POLICE,0000,0000,0000,,There are still traces of that \Nmedicine around his mouth.
+Dialogue: 0,0:09:44.04,0:09:47.23,DCMain,POLICE,0000,0000,0000,,His throat must have been \Ncut right after he took it.
+Dialogue: 0,0:09:48.78,0:09:52.76,DCMain,SATO,0000,0000,0000,,But we have to find that box cutter.
+Dialogue: 0,0:09:52.76,0:09:54.30,DCMain,TAKAGI,0000,0000,0000,,You're right.
+Dialogue: 0,0:09:54.30,0:09:58.24,DCMain,TAKAGI,0000,0000,0000,,Did you hear any strange \Nnoises inside the bathroom?
+Dialogue: 0,0:09:58.24,0:10:00.87,DCMain,TAKAGI,0000,0000,0000,,Like the blade of a box cutter being broken.
+Dialogue: 0,0:10:01.35,0:10:05.44,DCMain,SADAMORI,0000,0000,0000,,Speaking of noises, I heard \Nrustling outside the bathroom.
+Dialogue: 0,0:10:05.44,0:10:10.88,DCMain,NORIMURA,0000,0000,0000,,That was probably the sound of them throwing \Nthe armor out the bathroom window.
+Dialogue: 0,0:10:11.11,0:10:13.55,DCMain,YOKOTE,0000,0000,0000,,I heard that, too.
+Dialogue: 0,0:10:14.05,0:10:18.14,DCMain,YOKOTE,0000,0000,0000,,I heard a scratching sound after that.
+Dialogue: 0,0:10:18.14,0:10:20.11,DCMain,NORIMURA,0000,0000,0000,,I heard it, too.
+Dialogue: 0,0:10:20.11,0:10:21.75,DCMain,SADAMORI,0000,0000,0000,,So did I.
+Dialogue: 0,0:10:23.03,0:10:28.31,DCMain,SATO,0000,0000,0000,,In any case, they cut the throat of a \Nranked swordsman with a single blow.
+Dialogue: 0,0:10:28.82,0:10:32.76,DCMain,SATO,0000,0000,0000,,As another ranked swordsman, \Nthat makes you the most suspicious.
+Dialogue: 0,0:10:32.76,0:10:34.41,DCMain,NORIMURA,0000,0000,0000,,B-But...
+Dialogue: 0,0:10:34.41,0:10:37.32,DCMain,OKITA,0000,0000,0000,,Don't be so sure.
+Dialogue: 0,0:10:37.74,0:10:39.70,DCMain,OKITA,0000,0000,0000,,If they were wearing this outfit,
+Dialogue: 0,0:10:39.70,0:10:43.82,DCMain,OKITA,0000,0000,0000,,maybe he thought they were a student in \Nthe tournament and let his guard down?
+Dialogue: 0,0:10:43.82,0:10:45.33,DCMain,HEIJI,0000,0000,0000,,O-Okita!
+Dialogue: 0,0:10:45.76,0:10:47.60,DCMain,HEIJI,0000,0000,0000,,What do you think you're doing?!
+Dialogue: 0,0:10:47.60,0:10:49.60,DCMain,HEIJI,0000,0000,0000,,That's evidence!
+Dialogue: 0,0:10:49.60,0:10:51.71,DCMain,OKITA,0000,0000,0000,,Yeah, but I was curious.
+Dialogue: 0,0:10:52.16,0:10:52.98,DCMain,OKITA,0000,0000,0000,,See?
+Dialogue: 0,0:10:52.98,0:10:57.16,DCMain,OKITA,0000,0000,0000,,There's blood on the thigh armor, \Nbut none on the gauntlets.
+Dialogue: 0,0:10:57.16,0:11:00.22,DCMain,OKITA,0000,0000,0000,,And there's some on the butt of the skirt.
+Dialogue: 0,0:11:00.63,0:11:02.66,DCMain,OKITA,0000,0000,0000,,Don't you think that's weird?
+Dialogue: 0,0:11:02.66,0:11:03.72,DCMain,HEIJI,0000,0000,0000,,You're right.
+Dialogue: 0,0:11:04.48,0:11:08.78,DCMain,OKITA,0000,0000,0000,,Oh, right. I knew I recognized this old man.
+Dialogue: 0,0:11:08.78,0:11:12.23,DCMain,OKITA,0000,0000,0000,,He was the referee for \Nmy quarter-final match.
+Dialogue: 0,0:11:12.59,0:11:13.85,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:11:13.85,0:11:14.79,DCMain,OKITA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:14.79,0:11:18.74,DCMain,OKITA,0000,0000,0000,,He crashed into the guy I knocked back with \Nmy sword and was bleeding from his nose.
+Dialogue: 0,0:11:18.96,0:11:20.04,DCItalic,HEIJI,0000,0000,0000,,A nosebleed?
+Dialogue: 0,0:11:20.04,0:11:21.97,DCMain,YASUOKA,0000,0000,0000,,I remembered something.
+Dialogue: 0,0:11:22.93,0:11:24.62,DCMain,YASUOKA,0000,0000,0000,,It was the way he spoke.
+Dialogue: 0,0:11:24.62,0:11:28.46,DCMain,YASUOKA,0000,0000,0000,,The hoarse-voiced man who told their \Nfriend to bring them another box cutter
+Dialogue: 0,0:11:28.46,0:11:32.25,DCMain,YASUOKA,0000,0000,0000,,spoke with a Kansai accent like you boys.
+Dialogue: 0,0:11:32.59,0:11:33.85,DCItalic,HEIJI,0000,0000,0000,,What?
+Dialogue: 0,0:11:34.48,0:11:35.80,DCMain,HEIJI,0000,0000,0000,,Hey, you.
+Dialogue: 0,0:11:35.80,0:11:38.82,DCMain,HEIJI,0000,0000,0000,,You said the victim's wife was on her way.
+Dialogue: 0,0:11:38.82,0:11:40.95,DCMain,HEIJI,0000,0000,0000,,Is she bringing him a change of clothes?
+Dialogue: 0,0:11:40.95,0:11:43.26,DCMain,POLICE,0000,0000,0000,,Y-Yeah, she said she was.
+Dialogue: 0,0:11:44.25,0:11:45.76,DCMain,CONAN,0000,0000,0000,,What about a change of clothes?
+Dialogue: 0,0:11:46.82,0:11:48.04,DCItalic,HEIJI,0000,0000,0000,,Sorry, Kudo.
+Dialogue: 0,0:11:48.04,0:11:51.11,DCItalic,HEIJI,0000,0000,0000,,This case is mine.
+Dialogue: 0,0:11:56.45,0:11:58.82,DCMain,SATO,0000,0000,0000,,Ten minutes until the semi-finals start.
+Dialogue: 0,0:11:59.37,0:12:00.44,DCMain,SATO,0000,0000,0000,,We don't have a choice.
+Dialogue: 0,0:12:00.44,0:12:05.29,DCMain,SATO,0000,0000,0000,,Could you have them cancel the tournament \Nand bring the tournament organizer here?
+Dialogue: 0,0:12:05.29,0:12:06.17,DCMain,TAKAGI,0000,0000,0000,,Got it.
+Dialogue: 0,0:12:06.17,0:12:07.55,DCMain,HEIJI,0000,0000,0000,,Hold on.
+Dialogue: 0,0:12:08.41,0:12:10.70,DCMain,HEIJI,0000,0000,0000,,In ten more minutes, we'll get \Nmore than our money's worth.
+Dialogue: 0,0:12:11.07,0:12:12.46,DCMain,SATO,0000,0000,0000,,More than our money's worth?
+Dialogue: 0,0:12:12.74,0:12:15.05,DCMain,SATO,0000,0000,0000,,Does that mean you know who did it?
+Dialogue: 0,0:12:15.05,0:12:15.88,DCMain,HEIJI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:16.25,0:12:18.72,DCMain,OKITA,0000,0000,0000,,In that case, I've figured it out, too.
+Dialogue: 0,0:12:19.48,0:12:23.88,DCMain,OKITA,0000,0000,0000,,Since we can't find the murder \Nweapon, the killer is...
+Dialogue: 0,0:12:25.92,0:12:28.16,DCMain,OKITA,0000,0000,0000,,that old man!
+Dialogue: 0,0:12:28.16,0:12:28.97,DCMain,YASUOKA,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:29.54,0:12:33.14,DCMain,HEIJI,0000,0000,0000,,What? How'd he kill someone when he's blind?
+Dialogue: 0,0:12:33.44,0:12:35.31,DCMain,OKITA,0000,0000,0000,,Isn't it obvious?
+Dialogue: 0,0:12:35.31,0:12:37.65,DCMain,OKITA,0000,0000,0000,,That's a sword cane.
+Dialogue: 0,0:12:38.08,0:12:44.91,DCMain,OKITA,0000,0000,0000,,He senses his opponent like Zatoichi and \Nslashed his throat with a backhanded slice.
+Dialogue: 0,0:12:45.28,0:12:47.56,DCMain,OKITA,0000,0000,0000,,Well, sir? Am I right?
+Dialogue: 0,0:12:47.56,0:12:50.54,DCMain,OKITA,0000,0000,0000,,Say, "What an awful way to live."
+Dialogue: 0,0:12:50.54,0:12:51.91,DCMain,OKITA,0000,0000,0000,,Say it, and I'll forgive you.
+Dialogue: 0,0:12:52.82,0:12:56.25,DCMain,CONAN,0000,0000,0000,,Hattori, is this guy an idiot?
+Dialogue: 0,0:12:56.25,0:12:59.16,DCMain,HEIJI,0000,0000,0000,,Sorry, it's just how he is.
+Dialogue: 0,0:12:59.16,0:13:01.92,DCMain,HEIJI,0000,0000,0000,,So, do you know who did it?
+Dialogue: 0,0:13:02.40,0:13:02.92,DCMain,CONAN,0000,0000,0000,,No.
+Dialogue: 0,0:13:03.43,0:13:09.10,DCMain,CONAN,0000,0000,0000,,What I do know is the victim Nukitani-san \Nhad some kind of beverage in his bag,
+Dialogue: 0,0:13:09.10,0:13:12.52,DCMain,CONAN,0000,0000,0000,,but after he was killed, someone took it out.
+Dialogue: 0,0:13:12.52,0:13:14.36,DCMain,CONAN,0000,0000,0000,,And that person who took it
+Dialogue: 0,0:13:14.36,0:13:18.86,DCMain,CONAN,0000,0000,0000,,was probably former Self-Defense \NForce official Sadamori Akane-san.
+Dialogue: 0,0:13:19.25,0:13:20.11,DCMain,SADAMORI,0000,0000,0000,,What?
+Dialogue: 0,0:13:20.96,0:13:22.82,DCMain,SATO,0000,0000,0000,,What makes you think that?
+Dialogue: 0,0:13:22.82,0:13:27.98,DCMain,CONAN,0000,0000,0000,,Because Nukitani-san took a powdered \Nmedicine just before he was killed,
+Dialogue: 0,0:13:27.98,0:13:29.87,DCMain,CONAN,0000,0000,0000,,but he doesn't have a beverage on him.
+Dialogue: 0,0:13:30.31,0:13:33.98,DCMain,CONAN,0000,0000,0000,,Since the chocolate in \NSadamori-san's bag was melted,
+Dialogue: 0,0:13:33.98,0:13:37.53,DCMain,CONAN,0000,0000,0000,,she probably had a plastic bottle \Ncontaining a warm beverage inside it.
+Dialogue: 0,0:13:37.53,0:13:41.25,DCMain,SADAMORI,0000,0000,0000,,I-I told you, I was keeping the \Nchocolate in my inside pocket.
+Dialogue: 0,0:13:41.41,0:13:44.47,DCMain,CONAN,0000,0000,0000,,Then wouldn't all of it be melted?
+Dialogue: 0,0:13:44.47,0:13:49.85,DCMain,CONAN,0000,0000,0000,,Wasn't only the edge melted because \Nyou poisoned a warm beverage
+Dialogue: 0,0:13:49.85,0:13:54.10,DCMain,CONAN,0000,0000,0000,,and were keeping it in your bag until \Nyou could give it to Nukitani-san?
+Dialogue: 0,0:13:54.38,0:13:56.72,DCMain,SATO,0000,0000,0000,,That's why you were hiding in the bathroom.
+Dialogue: 0,0:13:56.72,0:13:59.26,DCMain,SATO,0000,0000,0000,,So you could erase the evidence \Nof your attempt to poison him.
+Dialogue: 0,0:13:59.26,0:14:01.99,DCMain,SADAMORI,0000,0000,0000,,I-It wasn't poison, it was laxatives!
+Dialogue: 0,0:14:01.99,0:14:06.49,DCMain,SADAMORI,0000,0000,0000,,I just wanted to inconvenience \NNukitani-sensei since he rejected my love!
+Dialogue: 0,0:14:06.67,0:14:09.50,DCMain,SADAMORI,0000,0000,0000,,I thought he'd be in the bathroom \Nso I came to check on him,
+Dialogue: 0,0:14:09.50,0:14:12.16,DCMain,SADAMORI,0000,0000,0000,,but he'd already been killed.
+Dialogue: 0,0:14:12.16,0:14:15.16,DCMain,SADAMORI,0000,0000,0000,,I retrieved the plastic bottle so \NI wouldn't be suspected of murder.
+Dialogue: 0,0:14:15.16,0:14:17.15,DCMain,SADAMORI,0000,0000,0000,,It's true. You have to believe me.
+Dialogue: 0,0:14:17.15,0:14:19.72,DCMain,CONAN,0000,0000,0000,,I don't think she did it.
+Dialogue: 0,0:14:20.44,0:14:24.75,DCMain,CONAN,0000,0000,0000,,If she was in a kendo club, she'd \Nknow how to put on a skirt.
+Dialogue: 0,0:14:25.27,0:14:29.13,DCMain,CONAN,0000,0000,0000,,It seems like the killer \Nwore the skirt backwards.
+Dialogue: 0,0:14:29.43,0:14:31.71,DCMain,YOKOTE,0000,0000,0000,,Then we're all innocent.
+Dialogue: 0,0:14:31.71,0:14:33.39,DCMain,YOKOTE,0000,0000,0000,,I used to practice kendo, too.
+Dialogue: 0,0:14:33.76,0:14:36.99,DCMain,CONAN,0000,0000,0000,,Did you really, Yokote-san?
+Dialogue: 0,0:14:36.99,0:14:41.77,DCMain,CONAN,0000,0000,0000,,You didn't even know you're not supposed to \Nstrike victory poses during a kendo match.
+Dialogue: 0,0:14:41.77,0:14:42.72,DCMain,YOKOTE,0000,0000,0000,,What?
+Dialogue: 0,0:14:44.36,0:14:46.93,DCMain,CONAN,0000,0000,0000,,Isn't that right, Mr. Referee?
+Dialogue: 0,0:14:46.93,0:14:48.43,DCMain,NORIMURA,0000,0000,0000,,Huh? Yeah.
+Dialogue: 0,0:14:48.43,0:14:51.53,DCMain,NORIMURA,0000,0000,0000,,It says to in the referee's rules.
+Dialogue: 0,0:14:51.89,0:14:53.30,DCMain,SATO,0000,0000,0000,,I see.
+Dialogue: 0,0:14:53.30,0:14:55.10,DCMain,SATO,0000,0000,0000,,Nukitani-san pointed out your lie
+Dialogue: 0,0:14:55.10,0:14:59.99,DCMain,SATO,0000,0000,0000,,when you bragged to your girlfriend about \Nstriking a victory pose after winning a match.
+Dialogue: 0,0:14:59.99,0:15:03.47,DCMain,SATO,0000,0000,0000,,You resented him for the \Nembarrassment he caused you.
+Dialogue: 0,0:15:03.47,0:15:04.79,DCMain,YOKOTE,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:15:05.28,0:15:11.05,DCMain,YOKOTE,0000,0000,0000,,I thought I'd embarrass him, too, so I \Nfollowed and secretly photographed him.
+Dialogue: 0,0:15:11.67,0:15:15.69,DCMain,YOKOTE,0000,0000,0000,,Since that woman headed to \Nthe same bathroom as him,
+Dialogue: 0,0:15:15.69,0:15:18.00,DCMain,YOKOTE,0000,0000,0000,,I thought they might be having a \Ntryst and came to check it out,
+Dialogue: 0,0:15:18.00,0:15:19.81,DCMain,YOKOTE,0000,0000,0000,,but this is how I found him.
+Dialogue: 0,0:15:20.12,0:15:24.27,DCMain,YOKOTE,0000,0000,0000,,I wanted to get out of here, \Nbut those kids showed up,
+Dialogue: 0,0:15:24.27,0:15:28.32,DCMain,YOKOTE,0000,0000,0000,,so I was deleting my photos \Nof him inside the bathroom.
+Dialogue: 0,0:15:28.69,0:15:31.89,DCMain,SATO,0000,0000,0000,,That's why you had hardly \Nany photos this month?
+Dialogue: 0,0:15:31.89,0:15:33.07,DCMain,YOKOTE,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:15:33.52,0:15:37.99,DCMain,CONAN,0000,0000,0000,,But Yokote-san doesn't have a box cutter.
+Dialogue: 0,0:15:37.99,0:15:40.11,DCMain,SATO,0000,0000,0000,,B-But, Conan-kun...
+Dialogue: 0,0:15:40.11,0:15:41.80,DCMain,YOKOTE,0000,0000,0000,,That's right.
+Dialogue: 0,0:15:41.80,0:15:43.73,DCMain,YOKOTE,0000,0000,0000,,I don't have a box cutter,
+Dialogue: 0,0:15:43.73,0:15:48.00,DCMain,YOKOTE,0000,0000,0000,,and I practiced kendo for a little \Nwhile, so I know how to wear a skirt.
+Dialogue: 0,0:15:48.64,0:15:51.01,DCMain,HEIJI,0000,0000,0000,,Then why don't you put on that thigh armor?
+Dialogue: 0,0:15:51.01,0:15:53.09,DCMain,YOKOTE,0000,0000,0000,,Yeah, sure.
+Dialogue: 0,0:15:54.19,0:16:00.46,DCMain,YOKOTE,0000,0000,0000,,I think you cross these long straps in \Nthe back, tie it in the front, and...
+Dialogue: 0,0:16:00.46,0:16:01.60,DCMain,YOKOTE,0000,0000,0000,,Done.
+Dialogue: 0,0:16:02.43,0:16:03.50,DCMain,HEIJI,0000,0000,0000,,Wrong.
+Dialogue: 0,0:16:03.50,0:16:07.42,DCMain,HEIJI,0000,0000,0000,,You're supposed to tie it under \Nthe front to hide the knot.
+Dialogue: 0,0:16:07.42,0:16:08.06,DCMain,YOKOTE,0000,0000,0000,,What?
+Dialogue: 0,0:16:08.06,0:16:13.25,DCMain,HEIJI,0000,0000,0000,,See? When you tie it correctly, you can \Nsee the blood on the front of the armor.
+Dialogue: 0,0:16:13.25,0:16:14.15,DCMain,HEIJI,0000,0000,0000,,In other words,
+Dialogue: 0,0:16:14.15,0:16:18.16,DCMain,HEIJI,0000,0000,0000,,someone who knew how to wear the armor\Ndeliberately put on the skirt backwards
+Dialogue: 0,0:16:18.16,0:16:21.72,DCMain,HEIJI,0000,0000,0000,,to make it look like the work of \Nsomeone with no kendo experience.
+Dialogue: 0,0:16:22.98,0:16:26.69,DCMain,HEIJI,0000,0000,0000,,Among the three of you, the only \None who'd need to do that is
+Dialogue: 0,0:16:26.69,0:16:30.13,DCMain,HEIJI,0000,0000,0000,,the man dressed as a referee who's \Nobviously a ranked swordsman,
+Dialogue: 0,0:16:30.53,0:16:31.88,DCMain,HEIJI,0000,0000,0000,,Norimura Nenji-san.
+Dialogue: 0,0:16:32.63,0:16:34.88,DCMain,HEIJI,0000,0000,0000,,You're the only one.
+Dialogue: 0,0:16:37.33,0:16:38.39,DCMain,KAZUHA,0000,0000,0000,,No way!
+Dialogue: 0,0:16:38.63,0:16:40.89,DCMain,KAZUHA,0000,0000,0000,,You still haven't found Heiji?
+Dialogue: 0,0:16:41.03,0:16:43.45,DCMain,KAZUHA,0000,0000,0000,,But his match starts in \Nless than five minutes.
+Dialogue: 0,0:16:45.61,0:16:47.55,DCItalic,KAZUHA,0000,0000,0000,,Ran-chan and Conan-kun are missing, too.
+Dialogue: 0,0:16:47.55,0:16:50.53,DCItalic,KAZUHA,0000,0000,0000,,Maybe they know where Heiji is.
+Dialogue: 0,0:16:53.53,0:16:56.41,IncomingCall,TEXT,0000,0000,0000,,Kazuha-chan \NIncoming Call
+Dialogue: 0,0:16:54.74,0:16:56.41,DCItalic,RAN,0000,0000,0000,,Kazuha-chan's calling.
+Dialogue: 0,0:16:57.03,0:17:00.56,DCItalic,RAN,0000,0000,0000,,If I tell her where Hattori-kun \Nis, she's sure to come here.
+Dialogue: 0,0:17:01.33,0:17:05.69,DCItalic,RAN,0000,0000,0000,,But until the crime is solved, we \Ncan't afford to lose even a second.
+Dialogue: 0,0:17:07.01,0:17:11.05,DCMain,NORIMURA,0000,0000,0000,,B-But didn't the killer use a box cutter?
+Dialogue: 0,0:17:11.49,0:17:13.84,DCMain,NORIMURA,0000,0000,0000,,I don't have one either.
+Dialogue: 0,0:17:13.84,0:17:16.64,DCMain,HEIJI,0000,0000,0000,,We had it all wrong.
+Dialogue: 0,0:17:16.64,0:17:17.30,DCMain,NORIMURA,0000,0000,0000,,What?
+Dialogue: 0,0:17:17.60,0:17:21.73,DCMain,HEIJI,0000,0000,0000,,Is this what the victim \NNukitani-san actually said
+Dialogue: 0,0:17:21.73,0:17:23.81,DCMain,HEIJI,0000,0000,0000,,while talking to someone on the phone?
+Dialogue: 0,0:17:24.33,0:17:27.30,DCMain,HEIJI,0000,0000,0000,,"This cutter is bloody and useless."
+Dialogue: 0,0:17:27.30,0:17:29.06,DCMain,HEIJI,0000,0000,0000,,"Bring me another one."
+Dialogue: 0,0:17:29.30,0:17:31.59,DCMain,YASUOKA,0000,0000,0000,,That's exactly right.
+Dialogue: 0,0:17:32.68,0:17:34.57,DCMain,CONAN,0000,0000,0000,,There's nothing strange about that.
+Dialogue: 0,0:17:35.17,0:17:40.14,DCMain,HEIJI,0000,0000,0000,,In Kansai, a cutter refers to \Nwhat you call a dress shirt.
+Dialogue: 0,0:17:40.55,0:17:45.62,DCMain,HEIJI,0000,0000,0000,,In other words, he said, "My nose bled on \Nmy dress shirt and I can't wear it anymore."
+Dialogue: 0,0:17:45.62,0:17:49.08,DCMain,HEIJI,0000,0000,0000,,"Bring me a new dress shirt."
+Dialogue: 0,0:17:49.31,0:17:50.43,DCMain,TAKAGI,0000,0000,0000,,That's it.
+Dialogue: 0,0:17:50.43,0:17:55.59,DCMain,TAKAGI,0000,0000,0000,,That's why Nukitani-san's wife is on his \Nway here to bring him a fresh dress shirt.
+Dialogue: 0,0:17:55.80,0:17:56.87,DCMain,HEIJI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:56.64,0:18:04.60,17:57:77 IndiaInk,TEXT,0000,0000,0000,,{\fad(460,1)}India Ink
+Dialogue: 0,0:17:56.87,0:17:59.32,DCMain,HEIJI,0000,0000,0000,,Though even if his nose hadn't bled on it,
+Dialogue: 0,0:17:59.32,0:18:04.60,DCMain,HEIJI,0000,0000,0000,,you probably meant to spill ink on \NNukitani-san's shirt so he'd come here.
+Dialogue: 0,0:18:04.93,0:18:06.90,DCMain,NORIMURA,0000,0000,0000,,B-But what about the weapon?
+Dialogue: 0,0:18:06.90,0:18:09.10,DCMain,NORIMURA,0000,0000,0000,,I don't have a blade.
+Dialogue: 0,0:18:09.96,0:18:12.24,DCMain,HEIJI,0000,0000,0000,,You're carrying it.
+Dialogue: 0,0:18:12.95,0:18:15.36,DCMain,NORIMURA,0000,0000,0000,,Y-You're saying I cut a man's \Nthroat with a bamboo sword?
+Dialogue: 0,0:18:15.84,0:18:17.73,DCMain,HEIJI,0000,0000,0000,,Not an assembled sword.
+Dialogue: 0,0:18:17.73,0:18:23.94,DCMain,HEIJI,0000,0000,0000,,If you sharpen a single piece of \Nbamboo and swing it horizontally,
+Dialogue: 0,0:18:23.94,0:18:26.37,DCMain,HEIJI,0000,0000,0000,,the centrifugal force can \Ncut a person's throat.
+Dialogue: 0,0:18:26.80,0:18:29.66,DCMain,OKITA,0000,0000,0000,,I know someone who cut his \Nneck on a sword he parried.
+Dialogue: 0,0:18:29.66,0:18:33.23,DCMain,OKITA,0000,0000,0000,,It wouldn't stop bleeding.
+Dialogue: 0,0:18:33.23,0:18:34.19,DCMain,HEIJI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:34.19,0:18:37.26,DCMain,HEIJI,0000,0000,0000,,The neck is the weakest part of the body.
+Dialogue: 0,0:18:37.51,0:18:40.20,DCMain,HEIJI,0000,0000,0000,,The scratching sound heard in the bathroom
+Dialogue: 0,0:18:40.20,0:18:45.92,DCMain,HEIJI,0000,0000,0000,,was you dulling the pointed \Ntip against the wall.
+Dialogue: 0,0:18:47.82,0:18:49.52,DCMain,HEIJI,0000,0000,0000,,Which means...
+Dialogue: 0,0:18:49.75,0:18:55.28,DCMain,HEIJI,0000,0000,0000,,Nukitani-san's blood must be stuck \Nto the inside of your sword bag.
+Dialogue: 0,0:18:56.05,0:18:57.83,DCMain,SATO,0000,0000,0000,,We're going to check your bag.
+Dialogue: 0,0:18:58.25,0:18:59.03,DCMain,NORIMURA,0000,0000,0000,,Okay.
+Dialogue: 0,0:18:59.69,0:19:02.17,DCMain,NORIMURA,0000,0000,0000,,I'm sure you'll find some,
+Dialogue: 0,0:19:02.17,0:19:05.29,DCMain,NORIMURA,0000,0000,0000,,even though I tried to \Nwash it in the bathroom.
+Dialogue: 0,0:19:08.43,0:19:09.73,DCMain,HEIJI,0000,0000,0000,,Sorry, Kudo.
+Dialogue: 0,0:19:09.73,0:19:11.89,DCMain,HEIJI,0000,0000,0000,,I'm the star this time.
+Dialogue: 0,0:19:12.30,0:19:13.79,DCItalic,CONAN,0000,0000,0000,,How frustrating.
+Dialogue: 0,0:19:14.52,0:19:16.58,DCMain,SATO,0000,0000,0000,,But why a bamboo sword?
+Dialogue: 0,0:19:16.58,0:19:18.94,DCMain,SATO,0000,0000,0000,,Wouldn't a blade have been better?
+Dialogue: 0,0:19:18.94,0:19:22.04,DCMain,NORIMURA,0000,0000,0000,,That bamboo sword was my son's.
+Dialogue: 0,0:19:22.04,0:19:22.55,DCMain,SATO,0000,0000,0000,,What?
+Dialogue: 0,0:19:22.97,0:19:26.93,DCMain,NORIMURA,0000,0000,0000,,Two years ago, Nukitani-san \Ndrove him to suicide.
+Dialogue: 0,0:19:27.71,0:19:29.06,DCMain,SATO,0000,0000,0000,,He drove him to suicide?
+Dialogue: 0,0:19:29.54,0:19:34.52,DCMain,NORIMURA,0000,0000,0000,,Two years ago during this tournament's team \Nmatch finals, my son won a decisive bout,
+Dialogue: 0,0:19:34.52,0:19:39.07,DCMain,NORIMURA,0000,0000,0000,,but he accidentally struck a victory \Npose, and his victory was invalidated.
+Dialogue: 0,0:19:39.43,0:19:42.56,DCMain,NORIMURA,0000,0000,0000,,Their opponents made a comeback, \Nand my son's team was eliminated.
+Dialogue: 0,0:19:42.56,0:19:45.47,DCMain,NORIMURA,0000,0000,0000,,My son had a strong sense of responsibility.
+Dialogue: 0,0:19:45.47,0:19:49.08,DCMain,NORIMURA,0000,0000,0000,,Unable to withstand the humiliation, \Nhe took his own life.
+Dialogue: 0,0:19:49.71,0:19:53.79,DCMain,NORIMURA,0000,0000,0000,,That match was refereed by Nukitani-san!
+Dialogue: 0,0:19:54.09,0:19:57.44,DCMain,SATO,0000,0000,0000,,But according to the rules, \Nit couldn't be helped.
+Dialogue: 0,0:19:57.44,0:19:58.34,DCMain,NORIMURA,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:58.34,0:20:02.55,DCMain,NORIMURA,0000,0000,0000,,I thought Nukitani-san made \Nthe right call, too.
+Dialogue: 0,0:20:03.12,0:20:05.16,DCMain,NORIMURA,0000,0000,0000,,Until I saw him ignore the victory pose
+Dialogue: 0,0:20:05.16,0:20:10.36,DCMain,NORIMURA,0000,0000,0000,,struck by Toto Senshin \NHigh School's second man
+Dialogue: 0,0:20:10.36,0:20:12.39,DCMain,NORIMURA,0000,0000,0000,,during yesterday's team match finals!
+Dialogue: 0,0:20:13.22,0:20:14.31,DCMain,SATO,0000,0000,0000,,I see.
+Dialogue: 0,0:20:14.54,0:20:15.39,DCMain,NORIMURA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:15.39,0:20:19.93,DCMain,NORIMURA,0000,0000,0000,,Not only did he not invalidate his victory, \Nbut he gave the student a pep talk!
+Dialogue: 0,0:20:19.93,0:20:23.24,DCMain,NORIMURA,0000,0000,0000,,He showed favoritism since \Nthey're both from Kansai!
+Dialogue: 0,0:20:23.66,0:20:27.74,DCMain,NORIMURA,0000,0000,0000,,S-So I killed that biased man
+Dialogue: 0,0:20:27.99,0:20:29.89,DCMain,NORIMURA,0000,0000,0000,,with my son's bamboo sword!
+Dialogue: 0,0:20:31.90,0:20:36.18,DCMain,OKITA,0000,0000,0000,,He was probably holding this good luck charm.
+Dialogue: 0,0:20:36.18,0:20:37.00,DCMain,NORIMURA,0000,0000,0000,,A good luck charm?
+Dialogue: 0,0:20:37.51,0:20:40.74,DCMain,OKITA,0000,0000,0000,,That first-year second man \Nsaid he really wanted to win,
+Dialogue: 0,0:20:40.74,0:20:43.26,DCMain,OKITA,0000,0000,0000,,so I let him borrow my good luck charm.
+Dialogue: 0,0:20:43.79,0:20:47.79,DCMain,OKITA,0000,0000,0000,,This Hachidai Shrine charm's been \Nin my family for generations.
+Dialogue: 0,0:20:47.79,0:20:50.27,DCMain,OKITA,0000,0000,0000,,I've never lost while wearing it.
+Dialogue: 0,0:20:50.80,0:20:55.20,DCMain,OKITA,0000,0000,0000,,After winning his match, he noticed \Nit sticking out of his uniform.
+Dialogue: 0,0:20:55.20,0:20:59.86,DCMain,OKITA,0000,0000,0000,,While putting it back, he said he thanked \Ngod while holding it with tears in his eyes.
+Dialogue: 0,0:20:59.86,0:21:02.65,DCMain,OKITA,0000,0000,0000,,Maybe you mistook that for a fist pump.
+Dialogue: 0,0:21:03.17,0:21:04.15,DCMain,NORIMURA,0000,0000,0000,,You're lying.
+Dialogue: 0,0:21:04.50,0:21:05.91,DCMain,OKITA,0000,0000,0000,,It's true.
+Dialogue: 0,0:21:05.91,0:21:10.00,DCMain,OKITA,0000,0000,0000,,Apparently the referee told \Nhim not to cry during a match.
+Dialogue: 0,0:21:10.00,0:21:12.04,DCMain,NORIMURA,0000,0000,0000,,You're lying! You're lying!
+Dialogue: 0,0:21:12.54,0:21:14.71,DCMain,NORIMURA,0000,0000,0000,,You're lying!
+Dialogue: 0,0:21:15.34,0:21:17.50,DCMain,NORIMURA,0000,0000,0000,,You're lying!
+Dialogue: 0,0:21:23.42,0:21:25.30,DCItalic,CONAN,0000,0000,0000,,Sh-She's so strong...
+Dialogue: 0,0:21:26.65,0:21:28.22,DCMain,RAN,0000,0000,0000,,What are you doing? Hurry!
+Dialogue: 0,0:21:28.43,0:21:30.09,DCMain,TAKAGI,0000,0000,0000,,Hey, wait...
+Dialogue: 0,0:21:34.04,0:21:35.37,DCMain,SATO,0000,0000,0000,,The charm...
+Dialogue: 0,0:22:57.51,0:22:59.56,DCMain,RAN,0000,0000,0000,,Kazuha-chan, I brought him!
+Dialogue: 0,0:23:00.02,0:23:01.60,DCMain,KAZUHA,0000,0000,0000,,Ran... Ran-chan!
+Dialogue: 0,0:23:02.01,0:23:04.37,DCMain,KAZUHA,0000,0000,0000,,The match is over...
+Dialogue: 0,0:23:04.37,0:23:05.61,DCMain,ALL,0000,0000,0000,,Victory by default!
+Dialogue: 0,0:23:05.87,0:23:06.52,DCMain,RAN,0000,0000,0000,,What?!
+Dialogue: 0,0:23:06.52,0:23:08.56,DCMain,KAZUHA,0000,0000,0000,,Where have you been?
+Dialogue: 0,0:23:08.56,0:23:10.86,DCMain,KAZUHA,0000,0000,0000,,Heiji, you idiot!
+Dialogue: 0,0:23:11.68,0:23:13.12,DCMain,MOMIJI,0000,0000,0000,,Shall we go?
+Dialogue: 0,0:23:14.92,0:23:17.50,DCMain,IORI,0000,0000,0000,,You're not going to meet Hattori-sama?
+Dialogue: 0,0:23:18.19,0:23:22.84,DCMain,MOMIJI,0000,0000,0000,,I'd like to meet my future husband \Nunder better circumstances.
+Dialogue: 0,0:23:23.86,0:23:27.30,DCMain,OKITA,0000,0000,0000,,This is because you took your \Nsweet time solving that mystery.
+Dialogue: 0,0:23:27.30,0:23:32.18,DCMain,HEIJI,0000,0000,0000,,You idiot, you slowed me down with \Nyour nonsense about Zatoichi.
+Dialogue: 0,0:23:32.18,0:23:33.59,DCMain,KAZUHA,0000,0000,0000,,S-Solving?
+Dialogue: 0,0:23:33.93,0:23:36.06,DCMain,KAZUHA,0000,0000,0000,,Were you sticking your \Nnose into some case again?
+Dialogue: 0,0:23:36.34,0:23:38.77,DCMain,KAZUHA,0000,0000,0000,,I can't stand detectives.
+Dialogue: 0,0:23:40.49,0:23:42.94,DCItalic,CONAN,0000,0000,0000,,What an awful way to live.
+Dialogue: 0,0:23:45.06,0:24:09.09,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:47.01,0:23:47.90,DCMain,CONAN,0000,0000,0000,,Genta!
+Dialogue: 0,0:23:48.40,0:23:53.16,DCMain,YUMI,0000,0000,0000,,No one's escaped from my mini-patrol \Ncar on these streets before!
+Dialogue: 0,0:23:54.87,0:23:56.70,DCItalic,GENTA,0000,0000,0000,,I'm hungry...
+Dialogue: 0,0:23:58.78,0:23:59.46,DCMain,CONAN,0000,0000,0000,,Genta?
+Dialogue: 0,0:23:59.46,0:24:00.73,DCMain,AYUMI,0000,0000,0000,,Genta-kun!
+Dialogue: 0,0:24:01.73,0:24:04.91,DCMain,CONAN,0000,0000,0000,,Damn. My tracking glasses aren't working.
+Dialogue: 0,0:24:04.91,0:24:06.59,DCMain,CONAN,0000,0000,0000,,His badge must be broken.
+Dialogue: 0,0:24:09.09,0:24:15.09,DCNextEp,TEXT,0000,0000,0000,,The Mini-Patrol Car Police's Big Chase
+Dialogue: 0,0:24:09.57,0:24:13.53,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The \NMini-Patrol Car Police's Big Chase!"
+Dialogue: 0,0:24:30.11,0:24:35.03,Hint,TEXT,0000,0000,0000,,Yumi and Naeko
+Dialogue: 0,0:24:30.25,0:24:31.18,DCMain,OKITA,0000,0000,0000,,Ready, and...
+Dialogue: 0,0:24:31.18,0:24:33.29,DCMain,BOTH,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.29,0:24:34.82,DCMain,CONAN,0000,0000,0000,,Yumi and Naeko!
+Dialogue: 0,0:24:35.03,0:24:40.04,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.27,0:24:37.00,DCMain,KAZUHA,0000,0000,0000,,{\an8}Once again, you're an idiot, Heiji!
+Dialogue: 0,0:24:37.00,0:24:39.05,DCMain,MOMIJI,0000,0000,0000,,{\an8}This time you truly were an idiot.

@@ -1,0 +1,406 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: 7Years,Trebuchet MS,20,&H00F2F8F6,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0015,0
+Style: NishiStation,Trebuchet MS,24,&H0041412F,&H000000FF,&H00A8A589,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0015,0
+Style: LodgeAdvert,Trebuchet MS,18,&H0020252D,&H000000FF,&H00DBE4E4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0010,0020,0
+Style: Owner,Trebuchet MS,16,&H000F0F10,&H000000FF,&H00DFE5E1,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0010,0090,0
+Style: Loved,Trebuchet MS,18,&H000C161E,&H000000FF,&H00DDE5E1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0010,0020,0
+Style: Masanari,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00BC3E40,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0020,0066,0
+Style: Hiroko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A78D6A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0090,0010,0066,0
+Style: Book,Trebuchet MS,22,&H006EE0EA,&H000000FF,&H002A366A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0110,0020,0
+Style: Shinsuke,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CB8991,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0145,0072,0
+Style: Toru,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00917C8A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0015,0066,0
+Style: Lodge,Trebuchet MS,16,&H00AC94A3,&H000000FF,&H00C4DEF4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0010,0150,0070,0
+Style: Yuri,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CA8893,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0010,0066,0
+Style: Miona,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007C2170,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0010,0066,0
+Style: Otaro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00906083,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0066,0
+Style: Masked,Trebuchet MS,16,&H0015121A,&H000000FF,&H00E4EDEB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0015,0
+Style: Byun,Trebuchet MS,20,&H003FE3EA,&H000000FF,&H00592DD5,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0010,0010,0035,0
+Style: Robbery,Trebuchet MS,18,&H00B2B4B3,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0010,0020,0020,0
+Style: Culprits,Times New Roman,18,&H00000000,&H000000FF,&H00B2B4B3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0010,0020,0060,0
+Style: Makoto,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0062273E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0290,0068,0
+Style: DCNote - Copy,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0015,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:02.95,0:00:07.48,7Years,TEXT,0000,0000,0000,,{\fad(2500,1)}Seven Years Ago – Haido City
+Dialogue: 0,0:00:04.94,0:00:06.64,DCItalic,GIRL,0000,0000,0000,,Hop, hop, hop.
+Dialogue: 0,0:00:06.64,0:00:08.55,DCItalic,GIRL,0000,0000,0000,,Hop, hop, hop.
+Dialogue: 0,0:00:47.15,0:00:51.28,DCMain,CONAN,0000,0000,0000,,When the countdown reaches zero, use your \Ndetective skills to produce an answer!
+Dialogue: 0,0:00:53.90,0:00:57.24,DCMain,CONAN,0000,0000,0000,,The memory of a masked TV \Nhero controls a girl's time.
+Dialogue: 0,0:00:57.57,0:00:59.14,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:59.14,0:01:00.85,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:00.85,0:01:03.23,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:42.01,0:02:48.02,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(402,1)}Eyewitness Testimony Seven Years Later \N(Part One)
+Dialogue: 0,0:02:42.88,0:02:46.05,DCMain,CONAN,0000,0000,0000,,"Eyewitness Testimony Seven \NYears Later, Part One!"
+Dialogue: 0,0:02:48.02,0:02:50.77,NishiStation,SIGN,0000,0000,0000,,Nishiokuho Station
+Dialogue: 0,0:02:52.76,0:02:56.18,DCMain,RAN,0000,0000,0000,,I can't believe we're spending the \Nweekend in such a wonderful place.
+Dialogue: 0,0:02:56.91,0:02:59.52,DCMain,RAN,0000,0000,0000,,Sometimes you have some chic ideas, Dad.
+Dialogue: 0,0:03:00.90,0:03:01.57,DCMain,RAN,0000,0000,0000,,What's that?
+Dialogue: 0,0:03:01.57,0:03:04.83,LodgeAdvert,TEXT,0000,0000,0000,,Nishiokuho \NGuest House Hatobue Lodge \NHave a luxurious time! Forget the hustle and bustle \Nof the city at this guest house\N\N{\fs16}Owner \NYuri Asako-san \NOhara Shinsuke-san
+Dialogue: 0,0:03:02.36,0:03:05.94,DCMain,RAN,0000,0000,0000,,This is an article about the boarding \Nhouse we're staying at today...
+Dialogue: 0,0:03:07.08,0:03:11.83,Loved,TEXT,0000,0000,0000,,Loved by the Prince of Beer! \NFavorite spot of Minakitaya Otaro-san, the \NPrince of Beer. "The place has the best beer!"
+Dialogue: 0,0:03:07.52,0:03:11.83,DCMain,CONAN,0000,0000,0000,,Apparently the boarding house \Nhas a wide variety of beers.
+Dialogue: 0,0:03:12.09,0:03:14.84,DCMain,RAN,0000,0000,0000,,I see. So that's what Dad's after.
+Dialogue: 0,0:03:15.34,0:03:18.59,DCItalic,KOGORO,0000,0000,0000,,I'm going to drink, drink, drink!
+Dialogue: 0,0:03:18.97,0:03:21.59,DCMain,CONAN,0000,0000,0000,,Who's the Prince of Beer?
+Dialogue: 0,0:03:21.89,0:03:24.56,DCMain,RAN,0000,0000,0000,,Ah, Minakitaya Otaro-san.
+Dialogue: 0,0:03:24.56,0:03:28.47,DCMain,RAN,0000,0000,0000,,He's an entertainer who recently became \Npopular for hosting variety shows.
+Dialogue: 0,0:03:28.47,0:03:33.79,DCMain,RAN,0000,0000,0000,,His knowledge of beer that he displays on \Nblogs and talk shows is supposed to be amazing.
+Dialogue: 0,0:03:33.79,0:03:36.02,DCMain,CONAN,0000,0000,0000,,So that makes him the Prince of Beer.
+Dialogue: 0,0:03:36.82,0:03:42.73,DCMain,KOGORO,0000,0000,0000,,He used to be part of the comedy \Nduo Minakitaya Otaro and Kyujiro.
+Dialogue: 0,0:03:42.73,0:03:46.33,DCMain,IDE,0000,0000,0000,,But his partner Kyujiro \Ncommitted an act of violence.
+Dialogue: 0,0:03:46.65,0:03:48.19,DCMain,IDE,0000,0000,0000,,Their duo was dissolved.
+Dialogue: 0,0:03:48.19,0:03:49.92,DCMain,IDE,0000,0000,0000,,That was three years ago, I believe.
+Dialogue: 0,0:03:50.62,0:03:53.83,Masanari,TEXT,0000,0000,0000,,{\fad(250,389)}Ide Masanari (28) \NWeb Designer
+Dialogue: 0,0:03:50.64,0:03:53.22,DCMain,IDE,0000,0000,0000,,{\an8}Hello. The name's Ide.
+Dialogue: 0,0:03:54.98,0:03:58.56,DCMain,FUJIYOSHI,0000,0000,0000,,Are you Mori Kogoro-san?
+Dialogue: 0,0:03:59.22,0:04:02.41,DCMain,KOGORO,0000,0000,0000,,Indeed. I am the great detective Mori Kogoro.
+Dialogue: 0,0:04:02.79,0:04:05.59,DCMain,FUJIYOSHI,0000,0000,0000,,I'm so excited to meet someone so famous.
+Dialogue: 0,0:04:07.36,0:04:10.26,DCMain,FUJIYOSHI,0000,0000,0000,,{\an8}My name's Fujiyoshi.
+Dialogue: 0,0:04:08.39,0:04:11.48,Hiroko,TEXT,0000,0000,0000,,{\fad(250,396)}Fujiyoshi Hiroko (35) \NStationery Company Employee
+Dialogue: 0,0:04:10.26,0:04:12.73,DCMain,FUJIYOSHI,0000,0000,0000,,{\an8}Are you headed to the Hatobue Lodge, too?
+Dialogue: 0,0:04:13.03,0:04:14.98,DCMain,KOGORO,0000,0000,0000,,Yeah. Are you?
+Dialogue: 0,0:04:14.98,0:04:15.98,DCMain,FUJIYOSHI,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:16.23,0:04:18.07,Book,TEXT,0000,0000,0000,,Minakitaya Otaro \NThe Prince of Beer's \NGood Day for a Drink
+Dialogue: 0,0:04:16.39,0:04:21.25,DCMain,FUJIYOSHI,0000,0000,0000,,How could I not after the Prince \Nof Beer spoke so highly of it?
+Dialogue: 0,0:04:25.34,0:04:27.07,DCMain,OHARA,0000,0000,0000,,Sorry I'm late.
+Dialogue: 0,0:04:27.68,0:04:30.33,DCMain,OHARA,0000,0000,0000,,{\an8}I'm Ohara of the Hatobue Lodge.
+Dialogue: 0,0:04:29.29,0:04:32.37,Shinsuke,TEXT,0000,0000,0000,,{\fad(250,390)}Ohara Shinsuke (29) \NHatobue Lodge Employee
+Dialogue: 0,0:04:30.33,0:04:33.46,DCMain,OHARA,0000,0000,0000,,{\an8}You must be Mori-sama, \NFujiyoshi-sama, Ide-sama.
+Dialogue: 0,0:04:36.28,0:04:37.87,DCMain,OHARA,0000,0000,0000,,{\an8}You must be Shirogane-sama.
+Dialogue: 0,0:04:36.38,0:04:38.75,Toru,TEXT,0000,0000,0000,,{\fad(250,1)}Shirogane Toru (54) \NLocal Magazine Writer
+Dialogue: 0,0:04:37.87,0:04:38.75,DCMain,SHIROGANE,0000,0000,0000,,{\an8}Yes.
+Dialogue: 0,0:04:39.30,0:04:42.77,DCMain,OHARA,0000,0000,0000,,In that case, I'll take you \Nto the lodge. Get in, please.
+Dialogue: 0,0:04:43.35,0:04:46.01,DCMain,OHARA,0000,0000,0000,,It's about twenty minutes \Nto the boarding house.
+Dialogue: 0,0:04:46.35,0:04:48.67,DCMain,OHARA,0000,0000,0000,,We should arrive before 2:30.
+Dialogue: 0,0:04:49.51,0:04:52.52,Lodge,SIGN,0000,0000,0000,,Hatobue Lodge
+Dialogue: 0,0:04:50.96,0:04:52.52,DCMain,ASAKO,0000,0000,0000,,Please leave.
+Dialogue: 0,0:04:52.91,0:04:55.55,DCMain,ASAKO,0000,0000,0000,,We have nothing to discuss.
+Dialogue: 0,0:04:55.55,0:04:57.31,DCMain,MURAMATSU,0000,0000,0000,,But...
+Dialogue: 0,0:05:20.36,0:05:22.67,DCMain,ASAKO,0000,0000,0000,,Thank you for coming.
+Dialogue: 0,0:05:22.95,0:05:26.97,DCMain,ASAKO,0000,0000,0000,,{\an8}I'm Yuri Asako, owner of the Hatobue Lodge.
+Dialogue: 0,0:05:24.88,0:05:27.43,Yuri,TEXT,0000,0000,0000,,{\fad(250,1)}Yuri Asako (39) \NHatobue Lodge Owner
+Dialogue: 0,0:05:36.84,0:05:38.74,DCMain,ASAKO,0000,0000,0000,,{\an8}This is my daughter Miona.
+Dialogue: 0,0:05:37.31,0:05:40.19,Miona,TEXT,0000,0000,0000,,{\fad(250,1)}Yuri Miona (12) \NAsako's Daughter
+Dialogue: 0,0:05:38.74,0:05:40.19,DCMain,MIONA,0000,0000,0000,,{\an8}Welcome.
+Dialogue: 0,0:05:40.68,0:05:42.74,DCMain,ASAKO,0000,0000,0000,,You must be exhausted.
+Dialogue: 0,0:05:42.74,0:05:44.44,DCMain,ASAKO,0000,0000,0000,,Have a seat.
+Dialogue: 0,0:05:46.94,0:05:50.10,DCMain,RAN,0000,0000,0000,,Were these taken around here?
+Dialogue: 0,0:05:50.10,0:05:53.55,DCMain,OHARA,0000,0000,0000,,Yes. The scenery around here is beautiful.
+Dialogue: 0,0:05:53.55,0:05:56.56,DCMain,OHARA,0000,0000,0000,,I recommend you go for a walk before dinner.
+Dialogue: 0,0:05:57.07,0:05:58.46,DCMain,CONAN,0000,0000,0000,,What are these?
+Dialogue: 0,0:05:59.10,0:06:02.09,DCMain,ASAKO,0000,0000,0000,,They're cow magnets.
+Dialogue: 0,0:06:02.61,0:06:06.86,DCMain,OHARA,0000,0000,0000,,Cows sometimes swallow nails
+Dialogue: 0,0:06:06.86,0:06:09.97,DCMain,OHARA,0000,0000,0000,,or bits of metal in addition to grass.
+Dialogue: 0,0:06:11.04,0:06:13.30,DCMain,OHARA,0000,0000,0000,,It's dangerous to leave \Nthem inside their bodies,
+Dialogue: 0,0:06:13.30,0:06:15.68,DCMain,OHARA,0000,0000,0000,,so we feed them powerful magnets
+Dialogue: 0,0:06:15.68,0:06:18.73,DCMain,OHARA,0000,0000,0000,,to grab the pieces of \Nmetal in their stomachs.
+Dialogue: 0,0:06:19.12,0:06:21.23,DCMain,MIONA,0000,0000,0000,,And that's called a cow magnet.
+Dialogue: 0,0:06:21.46,0:06:22.87,DCMain,CONAN,0000,0000,0000,,Huh...
+Dialogue: 0,0:06:22.87,0:06:27.42,DCMain,ASAKO,0000,0000,0000,,The guests staying here last \Nnight stuck bottle caps to them.
+Dialogue: 0,0:06:27.42,0:06:29.74,DCMain,MIONA,0000,0000,0000,,But there's an even more fun \Nthing you can do with them.
+Dialogue: 0,0:06:32.77,0:06:37.81,DCMain,MIONA,0000,0000,0000,,You take turns sticking \Nthese onto the magnet.
+Dialogue: 0,0:06:37.81,0:06:39.47,DCMain,MIONA,0000,0000,0000,,And then...
+Dialogue: 0,0:06:41.20,0:06:43.87,DCMain,MIONA,0000,0000,0000,,Whoever makes the chain collapse loses.
+Dialogue: 0,0:06:43.87,0:06:46.80,DCMain,OTARO,0000,0000,0000,,Those weren't here last time I came.
+Dialogue: 0,0:06:47.21,0:06:49.80,DCMain,OHARA,0000,0000,0000,,Otaro-san, you're early.
+Dialogue: 0,0:06:50.18,0:06:53.30,Otaro,TEXT,0000,0000,0000,,{\fad(250,1)}Minakitaya Otaro (29) \NEntertainer
+Dialogue: 0,0:06:53.53,0:06:55.23,DCMain,FUJIYOSHI,0000,0000,0000,,What?! No way!
+Dialogue: 0,0:06:55.68,0:06:56.89,DCMain,FUJIYOSHI,0000,0000,0000,,The Prince of Beer?!
+Dialogue: 0,0:06:57.82,0:07:00.08,DCMain,FUJIYOSHI,0000,0000,0000,,I-I'm a huge fan!
+Dialogue: 0,0:07:00.08,0:07:02.50,DCMain,FUJIYOSHI,0000,0000,0000,,Could I get your autograph?
+Dialogue: 0,0:07:02.50,0:07:03.65,DCMain,OTARO,0000,0000,0000,,Sure.
+Dialogue: 0,0:07:05.14,0:07:06.40,DCMain,OTARO,0000,0000,0000,,Gladly.
+Dialogue: 0,0:07:06.92,0:07:07.65,DCMain,OTARO,0000,0000,0000,,Here.
+Dialogue: 0,0:07:07.93,0:07:09.60,DCMain,FUJIYOSHI,0000,0000,0000,,Thank you!
+Dialogue: 0,0:07:12.80,0:07:14.07,DCMain,FUJIYOSHI,0000,0000,0000,,I got his autograph.
+Dialogue: 0,0:07:14.24,0:07:16.49,DCNote,,0000,0000,0000,,Minakitaya Otaro
+Dialogue: 0,0:07:17.36,0:07:18.50,DCMain,ASAKO,0000,0000,0000,,Here.
+Dialogue: 0,0:07:18.88,0:07:21.39,DCMain,ASAKO,0000,0000,0000,,Otaro-san, have some tea.
+Dialogue: 0,0:07:21.39,0:07:23.71,DCMain,OTARO,0000,0000,0000,,Thank you, Asako-san.
+Dialogue: 0,0:07:26.54,0:07:28.40,DCMain,CONAN,0000,0000,0000,,Do you come here often?
+Dialogue: 0,0:07:28.40,0:07:32.26,DCMain,OTARO,0000,0000,0000,,Yeah. This place has a \Nhuge selection of beers.
+Dialogue: 0,0:07:32.72,0:07:37.33,DCMain,OTARO,0000,0000,0000,,Enjoying your favorite beers in a quiet place
+Dialogue: 0,0:07:37.33,0:07:39.02,DCMain,OTARO,0000,0000,0000,,with clean air is the ultimate luxury.
+Dialogue: 0,0:07:39.37,0:07:41.45,DCMain,OTARO,0000,0000,0000,,I come once a month.
+Dialogue: 0,0:07:42.47,0:07:44.86,DCMain,FUJIYOSHI,0000,0000,0000,,What's that symbol?
+Dialogue: 0,0:07:44.86,0:07:46.11,DCMain,IDE,0000,0000,0000,,Oh, this?
+Dialogue: 0,0:07:46.11,0:07:49.86,Masked,TEXT,0000,0000,0000,,Masked Comet
+Dialogue: 0,0:07:46.11,0:07:49.86,Byun,TEXT,0000,0000,0000,,Byun
+Dialogue: 0,0:07:46.96,0:07:49.49,DCMain,IDE,0000,0000,0000,,It's the symbol of Masked Comet Byun.
+Dialogue: 0,0:07:51.96,0:07:53.59,DCMain,FUJIYOSHI,0000,0000,0000,,The TV hero?
+Dialogue: 0,0:07:53.59,0:07:56.32,DCMain,IDE,0000,0000,0000,,The show aired seven years ago.
+Dialogue: 0,0:07:57.09,0:08:02.75,DCMain,IDE,0000,0000,0000,,It's about a hero who fights to protect the \NEarth from the Hell Comet's Demon King Dyark
+Dialogue: 0,0:08:02.75,0:08:06.51,DCMain,IDE,0000,0000,0000,,and his quest for world domination.
+Dialogue: 0,0:08:07.54,0:08:12.09,DCMain,IDE,0000,0000,0000,,Byun himself was once a \Nhenchman of the Hell Comet,
+Dialogue: 0,0:08:12.74,0:08:15.72,DCMain,IDE,0000,0000,0000,,but he's touched by the \Nkindness of an Earthling girl,
+Dialogue: 0,0:08:16.15,0:08:20.09,DCMain,IDE,0000,0000,0000,,reforms his ways, and becomes \Nthe defender of the Earth.
+Dialogue: 0,0:08:20.99,0:08:23.48,DCMain,FUJIYOSHI,0000,0000,0000,,Oh, I remember now.
+Dialogue: 0,0:08:23.87,0:08:28.82,DCMain,FUJIYOSHI,0000,0000,0000,,But wasn't the show canceled?
+Dialogue: 0,0:08:28.82,0:08:32.24,DCMain,IDE,0000,0000,0000,,Yeah, just when the story \Nwas reaching its climax.
+Dialogue: 0,0:08:32.53,0:08:35.74,DCMain,SHIROGANE,0000,0000,0000,,Of course it was canceled. \NIts ratings were terrible.
+Dialogue: 0,0:08:37.11,0:08:40.41,DCMain,IDE,0000,0000,0000,,Ratings have nothing to do \Nwith the quality of the show.
+Dialogue: 0,0:08:41.25,0:08:43.62,DCMain,IDE,0000,0000,0000,,It was pretty cool.
+Dialogue: 0,0:08:55.75,0:08:56.84,DCMain,ASAKO,0000,0000,0000,,Miona!
+Dialogue: 0,0:08:57.02,0:08:59.44,DCMain,ASAKO,0000,0000,0000,,Calm down. Deep breaths.
+Dialogue: 0,0:08:59.83,0:09:01.01,DCMain,RAN,0000,0000,0000,,Is everything all right?
+Dialogue: 0,0:09:01.24,0:09:03.77,DCMain,ASAKO,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:09:12.36,0:09:13.25,DCMain,OHARA,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:09:14.06,0:09:16.57,DCMain,OHARA,0000,0000,0000,,We should start getting dinner ready.
+Dialogue: 0,0:09:17.00,0:09:19.81,DCMain,OHARA,0000,0000,0000,,Dinner starts at six.
+Dialogue: 0,0:09:19.81,0:09:22.58,DCMain,OHARA,0000,0000,0000,,You're free to do what you want until then.
+Dialogue: 0,0:09:23.02,0:09:25.44,DCMain,FUJIYOSHI,0000,0000,0000,,Maybe I'll go for a walk.
+Dialogue: 0,0:09:25.44,0:09:26.58,DCMain,FUJIYOSHI,0000,0000,0000,,Care to join me?
+Dialogue: 0,0:09:26.90,0:09:29.33,DCMain,RAN,0000,0000,0000,,Sure. Miona-chan, why don't you come with us?
+Dialogue: 0,0:09:33.95,0:09:35.10,DCMain,MIONA,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:35.10,0:09:37.68,DCMain,MIONA,0000,0000,0000,,In that case, I'll show you around.
+Dialogue: 0,0:09:38.00,0:09:39.34,DCMain,RAN,0000,0000,0000,,What about you, Dad?
+Dialogue: 0,0:09:39.34,0:09:41.82,DCMain,KOGORO,0000,0000,0000,,I'll be sleeping in our room until dinner.
+Dialogue: 0,0:09:41.82,0:09:43.56,DCMain,IDE,0000,0000,0000,,I'll pass, too.
+Dialogue: 0,0:09:43.56,0:09:46.92,DCMain,SHIROGANE,0000,0000,0000,,I'm going to read my book.
+Dialogue: 0,0:09:48.34,0:09:51.82,DCMain,OTARO,0000,0000,0000,,I need to call my manager,
+Dialogue: 0,0:09:52.22,0:09:53.59,DCMain,OTARO,0000,0000,0000,,so I'll join you another time.
+Dialogue: 0,0:09:54.06,0:09:55.19,DCMain,FUJIYOSHI,0000,0000,0000,,Too bad.
+Dialogue: 0,0:09:55.67,0:09:57.28,DCMain,FUJIYOSHI,0000,0000,0000,,Then the four of us will go.
+Dialogue: 0,0:09:57.28,0:09:58.07,DCMain,RAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:10:02.33,0:10:05.58,Robbery,TEXT,0000,0000,0000,,Robbery and Murder In Haido City
+Dialogue: 0,0:10:02.33,0:10:05.58,Culprits,TEXT,0000,0000,0000,,With culprits still at large, \Ninvestigation makes slow progress
+Dialogue: 0,0:10:03.00,0:10:05.58,DCMain,CONAN,0000,0000,0000,,Did you drop this, Shirogane-san?
+Dialogue: 0,0:10:10.20,0:10:11.69,DCMain,SHIROGANE,0000,0000,0000,,Thanks, kid.
+Dialogue: 0,0:10:11.69,0:10:13.46,DCMain,CONAN,0000,0000,0000,,You're welcome.
+Dialogue: 0,0:10:16.99,0:10:18.72,DCMain,FUJIYOSHI,0000,0000,0000,,Wow!
+Dialogue: 0,0:10:18.97,0:10:22.72,DCMain,FUJIYOSHI,0000,0000,0000,,Otaro-san bought a new car.
+Dialogue: 0,0:10:22.89,0:10:25.47,DCMain,FUJIYOSHI,0000,0000,0000,,First he bought a light truck, then a sedan.
+Dialogue: 0,0:10:25.47,0:10:27.51,DCMain,FUJIYOSHI,0000,0000,0000,,I can't believe he has three cars.
+Dialogue: 0,0:10:27.51,0:10:29.98,DCMain,FUJIYOSHI,0000,0000,0000,,Famous people really do \Nlive in a different world.
+Dialogue: 0,0:10:42.10,0:10:43.03,DCMain,DETECTIVE A,0000,0000,0000,,Muramatsu-san.
+Dialogue: 0,0:10:43.08,0:10:45.29,Makoto,TEXT,0000,0000,0000,,{\fad(250,1)}Muramatsu Makoto (48) \NNishiokuho Police Inspector
+Dialogue: 0,0:10:43.51,0:10:45.29,DCMain,DETECTIVE A,0000,0000,0000,,{\an8}He seems to have drowned after all.
+Dialogue: 0,0:10:45.82,0:10:48.30,DCMain,DETECTIVE A,0000,0000,0000,,He had nothing identifying on his person.
+Dialogue: 0,0:10:50.54,0:10:53.19,DCMain,MURAMATSU,0000,0000,0000,,This is from that incident.
+Dialogue: 0,0:10:59.25,0:11:03.43,DCMain,OHARA,0000,0000,0000,,Please enjoy this pre-dinner fruit beer.
+Dialogue: 0,0:11:03.83,0:11:05.22,DCMain,KOGORO,0000,0000,0000,,Fruit?
+Dialogue: 0,0:11:05.64,0:11:10.69,DCMain,OTARO,0000,0000,0000,,In Belgium, they've been making \Nbeer with fruit for ages.
+Dialogue: 0,0:11:12.41,0:11:14.66,DCMain,OTARO,0000,0000,0000,,Like cherries and raspberries.
+Dialogue: 0,0:11:15.56,0:11:17.77,DCMain,FUJIYOSHI,0000,0000,0000,,What a pleasant aroma.
+Dialogue: 0,0:11:17.77,0:11:19.81,DCMain,FUJIYOSHI,0000,0000,0000,,Is this citron?
+Dialogue: 0,0:11:19.81,0:11:20.76,DCMain,OTARO,0000,0000,0000,,That's right.
+Dialogue: 0,0:11:20.76,0:11:26.23,DCMain,OTARO,0000,0000,0000,,This beer lets you enjoy the uniquely \Nrefreshing smell and taste of citron.
+Dialogue: 0,0:11:28.74,0:11:32.74,DCMain,OTARO,0000,0000,0000,,Let's toast to our meeting today.
+Dialogue: 0,0:11:33.00,0:11:34.67,DCMain,ALL,0000,0000,0000,,Cheers!
+Dialogue: 0,0:11:35.00,0:11:36.06,DCMain,RAN,0000,0000,0000,,Cheers.
+Dialogue: 0,0:11:41.06,0:11:45.43,DCMain,KOGORO,0000,0000,0000,,The combination of sweet and \Nsour flavors is interesting.
+Dialogue: 0,0:11:46.73,0:11:48.54,DCMain,OHARA,0000,0000,0000,,Next is a pilsner.
+Dialogue: 0,0:11:49.81,0:11:53.69,DCMain,OTARO,0000,0000,0000,,Pilsners are well known in Japan.
+Dialogue: 0,0:11:54.46,0:11:57.94,DCMain,OTARO,0000,0000,0000,,They have a good balance of \Nflavor, bitterness, and aroma.
+Dialogue: 0,0:11:59.13,0:12:00.98,DCMain,OHARA,0000,0000,0000,,This is an IPA.
+Dialogue: 0,0:12:05.98,0:12:08.70,DCMain,OTARO,0000,0000,0000,,You can't get enough of \Nthis intense bitterness.
+Dialogue: 0,0:12:12.94,0:12:14.83,DCMain,RAN,0000,0000,0000,,This meat is delicious.
+Dialogue: 0,0:12:15.94,0:12:17.78,DCMain,OHARA,0000,0000,0000,,Next we have a porter.
+Dialogue: 0,0:12:21.83,0:12:24.38,DCMain,OTARO,0000,0000,0000,,The fragrant aroma of roasted malt.
+Dialogue: 0,0:12:24.76,0:12:27.97,DCMain,OTARO,0000,0000,0000,,The strong, bitter flavor \Nof dark roast coffee
+Dialogue: 0,0:12:27.97,0:12:31.52,DCMain,OTARO,0000,0000,0000,,compliments the flavor of the meat.
+Dialogue: 0,0:12:35.26,0:12:39.53,DCMain,OHARA,0000,0000,0000,,For dessert, enjoy this \Nslightly unusual beer.
+Dialogue: 0,0:12:44.62,0:12:46.52,DCMain,KOGORO,0000,0000,0000,,Is this beer?
+Dialogue: 0,0:12:51.02,0:12:52.87,DCMain,KOGORO,0000,0000,0000,,It's definitely beer.
+Dialogue: 0,0:12:52.87,0:12:56.79,DCMain,KOGORO,0000,0000,0000,,It's not too bitter and has a crisp flavor.
+Dialogue: 0,0:12:57.03,0:12:58.28,DCMain,IDE,0000,0000,0000,,You're right.
+Dialogue: 0,0:12:58.28,0:13:02.76,DCMain,FUJIYOSHI,0000,0000,0000,,Based on its color, I thought \Nit'd be sweet like a Blue Hawaii.
+Dialogue: 0,0:13:03.08,0:13:06.26,DCMain,OTARO,0000,0000,0000,,This beer is dyed blue with gardenias.
+Dialogue: 0,0:13:06.54,0:13:09.02,DCMain,SHIROGANE,0000,0000,0000,,It tastes so different from how it looks.
+Dialogue: 0,0:13:09.02,0:13:10.77,DCMain,SHIROGANE,0000,0000,0000,,It's confusing.
+Dialogue: 0,0:13:10.77,0:13:13.52,DCMain,KOGORO,0000,0000,0000,,I was completely deceived by its appearance.
+Dialogue: 0,0:13:21.80,0:13:23.83,DCMain,CONAN,0000,0000,0000,,You lose.
+Dialogue: 0,0:13:28.23,0:13:30.81,DCItalic,CONAN,0000,0000,0000,,He was here this afternoon.
+Dialogue: 0,0:13:32.37,0:13:34.54,DCMain,MURAMATSU,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:13:37.45,0:13:38.63,DCMain,KOGORO,0000,0000,0000,,The police?
+Dialogue: 0,0:13:38.90,0:13:40.52,DCItalic,CONAN,0000,0000,0000,,So he's a cop.
+Dialogue: 0,0:13:41.11,0:13:45.77,DCMain,DETECTIVE A,0000,0000,0000,,Huh? Aren't you the \Ndetective Mori Kogoro-san?
+Dialogue: 0,0:13:46.18,0:13:49.76,DCMain,KOGORO,0000,0000,0000,,Indeed. I am the great detective.
+Dialogue: 0,0:13:49.96,0:13:53.30,DCMain,ASAKO,0000,0000,0000,,Muramatsu-san, like I \Ntold you this afternoon,
+Dialogue: 0,0:13:53.30,0:13:55.20,DCMain,ASAKO,0000,0000,0000,,if you're here about that case...
+Dialogue: 0,0:13:55.20,0:13:57.89,DCMain,MURAMATSU,0000,0000,0000,,I'm not here about that.
+Dialogue: 0,0:13:58.28,0:13:59.69,DCItalic,CONAN,0000,0000,0000,,That case?
+Dialogue: 0,0:14:00.37,0:14:02.67,DCMain,MURAMATSU,0000,0000,0000,,Around five this afternoon,
+Dialogue: 0,0:14:02.67,0:14:07.30,DCMain,MURAMATSU,0000,0000,0000,,the body of a man was found in a \Nlake seven kilometers east of here.
+Dialogue: 0,0:14:07.30,0:14:07.90,DCMain,ASAKO,0000,0000,0000,,What?
+Dialogue: 0,0:14:09.96,0:14:11.86,DCMain,MURAMATSU,0000,0000,0000,,We believe he drowned.
+Dialogue: 0,0:14:11.86,0:14:15.36,DCMain,MURAMATSU,0000,0000,0000,,We're currently considering \Nall possibilities,
+Dialogue: 0,0:14:15.36,0:14:17.66,DCMain,MURAMATSU,0000,0000,0000,,including accidental death, \Nsuicide, and murder.
+Dialogue: 0,0:14:18.24,0:14:21.64,DCMain,MURAMATSU,0000,0000,0000,,The river behind the lodge \Nis connected to the lake,
+Dialogue: 0,0:14:21.64,0:14:25.67,DCMain,MURAMATSU,0000,0000,0000,,so we've been canvassing along the river.
+Dialogue: 0,0:14:28.22,0:14:30.60,DCMain,MURAMATSU,0000,0000,0000,,Do you recognize this man?
+Dialogue: 0,0:14:30.60,0:14:32.42,DCMain,OHARA,0000,0000,0000,,Oh, that man...
+Dialogue: 0,0:14:32.42,0:14:33.64,DCMain,MURAMATSU,0000,0000,0000,,You know him?
+Dialogue: 0,0:14:33.96,0:14:37.50,DCMain,OHARA,0000,0000,0000,,Didn't he stay with us about two months ago?
+Dialogue: 0,0:14:41.81,0:14:43.15,DCNote,,0000,0000,0000,,Kitamoto Shujiro
+Dialogue: 0,0:14:43.51,0:14:46.53,DCMain,OHARA,0000,0000,0000,,This is him. Kitamoto Shujiro-san.
+Dialogue: 0,0:14:46.53,0:14:47.37,DCMain,OTARO,0000,0000,0000,,What?!
+Dialogue: 0,0:14:48.09,0:14:49.46,DCMain,OTARO,0000,0000,0000,,What did you say?
+Dialogue: 0,0:14:51.86,0:14:53.21,DCMain,MURAMATSU,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:14:53.21,0:14:56.94,DCMain,DETECTIVE A,0000,0000,0000,,Huh? Aren't you Minakitaya Otaro-san?
+Dialogue: 0,0:14:56.94,0:14:58.87,DCMain,OTARO,0000,0000,0000,,This is Kyujiro.
+Dialogue: 0,0:14:58.87,0:14:59.65,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:14:59.65,0:15:01.42,DCMain,DETECTIVE A,0000,0000,0000,,Your old partner?
+Dialogue: 0,0:15:01.42,0:15:04.88,DCMain,OTARO,0000,0000,0000,,Yes. He's changed a lot,
+Dialogue: 0,0:15:05.60,0:15:09.02,DCMain,OTARO,0000,0000,0000,,but Kitamoto Shujiro is his real name.
+Dialogue: 0,0:15:09.02,0:15:11.43,DCMain,MURAMATSU,0000,0000,0000,,When did you last see him?
+Dialogue: 0,0:15:12.14,0:15:16.08,DCMain,OTARO,0000,0000,0000,,Three years ago, when we dissolved our duo.
+Dialogue: 0,0:15:16.57,0:15:19.43,DCMain,OTARO,0000,0000,0000,,Rumor is he's an entertainment reporter now.
+Dialogue: 0,0:15:19.71,0:15:21.13,DCMain,OHARA,0000,0000,0000,,An entertainment reporter?
+Dialogue: 0,0:15:21.75,0:15:25.76,DCMain,OHARA,0000,0000,0000,,Come to think of it, he did ask \Na lot of questions about you.
+Dialogue: 0,0:15:26.52,0:15:29.07,DCMain,OTARO,0000,0000,0000,,He doesn't have a very good reputation.
+Dialogue: 0,0:15:29.07,0:15:32.52,DCMain,OTARO,0000,0000,0000,,They say he'll even engage in criminal \Nactivity to get information.
+Dialogue: 0,0:15:32.52,0:15:37.12,DCMain,OTARO,0000,0000,0000,,He's also drowning in debt and has some \Naggressive debt collectors after him.
+Dialogue: 0,0:15:37.12,0:15:41.41,DCMain,KOGORO,0000,0000,0000,,Maybe he was looking to \Nreport a scandal on you.
+Dialogue: 0,0:15:42.76,0:15:44.34,DCMain,OTARO,0000,0000,0000,,Kyujiro...
+Dialogue: 0,0:15:45.14,0:15:49.68,DCMain,MURAMATSU,0000,0000,0000,,The estimated time of death \Nis between noon and 1PM today.
+Dialogue: 0,0:15:49.68,0:15:51.80,DCMain,MURAMATSU,0000,0000,0000,,Where were you around that time?
+Dialogue: 0,0:15:51.80,0:15:54.93,DCMain,OTARO,0000,0000,0000,,I was recording at a studio \Nin the city until 12:30.
+Dialogue: 0,0:15:55.42,0:15:58.49,DCMain,OTARO,0000,0000,0000,,After that, I drove here.
+Dialogue: 0,0:15:58.49,0:16:01.89,DCMain,OTARO,0000,0000,0000,,It took about two hours from the city.
+Dialogue: 0,0:16:03.00,0:16:08.07,DCItalic,CONAN,0000,0000,0000,,Noon to one is when we were on the train.
+Dialogue: 0,0:16:08.32,0:16:09.71,DCMain,MURAMATSU,0000,0000,0000,,What about you?
+Dialogue: 0,0:16:09.71,0:16:13.68,DCMain,OHARA,0000,0000,0000,,We were getting ready for our guests here.
+Dialogue: 0,0:16:13.68,0:16:14.82,DCMain,ASAKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:16:14.82,0:16:16.83,DCMain,MURAMATSU,0000,0000,0000,,What about the rest of you?
+Dialogue: 0,0:16:16.83,0:16:18.62,DCMain,IDE,0000,0000,0000,,We have nothing to do with this.
+Dialogue: 0,0:16:19.08,0:16:20.66,DCMain,DETECTIVE A,0000,0000,0000,,We'd just like to know for reference.
+Dialogue: 0,0:16:23.15,0:16:25.49,DCMain,IDE,0000,0000,0000,,I was on the train.
+Dialogue: 0,0:16:25.49,0:16:27.79,DCMain,IDE,0000,0000,0000,,The same train as Mori-san.
+Dialogue: 0,0:16:27.97,0:16:30.25,DCMain,SHIROGANE,0000,0000,0000,,I was on the bus.
+Dialogue: 0,0:16:30.25,0:16:32.14,DCMain,SHIROGANE,0000,0000,0000,,I took the 12 o'clock bus \Nfrom Tatsukawa Station
+Dialogue: 0,0:16:32.14,0:16:35.62,DCMain,SHIROGANE,0000,0000,0000,,and arrived at Nishiokuho Station at 1:50.
+Dialogue: 0,0:16:35.62,0:16:40.69,DCMain,FUJIYOSHI,0000,0000,0000,,I took the train an hour earlier \Nand was walking around the station.
+Dialogue: 0,0:16:41.10,0:16:45.21,DCMain,MURAMATSU,0000,0000,0000,,Could you please identify yourselves?
+Dialogue: 0,0:16:46.41,0:16:49.86,DCMain,SHIROGANE,0000,0000,0000,,Shirogane Toru. I'm a writer \Nfor a local magazine.
+Dialogue: 0,0:16:49.86,0:16:52.99,DCMain,IDE,0000,0000,0000,,Ide Masanari. I'm a web designer.
+Dialogue: 0,0:16:53.15,0:16:56.82,DCMain,FUJIYOSHI,0000,0000,0000,,Fujiyoshi Hiroko. I'm an office \Nworker for a stationery company.
+Dialogue: 0,0:16:57.14,0:16:58.82,DCMain,MURAMATSU,0000,0000,0000,,Do you recognize this?
+Dialogue: 0,0:17:00.16,0:17:01.72,DCMain,IDE,0000,0000,0000,,Masked Comet Byun!
+Dialogue: 0,0:17:06.92,0:17:10.44,DCMain,DETECTIVE A,0000,0000,0000,,Was Kyujiro-san interested \Nin this kind of thing?
+Dialogue: 0,0:17:10.44,0:17:11.70,DCMain,OTARO,0000,0000,0000,,I'm not sure.
+Dialogue: 0,0:17:11.70,0:17:13.38,DCMain,RAN,0000,0000,0000,,Miona-chan, are you okay?
+Dialogue: 0,0:17:14.26,0:17:14.88,DCMain,ASAKO,0000,0000,0000,,Miona!
+Dialogue: 0,0:17:15.90,0:17:21.47,DCMain,CONAN,0000,0000,0000,,Miona-chan didn't seem well the last time \Nthe Masked Comet was mentioned either.
+Dialogue: 0,0:17:21.84,0:17:23.28,DCMain,ASAKO,0000,0000,0000,,It's nothing.
+Dialogue: 0,0:17:24.24,0:17:25.35,DCMain,ASAKO,0000,0000,0000,,It's nothing.
+Dialogue: 0,0:17:26.52,0:17:31.33,DCMain,IDE,0000,0000,0000,,Come to think of it, there was a robbery \Nand murder in Haido City a long time ago.
+Dialogue: 0,0:17:32.06,0:17:35.77,DCMain,IDE,0000,0000,0000,,A financial company employee was murdered, \Nand a large amount of money was stolen.
+Dialogue: 0,0:17:35.77,0:17:38.45,DCMain,IDE,0000,0000,0000,,The culprits were wearing Masked Comet Byun
+Dialogue: 0,0:17:38.45,0:17:41.74,DCMain,IDE,0000,0000,0000,,and Demon King Dyark masks.
+Dialogue: 0,0:17:42.10,0:17:44.00,DCMain,IDE,0000,0000,0000,,I think that was seven years ago.
+Dialogue: 0,0:17:44.00,0:17:45.50,DCNote,,0000,0000,0000,,Robbery and Murder In Haido City
+Dialogue: 0,0:17:44.20,0:17:44.94,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:17:45.88,0:17:50.38,DCMain,KOGORO,0000,0000,0000,,Come to think of it, there was a \Nyoung girl who witnessed the crime.
+Dialogue: 0,0:17:50.60,0:17:52.08,DCItalic,CONAN,0000,0000,0000,,A witness?
+Dialogue: 0,0:17:54.56,0:17:55.47,DCMain,ASAKO,0000,0000,0000,,Miona!
+Dialogue: 0,0:17:58.51,0:18:00.51,DCMain,ASAKO,0000,0000,0000,,Miona, calm down.
+Dialogue: 0,0:18:01.04,0:18:03.26,DCMain,OHARA,0000,0000,0000,,She can lie down in the \Nguestroom in the back.
+Dialogue: 0,0:18:14.56,0:18:17.30,DCMain,SHIROGANE,0000,0000,0000,,Ide-san, why would you do that?
+Dialogue: 0,0:18:17.30,0:18:19.23,DCMain,IDE,0000,0000,0000,,I... uh...
+Dialogue: 0,0:18:47.39,0:18:50.65,DCNote,,0000,0000,0000,,Robbery and Murder In Haido City
+Dialogue: 0,0:19:01.97,0:19:04.41,DCMain,RAN,0000,0000,0000,,Who could it be at this hour?
+Dialogue: 0,0:19:07.80,0:19:09.10,DCMain,RAN,0000,0000,0000,,Fujiyoshi-san?
+Dialogue: 0,0:19:10.04,0:19:13.79,DCNote,SIGN,0000,0000,0000,,Nishiokuho Police Station
+Dialogue: 0,0:19:11.98,0:19:13.79,DCMain,DETECTIVE A,0000,0000,0000,,It's an emergency, Muramatsu-san!
+Dialogue: 0,0:19:14.18,0:19:15.47,DCMain,MURAMATSU,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:19:15.47,0:19:18.96,DCMain,DETECTIVE A,0000,0000,0000,,The water found in the body's \Nlungs wasn't lake water.
+Dialogue: 0,0:19:18.96,0:19:20.38,DCMain,DETECTIVE A,0000,0000,0000,,It was ordinary tap water.
+Dialogue: 0,0:19:20.73,0:19:23.25,DCMain,MURAMATSU,0000,0000,0000,,What? Which means...
+Dialogue: 0,0:19:23.25,0:19:24.01,DCMain,DETECTIVE A,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:24.61,0:19:27.51,DCMain,DETECTIVE A,0000,0000,0000,,If the victim was murdered elsewhere
+Dialogue: 0,0:19:27.51,0:19:32.52,DCMain,DETECTIVE A,0000,0000,0000,,and brought to the lake \Nby car to be dumped...
+Dialogue: 0,0:19:32.72,0:19:36.52,DCMain,MURAMATSU,0000,0000,0000,,Then Minakitaya Otaro could've done it.
+Dialogue: 0,0:19:38.22,0:19:40.78,DCMain,SHIROGANE,0000,0000,0000,,Who would do this?
+Dialogue: 0,0:19:41.70,0:19:45.80,DCMain,FUJIYOSHI,0000,0000,0000,,I was thirsty and came down to get \Nsomething to drink when I found this.
+Dialogue: 0,0:19:45.80,0:19:46.66,DCMain,RAN,0000,0000,0000,,Dad.
+Dialogue: 0,0:19:47.03,0:19:48.98,DCMain,RAN,0000,0000,0000,,Otaro-san's not answering.
+Dialogue: 0,0:19:48.98,0:19:50.58,DCMain,RAN,0000,0000,0000,,His door's locked.
+Dialogue: 0,0:19:50.58,0:19:51.48,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:19:51.48,0:19:52.74,DCMain,KOGORO,0000,0000,0000,,What was that?
+Dialogue: 0,0:19:54.30,0:19:56.49,DCMain,KOGORO,0000,0000,0000,,Otaro-san, are you all right?!
+Dialogue: 0,0:19:57.38,0:19:58.96,DCMain,KOGORO,0000,0000,0000,,Please respond!
+Dialogue: 0,0:19:58.96,0:20:00.08,DCMain,KOGORO,0000,0000,0000,,Otaro-san!
+Dialogue: 0,0:20:00.49,0:20:02.64,DCMain,ASAKO,0000,0000,0000,,Mori-san, here's the spare key.
+Dialogue: 0,0:20:03.09,0:20:03.84,DCMain,KOGORO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:20:08.72,0:20:09.80,DCMain,KOGORO,0000,0000,0000,,It's not opening.
+Dialogue: 0,0:20:10.39,0:20:12.18,DCMain,OHARA,0000,0000,0000,,Maybe it's bolted shut.
+Dialogue: 0,0:20:12.68,0:20:14.85,DCMain,IDE,0000,0000,0000,,What if he's collapsed inside?
+Dialogue: 0,0:20:15.08,0:20:16.62,DCMain,RAN,0000,0000,0000,,Dad, let me.
+Dialogue: 0,0:20:29.32,0:20:30.20,DCMain,KOGORO,0000,0000,0000,,Otaro-san!
+Dialogue: 0,0:20:33.26,0:20:35.77,DCMain,KOGORO,0000,0000,0000,,It's no use. He's dead.
+Dialogue: 0,0:20:35.77,0:20:36.72,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:20:37.15,0:20:38.57,DCMain,KOGORO,0000,0000,0000,,He's still warm.
+Dialogue: 0,0:20:38.57,0:20:41.46,DCMain,KOGORO,0000,0000,0000,,It hasn't been long since he died.
+Dialogue: 0,0:20:42.07,0:20:45.84,DCItalic,CONAN,0000,0000,0000,,Looks like the door was locked and bolted.
+Dialogue: 0,0:20:48.24,0:20:50.34,DCItalic,CONAN,0000,0000,0000,,The window's locked, too.
+Dialogue: 0,0:21:05.73,0:21:06.84,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:21:08.00,0:21:09.91,DCMain,CONAN,0000,0000,0000,,There's blood over here.
+Dialogue: 0,0:21:10.34,0:21:11.54,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:21:11.91,0:21:14.66,DCMain,CONAN,0000,0000,0000,,That's a bloody fingerprint, isn't it?
+Dialogue: 0,0:21:15.60,0:21:16.79,DCMain,CONAN,0000,0000,0000,,Is it Otaro-san's?
+Dialogue: 0,0:21:23.83,0:21:25.86,DCMain,CONAN,0000,0000,0000,,There's something drawn over there.
+Dialogue: 0,0:21:28.75,0:21:31.25,DCMain,IDE,0000,0000,0000,,The symbol of the Masked Comet!
+Dialogue: 0,0:21:34.35,0:21:36.65,DCMain,SHIROGANE,0000,0000,0000,,Is it a dying message?
+Dialogue: 0,0:21:36.65,0:21:38.41,DCMain,FUJIYOSHI,0000,0000,0000,,So it's murder?
+Dialogue: 0,0:21:39.40,0:21:41.57,DCMain,IDE,0000,0000,0000,,And the Masked Comet did it?
+Dialogue: 0,0:21:42.07,0:21:43.43,DCMain,KOGORO,0000,0000,0000,,Calm down.
+Dialogue: 0,0:21:43.81,0:21:47.93,DCMain,KOGORO,0000,0000,0000,,It's possible he was drunk, \Nfell, and hit his head.
+Dialogue: 0,0:21:48.51,0:21:50.29,DCMain,MIONA,0000,0000,0000,,The Masked Comet's here...
+Dialogue: 0,0:21:50.29,0:21:51.08,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:21:51.46,0:21:54.33,DCMain,MIONA,0000,0000,0000,,I promise I forgot everything...
+Dialogue: 0,0:21:54.98,0:21:56.38,DCMain,MIONA,0000,0000,0000,,I forgot...
+Dialogue: 0,0:21:57.09,0:21:58.17,DCMain,ASAKO,0000,0000,0000,,Miona?
+Dialogue: 0,0:21:58.17,0:22:00.59,DCMain,MIONA,0000,0000,0000,,No!
+Dialogue: 0,0:22:04.83,0:22:05.70,DCMain,ASAKO,0000,0000,0000,,Miona!
+Dialogue: 0,0:22:06.41,0:22:07.27,DCMain,ASAKO,0000,0000,0000,,Miona!
+Dialogue: 0,0:22:08.16,0:22:09.29,DCMain,ASAKO,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:22:09.90,0:22:11.02,DCMain,ASAKO,0000,0000,0000,,Hang in there, Miona!
+Dialogue: 0,0:22:11.02,0:22:12.92,DCMain,OHARA,0000,0000,0000,,Let's get her to her room.
+Dialogue: 0,0:22:12.92,0:22:13.69,DCMain,ASAKO,0000,0000,0000,,Okay.
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.44,0:23:49.10,DCMain,MURAMATSU,0000,0000,0000,,The water found in Kyujiro-san's lungs
+Dialogue: 0,0:23:49.10,0:23:51.03,DCMain,MURAMATSU,0000,0000,0000,,was ordinary tap water.
+Dialogue: 0,0:23:51.53,0:23:52.53,DCMain,KOGORO,0000,0000,0000,,What?!
+Dialogue: 0,0:23:54.12,0:23:55.03,DCMain,KOGORO,0000,0000,0000,,Could it be?
+Dialogue: 0,0:23:55.39,0:23:57.92,DCMain,MURAMATSU,0000,0000,0000,,It matched Otaro-san's fingerprints.
+Dialogue: 0,0:23:58.67,0:24:01.66,DCMain,FUJIYOSHI,0000,0000,0000,,If you're such a great \Ndetective, solve the case!
+Dialogue: 0,0:24:02.11,0:24:07.48,DCItalic,CONAN,0000,0000,0000,,The door was definitely locked and bolted.
+Dialogue: 0,0:24:08.05,0:24:09.05,DCItalic,CONAN,0000,0000,0000,,On top of that...
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,TEXT,0000,0000,0000,,Eyewitness Testimony Seven Years Later \N(Part Two)
+Dialogue: 0,0:24:09.70,0:24:14.37,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Eyewitness \NTestimony Seven Years Later, Part Two!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,TEXT,0000,0000,0000,,Beer Bottle Cap
+Dialogue: 0,0:24:30.56,0:24:32.79,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.79,0:24:34.99,DCMain,CONAN,0000,0000,0000,,Beer bottle caps!
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.24,0:24:36.17,DCMain,CONAN,0000,0000,0000,,{\an8}Beer and a locked room.
+Dialogue: 0,0:24:36.17,0:24:37.57,DCMain,KOGORO,0000,0000,0000,,{\an8}The culprit vanished like bubbles.
+Dialogue: 0,0:24:37.57,0:24:38.60,DCMain,RAN,0000,0000,0000,,{\an8}How careless.
+Dialogue: 0,0:24:38.60,0:24:39.68,DCMain,KOGORO,0000,0000,0000,,{\an8}Whoa, whoa, whoa...

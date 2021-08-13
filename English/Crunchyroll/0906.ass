@@ -1,0 +1,457 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: English,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0055,0
+Style: Otaro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00906083,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0066,0
+Style: Asako,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00BD8387,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0125,0066,0
+Style: Miona,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0080226F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0330,0010,0066,0
+Style: Masanari,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007B587D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0066,0
+Style: Hiroko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AB8D67,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0435,0010,0066,0
+Style: Shinsuke,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CB8991,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0210,0010,0068,0
+Style: Toru,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A16571,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0420,0066,0
+Style: Makoto,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00752629,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0150,0068,0
+Style: Kyujiro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006E2548,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0215,0066,0
+Style: Signature,Trebuchet MS,22,&H0043483E,&H000000FF,&H00FEFFE3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0280,0050,0
+Style: Oh,Trebuchet MS,22,&H00FCE6D7,&H000000FF,&H00824836,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0050,0010,0125,0
+Style: Ha,Trebuchet MS,22,&H00FCE6D7,&H000000FF,&H00824836,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0057,0010,0125,0
+Style: 12AM,Trebuchet MS,12,&H00FFFFFF,&H000000FF,&H003E3833,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0015,0010,0165,0
+Style: 1AM,Trebuchet MS,12,&H00FFFFFF,&H000000FF,&H003E3833,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0152,0010,0185,0
+Style: 2AM,Trebuchet MS,12,&H00FFFFFF,&H000000FF,&H003E3833,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0300,0020,0098,0
+Style: IdeDrinks,Trebuchet MS,12,&H000C0C0C,&H000000FF,&H00EEEFEF,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,7,0350,0010,0022,0
+Style: IdeAttaches,Trebuchet MS,12,&H000C0C0C,&H000000FF,&H00EEEFEF,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,7,0485,0010,0080,0
+Style: Discovery,Trebuchet MS,12,&H000C0C0C,&H000000FF,&H00EEEFEF,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,1,0485,0010,0120,0
+Style: Time,Trebuchet MS,12,&H000C0C0C,&H000000FF,&H00EEEFEF,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,2,0010,0040,0050,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.90,0:00:05.23,DCMain,CONAN,0000,0000,0000,,We came to the Hatobue Lodge \Nguest house in Nishiokuho.
+Dialogue: 0,0:00:05.23,0:00:07.23,Otaro,TEXT,0000,0000,0000,,Minakitaya Otaro (29) \NEntertainer
+Dialogue: 0,0:00:05.52,0:00:08.44,DCMain,CONAN,0000,0000,0000,,{\an8}Popular entertainer Minakitaya Otaro-san,
+Dialogue: 0,0:00:08.76,0:00:11.11,DCMain,CONAN,0000,0000,0000,,{\an8}also known as the Prince of \NBeer, was staying there as well.
+Dialogue: 0,0:00:12.79,0:00:17.20,DCMain,CONAN,0000,0000,0000,,{\an8}For some reason Miona-chan, daughter \Nof guest house manager Yuri Asako-san,
+Dialogue: 0,0:00:16.20,0:00:17.20,Asako,TEXT,0000,0000,0000,,Yuri Asako (39) \NHatobue Lodge Owner
+Dialogue: 0,0:00:16.20,0:00:17.20,Miona,TEXT,0000,0000,0000,,Yuri Miona (12) \NAsako's Daughter
+Dialogue: 0,0:00:17.46,0:00:21.45,DCMain,CONAN,0000,0000,0000,,was afraid of the Masked Comet Byun TV show
+Dialogue: 0,0:00:21.45,0:00:24.21,DCMain,CONAN,0000,0000,0000,,that aired seven years ago.
+Dialogue: 0,0:00:26.52,0:00:31.67,DCMain,CONAN,0000,0000,0000,,{\an8}Meanwhile, a man's body was discovered in a \Nlake seven kilometers east of the guest house.
+Dialogue: 0,0:00:28.46,0:00:29.75,Kyujiro,TEXT,0000,0000,0000,,Minakitaya Kyujiro (31) \NEntertainment Reporter
+Dialogue: 0,0:00:32.54,0:00:37.85,DCMain,CONAN,0000,0000,0000,,The body was Otaro-san's former \Npartner Minakitaya Kyujiro-san.
+Dialogue: 0,0:00:40.30,0:00:44.77,DCMain,CONAN,0000,0000,0000,,And that night, Otaro-san \Nwas found dead as well...
+Dialogue: 0,0:00:49.57,0:00:53.28,DCMain,CONAN,0000,0000,0000,,When the countdown reaches zero, use your \Ndetective skills to produce an answer!
+Dialogue: 0,0:00:55.45,0:00:57.57,DCMain,CONAN,0000,0000,0000,,Both members of the former \Ncomedy duo are dead!
+Dialogue: 0,0:00:57.57,0:00:59.58,DCMain,CONAN,0000,0000,0000,,What did the Masked Comet do?
+Dialogue: 0,0:01:00.08,0:01:01.44,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:01.44,0:01:03.18,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:03.18,0:01:05.50,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:44.01,0:02:50.02,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(404,1)}Eyewitness Testimony Seven Years Later \N(Part Two)
+Dialogue: 0,0:02:44.88,0:02:48.12,DCMain,CONAN,0000,0000,0000,,"Eyewitness Testimony Seven \NYears Later, Part Two!"
+Dialogue: 0,0:02:50.89,0:02:54.44,DCMain,MURA,0000,0000,0000,,The deceased is Minakitaya Otaro-san,
+Dialogue: 0,0:02:54.44,0:02:57.47,DCMain,MURA,0000,0000,0000,,born Minamida Kotaro-san.
+Dialogue: 0,0:02:58.45,0:03:01.74,DCMain,MURA,0000,0000,0000,,{\an8}Who was the last one to see Otaro-san?
+Dialogue: 0,0:03:00.32,0:03:02.99,Makoto,TEXT,0000,0000,0000,,{\fad(250,1)}Muramatsu Makoto (48) \NNishiokuho Police Inspector
+Dialogue: 0,0:03:01.74,0:03:02.99,DCMain,OHARA,0000,0000,0000,,{\an8}Probably me.
+Dialogue: 0,0:03:03.16,0:03:07.08,Shinsuke,TEXT,0000,0000,0000,,{\fad(250,1)}Ohara Shinsuke (29) \NHatobue Lodge Employee
+Dialogue: 0,0:03:03.60,0:03:07.44,DCMain,OHARA,0000,0000,0000,,{\an8}Otaro-san came to the dining room as I \Nwas cleaning up before I headed home.
+Dialogue: 0,0:03:07.84,0:03:10.25,DCMain,OHARA,0000,0000,0000,,He took beers and a bottle \Nopener from the room.
+Dialogue: 0,0:03:10.54,0:03:13.03,DCMain,MURA,0000,0000,0000,,Around what time was that?
+Dialogue: 0,0:03:13.78,0:03:15.13,DCMain,OHARA,0000,0000,0000,,It was about 11.
+Dialogue: 0,0:03:15.42,0:03:17.98,DCMain,MURA,0000,0000,0000,,Did anyone enter the dining room after that?
+Dialogue: 0,0:03:17.98,0:03:23.19,DCMain,IDE,0000,0000,0000,,I couldn't sleep, so I went down \Nto the dining room for a beer.
+Dialogue: 0,0:03:23.19,0:03:24.66,DCMain,IDE,0000,0000,0000,,That was around midnight.
+Dialogue: 0,0:03:24.66,0:03:26.76,DCMain,MURA,0000,0000,0000,,How long were you here?
+Dialogue: 0,0:03:26.89,0:03:30.81,Masanari,TEXT,0000,0000,0000,,{\fad(250,1)}Ide Masanari (28) \NWeb Designer
+Dialogue: 0,0:03:26.89,0:03:30.81,Hiroko,TEXT,0000,0000,0000,,Fujiyoshi Hiroko (35) \NStationery Company Employee
+Dialogue: 0,0:03:27.03,0:03:31.71,DCMain,IDE,0000,0000,0000,,{\an8}I spent about thirty minutes attaching \Nbeer caps to a cow magnet.
+Dialogue: 0,0:03:31.71,0:03:33.10,DCMain,IDE,0000,0000,0000,,Then I went back to my room to sleep.
+Dialogue: 0,0:03:33.34,0:03:39.05,DCMain,MURA,0000,0000,0000,,And Fujiyoshi-san discovered the \Ndining room in disarray around two.
+Dialogue: 0,0:03:36.16,0:03:42.03,IdeDrinks,TEXT,0000,0000,0000,,{\fad(960,1)}Ide \Ndrinks beer in dining room
+Dialogue: 0,0:03:36.16,0:03:42.03,1AM,TEXT,0000,0000,0000,,{\fad(960,1)}12AM | 1AM | 2AM
+Dialogue: 0,0:03:36.16,0:03:42.03,IdeAttaches,TEXT,0000,0000,0000,,{\fad(960,1)}Ide attaches beer caps to cow magnet
+Dialogue: 0,0:03:36.16,0:03:42.03,Discovery,TEXT,0000,0000,0000,,{\fad(960,1)}Fujiyoshi discovers dining \Nroom in disarray
+Dialogue: 0,0:03:38.91,0:03:42.03,Time,TEXT,0000,0000,0000,,{\fad(460,1)}Time of Crime
+Dialogue: 0,0:03:39.05,0:03:42.03,DCMain,MURA,0000,0000,0000,,It must have happened during that hour.
+Dialogue: 0,0:03:42.42,0:03:45.79,DCMain,KOGORO,0000,0000,0000,,Otaro-san must have died \Naround the same time.
+Dialogue: 0,0:03:45.79,0:03:46.88,DCMain,MURA,0000,0000,0000,,Yes.
+Dialogue: 0,0:03:46.88,0:03:49.07,DCMain,MURA,0000,0000,0000,,Shirogane-san, what about you?
+Dialogue: 0,0:03:47.12,0:03:51.04,Toru,TEXT,0000,0000,0000,,{\fad(250,1)}Shirogane Toru (54) \NLocal Magazine Writer
+Dialogue: 0,0:03:49.07,0:03:51.16,DCMain,SHIRO,0000,0000,0000,,I was sleeping in my room.
+Dialogue: 0,0:03:51.66,0:03:52.92,DCMain,MURA,0000,0000,0000,,How about you?
+Dialogue: 0,0:03:53.10,0:03:57.56,DCMain,ASAKO,0000,0000,0000,,I was sleeping in my room in the \Nannex next door with my daughter.
+Dialogue: 0,0:03:57.56,0:03:59.51,DCMain,ASAKO,0000,0000,0000,,I woke up when Ran-san called me.
+Dialogue: 0,0:04:00.00,0:04:04.13,DCMain,OHARA,0000,0000,0000,,I was at home and returned \Nwhen I received a phone call.
+Dialogue: 0,0:04:04.51,0:04:06.18,DCMain,KOGORO,0000,0000,0000,,It was an accident.
+Dialogue: 0,0:04:06.79,0:04:09.86,DCMain,KOGORO,0000,0000,0000,,He got drunk and fell when he \Nstepped on an empty bottle.
+Dialogue: 0,0:04:09.86,0:04:13.14,DCMain,KOGORO,0000,0000,0000,,His head struck an empty bottle, and he died.
+Dialogue: 0,0:04:13.94,0:04:16.70,DCMain,KOGORO,0000,0000,0000,,It's unfortunate that both members \Nof the former comedy duo
+Dialogue: 0,0:04:16.70,0:04:20.17,DCMain,KOGORO,0000,0000,0000,,suffered accidental deaths \None after another.
+Dialogue: 0,0:04:20.17,0:04:23.03,DCMain,MURA,0000,0000,0000,,The situation has changed.
+Dialogue: 0,0:04:23.03,0:04:24.03,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:04:24.37,0:04:28.26,DCMain,MURA,0000,0000,0000,,The water found in Kyujiro-san's lungs
+Dialogue: 0,0:04:28.26,0:04:30.04,DCMain,MURA,0000,0000,0000,,was ordinary tap water.
+Dialogue: 0,0:04:30.48,0:04:31.75,DCMain,KOGORO,0000,0000,0000,,What?!
+Dialogue: 0,0:04:32.44,0:04:37.46,DCMain,KOGORO,0000,0000,0000,,In other words, he was dumped in the \Nlake after being killed elsewhere?
+Dialogue: 0,0:04:37.46,0:04:38.26,DCMain,MURA,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:38.76,0:04:39.71,DCMain,IDE,0000,0000,0000,,Hold on.
+Dialogue: 0,0:04:40.04,0:04:43.97,DCMain,IDE,0000,0000,0000,,Does that mean Otaro-san could've killed him?
+Dialogue: 0,0:04:44.40,0:04:49.24,DCMain,MURA,0000,0000,0000,,Kyujiro-san was investigating \NOtaro-san, wasn't he?
+Dialogue: 0,0:04:49.24,0:04:52.85,DCMain,MURA,0000,0000,0000,,We found this listening \Ndevice in Otaro-san's room
+Dialogue: 0,0:04:53.28,0:04:55.48,DCMain,MURA,0000,0000,0000,,with Kyujiro-san's fingerprints on it.
+Dialogue: 0,0:04:55.70,0:05:01.83,DCMain,SHIRO,0000,0000,0000,,Maybe he discovered a major secret using \Nthat bug and was killed to keep him quiet.
+Dialogue: 0,0:05:01.83,0:05:04.38,DCMain,IDE,0000,0000,0000,,What major secret would that be?
+Dialogue: 0,0:05:04.38,0:05:06.24,DCMain,POLICE A,0000,0000,0000,,Muramatsu-san, it's an emergency.
+Dialogue: 0,0:05:06.51,0:05:07.48,DCMain,MURA,0000,0000,0000,,What is it?
+Dialogue: 0,0:05:08.64,0:05:10.37,DCMain,KOGORO,0000,0000,0000,,What's going on?
+Dialogue: 0,0:05:13.06,0:05:17.64,DCMain,MURA,0000,0000,0000,,We've determined the bloody fingerprint \Non the table belonged to Otaro-san,
+Dialogue: 0,0:05:17.64,0:05:19.43,DCMain,MURA,0000,0000,0000,,but that fingerprint...
+Dialogue: 0,0:05:19.43,0:05:20.38,DCMain,KOGORO,0000,0000,0000,,What is it?
+Dialogue: 0,0:05:20.96,0:05:22.76,DCMain,MURA,0000,0000,0000,,In the case seven years ago,
+Dialogue: 0,0:05:22.76,0:05:27.82,DCMain,MURA,0000,0000,0000,,the culprits threw the masks they \Nwere wearing into a ditch and fled.
+Dialogue: 0,0:05:28.21,0:05:31.76,DCMain,MURA,0000,0000,0000,,There was a single fingerprint \Nthey failed to wipe clean.
+Dialogue: 0,0:05:32.14,0:05:33.39,DCMain,KOGORO,0000,0000,0000,,The culprit's fingerprint?
+Dialogue: 0,0:05:33.79,0:05:34.64,DCMain,KOGORO,0000,0000,0000,,Could it be?
+Dialogue: 0,0:05:34.86,0:05:37.64,DCMain,MURA,0000,0000,0000,,It matched Otaro-san's fingerprints.
+Dialogue: 0,0:05:38.15,0:05:39.15,DCMain,IDE,0000,0000,0000,,Seriously?
+Dialogue: 0,0:05:40.62,0:05:45.58,DCMain,KOGORO,0000,0000,0000,,In other words, Otaro-san \Nwas one of the two culprits.
+Dialogue: 0,0:05:45.58,0:05:50.41,DCMain,SHIRO,0000,0000,0000,,And Kyujiro-san was killed by Otaro-san \Nbecause he learned his secret.
+Dialogue: 0,0:05:50.73,0:05:56.60,DCMain,MURA,0000,0000,0000,,Which means we can't simply assume \NOtaro-san's death was an accident.
+Dialogue: 0,0:05:56.60,0:06:02.59,DCMain,CONAN,0000,0000,0000,,Was the witness in the seven \Nyear old case Miona-chan?
+Dialogue: 0,0:06:09.68,0:06:12.23,DCMain,MURA,0000,0000,0000,,The witness in the seven year \Nold case was indeed Miona-chan,
+Dialogue: 0,0:06:12.23,0:06:14.26,DCMain,MURA,0000,0000,0000,,who was five years old at the time.
+Dialogue: 0,0:06:14.59,0:06:15.52,DCMain,FUJI,0000,0000,0000,,What?
+Dialogue: 0,0:06:15.96,0:06:18.58,DCMain,MURA,0000,0000,0000,,I was assigned to the Haido \NCity station at the time.
+Dialogue: 0,0:06:18.58,0:06:21.38,DCMain,MURA,0000,0000,0000,,I was involved in the investigation.
+Dialogue: 0,0:06:21.38,0:06:24.53,DCMain,KOGORO,0000,0000,0000,,Did Miona-chan see the culprits' faces?
+Dialogue: 0,0:06:24.91,0:06:27.14,DCMain,MURA,0000,0000,0000,,It's not clear if she did.
+Dialogue: 0,0:06:27.14,0:06:29.17,DCMain,MURA,0000,0000,0000,,It must have been traumatizing for her.
+Dialogue: 0,0:06:29.17,0:06:31.45,DCMain,MURA,0000,0000,0000,,Her memory is hazy.
+Dialogue: 0,0:06:31.85,0:06:36.83,DCMain,CONAN,0000,0000,0000,,Then the reason Otaro-san frequented this \Nguest house where Miona-chan lived...
+Dialogue: 0,0:06:37.13,0:06:40.52,DCMain,POLICE A,0000,0000,0000,,He was watching to see if \Nshe'd regain her memory.
+Dialogue: 0,0:06:40.52,0:06:41.28,DCMain,ASAKO,0000,0000,0000,,What?
+Dialogue: 0,0:06:41.80,0:06:42.84,DCMain,OHARA,0000,0000,0000,,Boss!
+Dialogue: 0,0:06:45.80,0:06:47.09,DCMain,ASAKO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:06:47.38,0:06:52.59,DCMain,RAN,0000,0000,0000,,That's why Miona-chan was afraid of \Ndiscussions about the Masked Comet.
+Dialogue: 0,0:06:52.82,0:06:58.38,DCMain,IDE,0000,0000,0000,,That case was the reason Masked \NComet Byun was canceled.
+Dialogue: 0,0:06:58.38,0:07:01.40,DCMain,SHIRO,0000,0000,0000,,The case did have an impact,
+Dialogue: 0,0:07:01.40,0:07:05.64,DCMain,SHIRO,0000,0000,0000,,but ratings and merchandise sales \Nwere failing to meet expectations.
+Dialogue: 0,0:07:05.64,0:07:09.23,DCMain,SHIRO,0000,0000,0000,,They were considering ending the show early.
+Dialogue: 0,0:07:09.23,0:07:11.36,DCMain,SHIRO,0000,0000,0000,,That case wasn't the only reason.
+Dialogue: 0,0:07:11.64,0:07:13.97,DCMain,FUJI,0000,0000,0000,,How do you know so much about it?
+Dialogue: 0,0:07:13.97,0:07:18.00,DCMain,SHIRO,0000,0000,0000,,I'm actually a scriptwriter, \Nnot a freelance writer.
+Dialogue: 0,0:07:18.32,0:07:22.00,DCMain,SHIRO,0000,0000,0000,,I was the head writer for Masked Comet Byun.
+Dialogue: 0,0:07:22.45,0:07:23.29,DCMain,IDE,0000,0000,0000,,What?
+Dialogue: 0,0:07:23.29,0:07:24.20,DCMain,IDE,0000,0000,0000,,Really?
+Dialogue: 0,0:07:24.20,0:07:26.88,DCMain,CONAN,0000,0000,0000,,Did you know about Miona-chan?
+Dialogue: 0,0:07:27.36,0:07:30.38,DCMain,CONAN,0000,0000,0000,,You had a newspaper clipping about the case.
+Dialogue: 0,0:07:32.38,0:07:37.74,DCMain,SHIRO,0000,0000,0000,,Naturally, Miona-chan's identity \Nwas kept anonymous as the time,
+Dialogue: 0,0:07:37.74,0:07:40.81,DCMain,SHIRO,0000,0000,0000,,but some heartless people publicly \Nrevealed her name online.
+Dialogue: 0,0:07:42.35,0:07:47.82,DCMain,SHIRO,0000,0000,0000,,When I visited this town a year ago \Nto cover a story, I saw Miona-chan.
+Dialogue: 0,0:07:48.11,0:07:50.57,DCMain,SHIRO,0000,0000,0000,,I was worried about her and \Nthe damage she suffered.
+Dialogue: 0,0:07:51.08,0:07:54.82,DCMain,SHIRO,0000,0000,0000,,I decided to visit the guest house \Nsince I wasn't busy with work.
+Dialogue: 0,0:07:55.22,0:07:57.33,DCMain,CONAN,0000,0000,0000,,Didn't you know, too, Ide-san?
+Dialogue: 0,0:07:57.49,0:08:00.43,DCMain,IDE,0000,0000,0000,,Huh? Well, uh...
+Dialogue: 0,0:08:01.26,0:08:03.30,DCMain,IDE,0000,0000,0000,,Yeah, I knew.
+Dialogue: 0,0:08:03.30,0:08:05.46,DCMain,IDE,0000,0000,0000,,I investigated everything \NI could about the case.
+Dialogue: 0,0:08:05.80,0:08:07.48,DCMain,ASAKO,0000,0000,0000,,Why would you do that?
+Dialogue: 0,0:08:07.48,0:08:08.53,DCMain,IDE,0000,0000,0000,,Because...
+Dialogue: 0,0:08:09.43,0:08:15.01,DCMain,IDE,0000,0000,0000,,The financial company employee \Nwho was murdered was my father.
+Dialogue: 0,0:08:15.01,0:08:15.47,DCMain,ASAKO,0000,0000,0000,,What?
+Dialogue: 0,0:08:16.85,0:08:20.35,DCMain,IDE,0000,0000,0000,,Ide is my mother's maiden name.
+Dialogue: 0,0:08:20.35,0:08:22.17,DCMain,IDE,0000,0000,0000,,At the time of the case,
+Dialogue: 0,0:08:22.17,0:08:26.48,DCMain,IDE,0000,0000,0000,,I was too busy caring for my \Ntraumatized mother to worry about it.
+Dialogue: 0,0:08:27.27,0:08:29.63,DCMain,IDE,0000,0000,0000,,But when my mother\Npassed away two years ago,
+Dialogue: 0,0:08:29.63,0:08:31.84,DCMain,IDE,0000,0000,0000,,I suddenly became interested in the case.
+Dialogue: 0,0:08:31.84,0:08:34.89,DCMain,IDE,0000,0000,0000,,I learned about Miona-chan \Nwhile doing my research.
+Dialogue: 0,0:08:34.89,0:08:38.46,DCMain,KOGORO,0000,0000,0000,,So you even got a mask.
+Dialogue: 0,0:08:38.46,0:08:40.55,DCMain,IDE,0000,0000,0000,,I thought she might remember something.
+Dialogue: 0,0:08:40.93,0:08:44.50,DCMain,IDE,0000,0000,0000,,I didn't think it would be \Nso traumatizing for her.
+Dialogue: 0,0:08:44.91,0:08:47.50,DCMain,IDE,0000,0000,0000,,I'm really sorry!
+Dialogue: 0,0:08:51.38,0:08:55.51,DCMain,MURA,0000,0000,0000,,Come to think of it, there was a key \Non the table at the crime scene.
+Dialogue: 0,0:08:55.84,0:08:58.01,DCMain,MURA,0000,0000,0000,,Does anyone know what it was for?
+Dialogue: 0,0:08:58.37,0:09:00.31,DCItalic,CONAN,0000,0000,0000,,I was wondering about that, too.
+Dialogue: 0,0:09:00.69,0:09:06.02,DCMain,ASAKO,0000,0000,0000,,When I saw it before, he said it \Nwas a key to the door to happiness.
+Dialogue: 0,0:09:06.28,0:09:08.84,DCMain,MURA,0000,0000,0000,,The door to happiness?
+Dialogue: 0,0:09:09.24,0:09:11.01,DCMain,RAN,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:09:14.59,0:09:17.14,DCMain,KOGORO,0000,0000,0000,,I seem to be hungry.
+Dialogue: 0,0:09:19.46,0:09:21.24,DCMain,FUJI,0000,0000,0000,,The sun's rising.
+Dialogue: 0,0:09:23.89,0:09:26.78,DCMain,OHARA,0000,0000,0000,,I'll make something light.
+Dialogue: 0,0:09:29.81,0:09:32.09,DCMain,ASAKO,0000,0000,0000,,I'm sorry for making you worry.
+Dialogue: 0,0:09:32.09,0:09:33.85,DCMain,ASAKO,0000,0000,0000,,She seems to have calmed down.
+Dialogue: 0,0:09:33.85,0:09:35.33,DCMain,RAN,0000,0000,0000,,That's great.
+Dialogue: 0,0:09:35.33,0:09:40.47,DCMain,CONAN,0000,0000,0000,,I asked Miona-chan yesterday, but you \Nused to live in Haido City, right?
+Dialogue: 0,0:09:40.75,0:09:42.58,DCMain,CONAN,0000,0000,0000,,When did you move here?
+Dialogue: 0,0:09:42.58,0:09:45.73,DCMain,ASAKO,0000,0000,0000,,We moved to Nishiokuho after the incident.
+Dialogue: 0,0:09:46.22,0:09:51.17,DCMain,ASAKO,0000,0000,0000,,I thought living in a quiet place would \Nhelp heal her psychological wounds.
+Dialogue: 0,0:09:51.57,0:09:54.23,DCMain,CONAN,0000,0000,0000,,When did you start working \Nat this guest house?
+Dialogue: 0,0:09:54.62,0:09:56.42,DCMain,ASAKO,0000,0000,0000,,Right after we moved.
+Dialogue: 0,0:09:56.42,0:09:59.82,DCMain,ASAKO,0000,0000,0000,,I used to work as a hotel receptionist.
+Dialogue: 0,0:10:01.13,0:10:02.34,DCMain,OHARA,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:10:03.66,0:10:04.90,DCMain,OHARA,0000,0000,0000,,There you are.
+Dialogue: 0,0:10:05.56,0:10:07.08,DCMain,OHARA,0000,0000,0000,,I made sandwiches.
+Dialogue: 0,0:10:07.08,0:10:08.42,DCMain,OHARA,0000,0000,0000,,Let's eat in the other room.
+Dialogue: 0,0:10:08.42,0:10:10.16,DCMain,RAN,0000,0000,0000,,Thank you.
+Dialogue: 0,0:10:11.18,0:10:13.67,DCMain,CONAN,0000,0000,0000,,Ohara-san, are you originally from this town?
+Dialogue: 0,0:10:13.98,0:10:17.09,DCMain,OHARA,0000,0000,0000,,No. I moved here about four years ago.
+Dialogue: 0,0:10:17.60,0:10:20.76,DCMain,OHARA,0000,0000,0000,,After graduating from culinary school, \NI saw a want ad for this place.
+Dialogue: 0,0:10:20.76,0:10:21.85,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:10:22.61,0:10:27.80,DCMain,MURA,0000,0000,0000,,Kyujiro-san's hair was \Nfound in Otaro-san's car.
+Dialogue: 0,0:10:30.32,0:10:33.39,DCMain,FUJI,0000,0000,0000,,We can leave now, can't we?
+Dialogue: 0,0:10:33.39,0:10:34.96,DCMain,MURA,0000,0000,0000,,Hold on.
+Dialogue: 0,0:10:34.96,0:10:37.42,DCMain,FUJI,0000,0000,0000,,Otaro-san's death was an accident, right?
+Dialogue: 0,0:10:37.42,0:10:38.67,DCMain,FUJI,0000,0000,0000,,In that case...
+Dialogue: 0,0:10:38.67,0:10:41.53,DCMain,MURA,0000,0000,0000,,No, we can't assume it was yet.
+Dialogue: 0,0:10:42.27,0:10:44.70,DCMain,FUJI,0000,0000,0000,,Are you saying it was murder?
+Dialogue: 0,0:10:44.70,0:10:47.33,DCMain,FUJI,0000,0000,0000,,There's no one here who would—
+Dialogue: 0,0:10:48.35,0:10:50.28,DCMain,FUJI,0000,0000,0000,,It was you, wasn't it?
+Dialogue: 0,0:10:52.02,0:10:54.04,DCMain,IDE,0000,0000,0000,,Wh-What are you talking about?
+Dialogue: 0,0:10:54.04,0:10:56.19,DCMain,FUJI,0000,0000,0000,,Didn't he kill your father?
+Dialogue: 0,0:10:56.19,0:10:58.59,DCMain,IDE,0000,0000,0000,,I just learned that!
+Dialogue: 0,0:10:58.84,0:11:01.49,DCMain,FUJI,0000,0000,0000,,Maybe Kyujiro-san told you.
+Dialogue: 0,0:11:01.49,0:11:04.34,DCMain,FUJI,0000,0000,0000,,Yeah. Maybe you killed Kyujiro-san, too.
+Dialogue: 0,0:11:04.34,0:11:06.39,DCMain,IDE,0000,0000,0000,,That's insane.
+Dialogue: 0,0:11:06.39,0:11:08.60,DCMain,IDE,0000,0000,0000,,When Kyujiro-san was killed,
+Dialogue: 0,0:11:09.05,0:11:12.28,DCMain,IDE,0000,0000,0000,,I was on the same train \Nas Mori-san's family.
+Dialogue: 0,0:11:12.28,0:11:14.90,DCMain,MURA,0000,0000,0000,,Mori-san, are you certain of that?
+Dialogue: 0,0:11:15.23,0:11:18.85,DCMain,KOGORO,0000,0000,0000,,Now that you mention it, I \Ndidn't see him on the train.
+Dialogue: 0,0:11:18.85,0:11:21.24,DCMain,KOGORO,0000,0000,0000,,He spoke to us after we got off.
+Dialogue: 0,0:11:21.83,0:11:24.09,DCMain,IDE,0000,0000,0000,,How can you be so heartless?
+Dialogue: 0,0:11:24.09,0:11:25.79,DCMain,FUJI,0000,0000,0000,,See?
+Dialogue: 0,0:11:25.79,0:11:29.20,DCMain,FUJI,0000,0000,0000,,The mark drawn in blood was the same \Nas the one on your shirt, right?
+Dialogue: 0,0:11:29.20,0:11:30.13,DCMain,IDE,0000,0000,0000,,What?
+Dialogue: 0,0:11:30.13,0:11:32.10,DCMain,SHIRO,0000,0000,0000,,Fujiyoshi-san, calm down.
+Dialogue: 0,0:11:32.52,0:11:36.24,DCMain,FUJI,0000,0000,0000,,Wasn't your show canceled \Nbecause of the case?
+Dialogue: 0,0:11:36.24,0:11:37.89,DCMain,FUJI,0000,0000,0000,,Are you sure you didn't resent him?!
+Dialogue: 0,0:11:37.89,0:11:39.76,DCMain,KOGORO,0000,0000,0000,,You really shouldn't say that.
+Dialogue: 0,0:11:39.76,0:11:44.17,DCMain,FUJI,0000,0000,0000,,If you're such a great \Ndetective, solve the case!
+Dialogue: 0,0:11:45.81,0:11:49.64,DCMain,KOGORO,0000,0000,0000,,Yeah, but the crime scene was locked...
+Dialogue: 0,0:11:51.62,0:11:58.02,DCItalic,CONAN,0000,0000,0000,,The door was definitely locked and bolted.
+Dialogue: 0,0:11:58.47,0:12:02.07,DCItalic,CONAN,0000,0000,0000,,On top of that, the window was locked, too.
+Dialogue: 0,0:12:04.59,0:12:05.20,DCItalic,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:06.04,0:12:09.45,DCItalic,CONAN,0000,0000,0000,,Seven empty bottles, six bottle caps.
+Dialogue: 0,0:12:10.24,0:12:12.13,DCItalic,CONAN,0000,0000,0000,,There's one missing.
+Dialogue: 0,0:12:12.46,0:12:13.84,DCItalic,CONAN,0000,0000,0000,,Where is it?
+Dialogue: 0,0:12:16.46,0:12:17.30,DCItalic,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:18.78,0:12:20.51,DCItalic,CONAN,0000,0000,0000,,They're shaped differently.
+Dialogue: 0,0:12:21.19,0:12:24.70,DCItalic,CONAN,0000,0000,0000,,And what's this key for?
+Dialogue: 0,0:12:27.36,0:12:29.85,DCItalic,CONAN,0000,0000,0000,,What's this key doing here?
+Dialogue: 0,0:12:31.28,0:12:32.89,DCItalic,CONAN,0000,0000,0000,,It's that blue beer.
+Dialogue: 0,0:12:33.76,0:12:36.19,DCItalic,KOGORO,0000,0000,0000,,I was completely deceived by its appearance.
+Dialogue: 0,0:12:36.62,0:12:39.36,DCItalic,CONAN,0000,0000,0000,,The key to the door to happiness...
+Dialogue: 0,0:12:39.80,0:12:41.18,DCItalic,CONAN,0000,0000,0000,,So that's what that means!
+Dialogue: 0,0:12:42.02,0:12:43.05,DCItalic,CONAN,0000,0000,0000,,Hold on.
+Dialogue: 0,0:12:43.74,0:12:44.86,DCItalic,CONAN,0000,0000,0000,,Then that means...
+Dialogue: 0,0:12:46.41,0:12:47.53,DCItalic,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:12:48.20,0:12:49.64,DCItalic,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:12:50.24,0:12:51.74,DCItalic,CONAN,0000,0000,0000,,That must be it.
+Dialogue: 0,0:12:51.74,0:12:54.92,DCItalic,CONAN,0000,0000,0000,,The size of the thumbturn, \Nthe position of the bolt...
+Dialogue: 0,0:12:55.78,0:12:59.38,DCItalic,CONAN,0000,0000,0000,,I'm starting to see the \Ntruth behind this case.
+Dialogue: 0,0:13:05.49,0:13:08.12,DCMain,MURA,0000,0000,0000,,Mori-san, what is the meaning of this?
+Dialogue: 0,0:13:08.58,0:13:09.55,DCMain,KOGORO,0000,0000,0000,,Everyone.
+Dialogue: 0,0:13:09.90,0:13:13.56,DCMain,KOGORO,0000,0000,0000,,I will now reveal the truth behind the case.
+Dialogue: 0,0:13:14.64,0:13:15.51,DCMain,FUJI,0000,0000,0000,,Really?
+Dialogue: 0,0:13:15.51,0:13:17.42,DCMain,IDE,0000,0000,0000,,Way to go, Detective!
+Dialogue: 0,0:13:17.42,0:13:21.56,DCMain,KOGORO,0000,0000,0000,,First, Otaro-san did not kill Kyujiro-san.
+Dialogue: 0,0:13:21.56,0:13:22.43,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:13:22.43,0:13:24.57,DCMain,MURA,0000,0000,0000,,But his hair was found in his car.
+Dialogue: 0,0:13:24.82,0:13:28.18,DCMain,KOGORO,0000,0000,0000,,Otaro-san drove a convertible.
+Dialogue: 0,0:13:28.18,0:13:31.11,DCMain,KOGORO,0000,0000,0000,,Could you transport a body in that?
+Dialogue: 0,0:13:31.11,0:13:33.25,DCMain,KOGORO,0000,0000,0000,,He even owns a sedan.
+Dialogue: 0,0:13:33.25,0:13:34.34,DCMain,MURA,0000,0000,0000,,You're right.
+Dialogue: 0,0:13:34.58,0:13:37.72,DCMain,KOGORO,0000,0000,0000,,The hair was a camouflage \Nplanted by the culprit
+Dialogue: 0,0:13:37.72,0:13:40.96,DCMain,KOGORO,0000,0000,0000,,to frame Otaro-san.
+Dialogue: 0,0:13:40.96,0:13:45.50,DCMain,KOGORO,0000,0000,0000,,However, driving the convertible he \Nrecently purchased was a miscalculation.
+Dialogue: 0,0:13:45.50,0:13:48.18,DCMain,MURA,0000,0000,0000,,Then that person killed Otaro-san as well?
+Dialogue: 0,0:13:48.39,0:13:49.86,DCMain,KOGORO,0000,0000,0000,,I know who did it, of course,
+Dialogue: 0,0:13:49.86,0:13:51.76,DCMain,KOGORO,0000,0000,0000,,and how they created the locked room.
+Dialogue: 0,0:13:53.24,0:13:58.12,DCMain,OHARA,0000,0000,0000,,But the window was locked, and the \Ndoor was locked and deadbolted.
+Dialogue: 0,0:13:58.12,0:13:59.86,DCMain,OHARA,0000,0000,0000,,How did they do it?
+Dialogue: 0,0:14:00.09,0:14:03.29,DCMain,KOGORO,0000,0000,0000,,Very well. Allow me to demonstrate.
+Dialogue: 0,0:14:03.29,0:14:04.06,DCMain,KOGORO,0000,0000,0000,,Conan!
+Dialogue: 0,0:14:04.70,0:14:05.86,DCMain,CONAN,0000,0000,0000,,Here!
+Dialogue: 0,0:14:06.15,0:14:09.24,DCMain,CONAN,0000,0000,0000,,I'll take this bottle opener...
+Dialogue: 0,0:14:09.62,0:14:11.12,DCMain,CONAN,0000,0000,0000,,and place it here.
+Dialogue: 0,0:14:11.36,0:14:13.03,DCMain,CONAN,0000,0000,0000,,And use this magnet...
+Dialogue: 0,0:14:13.03,0:14:14.37,DCMain,RAN,0000,0000,0000,,The cow magnet.
+Dialogue: 0,0:14:14.72,0:14:16.00,DCMain,CONAN,0000,0000,0000,,To fix it in place.
+Dialogue: 0,0:14:18.20,0:14:23.16,DCMain,CONAN,0000,0000,0000,,If you close the door and use the \Nmagnet to move the bottle opener...
+Dialogue: 0,0:14:25.87,0:14:29.27,DCMain,CONAN,0000,0000,0000,,You can lock the door and \Ndeadbolt at the same time.
+Dialogue: 0,0:14:29.27,0:14:33.60,DCMain,CONAN,0000,0000,0000,,Then if you remove the magnet \Nand shake the door a little...
+Dialogue: 0,0:14:35.82,0:14:37.00,DCMain,MURA,0000,0000,0000,,I see.
+Dialogue: 0,0:14:37.00,0:14:39.82,DCMain,MURA,0000,0000,0000,,If there are empty beer bottles on the floor,
+Dialogue: 0,0:14:39.82,0:14:42.23,DCMain,MURA,0000,0000,0000,,then it's not unnatural for a bottle \Nopener to be on the floor, too.
+Dialogue: 0,0:14:42.49,0:14:44.46,DCMain,FUJI,0000,0000,0000,,I knew you did it.
+Dialogue: 0,0:14:44.46,0:14:44.86,DCMain,IDE,0000,0000,0000,,What?
+Dialogue: 0,0:14:44.86,0:14:48.85,DCMain,FUJI,0000,0000,0000,,You said you were drinking while \Nplaying with a cow magnet yesterday.
+Dialogue: 0,0:14:48.85,0:14:50.92,DCMain,IDE,0000,0000,0000,,I told you, it wasn't me!
+Dialogue: 0,0:14:50.92,0:14:55.84,DCMain,KOGORO,0000,0000,0000,,Otaro-san left us a message \Ntelling us who killed him.
+Dialogue: 0,0:14:55.84,0:14:56.82,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:14:56.82,0:14:57.91,DCMain,FUJI,0000,0000,0000,,I knew it.
+Dialogue: 0,0:14:58.27,0:15:01.81,DCMain,KOGORO,0000,0000,0000,,No, that's not Byun's symbol.
+Dialogue: 0,0:15:01.81,0:15:03.79,DCMain,KOGORO,0000,0000,0000,,It's backwards.
+Dialogue: 0,0:15:04.05,0:15:05.08,DCMain,IDE,0000,0000,0000,,Backwards?
+Dialogue: 0,0:15:05.08,0:15:08.94,DCMain,KOGORO,0000,0000,0000,,Since the Masked Comet was \Nso involved in this case,
+Dialogue: 0,0:15:08.94,0:15:10.88,DCMain,KOGORO,0000,0000,0000,,it looked like his symbol to us,
+Dialogue: 0,0:15:10.88,0:15:14.92,DCMain,KOGORO,0000,0000,0000,,but if you look at the position of his \Nhand, it's clear that it's reversed.
+Dialogue: 0,0:15:14.92,0:15:19.16,DCMain,MURA,0000,0000,0000,,In other words, it's two lines \Nsticking out of a circle?
+Dialogue: 0,0:15:19.16,0:15:21.31,DCMain,IDE,0000,0000,0000,,What symbol is that?
+Dialogue: 0,0:15:21.70,0:15:24.29,DCMain,KOGORO,0000,0000,0000,,In his signature,
+Dialogue: 0,0:15:23.81,0:15:27.57,Signature,TEXT,0000,0000,0000,,{\fad(500,250)}Minakitaya Otaro
+Dialogue: 0,0:15:24.29,0:15:27.28,DCMain,KOGORO,0000,0000,0000,,Otaro-san expresses the \N"oh" sound as a circle.
+Dialogue: 0,0:15:27.28,0:15:29.24,DCMain,KOGORO,0000,0000,0000,,In other words, the circle is "oh."
+Dialogue: 0,0:15:27.32,0:15:29.32,Oh,TEXT,0000,0000,0000,,{\fad(250,250)}"Oh"
+Dialogue: 0,0:15:29.24,0:15:31.95,DCMain,KOGORO,0000,0000,0000,,The two lines are the \NKatakana symbol for "ha."
+Dialogue: 0,0:15:31.07,0:15:32.82,Ha,TEXT,0000,0000,0000,,{\fad(250,250)}"Ha"
+Dialogue: 0,0:15:31.95,0:15:34.57,DCMain,KOGORO,0000,0000,0000,,They simply overlapped.
+Dialogue: 0,0:15:35.02,0:15:38.20,DCMain,MURA,0000,0000,0000,,Then the name Otaro-san wrote was...
+Dialogue: 0,0:15:39.34,0:15:42.08,DCMain,KOGORO,0000,0000,0000,,Ohara-san, you killed him.
+Dialogue: 0,0:15:42.28,0:15:44.46,DCMain,OHARA,0000,0000,0000,,Th-This is ridiculous.
+Dialogue: 0,0:15:44.46,0:15:46.34,DCMain,OHARA,0000,0000,0000,,Why would I do that?
+Dialogue: 0,0:15:46.54,0:15:51.47,DCMain,KOGORO,0000,0000,0000,,Because you were the other culprit \Nin the seven-year-old case.
+Dialogue: 0,0:15:53.64,0:15:56.78,DCMain,KOGORO,0000,0000,0000,,Kyujiro-san overheard you \Ndiscussing your secret
+Dialogue: 0,0:15:56.78,0:16:01.48,DCMain,KOGORO,0000,0000,0000,,using the bug he installed in \Nyour room and threatened you.
+Dialogue: 0,0:16:01.65,0:16:02.71,DCMain,IDE,0000,0000,0000,,That's it!
+Dialogue: 0,0:16:02.71,0:16:07.36,DCMain,IDE,0000,0000,0000,,He had the Byun card to tell \Nyou he knew everything.
+Dialogue: 0,0:16:07.72,0:16:12.12,DCMain,KOGORO,0000,0000,0000,,First you killed Kyujiro-san to keep him quiet.
+Dialogue: 0,0:16:12.51,0:16:15.87,DCMain,KOGORO,0000,0000,0000,,You must have prepared \Nsome tap water beforehand.
+Dialogue: 0,0:16:17.12,0:16:19.55,DCMain,KOGORO,0000,0000,0000,,You most likely drowned him in the van,
+Dialogue: 0,0:16:19.55,0:16:24.23,DCMain,KOGORO,0000,0000,0000,,and dumped the body in the lake \Non your way to pick us up.
+Dialogue: 0,0:16:24.23,0:16:29.21,DCMain,KOGORO,0000,0000,0000,,Then you killed Otaro-san in order \Nto frame him for the murder.
+Dialogue: 0,0:16:30.17,0:16:31.92,DCMain,OHARA,0000,0000,0000,,You're lying! You're making it up!
+Dialogue: 0,0:16:32.29,0:16:35.55,DCMain,KOGORO,0000,0000,0000,,Then why did you lie about \NOtaro-san taking beers
+Dialogue: 0,0:16:35.55,0:16:38.56,DCMain,KOGORO,0000,0000,0000,,and a bottle opener to his room?
+Dialogue: 0,0:16:39.00,0:16:41.83,DCMain,OHARA,0000,0000,0000,,I wasn't lying. I really saw him.
+Dialogue: 0,0:16:41.83,0:16:45.06,DCMain,MURA,0000,0000,0000,,It's not unusual to take a \Nbottle opener to drink beer.
+Dialogue: 0,0:16:45.76,0:16:48.57,DCMain,KOGORO,0000,0000,0000,,Otaro-san didn't need to
+Dialogue: 0,0:16:49.05,0:16:52.57,DCMain,KOGORO,0000,0000,0000,,because he had his own bottle opener.
+Dialogue: 0,0:16:52.96,0:16:55.72,DCMain,MURA,0000,0000,0000,,We didn't find one.
+Dialogue: 0,0:16:55.72,0:17:00.20,DCMain,KOGORO,0000,0000,0000,,You've been fooled by its appearance, \Njust like that blue beer.
+Dialogue: 0,0:17:00.48,0:17:04.41,DCMain,KOGORO,0000,0000,0000,,The key to the door to happiness \Nthat Otaro-san described
+Dialogue: 0,0:17:04.41,0:17:06.83,DCMain,KOGORO,0000,0000,0000,,is a bottle opener.
+Dialogue: 0,0:17:07.10,0:17:08.48,DCMain,OHARA,0000,0000,0000,,That key?
+Dialogue: 0,0:17:08.48,0:17:09.37,DCMain,RAN,0000,0000,0000,,I get it.
+Dialogue: 0,0:17:09.37,0:17:11.65,DCMain,RAN,0000,0000,0000,,For a beer-lover like Otaro-san,
+Dialogue: 0,0:17:11.65,0:17:15.84,DCMain,RAN,0000,0000,0000,,opening a beer would be the same \Nas opening the door to happiness.
+Dialogue: 0,0:17:16.30,0:17:21.42,DCMain,KOGORO,0000,0000,0000,,The upturned edges of caps on \Nthe floor are slightly pointed.
+Dialogue: 0,0:17:21.42,0:17:24.60,DCMain,KOGORO,0000,0000,0000,,It's a product of the shape \Nof the bottle opener.
+Dialogue: 0,0:17:25.13,0:17:28.94,DCMain,KOGORO,0000,0000,0000,,In order to make this a locked \Nroom, you needed a bottle opener.
+Dialogue: 0,0:17:29.52,0:17:32.36,DCMain,KOGORO,0000,0000,0000,,You expected to find one, but didn't.
+Dialogue: 0,0:17:32.62,0:17:35.46,DCMain,KOGORO,0000,0000,0000,,You hurried back to the kitchen to get one.
+Dialogue: 0,0:17:35.46,0:17:38.99,DCMain,KOGORO,0000,0000,0000,,You lied to hide this fact.
+Dialogue: 0,0:17:39.52,0:17:41.93,DCMain,IDE,0000,0000,0000,,Why was the dining room ransacked?
+Dialogue: 0,0:17:41.93,0:17:46.31,DCMain,KOGORO,0000,0000,0000,,In the dining room was the \Ncow magnet you played with
+Dialogue: 0,0:17:46.31,0:17:47.87,DCMain,KOGORO,0000,0000,0000,,that had many bottle caps stuck to it.
+Dialogue: 0,0:17:48.62,0:17:53.08,DCMain,KOGORO,0000,0000,0000,,He had to remove them in order to \Nuse the cow magnet in his trick.
+Dialogue: 0,0:17:53.08,0:17:56.88,DCMain,KOGORO,0000,0000,0000,,However, it would be \Nimpossible to put them back.
+Dialogue: 0,0:17:57.44,0:18:03.50,DCMain,KOGORO,0000,0000,0000,,So he scattered the caps on the floor \Nand ransacked the room to camouflage it.
+Dialogue: 0,0:18:03.90,0:18:07.00,DCMain,OHARA,0000,0000,0000,,What about proof? Do you have proof?
+Dialogue: 0,0:18:07.00,0:18:11.65,DCMain,KOGORO,0000,0000,0000,,You know better than anyone \Nthat there's damning evidence
+Dialogue: 0,0:18:12.59,0:18:14.78,DCMain,KOGORO,0000,0000,0000,,underneath your watch.
+Dialogue: 0,0:18:16.15,0:18:20.64,DCMain,KOGORO,0000,0000,0000,,Normally you keep your watch in your pocket,
+Dialogue: 0,0:18:20.64,0:18:23.37,DCMain,KOGORO,0000,0000,0000,,but since last night, you've \Nbeen wearing it on your wrist.
+Dialogue: 0,0:18:23.76,0:18:25.10,DCMain,OHARA,0000,0000,0000,,So, what?
+Dialogue: 0,0:18:25.10,0:18:27.78,DCMain,KOGORO,0000,0000,0000,,That watch is broken, isn't it?
+Dialogue: 0,0:18:28.32,0:18:33.38,DCMain,KOGORO,0000,0000,0000,,When you checked the time earlier, you looked \Nat the wall clock after looking at your watch.
+Dialogue: 0,0:18:34.04,0:18:35.71,DCMain,OHARA,0000,0000,0000,,W-Well, I...
+Dialogue: 0,0:18:36.02,0:18:39.52,DCMain,KOGORO,0000,0000,0000,,Last night, after murdering Otaro-san,
+Dialogue: 0,0:18:40.02,0:18:43.22,DCMain,KOGORO,0000,0000,0000,,you intended to return the cow magnet \Nto the dining room before going home.
+Dialogue: 0,0:18:43.80,0:18:48.10,DCMain,KOGORO,0000,0000,0000,,However, Fujiyoshi-san discovered the \Nsituation in the dining room first,
+Dialogue: 0,0:18:48.10,0:18:49.23,DCMain,KOGORO,0000,0000,0000,,causing a commotion.
+Dialogue: 0,0:18:50.08,0:18:52.10,DCMain,KOGORO,0000,0000,0000,,Unable to return to the dining room,
+Dialogue: 0,0:18:52.10,0:18:56.48,DCMain,KOGORO,0000,0000,0000,,you climbed down the tree next to the \Nsecond floor guest room and escaped.
+Dialogue: 0,0:18:56.77,0:18:59.86,DCMain,KOGORO,0000,0000,0000,,The cow magnet was in your \Npocket during this time.
+Dialogue: 0,0:19:00.35,0:19:02.49,DCMain,KOGORO,0000,0000,0000,,The pocket that also contained your watch.
+Dialogue: 0,0:19:02.88,0:19:05.91,DCMain,IDE,0000,0000,0000,,So the magnetic force of the \Ncow magnet broke his watch.
+Dialogue: 0,0:19:05.91,0:19:08.28,DCMain,SHIRO,0000,0000,0000,,When he returned after receiving a call,
+Dialogue: 0,0:19:08.28,0:19:11.55,DCMain,SHIRO,0000,0000,0000,,he waited for an opportunity to \Ndrop it on the dining room floor.
+Dialogue: 0,0:19:12.01,0:19:15.00,DCMain,KOGORO,0000,0000,0000,,Could you take off your watch?
+Dialogue: 0,0:19:21.57,0:19:23.90,DCMain,MURA,0000,0000,0000,,This mark was left by a bottle cap.
+Dialogue: 0,0:19:23.90,0:19:27.72,DCMain,KOGORO,0000,0000,0000,,Otaro-san must have resisted \Nwhen you tried to kill him.
+Dialogue: 0,0:19:28.11,0:19:32.07,DCMain,KOGORO,0000,0000,0000,,He pushed you to the ground, pressing one of \Nthe bottle caps on the floor against your arm.
+Dialogue: 0,0:19:32.52,0:19:34.23,DCMain,KOGORO,0000,0000,0000,,That's when you got that mark.
+Dialogue: 0,0:19:35.51,0:19:37.61,DCMain,MURA,0000,0000,0000,,If we examine the bottle caps in the room,
+Dialogue: 0,0:19:37.61,0:19:40.86,DCMain,MURA,0000,0000,0000,,we'll find skin or blood stuck to one.
+Dialogue: 0,0:19:41.17,0:19:42.92,DCMain,OHARA,0000,0000,0000,,Go ahead and examine them.
+Dialogue: 0,0:19:42.92,0:19:45.38,DCMain,OHARA,0000,0000,0000,,You won't find anything.
+Dialogue: 0,0:19:45.38,0:19:46.48,DCMain,KOGORO,0000,0000,0000,,I'm sure we won't.
+Dialogue: 0,0:19:47.04,0:19:49.48,DCMain,KOGORO,0000,0000,0000,,You took the cap with you.
+Dialogue: 0,0:19:49.87,0:19:53.46,DCMain,KOGORO,0000,0000,0000,,However, you didn't have time \Nto dispose of it very far away.
+Dialogue: 0,0:19:54.11,0:19:58.21,DCMain,KOGORO,0000,0000,0000,,Furthermore, even if skin \Nor blood aren't found on it,
+Dialogue: 0,0:19:58.21,0:20:01.47,DCMain,KOGORO,0000,0000,0000,,the various caps are bent differently.
+Dialogue: 0,0:20:02.92,0:20:05.62,DCMain,MURA,0000,0000,0000,,If one matches this mark, \Nit'll prove you did it.
+Dialogue: 0,0:20:08.48,0:20:12.27,DCMain,OHARA,0000,0000,0000,,Otaro's the one who said we \Nhad to get rid of Kyujiro!
+Dialogue: 0,0:20:12.27,0:20:15.10,DCMain,MURA,0000,0000,0000,,Then why did you kill Otaro-san?
+Dialogue: 0,0:20:15.10,0:20:18.64,DCMain,OHARA,0000,0000,0000,,He insisted on killing Miona-chan!
+Dialogue: 0,0:20:18.64,0:20:23.10,DCMain,OHARA,0000,0000,0000,,So I had to kill him to protect her!
+Dialogue: 0,0:20:23.10,0:20:25.02,DCMain,KOGORO,0000,0000,0000,,Is that true?
+Dialogue: 0,0:20:26.04,0:20:29.09,DCMain,KOGORO,0000,0000,0000,,This locked room trick is simple,
+Dialogue: 0,0:20:29.09,0:20:32.16,DCMain,KOGORO,0000,0000,0000,,but you couldn't have \Nthought of it on the spot.
+Dialogue: 0,0:20:32.54,0:20:36.04,DCMain,KOGORO,0000,0000,0000,,Are you sure you hadn't been plotting...
+Dialogue: 0,0:20:36.50,0:20:38.92,DCMain,KOGORO,0000,0000,0000,,...to kill Otaro-san?
+Dialogue: 0,0:20:39.10,0:20:40.58,DCMain,OHARA,0000,0000,0000,,N-No!
+Dialogue: 0,0:20:40.58,0:20:46.29,DCMain,KOGORO,0000,0000,0000,,You had always planned to murder \NOtaro-san and frame him.
+Dialogue: 0,0:20:46.29,0:20:47.80,DCMain,OHARA,0000,0000,0000,,No, no!
+Dialogue: 0,0:20:48.18,0:20:52.34,DCMain,OHARA,0000,0000,0000,,Otaro wanted to kill her seven years ago,
+Dialogue: 0,0:20:52.34,0:20:53.89,DCMain,OHARA,0000,0000,0000,,but I stopped him!
+Dialogue: 0,0:20:53.89,0:20:55.74,DCMain,OHARA,0000,0000,0000,,I protected her!
+Dialogue: 0,0:20:56.13,0:20:57.97,DCMain,MIONA,0000,0000,0000,,It was really scary.
+Dialogue: 0,0:20:59.50,0:21:00.40,DCMain,ASAKO,0000,0000,0000,,Miona?
+Dialogue: 0,0:21:02.01,0:21:05.53,DCMain,MIONA,0000,0000,0000,,The bloody mask came closer,
+Dialogue: 0,0:21:05.53,0:21:07.53,DCMain,MIONA,0000,0000,0000,,and... and...
+Dialogue: 0,0:21:10.27,0:21:12.18,DCMain,OHARA,0000,0000,0000,,I protected you.
+Dialogue: 0,0:21:12.18,0:21:12.87,DCMain,OHARA,0000,0000,0000,,Right?
+Dialogue: 0,0:21:13.18,0:21:14.48,DCMain,OHARA,0000,0000,0000,,Isn't that right?
+Dialogue: 0,0:21:20.76,0:21:24.88,DCMain,OHARA,0000,0000,0000,,Forget everything you saw here.
+Dialogue: 0,0:21:25.05,0:21:25.76,DCItalic,OHARA,0000,0000,0000,,Got it?
+Dialogue: 0,0:21:26.32,0:21:28.79,DCItalic,OHARA,0000,0000,0000,,Otherwise we'll kill you, too.
+Dialogue: 0,0:21:31.54,0:21:33.38,DCMain,MIONA,0000,0000,0000,,No!
+Dialogue: 0,0:21:33.38,0:21:34.31,DCMain,ASAKO,0000,0000,0000,,Miona!
+Dialogue: 0,0:21:34.96,0:21:35.69,DCMain,OHARA,0000,0000,0000,,Miona-chan!
+Dialogue: 0,0:21:36.56,0:21:39.58,DCMain,MIONA,0000,0000,0000,,The man I saw seven years ago...
+Dialogue: 0,0:21:40.19,0:21:41.27,DCMain,MIONA,0000,0000,0000,,was this man!
+Dialogue: 0,0:23:15.34,0:23:17.29,DCMain,SHIRO,0000,0000,0000,,It was an awful case,
+Dialogue: 0,0:23:17.29,0:23:21.33,DCMain,SHIRO,0000,0000,0000,,but at least that girl will \Nbe able to truly smile again.
+Dialogue: 0,0:23:21.73,0:23:23.09,DCMain,RAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:23:27.70,0:23:31.58,DCMain,KOGORO,0000,0000,0000,,Huh? Where'd everyone go?
+Dialogue: 0,0:23:39.45,0:23:43.68,DCMain,CONAN,0000,0000,0000,,In your case, you're not just \Nfeeling groggy from the beer.
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:47.68,0:23:49.03,DCMain,AYUMI,0000,0000,0000,,Akagi-san!
+Dialogue: 0,0:23:47.87,0:23:48.86,DCMain,IWA,0000,0000,0000,,Hide-san!
+Dialogue: 0,0:23:49.20,0:23:51.78,DCMain,AYUMI,0000,0000,0000,,H-Have you recovered from your injury?
+Dialogue: 0,0:23:52.28,0:23:54.80,DCMain,AYUMI,0000,0000,0000,,I hope this makes you feel better.
+Dialogue: 0,0:23:54.80,0:23:57.40,DCMain,AYUMI,0000,0000,0000,,I'll be rooting for you!
+Dialogue: 0,0:23:57.40,0:23:58.29,DCMain,AKAGI,0000,0000,0000,,Thanks.
+Dialogue: 0,0:24:00.30,0:24:05.29,English,FOREIGNER,0000,0000,0000,,Eventually the Japanese will understand \Nwhat gambling is all about.
+Dialogue: 0,0:24:07.76,0:24:09.05,DCItalic,CONAN,0000,0000,0000,,Why?
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,TEXT,0000,0000,0000,,The J League Bodyguard
+Dialogue: 0,0:24:09.78,0:24:13.48,DCMain,CONAN,0000,0000,0000,,The next episode of Conan \Nis "The J League Bodyguard!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,TEXT,0000,0000,0000,,Stadium Tour
+Dialogue: 0,0:24:30.24,0:24:32.62,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.62,0:24:34.76,DCMain,CONAN,0000,0000,0000,,A stadium tour!
+Dialogue: 0,0:24:34.99,0:24:36.16,DCMain,RAN,0000,0000,0000,,{\an8}There's no Conan next week.
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.16,0:24:38.04,DCMain,KOGORO,0000,0000,0000,,{\an8}We're taking the week off for J League.
+Dialogue: 0,0:24:38.04,0:24:39.86,DCMain,CONAN,0000,0000,0000,,{\an8}I see you're not taking a week off from beer.
+Dialogue: 0,0:24:39.86,0:24:41.86,DCMain,,0000,0000,0000,,

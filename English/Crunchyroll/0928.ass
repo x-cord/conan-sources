@@ -1,0 +1,868 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Mineto,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00B98279,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0030,0020,0066,0
+Style: Shinya,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AB5D87,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0050,0066,0
+Style: Riki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CF838B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0010,0066,0
+Style: Keiko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00B07B97,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0050,0066,0
+Style: Fumimaro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A67694,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0050,0020,0066,0
+Style: Hisashi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00D18B95,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0205,0020,0066,0
+Style: Shimogyo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00D498A2,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0195,0066,0
+Style: Ukyo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CB8D97,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0190,0066,0
+Style: CallKazuha,Trebuchet MS,16,&H00F2FCF4,&H000000FF,&H00036006,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0015,0
+Style: Live,Trebuchet MS,14,&H00070E0D,&H000000FF,&H00F0F0F0,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Serial,Trebuchet MS,14,&H00070E0D,&H000000FF,&H00F0F0F0,&H00322381,0,0,0,0,100,100,0,0,1,2,2,9,0020,0020,0018,0
+Style: Ward1,Trebuchet MS,16,&H000A0409,&H000000FF,&H00F2EAE6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0080,0165,0
+Style: Ward2,Trebuchet MS,16,&H000A0409,&H000000FF,&H00F2EAE6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0175,0020,0145,0
+Style: Ward3,Trebuchet MS,16,&H000A0409,&H000000FF,&H00F2EAE6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0020,0090,0110,0
+Style: Ward4,Trebuchet MS,16,&H000A0409,&H000000FF,&H00F2EAE6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0055,0080,0
+Style: Ward5,Trebuchet MS,16,&H000A0409,&H000000FF,&H00F2EAE6,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0170,0020,0020,0
+Style: Directionals,Trebuchet MS,16,&H00F4FE92,&H000000FF,&H006E440D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0200,0020,0018,0
+Style: Ponto,Trebuchet MS,16,&H00504F4B,&H000000FF,&H00E9E9E5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: MinetoNameChange,Times New Roman,22,&H000A0B2A,&H000000FF,&H00D5E6EE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0040,0020,0018,0
+Style: TaroboNameChange,Times New Roman,22,&H000A0B2A,&H000000FF,&H00D5E6EE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0050,0020,0018,0
+Style: Taro,Times New Roman,22,&H00E3C60E,&H000000FF,&H0039263C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0250,0020,0018,0
+Style: From,Trebuchet MS,18,&H00FAFAFA,&H000000FF,&H00848484,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Subject,Trebuchet MS,18,&H00040404,&H000000FF,&H00CFCFCF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0045,0
+Style: Subject2,Trebuchet MS,18,&H00797979,&H000000FF,&H00D2D2D2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Message,Trebuchet MS,18,&H00888888,&H000000FF,&H00F5F5F5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0045,0
+Style: Top,Trebuchet MS,22,&H00FFFFFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0190,0020,0018,0
+Style: Middle,Trebuchet MS,22,&H00FFFFFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0160,0100,0
+Style: Bottom,Trebuchet MS,22,&H00FFFFFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0140,0150,0
+Style: Left,Trebuchet MS,22,&H00FFFFFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0100,0020,0110,0
+Style: Right,Trebuchet MS,22,&H00FFFFFE,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0080,0080,0
+Style: Dekuri,Times New Roman,22,&H00000100,&H000000FF,&H00F3F9F4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: FromKudo,Trebuchet MS,18,&H002C2423,&H000000FF,&H00F5F5F5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Dekuri2,Times New Roman,22,&H00040B32,&H000000FF,&H00CEE3E8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Credits,Times New Roman,14,&H00040B32,&H000000FF,&H00CEE3E8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0070,0020,0070,0
+Style: NoMessages,Trebuchet MS,16,&H003F3B3F,&H000000FF,&H00F6F5F1,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0220,0020,0018,0
+Style: Dating,Trebuchet MS,18,&H00050505,&H000000FF,&H00D2D2D2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Preview,Times New Roman,22,&H00182F19,&H000000FF,&H00EDEFEF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0120,0150,0
+Style: Sending,Trebuchet MS,22,&H00020008,&H000000FF,&H00EDEFEF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0150,0020,0150,0
+Style: Mineto - Copy,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H008F2D29,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0030,0040,0066,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:09.23,0:00:12.19,DCMain,AYANOKOJI,0000,0000,0000,,I see. This was a blind spot.
+Dialogue: 0,0:00:12.43,0:00:16.95,DCMain,AYANOKOJI,0000,0000,0000,,We were watching the back door since \Nwe expected passers-by out front.
+Dialogue: 0,0:00:17.16,0:00:20.19,DCMain,HEIJI,0000,0000,0000,,But why did Ihaya-san go outside?
+Dialogue: 0,0:00:20.19,0:00:23.07,DCMain,HEIJI,0000,0000,0000,,We told you guys to stay in your room.
+Dialogue: 0,0:00:23.07,0:00:24.29,DCMain,AGATA,0000,0000,0000,,We were going to the bathroom.
+Dialogue: 0,0:00:24.50,0:00:27.42,Mineto,TEXT,0000,0000,0000,,{\fad(250,290)}Mayama Mineto (38) \NMovie Director
+Dialogue: 0,0:00:24.53,0:00:29.33,DCMain,MAYAMA,0000,0000,0000,,{\an8}Ihaya, Agata, and I headed \Nto the bathroom together.
+Dialogue: 0,0:00:29.74,0:00:32.59,DCMain,MAYAMA,0000,0000,0000,,{\an8}Ihaya said he was worried about \Nleaving Keiko-chan alone in the room,
+Dialogue: 0,0:00:30.67,0:00:33.64,Shinya,TEXT,0000,0000,0000,,{\fad(250,475)}Ihaya Shinya (37) \NActor
+Dialogue: 0,0:00:32.59,0:00:35.05,DCMain,MAYAMA,0000,0000,0000,,{\an8}so he alone headed back.
+Dialogue: 0,0:00:36.02,0:00:38.98,Riki,,0000,0000,0000,,{\fad(250,420)}Agata Riki (37) \NComposer
+Dialogue: 0,0:00:36.40,0:00:40.68,DCMain,AGATA,0000,0000,0000,,{\an8}I thought I saw him check his \Nmessages before he headed back.
+Dialogue: 0,0:00:40.93,0:00:42.29,DCMain,AYANOKOJI,0000,0000,0000,,I see.
+Dialogue: 0,0:00:42.29,0:00:46.47,DCMain,AYANOKOJI,0000,0000,0000,,Did Ihaya-san return immediately to the room?
+Dialogue: 0,0:00:46.47,0:00:47.56,DCMain,KEIKO,0000,0000,0000,,No.
+Dialogue: 0,0:00:47.96,0:00:53.05,DCMain,KEIKO,0000,0000,0000,,{\an8}I was afraid to stay alone in the room, so \NI left for the bathroom shortly afterwards.
+Dialogue: 0,0:00:47.98,0:00:51.45,Keiko,TEXT,0000,0000,0000,,{\fad(250,460)}Kurachi Keiko (37) \NActress
+Dialogue: 0,0:00:53.05,0:00:57.20,DCMain,KEIKO,0000,0000,0000,,It's possible he returned \Nafter I left the room.
+Dialogue: 0,0:00:57.36,0:01:00.83,Fumimaro,TEXT,0000,0000,0000,,{\fad(250,460)}Ayanokoji Fumimaro (28) \NKyoto Police \NDivision One Inspector
+Dialogue: 0,0:00:57.56,0:01:01.20,DCMain,AYANOKOJI,0000,0000,0000,,{\an8}How long were the two of you in the bathroom?
+Dialogue: 0,0:01:01.58,0:01:05.98,DCMain,MAYAMA,0000,0000,0000,,I left the bathroom right away, \Nbut I got lost on the way back.
+Dialogue: 0,0:01:05.98,0:01:09.71,DCMain,AGATA,0000,0000,0000,,My stomach wasn't feeling great, so \NI stayed in the bathroom for a while.
+Dialogue: 0,0:01:10.28,0:01:14.21,DCMain,SERA,0000,0000,0000,,In other words, all three of \Nyou could've messaged Ihaya-san
+Dialogue: 0,0:01:14.21,0:01:17.09,DCMain,SERA,0000,0000,0000,,and murdered him.
+Dialogue: 0,0:01:17.35,0:01:18.43,DCMain,KEIKO,0000,0000,0000,,What?
+Dialogue: 0,0:01:18.43,0:01:19.62,DCMain,AGATA,0000,0000,0000,,B-But...
+Dialogue: 0,0:01:19.62,0:01:21.80,DCMain,MAYAMA,0000,0000,0000,,We'd never do that!
+Dialogue: 0,0:01:21.80,0:01:24.23,DCMain,AYANOKOJI,0000,0000,0000,,Now, now. You're not wrong,
+Dialogue: 0,0:01:24.50,0:01:27.73,DCMain,AYANOKOJI,0000,0000,0000,,but the blood spray and \Nfootprints on the inuyarai...
+Dialogue: 0,0:01:28.04,0:01:31.78,DCMain,AYANOKOJI,0000,0000,0000,,It looks like they were \Npainted on quite a while ago.
+Dialogue: 0,0:01:32.25,0:01:36.83,DCMain,AYANOKOJI,0000,0000,0000,,When you were here before \Nthe body was discovered,
+Dialogue: 0,0:01:36.83,0:01:39.60,DCMain,AYANOKOJI,0000,0000,0000,,were these really not here?
+Dialogue: 0,0:01:39.60,0:01:40.97,DCMain,RAN,0000,0000,0000,,Yes.
+Dialogue: 0,0:01:40.97,0:01:47.23,DCMain,MOMIJI,0000,0000,0000,,M-Maybe we're all being tricked by a fox.
+Dialogue: 0,0:01:53.00,0:01:54.80,DCMain,SHINICHI,0000,0000,0000,,What's this mark?
+Dialogue: 0,0:01:55.08,0:01:56.42,DCMain,SHINICHI,0000,0000,0000,,Huh?
+Dialogue: 0,0:01:56.66,0:01:57.34,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:01:57.74,0:02:02.92,DCMain,SHINICHI,0000,0000,0000,,There are weird marks around the inuyarai.
+Dialogue: 0,0:02:02.92,0:02:05.43,DCItalic,SHINICHI,0000,0000,0000,,Uh, oh. I did what I always do.
+Dialogue: 0,0:02:05.43,0:02:08.46,DCMain,HEIJI,0000,0000,0000,,You're right. It goes all the way around it.
+Dialogue: 0,0:02:08.46,0:02:09.65,DCMain,HEIJI,0000,0000,0000,,I wonder what it is.
+Dialogue: 0,0:02:12.14,0:02:14.87,DCMain,RAN,0000,0000,0000,,Did he just say "Huh?"
+Dialogue: 0,0:02:14.87,0:02:18.13,DCMain,SONOKO,0000,0000,0000,,He's doing an impression of that brat now?
+Dialogue: 0,0:02:18.13,0:02:19.61,DCMain,SONOKO,0000,0000,0000,,How imprudent.
+Dialogue: 0,0:02:19.94,0:02:22.12,DCMain,SHINICHI,0000,0000,0000,,A-Anyway, was there a code?
+Dialogue: 0,0:02:22.12,0:02:24.37,DCMain,SHINICHI,0000,0000,0000,,Was it in his breast pocket again?
+Dialogue: 0,0:02:24.65,0:02:25.77,DCMain,AYANOKOJI,0000,0000,0000,,Yes.
+Dialogue: 0,0:02:25.77,0:02:28.01,DCMain,AYANOKOJI,0000,0000,0000,,Like Nishiki-san's murder,
+Dialogue: 0,0:02:28.01,0:02:31.61,DCMain,AYANOKOJI,0000,0000,0000,,it was there along with \Nthis paper plant leaf.
+Dialogue: 0,0:02:32.45,0:02:35.18,DCMain,AYANOKOJI,0000,0000,0000,,The third cipher.
+Dialogue: 0,0:02:35.88,0:02:38.97,DCMain,HEIJI,0000,0000,0000,,They left another nonsensical cipher?
+Dialogue: 0,0:02:38.97,0:02:45.14,DCMain,HEIJI,0000,0000,0000,,And why are these four squares \Nat the beginning Dekuri's mark?
+Dialogue: 0,0:02:45.31,0:02:49.67,DCMain,SERA,0000,0000,0000,,Maybe it's because the character \Nfor "de" in Dekuri is formed
+Dialogue: 0,0:02:49.67,0:02:52.84,DCMain,SERA,0000,0000,0000,,if you draw a big square around them.
+Dialogue: 0,0:02:52.84,0:02:56.76,DCMain,HEIJI,0000,0000,0000,,Draw a big square around them, huh?
+Dialogue: 0,0:02:58.97,0:03:00.16,DCMain,HEIJI,0000,0000,0000,,You're right.
+Dialogue: 0,0:03:00.84,0:03:03.16,DCMain,SHINICHI,0000,0000,0000,,Hattori, your phone's ringing.
+Dialogue: 0,0:03:03.16,0:03:04.73,DCMain,HEIJI,0000,0000,0000,,Huh? Oh.
+Dialogue: 0,0:03:05.41,0:03:07.41,CallKazuha,TEXT,0000,0000,0000,,Incoming Call \NKazuha \NDecline   Answer
+Dialogue: 0,0:03:05.99,0:03:07.41,DCMain,HEIJI,0000,0000,0000,,It's Kazuha.
+Dialogue: 0,0:03:10.32,0:03:12.92,DCMain,HEIJI,0000,0000,0000,,What is it, Kazuha? I'm—
+Dialogue: 0,0:03:12.92,0:03:15.42,DCMain,KAZUHA,0000,0000,0000,,Heiji, what are you doing?!
+Dialogue: 0,0:03:15.68,0:03:17.50,DCMain,HEIJI,0000,0000,0000,,D-Didn't I tell you?
+Dialogue: 0,0:03:17.50,0:03:21.55,DCMain,HEIJI,0000,0000,0000,,I'm really sick with a cold, \Nso I can't go to school.
+Dialogue: 0,0:03:22.32,0:03:24.47,DCMain,KAZUHA,0000,0000,0000,,Don't be ridiculous!
+Dialogue: 0,0:03:24.47,0:03:28.22,Live,TEXT,0000,0000,0000,,Actor Ihaya Moriya-san murdered!
+Dialogue: 0,0:03:24.47,0:03:28.22,Serial,TEXT,0000,0000,0000,,Could it be a serial murderer?
+Dialogue: 0,0:03:24.77,0:03:27.27,DCMain,KAZUHA,0000,0000,0000,,I see you on TV!
+Dialogue: 0,0:03:27.27,0:03:28.22,DCItalic,HEIJI,0000,0000,0000,,What?
+Dialogue: 0,0:03:28.82,0:03:30.75,DCMain,HEIJI,0000,0000,0000,,Oh, y-yeah.
+Dialogue: 0,0:03:30.75,0:03:34.24,DCMain,HEIJI,0000,0000,0000,,I wandered over to Kyoto to find a \Ngood luck charm that cures colds.
+Dialogue: 0,0:03:34.24,0:03:35.61,DCItalic,KAZUHA,0000,0000,0000,,What?!
+Dialogue: 0,0:03:36.21,0:03:38.11,DCItalic,SHINICHI,0000,0000,0000,,That's not a believable excuse.
+Dialogue: 0,0:03:38.40,0:03:40.42,DCMain,HEIJI,0000,0000,0000,,I-In any case,
+Dialogue: 0,0:03:40.42,0:03:44.57,DCMain,HEIJI,0000,0000,0000,,I need to solve a serial \Nmurder case and crack a code.
+Dialogue: 0,0:03:44.57,0:03:47.42,DCMain,HEIJI,0000,0000,0000,,Don't tell my parents about this.
+Dialogue: 0,0:03:47.42,0:03:49.12,DCItalic,KAZUHA,0000,0000,0000,,{\an8}Even I don't tell them,
+Dialogue: 0,0:03:47.42,0:03:49.12,DCMain,MOMIJI,0000,0000,0000,,Hey, Heiji-kun.
+Dialogue: 0,0:03:49.12,0:03:54.15,DCItalic,KAZUHA,0000,0000,0000,,{\an8}won't your parents know \Nif they see you on TV?
+Dialogue: 0,0:03:49.62,0:03:54.60,DCMain,MOMIJI,0000,0000,0000,,Those characters in the code remind \Nme of location names in Kyoto.
+Dialogue: 0,0:03:54.60,0:03:55.38,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:03:56.07,0:04:00.53,DCMain,MOMIJI,0000,0000,0000,,{\an8}This character is the "hisashi" \Nin the Kamigyo Ward's Hisashi-cho.
+Dialogue: 0,0:03:57.29,0:04:00.10,Hisashi,TEXT,0000,0000,0000,,{\fad(250,260)}Kyoto City Kamigyo Ward \NHisashi-cho
+Dialogue: 0,0:04:00.53,0:04:04.88,DCMain,MOMIJI,0000,0000,0000,,{\an8}To its left is the "to" in the \NShimogyo Ward's Tokusayama-cho.
+Dialogue: 0,0:04:01.42,0:04:04.23,Shimogyo,TEXT,0000,0000,0000,,{\fad(250,460)}Kyoto City Shimogyo Ward \NTokusayama-cho
+Dialogue: 0,0:04:04.88,0:04:08.39,DCMain,MOMIJI,0000,0000,0000,,{\an8}To the left of that is the "adashi" \Nin the Ukyo Ward's Adashino.
+Dialogue: 0,0:04:06.14,0:04:08.39,Ukyo,TEXT,0000,0000,0000,,{\fad(250,1)}Kyoto City Ukyo Ward \NAdashino-cho
+Dialogue: 0,0:04:08.87,0:04:10.90,DCMain,HEIJI,0000,0000,0000,,This is read "adashi?"
+Dialogue: 0,0:04:10.90,0:04:11.95,DCMain,MOMIJI,0000,0000,0000,,That's right.
+Dialogue: 0,0:04:11.95,0:04:13.14,DCMain,SERA,0000,0000,0000,,Hold on.
+Dialogue: 0,0:04:13.83,0:04:17.31,DCMain,SERA,0000,0000,0000,,If there are wards with top, bottom, \Nand right in their names, then...
+Dialogue: 0,0:04:17.61,0:04:18.51,DCMain,MOMIJI,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:18.51,0:04:22.97,DCMain,MOMIJI,0000,0000,0000,,Kyoto contains the Kamigyo Ward, the \NNakagyo Ward, the Shimogyo Ward,
+Dialogue: 0,0:04:19.61,0:04:20.57,Ward1,TEXT,0000,0000,0000,,Kamigyo Ward
+Dialogue: 0,0:04:20.61,0:04:21.57,Ward2,TEXT,0000,0000,0000,,Nakagyo Ward
+Dialogue: 0,0:04:21.65,0:04:22.61,Ward3,TEXT,0000,0000,0000,,Shimogyo Ward
+Dialogue: 0,0:04:22.86,0:04:23.82,Ward4,TEXT,0000,0000,0000,,Sakyo Ward
+Dialogue: 0,0:04:22.97,0:04:24.76,DCMain,MOMIJI,0000,0000,0000,,the Sakyo Ward, and the Ukyo Ward.
+Dialogue: 0,0:04:23.90,0:04:24.86,Ward5,TEXT,0000,0000,0000,,Ukyo Ward
+Dialogue: 0,0:04:24.76,0:04:27.88,DCMain,MOMIJI,0000,0000,0000,,Top, middle, bottom, and left \Nand right are all represented.
+Dialogue: 0,0:04:24.86,0:04:27.78,Directionals,TEXT,0000,0000,0000,,{\fad(420,1)}Top \NRight Middle Left \NBottom
+Dialogue: 0,0:04:27.88,0:04:28.70,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:04:29.07,0:04:30.48,DCMain,SERA,0000,0000,0000,,Then maybe this...
+Dialogue: 0,0:04:30.48,0:04:31.96,DCMain,HEIJI,0000,0000,0000,,Could it be?
+Dialogue: 0,0:04:31.96,0:04:33.44,DCMain,SHINICHI,0000,0000,0000,,That must be it.
+Dialogue: 0,0:04:33.44,0:04:34.71,DCItalic,KAZUHA,0000,0000,0000,,Hey, Heiji!
+Dialogue: 0,0:04:34.71,0:04:35.66,DCMain,HEIJI,0000,0000,0000,,What?
+Dialogue: 0,0:04:35.66,0:04:38.46,DCItalic,KAZUHA,0000,0000,0000,,I thought I heard Momiji-san's voice.
+Dialogue: 0,0:04:39.03,0:04:42.01,DCMain,MOMIJI,0000,0000,0000,,Why, little leaf. How have you been?
+Dialogue: 0,0:04:42.37,0:04:43.20,DCMain,KAZUHA,0000,0000,0000,,Mo!
+Dialogue: 0,0:04:43.20,0:04:45.87,DCItalic,MOMIJI,0000,0000,0000,,Let me handle Heiji-kun.
+Dialogue: 0,0:04:45.87,0:04:48.87,DCItalic,MOMIJI,0000,0000,0000,,You should focus on your studies.
+Dialogue: 0,0:04:48.87,0:04:49.62,DCMain,KAZUHA,0000,0000,0000,,I!
+Dialogue: 0,0:04:49.62,0:04:50.93,DCItalic,MOMIJI,0000,0000,0000,,Goodbye, now.
+Dialogue: 0,0:04:50.93,0:04:54.16,DCMain,KAZUHA,0000,0000,0000,,I can't let you handle him, you idiot!
+Dialogue: 0,0:04:55.36,0:04:56.87,DCMain,STUDENT,0000,0000,0000,,Can't let us handle it?
+Dialogue: 0,0:04:56.87,0:04:59.55,DCMain,STUDENT,0000,0000,0000,,Are you going to clean the \Nclassroom yourself, Kazuha?
+Dialogue: 0,0:04:59.55,0:05:00.94,DCMain,KAZUHA,0000,0000,0000,,That's not what I meant.
+Dialogue: 0,0:05:01.88,0:05:03.44,DCItalic,KAZUHA,0000,0000,0000,,Jeez...
+Dialogue: 0,0:05:06.54,0:05:09.45,DCMain,AYANOKOJI,0000,0000,0000,,I believe we were in the \Nmiddle of our conversation.
+Dialogue: 0,0:05:09.96,0:05:12.95,DCMain,AYANOKOJI,0000,0000,0000,,Why don't you tell us this time
+Dialogue: 0,0:05:13.44,0:05:18.81,DCMain,AYANOKOJI,0000,0000,0000,,about the man named Dekuri who \Ncame up with these three ciphers.
+Dialogue: 0,0:05:21.23,0:05:22.77,DCMain,CONAN,0000,0000,0000,,In my eyes are maximum creation!
+Dialogue: 0,0:05:22.77,0:05:24.51,DCMain,CONAN,0000,0000,0000,,My detective skills are tomorrow's reaction!
+Dialogue: 0,0:05:24.74,0:05:26.34,DCMain,CONAN,0000,0000,0000,,A serial murder stirs up trouble in Kyoto!
+Dialogue: 0,0:05:26.34,0:05:28.38,DCMain,CONAN,0000,0000,0000,,The tengu and the movie share \Na surprising connection!
+Dialogue: 0,0:05:28.38,0:05:29.99,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:05:29.99,0:05:31.93,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:05:31.93,0:05:34.46,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:07:10.95,0:07:16.95,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(397,1)}The Scarlet School Trip \N(Red Love Arc)
+Dialogue: 0,0:07:11.43,0:07:15.23,DCMain,CONAN,0000,0000,0000,,"The Scarlet School Trip, Red Love Arc!"
+Dialogue: 0,0:07:20.62,0:07:23.13,Ponto,SIGN,0000,0000,0000,,Ponto-cho {\fs22}Isogiyama
+Dialogue: 0,0:07:21.39,0:07:23.13,DCMain,AYANOKOJI,0000,0000,0000,,Dekuri Michio?
+Dialogue: 0,0:07:23.46,0:07:29.36,DCMain,AYANOKOJI,0000,0000,0000,,Was he also your classmate \Nat Gion Art School?
+Dialogue: 0,0:07:29.36,0:07:30.51,DCMain,KEIKO,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:07:31.17,0:07:35.23,DCMain,AGATA,0000,0000,0000,,He was in fine arts, but \NI was a music student.
+Dialogue: 0,0:07:35.23,0:07:37.39,DCMain,MAYAMA,0000,0000,0000,,I studied film.
+Dialogue: 0,0:07:37.39,0:07:40.52,DCMain,KEIKO,0000,0000,0000,,Ihaya-kun and I were in the acting school.
+Dialogue: 0,0:07:40.92,0:07:43.61,DCMain,MAYAMA,0000,0000,0000,,And Nishiki was a literary arts student.
+Dialogue: 0,0:07:43.61,0:07:48.69,DCMain,SERA,0000,0000,0000,,How did you get to know each other \Nwhen you studied different majors?
+Dialogue: 0,0:07:48.69,0:07:51.90,DCMain,AGATA,0000,0000,0000,,We all joined the special effects film club.
+Dialogue: 0,0:07:52.21,0:07:55.69,DCMain,AGATA,0000,0000,0000,,Dekuri was also in the comics club, though.
+Dialogue: 0,0:07:55.69,0:08:00.16,DCMain,MAYAMA,0000,0000,0000,,Every year, we'd show the movie \Nwe filmed at the school festival.
+Dialogue: 0,0:08:00.47,0:08:03.76,DCMain,MAYAMA,0000,0000,0000,,I was always good at special effects.
+Dialogue: 0,0:08:03.76,0:08:07.70,DCMain,KEIKO,0000,0000,0000,,Ihaya-kun and I were masters \Nof special effects makeup.
+Dialogue: 0,0:08:07.70,0:08:11.67,DCMain,AGATA,0000,0000,0000,,And I'd compose eerie music \Nfor the completed film.
+Dialogue: 0,0:08:12.10,0:08:13.62,DCMain,AGATA,0000,0000,0000,,Nishiki would write the script,
+Dialogue: 0,0:08:13.62,0:08:17.86,DCMain,AGATA,0000,0000,0000,,and Dekuri would design the \Ncostumes and monsters, right?
+Dialogue: 0,0:08:17.86,0:08:21.02,DCMain,MAYAMA,0000,0000,0000,,When Dekuri was busy with his comics,
+Dialogue: 0,0:08:21.02,0:08:23.56,DCMain,MAYAMA,0000,0000,0000,,we all pitched in.
+Dialogue: 0,0:08:23.93,0:08:27.96,DCMain,KEIKO,0000,0000,0000,,Agata-kun was the only one who \Nwas really useful, though.
+Dialogue: 0,0:08:27.96,0:08:29.01,DCMain,MAYAMA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:29.01,0:08:33.07,DCMain,SHINICHI,0000,0000,0000,,But the name Dekuri doesn't \Nappear in the credits
+Dialogue: 0,0:08:33.07,0:08:37.70,DCMain,SHINICHI,0000,0000,0000,,of the graduation project \N"The Fighting Red Tengu" is based on.
+Dialogue: 0,0:08:39.36,0:08:40.73,DCMain,SHINICHI,0000,0000,0000,,Why is that?
+Dialogue: 0,0:08:42.14,0:08:44.87,DCMain,HEIJI,0000,0000,0000,,What? Why aren't you saying anything?
+Dialogue: 0,0:08:45.20,0:08:50.17,DCMain,AGATA,0000,0000,0000,,Nishiki was having trouble writing the \Nscript for our graduation project.
+Dialogue: 0,0:08:50.17,0:08:54.88,DCMain,MAYAMA,0000,0000,0000,,That's when he found a self-published \Ncomic Dekuri had produced.
+Dialogue: 0,0:08:55.14,0:08:57.64,DCMain,KEIKO,0000,0000,0000,,It was a marvelous fantasy story.
+Dialogue: 0,0:08:57.78,0:09:01.09,DCMain,SERA,0000,0000,0000,,It was "The Fighting \NRed Tengu," wasn't it?
+Dialogue: 0,0:09:01.09,0:09:01.94,DCMain,KEIKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:02.63,0:09:06.91,DCMain,KEIKO,0000,0000,0000,,Dekuri-kun said he planned \Nto officially publish it
+Dialogue: 0,0:09:06.91,0:09:10.42,DCMain,KEIKO,0000,0000,0000,,once he became a \Nprofessional comic book artist,
+Dialogue: 0,0:09:10.42,0:09:11.78,DCMain,KEIKO,0000,0000,0000,,so he asked us not to use it.
+Dialogue: 0,0:09:12.18,0:09:17.16,DCMain,AGATA,0000,0000,0000,,We thought Dekuri would accept it \Nonce he saw the finished product,
+Dialogue: 0,0:09:17.16,0:09:19.37,DCMain,AGATA,0000,0000,0000,,so we decided to film his story.
+Dialogue: 0,0:09:19.37,0:09:22.68,DCMain,MAYAMA,0000,0000,0000,,And if we put his name in the credits,
+Dialogue: 0,0:09:22.68,0:09:25.29,DCMain,MAYAMA,0000,0000,0000,,it would be his graduation project, too.
+Dialogue: 0,0:09:25.58,0:09:28.95,DCMain,KEIKO,0000,0000,0000,,But when he previewed the \Nfilm in our club room...
+Dialogue: 0,0:09:29.67,0:09:32.92,DCItalic,DEKURI,0000,0000,0000,,This isn't my work! You betrayed me!
+Dialogue: 0,0:09:33.39,0:09:35.07,DCItalic,MAYAMA,0000,0000,0000,,Wait, Dekuri.
+Dialogue: 0,0:09:35.07,0:09:38.11,DCItalic,DEKURI,0000,0000,0000,,Don't put my name on it!
+Dialogue: 0,0:09:38.11,0:09:39.30,DCItalic,KEIKO,0000,0000,0000,,Dekuri-kun?
+Dialogue: 0,0:09:41.02,0:09:45.09,DCMain,KEIKO,0000,0000,0000,,Later, our graduation project \Nreceived high praise.
+Dialogue: 0,0:09:45.09,0:09:48.94,DCMain,KEIKO,0000,0000,0000,,The five of us were thrown \Ninto the limelight.
+Dialogue: 0,0:09:49.39,0:09:51.58,DCMain,HEIJI,0000,0000,0000,,He totally hates you.
+Dialogue: 0,0:09:51.58,0:09:55.94,DCMain,MAYAMA,0000,0000,0000,,But the night we announced the movie,
+Dialogue: 0,0:09:56.30,0:09:58.60,DCMain,MAYAMA,0000,0000,0000,,I got a call from Dekuri.
+Dialogue: 0,0:09:59.91,0:10:05.34,DCMain,MAYAMA,0000,0000,0000,,He said he'd given up on drawing comics \Nand was working at a small design firm.
+Dialogue: 0,0:10:05.34,0:10:09.09,DCMain,MAYAMA,0000,0000,0000,,He asked us to put his name in the credits
+Dialogue: 0,0:10:09.09,0:10:11.63,DCMain,MAYAMA,0000,0000,0000,,if we were going to remake that movie.
+Dialogue: 0,0:10:12.12,0:10:16.88,DCMain,KEIKO,0000,0000,0000,,Dekuri-kun said it was his dream for his \Ncomics to be adapted for the big screen.
+Dialogue: 0,0:10:17.08,0:10:20.44,DCMain,AYANOKOJI,0000,0000,0000,,Did you put his name in the credits?
+Dialogue: 0,0:10:20.44,0:10:24.51,DCMain,MAYAMA,0000,0000,0000,,We were going to, but there \Nwas a little mistake.
+Dialogue: 0,0:10:25.15,0:10:29.85,DCMain,AGATA,0000,0000,0000,,When he saw his name wasn't in the \Ncredits at the first screening,
+Dialogue: 0,0:10:29.85,0:10:32.02,DCMain,AGATA,0000,0000,0000,,he killed himself over the disappointment.
+Dialogue: 0,0:10:33.01,0:10:37.65,DCMain,MAYAMA,0000,0000,0000,,We even thought about canceling \Nthe movie's release,
+Dialogue: 0,0:10:38.03,0:10:40.91,DCMain,MAYAMA,0000,0000,0000,,but our sponsors wouldn't let us.
+Dialogue: 0,0:10:41.38,0:10:42.87,DCMain,AYANOKOJI,0000,0000,0000,,I see.
+Dialogue: 0,0:10:45.06,0:10:46.16,DCMain,MOMIJI,0000,0000,0000,,Why?
+Dialogue: 0,0:10:46.67,0:10:51.17,DCMain,MOMIJI,0000,0000,0000,,Why are Heiji-kun and the others \Nallowed inside when we're not?
+Dialogue: 0,0:10:51.49,0:10:55.30,DCMain,MOMIJI,0000,0000,0000,,The little leaf left me to \Nlook after Heiji for once.
+Dialogue: 0,0:10:55.55,0:10:59.68,DCMain,IORI,0000,0000,0000,,He seems to have the trust \Nof Inspector Ayanokoji.
+Dialogue: 0,0:11:00.21,0:11:01.43,DCItalic,SONOKO,0000,0000,0000,,Seriously, who is he?
+Dialogue: 0,0:11:01.60,0:11:03.74,DCMain,MOMIJI,0000,0000,0000,,It's your job to do something about that.
+Dialogue: 0,0:11:03.74,0:11:05.52,DCMain,RAN,0000,0000,0000,,Excuse me, Momiji-san.
+Dialogue: 0,0:11:05.52,0:11:06.56,DCMain,MOMIJI,0000,0000,0000,,What is it?
+Dialogue: 0,0:11:06.97,0:11:09.69,DCMain,RAN,0000,0000,0000,,Where can I go to meet Okita-kun?
+Dialogue: 0,0:11:11.54,0:11:15.94,DCMain,MOMIJI,0000,0000,0000,,Well, that kendo brat
+Dialogue: 0,0:11:15.94,0:11:19.11,DCMain,MOMIJI,0000,0000,0000,,is probably practicing \Nin the dojo around now.
+Dialogue: 0,0:11:19.71,0:11:22.03,DCMain,MOMIJI,0000,0000,0000,,If you have a message for \Nhim, I'll deliver it for you.
+Dialogue: 0,0:11:22.90,0:11:26.58,DCMain,RAN,0000,0000,0000,,Actually, there's something I wanted \Nto discuss with him in person.
+Dialogue: 0,0:11:27.16,0:11:28.25,DCMain,OKITA,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:29.07,0:11:30.36,DCMain,OKITA,0000,0000,0000,,It's you, Ran-chan.
+Dialogue: 0,0:11:30.36,0:11:31.12,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:11:31.47,0:11:32.75,DCMain,RAN,0000,0000,0000,,Okita-kun!
+Dialogue: 0,0:11:32.75,0:11:35.13,DCMain,OKITA,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:11:35.39,0:11:37.78,DCMain,MOMIJI,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:11:37.78,0:11:40.21,DCMain,MOMIJI,0000,0000,0000,,You brought all your henchmen with you.
+Dialogue: 0,0:11:40.21,0:11:43.55,DCMain,OKITA,0000,0000,0000,,I heard some tengu were running \Nwild on Kiyamachi Way,
+Dialogue: 0,0:11:43.81,0:11:46.21,DCMain,OKITA,0000,0000,0000,,so I brought the club to wipe them out.
+Dialogue: 0,0:11:46.21,0:11:48.68,DCMain,MOMIJI,0000,0000,0000,,Why, thank you.
+Dialogue: 0,0:11:48.68,0:11:51.51,DCItalic,SONOKO,0000,0000,0000,,He looks exactly like Shinichi-kun.
+Dialogue: 0,0:11:51.51,0:11:53.19,DCItalic,SONOKO,0000,0000,0000,,Does that mean...?
+Dialogue: 0,0:11:53.91,0:11:57.51,DCMain,MOMIJI,0000,0000,0000,,This girl says she wanted to see you.
+Dialogue: 0,0:11:58.33,0:11:59.57,DCMain,OKITA,0000,0000,0000,,Really?
+Dialogue: 0,0:11:59.57,0:12:02.59,DCMain,OKITA,0000,0000,0000,,So you did come to Kyoto \Nbecause you wanted to see me.
+Dialogue: 0,0:12:02.59,0:12:04.32,DCMain,RAN,0000,0000,0000,,Oh, no.
+Dialogue: 0,0:12:05.12,0:12:06.74,DCMain,RAN,0000,0000,0000,,C-Come with me.
+Dialogue: 0,0:12:06.74,0:12:07.49,DCMain,OKITA,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:47.73,0:12:49.45,DCMain,YUKIKO,0000,0000,0000,,{\an8}Kurachi Keiko?
+Dialogue: 0,0:12:50.09,0:12:52.28,DCMain,YUKIKO,0000,0000,0000,,Oh, Kyoko-chan.
+Dialogue: 0,0:12:52.28,0:12:55.00,DCMain,YUKIKO,0000,0000,0000,,We appeared in a lot of dramas together.
+Dialogue: 0,0:12:55.00,0:12:57.71,DCMain,YUKIKO,0000,0000,0000,,Of course, I always played the lead role.
+Dialogue: 0,0:12:58.10,0:13:00.95,DCMain,SHINICHI,0000,0000,0000,,Kyoko-chan? Not Keiko?
+Dialogue: 0,0:13:00.95,0:13:02.96,DCItalic,YUKIKO,0000,0000,0000,,Her real name is Kyoko.
+Dialogue: 0,0:13:03.29,0:13:07.64,DCMain,YUKIKO,0000,0000,0000,,After all she went through over \Nher college graduation project,
+Dialogue: 0,0:13:07.64,0:13:10.29,DCMain,YUKIKO,0000,0000,0000,,she added the character for sun to \Nthe top of "kyo" for "Kyoto,"
+Dialogue: 0,0:13:10.29,0:13:12.60,DCMain,YUKIKO,0000,0000,0000,,and made her stage name Keiko.
+Dialogue: 0,0:13:12.97,0:13:13.73,DCItalic,SHINICHI,0000,0000,0000,,Really?
+Dialogue: 0,0:13:14.02,0:13:15.93,DCMain,YUKIKO,0000,0000,0000,,Speaking of names,
+Dialogue: 0,0:13:15.93,0:13:20.36,DCMain,YUKIKO,0000,0000,0000,,she said Nishiki-san and \NMayama-san changed their names
+Dialogue: 0,0:13:20.36,0:13:23.11,DCMain,YUKIKO,0000,0000,0000,,just for that graduation project, too.
+Dialogue: 0,0:13:23.34,0:13:25.05,DCItalic,SHINICHI,0000,0000,0000,,They changed their names?
+Dialogue: 0,0:13:25.32,0:13:26.49,DCMain,YUKIKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:26.67,0:13:32.12,DCMain,YUKIKO,0000,0000,0000,,Mayama-san changed the mountain radical of \N"mine" in "Mineto" from left to top,
+Dialogue: 0,0:13:29.91,0:13:32.34,MinetoNameChange,TEXT,0000,0000,0000,,Mineto
+Dialogue: 0,0:13:32.39,0:13:35.69,DCMain,YUKIKO,0000,0000,0000,,and Nishiki-san changed his \Nname from Taro to Tarobo.
+Dialogue: 0,0:13:32.51,0:13:36.00,TaroboNameChange,TEXT,0000,0000,0000,,Tarobo
+Dialogue: 0,0:13:33.79,0:13:36.00,Taro,TEXT,0000,0000,0000,,{\fad(250,1)}Taro
+Dialogue: 0,0:13:36.00,0:13:41.15,DCItalic,SHINICHI,0000,0000,0000,,Come to think of it, Japan's most \Nlegendary tengu is named Tarobo, too.
+Dialogue: 0,0:13:41.15,0:13:43.05,DCItalic,YUKIKO,0000,0000,0000,,Oh, yeah. Speaking of Kyoko-chan,
+Dialogue: 0,0:13:43.45,0:13:46.04,DCMain,YUKIKO,0000,0000,0000,,she fell in love during college \Nand hasn't gotten married
+Dialogue: 0,0:13:46.04,0:13:50.05,DCMain,YUKIKO,0000,0000,0000,,because she's still in love with him.
+Dialogue: 0,0:13:50.44,0:13:51.80,DCMain,YUSAKU,0000,0000,0000,,I see.
+Dialogue: 0,0:13:51.80,0:13:55.12,DCMain,YUSAKU,0000,0000,0000,,Is that man's name Dekuri Michio-kun?
+Dialogue: 0,0:13:55.12,0:13:56.98,DCMain,YUKIKO,0000,0000,0000,,No way. How did you know?
+Dialogue: 0,0:13:57.27,0:14:00.57,DCMain,SHINICHI,0000,0000,0000,,Hey, mom. That Dekuri guy...
+Dialogue: 0,0:14:00.57,0:14:02.25,DCItalic,YUKIKO,0000,0000,0000,,How did you know?
+Dialogue: 0,0:14:03.48,0:14:05.00,DCItalic,SHINICHI,0000,0000,0000,,She hung up.
+Dialogue: 0,0:14:05.90,0:14:06.99,DCItalic,SHINICHI,0000,0000,0000,,A message from Sonoko?
+Dialogue: 0,0:14:07.67,0:14:08.32,DCItalic,SHINICHI,0000,0000,0000,,What?
+Dialogue: 0,0:14:08.32,0:14:11.20,From,TEXT,0000,0000,0000,,From: Suzuki Sonoko
+Dialogue: 0,0:14:08.32,0:14:11.20,Subject,TEXT,0000,0000,0000,,Subject: Your wife is cheating on you
+Dialogue: 0,0:14:09.50,0:14:11.20,DCItalic,SHINICHI,0000,0000,0000,,O-Okita?!
+Dialogue: 0,0:14:11.36,0:14:14.95,DCItalic,SHINICHI,0000,0000,0000,,Wh-Why is Ran seeing Okita?
+Dialogue: 0,0:14:15.17,0:14:17.96,DCItalic,SHINICHI,0000,0000,0000,,And what do their expressions mean?
+Dialogue: 0,0:14:19.29,0:14:20.21,DCMain,HEIJI,0000,0000,0000,,Hey, Kudo.
+Dialogue: 0,0:14:21.21,0:14:22.64,DCMain,HEIJI,0000,0000,0000,,What are you looking at?
+Dialogue: 0,0:14:22.64,0:14:23.84,DCMain,SHINICHI,0000,0000,0000,,Nothing.
+Dialogue: 0,0:14:24.17,0:14:25.20,DCMain,HEIJI,0000,0000,0000,,Let's go.
+Dialogue: 0,0:14:25.20,0:14:27.12,DCMain,SHINICHI,0000,0000,0000,,G-Go where?
+Dialogue: 0,0:14:27.12,0:14:28.73,DCMain,HEIJI,0000,0000,0000,,To the Gion Hotel.
+Dialogue: 0,0:14:28.73,0:14:32.89,DCMain,SERA,0000,0000,0000,,When Nishiki-san tried to \Nreserve a smoking room,
+Dialogue: 0,0:14:33.16,0:14:36.09,DCMain,SERA,0000,0000,0000,,at first they told him \Nthey were fully booked,
+Dialogue: 0,0:14:36.09,0:14:40.20,DCMain,SERA,0000,0000,0000,,but a reservation was canceled while he was \Non the phone, so he got a room after all.
+Dialogue: 0,0:14:40.20,0:14:42.15,DCMain,SERA,0000,0000,0000,,Curious, right?
+Dialogue: 0,0:14:42.15,0:14:43.52,DCMain,SHINICHI,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:14:44.13,0:14:45.40,DCMain,SHINICHI,0000,0000,0000,,You're right.
+Dialogue: 0,0:14:45.84,0:14:47.90,DCItalic,SHINICHI,0000,0000,0000,,I'm curious about this, too.
+Dialogue: 0,0:14:51.47,0:14:53.41,DCMain,RECEPTION,0000,0000,0000,,Yes, that's correct.
+Dialogue: 0,0:14:53.81,0:14:57.50,DCMain,RECEPTION,0000,0000,0000,,A reservation was canceled while we \Nwere on the phone with Nishiki-sama.
+Dialogue: 0,0:14:57.50,0:15:00.54,DCMain,RECEPTION,0000,0000,0000,,He reserved the room for two \Ndays starting yesterday.
+Dialogue: 0,0:15:00.72,0:15:02.22,DCMain,AYANOKOJI,0000,0000,0000,,I see.
+Dialogue: 0,0:15:02.22,0:15:05.42,DCMain,HEIJI,0000,0000,0000,,Come to think of it, you \Nsmoke, too, Agata-san.
+Dialogue: 0,0:15:05.86,0:15:08.26,DCMain,HEIJI,0000,0000,0000,,Were you able to get a room right away?
+Dialogue: 0,0:15:08.26,0:15:09.34,DCMain,AGATA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:09.34,0:15:12.55,DCMain,AGATA,0000,0000,0000,,Someone else canceled right \Nafter Nishiki called.
+Dialogue: 0,0:15:12.95,0:15:18.37,DCMain,AGATA,0000,0000,0000,,We were gathered in Nishiki's apartment \Nand made our reservations together.
+Dialogue: 0,0:15:18.37,0:15:19.49,DCMain,AGATA,0000,0000,0000,,Right?
+Dialogue: 0,0:15:19.49,0:15:20.56,DCMain,KEIKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:15:20.76,0:15:21.92,DCMain,AYANOKOJI,0000,0000,0000,,Is this true?
+Dialogue: 0,0:15:22.91,0:15:23.96,DCMain,RECEPTION,0000,0000,0000,,Yes.
+Dialogue: 0,0:15:23.96,0:15:26.26,DCMain,RECEPTION,0000,0000,0000,,After Nishiki-sama made a reservation,
+Dialogue: 0,0:15:26.26,0:15:30.49,DCMain,RECEPTION,0000,0000,0000,,someone else canceled, and \NAgata-sama reserved the room.
+Dialogue: 0,0:15:30.71,0:15:34.35,DCMain,RECEPTION,0000,0000,0000,,It was a group of guests who canceled.
+Dialogue: 0,0:15:34.35,0:15:37.37,DCMain,SERA,0000,0000,0000,,Speaking of Agata-san's room,
+Dialogue: 0,0:15:37.58,0:15:40.14,DCMain,SERA,0000,0000,0000,,a giant tengu apparently appeared inside it.
+Dialogue: 0,0:15:40.14,0:15:43.70,DCMain,SERA,0000,0000,0000,,Is it true that nothing strange \Nwas found in the room after that?
+Dialogue: 0,0:15:43.70,0:15:44.71,DCMain,AYANOKOJI,0000,0000,0000,,Yes.
+Dialogue: 0,0:15:44.71,0:15:48.64,DCMain,AYANOKOJI,0000,0000,0000,,There was a glue-like substance \Non the burned ceiling,
+Dialogue: 0,0:15:48.64,0:15:53.01,DCMain,AYANOKOJI,0000,0000,0000,,but it wasn't nearly enough \Nto support a large object.
+Dialogue: 0,0:15:53.30,0:15:58.24,DCMain,AYANOKOJI,0000,0000,0000,,There were also marks left by the \Nchair when Agata-san fell out of it
+Dialogue: 0,0:15:58.24,0:16:01.35,DCMain,AYANOKOJI,0000,0000,0000,,and a roughly three centimeter \Nburn in the carpet
+Dialogue: 0,0:16:01.35,0:16:04.02,DCMain,AYANOKOJI,0000,0000,0000,,when a cigarette fell from the \Nashtray thrown at the tengu.
+Dialogue: 0,0:16:04.36,0:16:08.61,DCMain,AYANOKOJI,0000,0000,0000,,And for some reason, there was another \Npillow in the middle of the bed.
+Dialogue: 0,0:16:08.61,0:16:11.28,DCMain,AGATA,0000,0000,0000,,Th-That's a habit of mine.
+Dialogue: 0,0:16:11.28,0:16:15.53,DCMain,AGATA,0000,0000,0000,,{\an8}My legs cramp up if I don't \Nput a pillow under them.
+Dialogue: 0,0:16:11.51,0:16:15.53,DCItalic,SHINICHI,0000,0000,0000,,What is it? Something in \Nthat didn't sound right.
+Dialogue: 0,0:16:16.16,0:16:18.12,DCItalic,SHINICHI,0000,0000,0000,,The glue on the ceiling...
+Dialogue: 0,0:16:18.79,0:16:20.72,DCItalic,SHINICHI,0000,0000,0000,,The marks left by the chair...
+Dialogue: 0,0:16:21.99,0:16:23.54,DCItalic,OKITA,0000,0000,0000,,I'm Okita Soshi.
+Dialogue: 0,0:16:24.73,0:16:26.04,DCItalic,SHINICHI,0000,0000,0000,,The cigarette burn...
+Dialogue: 0,0:16:26.31,0:16:28.29,DCItalic,RAN,0000,0000,0000,,I wonder if we'll get to see Okita-kun.
+Dialogue: 0,0:16:28.94,0:16:30.80,DCItalic,SHINICHI,0000,0000,0000,,The pillow in the center of the bed...
+Dialogue: 0,0:16:30.80,0:16:32.30,From,TEXT,0000,0000,0000,,From: Suzuki Sonoko
+Dialogue: 0,0:16:30.80,0:16:32.30,Subject,TEXT,0000,0000,0000,,Subject: Your wife is cheating on you
+Dialogue: 0,0:16:30.80,0:16:32.30,DCItalic,SONOKO,0000,0000,0000,,Your wife is cheating on you.
+Dialogue: 0,0:16:34.97,0:16:36.58,DCItalic,SHINICHI,0000,0000,0000,,Damn it.
+Dialogue: 0,0:16:36.58,0:16:40.56,DCItalic,SHINICHI,0000,0000,0000,,I can't focus on the case because I \Nkeep thinking of that picture of them.
+Dialogue: 0,0:16:41.13,0:16:44.06,DCItalic,SHINICHI,0000,0000,0000,,I don't have time to think \Nabout that right now.
+Dialogue: 0,0:16:44.25,0:16:45.98,DCItalic,SHINICHI,0000,0000,0000,,What? Time?
+Dialogue: 0,0:16:47.83,0:16:50.41,DCItalic,SHINICHI,0000,0000,0000,,Shit. There it is.
+Dialogue: 0,0:16:50.41,0:16:52.57,DCItalic,SHINICHI,0000,0000,0000,,It's sooner than yesterday.
+Dialogue: 0,0:16:52.92,0:16:55.25,DCMain,HEIJI,0000,0000,0000,,H-Hey, Kudo. You okay?
+Dialogue: 0,0:16:55.25,0:16:56.45,DCMain,SHINICHI,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:16:56.77,0:16:59.42,DCMain,SHINICHI,0000,0000,0000,,More importantly, I know who did it.
+Dialogue: 0,0:16:59.42,0:17:00.23,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:17:00.23,0:17:01.24,DCMain,HEIJI,0000,0000,0000,,Seriously?
+Dialogue: 0,0:17:01.24,0:17:06.47,DCMain,SHINICHI,0000,0000,0000,,B-But there's not enough \Nevidence to arrest them.
+Dialogue: 0,0:17:06.47,0:17:08.75,DCMain,HEIJI,0000,0000,0000,,Then what are we going to do, Kudo?
+Dialogue: 0,0:17:09.58,0:17:10.71,DCMain,SHINICHI,0000,0000,0000,,Inspector Ayanokoji.
+Dialogue: 0,0:17:10.95,0:17:12.00,DCMain,AYANOKOJI,0000,0000,0000,,What is it?
+Dialogue: 0,0:17:12.00,0:17:16.06,DCMain,SHINICHI,0000,0000,0000,,Could I get s-some assistance \Nfrom the Kyoto police?
+Dialogue: 0,0:17:16.06,0:17:18.34,DCMain,AYANOKOJI,0000,0000,0000,,Yes, if we're able.
+Dialogue: 0,0:17:18.52,0:17:26.10,DCMain,SHINICHI,0000,0000,0000,,I-It may be a little... embarrassing, though.
+Dialogue: 0,0:17:31.99,0:17:37.49,DCMain,AYANOKOJI,0000,0000,0000,,{\a6}In any case, since a new cipher was found \Non the body of Ihaya-san yesterday,
+Dialogue: 0,0:17:32.44,0:17:35.95,Mineto - Copy,AYANOKOJI,0000,0000,0000,,{\fad(278,438)}The next day
+Dialogue: 0,0:17:37.93,0:17:44.00,DCMain,AYANOKOJI,0000,0000,0000,,the culprit may be planning \Nto kill another one of you.
+Dialogue: 0,0:17:44.20,0:17:49.92,DCMain,AYANOKOJI,0000,0000,0000,,Please remain in your rooms \Nuntil it's time to check out.
+Dialogue: 0,0:17:50.19,0:17:52.04,DCMain,AYANOKOJI,0000,0000,0000,,To be safe,
+Dialogue: 0,0:17:52.04,0:17:56.21,DCMain,AYANOKOJI,0000,0000,0000,,we'll be posting an officer \Noutside each of your rooms.
+Dialogue: 0,0:17:56.21,0:17:57.77,DCMain,MAYAMA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:17:57.77,0:17:58.74,DCMain,AYANOKOJI,0000,0000,0000,,Goodbye.
+Dialogue: 0,0:18:01.72,0:18:04.35,DCMain,HEIJI,0000,0000,0000,,Hey, Kudo. Are you okay?
+Dialogue: 0,0:18:04.35,0:18:06.09,DCMain,SHINICHI,0000,0000,0000,,Yeah, just barely.
+Dialogue: 0,0:18:06.09,0:18:08.17,DCMain,SHINICHI,0000,0000,0000,,I took my medicine late this morning.
+Dialogue: 0,0:18:08.17,0:18:09.00,DCMain,SERA,0000,0000,0000,,Your medicine?
+Dialogue: 0,0:18:09.00,0:18:09.65,DCMain,BOTH,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:09.95,0:18:11.34,DCMain,SERA,0000,0000,0000,,What medicine?
+Dialogue: 0,0:18:11.89,0:18:13.43,DCMain,SHINICHI,0000,0000,0000,,Cold medicine.
+Dialogue: 0,0:18:13.91,0:18:15.09,DCMain,SERA,0000,0000,0000,,Really?
+Dialogue: 0,0:18:16.04,0:18:19.43,DCMain,MAYAMA,0000,0000,0000,,This has turned into quite the visit.
+Dialogue: 0,0:18:19.43,0:18:20.28,DCMain,AGATA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:20.28,0:18:23.12,DCMain,AGATA,0000,0000,0000,,We never even made it to Dekuri's grave.
+Dialogue: 0,0:18:23.64,0:18:25.81,DCMain,MAYAMA,0000,0000,0000,,We'll have to go another time.
+Dialogue: 0,0:18:25.81,0:18:27.00,DCMain,AGATA,0000,0000,0000,,You're right.
+Dialogue: 0,0:18:27.00,0:18:28.24,DCMain,MAYAMA,0000,0000,0000,,See you later.
+Dialogue: 0,0:18:28.24,0:18:29.21,DCMain,BOTH,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:36.82,0:18:37.74,DCItalic,KEIKO,0000,0000,0000,,Your dream?
+Dialogue: 0,0:18:39.54,0:18:41.64,DCItalic,KEIKO,0000,0000,0000,,That's your dream, Dekuri-kun?
+Dialogue: 0,0:18:42.23,0:18:43.35,DCItalic,DEKURI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:43.35,0:18:49.64,DCItalic,DEKURI,0000,0000,0000,,Seeing the words "based on a comic by \NDekuri Michio" on the big screen is my dream.
+Dialogue: 0,0:19:08.51,0:19:09.46,DCItalic,DEKURI,0000,0000,0000,,Really?
+Dialogue: 0,0:19:09.85,0:19:13.61,DCItalic,DEKURI,0000,0000,0000,,You'll really put my name in the credits?
+Dialogue: 0,0:19:14.97,0:19:19.44,DCMain,MAYAMA,0000,0000,0000,,Of course. You're the \None who wrote the story.
+Dialogue: 0,0:19:19.44,0:19:20.48,DCItalic,DEKURI,0000,0000,0000,,I'm glad.
+Dialogue: 0,0:19:20.48,0:19:20.97,DCMain,MAYAMA,0000,0000,0000,,What?
+Dialogue: 0,0:19:21.69,0:19:24.11,DCMain,DEKURI,0000,0000,0000,,I've actually always regretted it.
+Dialogue: 0,0:19:24.48,0:19:27.74,DCMain,DEKURI,0000,0000,0000,,Your graduation project was so well made,
+Dialogue: 0,0:19:27.74,0:19:30.60,DCMain,DEKURI,0000,0000,0000,,I said that out of frustration.
+Dialogue: 0,0:19:31.04,0:19:34.50,DCItalic,DEKURI,0000,0000,0000,,I'm sorry. And thank you.
+Dialogue: 0,0:19:46.45,0:19:48.66,DCItalic,AGATA,0000,0000,0000,,What's wrong, Dekuri?
+Dialogue: 0,0:19:50.03,0:19:52.64,DCItalic,AGATA,0000,0000,0000,,We need to leave.\NThey're closing the theater.
+Dialogue: 0,0:19:52.64,0:19:53.79,DCItalic,DEKURI,0000,0000,0000,,That's odd.
+Dialogue: 0,0:19:54.51,0:19:57.88,DCItalic,DEKURI,0000,0000,0000,,No matter how long I wait, \Nmy name never appears.
+Dialogue: 0,0:19:58.31,0:19:59.59,DCItalic,DEKURI,0000,0000,0000,,Isn't that strange?
+Dialogue: 0,0:20:29.43,0:20:30.75,DCMain,POLICE,0000,0000,0000,,Where are you going?
+Dialogue: 0,0:20:32.00,0:20:33.02,DCMain,MAYAMA,0000,0000,0000,,To the bathroom.
+Dialogue: 0,0:20:33.02,0:20:35.82,DCMain,MAYAMA,0000,0000,0000,,The bathroom in my room isn't working.
+Dialogue: 0,0:20:35.82,0:20:37.38,DCMain,MAYAMA,0000,0000,0000,,I'm going to the bathroom in the lobby.
+Dialogue: 0,0:20:37.76,0:20:39.37,DCMain,MAYAMA,0000,0000,0000,,I'll be right back.
+Dialogue: 0,0:20:39.37,0:20:40.52,DCMain,POLICE,0000,0000,0000,,Be careful.
+Dialogue: 0,0:20:46.39,0:20:47.39,DCMain,POLICE,0000,0000,0000,,Hello?
+Dialogue: 0,0:20:56.55,0:20:57.68,DCMain,MAYAMA,0000,0000,0000,,To Kiyomizu Temple.
+Dialogue: 0,0:20:57.68,0:20:59.15,DCMain,DRIVER,0000,0000,0000,,Very well.
+Dialogue: 0,0:21:36.99,0:21:37.95,DCItalic,AGATA,0000,0000,0000,,Hello?
+Dialogue: 0,0:21:37.95,0:21:40.66,DCMain,MAYAMA,0000,0000,0000,,Agata, how long are you \Ngoing to make me wait?
+Dialogue: 0,0:21:40.66,0:21:42.48,DCItalic,AGATA,0000,0000,0000,,Wait? What are you talking about?
+Dialogue: 0,0:21:42.48,0:21:43.19,DCItalic,MAYAMA,0000,0000,0000,,What?
+Dialogue: 0,0:21:43.70,0:21:48.32,DCMain,MAYAMA,0000,0000,0000,,You just sent me a message saying \Nyou killed Nishiki and Ihaya,
+Dialogue: 0,0:21:48.32,0:21:54.83,Subject2,TEXT,0000,0000,0000,,Subject: It's Agata
+Dialogue: 0,0:21:48.32,0:21:54.83,Message,TEXT,0000,0000,0000,,I killed Nishiki and Ihaya. \NThere's something I want to tell you before the \Npolice arrest me. Meet me at the Kiyomizu butai.
+Dialogue: 0,0:21:48.56,0:21:52.34,DCMain,MAYAMA,0000,0000,0000,,and wanted to talk to \Nme at the Kiyomizu butai
+Dialogue: 0,0:21:52.34,0:21:54.83,DCMain,MAYAMA,0000,0000,0000,,before the police arrested you.
+Dialogue: 0,0:21:54.83,0:21:58.19,DCItalic,AGATA,0000,0000,0000,,What? I'd never send that.
+Dialogue: 0,0:21:58.19,0:21:59.82,DCItalic,AGATA,0000,0000,0000,,Did you check the sender's address?
+Dialogue: 0,0:21:59.82,0:22:01.25,DCMain,MAYAMA,0000,0000,0000,,H-Hold on.
+Dialogue: 0,0:22:02.10,0:22:07.22,DCMain,MAYAMA,0000,0000,0000,,The sender's address is "chestnut@."
+Dialogue: 0,0:22:08.32,0:22:09.58,DCMain,MAYAMA,0000,0000,0000,,Chestnut...
+Dialogue: 0,0:22:10.21,0:22:12.89,DCItalic,AGATA,0000,0000,0000,,Doesn't "kuri" mean chestnut?
+Dialogue: 0,0:22:12.89,0:22:15.24,DCItalic,AGATA,0000,0000,0000,,Isn't that Dekuri's address?
+Dialogue: 0,0:22:15.24,0:22:16.23,DCMain,VOICE,0000,0000,0000,,That's right.
+Dialogue: 0,0:22:19.57,0:22:21.46,DCMain,VOICE,0000,0000,0000,,I'm the one who sent the message.
+Dialogue: 0,0:22:21.46,0:22:22.61,DCMain,VOICE,0000,0000,0000,,Me, Dekuri.
+Dialogue: 0,0:22:23.36,0:22:24.92,DCMain,MAYAMA,0000,0000,0000,,Th-That's impossible!
+Dialogue: 0,0:22:24.92,0:22:26.24,DCMain,MAYAMA,0000,0000,0000,,You're dead!
+Dialogue: 0,0:22:26.67,0:22:28.32,DCMain,VOICE,0000,0000,0000,,That's right.
+Dialogue: 0,0:22:28.32,0:22:30.08,DCMain,VOICE,0000,0000,0000,,After your betrayal,
+Dialogue: 0,0:22:30.08,0:22:34.97,DCMain,VOICE,0000,0000,0000,,in my despair, I threw myself from the \NKiyomizu butai and killed myself.
+Dialogue: 0,0:22:34.97,0:22:35.95,DCMain,VOICE,0000,0000,0000,,But...
+Dialogue: 0,0:22:38.35,0:22:43.38,DCMain,VOICE,0000,0000,0000,,In order to get my revenge, I've \Nreturned from the underworld.
+Dialogue: 0,0:22:44.62,0:22:46.75,DCMain,VOICE,0000,0000,0000,,How could you trick me like that?
+Dialogue: 0,0:22:46.75,0:22:48.88,DCMain,VOICE,0000,0000,0000,,I'll never forgive you. Never.
+Dialogue: 0,0:22:49.96,0:22:51.01,DCMain,VOICE,0000,0000,0000,,I'll never forgive you!
+Dialogue: 0,0:22:51.23,0:22:54.51,DCMain,MAYAMA,0000,0000,0000,,N-No! Y-Your name was actually—
+Dialogue: 0,0:22:57.94,0:23:00.14,DCMain,CULPRIT,0000,0000,0000,,Apologize to Dekuri
+Dialogue: 0,0:23:00.59,0:23:02.25,DCMain,CULPRIT,0000,0000,0000,,in hell!
+Dialogue: 0,0:23:14.84,0:23:15.79,DCMain,CULPRIT,0000,0000,0000,,Why?
+Dialogue: 0,0:23:16.20,0:23:18.62,DCMain,SHINICHI,0000,0000,0000,,The butai is approximately 12 meters tall.
+Dialogue: 0,0:23:22.58,0:23:25.21,DCMain,SHINICHI,0000,0000,0000,,If you lay out a cushion beforehand,
+Dialogue: 0,0:23:25.21,0:23:28.13,DCMain,SHINICHI,0000,0000,0000,,you won't end up in the underworld,
+Dialogue: 0,0:23:30.47,0:23:31.82,DCMain,SHINICHI,0000,0000,0000,,Agata Riki-san.
+Dialogue: 0,0:23:32.31,0:23:33.81,DCMain,AGATA,0000,0000,0000,,How did you know I'd be here?
+Dialogue: 0,0:23:33.81,0:23:35.39,DCMain,AGATA,0000,0000,0000,,Did you crack the code?
+Dialogue: 0,0:23:35.80,0:23:36.93,DCMain,SHINICHI,0000,0000,0000,,Yes.
+Dialogue: 0,0:23:36.93,0:23:39.46,DCMain,SHINICHI,0000,0000,0000,,The key is the white cross-shape surrounded
+Dialogue: 0,0:23:39.46,0:23:43.39,DCMain,SHINICHI,0000,0000,0000,,by four black squares at \Nthe top of the ciphers.
+Dialogue: 0,0:23:43.99,0:23:49.48,DCMain,SHINICHI,0000,0000,0000,,These refer to the Kamigyo, \NNakagyo, Shimogyo, Sakyo,
+Dialogue: 0,0:23:45.57,0:23:46.52,Top,TEXT,0000,0000,0000,,{\fad(210,210)}Top
+Dialogue: 0,0:23:46.57,0:23:47.53,Middle,TEXT,0000,0000,0000,,{\fad(210,210)}Middle
+Dialogue: 0,0:23:47.57,0:23:48.78,Bottom,TEXT,0000,0000,0000,,{\fad(210,210)}Bottom
+Dialogue: 0,0:23:48.82,0:23:49.40,Left,TEXT,0000,0000,0000,,{\fad(210,210)}Left
+Dialogue: 0,0:23:49.44,0:23:50.03,Right,TEXT,0000,0000,0000,,{\fad(210,210)}Right
+Dialogue: 0,0:23:49.48,0:23:51.45,DCMain,SHINICHI,0000,0000,0000,,and Ukyo Wards of Kyoto.
+Dialogue: 0,0:23:51.45,0:23:54.91,DCMain,SHINICHI,0000,0000,0000,,The rest of the characters are \Nparts of location names in Kyoto.
+Dialogue: 0,0:23:55.57,0:23:58.48,DCMain,SHINICHI,0000,0000,0000,,Comparing them against the positions \Nof the characters in the white cross
+Dialogue: 0,0:23:58.48,0:24:03.21,DCMain,SHINICHI,0000,0000,0000,,tells you which location name they \Nrefer to and how to read them.
+Dialogue: 0,0:24:03.94,0:24:05.99,DCMain,SHINICHI,0000,0000,0000,,Using that method,
+Dialogue: 0,0:24:05.99,0:24:09.76,DCMain,SHINICHI,0000,0000,0000,,the beginning of the cipher \Nsent to Nishiki-san contains...
+Dialogue: 0,0:24:10.61,0:24:13.09,DCMain,SHINICHI,0000,0000,0000,,"Kon" from Kamigyo Ward's Kontaka-cho.
+Dialogue: 0,0:24:13.09,0:24:15.75,DCMain,SHINICHI,0000,0000,0000,,"Ro" from Nakagyo Ward's Toroyama-cho.
+Dialogue: 0,0:24:15.75,0:24:18.67,DCMain,SHINICHI,0000,0000,0000,,"Suji" from Kamigyo \NWard's Sujikaibashi-cho.
+Dialogue: 0,0:24:18.67,0:24:20.87,DCMain,SHINICHI,0000,0000,0000,,"No" from Ukyo Ward's Adashino.
+Dialogue: 0,0:24:20.87,0:24:23.19,DCMain,SHINICHI,0000,0000,0000,,"Hate" from Sakyo Ward's Kamihate-cho.
+Dialogue: 0,0:24:23.88,0:24:26.86,DCMain,SHINICHI,0000,0000,0000,,If you string the first mora \Nin each character together,
+Dialogue: 0,0:24:27.30,0:24:30.15,DCMain,SHINICHI,0000,0000,0000,,you get "ko-ro-su-no-ha."
+Dialogue: 0,0:24:30.75,0:24:33.15,DCMain,SHINICHI,0000,0000,0000,,In other words, it becomes "I will kill."
+Dialogue: 0,0:24:33.78,0:24:37.41,DCMain,HEIJI,0000,0000,0000,,The backwards character for "saki" \Nthat appears occasionally
+Dialogue: 0,0:24:37.41,0:24:40.20,DCMain,HEIJI,0000,0000,0000,,is the "pon" from \NNakagyo Ward's Ponto-cho.
+Dialogue: 0,0:24:40.20,0:24:43.87,DCMain,HEIJI,0000,0000,0000,,If you flip them around, you get "nop," \Nso you read it as just "n."
+Dialogue: 0,0:24:44.17,0:24:47.17,DCMain,HEIJI,0000,0000,0000,,So the meaning of the first cipher is,
+Dialogue: 0,0:24:47.38,0:24:52.31,DCMain,HEIJI,0000,0000,0000,,"I will kill three, starting \Nwith the scriptwriter."
+Dialogue: 0,0:24:52.94,0:24:58.22,DCMain,SERA,0000,0000,0000,,If you read the second cipher found \Non Nishiki-san's body in the same way,
+Dialogue: 0,0:24:58.22,0:25:02.03,DCMain,SERA,0000,0000,0000,,you get "two more to \Nkill, next is the star."
+Dialogue: 0,0:25:02.57,0:25:04.19,DCMain,SERA,0000,0000,0000,,The third cipher reads,
+Dialogue: 0,0:25:04.19,0:25:09.99,DCMain,SERA,0000,0000,0000,,"one more to kill, then \NI'll fall from the butai."
+Dialogue: 0,0:25:10.65,0:25:14.36,DCMain,SERA,0000,0000,0000,,After making Mayama-san's \Ndeath look like a suicide,
+Dialogue: 0,0:25:14.36,0:25:16.82,DCMain,SERA,0000,0000,0000,,you probably intended to announce you \Nfigured out how to read the code,
+Dialogue: 0,0:25:17.10,0:25:21.58,DCMain,SERA,0000,0000,0000,,making it look like the third cipher \Nwas Mayama-san's suicide note,
+Dialogue: 0,0:25:22.25,0:25:24.83,DCMain,SERA,0000,0000,0000,,but because you wrote where \Nyou'd commit suicide,
+Dialogue: 0,0:25:25.20,0:25:28.58,DCMain,SERA,0000,0000,0000,,we were able to beat you here.
+Dialogue: 0,0:25:28.58,0:25:30.52,DCMain,AGATA,0000,0000,0000,,I-It's the curse.
+Dialogue: 0,0:25:30.93,0:25:32.18,DCMain,AGATA,0000,0000,0000,,It's the curse!
+Dialogue: 0,0:25:32.62,0:25:36.94,DCMain,AGATA,0000,0000,0000,,It's some curse that made me do all of this!
+Dialogue: 0,0:25:37.36,0:25:40.97,DCMain,AGATA,0000,0000,0000,,Didn't you see the ceiling in Nishiki's room?
+Dialogue: 0,0:25:41.40,0:25:43.92,DCMain,AGATA,0000,0000,0000,,A human couldn't have done \Nthat in less than ten minutes!
+Dialogue: 0,0:25:43.92,0:25:45.39,DCMain,SHINICHI,0000,0000,0000,,Electrostatic notes.
+Dialogue: 0,0:25:46.40,0:25:52.40,DCMain,SHINICHI,0000,0000,0000,,By using static electricity, they can be \Nstuck to any wall or object without an adhesive.
+Dialogue: 0,0:25:52.72,0:25:57.91,DCMain,SHINICHI,0000,0000,0000,,You used the notes Nishiki-san \Nused to revise the script.
+Dialogue: 0,0:25:59.35,0:26:03.14,DCMain,SHINICHI,0000,0000,0000,,You started by staying in \Nthat room the day before
+Dialogue: 0,0:26:03.61,0:26:07.48,DCMain,SHINICHI,0000,0000,0000,,and painting the blood spray and footprints \Non the ceiling, allowing them to dry.
+Dialogue: 0,0:26:07.92,0:26:12.17,DCMain,SHINICHI,0000,0000,0000,,You hid them by covering the entire \Nceiling with electrostatic notes.
+Dialogue: 0,0:26:12.64,0:26:17.43,DCMain,SHINICHI,0000,0000,0000,,Naturally, you reserved that smoking \Nroom for the next day as well.
+Dialogue: 0,0:26:18.54,0:26:22.31,DCMain,SHINICHI,0000,0000,0000,,You also reserved every other smoking room,
+Dialogue: 0,0:26:22.80,0:26:25.52,DCMain,SHINICHI,0000,0000,0000,,and canceled your reservation \Nfor the room painted with blood...
+Dialogue: 0,0:26:25.52,0:26:28.60,DCMain,SHINICHI,0000,0000,0000,,when Nishiki-san called the hotel,
+Dialogue: 0,0:26:27.81,0:26:30.06,DCNote,TEXT,0000,0000,0000,,Cancel your reservation?
+Dialogue: 0,0:26:27.81,0:26:30.06,DCNote,TEXT,0000,0000,0000,,Yes   No
+Dialogue: 0,0:26:30.83,0:26:34.85,DCMain,SHINICHI,0000,0000,0000,,allowing you to force Nishiki-san \Nto stay in that room.
+Dialogue: 0,0:26:36.05,0:26:38.22,DCMain,SHINICHI,0000,0000,0000,,After killing Nishiki-san,
+Dialogue: 0,0:26:38.22,0:26:41.95,DCMain,SHINICHI,0000,0000,0000,,you ran a rod over the \Nceiling to remove the notes
+Dialogue: 0,0:26:42.24,0:26:46.52,DCMain,SHINICHI,0000,0000,0000,,and scattered Nishiki-san's script among \Nthem in order to conceal your trick.
+Dialogue: 0,0:26:47.65,0:26:51.31,DCMain,SHINICHI,0000,0000,0000,,Then you sucked some of Nishiki-san's \Nblood into a syringe
+Dialogue: 0,0:26:51.31,0:26:55.71,DCMain,SHINICHI,0000,0000,0000,,and sprayed it at the center of the \Nblood spray you painted on the ceiling.
+Dialogue: 0,0:26:56.96,0:26:58.38,DCMain,AGATA,0000,0000,0000,,Wh-What about the tengu, then?
+Dialogue: 0,0:26:58.78,0:27:02.81,DCMain,AGATA,0000,0000,0000,,What about the giant tengu \Nthat suddenly appeared
+Dialogue: 0,0:27:02.81,0:27:04.39,DCMain,AGATA,0000,0000,0000,,and vanished in my room?!
+Dialogue: 0,0:27:04.71,0:27:10.14,DCMain,HEIJI,0000,0000,0000,,You were the only one who was useful when \Nyou helped Dekuri-san with his comics.
+Dialogue: 0,0:27:10.44,0:27:15.15,DCMain,HEIJI,0000,0000,0000,,Surely you were artistic and \Ndexterous enough to build
+Dialogue: 0,0:27:15.70,0:27:19.21,DCMain,HEIJI,0000,0000,0000,,a paper mache tengu of about that size.
+Dialogue: 0,0:27:20.38,0:27:23.31,DCMain,HEIJI,0000,0000,0000,,If you made it using the \Nflash paper magicians use,
+Dialogue: 0,0:27:23.31,0:27:27.19,DCMain,HEIJI,0000,0000,0000,,just being exposed to the flame of a \Ncigarette would make it go up in flames.
+Dialogue: 0,0:27:27.85,0:27:32.92,DCMain,SHINICHI,0000,0000,0000,,The three centimeter cigarette \Nburn left in your room proves it.
+Dialogue: 0,0:27:33.67,0:27:37.55,DCMain,SHINICHI,0000,0000,0000,,If you screamed when you noticed the \Ntengu after lighting a cigarette
+Dialogue: 0,0:27:37.85,0:27:43.95,DCMain,SHINICHI,0000,0000,0000,,and waited to throw your ashtray at the \Ntengu after we arrived and opened the door
+Dialogue: 0,0:27:44.87,0:27:47.83,DCMain,SHINICHI,0000,0000,0000,,then it doesn't make sense for so much \Nof your cigarette to have remained.
+Dialogue: 0,0:27:48.22,0:27:49.92,DCMain,SHINICHI,0000,0000,0000,,In other words,
+Dialogue: 0,0:27:49.92,0:27:53.94,DCMain,SHINICHI,0000,0000,0000,,you lit your cigarette just \Nbefore we opened the door,
+Dialogue: 0,0:27:54.47,0:27:58.58,DCMain,SHINICHI,0000,0000,0000,,even though you should have been too \Nsurprised by the tengu to do that.
+Dialogue: 0,0:27:58.58,0:28:02.03,DCMain,SERA,0000,0000,0000,,Additionally, you painted the footprints
+Dialogue: 0,0:28:02.03,0:28:05.56,DCMain,SERA,0000,0000,0000,,on the inuyarai present at \NIhaya-san's murder during the night,
+Dialogue: 0,0:28:05.56,0:28:09.95,DCMain,SERA,0000,0000,0000,,and placed a larger inuyarai over it.
+Dialogue: 0,0:28:10.32,0:28:15.76,DCMain,SERA,0000,0000,0000,,After killing him, you removed that \Ninuyarai, revealing the footprints,
+Dialogue: 0,0:28:15.76,0:28:18.21,DCMain,SERA,0000,0000,0000,,and placed it over a different inuyarai.
+Dialogue: 0,0:28:18.61,0:28:22.65,DCMain,SERA,0000,0000,0000,,Apparently they found all kinds \Nof stuff under that inuyarai,
+Dialogue: 0,0:28:22.65,0:28:27.22,DCMain,SERA,0000,0000,0000,,like the murder weapon and a raincoat \Ncovered in the victim's blood.
+Dialogue: 0,0:28:27.78,0:28:29.75,DCMain,SERA,0000,0000,0000,,You probably wiped your prints from them
+Dialogue: 0,0:28:29.75,0:28:33.72,DCMain,SERA,0000,0000,0000,,so you could make it look like \NMayama-san did it, though.
+Dialogue: 0,0:28:33.72,0:28:35.10,DCMain,AGATA,0000,0000,0000,,Wh-What are you talking about?
+Dialogue: 0,0:28:35.47,0:28:36.58,DCMain,AGATA,0000,0000,0000,,Weren't you watching?
+Dialogue: 0,0:28:36.58,0:28:40.03,DCMain,AGATA,0000,0000,0000,,Mayama was trying to climb over this railing!
+Dialogue: 0,0:28:40.30,0:28:42.20,DCMain,AGATA,0000,0000,0000,,He must've been possessed by—
+Dialogue: 0,0:28:42.20,0:28:43.40,DCMain,HEIJI,0000,0000,0000,,No.
+Dialogue: 0,0:28:44.03,0:28:47.55,DCMain,HEIJI,0000,0000,0000,,All that's here are these \Nclear electrostatic notes
+Dialogue: 0,0:28:47.55,0:28:50.55,DCMain,HEIJI,0000,0000,0000,,with red footprints painted on them.
+Dialogue: 0,0:28:51.06,0:28:55.40,DCMain,HEIJI,0000,0000,0000,,If you layered notes the same color \Nas the floorboards over them,
+Dialogue: 0,0:28:55.40,0:28:57.67,DCMain,HEIJI,0000,0000,0000,,you could hide the footprints.
+Dialogue: 0,0:28:58.17,0:29:03.30,DCMain,HEIJI,0000,0000,0000,,Because you attached nylon string to \Nthem and removed them one at a time,
+Dialogue: 0,0:29:03.62,0:29:08.54,DCMain,HEIJI,0000,0000,0000,,it looked to Mayama-san like the bloody \Nfootprints were approaching him.
+Dialogue: 0,0:29:09.17,0:29:12.80,DCMain,SHINICHI,0000,0000,0000,,Additionally, you used \Nthis directional speaker
+Dialogue: 0,0:29:12.80,0:29:16.18,DCMain,SHINICHI,0000,0000,0000,,so only Mayama-san would \Nhear this horrifying voice.
+Dialogue: 0,0:29:16.18,0:29:18.86,DCItalic,VOICE,0000,0000,0000,,{\an8}I'll never forgive you. Never.
+Dialogue: 0,0:29:16.99,0:29:19.61,DCMain,SHINICHI,0000,0000,0000,,It's no wonder he was desperate to get away.
+Dialogue: 0,0:29:20.28,0:29:23.16,DCMain,SHINICHI,0000,0000,0000,,Since you probably planned \Nto retrieve the notes
+Dialogue: 0,0:29:23.16,0:29:26.86,DCMain,SHINICHI,0000,0000,0000,,and speaker during the commotion \Ncaused by his suicide,
+Dialogue: 0,0:29:27.14,0:29:30.74,DCMain,SHINICHI,0000,0000,0000,,your fingerprints should be on them.
+Dialogue: 0,0:29:30.74,0:29:31.55,DCMain,AGATA,0000,0000,0000,,Damn it!
+Dialogue: 0,0:29:32.32,0:29:33.41,DCMain,AGATA,0000,0000,0000,,Move, you brats!
+Dialogue: 0,0:29:37.16,0:29:37.54,DCMain,AGATA,0000,0000,0000,,What?
+Dialogue: 0,0:29:39.54,0:29:41.24,DCMain,AYANOKOJI,0000,0000,0000,,Sorry.
+Dialogue: 0,0:29:41.24,0:29:43.65,DCMain,AYANOKOJI,0000,0000,0000,,He asked the Kyoto police to \Nwear their old school uniforms
+Dialogue: 0,0:29:43.65,0:29:46.30,DCMain,AYANOKOJI,0000,0000,0000,,and pretend to be students on a trip
+Dialogue: 0,0:29:46.34,0:29:50.20,DCMain,AYANOKOJI,0000,0000,0000,,so you wouldn't be on your guard.
+Dialogue: 0,0:29:50.69,0:29:51.94,DCMain,AGATA,0000,0000,0000,,No way...
+Dialogue: 0,0:29:52.62,0:29:53.37,DCMain,AGATA,0000,0000,0000,,Damn.
+Dialogue: 0,0:29:54.58,0:29:55.63,DCMain,AGATA,0000,0000,0000,,Damn!
+Dialogue: 0,0:29:57.47,0:29:59.50,DCMain,HEIJI,0000,0000,0000,,I don't get it, though.
+Dialogue: 0,0:29:59.50,0:30:02.47,DCMain,HEIJI,0000,0000,0000,,Why did you put two bumps on the bodies?
+Dialogue: 0,0:30:02.99,0:30:04.69,DCMain,AGATA,0000,0000,0000,,It's the Kobutori Jisan folktale.
+Dialogue: 0,0:30:05.57,0:30:08.51,DCMain,AGATA,0000,0000,0000,,The bad man incurred the wrath of a tengu
+Dialogue: 0,0:30:08.51,0:30:12.70,DCMain,AGATA,0000,0000,0000,,when he copied the good man \Nand was given two bumps.
+Dialogue: 0,0:30:12.92,0:30:17.73,DCMain,AGATA,0000,0000,0000,,When I saw the bumps \NKeiko got during filming,
+Dialogue: 0,0:30:17.73,0:30:20.71,DCMain,AGATA,0000,0000,0000,,I decided to incorporate it into my plan.
+Dialogue: 0,0:30:21.18,0:30:26.34,DCMain,SERA,0000,0000,0000,,Was your motive the absence of \NDekuri's name in the credits?
+Dialogue: 0,0:30:26.94,0:30:27.91,DCMain,AGATA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:30:28.65,0:30:31.96,DCMain,AGATA,0000,0000,0000,,When I told them during the after-party
+Dialogue: 0,0:30:31.96,0:30:35.59,DCMain,AGATA,0000,0000,0000,,that Dekuri sat stunned in \Nthe theater, they said,
+Dialogue: 0,0:30:36.43,0:30:39.05,DCMain,AGATA,0000,0000,0000,,"Really? He was that surprised?"
+Dialogue: 0,0:30:39.05,0:30:41.70,DCMain,AGATA,0000,0000,0000,,"We did it. Well done, everyone."
+Dialogue: 0,0:30:42.07,0:30:45.04,DCMain,SHINICHI,0000,0000,0000,,But wasn't it a mistake?
+Dialogue: 0,0:30:45.79,0:30:49.74,DCMain,AGATA,0000,0000,0000,,I thought so, too, but was perplexed \Nafter I checked with the staff.
+Dialogue: 0,0:30:50.80,0:30:53.54,DCMain,AGATA,0000,0000,0000,,They said they fixed the credits,
+Dialogue: 0,0:30:53.54,0:30:58.02,DCMain,AGATA,0000,0000,0000,,but instead of removing someone's name, they \Njust adjusted the spacing of some characters.
+Dialogue: 0,0:30:58.78,0:31:03.50,DCMain,AGATA,0000,0000,0000,,They never intended to include Dekuri's name!
+Dialogue: 0,0:31:03.75,0:31:06.95,DCMain,AGATA,0000,0000,0000,,They only invited Dekuri to the \Nscreening so they could laugh at him!
+Dialogue: 0,0:31:06.95,0:31:09.07,DCMain,KEIKO,0000,0000,0000,,You're wrong, Agata-kun!
+Dialogue: 0,0:31:09.84,0:31:13.10,DCMain,KEIKO,0000,0000,0000,,They had to fix the spacing \Nof the characters!
+Dialogue: 0,0:31:13.10,0:31:14.66,DCMain,AGATA,0000,0000,0000,,It's too late for that.
+Dialogue: 0,0:31:14.66,0:31:15.51,DCMain,MAYAMA,0000,0000,0000,,Agata.
+Dialogue: 0,0:31:16.25,0:31:20.10,DCMain,MAYAMA,0000,0000,0000,,These are the credits that were \Nsupposed to appear after the movie.
+Dialogue: 0,0:31:21.96,0:31:24.72,DCMain,MAYAMA,0000,0000,0000,,We had all five of our \Nnames displayed at once,
+Dialogue: 0,0:31:24.72,0:31:27.68,DCMain,MAYAMA,0000,0000,0000,,changed our names,
+Dialogue: 0,0:31:27.68,0:31:30.03,DCMain,MAYAMA,0000,0000,0000,,and unevenly spaced our names
+Dialogue: 0,0:31:30.03,0:31:36.54,Dekuri,TEXT,0000,0000,0000,,Dekuri Michio
+Dialogue: 0,0:31:30.64,0:31:36.31,DCMain,MAYAMA,0000,0000,0000,,so the name Dekuri Michio \Nwould appear with ours.
+Dialogue: 0,0:31:39.15,0:31:41.54,DCMain,AGATA,0000,0000,0000,,N-No...
+Dialogue: 0,0:31:41.76,0:31:45.76,DCMain,MAYAMA,0000,0000,0000,,We wanted his name to appear as \Nthe author of the original work,
+Dialogue: 0,0:31:45.76,0:31:49.71,DCMain,MAYAMA,0000,0000,0000,,but our producers said they \Ncouldn't pay another staff member,
+Dialogue: 0,0:31:49.71,0:31:51.29,DCMain,MAYAMA,0000,0000,0000,,so we did this instead.
+Dialogue: 0,0:31:51.70,0:31:56.06,DCMain,KEIKO,0000,0000,0000,,Since he loved ciphers so \Nmuch, we thought he'd notice.
+Dialogue: 0,0:31:56.53,0:32:00.14,DCMain,KEIKO,0000,0000,0000,,We did the same thing in \Nour graduation project.
+Dialogue: 0,0:32:00.71,0:32:03.31,DCMain,KEIKO,0000,0000,0000,,We wanted to express our gratitude to him.
+Dialogue: 0,0:32:03.88,0:32:06.36,DCMain,MAYAMA,0000,0000,0000,,We didn't tell you since you \Nand Dekuri were friends.
+Dialogue: 0,0:32:06.36,0:32:09.85,DCMain,MAYAMA,0000,0000,0000,,We wanted you to be surprised together.
+Dialogue: 0,0:32:09.85,0:32:11.15,DCMain,KEIKO,0000,0000,0000,,We're sorry.
+Dialogue: 0,0:32:11.97,0:32:13.32,DCMain,AGATA,0000,0000,0000,,What have I done?
+Dialogue: 0,0:32:13.96,0:32:15.37,DCMain,AGATA,0000,0000,0000,,What have I done?
+Dialogue: 0,0:32:21.74,0:32:26.39,DCItalic,SHINICHI,0000,0000,0000,,Kiyomizu Temple trembled with the \Nremorseful wail of the killer,
+Dialogue: 0,0:32:27.09,0:32:30.73,DCItalic,SHINICHI,0000,0000,0000,,as though the red leaves surrounding it
+Dialogue: 0,0:32:31.12,0:32:33.66,DCItalic,SHINICHI,0000,0000,0000,,had gone up in flames and withered.
+Dialogue: 0,0:32:37.99,0:32:39.60,DCMain,SONOKO,0000,0000,0000,,They're late.
+Dialogue: 0,0:32:39.77,0:32:40.90,DCMain,RAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:32:41.40,0:32:43.69,DCMain,RAN,0000,0000,0000,,Oh, they're here. Shinichi!
+Dialogue: 0,0:32:45.94,0:32:47.75,DCMain,SHINICHI,0000,0000,0000,,Sorry I'm late.
+Dialogue: 0,0:32:47.75,0:32:49.14,DCMain,RAN,0000,0000,0000,,Did you catch the culprit?
+Dialogue: 0,0:32:49.14,0:32:50.36,DCMain,SHINICHI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:32:50.70,0:32:53.40,DCMain,SHINICHI,0000,0000,0000,,But you don't need to worry about it.
+Dialogue: 0,0:32:53.40,0:32:54.52,DCMain,SONOKO,0000,0000,0000,,What's your problem?
+Dialogue: 0,0:32:54.52,0:32:58.34,DCMain,SONOKO,0000,0000,0000,,We changed our plans so \Nwe could meet up with you.
+Dialogue: 0,0:32:58.85,0:33:00.37,DCItalic,SHINICHI,0000,0000,0000,,It was an unpleasant case.
+Dialogue: 0,0:33:01.17,0:33:03.26,DCMain,SERA,0000,0000,0000,,Anyway, we still have some time.
+Dialogue: 0,0:33:03.26,0:33:04.50,DCMain,SERA,0000,0000,0000,,Should we go somewhere?
+Dialogue: 0,0:33:04.85,0:33:06.69,DCMain,RAN,0000,0000,0000,,Let's go to Kitano Tenmangu.
+Dialogue: 0,0:33:06.69,0:33:09.13,DCMain,RAN,0000,0000,0000,,Okita-kun mentioned it before.
+Dialogue: 0,0:33:09.13,0:33:10.88,DCMain,SONOKO,0000,0000,0000,,Nice. Let's go.
+Dialogue: 0,0:33:12.06,0:33:14.47,DCMain,SERA,0000,0000,0000,,It's pretty far away.
+Dialogue: 0,0:33:14.47,0:33:15.63,DCMain,SERA,0000,0000,0000,,How do we get there?
+Dialogue: 0,0:33:16.00,0:33:17.51,DCMain,SHINICHI,0000,0000,0000,,Hey.
+Dialogue: 0,0:33:18.77,0:33:20.46,DCMain,SHINICHI,0000,0000,0000,,How do you feel?
+Dialogue: 0,0:33:20.46,0:33:21.60,DCMain,RAN,0000,0000,0000,,About what?
+Dialogue: 0,0:33:21.60,0:33:23.23,DCMain,SHINICHI,0000,0000,0000,,About me.
+Dialogue: 0,0:33:23.23,0:33:26.02,DCMain,SHINICHI,0000,0000,0000,,I heard you met with Okita yesterday.
+Dialogue: 0,0:33:28.17,0:33:33.24,DCMain,SHINICHI,0000,0000,0000,,You haven't forgotten that I confessed \Nmy feelings to you in London—
+Dialogue: 0,0:33:48.10,0:33:51.00,DCMain,SHINICHI,0000,0000,0000,,I heard you met with Okita yesterday.
+Dialogue: 0,0:33:51.56,0:33:55.17,DCMain,SHINICHI,0000,0000,0000,,You haven't forgotten that I confessed \Nmy feelings to you in London—
+Dialogue: 0,0:34:07.72,0:34:09.61,DCMain,RAN,0000,0000,0000,,That's my answer.
+Dialogue: 0,0:34:12.44,0:34:14.61,DCMain,RAN,0000,0000,0000,,Is that not good enough?
+Dialogue: 0,0:34:14.85,0:34:15.61,DCMain,SHINICHI,0000,0000,0000,,You—
+Dialogue: 0,0:34:18.07,0:34:19.51,DCItalic,SHINICHI,0000,0000,0000,,You can't do that.
+Dialogue: 0,0:34:23.29,0:34:24.54,DCItalic,SHINICHI,0000,0000,0000,,Not on the cheek.
+Dialogue: 0,0:34:40.16,0:34:42.89,DCItalic,SHINICHI,0000,0000,0000,,Be still, my heart.
+Dialogue: 0,0:34:44.73,0:34:47.14,DCItalic,SHINICHI,0000,0000,0000,,Listen to me, just this once.
+Dialogue: 0,0:34:50.39,0:34:52.40,DCItalic,SHINICHI,0000,0000,0000,,Wait, which is this?
+Dialogue: 0,0:34:52.74,0:34:55.90,DCItalic,SHINICHI,0000,0000,0000,,Which heartbeat is this?
+Dialogue: 0,0:34:57.98,0:34:59.99,DCItalic,SHINICHI,0000,0000,0000,,Damn it! I knew it was this one!
+Dialogue: 0,0:35:01.19,0:35:01.99,DCMain,RAN,0000,0000,0000,,Shinichi?
+Dialogue: 0,0:35:02.77,0:35:07.43,DCMain,SHINICHI,0000,0000,0000,,Sorry, Ran. A case is calling me.
+Dialogue: 0,0:35:07.97,0:35:09.68,DCMain,SHINICHI,0000,0000,0000,,I'll see you later.
+Dialogue: 0,0:35:09.92,0:35:11.30,DCMain,RAN,0000,0000,0000,,Shinichi!
+Dialogue: 0,0:35:13.97,0:35:17.59,DCMain,SONOKO,0000,0000,0000,,Seriously? He even had \Nyou waiting for a kiss.
+Dialogue: 0,0:35:17.79,0:35:19.36,DCMain,RAN,0000,0000,0000,,You were watching?
+Dialogue: 0,0:35:19.36,0:35:20.62,DCMain,SONOKO,0000,0000,0000,,Well, yeah.
+Dialogue: 0,0:35:20.62,0:35:22.18,DCMain,SERA,0000,0000,0000,,What did he say?
+Dialogue: 0,0:35:22.18,0:35:27.10,DCMain,RAN,0000,0000,0000,,Huh? Oh, he said he got a call from a case.
+Dialogue: 0,0:35:28.53,0:35:31.88,DCMain,RAN,0000,0000,0000,,But he didn't look well.
+Dialogue: 0,0:35:31.88,0:35:32.35,DCMain,SERA,0000,0000,0000,,What?
+Dialogue: 0,0:35:35.76,0:35:36.40,DCMain,RAN,0000,0000,0000,,Sera-chan?
+Dialogue: 0,0:35:38.09,0:35:41.41,DCMain,MAN,0000,0000,0000,,What? A high school student \Nwho had a hard time walking?
+Dialogue: 0,0:35:41.67,0:35:45.09,DCMain,SERA,0000,0000,0000,,Yeah, a male high school \Nstudent who looks like this.
+Dialogue: 0,0:35:45.09,0:35:47.79,DCMain,SERA,0000,0000,0000,,Did he pass through the Todoroki-mon?
+Dialogue: 0,0:35:48.12,0:35:49.61,DCMain,MAN,0000,0000,0000,,I'm not sure.
+Dialogue: 0,0:35:49.61,0:35:52.94,DCMain,MAN,0000,0000,0000,,I don't look at every student \Nwho comes through here.
+Dialogue: 0,0:35:52.94,0:35:54.44,DCMain,SERA,0000,0000,0000,,I see.
+Dialogue: 0,0:35:54.44,0:35:59.21,DCMain,HEIJI,0000,0000,0000,,If you're looking for Kudo, \Nhe just went running that way.
+Dialogue: 0,0:35:59.55,0:36:02.01,DCMain,HEIJI,0000,0000,0000,,Maybe he went to the bathroom.
+Dialogue: 0,0:36:02.01,0:36:04.58,DCMain,SERA,0000,0000,0000,,Really? The bathroom?
+Dialogue: 0,0:36:06.15,0:36:08.76,DCMain,SERA,0000,0000,0000,,By the way, what's with the backpack?
+Dialogue: 0,0:36:08.76,0:36:11.22,DCMain,HEIJI,0000,0000,0000,,Why wouldn't I have a backpack?
+Dialogue: 0,0:36:11.22,0:36:13.01,DCMain,SERA,0000,0000,0000,,It looks pretty heavy.
+Dialogue: 0,0:36:13.01,0:36:14.61,DCMain,SERA,0000,0000,0000,,Can I check what's inside?
+Dialogue: 0,0:36:15.11,0:36:17.55,DCMain,HEIJI,0000,0000,0000,,Y-You idiot! I'm not showing you!
+Dialogue: 0,0:36:17.55,0:36:20.65,DCMain,HEIJI,0000,0000,0000,,I've got underwear and other \Nstuff you shouldn't see in there!
+Dialogue: 0,0:36:20.65,0:36:22.07,DCMain,SERA,0000,0000,0000,,Like porn magazines?
+Dialogue: 0,0:36:22.39,0:36:26.23,DCMain,HEIJI,0000,0000,0000,,Yeah, really filthy hardcore stuff.
+Dialogue: 0,0:36:26.91,0:36:28.24,DCMain,SERA,0000,0000,0000,,Wow.
+Dialogue: 0,0:36:28.24,0:36:30.91,DCMain,SERA,0000,0000,0000,,Huh? There's a Teitan uniform \Npoking out of your bag.
+Dialogue: 0,0:36:31.23,0:36:32.00,DCMain,HEIJI,0000,0000,0000,,What?
+Dialogue: 0,0:36:33.49,0:36:34.92,DCMain,SERA,0000,0000,0000,,Just kidding.
+Dialogue: 0,0:36:37.30,0:36:38.50,DCMain,HEIJI,0000,0000,0000,,Hey, Kudo.
+Dialogue: 0,0:36:39.04,0:36:43.40,DCMain,HEIJI,0000,0000,0000,,Are you sure that snaggle-toothed \Ngirl doesn't know your true identity?
+Dialogue: 0,0:36:43.40,0:36:45.71,DCMain,CONAN,0000,0000,0000,,Yeah, it's not good.
+Dialogue: 0,0:36:49.25,0:36:49.94,DCMain,KURAKI,0000,0000,0000,,What?
+Dialogue: 0,0:36:51.71,0:36:52.57,DCMain,KURAKI,0000,0000,0000,,Oh.
+Dialogue: 0,0:36:52.57,0:36:53.40,DCMain,SERA,0000,0000,0000,,What is it?
+Dialogue: 0,0:36:53.40,0:36:57.16,DCMain,KURAKI,0000,0000,0000,,Sorry, it's nothing. Bye.
+Dialogue: 0,0:37:01.27,0:37:02.92,DCItalic,KURAKI,0000,0000,0000,,I'm so surprised.
+Dialogue: 0,0:37:03.33,0:37:05.96,DCItalic,KURAKI,0000,0000,0000,,She's a girl after all.
+Dialogue: 0,0:37:08.64,0:37:13.25,DCMain,TEACHER,0000,0000,0000,,We just received word that \NKudo Shinichi-kun of class 2-B
+Dialogue: 0,0:37:13.25,0:37:18.71,DCMain,TEACHER,0000,0000,0000,,can't continue on the school \Ntrip due to urgent business.
+Dialogue: 0,0:37:18.71,0:37:19.93,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:37:19.93,0:37:25.76,DCMain,TEACHER,0000,0000,0000,,Also, he'd prefer to keep his \Ninvolvement in the case secret,
+Dialogue: 0,0:37:25.76,0:37:28.25,DCMain,TEACHER,0000,0000,0000,,so he asks that you not \Nmention it on social media!
+Dialogue: 0,0:37:28.25,0:37:30.11,DCMain,ALL,0000,0000,0000,,Okay...
+Dialogue: 0,0:37:30.97,0:37:35.58,DCMain,STUDENT,0000,0000,0000,,I was going to ask him about \Nthe case on the way back.
+Dialogue: 0,0:37:35.58,0:37:37.90,DCMain,STUDENT,0000,0000,0000,,I guess we can ask Sera-chan.
+Dialogue: 0,0:37:38.12,0:37:41.37,DCMain,SONOKO,0000,0000,0000,,I can't believe that wannabe \Ndetective actually left.
+Dialogue: 0,0:37:41.37,0:37:43.82,DCMain,SONOKO,0000,0000,0000,,He never gave you a kiss.
+Dialogue: 0,0:37:43.82,0:37:45.90,DCMain,RAN,0000,0000,0000,,Don't say that!
+Dialogue: 0,0:37:46.49,0:37:51.05,DCMain,RAN,0000,0000,0000,,Also, Shinichi knew that \NI met with Okita-kun.
+Dialogue: 0,0:37:51.05,0:37:55.91,DCMain,SONOKO,0000,0000,0000,,I sent Shinichi-kun a picture \Nof your clandestine meeting.
+Dialogue: 0,0:37:57.84,0:38:01.14,DCMain,SONOKO,0000,0000,0000,,So, what were you two talking about?
+Dialogue: 0,0:38:01.14,0:38:04.21,DCMain,RAN,0000,0000,0000,,We were talking after I \Ndelivered something to him.
+Dialogue: 0,0:38:05.17,0:38:08.20,DCItalic,RAN,0000,0000,0000,,Detective Sato gave me this good luck charm.
+Dialogue: 0,0:38:08.71,0:38:11.63,DCItalic,RAN,0000,0000,0000,,She said you dropped it \Nduring the kendo tournament.
+Dialogue: 0,0:38:11.63,0:38:15.68,DCItalic,OKITA,0000,0000,0000,,I've been looking for this. Thanks.
+Dialogue: 0,0:38:16.02,0:38:18.05,DCItalic,RAN,0000,0000,0000,,A-Anyway, so...
+Dialogue: 0,0:38:18.05,0:38:22.23,DCItalic,RAN,0000,0000,0000,,I left that charm on the desk \Nat the detective agency,
+Dialogue: 0,0:38:22.49,0:38:24.09,DCItalic,RAN,0000,0000,0000,,and my dad...
+Dialogue: 0,0:38:24.77,0:38:26.61,DCItalic,KOGORO,0000,0000,0000,,What's this good luck charm?
+Dialogue: 0,0:38:27.11,0:38:28.52,DCItalic,KOGORO,0000,0000,0000,,Is it Ran's?
+Dialogue: 0,0:38:29.99,0:38:31.49,DCItalic,KOGORO,0000,0000,0000,,There's something inside.
+Dialogue: 0,0:38:32.21,0:38:36.20,DCItalic,KOGORO,0000,0000,0000,,It's probably a picture of \Nthat detective kid or...
+Dialogue: 0,0:38:36.20,0:38:37.06,DCItalic,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:38:37.06,0:38:39.50,DCItalic,RAN,0000,0000,0000,,Dad, what are you looking at?
+Dialogue: 0,0:38:40.04,0:38:41.42,DCItalic,OKITA,0000,0000,0000,,You looked at the picture?
+Dialogue: 0,0:38:41.72,0:38:44.40,DCItalic,RAN,0000,0000,0000,,Yes, I wasn't thinking.
+Dialogue: 0,0:38:44.40,0:38:46.42,DCItalic,RAN,0000,0000,0000,,Anyway, um...
+Dialogue: 0,0:38:47.16,0:38:52.68,DCItalic,RAN,0000,0000,0000,,Is that girl in the photo your girlfriend?
+Dialogue: 0,0:38:52.68,0:38:53.43,DCItalic,OKITA,0000,0000,0000,,What?
+Dialogue: 0,0:38:53.67,0:38:56.54,DCItalic,RAN,0000,0000,0000,,I got curious,
+Dialogue: 0,0:38:56.54,0:38:59.38,DCItalic,RAN,0000,0000,0000,,so I thought I'd ask when I saw you.
+Dialogue: 0,0:38:59.38,0:39:01.95,DCItalic,OKITA,0000,0000,0000,,No, she's not my girlfriend.
+Dialogue: 0,0:39:01.95,0:39:04.19,DCItalic,OKITA,0000,0000,0000,,Not now, anyway.
+Dialogue: 0,0:39:04.53,0:39:07.57,DCItalic,RAN,0000,0000,0000,,You like her, then?
+Dialogue: 0,0:39:07.57,0:39:09.33,DCItalic,RAN,0000,0000,0000,,I think you'd make a good couple.
+Dialogue: 0,0:39:10.61,0:39:14.27,DCItalic,OKITA,0000,0000,0000,,She's my rival's sister.
+Dialogue: 0,0:39:14.27,0:39:18.58,DCItalic,OKITA,0000,0000,0000,,I can't tell her how I feel until I beat him.
+Dialogue: 0,0:39:18.58,0:39:20.01,DCItalic,RAN,0000,0000,0000,,Really?
+Dialogue: 0,0:39:20.01,0:39:23.50,DCItalic,OKITA,0000,0000,0000,,Don't tell tits over there about this.
+Dialogue: 0,0:39:23.50,0:39:24.50,DCItalic,RAN,0000,0000,0000,,Tits?
+Dialogue: 0,0:39:24.50,0:39:28.28,DCItalic,OKITA,0000,0000,0000,,I'll never hear the end \Nof it if she finds out.
+Dialogue: 0,0:39:28.77,0:39:31.26,DCMain,RAN,0000,0000,0000,,That's all we talked about.
+Dialogue: 0,0:39:31.44,0:39:32.70,DCMain,SONOKO,0000,0000,0000,,Really?
+Dialogue: 0,0:39:32.70,0:39:34.79,DCMain,SONOKO,0000,0000,0000,,So you weren't cheating with his doppelganger
+Dialogue: 0,0:39:34.79,0:39:37.77,DCMain,SONOKO,0000,0000,0000,,because you were frustrated \Nwith your unreliable husband?
+Dialogue: 0,0:39:37.77,0:39:39.39,DCMain,RAN,0000,0000,0000,,It's not cheating.
+Dialogue: 0,0:39:39.59,0:39:44.13,DCMain,SONOKO,0000,0000,0000,,Thanks to that photo, you nearly got to kiss.
+Dialogue: 0,0:39:44.13,0:39:46.02,DCMain,SONOKO,0000,0000,0000,,You should be grateful.
+Dialogue: 0,0:39:46.02,0:39:47.31,DCMain,RAN,0000,0000,0000,,Listen here...
+Dialogue: 0,0:39:47.31,0:39:48.65,DCMain,NAKAMICHI,0000,0000,0000,,Hey, Mori.
+Dialogue: 0,0:39:49.51,0:39:52.78,DCMain,NAKAMICHI,0000,0000,0000,,H-How did it feel to k-kiss him?
+Dialogue: 0,0:39:53.00,0:39:54.01,DCMain,RAN,0000,0000,0000,,How did it feel?
+Dialogue: 0,0:39:54.01,0:39:57.04,DCMain,SONOKO,0000,0000,0000,,Aren't you asking the wrong person?
+Dialogue: 0,0:39:57.40,0:40:00.77,DCItalic,RAN,0000,0000,0000,,I only kissed him on the cheek.
+Dialogue: 0,0:40:01.25,0:40:02.84,DCItalic,RAN,0000,0000,0000,,It was only on the cheek,
+Dialogue: 0,0:40:02.84,0:40:06.60,DCItalic,RAN,0000,0000,0000,,but I kissed him like I was ready \Nto leap from the Kiyomizu butai.
+Dialogue: 0,0:40:08.28,0:40:09.34,DCItalic,RAN,0000,0000,0000,,But he...
+Dialogue: 0,0:40:14.09,0:40:15.72,DCItalic,RAN,0000,0000,0000,,It's from Shinichi.
+Dialogue: 0,0:40:18.06,0:40:31.95,FromKudo,TEXT,0000,0000,0000,,From: Kudo Shinichi \NSubject: No subject
+Dialogue: 0,0:40:18.48,0:40:20.24,DCItalic,SHINICHI,0000,0000,0000,,Sorry, Ran.
+Dialogue: 0,0:40:20.24,0:40:22.64,DCItalic,SHINICHI,0000,0000,0000,,I wish I could've stayed \Nwith you a little longer,
+Dialogue: 0,0:40:22.64,0:40:24.81,DCItalic,SHINICHI,0000,0000,0000,,but it didn't work out that way.
+Dialogue: 0,0:40:25.50,0:40:29.66,DCItalic,SHINICHI,0000,0000,0000,,But I'm really glad I got to hear \Nyour response to my confession.
+Dialogue: 0,0:40:30.10,0:40:31.19,DCItalic,SHINICHI,0000,0000,0000,,Thanks.
+Dialogue: 0,0:40:33.35,0:40:34.49,DCItalic,RAN,0000,0000,0000,,Jeez.
+Dialogue: 0,0:40:35.14,0:40:37.57,DCItalic,RAN,0000,0000,0000,,I guess I'll forgive him.
+Dialogue: 0,0:40:38.41,0:40:39.24,DCMain,SERA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:40:39.68,0:40:44.96,DCMain,SERA,0000,0000,0000,,There seems to be a medicine \Nthat can restore your body, Mom.
+Dialogue: 0,0:40:45.63,0:40:49.14,DCMain,MARY,0000,0000,0000,,Then we'll do whatever it takes to \Nfind the inventor of this medicine,
+Dialogue: 0,0:40:49.59,0:40:50.99,DCMain,MARY,0000,0000,0000,,and obtain the medicine itself.
+Dialogue: 0,0:40:51.59,0:40:55.25,DCMain,MARY,0000,0000,0000,,Once I'm back in my old body, \Nno more running around.
+Dialogue: 0,0:40:57.52,0:40:59.14,DCMain,MARY,0000,0000,0000,,We'll begin our counterattack.
+Dialogue: 0,0:40:59.46,0:41:01.40,DCItalic,MARY,0000,0000,0000,,Don't mess this up, Masumi.
+Dialogue: 0,0:41:10.98,0:41:13.40,DCMain,HEIJI,0000,0000,0000,,Don't play with your phone \Nwhile we're driving.
+Dialogue: 0,0:41:13.40,0:41:14.74,DCMain,HEIJI,0000,0000,0000,,It's dangerous.
+Dialogue: 0,0:41:14.74,0:41:16.34,DCMain,CONAN,0000,0000,0000,,I'm just going to look.
+Dialogue: 0,0:41:16.66,0:41:23.41,From,TEXT,0000,0000,0000,,From: Ran
+Dialogue: 0,0:41:16.66,0:41:23.41,Subject,TEXT,0000,0000,0000,,Subject: Thanks for the message
+Dialogue: 0,0:41:17.26,0:41:18.78,DCItalic,RAN,0000,0000,0000,,Thanks for the message.
+Dialogue: 0,0:41:19.27,0:41:23.41,DCItalic,RAN,0000,0000,0000,,This means we're dating, right?
+Dialogue: 0,0:41:23.79,0:41:26.49,DCItalic,CONAN,0000,0000,0000,,Oh, man. I wish I could respond right now.
+Dialogue: 0,0:41:26.49,0:41:28.42,DCMain,HEIJI,0000,0000,0000,,Anyway, I really panicked.
+Dialogue: 0,0:41:28.87,0:41:34.42,DCMain,HEIJI,0000,0000,0000,,I had to stuff you into my bag while \Nyou were shrinking before my eyes.
+Dialogue: 0,0:41:34.72,0:41:37.68,DCMain,HEIJI,0000,0000,0000,,You should've told me before it happened.
+Dialogue: 0,0:41:38.13,0:41:41.24,DCMain,CONAN,0000,0000,0000,,It wasn't so easy for me, either.
+Dialogue: 0,0:41:41.64,0:41:42.68,DCMain,HEIJI,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:41:42.98,0:41:45.44,DCMain,CONAN,0000,0000,0000,,I-If you weren't watching, \Ndon't worry about it.
+Dialogue: 0,0:41:45.86,0:41:48.20,DCMain,HEIJI,0000,0000,0000,,Yeah, I didn't see anything.
+Dialogue: 0,0:41:48.20,0:41:53.69,DCMain,HEIJI,0000,0000,0000,,I {\i1}definitely{\i0} didn't see you and that \Ngirl smooching at the Kiyomizu butai.
+Dialogue: 0,0:41:53.69,0:41:55.88,DCMain,CONAN,0000,0000,0000,,So you were watching!
+Dialogue: 0,0:41:55.88,0:41:59.20,DCMain,CONAN,0000,0000,0000,,{\an8}Listen, it was in the spur of the moment...
+Dialogue: 0,0:41:57.46,0:41:58.27,DCItalic,HEIJI,0000,0000,0000,,Damn it.
+Dialogue: 0,0:41:58.27,0:42:03.24,DCItalic,HEIJI,0000,0000,0000,,The Kiyomizu butai was next on my list of \Nbreathtaking places to confess my feelings.
+Dialogue: 0,0:42:03.91,0:42:05.96,DCItalic,HEIJI,0000,0000,0000,,And they even kissed?
+Dialogue: 0,0:42:07.73,0:42:08.96,DCItalic,HEIJI,0000,0000,0000,,Damn it.
+Dialogue: 0,0:42:09.52,0:42:11.67,DCItalic,HEIJI,0000,0000,0000,,Making things harder when he doesn't need to.
+Dialogue: 0,0:43:34.82,0:43:37.42,DCMain,YUKIKO,0000,0000,0000,,It's all over the news here, too.
+Dialogue: 0,0:43:37.73,0:43:39.30,DCMain,YUSAKU,0000,0000,0000,,Of course it is.
+Dialogue: 0,0:43:39.30,0:43:42.80,DCMain,YUSAKU,0000,0000,0000,,The victims and the killer were famous.
+Dialogue: 0,0:43:43.17,0:43:44.67,DCMain,YUKIKO,0000,0000,0000,,I'm surprised, though.
+Dialogue: 0,0:43:44.67,0:43:49.72,DCMain,YUKIKO,0000,0000,0000,,The killer's motive was the suicide \Nof the man Kyoko-chan loved.
+Dialogue: 0,0:43:49.72,0:43:50.44,DCMain,YUSAKU,0000,0000,0000,,Yeah.
+Dialogue: 0,0:43:50.84,0:43:54.94,DCMain,YUKIKO,0000,0000,0000,,By the way, how did you know \NDekuri Michio-kun's name?
+Dialogue: 0,0:43:55.30,0:43:56.88,DCMain,YUSAKU,0000,0000,0000,,From the movie poster.
+Dialogue: 0,0:43:56.88,0:43:57.59,DCMain,YUKIKO,0000,0000,0000,,What?
+Dialogue: 0,0:43:59.00,0:44:02.50,DCMain,YUKIKO,0000,0000,0000,,Dekuri-kun's name wasn't on the poster.
+Dialogue: 0,0:44:05.35,0:44:11.58,DCMain,YUSAKU,0000,0000,0000,,I thought there might be some reason \Nyour actress friend changed her name.
+Dialogue: 0,0:44:11.58,0:44:17.59,Credits,TEXT,0000,0000,0000,,Director: Mayama Mineto \NScript: Nishiki Tarobo \NActor: Ihaya Shinya \NSupporting Actress: Kurachi Keiko \NMusic: Agata Riki
+Dialogue: 0,0:44:12.26,0:44:17.59,DCMain,YUSAKU,0000,0000,0000,,If you cover the top and bottom of \Nthese unevenly spaced characters...
+Dialogue: 0,0:44:19.72,0:44:21.09,DCMain,YUKIKO,0000,0000,0000,,Oh, you're right.
+Dialogue: 0,0:44:21.09,0:44:25.10,Dekuri2,TEXT,0000,0000,0000,,Dekuri Michio
+Dialogue: 0,0:44:21.73,0:44:23.94,DCMain,YUKIKO,0000,0000,0000,,It says Dekuri Michio.
+Dialogue: 0,0:44:25.71,0:44:29.84,DCMain,YUSAKU,0000,0000,0000,,Since the poster was made \Nafter the first screening,
+Dialogue: 0,0:44:29.84,0:44:33.44,DCMain,YUSAKU,0000,0000,0000,,it's possible Dekuri-kun \Nwouldn't have killed himself
+Dialogue: 0,0:44:33.44,0:44:37.74,DCMain,YUSAKU,0000,0000,0000,,and Agata-kun wouldn't have killed \Nanybody if they'd seen it.
+Dialogue: 0,0:44:37.74,0:44:38.61,DCMain,YUKIKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:44:39.15,0:44:45.49,DCMain,YUSAKU,0000,0000,0000,,The problem is how Shinichi, \Nthe boy who shouldn't exist,
+Dialogue: 0,0:44:45.85,0:44:48.99,DCMain,YUSAKU,0000,0000,0000,,somehow solved this internationally \Nnewsworthy case.
+Dialogue: 0,0:44:49.43,0:44:54.98,DCMain,YUSAKU,0000,0000,0000,,They're still only reporting that the case was \Nsolved by a group of high school detectives, though.
+Dialogue: 0,0:44:54.98,0:44:56.73,DCMain,YUKIKO,0000,0000,0000,,It'll be fine.
+Dialogue: 0,0:44:56.73,0:44:59.00,DCMain,YUKIKO,0000,0000,0000,,Shin-chan's really thorough \Nwhen it comes to that.
+Dialogue: 0,0:44:59.20,0:45:01.17,DCMain,YUKIKO,0000,0000,0000,,I'm sure he asked them to keep it secret.
+Dialogue: 0,0:45:02.76,0:45:05.76,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:45:06.27,0:45:07.69,DCMain,RAN,0000,0000,0000,,I'm home!
+Dialogue: 0,0:45:08.18,0:45:09.06,DCMain,RAN,0000,0000,0000,,Great...
+Dialogue: 0,0:45:11.38,0:45:14.57,DCItalic,RAN,0000,0000,0000,,Your daughter's back from her school trip.
+Dialogue: 0,0:45:14.57,0:45:16.44,DCItalic,RAN,0000,0000,0000,,You should be welcoming her home.
+Dialogue: 0,0:45:18.27,0:45:19.99,DCItalic,RAN,0000,0000,0000,,Is Conan-kun upstairs?
+Dialogue: 0,0:45:23.53,0:45:28.24,NoMessages,TEXT,0000,0000,0000,,No new messages
+Dialogue: 0,0:45:23.84,0:45:25.46,DCItalic,RAN,0000,0000,0000,,He still hasn't responded.
+Dialogue: 0,0:45:26.07,0:45:29.67,DCItalic,RAN,0000,0000,0000,,Did Shinichi read my message?
+Dialogue: 0,0:45:30.99,0:45:33.50,Dating,TEXT,0000,0000,0000,,This means we're \Ndating, right? \NRan
+Dialogue: 0,0:45:34.10,0:45:36.37,DCMain,HEIJI,0000,0000,0000,,Are you listening, Kudo?
+Dialogue: 0,0:45:36.78,0:45:39.38,DCMain,HEIJI,0000,0000,0000,,When we get to Tokyo, \Nyou're buying me a steak.
+Dialogue: 0,0:45:39.82,0:45:40.55,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:45:40.55,0:45:42.24,DCMain,HEIJI,0000,0000,0000,,Not a cheap one, either.
+Dialogue: 0,0:45:42.24,0:45:46.36,DCMain,HEIJI,0000,0000,0000,,One oozing with juices and, you know...
+Dialogue: 0,0:45:48.30,0:45:49.89,DCMain,HEIJI,0000,0000,0000,,A really, really good one.
+Dialogue: 0,0:45:50.18,0:45:51.56,DCMain,CONAN,0000,0000,0000,,I know.
+Dialogue: 0,0:45:51.56,0:45:53.64,DCMain,CONAN,0000,0000,0000,,I'll treat you. Don't worry about it.
+Dialogue: 0,0:45:55.60,0:45:58.88,DCMain,HEIJI,0000,0000,0000,,I shouldn't have offered \Nto take you back to Tokyo.
+Dialogue: 0,0:45:58.06,0:45:59.02,Preview,TEXT,0000,0000,0000,,Preview   Send
+Dialogue: 0,0:45:59.02,0:45:59.40,Sending,TEXT,0000,0000,0000,,Sending
+Dialogue: 0,0:46:05.99,0:46:07.03,DCItalic,RAN,0000,0000,0000,,A message.
+Dialogue: 0,0:46:08.74,0:46:09.91,DCItalic,RAN,0000,0000,0000,,From Shinichi?
+Dialogue: 0,0:46:16.16,0:46:18.42,FromKudo,TEXT,0000,0000,0000,,From: Kudo Shinichi \NSubject: Idiot \NOf course we're dating. \NShinichi
+Dialogue: 0,0:46:33.00,0:46:36.67,DCItalic,RAN,0000,0000,0000,,This means we're dating, right?
+Dialogue: 0,0:46:36.67,0:46:40.59,DCItalic,SHINICHI,0000,0000,0000,,Of course we're dating.

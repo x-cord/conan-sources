@@ -1,0 +1,450 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: Shozo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00815978,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0070,0068,0
+Style: Shigeo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00601D33,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0040,0068,0
+Style: Shoji,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006D384E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0460,0010,0068,0
+Style: Yasutaro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A56253,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0145,0068,0
+Style: Party,Times New Roman,22,&H002E3F4D,&H000000FF,&H00E5E5EE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0010,0015,0
+Style: Site,Trebuchet MS,18,&H00373A5E,&H000000FF,&H009CB4D2,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0040,0010,0015,0
+Style: Cave,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00663C3A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: Hours,Trebuchet MS,22,&H00554A4C,&H000000FF,&H00F9FCFC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0010,0020,0120,0
+Style: Voice,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00561E35,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0062,0
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0100,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:02.22,0:00:04.98,DCMain,SHIMOMURA,0000,0000,0000,,That's in the opposite direction.
+Dialogue: 0,0:00:05.17,0:00:07.83,DCMain,KOGORO,0000,0000,0000,,Jeez, what are we going to do?
+Dialogue: 0,0:00:07.83,0:00:10.61,DCMain,KOGORO,0000,0000,0000,,We could head back, but \Nthe sun's about to set.
+Dialogue: 0,0:00:10.61,0:00:13.86,DCMain,RAN,0000,0000,0000,,Is there someplace nearby where \Nwe could spend the night?
+Dialogue: 0,0:00:13.90,0:00:16.87,Shozo,TEXT,0000,0000,0000,,{\fad(250,1)}Shimomura Shozo (62) \NLocal Historian
+Dialogue: 0,0:00:14.54,0:00:16.87,DCMain,SHIMOMURA,0000,0000,0000,,{\an8}There's a guest house at \Nthe bottom of the mountain.
+Dialogue: 0,0:00:17.46,0:00:19.12,DCMain,RAN,0000,0000,0000,,Let's stay there!
+Dialogue: 0,0:00:19.52,0:00:21.47,DCMain,RAN,0000,0000,0000,,Thank you very much.
+Dialogue: 0,0:00:21.47,0:00:22.82,DCMain,SHIMOMURA,0000,0000,0000,,No need to thank me.
+Dialogue: 0,0:00:26.67,0:00:28.50,DCMain,KOGORO,0000,0000,0000,,Wh-What was that sound?
+Dialogue: 0,0:00:29.16,0:00:31.26,DCMain,SHIMOMURA,0000,0000,0000,,The voice of the tengu.
+Dialogue: 0,0:00:33.64,0:00:35.50,DCMain,CONAN,0000,0000,0000,,A canvas stained black with crime.
+Dialogue: 0,0:00:35.50,0:00:37.57,DCMain,CONAN,0000,0000,0000,,With brilliant detective \Nskills, its color is changed!
+Dialogue: 0,0:00:37.96,0:00:39.93,DCMain,CONAN,0000,0000,0000,,Everyone heard the eerie moan.
+Dialogue: 0,0:00:40.13,0:00:42.27,DCMain,CONAN,0000,0000,0000,,The secret of the tengu marks \Nthe start of a new case.
+Dialogue: 0,0:00:42.48,0:00:46.06,DCMain,CONAN,0000,0000,0000,,Always determining the one truth with the \Nbody of a child and the mind of an adult,
+Dialogue: 0,0:00:46.06,0:00:48.86,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:28.00,0:02:34.00,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(398,1)}You Can Hear the Tengu's Voice
+Dialogue: 0,0:02:28.87,0:02:31.27,DCMain,CONAN,0000,0000,0000,,"You Can Hear the Tengu's Voice!"
+Dialogue: 0,0:02:37.79,0:02:39.38,DCMain,RAN,0000,0000,0000,,It's so pretty.
+Dialogue: 0,0:02:42.00,0:02:43.97,DCMain,IMAZU,0000,0000,0000,,Where's the money coming from?!
+Dialogue: 0,0:02:44.28,0:02:45.97,DCMain,MAYAMA,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:02:46.02,0:02:49.69,Shigeo,TEXT,0000,0000,0000,,{\fad(250,250)}Imazu Shigeo (51) \NBuilding Contractor
+Dialogue: 0,0:02:46.21,0:02:49.58,DCMain,IMAZU,0000,0000,0000,,{\an8}I'm talking about the money \Nnot listed on the statement!
+Dialogue: 0,0:02:49.58,0:02:51.39,DCMain,MAYAMA,0000,0000,0000,,There's no such money.
+Dialogue: 0,0:02:50.44,0:02:55.02,Shoji,TEXT,0000,0000,0000,,{\fad(250,250)}Mayama Shoji (44) \NMayor
+Dialogue: 0,0:02:51.39,0:02:53.22,DCMain,MAYAMA,0000,0000,0000,,If you don't stop making things up,
+Dialogue: 0,0:02:53.22,0:02:55.98,DCMain,MAYAMA,0000,0000,0000,,I'll sue you for slander, Imazu.
+Dialogue: 0,0:02:57.94,0:02:59.57,DCMain,IMAZU,0000,0000,0000,,I'd like to see you try!
+Dialogue: 0,0:03:05.81,0:03:07.66,DCMain,MAYAMA,0000,0000,0000,,What a loser.
+Dialogue: 0,0:03:10.08,0:03:13.08,DCMain,KOGORO,0000,0000,0000,,Man, the water was great!
+Dialogue: 0,0:03:13.08,0:03:14.23,DCMain,RAN,0000,0000,0000,,I know.
+Dialogue: 0,0:03:14.23,0:03:16.03,DCMain,CONAN,0000,0000,0000,,I'm hungry.
+Dialogue: 0,0:03:16.03,0:03:17.40,DCMain,KOGORO,0000,0000,0000,,Hey, that's him.
+Dialogue: 0,0:03:17.40,0:03:18.76,DCMain,KOGORO,0000,0000,0000,,Thank you for earlier.
+Dialogue: 0,0:03:18.76,0:03:20.70,DCMain,SHIMOMURA,0000,0000,0000,,Oh, no problem.
+Dialogue: 0,0:03:21.88,0:03:24.50,DCMain,HIRARI,0000,0000,0000,,Ah, Sensei. In here.
+Dialogue: 0,0:03:24.50,0:03:25.24,DCMain,SHIMOMURA,0000,0000,0000,,Got it.
+Dialogue: 0,0:03:30.64,0:03:34.15,Party,SIGN,0000,0000,0000,,Shimomura-sensei \NPublishing Party
+Dialogue: 0,0:03:35.46,0:03:37.34,DCMain,KOGORO,0000,0000,0000,,He's an author, huh?
+Dialogue: 0,0:03:37.34,0:03:39.75,DCMain,HIRAI,0000,0000,0000,,Sensei, do you have anything \Nyou'd like to say?
+Dialogue: 0,0:03:42.91,0:03:55.50,Site,,0000,0000,0000,,Tengu Inn
+Dialogue: 0,0:03:43.84,0:03:45.41,DCMain,KOGORO,0000,0000,0000,,9:50, huh?
+Dialogue: 0,0:03:45.41,0:03:48.22,DCMain,KOGORO,0000,0000,0000,,There's still an hour before the bus comes.
+Dialogue: 0,0:03:48.22,0:03:50.06,DCMain,RAN,0000,0000,0000,,Dad, Conan-kun.
+Dialogue: 0,0:03:50.06,0:03:51.84,DCMain,RAN,0000,0000,0000,,Apparently there's a cave nearby.
+Dialogue: 0,0:03:51.84,0:03:52.92,DCMain,RAN,0000,0000,0000,,Do you want to go check it out?
+Dialogue: 0,0:03:53.24,0:03:55.50,DCMain,KOGORO,0000,0000,0000,,I guess. We don't have anything else to do.
+Dialogue: 0,0:03:55.50,0:03:58.00,Cave,SIGN,0000,0000,0000,,Kokushu Historical Site\N{\fs28\c&H5B3DB5&}Welcome to the Tengu Cave
+Dialogue: 0,0:03:58.29,0:04:01.23,DCMain,RAN,0000,0000,0000,,It's a good thing the guest house was \Nwilling to hold onto our bags for us.
+Dialogue: 0,0:04:01.23,0:04:01.97,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:01.97,0:04:03.76,DCMain,CONAN,0000,0000,0000,,Hey, isn't that it?
+Dialogue: 0,0:04:04.22,0:04:06.58,DCMain,KOGORO,0000,0000,0000,,Let's see. What does it say?
+Dialogue: 0,0:04:09.90,0:04:10.77,DCMain,KOGORO,0000,0000,0000,,What's this?
+Dialogue: 0,0:04:11.86,0:04:13.30,DCMain,KOGORO,0000,0000,0000,,Oh, excuse me.
+Dialogue: 0,0:04:13.30,0:04:14.67,DCMain,IMAZU,0000,0000,0000,,I-It's fine.
+Dialogue: 0,0:04:16.46,0:04:19.04,DCMain,KOGORO,0000,0000,0000,,What was he doing back there?
+Dialogue: 0,0:04:19.42,0:04:21.12,DCMain,CONAN,0000,0000,0000,,It's closed.
+Dialogue: 0,0:04:21.12,0:04:21.85,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:04:24.37,0:04:25.88,DCMain,HIRAI,0000,0000,0000,,Oh, I'm sorry!
+Dialogue: 0,0:04:26.30,0:04:27.70,DCMain,HIRAI,0000,0000,0000,,Let me open that for you.
+Dialogue: 0,0:04:29.20,0:04:37.96,Hours,SIGN,0000,0000,0000,,Visiting Hours \N10 AM to 5 PM
+Dialogue: 0,0:04:29.24,0:04:32.04,Yasutaro,TEXT,0000,0000,0000,,{\fad(250,1)}Hirai Yasutaro (29) \NTourism Department Employee
+Dialogue: 0,0:04:29.65,0:04:32.36,DCMain,HIRAI,0000,0000,0000,,{\an8}This place opens at ten.
+Dialogue: 0,0:04:34.90,0:04:36.79,DCMain,HIRAI,0000,0000,0000,,Come in.
+Dialogue: 0,0:04:47.30,0:04:48.30,DCMain,HIRAI,0000,0000,0000,,Good.
+Dialogue: 0,0:04:48.92,0:04:49.86,DCMain,HIRAI,0000,0000,0000,,Good.
+Dialogue: 0,0:04:50.32,0:04:51.28,DCMain,HIRAI,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:51.76,0:04:53.02,DCMain,CONAN,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:04:53.02,0:04:54.73,DCMain,HIRAI,0000,0000,0000,,The mask is missing.
+Dialogue: 0,0:04:57.19,0:04:58.98,DCMain,RAN,0000,0000,0000,,Is this video of the inside?
+Dialogue: 0,0:04:59.40,0:05:00.44,DCMain,HIRAI,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:00.44,0:05:03.74,DCMain,HIRAI,0000,0000,0000,,The passages are narrow, so it's for \Npeople unable to go deep inside the cave.
+Dialogue: 0,0:05:04.04,0:05:05.76,DCMain,RAN,0000,0000,0000,,Look, Conan-kun.
+Dialogue: 0,0:05:06.43,0:05:08.99,DCMain,RAN,0000,0000,0000,,There's a shrine in the middle of the cliff.
+Dialogue: 0,0:05:09.43,0:05:11.03,DCMain,HIRAI,0000,0000,0000,,It's called the Tengu's Shrine, and—
+Dialogue: 0,0:05:11.03,0:05:12.78,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:13.46,0:05:14.25,DCMain,CONAN,0000,0000,0000,,What is that?
+Dialogue: 0,0:05:17.10,0:05:19.25,DCMain,RAN,0000,0000,0000,,H-He's hanging from his neck...
+Dialogue: 0,0:05:19.47,0:05:20.26,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:05:21.80,0:05:22.92,DCMain,HIRAI,0000,0000,0000,,It's an emergency!
+Dialogue: 0,0:05:23.91,0:05:25.07,DCMain,CONAN,0000,0000,0000,,He fell!
+Dialogue: 0,0:05:25.41,0:05:26.30,DCMain,KOGORO,0000,0000,0000,,Let's head inside! Quickly!
+Dialogue: 0,0:05:29.70,0:05:31.79,DCMain,HIRAI,0000,0000,0000,,Watch your heads.
+Dialogue: 0,0:05:31.79,0:05:32.60,DCMain,KOGORO,0000,0000,0000,,Ow!
+Dialogue: 0,0:05:32.89,0:05:34.70,DCMain,RAN,0000,0000,0000,,Are you okay, Dad?
+Dialogue: 0,0:05:35.30,0:05:36.44,DCMain,KOGORO,0000,0000,0000,,Ow...
+Dialogue: 0,0:05:36.44,0:05:38.60,DCMain,CONAN,0000,0000,0000,,This certainly is a narrow passage.
+Dialogue: 0,0:05:40.58,0:05:42.11,DCMain,KOGORO,0000,0000,0000,,We're out.
+Dialogue: 0,0:05:43.54,0:05:44.44,DCMain,KOGORO,0000,0000,0000,,It's over there.
+Dialogue: 0,0:06:01.20,0:06:03.04,DCMain,HIRAI,0000,0000,0000,,Th-The mayor!
+Dialogue: 0,0:06:03.48,0:06:04.61,DCMain,KOGORO,0000,0000,0000,,There's no pulse.
+Dialogue: 0,0:06:04.61,0:06:05.94,DCMain,KOGORO,0000,0000,0000,,He's dead.
+Dialogue: 0,0:06:05.94,0:06:07.97,DCMain,KOGORO,0000,0000,0000,,Ran, call the police.
+Dialogue: 0,0:06:07.97,0:06:08.72,DCMain,RAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:09.67,0:06:11.24,DCMain,HIRAI,0000,0000,0000,,There's no service here.
+Dialogue: 0,0:06:11.24,0:06:13.04,DCMain,HIRAI,0000,0000,0000,,We'll have to return to the guest house.
+Dialogue: 0,0:06:13.04,0:06:14.39,DCMain,RAN,0000,0000,0000,,Got it.
+Dialogue: 0,0:06:24.40,0:06:27.04,DCMain,KOGORO,0000,0000,0000,,This is probably what happened.
+Dialogue: 0,0:06:27.04,0:06:30.06,DCMain,KOGORO,0000,0000,0000,,The mayor strung a rope on the \Nshrine and hung himself,
+Dialogue: 0,0:06:30.06,0:06:33.73,DCMain,KOGORO,0000,0000,0000,,but unable to withstand the weight, it broke.
+Dialogue: 0,0:06:33.73,0:06:37.50,DCMain,KOGORO,0000,0000,0000,,That place is really high \Noff the ground, though.
+Dialogue: 0,0:06:38.26,0:06:39.62,DCMain,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:06:40.54,0:06:41.86,DCMain,HIRAI,0000,0000,0000,,It's scaffolding.
+Dialogue: 0,0:06:44.04,0:06:47.34,DCMain,HIRAI,0000,0000,0000,,You used to be able to go \Nright up under the shrine.
+Dialogue: 0,0:06:47.67,0:06:50.34,DCMain,KOGORO,0000,0000,0000,,But it's been disassembled.
+Dialogue: 0,0:06:50.76,0:06:53.73,DCMain,HIRAI,0000,0000,0000,,It was here when I came yesterday morning.
+Dialogue: 0,0:06:53.73,0:06:55.85,DCMain,HIRAI,0000,0000,0000,,I wonder who took it apart?
+Dialogue: 0,0:06:56.76,0:06:59.78,DCMain,KOGORO,0000,0000,0000,,Can you get up there without the scaffolding?
+Dialogue: 0,0:07:02.02,0:07:02.97,DCMain,KOGORO,0000,0000,0000,,Oof.
+Dialogue: 0,0:07:08.87,0:07:10.09,DCMain,KOGORO,0000,0000,0000,,This won't work.
+Dialogue: 0,0:07:10.09,0:07:11.42,DCMain,KOGORO,0000,0000,0000,,It's impossible to climb.
+Dialogue: 0,0:07:12.37,0:07:14.34,DCMain,SHIMOMURA,0000,0000,0000,,There's a trick to it.
+Dialogue: 0,0:07:15.98,0:07:17.45,DCMain,HIRAI,0000,0000,0000,,Shimomura-sensei.
+Dialogue: 0,0:07:19.70,0:07:21.53,DCMain,KOGORO,0000,0000,0000,,We meet again.
+Dialogue: 0,0:07:21.92,0:07:25.46,DCMain,KOGORO,0000,0000,0000,,But even if there is a trick, this cliff...
+Dialogue: 0,0:07:26.12,0:07:28.00,DCMain,SHIMOMURA,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:07:28.00,0:07:29.42,DCMain,HIRAI,0000,0000,0000,,It's the mayor.
+Dialogue: 0,0:07:29.42,0:07:30.95,DCMain,HIRAI,0000,0000,0000,,He's dead.
+Dialogue: 0,0:07:33.38,0:07:35.47,DCMain,SHIMOMURA,0000,0000,0000,,Speaking of this cliff, Hirai-kun,
+Dialogue: 0,0:07:35.47,0:07:38.97,DCMain,SHIMOMURA,0000,0000,0000,,you boys used to climb up to the \Nshrine all the time, didn't you?
+Dialogue: 0,0:07:38.97,0:07:42.65,DCMain,HIRAI,0000,0000,0000,,Yes, and you'd always scold us for it.
+Dialogue: 0,0:07:42.65,0:07:45.48,DCMain,CONAN,0000,0000,0000,,What kind of sensei are you?
+Dialogue: 0,0:07:45.48,0:07:47.36,DCMain,HIRAI,0000,0000,0000,,He's a teacher at a school.
+Dialogue: 0,0:07:47.36,0:07:49.07,DCMain,HIRAI,0000,0000,0000,,A principal.
+Dialogue: 0,0:07:49.48,0:07:52.29,DCMain,HIRAI,0000,0000,0000,,Since he retired two years ago,
+Dialogue: 0,0:07:52.29,0:07:55.57,DCMain,HIRAI,0000,0000,0000,,he's been continuing his life's \Nwork of researching the tengu.
+Dialogue: 0,0:07:55.84,0:07:58.41,DCMain,CONAN,0000,0000,0000,,Is the book you published \Nabout the tengu, too?
+Dialogue: 0,0:07:58.80,0:08:02.07,DCMain,SHIMOMURA,0000,0000,0000,,My former students paid for it.
+Dialogue: 0,0:08:02.07,0:08:04.66,DCMain,SHIMOMURA,0000,0000,0000,,On top of that, they threw \Nme a party last night.
+Dialogue: 0,0:08:04.66,0:08:06.42,DCMain,SHIMOMURA,0000,0000,0000,,I'm grateful for their support.
+Dialogue: 0,0:08:08.48,0:08:11.92,DCMain,CONAN,0000,0000,0000,,Were the mayor and Imazu-san \Nyour students, too?
+Dialogue: 0,0:08:12.31,0:08:13.35,DCMain,HIRAI,0000,0000,0000,,That's right.
+Dialogue: 0,0:08:13.35,0:08:15.59,DCMain,HIRAI,0000,0000,0000,,They were in different years, though.
+Dialogue: 0,0:08:17.43,0:08:18.56,DCItalic,CONAN,0000,0000,0000,,There it is again.
+Dialogue: 0,0:08:19.00,0:08:22.46,DCMain,CONAN,0000,0000,0000,,What is the tengu's voice actually?
+Dialogue: 0,0:08:22.46,0:08:25.03,DCMain,SHIMOMURA,0000,0000,0000,,Who knows?
+Dialogue: 0,0:08:27.85,0:08:29.68,DCMain,IMAZU,0000,0000,0000,,M-Mayama...
+Dialogue: 0,0:08:33.22,0:08:34.32,DCMain,KOGORO,0000,0000,0000,,Who are you?
+Dialogue: 0,0:08:34.86,0:08:36.48,DCMain,HIRAI,0000,0000,0000,,He's Imazu-san.
+Dialogue: 0,0:08:36.48,0:08:39.75,DCMain,HIRAI,0000,0000,0000,,Until he lost to Mayama-san in \Nthe recent mayoral election,
+Dialogue: 0,0:08:39.75,0:08:41.50,DCMain,HIRAI,0000,0000,0000,,he was the mayor.
+Dialogue: 0,0:08:41.79,0:08:42.66,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:08:42.66,0:08:46.26,DCMain,KOGORO,0000,0000,0000,,Imazu-san, could I ask you a few questions?
+Dialogue: 0,0:08:46.26,0:08:47.75,DCMain,IMAZU,0000,0000,0000,,Who are you?
+Dialogue: 0,0:08:48.42,0:08:51.37,DCMain,KOGORO,0000,0000,0000,,Mori Kogoro the detective.
+Dialogue: 0,0:08:52.70,0:08:55.68,DCMain,KOGORO,0000,0000,0000,,How long were you in front of the cave?
+Dialogue: 0,0:08:56.86,0:08:58.43,DCMain,IMAZU,0000,0000,0000,,Since 8:30, I think.
+Dialogue: 0,0:08:58.94,0:09:01.54,DCMain,KOGORO,0000,0000,0000,,Did you see Mayama-san arrive?
+Dialogue: 0,0:09:01.54,0:09:02.31,DCMain,IMAZU,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:02.64,0:09:04.80,DCMain,IMAZU,0000,0000,0000,,Mayama came around nine.
+Dialogue: 0,0:09:04.80,0:09:05.81,DCMain,KOGORO,0000,0000,0000,,Was he alone?
+Dialogue: 0,0:09:06.05,0:09:07.13,DCMain,IMAZU,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:07.13,0:09:11.93,DCMain,IMAZU,0000,0000,0000,,Maybe I should tell you what I \Nwas doing in front of the cave.
+Dialogue: 0,0:09:11.93,0:09:13.07,DCMain,KOGORO,0000,0000,0000,,Please.
+Dialogue: 0,0:09:14.23,0:09:16.08,DCMain,IMAZU,0000,0000,0000,,It started last night.
+Dialogue: 0,0:09:17.85,0:09:19.42,DCItalic,MAYAMA,0000,0000,0000,,B-Blackmail?
+Dialogue: 0,0:09:20.10,0:09:21.37,DCItalic,MAYAMA,0000,0000,0000,,How much do you want?
+Dialogue: 0,0:09:22.17,0:09:23.08,DCItalic,MAYAMA,0000,0000,0000,,Fine.
+Dialogue: 0,0:09:23.08,0:09:24.61,DCItalic,MAYAMA,0000,0000,0000,,Where do you want to meet?
+Dialogue: 0,0:09:24.61,0:09:27.12,DCItalic,MAYAMA,0000,0000,0000,,Tomorrow at 9 AM at the Tengu's Cave.
+Dialogue: 0,0:09:27.12,0:09:28.21,DCItalic,MAYAMA,0000,0000,0000,,Got it.
+Dialogue: 0,0:09:28.80,0:09:30.48,DCMain,IMAZU,0000,0000,0000,,This is just my speculation,
+Dialogue: 0,0:09:30.48,0:09:34.34,DCMain,IMAZU,0000,0000,0000,,but I think he was being blackmailed over off \Nthe books money he received in the election.
+Dialogue: 0,0:09:35.08,0:09:38.34,DCMain,IMAZU,0000,0000,0000,,So I was waiting in front of the cave...
+Dialogue: 0,0:09:47.75,0:09:50.38,DCMain,IMAZU,0000,0000,0000,,But he never came out.
+Dialogue: 0,0:09:51.14,0:09:55.57,DCMain,IMAZU,0000,0000,0000,,While I was wondering what \Nto do, I ran into you guys.
+Dialogue: 0,0:09:55.57,0:09:58.92,DCMain,KOGORO,0000,0000,0000,,Did anyone else enter the \Ncave during that time?
+Dialogue: 0,0:09:58.92,0:10:00.02,DCMain,IMAZU,0000,0000,0000,,Nope.
+Dialogue: 0,0:10:00.02,0:10:01.40,DCMain,CONAN,0000,0000,0000,,Hey, Imazu-san.
+Dialogue: 0,0:10:01.40,0:10:02.24,DCMain,IMAZU,0000,0000,0000,,What?
+Dialogue: 0,0:10:02.63,0:10:05.27,DCMain,CONAN,0000,0000,0000,,You work for a building contractor, right?
+Dialogue: 0,0:10:05.27,0:10:08.12,DCMain,CONAN,0000,0000,0000,,Are you the one who disassembled \Nthe scaffolding?
+Dialogue: 0,0:10:09.10,0:10:10.25,DCMain,IMAZU,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:10.25,0:10:12.36,DCMain,HIRAI,0000,0000,0000,,When did you do that?
+Dialogue: 0,0:10:12.36,0:10:13.64,DCMain,IMAZU,0000,0000,0000,,Yesterday afternoon.
+Dialogue: 0,0:10:13.64,0:10:16.63,DCMain,IMAZU,0000,0000,0000,,Mayama called to tell me to do it.
+Dialogue: 0,0:10:17.02,0:10:18.78,DCMain,CONAN,0000,0000,0000,,That's odd.
+Dialogue: 0,0:10:18.78,0:10:20.98,DCMain,CONAN,0000,0000,0000,,If he meant to hang himself in the cave,
+Dialogue: 0,0:10:20.98,0:10:23.29,DCMain,CONAN,0000,0000,0000,,it would've been easier to \Nleave the scaffolding up.
+Dialogue: 0,0:10:23.29,0:10:25.43,DCMain,CONAN,0000,0000,0000,,Why did he do it the day \Nafter it was taken down?
+Dialogue: 0,0:10:25.91,0:10:27.47,DCMain,IMAZU,0000,0000,0000,,I don't think it was planned.
+Dialogue: 0,0:10:27.47,0:10:30.07,DCMain,IMAZU,0000,0000,0000,,It was probably a spontaneous death.
+Dialogue: 0,0:10:30.07,0:10:32.81,DCMain,KOGORO,0000,0000,0000,,No, it must've been planned.
+Dialogue: 0,0:10:33.16,0:10:36.49,DCMain,KOGORO,0000,0000,0000,,He had to get the rope to hang himself with.
+Dialogue: 0,0:10:36.94,0:10:38.99,DCMain,KOGORO,0000,0000,0000,,This must be what happened.
+Dialogue: 0,0:10:39.43,0:10:43.04,DCMain,KOGORO,0000,0000,0000,,At 9 AM, without realizing \Nyou were watching him,
+Dialogue: 0,0:10:43.04,0:10:45.99,DCMain,KOGORO,0000,0000,0000,,Mayama-san entered the cave alone.
+Dialogue: 0,0:10:46.61,0:10:48.51,DCMain,KOGORO,0000,0000,0000,,He locked the door from the inside,
+Dialogue: 0,0:10:48.92,0:10:51.75,DCMain,KOGORO,0000,0000,0000,,and stole the tengu mask from the office.
+Dialogue: 0,0:10:51.96,0:10:54.05,DCMain,KOGORO,0000,0000,0000,,Then he scaled the cliff,
+Dialogue: 0,0:10:54.05,0:10:56.94,DCMain,KOGORO,0000,0000,0000,,tied the rope around the shrine post,
+Dialogue: 0,0:10:56.94,0:10:58.50,DCMain,KOGORO,0000,0000,0000,,and hung himself.
+Dialogue: 0,0:10:59.82,0:11:02.49,DCMain,HIRAI,0000,0000,0000,,What about the person blackmailing him?
+Dialogue: 0,0:11:02.49,0:11:04.65,DCMain,HIRAI,0000,0000,0000,,Does that mean they never came?
+Dialogue: 0,0:11:04.65,0:11:06.09,DCMain,KOGORO,0000,0000,0000,,They came,
+Dialogue: 0,0:11:06.09,0:11:10.26,DCMain,KOGORO,0000,0000,0000,,but when they realized Imazu-san \Nwas out front, they probably left.
+Dialogue: 0,0:11:10.26,0:11:11.35,DCMain,ALL,0000,0000,0000,,I see.
+Dialogue: 0,0:11:12.42,0:11:14.83,DCMain,KOGORO,0000,0000,0000,,Now we just have to find a motive.
+Dialogue: 0,0:11:14.83,0:11:17.11,DCMain,KOGORO,0000,0000,0000,,Does anyone have any ideas?
+Dialogue: 0,0:11:25.73,0:11:26.74,DCItalic,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:30.26,0:11:31.43,DCItalic,CONAN,0000,0000,0000,,What else is there?
+Dialogue: 0,0:11:35.80,0:11:36.91,DCItalic,CONAN,0000,0000,0000,,Death spots?
+Dialogue: 0,0:11:37.28,0:11:38.57,DCItalic,CONAN,0000,0000,0000,,This doesn't make sense.
+Dialogue: 0,0:11:38.57,0:11:41.38,DCItalic,CONAN,0000,0000,0000,,If he hanged himself, they \Nshould appear on his legs.
+Dialogue: 0,0:11:41.66,0:11:42.73,DCItalic,CONAN,0000,0000,0000,,Which means...
+Dialogue: 0,0:11:45.56,0:11:48.15,DCItalic,CONAN,0000,0000,0000,,This wasn't a suicide.
+Dialogue: 0,0:11:53.74,0:11:56.98,DCItalic,CONAN,0000,0000,0000,,When did the killer enter and leave the cave?
+Dialogue: 0,0:11:57.73,0:12:01.09,DCItalic,CONAN,0000,0000,0000,,There's no guarantee Imazu-san \Nis telling the truth,
+Dialogue: 0,0:12:01.09,0:12:03.42,DCItalic,CONAN,0000,0000,0000,,and it's possible he just missed it.
+Dialogue: 0,0:12:03.97,0:12:08.24,DCItalic,CONAN,0000,0000,0000,,But it's true that the door \Nwas locked when we arrived.
+Dialogue: 0,0:12:13.94,0:12:15.50,DCItalic,CONAN,0000,0000,0000,,I guess I'll try climbing it.
+Dialogue: 0,0:12:17.65,0:12:18.17,DCItalic,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:12:22.73,0:12:24.61,DCMain,KOGORO,0000,0000,0000,,Hey, Conan! That's dangerous!
+Dialogue: 0,0:12:24.61,0:12:26.43,DCMain,CONAN,0000,0000,0000,,I'll be fine.
+Dialogue: 0,0:12:43.98,0:12:44.91,DCMain,CONAN,0000,0000,0000,,Five minutes, huh?
+Dialogue: 0,0:12:50.15,0:12:52.83,DCItalic,CONAN,0000,0000,0000,,There is where we met \NShimomura-san yesterday.
+Dialogue: 0,0:12:56.17,0:12:58.02,DCItalic,CONAN,0000,0000,0000,,So that's why we heard the tengu's voice.
+Dialogue: 0,0:12:58.91,0:13:01.80,DCMain,IMAZU,0000,0000,0000,,He probably thought he couldn't \Nescape his blackmailer.
+Dialogue: 0,0:13:02.18,0:13:03.93,DCMain,IMAZU,0000,0000,0000,,That's the kind of man he was.
+Dialogue: 0,0:13:03.93,0:13:06.80,DCMain,IMAZU,0000,0000,0000,,When things started to go south, he'd run.
+Dialogue: 0,0:13:07.03,0:13:08.09,DCMain,HIRAI,0000,0000,0000,,You're right.
+Dialogue: 0,0:13:08.09,0:13:09.78,DCMain,SHIMOMURA,0000,0000,0000,,No, you're wrong.
+Dialogue: 0,0:13:10.27,0:13:13.08,DCMain,SHIMOMURA,0000,0000,0000,,His conscience was troubled.
+Dialogue: 0,0:13:13.50,0:13:18.02,DCMain,SHIMOMURA,0000,0000,0000,,The Kurama tengu is a symbol \Nof chasing out evil.
+Dialogue: 0,0:13:18.02,0:13:21.82,DCMain,SHIMOMURA,0000,0000,0000,,Maybe that was the message he was trying \Nto convey by wearing the tengu mask.
+Dialogue: 0,0:13:22.67,0:13:24.42,DCItalic,CONAN,0000,0000,0000,,It's a good thing his body was swinging.
+Dialogue: 0,0:13:24.42,0:13:26.19,DCItalic,CONAN,0000,0000,0000,,If it had fallen straight down,
+Dialogue: 0,0:13:26.19,0:13:28.46,DCItalic,CONAN,0000,0000,0000,,it would've suffered a lot of damage.
+Dialogue: 0,0:13:28.86,0:13:29.48,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:13:32.33,0:13:33.82,DCItalic,CONAN,0000,0000,0000,,Why was it swinging?
+Dialogue: 0,0:13:34.19,0:13:36.12,DCItalic,CONAN,0000,0000,0000,,Probably because of the wind, but...
+Dialogue: 0,0:13:38.99,0:13:42.71,DCMain,MEGURE,0000,0000,0000,,C-Can we fit through this narrow space?
+Dialogue: 0,0:13:42.71,0:13:45.32,DCMain,RAN,0000,0000,0000,,You sure can. Watch your head.
+Dialogue: 0,0:13:48.56,0:13:51.25,DCMain,KOGORO,0000,0000,0000,,I believe the call
+Dialogue: 0,0:13:51.25,0:13:53.98,DCMain,KOGORO,0000,0000,0000,,from the blackmailer and \Nthe publishing party
+Dialogue: 0,0:13:53.98,0:13:56.66,DCMain,KOGORO,0000,0000,0000,,triggered this event.
+Dialogue: 0,0:13:57.12,0:13:57.98,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:14:16.61,0:14:17.50,DCItalic,CONAN,0000,0000,0000,,I found it!
+Dialogue: 0,0:14:21.52,0:14:24.59,DCMain,KOGORO,0000,0000,0000,,This means the case is solved—
+Dialogue: 0,0:14:29.12,0:14:30.01,DCMain,RAN,0000,0000,0000,,Dad.
+Dialogue: 0,0:14:33.42,0:14:35.56,DCMain,KOGORO,0000,0000,0000,,That's what I'd like to say,
+Dialogue: 0,0:14:35.56,0:14:37.98,DCMain,KOGORO,0000,0000,0000,,but we'd just be playing \Ninto the killer's hands.
+Dialogue: 0,0:14:37.98,0:14:38.96,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:14:38.96,0:14:41.18,DCMain,KOGORO,0000,0000,0000,,Please examine the victim's back.
+Dialogue: 0,0:14:41.18,0:14:43.33,DCMain,KOGORO,0000,0000,0000,,You'll find death spots there.
+Dialogue: 0,0:14:45.04,0:14:46.78,DCMain,MEGURE,0000,0000,0000,,Y-You're right.
+Dialogue: 0,0:14:47.00,0:14:49.58,DCMain,KOGORO,0000,0000,0000,,Death spots appear on the legs \Nin the case of a hanging.
+Dialogue: 0,0:14:49.58,0:14:52.28,DCMain,KOGORO,0000,0000,0000,,They appear on the back when the victim \Nis lying face up on the ground.
+Dialogue: 0,0:14:52.55,0:14:56.57,DCMain,HIRAI,0000,0000,0000,,So he was hanged after being \Nkilled while lying on his back?
+Dialogue: 0,0:14:56.57,0:14:58.38,DCMain,SHIMOMURA,0000,0000,0000,,That's impossible.
+Dialogue: 0,0:14:58.38,0:15:01.79,DCMain,SHIMOMURA,0000,0000,0000,,How could someone have carried \Na body all the way up there?
+Dialogue: 0,0:15:02.02,0:15:03.10,DCMain,HIRAI,0000,0000,0000,,You're right.
+Dialogue: 0,0:15:03.10,0:15:05.55,DCMain,HIRAI,0000,0000,0000,,And there'd be no benefit \Nto doing it, either.
+Dialogue: 0,0:15:06.06,0:15:06.94,DCMain,KOGORO,0000,0000,0000,,Hirai-san.
+Dialogue: 0,0:15:06.94,0:15:07.88,DCMain,HIRAI,0000,0000,0000,,Yes?
+Dialogue: 0,0:15:07.88,0:15:09.52,DCMain,KOGORO,0000,0000,0000,,Try to recall
+Dialogue: 0,0:15:09.52,0:15:12.00,DCMain,KOGORO,0000,0000,0000,,what you saw on the monitor then.
+Dialogue: 0,0:15:12.00,0:15:13.05,DCMain,HIRAI,0000,0000,0000,,I saw
+Dialogue: 0,0:15:14.31,0:15:17.52,DCMain,HIRAI,0000,0000,0000,,the mayor hanging from the post.
+Dialogue: 0,0:15:17.52,0:15:20.03,DCMain,KOGORO,0000,0000,0000,,How was he hanging?
+Dialogue: 0,0:15:20.03,0:15:21.48,DCMain,HIRAI,0000,0000,0000,,He was swinging.
+Dialogue: 0,0:15:22.00,0:15:23.32,DCMain,KOGORO,0000,0000,0000,,Since he was swinging,
+Dialogue: 0,0:15:23.32,0:15:25.84,DCMain,KOGORO,0000,0000,0000,,the body didn't fall onto the scaffolding.
+Dialogue: 0,0:15:26.28,0:15:28.13,DCMain,IMAZU,0000,0000,0000,,We'd better thank the wind, then.
+Dialogue: 0,0:15:28.13,0:15:29.62,DCMain,KOGORO,0000,0000,0000,,Was it the wind?
+Dialogue: 0,0:15:29.62,0:15:33.17,DCMain,KOGORO,0000,0000,0000,,The spring was visible in the \Nforeground of the monitor.
+Dialogue: 0,0:15:33.98,0:15:37.62,DCMain,RAN,0000,0000,0000,,The spring was flowing like it is right now.
+Dialogue: 0,0:15:38.02,0:15:40.99,DCMain,IMAZU,0000,0000,0000,,Maybe it was because it was just \Nafter he had hung himself.
+Dialogue: 0,0:15:40.99,0:15:43.00,DCMain,IMAZU,0000,0000,0000,,If he struggled, his body would swing.
+Dialogue: 0,0:15:43.23,0:15:44.90,DCMain,KOGORO,0000,0000,0000,,Based on the death spots,
+Dialogue: 0,0:15:44.90,0:15:46.50,DCMain,KOGORO,0000,0000,0000,,it couldn't have been immediately afterwards.
+Dialogue: 0,0:15:46.93,0:15:48.99,DCMain,MEGURE,0000,0000,0000,,Then why was he swinging?
+Dialogue: 0,0:15:49.54,0:15:51.54,DCMain,KOGORO,0000,0000,0000,,He made his body swing.
+Dialogue: 0,0:15:51.54,0:15:52.22,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:15:53.12,0:15:55.15,DCMain,IMAZU,0000,0000,0000,,He made his own body swing?
+Dialogue: 0,0:15:55.15,0:15:56.64,DCMain,IMAZU,0000,0000,0000,,That's impossible.
+Dialogue: 0,0:15:56.94,0:15:58.53,DCMain,KOGORO,0000,0000,0000,,Not the body.
+Dialogue: 0,0:15:58.53,0:16:00.61,DCMain,KOGORO,0000,0000,0000,,What we saw on the monitor
+Dialogue: 0,0:16:00.61,0:16:03.40,DCMain,KOGORO,0000,0000,0000,,was the killer pretending to be the body.
+Dialogue: 0,0:16:03.40,0:16:05.15,DCMain,MEGURE,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:16:05.67,0:16:06.61,DCMain,KOGORO,0000,0000,0000,,At 9 AM,
+Dialogue: 0,0:16:06.61,0:16:08.98,DCMain,KOGORO,0000,0000,0000,,Mayama-san followed the \Ninstructions he received
+Dialogue: 0,0:16:08.98,0:16:11.81,DCMain,KOGORO,0000,0000,0000,,from the blackmailer the previous \Nnight and came to the cave.
+Dialogue: 0,0:16:12.62,0:16:14.64,DCMain,KOGORO,0000,0000,0000,,The killer was waiting for him inside.
+Dialogue: 0,0:16:15.14,0:16:17.57,DCMain,KOGORO,0000,0000,0000,,They're also the one who locked the door.
+Dialogue: 0,0:16:18.67,0:16:23.22,DCMain,KOGORO,0000,0000,0000,,It was so they'd be free to commit \Ntheir crime for an entire hour,
+Dialogue: 0,0:16:23.62,0:16:26.04,DCMain,KOGORO,0000,0000,0000,,until Hirai-san came at \N10 AM to unlock the door.
+Dialogue: 0,0:16:27.65,0:16:31.77,DCMain,KOGORO,0000,0000,0000,,They led Mayama-san deeper into the cave.
+Dialogue: 0,0:16:32.84,0:16:36.34,DCMain,KOGORO,0000,0000,0000,,Then they strangled Mayama-san with \Nthe rope they prepared beforehand.
+Dialogue: 0,0:16:39.38,0:16:43.10,DCMain,KOGORO,0000,0000,0000,,Next the killer put on Mayama-san's jacket
+Dialogue: 0,0:16:43.44,0:16:45.90,DCMain,KOGORO,0000,0000,0000,,and pants and the tengu mask.
+Dialogue: 0,0:16:45.90,0:16:49.86,DCMain,KOGORO,0000,0000,0000,,They wore the mask simply to hide their face.
+Dialogue: 0,0:16:50.56,0:16:53.33,DCMain,KOGORO,0000,0000,0000,,The killer climbed the cliff to the shrine,
+Dialogue: 0,0:16:53.74,0:16:57.43,DCMain,KOGORO,0000,0000,0000,,tied the rope they used to \Nstrangle Mayama-san to the post,
+Dialogue: 0,0:16:57.92,0:17:01.04,DCMain,KOGORO,0000,0000,0000,,and broke it, causing it to fall.
+Dialogue: 0,0:17:01.87,0:17:05.22,DCMain,KOGORO,0000,0000,0000,,Next they tied a separate \Npiece of rope to their body
+Dialogue: 0,0:17:05.22,0:17:08.25,DCMain,KOGORO,0000,0000,0000,,like a harness and dangled from the post.
+Dialogue: 0,0:17:08.61,0:17:13.13,DCMain,KOGORO,0000,0000,0000,,They probably tied the rope so it \Nwould come undone if they let go.
+Dialogue: 0,0:17:13.64,0:17:17.89,DCMain,KOGORO,0000,0000,0000,,By swinging their body, they were \Nable to jump to the nearby ledge.
+Dialogue: 0,0:17:18.44,0:17:22.18,DCMain,KOGORO,0000,0000,0000,,The ledge they fell onto \Nisn't visible on the monitor.
+Dialogue: 0,0:17:22.48,0:17:23.85,DCMain,KOGORO,0000,0000,0000,,Please examine the ledge.
+Dialogue: 0,0:17:23.85,0:17:27.02,DCMain,KOGORO,0000,0000,0000,,You'll find pieces of the \Nvictim's jacket there.
+Dialogue: 0,0:17:33.52,0:17:34.50,DCMain,POLICE,0000,0000,0000,,We found it.
+Dialogue: 0,0:17:35.64,0:17:38.58,DCMain,KOGORO,0000,0000,0000,,Then they replaced Mayama-san's \Njacket and pants
+Dialogue: 0,0:17:38.99,0:17:42.92,DCMain,KOGORO,0000,0000,0000,,on his body and placed the \Ntengu mask on his face.
+Dialogue: 0,0:17:44.22,0:17:46.59,DCMain,MEGURE,0000,0000,0000,,Isn't it all too convenient?
+Dialogue: 0,0:17:46.59,0:17:48.34,DCMain,MEGURE,0000,0000,0000,,When did he run?
+Dialogue: 0,0:17:48.34,0:17:51.84,DCMain,MEGURE,0000,0000,0000,,How did the killer know you would come?
+Dialogue: 0,0:17:52.13,0:17:53.86,DCMain,KOGORO,0000,0000,0000,,The voice of the tengu.
+Dialogue: 0,0:17:55.96,0:17:59.10,DCMain,MEGURE,0000,0000,0000,,T-Tengus don't exist.
+Dialogue: 0,0:17:59.52,0:18:01.72,DCMain,KOGORO,0000,0000,0000,,It's actually the sound of the wind.
+Dialogue: 0,0:18:01.95,0:18:05.57,DCMain,KOGORO,0000,0000,0000,,It occurs when the door to the \Ncave is opened and closed.
+Dialogue: 0,0:18:05.57,0:18:08.73,DCMain,KOGORO,0000,0000,0000,,You can also just barely hear human voices.
+Dialogue: 0,0:18:08.73,0:18:10.24,DCMain,POLICE,0000,0000,0000,,This is narrow.
+Dialogue: 0,0:18:10.66,0:18:12.95,DCMain,POLICE,0000,0000,0000,,How are we going to get the body out of here?
+Dialogue: 0,0:18:13.95,0:18:16.99,DCMain,KOGORO,0000,0000,0000,,The killer hid when they heard our voices.
+Dialogue: 0,0:18:16.99,0:18:18.88,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:18:18.88,0:18:21.16,DCMain,MEGURE,0000,0000,0000,,So who did it?
+Dialogue: 0,0:18:21.51,0:18:23.54,DCMain,KOGORO,0000,0000,0000,,We can eliminate Hirai-san.
+Dialogue: 0,0:18:24.00,0:18:27.16,DCMain,KOGORO,0000,0000,0000,,He witnessed the body falling with us.
+Dialogue: 0,0:18:27.58,0:18:28.16,DCMain,MEGURE,0000,0000,0000,,Then...
+Dialogue: 0,0:18:28.16,0:18:29.58,DCMain,IMAZU,0000,0000,0000,,Hey, it wasn't me!
+Dialogue: 0,0:18:29.94,0:18:30.93,DCMain,SHIMOMURA,0000,0000,0000,,It wasn't me, either.
+Dialogue: 0,0:18:30.93,0:18:33.88,DCMain,SHIMOMURA,0000,0000,0000,,The killer must've climbed \Nthe cliff to escape.
+Dialogue: 0,0:18:33.88,0:18:34.92,DCMain,IMAZU,0000,0000,0000,,Yeah.
+Dialogue: 0,0:18:34.92,0:18:36.26,DCMain,IMAZU,0000,0000,0000,,We should search the mountains immediately!
+Dialogue: 0,0:18:37.43,0:18:41.49,DCMain,KOGORO,0000,0000,0000,,There's actually something \Nodd about the tengu's voice.
+Dialogue: 0,0:18:43.15,0:18:45.96,DCMain,KOGORO,0000,0000,0000,,We first heard the tengu's voice
+Dialogue: 0,0:18:45.96,0:18:48.27,DCMain,KOGORO,0000,0000,0000,,after Ran left this place.
+Dialogue: 0,0:18:48.71,0:18:50.02,DCItalic,RAN,0000,0000,0000,,Got it.
+Dialogue: 0,0:18:50.80,0:18:51.54,DCMain,KOGORO,0000,0000,0000,,In other words,
+Dialogue: 0,0:18:51.54,0:18:52.96,DCMain,KOGORO,0000,0000,0000,,the first voice we heard
+Dialogue: 0,0:18:52.96,0:18:55.80,DCMain,KOGORO,0000,0000,0000,,was the sound of Ran opening the door.
+Dialogue: 0,0:18:57.11,0:18:58.65,Voice,TEXT,0000,0000,0000,,{\fad(165,1)}First Voice
+Dialogue: 0,0:18:58.26,0:19:02.12,DCMain,KOGORO,0000,0000,0000,,{\an8}The second voice occurred just \Nbefore Imazu-san appeared.
+Dialogue: 0,0:19:02.12,0:19:05.03,DCMain,KOGORO,0000,0000,0000,,In other words, when \NImazu-san opened the door.
+Dialogue: 0,0:19:05.03,0:19:06.70,Voice,TEXT,0000,0000,0000,,{\fad(165,1)}Second Voice
+Dialogue: 0,0:19:06.19,0:19:10.08,DCMain,KOGORO,0000,0000,0000,,{\an8}No one entered or exited between them.
+Dialogue: 0,0:19:10.54,0:19:14.83,DCMain,KOGORO,0000,0000,0000,,Shimomura-san, when did you enter the cave?
+Dialogue: 0,0:19:15.55,0:19:16.76,DCMain,SHIMOMURA,0000,0000,0000,,When?
+Dialogue: 0,0:19:16.76,0:19:19.00,DCMain,SHIMOMURA,0000,0000,0000,,Right after you.
+Dialogue: 0,0:19:19.00,0:19:22.39,DCMain,SHIMOMURA,0000,0000,0000,,I guess that would be right after \Nthe first voice you mentioned.
+Dialogue: 0,0:19:22.39,0:19:24.92,DCMain,KOGORO,0000,0000,0000,,Then you should've passed Ran.
+Dialogue: 0,0:19:25.69,0:19:28.36,DCMain,KOGORO,0000,0000,0000,,Don't tell me you didn't.
+Dialogue: 0,0:19:28.36,0:19:30.20,DCMain,KOGORO,0000,0000,0000,,After all, look at how \Nnarrow that passage is.
+Dialogue: 0,0:19:30.98,0:19:33.81,DCMain,SHIMOMURA,0000,0000,0000,,M-Maybe it was a little later.
+Dialogue: 0,0:19:33.81,0:19:36.19,DCMain,SHIMOMURA,0000,0000,0000,,You must've missed it.
+Dialogue: 0,0:19:36.19,0:19:39.32,DCMain,KOGORO,0000,0000,0000,,You're still playing innocent?
+Dialogue: 0,0:19:39.55,0:19:41.28,DCMain,SHIMOMURA,0000,0000,0000,,I'm not playing at anything.
+Dialogue: 0,0:19:41.28,0:19:45.80,DCMain,KOGORO,0000,0000,0000,,Yesterday you had that cloth \Nhanging around your shoulders,
+Dialogue: 0,0:19:45.80,0:19:47.56,DCMain,KOGORO,0000,0000,0000,,but today it's wrapped around your neck.
+Dialogue: 0,0:19:48.10,0:19:52.06,DCMain,KOGORO,0000,0000,0000,,Is it because you're hiding \Na scratch underneath it
+Dialogue: 0,0:19:52.06,0:19:54.69,DCMain,KOGORO,0000,0000,0000,,from when you scraped yourself \Non the uneven rocks?
+Dialogue: 0,0:19:54.69,0:19:56.17,DCMain,SHIMOMURA,0000,0000,0000,,This is ridiculous!
+Dialogue: 0,0:19:56.17,0:19:59.21,DCMain,SHIMOMURA,0000,0000,0000,,I got this while hiking around the mountains.
+Dialogue: 0,0:19:59.78,0:20:02.28,DCMain,KOGORO,0000,0000,0000,,You could easily explain a single scrape.
+Dialogue: 0,0:20:02.28,0:20:05.40,DCMain,KOGORO,0000,0000,0000,,But can you explain scrapes
+Dialogue: 0,0:20:05.40,0:20:07.08,DCMain,KOGORO,0000,0000,0000,,on your shins and thighs?
+Dialogue: 0,0:20:08.13,0:20:11.46,DCMain,KOGORO,0000,0000,0000,,Inspector, please examine Mayama-san's body.
+Dialogue: 0,0:20:11.46,0:20:14.85,DCMain,KOGORO,0000,0000,0000,,His clothes are torn, but \Nhis body is unscratched.
+Dialogue: 0,0:20:21.26,0:20:22.49,DCMain,MEGURE,0000,0000,0000,,You're right.
+Dialogue: 0,0:20:25.51,0:20:29.49,DCMain,KOGORO,0000,0000,0000,,Is the rope you used when \Nyou fell inside your backpack?
+Dialogue: 0,0:20:30.16,0:20:31.28,DCMain,SHIMOMURA,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:31.28,0:20:33.60,DCMain,HIRAI,0000,0000,0000,,But, Sensei, why?
+Dialogue: 0,0:20:34.33,0:20:36.33,DCMain,SHIMOMURA,0000,0000,0000,,It happened a few days ago.
+Dialogue: 0,0:20:36.33,0:20:40.36,DCMain,SHIMOMURA,0000,0000,0000,,While hiking around the mountains, \NI ran into a surveyor.
+Dialogue: 0,0:20:40.36,0:20:42.61,DCMain,SHIMOMURA,0000,0000,0000,,When I asked why he was surveying,
+Dialogue: 0,0:20:42.61,0:20:47.41,DCMain,SHIMOMURA,0000,0000,0000,,he said it it was to turn this mountain \Ninto a landfill for industrial waste.
+Dialogue: 0,0:20:47.41,0:20:48.26,DCMain,HIRAI,0000,0000,0000,,What?
+Dialogue: 0,0:20:48.74,0:20:52.12,DCMain,SHIMOMURA,0000,0000,0000,,Mayama-kun had received undocumented \Ncontributions to his campaign
+Dialogue: 0,0:20:52.12,0:20:54.27,DCMain,SHIMOMURA,0000,0000,0000,,from industry workers on that condition.
+Dialogue: 0,0:20:55.61,0:20:57.02,DCMain,SHIMOMURA,0000,0000,0000,,I couldn't allow it.
+Dialogue: 0,0:20:57.38,0:20:59.05,DCMain,SHIMOMURA,0000,0000,0000,,He was willing to destroy
+Dialogue: 0,0:20:59.05,0:21:02.78,DCMain,SHIMOMURA,0000,0000,0000,,the town's valuable cultural \Nproperty for his own benefit.
+Dialogue: 0,0:21:03.18,0:21:06.04,DCMain,SHIMOMURA,0000,0000,0000,,I had to do it to stop him.
+Dialogue: 0,0:21:06.58,0:21:08.89,DCMain,SHIMOMURA,0000,0000,0000,,For the town's sake,\NI had to become the tengu,
+Dialogue: 0,0:21:08.89,0:21:11.24,DCMain,SHIMOMURA,0000,0000,0000,,and bring the hammer of \Nrighteousness down on him.
+Dialogue: 0,0:21:12.38,0:21:15.65,DCMain,SHIMOMURA,0000,0000,0000,,I pretended to be a blackmailer \Nand called Mayama-kun to the cave.
+Dialogue: 0,0:21:15.65,0:21:18.46,DCMain,SHIMOMURA,0000,0000,0000,,I didn't think he would come otherwise.
+Dialogue: 0,0:21:19.31,0:21:21.95,DCMain,SHIMOMURA,0000,0000,0000,,I was surprised to see the \Nscaffolding had been taken down,
+Dialogue: 0,0:21:21.95,0:21:23.61,DCMain,SHIMOMURA,0000,0000,0000,,but I didn't lose my cool.
+Dialogue: 0,0:21:24.59,0:21:28.51,DCMain,SHIMOMURA,0000,0000,0000,,It would've been simpler if I'd made \Nit look like Mayama-kun's body
+Dialogue: 0,0:21:28.51,0:21:30.60,DCMain,SHIMOMURA,0000,0000,0000,,fell onto the scaffolding,
+Dialogue: 0,0:21:30.60,0:21:32.95,DCMain,SHIMOMURA,0000,0000,0000,,but I couldn't do it.
+Dialogue: 0,0:21:33.54,0:21:38.32,DCMain,SHIMOMURA,0000,0000,0000,,Hirai-kun witnessed the fall at \N10 AM, just as I had planned.
+Dialogue: 0,0:21:38.32,0:21:42.57,DCMain,SHIMOMURA,0000,0000,0000,,I meant to escape while he called the police.
+Dialogue: 0,0:21:43.17,0:21:47.78,DCMain,SHIMOMURA,0000,0000,0000,,But I wasn't expecting him to bring the \Ngreat detective Mori Kogoro with him.
+Dialogue: 0,0:21:48.10,0:21:50.21,DCMain,KOGORO,0000,0000,0000,,It would've been the same even if I hadn't.
+Dialogue: 0,0:21:50.60,0:21:53.04,DCMain,KOGORO,0000,0000,0000,,Imazu-san was waiting outside.
+Dialogue: 0,0:21:54.35,0:21:55.67,DCMain,SHIMOMURA,0000,0000,0000,,You're right.
+Dialogue: 0,0:23:26.90,0:23:30.96,DCMain,KOGORO,0000,0000,0000,,That was some sharp detective \Nwork, if I say so myself.
+Dialogue: 0,0:23:32.92,0:23:35.03,DCMain,RAN,0000,0000,0000,,He's really turning into a tengu.
+Dialogue: 0,0:23:35.03,0:23:37.65,DCMain,CONAN,0000,0000,0000,,All his bragging might \Nactually make his nose grow.
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.37,0:23:47.76,DCMain,RAN,0000,0000,0000,,We already ate since you came back so late.
+Dialogue: 0,0:23:47.76,0:23:50.24,DCMain,CONAN,0000,0000,0000,,Apparently they arrested the killer \Nof the murder that happened
+Dialogue: 0,0:23:50.58,0:23:51.99,DCMain,CONAN,0000,0000,0000,,the day before yesterday.
+Dialogue: 0,0:23:53.80,0:23:55.85,DCMain,KOGORO,0000,0000,0000,,She's a pretty woman.
+Dialogue: 0,0:24:00.36,0:24:03.37,DCMain,WOMAN,0000,0000,0000,,What? Roll up my pants?
+Dialogue: 0,0:24:07.37,0:24:09.01,DCMain,KOGORO,0000,0000,0000,,It is you.
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,The Last Gift
+Dialogue: 0,0:24:09.79,0:24:13.40,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The Last Gift!"
+Dialogue: 0,0:24:30.03,0:24:35.03,Hint,TEXT,0000,0000,0000,,Watch
+Dialogue: 0,0:24:30.59,0:24:33.06,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.06,0:24:34.63,DCMain,CONAN,0000,0000,0000,,A watch!
+Dialogue: 0,0:24:35.03,0:24:40.04,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.30,0:24:36.80,DCMain,RAN,0000,0000,0000,,{\an8}Another pretty lady is in the next episode.
+Dialogue: 0,0:24:36.80,0:24:37.96,DCMain,KOGORO,0000,0000,0000,,{\an8}Let me handle it!
+Dialogue: 0,0:24:37.96,0:24:39.75,DCMain,CONAN,0000,0000,0000,,{\an8}He's got a lewd look on his face again.
+Dialogue: 0,0:24:39.75,0:24:41.75,DCMain,,0000,0000,0000,,

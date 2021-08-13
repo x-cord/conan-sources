@@ -1,0 +1,444 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Hospital,Trebuchet MS,18,&H00D35930,&H000000FF,&H00B7B3A4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0040,0065,0
+Style: Bank,Trebuchet MS,20,&H00E6E1DA,&H000000FF,&H00817640,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0060,0
+Style: Explodes,Trebuchet MS,18,&H00533417,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Tanuki,Trebuchet MS,22,&H0058463D,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0150,0025,0
+Style: Chonenten,Times New Roman,26,&H00FFFFFF,&H000000FF,&H007667C8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: NurseStation,Trebuchet MS,18,&H00FDFBF1,&H000000FF,&H007E765F,&H00D1C4A6,0,0,0,0,100,100,0,0,1,2,2,8,0020,0080,0050,0
+Style: Coincidence,Trebuchet MS,18,&H00533417,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0020,0020,0020,0
+Style: ChonentenCafe,Times New Roman,22,&H00F0E9F3,&H000000FF,&H007E5974,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: OtsoboDoorplate,Trebuchet MS,16,&H00131210,&H000000FF,&H00EEEFED,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0090,0020,0040,0
+Style: Poet,Times New Roman,18,&H0024171B,&H000000FF,&H00E7E8EA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0235,0040,0
+Style: Explodes2,Trebuchet MS,18,&H00A39B8D,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0035,0018,0
+Style: Sumito,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H009E6F94,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0030,0044,0
+Style: Kikuhide,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00681D25,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0028,0020,0044,0
+Style: Ko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CE8992,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0020,0182,0044,0
+Style: Haruka,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H009F5491,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,0140,0020,0044,0
+Style: Chiichiro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C98592,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0032,0044,0
+Style: Shiro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A36F6C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0105,0044,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,ALL,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 944 "The \NCost of Likes (Part One)"
+Dialogue: 0,0:00:00.00,0:00:03.39,Hospital,SIGN,0000,0000,0000,,Beika Central Hospital
+Dialogue: 0,0:00:01.87,0:00:05.96,DCMain,MITSUHIKO,0000,0000,0000,,You're lucky it was just a scratch.
+Dialogue: 0,0:00:06.67,0:00:08.27,DCMain,AYUMI,0000,0000,0000,,We were worried, you know.
+Dialogue: 0,0:00:08.55,0:00:11.93,DCMain,AYUMI,0000,0000,0000,,We heard you were taken to the hospital.
+Dialogue: 0,0:00:11.93,0:00:13.28,DCMain,GENTA,0000,0000,0000,,Sorry, sorry.
+Dialogue: 0,0:00:13.57,0:00:17.11,DCMain,GENTA,0000,0000,0000,,That Kagura guy protected me.
+Dialogue: 0,0:00:17.11,0:00:19.66,DCMain,KAGURA,0000,0000,0000,,It was unfortunate for the both of us.
+Dialogue: 0,0:00:20.04,0:00:23.29,DCMain,GENTA,0000,0000,0000,,But because of me, your arm...
+Dialogue: 0,0:00:23.63,0:00:25.75,DCMain,KAGURA,0000,0000,0000,,It's not your fault.
+Dialogue: 0,0:00:25.75,0:00:27.07,DCMain,KAGURA,0000,0000,0000,,{\an8}Don't worry about it.
+Dialogue: 0,0:00:26.38,0:00:29.71,Sumito,SIGN,0000,0000,0000,,{\fad(250,460)}Kagura Sumito (26)
+Dialogue: 0,0:00:27.49,0:00:30.67,DCMain,KAGURA,0000,0000,0000,,{\an8}Besides, I might be able to use this.
+Dialogue: 0,0:00:30.85,0:00:31.77,DCMain,CONAN,0000,0000,0000,,Use this?
+Dialogue: 0,0:00:31.77,0:00:34.71,DCMain,GENTA,0000,0000,0000,,So, did they catch the culprit?
+Dialogue: 0,0:00:34.71,0:00:36.55,DCMain,CONAN,0000,0000,0000,,No, not yet.
+Dialogue: 0,0:00:36.55,0:00:39.90,DCMain,GENTA,0000,0000,0000,,Darn. Who would do something like that?
+Dialogue: 0,0:00:40.87,0:00:44.02,DCMain,HAIBARA,0000,0000,0000,,Either way, they sure did \Ncause a lot of trouble.
+Dialogue: 0,0:00:44.02,0:00:48.78,DCMain,MITSUHIKO,0000,0000,0000,,All the patients here were \Ncollateral damage, right?
+Dialogue: 0,0:00:48.78,0:00:49.84,DCMain,GENTA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:00:50.34,0:00:54.70,DCMain,GENTA,0000,0000,0000,,That Otsubo-san guy lives in Aobadai.
+Dialogue: 0,0:00:54.89,0:00:56.92,DCMain,AYUMI,0000,0000,0000,,{\an8}That's pretty far away, right?
+Dialogue: 0,0:00:55.03,0:00:58.49,Kikuhide,SIGN,0000,0000,0000,,{\fad(250,460)}Otsubo Kikuhide (33)
+Dialogue: 0,0:00:56.92,0:01:01.09,DCMain,OTSUBO,0000,0000,0000,,{\an8}I happened to come to Beika City, \Nand look what happened to me.
+Dialogue: 0,0:01:01.09,0:01:02.95,DCMain,OTSUBO,0000,0000,0000,,I'm so unlucky.
+Dialogue: 0,0:01:03.40,0:01:06.04,DCMain,KAGURA,0000,0000,0000,,How truly unfortunate for you.
+Dialogue: 0,0:01:06.75,0:01:07.86,DCMain,KOCHIYAMA,0000,0000,0000,,Hey, Kagura.
+Dialogue: 0,0:01:07.86,0:01:09.21,DCMain,HARUKA,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:01:10.21,0:01:13.34,DCMain,KAGURA,0000,0000,0000,,Kochiyama, Haruka. You guys came.
+Dialogue: 0,0:01:13.34,0:01:17.34,DCMain,KOCHIYAMA,0000,0000,0000,,Who called us to come visit him?
+Dialogue: 0,0:01:17.38,0:01:21.31,Ko,SIGN,0000,0000,0000,,{\fad(250,460)}Kochiyama Ko (26)
+Dialogue: 0,0:01:17.38,0:01:21.31,Haruka,SIGN,0000,0000,0000,,{\fad(250,460)}Ibe Haruka (24)
+Dialogue: 0,0:01:17.49,0:01:18.92,DCMain,KOCHIYAMA,0000,0000,0000,,{\an8}Right, Haruka-chan?
+Dialogue: 0,0:01:18.92,0:01:21.98,DCMain,HARUKA,0000,0000,0000,,{\an8}Yeah. You sounded like you were about to cry.
+Dialogue: 0,0:01:22.88,0:01:25.73,DCMain,KAGURA,0000,0000,0000,,I broke my arm. Look.
+Dialogue: 0,0:01:25.73,0:01:28.70,DCMain,KOCHIYAMA,0000,0000,0000,,You're really unlucky.
+Dialogue: 0,0:01:28.70,0:01:32.86,DCMain,KAGURA,0000,0000,0000,,But I'm going to be compensated again.
+Dialogue: 0,0:01:32.86,0:01:35.57,DCMain,KOCHIYAMA,0000,0000,0000,,Again? In that case...
+Dialogue: 0,0:01:35.88,0:01:38.45,DCMain,KOCHIYAMA,0000,0000,0000,,Smile, Kagura. Look happy.
+Dialogue: 0,0:01:38.92,0:01:42.79,DCMain,KAGURA,0000,0000,0000,,I'll earn more likes for you.
+Dialogue: 0,0:01:42.96,0:01:44.60,DCMain,HARUKA,0000,0000,0000,,There you go again.
+Dialogue: 0,0:01:44.60,0:01:48.79,DCMain,HARUKA,0000,0000,0000,,You guys are hopeless, \NKagura-san and Kochiyama-san.
+Dialogue: 0,0:01:49.73,0:01:51.79,DCItalic,CONAN,0000,0000,0000,,What's wrong with these people?
+Dialogue: 0,0:01:52.32,0:01:55.80,DCItalic,CONAN,0000,0000,0000,,He suffered an injury.
+Dialogue: 0,0:01:59.07,0:02:01.22,DCMain,CONAN,0000,0000,0000,,Right now at this moment, \Nlight pierces the darkness!
+Dialogue: 0,0:02:01.22,0:02:03.25,DCMain,CONAN,0000,0000,0000,,Overcome all limits with \Nyour cool reasoning skills!
+Dialogue: 0,0:02:03.25,0:02:06.95,DCMain,CONAN,0000,0000,0000,,Injured as part of collateral damage \Nfor a hilariously strange reason!
+Dialogue: 0,0:02:06.95,0:02:08.55,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:08.55,0:02:10.25,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:10.25,0:02:12.31,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:54.00,0:04:00.01,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(400,1)}The Cost of Likes \N(Part One)
+Dialogue: 0,0:03:54.64,0:03:57.67,DCMain,CONAN,0000,0000,0000,,"The Cost of Likes, Part One!"
+Dialogue: 0,0:04:00.01,0:04:03.51,Bank,SIGN,0000,0000,0000,,Yotsubishi Bank
+Dialogue: 0,0:04:02.03,0:04:07.65,DCMain,CONAN,0000,0000,0000,,It started with a phone \Ncall made to this bank.
+Dialogue: 0,0:04:10.24,0:04:12.77,DCItalic,MANAGER,0000,0000,0000,,Hello, this is the Yotsubishi \NBank Beika branch.
+Dialogue: 0,0:04:13.68,0:04:17.27,DCItalic,PHONE,0000,0000,0000,,Several bombs have been \Nplaced around your bank.
+Dialogue: 0,0:04:17.50,0:04:20.95,DCItalic,PHONE,0000,0000,0000,,They'll all explode in one minute.
+Dialogue: 0,0:04:20.95,0:04:21.65,DCItalic,MANAGER,0000,0000,0000,,What?!
+Dialogue: 0,0:04:21.84,0:04:23.23,DCItalic,MANAGER,0000,0000,0000,,Evacuate the building!
+Dialogue: 0,0:04:23.23,0:04:28.66,DCMain,CONAN,0000,0000,0000,,Shocked by the threat, the bank told all \Ncustomers and employees to evacuate.
+Dialogue: 0,0:04:29.90,0:04:34.16,DCMain,CONAN,0000,0000,0000,,However, the panicked customers caused \Ncollateral damage to the people
+Dialogue: 0,0:04:34.51,0:04:37.42,DCMain,CONAN,0000,0000,0000,,who happened to be passing \Nby in front of the bank.
+Dialogue: 0,0:04:38.31,0:04:41.18,DCMain,CONAN,0000,0000,0000,,Pushed to the ground by the \Npeople rushing out of the bank,
+Dialogue: 0,0:04:41.18,0:04:46.17,DCMain,CONAN,0000,0000,0000,,Genta and several others were \Ninjured and taken to the hospital.
+Dialogue: 0,0:04:48.68,0:04:54.69,DCMain,CONAN,0000,0000,0000,,The phone used to place the call was \Ndetermined to be a public phone near the bank.
+Dialogue: 0,0:04:55.18,0:05:00.91,DCMain,CONAN,0000,0000,0000,,Because there was no explosion and \Nnot a single explosive was found,
+Dialogue: 0,0:05:00.91,0:05:02.97,DCMain,CONAN,0000,0000,0000,,it was thought to be a prank.
+Dialogue: 0,0:05:04.64,0:05:07.81,DCMain,CONAN,0000,0000,0000,,Though the bank promised to \Ncover their medical expenses
+Dialogue: 0,0:05:07.81,0:05:11.46,DCMain,CONAN,0000,0000,0000,,and compensate the victims,
+Dialogue: 0,0:05:12.12,0:05:15.17,DCMain,CONAN,0000,0000,0000,,it was an unfortunate incident for \Neveryone involved nonetheless.
+Dialogue: 0,0:05:16.08,0:05:17.32,DCItalic,CONAN,0000,0000,0000,,However...
+Dialogue: 0,0:05:18.32,0:05:22.19,DCMain,CONAN,0000,0000,0000,,You three seem unusually happy.
+Dialogue: 0,0:05:22.19,0:05:22.96,DCMain,HARUKA,0000,0000,0000,,What?
+Dialogue: 0,0:05:23.22,0:05:25.66,DCMain,HARUKA,0000,0000,0000,,But I mean... Right?
+Dialogue: 0,0:05:25.66,0:05:26.59,DCMain,KOCHIYAMA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:27.11,0:05:31.75,DCMain,KOCHIYAMA,0000,0000,0000,,Kagura suffered collateral \Ndamage about half a month ago.
+Dialogue: 0,0:05:31.75,0:05:32.95,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:05:32.95,0:05:36.35,DCMain,KAGURA,0000,0000,0000,,I was out hiking alone.
+Dialogue: 0,0:05:55.19,0:05:58.62,DCMain,KAGURA,0000,0000,0000,,I suffered collateral damage \Nfrom an unexploded bomb.
+Dialogue: 0,0:05:58.84,0:06:00.14,DCMain,ALL,0000,0000,0000,,Really?
+Dialogue: 0,0:06:00.14,0:06:02.24,DCMain,HAIBARA,0000,0000,0000,,I remember that.
+Dialogue: 0,0:06:02.24,0:06:05.76,DCMain,CONAN,0000,0000,0000,,So you were the victim who \Nsuffered collateral damage.
+Dialogue: 0,0:06:05.97,0:06:08.03,DCMain,KOCHIYAMA,0000,0000,0000,,Unlucky, right?
+Dialogue: 0,0:06:08.03,0:06:13.24,DCMain,KOCHIYAMA,0000,0000,0000,,But because of all the money he received \Nfrom the construction company,
+Dialogue: 0,0:06:13.24,0:06:16.70,DCMain,KOCHIYAMA,0000,0000,0000,,he was able to pay off all his debts at once.
+Dialogue: 0,0:06:16.70,0:06:18.35,DCMain,KOCHIYAMA,0000,0000,0000,,The nerve of this guy.
+Dialogue: 0,0:06:18.35,0:06:19.52,DCMain,ALL,0000,0000,0000,,Really?
+Dialogue: 0,0:06:20.02,0:06:23.06,DCMain,KAGURA,0000,0000,0000,,Kochiyama's pretty cheeky, too.
+Dialogue: 0,0:06:23.06,0:06:26.03,DCMain,KAGURA,0000,0000,0000,,The next day, he took me back \Nto the construction site.
+Dialogue: 0,0:06:29.09,0:06:30.41,DCItalic,KAGURA,0000,0000,0000,,Is here good?
+Dialogue: 0,0:06:30.59,0:06:33.50,DCItalic,KOCHIYAMA,0000,0000,0000,,Nah, go farther back.
+Dialogue: 0,0:06:33.50,0:06:34.91,DCItalic,KAGURA,0000,0000,0000,,Okay.
+Dialogue: 0,0:06:35.19,0:06:38.21,DCItalic,KOCHIYAMA,0000,0000,0000,,Smile more. Look happy!
+Dialogue: 0,0:06:42.29,0:06:45.82,DCMain,KAGURA,0000,0000,0000,,He used me to get likes.
+Dialogue: 0,0:06:47.17,0:06:49.22,DCMain,KOCHIYAMA,0000,0000,0000,,This is it.
+Dialogue: 0,0:06:49.43,0:06:56.93,Explodes,SIGN,0000,0000,0000,,"Unexploded Bomb Explodes!!"
+Dialogue: 0,0:06:50.28,0:06:54.88,DCMain,MITSUHIKO,0000,0000,0000,,"My friend was injured when he suffered \Ncollateral damage from an unexploded bomb."
+Dialogue: 0,0:06:54.88,0:06:56.60,DCMain,MITSUHIKO,0000,0000,0000,,"He's an unlucky man."
+Dialogue: 0,0:06:56.60,0:06:59.70,DCMain,MITSUHIKO,0000,0000,0000,,"But look at him smiling after \Nhe received compensation."
+Dialogue: 0,0:06:59.70,0:07:01.16,DCMain,MITSUHIKO,0000,0000,0000,,"Shameless, right?"
+Dialogue: 0,0:07:01.77,0:07:02.74,DCMain,MITSUHIKO,0000,0000,0000,,Indeed.
+Dialogue: 0,0:07:02.74,0:07:05.82,DCMain,GENTA,0000,0000,0000,,They say a wise man profits by his mistakes.
+Dialogue: 0,0:07:06.32,0:07:09.82,DCMain,CONAN,0000,0000,0000,,So this Tanuki Ponkichi name...
+Dialogue: 0,0:07:06.94,0:07:09.82,Tanuki,SIGN,0000,0000,0000,,Tanuki Ponkichi
+Dialogue: 0,0:07:10.02,0:07:11.45,DCMain,KOCHIYAMA,0000,0000,0000,,That's me.
+Dialogue: 0,0:07:15.12,0:07:16.09,DCMain,OTSUBO,0000,0000,0000,,Sorry.
+Dialogue: 0,0:07:17.08,0:07:20.46,DCMain,HARUKA,0000,0000,0000,,So since something similar happened today,
+Dialogue: 0,0:07:20.77,0:07:23.45,DCMain,HARUKA,0000,0000,0000,,Kagura-san will be compensated,
+Dialogue: 0,0:07:23.45,0:07:28.35,DCMain,HARUKA,0000,0000,0000,,and Kochiyama-san plans to \Nget more likes out of him.
+Dialogue: 0,0:07:29.81,0:07:32.59,DCMain,MITSUIHKO,0000,0000,0000,,That's why you seem happy.
+Dialogue: 0,0:07:34.03,0:07:35.86,DCMain,HAIBARA,0000,0000,0000,,What a despicable pair.
+Dialogue: 0,0:07:43.86,0:07:48.61,DCMain,KOCHIYAMA,0000,0000,0000,,It's a good thing you were injured \Nwhen you don't have any performances.
+Dialogue: 0,0:07:49.70,0:07:51.19,DCMain,CONAN,0000,0000,0000,,Performances?
+Dialogue: 0,0:07:51.19,0:07:54.74,DCMain,GENTA,0000,0000,0000,,He's an actor in some acting company.
+Dialogue: 0,0:07:55.73,0:07:58.37,DCMain,HARUKA,0000,0000,0000,,As a token of friendship...
+Dialogue: 0,0:07:58.42,0:08:01.87,Chonenten,SIGN,0000,0000,0000,,{\fad(250,1)}Chonenten
+Dialogue: 0,0:07:58.82,0:08:01.87,DCMain,HARUKA,0000,0000,0000,,We're the Chonenten Acting Company.
+Dialogue: 0,0:08:02.22,0:08:04.22,DCMain,MITSUHIKO,0000,0000,0000,,Chonenten Acting Company?
+Dialogue: 0,0:08:04.22,0:08:09.13,DCMain,MITSUHIKO,0000,0000,0000,,Come to think of it, isn't there a café \Nwith this name behind the station?
+Dialogue: 0,0:08:09.76,0:08:13.57,DCMain,HARUKA,0000,0000,0000,,The chairman of our company runs that place.
+Dialogue: 0,0:08:13.57,0:08:14.51,DCMain,MITSUHIKO,0000,0000,0000,,I see.
+Dialogue: 0,0:08:16.96,0:08:19.34,DCMain,AYUMI,0000,0000,0000,,There are photos of Kagura-san and you.
+Dialogue: 0,0:08:19.34,0:08:22.81,DCMain,CONAN,0000,0000,0000,,Huh? Kochiyama-san isn't on there.
+Dialogue: 0,0:08:23.46,0:08:28.42,DCMain,KAGURA,0000,0000,0000,,Kochiyama is unrelated to the \Ncompany. He's an old friend.
+Dialogue: 0,0:08:28.85,0:08:33.57,DCMain,HARUKA,0000,0000,0000,,But whenever we get together, \Nwe have a fun time.
+Dialogue: 0,0:08:33.88,0:08:36.32,DCMain,AYUMI,0000,0000,0000,,They're three best friends.
+Dialogue: 0,0:08:36.32,0:08:37.20,DCMain,HAIBARA,0000,0000,0000,,Sounds like it.
+Dialogue: 0,0:08:38.74,0:08:42.83,DCMain,KOCHIYAMA,0000,0000,0000,,Anyway, whoever called the bank...
+Dialogue: 0,0:08:43.18,0:08:45.45,DCMain,KOCHIYAMA,0000,0000,0000,,I'm sure they only meant to prank them,
+Dialogue: 0,0:08:45.45,0:08:48.27,DCMain,KOCHIYAMA,0000,0000,0000,,but they injured people totally \Nunconnected to the bank.
+Dialogue: 0,0:08:48.27,0:08:53.50,DCMain,KOCHIYAMA,0000,0000,0000,,They must be feeling really bad \Nabout the stupid thing they did.
+Dialogue: 0,0:08:54.09,0:08:56.34,DCMain,HARUKA,0000,0000,0000,,They'd better.
+Dialogue: 0,0:08:56.66,0:08:57.61,DCMain,HARUKA,0000,0000,0000,,Right?
+Dialogue: 0,0:08:57.61,0:08:58.79,DCMain,KAGURA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:59.37,0:09:03.37,DCMain,KOCHIYAMA,0000,0000,0000,,Let's have a drink tonight \Nto cleanse you of this evil.
+Dialogue: 0,0:09:03.37,0:09:05.50,DCMain,KOCHIYAMA,0000,0000,0000,,You'll be at your apartment, right?
+Dialogue: 0,0:09:05.50,0:09:06.27,DCMain,KAGURA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:06.58,0:09:09.03,DCMain,KAGURA,0000,0000,0000,,I can't work like this.
+Dialogue: 0,0:09:15.32,0:09:21.54,NurseStation,SIGN,0000,0000,0000,,{\fad(210,1)}Nurse's Station
+Dialogue: 0,0:09:16.19,0:09:21.54,DCMain,CONAN,0000,0000,0000,,Excuse me. Could you give me the address \Nof the Otsubo-san staying in that room?
+Dialogue: 0,0:09:21.75,0:09:22.55,DCMain,NURSE,0000,0000,0000,,What?
+Dialogue: 0,0:09:22.55,0:09:26.32,DCMain,CONAN,0000,0000,0000,,Kojima Genta who's also in that \Nroom is very grateful to him,
+Dialogue: 0,0:09:26.32,0:09:29.62,DCMain,CONAN,0000,0000,0000,,and wanted to surprise him \Nwith a thank you letter.
+Dialogue: 0,0:09:30.43,0:09:31.80,DCMain,NURSE,0000,0000,0000,,One moment.
+Dialogue: 0,0:09:32.45,0:09:34.10,DCMain,NURSE,0000,0000,0000,,Let's see...
+Dialogue: 0,0:09:34.70,0:09:35.91,DCMain,NURSE,0000,0000,0000,,Here it is.
+Dialogue: 0,0:09:36.37,0:09:38.46,DCMain,NURSE,0000,0000,0000,,This is a one-time thing.
+Dialogue: 0,0:09:38.46,0:09:40.53,DCMain,NURSE,0000,0000,0000,,Otsubo Kikuhide-san...
+Dialogue: 0,0:09:41.18,0:09:44.18,DCMain,SIGN,0000,0000,0000,,"How can this be a coincidence?!"
+Dialogue: 0,0:09:44.68,0:09:46.80,DCMain,KAGURA,0000,0000,0000,,You already uploaded the photo.
+Dialogue: 0,0:09:46.80,0:09:47.98,DCMain,KOCHIYAMA,0000,0000,0000,,Good deeds should be done quickly.
+Dialogue: 0,0:09:47.98,0:09:49.17,DCMain,KAGURA,0000,0000,0000,,Good?
+Dialogue: 0,0:09:50.83,0:09:53.44,DCMain,CONAN,0000,0000,0000,,Huh? You're leaving already?
+Dialogue: 0,0:09:53.83,0:09:56.93,DCMain,KAGURA,0000,0000,0000,,Yeah. Everyone's been cleared to leave.
+Dialogue: 0,0:09:56.93,0:09:59.16,DCMain,KAGURA,0000,0000,0000,,Genta-kun should be coming soon, too.
+Dialogue: 0,0:09:59.33,0:10:05.29,DCMain,CONAN,0000,0000,0000,,Do you guys know the Otsubo-san \Nwho was staying in your room?
+Dialogue: 0,0:10:05.29,0:10:07.14,DCMain,KAGURA,0000,0000,0000,,Huh? No.
+Dialogue: 0,0:10:07.14,0:10:09.29,DCMain,KOCHIYAMA,0000,0000,0000,,We don't know him. Why?
+Dialogue: 0,0:10:09.55,0:10:12.17,DCMain,CONAN,0000,0000,0000,,No reason. I just thought you might.
+Dialogue: 0,0:10:12.53,0:10:13.53,DCMain,CONAN,0000,0000,0000,,Bye!
+Dialogue: 0,0:10:13.53,0:10:14.99,DCMain,KOCHIYAMA,0000,0000,0000,,Uh, yeah.
+Dialogue: 0,0:10:14.99,0:10:15.80,DCMain,HARUKA,0000,0000,0000,,Bye.
+Dialogue: 0,0:10:16.53,0:10:19.13,DCMain,MITSUHIKO,0000,0000,0000,,Where have you been, Conan-kun?
+Dialogue: 0,0:10:19.46,0:10:22.01,DCMain,CONAN,0000,0000,0000,,Sorry, sorry. I had to go to the bathroom.
+Dialogue: 0,0:10:22.01,0:10:23.82,DCMain,MITSUHIKO,0000,0000,0000,,Let's get started.
+Dialogue: 0,0:10:23.82,0:10:26.18,DCMain,CONAN,0000,0000,0000,,What? Started on what?
+Dialogue: 0,0:10:26.18,0:10:28.81,DCMain,MITSUHIKO,0000,0000,0000,,On finding the culprit, of course.
+Dialogue: 0,0:10:29.03,0:10:32.44,DCMain,AYUMI,0000,0000,0000,,Genta-kun was injured. \NWe can't just ignore it.
+Dialogue: 0,0:10:32.65,0:10:34.00,DCMain,GENTA,0000,0000,0000,,Not just me.
+Dialogue: 0,0:10:34.00,0:10:38.36,DCMain,GENTA,0000,0000,0000,,That Kagura guy and all the \Nothers suffered a horrible fate.
+Dialogue: 0,0:10:38.36,0:10:41.20,DCMain,GENTA,0000,0000,0000,,We've gotta catch the culprit.
+Dialogue: 0,0:10:42.03,0:10:45.66,DCMain,GENTA,0000,0000,0000,,Let's start by asking the police \Nif they've found anything.
+Dialogue: 0,0:10:45.66,0:10:47.58,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:10:48.69,0:10:50.66,DCMain,HAIBARA,0000,0000,0000,,Look at them. They're so excited.
+Dialogue: 0,0:10:50.66,0:10:51.99,DCMain,HAIBARA,0000,0000,0000,,What will you do?
+Dialogue: 0,0:10:57.20,0:11:00.54,DCMain,GENTA,0000,0000,0000,,Looks like they don't have any clues yet.
+Dialogue: 0,0:11:00.54,0:11:05.36,DCMain,MITSUHIKO,0000,0000,0000,,They're just starting to think \Nabout how to determine the culprit.
+Dialogue: 0,0:11:05.77,0:11:07.10,DCMain,MITSUHIKO,0000,0000,0000,,Hey, isn't that...
+Dialogue: 0,0:11:07.10,0:11:17.11,Coincidence,SIGN,0000,0000,0000,,"How can this be a coincidence?!"
+Dialogue: 0,0:11:07.31,0:11:11.74,DCMain,AYUMI,0000,0000,0000,,{\an8}Tanuki Ponkichi. That's \NKochiyama-san's new post.
+Dialogue: 0,0:11:11.74,0:11:17.11,DCMain,HAIBARA,0000,0000,0000,,{\an8}"The man I introduced as my unlucky \Nbut shameless friend half a month ago
+Dialogue: 0,0:11:17.11,0:11:19.98,DCMain,HAIBARA,0000,0000,0000,,{\an8}suffered more collateral damage!"
+Dialogue: 0,0:11:19.98,0:11:21.61,DCMain,HAIBARA,0000,0000,0000,,{\an8}"Unbelievable, right?"
+Dialogue: 0,0:11:21.98,0:11:26.05,DCMain,MITSUHIKO,0000,0000,0000,,Two incidents in half a month?
+Dialogue: 0,0:11:26.05,0:11:29.80,DCMain,MITSUHIKO,0000,0000,0000,,Kagura-san really is unlucky.
+Dialogue: 0,0:11:29.80,0:11:31.31,DCMain,BOTH,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:31.31,0:11:35.83,DCMain,CONAN,0000,0000,0000,,Unbelievable, huh? It really is.
+Dialogue: 0,0:11:35.83,0:11:36.96,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:11:36.96,0:11:38.00,DCMain,HAIBARA,0000,0000,0000,,Could it be?
+Dialogue: 0,0:11:38.47,0:11:42.26,DCMain,CONAN,0000,0000,0000,,I'm not trying to sound like Kochiyama-san, \Nbut this can't be a coincidence.
+Dialogue: 0,0:11:42.55,0:11:43.24,DCMain,GENTA,0000,0000,0000,,What?
+Dialogue: 0,0:11:43.24,0:11:44.89,DCMain,MITSUHIKO,0000,0000,0000,,Conan-kun, could it be?
+Dialogue: 0,0:11:45.27,0:11:49.98,DCMain,CONAN,0000,0000,0000,,The collateral damage from the bomb a \Nhalf-month ago probably was a coincidence.
+Dialogue: 0,0:11:50.60,0:11:54.62,DCMain,CONAN,0000,0000,0000,,But it's possible he got a taste \Nfor the money he received then,
+Dialogue: 0,0:11:54.90,0:11:57.50,DCMain,CONAN,0000,0000,0000,,and tried to get some more.
+Dialogue: 0,0:11:57.98,0:12:01.48,DCItalic,KAGURA,0000,0000,0000,,Several bombs have been \Nplaced around your bank.
+Dialogue: 0,0:12:02.36,0:12:06.28,DCMain,CONAN,0000,0000,0000,,He called the bank and caused a panic,
+Dialogue: 0,0:12:06.54,0:12:10.17,DCMain,CONAN,0000,0000,0000,,making it look like he \Nsuffered collateral damage.
+Dialogue: 0,0:12:11.20,0:12:13.46,DCMain,CONAN,0000,0000,0000,,It's not impossible.
+Dialogue: 0,0:12:14.09,0:12:16.91,DCMain,CONAN,0000,0000,0000,,He doesn't have any performances \Nright now, right?
+Dialogue: 0,0:12:16.91,0:12:21.05,DCMain,GENTA,0000,0000,0000,,He was waiting for a time he \Ncould afford to be injured?
+Dialogue: 0,0:12:21.34,0:12:23.96,DCMain,AYUMI,0000,0000,0000,,So the culprit is Kagura-san?
+Dialogue: 0,0:12:23.96,0:12:28.43,DCMain,AYUMI,0000,0000,0000,,Then Kochiyama-san and Haruka-oneesan...
+Dialogue: 0,0:12:28.71,0:12:31.31,DCMain,GENTA,0000,0000,0000,,He fooled us, too.
+Dialogue: 0,0:12:31.78,0:12:33.88,DCMain,HAIBARA,0000,0000,0000,,That is what it means.
+Dialogue: 0,0:12:34.32,0:12:36.69,DCMain,AYUMI,0000,0000,0000,,But they're three best friends.
+Dialogue: 0,0:12:36.92,0:12:39.98,DCMain,MITSUHIKO,0000,0000,0000,,Let's investigate Kagura-san.
+Dialogue: 0,0:12:39.98,0:12:41.30,DCMain,GENTA,0000,0000,0000,,Let's ask around.
+Dialogue: 0,0:12:41.30,0:12:44.71,DCMain,HAIBARA,0000,0000,0000,,We could also follow him. \NWe might discover something.
+Dialogue: 0,0:12:44.71,0:12:48.38,DCMain,CONAN,0000,0000,0000,,Do it. I'm going to look into Otsubo-san.
+Dialogue: 0,0:12:48.38,0:12:50.63,DCMain,MITSUHIKO,0000,0000,0000,,Is he involved, too?
+Dialogue: 0,0:12:50.63,0:12:55.21,DCMain,CONAN,0000,0000,0000,,No, but there's something \Nabout him that's bothering me.
+Dialogue: 0,0:12:55.21,0:12:58.34,DCMain,MITSUHIKO,0000,0000,0000,,Got it. Let's split up.
+Dialogue: 0,0:12:58.61,0:12:59.63,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:13:10.51,0:13:12.77,DCNote,SIGN,0000,0000,0000,,Izakaya Sasai
+Dialogue: 0,0:13:11.14,0:13:12.77,DCMain,KAGURA,0000,0000,0000,,Sorry, boss.
+Dialogue: 0,0:13:13.32,0:13:15.77,DCMain,KAGURA,0000,0000,0000,,As you can see, I won't be \Nable to work for a while.
+Dialogue: 0,0:13:16.35,0:13:17.95,DCMain,KAGURA,0000,0000,0000,,Sorry.
+Dialogue: 0,0:13:17.95,0:13:21.78,DCMain,MANAGER,0000,0000,0000,,It's fine. Anyway, you really are unlucky.
+Dialogue: 0,0:13:22.02,0:13:26.15,DCMain,KAGURA,0000,0000,0000,,I know. I have no idea why I'm so unlucky.
+Dialogue: 0,0:13:28.59,0:13:30.67,DCMain,KAGURA,0000,0000,0000,,Anyway, I'll call you later.
+Dialogue: 0,0:13:30.67,0:13:32.41,DCMain,MANAGER,0000,0000,0000,,Sure. Take care.
+Dialogue: 0,0:13:43.55,0:13:46.04,DCMain,KAGURA,0000,0000,0000,,Long time, no see.
+Dialogue: 0,0:13:46.04,0:13:49.30,DCMain,KAGURA,0000,0000,0000,,Look. Something crazy happened to me again.
+Dialogue: 0,0:13:49.30,0:13:52.53,DCMain,FRIEND,0000,0000,0000,,{\an8}Oh, I saw the news. That must've been rough.
+Dialogue: 0,0:13:49.63,0:13:52.85,DCMain,AYUMI,0000,0000,0000,,It's like he's telling everyone.
+Dialogue: 0,0:13:52.85,0:13:56.81,DCMain,HAIBARA,0000,0000,0000,,"I'm simply a victim \Nof collateral damage."
+Dialogue: 0,0:13:57.08,0:14:00.45,DCMain,HAIBARA,0000,0000,0000,,That could be his strategy to convince \Neveryone that's what happened.
+Dialogue: 0,0:14:02.07,0:14:03.49,ChonentenCafe,SIGN,0000,0000,0000,,Chonenten
+Dialogue: 0,0:14:03.72,0:14:05.57,DCMain,DEWA,0000,0000,0000,,What? Our Kagura?
+Dialogue: 0,0:14:05.90,0:14:06.57,DCMain,MITSUHIKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:14:06.57,0:14:10.07,DCMain,MITSUHIKO,0000,0000,0000,,As the company chairman, what kind \Nof person do you think he is?
+Dialogue: 0,0:14:10.24,0:14:13.24,Chiichiro,SIGN,0000,0000,0000,,{\fad(250,460)}Dewa Chiichiro (30)
+Dialogue: 0,0:14:10.72,0:14:13.49,DCMain,DEWA,0000,0000,0000,,{\an8}What kind of person is he?
+Dialogue: 0,0:14:13.49,0:14:14.95,DCMain,DEWA,0000,0000,0000,,He's a good-natured guy, right?
+Dialogue: 0,0:14:15.28,0:14:16.52,DCMain,ACTOR,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:16.52,0:14:17.64,DCMain,ACTOR,0000,0000,0000,,Right.
+Dialogue: 0,0:14:17.64,0:14:20.12,DCMain,GENTA,0000,0000,0000,,Are these guys in the company, too?
+Dialogue: 0,0:14:20.12,0:14:22.71,DCMain,DEWA,0000,0000,0000,,This is where we hang out.
+Dialogue: 0,0:14:23.27,0:14:28.44,DCMain,MITSUHIKO,0000,0000,0000,,Half a month ago, Kagura-san suffered \Ncollateral damage from an unexploded bomb.
+Dialogue: 0,0:14:28.44,0:14:30.47,DCMain,MITSUHIKO,0000,0000,0000,,Do you know anything about that?
+Dialogue: 0,0:14:30.85,0:14:33.61,DCMain,DEWA,0000,0000,0000,,He didn't learn his lesson.
+Dialogue: 0,0:14:33.61,0:14:38.97,DCMain,DEWA,0000,0000,0000,,Afterwards he was saying, "Maybe I'll \Nsuffer some more tasty collateral damage."
+Dialogue: 0,0:14:38.97,0:14:40.60,DCMain,ACTOR,0000,0000,0000,,He did say that.
+Dialogue: 0,0:14:40.93,0:14:44.46,DCMain,ACTOR,0000,0000,0000,,Like he was hoping he'd \Nreceive more money, right?
+Dialogue: 0,0:14:44.46,0:14:47.24,DCMain,ACTOR,0000,0000,0000,,Even though that never happens.
+Dialogue: 0,0:14:47.24,0:14:48.88,DCMain,ACTOR,0000,0000,0000,,I know.
+Dialogue: 0,0:14:48.88,0:14:51.24,DCMain,GENTA,0000,0000,0000,,This sounds like what Conan said.
+Dialogue: 0,0:14:51.51,0:14:52.23,DCMain,MITSUHIKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:14:52.23,0:14:54.71,DCMain,MITSUHIKO,0000,0000,0000,,He did it for the money.
+Dialogue: 0,0:14:54.99,0:15:03.25,OtsoboDoorplate,SIGN,0000,0000,0000,,Otsubo
+Dialogue: 0,0:14:55.78,0:15:00.26,DCMain,YASUKAWA,0000,0000,0000,,Oh, Otsubo-kun? We're pretty close.
+Dialogue: 0,0:15:00.26,0:15:03.25,DCMain,YASUKAWA,0000,0000,0000,,We're neighbors and have a lot of free time.
+Dialogue: 0,0:15:03.25,0:15:11.76,Poet,SIGN,0000,0000,0000,,I am a poet
+Dialogue: 0,0:15:03.60,0:15:08.55,DCMain,YASUKAWA,0000,0000,0000,,{\an8}His life's purpose is finding \Nunusual and interesting things
+Dialogue: 0,0:15:08.55,0:15:11.76,DCMain,YASUKAWA,0000,0000,0000,,{\an8}to upload to social media for likes.
+Dialogue: 0,0:15:12.19,0:15:16.79,DCMain,YASUKAWA,0000,0000,0000,,{\an8}But he apparently has a \Ntough rival on social media.
+Dialogue: 0,0:15:12.84,0:15:16.31,Shiro,SIGN,0000,0000,0000,,{\fad(250,460)}Yasukawa Shiro (35)
+Dialogue: 0,0:15:16.79,0:15:18.03,DCMain,CONAN,0000,0000,0000,,A rival?
+Dialogue: 0,0:15:18.24,0:15:21.44,Explodes2,SIGN,0000,0000,0000,,{\fad(460,1)}"Unexploded Bomb Explodes!!"
+Dialogue: 0,0:15:19.26,0:15:21.44,DCItalic,OTSUBO,0000,0000,0000,,{\an8}He got a bunch of likes again.
+Dialogue: 0,0:15:22.00,0:15:27.45,DCItalic,OTSUBO,0000,0000,0000,,Who is this Tanuki Ponkichi who \Nkeeps making interesting posts?
+Dialogue: 0,0:15:27.99,0:15:29.44,DCMain,YASUKAWA,0000,0000,0000,,That's what he told me.
+Dialogue: 0,0:15:29.78,0:15:31.10,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:15:31.70,0:15:37.70,DCItalic,CONAN,0000,0000,0000,,That's why he reacted like that upon learning \NKochiyama-san is Tanuki Ponkichi, his rival.
+Dialogue: 0,0:15:38.27,0:15:42.08,DCMain,YASUKAWA,0000,0000,0000,,But Otsubo-kun said he wouldn't be beat.
+Dialogue: 0,0:15:42.08,0:15:43.83,DCMain,YASUKAWA,0000,0000,0000,,I think it was two days ago...
+Dialogue: 0,0:15:44.66,0:15:47.02,DCItalic,OTSUBO,0000,0000,0000,,I thought of a good idea.
+Dialogue: 0,0:15:47.02,0:15:50.95,DCItalic,OTSUBO,0000,0000,0000,,I'm going to find this \Nunlucky man and follow him.
+Dialogue: 0,0:15:50.95,0:15:54.47,DCItalic,OTSUBO,0000,0000,0000,,He's sure to suffer some misfortune again,
+Dialogue: 0,0:15:54.69,0:15:57.72,DCItalic,OTSUBO,0000,0000,0000,,so I'll post about it first.
+Dialogue: 0,0:16:00.21,0:16:02.47,DCMain,YASUKAWA,0000,0000,0000,,Stupid, right?
+Dialogue: 0,0:16:04.03,0:16:08.53,DCItalic,CONAN,0000,0000,0000,,Otsubo-san came to Beika City and suffered \Ncollateral damage not by coincidence,
+Dialogue: 0,0:16:08.53,0:16:12.34,DCItalic,CONAN,0000,0000,0000,,but because he was following Kagura-san.
+Dialogue: 0,0:16:13.85,0:16:16.54,DCItalic,CONAN,0000,0000,0000,,Which means... Could it be?
+Dialogue: 0,0:16:18.88,0:16:22.75,DCMain,MITSUHIKO,0000,0000,0000,,Apparently Kagura-san said he hoped to suffer
+Dialogue: 0,0:16:23.10,0:16:25.76,DCMain,MITSUHIKO,0000,0000,0000,,some more "tasty" collateral damage.
+Dialogue: 0,0:16:25.76,0:16:29.12,DCMain,HAIBARA,0000,0000,0000,,Since he couldn't just wait \Naround for it to happen,
+Dialogue: 0,0:16:29.12,0:16:32.35,DCMain,HAIBARA,0000,0000,0000,,he made the bomb threat and caused a panic.
+Dialogue: 0,0:16:33.29,0:16:38.28,DCMain,AYUMI,0000,0000,0000,,Is Kagura-san really such a bad person?
+Dialogue: 0,0:16:38.28,0:16:39.05,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:16:39.05,0:16:42.77,DCMain,HAIBARA,0000,0000,0000,,While following him,
+Dialogue: 0,0:16:42.77,0:16:44.89,DCMain,HAIBARA,0000,0000,0000,,he seemed like a very cheerful \Nand sociable person.
+Dialogue: 0,0:16:44.89,0:16:48.36,DCMain,HAIBARA,0000,0000,0000,,Even though he'd just been injured, \Nhe never stopped smiling.
+Dialogue: 0,0:16:48.64,0:16:52.07,DCMain,AYUMI,0000,0000,0000,,The people he was talking \Nto were smiling, too.
+Dialogue: 0,0:16:52.07,0:16:54.86,DCMain,MITSUHIKO,0000,0000,0000,,That's because he's going to be compensated.
+Dialogue: 0,0:16:55.12,0:17:00.12,DCMain,AYUMI,0000,0000,0000,,But he didn't seem like a bad person \Nwho would trick his friends.
+Dialogue: 0,0:17:00.12,0:17:02.74,DCMain,HAIBARA,0000,0000,0000,,But he's an actor.
+Dialogue: 0,0:17:02.74,0:17:06.63,DCMain,HAIBARA,0000,0000,0000,,It's possible it was all an act.
+Dialogue: 0,0:17:07.02,0:17:08.67,DCMain,AYUMI,0000,0000,0000,,You think so?
+Dialogue: 0,0:17:08.96,0:17:15.01,DCMain,MITSUHIKO,0000,0000,0000,,He told his actor friends that he \Nhoped to suffer more collateral damage
+Dialogue: 0,0:17:15.01,0:17:16.94,DCMain,MITSUHIKO,0000,0000,0000,,so he'd receive more money.
+Dialogue: 0,0:17:16.94,0:17:19.28,DCMain,MITSUHIKO,0000,0000,0000,,That could be his true nature.
+Dialogue: 0,0:17:19.28,0:17:22.97,DCMain,GENTA,0000,0000,0000,,Then it's decided. The culprit is Kagura-san.
+Dialogue: 0,0:17:22.97,0:17:28.19,DCMain,CONAN,0000,0000,0000,,But the implausibility of the coincidence \Nisn't a strong enough basis for anything.
+Dialogue: 0,0:17:28.59,0:17:30.35,DCMain,MITSUHIKO,0000,0000,0000,,We need evidence.
+Dialogue: 0,0:17:30.35,0:17:34.19,DCMain,CONAN,0000,0000,0000,,That's where Otsubo Kikuhide-san comes in.
+Dialogue: 0,0:17:34.58,0:17:37.45,DCMain,CONAN,0000,0000,0000,,If he was following Kagura-san,
+Dialogue: 0,0:17:37.94,0:17:41.83,DCMain,CONAN,0000,0000,0000,,then it's possible he saw \NKagura-san make the call.
+Dialogue: 0,0:17:43.59,0:17:48.89,DCMain,CONAN,0000,0000,0000,,I was waiting to confirm that, \Nbut Otsubo-san hasn't come home.
+Dialogue: 0,0:17:49.44,0:17:51.84,DCMain,MITSUHIKO,0000,0000,0000,,We'll do all of it tomorrow.
+Dialogue: 0,0:17:52.07,0:17:52.75,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:53.12,0:17:58.05,DCMain,CONAN,0000,0000,0000,,We'll check in with Otsubo-san and do \Nwhatever it takes to find conclusive evidence.
+Dialogue: 0,0:17:58.05,0:17:59.82,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:18:06.08,0:18:07.02,DCMain,OTSUBO,0000,0000,0000,,I see.
+Dialogue: 0,0:18:08.07,0:18:10.02,DCMain,OTSUBO,0000,0000,0000,,So that's what happened.
+Dialogue: 0,0:18:12.26,0:18:15.33,DCMain,OTSUBO,0000,0000,0000,,I'll expose everything!
+Dialogue: 0,0:18:22.72,0:18:26.04,DCMain,GENTA,0000,0000,0000,,All right! Let's resume the investigation!
+Dialogue: 0,0:18:26.47,0:18:29.55,DCMain,CONAN,0000,0000,0000,,I'm going to check with Otsubo-san.
+Dialogue: 0,0:18:29.55,0:18:31.10,DCMain,MITSUHIKO,0000,0000,0000,,Then I'll—
+Dialogue: 0,0:18:32.20,0:18:34.02,DCMain,MITSUHIKO,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:18:42.95,0:18:44.21,DCMain,CONAN,0000,0000,0000,,Otsubo-san?
+Dialogue: 0,0:18:44.21,0:18:45.24,DCMain,AYUMI,0000,0000,0000,,No way!
+Dialogue: 0,0:18:45.24,0:18:47.23,DCMain,GENTA,0000,0000,0000,,Why him?
+Dialogue: 0,0:18:47.23,0:18:49.60,DCMain,TAKAGI,0000,0000,0000,,Kids, don't enter the crime scene.
+Dialogue: 0,0:18:49.60,0:18:51.77,DCMain,CHIBA,0000,0000,0000,,Do you know him?
+Dialogue: 0,0:18:51.77,0:18:53.62,DCMain,CONAN,0000,0000,0000,,Yeah. Was he murdered?
+Dialogue: 0,0:18:53.62,0:18:55.11,DCMain,TAKAGI,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:18:55.52,0:19:00.92,DCMain,TAKAGI,0000,0000,0000,,We don't know the details yet, but \Nhe was probably struck with a rock.
+Dialogue: 0,0:19:00.92,0:19:04.12,DCMain,TAKAGI,0000,0000,0000,,We think it happened around eight last night.
+Dialogue: 0,0:19:04.56,0:19:05.34,DCMain,TAKAGI,0000,0000,0000,,Wait a minute...
+Dialogue: 0,0:19:05.34,0:19:07.87,DCMain,MEGURE,0000,0000,0000,,You kids knew the victim?
+Dialogue: 0,0:19:08.11,0:19:14.14,DCMain,GENTA,0000,0000,0000,,You know the bomb threat made to \Nthat bank yesterday afternoon?
+Dialogue: 0,0:19:14.14,0:19:17.51,DCMain,MEGURE,0000,0000,0000,,Yes, though it turned out to be nonsense.
+Dialogue: 0,0:19:17.95,0:19:22.34,DCMain,HAIBARA,0000,0000,0000,,But because it was a Friday at the end \Nof the month, it caused a huge panic.
+Dialogue: 0,0:19:22.55,0:19:24.81,DCMain,AYUMI,0000,0000,0000,,Genta-kun got caught up in it.
+Dialogue: 0,0:19:24.81,0:19:29.02,DCMain,MITSUHIKO,0000,0000,0000,,Otsubo-san was another one of the victims.
+Dialogue: 0,0:19:29.02,0:19:30.06,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:19:30.06,0:19:32.63,DCMain,MEGURE,0000,0000,0000,,And the night of the incident,
+Dialogue: 0,0:19:32.63,0:19:37.27,DCMain,MEGURE,0000,0000,0000,,victim Otsubo-san was murdered.
+Dialogue: 0,0:19:37.27,0:19:38.32,DCMain,CHIBA,0000,0000,0000,,Inspector.
+Dialogue: 0,0:19:39.34,0:19:41.77,DCMain,MEGURE,0000,0000,0000,,We'll have to investigate to see
+Dialogue: 0,0:19:41.77,0:19:46.86,DCMain,MEGURE,0000,0000,0000,,if yesterday's bomb scare \Nand this case are related.
+Dialogue: 0,0:19:46.86,0:19:47.66,DCMain,BOTH,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:19:52.46,0:19:57.30,DCMain,AYUMI,0000,0000,0000,,Like Inspector Megure said, I wonder if \Nthis is related to yesterday's incident.
+Dialogue: 0,0:19:57.51,0:20:02.20,DCMain,GENTA,0000,0000,0000,,Let's do whatever it takes to \Nfind our culprit ourselves, too.
+Dialogue: 0,0:20:02.20,0:20:02.85,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:02.85,0:20:03.90,DCMain,MITSUHIKO,0000,0000,0000,,Let's do it.
+Dialogue: 0,0:20:03.90,0:20:09.55,DCMain,HAIBARA,0000,0000,0000,,It's possible Edogawa-kun \Nis right and Otsubo-san
+Dialogue: 0,0:20:09.55,0:20:16.07,DCMain,HAIBARA,0000,0000,0000,,learned a grave secret about yesterday's \Nincident and was killed for it.
+Dialogue: 0,0:20:16.07,0:20:16.91,DCMain,MITSUHIKO,0000,0000,0000,,What?
+Dialogue: 0,0:20:16.91,0:20:21.97,DCMain,MITSUHIKO,0000,0000,0000,,Wouldn't that mean Otsubo-san \Nwas killed by Kagura-san?
+Dialogue: 0,0:20:21.97,0:20:22.50,DCMain,GENTA,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:22.50,0:20:23.21,DCMain,AYUMI,0000,0000,0000,,What?
+Dialogue: 0,0:20:26.33,0:20:30.95,DCMain,MITSUHIKO,0000,0000,0000,,Otsubo-san must've seen him yesterday
+Dialogue: 0,0:20:30.95,0:20:33.12,DCMain,MITSUHIKO,0000,0000,0000,,while following Kagura-san \Nfor social media fodder.
+Dialogue: 0,0:20:33.85,0:20:37.63,DCMain,MITSUHIKO,0000,0000,0000,,He saw Kagura-san calling the bank.
+Dialogue: 0,0:20:38.10,0:20:42.13,DCMain,MITSUHIKO,0000,0000,0000,,At the time, he probably didn't \Nknow he was making a bomb threat.
+Dialogue: 0,0:20:42.55,0:20:44.41,DCMain,MITSUHIKO,0000,0000,0000,,After leaving the hospital,
+Dialogue: 0,0:20:44.41,0:20:49.69,DCMain,MITSUHIKO,0000,0000,0000,,Otsubo-san followed unlucky man \NKagura-san for social media fodder.
+Dialogue: 0,0:20:50.36,0:20:57.15,DCMain,MITSUHIKO,0000,0000,0000,,Something made him realize Kagura-san \Ncaused the bomb scare and questioned him.
+Dialogue: 0,0:20:58.66,0:21:00.65,DCItalic,OTSUBO,0000,0000,0000,,So that's what happened.
+Dialogue: 0,0:21:02.83,0:21:05.91,DCItalic,OTSUBO,0000,0000,0000,,I'll expose everything!
+Dialogue: 0,0:21:08.48,0:21:10.16,DCMain,MITSUHIKO,0000,0000,0000,,Knowing that would only end poorly for him,
+Dialogue: 0,0:21:11.46,0:21:14.83,DCMain,MITSUHIKO,0000,0000,0000,,Kagura-san acted to silence him!
+Dialogue: 0,0:21:17.59,0:21:21.84,DCMain,CONAN,0000,0000,0000,,It's not impossible. It makes sense.
+Dialogue: 0,0:21:21.84,0:21:23.09,DCMain,ALL,0000,0000,0000,,Right?
+Dialogue: 0,0:21:23.60,0:21:25.53,DCMain,CONAN,0000,0000,0000,,It makes sense, but...
+Dialogue: 0,0:21:27.13,0:21:29.10,DCMain,CONAN,0000,0000,0000,,There's something...
+Dialogue: 0,0:21:29.31,0:21:32.62,DCMain,MITSUHIKO,0000,0000,0000,,Let's tell Inspector Megure our reasoning.
+Dialogue: 0,0:21:32.62,0:21:35.58,DCMain,CONAN,0000,0000,0000,,Even if he killed him to silence him,
+Dialogue: 0,0:21:35.58,0:21:40.57,DCMain,CONAN,0000,0000,0000,,that reasoning assumes Kagura-san \Nmade the bomb threat.
+Dialogue: 0,0:21:40.57,0:21:41.78,DCMain,MITSUHIKO,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:21:41.78,0:21:44.41,DCMain,MITSUHIKO,0000,0000,0000,,Since we don't have any proof of that,
+Dialogue: 0,0:21:44.41,0:21:48.73,DCMain,MITSUHIKO,0000,0000,0000,,the reasoning for Otsubo-san's \Nmurder is just speculation.
+Dialogue: 0,0:21:48.73,0:21:51.27,DCMain,GENTA,0000,0000,0000,,You guys keep talking about evidence,
+Dialogue: 0,0:21:51.27,0:21:55.50,DCMain,GENTA,0000,0000,0000,,but even without it, I'll put the \Nscrews on him until he confesses!
+Dialogue: 0,0:21:55.50,0:21:56.29,DCMain,AYUMI,0000,0000,0000,,Genta-kun!
+Dialogue: 0,0:21:56.29,0:21:57.08,DCMain,MITSUHIKO,0000,0000,0000,,Hey!
+Dialogue: 0,0:21:58.10,0:21:59.93,DCMain,MITSUHIKO,0000,0000,0000,,What should we do, Conan-kun?
+Dialogue: 0,0:21:59.93,0:22:01.85,DCMain,CONAN,0000,0000,0000,,That might work.
+Dialogue: 0,0:22:01.85,0:22:02.78,DCMain,MITSUHIKO,0000,0000,0000,,What?
+Dialogue: 0,0:22:02.78,0:22:04.83,DCMain,CONAN,0000,0000,0000,,We won't give him a hard time,
+Dialogue: 0,0:22:04.83,0:22:08.76,DCMain,CONAN,0000,0000,0000,,but we might be able to pick something \Nup by going directly to Kagura-san.
+Dialogue: 0,0:22:09.21,0:22:12.68,DCMain,HAIBARA,0000,0000,0000,,He might reveal something about himself.
+Dialogue: 0,0:22:13.10,0:22:17.02,DCMain,CONAN,0000,0000,0000,,Yeah. Let's go talk to Kagura-san.
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.68,0:23:46.98,DCMain,KAGURA,0000,0000,0000,,Otsubo-san did?
+Dialogue: 0,0:23:48.80,0:23:50.52,DCMain,HAIBARA,0000,0000,0000,,So you heard, apparently...
+Dialogue: 0,0:23:50.52,0:23:52.49,DCMain,HAIBARA,0000,0000,0000,,It's all starting to sound suspicious.
+Dialogue: 0,0:23:53.43,0:23:54.24,DCMain,ALL,0000,0000,0000,,Conan-kun?!
+Dialogue: 0,0:23:55.76,0:23:56.99,DCMain,HARU,0000,0000,0000,,A love triangle?
+Dialogue: 0,0:24:01.20,0:24:02.66,DCMain,KOCHIYAMA,0000,0000,0000,,I don't understand!
+Dialogue: 0,0:24:02.66,0:24:05.38,DCMain,KOCHIYAMA,0000,0000,0000,,I thought Kagura was just \Ndrinking a beer, but then—
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,The Cost of Likes \N(Part Two)
+Dialogue: 0,0:24:09.72,0:24:14.37,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Cost of Likes, Part Two!"
+Dialogue: 0,0:24:30.03,0:24:34.95,Hint,TEXT,0000,0000,0000,,Phone
+Dialogue: 0,0:24:30.33,0:24:32.86,DCMain,ALL,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.86,0:24:34.52,DCMain,CONAN,0000,0000,0000,,A phone!
+Dialogue: 0,0:24:34.95,0:24:35.94,DCMain,AYUMI,0000,0000,0000,,{\an8}These adults.
+Dialogue: 0,0:24:34.95,0:24:39.95,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.94,0:24:36.54,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}Like.
+Dialogue: 0,0:24:36.54,0:24:37.39,DCMain,GENTA,0000,0000,0000,,{\an8}No, wait.
+Dialogue: 0,0:24:37.39,0:24:38.35,DCMain,HAIBARA,0000,0000,0000,,{\an8}Dislike.
+Dialogue: 0,0:24:38.35,0:24:39.48,DCMain,CONAN,0000,0000,0000,,{\an8}I like that.
+Dialogue: 0,0:24:39.48,0:24:41.48,DCMain,,0000,0000,0000,,

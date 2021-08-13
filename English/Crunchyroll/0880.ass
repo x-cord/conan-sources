@@ -1,0 +1,384 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Saburo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00D58893,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0060,0010,0067,0
+Style: Hana,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00BA7990,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0155,0067,0
+Style: Hideto,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00752635,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0075,0010,0067,0
+Style: Chieko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0093485F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0105,0010,0067,0
+Style: Nobuteru,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00903D81,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0120,0010,0067,0
+Style: Poison,Trebuchet MS,18,&H007E898B,&H000000FF,&H00B8C7C9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0135,0010,0145,0
+Style: Open,Trebuchet MS,24,&H00020309,&H000000FF,&H005642AC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0010,0010,0050,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:15.12,0:00:19.92,DCMain,OTAGURO,0000,0000,0000,,Ah, you came. I've been waiting for you.
+Dialogue: 0,0:00:36.65,0:00:38.05,DCMain,CONAN,0000,0000,0000,,Thank you.
+Dialogue: 0,0:00:38.30,0:00:42.43,Saburo,TEXT,0000,0000,0000,,{\fad(250,1)}Yoshimoto Saburo (45) \NServant
+Dialogue: 0,0:00:38.59,0:00:42.43,DCMain,SABURO,0000,0000,0000,,{\an8}You kids don't seem to be from around here.
+Dialogue: 0,0:00:42.65,0:00:44.94,DCMain,MITSUHIKO,0000,0000,0000,,We came here to go camping.
+Dialogue: 0,0:00:44.94,0:00:49.07,DCMain,GENTA,0000,0000,0000,,It suddenly started raining when \Nwe went to see the lighthouse.
+Dialogue: 0,0:00:49.28,0:00:52.07,DCMain,AYUMI,0000,0000,0000,,The roads turned into rivers.
+Dialogue: 0,0:00:52.23,0:00:56.11,Hana,TEXT,0000,0000,0000,,{\fad(250,250)}Yoshimoto Hana (42) \NServant
+Dialogue: 0,0:00:52.40,0:00:55.94,DCMain,HANA,0000,0000,0000,,{\an8}Not even an umbrella would \Nhelp you in this downpour.
+Dialogue: 0,0:00:56.11,0:00:59.96,DCMain,SABURO,0000,0000,0000,,You can stay while it's raining, but \Nyou have to leave once it stops.
+Dialogue: 0,0:00:59.96,0:01:02.83,DCMain,SABURO,0000,0000,0000,,Nothing good comes from staying here.
+Dialogue: 0,0:01:03.01,0:01:05.42,DCMain,GENTA,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:01:05.42,0:01:09.04,DCMain,SABURO,0000,0000,0000,,Strange things have been happening \Nat this mansion lately.
+Dialogue: 0,0:01:09.04,0:01:11.34,DCMain,SABURO,0000,0000,0000,,It's best not to get involved.
+Dialogue: 0,0:01:12.74,0:01:14.71,DCMain,AYUMI,0000,0000,0000,,What strange things?
+Dialogue: 0,0:01:14.71,0:01:16.97,DCMain,SABURO,0000,0000,0000,,I've never seen one,
+Dialogue: 0,0:01:17.23,0:01:20.93,DCMain,SABURO,0000,0000,0000,,but the master says there are ghosts.
+Dialogue: 0,0:01:21.18,0:01:22.60,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:01:22.80,0:01:26.49,DCMain,HANA,0000,0000,0000,,Don't scare the children.
+Dialogue: 0,0:01:28.41,0:01:29.95,DCMain,GENTA,0000,0000,0000,,Ghosts, huh?
+Dialogue: 0,0:01:29.95,0:01:32.61,DCMain,MITSUHIKO,0000,0000,0000,,Nobody believes in ghosts anymore.
+Dialogue: 0,0:01:32.94,0:01:35.54,DCMain,SABURO,0000,0000,0000,,I don't believe in them either,
+Dialogue: 0,0:01:35.54,0:01:39.62,DCMain,SABURO,0000,0000,0000,,but the master isn't the \Ntype to make up stories.
+Dialogue: 0,0:01:40.13,0:01:45.12,DCMain,SABURO,0000,0000,0000,,According to him, it's \Na yellowish white color.
+Dialogue: 0,0:01:46.13,0:01:49.54,DCMain,SABURO,0000,0000,0000,,Now that you know, let me have those towels.
+Dialogue: 0,0:01:52.98,0:01:57.97,DCMain,MITSUHIKO,0000,0000,0000,,He must be lying so we'll leave.
+Dialogue: 0,0:01:57.97,0:01:58.68,DCMain,GENTA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:02:00.50,0:02:01.68,DCMain,ALL,0000,0000,0000,,Huh?
+Dialogue: 0,0:02:01.91,0:02:05.60,DCMain,GENTA,0000,0000,0000,,H-Hey, did you guys just\Nsee something yellow?
+Dialogue: 0,0:02:05.88,0:02:08.48,DCMain,AYUMI,0000,0000,0000,,I did. It disappeared immediately, though.
+Dialogue: 0,0:02:08.75,0:02:11.16,DCMain,MITSUHIKO,0000,0000,0000,,A-Are there really...?
+Dialogue: 0,0:02:15.84,0:02:17.92,DCMain,CONAN,0000,0000,0000,,Curtains rise as the headliner appears!
+Dialogue: 0,0:02:17.92,0:02:20.40,DCMain,CONAN,0000,0000,0000,,He beautifully dances his \Nmystery-solving steps!
+Dialogue: 0,0:02:20.40,0:02:22.32,DCMain,CONAN,0000,0000,0000,,What was that I just saw?
+Dialogue: 0,0:02:22.32,0:02:24.45,DCMain,CONAN,0000,0000,0000,,I detect a case in the old mansion!
+Dialogue: 0,0:02:24.45,0:02:26.14,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:26.14,0:02:28.12,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:28.12,0:02:30.59,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:10.98,0:04:16.98,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(396,1)}The Detective Boys and the Haunted House
+Dialogue: 0,0:04:11.84,0:04:14.53,DCMain,CONAN,0000,0000,0000,,"The Detective Boys and the Haunted House!"
+Dialogue: 0,0:04:20.90,0:04:22.61,DCMain,AYUMI,0000,0000,0000,,It's not letting up.
+Dialogue: 0,0:04:31.19,0:04:33.21,DCMain,AMEMIYA,0000,0000,0000,,Huh? Who are you kids?
+Dialogue: 0,0:04:33.21,0:04:37.52,DCMain,CONAN,0000,0000,0000,,We're staying here to get out of the rain.
+Dialogue: 0,0:04:37.52,0:04:38.34,DCMain,AMEMIYA,0000,0000,0000,,I see.
+Dialogue: 0,0:04:38.86,0:04:42.12,DCMain,AMEMIYA,0000,0000,0000,,{\an8}I'm Amemiya Hideto, the \Nfreeloader who lives here.
+Dialogue: 0,0:04:38.92,0:04:43.59,Hideto,TEXT,0000,0000,0000,,{\fad(250,1)}Amemiya Hideto (27) \NNobuteru's Nephew
+Dialogue: 0,0:04:42.12,0:04:43.22,DCMain,AMEMIYA,0000,0000,0000,,{\an8}Nice to meet you.
+Dialogue: 0,0:04:44.36,0:04:45.84,DCMain,AYUMI,0000,0000,0000,,Wow!
+Dialogue: 0,0:04:45.84,0:04:47.95,DCMain,GENTA,0000,0000,0000,,This place is like a science lab.
+Dialogue: 0,0:04:47.95,0:04:50.85,DCMain,MITSUHIKO,0000,0000,0000,,There are all kinds of machines.
+Dialogue: 0,0:04:51.22,0:04:54.06,DCMain,AMEMIYA,0000,0000,0000,,I conduct scientific research at college.
+Dialogue: 0,0:04:54.06,0:04:58.02,DCMain,AMEMIYA,0000,0000,0000,,I also use the annex in the yard as a lab.
+Dialogue: 0,0:04:58.44,0:05:04.03,DCMain,MITSUHIKO,0000,0000,0000,,Given your studies, how \Ndo you feel about ghosts?
+Dialogue: 0,0:05:04.30,0:05:07.80,DCMain,AMEMIYA,0000,0000,0000,,Oh, you heard about my uncle?
+Dialogue: 0,0:05:07.80,0:05:12.62,DCMain,AMEMIYA,0000,0000,0000,,I don't believe in them, but my uncle \Nseems to think they actually exist.
+Dialogue: 0,0:05:12.81,0:05:15.08,DCMain,CONAN,0000,0000,0000,,This house is pretty old, isn't it?
+Dialogue: 0,0:05:15.08,0:05:15.90,DCMain,AMEMIYA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:15.90,0:05:19.28,DCMain,AMEMIYA,0000,0000,0000,,My uncle bought it five \Nyears ago when he retired,
+Dialogue: 0,0:05:19.28,0:05:21.88,DCMain,AMEMIYA,0000,0000,0000,,but it was built fifty years ago.
+Dialogue: 0,0:05:21.88,0:05:25.38,DCMain,CONAN,0000,0000,0000,,Did he buy it without knowing \Nabout the ghost rumors?
+Dialogue: 0,0:05:25.38,0:05:27.30,DCMain,AMEMIYA,0000,0000,0000,,Ah, I see.
+Dialogue: 0,0:05:27.30,0:05:31.97,DCMain,AMEMIYA,0000,0000,0000,,My uncle started saying there \Nwere ghosts about two weeks ago.
+Dialogue: 0,0:05:32.13,0:05:33.92,DCMain,AYUMI,0000,0000,0000,,They didn't appear until then?
+Dialogue: 0,0:05:33.92,0:05:37.98,DCMain,AMEMIYA,0000,0000,0000,,Yeah. My aunt actually \Npassed away two months ago.
+Dialogue: 0,0:05:38.40,0:05:42.32,DCMain,AMEMIYA,0000,0000,0000,,My uncle says she's visiting him.
+Dialogue: 0,0:05:42.32,0:05:44.99,DCMain,AMEMIYA,0000,0000,0000,,She always had weak legs.
+Dialogue: 0,0:05:46.32,0:05:47.24,DCItalic,AMEMIYA,0000,0000,0000,,Auntie.
+Dialogue: 0,0:05:48.74,0:05:50.62,DCItalic,CHIEKO,0000,0000,0000,,Oh, Hideto-san.
+Dialogue: 0,0:05:51.04,0:05:53.44,DCItalic,AMEMIYA,0000,0000,0000,,You're going out again to sketch?
+Dialogue: 0,0:05:53.44,0:05:54.24,DCItalic,CHIEKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:54.45,0:05:58.42,Chieko,TEXT,0000,0000,0000,,{\fad(250,1)}Otaguro Chieko (72) \NNobuteru's Wife
+Dialogue: 0,0:05:54.79,0:05:58.12,DCItalic,CHIEKO,0000,0000,0000,,{\an8}I'm going to submit something \Nto this fall's exhibition.
+Dialogue: 0,0:06:09.19,0:06:10.30,DCItalic,AMEMIYA,0000,0000,0000,,Auntie!
+Dialogue: 0,0:06:12.87,0:06:15.44,DCMain,AMEMIYA,0000,0000,0000,,She always went there.
+Dialogue: 0,0:06:15.44,0:06:18.81,DCMain,AMEMIYA,0000,0000,0000,,We don't know why she fell that day.
+Dialogue: 0,0:06:18.81,0:06:20.54,DCMain,AYUMI,0000,0000,0000,,I feel sorry for her.
+Dialogue: 0,0:06:20.54,0:06:23.63,DCMain,MITSUHIKO,0000,0000,0000,,It must've been quite the \Nshock for your uncle.
+Dialogue: 0,0:06:23.63,0:06:25.86,DCMain,MITSUHIKO,0000,0000,0000,,That's why he says there are ghosts.
+Dialogue: 0,0:06:29.31,0:06:32.82,DCMain,MITSUHIKO,0000,0000,0000,,Thank you for letting us stay for dinner.
+Dialogue: 0,0:06:32.82,0:06:34.89,DCMain,AMEMIYA,0000,0000,0000,,The rain still hasn't let up.
+Dialogue: 0,0:06:34.89,0:06:36.37,DCMain,AMEMIYA,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:06:36.86,0:06:39.25,DCMain,AYUMI,0000,0000,0000,,This stew is delicious.
+Dialogue: 0,0:06:39.46,0:06:43.63,Nobuteru,TEXT,0000,0000,0000,,{\fad(250,1)}Otaguro Nobuteru (78) \NMaster of the House
+Dialogue: 0,0:06:39.60,0:06:43.63,DCMain,OTAGURO,0000,0000,0000,,{\an8}Is it? If you like it, \Nyou're welcome to more.
+Dialogue: 0,0:06:43.63,0:06:45.05,DCMain,GENTA,0000,0000,0000,,More!
+Dialogue: 0,0:06:45.05,0:06:46.68,DCMain,MITSUHIKO,0000,0000,0000,,You already finished?
+Dialogue: 0,0:06:46.89,0:06:48.63,DCMain,GENTA,0000,0000,0000,,I'm reserving my portion.
+Dialogue: 0,0:06:49.28,0:06:53.28,DCMain,CONAN,0000,0000,0000,,We heard your wife visits you.
+Dialogue: 0,0:06:53.28,0:06:54.64,DCMain,OTAGURO,0000,0000,0000,,She does.
+Dialogue: 0,0:06:55.23,0:06:58.02,DCMain,CONAN,0000,0000,0000,,But isn't she dead?
+Dialogue: 0,0:06:58.18,0:07:01.35,DCMain,OTAGURO,0000,0000,0000,,Yes, but she really does come.
+Dialogue: 0,0:07:01.35,0:07:03.34,DCMain,OTAGURO,0000,0000,0000,,She comes after dark.
+Dialogue: 0,0:07:03.80,0:07:06.53,DCMain,OTAGURO,0000,0000,0000,,Then she leaves around ten.
+Dialogue: 0,0:07:06.92,0:07:09.90,DCMain,MITSUHIKO,0000,0000,0000,,What does your wife look like?
+Dialogue: 0,0:07:10.27,0:07:14.28,DCMain,OTAGURO,0000,0000,0000,,She looks like a yellowish light.
+Dialogue: 0,0:07:14.85,0:07:17.29,DCMain,OTAGURO,0000,0000,0000,,But before long...
+Dialogue: 0,0:07:18.04,0:07:20.44,DCMain,OTAGURO,0000,0000,0000,,I heard Chieko's voice.
+Dialogue: 0,0:07:22.78,0:07:25.79,DCMain,OTAGURO,0000,0000,0000,,Tonight she'll tell me about the accident.
+Dialogue: 0,0:07:26.94,0:07:28.28,DCMain,ALL,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:28.28,0:07:29.67,DCMain,HANA,0000,0000,0000,,I-I'm sorry!
+Dialogue: 0,0:07:29.67,0:07:31.64,DCMain,SABURO,0000,0000,0000,,What are you doing?!
+Dialogue: 0,0:07:31.64,0:07:33.73,DCMain,SABURO,0000,0000,0000,,I'm sorry, sir.
+Dialogue: 0,0:07:34.99,0:07:37.01,DCMain,HANA,0000,0000,0000,,I'm sorry. I'm sorry.
+Dialogue: 0,0:07:38.77,0:07:42.32,DCMain,OTAGURO,0000,0000,0000,,I'm returning to my room.
+Dialogue: 0,0:07:42.80,0:07:44.72,DCMain,SABURO,0000,0000,0000,,I'm really sorry.
+Dialogue: 0,0:07:44.72,0:07:47.02,DCMain,AMEMIYA,0000,0000,0000,,I'll head back to my lab, then.
+Dialogue: 0,0:07:47.64,0:07:51.78,DCMain,AMEMIYA,0000,0000,0000,,Oh, Hana-san. I broke a beaker in my room.
+Dialogue: 0,0:07:51.78,0:07:54.04,DCMain,AMEMIYA,0000,0000,0000,,Could you run the vacuum later?
+Dialogue: 0,0:07:54.04,0:07:55.03,DCMain,HANA,0000,0000,0000,,Yes.
+Dialogue: 0,0:07:55.63,0:07:58.05,DCMain,AMEMIYA,0000,0000,0000,,It's in front of the medicine cabinet.
+Dialogue: 0,0:07:59.97,0:08:01.40,DCMain,HANA,0000,0000,0000,,Very well.
+Dialogue: 0,0:08:05.85,0:08:09.99,DCMain,AYUMI,0000,0000,0000,,Is he talking to his wife's ghost around now?
+Dialogue: 0,0:08:09.99,0:08:13.09,DCMain,MITSUHIKO,0000,0000,0000,,Someone could be fooling him.
+Dialogue: 0,0:08:13.09,0:08:16.68,DCMain,AYUMI,0000,0000,0000,,But he seemed happy about meeting a ghost.
+Dialogue: 0,0:08:16.68,0:08:18.41,DCMain,GENTA,0000,0000,0000,,What should we do, Conan?
+Dialogue: 0,0:08:18.41,0:08:19.31,DCMain,CONAN,0000,0000,0000,,About what?
+Dialogue: 0,0:08:19.31,0:08:20.62,DCMain,MITSUHIKO,0000,0000,0000,,About what?
+Dialogue: 0,0:08:20.62,0:08:26.56,DCMain,MITSUHIKO,0000,0000,0000,,If he's being deceived by someone, \Nthe Detective Boys can't ignore it.
+Dialogue: 0,0:08:26.88,0:08:31.82,DCMain,CONAN,0000,0000,0000,,Yeah, but Otaguro-san seems happy, \Nand we don't know that he's—
+Dialogue: 0,0:08:31.82,0:08:33.95,DCMain,MITSUHIKO,0000,0000,0000,,What are you talking about?!
+Dialogue: 0,0:08:34.20,0:08:38.15,DCMain,MITSUHIKO,0000,0000,0000,,You know there's no end \Nto cases where someone
+Dialogue: 0,0:08:38.15,0:08:40.55,DCMain,MITSUHIKO,0000,0000,0000,,takes advantage of an \Nelderly person's feelings!
+Dialogue: 0,0:08:40.55,0:08:42.25,DCMain,CONAN,0000,0000,0000,,Fine.
+Dialogue: 0,0:08:45.20,0:08:48.90,DCMain,MITSUHIKO,0000,0000,0000,,It's fine. Ghosts don't exist.
+Dialogue: 0,0:08:53.80,0:08:56.61,DCMain,GENTA,0000,0000,0000,,H-Hey, did you see that?
+Dialogue: 0,0:08:56.61,0:08:57.64,DCMain,AYUMI,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:08:57.96,0:09:00.20,DCMain,AYUMI,0000,0000,0000,,It moved on its own!
+Dialogue: 0,0:09:00.20,0:09:03.01,DCMain,MITSUHIKO,0000,0000,0000,,Let's head upstairs.
+Dialogue: 0,0:09:09.48,0:09:11.38,DCMain,OTAGURO,0000,0000,0000,,Ah, Chieko.
+Dialogue: 0,0:09:12.34,0:09:14.24,DCMain,MITSUHIKO,0000,0000,0000,,That's Otaguro-san's voice.
+Dialogue: 0,0:09:14.88,0:09:17.00,DCMain,OTAGURO,0000,0000,0000,,You came again tonight.
+Dialogue: 0,0:09:17.00,0:09:18.53,DCMain,CHIEKO,0000,0000,0000,,Yes, I have.
+Dialogue: 0,0:09:18.88,0:09:20.78,DCMain,AYUMI,0000,0000,0000,,That's a woman's voice.
+Dialogue: 0,0:09:22.92,0:09:25.08,DCMain,GENTA,0000,0000,0000,,The door opened without anyone touching it.
+Dialogue: 0,0:09:29.72,0:09:32.45,DCMain,OTAGURO,0000,0000,0000,,I'm managing.
+Dialogue: 0,0:09:37.03,0:09:38.78,DCMain,MITSUHIKO,0000,0000,0000,,There really was a ghost!
+Dialogue: 0,0:09:38.78,0:09:40.64,DCMain,MITSUHIKO,0000,0000,0000,,The wheelchair moved!
+Dialogue: 0,0:09:40.92,0:09:43.14,DCMain,AYUMI,0000,0000,0000,,We heard a woman's voice!
+Dialogue: 0,0:09:43.14,0:09:46.48,DCMain,GENTA,0000,0000,0000,,And a door opened without anyone touching it!
+Dialogue: 0,0:09:47.09,0:09:49.16,DCMain,SABURO,0000,0000,0000,,What are you trying to say?
+Dialogue: 0,0:09:49.16,0:09:51.65,DCMain,MITSUHIKO,0000,0000,0000,,We saw the wife's ghost!
+Dialogue: 0,0:09:51.65,0:09:52.62,DCMain,SABURO,0000,0000,0000,,What?
+Dialogue: 0,0:09:53.38,0:09:57.03,DCMain,MITSUHIKO,0000,0000,0000,,We saw a light, too. It was yellowish.
+Dialogue: 0,0:09:58.06,0:10:01.53,DCMain,SABURO,0000,0000,0000,,Are you saying the master was right?
+Dialogue: 0,0:10:01.76,0:10:03.37,DCMain,HANA,0000,0000,0000,,That's enough!
+Dialogue: 0,0:10:04.93,0:10:09.04,DCMain,HANA,0000,0000,0000,,They're just children, but I can't \Nbelieve you're going on about ghosts.
+Dialogue: 0,0:10:15.26,0:10:17.53,DCMain,SABURO,0000,0000,0000,,So, what will you do?
+Dialogue: 0,0:10:17.53,0:10:19.42,DCMain,SABURO,0000,0000,0000,,I can lend you some umbrellas \Nif you're leaving.
+Dialogue: 0,0:10:19.42,0:10:21.05,DCMain,MITSUHIKO,0000,0000,0000,,What? What should we do?
+Dialogue: 0,0:10:21.05,0:10:22.98,DCMain,GENTA,0000,0000,0000,,Don't ask me.
+Dialogue: 0,0:10:54.32,0:10:57.92,DCMain,MITSUHIKO,0000,0000,0000,,I can't believe there's really a ghost.
+Dialogue: 0,0:10:58.22,0:11:00.72,DCMain,AYUMI,0000,0000,0000,,Let's leave.
+Dialogue: 0,0:11:01.00,0:11:04.58,DCMain,GENTA,0000,0000,0000,,Mitsuhiko, go borrow some umbrellas.
+Dialogue: 0,0:11:04.58,0:11:06.72,DCMain,MITSUHIKO,0000,0000,0000,,No! Why do I have to go?!
+Dialogue: 0,0:11:07.11,0:11:12.53,DCMain,CONAN,0000,0000,0000,,Even if the ghost's real, \Nit's just his wife, right?
+Dialogue: 0,0:11:12.53,0:11:14.61,DCMain,CONAN,0000,0000,0000,,I don't think she'd hurt you.
+Dialogue: 0,0:11:15.02,0:11:15.86,DCMain,BOTH,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:18.74,0:11:21.10,DCMain,GENTA,0000,0000,0000,,Conan, are you going to get umbrellas?
+Dialogue: 0,0:11:21.10,0:11:22.54,DCMain,CONAN,0000,0000,0000,,No, I'm checking something out.
+Dialogue: 0,0:11:50.57,0:11:52.52,DCItalic,CONAN,0000,0000,0000,,So that's how it is.
+Dialogue: 0,0:12:04.67,0:12:06.87,Poison,TEXT,0000,0000,0000,,Poison
+Dialogue: 0,0:12:16.27,0:12:18.09,DCMain,MITSUHIKO,0000,0000,0000,,Thank you for the juice
+Dialogue: 0,0:12:18.34,0:12:21.64,DCMain,MITSUHIKO,0000,0000,0000,,after serving us dinner.
+Dialogue: 0,0:12:21.64,0:12:24.37,DCMain,AMEMIYA,0000,0000,0000,,Children don't need to show restraint.
+Dialogue: 0,0:12:24.37,0:12:28.85,DCMain,AMEMIYA,0000,0000,0000,,Besides, we always have \Ntea around this hour here.
+Dialogue: 0,0:12:29.06,0:12:32.30,DCMain,OTAGURO,0000,0000,0000,,There are hot beverages if you prefer.
+Dialogue: 0,0:12:32.30,0:12:35.10,DCMain,OTAGURO,0000,0000,0000,,It's gotten colder recently.
+Dialogue: 0,0:12:36.31,0:12:39.73,DCMain,AYUMI,0000,0000,0000,,It's fine. The juice is very good.
+Dialogue: 0,0:12:39.94,0:12:42.78,DCMain,MITSUHIKO,0000,0000,0000,,Genta-kun, would you have preferred eel?
+Dialogue: 0,0:12:42.78,0:12:43.99,DCMain,GENTA,0000,0000,0000,,Well, yeah.
+Dialogue: 0,0:12:43.99,0:12:46.62,DCMain,GENTA,0000,0000,0000,,Maybe someone will make some eel juice.
+Dialogue: 0,0:12:47.24,0:12:48.62,DCMain,AYUMI,0000,0000,0000,,What?
+Dialogue: 0,0:12:49.06,0:12:52.50,DCMain,AMEMIYA,0000,0000,0000,,By the way, where's the boy with the glasses?
+Dialogue: 0,0:12:52.50,0:12:54.37,DCMain,AMEMIYA,0000,0000,0000,,He was around a minute ago.
+Dialogue: 0,0:12:54.57,0:12:56.02,DCMain,GENTA,0000,0000,0000,,Hey, you're right.
+Dialogue: 0,0:12:56.02,0:12:59.20,DCMain,MITSUHIKO,0000,0000,0000,,Conan-kun does this all the time.
+Dialogue: 0,0:12:59.20,0:13:02.68,DCMain,GENTA,0000,0000,0000,,Yeah. That's just how he is.
+Dialogue: 0,0:13:03.66,0:13:05.55,DCMain,OTAGURO,0000,0000,0000,,This house is large.
+Dialogue: 0,0:13:05.55,0:13:07.66,DCMain,OTAGURO,0000,0000,0000,,I hope he doesn't get lost.
+Dialogue: 0,0:13:14.26,0:13:15.35,DCMain,AMEMIYA,0000,0000,0000,,Uncle!
+Dialogue: 0,0:13:16.33,0:13:17.98,DCMain,AMEMIYA,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:13:18.48,0:13:20.57,DCMain,AMEMIYA,0000,0000,0000,,Saburo-san, call an ambulance.
+Dialogue: 0,0:13:20.57,0:13:22.42,DCMain,CONAN,0000,0000,0000,,That won't be necessary.
+Dialogue: 0,0:13:22.42,0:13:22.90,DCMain,AMEMIYA,0000,0000,0000,,What?
+Dialogue: 0,0:13:23.58,0:13:24.30,DCMain,AMEMIYA,0000,0000,0000,,You!
+Dialogue: 0,0:13:24.30,0:13:25.54,DCMain,ALL,0000,0000,0000,,Conan!
+Dialogue: 0,0:13:26.10,0:13:27.87,DCMain,OTAGURO,0000,0000,0000,,That packed a punch.
+Dialogue: 0,0:13:27.87,0:13:31.41,DCMain,OTAGURO,0000,0000,0000,,Hana-san, what's wrong with this tea?
+Dialogue: 0,0:13:31.66,0:13:34.91,DCMain,AMEMIYA,0000,0000,0000,,U-Uncle? You're all right?
+Dialogue: 0,0:13:35.26,0:13:37.78,DCMain,CONAN,0000,0000,0000,,It's no wonder it tastes bad.
+Dialogue: 0,0:13:37.78,0:13:40.42,DCMain,CONAN,0000,0000,0000,,There's salt in that tea.
+Dialogue: 0,0:13:40.42,0:13:41.86,DCMain,OTAGURO,0000,0000,0000,,Salt?
+Dialogue: 0,0:13:41.86,0:13:43.92,DCMain,OTAGURO,0000,0000,0000,,Why?
+Dialogue: 0,0:13:44.38,0:13:47.85,DCMain,CONAN,0000,0000,0000,,Because I swapped the contents \Nof the poison bottle
+Dialogue: 0,0:13:47.85,0:13:50.18,DCMain,CONAN,0000,0000,0000,,in Hideto-san's room with salt.
+Dialogue: 0,0:13:50.70,0:13:55.44,DCMain,CONAN,0000,0000,0000,,I found the bottle Hana-san took from \Nthe cabinet and hid in the kitchen.
+Dialogue: 0,0:13:56.44,0:13:57.94,DCMain,OTAGURO,0000,0000,0000,,Poison?
+Dialogue: 0,0:13:58.30,0:14:00.26,DCMain,AMEMIYA,0000,0000,0000,,You took the poison?
+Dialogue: 0,0:14:00.26,0:14:03.94,DCMain,AMEMIYA,0000,0000,0000,,And meant to put it in the tea?
+Dialogue: 0,0:14:04.12,0:14:08.92,DCMain,CONAN,0000,0000,0000,,Hana-san was worried the \Nghost would reveal the truth
+Dialogue: 0,0:14:08.92,0:14:11.95,DCMain,CONAN,0000,0000,0000,,behind the accident that \Nhappened two months ago.
+Dialogue: 0,0:14:12.28,0:14:13.95,DCMain,SABURO,0000,0000,0000,,The truth behind the accident?
+Dialogue: 0,0:14:14.18,0:14:15.45,DCMain,ALL,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:19.98,0:14:22.46,DCMain,HANA,0000,0000,0000,,I... I...
+Dialogue: 0,0:14:22.72,0:14:25.57,DCMain,HANA,0000,0000,0000,,I didn't think she'd die!
+Dialogue: 0,0:14:25.57,0:14:28.97,DCMain,HANA,0000,0000,0000,,I just wanted to annoy her.
+Dialogue: 0,0:14:31.02,0:14:32.22,DCItalic,CHIEKO,0000,0000,0000,,Hana-san,
+Dialogue: 0,0:14:32.46,0:14:37.23,DCItalic,CHIEKO,0000,0000,0000,,I won't ask you to return the necklaces \Nand brooches you've stolen.
+Dialogue: 0,0:14:37.52,0:14:41.04,DCItalic,CHIEKO,0000,0000,0000,,But please don't take anymore.
+Dialogue: 0,0:14:49.71,0:14:52.30,DCItalic,CHIEKO,0000,0000,0000,,Someone help!
+Dialogue: 0,0:14:54.98,0:15:00.27,DCMain,HANA,0000,0000,0000,,I thought she'd have trouble getting in and \Nout of her wheelchair if I loosened the brakes.
+Dialogue: 0,0:15:00.27,0:15:03.21,DCMain,HANA,0000,0000,0000,,That's all.
+Dialogue: 0,0:15:04.68,0:15:07.23,DCMain,CONAN,0000,0000,0000,,Hana-san thought the ghost
+Dialogue: 0,0:15:07.23,0:15:10.79,DCMain,CONAN,0000,0000,0000,,would tell Otaguro-san about it.
+Dialogue: 0,0:15:10.79,0:15:13.89,DCMain,CONAN,0000,0000,0000,,But there was nothing she \Ncould do about a ghost.
+Dialogue: 0,0:15:14.48,0:15:18.10,DCMain,CONAN,0000,0000,0000,,So Hana-san made Otaguro-san her target.
+Dialogue: 0,0:15:18.89,0:15:21.45,DCMain,CONAN,0000,0000,0000,,The salt I substituted
+Dialogue: 0,0:15:21.45,0:15:24.65,DCMain,CONAN,0000,0000,0000,,in Otaguro-san's tea proves it.
+Dialogue: 0,0:15:25.19,0:15:27.76,DCMain,SABURO,0000,0000,0000,,How could you?!
+Dialogue: 0,0:15:30.98,0:15:33.67,DCMain,SABURO,0000,0000,0000,,I'm sorry, sir!
+Dialogue: 0,0:15:37.69,0:15:40.14,DCMain,CONAN,0000,0000,0000,,But she didn't need to worry about it.
+Dialogue: 0,0:15:41.35,0:15:44.05,DCMain,CONAN,0000,0000,0000,,There never was a ghost.
+Dialogue: 0,0:15:44.63,0:15:46.38,DCMain,CONAN,0000,0000,0000,,Right, Hideto-san?
+Dialogue: 0,0:15:48.39,0:15:51.76,DCMain,MITSUHIKO,0000,0000,0000,,But the wheelchair moved on its own.
+Dialogue: 0,0:15:52.16,0:15:55.71,DCMain,CONAN,0000,0000,0000,,This house was built fifty years ago.
+Dialogue: 0,0:15:55.71,0:15:58.43,DCMain,CONAN,0000,0000,0000,,It wouldn't be strange for there \Nto be damage here and there.
+Dialogue: 0,0:15:59.33,0:16:03.41,DCMain,CONAN,0000,0000,0000,,A breeze coming through a crack in the wall
+Dialogue: 0,0:16:03.41,0:16:05.64,DCMain,CONAN,0000,0000,0000,,pushed the wheelchair.
+Dialogue: 0,0:16:05.64,0:16:07.69,DCMain,CONAN,0000,0000,0000,,Besides, the brakes were broken.
+Dialogue: 0,0:16:07.93,0:16:12.20,DCMain,GENTA,0000,0000,0000,,But the door to his room opened on its own.
+Dialogue: 0,0:16:12.60,0:16:16.18,DCMain,CONAN,0000,0000,0000,,That door opens at the slightest vibration
+Dialogue: 0,0:16:16.18,0:16:18.70,DCMain,CONAN,0000,0000,0000,,because the latch is old and weak.
+Dialogue: 0,0:16:19.08,0:16:22.62,DCMain,AYUMI,0000,0000,0000,,What about the yellow ghost \Nfloating in the room?
+Dialogue: 0,0:16:22.93,0:16:26.38,DCMain,CONAN,0000,0000,0000,,Remember when we arrived?
+Dialogue: 0,0:16:27.36,0:16:29.38,DCItalic,MITSUHIKO,0000,0000,0000,,There's a greenhouse.
+Dialogue: 0,0:16:29.67,0:16:32.23,DCItalic,AYUMI,0000,0000,0000,,It's not blocking the rain.
+Dialogue: 0,0:16:32.23,0:16:32.88,DCItalic,GENTA,0000,0000,0000,,Hey.
+Dialogue: 0,0:16:33.36,0:16:36.39,DCItalic,GENTA,0000,0000,0000,,Maybe we can get in through there.
+Dialogue: 0,0:16:37.02,0:16:38.89,DCItalic,MAN,0000,0000,0000,,Hey, kids.
+Dialogue: 0,0:16:39.16,0:16:40.97,DCItalic,MAN,0000,0000,0000,,Don't break anything!
+Dialogue: 0,0:16:40.97,0:16:44.14,DCItalic,MAN,0000,0000,0000,,That was just constructed two weeks ago!
+Dialogue: 0,0:16:44.68,0:16:47.98,DCMain,CONAN,0000,0000,0000,,The greenhouse was built two weeks ago.
+Dialogue: 0,0:16:47.98,0:16:51.44,DCMain,CONAN,0000,0000,0000,,The ghost began appearing two weeks ago.
+Dialogue: 0,0:16:51.44,0:16:55.16,DCMain,CONAN,0000,0000,0000,,By the way, what around this area shines?
+Dialogue: 0,0:16:55.40,0:16:56.79,DCMain,AYUMI,0000,0000,0000,,Shines?
+Dialogue: 0,0:16:56.79,0:16:58.66,DCMain,MITSUHIKO,0000,0000,0000,,You mean the lighthouse?
+Dialogue: 0,0:16:58.85,0:17:03.24,DCMain,CONAN,0000,0000,0000,,Yeah. The ghost is the \Nlight from the lighthouse.
+Dialogue: 0,0:17:03.24,0:17:07.04,DCMain,CONAN,0000,0000,0000,,The light never struck this \Nhouse directly before.
+Dialogue: 0,0:17:07.30,0:17:08.92,DCMain,CONAN,0000,0000,0000,,After the greenhouse was built,
+Dialogue: 0,0:17:08.92,0:17:11.92,DCMain,CONAN,0000,0000,0000,,the light started reflecting \Noff the glass windows
+Dialogue: 0,0:17:12.42,0:17:15.43,DCMain,CONAN,0000,0000,0000,,and illuminating the walls of this house.
+Dialogue: 0,0:17:15.82,0:17:18.32,DCMain,CONAN,0000,0000,0000,,The light seeping through the \Nwalls reflected off the glass
+Dialogue: 0,0:17:18.32,0:17:22.80,DCMain,CONAN,0000,0000,0000,,on Otaguro-san's bookcase \Nand looked like a ghost.
+Dialogue: 0,0:17:23.61,0:17:26.40,DCMain,CONAN,0000,0000,0000,,I just called the owner of the greenhouse.
+Dialogue: 0,0:17:26.40,0:17:29.68,DCMain,CONAN,0000,0000,0000,,He said he closes the \Nwindows every night at ten.
+Dialogue: 0,0:17:29.68,0:17:33.19,DCMain,CONAN,0000,0000,0000,,That's why the ghost disappears at ten, too.
+Dialogue: 0,0:17:33.19,0:17:35.57,DCMain,CONAN,0000,0000,0000,,By the way, he also leaves \Nthe windows open
+Dialogue: 0,0:17:35.57,0:17:39.45,DCMain,CONAN,0000,0000,0000,,when it rains so it doesn't \Nget stuffy inside.
+Dialogue: 0,0:17:39.45,0:17:44.04,DCMain,GENTA,0000,0000,0000,,What about the glow on the \Nsecond floor when we arrived?
+Dialogue: 0,0:17:44.28,0:17:47.39,DCMain,CONAN,0000,0000,0000,,Hideto-san turned up right after, right?
+Dialogue: 0,0:17:47.39,0:17:50.50,DCMain,CONAN,0000,0000,0000,,It was probably the lights \Nfrom Hideto-san's car.
+Dialogue: 0,0:17:50.93,0:17:53.80,DCMain,CONAN,0000,0000,0000,,We couldn't hear the car because of the rain.
+Dialogue: 0,0:17:54.17,0:17:57.63,DCMain,AYUMI,0000,0000,0000,,But there was a woman's \Nvoice coming from the room.
+Dialogue: 0,0:17:58.21,0:18:01.40,DCMain,CONAN,0000,0000,0000,,By the way, I put the poison I swapped out
+Dialogue: 0,0:18:01.40,0:18:04.64,DCMain,CONAN,0000,0000,0000,,for salt in another bottle and \Nreturned it to the cabinet.
+Dialogue: 0,0:18:05.34,0:18:09.65,DCMain,CONAN,0000,0000,0000,,After all, the cabinet wasn't locked.
+Dialogue: 0,0:18:10.67,0:18:12.78,DCMain,CONAN,0000,0000,0000,,If Hana-san unlocked the cabinet,
+Dialogue: 0,0:18:12.78,0:18:15.07,DCMain,CONAN,0000,0000,0000,,she would've locked it so \Nshe wouldn't be discovered.
+Dialogue: 0,0:18:15.58,0:18:19.15,DCMain,CONAN,0000,0000,0000,,So I think it was unlocked to begin with.
+Dialogue: 0,0:18:20.14,0:18:24.23,DCMain,CONAN,0000,0000,0000,,But it's strange for an \Nexpert like Hideto-san
+Dialogue: 0,0:18:24.23,0:18:27.58,DCMain,CONAN,0000,0000,0000,,to leave a cabinet containing \Npoison unlocked.
+Dialogue: 0,0:18:28.23,0:18:31.08,DCMain,AMEMIYA,0000,0000,0000,,That was careless of me.
+Dialogue: 0,0:18:32.09,0:18:34.76,DCMain,CONAN,0000,0000,0000,,So, returning to the voice,
+Dialogue: 0,0:18:34.76,0:18:37.53,DCMain,CONAN,0000,0000,0000,,since the ghost is the \Nlight from the lighthouse,
+Dialogue: 0,0:18:37.53,0:18:39.76,DCMain,CONAN,0000,0000,0000,,there must be an explanation for the voice.
+Dialogue: 0,0:18:40.26,0:18:44.12,DCMain,CONAN,0000,0000,0000,,Thinking that, I just \Nexamined Otaguro-san's room.
+Dialogue: 0,0:18:44.89,0:18:45.77,DCMain,CONAN,0000,0000,0000,,And I found it.
+Dialogue: 0,0:18:49.08,0:18:53.48,DCMain,CONAN,0000,0000,0000,,A speaker, mic, and wireless \Ndevice behind the bookcase.
+Dialogue: 0,0:18:54.64,0:18:58.53,DCMain,CONAN,0000,0000,0000,,This is probably where your \Nwife's voice was coming from.
+Dialogue: 0,0:18:59.13,0:19:01.91,DCMain,CONAN,0000,0000,0000,,The only person in this house \Nwho could've made this
+Dialogue: 0,0:19:05.16,0:19:07.08,DCMain,CONAN,0000,0000,0000,,is Hideto-san.
+Dialogue: 0,0:19:07.80,0:19:10.84,DCMain,GENTA,0000,0000,0000,,But if he played the wife's voice...
+Dialogue: 0,0:19:10.84,0:19:14.42,DCMain,MITSUHIKO,0000,0000,0000,,Was he using clips he recorded?
+Dialogue: 0,0:19:14.85,0:19:16.66,DCMain,CONAN,0000,0000,0000,,Hideto-san was probably
+Dialogue: 0,0:19:16.66,0:19:20.43,DCMain,CONAN,0000,0000,0000,,playing his own voice \Nmodified to sound feminine.
+Dialogue: 0,0:19:20.80,0:19:24.79,DCMain,CONAN,0000,0000,0000,,Since Otaguro-san believed his \Nwife's ghost was visiting him,
+Dialogue: 0,0:19:24.79,0:19:27.04,DCMain,CONAN,0000,0000,0000,,he believed he'd mistake it for hers.
+Dialogue: 0,0:19:27.78,0:19:30.55,DCMain,CONAN,0000,0000,0000,,When Hideto-san arrived at \Nthe scene of the accident,
+Dialogue: 0,0:19:30.55,0:19:35.17,DCMain,CONAN,0000,0000,0000,,he noticed the brakes were loose.
+Dialogue: 0,0:19:35.17,0:19:39.59,DCMain,CONAN,0000,0000,0000,,He also noticed how Hana-san began acting \Nsince the ghost started appearing.
+Dialogue: 0,0:19:40.11,0:19:43.45,DCMain,CONAN,0000,0000,0000,,Hideto-san realized Hana-san \Nwas connected to the accident.
+Dialogue: 0,0:19:43.74,0:19:46.40,DCMain,CONAN,0000,0000,0000,,He thought she'd act as expected
+Dialogue: 0,0:19:46.40,0:19:50.52,DCMain,CONAN,0000,0000,0000,,if he pressured her.
+Dialogue: 0,0:19:50.52,0:19:52.66,DCMain,CONAN,0000,0000,0000,,He began producing the voice
+Dialogue: 0,0:19:52.66,0:19:56.58,DCMain,CONAN,0000,0000,0000,,so she'd think the truth behind \Nthe accident would be revealed.
+Dialogue: 0,0:19:56.58,0:20:02.49,DCMain,CONAN,0000,0000,0000,,And he deliberately broke a beaker \Nin front of the unlocked cabinet
+Dialogue: 0,0:20:02.49,0:20:05.68,DCMain,CONAN,0000,0000,0000,,and asked her to clean it \Nknowing what Hana-san would do.
+Dialogue: 0,0:20:06.34,0:20:08.16,DCMain,CONAN,0000,0000,0000,,It all went according to plan.
+Dialogue: 0,0:20:08.16,0:20:12.60,DCMain,CONAN,0000,0000,0000,,Hana-san took the poison and \Nattempted to murder Otaguro-san.
+Dialogue: 0,0:20:13.24,0:20:16.71,DCMain,AMEMIYA,0000,0000,0000,,You're saying I tried to kill my uncle?!
+Dialogue: 0,0:20:16.71,0:20:18.44,DCMain,AMEMIYA,0000,0000,0000,,Why would I?
+Dialogue: 0,0:20:18.77,0:20:20.44,DCMain,CONAN,0000,0000,0000,,This is the reason.
+Dialogue: 0,0:20:20.44,0:20:22.95,DCMain,CONAN,0000,0000,0000,,I found them in the trash can in your room.
+Dialogue: 0,0:20:22.95,0:20:25.70,Open,TEXT,0000,0000,0000,,Open Immediately
+Dialogue: 0,0:20:23.37,0:20:25.70,DCMain,CONAN,0000,0000,0000,,This is a collection letter, right?
+Dialogue: 0,0:20:27.02,0:20:30.70,DCMain,CONAN,0000,0000,0000,,Hideto-san, you've been borrowing \Nmoney from a bunch of places.
+Dialogue: 0,0:20:31.18,0:20:33.19,DCMain,CONAN,0000,0000,0000,,Your motive was money.
+Dialogue: 0,0:20:33.19,0:20:35.78,DCMain,CONAN,0000,0000,0000,,Drowning in debt,
+Dialogue: 0,0:20:35.78,0:20:38.71,DCMain,CONAN,0000,0000,0000,,you wanted Otaguro-san's wealth.
+Dialogue: 0,0:20:42.17,0:20:46.72,DCMain,CONAN,0000,0000,0000,,Hey, why didn't you just talk to him?
+Dialogue: 0,0:20:48.31,0:20:50.96,DCMain,AMEMIYA,0000,0000,0000,,My uncle's stricter than anyone
+Dialogue: 0,0:20:50.96,0:20:53.73,DCMain,AMEMIYA,0000,0000,0000,,when it comes to money.
+Dialogue: 0,0:20:54.70,0:20:59.48,DCMain,OTAGURO,0000,0000,0000,,Hideto, is everything this boy said true?
+Dialogue: 0,0:21:00.12,0:21:03.34,DCMain,AMEMIYA,0000,0000,0000,,Yes. Call the police.
+Dialogue: 0,0:22:50.17,0:22:51.43,DCMain,AYUMI,0000,0000,0000,,The moon!
+Dialogue: 0,0:22:51.72,0:22:54.48,DCMain,CONAN,0000,0000,0000,,It stopped raining at some point.
+Dialogue: 0,0:22:54.48,0:22:56.66,DCMain,MITSUHIKO,0000,0000,0000,,We were just trying to get out of the rain.
+Dialogue: 0,0:22:56.66,0:22:59.12,DCMain,MITSUHIKO,0000,0000,0000,,That turned into a crazy night.
+Dialogue: 0,0:22:59.12,0:23:01.94,DCMain,GENTA,0000,0000,0000,,I'm hungry.
+Dialogue: 0,0:23:01.94,0:23:02.81,DCMain,MITSUHIKO,0000,0000,0000,,What?
+Dialogue: 0,0:23:17.19,0:23:18.37,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:23:20.07,0:23:24.25,DCMain,CONAN,0000,0000,0000,,Could you leave those windows \Nopen a little longer tonight?
+Dialogue: 0,0:23:24.50,0:23:25.35,DCMain,MAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:26.25,0:23:27.66,DCMain,CONAN,0000,0000,0000,,Please!
+Dialogue: 0,0:23:31.17,0:23:33.45,DCMain,GENTA,0000,0000,0000,,Conan, what are you doing?!
+Dialogue: 0,0:23:33.45,0:23:34.95,DCMain,CONAN,0000,0000,0000,,Nothing!
+Dialogue: 0,0:23:34.95,0:23:37.46,DCMain,CONAN,0000,0000,0000,,The professor and Haibara must be worried.
+Dialogue: 0,0:23:37.46,0:23:38.65,DCMain,CONAN,0000,0000,0000,,Let's hurry back.
+Dialogue: 0,0:23:38.65,0:23:40.98,DCMain,MITSUHIKO,0000,0000,0000,,Let's have the professor come pick us up.
+Dialogue: 0,0:23:40.98,0:23:42.68,DCMain,GENTA,0000,0000,0000,,It'll be faster.
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.48,0:23:46.97,DCMain,SERA,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:23:47.76,0:23:51.49,DCMain,SHUKICHI,0000,0000,0000,,It's been a while, Shuichi-niisan.
+Dialogue: 0,0:23:54.45,0:23:57.49,DCMain,YUKIKO,0000,0000,0000,,Is that a popular joke in England?
+Dialogue: 0,0:23:58.30,0:24:02.12,DCMain,MARY,0000,0000,0000,,You're like a child enthralled \Nby the god of death.
+Dialogue: 0,0:24:02.42,0:24:06.50,DCMain,AKAI,0000,0000,0000,,Well? Think you can do \Nit, Holmes' apprentice?
+Dialogue: 0,0:24:06.75,0:24:09.01,DCMain,SHINICHI,0000,0000,0000,,Yeah. Of course.
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,The Magician of the Waves \N(Part One)
+Dialogue: 0,0:24:09.60,0:24:13.94,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The \NMagician of the Waves, Part One!"
+Dialogue: 0,0:24:30.03,0:24:35.03,Hint,TEXT,0000,0000,0000,,Beach Hut
+Dialogue: 0,0:24:30.53,0:24:33.34,DCMain,BOTH,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.34,0:24:35.03,DCMain,CONAN,0000,0000,0000,,A beach hut!
+Dialogue: 0,0:24:35.03,0:24:40.04,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.37,0:24:36.46,DCMain,CONAN,0000,0000,0000,,{\an8}This time, I was a ghost whisperer!
+Dialogue: 0,0:24:36.46,0:24:38.04,DCMain,AYUMI,0000,0000,0000,,{\an8}What will you be next time?
+Dialogue: 0,0:24:38.04,0:24:39.65,DCMain,CONAN,0000,0000,0000,,{\an8}A magician, I guess.
+Dialogue: 0,0:24:39.65,0:24:41.65,DCMain,,0000,0000,0000,,

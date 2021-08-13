@@ -1,0 +1,440 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: WorkSigns,Trebuchet MS,16,&H00041531,&H000000FF,&H00A1D2EC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Sadakazu,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00793436,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0020,0105,0044,0
+Style: Gift,Trebuchet MS,18,&H00080302,&H000000FF,&H00EEEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Hisae,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A66467,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0150,0020,0066,0
+Style: Kubo,Trebuchet MS,22,&H0042525D,&H000000FF,&H0095BAC6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0080,0
+Style: Yukihide,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A4707F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0075,0066,0
+Style: IncomingCall,Trebuchet MS,16,&H0069361F,&H000000FF,&H00A9CCBD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0145,0020,0018,0
+Style: AllYouCan,Trebuchet MS,22,&H00272C26,&H000000FF,&H0058E0E8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: FlavorsofWinter,Trebuchet MS,14,&H00454747,&H000000FF,&H00E6E7E9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0060,0
+Style: WorkSigns2,Trebuchet MS,16,&H00252729,&H000000FF,&H00F9F7F5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Hospital,Trebuchet MS,18,&H006F666A,&H000000FF,&H00F4F8F9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0130,0042,0
+Style: Unmo,Trebuchet MS,16,&H00212024,&H000000FF,&H00938893,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0050,0150,0
+Style: ClientList,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00A15B2D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0160,0130,0
+Style: Names,Trebuchet MS,22,&H000D0D0D,&H000000FF,&H00E7E8EA,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Rika,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H009A7E95,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0070,0020,0066,0
+Style: Kuniko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C16B73,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0075,0066,0
+Style: Notes,Trebuchet MS,18,&H00020404,&H000000FF,&H00E7E8EA,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0030,0
+Style: Dental,Trebuchet MS,16,&H007E7E7C,&H000000FF,&H00DEE0E0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0130,0035,0
+Style: InCall,Trebuchet MS,16,&H00FEF8F1,&H000000FF,&H00D45B2C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0040,0020,0080,0
+Style: Notes2,Trebuchet MS,14,&H00020202,&H000000FF,&H00ACD0D8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.15,0:00:05.98,WorkSigns,SIGN,0000,0000,0000,,{\fad(1835,1)}We apologize for the inconvenience \NWe are working as safely as possible \NWe appreciate your cooperation \NNo Authorized Access
+Dialogue: 0,0:00:16.66,0:00:18.70,DCMain,CONAN,0000,0000,0000,,Time is the y-axis, and I'm the x-axis!
+Dialogue: 0,0:00:18.84,0:00:20.91,DCMain,CONAN,0000,0000,0000,,Inscribing love and cases \Nwith deductive reasoning!
+Dialogue: 0,0:00:21.08,0:00:22.66,DCMain,CONAN,0000,0000,0000,,The Detective Boys were at the crime scene,
+Dialogue: 0,0:00:22.66,0:00:23.96,DCMain,CONAN,0000,0000,0000,,but Conan doesn't seem to be around!
+Dialogue: 0,0:00:24.65,0:00:26.15,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:26.15,0:00:27.85,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:00:27.85,0:00:30.35,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:11.98,0:02:17.99,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(402,1)}A Day Without Conan
+Dialogue: 0,0:02:13.00,0:02:14.81,DCMain,CONAN,0000,0000,0000,,"A Day Without Conan!"
+Dialogue: 0,0:02:20.60,0:02:25.74,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}The victim is a serial blackmailer \Nnamed Unmo Sadakazu-san.
+Dialogue: 0,0:02:21.74,0:02:25.74,Sadakazu,TEXT,0000,0000,0000,,{\fad(250,1)}Unmo Sadakazu (30)
+Dialogue: 0,0:02:25.88,0:02:27.55,DCMain,MITSUHIKO,0000,0000,0000,,There's no weapon at the crime scene,
+Dialogue: 0,0:02:27.55,0:02:32.75,DCMain,MITSUHIKO,0000,0000,0000,,but he most likely died instantly when he \Nwas hit over the head with a metal pipe.
+Dialogue: 0,0:02:33.04,0:02:34.30,DCMain,CONAN,0000,0000,0000,,But, Mitsuhiko...
+Dialogue: 0,0:02:34.30,0:02:36.48,DCItalic,MITSUHIKO,0000,0000,0000,,They're finished. I'll call you back.
+Dialogue: 0,0:02:37.85,0:02:40.38,DCMain,KOGORO,0000,0000,0000,,These hot springs are great!
+Dialogue: 0,0:02:41.05,0:02:44.89,DCMain,KOGORO,0000,0000,0000,,Compared to how cold it is in \NTokyo, this place is paradise!
+Dialogue: 0,0:02:45.41,0:02:46.84,DCMain,KOGORO,0000,0000,0000,,Come on, kid!
+Dialogue: 0,0:02:46.84,0:02:48.64,DCMain,KOGORO,0000,0000,0000,,Let's stuff ourselves!
+Dialogue: 0,0:02:49.49,0:02:53.56,DCItalic,CONAN,0000,0000,0000,,The old man got free \Nhotel vouchers somewhere.
+Dialogue: 0,0:02:52.77,0:02:53.56,Gift,SIGN,0000,0000,0000,,Gift \NMori Kogoro-sama \NCongratulations on being selected \NThis invitation entitles you to free lodging
+Dialogue: 0,0:02:54.22,0:02:58.95,DCItalic,CONAN,0000,0000,0000,,Ran was unable to come, so \Nhe made me come with him.
+Dialogue: 0,0:02:59.91,0:03:05.41,DCMain,MEGURE,0000,0000,0000,,So the estimated time of death \Nis today between 3:30 to 4:30.
+Dialogue: 0,0:03:05.41,0:03:06.50,DCMain,MITSUHIKO,0000,0000,0000,,It's four.
+Dialogue: 0,0:03:06.93,0:03:12.37,DCMain,MITSUHIKO,0000,0000,0000,,That's when the tall man wearing \Nsunglasses and a mask came out.
+Dialogue: 0,0:03:13.68,0:03:18.80,DCMain,MEGURE,0000,0000,0000,,And you kids were watching this construction \Nsite from across the street then?
+Dialogue: 0,0:03:18.80,0:03:22.09,DCMain,MITSUHIKO,0000,0000,0000,,Yes. We saw a woman in trouble.
+Dialogue: 0,0:03:22.40,0:03:25.10,DCMain,MITSUHIKO,0000,0000,0000,,It was regarding her grandson \Nwho lives with her.
+Dialogue: 0,0:03:25.64,0:03:31.31,Hisae,TEXT,0000,0000,0000,,{\fad(250,250)}Kubo Hisae (73) \NHousewife
+Dialogue: 0,0:03:25.68,0:03:28.47,DCItalic,HISAE,0000,0000,0000,,{\an8}Not only can he not hold down a job,
+Dialogue: 0,0:03:28.47,0:03:32.85,DCItalic,HISAE,0000,0000,0000,,{\an8}but lately he's being going out in the \Nevening and staying out until morning.
+Dialogue: 0,0:03:33.18,0:03:37.11,DCItalic,HISAE,0000,0000,0000,,That idiot is out gallivanting around \Nwhen he doesn't even have a job.
+Dialogue: 0,0:03:38.78,0:03:43.00,DCItalic,MITSUHIKO,0000,0000,0000,,We should catch him while he's out \Nfooling around and advise him to stop.
+Dialogue: 0,0:03:43.00,0:03:44.19,DCItalic,BOTH,0000,0000,0000,,Yeah!
+Dialogue: 0,0:03:44.19,0:03:46.54,DCItalic,GENTA,0000,0000,0000,,It's not like we're meddling.
+Dialogue: 0,0:03:46.54,0:03:48.87,DCItalic,AYUMI,0000,0000,0000,,I feel bad for that woman.
+Dialogue: 0,0:03:49.32,0:03:52.34,DCItalic,HAIBARA,0000,0000,0000,,I didn't say anything.
+Dialogue: 0,0:03:54.23,0:03:57.13,DCItalic,MITSUHIKO,0000,0000,0000,,He should be going out soon.
+Dialogue: 0,0:03:58.10,0:03:58.99,DCItalic,MITSUHIKO,0000,0000,0000,,Hide!
+Dialogue: 0,0:04:06.79,0:04:09.14,DCItalic,GENTA,0000,0000,0000,,That's a huge dude...
+Dialogue: 0,0:04:11.97,0:04:14.71,DCMain,MITSUHIKO,0000,0000,0000,,The suspicious man...
+Dialogue: 0,0:04:16.23,0:04:18.40,DCMain,MITSUHIKO,0000,0000,0000,,...came running out after about five minutes.
+Dialogue: 0,0:04:20.94,0:04:22.63,DCItalic,MITSUHIKO,0000,0000,0000,,He ran away.
+Dialogue: 0,0:04:22.63,0:04:24.41,DCItalic,AYUMI,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:04:24.77,0:04:26.91,DCMain,MITSUHIKO,0000,0000,0000,,We were curious about what \Nhappened, but then...
+Dialogue: 0,0:04:26.91,0:04:27.66,Kubo,SIGN,0000,0000,0000,,Kubo
+Dialogue: 0,0:04:28.91,0:04:31.24,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}the grandson in question came out.
+Dialogue: 0,0:04:29.54,0:04:32.16,Yukihide,TEXT,0000,0000,0000,,{\fad(250,1)}Kubo Yukihide (19) \NHisae's Grandson
+Dialogue: 0,0:04:33.17,0:04:34.42,DCMain,MITSUHIKO,0000,0000,0000,,When we followed him,
+Dialogue: 0,0:04:35.33,0:04:38.15,DCMain,MITSUHIKO,0000,0000,0000,,we discovered he was actually working.
+Dialogue: 0,0:04:38.86,0:04:40.67,DCMain,MITSUHIKO,0000,0000,0000,,He was working nights.
+Dialogue: 0,0:04:41.91,0:04:43.67,DCItalic,HAIBARA,0000,0000,0000,,He's still a trainee.
+Dialogue: 0,0:04:43.97,0:04:47.42,DCItalic,HAIBARA,0000,0000,0000,,He planned to tell her once \Nhe became an employee.
+Dialogue: 0,0:04:49.22,0:04:53.81,DCItalic,MITSUHIKO,0000,0000,0000,,By the way, who was that man?
+Dialogue: 0,0:04:59.92,0:05:05.82,DCMain,MEGURE,0000,0000,0000,,The man you kids saw certainly \Nsounds suspicious,
+Dialogue: 0,0:05:06.03,0:05:08.86,DCMain,MEGURE,0000,0000,0000,,but without knowing his appearance or age...
+Dialogue: 0,0:05:08.86,0:05:11.00,DCMain,AYUMI,0000,0000,0000,,But he was really tall.
+Dialogue: 0,0:05:11.00,0:05:12.96,DCMain,MEGURE,0000,0000,0000,,There are lots of men like that.
+Dialogue: 0,0:05:12.96,0:05:17.71,DCMain,MEGURE,0000,0000,0000,,Unmo-san himself looks to \Nbe almost two meters tall.
+Dialogue: 0,0:05:18.24,0:05:24.07,DCMain,TAKAGI,0000,0000,0000,,Inspector Megure, is it safe to assume the \Nsuspect was being blackmailed by Unmo-san?
+Dialogue: 0,0:05:24.07,0:05:28.59,DCMain,CHIBA,0000,0000,0000,,It seems Unmo-san had no \Nrelationship with his neighbors.
+Dialogue: 0,0:05:29.03,0:05:33.89,DCMain,GENTA,0000,0000,0000,,The culprit was being blackmailed \Nby that Unmo guy, too.
+Dialogue: 0,0:05:34.98,0:05:39.87,DCMain,HAIBARA,0000,0000,0000,,So they lied about paying him, asked \Nto meet him here, and killed him.
+Dialogue: 0,0:05:39.87,0:05:41.01,DCMain,MITSUHIKO,0000,0000,0000,,Most likely, yes.
+Dialogue: 0,0:05:41.44,0:05:42.40,DCMain,BOTH,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:44.28,0:05:46.28,IncomingCall,SIGN,0000,0000,0000,,Incoming Call \N{\fs22}Edogawa Conan
+Dialogue: 0,0:05:44.61,0:05:45.88,DCMain,MITSUHIKO,0000,0000,0000,,Conan-kun.
+Dialogue: 0,0:05:47.41,0:05:48.03,DCMain,MITSUHIKO,0000,0000,0000,,Hello?
+Dialogue: 0,0:05:48.28,0:05:50.12,DCMain,CONAN,0000,0000,0000,,There's something bothering me.
+Dialogue: 0,0:05:50.12,0:05:52.76,DCMain,CONAN,0000,0000,0000,,There was no weapon at the crime scene, right?
+Dialogue: 0,0:05:52.76,0:05:55.45,DCItalic,MITSUHIKO,0000,0000,0000,,Right. We believe the culprit \Ntook it with them.
+Dialogue: 0,0:05:55.45,0:06:00.09,DCMain,CONAN,0000,0000,0000,,But the man who fled wasn't \Ncarrying a metal pipe, right?
+Dialogue: 0,0:06:00.09,0:06:01.31,DCItalic,MITSUHIKO,0000,0000,0000,,You're right.
+Dialogue: 0,0:06:01.31,0:06:04.05,DCItalic,MITSUHIKO,0000,0000,0000,,Perhaps he was hiding it under his coat.
+Dialogue: 0,0:06:05.33,0:06:08.12,DCMain,CONAN,0000,0000,0000,,Got it. I'll be back tomorrow afternoon.
+Dialogue: 0,0:06:08.12,0:06:10.30,DCMain,CONAN,0000,0000,0000,,Let's find the culprit then.
+Dialogue: 0,0:06:10.30,0:06:13.06,AllYouCan,SIGN,0000,0000,0000,,All You Can Eat \NAll You Can Drink
+Dialogue: 0,0:06:10.30,0:06:13.06,FlavorsofWinter,SIGN,0000,0000,0000,,Experience the flavors of winter \Nwith our hot pot and seafood dishes
+Dialogue: 0,0:06:10.70,0:06:11.86,DCItalic,MITSUHIKO,0000,0000,0000,,Got it.
+Dialogue: 0,0:06:13.31,0:06:16.06,DCMain,KOGORO,0000,0000,0000,,Ow!
+Dialogue: 0,0:06:15.20,0:06:16.06,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:06:16.06,0:06:17.81,WorkSigns2,SIGN,0000,0000,0000,,We apologize for the inconvenience \NWe are working as safely as possible \NWe appreciate your cooperation \NNo Authorized Access
+Dialogue: 0,0:06:17.07,0:06:18.17,DCMain,MITSUHIKO,0000,0000,0000,,What?!
+Dialogue: 0,0:06:18.17,0:06:20.10,DCMain,MITSUHIKO,0000,0000,0000,,You can't come back now?
+Dialogue: 0,0:06:20.31,0:06:27.57,Hospital,SIGN,0000,0000,0000,,Hospital
+Dialogue: 0,0:06:20.55,0:06:26.48,DCMain,CONAN,0000,0000,0000,,Yeah, sorry. Stick with the police \Nand tell me everything you learn.
+Dialogue: 0,0:06:26.48,0:06:27.57,DCItalic,MITSUHIKO,0000,0000,0000,,Got it.
+Dialogue: 0,0:06:27.57,0:06:29.82,Unmo,SIGN,0000,0000,0000,,Unmo
+Dialogue: 0,0:06:28.61,0:06:29.53,DCMain,TAKAGI,0000,0000,0000,,Found it.
+Dialogue: 0,0:06:29.82,0:06:32.83,ClientList,SIGN,0000,0000,0000,,Client List
+Dialogue: 0,0:06:30.06,0:06:32.50,DCMain,TAKAGI,0000,0000,0000,,It's a list of the people \Nhe was blackmailing.
+Dialogue: 0,0:06:34.40,0:06:37.58,DCMain,CHIBA,0000,0000,0000,,Ten men and one woman, huh?
+Dialogue: 0,0:06:38.19,0:06:40.14,DCMain,TAKAGI,0000,0000,0000,,Let's split up.
+Dialogue: 0,0:06:44.49,0:06:45.96,DCMain,MITSUHIKO,0000,0000,0000,,We'll join you.
+Dialogue: 0,0:06:46.38,0:06:47.84,DCMain,TAKAGI,0000,0000,0000,,We can't let you do that.
+Dialogue: 0,0:06:50.43,0:06:52.79,DCMain,MITSUHIKO,0000,0000,0000,,We saw the culprit.
+Dialogue: 0,0:06:52.79,0:06:55.85,DCMain,MITSUHIKO,0000,0000,0000,,If we encounter the suspect, we \Nmay be able to recall something.
+Dialogue: 0,0:06:59.06,0:07:01.20,DCItalic,CONAN,0000,0000,0000,,It doesn't make sense.
+Dialogue: 0,0:07:01.20,0:07:04.33,DCItalic,CONAN,0000,0000,0000,,What happened to the metal pipe?
+Dialogue: 0,0:07:05.14,0:07:07.60,DCItalic,MITSUHIKO,0000,0000,0000,,Perhaps he was hiding it under his coat.
+Dialogue: 0,0:07:07.60,0:07:12.11,DCItalic,CONAN,0000,0000,0000,,If that's true, then they would've \Nnoticed him running unnaturally.
+Dialogue: 0,0:07:12.65,0:07:16.31,DCMain,CONAN,0000,0000,0000,,Which means the weapon disappeared later.
+Dialogue: 0,0:07:17.43,0:07:19.01,DCItalic,CONAN,0000,0000,0000,,Did someone take it?
+Dialogue: 0,0:07:21.84,0:07:24.43,DCMain,TAKAGI,0000,0000,0000,,We're sorry to have bothered \Nyou on your day off.
+Dialogue: 0,0:07:25.13,0:07:27.63,Names,SIGN,0000,0000,0000,,{\s1}Sadabetsu Kenji \NDaimonji Iwao{\s0} \NSamei Rika
+Dialogue: 0,0:07:25.54,0:07:29.23,DCMain,TAKAGI,0000,0000,0000,,That just leaves Samei Rika-san, the woman.
+Dialogue: 0,0:07:29.23,0:07:33.47,DCMain,MITSUHIKO,0000,0000,0000,,Maybe that person was \Nactually a masculine woman.
+Dialogue: 0,0:07:38.49,0:07:41.14,DCMain,MITSUHIKO,0000,0000,0000,,It's not her.
+Dialogue: 0,0:07:41.31,0:07:45.40,DCMain,AYUMI,0000,0000,0000,,Someone who makes such cute \Ndrawings couldn't kill a person.
+Dialogue: 0,0:07:46.37,0:07:50.03,DCMain,GENTA,0000,0000,0000,,And she's hardly a masculine woman.
+Dialogue: 0,0:07:50.11,0:07:52.53,Rika,TEXT,0000,0000,0000,,{\fad(250,1)}Samei Rika (28) \NIllustrator
+Dialogue: 0,0:07:50.58,0:07:52.53,DCMain,HAIBARA,0000,0000,0000,,{\an8}She's frail and small.
+Dialogue: 0,0:07:52.80,0:07:57.64,DCMain,TAKAGI,0000,0000,0000,,Samei Rika-san, where were you at four yesterday?
+Dialogue: 0,0:07:57.64,0:07:58.84,DCMain,RIKA,0000,0000,0000,,I was...
+Dialogue: 0,0:07:58.84,0:08:00.63,DCMain,RIKA,0000,0000,0000,,Oh, Kuniko-san.
+Dialogue: 0,0:08:00.63,0:08:01.61,DCMain,KUNIKO,0000,0000,0000,,Yes?
+Dialogue: 0,0:08:01.61,0:08:04.79,DCMain,RIKA,0000,0000,0000,,I was in my apartment \Nyesterday afternoon, right?
+Dialogue: 0,0:08:05.04,0:08:10.55,Kuniko,TEXT,0000,0000,0000,,{\fad(250,1)}Tago Kuniko (36) \NRika's Neighbor
+Dialogue: 0,0:08:05.13,0:08:09.15,DCMain,KUNIKO,0000,0000,0000,,{\an8}What? You started working at around 3.
+Dialogue: 0,0:08:09.15,0:08:10.55,DCMain,KUNIKO,0000,0000,0000,,{\an8}Did something happen?
+Dialogue: 0,0:08:10.74,0:08:12.81,DCMain,RIKA,0000,0000,0000,,No, thank you.
+Dialogue: 0,0:08:12.81,0:08:13.55,DCMain,KUNIKO,0000,0000,0000,,I see.
+Dialogue: 0,0:08:13.87,0:08:15.08,DCMain,KUNIKO,0000,0000,0000,,Well, see you later.
+Dialogue: 0,0:08:25.56,0:08:28.07,Notes,SIGN,0000,0000,0000,,Samei Rika-san 28 \NIllustrator \NAccording to neighbor Kuniko-san (housewife) \Nstarted working around three
+Dialogue: 0,0:08:27.04,0:08:30.03,DCMain,TAKAGI,0000,0000,0000,,We didn't get any hits.
+Dialogue: 0,0:08:30.03,0:08:33.39,DCMain,MITSUHIKO,0000,0000,0000,,Then let's try calling the other group.
+Dialogue: 0,0:08:33.39,0:08:35.01,DCMain,TAKAGI,0000,0000,0000,,We're on the phone with them right now.
+Dialogue: 0,0:08:35.01,0:08:38.34,DCMain,CHIBA,0000,0000,0000,,What? I see. Got it.
+Dialogue: 0,0:08:39.46,0:08:42.72,DCMain,CHIBA,0000,0000,0000,,Everyone they spoke with had an alibi, too.
+Dialogue: 0,0:08:42.72,0:08:43.83,DCMain,ALL,0000,0000,0000,,What?!
+Dialogue: 0,0:08:46.85,0:08:48.98,DCMain,CONAN,0000,0000,0000,,All the suspects are innocent?
+Dialogue: 0,0:08:49.36,0:08:50.75,DCItalic,MITSUHIKO,0000,0000,0000,,We're stuck.
+Dialogue: 0,0:08:50.75,0:08:55.52,DCItalic,GENTA,0000,0000,0000,,Then who killed that guy with the dumb face?
+Dialogue: 0,0:08:55.52,0:08:56.84,DCMain,CONAN,0000,0000,0000,,Dumb face?
+Dialogue: 0,0:08:57.19,0:09:02.22,DCMain,CONAN,0000,0000,0000,,The victim Unmo Sadakazu-san didn't \Nhave a particularly dumb face.
+Dialogue: 0,0:09:02.49,0:09:06.36,DCItalic,MITSUHIKO,0000,0000,0000,,That's because you didn't \Nsee the body, Conan-kun.
+Dialogue: 0,0:09:06.36,0:09:07.56,DCMain,CONAN,0000,0000,0000,,Hold on.
+Dialogue: 0,0:09:13.49,0:09:15.47,DCMain,KOGORO,0000,0000,0000,,Hello, this is Mori.
+Dialogue: 0,0:09:15.47,0:09:18.98,DCItalic,MITSUHIKO,0000,0000,0000,,What? Are you feeling better?
+Dialogue: 0,0:09:18.98,0:09:22.33,DCMain,KOGORO,0000,0000,0000,,Yeah. Could you put Detective \NTakagi on the phone?
+Dialogue: 0,0:09:23.52,0:09:26.96,DCMain,TAKAGI,0000,0000,0000,,Very well. I can't refuse a \Nrequest from you, Mori-san.
+Dialogue: 0,0:09:30.09,0:09:31.87,DCItalic,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:09:31.87,0:09:34.63,DCMain,KOGORO,0000,0000,0000,,Were his front teeth knocked \Nout when he was hit?
+Dialogue: 0,0:09:35.05,0:09:36.26,DCMain,TAKAGI,0000,0000,0000,,No, they weren't.
+Dialogue: 0,0:09:36.44,0:09:40.14,Dental,SIGN,0000,0000,0000,,{\fad(460,1)}Yamamoto Dental Clinic \NUnmo Sadakazu
+Dialogue: 0,0:09:37.00,0:09:39.87,DCMain,TAKAGI,0000,0000,0000,,They're dentures. We found \Nthem in his apartment.
+Dialogue: 0,0:09:40.34,0:09:44.14,DCMain,TAKAGI,0000,0000,0000,,He was going to have them put \Nback in at the start of the week.
+Dialogue: 0,0:09:44.81,0:09:47.64,DCMain,KOGORO,0000,0000,0000,,So they were out since before \Nhe arrived at the crime scene.
+Dialogue: 0,0:09:48.85,0:09:51.51,DCMain,KOGORO,0000,0000,0000,,I was just curious. Sorry \Nto have bothered you.
+Dialogue: 0,0:09:52.71,0:09:56.75,DCMain,CONAN,0000,0000,0000,,Anyway, the real problem is \Nall the suspects are innocent.
+Dialogue: 0,0:09:56.75,0:10:01.83,DCMain,CONAN,0000,0000,0000,,Why can't we find the man who \Nkilled this person and fled?
+Dialogue: 0,0:10:06.84,0:10:09.88,DCItalic,CONAN,0000,0000,0000,,He was wearing a button-down shirt.
+Dialogue: 0,0:10:11.68,0:10:12.42,DCMain,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:10:13.50,0:10:14.42,DCItalic,CONAN,0000,0000,0000,,But...
+Dialogue: 0,0:10:16.92,0:10:20.18,Unmo,SIGN,0000,0000,0000,,Unmo
+Dialogue: 0,0:10:17.49,0:10:20.18,DCMain,GENTA,0000,0000,0000,,They're making a new list of suspects?
+Dialogue: 0,0:10:20.39,0:10:22.68,DCMain,AYUMI,0000,0000,0000,,So we're back to square one.
+Dialogue: 0,0:10:23.42,0:10:25.95,DCMain,MITSUHIKO,0000,0000,0000,,The estimated time of death?
+Dialogue: 0,0:10:25.95,0:10:27.99,DCMain,MITSUHIKO,0000,0000,0000,,I told you, it was around four.
+Dialogue: 0,0:10:27.99,0:10:33.08,DCItalic,CONAN,0000,0000,0000,,That's when you guys saw the \Ntall man running away, right?
+Dialogue: 0,0:10:33.08,0:10:35.89,DCItalic,CONAN,0000,0000,0000,,What time did the police determine it was?
+Dialogue: 0,0:10:36.34,0:10:39.95,DCMain,MITSUHIKO,0000,0000,0000,,Between 3:30 and 4:30.
+Dialogue: 0,0:10:39.95,0:10:44.95,Hospital,SIGN,0000,0000,0000,,Hospital
+Dialogue: 0,0:10:40.39,0:10:42.54,DCMain,CONAN,0000,0000,0000,,Until 4:30, right?
+Dialogue: 0,0:10:42.54,0:10:44.95,DCItalic,MITSUHIKO,0000,0000,0000,,Yes. What about it?
+Dialogue: 0,0:10:46.64,0:10:48.46,DCItalic,CONAN,0000,0000,0000,,So that's how it is.
+Dialogue: 0,0:10:56.93,0:10:59.85,DCItalic,CONAN,0000,0000,0000,,He was wearing a button-down shirt.
+Dialogue: 0,0:11:01.35,0:11:02.47,DCMain,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:11:03.32,0:11:04.26,DCItalic,CONAN,0000,0000,0000,,But...
+Dialogue: 0,0:11:07.36,0:11:09.89,DCMain,MITSUHIKO,0000,0000,0000,,The estimated time of death?
+Dialogue: 0,0:11:09.89,0:11:12.19,DCMain,MITSUHIKO,0000,0000,0000,,I told you, it was around four.
+Dialogue: 0,0:11:12.19,0:11:16.98,DCItalic,CONAN,0000,0000,0000,,That's when you guys saw the \Ntall man running away, right?
+Dialogue: 0,0:11:17.29,0:11:20.12,DCItalic,CONAN,0000,0000,0000,,What time did the police determine it was?
+Dialogue: 0,0:11:20.57,0:11:24.24,DCMain,MITSUHIKO,0000,0000,0000,,Between 3:30 and 4:30.
+Dialogue: 0,0:11:24.24,0:11:29.25,Hospital,SIGN,0000,0000,0000,,Hospital
+Dialogue: 0,0:11:24.60,0:11:26.75,DCMain,CONAN,0000,0000,0000,,Until 4:30, right?
+Dialogue: 0,0:11:26.75,0:11:29.25,DCItalic,MITSUHIKO,0000,0000,0000,,Yes. What about it?
+Dialogue: 0,0:11:31.31,0:11:32.99,DCItalic,CONAN,0000,0000,0000,,So that's how it is.
+Dialogue: 0,0:11:33.25,0:11:34.01,InCall,SIGN,0000,0000,0000,,Tsuburaya Mitsuhiko \NIn Call
+Dialogue: 0,0:11:34.01,0:11:34.75,InCall,SIGN,0000,0000,0000,,Tsuburaya Mitsuhiko \NCall Ended
+Dialogue: 0,0:11:35.43,0:11:37.81,DCItalic,CONAN,0000,0000,0000,,That explains everything.
+Dialogue: 0,0:11:38.51,0:11:44.51,DCNote,SIGN,0000,0000,0000,,Hospital
+Dialogue: 0,0:11:38.77,0:11:41.61,DCItalic,CONAN,0000,0000,0000,,Why we can't find the tall man,
+Dialogue: 0,0:11:42.42,0:11:44.51,DCItalic,CONAN,0000,0000,0000,,why the weapon is missing,
+Dialogue: 0,0:11:45.93,0:11:47.51,DCItalic,CONAN,0000,0000,0000,,and the victim Unmo-san.
+Dialogue: 0,0:11:49.04,0:11:52.63,DCItalic,CONAN,0000,0000,0000,,I even have some idea of \Nwhy the culprit did that.
+Dialogue: 0,0:11:53.92,0:11:54.81,DCItalic,CONAN,0000,0000,0000,,The problem is...
+Dialogue: 0,0:11:56.48,0:11:58.71,DCMain,CONAN,0000,0000,0000,,Who is that?
+Dialogue: 0,0:11:59.03,0:12:05.78,Hospital,SIGN,0000,0000,0000,,Hospital
+Dialogue: 0,0:11:59.52,0:12:03.98,DCItalic,CONAN,0000,0000,0000,,According to Mitsuhiko, all \Nthe suspects have alibis.
+Dialogue: 0,0:12:06.29,0:12:08.81,DCItalic,CONAN,0000,0000,0000,,No, are we sure that's true?
+Dialogue: 0,0:12:12.54,0:12:15.79,DCMain,CONAN,0000,0000,0000,,Mitsuhiko, sorry. I want you guys \Nto split up and do something for me.
+Dialogue: 0,0:12:16.89,0:12:19.45,DCMain,CONAN,0000,0000,0000,,The first is to confirm her \Nalibi with the witness.
+Dialogue: 0,0:12:19.45,0:12:21.55,DCMain,CONAN,0000,0000,0000,,The second is a treasure hunt.
+Dialogue: 0,0:12:21.75,0:12:24.01,DCMain,MITSUHIKO,0000,0000,0000,,Got it. We'll give it a shot.
+Dialogue: 0,0:12:24.86,0:12:27.93,DCMain,HAIBARA,0000,0000,0000,,He's ordering us around \Nwithout even explaining why?
+Dialogue: 0,0:12:27.93,0:12:30.56,DCMain,HAIBARA,0000,0000,0000,,He treats us like errand boys.
+Dialogue: 0,0:12:32.44,0:12:33.90,DCMain,MITSUHIKO,0000,0000,0000,,Errand boys?
+Dialogue: 0,0:12:33.90,0:12:36.40,DCMain,AYUMI,0000,0000,0000,,We just need to solve the case, right?
+Dialogue: 0,0:12:36.40,0:12:41.07,DCMain,GENTA,0000,0000,0000,,And Conan's always making \Nus run errands for him.
+Dialogue: 0,0:12:41.07,0:12:45.47,DCMain,MITSUHIKO,0000,0000,0000,,But this time he gave us \Norders over the phone.
+Dialogue: 0,0:12:46.86,0:12:51.55,DCMain,HAIBARA,0000,0000,0000,,Why not? It's up to us to find \Nthe key to solving the case.
+Dialogue: 0,0:12:51.55,0:12:52.54,DCMain,MITSUHIKO,0000,0000,0000,,You're right.
+Dialogue: 0,0:12:52.72,0:12:55.58,DCMain,MITSUHIKO,0000,0000,0000,,Let's go. We'll start with the treasure hunt.
+Dialogue: 0,0:12:55.58,0:12:57.64,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:12:58.45,0:13:00.51,DCMain,HAIBARA,0000,0000,0000,,I guess I'll talk to the witness.
+Dialogue: 0,0:13:00.51,0:13:04.25,DCMain,HAIBARA,0000,0000,0000,,But I'd better give Edogawa-kun \Na piece of my mind first.
+Dialogue: 0,0:13:06.12,0:13:09.90,DCMain,KUNIKO,0000,0000,0000,,Did I visit my neighbor Samei \NRika-san's apartment yesterday?
+Dialogue: 0,0:13:09.90,0:13:11.19,DCMain,KUNIKO,0000,0000,0000,,No, I didn't.
+Dialogue: 0,0:13:11.19,0:13:16.44,DCMain,HAIBARA,0000,0000,0000,,Then how did you know she \Nstarted working at three?
+Dialogue: 0,0:13:16.64,0:13:20.27,DCMain,KUNIKO,0000,0000,0000,,Oh, because she came to ask \Nme for something yesterday.
+Dialogue: 0,0:13:21.14,0:13:24.43,DCItalic,RIKA,0000,0000,0000,,I have a job I need to finish by tonight,
+Dialogue: 0,0:13:24.87,0:13:28.20,DCItalic,RIKA,0000,0000,0000,,but I'm being followed by a strange fan.
+Dialogue: 0,0:13:28.89,0:13:33.15,DCItalic,RIKA,0000,0000,0000,,If someone knocks on or \Nyells outside my door,
+Dialogue: 0,0:13:33.15,0:13:35.82,DCItalic,RIKA,0000,0000,0000,,could you tell them I'm out?
+Dialogue: 0,0:13:36.90,0:13:38.68,DCItalic,KUNIKO,0000,0000,0000,,So you want me to send them away.
+Dialogue: 0,0:13:38.68,0:13:39.84,DCItalic,KUNIKO,0000,0000,0000,,You got it.
+Dialogue: 0,0:13:39.84,0:13:41.23,DCItalic,RIKA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:13:41.23,0:13:43.42,DCItalic,RIKA,0000,0000,0000,,Now I can focus on my work.
+Dialogue: 0,0:13:44.12,0:13:48.33,DCMain,KUNIKO,0000,0000,0000,,She made her request and went back \Ninto her apartment around three.
+Dialogue: 0,0:13:49.35,0:13:51.81,DCMain,KUNIKO,0000,0000,0000,,She was definitely working, right?
+Dialogue: 0,0:13:52.50,0:13:55.43,DCMain,KUNIKO,0000,0000,0000,,Fortunately, no weirdos showed up.
+Dialogue: 0,0:13:59.57,0:14:01.20,DCMain,RIKA,0000,0000,0000,,Oh, Kuniko-san.
+Dialogue: 0,0:14:01.75,0:14:02.38,DCItalic,KUNIKO,0000,0000,0000,,Yes?
+Dialogue: 0,0:14:02.38,0:14:05.57,DCItalic,RIKA,0000,0000,0000,,I was in my apartment \Nyesterday afternoon, right?
+Dialogue: 0,0:14:05.81,0:14:09.71,DCItalic,KUNIKO,0000,0000,0000,,What? You started working at around 3.
+Dialogue: 0,0:14:09.71,0:14:11.32,DCItalic,KUNIKO,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:14:11.56,0:14:13.31,DCItalic,RIKA,0000,0000,0000,,No, thank you.
+Dialogue: 0,0:14:16.63,0:14:21.11,DCItalic,CONAN,0000,0000,0000,,In other words, we don't know if she was \Nactually in her apartment after three.
+Dialogue: 0,0:14:21.11,0:14:26.09,DCMain,HAIBARA,0000,0000,0000,,Yeah, but she looks nothing \Nlike the tall man.
+Dialogue: 0,0:14:26.48,0:14:28.33,DCItalic,CONAN,0000,0000,0000,,That's not important anymore.
+Dialogue: 0,0:14:29.70,0:14:32.10,DCMain,HAIBARA,0000,0000,0000,,Just tell me already!
+Dialogue: 0,0:14:34.07,0:14:37.34,DCMain,GENTA,0000,0000,0000,,What treasure are we looking for?
+Dialogue: 0,0:14:37.34,0:14:41.77,DCMain,MITSUHIKO,0000,0000,0000,,He just said to thoroughly search \Nthe area around the crime scene.
+Dialogue: 0,0:14:41.77,0:14:44.57,DCMain,AYUMI,0000,0000,0000,,What's that? It's waving.
+Dialogue: 0,0:14:44.57,0:14:45.36,DCMain,MITSUHIKO,0000,0000,0000,,What?
+Dialogue: 0,0:14:52.08,0:14:53.09,DCMain,MITSUHIKO,0000,0000,0000,,Is this...?
+Dialogue: 0,0:14:53.95,0:14:55.87,DCMain,MITSUHIKO,0000,0000,0000,,This belongs to the culprit!
+Dialogue: 0,0:14:56.48,0:15:00.54,DCMain,MITSUHIKO,0000,0000,0000,,I understand why they got rid of the weapon,
+Dialogue: 0,0:15:01.53,0:15:03.88,DCMain,MITSUHIKO,0000,0000,0000,,but why did they leave their \Ncoat and other belongings?
+Dialogue: 0,0:15:04.23,0:15:05.95,DCMain,AYUMI,0000,0000,0000,,Let's call Conan-kun.
+Dialogue: 0,0:15:05.95,0:15:06.56,DCMain,,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:06.56,0:15:09.38,DCMain,GENTA,0000,0000,0000,,This must be the treasure.
+Dialogue: 0,0:15:09.62,0:15:12.14,DCMain,GENTA,0000,0000,0000,,Conan will be so surprised.
+Dialogue: 0,0:15:12.56,0:15:14.81,DCMain,MITSUHIKO,0000,0000,0000,,It's me! We found them.
+Dialogue: 0,0:15:14.81,0:15:16.68,DCItalic,CONAN,0000,0000,0000,,The metal pipe and coat, right?
+Dialogue: 0,0:15:16.68,0:15:17.78,DCMain,ALL,0000,0000,0000,,What?!
+Dialogue: 0,0:15:17.78,0:15:19.32,DCMain,MITSUHIKO,0000,0000,0000,,How did you know?
+Dialogue: 0,0:15:19.32,0:15:21.42,DCItalic,CONAN,0000,0000,0000,,Call the police.
+Dialogue: 0,0:15:21.42,0:15:24.99,DCMain,MITSUHIKO,0000,0000,0000,,We will, but what does this mean?
+Dialogue: 0,0:15:26.18,0:15:27.71,DCMain,HAIBARA,0000,0000,0000,,I made him tell me.
+Dialogue: 0,0:15:29.00,0:15:30.93,DCMain,HAIBARA,0000,0000,0000,,Edogawa-kun's deduction.
+Dialogue: 0,0:15:32.79,0:15:35.83,DCMain,MEGURE,0000,0000,0000,,Take them back and have \Nthem examined immediately.
+Dialogue: 0,0:15:36.62,0:15:39.52,DCMain,TAKAGI,0000,0000,0000,,Conan-kun figured it all out?
+Dialogue: 0,0:15:39.52,0:15:41.10,DCMain,CHIBA,0000,0000,0000,,Is he back?
+Dialogue: 0,0:15:41.10,0:15:42.34,DCMain,AYUMI,0000,0000,0000,,No.
+Dialogue: 0,0:15:42.34,0:15:44.54,DCMain,GENTA,0000,0000,0000,,He figured it out based on \Nthe information we gave him.
+Dialogue: 0,0:15:44.94,0:15:46.71,DCMain,MITSUHIKO,0000,0000,0000,,Come with us.
+Dialogue: 0,0:15:46.71,0:15:49.55,DCMain,MITSUHIKO,0000,0000,0000,,Conan-kun isn't with us, though.
+Dialogue: 0,0:15:51.70,0:15:54.55,DCMain,MITSUHIKO,0000,0000,0000,,This time I'll run down the culprit.
+Dialogue: 0,0:15:54.74,0:15:56.20,DCMain,GENTA,0000,0000,0000,,You?
+Dialogue: 0,0:15:56.61,0:15:58.31,DCMain,MITSUIHKO,0000,0000,0000,,I'm more than just an errand boy.
+Dialogue: 0,0:15:58.66,0:16:00.95,DCMain,GENTA,0000,0000,0000,,It's still bothering him, huh?
+Dialogue: 0,0:16:00.95,0:16:04.06,DCMain,HAIBARA,0000,0000,0000,,There's nothing wrong with \Nhaving some backbone.
+Dialogue: 0,0:16:09.13,0:16:11.88,DCMain,MITSUHIKO,0000,0000,0000,,The other suspects' alibis are rock solid,
+Dialogue: 0,0:16:11.88,0:16:15.32,DCMain,MITSUHIKO,0000,0000,0000,,but you can't say the same, \Ncan you, Samei Rika-san?
+Dialogue: 0,0:16:16.35,0:16:19.32,DCMain,RIKA,0000,0000,0000,,My neighbor Kuniko-san can—
+Dialogue: 0,0:16:19.32,0:16:20.20,DCMain,HAIBARA,0000,0000,0000,,Wait.
+Dialogue: 0,0:16:21.02,0:16:25.46,DCMain,HAIBARA,0000,0000,0000,,Your neighbor didn't actually see you.
+Dialogue: 0,0:16:26.33,0:16:30.63,DCMain,RIKA,0000,0000,0000,,You're right, but it doesn't \Nmatter if I have an alibi.
+Dialogue: 0,0:16:31.36,0:16:36.40,DCMain,RIKA,0000,0000,0000,,Wasn't Unmo-san killed by a tall man?
+Dialogue: 0,0:16:36.40,0:16:38.64,DCMain,MITSUHIKO,0000,0000,0000,,We never would've found him.
+Dialogue: 0,0:16:38.64,0:16:39.56,DCMain,ALL,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:39.75,0:16:42.98,DCMain,MITSUHIKO,0000,0000,0000,,Not the man we saw.
+Dialogue: 0,0:16:43.45,0:16:44.45,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:16:45.27,0:16:47.82,DCMain,MITSUHIKO,0000,0000,0000,,Because that man is...
+Dialogue: 0,0:16:55.52,0:16:56.63,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:16:56.63,0:16:58.49,DCMain,HAIBARA,0000,0000,0000,,He made it just in time.
+Dialogue: 0,0:16:59.19,0:16:59.99,DCMain,RIKA,0000,0000,0000,,Who are you?
+Dialogue: 0,0:17:00.16,0:17:03.46,DCMain,CONAN,0000,0000,0000,,Kogoro-no-ojisan is incredibly resilient.
+Dialogue: 0,0:17:04.17,0:17:06.47,DCItalic,KOGORO,0000,0000,0000,,Even the doctor was surprised!
+Dialogue: 0,0:17:07.50,0:17:09.62,DCItalic,KOGORO,0000,0000,0000,,I'm all better now!
+Dialogue: 0,0:17:08.08,0:17:10.00,DCItalic,CONAN,0000,0000,0000,,{\an8}You just had too much to eat.
+Dialogue: 0,0:17:13.16,0:17:15.88,DCMain,TAKAGI,0000,0000,0000,,More importantly, why \Ncouldn't you have found him?
+Dialogue: 0,0:17:16.40,0:17:18.52,DCMain,CONAN,0000,0000,0000,,Tell them, Mitsuhiko.
+Dialogue: 0,0:17:18.52,0:17:19.68,DCMain,MITSUHIKO,0000,0000,0000,,Me?
+Dialogue: 0,0:17:22.24,0:17:23.14,DCMain,MITSUHIKO,0000,0000,0000,,Okay.
+Dialogue: 0,0:17:23.96,0:17:29.52,DCMain,MITSUHIKO,0000,0000,0000,,The tall man wearing sunglasses, \Na mask, and coat
+Dialogue: 0,0:17:27.02,0:17:29.52,Notes2,SIGN,0000,0000,0000,,Tall man \NSunglasses \NMask \NCoat \NAccording to Inspector Megure, \Nmore than two meters tall! \NWarning: Has a metal pipe \NSeen \NEstimated time of death between 3:30PM \Nand 4:30PM (according to forensics) \NStream near park \NDiscovered coat wrapped around metal pipe!!
+Dialogue: 0,0:17:30.18,0:17:33.03,DCMain,MITSUHIKO,0000,0000,0000,,was Unmo Sadakazu-san himself!
+Dialogue: 0,0:17:35.20,0:17:36.48,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:17:37.24,0:17:38.45,DCMain,CONAN,0000,0000,0000,,Nice one.
+Dialogue: 0,0:17:38.45,0:17:40.07,DCMain,MITSUHIKO,0000,0000,0000,,Really?
+Dialogue: 0,0:17:40.56,0:17:43.32,DCMain,CHIBA,0000,0000,0000,,Hold on. The victim Unmo-san...
+Dialogue: 0,0:17:43.32,0:17:45.11,DCMain,TAKAGI,0000,0000,0000,,Was also the culprit?
+Dialogue: 0,0:17:45.11,0:17:47.67,DCMain,CONAN,0000,0000,0000,,Not the culprit, the suspect.
+Dialogue: 0,0:17:48.00,0:17:48.94,DCMain,CONAN,0000,0000,0000,,Mitsuhiko.
+Dialogue: 0,0:17:49.72,0:17:52.41,DCMain,MITSUHIKO,0000,0000,0000,,Conan-kun, could you handle the rest?
+Dialogue: 0,0:17:54.49,0:17:57.17,DCMain,MITSUHIKO,0000,0000,0000,,You're the one who solved it.
+Dialogue: 0,0:17:57.79,0:17:58.68,DCMain,CONAN,0000,0000,0000,,Fine.
+Dialogue: 0,0:17:59.41,0:18:01.16,DCMain,CONAN,0000,0000,0000,,Yesterday at four,
+Dialogue: 0,0:18:01.16,0:18:05.95,DCMain,CONAN,0000,0000,0000,,Unmo-san came to the construction \Nsite to blackmail someone.
+Dialogue: 0,0:18:06.56,0:18:08.87,DCMain,CONAN,0000,0000,0000,,Since it was cold, he wore a coat.
+Dialogue: 0,0:18:09.88,0:18:14.80,DCMain,CONAN,0000,0000,0000,,In other words, the tall man \Nthe Detective Boys saw
+Dialogue: 0,0:18:17.21,0:18:18.92,DCMain,CONAN,0000,0000,0000,,was Unmo-san himself.
+Dialogue: 0,0:18:20.00,0:18:21.70,DCItalic,UNMO,0000,0000,0000,,They're still not here.
+Dialogue: 0,0:18:28.34,0:18:29.54,DCItalic,UNMO,0000,0000,0000,,Bastard!
+Dialogue: 0,0:18:30.35,0:18:32.08,DCItalic,UNMO,0000,0000,0000,,No, you don't!
+Dialogue: 0,0:18:33.97,0:18:35.59,DCItalic,UNMO,0000,0000,0000,,Don't underestimate me!
+Dialogue: 0,0:18:39.01,0:18:40.41,DCItalic,UNMO,0000,0000,0000,,I killed them.
+Dialogue: 0,0:18:40.41,0:18:46.22,DCMain,CONAN,0000,0000,0000,,Believing he had killed them, he \Nthrew away the metal pipe and fled,
+Dialogue: 0,0:18:46.81,0:18:49.31,DCMain,CONAN,0000,0000,0000,,which was witnessed by the Detective Boys.
+Dialogue: 0,0:18:49.87,0:18:53.61,DCMain,CONAN,0000,0000,0000,,Later, Unmo-san returned.
+Dialogue: 0,0:18:53.61,0:18:55.11,DCMain,BOTH,0000,0000,0000,,He returned?
+Dialogue: 0,0:18:55.45,0:18:59.62,DCMain,CONAN,0000,0000,0000,,He must've remembered that his \Nfingerprints were on the weapon.
+Dialogue: 0,0:19:00.59,0:19:02.11,DCMain,UNMO,0000,0000,0000,,This isn't good!
+Dialogue: 0,0:19:02.11,0:19:04.24,DCMain,UNMO,0000,0000,0000,,I need to get rid of that metal pipe!
+Dialogue: 0,0:19:06.92,0:19:08.03,DCMain,UNMO,0000,0000,0000,,Where did it go?
+Dialogue: 0,0:19:08.03,0:19:12.59,DCMain,CONAN,0000,0000,0000,,Unmo-san was killed by \Nhis blackmailing victim,
+Dialogue: 0,0:19:12.59,0:19:15.63,DCMain,CONAN,0000,0000,0000,,who had only been knocked unconscious.
+Dialogue: 0,0:19:19.53,0:19:21.13,DCMain,CONAN,0000,0000,0000,,That was around 4:30.
+Dialogue: 0,0:19:21.74,0:19:25.89,DCMain,CONAN,0000,0000,0000,,Then the culprit removed Unmo-san's coat,
+Dialogue: 0,0:19:26.52,0:19:31.34,DCMain,CONAN,0000,0000,0000,,and disposed of it along with the metal pipe.
+Dialogue: 0,0:19:32.60,0:19:38.49,DCMain,CONAN,0000,0000,0000,,The reason I thought the tall \Nman they saw might be Unmo-san
+Dialogue: 0,0:19:38.93,0:19:42.91,DCMain,CONAN,0000,0000,0000,,is because I saw this photo you sent.
+Dialogue: 0,0:19:43.48,0:19:47.89,DCMain,CONAN,0000,0000,0000,,Since it was a cold day, he \Nmust've been wearing a coat,
+Dialogue: 0,0:19:48.60,0:19:49.96,DCMain,CONAN,0000,0000,0000,,and if he was going to blackmail someone,
+Dialogue: 0,0:19:49.96,0:19:53.95,DCMain,CONAN,0000,0000,0000,,he would've hidden the fact that his \Nfront teeth were missing with a mask.
+Dialogue: 0,0:19:54.83,0:19:57.92,DCMain,HAIBARA,0000,0000,0000,,Once we eliminate the \Nrequirement of "tall man,"
+Dialogue: 0,0:19:58.48,0:20:01.27,DCMain,HAIBARA,0000,0000,0000,,we should be focusing on the \Ncertainty of their alibis
+Dialogue: 0,0:20:02.39,0:20:04.18,DCMain,HAIBARA,0000,0000,0000,,when determining the culprit.
+Dialogue: 0,0:20:06.15,0:20:11.18,DCMain,TAKAGI,0000,0000,0000,,Why did the culprit need \Nto remove Unmo-san's coat?
+Dialogue: 0,0:20:11.42,0:20:14.69,DCMain,CONAN,0000,0000,0000,,When they were fighting Unmo-san,
+Dialogue: 0,0:20:16.85,0:20:21.08,DCMain,CONAN,0000,0000,0000,,it's possible their blood \Ngot on Unmo-san's clothes.
+Dialogue: 0,0:20:22.00,0:20:22.74,DCMain,TAKAGI,0000,0000,0000,,Blood?
+Dialogue: 0,0:20:23.40,0:20:27.71,DCMain,CHIBA,0000,0000,0000,,Forensics just reported that \Nthey found blood on the coat.
+Dialogue: 0,0:20:27.71,0:20:29.91,DCMain,CHIBA,0000,0000,0000,,It belongs to the victim \NUnmo-san and one other person.
+Dialogue: 0,0:20:31.25,0:20:32.71,DCMain,RIKA,0000,0000,0000,,It's mine.
+Dialogue: 0,0:20:35.52,0:20:38.66,DCMain,RIKA,0000,0000,0000,,But I didn't mean to kill him!
+Dialogue: 0,0:20:39.14,0:20:42.72,DCMain,RIKA,0000,0000,0000,,He asked me to meet him \Nyesterday and blackmailed me.
+Dialogue: 0,0:20:42.89,0:20:45.77,DCMain,RIKA,0000,0000,0000,,When I asked him to stop,
+Dialogue: 0,0:20:45.77,0:20:48.37,DCMain,RIKA,0000,0000,0000,,he told me not to underestimate \Nhim and started strangling me.
+Dialogue: 0,0:20:48.87,0:20:52.18,DCMain,RIKA,0000,0000,0000,,In order to defend myself, \NI grabbed a metal pipe,
+Dialogue: 0,0:20:52.18,0:20:55.48,DCMain,RIKA,0000,0000,0000,,but he nearly killed me.
+Dialogue: 0,0:20:56.11,0:20:59.23,DCMain,RIKA,0000,0000,0000,,I attacked Unmo with the \Nmetal pipe when he returned
+Dialogue: 0,0:20:59.71,0:21:02.24,DCMain,RIKA,0000,0000,0000,,because I feared he'd come to finish me off.
+Dialogue: 0,0:21:02.90,0:21:04.95,DCMain,RIKA,0000,0000,0000,,I was caught up in the moment.
+Dialogue: 0,0:21:04.95,0:21:08.27,DCMain,CONAN,0000,0000,0000,,Huh? That contradicts your story.
+Dialogue: 0,0:21:08.27,0:21:08.99,DCMain,ALL,0000,0000,0000,,What?!
+Dialogue: 0,0:21:09.27,0:21:14.83,DCMain,CONAN,0000,0000,0000,,You made your fake request to your neighbor
+Dialogue: 0,0:21:14.83,0:21:17.40,DCMain,CONAN,0000,0000,0000,,before you went to see Unmo-san, right?
+Dialogue: 0,0:21:17.79,0:21:20.44,DCMain,CONAN,0000,0000,0000,,If you hadn't been planning to kill him,
+Dialogue: 0,0:21:20.44,0:21:22.59,DCMain,CONAN,0000,0000,0000,,you wouldn't have done that in advance.
+Dialogue: 0,0:21:24.80,0:21:26.23,DCMain,MITSUHIKO,0000,0000,0000,,You're right.
+Dialogue: 0,0:21:26.23,0:21:28.00,DCMain,BOTH,0000,0000,0000,,Yeah!
+Dialogue: 0,0:21:28.87,0:21:31.85,DCMain,RIKA,0000,0000,0000,,The little brat is right.
+Dialogue: 0,0:21:32.13,0:21:37.18,DCMain,RIKA,0000,0000,0000,,I asked that pest to meet me and killed him!
+Dialogue: 0,0:21:48.20,0:21:49.37,DCMain,ALL,0000,0000,0000,,Yes!
+Dialogue: 0,0:21:49.37,0:21:50.78,DCMain,MITSUHIKO,0000,0000,0000,,Case closed!
+Dialogue: 0,0:21:50.78,0:21:52.26,DCMain,GENTA,0000,0000,0000,,We did it!
+Dialogue: 0,0:23:13.43,0:23:15.93,DCMain,MITSUHIKO,0000,0000,0000,,Impressive work, Conan-kun.
+Dialogue: 0,0:23:15.93,0:23:18.37,DCMain,CONAN,0000,0000,0000,,It's thanks to the information \Nyou provided me.
+Dialogue: 0,0:23:18.61,0:23:20.75,DCMain,CONAN,0000,0000,0000,,Thanks for all the work you did.
+Dialogue: 0,0:23:20.75,0:23:23.88,DCMain,ALL,0000,0000,0000,,What? That doesn't sound like you.
+Dialogue: 0,0:23:24.42,0:23:27.88,DCMain,MITSUHIKO,0000,0000,0000,,But in the end, you did the heavy lifting.
+Dialogue: 0,0:23:28.52,0:23:29.71,DCMain,CONAN,0000,0000,0000,,Guys.
+Dialogue: 0,0:23:31.76,0:23:33.59,DCMain,HAIBARA,0000,0000,0000,,Look at them commending each other.
+Dialogue: 0,0:23:34.83,0:23:35.51,DCMain,MITSUHIKO,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:35.83,0:23:37.34,DCMain,MITSUHIKO,0000,0000,0000,,Is it another case?
+Dialogue: 0,0:23:38.14,0:23:39.52,DCMain,CONAN,0000,0000,0000,,All right. Let's go!
+Dialogue: 0,0:23:39.67,0:23:41.72,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:47.17,0:23:48.57,DCMain,MAN,0000,0000,0000,,No!
+Dialogue: 0,0:23:49.94,0:23:53.16,DCMain,MAN,0000,0000,0000,,I won't let anyone treat them so carelessly!
+Dialogue: 0,0:23:54.77,0:23:58.20,DCItalic,CONAN,0000,0000,0000,,So this is what he meant when he \Nsaid we were his only visitors.
+Dialogue: 0,0:24:01.00,0:24:02.21,DCMain,CONAN,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:24:02.55,0:24:03.66,DCMain,BOTH,0000,0000,0000,,Hey!
+Dialogue: 0,0:24:03.66,0:24:05.39,DCMain,RAN,0000,0000,0000,,Over here!
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,TEXT,0000,0000,0000,,The Sun Sets Over Tangerine Fields
+Dialogue: 0,0:24:09.36,0:24:13.56,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Sun Sets Over Tangerine Fields!"
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,TEXT,0000,0000,0000,,Container
+Dialogue: 0,0:24:30.64,0:24:33.39,DCMain,ALL,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.39,0:24:34.91,DCMain,CONAN,0000,0000,0000,,A container!
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.17,0:24:36.06,DCMain,AYUMI,0000,0000,0000,,{\an8}The sky turns orange.
+Dialogue: 0,0:24:36.06,0:24:36.91,DCMain,GENTA,0000,0000,0000,,{\an8}And the day...
+Dialogue: 0,0:24:36.91,0:24:37.84,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}...is over.
+Dialogue: 0,0:24:37.84,0:24:38.67,DCMain,HAIBARA,0000,0000,0000,,{\an8}Like the citrus fruit?
+Dialogue: 0,0:24:38.67,0:24:39.60,DCMain,CONAN,0000,0000,0000,,{\an8}Yeah.

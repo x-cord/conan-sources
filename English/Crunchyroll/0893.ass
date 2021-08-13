@@ -1,0 +1,463 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0100,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Shinjuku,Trebuchet MS,16,&H000B2A02,&H000000FF,&H00BCC5D3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0200,0010,0068,0
+Style: Eigo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00976389,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0066,0
+Style: Curse,Trebuchet MS,28,&H00432499,&H000000FF,&H00E7E8EA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0015,0040,0070,0
+Style: Curse2,Trebuchet MS,28,&H00432499,&H000000FF,&H00E7E8EA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0015,0100,0070,0
+Style: Kouzou,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007A353C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0100,0066,0
+Style: Kazuki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CF7D74,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0020,0066,0
+Style: Mitsuyo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0076222D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0110,0010,0066,0
+Style: Takurou,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00964B43,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0050,0010,0066,0
+Style: Kaori,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00BC919A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0120,0066,0
+Style: Trading,Trebuchet MS,16,&H00543621,&H000000FF,&H00F9F3ED,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0175,0023,0
+Style: President,Trebuchet MS,16,&H00543621,&H000000FF,&H00F9F3ED,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0450,0010,0085,0
+Style: Employees,Trebuchet MS,16,&H00543621,&H000000FF,&H00F9F3ED,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0350,0010,0140,0
+Style: Ei,Trebuchet MS,20,&H000C0D08,&H000000FF,&H00DCDEE0,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0190,0010,0150,0
+Style: Curse3,Trebuchet MS,28,&H00432499,&H000000FF,&H00E7E8EA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0015,0010,0070,0
+Style: Lake,Trebuchet MS,20,&H003A3D41,&H000000FF,&H00E3E4E1,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0110,0060,0
+Style: Restaurant,Trebuchet MS,20,&H003A3D41,&H000000FF,&H00E3E4E1,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0010,0100,0155,0
+Style: Warehouse,Trebuchet MS,20,&H003A3D41,&H000000FF,&H00E3E4E1,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,0100,0010,0060,0
+Style: Safe,Trebuchet MS,18,&H00545B46,&H000000FF,&H00FEFFF9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0018,0
+Style: Teruaki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00671A2D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0100,0066,0
+Style: Ei2,Trebuchet MS,24,&H00363134,&H000000FF,&H00C0AF90,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0030,0
+Style: Headline,Trebuchet MS,24,&H00ACB1B0,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0018,0
+Style: Ramen,Trebuchet MS,24,&H00181D1B,&H000000FF,&H00AAA7B8,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,8,0200,0010,0040,0
+Style: Ramen2,Trebuchet MS,20,&H004767EE,&H000000FF,&H005EDDFB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0010,0060,0020,0
+Style: HaraKuchi,Trebuchet MS,26,&H004767EE,&H000000FF,&H005EDDFB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0010,0010,0070,0
+Style: OneMillion,Trebuchet MS,24,&H002122BA,&H000000FF,&H00000000,&H00EEEEEE,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:15.46,0:00:16.93,DCMain,R,0000,0000,0000,,Wow.
+Dialogue: 0,0:00:19.74,0:00:21.76,DCMain,R,0000,0000,0000,,Isn't it wonderful, Conan-kun?
+Dialogue: 0,0:00:21.76,0:00:23.25,DCMain,C,0000,0000,0000,,It really is!
+Dialogue: 0,0:00:25.99,0:00:28.06,DCMain,K,0000,0000,0000,,Guess we're not the only ones here...
+Dialogue: 0,0:00:30.38,0:00:33.05,Shinjuku,License Plate Sign,0000,0000,0000,,Shinjuku
+Dialogue: 0,0:00:43.09,0:00:43.85,DCMain,K,0000,0000,0000,,Huh?
+Dialogue: 0,0:00:44.56,0:00:46.89,DCMain,K,0000,0000,0000,,I thought there were other people here.
+Dialogue: 0,0:00:48.36,0:00:51.61,DCMain,R,0000,0000,0000,,They're probably not in the bathroom
+Dialogue: 0,0:00:52.13,0:00:53.52,DCMain,R,0000,0000,0000,,all together, are they?
+Dialogue: 0,0:01:04.92,0:01:07.17,DCMain,K,0000,0000,0000,,This is kind of like
+Dialogue: 0,0:01:07.68,0:01:10.63,DCMain,K,0000,0000,0000,,what happened to that ship.
+Dialogue: 0,0:01:11.14,0:01:14.76,DCMain,C,0000,0000,0000,,You mean the Mystery of the Mary Celeste?
+Dialogue: 0,0:01:14.76,0:01:16.88,DCMain,K,0000,0000,0000,,Oh, yeah! That's the one!
+Dialogue: 0,0:01:16.88,0:01:19.14,DCMain,R,0000,0000,0000,,The Mystery of the Mary Celeste?
+Dialogue: 0,0:01:19.30,0:01:20.18,DCMain,C,0000,0000,0000,,Yeah.
+Dialogue: 0,0:01:20.18,0:01:24.31,DCMain,C,0000,0000,0000,,It's a famous unsolved case \Nfrom the 19th Century.
+Dialogue: 0,0:01:24.90,0:01:29.73,DCMain,K,0000,0000,0000,,If I remember right, a crew of ten \Npeople disappeared into thin air,
+Dialogue: 0,0:01:30.59,0:01:34.33,DCMain,K,0000,0000,0000,,and then the boat was found adrift.
+Dialogue: 0,0:01:35.23,0:01:37.52,DCMain,K,0000,0000,0000,,There was hot soup and silverware left out,
+Dialogue: 0,0:01:37.52,0:01:40.63,DCMain,K,0000,0000,0000,,making you thinking they were still eating.
+Dialogue: 0,0:01:42.83,0:01:45.39,DCItalic,C,0000,0000,0000,,The situation is similar.
+Dialogue: 0,0:01:48.90,0:01:49.88,DCMain,Ran,0000,0000,0000,,What was that?
+Dialogue: 0,0:01:52.93,0:01:54.00,DCMain,Ran,0000,0000,0000,,Kuchiishi-san!
+Dialogue: 0,0:01:54.26,0:01:58.51,Eigo,Sign,0000,0000,0000,,{\fad(250,1)}Kuchiishi Eigo (28) \NChef
+Dialogue: 0,0:01:54.44,0:01:56.64,DCMain,Ran,0000,0000,0000,,{\an8}You're Kuchiishi-san the chef, right?
+Dialogue: 0,0:01:56.64,0:01:58.51,DCMain,Kuchi,0000,0000,0000,,{\a6}Y-Yes...
+Dialogue: 0,0:01:58.51,0:02:01.01,DCMain,K,0000,0000,0000,,Get it together! Can you \Ntell me what happened?
+Dialogue: 0,0:02:03.18,0:02:04.01,DCMain,Ran,0000,0000,0000,,Dad...
+Dialogue: 0,0:02:05.52,0:02:07.52,Curse,Sign,0000,0000,0000,,Curse
+Dialogue: 0,0:02:07.67,0:02:10.26,DCMain,K,0000,0000,0000,,Ran, get an ambulance and call the police!
+Dialogue: 0,0:02:10.26,0:02:11.04,DCMain,R,0000,0000,0000,,Got it!
+Dialogue: 0,0:02:11.04,0:02:12.27,DCMain,C,0000,0000,0000,,Look, mister!
+Dialogue: 0,0:02:15.18,0:02:16.40,DCMain,K,0000,0000,0000,,Footprints?
+Dialogue: 0,0:02:25.24,0:02:27.25,Curse2,Sign,0000,0000,0000,,Curse
+Dialogue: 0,0:02:31.83,0:02:33.67,DCMain,C,0000,0000,0000,,Feel that bright morning sunlight!
+Dialogue: 0,0:02:33.88,0:02:35.59,DCMain,C,0000,0000,0000,,Saturday is when the love and cases start!
+Dialogue: 0,0:02:35.99,0:02:38.15,DCMain,C,0000,0000,0000,,The word "Curse" and five sets of footprints.
+Dialogue: 0,0:02:38.15,0:02:40.01,DCMain,C,0000,0000,0000,,What happened during this meal?!
+Dialogue: 0,0:02:40.36,0:02:42.14,DCMain,C,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:42.14,0:02:44.02,DCMain,C,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:44.02,0:02:46.79,DCMain,C,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:26.99,0:04:33.00,DCEpTitle,Eptitle,0000,0000,0000,,{\fad(402,1)}The Mystery of the Michelin \NStarred Restaurant
+Dialogue: 0,0:04:27.89,0:04:30.32,DCMain,Eptitle,0000,0000,0000,,"The Mystery of the Michelin \NStarred Restaurant!"
+Dialogue: 0,0:04:35.90,0:04:40.50,DCMain,M,0000,0000,0000,,Thankfully, that head wound isn't very severe.
+Dialogue: 0,0:04:40.86,0:04:45.34,DCMain,M,0000,0000,0000,,Can we ask you a few \Nquestions, Kuchiishi-san?
+Dialogue: 0,0:04:45.80,0:04:46.64,DCMain,Eigo,0000,0000,0000,,Sure.
+Dialogue: 0,0:04:46.83,0:04:51.45,DCMain,M,0000,0000,0000,,Now, there were five guests \Nat that table? You're certain?
+Dialogue: 0,0:04:51.45,0:04:52.43,DCMain,Eigo,0000,0000,0000,,Right.
+Dialogue: 0,0:04:53.05,0:04:55.94,DCMain,Eigo,0000,0000,0000,,They made their reservations a week ago.
+Dialogue: 0,0:04:55.94,0:04:59.06,DCMain,Eigo,0000,0000,0000,,It was a group from a company \Ncalled Onda Trading.
+Dialogue: 0,0:04:59.36,0:05:00.82,DCMain,M,0000,0000,0000,,I see.
+Dialogue: 0,0:05:00.82,0:05:01.81,DCMain,T,0000,0000,0000,,Inspector!
+Dialogue: 0,0:05:02.64,0:05:05.36,DCMain,T,0000,0000,0000,,It's about the identities \Nof the missing group.
+Dialogue: 0,0:05:05.69,0:05:07.96,DCMain,T,0000,0000,0000,,Sitting where those glasses are...
+Dialogue: 0,0:05:08.59,0:05:11.24,DCMain,T,0000,0000,0000,,That was Kano Kozo, forty years old.
+Dialogue: 0,0:05:11.49,0:05:15.50,Kouzou,Sign,0000,0000,0000,,{\fad(250,1)}Kano Kozo (40) \NEmployee at Onda Trading
+Dialogue: 0,0:05:11.68,0:05:15.15,DCMain,T,0000,0000,0000,,{\an8}We confirmed his ID from his driver's \Nlicense, which was left behind.
+Dialogue: 0,0:05:15.74,0:05:19.41,DCMain,T,0000,0000,0000,,We confirmed the guy next to him \Nfrom the employee ID in his jacket,
+Dialogue: 0,0:05:19.41,0:05:20.75,DCMain,T,0000,0000,0000,,which was still on the chair.
+Dialogue: 0,0:05:21.00,0:05:24.26,Kazuki,Sign,0000,0000,0000,,{\fad(250,1)}Iketani Kazuki (28) \NOnda Trading Employee
+Dialogue: 0,0:05:21.30,0:05:24.26,DCMain,T,0000,0000,0000,,{\an8}Iketani Kazuki-san, twenty-eight years old.
+Dialogue: 0,0:05:24.75,0:05:28.76,DCMain,T,0000,0000,0000,,Next to him was a floral handkerchief \Nand a bag containing an employee ID
+Dialogue: 0,0:05:29.01,0:05:32.26,Mitsuyo,Sign,0000,0000,0000,,{\fad(250,1)}Ekuni Mitsuyo (38) \NOnda Trading Employee
+Dialogue: 0,0:05:29.22,0:05:31.98,DCMain,T,0000,0000,0000,,{\an8}for Ekuni Mitsuyo-san, aged thirty-eight.
+Dialogue: 0,0:05:32.64,0:05:36.22,DCMain,T,0000,0000,0000,,The seat with the ash tray next to \Nher belonged to Sahara Takuro-san,
+Dialogue: 0,0:05:36.22,0:05:37.52,DCMain,T,0000,0000,0000,,thirty-five years old.
+Dialogue: 0,0:05:37.77,0:05:41.52,Takurou,Sign,0000,0000,0000,,{\fad(250,1)}Sahara Takuro (35) \NOnda Trading Employee
+Dialogue: 0,0:05:38.02,0:05:41.52,DCMain,T,0000,0000,0000,,{\an8}We gathered that from the cigarettes \Nand employee ID in his coat pocket.
+Dialogue: 0,0:05:41.92,0:05:46.03,DCMain,T,0000,0000,0000,,The last one we put together from \Nthe smart phone that was left behind.
+Dialogue: 0,0:05:46.15,0:05:49.53,Kaori,Sign,0000,0000,0000,,{\fad(250,1)}Manaka Kaori (25) \NOnda Trading Employee
+Dialogue: 0,0:05:46.31,0:05:49.21,DCMain,T,0000,0000,0000,,{\an8}Manaka Kaori-san, twenty-five years old.
+Dialogue: 0,0:05:49.53,0:05:54.29,Trading,Org Chart Sign,0000,0000,0000,,Onda Trading
+Dialogue: 0,0:05:49.53,0:05:54.29,President,Org Chart Sign,0000,0000,0000,,Director and President \NOnda Teruaki
+Dialogue: 0,0:05:49.53,0:05:54.29,Employees,Org Chart Sign,0000,0000,0000,,Employees \NKano Kazuki \NSahara Takuro   Iketani Kazuki \NEkuni Mitsuyo   Manaka Kaori
+Dialogue: 0,0:05:49.88,0:05:52.62,DCMain,T,0000,0000,0000,,They all work at Onda Trading.
+Dialogue: 0,0:05:52.62,0:05:55.92,DCMain,T,0000,0000,0000,,The company homepage confirms as much.
+Dialogue: 0,0:05:56.96,0:06:00.04,DCMain,M,0000,0000,0000,,Kuchiishi-san, can you \Nconfirm they're who you saw?
+Dialogue: 0,0:06:00.60,0:06:02.28,DCItalic,C,0000,0000,0000,,Onda Trading...
+Dialogue: 0,0:06:02.67,0:06:03.67,DCItalic,C,0000,0000,0000,,Where have I heard that?
+Dialogue: 0,0:06:03.91,0:06:06.42,DCMain,Kuchiishi,0000,0000,0000,,Yes, that's definitely them.
+Dialogue: 0,0:06:06.42,0:06:09.14,DCMain,T,0000,0000,0000,,We haven't been able to \Ncontact President Onda,
+Dialogue: 0,0:06:09.14,0:06:12.70,DCMain,T,0000,0000,0000,,so we had local police check \Non his home to be safe.
+Dialogue: 0,0:06:12.70,0:06:14.31,DCMain,C,0000,0000,0000,,Hey, Detective Takagi...
+Dialogue: 0,0:06:14.72,0:06:19.18,DCMain,C,0000,0000,0000,,When we came in, there was \Na picture on the phone...
+Dialogue: 0,0:06:19.18,0:06:20.94,DCMain,C,0000,0000,0000,,Those are the same people, right?
+Dialogue: 0,0:06:21.13,0:06:22.71,DCMain,T,0000,0000,0000,,Yeah, that's right.
+Dialogue: 0,0:06:22.71,0:06:24.40,DCMain,T,0000,0000,0000,,I don't know how close they were,
+Dialogue: 0,0:06:24.40,0:06:27.14,DCMain,T,0000,0000,0000,,but apparently the five of them \Nwould go out a lot together,
+Dialogue: 0,0:06:27.14,0:06:29.91,DCMain,T,0000,0000,0000,,because there were pictures of them \Npartying in various locations.
+Dialogue: 0,0:06:31.10,0:06:34.40,DCMain,T,0000,0000,0000,,I bet they planned on taking one here, too...
+Dialogue: 0,0:06:35.98,0:06:38.87,DCMain,M,0000,0000,0000,,So, all five of them came here?
+Dialogue: 0,0:06:38.87,0:06:39.71,DCMain,Kuciishi,0000,0000,0000,,Right.
+Dialogue: 0,0:06:40.34,0:06:43.21,DCMain,Kuciishi,0000,0000,0000,,They came in about an hour ago, in a car.
+Dialogue: 0,0:06:43.57,0:06:46.46,DCMain,K,0000,0000,0000,,That'd be twenty minutes before we showed up.
+Dialogue: 0,0:06:48.24,0:06:49.87,DCItalic,C,0000,0000,0000,,Wait, back then...
+Dialogue: 0,0:06:55.32,0:06:56.86,DCMain,M,0000,0000,0000,,What happened next?
+Dialogue: 0,0:06:56.86,0:06:59.38,DCMain,Kuchiishi,0000,0000,0000,,They made a toast,
+Dialogue: 0,0:06:59.38,0:07:02.48,DCMain,Kuchiishi,0000,0000,0000,,and I went into the kitchen \Nto continue cooking.
+Dialogue: 0,0:07:03.26,0:07:05.61,DCMain,Kuchiishi,0000,0000,0000,,I served the appetizers and soups.
+Dialogue: 0,0:07:05.87,0:07:08.88,DCMain,Kuchiishi,0000,0000,0000,,And then after about fifteen minutes, \NI was struck from out of nowhere.
+Dialogue: 0,0:07:13.38,0:07:15.92,DCMain,M,0000,0000,0000,,You didn't see who hit you, then?
+Dialogue: 0,0:07:15.92,0:07:16.74,DCMain,Kuchiishi,0000,0000,0000,,Right.
+Dialogue: 0,0:07:18.35,0:07:23.48,DCMain,M,0000,0000,0000,,It certainly sounds like someone from that \Ngroup was the one to strike you...
+Dialogue: 0,0:07:26.38,0:07:27.88,Ei,Stamp,0000,0000,0000,,Ei
+Dialogue: 0,0:07:26.70,0:07:27.88,DCItalic,C,0000,0000,0000,,Isn't this...?
+Dialogue: 0,0:07:28.39,0:07:30.63,DCItalic,C,0000,0000,0000,,A mis-written receipt?
+Dialogue: 0,0:07:36.14,0:07:37.91,DCMain,C,0000,0000,0000,,Hey, Kuchiishi-san...
+Dialogue: 0,0:07:38.56,0:07:41.44,DCMain,C,0000,0000,0000,,This is that cake called tiramisu, right?
+Dialogue: 0,0:07:42.92,0:07:44.06,DCMain,Kuchiishi,0000,0000,0000,,That's right.
+Dialogue: 0,0:07:44.42,0:07:46.87,DCMain,C,0000,0000,0000,,Everyone else was eating dinner.
+Dialogue: 0,0:07:46.87,0:07:49.24,DCMain,C,0000,0000,0000,,How come one had cake?
+Dialogue: 0,0:07:49.24,0:07:52.27,DCMain,Kuciishi,0000,0000,0000,,You get people like that sometimes,
+Dialogue: 0,0:07:52.27,0:07:54.32,DCMain,Kuciishi,0000,0000,0000,,who want to start with dessert.
+Dialogue: 0,0:07:55.86,0:08:00.58,DCMain,C,0000,0000,0000,,I bet the lady who sat \Nhere sure loved sweets.
+Dialogue: 0,0:08:01.29,0:08:03.14,DCMain,Kuciishi,0000,0000,0000,,That might be the case.
+Dialogue: 0,0:08:03.14,0:08:05.13,DCMain,K,0000,0000,0000,,That should be obvious!
+Dialogue: 0,0:08:06.22,0:08:08.18,DCMain,K,0000,0000,0000,,Quit screwing with the crime scene.
+Dialogue: 0,0:08:08.18,0:08:09.86,DCMain,C,0000,0000,0000,,Sorry!
+Dialogue: 0,0:08:09.86,0:08:11.79,DCMain,K,0000,0000,0000,,In that case, get out of the—
+Dialogue: 0,0:08:10.72,0:08:11.79,DCMain,C,0000,0000,0000,,{\an8}One more thing!
+Dialogue: 0,0:08:12.89,0:08:16.72,DCMain,C,0000,0000,0000,,Did someone break their glass \Nwhen they did the toast?
+Dialogue: 0,0:08:17.67,0:08:20.80,DCMain,Kuchiishi,0000,0000,0000,,I... don't think so.
+Dialogue: 0,0:08:20.80,0:08:23.98,DCMain,Kuchiishi,0000,0000,0000,,I would've noticed if they did, \Nnot to mention having to clean up.
+Dialogue: 0,0:08:24.19,0:08:25.37,DCMain,C,0000,0000,0000,,That's what I thought...
+Dialogue: 0,0:08:25.37,0:08:28.42,DCMain,C,0000,0000,0000,,The trash can in the kitchen was empty, too.
+Dialogue: 0,0:08:28.42,0:08:31.49,DCMain,C,0000,0000,0000,,One other thing, the car outside—
+Dialogue: 0,0:08:32.58,0:08:34.08,DCMain,K,0000,0000,0000,,That's enough out of you!
+Dialogue: 0,0:08:36.04,0:08:37.20,DCMain,C,0000,0000,0000,,Ow!
+Dialogue: 0,0:08:38.33,0:08:40.89,DCMain,R,0000,0000,0000,,You can't just run around \Non your own, you know?
+Dialogue: 0,0:08:40.89,0:08:42.57,DCMain,C,0000,0000,0000,,Sorry...
+Dialogue: 0,0:08:42.57,0:08:44.40,DCMain,R,0000,0000,0000,,Let's wait out here together.
+Dialogue: 0,0:08:44.40,0:08:45.67,DCMain,C,0000,0000,0000,,Okay...
+Dialogue: 0,0:08:54.12,0:08:55.09,DCMain,C,0000,0000,0000,,Isn't that...?
+Dialogue: 0,0:08:55.74,0:08:56.84,DCMain,CB,0000,0000,0000,,What did you say?!
+Dialogue: 0,0:08:57.26,0:08:58.25,DCMain,CB,0000,0000,0000,,Understood!
+Dialogue: 0,0:08:58.80,0:08:59.71,DCMain,CB,0000,0000,0000,,Inspector!
+Dialogue: 0,0:09:00.80,0:09:02.34,DCMain,CB,0000,0000,0000,,It's about Onda Trading...
+Dialogue: 0,0:09:03.37,0:09:04.67,DCMain,CB,0000,0000,0000,,Three years ago,
+Dialogue: 0,0:09:04.67,0:09:08.66,DCMain,CB,0000,0000,0000,,the company was under suspicion \Nfor smuggling industrial metals,
+Dialogue: 0,0:09:08.66,0:09:10.97,DCMain,CB,0000,0000,0000,,and there was an investigation.
+Dialogue: 0,0:09:11.34,0:09:16.32,DCMain,CB,0000,0000,0000,,But one of the other managers left a note \Nclaiming they were responsible for all of it,
+Dialogue: 0,0:09:16.32,0:09:17.99,DCMain,CB,0000,0000,0000,,and committed suicide.
+Dialogue: 0,0:09:18.90,0:09:21.17,DCMain,K,0000,0000,0000,,Huh, hell of a case.
+Dialogue: 0,0:09:21.17,0:09:24.02,DCMain,M,0000,0000,0000,,Then the five employees from this \Nincident might've been involved?
+Dialogue: 0,0:09:24.02,0:09:25.30,DCMain,CB,0000,0000,0000,,Also,
+Dialogue: 0,0:09:25.30,0:09:29.71,DCMain,CB,0000,0000,0000,,the manager who killed himself \Nwas named Kuchiishi Keigo.
+Dialogue: 0,0:09:30.59,0:09:31.76,DCMain,M,0000,0000,0000,,What?!
+Dialogue: 0,0:09:31.76,0:09:33.93,DCMain,K,0000,0000,0000,,That's the same family name as the chef!
+Dialogue: 0,0:09:33.93,0:09:35.30,DCMain,C,0000,0000,0000,,Inspector Megure!
+Dialogue: 0,0:09:36.14,0:09:38.34,DCMain,C,0000,0000,0000,,Look what's on Kuchiishi-san's blog!
+Dialogue: 0,0:09:38.34,0:09:41.10,DCNote,Sign,0000,0000,0000,,Curse
+Dialogue: 0,0:09:39.10,0:09:41.10,DCMain,K,0000,0000,0000,,{\an8}"What happened to my customers?"
+Dialogue: 0,0:09:41.39,0:09:42.47,DCMain,K,0000,0000,0000,,What?
+Dialogue: 0,0:09:43.27,0:09:47.47,DCMain,M,0000,0000,0000,,Sir, you really shouldn't \Ndo this sort of thing...
+Dialogue: 0,0:09:48.85,0:09:50.31,DCMain,K,0000,0000,0000,,Kuchiishi-san is gone!
+Dialogue: 0,0:09:50.73,0:09:52.30,DCMain,M,0000,0000,0000,,Where'd he go?
+Dialogue: 0,0:09:53.58,0:09:54.48,DCMain,K,0000,0000,0000,,Is that...
+Dialogue: 0,0:09:54.48,0:09:56.07,Curse3,Sign,0000,0000,0000,,{\fad(125,1)}Curse
+Dialogue: 0,0:09:58.26,0:09:59.38,DCMain,K,0000,0000,0000,,Kuchiishi-san!
+Dialogue: 0,0:10:01.93,0:10:02.74,DCMain,K,0000,0000,0000,,Don't tell me...
+Dialogue: 0,0:10:03.32,0:10:06.49,DCMain,K,0000,0000,0000,,Did he walk into the lake, \Nlike the five customers?
+Dialogue: 0,0:10:06.93,0:10:08.57,DCMain,M,0000,0000,0000,,Th-That's impossible!
+Dialogue: 0,0:10:08.57,0:10:09.68,DCMain,M,0000,0000,0000,,Takagi, Chiba!
+Dialogue: 0,0:10:09.68,0:10:11.74,DCMain,M,0000,0000,0000,,I want this lake checked out ASAP!
+Dialogue: 0,0:10:11.74,0:10:13.00,DCMain,M,0000,0000,0000,,We can't afford to wait until dawn!
+Dialogue: 0,0:10:13.10,0:10:13.70,DCMain,,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:10:18.73,0:10:20.64,DCItalic,C,0000,0000,0000,,I figured as much.
+Dialogue: 0,0:10:26.05,0:10:30.86,DCMain,T,0000,0000,0000,,Is it really okay that I'm the \Nonly one not searching the lake?
+Dialogue: 0,0:10:30.86,0:10:32.16,DCMain,C,0000,0000,0000,,It's okay!
+Dialogue: 0,0:10:32.16,0:10:36.60,DCMain,C,0000,0000,0000,,Inspector Megure told me \Nthat Detective Chiba
+Dialogue: 0,0:10:36.60,0:10:38.47,DCMain,C,0000,0000,0000,,was going to check out the \Nlake with the local police.
+Dialogue: 0,0:10:39.13,0:10:40.58,DCMain,T,0000,0000,0000,,Still...
+Dialogue: 0,0:10:40.58,0:10:44.31,DCMain,T,0000,0000,0000,,Did Mori-san really tell \Nus to look around here?
+Dialogue: 0,0:10:44.31,0:10:45.29,DCMain,C,0000,0000,0000,,Yep!
+Dialogue: 0,0:10:45.29,0:10:46.41,DCNote,Sign,0000,0000,0000,,Curse            Curse
+Dialogue: 0,0:10:45.63,0:10:46.41,DCMain,C,0000,0000,0000,,See?
+Dialogue: 0,0:10:46.72,0:10:48.41,DCMain,C,0000,0000,0000,,Look close...
+Dialogue: 0,0:10:48.69,0:10:50.50,DCMain,T,0000,0000,0000,,D-Don't do that, Conan-kun!
+Dialogue: 0,0:10:50.50,0:10:52.61,DCMain,T,0000,0000,0000,,You can't just grab evidence!
+Dialogue: 0,0:10:53.42,0:10:56.17,Lake,Map Sign,0000,0000,0000,,Lake
+Dialogue: 0,0:10:53.42,0:10:56.17,Restaurant,Map Sign,0000,0000,0000,,Restaurant
+Dialogue: 0,0:10:53.42,0:10:56.17,Warehouse,Map Sign,0000,0000,0000,,Warehouse
+Dialogue: 0,0:10:55.34,0:10:56.17,DCMain,C,0000,0000,0000,,See?
+Dialogue: 0,0:10:56.44,0:10:58.48,DCMain,T,0000,0000,0000,,That's a map!
+Dialogue: 0,0:10:58.48,0:10:59.30,DCMain,C,0000,0000,0000,,Yep!
+Dialogue: 0,0:10:59.71,0:11:01.74,DCMain,C,0000,0000,0000,,If the lake is over here,
+Dialogue: 0,0:11:01.74,0:11:03.88,DCMain,C,0000,0000,0000,,then this is the restaurant.
+Dialogue: 0,0:11:03.88,0:11:06.18,DCMain,C,0000,0000,0000,,And our goal is here!
+Dialogue: 0,0:11:06.56,0:11:07.94,DCMain,C,0000,0000,0000,,We're almost there.
+Dialogue: 0,0:11:11.69,0:11:14.19,DCNote,Sign,0000,0000,0000,,Ei
+Dialogue: 0,0:11:14.49,0:11:15.80,DCMain,T,0000,0000,0000,,Isn't this...?
+Dialogue: 0,0:11:15.80,0:11:18.69,DCMain,C,0000,0000,0000,,Yep. Just like that chef, Eigo-san.
+Dialogue: 0,0:11:19.25,0:11:21.28,DCMain,C,0000,0000,0000,,Maybe it's like his signature?
+Dialogue: 0,0:11:21.66,0:11:25.00,DCMain,C,0000,0000,0000,,So this is a warehouse \Nthat Kuchiishi-san owns.
+Dialogue: 0,0:11:27.13,0:11:28.45,DCMain,T,0000,0000,0000,,Did you hear that?!
+Dialogue: 0,0:11:28.45,0:11:30.23,DCMain,C,0000,0000,0000,,Open it up, Detective Takagi!
+Dialogue: 0,0:11:30.23,0:11:31.25,DCMain,T,0000,0000,0000,,Got it!
+Dialogue: 0,0:11:39.83,0:11:41.26,DCMain,T,0000,0000,0000,,These people...
+Dialogue: 0,0:11:42.41,0:11:44.89,DCMain,C,0000,0000,0000,,The five missing guests.
+Dialogue: 0,0:11:46.31,0:11:48.15,DCMain,T,0000,0000,0000,,They're not wearing their shoes...
+Dialogue: 0,0:11:48.15,0:11:51.39,DCMain,T,0000,0000,0000,,Then does that mean those footprints were...?
+Dialogue: 0,0:11:51.60,0:11:54.90,DCMain,C,0000,0000,0000,,Yep. Kuchiishi-san put them down.
+Dialogue: 0,0:11:55.27,0:11:58.12,DCMain,C,0000,0000,0000,,This was all his doing.
+Dialogue: 0,0:11:58.46,0:12:02.28,DCMain,C,0000,0000,0000,,Kogoro-no-ojisan said that even \Nthat wound on his head
+Dialogue: 0,0:12:02.28,0:12:04.50,DCMain,C,0000,0000,0000,,was part of the plan.
+Dialogue: 0,0:12:05.41,0:12:07.07,DCMain,T,0000,0000,0000,,What?
+Dialogue: 0,0:12:07.07,0:12:08.41,DCMain,T,0000,0000,0000,,But why?
+Dialogue: 0,0:12:08.83,0:12:10.60,DCMain,T,0000,0000,0000,,And where has he gone?
+Dialogue: 0,0:12:10.60,0:12:14.79,DCMain,C,0000,0000,0000,,He said that these people should know.
+Dialogue: 0,0:12:21.92,0:12:23.93,Safe,Sign,0000,0000,0000,,Safe Lock Box
+Dialogue: 0,0:12:27.60,0:12:30.93,Teruaki,Sign,0000,0000,0000,,{\fad(250,1)}Onda Teruaki (45) \NPresident of Onda Trading
+Dialogue: 0,0:12:38.20,0:12:40.62,DCMain,Kuchiishi,0000,0000,0000,,It's been a while, Mr. President!
+Dialogue: 0,0:12:40.62,0:12:42.63,DCMain,Kuchiishi,0000,0000,0000,,Since my dad's funeral...
+Dialogue: 0,0:12:42.63,0:12:44.49,DCMain,Prez,0000,0000,0000,,Y-You—
+Dialogue: 0,0:12:44.49,0:12:47.24,DCMain,Prez,0000,0000,0000,,Then you really are Kuchiishi's son!
+Dialogue: 0,0:12:47.98,0:12:49.90,DCMain,Kuchiishi,0000,0000,0000,,My old man was weak.
+Dialogue: 0,0:12:49.90,0:12:52.02,DCMain,Kuchiishi,0000,0000,0000,,He let you people push him around...
+Dialogue: 0,0:12:52.02,0:12:56.14,DCMain,Kuchiishi,0000,0000,0000,,No, manipulate him into committing \Nsuicide, and taking the fall!
+Dialogue: 0,0:12:56.14,0:12:59.41,DCMain,Kuchiishi,0000,0000,0000,,But that's not gonna work with me!
+Dialogue: 0,0:13:00.36,0:13:01.34,DCMain,M,0000,0000,0000,,That's enough!
+Dialogue: 0,0:13:02.34,0:13:04.47,DCMain,Prez,0000,0000,0000,,Great timing! Get him off of me!
+Dialogue: 0,0:13:04.99,0:13:08.75,DCMain,M,0000,0000,0000,,You're Onda Teruaki, president \Nof Onda Trading, correct?
+Dialogue: 0,0:13:08.75,0:13:11.22,DCMain,M,0000,0000,0000,,I'm Megure, with the Metro PD's Division 1.
+Dialogue: 0,0:13:11.22,0:13:13.41,DCMain,Prez,0000,0000,0000,,P-Police?
+Dialogue: 0,0:13:14.61,0:13:16.63,DCMain,Kuchiishi,0000,0000,0000,,I've been waiting for you, Mori-san.
+Dialogue: 0,0:13:17.10,0:13:20.98,DCMain,Kuchiishi,0000,0000,0000,,If you're here now, that means \Nyou've solved the mystery, right?
+Dialogue: 0,0:13:20.98,0:13:21.69,DCMain,Mouri,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:22.32,0:13:24.82,DCMain,Mouri,0000,0000,0000,,Wh-Wh-Wh-What was it again?
+Dialogue: 0,0:13:24.82,0:13:26.02,DCMain,M,0000,0000,0000,,Come on, now!
+Dialogue: 0,0:13:26.02,0:13:29.53,DCMain,M,0000,0000,0000,,We're only here because you told us \Nwhere to rescue the missing five people,
+Dialogue: 0,0:13:29.53,0:13:31.33,DCMain,M,0000,0000,0000,,and question them about this location.
+Dialogue: 0,0:13:31.92,0:13:33.12,DCMain,Prez,0000,0000,0000,,Rescue?
+Dialogue: 0,0:13:33.37,0:13:34.44,DCMain,M,0000,0000,0000,,Yes.
+Dialogue: 0,0:13:34.44,0:13:37.00,DCMain,M,0000,0000,0000,,We rescued them from where \Nthey were being held,
+Dialogue: 0,0:13:37.00,0:13:38.30,DCMain,M,0000,0000,0000,,took them into custody,
+Dialogue: 0,0:13:38.30,0:13:41.63,DCMain,M,0000,0000,0000,,and are currently questioning \Nthem about the situation.
+Dialogue: 0,0:13:42.02,0:13:44.85,DCMain,M,0000,0000,0000,,So, Mori-kun, what's this mystery?
+Dialogue: 0,0:13:44.85,0:13:47.42,DCMain,K,0000,0000,0000,,W-Well, to be honest...
+Dialogue: 0,0:13:47.42,0:13:49.69,DCMain,K,0000,0000,0000,,I have no idea...
+Dialogue: 0,0:13:50.46,0:13:51.89,DCMain,K,0000,0000,0000,,Huh?!
+Dialogue: 0,0:13:57.76,0:13:58.60,DCMain,Kuciishi,0000,0000,0000,,Is this...?
+Dialogue: 0,0:13:59.06,0:14:00.36,DCMain,M,0000,0000,0000,,Finally!
+Dialogue: 0,0:14:02.08,0:14:03.86,DCMain,M,0000,0000,0000,,The Sleeping Kogoro!
+Dialogue: 0,0:14:04.28,0:14:05.86,DCMain,C/K,0000,0000,0000,,Pardon me.
+Dialogue: 0,0:14:05.86,0:14:08.74,DCMain,C/K,0000,0000,0000,,Now, to dissect this puzzle.
+Dialogue: 0,0:14:09.49,0:14:13.56,DCMain,C/K,0000,0000,0000,,It had a few similarities \Nwith a famous unsolved case,
+Dialogue: 0,0:14:14.13,0:14:17.28,DCMain,C/K,0000,0000,0000,,but as to the clues for unraveling it...
+Dialogue: 0,0:14:17.76,0:14:18.52,DCMain,C/K,0000,0000,0000,,Conan!
+Dialogue: 0,0:14:19.28,0:14:20.63,DCMain,C,0000,0000,0000,,Here!
+Dialogue: 0,0:14:20.90,0:14:22.01,DCMain,C,0000,0000,0000,,Well, you see,
+Dialogue: 0,0:14:22.01,0:14:26.03,DCMain,C,0000,0000,0000,,the first thing I thought \Nwas weird was the tiramisu.
+Dialogue: 0,0:14:26.03,0:14:27.26,DCMain,M,0000,0000,0000,,The tiramisu?
+Dialogue: 0,0:14:27.62,0:14:28.57,DCMain,C,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:28.57,0:14:33.51,DCMain,C,0000,0000,0000,,It was the dessert at the seat with the \Nlady who had the flowery handkerchief!
+Dialogue: 0,0:14:34.67,0:14:37.88,DCMain,C,0000,0000,0000,,It was dinnertime when \Neverybody went missing,
+Dialogue: 0,0:14:37.88,0:14:40.55,DCMain,C,0000,0000,0000,,but one person had tiramisu instead.
+Dialogue: 0,0:14:40.55,0:14:43.52,DCMain,C,0000,0000,0000,,And the chef said it was because
+Dialogue: 0,0:14:43.99,0:14:46.82,DCMain,C,0000,0000,0000,,some people like having dessert first, but...
+Dialogue: 0,0:14:47.74,0:14:50.03,DCMain,C,0000,0000,0000,,I realized it was a mistake!
+Dialogue: 0,0:14:51.21,0:14:52.66,DCMain,M,0000,0000,0000,,What mistake?
+Dialogue: 0,0:14:52.86,0:14:56.66,DCMain,K,0000,0000,0000,,The answer has to do with the pictures \Nthat were found on the cell phone.
+Dialogue: 0,0:14:57.85,0:15:02.92,DCMain,K,0000,0000,0000,,In the pictures of past parties, there \Nwas always one person having dessert...
+Dialogue: 0,0:15:03.37,0:15:08.17,DCMain,K,0000,0000,0000,,But it wasn't Ekuni-san, \Nrather Iketani-san, a man.
+Dialogue: 0,0:15:08.17,0:15:09.78,DCMain,M,0000,0000,0000,,What?
+Dialogue: 0,0:15:09.78,0:15:10.93,DCMain,C/K,0000,0000,0000,,Not only that,
+Dialogue: 0,0:15:11.36,0:15:13.51,DCMain,C/K,0000,0000,0000,,but when you always have the same group,
+Dialogue: 0,0:15:13.51,0:15:16.56,DCMain,C/K,0000,0000,0000,,you might have a seating \Npattern that tends to pop up.
+Dialogue: 0,0:15:16.90,0:15:19.81,DCMain,C/K,0000,0000,0000,,And this time, the pictures \Nindicated that was the case.
+Dialogue: 0,0:15:21.06,0:15:23.94,DCMain,C/K,0000,0000,0000,,But for whatever reason, that \Nwasn't what happened tonight.
+Dialogue: 0,0:15:24.31,0:15:26.26,DCMain,C/K,0000,0000,0000,,The usual seating pattern
+Dialogue: 0,0:15:26.26,0:15:29.57,DCMain,C/K,0000,0000,0000,,had different people's things in place.
+Dialogue: 0,0:15:30.73,0:15:33.00,DCMain,M,0000,0000,0000,,I'm not sure I follow...
+Dialogue: 0,0:15:33.00,0:15:35.46,DCMain,M,0000,0000,0000,,What was the point of it all?
+Dialogue: 0,0:15:35.46,0:15:40.08,DCMain,C/K,0000,0000,0000,,It was all to make Mori \NKogoro notice something...
+Dialogue: 0,0:15:40.63,0:15:42.21,DCMain,C/K,0000,0000,0000,,The truth behind this case!
+Dialogue: 0,0:15:42.21,0:15:44.00,DCMain,M,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:15:46.43,0:15:48.71,DCMain,C,0000,0000,0000,,When you combined the two of them,
+Dialogue: 0,0:15:49.36,0:15:54.00,DCMain,C,0000,0000,0000,,it shows a route to the warehouse where \Nthe kidnapped people were being held.
+Dialogue: 0,0:15:54.44,0:15:58.72,DCMain,C,0000,0000,0000,,These "curse" notes were \Nanother part of the puzzle.
+Dialogue: 0,0:15:59.47,0:16:04.41,DCMain,C,0000,0000,0000,,At first I thought the five of them \Nwere captured at the restaurant,
+Dialogue: 0,0:16:04.87,0:16:09.66,DCMain,C,0000,0000,0000,,then moved to the warehouse, \Nwhere they were locked up.
+Dialogue: 0,0:16:09.66,0:16:11.74,DCMain,M,0000,0000,0000,,Is that not the case?
+Dialogue: 0,0:16:11.94,0:16:12.68,DCMain,K,0000,0000,0000,,No.
+Dialogue: 0,0:16:12.68,0:16:16.50,DCMain,K,0000,0000,0000,,If that were the case, the five of them \Nwould've been sitting in the same positions as usual,
+Dialogue: 0,0:16:16.50,0:16:19.38,DCMain,K,0000,0000,0000,,leaving their own belongings in those seats.
+Dialogue: 0,0:16:19.79,0:16:21.39,DCMain,K,0000,0000,0000,,And there was one other thing:
+Dialogue: 0,0:16:21.39,0:16:23.00,DCMain,K,0000,0000,0000,,a jacket stained with wine,
+Dialogue: 0,0:16:23.69,0:16:27.75,DCMain,K,0000,0000,0000,,with a broken piece of glass that \Nhad no explanation at the time.
+Dialogue: 0,0:16:28.51,0:16:33.88,DCMain,K,0000,0000,0000,,There was no sign of a broken glass or a \Nbottle in the restaurant's garbage, either.
+Dialogue: 0,0:16:34.11,0:16:35.67,DCMain,M,0000,0000,0000,,Which would mean...
+Dialogue: 0,0:16:36.06,0:16:38.86,DCMain,K,0000,0000,0000,,Inspector Megure, think back.
+Dialogue: 0,0:16:39.22,0:16:41.20,DCMain,K,0000,0000,0000,,They began eating twenty minutes
+Dialogue: 0,0:16:41.20,0:16:45.40,DCMain,K,0000,0000,0000,,before we arrived at the restaurant.
+Dialogue: 0,0:16:45.86,0:16:49.40,DCMain,K,0000,0000,0000,,But the hood of the car that was parked \Noutside was still giving off heat,
+Dialogue: 0,0:16:49.40,0:16:54.40,DCMain,K,0000,0000,0000,,like it had only recently been parked.
+Dialogue: 0,0:16:55.13,0:16:59.03,DCMain,K,0000,0000,0000,,And that warehouse had a table, with chairs,
+Dialogue: 0,0:16:59.03,0:17:02.29,DCMain,K,0000,0000,0000,,along with a broken wine glass and bottle.
+Dialogue: 0,0:17:02.65,0:17:05.44,DCMain,M,0000,0000,0000,,I see! Then you're saying...
+Dialogue: 0,0:17:05.44,0:17:09.08,DCMain,C/K,0000,0000,0000,,They were originally lured \Nout to that warehouse,
+Dialogue: 0,0:17:09.08,0:17:10.67,DCMain,C/K,0000,0000,0000,,where they were kept locked up.
+Dialogue: 0,0:17:12.62,0:17:16.12,DCMain,C/K,0000,0000,0000,,President Onda, you've all been \Npartying in a variety of locations,
+Dialogue: 0,0:17:16.12,0:17:18.68,DCMain,C/K,0000,0000,0000,,haven't you?
+Dialogue: 0,0:17:18.90,0:17:23.84,DCMain,C/K,0000,0000,0000,,The pictures in the phone included \Nrestaurants, the roofs of skyscrapers,
+Dialogue: 0,0:17:23.84,0:17:27.26,DCMain,C/K,0000,0000,0000,,the summits of mountains, beaches, \Nand even deserted islands.
+Dialogue: 0,0:17:27.80,0:17:31.76,DCMain,C/K,0000,0000,0000,,Using your name as bait would've been enough
+Dialogue: 0,0:17:31.76,0:17:33.80,DCMain,C/K,0000,0000,0000,,to lure them to a warehouse \Nwith little trouble,
+Dialogue: 0,0:17:33.80,0:17:36.26,DCMain,C/K,0000,0000,0000,,and get them to start \Ntoasting among themselves.
+Dialogue: 0,0:17:36.26,0:17:38.45,DCMain,Prez,0000,0000,0000,,Warehouse? What are you talking about?
+Dialogue: 0,0:17:39.17,0:17:41.70,DCMain,C,0000,0000,0000,,Okay, thanks, Detective Takagi.
+Dialogue: 0,0:17:42.43,0:17:45.23,DCMain,C,0000,0000,0000,,It's just like Kogoro-no-ojisan deducted.
+Dialogue: 0,0:17:45.23,0:17:47.15,DCMain,C,0000,0000,0000,,The wine from the warehouse
+Dialogue: 0,0:17:47.15,0:17:51.10,DCMain,C,0000,0000,0000,,and the wine on the jacket in \Nthe restaurant are the same,
+Dialogue: 0,0:17:51.10,0:17:53.46,DCMain,C,0000,0000,0000,,and it had tranquilizers in it.
+Dialogue: 0,0:17:53.85,0:17:58.47,DCMain,C,0000,0000,0000,,There was also an e-mail from that \Npresident guy asking them all to show up.
+Dialogue: 0,0:17:58.47,0:18:02.35,DCMain,Prez,0000,0000,0000,,I-I don't recall ever sending that e-mail!
+Dialogue: 0,0:18:02.72,0:18:05.60,DCMain,C/K,0000,0000,0000,,That's because it was \NKuchiishi-san who sent it.
+Dialogue: 0,0:18:09.14,0:18:12.65,DCMain,C/K,0000,0000,0000,,Once they were unconscious, \Nhe took their shoes,
+Dialogue: 0,0:18:13.22,0:18:15.24,DCMain,C/K,0000,0000,0000,,along with jackets and other belongings,
+Dialogue: 0,0:18:16.44,0:18:19.97,DCMain,C/K,0000,0000,0000,,and returned to the restaurant \Nin the car they arrived with.
+Dialogue: 0,0:18:20.72,0:18:23.28,DCMain,C/K,0000,0000,0000,,He then placed their things at the table,
+Dialogue: 0,0:18:23.28,0:18:26.40,DCMain,C/K,0000,0000,0000,,as if they had been there all \Nalong, and served up the food.
+Dialogue: 0,0:18:27.34,0:18:31.10,DCMain,C/K,0000,0000,0000,,After that, he made the foot prints leading \Nto the lake through the back door
+Dialogue: 0,0:18:31.88,0:18:34.38,DCMain,C/K,0000,0000,0000,,to make it look like they \Nhad drowned themselves,
+Dialogue: 0,0:18:34.88,0:18:37.13,DCMain,C/K,0000,0000,0000,,placed the "curse" note,
+Dialogue: 0,0:18:37.50,0:18:41.86,DCMain,C/K,0000,0000,0000,,and then hurt himself while \Nwaiting for us to arrive.
+Dialogue: 0,0:18:42.88,0:18:47.38,DCMain,C/K,0000,0000,0000,,By the way, those notes \Nwere actually a message
+Dialogue: 0,0:18:47.38,0:18:52.90,DCMain,C/K,0000,0000,0000,,to President Onda using your \Nfather's name, weren't they?
+Dialogue: 0,0:18:54.32,0:18:56.53,DCMain,M,0000,0000,0000,,Using his father's name?
+Dialogue: 0,0:18:56.91,0:19:00.64,DCMain,C/K,0000,0000,0000,,His father's name is Kuchiishi Keigo.
+Dialogue: 0,0:19:01.22,0:19:04.66,DCMain,C/K,0000,0000,0000,,If you take the "kuchi" kanji from \NKuchiishi and the "ani" from Keigo...
+Dialogue: 0,0:19:04.66,0:19:06.40,DCMain,C/K,0000,0000,0000,,It makes "curse."
+Dialogue: 0,0:19:07.25,0:19:12.04,DCMain,C/K,0000,0000,0000,,Might it have been a signature \Nyour father used in the past?
+Dialogue: 0,0:19:12.58,0:19:15.42,DCMain,C/K,0000,0000,0000,,Because you use one that's similar.
+Dialogue: 0,0:19:16.55,0:19:17.63,Ei2,Signs,0000,0000,0000,,Ei
+Dialogue: 0,0:19:19.41,0:19:22.91,DCMain,C/K,0000,0000,0000,,In other words, the son of \NKuchiishi Keigo-san, Eigo-san,
+Dialogue: 0,0:19:22.91,0:19:25.85,DCMain,C/K,0000,0000,0000,,planned to avenge his father
+Dialogue: 0,0:19:25.85,0:19:28.43,DCMain,C/K,0000,0000,0000,,by killing off a group of employees.
+Dialogue: 0,0:19:29.32,0:19:30.44,DCMain,C/K,0000,0000,0000,,Or, intended to make it {\i1}look{\i0} like that.
+Dialogue: 0,0:19:31.42,0:19:35.19,DCMain,C/K,0000,0000,0000,,But the truth was, he was luring President \NOnda into a trap by making him cautious.
+Dialogue: 0,0:19:35.89,0:19:38.19,DCMain,C/K,0000,0000,0000,,That was his true goal!
+Dialogue: 0,0:19:38.58,0:19:40.20,DCMain,Prez,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:19:40.76,0:19:42.70,DCMain,C/K,0000,0000,0000,,The people who were kidnapped \Nknew where we would go
+Dialogue: 0,0:19:42.70,0:19:46.46,DCMain,C/K,0000,0000,0000,,because they recognized the \Nman who had confined them.
+Dialogue: 0,0:19:46.84,0:19:51.36,DCMain,C/K,0000,0000,0000,,And after thinking about what \Ntheir president would do next...
+Dialogue: 0,0:19:51.36,0:19:53.96,DCMain,C/K,0000,0000,0000,,They told me where to find you both.
+Dialogue: 0,0:19:57.32,0:19:59.78,DCMain,C/K,0000,0000,0000,,Those are the secret books for your company.
+Dialogue: 0,0:20:00.21,0:20:05.80,DCMain,C/K,0000,0000,0000,,They prove that Eigo-san's late \Nfather was innocent, don't they?
+Dialogue: 0,0:20:11.58,0:20:13.34,DCMain,Kuchiishi,0000,0000,0000,,It was two weeks ago.
+Dialogue: 0,0:20:13.70,0:20:17.90,DCMain,Kuchiishi,0000,0000,0000,,I learned completely by accident \Nthat my father had been framed.
+Dialogue: 0,0:20:18.34,0:20:22.90,DCItalic,Kanou,0000,0000,0000,,Man, if those books ever see the light \Nof day, this company is done for.
+Dialogue: 0,0:20:23.12,0:20:25.76,DCItalic,Ekutani,0000,0000,0000,,Shh! You're too loud.
+Dialogue: 0,0:20:25.76,0:20:30.04,DCItalic,Ekutani,0000,0000,0000,,And for the record, I am not \Ngoing down with this ship!
+Dialogue: 0,0:20:30.35,0:20:33.61,DCItalic,Kanou,0000,0000,0000,,Yeah. I'm don't want to \Nend up like him, either.
+Dialogue: 0,0:20:33.61,0:20:36.12,DCItalic,Kanou,0000,0000,0000,,Not like poor old Kuchiishi.
+Dialogue: 0,0:20:38.28,0:20:40.85,DCMain,C/K,0000,0000,0000,,They likely had no idea \Nthey were in the restaurant
+Dialogue: 0,0:20:40.85,0:20:43.41,DCMain,C/K,0000,0000,0000,,of the man they had helped frame,
+Dialogue: 0,0:20:43.86,0:20:46.09,DCMain,C/K,0000,0000,0000,,Kuchiishi Keigo.
+Dialogue: 0,0:20:46.86,0:20:49.08,DCMain,Kuchiishi,0000,0000,0000,,I wanted revenge!
+Dialogue: 0,0:20:49.08,0:20:51.12,DCMain,Kuchiishi,0000,0000,0000,,Against all of them!
+Dialogue: 0,0:20:52.01,0:20:56.14,DCMain,Kuchiishi,0000,0000,0000,,But then, Mori-san made his reservation.
+Dialogue: 0,0:20:56.84,0:20:59.07,DCMain,Kuchiishi,0000,0000,0000,,It felt like a sign telling me to wait.
+Dialogue: 0,0:20:59.26,0:21:01.46,DCMain,Kuchiishi,0000,0000,0000,,So, I reconsidered...
+Dialogue: 0,0:21:01.87,0:21:04.98,DCMain,Kuchiishi,0000,0000,0000,,And realized my father can't rest \Nuntil I expose their crimes,
+Dialogue: 0,0:21:04.98,0:21:06.78,DCMain,Kuchiishi,0000,0000,0000,,that I can't redeem him without doing that.
+Dialogue: 0,0:21:07.49,0:21:10.58,DCMain,K,0000,0000,0000,,And that if I was the ace detective \Nthat my reputation suggests,
+Dialogue: 0,0:21:11.02,0:21:14.15,DCMain,K,0000,0000,0000,,I'd be able to figure out the \Ncase from the clues he left,
+Dialogue: 0,0:21:14.56,0:21:16.33,DCMain,K,0000,0000,0000,,find this location,
+Dialogue: 0,0:21:16.94,0:21:20.59,DCMain,K,0000,0000,0000,,and expose their crime.
+Dialogue: 0,0:21:24.16,0:21:25.47,DCMain,Kuchiishi,0000,0000,0000,,You're amazing.
+Dialogue: 0,0:21:26.63,0:21:28.87,DCMain,Kuchiishi,0000,0000,0000,,Thank you so much.
+Dialogue: 0,0:21:30.94,0:21:33.47,DCItalic,C,0000,0000,0000,,The next day, the secret \Nbooks were evidence enough
+Dialogue: 0,0:21:33.47,0:21:38.48,Headline,Sign{headline},0000,0000,0000,,President of Onda Trading \NAnd Five Employees Arrested!
+Dialogue: 0,0:21:34.14,0:21:38.48,DCItalic,C,0000,0000,0000,,to get President Onda and the \Ncomplicit five employees arrested,
+Dialogue: 0,0:21:39.27,0:21:41.25,DCItalic,C,0000,0000,0000,,and Chef Kuchiishi's father,
+Dialogue: 0,0:21:41.25,0:21:44.40,DCItalic,C,0000,0000,0000,,Keigo-san, was cleared of all charges.
+Dialogue: 0,0:23:05.36,0:23:09.61,Ramen,Lantern sign,0000,0000,0000,,Rakujo Mito Ramen
+Dialogue: 0,0:23:05.53,0:23:08.08,DCMain,Trio,0000,0000,0000,,Thanks for the food!
+Dialogue: 0,0:23:09.83,0:23:13.01,DCMain,K,0000,0000,0000,,Gotta say, it's a real shame.
+Dialogue: 0,0:23:13.01,0:23:16.12,DCMain,K,0000,0000,0000,,That was a Michelin-starred restaurant; \Nthose are hard to get reservations for.
+Dialogue: 0,0:23:16.65,0:23:21.26,DCMain,R,0000,0000,0000,,Maybe Cucina Eigo will \Nopen up again someday...
+Dialogue: 0,0:23:21.26,0:23:22.63,DCMain,C,0000,0000,0000,,I hope so.
+Dialogue: 0,0:23:23.04,0:23:25.50,DCMain,C,0000,0000,0000,,But the ramen here was good, too!
+Dialogue: 0,0:23:25.50,0:23:26.88,DCMain,C,0000,0000,0000,,My tummy's full!
+Dialogue: 0,0:23:28.36,0:23:29.38,DCMain,K,0000,0000,0000,,Of course!
+Dialogue: 0,0:23:29.38,0:23:31.55,Ramen2,Sign,0000,0000,0000,,Rakujo Mito Ramen
+Dialogue: 0,0:23:29.38,0:23:31.55,HaraKuchi,Sign,0000,0000,0000,,Hara Kuchii!
+Dialogue: 0,0:23:29.72,0:23:31.55,DCMain,K,0000,0000,0000,,If we can't eat from the Cucina,
+Dialogue: 0,0:23:31.55,0:23:33.60,DCMain,K,0000,0000,0000,,then we can at least eat at the kitchen!
+Dialogue: 0,0:23:34.68,0:23:35.88,DCMain,K,0000,0000,0000,,You get it?!
+Dialogue: 0,0:23:39.64,0:23:41.98,DCMain,C,0000,0000,0000,,We hope you enjoyed the show.
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,Sign,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.18,0:23:46.07,DCMain,C,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:46.46,0:23:50.74,DCMain,C,0000,0000,0000,,Didn't Pirate Spirit from race 9 win?
+Dialogue: 0,0:23:52.01,0:23:53.22,DCMain,K,0000,0000,0000,,Seriously?!
+Dialogue: 0,0:23:53.22,0:23:55.37,DCMain,K,0000,0000,0000,,That was the dark horse! This \Npays out a hundred-fold!
+Dialogue: 0,0:23:56.20,0:23:58.70,OneMillion,Sign,0000,0000,0000,,One Million Yen
+Dialogue: 0,0:23:57.00,0:23:58.70,DCMain,Trio,0000,0000,0000,,O-One million yen?!
+Dialogue: 0,0:23:59.01,0:24:01.96,DCMain,K,0000,0000,0000,,All right, tonight we're having \Nsushi for dinner, sushi!
+Dialogue: 0,0:24:05.30,0:24:08.96,DCMain,Lady,0000,0000,0000,,Who stole my one million yen ticket?!
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,C,0000,0000,0000,,The Tokyo-Style Detective Show Next Door \N(Part One)
+Dialogue: 0,0:24:09.71,0:24:14.47,DCMain,C,0000,0000,0000,,The next episode of Conan is "The Tokyo-Style \NDetective Show Next Door, Part One!"
+Dialogue: 0,0:24:29.98,0:24:34.99,Hint,Sign/Spoken,0000,0000,0000,,Iroha Sushi
+Dialogue: 0,0:24:30.46,0:24:32.92,DCMain,C,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.36,0:24:34.99,DCMain,Sign/Spoken,0000,0000,0000,,Iroha Sushi!
+Dialogue: 0,0:24:34.99,0:24:36.24,DCMain,R,0000,0000,0000,,{\an8}We're having sushi next time?
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,Sign,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.24,0:24:37.84,DCMain,K,0000,0000,0000,,{\an8}Not if I don't win at the races!
+Dialogue: 0,0:24:37.84,0:24:39.30,DCMain,C,0000,0000,0000,,{\an8}But what if he wins?

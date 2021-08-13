@@ -1,0 +1,360 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Stables,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007F516E,&H007C3748,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+Style: Spirits,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C3848E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0058,0
+Style: Yasutaka,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007D4C63,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0066,0
+Style: Kozo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C77783,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0066,0
+Style: Blanket,Trebuchet MS,18,&H00F9F9FB,&H000000FF,&H007E6B8E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Masao,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00792C34,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0070,0020,0066,0
+Style: WomanJockey,Trebuchet MS,22,&H001EC9CF,&H000000FF,&H000C3A3D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Chizuru,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0086343D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0190,0066,0
+Style: DetourSigns,Trebuchet MS,18,&H005330C8,&H000000FF,&H00FCFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Track,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A8595A,&H007C3748,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+Style: KozoHouse,Trebuchet MS,20,&H00191F1A,&H000000FF,&H0055546F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Station,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AB697F,&H007C3748,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+Style: Onodera,Trebuchet MS,18,&H008B583E,&H000000FF,&H00FCF6EF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0120,0020,0050,0
+Style: Overpass,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H003C1A3E,&H007C3748,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 933 “The \NThoroughbred Kidnapping Case (Part One)”
+Dialogue: 0,0:00:08.18,0:00:10.32,DCMain,KOGORO,0000,0000,0000,,Go, go! Break away!
+Dialogue: 0,0:00:10.32,0:00:12.51,DCMain,CONAN,0000,0000,0000,,This is the last one, mister!
+Dialogue: 0,0:00:12.51,0:00:16.32,DCMain,CONAN,0000,0000,0000,,Ran-neechan will get mad at \Nme if you run out of money!
+Dialogue: 0,0:00:16.80,0:00:19.82,DCItalic,RAN,0000,0000,0000,,Keep a close eye on him, Conan-kun.
+Dialogue: 0,0:00:19.82,0:00:22.86,DCItalic,RAN,0000,0000,0000,,He just got paid,
+Dialogue: 0,0:00:22.86,0:00:26.08,DCItalic,RAN,0000,0000,0000,,and he gambled away all of it in \Njust half a day the other day.
+Dialogue: 0,0:00:26.31,0:00:30.09,DCItalic,CONAN,0000,0000,0000,,Not only that, but that's actually my money.
+Dialogue: 0,0:00:30.42,0:00:32.36,DCItalic,RAN,0000,0000,0000,,Got it, Conan-kun?
+Dialogue: 0,0:00:32.36,0:00:33.96,DCItalic,CONAN,0000,0000,0000,,Got it.
+Dialogue: 0,0:00:34.61,0:00:36.04,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:00:36.04,0:00:38.73,DCMain,KOGORO,0000,0000,0000,,Shut up. I know.
+Dialogue: 0,0:00:40.00,0:00:41.06,DCMain,KOGORO,0000,0000,0000,,Yes, yes!
+Dialogue: 0,0:00:41.06,0:00:43.61,DCMain,KOGORO,0000,0000,0000,,Yes! Yes, yes, yes!
+Dialogue: 0,0:00:43.61,0:00:44.89,DCMain,KOGORO,0000,0000,0000,,All right!
+Dialogue: 0,0:00:48.80,0:00:51.07,DCMain,KOGORO,0000,0000,0000,,What? You must be joking.
+Dialogue: 0,0:00:55.33,0:00:58.95,DCMain,KOGORO,0000,0000,0000,,Here's the problem: should I man up and...
+Dialogue: 0,0:00:59.28,0:01:01.33,DCMain,CONAN,0000,0000,0000,,Yeah, and go home.
+Dialogue: 0,0:01:01.63,0:01:03.96,DCMain,KOGORO,0000,0000,0000,,...bet the rest of my money?
+Dialogue: 0,0:01:03.96,0:01:06.09,DCMain,KOGORO,0000,0000,0000,,Or drink my sorrows away?
+Dialogue: 0,0:01:06.09,0:01:07.63,DCMain,KOGORO,0000,0000,0000,,Now that's the problem!
+Dialogue: 0,0:01:08.17,0:01:10.92,DCItalic,CONAN,0000,0000,0000,,Both would be huge problems.
+Dialogue: 0,0:01:12.74,0:01:17.67,DCMain,MAN,0000,0000,0000,,Excuse me. Are you the great \Ndetective Mori Kogoro-sensei?
+Dialogue: 0,0:01:17.67,0:01:18.47,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:01:18.80,0:01:22.50,DCMain,KOGORO,0000,0000,0000,,Indeed. I am the great detective Mori.
+Dialogue: 0,0:01:23.08,0:01:27.26,DCMain,MAN,0000,0000,0000,,Excuse me. I'm unfortunately \Nout of business cards.
+Dialogue: 0,0:01:27.26,0:01:30.75,DCMain,MAN,0000,0000,0000,,I'm a freelance horse racing journalist.
+Dialogue: 0,0:01:30.75,0:01:34.03,DCMain,MAN,0000,0000,0000,,I'd like to hire you for a job.
+Dialogue: 0,0:01:34.56,0:01:36.78,DCMain,KOGORO,0000,0000,0000,,Yes, yes! More gambling money!
+Dialogue: 0,0:01:40.78,0:01:42.38,DCMain,CONAN,0000,0000,0000,,In my eyes are maximum creation!
+Dialogue: 0,0:01:42.38,0:01:44.29,DCMain,CONAN,0000,0000,0000,,My detective skills are tomorrow's reaction!
+Dialogue: 0,0:01:44.29,0:01:45.93,DCMain,CONAN,0000,0000,0000,,He keeps talking about gambling money,
+Dialogue: 0,0:01:45.93,0:01:48.00,DCMain,CONAN,0000,0000,0000,,but there's something fishy about \Nall these horse racing jobs!
+Dialogue: 0,0:01:48.00,0:01:49.50,DCMain,CONAN,0000,0000,0000,,Always determining the one truth...
+Dialogue: 0,0:01:49.50,0:01:51.28,DCMain,CONAN,0000,0000,0000,,...with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:51.28,0:01:53.80,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:35.36,0:03:40.99,DCEpTitle,EPTITLE,0000,0000,0000,,The Thoroughbred Kidnapping Case \N(Part One)
+Dialogue: 0,0:03:35.51,0:03:38.84,DCMain,CONAN,0000,0000,0000,,“The Thoroughbred Kidnapping \NCase, Part One!”
+Dialogue: 0,0:03:41.70,0:03:46.74,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:03:42.27,0:03:43.45,DCMain,CONAN,0000,0000,0000,,We're home.
+Dialogue: 0,0:03:43.45,0:03:44.53,DCMain,KOGORO,0000,0000,0000,,We're back.
+Dialogue: 0,0:03:44.53,0:03:46.74,DCMain,RAN,0000,0000,0000,,Dad, hurry.
+Dialogue: 0,0:03:47.00,0:03:47.87,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:48.34,0:03:50.79,DCMain,RAN,0000,0000,0000,,You have a client, Dad.
+Dialogue: 0,0:03:51.66,0:03:54.17,DCMain,KOGORO,0000,0000,0000,,W-Well, well.
+Dialogue: 0,0:03:57.93,0:03:59.62,DCMain,KOGORO,0000,0000,0000,,Thank for you waiting.
+Dialogue: 0,0:03:59.62,0:04:02.72,DCMain,KOGORO,0000,0000,0000,,I am the great detective Mori Kogoro.
+Dialogue: 0,0:04:03.01,0:04:06.92,DCMain,MAN,0000,0000,0000,,Excuse me. I'm unfortunately \Nout of business cards.
+Dialogue: 0,0:04:06.92,0:04:11.48,DCMain,MAN,0000,0000,0000,,I write horse racing predictions \Nand reviews online.
+Dialogue: 0,0:04:11.80,0:04:14.73,DCMain,MAN,0000,0000,0000,,I'd like to ask you to do something for me.
+Dialogue: 0,0:04:14.91,0:04:17.57,DCMain,KOGORO,0000,0000,0000,,Business is booming!
+Dialogue: 0,0:04:20.45,0:04:22.15,DCMain,CONAN,0000,0000,0000,,Are you sure, mister?
+Dialogue: 0,0:04:22.15,0:04:24.93,DCMain,CONAN,0000,0000,0000,,That job was the same as the last one.
+Dialogue: 0,0:04:27.35,0:04:31.50,DCMain,WOMAN,0000,0000,0000,,Excuse me, but I'm a huge horse racing fan.
+Dialogue: 0,0:04:32.20,0:04:34.25,DCMain,WOMAN,0000,0000,0000,,I'd actually like to hire you.
+Dialogue: 0,0:04:34.53,0:04:35.32,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:36.22,0:04:37.13,DCMain,KOGORO,0000,0000,0000,,What?!
+Dialogue: 0,0:04:46.83,0:04:48.66,DCMain,WOMAN,0000,0000,0000,,Anyway, that's that.
+Dialogue: 0,0:04:49.05,0:04:51.14,DCMain,WOMAN,0000,0000,0000,,Thank you, Detective.
+Dialogue: 0,0:05:06.07,0:05:07.95,DCItalic,CONAN,0000,0000,0000,,What's going on?
+Dialogue: 0,0:05:10.55,0:05:11.61,DCMain,MAN,0000,0000,0000,,We did it.
+Dialogue: 0,0:05:11.61,0:05:13.81,DCMain,MAN,0000,0000,0000,,Yeah. Now we can relax.
+Dialogue: 0,0:05:13.81,0:05:15.03,DCMain,WOMAN,0000,0000,0000,,You're right.
+Dialogue: 0,0:05:15.03,0:05:18.33,DCMain,WOMAN,0000,0000,0000,,With a famous detective \Non the case, surely...
+Dialogue: 0,0:05:34.10,0:05:38.47,DCItalic,CONAN,0000,0000,0000,,I don't know what's going on, but \Nthere's something fishy about these jobs.
+Dialogue: 0,0:05:47.28,0:05:50.74,Stables,SIGN,0000,0000,0000,,{\fad(250,460)}TOKUYOSHI Stables
+Dialogue: 0,0:05:54.69,0:05:58.00,DCMain,KOGORO,0000,0000,0000,,Why are you following me?
+Dialogue: 0,0:05:58.47,0:06:02.03,DCMain,CONAN,0000,0000,0000,,Ran-neechan told me to follow you.
+Dialogue: 0,0:06:02.03,0:06:04.55,DCMain,CONAN,0000,0000,0000,,She's worried because of \Nwhat the jobs are about.
+Dialogue: 0,0:06:05.03,0:06:11.31,DCMain,CONAN,0000,0000,0000,,If you're near a track when you get paid, \Nyou might spend all of it like always.
+Dialogue: 0,0:06:11.31,0:06:14.36,DCMain,KOGORO,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:06:14.36,0:06:19.06,DCMain,KOGORO,0000,0000,0000,,This time I'm earning triple the money.
+Dialogue: 0,0:06:20.72,0:06:25.53,DCMain,CONAN,0000,0000,0000,,Are you sure you should've accepted \Nthe same job three times?
+Dialogue: 0,0:06:25.85,0:06:28.27,DCMain,KOGORO,0000,0000,0000,,He's the most popular horse right now.
+Dialogue: 0,0:06:28.27,0:06:30.78,DCMain,KOGORO,0000,0000,0000,,Coincidences happen.
+Dialogue: 0,0:06:30.96,0:06:33.14,DCMain,CONAN,0000,0000,0000,,I meant as a detective.
+Dialogue: 0,0:06:33.14,0:06:35.54,DCMain,KOGORO,0000,0000,0000,,That's him!
+Dialogue: 0,0:06:40.14,0:06:44.92,DCMain,KOGORO,0000,0000,0000,,{\an8}White Spirits, the horse \Nwith the pure white soul.
+Dialogue: 0,0:06:41.29,0:06:44.92,Spirits,SIGN,0000,0000,0000,,{\fad(250,1)}White Spirits \NRacing Horse
+Dialogue: 0,0:06:47.59,0:06:51.06,Yasutaka,SIGN,0000,0000,0000,,{\fad(250,460)}Hase Yasutaka (40) \NTrainer
+Dialogue: 0,0:06:52.95,0:06:54.80,DCMain,CONAN,0000,0000,0000,,It's a beautiful horse.
+Dialogue: 0,0:06:54.80,0:06:59.11,DCMain,KOGORO,0000,0000,0000,,No wonder they say he's \Nthe horse of the decade.
+Dialogue: 0,0:06:59.80,0:07:02.19,DCMain,TOKUYOSHI,0000,0000,0000,,Indeed, indeed.
+Dialogue: 0,0:07:02.41,0:07:05.96,DCMain,TOKUYOSHI,0000,0000,0000,,I've been blessed as a horse owner.
+Dialogue: 0,0:07:05.96,0:07:07.94,DCMain,KOGORO,0000,0000,0000,,Who are you?
+Dialogue: 0,0:07:08.11,0:07:09.69,DCMain,TOKUYOSHI,0000,0000,0000,,Please excuse me.
+Dialogue: 0,0:07:09.69,0:07:11.86,DCMain,TOKUYOSHI,0000,0000,0000,,I took your call earlier.
+Dialogue: 0,0:07:11.86,0:07:13.66,DCMain,TOKUYOSHI,0000,0000,0000,,{\an8}I'm Tokuyoshi Kozo.
+Dialogue: 0,0:07:12.53,0:07:15.96,Kozo,SIGN,0000,0000,0000,,{\fad(250,460)}Tokuyoshi Kozo (55) \NHorse Owner
+Dialogue: 0,0:07:13.66,0:07:17.70,DCMain,TOKUYOSHI,0000,0000,0000,,{\an8}You must be Mori Kogoro, the great detective.
+Dialogue: 0,0:07:18.18,0:07:21.52,DCMain,KOGORO,0000,0000,0000,,Indeed, I am the great detective Mori.
+Dialogue: 0,0:07:21.52,0:07:25.38,DCMain,KOGORO,0000,0000,0000,,I see. So you're the owner \Nof that amazing horse.
+Dialogue: 0,0:07:26.29,0:07:30.51,DCMain,TOKUYOSHI,0000,0000,0000,,You said you were here about White Spirits?
+Dialogue: 0,0:07:30.87,0:07:32.01,DCMain,KOGORO,0000,0000,0000,,Indeed.
+Dialogue: 0,0:07:32.01,0:07:36.92,DCMain,KOGORO,0000,0000,0000,,Tokuyoshi-san, I understand you've \Nbeen receiving death threats...
+Dialogue: 0,0:07:36.92,0:07:40.93,DCMain,KOGORO,0000,0000,0000,,...against White Spirits \Nsince about a month ago.
+Dialogue: 0,0:07:41.29,0:07:43.06,DCMain,TOKUYOSHI,0000,0000,0000,,H-How do you know that?!
+Dialogue: 0,0:07:44.56,0:07:49.06,DCMain,KOGORO,0000,0000,0000,,Detectives are bound to confidentiality, \Nso I cannot answer your question,
+Dialogue: 0,0:07:49.06,0:07:52.80,DCMain,KOGORO,0000,0000,0000,,but I've been hired to investigate \Nand protect White Spirits...
+Dialogue: 0,0:07:52.80,0:07:56.78,DCMain,KOGORO,0000,0000,0000,,...by someone who heard about the threats.
+Dialogue: 0,0:07:56.78,0:07:58.83,DCItalic,CONAN,0000,0000,0000,,By three different people, too.
+Dialogue: 0,0:07:59.21,0:08:03.13,DCMain,TOKUYOSHI,0000,0000,0000,,I-I see. That's perfect, then.
+Dialogue: 0,0:08:03.13,0:08:03.96,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:03.96,0:08:06.53,DCMain,TOKUYOSHI,0000,0000,0000,,I'd like to hire you, too.
+Dialogue: 0,0:08:06.53,0:08:09.55,DCMain,TOKUYOSHI,0000,0000,0000,,Please protect White Spirits, Mori-san.
+Dialogue: 0,0:08:09.99,0:08:10.80,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:08:11.07,0:08:13.89,DCItalic,CONAN,0000,0000,0000,,He's been hired by four people now.
+Dialogue: 0,0:08:17.03,0:08:19.69,DCMain,TOKUYOSHI,0000,0000,0000,,Thank you, Mori-san.
+Dialogue: 0,0:08:21.42,0:08:27.31,DCItalic,CONAN,0000,0000,0000,,The next day, White Spirits was being \Ntransported to a track outside Tokyo...
+Dialogue: 0,0:08:27.62,0:08:30.44,DCItalic,CONAN,0000,0000,0000,,...to participate in a commemorative race.
+Dialogue: 0,0:08:30.94,0:08:35.20,Blanket,SIGN,0000,0000,0000,,White Spirits
+Dialogue: 0,0:08:33.59,0:08:34.64,DCMain,HASE,0000,0000,0000,,We're counting on you.
+Dialogue: 0,0:08:35.61,0:08:38.45,Masao,TEXT,0000,0000,0000,,{\fad(250,1)}Shiomi Masao (50) \NHorse Trailer Driver
+Dialogue: 0,0:08:36.22,0:08:37.08,DCMain,SHIOMI,0000,0000,0000,,{\an8}Got it.
+Dialogue: 0,0:08:38.80,0:08:43.91,DCMain,KOGORO,0000,0000,0000,,Why are you here, too, Ran?
+Dialogue: 0,0:08:43.91,0:08:46.40,DCMain,RAN,0000,0000,0000,,I'm watching you.
+Dialogue: 0,0:08:46.40,0:08:48.96,DCMain,RAN,0000,0000,0000,,I wasn't sure Conan-kun \Ncould handle it alone.
+Dialogue: 0,0:08:50.46,0:08:52.35,DCMain,KOGORO,0000,0000,0000,,You're unbelievable.
+Dialogue: 0,0:08:52.35,0:08:56.43,DCMain,RAN,0000,0000,0000,,Just kidding. I'm actually \Na White Spirits fan.
+Dialogue: 0,0:08:56.43,0:08:58.64,DCMain,KOGORO,0000,0000,0000,,What?! Don't tell me you...
+Dialogue: 0,0:08:59.08,0:09:02.63,DCMain,RAN,0000,0000,0000,,Of course not. I'm underage.
+Dialogue: 0,0:09:03.96,0:09:08.24,DCMain,RAN,0000,0000,0000,,I just like how fast and \Nbeautiful White Spirits is.
+Dialogue: 0,0:09:08.24,0:09:10.02,DCMain,RAN,0000,0000,0000,,That's why I'm worried.
+Dialogue: 0,0:09:10.21,0:09:12.45,DCMain,KOGORO,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:09:12.45,0:09:14.74,DCMain,TOKUYOSHI,0000,0000,0000,,Why not, Mori-san?
+Dialogue: 0,0:09:14.74,0:09:16.99,DCMain,TOKUYOSHI,0000,0000,0000,,I feel safer with more people.
+Dialogue: 0,0:09:16.99,0:09:18.46,DCMain,TOKUYOSHI,0000,0000,0000,,Come, miss.
+Dialogue: 0,0:09:18.46,0:09:21.45,DCMain,TOKUYOSHI,0000,0000,0000,,You're welcome to join me in my car.
+Dialogue: 0,0:09:21.80,0:09:23.45,DCMain,RAN,0000,0000,0000,,Thank you!
+Dialogue: 0,0:09:27.57,0:09:31.64,DCMain,NAGAURA,0000,0000,0000,,Don't do this, sir! This is reckless!
+Dialogue: 0,0:09:31.64,0:09:34.21,DCMain,NAGAURA,0000,0000,0000,,If something were to happen \Nto White Spirits...
+Dialogue: 0,0:09:36.87,0:09:38.59,DCMain,TOKUYOSHI,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:09:38.59,0:09:41.05,DCMain,TOKUYOSHI,0000,0000,0000,,The great detective Mori Kogoro is here.
+Dialogue: 0,0:09:41.05,0:09:44.32,DCMain,TOKUYOSHI,0000,0000,0000,,White Spirits will appear \Nin the race as planned.
+Dialogue: 0,0:09:44.32,0:09:47.35,DCMain,TOKUYOSHI,0000,0000,0000,,You all just need to do your jobs.
+Dialogue: 0,0:09:48.50,0:09:49.86,DCItalic,CONAN,0000,0000,0000,,You all?
+Dialogue: 0,0:10:05.51,0:10:07.25,DCMain,KOGORO,0000,0000,0000,,What's up with that car?
+Dialogue: 0,0:10:13.73,0:10:15.90,DCMain,KOGORO,0000,0000,0000,,They shouldn't surprise people like that.
+Dialogue: 0,0:10:15.90,0:10:18.87,DCMain,RAN,0000,0000,0000,,Hey, wasn't that this person?
+Dialogue: 0,0:10:19.13,0:10:22.14,WomanJockey,SIGN,0000,0000,0000,,{\fad(1,500)}This Month's Woman Jockey \NWhite Spirits' Rider
+Dialogue: 0,0:10:22.18,0:10:25.14,Chizuru,SIGN,0000,0000,0000,,{\fad(250,1)}Kakuta Chizuru (25) \NJockey
+Dialogue: 0,0:10:23.51,0:10:24.73,DCMain,CHIZURU,0000,0000,0000,,{\an8}They're on schedule.
+Dialogue: 0,0:10:29.90,0:10:31.52,DCItalic,CONAN,0000,0000,0000,,That's them.
+Dialogue: 0,0:10:31.52,0:10:33.65,DCMain,CONAN,0000,0000,0000,,But why were they wearing disguises?
+Dialogue: 0,0:10:49.99,0:10:53.10,DCMain,KOGORO,0000,0000,0000,,What's wrong? Hey, you can't just—
+Dialogue: 0,0:10:50.29,0:10:54.04,DetourSigns,SIGN,0000,0000,0000,,Construction 50m Ahead \NDetour
+Dialogue: 0,0:10:53.59,0:10:54.04,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:54.99,0:10:56.47,DCMain,CONAN,0000,0000,0000,,Follow that car!
+Dialogue: 0,0:11:04.40,0:11:05.18,DCMain,KOGORO,0000,0000,0000,,Where'd the trailer go?
+Dialogue: 0,0:11:12.51,0:11:13.59,DCMain,KOGORO,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:11:14.03,0:11:16.06,DCMain,SHIOMI,0000,0000,0000,,There's construction up ahead.
+Dialogue: 0,0:11:16.06,0:11:19.42,DCMain,SHIOMI,0000,0000,0000,,That sign was placed incorrectly.
+Dialogue: 0,0:11:23.83,0:11:26.05,DCMain,SHIOMI,0000,0000,0000,,I'm sorry. Thank you for waiting.
+Dialogue: 0,0:11:27.00,0:11:29.87,DCMain,KOGORO,0000,0000,0000,,What a waste of time.
+Dialogue: 0,0:11:30.20,0:11:32.66,DCMain,TOKUYOSHI,0000,0000,0000,,Now, now. We have time.
+Dialogue: 0,0:11:32.66,0:11:34.49,DCMain,TOKUYOSHI,0000,0000,0000,,Let's take it slowly.
+Dialogue: 0,0:11:37.19,0:11:38.33,DCItalic,CONAN,0000,0000,0000,,What is it?
+Dialogue: 0,0:11:38.97,0:11:40.63,DCItalic,CONAN,0000,0000,0000,,Something not right.
+Dialogue: 0,0:11:41.43,0:11:43.10,DCItalic,CONAN,0000,0000,0000,,I have a bad feeling about this.
+Dialogue: 0,0:11:44.18,0:11:48.10,Track,SIGN,0000,0000,0000,,{\fad(250,460)}Okuho Horse Track
+Dialogue: 0,0:11:58.12,0:12:00.12,DCMain,RAN,0000,0000,0000,,I'm glad he's all right.
+Dialogue: 0,0:12:00.12,0:12:05.74,DCMain,KOGORO,0000,0000,0000,,Nothing's gonna happen with the \Ngreat detective Mori Kogoro on the job.
+Dialogue: 0,0:12:05.74,0:12:06.99,DCMain,TOKUYOSHI,0000,0000,0000,,I-It's not him!
+Dialogue: 0,0:12:07.30,0:12:08.01,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:08.01,0:12:10.72,DCMain,TOKUYOSHI,0000,0000,0000,,This isn't White Spirits!
+Dialogue: 0,0:12:10.72,0:12:11.16,DCMain,KOGORO,0000,0000,0000,,What?!
+Dialogue: 0,0:12:21.14,0:12:23.92,DCMain,KOGORO,0000,0000,0000,,What do you mean, Tokuyoshi-san?
+Dialogue: 0,0:12:23.92,0:12:25.55,DCMain,TOKUYOSHI,0000,0000,0000,,It looks just like him.
+Dialogue: 0,0:12:25.55,0:12:28.47,DCMain,TOKUYOSHI,0000,0000,0000,,It looks like him, but it's \Na totally different horse.
+Dialogue: 0,0:12:28.47,0:12:29.36,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:12:29.56,0:12:33.56,DCNote,SIGN,0000,0000,0000,,Famous Horses
+Dialogue: 0,0:12:33.56,0:12:37.31,DCMain,SIGN,0000,0000,0000,,White Spirits
+Dialogue: 0,0:12:37.72,0:12:39.01,DCMain,CONAN,0000,0000,0000,,Look, mister.
+Dialogue: 0,0:12:41.14,0:12:42.60,DCMain,KOGORO,0000,0000,0000,,Th-That's...
+Dialogue: 0,0:12:42.60,0:12:44.82,DCMain,RAN,0000,0000,0000,,No way.
+Dialogue: 0,0:12:45.04,0:12:46.10,DCMain,CONAN,0000,0000,0000,,And that.
+Dialogue: 0,0:12:47.44,0:12:48.78,DCMain,KOGORO,0000,0000,0000,,What is that?
+Dialogue: 0,0:12:53.30,0:12:54.96,DCMain,KOGORO,0000,0000,0000,,“Dear President Tokugawa.”
+Dialogue: 0,0:12:54.96,0:12:57.10,DCMain,KOGORO,0000,0000,0000,,“We've taken White Spirits.”
+Dialogue: 0,0:12:57.10,0:13:01.63,DCMain,KOGORO,0000,0000,0000,,“Gather 100 million yen in ransom and wait \Nat your house for us to contact you.”
+Dialogue: 0,0:13:01.89,0:13:03.13,DCMain,CONAN,0000,0000,0000,,A ransom letter?
+Dialogue: 0,0:13:03.38,0:13:06.57,DCMain,TOKUYOSHI,0000,0000,0000,,Wh-What's going on, Mori-san?!
+Dialogue: 0,0:13:07.27,0:13:08.86,DCMain,KOGORO,0000,0000,0000,,When did they take him?
+Dialogue: 0,0:13:08.86,0:13:10.61,DCMain,KOGORO,0000,0000,0000,,Where did they swap out the...
+Dialogue: 0,0:13:14.04,0:13:17.34,DCMain,CONAN,0000,0000,0000,,That's right. That's the only \Nplace they could've done it.
+Dialogue: 0,0:13:17.34,0:13:19.86,DCMain,CONAN,0000,0000,0000,,And if that's true, then...
+Dialogue: 0,0:13:19.86,0:13:21.13,DCMain,RAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:13:21.93,0:13:23.15,DCMain,KOGORO,0000,0000,0000,,Hey, you!
+Dialogue: 0,0:13:28.65,0:13:30.49,DCMain,SHIOMI,0000,0000,0000,,I'm sorry!
+Dialogue: 0,0:13:30.81,0:13:33.84,DCMain,SHIOMI,0000,0000,0000,,My wife and child were kidnapped! \NI was being threatened!
+Dialogue: 0,0:13:33.84,0:13:35.50,DCMain,KOGORO,0000,0000,0000,,You what?
+Dialogue: 0,0:13:38.25,0:13:40.25,DetourSigns,SIGN,0000,0000,0000,,Construction 50m Ahead \NDetour
+Dialogue: 0,0:13:45.52,0:13:49.51,DCMain,SHIOMI,0000,0000,0000,,They told me to park the trailer \Nthere and get in the other one.
+Dialogue: 0,0:13:49.84,0:13:54.14,DCMain,SHIOMI,0000,0000,0000,,They said they'd kill my wife and \Nchild if I didn't. I had no choice.
+Dialogue: 0,0:13:54.71,0:13:56.51,DCMain,SHIOMI,0000,0000,0000,,I'm sorry!
+Dialogue: 0,0:14:09.92,0:14:11.04,DCMain,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:14:11.04,0:14:13.61,DCMain,RAN,0000,0000,0000,,You're right. There's no \Nconstruction happening at all.
+Dialogue: 0,0:14:13.61,0:14:15.41,DCMain,KOGORO,0000,0000,0000,,This is ridiculous.
+Dialogue: 0,0:14:15.80,0:14:16.76,DCMain,CONAN,0000,0000,0000,,Look.
+Dialogue: 0,0:14:19.21,0:14:20.67,DCMain,RAN,0000,0000,0000,,Is that...?
+Dialogue: 0,0:14:20.94,0:14:22.03,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:14:22.03,0:14:28.47,DCMain,KOGORO,0000,0000,0000,,They're tire marks from the real \Ntrailer the culprit drove away...
+Dialogue: 0,0:14:29.02,0:14:33.43,DCMain,KOGORO,0000,0000,0000,,...after the driver Shiomi-san \Ngot into the other trailer.
+Dialogue: 0,0:14:35.27,0:14:37.03,DCMain,RAN,0000,0000,0000,,What's wrong, Conan-kun?
+Dialogue: 0,0:14:37.03,0:14:41.35,DCMain,CONAN,0000,0000,0000,,Nothing. I was just thinking \Nthis is like that other case.
+Dialogue: 0,0:14:41.57,0:14:44.40,DCMain,RAN,0000,0000,0000,,What? This has happened before?
+Dialogue: 0,0:14:44.40,0:14:49.49,DCMain,CONAN,0000,0000,0000,,It's called the “the \NAdventure of Silver Blaze.”
+Dialogue: 0,0:14:49.49,0:14:53.03,DCMain,KOGORO,0000,0000,0000,,What's that? I've never heard of it.
+Dialogue: 0,0:14:53.56,0:14:57.41,DCMain,CONAN,0000,0000,0000,,It's a Sherlock Holmes story \Nwritten by Conan Doyle.
+Dialogue: 0,0:14:58.36,0:15:02.83,DCMain,KOGORO,0000,0000,0000,,You're talking about a book? What nonsense.
+Dialogue: 0,0:15:04.15,0:15:06.23,DCItalic,CONAN,0000,0000,0000,,I hope that's all it is.
+Dialogue: 0,0:15:09.47,0:15:10.47,DCMain,KOGORO,0000,0000,0000,,Hello?
+Dialogue: 0,0:15:11.32,0:15:13.07,DCMain,KOGORO,0000,0000,0000,,Ah, Takagi.
+Dialogue: 0,0:15:13.97,0:15:15.24,DCMain,KOGORO,0000,0000,0000,,That's good.
+Dialogue: 0,0:15:15.68,0:15:17.82,DCMain,KOGORO,0000,0000,0000,,Any leads on the suspect?
+Dialogue: 0,0:15:19.16,0:15:22.08,DCMain,KOGORO,0000,0000,0000,,I see. We'll meet you right away.
+Dialogue: 0,0:15:23.17,0:15:24.86,DCMain,RAN,0000,0000,0000,,Was that Detective Takagi?
+Dialogue: 0,0:15:25.12,0:15:25.92,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:25.92,0:15:29.88,DCMain,KOGORO,0000,0000,0000,,The driver Shiomi's wife \Nand child were released,
+Dialogue: 0,0:15:29.88,0:15:32.36,DCMain,KOGORO,0000,0000,0000,,and made it back home.
+Dialogue: 0,0:15:32.93,0:15:37.81,DCMain,KOGORO,0000,0000,0000,,But they were blindfolded, so they \Ndon't know anything about the culprit.
+Dialogue: 0,0:15:37.81,0:15:39.24,DCMain,RAN,0000,0000,0000,,I see.
+Dialogue: 0,0:15:39.24,0:15:41.27,DCMain,RAN,0000,0000,0000,,I'm glad they're all right, though.
+Dialogue: 0,0:15:43.12,0:15:45.13,KozoHouse,SIGN,0000,0000,0000,,Tokuyoshi Kozo
+Dialogue: 0,0:15:48.68,0:15:51.06,DCMain,TOKUYOSHI,0000,0000,0000,,Leave! Leave me!
+Dialogue: 0,0:15:51.70,0:15:54.26,DCMain,TOKUYOSHI,0000,0000,0000,,Can't you read this?
+Dialogue: 0,0:15:55.54,0:15:56.60,DCMain,CONAN,0000,0000,0000,,Let me see that.
+Dialogue: 0,0:15:57.76,0:16:05.48,DCNote,SIGN,0000,0000,0000,,In one hour, come alone to the fountain\N at Tsubaki Park. Bring the 100 million yen\N with you. If anyone else comes, \NWhite Spirits will never be returned to you.
+Dialogue: 0,0:16:06.54,0:16:07.90,DCMain,KOGORO,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:16:08.11,0:16:13.28,DCMain,MEGURE,0000,0000,0000,,Tokuyoshi found it in his mailbox.
+Dialogue: 0,0:16:13.64,0:16:20.54,DCMain,TAKAGI,0000,0000,0000,,He said he was going out alone with \NWhite Spirits' 100 million yen ransom.
+Dialogue: 0,0:16:20.93,0:16:23.09,DCMain,CHIBA,0000,0000,0000,,Without our protection.
+Dialogue: 0,0:16:23.09,0:16:26.88,DCMain,KOGORO,0000,0000,0000,,He what? That's too dangerous!
+Dialogue: 0,0:16:27.08,0:16:29.91,DCMain,MEGURE,0000,0000,0000,,We said the same thing.
+Dialogue: 0,0:16:30.55,0:16:33.88,DCMain,TOKUYOSHI,0000,0000,0000,,Danger? Protection?
+Dialogue: 0,0:16:34.12,0:16:37.30,DCMain,TOKUYOSHI,0000,0000,0000,,It's all just to arrest the culprit!
+Dialogue: 0,0:16:37.30,0:16:40.33,DCMain,TOKUYOSHI,0000,0000,0000,,I can't trust the police or detectives!
+Dialogue: 0,0:16:40.33,0:16:44.28,DCMain,TOKUYOSHI,0000,0000,0000,,If you follow me, I'll sue all of you!
+Dialogue: 0,0:16:44.28,0:16:45.90,DCMain,TOKUYOSHI,0000,0000,0000,,Don't forget that!
+Dialogue: 0,0:16:56.47,0:16:57.68,DCMain,KOGORO,0000,0000,0000,,Inspector.
+Dialogue: 0,0:16:57.68,0:16:59.21,DCMain,MEGURE,0000,0000,0000,,Of course.
+Dialogue: 0,0:16:59.21,0:17:03.21,DCMain,MEGURE,0000,0000,0000,,We can't ignore a crime happening \Nright before our eyes.
+Dialogue: 0,0:17:03.68,0:17:07.92,DCMain,MEGURE,0000,0000,0000,,We'll follow them carefully so neither \Nthe culprit nor Tokuyoshi notice.
+Dialogue: 0,0:17:08.27,0:17:09.17,DCMain,BOTH,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:17:44.94,0:17:46.16,DCMain,MEGURE,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:17:47.06,0:17:51.67,DCMain,KOGORO,0000,0000,0000,,WS → KM North ST.
+Dialogue: 0,0:17:52.18,0:17:53.67,DCMain,KOGORO,0000,0000,0000,,WS...
+Dialogue: 0,0:17:53.67,0:17:55.32,DCMain,KOGORO,0000,0000,0000,,WS?
+Dialogue: 0,0:17:56.17,0:17:59.64,DCMain,KOGORO,0000,0000,0000,,Maybe they're referring to White Spirits.
+Dialogue: 0,0:18:00.49,0:18:01.92,DCMain,CONAN,0000,0000,0000,,That must be it.
+Dialogue: 0,0:18:01.92,0:18:07.05,DCMain,KOGORO,0000,0000,0000,,In other words, White Spirits \Nis at KM North ST.
+Dialogue: 0,0:18:07.46,0:18:09.35,DCMain,KOGORO,0000,0000,0000,,Where is that?
+Dialogue: 0,0:18:09.55,0:18:14.36,DCMain,CONAN,0000,0000,0000,,I wonder what word is \Nnormally abbreviated as ST.
+Dialogue: 0,0:18:14.70,0:18:16.78,DCMain,TAKAGI,0000,0000,0000,,Station. The train station.
+Dialogue: 0,0:18:16.98,0:18:18.00,DCMain,CONAN,0000,0000,0000,,I see!
+Dialogue: 0,0:18:18.00,0:18:19.53,DCMain,CHIBA,0000,0000,0000,,KM North...
+Dialogue: 0,0:18:19.53,0:18:21.18,DCMain,CHIBA,0000,0000,0000,,Katsumata North Station.
+Dialogue: 0,0:18:21.18,0:18:22.37,DCMain,MEGURE,0000,0000,0000,,Let's go.
+Dialogue: 0,0:18:22.66,0:18:26.08,Track,SIGN,0000,0000,0000,,{\fad(250,460)}Katsumata North Station
+Dialogue: 0,0:18:30.61,0:18:36.61,DCItalic,ANNOUNCE,0000,0000,0000,,Tokuyoshi Kozo-sama from \NYagiri-cho, you have a message.
+Dialogue: 0,0:18:36.61,0:18:38.89,DCItalic,ANNOUNCE,0000,0000,0000,,Please come to the station office.
+Dialogue: 0,0:18:57.72,0:19:02.74,DCMain,TAKAGI,0000,0000,0000,,There was a phone call for \NTokuyoshi about thirty minutes ago.
+Dialogue: 0,0:19:02.74,0:19:03.91,DCMain,MEGURE,0000,0000,0000,,What was it?
+Dialogue: 0,0:19:04.40,0:19:10.42,DCMain,CHIBA,0000,0000,0000,,They said to tell him, “Head to OND3BRG.”
+Dialogue: 0,0:19:10.80,0:19:14.17,DCMain,MEGURE,0000,0000,0000,,OND3? BRG?
+Dialogue: 0,0:19:14.43,0:19:16.86,DCMain,KOGORO,0000,0000,0000,,Where is that?
+Dialogue: 0,0:19:18.71,0:19:20.39,DCMain,CONAN,0000,0000,0000,,BRG...
+Dialogue: 0,0:19:20.39,0:19:25.55,DCMain,CONAN,0000,0000,0000,,If it's an abbreviation like before, BRG...
+Dialogue: 0,0:19:26.03,0:19:27.18,DCMain,CONAN,0000,0000,0000,,Bridge.
+Dialogue: 0,0:19:27.71,0:19:29.00,DCMain,CONAN,0000,0000,0000,,Maybe it's a bridge.
+Dialogue: 0,0:19:29.87,0:19:34.69,DCMain,MEGURE,0000,0000,0000,,So OND3 is the name of the bridge?
+Dialogue: 0,0:19:35.14,0:19:38.58,DCMain,KOGORO,0000,0000,0000,,OND... OND...
+Dialogue: 0,0:19:38.58,0:19:41.70,DCMain,KOGORO,0000,0000,0000,,If that's an abbreviation, too, then...
+Dialogue: 0,0:19:44.96,0:19:46.33,DCMain,CONAN,0000,0000,0000,,Hey, look.
+Dialogue: 0,0:19:46.71,0:19:47.68,DCMain,CONAN,0000,0000,0000,,Up there.
+Dialogue: 0,0:19:49.58,0:19:52.58,Onodera,SIGN,0000,0000,0000,,Onodera Overpass 3
+Dialogue: 0,0:19:49.58,0:19:52.58,DCMain,MEGURE,0000,0000,0000,,OND3! Onodera Overpass 3!
+Dialogue: 0,0:19:52.87,0:19:56.79,Overpass,SIGN,0000,0000,0000,,{\fad(250,460)}Onodera Overpass 3
+Dialogue: 0,0:20:09.95,0:20:11.07,DCMain,MEGURE,0000,0000,0000,,Could it be?
+Dialogue: 0,0:20:26.69,0:20:28.66,DCMain,CONAN,0000,0000,0000,,Damn it. I can't see from here.
+Dialogue: 0,0:20:32.63,0:20:33.85,DCItalic,CONAN,0000,0000,0000,,I still can't...
+Dialogue: 0,0:20:34.71,0:20:36.06,DCItalic,CONAN,0000,0000,0000,,I still can't see it.
+Dialogue: 0,0:20:40.43,0:20:41.84,DCMain,CONAN,0000,0000,0000,,Here should be good enough.
+Dialogue: 0,0:20:43.00,0:20:43.99,DCMain,CONAN,0000,0000,0000,,I see it!
+Dialogue: 0,0:20:44.95,0:20:46.13,DCMain,MEGURE,0000,0000,0000,,Stake it out.
+Dialogue: 0,0:20:46.13,0:20:46.97,DCMain,BOTH,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:21:03.88,0:21:07.62,DCMain,KOGORO,0000,0000,0000,,Damn. It's been thirty minutes.
+Dialogue: 0,0:21:07.89,0:21:09.84,DCMain,KOGORO,0000,0000,0000,,What's going on?
+Dialogue: 0,0:21:11.01,0:21:13.48,DCMain,MEGURE,0000,0000,0000,,Could it be? Chiba, Takagi!
+Dialogue: 0,0:21:21.25,0:21:23.12,DCMain,TAKAGI,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:21:23.12,0:21:24.13,DCMain,CHIBA,0000,0000,0000,,What happened?
+Dialogue: 0,0:21:26.80,0:21:27.89,DCMain,CHIBA,0000,0000,0000,,It's not here!
+Dialogue: 0,0:21:28.22,0:21:29.80,DCMain,MEGURE,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:21:30.24,0:21:32.42,DCMain,KOGORO,0000,0000,0000,,Damn it! They got us!
+Dialogue: 0,0:21:32.42,0:21:33.89,DCMain,MEGURE,0000,0000,0000,,What's going on?
+Dialogue: 0,0:21:34.32,0:21:38.42,DCMain,KOGORO,0000,0000,0000,,After Tokuyoshi threw down the bag,
+Dialogue: 0,0:21:38.42,0:21:42.40,DCMain,KOGORO,0000,0000,0000,,the culprit must've come out of hiding \Nand switched out the contents.
+Dialogue: 0,0:21:42.40,0:21:47.53,DCMain,KOGORO,0000,0000,0000,,Then they left before we arrived.
+Dialogue: 0,0:21:47.85,0:21:49.20,DCMain,MEGURE,0000,0000,0000,,Th-They what?
+Dialogue: 0,0:21:49.20,0:21:53.54,DCMain,MEGURE,0000,0000,0000,,So the culprit was long gone.
+Dialogue: 0,0:22:01.81,0:22:06.55,DCItalic,CONAN,0000,0000,0000,,The next day, there was another \Nsudden development in the case.
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:47.96,0:23:50.15,DCMain,KOGORO,0000,0000,0000,,I'm not his babysitter!
+Dialogue: 0,0:23:50.85,0:23:53.03,DCMain,CONAN,0000,0000,0000,,I see. So that's how it is.
+Dialogue: 0,0:23:53.51,0:23:55.66,DCMain,TAKAGI,0000,0000,0000,,But why?
+Dialogue: 0,0:23:55.97,0:23:57.29,DCMain,RAN,0000,0000,0000,,Horse brothers?
+Dialogue: 0,0:24:00.99,0:24:05.79,DCMain,KOGORO,0000,0000,0000,,You think you've used the great Mori \NKogoro, but you haven't at all!
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,TEXT,0000,0000,0000,,The Thoroughbred Kidnapping Case \N(Part Two)
+Dialogue: 0,0:24:09.56,0:24:14.07,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is “The \NThoroughbred Kidnapping Case, Part Two!”
+Dialogue: 0,0:24:30.07,0:24:33.19,DCMain,KOGORO,0000,0000,0000,,It's next Conan's hint! Just kidding.
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,TEXT,0000,0000,0000,,Mane
+Dialogue: 0,0:24:33.19,0:24:34.64,DCMain,CONAN,0000,0000,0000,,A mane!
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode!
+Dialogue: 0,0:24:35.22,0:24:36.32,DCMain,RAN,0000,0000,0000,,{\an8}White Spirits...
+Dialogue: 0,0:24:36.32,0:24:38.12,DCMain,KOGORO,0000,0000,0000,,{\an8}Is that the name of a liquor?
+Dialogue: 0,0:24:38.12,0:24:39.44,DCMain,CONAN,0000,0000,0000,,{\an8}Please don't.

@@ -1,0 +1,374 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0060,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Kana2020,Trebuchet MS,18,&H00B49BCB,&H000000FF,&H00F8FCFC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0050,0
+Style: Mari,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A6607E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+Style: Manabu,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CF8990,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0220,0044,0
+Style: Soichi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00833841,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0064,0
+Style: HotSprings,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00783337,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0072,0
+Style: Station,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00642332,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+Style: TourBus,Trebuchet MS,18,&H0050BAD6,&H000000FF,&H00563A31,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Yuko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A03A59,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0265,0064,0
+Style: Takumi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00BA6E6F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0135,0020,0064,0
+Style: Die,Trebuchet MS,22,&H00000500,&H000000FF,&H00E9FFD5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0055,0020,0140,0
+Style: Hell,Trebuchet MS,20,&H00000500,&H000000FF,&H00E9FFD5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0055,0020,0130,0
+Style: Komatsu,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H009C5053,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+Style: Lampost,Trebuchet MS,16,&H00FDFDEF,&H000000FF,&H00AD9A80,&H00DBAD6D,0,0,0,0,100,100,0,0,1,2,1,7,0020,0020,0018,0
+Style: ScienceHills,Trebuchet MS,16,&H00050706,&H000000FF,&H00E5EBE6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0140,0165,0
+Style: Museum,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00885168,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0025,0064,0
+Style: Rintaro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H009B5365,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 970 "The Young \NKaga Lady's Mystery Tour (Part Two)"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,MARI,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:01.79,0:00:06.98,DCMain,CONAN,0000,0000,0000,,Ran won travel vouchers in a lottery, \Nso we came to Kanazawa for sightseeing.
+Dialogue: 0,0:00:03.98,0:00:06.98,Kana2020,SIGN,0000,0000,0000,,Kanazawa
+Dialogue: 0,0:00:07.97,0:00:10.82,DCMain,CONAN,0000,0000,0000,,While there, we ran into Hayashi Mari-san,
+Dialogue: 0,0:00:10.82,0:00:12.32,DCMain,CONAN,0000,0000,0000,,{\an8}who was transporting ransom \Nmoney for a kidnapping case.
+Dialogue: 0,0:00:10.86,0:00:12.32,Mari,TEXT,0000,0000,0000,,{\fad(250,1)}Hayashi Mari (23)
+Dialogue: 0,0:00:13.82,0:00:16.45,DCMain,CONAN,0000,0000,0000,,The hostage Saikawa Manabu-san was released,
+Dialogue: 0,0:00:16.45,0:00:18.81,DCMain,CONAN,0000,0000,0000,,{\an8}and we were initially relieved, but...
+Dialogue: 0,0:00:16.49,0:00:18.28,Manabu,TEXT,0000,0000,0000,,{\fad(250,1)}Saikawa Manabu (55)
+Dialogue: 0,0:00:19.62,0:00:25.69,DCMain,CONAN,0000,0000,0000,,It became clear that the kidnapping was an \Nact put on by Manabu-san, and he fled.
+Dialogue: 0,0:00:27.11,0:00:32.05,DCMain,CONAN,0000,0000,0000,,{\an8}The police are pursuing him, and it's only \Na matter of time before the case is solved.
+Dialogue: 0,0:00:30.67,0:00:32.05,Soichi,TEXT,0000,0000,0000,,{\fad(250,1)}Hayashi Soichi (52) \NHayashi Draper President
+Dialogue: 0,0:00:32.05,0:00:33.76,DCMain,CONAN,0000,0000,0000,,At least, it should have been...
+Dialogue: 0,0:00:44.52,0:00:49.88,DCMain,SOICHI,0000,0000,0000,,You think you'll get away with this?
+Dialogue: 0,0:01:03.00,0:01:04.61,DCMain,CONAN,0000,0000,0000,,The rhythm on my lips is footloose!
+Dialogue: 0,0:01:04.61,0:01:06.49,DCMain,CONAN,0000,0000,0000,,The rhythm of my detective \Nskills is perfect!
+Dialogue: 0,0:01:06.49,0:01:08.36,DCMain,CONAN,0000,0000,0000,,Too many mysteries for one kidnapping case!
+Dialogue: 0,0:01:08.36,0:01:10.21,DCMain,CONAN,0000,0000,0000,,Don't let the silks become \Nstained with malice!
+Dialogue: 0,0:01:10.21,0:01:11.82,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:11.82,0:01:13.55,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:13.55,0:01:16.01,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:54.02,0:03:00.03,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(404,1)}The Young Kaga Lady's Mystery Tour \N(Part Two)
+Dialogue: 0,0:02:54.65,0:02:57.85,DCMain,CONAN,0000,0000,0000,,"The Young Kaga Lady's \NMystery Tour, Part Two!"
+Dialogue: 0,0:03:00.20,0:03:03.62,Station,TEXT,0000,0000,0000,,{\fad(250,460)}Kagaonsen Station
+Dialogue: 0,0:03:03.74,0:03:06.24,TourBus,TEXT,0000,0000,0000,,Kaga Tour Bus
+Dialogue: 0,0:03:08.16,0:03:11.75,HotSprings,TEXT,0000,0000,0000,,{\fad(250,460)}Kayatamatsu Hot Spring \NGeisha Call Office "Hanayakata"
+Dialogue: 0,0:03:16.74,0:03:17.58,DCMain,KOGORO,0000,0000,0000,,Whoops.
+Dialogue: 0,0:03:20.35,0:03:21.76,DCMain,KOGORO,0000,0000,0000,,It's Mari-san.
+Dialogue: 0,0:03:33.11,0:03:35.68,DCMain,CONAN,0000,0000,0000,,What happened?
+Dialogue: 0,0:03:35.68,0:03:37.48,DCMain,YUKO,0000,0000,0000,,I'm not sure.
+Dialogue: 0,0:03:37.65,0:03:41.11,Yuko,TEXT,0000,0000,0000,,{\fad(250,460)}Kaede Yuko (40) \NHayashi Draper Accountant
+Dialogue: 0,0:03:37.82,0:03:42.49,DCMain,YUKO,0000,0000,0000,,{\an8}When I came to clean before we open, \NI found the president on the ground.
+Dialogue: 0,0:03:43.79,0:03:46.49,DCMain,RAN,0000,0000,0000,,Dad, how's Soichi-san?
+Dialogue: 0,0:03:47.02,0:03:50.66,DCMain,KOGORO,0000,0000,0000,,He's unconscious, but he'll live.
+Dialogue: 0,0:03:51.12,0:03:52.25,DCMain,RAN,0000,0000,0000,,Good.
+Dialogue: 0,0:03:52.69,0:03:55.38,DCMain,CONAN,0000,0000,0000,,Hey, where's Rintaro-san?
+Dialogue: 0,0:03:55.66,0:03:58.40,DCMain,YUKO,0000,0000,0000,,I tried calling him, but he won't answer.
+Dialogue: 0,0:03:58.40,0:04:01.13,DCMain,YUKO,0000,0000,0000,,He's probably still asleep.
+Dialogue: 0,0:04:01.13,0:04:03.15,DCMain,KOGORO,0000,0000,0000,,Why does he have to be asleep now?
+Dialogue: 0,0:04:03.15,0:04:04.51,DCMain,TAKUMI,0000,0000,0000,,Mari!
+Dialogue: 0,0:04:08.69,0:04:09.77,DCMain,TAKUMI,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:04:09.93,0:04:13.35,Takumi,TEXT,0000,0000,0000,,{\fad(250,460)}Kondo Takumi (24) \NMari's Boyfriend
+Dialogue: 0,0:04:10.71,0:04:14.27,DCMain,MARI,0000,0000,0000,,{\an8}My father... My father...
+Dialogue: 0,0:04:14.63,0:04:17.61,DCMain,CONAN,0000,0000,0000,,Mister, what did the police say?
+Dialogue: 0,0:04:17.61,0:04:23.03,DCMain,KOGORO,0000,0000,0000,,Since he still had his wallet, it's \Nunlikely he was attacked by a robber.
+Dialogue: 0,0:04:23.32,0:04:27.12,DCMain,KOGORO,0000,0000,0000,,And they found footprints belonging to \Nthree individuals at the crime scene.
+Dialogue: 0,0:04:27.64,0:04:32.04,DCMain,KOGORO,0000,0000,0000,,One set belongs to the president, but they \Nstill don't know whose the other two are.
+Dialogue: 0,0:04:32.04,0:04:35.39,DCMain,RAN,0000,0000,0000,,Does that mean he was attacked by two people?
+Dialogue: 0,0:04:35.39,0:04:36.48,DCMain,KOGORO,0000,0000,0000,,Probably.
+Dialogue: 0,0:04:37.29,0:04:40.92,DCMain,KOGORO,0000,0000,0000,,Where did President Hayashi go \Nafter we parted ways last night?
+Dialogue: 0,0:04:41.44,0:04:45.72,DCMain,MARI,0000,0000,0000,,He went to put the money away \Nin the safe in his office.
+Dialogue: 0,0:04:45.72,0:04:47.84,DCMain,KOGORO,0000,0000,0000,,What time was that?
+Dialogue: 0,0:04:48.28,0:04:51.94,DCMain,MARI,0000,0000,0000,,I believe it was around 11 PM.
+Dialogue: 0,0:04:51.94,0:04:54.98,DCMain,KOGORO,0000,0000,0000,,I see. And after that?
+Dialogue: 0,0:04:55.20,0:04:58.98,DCMain,MARI,0000,0000,0000,,I don't know. I went straight to my room.
+Dialogue: 0,0:05:03.05,0:05:05.83,DCMain,CONAN,0000,0000,0000,,Mister, what's that?
+Dialogue: 0,0:05:13.04,0:05:14.87,DCMain,KOGORO,0000,0000,0000,,That's gold dust.
+Dialogue: 0,0:05:14.87,0:05:16.74,DCMain,KOGORO,0000,0000,0000,,What's it doing here?
+Dialogue: 0,0:05:16.74,0:05:22.50,DCMain,CONAN,0000,0000,0000,,Come to think of it, I saw gold dust on \NSoichi-san when he was being carried away.
+Dialogue: 0,0:05:27.96,0:05:32.01,DCMain,CONAN,0000,0000,0000,,Maybe Takumi-san works \Nwith gold dust at his job.
+Dialogue: 0,0:05:33.48,0:05:35.41,DCMain,CONAN,0000,0000,0000,,Look at Takumi-san's hands.
+Dialogue: 0,0:05:35.41,0:05:37.27,DCMain,CONAN,0000,0000,0000,,They have a rash on them.
+Dialogue: 0,0:05:37.53,0:05:40.85,DCMain,CONAN,0000,0000,0000,,It's probably because of lacquer.
+Dialogue: 0,0:05:40.85,0:05:42.86,DCMain,CONAN,0000,0000,0000,,And look at his bracelet.
+Dialogue: 0,0:05:43.58,0:05:46.51,DCMain,CONAN,0000,0000,0000,,It's to prevent static electricity, right?
+Dialogue: 0,0:05:46.51,0:05:48.78,DCMain,CONAN,0000,0000,0000,,Kanazawa is famous for its gold foil.
+Dialogue: 0,0:05:49.01,0:05:52.41,DCMain,CONAN,0000,0000,0000,,Lacquer is used as an adhesive for gold foil,
+Dialogue: 0,0:05:52.81,0:05:55.26,DCMain,CONAN,0000,0000,0000,,and static electricity makes \Ngold foil stick to things,
+Dialogue: 0,0:05:55.26,0:05:57.29,DCMain,CONAN,0000,0000,0000,,so the bracelet is meant \Nto prevent that, right?
+Dialogue: 0,0:05:57.29,0:05:59.04,DCMain,KOGORO,0000,0000,0000,,Well?
+Dialogue: 0,0:05:59.04,0:06:00.40,DCMain,TAKUMI,0000,0000,0000,,That's right.
+Dialogue: 0,0:06:00.40,0:06:03.71,DCMain,TAKUMI,0000,0000,0000,,I'm an apprentice in traditional \NKanazawa gold foil crafts.
+Dialogue: 0,0:06:04.13,0:06:05.77,DCMain,TAKUMI,0000,0000,0000,,So, what?
+Dialogue: 0,0:06:05.77,0:06:11.05,DCMain,KOGORO,0000,0000,0000,,If your gold dust was stuck to the \Npresident, that means you met with him last night.
+Dialogue: 0,0:06:11.37,0:06:12.43,DCMain,KOGORO,0000,0000,0000,,Am I wrong?
+Dialogue: 0,0:06:12.43,0:06:14.56,DCMain,TAKUMI,0000,0000,0000,,You think I did it?
+Dialogue: 0,0:06:14.89,0:06:16.31,DCMain,TAKUMI,0000,0000,0000,,I didn't do it!
+Dialogue: 0,0:06:16.31,0:06:20.31,DCMain,KOGORO,0000,0000,0000,,Then why don't you explain why there \Nwas gold dust stuck to the president?
+Dialogue: 0,0:06:22.07,0:06:24.56,DCMain,MARI,0000,0000,0000,,Takumi-san, answer him.
+Dialogue: 0,0:06:27.07,0:06:28.32,DCMain,TAKUMI,0000,0000,0000,,Fine.
+Dialogue: 0,0:06:28.85,0:06:33.08,DCMain,TAKUMI,0000,0000,0000,,Last night, I went to the president's \Noffice to steal some money.
+Dialogue: 0,0:06:33.59,0:06:38.01,DCMain,TAKUMI,0000,0000,0000,,If he had 30 million yen, I thought he \Nwouldn't notice if a little bit went missing.
+Dialogue: 0,0:06:38.58,0:06:42.33,DCMain,TAKUMI,0000,0000,0000,,But he caught me and \Ngrabbed me by the collar.
+Dialogue: 0,0:06:42.60,0:06:44.63,DCMain,TAKUMI,0000,0000,0000,,That must've been when \Nthe gold dust stuck to—
+Dialogue: 0,0:06:48.55,0:06:50.36,DCMain,MARI,0000,0000,0000,,Why did you do that?
+Dialogue: 0,0:06:50.36,0:06:52.09,DCMain,TAKUMI,0000,0000,0000,,Because I don't have enough money.
+Dialogue: 0,0:06:52.30,0:06:53.14,DCMain,MARI,0000,0000,0000,,What?
+Dialogue: 0,0:06:53.59,0:06:58.38,DCMain,TAKUMI,0000,0000,0000,,I burn through all my money trying \Nto keep up with your spending habits.
+Dialogue: 0,0:06:58.38,0:06:59.82,DCMain,MARI,0000,0000,0000,,Why would you put it like that?
+Dialogue: 0,0:06:59.82,0:07:02.02,DCMain,KOGORO,0000,0000,0000,,Now, now. Let's calm down.
+Dialogue: 0,0:07:02.58,0:07:06.28,DCMain,KOGORO,0000,0000,0000,,Instead of that, for now let's focus \Non the attack on the president.
+Dialogue: 0,0:07:06.28,0:07:08.44,DCMain,TAKUMI,0000,0000,0000,,I told you, I didn't do it!
+Dialogue: 0,0:07:08.64,0:07:12.93,DCMain,KOGORO,0000,0000,0000,,Really? You didn't attack \Nhim to keep him quiet?
+Dialogue: 0,0:07:12.93,0:07:14.62,DCMain,TAKUMI,0000,0000,0000,,I said I didn't do it!
+Dialogue: 0,0:07:14.82,0:07:16.34,DCMain,CONAN,0000,0000,0000,,Hey, mister.
+Dialogue: 0,0:07:16.34,0:07:19.37,DCMain,KOGORO,0000,0000,0000,,What? I'm on a roll right now.
+Dialogue: 0,0:07:19.37,0:07:21.28,DCMain,CONAN,0000,0000,0000,,Isn't this sawdust?
+Dialogue: 0,0:07:25.94,0:07:28.13,DCMain,KOGORO,0000,0000,0000,,Do you use sawdust at your job, too?
+Dialogue: 0,0:07:28.41,0:07:30.38,DCMain,TAKUMI,0000,0000,0000,,I don't use that stuff.
+Dialogue: 0,0:07:30.38,0:07:32.43,DCMain,KGOORO,0000,0000,0000,,Then what is this?
+Dialogue: 0,0:07:32.64,0:07:34.63,DCMain,CONAN,0000,0000,0000,,Maybe it's hikiko.
+Dialogue: 0,0:07:34.63,0:07:36.93,DCMain,CONAN,0000,0000,0000,,It's a kind of sawdust \Npassed through a sieve.
+Dialogue: 0,0:07:37.22,0:07:41.19,DCMain,CONAN,0000,0000,0000,,Printed silk makers use it to prevent dyeing.
+Dialogue: 0,0:07:41.48,0:07:42.45,DCMain,CONAN,0000,0000,0000,,Right?
+Dialogue: 0,0:07:42.45,0:07:45.44,DCMain,YUKO,0000,0000,0000,,That's right. You're well informed.
+Dialogue: 0,0:07:45.73,0:07:48.01,DCMain,CONAN,0000,0000,0000,,I've seen it on TV before.
+Dialogue: 0,0:07:48.82,0:07:52.45,DCMain,KOGORO,0000,0000,0000,,If that hikiko stuff was on the weapon,
+Dialogue: 0,0:07:53.20,0:07:57.01,DCMain,KOGORO,0000,0000,0000,,then it's likely one of the printed \Nsilk makers Hagino Rintaro
+Dialogue: 0,0:07:57.01,0:08:00.12,DCMain,KOGORO,0000,0000,0000,,or Saikawa Manabu touched the weapon.
+Dialogue: 0,0:08:01.56,0:08:03.33,DCMain,CONAN,0000,0000,0000,,Mari-san, is something wrong?
+Dialogue: 0,0:08:03.49,0:08:05.85,DCMain,MARI,0000,0000,0000,,I-It's nothing.
+Dialogue: 0,0:08:05.85,0:08:06.83,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:08:08.42,0:08:10.72,DCMain,KOGORO,0000,0000,0000,,Hiding it won't do you any good.
+Dialogue: 0,0:08:11.63,0:08:14.13,DCMain,MARI,0000,0000,0000,,Very well. I'll tell you.
+Dialogue: 0,0:08:14.61,0:08:19.14,DCMain,MARI,0000,0000,0000,,I saw Manabu-san running off \Nlast night from my window.
+Dialogue: 0,0:08:27.81,0:08:31.49,DCMain,KOGORO,0000,0000,0000,,Why didn't you mention \Nsomething so important?
+Dialogue: 0,0:08:31.49,0:08:33.36,DCMain,MARI,0000,0000,0000,,Because...
+Dialogue: 0,0:08:34.32,0:08:36.87,DCMain,MARI,0000,0000,0000,,I knew Manabu-san \Nwould be suspected if I did.
+Dialogue: 0,0:08:37.10,0:08:38.80,DCMain,KOGORO,0000,0000,0000,,Of course he would be!
+Dialogue: 0,0:08:38.80,0:08:42.13,DCMain,KOGORO,0000,0000,0000,,He resents your father because he \Nfailed to steal the money once.
+Dialogue: 0,0:08:42.67,0:08:45.49,DCMain,KOGORO,0000,0000,0000,,It's possible he returned last night \Nto try to steal the money again,
+Dialogue: 0,0:08:45.49,0:08:50.80,DCMain,KOGORO,0000,0000,0000,,ran into the president, and \Nstruck him without thinking.
+Dialogue: 0,0:08:51.00,0:08:55.17,DCMain,MARI,0000,0000,0000,,I can't imagine Manabu-san hurting my father!
+Dialogue: 0,0:08:55.17,0:09:00.20,DCMain,KOGORO,0000,0000,0000,,But he did in fact try to trick him out \Nof his money with a fake kidnapping.
+Dialogue: 0,0:09:00.20,0:09:03.50,DCMain,MARI,0000,0000,0000,,We were at fault in that as well!
+Dialogue: 0,0:09:04.03,0:09:04.64,DCMain,CONAN,0000,0000,0000,,Hey...
+Dialogue: 0,0:09:05.44,0:09:08.78,DCMain,CONAN,0000,0000,0000,,Why is Mari-san so desperate \Nto defend Manabu-san?
+Dialogue: 0,0:09:09.69,0:09:15.41,DCMain,YUKO,0000,0000,0000,,Because to Mari-chan, Manabu-san \Nis like a foster parent to her.
+Dialogue: 0,0:09:15.41,0:09:16.78,DCMain,CONAN,0000,0000,0000,,A foster parent?
+Dialogue: 0,0:09:17.26,0:09:19.78,DCMain,YUKO,0000,0000,0000,,When President Hayashi was busy with work,
+Dialogue: 0,0:09:20.65,0:09:26.41,DCMain,YUKO,0000,0000,0000,,Manabu-san would play with Mari-chan instead.
+Dialogue: 0,0:09:28.01,0:09:30.48,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:09:31.52,0:09:36.30,DCMain,KOGORO,0000,0000,0000,,In any case, he has motive, and he \Nwas witnessed at the crime scene.
+Dialogue: 0,0:09:40.38,0:09:41.89,DCMain,MARI,0000,0000,0000,,A withheld number?
+Dialogue: 0,0:09:42.90,0:09:43.81,DCMain,MARI,0000,0000,0000,,Hello?
+Dialogue: 0,0:09:44.73,0:09:46.38,DCMain,MARI,0000,0000,0000,,Put my phone on speaker?
+Dialogue: 0,0:09:47.05,0:09:48.16,DCMain,MARI,0000,0000,0000,,Very well.
+Dialogue: 0,0:09:49.97,0:09:50.81,DCItalic,MANABU,0000,0000,0000,,Listen closely!
+Dialogue: 0,0:09:51.82,0:09:53.07,DCItalic,MANABU,0000,0000,0000,,I have Rintaro!
+Dialogue: 0,0:09:53.68,0:09:57.68,DCItalic,MANABU,0000,0000,0000,,If you want him returned safely, \Ngive me back my 30 million!
+Dialogue: 0,0:09:59.89,0:10:03.90,DCMain,MARI,0000,0000,0000,,What do you mean, you have Rintaro?
+Dialogue: 0,0:10:03.90,0:10:07.83,DCItalic,MANABU,0000,0000,0000,,I'll send you the time and \Nplace for the drop off later!
+Dialogue: 0,0:10:08.28,0:10:11.59,DCItalic,MANABU,0000,0000,0000,,I'm serious this time!
+Dialogue: 0,0:10:11.92,0:10:14.09,DCMain,KOGORO,0000,0000,0000,,Hey, cut out this nonsense!
+Dialogue: 0,0:10:18.97,0:10:19.72,DCMain,MARI,0000,0000,0000,,What?
+Dialogue: 0,0:10:20.10,0:10:22.08,DCMain,MARI,0000,0000,0000,,R-Rintaro-san!
+Dialogue: 0,0:10:30.06,0:10:31.58,DCMain,KOGORO,0000,0000,0000,,Damn that Manabu.
+Dialogue: 0,0:10:32.27,0:10:34.23,DCMain,KOGORO,0000,0000,0000,,Is he determined not to give up?
+Dialogue: 0,0:10:34.57,0:10:37.54,DCMain,YUKO,0000,0000,0000,,Mori-san, what should we do?
+Dialogue: 0,0:10:37.54,0:10:39.86,DCMain,KOGORO,0000,0000,0000,,To be safe, you should \Nprepare the ransom money.
+Dialogue: 0,0:10:40.22,0:10:41.48,DCMain,YUKO,0000,0000,0000,,Very well.
+Dialogue: 0,0:10:46.45,0:10:50.55,DCMain,CONAN,0000,0000,0000,,Mari-san, could you show me that photo again?
+Dialogue: 0,0:10:54.00,0:10:55.13,DCMain,CONAN,0000,0000,0000,,Thank you.
+Dialogue: 0,0:10:56.08,0:11:00.58,DCItalic,CONAN,0000,0000,0000,,I don't see any clues that will help \Nus identify where he's being held.
+Dialogue: 0,0:11:03.94,0:11:05.07,DCItalic,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:11:06.15,0:11:07.63,DCMain,CONAN,0000,0000,0000,,Hey, Yuko-san.
+Dialogue: 0,0:11:09.27,0:11:11.30,DCMain,CONAN,0000,0000,0000,,I'd like to ask you something.
+Dialogue: 0,0:11:12.12,0:11:13.40,DCMain,YUKO,0000,0000,0000,,What is it?
+Dialogue: 0,0:11:13.77,0:11:17.33,DCMain,CONAN,0000,0000,0000,,Manabu-san and Rintaro-san are \Nmaster and apprentice, right?
+Dialogue: 0,0:11:17.33,0:11:19.36,DCMain,CONAN,0000,0000,0000,,Did they get along?
+Dialogue: 0,0:11:19.36,0:11:20.90,DCMain,YUKO,0000,0000,0000,,Those two?
+Dialogue: 0,0:11:21.21,0:11:24.88,DCMain,YUKO,0000,0000,0000,,Well, between the two of us,
+Dialogue: 0,0:11:25.35,0:11:29.91,DCMain,YUKO,0000,0000,0000,,I don't think Rintaro-kun thought \Nvery highly of Manabu-san.
+Dialogue: 0,0:11:30.19,0:11:31.92,DCMain,CONAN,0000,0000,0000,,What? Really?
+Dialogue: 0,0:11:32.16,0:11:37.51,DCMain,YUKO,0000,0000,0000,,I secretly follow Rintaro-kun's \Nsocial media accounts.
+Dialogue: 0,0:11:41.47,0:11:47.31,Hell,RIGHT,0000,0000,0000,,{\fad(85,335)}Go to hell
+Dialogue: 0,0:11:41.97,0:11:47.31,Die,LEFT,0000,0000,0000,,{\fad(85,335)}I wish the master \Nwould die already
+Dialogue: 0,0:11:42.01,0:11:46.77,DCItalic,CONAN,0000,0000,0000,,Seems like Rintaro-san \Nreally dislikes Manabu-san.
+Dialogue: 0,0:11:47.25,0:11:49.01,DCItalic,CONAN,0000,0000,0000,,But if that's true, then why...?
+Dialogue: 0,0:11:49.90,0:11:51.56,DCMain,MARI,0000,0000,0000,,I don't believe this!
+Dialogue: 0,0:11:52.07,0:11:55.25,DCMain,MARI,0000,0000,0000,,I trusted you and Manabu-san!
+Dialogue: 0,0:11:55.98,0:11:57.07,DCMain,MARI,0000,0000,0000,,You're the worst!
+Dialogue: 0,0:11:57.35,0:12:00.24,DCMain,TAKUMI,0000,0000,0000,,I couldn't resist.
+Dialogue: 0,0:12:00.24,0:12:04.49,DCMain,TAKUMI,0000,0000,0000,,Anyone would lose control of themselves \Nwith that much money in front of them.
+Dialogue: 0,0:12:04.72,0:12:05.84,DCMain,MARI,0000,0000,0000,,You're lying!
+Dialogue: 0,0:12:05.84,0:12:10.41,DCMain,MARI,0000,0000,0000,,You pretended to like me, but you only ever \Napproached me because you wanted my money!
+Dialogue: 0,0:12:10.41,0:12:12.61,DCMain,MARI,0000,0000,0000,,My father was right!
+Dialogue: 0,0:12:13.36,0:12:15.38,DCItalic,CONAN,0000,0000,0000,,So that's how it is.
+Dialogue: 0,0:12:15.38,0:12:18.50,DCItalic,CONAN,0000,0000,0000,,Which means we'd better find them soon.
+Dialogue: 0,0:12:19.37,0:12:24.04,DCItalic,CONAN,0000,0000,0000,,There weren't any clues identifying \Nthe location in the photo.
+Dialogue: 0,0:12:24.04,0:12:26.51,DCItalic,CONAN,0000,0000,0000,,The only other clue we have is...
+Dialogue: 0,0:12:27.63,0:12:29.91,DCItalic,CONAN,0000,0000,0000,,That threatening call just now!
+Dialogue: 0,0:12:37.78,0:12:39.02,DCItalic,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:12:43.95,0:12:47.28,Komatsu,TEXT,0000,0000,0000,,{\fad(250,460)}Komatsu Station
+Dialogue: 0,0:12:45.68,0:12:50.85,DCMain,RAN,0000,0000,0000,,{\a6}Conan-kun, why did you suddenly \Nwant to come to Komatsu?
+Dialogue: 0,0:12:50.85,0:12:53.04,DCMain,CONAN,0000,0000,0000,,I'm curious about something.
+Dialogue: 0,0:12:53.35,0:12:55.04,DCMain,RAN,0000,0000,0000,,Curious?
+Dialogue: 0,0:12:55.29,0:12:56.50,DCMain,RAN,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:12:58.94,0:13:00.17,DCMain,RAN,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:13:02.25,0:13:03.17,DCMain,RAN,0000,0000,0000,,Manabu-san?!
+Dialogue: 0,0:13:03.96,0:13:04.80,DCMain,CONAN,0000,0000,0000,,Wait!
+Dialogue: 0,0:13:04.80,0:13:07.26,Lampost,SIGN,0000,0000,0000,,Science Hills Komatsu
+Dialogue: 0,0:13:07.26,0:13:09.85,ScienceHills,SIGN,0000,0000,0000,,Science Hills Komatsu
+Dialogue: 0,0:13:10.02,0:13:13.49,Museum,SIGN,0000,0000,0000,,{\fad(250,460)}Humanity and Manufacturing \NScience Museum
+Dialogue: 0,0:13:17.98,0:13:19.98,DCItalic,CONAN,0000,0000,0000,,Damn. Where did he go?
+Dialogue: 0,0:13:23.25,0:13:25.49,DCMain,MAN,0000,0000,0000,,My clothes are soaked!
+Dialogue: 0,0:13:25.49,0:13:28.32,DCMain,MAN,0000,0000,0000,,That old fart didn't even \Napologize for running into me!
+Dialogue: 0,0:13:28.32,0:13:31.12,DCMain,CONAN,0000,0000,0000,,Do you know which way he went?
+Dialogue: 0,0:13:31.41,0:13:33.62,DCMain,MAN,0000,0000,0000,,Huh? Yeah. He went that way.
+Dialogue: 0,0:13:42.09,0:13:44.24,DCMain,RAN,0000,0000,0000,,Conan-kun, where's Manabu-san?
+Dialogue: 0,0:13:44.97,0:13:46.38,DCMain,CONAN,0000,0000,0000,,I lost him.
+Dialogue: 0,0:13:46.82,0:13:51.51,DCMain,RAN,0000,0000,0000,,Conan-kun, did you come here \Nknowing Manabu-san would be here?
+Dialogue: 0,0:13:51.83,0:13:55.02,DCMain,CONAN,0000,0000,0000,,When I listened to Manabu-san's \Nthreatening call again,
+Dialogue: 0,0:13:55.98,0:13:58.24,DCMain,CONAN,0000,0000,0000,,I heard airplanes in the background.
+Dialogue: 0,0:13:59.85,0:14:03.68,DCMain,CONAN,0000,0000,0000,,The only airport near \NKanazawa is Komatsu Airport,
+Dialogue: 0,0:14:03.68,0:14:05.53,DCMain,CONAN,0000,0000,0000,,so I thought he might be here.
+Dialogue: 0,0:14:05.71,0:14:07.23,DCMain,RAN,0000,0000,0000,,I see.
+Dialogue: 0,0:14:07.87,0:14:09.67,DCMain,RAN,0000,0000,0000,,But we lost him.
+Dialogue: 0,0:14:09.67,0:14:12.53,DCMain,RAN,0000,0000,0000,,Let's call the police and \Nlet them handle the rest.
+Dialogue: 0,0:14:21.93,0:14:23.04,DCMain,RAN,0000,0000,0000,,What's that?
+Dialogue: 0,0:14:23.25,0:14:25.89,DCMain,CONAN,0000,0000,0000,,An anthocyanin solution.
+Dialogue: 0,0:14:25.89,0:14:29.93,DCMain,CONAN,0000,0000,0000,,They were making some at the science \Nmuseum's children's lab, so I borrowed a little.
+Dialogue: 0,0:14:30.22,0:14:32.81,DCMain,RAN,0000,0000,0000,,What are you going to do with it?
+Dialogue: 0,0:14:32.81,0:14:36.68,DCMain,CONAN,0000,0000,0000,,An anthocyanin solution changes \Ncolor depending on the pH value.
+Dialogue: 0,0:14:36.94,0:14:41.49,DCMain,CONAN,0000,0000,0000,,If we spray it someplace Manabu-san \Nprobably passed through...
+Dialogue: 0,0:14:42.15,0:14:43.19,DCMain,RAN,0000,0000,0000,,Footprints!
+Dialogue: 0,0:14:43.77,0:14:47.69,DCMain,CONAN,0000,0000,0000,,The cola Manabu-san spilled when he \Nran into that man is a strong acid.
+Dialogue: 0,0:14:47.94,0:14:54.20,DCMain,CONAN,0000,0000,0000,,It reacted with the anthocyanin solution, \Nmaking his footprints visible.
+Dialogue: 0,0:14:54.44,0:14:57.70,DCMain,RAN,0000,0000,0000,,Really? I'm impressed you know that.
+Dialogue: 0,0:14:58.40,0:15:01.52,DCMain,CONAN,0000,0000,0000,,I-I learned about it in science class.
+Dialogue: 0,0:15:06.91,0:15:10.71,DCMain,KOGORO,0000,0000,0000,,So this is where we're dropping \Noff the ransom money.
+Dialogue: 0,0:15:10.71,0:15:12.18,DCMain,RAN,0000,0000,0000,,Dad.
+Dialogue: 0,0:15:13.42,0:15:15.68,DCMain,KOGORO,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:15:15.99,0:15:19.31,DCMain,RAN,0000,0000,0000,,Well, we followed Manabu-san's footprints.
+Dialogue: 0,0:15:21.28,0:15:25.30,DCMain,KOGORO,0000,0000,0000,,Whatever. Dropping off this \Nransom money comes first.
+Dialogue: 0,0:15:26.23,0:15:29.32,DCMain,KOGORO,0000,0000,0000,,You guys wait here. Got it?
+Dialogue: 0,0:15:29.32,0:15:30.10,DCMain,RAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:15:55.42,0:15:56.55,DCMain,KOGORO,0000,0000,0000,,Rintaro-san.
+Dialogue: 0,0:15:58.03,0:15:59.18,DCMain,KOGORO,0000,0000,0000,,You're all right now.
+Dialogue: 0,0:15:59.35,0:16:02.19,Rintaro,TEXT,0000,0000,0000,,{\fad(250,460)}Hagino Rintaro (34)
+Dialogue: 0,0:15:59.45,0:16:01.17,DCMain,RINTARO,0000,0000,0000,,{\an8}Y-You saved me.
+Dialogue: 0,0:16:02.27,0:16:03.83,DCMain,RINTARO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:16:06.78,0:16:08.19,DCMain,KOGORO,0000,0000,0000,,Where's Manabu?
+Dialogue: 0,0:16:08.44,0:16:10.92,DCMain,RINTARO,0000,0000,0000,,He took his things and ran.
+Dialogue: 0,0:16:10.92,0:16:13.64,DCMain,KOGORO,0000,0000,0000,,So he was scared of being caught and fled.
+Dialogue: 0,0:16:13.64,0:16:14.86,DCMain,MARI,0000,0000,0000,,Rintaro-san.
+Dialogue: 0,0:16:15.40,0:16:19.20,DCMain,KOGORO,0000,0000,0000,,Ran! And what are all of you doing here?
+Dialogue: 0,0:16:19.40,0:16:22.46,DCMain,MARI,0000,0000,0000,,We were worried and couldn't sit still.
+Dialogue: 0,0:16:23.07,0:16:23.96,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:16:24.33,0:16:26.66,DCMain,KOGORO,0000,0000,0000,,As you can see, the hostage is all right.
+Dialogue: 0,0:16:26.66,0:16:29.67,DCMain,KOGORO,0000,0000,0000,,I'm off to find Manabu who ran from—
+Dialogue: 0,0:16:34.73,0:16:35.97,DCMain,RAN,0000,0000,0000,,Dad?
+Dialogue: 0,0:16:36.15,0:16:40.35,DCMain,KOGORO,0000,0000,0000,,There's something I must make clear first.
+Dialogue: 0,0:16:40.60,0:16:42.10,DCMain,RAN,0000,0000,0000,,Huh? What?
+Dialogue: 0,0:16:42.72,0:16:46.86,DCMain,KOGORO,0000,0000,0000,,Rintaro-san, why don't you cut the act?
+Dialogue: 0,0:16:46.86,0:16:49.36,DCMain,RINTARO,0000,0000,0000,,The act? What are you talking about?
+Dialogue: 0,0:16:49.77,0:16:54.39,DCMain,KOGORO,0000,0000,0000,,You pretending to be a hostage, obviously.
+Dialogue: 0,0:16:54.39,0:16:56.87,DCMain,RINTARO,0000,0000,0000,,What? What are you talking about?
+Dialogue: 0,0:16:57.30,0:17:02.03,DCMain,KOGORO,0000,0000,0000,,In the photo of you, there was a \Nrectangular bulge in your pocket.
+Dialogue: 0,0:17:02.56,0:17:05.87,DCMain,KOGORO,0000,0000,0000,,Judging by its shape, it was a smart phone.
+Dialogue: 0,0:17:06.21,0:17:09.88,DCMain,MARI,0000,0000,0000,,You're right. But what about this?
+Dialogue: 0,0:17:10.14,0:17:14.08,DCMain,KOGORO,0000,0000,0000,,Normally a kidnapper would take \Na smart phone off a hostage.
+Dialogue: 0,0:17:14.08,0:17:16.49,DCMain,KOGORO,0000,0000,0000,,But Manabu-san didn't do that.
+Dialogue: 0,0:17:16.49,0:17:18.14,DCMain,KOGORO,0000,0000,0000,,Why not?
+Dialogue: 0,0:17:18.50,0:17:19.94,DCMain,KOGORO,0000,0000,0000,,The answer is simple.
+Dialogue: 0,0:17:19.94,0:17:25.20,DCMain,KOGORO,0000,0000,0000,,Because he wasn't concerned about him \Ncalling for help even if he had a phone on him.
+Dialogue: 0,0:17:25.69,0:17:29.77,DCMain,KOGORO,0000,0000,0000,,In other words, Rintaro-san, \Nyou're working with Manabu-san.
+Dialogue: 0,0:17:32.77,0:17:34.90,DCMain,MARI,0000,0000,0000,,Rintaro-san, is that true?
+Dialogue: 0,0:17:35.47,0:17:39.95,DCMain,KOGORO,0000,0000,0000,,I had the police share \Nyour call history with me.
+Dialogue: 0,0:17:39.95,0:17:44.42,DCMain,KOGORO,0000,0000,0000,,I know you've been communicating frequently \Nwith Manabu-san since last night.
+Dialogue: 0,0:17:44.91,0:17:46.79,DCMain,KOGORO,0000,0000,0000,,Your excuses won't work.
+Dialogue: 0,0:17:47.98,0:17:50.42,DCMain,RINTARO,0000,0000,0000,,Impressive work, Sleeping Kogoro.
+Dialogue: 0,0:17:51.27,0:17:52.99,DCMain,MARI,0000,0000,0000,,Why would you do this?
+Dialogue: 0,0:17:53.55,0:17:59.43,DCMain,RINTARO,0000,0000,0000,,I felt bad for my master, so I \Ndecided to help him steal the money.
+Dialogue: 0,0:17:59.61,0:18:01.93,DCMain,KOGORO,0000,0000,0000,,Outwardly, that was your reason.
+Dialogue: 0,0:18:02.78,0:18:03.93,DCMain,MARI,0000,0000,0000,,Outwardly?
+Dialogue: 0,0:18:04.30,0:18:07.94,DCMain,KOGORO,0000,0000,0000,,Rintaro-san knew how to open the safe.
+Dialogue: 0,0:18:08.50,0:18:10.67,DCMain,KOGORO,0000,0000,0000,,If he simply wanted to help,
+Dialogue: 0,0:18:10.67,0:18:14.44,DCMain,KOGORO,0000,0000,0000,,there was no need for them to do something \Nas drastic as faking a kidnapping.
+Dialogue: 0,0:18:14.79,0:18:19.45,DCMain,KOGORO,0000,0000,0000,,They could have simply stolen \Nthe money from the safe.
+Dialogue: 0,0:18:19.73,0:18:22.95,DCMain,MARI,0000,0000,0000,,Then why did Rintaro-san do what he did?
+Dialogue: 0,0:18:23.34,0:18:28.85,DCMain,KOGORO,0000,0000,0000,,Because he planned to pretend to \Nhelp Manabu-san before killing him.
+Dialogue: 0,0:18:29.63,0:18:31.21,DCMain,MARI,0000,0000,0000,,N-No...
+Dialogue: 0,0:18:31.83,0:18:39.22,DCMain,KOGORO,0000,0000,0000,,Rintaro-san rather harshly expressed his \Nhatred for Manabu-san on social media.
+Dialogue: 0,0:18:39.22,0:18:41.49,DCMain,MARI,0000,0000,0000,,No. It's not true, is it?
+Dialogue: 0,0:18:42.38,0:18:46.96,DCMain,RINTARO,0000,0000,0000,,"A craftsman steals his techniques" \Nis nothing but hazing.
+Dialogue: 0,0:18:46.96,0:18:48.95,DCMain,RINTARO,0000,0000,0000,,It was so hard.
+Dialogue: 0,0:18:49.23,0:18:51.43,DCMain,MARI,0000,0000,0000,,But you didn't have to kill him!
+Dialogue: 0,0:18:51.43,0:18:54.23,DCMain,RINTARO,0000,0000,0000,,You have no right to criticize me.
+Dialogue: 0,0:18:54.46,0:18:58.28,DCMain,RINTARO,0000,0000,0000,,I planned to kill my master, \Nbut I didn't do it.
+Dialogue: 0,0:18:58.92,0:19:02.24,DCMain,RINTARO,0000,0000,0000,,In other words, I'm not a criminal yet.
+Dialogue: 0,0:19:02.24,0:19:05.25,DCMain,KOGORO,0000,0000,0000,,No, you are a criminal.
+Dialogue: 0,0:19:05.25,0:19:06.90,DCMain,RINTARO,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:19:06.90,0:19:11.25,DCMain,KOGORO,0000,0000,0000,,There were three sets of footprints found \Nwhere President Hayashi was attacked.
+Dialogue: 0,0:19:11.64,0:19:15.31,DCMain,KOGORO,0000,0000,0000,,One set belonged to President Hayashi, \Nand another belonged to Manabu-san.
+Dialogue: 0,0:19:15.31,0:19:17.26,DCMain,KOGORO,0000,0000,0000,,The remaining one is yours.
+Dialogue: 0,0:19:17.57,0:19:19.26,DCMain,RINTARO,0000,0000,0000,,I don't know anything about that!
+Dialogue: 0,0:19:19.80,0:19:22.60,DCMain,KOGORO,0000,0000,0000,,An examination would clear \Nthings up immediately.
+Dialogue: 0,0:19:22.60,0:19:25.56,DCMain,RINTARO,0000,0000,0000,,B-But just because I was at the crime scene,
+Dialogue: 0,0:19:26.06,0:19:29.48,DCMain,RINTARO,0000,0000,0000,,that doesn't mean I struck the president.
+Dialogue: 0,0:19:29.74,0:19:34.28,DCMain,KOGORO,0000,0000,0000,,No. The rock used as the weapon \Nwas too heavy to lift in one hand.
+Dialogue: 0,0:19:34.28,0:19:38.05,DCMain,KOGORO,0000,0000,0000,,Manabu-san injured his dominant \Nhand and could only use one.
+Dialogue: 0,0:19:38.81,0:19:41.58,DCMain,KOGORO,0000,0000,0000,,In other words, you were the \Nonly person at the crime scene
+Dialogue: 0,0:19:41.58,0:19:44.49,DCMain,KOGORO,0000,0000,0000,,who could have struck President Hayashi.
+Dialogue: 0,0:19:46.68,0:19:47.62,DCMain,RINTARO,0000,0000,0000,,Damn it.
+Dialogue: 0,0:19:50.99,0:19:53.00,DCMain,RINTARO,0000,0000,0000,,It's the president's fault.
+Dialogue: 0,0:19:54.01,0:19:56.78,DCMain,MARI,0000,0000,0000,,Wasn't your target Manabu-san?
+Dialogue: 0,0:19:57.30,0:20:00.01,DCMain,MARI,0000,0000,0000,,Why would you do something \Nso cruel to my father?
+Dialogue: 0,0:20:01.13,0:20:06.39,DCMain,RINTARO,0000,0000,0000,,The president caught me telling \Nmy master to fake a kidnapping.
+Dialogue: 0,0:20:08.04,0:20:09.74,DCMain,RINTARO,0000,0000,0000,,Without thinking, I grabbed the rock.
+Dialogue: 0,0:20:10.62,0:20:13.39,DCMain,KOGORO,0000,0000,0000,,You can tell the police all about it.
+Dialogue: 0,0:20:18.32,0:20:21.16,DCItalic,CONAN,0000,0000,0000,,But where's Manabu-san?
+Dialogue: 0,0:20:23.95,0:20:24.80,DCMain,CONAN,0000,0000,0000,,What's that?
+Dialogue: 0,0:20:26.31,0:20:28.16,DCMain,KOGORO,0000,0000,0000,,Ran, flip over the mat!
+Dialogue: 0,0:20:30.54,0:20:31.62,DCMain,RAN,0000,0000,0000,,A bloodstain.
+Dialogue: 0,0:20:32.09,0:20:33.79,DCMain,KOGORO,0000,0000,0000,,Probably Manabu-san's.
+Dialogue: 0,0:20:34.91,0:20:36.29,DCMain,MARI,0000,0000,0000,,Where is Manabu-san?!
+Dialogue: 0,0:20:39.26,0:20:45.14,DCMain,KOGORO,0000,0000,0000,,If he already attacked Manabu-san, he \Nwouldn't have had time to take him outside.
+Dialogue: 0,0:20:45.66,0:20:47.80,DCMain,KOGORO,0000,0000,0000,,He's probably here somewhere in this room.
+Dialogue: 0,0:20:48.34,0:20:50.52,DCMain,KOGORO,0000,0000,0000,,Ran, check that closet!
+Dialogue: 0,0:20:56.56,0:20:58.06,DCMain,MARI,0000,0000,0000,,Why would you do this?
+Dialogue: 0,0:20:58.41,0:21:02.89,DCMain,KOGORO,0000,0000,0000,,He probably planned to finish off \NManabu-san after tricking us,
+Dialogue: 0,0:21:02.89,0:21:08.83,DCMain,KOGORO,0000,0000,0000,,making the police continue their search for \Nthe supposedly escaped Manabu-san forever.
+Dialogue: 0,0:21:14.59,0:21:18.42,DCMain,MARI,0000,0000,0000,,Manabu-san, I can't believe this happened.
+Dialogue: 0,0:21:22.35,0:21:25.18,DCMain,MARI,0000,0000,0000,,Manabu-san, you're alive.
+Dialogue: 0,0:21:26.48,0:21:28.25,DCMain,MARI,0000,0000,0000,,Good.
+Dialogue: 0,0:22:53.77,0:22:56.64,DCItalic,CONAN,0000,0000,0000,,After Rintaro-san and \NManabu-san were arrested,
+Dialogue: 0,0:22:56.64,0:23:00.02,DCItalic,CONAN,0000,0000,0000,,Soichi-san was able to leave the hospital.
+Dialogue: 0,0:23:00.40,0:23:02.53,DCMain,RAN,0000,0000,0000,,Congratulations on your \Ndischarge from the hospital.
+Dialogue: 0,0:23:02.53,0:23:03.46,DCMain,SOICHI,0000,0000,0000,,Thanks.
+Dialogue: 0,0:23:03.46,0:23:07.52,DCMain,CONAN,0000,0000,0000,,What are you going to do now? \NAll your craftsmen are gone.
+Dialogue: 0,0:23:07.52,0:23:10.03,DCMain,YUKO,0000,0000,0000,,I know. The company is in big trouble.
+Dialogue: 0,0:23:10.70,0:23:13.41,DCMain,SOICHI,0000,0000,0000,,I can't believe this turned \Ninto such a major case.
+Dialogue: 0,0:23:13.41,0:23:16.79,DCMain,SOICHI,0000,0000,0000,,Perhaps I ought to reflect \Non my own actions as well.
+Dialogue: 0,0:23:17.07,0:23:18.79,DCMain,MARI,0000,0000,0000,,Let me handle it.
+Dialogue: 0,0:23:18.79,0:23:22.88,DCMain,MARI,0000,0000,0000,,I'll follow in Manabu-san and Rintaro-san's \Nfootsteps and become a printed silk maker.
+Dialogue: 0,0:23:22.88,0:23:24.23,DCMain,RAN,0000,0000,0000,,You?
+Dialogue: 0,0:23:24.23,0:23:27.94,DCMain,MARI,0000,0000,0000,,Yes. Despite how I look, I'm \Nconfident in my artistic ability.
+Dialogue: 0,0:23:28.39,0:23:30.98,DCMain,MARI,0000,0000,0000,,These are my artistic skills! Well?
+Dialogue: 0,0:23:32.49,0:23:34.91,DCMain,SOICHI,0000,0000,0000,,Mari, that's fantastic!
+Dialogue: 0,0:23:34.91,0:23:37.56,DCMain,SOICHI,0000,0000,0000,,I had no idea you had such hidden talent!
+Dialogue: 0,0:23:37.56,0:23:39.71,DCMain,SOICHI,0000,0000,0000,,The company's future is secure now!
+Dialogue: 0,0:23:39.71,0:23:43.17,DCMain,CONAN,0000,0000,0000,,A new wave printed silk maker is born.

@@ -1,0 +1,424 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0033,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Kanae,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006E2335,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0065,0
+Style: Letters,Trebuchet MS,22,&H0026272A,&H000000FF,&H00BBC3CB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Kuroochi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H008E5065,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0045,0
+Style: Bibibi,Times New Roman,20,&H00FACFBA,&H000000FF,&H00AA725D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: CL05:53,Trebuchet MS,16,&H003E34C9,&H000000FF,&H00EDEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0275,0150,0
+Style: Destination05:53,Trebuchet MS,16,&H003E34C9,&H000000FF,&H00EDEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0040,0060,0
+Style: Dadagaya,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00621C21,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0100,0020,0045,0
+Style: CL07:03,Trebuchet MS,16,&H003E34C9,&H000000FF,&H00EDEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0065,0110,0
+Style: Destination07:03,Trebuchet MS,16,&H003E34C9,&H000000FF,&H00EDEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0230,0008,0
+Style: CL07:54,Trebuchet MS,16,&H003E34C9,&H000000FF,&H00EDEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0230,0055,0
+Style: Destination07:54,Trebuchet MS,16,&H003E34C9,&H000000FF,&H00EDEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0028,0120,0
+Style: Sutero,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A44236,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0180,0020,0045,0
+Style: Hadoson,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0069313B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0045,0
+Style: CL9:40,Trebuchet MS,16,&H003E34C9,&H000000FF,&H00EDEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0020,0070,0
+Style: Destination09:41,Trebuchet MS,16,&H003E34C9,&H000000FF,&H00EDEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0135,0040,0
+Style: Ryoji,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007D363D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0110,0065,0
+Style: Headline,Trebuchet MS,22,&H00929292,&H000000FF,&H003F3F3F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Bibibi2,Trebuchet MS,20,&H004F5153,&H000000FF,&H00B9B8BB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Motomu,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006E2335,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0215,0020,0065,0
+Style: Hebunzaka,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0091252C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0090,0045,0
+Style: Omagari,Trebuchet MS,18,&H00484944,&H000000FF,&H00DCDCDC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0220,0020,0100,0
+Style: OneRoad,Trebuchet MS,18,&H00484944,&H000000FF,&H00DCDCDC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0260,0100,0
+Style: Shiraito,Trebuchet MS,18,&H00484944,&H000000FF,&H00DCDCDC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0220,0020,0110,0
+Style: Bibibi3,Times New Roman,20,&H00E3C5B9,&H000000FF,&H009E8073,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Incoming,Trebuchet MS,18,&H00F7F0DF,&H000000FF,&H00896E5A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Underworld,Trebuchet MS,22,&H0049353A,&H000000FF,&H00A17184,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Okagaoka,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00875744,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0045,0
+Style: Zone12,Trebuchet MS,20,&H00534F3E,&H000000FF,&H00C4C1AD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Headstone,Times New Roman,22,&H00302B20,&H000000FF,&H0077604A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Destination05:53 - Copy,Trebuchet MS,16,&H003E34C9,&H000000FF,&H00EDEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0140,0062,0150,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,KANAE,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:01.28,0:00:03.37,DCItalic,CONAN,0000,0000,0000,,The Sleeping Kogoro.
+Dialogue: 0,0:00:03.37,0:00:07.48,DCItalic,CONAN,0000,0000,0000,,There was a case the old man solved \Nbefore he was known by that name.
+Dialogue: 0,0:00:12.52,0:00:15.90,DCItalic,CONAN,0000,0000,0000,,And it was the beginning of everything \Nthat happened in this case.
+Dialogue: 0,0:00:16.99,0:00:19.74,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:00:17.79,0:00:19.74,DCMain,KANAE,0000,0000,0000,,Please help me, Mori-san.
+Dialogue: 0,0:00:20.18,0:00:25.25,DCMain,KANAE,0000,0000,0000,,{\an8}Someone stole my precious brooch.
+Dialogue: 0,0:00:22.79,0:00:25.25,Kanae,TEXT,0000,0000,0000,,{\fad(250,1)}Kaetsu Kanae (26) \NClient
+Dialogue: 0,0:00:25.76,0:00:28.26,DCMain,KANAE,0000,0000,0000,,I don't know when it was stolen,
+Dialogue: 0,0:00:28.26,0:00:33.34,DCMain,KANAE,0000,0000,0000,,but I noticed this morning because \NI found this in my mailbox.
+Dialogue: 0,0:00:29.21,0:00:33.63,Letters,TEXT,0000,0000,0000,,Kaetsu Kanae-sama
+Dialogue: 0,0:00:33.80,0:00:35.11,DCMain,KOGORO,0000,0000,0000,,Let me take a look.
+Dialogue: 0,0:00:35.74,0:00:38.36,DCMain,KOGORO,0000,0000,0000,,"I have your precious brooch.
+Dialogue: 0,0:00:38.36,0:00:41.02,DCMain,KOGORO,0000,0000,0000,,If you want it back, come and \Nget it in the underworld.
+Dialogue: 0,0:00:41.02,0:00:42.67,DCMain,KOGORO,0000,0000,0000,,Come to Kuroochi Park.
+Dialogue: 0,0:00:42.67,0:00:47.15,DCMain,KOGORO,0000,0000,0000,,If you notify the police, I'll dispose \Nof your treasure immediately."
+Dialogue: 0,0:00:47.53,0:00:49.34,DCMain,KOGORO,0000,0000,0000,,The underworld, huh?
+Dialogue: 0,0:00:49.34,0:00:52.15,DCMain,KOGORO,0000,0000,0000,,Why is this brooch a treasure?
+Dialogue: 0,0:00:52.45,0:00:58.11,DCMain,KANAE,0000,0000,0000,,It's not expensive, but it's a keepsake from \Nmy mother who passed away the other day.
+Dialogue: 0,0:00:58.66,0:01:03.54,DCMain,KANAE,0000,0000,0000,,I'd like to settle this quietly, which is why \NI'm asking you for help rather than the police.
+Dialogue: 0,0:01:03.76,0:01:04.91,DCMain,KOGORO,0000,0000,0000,,I understand.
+Dialogue: 0,0:01:06.01,0:01:08.42,DCItalic,KOGORO,0000,0000,0000,,But this word...
+Dialogue: 0,0:01:06.42,0:01:08.42,Letters,TEXT,0000,0000,0000,,Underworld
+Dialogue: 0,0:01:09.05,0:01:15.67,DCItalic,KOGORO,0000,0000,0000,,It's possible they're using this stolen treasure \Nas bait to lure her into her own murder.
+Dialogue: 0,0:01:16.47,0:01:19.77,DCItalic,KOGORO,0000,0000,0000,,But she sure is pretty!
+Dialogue: 0,0:01:19.77,0:01:20.91,DCMain,KANAE,0000,0000,0000,,Is there a problem?
+Dialogue: 0,0:01:20.91,0:01:23.43,DCMain,KOGORO,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:01:24.76,0:01:26.12,DCMain,KOGORO,0000,0000,0000,,You can count on me.
+Dialogue: 0,0:01:26.12,0:01:32.90,DCMain,KOGORO,0000,0000,0000,,The great Mori Kogoro has never \Naccepted a job and failed!
+Dialogue: 0,0:01:33.93,0:01:35.46,DCMain,KANAE,0000,0000,0000,,Thank you.
+Dialogue: 0,0:01:35.46,0:01:38.42,DCMain,KANAE,0000,0000,0000,,You really are as great \Na detective as they say.
+Dialogue: 0,0:01:39.50,0:01:41.66,DCItalic,CONAN,0000,0000,0000,,What's he talking about?
+Dialogue: 0,0:01:42.17,0:01:45.39,DCItalic,CONAN,0000,0000,0000,,But what do they mean by "underworld?"
+Dialogue: 0,0:01:52.96,0:01:54.52,DCMain,CONAN,0000,0000,0000,,The rhythm on my lips is footloose!
+Dialogue: 0,0:01:54.52,0:01:56.33,DCMain,CONAN,0000,0000,0000,,The rhythm of my detective \Nskills is perfect!
+Dialogue: 0,0:01:56.33,0:01:58.19,DCMain,CONAN,0000,0000,0000,,The beautiful woman's mysterious letter!
+Dialogue: 0,0:01:58.19,0:02:00.33,DCMain,CONAN,0000,0000,0000,,The Sleeping Kogoro \Napproaches the underworld!
+Dialogue: 0,0:02:00.33,0:02:01.91,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:01.91,0:02:03.60,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:03.60,0:02:05.98,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:43.99,0:03:50.00,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(400,1)}Leading a Detective Around By the Nose
+Dialogue: 0,0:03:44.66,0:03:47.25,DCMain,CONAN,0000,0000,0000,,"Leading a Detective Around By the Nose!"
+Dialogue: 0,0:03:52.08,0:03:54.50,Kuroochi,TEXT,0000,0000,0000,,{\fad(250,1)}Kuroochi Park
+Dialogue: 0,0:03:52.53,0:03:54.17,DCMain,KOGORO,0000,0000,0000,,{\an8}This is the place.
+Dialogue: 0,0:03:54.67,0:03:59.51,DCMain,KOGORO,0000,0000,0000,,This is actually my first \Ntime at Kuroochi Park.
+Dialogue: 0,0:03:59.69,0:04:01.38,DCMain,KOGORO,0000,0000,0000,,Where's the entrance?
+Dialogue: 0,0:04:03.13,0:04:05.76,Bibibi,SIGN,0000,0000,0000,,Bibibi Publishing
+Dialogue: 0,0:04:09.91,0:04:12.75,DCItalic,KOGORO,0000,0000,0000,,That's right. This place...
+Dialogue: 0,0:04:14.37,0:04:16.52,DCMain,KANAE,0000,0000,0000,,Mori-san, is something wrong?
+Dialogue: 0,0:04:16.52,0:04:17.90,DCMain,KOGORO,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:04:18.18,0:04:19.87,DCMain,KOGORO,0000,0000,0000,,Let's go.
+Dialogue: 0,0:04:23.22,0:04:25.63,DCMain,KOGORO,0000,0000,0000,,Now, where is it?
+Dialogue: 0,0:04:25.63,0:04:30.91,DCMain,KOGORO,0000,0000,0000,,The brooch... The brooch... The brooch...
+Dialogue: 0,0:04:33.54,0:04:37.18,DCMain,KOGORO,0000,0000,0000,,We haven't found a sign of \Nyour treasure or the culprit.
+Dialogue: 0,0:04:37.18,0:04:38.89,DCMain,KOGORO,0000,0000,0000,,What should we do?
+Dialogue: 0,0:04:40.73,0:04:41.63,DCMain,KOGORO,0000,0000,0000,,What's that sound?
+Dialogue: 0,0:04:43.39,0:04:44.29,DCMain,KOGORO,0000,0000,0000,,What's that?
+Dialogue: 0,0:04:45.09,0:04:47.93,Letters,TEXT,0000,0000,0000,,Kaetsu Kanae-sama
+Dialogue: 0,0:04:48.46,0:04:49.48,DCMain,KOGORO,0000,0000,0000,,What's this?
+Dialogue: 0,0:04:50.62,0:04:53.39,DCMain,KANAE,0000,0000,0000,,It's just like the letter I received.
+Dialogue: 0,0:04:54.00,0:04:56.19,DCMain,KOGORO,0000,0000,0000,,Let's see. What's inside?
+Dialogue: 0,0:04:57.15,0:04:59.21,DCMain,KOGORO,0000,0000,0000,,"So you hired Detective Mori.
+Dialogue: 0,0:04:59.21,0:05:03.39,DCMain,KOGORO,0000,0000,0000,,The two of you can enjoy \Nthe road to hell together.
+Dialogue: 0,0:05:03.39,0:05:07.95,DCMain,KOGORO,0000,0000,0000,,If you want your treasure back, \Ncome to Dadagaya Concert Hall."
+Dialogue: 0,0:05:08.14,0:05:12.05,DCMain,KANAE,0000,0000,0000,,How does the culprit know I hired you?
+Dialogue: 0,0:05:12.05,0:05:17.96,DCMain,KOGORO,0000,0000,0000,,They were probably watching from somewhere \Ninside the park to see if you'd bring the police.
+Dialogue: 0,0:05:18.72,0:05:23.21,DCMain,KOGORO,0000,0000,0000,,While we were searching \Nevery inch of the park,
+Dialogue: 0,0:05:23.37,0:05:26.55,DCMain,KOGORO,0000,0000,0000,,the culprit wrote this letter.
+Dialogue: 0,0:05:26.97,0:05:32.42,DCMain,KOGORO,0000,0000,0000,,Then they stuffed it inside that clock \Nso it would be discovered and left.
+Dialogue: 0,0:05:32.42,0:05:36.64,DCMain,KANAE,0000,0000,0000,,Then the culprit was here \Nsomewhere in this park.
+Dialogue: 0,0:05:36.98,0:05:37.48,DCMain,KOGORO,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:38.12,0:05:43.03,DCMain,KOGORO,0000,0000,0000,,But they make it sound like they're fine \Ndealing with a detective and not the police.
+Dialogue: 0,0:05:43.03,0:05:45.99,DCMain,KOGORO,0000,0000,0000,,They've underestimated Mori Kogoro!
+Dialogue: 0,0:05:46.38,0:05:49.69,DCMain,KOGORO,0000,0000,0000,,Let's go to Dadagaya Concert Hall.
+Dialogue: 0,0:05:52.99,0:05:55.50,Destination05:53 - Copy,TEXT,0000,0000,0000,,Current Location
+Dialogue: 0,0:05:52.99,0:05:55.50,Destination05:53,TEXT,0000,0000,0000,,Dadagaya Concert Hall
+Dialogue: 0,0:05:54.32,0:05:59.00,DCMain,KOGORO,0000,0000,0000,,Anyway, isn't this place a little \Nfar for a second location?
+Dialogue: 0,0:05:59.98,0:06:02.11,DCMain,KANAE,0000,0000,0000,,{\an8}It is all the way on the east side.
+Dialogue: 0,0:06:00.17,0:06:03.00,Dadagaya,TEXT,0000,0000,0000,,{\fad(250,1)}Dadagaya Concert Call
+Dialogue: 0,0:06:03.90,0:06:06.01,DCMain,KOGORO,0000,0000,0000,,Looks like an outdoor concert hall.
+Dialogue: 0,0:06:06.21,0:06:07.76,DCMain,KANAE,0000,0000,0000,,Yes, it's a wonderful place.
+Dialogue: 0,0:06:09.30,0:06:09.89,DCMain,KOGORO,0000,0000,0000,,Watch out!
+Dialogue: 0,0:06:21.08,0:06:22.19,DCMain,KANAE,0000,0000,0000,,That car...
+Dialogue: 0,0:06:22.80,0:06:24.99,DCItalic,KOGORO,0000,0000,0000,,So they are trying to kill us.
+Dialogue: 0,0:06:26.33,0:06:27.45,DCMain,KOGORO,0000,0000,0000,,It's all right.
+Dialogue: 0,0:06:29.08,0:06:29.95,DCMain,KOGORO,0000,0000,0000,,What's that?
+Dialogue: 0,0:06:36.81,0:06:37.91,DCMain,KANAE,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:06:38.11,0:06:39.42,DCMain,KANAE,0000,0000,0000,,It's important.
+Dialogue: 0,0:06:42.06,0:06:43.82,DCMain,KOGORO,0000,0000,0000,,Let's go.
+Dialogue: 0,0:06:43.82,0:06:44.71,DCMain,KANAE,0000,0000,0000,,All right.
+Dialogue: 0,0:06:50.84,0:06:56.06,DCMain,KOGORO,0000,0000,0000,,Do they want us to find the brooch \Nsince they hid it here somewhere?
+Dialogue: 0,0:06:58.21,0:06:59.15,DCMain,KOGORO,0000,0000,0000,,What's this?
+Dialogue: 0,0:07:00.40,0:07:03.44,DCMain,KOGORO,0000,0000,0000,,"Next go to Sutero Art Museum?"
+Dialogue: 0,0:07:03.44,0:07:08.94,CL07:03,TEXT,0000,0000,0000,,Current Location
+Dialogue: 0,0:07:03.83,0:07:08.94,Destination07:03,TEXT,0000,0000,0000,,Sutero Art Museum
+Dialogue: 0,0:07:03.91,0:07:05.68,DCMain,KOGORO,0000,0000,0000,,We're traveling again?
+Dialogue: 0,0:07:05.68,0:07:08.94,DCMain,KOGORO,0000,0000,0000,,And it's on the complete opposite \Nside of the city, on the west end!
+Dialogue: 0,0:07:09.12,0:07:11.91,Sutero,TEXT,0000,0000,0000,,{\fad(250,460)}Sutero Art Museum
+Dialogue: 0,0:07:13.87,0:07:17.44,DCMain,KANAE,0000,0000,0000,,I'm sorry for making you travel \Nfrom one end of Tokyo to the other.
+Dialogue: 0,0:07:18.35,0:07:19.33,DCMain,KOGORO,0000,0000,0000,,It's fine.
+Dialogue: 0,0:07:19.72,0:07:21.95,DCMain,KOGORO,0000,0000,0000,,You don't need to apologize.
+Dialogue: 0,0:07:32.01,0:07:33.09,DCMain,KOGORO,0000,0000,0000,,That was close.
+Dialogue: 0,0:07:33.65,0:07:35.78,DCMain,KOGORO,0000,0000,0000,,Maybe a crow knocked it over.
+Dialogue: 0,0:07:35.78,0:07:37.60,DCMain,KOGORO,0000,0000,0000,,Well, it happens.
+Dialogue: 0,0:07:38.38,0:07:39.89,DCMain,KOGORO,0000,0000,0000,,Shall we go?
+Dialogue: 0,0:07:40.91,0:07:41.39,DCMain,KANAE,0000,0000,0000,,All right.
+Dialogue: 0,0:07:47.01,0:07:48.81,DCMain,KANAE,0000,0000,0000,,I found an envelope.
+Dialogue: 0,0:07:48.81,0:07:49.90,DCMain,KOGORO,0000,0000,0000,,What's inside?
+Dialogue: 0,0:07:50.77,0:07:54.03,DCMain,KOGORO,0000,0000,0000,,"Next go to Hadoson Seaside Park?"
+Dialogue: 0,0:07:54.03,0:07:58.04,CL07:54,TEXT,0000,0000,0000,,Current Location
+Dialogue: 0,0:07:54.38,0:07:58.04,Destination07:54,TEXT,0000,0000,0000,,Hadoson Seaside Park
+Dialogue: 0,0:07:54.62,0:07:57.06,DCMain,KANAE,0000,0000,0000,,Isn't Hadoson Seaside Park...?
+Dialogue: 0,0:07:58.33,0:08:00.54,Hadoson,TEXT,0000,0000,0000,,{\fad(250,1)}Hadoson Seaside Park
+Dialogue: 0,0:08:05.03,0:08:06.54,DCMain,KOGORO,0000,0000,0000,,What's this?
+Dialogue: 0,0:08:06.83,0:08:10.55,DCMain,KOGORO,0000,0000,0000,,This place is a famous date destination!
+Dialogue: 0,0:08:10.55,0:08:13.81,DCMain,KOGORO,0000,0000,0000,,It's midday on a weekday! \NWhat are these people doing?
+Dialogue: 0,0:08:13.81,0:08:16.05,DCMain,KOGORO,0000,0000,0000,,Don't they have jobs? Right?
+Dialogue: 0,0:08:16.05,0:08:18.64,DCMain,KANAE,0000,0000,0000,,Uh, well...
+Dialogue: 0,0:08:20.19,0:08:22.27,DCItalic,KOGORO,0000,0000,0000,,What's going on? Is it the culprit?
+Dialogue: 0,0:08:23.19,0:08:26.94,DCMain,BOTH,0000,0000,0000,,You're the great detective \NMori Kogoro, aren't you?
+Dialogue: 0,0:08:27.16,0:08:29.36,DCMain,BOTH,0000,0000,0000,,Could you take a picture with us?
+Dialogue: 0,0:08:30.61,0:08:31.86,DCMain,KOGORO,0000,0000,0000,,No!
+Dialogue: 0,0:08:33.84,0:08:36.16,DCMain,WOMAN,0000,0000,0000,,Actually, we...
+Dialogue: 0,0:08:36.16,0:08:40.74,DCMain,MAN,0000,0000,0000,,We have to look after our cows, \Nso we couldn't go on a honeymoon.
+Dialogue: 0,0:08:41.16,0:08:45.66,DCMain,WOMAN,0000,0000,0000,,But we finally made time to \Ncome to Tokyo for two days.
+Dialogue: 0,0:08:45.66,0:08:47.86,DCMain,MAN,0000,0000,0000,,But the cows are waiting for us,
+Dialogue: 0,0:08:47.86,0:08:51.46,DCMain,MAN,0000,0000,0000,,so we have to fly home by tonight.
+Dialogue: 0,0:08:53.77,0:08:55.59,DCMain,KOGORO,0000,0000,0000,,One photo, please.
+Dialogue: 0,0:08:56.14,0:08:56.76,DCMain,KANAE,0000,0000,0000,,What?
+Dialogue: 0,0:08:56.94,0:08:58.70,DCMain,KOGORO,0000,0000,0000,,Now smile!
+Dialogue: 0,0:09:02.62,0:09:04.02,DCMain,MAN,0000,0000,0000,,Thank you!
+Dialogue: 0,0:09:04.22,0:09:05.39,DCMain,BOTH,0000,0000,0000,,We're overjoyed!
+Dialogue: 0,0:09:05.82,0:09:08.37,DCMain,MAN,0000,0000,0000,,We'll never forget this day!
+Dialogue: 0,0:09:08.37,0:09:10.40,DCMain,WOMAN,0000,0000,0000,,Thank you so much!
+Dialogue: 0,0:09:11.39,0:09:14.53,DCMain,KOGORO,0000,0000,0000,,Good luck with your marriage!
+Dialogue: 0,0:09:14.53,0:09:15.32,DCMain,KOGORO,0000,0000,0000,,Wait!
+Dialogue: 0,0:09:15.32,0:09:15.78,DCMain,KANAE,0000,0000,0000,,Yes?
+Dialogue: 0,0:09:16.12,0:09:18.28,DCMain,KOGORO,0000,0000,0000,,This is no time to be doing this!
+Dialogue: 0,0:09:20.66,0:09:23.42,DCMain,KANAE,0000,0000,0000,,Shall we search around that monument?
+Dialogue: 0,0:09:27.26,0:09:28.11,DCMain,KOGORO,0000,0000,0000,,Ouch...
+Dialogue: 0,0:09:28.11,0:09:28.92,DCMain,KANAE,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:09:29.13,0:09:30.92,DCMain,KOGORO,0000,0000,0000,,It's nothing.
+Dialogue: 0,0:09:34.22,0:09:36.27,DCMain,KANAE,0000,0000,0000,,Look. Right here.
+Dialogue: 0,0:09:36.27,0:09:37.47,DCMain,KOGORO,0000,0000,0000,,Did you find something?
+Dialogue: 0,0:09:38.29,0:09:40.97,DCMain,KOGORO,0000,0000,0000,,"Next go to Hebunzaka Church?"
+Dialogue: 0,0:09:40.97,0:09:47.98,CL9:40,TEXT,0000,0000,0000,,Current Location
+Dialogue: 0,0:09:41.57,0:09:47.98,Destination09:41,TEXT,0000,0000,0000,,Hebunzaka Church
+Dialogue: 0,0:09:42.49,0:09:46.01,DCMain,KANAE,0000,0000,0000,,Hebunzaka Church is on the \Noutskirts of Tokyo, isn't it?
+Dialogue: 0,0:09:46.01,0:09:47.98,DCMain,KOGORO,0000,0000,0000,,Yes, on the north side.
+Dialogue: 0,0:09:48.68,0:09:51.28,DCItalic,KOGORO,0000,0000,0000,,I can only assume we're being toyed with.
+Dialogue: 0,0:09:51.93,0:09:55.71,DCItalic,KOGORO,0000,0000,0000,,The culprit is definitely trying \Nto kill this woman, but...
+Dialogue: 0,0:09:56.92,0:09:58.24,DCItalic,KOGORO,0000,0000,0000,,That brat!
+Dialogue: 0,0:10:00.24,0:10:03.27,DCMain,KOGORO,0000,0000,0000,,Hey! What are you doing here?
+Dialogue: 0,0:10:06.06,0:10:09.25,DCMain,KOGORO,0000,0000,0000,,Jeez! Why'd you have to follow me?
+Dialogue: 0,0:10:09.50,0:10:11.94,DCMain,KOGORO,0000,0000,0000,,Once you finish eating that, \Nyou're heading straight home.
+Dialogue: 0,0:10:11.94,0:10:13.84,DCMain,KANAE,0000,0000,0000,,Now, now, Mori-san.
+Dialogue: 0,0:10:13.84,0:10:16.16,DCMain,KANAE,0000,0000,0000,,I need to go to the bathroom.
+Dialogue: 0,0:10:16.16,0:10:18.60,DCMain,KOGORO,0000,0000,0000,,Huh? Oh, go ahead.
+Dialogue: 0,0:10:18.60,0:10:22.81,DCMain,CONAN,0000,0000,0000,,So, what do you think of this case?
+Dialogue: 0,0:10:22.81,0:10:23.89,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:24.16,0:10:31.02,DCMain,CONAN,0000,0000,0000,,Have you figured out what the places \Nyou've been visiting have in common?
+Dialogue: 0,0:10:31.02,0:10:33.24,DCMain,KOGORO,0000,0000,0000,,I have no idea!
+Dialogue: 0,0:10:33.24,0:10:35.23,DCMain,KOGORO,0000,0000,0000,,This is my first time...
+Dialogue: 0,0:10:35.23,0:10:36.15,DCMain,KOGORO,0000,0000,0000,,No.
+Dialogue: 0,0:10:36.56,0:10:40.57,DCMain,KOGORO,0000,0000,0000,,I have been to the area \Naround Kuroochi Park once.
+Dialogue: 0,0:10:40.57,0:10:41.42,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:10:41.42,0:10:43.03,DCMain,KOGORO,0000,0000,0000,,It was two years ago.
+Dialogue: 0,0:10:43.03,0:10:45.21,DCMain,KOGORO,0000,0000,0000,,A broadly disliked diet member
+Dialogue: 0,0:10:45.20,0:10:49.95,DCMain,KOGORO,0000,0000,0000,,who kept making suspicious \Nremarks met a mysterious end.
+Dialogue: 0,0:10:50.29,0:10:55.30,DCNote,TEXT,0000,0000,0000,,Bibibi Publishing
+Dialogue: 0,0:10:50.54,0:10:54.80,DCMain,KOGORO,0000,0000,0000,,Believing it was murder, I saw through the \Nculprit's scheme and tracked them down.
+Dialogue: 0,0:10:55.61,0:11:00.32,DCMain,KOGORO,0000,0000,0000,,{\an8}He was a man named Nagakura Ryoji,
+Dialogue: 0,0:10:58.97,0:11:02.39,Ryoji,TEXT,0000,0000,0000,,{\fad(250,396)}Nagakura Ryoji (31) \NPublishing Company Manager
+Dialogue: 0,0:11:00.32,0:11:03.01,DCMain,KOGORO,0000,0000,0000,,{\an8}who managed an art book publishing \Ncompany with his friend.
+Dialogue: 0,0:11:04.78,0:11:09.10,DCMain,KOGORO,0000,0000,0000,,I brought him to the roof of the publishing \Ncompany and confronted him with my deduction.
+Dialogue: 0,0:11:10.03,0:11:14.34,DCMain,KOGORO,0000,0000,0000,,He accepted everything I said \Nwithout objection, but...
+Dialogue: 0,0:11:15.53,0:11:17.82,DCItalic,NAGAKURA,0000,0000,0000,,He's a cancer on society.
+Dialogue: 0,0:11:18.31,0:11:24.98,DCItalic,NAGAKURA,0000,0000,0000,,I don't regret killing him based on my beliefs.
+Dialogue: 0,0:11:25.78,0:11:30.33,DCItalic,NAGAKURA,0000,0000,0000,,Though I doubt the courts \Nor society would understand.
+Dialogue: 0,0:11:32.05,0:11:34.04,DCMain,KOGORO,0000,0000,0000,,After being arrested,
+Dialogue: 0,0:11:34.04,0:11:40.65,DCMain,KOGORO,0000,0000,0000,,Nagakura took his own life in \Nprison before his trial began.
+Dialogue: 0,0:11:36.84,0:11:41.30,Headline,TEXT,0000,0000,0000,,{\fad(1,892)}Defendant Takes His Own Life in Prison
+Dialogue: 0,0:11:45.35,0:11:47.83,DCMain,CONAN,0000,0000,0000,,You solved that case?
+Dialogue: 0,0:11:47.83,0:11:51.10,DCMain,KOGORO,0000,0000,0000,,Yeah! I'm telling you, I'm a great detective.
+Dialogue: 0,0:11:51.83,0:11:57.63,DCMain,KOGORO,0000,0000,0000,,It's possible he decided to commit suicide \Nwhen I revealed the truth on that rooftop.
+Dialogue: 0,0:11:58.22,0:12:01.54,DCMain,KOGORO,0000,0000,0000,,It happened on the roof of the \Nbuilding across from Kuroochi Park.
+Dialogue: 0,0:12:03.20,0:12:06.21,DCMain,KOGORO,0000,0000,0000,,Well, it's ancient history.
+Dialogue: 0,0:12:06.21,0:12:09.49,DCMain,KOGORO,0000,0000,0000,,Someone is definitely trying to kill Kanae-san.
+Dialogue: 0,0:12:10.41,0:12:11.50,DCItalic,CONAN,0000,0000,0000,,Actually, those were...
+Dialogue: 0,0:12:11.98,0:12:15.00,DCItalic,MAN,0000,0000,0000,,I can't believe a family \Nof cats ran into the road.
+Dialogue: 0,0:12:15.29,0:12:18.00,DCItalic,WOMAN,0000,0000,0000,,I dropped it from the third \Nfloor, but it's not broken.
+Dialogue: 0,0:12:18.19,0:12:21.35,DCItalic,MAN,0000,0000,0000,,I knew it was too dangerous to practice here.
+Dialogue: 0,0:12:21.96,0:12:24.39,DCItalic,CONAN,0000,0000,0000,,...just plain old accidents.
+Dialogue: 0,0:12:25.26,0:12:27.05,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:12:25.81,0:12:29.89,DCMain,KOGORO,0000,0000,0000,,Let me handle the case.
+Dialogue: 0,0:12:29.89,0:12:32.20,DCMain,KOGORO,0000,0000,0000,,Go do your homework or something.
+Dialogue: 0,0:12:32.96,0:12:35.27,DCMain,KOGORO,0000,0000,0000,,Tell Ran I'll be home late.
+Dialogue: 0,0:12:35.63,0:12:36.77,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:12:45.17,0:12:52.58,DCItalic,CONAN,0000,0000,0000,,There must be some meaning behind the \Nlocations specified by the culprit.
+Dialogue: 0,0:12:54.06,0:12:55.20,DCItalic,CONAN,0000,0000,0000,,That must be it.
+Dialogue: 0,0:12:56.06,0:12:57.00,DCItalic,CONAN,0000,0000,0000,,What's going on?
+Dialogue: 0,0:12:58.82,0:13:00.30,DCMain,CONAN,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:13:01.36,0:13:06.60,DCMain,POLICE,0000,0000,0000,,Oh, yeah. I was wondering what that meant.
+Dialogue: 0,0:13:06.60,0:13:08.51,DCMain,CONAN,0000,0000,0000,,Aren't they an offering of some kind?
+Dialogue: 0,0:13:09.04,0:13:12.13,DCMain,POLICE,0000,0000,0000,,But there's never been an accident here.
+Dialogue: 0,0:13:12.59,0:13:16.26,DCMain,POLICE,0000,0000,0000,,I haven't heard of anyone dying either.
+Dialogue: 0,0:13:17.84,0:13:19.87,DCItalic,CONAN,0000,0000,0000,,They started at the park,
+Dialogue: 0,0:13:19.87,0:13:25.53,DCItalic,CONAN,0000,0000,0000,,then visited the concert hall, the art \Nmuseum, the seaside park, the church, and...
+Dialogue: 0,0:13:27.19,0:13:28.63,DCItalic,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:13:37.17,0:13:39.33,DCMain,KOGORO,0000,0000,0000,,I've given the case some thought.
+Dialogue: 0,0:13:39.89,0:13:43.78,DCMain,KOGORO,0000,0000,0000,,Why is the culprit leading us around?
+Dialogue: 0,0:13:43.78,0:13:48.01,DCMain,KOGORO,0000,0000,0000,,It's possible they want \Nus to notice something.
+Dialogue: 0,0:13:48.99,0:13:54.81,DCMain,KOGORO,0000,0000,0000,,Kuroochi Park, Dadagaya Concert Hall, \NSutero Art Museum, Hadoson Seaside Park,
+Dialogue: 0,0:13:54.81,0:13:58.02,DCMain,KOGORO,0000,0000,0000,,and our next destination, Hebunzaka Church.
+Dialogue: 0,0:13:58.42,0:14:02.03,DCMain,KOGORO,0000,0000,0000,,Each location has a special meaning \Nor memory associated with it,
+Dialogue: 0,0:14:02.03,0:14:04.32,DCMain,KOGORO,0000,0000,0000,,and they want you to notice that.
+Dialogue: 0,0:14:04.32,0:14:09.03,DCMain,KOGORO,0000,0000,0000,,I have a feeling the culprit is \Ndesperately asking you to do that.
+Dialogue: 0,0:14:09.29,0:14:14.13,DCMain,KOGORO,0000,0000,0000,,Any ideas what that might be, Kanae-san?
+Dialogue: 0,0:14:14.13,0:14:17.12,DCMain,KANAE,0000,0000,0000,,What do you think, Mori-san?
+Dialogue: 0,0:14:17.12,0:14:18.04,DCMain,KOGORO,0000,0000,0000,,Me?
+Dialogue: 0,0:14:18.44,0:14:22.16,DCMain,KOGORO,0000,0000,0000,,I just happened to be hired. \NThere's no way for me to know.
+Dialogue: 0,0:14:22.16,0:14:24.38,DCMain,KANAE,0000,0000,0000,,Even though you're the \Ncountry's greatest detective?
+Dialogue: 0,0:14:25.29,0:14:29.05,DCMain,KOGORO,0000,0000,0000,,I'm sorry, but I can't \Nknow what I don't know.
+Dialogue: 0,0:14:29.05,0:14:31.25,DCMain,KOGORO,0000,0000,0000,,I'm at a total loss.
+Dialogue: 0,0:14:35.31,0:14:38.31,Bibibi2,SIGN,0000,0000,0000,,Bibibi Publishing
+Dialogue: 0,0:14:35.89,0:14:38.31,Motomu,TEXT,0000,0000,0000,,{\fad(250,1)}Shida Motomu (34) \NPublishing Company Manager
+Dialogue: 0,0:14:36.22,0:14:37.62,DCMain,CONAN,0000,0000,0000,,{\an8}Excuse me!
+Dialogue: 0,0:14:38.31,0:14:39.92,DCMain,CONAN,0000,0000,0000,,You work here, right?
+Dialogue: 0,0:14:39.92,0:14:43.78,DCMain,CONAN,0000,0000,0000,,I'm the detective Mori Kogoro's assistant.
+Dialogue: 0,0:14:43.78,0:14:46.07,DCMain,SHIDA,0000,0000,0000,,You work for Mori-san?
+Dialogue: 0,0:14:46.40,0:14:50.37,DCMain,CONAN,0000,0000,0000,,He told me to ask you \Nabout Nagakura Ryoji-san,
+Dialogue: 0,0:14:50.37,0:14:52.82,DCMain,CONAN,0000,0000,0000,,who passed away two years ago.
+Dialogue: 0,0:14:53.12,0:14:55.83,Hebunzaka,TEXT,0000,0000,0000,,{\fad(250,1)}Hebunzaka Church
+Dialogue: 0,0:14:54.26,0:14:55.27,DCMain,KOGORO,0000,0000,0000,,{\an8}I found it.
+Dialogue: 0,0:14:55.83,0:14:59.57,DCMain,KOGORO,0000,0000,0000,,Where are we being taken next?
+Dialogue: 0,0:14:58.88,0:15:00.75,Omagari,TEXT,0000,0000,0000,,Omagari Intersection
+Dialogue: 0,0:14:59.13,0:15:00.75,OneRoad,TEXT,0000,0000,0000,,One Road
+Dialogue: 0,0:15:01.05,0:15:03.00,DCMain,KANAE,0000,0000,0000,,Is it a map?
+Dialogue: 0,0:15:03.58,0:15:08.15,DCMain,KANAE,0000,0000,0000,,12, 1, 29. What do those numbers mean?
+Dialogue: 0,0:15:08.15,0:15:10.26,DCMain,KOGORO,0000,0000,0000,,Could it be an address?
+Dialogue: 0,0:15:10.92,0:15:14.68,DCMain,KOGORO,0000,0000,0000,,In any case, let's use these \Nclues to determine the location.
+Dialogue: 0,0:15:17.49,0:15:21.17,DCItalic,KOGORO,0000,0000,0000,,Omagari Intersection is way \Non the outskirts of Tokyo.
+Dialogue: 0,0:15:21.17,0:15:24.89,DCItalic,KOGORO,0000,0000,0000,,And if it's between there and \NShiraito Intersection, then...
+Dialogue: 0,0:15:22.35,0:15:25.19,Shiraito,TEXT,0000,0000,0000,,Shiraito Intersection
+Dialogue: 0,0:15:27.21,0:15:31.20,DCItalic,KOGORO,0000,0000,0000,,So that's how it is! When \Nyou think of it that way...
+Dialogue: 0,0:15:31.94,0:15:34.56,DCMain,KANAE,0000,0000,0000,,Mori-san. Mori-san!
+Dialogue: 0,0:15:36.46,0:15:38.39,DCMain,KOGORO,0000,0000,0000,,"Come and get it in the underworld."
+Dialogue: 0,0:15:39.26,0:15:42.96,DCMain,KOGORO,0000,0000,0000,,It seems our next destination \Nis the finish line.
+Dialogue: 0,0:15:40.46,0:15:42.96,DCNote,TEXT,0000,0000,0000,,Okagaoka Cemetery
+Dialogue: 0,0:15:43.33,0:15:44.53,DCMain,KANAE,0000,0000,0000,,Isn't that...?
+Dialogue: 0,0:15:46.15,0:15:48.70,DCMain,KOGORO,0000,0000,0000,,Yes, it's a graveyard.
+Dialogue: 0,0:15:50.28,0:15:53.97,DCMain,KANAE,0000,0000,0000,,Does the culprit plan to lure me there and...?
+Dialogue: 0,0:15:56.99,0:15:58.97,DCMain,KOGORO,0000,0000,0000,,Let's head there.
+Dialogue: 0,0:15:59.94,0:16:01.48,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:16:01.48,0:16:03.98,Bibibi3,SIGN,0000,0000,0000,,Bibibi Publishing
+Dialogue: 0,0:16:01.48,0:16:06.21,DCMain,CONAN,0000,0000,0000,,That person left these flowers \Nhere this morning and said that?
+Dialogue: 0,0:16:06.21,0:16:07.51,DCMain,WOMAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:16:07.51,0:16:08.77,DCMain,WOMAN,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:16:10.73,0:16:12.74,DCItalic,CONAN,0000,0000,0000,,That was definitely them.
+Dialogue: 0,0:16:15.49,0:16:16.99,Incoming,TEXT,0000,0000,0000,,Incoming call \NConan
+Dialogue: 0,0:16:20.87,0:16:22.25,DCMain,CONAN,0000,0000,0000,,He hung up!
+Dialogue: 0,0:16:23.92,0:16:25.16,DCItalic,CONAN,0000,0000,0000,,What should I do?
+Dialogue: 0,0:16:28.34,0:16:30.26,Underworld,TEXT,0000,0000,0000,,Underworld
+Dialogue: 0,0:16:31.48,0:16:34.13,DCMain,CONAN,0000,0000,0000,,I have one more question!
+Dialogue: 0,0:16:34.13,0:16:36.39,DCMain,CONAN,0000,0000,0000,,Where is Nagakura-san's grave?
+Dialogue: 0,0:16:36.72,0:16:39.76,Okagaoka,TEXT,0000,0000,0000,,{\fad(250,460)}Okagaoka Cemetery
+Dialogue: 0,0:16:43.10,0:16:46.10,Zone12,SIGN,0000,0000,0000,,Zone 12 \NArea 1 \NSection 9
+Dialogue: 0,0:16:48.61,0:16:53.76,DCMain,KOGORO,0000,0000,0000,,You wanted to bring me here.
+Dialogue: 0,0:16:55.45,0:17:00.54,DCMain,KOGORO,0000,0000,0000,,When I learned our next destination was \NOkagaoka Cemetery, I finally noticed.
+Dialogue: 0,0:17:01.45,0:17:05.75,DCMain,KOGORO,0000,0000,0000,,It wasn't you who was being \Ndragged around, but me.
+Dialogue: 0,0:17:06.68,0:17:10.41,DCMain,KOGORO,0000,0000,0000,,I'd been here to visit this grave before.
+Dialogue: 0,0:17:07.08,0:17:10.75,Headstone,SIGN,0000,0000,0000,,Nagakura Ryoji
+Dialogue: 0,0:17:11.55,0:17:13.44,DCItalic,CONAN,0000,0000,0000,,You figured it out, old man?
+Dialogue: 0,0:17:13.44,0:17:15.76,DCItalic,CONAN,0000,0000,0000,,Then I don't need to make an appearance.
+Dialogue: 0,0:17:16.54,0:17:22.77,DCMain,KOGORO,0000,0000,0000,,You lied about your treasured brooch \Nbeing stolen so you could bring me here.
+Dialogue: 0,0:17:23.50,0:17:26.02,DCMain,KOGORO,0000,0000,0000,,I didn't know about you,
+Dialogue: 0,0:17:26.30,0:17:30.02,DCMain,KOGORO,0000,0000,0000,,but judging by that ring \Nyou have in your bag,
+Dialogue: 0,0:17:30.53,0:17:35.03,DCMain,KOGORO,0000,0000,0000,,you were probably engaged \Nto Nagakura Ryoji-san.
+Dialogue: 0,0:17:35.61,0:17:40.03,DCMain,KOGORO,0000,0000,0000,,You brought me to places full of \Nmemories, and finally, at his grave...
+Dialogue: 0,0:17:40.26,0:17:41.53,DCMain,KANAE,0000,0000,0000,,Aren't you going to sleep?
+Dialogue: 0,0:17:43.26,0:17:44.04,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:17:44.54,0:17:47.95,DCMain,KANAE,0000,0000,0000,,Don't you always sleep when you \Narrogantly lay out your reasoning?
+Dialogue: 0,0:17:47.95,0:17:49.96,DCMain,KOGORO,0000,0000,0000,,Oh, actually, that's...
+Dialogue: 0,0:17:51.24,0:17:52.59,DCMain,KANAE,0000,0000,0000,,If you can't sleep...
+Dialogue: 0,0:17:54.62,0:17:56.84,DCMain,KANAE,0000,0000,0000,,Then I'll put you to sleep!
+Dialogue: 0,0:17:58.35,0:17:58.93,DCMain,KOGORO,0000,0000,0000,,You're wrong!
+Dialogue: 0,0:18:00.08,0:18:02.37,DCMain,KOGORO,0000,0000,0000,,You may not know,
+Dialogue: 0,0:18:02.37,0:18:06.59,DCMain,KOGORO,0000,0000,0000,,but I wasn't asleep when \NI solved that case then.
+Dialogue: 0,0:18:08.14,0:18:10.88,DCMain,KOGORO,0000,0000,0000,,Since the day Nagakura ended his life,
+Dialogue: 0,0:18:11.35,0:18:14.86,DCMain,KOGORO,0000,0000,0000,,you swore you'd have your revenge on me.
+Dialogue: 0,0:18:15.10,0:18:16.54,DCMain,KANAE,0000,0000,0000,,Of course!
+Dialogue: 0,0:18:16.54,0:18:19.56,DCMain,KANAE,0000,0000,0000,,If you hadn't arrogantly revealed the truth,
+Dialogue: 0,0:18:19.56,0:18:22.16,DCMain,KANAE,0000,0000,0000,,then he wouldn't have been arrested!
+Dialogue: 0,0:18:31.29,0:18:32.21,DCItalic,CONAN,0000,0000,0000,,Uh, oh...
+Dialogue: 0,0:18:32.21,0:18:34.88,DCMain,KANAE,0000,0000,0000,,So you're sleeping after all.
+Dialogue: 0,0:18:34.88,0:18:39.80,DCMain,KOGORO,0000,0000,0000,,I thought it would only be proper to assume \Nthis pose while explaining my reasoning.
+Dialogue: 0,0:18:40.29,0:18:44.51,DCMain,KOGORO,0000,0000,0000,,People who knew him well said the following:
+Dialogue: 0,0:18:44.51,0:18:49.56,DCMain,KOGORO,0000,0000,0000,,"Nagakura-san was a quiet man \Nwho loved music and art."
+Dialogue: 0,0:18:50.83,0:18:55.73,DCMain,KOGORO,0000,0000,0000,,Did the two of you meet \Nat Dadagaya Concert Hall?
+Dialogue: 0,0:18:57.89,0:19:01.32,DCMain,KOGORO,0000,0000,0000,,And the first place you went \Ntogether was Sutero Art Museum.
+Dialogue: 0,0:19:03.12,0:19:06.96,DCMain,KOGORO,0000,0000,0000,,You nurtured your love at beautiful \NHadoson Seaside Park,
+Dialogue: 0,0:19:08.07,0:19:13.28,DCMain,KOGORO,0000,0000,0000,,and planned to get married \Nat Hebunzaka Church.
+Dialogue: 0,0:19:14.10,0:19:20.09,DCMain,KOGORO,0000,0000,0000,,But Nagakura-san's death turned \Nit into an impossible dream.
+Dialogue: 0,0:19:20.60,0:19:21.98,DCMain,KANAE,0000,0000,0000,,That's right.
+Dialogue: 0,0:19:21.98,0:19:27.23,DCMain,KANAE,0000,0000,0000,,You ruined our history and future.
+Dialogue: 0,0:19:27.71,0:19:29.56,DCMain,KANAE,0000,0000,0000,,After showing you that, I...
+Dialogue: 0,0:19:32.10,0:19:38.11,Headstone,SIGN,0000,0000,0000,,Nagakura Ryoji
+Dialogue: 0,0:19:32.98,0:19:38.11,DCMain,KANAE,0000,0000,0000,,Here, in his presence, I planned \Nto send you to hell!
+Dialogue: 0,0:19:38.39,0:19:40.36,DCMain,KOGORO,0000,0000,0000,,And you...
+Dialogue: 0,0:19:46.60,0:19:51.87,DCItalic,KANAE,0000,0000,0000,,It all ended when he \Ncornered you on that roof.
+Dialogue: 0,0:19:52.82,0:19:56.04,DCItalic,KANAE,0000,0000,0000,,I'll be there soon.
+Dialogue: 0,0:19:57.14,0:19:59.88,DCMain,KOGORO,0000,0000,0000,,...planned to follow Nagakura-san here.
+Dialogue: 0,0:20:00.31,0:20:03.13,DCMain,KANAE,0000,0000,0000,,It's the decision I made when he died.
+Dialogue: 0,0:20:03.30,0:20:05.64,DCMain,KOGORO,0000,0000,0000,,But you did nothing for two years.
+Dialogue: 0,0:20:05.87,0:20:08.84,DCMain,KOGORO,0000,0000,0000,,This isn't what Nagakura-san wants.
+Dialogue: 0,0:20:08.84,0:20:09.83,DCMain,KANAE,0000,0000,0000,,You're wrong.
+Dialogue: 0,0:20:09.83,0:20:11.66,DCMain,KOGORO,0000,0000,0000,,You know that, too.
+Dialogue: 0,0:20:11.66,0:20:15.65,DCMain,KANAE,0000,0000,0000,,You're wrong! It's because my \Nmother was alive until last week!
+Dialogue: 0,0:20:15.65,0:20:17.93,DCMain,KANAE,0000,0000,0000,,If I did that, my mother \Nwould have been sad—
+Dialogue: 0,0:20:17.93,0:20:21.03,DCMain,KOGORO,0000,0000,0000,,Regardless of who it saddens, \Npeople who will act, will act!
+Dialogue: 0,0:20:21.32,0:20:23.23,DCMain,KOGORO,0000,0000,0000,,Put that knife away.
+Dialogue: 0,0:20:23.77,0:20:27.14,DCMain,KOGORO,0000,0000,0000,,You've waited until today because you \Nknew Nagakura-san wouldn't want—
+Dialogue: 0,0:20:27.14,0:20:28.03,DCMain,KANAE,0000,0000,0000,,You're wrong!
+Dialogue: 0,0:20:28.03,0:20:28.62,DCItalic,CONAN,0000,0000,0000,,Shit!
+Dialogue: 0,0:20:39.99,0:20:43.97,DCMain,KANAE,0000,0000,0000,,But I can't do it...
+Dialogue: 0,0:20:45.00,0:20:46.68,DCMain,KANAE,0000,0000,0000,,I saw you.
+Dialogue: 0,0:20:47.34,0:20:51.90,DCMain,KANAE,0000,0000,0000,,I saw the unhateable face of the man I hated.
+Dialogue: 0,0:20:52.57,0:20:54.19,DCMain,KANAE,0000,0000,0000,,Your perfect kindness.
+Dialogue: 0,0:20:54.76,0:20:57.19,DCMain,KANAE,0000,0000,0000,,The way you acknowledged \Nyour own powerlessness.
+Dialogue: 0,0:20:58.08,0:21:01.69,DCMain,KANAE,0000,0000,0000,,And you protected me numerous times.
+Dialogue: 0,0:21:02.99,0:21:04.99,DCMain,KANAE,0000,0000,0000,,After seeing that side of you,
+Dialogue: 0,0:21:05.90,0:21:09.21,DCMain,KANAE,0000,0000,0000,,I can't kill you anymore.
+Dialogue: 0,0:21:10.39,0:21:12.30,DCMain,KANAE,0000,0000,0000,,Not anyone.
+Dialogue: 0,0:22:51.91,0:22:53.88,DCMain,KOGORO,0000,0000,0000,,Kanae-san! Don't be hasty!
+Dialogue: 0,0:22:53.88,0:22:55.42,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:22:56.28,0:22:58.98,DCMain,KOGORO,0000,0000,0000,,Sh-She's not here. Kanae-san!
+Dialogue: 0,0:22:58.98,0:23:01.28,DCMain,KOGORO,0000,0000,0000,,Ow! My head...
+Dialogue: 0,0:23:01.28,0:23:03.54,DCMain,CONAN,0000,0000,0000,,The lady left.
+Dialogue: 0,0:23:03.54,0:23:07.24,DCMain,KOGORO,0000,0000,0000,,What?! You followed me again?
+Dialogue: 0,0:23:07.46,0:23:11.18,DCMain,KOGORO,0000,0000,0000,,More importantly, she planned to \Nkill me and then kill herself!
+Dialogue: 0,0:23:11.18,0:23:13.05,DCMain,CONAN,0000,0000,0000,,Seems like everything worked out fine.
+Dialogue: 0,0:23:13.05,0:23:13.99,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:23:14.27,0:23:21.00,DCMain,CONAN,0000,0000,0000,,She asked me to thank you for her.
+Dialogue: 0,0:23:21.88,0:23:23.18,DCMain,KOGORO,0000,0000,0000,,Really?
+Dialogue: 0,0:23:23.18,0:23:25.36,DCMain,CONAN,0000,0000,0000,,You prevented a crime before it happened.
+Dialogue: 0,0:23:25.36,0:23:27.17,DCMain,CONAN,0000,0000,0000,,That's amazing, mister.
+Dialogue: 0,0:23:27.17,0:23:28.48,DCMain,KOGORO,0000,0000,0000,,You're right.
+Dialogue: 0,0:23:28.48,0:23:30.72,DCMain,CONAN,0000,0000,0000,,You really are the country's \Ngreatest detective!
+Dialogue: 0,0:23:31.01,0:23:32.01,DCMain,KOGORO,0000,0000,0000,,You're right!
+Dialogue: 0,0:23:32.31,0:23:33.12,DCMain,KOGORO,0000,0000,0000,,You see that?
+Dialogue: 0,0:23:33.12,0:23:38.86,DCMain,KOGORO,0000,0000,0000,,I protected a young woman and \Nmade her turn over a new leaf!
+Dialogue: 0,0:23:40.34,0:23:42.97,DCItalic,CONAN,0000,0000,0000,,Well, that's not entirely incorrect.
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.29,0:23:49.03,DCMain,SATO,0000,0000,0000,,Could you tell us more about that case?
+Dialogue: 0,0:23:50.28,0:23:53.05,DCMain,MAN,0000,0000,0000,,Unfortunately, I cannot do that.
+Dialogue: 0,0:23:53.05,0:23:57.03,DCMain,MAN,0000,0000,0000,,We can't just give away our \Ncustomers' information.
+Dialogue: 0,0:23:57.03,0:24:00.79,DCMain,MEGURE,0000,0000,0000,,Call on all officers and \Narrest all the suspects!
+Dialogue: 0,0:24:01.30,0:24:04.79,DCItalic,CONAN,0000,0000,0000,,There's even a blueprint \Nshowing the remote detonators.
+Dialogue: 0,0:24:05.75,0:24:09.05,DCItalic,CONAN,0000,0000,0000,,Where is it? Where is the detonator?
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,TEXT,0000,0000,0000,,An Encouragement of the Perfect Crime
+Dialogue: 0,0:24:09.40,0:24:13.17,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "An \NEncouragement of the Perfect Crime!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,TEXT,0000,0000,0000,,Thief
+Dialogue: 0,0:24:30.54,0:24:33.23,DCMain,KOGORO,0000,0000,0000,,Next next Conan's hint!
+Dialogue: 0,0:24:33.23,0:24:34.99,DCMain,CONAN,0000,0000,0000,,Thief!
+Dialogue: 0,0:24:34.99,0:24:35.84,DCMain,CONAN,0000,0000,0000,,{\an8}You lost it all betting on horses?
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.84,0:24:37.51,DCMain,KOGORO,0000,0000,0000,,{\an8}Farewell, Fukuzawa Yukichi-sama!
+Dialogue: 0,0:24:37.51,0:24:39.76,DCMain,CONAN,0000,0000,0000,,{\an8}But he wrote "An Encouragement of Learning."

@@ -1,0 +1,421 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Spirits,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C3848E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0058,0
+Style: Kozo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C77783,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0030,0020,0066,0
+Style: Blanket,Trebuchet MS,18,&H00F9F9FB,&H000000FF,&H007E6B8E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Kidnapped,Trebuchet MS,22,&H00000000,&H000000FF,&H00EEEEEC,&H00000000,-1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0012,0
+Style: Ransom,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0022,0115,0
+Style: Discovered,Trebuchet MS,22,&H001900A4,&H000000FF,&H00CFD1DA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Dead,Trebuchet MS,22,&H001900A4,&H000000FF,&H00CFD1DA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0018,0
+Style: Failure,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0095,0
+Style: Yasutaka,Trebuchet MS,14,&H00FFFFFF,&H000000FF,&H007D4C63,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0500,0056,0
+Style: Masao,Trebuchet MS,14,&H00FFFFFF,&H000000FF,&H00792C34,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0220,0020,0056,0
+Style: Chizuru,Trebuchet MS,14,&H00FFFFFF,&H000000FF,&H00802B80,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0280,0056,0
+Style: Saneaki,Trebuchet MS,14,&H00FFFFFF,&H000000FF,&H006F1A76,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0175,0056,0
+Style: Kokura,Trebuchet MS,22,&H00D6BFBE,&H000000FF,&H007D6B6A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Satoshi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007A4C63,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0110,0066,0
+Style: Nameplate,Trebuchet MS,22,&H00050409,&H000000FF,&H0076757E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0150,0020,0090,0
+Style: GreatDetective,Trebuchet MS,20,&H00F2FF93,&H000000FF,&H004E2916,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.19,0:00:03.96,DCMain,CONAN,0000,0000,0000,,The old man was hired by \Nthree suspicious people
+Dialogue: 0,0:00:04.23,0:00:10.28,DCMain,CONAN,0000,0000,0000,,to protect the racing horse White Spirits, \Nwho had received several death threats.
+Dialogue: 0,0:00:11.44,0:00:12.55,DCMain,CONAN,0000,0000,0000,,{\an8}Several days later,
+Dialogue: 0,0:00:11.91,0:00:13.36,Spirits,SIGN,0000,0000,0000,,{\fad(250,1)}White Spirits \NRacing Horse
+Dialogue: 0,0:00:12.55,0:00:16.61,DCMain,CONAN,0000,0000,0000,,{\an8}White Spirits was to be transported
+Dialogue: 0,0:00:13.40,0:00:14.91,Kozo,SIGN,0000,0000,0000,,{\fad(250,1)}Tokuyoshi Kozo (55) \NHorse Owner
+Dialogue: 0,0:00:16.61,0:00:19.16,DCMain,CONAN,0000,0000,0000,,to a track outside of Tokyo for a race.
+Dialogue: 0,0:00:19.16,0:00:21.33,Blanket,SIGN,0000,0000,0000,,White Spirits
+Dialogue: 0,0:00:19.46,0:00:22.01,DCMain,CONAN,0000,0000,0000,,The old man escorted the \Nhorse trailer, but...
+Dialogue: 0,0:00:29.00,0:00:32.34,DCMain,CONAN,0000,0000,0000,,At some point White Spirits was \Nswapped out for an impostor.
+Dialogue: 0,0:00:33.59,0:00:39.51,DCMain,CONAN,0000,0000,0000,,Horse owner Tokuyoshi received a ransom \Nnote demanding 100 million yen.
+Dialogue: 0,0:00:40.00,0:00:43.68,DCMain,CONAN,0000,0000,0000,,Unable to trust the police or detectives,
+Dialogue: 0,0:00:43.68,0:00:46.02,DCMain,CONAN,0000,0000,0000,,Tokuyoshi followed the \Nkidnapper's instructions alone
+Dialogue: 0,0:00:46.02,0:00:48.27,DCMain,CONAN,0000,0000,0000,,and had the ransom money stolen from him.
+Dialogue: 0,0:00:51.61,0:00:53.03,DCMain,CONAN,0000,0000,0000,,In my eyes are maximum creation!
+Dialogue: 0,0:00:53.03,0:00:54.95,DCMain,CONAN,0000,0000,0000,,My detective skills are tomorrow's reaction!
+Dialogue: 0,0:00:54.95,0:00:56.56,DCMain,CONAN,0000,0000,0000,,The ransom money and horse go missing!
+Dialogue: 0,0:00:56.56,0:00:58.66,DCMain,CONAN,0000,0000,0000,,The two cases are connected \Nin a surprising way!
+Dialogue: 0,0:00:58.66,0:01:00.33,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:00.33,0:01:02.04,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:02.04,0:01:04.59,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:46.02,0:02:52.02,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(396,1)}The Thoroughbred Kidnapping Case \N(Part Two)
+Dialogue: 0,0:02:46.81,0:02:49.89,DCMain,CONAN,0000,0000,0000,,"The Thoroughbred Kidnapping \NCase, Part Two!"
+Dialogue: 0,0:03:04.91,0:03:07.16,Blanket,SIGN,0000,0000,0000,,White Spirits
+Dialogue: 0,0:03:10.98,0:03:12.92,DCMain,KOGORO,0000,0000,0000,,I'm certain of it, Inspector.
+Dialogue: 0,0:03:13.09,0:03:16.55,DCMain,KOGORO,0000,0000,0000,,This is the horse blanket \NWhite Spirits was wearing.
+Dialogue: 0,0:03:19.04,0:03:20.07,DCMain,RAN,0000,0000,0000,,Oh, no.
+Dialogue: 0,0:03:20.66,0:03:22.10,DCMain,RAN,0000,0000,0000,,Is he already...?
+Dialogue: 0,0:03:22.96,0:03:28.12,DCMain,TAKAGI,0000,0000,0000,,Inspector, according to a local who \Ntook their garbage out an hour ago,
+Dialogue: 0,0:03:28.12,0:03:30.77,DCMain,TAKAGI,0000,0000,0000,,that wasn't here at that time.
+Dialogue: 0,0:03:31.19,0:03:35.61,DCMain,CONAN,0000,0000,0000,,How did the police know this was here?
+Dialogue: 0,0:03:35.87,0:03:38.68,DCMain,CHIBA,0000,0000,0000,,We received an anonymous tip.
+Dialogue: 0,0:03:38.68,0:03:40.24,DCMain,CONAN,0000,0000,0000,,An anonymous tip?
+Dialogue: 0,0:03:40.24,0:03:42.26,DCMain,CHIBA,0000,0000,0000,,They thought it was dumped illegally.
+Dialogue: 0,0:03:42.26,0:03:45.70,DCMain,CHIBA,0000,0000,0000,,And there seems to be blood on it, \Nso they wanted us to investigate.
+Dialogue: 0,0:03:46.21,0:03:47.41,DCMain,CONAN,0000,0000,0000,,Hmm...
+Dialogue: 0,0:03:51.24,0:03:53.87,DCMain,TAKAGI,0000,0000,0000,,I received a report from forensics.
+Dialogue: 0,0:03:54.10,0:03:59.15,DCMain,TAKAGI,0000,0000,0000,,The blood on the horse blanket \Nmatched White Spirits'.
+Dialogue: 0,0:03:59.15,0:04:00.13,DCMain,MEGURE,0000,0000,0000,,Are you sure?
+Dialogue: 0,0:04:00.34,0:04:03.75,DCMain,TAKAGI,0000,0000,0000,,We got the data from the stable's vet.
+Dialogue: 0,0:04:03.75,0:04:05.14,DCMain,TAKAGI,0000,0000,0000,,It's definitely his.
+Dialogue: 0,0:04:05.36,0:04:10.14,DCMain,MEGURE,0000,0000,0000,,Which means it's possible he's already...
+Dialogue: 0,0:04:10.36,0:04:13.81,DCMain,CHIBA,0000,0000,0000,,The media's starting to make a fuss, too.
+Dialogue: 0,0:04:13.97,0:04:16.37,DCMain,MEGURE,0000,0000,0000,,That can't be helped.
+Dialogue: 0,0:04:16.37,0:04:19.14,DCMain,MEGURE,0000,0000,0000,,He's an extraordinary and \Npopular racing horse.
+Dialogue: 0,0:04:19.14,0:04:21.27,DCMain,MEGURE,0000,0000,0000,,We should prepare for a press \Nconference immediately.
+Dialogue: 0,0:04:21.27,0:04:25.70,DCMain,CHIBA,0000,0000,0000,,Actually, they're also making \Na fuss over something else.
+Dialogue: 0,0:04:26.98,0:04:28.45,DCMain,MEGURE,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:04:28.45,0:04:30.54,Kidnapped,SIGN,0000,0000,0000,,{\fad(250,1)}Famous Horse Missing, Kidnapped!!
+Dialogue: 0,0:04:30.95,0:04:33.46,Ransom,SIGN,0000,0000,0000,,{\fad(250,1)}100 million yen ransom!!
+Dialogue: 0,0:04:31.95,0:04:33.46,Kidnapped,SIGN,0000,0000,0000,,{\fad(250,1)}Death threats previously received!!
+Dialogue: 0,0:04:33.75,0:04:35.46,Discovered,SIGN,0000,0000,0000,,{\fad(335,1)}Bloody horse blanket discovered!!
+Dialogue: 0,0:04:34.25,0:04:35.46,Dead,SIGN,0000,0000,0000,,{\fad(335,1)}Is the horse already dead?!
+Dialogue: 0,0:04:35.71,0:04:37.97,Failure,SIGN,0000,0000,0000,,{\fad(210,960)}Massive failure!!
+Dialogue: 0,0:04:37.01,0:04:39.46,Kidnapped,SIGN,0000,0000,0000,,{\fad(960,1)}Kidnapping happened under the watch \Nof a great detective and the police!!
+Dialogue: 0,0:04:39.46,0:04:42.46,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:04:39.46,0:04:43.45,DCMain,KOGORO,0000,0000,0000,,Damn it! Who do they think they are?
+Dialogue: 0,0:04:44.66,0:04:49.99,DCMain,KOGORO,0000,0000,0000,,I hate to say it, but if Tokuyoshi had \Ncooperated, this wouldn't have happened.
+Dialogue: 0,0:04:50.90,0:04:53.10,DCMain,RAN,0000,0000,0000,,You've had too much to drink, Dad.
+Dialogue: 0,0:04:54.18,0:04:56.12,DCMain,KOGORO,0000,0000,0000,,How can I not drink?
+Dialogue: 0,0:04:56.12,0:04:59.05,DCMain,KOGORO,0000,0000,0000,,It's not like I wanted to fail.
+Dialogue: 0,0:04:59.05,0:05:04.11,DCMain,RAN,0000,0000,0000,,More importantly, we're still not \Nsure White Spirits was killed, right?
+Dialogue: 0,0:05:04.35,0:05:08.49,DCMain,KOGORO,0000,0000,0000,,Well, yeah, but the blood was a match.
+Dialogue: 0,0:05:09.67,0:05:11.08,DCMain,RAN,0000,0000,0000,,I'm sure he's fine.
+Dialogue: 0,0:05:11.08,0:05:14.62,DCMain,RAN,0000,0000,0000,,The kidnapper got the \Nransom money he wanted.
+Dialogue: 0,0:05:14.62,0:05:16.75,DCMain,RAN,0000,0000,0000,,I'm sure he'll return him.
+Dialogue: 0,0:05:21.45,0:05:24.34,DCItalic,CONAN,0000,0000,0000,,{\an8}I know who did it. I'm absolutely certain.
+Dialogue: 0,0:05:21.59,0:05:25.01,Saneaki,SIGN,0000,0000,0000,,{\fad(460,920)}Nagaura Saneaki (45) \NStable Hand
+Dialogue: 0,0:05:21.59,0:05:25.01,Masao,SIGN,0000,0000,0000,,{\fad(460,920)}Shiomi Masao (50) \NHorse Trailer Driver
+Dialogue: 0,0:05:24.94,0:05:28.42,DCItalic,CONAN,0000,0000,0000,,{\an8}So why did they hire the old man?
+Dialogue: 0,0:05:25.34,0:05:28.76,Yasutaka,SIGN,0000,0000,0000,,{\fad(460,920)}Hase Yasutaka (40) \NTrainer
+Dialogue: 0,0:05:25.34,0:05:28.76,Chizuru,SIGN,0000,0000,0000,,{\fad(460,920)}Kakuta Chizuru (25) \NJockey
+Dialogue: 0,0:05:29.05,0:05:32.81,DCItalic,CONAN,0000,0000,0000,,I'll have to review the case again.
+Dialogue: 0,0:05:44.31,0:05:45.40,DCMain,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:05:48.92,0:05:50.28,DCMain,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:05:58.79,0:06:01.55,DCMain,CONAN,0000,0000,0000,,That's it! So that's how it is!
+Dialogue: 0,0:06:02.05,0:06:04.59,DCMain,CONAN,0000,0000,0000,,How did I not notice this?
+Dialogue: 0,0:06:11.15,0:06:13.74,DCMain,CONAN,0000,0000,0000,,Hello, Detective Takagi?
+Dialogue: 0,0:06:13.74,0:06:17.58,DCMain,CONAN,0000,0000,0000,,Kogoro-no-ojisan asked me \Nto do something for him.
+Dialogue: 0,0:06:19.77,0:06:21.25,DCMain,CONAN,0000,0000,0000,,Over here.
+Dialogue: 0,0:06:24.12,0:06:25.55,DCMain,TAKAGI,0000,0000,0000,,Hey, Conan-kun.
+Dialogue: 0,0:06:26.44,0:06:27.91,DCMain,TAKAGI,0000,0000,0000,,Please play the tape.
+Dialogue: 0,0:06:27.91,0:06:28.74,DCMain,EMPLOYEE,0000,0000,0000,,Got it.
+Dialogue: 0,0:06:33.27,0:06:35.77,DCMain,TAKAGI,0000,0000,0000,,This is it. Stop the video.
+Dialogue: 0,0:06:36.82,0:06:40.50,DCMain,TAKAGI,0000,0000,0000,,This is the trailer the \Nreal White Spirits was in.
+Dialogue: 0,0:06:40.50,0:06:46.32,DCMain,TAKAGI,0000,0000,0000,,Which means we might know where it went if \Nwe follow it on the other security camera.
+Dialogue: 0,0:06:46.32,0:06:48.78,DCMain,TAKAGI,0000,0000,0000,,I'm impressed Mori-san noticed.
+Dialogue: 0,0:06:48.78,0:06:50.76,DCMain,CONAN,0000,0000,0000,,Is he really in there?
+Dialogue: 0,0:06:51.09,0:06:51.76,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:06:51.96,0:06:55.51,DCMain,CONAN,0000,0000,0000,,Are we sure the real White \NSpirits was in this trailer?
+Dialogue: 0,0:06:55.71,0:07:01.02,DCMain,TAKAGI,0000,0000,0000,,Well, we can't see inside the \Ntrailer from here, but...
+Dialogue: 0,0:07:01.40,0:07:04.25,DCMain,CONAN,0000,0000,0000,,Could you show us that part again?
+Dialogue: 0,0:07:04.25,0:07:04.96,DCMain,EMPLOYEE,0000,0000,0000,,Sure.
+Dialogue: 0,0:07:09.30,0:07:09.90,DCMain,CONAN,0000,0000,0000,,Stop the video!
+Dialogue: 0,0:07:11.33,0:07:13.45,DCMain,CONAN,0000,0000,0000,,Look at this, Detective Takagi.
+Dialogue: 0,0:07:14.71,0:07:16.16,DCMain,TAKAGI,0000,0000,0000,,What? The date?
+Dialogue: 0,0:07:17.02,0:07:19.29,DCMain,TAKAGI,0000,0000,0000,,Wait, what? Could it be?
+Dialogue: 0,0:07:19.66,0:07:21.56,DCMain,TAKAGI,0000,0000,0000,,Which means...
+Dialogue: 0,0:07:22.27,0:07:24.84,DCMain,TAKAGI,0000,0000,0000,,But why?
+Dialogue: 0,0:07:25.90,0:07:28.46,DCItalic,CONAN,0000,0000,0000,,There's only one conceivable reason.
+Dialogue: 0,0:07:28.46,0:07:29.99,DCItalic,CONAN,0000,0000,0000,,Now I just need evidence.
+Dialogue: 0,0:07:34.47,0:07:37.85,Satoshi,SIGN,0000,0000,0000,,{\fad(250,811)}Ihara Satoshi (25) \NTrainee Stable Hand
+Dialogue: 0,0:07:34.49,0:07:37.57,DCMain,IHARA,0000,0000,0000,,{\an8}I'm sorry, I'm still only a trainee.
+Dialogue: 0,0:07:37.57,0:07:41.56,DCMain,IHARA,0000,0000,0000,,I'm unsure of the details, but...
+Dialogue: 0,0:07:41.56,0:07:44.71,DCMain,TAKAGI,0000,0000,0000,,But there's something \Nbothering you, isn't there?
+Dialogue: 0,0:07:44.71,0:07:47.82,DCMain,IHARA,0000,0000,0000,,One of the horse trailers hasn't come back.
+Dialogue: 0,0:07:49.09,0:07:50.44,DCMain,TAKAGI,0000,0000,0000,,Since when?
+Dialogue: 0,0:07:50.81,0:07:52.89,DCMain,IHARA,0000,0000,0000,,I think it's been three days now.
+Dialogue: 0,0:07:52.89,0:07:53.94,DCMain,TAKAGI,0000,0000,0000,,Three days...
+Dialogue: 0,0:07:55.31,0:07:58.20,DCMain,IHARA,0000,0000,0000,,Come to think of it, it must \Nbe since three days ago.
+Dialogue: 0,0:07:58.20,0:08:03.58,Nameplate,SIGN,0000,0000,0000,,White Spirits
+Dialogue: 0,0:07:58.72,0:08:03.58,DCMain,IHARA,0000,0000,0000,,I couldn't find White Spirits' \Nspare riding or grooming gear.
+Dialogue: 0,0:08:04.42,0:08:07.58,DCMain,TAKAGI,0000,0000,0000,,So it disappeared along \Nwith the horse trailer.
+Dialogue: 0,0:08:07.58,0:08:10.46,DCMain,TAKAGI,0000,0000,0000,,Where was White Spirits then? Here?
+Dialogue: 0,0:08:10.77,0:08:13.78,DCMain,IHARA,0000,0000,0000,,I'm not sure.
+Dialogue: 0,0:08:13.78,0:08:19.01,DCMain,IHARA,0000,0000,0000,,I was working with another horse \Nthat day, so I was out at the track.
+Dialogue: 0,0:08:19.01,0:08:23.73,DCMain,IHARA,0000,0000,0000,,But when I returned that night, \NWhite Spirits was here.
+Dialogue: 0,0:08:24.07,0:08:26.86,DCMain,TAKAGI,0000,0000,0000,,Which means it probably happened then.
+Dialogue: 0,0:08:29.55,0:08:32.61,DCMain,CONAN,0000,0000,0000,,Hey, is this a bloodstain?
+Dialogue: 0,0:08:32.61,0:08:33.93,DCMain,TAKAGI,0000,0000,0000,,A bloodstain?
+Dialogue: 0,0:08:33.93,0:08:36.97,DCMain,IHARA,0000,0000,0000,,Oh, actually...
+Dialogue: 0,0:08:36.97,0:08:38.60,DCMain,TAKAGI,0000,0000,0000,,What happened?
+Dialogue: 0,0:08:38.60,0:08:41.99,DCMain,IHARA,0000,0000,0000,,It's not a secret or anything.
+Dialogue: 0,0:08:41.99,0:08:44.61,DCMain,IHARA,0000,0000,0000,,That happened three days ago, too—
+Dialogue: 0,0:08:44.61,0:08:47.38,DCMain,IHARA,0000,0000,0000,,No, the day before that.
+Dialogue: 0,0:08:47.79,0:08:52.13,DCMain,IHARA,0000,0000,0000,,White Spirits rubbed against \Na splinter that formed there.
+Dialogue: 0,0:08:52.50,0:08:57.25,DCMain,IHARA,0000,0000,0000,,But the vet said it \Nfortunately wasn't serious,
+Dialogue: 0,0:08:57.25,0:08:59.64,DCMain,IHARA,0000,0000,0000,,and wouldn't affect his ability to race.
+Dialogue: 0,0:09:00.27,0:09:03.40,DCItalic,CONAN,0000,0000,0000,,I see. So that's how it is.
+Dialogue: 0,0:09:05.21,0:09:06.40,DCItalic,CONAN,0000,0000,0000,,What's that?
+Dialogue: 0,0:09:07.08,0:09:10.15,DCItalic,CONAN,0000,0000,0000,,The truth is starting to come together.
+Dialogue: 0,0:09:11.70,0:09:13.65,DCMain,KOGORO,0000,0000,0000,,Hello, Takagi?
+Dialogue: 0,0:09:13.98,0:09:17.32,DCMain,KOGORO,0000,0000,0000,,I need you to convey a message \Nto the inspector immediately.
+Dialogue: 0,0:09:18.44,0:09:20.35,DCMain,TAKAGI,0000,0000,0000,,Hello, this is Takagi.
+Dialogue: 0,0:09:20.35,0:09:21.34,DCMain,TAKAGI,0000,0000,0000,,Mori-san?
+Dialogue: 0,0:09:27.62,0:09:29.33,DCMain,TOKUYOSHI,0000,0000,0000,,What's the meaning of this?!
+Dialogue: 0,0:09:29.33,0:09:32.09,DCMain,TOKUYOSHI,0000,0000,0000,,I thought I said I was through \Nwith detectives and the police!
+Dialogue: 0,0:09:32.39,0:09:35.22,DCMain,MEGURE,0000,0000,0000,,Well, actually...
+Dialogue: 0,0:09:35.49,0:09:41.20,DCMain,KOGORO,0000,0000,0000,,Takagi, it better be true that you discovered \Nthe culprits and the truth behind the case.
+Dialogue: 0,0:09:41.20,0:09:42.15,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:09:42.15,0:09:45.23,DCMain,TAKAGI,0000,0000,0000,,Mori-san, you told me to tell the inspector \Nthat you uncovered the culprit's identity
+Dialogue: 0,0:09:45.23,0:09:47.02,DCMain,TAKAGI,0000,0000,0000,,and the truth behind the case.
+Dialogue: 0,0:09:48.30,0:09:51.23,DCMain,MEGURE,0000,0000,0000,,What are you two arguing about?
+Dialogue: 0,0:09:51.48,0:09:54.23,DCMain,MEGURE,0000,0000,0000,,Either way, it doesn't matter. \NHurry up and explain the situation.
+Dialogue: 0,0:09:54.80,0:09:56.49,DCMain,RAN,0000,0000,0000,,Dad...
+Dialogue: 0,0:09:56.49,0:09:58.36,DCItalic,CONAN,0000,0000,0000,,You can do it, old man.
+Dialogue: 0,0:09:59.15,0:10:00.55,DCMain,TAKAGI,0000,0000,0000,,Mori-san.
+Dialogue: 0,0:10:01.79,0:10:02.93,DCMain,KOGORO,0000,0000,0000,,Fine.
+Dialogue: 0,0:10:03.33,0:10:08.87,DCMain,KOGORO,0000,0000,0000,,Allow me to explain the culprit's \Nidentity and the truth behind the case.
+Dialogue: 0,0:10:09.08,0:10:10.17,DCMain,TOKUYOSHI,0000,0000,0000,,What?
+Dialogue: 0,0:10:11.89,0:10:12.88,DCItalic,CONAN,0000,0000,0000,,All right.
+Dialogue: 0,0:10:12.88,0:10:18.78,DCMain,KOGORO,0000,0000,0000,,This case—the kidnapping of White Spirits
+Dialogue: 0,0:10:18.78,0:10:23.51,DCMain,KOGORO,0000,0000,0000,,and the stolen ransom money—used \Nfundamentally the same trick.
+Dialogue: 0,0:10:24.06,0:10:27.89,DCMain,KOGORO,0000,0000,0000,,In other words, solve one, \Nand you've solved the other.
+Dialogue: 0,0:10:29.49,0:10:30.74,DCMain,MEGURE,0000,0000,0000,,Is that true?
+Dialogue: 0,0:10:31.55,0:10:34.90,DCMain,TOKUYOSHI,0000,0000,0000,,Then quit putting on airs and speak.
+Dialogue: 0,0:10:35.19,0:10:40.41,DCMain,KOGORO,0000,0000,0000,,First, how was White Spirits \Nswapped out for another horse?
+Dialogue: 0,0:10:40.41,0:10:46.09,DCMain,RAN,0000,0000,0000,,The driver swapped him for the horse
+Dialogue: 0,0:10:46.09,0:10:48.16,DCMain,RAN,0000,0000,0000,,in the other identical trailer \Nparked on the side road.
+Dialogue: 0,0:10:48.47,0:10:53.46,DCMain,MEGURE,0000,0000,0000,,Since his wife and child were kidnapped, he \Nwas forced to follow the culprit's instructions.
+Dialogue: 0,0:10:53.95,0:10:55.14,DCMain,MEGURE,0000,0000,0000,,Isn't that right?
+Dialogue: 0,0:10:55.94,0:10:57.30,DCMain,SHIOMI,0000,0000,0000,,Yes.
+Dialogue: 0,0:10:57.61,0:10:59.93,DCMain,KOGORO,0000,0000,0000,,Takagi, what did you see there?
+Dialogue: 0,0:11:00.45,0:11:02.99,DCMain,TAKAGI,0000,0000,0000,,I believe it was...
+Dialogue: 0,0:11:02.99,0:11:06.64,DCMain,CONAN,0000,0000,0000,,Tire tracks from two trailers.
+Dialogue: 0,0:11:06.64,0:11:08.18,DCMain,CONAN,0000,0000,0000,,It's strange, though.
+Dialogue: 0,0:11:08.99,0:11:11.15,DCMain,RAN,0000,0000,0000,,What was strange, Conan-kun?
+Dialogue: 0,0:11:11.15,0:11:16.82,DCMain,CONAN,0000,0000,0000,,One set of tire tracks was \Nmuch shallower than the other,
+Dialogue: 0,0:11:16.82,0:11:19.71,DCMain,CONAN,0000,0000,0000,,as though nothing were inside it.
+Dialogue: 0,0:11:20.40,0:11:22.07,DCMain,MEGURE,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:11:22.29,0:11:26.21,DCMain,TAKAGI,0000,0000,0000,,There was a convenience store at the \Nroad leading to the crime scene.
+Dialogue: 0,0:11:26.21,0:11:30.22,DCMain,TAKAGI,0000,0000,0000,,At Mori-san's direction, I investigated \Nthe security camera footage.
+Dialogue: 0,0:11:30.71,0:11:33.08,DCMain,KOGORO,0000,0000,0000,,Did I tell you to do that?
+Dialogue: 0,0:11:33.29,0:11:34.08,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:11:35.34,0:11:37.31,DCMain,KOGORO,0000,0000,0000,,C-Continue, Takagi.
+Dialogue: 0,0:11:37.31,0:11:38.26,DCMain,TAKAGI,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:11:38.64,0:11:41.38,DCMain,TAKAGI,0000,0000,0000,,I found footage of a horse \Ntrailer exiting that side road
+Dialogue: 0,0:11:41.38,0:11:44.76,DCMain,TAKAGI,0000,0000,0000,,and passing in front of \Nthe convenience store.
+Dialogue: 0,0:11:45.06,0:11:47.14,DCMain,TOKUYOSHI,0000,0000,0000,,Then that must have been it.
+Dialogue: 0,0:11:47.33,0:11:50.30,DCMain,MEGURE,0000,0000,0000,,What about White Spirits? Was he inside?
+Dialogue: 0,0:11:50.30,0:11:53.56,DCMain,TAKAGI,0000,0000,0000,,Unfortunately, I was unable to confirm that.
+Dialogue: 0,0:11:53.56,0:11:57.27,DCMain,TAKAGI,0000,0000,0000,,But more importantly, the footage \Nwas from three days ago.
+Dialogue: 0,0:11:57.45,0:11:58.69,DCMain,MEGURE,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:11:58.88,0:12:02.24,DCMain,TAKAGI,0000,0000,0000,,Which means it's possible \Nthe trailer and tire marks
+Dialogue: 0,0:12:02.24,0:12:06.58,DCMain,TAKAGI,0000,0000,0000,,were a camouflage created \Nthree days earlier.
+Dialogue: 0,0:12:06.77,0:12:11.83,DCMain,KOGORO,0000,0000,0000,,In other words, the other trailer \Nwasn't on the side road that day,
+Dialogue: 0,0:12:11.83,0:12:14.30,DCMain,KOGORO,0000,0000,0000,,but made to look like it was.
+Dialogue: 0,0:12:14.30,0:12:18.78,DCMain,KOGORO,0000,0000,0000,,The culprit did this to make us believe \Nthe horses were swapped, and...
+Dialogue: 0,0:12:19.16,0:12:25.59,DCMain,KOGORO,0000,0000,0000,,No, but White Spirits was actually \Nswapped out for the impostor, so...
+Dialogue: 0,0:12:25.98,0:12:30.00,DCMain,KOGORO,0000,0000,0000,,Wait. Which means they were swapped \Nnot there, but someplace else.
+Dialogue: 0,0:12:30.66,0:12:34.24,DCMain,KOGORO,0000,0000,0000,,Could it be that they were swapped all along?!
+Dialogue: 0,0:12:35.01,0:12:35.85,DCMain,KOGORO,0000,0000,0000,,What?!
+Dialogue: 0,0:12:36.03,0:12:37.11,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:12:37.86,0:12:38.86,DCMain,RAN,0000,0000,0000,,No way.
+Dialogue: 0,0:12:38.86,0:12:39.75,DCItalic,CONAN,0000,0000,0000,,Yes.
+Dialogue: 0,0:12:39.75,0:12:44.11,DCItalic,CONAN,0000,0000,0000,,That's what makes this case similar to \N"The Adventure of Silver Blaze."
+Dialogue: 0,0:12:45.24,0:12:49.16,DCMain,CHIBA,0000,0000,0000,,I actually investigated another \Nstable at Mori-san's direction, too.
+Dialogue: 0,0:12:49.35,0:12:51.24,DCMain,KOGORO,0000,0000,0000,,What? You, too?
+Dialogue: 0,0:12:53.42,0:12:54.36,DCMain,KOGORO,0000,0000,0000,,Continue.
+Dialogue: 0,0:12:54.36,0:12:55.84,DCMain,CHIBA,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:12:55.84,0:13:00.75,DCMain,CHIBA,0000,0000,0000,,Currently at that stable is this horse.
+Dialogue: 0,0:13:02.91,0:13:06.83,DCMain,RAN,0000,0000,0000,,It's that horse that looks \Nexactly like White Spirits.
+Dialogue: 0,0:13:07.27,0:13:09.17,DCMain,CHIBA,0000,0000,0000,,This is White Legion.
+Dialogue: 0,0:13:09.74,0:13:11.87,DCMain,CHIBA,0000,0000,0000,,He's the brother of White Spirits.
+Dialogue: 0,0:13:11.87,0:13:13.14,DCMain,RAN,0000,0000,0000,,Brother?
+Dialogue: 0,0:13:13.14,0:13:15.48,DCMain,KOGORO,0000,0000,0000,,I see. I've got it.
+Dialogue: 0,0:13:15.48,0:13:19.61,DCMain,KOGORO,0000,0000,0000,,In other words, the horses \Nweren't swapped there.
+Dialogue: 0,0:13:19.61,0:13:26.03,DCMain,KOGORO,0000,0000,0000,,The disguise placed on White \NSpirits' brother was removed.
+Dialogue: 0,0:13:26.24,0:13:27.53,DCItalic,CONAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:13:29.48,0:13:32.29,DCMain,TAKAGI,0000,0000,0000,,Conan-kun found this there.
+Dialogue: 0,0:13:32.54,0:13:34.64,DCMain,MEGURE,0000,0000,0000,,Horse hair?
+Dialogue: 0,0:13:34.64,0:13:35.54,DCMain,CHIBA,0000,0000,0000,,Yes.
+Dialogue: 0,0:13:35.54,0:13:38.72,DCMain,CHIBA,0000,0000,0000,,According to forensics, one is White \NSpirits' hair used in the disguise.
+Dialogue: 0,0:13:38.72,0:13:42.30,DCMain,CHIBA,0000,0000,0000,,The other belongs to White Legion.
+Dialogue: 0,0:13:43.19,0:13:47.52,DCMain,CHIBA,0000,0000,0000,,They probably both fell out \Nwhen the disguise was removed.
+Dialogue: 0,0:13:48.06,0:13:51.30,DCMain,KOGORO,0000,0000,0000,,Which means the culprits are the people
+Dialogue: 0,0:13:51.63,0:13:56.31,DCMain,KOGORO,0000,0000,0000,,who dragged me into this by hiring me,
+Dialogue: 0,0:13:56.50,0:14:00.00,DCMain,KOGORO,0000,0000,0000,,setting me up to fail, and made \Nhorse owner Tokuyoshi-san shun my
+Dialogue: 0,0:14:00.00,0:14:03.21,DCMain,KOGORO,0000,0000,0000,,and the police's protection and attempt \Nto pay the ransom money alone.
+Dialogue: 0,0:14:03.21,0:14:05.76,DCMain,KOGORO,0000,0000,0000,,Stable hand Nagaura Saniaki-san.
+Dialogue: 0,0:14:05.76,0:14:07.85,DCMain,KOGORO,0000,0000,0000,,Trainer Hase Yasutaka-san.
+Dialogue: 0,0:14:07.85,0:14:10.07,DCMain,KOGORO,0000,0000,0000,,Jockey Kakuta Chizuru-san.
+Dialogue: 0,0:14:10.07,0:14:11.86,DCMain,KOGORO,0000,0000,0000,,You three.
+Dialogue: 0,0:14:13.75,0:14:15.81,DCMain,TOKUYOSHI,0000,0000,0000,,Is this true, Mori-san?
+Dialogue: 0,0:14:16.41,0:14:17.75,DCMain,TOKUYOSHI,0000,0000,0000,,How dare you?!
+Dialogue: 0,0:14:20.51,0:14:25.66,DCMain,KOGORO,0000,0000,0000,,You think you've used the great Mori \NKogoro, but you haven't at all!
+Dialogue: 0,0:14:25.66,0:14:27.32,DCItalic,CONAN,0000,0000,0000,,He couldn't do it.
+Dialogue: 0,0:14:27.32,0:14:31.64,DCItalic,CONAN,0000,0000,0000,,I thought I'd let the old man handle \Nthis one since he loves horses, but...
+Dialogue: 0,0:14:39.13,0:14:40.76,DCMain,KOGORO,0000,0000,0000,,Huh? Is this it?
+Dialogue: 0,0:14:40.76,0:14:43.61,DCMain,KOGORO,0000,0000,0000,,It took a little longer this time...
+Dialogue: 0,0:14:48.55,0:14:49.53,DCMain,MEGURE,0000,0000,0000,,Mori-kun?
+Dialogue: 0,0:14:49.53,0:14:50.82,DCMain,RAN,0000,0000,0000,,Dad?
+Dialogue: 0,0:14:54.46,0:14:55.99,DCMain,KOGORO,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:14:56.18,0:15:00.59,DCMain,KOGORO,0000,0000,0000,,It's true that the three of \Nyou committed this crime.
+Dialogue: 0,0:15:00.59,0:15:03.47,DCMain,KOGORO,0000,0000,0000,,I had Takagi and Chiba confirm
+Dialogue: 0,0:15:03.47,0:15:07.15,DCMain,KOGORO,0000,0000,0000,,that you have no alibis for when \NWhite Spirits was being transported.
+Dialogue: 0,0:15:07.51,0:15:10.35,DCMain,KOGORO,0000,0000,0000,,Nor for three days earlier,
+Dialogue: 0,0:15:10.35,0:15:14.26,DCMain,KOGORO,0000,0000,0000,,when White Spirits and a horse trailer \Ntemporarily disappeared from the stable.
+Dialogue: 0,0:15:14.69,0:15:20.02,DCMain,KOGORO,0000,0000,0000,,White Spirits was probably already swapped \Nout for White Legion at this time.
+Dialogue: 0,0:15:21.20,0:15:22.72,DCMain,KOGORO,0000,0000,0000,,There's one more person.
+Dialogue: 0,0:15:22.72,0:15:26.53,DCMain,KOGORO,0000,0000,0000,,Trailer driver Shiomi-san, \Nyou're also their accomplice.
+Dialogue: 0,0:15:26.53,0:15:30.89,DCMain,KOGORO,0000,0000,0000,,If there wasn't a second \Ntrailer on that side road,
+Dialogue: 0,0:15:30.89,0:15:33.27,DCMain,KOGORO,0000,0000,0000,,that ruins your whole testimony.
+Dialogue: 0,0:15:33.69,0:15:38.89,DCMain,KOGORO,0000,0000,0000,,Or were your wife and child \Npretending to be kidnapped, too?
+Dialogue: 0,0:15:40.22,0:15:45.92,DCMain,KOGORO,0000,0000,0000,,However, there's a ringleader—a \Nmastermind behind this plot.
+Dialogue: 0,0:15:46.24,0:15:48.74,DCMain,KOGORO,0000,0000,0000,,You, Tokuyoshi Kozo-san.
+Dialogue: 0,0:15:49.30,0:15:50.81,DCMain,MEGURE,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:15:50.81,0:15:52.65,DCMain,RAN,0000,0000,0000,,Is that true, Dad?
+Dialogue: 0,0:15:54.72,0:15:56.21,DCMain,TOKUYOSHI,0000,0000,0000,,Well, well.
+Dialogue: 0,0:15:56.21,0:16:00.06,DCMain,TOKUYOSHI,0000,0000,0000,,When did you become the \Ngreat confused detective?
+Dialogue: 0,0:16:00.06,0:16:02.08,DCMain,TOKUYOSHI,0000,0000,0000,,I'm the victim who was made
+Dialogue: 0,0:16:02.08,0:16:06.31,DCMain,TOKUYOSHI,0000,0000,0000,,to pay a 100 million \Nransom for a mere horse.
+Dialogue: 0,0:16:06.72,0:16:09.58,DCMain,KOGORO,0000,0000,0000,,A mere horse, huh?
+Dialogue: 0,0:16:09.58,0:16:12.66,DCMain,KOGORO,0000,0000,0000,,Hard to imagine a horse owner saying that,
+Dialogue: 0,0:16:12.66,0:16:16.32,DCMain,KOGORO,0000,0000,0000,,especially when you haven't \Nactually paid a single yen.
+Dialogue: 0,0:16:17.65,0:16:21.05,DCMain,MEGURE,0000,0000,0000,,Wh-What? What does that mean, Mori-kun?
+Dialogue: 0,0:16:21.05,0:16:25.29,DCMain,KOGORO,0000,0000,0000,,Remember that none of us checked to see
+Dialogue: 0,0:16:25.29,0:16:27.34,DCMain,KOGORO,0000,0000,0000,,if there was actually 100 \Nmillion yen inside that back.
+Dialogue: 0,0:16:27.73,0:16:29.34,DCMain,MEGURE,0000,0000,0000,,You're right.
+Dialogue: 0,0:16:29.88,0:16:33.56,DCMain,KOGORO,0000,0000,0000,,The bag Tokuyoshi-san took was \Nfilled with worthless stuffing.
+Dialogue: 0,0:16:34.19,0:16:38.54,DCMain,KOGORO,0000,0000,0000,,Just as it was a different horse \Ninside the trailer all along,
+Dialogue: 0,0:16:39.02,0:16:44.10,DCMain,KOGORO,0000,0000,0000,,he pretended the bag stuffed with \Nmagazines contained 100 million yen.
+Dialogue: 0,0:16:44.30,0:16:45.60,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:16:45.85,0:16:46.81,DCMain,KOGORO,0000,0000,0000,,Conan.
+Dialogue: 0,0:16:46.81,0:16:48.11,DCMain,CONAN,0000,0000,0000,,Here.
+Dialogue: 0,0:16:49.72,0:16:55.63,DCMain,CONAN,0000,0000,0000,,You stuffed the magazines in the rack in \Nyour living room inside the bag, didn't you?
+Dialogue: 0,0:16:55.63,0:16:57.95,DCMain,CONAN,0000,0000,0000,,You left behind part of a ripped cover.
+Dialogue: 0,0:16:58.42,0:17:02.26,DCMain,CONAN,0000,0000,0000,,If there are any ripped \Nmagazines inside the bag,
+Dialogue: 0,0:17:02.26,0:17:03.62,DCMain,CONAN,0000,0000,0000,,and it matches that...
+Dialogue: 0,0:17:03.83,0:17:05.37,DCMain,MEGURE,0000,0000,0000,,Which means...
+Dialogue: 0,0:17:05.37,0:17:06.79,DCMain,RAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:17:06.79,0:17:07.91,DCMain,KOGORO,0000,0000,0000,,Yes.
+Dialogue: 0,0:17:07.91,0:17:10.42,DCMain,KOGORO,0000,0000,0000,,It was all a lie.
+Dialogue: 0,0:17:10.61,0:17:12.70,DCMain,MEGURE,0000,0000,0000,,But why?
+Dialogue: 0,0:17:13.57,0:17:14.31,DCMain,KOGORO,0000,0000,0000,,Chiba!
+Dialogue: 0,0:17:14.88,0:17:15.87,DCMain,CHIBA,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:17:15.87,0:17:18.17,DCMain,CHIBA,0000,0000,0000,,Mori-san asked me to look into it.
+Dialogue: 0,0:17:18.17,0:17:20.13,DCMain,CHIBA,0000,0000,0000,,Someone requested a payout \Nof the life insurance policy
+Dialogue: 0,0:17:20.13,0:17:23.43,DCMain,CHIBA,0000,0000,0000,,on White Spirits with a major \Nforeign insurance company.
+Dialogue: 0,0:17:23.84,0:17:26.94,DCMain,CHIBA,0000,0000,0000,,The beneficiary is Tokuyoshi Kozo.
+Dialogue: 0,0:17:27.76,0:17:30.07,DCMain,CHIBA,0000,0000,0000,,The problem lies in the date \Nthe money was requested.
+Dialogue: 0,0:17:30.31,0:17:34.57,DCMain,CHIBA,0000,0000,0000,,It was the day before White \NSpirits' horse blanket was found.
+Dialogue: 0,0:17:34.76,0:17:37.82,DCMain,MEGURE,0000,0000,0000,,The day before? Wait a minute.
+Dialogue: 0,0:17:39.56,0:17:40.49,DCMain,KOGORO,0000,0000,0000,,Yes.
+Dialogue: 0,0:17:40.49,0:17:45.96,DCMain,KOGORO,0000,0000,0000,,How did you know White Spirits was \Ndead at that time, Tokuyoshi-san?
+Dialogue: 0,0:17:46.32,0:17:51.84,DCMain,TOKUYOSHI,0000,0000,0000,,B-Because they threatened \Nto kill White Spirits.
+Dialogue: 0,0:17:52.12,0:17:52.89,DCMain,KOGORO,0000,0000,0000,,Really?
+Dialogue: 0,0:17:52.89,0:17:56.89,DCMain,KOGORO,0000,0000,0000,,Surely you didn't really think \Nyou'd be paid the insurance money
+Dialogue: 0,0:17:56.89,0:17:58.84,DCMain,KOGORO,0000,0000,0000,,over such uncertain circumstances.
+Dialogue: 0,0:18:00.88,0:18:05.35,DCMain,KOGORO,0000,0000,0000,,It's actually because your \Nemployees reported to you
+Dialogue: 0,0:18:05.98,0:18:08.85,DCMain,KOGORO,0000,0000,0000,,that they'd killed White Spirits, isn't it?
+Dialogue: 0,0:18:11.14,0:18:12.73,DCMain,NAGAURA,0000,0000,0000,,That's right.
+Dialogue: 0,0:18:12.73,0:18:14.35,DCMain,TOKUYOSHI,0000,0000,0000,,You—
+Dialogue: 0,0:18:14.77,0:18:16.32,DCMain,TOKUYOSHI,0000,0000,0000,,I know nothing of this.
+Dialogue: 0,0:18:16.32,0:18:19.32,DCMain,TOKUYOSHI,0000,0000,0000,,They kidnapped him on their own.
+Dialogue: 0,0:18:19.32,0:18:21.62,DCMain,TOKUYOSHI,0000,0000,0000,,I'm innocent. I'm a victim.
+Dialogue: 0,0:18:22.00,0:18:26.14,DCMain,TOKUYOSHI,0000,0000,0000,,And ultimately, White Spirits is dead.
+Dialogue: 0,0:18:26.14,0:18:28.67,DCMain,TOKUYOSHI,0000,0000,0000,,They killed him.
+Dialogue: 0,0:18:28.97,0:18:32.04,DCMain,TOKUYOSHI,0000,0000,0000,,It's within my rights to \Nrequest the insurance money.
+Dialogue: 0,0:18:32.37,0:18:33.66,DCMain,KOGORO,0000,0000,0000,,Yes, that's right.
+Dialogue: 0,0:18:34.26,0:18:38.42,DCMain,KOGORO,0000,0000,0000,,But only if White Spirits really is dead.
+Dialogue: 0,0:18:38.69,0:18:40.01,DCMain,TOKUYOSHI,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:18:40.22,0:18:41.64,DCMain,RAN,0000,0000,0000,,What do you mean, Dad?
+Dialogue: 0,0:18:41.85,0:18:42.91,DCMain,RAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:18:49.17,0:18:51.10,DCMain,RAN,0000,0000,0000,,White Spirits!
+Dialogue: 0,0:18:51.10,0:18:53.27,DCMain,RAN,0000,0000,0000,,He's okay. What a relief.
+Dialogue: 0,0:18:53.83,0:18:54.94,DCMain,TOKUYOSHI,0000,0000,0000,,I-Impossible.
+Dialogue: 0,0:18:55.32,0:18:57.03,DCMain,NAGAURA,0000,0000,0000,,You knew?
+Dialogue: 0,0:18:57.23,0:18:58.01,DCMain,KOGORO,0000,0000,0000,,Yes.
+Dialogue: 0,0:18:58.55,0:19:04.66,DCMain,KOGORO,0000,0000,0000,,While acting according to Tokuyoshi's \NWhite Spirits kidnapping and murder plot,
+Dialogue: 0,0:19:04.97,0:19:10.17,DCMain,KOGORO,0000,0000,0000,,in the end, you hid White Spirits in \Na safe place rather than killing him.
+Dialogue: 0,0:19:10.17,0:19:15.17,DCMain,KOGORO,0000,0000,0000,,And to increase the credibility \Nof your report to Tokuyoshi,
+Dialogue: 0,0:19:15.57,0:19:21.22,DCMain,KOGORO,0000,0000,0000,,you left an anonymous tip with the police \Nso they'd discover the horse blanket
+Dialogue: 0,0:19:21.22,0:19:23.68,DCMain,KOGORO,0000,0000,0000,,White Spirits bled on when he \Nscratched himself at the stables.
+Dialogue: 0,0:19:23.91,0:19:25.39,DCMain,TOKUYOSHI,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:19:27.73,0:19:31.63,DCMain,MEGURE,0000,0000,0000,,Where has White Spirits been until now?
+Dialogue: 0,0:19:31.63,0:19:32.23,DCMain,KOGORO,0000,0000,0000,,Conan!
+Dialogue: 0,0:19:32.47,0:19:33.94,DCMain,CONAN,0000,0000,0000,,Here!
+Dialogue: 0,0:19:33.94,0:19:35.39,DCMain,CONAN,0000,0000,0000,,Did you bring it?
+Dialogue: 0,0:19:35.39,0:19:37.13,DCMain,IHARA,0000,0000,0000,,Yeah, you mean this?
+Dialogue: 0,0:19:39.02,0:19:42.67,DCMain,CONAN,0000,0000,0000,,This photo wasn't taken at TOKUYOSHI Stables.
+Dialogue: 0,0:19:42.67,0:19:44.53,DCMain,CONAN,0000,0000,0000,,The color of the wall is different.
+Dialogue: 0,0:19:44.76,0:19:46.20,DCMain,NAGAURA,0000,0000,0000,,It's KITADO Stables.
+Dialogue: 0,0:19:46.20,0:19:49.31,DCMain,NAGAURA,0000,0000,0000,,We used to work there.
+Dialogue: 0,0:19:49.31,0:19:53.29,DCMain,NAGAURA,0000,0000,0000,,White Spirits and White \NLegion were born there.
+Dialogue: 0,0:19:53.45,0:19:55.75,DCMain,MEGURE,0000,0000,0000,,So he's been there until now?
+Dialogue: 0,0:19:55.75,0:19:56.61,DCMain,HASE,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:56.61,0:20:00.38,DCMain,HASE,0000,0000,0000,,The trailer I used to transport \NWhite Spirits is there, too.
+Dialogue: 0,0:20:00.38,0:20:03.30,DCMain,MEGURE,0000,0000,0000,,But why did you do this?
+Dialogue: 0,0:20:03.87,0:20:06.68,DCMain,KOGORO,0000,0000,0000,,Isn't it obvious, Inspector?
+Dialogue: 0,0:20:07.57,0:20:11.56,DCMain,KOGORO,0000,0000,0000,,Because for them, he's not a mere horse.
+Dialogue: 0,0:20:13.05,0:20:15.56,DCMain,KAKUTA,0000,0000,0000,,We were bought with money.
+Dialogue: 0,0:20:15.56,0:20:18.38,DCMain,KAKUTA,0000,0000,0000,,That man, Tokuyoshi Kozo,
+Dialogue: 0,0:20:18.38,0:20:21.32,DCMain,KAKUTA,0000,0000,0000,,poached us and White Spirits.
+Dialogue: 0,0:20:21.69,0:20:26.57,DCMain,KAKUTA,0000,0000,0000,,But I loved White Spirits, as a jockey.
+Dialogue: 0,0:20:26.87,0:20:28.34,DCMain,NAGAURA,0000,0000,0000,,As a stable hand.
+Dialogue: 0,0:20:28.88,0:20:30.39,DCMain,HASE,0000,0000,0000,,As a trainer.
+Dialogue: 0,0:20:34.55,0:20:40.29,DCMain,KOGORO,0000,0000,0000,,You must've raised White Spirits \Nsince the day he was born.
+Dialogue: 0,0:20:41.12,0:20:45.28,DCItalic,CONAN,0000,0000,0000,,Tokuyoshi, who was under financial strain \Ndue to some reckless foreign investments,
+Dialogue: 0,0:20:45.28,0:20:48.58,DCItalic,CONAN,0000,0000,0000,,planned to fake the kidnapping of \Nand ultimately kill White Spirits
+Dialogue: 0,0:20:48.58,0:20:51.63,DCItalic,CONAN,0000,0000,0000,,in order to fraudulently obtain \Na huge insurance payout.
+Dialogue: 0,0:20:52.10,0:20:56.64,DCItalic,CONAN,0000,0000,0000,,He used the debts his employees owned \Nto force them to carry out the crime.
+Dialogue: 0,0:20:57.09,0:20:59.13,DCItalic,CONAN,0000,0000,0000,,In order to stop him,
+Dialogue: 0,0:20:59.13,0:21:04.36,DCItalic,CONAN,0000,0000,0000,,they disguised themselves and hired \Nthe old man to protect White Spirits.
+Dialogue: 0,0:21:04.36,0:21:10.08,GreatDetective,SIGN,0000,0000,0000,,{\fad(1,646)}Great Detective Mori Kogoro
+Dialogue: 0,0:21:04.63,0:21:09.53,DCItalic,CONAN,0000,0000,0000,,With a great detective on the case, they \Nassumed Tokuyoshi would cancel his plans.
+Dialogue: 0,0:21:10.18,0:21:11.58,DCItalic,CONAN,0000,0000,0000,,However, Tokuyoshi believed
+Dialogue: 0,0:21:11.58,0:21:16.08,DCItalic,CONAN,0000,0000,0000,,having a famous detective nearby \Nwould help him play the victim
+Dialogue: 0,0:21:16.08,0:21:17.88,DCItalic,CONAN,0000,0000,0000,,and carried out his plan.
+Dialogue: 0,0:21:18.45,0:21:23.82,DCItalic,CONAN,0000,0000,0000,,They pretended to follow his plan \Nand hid White Spirits instead,
+Dialogue: 0,0:21:23.82,0:21:27.89,DCItalic,CONAN,0000,0000,0000,,hoping to reveal the truth and \Nthat White Spirits was safe
+Dialogue: 0,0:21:27.89,0:21:30.89,DCItalic,CONAN,0000,0000,0000,,once Tokuyoshi requested \Nthe insurance money.
+Dialogue: 0,0:21:49.24,0:21:53.67,DCItalic,CONAN,0000,0000,0000,,Tokuyoshi was arrested and his \Nemployees were questioned,
+Dialogue: 0,0:21:53.67,0:21:57.55,DCItalic,CONAN,0000,0000,0000,,but the police later chose not to prosecute \Nthem due to their circumstances.
+Dialogue: 0,0:23:21.92,0:23:27.34,DCItalic,CONAN,0000,0000,0000,,Later, White Spirits returned \Nto racing under a new owner.
+Dialogue: 0,0:23:37.60,0:23:39.50,DCMain,RAN,0000,0000,0000,,White Spirits!
+Dialogue: 0,0:23:39.50,0:23:41.80,DCMain,RAN,0000,0000,0000,,You can do it!
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.30,0:23:45.77,DCMain,OGU,0000,0000,0000,,What?
+Dialogue: 0,0:23:46.21,0:23:47.34,DCMain,OGU,0000,0000,0000,,Sensei!
+Dialogue: 0,0:23:48.26,0:23:50.53,DCMain,CHIBA,0000,0000,0000,,She was killed last night.
+Dialogue: 0,0:23:50.79,0:23:51.93,DCMain,OGU,0000,0000,0000,,Last night?
+Dialogue: 0,0:23:51.93,0:23:53.12,DCMain,MEGURE,0000,0000,0000,,Is there a problem?
+Dialogue: 0,0:23:53.12,0:23:57.29,DCMain,OGU,0000,0000,0000,,Then the detective Mori \NKogoro might know something.
+Dialogue: 0,0:23:57.81,0:24:03.29,DCMain,KOGORO,0000,0000,0000,,While these three are suspicious, \Nthe culprit isn't one of them.
+Dialogue: 0,0:24:03.80,0:24:06.29,DCMain,KOGORO,0000,0000,0000,,It's all three of them.
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,TEXT,0000,0000,0000,,The Fortune Teller and the Three Customers
+Dialogue: 0,0:24:09.53,0:24:13.47,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The Fortune \NTeller and the Three Customers!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,TEXT,0000,0000,0000,,Alien Ramen
+Dialogue: 0,0:24:30.29,0:24:32.94,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.94,0:24:34.99,DCMain,CONAN,0000,0000,0000,,Alien ramen!
+Dialogue: 0,0:24:34.99,0:24:36.29,DCMain,RAN,0000,0000,0000,,{\an8}This movie features a magic trick.
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.29,0:24:37.77,DCMain,KOGORO,0000,0000,0000,,{\an8}This weeks' Friday Roadshow feature is?
+Dialogue: 0,0:24:37.77,0:24:39.76,DCMain,CONAN,0000,0000,0000,,{\an8}The movie "The Last \NWizard of the Century!"

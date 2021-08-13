@@ -1,0 +1,450 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0060,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Takuji,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00925159,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0070,0010,0065,0
+Style: Private3,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0010,0065,0065,0
+Style: Title,Trebuchet MS,24,&H00AFF6F4,&H000000FF,&H00543DA3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0018,0
+Style: Author,Trebuchet MS,14,&H00D6D3E7,&H000000FF,&H002C2157,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0010,0090,0050,0
+Style: Text,Trebuchet MS,24,&H00000000,&H000000FF,&H00FDFDFD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0100,0020,0
+Style: Hiroyuki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00805574,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0065,0
+Style: Nana,Trebuchet MS,28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,7,0170,0010,0040,0
+Style: Na1,Trebuchet MS,28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,7,0060,0010,0160,0
+Style: Na2,Trebuchet MS,28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,7,0195,0010,0160,0
+Style: V,Trebuchet MS,28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,7,0165,0010,0090,0
+Style: Green,Trebuchet MS,16,&H001B1E42,&H000000FF,&H00C8C8C8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0400,0010,0070,0
+Style: Tree,Trebuchet MS,16,&H001B1E42,&H000000FF,&H00C8C8C8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0070,0010,0055,0
+Style: Fa,Trebuchet MS,16,&H001B1E42,&H000000FF,&H00C8C8C8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0070,0010,0036,0
+Style: Kinomiri,Trebuchet MS,20,&H002F363F,&H000000FF,&H009BA9A6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0070,0010,0018,0
+Style: Office,Trebuchet MS,20,&H001E2140,&H000000FF,&H00F9F8FF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0270,0010,0110,0
+Style: School,Trebuchet MS,20,&H001E2140,&H000000FF,&H00F9F8FF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0150,0080,0
+Style: Restaurant,Trebuchet MS,20,&H001E2140,&H000000FF,&H00F9F8FF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0060,0010,0135,0
+Style: Center,Trebuchet MS,20,&H001E2140,&H000000FF,&H00F9F8FF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0110,0
+Style: Megrez,Trebuchet MS,24,&H00C6D0D1,&H000000FF,&H002F2B29,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0010,0010,0090,0
+Style: Garden,Trebuchet MS,20,&H00464442,&H000000FF,&H00D3D2CD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0047,0
+Style: Alloy,Trebuchet MS,18,&H00363634,&H000000FF,&H00C7CBC8,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0210,0095,0
+Style: Wow,Trebuchet MS,24,&H000C0F10,&H000000FF,&H0081F1FC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0010,0010,0018,0
+Style: Bomb,Trebuchet MS,18,&H00784C85,&H000000FF,&H00BDD19C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0010,0090,0050,0
+Style: Kanematsu,Trebuchet MS,18,&H00784C85,&H000000FF,&H00BDD19C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0050,0010,0095,0
+Style: Winner,Trebuchet MS,24,&H004C0082,&H000000FF,&H00EDEAF5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,0
+Style: Recommended,Trebuchet MS,18,&H00282632,&H000000FF,&H00E5E1ED,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0010,0050,0100,0
+Style: Author2,Trebuchet MS,20,&H00030303,&H000000FF,&H00E3E6E5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0420,0010,0080,0
+Style: Note,Trebuchet MS,18,&H00030303,&H000000FF,&H00E3E6E5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0400,0080,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 884 "The \NPop-up Book Bomber (Part Two)"
+Dialogue: 0,0:00:00.00,0:00:01.73,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:00:01.73,0:00:06.11,DCMain,CONAN,0000,0000,0000,,The unfinished pop-up book \NKogoro-no-occhan
+Dialogue: 0,0:00:06.44,0:00:09.75,DCMain,CONAN,0000,0000,0000,,received in the mail contained \Na series of bomb threats.
+Dialogue: 0,0:00:10.99,0:00:13.50,DCMain,CONAN,0000,0000,0000,,It was thought to be the work of \Nthe dead author's half-brother
+Dialogue: 0,0:00:14.00,0:00:18.91,DCMain,CONAN,0000,0000,0000,,{\an8}with a previous conviction of manufacturing \Nexplosives, Hirukawa Takuji.
+Dialogue: 0,0:00:15.11,0:00:16.91,Takuji,TEXT,0000,0000,0000,,{\fad(250,1)}Hirukawa Takuji (38) \NBomber
+Dialogue: 0,0:00:19.83,0:00:21.69,DCMain,CONAN,0000,0000,0000,,Through the old man's efforts,
+Dialogue: 0,0:00:21.95,0:00:25.00,DCMain,CONAN,0000,0000,0000,,the second explosion was \Nsuccessfully avoided.
+Dialogue: 0,0:00:28.62,0:00:29.61,DCMain,KOGORO,0000,0000,0000,,All right.
+Dialogue: 0,0:00:30.30,0:00:31.26,DCMain,KOGORO,0000,0000,0000,,We did it!
+Dialogue: 0,0:00:31.30,0:00:32.63,Private3,TEXT,0000,0000,0000,,{\fad(210,1)}Private Caller
+Dialogue: 0,0:00:35.90,0:00:37.50,DCItalic,PHONE,0000,0000,0000,,Tick tock, tick tock.
+Dialogue: 0,0:00:37.50,0:00:38.70,DCItalic,PHONE,0000,0000,0000,,Boom!
+Dialogue: 0,0:00:39.29,0:00:42.48,DCItalic,PHONE,0000,0000,0000,,Well done, Detective Mori Kogoro.
+Dialogue: 0,0:00:43.18,0:00:47.05,DCItalic,PHONE,0000,0000,0000,,But the game isn't over yet.
+Dialogue: 0,0:00:48.00,0:00:49.65,DCMain,KOGORO,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:00:50.04,0:00:54.82,Title,SIGN,0000,0000,0000,,{\fad(920,1)}Grandpa Tick Tock and the Three Clocks
+Dialogue: 0,0:00:51.10,0:00:53.81,DCMain,CONAN,0000,0000,0000,,"Grandpa Tick Tock is a clock maker."
+Dialogue: 0,0:00:53.67,0:00:54.82,Author,SIGN,0000,0000,0000,,By Imai Kenichi
+Dialogue: 0,0:00:54.45,0:00:56.71,DCMain,CONAN,0000,0000,0000,,"Tick tock, tick tock."
+Dialogue: 0,0:00:57.28,0:01:01.90,DCMain,CONAN,0000,0000,0000,,"Deliver the final clock \Nto the middle of the 7."
+Dialogue: 0,0:01:03.83,0:01:05.84,DCMain,CONAN,0000,0000,0000,,Curtains rise as the headliner appears!
+Dialogue: 0,0:01:05.84,0:01:08.31,DCMain,CONAN,0000,0000,0000,,He beautifully dances his \Nmystery-solving steps!
+Dialogue: 0,0:01:08.31,0:01:10.42,DCMain,CONAN,0000,0000,0000,,The pop-up book and the final bomb.
+Dialogue: 0,0:01:10.42,0:01:12.34,DCMain,CONAN,0000,0000,0000,,The mystery of seven takes us \Nin an unexpected direction.
+Dialogue: 0,0:01:12.84,0:01:14.59,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:14.59,0:01:16.47,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:16.47,0:01:19.05,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:58.99,0:03:04.99,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(397,1)}The Pop-up Book Bomber \N(Part Two)
+Dialogue: 0,0:02:59.82,0:03:03.42,DCMain,CONAN,0000,0000,0000,,"The Pop-up Book Bomber, Part Two!"
+Dialogue: 0,0:03:04.99,0:03:08.25,Text,TEXT,0000,0000,0000,,Deliver the final clock \Nto the middle of the 7.
+Dialogue: 0,0:03:08.74,0:03:09.95,DCMain,KOGORO,0000,0000,0000,,Damn it!
+Dialogue: 0,0:03:09.95,0:03:12.50,DCMain,KOGORO,0000,0000,0000,,What does the middle of seven mean?
+Dialogue: 0,0:03:12.91,0:03:16.00,DCMain,KOGORO,0000,0000,0000,,Divide seven by two is 3.5.
+Dialogue: 0,0:03:16.00,0:03:17.18,DCMain,KOGORO,0000,0000,0000,,"Nana"...
+Dialogue: 0,0:03:16.51,0:03:19.63,Nana,TEXT,0000,0000,0000,,nana
+Dialogue: 0,0:03:17.18,0:03:19.39,DCMain,KOGORO,0000,0000,0000,,Between "na" and "na?"
+Dialogue: 0,0:03:17.25,0:03:19.63,Na1,TEXT,0000,0000,0000,,na
+Dialogue: 0,0:03:17.77,0:03:19.63,Na2,TEXT,0000,0000,0000,,na
+Dialogue: 0,0:03:21.00,0:03:22.06,DCMain,KOGORO,0000,0000,0000,,Seven!
+Dialogue: 0,0:03:22.06,0:03:22.51,DCMain,KOGORO,0000,0000,0000,,"V?"
+Dialogue: 0,0:03:22.10,0:03:23.26,V,TEXT,0000,0000,0000,,{\fad(1,375)}V
+Dialogue: 0,0:03:24.39,0:03:27.16,DCMain,KOGORO,0000,0000,0000,,None of them seem right.
+Dialogue: 0,0:03:27.89,0:03:30.05,DCMain,KOGORO,0000,0000,0000,,I have no idea!
+Dialogue: 0,0:03:33.46,0:03:34.66,DCMain,KOGORO,0000,0000,0000,,Hey, you!
+Dialogue: 0,0:03:34.66,0:03:37.73,DCMain,KOGORO,0000,0000,0000,,You really don't remember \Nthe answer to the riddle?!
+Dialogue: 0,0:03:37.73,0:03:38.82,DCMain,TOMONAGA,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:03:39.07,0:03:45.41,Hiroyuki,TEXT,0000,0000,0000,,{\fad(250,250)}Tomonaga Hiroyuki (45) \NEditor In Chief
+Dialogue: 0,0:03:39.20,0:03:42.73,DCMain,TOMONAGA,0000,0000,0000,,{\an8}Like I mentioned before, \Npublication was delayed.
+Dialogue: 0,0:03:42.73,0:03:46.48,DCMain,TOMONAGA,0000,0000,0000,,{\an8}I was too busy handling \Nthe incident to read it.
+Dialogue: 0,0:03:47.58,0:03:49.33,DCMain,TOMONAGA,0000,0000,0000,,But I do remember the end.
+Dialogue: 0,0:03:49.57,0:03:50.88,DCMain,KOGORO,0000,0000,0000,,The end?
+Dialogue: 0,0:03:50.88,0:03:53.59,DCMain,TOMONAGA,0000,0000,0000,,It's not a 100% happy ending.
+Dialogue: 0,0:03:53.59,0:03:58.42,DCMain,TOMONAGA,0000,0000,0000,,Our company wasn't sure it was \Nappropriate for a children's book.
+Dialogue: 0,0:03:59.28,0:04:02.48,DCMain,RAN,0000,0000,0000,,I thought the same thing after reading it.
+Dialogue: 0,0:04:02.48,0:04:05.30,DCMain,RAN,0000,0000,0000,,The drawings and pop-ups \Nare really cute, but...
+Dialogue: 0,0:04:05.57,0:04:06.98,DCMain,KOGORO,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:04:06.98,0:04:10.24,DCMain,RAN,0000,0000,0000,,Grandpa Tick Tock dies.
+Dialogue: 0,0:04:10.24,0:04:14.21,DCMain,RAN,0000,0000,0000,,You learn at the end that \Nhe's actually really sick.
+Dialogue: 0,0:04:14.99,0:04:16.63,DCMain,RAN,0000,0000,0000,,But in the epilogue,
+Dialogue: 0,0:04:16.63,0:04:22.67,DCMain,RAN,0000,0000,0000,,his grandson takes over his \Nbusiness ten years later,
+Dialogue: 0,0:04:22.67,0:04:24.57,DCMain,RAN,0000,0000,0000,,so that's kind of a relief.
+Dialogue: 0,0:04:24.92,0:04:26.27,DCMain,TOMONAGA,0000,0000,0000,,That's right.
+Dialogue: 0,0:04:26.27,0:04:30.31,DCMain,KOGORO,0000,0000,0000,,Seriously? It's not a clue \Nto the bomb's location.
+Dialogue: 0,0:04:30.31,0:04:33.88,DCMain,KOGORO,0000,0000,0000,,Anyway, what's the answer to the riddle?
+Dialogue: 0,0:04:33.88,0:04:35.74,DCMain,RAN,0000,0000,0000,,I don't know.
+Dialogue: 0,0:04:35.74,0:04:37.08,DCMain,TOMONAGA,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:04:37.83,0:04:40.34,DCMain,CONAN,0000,0000,0000,,What does the number seven remind you of?
+Dialogue: 0,0:04:40.55,0:04:41.46,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:41.46,0:04:43.82,DCMain,CONAN,0000,0000,0000,,What's expressed in sevens?
+Dialogue: 0,0:04:43.82,0:04:45.54,DCMain,KOGORO,0000,0000,0000,,Expressed in sevens?
+Dialogue: 0,0:04:46.36,0:04:49.73,DCMain,KOGORO,0000,0000,0000,,Oh, right. Like the seven days of the week?
+Dialogue: 0,0:04:49.73,0:04:50.35,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:50.88,0:04:53.77,DCMain,RAN,0000,0000,0000,,Or the seven colors of the rainbow?
+Dialogue: 0,0:04:55.78,0:04:57.52,DCMain,TAKAGI,0000,0000,0000,,There are seven notes \Nin a musical scale, too.
+Dialogue: 0,0:04:57.68,0:04:59.77,DCMain,CONAN,0000,0000,0000,,What's the middle of those?
+Dialogue: 0,0:05:00.16,0:05:02.18,DCMain,CHIBA,0000,0000,0000,,In a week, that would be Thursday.
+Dialogue: 0,0:05:02.18,0:05:03.35,DCMain,CHIBA,0000,0000,0000,,In a rainbow...
+Dialogue: 0,0:05:04.61,0:05:06.73,DCMain,RAN,0000,0000,0000,,I think it's green.
+Dialogue: 0,0:05:07.26,0:05:09.78,DCMain,KOGORO,0000,0000,0000,,In a musical scale, it's fa.
+Dialogue: 0,0:05:09.78,0:05:12.66,DCMain,KOGORO,0000,0000,0000,,But there are too many things it could be.
+Dialogue: 0,0:05:12.88,0:05:18.20,DCMain,CONAN,0000,0000,0000,,Yeah, but what if a bomb were to explode \Nat a location related to those?
+Dialogue: 0,0:05:18.20,0:05:19.90,DCMain,KOGORO,0000,0000,0000,,I-Inspector!
+Dialogue: 0,0:05:20.92,0:05:22.67,DCMain,MEGURE,0000,0000,0000,,Of course we can't ignore it.
+Dialogue: 0,0:05:22.84,0:05:27.05,DCMain,MEGURE,0000,0000,0000,,Have the entire department begin \Nsearching for the bomb immediately.
+Dialogue: 0,0:05:27.05,0:05:27.95,DCMain,BOTH,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:05:29.84,0:05:34.04,DCMain,TOMONAGA,0000,0000,0000,,Inspector, I'd only be getting in the way
+Dialogue: 0,0:05:34.04,0:05:36.06,DCMain,TOMONAGA,0000,0000,0000,,if I stayed any longer.
+Dialogue: 0,0:05:36.31,0:05:37.72,DCMain,MEGURE,0000,0000,0000,,You're right.
+Dialogue: 0,0:05:37.72,0:05:42.44,DCMain,MEGURE,0000,0000,0000,,Now that the investigation has established \Na direction, you're free to go.
+Dialogue: 0,0:05:42.89,0:05:44.45,DCMain,TOMONAGA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:05:45.68,0:05:49.18,DCMain,TOMONAGA,0000,0000,0000,,Oh, thank you. Excuse me.
+Dialogue: 0,0:05:51.20,0:05:53.07,DCMain,RAN,0000,0000,0000,,Oh, the picture book.
+Dialogue: 0,0:05:54.23,0:05:55.36,DCMain,RAN,0000,0000,0000,,Let me see that, Conan-kun.
+Dialogue: 0,0:05:55.36,0:05:56.58,DCMain,RAN,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:05:56.99,0:05:58.88,DCMain,RAN,0000,0000,0000,,Don't you need this?
+Dialogue: 0,0:06:01.66,0:06:04.17,DCItalic,CONAN,0000,0000,0000,,Well, that's odd.
+Dialogue: 0,0:06:04.77,0:06:05.87,DCItalic,CONAN,0000,0000,0000,,Until now,
+Dialogue: 0,0:06:05.87,0:06:10.96,DCItalic,CONAN,0000,0000,0000,,the riddles were limited to a single answer,
+Dialogue: 0,0:06:11.22,0:06:15.97,Green,TEXT,0000,0000,0000,,{\fad(210,875)}Words beginning with "green"
+Dialogue: 0,0:06:11.65,0:06:15.54,DCItalic,CONAN,0000,0000,0000,,but this time the riddle \Nitself is rather broad.
+Dialogue: 0,0:06:11.97,0:06:15.97,Tree,TEXT,0000,0000,0000,,{\fad(460,875)}5 letter words including "tree"
+Dialogue: 0,0:06:13.47,0:06:15.97,Fa,TEXT,0000,0000,0000,,{\fad(460,875)}Words beginning with "fa"
+Dialogue: 0,0:06:15.11,0:06:18.69,Kinomiri,SIGN,0000,0000,0000,,{\fad(960,1)}Kinomiri Park
+Dialogue: 0,0:06:16.23,0:06:18.69,Office,TEXT,0000,0000,0000,,{\fad(210,1)}Midori Law Office
+Dialogue: 0,0:06:16.48,0:06:18.69,School,TEXT,0000,0000,0000,,{\fad(210,1)}Midori Elementary School
+Dialogue: 0,0:06:16.73,0:06:18.69,Restaurant,TEXT,0000,0000,0000,,{\fad(210,1)}Green Green Restaurant
+Dialogue: 0,0:06:16.98,0:06:18.69,Center,TEXT,0000,0000,0000,,{\fad(210,1)}Jupiter Research Center and Observatory
+Dialogue: 0,0:06:17.06,0:06:18.34,DCItalic,CONAN,0000,0000,0000,,{\an8}Why?
+Dialogue: 0,0:06:19.10,0:06:21.03,DCItalic,CONAN,0000,0000,0000,,And I'm still curious about the bomb
+Dialogue: 0,0:06:21.03,0:06:24.58,DCItalic,CONAN,0000,0000,0000,,the old man threw into the manhole.
+Dialogue: 0,0:06:26.16,0:06:30.45,DCItalic,CONAN,0000,0000,0000,,And finding the unexploded \Nbomb has been put on hold
+Dialogue: 0,0:06:27.19,0:06:28.90,DCMain,MEGURE,0000,0000,0000,,{\an8}There's no time to spare!
+Dialogue: 0,0:06:28.90,0:06:31.27,DCMain,MEGURE,0000,0000,0000,,{\an8}Search everywhere it could be!
+Dialogue: 0,0:06:31.30,0:06:35.35,DCItalic,CONAN,0000,0000,0000,,since the entire department \Nhas been mobilized.
+Dialogue: 0,0:06:36.23,0:06:38.36,DCItalic,CONAN,0000,0000,0000,,Huh? Could it be?
+Dialogue: 0,0:06:38.83,0:06:39.89,DCMain,MEGURE,0000,0000,0000,,Okay, good.
+Dialogue: 0,0:06:39.89,0:06:41.28,DCMain,MEGURE,0000,0000,0000,,Keep searching.
+Dialogue: 0,0:06:39.89,0:06:41.28,DCMain,CONAN,0000,0000,0000,,{\an8}Hey, Inspector!
+Dialogue: 0,0:06:41.28,0:06:43.84,DCMain,MEGURE,0000,0000,0000,,What is it, Conan-kun?
+Dialogue: 0,0:06:44.15,0:06:49.09,DCMain,CONAN,0000,0000,0000,,What exactly did the bomber Hirukawa do?
+Dialogue: 0,0:06:49.33,0:06:51.12,DCMain,MEGURE,0000,0000,0000,,What did he do?
+Dialogue: 0,0:06:51.12,0:06:53.52,DCMain,MEGURE,0000,0000,0000,,Caused explosions, of course.
+Dialogue: 0,0:06:53.52,0:06:58.31,DCMain,MEGURE,0000,0000,0000,,He manufactured explosives, \Nblew up the safes
+Dialogue: 0,0:06:58.31,0:07:03.23,DCMain,MEGURE,0000,0000,0000,,and cash transport vehicles, \Nand stole a lot of money.
+Dialogue: 0,0:07:04.48,0:07:06.63,DCMain,MEGURE,0000,0000,0000,,What about it?
+Dialogue: 0,0:07:06.63,0:07:08.66,DCMain,CONAN,0000,0000,0000,,Nothing.
+Dialogue: 0,0:07:09.45,0:07:14.87,DCItalic,CONAN,0000,0000,0000,,That's nothing like this crime which seems
+Dialogue: 0,0:07:14.87,0:07:15.97,DCItalic,CONAN,0000,0000,0000,,to be motivated by resentment.
+Dialogue: 0,0:07:31.30,0:07:33.80,Megrez,TEXT,0000,0000,0000,,Megrez Security
+Dialogue: 0,0:07:37.88,0:07:39.77,DCMain,SECURITY B,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:07:39.77,0:07:41.06,DCMain,SECURITY A,0000,0000,0000,,I'm not sure.
+Dialogue: 0,0:07:43.78,0:07:46.19,DCMain,MEGURE,0000,0000,0000,,What? You found the bomb?
+Dialogue: 0,0:07:47.32,0:07:51.52,DCMain,MEGURE,0000,0000,0000,,The garbage collection point at the \N#3 Thursday Building in Toriya City?
+Dialogue: 0,0:07:51.94,0:07:53.57,DCMain,TAKAGI,0000,0000,0000,,We found one, too.
+Dialogue: 0,0:07:53.57,0:07:57.08,Garden,SIGN,0000,0000,0000,,Green Garden
+Dialogue: 0,0:07:54.08,0:07:56.01,DCMain,TAKAGI,0000,0000,0000,,It's at the orchard in Kenbashi City.
+Dialogue: 0,0:07:56.55,0:07:59.33,DCMain,TAKAGI,0000,0000,0000,,It was inside the management \Noffice's trash can.
+Dialogue: 0,0:07:59.41,0:08:04.83,Alloy,SIGN,0000,0000,0000,,{\fad(340,1)}Alloy
+Dialogue: 0,0:07:59.68,0:08:02.91,DCMain,CHIBA,0000,0000,0000,,We found one at "F.A. Alloy" in Daitoma City.
+Dialogue: 0,0:08:02.91,0:08:06.96,DCMain,CHIBA,0000,0000,0000,,It's a gilding factory known \Nlocally as "Fa Alloy."
+Dialogue: 0,0:08:07.34,0:08:10.48,DCMain,CHIBA,0000,0000,0000,,It was found inside a garbage can.
+Dialogue: 0,0:08:11.41,0:08:13.59,DCMain,MEGURE,0000,0000,0000,,Three bombs at once?
+Dialogue: 0,0:08:18.68,0:08:20.33,DCMain,SECURITY A,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:08:20.33,0:08:24.35,DCMain,HIRUKAWA,0000,0000,0000,,I'm sorry, but a bomb \Nwas discovered up ahead.
+Dialogue: 0,0:08:24.35,0:08:26.77,DCMain,SECURITY A,0000,0000,0000,,What? A b-bomb?
+Dialogue: 0,0:08:26.98,0:08:29.90,DCMain,KOGORO,0000,0000,0000,,We found all three of the bombs!
+Dialogue: 0,0:08:30.34,0:08:32.11,DCMain,KOGORO,0000,0000,0000,,Tell us how to disarm them!
+Dialogue: 0,0:08:32.40,0:08:34.22,DCMain,KOGORO,0000,0000,0000,,Hey, answer me!
+Dialogue: 0,0:08:35.11,0:08:36.37,DCMain,KOGORO,0000,0000,0000,,Answer me!
+Dialogue: 0,0:08:45.12,0:08:48.63,Wow,SIGN,0000,0000,0000,,{\fad(1295,1)}Wow! Were you surprised?
+Dialogue: 0,0:08:50.56,0:08:54.24,DCMain,MEGURE,0000,0000,0000,,Wh-What? They're all fake?
+Dialogue: 0,0:08:54.83,0:08:56.89,DCMain,RAN,0000,0000,0000,,Wh-What does this mean?
+Dialogue: 0,0:08:59.91,0:09:00.94,DCMain,KOGORO,0000,0000,0000,,Damn it.
+Dialogue: 0,0:09:00.94,0:09:03.58,DCMain,KOGORO,0000,0000,0000,,What is Hirukawa trying to do?
+Dialogue: 0,0:09:03.58,0:09:04.78,DCMain,CONAN,0000,0000,0000,,It's a trap.
+Dialogue: 0,0:09:04.78,0:09:05.39,DCMain,BOTH,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:05.80,0:09:10.35,DCMain,CONAN,0000,0000,0000,,Like the previous riddles, the \Nthree fake bombs are trick answers.
+Dialogue: 0,0:09:10.35,0:09:12.28,DCMain,CONAN,0000,0000,0000,,The real one is somewhere else.
+Dialogue: 0,0:09:12.53,0:09:13.78,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:09:14.96,0:09:17.78,DCMain,HIRUKAWA,0000,0000,0000,,Okay, okay.
+Dialogue: 0,0:09:17.78,0:09:21.54,DCMain,HIRUKAWA,0000,0000,0000,,Okay, okay, okay.
+Dialogue: 0,0:09:22.05,0:09:27.04,DCMain,HIRUKAWA,0000,0000,0000,,Okay, okay, okay, okay.
+Dialogue: 0,0:09:27.52,0:09:29.69,DCMain,HIRUKAWA,0000,0000,0000,,Okay, okay.
+Dialogue: 0,0:09:33.53,0:09:34.92,DCMain,SECURITY A,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:09:35.38,0:09:37.54,DCMain,SECURITY A,0000,0000,0000,,Hello, officer?
+Dialogue: 0,0:09:39.93,0:09:41.52,DCMain,SECURITY A,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:09:59.03,0:10:02.03,Megrez,SIGN,0000,0000,0000,,Megrez Security
+Dialogue: 0,0:09:59.62,0:10:01.70,DCMain,CONAN,0000,0000,0000,,Megrez Security...
+Dialogue: 0,0:10:03.66,0:10:05.85,DCMain,RAN,0000,0000,0000,,Is something wrong, Conan-kun?
+Dialogue: 0,0:10:05.85,0:10:10.59,DCMain,CONAN,0000,0000,0000,,The Megrez in Megrez Security \Nrefers to this star.
+Dialogue: 0,0:10:11.75,0:10:13.00,DCMain,RAN,0000,0000,0000,,That's...
+Dialogue: 0,0:10:14.20,0:10:16.51,DCMain,RAN,0000,0000,0000,,A picture of Ursa Major.
+Dialogue: 0,0:10:17.52,0:10:18.88,DCMain,RAN,0000,0000,0000,,The Big Dipper?
+Dialogue: 0,0:10:19.12,0:10:20.08,DCMain,CONAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:10:20.08,0:10:25.33,DCMain,CONAN,0000,0000,0000,,The seven stars forming \Nthe tail of Ursa Major
+Dialogue: 0,0:10:25.33,0:10:28.23,DCMain,CONAN,0000,0000,0000,,are known as the Big Dipper.
+Dialogue: 0,0:10:28.23,0:10:29.52,DCMain,CONAN,0000,0000,0000,,And the center star is Megrez.
+Dialogue: 0,0:10:29.86,0:10:32.18,DCMain,RAN,0000,0000,0000,,So it's the middle of seven.
+Dialogue: 0,0:10:32.18,0:10:32.98,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:34.00,0:10:36.32,DCItalic,CONAN,0000,0000,0000,,Damn it. The culprit included the answer
+Dialogue: 0,0:10:36.32,0:10:40.73,DCItalic,CONAN,0000,0000,0000,,because he knew we \Nwouldn't get there in time.
+Dialogue: 0,0:10:41.16,0:10:42.13,DCMain,TAKAGI,0000,0000,0000,,Inspector Megure!
+Dialogue: 0,0:10:42.13,0:10:43.74,DCMain,TAKAGI,0000,0000,0000,,Take a look at this.
+Dialogue: 0,0:10:44.28,0:10:46.54,Bomb,TEXT,0000,0000,0000,,Bomb Site
+Dialogue: 0,0:10:44.28,0:10:46.54,Kanematsu,TEXT,0000,0000,0000,,Kanematsu Park
+Dialogue: 0,0:10:46.76,0:10:48.41,DCMain,KOGORO,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:10:48.79,0:10:50.29,DCMain,CONAN,0000,0000,0000,,A map of the sewer?
+Dialogue: 0,0:10:50.62,0:10:51.79,DCMain,TAKAGI,0000,0000,0000,,That's right.
+Dialogue: 0,0:10:51.79,0:10:54.22,DCMain,TAKAGI,0000,0000,0000,,Going from the manhole at Kanematsu Park
+Dialogue: 0,0:10:54.22,0:10:58.30,DCMain,TAKAGI,0000,0000,0000,,where Mori-san threw the bomb to here.
+Dialogue: 0,0:10:59.48,0:11:03.48,DCMain,RAN,0000,0000,0000,,Did that bomb flow all the way here?
+Dialogue: 0,0:11:04.10,0:11:06.18,DCItalic,CONAN,0000,0000,0000,,Almost certainly.
+Dialogue: 0,0:11:06.52,0:11:11.45,DCMain,TAKAGI,0000,0000,0000,,Carried along by the increased \Nwater level from yesterday's rain,
+Dialogue: 0,0:11:11.45,0:11:13.93,DCMain,TAKAGI,0000,0000,0000,,the bomb most likely stopped \Nat the grate under here.
+Dialogue: 0,0:11:15.44,0:11:17.66,DCMain,CHIBA,0000,0000,0000,,Forensics says it's likely the explosion
+Dialogue: 0,0:11:17.66,0:11:21.57,DCMain,CHIBA,0000,0000,0000,,was triggered by remote and not by a timer.
+Dialogue: 0,0:11:21.85,0:11:24.70,DCMain,KOGORO,0000,0000,0000,,S-So, what does that mean?
+Dialogue: 0,0:11:24.96,0:11:26.06,DCMain,CONAN,0000,0000,0000,,In other words,
+Dialogue: 0,0:11:26.06,0:11:31.54,DCMain,CONAN,0000,0000,0000,,he always meant to blow up \Nthe cash transport vehicle.
+Dialogue: 0,0:11:31.54,0:11:33.45,DCMain,KOGORO,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:11:33.45,0:11:35.71,DCMain,MEGURE,0000,0000,0000,,Looks like he's right.
+Dialogue: 0,0:11:36.34,0:11:39.88,DCMain,MEGURE,0000,0000,0000,,He made you throw the \Nbomb in the manhole
+Dialogue: 0,0:11:39.88,0:11:42.54,DCMain,MEGURE,0000,0000,0000,,so it would end up here.
+Dialogue: 0,0:11:43.06,0:11:45.82,DCMain,MEGURE,0000,0000,0000,,Which means the first bomb
+Dialogue: 0,0:11:45.82,0:11:49.69,DCMain,MEGURE,0000,0000,0000,,was meant to camouflage this, too.
+Dialogue: 0,0:11:49.69,0:11:51.69,DCMain,KOGORO,0000,0000,0000,,I-I don't believe it.
+Dialogue: 0,0:11:53.18,0:11:55.44,DCMain,KOGORO,0000,0000,0000,,What does he think he's doing?
+Dialogue: 0,0:11:55.96,0:11:57.11,DCMain,POLICE,0000,0000,0000,,Inspector Megure!
+Dialogue: 0,0:11:59.02,0:12:00.32,DCMain,MEGURE,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:12:00.74,0:12:03.17,DCMain,MEGURE,0000,0000,0000,,You found Hirukawa's hideout?
+Dialogue: 0,0:12:07.59,0:12:08.84,DCMain,TAKAGI,0000,0000,0000,,We'll head there.
+Dialogue: 0,0:12:11.68,0:12:13.46,DCMain,KOGORO,0000,0000,0000,,Inspector, we're coming with you.
+Dialogue: 0,0:12:13.46,0:12:14.38,DCMain,MEGURE,0000,0000,0000,,Okay.
+Dialogue: 0,0:12:14.38,0:12:15.79,DCMain,CONAN,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:12:16.15,0:12:18.55,DCMain,CONAN,0000,0000,0000,,How do you know it's his hideout?
+Dialogue: 0,0:12:19.87,0:12:22.72,DCMain,MEGURE,0000,0000,0000,,We received an anonymous tip.
+Dialogue: 0,0:12:22.95,0:12:23.62,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:24.21,0:12:28.35,DCMain,MEGURE,0000,0000,0000,,They asked us to arrest the bomber \NHirukawa Takuji since they spotted him.
+Dialogue: 0,0:12:28.68,0:12:31.21,DCMain,MEGURE,0000,0000,0000,,Then they left an address and hung up.
+Dialogue: 0,0:12:33.76,0:12:34.95,DCItalic,CONAN,0000,0000,0000,,I see!
+Dialogue: 0,0:12:34.95,0:12:36.60,DCItalic,CONAN,0000,0000,0000,,So that's how it is!
+Dialogue: 0,0:13:34.76,0:13:35.97,DCMain,KOGORO,0000,0000,0000,,Well, well.
+Dialogue: 0,0:13:36.43,0:13:39.06,DCMain,KOGORO,0000,0000,0000,,Looks like you've recovered from your injury,
+Dialogue: 0,0:13:40.42,0:13:42.00,DCMain,KOGORO,0000,0000,0000,,Editor Tomonaga.
+Dialogue: 0,0:13:43.58,0:13:47.19,DCMain,KOGORO,0000,0000,0000,,It's as though you were never \Ninjured in the first place.
+Dialogue: 0,0:13:47.54,0:13:49.39,DCMain,TOMONAGA,0000,0000,0000,,Wh-What's the meaning of this?
+Dialogue: 0,0:13:50.12,0:13:53.40,DCMain,KOGORO,0000,0000,0000,,By the way, I heard you're \Ngoing independent soon.
+Dialogue: 0,0:13:53.40,0:13:57.46,DCMain,KOGORO,0000,0000,0000,,Will you be funding yourself using the cash \NHirukawa stole from the transport truck?
+Dialogue: 0,0:13:57.86,0:14:00.26,DCMain,TOMONAGA,0000,0000,0000,,Wh-What are you talking about?
+Dialogue: 0,0:14:00.26,0:14:02.03,DCMain,TOMONAGA,0000,0000,0000,,I don't know what you mean.
+Dialogue: 0,0:14:02.03,0:14:03.97,DCMain,KOGORO,0000,0000,0000,,Didn't you see the news?
+Dialogue: 0,0:14:03.97,0:14:04.78,DCMain,TOMONAGA,0000,0000,0000,,What?
+Dialogue: 0,0:14:05.09,0:14:08.80,DCMain,KOGORO,0000,0000,0000,,Hirukawa's hideout exploded \Nand burned down.
+Dialogue: 0,0:14:08.80,0:14:11.03,DCMain,TOMONAGA,0000,0000,0000,,Oh, I just saw that.
+Dialogue: 0,0:14:11.03,0:14:12.82,DCMain,KOGORO,0000,0000,0000,,According to the forensics team,
+Dialogue: 0,0:14:12.82,0:14:14.79,DCMain,KOGORO,0000,0000,0000,,even when including the bills \Nthought to have burned,
+Dialogue: 0,0:14:15.13,0:14:17.75,DCMain,KOGORO,0000,0000,0000,,the remaining bills they found \Nin the wreckage didn't add up
+Dialogue: 0,0:14:17.75,0:14:20.29,DCMain,KOGORO,0000,0000,0000,,to the amount that was stolen.
+Dialogue: 0,0:14:20.91,0:14:24.03,DCMain,KOGORO,0000,0000,0000,,I was wondering where the \Nremaining money went.
+Dialogue: 0,0:14:24.03,0:14:26.86,DCMain,TOMONAGA,0000,0000,0000,,D-Don't ask me.
+Dialogue: 0,0:14:26.86,0:14:31.94,DCMain,KOGORO,0000,0000,0000,,And apparently the location of the \Nhideout came from an anonymous tip.
+Dialogue: 0,0:14:31.94,0:14:32.85,DCMain,TOMONAGA,0000,0000,0000,,I see.
+Dialogue: 0,0:14:33.34,0:14:38.85,DCMain,CONAN,0000,0000,0000,,They said to come arrest the bomber \NHirukawa Takuji since they spotted him.
+Dialogue: 0,0:14:39.42,0:14:41.10,DCMain,TOMONAGA,0000,0000,0000,,So what?
+Dialogue: 0,0:14:41.38,0:14:46.61,DCMain,KOGORO,0000,0000,0000,,It sounded like they were \Nusing a voice changer.
+Dialogue: 0,0:14:47.14,0:14:49.62,DCMain,KOGORO,0000,0000,0000,,That makes it difficult to \Ndetermine whose voice it was.
+Dialogue: 0,0:14:49.62,0:14:52.87,DCMain,TOMONAGA,0000,0000,0000,,What does that have to do with me?
+Dialogue: 0,0:14:53.16,0:14:56.87,DCMain,KOGORO,0000,0000,0000,,The problem isn't the \Nvoice, but what was said.
+Dialogue: 0,0:14:57.99,0:14:59.12,DCMain,TOMONAGA,0000,0000,0000,,What was said?
+Dialogue: 0,0:14:59.12,0:15:00.14,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:15:00.14,0:15:04.08,DCMain,KOGORO,0000,0000,0000,,Hirukawa's name hadn't been released \Nto the press at that time.
+Dialogue: 0,0:15:05.19,0:15:09.88,DCMain,KOGORO,0000,0000,0000,,The only ones who knew it was him \Nwere the police, us, and you.
+Dialogue: 0,0:15:10.87,0:15:13.59,DCMain,KOGORO,0000,0000,0000,,No one else could have known.
+Dialogue: 0,0:15:13.59,0:15:17.13,DCMain,TOMONAGA,0000,0000,0000,,Th-That's because they remembered
+Dialogue: 0,0:15:17.13,0:15:21.27,DCMain,TOMONAGA,0000,0000,0000,,when his face was shown \Nduring his last bombings.
+Dialogue: 0,0:15:21.62,0:15:22.65,DCMain,KOGORO,0000,0000,0000,,You did?
+Dialogue: 0,0:15:22.65,0:15:23.30,DCMain,TOMONAGA,0000,0000,0000,,What?
+Dialogue: 0,0:15:23.30,0:15:26.19,DCMain,TOMONAGA,0000,0000,0000,,Who, me? Wh-Why would I remember?
+Dialogue: 0,0:15:26.41,0:15:29.22,DCMain,TOMONAGA,0000,0000,0000,,Mori-san, do you think I did it?
+Dialogue: 0,0:15:29.22,0:15:31.37,DCMain,KOGORO,0000,0000,0000,,Yes, I do.
+Dialogue: 0,0:15:31.37,0:15:33.57,DCMain,KOGORO,0000,0000,0000,,Actually, I'm sure you did.
+Dialogue: 0,0:15:33.96,0:15:38.58,DCMain,KOGORO,0000,0000,0000,,Tomonaga-san, you were \Nstanding behind Hirukawa
+Dialogue: 0,0:15:38.92,0:15:42.64,DCMain,KOGORO,0000,0000,0000,,like an editor guiding a new author.
+Dialogue: 0,0:15:44.10,0:15:48.21,DCMain,TOMONAGA,0000,0000,0000,,I-If you think I did it, show me the proof.
+Dialogue: 0,0:15:48.73,0:15:53.21,DCMain,KOGORO,0000,0000,0000,,While the bombs were equipped with timers,
+Dialogue: 0,0:15:53.21,0:15:56.47,DCMain,KOGORO,0000,0000,0000,,they were all rigged to explode by remote.
+Dialogue: 0,0:15:56.80,0:16:01.68,DCMain,KOGORO,0000,0000,0000,,According to forensics, the radio waves
+Dialogue: 0,0:16:01.68,0:16:04.23,DCMain,KOGORO,0000,0000,0000,,from the remotes only worked \Nat a range of about thirty meters.
+Dialogue: 0,0:16:04.48,0:16:06.73,DCMain,TOMONAGA,0000,0000,0000,,S-So what?
+Dialogue: 0,0:16:07.04,0:16:10.49,DCMain,KOGORO,0000,0000,0000,,So only someone at the scene with \Nus could have sped up the timer
+Dialogue: 0,0:16:11.89,0:16:15.49,DCMain,KOGORO,0000,0000,0000,,on the second bomb,
+Dialogue: 0,0:16:16.51,0:16:18.24,DCMain,KOGORO,0000,0000,0000,,or sent me messages accordingly.
+Dialogue: 0,0:16:18.92,0:16:23.83,DCMain,KOGORO,0000,0000,0000,,Only you, Tomonaga Hiroyuki-san.
+Dialogue: 0,0:16:24.73,0:16:29.00,DCMain,KOGORO,0000,0000,0000,,Later, you asked the inspector \Nif you could accompany us,
+Dialogue: 0,0:16:29.36,0:16:34.45,DCMain,KOGORO,0000,0000,0000,,and sent me messages in \Nresponse to my actions.
+Dialogue: 0,0:16:36.28,0:16:37.93,DCMain,KOGORO,0000,0000,0000,,Am I wrong?
+Dialogue: 0,0:16:39.79,0:16:43.63,DCMain,KOGORO,0000,0000,0000,,You suggested to Hirukawa that \Nhe attack the transport truck
+Dialogue: 0,0:16:43.63,0:16:47.44,DCMain,KOGORO,0000,0000,0000,,while making it look like he \Nwas out to avenge his brother.
+Dialogue: 0,0:16:47.72,0:16:51.66,DCMain,KOGORO,0000,0000,0000,,You also involved and used me, Mori Kogoro,
+Dialogue: 0,0:16:51.66,0:16:54.16,DCMain,KOGORO,0000,0000,0000,,to hide your true intentions.
+Dialogue: 0,0:16:54.95,0:16:58.82,DCMain,KOGORO,0000,0000,0000,,And you silenced Hirukawa himself
+Dialogue: 0,0:16:58.82,0:17:01.43,DCMain,KOGORO,0000,0000,0000,,by using the extra bomb you had him make.
+Dialogue: 0,0:17:02.20,0:17:04.11,DCMain,TOMONAGA,0000,0000,0000,,Impressive, Detective.
+Dialogue: 0,0:17:04.11,0:17:06.16,DCMain,TOMONAGA,0000,0000,0000,,What a truly interesting deduction.
+Dialogue: 0,0:17:06.60,0:17:10.46,DCMain,TOMONAGA,0000,0000,0000,,Once I go independent, why \Nnot write mysteries for me?
+Dialogue: 0,0:17:10.92,0:17:13.10,DCMain,TOMONAGA,0000,0000,0000,,A mystery by a great detective.
+Dialogue: 0,0:17:13.10,0:17:15.32,DCMain,TOMONAGA,0000,0000,0000,,That's sure to become a best seller.
+Dialogue: 0,0:17:16.16,0:17:19.44,DCMain,TOMONAGA,0000,0000,0000,,But it's all just speculation. \NYou have no proof.
+Dialogue: 0,0:17:19.44,0:17:23.48,DCMain,TOMONAGA,0000,0000,0000,,Hardcore mystery fans will \Nsurely criticize you for that.
+Dialogue: 0,0:17:23.83,0:17:26.12,DCMain,KOGORO,0000,0000,0000,,This isn't a mystery.
+Dialogue: 0,0:17:26.12,0:17:27.98,DCMain,KOGORO,0000,0000,0000,,This is an actual case.
+Dialogue: 0,0:17:28.36,0:17:32.86,DCMain,KOGORO,0000,0000,0000,,A confession from Hirukawa \Nwould change the story.
+Dialogue: 0,0:17:33.10,0:17:35.02,DCMain,TOMONAGA,0000,0000,0000,,Wh-What are you talking about?
+Dialogue: 0,0:17:35.02,0:17:36.45,DCMain,TOMONAGA,0000,0000,0000,,He should be dead—
+Dialogue: 0,0:17:36.66,0:17:40.45,DCMain,TOMONAGA,0000,0000,0000,,At least, that's what \Nthey said on the news...
+Dialogue: 0,0:17:40.75,0:17:45.06,DCMain,KOGORO,0000,0000,0000,,No, the news didn't mention \Nanything about that.
+Dialogue: 0,0:17:45.06,0:17:46.53,DCMain,KOGORO,0000,0000,0000,,Neither did I.
+Dialogue: 0,0:17:46.53,0:17:47.33,DCMain,TOMONAGA,0000,0000,0000,,What?
+Dialogue: 0,0:17:47.60,0:17:49.37,DCMain,TOMONAGA,0000,0000,0000,,Y-You don't mean...
+Dialogue: 0,0:17:50.08,0:17:52.05,DCMain,MEGURE,0000,0000,0000,,That's right.
+Dialogue: 0,0:17:52.61,0:17:53.92,DCMain,MEGURE,0000,0000,0000,,Hirukawa survived.
+Dialogue: 0,0:17:54.13,0:17:57.43,DCMain,MEGURE,0000,0000,0000,,Thanks to Mori-kun's reasoning.
+Dialogue: 0,0:17:58.75,0:18:02.18,DCMain,KOGORO,0000,0000,0000,,I didn't understand then why a \Nman who'd forgotten the answer
+Dialogue: 0,0:18:02.18,0:18:05.93,DCMain,KOGORO,0000,0000,0000,,to the riddle suddenly started talking \Nabout the illustrations in the picture book,
+Dialogue: 0,0:18:06.27,0:18:10.99,DCMain,KOGORO,0000,0000,0000,,but you wanted them to be the same.
+Dialogue: 0,0:18:11.61,0:18:15.28,DCMain,KOGORO,0000,0000,0000,,You wanted the culprit's suicide
+Dialogue: 0,0:18:15.63,0:18:18.45,DCMain,KOGORO,0000,0000,0000,,and the illustration in the book to overlap.
+Dialogue: 0,0:18:20.72,0:18:24.22,DCMain,TAKAGI,0000,0000,0000,,Realizing that, Mori-san asked us drive ahead
+Dialogue: 0,0:18:24.22,0:18:27.58,DCMain,TAKAGI,0000,0000,0000,,of the force to take Hirukawa into custody.
+Dialogue: 0,0:18:28.06,0:18:32.84,DCMain,CHIBA,0000,0000,0000,,We passed the police cars on their way and \Nused the rear entrance to his hideout.
+Dialogue: 0,0:18:35.36,0:18:38.97,DCMain,CHIBA,0000,0000,0000,,We just barely got Hirukawa out in time.
+Dialogue: 0,0:18:39.24,0:18:43.97,DCMain,KOGORO,0000,0000,0000,,Without realizing that, as soon as \Nthe police surrounded the hideout,
+Dialogue: 0,0:18:44.24,0:18:47.73,DCMain,KOGORO,0000,0000,0000,,you pressed the switch on the remote control.
+Dialogue: 0,0:18:49.45,0:18:53.13,DCMain,MEGURE,0000,0000,0000,,I'm sure Hirukawa will have \Nsome interesting things
+Dialogue: 0,0:18:53.13,0:18:57.74,DCMain,MEGURE,0000,0000,0000,,to say once he learns he was \Nused and nearly killed by you.
+Dialogue: 0,0:19:02.52,0:19:05.69,DCMain,TOMONAGA,0000,0000,0000,,Wh-When did you realize it was me?
+Dialogue: 0,0:19:05.69,0:19:10.12,DCMain,KOGORO,0000,0000,0000,,When you said the author left \Nthat proof to his brother.
+Dialogue: 0,0:19:10.12,0:19:11.04,DCMain,TOMONAGA,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:11.96,0:19:12.78,DCMain,KOGORO,0000,0000,0000,,Conan.
+Dialogue: 0,0:19:12.78,0:19:14.23,DCMain,CONAN,0000,0000,0000,,Here!
+Dialogue: 0,0:19:14.23,0:19:15.42,DCMain,CONAN,0000,0000,0000,,Look at this.
+Dialogue: 0,0:19:15.98,0:19:19.59,DCMain,CONAN,0000,0000,0000,,This isn't a proof. It's clearly a copy.
+Dialogue: 0,0:19:20.13,0:19:23.85,DCMain,CONAN,0000,0000,0000,,It doesn't make sense for a \Nproof to be misaligned, right?
+Dialogue: 0,0:19:26.85,0:19:31.35,DCMain,KOGORO,0000,0000,0000,,Hirukawa naturally would \Nhave demanded the original,
+Dialogue: 0,0:19:32.44,0:19:34.98,DCMain,KOGORO,0000,0000,0000,,but he said he didn't have it.
+Dialogue: 0,0:19:35.18,0:19:39.53,DCMain,KOGORO,0000,0000,0000,,In other words, you must still have it.
+Dialogue: 0,0:19:40.05,0:19:44.99,DCMain,KOGORO,0000,0000,0000,,Which means you would've looked \Nthrough it during this case,
+Dialogue: 0,0:19:45.36,0:19:47.74,DCMain,KOGORO,0000,0000,0000,,but you lied about reading it.
+Dialogue: 0,0:19:48.44,0:19:49.61,DCMain,KOGORO,0000,0000,0000,,Why?
+Dialogue: 0,0:19:49.61,0:19:53.69,DCMain,KOGORO,0000,0000,0000,,Because you were the mastermind
+Dialogue: 0,0:19:53.69,0:19:56.25,DCMain,KOGORO,0000,0000,0000,,who planned this crime.
+Dialogue: 0,0:20:19.78,0:20:22.90,DCMain,KOGORO,0000,0000,0000,,Finally, I have a question for you.
+Dialogue: 0,0:20:23.38,0:20:27.33,DCMain,KOGORO,0000,0000,0000,,Why didn't you give Hirukawa the original?
+Dialogue: 0,0:20:27.83,0:20:28.88,DCMain,TOMONAGA,0000,0000,0000,,Because...
+Dialogue: 0,0:20:33.96,0:20:35.96,DCMain,TOMONAGA,0000,0000,0000,,Because it was a masterpiece.
+Dialogue: 0,0:20:36.31,0:20:38.52,DCMain,TOMONAGA,0000,0000,0000,,I'm still an editor.
+Dialogue: 0,0:20:38.52,0:20:39.96,DCMain,TOMONAGA,0000,0000,0000,,I could tell.
+Dialogue: 0,0:20:40.24,0:20:43.97,DCMain,TOMONAGA,0000,0000,0000,,Even if he was family, I didn't \Nwant to turn it over to a criminal.
+Dialogue: 0,0:20:44.66,0:20:48.02,DCMain,TOMONAGA,0000,0000,0000,,And tearing out the pages \Nthat contained the clues...
+Dialogue: 0,0:20:49.28,0:20:53.57,DCMain,TOMONAGA,0000,0000,0000,,Even though it was my plan, I \Ncouldn't bring myself to do it.
+Dialogue: 0,0:20:54.14,0:20:59.50,DCMain,TOMONAGA,0000,0000,0000,,Someday I planned to publish that manuscript.
+Dialogue: 0,0:20:59.50,0:21:00.46,DCMain,RAN,0000,0000,0000,,Don't!
+Dialogue: 0,0:21:00.46,0:21:01.15,DCMain,TOMONAGA,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:01.47,0:21:02.86,DCMain,RAN,0000,0000,0000,,Please don't.
+Dialogue: 0,0:21:02.86,0:21:05.32,DCMain,RAN,0000,0000,0000,,You don't have the right!
+Dialogue: 0,0:21:07.32,0:21:09.06,DCMain,RAN,0000,0000,0000,,It may have been a copy,
+Dialogue: 0,0:21:09.66,0:21:13.04,DCMain,RAN,0000,0000,0000,,but you used that wonderful \Npicture book to commit a crime.
+Dialogue: 0,0:21:14.19,0:21:16.92,DCMain,RAN,0000,0000,0000,,The author must be crying in heaven.
+Dialogue: 0,0:21:20.12,0:21:21.01,DCItalic,CONAN,0000,0000,0000,,Ran...
+Dialogue: 0,0:22:54.02,0:23:03.48,Title,TEXT,0000,0000,0000,,{\fad(960,1)}Grandpa Tick Tock and the Three Clocks
+Dialogue: 0,0:22:55.49,0:22:56.88,DCMain,CONAN,0000,0000,0000,,Six months later,
+Dialogue: 0,0:22:56.88,0:23:00.81,DCMain,CONAN,0000,0000,0000,,whether according to the \Neditor's prediction or not,
+Dialogue: 0,0:23:01.53,0:23:04.20,DCMain,CONAN,0000,0000,0000,,the completed picture book was published
+Dialogue: 0,0:23:03.48,0:23:07.49,Winner,TEXT,0000,0000,0000,,Winner of the 34th \NNew Author Award
+Dialogue: 0,0:23:03.48,0:23:07.49,Recommended,TEXT,0000,0000,0000,,Recommended \Nby the staff
+Dialogue: 0,0:23:04.20,0:23:07.49,DCMain,CONAN,0000,0000,0000,,and won the new author award.
+Dialogue: 0,0:23:08.77,0:23:10.69,DCMain,CONAN,0000,0000,0000,,It was an appropriate farewell gift
+Dialogue: 0,0:23:09.70,0:23:38.14,Note,TEXT,0000,0000,0000,,{\fad(1750,1)}Author's Note \NI love writing riddles \Nand drawing pictures.
+Dialogue: 0,0:23:10.29,0:23:38.14,Author2,TEXT,0000,0000,0000,,{\fad(2670,1)}Picture Book Author \NImai Kenichi-san
+Dialogue: 0,0:23:10.69,0:23:14.02,DCMain,CONAN,0000,0000,0000,,for the author who passed \Naway before his time,
+Dialogue: 0,0:23:14.02,0:23:16.14,DCMain,CONAN,0000,0000,0000,,but that's another story.
+Dialogue: 0,0:23:16.89,0:23:21.21,DCMain,KOGORO,0000,0000,0000,,Despite all the running I did this time,
+Dialogue: 0,0:23:21.21,0:23:23.53,DCMain,KOGORO,0000,0000,0000,,I don't feel like I accomplished anything.
+Dialogue: 0,0:23:23.53,0:23:25.79,DCMain,KOGORO,0000,0000,0000,,I'm just tired.
+Dialogue: 0,0:23:25.79,0:23:27.46,DCMain,KOGORO,0000,0000,0000,,Whatever, though.
+Dialogue: 0,0:23:27.46,0:23:30.99,DCMain,KOGORO,0000,0000,0000,,Beer tastes better after a good workout.
+Dialogue: 0,0:23:37.12,0:23:38.18,DCMain,KOGORO,0000,0000,0000,,That's good!
+Dialogue: 0,0:23:38.18,0:23:40.59,DCMain,RAN,0000,0000,0000,,You always say that.
+Dialogue: 0,0:23:41.32,0:23:42.74,DCMain,CONAN,0000,0000,0000,,That's that.
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.50,0:23:48.23,DCMain,CONAN,0000,0000,0000,,We just happened to be in London.
+Dialogue: 0,0:23:48.23,0:23:53.86,DCMain,HEIJI,0000,0000,0000,,Oh, yeah? I'd like to say \Na line as cool as that.
+Dialogue: 0,0:23:53.86,0:23:56.55,DCMain,CONAN,0000,0000,0000,,Anyway, are you sure about today?
+Dialogue: 0,0:23:56.55,0:23:57.24,DCMain,HEIJI,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:57.57,0:23:58.80,DCMain,CONAN,0000,0000,0000,,The date.
+Dialogue: 0,0:23:58.80,0:23:59.70,DCMain,HEIJI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:24:00.00,0:24:01.95,DCMain,HEIJI,0000,0000,0000,,After all, today is...
+Dialogue: 0,0:24:01.95,0:24:04.06,DCMain,AMURO,0000,0000,0000,,Friday the 13th.
+Dialogue: 0,0:24:04.06,0:24:04.83,DCMain,HEIJI,0000,0000,0000,,Huh?
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,Solving Mysteries at the Poirot Café \N(Part One)
+Dialogue: 0,0:24:09.73,0:24:14.37,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Solving \NMysteries at the Poirot Café, Part One!"
+Dialogue: 0,0:24:30.03,0:24:35.03,Hint,TEXT,0000,0000,0000,,Seating Locations
+Dialogue: 0,0:24:30.46,0:24:32.66,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.04,0:24:35.03,DCMain,CONAN,0000,0000,0000,,Seating locations!
+Dialogue: 0,0:24:35.03,0:24:36.43,DCMain,RAN,0000,0000,0000,,{\an8}Kazuha-chan's coming next time.
+Dialogue: 0,0:24:35.03,0:24:40.04,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.43,0:24:37.26,DCMain,CONAN,0000,0000,0000,,{\an8}Which means Hattori is, too.
+Dialogue: 0,0:24:37.26,0:24:38.06,DCMain,RAN,0000,0000,0000,,{\an8}I sense love in the air.
+Dialogue: 0,0:24:38.06,0:24:39.57,DCMain,CONAN,0000,0000,0000,,{\an8}I sense a case.
+Dialogue: 0,0:24:39.57,0:24:41.57,DCMain,,0000,0000,0000,,

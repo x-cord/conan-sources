@@ -1,0 +1,470 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0100,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Reporters,Trebuchet MS,18,&H00683520,&H000000FF,&H00F4F3F1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0200,0010,0130,0
+Style: Akira,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006B2122,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0090,0010,0066,0
+Style: Hiroshi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006B2122,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0210,0066,0
+Style: ID1,Trebuchet MS,18,&H000C0403,&H000000FF,&H00D1C8A6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0200,0018,0
+Style: ID2,Trebuchet MS,18,&H000C0403,&H000000FF,&H00D1C8A6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0200,0010,0018,0
+Style: Kimiko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00874387,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0115,0010,0066,0
+Style: Shingo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A04243,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0240,0066,0
+Style: NichiuriSports,Trebuchet MS,24,&H00915CF3,&H000000FF,&H00FFFDFF,&H00B87D39,0,-1,0,0,100,100,0,0,1,2,2,9,0010,0125,0018,0
+Style: Archive,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H0097A0F0,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0180,0010,0075,0
+Style: Articles,Trebuchet MS,16,&H00492C21,&H000000FF,&H0096A0F0,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,1,0020,0010,0100,0
+Style: ID3,Trebuchet MS,18,&H000C0403,&H000000FF,&H00AB9576,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0200,0010,0018,0
+Style: Results,Trebuchet MS,20,&H00101500,&H000000FF,&H00ADC45F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0010,0020,0018,0
+Style: Name,Trebuchet MS,20,&H00101500,&H000000FF,&H00BBF8FC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0010,0018,0
+Style: Cheetah1,Trebuchet MS,20,&H00303834,&H000000FF,&H00899591,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0440,0010,0018,0
+Style: Cheetah2,Trebuchet MS,16,&H00190501,&H000000FF,&H00CA8F79,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0018,0
+Style: Murder,Times New Roman,24,&H005D3212,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0018,0
+Style: Plan,Trebuchet MS,14,&H005D3212,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,7,0020,0010,0018,0
+Style: Plan2,Trebuchet MS,14,&H005D3212,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,4,0020,0010,0070,0
+Style: Will,Trebuchet MS,16,&H00000109,&H000000FF,&H00AAC4CD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0200,0150,0
+Style: Scoop,Trebuchet MS,22,&H00D8DADA,&H000000FF,&H00494B4B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0010,0015,0
+Style: USBData,Trebuchet MS,20,&H00101500,&H000000FF,&H0079A34E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0070,0
+Style: Will2,Trebuchet MS,16,&H00000109,&H000000FF,&H00AAC4CD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0110,0010,0120,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:03.76,0:00:04.85,DCMain,HASHI,0000,0000,0000,,Don't be ridiculous!
+Dialogue: 0,0:00:04.90,0:00:07.86,Akira,TEXT,0000,0000,0000,,{\fad(250,250)}Hashizume Akira (38) \NNichiuri Sports Reporter
+Dialogue: 0,0:00:05.18,0:00:07.98,DCMain,HASHI,0000,0000,0000,,{\an8}Why do I have to apologize?!
+Dialogue: 0,0:00:08.11,0:00:11.07,Hiroshi,TEXT,0000,0000,0000,,{\fad(250,250)}Kagazume Hiroshi (38) \NNichiuri Sports Reporter
+Dialogue: 0,0:00:08.19,0:00:09.47,DCMain,KAGA,0000,0000,0000,,{\an8}Don't play dumb!
+Dialogue: 0,0:00:09.47,0:00:11.49,DCMain,KAGA,0000,0000,0000,,{\an8}You know exactly why!
+Dialogue: 0,0:00:11.68,0:00:13.73,DCMain,HASHI,0000,0000,0000,,I was just doing my job!
+Dialogue: 0,0:00:13.73,0:00:15.99,DCMain,HASHI,0000,0000,0000,,Don't act so self-righteous!
+Dialogue: 0,0:00:16.19,0:00:17.37,DCMain,HASHI,0000,0000,0000,,You arrogant bastard!
+Dialogue: 0,0:00:18.48,0:00:19.49,DCMain,KAGA,0000,0000,0000,,What was that?!
+Dialogue: 0,0:00:19.49,0:00:20.80,DCMain,HASHI,0000,0000,0000,,What?!
+Dialogue: 0,0:00:20.80,0:00:25.88,DCMain,WAITRESS,0000,0000,0000,,E-Excuse me, but could you \Nkeep your voices down,
+Dialogue: 0,0:00:25.88,0:00:27.29,ID1,TEXT,0000,0000,0000,,Nichiuri Sports Newspaper Company \NNewsroom Department Two \NKagazume Hiroshi
+Dialogue: 0,0:00:26.23,0:00:28.71,DCMain,WAITRESS,0000,0000,0000,,Hashizume-sama and Kagazume-sama?
+Dialogue: 0,0:00:27.29,0:00:28.71,ID2,TEXT,0000,0000,0000,,Nichiuri Sports Newspaper Company \NNewsroom Department Two \NHashizume Akira
+Dialogue: 0,0:00:28.90,0:00:30.88,DCMain,HASHI,0000,0000,0000,,I'm Hashizume!
+Dialogue: 0,0:00:28.90,0:00:30.88,DCMain,KAGA,0000,0000,0000,,I'm Kagazume!
+Dialogue: 0,0:00:33.04,0:00:36.18,DCMain,WAITRESS,0000,0000,0000,,I'm terribly sorry!
+Dialogue: 0,0:00:34.12,0:00:36.97,DCMain,KUWANA,0000,0000,0000,,{\an8}They're at it again.
+Dialogue: 0,0:00:37.09,0:00:40.06,Kimiko,TEXT,0000,0000,0000,,{\fad(250,250)}Kuwana Kimiko (36) \NNichiuri Sports Reporter
+Dialogue: 0,0:00:37.29,0:00:38.43,DCMain,KUWANA,0000,0000,0000,,{\an8}I wish they'd stop.
+Dialogue: 0,0:00:38.94,0:00:40.47,DCMain,KUWANA,0000,0000,0000,,{\a6}I'm sick of it.
+Dialogue: 0,0:00:40.51,0:00:43.23,Shingo,TEXT,0000,0000,0000,,{\fad(250,250)}Hosoda Shingo (28) \NNichiuri Sports Reporter
+Dialogue: 0,0:00:40.79,0:00:43.23,DCMain,HOSODA,0000,0000,0000,,{\an8)}It started a year ago.
+Dialogue: 0,0:00:43.50,0:00:46.21,DCMain,KUWANA,0000,0000,0000,,They're making it hard for me to do my job.
+Dialogue: 0,0:00:46.21,0:00:47.46,DCMain,KUWANA,0000,0000,0000,,What a nuisance.
+Dialogue: 0,0:00:47.89,0:00:52.86,DCMain,HOSODA,0000,0000,0000,,It was their fault it nearly \Nturned into a murder.
+Dialogue: 0,0:00:57.16,0:01:01.29,DCMain,CONAN,0000,0000,0000,,When the countdown reaches zero, use your \Ndetective skills to produce an answer!
+Dialogue: 0,0:01:04.00,0:01:06.08,DCMain,CONAN,0000,0000,0000,,They're so alike, but they get along terribly!
+Dialogue: 0,0:01:06.08,0:01:08.08,DCMain,CONAN,0000,0000,0000,,Their case is full of complex mysteries!
+Dialogue: 0,0:01:08.08,0:01:09.45,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:09.45,0:01:11.28,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:11.28,0:01:13.51,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:52.02,0:02:58.03,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(401,1)}Birds of a Feather at Loggerheads
+Dialogue: 0,0:02:52.87,0:02:55.86,DCMain,CONAN,0000,0000,0000,,"Birds of a Feather at Loggerheads!"
+Dialogue: 0,0:03:02.17,0:03:04.56,DCMain,RAN,0000,0000,0000,,Those guys sure are weird.
+Dialogue: 0,0:03:04.56,0:03:05.28,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:05.81,0:03:10.88,DCMain,RAN,0000,0000,0000,,They seem to hate each other, \Nbut they're identical in every way.
+Dialogue: 0,0:03:09.54,0:03:10.88,DCMain,KAGA,0000,0000,0000,,{\an8}You sure?
+Dialogue: 0,0:03:10.88,0:03:11.71,DCMain,HASHI,0000,0000,0000,,Shut up already!
+Dialogue: 0,0:03:12.14,0:03:14.21,DCMain,KOGORO,0000,0000,0000,,You're right. Even their names...
+Dialogue: 0,0:03:14.21,0:03:17.06,DCMain,CONAN,0000,0000,0000,,Hashizume-san and Kagazume-san.
+Dialogue: 0,0:03:17.06,0:03:18.55,DCMain,CONAN,0000,0000,0000,,Tsume and tsume.
+Dialogue: 0,0:03:18.55,0:03:20.51,DCMain,RAN,0000,0000,0000,,Maybe they don't like that.
+Dialogue: 0,0:03:20.51,0:03:25.47,DCMain,KOGORO,0000,0000,0000,,Well, birds of a feather either \Nlove or hate each other.
+Dialogue: 0,0:03:25.65,0:03:26.93,DCMain,KAGA,0000,0000,0000,,This is the last time!
+Dialogue: 0,0:03:26.93,0:03:28.03,DCMain,KAGA,0000,0000,0000,,You'd better not regret it!
+Dialogue: 0,0:03:28.03,0:03:29.73,DCMain,HASHI,0000,0000,0000,,Enough already, you hypocrite!
+Dialogue: 0,0:03:35.50,0:03:36.27,DCItalic,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:41.14,0:03:42.53,DCMain,CONAN,0000,0000,0000,,Hey.
+Dialogue: 0,0:03:42.76,0:03:45.58,DCMain,CONAN,0000,0000,0000,,This is his, right?
+Dialogue: 0,0:03:46.03,0:03:47.51,DCMain,EMPLOYEE,0000,0000,0000,,{\an8}Thank you.
+Dialogue: 0,0:03:46.33,0:03:47.99,DCMain,CONAN,0000,0000,0000,,Didn't he take the wrong one?
+Dialogue: 0,0:03:48.88,0:03:50.42,DCMain,KAGA,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:03:51.30,0:03:53.25,DCMain,KAGA,0000,0000,0000,,I'll switch with him later.
+Dialogue: 0,0:04:02.42,0:04:04.43,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:04:03.32,0:04:04.43,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:04:04.43,0:04:08.43,NichiuriSports,TEXT,0000,0000,0000,,Nichiuri Sports
+Dialogue: 0,0:04:04.43,0:04:08.43,Archive,TEXT,0000,0000,0000,,Archive
+Dialogue: 0,0:04:04.43,0:04:08.43,Articles,TEXT,0000,0000,0000,,Major company executive dead! \NYamakado Yuzo (76), president of major Japanese company \NYamakado Corporation, has died of cholangioma. \NAs his surviving family fights over the inheritance, \Nthe whereabouts of Yamakado's will...
+Dialogue: 0,0:04:05.07,0:04:08.43,DCMain,KOGORO,0000,0000,0000,,So this is the case they were referring to.
+Dialogue: 0,0:04:08.64,0:04:09.35,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:09.35,0:04:14.94,DCMain,CONAN,0000,0000,0000,,After the president of a major \Ncompany died, his will disappeared.
+Dialogue: 0,0:04:14.94,0:04:16.25,DCMain,RAN,0000,0000,0000,,I remember now.
+Dialogue: 0,0:04:16.25,0:04:19.84,DCMain,RAN,0000,0000,0000,,Weekly magazines were full \Nof stories about the family
+Dialogue: 0,0:04:19.84,0:04:22.33,DCMain,RAN,0000,0000,0000,,accusing each other of stealing it.
+Dialogue: 0,0:04:22.33,0:04:24.20,DCMain,CONAN,0000,0000,0000,,That was these two.
+Dialogue: 0,0:04:24.20,0:04:28.20,Reporters,TEXT,0000,0000,0000,,Nichiuri Sports Reporter \NKagazume Hiroshi \NNichiuri Sports Reporter \NHashizume Akira
+Dialogue: 0,0:04:24.72,0:04:28.20,DCMain,CONAN,0000,0000,0000,,Two {\i1}Nichiuri Sports{\i0} reporters famous \Nfor their articles on scandals.
+Dialogue: 0,0:04:28.57,0:04:30.72,DCMain,CONAN,0000,0000,0000,,They even made comments on TV.
+Dialogue: 0,0:04:30.72,0:04:32.77,DCMain,KOGORO,0000,0000,0000,,And exacerbated the situation.
+Dialogue: 0,0:04:32.77,0:04:36.55,DCMain,KOGORO,0000,0000,0000,,They even wrote scandalous articles \Nabout the arguing family members.
+Dialogue: 0,0:04:36.55,0:04:41.07,DCMain,KOGORO,0000,0000,0000,,Ultimately, the family members clashed, \Nresulting in an attempted murder.
+Dialogue: 0,0:04:41.07,0:04:45.66,DCMain,RAN,0000,0000,0000,,I heard they garnered a lot of \Ncriticism, and magazine sales fell.
+Dialogue: 0,0:04:45.66,0:04:48.72,DCMain,KOGORO,0000,0000,0000,,And they're still suffering the consequences.
+Dialogue: 0,0:04:49.59,0:04:51.15,DCItalic,CONAN,0000,0000,0000,,And that...
+Dialogue: 0,0:04:54.47,0:04:56.94,DCItalic,CONAN,0000,0000,0000,,turned out the worst way possible.
+Dialogue: 0,0:05:01.70,0:05:03.61,DCMain,TAKAGI,0000,0000,0000,,We've identified the victim.
+Dialogue: 0,0:05:03.36,0:05:09.24,ID3,TEXT,0000,0000,0000,,Nichiuri Sports Newspaper Company \NNewsroom Department Two \NKagazume Hiroshi
+Dialogue: 0,0:05:04.10,0:05:06.64,DCMain,TAKAGI,0000,0000,0000,,Kagazume Hiroshi-san, thirty-eight years old.
+Dialogue: 0,0:05:06.64,0:05:09.24,DCMain,TAKAGI,0000,0000,0000,,He was a reporter for \N{\i1}Nichiuri Sports{\i0} magazine.
+Dialogue: 0,0:05:09.56,0:05:13.97,DCMain,TAKAGI,0000,0000,0000,,The time of death is between 7PM and 9PM.
+Dialogue: 0,0:05:13.97,0:05:15.26,DCMain,MEGURE,0000,0000,0000,,How did he die?
+Dialogue: 0,0:05:15.26,0:05:17.60,DCMain,TAKAGI,0000,0000,0000,,We're still waiting for the autopsy,
+Dialogue: 0,0:05:17.60,0:05:22.25,DCMain,TAKAGI,0000,0000,0000,,but judging by the body's condition, \Nwe believe it was cyanide poisoning.
+Dialogue: 0,0:05:22.66,0:05:26.76,DCMain,TAKAGI,0000,0000,0000,,It's likely it was dissolved into \Nthe coffee in his travel mug.
+Dialogue: 0,0:05:26.98,0:05:28.49,DCMain,MEGURE,0000,0000,0000,,Was it suicide?
+Dialogue: 0,0:05:28.49,0:05:31.01,DCMain,CHIBA,0000,0000,0000,,That's what we thought at first, but...
+Dialogue: 0,0:05:32.05,0:05:33.40,DCMain,MEGURE,0000,0000,0000,,Footprints?
+Dialogue: 0,0:05:33.98,0:05:34.89,DCMain,CHIBA,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:34.89,0:05:38.00,DCMain,CHIBA,0000,0000,0000,,They're not the victim's, \Nand they're fairly fresh.
+Dialogue: 0,0:05:38.00,0:05:43.36,DCMain,CHIBA,0000,0000,0000,,In other words, it's possible someone \Nelse was here around the time of death.
+Dialogue: 0,0:05:49.88,0:05:51.78,DCMain,MEGURE,0000,0000,0000,,Hashizume Akira-san.
+Dialogue: 0,0:05:52.16,0:05:55.64,DCMain,MEGURE,0000,0000,0000,,Like the late Kagazume Hiroshi-san,
+Dialogue: 0,0:05:55.64,0:05:58.03,DCMain,MEGURE,0000,0000,0000,,you're a reporter at \N{\i1}Nichiuri Sports{\i0}, correct?
+Dialogue: 0,0:05:58.03,0:05:58.94,DCMain,HASHI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:58.94,0:06:02.42,DCMain,HASHI,0000,0000,0000,,Anyway, why am I being arrested?
+Dialogue: 0,0:06:02.63,0:06:04.55,DCMain,MEGURE,0000,0000,0000,,You're not under arrest.
+Dialogue: 0,0:06:04.55,0:06:09.43,DCMain,MEGURE,0000,0000,0000,,We just want to speak with you \Nas a material witness for now.
+Dialogue: 0,0:06:12.44,0:06:14.62,DCMain,HASHI,0000,0000,0000,,Kagazume and I got along like cats and dogs.
+Dialogue: 0,0:06:14.62,0:06:17.68,DCMain,HASHI,0000,0000,0000,,We always fought. It was a huge nuisance.
+Dialogue: 0,0:06:18.09,0:06:22.11,DCMain,HASHI,0000,0000,0000,,I'm sure my coworkers have \Nalready told you that.
+Dialogue: 0,0:06:22.68,0:06:26.53,DCMain,HASHI,0000,0000,0000,,So I definitely had a motive to kill him.
+Dialogue: 0,0:06:26.88,0:06:29.36,DCMain,MEGURE,0000,0000,0000,,But you didn't?
+Dialogue: 0,0:06:30.80,0:06:32.02,DCMain,HASHI,0000,0000,0000,,Of course not!
+Dialogue: 0,0:06:32.64,0:06:37.01,DCMain,CHIBA,0000,0000,0000,,Then why were your fingerprints found
+Dialogue: 0,0:06:34.28,0:06:39.79,Results,TEXT,0000,0000,0000,,Travel Mug Fingerprint Results
+Dialogue: 0,0:06:34.28,0:06:39.79,Name,TEXT,0000,0000,0000,,Name: Hashizume Akira
+Dialogue: 0,0:06:37.44,0:06:39.79,DCMain,CHIBA,0000,0000,0000,,on the travel mug at the crime scene?
+Dialogue: 0,0:06:41.79,0:06:45.59,DCMain,HASHI,0000,0000,0000,,Our travel mugs were identical.
+Dialogue: 0,0:06:46.03,0:06:48.59,DCMain,HASHI,0000,0000,0000,,I've accidentally touched it before.
+Dialogue: 0,0:06:48.59,0:06:50.33,DCMain,HASHI,0000,0000,0000,,It must've happened then.
+Dialogue: 0,0:06:51.02,0:06:52.80,DCMain,MEGURE,0000,0000,0000,,Accidentally, you say?
+Dialogue: 0,0:06:53.19,0:06:56.31,DCMain,MEGURE,0000,0000,0000,,We'll be confirming that.
+Dialogue: 0,0:06:58.56,0:07:00.56,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:06:59.38,0:07:00.56,DCMain,KOGORO,0000,0000,0000,,Hey, kid.
+Dialogue: 0,0:07:00.56,0:07:05.22,DCMain,KOGORO,0000,0000,0000,,You're sure Hashizume-san took \Nthe wrong travel mug, right?
+Dialogue: 0,0:07:05.22,0:07:06.86,DCMain,CONAN,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:07:07.52,0:07:09.32,DCMain,RAN,0000,0000,0000,,What is it, Conan-kun?
+Dialogue: 0,0:07:09.54,0:07:11.97,DCMain,CONAN,0000,0000,0000,,It may have been my imagination,
+Dialogue: 0,0:07:12.38,0:07:13.99,DCMain,CONAN,0000,0000,0000,,but it seemed like Hashizume-san
+Dialogue: 0,0:07:14.57,0:07:19.20,DCMain,CONAN,0000,0000,0000,,deliberately took Kagazume-san's travel mug.
+Dialogue: 0,0:07:19.41,0:07:20.21,DCMain,BOTH,0000,0000,0000,,What?!
+Dialogue: 0,0:07:20.50,0:07:22.27,DCMain,KOGORO,0000,0000,0000,,Is that true?
+Dialogue: 0,0:07:22.27,0:07:28.31,DCMain,TAKAGI,0000,0000,0000,,Then if he deliberately \Nleft his own poisoned mug,
+Dialogue: 0,0:07:28.31,0:07:31.70,DCMain,TAKAGI,0000,0000,0000,,and Kagazume-san drank \Nfrom it without knowing...
+Dialogue: 0,0:07:31.70,0:07:34.30,DCMain,KOGORO,0000,0000,0000,,Yeah, it's murder.
+Dialogue: 0,0:07:34.30,0:07:35.81,DCMain,CONAN,0000,0000,0000,,But later...
+Dialogue: 0,0:07:36.39,0:07:39.80,DCMain,CONAN,0000,0000,0000,,Kagazume-san listened to what I said.
+Dialogue: 0,0:07:40.17,0:07:43.13,DCMain,CONAN,0000,0000,0000,,He knew it wasn't his.
+Dialogue: 0,0:07:43.13,0:07:44.56,DCMain,CONAN,0000,0000,0000,,But...
+Dialogue: 0,0:07:44.56,0:07:46.60,DCMain,RAN,0000,0000,0000,,You're right. That is weird.
+Dialogue: 0,0:07:46.60,0:07:50.25,DCMain,KOGORO,0000,0000,0000,,We can ask Hashizume about it.
+Dialogue: 0,0:07:50.25,0:07:51.95,DCMain,TAKAGI,0000,0000,0000,,Well, actually...
+Dialogue: 0,0:07:54.16,0:07:54.70,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:07:54.88,0:07:56.20,DCMain,MEGURE,0000,0000,0000,,You have an alibi?
+Dialogue: 0,0:07:56.43,0:08:01.43,DCMain,HASHI,0000,0000,0000,,Yeah. It was yesterday \Nnight from 7 to 9, right?
+Dialogue: 0,0:08:02.01,0:08:02.83,DCMain,HASHI,0000,0000,0000,,I was...
+Dialogue: 0,0:08:03.89,0:08:08.50,DCMain,TAKAGI,0000,0000,0000,,He was staking out a celebrity's affair.
+Dialogue: 0,0:08:09.47,0:08:10.97,DCMain,KOGORO,0000,0000,0000,,Is there proof?
+Dialogue: 0,0:08:10.97,0:08:11.67,DCMain,TAKAGI,0000,0000,0000,,Yes.
+Dialogue: 0,0:08:11.98,0:08:19.43,Cheetah1,TEXT,0000,0000,0000,,{\fad(210,1)}Cheetah Delivery \NRefrigerated
+Dialogue: 0,0:08:12.36,0:08:16.99,DCMain,TAKAGI,0000,0000,0000,,He remembered the company name
+Dialogue: 0,0:08:17.55,0:08:22.51,DCMain,TAKAGI,0000,0000,0000,,and appearance of the deliveryman \Nwho arrived during that time.
+Dialogue: 0,0:08:23.47,0:08:26.65,DCMain,TAKAGI,0000,0000,0000,,We confirmed his story \Nwith the delivery company.
+Dialogue: 0,0:08:27.09,0:08:30.80,DCMain,TAKAGI,0000,0000,0000,,It would've been impossible for \NHashizume-san to make it to the crime scene.
+Dialogue: 0,0:08:30.80,0:08:33.28,DCMain,DELIVERY,0000,0000,0000,,Mori-san, delivery.
+Dialogue: 0,0:08:34.09,0:08:34.78,DCMain,RAN,0000,0000,0000,,Coming.
+Dialogue: 0,0:08:34.78,0:08:37.28,Cheetah2,TEXT,0000,0000,0000,,Cheetah Delivery
+Dialogue: 0,0:08:35.16,0:08:36.12,DCMain,DELIVERY,0000,0000,0000,,Hello.
+Dialogue: 0,0:08:36.12,0:08:37.28,DCMain,DELIVERY,0000,0000,0000,,I have a package for you.
+Dialogue: 0,0:08:37.97,0:08:39.79,DCMain,DELIVERY,0000,0000,0000,,I'm here at the time you specified.
+Dialogue: 0,0:08:39.79,0:08:40.75,DCMain,RAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:41.61,0:08:43.03,DCItalic,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:08:44.20,0:08:45.13,DCMain,TAKAGI,0000,0000,0000,,This is it.
+Dialogue: 0,0:08:45.13,0:08:48.24,DCMain,TAKAGI,0000,0000,0000,,Hashizume-san claims he was here,
+Dialogue: 0,0:08:48.24,0:08:53.05,DCMain,TAKAGI,0000,0000,0000,,watching that apartment \Nbuilding from 6PM to 7AM.
+Dialogue: 0,0:08:53.29,0:08:57.29,DCMain,TAKAGI,0000,0000,0000,,Conan-kun, did Mori-san really ask \Nyou to investigate this place?
+Dialogue: 0,0:08:57.29,0:08:58.55,DCMain,CONAN,0000,0000,0000,,Hey, look.
+Dialogue: 0,0:08:59.56,0:09:00.47,DCMain,,0000,0000,0000,,What's this?
+Dialogue: 0,0:09:01.58,0:09:04.57,DCMain,CONAN,0000,0000,0000,,This is probably from a camera tripod.
+Dialogue: 0,0:09:08.00,0:09:09.19,DCMain,TAKAGI,0000,0000,0000,,Hello?
+Dialogue: 0,0:09:09.46,0:09:11.62,DCMain,TAKAGI,0000,0000,0000,,Yes, thanks for taking my call earlier.
+Dialogue: 0,0:09:12.67,0:09:13.94,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:09:16.73,0:09:19.20,DCMain,CONAN,0000,0000,0000,,So the old man was right.
+Dialogue: 0,0:09:19.42,0:09:20.22,DCMain,TAKAGI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:20.22,0:09:24.87,DCMain,TAKAGI,0000,0000,0000,,The delivery Hashizume-san saw \Nhad a specified delivery time.
+Dialogue: 0,0:09:24.87,0:09:26.78,DCMain,TAKAGI,0000,0000,0000,,Not only that, but the address was unknown,
+Dialogue: 0,0:09:26.78,0:09:28.96,DCMain,TAKAGI,0000,0000,0000,,and the sender's name on \Nthe voucher was made up.
+Dialogue: 0,0:09:30.15,0:09:32.71,DCMain,TAKAGI,0000,0000,0000,,Did Hashizume-san send it?
+Dialogue: 0,0:09:32.95,0:09:34.02,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:34.02,0:09:40.02,DCMain,CONAN,0000,0000,0000,,He filmed the delivery using an \Nunmanned camera on a tripod.
+Dialogue: 0,0:09:40.62,0:09:43.10,DCMain,CONAN,0000,0000,0000,,During that time, he went to the crime scene.
+Dialogue: 0,0:09:43.10,0:09:46.73,DCMain,CONAN,0000,0000,0000,,Later he checked the video \Nso he'd have an alibi.
+Dialogue: 0,0:09:49.53,0:09:52.63,DCMain,TAKAGI,0000,0000,0000,,Which means it was premeditated murder.
+Dialogue: 0,0:09:53.07,0:09:57.36,DCMain,TAKAGI,0000,0000,0000,,We found the evidence to support \Nit in a surprising location.
+Dialogue: 0,0:09:58.84,0:10:04.06,DCMain,CHIBA,0000,0000,0000,,On the flash drive plugged \Ninto the victim's laptop.
+Dialogue: 0,0:10:05.25,0:10:09.16,DCMain,CHIBA,0000,0000,0000,,On it we found a plan to murder...
+Dialogue: 0,0:10:10.00,0:10:11.25,Murder,TEXT,0000,0000,0000,,Murder Plan
+Dialogue: 0,0:10:11.25,0:10:12.50,Murder,TEXT,0000,0000,0000,,By Kagazume Hiroshi
+Dialogue: 0,0:10:14.08,0:10:16.46,DCItalic,CHIBA,0000,0000,0000,,...you, Hashizume-san.
+Dialogue: 0,0:10:18.26,0:10:21.02,DCMain,TAKAGI,0000,0000,0000,,The method and alibi trick in it
+Dialogue: 0,0:10:21.02,0:10:23.76,DCMain,TAKAGI,0000,0000,0000,,is exactly as we just described.
+Dialogue: 0,0:10:23.76,0:10:30.02,Plan,TEXT,0000,0000,0000,,Switch out travel mugs and return poisoned mug to Hashizume.\NExchange mug for my own. Reconcile with a toast. Send him to hell.
+Dialogue: 0,0:10:23.76,0:10:30.02,Plan2,TEXT,0000,0000,0000,,Alibi fabrication: Claim I was staking out a \Ncelebrity's affair at an expensive apartment building \Nin the city between 18:00 and 7:00. To support claim,\Nset up tripod in plants across from apartment\N building and arrange for delivery at specified time.\N Film delivery with unmanned camera and head\N to crime scene during that time to...
+Dialogue: 0,0:10:24.45,0:10:25.98,DCMain,CHIBA,0000,0000,0000,,According to the plan,
+Dialogue: 0,0:10:25.98,0:10:30.02,DCMain,CHIBA,0000,0000,0000,,he meant to "switch out travel mugs and \Nreturn poisoned mug to Hashizume."
+Dialogue: 0,0:10:30.59,0:10:32.18,DCMain,CHIBA,0000,0000,0000,,"Exchange mug for my own.
+Dialogue: 0,0:10:32.78,0:10:37.28,DCMain,CHIBA,0000,0000,0000,,Reconcile with a toast. Send him to hell."
+Dialogue: 0,0:10:39.14,0:10:43.70,DCMain,CHIBA,0000,0000,0000,,Later, "claim Hashizume was stressed \Nabout lack of progress at work,
+Dialogue: 0,0:10:44.40,0:10:45.98,DCMain,CHIBA,0000,0000,0000,,suggesting suicide,
+Dialogue: 0,0:10:45.98,0:10:50.67,DCMain,CHIBA,0000,0000,0000,,and write obituary about the \Nloss of a rival and friend."
+Dialogue: 0,0:10:51.08,0:10:55.42,DCMain,KOGORO,0000,0000,0000,,He was quite the particular criminal.
+Dialogue: 0,0:10:55.42,0:10:57.27,DCMain,KOGORO,0000,0000,0000,,Or maybe it was conceit.
+Dialogue: 0,0:10:57.27,0:10:58.67,DCMain,MEGURE,0000,0000,0000,,Indeed.
+Dialogue: 0,0:10:59.04,0:11:02.48,DCItalic,CONAN,0000,0000,0000,,What is it? Something's not right.
+Dialogue: 0,0:11:03.06,0:11:07.94,DCMain,TAKAGI,0000,0000,0000,,You either accidentally took or \Nstole the victim's flash drive,
+Dialogue: 0,0:11:07.94,0:11:10.41,DCMain,TAKAGI,0000,0000,0000,,and read its contents.
+Dialogue: 0,0:11:10.41,0:11:14.22,DCMain,TAKAGI,0000,0000,0000,,You learned of his plan to \Nkill you and became enraged,
+Dialogue: 0,0:11:14.61,0:11:17.22,DCMain,TAKAGI,0000,0000,0000,,and decided to murder him \Nusing the same method.
+Dialogue: 0,0:11:17.22,0:11:18.49,DCMain,HASHI,0000,0000,0000,,N-No.
+Dialogue: 0,0:11:19.65,0:11:24.55,DCMain,CHIBA,0000,0000,0000,,You pretended to accidentally \Ntake the victim's travel mug home
+Dialogue: 0,0:11:24.55,0:11:26.95,DCMain,CHIBA,0000,0000,0000,,and poisoned it.
+Dialogue: 0,0:11:26.95,0:11:27.83,DCMain,HASHI,0000,0000,0000,,No!
+Dialogue: 0,0:11:28.04,0:11:31.74,DCMain,TAKAGI,0000,0000,0000,,You invited the victim out \Nso you could return it
+Dialogue: 0,0:11:31.74,0:11:33.70,DCMain,TAKAGI,0000,0000,0000,,and exchanged mugs with him.
+Dialogue: 0,0:11:33.70,0:11:36.22,DCMain,TAKAGI,0000,0000,0000,,You made him think you reconciled \Nand made him drink it.
+Dialogue: 0,0:11:36.22,0:11:38.80,DCMain,HASHI,0000,0000,0000,,No, no, no!
+Dialogue: 0,0:11:43.60,0:11:45.30,DCMain,MEGURE,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:11:45.53,0:11:46.35,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:53.60,0:11:56.57,Murder,TEXT,0000,0000,0000,,{\fad(210,1)}Murder Plan \NBy Hashizume Akira
+Dialogue: 0,0:11:56.91,0:11:58.32,DCItalic,CONAN,0000,0000,0000,,Wh-What is this?
+Dialogue: 0,0:11:59.33,0:12:01.32,DCMain,KOGORO,0000,0000,0000,,I-Inspector!
+Dialogue: 0,0:12:01.58,0:12:03.77,DCMain,MEGURE,0000,0000,0000,,It's the murder plan we found
+Dialogue: 0,0:12:03.77,0:12:08.83,DCMain,MEGURE,0000,0000,0000,,on the flash drive we \Nseized from Hashizume-san.
+Dialogue: 0,0:12:09.35,0:12:12.96,DCMain,MEGURE,0000,0000,0000,,His target is the victim Kagazume-san.
+Dialogue: 0,0:12:13.17,0:12:14.24,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:12:14.24,0:12:18.65,DCMain,MEGURE,0000,0000,0000,,Both plans were written \Nat nearly the same time.
+Dialogue: 0,0:12:18.65,0:12:22.13,DCMain,MEGURE,0000,0000,0000,,There are also no signs the \Ndocuments were unlocked and read.
+Dialogue: 0,0:12:23.42,0:12:24.97,DCMain,KOGORO,0000,0000,0000,,Which means?
+Dialogue: 0,0:12:25.98,0:12:29.97,DCMain,MEGURE,0000,0000,0000,,Unbelievably enough, they \Ncoincidentally created the same plan
+Dialogue: 0,0:12:29.97,0:12:33.48,Murder,TEXT,0000,0000,0000,,Murder Plan \NBy Hashizume Akira
+Dialogue: 0,0:12:30.36,0:12:33.48,DCMain,MEGURE,0000,0000,0000,,to murder the other.
+Dialogue: 0,0:12:35.27,0:12:38.23,DCMain,KOGORO,0000,0000,0000,,Because they're so alike, huh?
+Dialogue: 0,0:12:38.96,0:12:40.96,DCMain,KOGORO,0000,0000,0000,,But still...
+Dialogue: 0,0:12:42.99,0:12:44.89,DCMain,HASHI,0000,0000,0000,,That's right.
+Dialogue: 0,0:12:44.89,0:12:49.74,DCMain,HASHI,0000,0000,0000,,I tried to kill Kagazume \Naccording to the plan.
+Dialogue: 0,0:12:50.17,0:12:53.97,DCMain,HASHI,0000,0000,0000,,I fabricated an alibi, \Npoisoned the travel mug,
+Dialogue: 0,0:12:53.97,0:12:56.44,DCMain,HASHI,0000,0000,0000,,invited Kagazume out, and went to meet him.
+Dialogue: 0,0:12:56.44,0:12:57.90,DCMain,HASHI,0000,0000,0000,,I'm sure of it.
+Dialogue: 0,0:12:58.28,0:12:59.25,DCMain,HASHI,0000,0000,0000,,But...
+Dialogue: 0,0:12:59.82,0:13:01.38,DCMain,HASHI,0000,0000,0000,,But when I went...
+Dialogue: 0,0:13:02.60,0:13:04.81,DCMain,HASHI,0000,0000,0000,,Kagazume was already dead.
+Dialogue: 0,0:13:05.56,0:13:06.51,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:13:06.70,0:13:08.72,DCMain,TAKAGI,0000,0000,0000,,He was dead when you got there?
+Dialogue: 0,0:13:08.72,0:13:10.28,DCMain,CHIBA,0000,0000,0000,,That's absurd.
+Dialogue: 0,0:13:10.28,0:13:12.39,DCMain,CHIBA,0000,0000,0000,,It's too convenient!
+Dialogue: 0,0:13:12.64,0:13:14.06,DCMain,HASHI,0000,0000,0000,,You're right.
+Dialogue: 0,0:13:15.32,0:13:17.27,DCMain,HASHI,0000,0000,0000,,But it's true.
+Dialogue: 0,0:13:17.89,0:13:23.19,DCMain,HASHI,0000,0000,0000,,I ran, washed the mug, and threw it away.
+Dialogue: 0,0:13:24.30,0:13:26.37,DCItalic,TAKAGI,0000,0000,0000,,Quit playing dumb.
+Dialogue: 0,0:13:26.37,0:13:29.64,DCItalic,CHIBA,0000,0000,0000,,Who else could have killed him?
+Dialogue: 0,0:13:31.36,0:13:32.69,DCItalic,CONAN,0000,0000,0000,,Those two...
+Dialogue: 0,0:13:33.76,0:13:35.71,DCMain,TAKAGI,0000,0000,0000,,Mori-san thinks they're suspicious?
+Dialogue: 0,0:13:36.02,0:13:38.30,DCMain,CONAN,0000,0000,0000,,No.
+Dialogue: 0,0:13:38.30,0:13:41.24,DCMain,CONAN,0000,0000,0000,,He just wants to know if they have alibis.
+Dialogue: 0,0:13:41.24,0:13:45.72,DCMain,TAKAGI,0000,0000,0000,,We looked into it, but it's unclear.
+Dialogue: 0,0:13:46.24,0:13:49.37,DCMain,TAKAGI,0000,0000,0000,,Hosoda-san was out gathering \Ninformation alone.
+Dialogue: 0,0:13:49.37,0:13:52.14,DCMain,TAKAGI,0000,0000,0000,,Kuwana-san was working late \Nin the office by herself.
+Dialogue: 0,0:13:52.14,0:13:54.60,DCMain,TAKAGI,0000,0000,0000,,Neither had anyone to confirm their stories.
+Dialogue: 0,0:13:54.83,0:13:56.98,DCMain,CONAN,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:13:59.56,0:14:02.98,DCMain,CONAN,0000,0000,0000,,The old man asked me to do one other thing.
+Dialogue: 0,0:14:02.98,0:14:04.11,DCMain,TAKAGI,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:06.92,0:14:09.56,DCMain,TAKAGI,0000,0000,0000,,Re-examine the crime scene?
+Dialogue: 0,0:14:09.56,0:14:12.54,DCMain,TAKAGI,0000,0000,0000,,Is there something bothering Mori-san?
+Dialogue: 0,0:14:12.54,0:14:14.56,DCMain,CONAN,0000,0000,0000,,Can you show me the crime scene photos?
+Dialogue: 0,0:14:14.56,0:14:15.38,DCMain,TAKAGI,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:15.38,0:14:17.29,DCMain,TAKAGI,0000,0000,0000,,Yeah, here.
+Dialogue: 0,0:14:19.36,0:14:20.79,DCMain,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:14:21.16,0:14:23.38,DCMain,TAKAGI,0000,0000,0000,,It's coffee.
+Dialogue: 0,0:14:23.38,0:14:28.38,DCMain,TAKAGI,0000,0000,0000,,We think some coffee spilled \Nfrom his mug when he collapsed.
+Dialogue: 0,0:14:28.38,0:14:33.31,DCMain,TAKAGI,0000,0000,0000,,We found the same cyanide in \Nit, so we're fairly certain.
+Dialogue: 0,0:14:33.31,0:14:36.34,DCMain,CONAN,0000,0000,0000,,Then shouldn't it be on his pants, too?
+Dialogue: 0,0:14:36.34,0:14:40.53,DCMain,CONAN,0000,0000,0000,,Based on the length of his pants, \Nisn't it strange to only be on his socks?
+Dialogue: 0,0:14:40.53,0:14:42.19,DCMain,TAKAGI,0000,0000,0000,,Now that you mention it...
+Dialogue: 0,0:14:42.80,0:14:44.44,DCMain,TAKAGI,0000,0000,0000,,It certainly is odd.
+Dialogue: 0,0:14:44.94,0:14:48.73,DCMain,CONAN,0000,0000,0000,,How did the victim Kagazume-san get here?
+Dialogue: 0,0:14:48.73,0:14:49.95,DCMain,TAKAGI,0000,0000,0000,,By car.
+Dialogue: 0,0:14:50.76,0:14:53.69,DCMain,TAKAGI,0000,0000,0000,,He parked on the embankment \Nand walked here.
+Dialogue: 0,0:14:53.69,0:14:55.58,DCMain,CONAN,0000,0000,0000,,Did you search the inside of the car?
+Dialogue: 0,0:14:55.78,0:15:00.62,DCMain,TAKAGI,0000,0000,0000,,Yeah, but we didn't find anything suspicious.
+Dialogue: 0,0:15:01.11,0:15:02.63,DCMain,CONAN,0000,0000,0000,,Search it again.
+Dialogue: 0,0:15:03.32,0:15:05.38,DCItalic,KOGORO,0000,0000,0000,,Chiba? This is Mori.
+Dialogue: 0,0:15:05.62,0:15:08.96,DCItalic,KOGORO,0000,0000,0000,,There's something I want you to look into.
+Dialogue: 0,0:15:12.16,0:15:14.35,DCMain,MEGURE,0000,0000,0000,,Is it true, Mori-kun?
+Dialogue: 0,0:15:15.02,0:15:17.89,DCMain,MEGURE,0000,0000,0000,,That you've uncovered the \Ntruth behind the case.
+Dialogue: 0,0:15:18.16,0:15:18.99,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:15:18.99,0:15:23.17,DCMain,KOGORO,0000,0000,0000,,I came here because you said \Nyou found new evidence to—
+Dialogue: 0,0:15:30.46,0:15:31.74,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:15:32.22,0:15:34.14,DCMain,CONAN,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:15:34.58,0:15:36.87,DCMain,KOGORO,0000,0000,0000,,Stand back, Conan.
+Dialogue: 0,0:15:37.62,0:15:39.17,DCMain,CONAN,0000,0000,0000,,Okay!
+Dialogue: 0,0:15:40.76,0:15:42.00,DCMain,KOGORO,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:15:42.22,0:15:45.26,DCMain,KOGORO,0000,0000,0000,,Allow me to explain the \Ntruth behind the case.
+Dialogue: 0,0:15:45.67,0:15:50.63,DCMain,KOGORO,0000,0000,0000,,First, Detective Takagi, what did \Nyou find in Kagazume-san's car?
+Dialogue: 0,0:15:52.08,0:15:52.88,DCMain,KOGORO,0000,0000,0000,,Right.
+Dialogue: 0,0:15:52.88,0:15:57.64,DCMain,KOGORO,0000,0000,0000,,On the floor of the driver's seat, \Nwe found traces of cyanide.
+Dialogue: 0,0:15:57.84,0:15:59.39,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:15:59.75,0:16:01.89,DCMain,KOGORO,0000,0000,0000,,That can only mean one thing:
+Dialogue: 0,0:16:02.24,0:16:07.16,DCMain,KOGORO,0000,0000,0000,,Kagazume-san put cyanide in \Nhis own mug inside his car.
+Dialogue: 0,0:16:07.16,0:16:11.15,DCMain,KOGORO,0000,0000,0000,,And while doing that, he \Nspilled a bit of coffee.
+Dialogue: 0,0:16:11.86,0:16:16.66,DCMain,KOGORO,0000,0000,0000,,Sitting in the driver's seat caused the hem \Nof his pants to ride up, exposing his socks.
+Dialogue: 0,0:16:17.33,0:16:19.92,DCMain,KOGORO,0000,0000,0000,,It's possible it splashed onto it then.
+Dialogue: 0,0:16:21.02,0:16:25.42,DCMain,MEGURE,0000,0000,0000,,Doesn't that mean they tried to \Nkill each other at the same time?
+Dialogue: 0,0:16:25.70,0:16:29.81,DCMain,MEGURE,0000,0000,0000,,They both had plans to murder the other.
+Dialogue: 0,0:16:29.81,0:16:34.08,DCMain,MEGURE,0000,0000,0000,,Kagazume-san meant to \Nmurder Hashizume-san
+Dialogue: 0,0:16:34.08,0:16:35.43,DCMain,MEGURE,0000,0000,0000,,by returning a poisoned travel mug,
+Dialogue: 0,0:16:35.82,0:16:40.04,DCMain,MEGURE,0000,0000,0000,,but he drank the coffee in the \Npoisoned mug he took first.
+Dialogue: 0,0:16:40.04,0:16:40.88,DCMain,KOGORO,0000,0000,0000,,No.
+Dialogue: 0,0:16:40.88,0:16:45.44,DCMain,KOGORO,0000,0000,0000,,Kagazume-san drank from Hashizume-san's \Ntumbler he had initially.
+Dialogue: 0,0:16:45.93,0:16:50.40,DCMain,KOGORO,0000,0000,0000,,As Hashizume-san claimed, they \Nnever exchanged mugs here.
+Dialogue: 0,0:16:52.13,0:16:54.73,DCMain,MEGURE,0000,0000,0000,,How do you know that?
+Dialogue: 0,0:16:54.73,0:16:56.10,DCMain,KOGORO,0000,0000,0000,,The fingerprints.
+Dialogue: 0,0:16:56.10,0:16:57.29,DCMain,MEGURE,0000,0000,0000,,Fingerprints?
+Dialogue: 0,0:16:57.29,0:17:00.04,DCMain,MEGURE,0000,0000,0000,,But it was originally Hashizume-san's mug.
+Dialogue: 0,0:17:00.04,0:17:04.29,DCMain,MEGURE,0000,0000,0000,,It's not strange for Kagazume-san's \Nor his own fingerprints to be on it.
+Dialogue: 0,0:17:04.50,0:17:08.54,DCMain,KOGORO,0000,0000,0000,,Yes, but I'm not talking \Nabout their fingerprints.
+Dialogue: 0,0:17:09.56,0:17:11.05,DCMain,KOGORO,0000,0000,0000,,It's Conan's fingerprints.
+Dialogue: 0,0:17:11.55,0:17:12.55,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:17:12.75,0:17:14.55,DCMain,CONAN,0000,0000,0000,,Um...
+Dialogue: 0,0:17:14.55,0:17:17.80,DCMain,CONAN,0000,0000,0000,,I actually touched the mug.
+Dialogue: 0,0:17:18.32,0:17:20.06,DCMain,CONAN,0000,0000,0000,,I barely touched it,
+Dialogue: 0,0:17:20.82,0:17:24.48,DCMain,CONAN,0000,0000,0000,,so I'm not sure I left a print, \Nbut it could serve as evidence.
+Dialogue: 0,0:17:26.43,0:17:28.12,DCMain,MEGURE,0000,0000,0000,,So?
+Dialogue: 0,0:17:28.12,0:17:30.23,DCMain,MEGURE,0000,0000,0000,,What does this mean?
+Dialogue: 0,0:17:30.39,0:17:32.38,DCMain,KOGORO,0000,0000,0000,,In other words,
+Dialogue: 0,0:17:32.38,0:17:37.86,DCMain,KOGORO,0000,0000,0000,,Kagazume-san drank from the \Nmug he poisoned himself.
+Dialogue: 0,0:17:38.17,0:17:40.71,DCMain,MEGURE,0000,0000,0000,,Wh-What? Could it be?
+Dialogue: 0,0:17:40.71,0:17:42.58,DCMain,HASHI,0000,0000,0000,,N-No way...
+Dialogue: 0,0:17:43.00,0:17:44.24,DCMain,HASHI,0000,0000,0000,,But why?
+Dialogue: 0,0:17:44.24,0:17:47.62,DCMain,CHIBA,0000,0000,0000,,This is why.
+Dialogue: 0,0:17:45.62,0:17:47.62,Will,TEXT,0000,0000,0000,,Will and Testament
+Dialogue: 0,0:17:50.26,0:17:55.09,DCMain,CHIBA,0000,0000,0000,,At Mori-san's instructions, we found this on \Nanother one of Kagazume-san's flash drives.
+Dialogue: 0,0:17:55.09,0:17:59.39,DCMain,CHIBA,0000,0000,0000,,It was never revealed publicly \Nin last year's case.
+Dialogue: 0,0:17:59.86,0:18:03.51,DCMain,CHIBA,0000,0000,0000,,It describes the death of a \Nmajor company's president.
+Dialogue: 0,0:18:04.40,0:18:09.40,DCMain,CHIBA,0000,0000,0000,,The disappearance of a will that \Nexacerbated an inheritance dispute.
+Dialogue: 0,0:18:06.89,0:18:09.90,Scoop,TEXT,0000,0000,0000,,{\fad(500,1)}Scoop!! \NWill disappeared?! \NThe Surviving Family's Darkness!!
+Dialogue: 0,0:18:09.69,0:18:14.39,DCMain,CHIBA,0000,0000,0000,,How Hashizume-san and \NKagazume-san worked together then
+Dialogue: 0,0:18:14.86,0:18:17.40,DCMain,CHIBA,0000,0000,0000,,to break into the law office and steal it.
+Dialogue: 0,0:18:17.40,0:18:19.91,USBData,TEXT,0000,0000,0000,,Kagazume's USB data
+Dialogue: 0,0:18:17.40,0:18:19.91,Will2,TEXT,0000,0000,0000,,Will and Testament
+Dialogue: 0,0:18:17.72,0:18:19.91,DCMain,CHIBA,0000,0000,0000,,And this is his written confession.
+Dialogue: 0,0:18:20.27,0:18:21.71,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:18:21.71,0:18:25.54,DCMain,CHIBA,0000,0000,0000,,They wrote articles
+Dialogue: 0,0:18:26.10,0:18:28.55,DCMain,CHIBA,0000,0000,0000,,mocking the people they enraged.
+Dialogue: 0,0:18:29.02,0:18:33.35,DCMain,CHIBA,0000,0000,0000,,But after the attempted murder,
+Dialogue: 0,0:18:33.35,0:18:36.76,DCMain,CHIBA,0000,0000,0000,,they destroyed the will and \Nnever spoke of it again.
+Dialogue: 0,0:18:37.30,0:18:41.20,DCMain,CHIBA,0000,0000,0000,,However, wracked with guilt,
+Dialogue: 0,0:18:41.20,0:18:44.06,DCMain,CHIBA,0000,0000,0000,,Kagazume-san suggested to Hashizume-san \Nthat they reveal the truth.
+Dialogue: 0,0:18:44.54,0:18:45.32,DCMain,CHIBA,0000,0000,0000,,But...
+Dialogue: 0,0:18:45.81,0:18:48.06,DCMain,KOGORO,0000,0000,0000,,...Hashizume-san rejected the idea.
+Dialogue: 0,0:18:48.40,0:18:53.32,DCMain,KOGORO,0000,0000,0000,,What we saw in the restaurant \Nwas part of that discussion.
+Dialogue: 0,0:18:54.66,0:18:59.42,DCMain,KOGORO,0000,0000,0000,,Rejecting the idea and fearing \Nthe truth would come to light,
+Dialogue: 0,0:18:59.42,0:19:02.57,DCMain,KOGORO,0000,0000,0000,,Hashizume-san plotted to kill Kagazume-san,
+Dialogue: 0,0:19:03.00,0:19:08.68,DCMain,KOGORO,0000,0000,0000,,without realizing Kagazume-san \Nhad made his own plans
+Dialogue: 0,0:19:08.68,0:19:10.01,DCMain,KOGORO,0000,0000,0000,,to kill Hashizume-san.
+Dialogue: 0,0:19:11.00,0:19:13.30,DCMain,KOGORO,0000,0000,0000,,Hashizume-san and Kagazume-san.
+Dialogue: 0,0:19:13.30,0:19:15.50,DCMain,KOGORO,0000,0000,0000,,The murderous intent you felt
+Dialogue: 0,0:19:15.50,0:19:17.62,DCMain,KOGORO,0000,0000,0000,,due to your similarities grew \Nover years of working together,
+Dialogue: 0,0:19:17.62,0:19:20.01,DCMain,KOGORO,0000,0000,0000,,eventually becoming murder plots.
+Dialogue: 0,0:19:20.58,0:19:23.10,DCMain,KOGORO,0000,0000,0000,,But you were different in one way.
+Dialogue: 0,0:19:23.46,0:19:25.26,DCMain,KOGORO,0000,0000,0000,,At the very end,
+Dialogue: 0,0:19:25.89,0:19:27.93,DCMain,KOGORO,0000,0000,0000,,Kagazume-san changed his.
+Dialogue: 0,0:19:28.41,0:19:29.50,DCItalic,KAGA,0000,0000,0000,,This is the last time!
+Dialogue: 0,0:19:29.50,0:19:30.85,DCItalic,KAGA,0000,0000,0000,,You'd better not regret it!
+Dialogue: 0,0:19:30.85,0:19:32.56,DCItalic,HASHI,0000,0000,0000,,Enough already, you hypocrite!
+Dialogue: 0,0:19:49.74,0:19:55.60,DCMain,KOGORO,0000,0000,0000,,Kagazume-san realized you \Ndeliberately took his mug,
+Dialogue: 0,0:19:55.60,0:20:00.42,DCMain,KOGORO,0000,0000,0000,,and realized you'd come \Nup with the same plan.
+Dialogue: 0,0:20:00.42,0:20:03.73,DCMain,CHIBA,0000,0000,0000,,We found signs that some of \NKagazume-san's data had been erased,
+Dialogue: 0,0:20:03.73,0:20:05.55,DCMain,CHIBA,0000,0000,0000,,so we restored it.
+Dialogue: 0,0:20:05.93,0:20:10.82,DCMain,CHIBA,0000,0000,0000,,After Hashizume-san's \Ndeath was ruled a suicide,
+Dialogue: 0,0:20:11.23,0:20:14.44,DCMain,CHIBA,0000,0000,0000,,he wrote that he would also kill himself.
+Dialogue: 0,0:20:15.92,0:20:17.22,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:20:18.59,0:20:21.55,DCMain,KOGORO,0000,0000,0000,,He changed his plan
+Dialogue: 0,0:20:21.55,0:20:25.21,DCMain,KOGORO,0000,0000,0000,,to make the remorseless \NHashizume-san suffer.
+Dialogue: 0,0:20:25.59,0:20:27.51,DCMain,KOGORO,0000,0000,0000,,And there's one more thing.
+Dialogue: 0,0:20:27.51,0:20:28.12,DCMain,CHIBA,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:28.98,0:20:33.87,DCMain,CHIBA,0000,0000,0000,,According to his physician, Kagazume-san was \Nsick and had not much time left to live.
+Dialogue: 0,0:20:34.16,0:20:35.06,DCMain,HASHI,0000,0000,0000,,What?
+Dialogue: 0,0:20:35.81,0:20:38.46,DCMain,KOGORO,0000,0000,0000,,After judging himself guilty,
+Dialogue: 0,0:20:38.46,0:20:41.11,DCMain,KOGORO,0000,0000,0000,,he plotted to frame Hashizume-san \Nfor his own murder.
+Dialogue: 0,0:20:41.70,0:20:44.80,DCMain,KOGORO,0000,0000,0000,,He may have been going for a double suicide,
+Dialogue: 0,0:20:45.32,0:20:47.45,DCMain,KOGORO,0000,0000,0000,,since you're so similar.
+Dialogue: 0,0:20:48.62,0:20:50.56,DCMain,HASHI,0000,0000,0000,,He should've minded his own business.
+Dialogue: 0,0:20:52.06,0:20:54.75,DCMain,HASHI,0000,0000,0000,,It was a huge scoop!
+Dialogue: 0,0:20:54.75,0:20:59.18,DCMain,HASHI,0000,0000,0000,,We did whatever it took to expose the \Nunsightly darkness within people!
+Dialogue: 0,0:20:59.18,0:21:02.32,DCMain,HASHI,0000,0000,0000,,We brought lots of things to light!
+Dialogue: 0,0:21:03.44,0:21:05.45,DCMain,HASHI,0000,0000,0000,,He should've thanked me!
+Dialogue: 0,0:21:05.64,0:21:06.74,DCMain,MEGURE,0000,0000,0000,,Don't be absurd!
+Dialogue: 0,0:21:09.23,0:21:11.12,DCMain,MEGURE,0000,0000,0000,,You call yourself a reporter?
+Dialogue: 0,0:21:11.53,0:21:13.51,DCMain,MEGURE,0000,0000,0000,,What did you gain from writing this article?
+Dialogue: 0,0:21:13.51,0:21:15.56,DCMain,MEGURE,0000,0000,0000,,Money? Fame?
+Dialogue: 0,0:21:15.56,0:21:17.42,DCMain,MEGURE,0000,0000,0000,,Think about it.
+Dialogue: 0,0:21:17.63,0:21:21.55,DCMain,MEGURE,0000,0000,0000,,Did your article make a single person happy?!
+Dialogue: 0,0:21:29.69,0:21:33.77,DCMain,MEGURE,0000,0000,0000,,I wish Kagazume-san had \Nbeen judged by the law,
+Dialogue: 0,0:21:33.77,0:21:38.07,DCMain,MEGURE,0000,0000,0000,,and atoned for his crime instead.
+Dialogue: 0,0:21:40.08,0:21:44.32,DCItalic,CONAN,0000,0000,0000,,That same day, Hashizume-san was arrested
+Dialogue: 0,0:21:44.84,0:21:47.99,DCItalic,CONAN,0000,0000,0000,,for the attempted murder \Nof Kagazume-san
+Dialogue: 0,0:21:47.99,0:21:50.38,DCItalic,CONAN,0000,0000,0000,,and stealing the will one year earlier.
+Dialogue: 0,0:23:12.32,0:23:19.33,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:23:12.92,0:23:14.26,DCMain,RAN,0000,0000,0000,,Dad?
+Dialogue: 0,0:23:14.26,0:23:17.48,DCMain,RAN,0000,0000,0000,,You must be tired. What \Ndo you want for dinner?
+Dialogue: 0,0:23:17.48,0:23:19.33,DCMain,RAN,0000,0000,0000,,Western or Japanese?
+Dialogue: 0,0:23:19.59,0:23:22.16,DCMain,KOGORO,0000,0000,0000,,Depends on what I drink.
+Dialogue: 0,0:23:22.16,0:23:26.14,DCMain,KOGORO,0000,0000,0000,,After beer, will I have \Nwine, cold sake, or shochu?
+Dialogue: 0,0:23:26.14,0:23:27.84,DCMain,KOGORO,0000,0000,0000,,Or will I have whiskey?
+Dialogue: 0,0:23:28.11,0:23:29.68,DCMain,CONAN,0000,0000,0000,,They're all liquor.
+Dialogue: 0,0:23:29.68,0:23:31.24,DCMain,CONAN,0000,0000,0000,,They're all the same.
+Dialogue: 0,0:23:31.24,0:23:32.74,DCMain,KOGORO,0000,0000,0000,,Listen, kid,
+Dialogue: 0,0:23:32.74,0:23:37.14,DCMain,KOGORO,0000,0000,0000,,wine and sake have their \Nown uniqueness and flavor.
+Dialogue: 0,0:23:37.14,0:23:41.25,DCMain,KOGORO,0000,0000,0000,,And shochu has its own unique...
+Dialogue: 0,0:23:41.25,0:23:43.70,DCItalic,CONAN,0000,0000,0000,,I'm too young to know what \Nyou're talking about.
+Dialogue: 0,0:23:45.06,0:24:09.09,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:49.08,0:23:49.87,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:23:49.87,0:23:53.07,DCMain,CONAN,0000,0000,0000,,They're both probably dead.
+Dialogue: 0,0:23:53.36,0:23:55.45,DCMain,YUKO,0000,0000,0000,,It's my fault.
+Dialogue: 0,0:23:55.84,0:23:59.68,DCMain,HAIBARA,0000,0000,0000,,The sweater he was wearing was \Nfrom a pretty high-end brand.
+Dialogue: 0,0:23:59.68,0:24:03.71,DCMain,HAIBARA,0000,0000,0000,,If he was strapped for cash, \Nhe couldn't have bought that.
+Dialogue: 0,0:24:03.96,0:24:09.09,DCMain,AGASA,0000,0000,0000,,I thought I'd give you an \Naccurate version of the events.
+Dialogue: 0,0:24:09.09,0:24:15.09,DCNextEp,TEXT,0000,0000,0000,,Result of the Draw
+Dialogue: 0,0:24:09.82,0:24:13.20,DCMain,CONAN,0000,0000,0000,,The next episode of Conan \Nis "Result of the Draw!"
+Dialogue: 0,0:24:30.11,0:24:35.03,Hint,TEXT,0000,0000,0000,,Potted Plant
+Dialogue: 0,0:24:30.54,0:24:32.83,DCMain,RAN,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.83,0:24:34.73,DCMain,CONAN,0000,0000,0000,,A potted plant!
+Dialogue: 0,0:24:35.03,0:24:36.31,DCMain,MEGURE,0000,0000,0000,,{\an8}Their names and faces are so similar.
+Dialogue: 0,0:24:35.03,0:24:40.04,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.31,0:24:38.06,DCMain,KOGORO,0000,0000,0000,,{\an8}So names and natures often agree.
+Dialogue: 0,0:24:38.06,0:24:39.90,DCMain,CONAN,0000,0000,0000,,{\an8}But your detective skills are weak.

@@ -1,0 +1,404 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Kokura,Trebuchet MS,22,&H00D6BFBE,&H000000FF,&H007D6B6A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Location1,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C98698,&H007C3748,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0044,0
+Style: Trading,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H005D6063,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Torazo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007A2B3A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0066,0
+Style: Torahiko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007A2B3A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0245,0020,0066,0
+Style: Ginji,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00752B2E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0350,0066,0
+Style: Shuhei,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00B8818C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0070,0020,0066,0
+Style: Trading2,Trebuchet MS,20,&H005A3020,&H000000FF,&H00C79E8B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Noriko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00C35921,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0066,0
+Style: Office,Trebuchet MS,12,&H002C2D2C,&H000000FF,&H00FFFFFC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0160,0020,0080,0
+Style: Eisaku,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0062445C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0245,0020,0066,0
+Style: Makoto,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00D18A91,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0215,0066,0
+Style: Genichiro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00822A26,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0120,0066,0
+Style: Location2,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00711B12,&H007C3748,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0042,0
+Style: Ceremony,Times New Roman,16,&H00374C51,&H000000FF,&H00E0F4FA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0150,0020,0040,0
+Style: Sponsored,Times New Roman,22,&H00374C51,&H000000FF,&H00E0F4FA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.16,0:00:06.09,DCMain,CONAN,0000,0000,0000,,The old man was chosen for the Japanese \NDetective League's Best Detective Award.
+Dialogue: 0,0:00:06.48,0:00:10.49,Kokura,SIGN,0000,0000,0000,,Kokura Station
+Dialogue: 0,0:00:06.48,0:00:11.49,DCMain,CONAN,0000,0000,0000,,We came to Kokura, Fukuoka, \Nto attend the award ceremony.
+Dialogue: 0,0:00:11.53,0:00:14.07,Location1,SIGN,0000,0000,0000,,{\fad(250,1)}Miyajidake Shrine
+Dialogue: 0,0:00:11.76,0:00:13.83,DCMain,CONAN,0000,0000,0000,,{\an8}Leaving Ran, who wanted to go sightseeing,
+Dialogue: 0,0:00:13.83,0:00:17.10,DCMain,CONAN,0000,0000,0000,,{\an8}the old man and I stopped by the \Ncompany run by Fukamachi Torazo-san,
+Dialogue: 0,0:00:14.11,0:00:16.82,Location1,SIGN,0000,0000,0000,,{\fad(250,1)}Munakata Taisha
+Dialogue: 0,0:00:16.82,0:00:21.08,Trading,SIGN,0000,0000,0000,,{\an2}Tiger Trading
+Dialogue: 0,0:00:17.10,0:00:21.08,DCMain,CONAN,0000,0000,0000,,{\a6}his senior from his police days, but...
+Dialogue: 0,0:00:21.32,0:00:23.33,DCMain,KOGORO,0000,0000,0000,,He was hospitalized for an injury?
+Dialogue: 0,0:00:23.50,0:00:26.08,Torazo,SIGN,0000,0000,0000,,{\fad(250,1)}Fukamachi Torazo (63) \NTiger Trading President
+Dialogue: 0,0:00:24.69,0:00:28.59,DCMain,CONAN,0000,0000,0000,,{\an8}A week ago, President Fukamachi \Naccidentally tripped and hit his head,
+Dialogue: 0,0:00:28.59,0:00:30.55,DCMain,CONAN,0000,0000,0000,,and he was still unconscious in the hospital.
+Dialogue: 0,0:00:31.56,0:00:35.89,DCMain,CONAN,0000,0000,0000,,Graffiti threatening Director Kiriyama,
+Dialogue: 0,0:00:36.42,0:00:38.44,DCMain,CONAN,0000,0000,0000,,the man next in line for the \Npresident's seat, was discovered.
+Dialogue: 0,0:00:38.80,0:00:40.48,DCMain,CONAN,0000,0000,0000,,As the old man began his investigation,
+Dialogue: 0,0:00:40.48,0:00:43.18,DCMain,CONAN,0000,0000,0000,,{\an8}President Fukamachi's son Torahiko \Nemerged as his prime suspect.
+Dialogue: 0,0:00:42.10,0:00:44.56,Torahiko,SIGN,0000,0000,0000,,{\fad(250,1)}Fukamachi Torahiko (21) \NFukamachi Torazo's Son
+Dialogue: 0,0:00:45.63,0:00:46.94,DCMain,TORAHIKO,0000,0000,0000,,Sorry, were you waiting long?
+Dialogue: 0,0:00:51.82,0:00:52.65,DCMain,RAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:00:52.65,0:00:55.31,DCMain,TORAHIKO,0000,0000,0000,,Sorry, but could you be \Nmy girlfriend for a bit?
+Dialogue: 0,0:00:55.31,0:00:56.16,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:00:57.66,0:00:59.50,DCMain,TORAHIKO,0000,0000,0000,,I'm being followed by bad men.
+Dialogue: 0,0:00:59.50,0:01:00.49,DCMain,TORAHIKO,0000,0000,0000,,I just need ten seconds.
+Dialogue: 0,0:01:00.99,0:01:01.37,DCMain,RAN,0000,0000,0000,,What?!
+Dialogue: 0,0:01:03.50,0:01:04.58,DCMain,TORAHIKO,0000,0000,0000,,Let go!
+Dialogue: 0,0:01:04.99,0:01:06.62,DCMain,SHIGAKI,0000,0000,0000,,Stop resisting!
+Dialogue: 0,0:01:06.95,0:01:08.25,DCMain,RAN,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:01:09.51,0:01:11.30,DCMain,SHIGAKI,0000,0000,0000,,Stay out of the way!
+Dialogue: 0,0:01:14.44,0:01:17.59,DCMain,KOGORO,0000,0000,0000,,Ran, what's wrong?! What happened?!
+Dialogue: 0,0:01:18.04,0:01:18.83,DCItalic,CONAN,0000,0000,0000,,Ran!
+Dialogue: 0,0:01:23.94,0:01:25.47,DCMain,CONAN,0000,0000,0000,,In my eyes are maximum creation!
+Dialogue: 0,0:01:25.47,0:01:27.27,DCMain,CONAN,0000,0000,0000,,My detective skills are tomorrow's reaction!
+Dialogue: 0,0:01:27.27,0:01:28.94,DCMain,CONAN,0000,0000,0000,,A series of cases plague those involved!
+Dialogue: 0,0:01:28.94,0:01:30.65,DCMain,CONAN,0000,0000,0000,,What is the deep mystery \Nhidden in Kokura and Moji?
+Dialogue: 0,0:01:30.91,0:01:32.46,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:32.46,0:01:34.03,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:34.16,0:01:36.41,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:17.96,0:03:23.97,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(404,1)}The Northern Kyushu Mystery Tour \N(Moji Arc)
+Dialogue: 0,0:03:18.65,0:03:22.05,DCMain,CONAN,0000,0000,0000,,"The Northern Kyushu \NMystery Tour, Moji Arc!"
+Dialogue: 0,0:03:25.71,0:03:27.01,DCMain,SHIGAKI,0000,0000,0000,,Stay out of the way!
+Dialogue: 0,0:03:30.39,0:03:31.19,DCMain,SHIGAKI,0000,0000,0000,,Let's go!
+Dialogue: 0,0:03:44.63,0:03:45.82,DCMain,NAKAMARU,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:03:53.70,0:03:55.05,DCMain,RAN,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:03:55.05,0:03:55.58,DCMain,TORAHIKO,0000,0000,0000,,This way.
+Dialogue: 0,0:04:01.63,0:04:04.58,DCMain,KOGORO,0000,0000,0000,,It's an emergency! Something \Nmust've happened to Ran!
+Dialogue: 0,0:04:07.47,0:04:09.97,Trading,SIGN,0000,0000,0000,,Tiger Trading
+Dialogue: 0,0:04:13.09,0:04:13.94,DCItalic,CONAN,0000,0000,0000,,Ran...
+Dialogue: 0,0:04:27.57,0:04:29.62,DCMain,SHIGAKI,0000,0000,0000,,Damn it. Where did they go?
+Dialogue: 0,0:04:30.63,0:04:31.90,DCMain,KOGORO,0000,0000,0000,,Ran!
+Dialogue: 0,0:04:42.51,0:04:43.60,DCMain,IZUMI,0000,0000,0000,,Mori-san.
+Dialogue: 0,0:04:43.60,0:04:45.24,DCMain,KOGORO,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:04:46.26,0:04:47.34,DCMain,KOGORO,0000,0000,0000,,Who are you?
+Dialogue: 0,0:04:47.72,0:04:50.35,DCMain,SHIGAKI,0000,0000,0000,,Have you seen a young blond man?
+Dialogue: 0,0:04:50.71,0:04:51.72,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:04:51.91,0:04:55.85,DCMain,SHIGAKI,0000,0000,0000,,He came running this way with a young woman.
+Dialogue: 0,0:04:57.29,0:04:59.35,DCMain,KOGORO,0000,0000,0000,,Who are you?
+Dialogue: 0,0:05:00.18,0:05:01.31,DCMain,RAN,0000,0000,0000,,The police?
+Dialogue: 0,0:05:01.65,0:05:02.36,DCMain,TORAHIKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:02.53,0:05:05.24,DCMain,RAN,0000,0000,0000,,Those two were police officers?
+Dialogue: 0,0:05:06.31,0:05:07.99,DCMain,TORAHIKO,0000,0000,0000,,I've known them since high school.
+Dialogue: 0,0:05:08.16,0:05:11.62,Ginji,SIGN,0000,0000,0000,,{\fad(250,460)}Nakamaru Ginji (38) \NKokura Station \NPolice Officer
+Dialogue: 0,0:05:08.16,0:05:11.62,Shuhei,SIGN,0000,0000,0000,,{\fad(250,460)}Shigaki Shuhei (42) \NKokura Station \NPolice Officer
+Dialogue: 0,0:05:08.54,0:05:10.17,DCMain,TORAHIKO,0000,0000,0000,,{\an8}They're Kokura Station cops.
+Dialogue: 0,0:05:10.64,0:05:15.37,DCMain,TORAHIKO,0000,0000,0000,,{\an8}They've been chasing me around because \Nthey think I wrote that graffiti.
+Dialogue: 0,0:05:15.60,0:05:17.26,DCMain,RAN,0000,0000,0000,,What am I going to do?
+Dialogue: 0,0:05:17.26,0:05:19.29,DCMain,RAN,0000,0000,0000,,I attacked some police officers...
+Dialogue: 0,0:05:19.29,0:05:21.58,DCMain,TORAHIKO,0000,0000,0000,,You were trying to save me.
+Dialogue: 0,0:05:21.58,0:05:23.10,DCMain,TORAHIKO,0000,0000,0000,,You did nothing wrong.
+Dialogue: 0,0:05:24.09,0:05:25.38,DCMain,TORAHIKO,0000,0000,0000,,It's my fault.
+Dialogue: 0,0:05:26.88,0:05:29.64,DCMain,RAN,0000,0000,0000,,Did you write the graffiti, Torahiko-san?
+Dialogue: 0,0:05:29.86,0:05:31.14,DCMain,TORA,0000,0000,0000,,It wasn't me.
+Dialogue: 0,0:05:31.31,0:05:33.29,DCMain,RAN,0000,0000,0000,,Then you shouldn't run.
+Dialogue: 0,0:05:33.29,0:05:35.52,DCMain,RAN,0000,0000,0000,,You need to talk to the police.
+Dialogue: 0,0:05:39.92,0:05:44.53,DCMain,TORAHIKO,0000,0000,0000,,If I go to the police now, \Nthey'll treat me like a criminal.
+Dialogue: 0,0:05:45.30,0:05:48.83,DCMain,TORAHIKO,0000,0000,0000,,Some of them think I hurt my dad.
+Dialogue: 0,0:05:48.83,0:05:49.77,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:05:49.77,0:05:53.05,DCMain,TORAHIKO,0000,0000,0000,,Someone pushed my dad from behind.
+Dialogue: 0,0:05:53.48,0:05:57.05,DCMain,TORAHIKO,0000,0000,0000,,I can't let them arrest me until \NI find evidence of the culprit.
+Dialogue: 0,0:05:57.05,0:05:58.29,DCMain,RAN,0000,0000,0000,,What evidence?
+Dialogue: 0,0:05:58.69,0:06:02.34,DCMain,TORAHIKO,0000,0000,0000,,Apparently my dad said \N"tora" in the ambulance.
+Dialogue: 0,0:06:02.34,0:06:05.80,DCMain,TORAHIKO,0000,0000,0000,,There's a stuffed Toraccha in my dad's car.
+Dialogue: 0,0:06:06.35,0:06:11.56,DCMain,TORAHIKO,0000,0000,0000,,There used to be a GPS and \Nsecurity camera inside of it.
+Dialogue: 0,0:06:12.32,0:06:16.76,DCMain,TORAHIKO,0000,0000,0000,,It's possible the culprit's voice \Nor image or something else
+Dialogue: 0,0:06:16.76,0:06:19.47,DCMain,TORAHIKO,0000,0000,0000,,that could serve as evidence \Nwere captured by it.
+Dialogue: 0,0:06:23.37,0:06:24.52,DCMain,TORAHIKO,0000,0000,0000,,Don't answer it.
+Dialogue: 0,0:06:24.52,0:06:26.68,DCMain,RAN,0000,0000,0000,,It's okay. It's Conan-kun.
+Dialogue: 0,0:06:27.63,0:06:30.99,DCMain,CONAN,0000,0000,0000,,Ran-neechan, you're with \NTorahiko-san, aren't you?
+Dialogue: 0,0:06:31.31,0:06:32.87,DCMain,RAN,0000,0000,0000,,How did you know?
+Dialogue: 0,0:06:33.05,0:06:36.12,DCMain,CONAN,0000,0000,0000,,Kogoro-no-ojisan's desperately \Nlooking for you.
+Dialogue: 0,0:06:38.02,0:06:40.00,DCMain,KOGORO,0000,0000,0000,,Ran, where are you?!
+Dialogue: 0,0:06:40.54,0:06:42.99,DCMain,KOGORO,0000,0000,0000,,Ran, where are you?!
+Dialogue: 0,0:06:44.23,0:06:45.35,DCMain,KOGORO,0000,0000,0000,,Ran!
+Dialogue: 0,0:06:45.35,0:06:47.18,DCMain,RAN,0000,0000,0000,,What should I do, Conan-kun?
+Dialogue: 0,0:06:47.51,0:06:51.89,Trading2,SIGN,0000,0000,0000,,Tiger Trading
+Dialogue: 0,0:06:47.80,0:06:51.89,DCMain,CONAN,0000,0000,0000,,It's okay. He'll solve everything.
+Dialogue: 0,0:06:52.08,0:06:55.29,DCItalic,CONAN,0000,0000,0000,,Convince Torahiko-san not to run.
+Dialogue: 0,0:06:59.30,0:07:00.27,DCMain,RAN,0000,0000,0000,,Torahiko-san.
+Dialogue: 0,0:07:01.09,0:07:05.25,DCMain,RAN,0000,0000,0000,,If you're innocent, my \Nfather will protect you.
+Dialogue: 0,0:07:07.05,0:07:09.53,DCMain,RAN,0000,0000,0000,,Let's go back to the others.
+Dialogue: 0,0:07:09.76,0:07:13.28,DCMain,RAN,0000,0000,0000,,My dad's a pretty good detective.
+Dialogue: 0,0:07:15.37,0:07:16.29,DCMain,TORAHIKO,0000,0000,0000,,I know.
+Dialogue: 0,0:07:16.29,0:07:17.07,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:07:20.24,0:07:25.29,DCMain,TORAHIKO,0000,0000,0000,,My dad bragged that one of \Nhis juniors from his MPD days
+Dialogue: 0,0:07:25.29,0:07:28.57,DCMain,TORAHIKO,0000,0000,0000,,was a famous detective named Mori Kogoro.
+Dialogue: 0,0:07:28.57,0:07:29.67,DCMain,RAN,0000,0000,0000,,I see.
+Dialogue: 0,0:07:31.83,0:07:32.56,DCMain,TORAHIKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:33.76,0:07:36.14,DCItalic,CONAN,0000,0000,0000,,Are you listening, Ran-neechan?
+Dialogue: 0,0:07:36.94,0:07:38.43,DCMain,RAN,0000,0000,0000,,It's okay, Conan-kun.
+Dialogue: 0,0:07:39.12,0:07:42.02,DCMain,RAN,0000,0000,0000,,Torahiko-san and I will head your way now.
+Dialogue: 0,0:07:42.48,0:07:43.60,DCMain,CONAN,0000,0000,0000,,That's good.
+Dialogue: 0,0:07:44.43,0:07:47.69,DCMain,CONAN,0000,0000,0000,,I also have a request for Torahiko-san.
+Dialogue: 0,0:07:48.02,0:07:49.26,DCMain,RAN,0000,0000,0000,,A request?
+Dialogue: 0,0:07:50.72,0:07:51.57,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:07:51.80,0:07:54.78,DCMain,KOGORO,0000,0000,0000,,Ran and Torahiko are heading \Ntowards the office?
+Dialogue: 0,0:07:55.03,0:07:59.54,DCMain,CONAN,0000,0000,0000,,Yeah. They want you to \Nreveal the truth there.
+Dialogue: 0,0:07:59.83,0:08:01.69,DCMain,KOGORO,0000,0000,0000,,Who, me?
+Dialogue: 0,0:08:01.69,0:08:05.42,DCItalic,CONAN,0000,0000,0000,,It's time for the great detective \NMori Kogoro to show off his skills.
+Dialogue: 0,0:08:05.42,0:08:07.22,DCMain,KOGORO,0000,0000,0000,,Insolent brat!
+Dialogue: 0,0:08:07.97,0:08:13.31,DCMain,KOGORO,0000,0000,0000,,Fine. As long as Ran comes back \Nsafe, I'll handle the rest.
+Dialogue: 0,0:08:13.31,0:08:15.18,DCMain,SHIGAKI,0000,0000,0000,,We'll help.
+Dialogue: 0,0:08:15.18,0:08:19.77,DCMain,NAKAMARU,0000,0000,0000,,It's an honor to work alongside \Nthe great detective Mori Kogoro.
+Dialogue: 0,0:08:19.98,0:08:23.39,DCMain,KOGORO,0000,0000,0000,,Gather everyone connected to the case.
+Dialogue: 0,0:08:23.67,0:08:26.32,DCMain,IZUMI,0000,0000,0000,,{\an8}Director Kiriyama is at the hospital.
+Dialogue: 0,0:08:23.81,0:08:27.23,Noriko,SIGN,0000,0000,0000,,{\fad(250,1)}Izumi Noriko (28) \NPresident's Secretary
+Dialogue: 0,0:08:26.32,0:08:28.75,DCMain,IZUMI,0000,0000,0000,,{\an8}I doubt he'll be able to return right away.
+Dialogue: 0,0:08:28.75,0:08:29.85,DCMain,KOGORO,0000,0000,0000,,The hospital?
+Dialogue: 0,0:08:29.85,0:08:32.40,DCMain,IZUMI,0000,0000,0000,,Yes, he's visiting the president.
+Dialogue: 0,0:08:33.78,0:08:39.62,DCMain,KOGORO,0000,0000,0000,,That's odd. He told me not to visit him.
+Dialogue: 0,0:08:39.62,0:08:42.41,DCMain,KOGORO,0000,0000,0000,,That's it! I've figured it out!
+Dialogue: 0,0:08:47.33,0:08:50.34,Office,SIGN,0000,0000,0000,,President's Office
+Dialogue: 0,0:08:54.32,0:08:57.16,DCMain,KOGORO,0000,0000,0000,,{\an8}I've been waiting for you, Director Kiriyama.
+Dialogue: 0,0:08:55.55,0:08:58.26,Eisaku,SIGN,0000,0000,0000,,{\fad(250,1)}Kiriyama Eisaku (45) \NTiger Trading Managing Director
+Dialogue: 0,0:09:02.69,0:09:07.19,DCMain,KIRIYAMA,0000,0000,0000,,Mori-san, is it true that you've determined \Nwho's responsible for the graffiti?
+Dialogue: 0,0:09:07.44,0:09:11.19,DCMain,KOGORO,0000,0000,0000,,Yes. That's why I asked \Nall of you to come here.
+Dialogue: 0,0:09:11.46,0:09:14.86,DCMain,KIRIYAMA,0000,0000,0000,,The shareholders' meeting starts at three,
+Dialogue: 0,0:09:14.86,0:09:16.51,DCMain,KIRIYAMA,0000,0000,0000,,so we don't have much time.
+Dialogue: 0,0:09:16.51,0:09:17.99,DCMain,KIRIYAMA,0000,0000,0000,,Could we hurry, please?
+Dialogue: 0,0:09:18.47,0:09:20.49,DCMain,KOGORO,0000,0000,0000,,Despite being short on time,
+Dialogue: 0,0:09:20.49,0:09:25.17,DCMain,KOGORO,0000,0000,0000,,you visited President Fukamachi \Nin the hospital, didn't you?
+Dialogue: 0,0:09:25.17,0:09:26.00,DCMain,KIRIYAMA,0000,0000,0000,,Yes.
+Dialogue: 0,0:09:26.22,0:09:28.80,DCMain,KIRIYAMA,0000,0000,0000,,He's still unconscious,
+Dialogue: 0,0:09:28.80,0:09:33.01,DCMain,KIRIYAMA,0000,0000,0000,,but I thought I'd tell him about \Nthe shareholders' meeting.
+Dialogue: 0,0:09:33.22,0:09:37.18,DCMain,KOGORO,0000,0000,0000,,Was there some reason you \Ndidn't want me to visit him?
+Dialogue: 0,0:09:37.50,0:09:40.10,DCMain,KIRIYAMA,0000,0000,0000,,Mori-san, what are you trying to say?
+Dialogue: 0,0:09:40.45,0:09:43.77,DCMain,KOGORO,0000,0000,0000,,You're the one who pushed \NPresident Fukamachi, aren't you?
+Dialogue: 0,0:09:44.13,0:09:45.26,DCItalic,CONAN,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:09:45.26,0:09:46.77,DCItalic,CONAN,0000,0000,0000,,Wrong guy, old man.
+Dialogue: 0,0:09:47.25,0:09:52.32,DCMain,KOGORO,0000,0000,0000,,Once the president regains \Nconsciousness, we'll know you did it.
+Dialogue: 0,0:09:52.48,0:09:57.31,DCMain,KOGORO,0000,0000,0000,,Isn't that why you went to the hospital?
+Dialogue: 0,0:10:02.73,0:10:04.54,DCMain,SHIGAKI,0000,0000,0000,,I-I-Is that it?
+Dialogue: 0,0:10:04.54,0:10:05.66,DCMain,NAKAMARU,0000,0000,0000,,The Sleeping Kogoro?!
+Dialogue: 0,0:10:07.27,0:10:10.42,DCMain,KOGORO,0000,0000,0000,,Director Kiriyama, please don't be upset.
+Dialogue: 0,0:10:10.92,0:10:15.13,DCMain,KOGORO,0000,0000,0000,,Your visit to the hospital has \Nnothing to do with the case.
+Dialogue: 0,0:10:15.31,0:10:17.04,DCMain,KIRIYAMA,0000,0000,0000,,Then who did it?
+Dialogue: 0,0:10:17.04,0:10:19.26,DCMain,KIRIYAMA,0000,0000,0000,,If you know, tell us!
+Dialogue: 0,0:10:19.85,0:10:23.09,DCMain,KOGORO,0000,0000,0000,,The first thing we should make clear
+Dialogue: 0,0:10:23.09,0:10:26.39,DCMain,KOGORO,0000,0000,0000,,is that Torahiko-san didn't \Nwrite the graffiti.
+Dialogue: 0,0:10:26.68,0:10:27.52,DCMain,KIRIYAMA,0000,0000,0000,,What?
+Dialogue: 0,0:10:27.76,0:10:29.28,DCMain,UKAJI,0000,0000,0000,,{\an8}That's ridiculous!
+Dialogue: 0,0:10:28.06,0:10:30.98,Makoto,SIGN,0000,0000,0000,,{\fad(250,460)}Ukaji Makoto (42) \NPresident's Driver
+Dialogue: 0,0:10:29.28,0:10:31.52,DCMain,IZUMI,0000,0000,0000,,{\an8}Iwata-san saw him do it.
+Dialogue: 0,0:10:31.52,0:10:36.03,DCMain,KOGORO,0000,0000,0000,,Iwata-san, you said the \Nculprit was blond, correct?
+Dialogue: 0,0:10:36.07,0:10:38.03,Genichiro,SIGN,0000,0000,0000,,{\fad(250,1)}Iwata Genichiro (63) \NTiger Trading Security Guard
+Dialogue: 0,0:10:36.50,0:10:38.03,DCMain,IWATA,0000,0000,0000,,{\an8}Y-Yes.
+Dialogue: 0,0:10:38.27,0:10:40.70,DCMain,KOGORO,0000,0000,0000,,But three mornings ago when \Nthe buildings were vandalized,
+Dialogue: 0,0:10:40.70,0:10:44.03,DCMain,KOGORO,0000,0000,0000,,Torahiko-san wasn't blond yet.
+Dialogue: 0,0:10:44.31,0:10:45.29,DCMain,IWATA,0000,0000,0000,,What?
+Dialogue: 0,0:10:45.55,0:10:46.44,DCMain,KOGORO,0000,0000,0000,,Conan.
+Dialogue: 0,0:10:46.44,0:10:47.68,DCMain,CONAN,0000,0000,0000,,Here!
+Dialogue: 0,0:10:48.54,0:10:52.24,DCMain,CONAN,0000,0000,0000,,Torahiko-san was looking for work in Tokyo,
+Dialogue: 0,0:10:52.24,0:10:55.37,DCMain,CONAN,0000,0000,0000,,so he'd been keeping his \Nhair black for some time.
+Dialogue: 0,0:10:55.82,0:10:56.46,DCMain,CONAN,0000,0000,0000,,See?
+Dialogue: 0,0:10:57.04,0:11:00.55,DCMain,CONAN,0000,0000,0000,,Torahiko-san just sent me this photo.
+Dialogue: 0,0:11:00.88,0:11:02.60,DCMain,CONAN,0000,0000,0000,,And that's not all.
+Dialogue: 0,0:11:02.60,0:11:07.06,DCMain,CONAN,0000,0000,0000,,The night Iwata-san saw the culprit, \Nthis photo was taken at Airs Café.
+Dialogue: 0,0:11:07.56,0:11:08.20,DCMain,CONAN,0000,0000,0000,,See?
+Dialogue: 0,0:11:08.59,0:11:13.56,DCMain,CONAN,0000,0000,0000,,Torahiko-san said he dyed his hair blond \Nthe day after the graffiti was discovered.
+Dialogue: 0,0:11:14.02,0:11:16.52,DCMain,CONAN,0000,0000,0000,,Why don't you check with the salon?
+Dialogue: 0,0:11:16.89,0:11:19.07,DCMain,IZUMI,0000,0000,0000,,But why did he dye his hair blond again?
+Dialogue: 0,0:11:19.56,0:11:22.45,DCMain,CONAN,0000,0000,0000,,Torahiko-san wanted to pump himself up.
+Dialogue: 0,0:11:22.90,0:11:28.33,DCMain,CONAN,0000,0000,0000,,He was determined not to let the police \Nbeat him until he discovered the truth.
+Dialogue: 0,0:11:28.63,0:11:33.83,DCMain,IWATA,0000,0000,0000,,I-I may have been mistaken \Nabout the blond hair.
+Dialogue: 0,0:11:34.05,0:11:38.92,DCMain,CONAN,0000,0000,0000,,Iwata-san, after we met at the parking \Nlot today, you came here, didn't you?
+Dialogue: 0,0:11:40.55,0:11:43.34,DCItalic,IWATA,0000,0000,0000,,What? In the president's office?
+Dialogue: 0,0:11:43.34,0:11:45.90,DCItalic,IWATA,0000,0000,0000,,Understood. I'll head there immediately.
+Dialogue: 0,0:11:46.50,0:11:49.72,DCMain,CONAN,0000,0000,0000,,I found this in the garbage can.
+Dialogue: 0,0:11:49.72,0:11:51.69,DCMain,CONAN,0000,0000,0000,,It looks like a bank envelope.
+Dialogue: 0,0:11:51.97,0:11:56.25,DCMain,CONAN,0000,0000,0000,,There's donut crumbs on it, so \Nmaybe Ukaji-san threw it away.
+Dialogue: 0,0:11:56.60,0:11:59.42,DCMain,UKAJI,0000,0000,0000,,Hey! Don't go making wild accusations!
+Dialogue: 0,0:11:59.82,0:12:01.61,DCMain,CONAN,0000,0000,0000,,I'm scared!
+Dialogue: 0,0:12:02.37,0:12:06.54,DCMain,KOGORO,0000,0000,0000,,Officers, could you have your forensics \Nteam examine that envelope?
+Dialogue: 0,0:12:06.90,0:12:10.50,DCMain,KOGORO,0000,0000,0000,,I'm sure you'll find Iwata-san and \NUkaji-san's fingerprints on it.
+Dialogue: 0,0:12:10.98,0:12:12.21,DCMain,SHIGAKI,0000,0000,0000,,Understood.
+Dialogue: 0,0:12:18.59,0:12:22.26,DCMain,KOGORO,0000,0000,0000,,How much was inside the envelope, Ukaji-san?
+Dialogue: 0,0:12:23.84,0:12:27.01,DCMain,KOGORO,0000,0000,0000,,I'm asking how much Iwata-san paid you.
+Dialogue: 0,0:12:27.26,0:12:31.61,DCMain,UKAJI,0000,0000,0000,,A-Are you saying I blackmailed Iwata-san?!
+Dialogue: 0,0:12:31.61,0:12:32.97,DCMain,KOGORO,0000,0000,0000,,That's right!
+Dialogue: 0,0:12:32.97,0:12:34.44,DCMain,UKAJI,0000,0000,0000,,That's bullshit!
+Dialogue: 0,0:12:34.60,0:12:37.94,DCMain,KOGORO,0000,0000,0000,,Ukaji-san, you don't know the truth.
+Dialogue: 0,0:12:38.54,0:12:39.82,DCMain,UKAJI,0000,0000,0000,,The truth?
+Dialogue: 0,0:12:40.31,0:12:42.29,DCMain,KOGORO,0000,0000,0000,,The culprit's goal.
+Dialogue: 0,0:12:42.29,0:12:44.45,DCMain,UKAJI,0000,0000,0000,,Wasn't it to threaten Director Kiriyama?
+Dialogue: 0,0:12:44.70,0:12:49.70,DCMain,KOGORO,0000,0000,0000,,No. The culprit's goal was to murder you.
+Dialogue: 0,0:12:50.03,0:12:50.45,DCMain,UKAJI,0000,0000,0000,,What?
+Dialogue: 0,0:13:04.01,0:13:05.97,DCMain,UKAJI,0000,0000,0000,,They were trying to kill me?
+Dialogue: 0,0:13:06.21,0:13:08.47,DCMain,KOGORO,0000,0000,0000,,Isn't that right, Iwata-san?
+Dialogue: 0,0:13:10.36,0:13:13.14,DCMain,KOGORO,0000,0000,0000,,You wanted to kill Ukaji-san.
+Dialogue: 0,0:13:13.14,0:13:17.77,DCMain,KOGORO,0000,0000,0000,,But if you went after him directly, the \Npolice would investigate his associates
+Dialogue: 0,0:13:17.77,0:13:23.11,DCMain,KOGORO,0000,0000,0000,,and discover he was threatening \Nyou and realize you did it.
+Dialogue: 0,0:13:25.11,0:13:27.16,DCMain,KOGORO,0000,0000,0000,,That's why you used that graffiti
+Dialogue: 0,0:13:27.58,0:13:31.70,DCMain,KOGORO,0000,0000,0000,,to make everyone believe Director \NKiriyama was the target.
+Dialogue: 0,0:13:33.84,0:13:37.92,DCMain,KOGORO,0000,0000,0000,,If Director Kiriyama was killed and \NUkaji-san got caught in the crossfire,
+Dialogue: 0,0:13:37.92,0:13:43.38,DCMain,KOGORO,0000,0000,0000,,then suspicion would fall on Torahiko-kun, \Nwho was assumed to have vandalized the buildings.
+Dialogue: 0,0:13:43.79,0:13:46.38,DCMain,KOGORO,0000,0000,0000,,You wouldn't be suspected.
+Dialogue: 0,0:13:46.38,0:13:48.51,DCMain,IWATA,0000,0000,0000,,On what basis do you say that?
+Dialogue: 0,0:13:48.51,0:13:50.83,DCMain,KOGORO,0000,0000,0000,,Conan, bring it to me.
+Dialogue: 0,0:13:50.83,0:13:52.01,DCMain,CONAN,0000,0000,0000,,Okay!
+Dialogue: 0,0:13:54.48,0:13:57.89,DCMain,CONAN,0000,0000,0000,,Iwata-san, you left this inside \Nthe president's car, didn't you?
+Dialogue: 0,0:13:58.05,0:14:00.44,DCMain,IWATA,0000,0000,0000,,I don't know what you're talking about!
+Dialogue: 0,0:14:00.44,0:14:02.48,DCMain,CONAN,0000,0000,0000,,I thought it was strange.
+Dialogue: 0,0:14:02.65,0:14:05.40,DCMain,CONAN,0000,0000,0000,,The Toraccha in the photo I took
+Dialogue: 0,0:14:06.11,0:14:11.03,DCMain,CONAN,0000,0000,0000,,was dirty and old like the \None Fukamachi-san was holding.
+Dialogue: 0,0:14:11.51,0:14:13.95,DCMain,CONAN,0000,0000,0000,,But this Toraccha is brand new.
+Dialogue: 0,0:14:14.39,0:14:18.50,DCMain,CONAN,0000,0000,0000,,Since you left it outside while washing \Nthe car, it's a little damp, too.
+Dialogue: 0,0:14:18.79,0:14:20.54,DCMain,IWATA,0000,0000,0000,,Y-You're lying!
+Dialogue: 0,0:14:20.54,0:14:24.90,DCMain,CONAN,0000,0000,0000,,Maybe you hid the old \NToraccha in your toolbox.
+Dialogue: 0,0:14:30.08,0:14:31.51,DCMain,CONAN,0000,0000,0000,,See? I knew it.
+Dialogue: 0,0:14:31.84,0:14:32.82,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:32.82,0:14:37.64,DCMain,CONAN,0000,0000,0000,,Did you use this toolbox to store the red \Nspray paint you used for the graffiti, too?
+Dialogue: 0,0:14:40.24,0:14:42.36,DCMain,IWATA,0000,0000,0000,,Let go! There's no time!
+Dialogue: 0,0:14:42.70,0:14:44.02,DCMain,CONAN,0000,0000,0000,,There's no time?
+Dialogue: 0,0:14:44.21,0:14:47.36,DCMain,IWATA,0000,0000,0000,,I-It's a bomb!
+Dialogue: 0,0:14:47.36,0:14:49.91,DCMain,IWATA,0000,0000,0000,,It'll explode in ten minutes!
+Dialogue: 0,0:14:49.91,0:14:50.33,DCMain,IZUMI,0000,0000,0000,,What?!
+Dialogue: 0,0:14:50.33,0:14:51.70,DCMain,UKAJI,0000,0000,0000,,A b-bomb?!
+Dialogue: 0,0:14:52.05,0:14:53.33,DCMain,KIRIYAMA,0000,0000,0000,,In ten minutes?
+Dialogue: 0,0:14:53.62,0:14:57.77,DCMain,CONAN,0000,0000,0000,,It's okay. I just bought this Toraccha.
+Dialogue: 0,0:14:57.77,0:15:00.83,DCMain,CONAN,0000,0000,0000,,It's not your bomb.
+Dialogue: 0,0:15:02.31,0:15:03.08,DCMain,IWATA,0000,0000,0000,,What?
+Dialogue: 0,0:15:03.45,0:15:07.42,DCMain,CONAN,0000,0000,0000,,If it's set to explode in ten minutes,
+Dialogue: 0,0:15:07.42,0:15:10.84,DCMain,CONAN,0000,0000,0000,,then that means you set it for 2:30, right?
+Dialogue: 0,0:15:11.19,0:15:12.84,DCMain,UKAJI,0000,0000,0000,,2:30?
+Dialogue: 0,0:15:13.01,0:15:18.04,DCMain,CONAN,0000,0000,0000,,Ukaji-san would be driving \Nthe president's car then.
+Dialogue: 0,0:15:18.04,0:15:21.35,DCMain,CONAN,0000,0000,0000,,He'd be taking Director Kiriyama \Nto the shareholders' meeting.
+Dialogue: 0,0:15:21.50,0:15:25.61,DCMain,UKAJI,0000,0000,0000,,You were planning to blow \Nup me and the director?
+Dialogue: 0,0:15:25.79,0:15:29.53,DCMain,KIRIYAMA,0000,0000,0000,,Then the real bomb's still \Ninside the president's car?
+Dialogue: 0,0:15:29.89,0:15:31.56,DCMain,CONAN,0000,0000,0000,,Don't worry about that.
+Dialogue: 0,0:15:31.56,0:15:35.13,DCMain,SHIGAKI,0000,0000,0000,,Mori-san called the \Nprefectural police earlier.
+Dialogue: 0,0:15:35.13,0:15:37.66,DCMain,SHIGAKI,0000,0000,0000,,The bomb squad is already there.
+Dialogue: 0,0:15:38.21,0:15:43.53,DCMain,NAKAMARU,0000,0000,0000,,He called to tell us about the bomb inside \Nthe stuffed tiger in the president's car.
+Dialogue: 0,0:15:43.53,0:15:45.17,DCMain,IWATA,0000,0000,0000,,How did you know?
+Dialogue: 0,0:15:45.90,0:15:48.19,DCMain,KOGORO,0000,0000,0000,,In high school,
+Dialogue: 0,0:15:48.19,0:15:53.11,DCMain,KOGORO,0000,0000,0000,,Torahiko-san stole gunpowder from your \Nfireworks factory to build a bomb.
+Dialogue: 0,0:15:53.77,0:15:55.64,DCMain,KOGORO,0000,0000,0000,,In order to frame Torahiko-san
+Dialogue: 0,0:15:55.64,0:16:00.68,DCMain,KOGORO,0000,0000,0000,,for the murder of Ukaji-san \Nand Director Kiriyama,
+Dialogue: 0,0:16:01.08,0:16:04.60,DCMain,KOGORO,0000,0000,0000,,you believed setting a bomb inside \Nthe Toraccha was the best method.
+Dialogue: 0,0:16:04.60,0:16:08.83,DCMain,KOGORO,0000,0000,0000,,You even had the skills to build a bomb.
+Dialogue: 0,0:16:13.78,0:16:17.70,DCMain,KOGORO,0000,0000,0000,,Iwata-san, what happened in \Nthe parking lot that day?
+Dialogue: 0,0:16:19.28,0:16:22.02,DCMain,IWATA,0000,0000,0000,,Torazo and I were childhood friends,
+Dialogue: 0,0:16:22.02,0:16:24.59,DCMain,IWATA,0000,0000,0000,,but he tried to fire me anyway.
+Dialogue: 0,0:16:31.18,0:16:34.32,DCItalic,IWATA,0000,0000,0000,,Torazo, let me keep working a little longer.
+Dialogue: 0,0:16:34.32,0:16:35.94,DCItalic,FUKAMACHI,0000,0000,0000,,Gen-chan...
+Dialogue: 0,0:16:35.94,0:16:40.22,DCItalic,FUKAMACHI,0000,0000,0000,,I'm sorry, but I've already decided \Nto hire a security company.
+Dialogue: 0,0:16:40.51,0:16:42.67,DCItalic,FUKAMACHI,0000,0000,0000,,You should learn to do desk work.
+Dialogue: 0,0:16:42.67,0:16:46.35,DCItalic,IWATA,0000,0000,0000,,No! I like how easy things are now!
+Dialogue: 0,0:16:46.35,0:16:48.11,DCItalic,FUKAMACHI,0000,0000,0000,,Don't be so selfish.
+Dialogue: 0,0:16:57.44,0:16:58.63,DCItalic,IWATA,0000,0000,0000,,Torazo...
+Dialogue: 0,0:17:00.04,0:17:01.96,DCMain,IWATA,0000,0000,0000,,I got scared and ran,
+Dialogue: 0,0:17:02.85,0:17:04.87,DCMain,IWATA,0000,0000,0000,,but later...
+Dialogue: 0,0:17:06.28,0:17:10.63,DCItalic,UKAJI,0000,0000,0000,,Last month the president told \Nme to install a dash cam.
+Dialogue: 0,0:17:11.23,0:17:13.82,DCItalic,UKAJI,0000,0000,0000,,It's all on there.
+Dialogue: 0,0:17:14.27,0:17:17.39,DCItalic,UKAJI,0000,0000,0000,,You pushing the president.
+Dialogue: 0,0:17:19.60,0:17:24.44,DCItalic,UKAJI,0000,0000,0000,,Get me 500 thousand by the \Nend of the week, got it?
+Dialogue: 0,0:17:26.67,0:17:31.27,DCMain,CONAN,0000,0000,0000,,Maybe the president was trying to \Nsay "dorareko" in the ambulance.
+Dialogue: 0,0:17:31.60,0:17:32.86,DCMain,IZUMI,0000,0000,0000,,Dorareko?
+Dialogue: 0,0:17:32.86,0:17:33.92,DCMain,CONAN,0000,0000,0000,,Dorareko.
+Dialogue: 0,0:17:33.92,0:17:38.32,DCMain,CONAN,0000,0000,0000,,In other words, the dash cam. He wanted \Nus to check the dash cam footage.
+Dialogue: 0,0:17:39.84,0:17:42.94,DCMain,UKAJI,0000,0000,0000,,I only took 500 thousand yen!
+Dialogue: 0,0:17:42.94,0:17:45.29,DCMain,UKAJI,0000,0000,0000,,Why would you kill me over that?
+Dialogue: 0,0:17:45.59,0:17:48.44,DCMain,IWATA,0000,0000,0000,,You were going to blackmail \Nme for the rest of my life!
+Dialogue: 0,0:17:48.44,0:17:50.38,DCMain,IWATA,0000,0000,0000,,It would've been more than 500 thousand!
+Dialogue: 0,0:17:50.38,0:17:51.75,DCMain,UKAJI,0000,0000,0000,,What?!
+Dialogue: 0,0:17:51.88,0:17:53.60,DCMain,IZUMI,0000,0000,0000,,Shut up, both of you!
+Dialogue: 0,0:17:53.60,0:17:58.26,DCMain,IZUMI,0000,0000,0000,,Do you have any idea how sad the president \Nwould be if he found of what you did?
+Dialogue: 0,0:18:04.98,0:18:07.52,DCMain,CONAN,0000,0000,0000,,Torahiko-san and Ran are late.
+Dialogue: 0,0:18:08.01,0:18:08.92,DCMain,BOMB,0000,0000,0000,,It's an emergency!
+Dialogue: 0,0:18:08.92,0:18:12.40,DCMain,BOMB,0000,0000,0000,,The car the bomb is inside is missing!
+Dialogue: 0,0:18:13.37,0:18:14.57,DCMain,CONAN,0000,0000,0000,,No!
+Dialogue: 0,0:18:18.31,0:18:20.74,DCMain,RAN,0000,0000,0000,,Where are we going, Torahiko-san?
+Dialogue: 0,0:18:21.20,0:18:23.74,DCMain,RAN,0000,0000,0000,,You promised we'd rejoin the others.
+Dialogue: 0,0:18:23.94,0:18:27.00,DCMain,TORAHIKO,0000,0000,0000,,I need to deliver Toraccha \Nto the TV station first.
+Dialogue: 0,0:18:27.15,0:18:28.50,DCMain,RAN,0000,0000,0000,,The TV station?
+Dialogue: 0,0:18:28.74,0:18:30.56,DCMain,TORAHIKO,0000,0000,0000,,I'm going to have them make a broadcast.
+Dialogue: 0,0:18:30.95,0:18:33.06,DCMain,TORAHIKO,0000,0000,0000,,We still don't know who the culprit is.
+Dialogue: 0,0:18:33.40,0:18:37.36,DCMain,TORAHIKO,0000,0000,0000,,If we don't leave the evidence with \Nthem, the culprit might try to hide it.
+Dialogue: 0,0:18:41.18,0:18:43.26,DCMain,KOGORO,0000,0000,0000,,Torahiko, stop the car!
+Dialogue: 0,0:18:43.99,0:18:47.67,DCItalic,CONAN,0000,0000,0000,,I can't believe he stole \Nthe car with the bomb.
+Dialogue: 0,0:18:49.39,0:18:50.52,DCMain,RAN,0000,0000,0000,,Conan-kun.
+Dialogue: 0,0:18:51.27,0:18:54.02,DCMain,CONAN,0000,0000,0000,,Ran-neechan, listen closely. That Toraccha—
+Dialogue: 0,0:19:01.46,0:19:03.16,DCMain,RAN,0000,0000,0000,,Ran-neechan, what happened?!
+Dialogue: 0,0:19:04.82,0:19:06.29,DCMain,RAN,0000,0000,0000,,Conan-kun!
+Dialogue: 0,0:19:06.43,0:19:09.29,DCMain,CONAN,0000,0000,0000,,There's a bomb inside that Toraccha!
+Dialogue: 0,0:19:09.29,0:19:10.79,DCMain,RAN,0000,0000,0000,,Huh? What?
+Dialogue: 0,0:19:19.48,0:19:21.51,DCMain,CONAN,0000,0000,0000,,It's going to explode in three minutes!
+Dialogue: 0,0:19:21.82,0:19:23.58,DCMain,RAN,0000,0000,0000,,What's happening in three minutes?
+Dialogue: 0,0:19:23.58,0:19:25.05,DCMain,RAN,0000,0000,0000,,Say it again.
+Dialogue: 0,0:19:25.05,0:19:26.89,DCMain,CONAN,0000,0000,0000,,It's a bomb! A bomb!
+Dialogue: 0,0:19:27.17,0:19:28.03,DCMain,RAN,0000,0000,0000,,A bomb?!
+Dialogue: 0,0:19:28.03,0:19:28.89,DCMain,TORAHIKO,0000,0000,0000,,What?
+Dialogue: 0,0:19:29.25,0:19:31.64,DCMain,CONAN,0000,0000,0000,,There's a bomb inside that Toraccha!
+Dialogue: 0,0:19:31.64,0:19:32.78,DCItalic,CONAN,0000,0000,0000,,Throw it away!
+Dialogue: 0,0:19:32.78,0:19:33.40,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:19:45.16,0:19:46.16,DCMain,CONAN,0000,0000,0000,,Stop the car!
+Dialogue: 0,0:19:48.79,0:19:49.87,DCItalic,CONAN,0000,0000,0000,,Twenty more seconds.
+Dialogue: 0,0:19:50.34,0:19:51.37,DCMain,KOGORO,0000,0000,0000,,Ran!
+Dialogue: 0,0:19:51.72,0:19:53.54,DCMain,RAN,0000,0000,0000,,Dad!
+Dialogue: 0,0:19:55.68,0:19:56.54,DCItalic,CONAN,0000,0000,0000,,Ten more seconds.
+Dialogue: 0,0:20:00.09,0:20:01.77,DCItalic,CONAN,0000,0000,0000,,Go!
+Dialogue: 0,0:20:09.19,0:20:11.73,DCItalic,CONAN,0000,0000,0000,,That former firework maker...
+Dialogue: 0,0:20:11.93,0:20:14.99,DCItalic,CONAN,0000,0000,0000,,He even made a flamboyant bomb.
+Dialogue: 0,0:21:39.02,0:21:42.48,Location2,SIGN,0000,0000,0000,,{\fad(250,460)}Aruaru City
+Dialogue: 0,0:21:42.69,0:21:45.70,Ceremony,SIGN,0000,0000,0000,,Best Detective Award Ceremony
+Dialogue: 0,0:21:46.79,0:21:48.83,DCMain,RAN,0000,0000,0000,,What a cozy party.
+Dialogue: 0,0:21:49.33,0:21:50.91,DCMain,KOGORO,0000,0000,0000,,I'm overjoyed.
+Dialogue: 0,0:21:50.91,0:21:54.75,DCMain,KOGORO,0000,0000,0000,,This event's being hosted by the \Nhistoric Japanese Detective League.
+Dialogue: 0,0:21:51.49,0:21:54.75,Sponsored,SIGN,0000,0000,0000,,Sponsored by the Japanese Detective League
+Dialogue: 0,0:21:55.45,0:22:00.00,DCItalic,CONAN,0000,0000,0000,,I've never heard of the \NJapanese Detective League.
+Dialogue: 0,0:22:02.00,0:22:04.88,DCMain,IZUMI,0000,0000,0000,,We've been waiting for you, Mori-san.
+Dialogue: 0,0:22:05.92,0:22:07.76,DCMain,KOGORO,0000,0000,0000,,I-Izumi-san.
+Dialogue: 0,0:22:12.53,0:22:16.46,DCMain,IZUMI,0000,0000,0000,,Congratulations on your Best Detective Award.
+Dialogue: 0,0:22:17.03,0:22:19.02,DCMain,KOGORO,0000,0000,0000,,Izumi-san, why are you here?
+Dialogue: 0,0:22:25.84,0:22:27.42,DCMain,KOGORO,0000,0000,0000,,Fukamachi-senpai.
+Dialogue: 0,0:22:28.12,0:22:33.28,DCMain,FUKAMACHI,0000,0000,0000,,Mori Kogoro-kun, congratulations \Non your Best Detective Award.
+Dialogue: 0,0:22:33.63,0:22:35.05,DCMain,KOGORO,0000,0000,0000,,Sir.
+Dialogue: 0,0:22:35.05,0:22:36.85,DCMain,FUKAMACHI,0000,0000,0000,,It's been so long.
+Dialogue: 0,0:22:36.85,0:22:38.79,DCMain,FUKAMACHI,0000,0000,0000,,I'm glad you're doing well.
+Dialogue: 0,0:22:39.55,0:22:40.96,DCMain,KOGORO,0000,0000,0000,,You, too.
+Dialogue: 0,0:22:41.98,0:22:46.35,DCMain,KIRIYAMA,0000,0000,0000,,He actually regained \Nconsciousness a few days ago,
+Dialogue: 0,0:22:46.35,0:22:49.56,DCMain,KIRIYAMA,0000,0000,0000,,but he'd lost his memories of the accident.
+Dialogue: 0,0:22:49.56,0:22:53.30,DCMain,KIRIYAMA,0000,0000,0000,,We decided to hire you to uncover the truth.
+Dialogue: 0,0:22:53.64,0:22:57.06,DCMain,IZUMI,0000,0000,0000,,The Director even kept it secret from me.
+Dialogue: 0,0:22:57.36,0:22:59.21,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:22:59.58,0:23:03.44,DCMain,KIRIYAMA,0000,0000,0000,,The president will be our \Npresident a while longer.
+Dialogue: 0,0:23:03.84,0:23:07.19,DCMain,KIRIYAMA,0000,0000,0000,,At least until Torahiko-kun \Nbecomes a proper adult.
+Dialogue: 0,0:23:07.47,0:23:09.51,DCMain,RAN,0000,0000,0000,,Good luck, Torahiko-san.
+Dialogue: 0,0:23:09.51,0:23:10.45,DCMain,TORAHIKO,0000,0000,0000,,Thanks.
+Dialogue: 0,0:23:10.72,0:23:12.68,DCMain,IZUMI,0000,0000,0000,,The Japanese Detective League
+Dialogue: 0,0:23:12.68,0:23:17.08,DCMain,IZUMI,0000,0000,0000,,was created by President Fukamachi \Nto support you, Mori-san.
+Dialogue: 0,0:23:17.08,0:23:19.08,DCMain,KOGORO,0000,0000,0000,,What? You did?
+Dialogue: 0,0:23:19.45,0:23:21.58,DCMain,FUKAMACHI,0000,0000,0000,,Keep up the good work.
+Dialogue: 0,0:23:21.98,0:23:24.03,DCMain,KOGORO,0000,0000,0000,,Thank you, sir!
+Dialogue: 0,0:23:24.44,0:23:27.45,DCMain,KOGORO,0000,0000,0000,,I'm sure the life of the man \Nknown as the Tiger of Sakuradamon
+Dialogue: 0,0:23:27.45,0:23:30.44,DCMain,KOGORO,0000,0000,0000,,will make a magnificent drama.
+Dialogue: 0,0:23:30.44,0:23:33.27,DCMain,KOGORO,0000,0000,0000,,Since you're a tiger, it'll \Nsurely be a roaring success.
+Dialogue: 0,0:23:33.84,0:23:35.22,DCMain,KOGORO,0000,0000,0000,,Just kidding.
+Dialogue: 0,0:23:37.74,0:23:39.48,DCMain,RAN,0000,0000,0000,,Dad...
+Dialogue: 0,0:23:40.42,0:23:43.53,DCItalic,CONAN,0000,0000,0000,,Who are you, Kogoro the Punster?

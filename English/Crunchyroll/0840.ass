@@ -1,0 +1,440 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0100,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Arrested,Trebuchet MS,14,&H00100C19,&H000000FF,&H00FFFFF7,&H00FBA85F,0,0,0,0,100,100,0,0,1,2,1,8,0300,0010,0105,0
+Style: Suspect,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00615551,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0010,0185,0140,0
+Style: Junko,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00615551,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0050,0010,0050,0
+Style: Station,Times New Roman,20,&H00BADAD2,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0250,0015,0
+Style: Masaru,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007E3134,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0047,0
+Style: Hirose,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00875266,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0020,0068,0
+Style: Soba,Trebuchet MS,22,&H00262B31,&H000000FF,&H00EFFFFD,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0060,0010,0015,0
+Style: Atsuro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00924375,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0068,0
+Style: Hamako,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H008D6553,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0090,0068,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:03.98,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:00:02.38,0:00:03.98,DCMain,RAN,0000,0000,0000,,Good morning, Dad.
+Dialogue: 0,0:00:03.98,0:00:06.80,DCItalic,TV,0000,0000,0000,,{\an8}According to police, the \Nvictim Katsui Masaru
+Dialogue: 0,0:00:04.22,0:00:06.77,DCMain,RAN,0000,0000,0000,,We already started eating \Nsince you woke up so late.
+Dialogue: 0,0:00:06.77,0:00:09.11,DCMain,CONAN,0000,0000,0000,,Apparently they arrested \Nthe killer in the murder
+Dialogue: 0,0:00:06.80,0:00:09.11,DCItalic,TV,0000,0000,0000,,{\an8}had been demanding money \Nfrom suspect Hirose Junko,
+Dialogue: 0,0:00:09.11,0:00:10.86,DCMain,CONAN,0000,0000,0000,,that happened the day before yesterday.
+Dialogue: 0,0:00:09.11,0:00:11.72,DCItalic,TV,0000,0000,0000,,{\an8}and unable to withstand his demands \Nany further, resorted to murder.
+Dialogue: 0,0:00:11.32,0:00:13.08,DCMain,KOGORO,0000,0000,0000,,The other day?
+Dialogue: 0,0:00:11.72,0:00:14.56,DCItalic,TV,0000,0000,0000,,{\an8}The suspect appears to \Nhave admitted to her crime,
+Dialogue: 0,0:00:13.08,0:00:15.58,DCMain,KOGORO,0000,0000,0000,,Oh, you mean the one in Tonkoro City?
+Dialogue: 0,0:00:15.39,0:00:19.96,DCItalic,TV,0000,0000,0000,,{\an8}and is currently being \Nheld at Tonkoro Station,
+Dialogue: 0,0:00:17.73,0:00:18.99,DCMain,KOGORO,0000,0000,0000,,This woman...
+Dialogue: 0,0:00:19.38,0:00:20.04,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:00:19.96,0:00:23.83,DCItalic,TV,0000,0000,0000,,{\an8}where she is being questioned.
+Dialogue: 0,0:00:20.70,0:00:21.49,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:00:21.75,0:00:26.00,Arrested,TEXT,0000,0000,0000,,Tonkoro City Murder \NSuspect Arrested
+Dialogue: 0,0:00:21.75,0:00:26.00,Suspect,TEXT,0000,0000,0000,,Suspect
+Dialogue: 0,0:00:21.75,0:00:26.00,Junko,TEXT,0000,0000,0000,,Hirose Junko (25)
+Dialogue: 0,0:00:23.83,0:00:26.00,DCItalic,TV,0000,0000,0000,,{\an8}We are waiting for updates on this case.
+Dialogue: 0,0:00:27.41,0:00:28.92,DCMain,CONAN,0000,0000,0000,,A canvas stained black with crime.
+Dialogue: 0,0:00:29.37,0:00:31.40,DCMain,CONAN,0000,0000,0000,,With brilliant detective \Nskills, its color is changed!
+Dialogue: 0,0:00:31.87,0:00:34.01,DCMain,CONAN,0000,0000,0000,,When the old man sees a \Nbeautiful suspect on TV,
+Dialogue: 0,0:00:34.01,0:00:36.04,DCMain,CONAN,0000,0000,0000,,he makes an unexpected move.
+Dialogue: 0,0:00:36.04,0:00:39.89,DCMain,CONAN,0000,0000,0000,,Always determining the one truth with the \Nbody of a child and the mind of an adult,
+Dialogue: 0,0:00:39.89,0:00:42.41,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:21.99,0:02:28.00,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(402,1)}The Last Gift
+Dialogue: 0,0:02:22.78,0:02:24.90,DCMain,CONAN,0000,0000,0000,,"The Last Gift!"
+Dialogue: 0,0:02:28.00,0:02:30.50,Station,SIGN,0000,0000,0000,,MPD Tonkoro Station
+Dialogue: 0,0:02:28.92,0:02:32.88,DCMain,MEGURE,0000,0000,0000,,What's did you want to discuss \Nthat's so important, Mori-kun?
+Dialogue: 0,0:02:33.37,0:02:38.13,DCMain,KOGORO,0000,0000,0000,,First, could you tell me the \Nsequence of events of the case?
+Dialogue: 0,0:02:39.30,0:02:42.51,DCMain,TAKAGI,0000,0000,0000,,It started yesterday on Saturday morning.
+Dialogue: 0,0:02:43.00,0:02:45.04,DCMain,TAKAGI,0000,0000,0000,,The body of Katsui Masaru,
+Dialogue: 0,0:02:45.04,0:02:47.52,DCMain,TAKAGI,0000,0000,0000,,thought to be killed the night before,
+Dialogue: 0,0:02:47.80,0:02:50.70,DCMain,TAKAGI,0000,0000,0000,,{\an8}was found behind a park in Tonkoro City.
+Dialogue: 0,0:02:48.85,0:02:52.02,Masaru,TEXT,0000,0000,0000,,{\fad(250,1)}Katsui Masaru (30)
+Dialogue: 0,0:02:52.92,0:02:55.82,DCMain,TAKAGI,0000,0000,0000,,Because he was a serial blackmailer,
+Dialogue: 0,0:02:55.82,0:02:59.15,DCMain,TAKAGI,0000,0000,0000,,we believed the suspect \Nwas one of his victims.
+Dialogue: 0,0:02:59.55,0:03:03.28,DCMain,TAKAGI,0000,0000,0000,,As we were questioning \Nour list of suspects...
+Dialogue: 0,0:03:03.53,0:03:09.91,Hirose,TEXT,0000,0000,0000,,{\fad(250,221)}Hirose Junko (25) \NOffice Worker
+Dialogue: 0,0:03:04.94,0:03:07.89,DCItalic,JUNKO,0000,0000,0000,,{\an8}Last night, Katsui came to visit,
+Dialogue: 0,0:03:08.27,0:03:10.46,DCItalic,JUNKO,0000,0000,0000,,{\an8}and demanded money from me again.
+Dialogue: 0,0:03:10.81,0:03:12.67,DCItalic,JUNKO,0000,0000,0000,,I couldn't take it anymore.
+Dialogue: 0,0:03:13.30,0:03:14.30,DCMain,MEGURE,0000,0000,0000,,We arrested her because
+Dialogue: 0,0:03:14.30,0:03:18.35,DCMain,MEGURE,0000,0000,0000,,she had motive and seemed \Nto admit she had done it.
+Dialogue: 0,0:03:18.35,0:03:21.43,DCMain,KOGORO,0000,0000,0000,,And you're sure Katsui was murdered
+Dialogue: 0,0:03:22.04,0:03:25.82,DCMain,KOGORO,0000,0000,0000,,around 8 PM on Friday night?
+Dialogue: 0,0:03:25.82,0:03:28.85,DCMain,MEGURE,0000,0000,0000,,His watch was stopped at that time.
+Dialogue: 0,0:03:29.27,0:03:33.07,DCMain,TAKAGI,0000,0000,0000,,We believe it broke when he was killed.
+Dialogue: 0,0:03:33.07,0:03:36.22,DCMain,TAKAGI,0000,0000,0000,,And he was caught on security cameras
+Dialogue: 0,0:03:36.22,0:03:41.03,DCMain,TAKAGI,0000,0000,0000,,at Tonkoro Station around 7:20 PM.
+Dialogue: 0,0:03:41.28,0:03:45.24,DCMain,MEGURE,0000,0000,0000,,If he met with the murderer \Nand was killed after that...
+Dialogue: 0,0:03:45.24,0:03:50.66,DCMain,KOGORO,0000,0000,0000,,If the time this watch is stopped \Nat is the time of the murder,
+Dialogue: 0,0:03:51.37,0:03:54.92,DCMain,KOGORO,0000,0000,0000,,then she didn't kill him.
+Dialogue: 0,0:03:55.13,0:03:56.67,DCMain,MEGURE,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:03:57.10,0:04:01.17,DCMain,KOGORO,0000,0000,0000,,Around 8 PM that night, \Nshe was in Beika City.
+Dialogue: 0,0:04:01.98,0:04:04.08,DCItalic,KOGORO,0000,0000,0000,,It's still only eight?
+Dialogue: 0,0:04:04.77,0:04:06.30,DCItalic,KOGORO,0000,0000,0000,,Thank god it's Friday!
+Dialogue: 0,0:04:06.89,0:04:08.85,DCItalic,KOGORO,0000,0000,0000,,One more bar!
+Dialogue: 0,0:04:10.46,0:04:11.56,DCItalic,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:16.57,0:04:19.61,DCItalic,KOGORO,0000,0000,0000,,She's a pretty woman.
+Dialogue: 0,0:04:25.83,0:04:27.24,DCItalic,KOGORO,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:04:28.15,0:04:30.90,DCItalic,KOGORO,0000,0000,0000,,Ouch...
+Dialogue: 0,0:04:33.30,0:04:34.39,DCItalic,KOGORO,0000,0000,0000,,Miss?
+Dialogue: 0,0:04:37.41,0:04:40.25,DCMain,KOGORO,0000,0000,0000,,It was impossible for her to have done it.
+Dialogue: 0,0:04:40.86,0:04:43.55,DCMain,KOGORO,0000,0000,0000,,It takes almost an hour
+Dialogue: 0,0:04:43.55,0:04:46.80,DCMain,KOGORO,0000,0000,0000,,to drive from Beika City \Nto the crime scene.
+Dialogue: 0,0:04:46.80,0:04:48.01,DCMain,TAKAGI,0000,0000,0000,,Inspector.
+Dialogue: 0,0:04:49.36,0:04:50.32,DCMain,JUNKO,0000,0000,0000,,What?
+Dialogue: 0,0:04:50.32,0:04:52.64,DCMain,JUNKO,0000,0000,0000,,Roll up my pants?
+Dialogue: 0,0:04:53.35,0:04:55.05,DCMain,MEGURE,0000,0000,0000,,Just for our reference,
+Dialogue: 0,0:04:55.05,0:04:56.56,DCMain,MEGURE,0000,0000,0000,,could you roll up your left pant leg?
+Dialogue: 0,0:05:05.48,0:05:07.07,DCMain,KOGORO,0000,0000,0000,,It {\i1}is{\i0} you.
+Dialogue: 0,0:05:07.46,0:05:11.20,DCMain,KOGORO,0000,0000,0000,,I happened to see you around 8 PM
+Dialogue: 0,0:05:11.62,0:05:14.71,DCMain,KOGORO,0000,0000,0000,,on Friday night in Beika City.
+Dialogue: 0,0:05:17.40,0:05:20.34,DCMain,MEGURE,0000,0000,0000,,What is the meaning of this, Hirose-san?
+Dialogue: 0,0:05:25.32,0:05:27.34,DCMain,JUNKO,0000,0000,0000,,He's right.
+Dialogue: 0,0:05:27.80,0:05:32.35,DCMain,JUNKO,0000,0000,0000,,I was going to a restaurant in Beika City.
+Dialogue: 0,0:05:32.84,0:05:36.44,DCMain,JUNKO,0000,0000,0000,,But I ended up not going since my leg hurt.
+Dialogue: 0,0:05:36.44,0:05:40.48,DCMain,TAKAGI,0000,0000,0000,,More importantly, why did you \Nlie about killing Katsui?
+Dialogue: 0,0:05:41.02,0:05:42.24,DCMain,JUNKO,0000,0000,0000,,Because I...
+Dialogue: 0,0:05:43.95,0:05:47.82,DCMain,JUNKO,0000,0000,0000,,thought the killer must have been like me.
+Dialogue: 0,0:05:47.82,0:05:49.46,DCMain,JUNKO,0000,0000,0000,,If they were being blackmailed by Katsui,
+Dialogue: 0,0:05:49.46,0:05:52.49,DCMain,JUNKO,0000,0000,0000,,then I was willing to \Ntake the blame for them.
+Dialogue: 0,0:05:54.91,0:05:57.28,DCMain,MEGURE,0000,0000,0000,,In any case, you have an alibi.
+Dialogue: 0,0:05:57.93,0:06:01.98,DCMain,TAKAGI,0000,0000,0000,,But giving false testimony is an \Ninterference of public duties.
+Dialogue: 0,0:06:03.27,0:06:05.22,DCMain,MEGURE,0000,0000,0000,,We'll let it go this time.
+Dialogue: 0,0:06:05.22,0:06:09.01,DCMain,MEGURE,0000,0000,0000,,We're also at fault for being \Ntoo hasty in making an arrest.
+Dialogue: 0,0:06:09.57,0:06:10.91,DCMain,KOGORO,0000,0000,0000,,That's great news.
+Dialogue: 0,0:06:10.91,0:06:12.55,DCMain,JUNKO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:06:12.55,0:06:14.72,DCMain,KOGORO,0000,0000,0000,,No problem.
+Dialogue: 0,0:06:16.31,0:06:18.81,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:06:17.00,0:06:21.51,DCMain,KOROGO,0000,0000,0000,,So she was acquitted and released.
+Dialogue: 0,0:06:22.18,0:06:24.57,DCMain,KOROGO,0000,0000,0000,,Thanks to me, her savior.
+Dialogue: 0,0:06:24.91,0:06:28.82,DCMain,CONAN,0000,0000,0000,,Hirose Junko-san seems like \Na strange person, though.
+Dialogue: 0,0:06:29.36,0:06:32.95,DCMain,RAN,0000,0000,0000,,Why would she take responsibility \Nfor a murder she didn't commit?
+Dialogue: 0,0:06:33.33,0:06:34.18,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:06:35.42,0:06:37.45,DCMain,CONAN,0000,0000,0000,,She had motive, right?
+Dialogue: 0,0:06:37.72,0:06:40.62,DCMain,RAN,0000,0000,0000,,But she has someone to verify her alibi.
+Dialogue: 0,0:06:42.19,0:06:45.62,DCMain,CONAN,0000,0000,0000,,Maybe the actual time \Nof the murder was different.
+Dialogue: 0,0:06:46.37,0:06:51.20,DCMain,CONAN,0000,0000,0000,,Maybe the killer adjusted the time \Non his watch after killing him.
+Dialogue: 0,0:06:52.25,0:06:54.89,DCMain,KOGORO,0000,0000,0000,,Hirose Junko-san admitted to the crime.
+Dialogue: 0,0:06:55.30,0:06:56.44,DCMain,KOGORO,0000,0000,0000,,If she was going to do that,
+Dialogue: 0,0:06:56.44,0:06:59.44,DCMain,KOGORO,0000,0000,0000,,there would've been no need to hide \Nthe actual time of the murder.
+Dialogue: 0,0:06:59.78,0:07:01.72,DCMain,CONAN,0000,0000,0000,,That's true, but...
+Dialogue: 0,0:07:07.05,0:07:08.05,DCMain,KOGORO,0000,0000,0000,,Wait, kid!
+Dialogue: 0,0:07:08.89,0:07:11.31,DCMain,KOGORO,0000,0000,0000,,She's definitely innocent.
+Dialogue: 0,0:07:11.31,0:07:13.70,DCMain,CONAN,0000,0000,0000,,But it doesn't make sense.
+Dialogue: 0,0:07:13.70,0:07:15.38,DCMain,RAN,0000,0000,0000,,I'm going to investigate.
+Dialogue: 0,0:07:15.38,0:07:18.45,DCMain,RAN,0000,0000,0000,,We may be able to figure \Nout why Hirose-san
+Dialogue: 0,0:07:18.45,0:07:19.83,DCMain,RAN,0000,0000,0000,,pretended to be the murderer.
+Dialogue: 0,0:07:21.12,0:07:25.34,DCMain,KOGORO,0000,0000,0000,,In that case, you should look into \Nher connections to Beika City.
+Dialogue: 0,0:07:25.34,0:07:26.96,DCMain,KOGORO,0000,0000,0000,,When I saw her,
+Dialogue: 0,0:07:27.34,0:07:31.22,DCMain,KOGORO,0000,0000,0000,,she didn't have the expression of someone \Non their way to eat, drink, and be merry.
+Dialogue: 0,0:07:31.77,0:07:35.72,DCMain,RAN,0000,0000,0000,,We need to know why she \Nreally came to Beika City.
+Dialogue: 0,0:07:36.04,0:07:36.99,DCMain,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:07:36.99,0:07:39.35,DCMain,CONAN,0000,0000,0000,,Hirose-san was lying.
+Dialogue: 0,0:07:39.35,0:07:42.17,DCMain,KOGORO,0000,0000,0000,,Yeah, but I still don't think she's guilty.
+Dialogue: 0,0:07:44.01,0:07:45.39,DCMain,TAKAGI,0000,0000,0000,,I see.
+Dialogue: 0,0:07:45.39,0:07:47.98,DCMain,TAKAGI,0000,0000,0000,,You're trying to prove Conan-kun wrong.
+Dialogue: 0,0:07:48.74,0:07:52.24,DCMain,KOGORO,0000,0000,0000,,And I thought it would be the \Nbest way to find the true killer.
+Dialogue: 0,0:07:52.68,0:07:53.90,DCMain,TAKAGI,0000,0000,0000,,This is it.
+Dialogue: 0,0:07:53.90,0:07:56.10,DCMain,TAKAGI,0000,0000,0000,,This is where they found \NKatsui Masaru's body.
+Dialogue: 0,0:07:56.10,0:07:57.34,DCMain,KOGORO,0000,0000,0000,,Here?
+Dialogue: 0,0:07:57.34,0:07:59.04,DCMain,KOGORO,0000,0000,0000,,But this place...
+Dialogue: 0,0:07:59.45,0:08:04.27,DCMain,CONAN,0000,0000,0000,,I'm surprised they found a body \Nin such a well-concealed area.
+Dialogue: 0,0:08:05.52,0:08:09.55,DCMain,TAKAGI,0000,0000,0000,,An anonymous woman called the police.
+Dialogue: 0,0:08:09.89,0:08:11.40,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:08:11.40,0:08:15.43,DCMain,CONAN,0000,0000,0000,,But what was that woman doing here?
+Dialogue: 0,0:08:16.25,0:08:18.39,DCMain,KOGORO,0000,0000,0000,,How should I know that?
+Dialogue: 0,0:08:18.39,0:08:21.43,DCMain,CONAN,0000,0000,0000,,We're assuming the victim \Nwas killed around 8 PM
+Dialogue: 0,0:08:21.78,0:08:25.85,DCMain,CONAN,0000,0000,0000,,because his watch was \Nstopped at that time, right?
+Dialogue: 0,0:08:26.06,0:08:27.05,DCMain,TAKAGI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:27.05,0:08:28.86,DCMain,TAKAGI,0000,0000,0000,,We're certain Katsui arrived
+Dialogue: 0,0:08:28.86,0:08:32.23,DCMain,TAKAGI,0000,0000,0000,,at Tonkoro Station around 7:20.
+Dialogue: 0,0:08:32.23,0:08:35.86,DCMain,TAKAGI,0000,0000,0000,,That matches the time of death \Ndetermined by the autopsy,
+Dialogue: 0,0:08:35.86,0:08:39.91,DCMain,TAKAGI,0000,0000,0000,,which was between 7 PM and 9 PM.
+Dialogue: 0,0:08:40.25,0:08:42.58,DCMain,CONAN,0000,0000,0000,,Between seven and nine?
+Dialogue: 0,0:08:43.48,0:08:48.38,DCMain,CONAN,0000,0000,0000,,Then if she had hurried \Nback to Tonkoro City
+Dialogue: 0,0:08:48.38,0:08:52.05,DCMain,CONAN,0000,0000,0000,,after being spotted in Beika City around \Neight, she would've arrived around nine.
+Dialogue: 0,0:08:52.73,0:08:56.18,DCMain,CONAN,0000,0000,0000,,Hirose-san could just barely have done it,
+Dialogue: 0,0:08:56.60,0:09:00.22,DCMain,CONAN,0000,0000,0000,,and made it seem as though \Nhe'd been killed at eight.
+Dialogue: 0,0:09:00.61,0:09:04.39,DCMain,KOGORO,0000,0000,0000,,Then she would've fabricated \Nan alibi for that time.
+Dialogue: 0,0:09:04.39,0:09:07.98,DCMain,KOGORO,0000,0000,0000,,Like another witness who \Nhappened to see her.
+Dialogue: 0,0:09:08.52,0:09:09.62,DCMain,CONAN,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:09:09.62,0:09:13.22,DCMain,KOGORO,0000,0000,0000,,Is there any evidence that \Npoints to the true killer?
+Dialogue: 0,0:09:13.22,0:09:14.86,DCMain,TAKAGI,0000,0000,0000,,There isn't any.
+Dialogue: 0,0:09:15.28,0:09:19.09,DCMain,TAKAGI,0000,0000,0000,,Katsui bought two packs of \Ncigarettes at the station,
+Dialogue: 0,0:09:19.09,0:09:23.25,DCMain,TAKAGI,0000,0000,0000,,but one was left untouched in his pocket.
+Dialogue: 0,0:09:23.60,0:09:25.87,DCMain,KOGORO,0000,0000,0000,,So he was a heavy smoker.
+Dialogue: 0,0:09:25.87,0:09:28.74,DCMain,KOGORO,0000,0000,0000,,In any case, there's no evidence.
+Dialogue: 0,0:09:29.84,0:09:33.18,DCMain,CONAN,0000,0000,0000,,But if it's just barely possible \Nthat she could've done it—
+Dialogue: 0,0:09:33.18,0:09:35.44,DCMain,KOGORO,0000,0000,0000,,Give it up already, kid.
+Dialogue: 0,0:09:36.13,0:09:40.14,Soba,SIGN,0000,0000,0000,,Soba and Udon
+Dialogue: 0,0:09:37.27,0:09:40.14,DCMain,KOGORO,0000,0000,0000,,Her man lives in Beika City?
+Dialogue: 0,0:09:40.64,0:09:43.39,DCMain,RAN,0000,0000,0000,,More accurately, he's her ex-boyfriend.
+Dialogue: 0,0:09:44.06,0:09:46.72,DCMain,RAN,0000,0000,0000,,His name is Matsubayashi Atsuro-san.
+Dialogue: 0,0:09:47.05,0:09:49.24,DCMain,RAN,0000,0000,0000,,Apparently he recently got \Nengaged to the daughter
+Dialogue: 0,0:09:49.24,0:09:51.40,DCMain,RAN,0000,0000,0000,,of an executive at his company.
+Dialogue: 0,0:09:51.64,0:09:55.78,DCMain,KOGORO,0000,0000,0000,,So he dumped Hirose Junko-san.
+Dialogue: 0,0:09:56.24,0:10:00.12,DCMain,RAN,0000,0000,0000,,But she has no other \Nconnections to Beika City.
+Dialogue: 0,0:10:00.12,0:10:05.41,DCMain,RAN,0000,0000,0000,,Maybe she was actually \Nvisiting him the other night.
+Dialogue: 0,0:10:06.60,0:10:08.37,DCMain,CONAN,0000,0000,0000,,So she does
+Dialogue: 0,0:10:08.37,0:10:11.67,DCMain,CONAN,0000,0000,0000,,have someone besides \Nyou to verify her alibi.
+Dialogue: 0,0:10:12.24,0:10:13.67,DCMain,CONAN,0000,0000,0000,,Around 8 PM.
+Dialogue: 0,0:10:14.07,0:10:16.55,DCMain,KOGORO,0000,0000,0000,,You're saying that's him?
+Dialogue: 0,0:10:16.88,0:10:18.34,DCMain,RAN,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:10:18.80,0:10:20.56,DCMain,CONAN,0000,0000,0000,,Fabricating an alibi.
+Dialogue: 0,0:10:20.56,0:10:23.68,DCMain,CONAN,0000,0000,0000,,If you assume she used him...
+Dialogue: 0,0:10:24.15,0:10:26.91,DCMain,RAN,0000,0000,0000,,Then wouldn't she have told the \Npolice about Matsubayashi-san
+Dialogue: 0,0:10:27.28,0:10:30.19,DCMain,RAN,0000,0000,0000,,when the police suspected her?
+Dialogue: 0,0:10:30.48,0:10:32.09,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:32.38,0:10:33.88,DCMain,CONAN,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:10:35.66,0:10:37.74,DCMain,RAN,0000,0000,0000,,I figured out
+Dialogue: 0,0:10:37.74,0:10:40.70,DCMain,RAN,0000,0000,0000,,why Hirose-san pretended \Nto be the murderer!
+Dialogue: 0,0:10:43.30,0:10:47.87,DCMain,RAN,0000,0000,0000,,That night, Hirose-san went \Nto see Matsubayashi-san.
+Dialogue: 0,0:10:48.13,0:10:52.50,DCMain,RAN,0000,0000,0000,,She went to get rid of old \Nmementos still left there.
+Dialogue: 0,0:10:53.18,0:10:55.67,DCMain,RAN,0000,0000,0000,,But she couldn't tell the police.
+Dialogue: 0,0:10:56.26,0:10:58.13,DCMain,CONAN,0000,0000,0000,,She couldn't tell them?
+Dialogue: 0,0:10:58.48,0:11:01.02,DCMain,RAN,0000,0000,0000,,Yeah, she couldn't tell them.
+Dialogue: 0,0:11:01.02,0:11:02.64,DCMain,KOGORO,0000,0000,0000,,So why not?
+Dialogue: 0,0:11:03.19,0:11:04.08,DCMain,RAN,0000,0000,0000,,If she did,
+Dialogue: 0,0:11:04.08,0:11:08.27,DCMain,RAN,0000,0000,0000,,the police would've tried to confirm \Nher story with Matsubayashi-san.
+Dialogue: 0,0:11:08.70,0:11:12.55,DCMain,RAN,0000,0000,0000,,Then his fiancée might find out
+Dialogue: 0,0:11:12.55,0:11:17.03,DCMain,RAN,0000,0000,0000,,he let his ex-girlfriend into his home.
+Dialogue: 0,0:11:17.58,0:11:21.15,DCMain,RAN,0000,0000,0000,,His fiancée would think \Nhe was up to something.
+Dialogue: 0,0:11:21.48,0:11:24.91,DCMain,RAN,0000,0000,0000,,She might even call off the engagement.
+Dialogue: 0,0:11:25.26,0:11:29.72,DCMain,RAN,0000,0000,0000,,And his fiancée is the daughter \Nof an executive at his company.
+Dialogue: 0,0:11:29.72,0:11:32.92,DCMain,RAN,0000,0000,0000,,Matsubayashi-san would lose his job.
+Dialogue: 0,0:11:33.30,0:11:35.63,DCMain,RAN,0000,0000,0000,,Hirose-san hid the truth
+Dialogue: 0,0:11:35.63,0:11:37.92,DCMain,RAN,0000,0000,0000,,because she didn't want to put \NMatsubayashi-san through that.
+Dialogue: 0,0:11:38.38,0:11:40.79,DCMain,RAN,0000,0000,0000,,Even if it meant being convicted \Nof a crime she didn't commit,
+Dialogue: 0,0:11:40.79,0:11:44.18,DCMain,RAN,0000,0000,0000,,she wanted to protect \NMatsubayashi-san's happiness.
+Dialogue: 0,0:11:44.81,0:11:47.31,DCMain,KOGORO,0000,0000,0000,,But he left her for another woman.
+Dialogue: 0,0:11:47.52,0:11:49.10,DCMain,RAN,0000,0000,0000,,But she still wanted to do it.
+Dialogue: 0,0:11:49.38,0:11:53.35,DCMain,RAN,0000,0000,0000,,Hirose-san still loves Matsubayashi-san.
+Dialogue: 0,0:11:53.81,0:11:58.11,DCMain,RAN,0000,0000,0000,,Pretending to be the murderer \Nwas Hirose-san's last gift
+Dialogue: 0,0:11:58.50,0:12:01.03,DCMain,RAN,0000,0000,0000,,to Matsubayashi-san.
+Dialogue: 0,0:12:01.23,0:12:03.28,DCMain,CONAN,0000,0000,0000,,Yeah, but Ran-neechan...
+Dialogue: 0,0:12:05.21,0:12:06.31,DCMain,KOGORO,0000,0000,0000,,Interesting.
+Dialogue: 0,0:12:06.66,0:12:12.14,DCMain,KOGORO,0000,0000,0000,,Your theory that she tried to use \Nher ex to fabricate her alibi.
+Dialogue: 0,0:12:12.14,0:12:15.79,DCMain,KOGORO,0000,0000,0000,,And Ran's theory that she still loved him.
+Dialogue: 0,0:12:17.27,0:12:21.39,DCMain,KOGORO,0000,0000,0000,,If we meet this Matsubayashi guy,
+Dialogue: 0,0:12:21.39,0:12:22.99,DCMain,KOGORO,0000,0000,0000,,we'll know right away which of you is right.
+Dialogue: 0,0:12:23.55,0:12:26.93,Atsuro,TEXT,0000,0000,0000,,{\fad(250,1)}Matsubayashi Atsuro (28) \NOffice Worker
+Dialogue: 0,0:12:23.62,0:12:24.39,DCMain,MATSU,0000,0000,0000,,{\an8}What?
+Dialogue: 0,0:12:24.70,0:12:26.93,DCMain,MATSU,0000,0000,0000,,{\an8}Did Junko come here?
+Dialogue: 0,0:12:27.11,0:12:29.14,DCMain,KOGORO,0000,0000,0000,,Yeah, two nights ago.
+Dialogue: 0,0:12:29.14,0:12:30.68,DCMain,MATSUO,0000,0000,0000,,Of course not.
+Dialogue: 0,0:12:30.68,0:12:32.58,DCMain,MATSUO,0000,0000,0000,,We broke up.
+Dialogue: 0,0:12:32.58,0:12:33.94,DCMain,RAN,0000,0000,0000,,But, Matsubayashi-san...
+Dialogue: 0,0:12:34.30,0:12:35.38,DCMain,MATSU,0000,0000,0000,,You're bothering me!
+Dialogue: 0,0:12:35.38,0:12:36.31,DCMain,MATSU,0000,0000,0000,,Don't come back again!
+Dialogue: 0,0:12:43.43,0:12:47.91,DCMain,CONAN,0000,0000,0000,,Based on that reaction, we know for \Nsure that Hirose-san came to visit him.
+Dialogue: 0,0:12:48.44,0:12:50.50,DCMain,KOGORO,0000,0000,0000,,But if that's the kind of man he is,
+Dialogue: 0,0:12:50.50,0:12:53.25,DCMain,KOGORO,0000,0000,0000,,that doesn't support either of your theories.
+Dialogue: 0,0:12:53.25,0:12:54.48,DCMain,RAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:54.48,0:12:58.21,DCMain,RAN,0000,0000,0000,,I can't imagine her wanting \Nto be convicted of a crime
+Dialogue: 0,0:12:58.47,0:12:59.71,DCMain,RAN,0000,0000,0000,,she didn't commit for him.
+Dialogue: 0,0:12:59.96,0:13:03.72,DCMain,CONAN,0000,0000,0000,,And I doubt he would've agreed \Nto verify Hirose-san's alibi,
+Dialogue: 0,0:13:03.72,0:13:05.22,DCMain,CONAN,0000,0000,0000,,even if she asked.
+Dialogue: 0,0:13:05.95,0:13:09.85,DCMain,KOGORO,0000,0000,0000,,In other words, she couldn't have \Nused him to fabricate an alibi.
+Dialogue: 0,0:13:10.37,0:13:14.45,DCMain,CONAN,0000,0000,0000,,I guess I was wrong to suspect Hirose-san.
+Dialogue: 0,0:13:14.45,0:13:16.48,DCMain,KOGORO,0000,0000,0000,,You finally admit it?
+Dialogue: 0,0:13:23.32,0:13:27.09,DCMain,KOGORO,0000,0000,0000,,Either way, he's a selfish gold digger.
+Dialogue: 0,0:13:28.14,0:13:29.92,DCMain,RAN,0000,0000,0000,,But Hirose-san
+Dialogue: 0,0:13:29.92,0:13:33.65,DCMain,RAN,0000,0000,0000,,still loved and trusted him despite it.
+Dialogue: 0,0:13:36.08,0:13:37.60,DCItalic,CONAN,0000,0000,0000,,Wait a minute.
+Dialogue: 0,0:13:37.60,0:13:39.37,DCItalic,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:13:40.79,0:13:42.13,DCMain,CONAN,0000,0000,0000,,Hey, mister.
+Dialogue: 0,0:13:42.91,0:13:45.55,DCMain,CONAN,0000,0000,0000,,How did Hirose-san react
+Dialogue: 0,0:13:45.55,0:13:48.01,DCMain,CONAN,0000,0000,0000,,when you went to confirm her alibi?
+Dialogue: 0,0:13:49.56,0:13:52.26,DCMain,KOGORO,0000,0000,0000,,She was surprised,
+Dialogue: 0,0:13:52.58,0:13:54.18,DCMain,KOGORO,0000,0000,0000,,perplexed,
+Dialogue: 0,0:13:54.18,0:13:55.81,DCMain,KOGORO,0000,0000,0000,,thoughtful,
+Dialogue: 0,0:13:55.81,0:13:57.28,DCMain,KOGORO,0000,0000,0000,,and then happy.
+Dialogue: 0,0:13:57.62,0:13:59.02,DCMain,KOGORO,0000,0000,0000,,So what?
+Dialogue: 0,0:13:59.49,0:14:00.61,DCMain,CONAN,0000,0000,0000,,Nothing.
+Dialogue: 0,0:14:00.61,0:14:02.38,DCMain,CONAN,0000,0000,0000,,Just checking.
+Dialogue: 0,0:14:02.38,0:14:06.23,DCItalic,CONAN,0000,0000,0000,,If that's true, then there \Nmust be some trace of it.
+Dialogue: 0,0:14:28.12,0:14:30.30,DCMain,CONAN,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:14:31.21,0:14:33.35,DCMain,CONAN,0000,0000,0000,,Is Hirose-san moving?
+Dialogue: 0,0:14:33.68,0:14:39.35,Hamako,TEXT,0000,0000,0000,,{\fad(250,1)}Oguchi Hamako (52) \NLandlady
+Dialogue: 0,0:14:33.92,0:14:37.31,DCMain,HAMAKO,0000,0000,0000,,{\an8}Yes, because of the awful \Nthings she went through,
+Dialogue: 0,0:14:37.31,0:14:39.35,DCMain,HAMAKO,0000,0000,0000,,{\an8}like being suspected by the police.
+Dialogue: 0,0:14:39.58,0:14:41.58,DCMain,CONAN,0000,0000,0000,,Really?
+Dialogue: 0,0:14:41.58,0:14:43.33,DCMain,CONAN,0000,0000,0000,,This is garbage, right?
+Dialogue: 0,0:14:43.88,0:14:45.65,DCMain,CONAN,0000,0000,0000,,I'll put it out for you.
+Dialogue: 0,0:14:45.65,0:14:48.36,DCMain,HAMAKO,0000,0000,0000,,Thank you. How considerate.
+Dialogue: 0,0:14:48.60,0:14:50.58,DCMain,CONAN,0000,0000,0000,,Since it was Friday night,
+Dialogue: 0,0:14:50.58,0:14:53.40,DCMain,CONAN,0000,0000,0000,,it probably hasn't been collected yet.
+Dialogue: 0,0:14:54.95,0:14:56.26,DCMain,CONAN,0000,0000,0000,,Found it.
+Dialogue: 0,0:14:59.46,0:15:02.75,DCMain,JUNKO,0000,0000,0000,,What could you possibly want now?
+Dialogue: 0,0:15:03.05,0:15:06.50,DCMain,MATSU,0000,0000,0000,,Why did you ask me to come here?
+Dialogue: 0,0:15:06.75,0:15:09.44,DCMain,MEGURE,0000,0000,0000,,We have no idea, either.
+Dialogue: 0,0:15:09.44,0:15:11.01,DCMain,KOGORO,0000,0000,0000,,Thanks for waiting.
+Dialogue: 0,0:15:11.43,0:15:15.39,DCMain,MEGURE,0000,0000,0000,,Why did you gather all of us here, Mori-kun?
+Dialogue: 0,0:15:15.72,0:15:16.47,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:15:16.95,0:15:19.75,DCMain,KOGORO,0000,0000,0000,,Inspector, you called me.
+Dialogue: 0,0:15:19.75,0:15:23.10,DCMain,TAKAGI,0000,0000,0000,,Mori-san, we examined this \Nthing Conan-kun brought us.
+Dialogue: 0,0:15:23.42,0:15:25.68,DCMain,TAKAGI,0000,0000,0000,,You were exactly right.
+Dialogue: 0,0:15:25.68,0:15:27.78,DCMain,TAKAGI,0000,0000,0000,,But what does this mean?
+Dialogue: 0,0:15:28.05,0:15:29.59,DCMain,KOGORO,0000,0000,0000,,What is that?
+Dialogue: 0,0:15:29.59,0:15:31.20,DCMain,KOGORO,0000,0000,0000,,I didn't—
+Dialogue: 0,0:15:36.54,0:15:40.41,DCMain,KOGORO,0000,0000,0000,,Did you run out of patience, \NHirose Junko-san?
+Dialogue: 0,0:15:41.08,0:15:42.17,DCMain,JUNKO,0000,0000,0000,,What?
+Dialogue: 0,0:15:43.02,0:15:48.12,DCMain,KOGORO,0000,0000,0000,,Katsui Masaru was using something \Nto continue to blackmail you.
+Dialogue: 0,0:15:48.43,0:15:50.10,DCMain,KOGORO,0000,0000,0000,,And your boyfriend Matsubayashi-san
+Dialogue: 0,0:15:50.10,0:15:54.55,DCMain,KOGORO,0000,0000,0000,,ran after an executive's daughter \Nso he could marry into money.
+Dialogue: 0,0:15:55.78,0:15:57.31,DCMain,MATSU,0000,0000,0000,,What? Stay out of my business!
+Dialogue: 0,0:15:57.72,0:16:01.81,DCMain,KOGORO,0000,0000,0000,,When Katsui Masaru demanded \Nmoney from you again,
+Dialogue: 0,0:16:01.81,0:16:04.80,DCMain,KOGORO,0000,0000,0000,,you decided to remove the \Nobnoxious blackmailer
+Dialogue: 0,0:16:04.80,0:16:07.32,DCMain,KOGORO,0000,0000,0000,,from this world.
+Dialogue: 0,0:16:09.13,0:16:12.45,DCMain,KOGORO,0000,0000,0000,,It's impossible to run from murder.
+Dialogue: 0,0:16:12.90,0:16:15.06,DCMain,KOGORO,0000,0000,0000,,But you made up your mind.
+Dialogue: 0,0:16:15.55,0:16:19.86,DCMain,KOGORO,0000,0000,0000,,If you could use a murder \Nfor another purpose,
+Dialogue: 0,0:16:19.86,0:16:21.45,DCMain,KOGORO,0000,0000,0000,,then you were willing to be arrested.
+Dialogue: 0,0:16:22.12,0:16:23.96,DCMain,KOGORO,0000,0000,0000,,So you put your plan into action.
+Dialogue: 0,0:16:24.33,0:16:26.29,DCMain,TAKAGI,0000,0000,0000,,B-But, Mori-san...
+Dialogue: 0,0:16:26.29,0:16:28.90,DCMain,MEGURE,0000,0000,0000,,You're the one who said she was innocent.
+Dialogue: 0,0:16:28.90,0:16:31.59,DCMain,JUNKO,0000,0000,0000,,You verified my alibi.
+Dialogue: 0,0:16:32.00,0:16:34.34,DCMain,KOGORO,0000,0000,0000,,Just after seven on the \Nnight of the incident,
+Dialogue: 0,0:16:34.34,0:16:37.85,DCMain,KOGORO,0000,0000,0000,,you visited Matsubayashi-san in Beika City.
+Dialogue: 0,0:16:38.54,0:16:40.60,DCItalic,MATSU,0000,0000,0000,,What do you want now?
+Dialogue: 0,0:16:40.95,0:16:42.83,DCItalic,JUNKO,0000,0000,0000,,You're getting married, right?
+Dialogue: 0,0:16:42.83,0:16:45.98,DCItalic,JUNKO,0000,0000,0000,,Then we have to erase all traces of me.
+Dialogue: 0,0:16:46.59,0:16:47.94,DCItalic,MATSU,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:16:47.94,0:16:49.07,DCItalic,MATSU,0000,0000,0000,,You can't do that!
+Dialogue: 0,0:16:50.05,0:16:53.45,DCMain,KOGORO,0000,0000,0000,,While you were using an excuse to \Nget into Matsubayashi-san's home,
+Dialogue: 0,0:16:53.83,0:16:56.99,DCMain,KOGORO,0000,0000,0000,,Katsui Masaru was arriving in Tonkoro City
+Dialogue: 0,0:16:57.56,0:16:59.26,DCMain,KOGORO,0000,0000,0000,,at your invitation.
+Dialogue: 0,0:17:00.13,0:17:04.01,DCMain,KOGORO,0000,0000,0000,,At eight, after you left \NMatsubayashi-san's home
+Dialogue: 0,0:17:04.01,0:17:06.67,DCMain,KOGORO,0000,0000,0000,,and were hurrying back to Tonkoro City,
+Dialogue: 0,0:17:06.67,0:17:09.50,DCMain,KOGORO,0000,0000,0000,,I happened to see you.
+Dialogue: 0,0:17:10.36,0:17:14.38,DCMain,KOGORO,0000,0000,0000,,Then you led Katsui Masaru \Nto the crime scene,
+Dialogue: 0,0:17:15.28,0:17:16.47,DCMain,KOGORO,0000,0000,0000,,and murdered him around nine.
+Dialogue: 0,0:17:18.24,0:17:21.97,DCMain,KOGORO,0000,0000,0000,,You set his watch to eight and \Nbroke it, stopping the watch.
+Dialogue: 0,0:17:22.87,0:17:24.34,DCMain,KOGORO,0000,0000,0000,,The next morning,
+Dialogue: 0,0:17:24.34,0:17:26.42,DCMain,KOGORO,0000,0000,0000,,you made an anonymous call
+Dialogue: 0,0:17:26.42,0:17:28.73,DCMain,KOGORO,0000,0000,0000,,to the police so they would find the body.
+Dialogue: 0,0:17:29.14,0:17:32.24,DCMain,KOGORO,0000,0000,0000,,When they came to question you, \Nyou confessed to the crime.
+Dialogue: 0,0:17:32.55,0:17:34.24,DCMain,KOGORO,0000,0000,0000,,Everything was complete.
+Dialogue: 0,0:17:35.26,0:17:38.12,DCItalic,JUNKO,0000,0000,0000,,Last night, Katsui came to visit,
+Dialogue: 0,0:17:38.48,0:17:40.61,DCItalic,JUNKO,0000,0000,0000,,and demanded money from me again.
+Dialogue: 0,0:17:41.00,0:17:42.91,DCItalic,JUNKO,0000,0000,0000,,I couldn't take it anymore.
+Dialogue: 0,0:17:43.73,0:17:46.74,DCMain,KOGORO,0000,0000,0000,,If the suspect denied committing the crime,
+Dialogue: 0,0:17:46.74,0:17:50.48,DCMain,KOGORO,0000,0000,0000,,the police would've suspected \Nyou of manipulating the watch.
+Dialogue: 0,0:17:50.48,0:17:52.74,DCMain,KOGORO,0000,0000,0000,,But because you confessed,
+Dialogue: 0,0:17:52.74,0:17:54.46,DCMain,KOGORO,0000,0000,0000,,no one suspected you.
+Dialogue: 0,0:17:54.69,0:17:55.96,DCMain,TAKAGI,0000,0000,0000,,You're right.
+Dialogue: 0,0:17:55.96,0:17:59.91,DCMain,MEGURE,0000,0000,0000,,But if she meant to confess to the crime,
+Dialogue: 0,0:17:59.91,0:18:02.72,DCMain,MEGURE,0000,0000,0000,,why did she bother with fabricating an alibi?
+Dialogue: 0,0:18:03.30,0:18:04.52,DCMain,KOGORO,0000,0000,0000,,Matsubayashi-san.
+Dialogue: 0,0:18:05.71,0:18:09.14,DCMain,KOGORO,0000,0000,0000,,You learned through the news
+Dialogue: 0,0:18:09.14,0:18:12.11,DCMain,KOGORO,0000,0000,0000,,that Hirose-san was arrested \Nfor murder, didn't you?
+Dialogue: 0,0:18:12.41,0:18:17.11,DCMain,KOGORO,0000,0000,0000,,And that the time of the crime \Nwas 8 PM on Friday night.
+Dialogue: 0,0:18:17.75,0:18:18.57,DCMain,KOGORO,0000,0000,0000,,In other words,
+Dialogue: 0,0:18:18.92,0:18:23.72,DCMain,KOGORO,0000,0000,0000,,even though you were the one person who \Nknew Hirose-san couldn't have done it,
+Dialogue: 0,0:18:23.72,0:18:25.62,DCMain,KOGORO,0000,0000,0000,,you didn't come forward.
+Dialogue: 0,0:18:25.98,0:18:28.72,DCMain,MATSU,0000,0000,0000,,I was just thinking about doing it.
+Dialogue: 0,0:18:28.72,0:18:29.78,DCMain,JUNKO,0000,0000,0000,,You're lying!
+Dialogue: 0,0:18:31.66,0:18:34.44,DCMain,JUNKO,0000,0000,0000,,You would never give up
+Dialogue: 0,0:18:34.44,0:18:38.23,DCMain,JUNKO,0000,0000,0000,,the golden ticket you got your hands on!
+Dialogue: 0,0:18:39.28,0:18:42.37,DCMain,KOGORO,0000,0000,0000,,Your other goal for killing Katsui
+Dialogue: 0,0:18:42.71,0:18:44.21,DCMain,KOGORO,0000,0000,0000,,was to make Matsubayashi-san feel
+Dialogue: 0,0:18:44.21,0:18:49.77,DCMain,KOGORO,0000,0000,0000,,as though he allowed an \Ninnocent woman to fall.
+Dialogue: 0,0:18:51.84,0:18:53.80,DCMain,KOGORO,0000,0000,0000,,Since Hirose-san is a first-time offender,
+Dialogue: 0,0:18:53.80,0:18:55.71,DCMain,KOGORO,0000,0000,0000,,considering her motive,
+Dialogue: 0,0:18:55.71,0:18:58.95,DCMain,KOGORO,0000,0000,0000,,she would've gotten out in a \Nrelatively short amount of time.
+Dialogue: 0,0:18:59.44,0:19:00.91,DCMain,KOGORO,0000,0000,0000,,And then...
+Dialogue: 0,0:19:01.83,0:19:05.19,DCItalic,JUNKO,0000,0000,0000,,How could you let me fall \Nwhen I was innocent?
+Dialogue: 0,0:19:06.28,0:19:08.90,DCItalic,JUNKO,0000,0000,0000,,How could you let me fall?
+Dialogue: 0,0:19:12.14,0:19:14.86,DCItalic,WIFE,0000,0000,0000,,Honey, who is that?
+Dialogue: 0,0:19:15.30,0:19:17.46,DCItalic,WIFE,0000,0000,0000,,What does she mean by "fall?"
+Dialogue: 0,0:19:22.35,0:19:25.82,DCMain,KOGORO,0000,0000,0000,,The reason you made us believe the \Nmurder was committed at eight
+Dialogue: 0,0:19:25.82,0:19:28.93,DCMain,KOGORO,0000,0000,0000,,was so you could send Matsubayashi-san,
+Dialogue: 0,0:19:29.46,0:19:31.82,DCMain,KOGORO,0000,0000,0000,,the selfish man who dumped \Nyou, one last gift.
+Dialogue: 0,0:19:32.30,0:19:33.97,DCMain,KOGORO,0000,0000,0000,,One full of hate.
+Dialogue: 0,0:19:37.41,0:19:40.60,DCMain,KOGORO,0000,0000,0000,,Your only miscalculation \Nwas the appearance
+Dialogue: 0,0:19:41.05,0:19:42.95,DCMain,KOGORO,0000,0000,0000,,of a second person who \Ncould verify your alibi.
+Dialogue: 0,0:19:43.43,0:19:45.64,DCMain,KOGORO,0000,0000,0000,,That was why you were surprised.
+Dialogue: 0,0:19:46.04,0:19:47.54,DCMain,KOGORO,0000,0000,0000,,Then perplexed,
+Dialogue: 0,0:19:48.02,0:19:49.04,DCMain,KOGORO,0000,0000,0000,,then thoughtful.
+Dialogue: 0,0:19:49.44,0:19:52.96,DCMain,KOGORO,0000,0000,0000,,You were considering how \Nto handle my testimony.
+Dialogue: 0,0:19:52.96,0:19:55.79,DCMain,KOGORO,0000,0000,0000,,Then you happily latched onto it.
+Dialogue: 0,0:19:57.93,0:20:00.98,DCMain,KOGORO,0000,0000,0000,,Though you'd be unable to get \Nyour revenge on Matsubayashi-san,
+Dialogue: 0,0:20:01.27,0:20:05.09,DCMain,KOGORO,0000,0000,0000,,you could avoid becoming a murder suspect.
+Dialogue: 0,0:20:05.79,0:20:07.58,DCMain,JUNKO,0000,0000,0000,,This is all speculation.
+Dialogue: 0,0:20:08.01,0:20:12.10,DCMain,JUNKO,0000,0000,0000,,I haven't seen Katsui in years.
+Dialogue: 0,0:20:12.49,0:20:15.09,DCMain,KOGORO,0000,0000,0000,,Where were you that night between 7:20,
+Dialogue: 0,0:20:15.09,0:20:17.25,DCMain,KOGORO,0000,0000,0000,,when Katsui arrived in Tonkoro City,
+Dialogue: 0,0:20:17.25,0:20:21.61,DCMain,KOGORO,0000,0000,0000,,and nine when he was murdered?
+Dialogue: 0,0:20:23.14,0:20:26.24,DCMain,KOGORO,0000,0000,0000,,Because you wanted us to believe \Nhe was killed at eight,
+Dialogue: 0,0:20:26.52,0:20:30.56,DCMain,KOGORO,0000,0000,0000,,you couldn't let Katsui be seen by anyone.
+Dialogue: 0,0:20:31.56,0:20:34.11,DCMain,KOGORO,0000,0000,0000,,And the safest place to hide him
+Dialogue: 0,0:20:35.03,0:20:36.50,DCMain,KOGORO,0000,0000,0000,,was in your home.
+Dialogue: 0,0:20:40.98,0:20:42.51,DCItalic,KATSUI,0000,0000,0000,,She's late.
+Dialogue: 0,0:20:43.02,0:20:45.51,DCMain,KOGORO,0000,0000,0000,,Detective Takagi, please \Nexplain the situation.
+Dialogue: 0,0:20:45.90,0:20:49.52,DCMain,TAKAGI,0000,0000,0000,,Inside this plastic bag \Nwere ten cigarette butts
+Dialogue: 0,0:20:49.52,0:20:53.06,DCMain,TAKAGI,0000,0000,0000,,and a box containing ten unsmoked cigarettes.
+Dialogue: 0,0:20:53.06,0:20:55.52,DCMain,TAKAGI,0000,0000,0000,,Katsui's fingerprints were \Nfound on all of them.
+Dialogue: 0,0:20:55.76,0:21:00.53,DCMain,TAKAGI,0000,0000,0000,,And we found Hirose Junko-san's \Nfingerprints on this bag.
+Dialogue: 0,0:21:04.14,0:21:06.74,DCMain,KOGORO,0000,0000,0000,,In other words, Katsui \Nwas waiting in your home
+Dialogue: 0,0:21:07.08,0:21:09.16,DCMain,KOGORO,0000,0000,0000,,for you to return.
+Dialogue: 0,0:21:15.08,0:21:17.65,DCMain,JUNKO,0000,0000,0000,,So he could be killed by me.
+Dialogue: 0,0:21:18.16,0:21:20.55,DCMain,JUNKO,0000,0000,0000,,And I meant to use his murder to take revenge
+Dialogue: 0,0:21:20.94,0:21:23.30,DCMain,JUNKO,0000,0000,0000,,for the betrayal at the hands
+Dialogue: 0,0:21:23.30,0:21:27.70,DCMain,JUNKO,0000,0000,0000,,of the man I loved and trusted.
+Dialogue: 0,0:21:27.70,0:21:29.05,DCMain,JUNKO,0000,0000,0000,,You're right.
+Dialogue: 0,0:21:29.64,0:21:34.00,DCMain,MEGURE,0000,0000,0000,,Hirose Junko-san, could \Nyou come with us, please?
+Dialogue: 0,0:21:35.19,0:21:36.77,DCMain,MATSU,0000,0000,0000,,What a stupid woman.
+Dialogue: 0,0:21:36.77,0:21:39.78,DCMain,KOGORO,0000,0000,0000,,Should you be laughing, Matsubayashi-san?
+Dialogue: 0,0:21:41.09,0:21:44.98,DCMain,KOGORO,0000,0000,0000,,When the details of Hirose-san's \Ncrime are reported,
+Dialogue: 0,0:21:44.98,0:21:48.99,DCMain,KOGORO,0000,0000,0000,,what will your fiancée and \Nher father think of you?
+Dialogue: 0,0:23:14.95,0:23:17.70,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:23:15.94,0:23:18.78,DCItalic,ANNOUNCE,0000,0000,0000,,Suspect Hirose Junko-san has \Nbeen arrested once again,
+Dialogue: 0,0:23:18.78,0:23:21.03,DCItalic,ANNOUNCE,0000,0000,0000,,and confessed to her crime.
+Dialogue: 0,0:23:22.46,0:23:25.64,DCMain,RAN,0000,0000,0000,,You were right, Conan-kun.
+Dialogue: 0,0:23:25.64,0:23:26.96,DCMain,CONAN,0000,0000,0000,,It was just a coincidence.
+Dialogue: 0,0:23:27.54,0:23:28.70,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:23:28.70,0:23:31.11,DCMain,KOGORO,0000,0000,0000,,His idea just happened to be right.
+Dialogue: 0,0:23:31.11,0:23:33.17,DCMain,KOGORO,0000,0000,0000,,The difference between his reasoning \Nand mine is night and day.
+Dialogue: 0,0:23:33.17,0:23:34.49,DCMain,KOGORO,0000,0000,0000,,Chalk and cheese.
+Dialogue: 0,0:23:34.49,0:23:36.59,DCMain,KOGORO,0000,0000,0000,,Totally different.
+Dialogue: 0,0:23:38.29,0:23:42.74,DCMain,KOGORO,0000,0000,0000,,Totally different! Totally different!
+Dialogue: 0,0:23:40.13,0:23:43.28,DCItalic,CONAN,0000,0000,0000,,{\an8}Jeez, this old man...
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:51.80,0:23:53.36,DCMain,TAKAGI,0000,0000,0000,,Are you hurt?
+Dialogue: 0,0:23:57.21,0:23:58.12,DCMain,KIKUCHI,0000,0000,0000,,Tsutsumi?
+Dialogue: 0,0:23:58.40,0:24:01.37,DCMain,CONAN,0000,0000,0000,,Hey, where did they find the will?
+Dialogue: 0,0:24:02.52,0:24:04.16,DCMain,TAKAGI,0000,0000,0000,,The ambulance crew
+Dialogue: 0,0:24:04.16,0:24:07.50,DCMain,TAKAGI,0000,0000,0000,,found it in Tsutsumi-san's jacket pocket.
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,The Rainy Bus Stop
+Dialogue: 0,0:24:09.82,0:24:13.36,DCMain,CONAN,0000,0000,0000,,The next episode of Conan \Nis "The Rainy Bus Stop!"
+Dialogue: 0,0:24:30.03,0:24:35.03,Hint,TEXT,0000,0000,0000,,Umbrella
+Dialogue: 0,0:24:30.52,0:24:33.41,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.41,0:24:34.68,DCMain,CONAN,0000,0000,0000,,An umbrella!
+Dialogue: 0,0:24:35.03,0:24:38.11,DCMain,KOGORO,0000,0000,0000,,{\an8}What? I can't take a bath when \NI got soaked in the rain?
+Dialogue: 0,0:24:35.03,0:24:40.04,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:38.11,0:24:39.72,DCMain,BOTH,0000,0000,0000,,{\an8}That's not what that means.
+Dialogue: 0,0:24:39.72,0:24:41.72,DCMain,,0000,0000,0000,,

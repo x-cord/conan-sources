@@ -1,0 +1,392 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0015,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Lost,Trebuchet MS,22,&H003C2E9F,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0015,0015,0015,0
+Style: Nyan,Trebuchet MS,20,&H00AE9035,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0010,0010,0040,0
+Style: Responds,Trebuchet MS,18,&H00191917,&H000000FF,&H00EEEEEE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0010,0010,0070,0
+Style: Yoshie,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AC837C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0235,0010,0068,0
+Style: Makio,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A55380,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0380,0010,0068,0
+Style: Takumi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00BC544C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0255,0068,0
+Style: Seiichi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00852C3A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0068,0
+Style: Saki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A22E36,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0090,0068,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:09.48,0:00:11.99,Lost,TEXT,0000,0000,0000,,Lost!
+Dialogue: 0,0:00:09.48,0:00:11.99,Nyan,TEXT,0000,0000,0000,,Nyan-chan (Male)
+Dialogue: 0,0:00:09.48,0:00:11.99,Responds,TEXT,0000,0000,0000,,Responds when meowed at \N*Reward*
+Dialogue: 0,0:00:12.01,0:00:14.24,DCMain,WOMAN,0000,0000,0000,,Oh, Nyan-chan.
+Dialogue: 0,0:00:14.24,0:00:16.43,DCMain,WOMAN,0000,0000,0000,,You've lost so much weight.
+Dialogue: 0,0:00:16.43,0:00:18.74,DCMain,WOMAN,0000,0000,0000,,Thank you so much.
+Dialogue: 0,0:00:17.62,0:00:18.74,DCMain,KOGORO,0000,0000,0000,,No problem.
+Dialogue: 0,0:00:21.80,0:00:23.09,DCMain,KOGORO,0000,0000,0000,,Sheesh.
+Dialogue: 0,0:00:23.09,0:00:27.50,DCMain,KOGORO,0000,0000,0000,,Why does a famous detective like \Nmyself have to look for lost cats?
+Dialogue: 0,0:00:27.50,0:00:28.57,DCMain,CONAN,0000,0000,0000,,It's not so bad.
+Dialogue: 0,0:00:28.57,0:00:31.10,DCMain,CONAN,0000,0000,0000,,Besides, you earned a lot in rewards.
+Dialogue: 0,0:00:32.07,0:00:33.01,DCMain,KOGORO,0000,0000,0000,,Yeah, I guess.
+Dialogue: 0,0:00:33.32,0:00:37.15,DCMain,CONAN,0000,0000,0000,,Let's use that money to \Nget something good to eat.
+Dialogue: 0,0:00:38.05,0:00:42.11,DCMain,KOGORO,0000,0000,0000,,Ah. So, that's why you\Ntagged along, isn't it?
+Dialogue: 0,0:00:44.11,0:00:46.34,DCMain,KOGORO,0000,0000,0000,,It's past noon.
+Dialogue: 0,0:00:46.34,0:00:47.77,DCMain,KOGORO,0000,0000,0000,,Let's go to a family restaurant.
+Dialogue: 0,0:00:48.09,0:00:50.27,DCMain,CONAN,0000,0000,0000,,Let's go someplace better.
+Dialogue: 0,0:00:50.53,0:00:53.11,DCMain,KOGORO,0000,0000,0000,,Yeah, when I'm by myself.
+Dialogue: 0,0:00:53.11,0:00:53.78,DCMain,CONAN,0000,0000,0000,,Cheapskate.
+Dialogue: 0,0:00:54.06,0:00:55.06,DCMain,KOGORO,0000,0000,0000,,Did you say something?
+Dialogue: 0,0:00:55.06,0:00:56.85,DCMain,CONAN,0000,0000,0000,,No, nothing.
+Dialogue: 0,0:00:59.32,0:01:01.13,DCMain,CONAN,0000,0000,0000,,That came from downstairs.
+Dialogue: 0,0:01:01.13,0:01:01.96,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:01:09.47,0:01:10.88,DCMain,KOGORO,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:01:10.88,0:01:13.28,DCMain,YOSHIE,0000,0000,0000,,Th-The apartment's been ransacked,
+Dialogue: 0,0:01:13.28,0:01:14.67,DCMain,YOSHIE,0000,0000,0000,,and there's blood on the floor.
+Dialogue: 0,0:01:15.31,0:01:16.42,DCMain,KOGORO,0000,0000,0000,,Have you gone inside?
+Dialogue: 0,0:01:16.42,0:01:18.47,DCMain,YOSHIE,0000,0000,0000,,We were too scared to.
+Dialogue: 0,0:01:19.10,0:01:20.18,DCMain,KOGORO,0000,0000,0000,,Got it.
+Dialogue: 0,0:01:20.61,0:01:23.24,DCMain,KOGORO,0000,0000,0000,,All right. You all stay here.
+Dialogue: 0,0:01:23.24,0:01:25.14,DCMain,KOGORO,0000,0000,0000,,I'll go check things out.
+Dialogue: 0,0:01:38.10,0:01:38.97,DCMain,KOGORO,0000,0000,0000,,It's no use.
+Dialogue: 0,0:01:38.97,0:01:40.05,DCMain,KOGORO,0000,0000,0000,,He's dead.
+Dialogue: 0,0:01:41.13,0:01:43.45,DCMain,KOGORO,0000,0000,0000,,Excuse me, but could you call the police?
+Dialogue: 0,0:01:44.78,0:01:45.76,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:01:45.76,0:01:47.58,DCMain,CONAN,0000,0000,0000,,Where did the other woman go?
+Dialogue: 0,0:01:49.71,0:01:50.78,DCMain,MAIKO,0000,0000,0000,,Saki!
+Dialogue: 0,0:02:03.23,0:02:03.76,DCMain,MAIKO,0000,0000,0000,,Saki!
+Dialogue: 0,0:02:04.12,0:02:04.72,DCMain,KOGORO,0000,0000,0000,,Wait!
+Dialogue: 0,0:02:07.85,0:02:08.85,DCMain,MAIKO,0000,0000,0000,,Saki!
+Dialogue: 0,0:02:12.93,0:02:15.57,DCMain,MAIKO,0000,0000,0000,,Saki, open your eyes!
+Dialogue: 0,0:02:16.17,0:02:18.57,DCMain,KOGORO,0000,0000,0000,,Miss, stand back.
+Dialogue: 0,0:02:21.23,0:02:22.24,DCMain,KOGORO,0000,0000,0000,,She's gone.
+Dialogue: 0,0:02:23.09,0:02:24.31,DCMain,MAIKO,0000,0000,0000,,No...
+Dialogue: 0,0:02:40.40,0:02:42.28,DCMain,CONAN,0000,0000,0000,,Even heaven is watching the \Nlabyrinths of the world!
+Dialogue: 0,0:02:42.28,0:02:44.10,DCMain,CONAN,0000,0000,0000,,Full throttle reasoning skills \Npenetrate all mysteries!
+Dialogue: 0,0:02:44.58,0:02:46.39,DCMain,CONAN,0000,0000,0000,,Two victims within the first two minutes.
+Dialogue: 0,0:02:46.60,0:02:48.64,DCMain,CONAN,0000,0000,0000,,The trick behind the case defies imagination.
+Dialogue: 0,0:02:48.64,0:02:50.52,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:50.52,0:02:52.58,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:52.58,0:02:54.52,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:23.99,0:04:29.99,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(399,1)}The Socialite Couple's Secret
+Dialogue: 0,0:04:24.65,0:04:27.06,DCMain,CONAN,0000,0000,0000,,"The Socialite Couple's Secret!"
+Dialogue: 0,0:04:40.01,0:04:41.33,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:04:41.33,0:04:44.43,DCMain,MEGURE,0000,0000,0000,,You thought something seemed \Nwrong from the entryway.
+Dialogue: 0,0:04:44.43,0:04:48.90,DCMain,MEGURE,0000,0000,0000,,Just as you were about to call \Nthe police, he came running up.
+Dialogue: 0,0:04:48.90,0:04:50.43,DCMain,YOSHIE,0000,0000,0000,,Yes, that's right.
+Dialogue: 0,0:04:50.78,0:04:54.83,DCMain,KOGORO,0000,0000,0000,,The kid and I entered the \Napartment to check things out,
+Dialogue: 0,0:04:55.23,0:04:58.94,DCMain,KOGORO,0000,0000,0000,,and found a dead man in the living room.
+Dialogue: 0,0:05:00.54,0:05:05.86,DCMain,MEGURE,0000,0000,0000,,Then you found the dead woman in \Nthe bedroom and called the police.
+Dialogue: 0,0:05:06.16,0:05:08.49,DCMain,KOGORO,0000,0000,0000,,Yes, that's right.
+Dialogue: 0,0:05:09.65,0:05:14.50,DCMain,MEGURE,0000,0000,0000,,Why did all of you come to this apartment?
+Dialogue: 0,0:05:14.69,0:05:20.99,DCMain,YOSHIE,0000,0000,0000,,{\an8}I came because they asked me to \Nunlock the door to this apartment.
+Dialogue: 0,0:05:14.75,0:05:20.54,Yoshie,TEXT,0000,0000,0000,,{\fad(250,250)}Hayashi Yoshie (62) \NApartment Manager
+Dialogue: 0,0:05:20.99,0:05:22.12,DCMain,YOSHIE,0000,0000,0000,,See?
+Dialogue: 0,0:05:22.12,0:05:25.32,DCMain,TAKUMI,0000,0000,0000,,{\an8}I was hired asked to pick up a package,
+Dialogue: 0,0:05:23.67,0:05:31.81,Makio,TEXT,0000,0000,0000,,{\fad(250,250)}Hori Maiko (28) \NSaki's Friend
+Dialogue: 0,0:05:23.67,0:05:31.81,Takumi,TEXT,0000,0000,0000,,{\fad(250,250)}Matsuda Takumi (23) \NDeliveryman
+Dialogue: 0,0:05:25.32,0:05:27.18,DCMain,TAKUMI,0000,0000,0000,,{\an8}so I came to get it.
+Dialogue: 0,0:05:27.18,0:05:31.11,DCMain,MAIKO,0000,0000,0000,,{\an8}I had plans to go shopping with Saki.
+Dialogue: 0,0:05:31.11,0:05:34.52,DCMain,MAIKO,0000,0000,0000,,{\an8}She didn't show up on time, \Nso I came to get her.
+Dialogue: 0,0:05:34.76,0:05:36.19,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:05:36.19,0:05:37.54,DCMain,TAKAGI,0000,0000,0000,,Inspector Megure.
+Dialogue: 0,0:05:37.54,0:05:39.02,DCMain,MEGURE,0000,0000,0000,,Ah, good work.
+Dialogue: 0,0:05:39.02,0:05:40.44,DCMain,MEGURE,0000,0000,0000,,How did it go?
+Dialogue: 0,0:05:40.85,0:05:43.81,DCMain,TAKAGI,0000,0000,0000,,All the neighbors are out,
+Dialogue: 0,0:05:43.81,0:05:48.19,DCMain,TAKAGI,0000,0000,0000,,so we haven't been able to collect \Nany useful eyewitness information.
+Dialogue: 0,0:05:48.19,0:05:52.95,DCMain,TAKAGI,0000,0000,0000,,But we did discover that all the cash \Ncards and valuables are missing.
+Dialogue: 0,0:05:53.56,0:05:55.29,DCMain,KOGORO,0000,0000,0000,,Based on the ransacked state of the room,
+Dialogue: 0,0:05:55.29,0:05:58.97,DCMain,KOGORO,0000,0000,0000,,it's likely this was a robbery.
+Dialogue: 0,0:05:59.37,0:06:01.71,DCMain,MEGURE,0000,0000,0000,,Who were the victims?
+Dialogue: 0,0:06:01.96,0:06:07.93,Seiichi,TEXT,0000,0000,0000,,{\fad(250,250)}Maehara Seiichi (32) \NDay Trader
+Dialogue: 0,0:06:02.02,0:06:06.38,DCMain,TAKAGI,0000,0000,0000,,{\an8}The man in the living room was \NMaehara Seiichi-san, thirty-two years old.
+Dialogue: 0,0:06:06.38,0:06:10.66,DCMain,TAKAGI,0000,0000,0000,,{\an8}He was a day trader who invested in stocks.
+Dialogue: 0,0:06:10.66,0:06:15.20,DCMain,TAKAGI,0000,0000,0000,,He was stabbed multiple times \Nin the chest with a sharp blade.
+Dialogue: 0,0:06:15.20,0:06:18.47,DCMain,TAKAGI,0000,0000,0000,,We believe he died of blood loss.
+Dialogue: 0,0:06:19.38,0:06:22.09,DCMain,TAKAGI,0000,0000,0000,,He seems to have made a lot \Nof money from stocks recently,
+Dialogue: 0,0:06:22.09,0:06:25.99,DCMain,TAKAGI,0000,0000,0000,,and transferred several million \Nyen into his bank account.
+Dialogue: 0,0:06:25.99,0:06:29.11,DCMain,TAKAGI,0000,0000,0000,,We've already confirmed this \Ninformation with his brokerage firm.
+Dialogue: 0,0:06:29.42,0:06:32.28,DCMain,KOGORO,0000,0000,0000,,Was the culprit after that money?
+Dialogue: 0,0:06:32.52,0:06:34.42,DCMain,MEGURE,0000,0000,0000,,Probably.
+Dialogue: 0,0:06:34.88,0:06:37.54,DCMain,MEGURE,0000,0000,0000,,What about the woman in the bedroom?
+Dialogue: 0,0:06:37.79,0:06:44.17,Saki,TEXT,0000,0000,0000,,{\fad(250,250)}Maehara Saki (29) \NSeiichi's Wife
+Dialogue: 0,0:06:38.32,0:06:42.94,DCMain,TAKAGI,0000,0000,0000,,{\an8}She was Seiichi-san's wife, \NMaehara Saki-san, twenty-nine years old.
+Dialogue: 0,0:06:42.94,0:06:44.29,DCMain,TAKAGI,0000,0000,0000,,{\an8}She was a housewife.
+Dialogue: 0,0:06:44.79,0:06:49.05,DCMain,TAKAGI,0000,0000,0000,,We believe she was smothered to death.
+Dialogue: 0,0:06:49.33,0:06:51.66,DCMain,MEGURE,0000,0000,0000,,When did they die?
+Dialogue: 0,0:06:51.66,0:06:54.16,DCMain,TAKAGI,0000,0000,0000,,We believe Seiichi-san died around 11:00 AM,
+Dialogue: 0,0:06:54.16,0:06:58.55,DCMain,TAKAGI,0000,0000,0000,,and his wife Saki-san died around 12:30 PM.
+Dialogue: 0,0:06:58.55,0:06:59.73,DCMain,CHIBA,0000,0000,0000,,Inspector Megure!
+Dialogue: 0,0:07:01.63,0:07:05.44,DCMain,CHIBA,0000,0000,0000,,The building's security cameras \Ncaptured a suspicious figure,
+Dialogue: 0,0:07:05.44,0:07:10.07,DCMain,CHIBA,0000,0000,0000,,thought to be the culprit, entering and \Nexiting the building around 11:00 AM.
+Dialogue: 0,0:07:10.38,0:07:11.36,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:07:11.79,0:07:14.04,DCMain,CHIBA,0000,0000,0000,,These are photos of the individual.
+Dialogue: 0,0:07:16.59,0:07:20.00,DCMain,MEGURE,0000,0000,0000,,We can't see their face under that disguise.
+Dialogue: 0,0:07:20.29,0:07:23.25,DCMain,MEGURE,0000,0000,0000,,Does anyone recognize this person?
+Dialogue: 0,0:07:23.25,0:07:24.66,DCMain,ALL,0000,0000,0000,,No.
+Dialogue: 0,0:07:24.66,0:07:26.00,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:07:26.32,0:07:29.28,DCMain,CHIBA,0000,0000,0000,,There's also something else \Nthat caught my attention.
+Dialogue: 0,0:07:29.28,0:07:32.88,DCMain,CHIBA,0000,0000,0000,,The camera in the emergency \Nstaircase was broken.
+Dialogue: 0,0:07:32.88,0:07:34.65,DCMain,MEGURE,0000,0000,0000,,The emergency staircase?
+Dialogue: 0,0:07:34.65,0:07:35.43,DCMain,CHIBA,0000,0000,0000,,Yes.
+Dialogue: 0,0:07:35.78,0:07:39.43,DCMain,YOSHIE,0000,0000,0000,,That was broken two days ago.
+Dialogue: 0,0:07:39.43,0:07:41.99,DCMain,YOSHIE,0000,0000,0000,,It was a nasty prank.
+Dialogue: 0,0:07:41.99,0:07:43.19,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:07:43.42,0:07:48.65,DCMain,KOGORO,0000,0000,0000,,But since that person entering and exiting \Nthe building was caught on camera,
+Dialogue: 0,0:07:49.02,0:07:51.95,DCMain,KOGORO,0000,0000,0000,,the incidents are likely unrelated.
+Dialogue: 0,0:07:53.48,0:07:56.63,DCMain,MEGURE,0000,0000,0000,,In any case, it's almost \Ncertain that this person
+Dialogue: 0,0:07:56.63,0:07:58.95,DCMain,MEGURE,0000,0000,0000,,was involved in the murder \Nof the Maehara couple.
+Dialogue: 0,0:07:59.47,0:08:01.04,DCMain,MEGURE,0000,0000,0000,,Call for an emergency deployment,
+Dialogue: 0,0:08:01.04,0:08:03.92,DCMain,MEGURE,0000,0000,0000,,and do everything you can to find them.
+Dialogue: 0,0:08:03.92,0:08:04.71,DCMain,BOTH,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:08:26.52,0:08:29.05,DCMain,KOGORO,0000,0000,0000,,There you are.
+Dialogue: 0,0:08:29.05,0:08:30.26,DCMain,KOGORO,0000,0000,0000,,We're leaving.
+Dialogue: 0,0:08:30.26,0:08:32.16,DCMain,CONAN,0000,0000,0000,,Already?
+Dialogue: 0,0:08:32.16,0:08:34.74,DCMain,KOGORO,0000,0000,0000,,All that's left is for the \Npolice to find the culprit,
+Dialogue: 0,0:08:34.74,0:08:36.43,DCMain,KOGORO,0000,0000,0000,,and arrest him.
+Dialogue: 0,0:08:36.43,0:08:38.18,DCMain,KOGORO,0000,0000,0000,,There's no need for a detective here.
+Dialogue: 0,0:08:38.67,0:08:39.62,DCMain,CONAN,0000,0000,0000,,Okay...
+Dialogue: 0,0:08:42.25,0:08:45.26,DCMain,KOGORO,0000,0000,0000,,Inspector, we'll be leaving now.
+Dialogue: 0,0:08:45.26,0:08:47.03,DCMain,MEGURE,0000,0000,0000,,Thanks for your help.
+Dialogue: 0,0:08:47.48,0:08:48.44,DCMain,CHIBA,0000,0000,0000,,Inspector Megure.
+Dialogue: 0,0:08:48.44,0:08:49.63,DCMain,MEGURE,0000,0000,0000,,What is it?
+Dialogue: 0,0:08:50.10,0:08:52.75,DCMain,CHIBA,0000,0000,0000,,Forensics found this.
+Dialogue: 0,0:08:55.94,0:08:57.78,DCMain,MEGURE,0000,0000,0000,,Th-This is...
+Dialogue: 0,0:08:58.37,0:09:00.20,DCMain,CHIBA,0000,0000,0000,,There's blood on it.
+Dialogue: 0,0:09:00.63,0:09:03.14,DCMain,CHIBA,0000,0000,0000,,I think we can assume it was \Nused to commit the crime.
+Dialogue: 0,0:09:03.58,0:09:06.65,DCMain,CONAN,0000,0000,0000,,Detective Chiba, where did you find this?
+Dialogue: 0,0:09:07.01,0:09:10.07,DCMain,CHIBA,0000,0000,0000,,In this apartment's dumpster.
+Dialogue: 0,0:09:10.40,0:09:11.14,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:09:16.36,0:09:17.72,DCMain,MAIKO,0000,0000,0000,,You're lying!
+Dialogue: 0,0:09:17.72,0:09:19.45,DCMain,MAIKO,0000,0000,0000,,I refuse to believe that!
+Dialogue: 0,0:09:19.77,0:09:22.38,DCMain,MEGURE,0000,0000,0000,,Now, now. Calm down.
+Dialogue: 0,0:09:24.03,0:09:26.89,DCMain,MEGURE,0000,0000,0000,,According to detectives canvassing the area,
+Dialogue: 0,0:09:26.89,0:09:29.53,DCMain,MEGURE,0000,0000,0000,,they were able to confirm that the \Nclothes worn during the murder
+Dialogue: 0,0:09:29.53,0:09:34.17,DCMain,MEGURE,0000,0000,0000,,were purchased by Saki-san \Nat a nearby hardware store.
+Dialogue: 0,0:09:34.60,0:09:35.76,DCMain,MAIKO,0000,0000,0000,,No...
+Dialogue: 0,0:09:35.76,0:09:37.48,DCMain,YOSHIE,0000,0000,0000,,That's hard to believe.
+Dialogue: 0,0:09:37.48,0:09:39.93,DCMain,MAIKO,0000,0000,0000,,Saki would never something like that!
+Dialogue: 0,0:09:40.53,0:09:43.52,DCMain,CHIBA,0000,0000,0000,,I understand how you feel,
+Dialogue: 0,0:09:43.52,0:09:48.44,DCMain,CHIBA,0000,0000,0000,,but the hairs collected from inside \Nthe knit hat matched Saki-san's.
+Dialogue: 0,0:09:48.67,0:09:50.95,DCMain,MEGURE,0000,0000,0000,,In other words, it was all a sham.
+Dialogue: 0,0:09:50.95,0:09:52.56,DCMain,MEGURE,0000,0000,0000,,A premeditated murder,
+Dialogue: 0,0:09:52.56,0:09:57.45,DCMain,MEGURE,0000,0000,0000,,using the security cameras carried \Nout by the late Saki-san.
+Dialogue: 0,0:09:57.68,0:10:02.83,DCMain,TAKAGI,0000,0000,0000,,This explains why the camera in the \Nemergency staircase was broken.
+Dialogue: 0,0:10:03.99,0:10:05.65,DCMain,YOSHIE,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:10:05.65,0:10:08.92,DCMain,MEGURE,0000,0000,0000,,After disguising herself as the \Nrobber and leaving the building,
+Dialogue: 0,0:10:08.92,0:10:11.16,DCMain,MEGURE,0000,0000,0000,,she threw away the evidence \Nin the dumpster.
+Dialogue: 0,0:10:11.16,0:10:12.84,DCMain,MEGURE,0000,0000,0000,,In order to return to the apartment,
+Dialogue: 0,0:10:12.84,0:10:16.34,DCMain,MEGURE,0000,0000,0000,,she needed a path unmonitored \Nby security cameras.
+Dialogue: 0,0:10:33.20,0:10:36.74,DCMain,TAKAGI,0000,0000,0000,,Then how was she suffocated?
+Dialogue: 0,0:10:36.74,0:10:39.74,DCMain,MEGURE,0000,0000,0000,,There wasn't anything \Nparticularly strange about it.
+Dialogue: 0,0:10:39.74,0:10:42.13,DCMain,MEGURE,0000,0000,0000,,She probably intended to \Npretend to be a victim,
+Dialogue: 0,0:10:42.13,0:10:43.74,DCMain,MEGURE,0000,0000,0000,,but accidentally killed herself.
+Dialogue: 0,0:10:46.34,0:10:50.92,DCMain,MEGURE,0000,0000,0000,,She bound her own arms and \Nlegs and entered the closet,
+Dialogue: 0,0:10:51.48,0:10:55.13,DCMain,MEGURE,0000,0000,0000,,but the clothes were so heavy \Nshe became unable to breathe.
+Dialogue: 0,0:10:55.91,0:10:58.44,DCMain,KOGORO,0000,0000,0000,,So it was an unfortunate accident.
+Dialogue: 0,0:10:58.44,0:11:03.26,DCMain,KOGORO,0000,0000,0000,,Although the truly unfortunate one \Nis the man killed by his wife.
+Dialogue: 0,0:11:04.29,0:11:08.31,DCMain,MAIKO,0000,0000,0000,,Saki, this can't be true...
+Dialogue: 0,0:11:10.51,0:11:13.74,DCMain,KOGORO,0000,0000,0000,,You were called here by her,
+Dialogue: 0,0:11:13.74,0:11:16.02,DCMain,KOGORO,0000,0000,0000,,so you would discover the crime.
+Dialogue: 0,0:11:16.31,0:11:17.29,DCMain,TAKUMI,0000,0000,0000,,Me?
+Dialogue: 0,0:11:17.74,0:11:19.22,DCMain,MAIKO,0000,0000,0000,,No...
+Dialogue: 0,0:11:37.90,0:11:38.95,DCItalic,MAIKO,0000,0000,0000,,Saki!
+Dialogue: 0,0:11:42.64,0:11:45.68,DCItalic,MAIKO,0000,0000,0000,,Saki, open your eyes!
+Dialogue: 0,0:11:48.34,0:11:50.49,DCMain,KOGORO,0000,0000,0000,,Here again?
+Dialogue: 0,0:11:50.49,0:11:51.94,DCMain,KOGORO,0000,0000,0000,,We're really leaving this time.
+Dialogue: 0,0:11:52.19,0:11:55.33,DCMain,KOGORO,0000,0000,0000,,We missed lunch.
+Dialogue: 0,0:11:57.15,0:11:58.90,DCMain,KOGORO,0000,0000,0000,,I'm starving.
+Dialogue: 0,0:12:01.39,0:12:05.56,DCMain,KOGORO,0000,0000,0000,,His expensive suits are \Ngoing to get wrinkled.
+Dialogue: 0,0:12:05.56,0:12:08.41,DCMain,KOGORO,0000,0000,0000,,People can put all the effort \Nthey want into their appearances,
+Dialogue: 0,0:12:08.41,0:12:12.47,DCMain,KOGORO,0000,0000,0000,,but their true selves can always \Nbe found someplace hidden.
+Dialogue: 0,0:12:33.00,0:12:35.63,DCMain,KOGORO,0000,0000,0000,,Hey, quit messing around the crime scene!
+Dialogue: 0,0:12:36.75,0:12:38.18,DCItalic,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:12:51.74,0:12:53.06,DCMain,CHIBA,0000,0000,0000,,Inspector Megure.
+Dialogue: 0,0:12:55.36,0:12:58.22,DCMain,CHIBA,0000,0000,0000,,Inspector, according to forensics,
+Dialogue: 0,0:12:58.22,0:13:01.65,DCMain,CHIBA,0000,0000,0000,,Maehara Saki-san's fingerprints were found
+Dialogue: 0,0:13:01.65,0:13:03.97,DCMain,CHIBA,0000,0000,0000,,on the bands used to bind her.
+Dialogue: 0,0:13:04.37,0:13:06.02,DCMain,MEGURE,0000,0000,0000,,Any other fingerprints?
+Dialogue: 0,0:13:06.56,0:13:08.88,DCMain,CHIBA,0000,0000,0000,,Not on the bands.
+Dialogue: 0,0:13:08.88,0:13:12.97,DCMain,CHIBA,0000,0000,0000,,Hori Maiko-san's fingerprints \Nwere found on the tape, though.
+Dialogue: 0,0:13:13.22,0:13:14.85,DCMain,KOGORO,0000,0000,0000,,They probably got there
+Dialogue: 0,0:13:14.85,0:13:17.48,DCMain,KOGORO,0000,0000,0000,,when she tried to take off \Nthe tape when she found her.
+Dialogue: 0,0:13:17.89,0:13:19.13,DCMain,MAIKO,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:13:19.57,0:13:21.10,DCMain,MAIKO,0000,0000,0000,,I was so upset.
+Dialogue: 0,0:13:21.96,0:13:26.24,DCMain,KOGORO,0000,0000,0000,,It's clear now that she tied herself up.
+Dialogue: 0,0:13:26.44,0:13:27.73,DCMain,MAIKO,0000,0000,0000,,No way...
+Dialogue: 0,0:13:27.73,0:13:31.26,DCMain,TAKUMI,0000,0000,0000,,Uh, could I leave now?
+Dialogue: 0,0:13:31.26,0:13:33.98,DCMain,TAKUMI,0000,0000,0000,,I still have other deliveries to make.
+Dialogue: 0,0:13:34.85,0:13:37.25,DCMain,YOSHIE,0000,0000,0000,,I have work to do, too.
+Dialogue: 0,0:13:37.79,0:13:40.38,DCMain,MEGURE,0000,0000,0000,,Since we've determined the identity \Nof the culprit, that should be fine.
+Dialogue: 0,0:13:41.60,0:13:42.62,DCMain,TAKUMI,0000,0000,0000,,In that case...
+Dialogue: 0,0:13:48.90,0:13:50.14,DCMain,TAKAGI,0000,0000,0000,,Mori-san?
+Dialogue: 0,0:13:52.08,0:13:53.68,DCMain,MEGURE,0000,0000,0000,,Wh-What's gotten into you?
+Dialogue: 0,0:13:54.04,0:13:55.36,DCMain,KOGORO,0000,0000,0000,,Wait.
+Dialogue: 0,0:13:55.95,0:13:58.06,DCMain,KOGORO,0000,0000,0000,,This case hasn't been solved yet.
+Dialogue: 0,0:13:58.41,0:14:01.04,DCMain,MEGURE,0000,0000,0000,,What are you talking about? The case—
+Dialogue: 0,0:14:01.04,0:14:02.51,DCMain,KOGORO,0000,0000,0000,,It's strange.
+Dialogue: 0,0:14:03.23,0:14:04.57,DCMain,MEGURE,0000,0000,0000,,What is?
+Dialogue: 0,0:14:05.23,0:14:08.07,DCMain,KOGORO,0000,0000,0000,,Detective Chiba found the weapon
+Dialogue: 0,0:14:08.51,0:14:12.08,DCMain,KOGORO,0000,0000,0000,,used in this case in the \Napartment's dumpster.
+Dialogue: 0,0:14:12.83,0:14:15.88,DCMain,KOGORO,0000,0000,0000,,Would a culprit throw away
+Dialogue: 0,0:14:15.88,0:14:19.83,DCMain,KOGORO,0000,0000,0000,,such damning evidence in a \Nplace so easily discovered?
+Dialogue: 0,0:14:20.20,0:14:22.96,DCMain,MEGURE,0000,0000,0000,,She probably thought it would \Nbe collected right away.
+Dialogue: 0,0:14:23.31,0:14:24.93,DCMain,KOGORO,0000,0000,0000,,It's Saturday.
+Dialogue: 0,0:14:25.48,0:14:28.01,DCMain,KOGORO,0000,0000,0000,,The garbage won't be collected \Nuntil next Monday.
+Dialogue: 0,0:14:28.01,0:14:31.16,DCMain,KOGORO,0000,0000,0000,,The weapon would've been \Nleft in the dumpster
+Dialogue: 0,0:14:31.16,0:14:32.97,DCMain,KOGORO,0000,0000,0000,,for two whole days.
+Dialogue: 0,0:14:32.97,0:14:34.10,DCMain,YOSHIE,0000,0000,0000,,Yes.
+Dialogue: 0,0:14:36.15,0:14:37.22,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:14:37.22,0:14:39.60,DCMain,KOGORO,0000,0000,0000,,That's when it occurred \Nto me that she may have
+Dialogue: 0,0:14:39.60,0:14:42.11,DCMain,KOGORO,0000,0000,0000,,meant to store it there temporarily,
+Dialogue: 0,0:14:42.11,0:14:46.29,DCMain,KOGORO,0000,0000,0000,,and throw it away elsewhere later.
+Dialogue: 0,0:14:47.05,0:14:52.24,DCMain,TAKAGI,0000,0000,0000,,But it was found before she could \Nmove it, and her crime was exposed.
+Dialogue: 0,0:14:52.60,0:14:56.42,DCMain,KOGORO,0000,0000,0000,,The natural conclusion \Nto that line of reasoning
+Dialogue: 0,0:14:57.42,0:14:59.25,DCMain,KOGORO,0000,0000,0000,,is that she had an accomplice.
+Dialogue: 0,0:14:59.25,0:15:00.42,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:15:00.42,0:15:03.20,DCMain,MEGURE,0000,0000,0000,,Mori-kun, what do you mean?
+Dialogue: 0,0:15:03.20,0:15:07.30,DCMain,KOGORO,0000,0000,0000,,She must have wanted to destroy \Nthe evidence as soon as possible.
+Dialogue: 0,0:15:07.72,0:15:10.19,DCMain,KOGORO,0000,0000,0000,,However, in her scenario,
+Dialogue: 0,0:15:10.19,0:15:14.30,DCMain,KOGORO,0000,0000,0000,,she was trapped in the closet.
+Dialogue: 0,0:15:14.83,0:15:18.13,DCMain,KOGORO,0000,0000,0000,,If she was spotted disposing of \Nthe evidence someplace far away,
+Dialogue: 0,0:15:18.13,0:15:21.81,DCMain,KOGORO,0000,0000,0000,,it would've contradicted her scenario.
+Dialogue: 0,0:15:22.25,0:15:23.56,DCMain,TAKAGI,0000,0000,0000,,You're right.
+Dialogue: 0,0:15:23.56,0:15:27.36,DCMain,KOGORO,0000,0000,0000,,That's why she needed an accomplice
+Dialogue: 0,0:15:27.36,0:15:29.07,DCMain,KOGORO,0000,0000,0000,,to dispose of the evidence for her.
+Dialogue: 0,0:15:29.46,0:15:30.61,DCMain,TAKAGI,0000,0000,0000,,I see.
+Dialogue: 0,0:15:30.61,0:15:31.97,DCMain,TAKAGI,0000,0000,0000,,But, Mori-san,
+Dialogue: 0,0:15:32.51,0:15:36.20,DCMain,TAKAGI,0000,0000,0000,,the evidence was found in the \Napartment's dumpster.
+Dialogue: 0,0:15:36.59,0:15:37.29,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:15:37.76,0:15:42.23,DCMain,KOGORO,0000,0000,0000,,There was probably some trouble \Nbetween Saki-san and her accomplice.
+Dialogue: 0,0:15:42.76,0:15:45.49,DCMain,KOGORO,0000,0000,0000,,That's why the evidence remained there.
+Dialogue: 0,0:15:46.21,0:15:47.37,DCMain,TAKAGI,0000,0000,0000,,Which means...
+Dialogue: 0,0:15:48.43,0:15:51.72,DCMain,KOGORO,0000,0000,0000,,Saki-san was murdered by her accomplice.
+Dialogue: 0,0:15:55.23,0:15:59.43,DCMain,KOGORO,0000,0000,0000,,Look at the tape that was \Ncovering Saki-san's mouth.
+Dialogue: 0,0:15:59.43,0:16:02.73,DCMain,KOGORO,0000,0000,0000,,There are several lipstick marks on it.
+Dialogue: 0,0:16:03.74,0:16:10.38,DCMain,KOGORO,0000,0000,0000,,It's because Saki-san struggled when her \Naccomplice put the tape on her mouth.
+Dialogue: 0,0:16:10.95,0:16:15.92,DCMain,KOGORO,0000,0000,0000,,If she had put it on herself, \Nthere would've only been one mark.
+Dialogue: 0,0:16:17.44,0:16:18.49,DCMain,TAKAGI,0000,0000,0000,,You're right.
+Dialogue: 0,0:16:19.74,0:16:20.87,DCMain,MEGURE,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:20.87,0:16:23.87,DCMain,KOGORO,0000,0000,0000,,Furthermore, look closely at the closet.
+Dialogue: 0,0:16:26.24,0:16:28.13,DCMain,TAKAGI,0000,0000,0000,,I don't see anything \Nparticularly out of place.
+Dialogue: 0,0:16:28.57,0:16:31.83,DCMain,KOGORO,0000,0000,0000,,There are too many clothes relative \Nto the volume of the closet.
+Dialogue: 0,0:16:32.45,0:16:36.43,DCMain,KOGORO,0000,0000,0000,,The expensive suits would've \Nbecome wrinkled, ruining them.
+Dialogue: 0,0:16:39.63,0:16:41.00,DCMain,TAKAGI,0000,0000,0000,,I see.
+Dialogue: 0,0:16:41.00,0:16:42.57,DCMain,KOGORO,0000,0000,0000,,That's not all.
+Dialogue: 0,0:16:42.57,0:16:47.65,DCMain,KOGORO,0000,0000,0000,,There are even items such as t-shirts \Nthat would normally be kept in drawers.
+Dialogue: 0,0:16:47.65,0:16:51.17,DCMain,TAKAGI,0000,0000,0000,,But doesn't that vary from \Nhousehold to household?
+Dialogue: 0,0:16:51.17,0:16:54.90,DCMain,TAKAGI,0000,0000,0000,,Some people keep their t-shirts on hangers.
+Dialogue: 0,0:16:55.35,0:16:57.16,DCMain,CHIBA,0000,0000,0000,,I... do.
+Dialogue: 0,0:16:57.72,0:17:01.79,DCMain,KOGORO,0000,0000,0000,,You can tell from looking at the t-shirts and \Nother clothes that they're dirty and creased.
+Dialogue: 0,0:17:02.41,0:17:06.80,DCMain,KOGORO,0000,0000,0000,,Clothes previously worn or stored
+Dialogue: 0,0:17:06.80,0:17:11.67,DCMain,KOGORO,0000,0000,0000,,in the chest of drawers \Nwere crammed onto the rack.
+Dialogue: 0,0:17:13.14,0:17:15.07,DCMain,TAKAGI,0000,0000,0000,,You're right, Mori-san.
+Dialogue: 0,0:17:15.07,0:17:17.31,DCMain,TAKAGI,0000,0000,0000,,These clothes have been worn more than once.
+Dialogue: 0,0:17:17.31,0:17:20.21,DCMain,TAKAGI,0000,0000,0000,,I also smell cigarettes.
+Dialogue: 0,0:17:34.65,0:17:37.95,DCMain,TAKAGI,0000,0000,0000,,This must have been one \Nof the folded clothes.
+Dialogue: 0,0:17:37.95,0:17:41.33,DCMain,KOGORO,0000,0000,0000,,In order words, her accomplice camouflaged
+Dialogue: 0,0:17:41.33,0:17:43.83,DCMain,KOGORO,0000,0000,0000,,the crime scene to make \Nit look like an accident.
+Dialogue: 0,0:17:43.83,0:17:46.21,DCMain,MEGURE,0000,0000,0000,,Who was her accomplice?
+Dialogue: 0,0:17:46.88,0:17:47.86,DCMain,KOGORO,0000,0000,0000,,Maiko-san,
+Dialogue: 0,0:17:48.87,0:17:51.37,DCMain,KOGORO,0000,0000,0000,,why did you ignore my commands
+Dialogue: 0,0:17:51.37,0:17:53.16,DCMain,KOGORO,0000,0000,0000,,to stop and run to Saki-san?
+Dialogue: 0,0:17:53.16,0:17:54.08,DCMain,MAIKO,0000,0000,0000,,What?
+Dialogue: 0,0:17:54.08,0:17:56.22,DCMain,MAIKO,0000,0000,0000,,I was worried about Saki.
+Dialogue: 0,0:17:56.97,0:17:58.47,DCMain,KOGORO,0000,0000,0000,,Is that true?
+Dialogue: 0,0:17:58.79,0:17:59.94,DCMain,MAIKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:18:00.47,0:18:05.48,DCMain,KOGORO,0000,0000,0000,,Are you sure it wasn't because you had \Nto be the first to discover her body?
+Dialogue: 0,0:18:05.84,0:18:06.70,DCMain,MAIKO,0000,0000,0000,,What?
+Dialogue: 0,0:18:07.24,0:18:09.90,DCMain,MEGURE,0000,0000,0000,,Mori-kun, what do you mean?
+Dialogue: 0,0:18:10.33,0:18:13.58,DCMain,KOGORO,0000,0000,0000,,In order to disguise the \Nreason your fingerprints
+Dialogue: 0,0:18:13.58,0:18:15.49,DCMain,KOGORO,0000,0000,0000,,were on a piece of evidence, \Nyou had to be the first discoverer.
+Dialogue: 0,0:18:16.14,0:18:17.33,DCMain,KOGORO,0000,0000,0000,,Am I wrong?
+Dialogue: 0,0:18:17.90,0:18:21.48,DCMain,TAKAGI,0000,0000,0000,,Ah, the fingerprints on the tape!
+Dialogue: 0,0:18:21.48,0:18:22.19,DCMain,CHIBA,0000,0000,0000,,Oh.
+Dialogue: 0,0:18:22.19,0:18:22.91,DCMain,TAKAGI,0000,0000,0000,,That.
+Dialogue: 0,0:18:22.91,0:18:25.10,DCMain,MAIKO,0000,0000,0000,,That's just a wild accusation.
+Dialogue: 0,0:18:25.61,0:18:28.29,DCMain,MAIKO,0000,0000,0000,,I really was worried about Saki.
+Dialogue: 0,0:18:28.65,0:18:30.65,DCMain,KOGORO,0000,0000,0000,,You still refuse to admit it?
+Dialogue: 0,0:18:30.65,0:18:34.23,DCMain,KOGORO,0000,0000,0000,,Could you show us the \Ncontents of your bag, then?
+Dialogue: 0,0:18:34.23,0:18:35.09,DCMain,MAIKO,0000,0000,0000,,What?
+Dialogue: 0,0:18:35.50,0:18:37.06,DCMain,MAIKO,0000,0000,0000,,Why do you need to see inside my bag?
+Dialogue: 0,0:18:38.01,0:18:41.45,DCMain,KOGORO,0000,0000,0000,,Saki-san must've hidden \Nher valuables somewhere.
+Dialogue: 0,0:18:41.45,0:18:45.30,DCMain,KOGORO,0000,0000,0000,,However, as you can tell from \Nthe fact that the evidence
+Dialogue: 0,0:18:45.30,0:18:47.89,DCMain,KOGORO,0000,0000,0000,,was discarded in the dumpster, \Nshe couldn't have hidden them far.
+Dialogue: 0,0:18:48.84,0:18:51.94,DCMain,KOGORO,0000,0000,0000,,Since the police haven't found them yet,
+Dialogue: 0,0:18:51.94,0:18:56.19,DCMain,KOGORO,0000,0000,0000,,it's likely that her accomplice \Ntook them with them.
+Dialogue: 0,0:18:56.19,0:18:58.28,DCMain,TAKAGI,0000,0000,0000,,Could you show us what's inside your bag?
+Dialogue: 0,0:19:12.28,0:19:13.26,DCMain,TAKAGI,0000,0000,0000,,This is...
+Dialogue: 0,0:19:20.80,0:19:22.93,DCMain,YOSHIE,0000,0000,0000,,Maiko-chan, why?
+Dialogue: 0,0:19:25.65,0:19:28.84,DCMain,MAIKO,0000,0000,0000,,I took the emergency staircase \Nto Saki's apartment.
+Dialogue: 0,0:19:31.27,0:19:32.19,DCItalic,SAKI,0000,0000,0000,,You're late!
+Dialogue: 0,0:19:36.64,0:19:40.45,DCItalic,SAKI,0000,0000,0000,,All you have to do is keep doing as I say.
+Dialogue: 0,0:19:45.21,0:19:46.81,DCItalic,SAKI,0000,0000,0000,,Are you scared?
+Dialogue: 0,0:19:48.25,0:19:50.87,DCItalic,SAKI,0000,0000,0000,,There's no turning back now.
+Dialogue: 0,0:19:50.87,0:19:54.58,DCItalic,SAKI,0000,0000,0000,,You basically killed my husband.
+Dialogue: 0,0:19:55.24,0:19:56.34,DCItalic,MAIKO,0000,0000,0000,,No!
+Dialogue: 0,0:19:56.59,0:20:00.01,DCItalic,SAKI,0000,0000,0000,,That's what it means to be an accomplice.
+Dialogue: 0,0:20:05.46,0:20:07.73,DCItalic,SAKI,0000,0000,0000,,The evidence is in the dumpster.
+Dialogue: 0,0:20:07.73,0:20:09.42,DCItalic,SAKI,0000,0000,0000,,Get rid of it.
+Dialogue: 0,0:20:48.61,0:20:51.25,DCMain,MAIKO,0000,0000,0000,,I knew the deliveryman was coming soon,
+Dialogue: 0,0:20:51.25,0:20:53.35,DCMain,MAIKO,0000,0000,0000,,so I hurried out of the apartment.
+Dialogue: 0,0:20:54.08,0:20:57.86,DCMain,MAIKO,0000,0000,0000,,I didn't have time to move the \Nevidence from the dumpster.
+Dialogue: 0,0:20:58.32,0:21:02.61,DCMain,KOGORO,0000,0000,0000,,Even if it were discovered, we \Nwould think Saki-san did it.
+Dialogue: 0,0:21:02.84,0:21:04.40,DCMain,KOGORO,0000,0000,0000,,That's what you believed.
+Dialogue: 0,0:21:05.02,0:21:05.94,DCMain,MAIKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:21:06.52,0:21:08.77,DCMain,MAIKO,0000,0000,0000,,She said she'd share the insurance money,
+Dialogue: 0,0:21:08.77,0:21:12.62,DCMain,MAIKO,0000,0000,0000,,but more than anything, Saki had \Nhelped me since high school.
+Dialogue: 0,0:21:13.80,0:21:15.87,DCMain,MAIKO,0000,0000,0000,,But I was afraid.
+Dialogue: 0,0:21:16.52,0:21:19.66,DCMain,MAIKO,0000,0000,0000,,I thought I'd have to do as she \Nsaid for the rest of my life.
+Dialogue: 0,0:21:26.95,0:21:31.26,DCMain,MAIKO,0000,0000,0000,,I wanted to break her spell over me.
+Dialogue: 0,0:23:07.92,0:23:11.24,DCMain,CONAN,0000,0000,0000,,Mister, should you be eating so much?
+Dialogue: 0,0:23:11.24,0:23:12.31,DCMain,KOGORO,0000,0000,0000,,You idiot!
+Dialogue: 0,0:23:12.31,0:23:14.53,DCMain,KOGORO,0000,0000,0000,,I missed lunch.
+Dialogue: 0,0:23:14.53,0:23:16.99,DCMain,KOGORO,0000,0000,0000,,Besides, if you're worried about the money...
+Dialogue: 0,0:23:20.01,0:23:20.92,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:21.70,0:23:22.76,DCMain,KOGORO,0000,0000,0000,,It's gone!
+Dialogue: 0,0:23:22.76,0:23:23.64,DCMain,KOGORO,0000,0000,0000,,It's gone!
+Dialogue: 0,0:23:24.32,0:23:25.50,DCMain,KOGORO,0000,0000,0000,,It's gone!
+Dialogue: 0,0:23:25.50,0:23:26.42,DCMain,CONAN,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:23:26.90,0:23:31.43,DCMain,KOGORO,0000,0000,0000,,I think I dropped the envelope \Nwith the reward money somewhere.
+Dialogue: 0,0:23:31.68,0:23:32.45,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:23:33.41,0:23:35.08,DCMain,KOGORO,0000,0000,0000,,What am I going to do?
+Dialogue: 0,0:23:37.88,0:23:41.34,DCItalic,CONAN,0000,0000,0000,,It's time to search for \Nan envelope next, mister.
+Dialogue: 0,0:23:41.34,0:23:43.57,DCMain,KOGORO,0000,0000,0000,,I wanted that reward...
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:46.57,0:23:48.82,DCMain,CONAN,0000,0000,0000,,A murder motivated by hatred...
+Dialogue: 0,0:23:52.29,0:23:54.17,DCMain,MAN,0000,0000,0000,,Why did you come here?
+Dialogue: 0,0:23:56.22,0:23:59.16,DCMain,MAN,0000,0000,0000,,He's horrifyingly crude.
+Dialogue: 0,0:23:59.64,0:24:02.67,DCMain,KOGORO,0000,0000,0000,,Everyone in the neighborhood had motive.
+Dialogue: 0,0:24:02.67,0:24:03.61,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:24:03.61,0:24:04.71,DCMain,CHIBA,0000,0000,0000,,Nonsense?
+Dialogue: 0,0:24:05.44,0:24:08.96,DCMain,WOMAN,0000,0000,0000,,So this was a kind of ABC Murder.
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,TEXT,0000,0000,0000,,The Shifting Mystery of Beika City \N(Part One)
+Dialogue: 0,0:24:09.69,0:24:14.55,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The Shifting \NMystery of Beika City, Part One!"
+Dialogue: 0,0:24:29.98,0:24:31.01,DCMain,TAKAGI,0000,0000,0000,,Okay, Conan-kun. Go ahead.
+Dialogue: 0,0:24:29.98,0:24:34.99,Hint,TEXT,0000,0000,0000,,The ABC Murders
+Dialogue: 0,0:24:31.01,0:24:33.01,DCMain,CONAN,0000,0000,0000,,Next Conan's hint! Huh?
+Dialogue: 0,0:24:33.01,0:24:34.99,DCMain,CONAN,0000,0000,0000,,The ABC Murders!
+Dialogue: 0,0:24:34.99,0:24:36.16,DCMain,CONAN,0000,0000,0000,,{\an8}Do you have something to say?
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.16,0:24:38.71,DCMain,TAKAGI,0000,0000,0000,,{\an8}Let's see "Crimson" before the sun rus-sets.
+Dialogue: 0,0:24:38.71,0:24:39.82,DCMain,CONAN,0000,0000,0000,,{\an8}Who are you, the professor?
+Dialogue: 0,0:24:39.82,0:24:41.82,DCMain,,0000,0000,0000,,

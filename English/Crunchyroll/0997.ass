@@ -1,0 +1,309 @@
+﻿[Script Info]
+Title: [Erai-raws] English (US)
+
+ScriptType: v4.00+
+ScaledBorderAndShadow: yes
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: SV1,Trebuchet MS,16,&H003E322D,&H000000FF,&H00B5ADAA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: SV2,Trebuchet MS,16,&H00777B73,&H000000FF,&H00E2E4E4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Tango,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A48891,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0350,0020,0064,0
+Style: Waltz,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00935F81,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0345,0064,0
+Style: Conan,Trebuchet MS,20,&H0055D1FF,&H000000FF,&H00DBAB58,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Genta,Trebuchet MS,20,&H005F43BC,&H000000FF,&H0074E2F3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Ayumi,Trebuchet MS,20,&H0043FF8E,&H000000FF,&H00AFA2F2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0200,0018,0
+Style: Mitsuhiko,Trebuchet MS,20,&H00DB8651,&H000000FF,&H0099ED9E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0200,0020,0018,0
+Style: Azami,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006C1723,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0050,0064,0
+Style: Botan,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A76C91,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0070,0064,0
+Style: Sumire,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00958775,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0060,0020,0064,0
+Style: Sakura,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A0708D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0064,0
+Style: Ondo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00882D2C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0064,0
+Style: Savings,Trebuchet MS,22,&H002D3435,&H000000FF,&H008F9697,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Smile,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0040,0125,0
+Style: Office,Times New Roman,22,&H002C2E30,&H000000FF,&H00C5CDD9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,ALL,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 997 \N"Intrigue at Smile Village"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,WALTZ,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:14.99,0:00:20.49,SV1,SIGN,0000,0000,0000,,Smile Village
+Dialogue: 0,0:00:20.49,0:00:24.50,SV2,SIGN,0000,0000,0000,,Smile Village
+Dialogue: 0,0:00:34.01,0:00:40.01,DCMain,BOTH,0000,0000,0000,,{\an8}Welcome to the high-class resort-style \Nnursing home "Smile Village!"
+Dialogue: 0,0:00:34.43,0:00:37.89,Tango,RIGHT,0000,0000,0000,,{\fad(250,460)}Hohoemi Tango (43) \N"Smile Village" Chief Director
+Dialogue: 0,0:00:34.43,0:00:37.89,Waltz,LEFT,0000,0000,0000,,{\fad(250,460)}Hohoemi Waltz (41) \N"Smile Village" Administration Manager
+Dialogue: 0,0:00:42.17,0:00:43.12,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:00:46.20,0:00:48.02,DCMain,CONAN,0000,0000,0000,,Find the question that solves the mystery!
+Dialogue: 0,0:00:48.02,0:00:50.23,DCMain,CONAN,0000,0000,0000,,Apply miraculous detective skills \Nto the secrets of the heart!
+Dialogue: 0,0:00:50.23,0:00:51.84,DCMain,CONAN,0000,0000,0000,,The Detective Boys are everyone's idols!
+Dialogue: 0,0:00:51.84,0:00:53.84,DCMain,CONAN,0000,0000,0000,,What plot is hidden behind their smiles?
+Dialogue: 0,0:00:54.28,0:00:55.86,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:55.86,0:00:57.76,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:00:57.76,0:01:00.20,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:40.01,0:02:46.02,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(400,1)}Intrigue at Smile Village
+Dialogue: 0,0:02:40.70,0:02:43.31,DCMain,CONAN,0000,0000,0000,,"Intrigue at Smile Village!"
+Dialogue: 0,0:02:46.26,0:02:50.44,DCMain,TANGO,0000,0000,0000,,Come on. Everyone is waiting, Edogawa-sama.
+Dialogue: 0,0:02:50.44,0:02:51.77,DCMain,CONAN,0000,0000,0000,,Everyone?
+Dialogue: 0,0:02:52.03,0:02:54.41,DCMain,WALTZ,0000,0000,0000,,Sakura-sama, Sumire-sama,
+Dialogue: 0,0:02:54.41,0:02:58.07,DCMain,WALTZ,0000,0000,0000,,Botan-sama, Azami-sama, and...
+Dialogue: 0,0:02:58.07,0:02:59.53,DCMain,GENTA,0000,0000,0000,,Hey, Conan!
+Dialogue: 0,0:02:59.73,0:03:01.05,DCMain,AYUMI,0000,0000,0000,,Conan-kun!
+Dialogue: 0,0:03:01.05,0:03:03.03,DCMain,MITSUHIKO,0000,0000,0000,,You're late.
+Dialogue: 0,0:03:03.47,0:03:04.59,DCMain,CONAN,0000,0000,0000,,Guys.
+Dialogue: 0,0:03:05.70,0:03:10.96,Conan,BLUE,0000,0000,0000,,Conan
+Dialogue: 0,0:03:05.70,0:03:10.96,Ayumi,PINK,0000,0000,0000,,Ayumi
+Dialogue: 0,0:03:05.70,0:03:10.96,Mitsuhiko,GREEN,0000,0000,0000,,Mitsuhiko
+Dialogue: 0,0:03:05.70,0:03:10.96,Genta,YELLOW,0000,0000,0000,,Genta
+Dialogue: 0,0:03:05.92,0:03:10.96,DCMain,TANGO,0000,0000,0000,,Those ladies over there are devoted \Nfans of the Detective Boys.
+Dialogue: 0,0:03:10.96,0:03:13.61,DCMain,CONAN,0000,0000,0000,,D-Devoted fans?
+Dialogue: 0,0:03:13.61,0:03:15.83,DCMain,TANGO,0000,0000,0000,,It happened two weeks ago.
+Dialogue: 0,0:03:15.83,0:03:22.00,DCMain,ALTZ,0000,0000,0000,,We were on a luxurious sightseeing \Nbus tour of Beika City.
+Dialogue: 0,0:03:22.00,0:03:27.47,DCItalic,ALL,0000,0000,0000,,An acorn rolled down and down
+Dialogue: 0,0:03:27.65,0:03:32.35,DCItalic,ALL,0000,0000,0000,,and fell into a pond.
+Dialogue: 0,0:03:32.72,0:03:36.28,DCItalic,ALL,0000,0000,0000,,A loach swam up and...
+Dialogue: 0,0:03:37.54,0:03:39.24,DCItalic,MITSUHIKO,0000,0000,0000,,Oh, my!
+Dialogue: 0,0:03:45.54,0:03:47.00,DCItalic,MITSUHIKO,0000,0000,0000,,These are delicious.
+Dialogue: 0,0:03:50.42,0:03:54.20,DCMain,WALTZ,0000,0000,0000,,Since then, the Detective \NBoys have become Sakura-sama,
+Dialogue: 0,0:03:54.20,0:03:59.00,DCMain,WALTZ,0000,0000,0000,,Sumire-sama, Botan-sama \Nand Azami-sama's idols.
+Dialogue: 0,0:03:59.00,0:04:02.26,Conan,BLUE,0000,0000,0000,,Conan
+Dialogue: 0,0:03:59.00,0:04:02.26,Ayumi,PINK,0000,0000,0000,,Ayumi
+Dialogue: 0,0:03:59.00,0:04:02.26,Mitsuhiko,GREEN,0000,0000,0000,,Mitsuhiko
+Dialogue: 0,0:03:59.00,0:04:02.26,Genta,YELLOW,0000,0000,0000,,Genta
+Dialogue: 0,0:03:59.41,0:04:02.26,DCMain,WALTZ,0000,0000,0000,,They even formed a fan club.
+Dialogue: 0,0:04:03.65,0:04:04.51,DCMain,TANGO,0000,0000,0000,,Now then.
+Dialogue: 0,0:04:04.78,0:04:08.56,DCMain,TANGO,0000,0000,0000,,Since all the members of the \NDetective Boys are here...
+Dialogue: 0,0:04:09.10,0:04:10.36,DCMain,TANGO,0000,0000,0000,,{\an8}Azami-sama.
+Dialogue: 0,0:04:09.27,0:04:12.02,Azami,TEXT,0000,0000,0000,,{\fad(250,1)}Azagami Azami (77) \N"Smile Village" Resident
+Dialogue: 0,0:04:10.36,0:04:11.55,DCMain,AZAMI,0000,0000,0000,,{\an8}Yes.
+Dialogue: 0,0:04:12.24,0:04:13.82,DCMain,TANGO,0000,0000,0000,,{\an8}Botan-sama.
+Dialogue: 0,0:04:12.56,0:04:15.52,Botan,TEXT,0000,0000,0000,,{\fad(250,1)}Hotaka Botan (73) \N"Smile Village" Resident
+Dialogue: 0,0:04:13.82,0:04:15.10,DCMain,BOTAN,0000,0000,0000,,{\an8}Yes.
+Dialogue: 0,0:04:15.76,0:04:17.18,DCMain,TANGO,0000,0000,0000,,{\an8}Sumire-sama.
+Dialogue: 0,0:04:16.06,0:04:19.02,Sumire,TEXT,0000,0000,0000,,{\fad(250,1)}Sumida Sumire (77) \N"Smile Village" Resident
+Dialogue: 0,0:04:17.18,0:04:18.32,DCMain,SUMIRE,0000,0000,0000,,{\an8}Yes.
+Dialogue: 0,0:04:19.26,0:04:20.82,DCMain,TANGO,0000,0000,0000,,{\an8}Sakura-sama.
+Dialogue: 0,0:04:19.57,0:04:22.53,Sakura,TEXT,0000,0000,0000,,{\fad(250,1)}Sakuma Sakura (78) \N"Smile Village" Resident
+Dialogue: 0,0:04:20.82,0:04:21.79,DCMain,SAKURA,0000,0000,0000,,{\an8}Yes.
+Dialogue: 0,0:04:22.53,0:04:27.22,DCMain,WALTZ,0000,0000,0000,,Imagine that the Detective Boys \Nare your own grandchildren
+Dialogue: 0,0:04:27.22,0:04:29.03,DCMain,WALTZ,0000,0000,0000,,and show them to your rooms.
+Dialogue: 0,0:04:29.82,0:04:32.05,DCMain,CONAN,0000,0000,0000,,Actually, I'm not so sure about...
+Dialogue: 0,0:04:32.05,0:04:33.66,DCMain,TANGO,0000,0000,0000,,Edogawa-sama.
+Dialogue: 0,0:04:33.90,0:04:37.79,DCMain,TANGO,0000,0000,0000,,Think of them as your grandmothers, okay?
+Dialogue: 0,0:04:38.10,0:04:40.08,DCMain,CONAN,0000,0000,0000,,B-But...
+Dialogue: 0,0:04:41.29,0:04:42.17,DCMain,TANGO,0000,0000,0000,,Ondo.
+Dialogue: 0,0:04:42.78,0:04:43.55,DCMain,CONAN,0000,0000,0000,,Ondo?
+Dialogue: 0,0:04:47.64,0:04:50.31,Ondo,TEXT,0000,0000,0000,,{\fad(250,1)}Shibuzura Ondo (30) \N"Smile Village" Employee
+Dialogue: 0,0:05:00.58,0:05:03.05,DCMain,SAKURA,0000,0000,0000,,Lay him down on that bed over there.
+Dialogue: 0,0:05:08.66,0:05:10.20,DCMain,SAKURA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:05:13.53,0:05:17.57,DCMain,CONAN,0000,0000,0000,,Anyway, this room is really luxurious.
+Dialogue: 0,0:05:17.57,0:05:21.34,DCMain,SAKURA,0000,0000,0000,,I had it remodeled in a \NBaroque architectural style.
+Dialogue: 0,0:05:22.16,0:05:23.34,DCMain,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:05:23.82,0:05:29.26,DCMain,SAKURA,0000,0000,0000,,It was my dream to sing \Nlullabies to my grandchildren.
+Dialogue: 0,0:05:29.26,0:05:31.79,DCMain,CONAN,0000,0000,0000,,Was it?
+Dialogue: 0,0:05:36.58,0:05:46.32,DCMain,SAKURA,0000,0000,0000,,Hushabye, hushabye.
+Dialogue: 0,0:05:46.74,0:05:56.75,DCMain,SAKURA,0000,0000,0000,,My good baby, sleep.
+Dialogue: 0,0:05:57.14,0:05:59.80,DCMain,SAKURA,0000,0000,0000,,My good baby...
+Dialogue: 0,0:06:06.80,0:06:11.46,DCMain,CONAN,0000,0000,0000,,She put herself to sleep \Nwith her own lullaby.
+Dialogue: 0,0:06:22.94,0:06:25.15,DCMain,CONAN,0000,0000,0000,,Um, where's the bathroom?
+Dialogue: 0,0:06:27.32,0:06:30.20,DCMain,CONAN,0000,0000,0000,,Gotta go, gotta go.
+Dialogue: 0,0:06:31.30,0:06:33.24,DCMain,CONAN,0000,0000,0000,,Gotta go.
+Dialogue: 0,0:07:24.84,0:07:26.64,DCMain,CONAN,0000,0000,0000,,You guys, too?
+Dialogue: 0,0:07:31.70,0:07:33.76,DCMain,MITSHIKO,0000,0000,0000,,I was with Botan-obaasan.
+Dialogue: 0,0:07:59.94,0:08:06.54,DCItalic,BOTAN,0000,0000,0000,,It was my dream to peel fruit from \Naround the world for my grandchildren.
+Dialogue: 0,0:08:06.54,0:08:09.42,DCItalic,BOTAN,0000,0000,0000,,Say ah. Eat up.
+Dialogue: 0,0:08:13.63,0:08:15.76,DCItalic,BOTAN,0000,0000,0000,,Say ah.
+Dialogue: 0,0:08:17.92,0:08:19.77,DCItalic,BOTAN,0000,0000,0000,,Ah.
+Dialogue: 0,0:08:21.74,0:08:23.23,DCItalic,BOTAN,0000,0000,0000,,Ah.
+Dialogue: 0,0:08:35.62,0:08:37.78,DCItalic,MITSUHIKO,0000,0000,0000,,Excuse me for a moment.
+Dialogue: 0,0:08:47.18,0:08:49.25,DCMain,AYUMI,0000,0000,0000,,I was with Azami-obaasama.
+Dialogue: 0,0:09:07.29,0:09:09.77,DCItalic,AZAMI,0000,0000,0000,,This is my collection.
+Dialogue: 0,0:09:10.59,0:09:11.39,DCItalic,AYUMI,0000,0000,0000,,What?
+Dialogue: 0,0:09:27.13,0:09:33.67,DCItalic,AZAMI,0000,0000,0000,,I especially like these dentures \Ndecorated with diamonds.
+Dialogue: 0,0:09:36.65,0:09:38.67,DCItalic,AZAMI,0000,0000,0000,,I'll show you some ventriloquism.
+Dialogue: 0,0:09:39.13,0:09:40.68,DCItalic,AYUMI,0000,0000,0000,,Ventriloquism?
+Dialogue: 0,0:09:41.49,0:09:44.93,DCItalic,AZAMI,0000,0000,0000,,Please tell me your name.
+Dialogue: 0,0:09:47.20,0:09:52.58,DCItalic,AZAMI,0000,0000,0000,,Please tell me your name.
+Dialogue: 0,0:09:54.10,0:09:55.82,DCItalic,AYUMI,0000,0000,0000,,It's Ayumi.
+Dialogue: 0,0:09:56.06,0:10:01.42,DCItalic,AZAMI,0000,0000,0000,,My name is Azagami Azami.
+Dialogue: 0,0:10:01.42,0:10:03.50,DCItalic,AZAMI,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:10:21.30,0:10:24.60,DCMain,GENTA,0000,0000,0000,,As soon as we entered \NSumire-baachan's room...
+Dialogue: 0,0:10:54.34,0:10:55.63,DCItalic,GENTA,0000,0000,0000,,Ow!
+Dialogue: 0,0:10:55.63,0:10:57.27,DCItalic,GENTA,0000,0000,0000,,My butt, my butt!
+Dialogue: 0,0:10:58.52,0:11:00.16,DCItalic,GENTA,0000,0000,0000,,You pinched me!
+Dialogue: 0,0:11:00.16,0:11:02.45,DCItalic,GENTA,0000,0000,0000,,What are you doing, Grandma?
+Dialogue: 0,0:11:02.45,0:11:06.06,DCItalic,SUMIRE,0000,0000,0000,,Pain, pain, fly away.
+Dialogue: 0,0:11:06.06,0:11:09.02,DCItalic,SUMIRE,0000,0000,0000,,Pain, pain, fly away.
+Dialogue: 0,0:11:09.17,0:11:14.24,DCItalic,SUMIRE,0000,0000,0000,,Pain, pain, fly away.
+Dialogue: 0,0:11:23.21,0:11:25.06,DCItalic,GENTA,0000,0000,0000,,Hey, w-w-wait.
+Dialogue: 0,0:11:32.85,0:11:33.79,DCItalic,GENTA,0000,0000,0000,,Crap!
+Dialogue: 0,0:11:37.05,0:11:38.42,DCItalic,GENTA,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:11:45.46,0:11:47.43,DCItalic,GENTA,0000,0000,0000,,Oh, no. Oh, no.
+Dialogue: 0,0:11:52.45,0:11:57.44,DCMain,CONAN,0000,0000,0000,,So all the old women are insanely wealthy.
+Dialogue: 0,0:11:59.22,0:12:00.44,DCMain,MITSUHIKO,0000,0000,0000,,Indeed.
+Dialogue: 0,0:12:02.94,0:12:07.20,DCMain,GENTA,0000,0000,0000,,I guess we can let it slide \Nsince they're our fans.
+Dialogue: 0,0:12:07.41,0:12:10.98,DCMain,MITSUHIKO,0000,0000,0000,,It's the married couple Chief \NDirector Hohoemi Waltz-san
+Dialogue: 0,0:12:10.98,0:12:13.86,DCMain,MITSUHIKO,0000,0000,0000,,and Administration Manager \NTango-san that creep me out.
+Dialogue: 0,0:12:14.68,0:12:16.53,DCMain,AYUMI,0000,0000,0000,,They're always smiling.
+Dialogue: 0,0:12:17.21,0:12:20.83,DCMain,CONAN,0000,0000,0000,,Yeah, they've been smiling since we met.
+Dialogue: 0,0:12:28.97,0:12:29.97,DCMain,GENTA,0000,0000,0000,,All right.
+Dialogue: 0,0:12:43.49,0:12:45.49,Savings,LEFT,0000,0000,0000,,1 Million Yen Savings
+Dialogue: 0,0:12:56.53,0:12:58.50,DCMain,MITSUHIKO,0000,0000,0000,,They're smiling.
+Dialogue: 0,0:12:59.48,0:13:03.40,DCMain,AYUMI,0000,0000,0000,,Maybe they have to smile because \Nthey're the chief director
+Dialogue: 0,0:13:03.40,0:13:06.00,DCMain,AYUMI,0000,0000,0000,,and administration manager of Smile Village.
+Dialogue: 0,0:13:06.69,0:13:10.64,DCMain,GENTA,0000,0000,0000,,Isn't that what they call \Na customer service smile?
+Dialogue: 0,0:13:07.80,0:13:10.64,Smile,TEXT,0000,0000,0000,,{\fad(880,1)}Customer Service Smile
+Dialogue: 0,0:13:11.25,0:13:12.61,DCMain,CONAN,0000,0000,0000,,They're right.
+Dialogue: 0,0:13:24.68,0:13:28.57,DCMain,TANGO,0000,0000,0000,,Were those old hags...?
+Dialogue: 0,0:13:29.02,0:13:33.08,DCMain,WALTZ,0000,0000,0000,,Yes, those old hags.
+Dialogue: 0,0:13:40.54,0:13:43.00,SV2,SIGN,0000,0000,0000,,{\fad(210,1)}Smile Village
+Dialogue: 0,0:13:43.64,0:13:48.31,DCMain,WALTZ,0000,0000,0000,,I never imagined that those old hags
+Dialogue: 0,0:13:48.31,0:13:50.76,DCMain,WALTZ,0000,0000,0000,,would be scouted by another nursing home.
+Dialogue: 0,0:13:52.82,0:13:56.24,DCMain,TANGO,0000,0000,0000,,Considering how much money they have,
+Dialogue: 0,0:13:56.24,0:14:00.54,DCMain,TANGO,0000,0000,0000,,I understand why other nursing \Nhomes would want them to move in.
+Dialogue: 0,0:14:01.59,0:14:06.74,DCMain,TANGO,0000,0000,0000,,By letting them meet their \Nidols the Detective Boys,
+Dialogue: 0,0:14:06.74,0:14:09.78,DCMain,TANGO,0000,0000,0000,,they'll stay at Smile Village.
+Dialogue: 0,0:14:10.25,0:14:13.84,DCMain,TANGO,0000,0000,0000,,We should thank the Detective Boys.
+Dialogue: 0,0:14:13.84,0:14:15.41,DCMain,WALTZ,0000,0000,0000,,Indeed.
+Dialogue: 0,0:14:16.64,0:14:18.67,DCMain,GENTA,0000,0000,0000,,They appreciate us.
+Dialogue: 0,0:14:19.38,0:14:20.92,DCMain,CONAN,0000,0000,0000,,They used us.
+Dialogue: 0,0:14:21.37,0:14:22.19,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:14:23.33,0:14:24.64,DCMain,TANGO,0000,0000,0000,,Waltz.
+Dialogue: 0,0:14:24.64,0:14:26.67,DCMain,WALTZ,0000,0000,0000,,What is it, Tango?
+Dialogue: 0,0:14:26.67,0:14:32.55,DCMain,TANGO,0000,0000,0000,,We need to buy a high-class hotel in \NDubai before those old hags catch on.
+Dialogue: 0,0:14:33.86,0:14:38.39,DCMain,WALTZ,0000,0000,0000,,Using their money that we've been managing.
+Dialogue: 0,0:14:40.09,0:14:44.90,DCMain,TANGO,0000,0000,0000,,This is the list of high-class \Nhotels Dubai we'll purchase.
+Dialogue: 0,0:14:48.49,0:14:53.19,DCMain,WALTZ,0000,0000,0000,,If those old hags learned we're planning \Nto buy a high-class hotel in Dubai,
+Dialogue: 0,0:14:53.19,0:14:57.80,DCMain,WALTZ,0000,0000,0000,,I'm sure their blood pressure would rise.
+Dialogue: 0,0:15:04.05,0:15:05.88,DCMain,GENTA,0000,0000,0000,,What's Dubai?
+Dialogue: 0,0:15:05.99,0:15:09.13,DCMain,CONAN,0000,0000,0000,,A world famous resort \Ncity in the Middle East.
+Dialogue: 0,0:15:09.36,0:15:10.70,DCMain,GENTA,0000,0000,0000,,Middle East?
+Dialogue: 0,0:15:10.70,0:15:14.94,DCMain,MITSUHIKO,0000,0000,0000,,They said they're planning to buy a \Nhotel using the old women's money.
+Dialogue: 0,0:15:14.94,0:15:18.63,DCMain,AYUMI,0000,0000,0000,,They're using their money \Nwithout their knowledge.
+Dialogue: 0,0:15:18.63,0:15:20.02,DCMain,AYUMI,0000,0000,0000,,Those poor old ladies.
+Dialogue: 0,0:15:22.20,0:15:26.36,DCMain,WALTZ,0000,0000,0000,,Tango, you decide which hotel we'll buy.
+Dialogue: 0,0:15:26.36,0:15:29.14,DCMain,TANGO,0000,0000,0000,,Waltz, you decide.
+Dialogue: 0,0:15:29.59,0:15:33.80,DCMain,WALTZ,0000,0000,0000,,Darling, you're my husband. \NYou should decide.
+Dialogue: 0,0:15:33.80,0:15:37.34,DCMain,TANGO,0000,0000,0000,,Oh, Waltz. You're my wife.
+Dialogue: 0,0:15:37.34,0:15:39.30,DCMain,TANGO,0000,0000,0000,,You should decide.
+Dialogue: 0,0:15:39.30,0:15:40.21,DCMain,WALTZ,0000,0000,0000,,Tango.
+Dialogue: 0,0:15:40.21,0:15:41.26,DCMain,TANGO,0000,0000,0000,,Waltz.
+Dialogue: 0,0:15:41.26,0:15:42.16,DCMain,WALTZ,0000,0000,0000,,Tango.
+Dialogue: 0,0:15:42.16,0:15:43.25,DCMain,TANGO,0000,0000,0000,,Waltz.
+Dialogue: 0,0:15:44.66,0:15:47.63,DCMain,GENTA,0000,0000,0000,,They're dancing even though they're bad guys.
+Dialogue: 0,0:15:47.84,0:15:50.01,DCMain,AYUMI,0000,0000,0000,,It's not pretty at all.
+Dialogue: 0,0:15:50.48,0:15:52.76,DCMain,MITSUHIKO,0000,0000,0000,,In fact, it's unsightly.
+Dialogue: 0,0:15:52.76,0:15:54.07,DCMain,TANGO,0000,0000,0000,,Waltz.
+Dialogue: 0,0:15:54.07,0:15:54.76,DCMain,WALTZ,0000,0000,0000,,Tango.
+Dialogue: 0,0:15:54.98,0:15:56.02,DCMain,TANGO,0000,0000,0000,,Waltz.
+Dialogue: 0,0:15:56.02,0:15:56.68,DCMain,WALTZ,0000,0000,0000,,Tango.
+Dialogue: 0,0:15:56.68,0:15:57.64,DCMain,TANGO,0000,0000,0000,,Waltz.
+Dialogue: 0,0:15:57.64,0:15:59.06,DCMain,WALTZ,0000,0000,0000,,Tango.
+Dialogue: 0,0:16:00.04,0:16:03.77,DCMain,TANGO,0000,0000,0000,,I'm sick of taking care of \Nwealthy old Japanese people.
+Dialogue: 0,0:16:04.49,0:16:08.81,DCMain,WALTZ,0000,0000,0000,,So we'll use their money to buy \Na high-class hotel in Dubai
+Dialogue: 0,0:16:08.81,0:16:13.79,DCMain,WALTZ,0000,0000,0000,,and open a Smile Village there.
+Dialogue: 0,0:16:13.79,0:16:16.33,DCMain,TANGO,0000,0000,0000,,Smile Village Dubai.
+Dialogue: 0,0:16:17.56,0:16:24.81,DCMain,WALTZ,0000,0000,0000,,We'll care for the world's wealthy \Nold people and use their money
+Dialogue: 0,0:16:25.47,0:16:29.05,DCMain,TANGO,0000,0000,0000,,to build a Smile Village in space.
+Dialogue: 0,0:16:29.05,0:16:33.76,DCMain,WALTZ,0000,0000,0000,,I'm thinking about making Cosmic \NSmile Village Japanese style.
+Dialogue: 0,0:16:33.76,0:16:35.89,DCMain,TANGO,0000,0000,0000,,Japanese style.
+Dialogue: 0,0:16:35.89,0:16:37.01,DCMain,WALTZ,0000,0000,0000,,And once we do,
+Dialogue: 0,0:16:37.01,0:16:41.82,DCMain,WALTZ,0000,0000,0000,,I'll devote my heart the Manyoshu and \Nwear a twelve-layered ceremonial kimono.
+Dialogue: 0,0:16:41.82,0:16:45.26,DCMain,TANGO,0000,0000,0000,,Devote your heart to the Manyoshu.
+Dialogue: 0,0:16:49.49,0:16:50.94,DCMain,WALTZ,0000,0000,0000,,More importantly...
+Dialogue: 0,0:16:50.94,0:16:52.65,DCMain,TANGO,0000,0000,0000,,What is it, Waltz?
+Dialogue: 0,0:16:53.21,0:16:56.92,DCMain,WALTZ,0000,0000,0000,,We need to make those old hags \Nsign an exclusive contract
+Dialogue: 0,0:16:56.92,0:17:01.79,DCMain,WALTZ,0000,0000,0000,,so they can't be scouted by \Nanother nursing home again.
+Dialogue: 0,0:17:03.59,0:17:05.17,DCMain,TANGO,0000,0000,0000,,You're right.
+Dialogue: 0,0:17:05.53,0:17:10.07,DCMain,BOTH,0000,0000,0000,,Exclusive contract!
+Dialogue: 0,0:17:14.66,0:17:15.72,DCMain,CONAN,0000,0000,0000,,Guys.
+Dialogue: 0,0:17:16.75,0:17:19.35,DCMain,BOTH,0000,0000,0000,,The Detective Boys?
+Dialogue: 0,0:17:19.35,0:17:21.43,DCMain,BOTH,0000,0000,0000,,Ondo!
+Dialogue: 0,0:17:23.93,0:17:26.39,Office,SIGN,0000,0000,0000,,Chief Director's Office
+Dialogue: 0,0:17:47.29,0:17:49.68,DCMain,MITSUHIKO,0000,0000,0000,,Let go of me!
+Dialogue: 0,0:17:50.95,0:17:54.11,DCMain,MITSUHIKO,0000,0000,0000,,Let go of me! Hey!
+Dialogue: 0,0:17:58.67,0:18:00.60,DCMain,AYUMI,0000,0000,0000,,Let go! Let go!
+Dialogue: 0,0:18:00.60,0:18:02.40,DCMain,MITSUHIKO,0000,0000,0000,,Please let go!
+Dialogue: 0,0:18:02.40,0:18:03.48,DCMain,MITSUHIKO,0000,0000,0000,,Let me go!
+Dialogue: 0,0:18:12.94,0:18:15.94,Office,SIGN,0000,0000,0000,,Chief Director's Office
+Dialogue: 0,0:18:12.94,0:18:15.94,DCMain,ALL,0000,0000,0000,,Let us go!
+Dialogue: 0,0:18:16.11,0:18:18.70,DCMain,BOTH,0000,0000,0000,,Lock them in the basement.
+Dialogue: 0,0:18:23.98,0:18:25.70,DCMain,GENTA,0000,0000,0000,,Let us go!
+Dialogue: 0,0:18:26.54,0:18:27.60,DCMain,GENTA,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:18:27.60,0:18:30.03,DCMain,GENTA,0000,0000,0000,,Where are you taking us?
+Dialogue: 0,0:18:30.03,0:18:33.12,DCMain,GENTA,0000,0000,0000,,Stop it! Stop!
+Dialogue: 0,0:18:33.12,0:18:34.84,DCMain,GENTA,0000,0000,0000,,Let us go!
+Dialogue: 0,0:18:36.81,0:18:38.20,DCMain,GENTA,0000,0000,0000,,Ow!
+Dialogue: 0,0:18:56.48,0:18:59.84,DCMain,GENTA,0000,0000,0000,,Hey, let us out! Let us out!
+Dialogue: 0,0:18:59.84,0:19:04.78,DCMain,GENTA,0000,0000,0000,,Ow. I hurt my teeth biting \Nhim as hard as I could.
+Dialogue: 0,0:19:05.54,0:19:06.49,DCMain,CONAN,0000,0000,0000,,Guys.
+Dialogue: 0,0:19:06.49,0:19:07.20,DCMain,GENTA,0000,0000,0000,,Conan?
+Dialogue: 0,0:19:07.20,0:19:08.48,DCMain,BOTH,0000,0000,0000,,Conan-kun?
+Dialogue: 0,0:19:08.48,0:19:11.53,DCMain,CONAN,0000,0000,0000,,They've installed multiple \Nsolid locks on the door.
+Dialogue: 0,0:19:11.53,0:19:13.75,DCMain,CONAN,0000,0000,0000,,Stand back. I'll break it open.
+Dialogue: 0,0:19:14.19,0:19:15.23,DCMain,CONAN,0000,0000,0000,,All right.
+Dialogue: 0,0:19:29.31,0:19:33.38,DCMain,BOTH,0000,0000,0000,,Please sign the contract.
+Dialogue: 0,0:19:33.38,0:19:34.53,DCMain,ALL,0000,0000,0000,,All right.
+Dialogue: 0,0:19:35.72,0:19:38.86,DCMain,ALL,0000,0000,0000,,By the way, where are the Detective Boys?
+Dialogue: 0,0:19:38.86,0:19:42.11,DCMain,WALTZ,0000,0000,0000,,How many times do we have to tell you?
+Dialogue: 0,0:19:42.11,0:19:45.12,DCMain,TANGO,0000,0000,0000,,The Detective Boys left.
+Dialogue: 0,0:19:45.35,0:19:48.27,DCMain,ALL,0000,0000,0000,,Oh, that's right.
+Dialogue: 0,0:19:48.27,0:19:50.16,DCMain,BOTH,0000,0000,0000,,Now sign the contract.
+Dialogue: 0,0:19:50.16,0:19:51.47,DCMain,ALL,0000,0000,0000,,Okay.
+Dialogue: 0,0:19:53.36,0:19:55.13,DCMain,BOTH,0000,0000,0000,,Is there something else?
+Dialogue: 0,0:19:55.66,0:19:57.21,DCMain,ALL,0000,0000,0000,,We were just wondering...
+Dialogue: 0,0:19:57.21,0:19:58.84,DCMain,ALL,0000,0000,0000,,...what our idols...
+Dialogue: 0,0:19:58.84,0:19:59.87,DCMain,ALL,0000,0000,0000,,...the Detective Boys...
+Dialogue: 0,0:19:59.87,0:20:02.13,DCMain,ALL,0000,0000,0000,,...are doing right now.
+Dialogue: 0,0:20:02.42,0:20:10.89,DCMain,BOTH,0000,0000,0000,,We told you, they decided to leave.
+Dialogue: 0,0:20:11.08,0:20:14.92,DCMain,ALL,0000,0000,0000,,You don't need to smile like \Nthat when you're angry.
+Dialogue: 0,0:20:14.92,0:20:16.77,DCMain,ALL,0000,0000,0000,,We just need to sign, right?
+Dialogue: 0,0:20:16.77,0:20:18.64,DCMain,,0000,0000,0000,,Just need to sign, right?
+Dialogue: 0,0:20:18.64,0:20:20.78,DCMain,BOTH,0000,0000,0000,,Yes, please.
+Dialogue: 0,0:20:21.36,0:20:25.52,DCMain,CONAN,0000,0000,0000,,No, you don't!
+Dialogue: 0,0:20:31.09,0:20:34.92,DCMain,ALL,0000,0000,0000,,The Detective Boys haven't left yet!
+Dialogue: 0,0:20:36.08,0:20:39.92,DCMain,ALL,0000,0000,0000,,It's our idols, the Detective Boys!
+Dialogue: 0,0:20:42.50,0:20:44.43,DCMain,BOTH,0000,0000,0000,,Ondo!
+Dialogue: 0,0:20:53.31,0:20:55.70,DCMain,BOTH,0000,0000,0000,,Ondo?
+Dialogue: 0,0:20:56.44,0:21:00.64,DCMain,CONAN,0000,0000,0000,,Ondo-san says he likes \Nworking at Smile Village.
+Dialogue: 0,0:21:00.64,0:21:06.80,DCMain,CONAN,0000,0000,0000,,So he finds your plan to \Nuse the old ladies' money
+Dialogue: 0,0:21:06.80,0:21:11.70,DCMain,CONAN,0000,0000,0000,,you've been managing to buy a \Nhigh-class hotel in Dubai...
+Dialogue: 0,0:21:13.01,0:21:14.91,DCMain,ONDO,0000,0000,0000,,Unforgivable.
+Dialogue: 0,0:21:21.42,0:21:23.80,DCMain,ALL,0000,0000,0000,,Ondo-sama!
+Dialogue: 0,0:21:25.74,0:21:27.69,DCMain,ALL,0000,0000,0000,,You're so wonderful!
+Dialogue: 0,0:21:27.69,0:21:31.14,DCMain,ALL,0000,0000,0000,,Ondo-sama! Ondo-sama!
+Dialogue: 0,0:21:35.50,0:21:38.35,DCMain,ALL,0000,0000,0000,,Ondo-sama! Ondo-sama!
+Dialogue: 0,0:23:08.76,0:23:13.49,DCMain,WALTZ,0000,0000,0000,,Everyone, we've almost arrived \Nat the butcher's storefront.
+Dialogue: 0,0:23:15.32,0:23:19.25,DCMain,WALTZ,0000,0000,0000,,The Detective Boys are eating croquettes.
+Dialogue: 0,0:23:36.86,0:23:38.18,DCMain,ALL,0000,0000,0000,,So cute!
+Dialogue: 0,0:23:38.18,0:23:42.27,DCMain,ALL,0000,0000,0000,,Chief Director Ondo-sama!
+Dialogue: 0,0:23:45.02,0:23:48.86,DCMain,OMURA,0000,0000,0000,,After all that time you spent, \Nthis is what you made?
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:49.04,0:23:52.36,DCMain,OGI,0000,0000,0000,,We're unsuccessful because \Nof your incompetence.
+Dialogue: 0,0:23:58.69,0:24:03.33,DCMain,MEGURE,0000,0000,0000,,Why did the president and head of \NR&D have such a tense relationship?
+Dialogue: 0,0:24:03.80,0:24:07.55,DCMain,KOGORO,0000,0000,0000,,I thought they were friends \Nwho shared the same ambition.
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,TEXT,0000,0000,0000,,The Frying Pan of Hatred
+Dialogue: 0,0:24:09.56,0:24:13.21,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Frying Pan of Hatred!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,TEXT,0000,0000,0000,,Hamburgers
+Dialogue: 0,0:24:30.26,0:24:33.10,DCMain,GENTA,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.10,0:24:34.99,DCMain,CONAN,0000,0000,0000,,Hamburgers!
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.22,0:24:36.26,DCMain,AYUMI,0000,0000,0000,,{\an8}Here's my recommended cheese.
+Dialogue: 0,0:24:36.26,0:24:37.32,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}Teriyaki.
+Dialogue: 0,0:24:37.32,0:24:38.12,DCMain,GENTA,0000,0000,0000,,{\an8}And eel.
+Dialogue: 0,0:24:38.12,0:24:39.66,DCMain,CONAN,0000,0000,0000,,{\an8}You guys are so consistent.

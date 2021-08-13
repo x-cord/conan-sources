@@ -1,0 +1,386 @@
+﻿[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0010,0010,0015,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0015,0015,0015,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: Police,Trebuchet MS,22,&H00649687,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0050,0070,0
+Style: Facility,Trebuchet MS,16,&H0051300A,&H000000FF,&H00F4E4A0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0360,0010,0100,0
+Style: Taizo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00CD8793,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0010,0068,0
+Style: Izumi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H005E2A40,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0320,0010,0068,0
+Style: Group,Trebuchet MS,20,&H00664534,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0310,0010,0070,0
+Style: Sakaki,Trebuchet MS,20,&H00664534,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0158,0008,0
+Style: Kohei,Trebuchet MS,20,&H00664534,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0010,0155,0155,0
+Style: Rina,Trebuchet MS,20,&H00664534,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,3,0010,0040,0155,0
+Style: Kohei2,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0089363C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0130,0010,0068,0
+Style: Rina2,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00641A3F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0200,0068,0
+Style: Sakaisama,Trebuchet MS,20,&H003D422D,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,0290,0010,0010,0
+Style: Stairs,Trebuchet MS,20,&H00413F3D,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,9,0010,0010,0110,0
+Style: Exit,Trebuchet MS,22,&H007FAC42,&H000000FF,&H00CBEAE2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0010,0025,0120,0
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0060,0010,0010,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: DCNote - Copy,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,6,0015,0020,0015,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:08.17,0:00:08.92,DCMain,KOGORO,0000,0000,0000,,Wait!
+Dialogue: 0,0:00:08.92,0:00:09.90,DCMain,KOGORO,0000,0000,0000,,Stop!
+Dialogue: 0,0:00:10.17,0:00:11.65,DCMain,MAN A,0000,0000,0000,,S-Stay away!
+Dialogue: 0,0:00:16.64,0:00:17.53,DCMain,KOGORO,0000,0000,0000,,You're not getting away!
+Dialogue: 0,0:00:48.52,0:00:49.94,DCMain,CONAN,0000,0000,0000,,A canvas stained black with crime.
+Dialogue: 0,0:00:50.52,0:00:52.51,DCMain,CONAN,0000,0000,0000,,With brilliant detective \Nskills, its color is changed!
+Dialogue: 0,0:00:52.93,0:00:55.08,DCMain,CONAN,0000,0000,0000,,Kogoro-no-occhan has many weaknesses,
+Dialogue: 0,0:00:55.08,0:00:57.14,DCMain,CONAN,0000,0000,0000,,but he must overcome them!
+Dialogue: 0,0:00:57.14,0:01:00.92,DCMain,CONAN,0000,0000,0000,,Always determining the one truth with the \Nbody of a child and the mind of an adult,
+Dialogue: 0,0:01:00.92,0:01:03.33,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:43.01,0:02:49.02,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(403,1)}The Great Detective's Weakness
+Dialogue: 0,0:02:44.03,0:02:46.47,DCMain,CONAN,0000,0000,0000,,"The Great Detective's Weakness!"
+Dialogue: 0,0:02:49.02,0:02:54.02,Police,SIGN,0000,0000,0000,,Metropolitan Police Department
+Dialogue: 0,0:02:57.77,0:02:59.30,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:02:59.30,0:03:01.07,DCMain,KOGORO,0000,0000,0000,,The gun disappeared?
+Dialogue: 0,0:03:01.42,0:03:03.99,DCMain,KOGORO,0000,0000,0000,,Wh-What do you mean, Inspector?
+Dialogue: 0,0:03:04.22,0:03:06.33,DCMain,MEGURE,0000,0000,0000,,When we arrested the suspect,
+Dialogue: 0,0:03:06.33,0:03:09.50,DCMain,MEGURE,0000,0000,0000,,he didn't have a gun, much less a knife.
+Dialogue: 0,0:03:09.50,0:03:12.29,DCMain,KOGORO,0000,0000,0000,,B-But...
+Dialogue: 0,0:03:12.29,0:03:17.19,DCMain,TAKAGI,0000,0000,0000,,Yes. We're certain he robbed \Na bank and fired a gun.
+Dialogue: 0,0:03:17.19,0:03:21.30,DCMain,CHIBA,0000,0000,0000,,It's also a fact that when \Nyou determined his location,
+Dialogue: 0,0:03:21.69,0:03:23.78,DCMain,CHIBA,0000,0000,0000,,he fired at you and ran,
+Dialogue: 0,0:03:24.01,0:03:25.14,DCMain,CHIBA,0000,0000,0000,,which means...
+Dialogue: 0,0:03:25.52,0:03:30.64,DCMain,MEGURE,0000,0000,0000,,He must've either hid it or \Nthrown it away somewhere.
+Dialogue: 0,0:03:31.50,0:03:32.72,DCMain,CONAN,0000,0000,0000,,It's strange.
+Dialogue: 0,0:03:33.48,0:03:36.37,DCMain,CONAN,0000,0000,0000,,They didn't find a gun when \Nthey searched the area
+Dialogue: 0,0:03:36.37,0:03:38.73,DCMain,CONAN,0000,0000,0000,,where he was arrested, either, right?
+Dialogue: 0,0:03:38.73,0:03:40.25,DCMain,TAKAGI,0000,0000,0000,,C-Conan-kun!
+Dialogue: 0,0:03:40.25,0:03:41.15,DCMain,CHIBA,0000,0000,0000,,Ran-san.
+Dialogue: 0,0:03:41.33,0:03:44.03,DCMain,RAN,0000,0000,0000,,I was worried about you, Dad.
+Dialogue: 0,0:03:44.28,0:03:47.14,DCMain,KOGORO,0000,0000,0000,,This is just a scratch.
+Dialogue: 0,0:03:47.14,0:03:48.32,DCMain,KOGORO,0000,0000,0000,,Ow, ow!
+Dialogue: 0,0:03:49.24,0:03:49.90,DCMain,,0000,0000,0000,,Jeez...
+Dialogue: 0,0:03:55.66,0:03:57.04,DCMain,,0000,0000,0000,,Ow...
+Dialogue: 0,0:03:58.42,0:04:01.92,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:04:17.48,0:04:22.82,DCItalic,TAKAGI,0000,0000,0000,,Because he had that experience when \Nhe already had a fear of heights,
+Dialogue: 0,0:04:23.33,0:04:26.32,DCItalic,TAKAGI,0000,0000,0000,,he's in a mild state of shock.
+Dialogue: 0,0:04:26.65,0:04:30.58,DCItalic,TAKAGI,0000,0000,0000,,Well, the doctor said he'll be back to normal
+Dialogue: 0,0:04:30.58,0:04:33.83,DCItalic,TAKAGI,0000,0000,0000,,if he stays in and rests for a while.
+Dialogue: 0,0:04:34.70,0:04:36.26,DCMain,KOGORO,0000,0000,0000,,Damn it...
+Dialogue: 0,0:04:36.64,0:04:39.00,DCMain,KOGORO,0000,0000,0000,,It's already been two days since then.
+Dialogue: 0,0:04:39.51,0:04:42.69,DCMain,KOGORO,0000,0000,0000,,I'm the great detective Mori Kogoro.
+Dialogue: 0,0:04:42.69,0:04:44.24,DCMain,KOGORO,0000,0000,0000,,This is pathetic.
+Dialogue: 0,0:04:45.36,0:04:46.21,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:46.21,0:04:47.01,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:04:47.19,0:04:52.18,DCMain,RAN,0000,0000,0000,,Dad, didn't the doctor \Nsay you shouldn't drink?
+Dialogue: 0,0:04:53.17,0:04:54.56,DCMain,KOGORO,0000,0000,0000,,Shut up.
+Dialogue: 0,0:04:55.32,0:04:56.71,DCMain,KOGORO,0000,0000,0000,,I know.
+Dialogue: 0,0:04:58.56,0:05:18.58,Facility,TEXT,0000,0000,0000,,In Front of Toto Detention Facility
+Dialogue: 0,0:04:58.86,0:05:03.78,Taizo,TEXT,0000,0000,0000,,{\fad(250,250)}Sakaki Taizo (43) \NForward Trading Group \NRepresentative
+Dialogue: 0,0:04:59.44,0:05:01.51,DCItalic,SAKAKI,0000,0000,0000,,{\a6}Bail was expensive.
+Dialogue: 0,0:05:01.90,0:05:05.33,DCItalic,SAKAKI,0000,0000,0000,,{\a6}If you're innocent, the \Ncourthouse is the real scam.
+Dialogue: 0,0:05:06.57,0:05:07.57,DCItalic,SAKAKI,0000,0000,0000,,Just kidding.
+Dialogue: 0,0:05:08.17,0:05:11.56,DCItalic,REPORTER,0000,0000,0000,,Defendant Sakaki Taizo has \Njust been released on bail.
+Dialogue: 0,0:05:11.56,0:05:16.15,DCItalic,REPORTER,0000,0000,0000,,He will later stand trial \Nfor fraud charges that...
+Dialogue: 0,0:05:16.45,0:05:17.17,DCItalic,REPORTER,0000,0000,0000,,What?
+Dialogue: 0,0:05:34.38,0:05:35.34,DCMain,KOGORO,0000,0000,0000,,That's...
+Dialogue: 0,0:05:36.74,0:05:38.90,DCItalic,REPORTER,0000,0000,0000,,H-He's been shot!
+Dialogue: 0,0:05:39.21,0:05:41.90,DCItalic,REPORTER,0000,0000,0000,,Sakaki has been shot!
+Dialogue: 0,0:05:42.15,0:05:42.91,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:05:42.91,0:05:44.09,DCMain,RAN,0000,0000,0000,,No way!
+Dialogue: 0,0:05:44.09,0:05:45.29,DCMain,KOGORO,0000,0000,0000,,Damn it.
+Dialogue: 0,0:05:45.29,0:05:46.53,DCMain,KOGORO,0000,0000,0000,,That gun was...
+Dialogue: 0,0:05:53.90,0:05:55.05,DCMain,MEGURE,0000,0000,0000,,Hello?
+Dialogue: 0,0:05:55.05,0:05:56.58,DCMain,MEGURE,0000,0000,0000,,Oh, Mori-kun.
+Dialogue: 0,0:05:57.24,0:05:59.98,DCMain,MEGURE,0000,0000,0000,,Sorry, but I need to head to the crime scene.
+Dialogue: 0,0:06:01.43,0:06:02.57,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:06:02.57,0:06:04.60,DCMain,MEGURE,0000,0000,0000,,The suspect used that gun?
+Dialogue: 0,0:06:05.13,0:06:09.22,DCNote,SIGN,0000,0000,0000,,{\fad(1,3522)}Beika Northern Hospital
+Dialogue: 0,0:06:20.65,0:06:23.65,DCNote,SIGN,0000,0000,0000,,Forensic Investigation Laboratory
+Dialogue: 0,0:06:20.93,0:06:22.32,DCMain,TAKAGI,0000,0000,0000,,It's a match!
+Dialogue: 0,0:06:22.84,0:06:23.65,DCMain,TAKAGI,0000,0000,0000,,That's right.
+Dialogue: 0,0:06:23.97,0:06:26.15,DCMain,TAKAGI,0000,0000,0000,,It's definitely the same gun.
+Dialogue: 0,0:06:27.26,0:06:28.11,DCMain,CHIBA,0000,0000,0000,,Yes.
+Dialogue: 0,0:06:27.69,0:06:36.16,DCNote,SIGN,0000,0000,0000,,Sakaki-sama
+Dialogue: 0,0:06:28.60,0:06:30.83,DCMain,CHIBA,0000,0000,0000,,It's a serious wound that will \Ntake a full month to heal.
+Dialogue: 0,0:06:30.83,0:06:33.96,DCMain,CHIBA,0000,0000,0000,,But since it was only a .22 caliber gun,
+Dialogue: 0,0:06:34.34,0:06:36.16,DCMain,CHIBA,0000,0000,0000,,he'll survive.
+Dialogue: 0,0:06:37.24,0:06:39.73,DCMain,CONAN,0000,0000,0000,,Are you sure you're okay, Mister?
+Dialogue: 0,0:06:40.06,0:06:42.47,DCMain,CONAN,0000,0000,0000,,Ran-neechan was worried about you.
+Dialogue: 0,0:06:42.47,0:06:45.64,DCMain,KOGORO,0000,0000,0000,,As long as I don't go \Nanywhere high, I'm fine.
+Dialogue: 0,0:06:45.64,0:06:48.43,DCMain,KOGORO,0000,0000,0000,,And this is my case.
+Dialogue: 0,0:06:48.43,0:06:51.18,DCMain,KOGORO,0000,0000,0000,,I'll get that gun back with my own two hands.
+Dialogue: 0,0:06:51.43,0:06:54.18,DCMain,CONAN,0000,0000,0000,,That's fine, but...
+Dialogue: 0,0:06:54.42,0:06:56.06,DCItalic,MAN A,0000,0000,0000,,S-Stay away!
+Dialogue: 0,0:06:56.32,0:06:59.06,DCMain,CONAN,0000,0000,0000,,Did the robber holding the gun
+Dialogue: 0,0:07:01.18,0:07:04.31,DCMain,CONAN,0000,0000,0000,,and the man who was shot have \Nanything to do with each other?
+Dialogue: 0,0:07:04.58,0:07:07.20,DCMain,KOGORO,0000,0000,0000,,What? Of course not.
+Dialogue: 0,0:07:07.20,0:07:11.78,DCMain,KOGORO,0000,0000,0000,,The gun ended up in the current \Nsuspect's hands by total coincidence.
+Dialogue: 0,0:07:12.47,0:07:14.20,DCMain,KOGORO,0000,0000,0000,,It probably happened then.
+Dialogue: 0,0:07:31.89,0:07:34.09,DCMain,CONAN,0000,0000,0000,,Was there anyone there?
+Dialogue: 0,0:07:34.30,0:07:37.88,DCMain,CONAN,0000,0000,0000,,Did you see anyone suspicious \Nwhile you were chasing the robber?
+Dialogue: 0,0:07:37.88,0:07:42.85,DCMain,KOGORO,0000,0000,0000,,I came back to the crime \Nscene so I could remember...
+Dialogue: 0,0:07:44.38,0:07:45.36,DCMain,KOGORO,0000,0000,0000,,Now that you mention it...
+Dialogue: 0,0:07:46.93,0:07:48.14,DCItalic,KOGORO,0000,0000,0000,,Wait!
+Dialogue: 0,0:07:57.35,0:07:58.12,DCItalic,KOGORO,0000,0000,0000,,Excuse me!
+Dialogue: 0,0:08:00.28,0:08:01.38,DCItalic,KOGORO,0000,0000,0000,,You're not getting away!
+Dialogue: 0,0:08:03.73,0:08:05.96,DCMain,KOGORO,0000,0000,0000,,Could she have taken the gun?
+Dialogue: 0,0:08:05.96,0:08:07.90,DCMain,CONAN,0000,0000,0000,,Do you remember her face?
+Dialogue: 0,0:08:09.60,0:08:11.63,DCMain,CONAN,0000,0000,0000,,What about her clothes or possessions?
+Dialogue: 0,0:08:12.99,0:08:16.43,DCMain,KOGORO,0000,0000,0000,,I think she had a tote bag
+Dialogue: 0,0:08:17.42,0:08:19.36,DCMain,KOGORO,0000,0000,0000,,and a convenience store bag!
+Dialogue: 0,0:08:20.29,0:08:21.58,DCMain,CONAN,0000,0000,0000,,Mister, look.
+Dialogue: 0,0:08:24.42,0:08:25.40,DCMain,KOGORO,0000,0000,0000,,You know her?
+Dialogue: 0,0:08:25.86,0:08:26.90,DCMain,KOGORO,0000,0000,0000,,Really?
+Dialogue: 0,0:08:27.19,0:08:30.00,DCMain,EMPLOYEE,0000,0000,0000,,She's probably one of our regulars.
+Dialogue: 0,0:08:30.00,0:08:30.90,DCMain,KOGORO,0000,0000,0000,,What's her name?
+Dialogue: 0,0:08:30.90,0:08:32.32,DCMain,EMPLOYEE,0000,0000,0000,,I don't know that much.
+Dialogue: 0,0:08:32.32,0:08:36.16,DCMain,EMPLOYEE,0000,0000,0000,,But she always comes out \Nof that apartment building.
+Dialogue: 0,0:08:40.68,0:08:42.16,DCMain,CONAN,0000,0000,0000,,Mister, look.
+Dialogue: 0,0:08:44.86,0:08:46.42,DCMain,CONAN,0000,0000,0000,,This license plate.
+Dialogue: 0,0:08:50.34,0:08:51.86,DCMain,KOGORO,0000,0000,0000,,It's the suspect's motorcycle.
+Dialogue: 0,0:08:52.20,0:08:55.22,DCMain,CONAN,0000,0000,0000,,Does that mean they're in room 403?
+Dialogue: 0,0:08:55.38,0:08:57.64,DCMain,KOGORO,0000,0000,0000,,All right! I found you.
+Dialogue: 0,0:08:58.20,0:09:00.68,DCMain,CONAN,0000,0000,0000,,Shouldn't you call Inspector Megure?
+Dialogue: 0,0:09:00.68,0:09:02.44,DCMain,KOGORO,0000,0000,0000,,I know.
+Dialogue: 0,0:09:02.44,0:09:05.04,DCMain,KOGORO,0000,0000,0000,,And what are you doing here, anyway?
+Dialogue: 0,0:09:05.04,0:09:07.44,DCMain,KOGORO,0000,0000,0000,,It's too dangerous. You should go home.
+Dialogue: 0,0:09:07.44,0:09:09.19,DCMain,KOGORO,0000,0000,0000,,Inspector, this is Mori.
+Dialogue: 0,0:09:09.39,0:09:12.07,DCMain,CONAN,0000,0000,0000,,I'm here because I'm worried about you!
+Dialogue: 0,0:09:12.07,0:09:14.44,DCMain,CONAN,0000,0000,0000,,And you only just now noticed?
+Dialogue: 0,0:09:19.11,0:09:21.70,DCMain,KOGORO,0000,0000,0000,,Hey, I told you to go home \Nsince it's too dangerous.
+Dialogue: 0,0:09:21.91,0:09:22.86,DCMain,CONAN,0000,0000,0000,,Forget about that.
+Dialogue: 0,0:09:22.86,0:09:23.86,DCMain,CONAN,0000,0000,0000,,Hurry up.
+Dialogue: 0,0:09:29.43,0:09:32.15,DCMain,KOGORO,0000,0000,0000,,Where's room 403?
+Dialogue: 0,0:09:34.82,0:09:36.12,DCMain,KOGORO,0000,0000,0000,,Y-You!
+Dialogue: 0,0:09:44.44,0:09:45.48,DCMain,KOGORO,0000,0000,0000,,Wait!
+Dialogue: 0,0:09:56.78,0:09:57.49,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:10:19.64,0:10:20.78,DCItalic,CONAN,0000,0000,0000,,This smell...
+Dialogue: 0,0:10:22.24,0:10:23.73,DCMain,TAKAGI,0000,0000,0000,,Th-This is...
+Dialogue: 0,0:10:24.88,0:10:26.24,DCMain,CHIBA,0000,0000,0000,,Th-The suspect's...
+Dialogue: 0,0:10:31.52,0:10:32.94,DCItalic,CONAN,0000,0000,0000,,Damn it!
+Dialogue: 0,0:10:41.02,0:10:42.78,DCMain,TAKAGI,0000,0000,0000,,We've identified the suspect.
+Dialogue: 0,0:10:43.31,0:10:45.54,DCMain,TAKAGI,0000,0000,0000,,Onda Izumi, twenty-five years old.
+Dialogue: 0,0:10:45.83,0:10:48.50,DCMain,TAKAGI,0000,0000,0000,,She's a clerk at a nearby printing company.
+Dialogue: 0,0:10:48.79,0:10:52.71,DCMain,TAKAGI,0000,0000,0000,,{\an8}Unbelievably, she was once a candidate \Nfor the Olympic shooting team.
+Dialogue: 0,0:10:50.29,0:10:53.00,Izumi,TEXT,0000,0000,0000,,{\fad(250,1)}Onda Izumi (25) \NOffice Clerk
+Dialogue: 0,0:10:53.58,0:10:58.38,DCMain,CHIBA,0000,0000,0000,,Her motive was her father \Nwhose factory went bankrupt
+Dialogue: 0,0:10:58.38,0:11:04.89,DCNote,SIGN,0000,0000,0000,,Onda Machines
+Dialogue: 0,0:10:58.79,0:11:02.61,DCMain,CHIBA,0000,0000,0000,,after he invested a large sum of \Nmoney in the Sakaki Group's futures.
+Dialogue: 0,0:11:03.26,0:11:05.55,DCMain,CHIBA,0000,0000,0000,,He killed himself six months ago.
+Dialogue: 0,0:11:06.00,0:11:10.50,DCMain,CHIBA,0000,0000,0000,,Her mother later fell ill and \Njoined her father in death.
+Dialogue: 0,0:11:11.38,0:11:12.38,DCMain,CHIBA,0000,0000,0000,,Also...
+Dialogue: 0,0:11:16.57,0:11:19.40,Group,TEXT,0000,0000,0000,,{\fad(335,1)}Sakaki Group
+Dialogue: 0,0:11:16.57,0:11:19.40,Sakaki,TEXT,0000,0000,0000,,{\fad(335,1)}Sakaki Taizo
+Dialogue: 0,0:11:16.57,0:11:19.40,Kohei,TEXT,0000,0000,0000,,{\fad(335,1)}Shibasaki Kohei
+Dialogue: 0,0:11:16.57,0:11:19.40,Rina,TEXT,0000,0000,0000,,{\fad(335,1)}Kadota Rina
+Dialogue: 0,0:11:18.78,0:11:20.89,DCMain,MEGURE,0000,0000,0000,,Wh-What?!
+Dialogue: 0,0:11:20.89,0:11:23.16,DCMain,MEGURE,0000,0000,0000,,She has other targets?!
+Dialogue: 0,0:11:26.03,0:11:28.83,DCNote,SIGN,0000,0000,0000,,Sakaki Group
+Dialogue: 0,0:11:47.78,0:11:49.21,DCMain,KOGORO,0000,0000,0000,,A-Are we there?
+Dialogue: 0,0:11:49.21,0:11:49.96,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:49.96,0:11:51.85,DCMain,CONAN,0000,0000,0000,,Are you okay, mister?
+Dialogue: 0,0:11:53.60,0:11:55.06,DCNote,KOGORO,0000,0000,0000,,Executive Room
+Dialogue: 0,0:11:54.40,0:11:56.35,DCMain,CONAN,0000,0000,0000,,Let go of me!
+Dialogue: 0,0:11:56.35,0:11:57.39,DCMain,KOGORO,0000,0000,0000,,Let go!
+Dialogue: 0,0:11:57.39,0:11:59.71,DCMain,CONAN,0000,0000,0000,,I said let go!
+Dialogue: 0,0:12:02.99,0:12:05.62,DCMain,KOGORO,0000,0000,0000,,You must be Shibasaki-san and Kadota-san.
+Dialogue: 0,0:12:05.87,0:12:09.29,Kohei2,TEXT,0000,0000,0000,,{\fad(250,250)}Shibasaki Kohei (35) \NTrader
+Dialogue: 0,0:12:07.24,0:12:11.39,DCMain,KOGORO,0000,0000,0000,,{\an8}You're Sakaki's right-hand men,
+Dialogue: 0,0:12:10.66,0:12:14.12,Rina2,TEXT,0000,0000,0000,,{\fad(250,1)}Kadota Rina (32) \NAnalyst
+Dialogue: 0,0:12:11.39,0:12:14.12,DCMain,KOGORO,0000,0000,0000,,{\an8}and will soon be arrested \Non fraud charges as well.
+Dialogue: 0,0:12:14.48,0:12:16.19,DCMain,SHIBASAKI,0000,0000,0000,,Wh-Who are you?
+Dialogue: 0,0:12:16.19,0:12:17.84,DCMain,KADOTA,0000,0000,0000,,Where do you think you are?
+Dialogue: 0,0:12:17.84,0:12:19.76,DCMain,CONAN,0000,0000,0000,,Sorry for showing up unannounced.
+Dialogue: 0,0:12:20.03,0:12:27.01,DCMain,CONAN,0000,0000,0000,,Did anyone ask you about \Nyour schedules today?
+Dialogue: 0,0:12:28.10,0:12:30.36,DCMain,SHIBASAKI,0000,0000,0000,,Our secretary just came to ask about that.
+Dialogue: 0,0:12:30.36,0:12:32.89,DCMain,SHIBASAKI,0000,0000,0000,,Someone from the media probably called.
+Dialogue: 0,0:12:33.31,0:12:35.44,DCMain,KOGORO,0000,0000,0000,,Was it a man or a woman?
+Dialogue: 0,0:12:35.77,0:12:38.86,DCMain,KADOTA,0000,0000,0000,,I believe they said it was \Na young woman's voice.
+Dialogue: 0,0:12:43.24,0:12:47.63,DCMain,SHIBASAKI,0000,0000,0000,,You want to be our bodyguard since \Nsomeone's trying to kill us?
+Dialogue: 0,0:12:47.63,0:12:49.24,DCMain,KADOTA,0000,0000,0000,,Can't you tell?
+Dialogue: 0,0:12:52.14,0:12:55.17,DCMain,KADOTA,0000,0000,0000,,That won't be necessary.
+Dialogue: 0,0:12:59.04,0:13:00.29,DCMain,KOGORO,0000,0000,0000,,Ow!
+Dialogue: 0,0:12:59.37,0:13:00.29,DCMain,CONAN,0000,0000,0000,,Ow!
+Dialogue: 0,0:13:01.33,0:13:03.26,DCMain,TAKAGI,0000,0000,0000,,Mori-san, Conan-kun.
+Dialogue: 0,0:13:03.26,0:13:04.59,DCMain,CHIBA,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:13:04.59,0:13:05.64,DCMain,KOGORO,0000,0000,0000,,Ouch...
+Dialogue: 0,0:13:06.50,0:13:08.09,DCMain,KOGORO,0000,0000,0000,,Hey, wait! You...
+Dialogue: 0,0:13:12.44,0:13:14.02,DCMain,CONAN,0000,0000,0000,,Are you okay, mister?
+Dialogue: 0,0:13:14.37,0:13:15.48,DCMain,KOGORO,0000,0000,0000,,Damn it...
+Dialogue: 0,0:13:15.75,0:13:17.12,DCMain,KOGORO,0000,0000,0000,,Takagi, Chiba!
+Dialogue: 0,0:13:17.12,0:13:18.06,DCMain,KOGORO,0000,0000,0000,,Where's the suspect?
+Dialogue: 0,0:13:18.41,0:13:21.27,DCMain,TAKAGI,0000,0000,0000,,O-Our APBs haven't found her yet.
+Dialogue: 0,0:13:21.27,0:13:23.86,DCMain,CHIBA,0000,0000,0000,,More importantly, you should rest, Mori-san.
+Dialogue: 0,0:13:24.36,0:13:26.71,DCMain,CHIBA,0000,0000,0000,,We'll secure the area.
+Dialogue: 0,0:13:26.71,0:13:29.49,DCMain,CHIBA,0000,0000,0000,,If the suspect shows up, \Nwe won't let her escape.
+Dialogue: 0,0:13:30.52,0:13:31.62,DCItalic,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:13:32.28,0:13:34.22,DCItalic,CONAN,0000,0000,0000,,Something just now didn't make sense...
+Dialogue: 0,0:13:34.94,0:13:36.46,DCItalic,CONAN,0000,0000,0000,,But what is it?
+Dialogue: 0,0:13:38.86,0:13:40.90,DCMain,KOGORO,0000,0000,0000,,It's been two hours, huh?
+Dialogue: 0,0:13:41.20,0:13:43.70,DCMain,KOGORO,0000,0000,0000,,What is the suspect doing?
+Dialogue: 0,0:13:43.70,0:13:45.01,DCMain,KOGORO,0000,0000,0000,,She should just come already.
+Dialogue: 0,0:13:45.25,0:13:49.99,DCMain,CONAN,0000,0000,0000,,Why didn't she come after these two first?
+Dialogue: 0,0:13:49.99,0:13:50.96,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:13:50.96,0:13:53.40,DCMain,CONAN,0000,0000,0000,,The suspect acquired the gun
+Dialogue: 0,0:13:53.40,0:13:56.95,DCMain,CONAN,0000,0000,0000,,two days before Sakaki posted bail.
+Dialogue: 0,0:13:56.95,0:14:02.15,DCMain,CONAN,0000,0000,0000,,The police didn't know she was \Nalso trying to kill these two then.
+Dialogue: 0,0:14:02.15,0:14:05.03,DCMain,KOGORO,0000,0000,0000,,She wanted to pick off \Nthe major target first.
+Dialogue: 0,0:14:06.62,0:14:07.65,DCMain,KOGORO,0000,0000,0000,,Wait a minute.
+Dialogue: 0,0:14:07.65,0:14:11.33,DCMain,KOGORO,0000,0000,0000,,He hadn't been released on bail yet.
+Dialogue: 0,0:14:11.72,0:14:12.99,DCMain,KOGORO,0000,0000,0000,,That is odd.
+Dialogue: 0,0:14:13.25,0:14:16.71,DCMain,CONAN,0000,0000,0000,,In the first place, she hasn't \Neven finished him off yet.
+Dialogue: 0,0:14:17.09,0:14:19.75,DCMain,CONAN,0000,0000,0000,,Her warning shot was accurate,
+Dialogue: 0,0:14:21.71,0:14:24.17,DCMain,CONAN,0000,0000,0000,,but she missed her target.
+Dialogue: 0,0:14:24.38,0:14:26.92,DCMain,KOGORO,0000,0000,0000,,She was riding a motorcycle then.
+Dialogue: 0,0:14:31.68,0:14:34.04,DCMain,KOGORO,0000,0000,0000,,Not even an Olympic candidate
+Dialogue: 0,0:14:35.38,0:14:37.81,DCMain,KOGORO,0000,0000,0000,,could've seen that coming.
+Dialogue: 0,0:14:38.22,0:14:42.48,DCMain,CONAN,0000,0000,0000,,It was a serious but non-fatal injury.
+Dialogue: 0,0:14:42.48,0:14:47.23,DCMain,CONAN,0000,0000,0000,,Would she really let the unexpected \Nremain the unexpected?
+Dialogue: 0,0:14:49.82,0:14:50.82,DCMain,KOGORO,0000,0000,0000,,That's it.
+Dialogue: 0,0:14:51.74,0:14:57.78,DCMain,KOGORO,0000,0000,0000,,In other words, the suspect asked \Nabout their schedules to mislead us.
+Dialogue: 0,0:14:57.78,0:15:00.42,DCMain,CONAN,0000,0000,0000,,Yeah, I think you're right.
+Dialogue: 0,0:15:00.42,0:15:06.09,DCMain,KOGORO,0000,0000,0000,,While we're distracted, she's going \Nto finish off her primary target.
+Dialogue: 0,0:15:06.38,0:15:10.67,DCMain,KOGORO,0000,0000,0000,,The still living Sakaki.
+Dialogue: 0,0:15:10.84,0:15:15.35,DCNote,SIGN,0000,0000,0000,,Emergency Drill Today
+Dialogue: 0,0:15:17.35,0:15:19.64,Sakaisama,SIGN,0000,0000,0000,,Sakaki-sama
+Dialogue: 0,0:15:22.54,0:15:25.15,DCMain,KOGORO,0000,0000,0000,,Wh-Where is Sakaki-san?
+Dialogue: 0,0:15:26.51,0:15:28.62,DCMain,SAKAKI,0000,0000,0000,,We should buy now.
+Dialogue: 0,0:15:28.62,0:15:31.15,DCMain,SAKAKI,0000,0000,0000,,We'll definitely sell soon.
+Dialogue: 0,0:15:36.92,0:15:38.10,DCMain,SAKAKI,0000,0000,0000,,You...
+Dialogue: 0,0:15:40.35,0:15:41.65,DCMain,SAKAKI,0000,0000,0000,,I see.
+Dialogue: 0,0:15:41.65,0:15:43.04,DCMain,SAKAKI,0000,0000,0000,,So it was you.
+Dialogue: 0,0:15:43.62,0:15:47.47,DCMain,ONDA,0000,0000,0000,,As long as you're around, nothing will start,
+Dialogue: 0,0:15:47.47,0:15:49.05,DCMain,ONDA,0000,0000,0000,,and nothing will end.
+Dialogue: 0,0:15:49.28,0:15:52.05,DCMain,KOGORO,0000,0000,0000,,It's not coming back down.
+Dialogue: 0,0:15:53.02,0:15:53.77,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:15:53.77,0:15:54.55,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:15:54.55,0:15:57.06,Stairs,SIGN,0000,0000,0000,,Stairs
+Dialogue: 0,0:15:55.74,0:15:57.06,DCMain,KOGORO,0000,0000,0000,,Seriously?
+Dialogue: 0,0:16:03.00,0:16:04.77,DCMain,KOGORO,0000,0000,0000,,What floor are we on?
+Dialogue: 0,0:16:09.10,0:16:11.27,DCMain,CONAN,0000,0000,0000,,Mister, are you okay?
+Dialogue: 0,0:16:11.27,0:16:12.33,DCMain,KOGORO,0000,0000,0000,,Of course.
+Dialogue: 0,0:16:12.33,0:16:13.66,DCMain,KOGORO,0000,0000,0000,,This is nothing.
+Dialogue: 0,0:16:14.00,0:16:15.66,DCMain,CONAN,0000,0000,0000,,I'm going on ahead, then.
+Dialogue: 0,0:16:16.37,0:16:17.78,DCMain,KOGORO,0000,0000,0000,,Wait, kid!
+Dialogue: 0,0:16:17.78,0:16:18.59,DCMain,KOGORO,0000,0000,0000,,It's too dangerous!
+Dialogue: 0,0:16:18.59,0:16:19.61,DCMain,KOGORO,0000,0000,0000,,We should go together!
+Dialogue: 0,0:16:19.98,0:16:20.78,DCMain,KOGORO,0000,0000,0000,,Damn it.
+Dialogue: 0,0:16:21.35,0:16:22.28,DCMain,KOGORO,0000,0000,0000,,Don't look.
+Dialogue: 0,0:16:22.28,0:16:23.92,DCMain,KOGORO,0000,0000,0000,,I won't look.
+Dialogue: 0,0:16:33.39,0:16:35.93,DCMain,CONAN,0000,0000,0000,,Mister, we can't get out this way!
+Dialogue: 0,0:16:37.15,0:16:38.69,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:16:39.67,0:16:41.97,DCMain,KOGORO,0000,0000,0000,,You should've said so sooner.
+Dialogue: 0,0:16:42.48,0:16:44.98,Exit,SIGN,0000,0000,0000,,Emergency Exit
+Dialogue: 0,0:16:42.99,0:16:43.99,DCMain,KOGORO,0000,0000,0000,,That's...
+Dialogue: 0,0:16:51.44,0:16:52.71,DCMain,SAKAKI,0000,0000,0000,,You idiot.
+Dialogue: 0,0:16:52.71,0:16:54.99,DCMain,SAKAKI,0000,0000,0000,,I'd never go anywhere alone.
+Dialogue: 0,0:16:55.16,0:16:56.69,DCMain,SAKAKI,0000,0000,0000,,This is self-defense!
+Dialogue: 0,0:16:56.69,0:16:58.12,DCMain,SAKAKI,0000,0000,0000,,Go to hell!
+Dialogue: 0,0:17:05.68,0:17:07.43,DCMain,KOGORO,0000,0000,0000,,Don't underestimate me.
+Dialogue: 0,0:17:08.11,0:17:09.89,DCMain,KOGORO,0000,0000,0000,,Just because it's high...
+Dialogue: 0,0:17:09.89,0:17:11.37,DCMain,KOGORO,0000,0000,0000,,Even if I'm scared...
+Dialogue: 0,0:17:11.66,0:17:14.69,DCMain,KOGORO,0000,0000,0000,,I'm the great detective...
+Dialogue: 0,0:17:15.13,0:17:17.14,DCMain,KOGORO,0000,0000,0000,,Mori Kogoro!
+Dialogue: 0,0:17:20.94,0:17:22.27,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:17:37.99,0:17:39.62,DCMain,CONAN,0000,0000,0000,,You did it, old man.
+Dialogue: 0,0:17:53.61,0:17:54.61,DCMain,KOGORO,0000,0000,0000,,Don't shoot!
+Dialogue: 0,0:17:56.46,0:17:57.30,DCMain,KOGORO,0000,0000,0000,,Don't shoot.
+Dialogue: 0,0:17:57.59,0:17:58.68,DCMain,ONDA,0000,0000,0000,,Move!
+Dialogue: 0,0:17:58.68,0:18:00.26,DCMain,ONDA,0000,0000,0000,,If you don't, you'll...
+Dialogue: 0,0:18:02.48,0:18:05.31,DCMain,KOGORO,0000,0000,0000,,Give up, Izumi-san.
+Dialogue: 0,0:18:20.20,0:18:22.45,DCMain,KOGORO,0000,0000,0000,,D-Don't be stupid! Stop!
+Dialogue: 0,0:18:23.30,0:18:25.36,DCMain,IZUMI,0000,0000,0000,,If I can't even avenge them,
+Dialogue: 0,0:18:25.36,0:18:29.71,DCMain,IZUMI,0000,0000,0000,,I should kill my spineless self.
+Dialogue: 0,0:18:30.78,0:18:35.15,DCMain,KOGORO,0000,0000,0000,,I finally understand why you \Ndidn't try to kill those two.
+Dialogue: 0,0:18:36.58,0:18:37.63,DCMain,KOGORO,0000,0000,0000,,You had doubts.
+Dialogue: 0,0:18:37.92,0:18:39.58,DCItalic,CONAN,0000,0000,0000,,U-Uh-oh.
+Dialogue: 0,0:18:44.90,0:18:46.69,DCMain,KOGORO,0000,0000,0000,,Hello, Inspector.
+Dialogue: 0,0:18:46.69,0:18:47.74,DCMain,KOGORO,0000,0000,0000,,I need a favor.
+Dialogue: 0,0:18:47.74,0:18:48.89,DCMain,KOGORO,0000,0000,0000,,Please hurry.
+Dialogue: 0,0:18:49.73,0:18:52.56,DCMain,KOGORO,0000,0000,0000,,Once this guy had been arrested,
+Dialogue: 0,0:18:52.56,0:18:55.90,DCMain,KOGORO,0000,0000,0000,,you had given up on your revenge, hadn't you?
+Dialogue: 0,0:18:59.62,0:19:02.71,DCMain,KOGORO,0000,0000,0000,,Call it a detective's hunch, but Izumi-san,
+Dialogue: 0,0:19:02.71,0:19:06.64,DCMain,KOGORO,0000,0000,0000,,you were in the middle of shopping then.
+Dialogue: 0,0:19:06.95,0:19:08.81,DCMain,KOGORO,0000,0000,0000,,You had overcome your rage and sadness,
+Dialogue: 0,0:19:09.06,0:19:12.08,DCMain,KOGORO,0000,0000,0000,,and were returning to your normal life.
+Dialogue: 0,0:19:12.56,0:19:13.47,DCMain,KOGORO,0000,0000,0000,,Am I wrong?
+Dialogue: 0,0:19:15.19,0:19:19.42,DCMain,KOGORO,0000,0000,0000,,But at the bottom of your \Nheart, you still had doubts.
+Dialogue: 0,0:19:20.04,0:19:26.04,DCMain,KOGORO,0000,0000,0000,,That's why you picked up the gun \Nthe robber happened to drop.
+Dialogue: 0,0:19:31.36,0:19:34.21,DCMain,KOGORO,0000,0000,0000,,But you still had doubts.
+Dialogue: 0,0:19:37.55,0:19:40.13,DCMain,KOGORO,0000,0000,0000,,You didn't try to attack the other two.
+Dialogue: 0,0:19:40.13,0:19:43.40,DCMain,KOGORO,0000,0000,0000,,But two days later, when you learned \NSakaki was to be released on bail,
+Dialogue: 0,0:19:43.40,0:19:45.64,DCMain,KOGORO,0000,0000,0000,,your desire for revenge was reignited.
+Dialogue: 0,0:19:46.36,0:19:50.19,DCMain,KOGORO,0000,0000,0000,,But why would you try to kill yourself?
+Dialogue: 0,0:19:50.54,0:19:52.89,DCMain,KOGORO,0000,0000,0000,,Spineless? You're wrong.
+Dialogue: 0,0:19:53.15,0:19:58.46,DCMain,KOGORO,0000,0000,0000,,Izumi-san, are you sure you didn't have some \Nkind of personal relationship with this man?
+Dialogue: 0,0:20:04.92,0:20:07.97,DCItalic,KOGORO,0000,0000,0000,,I need you to search the premises again.
+Dialogue: 0,0:20:10.10,0:20:11.02,DCItalic,TAKAGI,0000,0000,0000,,I found it.
+Dialogue: 0,0:20:11.02,0:20:11.48,DCItalic,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:15.47,0:20:16.48,DCItalic,KOGORO,0000,0000,0000,,Takagi?
+Dialogue: 0,0:20:17.90,0:20:19.20,DCItalic,KOGORO,0000,0000,0000,,Th-This is...
+Dialogue: 0,0:20:22.72,0:20:24.68,DCMain,IZUMI,0000,0000,0000,,You really are a great detective.
+Dialogue: 0,0:20:24.98,0:20:26.41,DCMain,IZUMI,0000,0000,0000,,You're right.
+Dialogue: 0,0:20:27.54,0:20:31.75,DCMain,IZUMI,0000,0000,0000,,They trusted him because he \Nwas dating their daughter.
+Dialogue: 0,0:20:32.48,0:20:33.66,DCMain,IZUMI,0000,0000,0000,,But my father...
+Dialogue: 0,0:20:34.30,0:20:35.27,DCMain,IZUMI,0000,0000,0000,,My mother...
+Dialogue: 0,0:20:36.32,0:20:40.26,DCMain,IZUMI,0000,0000,0000,,The only thing I can't do is forgive myself!
+Dialogue: 0,0:20:40.65,0:20:43.90,DCMain,KOGORO,0000,0000,0000,,But without a gun...
+Dialogue: 0,0:20:43.90,0:20:46.84,DCMain,KOGORO,0000,0000,0000,,If I'd secured it then...
+Dialogue: 0,0:20:47.82,0:20:48.96,DCMain,KOGORO,0000,0000,0000,,It may have been a coincidence,
+Dialogue: 0,0:20:49.25,0:20:51.52,DCMain,KOGORO,0000,0000,0000,,but I'm responsible for \Nletting you pick it up.
+Dialogue: 0,0:20:52.30,0:20:54.89,DCMain,KOGORO,0000,0000,0000,,So if you're going to \Nshoot someone, shoot me.
+Dialogue: 0,0:20:55.55,0:20:56.44,DCMain,KOGORO,0000,0000,0000,,Don't die!
+Dialogue: 0,0:20:58.93,0:21:00.11,DCItalic,CONAN,0000,0000,0000,,Old man!
+Dialogue: 0,0:21:02.37,0:21:03.66,DCMain,ONDA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:21:05.17,0:21:08.14,DCMain,ONDA,0000,0000,0000,,But it's too late.
+Dialogue: 0,0:21:08.45,0:21:09.74,DCMain,KOGORO,0000,0000,0000,,Stop!
+Dialogue: 0,0:21:17.88,0:21:19.42,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:21:19.42,0:21:21.42,DCNote,SIGN,0000,0000,0000,,Emergency Drill Today
+Dialogue: 0,0:21:35.47,0:21:36.67,DCMain,CONAN,0000,0000,0000,,They made it in time.
+Dialogue: 0,0:21:39.65,0:21:44.98,DCMain,CONAN,0000,0000,0000,,Later, Kisaki-sensei agreed \Nto represent Izumi-san.
+Dialogue: 0,0:21:45.30,0:21:49.28,DCMain,CONAN,0000,0000,0000,,New evidence of the fraud \Ngroup's crimes was found,
+Dialogue: 0,0:21:48.45,0:21:53.45,DCNote - Copy,TEXT,0000,0000,0000,,{\fad(2192,1)}Two Employees Arrested Simultaneously
+Dialogue: 0,0:21:49.28,0:21:51.10,DCMain,CONAN,0000,0000,0000,,and the investigation was reopened.
+Dialogue: 0,0:21:49.82,0:21:53.45,DCNote,TEXT,0000,0000,0000,,Sakaki Arrested Again
+Dialogue: 0,0:23:13.45,0:23:16.45,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:23:13.96,0:23:15.84,DCMain,KOGORO,0000,0000,0000,,All right!
+Dialogue: 0,0:23:18.08,0:23:20.16,DCMain,KOGORO,0000,0000,0000,,I'm all better!
+Dialogue: 0,0:23:27.31,0:23:29.16,DCMain,KOGORO,0000,0000,0000,,Ouch...
+Dialogue: 0,0:23:30.42,0:23:32.74,DCMain,KOGORO,0000,0000,0000,,I'm not better yet.
+Dialogue: 0,0:23:35.09,0:23:37.66,DCMain,CONAN,0000,0000,0000,,You've just had too much to drink.
+Dialogue: 0,0:23:37.66,0:23:39.86,DCMain,RAN,0000,0000,0000,,Oh, Dad.
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.78,0:23:47.57,DCMain,CONAN,0000,0000,0000,,It's room 901, right?
+Dialogue: 0,0:23:47.57,0:23:49.90,DCMain,KOGORO,0000,0000,0000,,Yeah, on the top floor.
+Dialogue: 0,0:23:49.90,0:23:51.86,DCMain,KOGORO,0000,0000,0000,,Hey, you snuck into the car, didn't you?
+Dialogue: 0,0:23:51.86,0:23:53.28,DCMain,SHINKAI,0000,0000,0000,,Die!
+Dialogue: 0,0:23:58.06,0:24:00.04,DCMain,SHINKAI,0000,0000,0000,,I-I did it...
+Dialogue: 0,0:24:04.80,0:24:06.29,DCMain,KOGORO,0000,0000,0000,,It's Takarada-san.
+Dialogue: 0,0:24:06.55,0:24:09.05,DCMain,SHINKAI,0000,0000,0000,,Yeah, it serves him right.
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,TEXT,0000,0000,0000,,The Man Who Died Twice \N(Part One)
+Dialogue: 0,0:24:09.74,0:24:13.99,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The \NMan Who Died Twice, Part One!"
+Dialogue: 0,0:24:30.07,0:24:35.07,Hint,TEXT,0000,0000,0000,,Announcement Letter
+Dialogue: 0,0:24:30.40,0:24:32.35,DCMain,RAN,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.74,0:24:34.72,DCMain,CONAN,0000,0000,0000,,An announcement letter!
+Dialogue: 0,0:24:35.07,0:24:36.18,DCMain,KOGORO,0000,0000,0000,,{\an8}Next time I'll really shine!
+Dialogue: 0,0:24:35.07,0:24:40.08,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.18,0:24:36.64,DCMain,CONAN,0000,0000,0000,,{\an8}Why?
+Dialogue: 0,0:24:36.64,0:24:38.53,DCMain,KOGORO,0000,0000,0000,,{\an8}Because Double-Oh-Kogoro only lives twice.
+Dialogue: 0,0:24:38.53,0:24:39.80,DCMain,CONAN,0000,0000,0000,,{\an8}I don't get it.
+Dialogue: 0,0:24:39.80,0:24:41.80,DCMain,,0000,0000,0000,,
