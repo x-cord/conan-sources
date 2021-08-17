@@ -38,12 +38,16 @@ directories = list(directories)
 directories.sort()
 
 values = ["|"+("|".join([""] + directories))+"|", "|"+("|".join(["---"] + [":-:"]*len(directories)))+"|"]
+partial = "Japanese" not in directories
 
 for ep, dirs in headers.items():
     val = [f"**{ep}**"]
     for directory in directories:
         val.append("x" if directory in dirs else "")
-    values.append("|"+("|".join(val))+"|")
+    jv = "|".join(val)
+    if partial and jv == "|".join(val[:1] + [""]*(len(val)-1)):
+        continue
+    values.append("|"+jv+"|")
 
 print("## Breakdown")
 print("\n".join(values))
