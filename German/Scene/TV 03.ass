@@ -1,0 +1,1794 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 384
+PlayResY: 288
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Forced,Arial,16,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,0
+Style: Default,Arial,16,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,10,10,10,0
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.13,0:00:02.05,Forced,,0,0,0,,ACHTUNG\NUNBEFUGTES BETRETEN VERBOTEN
+Dialogue: 0,0:00:13.10,0:00:16.52,Forced,,0,0,0,,KÖNIGREICH VESPANIA
+Dialogue: 0,0:00:18.06,0:00:21.31,Forced,,0,0,0,,WALD IM PRIVATBESITZ DER KÖNIGSFAMILIE
+Dialogue: 0,0:00:40.00,0:00:43.29,Forced,,0,0,0,,GERARD MUSCA VESPALAND\NHERZOG DES KÖNIGREICHS VESPANIA
+Dialogue: 0,0:00:44.13,0:00:48.51,Forced,,0,0,0,,GILL COWELL VESPALAND\NKRONPRINZ DES KÖNIGREICHS VESPANIA
+Dialogue: 0,0:01:38.18,0:01:42.35,Forced,,0,0,0,,SAKURA\NKÖNIGIN DES KÖNIGREICHS VESPANIA
+Dialogue: 0,0:04:57.26,0:04:58.05,Forced,,0,0,0,,EILMELDUNG
+Dialogue: 0,0:04:58.21,0:05:01.46,Forced,,0,0,0,,VESPANIAS KÖNIGIN SAKURA UND PRINZ GILL\NBEI UNFALL GESTORBEN
+Dialogue: 0,0:05:08.14,0:05:12.14,Forced,,0,0,0,,WIR UNTERBRECHEN DIE SENDUNG\NFÜR EINE EIL-SONDERSENDUNG.
+Dialogue: 0,0:05:12.31,0:05:15.56,Forced,,0,0,0,,KÖNIGIN VON VESPANIA\NGESTORBEN!
+Dialogue: 0,0:05:48.01,0:05:50.05,Forced,,0,0,0,,DETEKTIV CONAN
+Dialogue: 0,0:05:50.22,0:05:50.89,Forced,,0,0,0,,LUPIN
+Dialogue: 0,0:05:51.14,0:05:52.14,Forced,,0,0,0,,DER DRITTE
+Dialogue: 0,0:05:53.06,0:05:57.06,Forced,,0,0,0,,LUPIN III. VS. DETEKTIV CONAN
+Dialogue: 0,0:06:49.53,0:06:52.32,Forced,,0,0,0,,INTERNATIONALER FLUGHAFEN VON VESPANIA
+Dialogue: 0,0:06:57.13,0:06:58.96,Forced,,0,0,0,,SIEBEN TAGE SPÄTER
+Dialogue: 0,0:07:00.04,0:07:04.38,Forced,,0,0,0,,KÖNIGSPALAST VON VESPANIA
+Dialogue: 0,0:07:16.64,0:07:21.56,Forced,,0,0,0,,KEITH DAN STINGER\NGRAF DES KÖNIGREICHS VESPANIA
+Dialogue: 0,0:08:41.06,0:08:45.31,Forced,,0,0,0,,MIRA JULIETTA VESPALAND\NNÄCHSTE KÖNIGIN VON VESPANIA
+Dialogue: 0,0:09:45.21,0:09:48.46,Forced,,0,0,0,,ACHT STUNDEN SPÄTER\N22:26 UHR
+Dialogue: 0,0:09:55.05,0:09:59.30,Forced,,0,0,0,,PRIVATMASCHINE DES KÖNIGSHAUSES\NVON VESPANIA HEBT IN RICHTUNG JAPAN AB
+Dialogue: 0,0:11:17.59,0:11:22.89,Forced,,0,0,0,,VESPANIA – VESPALAND-PLATZ\N12:15 UHR
+Dialogue: 0,0:12:08.69,0:12:09.44,Forced,,0,0,0,,VERTRAULICH
+Dialogue: 0,0:12:30.29,0:12:33.25,Forced,,0,0,0,,TOKYO – HOTEL SAKURASAKU\N18:02 UHR
+Dialogue: 0,0:12:37.80,0:12:39.84,Forced,,0,0,0,,HOTEL SAKURASAKU\NEMPFANGSFEIER
+Dialogue: 0,0:16:38.12,0:16:41.91,Forced,,0,0,0,,HOTEL SAKURASAKU\N18:37 UHR
+Dialogue: 0,0:17:41.44,0:17:45.19,Forced,,0,0,0,,HOTEL SAKURASAKU\NKONFERENZRAUM
+Dialogue: 0,0:21:35.34,0:21:38.93,Forced,,0,0,0,,NUR FÜR HOTELPERSONAL
+Dialogue: 0,0:27:25.31,0:27:29.19,Forced,,0,0,0,,ÖFFENTLICHE DAMENTOILETTE\NZEHN MINUTEN SPÄTER
+Dialogue: 0,0:29:22.14,0:29:25.60,Forced,,0,0,0,,19:37 UHR
+Dialogue: 0,0:36:09.21,0:36:13.42,Forced,,0,0,0,,HOTEL SAKURASAKU\N20:21 UHR
+Dialogue: 0,0:40:13.54,0:40:16.54,Forced,,0,0,0,,STEINBRUCH,\NIN DEM DAS VESPANIA-ERZ ENTDECKT WURDE
+Dialogue: 0,0:40:18.79,0:40:20.92,Forced,,0,0,0,,(BETRETEN STRENGSTENS VERBOTEN)
+Dialogue: 0,0:40:41.11,0:40:42.28,Forced,,0,0,0,,STROMSCHALTER
+Dialogue: 0,0:42:03.44,0:42:04.57,Forced,,0,0,0,,WÜNSCHELRUTENGEHEN:
+Dialogue: 0,0:42:04.77,0:42:08.36,Forced,,0,0,0,,METHODE, UM VERBORGENE UNTERIRDISCHE\NWASSER- ODER ERZADERN ZU FINDEN
+Dialogue: 0,0:42:18.95,0:42:20.37,Forced,,0,0,0,,TOKYO\NKABUKICHÔ
+Dialogue: 0,0:42:42.94,0:42:44.11,Forced,,0,0,0,,KAITEN-ZUSHI
+Dialogue: 0,0:43:21.56,0:43:24.98,Forced,,0,0,0,,KAITEN-ZUSHI\N1 TELLER AB 120 YEN
+Dialogue: 0,0:48:30.49,0:48:33.53,Forced,,0,0,0,,AM NÄCHSTEN TAG\N05:08 UHR
+Dialogue: 0,0:49:17.25,0:49:21.17,Forced,,0,0,0,,HANEDA, NEUES TERMINAL\NFÜR INTERNATIONALE FLÜGE, 09:36 UHR
+Dialogue: 0,0:49:30.05,0:49:32.93,Forced,,0,0,0,,PRINZESSIN VON VESPANIA\NPRESSEKONFERENZ
+Dialogue: 0,0:50:07.00,0:50:09.33,Forced,,0,0,0,,PRINZESSIN VON VESPANIA\NPRESSEKONFERENZ
+Dialogue: 0,0:50:23.90,0:50:24.94,Forced,,0,0,0,,PRESSEKONFERENZ
+Dialogue: 0,0:52:44.58,0:52:46.50,Forced,,0,0,0,,BUCHT VON HANEDA\NZUR GLEICHEN ZEIT
+Dialogue: 0,0:53:34.67,0:53:38.17,Forced,,0,0,0,,NOCH ACHTEINHALB STUNDEN\NBIS NACH VESPANIA
+Dialogue: 0,0:55:21.03,0:55:23.99,Forced,,0,0,0,,NOCH DREI STUNDEN\NBIS NACH VESPANIA
+Dialogue: 0,0:56:58.00,0:56:59.67,Forced,,0,0,0,,WIE KÖNNTE ES ANDERS SEIN...
+Dialogue: 0,0:57:12.26,0:57:15.01,Forced,,0,0,0,,AM NÄCHSTEN MORGEN\N09:00 UHR
+Dialogue: 0,1:05:28.72,1:05:31.60,Forced,,0,0,0,,KÖNIGSPALAST VON VESPANIA\N12:32 UHR
+Dialogue: 0,1:07:10.78,1:07:14.03,Forced,,0,0,0,,KÖNIGSPALAST\NEMPFANGSSAAL FÜR EHRENGÄSTE
+Dialogue: 0,1:07:57.82,1:07:59.70,Forced,,0,0,0,,SPEISESAAL
+Dialogue: 0,1:08:00.33,1:08:02.71,Forced,,0,0,0,,RAN ERKLÄRT
+Dialogue: 0,1:08:03.20,1:08:05.70,Forced,,0,0,0,,KOGORÔ ERKLÄRT
+Dialogue: 0,1:08:47.12,1:08:48.83,Forced,,0,0,0,,DER DUBIOSE MANN...
+Dialogue: 0,1:11:02.84,1:11:05.47,Forced,,0,0,0,,GEBEN WIR IHR NOCH FÜNF MINUTEN
+Dialogue: 0,1:11:31.16,1:11:33.50,Forced,,0,0,0,,KÖNIGSPALAST – WAFFENKAMMER
+Dialogue: 0,1:16:06.77,1:16:09.27,Forced,,0,0,0,,15:45 UHR
+Dialogue: 0,1:18:16.23,1:18:18.19,Forced,,0,0,0,,ZWEI VOM SELBEN SCHLAG...
+Dialogue: 0,1:18:28.91,1:18:30.95,Forced,,0,0,0,,TRAUMPAARE...
+Dialogue: 0,1:21:26.05,1:21:29.34,Forced,,0,0,0,,SCHLAFSPRAY
+Dialogue: 0,1:21:51.74,1:21:53.45,Forced,,0,0,0,,INFRAROT\NTEMPERATUR / GEWICHT
+Dialogue: 0,1:23:57.41,1:24:00.41,Forced,,0,0,0,,KÖNIGSPALAST – GARTENPAVILLON\N17:32 UHR
+Dialogue: 0,1:30:12.66,1:30:14.87,Forced,,0,0,0,,IM KÖNIGSPALAST – TOILETTEN
+Dialogue: 0,1:30:15.08,1:30:17.08,Forced,,0,0,0,,SCHLAFSPRAY
+Dialogue: 0,1:30:22.50,1:30:24.50,Forced,,0,0,0,,DER SCHLAFENDE KOGORÔ
+Dialogue: 0,1:37:34.35,1:37:38.19,Forced,,0,0,0,,NEBEN GERARD WURDEN NOCH DREI WACHEN\NSCHWER UND ZWEI WACHEN LEICHT VERLETZT.
+Dialogue: 0,1:37:44.15,1:37:46.49,Forced,,0,0,0,,AM NÄCHSTEN TAG\N10:27 UHR
+Dialogue: 0,1:41:59.86,1:42:01.78,Forced,,0,0,0,,HAB MIR DEN KNIRPS GEKRALLT.\NLUPIN
+Dialogue: 0,1:43:30.41,1:43:33.20,Forced,,0,0,0,,DAS SCHIFF DES FREUNDES
+Dialogue: 0,1:43:43.80,1:43:45.13,Forced,,0,0,0,,MENU / SLIDESHOW\NFAVORITEN
+Dialogue: 0,1:43:47.51,1:43:48.97,Forced,,0,0,0,,ZU FAVORITEN HINZUFÜGEN
+Dialogue: 0,1:43:49.06,1:43:50.89,Forced,,0,0,0,,GESPEICHERT
+Dialogue: 0,1:44:11.62,1:44:14.91,Forced,,0,0,0,,ENDE
+Dialogue: 0,0:00:30.99,0:00:33.16,Default,,0,0,0,,Punkt A erreicht.\NWerden nun beginnen.
+Dialogue: 0,0:00:33.32,0:00:35.61,Default,,0,0,0,,Hier alles normal.\NAlle Teams auf Position.
+Dialogue: 0,0:01:03.77,0:01:05.90,Default,,0,0,0,,Ihr bleibt bitte hier auf Bereitschaft.
+Dialogue: 0,0:01:06.57,0:01:08.99,Default,,0,0,0,,Sind wir zu viele,\Nentkommt uns die Beute.
+Dialogue: 0,0:01:12.78,0:01:14.41,Default,,0,0,0,,Das werde ich übernehmen.
+Dialogue: 0,0:01:14.99,0:01:18.45,Default,,0,0,0,,Ich habe dir gezeigt,\Nwie man sie benutzt. Du erinnerst dich?
+Dialogue: 0,0:01:18.83,0:01:20.33,Default,,0,0,0,,Ja, ganz genau.
+Dialogue: 0,0:01:20.58,0:01:23.08,Default,,0,0,0,,Ah...\NHätte ich es lieber vergessen sollen?
+Dialogue: 0,0:01:23.58,0:01:25.33,Default,,0,0,0,,Nein, so ist es durchaus besser.
+Dialogue: 0,0:01:25.50,0:01:26.50,Default,,0,0,0,,Hier, bitte.
+Dialogue: 0,0:01:27.75,0:01:31.38,Default,,0,0,0,,Oh! Es ist mir eine Ehre, sie\Nvon Euch selbst in Empfang zu nehmen.
+Dialogue: 0,0:01:31.97,0:01:35.10,Default,,0,0,0,,Mutter...\NWillst du uns wirklich nicht begleiten?
+Dialogue: 0,0:01:35.47,0:01:37.35,Default,,0,0,0,,Nein, lieber nicht.
+Dialogue: 0,0:01:38.18,0:01:42.35,Default,,0,0,0,,SAKURA, KÖNIGIN DES KÖNIGREICHS VESPANIA\N– Die Jagd ist mir zu barbarisch.
+Dialogue: 0,0:01:42.69,0:01:47.24,Default,,0,0,0,,Die Jagd ist doch nicht barbarisch,\Nsondern ein angesehener, nobler Sport!
+Dialogue: 0,0:01:47.40,0:01:48.78,Default,,0,0,0,,Lasst sie nur, Hoheit.
+Dialogue: 0,0:01:48.98,0:01:51.73,Default,,0,0,0,,Lasst uns einen Wettstreit\Nunter Männern ausfechten.
+Dialogue: 0,0:01:52.65,0:01:55.61,Default,,0,0,0,,Die Freuden der Jagd\Nversteht man nur als Mann.
+Dialogue: 0,0:01:55.78,0:01:57.07,Default,,0,0,0,,Das habe ich gehört.
+Dialogue: 0,0:01:57.24,0:01:59.49,Default,,0,0,0,,Ah, ach je, das...
+Dialogue: 0,0:03:03.06,0:03:04.90,Default,,0,0,0,,Du darfst hier nicht bleiben...
+Dialogue: 0,0:03:05.06,0:03:07.81,Default,,0,0,0,,Husch, mein Kleiner! Lauf weg!
+Dialogue: 0,0:03:39.55,0:03:40.55,Default,,0,0,0,,Mutter!
+Dialogue: 0,0:03:41.39,0:03:42.39,Default,,0,0,0,,Oh nein...
+Dialogue: 0,0:03:44.31,0:03:45.31,Default,,0,0,0,,Das darf nicht...
+Dialogue: 0,0:03:47.98,0:03:49.02,Default,,0,0,0,,Das darf nicht wahr sein!
+Dialogue: 0,0:03:52.44,0:03:53.69,Default,,0,0,0,,Kommt her! Schnell!
+Dialogue: 0,0:03:53.86,0:03:54.65,Default,,0,0,0,,Ja!
+Dialogue: 0,0:03:54.82,0:03:56.40,Default,,0,0,0,,– Mach du den Wagen bereit!\N– Ja!
+Dialogue: 0,0:04:11.75,0:04:12.75,Default,,0,0,0,,Herzog Gerard!
+Dialogue: 0,0:04:17.01,0:04:19.64,Default,,0,0,0,,Ich hatte keine Chance mehr,\Nihn aufzuhalten.
+Dialogue: 0,0:04:25.72,0:04:26.72,Default,,0,0,0,,Verfehlt!
+Dialogue: 0,0:04:26.77,0:04:28.23,Default,,0,0,0,,Vier Würfe hintereinander!
+Dialogue: 0,0:04:28.39,0:04:30.81,Default,,0,0,0,,- Oje...\N- Kein Out und alle Bases besetzt...
+Dialogue: 0,0:04:31.10,0:04:32.60,Default,,0,0,0,,Sehr gut!
+Dialogue: 0,0:04:32.94,0:04:34.82,Default,,0,0,0,,Bier, Bier!
+Dialogue: 0,0:04:34.98,0:04:36.44,Default,,0,0,0,,Haha, mehr Bier...
+Dialogue: 0,0:04:36.82,0:04:39.45,Default,,0,0,0,,Das ist schon die fünfte Dose!\NDu trinkst zu viel!
+Dialogue: 0,0:04:39.70,0:04:41.66,Default,,0,0,0,,Ach, hab ein wenig Nachsicht mit ihm.
+Dialogue: 0,0:04:41.82,0:04:43.74,Default,,0,0,0,,Das ist doch seine einzige Freude...
+Dialogue: 0,0:04:44.62,0:04:46.37,Default,,0,0,0,,Enttäusch mich nicht, Rumi-chan!
+Dialogue: 0,0:04:46.54,0:04:50.75,Default,,0,0,0,,Ein Fly Ball ins Außenfeld reicht schon!\NOder noch besser: ein Homerun!
+Dialogue: 0,0:04:50.92,0:04:52.88,Default,,0,0,0,,Warum hast du dir gleich zwei geholt?
+Dialogue: 0,0:04:53.04,0:04:54.75,Default,,0,0,0,,Aber keinen Strikeout bitte, ja?
+Dialogue: 0,0:04:54.92,0:04:56.09,Default,,0,0,0,,Paps!
+Dialogue: 0,0:04:58.21,0:05:01.46,Default,,0,0,0,,VESPANIA: KÖNIGIN UND PRINZ UMGEKOMMEN\N- So, was wird Ochino tun?
+Dialogue: 0,0:05:03.51,0:05:06.51,Default,,0,0,0,,Wir unterbrechen die Live-Übertragung\Nfür eine Eilmeldung.
+Dialogue: 0,0:05:06.68,0:05:08.06,Default,,0,0,0,,Hey, hey! Halt!
+Dialogue: 0,0:05:08.22,0:05:11.01,Default,,0,0,0,,- Um 10:20 Uhr Ortszeit...\N– Nicht ausgerechnet jetzt!
+Dialogue: 0,0:05:11.19,0:05:14.15,Default,,0,0,0,,...sind Königin Sakura\Nund Kronprinz Gill von Vespania
+Dialogue: 0,0:05:14.31,0:05:17.06,Default,,0,0,0,,bei einem Jagdunfall verstorben.\NIch wiederhole:
+Dialogue: 0,0:05:17.36,0:05:20.61,Default,,0,0,0,,Königin Sakura und Prinz Gill\Nvon Vespania sind verstorben.
+Dialogue: 0,0:05:20.90,0:05:22.15,Default,,0,0,0,,Das Land war neulich
+Dialogue: 0,0:05:22.32,0:05:24.86,Default,,0,0,0,,- in den Schlagzeilen wegen...\N– Ein Jagdunfall?
+Dialogue: 0,0:05:24.95,0:05:26.99,Default,,0,0,0,,...der Entdeckung einer neuen Erz-Art.
+Dialogue: 0,0:05:27.49,0:05:29.28,Default,,0,0,0,,Königin Sakura liebte Japan und...
+Dialogue: 0,0:07:00.34,0:07:04.30,Default,,0,0,0,,Die Trauerfeier mit den Ehrengästen\Nwird erst in einem Monat stattfinden.
+Dialogue: 0,0:07:04.76,0:07:08.01,Default,,0,0,0,,Bei einem tragischen Unfall wie diesem\Nist das unvermeidlich.
+Dialogue: 0,0:07:08.89,0:07:10.81,Default,,0,0,0,,Und ich war direkt bei ihm...
+Dialogue: 0,0:07:10.97,0:07:12.47,Default,,0,0,0,,Einfach schrecklich.
+Dialogue: 0,0:07:12.97,0:07:16.18,Default,,0,0,0,,Hätte ich wenigstens den Prinzen\Nzurückhalten können...
+Dialogue: 0,0:07:16.64,0:07:19.43,Default,,0,0,0,,GRAF KEITH DAN STINGER\N– Das ist nicht mehr zu ändern.
+Dialogue: 0,0:07:19.61,0:07:21.36,Default,,0,0,0,,Machen Sie sich keine Vorwürfe.
+Dialogue: 0,0:07:21.90,0:07:23.48,Default,,0,0,0,,Denken wir an die Zukunft.
+Dialogue: 0,0:07:24.11,0:07:26.90,Default,,0,0,0,,Ja...\NDanke für Ihre netten Worte.
+Dialogue: 0,0:07:28.53,0:07:30.24,Default,,0,0,0,,Wie geht es Prinzessin Mira?
+Dialogue: 0,0:07:30.58,0:07:31.66,Default,,0,0,0,,Unverändert.
+Dialogue: 0,0:07:32.45,0:07:35.33,Default,,0,0,0,,Sie weigert sich weiterhin,\NKönigin zu werden.
+Dialogue: 0,0:07:36.21,0:07:40.34,Default,,0,0,0,,Sie verlor auf einen Schlag Mutter und\NBruder. Die Reaktion ist verständlich.
+Dialogue: 0,0:07:40.84,0:07:41.84,Default,,0,0,0,,Dennoch...
+Dialogue: 0,0:07:43.55,0:07:44.59,Default,,0,0,0,,In dieser Lage...
+Dialogue: 0,0:07:48.34,0:07:50.68,Default,,0,0,0,,Wir sind gegen eine Königin Mira!
+Dialogue: 0,0:07:50.85,0:07:52.77,Default,,0,0,0,,Uns soll kein Backfisch regieren!
+Dialogue: 0,0:07:53.14,0:07:55.14,Default,,0,0,0,,Schafft die Monarchie ab!
+Dialogue: 0,0:07:56.23,0:07:57.94,Default,,0,0,0,,Die Gegner der Prinzessin...
+Dialogue: 0,0:07:58.44,0:08:01.86,Default,,0,0,0,,Dass sie es wagen, ihre Prinzessin\Neinen "Backfisch" zu nennen...
+Dialogue: 0,0:08:02.48,0:08:05.48,Default,,0,0,0,,Einige sollen selbst\Nvor Anschlägen nicht zurückschrecken.
+Dialogue: 0,0:08:06.19,0:08:09.78,Default,,0,0,0,,– Beim Schutz der Prinzessin\Nverlasse ich mich ganz auf Sie. – Ja.
+Dialogue: 0,0:08:09.95,0:08:12.87,Default,,0,0,0,,Schafft die Monarchie ab!\NSchafft die Monarchie ab!
+Dialogue: 0,0:08:15.08,0:08:18.00,Default,,0,0,0,,Worauf wartet ihr?\NBringt diese Kerle zum Schweigen!
+Dialogue: 0,0:08:18.37,0:08:20.12,Default,,0,0,0,,Bitte versucht Euch zu beruhigen...
+Dialogue: 0,0:08:20.33,0:08:21.12,Default,,0,0,0,,Halt den Mund!
+Dialogue: 0,0:08:21.29,0:08:23.58,Default,,0,0,0,,Ist es euch egal,\Nwas die über mich sagen?
+Dialogue: 0,0:08:23.75,0:08:27.34,Default,,0,0,0,,Keith! Wo ist Keith?\NSchnell, ruft Keith her!
+Dialogue: 0,0:08:27.97,0:08:29.14,Default,,0,0,0,,Ich bin hier, Hoheit.
+Dialogue: 0,0:08:30.09,0:08:32.43,Default,,0,0,0,,Was ist passiert, Prinzessin Mira?
+Dialogue: 0,0:08:32.89,0:08:34.64,Default,,0,0,0,,Pah, du kannst es doch hören.
+Dialogue: 0,0:08:34.81,0:08:37.27,Default,,0,0,0,,Diese Rufe...\NDas ist die Stimme des Volkes.
+Dialogue: 0,0:08:38.56,0:08:40.90,Default,,0,0,0,,Sie brauchen es mir\Ngar nicht erst zu sagen!
+Dialogue: 0,0:08:41.73,0:08:45.19,Default,,0,0,0,,Wer würde denn schon\NKönig eines Landes werden wollen!
+Dialogue: 0,0:08:45.36,0:08:48.78,Default,,0,0,0,,Ihr seid nun die Nächste\Nin der Thronfolge, Königliche Hoheit.
+Dialogue: 0,0:08:48.95,0:08:51.79,Default,,0,0,0,,Bitte quengelt nicht weiter\Nund findet Euch damit ab.
+Dialogue: 0,0:08:51.95,0:08:53.33,Default,,0,0,0,,Das werde ich nicht tun.
+Dialogue: 0,0:08:53.91,0:08:57.50,Default,,0,0,0,,Mein Bruder hätte der nächste König\Ndieses Landes werden sollen.
+Dialogue: 0,0:08:59.54,0:09:02.29,Default,,0,0,0,,Dieser Meinung war ich immer.
+Dialogue: 0,0:09:04.13,0:09:05.80,Default,,0,0,0,,Wenn ich zur Sache kommen darf...
+Dialogue: 0,0:09:05.96,0:09:08.88,Default,,0,0,0,,Ihr werdet als Teil Eurer Amtspflicht\Nnach Japan reisen.
+Dialogue: 0,0:09:09.05,0:09:10.13,Default,,0,0,0,,Nach Japan?
+Dialogue: 0,0:09:10.93,0:09:13.14,Default,,0,0,0,,Kommt nicht infrage.\NIch habe es gehört!
+Dialogue: 0,0:09:13.30,0:09:15.93,Default,,0,0,0,,Es gibt Leute,\Ndie mir Schaden zufügen wollen!
+Dialogue: 0,0:09:16.72,0:09:19.14,Default,,0,0,0,,Ich werde\Nkeinen Schritt von hier weg tun!
+Dialogue: 0,0:09:20.02,0:09:22.69,Default,,0,0,0,,Wir werden Euch\Nmit unserem Leben beschützen.
+Dialogue: 0,0:09:23.73,0:09:27.28,Default,,0,0,0,,Zudem lassen wir Euch\Nvom perfekten Bodyguard begleiten.
+Dialogue: 0,0:09:28.23,0:09:29.27,Default,,0,0,0,,Kommen Sie rein.
+Dialogue: 0,0:09:34.57,0:09:36.11,Default,,0,0,0,,Hallo Prinzessin!
+Dialogue: 0,0:09:38.79,0:09:41.21,Default,,0,0,0,,Ich kann Männer mit Bärten\Nnicht ausstehen.
+Dialogue: 0,0:10:05.77,0:10:06.85,Default,,0,0,0,,Hi. Weitermachen.
+Dialogue: 0,0:10:08.61,0:10:11.53,Default,,0,0,0,,Bitte unterweisen Sie mich\Nwieder mal im Scharfschießen!
+Dialogue: 0,0:10:11.69,0:10:13.15,Default,,0,0,0,,Aber gerne doch.
+Dialogue: 0,0:10:13.53,0:10:14.53,Default,,0,0,0,,Jigen-sensei!
+Dialogue: 0,0:10:14.91,0:10:16.41,Default,,0,0,0,,Lass das "Sensei" bitte weg.
+Dialogue: 0,0:10:17.03,0:10:19.57,Default,,0,0,0,,Wir dachten,\NSie seien mit nach Japan gereist?
+Dialogue: 0,0:10:19.83,0:10:21.54,Default,,0,0,0,,Die Prinzessin mag mich nicht.
+Dialogue: 0,0:10:21.79,0:10:22.62,Default,,0,0,0,,Bitte?
+Dialogue: 0,0:10:22.79,0:10:25.58,Default,,0,0,0,,Eine Frage...\NIst da drin die "Queen's Crown",
+Dialogue: 0,0:10:25.75,0:10:28.38,Default,,0,0,0,,die Krone, die die Prinzessin\Nzur Krönung tragen wird?
+Dialogue: 0,0:10:28.54,0:10:30.04,Default,,0,0,0,,Ja. Wollen Sie sie sehen?
+Dialogue: 0,0:10:30.25,0:10:32.88,Default,,0,0,0,,Was? Darf ich das denn?
+Dialogue: 0,0:10:44.35,0:10:46.77,Default,,0,0,0,,Das ist also\Ndie "Queen's Crown"...
+Dialogue: 0,0:10:47.10,0:10:50.94,Default,,0,0,0,,Der kostbarste Schatz Vespanias,\Nseit Generationen weitervererbt.
+Dialogue: 0,0:10:51.19,0:10:53.40,Default,,0,0,0,,Oho... Ich bin beeindruckt.
+Dialogue: 0,0:10:53.57,0:10:54.61,Default,,0,0,0,,Nicht, Sensei!
+Dialogue: 0,0:10:55.49,0:10:56.78,Default,,0,0,0,,Ich stibitze sie nicht.
+Dialogue: 0,0:10:57.07,0:11:00.86,Default,,0,0,0,,Nein. Aber von dort an haben wir\Nkeine Kontrolle mehr über das System.
+Dialogue: 0,0:11:01.74,0:11:05.12,Default,,0,0,0,,Sobald Sie den Raum betreten,\Nwerden Sie sofort eingesperrt.
+Dialogue: 0,0:11:05.67,0:11:09.17,Default,,0,0,0,,Das Passwort, das den Raum\Nwieder öffnet, kennen wir auch nicht.
+Dialogue: 0,0:11:09.34,0:11:10.34,Default,,0,0,0,,Oh?
+Dialogue: 0,0:11:10.75,0:11:12.58,Default,,0,0,0,,Das wäre natürlich unangenehm.
+Dialogue: 0,0:11:16.51,0:11:18.59,Default,,0,0,0,,Ja, das ist wirklich unangenehm.
+Dialogue: 0,0:11:18.84,0:11:21.01,Default,,0,0,0,,Die beschützen sie ja\Nwie ihren Augapfel.
+Dialogue: 0,0:11:21.18,0:11:22.85,Default,,0,0,0,,Das ist ja fast übervorsichtig!
+Dialogue: 0,0:11:23.22,0:11:26.64,Default,,0,0,0,,Mal angenommen, ich würde\Neinen Fuß auf den Boden setzen...
+Dialogue: 0,0:11:27.73,0:11:29.65,Default,,0,0,0,,"Out" wegen der Gewichtssensoren.
+Dialogue: 0,0:11:30.40,0:11:31.98,Default,,0,0,0,,Würde ich denen ausweichen...
+Dialogue: 0,0:11:33.82,0:11:36.03,Default,,0,0,0,,"Out" wegen der Infrarotsensoren.
+Dialogue: 0,0:11:36.90,0:11:38.53,Default,,0,0,0,,Und würde ich denen ausweichen...
+Dialogue: 0,0:11:40.16,0:11:42.29,Default,,0,0,0,,"Out" wegen der Temperatursensoren.
+Dialogue: 0,0:11:42.87,0:11:45.16,Default,,0,0,0,,Und dreimal "out" bedeutet Strikeout...
+Dialogue: 0,0:11:45.58,0:11:46.79,Default,,0,0,0,,Weil irgendjemand mal
+Dialogue: 0,0:11:47.21,0:11:49.38,Default,,0,0,0,,erfolglos versucht hat,\Ndie Krone zu stehlen,
+Dialogue: 0,0:11:49.54,0:11:52.33,Default,,0,0,0,,sind die Sicherheitsmaßnahmen\Nnun übermäßig streng.
+Dialogue: 0,0:11:52.50,0:11:54.58,Default,,0,0,0,,Ich habe es nicht "erfolglos versucht"!
+Dialogue: 0,0:11:54.76,0:11:56.55,Default,,0,0,0,,Und? Was tust du jetzt?
+Dialogue: 0,0:11:57.09,0:12:00.68,Default,,0,0,0,,Gibst du es auf und machst Sightseeing?\NGesponsert von meinem Lohn?
+Dialogue: 0,0:12:01.51,0:12:04.30,Default,,0,0,0,,Hab ich jemals\Nirgendwas aufgegeben?
+Dialogue: 0,0:12:04.81,0:12:06.64,Default,,0,0,0,,Darum kriege ich immer Probleme.
+Dialogue: 0,0:12:06.98,0:12:08.15,Default,,0,0,0,,Guck mal, hier.
+Dialogue: 0,0:12:09.60,0:12:10.73,Default,,0,0,0,,Prahlst du als Hacker?
+Dialogue: 0,0:12:10.90,0:12:13.53,Default,,0,0,0,,Nicht doch. Dieser tolle Stein
+Dialogue: 0,0:12:14.02,0:12:16.06,Default,,0,0,0,,wird diesmal unser Giücksbringer sein!
+Dialogue: 0,0:12:16.49,0:12:18.03,Default,,0,0,0,,Vespania-Erz...
+Dialogue: 0,0:12:25.16,0:12:26.16,Default,,0,0,0,,Huch?
+Dialogue: 0,0:12:29.25,0:12:32.34,Default,,0,0,0,,Nr. 2 an Zentrale: Sind nun\Nüber dem Hotel Sakurasaku.
+Dialogue: 0,0:12:32.75,0:12:34.83,Default,,0,0,0,,Haben wir einen VIP-Schutzauftrag?
+Dialogue: 0,0:12:35.38,0:12:37.13,Default,,0,0,0,,Hier Zentrale. Bis jetzt nicht.
+Dialogue: 0,0:12:40.01,0:12:42.85,Default,,0,0,0,,Also wirklich! Das wäre doch\Ndie Chance für sie,
+Dialogue: 0,0:12:43.01,0:12:45.97,Default,,0,0,0,,gut aussehende TV-Stars\Nund Sportler en masse zu treffen!
+Dialogue: 0,0:12:46.14,0:12:47.85,Default,,0,0,0,,Aber sie muss zum Karatetraining!
+Dialogue: 0,0:12:48.18,0:12:50.43,Default,,0,0,0,,Die Leute haben\Nseltsame Prioritäten, was?
+Dialogue: 0,0:12:50.60,0:12:53.52,Default,,0,0,0,,Ran hat echt einen komischen Geschmack.\NUnverständlich.
+Dialogue: 0,0:12:53.98,0:12:56.40,Default,,0,0,0,,Eigentlich hab ich\Ndamit dich gemeint...
+Dialogue: 0,0:12:56.78,0:12:59.91,Default,,0,0,0,,Sie sagte, sie komme, wenn auch später.\NDann wollen wir mal!
+Dialogue: 0,0:13:00.07,0:13:01.61,Default,,0,0,0,,Was meint er denn damit?
+Dialogue: 0,0:13:02.24,0:13:03.28,Default,,0,0,0,,Das ist doch klar...
+Dialogue: 0,0:13:04.03,0:13:05.82,Default,,0,0,0,,Er sucht nach Yôko Okino.
+Dialogue: 0,0:13:05.99,0:13:08.20,Default,,0,0,0,,– Die Hoffnung stirbt zuletzt, was?\N– Jepp.
+Dialogue: 0,0:13:09.29,0:13:12.63,Default,,0,0,0,,Bist du verrückt? Ich soll\Nzu einer Feier, so, wie es mir geht?
+Dialogue: 0,0:13:13.00,0:13:15.17,Default,,0,0,0,,– Ich sagte doch...\N– Ich habe verstanden.
+Dialogue: 0,0:13:16.00,0:13:20.13,Default,,0,0,0,,Dann wollt Ihr diese auf Wunsch\NEurer Mutter organisierte Feier absagen
+Dialogue: 0,0:13:20.30,0:13:22.97,Default,,0,0,0,,und ohne ein Wort\Nan das trauernde japanische Volk
+Dialogue: 0,0:13:23.18,0:13:24.85,Default,,0,0,0,,wieder nach Vespania zurückke...
+Dialogue: 0,0:13:25.01,0:13:26.18,Default,,0,0,0,,Sei doch still!
+Dialogue: 0,0:13:27.31,0:13:28.64,Default,,0,0,0,,Eure Königliche Hoheit...
+Dialogue: 0,0:13:30.81,0:13:32.73,Default,,0,0,0,,Wir haben bereits Verspätung.
+Dialogue: 0,0:13:32.94,0:13:35.57,Default,,0,0,0,,– Macht die Prinzessin schnell zurecht.\N– J... jawohl!
+Dialogue: 0,0:13:37.07,0:13:38.20,Default,,0,0,0,,Prinzessin Mira...
+Dialogue: 0,0:13:40.24,0:13:41.28,Default,,0,0,0,,Ich hasse das.
+Dialogue: 0,0:13:43.28,0:13:44.82,Default,,0,0,0,,Na, haben Sie Yôko gefunden?
+Dialogue: 0,0:13:44.99,0:13:46.78,Default,,0,0,0,,Nein, sie war nirgends zu sehen.
+Dialogue: 0,0:13:50.96,0:13:53.21,Default,,0,0,0,,Verehrte Anwesende,\Ndanke für Ihre Geduld!
+Dialogue: 0,0:13:53.50,0:13:55.63,Default,,0,0,0,,Empfangen Sie nun mit großem Applaus
+Dialogue: 0,0:13:56.00,0:13:57.71,Default,,0,0,0,,unseren Überraschungsgast:
+Dialogue: 0,0:13:57.88,0:14:01.01,Default,,0,0,0,,Ihre Königliche Hoheit\NPrinzessin Mira von Vespania!
+Dialogue: 0,0:14:01.17,0:14:04.13,Default,,0,0,0,,Begrüßen Sie unseren\NÜberraschungsgast: Prinzessin Mira!
+Dialogue: 0,0:14:04.64,0:14:07.60,Default,,0,0,0,,Die Prinzessin ist im Saal.\NBehaltet die Gäste im Auge.
+Dialogue: 0,0:14:08.14,0:14:10.23,Default,,0,0,0,,Jeder, der den Saal verlassen will,
+Dialogue: 0,0:14:10.43,0:14:12.89,Default,,0,0,0,,- muss beschattet werden.\N– Verstanden.
+Dialogue: 0,0:14:13.56,0:14:17.10,Default,,0,0,0,,Hier ist Team Lobby. Wir schließen\Nden Haupteingang vorübergehend.
+Dialogue: 0,0:14:17.61,0:14:19.95,Default,,0,0,0,,Neuankömmlinge\Nschicken wir zum Seiteneingang.
+Dialogue: 0,0:14:20.11,0:14:22.36,Default,,0,0,0,,– Habt ihr gehört, Team B?\N- Verstanden!
+Dialogue: 0,0:14:22.99,0:14:24.57,Default,,0,0,0,,Bitte setzt Euch!
+Dialogue: 0,0:14:32.66,0:14:33.66,Default,,0,0,0,,Ran?!
+Dialogue: 0,0:14:33.79,0:14:35.21,Default,,0,0,0,,Sie gleicht Ran aufs Haar!
+Dialogue: 0,0:14:37.92,0:14:39.88,Default,,0,0,0,,Ran würde sich nie so aufdonnern.
+Dialogue: 0,0:14:41.71,0:14:42.71,Default,,0,0,0,,...tschi!
+Dialogue: 0,0:14:43.42,0:14:46.01,Default,,0,0,0,,Oh nein!\NOb ich mich beim Duschen verkühlt habe?
+Dialogue: 0,0:14:47.64,0:14:49.68,Default,,0,0,0,,Wah, es ist schon so spät?
+Dialogue: 0,0:14:50.47,0:14:52.60,Default,,0,0,0,,Sonoko wird sicher sauer sein...
+Dialogue: 0,0:14:54.35,0:14:58.44,Default,,0,0,0,,Prinzessin Mira, wärt Ihr so freundlich,\Nein paar Worte an uns zu richten?
+Dialogue: 0,0:15:03.94,0:15:07.61,Default,,0,0,0,,Ihre Königliche Hoheit freut sich\Nüber ihren ersten Besuch in Japan.
+Dialogue: 0,0:15:07.95,0:15:10.70,Default,,0,0,0,,Nanu? Der Kerl hinter ihr\Nhat angefangen zu reden.
+Dialogue: 0,0:15:11.54,0:15:13.29,Default,,0,0,0,,Die wirkt ja echt unsympathisch.
+Dialogue: 0,0:15:13.45,0:15:15.95,Default,,0,0,0,,Die Prinzessin eines fremden Landes\Nwürde doch
+Dialogue: 0,0:15:16.29,0:15:19.08,Default,,0,0,0,,nie aus freien Stücken\Nzu einem solchen Empfang kommen.
+Dialogue: 0,0:15:19.25,0:15:22.38,Default,,0,0,0,,Der Name dieses Hotels ist "Sakurasaku".
+Dialogue: 0,0:15:23.05,0:15:24.72,Default,,0,0,0,,Die verstorbene Königin Sakura
+Dialogue: 0,0:15:24.97,0:15:28.43,Default,,0,0,0,,liebte die japanischen Kirschblüten,\Nderen Name sie trug, sehr.
+Dialogue: 0,0:15:28.97,0:15:32.26,Default,,0,0,0,,Auch für dieses Hotel\Nwaren Kirschblüten namensgebend.
+Dialogue: 0,0:15:32.47,0:15:36.72,Default,,0,0,0,,Ohne diesen plötzlichen Unfall wäre\Ndie Königin sicher zum Empfang gekommen.
+Dialogue: 0,0:15:36.98,0:15:40.61,Default,,0,0,0,,Üblicherweise hätte man\Nden Besuch der Prinzessin wohl abgesagt,
+Dialogue: 0,0:15:41.11,0:15:43.99,Default,,0,0,0,,doch das Königreich Vespania\Nhat wohl das Bedürfnis,
+Dialogue: 0,0:15:44.15,0:15:46.40,Default,,0,0,0,,Japan in seiner Schuld zu wissen.
+Dialogue: 0,0:15:47.24,0:15:48.45,Default,,0,0,0,,Sie tut mir leid...
+Dialogue: 0,0:15:50.37,0:15:52.16,Default,,0,0,0,,Was möchten Sie sich hier ansehen?
+Dialogue: 0,0:15:52.33,0:15:55.29,Default,,0,0,0,,Prinzessin Mira\Nwollte schon immer einmal Kyoto sehen.
+Dialogue: 0,0:15:55.75,0:15:56.79,Default,,0,0,0,,Ah, verstehe.
+Dialogue: 0,0:15:57.21,0:15:59.88,Default,,0,0,0,,Und welche japanischen Speisen\Nbevorzugt sie?
+Dialogue: 0,0:16:00.29,0:16:02.38,Default,,0,0,0,,Die Prinzessin liebt Sushi über alles.
+Dialogue: 0,0:16:03.13,0:16:05.42,Default,,0,0,0,,Was soll das!\NDer beantwortet alles für sie!
+Dialogue: 0,0:16:05.59,0:16:06.80,Default,,0,0,0,,Hier, halt mal, ja?
+Dialogue: 0,0:16:07.22,0:16:08.60,Default,,0,0,0,,Ich muss kurz aufs Klo.
+Dialogue: 0,0:16:09.39,0:16:12.18,Default,,0,0,0,,Gib einem Grundschüler\Ndoch keinen Wein in die Hand.
+Dialogue: 0,0:16:12.76,0:16:17.35,Default,,0,0,0,,Dann möchten wir Prinzessin Mira\Nnun bitten, einen Toast auszubringen!
+Dialogue: 0,0:16:17.89,0:16:20.23,Default,,0,0,0,,Bitte nehmen Sie alle ein Glas zur Hand!
+Dialogue: 0,0:16:20.60,0:16:22.89,Default,,0,0,0,,Ach du Schreck,\Nich hab keinen Saft mehr!
+Dialogue: 0,0:16:23.07,0:16:25.78,Default,,0,0,0,,Ah, ich geh und hol welchen.
+Dialogue: 0,0:16:25.94,0:16:27.94,Default,,0,0,0,,Das ist aber nett von dir, Knirps!
+Dialogue: 0,0:16:28.11,0:16:31.40,Default,,0,0,0,,Pah! Dabei hat ihr Blick klar gesagt:\N"Hol mir welchen!"
+Dialogue: 0,0:16:47.80,0:16:51.22,Default,,0,0,0,,Prinzessin Mira, wenn Ihr nun\Nden Toast ausbringen möchtet...
+Dialogue: 0,0:16:51.39,0:16:53.89,Default,,0,0,0,,Prinzessin,\Nwürdet Ihr einen Toast ausbringen?
+Dialogue: 0,0:16:55.47,0:16:56.47,Default,,0,0,0,,Nicht trinken!
+Dialogue: 0,0:16:59.23,0:17:01.02,Default,,0,0,0,,Es tut mir sehr leid, Prinzessin.
+Dialogue: 0,0:17:01.69,0:17:03.02,Default,,0,0,0,,Aber bitte lass den Wein
+Dialogue: 0,0:17:03.65,0:17:06.74,Default,,0,0,0,,erst von dem Mann verkosten,\Nder ihn dir eingeschenkt hat.
+Dialogue: 0,0:17:09.24,0:17:10.45,Default,,0,0,0,,Schnell, irgendwer!
+Dialogue: 0,0:17:10.90,0:17:12.48,Default,,0,0,0,,Setzt den Kerl fest!
+Dialogue: 0,0:17:12.82,0:17:13.82,Default,,0,0,0,,Haltet ihn fest!
+Dialogue: 0,0:17:15.83,0:17:17.83,Default,,0,0,0,,Zur Küche! Und versperrt alle Ausg...
+Dialogue: 0,0:17:18.20,0:17:22.20,Default,,0,0,0,,Bitte bewahren Sie Ruhe!\NLaufen Sie nicht! Das ist zu gefährlich!
+Dialogue: 0,0:17:26.50,0:17:27.50,Default,,0,0,0,,Aus dem Weg!
+Dialogue: 0,0:17:27.71,0:17:29.71,Default,,0,0,0,,Onkel! Setz den Kerl da fest!
+Dialogue: 0,0:17:29.88,0:17:30.92,Default,,0,0,0,,Aus dem Weg!
+Dialogue: 0,0:17:38.18,0:17:41.18,Default,,0,0,0,,Gegen Kogorô Môri ein Messer zu ziehen\Nist unversch...
+Dialogue: 0,0:17:41.56,0:17:45.19,Default,,0,0,0,,HOTEL SAKURASAKU – KONFERENZRAUM\N– He, ich bin noch mitten im Satz!
+Dialogue: 0,0:17:45.61,0:17:46.86,Default,,0,0,0,,Der Wein der Prinzessin
+Dialogue: 0,0:17:47.02,0:17:49.44,Default,,0,0,0,,war mit einer tödlichen Dosis Gift\Nversetzt.
+Dialogue: 0,0:17:50.36,0:17:51.82,Default,,0,0,0,,Mister Keith!
+Dialogue: 0,0:17:52.32,0:17:54.32,Default,,0,0,0,,Überraschungsmomente\Nsind eine gute Sache,
+Dialogue: 0,0:17:54.49,0:17:58.24,Default,,0,0,0,,aber uns müssen Sie schon informieren,\Ndamit wir Sie schützen können.
+Dialogue: 0,0:17:59.08,0:18:02.62,Default,,0,0,0,,Meiner Einschätzung nach\Nhatten wir genug eigene Leute vor Ort.
+Dialogue: 0,0:18:02.96,0:18:07.21,Default,,0,0,0,,Genug? Obwohl Sie nicht mal welche\Nin der Küche postieren konnten?
+Dialogue: 0,0:18:07.38,0:18:08.38,Default,,0,0,0,,Takagi-kun!
+Dialogue: 0,0:18:09.51,0:18:10.93,Default,,0,0,0,,Eigentlich war vereinbart,
+Dialogue: 0,0:18:11.51,0:18:14.89,Default,,0,0,0,,dass die Prinzessin beim Empfang\Nweder Essen noch Getränke
+Dialogue: 0,0:18:15.43,0:18:16.85,Default,,0,0,0,,zu sich nehmen würde.
+Dialogue: 0,0:18:17.64,0:18:18.64,Default,,0,0,0,,Doch...
+Dialogue: 0,0:18:19.68,0:18:22.72,Default,,0,0,0,,Ich möchte mich\Nbei diesen beiden Herren da bedanken.
+Dialogue: 0,0:18:28.57,0:18:29.70,Default,,0,0,0,,Prinzessin Mira...
+Dialogue: 0,0:18:31.28,0:18:32.28,Default,,0,0,0,,Nein!
+Dialogue: 0,0:18:32.44,0:18:34.32,Default,,0,0,0,,Bi... bitte seid beruhigt, Hoheit!
+Dialogue: 0,0:18:34.49,0:18:36.91,Default,,0,0,0,,Dieses Wasser haben wir selbst besorgt.
+Dialogue: 0,0:18:38.91,0:18:40.33,Default,,0,0,0,,Das reicht. Bitte geht.
+Dialogue: 0,0:18:40.87,0:18:42.16,Default,,0,0,0,,Lasst mich allein!
+Dialogue: 0,0:18:47.67,0:18:49.13,Default,,0,0,0,,Wir warten hier draußen.
+Dialogue: 0,0:18:49.63,0:18:52.09,Default,,0,0,0,,Bitte ruft uns,\Nwenn Ihr Euch besser fühlt.
+Dialogue: 0,0:19:03.89,0:19:04.89,Default,,0,0,0,,Mutter...
+Dialogue: 0,0:19:06.02,0:19:07.10,Default,,0,0,0,,Es geht nicht.
+Dialogue: 0,0:19:08.69,0:19:09.77,Default,,0,0,0,,Ich kann das
+Dialogue: 0,0:19:10.11,0:19:11.36,Default,,0,0,0,,nicht schaffen!
+Dialogue: 0,0:19:16.16,0:19:17.45,Default,,0,0,0,,Ich überprüfe das Dach.
+Dialogue: 0,0:19:18.62,0:19:21.62,Default,,0,0,0,,– Lasst jetzt niemanden zu ihr.\N– Jawohl.
+Dialogue: 0,0:19:28.63,0:19:31.76,Default,,0,0,0,,Ich hab es satt.\NIch halte das nicht mehr aus!
+Dialogue: 0,0:19:37.30,0:19:41.47,Default,,0,0,0,,Der gescheiterte Attentäter sagt, er sei\Ngegen Geld dafür angestellt worden.
+Dialogue: 0,0:19:42.22,0:19:45.93,Default,,0,0,0,,Man habe ihm gesagt, es sei ein Scherz,\Ndie Substanz sei ein Abführmittel.
+Dialogue: 0,0:19:46.10,0:19:48.23,Default,,0,0,0,,Er ist sehr kooperativ\Nund erzählt alles.
+Dialogue: 0,0:19:48.40,0:19:49.90,Default,,0,0,0,,Wer hat ihn angestellt?
+Dialogue: 0,0:19:50.52,0:19:53.69,Default,,0,0,0,,Er sagt, er kenne ihn nicht,\Nund es sei ein Ausländer gewesen.
+Dialogue: 0,0:19:54.11,0:19:55.61,Default,,0,0,0,,Also wirklich...
+Dialogue: 0,0:19:55.78,0:19:59.70,Default,,0,0,0,,Sich wegen ein bisschen Geld in\Nein Verbrechen reinziehen zu lassen...
+Dialogue: 0,0:20:00.37,0:20:02.21,Default,,0,0,0,,Unseren Informationen zufolge
+Dialogue: 0,0:20:02.41,0:20:05.70,Default,,0,0,0,,sind unter den Gegnern der Prinzessin\Nauch radikale Elemente?
+Dialogue: 0,0:20:06.21,0:20:08.92,Default,,0,0,0,,Werden Sie sie wirklich\Nalleine beschützen können?
+Dialogue: 0,0:20:09.42,0:20:12.63,Default,,0,0,0,,Zum momentanen Zeitpunkt gibt es nichts,\Nwas unser Land
+Dialogue: 0,0:20:12.79,0:20:14.67,Default,,0,0,0,,von Ihrer Polizei fordern würde.
+Dialogue: 0,0:20:15.13,0:20:19.68,Default,,0,0,0,,Aber Conan-kun... Toll, dass du\Nden Sommelier als Betrüger erkannt hast.
+Dialogue: 0,0:20:19.97,0:20:21.39,Default,,0,0,0,,Woran hast du es gemerkt?
+Dialogue: 0,0:20:21.76,0:20:25.01,Default,,0,0,0,,Nun, es ist so... Als ich\Nan dem Sommelier vorbeigegangen bin,
+Dialogue: 0,0:20:25.27,0:20:27.02,Default,,0,0,0,,hat er nach Zigaretten gerochen.
+Dialogue: 0,0:20:27.68,0:20:31.31,Default,,0,0,0,,Und weil ich mal gehört hatte,\Ndass gute Sommeliers nicht rauchen,
+Dialogue: 0,0:20:31.48,0:20:33.11,Default,,0,0,0,,dachte ich: "Das ist seltsam!"
+Dialogue: 0,0:20:33.65,0:20:35.98,Default,,0,0,0,,Das ist schließlich\Nein gutes Hotel, oder?
+Dialogue: 0,0:20:36.32,0:20:39.95,Default,,0,0,0,,Nun, es mag vielleicht\Ndurchaus Sommeliers geben, die rauchen,
+Dialogue: 0,0:20:40.36,0:20:43.03,Default,,0,0,0,,aber direkt, bevor man\Neine Prinzessin bedient,
+Dialogue: 0,0:20:43.20,0:20:45.37,Default,,0,0,0,,würde man bestimmt nicht rauchen.
+Dialogue: 0,0:20:45.87,0:20:48.58,Default,,0,0,0,,Und viele Verbrecher beruhigen sich\Nvor einer Tat,
+Dialogue: 0,0:20:48.75,0:20:50.58,Default,,0,0,0,,indem sie eine Zigarette rauchen.
+Dialogue: 0,0:20:51.04,0:20:53.54,Default,,0,0,0,,Ach, da kann ich\Nnur mal wieder sagen: Bravo!
+Dialogue: 0,0:20:58.51,0:21:00.39,Default,,0,0,0,,– Hoheit!\N– Prinzessin Mira!
+Dialogue: 0,0:21:02.59,0:21:05.43,Default,,0,0,0,,– Brennt es?\N– Nein, hier ist nirgendwo ein Feuer!
+Dialogue: 0,0:21:05.97,0:21:07.85,Default,,0,0,0,,Prinzessin Mira ist verschwunden!
+Dialogue: 0,0:21:08.02,0:21:10.94,Default,,0,0,0,,Ihr... Ist denn jemand\Nan der Tür da drüben?
+Dialogue: 0,0:21:11.14,0:21:12.27,Default,,0,0,0,,Nein, da ist keiner!
+Dialogue: 0,0:21:12.44,0:21:13.44,Default,,0,0,0,,Ihr Dummköpfe!
+Dialogue: 0,0:21:14.56,0:21:15.73,Default,,0,0,0,,Prinzessin Mira!
+Dialogue: 0,0:21:21.28,0:21:23.74,Default,,0,0,0,,Es... es tut uns leid!\NNehmen wir die Treppe!
+Dialogue: 0,0:21:24.12,0:21:26.25,Default,,0,0,0,,Wir würden es nie rechtzeitig schaffen!
+Dialogue: 0,0:21:26.54,0:21:29.54,Default,,0,0,0,,– Informiert die Lobby!\NUnd schickt Leute ins UG! – Ja!
+Dialogue: 0,0:21:29.71,0:21:33.84,Default,,0,0,0,,– Du behältst den Lift im Auge. Wenn er\Nunterwegs anhält, sag Bescheid! – Ja!
+Dialogue: 0,0:22:41.36,0:22:43.78,Default,,0,0,0,,Sie hat das Feuerzeug\Nan den Brandmelder gehalten.
+Dialogue: 0,0:22:43.95,0:22:47.62,Default,,0,0,0,,Und floh dann im Durcheinander\Naus dem anderen Zimmer nach draußen.
+Dialogue: 0,0:22:47.91,0:22:50.12,Default,,0,0,0,,Das ist der Nachteil\Neiner Royal Suite...
+Dialogue: 0,0:22:50.49,0:22:52.24,Default,,0,0,0,,Wir müssen sofort alles absperren.
+Dialogue: 0,0:22:52.41,0:22:53.58,Default,,0,0,0,,Das ist nicht nötig.
+Dialogue: 0,0:22:54.29,0:22:56.33,Default,,0,0,0,,Wenn ihr was zustößt,\Nist es zu spät!
+Dialogue: 0,0:22:59.38,0:23:01.34,Default,,0,0,0,,Ich wiederhole: Kyle hier.
+Dialogue: 0,0:23:01.59,0:23:04.38,Default,,0,0,0,,Habe die Prinzessin entdeckt,\Nstelle sie nun sicher.
+Dialogue: 0,0:23:07.93,0:23:08.93,Default,,0,0,0,,Prinzessin Mira!
+Dialogue: 0,0:23:12.02,0:23:14.15,Default,,0,0,0,,Ob die Party wohl schon zu Ende ist?
+Dialogue: 0,0:23:17.19,0:23:18.44,Default,,0,0,0,,Ve... Verzeihung!
+Dialogue: 0,0:23:18.61,0:23:23.49,Default,,0,0,0,,Also wirklich! Siehst du nicht,\Nwo du... hinläufst...?
+Dialogue: 0,0:23:29.62,0:23:31.25,Default,,0,0,0,,Begleitet mich nun zurück.
+Dialogue: 0,0:23:31.41,0:23:34.37,Default,,0,0,0,,Ich will nicht! Lass mich los!\NLass mich los!
+Dialogue: 0,0:23:34.96,0:23:36.67,Default,,0,0,0,,So seid doch bitte vernünftig.
+Dialogue: 0,0:23:37.67,0:23:39.92,Default,,0,0,0,,Jetzt hören Sie mal. Lassen Sie sie los!
+Dialogue: 0,0:23:40.13,0:23:41.34,Default,,0,0,0,,Sie wehrt sich doch!
+Dialogue: 0,0:23:44.88,0:23:48.09,Default,,0,0,0,,Es tut mir sehr leid,\Naber das geht Sie nichts an.
+Dialogue: 0,0:23:48.51,0:23:52.22,Default,,0,0,0,,Bitte hilf mir! Der Kerl\Nverfolgt mich schon die ganze Zeit!
+Dialogue: 0,0:23:52.47,0:23:53.47,Default,,0,0,0,,Lassen Sie sie!
+Dialogue: 0,0:23:54.02,0:23:55.02,Default,,0,0,0,,Nein.
+Dialogue: 0,0:23:55.52,0:23:57.10,Default,,0,0,0,,Nicht! Sonst werden Sie verl...
+Dialogue: 0,0:24:04.69,0:24:05.69,Default,,0,0,0,,Schnell!
+Dialogue: 0,0:24:07.82,0:24:08.99,Default,,0,0,0,,Das darf doch nicht...
+Dialogue: 0,0:24:10.07,0:24:10.74,Default,,0,0,0,,Was?
+Dialogue: 0,0:24:10.99,0:24:11.99,Default,,0,0,0,,Du bist...?
+Dialogue: 0,0:24:12.20,0:24:13.45,Default,,0,0,0,,Was fällt dir ein!
+Dialogue: 0,0:24:13.66,0:24:14.70,Default,,0,0,0,,Takagi-kun!
+Dialogue: 0,0:24:15.04,0:24:16.04,Default,,0,0,0,,Jawohl!
+Dialogue: 0,0:24:16.08,0:24:17.71,Default,,0,0,0,,Wir sperren ab.
+Dialogue: 0,0:24:17.91,0:24:18.99,Default,,0,0,0,,Jawohl, verstanden!
+Dialogue: 0,0:24:19.54,0:24:20.92,Default,,0,0,0,,Absperren, absperren...
+Dialogue: 0,0:24:21.21,0:24:25.01,Default,,0,0,0,,Ich interpretiere dies\Nals offizielle Bitte um Unterstützung,
+Dialogue: 0,0:24:25.38,0:24:26.42,Default,,0,0,0,,ist das in Ordnung?
+Dialogue: 0,0:24:30.18,0:24:32.72,Default,,0,0,0,,Verzeihung! Das hier bitte!
+Dialogue: 0,0:24:33.39,0:24:35.60,Default,,0,0,0,,Kommt sofort! Einen Moment bitte.
+Dialogue: 0,0:24:38.44,0:24:39.82,Default,,0,0,0,,Hier, bitte!
+Dialogue: 0,0:24:40.48,0:24:41.73,Default,,0,0,0,,Es ist das hier, oder?
+Dialogue: 0,0:24:43.11,0:24:44.78,Default,,0,0,0,,Ja. Vielen Dank!
+Dialogue: 0,0:24:51.16,0:24:52.16,Default,,0,0,0,,Was?!
+Dialogue: 0,0:24:52.70,0:24:54.41,Default,,0,0,0,,Du bist eine echte Prinzessin?
+Dialogue: 0,0:24:56.66,0:24:58.24,Default,,0,0,0,,Verblüfft dich das so sehr?
+Dialogue: 0,0:24:58.54,0:25:01.13,Default,,0,0,0,,S... selbstverständlich\Nverblüfft mich das!
+Dialogue: 0,0:25:01.33,0:25:02.41,Default,,0,0,0,,Ach so?
+Dialogue: 0,0:25:03.88,0:25:06.47,Default,,0,0,0,,Das heißt, der Mann vorhin, das war...
+Dialogue: 0,0:25:07.01,0:25:08.76,Default,,0,0,0,,Das war mein Bodyguard.
+Dialogue: 0,0:25:09.05,0:25:10.76,Default,,0,0,0,,Ich hab's befürchtet...
+Dialogue: 0,0:25:11.18,0:25:13.68,Default,,0,0,0,,Ich werde mich entschuldigen.\NGehen wir zurück!
+Dialogue: 0,0:25:14.22,0:25:17.18,Default,,0,0,0,,Nein. Ich bin doch weggelaufen,\Nweil ich nicht dort sein will.
+Dialogue: 0,0:25:17.68,0:25:18.81,Default,,0,0,0,,Ich geh nicht zurück.
+Dialogue: 0,0:25:18.98,0:25:22.19,Default,,0,0,0,,Aber das... Warum bist du denn\Nüberhaupt weggelaufen?
+Dialogue: 0,0:25:25.11,0:25:26.61,Default,,0,0,0,,Ich habe die Empfänge satt.
+Dialogue: 0,0:25:26.98,0:25:29.57,Default,,0,0,0,,Ah... So was würd ich\Nauch gern mal sagen.
+Dialogue: 0,0:25:29.74,0:25:31.57,Default,,0,0,0,,Sag mal, hast du Zigaretten dabei?
+Dialogue: 0,0:25:31.74,0:25:35.08,Default,,0,0,0,,Zigaretten?! Sicher nicht!\NIch bin doch noch minderjährig!
+Dialogue: 0,0:25:35.24,0:25:36.45,Default,,0,0,0,,Was? Wie alt bist du?
+Dialogue: 0,0:25:36.62,0:25:38.00,Default,,0,0,0,,Ich bin siebzehn.
+Dialogue: 0,0:25:38.37,0:25:41.91,Default,,0,0,0,,Eine frisch und voll erblühte\NZweitklässlerin der Teitan-Oberschule!
+Dialogue: 0,0:25:42.08,0:25:43.46,Default,,0,0,0,,Warum flippst du so aus?
+Dialogue: 0,0:25:43.63,0:25:47.55,Default,,0,0,0,,Komm, lass uns zurückgehen. Der Empfang\Nist sicher noch in vollem Gange.
+Dialogue: 0,0:25:47.92,0:25:49.67,Default,,0,0,0,,"Nein" heißt bei mir "nein!"
+Dialogue: 0,0:25:50.63,0:25:54.30,Default,,0,0,0,,Ich hielt uns für etwa gleich alt.\NAber ich bin zwei Jahre älter.
+Dialogue: 0,0:25:54.76,0:25:56.14,Default,,0,0,0,,Dann bist du neunzehn...
+Dialogue: 0,0:25:56.97,0:25:58.80,Default,,0,0,0,,Also auch noch minderjährig!
+Dialogue: 0,0:25:59.43,0:26:02.85,Default,,0,0,0,,In Vespania darf man ab achtzehn\NAlkohol trinken und rauchen.
+Dialogue: 0,0:26:03.27,0:26:04.77,Default,,0,0,0,,Ach so, wirklich?
+Dialogue: 0,0:26:09.19,0:26:10.19,Default,,0,0,0,,Was ist denn?
+Dialogue: 0,0:26:10.74,0:26:12.12,Default,,0,0,0,,Ich war nur überrascht.
+Dialogue: 0,0:26:12.86,0:26:14.86,Default,,0,0,0,,Prinzessinnen rauchen also auch...
+Dialogue: 0,0:26:15.32,0:26:17.70,Default,,0,0,0,,Tut mir leid,\Ndeine Illusion zu zerstören.
+Dialogue: 0,0:26:17.99,0:26:20.16,Default,,0,0,0,,Darf eine Prinzessin etwa nicht rauchen?
+Dialogue: 0,0:26:20.41,0:26:23.29,Default,,0,0,0,,Ich lebe schließlich auch!\NIch bin keine Puppe!
+Dialogue: 0,0:26:23.58,0:26:26.00,Default,,0,0,0,,Tut mir leid.\NIch hab es nicht so gemeint...
+Dialogue: 0,0:26:26.25,0:26:28.88,Default,,0,0,0,,Na ja, ist ja auch egal.\NIch bin daran gewöhnt.
+Dialogue: 0,0:26:29.42,0:26:31.00,Default,,0,0,0,,Alle sagen das Gleiche...
+Dialogue: 0,0:26:32.97,0:26:36.39,Default,,0,0,0,,Aber das ist doch ein Wunschtraum\Nfür jedes Mädchen...
+Dialogue: 0,0:26:37.26,0:26:39.89,Default,,0,0,0,,Alle würden\Ngerne mal Prinzessin sein,
+Dialogue: 0,0:26:40.52,0:26:43.11,Default,,0,0,0,,und wenn es nur einmal im Leben ist.
+Dialogue: 0,0:26:48.36,0:26:50.90,Default,,0,0,0,,Willst du mal Prinzessin... sein?
+Dialogue: 0,0:26:51.61,0:26:54.24,Default,,0,0,0,,Halt, Mom... Was... was ist denn los?
+Dialogue: 0,0:26:56.24,0:26:58.74,Default,,0,0,0,,Kommissar Megure!\NDie Absperrung ist bereit.
+Dialogue: 0,0:26:59.16,0:27:02.58,Default,,0,0,0,,Es ist nur noch eine Frage der Zeit,\Nbis wir die Prinzessin finden.
+Dialogue: 0,0:27:02.75,0:27:05.38,Default,,0,0,0,,Hey, Takagi! Hast du Conan gesehen?
+Dialogue: 0,0:27:05.54,0:27:07.25,Default,,0,0,0,,Ist Conan-kun nicht mehr hier?
+Dialogue: 0,0:27:07.63,0:27:10.92,Default,,0,0,0,,Dieser Bengel ist mal wieder\Nauf eigene Faust losgezogen.
+Dialogue: 0,0:27:12.46,0:27:15.17,Default,,0,0,0,,Nein! He, halt, was... Warum?
+Dialogue: 0,0:27:15.51,0:27:17.30,Default,,0,0,0,,Ach, komm schon, komm schon!
+Dialogue: 0,0:27:18.01,0:27:20.43,Default,,0,0,0,,Hmm... Oberweite hab ich mehr als du.
+Dialogue: 0,0:27:21.85,0:27:24.10,Default,,0,0,0,,Sei still.\NTu, was die Älteren dir sagen.
+Dialogue: 0,0:27:24.27,0:27:26.40,Default,,0,0,0,,Aber... Nein, nein, nein, nein!
+Dialogue: 0,0:27:33.15,0:27:34.94,Default,,0,0,0,,So, lass dein Haar wieder runter.
+Dialogue: 0,0:27:37.57,0:27:38.74,Default,,0,0,0,,Was sagst du? Damit...
+Dialogue: 0,0:27:40.08,0:27:42.87,Default,,0,0,0,,bist auch du\Nab heute eine Prinzessin! Oder?
+Dialogue: 0,0:27:46.41,0:27:48.24,Default,,0,0,0,,Das bin... ich?
+Dialogue: 0,0:27:50.13,0:27:51.13,Default,,0,0,0,,Aber das...
+Dialogue: 0,0:27:52.50,0:27:54.00,Default,,0,0,0,,P... Prinzessin?
+Dialogue: 0,0:27:55.63,0:27:58.17,Default,,0,0,0,,Ich bin zurück,\Nwenn der Empfang zu Ende ist.
+Dialogue: 0,0:27:58.39,0:28:00.85,Default,,0,0,0,,Das geht doch nicht!\NDas kann ich nicht tun!
+Dialogue: 0,0:28:01.05,0:28:05.35,Default,,0,0,0,,Wenn du dich nicht etwas beeilst,\Nwird dich der Bodyguard aufspüren!
+Dialogue: 0,0:28:07.02,0:28:08.48,Default,,0,0,0,,Das darf nicht wahr sein...
+Dialogue: 0,0:28:10.73,0:28:12.86,Default,,0,0,0,,Nur geh ich nicht zurück. Sicher nicht.
+Dialogue: 0,0:28:14.53,0:28:15.61,Default,,0,0,0,,Juhu!
+Dialogue: 0,0:28:21.20,0:28:22.70,Default,,0,0,0,,Ich hatte es unterschätzt...
+Dialogue: 0,0:28:23.08,0:28:26.67,Default,,0,0,0,,Da sie noch im Ballkleid ist,\Ndachte ich, ich fände sie sofort.
+Dialogue: 0,0:28:28.79,0:28:31.71,Default,,0,0,0,,Ran-neechan!
+Dialogue: 0,0:28:32.59,0:28:35.68,Default,,0,0,0,,Du bist echt spät dran!\NSonoko-neechan ist sauer.
+Dialogue: 0,0:28:35.88,0:28:36.88,Default,,0,0,0,,Ran...?
+Dialogue: 0,0:28:37.09,0:28:39.55,Default,,0,0,0,,Oh, Kleiner,\Ndu warst doch beim Empfang...
+Dialogue: 0,0:28:42.55,0:28:43.55,Default,,0,0,0,,Du...
+Dialogue: 0,0:28:47.81,0:28:49.89,Default,,0,0,0,,Was? He! Halt... Halt, warte!
+Dialogue: 0,0:28:50.48,0:28:53.40,Default,,0,0,0,,Ich hab es tatsächlich\Neinen Moment lang nicht gemerkt!
+Dialogue: 0,0:29:04.16,0:29:05.16,Default,,0,0,0,,Steig auf!
+Dialogue: 0,0:29:05.45,0:29:06.45,Default,,0,0,0,,Denk nicht nach.
+Dialogue: 0,0:29:06.54,0:29:10.38,Default,,0,0,0,,Ich weiß, wer du bist. Wär ich\Neine Feindin, hätte ich dich überfahren.
+Dialogue: 0,0:29:12.54,0:29:13.58,Default,,0,0,0,,Vertrau mir.
+Dialogue: 0,0:29:28.98,0:29:31.98,Default,,0,0,0,,Was tu ich jetzt?\NFür die Toilette war sie zu lang weg.
+Dialogue: 0,0:29:32.77,0:29:35.98,Default,,0,0,0,,"Ich hab mich im Hotel verlaufen!"\Nfunktioniert auch nicht.
+Dialogue: 0,0:29:37.15,0:29:38.90,Default,,0,0,0,,Ich sag einfach die Wahrheit.
+Dialogue: 0,0:29:45.03,0:29:47.32,Default,,0,0,0,,Hoffentlich kommt jetzt niemand raus!
+Dialogue: 0,0:30:08.18,0:30:09.31,Default,,0,0,0,,Prinzessin...
+Dialogue: 0,0:30:10.77,0:30:11.77,Default,,0,0,0,,Prinzessin Ran!
+Dialogue: 0,0:30:15.94,0:30:17.73,Default,,0,0,0,,Hier wart Ihr also!
+Dialogue: 0,0:30:17.90,0:30:19.40,Default,,0,0,0,,Shi... Shin'ichi!
+Dialogue: 0,0:30:19.61,0:30:22.65,Default,,0,0,0,,Kommt! Es warten alle auf uns.\NLasst uns gehen.
+Dialogue: 0,0:30:23.45,0:30:25.24,Default,,0,0,0,,Was ist denn das für ein Aufzug?
+Dialogue: 0,0:30:26.03,0:30:27.36,Default,,0,0,0,,Stimmt etwas nicht?
+Dialogue: 0,0:30:27.53,0:30:29.91,Default,,0,0,0,,Na ja, du siehst aus wie ein Prinz!
+Dialogue: 0,0:30:30.45,0:30:33.91,Default,,0,0,0,,"Wie ein Prinz", sagt Ihr?\NIhr führt irgendwas im Schilde, oder?
+Dialogue: 0,0:30:34.58,0:30:35.96,Default,,0,0,0,,Ihr seid unverbesserlich.
+Dialogue: 0,0:30:36.54,0:30:39.46,Default,,0,0,0,,Ah! Ich will nicht, Shin'ichi,\Nlass mich runter!
+Dialogue: 0,0:30:39.75,0:30:41.63,Default,,0,0,0,,Nein. Das werde ich nicht tun.
+Dialogue: 0,0:30:52.18,0:30:54.52,Default,,0,0,0,,Also echt.\NWas fällt dir ein, so plötzlich...
+Dialogue: 0,0:30:55.02,0:30:56.52,Default,,0,0,0,,Wir wollen euch etwas sagen!
+Dialogue: 0,0:30:57.81,0:31:01.23,Default,,0,0,0,,Ich werde Prinzessin Ran heute\Nzu meiner Königin machen!
+Dialogue: 0,0:31:03.70,0:31:05.20,Default,,0,0,0,,Shin'ichi...
+Dialogue: 0,0:31:07.66,0:31:10.83,Default,,0,0,0,,Dies ist eine beschlossene Sache.
+Dialogue: 0,0:31:11.58,0:31:14.21,Default,,0,0,0,,A... aber das...
+Dialogue: 0,0:31:15.46,0:31:17.71,Default,,0,0,0,,Was macht die Prinzessin denn da?
+Dialogue: 0,0:31:18.13,0:31:19.13,Default,,0,0,0,,Keine Ahnung...
+Dialogue: 0,0:31:19.59,0:31:21.97,Default,,0,0,0,,Sie ist völlig hingerissen\Nvon sich selbst.
+Dialogue: 0,0:31:22.13,0:31:25.80,Default,,0,0,0,,In dieser Scheibe sieht man von außen\Nnur das eigene Spiegelbild.
+Dialogue: 0,0:31:26.05,0:31:29.22,Default,,0,0,0,,Aber eine solche Entscheidung\Nkann man nicht so plötzlich...
+Dialogue: 0,0:31:29.39,0:31:33.52,Default,,0,0,0,,Ich möchte schon, aber du bringst mich\Nin Verlegenheit... Ich kann nicht...
+Dialogue: 0,0:31:34.39,0:31:36.47,Default,,0,0,0,,Zentrale an alle Einheiten!
+Dialogue: 0,0:31:36.90,0:31:38.32,Default,,0,0,0,,Suchobjekt sichergestellt!
+Dialogue: 0,0:31:38.48,0:31:41.02,Default,,0,0,0,,Das Objekt\Nwurde um 19:53 Uhr sichergestellt!
+Dialogue: 0,0:31:41.73,0:31:44.15,Default,,0,0,0,,Kehren zurück\Nzum normalen Wachbetrieb.
+Dialogue: 0,0:31:44.78,0:31:46.82,Default,,0,0,0,,Okay. Lass uns losfahren.
+Dialogue: 0,0:31:47.28,0:31:50.16,Default,,0,0,0,,Wer bist du eigentlich?
+Dialogue: 0,0:31:51.58,0:31:54.58,Default,,0,0,0,,Ich sagte doch:\NIch bin deine große Schwester Langbein.
+Dialogue: 0,0:31:54.83,0:31:56.04,Default,,0,0,0,,Machst du dich lustig?
+Dialogue: 0,0:31:56.21,0:31:58.25,Default,,0,0,0,,Welch abenteuer-unlustige Prinzessin...
+Dialogue: 0,0:31:58.42,0:32:01.67,Default,,0,0,0,,Du kannst auch hier bleiben.\NOder willst du zurück ins Hotel?
+Dialogue: 0,0:32:02.34,0:32:06.05,Default,,0,0,0,,Aber wäre es nicht lustiger,\Ndich bis morgen mit mir zu amüsieren?
+Dialogue: 0,0:32:09.72,0:32:10.76,Default,,0,0,0,,Ein Peilsender?
+Dialogue: 0,0:32:10.93,0:32:13.60,Default,,0,0,0,,Ja. Er wurde in dein Halsband eingebaut.
+Dialogue: 0,0:32:14.85,0:32:17.98,Default,,0,0,0,,– Aber dann...\N–... hätten sie dich überall gefunden.
+Dialogue: 0,0:32:18.77,0:32:20.48,Default,,0,0,0,,Dafür war Keith verantwortlich.
+Dialogue: 0,0:32:20.65,0:32:21.86,Default,,0,0,0,,Das wäre zu hoffen.
+Dialogue: 0,0:32:23.15,0:32:25.49,Default,,0,0,0,,Wie es aussieht,\Ngibt es auch Leute, die es
+Dialogue: 0,0:32:26.15,0:32:27.73,Default,,0,0,0,,auf dich abgesehen haben.
+Dialogue: 0,0:32:28.57,0:32:29.57,Default,,0,0,0,,Festhalten!
+Dialogue: 0,0:32:34.83,0:32:36.33,Default,,0,0,0,,Das dort ist unser Gegner.
+Dialogue: 0,0:32:36.54,0:32:38.42,Default,,0,0,0,,Aber das Halsband ist doch weg!
+Dialogue: 0,0:32:39.21,0:32:42.92,Default,,0,0,0,,Sie haben euch wohl im Park\Nbeim Kleidertausch beobachtet. Wie ich.
+Dialogue: 0,0:32:44.05,0:32:46.09,Default,,0,0,0,,– Du hast Fans.\N– Mach keine Witze, fahr!
+Dialogue: 0,0:32:46.38,0:32:47.38,Default,,0,0,0,,Sehr wohl!
+Dialogue: 0,0:32:57.85,0:32:59.52,Default,,0,0,0,,Wir müssen schnell zur Toilette!
+Dialogue: 0,0:33:07.28,0:33:09.03,Default,,0,0,0,,Das scheint dir Spaß zu machen.
+Dialogue: 0,0:33:09.40,0:33:10.90,Default,,0,0,0,,Oh, du hast es gemerkt?
+Dialogue: 0,0:33:11.53,0:33:15.41,Default,,0,0,0,,Aber keine Sorge. Fahre ich mit\Ndieser Maschine, erwischt uns keiner.
+Dialogue: 0,0:33:15.58,0:33:17.46,Default,,0,0,0,,Was, wenn sie auf uns schießen?
+Dialogue: 0,0:33:17.62,0:33:19.08,Default,,0,0,0,,Wir sind hier in Japan.
+Dialogue: 0,0:33:19.25,0:33:22.04,Default,,0,0,0,,Und sie wollen es\Nwie einen Unfall aussehen lassen.
+Dialogue: 0,0:33:23.42,0:33:26.09,Default,,0,0,0,,Oje. Denen ist ihre\NAußenwirkung wohl völlig egal.
+Dialogue: 0,0:33:30.26,0:33:31.64,Default,,0,0,0,,Wer uns Streiche spielt...
+Dialogue: 0,0:33:53.91,0:33:55.08,Default,,0,0,0,,Hast du sie getötet?
+Dialogue: 0,0:33:55.24,0:33:56.24,Default,,0,0,0,,Aber nicht doch.
+Dialogue: 0,0:33:56.41,0:33:58.66,Default,,0,0,0,,So unbegabt bin ich nicht.
+Dialogue: 0,0:33:59.20,0:34:01.33,Default,,0,0,0,,Gegenüber Amateuren\Npatze ich nicht.
+Dialogue: 0,0:34:01.75,0:34:05.04,Default,,0,0,0,,Gegenüber Amateuren?\NAber die hatten ein Maschinengewehr!
+Dialogue: 0,0:34:05.50,0:34:06.58,Default,,0,0,0,,Sie hatten es nur.
+Dialogue: 0,0:34:07.50,0:34:10.96,Default,,0,0,0,,Für Verfolgungsjagden braucht man\Nzwei Wagen mit je zwei Leuten.
+Dialogue: 0,0:34:11.34,0:34:12.76,Default,,0,0,0,,Und vom Hintersitz aus
+Dialogue: 0,0:34:12.93,0:34:15.64,Default,,0,0,0,,auf ein Ziel vor einem zu schießen,\Ngeht gar nicht.
+Dialogue: 0,0:34:16.35,0:34:19.02,Default,,0,0,0,,Und sie haben auf die Reifen gezielt\Nund verfehlt.
+Dialogue: 0,0:34:19.18,0:34:22.27,Default,,0,0,0,,Die wissen nicht mal,\Ndass man nachts instinktiv höher zielt.
+Dialogue: 0,0:34:22.85,0:34:25.27,Default,,0,0,0,,Das waren\Nfür Geld angeheuerte Dilettanten.
+Dialogue: 0,0:34:26.69,0:34:27.69,Default,,0,0,0,,Wow...
+Dialogue: 0,0:34:28.61,0:34:29.78,Default,,0,0,0,,Du bist toll!
+Dialogue: 0,0:34:38.83,0:34:40.41,Default,,0,0,0,,Sag mal, ist das ein Fan von dir?
+Dialogue: 0,0:34:42.12,0:34:43.12,Default,,0,0,0,,Der Junge?!
+Dialogue: 0,0:34:53.26,0:34:56.01,Default,,0,0,0,,Er hat vorausgesehen, was ich tue?\NWirklich?
+Dialogue: 0,0:34:56.84,0:34:58.22,Default,,0,0,0,,Ich gebe jetzt etwas Gas.
+Dialogue: 0,0:35:19.08,0:35:20.12,Default,,0,0,0,,Ich hab keine Wahl!
+Dialogue: 0,0:35:34.26,0:35:34.88,Default,,0,0,0,,Huch...
+Dialogue: 0,0:35:35.05,0:35:36.51,Default,,0,0,0,,Aus dem Weg!
+Dialogue: 0,0:35:46.56,0:35:50.15,Default,,0,0,0,,Tut mir echt leid...\NWar das kindisch von mir?
+Dialogue: 0,0:35:51.07,0:35:52.07,Default,,0,0,0,,Aber...
+Dialogue: 0,0:35:53.19,0:35:55.90,Default,,0,0,0,,Selbst schuld, wenn du mich zwingst,\NErnst zu machen.
+Dialogue: 0,0:36:02.03,0:36:04.45,Default,,0,0,0,,Wer zum Teufel... ist diese Frau?
+Dialogue: 0,0:36:05.62,0:36:07.12,Default,,0,0,0,,Eine Feindin ist sie nicht...
+Dialogue: 0,0:36:15.13,0:36:17.42,Default,,0,0,0,,Du bist tatsächlich... Ran?
+Dialogue: 0,0:36:17.88,0:36:20.92,Default,,0,0,0,,Oh? Du erkennst also\Nnicht mal deine eigene Tochter.
+Dialogue: 0,0:36:21.76,0:36:24.60,Default,,0,0,0,,Ich hatte Ran eigentlich\Netwas klüger in Erinnerung.
+Dialogue: 0,0:36:24.77,0:36:25.77,Default,,0,0,0,,Ich werde sauer.
+Dialogue: 0,0:36:27.64,0:36:28.77,Default,,0,0,0,,Gut, Ran-kun...
+Dialogue: 0,0:36:28.94,0:36:31.44,Default,,0,0,0,,Die echte Prinzessin sagte also,\Nsie sei zurück,
+Dialogue: 0,0:36:31.65,0:36:33.44,Default,,0,0,0,,wenn der Empfang zu Ende sei?
+Dialogue: 0,0:36:33.73,0:36:35.15,Default,,0,0,0,,Ja. Ich wusste nicht,
+Dialogue: 0,0:36:35.32,0:36:38.20,Default,,0,0,0,,dass sich hier\Nein solcher Tumult ereignet hatte...
+Dialogue: 0,0:36:39.11,0:36:42.28,Default,,0,0,0,,Hätte ich es gewusst...\NEs tut mir wirklich leid.
+Dialogue: 0,0:36:42.70,0:36:45.66,Default,,0,0,0,,Du brauchst dir deswegen\Nkeine Vorwürfe zu machen.
+Dialogue: 0,0:36:45.87,0:36:46.87,Default,,0,0,0,,Dafür ist nur...
+Dialogue: 0,0:36:48.16,0:36:49.16,Default,,0,0,0,,Verstehe.
+Dialogue: 0,0:36:49.62,0:36:51.29,Default,,0,0,0,,Entschuldigen Sie die Mühe...
+Dialogue: 0,0:36:51.83,0:36:52.91,Default,,0,0,0,,Mister Keith!
+Dialogue: 0,0:36:53.17,0:36:57.34,Default,,0,0,0,,Bitte lassen Sie uns die Suche\Nnach der Prinzessin wieder aufnehmen.
+Dialogue: 0,0:36:57.76,0:36:59.55,Default,,0,0,0,,Das ist doch nicht notwendig.
+Dialogue: 0,0:36:59.84,0:37:01.97,Default,,0,0,0,,Wie bitte?\NWas sagen Sie da schon wieder?
+Dialogue: 0,0:37:02.14,0:37:03.35,Default,,0,0,0,,Sie sind wirklich...
+Dialogue: 0,0:37:04.18,0:37:07.47,Default,,0,0,0,,Bitte erklären Sie uns,\Nwarum das nicht notwendig sein sollte.
+Dialogue: 0,0:37:08.14,0:37:09.47,Default,,0,0,0,,Da ist nichts zu erklären.
+Dialogue: 0,0:37:10.02,0:37:13.02,Default,,0,0,0,,Nach wem wollen Sie denn suchen?
+Dialogue: 0,0:37:19.99,0:37:21.41,Default,,0,0,0,,Sonoko-neechan!
+Dialogue: 0,0:37:22.99,0:37:26.70,Default,,0,0,0,,Also echt! Hör endlich auf damit!\NWo warst du? Ich habe dich gesucht!
+Dialogue: 0,0:37:26.87,0:37:28.75,Default,,0,0,0,,Ich hab mich verlaufen, hihi.
+Dialogue: 0,0:37:28.96,0:37:31.17,Default,,0,0,0,,"Verlaufen, hihi", dass ich nicht lache!
+Dialogue: 0,0:37:31.33,0:37:34.29,Default,,0,0,0,,Normalerweise schleppst du dann\Nimmer seltsame Fälle an!
+Dialogue: 0,0:37:34.54,0:37:36.88,Default,,0,0,0,,Äh, es ist so...\NIst Ran... äh, nein...
+Dialogue: 0,0:37:37.05,0:37:38.80,Default,,0,0,0,,Ist die Prinzessin schon zurück?
+Dialogue: 0,0:37:39.26,0:37:43.51,Default,,0,0,0,,Zurück? Die Prinzessin ist doch\Nin einem der oberen Stockwerke?
+Dialogue: 0,0:37:43.89,0:37:45.72,Default,,0,0,0,,Sie ist vorhin mit dem Kommissar...
+Dialogue: 0,0:37:46.26,0:37:48.09,Default,,0,0,0,,– Gehen wir!\N– He, halt, Moment!
+Dialogue: 0,0:37:49.81,0:37:51.85,Default,,0,0,0,,Ist Ihnen bewusst, was Sie da sagen?
+Dialogue: 0,0:37:52.52,0:37:55.98,Default,,0,0,0,,Angenommen, der Entführer der Prinzessin\Nwar jemand aus Japan...
+Dialogue: 0,0:37:56.57,0:37:59.82,Default,,0,0,0,,Was bedeutet das für die Beziehung\Nzwischen unseren Ländern?
+Dialogue: 0,0:38:00.19,0:38:04.28,Default,,0,0,0,,Jetzt werde ich aber richtig wütend!\NSie wollen sie als Ersatz nehmen?
+Dialogue: 0,0:38:04.45,0:38:06.45,Default,,0,0,0,,Das dürfen wir nicht akzeptieren.
+Dialogue: 0,0:38:06.62,0:38:08.71,Default,,0,0,0,,Ran-kun ist eine normale Zivilistin.
+Dialogue: 0,0:38:09.70,0:38:13.79,Default,,0,0,0,,Wir dürfen sie nicht mit hineinziehen,\Nim Wissen, sie könnte getötet werden!
+Dialogue: 0,0:38:14.46,0:38:16.46,Default,,0,0,0,,Zieh dich um, Ran. Wir gehen.
+Dialogue: 0,0:38:17.04,0:38:18.83,Default,,0,0,0,,Ä... äh... Ich...
+Dialogue: 0,0:38:19.96,0:38:23.05,Default,,0,0,0,,Wenn es nur ist, bis die Prinzessin\Nzurück ist, tu ich es.
+Dialogue: 0,0:38:23.47,0:38:24.80,Default,,0,0,0,,Erzähl keinen Unsinn!
+Dialogue: 0,0:38:25.14,0:38:28.23,Default,,0,0,0,,Dein Vater hat recht!\NWas, wenn sie nicht zurückkommt?
+Dialogue: 0,0:38:28.39,0:38:29.47,Default,,0,0,0,,Er hat recht.
+Dialogue: 0,0:38:29.64,0:38:32.43,Default,,0,0,0,,Wir sagten doch:\NDu bist für nichts verantwortlich!
+Dialogue: 0,0:38:32.60,0:38:33.89,Default,,0,0,0,,Schützt die Prinzessin.
+Dialogue: 0,0:38:38.36,0:38:40.61,Default,,0,0,0,,He, lasst mich gefälligst los!
+Dialogue: 0,0:38:40.78,0:38:42.57,Default,,0,0,0,,– He! Was...\N– Ziehen Sie sich zurück!
+Dialogue: 0,0:38:42.74,0:38:43.82,Default,,0,0,0,,Machen wir sie fertig!
+Dialogue: 0,0:38:43.99,0:38:45.62,Default,,0,0,0,,Nein, leg keine Hand an sie!
+Dialogue: 0,0:38:47.12,0:38:50.62,Default,,0,0,0,,Bitte halten Sie sich in Zukunft\Nan das diplomatische Protokoll.
+Dialogue: 0,0:39:02.30,0:39:03.43,Default,,0,0,0,,Kommissar Megure...
+Dialogue: 0,0:39:04.34,0:39:07.59,Default,,0,0,0,,Ich bitte Sie offiziell,\Ndie Suche nach Ran einzuleiten.
+Dialogue: 0,0:39:10.51,0:39:12.64,Default,,0,0,0,,– Äh...\N– Alles klar! Wir werden sofort...
+Dialogue: 0,0:39:12.85,0:39:14.14,Default,,0,0,0,,...nach ihr suchen!
+Dialogue: 0,0:39:14.44,0:39:17.23,Default,,0,0,0,,Das... Ich verstehe kein Wort\Nvon dem, was Sie sagen!
+Dialogue: 0,0:39:19.90,0:39:21.65,Default,,0,0,0,,Ich besorge eine andere Suite.
+Dialogue: 0,0:39:21.82,0:39:23.65,Default,,0,0,0,,– Beschütz du die Prinzessin.\N– Ja.
+Dialogue: 0,0:39:34.25,0:39:36.71,Default,,0,0,0,,Is' nich wahr?! Das ist ja er...
+Dialogue: 0,0:39:38.38,0:39:39.67,Default,,0,0,0,,Äh, Verzeihung...
+Dialogue: 0,0:39:40.84,0:39:45.18,Default,,0,0,0,,Ich wusste nicht, dass Sie der Bodyguard\Nder Prinzessin sind, darum...
+Dialogue: 0,0:39:45.80,0:39:46.80,Default,,0,0,0,,Äh...
+Dialogue: 0,0:39:47.47,0:39:48.72,Default,,0,0,0,,Es tut mir leid.
+Dialogue: 0,0:39:49.97,0:39:51.76,Default,,0,0,0,,Du musst dich nicht entschuldigen.
+Dialogue: 0,0:39:51.93,0:39:56.39,Default,,0,0,0,,Ich war unvorsichtig, was überhaupt erst\Nzu dieser Situation geführt hat.
+Dialogue: 0,0:39:57.14,0:39:58.68,Default,,0,0,0,,Ich muss mich entschuldigen.
+Dialogue: 0,0:39:58.85,0:40:00.48,Default,,0,0,0,,A... aber nicht doch! Das...
+Dialogue: 0,0:40:04.24,0:40:06.07,Default,,0,0,0,,Äh... Vielleicht
+Dialogue: 0,0:40:06.24,0:40:09.28,Default,,0,0,0,,ist jetzt nicht der\Nrichtige Zeitpunkt dafür, aber...
+Dialogue: 0,0:40:09.95,0:40:11.41,Default,,0,0,0,,Ihnen fehlt da ein Knopf.
+Dialogue: 0,0:40:24.67,0:40:28.13,Default,,0,0,0,,Vor einem halben Jahr gab es hier\Neine Bewegung in der Erdkruste.
+Dialogue: 0,0:40:28.34,0:40:32.01,Default,,0,0,0,,Die sonst Kilometer unter der Erde\Nliegende Mohorovičić-Diskontinuität
+Dialogue: 0,0:40:32.18,0:40:34.52,Default,,0,0,0,,ist dabei an die Oberfläche getreten.
+Dialogue: 0,0:40:34.68,0:40:35.68,Default,,0,0,0,,Homović?
+Dialogue: 0,0:40:35.77,0:40:36.94,Default,,0,0,0,,Nein, Mohorovičić!
+Dialogue: 0,0:40:37.52,0:40:38.52,Default,,0,0,0,,Ach, egal.
+Dialogue: 0,0:40:38.89,0:40:40.93,Default,,0,0,0,,Was man darin entdeckt hat...
+Dialogue: 0,0:40:42.77,0:40:44.40,Default,,0,0,0,,...war eine unbekannte Erz-Art.
+Dialogue: 0,0:40:49.32,0:40:51.16,Default,,0,0,0,,Das Vespania-Erz.
+Dialogue: 0,0:40:53.37,0:40:55.79,Default,,0,0,0,,– Das hier ist alles Vespania-Erz?\N– Nein.
+Dialogue: 0,0:40:56.12,0:40:58.54,Default,,0,0,0,,Das Erz wurde\Nhier in diesem Gestein entdeckt.
+Dialogue: 0,0:40:58.91,0:41:01.75,Default,,0,0,0,,– Und es war ein völliger Zufall.\N– Zufall?
+Dialogue: 0,0:41:02.50,0:41:05.21,Default,,0,0,0,,Was für Eigenschaften\Nhat denn dieses Erz?
+Dialogue: 0,0:41:05.50,0:41:06.79,Default,,0,0,0,,Willst du das wissen?
+Dialogue: 0,0:41:08.47,0:41:10.43,Default,,0,0,0,,Mit Worten\Naus dem letzten Jahrhundert:
+Dialogue: 0,0:41:11.39,0:41:13.18,Default,,0,0,0,,ultimative Stealth-Eigenschaften.
+Dialogue: 0,0:41:13.85,0:41:14.93,Default,,0,0,0,,Stealth?
+Dialogue: 0,0:41:15.26,0:41:16.68,Default,,0,0,0,,Davon hast du doch gehört.
+Dialogue: 0,0:41:17.27,0:41:20.19,Default,,0,0,0,,Von Flugzeugen, die vom Radar\Nnicht erfasst werden...
+Dialogue: 0,0:41:20.64,0:41:24.44,Default,,0,0,0,,Und dieses Erz kann\Ndiesen Stealth-Effekt perfektionieren.
+Dialogue: 0,0:41:24.94,0:41:28.53,Default,,0,0,0,,Radiowellen absorbierende Ferrite\Nwerden stetig weiterentwickelt,
+Dialogue: 0,0:41:28.74,0:41:30.95,Default,,0,0,0,,doch sie erschweren\Nnur die Früherkennung,
+Dialogue: 0,0:41:31.11,0:41:33.45,Default,,0,0,0,,das Objekt\Nverschwindet damit nicht wirklich.
+Dialogue: 0,0:41:33.91,0:41:36.83,Default,,0,0,0,,Aber mit diesem Material\Nverschwinden sie vollständig?
+Dialogue: 0,0:41:37.45,0:41:38.95,Default,,0,0,0,,So ist es.
+Dialogue: 0,0:41:39.41,0:41:41.91,Default,,0,0,0,,Sie suchen\Nmit verschiedensten Mitteln danach,
+Dialogue: 0,0:41:42.54,0:41:44.46,Default,,0,0,0,,doch das Erz ist ein starker Gegner.
+Dialogue: 0,0:41:45.21,0:41:48.71,Default,,0,0,0,,Eben gerade wegen seiner Eigenschaften\Nkann man es so nicht orten.
+Dialogue: 0,0:41:48.88,0:41:51.34,Default,,0,0,0,,Verstehe. Dann lass mich dich fragen:
+Dialogue: 0,0:41:51.55,0:41:55.35,Default,,0,0,0,,Wie gedenkst du, dieses\Ngespensterhafte Erz dann zu finden?
+Dialogue: 0,0:41:58.97,0:42:00.18,Default,,0,0,0,,Mit Wünschelruten!
+Dialogue: 0,0:42:00.81,0:42:03.35,Default,,0,0,0,,Na, na, na!\NHast du das denn schon mal gemacht?
+Dialogue: 0,0:42:03.94,0:42:04.61,Default,,0,0,0,,Nö.
+Dialogue: 0,0:42:04.77,0:42:08.36,Default,,0,0,0,,RUTENGEHEN: METHODE, UM VERBORGENE\NWASSER- ODER ERZADERN ZU FINDEN
+Dialogue: 0,0:42:08.90,0:42:10.15,Default,,0,0,0,,Aber ich glaube
+Dialogue: 0,0:42:10.40,0:42:12.69,Default,,0,0,0,,an Fujiko-chan\Nund ans Rutengehen!
+Dialogue: 0,0:42:12.86,0:42:13.86,Default,,0,0,0,,Idiot.
+Dialogue: 0,0:42:18.95,0:42:20.37,Default,,0,0,0,,TOKYO – KABUKICHÔ – Gewonnen!
+Dialogue: 0,0:42:23.42,0:42:27.17,Default,,0,0,0,,Los... los... los! Juhuuu!
+Dialogue: 0,0:42:28.34,0:42:31.34,Default,,0,0,0,,He! Die Kralle hatte es gegriffen!\NSie hatte es!
+Dialogue: 0,0:42:36.26,0:42:38.05,Default,,0,0,0,,Du guckst immer wachsam raus...
+Dialogue: 0,0:42:39.01,0:42:42.76,Default,,0,0,0,,Das ist doch verständlich!\NIch habe eine Prinzessin entführt.
+Dialogue: 0,0:42:44.27,0:42:45.77,Default,,0,0,0,,Köstlich!
+Dialogue: 0,0:42:46.36,0:42:48.74,Default,,0,0,0,,Verhalt dich doch bitte\Netwas geiselhafter.
+Dialogue: 0,0:42:48.98,0:42:49.98,Default,,0,0,0,,Jahaa...
+Dialogue: 0,0:42:50.23,0:42:52.69,Default,,0,0,0,,Man stellt die Teller\Nnicht aufs Band zurück.
+Dialogue: 0,0:42:53.28,0:42:57.28,Default,,0,0,0,,Ich kenne deine Absichten nicht,\Naber du bist kein schlechter Mensch.
+Dialogue: 0,0:42:58.95,0:43:00.99,Default,,0,0,0,,Oder würdest du es mir etwa sagen?
+Dialogue: 0,0:43:02.62,0:43:05.50,Default,,0,0,0,,Was du wirklich im Schilde führst,\NSchwester Langbein?
+Dialogue: 0,0:43:07.50,0:43:08.71,Default,,0,0,0,,Na also, du schweigst.
+Dialogue: 0,0:43:09.17,0:43:11.71,Default,,0,0,0,,Aber ich habe mich entschieden,\Nzu vertrauen.
+Dialogue: 0,0:43:12.46,0:43:15.88,Default,,0,0,0,,Auf deine und auf meine Intuition.
+Dialogue: 0,0:43:19.47,0:43:20.89,Default,,0,0,0,,Du hast Reis am Mundwinkel.
+Dialogue: 0,0:43:21.56,0:43:22.56,Default,,0,0,0,,KAITEN-ZUSHI
+Dialogue: 0,0:43:22.68,0:43:24.97,Default,,0,0,0,,Ich sagte doch: Die Teller behält man!
+Dialogue: 0,0:43:26.15,0:43:27.69,Default,,0,0,0,,Was soll das heißen?
+Dialogue: 0,0:43:28.06,0:43:29.85,Default,,0,0,0,,Das können wir nicht akzeptieren!
+Dialogue: 0,0:43:31.15,0:43:32.15,Default,,0,0,0,,Ja...
+Dialogue: 0,0:43:32.44,0:43:33.44,Default,,0,0,0,,Ja...
+Dialogue: 0,0:43:33.78,0:43:34.78,Default,,0,0,0,,Wiederhören.
+Dialogue: 0,0:43:35.28,0:43:37.41,Default,,0,0,0,,Ich rede noch mal\Nmit der Zentralbehörde.
+Dialogue: 0,0:43:37.57,0:43:38.74,Default,,0,0,0,,Bleib du bitte hier.
+Dialogue: 0,0:43:38.91,0:43:40.41,Default,,0,0,0,,Üben die Kerle Druck aus?
+Dialogue: 0,0:43:40.91,0:43:42.04,Default,,0,0,0,,Vermutlich, ja.
+Dialogue: 0,0:43:42.41,0:43:45.25,Default,,0,0,0,,Keine unüberlegten Aktionen,\Nbis ich zurück bin, ja?
+Dialogue: 0,0:43:45.50,0:43:46.50,Default,,0,0,0,,Verstanden.
+Dialogue: 0,0:43:48.33,0:43:51.33,Default,,0,0,0,,Wenn wir diese Ego-Prinzessin\Nnicht schnappen, wird Ran...
+Dialogue: 0,0:43:51.50,0:43:53.34,Default,,0,0,0,,Das weiß ich doch auch!
+Dialogue: 0,0:43:53.51,0:43:56.51,Default,,0,0,0,,Warum kommt man dann unserer\NBitte nach einer Suche nicht nach?
+Dialogue: 0,0:43:56.68,0:43:59.31,Default,,0,0,0,,Aber das...\NNanu? Warum weißt du denn davon?
+Dialogue: 0,0:43:59.51,0:44:03.01,Default,,0,0,0,,Das kann man sich doch zusammenreimen,\Nwenn man Ihnen zusieht!
+Dialogue: 0,0:44:03.77,0:44:06.98,Default,,0,0,0,,Warum? Ist es wirklich nötig,\Ndass wir uns da einmischen?
+Dialogue: 0,0:44:08.15,0:44:12.24,Default,,0,0,0,,Oder hat es einen Sinn, Ran weiter\Nals Stellvertreterin zu behalten?
+Dialogue: 0,0:44:13.15,0:44:14.19,Default,,0,0,0,,Takagi...
+Dialogue: 0,0:44:15.03,0:44:18.82,Default,,0,0,0,,Wenn es zum Ernstfall kommen sollte,\Nwirst du mich doch unterstützen?
+Dialogue: 0,0:44:19.53,0:44:20.57,Default,,0,0,0,,Selbstverständlich.
+Dialogue: 0,0:44:20.95,0:44:22.53,Default,,0,0,0,,Sie riskieren doch Ihr Leben?
+Dialogue: 0,0:44:22.70,0:44:24.16,Default,,0,0,0,,Se... selbstverständlich!
+Dialogue: 0,0:44:24.66,0:44:26.24,Default,,0,0,0,,Oh, oh, oh, oh!
+Dialogue: 0,0:44:26.50,0:44:28.00,Default,,0,0,0,,Da ist was, da ist was!
+Dialogue: 0,0:44:29.29,0:44:30.29,Default,,0,0,0,,Hier!
+Dialogue: 0,0:44:34.42,0:44:38.38,Default,,0,0,0,,Du warst es! Ich hab mich so\Ndrauf gefreut, dich kennenlernen! Bussi!
+Dialogue: 0,0:44:38.93,0:44:40.10,Default,,0,0,0,,Du hast was gefunden?
+Dialogue: 0,0:44:40.26,0:44:42.39,Default,,0,0,0,,Oh ja! Eine auserlesene Kostbarkeit!
+Dialogue: 0,0:44:42.64,0:44:43.81,Default,,0,0,0,,H... he!
+Dialogue: 0,0:44:46.48,0:44:49.65,Default,,0,0,0,,Und dieses Stück Stein\Nsoll also die Welt verändern?
+Dialogue: 0,0:44:51.52,0:44:52.52,Default,,0,0,0,,Stell dir mal vor:
+Dialogue: 0,0:44:53.73,0:44:56.40,Default,,0,0,0,,Wenn eine damit ausgerüstete Rakete\Nunvermittelt
+Dialogue: 0,0:44:56.61,0:44:58.61,Default,,0,0,0,,von oben herabgedonnert kommt...
+Dialogue: 0,0:45:01.03,0:45:03.41,Default,,0,0,0,,Man weiß nicht,\Nwoher sie abgefeuert wurde,
+Dialogue: 0,0:45:03.58,0:45:06.96,Default,,0,0,0,,nein, vielleicht merkt man nicht mal,\Ndass was abgefeuert wurde!
+Dialogue: 0,0:45:07.71,0:45:10.84,Default,,0,0,0,,Was? Die Welt gibt sich immer noch\Nmit solchen Dingen ab?
+Dialogue: 0,0:45:11.08,0:45:12.37,Default,,0,0,0,,Sie wird es nie aufgeben.
+Dialogue: 0,0:45:13.25,0:45:16.38,Default,,0,0,0,,Heutzutage kann man ja sogar\Naus dem Weltraum spionieren.
+Dialogue: 0,0:45:16.96,0:45:20.42,Default,,0,0,0,,Ist die ganze Stadt voller Kameras,\Nwill man sich doch verstecken!
+Dialogue: 0,0:45:20.59,0:45:24.01,Default,,0,0,0,,– Leute mit schlechtem Gewissen schon.\N– Und das sagt ein Dieb!
+Dialogue: 0,0:45:24.64,0:45:28.31,Default,,0,0,0,,Zum Giück wurde das Erz nicht\Nin einem zwielichtigeren Land entdeckt!
+Dialogue: 0,0:45:28.81,0:45:31.52,Default,,0,0,0,,Hier in Vespania gibt es nur\NNatur und Frieden...
+Dialogue: 0,0:45:33.36,0:45:36.20,Default,,0,0,0,,Was war das\Nfür ein beunruhigendes "Wah!"?
+Dialogue: 0,0:45:37.82,0:45:40.24,Default,,0,0,0,,Warum verbirgst du\Njetzt noch dein Gesicht?
+Dialogue: 0,0:45:41.11,0:45:42.11,Default,,0,0,0,,"Hyuuu?"
+Dialogue: 0,0:45:44.66,0:45:45.79,Default,,0,0,0,,Jawohl! Gut gemacht!
+Dialogue: 0,0:45:46.20,0:45:48.95,Default,,0,0,0,,– Was bist du so zufrieden?\N– Wir müssen laufen!
+Dialogue: 0,0:45:50.21,0:45:53.88,Default,,0,0,0,,Laufen müssten wir in die andere\NRichtung! Der andere Wagen steht da!
+Dialogue: 0,0:45:54.21,0:45:57.55,Default,,0,0,0,,Ich hab sie gelehrt: Fluchtwagen\Ngibt es immer mehr als einen!
+Dialogue: 0,0:45:57.71,0:45:58.71,Default,,0,0,0,,Was, wen denn?
+Dialogue: 0,0:46:03.39,0:46:05.77,Default,,0,0,0,,Ah... Mein armer kleiner SSK...
+Dialogue: 0,0:46:06.10,0:46:09.02,Default,,0,0,0,,Du Mistkerl! Erklär mir das\Nin höchstens zehn Wörtern!
+Dialogue: 0,0:46:09.18,0:46:11.72,Default,,0,0,0,,Ich hab den Wachen\Nein paar Vorträge gehalten.
+Dialogue: 0,0:46:12.10,0:46:13.73,Default,,0,0,0,,– Los geht's!\N– Ja!
+Dialogue: 0,0:46:14.56,0:46:17.19,Default,,0,0,0,,Erstens: Schnappt sie,\Nwenn sie grinsend rauskommen.
+Dialogue: 0,0:46:17.36,0:46:19.11,Default,,0,0,0,,Zweitens:\NLasst sie nicht fliehen!
+Dialogue: 0,0:46:19.32,0:46:22.45,Default,,0,0,0,,Drittens: Treibt sie sofort in die Enge!\NZeigt keine Milde!
+Dialogue: 0,0:46:22.61,0:46:24.82,Default,,0,0,0,,Wir wenden\NJigen-senseis Lehre nun an!
+Dialogue: 0,0:46:24.99,0:46:26.03,Default,,0,0,0,,Roger!
+Dialogue: 0,0:46:26.99,0:46:29.99,Default,,0,0,0,,He! Ihr dürft doch nicht mit so was\Nauf uns schießen...
+Dialogue: 0,0:46:32.37,0:46:34.58,Default,,0,0,0,,Aber vom Hubschrauber\Nhast du nichts gesagt?
+Dialogue: 0,0:46:38.25,0:46:41.54,Default,,0,0,0,,Du erinnerst dich? Hubschrauber\Nmit dem Logo eines TV-Senders
+Dialogue: 0,0:46:41.72,0:46:43.43,Default,,0,0,0,,sind besonders verdächtig!
+Dialogue: 0,0:46:43.84,0:46:45.67,Default,,0,0,0,,Da ist einer! 200 Meter unter uns.
+Dialogue: 0,0:46:45.89,0:46:48.31,Default,,0,0,0,,Und er trägt eins!\NDas Logo eines TV-Senders!
+Dialogue: 0,0:46:50.22,0:46:53.10,Default,,0,0,0,,Der Hubschrauber war\Nunsere letzte Hoffnung! Was jetzt?
+Dialogue: 0,0:46:53.27,0:46:54.10,Default,,0,0,0,,Wir laufen.
+Dialogue: 0,0:46:54.27,0:46:58.57,Default,,0,0,0,,– Na dann! Viel Giück, du Nebenjobber!\N– Die Rezession kann mir nichts anhaben!
+Dialogue: 0,0:47:01.44,0:47:05.03,Default,,0,0,0,,Ob der Hubschrauber wirklich\Nvom Feind gechartert wurde, ist egal.
+Dialogue: 0,0:47:05.32,0:47:07.11,Default,,0,0,0,,Schießt ihn einfach erst mal ab.
+Dialogue: 0,0:47:07.28,0:47:09.07,Default,,0,0,0,,War es falsch, war es eben Pech.
+Dialogue: 0,0:47:09.91,0:47:12.08,Default,,0,0,0,,- Ein alter Kämpfer!\N- Der denkt ganz anders!
+Dialogue: 0,0:47:13.21,0:47:16.30,Default,,0,0,0,,Das ist eben, was man\N"hartgesotten" nennt.
+Dialogue: 0,0:47:25.68,0:47:27.76,Default,,0,0,0,,Zur Hölle mit "hartgesotten"!
+Dialogue: 0,0:47:29.30,0:47:31.93,Default,,0,0,0,,Eine Pressekonferenz\Nam Flughafen Haneda?
+Dialogue: 0,0:47:32.43,0:47:35.31,Default,,0,0,0,,Ja. Sie wird morgen\Num zehn Uhr vormittags anfangen.
+Dialogue: 0,0:47:35.77,0:47:38.94,Default,,0,0,0,,Direkt im Anschluss daran\Nfliegen wir nach Vespania zurück.
+Dialogue: 0,0:47:39.31,0:47:42.35,Default,,0,0,0,,Zurückfliegen, sagen Sie?\NAber das kann ich nicht!
+Dialogue: 0,0:47:42.65,0:47:46.03,Default,,0,0,0,,Und ich wüsste nicht, was ich\Nbei dieser Konferenz sagen sollte!
+Dialogue: 0,0:47:46.24,0:47:49.66,Default,,0,0,0,,Nur keine Sorge.\NIch werde die Fragen beantworten.
+Dialogue: 0,0:47:50.08,0:47:53.58,Default,,0,0,0,,Und es wird die echte Prinzessin sein,\Ndie mit uns zurückfliegt.
+Dialogue: 0,0:47:55.21,0:47:57.75,Default,,0,0,0,,Ach so! Die Prinzessin ist also wohlauf?
+Dialogue: 0,0:47:58.25,0:48:02.75,Default,,0,0,0,,Dann müsste zu dieser Konferenz ja nicht\Nunbedingt ich, sondern sie könnte...
+Dialogue: 0,0:48:03.21,0:48:07.67,Default,,0,0,0,,Zweck der Konferenz ist, mitzuteilen,\Ndass du für sie eingesprungen bist.
+Dialogue: 0,0:48:09.51,0:48:11.72,Default,,0,0,0,,Dass die Prinzessin in Japan verschwand.
+Dialogue: 0,0:48:12.39,0:48:16.18,Default,,0,0,0,,Und dass mit dir eine fast\Nidentische Doppelgängerin existiert.
+Dialogue: 0,0:48:16.73,0:48:18.40,Default,,0,0,0,,Dies werden wir bekannt geben.
+Dialogue: 0,0:48:19.52,0:48:21.40,Default,,0,0,0,,Wir machen dir Unannehmlichkeiten...
+Dialogue: 0,0:48:22.23,0:48:25.40,Default,,0,0,0,,Aber würdest du uns helfen,\Nbis wir die Kerle gefunden haben,
+Dialogue: 0,0:48:25.82,0:48:27.78,Default,,0,0,0,,die ihr nach dem Leben trachten?
+Dialogue: 0,0:48:33.74,0:48:35.82,Default,,0,0,0,,Na, wie ist es? Bist du nun zufrieden?
+Dialogue: 0,0:48:36.00,0:48:40.42,Default,,0,0,0,,Es ist wirklich toll! So frei\Nwar ich in meinem ganzen Leben noch nie!
+Dialogue: 0,0:48:41.21,0:48:42.54,Default,,0,0,0,,Wohin gehen wir heute?
+Dialogue: 0,0:48:43.00,0:48:46.13,Default,,0,0,0,,Nun... An den Ort,\Nan den du hingehörst.
+Dialogue: 0,0:48:47.88,0:48:49.88,Default,,0,0,0,,Nein. Ich will nicht zurück.
+Dialogue: 0,0:48:50.51,0:48:53.30,Default,,0,0,0,,Nanu? Hab ich irgendwas\Nvon "zurückgehen" gesagt?
+Dialogue: 0,0:48:53.47,0:48:55.60,Default,,0,0,0,,Aber dann gehörst du\Ntatsächlich da hin.
+Dialogue: 0,0:48:56.02,0:48:57.52,Default,,0,0,0,,Nein, tu ich nicht!
+Dialogue: 0,0:48:57.81,0:48:59.27,Default,,0,0,0,,War hier in dieser Stadt
+Dialogue: 0,0:49:00.27,0:49:01.90,Default,,0,0,0,,ein Ort, an den du hingehörst?
+Dialogue: 0,0:49:02.27,0:49:04.77,Default,,0,0,0,,Gibt es hier in Japan etwas,\Ndas du tun kannst?
+Dialogue: 0,0:49:07.19,0:49:08.27,Default,,0,0,0,,Wollen wir es suchen?
+Dialogue: 0,0:49:11.74,0:49:13.95,Default,,0,0,0,,Etwas, das nur du tun kannst?
+Dialogue: 0,0:49:23.59,0:49:27.34,Default,,0,0,0,,Alles klar? Sobald die Konferenz\Nbegonnen hat, holen wir Ran zurück.
+Dialogue: 0,0:49:27.67,0:49:29.92,Default,,0,0,0,,Ja! Ich habe\Nmein Entlassungsgesuch dabei!
+Dialogue: 0,0:49:30.34,0:49:32.93,Default,,0,0,0,,Ob es damit getan sein wird?
+Dialogue: 0,0:49:35.97,0:49:39.43,Default,,0,0,0,,Du musst einfach nur da sitzen.\NBitte sei ganz gelassen.
+Dialogue: 0,0:49:39.69,0:49:41.23,Default,,0,0,0,,Sie haben ja recht.
+Dialogue: 0,0:49:41.60,0:49:46.15,Default,,0,0,0,,Aber... Auch wenn es keine echte ist,\Nich habe noch nie...
+Dialogue: 0,0:49:46.78,0:49:48.53,Default,,0,0,0,,eine Pressekonferenz...
+Dialogue: 0,0:49:56.37,0:49:58.29,Default,,0,0,0,,Es ist alles für den Abflug bereit.
+Dialogue: 0,0:49:58.91,0:50:03.41,Default,,0,0,0,,Kein Wunder, dass sie dich zu Boden\Ntreten konnte. Endlich wirkt das Mittel.
+Dialogue: 0,0:50:04.13,0:50:06.63,Default,,0,0,0,,Trag sie zum Flugzeug.\NWir fliegen sofort ab.
+Dialogue: 0,0:50:07.00,0:50:09.42,Default,,0,0,0,,– Wie können Sie jetzt noch...\N– Was soll das?
+Dialogue: 0,0:50:09.76,0:50:13.47,Default,,0,0,0,,Aufgrund unvorhergesehener Umstände\Nmuss die Konferenz abgesagt werden.
+Dialogue: 0,0:50:13.64,0:50:14.64,Default,,0,0,0,,Was soll das!
+Dialogue: 0,0:50:14.68,0:50:15.76,Default,,0,0,0,,Ich bitte um Ruhe!
+Dialogue: 0,0:50:16.97,0:50:19.01,Default,,0,0,0,,Los, sag, wo sind sie jetzt?
+Dialogue: 0,0:50:19.47,0:50:21.43,Default,,0,0,0,,Sie werden gleich abfliegen!
+Dialogue: 0,0:50:22.06,0:50:23.60,Default,,0,0,0,,Was?!
+Dialogue: 0,0:50:36.87,0:50:37.87,Default,,0,0,0,,Verdammt...
+Dialogue: 0,0:50:53.68,0:50:57.68,Default,,0,0,0,,Privatmaschine des Königshauses,\NB-1027: Erlaubnis zum Take-off.
+Dialogue: 0,0:50:58.31,0:50:59.31,Default,,0,0,0,,Good luck.
+Dialogue: 0,0:50:59.39,0:51:00.85,Default,,0,0,0,,Thank you, Tower.
+Dialogue: 0,0:51:01.43,0:51:03.06,Default,,0,0,0,,Danke für die Unterstützung.
+Dialogue: 0,0:51:14.70,0:51:17.12,Default,,0,0,0,,– Gear up.\N– Fahre das Fahrwerk ein.
+Dialogue: 0,0:51:31.96,0:51:32.96,Default,,0,0,0,,Ran...
+Dialogue: 0,0:51:34.42,0:51:35.50,Default,,0,0,0,,Môri-san...
+Dialogue: 0,0:51:37.59,0:51:38.80,Default,,0,0,0,,Hier sind Sie ja!
+Dialogue: 0,0:51:39.68,0:51:41.47,Default,,0,0,0,,Es geht sofort los, Môri-kun!
+Dialogue: 0,0:51:41.72,0:51:43.35,Default,,0,0,0,,Was? Wir verfolgen sie?
+Dialogue: 0,0:51:43.98,0:51:46.44,Default,,0,0,0,,Wir leider nicht.\NDer Einzige, der gehen kann,
+Dialogue: 0,0:51:47.02,0:51:48.90,Default,,0,0,0,,das sind Sie, Môri-kun.
+Dialogue: 0,0:51:49.56,0:51:51.56,Default,,0,0,0,,Was meinen Sie damit?
+Dialogue: 0,0:51:52.57,0:51:54.95,Default,,0,0,0,,Lassen Sie mich vorstellen:\NDies ist mein Freund,
+Dialogue: 0,0:51:55.70,0:51:58.29,Default,,0,0,0,,Kommissar Zenigata von Interpol.
+Dialogue: 0,0:51:58.57,0:51:59.65,Default,,0,0,0,,Hallo.
+Dialogue: 0,0:52:00.87,0:52:04.46,Default,,0,0,0,,Sie sind also der berühmte\NMeisterdetektiv Kogorô Môri?
+Dialogue: 0,0:52:04.66,0:52:06.16,Default,,0,0,0,,J... ja...
+Dialogue: 0,0:52:07.08,0:52:09.46,Default,,0,0,0,,In einem einzigen, speziellen Fall
+Dialogue: 0,0:52:09.63,0:52:12.67,Default,,0,0,0,,ist Kommissar Zenigata befugt,\Nweltweit zu ermitteln.
+Dialogue: 0,0:52:13.00,0:52:16.17,Default,,0,0,0,,Und zwar,\Num Lupin III. festzunehmen!
+Dialogue: 0,0:52:17.13,0:52:18.59,Default,,0,0,0,,Ich bin schon informiert.
+Dialogue: 0,0:52:19.18,0:52:21.22,Default,,0,0,0,,Ich werde Sie als meinen Assistenten
+Dialogue: 0,0:52:21.60,0:52:23.89,Default,,0,0,0,,mit nach Vespania nehmen.
+Dialogue: 0,0:52:24.43,0:52:26.22,Default,,0,0,0,,Vie... vielen Dank!
+Dialogue: 0,0:52:26.43,0:52:27.93,Default,,0,0,0,,Das ist ja toll!
+Dialogue: 0,0:52:29.10,0:52:31.94,Default,,0,0,0,,Ich vertraue all meine guten Wünsche\Ndieser Faust an!
+Dialogue: 0,0:52:32.11,0:52:34.49,Default,,0,0,0,,Hauen Sie dem Kerl so richtig eine rein!
+Dialogue: 0,0:52:34.82,0:52:36.32,Default,,0,0,0,,Verlass dich auf mich.
+Dialogue: 0,0:52:36.53,0:52:38.91,Default,,0,0,0,,Ach ja, genau... Mein Rücktrittsgesuch.
+Dialogue: 0,0:52:39.32,0:52:40.32,Default,,0,0,0,,Nehmen Sie es!
+Dialogue: 0,0:52:41.16,0:52:43.16,Default,,0,0,0,,Aber wem sollte ich das denn geben?
+Dialogue: 0,0:52:49.96,0:52:51.34,Default,,0,0,0,,Ich leih sie mir also aus!
+Dialogue: 0,0:52:51.50,0:52:54.21,Default,,0,0,0,,Nur zu! Ich liebe dich, Fujiko!
+Dialogue: 0,0:52:57.51,0:52:59.93,Default,,0,0,0,,Sag mal... Wer bist du wirklich?
+Dialogue: 0,0:53:00.51,0:53:01.64,Default,,0,0,0,,Gehörst du zur CIA?
+Dialogue: 0,0:53:01.85,0:53:03.81,Default,,0,0,0,,Oder zum FBI? Zur "M-Organisation"?
+Dialogue: 0,0:53:04.22,0:53:06.64,Default,,0,0,0,,Wo denkst du hin, nicht im Geringsten!
+Dialogue: 0,0:53:06.81,0:53:10.23,Default,,0,0,0,,Ich bin eine normale Zivilistin\Nmit einem großen Bekanntenkreis.
+Dialogue: 0,0:53:10.77,0:53:14.61,Default,,0,0,0,,– Eine Zivilistin fliegt keine F-18!\N– Beiß dir nicht auf die Zunge!
+Dialogue: 0,0:53:19.45,0:53:21.37,Default,,0,0,0,,Die Queen's Crown...
+Dialogue: 0,0:53:21.82,0:53:24.28,Default,,0,0,0,,Auf die hat Lupin es abgesehen?
+Dialogue: 0,0:53:24.74,0:53:26.41,Default,,0,0,0,,Die Info ist vertrauenswürdig.
+Dialogue: 0,0:53:26.66,0:53:30.12,Default,,0,0,0,,Lupin III.\NExistiert also tatsächlich...
+Dialogue: 0,0:53:30.33,0:53:32.62,Default,,0,0,0,,Ich dachte,\Ner sei ein Roman- und Mangaheld.
+Dialogue: 0,0:53:32.79,0:53:37.59,Default,,0,0,0,,Wie bitte? Sie wissen nichts von Lupin?\NUnd Sie wollen ein Meisterdetektiv sein?
+Dialogue: 0,0:53:40.72,0:53:41.72,Default,,0,0,0,,Ran...
+Dialogue: 0,0:53:42.59,0:53:43.59,Default,,0,0,0,,Ran!
+Dialogue: 0,0:53:44.80,0:53:45.97,Default,,0,0,0,,Shin'ichi...?
+Dialogue: 0,0:53:49.81,0:53:50.89,Default,,0,0,0,,Du bist aufgewacht?
+Dialogue: 0,0:53:51.35,0:53:52.35,Default,,0,0,0,,Wo bin ich?
+Dialogue: 0,0:53:53.15,0:53:55.28,Default,,0,0,0,,Sie haben hoffentlich eine Erklärung?
+Dialogue: 0,0:53:55.94,0:53:59.28,Default,,0,0,0,,Wer zum Teufel seid ihr eigentlich?
+Dialogue: 0,0:53:59.82,0:54:02.45,Default,,0,0,0,,Ich habe Ihnen eine Frage gestellt!
+Dialogue: 0,0:54:03.07,0:54:04.53,Default,,0,0,0,,Ein normales junges Mädchen
+Dialogue: 0,0:54:04.74,0:54:06.99,Default,,0,0,0,,würde als Erstes\Nein Riesengeschrei machen.
+Dialogue: 0,0:54:07.20,0:54:09.37,Default,,0,0,0,,Soll ich diese Erwartung erfüllen?
+Dialogue: 0,0:54:10.25,0:54:12.21,Default,,0,0,0,,Ich kann ziemlich laut werden.
+Dialogue: 0,0:54:13.38,0:54:17.22,Default,,0,0,0,,Während du schliefst, ereignete sich\Nim Flugzeug etwas Unvorhergesehenes.
+Dialogue: 0,0:54:17.63,0:54:21.26,Default,,0,0,0,,Der Junge, der bei dem Empfang\Nden falschen Sommelier erkannt hat...
+Dialogue: 0,0:54:22.34,0:54:24.09,Default,,0,0,0,,Er hat das Kunststück vollbracht,
+Dialogue: 0,0:54:24.26,0:54:26.76,Default,,0,0,0,,auf ein startendes Flugzeug\Naufzuspringen...
+Dialogue: 0,0:54:27.76,0:54:28.84,Default,,0,0,0,,Conan-kun...
+Dialogue: 0,0:54:29.64,0:54:33.27,Default,,0,0,0,,Ist der Spant unter dem Cockpit offen,\Nkann die Maschine nicht steigen.
+Dialogue: 0,0:54:33.98,0:54:37.69,Default,,0,0,0,,Wir gingen etwas runter und überprüften\Nden vorderen Fahrwerkschacht.
+Dialogue: 0,0:54:40.40,0:54:42.07,Default,,0,0,0,,Und dort fanden wir...
+Dialogue: 0,0:54:43.70,0:54:44.74,Default,,0,0,0,,den Jungen.
+Dialogue: 0,0:54:45.66,0:54:50.16,Default,,0,0,0,,Am meisten staunte der Kapitän über\Nseine Kaltblütigkeit und sein Wissen.
+Dialogue: 0,0:54:51.16,0:54:55.66,Default,,0,0,0,,Mit Unvernunft hätte er in 10.000 Metern\NHöhe auch uns in Gefahr bringen können.
+Dialogue: 0,0:54:57.00,0:55:00.63,Default,,0,0,0,,Doch er hat den Sensor gesucht\Nund so das Cockpit alarmiert.
+Dialogue: 0,0:55:01.88,0:55:06.13,Default,,0,0,0,,In der dünnen Luft und der eisigen Kälte\Ndort im vorderen Fahrwerkschacht...
+Dialogue: 0,0:55:07.80,0:55:08.88,Default,,0,0,0,,Ist er wohlauf?
+Dialogue: 0,0:55:09.26,0:55:12.55,Default,,0,0,0,,Keine Sorge. Er hat nur\Nein paar Frostbeulen davongetragen.
+Dialogue: 0,0:55:13.56,0:55:17.40,Default,,0,0,0,,Was ich dir nun erzählen werde,\Nist weder gelogen noch erfunden.
+Dialogue: 0,0:55:18.27,0:55:19.48,Default,,0,0,0,,Bitte hör mir zu.
+Dialogue: 0,0:55:31.12,0:55:33.87,Default,,0,0,0,,Lupin!\NIch hab kurz deine Dusche benutzt!
+Dialogue: 0,0:55:34.21,0:55:35.21,Default,,0,0,0,,Okay!
+Dialogue: 0,0:55:37.92,0:55:39.00,Default,,0,0,0,,Fujiko-chan?
+Dialogue: 0,0:55:40.30,0:55:42.51,Default,,0,0,0,,Seit wann bist du denn hier? Nanu?
+Dialogue: 0,0:55:46.26,0:55:47.89,Default,,0,0,0,,Die Waschmaschine...?
+Dialogue: 0,0:55:49.35,0:55:52.31,Default,,0,0,0,,Ich sagte: Ich hab sie benutzt.\NDu bist wirklich blöd.
+Dialogue: 0,0:55:54.02,0:55:55.85,Default,,0,0,0,,Da ist ein Gefühl des Bedauerns...
+Dialogue: 0,0:55:56.02,0:55:58.81,Default,,0,0,0,,Aber auch eines,\Nals hätte ich was Lohnendes geseh...
+Dialogue: 0,0:55:59.56,0:56:00.85,Default,,0,0,0,,Die Kloschüssel...
+Dialogue: 0,0:56:02.44,0:56:05.11,Default,,0,0,0,,Ich hab mich noch\Nüber die vielen Pakete gewundert.
+Dialogue: 0,0:56:05.28,0:56:06.74,Default,,0,0,0,,Du hast sie nicht geöffnet?
+Dialogue: 0,0:56:06.91,0:56:08.70,Default,,0,0,0,,Ich dachte, sie gehören Jigen.
+Dialogue: 0,0:56:09.03,0:56:11.28,Default,,0,0,0,,Paketkurierdienste\Nsind wirklich praktisch.
+Dialogue: 0,0:56:11.45,0:56:12.87,Default,,0,0,0,,Zu praktisch, finde ich.
+Dialogue: 0,0:56:13.66,0:56:15.83,Default,,0,0,0,,Aber dass du uns\Nüberhaupt gefunden hast...
+Dialogue: 0,0:56:16.00,0:56:18.29,Default,,0,0,0,,Wenn es um dich geht, Lupin,\Ndann gibt es
+Dialogue: 0,0:56:18.54,0:56:20.67,Default,,0,0,0,,doch wohl nichts, was ich nicht weiß.
+Dialogue: 0,0:56:21.63,0:56:23.71,Default,,0,0,0,,Warum hast du mich nicht\Nmit einbezogen?
+Dialogue: 0,0:56:23.88,0:56:27.47,Default,,0,0,0,,Ah... Ich hatte vor,\Nes dir gleich zu sagen...
+Dialogue: 0,0:56:27.84,0:56:29.84,Default,,0,0,0,,Wirklich, hattest du? Das freut mich!
+Dialogue: 0,0:56:30.01,0:56:32.89,Default,,0,0,0,,Weil ich das vermutet hab,\Nhab ich die Prinzessin mitgebracht.
+Dialogue: 0,0:56:33.06,0:56:35.19,Default,,0,0,0,,Ich soll sie morgen wieder abliefern,
+Dialogue: 0,0:56:35.39,0:56:37.72,Default,,0,0,0,,vielleicht komm ich dabei\Nin den Palast rein!
+Dialogue: 0,0:56:38.10,0:56:39.35,Default,,0,0,0,,Also dann, gute Nacht!
+Dialogue: 0,0:56:40.23,0:56:42.56,Default,,0,0,0,,Ich hab seit gestern\Nnicht mehr geschlafen...
+Dialogue: 0,0:56:43.69,0:56:45.27,Default,,0,0,0,,D... du gehst schlafen?
+Dialogue: 0,0:56:47.07,0:56:49.57,Default,,0,0,0,,An unsere\N80 Millionen erwachsenen Zuschauer!
+Dialogue: 0,0:56:49.74,0:56:52.08,Default,,0,0,0,,Vielen Dank für Ihr geduldiges Warten!
+Dialogue: 0,0:56:52.24,0:56:54.03,Default,,0,0,0,,Na dann mal guten Appetit!
+Dialogue: 0,0:57:00.71,0:57:01.96,Default,,0,0,0,,Also dann bis morgen!
+Dialogue: 0,0:57:05.59,0:57:06.80,Default,,0,0,0,,Du hast was vergessen.
+Dialogue: 0,0:57:10.30,0:57:11.30,Default,,0,0,0,,Schnief...
+Dialogue: 0,0:57:15.22,0:57:16.93,Default,,0,0,0,,Wie geht es der Prinzessin?
+Dialogue: 0,0:57:17.31,0:57:20.35,Default,,0,0,0,,Sie hat sich beruhigt\Nund isst auch wieder ihr Frühstück.
+Dialogue: 0,0:57:20.77,0:57:23.19,Default,,0,0,0,,Es tut mir leid,\Ndass sie Ihnen Sorgen gemacht hat.
+Dialogue: 0,0:57:23.40,0:57:25.57,Default,,0,0,0,,Sie müssen sich\Ndoch nicht entschuldigen.
+Dialogue: 0,0:57:26.07,0:57:29.36,Default,,0,0,0,,Aber dass sich ihre Gegner\Nbis nach Japan einschleusen...
+Dialogue: 0,0:57:30.07,0:57:32.28,Default,,0,0,0,,Das hätte ich wirklich nicht erwartet.
+Dialogue: 0,0:57:32.78,0:57:34.20,Default,,0,0,0,,In diesem Zusammenhang:
+Dialogue: 0,0:57:34.53,0:57:37.45,Default,,0,0,0,,Ich möchte die Krönungsfeier\Netwas früher abhalten...
+Dialogue: 0,0:57:38.04,0:57:40.75,Default,,0,0,0,,Die Krönungsfeier vorziehen...?
+Dialogue: 0,0:57:50.43,0:57:51.51,Default,,0,0,0,,Danke fürs Warten.
+Dialogue: 0,0:57:51.72,0:57:52.72,Default,,0,0,0,,Die Prinzessin...?
+Dialogue: 0,0:57:52.84,0:57:54.84,Default,,0,0,0,,Leider ist sie noch nicht angekommen.
+Dialogue: 0,0:57:55.14,0:57:56.14,Default,,0,0,0,,Hören Sie mal...
+Dialogue: 0,0:57:56.81,0:57:59.27,Default,,0,0,0,,Sie hat mir die Sache\Nin groben Zügen erzählt.
+Dialogue: 0,0:57:59.77,0:58:02.44,Default,,0,0,0,,Aber ich und der Bengel da,\Ndas klappt doch nicht!
+Dialogue: 0,0:58:02.85,0:58:05.69,Default,,0,0,0,,Sie sehen nun mal aus\Nwie ein Japaner mit seinem Sohn.
+Dialogue: 0,0:58:05.86,0:58:07.07,Default,,0,0,0,,Hören Sie bloß auf!
+Dialogue: 0,0:58:07.73,0:58:11.40,Default,,0,0,0,,Aber haben Sie wirklich vor,\NConan in diese Sache hineinzuziehen?
+Dialogue: 0,0:58:12.07,0:58:16.99,Default,,0,0,0,,Peinlicherweise sind die hier Anwesenden\Ndie Einzigen, denen wir trauen können.
+Dialogue: 0,0:58:17.24,0:58:21.16,Default,,0,0,0,,Es war Graf Keiths Idee, in dieser\NSituation nach Japan zu reisen.
+Dialogue: 0,0:58:21.62,0:58:25.50,Default,,0,0,0,,Und wir erkannten: Selbst unter den\NSicherheitsleuten sind Verdächtige.
+Dialogue: 0,0:58:25.84,0:58:27.67,Default,,0,0,0,,Eine traurige Geschichte.
+Dialogue: 0,0:58:28.55,0:58:32.68,Default,,0,0,0,,Von Prinzessin Miras Ableben profitieren\Nwürde der Nächste in der Thronfolge.
+Dialogue: 0,0:58:33.18,0:58:36.72,Default,,0,0,0,,Sogar dieser Bengel kapiert,\Nwer im Hintergrund die Fäden zieht.
+Dialogue: 0,0:58:36.97,0:58:37.97,Default,,0,0,0,,Ja.
+Dialogue: 0,0:58:38.52,0:58:41.19,Default,,0,0,0,,Es war Herzog Gerard,\Nder die beiden umbrachte und
+Dialogue: 0,0:58:41.35,0:58:43.39,Default,,0,0,0,,es wie einen Unfall aussehen Iieß.
+Dialogue: 0,0:58:44.02,0:58:45.02,Default,,0,0,0,,Na, na, na!
+Dialogue: 0,0:58:45.73,0:58:47.44,Default,,0,0,0,,Sollten Sie das so laut sagen?
+Dialogue: 0,0:58:48.07,0:58:50.95,Default,,0,0,0,,Sie haben also\NBeweise dafür gefunden?
+Dialogue: 0,0:58:51.53,0:58:52.82,Default,,0,0,0,,Nein. Ich habe nichts.
+Dialogue: 0,0:58:53.86,0:58:57.28,Default,,0,0,0,,Unsere Familien dienen der Königsfamilie\Nseit Generationen.
+Dialogue: 0,0:58:57.66,0:58:59.54,Default,,0,0,0,,Diese umfasst aber auch den Herzog.
+Dialogue: 0,0:58:59.70,0:59:03.25,Default,,0,0,0,,Weil Sie selbst nicht aktiv\Nwerden können, wenden Sie sich an uns?
+Dialogue: 0,0:59:04.08,0:59:07.21,Default,,0,0,0,,Das Iässt Ihre Judikative\Nnicht sehr vorteilhaft aussehen.
+Dialogue: 0,0:59:08.25,0:59:11.29,Default,,0,0,0,,Nur die Königin kann über Mitglieder\Nder Königsfamilie richten.
+Dialogue: 0,0:59:11.46,0:59:14.50,Default,,0,0,0,,Prinzessin Mira\Nhat diese Befugnis im Moment noch nicht.
+Dialogue: 0,0:59:14.80,0:59:17.89,Default,,0,0,0,,Pah! Leben Sie hier noch\Nim 19. Jahrhundert, oder was?
+Dialogue: 0,0:59:18.47,0:59:19.51,Default,,0,0,0,,Ich bitte Sie.
+Dialogue: 0,0:59:19.89,0:59:21.47,Default,,0,0,0,,Die Zeit Iäuft uns davon.
+Dialogue: 0,0:59:21.77,0:59:25.57,Default,,0,0,0,,Die Parade zur Feier der Krönung\Nwird schon übermorgen stattfinden.
+Dialogue: 0,0:59:25.85,0:59:26.85,Default,,0,0,0,,Oh nein!
+Dialogue: 0,0:59:27.06,0:59:30.10,Default,,0,0,0,,Was, wenn die echte Prinzessin\Nbis dahin nicht auftaucht?
+Dialogue: 0,0:59:31.03,0:59:32.61,Default,,0,0,0,,Dann muss Ran an der Parade...
+Dialogue: 0,0:59:36.57,0:59:37.70,Default,,0,0,0,,Conan-kun...
+Dialogue: 0,0:59:39.12,0:59:41.37,Default,,0,0,0,,Fräulein Ran, schließen Sie den Vorhang.
+Dialogue: 0,0:59:42.04,0:59:44.29,Default,,0,0,0,,Es könnte jederzeit\Njemand auf Sie zielen.
+Dialogue: 0,0:59:44.91,0:59:48.75,Default,,0,0,0,,Bitte nennen Sie mich doch nicht\N"Fräulein". Ich bin nur ein Double.
+Dialogue: 0,0:59:49.59,0:59:52.38,Default,,0,0,0,,Sagen Sie, dienen Sie\NPrinzessin Mira schon lange?
+Dialogue: 0,0:59:52.67,0:59:55.59,Default,,0,0,0,,Ja. Ich stehe\Nseit fünf Jahren in ihrem Dienst.
+Dialogue: 0,0:59:56.26,0:59:58.76,Default,,0,0,0,,Und ich arbeite seit drei Jahren\Nhier am Hof.
+Dialogue: 0,0:59:59.26,1:00:03.26,Default,,0,0,0,,Nun... Ich habe nur ihre\Nexzentrische Seite kennengelernt.
+Dialogue: 0,1:00:03.85,1:00:05.98,Default,,0,0,0,,War die Prinzessin schon als Kind so?
+Dialogue: 0,1:00:08.48,1:00:10.73,Default,,0,0,0,,Nein. Sie war sehr sanft
+Dialogue: 0,1:00:10.94,1:00:12.11,Default,,0,0,0,,und empfindsam...
+Dialogue: 0,1:00:14.03,1:00:15.70,Default,,0,0,0,,Und sie hat immer noch nicht...
+Dialogue: 0,1:00:17.82,1:00:20.32,Default,,0,0,0,,Noch nicht... noch nicht was?
+Dialogue: 0,1:00:21.91,1:00:25.12,Default,,0,0,0,,Sie hat noch immer nicht\Nvor jemand anderem geweint...
+Dialogue: 0,1:00:25.91,1:00:28.83,Default,,0,0,0,,Sie hat zwei geliebte Menschen\Nauf einen Schlag verloren...
+Dialogue: 0,1:00:30.00,1:00:31.63,Default,,0,0,0,,Wenn ich daran denke, wie sie
+Dialogue: 0,1:00:32.42,1:00:34.63,Default,,0,0,0,,von dieser großen Trauer\Nüberwältigt wird,
+Dialogue: 0,1:00:35.72,1:00:38.14,Default,,0,0,0,,halte ich es kaum aus\Nvor Mitleid mit ihr...
+Dialogue: 0,1:00:40.05,1:00:41.68,Default,,0,0,0,,Sie kann es nicht verarbeiten.
+Dialogue: 0,1:00:42.68,1:00:46.68,Default,,0,0,0,,Darum... hat sie eine ganz andere\NPersönlichkeit von sich erschaffen.
+Dialogue: 0,1:00:50.10,1:00:53.65,Default,,0,0,0,,Findest du es seltsam, dass ich\Ndie Sache diesen beiden anvertraue?
+Dialogue: 0,1:00:53.98,1:00:57.02,Default,,0,0,0,,Ja. Bei Jigen-sensei\Nverstehe ich es ja noch.
+Dialogue: 0,1:00:57.24,1:00:58.99,Default,,0,0,0,,Aber dieser kleine Junge...
+Dialogue: 0,1:00:59.91,1:01:01.49,Default,,0,0,0,,Ich weiß nicht, warum...
+Dialogue: 0,1:01:02.58,1:01:03.66,Default,,0,0,0,,Aber ich frage mich,
+Dialogue: 0,1:01:04.87,1:01:06.50,Default,,0,0,0,,ob die Gestalt dieses Jungen
+Dialogue: 0,1:01:07.04,1:01:09.00,Default,,0,0,0,,wirklich seine wahre Gestalt ist...
+Dialogue: 0,1:01:10.63,1:01:14.34,Default,,0,0,0,,Er hat den Körper eines Kindes,\Naber den Verstand eines Erwachsenen.
+Dialogue: 0,1:01:18.84,1:01:20.97,Default,,0,0,0,,Fujiko-chan! Es ist Morgen!
+Dialogue: 0,1:01:21.18,1:01:22.18,Default,,0,0,0,,Ruhe!!!
+Dialogue: 0,1:01:27.27,1:01:30.02,Default,,0,0,0,,Oh nein, hast du dich erkältet?\NSteck mich nicht an.
+Dialogue: 0,1:01:30.23,1:01:31.52,Default,,0,0,0,,Das sagst gerade du.
+Dialogue: 0,1:01:31.69,1:01:34.02,Default,,0,0,0,,Wegen wem musste ich\Ndenn im Park schlafen?
+Dialogue: 0,1:01:34.27,1:01:37.11,Default,,0,0,0,,Oh nein, wie gemein!\NEr gibt dir die Schuld dafür!
+Dialogue: 0,1:01:37.28,1:01:40.20,Default,,0,0,0,,– Ist ja das Allerletzte.\N– Nein, das tu ich nicht!
+Dialogue: 0,1:01:40.70,1:01:44.33,Default,,0,0,0,,Aber sag mal, kann dieser Wagen\Nnicht ein wenig schneller fahren?
+Dialogue: 0,1:01:44.66,1:01:45.79,Default,,0,0,0,,Schneller geht nicht.
+Dialogue: 0,1:01:46.12,1:01:47.83,Default,,0,0,0,,Wo sind die, die du sonst fährst?
+Dialogue: 0,1:01:48.00,1:01:50.38,Default,,0,0,0,,Die haben beide das Zeitliche gesegnet.
+Dialogue: 0,1:01:56.25,1:01:59.17,Default,,0,0,0,,Hört mal... Ich habe Durst.\NKauf mir eine Cola.
+Dialogue: 0,1:01:59.47,1:02:00.51,Default,,0,0,0,,Jawohl, sofort!
+Dialogue: 0,1:02:00.72,1:02:02.18,Default,,0,0,0,,Für mich einen Eiskaffee.
+Dialogue: 0,1:02:02.34,1:02:03.34,Default,,0,0,0,,Ja, ja!
+Dialogue: 0,1:02:03.47,1:02:04.51,Default,,0,0,0,,Einmal "ja" reicht!
+Dialogue: 0,1:02:05.01,1:02:06.34,Default,,0,0,0,,Natürlich...
+Dialogue: 0,1:02:09.43,1:02:12.77,Default,,0,0,0,,Die höchsten Gebäude\Nentlang der Paraderoute... stehen hier.
+Dialogue: 0,1:02:13.69,1:02:14.82,Default,,0,0,0,,Sag mal, Papa...
+Dialogue: 0,1:02:15.15,1:02:16.86,Default,,0,0,0,,Von wo aus würdest du zielen?
+Dialogue: 0,1:02:17.11,1:02:18.82,Default,,0,0,0,,Vom höchsten Gebäude aus?
+Dialogue: 0,1:02:19.28,1:02:22.07,Default,,0,0,0,,Werd nicht übermütig, ja?\NSteig wieder ab!
+Dialogue: 0,1:02:24.49,1:02:27.12,Default,,0,0,0,,– Was spielst du den süßen Kleinen?\N– Wie fies.
+Dialogue: 0,1:02:27.37,1:02:28.87,Default,,0,0,0,,Jetzt antworte mir doch!
+Dialogue: 0,1:02:29.04,1:02:31.17,Default,,0,0,0,,Aus dem da könnte man\Nschnell fliehen...
+Dialogue: 0,1:02:32.96,1:02:34.46,Default,,0,0,0,,Ah, he, warte!
+Dialogue: 0,1:02:35.08,1:02:36.75,Default,,0,0,0,,Ich bin kein Auftragsmörder.
+Dialogue: 0,1:02:37.55,1:02:39.93,Default,,0,0,0,,Keine Ahnung,\Nvon wo aus man zielen sollte.
+Dialogue: 0,1:02:40.30,1:02:42.93,Default,,0,0,0,,Ich hab nie gesagt,\Ndu seist ein Auftragsmörder.
+Dialogue: 0,1:02:43.63,1:02:46.47,Default,,0,0,0,,Aber am zweiten Glied\Ndes rechten Zeigefingers und
+Dialogue: 0,1:02:46.64,1:02:48.98,Default,,0,0,0,,im linken Teil der Handfläche\Nhast du Schwielen.
+Dialogue: 0,1:02:49.18,1:02:50.35,Default,,0,0,0,,Das bedeutet,
+Dialogue: 0,1:02:50.68,1:02:54.10,Default,,0,0,0,,dass du oft einen Revolver\Nin der Hand halten musst.
+Dialogue: 0,1:02:55.94,1:02:57.11,Default,,0,0,0,,Woher weißt du das?
+Dialogue: 0,1:02:57.27,1:02:59.98,Default,,0,0,0,,Ich habe die Hände immer\Nin den Taschen vergraben.
+Dialogue: 0,1:03:00.69,1:03:03.03,Default,,0,0,0,,Ich hab vorhin einen Blick\Nauf sie erhascht!
+Dialogue: 0,1:03:03.53,1:03:04.53,Default,,0,0,0,,Hey, Knirps!
+Dialogue: 0,1:03:05.70,1:03:07.20,Default,,0,0,0,,Ich sage dir nur eines...
+Dialogue: 0,1:03:07.37,1:03:08.37,Default,,0,0,0,,J... ja...?
+Dialogue: 0,1:03:08.83,1:03:10.71,Default,,0,0,0,,Nenn mich nie wieder "Papa"!
+Dialogue: 0,1:03:12.00,1:03:15.17,Default,,0,0,0,,Aber das darfst du doch nicht!\NEs ist noch helllichter Tag!
+Dialogue: 0,1:03:15.54,1:03:18.13,Default,,0,0,0,,Du sagtest, wir würden jetzt\Nzum Unfallort gehen!
+Dialogue: 0,1:03:18.63,1:03:20.17,Default,,0,0,0,,Das ist nicht meine Schuld.
+Dialogue: 0,1:03:20.38,1:03:23.01,Default,,0,0,0,,Sondern die der Bar,\Ndie jetzt schon geöffnet hat!
+Dialogue: 0,1:03:23.22,1:03:25.43,Default,,0,0,0,,Das ist eine\Nsehr fadenscheinige Ausrede!
+Dialogue: 0,1:03:26.09,1:03:28.97,Default,,0,0,0,,Mach dir keine Sorgen.\NIch trinke nur ein Glas. Hier.
+Dialogue: 0,1:03:29.68,1:03:31.68,Default,,0,0,0,,Das entspricht etwa 500 Yen.
+Dialogue: 0,1:03:31.89,1:03:33.81,Default,,0,0,0,,Geh und kauf dir eine Limo oder so!
+Dialogue: 0,1:03:33.98,1:03:35.73,Default,,0,0,0,,Aber nur einen Drink, ja?
+Dialogue: 0,1:03:36.15,1:03:39.61,Default,,0,0,0,,Also echt... Jetzt hab ich\Nzwei Prinzessinnen an der Backe...
+Dialogue: 0,1:03:40.11,1:03:41.69,Default,,0,0,0,,Zuerst... eine Cola.
+Dialogue: 0,1:03:44.78,1:03:46.36,Default,,0,0,0,,Was denn? He da!
+Dialogue: 0,1:03:47.57,1:03:48.86,Default,,0,0,0,,Du gibst mir keine Cola!
+Dialogue: 0,1:03:49.45,1:03:52.20,Default,,0,0,0,,Und mein Geld behältst du,\Nwas ist das für eine Art?
+Dialogue: 0,1:03:52.95,1:03:55.70,Default,,0,0,0,,Na gut, dann drück ich eben
+Dialogue: 0,1:03:56.75,1:04:00.13,Default,,0,0,0,,deinen geheimen Meridian-Punkt,\Ndann musst du was ausspucken!
+Dialogue: 0,1:04:04.67,1:04:08.59,Default,,0,0,0,,Wah... Du musst mir doch nicht\Nauch noch so viel Trinkgeld geben...
+Dialogue: 0,1:04:08.97,1:04:10.80,Default,,0,0,0,,Onkel, man darf nicht stehlen.
+Dialogue: 0,1:04:12.27,1:04:14.15,Default,,0,0,0,,Du gefährdest meinen guten Ruf!
+Dialogue: 0,1:04:14.68,1:04:16.43,Default,,0,0,0,,Ich hab doch brav Geld bezahlt!
+Dialogue: 0,1:04:16.60,1:04:17.64,Default,,0,0,0,,Für eine Dose, ja.
+Dialogue: 0,1:04:17.81,1:04:20.94,Default,,0,0,0,,Ist doch okay! Der Automat sagt,\Nich soll sie alle nehmen!
+Dialogue: 0,1:04:21.15,1:04:25.70,Default,,0,0,0,,Bist du wirklich ein böser Mensch?\NSo siehst du doch gar nicht aus, Onkel.
+Dialogue: 0,1:04:25.90,1:04:26.90,Default,,0,0,0,,Sieh dich vor!
+Dialogue: 0,1:04:27.03,1:04:29.66,Default,,0,0,0,,Vielleicht bin ich ja\Nein ganz, ganz böser Dieb!
+Dialogue: 0,1:04:29.95,1:04:34.00,Default,,0,0,0,,Ach so! Darum trägst du also\Neine Waffe in deinem Schulterholster!
+Dialogue: 0,1:04:35.45,1:04:38.49,Default,,0,0,0,,Deine linke Schulter ist etwas tiefer,\Ndarum dachte ich...
+Dialogue: 0,1:04:39.63,1:04:41.21,Default,,0,0,0,,Und bitte Iächeln!
+Dialogue: 0,1:04:42.42,1:04:45.76,Default,,0,0,0,,Ich muss dich enttäuschen.\NEs ist eine Videokamera. Hihi.
+Dialogue: 0,1:04:46.30,1:04:49.72,Default,,0,0,0,,Sorry. Ich hab tatsächlich gedacht,\Ndu seist ein böser Mensch.
+Dialogue: 0,1:04:50.34,1:04:51.34,Default,,0,0,0,,Giück gehabt.
+Dialogue: 0,1:04:51.39,1:04:54.73,Default,,0,0,0,,Einem wirklich bösen Menschen\Nso was zu sagen, ist gefährlich...
+Dialogue: 0,1:04:56.81,1:04:58.60,Default,,0,0,0,,Hey! Reicht dir denn eine Dose?
+Dialogue: 0,1:04:59.40,1:05:00.78,Default,,0,0,0,,Nimm doch mehr mit!
+Dialogue: 0,1:05:01.15,1:05:02.90,Default,,0,0,0,,Lass uns Komplizen sein!
+Dialogue: 0,1:05:03.57,1:05:05.28,Default,,0,0,0,,Man darf nicht stehlen.
+Dialogue: 0,1:05:08.11,1:05:12.07,Default,,0,0,0,,Was ist denn mit dem Knirps los?\NDer hat wohl nicht viele Freunde.
+Dialogue: 0,1:05:23.96,1:05:26.59,Default,,0,0,0,,Ich hab brav\Nauch die zweite bezahlt, klar?
+Dialogue: 0,1:05:38.81,1:05:42.06,Default,,0,0,0,,Herzlich willkommen.\NSie sind also der Herr von Interpol.
+Dialogue: 0,1:05:42.52,1:05:45.27,Default,,0,0,0,,Mein Name ist Zenigata.\NIch komme gleich zur Sache...
+Dialogue: 0,1:05:45.61,1:05:48.28,Default,,0,0,0,,Ah, hier ist es ein wenig ungemütlich.
+Dialogue: 0,1:05:48.57,1:05:50.74,Default,,0,0,0,,Unterhalten wir uns drinnen. In Ordnung?
+Dialogue: 0,1:05:51.57,1:05:52.74,Default,,0,0,0,,Und wer sind Sie?
+Dialogue: 0,1:05:53.07,1:05:57.07,Default,,0,0,0,,Erfreut, ich bin Kommissar Zenigatas\NAssistent, mein Name ist Kogorô Môri!
+Dialogue: 0,1:05:57.54,1:06:01.21,Default,,0,0,0,,Herr Kommissar! Bitte lassen Sie mich\Ngleich auf Patrouille gehen!
+Dialogue: 0,1:06:01.50,1:06:04.59,Default,,0,0,0,,Ach, nehmen Sie sich doch Zeit.\NDrinnen steht Tee bereit...
+Dialogue: 0,1:06:04.75,1:06:06.04,Default,,0,0,0,,Patrouille!
+Dialogue: 0,1:06:06.96,1:06:08.92,Default,,0,0,0,,Lupin, wo bist du?
+Dialogue: 0,1:06:09.80,1:06:12.97,Default,,0,0,0,,– Wo bist du?\N– Wir können ihn getrost ignorieren.
+Dialogue: 0,1:06:14.10,1:06:15.48,Default,,0,0,0,,Lupin!
+Dialogue: 0,1:06:15.85,1:06:17.48,Default,,0,0,0,,Lupin!
+Dialogue: 0,1:06:18.02,1:06:19.44,Default,,0,0,0,,Ran!
+Dialogue: 0,1:06:19.89,1:06:21.81,Default,,0,0,0,,Wo bist du, Ran?
+Dialogue: 0,1:06:22.23,1:06:23.27,Default,,0,0,0,,Das ist köstlich!
+Dialogue: 0,1:06:23.44,1:06:25.32,Default,,0,0,0,,Ran!
+Dialogue: 0,1:06:25.73,1:06:27.44,Default,,0,0,0,,Diese Stimme... Ist das Paps?
+Dialogue: 0,1:06:27.78,1:06:31.49,Default,,0,0,0,,Warten Sie, Fräulein Ran. Vielleicht\Nist das ein zwielichtiger Kerl.
+Dialogue: 0,1:06:33.20,1:06:34.66,Default,,0,0,0,,Ran!!!
+Dialogue: 0,1:06:34.91,1:06:36.70,Default,,0,0,0,,Ah! Es ist ein zwielichtiger Kerl!
+Dialogue: 0,1:06:36.87,1:06:39.83,Default,,0,0,0,,Ein Mann mit Schnurrbart!\NEr sieht zum Fürchten aus!
+Dialogue: 0,1:06:40.00,1:06:42.21,Default,,0,0,0,,Das kann unmöglich Ihr Vater sein!
+Dialogue: 0,1:06:42.62,1:06:43.62,Default,,0,0,0,,Es ist mein Vater.
+Dialogue: 0,1:06:44.96,1:06:45.54,Default,,0,0,0,,Ran!
+Dialogue: 0,1:06:45.71,1:06:47.88,Default,,0,0,0,,– Du bist wohlauf!\N– Was machst du hier?
+Dialogue: 0,1:06:48.05,1:06:50.68,Default,,0,0,0,,– Wir gehen nach Hause!\N– Egal, bitte hilf Conan-kun!
+Dialogue: 0,1:06:51.42,1:06:53.34,Default,,0,0,0,,– Was soll der Lärm?\N– Graf Keith!
+Dialogue: 0,1:06:53.51,1:06:55.59,Default,,0,0,0,,– Ha, da bist du ja!\N– Hör mir doch zu!
+Dialogue: 0,1:06:55.76,1:06:58.30,Default,,0,0,0,,– Sie sind...\N– Mach dich auf was gefasst! – Nein!
+Dialogue: 0,1:06:58.47,1:07:00.85,Default,,0,0,0,,– Hör mir zu! Nein!\N– Dich werd ich vermöbeln!
+Dialogue: 0,1:07:01.02,1:07:03.06,Default,,0,0,0,,Keine Sorge!\NDas ist Takagis Gesuch!
+Dialogue: 0,1:07:03.23,1:07:05.23,Default,,0,0,0,,– Lassen Sie mich erklären.\N– Später!
+Dialogue: 0,1:07:06.40,1:07:09.61,Default,,0,0,0,,Lupin hat es tatsächlich\Nauf die Queen's Crown abgesehen?
+Dialogue: 0,1:07:09.78,1:07:12.03,Default,,0,0,0,,Ja. So viel steht auf jeden Fall fest.
+Dialogue: 0,1:07:12.70,1:07:16.70,Default,,0,0,0,,Aber hat Lupin nicht schon mal versucht,\Ndie Queen's Crown zu stehlen,
+Dialogue: 0,1:07:16.87,1:07:18.20,Default,,0,0,0,,es dann aber aufgegeben?
+Dialogue: 0,1:07:18.74,1:07:21.53,Default,,0,0,0,,Bis jetzt hat der Kerl\Nnoch nie etwas aufgegeben.
+Dialogue: 0,1:07:21.79,1:07:23.92,Default,,0,0,0,,Ich verstehe nun,\Nwarum Sie hier sind.
+Dialogue: 0,1:07:24.08,1:07:28.42,Default,,0,0,0,,Aber Lupin wird wohl nichts anderes\Nübrig bleiben, als erneut aufzugeben.
+Dialogue: 0,1:07:29.17,1:07:31.88,Default,,0,0,0,,Und falls er unser System\Ntatsächlich knacken kann,
+Dialogue: 0,1:07:32.05,1:07:33.80,Default,,0,0,0,,dann hat er die Krone verdient.
+Dialogue: 0,1:07:35.68,1:07:38.64,Default,,0,0,0,,Ich hoffe sehr, dass Sie recht haben.
+Dialogue: 0,1:07:41.35,1:07:43.77,Default,,0,0,0,,Wir haben\NIhnen einen Imbiss bereitgestellt...
+Dialogue: 0,1:07:43.98,1:07:46.73,Default,,0,0,0,,Ich möchte mir zuerst\Ndie Schatzkammer ansehen.
+Dialogue: 0,1:07:47.06,1:07:49.10,Default,,0,0,0,,Die Wache dort wird Sie hinführen.
+Dialogue: 0,1:07:49.27,1:07:50.44,Default,,0,0,0,,Vielen Dank.
+Dialogue: 0,1:07:54.32,1:07:56.86,Default,,0,0,0,,Wirble so viel Staub auf wie möglich.
+Dialogue: 0,1:08:06.96,1:08:09.21,Default,,0,0,0,,Ich hoffe, Sie sind nun zufrieden?
+Dialogue: 0,1:08:09.54,1:08:10.96,Default,,0,0,0,,Sicher bin ich da nicht.
+Dialogue: 0,1:08:11.13,1:08:12.63,Default,,0,0,0,,Aber Paps!
+Dialogue: 0,1:08:12.88,1:08:16.63,Default,,0,0,0,,Conan-kun allein wird es vielleicht\Nnicht schaffen, Beweise zu finden!
+Dialogue: 0,1:08:16.93,1:08:20.89,Default,,0,0,0,,Es steht doch noch gar nicht fest,\Ndass dieser Herzog Gerard der Täter ist.
+Dialogue: 0,1:08:21.06,1:08:22.31,Default,,0,0,0,,Aber er war am Tatort!
+Dialogue: 0,1:08:22.47,1:08:23.64,Default,,0,0,0,,Du bist so gutgläubig.
+Dialogue: 0,1:08:23.81,1:08:26.19,Default,,0,0,0,,Vielleicht behaupten die hier\Ndas ja nur.
+Dialogue: 0,1:08:26.85,1:08:28.48,Default,,0,0,0,,Sie sind doch ein Graf, oder?
+Dialogue: 0,1:08:28.73,1:08:30.52,Default,,0,0,0,,Vielleicht wollen Sie Gerard
+Dialogue: 0,1:08:30.69,1:08:33.19,Default,,0,0,0,,die Schuld aufhalsen,\Num ihn dann zu beerben!
+Dialogue: 0,1:08:33.40,1:08:36.69,Default,,0,0,0,,Unmöglich! Graf Keith\Nwar an jenem Tag hier im Palast!
+Dialogue: 0,1:08:37.24,1:08:39.62,Default,,0,0,0,,Selbst wenn man\Nnicht selbst Hand anlegt...
+Dialogue: 0,1:08:39.78,1:08:42.70,Default,,0,0,0,,Einen Profikiller anzuheuern\Nist einfach.
+Dialogue: 0,1:08:43.37,1:08:45.79,Default,,0,0,0,,Einen Profikiller...
+Dialogue: 0,1:08:49.00,1:08:51.63,Default,,0,0,0,,Nanu? Hast du eine Idee,\Nwer das sein könnte?
+Dialogue: 0,1:08:52.09,1:08:53.51,Default,,0,0,0,,Sie haben durchaus recht.
+Dialogue: 0,1:08:54.26,1:08:57.76,Default,,0,0,0,,Ich verstehe jetzt, wie Ihr Sohn\Nso geworden ist, wie er ist.
+Dialogue: 0,1:08:58.34,1:09:01.09,Default,,0,0,0,,Er ist nicht mein Sohn!\NIch kümmere mich nur um ihn.
+Dialogue: 0,1:09:01.30,1:09:03.59,Default,,0,0,0,,Ich möchte\Njemanden wie Sie beauftragen...
+Dialogue: 0,1:09:05.14,1:09:07.47,Default,,0,0,0,,Mit einer\Nunvoreingenommenen Untersuchung.
+Dialogue: 0,1:09:08.98,1:09:12.69,Default,,0,0,0,,Es ist nicht viel, aber Ihr Vorschuss\Nin japanische Yen umgerechnet...
+Dialogue: 0,1:09:15.61,1:09:17.24,Default,,0,0,0,,Nehmen Sie den Auftrag an?
+Dialogue: 0,1:09:17.44,1:09:20.53,Default,,0,0,0,,¥$£¥£¥$£$¥!
+Dialogue: 0,1:09:21.20,1:09:22.37,Default,,0,0,0,,Vie... vielen Dank.
+Dialogue: 0,1:09:23.03,1:09:24.49,Default,,0,0,0,,Ach, Paps...
+Dialogue: 0,1:09:35.09,1:09:38.18,Default,,0,0,0,,Hierhin wollte sie also noch,\Nbevor sie zurückgeht...
+Dialogue: 0,1:09:38.88,1:09:41.72,Default,,0,0,0,,Am Ende dieses Weges\Nsind die beiden gestorben, nicht?
+Dialogue: 0,1:09:41.89,1:09:42.89,Default,,0,0,0,,Ja...
+Dialogue: 0,1:09:43.47,1:09:45.89,Default,,0,0,0,,Ob es eine gute Idee ist,\Nsie allein zu lassen?
+Dialogue: 0,1:09:46.06,1:09:48.02,Default,,0,0,0,,Sie ist eine Meisterin im Abhauen.
+Dialogue: 0,1:09:48.23,1:09:50.86,Default,,0,0,0,,Hätte sie das vor,\Nwürde sie nicht brav zurückkommen.
+Dialogue: 0,1:09:51.94,1:09:55.61,Default,,0,0,0,,Und außerdem... Wenn wir bei ihr wären,\Nkönnte sie wohl nicht weinen.
+Dialogue: 0,1:09:57.11,1:10:00.03,Default,,0,0,0,,Du scheinst das Mädchen\Nziemlich gut zu verstehen...
+Dialogue: 0,1:10:00.61,1:10:03.11,Default,,0,0,0,,– Ich werde noch misstrauisch.\N– Hör bloß auf.
+Dialogue: 0,1:10:03.28,1:10:05.20,Default,,0,0,0,,– Es ist nur...\N– Nur was?
+Dialogue: 0,1:10:06.70,1:10:08.20,Default,,0,0,0,,Sie gleicht ihr...
+Dialogue: 0,1:10:18.96,1:10:19.96,Default,,0,0,0,,Mutter...
+Dialogue: 0,1:10:20.47,1:10:21.51,Default,,0,0,0,,Gill...
+Dialogue: 0,1:10:22.34,1:10:24.84,Default,,0,0,0,,Wie es aussieht,\Nkann ich nirgendwo anders hin.
+Dialogue: 0,1:10:26.47,1:10:30.43,Default,,0,0,0,,Ich kann nichts tun. Auch wenn man\Nes von mir erwartet... Es geht nicht.
+Dialogue: 0,1:10:31.56,1:10:33.81,Default,,0,0,0,,Niemand... liebt mich...
+Dialogue: 0,1:10:34.81,1:10:37.06,Default,,0,0,0,,Doch ich kann nirgendwo anders hin!
+Dialogue: 0,1:10:38.73,1:10:39.81,Default,,0,0,0,,Nur hierhin,
+Dialogue: 0,1:10:40.69,1:10:41.73,Default,,0,0,0,,wo ihr seid...
+Dialogue: 0,1:10:43.91,1:10:47.12,Default,,0,0,0,,Dies ist...\Nder einzige Ort, an dem ich sein kann!
+Dialogue: 0,1:11:08.81,1:11:10.89,Default,,0,0,0,,Sobald auch nur eine Ameise eindringt,
+Dialogue: 0,1:11:11.06,1:11:14.60,Default,,0,0,0,,sperren sie sofort aus einer\NSpeziallegierung gefertigte Wände ein.
+Dialogue: 0,1:11:14.77,1:11:17.23,Default,,0,0,0,,Und Sie halten\N24 Stunden am Tag hier Wache?
+Dialogue: 0,1:11:17.40,1:11:19.99,Default,,0,0,0,,Jawohl. In drei Schichten\Nzu je acht Stunden.
+Dialogue: 0,1:11:20.23,1:11:22.27,Default,,0,0,0,,Sollen wir die Anzahl\Nder Wachen erhöhen?
+Dialogue: 0,1:11:22.78,1:11:24.70,Default,,0,0,0,,Nein, das ist nicht nötig.
+Dialogue: 0,1:11:26.37,1:11:28.29,Default,,0,0,0,,Sie würden nur schlafen gelegt.
+Dialogue: 0,1:11:31.29,1:11:34.67,Default,,0,0,0,,Die Kontrolle und Aufbewahrung\Nder Waffen ist unsere Aufgabe.
+Dialogue: 0,1:11:34.92,1:11:37.88,Default,,0,0,0,,Auch die Königsfamilie\Nkann sich nicht einfach bedienen.
+Dialogue: 0,1:11:38.29,1:11:42.71,Default,,0,0,0,,Hier steht, dass in Königin Sakuras\NLeichnam keine Kugel gefunden wurde.
+Dialogue: 0,1:11:43.38,1:11:46.59,Default,,0,0,0,,Die Kugel hat\Nihren Körper durchschossen.
+Dialogue: 0,1:11:47.22,1:11:49.56,Default,,0,0,0,,Man hat sie in der Erde gefunden.
+Dialogue: 0,1:11:50.01,1:11:51.80,Default,,0,0,0,,Und die Drallspuren auf der Kugel
+Dialogue: 0,1:11:51.97,1:11:54.76,Default,,0,0,0,,entsprachen den Zügen\Nvon Prinz Gills Gewehrlauf.
+Dialogue: 0,1:11:55.10,1:11:58.94,Default,,0,0,0,,Kann man diesem Untersuchungsbericht\NGlauben schenken?
+Dialogue: 0,1:11:59.32,1:12:02.36,Default,,0,0,0,,Ja. Ich war auch dort vor Ort anwesend.
+Dialogue: 0,1:12:03.03,1:12:05.07,Default,,0,0,0,,Sie dürfen den Bericht gern mitnehmen.
+Dialogue: 0,1:12:05.95,1:12:07.58,Default,,0,0,0,,Ist das wirklich erlaubt?
+Dialogue: 0,1:12:07.99,1:12:11.41,Default,,0,0,0,,Als Leiter ihrer Leibgarde
+Dialogue: 0,1:12:11.74,1:12:13.70,Default,,0,0,0,,vermochte ich weder Ihre Majestät
+Dialogue: 0,1:12:13.87,1:12:16.91,Default,,0,0,0,,noch den Kronprinzen\Nnoch Prinzessin Mira zu beschützen.
+Dialogue: 0,1:12:17.58,1:12:18.58,Default,,0,0,0,,Und als Ergebnis
+Dialogue: 0,1:12:18.67,1:12:22.34,Default,,0,0,0,,haben wir auch Ihre Tochter\Nin diese unangenehme Lage gebracht.
+Dialogue: 0,1:12:24.09,1:12:27.93,Default,,0,0,0,,Ich werde die Wahrheit herausfinden,\Ndas verspreche ich Ihnen.
+Dialogue: 0,1:12:32.51,1:12:34.09,Default,,0,0,0,,Hier... hier ist es.
+Dialogue: 0,1:12:34.31,1:12:36.48,Default,,0,0,0,,Ah... Es ist wirklich\Nnicht weit weg, was?
+Dialogue: 0,1:12:36.85,1:12:38.39,Default,,0,0,0,,Die Kirschblüten sind schön!
+Dialogue: 0,1:12:39.65,1:12:43.03,Default,,0,0,0,,Jetzt hört mal! Was macht ihr denn hier?
+Dialogue: 0,1:12:43.28,1:12:46.07,Default,,0,0,0,,Oh, Königliche Hoheit!\NWie kommt Ihr denn hierher?
+Dialogue: 0,1:12:46.57,1:12:49.57,Default,,0,0,0,,Bin ich überrascht!\NWir hatten dich gar nicht bemerkt!
+Dialogue: 0,1:12:50.03,1:12:51.53,Default,,0,0,0,,Viel zu übertrieben...
+Dialogue: 0,1:12:54.70,1:12:58.04,Default,,0,0,0,,Ihr beide spielt also Detektiv, was?
+Dialogue: 0,1:12:58.46,1:13:01.13,Default,,0,0,0,,Na, viel Giück dabei,\Nkleiner Wein-Junge.
+Dialogue: 0,1:13:01.38,1:13:04.72,Default,,0,0,0,,Sag mal... Lag Königin Sakura\Ndort drüben am Boden?
+Dialogue: 0,1:13:06.17,1:13:07.46,Default,,0,0,0,,Wie ich gehört habe, ja.
+Dialogue: 0,1:13:07.63,1:13:08.67,Default,,0,0,0,,Dann...
+Dialogue: 0,1:13:10.59,1:13:11.59,Default,,0,0,0,,Du, Onkel...
+Dialogue: 0,1:13:12.93,1:13:15.93,Default,,0,0,0,,– Setz mich auf deine Schultern!\N– Wirst du wieder übermütig?
+Dialogue: 0,1:13:16.10,1:13:17.77,Default,,0,0,0,,Ich nenn dich sonst "Papa"...
+Dialogue: 0,1:13:18.98,1:13:20.48,Default,,0,0,0,,Vielen Dank, lieber Onkel!
+Dialogue: 0,1:13:22.44,1:13:23.44,Default,,0,0,0,,Er ist angesengt!
+Dialogue: 0,1:13:24.19,1:13:26.40,Default,,0,0,0,,Du hast eine gute Nase\Nund scharfe Augen.
+Dialogue: 0,1:13:26.57,1:13:30.99,Default,,0,0,0,,Dieser Zweig soll abgebrochen sein,\Nals meine Mutter getroffen wurde.
+Dialogue: 0,1:13:31.49,1:13:33.28,Default,,0,0,0,,Das bedeutet...
+Dialogue: 0,1:13:34.37,1:13:37.00,Default,,0,0,0,,Sag, Onkel,\Nkönnte man von dort oben treffen?
+Dialogue: 0,1:13:37.58,1:13:40.75,Default,,0,0,0,,– Was? Den Kirschbaumzweig, meinst du?\N– Nicht doch...
+Dialogue: 0,1:13:41.71,1:13:42.88,Default,,0,0,0,,Mein Bruder hatte
+Dialogue: 0,1:13:43.04,1:13:46.75,Default,,0,0,0,,von jenem Hügel aus auf den Fuchs\Nim Schatten des Baums gezielt.
+Dialogue: 0,1:13:47.09,1:13:51.26,Default,,0,0,0,,Doch genau in diesem Augenblick\Nwollte Mutter den Fuchs verscheuchen...
+Dialogue: 0,1:13:52.30,1:13:55.47,Default,,0,0,0,,Und dann entriss mein Bruder\Nmeinem Onkel die Pistole...
+Dialogue: 0,1:13:55.72,1:13:56.72,Default,,0,0,0,,Entriss?
+Dialogue: 0,1:13:59.35,1:14:03.19,Default,,0,0,0,,Und? Was werdet Ihr jetzt tun? Kommen\NSie mit uns im Hubschrauber zurück?
+Dialogue: 0,1:14:03.36,1:14:05.36,Default,,0,0,0,,Der Onkel ist wirklich toll!
+Dialogue: 0,1:14:05.61,1:14:09.61,Default,,0,0,0,,Er kann den Soldaten hier\Neinfach alles befehlen, und sie tun es!
+Dialogue: 0,1:14:11.57,1:14:14.45,Default,,0,0,0,,Nicht nötig.\NUnten am Hügel wartet jemand auf mich.
+Dialogue: 0,1:14:14.87,1:14:17.16,Default,,0,0,0,,Ist es die junge Frau von neulich?
+Dialogue: 0,1:14:17.41,1:14:19.91,Default,,0,0,0,,Ja. Sie ist\Neine international tätige Anwältin.
+Dialogue: 0,1:14:20.08,1:14:21.96,Default,,0,0,0,,Die Verfolgung hat ihr Spaß gemacht.
+Dialogue: 0,1:14:22.92,1:14:26.05,Default,,0,0,0,,Junge Frau?\NInternational tätige Anwältin?
+Dialogue: 0,1:14:26.46,1:14:28.63,Default,,0,0,0,,Habt Ihr sie gefragt, wie sie heißt?
+Dialogue: 0,1:14:28.88,1:14:31.38,Default,,0,0,0,,Hm? Sie sagte, sie heiße Mineko Fuji.
+Dialogue: 0,1:14:32.38,1:14:33.38,Default,,0,0,0,,Ach herrje...
+Dialogue: 0,1:14:33.55,1:14:34.55,Default,,0,0,0,,Kennst du sie?
+Dialogue: 0,1:14:35.01,1:14:37.39,Default,,0,0,0,,Und dieses Ding hat also solche Kräfte?
+Dialogue: 0,1:14:37.64,1:14:42.35,Default,,0,0,0,,Es hat eine ganz bestimmte Frequenz.\NUnd hält sicher 30 Sekunden durch.
+Dialogue: 0,1:14:43.23,1:14:44.73,Default,,0,0,0,,– Brauch ich nicht.\N– Na, na!
+Dialogue: 0,1:14:45.61,1:14:49.36,Default,,0,0,0,,Ich dachte, du hättest es auf einen\Nviel tolleren Schatz abgesehen.
+Dialogue: 0,1:14:49.57,1:14:51.40,Default,,0,0,0,,Was findest du an dieser Krone?
+Dialogue: 0,1:14:51.57,1:14:55.03,Default,,0,0,0,,Darin sind nicht mal kostbare Juwelen,\Ndie ist doch nur Krimskrams.
+Dialogue: 0,1:14:55.28,1:14:58.74,Default,,0,0,0,,Wie kannst du so was sagen!\NSie ist echt geschichtsträchtig!
+Dialogue: 0,1:14:58.91,1:15:00.45,Default,,0,0,0,,Preis geht über Geschichte!
+Dialogue: 0,1:15:03.54,1:15:06.42,Default,,0,0,0,,Ist dir bei der Geschichte vorhin\Nauch was aufgefallen?
+Dialogue: 0,1:15:06.79,1:15:08.75,Default,,0,0,0,,Ja. Es leuchtet mir ein,
+Dialogue: 0,1:15:08.96,1:15:11.00,Default,,0,0,0,,dass Prinz Gill nicht das lange Gewehr,
+Dialogue: 0,1:15:11.17,1:15:13.88,Default,,0,0,0,,sondern eine Faustfeuerwaffe\Nbenutzt hat.
+Dialogue: 0,1:15:14.64,1:15:18.23,Default,,0,0,0,,Aber nicht, warum der Onkel\Neine Faustfeuerwaffe bei sich trug.
+Dialogue: 0,1:15:18.68,1:15:21.93,Default,,0,0,0,,Obwohl sie Wachen um sich hatten,\Ntrug er beides bei sich.
+Dialogue: 0,1:15:22.56,1:15:24.65,Default,,0,0,0,,Wollen wir uns diese Waffen anschauen?
+Dialogue: 0,1:15:25.06,1:15:26.44,Default,,0,0,0,,Du wirst mir also helfen?
+Dialogue: 0,1:15:26.98,1:15:29.94,Default,,0,0,0,,Ich hab wohl keine Wahl.\NIst schließlich mein Job.
+Dialogue: 0,1:15:31.49,1:15:33.95,Default,,0,0,0,,Hast du dich durchgerungen,\NKönigin zu werden?
+Dialogue: 0,1:15:34.49,1:15:39.49,Default,,0,0,0,,Ich gehe zurück, weil ich muss. Über die\NKrone hab ich noch nicht nachgedacht.
+Dialogue: 0,1:15:39.74,1:15:41.41,Default,,0,0,0,,Egal, ob du Königin wirst...
+Dialogue: 0,1:15:41.62,1:15:46.37,Default,,0,0,0,,Wenn ich dich abgeliefert habe, ist mein\NJob getan. Aber ich mach es gern wieder.
+Dialogue: 0,1:15:46.75,1:15:50.25,Default,,0,0,0,,Da ist sie: Mineko Fuji!\NSie wird die Kerle schamlos abzocken.
+Dialogue: 0,1:15:50.84,1:15:52.97,Default,,0,0,0,,– Hast du was gesagt?\N– Nein, nichts.
+Dialogue: 0,1:15:53.34,1:15:54.34,Default,,0,0,0,,Ah, halt an!
+Dialogue: 0,1:15:56.05,1:15:57.05,Default,,0,0,0,,Was soll denn das?
+Dialogue: 0,1:15:59.26,1:16:01.97,Default,,0,0,0,,Wir Mädchen haben nun mal\Nallerlei Bedürfnisse.
+Dialogue: 0,1:16:09.73,1:16:11.19,Default,,0,0,0,,Prinzessin Mira!
+Dialogue: 0,1:16:12.65,1:16:13.94,Default,,0,0,0,,Bist du sauer?
+Dialogue: 0,1:16:14.40,1:16:15.65,Default,,0,0,0,,Nein, bin ich nicht.
+Dialogue: 0,1:16:15.86,1:16:18.74,Default,,0,0,0,,Warum nicht? Wegen mir\Nhast du so viel durchgemacht...
+Dialogue: 0,1:16:18.91,1:16:21.79,Default,,0,0,0,,Na ja, du konntest doch\Nnicht wirklich etwas dafür.
+Dialogue: 0,1:16:22.08,1:16:23.37,Default,,0,0,0,,Ich weiß Bescheid.
+Dialogue: 0,1:16:23.58,1:16:24.58,Default,,0,0,0,,Ihr habt ihr...
+Dialogue: 0,1:16:25.71,1:16:27.67,Default,,0,0,0,,Graf Keith hat es mir erzählt.
+Dialogue: 0,1:16:28.33,1:16:29.62,Default,,0,0,0,,Keith hat es dir...
+Dialogue: 0,1:16:30.34,1:16:31.72,Default,,0,0,0,,Ich danke Ihnen vielmals.
+Dialogue: 0,1:16:32.21,1:16:35.34,Default,,0,0,0,,Nichts zu danken.\NIch habe nur meine Arbeit getan.
+Dialogue: 0,1:16:35.84,1:16:37.67,Default,,0,0,0,,Sie bestehen wirklich auf Bargeld?
+Dialogue: 0,1:16:38.22,1:16:40.97,Default,,0,0,0,,Wir hätten auch per Scheck\Noder Überweisung bezahlt.
+Dialogue: 0,1:16:41.39,1:16:44.73,Default,,0,0,0,,Nun, es ist so...\NIch vertraue nur Barem.
+Dialogue: 0,1:16:45.39,1:16:46.43,Default,,0,0,0,,Ach so...
+Dialogue: 0,1:16:46.85,1:16:49.48,Default,,0,0,0,,Und, wie war es?\NHat sich die Prinzessin amüsiert?
+Dialogue: 0,1:16:49.69,1:16:53.36,Default,,0,0,0,,Ja. Bis heute früh konnte sie\Nein ganz normales Mädchen sein
+Dialogue: 0,1:16:54.23,1:16:57.61,Default,,0,0,0,,und eine Weile vergessen,\Ndass sie eine Prinzessin ist.
+Dialogue: 0,1:16:58.07,1:16:59.11,Default,,0,0,0,,Ich verstehe.
+Dialogue: 0,1:17:00.07,1:17:01.32,Default,,0,0,0,,Sie sind wirklich nett.
+Dialogue: 0,1:17:01.87,1:17:04.46,Default,,0,0,0,,Sagen Sie ihr doch die Wahrheit.
+Dialogue: 0,1:17:05.16,1:17:09.25,Default,,0,0,0,,Dass Sie ihr Freiheit schenken wollten,\Nauch wenn es nur ein Tag war.
+Dialogue: 0,1:17:09.67,1:17:10.67,Default,,0,0,0,,Haben Sie Ihr...
+Dialogue: 0,1:17:11.54,1:17:15.21,Default,,0,0,0,,Keine Sorge. Die Geheimnisse\Nmeiner Klienten behalte ich für mich.
+Dialogue: 0,1:17:15.63,1:17:18.17,Default,,0,0,0,,Ich bin schließlich Anwältin.
+Dialogue: 0,1:17:19.34,1:17:24.09,Default,,0,0,0,,Vielen Dank, dass Sie sogar mich\Neinfachen Fahrer so üppig bewirten!
+Dialogue: 0,1:17:25.68,1:17:27.18,Default,,0,0,0,,Köstlich! Mmh, lecker...
+Dialogue: 0,1:17:27.35,1:17:29.81,Default,,0,0,0,,– Ein Bier und einen Saft bitte.\N– Ja, sofort!
+Dialogue: 0,1:17:29.98,1:17:30.81,Default,,0,0,0,,Was denn?!
+Dialogue: 0,1:17:30.98,1:17:31.98,Default,,0,0,0,,Hi!
+Dialogue: 0,1:17:32.48,1:17:34.15,Default,,0,0,0,,Ein "Hi!" ist keine Erklärung!
+Dialogue: 0,1:17:34.73,1:17:36.56,Default,,0,0,0,,Nanu? Das ist doch...
+Dialogue: 0,1:17:37.49,1:17:38.66,Default,,0,0,0,,Komm kurz mit!
+Dialogue: 0,1:17:39.20,1:17:40.58,Default,,0,0,0,,Oh... hallo Onkel!
+Dialogue: 0,1:17:40.74,1:17:42.91,Default,,0,0,0,,Einfach nur "Hallo Onkel"? Was soll das?
+Dialogue: 0,1:17:43.20,1:17:44.45,Default,,0,0,0,,Was hat das zu bedeuten?
+Dialogue: 0,1:17:44.62,1:17:47.96,Default,,0,0,0,,Wir lieferten die Prinzessin ab,\Nda luden sie mich zum Essen ein.
+Dialogue: 0,1:17:48.12,1:17:50.12,Default,,0,0,0,,Das meinte ich nicht. Sondern Fujiko!
+Dialogue: 0,1:17:50.29,1:17:51.54,Default,,0,0,0,,Ah, nun ja, das...
+Dialogue: 0,1:17:51.75,1:17:55.09,Default,,0,0,0,,Bevor ich mich versah, war ich\Nim Flugzeug, und es war so kalt...
+Dialogue: 0,1:17:55.30,1:17:56.47,Default,,0,0,0,,Das meinte ich nicht!
+Dialogue: 0,1:17:56.71,1:17:58.80,Default,,0,0,0,,Was spielst du hier den Detektiv?
+Dialogue: 0,1:17:58.97,1:17:59.97,Default,,0,0,0,,Ah, nun ja, das...
+Dialogue: 0,1:18:00.09,1:18:02.84,Default,,0,0,0,,Ist je was Gutes rausgekommen,\Nwenn sie dabei war?
+Dialogue: 0,1:18:03.18,1:18:04.68,Default,,0,0,0,,Du bist mir nur im Weg!
+Dialogue: 0,1:18:05.18,1:18:07.01,Default,,0,0,0,,Na ja, sie hat mich gebeten...
+Dialogue: 0,1:18:07.27,1:18:08.69,Default,,0,0,0,,...ihnen zu helfen...
+Dialogue: 0,1:18:08.85,1:18:11.89,Default,,0,0,0,,Hä? Was erzählst du denn da!
+Dialogue: 0,1:18:12.15,1:18:14.44,Default,,0,0,0,,Dabei ist noch nie\Nwas Gutes rausgekommen!
+Dialogue: 0,1:18:18.69,1:18:22.19,Default,,0,0,0,,– Egal, schließen wir die Sache ab\Nund gehen! – Du hast recht.
+Dialogue: 0,1:18:22.53,1:18:24.32,Default,,0,0,0,,Und, wie sah es am Tatort aus?
+Dialogue: 0,1:18:24.83,1:18:27.46,Default,,0,0,0,,Du hast die Abdrücke\Nauf dem Jagdgewehr untersucht?
+Dialogue: 0,1:18:31.42,1:18:32.71,Default,,0,0,0,,Danke für Ihre Geduld!
+Dialogue: 0,1:18:33.38,1:18:36.59,Default,,0,0,0,,Mein Fräulein,\Nkönnte ich bitte einen Kaffee haben?
+Dialogue: 0,1:18:36.84,1:18:38.63,Default,,0,0,0,,Ja, gern! Nanu?
+Dialogue: 0,1:18:39.01,1:18:40.01,Default,,0,0,0,,Stimmt was nicht?
+Dialogue: 0,1:18:40.80,1:18:43.64,Default,,0,0,0,,Bis gerade eben waren doch...\NOder war das Einbildung?
+Dialogue: 0,1:18:44.26,1:18:45.93,Default,,0,0,0,,Paps, Conan-kun!
+Dialogue: 0,1:18:48.35,1:18:50.48,Default,,0,0,0,,Das ist doch Ran-neechan, oder?
+Dialogue: 0,1:18:51.14,1:18:52.27,Default,,0,0,0,,Sei bloß vorsichtig.
+Dialogue: 0,1:18:52.64,1:18:55.31,Default,,0,0,0,,Wenn wir jetzt patzen,\Nwird uns Schlimmes blühen!
+Dialogue: 0,1:18:59.11,1:19:00.99,Default,,0,0,0,,Diese elenden...
+Dialogue: 0,1:19:01.95,1:19:03.37,Default,,0,0,0,,– Ran!\N– Ran-neechan!
+Dialogue: 0,1:19:03.70,1:19:06.08,Default,,0,0,0,,Ich fass es nicht!\NDas ist das Allerletzte!
+Dialogue: 0,1:19:06.24,1:19:08.37,Default,,0,0,0,,Jetzt werd doch nicht so wütend, Ran!
+Dialogue: 0,1:19:08.54,1:19:09.92,Default,,0,0,0,,Ran-neechan!
+Dialogue: 0,1:19:10.50,1:19:12.29,Default,,0,0,0,,Hier bitte, Ihr Kaffee!
+Dialogue: 0,1:19:12.75,1:19:13.75,Default,,0,0,0,,Danke.
+Dialogue: 0,1:19:14.00,1:19:15.83,Default,,0,0,0,,Sie sind also hier zurückgeblieben?
+Dialogue: 0,1:19:16.08,1:19:17.08,Default,,0,0,0,,Ja.
+Dialogue: 0,1:19:17.29,1:19:19.33,Default,,0,0,0,,Nur der Koch und ich sind noch hier.
+Dialogue: 0,1:19:19.76,1:19:23.35,Default,,0,0,0,,Entschuldigen Sie die Umstände.\NEs wird nicht mehr lange dauern.
+Dialogue: 0,1:19:23.55,1:19:25.68,Default,,0,0,0,,Was macht denn das "Väterchen" hier?
+Dialogue: 0,1:19:25.84,1:19:27.63,Default,,0,0,0,,Woher soll ich das wissen?
+Dialogue: 0,1:19:28.10,1:19:29.14,Default,,0,0,0,,Das war dieses Weib!
+Dialogue: 0,1:19:29.31,1:19:31.44,Default,,0,0,0,,Das glaube ich nicht, nein...
+Dialogue: 0,1:19:32.06,1:19:36.44,Default,,0,0,0,,Nun sind alle Schauspieler auf Po-\Nsition... Starten wir die Vorstellung?
+Dialogue: 0,1:19:43.03,1:19:45.99,Default,,0,0,0,,Mutters Duft...
+Dialogue: 0,1:19:47.91,1:19:48.95,Default,,0,0,0,,Prinzessin Mira?
+Dialogue: 0,1:19:49.53,1:19:50.53,Default,,0,0,0,,Die Tür ist offen.
+Dialogue: 0,1:19:52.04,1:19:53.42,Default,,0,0,0,,Entschuldige die Störung.
+Dialogue: 0,1:19:53.83,1:19:55.66,Default,,0,0,0,,Ich habe die beiden mitgebracht.
+Dialogue: 0,1:19:56.54,1:19:58.08,Default,,0,0,0,,Bist du dir wirklich sicher?
+Dialogue: 0,1:19:58.75,1:19:59.92,Default,,0,0,0,,Es ist in Ordnung.
+Dialogue: 0,1:20:00.38,1:20:02.17,Default,,0,0,0,,Das ist das Zimmer meiner Mutter.
+Dialogue: 0,1:20:02.34,1:20:04.84,Default,,0,0,0,,Hier wurde seit ihrem Tod\Nnichts verändert.
+Dialogue: 0,1:20:05.34,1:20:07.01,Default,,0,0,0,,Keiner durfte etwas anfassen.
+Dialogue: 0,1:20:08.09,1:20:11.01,Default,,0,0,0,,Sie ermitteln doch?\NIch werde Sie unterstützen.
+Dialogue: 0,1:20:11.52,1:20:13.56,Default,,0,0,0,,Gut, dann erlauben wir uns also...
+Dialogue: 0,1:20:14.77,1:20:16.48,Default,,0,0,0,,Es ist wirklich zum Lachen...
+Dialogue: 0,1:20:16.90,1:20:19.07,Default,,0,0,0,,Dass mein Onkel\Ndie beiden getötet hat...
+Dialogue: 0,1:20:19.23,1:20:21.44,Default,,0,0,0,,Und dass ich nach Beweisen suche...
+Dialogue: 0,1:20:21.69,1:20:24.69,Default,,0,0,0,,Aber wir wissen doch\Nnoch nicht mit Sicherheit, ob...
+Dialogue: 0,1:20:26.24,1:20:27.37,Default,,0,0,0,,Es tut mir leid.
+Dialogue: 0,1:20:27.91,1:20:29.79,Default,,0,0,0,,Wofür entschuldigst du dich?
+Dialogue: 0,1:20:30.95,1:20:33.74,Default,,0,0,0,,Es ist verflucht.\NDieses Land ist verflucht.
+Dialogue: 0,1:20:34.83,1:20:36.12,Default,,0,0,0,,Durch dieses Gestein...
+Dialogue: 0,1:20:37.17,1:20:38.17,Default,,0,0,0,,Mira-san...
+Dialogue: 0,1:20:42.80,1:20:44.84,Default,,0,0,0,,Wow, das ist ja toll...
+Dialogue: 0,1:20:52.89,1:20:53.89,Default,,0,0,0,,Das ist doch...
+Dialogue: 0,1:21:02.48,1:21:05.65,Default,,0,0,0,,Jetzt ist mir klar geworden,\Nwas die Königin empfunden hat.
+Dialogue: 0,1:21:08.36,1:21:10.28,Default,,0,0,0,,Königin Sakuras große Liebe...
+Dialogue: 0,1:21:17.12,1:21:18.12,Default,,0,0,0,,Huch?
+Dialogue: 0,1:21:21.00,1:21:23.46,Default,,0,0,0,,Nanu, nanu? Die Tür steht ja offen!
+Dialogue: 0,1:21:23.67,1:21:25.92,Default,,0,0,0,,Passt auf,\Nsonst kommt noch ein Dieb rein!
+Dialogue: 0,1:21:26.46,1:21:29.38,Default,,0,0,0,,Guckt, Schlahaaf-Spray!\NQuatsch, war nur ein Scherz.
+Dialogue: 0,1:21:29.93,1:21:31.10,Default,,0,0,0,,Warum schlaft ihr?
+Dialogue: 0,1:21:31.60,1:21:32.68,Default,,0,0,0,,Warum ist er offen?
+Dialogue: 0,1:21:33.60,1:21:35.02,Default,,0,0,0,,Warum ist die Krone weg?
+Dialogue: 0,1:21:35.52,1:21:37.65,Default,,0,0,0,,Dann hab ich das Ding\Nja umsonst gebaut!
+Dialogue: 0,1:21:37.85,1:21:39.35,Default,,0,0,0,,Nanu, wer bist denn du?
+Dialogue: 0,1:21:39.56,1:21:42.23,Default,,0,0,0,,Tut mir echt leid, Lupin.\NTut mir echt leid, Lupin.
+Dialogue: 0,1:21:42.56,1:21:44.35,Default,,0,0,0,,Nein... Das ist nicht dein Ernst...
+Dialogue: 0,1:21:44.52,1:21:46.69,Default,,0,0,0,,Tut mir echt leid, Lupin.\NTut mir echt leid...
+Dialogue: 0,1:21:47.19,1:21:48.52,Default,,0,0,0,,Oh weh!
+Dialogue: 0,1:21:48.95,1:21:50.20,Default,,0,0,0,,Bädamm!
+Dialogue: 0,1:21:55.87,1:21:57.37,Default,,0,0,0,,Ich hab alle ausgelöst...
+Dialogue: 0,1:22:02.00,1:22:05.25,Default,,0,0,0,,Tut mir echt leid, Lupin.\NLass dich an meiner Stelle fangen.
+Dialogue: 0,1:22:07.55,1:22:08.88,Default,,0,0,0,,Was ist denn das?
+Dialogue: 0,1:22:09.17,1:22:11.67,Default,,0,0,0,,Die kommen viel zu früh!
+Dialogue: 0,1:22:13.47,1:22:15.89,Default,,0,0,0,,Vielen Dank für Ihre Unterstützung.
+Dialogue: 0,1:22:16.06,1:22:17.06,Default,,0,0,0,,Nichts zu danken!
+Dialogue: 0,1:22:17.18,1:22:20.60,Default,,0,0,0,,Lupin ist also wirklich gekommen.\NSie sind ein wahrer Fachmann.
+Dialogue: 0,1:22:21.14,1:22:22.64,Default,,0,0,0,,Also dann, bis später.
+Dialogue: 0,1:22:23.36,1:22:25.07,Default,,0,0,0,,Lupin! Lupiiin!
+Dialogue: 0,1:22:26.07,1:22:29.61,Default,,0,0,0,,Wir benutzen den Pavillon im Garten.\NEs ist doch alles bereit?
+Dialogue: 0,1:22:30.24,1:22:32.45,Default,,0,0,0,,Ja. Es ist alles\Nwie geplant vorbereitet.
+Dialogue: 0,1:22:34.87,1:22:36.25,Default,,0,0,0,,Endlich naht das Ende.
+Dialogue: 0,1:22:37.24,1:22:40.16,Default,,0,0,0,,- Hallihallo? Kannst du mich hören?\N– Ja.
+Dialogue: 0,1:22:40.50,1:22:44.00,Default,,0,0,0,,Ich bin eingeschlossen worden.\NKönntet ihr mich bitte abholen?
+Dialogue: 0,1:22:44.29,1:22:45.29,Default,,0,0,0,,Und der Schatz?
+Dialogue: 0,1:22:45.38,1:22:47.17,Default,,0,0,0,,– Ist weg.\N- Ich geh nach Hause.
+Dialogue: 0,1:22:47.42,1:22:49.17,Default,,0,0,0,,Sag nicht schon wieder so was.
+Dialogue: 0,1:22:49.34,1:22:52.18,Default,,0,0,0,,- Lern endlich mal aus deinen Fehlern!\N– Jawohl!
+Dialogue: 0,1:22:52.72,1:22:54.60,Default,,0,0,0,,Sensei! Du bist an der Reihe.
+Dialogue: 0,1:22:57.43,1:22:58.68,Default,,0,0,0,,Sehr wohl, verstanden.
+Dialogue: 0,1:23:11.44,1:23:13.98,Default,,0,0,0,,Er scheint mehr als sonst\Nzu "erschlagen"...
+Dialogue: 0,1:23:20.25,1:23:22.21,Default,,0,0,0,,Ich habe wieder einmal sehr viel
+Dialogue: 0,1:23:22.79,1:23:25.21,Default,,0,0,0,,Unwürdiges erschlagen...
+Dialogue: 0,1:23:25.38,1:23:28.22,Default,,0,0,0,,– Diese Pose ist doch sicher unangenehm?\N– Ja...
+Dialogue: 0,1:23:34.80,1:23:35.80,Default,,0,0,0,,Thank you!
+Dialogue: 0,1:23:38.72,1:23:40.47,Default,,0,0,0,,Deckt mir weiter den Rücken, ja?
+Dialogue: 0,1:23:47.52,1:23:49.48,Default,,0,0,0,,Das waren nur Jigen und Goemon.
+Dialogue: 0,1:23:49.65,1:23:51.03,Default,,0,0,0,,Wie ich erwartet hatte.
+Dialogue: 0,1:23:52.11,1:23:55.53,Default,,0,0,0,,– Sind wir nun vollzählig?\N– Ja, wir waren die letzten.
+Dialogue: 0,1:23:56.20,1:23:57.20,Default,,0,0,0,,Ist was los?
+Dialogue: 0,1:23:57.32,1:24:00.36,Default,,0,0,0,,– Warum müssen wir uns versammeln?\N– Befehl des Polizisten.
+Dialogue: 0,1:24:00.83,1:24:03.58,Default,,0,0,0,,Ist das in Ordnung so,\NKommissar Zenigata?
+Dialogue: 0,1:24:04.04,1:24:06.25,Default,,0,0,0,,Ja. Vielen Dank.
+Dialogue: 0,1:24:08.29,1:24:11.63,Default,,0,0,0,,Es gibt einen Grund, weshalb ich Sie\Nhier versammelt habe.
+Dialogue: 0,1:24:12.26,1:24:14.72,Default,,0,0,0,,Vorhin wurde\Naus dem Tresorraum des Palastes
+Dialogue: 0,1:24:15.05,1:24:16.72,Default,,0,0,0,,die Queen's Crown gestohlen.
+Dialogue: 0,1:24:17.51,1:24:18.64,Default,,0,0,0,,Um den Täter sowie...
+Dialogue: 0,1:24:18.80,1:24:21.39,Default,,0,0,0,,Tut mir leid,\Naber bitte überlass mir das Reden.
+Dialogue: 0,1:24:21.56,1:24:25.69,Default,,0,0,0,,...musste ich dafür sorgen, dass sich\Nim Palast nur wenige Leute aufhalten.
+Dialogue: 0,1:24:28.94,1:24:29.94,Default,,0,0,0,,Au Mist!
+Dialogue: 0,1:24:30.77,1:24:32.23,Default,,0,0,0,,Nanu?
+Dialogue: 0,1:24:33.99,1:24:35.16,Default,,0,0,0,,Es muss auch so gehen!
+Dialogue: 0,1:24:35.99,1:24:37.03,Default,,0,0,0,,Was ist mit Ihnen?
+Dialogue: 0,1:24:37.45,1:24:39.28,Default,,0,0,0,,Er ist unter uns.
+Dialogue: 0,1:24:40.66,1:24:43.41,Default,,0,0,0,,Der Kerl,\Nder Prinzessin Mira umbringen will!
+Dialogue: 0,1:24:44.29,1:24:46.04,Default,,0,0,0,,Aber das hast doch du untersucht?
+Dialogue: 0,1:24:46.21,1:24:47.50,Default,,0,0,0,,Was, ich?
+Dialogue: 0,1:24:48.17,1:24:52.51,Default,,0,0,0,,Am Anfang von allem\Nsteht jener unglückliche Jagdunfall.
+Dialogue: 0,1:24:52.84,1:24:53.97,Default,,0,0,0,,Nanu? Hat er...?
+Dialogue: 0,1:24:54.21,1:24:56.46,Default,,0,0,0,,Nein, so viel ich weiß, nicht.
+Dialogue: 0,1:24:56.67,1:24:59.76,Default,,0,0,0,,Das waren doch der Junge\Nund Fräulein Rans Vater, nicht?
+Dialogue: 0,1:25:00.14,1:25:01.97,Default,,0,0,0,,Aber das war kein Unfall.
+Dialogue: 0,1:25:02.97,1:25:04.14,Default,,0,0,0,,"Uuuah"?
+Dialogue: 0,1:25:06.98,1:25:07.98,Default,,0,0,0,,Nanu?
+Dialogue: 0,1:25:08.06,1:25:11.44,Default,,0,0,0,,Unfassbar! Das hätte einen Elefanten\Neine halbe Stunde ausgeknockt!
+Dialogue: 0,1:25:12.15,1:25:15.99,Default,,0,0,0,,Genau. Es war ein Mord, den man\Nwie einen Unfall hat aussehen lassen.
+Dialogue: 0,1:25:18.24,1:25:20.95,Default,,0,0,0,,Nanu? Was ist denn mit mir...
+Dialogue: 0,1:25:21.66,1:25:23.20,Default,,0,0,0,,Der Getränkedieb?
+Dialogue: 0,1:25:23.91,1:25:26.20,Default,,0,0,0,,Das verspricht, spannend zu werden,\NKnirps.
+Dialogue: 0,1:25:26.75,1:25:29.92,Default,,0,0,0,,Lassen Sie mich vorher\Nnoch ein paar Dinge sagen, Väterchen?
+Dialogue: 0,1:25:30.08,1:25:31.79,Default,,0,0,0,,Ist das sein Ernst?
+Dialogue: 0,1:25:32.29,1:25:33.71,Default,,0,0,0,,Na gut, alles klar, Alter.
+Dialogue: 0,1:25:34.05,1:25:35.43,Default,,0,0,0,,Spiel also schön mit.
+Dialogue: 0,1:25:35.92,1:25:37.80,Default,,0,0,0,,An jenem Tag hat Prinz Gill
+Dialogue: 0,1:25:37.97,1:25:43.31,Default,,0,0,0,,sein Gewehr vom Hügel aus auf den Fuchs\Nbeim großen Kirschbaum abgefeuert.
+Dialogue: 0,1:25:43.85,1:25:45.43,Default,,0,0,0,,Doch statt des Fuchses traf er
+Dialogue: 0,1:25:45.60,1:25:48.35,Default,,0,0,0,,Königin Sakura,\Ndie den Fuchs verscheuchen wollte.
+Dialogue: 0,1:25:48.52,1:25:50.81,Default,,0,0,0,,Dies hat Herzog Gerard so bezeugt.
+Dialogue: 0,1:25:51.15,1:25:52.98,Default,,0,0,0,,Das stimmt doch, Prinzessin Mira?
+Dialogue: 0,1:25:54.11,1:25:55.99,Default,,0,0,0,,Ja. So habe ich es gehört.
+Dialogue: 0,1:25:56.44,1:26:00.57,Default,,0,0,0,,Du hast uns doch nicht etwa\Nschon wieder verwechselt, Paps?
+Dialogue: 0,1:26:00.74,1:26:01.78,Default,,0,0,0,,Ich bin dein Vater?
+Dialogue: 0,1:26:03.70,1:26:06.24,Default,,0,0,0,,Was macht denn das Mädchen hier?
+Dialogue: 0,1:26:07.00,1:26:10.04,Default,,0,0,0,,Sie wussten also\Nvon dem japanischen Mädchen?
+Dialogue: 0,1:26:10.83,1:26:14.33,Default,,0,0,0,,Ah... Ja, ich hab wohl eine der Wachen\Nüber sie sprechen hören.
+Dialogue: 0,1:26:14.84,1:26:15.84,Default,,0,0,0,,Verzeihen Sie.
+Dialogue: 0,1:26:16.25,1:26:18.75,Default,,0,0,0,,Ich erlaubte mir,\Nsie in den Palast zu bringen,
+Dialogue: 0,1:26:19.47,1:26:21.05,Default,,0,0,0,,ohne jemandem etwas zu sagen.
+Dialogue: 0,1:26:21.84,1:26:24.38,Default,,0,0,0,,Verstehe. So war das also...
+Dialogue: 0,1:26:25.14,1:26:27.02,Default,,0,0,0,,Nach seinem Selbstmord\Nhielt der Prinz
+Dialogue: 0,1:26:27.43,1:26:29.72,Default,,0,0,0,,die Pistole in seiner rechten Hand.
+Dialogue: 0,1:26:30.10,1:26:32.23,Default,,0,0,0,,Er schoss sich in die rechte Schläfe.
+Dialogue: 0,1:26:32.65,1:26:36.99,Default,,0,0,0,,Natürlich hielt er dazu die Waffe in\Nder rechten. Richtig, Prinzessin Mira?
+Dialogue: 0,1:26:37.98,1:26:40.19,Default,,0,0,0,,Mein Bruder war Linkshänder.
+Dialogue: 0,1:26:42.20,1:26:46.37,Default,,0,0,0,,Das bedeutet, jemand hat ihm die Waffe\Nin die falsche Hand gelegt.
+Dialogue: 0,1:26:46.95,1:26:50.58,Default,,0,0,0,,Aber warum hielt die Person\Nden Prinzen für einen Rechtshänder?
+Dialogue: 0,1:26:50.75,1:26:55.09,Default,,0,0,0,,Ich habe im Gemach der Königin Sakura\Nein Foto des Prinzen gesehen.
+Dialogue: 0,1:26:55.75,1:26:58.42,Default,,0,0,0,,Aus seiner Kindheit,\Nals er noch Baseball spielte.
+Dialogue: 0,1:26:58.92,1:27:01.21,Default,,0,0,0,,Er trug den Handschuh\Nan der rechten Hand.
+Dialogue: 0,1:27:01.88,1:27:03.46,Default,,0,0,0,,Man hat meinen Bruder
+Dialogue: 0,1:27:03.64,1:27:07.48,Default,,0,0,0,,von klein auf trainiert, mit der Rechten\Nzu essen und zu unterschreiben.
+Dialogue: 0,1:27:07.97,1:27:09.10,Default,,0,0,0,,Verstehe.
+Dialogue: 0,1:27:09.43,1:27:12.97,Default,,0,0,0,,Als Thronfolger\Nhat man es nicht immer leicht...
+Dialogue: 0,1:27:13.85,1:27:17.65,Default,,0,0,0,,Kyle! Haben Sie das Gewehr,\Ndas bei der Jagd verwendet wurde, dabei?
+Dialogue: 0,1:27:18.32,1:27:19.32,Default,,0,0,0,,Ja. Hier ist es.
+Dialogue: 0,1:27:19.78,1:27:23.03,Default,,0,0,0,,Der Junge richtete mir von Ihnen aus,\Nich solle es mitnehmen.
+Dialogue: 0,1:27:23.91,1:27:26.75,Default,,0,0,0,,Sie haben beide\Ndas gleiche Gewehrmodell verwendet.
+Dialogue: 0,1:27:27.12,1:27:28.91,Default,,0,0,0,,Büchsen mit Zylinderverschluss
+Dialogue: 0,1:27:29.08,1:27:31.08,Default,,0,0,0,,müssen generell auch von Linkshändern
+Dialogue: 0,1:27:31.25,1:27:34.84,Default,,0,0,0,,mit rechts gehandhabt werden,\Naußer es sind Sonderanfertigungen.
+Dialogue: 0,1:27:36.17,1:27:40.84,Default,,0,0,0,,Denn der Kammerstängel, mit dem man\NIädt, ist immer auf der rechten Seite.
+Dialogue: 0,1:27:42.88,1:27:43.55,Default,,0,0,0,,Nanu?
+Dialogue: 0,1:27:43.76,1:27:45.51,Default,,0,0,0,,Aha... Jetzt verstehe ich.
+Dialogue: 0,1:27:45.68,1:27:47.81,Default,,0,0,0,,Rede nicht einfach selbst drauflos!
+Dialogue: 0,1:27:48.01,1:27:51.10,Default,,0,0,0,,– Jetzt weiß ich, wer der Täter ist!\N– Onkel!
+Dialogue: 0,1:27:51.47,1:27:54.35,Default,,0,0,0,,– Erzähl die Schlussfolgerungen weiter!\N– Conan-kun!
+Dialogue: 0,1:27:54.69,1:27:56.48,Default,,0,0,0,,Klettere nicht einfach da rauf!
+Dialogue: 0,1:27:56.65,1:27:58.28,Default,,0,0,0,,Ah... Tut mir leid...
+Dialogue: 0,1:27:58.44,1:28:00.28,Default,,0,0,0,,Herzog Gerard!
+Dialogue: 0,1:28:00.82,1:28:02.28,Default,,0,0,0,,Einen Augenblick bitte.
+Dialogue: 0,1:28:03.28,1:28:06.28,Default,,0,0,0,,Das war die Stelle,\Nan der Sie den Fehler machten.
+Dialogue: 0,1:28:06.66,1:28:10.45,Default,,0,0,0,,Da Sie den Prinzen die Jagdwaffe nur\Nmit der Rechten handhaben sahen,
+Dialogue: 0,1:28:10.62,1:28:12.87,Default,,0,0,0,,haben Sie ihm,\Nohne einen Moment zu zögern,
+Dialogue: 0,1:28:13.04,1:28:15.54,Default,,0,0,0,,die Pistole in die rechte Hand gegeben.
+Dialogue: 0,1:28:22.17,1:28:23.25,Default,,0,0,0,,Warum nur...
+Dialogue: 0,1:28:23.63,1:28:24.63,Default,,0,0,0,,Warum?
+Dialogue: 0,1:28:25.80,1:28:27.30,Default,,0,0,0,,Warum hast du sie getötet?
+Dialogue: 0,1:28:30.01,1:28:34.05,Default,,0,0,0,,Du warst es,\Nder Ihre Majestät erschossen hat.
+Dialogue: 0,1:28:37.52,1:28:40.40,Default,,0,0,0,,Onkel... Stimmt das?\NHast wirklich du sie...
+Dialogue: 0,1:28:40.98,1:28:43.32,Default,,0,0,0,,Was Sie da sagen,\Nüberrascht mich wirklich...
+Dialogue: 0,1:28:43.61,1:28:48.16,Default,,0,0,0,,Kommissar, Ihr Untergebener möchte dies\Nunbedingt zu einem Mordfall machen.
+Dialogue: 0,1:28:48.70,1:28:50.41,Default,,0,0,0,,Was sollen wir denn jetzt tun?
+Dialogue: 0,1:28:51.95,1:28:55.20,Default,,0,0,0,,Môri-kun...\NIst das alles, was Sie zu sagen haben?
+Dialogue: 0,1:28:55.54,1:28:58.00,Default,,0,0,0,,Nein, jetzt wird es\Nerst richtig interessant.
+Dialogue: 0,1:28:58.33,1:29:00.50,Default,,0,0,0,,Er redet schon wieder\Neinfach drauflos...
+Dialogue: 0,1:29:00.88,1:29:03.80,Default,,0,0,0,,Ah, Mitarbeiterdurchsage,\NMitarbeiterdurchsage.
+Dialogue: 0,1:29:05.13,1:29:08.80,Default,,0,0,0,,Hab reingeguckt, die Kugel gesehen.\NLass mich die Schau abziehen. Äh...
+Dialogue: 0,1:29:10.01,1:29:11.01,Default,,0,0,0,,Nun gut...
+Dialogue: 0,1:29:11.10,1:29:15.35,Default,,0,0,0,,Sie möchten das Ganze also\Nunbedingt als Unfall durchgehen lassen.
+Dialogue: 0,1:29:15.56,1:29:19.02,Default,,0,0,0,,Und behaupten, dass die Königin\Nmit dieser Waffe erschossen wurde.
+Dialogue: 0,1:29:19.19,1:29:20.36,Default,,0,0,0,,Und was ist damit?
+Dialogue: 0,1:29:21.15,1:29:22.90,Default,,0,0,0,,Sie haben sie ausgetauscht.
+Dialogue: 0,1:29:23.36,1:29:25.40,Default,,0,0,0,,Auch wegen der Spuren auf der Kugel
+Dialogue: 0,1:29:25.57,1:29:29.70,Default,,0,0,0,,tauschten Sie Ihre Waffe mit der des\NPrinzen, nachdem Sie ihn getötet hatten.
+Dialogue: 0,1:29:29.86,1:29:30.86,Default,,0,0,0,,Nicht?
+Dialogue: 0,1:29:31.87,1:29:33.33,Default,,0,0,0,,Das reicht jetzt langsam.
+Dialogue: 0,1:29:33.49,1:29:36.74,Default,,0,0,0,,Wenn Sie es zu einem Mord machen wollen,\Nliefern Sie Beweise.
+Dialogue: 0,1:29:48.09,1:29:49.09,Default,,0,0,0,,Huch?
+Dialogue: 0,1:29:54.10,1:29:56.43,Default,,0,0,0,,Paps, was machst du denn da!
+Dialogue: 0,1:29:57.23,1:29:58.69,Default,,0,0,0,,Das war eine Platzpatrone.
+Dialogue: 0,1:29:59.02,1:30:00.94,Default,,0,0,0,,E... eine Platzpatrone?
+Dialogue: 0,1:30:01.35,1:30:03.85,Default,,0,0,0,,Ich fragte mich die ganze Zeit,\Nwarum die Königin
+Dialogue: 0,1:30:04.02,1:30:05.52,Default,,0,0,0,,auf diese Jagd mitging.
+Dialogue: 0,1:30:06.69,1:30:09.11,Default,,0,0,0,,Kannte dein Vater meine Mutter etwa?
+Dialogue: 0,1:30:09.40,1:30:11.11,Default,,0,0,0,,Nicht, dass ich wüsste!
+Dialogue: 0,1:30:11.57,1:30:13.95,Default,,0,0,0,,Und zudem wirkt er\Nganz anders als sonst!
+Dialogue: 0,1:30:14.16,1:30:15.16,Default,,0,0,0,,Als sonst?
+Dialogue: 0,1:30:15.62,1:30:18.83,Default,,0,0,0,,Normalerweise nennt man ihn\N"den Schlafenden Kogorô"
+Dialogue: 0,1:30:19.00,1:30:22.04,Default,,0,0,0,,und er würde nie so wirr\Nüber einen Fall sprechen...
+Dialogue: 0,1:30:22.50,1:30:24.50,Default,,0,0,0,,Unglaublich...
+Dialogue: 0,1:30:24.84,1:30:27.22,Default,,0,0,0,,Das ist doch wirklich seltsam,\NHerzog Gerard!
+Dialogue: 0,1:30:27.59,1:30:29.72,Default,,0,0,0,,Warum sind Sie so überrascht?
+Dialogue: 0,1:30:30.30,1:30:31.88,Default,,0,0,0,,Ist er kaputtgegangen?
+Dialogue: 0,1:30:32.18,1:30:33.51,Default,,0,0,0,,So geht es nicht weiter.
+Dialogue: 0,1:30:33.68,1:30:34.35,Default,,0,0,0,,Das ist...
+Dialogue: 0,1:30:34.51,1:30:38.10,Default,,0,0,0,,...doch die Büchse, die Sie\Nan jenem Tag verwendet haben, oder?
+Dialogue: 0,1:30:38.68,1:30:39.93,Default,,0,0,0,,Denn ich bat Conan,
+Dialogue: 0,1:30:40.31,1:30:43.77,Default,,0,0,0,,Kyle zu sagen,\Ner solle bitte die Büchse mitbringen,
+Dialogue: 0,1:30:43.94,1:30:46.61,Default,,0,0,0,,die Herzog Gerard\Nan jenem Tag verwendet hatte.
+Dialogue: 0,1:30:46.82,1:30:48.74,Default,,0,0,0,,Ja. So wurde es mir ausgerichtet.
+Dialogue: 0,1:30:49.28,1:30:52.37,Default,,0,0,0,,Sie haben also Ihr eigenes Gewehr\Nfür die Jagd benutzt,
+Dialogue: 0,1:30:52.53,1:30:55.57,Default,,0,0,0,,ohne zu wissen,\Ndass darin Platzpatronen waren.
+Dialogue: 0,1:30:56.33,1:30:58.58,Default,,0,0,0,,Königin Sakura hieß es gar nicht gut,
+Dialogue: 0,1:30:58.95,1:31:02.79,Default,,0,0,0,,dass bei der Jagd Tiere unter dem\NDeckmantel des Sports getötet werden.
+Dialogue: 0,1:31:03.17,1:31:07.09,Default,,0,0,0,,Sie muss auch nicht gewollt haben,\Ndass ihr Sohn diesem Hobby frönte.
+Dialogue: 0,1:31:07.75,1:31:09.29,Default,,0,0,0,,Darum gab sie ihm Patronen,
+Dialogue: 0,1:31:09.55,1:31:12.26,Default,,0,0,0,,aus denen sie\Ndas Geschoss entfernt hatte.
+Dialogue: 0,1:31:12.63,1:31:13.80,Default,,0,0,0,,Mutter...
+Dialogue: 0,1:31:14.14,1:31:17.14,Default,,0,0,0,,Und dies haben Kyle und seine Kollegen\Nauch ganz genau
+Dialogue: 0,1:31:17.31,1:31:19.69,Default,,0,0,0,,im Untersuchungsbericht festgehalten.
+Dialogue: 0,1:31:19.89,1:31:22.77,Default,,0,0,0,,Aber es scheint mir unwahrscheinlich,
+Dialogue: 0,1:31:22.94,1:31:26.32,Default,,0,0,0,,dass eine Königin ein so genaues Wissen\Nüber Waffen hat.
+Dialogue: 0,1:31:26.61,1:31:27.86,Default,,0,0,0,,Ein guter Einwand!
+Dialogue: 0,1:31:28.02,1:31:29.40,Default,,0,0,0,,Sei doch still!
+Dialogue: 0,1:31:29.90,1:31:30.98,Default,,0,0,0,,Okay, okay.
+Dialogue: 0,1:31:31.65,1:31:34.03,Default,,0,0,0,,AII die Trophäen\Nin Königin Sakuras Gemach...
+Dialogue: 0,1:31:34.86,1:31:37.32,Default,,0,0,0,,Sie war\Neine begnadete Sportlerin, richtig?
+Dialogue: 0,1:31:37.87,1:31:42.00,Default,,0,0,0,,In jungen Jahren hat sie auch Wettkämpfe\Nim Modernen Fünfkampf gewonnen!
+Dialogue: 0,1:31:42.46,1:31:44.71,Default,,0,0,0,,Und dessen fünf Sportarten sind:
+Dialogue: 0,1:31:45.00,1:31:46.75,Default,,0,0,0,,Reiten, Schwimmen,
+Dialogue: 0,1:31:47.00,1:31:49.00,Default,,0,0,0,,Crosslauf, Fechten
+Dialogue: 0,1:31:49.30,1:31:52.22,Default,,0,0,0,,und... Sportschießen.
+Dialogue: 0,1:31:53.17,1:31:55.46,Default,,0,0,0,,Unter den Trophäen befand sich auch eine
+Dialogue: 0,1:31:55.97,1:31:58.97,Default,,0,0,0,,von einem Wettkampf,\Nden Sie gewonnen hatten, Herzog.
+Dialogue: 0,1:31:59.68,1:32:02.60,Default,,0,0,0,,Und zwar von einem Schießwettbewerb\Nvor drei Jahren.
+Dialogue: 0,1:32:02.81,1:32:05.73,Default,,0,0,0,,– Das ist wirklich...\N– Das reicht, Meisterdetektiv.
+Dialogue: 0,1:32:06.15,1:32:08.36,Default,,0,0,0,,Angenommen, ich sei der Täter gewesen,
+Dialogue: 0,1:32:08.52,1:32:10.48,Default,,0,0,0,,warum sollte ich mich so dreist
+Dialogue: 0,1:32:10.69,1:32:14.07,Default,,0,0,0,,hier zeigen, ohne zu versuchen,\Ndie Beweise zu beseitigen?
+Dialogue: 0,1:32:14.61,1:32:16.36,Default,,0,0,0,,Lassen Sie das mich beantworten:
+Dialogue: 0,1:32:17.16,1:32:20.04,Default,,0,0,0,,Um alle, die Ihnen im Weg sind,\Nauf einmal zu erledigen.
+Dialogue: 0,1:32:20.66,1:32:22.79,Default,,0,0,0,,Sie sind wirklich gut, Meisterdetektiv.
+Dialogue: 0,1:32:23.54,1:32:26.12,Default,,0,0,0,,Sie werde ich\Nganz zum Schluss beseitigen.
+Dialogue: 0,1:32:29.46,1:32:32.71,Default,,0,0,0,,Puah, wie können Sie sich nur\Nin eine so peinliche Lage bringen!
+Dialogue: 0,1:32:34.92,1:32:37.17,Default,,0,0,0,,Oh! Ich glaube, das war es.
+Dialogue: 0,1:32:37.72,1:32:40.06,Default,,0,0,0,,Damit ist es also zu Ende?\NWie Iästig.
+Dialogue: 0,1:32:40.51,1:32:43.89,Default,,0,0,0,,Na ja, als Gegner\Nwaren sie ziemlich enttäuschend.
+Dialogue: 0,1:32:44.39,1:32:46.89,Default,,0,0,0,,– Den Rest überlasse ich euch.\N– Wache!
+Dialogue: 0,1:32:49.02,1:32:50.02,Default,,0,0,0,,Keith...
+Dialogue: 0,1:32:51.07,1:32:53.57,Default,,0,0,0,,Es gibt im Palast\Nkeinen einzigen Wachsoldaten,
+Dialogue: 0,1:32:53.73,1:32:55.65,Default,,0,0,0,,der auf deinen Befehl hören würde.
+Dialogue: 0,1:32:55.82,1:32:59.70,Default,,0,0,0,,Oho? Sie haben so was also erwartet\Nund sich darauf vorbereitet?
+Dialogue: 0,1:33:00.20,1:33:02.41,Default,,0,0,0,,Sie sind ziemlich gut,\NSie kleiner Gauner.
+Dialogue: 0,1:33:02.95,1:33:04.99,Default,,0,0,0,,Und wie gefällt Ihnen das hier?
+Dialogue: 0,1:33:05.16,1:33:06.24,Default,,0,0,0,,Keine Bewegung!
+Dialogue: 0,1:33:07.54,1:33:11.25,Default,,0,0,0,,In der Säule in der Mitte\Nist eine kleine Überraschung versteckt.
+Dialogue: 0,1:33:11.75,1:33:15.50,Default,,0,0,0,,Damit könnt ihr alle zusammen\Ndorthin gehen, wo die Königin ist.
+Dialogue: 0,1:33:15.84,1:33:19.09,Default,,0,0,0,,Und was ist mit Ihnen?\NFliegen Sie auch mit in die Luft?
+Dialogue: 0,1:33:19.80,1:33:23.60,Default,,0,0,0,,Wenn ich nicht aufpasse,\Nkönnte ich tatsächlich Schaden erleiden.
+Dialogue: 0,1:33:24.39,1:33:26.02,Default,,0,0,0,,Darum zwingt mich bitte nicht.
+Dialogue: 0,1:33:27.10,1:33:28.77,Default,,0,0,0,,Lasst mich die letzte Chance...
+Dialogue: 0,1:33:29.48,1:33:30.48,Default,,0,0,0,,Keith...
+Dialogue: 0,1:33:31.11,1:33:32.49,Default,,0,0,0,,Lass mich sie dir geben.
+Dialogue: 0,1:33:33.61,1:33:37.99,Default,,0,0,0,,Möchtest du nicht gemeinsam mit mir\Nunser Vespania groß und mächtig machen?
+Dialogue: 0,1:33:38.99,1:33:40.74,Default,,0,0,0,,Ein Graf nur dem Namen nach...
+Dialogue: 0,1:33:41.37,1:33:44.54,Default,,0,0,0,,Spielst du wirklich gern den\NBabysitter der Königsfamilie?
+Dialogue: 0,1:33:45.12,1:33:49.62,Default,,0,0,0,,Versetzt diese Chance nicht das Blut,\Ndas in deinen Adern kreist, in Wallung?
+Dialogue: 0,1:33:50.83,1:33:52.58,Default,,0,0,0,,Kyle würde ich auch verschonen.
+Dialogue: 0,1:33:53.42,1:33:54.42,Default,,0,0,0,,Was meinst du?
+Dialogue: 0,1:33:54.92,1:33:56.67,Default,,0,0,0,,Darf man als echter Mann nicht
+Dialogue: 0,1:33:57.09,1:33:59.63,Default,,0,0,0,,ein- oder zweimal\Nrichtig wild aufs Ganze gehen?
+Dialogue: 0,1:34:00.51,1:34:02.68,Default,,0,0,0,,Und es wäre ja auch zum Wohl des Volkes!
+Dialogue: 0,1:34:03.43,1:34:07.81,Default,,0,0,0,,Vespania ist gerade dabei,\Nsich Macht zu verschaffen!
+Dialogue: 0,1:34:08.31,1:34:09.94,Default,,0,0,0,,Eine neue Art von Energie...
+Dialogue: 0,1:34:10.56,1:34:13.60,Default,,0,0,0,,Eine unendliche Kraft,\Nnach der die ganze Welt strebt!
+Dialogue: 0,1:34:16.11,1:34:17.11,Default,,0,0,0,,Keith...
+Dialogue: 0,1:34:17.99,1:34:19.03,Default,,0,0,0,,Graf Keith...
+Dialogue: 0,1:34:20.57,1:34:24.28,Default,,0,0,0,,Die Familie Stinger\Ndient der Königsfamilie seit 200 Jahren.
+Dialogue: 0,1:34:24.83,1:34:27.17,Default,,0,0,0,,Das Blut, das in meinen Adern fließt,
+Dialogue: 0,1:34:32.08,1:34:35.04,Default,,0,0,0,,opfere ich der Königsfamilie,\Nbis zum letzten Tropfen!
+Dialogue: 0,1:34:36.38,1:34:37.76,Default,,0,0,0,,Das hat gesessen!
+Dialogue: 0,1:34:37.92,1:34:38.92,Default,,0,0,0,,Allerdings.
+Dialogue: 0,1:34:41.22,1:34:42.60,Default,,0,0,0,,Wa... was soll denn das?
+Dialogue: 0,1:34:42.80,1:34:44.88,Default,,0,0,0,,Es wird wohl bald Chaos losbrechen.
+Dialogue: 0,1:34:45.43,1:34:48.64,Default,,0,0,0,,Du wolltest doch wie immer\Nin seinem Schutze fliehen, Lupin.
+Dialogue: 0,1:34:49.14,1:34:50.64,Default,,0,0,0,,Au weh, du hast es gemerkt?
+Dialogue: 0,1:34:50.94,1:34:54.11,Default,,0,0,0,,Denk mal neun Minuten\Nund dreizehn Sekunden zurück.
+Dialogue: 0,1:34:54.52,1:34:57.61,Default,,0,0,0,,Lassen Sie mich vorher\Nnoch ein paar Dinge sagen, Väterchen?
+Dialogue: 0,1:34:58.15,1:35:00.69,Default,,0,0,0,,Da hast du mich\N"Väterchen" genannt, oder?
+Dialogue: 0,1:35:01.32,1:35:04.11,Default,,0,0,0,,Autsch... Aber warum tust du das\Nausgerechnet jetzt?
+Dialogue: 0,1:35:04.53,1:35:08.24,Default,,0,0,0,,Der gute Mann hatte einen so tollen\NAuftritt. Verdirb nicht die Stimmung,
+Dialogue: 0,1:35:08.41,1:35:09.20,Default,,0,0,0,,okay?
+Dialogue: 0,1:35:09.37,1:35:10.50,Default,,0,0,0,,Das ist mir egal.
+Dialogue: 0,1:35:10.71,1:35:13.46,Default,,0,0,0,,Solange ich dich festnehmen kann,\Nbin ich zufrieden!
+Dialogue: 0,1:35:13.79,1:35:14.79,Default,,0,0,0,,Ihr...
+Dialogue: 0,1:35:14.88,1:35:18.84,Default,,0,0,0,,Warst wirklich du\Nfür das alles verantwortlich, Onkel?
+Dialogue: 0,1:35:19.34,1:35:23.05,Default,,0,0,0,,Ja. Meiner Schwester konnte ich\Nunser Land nicht Iänger überlassen.
+Dialogue: 0,1:35:23.68,1:35:26.52,Default,,0,0,0,,Wenn wir wirklich beginnen,\Ndieses Erz zu fördern,
+Dialogue: 0,1:35:26.72,1:35:29.51,Default,,0,0,0,,dann bedeutet das\Nfür die Natur Vespanias das Ende!
+Dialogue: 0,1:35:29.77,1:35:31.23,Default,,0,0,0,,Du hast nichts begriffen.
+Dialogue: 0,1:35:31.43,1:35:34.14,Default,,0,0,0,,Hast du eine Ahnung,\Nwie wertvoll Vespania nun ist?
+Dialogue: 0,1:35:34.52,1:35:36.65,Default,,0,0,0,,Du bist der, der nichts begriffen hat!
+Dialogue: 0,1:35:36.98,1:35:39.06,Default,,0,0,0,,Im Austausch für den Profit würden wir
+Dialogue: 0,1:35:39.28,1:35:42.16,Default,,0,0,0,,etwas Unersetzliches,\Nunermesslich Wichtiges verlieren!
+Dialogue: 0,1:35:42.78,1:35:44.87,Default,,0,0,0,,Du bist derjenige, der engstirnig ist!
+Dialogue: 0,1:35:45.28,1:35:48.03,Default,,0,0,0,,Denn wer die Erde immer nur ausbeutet,\Nden wird sie
+Dialogue: 0,1:35:48.20,1:35:49.74,Default,,0,0,0,,irgendwann im Stich lassen!
+Dialogue: 0,1:35:50.54,1:35:52.79,Default,,0,0,0,,Ist dir nicht einmal mehr das bewusst?
+Dialogue: 0,1:35:54.67,1:35:58.72,Default,,0,0,0,,Ein König, der keinen Ehrgeiz hat,\Nist es nicht würdig, König zu sein.
+Dialogue: 0,1:35:59.34,1:36:02.80,Default,,0,0,0,,Und ihre Kinder hätten an ihrer Stelle\Ndas Gleiche getan wie sie.
+Dialogue: 0,1:36:03.01,1:36:06.39,Default,,0,0,0,,Deshalb hast du also meinen Bruder\Nund auch mich...
+Dialogue: 0,1:36:07.30,1:36:08.80,Default,,0,0,0,,Es tut mir leid, Keith.
+Dialogue: 0,1:36:09.68,1:36:13.14,Default,,0,0,0,,Aber ich werde dir deinen Wunsch\Nzum Schluss nun doch erfüllen.
+Dialogue: 0,1:36:15.31,1:36:17.52,Default,,0,0,0,,Ich hab das Ding eingeschaltet.
+Dialogue: 0,1:36:17.69,1:36:18.98,Default,,0,0,0,,Okay!
+Dialogue: 0,1:36:20.90,1:36:22.98,Default,,0,0,0,,Gefangen! Zieh, Väterchen!
+Dialogue: 0,1:36:23.19,1:36:24.19,Default,,0,0,0,,Was denn?
+Dialogue: 0,1:36:24.49,1:36:25.49,Default,,0,0,0,,Herzog Gerard!
+Dialogue: 0,1:36:25.86,1:36:26.94,Default,,0,0,0,,– Kyle!\N– Ja!
+Dialogue: 0,1:36:31.29,1:36:32.29,Default,,0,0,0,,Mineko-san!
+Dialogue: 0,1:36:32.45,1:36:34.41,Default,,0,0,0,,Diese Kugel ist toll, oder?
+Dialogue: 0,1:36:39.21,1:36:41.21,Default,,0,0,0,,Du bist nicht mehr mein Onkel.
+Dialogue: 0,1:36:41.92,1:36:44.30,Default,,0,0,0,,Die eigene Schwester\Nund deren Sohn zu...
+Dialogue: 0,1:36:45.05,1:36:47.01,Default,,0,0,0,,Dass du zu so etwas fähig bist...
+Dialogue: 0,1:36:51.18,1:36:52.18,Default,,0,0,0,,Ich werde dir
+Dialogue: 0,1:36:53.18,1:36:54.64,Default,,0,0,0,,niemals vergeben.
+Dialogue: 0,1:36:57.35,1:37:00.52,Default,,0,0,0,,Und ich werde dir dieses Land\Nauf keinen Fall überlassen.
+Dialogue: 0,1:37:02.73,1:37:04.44,Default,,0,0,0,,Denn die Königin dieses Landes
+Dialogue: 0,1:37:05.86,1:37:07.07,Default,,0,0,0,,bin ich!
+Dialogue: 0,1:37:12.41,1:37:14.16,Default,,0,0,0,,Prinzessin Mira!
+Dialogue: 0,1:37:17.71,1:37:19.59,Default,,0,0,0,,Sag mal, Mädchen mit dem Motorrad!
+Dialogue: 0,1:37:19.75,1:37:22.50,Default,,0,0,0,,Wie lange wird dieses Gadget da\Nnoch aktiv sein?
+Dialogue: 0,1:37:24.59,1:37:25.97,Default,,0,0,0,,Noch etwa drei Sekunden.
+Dialogue: 0,1:37:26.13,1:37:27.30,Default,,0,0,0,,Los, springt!
+Dialogue: 0,1:37:43.82,1:37:46.32,Default,,0,0,0,,Hier habe ich\Ndeine Mutter kennengelernt.
+Dialogue: 0,1:37:46.99,1:37:49.07,Default,,0,0,0,,Ich flehe dich an! Stiehl mich auch,
+Dialogue: 0,1:37:49.28,1:37:50.70,Default,,0,0,0,,zusammen mit der Krone!
+Dialogue: 0,1:37:51.03,1:37:52.78,Default,,0,0,0,,Ich will kein Käfigvogel sein,
+Dialogue: 0,1:37:52.99,1:37:54.82,Default,,0,0,0,,sondern am Himmel fliegen!
+Dialogue: 0,1:37:55.54,1:37:57.83,Default,,0,0,0,,Ich glaube nicht, dass ich das tun kann.
+Dialogue: 0,1:37:58.41,1:37:59.41,Default,,0,0,0,,Warum denn nicht?
+Dialogue: 0,1:37:59.92,1:38:00.92,Default,,0,0,0,,Hör zu.
+Dialogue: 0,1:38:01.33,1:38:04.17,Default,,0,0,0,,Genau so, wie mein Opa\Nein berühmter Meisterdieb war,
+Dialogue: 0,1:38:04.42,1:38:06.63,Default,,0,0,0,,ist dein Vater der König dieses Landes.
+Dialogue: 0,1:38:07.51,1:38:10.60,Default,,0,0,0,,Irgendwann musst auch du\Nüber dieses Land herrschen.
+Dialogue: 0,1:38:11.01,1:38:12.43,Default,,0,0,0,,Mit dem Ding auf dem Kopf.
+Dialogue: 0,1:38:13.35,1:38:17.69,Default,,0,0,0,,Flieg am Himmel, aber nicht mit mir,\Nsondern mit deinen Untertanen!
+Dialogue: 0,1:38:18.31,1:38:19.31,Default,,0,0,0,,Lupin...
+Dialogue: 0,1:38:19.89,1:38:20.89,Default,,0,0,0,,Mach's gut.
+Dialogue: 0,1:38:21.56,1:38:24.77,Default,,0,0,0,,Wenn dieses Land dank dir\Nzu einem guten Land geworden ist,
+Dialogue: 0,1:38:25.07,1:38:27.03,Default,,0,0,0,,komme ich wieder, um sie zu stehlen.
+Dialogue: 0,1:38:32.45,1:38:34.83,Default,,0,0,0,,Sie war damals genau so,\Nwie du jetzt bist.
+Dialogue: 0,1:38:35.53,1:38:37.82,Default,,0,0,0,,Meine vernünftige,\Nverlässliche Mutter...
+Dialogue: 0,1:38:38.41,1:38:40.54,Default,,0,0,0,,Dass sie auch einmal so war wie ich...
+Dialogue: 0,1:38:40.96,1:38:44.42,Default,,0,0,0,,Das Versprechen\Nhatte ich völlig vergessen.
+Dialogue: 0,1:38:45.13,1:38:47.26,Default,,0,0,0,,Doch als ich hörte,\NSakura sei gestorben,
+Dialogue: 0,1:38:47.42,1:38:48.63,Default,,0,0,0,,hab ich mich erinnert.
+Dialogue: 0,1:38:49.59,1:38:51.88,Default,,0,0,0,,Onkel! Diebstahl ist ein Verbrechen.
+Dialogue: 0,1:38:52.13,1:38:55.55,Default,,0,0,0,,Das war nicht ich,\Nsondern das Mädchen mit dem Motorrad!
+Dialogue: 0,1:38:55.97,1:38:57.26,Default,,0,0,0,,Ihr seid doch Komplizen.
+Dialogue: 0,1:38:57.56,1:38:59.94,Default,,0,0,0,,Du nervst echt.\NIch geb sie ja schon zurück.
+Dialogue: 0,1:39:03.19,1:39:04.48,Default,,0,0,0,,Ich gebe sie dir zurück.
+Dialogue: 0,1:39:05.94,1:39:09.15,Default,,0,0,0,,Auf deinem Kopf\Nsieht sie wirklich am besten aus.
+Dialogue: 0,1:39:10.86,1:39:13.90,Default,,0,0,0,,Aber sag mal, Knirps...\NDarf ich dich was fragen?
+Dialogue: 0,1:39:14.57,1:39:18.16,Default,,0,0,0,,Warum hast du erkannt, dass\Nder Schuss auf Sakura kein Unfall war?
+Dialogue: 0,1:39:18.74,1:39:20.16,Default,,0,0,0,,Dein Papa hat gesagt,
+Dialogue: 0,1:39:20.75,1:39:23.71,Default,,0,0,0,,du seist sicher gewesen,\Nsobald du hier gewesen seist.
+Dialogue: 0,1:39:23.96,1:39:26.25,Default,,0,0,0,,Das war wegen dem abgebrochenen Zweig.
+Dialogue: 0,1:39:26.67,1:39:28.00,Default,,0,0,0,,Wegen dem Zweig?
+Dialogue: 0,1:39:28.38,1:39:32.72,Default,,0,0,0,,Prinz Gill wusste doch sicher, dass eure\NMutter diesen Kirschbaum sehr liebte.
+Dialogue: 0,1:39:33.18,1:39:34.18,Default,,0,0,0,,Ja...
+Dialogue: 0,1:39:34.64,1:39:39.60,Default,,0,0,0,,Dann hätte er doch sicher nicht mit dem\NGewehr auf diesen Baum gezielt, oder?
+Dialogue: 0,1:39:40.18,1:39:43.85,Default,,0,0,0,,Verstehe... Darum konnte der Schütze\Nnicht der Prinz gewesen sein.
+Dialogue: 0,1:39:44.81,1:39:45.81,Default,,0,0,0,,Der Kirschbaum
+Dialogue: 0,1:39:46.81,1:39:48.48,Default,,0,0,0,,hat es mir gesagt.
+Dialogue: 0,1:39:51.78,1:39:54.78,Default,,0,0,0,,Da fällt mir ein...\NDarf ich dich auch was fragen, Onkel?
+Dialogue: 0,1:39:56.07,1:39:59.57,Default,,0,0,0,,Ich kenne deinen Namen noch gar nicht.
+Dialogue: 0,1:40:01.75,1:40:02.75,Default,,0,0,0,,Wirklich?
+Dialogue: 0,1:40:03.91,1:40:04.91,Default,,0,0,0,,Mein Name ist
+Dialogue: 0,1:40:05.83,1:40:07.71,Default,,0,0,0,,Lupin III.!
+Dialogue: 0,1:40:20.89,1:40:23.64,Default,,0,0,0,,Ist es okay,\Ndem Kommissar nichts davon zu sagen?
+Dialogue: 0,1:40:24.52,1:40:28.15,Default,,0,0,0,,Befehl der Königin.\NDagegen dürfen wir uns nicht auflehnen.
+Dialogue: 0,1:40:37.95,1:40:39.20,Default,,0,0,0,,Verdammt noch mal!
+Dialogue: 0,1:40:39.37,1:40:42.75,Default,,0,0,0,,Wenn wir den Kerl das nächste Mal sehen,\Nwerde ich ihn fangen!
+Dialogue: 0,1:40:43.20,1:40:44.58,Default,,0,0,0,,Aber ich bin erleichtert.
+Dialogue: 0,1:40:44.91,1:40:47.00,Default,,0,0,0,,Die bösen Kerle wurden alle gefangen.
+Dialogue: 0,1:40:47.25,1:40:48.25,Default,,0,0,0,,Lupin!
+Dialogue: 0,1:40:48.42,1:40:49.84,Default,,0,0,0,,Ah, nicht ganz alle.
+Dialogue: 0,1:40:59.22,1:41:01.97,Default,,0,0,0,,Sie sind bereits weg.
+Dialogue: 0,1:41:02.68,1:41:03.72,Default,,0,0,0,,Ach so...
+Dialogue: 0,1:41:04.43,1:41:08.39,Default,,0,0,0,,Er muss so bald wie möglich\Nzurückkommen, um die Krone zu stehlen.
+Dialogue: 0,1:41:10.44,1:41:14.32,Default,,0,0,0,,Aber bevor dieses Land nicht\Nwunderschön und friedlich geworden ist,
+Dialogue: 0,1:41:15.03,1:41:17.03,Default,,0,0,0,,wird er das nicht tun.
+Dialogue: 0,1:41:26.96,1:41:29.71,Default,,0,0,0,,Ich bin euch allen von Herzen dankbar.
+Dialogue: 0,1:41:30.75,1:41:32.08,Default,,0,0,0,,Vielen, vielen Dank.
+Dialogue: 0,1:41:32.54,1:41:35.21,Default,,0,0,0,,Ran...\NIch hatte an jenem Abend viel Spaß.
+Dialogue: 0,1:41:35.59,1:41:36.59,Default,,0,0,0,,Dank dir.
+Dialogue: 0,1:41:36.67,1:41:39.76,Default,,0,0,0,,Nicht doch! Auch ich\Ndurfte so eine Weile Prinzessin sein.
+Dialogue: 0,1:41:40.05,1:41:42.18,Default,,0,0,0,,Prinzessin Mira, es ist Zeit.
+Dialogue: 0,1:41:42.55,1:41:44.34,Default,,0,0,0,,Nanu? Wo ist denn Conan?
+Dialogue: 0,1:41:45.22,1:41:47.55,Default,,0,0,0,,Sagte er nicht,\Ner wolle die Krönung sehen?
+Dialogue: 0,1:41:48.06,1:41:51.40,Default,,0,0,0,,Vorhin hat ihn jemand\Nvon der japanischen Botschaft abgeholt.
+Dialogue: 0,1:41:51.90,1:41:54.44,Default,,0,0,0,,Er ist schließlich\Nillegal ins Land eingereist.
+Dialogue: 0,1:41:54.73,1:41:55.94,Default,,0,0,0,,Ach ja, stimmt...
+Dialogue: 0,1:41:56.32,1:41:58.91,Default,,0,0,0,,Nun denn,\Ndann wollen wir auch mal losgehen?
+Dialogue: 0,1:42:03.66,1:42:05.12,Default,,0,0,0,,Oje, wie fürchterlich!
+Dialogue: 0,1:42:13.59,1:42:14.72,Default,,0,0,0,,Mist...
+Dialogue: 0,1:42:14.96,1:42:19.76,Default,,0,0,0,,Beantrage ich einen Pass, wird bekannt,\Ndass Conan Edogawa gar nicht existiert!
+Dialogue: 0,1:42:20.43,1:42:24.06,Default,,0,0,0,,Sieht aus, als stecke nun selbst\Nder Meisterdetektiv in der Klemme.
+Dialogue: 0,1:42:25.35,1:42:27.06,Default,,0,0,0,,Onk... äh, Lupin-san?!
+Dialogue: 0,1:42:27.31,1:42:30.73,Default,,0,0,0,,Der Name scheint dir schwerzufallen.\NAch, belass es bei "Onkel"!
+Dialogue: 0,1:42:31.48,1:42:33.69,Default,,0,0,0,,Wir tragen die Masken\Nschon Iänger nicht mehr.
+Dialogue: 0,1:42:33.86,1:42:35.28,Default,,0,0,0,,Hast du das nicht gemerkt?
+Dialogue: 0,1:42:35.44,1:42:36.90,Default,,0,0,0,,Das Mädchen mit dem Motorrad?
+Dialogue: 0,1:42:37.07,1:42:38.57,Default,,0,0,0,,Und Papa?!
+Dialogue: 0,1:42:38.94,1:42:41.98,Default,,0,0,0,,– Ich sagte: Nenn mich nicht "Papa"!\N– Dein Bart kratzt!
+Dialogue: 0,1:42:42.41,1:42:44.33,Default,,0,0,0,,Er sieht wirklich aus wie ein Kind.
+Dialogue: 0,1:42:45.45,1:42:48.66,Default,,0,0,0,,Aber der Arme\Nist in seinem Innern ein Oberschüler!
+Dialogue: 0,1:42:48.87,1:42:49.87,Default,,0,0,0,,Ah, Mom...
+Dialogue: 0,1:42:50.12,1:42:53.25,Default,,0,0,0,,Ist es nicht qualvoll,\Nden Körper eines Kindes zu haben?
+Dialogue: 0,1:42:54.17,1:42:55.63,Default,,0,0,0,,Eine anzügliche Anspielung?
+Dialogue: 0,1:42:55.79,1:42:58.67,Default,,0,0,0,,Nein, das ist überhaupt nicht anzüglich!\NAltmodischer Kerl!
+Dialogue: 0,1:42:58.96,1:42:59.96,Default,,0,0,0,,Nur die Ruhe!
+Dialogue: 0,1:43:00.13,1:43:02.30,Default,,0,0,0,,Mein Verstand ist der eines Erwachsenen.
+Dialogue: 0,1:43:02.89,1:43:04.68,Default,,0,0,0,,Das gilt auch für meinen Körper.
+Dialogue: 0,1:43:05.43,1:43:07.22,Default,,0,0,0,,Auaaaa!
+Dialogue: 0,1:43:07.43,1:43:08.89,Default,,0,0,0,,Es war also doch anzüglich.
+Dialogue: 0,1:43:09.27,1:43:10.48,Default,,0,0,0,,Sei nur beruhigt.
+Dialogue: 0,1:43:10.73,1:43:14.90,Default,,0,0,0,,Das Mädchen hier sagte, sie werde dich\Nnach Japan begleiten, Shin'ichi Kudô.
+Dialogue: 0,1:43:15.36,1:43:17.90,Default,,0,0,0,,Zufällig ist ein Freund\Nmit Schiff in der Nähe.
+Dialogue: 0,1:43:18.57,1:43:19.57,Default,,0,0,0,,Danke.
+Dialogue: 0,1:43:20.40,1:43:23.32,Default,,0,0,0,,Aber wenn du\Ndas nächste Mal auf Diebestour gehst,
+Dialogue: 0,1:43:23.78,1:43:25.03,Default,,0,0,0,,werde ich dich fangen.
+Dialogue: 0,1:43:36.71,1:43:40.21,Default,,0,0,0,,Was nun? Wenn er dir\Ndas nächste Mal begegnet, fängt er dich!
+Dialogue: 0,1:43:41.67,1:43:42.92,Default,,0,0,0,,Red keinen Blödsinn...
+Dialogue: 0,1:43:45.30,1:43:47.64,Default,,0,0,0,,Conan, der Meisterdetektiv...
+Dialogue: 0,1:43:51.98,1:43:55.94,Default,,0,0,0,,So, jetzt haben wir ganz viel Zeit.\NAlso lass es mich herausfinden...
+Dialogue: 0,1:43:56.19,1:43:57.19,Default,,0,0,0,,Was denn?
+Dialogue: 0,1:43:57.23,1:44:01.02,Default,,0,0,0,,Das ist doch wohl klar!\NDas Geheimnis deiner Verjüngung!
+Dialogue: 0,1:44:01.19,1:44:03.61,Default,,0,0,0,,"Verjüngung" ist übertrieben.\NIch bin geschrumpft.
+Dialogue: 0,1:44:03.78,1:44:05.36,Default,,0,0,0,,Mir ist beides recht.
+Dialogue: 0,1:44:05.57,1:44:07.40,Default,,0,0,0,,He, halt, Mom...
+Dialogue: 0,1:44:08.03,1:44:09.95,Default,,0,0,0,,Fass mich bitte nicht einfach an!
