@@ -1153,11 +1153,11 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Movie 10**|x||||x|x||||||
 |**Movie 11**|x||||x|x||||x||
 |**Movie 12**|x||||x|x||||x|x|
-|**Movie 13**|||||x|x||||x||
-|**Movie 14**|||||x|x||x||||
-|**Movie 15**|||||x|x||x||x||
-|**Movie 16**|||||x|x||x||x||
-|**Movie 17**|||||x|x||x||x||
+|**Movie 13**|x||||x|x||||x||
+|**Movie 14**|x||||x|x||x||||
+|**Movie 15**|x||||x|x||x||x||
+|**Movie 16**|x||||x|x||x||x||
+|**Movie 17**|x||||x|x||x||x||
 |**Movie 18**|x||||x|x|||||x|
 |**Movie 19**|x||||x|x|||||x|
 |**Movie 20**|x||||x|x|||||x|
