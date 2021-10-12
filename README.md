@@ -1141,7 +1141,8 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Magic Kaito 10**||||||||x||||
 |**Magic Kaito 11**||||||||x||||
 |**Magic Kaito 12**||||||||x||||
-|**Movie 01**|x||||x|x||||||
+|**Magic Kaito 1412**||||||||||x||
+|**Movie 01**|x||||x|x||||x||
 |**Movie 02**|x||||x|x||x|||x|
 |**Movie 03**|x||||x|x||x||x|x|
 |**Movie 04**|x||||x|x||||x|x|
@@ -1159,23 +1160,23 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Movie 16**|x||||x|x||x||x||
 |**Movie 17**|x||||x|x||x||x||
 |**Movie 18**|x||||x|x|||||x|
-|**Movie 19**|x||||x|x|||||x|
+|**Movie 19**|x||||x|x||||x|x|
 |**Movie 20**|x||||x|x|||||x|
 |**Movie 21**|x||||x|x|||||x|
 |**Movie 22**|x||||x|x||||||
 |**Movie 23**|x|||||x||||||
-|**OVA 01**|||||||||||x|
-|**OVA 02**|||||||||||x|
-|**OVA 03**|||||||||||x|
-|**OVA 04**|||||||||||x|
-|**OVA 05**|||||||||||x|
-|**OVA 06**|||||||||||x|
-|**OVA 07**|||||||||||x|
-|**OVA 08**|||||||||||x|
-|**OVA 09**||||||||||x|x|
-|**OVA 10**||||||||||x|x|
-|**OVA 11**|||||||||||x|
-|**OVA 12**|||||||||||x|
+|**OVA 01**|x|x|x||||||||x|
+|**OVA 02**|x|x|x||||||||x|
+|**OVA 03**|x|x|x||||||||x|
+|**OVA 04**|x|x|x||||||||x|
+|**OVA 05**|x|x|x||||||||x|
+|**OVA 06**|x|x|x|||||||x|x|
+|**OVA 07**||x|x|||||||x|x|
+|**OVA 08**||x|x|||||||x|x|
+|**OVA 09**||x|x|||||||x|x|
+|**OVA 10**||x|x|||||||x|x|
+|**OVA 11**||x|x|||||||x|x|
+|**OVA 12**||x|x|||||||x|x|
 |**TV 01**||||||||||||
 |**TV 02**|||||||||||x|
 |**TV 03**||||||x||x||x|x|
