@@ -27,10 +27,10 @@ for directory in glob.glob("*/"):
         for ep in ranges:
             if str(ep).isnumeric():
                 ep = f"{int(ep):04d}"
-            if "Remastered" in file:
-                ep += " RM"
             if "Magic Kaito 1412" in file:
                 ep += file.split("Magic Kaito 1412")[1]
+            if "Remastered" in file:
+                ep += " RM"
             if ep not in headers:
                 headers[ep] = {}
             headers[ep][directory] = True
