@@ -1151,7 +1151,18 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Magic Kaito 10**||||||||x||||
 |**Magic Kaito 11**||||||||x||||
 |**Magic Kaito 12**||||||||x||||
-|**Magic Kaito 1412**||||||||||x||
+|**Magic Kaito 1412 01**||||||||||x||
+|**Magic Kaito 1412 02**||||||||||x||
+|**Magic Kaito 1412 03**||||||||||x||
+|**Magic Kaito 1412 04**||||||||||x||
+|**Magic Kaito 1412 05**||||||||||x||
+|**Magic Kaito 1412 06**||||||||||x||
+|**Magic Kaito 1412 07**||||||||||x||
+|**Magic Kaito 1412 08**||||||||||x||
+|**Magic Kaito 1412 09**||||||||||x||
+|**Magic Kaito 1412 10**||||||||||x||
+|**Magic Kaito 1412 11**||||||||||x||
+|**Magic Kaito 1412 12**||||||||||x||
 |**Movie 01**|x||||x|x||||x||
 |**Movie 02**|x||||x|x||x|||x|
 |**Movie 03**|x||||x|x||x||x|x|

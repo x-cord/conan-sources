@@ -114,6 +114,19 @@
 |**0731**|x|||
 |**0732**|x|||
 |**Lupin III vs Detective Conan The Movie**|x|||
+|**Magic Kaito 1412 01**|x|||
+|**Magic Kaito 1412 02**|x|||
+|**Magic Kaito 1412 03**|x|||
+|**Magic Kaito 1412 04**|x|||
+|**Magic Kaito 1412 05**|x|||
+|**Magic Kaito 1412 06**|x|||
+|**Magic Kaito 1412 07**|x|||
+|**Magic Kaito 1412 08**|x|||
+|**Magic Kaito 1412 09**|x|||
+|**Magic Kaito 1412 10**|x|||
+|**Magic Kaito 1412 11**|x|||
+|**Magic Kaito 1412 12**|x|||
+|**Movie 01**|x|||
 |**Movie 03**|||x|
 |**Movie 04**|||x|
 |**Movie 11**||x||
@@ -122,6 +135,12 @@
 |**Movie 15**|x|||
 |**Movie 16**|x|||
 |**Movie 17**|x|||
+|**Movie 19**|x|||
+|**OVA 06**|x|||
+|**OVA 07**|x|||
+|**OVA 08**|x|||
 |**OVA 09**|x|||
 |**OVA 10**|x|||
+|**OVA 11**|x|||
+|**OVA 12**|x|||
 |**TV 03**|||x|

@@ -2,7 +2,7 @@ import glob
 import os
 import re
 
-headers = list(map("{:04d}".format, range(1,1001))) + list(map("Movie {:02d}".format, range(1,24))) + list(map("OVA {:02d}".format, range(1,13))) + list(map("TV {:02d}".format, range(1,7))) + list(map("Magic Kaito {:02d}".format, range(1,13)))
+headers = list(map("{:04d}".format, range(1,1001))) + list(map("Movie {:02d}".format, range(1,24))) + list(map("OVA {:02d}".format, range(1,13))) + list(map("TV {:02d}".format, range(1,7))) + list(map("Magic Kaito {:02d}".format, range(1,13))) + list(map("Magic Kaito 1412 {:02d}".format, range(1,13)))
 headers = {k: {} for k in headers}
 directories = set()
 
@@ -29,6 +29,8 @@ for directory in glob.glob("*/"):
                 ep = f"{int(ep):04d}"
             if "Remastered" in file:
                 ep += " RM"
+            if "Magic Kaito 1412" in file:
+                ep += file.split("Magic Kaito 1412")[1]
             if ep not in headers:
                 headers[ep] = {}
             headers[ep][directory] = True
