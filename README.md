@@ -22,11 +22,11 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0004**|x|x|x|x||||x|x||x|
 |**0004 RM**||||||||x||||
 |**0005**|x|x|x|x||||x|x||x|
-|**0005 RM**|||||||||||x|
+|**0005 RM**||||||||x|||x|
 |**0006**|x|x|x|x|||||x||x|
 |**0007**|x|x|x|x|||||x||x|
 |**0008**|x|x|x|x||||x|x||x|
-|**0008 RM**|||||||||||x|
+|**0008 RM**||||||||x|||x|
 |**0009**|x|x|x|x||||x|x||x|
 |**0009 RM**||||||||x|||x|
 |**0010**|x|x|x|x|||||x||x|
@@ -40,7 +40,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0016**|x|x|x|x||||x|x||x|
 |**0016 RM**||||||||x|||x|
 |**0017**|x|x|x|x||||x|x||x|
-|**0017 RM**|||||||||||x|
+|**0017 RM**||||||||x|||x|
 |**0018**|x|x|x|x|||||x||x|
 |**0018 RM**||||||||x||||
 |**0019**|x|x|x|x|||||x||x|
@@ -70,7 +70,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0037**|x|x|x|x||||x|x||x|
 |**0037 RM**||||||||x|||x|
 |**0038**|x|x|x|x||||x|x||x|
-|**0038 RM**|||||||||||x|
+|**0038 RM**||||||||x|||x|
 |**0039**|x|x|x|x||||x|x||x|
 |**0039 RM**||||||||x|||x|
 |**0040**|x|x|x|x||||x|x||x|
@@ -93,6 +93,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0050 RM**||||||||x||||
 |**0051**|x|x|x|x|||||x||x|
 |**0052**|x|x|x|x|||||x||x|
+|**0052 RM**||||||||x||||
 |**0053**|x|x||x|||||x||x|
 |**0054**|x|x||x|||||x||x|
 |**0055**|x|x|x|x|||||x||x|
@@ -115,6 +116,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0070**|x|x|x|x|||||x||x|
 |**0071**|x|x|x|x|||||x||x|
 |**0072**|x|x||x||||x|x||x|
+|**0072 RM**||||||||x||||
 |**0073**|x|x|x|x|||||x||x|
 |**0074**|x|x|x|x|||||x||x|
 |**0075**|x|x|x|x||||x|x||x|
@@ -124,9 +126,11 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0077**|x|x|x|x|||||x||x|
 |**0078**|x|x|x|x|||||x||x|
 |**0079**|x|x|x|x||||x|x||x|
+|**0079 RM**||||||||x||||
 |**0080**|x|x|x|x||||x|x||x|
 |**0080 RM**||||||||x||||
 |**0081**|x|x|x|x||||x|x||x|
+|**0081 RM**||||||||x||||
 |**0082**|x|x|x|x||||x|x||x|
 |**0082 RM**||||||||x||||
 |**0083**|x|x||x|||||x||x|
@@ -212,6 +216,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0146**|x|x|x||||||x||x|
 |**0147**|x|x|x||||||x||x|
 |**0148**|x|x|x|||||x|x||x|
+|**0148 RM**||||||||x||||
 |**0149**|x|x|x||||||x||x|
 |**0150**|x|x|x|x|||||x||x|
 |**0151**|x|x|x|x|||||x||x|
@@ -258,6 +263,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0182 RM**||||||||x||||
 |**0183**|x|x|x|x|||||x||x|
 |**0184**|x|x|x|x||||x|x||x|
+|**0184 RM**||||||||x||||
 |**0185**|x|x|x|x|||||x||x|
 |**0186**|x|x|x|x|||||x||x|
 |**0187**|x|x|x|x|||||x||x|
@@ -299,6 +305,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0219**|x|x|x|x||||x|x||x|
 |**0219 RM**||||||||x||||
 |**0220**|x|x||x||||x|x|x|x|
+|**0220 RM**||||||||x||||
 |**0221**|x|x||x||||x|x|x|x|
 |**0221 RM**||||||||x||||
 |**0222**|x|x|x|x|||||x|x|x|
@@ -439,7 +446,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0342**||x|x|x|||||x||x|
 |**0343**||x|x|x|||||x||x|
 |**0344**||x|x|x|||||x||x|
-|**0345**||x|x|x|||||x||x|
+|**0345**||x|x|x||||x|x||x|
 |**0346**||x|x|x|||||x||x|
 |**0347**||x|x|x|||||x||x|
 |**0348**||x|x|x|||||x||x|
@@ -778,7 +785,9 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0673**|x|||x|||x|x||x||
 |**0674**|x|||x|||x|x||x||
 |**0675**|x|||x|||x|x||x||
+|**0675 RM**||||||||x||||
 |**0676**|x|||x|||x|x||||
+|**0676 RM**||||||||x||||
 |**0677**|x|||x|||x|x||x||
 |**0678**|x|||x|||x|x||x||
 |**0679**|x|||x|||x|x||x||
@@ -791,6 +800,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0686**|x|||x|||x|x||x||
 |**0687**|x|||x|||x|x||x||
 |**0688**|x|||x|||x|x||x||
+|**0688 RM**||||||||x||||
 |**0689**|x|||x|||x|x||x||
 |**0690**|x|||x|||x|x||x||
 |**0691**|x|||x|||x|x||x||
@@ -841,9 +851,13 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0736**|x|||x|||x|x||||
 |**0737**|x|||x|||x|x||||
 |**0738**|x|||x|||x|x|||x|
+|**0738 RM**||||||||x||||
 |**0739**|x|||x|||x|x|||x|
+|**0739 RM**||||||||x||||
 |**0740**|x|||x|||x|x|||x|
+|**0740 RM**||||||||x||||
 |**0741**|x|||x|||x|x|||x|
+|**0741 RM**||||||||x||||
 |**0742**|x|||x|||x|x|||x|
 |**0743**|x|||x|||x|x|||x|
 |**0744**|x|||x|||x|x|||x|
@@ -856,7 +870,9 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0749**|x|||x|||x|x|||x|
 |**0750**|x|||x|||x|x|||x|
 |**0751**|x|||x|||x|x|||x|
+|**0751 RM**||||||||x||||
 |**0752**|x|||x|||x|x|||x|
+|**0752 RM**||||||||x||||
 |**0753**|x|||x|||x|x|||x|
 |**0754**|x|||x|||x|x|||x|
 |**0755**|x|||x|||x|x|||x|
@@ -1137,8 +1153,12 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**1024**||||||||x||||
 |**1025**||||||||x||||
 |**Drama SP 01**|||||||||||x|
-|**Lupin III vs Detective Conan The Movie**||||||x||||x|x|
-|**Magic File 02**|||||||||||x|
+|**Gosho Aoyama's Collection of Short Stories 1-3**||||||||x||||
+|**Gosho Aoyama's Collection of Short Stories 4-6**||||||||x||||
+|**Gosho Aoyama's Collection of Short Stories 7**||||||||x||||
+|**Lupin III vs Detective Conan The Movie**||||||x||x||x|x|
+|**Magic File 02**||||||||x|||x|
+|**Magic File 06**||||||||x||||
 |**Magic Kaito 01**||||||||x||||
 |**Magic Kaito 02**||||||||x||||
 |**Magic Kaito 03**||||||||x||||
@@ -1163,29 +1183,34 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Magic Kaito 1412 10**||||||||||x||
 |**Magic Kaito 1412 11**||||||||||x||
 |**Magic Kaito 1412 12**||||||||||x||
-|**Movie 01**|x||||x|x||||x||
+|**Movie 01**|x||||x|x||x||x||
+|**Movie 01 RM**||||||||x||||
 |**Movie 02**|x||||x|x||x|||x|
+|**Movie 02 RM**||||||||x||||
 |**Movie 03**|x||||x|x||x||x|x|
-|**Movie 04**|x||||x|x||||x|x|
+|**Movie 04**|x||||x|x||x||x|x|
+|**Movie 04 RM**||||||||x||||
 |**Movie 05**|||||x|x||x||||
-|**Movie 06**|||||x|x||||||
-|**Movie 07**|x||||x|x||||||
-|**Movie 08**|x||||x|x|||||x|
-|**Movie 09**|x||||x|x||||||
-|**Movie 10**|x||||x|x||||||
-|**Movie 11**|x||||x|x||||x||
-|**Movie 12**|x||||x|x||||x|x|
-|**Movie 13**|x||||x|x||||x||
+|**Movie 05 RM**||||||||x||||
+|**Movie 06**|||||x|x||x||||
+|**Movie 06 RM**||||||||x||||
+|**Movie 07**|x||||x|x||x||||
+|**Movie 08**|x||||x|x||x|||x|
+|**Movie 09**|x||||x|x||x||||
+|**Movie 10**|x||||x|x||x||||
+|**Movie 11**|x||||x|x||x||x||
+|**Movie 12**|x||||x|x||x||x|x|
+|**Movie 13**|x||||x|x||x||x||
 |**Movie 14**|x||||x|x||x||||
 |**Movie 15**|x||||x|x||x||x||
 |**Movie 16**|x||||x|x||x||x||
 |**Movie 17**|x||||x|x||x||x||
 |**Movie 18**|x||||x|x|||||x|
-|**Movie 19**|x||||x|x||||x|x|
-|**Movie 20**|x||||x|x|||||x|
-|**Movie 21**|x||||x|x|||||x|
-|**Movie 22**|x||||x|x||||||
-|**Movie 23**|x|||||x||||||
+|**Movie 19**|x||||x|x||x||x|x|
+|**Movie 20**|x||||x|x||x|||x|
+|**Movie 21**|x||||x|x||x|||x|
+|**Movie 22**|x|x|x||x|x||x||||
+|**Movie 23**|x|||||x||x||||
 |**OVA 01**|x|x|x|||||x|||x|
 |**OVA 02**|x|x|x|||||x|||x|
 |**OVA 03**|x|x|x|||||x|||x|
@@ -1199,8 +1224,8 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**OVA 11**||x|x|||||x||x|x|
 |**OVA 12**||x|x|||||x||x|x|
 |**TV 01**||||||||||||
-|**TV 02**|||||||||||x|
+|**TV 02**||||||||x|||x|
 |**TV 03**||||||x||x||x|x|
 |**TV 04**||||||||x|||x|
 |**TV 05**|||||x|x||x|||x|
-|**TV 06**|||||x|x|||||x|
+|**TV 06**|||||x|x||x|||x|
