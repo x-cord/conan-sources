@@ -17,9 +17,11 @@ Regenerate the relevant tables by running `table.py` from each directory.
 ||Catalan|Chinese (Simplified)|Chinese (Traditional)|English|French|German|Indonesian|Japanese|Korean|Malay|Portuguese|Russian|
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |**0001**|x|x|x|x|||||x|||x|
+|**0001 RM**||||||||x|||||
 |**0002**|x|x|x|x|||||x|||x|
+|**0002 RM**||||||||x|||||
 |**0003**|x|x|x|x|||||x|||x|
-|**0004**|x|x|x|x||||x|x|||x|
+|**0004**|x|x|x|x|||||x|||x|
 |**0004 RM**||||||||x|||||
 |**0005**|x|x|x|x||||x|x|||x|
 |**0005 RM**||||||||x||||x|
@@ -32,8 +34,8 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0010**|x|x|x|x|||||x|||x|
 |**0010 RM**||||||||x|||||
 |**0011**|x|x|x|x|||||x|||x|
-|**0012**|x|x|x|x||||x|x|||x|
-|**0012 RM**||||||||||||x|
+|**0012**|x|x|x|x|||||x|||x|
+|**0012 RM**||||||||x||||x|
 |**0013**|x|x|x|x|||||x|||x|
 |**0014**|x|x|x|x|||||x|||x|
 |**0015**|x|x|x|x|||||x|||x|
@@ -57,7 +59,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0027**|x|x|x|x||||x|x|||x|
 |**0027 RM**||||||||x||||x|
 |**0028**|x|x|x|x||||x|x|||x|
-|**0028 RM**||||||||||||x|
+|**0028 RM**||||||||x||||x|
 |**0029**|x|x|x|x|||||x|||x|
 |**0030**|x|x|x|x|||||x|||x|
 |**0031**|x|x|x|x||||x|x|||x|
@@ -106,13 +108,16 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0060**|x|x|x|x|||||x|||x|
 |**0061**|x|x||x|||||x|||x|
 |**0062**|x|x||x|||||x|||x|
-|**0063**|x|x|x|x||||x|x|||x|
+|**0063**|x|x|x|x|||||x|||x|
+|**0063 RM**||||||||x|||||
 |**0064**|x|x|x|x|||||x|||x|
 |**0065**|x|x|x|x|||||x|||x|
 |**0066**|x|x|x|x|||||x|||x|
 |**0067**|x|x|x|x|||||x|||x|
-|**0068**|x|x|x|x||||x|x|||x|
-|**0069**|x|x|x|x||||x|x|||x|
+|**0068**|x|x|x|x|||||x|||x|
+|**0068 RM**||||||||x|||||
+|**0069**|x|x|x|x|||||x|||x|
+|**0069 RM**||||||||x|||||
 |**0070**|x|x|x|x|||||x|||x|
 |**0071**|x|x|x|x|||||x|||x|
 |**0072**|x|x||x||||x|x|||x|
@@ -201,9 +206,10 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0133**|x|x|x||||||x|||x|
 |**0134**|x|x|x||||||x|||x|
 |**0135**|x|x|x||||||x|||x|
-|**0136**|x|x|x|||||x|x||x|x|
+|**0136**|x|x|x||||||x||x|x|
 |**0136 RM**||||||||x|||||
 |**0137**|x|x|x|||||x|x||x|x|
+|**0137 RM**||||||||x|||||
 |**0138**|x|x|x||||||x|||x|
 |**0139**|x|x|x||||||x|||x|
 |**0140**|x|x|x||||||x|||x|
@@ -221,9 +227,9 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0150**|x|x|x|x|||||x|||x|
 |**0151**|x|x|x|x|||||x|||x|
 |**0152**|x|x|x|x|||||x|||x|
-|**0153**|x|x|x|x||||x|x|||x|
+|**0153**|x|x|x|x|||||x|||x|
 |**0153 RM**||||||||x|||||
-|**0154**|x|x|x|x||||x|x|||x|
+|**0154**|x|x|x|x|||||x|||x|
 |**0154 RM**||||||||x|||||
 |**0155**|x|x|x|x|||||x|||x|
 |**0156**|x|x|x|x|||||x|||x|
@@ -497,8 +503,11 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0392**|x|x|x|x|||x||x|||x|
 |**0393**|x|x|x|x|||x||x|||x|
 |**0394**|x|x|x|x|||x|x|x|||x|
+|**0394 RM**||||||||x|||||
 |**0395**|x|x|x|x|||x|x|x|||x|
+|**0395 RM**||||||||x|||||
 |**0396**|x|x|x|x|||x|x|x|||x|
+|**0396 RM**||||||||x|||||
 |**0397**|x|x|x|x|||x||x|||x|
 |**0398**|x|x|x|x|||x||x|||x|
 |**0399**|x|x|x|x|||x||x|||x|
@@ -1189,7 +1198,6 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Movie 02 RM**||||||||x|||||
 |**Movie 03**|x||||x|x||x|||x|x|
 |**Movie 04**|x||||x|x||x|||x|x|
-|**Movie 04 RM**||||||||x|||||
 |**Movie 05**|||||x|x||x|||||
 |**Movie 05 RM**||||||||x|||||
 |**Movie 06**|||||x|x||x|||||
