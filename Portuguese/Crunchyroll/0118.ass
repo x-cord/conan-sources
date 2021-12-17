@@ -1,0 +1,790 @@
+[Script Info]
+Title: Português (Brasil)
+Original Script: cr_pt  [http://www.crunchyroll.com/user/cr_pt]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 480
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: OS,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0015,0
+Style: On Top,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0040,0040,0015,0
+Style: Italics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,0,0,100,100,0,0,1,2,1,2,0040,0040,0015,0
+Style: Nome personagem,Arial,20,&H00FFFFFF,&H0000FFFF,&H008C4D2D,&H7F834F24,-1,0,0,0,100,100,0,0,1,2,1,2,0020,0020,0115,0
+Style: Nome personagem 2,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F834F24,-1,0,0,0,100,100,0,0,1,1,0,2,0020,0020,0085,0
+Style: Detetive particular,Arial,27,&H00352C12,&H000000FF,&H009F9D6E,&H00000000,-1,0,0,0,100,100,0,17,1,2,0,8,0040,0090,0075,0
+Style: Flashback,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,0,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Próximo Episódio,Arial,21,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,100,100,0,0,1,1,0,8,0010,0276,0065,0
+Style: Flashback Top,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,0,0,0,100,100,0,0,1,2,1,8,0010,0010,0015,0
+Style: Flashback Italics,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00400000,&H00400000,-1,-1,0,0,100,100,0,0,1,2,1,2,0010,0010,0015,0
+Style: Música,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00A01B2C,&H00A01B2C,-1,-1,0,0,100,100,0,0,1,2,1,8,0011,0011,0015,0
+Style: Título,Arial,27,&H00FFFFFF,&H000000FF,&H00020202,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,8,0068,0068,0030,0
+Style: Título next,Arial,27,&H00FFFFFF,&H000000FF,&H00020202,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,0068,0068,0270,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.23,0:00:04.56,Default,,0000,0000,0000,,Encontros são coisas misteriosas,\Nmas Osaka é mais ainda!
+Dialogue: 0,0:00:04.56,0:00:06.15,Default,,0000,0000,0000,,Ainda bem que estou com você!
+Dialogue: 0,0:00:06.44,0:00:08.44,Default,,0000,0000,0000,,Hoje é um especial\Nde uma hora de Naniwa
+Dialogue: 0,0:00:08.44,0:00:10.28,Default,,0000,0000,0000,,repleto de incidentes e mistérios!
+Dialogue: 0,0:00:10.28,0:00:11.86,Default,,0000,0000,0000,,Ele vê a verdade única
+Dialogue: 0,0:00:11.86,0:00:13.74,Default,,0000,0000,0000,,e parece criança, mas tem\Na mente de um adulto!
+Dialogue: 0,0:00:13.74,0:00:16.07,Default,,0000,0000,0000,,Seu nome é Detetive Conan!
+Dialogue: 0,0:00:16.20,0:00:22.79,Música,,0000,0000,0000,,Gire a roleta do destino
+Dialogue: 0,0:00:22.91,0:00:31.30,Música,,0000,0000,0000,,Eu sempre estive a te observar
+Dialogue: 0,0:00:35.05,0:00:40.43,Música,,0000,0000,0000,,Se eu sou tão feliz assim,
+Dialogue: 0,0:00:41.10,0:00:47.02,Música,,0000,0000,0000,,por que fico triste ao admirar o horizonte?
+Dialogue: 0,0:00:48.15,0:01:00.03,Música,,0000,0000,0000,,Sinto como se eu visse nele\Nquem eu era, ao longe
+Dialogue: 0,0:01:00.91,0:01:06.92,Música,,0000,0000,0000,,Gire a roleta do destino
+Dialogue: 0,0:01:08.04,0:01:13.30,Música,,0000,0000,0000,,Estou sempre pensando muito em vários mistérios
+Dialogue: 0,0:01:13.55,0:01:19.85,Música,,0000,0000,0000,,Veja, a sua alma gêmea está bem aqui
+Dialogue: 0,0:01:19.97,0:01:35.07,Música,,0000,0000,0000,,Sempre a te observar
+Dialogue: 0,0:01:45.91,0:01:48.54,Default,,0000,0000,0000,,Este incidente\Naconteceu em Toyonaka.
+Dialogue: 0,0:01:48.54,0:01:53.00,Default,,0000,0000,0000,,E este foi o da semana passada,\Nem Harakata.
+Dialogue: 0,0:01:53.00,0:01:55.63,Default,,0000,0000,0000,,Não há testemunhas\Npara os assassinatos,
+Dialogue: 0,0:01:55.63,0:01:58.47,Default,,0000,0000,0000,,e aconteceram a dezenas\Nde quilômetros de distância.
+Dialogue: 0,0:01:59.47,0:02:02.93,Default,,0000,0000,0000,,Estamos procurando alguma\Nligação entre as vítimas,
+Dialogue: 0,0:02:03.22,0:02:05.72,Default,,0000,0000,0000,,mas parece não haver nada\Nem comum entre elas.
+Dialogue: 0,0:02:06.18,0:02:09.23,Nome personagem,,0000,0000,0000,,{\fad(300,1)\pos(240,236)}Detetive-Chefe Toyama\NDelegacia de Osaka
+Dialogue: 0,0:02:06.60,0:02:11.52,Default,,0000,0000,0000,,Só tem uma coisa: a faca.
+Dialogue: 0,0:02:11.52,0:02:15.48,Default,,0000,0000,0000,,Não sei por quê, mas as duas vítimas\Nforam apunhaladas no coração,
+Dialogue: 0,0:02:15.48,0:02:18.65,Default,,0000,0000,0000,,atravessando a carteira.
+Dialogue: 0,0:02:19.11,0:02:22.16,Default,,0000,0000,0000,,Você falou sobre isso\Ncom a imprensa?
+Dialogue: 0,0:02:22.16,0:02:25.41,Default,,0000,0000,0000,,A parte da carteira, não.
+Dialogue: 0,0:02:25.74,0:02:33.67,Default,,0000,0000,0000,,Ou seja, o segundo assassinato\Nnão foi um idiota copião.
+Dialogue: 0,0:02:33.67,0:02:37.38,Default,,0000,0000,0000,,Isso. Com certeza\Nfoi a mesma pessoa.
+Dialogue: 0,0:02:38.13,0:02:40.22,Default,,0000,0000,0000,,Assassinatos em série...
+Dialogue: 0,0:02:40.89,0:02:43.80,Default,,0000,0000,0000,,Se forem aleatórios,\Nhaverá um pânico geral.
+Dialogue: 0,0:02:47.35,0:02:52.15,Default,,0000,0000,0000,,Toyama, tome bastante cuidado.
+Dialogue: 0,0:02:47.85,0:02:52.31,Nome personagem,,0000,0000,0000,,{\fad(250,300)\pos(237,236)}Heizo Hattori\NChefe da polícia de Osaka
+Dialogue: 0,0:02:52.15,0:02:54.15,Default,,0000,0000,0000,,Sim, eu sei.
+Dialogue: 0,0:02:56.07,0:03:02.03,Título,,0000,0000,0000,,Os Assassinatos\Nem Série de Naniwa
+Dialogue: 0,0:03:02.41,0:03:05.03,Default,,0000,0000,0000,,Aquele é o Zoológico Tennoji!
+Dialogue: 0,0:03:05.41,0:03:07.75,Default,,0000,0000,0000,,Aquele, o Domo de Osaka!
+Dialogue: 0,0:03:07.75,0:03:11.46,Default,,0000,0000,0000,,E essa é a Torre Tsutenkaku!
+Dialogue: 0,0:03:11.46,0:03:14.21,Default,,0000,0000,0000,,Que tal? Osaka é bacana ou não é?
+Dialogue: 0,0:03:14.54,0:03:16.67,Default,,0000,0000,0000,,É sim, é uma paisagem linda!
+Dialogue: 0,0:03:17.09,0:03:21.13,Default,,0000,0000,0000,,Sei lá, não é muito diferente\Nda Tokyo Tower...
+Dialogue: 0,0:03:21.13,0:03:22.13,Default,,0000,0000,0000,,Não diga besteira!
+Dialogue: 0,0:03:22.13,0:03:25.05,Default,,0000,0000,0000,,Não compare a Tsutentaku com\Naquela coisa vermelha ridícula!
+Dialogue: 0,0:03:25.51,0:03:28.10,Default,,0000,0000,0000,,A Tsutenkaku e\No mundo novo ao redor
+Dialogue: 0,0:03:28.10,0:03:32.02,Default,,0000,0000,0000,,estão repletos do calor\Nhumano de Osaka!
+Dialogue: 0,0:03:32.52,0:03:35.48,Default,,0000,0000,0000,,É quase como o centro de Tóquio!
+Dialogue: 0,0:03:35.73,0:03:37.90,Default,,0000,0000,0000,,Mas que tal um rango?
+Dialogue: 0,0:03:37.90,0:03:40.99,Default,,0000,0000,0000,,Só mais um pouquinho!\NEstou esperando uma pessoa!
+Dialogue: 0,0:03:40.99,0:03:44.24,Default,,0000,0000,0000,,Tudo bem, acho que vou fumar um.
+Dialogue: 0,0:03:44.24,0:03:45.24,Default,,0000,0000,0000,,Ei, Hattori.
+Dialogue: 0,0:03:47.41,0:03:50.41,Default,,0000,0000,0000,,Diga por que você\Nme chamou pra Osaka.
+Dialogue: 0,0:03:50.66,0:03:53.08,Default,,0000,0000,0000,,Hã? Está tão preocupado\Nassim com isso?
+Dialogue: 0,0:03:53.08,0:03:56.09,Default,,0000,0000,0000,,Você tem um motivo por trás, não tem?
+Dialogue: 0,0:03:56.09,0:03:59.26,Default,,0000,0000,0000,,Não, não tem nada\Nde trabalho desta vez!
+Dialogue: 0,0:04:00.17,0:04:03.59,Default,,0000,0000,0000,,Só queria mostrar Osaka para vocês!
+Dialogue: 0,0:04:04.18,0:04:08.01,Default,,0000,0000,0000,,Afinal, nunca se sabe\Nquando você pode morrer.
+Dialogue: 0,0:04:08.01,0:04:10.14,Default,,0000,0000,0000,,Como assim?
+Dialogue: 0,0:04:13.19,0:04:15.40,Default,,0000,0000,0000,,Que pesadelo ruim...
+Dialogue: 0,0:04:15.90,0:04:16.73,Default,,0000,0000,0000,,Pesadelo?
+Dialogue: 0,0:04:16.73,0:04:21.11,Default,,0000,0000,0000,,É, acontece quando\Npegamos um cara mau.
+Dialogue: 0,0:04:21.11,0:04:25.70,Default,,0000,0000,0000,,Mas ele acaba te apunhalando\Ne você morre!
+Dialogue: 0,0:04:26.99,0:04:29.54,Default,,0000,0000,0000,,Ei, não saia me matando!
+Dialogue: 0,0:04:30.20,0:04:34.46,Default,,0000,0000,0000,,E é isso. Aproveite Osaka!
+Dialogue: 0,0:04:35.58,0:04:37.25,Default,,0000,0000,0000,,Desculpe, Heiji!
+Dialogue: 0,0:04:37.67,0:04:39.63,Default,,0000,0000,0000,,Ah, ele finalmente chegou!
+Dialogue: 0,0:04:40.09,0:04:44.09,Nome personagem,,0000,0000,0000,,{\fad(300,300)\pos(231,239)}Yusuke Sakata (26)\NDetetive da polícia de Tojiri, setor 1
+Dialogue: 0,0:04:40.88,0:04:43.84,Default,,0000,0000,0000,,Sou Sakata, da polícia\Nde Osaka, delegacia de Tojiri!
+Dialogue: 0,0:04:43.84,0:04:45.55,Default,,0000,0000,0000,,Desculpe pela demora!
+Dialogue: 0,0:04:45.97,0:04:47.89,Default,,0000,0000,0000,,Por que chamou\Num detetive de polícia?
+Dialogue: 0,0:04:47.89,0:04:51.72,Default,,0000,0000,0000,,Meu velho disse que,\Njá que o Mori vinha pra Osaka,
+Dialogue: 0,0:04:51.72,0:04:55.52,Default,,0000,0000,0000,,ele devia receber\Num passeio guiado!
+Dialogue: 0,0:04:55.89,0:04:59.77,Default,,0000,0000,0000,,Aliás, cadê meu velho?\NEle disse que ia dar uma passada.
+Dialogue: 0,0:05:00.48,0:05:03.19,Default,,0000,0000,0000,,Está ocupado numa reunião\Nsobre os incidentes.
+Dialogue: 0,0:05:03.19,0:05:05.40,Italics,,0000,0000,0000,,"Os incidentes"?
+Dialogue: 0,0:05:05.82,0:05:08.82,Default,,0000,0000,0000,,Você pegou o carro?
+Dialogue: 0,0:05:08.82,0:05:10.16,Default,,0000,0000,0000,,É claro.
+Dialogue: 0,0:05:10.16,0:05:15.37,Default,,0000,0000,0000,,Fiz como você pediu e peguei\No melhor da delegacia de Tojiri!
+Dialogue: 0,0:05:15.79,0:05:18.83,Default,,0000,0000,0000,,Ei, não me diga que esse carro é...
+Dialogue: 0,0:05:19.34,0:05:21.13,Default,,0000,0000,0000,,Então, vamos?
+Dialogue: 0,0:05:23.38,0:05:27.22,Default,,0000,0000,0000,,Não é demais? Viaturas\Nde polícia são o máximo!
+Dialogue: 0,0:05:27.22,0:05:30.30,Default,,0000,0000,0000,,Dá para passar na frente\Nem engarrafamentos!
+Dialogue: 0,0:05:30.30,0:05:32.22,Default,,0000,0000,0000,,Então, aonde querem ir?
+Dialogue: 0,0:05:33.27,0:05:34.77,Default,,0000,0000,0000,,Diga...
+Dialogue: 0,0:05:35.02,0:05:38.35,Default,,0000,0000,0000,,Vai fazer a gente passear\Nem Osaka nessa coisa?
+Dialogue: 0,0:05:38.35,0:05:43.40,Default,,0000,0000,0000,,Hein? Não gostou?\NÉ novinho em folha!
+Dialogue: 0,0:05:43.82,0:05:50.20,Default,,0000,0000,0000,,Ah, já sei! Ligo a sirene?\NAssim dá para ir ainda mais rápido!
+Dialogue: 0,0:05:50.20,0:05:52.41,Default,,0000,0000,0000,,Não é isso que ele quis dizer...
+Dialogue: 0,0:05:52.99,0:05:57.37,Default,,0000,0000,0000,,É que parece que fomos presos,\Nentão é meio constrangedor.
+Dialogue: 0,0:05:57.79,0:06:02.38,Default,,0000,0000,0000,,Nem esquenta, vocês não\Nfizeram nada de errado!
+Dialogue: 0,0:06:02.38,0:06:04.55,Default,,0000,0000,0000,,Fiquem de peito aberto!
+Dialogue: 0,0:06:05.21,0:06:07.51,Default,,0000,0000,0000,,Que tal? Isso que é\Nudon de verdade!
+Dialogue: 0,0:06:07.93,0:06:10.93,Default,,0000,0000,0000,,O caldo é tão claro\Nque dá pra ver o fundo!
+Dialogue: 0,0:06:10.93,0:06:11.93,Default,,0000,0000,0000,,Dá mesmo!
+Dialogue: 0,0:06:25.40,0:06:26.94,Default,,0000,0000,0000,,É um sabor suave, mas muito bom!
+Dialogue: 0,0:06:28.86,0:06:30.41,Italics,,0000,0000,0000,,Não tem gosto de nada.
+Dialogue: 0,0:06:30.86,0:06:35.08,Default,,0000,0000,0000,,Heiji, quem é ela?\NNamoradinha nova?
+Dialogue: 0,0:06:35.95,0:06:36.95,Default,,0000,0000,0000,,É o que parece?
+Dialogue: 0,0:06:36.95,0:06:40.33,Default,,0000,0000,0000,,Não, sou só uma garota de Tóquio...
+Dialogue: 0,0:06:44.25,0:06:45.42,Default,,0000,0000,0000,,O que foi?
+Dialogue: 0,0:06:45.42,0:06:47.26,Default,,0000,0000,0000,,Me deu um arrepio...
+Dialogue: 0,0:06:48.72,0:06:50.43,Default,,0000,0000,0000,,Para onde agora?
+Dialogue: 0,0:06:50.93,0:06:54.93,Default,,0000,0000,0000,,Hum, Osaka também é famosa por...
+Dialogue: 0,0:06:55.60,0:06:57.35,Default,,0000,0000,0000,,Que delícia!
+Dialogue: 0,0:06:57.35,0:07:00.44,Default,,0000,0000,0000,,Que delícia de takoyaki!
+Dialogue: 0,0:07:00.44,0:07:03.36,Default,,0000,0000,0000,,Nunca comi um com tanto polvo!
+Dialogue: 0,0:07:04.40,0:07:05.07,Default,,0000,0000,0000,,O que foi?
+Dialogue: 0,0:07:05.36,0:07:10.40,Default,,0000,0000,0000,,Nada, só tenho a sensação\Nde que tem alguém me observando...
+Dialogue: 0,0:07:10.70,0:07:13.87,Default,,0000,0000,0000,,Ah, não se preocupe\Ncom isso e coma!
+Dialogue: 0,0:07:15.58,0:07:17.83,Default,,0000,0000,0000,,Não posso me descuidar um segundo!
+Dialogue: 0,0:07:17.83,0:07:20.66,Default,,0000,0000,0000,,Você não estava de dieta, Ran?
+Dialogue: 0,0:07:21.92,0:07:26.25,Default,,0000,0000,0000,,Okonomiyaki? Por que não\Ndisse antes do takoyaki?
+Dialogue: 0,0:07:26.75,0:07:29.30,Default,,0000,0000,0000,,Já passamos por um lugar\Nótimo que eu conheço!
+Dialogue: 0,0:07:29.30,0:07:32.22,Default,,0000,0000,0000,,Fomos pro lado errado! Não\Ndá para pra chegar lá na Midosuji!
+Dialogue: 0,0:07:32.80,0:07:34.93,Default,,0000,0000,0000,,Osaka é cheia de ruas de mão única,
+Dialogue: 0,0:07:34.93,0:07:38.27,Default,,0000,0000,0000,,então é normal ter\Nque dar umas voltas!
+Dialogue: 0,0:07:38.27,0:07:42.14,Default,,0000,0000,0000,,Sendo assim, mostro um local\Npróximo que eu conheço?
+Dialogue: 0,0:07:42.73,0:07:45.61,Default,,0000,0000,0000,,Ainda bem que este\Nrestaurante era perto!
+Dialogue: 0,0:07:45.98,0:07:49.82,Default,,0000,0000,0000,,Vou dar uma ligadinha\Npara minha mãe.
+Dialogue: 0,0:07:49.82,0:07:52.24,Default,,0000,0000,0000,,Moço, não esqueça o arroz!
+Dialogue: 0,0:07:53.49,0:07:56.33,Default,,0000,0000,0000,,Vocês comem okonomiyaki com arroz?
+Dialogue: 0,0:07:56.53,0:08:00.29,Default,,0000,0000,0000,,Claro, é um prato principal!
+Dialogue: 0,0:08:00.66,0:08:04.00,Default,,0000,0000,0000,,Arroz com molho também fica ótimo!
+Dialogue: 0,0:08:06.42,0:08:08.30,Default,,0000,0000,0000,,Osaka é bacana!
+Dialogue: 0,0:08:08.30,0:08:09.13,Default,,0000,0000,0000,,Nem me fala.
+Dialogue: 0,0:08:11.72,0:08:13.43,Default,,0000,0000,0000,,Ah, tem gente nesse...
+Dialogue: 0,0:08:15.68,0:08:17.64,Default,,0000,0000,0000,,Você é Kudo, não é?
+Dialogue: 0,0:08:19.85,0:08:23.69,Default,,0000,0000,0000,,O Heiji sempre fala de você.
+Dialogue: 0,0:08:24.85,0:08:26.15,Italics,,0000,0000,0000,,Eita!
+Dialogue: 0,0:08:26.56,0:08:28.36,Default,,0000,0000,0000,,O Hattori?
+Dialogue: 0,0:08:28.36,0:08:33.32,Default,,0000,0000,0000,,Não se faça de bobo,\Neu já sei de tudo.
+Dialogue: 0,0:08:34.07,0:08:35.20,Default,,0000,0000,0000,,Calma lá!
+Dialogue: 0,0:08:35.20,0:08:42.58,Default,,0000,0000,0000,,Sei que você é a Kudo de Tóquio\Nque fica seduzindo ele!
+Dialogue: 0,0:08:44.75,0:08:47.04,Default,,0000,0000,0000,,Hum, acho que você se enganou...
+Dialogue: 0,0:08:48.21,0:08:51.21,Default,,0000,0000,0000,,Já vou dizendo uma coisa,
+Dialogue: 0,0:08:51.21,0:08:56.34,Default,,0000,0000,0000,,Heiji e eu somos unidos\Npor correntes de ferro!
+Dialogue: 0,0:08:56.97,0:09:00.72,Default,,0000,0000,0000,,Se quiser mexer com o Heiji,\Nterá que ser por cima do meu...
+Dialogue: 0,0:09:00.72,0:09:02.52,Default,,0000,0000,0000,,Ei, Kazuha.
+Dialogue: 0,0:09:03.64,0:09:06.02,Default,,0000,0000,0000,,O que está fazendo aqui?
+Dialogue: 0,0:09:08.36,0:09:09.98,Default,,0000,0000,0000,,Você é hilária!
+Dialogue: 0,0:09:09.98,0:09:13.99,Default,,0000,0000,0000,,"Kudo" de quem eu falei é homem!
+Dialogue: 0,0:09:10.48,0:09:13.94,Nome personagem,,0000,0000,0000,,{\fad(300,1)\pos(239.25,236)}Kazuha Toyama (17)\NAmiga de infância do Heiji
+Dialogue: 0,0:09:14.57,0:09:17.45,Default,,0000,0000,0000,,E essa garota é a paquera dele.
+Dialogue: 0,0:09:19.07,0:09:20.53,Default,,0000,0000,0000,,Paquera?
+Dialogue: 0,0:09:20.53,0:09:22.58,Default,,0000,0000,0000,,Não é nada disso!
+Dialogue: 0,0:09:22.91,0:09:24.54,Default,,0000,0000,0000,,Ela disse que não é nada disso.
+Dialogue: 0,0:09:24.54,0:09:27.29,Default,,0000,0000,0000,,É só vergonha.
+Dialogue: 0,0:09:27.71,0:09:30.75,Default,,0000,0000,0000,,Então por que não\Nchamou o Kudo também?
+Dialogue: 0,0:09:31.04,0:09:33.38,Default,,0000,0000,0000,,Não diga besteira,\No Kudo está bem...
+Dialogue: 0,0:09:34.59,0:09:36.93,Default,,0000,0000,0000,,Ele não pôde vir!
+Dialogue: 0,0:09:39.26,0:09:43.14,Default,,0000,0000,0000,,Enfim, conte mais sobre essas\N"correntes de ferro"!
+Dialogue: 0,0:09:44.02,0:09:52.07,Default,,0000,0000,0000,,Quando a gente era pequeno,\Nachamos as algemas do meu pai no sótão.
+Dialogue: 0,0:09:52.07,0:09:56.32,Default,,0000,0000,0000,,Então acabamos nos prendendo\Njuntos, e eu fingi ser policial!
+Dialogue: 0,0:09:57.99,0:10:00.82,Default,,0000,0000,0000,,Foi ridículo, a gente\Nse meteu em um problemão!
+Dialogue: 0,0:10:00.82,0:10:02.78,Default,,0000,0000,0000,,Não foi ridículo!
+Dialogue: 0,0:10:02.78,0:10:06.12,Default,,0000,0000,0000,,A gente teve que tomar banho\Ne usar o banheiro juntos!
+Dialogue: 0,0:10:06.12,0:10:08.33,Default,,0000,0000,0000,,Idiota, não conte isso para eles!
+Dialogue: 0,0:10:08.83,0:10:10.79,Italics,,0000,0000,0000,,Tomar banho e usar o banheiro?
+Dialogue: 0,0:10:11.21,0:10:14.25,Italics,,0000,0000,0000,,Que relacionamento fedido.
+Dialogue: 0,0:10:14.59,0:10:16.01,Default,,0000,0000,0000,,Para comemorar,
+Dialogue: 0,0:10:16.01,0:10:20.34,Default,,0000,0000,0000,,um pus um pedaço da corrente\Nda algema aqui como amuleto!
+Dialogue: 0,0:10:20.34,0:10:23.72,Default,,0000,0000,0000,,Que nojo, jogue isso fora!
+Dialogue: 0,0:10:23.97,0:10:27.14,Default,,0000,0000,0000,,Ei, vocês dois estão juntos?
+Dialogue: 0,0:10:29.35,0:10:33.11,Default,,0000,0000,0000,,Não, Heiji e eu somos\Nsó amigos de infância!
+Dialogue: 0,0:10:33.11,0:10:36.44,Default,,0000,0000,0000,,Sou como uma irmã mais velha\Nque sempre cuida dele!
+Dialogue: 0,0:10:36.86,0:10:38.40,Default,,0000,0000,0000,,Claro que é.
+Dialogue: 0,0:10:39.07,0:10:44.66,Default,,0000,0000,0000,,O pai dela é detetive chefe\Nde Osaka e amigo do meu pai,
+Dialogue: 0,0:10:44.66,0:10:47.50,Default,,0000,0000,0000,,então a gente se conhece\Ndesde pequeno, só isso.
+Dialogue: 0,0:10:48.79,0:10:52.25,Default,,0000,0000,0000,,Um pirralho detetive e a filha\Nde um detetive de polícia...
+Dialogue: 0,0:10:52.25,0:10:54.09,Default,,0000,0000,0000,,Que casal sinistro...
+Dialogue: 0,0:10:54.09,0:10:56.34,Default,,0000,0000,0000,,Hein? Por quê? O que tem de mais?
+Dialogue: 0,0:10:58.55,0:11:00.93,Default,,0000,0000,0000,,Mas enfim,\Npor que você está aqui?
+Dialogue: 0,0:11:00.93,0:11:04.89,Default,,0000,0000,0000,,Eu estava fazendo papel de irmã\Nmais velha e ficando de olho
+Dialogue: 0,0:11:04.89,0:11:08.68,Default,,0000,0000,0000,,para que a garota da capital\Nnão tentasse te seduzir!
+Dialogue: 0,0:11:10.10,0:11:12.15,Default,,0000,0000,0000,,Ficando de olho? Desde quando?
+Dialogue: 0,0:11:12.69,0:11:14.61,Default,,0000,0000,0000,,Da Tsutenkaku.
+Dialogue: 0,0:11:15.73,0:11:20.61,Italics,,0000,0000,0000,,Entendi, foi ela que eu senti\Nque estava me observando!
+Dialogue: 0,0:11:20.61,0:11:22.74,Default,,0000,0000,0000,,Eu estava preocupada com você!
+Dialogue: 0,0:11:23.41,0:11:24.66,Default,,0000,0000,0000,,Obrigada!
+Dialogue: 0,0:11:24.66,0:11:26.74,Default,,0000,0000,0000,,Comi demais!
+Dialogue: 0,0:11:26.74,0:11:28.20,Default,,0000,0000,0000,,Estava uma delícia!
+Dialogue: 0,0:11:28.54,0:11:33.63,Default,,0000,0000,0000,,Desculpe pela demora.\NVocê devia ter entrado com a gente!
+Dialogue: 0,0:11:33.63,0:11:36.17,Default,,0000,0000,0000,,Não, só estou aqui\Npara mostrar tudo!
+Dialogue: 0,0:11:39.46,0:11:41.09,Default,,0000,0000,0000,,Para onde agora?
+Dialogue: 0,0:11:41.09,0:11:44.09,Default,,0000,0000,0000,,Acho que só falta\No Castelo de Osaka...
+Dialogue: 0,0:11:45.01,0:11:46.93,Default,,0000,0000,0000,,O que você está fazendo aqui?
+Dialogue: 0,0:11:47.22,0:11:49.89,Default,,0000,0000,0000,,Qual é, me leve junto!
+Dialogue: 0,0:11:50.10,0:11:51.89,Default,,0000,0000,0000,,Que saco...
+Dialogue: 0,0:11:56.61,0:11:57.57,Default,,0000,0000,0000,,Que foi?
+Dialogue: 0,0:12:34.60,0:12:36.65,Default,,0000,0000,0000,,O que houve com esse homem?
+Dialogue: 0,0:12:36.65,0:12:39.94,Default,,0000,0000,0000,,Não sei. Ele caiu de repente\Nno capô do carro!
+Dialogue: 0,0:12:40.69,0:12:42.19,Default,,0000,0000,0000,,Do telhado do prédio!
+Dialogue: 0,0:12:43.15,0:12:44.70,Default,,0000,0000,0000,,Tem alguém lá em cima!
+Dialogue: 0,0:12:45.45,0:12:48.12,Default,,0000,0000,0000,,Sakata, chame a polícia!
+Dialogue: 0,0:12:48.12,0:12:48.87,Default,,0000,0000,0000,,Entendido!
+Dialogue: 0,0:12:49.33,0:12:50.20,Default,,0000,0000,0000,,Ei!
+Dialogue: 0,0:12:50.20,0:12:51.20,Default,,0000,0000,0000,,Heiji!
+Dialogue: 0,0:12:51.20,0:12:52.04,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:13:03.51,0:13:04.47,Default,,0000,0000,0000,,Isso aí!
+Dialogue: 0,0:13:04.47,0:13:07.18,Default,,0000,0000,0000,,Agora diga por que você\Njogou o corpo
+Dialogue: 0,0:13:07.18,0:13:09.35,Default,,0000,0000,0000,,em cima da viatura da polícia!
+Dialogue: 0,0:13:11.14,0:13:14.14,Default,,0000,0000,0000,,Não, sou só...
+Dialogue: 0,0:13:14.48,0:13:18.15,Default,,0000,0000,0000,,O quê? Ele foi chamado\Npara o terraço?
+Dialogue: 0,0:13:18.31,0:13:25.40,Default,,0000,0000,0000,,É, alguém chamou esse cara\Nsobre um homem estranho no terraço.
+Dialogue: 0,0:13:25.40,0:13:29.16,Default,,0000,0000,0000,,Eu tenho uma casa de chá\Nno segundo andar...
+Dialogue: 0,0:13:30.41,0:13:33.54,Default,,0000,0000,0000,,Mas o que fez o corpo cair?
+Dialogue: 0,0:13:33.91,0:13:37.92,Default,,0000,0000,0000,,O corpo estava enrolado em uma corda,\Npreso no corrimão de cima,
+Dialogue: 0,0:13:37.92,0:13:41.42,Default,,0000,0000,0000,,e coberto com lona.\NA outra ponta da corda
+Dialogue: 0,0:13:41.42,0:13:42.92,Default,,0000,0000,0000,,estava amarrada à porta,
+Dialogue: 0,0:13:42.92,0:13:45.51,Default,,0000,0000,0000,,e se soltaria\Nquando a porta fosse aberta.
+Dialogue: 0,0:13:46.22,0:13:50.64,Default,,0000,0000,0000,,A hora estimada de morte é\Ncerca de um dia inteiro atrás.
+Dialogue: 0,0:13:50.64,0:13:55.43,Default,,0000,0000,0000,,Então alguém o matou a essas horas\Nontem e o deixou pendurado.
+Dialogue: 0,0:13:55.81,0:13:58.56,Default,,0000,0000,0000,,Mas por que sobre\Numa viatura de polícia?
+Dialogue: 0,0:13:58.56,0:14:01.73,Default,,0000,0000,0000,,Deve ter sido coincidência,
+Dialogue: 0,0:14:01.73,0:14:05.44,Default,,0000,0000,0000,,mas pode ser alguém\Ntentando dar um exemplo...
+Dialogue: 0,0:14:05.90,0:14:07.03,Default,,0000,0000,0000,,Exemplo?
+Dialogue: 0,0:14:07.95,0:14:11.53,Default,,0000,0000,0000,,Uma faca pela carteira e coração...
+Dialogue: 0,0:14:11.53,0:14:13.83,Default,,0000,0000,0000,,Está claramente ligado\Nàqueles incidentes...
+Dialogue: 0,0:14:18.04,0:14:20.79,Default,,0000,0000,0000,,Ei, moça! Espere!
+Dialogue: 0,0:14:20.79,0:14:21.88,Default,,0000,0000,0000,,Espere!
+Dialogue: 0,0:14:26.55,0:14:27.80,Default,,0000,0000,0000,,Lá vai ela!
+Dialogue: 0,0:14:28.05,0:14:30.76,Default,,0000,0000,0000,,Tudo bem! Eu peguei a placa dela.
+Dialogue: 0,0:14:31.05,0:14:32.55,Default,,0000,0000,0000,,Mas deixe para lá.
+Dialogue: 0,0:14:32.55,0:14:36.10,Default,,0000,0000,0000,,Fale sobre "aqueles\Nincidentes", Hattori!
+Dialogue: 0,0:14:38.56,0:14:42.15,Default,,0000,0000,0000,,Assassinatos em série?
+Dialogue: 0,0:14:38.60,0:14:42.06,Nome personagem,,0000,0000,0000,,{\fad(300,1)\pos(238.5,271)}Delegacia de Tojiri, Osaka
+Dialogue: 0,0:14:42.48,0:14:46.03,Default,,0000,0000,0000,,E o homem que caiu é\Na terceira vítima?
+Dialogue: 0,0:14:46.40,0:14:47.53,Default,,0000,0000,0000,,Pois é.
+Dialogue: 0,0:14:47.53,0:14:50.36,Default,,0000,0000,0000,,Em todos os casos,\Nfoi uma apunhalada no peito,
+Dialogue: 0,0:14:50.36,0:14:51.82,Default,,0000,0000,0000,,atravessando a carteira.
+Dialogue: 0,0:14:51.82,0:14:54.99,Default,,0000,0000,0000,,Depois, eles foram mortos\Npor estrangulamento.
+Dialogue: 0,0:14:54.99,0:14:58.58,Default,,0000,0000,0000,,Talvez seja alguém\Ncom raiva de dinheiro?
+Dialogue: 0,0:14:58.58,0:15:01.04,Default,,0000,0000,0000,,Não dá para ter certeza ainda.
+Dialogue: 0,0:15:01.50,0:15:03.92,Default,,0000,0000,0000,,A primeira vítima foi\NHidetoshi Nagao,
+Dialogue: 0,0:15:01.54,0:15:05.00,Nome personagem,,0000,0000,0000,,{\fad(300,1)\pos(241.25,229)}Hidetoshi Nagao\NDono de loja de conveniência
+Dialogue: 0,0:15:03.92,0:15:05.09,Default,,0000,0000,0000,,o dono de uma loja de conveniência.
+Dialogue: 0,0:15:05.46,0:15:07.55,Default,,0000,0000,0000,,A segunda foi\NTayo Nishiguchi,
+Dialogue: 0,0:15:05.50,0:15:09.97,Nome personagem,,0000,0000,0000,,{\fad(300,1)\pos(240.75,235)}Tayo Nishiguchi\NProprietária de bar
+Dialogue: 0,0:15:07.55,0:15:09.97,Default,,0000,0000,0000,,dona de um bar pequeno.
+Dialogue: 0,0:15:09.97,0:15:14.97,Default,,0000,0000,0000,,E quem caiu foi Kazuto Noyasu,\Num taxista.
+Dialogue: 0,0:15:10.43,0:15:14.93,Nome personagem,,0000,0000,0000,,{\fad(400,1)\pos(240.25,232)}Kazuto Noyasu\NTaxista
+Dialogue: 0,0:15:15.22,0:15:19.14,Default,,0000,0000,0000,,Nenhum deles tinha dinheiro a ponto\Nde causar a fúria de alguém.
+Dialogue: 0,0:15:19.14,0:15:23.40,Default,,0000,0000,0000,,Na verdade, não há nenhum\Nvínculo entre os três.
+Dialogue: 0,0:15:23.73,0:15:25.61,Default,,0000,0000,0000,,Nenhum vínculo?
+Dialogue: 0,0:15:25.61,0:15:26.44,Default,,0000,0000,0000,,Não.
+Dialogue: 0,0:15:26.44,0:15:30.90,Default,,0000,0000,0000,,Todos sempre viveram em Osaka,
+Dialogue: 0,0:15:30.90,0:15:32.61,Default,,0000,0000,0000,,mas em locais diferentes.
+Dialogue: 0,0:15:35.24,0:15:38.91,Default,,0000,0000,0000,,Achamos, Heiji!\NUm vínculo entre as vítimas!
+Dialogue: 0,0:15:39.50,0:15:40.66,Default,,0000,0000,0000,,Sério?
+Dialogue: 0,0:15:45.21,0:15:48.59,Italics,,0000,0000,0000,,— Goshi!\N— Sr. Goshi, algum comentário?
+Dialogue: 0,0:15:49.05,0:15:56.10,Default,,0000,0000,0000,,Hã? Isso não é do caso de corrupção\Ndo Sotaro Goshi de seis anos atrás?
+Dialogue: 0,0:15:56.35,0:16:00.02,Default,,0000,0000,0000,,O caso em que o secretário assumiu\Na responsabilidade pelo erro dele
+Dialogue: 0,0:16:00.02,0:16:01.23,Default,,0000,0000,0000,,e saiu da empresa?
+Dialogue: 0,0:16:01.39,0:16:04.40,Default,,0000,0000,0000,,Se bem me lembro,\No sobrenome dele era Nagao...
+Dialogue: 0,0:16:04.40,0:16:06.73,Default,,0000,0000,0000,,Ei, esse Nagao é...
+Dialogue: 0,0:16:07.11,0:16:08.23,Default,,0000,0000,0000,,É, sim.
+Dialogue: 0,0:16:08.61,0:16:12.65,Default,,0000,0000,0000,,Hidetoshi Nagao, a primeira vítima!
+Dialogue: 0,0:16:13.32,0:16:17.66,Default,,0000,0000,0000,,Mas você já não investigou isso?\NPor que agora?
+Dialogue: 0,0:16:17.66,0:16:20.87,Default,,0000,0000,0000,,Não, dê uma olhada no motorista.
+Dialogue: 0,0:16:21.50,0:16:22.83,Default,,0000,0000,0000,,Motorista?
+Dialogue: 0,0:16:24.33,0:16:28.34,Default,,0000,0000,0000,,É o Noyasu, a terceira vítima!
+Dialogue: 0,0:16:28.84,0:16:31.51,Default,,0000,0000,0000,,Parece que ele era motorista\Ndo deputado Goshi
+Dialogue: 0,0:16:31.51,0:16:32.72,Default,,0000,0000,0000,,até quatro aos atrás.
+Dialogue: 0,0:16:33.34,0:16:36.30,Default,,0000,0000,0000,,O ex-secretário e ex-motorista...
+Dialogue: 0,0:16:36.30,0:16:39.93,Default,,0000,0000,0000,,Talvez o deputado Goshi\Nesteja envolvido.
+Dialogue: 0,0:16:40.31,0:16:41.60,Default,,0000,0000,0000,,Também achamos,
+Dialogue: 0,0:16:41.60,0:16:45.56,Default,,0000,0000,0000,,então um dos meus investigadores\Nsênior está indo para a casa dele.
+Dialogue: 0,0:16:46.15,0:16:50.32,Default,,0000,0000,0000,,Mas ele é famoso\Npor odiar a polícia.
+Dialogue: 0,0:16:50.90,0:16:53.24,Default,,0000,0000,0000,,Só ir vê-lo não vai ajudar em nada.
+Dialogue: 0,0:16:53.90,0:16:57.20,Default,,0000,0000,0000,,Então que tal fazermos\Numa visita também, Sakata?
+Dialogue: 0,0:16:57.49,0:17:00.66,Default,,0000,0000,0000,,Calma lá, você tem que deixar\Nessas coisas com a polícia!
+Dialogue: 0,0:17:01.29,0:17:02.62,Default,,0000,0000,0000,,Não seja idiota.
+Dialogue: 0,0:17:02.62,0:17:03.87,Default,,0000,0000,0000,,Não posso deixar
+Dialogue: 0,0:17:03.87,0:17:07.67,Default,,0000,0000,0000,,o cara que atrapalhou a\Nvisita de vocês por Osaka se safar!
+Dialogue: 0,0:17:08.13,0:17:11.59,Default,,0000,0000,0000,,Vão para a minha casa!\NA Kazuha mostra o caminho!
+Dialogue: 0,0:17:11.92,0:17:14.97,Default,,0000,0000,0000,,Heiji, você está com o amuleto?
+Dialogue: 0,0:17:15.55,0:17:18.22,Default,,0000,0000,0000,,Claro, não se preocupe.
+Dialogue: 0,0:17:18.93,0:17:20.10,Default,,0000,0000,0000,,Até mais!
+Dialogue: 0,0:17:23.64,0:17:25.35,Default,,0000,0000,0000,,Que amuleto?
+Dialogue: 0,0:17:25.35,0:17:30.90,Default,,0000,0000,0000,,Um amuleto que eu dei.\NEle sempre protege a vida dele.
+Dialogue: 0,0:17:31.86,0:17:33.40,Default,,0000,0000,0000,,Que absurdo.
+Dialogue: 0,0:17:33.40,0:17:34.61,Default,,0000,0000,0000,,É verdade!
+Dialogue: 0,0:17:34.61,0:17:36.70,Default,,0000,0000,0000,,Na última vez que ele esqueceu,
+Dialogue: 0,0:17:36.70,0:17:39.62,Default,,0000,0000,0000,,ele se machucou feio\Nnuma partida de kendo!
+Dialogue: 0,0:17:40.37,0:17:44.29,Default,,0000,0000,0000,,São amuletos importantes,\Nexistem só dois deles no mundo!
+Dialogue: 0,0:17:44.29,0:17:45.08,Default,,0000,0000,0000,,Dois?
+Dialogue: 0,0:17:45.08,0:17:50.75,Default,,0000,0000,0000,,É, lembra da história da algema?
+Dialogue: 0,0:17:50.75,0:17:53.80,Default,,0000,0000,0000,,Eu coloquei um pedaço\Nda corrente no amuleto dele!
+Dialogue: 0,0:17:54.30,0:17:55.80,Default,,0000,0000,0000,,Ah, é?
+Dialogue: 0,0:17:58.68,0:18:01.72,Default,,0000,0000,0000,,Embora não seja da sua conta!
+Dialogue: 0,0:18:01.72,0:18:03.81,Default,,0000,0000,0000,,É, acho que não é.
+Dialogue: 0,0:18:04.10,0:18:07.48,Default,,0000,0000,0000,,Ei, não estou\Nmais vendo o pivete...
+Dialogue: 0,0:18:07.48,0:18:08.52,Default,,0000,0000,0000,,Hein?
+Dialogue: 0,0:18:08.52,0:18:10.19,Default,,0000,0000,0000,,Ele foi ao banheiro?
+Dialogue: 0,0:18:10.90,0:18:13.82,Default,,0000,0000,0000,,Então acabou o passeio\Nde viatura...
+Dialogue: 0,0:18:17.40,0:18:18.82,Default,,0000,0000,0000,,Desculpe, Sakata.
+Dialogue: 0,0:18:18.82,0:18:22.16,Default,,0000,0000,0000,,Terá que escrever uma carta de\Ndesculpas pelo amassado dele, né?
+Dialogue: 0,0:18:22.16,0:18:23.83,Default,,0000,0000,0000,,Tudo bem. Já me acostumei.
+Dialogue: 0,0:18:24.54,0:18:26.50,Default,,0000,0000,0000,,Mas que pança é essa?
+Dialogue: 0,0:18:26.50,0:18:27.54,Default,,0000,0000,0000,,Ah, isto?
+Dialogue: 0,0:18:31.04,0:18:33.09,Default,,0000,0000,0000,,Esse garoto vai ajudar!
+Dialogue: 0,0:18:35.46,0:18:38.09,Default,,0000,0000,0000,,Mas o Mori não vai\Nficar preocupado?
+Dialogue: 0,0:18:38.09,0:18:40.09,Default,,0000,0000,0000,,Tudo bem, depois eu ligo para ele!
+Dialogue: 0,0:18:40.72,0:18:44.39,Default,,0000,0000,0000,,Falando nisso,\Nusamos a placa do carro
+Dialogue: 0,0:18:44.39,0:18:48.06,Default,,0000,0000,0000,,para conseguir o endereço e telefone\Nda mulher suspeita que você viu.
+Dialogue: 0,0:18:48.73,0:18:51.77,Default,,0000,0000,0000,,Ela se chama Sumie Okazaki, 39 anos.
+Dialogue: 0,0:18:52.40,0:18:54.52,Default,,0000,0000,0000,,Ela se divorciou ano passado
+Dialogue: 0,0:18:54.52,0:18:57.28,Default,,0000,0000,0000,,e mora sozinha no\NEdifício Capital Oeste.
+Dialogue: 0,0:18:57.69,0:18:59.49,Default,,0000,0000,0000,,Quer começar falando com ela?
+Dialogue: 0,0:18:59.86,0:19:03.41,Default,,0000,0000,0000,,É, ela parecia saber alguma coisa.
+Dialogue: 0,0:19:04.24,0:19:07.37,Default,,0000,0000,0000,,Aqui, vou ligar para ver\Nse ela está em casa.
+Dialogue: 0,0:19:07.87,0:19:12.33,Nome personagem,,0000,0000,0000,,{\fad(300,300)\pos(221.25,266)}Edifício Capital Oeste
+Dialogue: 0,0:19:08.25,0:19:13.63,Italics,,0000,0000,0000,,Às 13h de hoje, um corpo\Ncaiu perto da Ponte Shinsai.
+Dialogue: 0,0:19:13.63,0:19:19.72,Italics,,0000,0000,0000,,O falecido foi identificado\Ncomo Kazuto Noyasu, 41 anos.
+Dialogue: 0,0:19:19.72,0:19:20.55,Italics,,0000,0000,0000,,Além disso...
+Dialogue: 0,0:19:20.55,0:19:23.39,Default,,0000,0000,0000,,Me desculpe...
+Dialogue: 0,0:19:30.10,0:19:30.98,Italics,,0000,0000,0000,,Sim?
+Dialogue: 0,0:19:30.98,0:19:33.48,Default,,0000,0000,0000,,É da casa dos Okazaki?
+Dialogue: 0,0:19:33.48,0:19:37.57,Default,,0000,0000,0000,,Sou Sakata, da delegacia de Tojiri.
+Dialogue: 0,0:19:37.90,0:19:43.53,Default,,0000,0000,0000,,Policial! Venha me proteger!\NEu vou ser morta!
+Dialogue: 0,0:19:44.07,0:19:47.70,Italics,,0000,0000,0000,,Eu conto tudo, mas venha logo!
+Dialogue: 0,0:19:47.70,0:19:50.33,Default,,0000,0000,0000,,Calma, nós já vamos!
+Dialogue: 0,0:19:50.33,0:19:53.42,Default,,0000,0000,0000,,Tranque a porta e não\Ndeixe ninguém entrar!
+Dialogue: 0,0:19:54.42,0:19:58.00,Default,,0000,0000,0000,,Essa não, passamos\Ndo Edifício Capital Oeste!
+Dialogue: 0,0:19:58.55,0:20:01.63,Default,,0000,0000,0000,,E agora? É uma rua de mão\Núnica e com tráfego intenso!
+Dialogue: 0,0:20:01.63,0:20:03.43,Default,,0000,0000,0000,,Vai levar uma era para dar a volta!
+Dialogue: 0,0:20:03.68,0:20:05.80,Default,,0000,0000,0000,,É mais rápido a pé! Pare o carro!
+Dialogue: 0,0:20:05.80,0:20:06.76,Default,,0000,0000,0000,,Heiji!
+Dialogue: 0,0:20:09.22,0:20:10.27,Default,,0000,0000,0000,,Cuidado!
+Dialogue: 0,0:20:10.27,0:20:11.02,Default,,0000,0000,0000,,Desculpe!
+Dialogue: 0,0:20:11.98,0:20:13.06,Default,,0000,0000,0000,,Cuidado!
+Dialogue: 0,0:20:17.61,0:20:22.07,Nome personagem,,0000,0000,0000,,{\fad(300,1)\pos(239.75,268)}Edifício Capital Oeste
+Dialogue: 0,0:20:25.53,0:20:30.58,Default,,0000,0000,0000,,Ei, tia! Estamos com o policial\Nque acabou de ligar! Abra!
+Dialogue: 0,0:20:35.67,0:20:37.63,Default,,0000,0000,0000,,Está aberta!
+Dialogue: 0,0:20:41.55,0:20:43.34,Default,,0000,0000,0000,,Ei, moça!
+Dialogue: 0,0:20:45.55,0:20:46.43,Default,,0000,0000,0000,,Ei!
+Dialogue: 0,0:20:50.31,0:20:52.60,Default,,0000,0000,0000,,Cadê você?
+Dialogue: 0,0:21:00.82,0:21:02.69,Default,,0000,0000,0000,,Aqui é o Sakata.
+Dialogue: 0,0:21:02.99,0:21:05.49,Default,,0000,0000,0000,,Hein? A Okazaki não está em casa?
+Dialogue: 0,0:21:05.49,0:21:07.66,Italics,,0000,0000,0000,,Não, está totalmente vazio.
+Dialogue: 0,0:21:07.99,0:21:10.62,Default,,0000,0000,0000,,Que loucura, eu avisei\Npara ela não sair!
+Dialogue: 0,0:21:10.91,0:21:14.00,Default,,0000,0000,0000,,Ela entrou em contato com você?
+Dialogue: 0,0:21:14.37,0:21:18.13,Default,,0000,0000,0000,,É claro que não,\Nnão dei o meu número.
+Dialogue: 0,0:21:18.46,0:21:20.09,Default,,0000,0000,0000,,Verdade.
+Dialogue: 0,0:21:20.59,0:21:23.55,Default,,0000,0000,0000,,Enfim, venha logo.\NAlgo não está certo.
+Dialogue: 0,0:21:23.88,0:21:28.55,Default,,0000,0000,0000,,Acabei de sair da rua de mão única,\Nentão vou chegar em alguns minutos.
+Dialogue: 0,0:21:31.47,0:21:32.35,Default,,0000,0000,0000,,Veio lá de baixo!
+Dialogue: 0,0:21:34.89,0:21:36.23,Default,,0000,0000,0000,,O banheiro público!
+Dialogue: 0,0:21:36.23,0:21:37.69,Default,,0000,0000,0000,,Não me diga que ela...
+Dialogue: 0,0:21:55.54,0:21:57.71,Default,,0000,0000,0000,,Tarde demais. Ela está morta.
+Dialogue: 0,0:21:58.21,0:22:01.63,Default,,0000,0000,0000,,Mas por que ela saiu?
+Dialogue: 0,0:22:02.09,0:22:05.51,Default,,0000,0000,0000,,E tem uma faca atravessando\Na carteira e o peito dela...
+Dialogue: 0,0:22:06.88,0:22:10.14,Default,,0000,0000,0000,,Quem está fazendo isso, e por quê?
+Dialogue: 0,0:22:15.93,0:22:20.02,Default,,0000,0000,0000,,A vítima é Sumie Okazaki, 39 anos.
+Dialogue: 0,0:22:20.65,0:22:23.86,Default,,0000,0000,0000,,Ela morreu estrangulada\Npor algum tipo de corda.
+Dialogue: 0,0:22:23.86,0:22:28.40,Default,,0000,0000,0000,,Ela parece ter sido apunhalada\Ndepois de ser estrangulada.
+Dialogue: 0,0:22:28.40,0:22:29.95,Default,,0000,0000,0000,,A que horas encontrou o corpo?
+Dialogue: 0,0:22:30.28,0:22:33.45,Default,,0000,0000,0000,,Três ou quatro minutos\Nantes de você chegar.
+Dialogue: 0,0:22:33.45,0:22:36.54,Default,,0000,0000,0000,,O zelador que a encontrou.
+Dialogue: 0,0:22:36.54,0:22:41.75,Default,,0000,0000,0000,,Mas por que o assassino\Nsempre apunhala as carteiras?
+Dialogue: 0,0:22:42.21,0:22:47.22,Default,,0000,0000,0000,,Você disse para ela não sair,\Nmas parece que ela morreu aqui.
+Dialogue: 0,0:22:48.47,0:22:53.43,Italics,,0000,0000,0000,,Venha para a Ponte Shinsai\Nse quiser ver uns velhos amigos.
+Dialogue: 0,0:22:54.47,0:22:57.27,Italics,,0000,0000,0000,,13h08.
+Dialogue: 0,0:22:59.06,0:23:03.19,Italics,,0000,0000,0000,,Está vendo? Você é\Na próxima que acabará assim.
+Dialogue: 0,0:23:04.32,0:23:07.15,Italics,,0000,0000,0000,,13h10.
+Dialogue: 0,0:23:07.49,0:23:11.07,Default,,0000,0000,0000,,Não há dúvidas\Nde que é o assassino!
+Dialogue: 0,0:23:11.36,0:23:15.37,Default,,0000,0000,0000,,Ou seja, ela ouviu\No primeiro recado
+Dialogue: 0,0:23:15.37,0:23:16.95,Default,,0000,0000,0000,,e foi para a Ponte Shinsai.
+Dialogue: 0,0:23:17.54,0:23:20.62,Default,,0000,0000,0000,,Então, quando ela voltou,\Nouviu o segundo recado
+Dialogue: 0,0:23:20.62,0:23:23.21,Default,,0000,0000,0000,,e ficou aqui dentro,\Ntremendo de medo.
+Dialogue: 0,0:23:25.46,0:23:28.51,Default,,0000,0000,0000,,Mas por que "velhos amigos"?
+Dialogue: 0,0:23:29.13,0:23:32.05,Default,,0000,0000,0000,,Serão as outras pessoas\Nque foram mortas?
+Dialogue: 0,0:23:32.59,0:23:35.18,Default,,0000,0000,0000,,Detetive Sakata, ligação da central.
+Dialogue: 0,0:23:35.18,0:23:36.47,Default,,0000,0000,0000,,Ah, obrigado.
+Dialogue: 0,0:23:36.72,0:23:40.44,Default,,0000,0000,0000,,Ei, Hattori, esses recados na\Nsecretária eletrônica são estranhos.
+Dialogue: 0,0:23:41.02,0:23:42.35,Default,,0000,0000,0000,,Como assim?
+Dialogue: 0,0:23:42.35,0:23:44.65,Default,,0000,0000,0000,,O horário e o conteúdo\Ndas mensagens.
+Dialogue: 0,0:23:45.23,0:23:49.82,Default,,0000,0000,0000,,São só dois minutos\Nentre o recado de "venha"
+Dialogue: 0,0:23:49.82,0:23:52.28,Default,,0000,0000,0000,,e o "veja só".
+Dialogue: 0,0:23:52.66,0:23:56.49,Default,,0000,0000,0000,,Quer dizer que o assassino\Na estava observando?
+Dialogue: 0,0:23:57.03,0:24:00.46,Default,,0000,0000,0000,,Tem algo estranho nesses\Nquatro assassinatos.
+Dialogue: 0,0:24:01.25,0:24:02.62,Default,,0000,0000,0000,,Tenho o mau pressentimento
+Dialogue: 0,0:24:02.62,0:24:04.92,Default,,0000,0000,0000,,de que o assassino está\Nbrincando com a gente...
+Dialogue: 0,0:24:05.84,0:24:07.09,Default,,0000,0000,0000,,Mau pressentimento?
+Dialogue: 0,0:24:12.47,0:24:13.80,Italics,,0000,0000,0000,,Kudo!
+Dialogue: 0,0:24:15.39,0:24:16.80,Default,,0000,0000,0000,,O que foi?
+Dialogue: 0,0:24:16.80,0:24:19.10,Default,,0000,0000,0000,,Nada, não esquente!
+Dialogue: 0,0:24:19.64,0:24:23.52,Italics,,0000,0000,0000,,Credo, acabei de lembrar\Ndo pesadelo do outro dia!
+Dialogue: 0,0:24:29.90,0:24:32.24,Default,,0000,0000,0000,,Heiji, para onde agora?
+Dialogue: 0,0:24:32.74,0:24:35.20,Default,,0000,0000,0000,,Vamos ao escritório do Goshi?
+Dialogue: 0,0:24:37.37,0:24:38.41,Default,,0000,0000,0000,,Heiji?
+Dialogue: 0,0:24:39.74,0:24:41.12,Default,,0000,0000,0000,,Isso, vamos.
+Dialogue: 0,0:24:41.75,0:24:44.46,Default,,0000,0000,0000,,São mesmo casos estranhos.
+Dialogue: 0,0:24:44.46,0:24:48.00,Default,,0000,0000,0000,,Não há testemunhas e não está claro\Nqual a relação entre eles,
+Dialogue: 0,0:24:48.00,0:24:50.34,Default,,0000,0000,0000,,mas identificamos\Nas vítimas facilmente.
+Dialogue: 0,0:24:50.67,0:24:52.42,Default,,0000,0000,0000,,Pois é, agora que você falou...
+Dialogue: 0,0:24:52.42,0:24:55.18,Default,,0000,0000,0000,,O nome das vítimas\Nsaiu nos jornais
+Dialogue: 0,0:24:55.18,0:24:57.72,Default,,0000,0000,0000,,logo depois dos dois assassinatos.
+Dialogue: 0,0:24:58.14,0:25:00.26,Default,,0000,0000,0000,,Era de se esperar.
+Dialogue: 0,0:25:00.26,0:25:04.64,Default,,0000,0000,0000,,Os quatro estavam com a habilitação\Nna carteira apunhalada.
+Dialogue: 0,0:25:05.02,0:25:07.44,Default,,0000,0000,0000,,Habilitação? É isso!
+Dialogue: 0,0:25:07.73,0:25:10.40,Nome personagem,,0000,0000,0000,,{\fad(200,1)\pos(240.5,270)}Campo de testes da Autoescola Kadoma
+Dialogue: 0,0:25:10.40,0:25:13.24,Default,,0000,0000,0000,,Então as habilitações dos quatro\Nnão têm nenhum ponto...
+Dialogue: 0,0:25:13.24,0:25:13.86,Default,,0000,0000,0000,,Isso mesmo.
+Dialogue: 0,0:25:14.15,0:25:17.32,Default,,0000,0000,0000,,Achei que poderia ser\Numa ligação entre os casos,
+Dialogue: 0,0:25:17.32,0:25:18.82,Default,,0000,0000,0000,,mas me enganei de novo.
+Dialogue: 0,0:25:19.28,0:25:23.79,Default,,0000,0000,0000,,Eles também tiraram a habilitação\Nem anos e locais diferentes.
+Dialogue: 0,0:25:25.08,0:25:30.46,Default,,0000,0000,0000,,Ei, aqui diz que a Okazaki aprendeu\Na dirigir em Hyogo, e não Osaka.
+Dialogue: 0,0:25:30.46,0:25:31.21,Default,,0000,0000,0000,,É mesmo.
+Dialogue: 0,0:25:31.84,0:25:33.05,Default,,0000,0000,0000,,Por que tão longe?
+Dialogue: 0,0:25:34.47,0:25:38.59,Default,,0000,0000,0000,,Ah, é um lugar conhecido por ser\Nbarato para tirar a habilitação!
+Dialogue: 0,0:25:38.93,0:25:41.47,Default,,0000,0000,0000,,Autoescola? Quer dizer que...
+Dialogue: 0,0:25:42.27,0:25:44.31,Flashback Italics,,0000,0000,0000,,Se quiser ver uns velhos amigos.
+Dialogue: 0,0:25:44.98,0:25:47.14,Default,,0000,0000,0000,,Achamos os amigos!
+Dialogue: 0,0:25:47.52,0:25:50.27,Default,,0000,0000,0000,,Você tem o telefone\Ndesse lugar, moço?
+Dialogue: 0,0:25:50.57,0:25:51.82,Default,,0000,0000,0000,,Tenho
+Dialogue: 0,0:25:53.73,0:25:58.32,Default,,0000,0000,0000,,Sumie Okazaki e Tayo Nishiguchi\Ndividiam uma sala na autoescola?
+Dialogue: 0,0:25:58.74,0:26:00.07,Default,,0000,0000,0000,,Sério?
+Dialogue: 0,0:26:00.07,0:26:04.16,Default,,0000,0000,0000,,Beleza, estamos começando a achar\Na ligação entre as vítimas!
+Dialogue: 0,0:26:04.16,0:26:07.29,Default,,0000,0000,0000,,Mas não é estranho?
+Dialogue: 0,0:26:07.29,0:26:10.88,Default,,0000,0000,0000,,A Okazaki tirou\Na habilitação no mesmo ano,
+Dialogue: 0,0:26:10.88,0:26:14.71,Default,,0000,0000,0000,,mas Nishiguchi só tirou\Ntrês anos depois.
+Dialogue: 0,0:26:15.30,0:26:19.01,Default,,0000,0000,0000,,Talvez ele fosse ruim\Ne não passou naquele ano?
+Dialogue: 0,0:26:20.89,0:26:22.51,Default,,0000,0000,0000,,Que absurdo!
+Dialogue: 0,0:26:22.89,0:26:24.77,Default,,0000,0000,0000,,Tem certeza?
+Dialogue: 0,0:26:25.18,0:26:26.73,Default,,0000,0000,0000,,Hã? O que foi?
+Dialogue: 0,0:26:27.35,0:26:32.65,Default,,0000,0000,0000,,Os outros também estavam\Nna autoescola 20 anos atrás!
+Dialogue: 0,0:26:33.11,0:26:36.53,Default,,0000,0000,0000,,A primeira vítima foi\NHidetoshi Nagao,
+Dialogue: 0,0:26:36.53,0:26:40.11,Default,,0000,0000,0000,,a terceira vítima, Kazuto Noyasu,
+Dialogue: 0,0:26:40.11,0:26:43.78,Default,,0000,0000,0000,,e o deputado Goshi!
+Dialogue: 0,0:26:45.62,0:26:47.87,Default,,0000,0000,0000,,Todos estavam no mesmo lugar!
+Dialogue: 0,0:26:49.00,0:26:50.04,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:26:50.42,0:26:52.46,Default,,0000,0000,0000,,E não é só isso.
+Dialogue: 0,0:26:53.13,0:26:57.42,Default,,0000,0000,0000,,Também tem um nome\Nbem conhecido entre eles.
+Dialogue: 0,0:26:57.88,0:27:00.38,Default,,0000,0000,0000,,Bem conhecido? Quem?
+Dialogue: 0,0:27:01.93,0:27:05.39,Default,,0000,0000,0000,,Kiichiro Numabuchi.
+Dialogue: 0,0:27:05.68,0:27:08.23,Default,,0000,0000,0000,,Kiichiro Numabuchi?\NQuer dizer...
+Dialogue: 0,0:27:09.23,0:27:11.35,Default,,0000,0000,0000,,O ladrão e assassino...
+Dialogue: 0,0:27:11.35,0:27:14.27,Default,,0000,0000,0000,,...que está foragido?
+Dialogue: 0,0:27:15.32,0:27:17.19,Default,,0000,0000,0000,,Aí está! A foto da autoescola!
+Dialogue: 0,0:27:20.82,0:27:23.78,Default,,0000,0000,0000,,Sem dúvidas é o Numabuchi!
+Dialogue: 0,0:27:24.16,0:27:27.24,Default,,0000,0000,0000,,O rosto e o nome dos outros\Ncinco também batem!
+Dialogue: 0,0:27:27.24,0:27:28.79,Default,,0000,0000,0000,,Mas que estranho...
+Dialogue: 0,0:27:28.79,0:27:33.25,OS,,0000,0000,0000,,{\fs16\c&H3A5154&\3c&HE9F4EE&\frz19.64\pos(149.25,167)}Formados de 23 de agosto de 1978
+Dialogue: 0,0:27:29.37,0:27:33.21,Default,,0000,0000,0000,,Está vendo? Todos se formaram...
+Dialogue: 0,0:27:33.58,0:27:36.96,Default,,0000,0000,0000,,...mas só a Okazaki\Ntirou a habilitação.
+Dialogue: 0,0:27:36.96,0:27:42.72,Default,,0000,0000,0000,,Alguma coisa aconteceu nessa\Nautoescola 20 anos atrás...
+Dialogue: 0,0:27:43.05,0:27:45.01,Default,,0000,0000,0000,,Certo, obrigado.
+Dialogue: 0,0:27:46.06,0:27:50.18,Default,,0000,0000,0000,,Nenhum dos funcionários atuais\Nsabe o que houve há vinte anos.
+Dialogue: 0,0:27:51.06,0:27:52.90,Default,,0000,0000,0000,,Bem que imaginei.
+Dialogue: 0,0:27:53.77,0:27:55.98,Default,,0000,0000,0000,,Mas deve ter acontecido\Nalgum incidente
+Dialogue: 0,0:27:53.90,0:27:56.86,Nome personagem,,0000,0000,0000,,{\fad(300,1)\pos(237,266)}Biblioteca municipal de Nakanoshima
+Dialogue: 0,0:27:57.11,0:28:02.41,Default,,0000,0000,0000,,naquela autoescola 20 anos atrás.
+Dialogue: 0,0:28:04.53,0:28:07.12,Default,,0000,0000,0000,,Na mosca! É isso!
+Dialogue: 0,0:28:07.33,0:28:14.08,OS,,0000,0000,0000,,{\c&H83753D&\3c&HD0C294&\fnTimes New Roman\pos(255,37)}Instrutor de autoescola morre em acidente\N\N\N\N\NSuspeita-se de direção embriagada
+Dialogue: 0,0:28:07.95,0:28:10.37,Default,,0000,0000,0000,,No dia em que os seis\Nse formaram há 20 anos,
+Dialogue: 0,0:28:10.37,0:28:14.04,Default,,0000,0000,0000,,um dos instrutores morreu\Nnum acidente de direção embriagada!
+Dialogue: 0,0:28:14.46,0:28:16.09,Default,,0000,0000,0000,,O nome dele era Tetsuji Inaba,
+Dialogue: 0,0:28:16.09,0:28:18.71,Default,,0000,0000,0000,,visto como o instrutor\Nmais rigoroso da escola...
+Dialogue: 0,0:28:18.92,0:28:21.30,Default,,0000,0000,0000,,Ei, o que você acha?
+Dialogue: 0,0:28:21.30,0:28:24.09,Default,,0000,0000,0000,,Numabuchi, quebrado\Ne com dificuldades,
+Dialogue: 0,0:28:24.09,0:28:26.47,Default,,0000,0000,0000,,resolveu usar o antigo incidente
+Dialogue: 0,0:28:26.47,0:28:30.89,Default,,0000,0000,0000,,para chantagear o deputado,\Nmas foi negado.
+Dialogue: 0,0:28:30.89,0:28:34.40,Default,,0000,0000,0000,,Então ele matou todos\Nos envolvidos no incidente
+Dialogue: 0,0:28:34.40,0:28:36.06,Default,,0000,0000,0000,,e repetiu a chantagem.
+Dialogue: 0,0:28:36.56,0:28:39.65,Default,,0000,0000,0000,,Isso, ou o Goshi usou\No Numabuchi para matar todos
+Dialogue: 0,0:28:39.65,0:28:42.61,Default,,0000,0000,0000,,para evitar\Nque o escândalo atrapalhasse
+Dialogue: 0,0:28:42.61,0:28:45.03,Default,,0000,0000,0000,,a campanha dele para o senado.
+Dialogue: 0,0:28:45.49,0:28:48.16,Default,,0000,0000,0000,,Duas suposições plausíveis.
+Dialogue: 0,0:28:48.16,0:28:52.58,Default,,0000,0000,0000,,Quando Nagao e Noyasu deixaram\Nde trabalhar para ele,
+Dialogue: 0,0:28:52.58,0:28:55.21,Default,,0000,0000,0000,,eles receberam\Numa indenização gorda.
+Dialogue: 0,0:28:55.83,0:29:01.88,Default,,0000,0000,0000,,Se falarmos da morte do instrutor\Ne de seus colegas de autoescola,
+Dialogue: 0,0:29:01.88,0:29:05.09,Default,,0000,0000,0000,,aposto que ele começa a falar,\Nmesmo odiando polícia!
+Dialogue: 0,0:29:05.09,0:29:06.68,Default,,0000,0000,0000,,Beleza, então vamos lá!
+Dialogue: 0,0:29:12.27,0:29:17.10,Default,,0000,0000,0000,,Conan, o que você está fazendo aqui?\NVocê sumiu de repente!
+Dialogue: 0,0:29:17.23,0:29:19.36,Italics,,0000,0000,0000,,Essa não, esqueci de ligar!
+Dialogue: 0,0:29:19.36,0:29:22.28,Default,,0000,0000,0000,,Hei, oi! Quanto tempo!
+Dialogue: 0,0:29:22.86,0:29:26.28,Default,,0000,0000,0000,,Otaki da central?\NPor que você está aqui?
+Dialogue: 0,0:29:26.28,0:29:29.70,Default,,0000,0000,0000,,A Kazuha me pediu\Npara ficar de motorista.
+Dialogue: 0,0:29:26.57,0:29:30.28,Nome personagem,,0000,0000,0000,,{\fad(300,200)\pos(238,239)}Detetive Otaki\NPolícia estadual de Osaka
+Dialogue: 0,0:29:29.70,0:29:33.75,Default,,0000,0000,0000,,O Sakata nos ligou\Nsobre o garoto de óculos.
+Dialogue: 0,0:29:34.00,0:29:35.33,Default,,0000,0000,0000,,Por que você faria isso?
+Dialogue: 0,0:29:36.37,0:29:39.71,Default,,0000,0000,0000,,Deve ser conveniente a polícia\Nsempre vir quando você chama!
+Dialogue: 0,0:29:39.71,0:29:43.71,Default,,0000,0000,0000,,Olha só quem fala! A gente estava\Nfazendo turismo numa viatura!
+Dialogue: 0,0:29:43.71,0:29:44.63,Default,,0000,0000,0000,,Calma!
+Dialogue: 0,0:29:45.05,0:29:48.55,Default,,0000,0000,0000,,Eu posso levar o garoto pra casa\Ndo chefe, se você quiser.
+Dialogue: 0,0:29:49.18,0:29:50.26,Default,,0000,0000,0000,,Vamos?
+Dialogue: 0,0:29:50.26,0:29:53.39,Default,,0000,0000,0000,,Não, eu quero ficar com o Heiji!
+Dialogue: 0,0:29:53.39,0:29:54.89,Default,,0000,0000,0000,,Espere um pouco, Otaki.
+Dialogue: 0,0:29:57.65,0:30:03.11,Default,,0000,0000,0000,,Aqui é Osaka. Deixe com a gente\Ne vá em frente, Kudo!
+Dialogue: 0,0:30:04.69,0:30:09.20,Default,,0000,0000,0000,,Mas se bem te conheço, você vai\Nachar outro jeito de se intrometer.
+Dialogue: 0,0:30:10.95,0:30:14.75,Default,,0000,0000,0000,,Tudo bem, vou deixar\Nque fique com isso.
+Dialogue: 0,0:30:14.75,0:30:15.87,Default,,0000,0000,0000,,Seu amuleto?
+Dialogue: 0,0:30:15.87,0:30:19.42,Default,,0000,0000,0000,,Em troca, se segure\No máximo que puder hoje.
+Dialogue: 0,0:30:19.42,0:30:22.50,Default,,0000,0000,0000,,Quando eu chegar,\Nvou contar tudo que aconteceu!
+Dialogue: 0,0:30:23.13,0:30:23.84,Default,,0000,0000,0000,,Está bem?
+Dialogue: 0,0:30:26.34,0:30:28.47,Default,,0000,0000,0000,,Conan, depressa!
+Dialogue: 0,0:30:30.85,0:30:35.47,Default,,0000,0000,0000,,Não se preocupe, não vou mais deixar\Nque eles mexam na minha Osaka!
+Dialogue: 0,0:30:35.47,0:30:36.85,Default,,0000,0000,0000,,Aposto minha vida!
+Dialogue: 0,0:30:37.89,0:30:39.44,Default,,0000,0000,0000,,Até mais!
+Dialogue: 0,0:30:41.06,0:30:42.86,Default,,0000,0000,0000,,Com quem ele está falando?
+Dialogue: 0,0:30:46.36,0:30:48.82,Default,,0000,0000,0000,,Estou morrendo de fome...
+Dialogue: 0,0:30:48.82,0:30:53.33,Default,,0000,0000,0000,,Vou chegar na casa do chefe\Nem Neyagawa em meia hora...
+Dialogue: 0,0:30:53.33,0:30:57.83,Default,,0000,0000,0000,,A mãe do Heiji vai fazer\Nensopado de baiacu hoje!
+Dialogue: 0,0:30:57.83,0:30:58.79,Default,,0000,0000,0000,,Ah, é?
+Dialogue: 0,0:30:59.04,0:31:01.50,Default,,0000,0000,0000,,Mal posso esperar!
+Dialogue: 0,0:31:03.42,0:31:05.38,Default,,0000,0000,0000,,Otaki.
+Dialogue: 0,0:31:05.38,0:31:06.38,Default,,0000,0000,0000,,O quê?
+Dialogue: 0,0:31:06.38,0:31:08.80,Default,,0000,0000,0000,,Você achou o carro\Ndo Numabuchi, o fugitivo,
+Dialogue: 0,0:31:08.80,0:31:10.34,Default,,0000,0000,0000,,nas montanhas Mino?
+Dialogue: 0,0:31:10.34,0:31:12.39,Default,,0000,0000,0000,,Já vou!
+Dialogue: 0,0:31:12.64,0:31:16.43,Default,,0000,0000,0000,,Desculpe, Mori, mas você\Nvai ter que esperar mais
+Dialogue: 0,0:31:16.43,0:31:18.35,Default,,0000,0000,0000,,pelo ensopado de baiacu.
+Dialogue: 0,0:31:18.35,0:31:20.48,Default,,0000,0000,0000,,Vou fazer uma viagem a mais!
+Dialogue: 0,0:31:25.69,0:31:30.15,Nome personagem,,0000,0000,0000,,{\fad(200,1)\pos(238.5,263)}Cachoeira Mino
+Dialogue: 0,0:31:35.91,0:31:39.91,Default,,0000,0000,0000,,Desculpem! Vou mandar um jovem\Nbuscá-los em instantes.
+Dialogue: 0,0:31:39.91,0:31:40.79,Default,,0000,0000,0000,,Tudo bem.
+Dialogue: 0,0:31:40.79,0:31:45.00,Default,,0000,0000,0000,,O Numabuchi não é o assassino\Nque fugiu com uma arma?
+Dialogue: 0,0:31:45.00,0:31:48.76,Default,,0000,0000,0000,,A situação ficou feia,\Nnão é mesmo, Conan?
+Dialogue: 0,0:31:49.51,0:31:50.88,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:31:53.18,0:31:54.47,Default,,0000,0000,0000,,Como está?
+Dialogue: 0,0:31:54.47,0:31:55.60,Default,,0000,0000,0000,,Ah, detetive Otaki!
+Dialogue: 0,0:31:55.60,0:32:00.10,Default,,0000,0000,0000,,Achamos o carro coberto de plantas,\Nmas o Numabuchi continua...
+Dialogue: 0,0:32:01.23,0:32:03.19,Default,,0000,0000,0000,,E aquela cabana?
+Dialogue: 0,0:32:03.19,0:32:05.61,Default,,0000,0000,0000,,Estava vazia quando espiei.
+Dialogue: 0,0:32:07.07,0:32:10.07,Default,,0000,0000,0000,,Talvez ele tenha abandonado o carro\Ne fugido para outro lugar.
+Dialogue: 0,0:32:10.07,0:32:11.99,Default,,0000,0000,0000,,Ele está lá.
+Dialogue: 0,0:32:11.99,0:32:14.70,Default,,0000,0000,0000,,Garotinho, quando você chegou aí?
+Dialogue: 0,0:32:15.87,0:32:17.16,Default,,0000,0000,0000,,Deem uma olhada aqui!
+Dialogue: 0,0:32:17.91,0:32:22.71,Default,,0000,0000,0000,,Achei isso queimado\Nno fundo desta lata.
+Dialogue: 0,0:32:23.50,0:32:24.58,Default,,0000,0000,0000,,Estão vendo?
+Dialogue: 0,0:32:24.58,0:32:27.92,Default,,0000,0000,0000,,Recibos de lojinhas de conveniência\Nde cinco e três dias atrás
+Dialogue: 0,0:32:27.92,0:32:31.47,Default,,0000,0000,0000,,e adesivos de várias\Nmarmitas que expiram hoje.
+Dialogue: 0,0:32:32.01,0:32:35.39,Default,,0000,0000,0000,,Poucas pessoas comeriam marmita\Nde lojinha de conveniência
+Dialogue: 0,0:32:35.39,0:32:36.89,Default,,0000,0000,0000,,num lugar destes todo dia.
+Dialogue: 0,0:32:36.89,0:32:41.43,Default,,0000,0000,0000,,Mas se um homem procurado\Napareceu numa loja...
+Dialogue: 0,0:32:41.77,0:32:43.89,Default,,0000,0000,0000,,Então alguém deve ter\Ncomprado para ele.
+Dialogue: 0,0:32:44.56,0:32:46.73,Default,,0000,0000,0000,,Alguém que o está protegendo.
+Dialogue: 0,0:32:47.36,0:32:48.86,Default,,0000,0000,0000,,Por algum motivo...
+Dialogue: 0,0:33:14.80,0:33:17.43,Default,,0000,0000,0000,,Ei, vocês acharam o Numabuchi?
+Dialogue: 0,0:33:18.18,0:33:19.39,Default,,0000,0000,0000,,Acharam?
+Dialogue: 0,0:33:19.39,0:33:23.73,Default,,0000,0000,0000,,Não. Há sinais de que alguém\Nmorou aqui há algum tempo, mas...
+Dialogue: 0,0:33:28.65,0:33:30.86,Italics,,0000,0000,0000,,Tem lama no peitoril da janela!
+Dialogue: 0,0:33:31.61,0:33:34.57,Italics,,0000,0000,0000,,Aquele pilar e as vigas\Nnão têm teias de aranha...
+Dialogue: 0,0:33:35.99,0:33:39.32,Italics,,0000,0000,0000,,Entendi! Ele subiu no peitoril e...
+Dialogue: 0,0:33:44.50,0:33:46.46,Default,,0000,0000,0000,,Pare, garoto!
+Dialogue: 0,0:33:53.63,0:33:57.05,Default,,0000,0000,0000,,Ah, parece que dá no sótão!
+Dialogue: 0,0:33:57.05,0:34:00.55,Default,,0000,0000,0000,,Espere, garoto.\NDeixe o resto com a gente!
+Dialogue: 0,0:34:07.02,0:34:08.77,Default,,0000,0000,0000,,Numabuchi!
+Dialogue: 0,0:34:09.27,0:34:12.78,Default,,0000,0000,0000,,Kiichiro Numabuchi, você está\Npreso por assalto e assassinato!
+Dialogue: 0,0:34:12.78,0:34:14.15,Default,,0000,0000,0000,,Comida!
+Dialogue: 0,0:34:15.36,0:34:17.78,Default,,0000,0000,0000,,Rápido, me dá comida!
+Dialogue: 0,0:34:18.95,0:34:22.41,Nome personagem,,0000,0000,0000,,{\fad(300,200)\pos(240.25,266)}Residência de Sotaro Goshi
+Dialogue: 0,0:34:19.74,0:34:23.12,Default,,0000,0000,0000,,O quê? O velho Goshi não sai?
+Dialogue: 0,0:34:23.12,0:34:27.50,Default,,0000,0000,0000,,Não. Ele nos deixou esperando\Ndesde o fim da tarde.
+Dialogue: 0,0:34:27.79,0:34:29.92,Default,,0000,0000,0000,,Eu mesmo vou vê-lo!
+Dialogue: 0,0:34:29.92,0:34:35.01,Default,,0000,0000,0000,,Por favor, se acalme e deixe meu\Ncolega sênior manter as aparências!
+Dialogue: 0,0:34:35.34,0:34:39.47,Default,,0000,0000,0000,,Senhor, não dá para continuar\Nmantendo a polícia esperando!
+Dialogue: 0,0:34:36.22,0:34:39.47,Nome personagem,,0000,0000,0000,,{\fad(300,1)\pos(239.5,235)}Sotaro Goshi\NDeputado da província
+Dialogue: 0,0:34:39.80,0:34:43.18,Default,,0000,0000,0000,,Esqueça. Uma hora eles desistem.
+Dialogue: 0,0:34:43.85,0:34:49.06,Default,,0000,0000,0000,,Será que pelo menos eu falo\Nda ligação com a voz estranha?
+Dialogue: 0,0:34:49.06,0:34:52.44,Default,,0000,0000,0000,,Não, eu não posso...
+Dialogue: 0,0:34:53.36,0:34:58.70,Flashback Italics,,0000,0000,0000,,Vamos fechar um acordo em uma hora\Nsobre o incidente de 20 anos atrás.
+Dialogue: 0,0:34:58.70,0:35:02.41,Flashback Italics,,0000,0000,0000,,Saia pelo portão dos fundos\Ne espere no armazém mais distante.
+Dialogue: 0,0:35:04.37,0:35:06.50,Default,,0000,0000,0000,,Não podemos dizer\Na eles de jeito nenhum!
+Dialogue: 0,0:35:07.58,0:35:12.00,Default,,0000,0000,0000,,Credo, eu já disse para não\Nsair vagando por aí, Conan!
+Dialogue: 0,0:35:12.42,0:35:14.17,Default,,0000,0000,0000,,Você só dá dor de cabeça...
+Dialogue: 0,0:35:14.17,0:35:14.84,Default,,0000,0000,0000,,Desculpe.
+Dialogue: 0,0:35:14.84,0:35:17.13,Default,,0000,0000,0000,,Venha, vamos andando!
+Dialogue: 0,0:35:22.26,0:35:23.18,Default,,0000,0000,0000,,Ei!
+Dialogue: 0,0:35:26.14,0:35:28.10,Default,,0000,0000,0000,,Ei, você está bem?
+Dialogue: 0,0:35:29.39,0:35:30.56,Default,,0000,0000,0000,,Ei, você!
+Dialogue: 0,0:35:31.27,0:35:32.98,Default,,0000,0000,0000,,Sai da frente!
+Dialogue: 0,0:35:42.99,0:35:44.16,Default,,0000,0000,0000,,Desista!
+Dialogue: 0,0:35:50.29,0:35:51.29,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:35:52.50,0:35:55.96,Default,,0000,0000,0000,,Conan! Aguente firme!
+Dialogue: 0,0:36:02.84,0:36:04.43,Italics,,0000,0000,0000,,Não pode ser!
+Dialogue: 0,0:36:05.68,0:36:07.64,Default,,0000,0000,0000,,O que foi, Heiji?
+Dialogue: 0,0:36:07.64,0:36:09.02,Default,,0000,0000,0000,,Ah, nada!
+Dialogue: 0,0:36:11.06,0:36:12.56,Default,,0000,0000,0000,,Hã? Cadê o Sakata?
+Dialogue: 0,0:36:13.15,0:36:15.52,Default,,0000,0000,0000,,Acabou de sair\Npara usar o banheiro.
+Dialogue: 0,0:36:15.52,0:36:18.11,Default,,0000,0000,0000,,É melhor eu ir também.
+Dialogue: 0,0:36:20.82,0:36:22.99,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:36:23.49,0:36:26.37,Default,,0000,0000,0000,,Alguém o leve depressa ao hospital!
+Dialogue: 0,0:36:26.37,0:36:27.08,Default,,0000,0000,0000,,Certo!
+Dialogue: 0,0:36:28.41,0:36:31.00,Default,,0000,0000,0000,,Tudo bem, ele só me cutucou!
+Dialogue: 0,0:36:31.25,0:36:33.92,Default,,0000,0000,0000,,Não pode ser, a faca foi...
+Dialogue: 0,0:36:39.88,0:36:41.26,Default,,0000,0000,0000,,Um amuleto?
+Dialogue: 0,0:36:41.59,0:36:45.72,Default,,0000,0000,0000,,Deve ser graças ao amuleto\Nque o Heiji me emprestou!
+Dialogue: 0,0:36:46.35,0:36:47.43,Default,,0000,0000,0000,,O Heiji?
+Dialogue: 0,0:36:48.10,0:36:54.23,Default,,0000,0000,0000,,Viram? A faca ficou presa na\Ncorrente, então não me apunhalou!
+Dialogue: 0,0:36:56.23,0:36:58.23,Default,,0000,0000,0000,,Nunca mais faça isso!
+Dialogue: 0,0:36:58.23,0:36:59.90,Default,,0000,0000,0000,,Pra cima!
+Dialogue: 0,0:37:00.57,0:37:01.90,Default,,0000,0000,0000,,Sem gracinhas!
+Dialogue: 0,0:37:03.20,0:37:06.45,Default,,0000,0000,0000,,Por que ele está com duas\Nalgemas na mão esquerda?
+Dialogue: 0,0:37:06.74,0:37:12.62,Default,,0000,0000,0000,,Ah, isso? Não sei direito por quê,\Nmas ele estava algemado a um pilar.
+Dialogue: 0,0:37:12.62,0:37:15.75,Default,,0000,0000,0000,,A gente teve que soltá-lo,\Nentão cortamos a corrente
+Dialogue: 0,0:37:15.75,0:37:17.54,Default,,0000,0000,0000,,e colocamos a nossa algema nele.
+Dialogue: 0,0:37:18.50,0:37:20.05,Italics,,0000,0000,0000,,Ele estava algemado?
+Dialogue: 0,0:37:20.59,0:37:22.55,Default,,0000,0000,0000,,Parece que você tinha razão
+Dialogue: 0,0:37:22.55,0:37:26.55,Default,,0000,0000,0000,,de que tinha alguém trazendo\Ncomida para ele, garoto.
+Dialogue: 0,0:37:27.68,0:37:29.39,Italics,,0000,0000,0000,,Espere aí!
+Dialogue: 0,0:37:29.39,0:37:31.18,Italics,,0000,0000,0000,,Não pode ser...
+Dialogue: 0,0:37:32.39,0:37:33.56,Italics,,0000,0000,0000,,Não pode ser!
+Dialogue: 0,0:37:36.69,0:37:37.98,Italics,,0000,0000,0000,,Essa não!
+Dialogue: 0,0:37:54.41,0:37:58.04,Default,,0000,0000,0000,,Pode esperar o quanto quiser,\No velho Goshi não vai vir.
+Dialogue: 0,0:37:59.00,0:38:03.76,Default,,0000,0000,0000,,Sakata, você é o assassino, não é?
+Dialogue: 0,0:38:05.55,0:38:08.01,Default,,0000,0000,0000,,Não brinque com essas coisas!
+Dialogue: 0,0:38:08.80,0:38:12.93,Default,,0000,0000,0000,,Eu estava só admirado\Ncomo esse armazém é incomum!
+Dialogue: 0,0:38:14.52,0:38:17.60,Default,,0000,0000,0000,,Primeiro, quando o corpo\Ncaiu na viatura...
+Dialogue: 0,0:38:18.02,0:38:21.15,Default,,0000,0000,0000,,De maneira astuta,\Nvocê nos levou até lá.
+Dialogue: 0,0:38:21.69,0:38:26.49,Default,,0000,0000,0000,,Pouco antes de sairmos\Ndo restaurante, você fez uma ligação
+Dialogue: 0,0:38:26.49,0:38:31.91,Default,,0000,0000,0000,,e pôs em andamento\No que tinha armado.
+Dialogue: 0,0:38:33.58,0:38:39.08,Default,,0000,0000,0000,,Então, enquanto eu estava no\Nterraço, você ligou pra Okazaki,
+Dialogue: 0,0:38:39.50,0:38:42.17,Default,,0000,0000,0000,,deixando um recado ameaçador\Nna secretária dela,
+Dialogue: 0,0:38:42.17,0:38:44.55,Default,,0000,0000,0000,,mesmo sabendo que ela não estava,
+Dialogue: 0,0:38:44.55,0:38:48.30,Default,,0000,0000,0000,,fazendo com que ela ficasse\Nenfurnada no próprio apartamento.
+Dialogue: 0,0:38:49.05,0:38:53.89,Default,,0000,0000,0000,,Depois que você me fez\Nvê-la e a marcou,
+Dialogue: 0,0:38:54.31,0:38:56.56,Default,,0000,0000,0000,,você trouxe o assunto à tona
+Dialogue: 0,0:38:56.56,0:39:00.52,Default,,0000,0000,0000,,e ligou logo depois de passar\Npelo prédio dela.
+Dialogue: 0,0:39:00.52,0:39:05.69,Default,,0000,0000,0000,,Então, depois que eu ouvi a voz\Ndela assustada e saí do carro,
+Dialogue: 0,0:39:06.19,0:39:08.70,Default,,0000,0000,0000,,você estacionou o carro num beco
+Dialogue: 0,0:39:08.70,0:39:12.49,Default,,0000,0000,0000,,e ligou de novo para ela,\Nainda me perseguindo.
+Dialogue: 0,0:39:13.95,0:39:17.04,Flashback,,0000,0000,0000,,Sou o detetive que acabou de ligar.\NVocê está em perigo aí!
+Dialogue: 0,0:39:17.04,0:39:20.50,Flashback,,0000,0000,0000,,Espere no banheiro público\Npróximo, entendido?
+Dialogue: 0,0:39:21.42,0:39:25.42,Default,,0000,0000,0000,,Então, enquanto nós\Nestávamos no quarto dela,
+Dialogue: 0,0:39:26.38,0:39:28.05,Default,,0000,0000,0000,,você foi ao banheiro
+Dialogue: 0,0:39:29.22,0:39:30.80,Default,,0000,0000,0000,,e então...
+Dialogue: 0,0:39:33.05,0:39:34.89,Default,,0000,0000,0000,,a matou!
+Dialogue: 0,0:39:36.14,0:39:39.06,Default,,0000,0000,0000,,Você conseguiu chegar\Nlogo em seguida de carro
+Dialogue: 0,0:39:39.06,0:39:40.85,Default,,0000,0000,0000,,depois que ela foi encontrada
+Dialogue: 0,0:39:40.85,0:39:44.94,Default,,0000,0000,0000,,porque tinha alugado dois carros\Ndo mesmo modelo de antemão!
+Dialogue: 0,0:39:45.61,0:39:47.28,Default,,0000,0000,0000,,Depois que você a matou,
+Dialogue: 0,0:39:47.28,0:39:50.95,Default,,0000,0000,0000,,pegou o outro carro\Nalugado que estava perto
+Dialogue: 0,0:39:51.74,0:39:57.87,Default,,0000,0000,0000,,para fingir que tinha acabado\Nde chegar depois de dar a volta.
+Dialogue: 0,0:39:58.33,0:40:03.75,Default,,0000,0000,0000,,Você dirigiu para nós e nos\Naproximou do ponto central do caso
+Dialogue: 0,0:40:04.17,0:40:07.42,Default,,0000,0000,0000,,para todos virem aqui e você\Nmatar o velho Goshi rapidamente!
+Dialogue: 0,0:40:08.05,0:40:09.67,Default,,0000,0000,0000,,Ele é um deputado da província.
+Dialogue: 0,0:40:09.67,0:40:11.84,Default,,0000,0000,0000,,Chamaria a atenção\Nse saísse de casa.
+Dialogue: 0,0:40:11.84,0:40:14.30,Default,,0000,0000,0000,,Provavelmente até levaria\Nguarda-costas.
+Dialogue: 0,0:40:14.80,0:40:20.06,Default,,0000,0000,0000,,Mas se você viesse com a gente,\Npoderia vagar livremente.
+Dialogue: 0,0:40:22.73,0:40:25.27,Default,,0000,0000,0000,,Quando você percebeu, Heiji?
+Dialogue: 0,0:40:25.86,0:40:28.94,Default,,0000,0000,0000,,O primeiro detalhe foram\Nos espelhos retrovisores.
+Dialogue: 0,0:40:28.94,0:40:32.53,Default,,0000,0000,0000,,Na segunda vez, o ângulo\Nestava diferente.
+Dialogue: 0,0:40:33.07,0:40:39.45,Default,,0000,0000,0000,,Então, eu percebi que o instrutor\Nna foto de 20 anos atrás
+Dialogue: 0,0:40:39.45,0:40:41.96,Default,,0000,0000,0000,,se parecia muito com você.
+Dialogue: 0,0:40:42.46,0:40:45.92,Default,,0000,0000,0000,,Finalmente me convenci\Nao ver suas manias no carro.
+Dialogue: 0,0:40:45.92,0:40:47.92,Default,,0000,0000,0000,,Você ajustou o retrovisor
+Dialogue: 0,0:40:47.92,0:40:50.30,Default,,0000,0000,0000,,do mesmo jeito\Nque o Noyasu e a Okazaki!
+Dialogue: 0,0:40:52.38,0:40:55.93,Default,,0000,0000,0000,,Isso prova que todos estavam\Nenvolvidos com a mesma pessoa.
+Dialogue: 0,0:40:56.68,0:40:59.35,Default,,0000,0000,0000,,Não sei o que aconteceu\N20 anos atrás,
+Dialogue: 0,0:40:59.35,0:41:01.89,Default,,0000,0000,0000,,mas não é melhor\Nse entregar, Sakata?
+Dialogue: 0,0:41:04.60,0:41:06.40,Default,,0000,0000,0000,,Sinto muito, Heiji.
+Dialogue: 0,0:41:08.44,0:41:11.44,Default,,0000,0000,0000,,Está tudo acabado a esta altura...
+Dialogue: 0,0:41:11.44,0:41:12.57,Default,,0000,0000,0000,,Seu idiota!
+Dialogue: 0,0:41:14.28,0:41:16.49,Default,,0000,0000,0000,,Sakata é o assassino?
+Dialogue: 0,0:41:16.49,0:41:19.87,Default,,0000,0000,0000,,Isso mesmo!\NO Numabuchi nos contou tudo!
+Dialogue: 0,0:41:20.16,0:41:21.87,Default,,0000,0000,0000,,Depois que ele cometeu os crimes,
+Dialogue: 0,0:41:21.87,0:41:24.50,Default,,0000,0000,0000,,ele pretendia\Nincriminar o Numabuchi
+Dialogue: 0,0:41:24.50,0:41:28.42,Default,,0000,0000,0000,,e matá-lo num falso suicídio!
+Dialogue: 0,0:41:28.42,0:41:29.92,Italics,,0000,0000,0000,,Cadê o Sakata?
+Dialogue: 0,0:41:29.92,0:41:32.59,Default,,0000,0000,0000,,Ele saiu há um tempo...
+Dialogue: 0,0:41:39.51,0:41:43.35,Default,,0000,0000,0000,,Pronto, está vazio! Agora você não\Npode fazer nenhuma besteira!
+Dialogue: 0,0:41:48.23,0:41:50.23,Default,,0000,0000,0000,,Uma bala acertou a sua perna?
+Dialogue: 0,0:41:50.69,0:41:54.15,Default,,0000,0000,0000,,Não se importe comigo, Heiji.\NFuja logo!
+Dialogue: 0,0:41:55.32,0:41:59.37,Default,,0000,0000,0000,,Não rola... Parece\Nque também fui atingido...
+Dialogue: 0,0:42:01.70,0:42:08.00,Default,,0000,0000,0000,,O instrutor que morreu há\N20 anos era o meu pai.
+Dialogue: 0,0:42:08.00,0:42:09.67,Default,,0000,0000,0000,,Ele era um motorista rigoroso
+Dialogue: 0,0:42:09.67,0:42:14.30,Default,,0000,0000,0000,,e sempre dizia para minha\Nmãe olhar no retrovisor.
+Dialogue: 0,0:42:16.30,0:42:18.26,Default,,0000,0000,0000,,Deve ter sido\Nde onde peguei a mania.
+Dialogue: 0,0:42:18.97,0:42:22.06,Default,,0000,0000,0000,,Acha que uma pessoa\Nassim dirigiria bêbado?
+Dialogue: 0,0:42:22.68,0:42:26.35,Default,,0000,0000,0000,,Então, eu virei\Ndetetive de polícia...
+Dialogue: 0,0:42:26.35,0:42:29.27,Default,,0000,0000,0000,,...para expor a verdade\Npor trás da morte dele!
+Dialogue: 0,0:42:30.19,0:42:31.73,Default,,0000,0000,0000,,Eu resolvi o mistério
+Dialogue: 0,0:42:32.44,0:42:35.99,Default,,0000,0000,0000,,quando encontrei o Numabuchi\Nnuma cabana na montanha.
+Dialogue: 0,0:42:35.99,0:42:37.45,Default,,0000,0000,0000,,Eu pareço o meu pai,
+Dialogue: 0,0:42:37.45,0:42:40.99,Default,,0000,0000,0000,,então assim que ele me viu,\Nele ficou com medo
+Dialogue: 0,0:42:40.99,0:42:43.45,Default,,0000,0000,0000,,e confessou tudo.
+Dialogue: 0,0:42:43.45,0:42:47.62,Flashback,,0000,0000,0000,,Desculpe, professor Inaba!\NEra para ser uma brincadeira!
+Dialogue: 0,0:42:47.62,0:42:50.71,Flashback,,0000,0000,0000,,A gente só queria te ver assustado
+Dialogue: 0,0:42:50.71,0:42:54.88,Flashback,,0000,0000,0000,,quando te forçamos a beber e dirigir\Num carro sem fluido de freio!
+Dialogue: 0,0:42:56.84,0:43:01.97,Default,,0000,0000,0000,,Daí você foi atrás\Ndos seis envolvidos?
+Dialogue: 0,0:43:01.97,0:43:04.89,Default,,0000,0000,0000,,Assassinato prescreve em 15 anos.
+Dialogue: 0,0:43:05.14,0:43:10.81,Default,,0000,0000,0000,,Já que a lei não poderia\Nmais puni-los, eu iria!
+Dialogue: 0,0:43:15.94,0:43:19.86,Default,,0000,0000,0000,,Desculpe por envolver\Nvocê nisso, Heiji.
+Dialogue: 0,0:43:19.86,0:43:23.24,Default,,0000,0000,0000,,Não fale assim!
+Dialogue: 0,0:43:24.62,0:43:30.50,Default,,0000,0000,0000,,Você é da polícia! Somos os únicos\Ndo Japão autorizados a portar armas!
+Dialogue: 0,0:43:31.08,0:43:33.75,Default,,0000,0000,0000,,Por que você não se orgulha disso?
+Dialogue: 0,0:43:35.34,0:43:37.34,Default,,0000,0000,0000,,Levante-se, Sakata!
+Dialogue: 0,0:43:37.67,0:43:41.43,Default,,0000,0000,0000,,Você é uma vergonha para a\Nflor de cerejeira no seu caderno!
+Dialogue: 0,0:43:57.15,0:43:58.82,Default,,0000,0000,0000,,Otaki...
+Dialogue: 0,0:43:59.28,0:44:00.53,Default,,0000,0000,0000,,Como o Heiji está?
+Dialogue: 0,0:44:00.53,0:44:03.99,Default,,0000,0000,0000,,Acabou de ser levado\Nem outra ambulância.
+Dialogue: 0,0:44:04.53,0:44:09.75,Default,,0000,0000,0000,,Ele é realmente de outro mundo.\NTe carregou do incêndio nas costas.
+Dialogue: 0,0:44:10.83,0:44:11.79,Default,,0000,0000,0000,,É...
+Dialogue: 0,0:44:11.79,0:44:15.46,Default,,0000,0000,0000,,Esse é o maníaco homicida\Nque tentou me matar?
+Dialogue: 0,0:44:15.46,0:44:17.13,Default,,0000,0000,0000,,Seu...
+Dialogue: 0,0:44:18.92,0:44:23.43,Default,,0000,0000,0000,,Ele ainda é meu subordinado.\NTire as mãos dele.
+Dialogue: 0,0:44:23.89,0:44:26.14,Default,,0000,0000,0000,,Velho Toyama!
+Dialogue: 0,0:44:29.06,0:44:31.85,Default,,0000,0000,0000,,Depois você vai receber\Numa visita minha, Goshi.
+Dialogue: 0,0:44:32.56,0:44:36.48,Default,,0000,0000,0000,,Então, poderemos falar sobre\No que aconteceu 20 anos atrás.
+Dialogue: 0,0:45:03.34,0:45:11.51,Música,,0000,0000,0000,,Quero fazer algo perigoso,\Ncomo andar sobre gelo fino
+Dialogue: 0,0:45:11.64,0:45:18.23,Música,,0000,0000,0000,,Também quero realizar os meu sonhos
+Dialogue: 0,0:45:18.35,0:45:22.15,Música,,0000,0000,0000,,É sempre o meu destino
+Dialogue: 0,0:45:23.63,0:45:29.70,Música,,0000,0000,0000,,Se uma nave espacial pousar na minha frente,
+Dialogue: 0,0:45:29.82,0:45:36.54,Música,,0000,0000,0000,,Eu deixaria meus amigos pra trás\Ne partiria da Terra
+Dialogue: 0,0:45:37.79,0:45:45.46,Música,,0000,0000,0000,,Eu disse que dias pacatos\Nsão os melhores
+Dialogue: 0,0:45:45.59,0:45:55.76,Música,,0000,0000,0000,,Mas estou só fugindo, sem aguentar os dias sem você
+Dialogue: 0,0:45:55.89,0:46:04.35,Música,,0000,0000,0000,,Amar em segredo é como andar sobre o gelo fino
+Dialogue: 0,0:46:04.48,0:46:10.99,Música,,0000,0000,0000,,Meu coração voa mais rápido que a velocidade da luz
+Dialogue: 0,0:46:11.11,0:46:14.95,Música,,0000,0000,0000,,É sempre o meu destino
+Dialogue: 0,0:46:22.34,0:46:24.34,Default,,0000,0000,0000,,Heiji, aguente firme!
+Dialogue: 0,0:46:24.76,0:46:25.78,Default,,0000,0000,0000,,Heiji!
+Dialogue: 0,0:46:26.61,0:46:28.80,Default,,0000,0000,0000,,Como está o ferimento do Hattori?
+Dialogue: 0,0:46:29.38,0:46:33.01,Default,,0000,0000,0000,,Ainda não dá para saber.\NPrimeiro temos que tirar a bala.
+Dialogue: 0,0:46:33.28,0:46:34.72,Default,,0000,0000,0000,,Bala?
+Dialogue: 0,0:46:35.12,0:46:36.73,Default,,0000,0000,0000,,Sakata atirou em você?
+Dialogue: 0,0:46:36.73,0:46:38.82,Default,,0000,0000,0000,,Não foi isso.
+Dialogue: 0,0:46:39.34,0:46:43.19,Default,,0000,0000,0000,,Fui impedir que ele se matasse,\Ne acabou me acertando.
+Dialogue: 0,0:46:43.56,0:46:46.32,Default,,0000,0000,0000,,Por que foi fazer\Numa coisa perigosa dessas?
+Dialogue: 0,0:46:47.45,0:46:50.02,Default,,0000,0000,0000,,Um idiota uma vez me disse:
+Dialogue: 0,0:46:50.02,0:46:52.29,Default,,0000,0000,0000,,"não dá para morrer
+Dialogue: 0,0:46:52.86,0:46:54.80,Default,,0000,0000,0000,,correndo atrás de um criminoso."
+Dialogue: 0,0:46:54.80,0:46:56.41,Default,,0000,0000,0000,,Hattori...
+Dialogue: 0,0:46:59.68,0:47:03.36,Default,,0000,0000,0000,,Essa não, está me dando sono...
+Dialogue: 0,0:47:04.29,0:47:07.01,Default,,0000,0000,0000,,Me deixa dormir um pouco...
+Dialogue: 0,0:47:07.30,0:47:09.47,Default,,0000,0000,0000,,Não! Você não pode dormir, Heiji!
+Dialogue: 0,0:47:11.14,0:47:11.93,Default,,0000,0000,0000,,Heiji?
+Dialogue: 0,0:47:21.58,0:47:23.52,Default,,0000,0000,0000,,Não...
+Dialogue: 0,0:47:24.00,0:47:26.48,Default,,0000,0000,0000,,Heiji!
+Dialogue: 0,0:47:29.45,0:47:31.21,Default,,0000,0000,0000,,Cala a boca!
+Dialogue: 0,0:47:31.21,0:47:33.91,Default,,0000,0000,0000,,Eu disse que quero dormir, caramba!
+Dialogue: 0,0:47:35.57,0:47:38.53,Default,,0000,0000,0000,,Já que ele está animado assim,\Nnão temos que nos preocupar.
+Dialogue: 0,0:47:42.08,0:47:46.32,Default,,0000,0000,0000,,Desde ontem estou planejando um tour\Npor Osaka e não dormi direito.
+Dialogue: 0,0:47:46.32,0:47:49.76,Default,,0000,0000,0000,,Não fique gritando toda estridente\Nno meu ouvido, imbecil.
+Dialogue: 0,0:47:53.80,0:47:56.73,Default,,0000,0000,0000,,Me desculpe por ser estridente.
+Dialogue: 0,0:48:00.84,0:48:02.86,Default,,0000,0000,0000,,O que pensa que está fazendo, imbecil?
+Dialogue: 0,0:48:02.86,0:48:04.10,Default,,0000,0000,0000,,Imbecil é você!
+Dialogue: 0,0:48:04.10,0:48:05.98,Default,,0000,0000,0000,,Isso é jeito\Nde dizer que vai dormir?
+Dialogue: 0,0:48:06.29,0:48:08.44,Default,,0000,0000,0000,,Ei, gente...
+Dialogue: 0,0:48:08.44,0:48:10.80,Default,,0000,0000,0000,,O que tem? Estou ferido!
+Dialogue: 0,0:48:10.80,0:48:11.98,Default,,0000,0000,0000,,E daí?
+Dialogue: 0,0:48:13.01,0:48:15.84,Default,,0000,0000,0000,,Esse aí não morre tão fácil.
+Dialogue: 0,0:48:29.04,0:48:29.73,Default,,0000,0000,0000,,Pare!
+Dialogue: 0,0:48:29.73,0:48:30.67,Default,,0000,0000,0000,,Não, Conan!
+Dialogue: 0,0:48:31.04,0:48:32.96,Default,,0000,0000,0000,,Hein? Por quê?
+Dialogue: 0,0:48:35.66,0:48:38.41,Default,,0000,0000,0000,,Foi um assassinato.
+Dialogue: 0,0:48:39.05,0:48:41.89,Default,,0000,0000,0000,,E foi planejado desde o começo.
+Dialogue: 0,0:48:41.89,0:48:47.90,Título next,,0000,0000,0000,,O Assassinato do Yaiba Mascarado
+Dialogue: 0,0:48:42.58,0:48:43.89,Default,,0000,0000,0000,,No próximo episódio de Conan...
+Dialogue: 0,0:48:49.10,0:48:51.56,Default,,0000,0000,0000,,Dica do próximo Conan:
+Dialogue: 0,0:48:51.56,0:48:52.90,Default,,0000,0000,0000,,Arma de brinquedo!
+Dialogue: 0,0:48:53.28,0:48:55.40,Default,,0000,0000,0000,,O próximo episódio\Nvai ao ar dia 12 de outubro.
+Dialogue: 0,0:48:55.40,0:48:56.38,Default,,0000,0000,0000,,É no domingo!
+Dialogue: 0,0:48:56.38,0:48:57.41,Default,,0000,0000,0000,,Não perca!

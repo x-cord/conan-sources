@@ -1,0 +1,417 @@
+[Script Info]
+Title: Italiano
+Original Script: cr_it  [http://www.crunchyroll.com/user/cr_it]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 528
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: OS,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0001,0001,0015,0
+Style: On Top,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0017,0017,0022,0
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Default - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Flashback - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Flashback Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Flashback Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Cartello BASE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0008,0008,0010,1
+Style: Titolo episodio,Verdana,25,&H00D0B193,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,180,0,0,1,0,0,2,0008,0008,0010,1
+Style: sign_22813_214_Previsioni_di_do,Trebuchet MS,20,&H001DF9FC,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0011,0322,0289,1
+Style: sign_41737_351_Smack__,Comic Sans MS,28,&H00525294,&H000000FF,&H001E282F,&H00000000,-1,0,0,0,100,100,0,19.25,1,2,0,2,0247,0187,0053,1
+Style: sign_11809_108_Terahara___Negoz,Times New Roman,28,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0036,0036,0020,1
+Style: sign_30239_283_Bam__Smash__Cras,Verdana,24,&H005556EC,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,0124,0124,0010,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.61,0:00:03.95,Italics,,0000,0000,0000,,Il famoso detective liceale Shinichi Kudo
+Dialogue: 0,0:00:03.95,0:00:06.78,Italics,,0000,0000,0000,,ha assunto una sostanza\N che lo ha fatto rimpicciolire.
+Dialogue: 0,0:00:06.78,0:00:08.29,Italics,,0000,0000,0000,,Così sono diventato Conan Edogawa!
+Dialogue: 0,0:00:08.29,0:00:09.82,Italics,,0000,0000,0000,,Anche se piccolo,
+Dialogue: 0,0:00:09.82,0:00:11.50,Italics,,0000,0000,0000,,ho la mente di un detective di 17 anni.
+Dialogue: 0,0:00:11.50,0:00:14.54,Italics,,0000,0000,0000,,Risolverò ogni caso,\N anche i più difficili per gli adulti!
+Dialogue: 1,0:01:47.04,0:01:53.09,Titolo episodio,,0000,0000,0000,,{\fad(600,0)\blur0.5\bord0.1\c&HEFDCC8&\pos(266,130)}I{*\c&HF0DDC9&}l {*\c&HF1DECB&}c{*\c&HF1DFCB&}a{*\c&HF2DFCC&}s{*\c&HF2E0CD&}o {*\c&HF3E2CF&}d{*\c&HF4E2D0&}e{*\c&HF5E3D1&}l{*\c&HF5E4D1&}l{*\c&HF6E4D2&}a {*\c&HF7E6D4&}m{*\c&HF7E6D5&}a{*\c&HF8E7D6&}p{*\c&HF8E8D7&}p{*\c&HF9E8D8&}a {*\c&HFAEAD9&}i{*\c&HFBEADA&}n {*\c&HFCECDC&}c{*\c&HFCEDDD&}o{*\c&HFDEDDE&}d{*\c&HFDEEDE&}i{*\c&HFEEFDF&}c{*\c&HFEEFE0&}e{\c&HFFF0E1&}
+Dialogue: 0,0:01:47.04,0:01:53.09,Titolo episodio,,0000,0000,0000,,{\fad(600,0)\blur0.5\bord0.1\c&HEFDCC8&\pos(266,130)}Il caso della mappa in codice
+Dialogue: 0,0:01:48.17,0:01:51.13,Italics,,0000,0000,0000,,"Il caso della mappa in codice".
+Dialogue: 0,0:01:53.09,0:01:57.88,Cartello BASE,,0000,0000,0000,,{\fad(0,300)\an7\blur1\bord3\shad0\fscx80\fscy80\p1\c&HF7F7FF&\3c&H3E608B&\move(261,260,440,260)\clip(176.55,108,462,327)}m -5 -60 l 250 -60 250 8 -5 8
+Dialogue: 1,0:01:53.09,0:01:57.88,Cartello BASE,,0000,0000,0000,,{\fad(0,300)\fs18\c&H080809&\fnArial Narrow\b1\move(359,260,540,260)\clip(176.55,108,462,327)}Tokyo Metropolitan Art Museum \N\N{\c&H21ABC0&\fs18)\b1}Tesori segreti dal mondo
+Dialogue: 0,0:01:59.72,0:02:01.10,Default,,0000,0000,0000,,Che bella!
+Dialogue: 0,0:02:01.10,0:02:03.56,Default,,0000,0000,0000,,Che figata!
+Dialogue: 0,0:02:03.56,0:02:06.02,Default,,0000,0000,0000,,Che meraviglia!
+Dialogue: 0,0:02:06.48,0:02:08.98,Default,,0000,0000,0000,,Una mappa per un tesoro nascosto?
+Dialogue: 0,0:02:09.44,0:02:10.77,Default,,0000,0000,0000,,È stato davvero divertente!
+Dialogue: 0,0:02:10.77,0:02:13.19,Default,,0000,0000,0000,,La maschera d'oro era stupenda!
+Dialogue: 0,0:02:13.19,0:02:18.15,Default,,0000,0000,0000,,In tutto il mondo ci sono tanti tesori\N che nessuno ha ancora trovato.
+Dialogue: 0,0:02:18.15,0:02:21.62,Default,,0000,0000,0000,,Davvero? Anche io \Nvorrei andare in cerca di un tesoro!
+Dialogue: 0,0:02:25.91,0:02:27.54,Default,,0000,0000,0000,,Che roba è?
+Dialogue: 0,0:02:27.87,0:02:28.91,Default,,0000,0000,0000,,Cos'è quello?
+Dialogue: 0,0:02:29.37,0:02:30.92,Default,,0000,0000,0000,,Cos'è questo foglio?
+Dialogue: 0,0:02:30.92,0:02:33.38,Default,,0000,0000,0000,,Ci sono scritti degli strani simboli...
+Dialogue: 0,0:02:33.38,0:02:36.09,Default,,0000,0000,0000,,Ehi! Non sarà una mappa del tesoro?!
+Dialogue: 0,0:02:37.09,0:02:39.05,Default,,0000,0000,0000,,Una mappa del tesoro?
+Dialogue: 0,0:02:39.05,0:02:40.43,Default,,0000,0000,0000,,Sì, come no...
+Dialogue: 0,0:02:41.59,0:02:45.10,Default,,0000,0000,0000,,Cosa?! Stai dicendo \Nche non credi a quello che dice Ayumi?
+Dialogue: 0,0:02:45.10,0:02:46.10,Default,,0000,0000,0000,,No, è solo che...
+Dialogue: 0,0:02:46.22,0:02:48.48,Default,,0000,0000,0000,,Che cosa?
+Dialogue: 0,0:02:48.48,0:02:50.19,Default,,0000,0000,0000,,Perché vi innervosite così?
+Dialogue: 0,0:02:50.19,0:02:51.77,Default - Alt,,0000,0000,0000,,Allora cosa stai dicendo?!
+Dialogue: 0,0:02:51.77,0:02:53.15,Default - Alt,,0000,0000,0000,,Proviamo a cercarlo!
+Dialogue: 0,0:02:53.15,0:02:53.77,Default - Alt,,0000,0000,0000,,Sì, sì!
+Dialogue: 0,0:02:53.77,0:02:55.23,Default - Alt,,0000,0000,0000,,Giusto!
+Dialogue: 0,0:02:55.23,0:02:58.40,Default,,0000,0000,0000,,Di sicuro è come dice Ayumi!
+Dialogue: 0,0:02:58.40,0:02:59.95,Default - Alt,,0000,0000,0000,,Giusto!
+Dialogue: 0,0:02:59.95,0:03:02.95,Default - Alt,,0000,0000,0000,,Se fosse davvero una mappa del tesoro?
+Dialogue: 0,0:03:02.95,0:03:04.66,Default - Alt,,0000,0000,0000,,Infatti, proprio così!
+Dialogue: 0,0:03:05.41,0:03:06.33,Default,,0000,0000,0000,,Proviamoci!
+Dialogue: 0,0:03:06.33,0:03:08.33,Default,,0000,0000,0000,,Andiamo a vedere!
+Dialogue: 0,0:03:08.33,0:03:11.33,Default,,0000,0000,0000,,Bene! Si parte alla ricerca del tesoro!
+Dialogue: 0,0:03:11.33,0:03:14.17,Default,,0000,0000,0000,,D'ora in poi, noi siamo\Nla squadra dei giovani detective!
+Dialogue: 0,0:03:14.50,0:03:16.63,Default,,0000,0000,0000,,Eh? Squadra dei giovani detective?
+Dialogue: 0,0:03:16.63,0:03:18.13,Default,,0000,0000,0000,,Che bello!
+Dialogue: 0,0:03:18.46,0:03:21.22,Default,,0000,0000,0000,,Io, Genta Kojima, sarò il capo!
+Dialogue: 0,0:03:21.22,0:03:22.34,Default,,0000,0000,0000,,Obiezioni?
+Dialogue: 0,0:03:22.34,0:03:23.76,Default,,0000,0000,0000,,No!
+Dialogue: 0,0:03:23.76,0:03:26.35,Default,,0000,0000,0000,,Mi sta venendo il mal di testa...
+Dialogue: 0,0:03:26.35,0:03:27.56,Default,,0000,0000,0000,,Si parte!
+Dialogue: 0,0:03:27.72,0:03:29.10,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:03:32.44,0:03:33.44,Default,,0000,0000,0000,,Da che parte?
+Dialogue: 0,0:03:33.44,0:03:35.11,Default,,0000,0000,0000,,B-Boh...
+Dialogue: 0,0:03:36.32,0:03:38.65,Default,,0000,0000,0000,,Mi fate vedere il foglio?
+Dialogue: 0,0:03:43.16,0:03:45.70,Default,,0000,0000,0000,,Guardate il simbolo qui in alto.
+Dialogue: 0,0:03:45.70,0:03:47.41,Default,,0000,0000,0000,,L'avrete già visto, no?
+Dialogue: 0,0:03:53.04,0:03:54.21,Default,,0000,0000,0000,,Sbrighiamoci!
+Dialogue: 0,0:03:54.21,0:03:55.04,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:03:56.17,0:03:58.05,Default,,0000,0000,0000,,Forza!
+Dialogue: 0,0:04:02.34,0:04:05.76,Italics,,0000,0000,0000,,Arrestato ieri sera\Nin un condominio vicino alla Tokyo Tower,
+Dialogue: 0,0:04:05.76,0:04:08.89,Italics,,0000,0000,0000,,Dino Cavane, \Na capo di una banda italiana di rapinatori
+Dialogue: 0,0:04:08.89,0:04:11.35,Italics,,0000,0000,0000,,ha trascorso la notte senza dire una parola.
+Dialogue: 0,0:04:12.06,0:04:16.23,Italics,,0000,0000,0000,,La polizia al momento \Nsta cercando i complici di Cavane
+Dialogue: 0,0:04:16.23,0:04:18.44,Italics,,0000,0000,0000,,ma finora non sembra avere alcuna pista.
+Dialogue: 0,0:04:18.44,0:04:21.69,Italics,,0000,0000,0000,,Neanche il loro bottino, \Nle 15.000 monete d'oro "Maple Leaf",
+Dialogue: 0,0:04:21.69,0:04:23.57,Italics,,0000,0000,0000,,è stato ancora trovato.
+Dialogue: 0,0:04:23.57,0:04:25.53,Cartello BASE,,0000,0000,0000,,{\pos(275,142)\b1\frz341.4}Tokyo Tower
+Dialogue: 0,0:04:28.66,0:04:31.95,Default,,0000,0000,0000,,Anche io ho pensato da subito \Nche la Tokyo Tower fosse sospetta.
+Dialogue: 0,0:04:31.95,0:04:34.54,Default,,0000,0000,0000,,Praticamente abbiamo già trovato il tesoro!
+Dialogue: 0,0:04:36.75,0:04:38.67,Default,,0000,0000,0000,,Cosa significano queste lettere?
+Dialogue: 0,0:04:38.67,0:04:41.13,Default,,0000,0000,0000,,C'è scritto O-R-O...
+Dialogue: 0,0:04:41.38,0:04:44.09,Default,,0000,0000,0000,,Oro come il serpente Orochi?
+Dialogue: 0,0:04:44.09,0:04:46.01,Default,,0000,0000,0000,,La so, la so!
+Dialogue: 0,0:04:46.01,0:04:48.35,Default,,0000,0000,0000,,O come {\i1}ookii{\i0}, cioè "grande"!
+Dialogue: 0,0:04:48.35,0:04:51.14,Default,,0000,0000,0000,,R come {\i1}rich{\i0}, "ricco"!
+Dialogue: 0,0:04:51.14,0:04:53.77,Default,,0000,0000,0000,,E O di {\i1}otakara{\i0}, cioè "tesoro"!
+Dialogue: 0,0:04:53.77,0:04:58.94,Default,,0000,0000,0000,,Quindi vuol dire \N"grande tesoro che ti renderà ricco"!
+Dialogue: 0,0:04:59.32,0:05:02.65,Default,,0000,0000,0000,,Che bello! Mitsuhiko, sai leggere l'inglese!
+Dialogue: 0,0:05:03.78,0:05:05.15,Default,,0000,0000,0000,,Un pochino, sai...
+Dialogue: 0,0:05:09.28,0:05:11.33,Default,,0000,0000,0000,,Scommetto che sarà un tesoro enorme!
+Dialogue: 0,0:05:11.33,0:05:12.58,Default,,0000,0000,0000,,Ehi!
+Dialogue: 0,0:05:12.58,0:05:16.54,Default,,0000,0000,0000,,Io userò la mia parte del tesoro\Nper mangiare piatti gourmet di tutto il mondo!
+Dialogue: 0,0:05:16.54,0:05:19.08,Default,,0000,0000,0000,,Io per fare il giro del mondo 100 volte!
+Dialogue: 0,0:05:19.08,0:05:22.84,Default,,0000,0000,0000,,Io comprerò uno space shuttle della NASA \Ne andrò nello spazio!
+Dialogue: 0,0:05:22.84,0:05:24.26,Default,,0000,0000,0000,,E tu, Conan?
+Dialogue: 0,0:05:24.26,0:05:26.22,Default,,0000,0000,0000,,L-Lo metto da parte?
+Dialogue: 0,0:05:26.22,0:05:28.43,Default,,0000,0000,0000,,Che barba che sei tu.
+Dialogue: 0,0:05:28.84,0:05:30.30,Default,,0000,0000,0000,,Scusa tanto, eh.
+Dialogue: 0,0:05:42.02,0:05:44.61,Default,,0000,0000,0000,,Bene! Questo è il punto di partenza!
+Dialogue: 0,0:05:44.61,0:05:46.99,Default,,0000,0000,0000,,Ora dobbiamo solo decifrare il codice!
+Dialogue: 0,0:05:47.40,0:05:49.74,Default,,0000,0000,0000,,Però gli altri simboli, a parte l'ombrello
+Dialogue: 0,0:05:49.74,0:05:52.70,Default,,0000,0000,0000,,hanno una forma strana, \Nnon si capisce cosa siano...
+Dialogue: 0,0:05:56.16,0:05:59.46,Default,,0000,0000,0000,,Ma certo! Quella è la luna!
+Dialogue: 0,0:06:00.67,0:06:05.13,Default,,0000,0000,0000,,Il tesoro deve essere in un posto\Nda cui si vedono la luna e la Tokyo Tower.
+Dialogue: 0,0:06:05.88,0:06:07.88,Default,,0000,0000,0000,,Non può essere.
+Dialogue: 0,0:06:07.88,0:06:10.22,Default,,0000,0000,0000,,La posizione della luna cambia ogni notte,
+Dialogue: 0,0:06:10.22,0:06:14.10,Default,,0000,0000,0000,,e non si può trovare una posizione esatta\Nda una mappa così semplice.
+Dialogue: 0,0:06:14.10,0:06:16.31,Default,,0000,0000,0000,,Allora dove sarebbe?!
+Dialogue: 0,0:06:16.31,0:06:19.56,Default,,0000,0000,0000,,Conan, ti è venuto in mente qualcosa?
+Dialogue: 0,0:06:20.48,0:06:25.48,Default,,0000,0000,0000,,Mi chiedo se i simboli non siano dei bozzetti\N che rappresentano qualcosa.
+Dialogue: 0,0:06:25.48,0:06:28.61,Default,,0000,0000,0000,,Per esempio il simbolo sotto la torre \Npuò essere un cappello.
+Dialogue: 0,0:06:28.61,0:06:30.49,Default,,0000,0000,0000,,Quello sotto biancheria intima.
+Dialogue: 0,0:06:30.49,0:06:33.49,Default,,0000,0000,0000,,E l'ombrello sotto,\N il ricamo di un maglione o simili.
+Dialogue: 0,0:06:34.49,0:06:37.16,Default,,0000,0000,0000,,Il legame tra tutti questi oggetti...
+Dialogue: 0,0:06:37.50,0:06:38.71,Default,,0000,0000,0000,,Un negozio di vestiti!
+Dialogue: 0,0:06:38.71,0:06:40.96,Default,,0000,0000,0000,,Però solo da questa ipotesi non si può...
+Dialogue: 0,0:06:41.92,0:06:43.00,Default,,0000,0000,0000,,Di corsa!
+Dialogue: 0,0:06:43.00,0:06:44.63,Default,,0000,0000,0000,,A-Aspettate!
+Dialogue: 0,0:06:54.30,0:06:56.64,sign_11809_108_Terahara___Negoz,,0000,0000,0000,,{\move(372,109,182,109)\3c&H657492&\bord2}Terahara - Negozio d'abbigliamento
+Dialogue: 0,0:06:54.30,0:06:56.64,Default,,0000,0000,0000,,Troviamolo, troviamolo!
+Dialogue: 0,0:06:56.64,0:06:59.73,Default,,0000,0000,0000,,Dev'esserci un indizio qui da qualche parte!
+Dialogue: 0,0:06:59.73,0:07:03.27,Default,,0000,0000,0000,,Sbrigatevi! Più veloce!
+Dialogue: 0,0:07:04.40,0:07:06.86,Default,,0000,0000,0000,,F-Fermatevi, voi tre!
+Dialogue: 0,0:07:09.49,0:07:11.45,Default,,0000,0000,0000,,Fuori di qui!
+Dialogue: 0,0:07:11.45,0:07:13.91,Default,,0000,0000,0000,,Stupidi mocciosi!
+Dialogue: 0,0:07:13.91,0:07:15.83,Default,,0000,0000,0000,,Non fatevi più vedere!
+Dialogue: 0,0:07:16.79,0:07:19.25,Default,,0000,0000,0000,,Alla fine non era un negozio di vestiti...
+Dialogue: 0,0:07:19.25,0:07:20.04,Default,,0000,0000,0000,,Già.
+Dialogue: 0,0:07:20.04,0:07:21.33,Default,,0000,0000,0000,,Che fame!
+Dialogue: 0,0:07:21.71,0:07:23.25,Default,,0000,0000,0000,,Andiamo a mangiare qualcosa?
+Dialogue: 0,0:07:23.25,0:07:24.00,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:07:24.00,0:07:25.92,Default,,0000,0000,0000,,Andiamo in libreria?
+Dialogue: 0,0:07:26.17,0:07:29.17,Default,,0000,0000,0000,,Scemo! Non c'è niente da mangiare in libreria!
+Dialogue: 0,0:07:29.55,0:07:31.30,Default,,0000,0000,0000,,Solo un po'. Per favore?
+Dialogue: 0,0:07:32.89,0:07:34.30,Default,,0000,0000,0000,,Che figata!
+Dialogue: 0,0:07:34.30,0:07:37.01,Default,,0000,0000,0000,,Guarda qua che roba!
+Dialogue: 0,0:07:35.85,0:07:37.68,Default - Alt,,0000,0000,0000,,È vero, che buffo!
+Dialogue: 0,0:07:37.68,0:07:40.39,Italics,,0000,0000,0000,,O-R-O. ORO?
+Dialogue: 0,0:07:40.39,0:07:42.94,Italics,,0000,0000,0000,,C'è questa parola in inglese?
+Dialogue: 0,0:07:44.48,0:07:46.48,Italics,,0000,0000,0000,,Niente, non c'è..
+Dialogue: 0,0:07:46.94,0:07:48.61,Italics,,0000,0000,0000,,Quindi...
+Dialogue: 0,0:07:52.20,0:07:53.57,Italics,,0000,0000,0000,,Italiano...
+Dialogue: 0,0:07:57.87,0:07:59.29,Italics,,0000,0000,0000,,No, non può essere...
+Dialogue: 0,0:08:01.83,0:08:03.21,Italics,,0000,0000,0000,,Eccolo!
+Dialogue: 0,0:08:03.21,0:08:06.79,Default,,0000,0000,0000,,"Oro" è una parola italiana!
+Dialogue: 0,0:08:07.13,0:08:08.96,Default,,0000,0000,0000,,Allora questo codice...
+Dialogue: 0,0:08:10.26,0:08:12.13,Default,,0000,0000,0000,,Porta davvero a un tesoro!
+Dialogue: 0,0:08:13.09,0:08:16.39,Italics,,0000,0000,0000,,I rapinatori complici \Ndel capobanda Dino Cavane,
+Dialogue: 0,0:08:16.39,0:08:20.18,Italics,,0000,0000,0000,,arrestato ieri,\Nsarebbero in fuga qui in Giappone.
+Dialogue: 0,0:08:20.18,0:08:25.65,Italics,,0000,0000,0000,,Non si sa ancora dove siano \Nle 15.000 monete "Maple Leaf" rubate.
+Dialogue: 0,0:08:25.65,0:08:29.27,Italics,,0000,0000,0000,,Le monete, che complessivamente \Nvalgono 600 milioni di yen giapponesi,
+Dialogue: 0,0:08:29.57,0:08:33.07,Default,,0000,0000,0000,,600 milioni, eh? \NFanno le cose in grande questi...
+Dialogue: 0,0:08:29.61,0:08:32.44,Italics - Alt,,0000,0000,0000,,sono state rubate un anno fa \Ndalla banca Pasta...
+Dialogue: 0,0:08:33.07,0:08:36.11,Default,,0000,0000,0000,,Hai di nuovo ridotto la stanza \Na una discarica!
+Dialogue: 0,0:08:36.11,0:08:38.99,Default,,0000,0000,0000,,Sei veramente terribile!
+Dialogue: 0,0:08:42.37,0:08:45.42,Default,,0000,0000,0000,,Ora che ci penso, dov'è il piccoletto?
+Dialogue: 0,0:08:45.42,0:08:47.25,Default,,0000,0000,0000,,Conan? Stamattina è uscito presto,
+Dialogue: 0,0:08:47.25,0:08:49.59,Default,,0000,0000,0000,,ha detto che andava al museo con gli amici.
+Dialogue: 0,0:08:50.71,0:08:54.17,Default,,0000,0000,0000,,Bello essere bambini, eh?
+Dialogue: 0,0:08:54.63,0:08:58.39,Default,,0000,0000,0000,,Papà, dai!\NAlmeno aiutami a pulire!
+Dialogue: 0,0:09:00.10,0:09:01.31,Default,,0000,0000,0000,,Sì, sì.
+Dialogue: 0,0:09:01.31,0:09:03.89,Italics,,0000,0000,0000,,Stando alle autorità italiane,
+Dialogue: 0,0:09:03.89,0:09:10.48,Italics,,0000,0000,0000,,i complici di Cavane in fuga sarebbero tre,\N di cui uno sarebbe cittadino giapponese.
+Dialogue: 0,0:09:18.49,0:09:20.20,Default,,0000,0000,0000,,Che gli prende a Conan?
+Dialogue: 0,0:09:20.20,0:09:23.83,Default,,0000,0000,0000,,E che ne so? \NÈ da quando siamo arrivati che fa così.
+Dialogue: 0,0:09:23.83,0:09:25.79,Default,,0000,0000,0000,,Avrà capito qualcosa?
+Dialogue: 0,0:09:26.08,0:09:28.75,Italics,,0000,0000,0000,,Neanche così! Non ho proprio idee.
+Dialogue: 0,0:09:29.21,0:09:31.75,Italics,,0000,0000,0000,,Ma che codice è questo?!
+Dialogue: 0,0:09:31.75,0:09:35.47,Italics,,0000,0000,0000,,Sarà una mappa? O magari un messaggio?
+Dialogue: 0,0:09:36.59,0:09:38.14,Default,,0000,0000,0000,,Maledizione!
+Dialogue: 0,0:09:40.35,0:09:41.68,Default,,0000,0000,0000,,Guardate!
+Dialogue: 0,0:09:41.68,0:09:43.89,Default,,0000,0000,0000,,Non sarà quello per caso?
+Dialogue: 0,0:09:43.89,0:09:47.69,Default,,0000,0000,0000,,Guardate quell'insegna!\NÈ identica al secondo simbolo!
+Dialogue: 0,0:09:47.69,0:09:49.86,Default,,0000,0000,0000,,Oh, è vero!
+Dialogue: 0,0:09:49.86,0:09:50.86,Default,,0000,0000,0000,,Allora...
+Dialogue: 0,0:09:51.44,0:09:53.40,Default,,0000,0000,0000,,Questi simboli potrebbero essere...
+Dialogue: 0,0:09:55.28,0:09:59.49,Default,,0000,0000,0000,,Dev'essere così!\NQuesto caffè è davanti Tokyo Tower,
+Dialogue: 0,0:09:59.87,0:10:04.04,Default,,0000,0000,0000,,quel simbolo sicuramente \Nrappresenta il disegno sull'insegna!
+Dialogue: 0,0:10:04.04,0:10:08.58,Default,,0000,0000,0000,,Seguendo le insegne disegnate qui,\Narriveremo al tesoro!
+Dialogue: 0,0:10:08.58,0:10:11.71,Default,,0000,0000,0000,,Ma da che parte andiamo?
+Dialogue: 0,0:10:18.30,0:10:20.80,Default,,0000,0000,0000,,Tsukimi Dori, cioè "Via Chiaro di luna"!
+Dialogue: 0,0:10:21.22,0:10:25.27,Default,,0000,0000,0000,,Forse il simbolo della luna \Nrappresenta Tsukimi Dori?!
+Dialogue: 0,0:10:25.27,0:10:27.39,Default,,0000,0000,0000,,È questa di sicuro! Andiamo!
+Dialogue: 0,0:10:27.39,0:10:28.81,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:10:30.81,0:10:32.36,Default,,0000,0000,0000,,Eccolo! È lì!
+Dialogue: 0,0:10:32.36,0:10:34.36,Default,,0000,0000,0000,,Il triangolo rovesciato!
+Dialogue: 0,0:10:34.36,0:10:37.69,Default,,0000,0000,0000,,Giusto! È identico al terzo simbolo!
+Dialogue: 0,0:10:38.15,0:10:40.66,Default,,0000,0000,0000,,Allora questi segni sono davvero...
+Dialogue: 0,0:10:41.70,0:10:43.95,sign_11809_108_Terahara___Negoz,,0000,0000,0000,,{\fad(80,0)\fs15\pos(185.778,162.222)}Acquario di Nanbu a 3km da qui
+Dialogue: 0,0:10:41.91,0:10:43.95,Default,,0000,0000,0000,,L'acquario!
+Dialogue: 0,0:10:43.95,0:10:46.24,Default,,0000,0000,0000,,Ora ho capito!
+Dialogue: 0,0:10:46.24,0:10:49.87,Default,,0000,0000,0000,,Questo codice è una mappa \Ndalla Tokyo Tower all'acquario Nanbu!
+Dialogue: 0,0:10:49.87,0:10:54.42,Default,,0000,0000,0000,,I simboli rappresentano le insegne \Nlungo la Tsukimi Dori!
+Dialogue: 0,0:10:55.92,0:10:58.34,Default,,0000,0000,0000,,E la meta è...
+Dialogue: 0,0:10:58.34,0:11:00.22,Default,,0000,0000,0000,,...un grande tesoro!
+Dialogue: 0,0:11:00.59,0:11:02.14,Default,,0000,0000,0000,,Bene! Andiamo!
+Dialogue: 0,0:11:02.14,0:11:03.43,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:11:16.94,0:11:20.15,Default,,0000,0000,0000,,Non c'è... il quinto simbolo\N a forma di stella...
+Dialogue: 0,0:11:20.15,0:11:24.28,Default,,0000,0000,0000,,Maledizione! Siamo così vicini al tesoro!
+Dialogue: 0,0:11:24.28,0:11:25.33,Default,,0000,0000,0000,,Cosa?
+Dialogue: 0,0:11:25.74,0:11:28.12,Default,,0000,0000,0000,,Siamo arrivati all'acquario!
+Dialogue: 0,0:11:28.25,0:11:29.62,Default,,0000,0000,0000,,Come?!
+Dialogue: 0,0:11:30.12,0:11:32.08,Italics,,0000,0000,0000,,Che significa?!
+Dialogue: 0,0:11:32.08,0:11:35.75,Italics,,0000,0000,0000,,Dalla Tokyo Tower \Nabbiamo percorso tutta Tsukimi Dori.
+Dialogue: 0,0:11:35.75,0:11:38.71,Italics,,0000,0000,0000,,Avremmo dovuto trovare il quinto simbolo!
+Dialogue: 0,0:11:38.71,0:11:41.01,Italics,,0000,0000,0000,,Forse la mia teoria non era corretta?
+Dialogue: 0,0:11:41.63,0:11:45.76,Italics,,0000,0000,0000,,Un attimo, perché "oro" \Nè scritto in italiano?
+Dialogue: 0,0:11:45.76,0:11:48.85,Italics,,0000,0000,0000,,Se la mappa l'ha scritta un italiano,\Nallora il simbolo della luna...
+Dialogue: 0,0:11:50.73,0:11:51.77,Italics,,0000,0000,0000,,Non sarà...
+Dialogue: 0,0:11:53.98,0:11:56.57,Default,,0000,0000,0000,,Ma certo! Ho capito!
+Dialogue: 0,0:11:58.36,0:12:00.61,Default,,0000,0000,0000,,Torniamo al punto di partenza!
+Dialogue: 0,0:12:00.94,0:12:03.03,Default,,0000,0000,0000,,Ehi! Conan!
+Dialogue: 0,0:12:12.96,0:12:16.08,Italics,,0000,0000,0000,,Sarebbe strano che la persona \Nche ha scritto "oro" in italiano
+Dialogue: 0,0:12:16.08,0:12:19.55,Italics,,0000,0000,0000,,rappresentasse Tsukimi Dori, \Nche è in giapponese, con una luna!
+Dialogue: 0,0:12:19.55,0:12:23.13,Italics,,0000,0000,0000,,La luna rappresenta la notte,\N ovvero qualcosa che si vede solo di notte!
+Dialogue: 0,0:12:23.68,0:12:25.84,Italics,,0000,0000,0000,,Le insegne al neon!
+Dialogue: 0,0:12:26.18,0:12:29.06,Default,,0000,0000,0000,,Conan! Cos'è che hai capito?
+Dialogue: 0,0:12:29.77,0:12:33.77,Default,,0000,0000,0000,,Questo codice rappresenta una mappa\N dei cartelli al neon.
+Dialogue: 0,0:12:34.56,0:12:37.52,Default,,0000,0000,0000,,Il secondo segno al neon è quello!
+Dialogue: 0,0:12:44.24,0:12:45.53,Default,,0000,0000,0000,,Eccolo!
+Dialogue: 0,0:12:45.53,0:12:47.49,Default,,0000,0000,0000,,È vero!
+Dialogue: 0,0:12:47.49,0:12:49.91,Default,,0000,0000,0000,,Allora la prossima tappa è lo stadio!
+Dialogue: 0,0:12:49.91,0:12:52.70,Default,,0000,0000,0000,,Dobbiamo solo trovare \Nil simbolo dell'ombrello!
+Dialogue: 0,0:12:53.41,0:12:56.50,Default,,0000,0000,0000,,Non ce ne sono di ombrelli al neon...
+Dialogue: 0,0:12:56.50,0:12:58.92,Default,,0000,0000,0000,,Non ti sarai sbagliato?
+Dialogue: 0,0:12:58.92,0:13:00.42,Default,,0000,0000,0000,,L'ho trovato.
+Dialogue: 0,0:13:01.80,0:13:02.63,sign_22813_214_Previsioni_di_do,,0000,0000,0000,,{\blur4}Previsioni di domani
+Dialogue: 1,0:13:01.80,0:13:02.63,sign_22813_214_Previsioni_di_do,,0000,0000,0000,,{\c&H94FDFF&}Previsioni di domani
+Dialogue: 0,0:13:02.09,0:13:03.05,Default,,0000,0000,0000,,Eccolo.
+Dialogue: 0,0:13:04.97,0:13:07.64,Default,,0000,0000,0000,,Ma che dici? Quello è un sole...
+Dialogue: 0,0:13:08.68,0:13:10.81,Default,,0000,0000,0000,,Ma certo! Il simbolo per la pioggia!
+Dialogue: 0,0:13:10.81,0:13:14.68,Default,,0000,0000,0000,,Quando hanno scritto la mappa \Nera prevista pioggia per il giorno dopo!
+Dialogue: 0,0:13:15.81,0:13:17.90,Default,,0000,0000,0000,,Il prossimo è il neon a forma di stella.
+Dialogue: 0,0:13:21.11,0:13:23.07,Default,,0000,0000,0000,,Trovato!
+Dialogue: 0,0:13:23.07,0:13:24.90,Default,,0000,0000,0000,,Dev'essere questo!
+Dialogue: 0,0:13:24.90,0:13:26.78,Default,,0000,0000,0000,,Una ruota panoramica!
+Dialogue: 0,0:13:26.78,0:13:29.78,Default,,0000,0000,0000,,Non c'è dubbio! È il quinto simbolo!
+Dialogue: 0,0:13:29.78,0:13:32.66,Default,,0000,0000,0000,,Allora da qui dovremmo vedere il sesto neon!
+Dialogue: 0,0:13:32.66,0:13:35.12,Default,,0000,0000,0000,,Dov'è? Dove sta?
+Dialogue: 0,0:13:47.05,0:13:49.97,Default,,0000,0000,0000,,Eccolo! Il sesto segno!
+Dialogue: 0,0:13:56.02,0:13:59.81,Default,,0000,0000,0000,,Ehi Conan, c'è davvero un tesoro qui, sì?
+Dialogue: 0,0:13:59.81,0:14:05.07,Default,,0000,0000,0000,,Sì, accanto al sesto simbolo \Nc'è scritto "ORO".
+Dialogue: 0,0:14:05.07,0:14:08.41,Default,,0000,0000,0000,,Però non riesco proprio a trovarlo questo,
+Dialogue: 0,0:14:08.95,0:14:12.37,Default,,0000,0000,0000,,l'ultimo simbolo, quello a forma di pesce.
+Dialogue: 0,0:14:12.66,0:14:14.12,Default,,0000,0000,0000,,Certo che non lo trovi.
+Dialogue: 0,0:14:14.12,0:14:16.79,Default,,0000,0000,0000,,Siamo in una strada residenziale, \Nnon c'è niente qui.
+Dialogue: 0,0:14:16.79,0:14:19.67,Default,,0000,0000,0000,,Se c'è qualche pesce,\Nsarà in un fiume qui vicino.
+Dialogue: 0,0:14:19.67,0:14:21.46,Default,,0000,0000,0000,,Ma certo! Un fiume!
+Dialogue: 0,0:14:21.46,0:14:23.92,Default,,0000,0000,0000,,Il simbolo deve essere un fiume con i pesci!
+Dialogue: 0,0:14:23.92,0:14:24.59,Default,,0000,0000,0000,,Come?
+Dialogue: 0,0:14:24.59,0:14:27.17,Default,,0000,0000,0000,,Bene! Andiamo a vedere al fiume!
+Dialogue: 0,0:14:28.76,0:14:30.14,Default,,0000,0000,0000,,Ehi!
+Dialogue: 0,0:14:31.39,0:14:35.22,Default,,0000,0000,0000,,Dai, Genta! Basta ora!
+Dialogue: 0,0:14:36.60,0:14:37.98,Default,,0000,0000,0000,,È pericoloso.
+Dialogue: 0,0:14:38.56,0:14:42.44,Default,,0000,0000,0000,,State zitti! \NIl tesoro deve essere in fondo al fiume!
+Dialogue: 0,0:14:43.40,0:14:44.57,Default,,0000,0000,0000,,Che fredda!
+Dialogue: 0,0:14:44.90,0:14:50.53,Italics,,0000,0000,0000,,No, questo codice rappresenta solo \Ncose che si possono vedere di notte.
+Dialogue: 0,0:14:50.78,0:14:54.53,Italics,,0000,0000,0000,,Perciò non è possibile \Nche il pesce rappresenti un fiume.
+Dialogue: 0,0:14:55.54,0:14:59.75,Italics,,0000,0000,0000,,Se la mia teoria è corretta, \Ndeve essere qui vicino...
+Dialogue: 0,0:14:59.75,0:15:01.67,Italics,,0000,0000,0000,,Un neon a forma di pesce...
+Dialogue: 0,0:15:16.43,0:15:17.81,Default,,0000,0000,0000,,Conan?
+Dialogue: 0,0:15:20.69,0:15:22.40,Default,,0000,0000,0000,,Finalmente l'ho trovato.
+Dialogue: 0,0:15:23.36,0:15:24.94,Default,,0000,0000,0000,,Il pesce luminoso.
+Dialogue: 0,0:15:27.03,0:15:29.11,Default,,0000,0000,0000,,Pesce luminoso?
+Dialogue: 0,0:15:29.11,0:15:31.70,Default,,0000,0000,0000,,Ma dove sta?
+Dialogue: 0,0:15:32.57,0:15:34.07,Default,,0000,0000,0000,,Venite con me.
+Dialogue: 0,0:15:34.07,0:15:35.66,Default,,0000,0000,0000,,Uffa...
+Dialogue: 0,0:15:36.53,0:15:40.37,Default,,0000,0000,0000,,C'è davvero un pesce luminoso\Nin un posto del genere?!
+Dialogue: 0,0:15:41.58,0:15:45.34,Default,,0000,0000,0000,,Ehi! È buio pesto,\Naltro che pesce, qui non si vede niente!
+Dialogue: 0,0:15:45.79,0:15:48.05,Default,,0000,0000,0000,,Date un'occhiata fuori.
+Dialogue: 0,0:15:48.34,0:15:49.55,Default,,0000,0000,0000,,Dal lato del fiume.
+Dialogue: 0,0:15:49.55,0:15:50.72,Default,,0000,0000,0000,,Il fiume?
+Dialogue: 0,0:15:51.09,0:15:52.59,Default,,0000,0000,0000,,Guarda! È quello.
+Dialogue: 0,0:15:52.80,0:15:55.05,Default,,0000,0000,0000,,Quello è il pesce luminoso!
+Dialogue: 0,0:15:57.85,0:16:00.98,Default,,0000,0000,0000,,Le luci si riflettono sull'acqua\Ne creano la forma di un pesce!
+Dialogue: 0,0:16:00.98,0:16:04.10,Default,,0000,0000,0000,,E l'occhio del pesce è quel lampione lì!
+Dialogue: 0,0:16:04.10,0:16:06.61,Default,,0000,0000,0000,,Allora il tesoro è qui?!
+Dialogue: 0,0:16:06.61,0:16:07.57,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:16:07.57,0:16:10.11,Default,,0000,0000,0000,,Probabilmente il punto è...
+Dialogue: 0,0:16:17.99,0:16:19.16,Default,,0000,0000,0000,,...qui vicino!
+Dialogue: 0,0:16:23.29,0:16:24.37,Default,,0000,0000,0000,,Una moneta d'oro...
+Dialogue: 0,0:16:28.04,0:16:30.76,Italics,,0000,0000,0000,,Cos'è quell'ombra scura?!
+Dialogue: 0,0:16:30.76,0:16:32.88,Italics,,0000,0000,0000,,Sembra sia attaccata una fune.
+Dialogue: 0,0:16:33.43,0:16:34.76,Italics,,0000,0000,0000,,È così allora.
+Dialogue: 0,0:16:34.76,0:16:36.93,Italics,,0000,0000,0000,,Hanno issato il sacco di monete
+Dialogue: 0,0:16:36.93,0:16:39.14,Italics,,0000,0000,0000,,usando una fune legata al soffitto!
+Dialogue: 0,0:16:46.81,0:16:48.94,Default,,0000,0000,0000,,Il tesoro! È il tesoro!
+Dialogue: 0,0:16:54.24,0:16:56.78,Default,,0000,0000,0000,,Grazie dell'aiuto, bambini!
+Dialogue: 0,0:16:56.78,0:16:59.45,Default,,0000,0000,0000,,C-Chi siete voi?
+Dialogue: 0,0:16:59.74,0:17:02.37,Italics,,0000,0000,0000,,Non sono quelli \Nche erano di fronte alla Tokyo Tower?
+Dialogue: 0,0:17:03.71,0:17:05.42,Italics,,0000,0000,0000,,Non saranno per caso...
+Dialogue: 0,0:17:05.42,0:17:08.63,Default,,0000,0000,0000,,Ridaccelo! \NÈ il tesoro che abbiamo trovato noi!
+Dialogue: 0,0:17:08.63,0:17:09.96,Default,,0000,0000,0000,,Fermati!
+Dialogue: 0,0:17:09.96,0:17:11.25,sign_30239_283_Bam__Smash__Cras,,0000,0000,0000,,{\move(600,38,-200,38)\clip(65.175,4,463.65,229)}Bam! Smash! Crash!
+Dialogue: 0,0:17:11.32,0:17:13.38,Default,,0000,0000,0000,,Maledizione!
+Dialogue: 0,0:17:13.38,0:17:15.84,Default,,0000,0000,0000,,Stai bene, Genta?
+Dialogue: 0,0:17:17.55,0:17:21.85,Italics,,0000,0000,0000,,Capisco, non sanno ancora \Ndove sono le monete.
+Dialogue: 0,0:17:21.85,0:17:24.27,Default,,0000,0000,0000,,Chi sono queste persone?
+Dialogue: 0,0:17:24.73,0:17:27.19,Default,,0000,0000,0000,,Una banda di rapinatori italiani, mi sa.
+Dialogue: 0,0:17:27.19,0:17:29.27,Default,,0000,0000,0000,,B-Banda di rapinatori?!
+Dialogue: 0,0:17:29.27,0:17:32.44,Default,,0000,0000,0000,,Ora che ci penso, ne parlavano al TG!
+Dialogue: 0,0:17:32.44,0:17:35.28,Default,,0000,0000,0000,,Allora quelle monete...
+Dialogue: 0,0:17:35.28,0:17:37.11,Default,,0000,0000,0000,,Precisamente.
+Dialogue: 0,0:17:37.78,0:17:42.87,Default,,0000,0000,0000,,Sono le monete che abbiamo rubato\Nun anno fa da una banca italiana.
+Dialogue: 0,0:17:42.87,0:17:45.33,Default,,0000,0000,0000,,Per ordine del nostro boss Cavane.
+Dialogue: 0,0:17:45.33,0:17:49.75,Default,,0000,0000,0000,,Ma poi Cavane ci ha traditi \Ned è fuggito in Giappone,
+Dialogue: 0,0:17:49.75,0:17:54.01,Default,,0000,0000,0000,,portando con sé \Nle 15.000 monete "Maple Leaf".
+Dialogue: 0,0:17:54.71,0:17:58.59,Default,,0000,0000,0000,,Noi l'abbiamo inseguito fin qui in Giappone\N e gli abbiamo fatto una visita.
+Dialogue: 0,0:17:58.59,0:18:01.81,Default,,0000,0000,0000,,Ma lui aveva già nascosto \Nle monete da qualche parte.
+Dialogue: 0,0:18:02.97,0:18:06.60,Default,,0000,0000,0000,,Per quanto lo torchiassimo,\Nnon voleva rivelare il nascondiglio.
+Dialogue: 0,0:18:06.98,0:18:10.27,Default,,0000,0000,0000,,E nella stanza abbiamo trovato \Nsolo questo messaggio in codice!
+Dialogue: 0,0:18:10.81,0:18:14.36,Default,,0000,0000,0000,,Non ci rimaneva altra scelta \Nse non rivelare dov'era alla polizia,
+Dialogue: 0,0:18:14.36,0:18:18.86,Default,,0000,0000,0000,,e cercare le monete noi stessi, \Nbasandoci su questo codice.
+Dialogue: 0,0:18:19.74,0:18:23.70,Default,,0000,0000,0000,,Quando ci siamo bloccati davanti al museo\Nil vento ci ha portato via il foglio.
+Dialogue: 0,0:18:24.12,0:18:27.41,Default,,0000,0000,0000,,Ma quando abbiamo visto \Nche stavate risolvendo il codice
+Dialogue: 0,0:18:27.41,0:18:29.67,Default,,0000,0000,0000,,vi abbiamo lasciati proseguire.
+Dialogue: 0,0:18:29.67,0:18:33.71,Default,,0000,0000,0000,,Chi s'immaginava \Nche l'avreste trovato davvero!
+Dialogue: 0,0:18:36.09,0:18:38.01,Default,,0000,0000,0000,,U-Una pistola!
+Dialogue: 0,0:18:42.10,0:18:43.43,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:18:44.31,0:18:47.52,Default,,0000,0000,0000,,Allora?! Dove sono le monete?
+Dialogue: 0,0:18:47.52,0:18:49.48,Default,,0000,0000,0000,,Sbrigati a parlare!
+Dialogue: 0,0:18:51.98,0:18:53.61,Default,,0000,0000,0000,,Vicino al pesce.
+Dialogue: 0,0:18:53.61,0:18:54.44,Default,,0000,0000,0000,,Cosa?
+Dialogue: 0,0:18:54.44,0:18:57.44,Default,,0000,0000,0000,,Le monete si trovano nel punto esatto
+Dialogue: 0,0:18:57.44,0:19:01.70,Default,,0000,0000,0000,,in cui il paesaggio che si vede fuori \Ncorrisponde al simbolo disegnato sul foglio.
+Dialogue: 0,0:19:02.32,0:19:03.99,Default,,0000,0000,0000,,Ah, capisco.
+Dialogue: 0,0:19:08.87,0:19:11.54,Default,,0000,0000,0000,,Conan! Perché gliel'hai detto?!
+Dialogue: 0,0:19:11.54,0:19:15.17,Default,,0000,0000,0000,,Se trovano il tesoro ci uccideranno!
+Dialogue: 0,0:19:15.17,0:19:18.09,Italics,,0000,0000,0000,,Veramente vogliono ucciderci in ogni caso.
+Dialogue: 0,0:19:18.09,0:19:23.05,Default,,0000,0000,0000,,Scommetto che ci spareranno...
+Dialogue: 0,0:19:23.05,0:19:27.52,Default,,0000,0000,0000,,Sicuramente ci metteranno nel cemento \Ne ci butteranno in mare.
+Dialogue: 0,0:19:27.52,0:19:31.98,Default,,0000,0000,0000,,No, ci bruceranno vivi \Nper non lasciare tracce!
+Dialogue: 0,0:19:31.98,0:19:33.98,Default,,0000,0000,0000,,M-Mamma...
+Dialogue: 0,0:19:33.98,0:19:35.73,Default,,0000,0000,0000,,Papà...
+Dialogue: 0,0:19:35.73,0:19:37.36,Default,,0000,0000,0000,,Mammina...
+Dialogue: 0,0:19:40.49,0:19:42.66,Default,,0000,0000,0000,,Non è ancora il momento di arrendersi!
+Dialogue: 0,0:19:43.74,0:19:45.62,Default,,0000,0000,0000,,Abbiamo ancora una possibilità.
+Dialogue: 0,0:19:46.24,0:19:48.45,Default,,0000,0000,0000,,Purché uniamo le nostre forze.
+Dialogue: 0,0:19:48.45,0:19:50.96,Default,,0000,0000,0000,,Che cosa potremmo fare?
+Dialogue: 0,0:19:50.96,0:19:53.17,Default,,0000,0000,0000,,Siamo solo dei bambini!
+Dialogue: 0,0:19:53.42,0:19:55.71,Default,,0000,0000,0000,,Noi siamo la squadra dei giovani detective!
+Dialogue: 0,0:19:57.67,0:20:00.17,Default,,0000,0000,0000,,Giusto. Cosa dobbiamo fare?
+Dialogue: 0,0:20:00.55,0:20:02.84,Default,,0000,0000,0000,,Alzatevi, ma senza farvi notare da loro.
+Dialogue: 0,0:20:08.77,0:20:10.43,Italics,,0000,0000,0000,,Abbiamo una sola possibilità.
+Dialogue: 0,0:20:16.27,0:20:21.03,Italics,,0000,0000,0000,,Il momento in cui troveranno le monete\Ne abbasseranno la guardia!
+Dialogue: 0,0:20:24.28,0:20:25.16,Italics,,0000,0000,0000,,Adesso!
+Dialogue: 0,0:20:25.16,0:20:26.62,Default,,0000,0000,0000,,Correte!
+Dialogue: 0,0:20:54.56,0:20:57.06,Default,,0000,0000,0000,,{\fad(0,260)}Ce l'abbiamo fatta!
+Dialogue: 0,0:20:59.04,0:21:02.17,Italics,,0000,0000,0000,,Subito dopo ci precipitammo\N in una stazione di polizia
+Dialogue: 0,0:21:02.17,0:21:03.99,Italics,,0000,0000,0000,,e spiegammo in breve cos'era successo.
+Dialogue: 0,0:21:04.52,0:21:06.61,Italics,,0000,0000,0000,,Per la gioia di tutti, \Nla banda fu arrestata
+Dialogue: 0,0:21:06.61,0:21:08.57,Italics,,0000,0000,0000,,e così il caso fu risolto.
+Dialogue: 0,0:21:08.91,0:21:12.49,Italics,,0000,0000,0000,,Fu il primo successo della nostra \Nsquadra dei giovani detective.
+Dialogue: 0,0:23:00.04,0:23:02.01,Default,,0000,0000,0000,,Siete stati tutti bravissimi!
+Dialogue: 0,0:23:02.01,0:23:03.94,Default,,0000,0000,0000,,Avete decifrato il codice
+Dialogue: 0,0:23:04.52,0:23:06.26,Default,,0000,0000,0000,,e persino preso i rapinatori!
+Dialogue: 0,0:23:06.26,0:23:09.33,Default,,0000,0000,0000,,Sono stato io! Li ho catturati io!
+Dialogue: 0,0:23:09.33,0:23:12.37,Default,,0000,0000,0000,,E io ho decifrato il codice \Ncon la mia deduzione...
+Dialogue: 0,0:23:14.20,0:23:15.88,Default,,0000,0000,0000,,Non è vero.
+Dialogue: 0,0:23:15.88,0:23:19.79,Default,,0000,0000,0000,,A decifrare il codice \Ne a battere la banda dei rapinatori
+Dialogue: 0,0:23:20.46,0:23:22.26,Default,,0000,0000,0000,,è stato Conan!
+Dialogue: 0,0:23:24.15,0:23:26.81,Default,,0000,0000,0000,,È stato fighissimo!
+Dialogue: 0,0:23:32.43,0:23:33.79,Default,,0000,0000,0000,,Conan.
+Dialogue: 0,0:23:34.09,0:23:34.59,sign_41737_351_Smack__,,0000,0000,0000,,Smack!
+Dialogue: 0,0:23:34.09,0:23:34.59,sign_41737_351_Smack__,,0000,0000,0000,,{\p1\fscx10\fscy15\bord0\c&HE48FDD&\frz2.719\pos(341.111,291.889)}m 13 -3 l 4 -6 l 0 -8 l -12 -8 l -17 -8 l -23 -6 l -30 -4 l -33 -2 l -37 1 l -43 6 l -46 11 l -49 16 l -51 22 l -52 27 l -52 38 l -51 51 l -47 67 l -37 81 l -20 99 l 3 118 l 19 133 l 30 143 l 60 117 l 92 89 l 108 69 l 113 48 l 113 28 l 106 9 l 93 -3 l 83 -7 l 68 -8 l 53 -4 l 42 3 l 38 7 l 33 14 l 31 16 l 22 4
+Dialogue: 0,0:23:35.01,0:23:36.27,Default,,0000,0000,0000,,Grazie!
+Dialogue: 0,0:23:40.16,0:23:45.15,Default,,0000,0000,0000,,Che bello, Conan! \NTi sei trovato una fidanzatina carina!
+Dialogue: 0,0:23:45.15,0:23:47.72,Default,,0000,0000,0000,,N-No, non è così...
+Dialogue: 0,0:23:47.72,0:23:50.03,Default,,0000,0000,0000,,Sei arrossito, che tenero!
+Dialogue: 0,0:23:50.03,0:23:53.01,Default,,0000,0000,0000,,Ho detto che non è così...
+Dialogue: 0,0:23:54.78,0:23:56.48,Italics,,0000,0000,0000,,Maledetto Conan...
+Dialogue: 0,0:23:57.24,0:23:58.84,Italics,,0000,0000,0000,,Maledetto Conan...
+Dialogue: 1,0:24:03.42,0:24:06.30,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs25\b0\c&HFFFFFF&\fnArial\pos(258.67,283.257)}Fra 60 secondi l’indizio del prossimo caso
+Dialogue: 0,0:24:03.42,0:24:06.30,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs25\b0\c&HFFFFFF&\fnArial\pos(258.67,283.257)}Fra 60 secondi l’indizio del prossimo caso
+Dialogue: 1,0:24:03.42,0:24:06.30,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HFDFDFD&\fnArial\pos(129.524,45.133)}Anteprima
+Dialogue: 0,0:24:03.42,0:24:06.30,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HD6DDED&\fnArial\pos(129.524,45.133)}Anteprima
+Dialogue: 0,0:24:03.74,0:24:06.30,Italics,,0000,0000,0000,,Devo prima farvi qualche domanda!
+Dialogue: 0,0:24:07.01,0:24:08.97,Default,,0000,0000,0000,,Chi ha la bomba?
+Dialogue: 0,0:24:08.97,0:24:11.01,Default,,0000,0000,0000,,Dov'è finito? Non lo trovo!
+Dialogue: 0,0:24:18.49,0:24:20.74,Italics,,0000,0000,0000,,Per sembrare credibile, posso solo
+Dialogue: 0,0:24:21.28,0:24:24.32,Italics,,0000,0000,0000,,spiegare a Ran che sono Shinichi Kudo.
+Dialogue: 0,0:24:25.55,0:24:27.41,Default,,0000,0000,0000,,Chi sei in realtà?
+Dialogue: 1,0:24:27.40,0:24:31.78,Titolo episodio,,0000,0000,0000,,{\blur0.5\bord0.1\c&HFFFFFF&\pos(270,230)}I{\c&HFFFEFE&}l{\c&HFFFDFC&} {\c&HFEFDFB&}c{\c&HFEFCF9&}a{\c&HFEFBF8&}s{\c&HFEFAF7&}o{\c&HFDF9F5&} {\c&HFDF9F4&}d{\c&HFDF8F3&}e{\c&HFDF7F1&}l{\c&HFCF6F0&}l{\c&HFCF5EE&}'{\c&HFCF5ED&}e{\c&HFCF4EC&}s{\c&HFCF3EA&}p{\c&HFBF2E9&}l{\c&HFBF1E7&}o{\c&HFBF1E6&}s{\c&HFBF0E5&}i{\c&HFAEFE3&}o{\c&HFAEEE2&}n{\c&HFAEEE1&}e{\c&HFAEDDF&} {\c&HF9ECDE&}s{\c&HF9EBDC&}u{\c&HF9EADB&}l{\c&HF9EADA&}l{\c&HF9E9D8&}o{\c&HF8E8D7&} {\c&HF8E7D5&}S{\c&HF8E6D4&}h{\c&HF8E6D3&}i{\c&HF7E5D1&}n{\c&HF7E4D0&}k{\c&HF7E3CF&}a{\c&HF7E2CD&}n{\c&HF6E2CC&}s{\c&HF6E1CA&}e{\c&HF6E0C9&}n
+Dialogue: 0,0:24:27.40,0:24:33.45,Titolo episodio,,0000,0000,0000,,{\blur0.5\bord0.1\c&HF6E0C9&\pos(270,230)}Il caso dell'esplosione sullo Shinkansen
+Dialogue: 0,0:24:27.64,0:24:29.07,Italics,,0000,0000,0000,,Nel prossimo episodio di Conan...
+Dialogue: 0,0:24:29.07,0:24:31.38,Italics,,0000,0000,0000,,{\pos(263,350)}"Il caso dell'esplosione sullo Shinkansen".
+Dialogue: 0,0:24:50.17,0:24:52.13,Default,,0000,0000,0000,,Prossimo indizio per Conan:
+Dialogue: 0,0:24:52.13,0:24:54.48,Default,,0000,0000,0000,,Telefono cellulare.
+Dialogue: 0,0:24:54.48,0:25:00.97,Cartello BASE,,0000,0000,0000,,{\blur0.6\pos(264.58,272.8)}Non perdetevi il prossimo episodio
+Dialogue: 1,0:24:54.48,0:25:00.97,Cartello BASE,,0000,0000,0000,,{\blur0\c&HDFDFDF&\pos(264.58,272.8)}Non perdetevi il prossimo episodio
+Dialogue: 0,0:24:55.34,0:24:59.05,Default,,0000,0000,0000,,Il prossimo episodio vi terrà col fiato sospeso! Guardatelo!

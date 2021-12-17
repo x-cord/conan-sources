@@ -1,0 +1,449 @@
+[Script Info]
+Title: Italiano
+Original Script: cr_it  [http://www.crunchyroll.com/user/cr_it]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 528
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: OS,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0001,0001,0015,0
+Style: On Top,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0017,0017,0022,0
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Default - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Flashback - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Flashback Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Flashback Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Cartello BASE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0008,0008,0010,1
+Style: Titolo episodio,Verdana,25,&H00D0B193,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,180,0,0,1,0,0,2,0008,0008,0010,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.15,0:00:02.90,Italics,,0000,0000,0000,,Il mio nome è Shinichi Kudo.
+Dialogue: 0,0:00:02.90,0:00:06.35,Italics,,0000,0000,0000,,Sono un famoso detective\Nche ha risolto tantissimi casi.
+Dialogue: 0,0:00:06.35,0:00:08.87,Italics,,0000,0000,0000,,Ho risolto anche un omicidio sulle giostre.
+Dialogue: 0,0:00:08.87,0:00:11.83,Italics,,0000,0000,0000,,Ma sono stato avvelenato\Nda un'organizzazione misteriosa.
+Dialogue: 0,0:00:11.83,0:00:13.01,Italics,,0000,0000,0000,,Un vero guaio!
+Dialogue: 0,0:00:13.01,0:00:15.01,Italics,,0000,0000,0000,,Ran, cosa mi succederà?!
+Dialogue: 1,0:01:46.00,0:01:52.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur0.5\bord0.1\pos(258.852,113.429)\c&HE3D5C8&}I{*\c&HE3D6C9&}l {*\c&HE4D7CA&}c{*\c&HE5D8CB&}a{*\c&HE5D8CC&}s{*\c&HE6D9CD&}o {*\c&HE7DACF&}d{*\c&HE7DBCF&}e{*\c&HE8DBD0&}l {*\c&HE9DDD2&}r{*\c&HE9DDD3&}a{*\c&HEADED3&}p{*\c&HEADED4&}i{*\c&HEBDFD5&}m{*\c&HEBE0D6&}e{*\c&HEBE0D7&}n{*\c&HECE1D8&}t{*\c&HECE2D8&}o\N{*\c&HEDE3DA&}d{*\c&HEEE4DB&}e{*\c&HEEE4DC&}l{*\c&HEFE5DC&}l{*\c&HEFE5DD&}a {*\c&HF0E7DF&}f{*\c&HF1E7E0&}i{*\c&HF1E8E0&}g{*\c&HF2E9E1&}l{*\c&HF2E9E2&}i{*\c&HF2EAE3&}a {*\c&HF3EBE5&}d{*\c&HF4ECE5&}e{*\c&HF4ECE6&}l {*\c&HF5EEE8&}p{*\c&HF6EEE9&}r{*\c&HF6EFE9&}e{*\c&HF7F0EA&}s{*\c&HF7F0EB&}i{*\c&HF8F1EC&}d{*\c&HF8F1ED&}e{*\c&HF9F2EE&}n{*\c&HF9F3EE&}t{*\c&HFAF3EF&}e{\c&HFAF4F0&}
+Dialogue: 0,0:01:46.00,0:01:52.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur0.5\bord0.1\pos(258.852,113.429)\c&HE3D5C8&}Il caso del rapimento\Ndella figlia del presidente
+Dialogue: 0,0:01:47.04,0:01:50.17,Italics,,0000,0000,0000,,"Il caso del rapimento\Ndella figlia del presidente".
+Dialogue: 0,0:01:53.05,0:01:54.42,Default,,0000,0000,0000,,Stai bene, piccolo?!
+Dialogue: 0,0:01:55.05,0:01:56.88,Italics,,0000,0000,0000,,Piccolo?!
+Dialogue: 0,0:01:56.88,0:01:58.63,Italics,,0000,0000,0000,,Ma cosa dicono questi?
+Dialogue: 0,0:01:58.63,0:02:00.51,Italics,,0000,0000,0000,,Io sono in seconda liceo!
+Dialogue: 0,0:02:00.51,0:02:03.10,Default,,0000,0000,0000,,Come ti sei fatto quella ferita alla testa?
+Dialogue: 0,0:02:03.10,0:02:04.14,Italics,,0000,0000,0000,,Ferita?
+Dialogue: 0,0:02:04.89,0:02:05.52,Italics,,0000,0000,0000,,Giusto!
+Dialogue: 0,0:02:06.06,0:02:07.98,Italics,,0000,0000,0000,,Sono stato colpito \Nda un uomo vestito di nero...
+Dialogue: 0,0:02:09.98,0:02:10.56,Italics,,0000,0000,0000,,Ma cosa...
+Dialogue: 0,0:02:11.31,0:02:13.44,Default,,0000,0000,0000,,Abbiamo trovato un bambino ferito.
+Dialogue: 0,0:02:13.44,0:02:14.98,Default,,0000,0000,0000,,Sì, un bambino delle elementari.
+Dialogue: 0,0:02:14.98,0:02:17.78,Italics,,0000,0000,0000,,Chi sarebbe il bambino delle elementari?!
+Dialogue: 0,0:02:17.78,0:02:19.24,Italics,,0000,0000,0000,,Cosa stanno dicendo?!
+Dialogue: 0,0:02:19.24,0:02:20.82,Italics,,0000,0000,0000,,Che strani questi poliziotti!
+Dialogue: 0,0:02:22.20,0:02:25.45,Default,,0000,0000,0000,,È ferito alla testa,\Npotrebbe trattarsi di un crimine.
+Dialogue: 0,0:02:26.66,0:02:27.62,Default,,0000,0000,0000,,Dov'è andato?!
+Dialogue: 0,0:02:27.62,0:02:28.12,Default,,0000,0000,0000,,Eh?!
+Dialogue: 0,0:02:28.12,0:02:29.79,Default,,0000,0000,0000,,Potrebbe trattarsi di un crimine!\NTrovalo!
+Dialogue: 0,0:02:29.79,0:02:30.92,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:02:32.04,0:02:35.00,Cartello BASE,,0000,0000,0000,,{\blur0.5\frx10\fry348\pos(251.861,109.467)\frz16.68}{\b1\fs19\c&H201A0A&\i1}Agenzia investigativa Mori
+Dialogue: 0,0:02:33.29,0:02:35.00,Default,,0000,0000,0000,,Sono a casa!
+Dialogue: 0,0:02:35.00,0:02:36.96,Default,,0000,0000,0000,,Ah, sei tornata.
+Dialogue: 0,0:02:36.96,0:02:40.26,Default,,0000,0000,0000,,Papà, insomma, cos'è questa discarica?!
+Dialogue: 0,0:02:40.26,0:02:44.51,Default,,0000,0000,0000,,È per questo che non ti affidano casi.\NE che la mamma è scappata.
+Dialogue: 0,0:02:44.97,0:02:47.31,Default,,0000,0000,0000,,Sono io che mi scelgo i lavori.
+Dialogue: 0,0:02:47.31,0:02:50.69,Default,,0000,0000,0000,,A proposito, che fine ha fatto\Nquel moccioso che gioca al detective?
+Dialogue: 0,0:02:50.69,0:02:52.61,Default,,0000,0000,0000,,Non eravate insieme?
+Dialogue: 0,0:02:52.90,0:02:55.86,Default,,0000,0000,0000,,Sì, siamo andati insieme al luna park.
+Dialogue: 0,0:02:55.86,0:02:57.28,Default,,0000,0000,0000,,Ma all'improvviso...
+Dialogue: 0,0:02:57.28,0:02:59.90,Flashback,,0000,0000,0000,,Scusa, Ran. Torna pure senza di me!
+Dialogue: 0,0:03:01.28,0:03:03.82,Default,,0000,0000,0000,,Chissà cosa sarà successo...
+Dialogue: 0,0:03:22.01,0:03:25.97,Italics,,0000,0000,0000,,Ho corso oggettivamente poco,\Ncome mai sono senza fiato?!
+Dialogue: 0,0:03:30.89,0:03:32.52,Italics,,0000,0000,0000,,I-Il mio corpo...
+Dialogue: 0,0:03:32.52,0:03:33.40,Default,,0000,0000,0000,,Si è rimpicciolito!
+Dialogue: 0,0:03:34.98,0:03:36.44,Default,,0000,0000,0000,,Com'è possibile?!
+Dialogue: 0,0:03:36.44,0:03:38.78,Default,,0000,0000,0000,,Aspetta, non sarà stato...
+Dialogue: 0,0:03:39.19,0:03:42.24,Flashback,,0000,0000,0000,,Usiamo questo. L'ultimo veleno\N sviluppato dall'organizzazione.
+Dialogue: 0,0:03:42.78,0:03:45.91,Default,,0000,0000,0000,,Sarà per via del veleno che ho ingoiato?!
+Dialogue: 0,0:03:51.54,0:03:53.46,Italics,,0000,0000,0000,,Questa è la segreteria di Shinichi Kudo.
+Dialogue: 0,0:03:53.46,0:03:55.21,Italics,,0000,0000,0000,,Non sono in casa al momento.
+Dialogue: 0,0:03:55.21,0:03:59.13,Italics - Alt,,0000,0000,0000,,Per consulenze su indagini,\Nlasciate nome e numero di telefono
+Dialogue: 0,0:03:57.80,0:04:00.26,Default,,0000,0000,0000,,Che strano. Non è ancora rientrato.
+Dialogue: 0,0:03:59.13,0:04:00.71,Italics - Alt,,0000,0000,0000,,e vi richiamerò quanto prima.
+Dialogue: 0,0:04:00.26,0:04:05.01,Default,,0000,0000,0000,,Sarà andato a cena\Ncon quel suo padre scrittore, no?
+Dialogue: 0,0:04:05.01,0:04:08.26,Default,,0000,0000,0000,,I genitori di Shinichi\Nsono negli Stati Uniti da tre anni
+Dialogue: 0,0:04:08.26,0:04:10.81,Default,,0000,0000,0000,,quindi lui ora vive da solo!
+Dialogue: 0,0:04:10.81,0:04:11.73,Default,,0000,0000,0000,,Ah sì?
+Dialogue: 0,0:04:12.31,0:04:15.94,Default,,0000,0000,0000,,Deve essergli successo qualcosa \Ndopo che si è allontanato!
+Dialogue: 0,0:04:15.94,0:04:18.11,Default,,0000,0000,0000,,Vado a controllare a casa sua!
+Dialogue: 0,0:04:18.11,0:04:20.40,Default,,0000,0000,0000,,Eh?! E la mia cena?
+Dialogue: 0,0:04:25.07,0:04:29.03,Italics,,0000,0000,0000,,Maledizione!\NNon riesco neppure a entrare in casa mia!
+Dialogue: 0,0:04:37.25,0:04:38.84,Default,,0000,0000,0000,,Professor Agasa!
+Dialogue: 0,0:04:38.84,0:04:40.34,Default,,0000,0000,0000,,Chi sei?
+Dialogue: 0,0:04:40.34,0:04:42.09,Default,,0000,0000,0000,,Sono io! Sono Shinichi!
+Dialogue: 0,0:04:42.80,0:04:44.93,Default,,0000,0000,0000,,Un parente di Shinichi?
+Dialogue: 0,0:04:44.93,0:04:46.55,Default,,0000,0000,0000,,Casa sua è quella qui accanto.
+Dialogue: 0,0:04:46.55,0:04:48.64,Default,,0000,0000,0000,,Sono io Shinichi!
+Dialogue: 0,0:04:48.64,0:04:50.22,Default,,0000,0000,0000,,E posso provarlo.
+Dialogue: 0,0:04:50.68,0:04:52.35,Default,,0000,0000,0000,,Ti chiami Hiroshi Agasa, 52 anni!
+Dialogue: 0,0:04:52.35,0:04:55.23,Default,,0000,0000,0000,,Sei un inventore eccentrico\Nche si considera un genio,
+Dialogue: 0,0:04:55.23,0:04:56.98,Default,,0000,0000,0000,,ma costruisci solo cose inutili!
+Dialogue: 0,0:04:56.98,0:04:59.61,Default,,0000,0000,0000,,Inoltre hai un neo sul sedere\Nda cui esce un pelo!
+Dialogue: 0,0:04:59.61,0:05:02.61,Default,,0000,0000,0000,,Dovrebbe saperlo solo Shinichi!
+Dialogue: 0,0:05:03.28,0:05:05.95,Default,,0000,0000,0000,,Ha raccontato in giro\Ni miei segreti, eh?
+Dialogue: 0,0:05:05.95,0:05:08.66,Default,,0000,0000,0000,,Non è così! Sono io Shinichi!
+Dialogue: 0,0:05:08.66,0:05:10.99,Default,,0000,0000,0000,,Mi hanno dato un veleno\Nche mi ha rimpicciolito!
+Dialogue: 0,0:05:11.62,0:05:13.20,Default,,0000,0000,0000,,Un veleno che rimpicciolisce?
+Dialogue: 0,0:05:13.20,0:05:13.95,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:05:15.83,0:05:19.21,Default,,0000,0000,0000,,Vorrei proprio vederlo un veleno del genere!
+Dialogue: 0,0:05:19.21,0:05:21.67,Default,,0000,0000,0000,,Moccioso losco!\NTi porto alla polizia!
+Dialogue: 0,0:05:21.67,0:05:25.38,Default,,0000,0000,0000,,Professore! Poco fa sei tornato di fretta \N dal ristorante Colombo, vero?
+Dialogue: 0,0:05:26.38,0:05:27.84,Default,,0000,0000,0000,,Come fai a saperlo?
+Dialogue: 0,0:05:28.26,0:05:29.76,Default,,0000,0000,0000,,Dai tuoi vestiti.
+Dialogue: 0,0:05:29.76,0:05:33.18,Default,,0000,0000,0000,,Ci sono macchie di bagnato sul davanti,\Nma non dietro.
+Dialogue: 0,0:05:33.18,0:05:35.52,Default,,0000,0000,0000,,Questo indica che hai corso sotto la pioggia.
+Dialogue: 0,0:05:35.52,0:05:37.35,Default,,0000,0000,0000,,Inoltre hai del fango sui pantaloni.
+Dialogue: 0,0:05:37.77,0:05:39.73,Default,,0000,0000,0000,,L'unica strada con del fango qui vicino
+Dialogue: 0,0:05:39.73,0:05:41.82,Default,,0000,0000,0000,,è quella con i lavori in corso, \Ndi fronte al Colombo.
+Dialogue: 0,0:05:42.36,0:05:45.86,Default,,0000,0000,0000,,E poi sui baffi hai del sugo alla bolognese, \Nspecialità del Colombo.
+Dialogue: 0,0:05:47.40,0:05:48.66,Default,,0000,0000,0000,,C-Chi sei?
+Dialogue: 0,0:05:50.74,0:05:52.74,Default,,0000,0000,0000,,Elementare, caro Agasa!
+Dialogue: 0,0:05:52.74,0:05:55.75,Default,,0000,0000,0000,,S-Shinichi?
+Dialogue: 0,0:05:57.62,0:05:59.12,Default,,0000,0000,0000,,Ho capito.
+Dialogue: 0,0:05:59.12,0:06:05.17,Default,,0000,0000,0000,,Così a causa del veleno incompleto,\Nil tuo corpo si è rimpicciolito.
+Dialogue: 0,0:06:05.38,0:06:07.34,Default,,0000,0000,0000,,Esatto.
+Dialogue: 0,0:06:07.34,0:06:10.51,Default,,0000,0000,0000,,Che pena. I miei vestiti \Nda bambino mi stanno a pennello.
+Dialogue: 0,0:06:11.43,0:06:13.60,Default,,0000,0000,0000,,Ti prego, professore!\NNon sei forse un genio?
+Dialogue: 0,0:06:13.60,0:06:16.85,Default,,0000,0000,0000,,Crea una medicina\Nper farmi tornare normale!
+Dialogue: 0,0:06:16.85,0:06:19.98,Default,,0000,0000,0000,,Ma se non conosco neppure\Ngli ingredienti di quelle pillole!
+Dialogue: 0,0:06:20.44,0:06:22.61,Default,,0000,0000,0000,,Allora dobbiamo scoprire dove sono quei tizi
+Dialogue: 0,0:06:22.61,0:06:24.32,Default,,0000,0000,0000,,e prendere quelle pillole!
+Dialogue: 0,0:06:24.32,0:06:26.74,Default,,0000,0000,0000,,Beh, potrebbe essere d'aiuto...
+Dialogue: 0,0:06:27.40,0:06:28.78,Default,,0000,0000,0000,,Però ascoltami, Shinichi!
+Dialogue: 0,0:06:28.78,0:06:30.66,Default,,0000,0000,0000,,Se scoprissero che sei ancora vivo,
+Dialogue: 0,0:06:30.66,0:06:33.33,Default,,0000,0000,0000,,tornerebbero per ucciderti davvero stavolta!
+Dialogue: 0,0:06:33.33,0:06:35.95,Default,,0000,0000,0000,,Tutto questo deve restare un segreto fra noi due.
+Dialogue: 0,0:06:35.95,0:06:37.54,Default,,0000,0000,0000,,Non devi dirlo a nessuno!
+Dialogue: 0,0:06:37.54,0:06:39.37,Default,,0000,0000,0000,,E ovviamente nemmeno a Ran.
+Dialogue: 0,0:06:39.37,0:06:41.42,Default,,0000,0000,0000,,Shinichi, sei in casa?
+Dialogue: 0,0:06:41.42,0:06:42.29,Default,,0000,0000,0000,,È Ran!
+Dialogue: 0,0:06:42.29,0:06:44.13,Default,,0000,0000,0000,,Oh no! Sbrigati, nasconditi!
+Dialogue: 0,0:06:44.13,0:06:46.46,Default,,0000,0000,0000,,Se sei a casa,\Nalmeno rispondi al telefono!
+Dialogue: 0,0:06:47.97,0:06:48.63,Default,,0000,0000,0000,,Oh?
+Dialogue: 0,0:06:48.63,0:06:49.80,Default,,0000,0000,0000,,Professor Agasa?
+Dialogue: 0,0:06:49.80,0:06:50.93,Default,,0000,0000,0000,,Dov'è Shinichi?
+Dialogue: 0,0:06:50.93,0:06:52.89,Default - Alt,,0000,0000,0000,,Ah ecco, lui...
+Dialogue: 0,0:06:51.72,0:06:52.89,Italics,,0000,0000,0000,,Gli occhiali di papà.
+Dialogue: 0,0:06:52.89,0:06:55.10,Default - Alt,,0000,0000,0000,,Quindi non c'è?
+Dialogue: 0,0:06:52.89,0:06:55.10,Italics,,0000,0000,0000,,Un bel travestimento.
+Dialogue: 0,0:06:55.10,0:06:55.93,Italics,,0000,0000,0000,,Troppo forti!
+Dialogue: 0,0:06:55.93,0:06:58.31,Default,,0000,0000,0000,,C'è qualcuno lì?
+Dialogue: 0,0:07:00.06,0:07:02.15,Default,,0000,0000,0000,,Sei un timidone, eh!
+Dialogue: 0,0:07:02.15,0:07:04.31,Default,,0000,0000,0000,,Dai, girati!
+Dialogue: 0,0:07:05.73,0:07:07.78,Default,,0000,0000,0000,,Questo bimbo...
+Dialogue: 0,0:07:09.45,0:07:10.95,Default,,0000,0000,0000,,...è così carino!
+Dialogue: 0,0:07:12.45,0:07:13.91,Italics,,0000,0000,0000,,Il suo seno...
+Dialogue: 0,0:07:14.70,0:07:15.99,Default,,0000,0000,0000,,Chi è questo bambino?
+Dialogue: 0,0:07:15.99,0:07:18.41,Default,,0000,0000,0000,,È il figlio di un mio lontano parente!
+Dialogue: 0,0:07:18.41,0:07:19.37,Default,,0000,0000,0000,,Come ti chiami?
+Dialogue: 0,0:07:19.37,0:07:21.25,Default,,0000,0000,0000,,M-Mi chiamo Shin...
+Dialogue: 0,0:07:21.25,0:07:22.17,Default,,0000,0000,0000,,No, ecco...
+Dialogue: 0,0:07:22.83,0:07:24.25,Default,,0000,0000,0000,,Ehm...
+Dialogue: 0,0:07:28.21,0:07:29.13,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:07:29.13,0:07:31.18,Default,,0000,0000,0000,,Mi chiamo Conan Edogawa!
+Dialogue: 0,0:07:31.80,0:07:32.59,Default,,0000,0000,0000,,Conan?
+Dialogue: 0,0:07:32.59,0:07:34.26,Default,,0000,0000,0000,,Che nome strano.
+Dialogue: 0,0:07:34.72,0:07:38.02,Default,,0000,0000,0000,,Mio padre è un grande fan\N di Conan Doyle, perciò...
+Dialogue: 0,0:07:38.77,0:07:40.98,Default,,0000,0000,0000,,Mi ricorda proprio Shinichi...
+Dialogue: 0,0:07:40.98,0:07:42.77,Default,,0000,0000,0000,,Giusto, Ran!
+Dialogue: 0,0:07:42.77,0:07:46.36,Default,,0000,0000,0000,,Ti chiedo scusa,\Nma non potrebbe vivere da te per un po'?
+Dialogue: 0,0:07:46.36,0:07:47.44,Default,,0000,0000,0000,,Ma cosa stai dicen...
+Dialogue: 0,0:07:48.36,0:07:50.36,Default,,0000,0000,0000,,I suoi genitori sono in ospedale.
+Dialogue: 0,0:07:50.61,0:07:55.32,Default,,0000,0000,0000,,Mi hanno chiesto di prendermene cura,\Nma io sono un uomo single...
+Dialogue: 0,0:07:55.32,0:07:58.08,Default,,0000,0000,0000,,Per me va bene, \Nma devo prima chiedere a mio padre.
+Dialogue: 0,0:07:58.08,0:08:00.58,Default,,0000,0000,0000,,Ah bene. Quindi lo prendi con te?
+Dialogue: 0,0:08:00.58,0:08:01.66,Default,,0000,0000,0000,,Hai sentito, Conan?
+Dialogue: 0,0:08:02.21,0:08:05.92,Default,,0000,0000,0000,,Che succede se mentre sono da Ran\Nscopre la mia vera identità?
+Dialogue: 0,0:08:05.92,0:08:08.05,Default,,0000,0000,0000,,Per riportarti come prima
+Dialogue: 0,0:08:08.05,0:08:11.67,Default,,0000,0000,0000,,dobbiamo prima trovare gli uomini in nero\Nche ti hanno dato quel veleno.
+Dialogue: 0,0:08:12.26,0:08:14.68,Default,,0000,0000,0000,,E casa di Ran è un'agenzia investigativa!
+Dialogue: 0,0:08:14.68,0:08:17.05,Default,,0000,0000,0000,,Potrebbero ricevere informazioni su di loro!
+Dialogue: 0,0:08:17.05,0:08:18.06,Default,,0000,0000,0000,,Esatto!
+Dialogue: 0,0:08:23.69,0:08:24.81,Default,,0000,0000,0000,,Dimmi, Conan...
+Dialogue: 0,0:08:25.77,0:08:27.61,Default,,0000,0000,0000,,Che c'è?
+Dialogue: 0,0:08:27.61,0:08:29.27,Italics,,0000,0000,0000,,Non mi abituerò mai a questo nome.
+Dialogue: 0,0:08:29.78,0:08:31.15,Default,,0000,0000,0000,,C'è una bambina che ti piace?
+Dialogue: 0,0:08:31.15,0:08:31.69,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:08:31.69,0:08:34.74,Default,,0000,0000,0000,,Tipo una compagna di classe carina?
+Dialogue: 0,0:08:35.11,0:08:37.20,Default,,0000,0000,0000,,No, non c'è.
+Dialogue: 0,0:08:37.82,0:08:40.66,Default,,0000,0000,0000,,Io invece ho una persona \Nche mi piace moltissimo!
+Dialogue: 0,0:08:41.91,0:08:45.92,Default,,0000,0000,0000,,Non sarà per caso \Nquel ragazzo di nome Shinichi che cercavi prima?
+Dialogue: 0,0:08:48.09,0:08:48.88,Default,,0000,0000,0000,,Proprio così.
+Dialogue: 0,0:08:50.92,0:08:52.55,Default,,0000,0000,0000,,È sarcastico fin da bambino,
+Dialogue: 0,0:08:52.55,0:08:55.55,Default,,0000,0000,0000,,e sempre pieno di sé,\Ne poi è un nerd dei gialli.
+Dialogue: 0,0:08:55.55,0:09:00.14,Default,,0000,0000,0000,,Ma puoi sempre contare su di lui\Nquando ne hai bisogno, è coraggioso e attraente.
+Dialogue: 0,0:09:00.93,0:09:04.06,Default,,0000,0000,0000,,A me Shinichi piace davvero tantissimo!
+Dialogue: 0,0:09:06.48,0:09:09.11,Default,,0000,0000,0000,,Però questo lui non deve saperlo.
+Dialogue: 0,0:09:10.02,0:09:11.48,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\p1\c&HC8C696&\pos(91.559,46.165)}m -84 -18 l 83 -18 83 6 -84 6
+Dialogue: 1,0:09:10.02,0:09:11.48,Cartello BASE,,0000,0000,0000,,{\blur0.6\fs14\b1\c&H322D12&\fad(0,0)\pos(91.559,46.165)}Agenzia investigativa Mori
+Dialogue: 0,0:09:11.48,0:09:13.32,Default,,0000,0000,0000,,Eccoci qua, questa è casa mia.
+Dialogue: 0,0:09:11.48,0:09:15.49,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\move(91.559,46.165,91.559,-1.835,3,4007)\p1\c&HC8C696&}m -84 -18 l 83 -18 83 6 -84 6
+Dialogue: 3,0:09:11.48,0:09:15.49,Cartello BASE,,0000,0000,0000,,{\blur0.6\fs14\b1\c&H322D12&\fad(0,0)\move(91.559,46.165,91.559,-1.835,3,4007)}Agenzia investigativa Mori
+Dialogue: 0,0:09:13.32,0:09:15.95,Default,,0000,0000,0000,,Pare che abbia guadagnato un fratellino carino.
+Dialogue: 0,0:09:15.95,0:09:17.99,Default,,0000,0000,0000,,Mi sembra di poter parlare di tutto con te.
+Dialogue: 0,0:09:18.74,0:09:19.78,Default,,0000,0000,0000,,Ran...
+Dialogue: 0,0:09:20.49,0:09:21.99,Default,,0000,0000,0000,,Ora ti presento mio padre.
+Dialogue: 0,0:09:21.99,0:09:23.00,Default,,0000,0000,0000,,Vieni.
+Dialogue: 0,0:09:24.58,0:09:26.79,Default,,0000,0000,0000,,Ecco, Ran...
+Dialogue: 0,0:09:27.87,0:09:30.38,Default,,0000,0000,0000,,I-Io a dire il vero...
+Dialogue: 0,0:09:32.67,0:09:33.38,Default,,0000,0000,0000,,In realtà...
+Dialogue: 0,0:09:33.38,0:09:35.38,Default,,0000,0000,0000,,È arrivato! È arrivato!
+Dialogue: 0,0:09:35.38,0:09:37.22,Default,,0000,0000,0000,,Papà!
+Dialogue: 0,0:09:38.05,0:09:39.80,Default,,0000,0000,0000,,Il mio primo lavoro dopo sei mesi!
+Dialogue: 0,0:09:39.80,0:09:41.64,Default,,0000,0000,0000,,È stata rapita la figlia di un riccone!
+Dialogue: 0,0:09:41.64,0:09:43.18,Default,,0000,0000,0000,,Da un uomo vestito di nero!
+Dialogue: 0,0:09:43.18,0:09:46.10,Default,,0000,0000,0000,,Un uomo vestito di nero?!
+Dialogue: 0,0:09:49.15,0:09:50.65,Default,,0000,0000,0000,,Taxi!
+Dialogue: 0,0:09:52.15,0:09:53.53,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:09:58.61,0:10:00.41,Default,,0000,0000,0000,,Questo caso mi chiama!
+Dialogue: 0,0:10:00.41,0:10:04.08,Default,,0000,0000,0000,,Chiama me, il celebre\Ndetective Kogoro Mori!
+Dialogue: 0,0:10:06.00,0:10:07.87,Default,,0000,0000,0000,,Che ci fate qui?!
+Dialogue: 0,0:10:07.87,0:10:09.92,Default,,0000,0000,0000,,Il bambino è salito per conto suo!
+Dialogue: 0,0:10:09.92,0:10:12.13,Default,,0000,0000,0000,,In macchina, che bello! Evviva!
+Dialogue: 0,0:10:12.13,0:10:13.55,Default,,0000,0000,0000,,E questo chi è?!
+Dialogue: 0,0:10:13.55,0:10:15.21,Default,,0000,0000,0000,,Un parente del professor Agasa.
+Dialogue: 0,0:10:15.21,0:10:17.72,Default,,0000,0000,0000,,Così mi disturbate sul lavoro! Scendete!
+Dialogue: 0,0:10:17.72,0:10:20.64,Default,,0000,0000,0000,,Ma che dici, non possiamo! \NSiamo in autostrada!
+Dialogue: 0,0:10:23.56,0:10:26.10,Default,,0000,0000,0000,,Hanno rapito la mia unica figlia.
+Dialogue: 0,0:10:26.10,0:10:28.56,Default,,0000,0000,0000,,Akiko Tani, ha dieci anni.
+Dialogue: 0,0:10:28.56,0:10:31.56,Default,,0000,0000,0000,,Il mio maggiordomo Asao ha visto il colpevole.
+Dialogue: 0,0:10:31.56,0:10:33.90,Italics,,0000,0000,0000,,Uffa, non riesco a vedere la foto.
+Dialogue: 0,0:10:33.90,0:10:35.69,Italics,,0000,0000,0000,,Che seccatura essere piccoli.
+Dialogue: 0,0:10:38.15,0:10:40.11,Default,,0000,0000,0000,,In quali circostanze è stata rapita?
+Dialogue: 0,0:10:41.16,0:10:42.62,Default,,0000,0000,0000,,Chi è questo bambino?
+Dialogue: 0,0:10:42.91,0:10:44.49,Default,,0000,0000,0000,,No, nessuno, un conoscente...
+Dialogue: 0,0:10:44.91,0:10:46.95,Default,,0000,0000,0000,,Ran, tienilo d'occhio!
+Dialogue: 0,0:10:47.45,0:10:50.04,Default,,0000,0000,0000,,Allora, signor Asao,\Nmi spieghi tutto nel dettaglio.
+Dialogue: 0,0:10:50.75,0:10:55.59,Default,,0000,0000,0000,,È successo mentre la signorina\Ngiocava in giardino dopo la scuola.
+Dialogue: 0,0:10:56.84,0:11:00.72,Default,,0000,0000,0000,,All'improvviso da un angolo del giardino\Nè comparso un uomo in nero.
+Dialogue: 0,0:11:01.47,0:11:03.60,Flashback,,0000,0000,0000,,Dite questo al padrone di casa:
+Dialogue: 0,0:11:03.60,0:11:08.60,Flashback,,0000,0000,0000,,Se vuole rivedere sua figlia,\Ndovrà chiudere l'azienda per un mese.
+Dialogue: 0,0:11:08.60,0:11:12.19,Flashback,,0000,0000,0000,,Se chiamerà la polizia,\Nper sua figlia è finita!
+Dialogue: 0,0:11:12.19,0:11:13.73,Default,,0000,0000,0000,,E con queste parole
+Dialogue: 0,0:11:13.73,0:11:16.23,Default,,0000,0000,0000,,il rapitore è salito su un pino \Ned è fuggito.
+Dialogue: 0,0:11:16.23,0:11:18.15,Default,,0000,0000,0000,,Aveva caratteristiche particolari?
+Dialogue: 0,0:11:18.57,0:11:20.90,Default,,0000,0000,0000,,Non saprei, non ho una buona vista...
+Dialogue: 0,0:11:20.90,0:11:22.45,Default,,0000,0000,0000,,Che guaio...
+Dialogue: 0,0:11:24.49,0:11:28.20,Default,,0000,0000,0000,,Conan, non devi dare fastidio a papà sul lavoro.
+Dialogue: 0,0:11:28.62,0:11:33.17,Default,,0000,0000,0000,,Qualcun altro ha sentito la voce del rapitore\No altri rumori fuori dall'ordinario?
+Dialogue: 0,0:11:33.17,0:11:39.63,Default,,0000,0000,0000,,No. C'era silenzio finché il signor Asao\N non ha gridato che la signorina era stata rapita.
+Dialogue: 0,0:11:39.63,0:11:43.09,Default,,0000,0000,0000,,Questo vuol dire che il signor Asao\N  è l'unico ad aver visto il colpevole.
+Dialogue: 0,0:11:43.09,0:11:47.56,Default,,0000,0000,0000,,Dalle sue richieste, probabilmente il rapitore\Nha legami con una sua azienda rivale.
+Dialogue: 0,0:11:47.56,0:11:51.56,Default,,0000,0000,0000,,Maledizione! E oltre a quella richiesta\Nvogliono anche del denaro!
+Dialogue: 0,0:11:51.56,0:11:52.69,Default,,0000,0000,0000,,Denaro?!
+Dialogue: 0,0:11:52.69,0:11:54.27,Default,,0000,0000,0000,,È appena arrivata una telefonata!
+Dialogue: 0,0:11:54.81,0:11:57.48,Default,,0000,0000,0000,,Vogliono 300 milioni, \Ntutti in banconote usate!
+Dialogue: 0,0:11:57.48,0:11:59.76,Default,,0000,0000,0000,,Dev'esserci un errore, signore!
+Dialogue: 0,0:11:59.76,0:12:01.70,Default,,0000,0000,0000,,Taci! Fai silenzio!
+Dialogue: 0,0:12:01.70,0:12:05.41,Default,,0000,0000,0000,,Se la sua azienda chiudesse\Nquali aziende ne trarrebbero guadagno?
+Dialogue: 0,0:12:05.91,0:12:08.99,Italics,,0000,0000,0000,,C'è qualcosa di strano in questo caso.
+Dialogue: 0,0:12:09.58,0:12:12.08,Italics,,0000,0000,0000,,Perché il colpevole l'ha rapita in casa sua?
+Dialogue: 0,0:12:12.50,0:12:15.08,Italics,,0000,0000,0000,,{\fad(0,400)}Sarebbe stato più semplice \Nmentre andava a scuola.
+Dialogue: 0,0:12:15.42,0:12:19.17,Italics,,0000,0000,0000,,E lasciarsi vedere da altri \Nè davvero troppo imprudente.
+Dialogue: 0,0:12:19.84,0:12:24.89,Italics,,0000,0000,0000,,Invece chiedere banconote usate\Nè una mossa ben studiata...
+Dialogue: 0,0:12:25.47,0:12:28.43,Default,,0000,0000,0000,,Oh, sei bravo a calcio, Conan!
+Dialogue: 0,0:12:28.43,0:12:29.64,Default,,0000,0000,0000,,Più o meno.
+Dialogue: 0,0:12:30.10,0:12:33.23,Default,,0000,0000,0000,,Anche Shinichi fa spesso così mentre pensa.
+Dialogue: 0,0:12:33.85,0:12:36.10,Default,,0000,0000,0000,,Dice che lo aiuta a ragionare.
+Dialogue: 0,0:12:36.56,0:12:39.57,Italics,,0000,0000,0000,,Sono io Shinichi!
+Dialogue: 0,0:12:45.36,0:12:46.78,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:12:53.79,0:12:57.75,Default,,0000,0000,0000,,È insolito che Jumbo \Nsia affettuoso con un estraneo...
+Dialogue: 0,0:13:00.34,0:13:05.80,Italics,,0000,0000,0000,,Il rapitore è entrato\Ne uscito dal giardino scalando un pino.
+Dialogue: 0,0:13:05.80,0:13:09.51,Italics,,0000,0000,0000,,Quindi il cane avrebbe dovuto abbaiare!
+Dialogue: 0,0:13:09.51,0:13:12.22,Italics,,0000,0000,0000,,Ci sono! Ho risolto il caso!
+Dialogue: 0,0:13:12.60,0:13:16.19,Default,,0000,0000,0000,,Quindi questo cane abbaia sempre agli estranei?
+Dialogue: 0,0:13:16.65,0:13:20.15,Default,,0000,0000,0000,,Sì, Jumbo è uno dei migliori cani da guardia.
+Dialogue: 0,0:13:20.15,0:13:22.40,Italics,,0000,0000,0000,,Però secondo le cameriere
+Dialogue: 0,0:13:22.40,0:13:25.57,Italics,,0000,0000,0000,,era tutto silenzioso \Na parte le urla del maggiordomo!
+Dialogue: 0,0:13:29.16,0:13:31.12,Default,,0000,0000,0000,,Dove sta andando, signor Asao?
+Dialogue: 0,0:13:32.66,0:13:34.37,Italics,,0000,0000,0000,,Ha capito allora!
+Dialogue: 0,0:13:34.37,0:13:37.83,Default,,0000,0000,0000,,Certo che è strana la sua storia.
+Dialogue: 0,0:13:37.83,0:13:43.00,Default,,0000,0000,0000,,Il rapitore arriva e prende la bambina,\Npoi scappa salendo su quell'albero.
+Dialogue: 0,0:13:43.00,0:13:44.67,Default,,0000,0000,0000,,Eppure il cane non abbaia!
+Dialogue: 0,0:13:45.38,0:13:46.63,Default,,0000,0000,0000,,Ecco...
+Dialogue: 0,0:13:46.63,0:13:51.26,Default,,0000,0000,0000,,La sua testimonianza\Nè piena di contraddizioni.
+Dialogue: 0,0:13:51.26,0:13:55.60,Default,,0000,0000,0000,,In realtà non c'era nessun uomo in nero,\Nnon è vero, Asao-san?
+Dialogue: 0,0:13:56.77,0:13:59.56,Default,,0000,0000,0000,,O dovrei dire signor Rapitore!
+Dialogue: 0,0:13:59.56,0:14:02.02,Default,,0000,0000,0000,,Asao, maledetto!
+Dialogue: 0,0:14:02.02,0:14:04.57,Default,,0000,0000,0000,,Perdonatemi, signore!
+Dialogue: 0,0:14:04.57,0:14:06.44,Default,,0000,0000,0000,,Perché mi hai fatto questo?!
+Dialogue: 0,0:14:06.44,0:14:07.99,Default,,0000,0000,0000,,Sei agli ordini di qualcuno?!
+Dialogue: 0,0:14:07.99,0:14:10.95,Default,,0000,0000,0000,,No, ho fatto tutto da solo!
+Dialogue: 0,0:14:11.58,0:14:13.99,Default,,0000,0000,0000,,Allora, dov'è ora la bambina?
+Dialogue: 0,0:14:14.41,0:14:15.91,Default,,0000,0000,0000,,I-In un hotel qui vicino.
+Dialogue: 0,0:14:18.37,0:14:20.29,Default,,0000,0000,0000,,Il caso è chiuso!
+Dialogue: 0,0:14:20.29,0:14:25.88,Default,,0000,0000,0000,,Con il detective Kogoro Mori,\Nnessun caso resta irrisolto!
+Dialogue: 0,0:14:26.42,0:14:28.68,Italics,,0000,0000,0000,,No, non è ancora finita!
+Dialogue: 0,0:14:29.68,0:14:32.60,Italics,,0000,0000,0000,,C'è dell'altro in questo caso!
+Dialogue: 0,0:14:42.90,0:14:44.82,Default,,0000,0000,0000,,Signore, il telefono!
+Dialogue: 0,0:14:45.40,0:14:48.07,Default,,0000,0000,0000,,Ora non posso, di' che richiamerò più tardi.
+Dialogue: 0,0:14:48.07,0:14:49.28,Default,,0000,0000,0000,,M-Ma...
+Dialogue: 0,0:14:51.07,0:14:51.91,Default,,0000,0000,0000,,Pronto, sono Tani.
+Dialogue: 0,0:14:51.91,0:14:53.95,Italics,,0000,0000,0000,,Sono pronti i 300 milioni?
+Dialogue: 0,0:14:55.08,0:14:56.24,Default,,0000,0000,0000,,Chi sei?
+Dialogue: 0,0:14:58.58,0:15:00.37,Default,,0000,0000,0000,,Ho chiamato poco fa.
+Dialogue: 0,0:15:00.83,0:15:03.04,Default,,0000,0000,0000,,Sono l'uomo che ha rapito tua figlia.
+Dialogue: 0,0:15:03.04,0:15:05.50,Default,,0000,0000,0000,,Non è possibile!\NIl rapitore è già...
+Dialogue: 0,0:15:05.84,0:15:07.71,Default,,0000,0000,0000,,Avevi dei complici dopotutto!
+Dialogue: 0,0:15:07.71,0:15:10.47,Default,,0000,0000,0000,,No, ho agito da solo! \NLa prego, deve credermi!
+Dialogue: 0,0:15:11.43,0:15:13.39,Italics,,0000,0000,0000,,Sta dicendo la verità.
+Dialogue: 0,0:15:14.22,0:15:17.43,Italics,,0000,0000,0000,,Probabilmente \Ndopo essere stata rapita la prima volta
+Dialogue: 0,0:15:17.89,0:15:22.44,Italics,,0000,0000,0000,,la bambina è stata portata via dal luogo \Ndov'era prigioniera da un'altra persona ancora.
+Dialogue: 0,0:15:22.44,0:15:24.40,Italics,,0000,0000,0000,,Una persona molto più pericolosa.
+Dialogue: 0,0:15:24.40,0:15:25.94,Italics,,0000,0000,0000,,Papà, aiutami!
+Dialogue: 0,0:15:25.94,0:15:26.86,Default,,0000,0000,0000,,Akiko!
+Dialogue: 0,0:15:29.19,0:15:30.99,Default,,0000,0000,0000,,Non ho molta pazienza.
+Dialogue: 0,0:15:31.24,0:15:33.53,Default,,0000,0000,0000,,Se non ti sbrighi a preparare i 300 milioni
+Dialogue: 0,0:15:33.53,0:15:35.33,Default,,0000,0000,0000,,chissà cosa potrebbe accadere a tua figlia.
+Dialogue: 0,0:15:35.91,0:15:38.41,Default,,0000,0000,0000,,Ti prego! In qualche modo troverò il denaro!
+Dialogue: 0,0:15:38.41,0:15:40.79,Default,,0000,0000,0000,,Purché tu mi restituisca Akiko sana e salva!
+Dialogue: 0,0:15:40.79,0:15:44.92,Default,,0000,0000,0000,,Continui a farlo parlare\Nper capire dove si trovano.
+Dialogue: 0,0:15:44.92,0:15:46.04,Default,,0000,0000,0000,,Dove si trovano?
+Dialogue: 0,0:15:46.04,0:15:47.25,Italics,,0000,0000,0000,,Chi c'è lì?!
+Dialogue: 0,0:15:47.80,0:15:49.30,Italics,,0000,0000,0000,,Non saranno gli sbirri, vero?!
+Dialogue: 0,0:15:49.30,0:15:50.97,Default,,0000,0000,0000,,No! Niente polizia...
+Dialogue: 0,0:15:50.97,0:15:52.93,Default,,0000,0000,0000,,Papà, sono nel deposito di una scuola!
+Dialogue: 0,0:15:53.30,0:15:55.51,Italics,,0000,0000,0000,,Dalla finestra vedo un grande camino... Ah!
+Dialogue: 0,0:15:55.51,0:15:56.39,Default,,0000,0000,0000,,Akiko!
+Dialogue: 0,0:15:56.39,0:15:58.52,Default,,0000,0000,0000,,Richiamerò tra un'ora.
+Dialogue: 0,0:15:58.52,0:15:59.98,Default,,0000,0000,0000,,Tieni pronto il denaro!
+Dialogue: 0,0:16:02.14,0:16:03.48,Default,,0000,0000,0000,,Parli troppo, mocciosa.
+Dialogue: 0,0:16:04.48,0:16:07.94,Default,,0000,0000,0000,,Un grande camino\Nvisibile dal deposito di una scuola...
+Dialogue: 0,0:16:07.94,0:16:10.40,Default,,0000,0000,0000,,È poco per capire di quale scuola stia parlando.
+Dialogue: 0,0:16:10.40,0:16:14.49,Default,,0000,0000,0000,,Ad ogni modo prepari il denaro \Nper risparmiare tempo.
+Dialogue: 0,0:16:14.49,0:16:15.87,Default,,0000,0000,0000,,C-Certo.
+Dialogue: 0,0:16:19.66,0:16:22.16,Italics,,0000,0000,0000,,Il rapitore sarà nervoso \Nal pensiero di essere trovato!
+Dialogue: 0,0:16:22.16,0:16:24.29,Italics,,0000,0000,0000,,Se non ci sbrighiamo a salvarla, la bambina...
+Dialogue: 0,0:16:24.29,0:16:26.54,Default,,0000,0000,0000,,Cosa fai, Conan?
+Dialogue: 0,0:16:26.88,0:16:29.71,Default,,0000,0000,0000,,Non è passato molto tempo \Nda quando è stata rapita
+Dialogue: 0,0:16:29.71,0:16:32.26,Default,,0000,0000,0000,,quindi pensavo che forse sono vicini...
+Dialogue: 0,0:16:32.63,0:16:33.72,Default,,0000,0000,0000,,Giusto!
+Dialogue: 0,0:16:33.72,0:16:37.30,Default,,0000,0000,0000,,Non può essere andato lontano\Nportando la bambina con sé.
+Dialogue: 0,0:16:37.30,0:16:40.72,Default,,0000,0000,0000,,Se ci limitiamo alle scuole nei paraggi,\Nnon ne rimangono molte...
+Dialogue: 0,0:16:40.72,0:16:42.06,Default,,0000,0000,0000,,Conan, dove stai andando?!
+Dialogue: 0,0:16:42.48,0:16:44.14,Default,,0000,0000,0000,,Ran, seguiamo quel cane!
+Dialogue: 0,0:16:44.14,0:16:44.73,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:16:49.36,0:16:51.82,Italics,,0000,0000,0000,,Il camino può essere \Ndi una fabbrica o di bagni pubblici.
+Dialogue: 0,0:16:51.82,0:16:54.86,Italics,,0000,0000,0000,,Qui vicino ci sono cinque scuole \Nda cui si possono vedere dei camini!
+Dialogue: 0,0:17:07.71,0:17:08.79,Italics,,0000,0000,0000,,No!
+Dialogue: 0,0:17:09.79,0:17:10.75,Italics,,0000,0000,0000,,No!
+Dialogue: 0,0:17:11.71,0:17:13.01,Italics,,0000,0000,0000,,Neanche qui!
+Dialogue: 0,0:17:13.42,0:17:16.34,Italics,,0000,0000,0000,,Maledizione! Nessuna è quella giusta!
+Dialogue: 0,0:17:16.72,0:17:19.51,Italics,,0000,0000,0000,,Non ci sono altre scuole vicine\Nda cui si vedono dei camini!
+Dialogue: 0,0:17:19.51,0:17:21.72,Italics,,0000,0000,0000,,Allora non sono nei paraggi!
+Dialogue: 0,0:17:26.56,0:17:28.52,Default,,0000,0000,0000,,Aspetta! Non sarà...
+Dialogue: 0,0:17:47.50,0:17:48.83,Default,,0000,0000,0000,,È questo!
+Dialogue: 0,0:17:49.46,0:17:52.30,Default,,0000,0000,0000,,Ha visto quest'edificio di lato\Ne l'ha scambiato per un camino!
+Dialogue: 0,0:17:52.88,0:17:55.84,Italics,,0000,0000,0000,,Una scuola da cui si vede il grattacielo di lato...
+Dialogue: 0,0:17:58.26,0:17:59.72,Default,,0000,0000,0000,,La scuola media Futatsubashi!
+Dialogue: 0,0:18:01.72,0:18:04.72,Default,,0000,0000,0000,,Lascia i soldi \Nsu una panchina del parco Hyakujii.
+Dialogue: 0,0:18:04.72,0:18:06.94,Default,,0000,0000,0000,,Quando avrò il denaro ti ridarò tua figlia.
+Dialogue: 0,0:18:06.94,0:18:08.69,Italics,,0000,0000,0000,,Lasciami sentire la voce di Akiko!
+Dialogue: 0,0:18:09.65,0:18:11.36,Default,,0000,0000,0000,,Potrai sentirla dopo con calma.
+Dialogue: 0,0:18:13.32,0:18:15.15,Default,,0000,0000,0000,,La trattativa è conclusa.
+Dialogue: 0,0:18:15.15,0:18:18.03,Default,,0000,0000,0000,,Il che vuol dire che il tuo ruolo finisce qui.
+Dialogue: 0,0:18:22.62,0:18:23.20,Default,,0000,0000,0000,,Fermo!
+Dialogue: 0,0:18:26.62,0:18:28.25,Default,,0000,0000,0000,,Chi è là?! Dove sei?!
+Dialogue: 0,0:18:28.25,0:18:29.25,Default,,0000,0000,0000,,Qui!
+Dialogue: 0,0:18:36.34,0:18:37.84,Default,,0000,0000,0000,,Andrà tutto bene.
+Dialogue: 0,0:18:38.63,0:18:40.18,Default,,0000,0000,0000,,Chi sei?
+Dialogue: 0,0:18:40.18,0:18:41.34,Default,,0000,0000,0000,,Shinichi Kudo...
+Dialogue: 0,0:18:41.34,0:18:45.14,Default,,0000,0000,0000,,Volevo dire, Conan Edogawa. \NSono un detective!
+Dialogue: 0,0:18:45.68,0:18:47.06,Default,,0000,0000,0000,,Un detective?
+Dialogue: 0,0:18:51.35,0:18:54.61,Default,,0000,0000,0000,,Ora ti sistemo io, moccioso!
+Dialogue: 0,0:18:58.44,0:19:02.57,Italics,,0000,0000,0000,,Maledizione! Il mio corpo ora è piccolo,\Nnon ho la forza necessaria!
+Dialogue: 0,0:19:04.33,0:19:05.58,Default,,0000,0000,0000,,Prendi questo allora!
+Dialogue: 0,0:19:06.54,0:19:09.87,Italics,,0000,0000,0000,,Accidenti! Anche i miei calci ora sono deboli!
+Dialogue: 0,0:19:19.38,0:19:21.72,Italics,,0000,0000,0000,,Con questo corpo così piccolo,
+Dialogue: 0,0:19:21.72,0:19:25.72,Italics,,0000,0000,0000,,anche se trovo i colpevoli\Nnon posso catturarli né sconfiggerli!
+Dialogue: 0,0:19:25.72,0:19:28.68,Default,,0000,0000,0000,,Basta giocare! Ora vedrai!
+Dialogue: 0,0:19:28.68,0:19:29.77,Default,,0000,0000,0000,,Fermo!
+Dialogue: 0,0:19:32.27,0:19:33.40,Italics,,0000,0000,0000,,È la fine!
+Dialogue: 0,0:19:35.94,0:19:37.15,Italics,,0000,0000,0000,,Ran!
+Dialogue: 0,0:19:49.54,0:19:51.50,Italics,,0000,0000,0000,,È fortissima!
+Dialogue: 0,0:19:51.50,0:19:53.37,Default,,0000,0000,0000,,Ora è tutto a posto.
+Dialogue: 0,0:19:53.37,0:19:55.04,Default,,0000,0000,0000,,Sei riuscita a trovarci.
+Dialogue: 0,0:19:55.04,0:19:58.46,Default,,0000,0000,0000,,Mentre ti cercavo \Nho visto Jumbo saltar fuori di qui.
+Dialogue: 0,0:20:01.47,0:20:02.84,Default,,0000,0000,0000,,Jumbo!
+Dialogue: 0,0:20:03.13,0:20:05.97,Default,,0000,0000,0000,,Allora eri tu il colpevole!
+Dialogue: 0,0:20:06.43,0:20:10.68,Default,,0000,0000,0000,,Caso di rapimento? \NChiamate il famoso detective Kogoro Mori!
+Dialogue: 0,0:20:11.52,0:20:12.73,Italics,,0000,0000,0000,,Ma per favore.
+Dialogue: 0,0:20:16.86,0:20:20.82,Default,,0000,0000,0000,,Sono stata io a pensare al rapimento.
+Dialogue: 0,0:20:21.19,0:20:23.15,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,0:20:23.15,0:20:27.53,Default,,0000,0000,0000,,Papà pensa solo al lavoro \Ne non sta mai con me...
+Dialogue: 0,0:20:27.53,0:20:31.70,Default,,0000,0000,0000,,Perciò ho chiesto al signor Asao\Ndi aiutarmi a fingere il rapimento.
+Dialogue: 0,0:20:31.70,0:20:33.62,Default,,0000,0000,0000,,Se papà avesse chiuso per un po' l'azienda
+Dialogue: 0,0:20:33.62,0:20:36.29,Default,,0000,0000,0000,,ho pensato che finalmente \Navrebbe giocato un po' con me!
+Dialogue: 0,0:20:38.46,0:20:43.05,Default,,0000,0000,0000,,Ho capito. Allora il primo rapimento era finto.
+Dialogue: 0,0:20:43.05,0:20:45.39,Default,,0000,0000,0000,,Anche se te l'ha chiesto mia figlia,
+Dialogue: 0,0:20:45.39,0:20:47.89,Default,,0000,0000,0000,,è difficile perdonare quello che hai fatto!
+Dialogue: 0,0:20:47.89,0:20:49.26,Default,,0000,0000,0000,,Non sei d'accordo, Asao?!
+Dialogue: 0,0:20:49.26,0:20:50.52,Default,,0000,0000,0000,,S-Sì.
+Dialogue: 0,0:20:50.89,0:20:52.02,Default,,0000,0000,0000,,Come punizione,
+Dialogue: 0,0:20:52.02,0:20:54.27,Default,,0000,0000,0000,,organizza un viaggio di una settimana da domani!
+Dialogue: 0,0:20:54.27,0:20:57.23,Default,,0000,0000,0000,,Destinazione: l'Australia, \Ndove Akiko ha sempre voluto andare.
+Dialogue: 0,0:20:57.23,0:20:59.11,Default,,0000,0000,0000,,S-Signore!
+Dialogue: 0,0:20:59.11,0:21:02.36,Default,,0000,0000,0000,,Ovviamente per due, Akiko e io.
+Dialogue: 0,0:21:02.69,0:21:03.70,Default,,0000,0000,0000,,Papino!
+Dialogue: 0,0:21:07.16,0:21:10.20,Default,,0000,0000,0000,,Liberare il cane perché trovasse mia figlia...
+Dialogue: 0,0:21:10.20,0:21:12.37,Default,,0000,0000,0000,,Non per niente è un celebre detective!
+Dialogue: 0,0:21:12.37,0:21:16.04,Default,,0000,0000,0000,,No, no, è tutto frutto della mia esperienza.
+Dialogue: 0,0:21:16.04,0:21:19.75,Italics,,0000,0000,0000,,Ma se l'ho trovata io!\NCos'hai da vantarti...
+Dialogue: 0,0:21:19.75,0:21:22.42,Default,,0000,0000,0000,,Ci risentiremo per il compenso.
+Dialogue: 0,0:21:22.42,0:21:24.22,Default,,0000,0000,0000,,Certo, aspetto sue notizie.
+Dialogue: 0,0:21:26.93,0:21:29.18,Default,,0000,0000,0000,,Grazie, signor detective!
+Dialogue: 0,0:21:31.39,0:21:32.72,Default,,0000,0000,0000,,Signor detective?
+Dialogue: 0,0:21:32.72,0:21:37.48,Default,,0000,0000,0000,,No, non io, sicuramente parla di lui!
+Dialogue: 0,0:21:42.36,0:21:44.86,Default,,0000,0000,0000,,Senti, papà, per quanto riguarda il bambino...
+Dialogue: 0,0:21:45.61,0:21:48.57,Default,,0000,0000,0000,,Il professor Agasa ci ha chiesto\Nse può restare a casa nostra...
+Dialogue: 0,0:21:51.53,0:21:54.00,Default,,0000,0000,0000,,Sei contrario?
+Dialogue: 0,0:21:55.54,0:21:56.66,Default,,0000,0000,0000,,Macché, sono d'accordo!
+Dialogue: 0,0:21:56.66,0:22:00.50,Default,,0000,0000,0000,,Nell'istante in cui è arrivato,\Nmi hanno dato un caso e l'ho risolto in un baleno!
+Dialogue: 0,0:22:00.50,0:22:02.38,Default,,0000,0000,0000,,Chissà, sarà un dio della fortuna!
+Dialogue: 0,0:22:02.38,0:22:05.13,Default,,0000,0000,0000,,Resta pure e diventa mio figlio!
+Dialogue: 0,0:23:49.69,0:23:52.32,Default,,0000,0000,0000,,Mi sono appena trasferito.\NMi chiamo Conan Edogawa.
+Dialogue: 0,0:23:52.32,0:23:53.36,Default,,0000,0000,0000,,Piacere!
+Dialogue: 0,0:23:55.24,0:23:58.62,Italics,,0000,0000,0000,,E così devo tornare alle elementari.
+Dialogue: 0,0:24:01.73,0:24:03.25,Default,,0000,0000,0000,,Il colpevole...
+Dialogue: 0,0:24:03.49,0:24:04.85,Default,,0000,0000,0000,,...sei tu!
+Dialogue: 0,0:24:05.80,0:24:09.71,Default,,0000,0000,0000,,Se ci fosse Shinichi,\Nrisolverebbe il caso in un batter d'occhio.
+Dialogue: 0,0:24:11.34,0:24:13.22,Default,,0000,0000,0000,,Dove sarà finito?
+Dialogue: 0,0:24:13.71,0:24:15.10,Default,,0000,0000,0000,,Quel nerd dei gialli...
+Dialogue: 0,0:24:15.10,0:24:15.98,Default,,0000,0000,0000,,Scotta!
+Dialogue: 0,0:24:16.30,0:24:18.84,Default,,0000,0000,0000,,Mori, la tua teoria era corretta!
+Dialogue: 0,0:24:18.84,0:24:20.56,Default,,0000,0000,0000,,Mi hai fatto cambiare idea,\N"grande detective"!
+Dialogue: 0,0:24:21.16,0:24:25.40,Default,,0000,0000,0000,,Io non potrei riuscirci. \NNon potrei mai essere forte come Yoko...
+Dialogue: 1,0:24:25.40,0:24:31.40,Titolo episodio,,0000,0000,0000,,{\blur0.5\c&HFCE3C9&\pos(260.984,152.733)}I{*\c&HFCE3CA&}l {*\c&HFCE4CB&}c{*\c&HFCE4CC&}a{*\c&HFCE5CD&}so {*\c&HFCE6CF&}de{*\c&HFCE7D0&}l{*\c&HFCE7D1&}l{*\c&HFCE7D2&}a {*\c&HFCE8D3&}s{*\c&HFCE8D4&}t{*\c&HFCE9D5&}ar \N{*\c&HFCEAD7&}e {*\c&HFCEBD9&}d{*\c&HFCEBDA&}e{*\c&HFCECDA&}l{*\c&HFCECDB&}l{*\c&HFCECDC&}'{*\c&HFCEDDC&}o{*\c&HFCEDDD&}m{*\c&HFCEDDE&}i{*\c&HFCEEDF&}ci{*\c&HFCEFE0&}d{*\c&HFCEFE1&}io {*\c&HFCF0E3&}a {*\c&HFCF1E4&}p{*\c&HFCF1E5&}o{*\c&HFCF1E6&}r{*\c&HFCF2E7&}te {*\c&HFCF3E9&}ch{*\c&HFCF4EA&}i{*\c&HFCF4EB&}u{*\c&HFCF4EC&}s{*\c&HFCF5EC&}e{\i0\c&HFCF5ED&}
+Dialogue: 0,0:24:25.40,0:24:31.40,Titolo episodio,,0000,0000,0000,,{\blur0.5\c&HFCE3C9&\pos(260.984,152.733)}Il caso della star \Ne dell'omicidio a porte chiuse{\i0}
+Dialogue: 0,0:24:25.66,0:24:27.29,Italics,,0000,0000,0000,,Nel prossimo episodio di Conan...
+Dialogue: 0,0:24:27.29,0:24:29.97,Italics,,0000,0000,0000,,"Il caso della star \Ne dell'omicidio a porte chiuse".
+Dialogue: 0,0:24:46.42,0:24:51.43,Cartello BASE,,0000,0000,0000,,{\an7\blur3\bord0\shad0\fscx100\fscy100\p1\c&HCAD299&\pos(324.111,138.19)}m -65 -33 l 60 -33 60 2 -65 2
+Dialogue: 1,0:24:46.42,0:24:51.43,Cartello BASE,,0000,0000,0000,,{\blur0.7\fs35\fnComic Sans MS\c&H332C1A&\b1\pos(324.111,138.19)}Ghiaccio
+Dialogue: 0,0:24:47.15,0:24:49.11,Default,,0000,0000,0000,,Prossimo indizio per Conan:
+Dialogue: 0,0:24:49.61,0:24:50.94,Default,,0000,0000,0000,,Ghiaccio.
+Dialogue: 0,0:24:51.42,0:24:56.93,Cartello BASE,,0000,0000,0000,,{\blur0.6\pos(264.58,272.8)}Non perdetevi il prossimo episodio
+Dialogue: 1,0:24:51.42,0:24:56.93,Cartello BASE,,0000,0000,0000,,{\blur0\c&HDFDFDF&\pos(264.58,272.8)}Non perdetevi il prossimo episodio
+Dialogue: 0,0:24:52.33,0:24:54.72,Default,,0000,0000,0000,,La prossima volta riuscirete a battermi?

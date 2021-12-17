@@ -1,0 +1,451 @@
+[Script Info]
+Title: Italiano
+Original Script: cr_it  [http://www.crunchyroll.com/user/cr_it]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0013,0013,0020,1
+Style: OS,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0001,0001,0015,0
+Style: On Top,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0020,0020,0022,0
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0013,0013,0020,1
+Style: Default - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0013,0013,0020,1
+Style: Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0013,0013,0020,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0013,0013,0020,1
+Style: Flashback - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0013,0013,0020,1
+Style: Flashback Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0013,0013,0020,1
+Style: Flashback Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0013,0013,0020,1
+Style: Cartello BASE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0013,0013,0010,1
+Style: Titolo episodio,Verdana,25,&H00D0B193,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,180,0,0,1,0,0,2,0013,0013,0010,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.68,0:00:04.65,Italics,,0000,0000,0000,,Finché a commettere crimini \Nsono gli esseri umani,
+Dialogue: 0,0:00:04.65,0:00:06.52,Italics,,0000,0000,0000,,non esistono misteri irrisolvibili.
+Dialogue: 0,0:00:06.52,0:00:08.32,Italics,,0000,0000,0000,,Il trucco di oggi ha a che fare con i treni.
+Dialogue: 0,0:00:08.32,0:00:10.41,Italics,,0000,0000,0000,,La deduzione si basa sugli orari delle corse.
+Dialogue: 0,0:00:10.41,0:00:12.16,Italics,,0000,0000,0000,,Riesce a discernere l'unica verità,
+Dialogue: 0,0:00:12.16,0:00:14.54,Italics,,0000,0000,0000,,è un bambino, \Nma ha la mente di un adulto!
+Dialogue: 0,0:00:14.54,0:00:16.87,Italics,,0000,0000,0000,,Il suo nome? Detective Conan!
+Dialogue: 1,0:01:51.13,0:01:57.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur1\bord0.3\c&HE2E6ED&\pos(328.347,135.208)}Il caso del trucco sul treno
+Dialogue: 0,0:01:51.13,0:01:57.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur1\bord1\c&HE2E6ED&\pos(328.347,135.208)\3c&HFFFFFF&\3a&H95&}Il caso del trucco sul treno
+Dialogue: 0,0:01:51.96,0:01:54.71,Italics,,0000,0000,0000,,"Il caso del trucco sul treno".
+Dialogue: 0,0:01:57.09,0:02:01.09,Cartello BASE,,0000,0000,0000,,{\fad(0,750)\p1\fscx400\fscy700\bord0\c&H7D3904&\1a&H23&\pos(363,255)\blur1}m -11.625 7 l -11.625 -2 l 17.625 -2 l 17.625 7
+Dialogue: 1,0:01:57.09,0:02:01.09,Cartello BASE,,0000,0000,0000,,{\fad(0,750)\fs22\shad0\bord0\c&HE0E9D3&\fnTrebuchet MS\pos(317,230)}Yu no Yama\N\N{\fs12}Città termale a valle
+Dialogue: 0,0:02:02.39,0:02:02.70,On Top,,0000,0000,0000,,{\c&H161716&\move(318,314,318,252,23,274)\3c&HEEE6AE&}Stazione di Yu no Yama
+Dialogue: 0,0:02:02.70,0:02:02.94,On Top,,0000,0000,0000,,{\c&H000000&\move(318,241,318,195,5,214)\3c&HEEE6AE&}Stazione di Yu no Yama
+Dialogue: 0,0:02:02.94,0:02:03.14,On Top,,0000,0000,0000,,{\c&H000000&\move(318,187,318,178,16,183)\3c&HEEE6AE&}Stazione di Yu no Yama
+Dialogue: 0,0:02:03.14,0:02:04.06,On Top,,0000,0000,0000,,{\c&H000000&\pos(318,180)\3c&HEEE6AE&}Stazione di Yu no Yama
+Dialogue: 0,0:02:04.06,0:02:06.02,Default,,0000,0000,0000,,Papà! Sbrigati!
+Dialogue: 0,0:02:06.02,0:02:09.48,Default,,0000,0000,0000,,Dove stai andando? Dobbiamo salire qui!
+Dialogue: 0,0:02:09.81,0:02:12.52,Default,,0000,0000,0000,,No, questa è la linea Hana no Machi.
+Dialogue: 0,0:02:12.52,0:02:15.94,Default,,0000,0000,0000,,Noi dobbiamo prendere \Nquella che si ferma sopra, la Yu no Yama.
+Dialogue: 0,0:02:16.49,0:02:19.28,Default,,0000,0000,0000,,Possiamo prendere tutte e due, \Ntanto è la stessa cosa!
+Dialogue: 0,0:02:19.28,0:02:22.66,Default,,0000,0000,0000,,Si può cambiare per Tokyo con entrambe, \Nalla stazione di Hana no Machi.
+Dialogue: 0,0:02:23.28,0:02:25.20,Default,,0000,0000,0000,,Se non ti sbrighi lo perdiamo!
+Dialogue: 0,0:02:26.04,0:02:29.08,Default,,0000,0000,0000,,Mi fa male la testa\N per colpa dei postumi della sbornia.
+Dialogue: 0,0:02:29.08,0:02:31.54,Default,,0000,0000,0000,,Non gridare!
+Dialogue: 0,0:02:35.92,0:02:38.47,Default,,0000,0000,0000,,Basta, non ce la faccio più!\N Io da qui non mi sposto!
+Dialogue: 0,0:02:50.89,0:02:52.31,Default,,0000,0000,0000,,È stato divertente!
+Dialogue: 0,0:02:52.31,0:02:55.44,Default,,0000,0000,0000,,La cucina, la locanda tradizionale\N e le terme erano fantastiche!
+Dialogue: 0,0:02:55.44,0:02:56.78,Default,,0000,0000,0000,,Vero, Conan?
+Dialogue: 0,0:02:56.78,0:02:57.53,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:02:58.44,0:02:59.74,Default,,0000,0000,0000,,Grazie, papà.
+Dialogue: 0,0:03:01.74,0:03:06.22,Default,,0000,0000,0000,,È stato un tuo cliente a offrirti\N questo viaggio alle terme, dico bene?
+Dialogue: 0,0:03:06.22,0:03:08.12,Default,,0000,0000,0000,,Per aver risolto il caso, no?
+Dialogue: 0,0:03:08.12,0:03:09.46,Default,,0000,0000,0000,,Sì, è vero...
+Dialogue: 0,0:03:09.46,0:03:13.67,Italics,,0000,0000,0000,,Anche se in realtà l'ho risolto io, non lui.
+Dialogue: 0,0:03:13.67,0:03:17.21,Default,,0000,0000,0000,,Mi faccio un'oretta di sonno\N fino al cambio a Hana no Machi.
+Dialogue: 0,0:03:17.21,0:03:18.38,Default,,0000,0000,0000,,Cretino!
+Dialogue: 0,0:03:20.22,0:03:22.09,Default,,0000,0000,0000,,Che vuoi fare, Sato?!
+Dialogue: 0,0:03:22.26,0:03:26.05,Cartello BASE,,0000,0000,0000,,{\fad(330,380)\p1\fscx720\fscy400\bord0\c&H854A22&\1a&H61&\pos(401,269)\blur0.8}m -11.625 7 l -11.625 -2 l 17.625 -2 l 17.625 7
+Dialogue: 1,0:03:22.26,0:03:26.05,Cartello BASE,,0000,0000,0000,,{\fad(330,380)\fs25\shad0\bord0\c&HE0E9D3&\fnTrebuchet MS\blur0.2\pos(318,255)}Taizo Sato - medico
+Dialogue: 0,0:03:22.38,0:03:26.60,Default - Alt,,0000,0000,0000,,Ma che c'è?\N C'è bisogno di arrabbiarsi così?!
+Dialogue: 0,0:03:26.60,0:03:30.51,Cartello BASE,,0000,0000,0000,,{\fad(320,540)\p1\fscx720\fscy400\bord0\c&H854A22&\1a&H61&\blur0.8\pos(400,269)}m -11.625 7 l -11.625 -2 l 17.625 -2 l 17.625 7
+Dialogue: 1,0:03:26.62,0:03:30.56,Cartello BASE,,0000,0000,0000,,{\fad(320,540)\blur0.2\fs23\shad0\bord0\c&HE0E9D3&\fnTrebuchet MS\pos(318,254)}Takashi Date - medico
+Dialogue: 0,0:03:27.10,0:03:28.56,Default - Alt,,0000,0000,0000,,Non ti sopporto!
+Dialogue: 0,0:03:28.56,0:03:31.06,Default - Alt,,0000,0000,0000,,Non riesco neppure\N a rimanere seduto vicino a te!
+Dialogue: 0,0:03:31.89,0:03:33.27,Default,,0000,0000,0000,,Vado in un'altra carrozza.
+Dialogue: 0,0:03:32.56,0:03:33.27,Default - Alt,,0000,0000,0000,,Ehi, Date!
+Dialogue: 0,0:03:37.57,0:03:39.23,Default,,0000,0000,0000,,Ma quelli sono...
+Dialogue: 0,0:03:39.23,0:03:42.86,Default,,0000,0000,0000,,Sì, ieri sera hanno alloggiato\N alla nostra stessa locanda.
+Dialogue: 0,0:03:46.87,0:03:48.54,Cartello BASE,,0000,0000,0000,,{\c&H031F4B&\fnComic Sans MS\i1\move(436,236,632,236\fad(0,300))\clip(377,18,559,258)}Convegno\N\N\N\N\Nassociazione \N\N\N\Ndei medici \N\N\NKan'etsu
+Dialogue: 0,0:03:53.17,0:03:54.04,Flashback,,0000,0000,0000,,Scusate...
+Dialogue: 0,0:03:55.29,0:03:57.75,Default,,0000,0000,0000,,Ah, quel gruppo di dottori...
+Dialogue: 0,0:03:58.96,0:03:59.76,Default,,0000,0000,0000,,Buongiorno!
+Dialogue: 0,0:04:00.01,0:04:02.23,Default,,0000,0000,0000,,S-Siete quelli di ieri sera...
+Dialogue: 0,0:04:02.93,0:04:04.28,Default,,0000,0000,0000,,È successo qualcosa?
+Dialogue: 0,0:04:04.84,0:04:06.97,Default,,0000,0000,0000,,No, si è solo innervosito.
+Dialogue: 0,0:04:07.97,0:04:09.06,Default,,0000,0000,0000,,E gli altri del gruppo?
+Dialogue: 0,0:04:09.72,0:04:11.31,Default,,0000,0000,0000,,Ognuno torna per conto suo.
+Dialogue: 0,0:04:11.31,0:04:13.14,Default,,0000,0000,0000,,C'è chi ha preso la linea Hana no Machi
+Dialogue: 0,0:04:13.14,0:04:15.48,Default,,0000,0000,0000,,e chi ha preso la Yu no Yama come noi.
+Dialogue: 0,0:04:15.48,0:04:18.69,Default,,0000,0000,0000,,Anche se dobbiamo tutti cambiare \Nalla stazione di Hana no Machi.
+Dialogue: 0,0:04:19.02,0:04:21.65,Default,,0000,0000,0000,,Allora, buonanotte.
+Dialogue: 0,0:04:32.37,0:04:35.96,Italics,,0000,0000,0000,,Mizu no Kawa! Mizu no Kawa!
+Dialogue: 0,0:04:39.21,0:04:41.26,Default,,0000,0000,0000,,Eh? La stazione Mizu no Kawa?
+Dialogue: 0,0:04:41.26,0:04:43.72,Cartello BASE,,0000,0000,0000,,{\c&H070708&\b1\fnVerdana\fs22\pos(175,173)}{\c&H000000&\b1\fnVerdana\fs22\1a&H1A&\pos(176,169)}PER HANA NO MACHI\N\N\N\N\N\N{\an4}FARE IL CAMBIO AL BINARIO 6
+Dialogue: 0,0:04:41.84,0:04:43.72,Default,,0000,0000,0000,,Oh, dice che possiamo cambiare qui.
+Dialogue: 0,0:04:44.47,0:04:48.14,Default,,0000,0000,0000,,Forse sarà meglio cambiare qui\N per la linea Hana no Machi?
+Dialogue: 0,0:04:48.14,0:04:50.35,Default,,0000,0000,0000,,Ops! Peccato!
+Dialogue: 0,0:04:50.35,0:04:53.52,Default,,0000,0000,0000,,Il treno della Hana no Machi \Nè arrivato qui alle 10:30 precise.
+Dialogue: 0,0:04:53.52,0:04:56.60,Default,,0000,0000,0000,,Era cinque minuti fa, ormai se n'è andato.
+Dialogue: 0,0:04:56.94,0:04:57.56,Default,,0000,0000,0000,,Bah.
+Dialogue: 0,0:05:10.53,0:05:12.25,Default,,0000,0000,0000,,Scusate il disturbo.
+Dialogue: 0,0:05:12.25,0:05:14.00,Default,,0000,0000,0000,,Controllo biglietti.
+Dialogue: 0,0:05:14.00,0:05:15.46,Default,,0000,0000,0000,,Ecco i biglietti.
+Dialogue: 0,0:05:14.00,0:05:16.04,Cartello BASE,,0000,0000,0000,,{\fad(500,0)\an7\blur0.5\bord0.5\shad0\fscx50\fscy140\p1\c&HB0D796&\pos(456,64)}m -168 -26 l 161.375 -26 161.375 28 -168 28
+Dialogue: 1,0:05:14.00,0:05:16.04,Cartello BASE,,0000,0000,0000,,{\fad(500,0)\an7\blur0.5\shad0\fscx50\fscy30\p1\c&H98A30C&\pos(456,52)}m -168 -26 l 161.375 -26 161.375 28 -168 28
+Dialogue: 2,0:05:14.00,0:05:16.04,Cartello BASE,,0000,0000,0000,,{\fad(500,0)\blur0.5\fs13\bord0\fnTimes New Roman\c&H2D2628&\u1\pos(455,42)}Biglietto ferroviario
+Dialogue: 2,0:05:14.00,0:05:16.04,Cartello BASE,,0000,0000,0000,,{\fad(500,0)\blur0.5\fs14\bord0\fnTimes New Roman\c&H2D2628&\pos(456,59)}TOKYO <  > YU NO MACHI
+Dialogue: 2,0:05:14.00,0:05:16.04,Cartello BASE,,0000,0000,0000,,{\fad(500,0)\blur0.5\fs12\bord0\fnTimes New Roman\c&H2D2628&\an6\pos(533,82)}Valido per 3 giorni \hPosto libero\N\N\NRilasciato a Nishi Shinjuku
+Dialogue: 2,0:05:14.00,0:05:16.04,Cartello BASE,,0000,0000,0000,,{\fad(500,0)\blur0.5\fs9\bord0\fnTimes New Roman\c&H2D2628&\\pos(411,88)}001320143001500M
+Dialogue: 0,0:05:16.50,0:05:17.79,Default,,0000,0000,0000,,Grazie, giovanotto.
+Dialogue: 0,0:05:21.25,0:05:21.84,Cartello BASE,,0000,0000,0000,,{\fnVerdana\c&HB4D2CC&\fs24\b1\pos(210,200)}Stazione \Ndi Mizu no Kawa
+Dialogue: 0,0:05:21.65,0:05:26.07,Cartello BASE,,0000,0000,0000,,{\fnVerdana\c&HB4D2CC&\fs24\b1\move(240,456,240,-40)}Linea \NYu no Yama
+Dialogue: 0,0:05:21.65,0:05:26.07,Cartello BASE,,0000,0000,0000,,{\fnVerdana\c&HB4D2CC&\fs24\b1\move(470,456,470,-40)}Linea \NHana \Nno Machi
+Dialogue: 0,0:05:21.84,0:05:24.03,Cartello BASE,,0000,0000,0000,,{\fnVerdana\c&HB4D2CC&\fs24\b1\move(210,200,210,-14)}Stazione \Ndi Mizu no Kawa
+Dialogue: 0,0:05:28.50,0:05:29.80,Cartello BASE,,0000,0000,0000,,{\fad(200,0)\fnVerdana\c&HB4D2CC&\fs20\b1\pos(295,338)}Stazione di Hana no Machi
+Dialogue: 0,0:05:30.10,0:05:33.77,Italics,,0000,0000,0000,,Grazie per aver usato la linea Yu no Yama.
+Dialogue: 0,0:05:33.77,0:05:36.77,Italics,,0000,0000,0000,,Stiamo per arrivare al capolinea,\N la stazione di Hana no Machi.
+Dialogue: 0,0:05:36.77,0:05:40.73,Italics,,0000,0000,0000,,Vi preghiamo di controllare \Ndi non aver dimenticato nulla.
+Dialogue: 0,0:05:40.73,0:05:42.27,Italics,,0000,0000,0000,,I passeggeri diretti a Tokyo
+Dialogue: 0,0:05:42.27,0:05:43.94,Italics,,0000,0000,0000,,attendano al binario 7.
+Dialogue: 0,0:05:43.94,0:05:46.61,Italics,,0000,0000,0000,,Il prossimo treno partirà alle 11:40.
+Dialogue: 0,0:05:50.12,0:05:52.95,Default,,0000,0000,0000,,35 minuti di attesa...
+Dialogue: 0,0:05:53.24,0:05:55.16,Default,,0000,0000,0000,,Ehi! Sato!
+Dialogue: 0,0:05:56.79,0:05:58.12,Default,,0000,0000,0000,,Scusa per prima.
+Dialogue: 0,0:05:58.12,0:06:02.13,Default,,0000,0000,0000,,Mi sono calmato un po'\N guardando il paesaggio dal finestrino.
+Dialogue: 0,0:06:02.42,0:06:04.88,Default,,0000,0000,0000,,Me l'immaginavo!
+Dialogue: 0,0:06:04.88,0:06:05.59,Default,,0000,0000,0000,,Scusami!
+Dialogue: 0,0:06:07.76,0:06:09.39,Default,,0000,0000,0000,,Hanno fatto pace.
+Dialogue: 0,0:06:11.76,0:06:12.35,Default,,0000,0000,0000,,Prego.
+Dialogue: 0,0:06:12.35,0:06:13.39,Default,,0000,0000,0000,,Grazie.
+Dialogue: 0,0:06:13.39,0:06:14.31,Default,,0000,0000,0000,,Ecco qua.
+Dialogue: 0,0:06:20.31,0:06:23.98,Italics,,0000,0000,0000,,Ha solo monetine nel borsellino...
+Dialogue: 0,0:06:24.82,0:06:26.53,Default,,0000,0000,0000,,Bene, allora ci salutiamo qui.
+Dialogue: 0,0:06:26.53,0:06:28.70,Default,,0000,0000,0000,,Sì, certo! Arrivederci!
+Dialogue: 0,0:06:30.66,0:06:32.91,Default,,0000,0000,0000,,Ehi, signore! \NTi si sta per staccare il bottone!
+Dialogue: 0,0:06:35.74,0:06:37.45,Default,,0000,0000,0000,,Ah, tranquillo.
+Dialogue: 0,0:06:40.50,0:06:41.92,Italics,,0000,0000,0000,,L'ha strofinato?!
+Dialogue: 0,0:06:41.92,0:06:43.10,Italics,,0000,0000,0000,,Che strano tipo...
+Dialogue: 0,0:06:44.75,0:06:46.71,Default,,0000,0000,0000,,Dov'è che hanno trovato il corpo?!
+Dialogue: 0,0:06:47.21,0:06:49.63,Default,,0000,0000,0000,,Nel treno della Hana no Machi \Narrivato 5 minuti fa!
+Dialogue: 0,0:06:49.63,0:06:51.36,Default,,0000,0000,0000,,Sembra che il morto sia un medico.
+Dialogue: 0,0:06:52.26,0:06:55.64,Default,,0000,0000,0000,,N-Non sarà uno del nostro gruppo?!
+Dialogue: 0,0:06:55.64,0:06:57.56,Default,,0000,0000,0000,,Ognuno è tornato per conto suo,
+Dialogue: 0,0:06:57.56,0:06:59.81,Default,,0000,0000,0000,,qualcuno potrebbe \Naver preso la Hana no Machi!
+Dialogue: 0,0:06:59.81,0:07:00.56,Default,,0000,0000,0000,,Andiamo a vedere!
+Dialogue: 0,0:07:00.56,0:07:01.19,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:07:04.23,0:07:06.11,Default,,0000,0000,0000,,Bene, vado anch'io.
+Dialogue: 0,0:07:06.36,0:07:08.24,Default,,0000,0000,0000,,Papà! E i postumi della sbornia?
+Dialogue: 0,0:07:08.24,0:07:09.57,Default,,0000,0000,0000,,Belli che passati.
+Dialogue: 0,0:07:10.15,0:07:12.70,Default,,0000,0000,0000,,Non posso restare in silenzio\N se c'è di mezzo un cadavere.
+Dialogue: 0,0:07:12.70,0:07:15.66,Default,,0000,0000,0000,,Il grande detective Kogoro Mori \Nentra in azione!
+Dialogue: 0,0:07:28.92,0:07:30.63,Default,,0000,0000,0000,,È Utsumi!
+Dialogue: 0,0:07:31.47,0:07:34.51,Default,,0000,0000,0000,,Era proprio uno dei medici \Ndella vostra associazione?
+Dialogue: 0,0:07:34.51,0:07:37.89,Default,,0000,0000,0000,,È Utsumi, era con noi ieri sera.
+Dialogue: 0,0:07:40.18,0:07:42.27,Italics,,0000,0000,0000,,Cos'era quello sguardo?
+Dialogue: 0,0:07:45.61,0:07:48.98,Cartello BASE,,0000,0000,0000,,{\fad(150,150)\p1\fscx510\fscy600\bord0\c&H6A3E05&\1a&H64&\blur0.8\pos(380,254)}m -11.625 7 l -11.625 -2 l 17.625 -2 l 17.625 7
+Dialogue: 1,0:07:45.61,0:07:48.98,Cartello BASE,,0000,0000,0000,,{\fad(150,150)\fs20\shad0\bord0\c&HE0E9D3&\fnTrebuchet MS\pos(321,235)\blur0.2}Yosuke Kobayashi\N\N{\fs12}Capo della polizia ferroviaria
+Dialogue: 0,0:07:45.69,0:07:49.74,Default - Alt,,0000,0000,0000,,Sono Yosuke Kobayashi,\Ncapo della polizia ferroviaria.
+Dialogue: 0,0:07:50.40,0:07:53.24,Default,,0000,0000,0000,,È un onore conoscerla, detective Mori!
+Dialogue: 0,0:07:53.24,0:07:55.20,Default,,0000,0000,0000,,La ringrazio per la collaborazione!
+Dialogue: 0,0:07:55.20,0:07:58.20,Default,,0000,0000,0000,,Si figuri, è un piacere.
+Dialogue: 0,0:08:03.46,0:08:05.13,Default,,0000,0000,0000,,Qual è la causa del decesso?
+Dialogue: 0,0:08:05.83,0:08:07.92,Default,,0000,0000,0000,,Dovremmo aspettare l'esame autoptico,
+Dialogue: 0,0:08:07.92,0:08:09.80,Default,,0000,0000,0000,,ma probabilmente è arresto cardiaco.
+Dialogue: 0,0:08:09.80,0:08:12.97,Default,,0000,0000,0000,,Se è così io non ho niente da fare.
+Dialogue: 0,0:08:12.97,0:08:16.12,Default,,0000,0000,0000,,Ehi, ma quello non è il segno di una siringa?
+Dialogue: 0,0:08:16.22,0:08:18.70,Default,,0000,0000,0000,,Sta' zitto tu! Aspetta, una siringa?
+Dialogue: 0,0:08:19.39,0:08:21.77,Default,,0000,0000,0000,,Guarda le vene del braccio.
+Dialogue: 0,0:08:21.77,0:08:25.10,Default,,0000,0000,0000,,C'è una ferita con del sangue, \Nsimile alla puntura di un ago.
+Dialogue: 0,0:08:25.10,0:08:26.65,Default,,0000,0000,0000,,Il segno di un ago ipodermico?
+Dialogue: 0,0:08:28.61,0:08:29.44,Default,,0000,0000,0000,,Sì, è così di certo.
+Dialogue: 0,0:08:29.67,0:08:33.53,Default,,0000,0000,0000,,Con un'iniezione intravenosa \Ndi cloruro di potassio in grandi quantità
+Dialogue: 0,0:08:33.53,0:08:37.07,Default,,0000,0000,0000,,si può morire con sintomi identici \Na quelli di un arresto cardiaco.
+Dialogue: 0,0:08:37.07,0:08:37.66,Default,,0000,0000,0000,,Sta' zitto!
+Dialogue: 0,0:08:38.66,0:08:42.00,Default,,0000,0000,0000,,Negli ospedali ci sono \Nsia siringhe che cloruro di potassio, no?
+Dialogue: 0,0:08:43.41,0:08:46.17,Default,,0000,0000,0000,,Incredibile, certo che ne sai di cose!
+Dialogue: 0,0:08:47.00,0:08:49.80,Default,,0000,0000,0000,,Ah, mi piace tanto la scienza.
+Dialogue: 0,0:08:50.07,0:08:51.51,Italics,,0000,0000,0000,,C'è mancato poco!
+Dialogue: 0,0:08:52.76,0:08:55.80,Default,,0000,0000,0000,,Però qui non ci sono siringhe...
+Dialogue: 0,0:08:56.59,0:08:57.22,Default,,0000,0000,0000,,Quindi...
+Dialogue: 0,0:08:57.55,0:08:59.68,Default,,0000,0000,0000,,Questo non è un incidente, né un suicidio!
+Dialogue: 0,0:08:59.68,0:09:02.18,Default,,0000,0000,0000,,È stato un omicidio! Qualcuno l'ha ucciso!
+Dialogue: 0,0:09:02.18,0:09:02.93,Default,,0000,0000,0000,,Brutta peste...
+Dialogue: 0,0:09:03.43,0:09:05.73,Default,,0000,0000,0000,,Smetti di dare fastidio! Fuori!
+Dialogue: 0,0:09:05.73,0:09:06.31,Default,,0000,0000,0000,,Ok.
+Dialogue: 0,0:09:06.68,0:09:09.40,Default,,0000,0000,0000,,Quindi ora il problema è capire il movente.
+Dialogue: 0,0:09:09.40,0:09:10.77,Default,,0000,0000,0000,,È una semplice rapina.
+Dialogue: 0,0:09:11.65,0:09:13.74,Default,,0000,0000,0000,,Nel portafogli non c'è nemmeno uno yen.
+Dialogue: 0,0:09:14.61,0:09:16.70,Default,,0000,0000,0000,,E perché le dita sono rotte?
+Dialogue: 0,0:09:17.03,0:09:19.28,Default,,0000,0000,0000,,L'assassino è un forzuto!
+Dialogue: 0,0:09:19.28,0:09:21.41,Default,,0000,0000,0000,,L'ha tenuto fermo così forte
+Dialogue: 0,0:09:21.41,0:09:24.66,Default,,0000,0000,0000,,per impedirgli di resistere\N e commettere il crimine.
+Dialogue: 0,0:09:26.04,0:09:29.21,Italics,,0000,0000,0000,,E a che sarebbe servito allora\N arrivare a usare la siringa?!
+Dialogue: 0,0:09:30.09,0:09:34.09,Italics,,0000,0000,0000,,La linea Hana no Machi è parallela\Nalla Yu no Yama su cui abbiamo viaggiato noi.
+Dialogue: 0,0:09:34.49,0:09:36.83,Cartello BASE,,0000,0000,0000,,{\fad(100,0)\c&H2D2628&\\b1\fs13\move(215,204,215,-24)}Stazione \Ndi Mizu no Kawa
+Dialogue: 0,0:09:34.49,0:09:38.11,Cartello BASE,,0000,0000,0000,,{\fad(100,0)\c&H2D2628&\\b1\fs13\move(485,304,485,-46)}Linea \NHama no Machi
+Dialogue: 0,0:09:34.49,0:09:38.20,Cartello BASE,,0000,0000,0000,,{\fad(100,0)\c&H2D2628&\\b1\fs13\move(115,304,115,-46)}Linea \NYu no Yama
+Dialogue: 1,0:09:35.42,0:09:39.05,Italics,,0000,0000,0000,,Gli unici punti d'incontro sono le stazioni\N di Yu no Yama e Mizu no Kawa.
+Dialogue: 0,0:09:36.95,0:09:39.05,Cartello BASE,,0000,0000,0000,,{\fad(100,0)\c&H2D2628&\\b1\fs13\move(314,374,314,263,0,1336)}Stazione Hana no Machi
+Dialogue: 0,0:09:39.05,0:09:41.14,Italics,,0000,0000,0000,,Il treno su cui è avvenuto il delitto
+Dialogue: 0,0:09:41.14,0:09:45.31,Italics,,0000,0000,0000,,alle 10:30 si è fermato \Nalla stazione di Mizu no Kawa.
+Dialogue: 0,0:09:45.31,0:09:47.56,Italics,,0000,0000,0000,,La domanda è quando è avvenuto il crimine.
+Dialogue: 0,0:09:47.56,0:09:52.61,Default,,0000,0000,0000,,Quindi la vittima ha comprato\N un caffè in lattina alle 10:50, giusto?
+Dialogue: 0,0:09:52.61,0:09:53.40,Default,,0000,0000,0000,,Esatto.
+Dialogue: 0,0:09:53.73,0:09:55.58,Default,,0000,0000,0000,,Eravamo quasi a Hana no Machi,
+Dialogue: 0,0:09:56.11,0:09:58.82,Default,,0000,0000,0000,,e lui è stato il mio ultimo cliente.
+Dialogue: 0,0:09:58.82,0:10:00.99,Default,,0000,0000,0000,,Non avevo banconote da 1000 yen per il resto,
+Dialogue: 0,0:10:00.99,0:10:04.54,Default,,0000,0000,0000,,quindi gliel'ho dato in monete,\N per questo me lo ricordo.
+Dialogue: 0,0:10:06.91,0:10:09.31,Default,,0000,0000,0000,,La vittima era seduta da sola?
+Dialogue: 0,0:10:10.21,0:10:11.13,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:10:12.04,0:10:13.34,Default,,0000,0000,0000,,E poi, subito dopo,
+Dialogue: 0,0:10:13.34,0:10:17.88,Default,,0000,0000,0000,,gli si è seduto accanto\N un uomo con i baffi e una giacca blu scuro,
+Dialogue: 0,0:10:17.88,0:10:20.34,Default,,0000,0000,0000,,perciò lei si alzata e si è spostata.
+Dialogue: 0,0:10:21.35,0:10:22.22,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:10:22.89,0:10:24.47,Italics,,0000,0000,0000,,Una giacca blu scuro?!
+Dialogue: 0,0:10:25.56,0:10:29.44,Default,,0000,0000,0000,,Quindi il crimine è avvenuto\Ntra le 10:50 e le 10:52 o 10:53.
+Dialogue: 0,0:10:32.40,0:10:34.90,Italics,,0000,0000,0000,,La giacca del dottor Date è una double-face!
+Dialogue: 0,0:10:35.53,0:10:36.61,Italics,,0000,0000,0000,,E l'altro lato è blu scuro.
+Dialogue: 0,0:10:39.74,0:10:41.70,Italics,,0000,0000,0000,,Forse il bottone si stava staccando
+Dialogue: 0,0:10:41.70,0:10:43.95,Italics,,0000,0000,0000,,perché la vittima ci si è aggrappata!
+Dialogue: 0,0:10:44.20,0:10:47.33,Italics,,0000,0000,0000,,E lui gli ha rotto le dita per allontanarlo!
+Dialogue: 0,0:10:48.08,0:10:49.75,Italics,,0000,0000,0000,,Per questo in quel momento...
+Dialogue: 0,0:10:49.75,0:10:50.83,Italics,,0000,0000,0000,,Non c'è dubbio!
+Dialogue: 0,0:10:51.96,0:10:53.96,Italics,,0000,0000,0000,,Ha strofinato il bottone con il dito
+Dialogue: 0,0:10:53.96,0:10:56.25,Italics,,0000,0000,0000,,per rimuovere le impronte della vittima!
+Dialogue: 0,0:10:56.63,0:10:59.30,Italics,,0000,0000,0000,,Inoltre, \Nè stato il cloruro di potassio a ucciderlo,
+Dialogue: 0,0:10:59.30,0:11:02.22,Italics,,0000,0000,0000,,difficile da ottenere \Nper chiunque tranne un medico!
+Dialogue: 0,0:11:02.22,0:11:05.22,Italics,,0000,0000,0000,,E poi, la sua reazione\N quando ha sentito il nome di Kogoro!
+Dialogue: 0,0:11:05.97,0:11:08.81,Italics,,0000,0000,0000,,Il colpevole probabilmente\Nè lui... il dottor Date!
+Dialogue: 0,0:11:08.81,0:11:14.27,Italics,,0000,0000,0000,,Ma come ha potuto uccidere\N una persona che viaggiava su un altro treno?
+Dialogue: 0,0:11:18.24,0:11:20.90,Default,,0000,0000,0000,,Ehi, ma non lavori più?
+Dialogue: 0,0:11:20.90,0:11:22.20,Default,,0000,0000,0000,,Certo che no.
+Dialogue: 0,0:11:22.20,0:11:23.91,Default,,0000,0000,0000,,Stanno cercando il rapinatore.
+Dialogue: 0,0:11:23.91,0:11:26.41,Default,,0000,0000,0000,,Il mio compito come investigatore è finito.
+Dialogue: 0,0:11:26.87,0:11:29.25,Default,,0000,0000,0000,,Ma era davvero una rapina?
+Dialogue: 0,0:11:30.29,0:11:31.96,Default,,0000,0000,0000,,Che intendi, Conan?
+Dialogue: 0,0:11:32.26,0:11:37.92,Default,,0000,0000,0000,,Beh, quella testimone lì\N mi sembra più ricca della vittima.
+Dialogue: 0,0:11:37.92,0:11:40.09,Default,,0000,0000,0000,,Era seduta lì vicino, no?
+Dialogue: 0,0:11:40.09,0:11:45.14,Default,,0000,0000,0000,,Perché il colpevole ha preso di mira \Nproprio l'uomo e non la signora?
+Dialogue: 0,0:11:45.14,0:11:48.06,Default,,0000,0000,0000,,In effetti, ora che me lo dici...
+Dialogue: 0,0:11:48.06,0:11:49.66,Default,,0000,0000,0000,,In effetti è strano.
+Dialogue: 0,0:11:50.10,0:11:53.10,Default,,0000,0000,0000,,Ehi, ma perché quel signore suda così tanto?
+Dialogue: 0,0:11:54.94,0:11:56.15,Default,,0000,0000,0000,,Dottor Sato.
+Dialogue: 0,0:11:56.86,0:11:59.82,Default,,0000,0000,0000,,Non è che per caso \Nlei sa qualcosa in proposito?
+Dialogue: 0,0:11:59.82,0:12:02.11,Default,,0000,0000,0000,,Eh? I-Io? No, niente...
+Dialogue: 0,0:12:02.99,0:12:05.66,Default,,0000,0000,0000,,Non importa. Diglielo, Sato.
+Dialogue: 0,0:12:05.66,0:12:11.08,Default,,0000,0000,0000,,Digli che ieri alla locanda, io e la vittima, \Nil dottor Utsumi, abbiamo avuto una brutta lite.
+Dialogue: 0,0:12:12.04,0:12:14.54,Default,,0000,0000,0000,,Una lite con la vittima?
+Dialogue: 0,0:12:14.54,0:12:16.04,Default,,0000,0000,0000,,D-Davvero?!
+Dialogue: 0,0:12:16.54,0:12:18.05,Default,,0000,0000,0000,,Sì, e anche molto animata.
+Dialogue: 0,0:12:18.34,0:12:20.05,Default,,0000,0000,0000,,Qual era il motivo della lite?
+Dialogue: 0,0:12:20.80,0:12:22.51,Default,,0000,0000,0000,,Un'accusa infondata.
+Dialogue: 0,0:12:23.51,0:12:27.43,Default,,0000,0000,0000,,Diceva che ho preso mazzette \Nda una compagnia farmaceutica.
+Dialogue: 0,0:12:27.97,0:12:30.93,Default,,0000,0000,0000,,Ovviamente io non so niente di mazzette.
+Dialogue: 0,0:12:31.98,0:12:34.90,Default,,0000,0000,0000,,Accidenti, ora pensate che l'abbia ucciso io?
+Dialogue: 0,0:12:35.12,0:12:36.94,Default,,0000,0000,0000,,No, niente affatto.
+Dialogue: 0,0:12:36.94,0:12:40.15,Default,,0000,0000,0000,,È chiaro che lei e la vittima \Neravate su treni diversi
+Dialogue: 0,0:12:40.15,0:12:44.11,Default,,0000,0000,0000,,stando alla testimonianza \Ndel signor Mori e gli altri.
+Dialogue: 0,0:12:44.43,0:12:47.07,Italics,,0000,0000,0000,,Effettivamente il dottor Date ha un alibi.
+Dialogue: 0,0:12:50.37,0:12:52.87,Default,,0000,0000,0000,,Senti, perché avete preso la Yu no Yama
+Dialogue: 0,0:12:52.87,0:12:54.87,Default,,0000,0000,0000,,e non la Hana no Machi?
+Dialogue: 0,0:12:54.87,0:12:57.50,Default,,0000,0000,0000,,Beh, andavano bene tutte e due.
+Dialogue: 0,0:12:57.50,0:12:59.75,Default,,0000,0000,0000,,Però i biglietti li ha presi il dottor Date.
+Dialogue: 0,0:13:00.25,0:13:01.71,Default,,0000,0000,0000,,E perché prima litigavate?
+Dialogue: 0,0:13:02.51,0:13:05.05,Default,,0000,0000,0000,,Ho provato a restituirgli i soldi del biglietto,
+Dialogue: 0,0:13:05.05,0:13:07.26,Default,,0000,0000,0000,,ma si è rifiutato di accettarli.
+Dialogue: 0,0:13:07.93,0:13:11.18,Default,,0000,0000,0000,,Quando ho insistito, \Nall'improvviso si è arrabbiato.
+Dialogue: 0,0:13:11.77,0:13:13.68,Default,,0000,0000,0000,,Quindi ho lasciato perdere.
+Dialogue: 0,0:13:14.06,0:13:16.48,Italics,,0000,0000,0000,,È stato Date a fare in modo \Ndi prendere la Yu no Yama
+Dialogue: 0,0:13:16.48,0:13:21.65,Italics,,0000,0000,0000,,per poi fingere una lite e creare\N l'occasione per andare sull'ultima carrozza.
+Dialogue: 0,0:13:22.44,0:13:24.70,Default,,0000,0000,0000,,Ran, mi fai vedere gli orari dei treni?
+Dialogue: 0,0:13:24.70,0:13:27.03,Default,,0000,0000,0000,,Gli orari? Va bene.
+Dialogue: 0,0:13:27.57,0:13:28.24,Default,,0000,0000,0000,,Ecco.
+Dialogue: 0,0:13:28.24,0:13:29.66,Default,,0000,0000,0000,,Grazie.
+Dialogue: 0,0:13:30.66,0:13:35.62,Italics,,0000,0000,0000,,Se ha cambiato per la linea Hana no Machi...
+Dialogue: 0,0:13:35.62,0:13:40.58,Cartello BASE,,0000,0000,0000,,{\fad(0,830)\c&H2D2628&\b1\pos(221,237)\frz35.34}Mizu no \N\N\NKawa
+Dialogue: 0,0:13:36.37,0:13:39.13,Italics,,0000,0000,0000,,Ecco! Poteva farlo solo\N alla stazione di Mizu no Kawa!
+Dialogue: 0,0:13:37.98,0:13:40.58,Cartello BASE,,0000,0000,0000,,{\fad(0,830)\c&H2D2628&\b1\frz31.86\move(596,12,381,149,0,1500)\clip(268,0,559,229)}Mizu no \N\N\NKawa
+Dialogue: 0,0:13:40.79,0:13:43.59,Italics,,0000,0000,0000,,Ma il treno della Hana no Machi\N su cui viaggiava la vittima
+Dialogue: 0,0:13:43.59,0:13:46.63,Italics,,0000,0000,0000,,è arrivato alla stazione \Ndi Mizu no Kawa alle 10:30.
+Dialogue: 0,0:13:47.93,0:13:52.77,Italics,,0000,0000,0000,,Il nostro treno della Yu no Yama \Nè arrivato cinque minuti dopo.
+Dialogue: 0,0:13:52.77,0:13:55.23,Italics,,0000,0000,0000,,Quello della Hana no Machi \Nera già ripartito!
+Dialogue: 0,0:13:55.23,0:13:57.52,Italics,,0000,0000,0000,,Forse dopotutto era impossibile.
+Dialogue: 0,0:13:57.52,0:13:59.40,Italics,,0000,0000,0000,,Un attimo! Ora che ci penso...
+Dialogue: 0,0:13:59.56,0:14:04.40,Cartello BASE,,0000,0000,0000,,{\c&H070708&\b1\fnVerdana\fs22\pos(175,173)}{\c&H001C3B&\b1\fnVerdana\fs22\1a&H1A&\pos(176,169)}PER HANA NO MACHI\N\N\N\N\N\N{\an4}FARE IL CAMBIO AL BINARIO 6
+Dialogue: 0,0:14:00.56,0:14:02.44,Italics,,0000,0000,0000,,La Yu no Yama è al binario 1.
+Dialogue: 0,0:14:02.44,0:14:04.40,Italics,,0000,0000,0000,,La Hana no Machi è al binario 6.
+Dialogue: 0,0:14:04.90,0:14:09.03,Italics,,0000,0000,0000,,C'è un cavalcavia che collega\N le piattaforme dei binari 3 e 4.
+Dialogue: 0,0:14:10.41,0:14:12.24,Italics,,0000,0000,0000,,E quelle scale...
+Dialogue: 0,0:14:12.24,0:14:15.66,Italics,,0000,0000,0000,,sono accanto all'ultima carrozza\N su cui si trovava il dottor Date.
+Dialogue: 0,0:14:17.83,0:14:20.96,Default,,0000,0000,0000,,Sì, pare che dovrò trattenermi ancora un po'.
+Dialogue: 0,0:14:20.96,0:14:23.05,Default,,0000,0000,0000,,Puoi chiudere lo studio per oggi?
+Dialogue: 0,0:14:23.05,0:14:25.09,Default,,0000,0000,0000,,Sì, grazie.
+Dialogue: 0,0:14:25.55,0:14:26.78,Italics,,0000,0000,0000,,Un telefono?
+Dialogue: 0,0:14:27.59,0:14:28.55,Italics,,0000,0000,0000,,Un cellulare!
+Dialogue: 0,0:14:28.97,0:14:33.35,Default,,0000,0000,0000,,Oh no! Ho lasciato sul treno\N il souvenir che mi ha chiesto Sonoko!
+Dialogue: 0,0:14:34.10,0:14:35.92,Italics,,0000,0000,0000,,Ci sono, ho capito!
+Dialogue: 0,0:14:36.52,0:14:39.19,Italics,,0000,0000,0000,,Ho capito il trucco del treno\N che ha usato il dottor Date!
+Dialogue: 0,0:14:46.28,0:14:49.15,Default,,0000,0000,0000,,Si può sapere che vuoi?
+Dialogue: 0,0:14:49.15,0:14:51.32,Default,,0000,0000,0000,,Se hai dimenticato qualcosa, chiedi a Ran!
+Dialogue: 0,0:14:52.16,0:14:56.12,Default,,0000,0000,0000,,No! Voglio che cerchi l'assassino!
+Dialogue: 0,0:15:00.33,0:15:02.63,Default,,0000,0000,0000,,Oh? Ancora i postumi?
+Dialogue: 0,0:15:07.13,0:15:08.76,Default,,0000,0000,0000,,Grazie mille!
+Dialogue: 0,0:15:09.05,0:15:11.01,Italics,,0000,0000,0000,,Sono Kogoro Mori.
+Dialogue: 0,0:15:11.01,0:15:15.14,Italics,,0000,0000,0000,,Ai responsabili delle indagini,\N raggiungetemi nella stanza del personale.
+Dialogue: 0,0:15:15.14,0:15:16.22,Default,,0000,0000,0000,,Papà!
+Dialogue: 0,0:15:16.85,0:15:20.81,Default,,0000,0000,0000,,Ho identificato \Nil vero colpevole di questo caso.
+Dialogue: 0,0:15:20.81,0:15:24.44,Default,,0000,0000,0000,,Dottor Date, dottor Sato, \Nvenite anche voi, per favore.
+Dialogue: 0,0:15:24.94,0:15:26.48,Default,,0000,0000,0000,,Il vero colpevole?!
+Dialogue: 0,0:15:26.48,0:15:28.28,Default,,0000,0000,0000,,N-Non è stata una rapina?
+Dialogue: 0,0:15:31.78,0:15:34.20,Default,,0000,0000,0000,,Guardi che abbiamo da fare.
+Dialogue: 0,0:15:34.20,0:15:36.08,Default,,0000,0000,0000,,Di che si tratta, signor Mori?
+Dialogue: 0,0:15:36.37,0:15:41.04,Default,,0000,0000,0000,,Non preoccupatevi, entro 15 minuti \Ntutta la verità vi sarà chiara.
+Dialogue: 0,0:15:41.50,0:15:44.46,Default,,0000,0000,0000,,In questi quindici minuti \Nindicherà il vero colpevole
+Dialogue: 0,0:15:44.46,0:15:46.00,Default,,0000,0000,0000,,e lo farà arrestare, allora?
+Dialogue: 0,0:15:46.00,0:15:48.01,Default,,0000,0000,0000,,Precisamente, dottor Date.
+Dialogue: 0,0:15:51.26,0:15:53.55,Default,,0000,0000,0000,,In altre parole, cercherà di arrestare me.
+Dialogue: 0,0:15:53.80,0:15:58.52,Default,,0000,0000,0000,,Sì, il vero colpevole di questo caso\N è proprio lei, dottor Date!
+Dialogue: 0,0:15:58.52,0:15:59.68,Default,,0000,0000,0000,,C-Cosa?!
+Dialogue: 0,0:15:59.68,0:16:00.81,Default,,0000,0000,0000,,N-Non è possibile!
+Dialogue: 0,0:16:00.81,0:16:02.23,Default,,0000,0000,0000,,Ma papà...
+Dialogue: 0,0:16:02.23,0:16:05.65,Default,,0000,0000,0000,,Era con noi sul treno della Yu no Yama!
+Dialogue: 0,0:16:05.65,0:16:10.11,Default,,0000,0000,0000,,Possiamo esserne certi solo\N per i primi cinque minuti dalla partenza.
+Dialogue: 0,0:16:10.11,0:16:13.36,Default,,0000,0000,0000,,Poi non l'abbiamo visto\N fino all'arrivo qui a Hana no Machi.
+Dialogue: 0,0:16:14.49,0:16:16.41,Default,,0000,0000,0000,,Questo è vero...
+Dialogue: 0,0:16:16.41,0:16:17.83,Default,,0000,0000,0000,,Quindi ha cambiato treno?
+Dialogue: 0,0:16:17.83,0:16:20.29,Default,,0000,0000,0000,,Sì, alla stazione di Mizu no Kawa.
+Dialogue: 0,0:16:20.29,0:16:22.16,Default,,0000,0000,0000,,A Mizu no Kawa?
+Dialogue: 0,0:16:22.16,0:16:24.50,Default,,0000,0000,0000,,Credevo che con i tempi fosse impossibile!
+Dialogue: 0,0:16:25.38,0:16:26.46,Default,,0000,0000,0000,,Guardate bene.
+Dialogue: 0,0:16:26.96,0:16:32.34,Default,,0000,0000,0000,,Il treno della Yu no Yama arriva \Nsul binario 1 della stazione Mizu no Kawa
+Dialogue: 0,0:16:32.34,0:16:33.99,Default,,0000,0000,0000,,alle 10:35.
+Dialogue: 0,0:16:34.89,0:16:39.39,Default,,0000,0000,0000,,Dopo che il treno della Hana no Machi\N è ripartito dal binario 6 da un bel pezzo!
+Dialogue: 0,0:16:39.39,0:16:41.43,Default,,0000,0000,0000,,Come avrei potuto cambiare treno?
+Dialogue: 0,0:16:41.79,0:16:45.19,Default,,0000,0000,0000,,È possibile riuscirci \Ncon una sola telefonata.
+Dialogue: 0,0:16:46.86,0:16:48.07,Default,,0000,0000,0000,,Una telefonata?
+Dialogue: 0,0:16:48.44,0:16:52.15,Default,,0000,0000,0000,,Se con il cellulare \Nchiami dal treno una fermata prima
+Dialogue: 0,0:16:52.15,0:16:57.32,Default,,0000,0000,0000,,e chiedi di trattenere l'Hana no Machi\N perché hai dimenticato qualcosa in treno...
+Dialogue: 0,0:17:00.37,0:17:02.16,Default,,0000,0000,0000,,È successo alle 10:35.
+Dialogue: 0,0:17:02.16,0:17:04.42,Default,,0000,0000,0000,,Prima di arrivare alla stazione Mizu no Kawa,
+Dialogue: 0,0:17:04.42,0:17:07.96,Default,,0000,0000,0000,,ha rovesciato la giacca double-face\N mentre era ancora sul treno
+Dialogue: 0,0:17:07.96,0:17:10.42,Default,,0000,0000,0000,,e si è travestito con dei baffi finti.
+Dialogue: 0,0:17:12.09,0:17:14.05,Default,,0000,0000,0000,,Quando è arrivato in stazione,
+Dialogue: 0,0:17:14.05,0:17:15.84,Default,,0000,0000,0000,,è corso su per il cavalcavia
+Dialogue: 0,0:17:15.84,0:17:18.80,Default,,0000,0000,0000,,e si è diretto rapidamente al binario 6.
+Dialogue: 0,0:17:19.39,0:17:21.77,Default,,0000,0000,0000,,È per questo che ha litigato con Sato
+Dialogue: 0,0:17:21.77,0:17:25.52,Default,,0000,0000,0000,,e si è spostato da solo nell'ultima carrozza.
+Dialogue: 0,0:17:26.06,0:17:30.61,Default,,0000,0000,0000,,Ha chiesto al personale di ritardare \Nla partenza dell'Hana no Machi,
+Dialogue: 0,0:17:30.61,0:17:33.66,Default,,0000,0000,0000,,riuscendo così per un soffio a salire sul treno.
+Dialogue: 0,0:17:34.28,0:17:37.52,Default,,0000,0000,0000,,Forse aveva chiesto alla vittima di sedersi lì
+Dialogue: 0,0:17:37.95,0:17:39.95,Default,,0000,0000,0000,,per poi ucciderlo.
+Dialogue: 0,0:17:41.70,0:17:43.08,Default,,0000,0000,0000,,Capisco.
+Dialogue: 0,0:17:43.08,0:17:46.54,Default,,0000,0000,0000,,Come ipotizza il signor Mori,\Ntelefonata e ricerca sono avvenute davvero.
+Dialogue: 0,0:17:46.54,0:17:51.00,Default,,0000,0000,0000,,L'uomo era agitato perché aveva dimenticato\N un contratto importantissimo,
+Dialogue: 0,0:17:51.00,0:17:53.80,Default,,0000,0000,0000,,ma sembra che non sia venuto fuori.
+Dialogue: 0,0:17:53.92,0:17:57.47,Default,,0000,0000,0000,,Che sorpresa. \NMa cosa proverebbe tutto questo?
+Dialogue: 0,0:17:57.47,0:18:01.76,Default,,0000,0000,0000,,Avete registrato la telefonata\N e la voce corrisponde alla mia?
+Dialogue: 0,0:18:01.76,0:18:03.10,Default,,0000,0000,0000,,Non credo proprio!
+Dialogue: 0,0:18:03.10,0:18:06.06,Default,,0000,0000,0000,,Io sono stato tutto il tempo \Nsul treno della Yu no Yama.
+Dialogue: 0,0:18:06.06,0:18:09.10,Default,,0000,0000,0000,,Allora ci mostri il biglietto.
+Dialogue: 0,0:18:09.10,0:18:13.73,Default,,0000,0000,0000,,Il controllore è passato \Nsul treno della Yu no Yama intorno alle 10:40.
+Dialogue: 0,0:18:14.40,0:18:18.20,Default,,0000,0000,0000,,Se non ha cambiato il treno,\N dovrebbe esserci il timbro.
+Dialogue: 0,0:18:19.07,0:18:22.33,Default,,0000,0000,0000,,Posso controllarle il biglietto, signor Date?
+Dialogue: 0,0:18:22.33,0:18:24.24,Default,,0000,0000,0000,,Mi dispiace, ma l'ho perso.
+Dialogue: 0,0:18:24.24,0:18:25.66,Default,,0000,0000,0000,,P-Perso?!
+Dialogue: 0,0:18:26.29,0:18:28.62,Default,,0000,0000,0000,,Vuole perquisirmi per caso?
+Dialogue: 0,0:18:30.00,0:18:32.50,Default,,0000,0000,0000,,Insomma, non ci sono prove\N che sia rimasto sul treno
+Dialogue: 0,0:18:32.50,0:18:35.09,Default,,0000,0000,0000,,ma neanche che abbia cambiato treno.
+Dialogue: 0,0:18:35.09,0:18:39.13,Default,,0000,0000,0000,,Resta il dubbio in entrambi i casi.
+Dialogue: 0,0:18:39.13,0:18:39.84,Default,,0000,0000,0000,,Vero, detective?
+Dialogue: 0,0:18:42.18,0:18:44.43,Default,,0000,0000,0000,,Spiacente, ma devo lasciarvi.
+Dialogue: 0,0:18:44.43,0:18:45.27,Default,,0000,0000,0000,,Ho da fare.
+Dialogue: 0,0:18:45.93,0:18:48.35,Default,,0000,0000,0000,,Qual era il binario \Nper il treno diretto a Tokyo?
+Dialogue: 0,0:18:49.10,0:18:50.85,Default,,0000,0000,0000,,S-Signor Mori...
+Dialogue: 0,0:18:53.15,0:18:54.73,Default,,0000,0000,0000,,Dottor Date.
+Dialogue: 0,0:18:59.45,0:19:00.66,Default,,0000,0000,0000,,Cos'altro vuole?
+Dialogue: 0,0:19:00.66,0:19:04.62,Default,,0000,0000,0000,,Certo che ha parecchie monete nel borsellino.
+Dialogue: 0,0:19:09.37,0:19:10.71,Default,,0000,0000,0000,,E allora?
+Dialogue: 0,0:19:10.71,0:19:13.04,Default,,0000,0000,0000,,È plausibile che, per fingere una rapina,
+Dialogue: 0,0:19:13.04,0:19:17.88,Default,,0000,0000,0000,,abbia preso dal portafogli della vittima \Ntutti i soldi, incluse le monete,
+Dialogue: 0,0:19:17.88,0:19:21.01,Default,,0000,0000,0000,,e li abbia messi nel suo borsellino.
+Dialogue: 0,0:19:22.18,0:19:23.47,Default,,0000,0000,0000,,E quindi?
+Dialogue: 0,0:19:23.47,0:19:25.93,Default,,0000,0000,0000,,Le impronte digitali.
+Dialogue: 0,0:19:26.27,0:19:30.44,Default,,0000,0000,0000,,Spiacente, ma ieri sera \Nio e Utsumi eravamo insieme.
+Dialogue: 0,0:19:31.52,0:19:34.06,Default,,0000,0000,0000,,Ci siamo prestati i soldi delle sigarette,
+Dialogue: 0,0:19:34.06,0:19:38.61,Default,,0000,0000,0000,,perciò non sarebbe così strano \Nse sulle monete nel mio borsellino
+Dialogue: 0,0:19:38.61,0:19:40.90,Default,,0000,0000,0000,,ci fossero le sue impronte.
+Dialogue: 0,0:19:41.10,0:19:43.37,Default,,0000,0000,0000,,Ha ragione, signor Mori!
+Dialogue: 0,0:19:43.74,0:19:45.12,Default,,0000,0000,0000,,No.
+Dialogue: 0,0:19:45.12,0:19:48.37,Default,,0000,0000,0000,,Io non mi riferisco \Nalle impronte della vittima.
+Dialogue: 0,0:19:48.79,0:19:49.62,Default,,0000,0000,0000,,Come?!
+Dialogue: 0,0:19:51.04,0:19:54.50,Default,,0000,0000,0000,,Che intende dire?\N Allora delle impronte di chi parliamo?
+Dialogue: 0,0:19:56.21,0:19:58.09,Default,,0000,0000,0000,,Provi a ricordare.
+Dialogue: 0,0:19:58.09,0:19:59.76,Default,,0000,0000,0000,,Appena prima di essere ucciso,
+Dialogue: 0,0:19:59.76,0:20:02.93,Default,,0000,0000,0000,,la vittima ha comprato \Nun caffè in lattina dal carrello.
+Dialogue: 0,0:20:02.93,0:20:06.39,Default,,0000,0000,0000,,Era l'ultimo cliente\Ne ha pagato con una banconota da 10.000,
+Dialogue: 0,0:20:06.39,0:20:08.43,Default,,0000,0000,0000,,perciò la venditrice lo ricorda!
+Dialogue: 0,0:20:13.27,0:20:17.19,Default,,0000,0000,0000,,Esatto, parlo delle sue impronte.
+Dialogue: 0,0:20:20.32,0:20:21.65,Default,,0000,0000,0000,,Dottor Date.
+Dialogue: 0,0:20:22.20,0:20:26.62,Default,,0000,0000,0000,,Sono le impronte dell'impiegata del treno\N su cui lei in teoria non era, l'Hana no Machi.
+Dialogue: 0,0:20:29.41,0:20:34.04,Default,,0000,0000,0000,,Se ci fossero le impronte di quella donna \Nsulle monete del suo borsellino...
+Dialogue: 0,0:20:52.52,0:20:55.69,Default,,0000,0000,0000,,A-Allora quelle voci erano...
+Dialogue: 0,0:20:55.69,0:20:58.27,Default,,0000,0000,0000,,Sì! È tutto vero!
+Dialogue: 0,0:20:58.27,0:21:02.03,Default,,0000,0000,0000,,Io ho davvero ricevuto delle mazzette.
+Dialogue: 0,0:21:02.03,0:21:05.70,Default,,0000,0000,0000,,Lui mi ha visto e mi stava ricattando!
+Dialogue: 0,0:21:06.45,0:21:08.33,Default,,0000,0000,0000,,Mi ha chiesto dei soldi.
+Dialogue: 0,0:21:08.33,0:21:11.12,Default,,0000,0000,0000,,Diceva che se non avessi pagato,\N non si sarebbe fermato alle voci.
+Dialogue: 0,0:21:11.12,0:21:13.00,Default,,0000,0000,0000,,Voleva mandare prove fotografiche
+Dialogue: 0,0:21:13.00,0:21:15.92,Default,,0000,0000,0000,,all'ordine dei medici\N e all'ospedale in cui lavoro!
+Dialogue: 0,0:21:15.92,0:21:20.46,Default,,0000,0000,0000,,Allora ho deciso di dargli appuntamento \Nper farmi dare la pellicola sul treno
+Dialogue: 0,0:21:20.46,0:21:22.05,Default,,0000,0000,0000,,per poi ucciderlo lì!
+Dialogue: 0,0:21:22.63,0:21:26.97,Default,,0000,0000,0000,,Non credevo che mi avrebbe davvero \Ndato i negativi delle foto!
+Dialogue: 0,0:21:26.97,0:21:27.80,Default,,0000,0000,0000,,E poi...
+Dialogue: 0,0:21:27.80,0:21:30.89,Default,,0000,0000,0000,,Prima o poi da quelle voci\N sarebbe venuta fuori un'indagine.
+Dialogue: 0,0:21:30.89,0:21:34.37,Default,,0000,0000,0000,,Perciò hai deciso di crearti un alibi\N con questo trucco dei treni
+Dialogue: 0,0:21:34.37,0:21:38.52,Default,,0000,0000,0000,,e sfuggire così ai sospetti\N nel modo più drastico in assoluto.
+Dialogue: 0,0:21:39.02,0:21:41.48,Default,,0000,0000,0000,,Era un piano perfetto!
+Dialogue: 0,0:21:41.48,0:21:43.57,Default,,0000,0000,0000,,Come tutte le mie grandi operazioni!
+Dialogue: 0,0:21:44.65,0:21:47.07,Default,,0000,0000,0000,,Anche un bravo medico\N è pur sempre umano.
+Dialogue: 0,0:21:47.07,0:21:50.24,Default,,0000,0000,0000,,Non dovrebbe accadere, \Nma può anche sbagliare diagnosi.
+Dialogue: 0,0:21:50.74,0:21:55.71,Default,,0000,0000,0000,,I delitti commessi dagli esseri umani...\N non potranno mai essere perfetti!
+Dialogue: 0,0:23:31.72,0:23:33.56,Default,,0000,0000,0000,,Che bella dormita!
+Dialogue: 0,0:23:34.30,0:23:36.18,Default,,0000,0000,0000,,Hana no Machi?
+Dialogue: 0,0:23:36.18,0:23:37.68,Default,,0000,0000,0000,,Perché siamo ancora qui?
+Dialogue: 0,0:23:38.39,0:23:42.06,Default,,0000,0000,0000,,Già che ci siamo, \Nfacciamoci un'altra notte alle terme!
+Dialogue: 0,0:23:42.06,0:23:43.64,Default,,0000,0000,0000,,Alle terme di Hana no Machi!
+Dialogue: 0,0:23:44.15,0:23:45.23,Default,,0000,0000,0000,,Un'altra notte?!
+Dialogue: 0,0:23:45.23,0:23:46.65,Default,,0000,0000,0000,,Buona idea! Facciamolo!
+Dialogue: 0,0:23:47.15,0:23:48.52,Default,,0000,0000,0000,,Ma papà...
+Dialogue: 0,0:23:49.15,0:23:51.38,Default,,0000,0000,0000,,Però mi va proprio\N un'altra notte alle terme!
+Dialogue: 0,0:23:51.74,0:23:54.45,Default,,0000,0000,0000,,Evviva!
+Dialogue: 1,0:24:01.38,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HF5F6FA&\fnArial\1a&H4F&\pos(188.92,90.096)}Anteprima
+Dialogue: 0,0:24:01.38,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HFDFDFD&\fnArial\1a&H4A&\pos(188.92,90.096)}Anteprima
+Dialogue: 0,0:24:12.19,0:24:13.31,Default,,0000,0000,0000,,Eccolo!
+Dialogue: 0,0:24:13.31,0:24:16.81,Default,,0000,0000,0000,,Si vede appena, ma c'è un segno recente\N lasciato da qualcosa di sottile!
+Dialogue: 0,0:24:21.00,0:24:22.35,Default,,0000,0000,0000,,Come pensavo.
+Dialogue: 0,0:24:22.35,0:24:25.44,Default,,0000,0000,0000,,Non c'è dubbio.\N Questo non è un incidente, ma un omicidio!
+Dialogue: 0,0:24:25.44,0:24:31.45,Titolo episodio,,0000,0000,0000,,{\bord0\fs18\blur0.6\c&HDEE6EF&\3c&HACC3DC&\pos(314.82,205.836)}Il caso dell'omicidio \N\N\N\N\N dell'impresa di pulizie
+Dialogue: 1,0:24:25.44,0:24:31.45,Titolo episodio,,0000,0000,0000,,{\bord0\fs18\blur0.6\c&HDEE6EF&\3c&HACC3DC&\pos(314.82,205.836)}Il caso dell'omicidio \N\N\N\N\Ndell'impresa di pulizie
+Dialogue: 0,0:24:26.33,0:24:27.94,Italics,,0000,0000,0000,,Nel prossimo episodio di Conan...
+Dialogue: 0,0:24:27.94,0:24:30.46,Italics,,0000,0000,0000,,"Il caso dell'omicidio dell'impresa di pulizie".
+Dialogue: 0,0:24:47.20,0:24:49.69,Default,,0000,0000,0000,,Prossimo indizio per Conan:
+Dialogue: 0,0:24:49.69,0:24:51.46,Default,,0000,0000,0000,,Telecamera di sorveglianza.
+Dialogue: 0,0:24:51.46,0:24:58.75,Cartello BASE,,0000,0000,0000,,{\blur0.6\pos(320.333,288)}Non perdetevi il prossimo episodio
+Dialogue: 1,0:24:51.46,0:24:58.75,Cartello BASE,,0000,0000,0000,,{\blur0\c&HDFDFDF&\pos(320.333,288)}Non perdetevi il prossimo episodio
+Dialogue: 0,0:24:51.71,0:24:53.54,Default,,0000,0000,0000,,{\pos(320,345)}Ci saranno degli ospiti speciali!
+Dialogue: 0,0:24:53.54,0:24:56.75,Default,,0000,0000,0000,,{\pos(320,345)}Hideyuki Nakayama e Kuniko Asagi!

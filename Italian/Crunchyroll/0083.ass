@@ -1,0 +1,377 @@
+[Script Info]
+Title: Italiano
+Original Script: cr_it  [http://www.crunchyroll.com/user/cr_it]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Default - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Flashback - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Flashback Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Flashback Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Cartello BASE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0010,0010,0010,1
+Style: Titolo episodio,Verdana,25,&H00D0B193,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,180,0,0,1,0,0,2,0010,0010,0010,1
+Style: Non perdetevi il prossimo episodio v2,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,75,130,0,0,1,0,0,2,0010,0010,0010,1
+Style: Cartello BASE -X-,Arial,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,75,100,0,0,1,0,0,2,0010,0010,0010,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:02.09,0:00:04.16,Italics,,0000,0000,0000,,La lancetta dei secondi,\N una nebulosa scintillante!
+Dialogue: 0,0:00:04.16,0:00:07.70,Italics,,0000,0000,0000,,La logica di Conan è una medicina\N per i cuori stanchi dalla società moderna!
+Dialogue: 0,0:00:07.70,0:00:09.50,Italics,,0000,0000,0000,,Oggi siamo in un ospedale!
+Dialogue: 0,0:00:09.50,0:00:11.25,Italics,,0000,0000,0000,,L'assassino sarà davvero Kogoro?!
+Dialogue: 0,0:00:11.25,0:00:12.77,Italics,,0000,0000,0000,,Riesce a discernere l'unica verità,
+Dialogue: 0,0:00:12.77,0:00:14.51,Italics,,0000,0000,0000,,è un bambino, \Nma ha la mente di un adulto!
+Dialogue: 0,0:00:14.51,0:00:16.88,Italics,,0000,0000,0000,,Il suo nome? Detective Conan!
+Dialogue: 1,0:01:50.99,0:01:57.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur0.5\c&HEAEAEA&\pos(323.961,114.546)}Il caso dell'omicidio in ospedale
+Dialogue: 0,0:01:50.99,0:01:57.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur0.7\bord0.3\3c&HE8E6E4&\c&HE5EBED&\pos(323.961,114.546)}Il caso dell'omicidio in ospedale
+Dialogue: 0,0:01:51.90,0:01:54.72,Italics,,0000,0000,0000,,"Il caso dell'omicidio in ospedale".
+Dialogue: 0,0:01:57.09,0:01:59.55,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\pos(466.064,220.306)\p1\c&H9F9774&}m -48 -4 l 46 -19 47 -6 -47 7
+Dialogue: 2,0:01:57.09,0:01:59.55,Cartello BASE,,0000,0000,0000,,{\blur0.4\fs10\frx16\fry352\i1\b1\c&H202722&\frz8.416\pos(465.283,219.135)}Ospedale di Beika est
+Dialogue: 1,0:01:57.09,0:01:59.55,Cartello BASE,,0000,0000,0000,,{\blur3\fs10\frx16\fry352\i1\b1\c&H4B575D&\frz8.416\pos(465.283,219.135)}Ospedale di Beika est
+Dialogue: 0,0:02:07.10,0:02:08.94,Default,,0000,0000,0000,,Che noia terribile.
+Dialogue: 0,0:02:08.94,0:02:09.98,Default,,0000,0000,0000,,Insomma, papà...
+Dialogue: 0,0:02:10.50,0:02:13.44,Italics,,0000,0000,0000,,Questa è la terza settimana\N che Kogoro passa in ospedale.
+Dialogue: 0,0:02:13.84,0:02:17.15,Italics,,0000,0000,0000,,Si è rotto una gamba mentre\N stava cercando di fermare un criminale.
+Dialogue: 0,0:02:19.24,0:02:23.20,Italics,,0000,0000,0000,,Alla fine, sono stato io\N a metterlo al tappeto.
+Dialogue: 0,0:02:23.91,0:02:27.96,Default,,0000,0000,0000,,Negli ultimi tempi eri sommerso di lavoro,\N non è bene che ora puoi riposare?
+Dialogue: 0,0:02:30.96,0:02:32.73,Default,,0000,0000,0000,,È ora di cena!
+Dialogue: 0,0:02:33.72,0:02:35.81,Default,,0000,0000,0000,,Ah, finalmente si mangia!
+Dialogue: 0,0:02:35.81,0:02:39.17,Default,,0000,0000,0000,,Vedo che il nostro grande detective\N oggi ha molto appetito!
+Dialogue: 0,0:02:41.66,0:02:43.48,Default,,0000,0000,0000,,Vorrei proprio una birra e del sashimi...
+Dialogue: 0,0:02:43.48,0:02:46.64,Default,,0000,0000,0000,,Non è così che dovrebbe comportarsi\N un gran detective come te!
+Dialogue: 0,0:02:46.64,0:02:52.19,Cartello BASE,,0000,0000,0000,,{\fad(0,150)\an7\blur1.3\bord0\shad0\fscx100\fscy100\pos(323.042,235.059)\p1\c&HA35F34&\1a&H6A&}m -128 -44 l 124 -44 124 4 -128 4
+Dialogue: 1,0:02:46.64,0:02:52.19,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(0,150)\fs25\shad0\bord0\fnTrebuchet MS\pos(323.042,235.059)}Kazumi Nakayama (26)\N {\fs15}Infermiera
+Dialogue: 0,0:02:47.81,0:02:50.89,Default - Alt,,0000,0000,0000,,Però sa, fra noi infermiere\N si è sparsa la voce che lei è qui,
+Dialogue: 0,0:02:50.89,0:02:53.19,Default - Alt,,0000,0000,0000,,e tutte noi volevamo incontrarla!
+Dialogue: 0,0:02:54.80,0:02:57.80,Default,,0000,0000,0000,,Quegli angeli vestiti\N di bianco parlano di me?!
+Dialogue: 0,0:02:57.80,0:02:58.15,Default,,0000,0000,0000,,Già!
+Dialogue: 0,0:02:58.80,0:03:02.12,Default - Alt,,0000,0000,0000,,Anche a me piacerebbe\N discutere un po' con lei.
+Dialogue: 0,0:03:00.00,0:03:04.12,Cartello BASE,,0000,0000,0000,,{\fad(350,150)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&HB98442&\1a&H6B&\pos(336.519,219.476)}m -96 -42 l 97 -42 97 5 -96 5
+Dialogue: 1,0:03:00.00,0:03:04.12,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,150)\fs25\shad0\bord0\fnTrebuchet MS\pos(336.519,218.476)}Mitsuo Shirai (40)\N{\fs15} Medico generico
+Dialogue: 0,0:03:02.12,0:03:04.12,Default - Alt,,0000,0000,0000,,Sono sicuro che potrei\N imparare molte cose da lei.
+Dialogue: 0,0:03:04.32,0:03:08.86,Default,,0000,0000,0000,,Non dica queste cose, dottor Shirai!\N Così mi mette in imbarazzo!
+Dialogue: 0,0:03:09.32,0:03:10.90,Default,,0000,0000,0000,,Cosa potresti mai imparare, eh?!
+Dialogue: 0,0:03:11.75,0:03:15.04,Default,,0000,0000,0000,,Stia attento a non diventare\N la sua cavia, signor detective!
+Dialogue: 0,0:03:15.29,0:03:16.38,Default,,0000,0000,0000,,Ma come ti permetti!
+Dialogue: 0,0:03:16.37,0:03:21.23,Cartello BASE,,0000,0000,0000,,{\fad(350,150)\an7\blur1\bord0\shad0\fscx100\fscy100\p1\c&H906632&\1a&H6B&\pos(339.124,231.044)}m -105 -44 l 103 -44 103 5 -105 5
+Dialogue: 1,0:03:16.37,0:03:21.23,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,150)\fs25\shad0\bord0\fnTrebuchet MS\pos(336.938,232.044)}Katsutoshi Eto (40) \N{\fs15}Chirurgo
+Dialogue: 0,0:03:16.38,0:03:19.55,Default - Alt,,0000,0000,0000,,Oh! Ma che faccia spaventosa!
+Dialogue: 0,0:03:19.78,0:03:23.73,Default - Alt,,0000,0000,0000,,Detective, se mi ritrovaste morto,\N l'assassino sarebbe sicuramente Shirai!
+Dialogue: 0,0:03:31.66,0:03:32.60,Default,,0000,0000,0000,,E quello chi era?
+Dialogue: 0,0:03:33.23,0:03:36.02,Default,,0000,0000,0000,,Era Eto, un mio collega e chirurgo.
+Dialogue: 0,0:03:36.02,0:03:38.32,Default,,0000,0000,0000,,Abbiamo frequentato la stessa università.
+Dialogue: 0,0:03:38.67,0:03:42.12,Default,,0000,0000,0000,,Ha la lingua un po' tagliente, \Nma è un ottimo chirurgo.
+Dialogue: 0,0:03:42.37,0:03:45.03,Italics,,0000,0000,0000,,Sarà anche bravo,\N però è proprio antipatico.
+Dialogue: 0,0:03:49.54,0:03:53.47,Default,,0000,0000,0000,,Conan, è meglio se torniamo a casa \Nprima che la pioggia peggiori, no?
+Dialogue: 0,0:03:53.47,0:03:54.21,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:03:54.54,0:03:58.96,Default,,0000,0000,0000,,Signor Mori, non può bere alcolici,\Nma che ne dice di gustarsi una tazza di caffè?
+Dialogue: 0,0:03:59.87,0:04:03.43,Default,,0000,0000,0000,,Le va di raccontarmi\N qualche caso che ha risolto?
+Dialogue: 0,0:04:04.82,0:04:06.43,Default,,0000,0000,0000,,Certo!
+Dialogue: 0,0:04:06.82,0:04:10.07,Default,,0000,0000,0000,,Se parliamo di casi che ho risolto\N tramite le mie grandi deduzioni,
+Dialogue: 0,0:04:10.07,0:04:12.36,Default,,0000,0000,0000,,allora direi proprio l'ultimo!
+Dialogue: 0,0:04:12.66,0:04:15.31,Default,,0000,0000,0000,,L'assassino non aveva lasciato nessuna prova,
+Dialogue: 0,0:04:15.31,0:04:17.72,Default,,0000,0000,0000,,la scena del crimine era avvolta nel mistero!
+Dialogue: 0,0:04:17.72,0:04:19.84,Italics,,0000,0000,0000,,Oddio, ma quanto zucchero ci mette?!
+Dialogue: 0,0:04:26.95,0:04:29.41,Default,,0000,0000,0000,,Eh? Dov'è finito il dottor Shirai?
+Dialogue: 0,0:04:31.37,0:04:34.41,Default,,0000,0000,0000,,È già così tardi?
+Dialogue: 0,0:04:37.79,0:04:39.59,Default,,0000,0000,0000,,U-Un omicidio!
+Dialogue: 0,0:04:44.72,0:04:46.22,Default,,0000,0000,0000,,Chiamate la polizia!
+Dialogue: 0,0:04:46.22,0:04:49.55,Default,,0000,0000,0000,,Qualcuno è appena stato ucciso! \NChiamate il 110! Veloci!
+Dialogue: 0,0:04:50.03,0:04:51.52,Default,,0000,0000,0000,,Va bene, chiamiamo subito!
+Dialogue: 0,0:04:54.94,0:04:56.47,Default,,0000,0000,0000,,Aspetti, signor Mori!
+Dialogue: 0,0:05:03.90,0:05:05.78,Default,,0000,0000,0000,,Questa è una stanza inutilizzata!
+Dialogue: 0,0:05:07.36,0:05:10.08,Default,,0000,0000,0000,,Eh? Sono sicuro che sia successo qui...
+Dialogue: 0,0:05:15.16,0:05:17.37,Default,,0000,0000,0000,,Il corpo è scomparso?!
+Dialogue: 0,0:05:17.67,0:05:21.42,Default,,0000,0000,0000,,So che è impossibile.\N Però, quello che ho visto...
+Dialogue: 0,0:05:22.25,0:05:25.09,Default,,0000,0000,0000,,Siamo sicuri che ce ne sia mai stato uno?
+Dialogue: 0,0:05:25.47,0:05:27.09,Default,,0000,0000,0000,,Sta forse dubitando di me?!
+Dialogue: 0,0:05:27.09,0:05:30.14,Default,,0000,0000,0000,,Beh, in questa stanza non c'è un bel niente...
+Dialogue: 0,0:05:30.14,0:05:34.60,Default,,0000,0000,0000,,Su, su, è tardi! \NStiamo disturbando gli altri pazienti.
+Dialogue: 0,0:05:34.60,0:05:35.56,Default,,0000,0000,0000,,Direi che per staser...
+Dialogue: 0,0:05:35.56,0:05:39.18,Default,,0000,0000,0000,,Dottore, io l'ho visto con i miei occhi!
+Dialogue: 0,0:05:39.18,0:05:41.88,Default,,0000,0000,0000,,Dev'essere molto stanco, lei.
+Dialogue: 0,0:05:42.27,0:05:43.42,Default,,0000,0000,0000,,In effetti, è vero.
+Dialogue: 0,0:05:43.42,0:05:47.15,Default,,0000,0000,0000,,Mi sono addormentato \Nmentre stavamo parlando...
+Dialogue: 0,0:05:48.99,0:05:52.45,Default,,0000,0000,0000,,Quindi il nostro \Ngrande detective era stremato.
+Dialogue: 0,0:05:52.99,0:05:55.12,Default,,0000,0000,0000,,Cielo, ha scatenato un putiferio!
+Dialogue: 0,0:06:00.79,0:06:02.96,Default,,0000,0000,0000,,Bene, allora ce ne andiamo anche noi.
+Dialogue: 0,0:06:04.88,0:06:06.59,Default,,0000,0000,0000,,Grazie del vostro intervento!
+Dialogue: 0,0:06:12.47,0:06:17.23,Italics,,0000,0000,0000,,Tuttavia, Kogoro ha assistito\N alla stessa scena molte altre volte.
+Dialogue: 0,0:06:17.23,0:06:19.94,Default,,0000,0000,0000,,Q-Questa volta non posso essermi sbagliato!
+Dialogue: 0,0:06:23.36,0:06:25.98,Default,,0000,0000,0000,,Il 110! Chiamate il 110!
+Dialogue: 0,0:06:25.98,0:06:26.86,Default,,0000,0000,0000,,Di nuovo?
+Dialogue: 0,0:06:30.07,0:06:32.03,Default,,0000,0000,0000,,Non è possibile...
+Dialogue: 0,0:06:33.99,0:06:35.45,Default,,0000,0000,0000,,Scusatemi!
+Dialogue: 0,0:06:36.08,0:06:39.50,Default,,0000,0000,0000,,Si può sapere cosa ti prende, papà?!\N Questa è la quarta volta!
+Dialogue: 0,0:06:43.13,0:06:47.92,Default,,0000,0000,0000,,Non sto mentendo! \NL'ho visto per davvero!
+Dialogue: 0,0:06:48.17,0:06:49.88,Default,,0000,0000,0000,,Papà...
+Dialogue: 0,0:06:49.88,0:06:53.41,Default,,0000,0000,0000,,Penso sia una reazione\N causata dallo stress provato a lavoro,
+Dialogue: 0,0:06:53.41,0:06:57.88,Default,,0000,0000,0000,,del resto è un gran detective\N che ha assistito a tutti quei crimini.
+Dialogue: 0,0:06:58.47,0:07:00.44,Default,,0000,0000,0000,,Forse sono allucinazioni.
+Dialogue: 0,0:07:00.44,0:07:02.98,Default,,0000,0000,0000,,No! Non erano delle allucinazioni!
+Dialogue: 0,0:07:02.98,0:07:05.82,Default,,0000,0000,0000,,Papà, calmati! \NCerca di tornare in te!
+Dialogue: 0,0:07:06.45,0:07:07.90,Default,,0000,0000,0000,,Cosa ti sta succedendo?!
+Dialogue: 0,0:07:11.53,0:07:13.99,Italics,,0000,0000,0000,,Darò un'occhiata anche io, \Ngiusto per sicurezza...
+Dialogue: 0,0:07:23.92,0:07:26.84,Italics,,0000,0000,0000,,Queste macchie sembrano recenti...
+Dialogue: 0,0:07:27.21,0:07:32.30,Italics,,0000,0000,0000,,Due delle volte in cui ha assistito\N a questo presunto omicidio, stava piovendo.
+Dialogue: 0,0:07:39.06,0:07:41.85,Italics,,0000,0000,0000,,In altre parole, \Nquesta finestra era aperta.
+Dialogue: 0,0:07:44.06,0:07:46.52,Italics,,0000,0000,0000,,La sua stanza si trova \Ndi traverso rispetto a qui...
+Dialogue: 0,0:07:48.90,0:07:51.99,Italics,,0000,0000,0000,,Non ci sono le tende... \Nsarà una camera inutilizzata?
+Dialogue: 0,0:07:52.78,0:07:55.00,Italics,,0000,0000,0000,,Ho capito! È andata così!
+Dialogue: 0,0:07:55.74,0:07:57.98,Italics,,0000,0000,0000,,Di notte, se si accende la luce in quella stanza,
+Dialogue: 0,0:07:57.98,0:08:01.68,Italics,,0000,0000,0000,,questa finestra è come uno specchio,\N essendo di fronte a un edificio buio.
+Dialogue: 0,0:08:02.37,0:08:05.15,Italics,,0000,0000,0000,,E poi, in base all'angolazione della finestra,
+Dialogue: 0,0:08:05.15,0:08:07.09,Italics,,0000,0000,0000,,quello che accade si può vedere riflesso...
+Dialogue: 0,0:08:07.59,0:08:09.55,Italics,,0000,0000,0000,,proprio dalla camera di Kogoro!
+Dialogue: 0,0:08:10.01,0:08:13.09,Italics,,0000,0000,0000,,La scena non è visibile\N in via diretta dalla sua stanza.
+Dialogue: 0,0:08:13.09,0:08:14.26,Italics,,0000,0000,0000,,Quello che ha visto...
+Dialogue: 0,0:08:14.72,0:08:16.43,Italics,,0000,0000,0000,,era riflesso in questa finestra.
+Dialogue: 0,0:08:17.01,0:08:20.43,Italics,,0000,0000,0000,,Perciò a Kogoro è sembrato\N che fosse avvenuto qui dove sono io!
+Dialogue: 0,0:08:21.14,0:08:23.64,Italics,,0000,0000,0000,,Si tratta di un gioco di specchi \Ncreato con una finestra!
+Dialogue: 0,0:08:26.86,0:08:28.03,Cartello BASE,,0000,0000,0000,,{\an7\blur0.5\bord1\shad0\fscx100\fscy100\p1\c&HD0BF8E&\3c&H979C56&\clip(79.517,0.552,560.483,360)\pos(487.317,41.902)\fad(0,400)}m -63 -30 l 61 -30 61 11 -63 11
+Dialogue: 1,0:08:26.86,0:08:28.03,Cartello BASE,,0000,0000,0000,,{\blur0.5\pos(487.317,41.902)\b1\fnVerdana\c&H182722&\clip(79.517,0.552,559.931,360)\fad(0,400)}Ripostiglio
+Dialogue: 0,0:08:28.52,0:08:29.32,Default,,0000,0000,0000,,È questa!
+Dialogue: 0,0:08:44.12,0:08:46.15,Default,,0000,0000,0000,,Un manichino per il pronto soccorso...
+Dialogue: 0,0:08:47.79,0:08:50.09,Default,,0000,0000,0000,,Quindi ha utilizzato questo il colpevole?
+Dialogue: 0,0:08:51.30,0:08:55.93,Default,,0000,0000,0000,,Si tratterà di un semplice scherzo \No ci sarà qualcos'altro dietro?
+Dialogue: 0,0:09:01.64,0:09:05.27,Default,,0000,0000,0000,,Stasera starò qui \Ncon lui per tenerlo d'occhio!
+Dialogue: 0,0:09:06.27,0:09:08.09,Default,,0000,0000,0000,,Sei proprio un bravo bambino!
+Dialogue: 0,0:09:11.15,0:09:14.15,Default,,0000,0000,0000,,Bene, signor Mori,\N prenda queste e si metta a dormire.
+Dialogue: 0,0:09:16.61,0:09:19.24,Default,,0000,0000,0000,,Ah, certo che piove davvero parecchio.
+Dialogue: 0,0:09:19.24,0:09:20.58,Default,,0000,0000,0000,,Beh, buonanotte.
+Dialogue: 0,0:09:46.56,0:09:47.19,Default,,0000,0000,0000,,Kogoro!
+Dialogue: 0,0:09:47.52,0:09:49.94,Default,,0000,0000,0000,,Conan, lo hai visto anche tu?!
+Dialogue: 0,0:09:50.30,0:09:52.57,Default,,0000,0000,0000,,Sì, non erano allucinazioni!
+Dialogue: 0,0:09:52.57,0:09:54.34,Default,,0000,0000,0000,,Proprio come pensavo!
+Dialogue: 0,0:09:54.34,0:09:55.86,Default,,0000,0000,0000,,Perfetto!
+Dialogue: 0,0:10:01.84,0:10:02.99,Default,,0000,0000,0000,,Kogoro Mori è tornato!
+Dialogue: 0,0:10:05.75,0:10:07.21,Cartello BASE,,0000,0000,0000,,{\an7\blur0.5\bord1\shad2\fscx100\fscy100\p1\c&HC2B08D&\3c&H3C2F2C&\clip(79.517,0.552,560.483,360)\pos(487.317,41.902)\4c&H282A25&\4a&H57&}m -63 -30 l 61 -30 61 11 -63 11
+Dialogue: 1,0:10:05.75,0:10:07.21,Cartello BASE,,0000,0000,0000,,{\blur0.5\pos(487.317,41.902)\b1\fnVerdana\c&H10151C&\clip(79.517,0.552,559.931,360)}Ripostiglio
+Dialogue: 0,0:10:16.72,0:10:20.01,Default,,0000,0000,0000,,Non c'è nessuno, e il manichino\N non sembra essere stato spostato...
+Dialogue: 0,0:10:20.01,0:10:21.23,Default,,0000,0000,0000,,Che significa?
+Dialogue: 0,0:10:21.55,0:10:23.11,Italics,,0000,0000,0000,,Possibile che... Si mette male!
+Dialogue: 0,0:10:27.23,0:10:28.36,Default,,0000,0000,0000,,Kogoro!
+Dialogue: 0,0:10:31.42,0:10:32.74,Default,,0000,0000,0000,,Dottor Eto!
+Dialogue: 0,0:10:35.61,0:10:38.15,Default,,0000,0000,0000,,La vittima è stata accoltellata due volte.
+Dialogue: 0,0:10:38.15,0:10:42.28,Default,,0000,0000,0000,,La ferita non sembra essersi rigenerata,\N dal momento che ha subito due affondi.
+Dialogue: 0,0:10:43.47,0:10:46.20,Default,,0000,0000,0000,,In pratica, \Ncon la seconda ha terminato l'opera.
+Dialogue: 0,0:10:46.20,0:10:47.35,Default,,0000,0000,0000,,Mori!
+Dialogue: 0,0:10:48.66,0:10:50.46,Default,,0000,0000,0000,,Si può sapere cosa sta succedendo qui?!
+Dialogue: 0,0:10:50.46,0:10:52.63,Default,,0000,0000,0000,,Non ne sono molto sicuro...
+Dialogue: 0,0:10:53.00,0:10:55.59,Default,,0000,0000,0000,,Credo che qualcuno \Nmi abbia colpito all'improvviso e poi...
+Dialogue: 0,0:10:55.59,0:10:56.76,Default,,0000,0000,0000,,Papà!
+Dialogue: 0,0:10:57.51,0:10:59.30,Default,,0000,0000,0000,,Cosa diamine è successo?!
+Dialogue: 0,0:11:00.30,0:11:01.76,Default,,0000,0000,0000,,Non lo so con certezza...
+Dialogue: 0,0:11:02.27,0:11:04.14,Default,,0000,0000,0000,,Conan, cos'è successo?!
+Dialogue: 0,0:11:04.14,0:11:06.22,Default,,0000,0000,0000,,Ah, non lo so nemmeno io...
+Dialogue: 0,0:11:06.22,0:11:08.14,Default,,0000,0000,0000,,Il signor Mori ha ucciso Eto?!
+Dialogue: 0,0:11:10.32,0:11:11.52,Default,,0000,0000,0000,,Non mi sorprende...
+Dialogue: 0,0:11:12.19,0:11:13.98,Default,,0000,0000,0000,,Mi scusi, ma lei chi è?
+Dialogue: 0,0:11:14.27,0:11:18.19,Default,,0000,0000,0000,,Sono Shirai, il medico del signor Mori. \NQuesta notte sono di turno.
+Dialogue: 0,0:11:18.19,0:11:21.40,Default,,0000,0000,0000,,Ha appena detto che non ne è sorpreso...
+Dialogue: 0,0:11:21.76,0:11:27.20,Default,,0000,0000,0000,,Vede, ultimamente il signor Mori\N era parecchio sotto stress...
+Dialogue: 0,0:11:27.20,0:11:29.54,Default,,0000,0000,0000,,ha avuto addirittura delle allucinazioni,
+Dialogue: 0,0:11:29.54,0:11:33.88,Default,,0000,0000,0000,,quindi ero preoccupato \Nche potesse accadere qualcosa del genere...
+Dialogue: 0,0:11:33.88,0:11:34.92,Default,,0000,0000,0000,,Capisco...
+Dialogue: 0,0:11:34.92,0:11:39.34,Default,,0000,0000,0000,,Però ho visto anche io \Nl'omicidio nella stanza di fronte!
+Dialogue: 0,0:11:39.64,0:11:41.51,Default,,0000,0000,0000,,Capisco come ti senti, Conan.
+Dialogue: 0,0:11:41.93,0:11:45.55,Default,,0000,0000,0000,,Ma la tua testimonianza \Nverrebbe considerata di parte
+Dialogue: 0,0:11:45.55,0:11:48.81,Default,,0000,0000,0000,,e non avrebbe alcun valore in tribunale.
+Dialogue: 0,0:11:48.81,0:11:50.93,Default,,0000,0000,0000,,N-Non ci credo...
+Dialogue: 0,0:11:50.93,0:11:55.15,Default,,0000,0000,0000,,Ora che ci penso, \Nultimamente ho dei vuoti di memoria.
+Dialogue: 0,0:11:55.15,0:11:59.03,Default,,0000,0000,0000,,Potrei aver commesso l'omicidio\N durante uno di essi!
+Dialogue: 0,0:11:59.03,0:12:00.99,Italics,,0000,0000,0000,,K-Kogoro...
+Dialogue: 0,0:12:00.99,0:12:01.95,Default,,0000,0000,0000,,Ma che stai dicendo?!
+Dialogue: 0,0:12:02.36,0:12:05.82,Default,,0000,0000,0000,,Non essere stupido! \NRiprenditi, papà!
+Dialogue: 0,0:12:06.49,0:12:08.65,Default,,0000,0000,0000,,Su, su, Ran...
+Dialogue: 0,0:12:08.99,0:12:12.64,Default,,0000,0000,0000,,Visto che quella stanza si trova \Nvicino alle scale, all'ascensore
+Dialogue: 0,0:12:12.64,0:12:18.29,Default,,0000,0000,0000,,e al banco delle infermiere, è improbabile che il colpevole sia entrato dall'esterno.
+Dialogue: 0,0:12:19.43,0:12:24.59,Default,,0000,0000,0000,,Piuttosto, ho sentito dire che lei e la vittima\N non eravate in buoni rapporti.
+Dialogue: 0,0:12:24.99,0:12:27.05,Default,,0000,0000,0000,,No, non è assolutamente vero!
+Dialogue: 0,0:12:27.53,0:12:31.02,Default,,0000,0000,0000,,Ad ogni modo, può fornirmi il suo alibi?
+Dialogue: 0,0:12:31.43,0:12:35.44,Default,,0000,0000,0000,,Sì, è successo verso le 23:30, giusto?
+Dialogue: 0,0:12:35.44,0:12:40.98,Default,,0000,0000,0000,,Mi trovavo nel mio studio \Nal secondo piano nell'ala nord dell'ospedale.
+Dialogue: 0,0:12:41.28,0:12:43.45,Default,,0000,0000,0000,,C'è qualcuno che può confermarlo?
+Dialogue: 0,0:12:43.74,0:12:48.41,Default,,0000,0000,0000,,Okita, mi hai portato \Ndelle cartelle cliniche verso quell'ora, vero?
+Dialogue: 0,0:12:49.03,0:12:52.37,Default,,0000,0000,0000,,Sì, era più o meno quell'ora.
+Dialogue: 0,0:12:52.67,0:12:55.33,Default,,0000,0000,0000,,Ed è sicura che il dottore\N si trovava nel suo studio?
+Dialogue: 0,0:12:55.54,0:12:57.96,Default,,0000,0000,0000,,Sì, credo che fosse al telefono.
+Dialogue: 0,0:13:01.50,0:13:03.83,Flashback - Alt,,0000,0000,0000,,Ma è successo parecchio tempo fa...
+Dialogue: 0,0:13:02.76,0:13:03.92,Flashback,,0000,0000,0000,,Dottor Shirai.
+Dialogue: 0,0:13:03.92,0:13:06.89,Flashback,,0000,0000,0000,,Le ho portato le cartelle cliniche\N e una tazza di caffè.
+Dialogue: 0,0:13:06.89,0:13:08.29,Flashback,,0000,0000,0000,,Ah, ti ringrazio!
+Dialogue: 0,0:13:08.29,0:13:12.35,Flashback,,0000,0000,0000,,Sono un momento al telefono,\N puoi lasciare tutto sulla mia scrivania?
+Dialogue: 0,0:13:12.35,0:13:13.31,Flashback,,0000,0000,0000,,Va bene!
+Dialogue: 0,0:13:17.40,0:13:20.52,Default,,0000,0000,0000,,Subito dopo ha iniziato\N a crearsi confusione...
+Dialogue: 0,0:13:20.52,0:13:24.90,Default,,0000,0000,0000,,Quindi, anche se non l'ha visto,\N è sicura che stava parlando con lui
+Dialogue: 0,0:13:24.90,0:13:26.74,Default,,0000,0000,0000,,e non con una registrazione, giusto?
+Dialogue: 0,0:13:26.74,0:13:27.49,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:13:27.49,0:13:30.45,Default,,0000,0000,0000,,Perciò il mio alibi \Nè stato confermato, ispettore.
+Dialogue: 0,0:13:31.49,0:13:33.33,Default,,0000,0000,0000,,Ma che genere di telefonata era?
+Dialogue: 0,0:13:33.33,0:13:35.91,Default,,0000,0000,0000,,Hai telefonato tu o ti hanno chiamato?
+Dialogue: 0,0:13:35.91,0:13:37.37,Default,,0000,0000,0000,,A chi dovrebbe importare?
+Dialogue: 0,0:13:37.37,0:13:38.58,Default,,0000,0000,0000,,Allora?
+Dialogue: 0,0:13:38.98,0:13:44.42,Default,,0000,0000,0000,,Uno sconosciuto mi ha chiamato \Nper lamentarsi di una mia vecchia diagnosi.
+Dialogue: 0,0:13:44.42,0:13:46.05,Default,,0000,0000,0000,,Ogni tanto succede.
+Dialogue: 0,0:13:46.59,0:13:49.39,Italics,,0000,0000,0000,,In altre parole, \Nnon possiamo risalire al mittente.
+Dialogue: 0,0:13:49.91,0:13:53.10,Default,,0000,0000,0000,,Quindi Mori rimane\N il sospettato numero uno...
+Dialogue: 0,0:13:53.32,0:13:54.56,Default,,0000,0000,0000,,Non ci credo!
+Dialogue: 0,0:13:54.85,0:13:56.67,Italics,,0000,0000,0000,,È davvero andata così?
+Dialogue: 0,0:13:57.27,0:14:00.62,Italics,,0000,0000,0000,,L'alibi del dottor Shirai sembra perfetto.
+Dialogue: 0,0:14:01.45,0:14:02.18,Italics,,0000,0000,0000,,Tuttavia...
+Dialogue: 0,0:14:04.98,0:14:08.99,Italics,,0000,0000,0000,,Ha aperto di proposito\N le tende della stanza di Kogoro
+Dialogue: 0,0:14:09.74,0:14:11.70,Italics,,0000,0000,0000,,e ha impostato la sveglia
+Dialogue: 0,0:14:11.70,0:14:15.32,Italics,,0000,0000,0000,,per essere sicuro \Ndi farlo assistere all'omicidio.
+Dialogue: 0,0:14:16.96,0:14:18.83,Italics,,0000,0000,0000,,E poi quell'alibi...
+Dialogue: 0,0:14:18.83,0:14:20.41,Cartello BASE,,0000,0000,0000,,{\an7\blur0.5\bord1\shad2\fscx100\fscy100\move(495.674,43.991,495.674,-18.144,28,1571)\p1\c&HE1E4C1&\3c&HA39C57&\4c&H746A45&\clip(79.439,0,559.92,360)}m -40 -29 l 38 -29 38 9 -40 9
+Dialogue: 1,0:14:18.83,0:14:20.41,Cartello BASE,,0000,0000,0000,,{\blur0.5\b1\fnVerdana\c&H10151C&\clip(80.721,0.641,559.279,360)\move(495.674,43.991,495.674,-18.144,28,1571)}Shirai
+Dialogue: 0,0:14:29.88,0:14:32.64,Italics,,0000,0000,0000,,Questo telefono ha il vivavoce...
+Dialogue: 0,0:14:38.48,0:14:40.44,Italics,,0000,0000,0000,,Non ha usato lo zucchero.
+Dialogue: 0,0:14:46.81,0:14:50.59,Italics,,0000,0000,0000,,È andata così! Ho capito\N il trucco che ha usato per crearsi l'alibi!
+Dialogue: 0,0:14:51.24,0:14:54.24,Italics,,0000,0000,0000,,Non c'è alcun dubbio! \NL'assassino è il dottor Shirai!
+Dialogue: 0,0:14:55.08,0:14:57.16,Italics,,0000,0000,0000,,Però non ho alcuna prova...
+Dialogue: 0,0:14:57.79,0:15:01.04,Italics,,0000,0000,0000,,Un attimo. Forse su questa tazza di caffè...
+Dialogue: 0,0:15:03.00,0:15:04.88,Default,,0000,0000,0000,,Ehi, signore della scientifica!
+Dialogue: 0,0:15:06.34,0:15:09.21,Default,,0000,0000,0000,,Ah, tu sei il ragazzino \Nche è sempre insieme al signor Mori!
+Dialogue: 0,0:15:09.76,0:15:12.76,Default,,0000,0000,0000,,Questa volta le cose \Nnon si sono messe bene per lui.
+Dialogue: 0,0:15:12.76,0:15:16.85,Default,,0000,0000,0000,,Ascolta, l'ispettore Megure mi ha detto\N che vuole che controlli una cosa.
+Dialogue: 0,0:15:18.72,0:15:21.69,Cartello BASE,,0000,0000,0000,,{\an7\blur0.5\bord1\shad2\fscx100\fscy100\p1\c&HE1E4C1&\3c&HA39C57&\4c&H746A45&\clip(79.439,0,559.92,360)\pos(138.837,43.991)\fad(300,0)}m -40 -29 l 38 -29 38 9 -40 9
+Dialogue: 1,0:15:18.72,0:15:21.69,Cartello BASE,,0000,0000,0000,,{\blur0.5\b1\fnVerdana\c&H10151C&\clip(80.721,0.641,559.279,360)\pos(138.837,43.991)\fad(300,0)}Shirai
+Dialogue: 0,0:15:22.02,0:15:23.94,Default,,0000,0000,0000,,Allora?! Com'è andata?
+Dialogue: 0,0:15:23.94,0:15:26.65,Default,,0000,0000,0000,,Beh, in effetti è proprio come hai detto tu!
+Dialogue: 0,0:15:26.95,0:15:28.44,Italics,,0000,0000,0000,,Lo sapevo!
+Dialogue: 0,0:15:28.44,0:15:33.91,Italics,,0000,0000,0000,,Sulla tazza di caffè c'è la prova schiacciante\N che l'assassino è proprio il dottor Shirai!
+Dialogue: 0,0:15:46.17,0:15:47.75,Default,,0000,0000,0000,,Ci siamo, ispettore!
+Dialogue: 0,0:15:47.75,0:15:48.94,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,0:15:49.34,0:15:50.84,Default,,0000,0000,0000,,Che succede, signor Megure?
+Dialogue: 0,0:15:51.09,0:15:52.54,Default,,0000,0000,0000,,Nulla di cui preoccuparsi!
+Dialogue: 0,0:15:52.54,0:15:55.84,Default,,0000,0000,0000,,Questa è la tipica posa\N che assume Mori quando risolve i casi.
+Dialogue: 0,0:15:55.84,0:15:57.22,Default,,0000,0000,0000,,La posa di "Kogoro il Dormiente".
+Dialogue: 0,0:15:57.68,0:16:02.69,Default,,0000,0000,0000,,Signori, questa volta si tratta \Ndi un ingegnoso crimine diviso in due passaggi.
+Dialogue: 0,0:16:02.69,0:16:06.56,Default,,0000,0000,0000,,Per prima cosa, il colpevole mi ha portato \Nad avere un crollo mentale,
+Dialogue: 0,0:16:06.56,0:16:09.13,Default,,0000,0000,0000,,per convincere tutti quanti,\N incluso anche me,
+Dialogue: 0,0:16:09.13,0:16:12.70,Default,,0000,0000,0000,,che per via dello stress \Nsono stato io a commettere l'omicidio.
+Dialogue: 0,0:16:12.70,0:16:16.70,Default,,0000,0000,0000,,Come seconda cosa, dopo aver \Nconvinto tutti della mia colpevolezza,
+Dialogue: 0,0:16:16.70,0:16:21.66,Default,,0000,0000,0000,,il vero assassino ha attuato un piano\N per crearsi un alibi, molto furbamente.
+Dialogue: 0,0:16:22.41,0:16:24.65,Default,,0000,0000,0000,,Per farlo, inizialmente ha utilizzato
+Dialogue: 0,0:16:24.65,0:16:29.50,Default,,0000,0000,0000,,il manichino per il pronto soccorso \Nche si trova nel ripostiglio al terzo piano.
+Dialogue: 0,0:16:29.50,0:16:34.97,Default,,0000,0000,0000,,Poi ha aperto con un certo angolo\N la finestra della stanza del delitto,
+Dialogue: 0,0:16:34.97,0:16:39.06,Default,,0000,0000,0000,,facendo così riflettere il falso omicidio \Nche stava avvenendo nel ripostiglio.
+Dialogue: 0,0:16:39.06,0:16:43.06,Default,,0000,0000,0000,,Questo è quello che ho visto\N dall'ala est dell'ospedale per diversi giorni.
+Dialogue: 0,0:16:43.06,0:16:46.10,Default,,0000,0000,0000,,Infine, oggi alle 23:30,
+Dialogue: 0,0:16:46.10,0:16:50.34,Default,,0000,0000,0000,,l'assassino ha chiamato la vittima\N nella vera stanza del delitto e lo ha ucciso.
+Dialogue: 0,0:16:50.78,0:16:55.91,Default,,0000,0000,0000,,Ha fatto gli stessi identici movimenti, \Nsolo che questa volta la scena era vera.
+Dialogue: 0,0:16:55.91,0:16:59.28,Default,,0000,0000,0000,,E io e Conan abbiamo visto tutto quanto.
+Dialogue: 0,0:16:59.28,0:17:03.25,Default,,0000,0000,0000,,Ma come ha fatto a farti assistere\N sia al vero che ai falsi omicidi?
+Dialogue: 0,0:17:03.60,0:17:09.21,Default,,0000,0000,0000,,Per farlo, l'assassino è venuto\N nella mia stanza, ha aperto le tende
+Dialogue: 0,0:17:09.21,0:17:13.66,Default,,0000,0000,0000,,e mi ha fatto prendere\N una quantità regolare di sonniferi.
+Dialogue: 0,0:17:14.17,0:17:18.98,Default,,0000,0000,0000,,E oggi, ha impostato una sveglia alle 23:30,\N proprio l'ora in cui è avvenuto il delitto.
+Dialogue: 0,0:17:19.64,0:17:24.12,Default,,0000,0000,0000,,Poi mi ha tramortito con qualcosa\N quando mi sono precipitato sul luogo
+Dialogue: 0,0:17:24.12,0:17:27.23,Default,,0000,0000,0000,,e mi ha fatto stringere il coltello \Nper lasciarci le mie impronte.
+Dialogue: 0,0:17:27.23,0:17:29.31,Default,,0000,0000,0000,,Si può sapere chi è stato?
+Dialogue: 0,0:17:34.44,0:17:36.78,Default,,0000,0000,0000,,N-Non mi dica che è stato lei, dottor Shirai...
+Dialogue: 0,0:17:37.01,0:17:39.12,Default,,0000,0000,0000,,Stava per accusare me, signor Mori?
+Dialogue: 0,0:17:39.12,0:17:45.21,Default,,0000,0000,0000,,Esatto. A uccidere il dottor Eto \Nè stato proprio lei, dottor Shirai.
+Dialogue: 0,0:17:45.50,0:17:49.33,Default,,0000,0000,0000,,Spero che non si sia dimenticato\N che io ho un alibi, signor Mori.
+Dialogue: 0,0:17:49.96,0:17:51.79,Default,,0000,0000,0000,,Ha ragione, Mori!
+Dialogue: 0,0:17:51.79,0:17:56.84,Default,,0000,0000,0000,,In quel momento, l'infermiera gli ha portato \Ndelle cartelle cliniche e i due hanno parlato.
+Dialogue: 0,0:17:57.61,0:17:59.30,Default,,0000,0000,0000,,E non era un messaggio registrato!
+Dialogue: 0,0:17:59.60,0:18:01.26,Default,,0000,0000,0000,,Le ha parlato grazie al cellulare.
+Dialogue: 0,0:18:02.01,0:18:03.35,Default,,0000,0000,0000,,Cellulare?
+Dialogue: 0,0:18:03.89,0:18:05.95,Default,,0000,0000,0000,,Per prima cosa
+Dialogue: 0,0:18:05.95,0:18:08.96,Default,,0000,0000,0000,,poco dopo le 23:00,\N ha usato il telefono nel suo studio
+Dialogue: 0,0:18:08.96,0:18:11.02,Default,,0000,0000,0000,,per chiamare il suo cellulare.
+Dialogue: 0,0:18:11.02,0:18:15.52,Default,,0000,0000,0000,,Poi ha attivato il vivavoce ed è andato\N nella stanza del delitto, nell'ala nord.
+Dialogue: 0,0:18:15.94,0:18:19.66,Default,,0000,0000,0000,,Lì ha ucciso il dottor Eto, \N a cui aveva chiesto di venire lì per tempo.
+Dialogue: 0,0:18:19.66,0:18:24.54,Default,,0000,0000,0000,,Alle 23:30 lo ha ucciso mostrandoci\N la stessa scena delle recite dei giorni prima
+Dialogue: 0,0:18:24.54,0:18:29.81,Default,,0000,0000,0000,,e poi ha usato il cellulare per parlare \Ncon l'infermiera, sfruttando il vivavoce.
+Dialogue: 0,0:18:34.96,0:18:39.22,Default,,0000,0000,0000,,Non appena sono entrato nella stanza,\N mi ha colpito con un oggetto contundente.
+Dialogue: 0,0:18:39.42,0:18:44.01,Default,,0000,0000,0000,,Subito dopo, mi ha fatto stringere il coltello \Ncosì da lasciarci sopra le mie impronte.
+Dialogue: 0,0:18:44.01,0:18:48.39,Default,,0000,0000,0000,,Infine, durante il trambusto,\N è tornato nel suo studio
+Dialogue: 0,0:18:48.39,0:18:50.39,Default,,0000,0000,0000,,e ha spento il telefono.
+Dialogue: 0,0:18:50.85,0:18:55.07,Default,,0000,0000,0000,,Avrà tirato un sospiro di sollievo,\N essendo andato tutto a buon fine.
+Dialogue: 0,0:18:55.53,0:18:57.86,Default,,0000,0000,0000,,Ma c'è stato un grosso errore di calcolo.
+Dialogue: 0,0:18:57.86,0:19:00.82,Default,,0000,0000,0000,,Parlo del caffè che le ha portato l'infermiera.
+Dialogue: 0,0:19:01.61,0:19:06.99,Default,,0000,0000,0000,,Tutti sappiamo che al dottor Shirai\N piacciono le cose dolci, no?
+Dialogue: 0,0:19:06.99,0:19:11.21,Default,,0000,0000,0000,,Tuttavia, per quel caffè\N non ha neanche toccato lo zucchero.
+Dialogue: 0,0:19:11.21,0:19:16.92,Default,,0000,0000,0000,,Quindi significa che in realtà\N non lo ha bevuto.
+Dialogue: 0,0:19:17.38,0:19:22.01,Default,,0000,0000,0000,,Quante sciocchezze, ogni tanto \Nmi capita di berlo senza zucchero.
+Dialogue: 0,0:19:22.01,0:19:24.51,Default,,0000,0000,0000,,Questa non può essere definita una prova.
+Dialogue: 0,0:19:24.83,0:19:27.60,Default,,0000,0000,0000,,Dunque sta insinuando che lo ha bevuto?
+Dialogue: 0,0:19:28.06,0:19:31.64,Default,,0000,0000,0000,,Sì, e non avete trovato segni di saliva
+Dialogue: 0,0:19:31.64,0:19:34.94,Default,,0000,0000,0000,,perché dopo averlo bevuto\N ho sciacquato la tazza.
+Dialogue: 0,0:19:34.94,0:19:37.28,Default,,0000,0000,0000,,Ma c'è qualcos'altro che manca.
+Dialogue: 0,0:19:37.28,0:19:39.57,Default,,0000,0000,0000,,Oh? Di che si tratta?
+Dialogue: 0,0:19:39.57,0:19:44.53,Default,,0000,0000,0000,,Delle sue impronte digitali.\N Non ci sono su quella tazza di caffè.
+Dialogue: 0,0:19:44.53,0:19:47.03,Default,,0000,0000,0000,,Come le ho detto, l'ho sciacquata...
+Dialogue: 0,0:19:47.49,0:19:53.96,Default,,0000,0000,0000,,Però, dopo un'accurata analisi, \Nabbiamo trovato quelle dell'infermiera.
+Dialogue: 0,0:19:54.25,0:20:01.88,Default,,0000,0000,0000,,Sta insinuando che ha cancellato solo \Nle sue impronte e non quelle dell'infermiera?
+Dialogue: 0,0:20:01.88,0:20:03.44,Default,,0000,0000,0000,,È una cosa impossibile.
+Dialogue: 0,0:20:03.44,0:20:09.93,Default,,0000,0000,0000,,Vuol dire che quando ha sciacquato\N la tazza stava indossando dei guanti.
+Dialogue: 0,0:20:09.93,0:20:12.35,Default,,0000,0000,0000,,Gli stessi che aveva\N quando ha compiuto l'omicidio.
+Dialogue: 0,0:20:12.80,0:20:15.81,Default,,0000,0000,0000,,E perché li stava ancora indossando?
+Dialogue: 0,0:20:15.81,0:20:19.28,Default,,0000,0000,0000,,Quando è tornato \Nnel suo studio subito dopo l'omicidio,
+Dialogue: 0,0:20:19.28,0:20:22.86,Default,,0000,0000,0000,,probabilmente aveva in mano\N l'arma con cui mi aveva tramortito.
+Dialogue: 0,0:20:22.86,0:20:25.82,Default,,0000,0000,0000,,Non poteva rischiare \Ndi lasciarci le sue impronte digitali.
+Dialogue: 0,0:20:26.28,0:20:31.47,Default,,0000,0000,0000,,Comunque, tornato in quella stanza,\N ha capito che doveva disfarsi del caffè,
+Dialogue: 0,0:20:31.47,0:20:35.12,Default,,0000,0000,0000,,altrimenti sarebbe stato \Ndifficile provare che si trovava nello studio,
+Dialogue: 0,0:20:35.12,0:20:41.63,Default,,0000,0000,0000,,quindi, con i guanti ancora indosso,\N lo ha gettato via e ha sciacquato la tazza.
+Dialogue: 0,0:20:42.22,0:20:45.18,Default,,0000,0000,0000,,Ma lo ha fatto solo per l'interno.
+Dialogue: 0,0:20:45.18,0:20:51.14,Default,,0000,0000,0000,,Per questo motivo abbiamo rinvenuto\N solo le impronte digitali dell'infermiera.
+Dialogue: 0,0:20:51.14,0:20:54.19,Default,,0000,0000,0000,,Lei afferma di aver bevuto il caffè.
+Dialogue: 0,0:20:54.19,0:20:59.61,Default,,0000,0000,0000,,Potrebbe allora spiegarmi come mai\N non ci sono le sue impronte sulla tazza?
+Dialogue: 0,0:21:01.78,0:21:03.17,Default,,0000,0000,0000,,Ironia della sorte.
+Dialogue: 0,0:21:03.17,0:21:08.10,Default,,0000,0000,0000,,Mi hanno incastrato i guanti \Nche ho indossato per non lasciare prove...
+Dialogue: 0,0:21:08.10,0:21:09.99,Default,,0000,0000,0000,,Ammette di essere stato lei?
+Dialogue: 0,0:21:09.99,0:21:12.54,Default,,0000,0000,0000,,È andato tutto come ha detto il signor Mori.
+Dialogue: 0,0:21:12.98,0:21:15.00,Default,,0000,0000,0000,,Per quale motivo lo ha fatto?
+Dialogue: 0,0:21:15.31,0:21:19.61,Default,,0000,0000,0000,,Il prossimo mese \Nil chirurgo primario andrà in pensione.
+Dialogue: 0,0:21:19.61,0:21:23.97,Default,,0000,0000,0000,,Io e Eto siamo stati nominati\N come suoi possibili sostituti.
+Dialogue: 0,0:21:24.42,0:21:28.50,Default,,0000,0000,0000,,Tuttavia, Eto mi ha minacciato \Nperché conosceva il mio segreto.
+Dialogue: 0,0:21:29.05,0:21:31.46,Default,,0000,0000,0000,,Perciò ho dovuto rinunciare alla carica.
+Dialogue: 0,0:21:32.43,0:21:37.69,Default,,0000,0000,0000,,Sapeva che avevo pagato un insegnante\N per assicurarmi un posto in facoltà.
+Dialogue: 0,0:21:37.69,0:21:43.40,Default,,0000,0000,0000,,Dopotutto, il professore che avevo pagato\N era proprio suo padre.
+Dialogue: 0,0:21:44.03,0:21:49.37,Default,,0000,0000,0000,,Perché mai ho fatto una cosa \Ndel genere per entrare in università?
+Dialogue: 0,0:21:49.68,0:21:52.82,Default,,0000,0000,0000,,Dottore, spero che abbia imparato
+Dialogue: 0,0:21:52.82,0:21:56.33,Default,,0000,0000,0000,,che la disonestà e i crimini \Nnon portano a nulla di buono.
+Dialogue: 0,0:23:35.81,0:23:40.94,Default,,0000,0000,0000,,Basta! Non ne posso più \Ndi questa storia di "Kogoro il Dormiente"!
+Dialogue: 0,0:23:41.21,0:23:45.27,Default,,0000,0000,0000,,E perché mai? \NHai risolto in modo impeccabile il caso!
+Dialogue: 0,0:23:46.59,0:23:47.27,Default,,0000,0000,0000,,Davvero?
+Dialogue: 0,0:23:47.27,0:23:48.23,Default,,0000,0000,0000,,Proprio così!
+Dialogue: 0,0:23:49.82,0:23:55.20,Default,,0000,0000,0000,,Lo sapevo! \NIo, Kogoro il Dormiente, sono imbattibile!
+Dialogue: 0,0:23:55.93,0:23:57.84,Italics,,0000,0000,0000,,Non cambia proprio mai...
+Dialogue: 1,0:24:01.40,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HF5F6FA&\fnArial\1a&H4F&\pos(179.69,92.493)}Anteprima
+Dialogue: 0,0:24:01.40,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HFDFDFD&\fnArial\1a&H4A&\pos(179.69,92.493)}Anteprima
+Dialogue: 0,0:24:07.67,0:24:09.19,Default,,0000,0000,0000,,Maestra! Sonoko!
+Dialogue: 0,0:24:10.58,0:24:12.76,Default,,0000,0000,0000,,Dopo che è stata \Naddormentata con il cloroformio
+Dialogue: 0,0:24:12.76,0:24:15.22,Default,,0000,0000,0000,,l'hanno anche strangolata con una corda!
+Dialogue: 0,0:24:15.85,0:24:17.41,Italics,,0000,0000,0000,,Ci sono ancora le impronte!
+Dialogue: 0,0:24:18.51,0:24:19.45,Italics,,0000,0000,0000,,La porta d'ingresso...
+Dialogue: 0,0:24:19.96,0:24:22.48,Italics,,0000,0000,0000,,Un momento, \Nquindi significa che il colpevole...
+Dialogue: 0,0:24:23.25,0:24:24.89,Italics,,0000,0000,0000,,Si trova ancora dentro al rifugio!
+Dialogue: 1,0:24:25.44,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\bord0\fs18\blur0.6\c&HDDE4E9&\3c&HACC3DC&\pos(319.797,217.011)}I casi d'omicidio nel rifugio sciistico\N\N\N\N\N\N\N{\fs15}(prima parte)
+Dialogue: 0,0:24:25.44,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\fs18\blur0.5\bord0.1\c&HC1CDD8&\3c&H78A3F9&\pos(319.797,217.011)}I casi d'omicidio nel rifugio sciistico\N\N\N\N\N\N\N{\fs15}(prima parte)
+Dialogue: 0,0:24:26.23,0:24:27.64,Italics,,0000,0000,0000,,Nel prossimo episodio di Conan...
+Dialogue: 0,0:24:27.64,0:24:30.91,Italics,,0000,0000,0000,,"I casi d'omicidio \Nnel rifugio sciistico, prima parte".
+Dialogue: 0,0:24:47.32,0:24:49.44,Default,,0000,0000,0000,,Prossimo indizio per Conan:
+Dialogue: 0,0:24:49.84,0:24:51.46,Default,,0000,0000,0000,,Riscaldamento.
+Dialogue: 0,0:24:51.45,0:24:59.28,Non perdetevi il prossimo episodio v2,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\p1\c&H6C2A0E&\1a&H76&\pos(318.441,300.026)}m -135 -28 l 135 -28 135 2 -135 2
+Dialogue: 1,0:24:51.45,0:24:59.28,Non perdetevi il prossimo episodio v2,,0000,0000,0000,,{\blur0.6\pos(318.441,300.026)}Non perdetevi il prossimo episodio
+Dialogue: 0,0:24:51.69,0:24:53.42,Default - Alt,,0000,0000,0000,,Il prossimo caso è diviso in due parti!
+Dialogue: 0,0:24:53.42,0:24:59.57,Default - Alt,,0000,0000,0000,,Prima parte, prima parte, prima parte!

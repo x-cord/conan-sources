@@ -1,0 +1,442 @@
+[Script Info]
+Title: Italiano
+Original Script: cr_it  [http://www.crunchyroll.com/user/cr_it]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 528
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: OS,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0001,0001,0015,0
+Style: On Top,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0017,0017,0022,0
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Default - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Flashback - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Flashback Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Flashback Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Cartello BASE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0008,0008,0010,1
+Style: Titolo episodio,Verdana,25,&H00D0B193,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,180,0,0,1,0,0,2,0008,0008,0010,1
+Style: sign_3598_19_Sohei_Tatsumi__4,Times New Roman,17,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0187,0187,0020,1
+Style: sign_9717_83_Agenzia_investig,Times New Roman,15,&H00000000,&H000000FF,&H0092806C,&H00000000,-1,0,0,0,100,100,0,90,1,1,0,2,0229,0104,0264,1
+Style: sign_10177_88_Tatsumi,Times New Roman,28,&H00151413,&H000000FF,&H00736D67,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0209,0207,0293,1
+Style: Opaque,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,2,0,2,0008,0008,0020,1
+Style: sign_15018_137_Agenzia_investig,Times New Roman,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,14.99,1,0,0,2,0254,0000,0307,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.06,0:00:02.60,Italics,,0000,0000,0000,,Mi chiamo Conan Edogawa!
+Dialogue: 0,0:00:02.60,0:00:05.64,Italics,,0000,0000,0000,,Sono il liceale Shinichi, \Nrimpicciolito da una pillola.
+Dialogue: 0,0:00:05.64,0:00:08.22,Italics,,0000,0000,0000,,Anche da piccolo, \Nla mia mente è quella di un detective.
+Dialogue: 0,0:00:08.77,0:00:10.36,Italics,,0000,0000,0000,,Dal prossimo episodio, nuova intro!
+Dialogue: 0,0:00:10.36,0:00:13.49,Italics,,0000,0000,0000,,Nel caso di oggi c'è un alibi di ferro,\N davvero appassionante!
+Dialogue: 0,0:00:13.49,0:00:15.48,Italics,,0000,0000,0000,,La verità è sempre una sola!
+Dialogue: 1,0:01:46.00,0:01:52.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur1\bord0.1\c&HFFFFFF&\pos(264,118)}I{\c&HFEFEFE&}l{\c&HFDFCFC&} {\c&HFBFBFB&}c{\c&HFAFAF9&}a{\c&HF9F8F8&}s{\c&HF8F7F7&}o{\c&HF6F6F5&} {\c&HF5F4F4&}d{\c&HF4F3F3&}e{\c&HF3F2F1&}l{\c&HF2F0F0&}l{\c&HF0EFEE&}a{\c&HEFEEED&} {\c&HEEECEC&}t{\c&HEDEBEA&}e{\c&HECEAE9&}s{\c&HEAE8E8&}t{\c&HE9E7E6&}i{\c&HE8E6E5&}m{\c&HE7E5E3&}o{\c&HE5E3E2&}n{\c&HE4E2E1&}i{\c&HE3E1DF&}a{\c&HE2DFDE&}n{\c&HE1DEDD&}z{\c&HDFDDDB&}a{\c&HDEDBDA&} {\c&HDDDAD8&}d{\c&HDCD9D7&}e{\c&HDBD7D6&}l{\c&HD9D6D4&}l{\c&HD8D5D3&}'{\c&HD7D3D2&}a{\c&HD6D2D0&}l{\c&HD4D1CF&}i{\c&HD3CFCD&}b{\c&HD2CECC&}i
+Dialogue: 0,0:01:46.00,0:01:52.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur1\bord0.5\c&HD2CECC&\pos(264,118)}Il caso della testimonianza dell'alibi
+Dialogue: 0,0:01:47.13,0:01:49.96,Italics,,0000,0000,0000,,"Il caso della testimonianza dell'alibi".
+Dialogue: 0,0:01:55.01,0:01:57.76,Default,,0000,0000,0000,,Guarda che lusso!
+Dialogue: 0,0:01:57.76,0:01:59.51,Default,,0000,0000,0000,,Si vede che è un hotel a 5 stelle!
+Dialogue: 0,0:02:00.10,0:02:01.85,Default,,0000,0000,0000,,Eccitante, vero, Conan?
+Dialogue: 0,0:02:01.85,0:02:03.06,Default,,0000,0000,0000,,G-Già...
+Dialogue: 0,0:02:03.43,0:02:06.77,Default,,0000,0000,0000,,Certo che siete proprio viziati, voi due...
+Dialogue: 0,0:02:07.44,0:02:10.60,Default,,0000,0000,0000,,Vi ho portati solo perché\N il ristorante è di strada, intesi?
+Dialogue: 0,0:02:10.60,0:02:12.57,Default,,0000,0000,0000,,Sì, lo sappiamo.
+Dialogue: 0,0:02:13.03,0:02:18.45,Default,,0000,0000,0000,,Ma quello lì non è l'avvocato\N che vuole assumerti per il caso?
+Dialogue: 0,0:02:18.45,0:02:22.70,Default - Alt,,0000,0000,0000,,Sì, è proprio lui, l'avvocato Tatsumi.
+Dialogue: 0,0:02:18.82,0:02:22.70,Default,,0000,0000,0000,,{\fad(430,0)\p1\fscx400\fscy500\bord0\shad0\c&H704832&\1a&H84&\blur0.5\pos(458.029,233.486)}m -17 -3 l 18 -3 l 18 8 l -17 8
+Dialogue: 1,0:02:18.82,0:02:22.70,sign_3598_19_Sohei_Tatsumi__4,,0000,0000,0000,,{\fad(430,0)\blur0.5\pos(390.829,187.086)}Sohei Tatsumi (48)
+Dialogue: 1,0:02:18.82,0:02:22.70,sign_3598_19_Sohei_Tatsumi__4,,0000,0000,0000,,{\fad(430,0)\blur0.5\pos(391.629,208.686)}- avvocato -
+Dialogue: 0,0:02:23.54,0:02:26.42,Default,,0000,0000,0000,,Le dirò, signor Mori,\N le sue prodezze da detective
+Dialogue: 0,0:02:26.42,0:02:29.34,Default,,0000,0000,0000,,sono ben note anche qui \Nin ambiente giuridico!
+Dialogue: 0,0:02:29.67,0:02:33.09,Default,,0000,0000,0000,,Ma si figuri, non è nulla\N rispetto a ciò che fa lei...
+Dialogue: 0,0:02:33.42,0:02:37.30,Default,,0000,0000,0000,,E sa, anche nel mio ambiente\N tutti sanno chi è lei, giuro!
+Dialogue: 0,0:02:38.01,0:02:43.85,Default,,0000,0000,0000,,Comunque, è incredibile che abbia l'ufficio\N dentro a un hotel così lussuoso!
+Dialogue: 0,0:02:45.18,0:02:50.11,Default,,0000,0000,0000,,È importante ricorrere a mezzi simili,\N quando si ha a che fare con le società.
+Dialogue: 0,0:02:50.94,0:02:55.65,Italics,,0000,0000,0000,,Quindi è un avvocato di successo\N che fa da consulente a grosse società...
+Dialogue: 0,0:03:00.78,0:03:02.49,Default,,0000,0000,0000,,Incredibile!
+Dialogue: 0,0:03:04.70,0:03:06.54,Default,,0000,0000,0000,,Cosa vi andrebbe da bere?
+Dialogue: 0,0:03:07.50,0:03:09.38,Default,,0000,0000,0000,,Io prenderei un caffè.
+Dialogue: 0,0:03:09.38,0:03:12.00,Default,,0000,0000,0000,,Per loro due niente,\N fra poco li caccio fuori di qui.
+Dialogue: 0,0:03:12.00,0:03:15.59,Default,,0000,0000,0000,,Non serve avere fretta.
+Dialogue: 0,0:03:15.59,0:03:17.22,Default,,0000,0000,0000,,Fate pure con calma.
+Dialogue: 0,0:03:18.38,0:03:20.39,Default,,0000,0000,0000,,Servizio in camera, per favore.
+Dialogue: 0,0:03:20.68,0:03:24.93,Italics,,0000,0000,0000,,Se possiamo fare con calma,\N allora perché controlla l'orario?
+Dialogue: 0,0:03:25.35,0:03:27.10,Default,,0000,0000,0000,,Scusatemi, passo in bagno.
+Dialogue: 0,0:03:35.94,0:03:38.99,Default,,0000,0000,0000,,Scusatemi, potete rispondere al posto mio?
+Dialogue: 0,0:03:44.03,0:03:46.66,Default,,0000,0000,0000,,Ma guarda, \Nregistra le chiamate automaticamente!
+Dialogue: 0,0:03:46.66,0:03:48.91,Default,,0000,0000,0000,,Sì, pronto?
+Dialogue: 0,0:03:48.91,0:03:50.88,Default,,0000,0000,0000,,Ah, non sei tu, caro?
+Dialogue: 0,0:03:50.88,0:03:53.42,Default,,0000,0000,0000,,Mi scusi, con chi parlo?
+Dialogue: 0,0:03:53.42,0:03:56.92,Default,,0000,0000,0000,,Come con chi parli? Sono la moglie\N del signor Tatsumi, è ovvio.
+Dialogue: 0,0:03:58.09,0:03:59.43,Default,,0000,0000,0000,,Ah, accidenti.
+Dialogue: 0,0:04:00.84,0:04:02.39,Italics,,0000,0000,0000,,Ma cos'era?
+Dialogue: 0,0:04:02.39,0:04:03.47,Default,,0000,0000,0000,,Pronto, giovanotto?
+Dialogue: 0,0:04:03.47,0:04:04.97,Default,,0000,0000,0000,,Mi passeresti mio marito?
+Dialogue: 0,0:04:04.97,0:04:06.68,Default,,0000,0000,0000,,Sì, aspetti un secondo...
+Dialogue: 0,0:04:08.60,0:04:10.47,Default,,0000,0000,0000,,Signor avvocato, c'è sua moglie...
+Dialogue: 0,0:04:11.35,0:04:13.65,Default,,0000,0000,0000,,Dura di comprendonio, eh...
+Dialogue: 0,0:04:14.15,0:04:16.40,Default,,0000,0000,0000,,Sono io, ho ospiti al momento.
+Dialogue: 0,0:04:16.40,0:04:17.69,Default,,0000,0000,0000,,Riparliamo più tardi.
+Dialogue: 0,0:04:20.15,0:04:22.91,Default,,0000,0000,0000,,Mi scusi, ora, riguardo al lavoro...
+Dialogue: 0,0:04:22.91,0:04:24.91,Default,,0000,0000,0000,,Ah, prima però, Ran, Conan...
+Dialogue: 0,0:04:24.91,0:04:25.91,Default,,0000,0000,0000,,Sì, capito.
+Dialogue: 0,0:04:26.54,0:04:27.37,Default,,0000,0000,0000,,Andiamo, Conan.
+Dialogue: 0,0:04:28.50,0:04:31.17,Default,,0000,0000,0000,,Nell'atrio c'è una sala da tè,
+Dialogue: 0,0:04:31.17,0:04:34.33,Default,,0000,0000,0000,,date loro il mio numero di stanza,\N ordinate qualcosa e aspettateci.
+Dialogue: 0,0:04:35.21,0:04:36.55,Default,,0000,0000,0000,,La ringrazio!
+Dialogue: 0,0:04:38.38,0:04:41.09,Default,,0000,0000,0000,,A dire il vero, vorrei indagasse\N su un presunto adulterio.
+Dialogue: 0,0:04:42.55,0:04:44.47,Default,,0000,0000,0000,,Da parte di mia moglie, Kazumi.
+Dialogue: 0,0:04:50.10,0:04:52.56,Default,,0000,0000,0000,,È passata quasi un'ora...
+Dialogue: 0,0:04:53.77,0:04:54.90,Default,,0000,0000,0000,,Eccolo che arriva.
+Dialogue: 0,0:04:55.52,0:04:56.86,Default,,0000,0000,0000,,Papà!
+Dialogue: 0,0:04:56.86,0:04:58.36,Default,,0000,0000,0000,,Ah, eccovi qua.
+Dialogue: 0,0:04:59.15,0:05:02.03,Default,,0000,0000,0000,,Ti ci è voluto parecchio,\N si tratta di un lavoro difficile?
+Dialogue: 0,0:05:02.03,0:05:03.57,Default,,0000,0000,0000,,No, non direi...
+Dialogue: 0,0:05:03.82,0:05:05.20,Default,,0000,0000,0000,,Va tutto bene?
+Dialogue: 0,0:05:06.03,0:05:11.12,Default,,0000,0000,0000,,Mi ha ripetuto fino allo sfinimento\N che vorrebbe fidarsi di nuovo di sua moglie.
+Dialogue: 0,0:05:11.12,0:05:15.63,Default,,0000,0000,0000,,È molto più indeciso di quanto appaia,\N quindi ci è voluto parecchio.
+Dialogue: 0,0:05:17.13,0:05:19.63,Italics,,0000,0000,0000,,Quindi la richiesta era \N per presunto adulterio...
+Dialogue: 0,0:05:20.09,0:05:22.30,Default,,0000,0000,0000,,Comunque, ho accettato il caso.
+Dialogue: 0,0:05:22.30,0:05:24.59,Default,,0000,0000,0000,,Ora andiamo \Na quel ristorante di cui parlavi.
+Dialogue: 0,0:05:24.97,0:05:26.26,Default,,0000,0000,0000,,Urrà...
+Dialogue: 0,0:05:26.26,0:05:27.59,Default,,0000,0000,0000,,...avrei voluto dire,
+Dialogue: 0,0:05:28.31,0:05:31.02,Default,,0000,0000,0000,,ma papà, \Nquesto è il parcheggio sotterraneo!
+Dialogue: 0,0:05:31.02,0:05:32.56,Default,,0000,0000,0000,,Il ristorante è di sopra!
+Dialogue: 0,0:05:32.56,0:05:33.14,Default,,0000,0000,0000,,Ops.
+Dialogue: 0,0:05:33.14,0:05:35.31,Default,,0000,0000,0000,,Sicuro che ci vuoi andare davvero?
+Dialogue: 0,0:05:38.40,0:05:39.82,Italics,,0000,0000,0000,,Quello è l'avvocato Tatsumi...
+Dialogue: 0,0:05:39.82,0:05:41.07,Default,,0000,0000,0000,,Conan! Andiamo!
+Dialogue: 0,0:05:41.07,0:05:41.86,Default,,0000,0000,0000,,Eccomi!
+Dialogue: 0,0:05:43.20,0:05:45.66,sign_9717_83_Agenzia_investig,,0000,0000,0000,,{\frx344\fry0\frz87.99\pos(317.299,109.969)}Agenzia investigativa Mori
+Dialogue: 0,0:05:48.41,0:05:49.62,Default,,0000,0000,0000,,Ho bevuto un po' troppo...
+Dialogue: 0,0:05:53.08,0:05:55.08,Default,,0000,0000,0000,,Una volante della polizia, che succede?
+Dialogue: 0,0:05:56.25,0:05:58.54,Default,,0000,0000,0000,,Ma che villa enorme!
+Dialogue: 0,0:05:58.54,0:06:00.67,Italics,,0000,0000,0000,,La casa dell'avvocato Tatsumi, eh?
+Dialogue: 0,0:05:58.54,0:06:00.67,sign_10177_88_Tatsumi,,0000,0000,0000,,Tatsumi
+Dialogue: 0,0:06:01.21,0:06:04.63,Default,,0000,0000,0000,,Certo che gli avvocati \Nguadagnano parecchio...
+Dialogue: 0,0:06:05.18,0:06:08.18,Default,,0000,0000,0000,,Ispettore Megure, \Nho portato qui il detective Mori.
+Dialogue: 0,0:06:08.18,0:06:10.59,Default,,0000,0000,0000,,Ah, grazie per essere passato, Mori.
+Dialogue: 0,0:06:11.10,0:06:13.81,Default,,0000,0000,0000,,Che succede qui, ispettore?
+Dialogue: 0,0:06:16.81,0:06:19.31,Default,,0000,0000,0000,,Beh, guarda tu stesso, Mori.
+Dialogue: 0,0:06:20.90,0:06:22.82,Default,,0000,0000,0000,,Voi due aspettate lì.
+Dialogue: 0,0:06:31.83,0:06:34.04,Default,,0000,0000,0000,,È la moglie dell'avvocato Tatsumi?
+Dialogue: 0,0:06:34.04,0:06:36.75,Default,,0000,0000,0000,,Esatto, è la signora Kazumi, 27 anni.
+Dialogue: 0,0:06:36.75,0:06:39.63,Default - Alt,,0000,0000,0000,,È morta per asfissia da strangolamento.
+Dialogue: 0,0:06:36.75,0:06:40.75,Default,,0000,0000,0000,,{\fad(330,20)\p1\fscx400\fscy500\bord0\shad0\move(405,230,270,230)\c&H704832&\1a&H84&\blur0.5}m -17 -3 l 18 -3 l 18 8 l -17 8
+Dialogue: 1,0:06:36.75,0:06:40.75,sign_3598_19_Sohei_Tatsumi__4,,0000,0000,0000,,{\fad(330,20)\blur0.5\fs16\move(340,184,203,184)}Kazumi Tatsumi (27)
+Dialogue: 1,0:06:36.75,0:06:40.75,sign_3598_19_Sohei_Tatsumi__4,,0000,0000,0000,,{\fad(330,20)\blur0.5\move(340,206,203,206)\fs14}- moglie dell'avvocato -
+Dialogue: 0,0:06:39.63,0:06:41.46,Default - Alt,,0000,0000,0000,,Si tratta di omicidio, senza dubbio.
+Dialogue: 0,0:06:45.76,0:06:47.51,Italics,,0000,0000,0000,,Un punto di spillatrice!
+Dialogue: 0,0:06:47.51,0:06:48.97,Italics,,0000,0000,0000,,Ma che ci fa qui?
+Dialogue: 0,0:06:48.97,0:06:50.55,Default,,0000,0000,0000,,Moccioso maledetto!
+Dialogue: 0,0:06:51.51,0:06:53.64,Default,,0000,0000,0000,,Ma cosa pensi di fare?!
+Dialogue: 0,0:06:53.64,0:06:55.68,Default,,0000,0000,0000,,Allenta la presa, Mori.
+Dialogue: 0,0:06:55.68,0:06:59.73,Default,,0000,0000,0000,,Per stavolta ci serve la testimonianza\N di tutti quanti voi.
+Dialogue: 0,0:06:59.73,0:07:00.56,Default,,0000,0000,0000,,Testimonianza?
+Dialogue: 0,0:07:00.56,0:07:04.49,Default,,0000,0000,0000,,Sì, è vero che io e mia moglie\N non andavamo d'accordo.
+Dialogue: 0,0:07:04.49,0:07:09.49,Default,,0000,0000,0000,,Ho assunto il detective Mori\N per indagare su di lei, è vero.
+Dialogue: 0,0:07:11.08,0:07:13.41,Default,,0000,0000,0000,,Ispettore, qual è l'ora stimata del decesso?
+Dialogue: 0,0:07:14.58,0:07:17.54,Default,,0000,0000,0000,,Per i dettagli precisi\N dovremo aspettare l'autopsia,
+Dialogue: 0,0:07:17.54,0:07:22.09,Default,,0000,0000,0000,,ma a giudicare dal rigor mortis,\N direi intorno alle 14:00 e le 15:00.
+Dialogue: 0,0:07:23.05,0:07:24.67,Default,,0000,0000,0000,,Ma in quell'arco di tempo...
+Dialogue: 0,0:07:24.67,0:07:26.84,Default,,0000,0000,0000,,Esatto, eravamo in quell'hotel.
+Dialogue: 0,0:07:27.34,0:07:28.47,Italics,,0000,0000,0000,,Capisco.
+Dialogue: 0,0:07:28.47,0:07:31.80,Italics,,0000,0000,0000,,Quindi ci hanno chiamati qui\N per confermare il suo alibi.
+Dialogue: 0,0:07:31.80,0:07:35.39,Default,,0000,0000,0000,,Dopo aver salutato il detective Mori,\N sono andato via dall'hotel.
+Dialogue: 0,0:07:35.81,0:07:40.43,Default,,0000,0000,0000,,Ho finito le ricerche per la prossima causa\N e quando sono tornato a casa, mia moglie...
+Dialogue: 0,0:07:40.94,0:07:42.31,Default,,0000,0000,0000,,Lei era lì...
+Dialogue: 0,0:07:42.31,0:07:47.36,Default,,0000,0000,0000,,Mori, puoi dire con assoluta certezza\N che dalle 14:00 alle 15:00
+Dialogue: 0,0:07:47.36,0:07:48.70,Default,,0000,0000,0000,,eri con l'avvocato Tatsumi?
+Dialogue: 0,0:07:48.70,0:07:50.40,Default,,0000,0000,0000,,Sì, non ho dubbi.
+Dialogue: 0,0:07:50.95,0:07:55.45,Default,,0000,0000,0000,,L'avvocato si è allontanato da me\N soltanto una volta,
+Dialogue: 0,0:07:55.45,0:07:57.45,Default,,0000,0000,0000,,ed è stato solo per un minuto.
+Dialogue: 0,0:07:57.45,0:08:00.67,Default,,0000,0000,0000,,Ah, giusto, in quel momento\N ha squillato il telefono...
+Dialogue: 0,0:08:01.00,0:08:03.88,Default,,0000,0000,0000,,Esatto! E Conan ha risposto.
+Dialogue: 0,0:08:03.88,0:08:08.01,Default,,0000,0000,0000,,Sì, ha detto: "Sono la moglie\N del signor Tatsumi, è ovvio".
+Dialogue: 0,0:08:08.01,0:08:11.13,Default,,0000,0000,0000,,Il che vuol dire \Nche in quel momento era ancora viva.
+Dialogue: 0,0:08:12.05,0:08:16.09,Default,,0000,0000,0000,,Credo che la cassetta con la registrazione\N sia ancora in quell'hotel.
+Dialogue: 0,0:08:16.09,0:08:19.89,Default,,0000,0000,0000,,Davvero? \NAllora possiamo prenderla in prestito?
+Dialogue: 0,0:08:19.89,0:08:22.35,Default,,0000,0000,0000,,Certo, nessun problema.
+Dialogue: 0,0:08:22.35,0:08:25.52,Default,,0000,0000,0000,,Ad ogni modo, fra le 14:00 e le 15:00
+Dialogue: 0,0:08:25.52,0:08:29.65,Default,,0000,0000,0000,,l'avvocato Tatsumi era con noi,\N il suo alibi è perfettamente provato.
+Dialogue: 0,0:08:29.65,0:08:33.99,Default,,0000,0000,0000,,Fra l'altro, c'è una distanza di 10 km\N fra l'hotel e questa casa.
+Dialogue: 0,0:08:35.28,0:08:40.25,Opaque,,0000,0000,0000,,{\3c&H000000&\3a&H65&\fs31\frz10.4\blur0.6\pos(282,317)}Assassinata la moglie di un noto avvocato
+Dialogue: 0,0:08:40.24,0:08:43.08,Default,,0000,0000,0000,,"Assassinata la moglie di un noto avvocato.
+Dialogue: 0,0:08:40.25,0:08:43.21,sign_15018_137_Agenzia_investig,,0000,0000,0000,,{\fax-0.5\pos(369.687,58.778)\frz16.04}Agenzia investigativa Mori
+Dialogue: 0,0:08:43.08,0:08:47.21,Default,,0000,0000,0000,,Al centro dell'indagine,\N un intimo conoscente della vittima"?
+Dialogue: 0,0:08:47.71,0:08:49.67,Default,,0000,0000,0000,,Pare avesse un amante.
+Dialogue: 0,0:08:50.47,0:08:54.51,Default,,0000,0000,0000,,Quindi la moglie dell'avvocato\N è stata uccisa dal suo amante?
+Dialogue: 0,0:08:54.51,0:08:58.14,Default,,0000,0000,0000,,A giudicare dalla scena del delitto,\N escluderei l'ipotesi rapina.
+Dialogue: 0,0:08:58.14,0:09:01.89,Default,,0000,0000,0000,,E con la nostra testimonianza,\N sono spariti anche i sospetti per Tatsumi.
+Dialogue: 0,0:09:02.19,0:09:04.94,Default,,0000,0000,0000,,Facendo i conti, resta solo quello.
+Dialogue: 0,0:09:04.94,0:09:09.86,Default,,0000,0000,0000,,E che diamine! Per colpa dell'assassino\N ho perso l'incarico dell'avvocato!
+Dialogue: 0,0:09:09.86,0:09:11.99,Default,,0000,0000,0000,,Questo sì che mi fa infuriare.
+Dialogue: 0,0:09:12.49,0:09:13.61,Italics,,0000,0000,0000,,Qualcosa non mi torna.
+Dialogue: 0,0:09:13.61,0:09:16.53,Italics,,0000,0000,0000,,Troppe cose in questo caso\N mi fanno storcere il naso.
+Dialogue: 0,0:09:16.53,0:09:22.00,Italics,,0000,0000,0000,,Tanto per cominciare, a che serve\N mettere il corpo dentro la vasca?
+Dialogue: 0,0:09:22.50,0:09:24.98,Italics,,0000,0000,0000,,E cos'era quel punto di spillatrice?
+Dialogue: 0,0:09:24.98,0:09:29.38,Italics,,0000,0000,0000,,Poi, il modo in cui l'avvocato\N ha tenuto in stallo Kogoro per un'ora...
+Dialogue: 0,0:09:29.80,0:09:32.26,Italics,,0000,0000,0000,,Perché era così preoccupato per l'ora?
+Dialogue: 0,0:09:32.72,0:09:36.22,Italics,,0000,0000,0000,,Inoltre, è stata una coincidenza\N che a rispondere sia stato un altro?
+Dialogue: 0,0:09:36.72,0:09:39.68,Italics,,0000,0000,0000,,E cos'ha messo \Nnel bagagliaio della macchina?
+Dialogue: 0,0:09:39.93,0:09:43.64,Italics,,0000,0000,0000,,A quanto pare, è da quell'hotel\N che dovrò iniziare a investigare!
+Dialogue: 0,0:09:45.14,0:09:47.11,Default,,0000,0000,0000,,Era Conan?
+Dialogue: 0,0:09:47.94,0:09:49.94,Default,,0000,0000,0000,,Conan? Dove vai?
+Dialogue: 0,0:09:49.94,0:09:51.94,Default,,0000,0000,0000,,Torno subito!
+Dialogue: 0,0:09:54.24,0:09:56.74,Italics,,0000,0000,0000,,Questo è l'ufficio dell'avvocato Tatsumi.
+Dialogue: 0,0:09:56.74,0:09:59.49,Italics,,0000,0000,0000,,L'ascensore per gli ospiti è lì in fondo.
+Dialogue: 0,0:09:59.49,0:10:02.62,Italics,,0000,0000,0000,,Mentre quello per gli impiegati, è lì.
+Dialogue: 0,0:10:02.62,0:10:04.87,Italics,,0000,0000,0000,,Anche l'uscita d'emergenza è lontana.
+Dialogue: 0,0:10:10.09,0:10:11.30,Italics,,0000,0000,0000,,E quello?
+Dialogue: 0,0:10:18.14,0:10:20.55,Default,,0000,0000,0000,,Quello è il condotto della biancheria.
+Dialogue: 0,0:10:34.65,0:10:36.03,Italics,,0000,0000,0000,,La spillatrice!
+Dialogue: 0,0:10:36.61,0:10:37.78,Italics,,0000,0000,0000,,Viene da lì!
+Dialogue: 0,0:10:41.37,0:10:42.83,Default,,0000,0000,0000,,Come al solito,
+Dialogue: 0,0:10:42.83,0:10:46.70,Default,,0000,0000,0000,,ho preparato la stanza accanto\N al mio ufficio, mettetevi comodi.
+Dialogue: 0,0:10:47.17,0:10:49.84,Italics,,0000,0000,0000,,La stanza accanto? Come al solito?
+Dialogue: 0,0:10:51.75,0:10:53.46,Italics,,0000,0000,0000,,Ma questo...
+Dialogue: 0,0:10:53.46,0:10:54.84,Italics,,0000,0000,0000,,Da dove viene?
+Dialogue: 0,0:10:56.59,0:10:57.63,Italics,,0000,0000,0000,,Da qui.
+Dialogue: 0,0:11:04.10,0:11:05.81,Italics,,0000,0000,0000,,Quindi è questo...
+Dialogue: 0,0:11:05.81,0:11:08.81,Italics,,0000,0000,0000,,C'è un carillon al posto\N del suono di una sveglia.
+Dialogue: 0,0:11:09.27,0:11:11.65,Default,,0000,0000,0000,,Sei un ospite dell'hotel, bimbo?
+Dialogue: 0,0:11:12.23,0:11:14.28,Default,,0000,0000,0000,,No, sto esplorando!
+Dialogue: 0,0:11:14.28,0:11:16.07,Default,,0000,0000,0000,,Ti stai cacciando nei pasticci?
+Dialogue: 0,0:11:18.91,0:11:20.15,Italics,,0000,0000,0000,,Ora che ci penso...
+Dialogue: 0,0:11:23.37,0:11:25.70,Italics,,0000,0000,0000,,Durante la chiamata, \Nla musica si era fermata.
+Dialogue: 0,0:11:26.37,0:11:28.71,Default,,0000,0000,0000,,Che sveglia particolare!
+Dialogue: 0,0:11:28.71,0:11:30.67,Default,,0000,0000,0000,,Ce l'hanno anche tutte le altre stanze?
+Dialogue: 0,0:11:30.96,0:11:33.75,Default,,0000,0000,0000,,Certo, è così in tutte le stanze.
+Dialogue: 0,0:11:33.75,0:11:37.17,Default,,0000,0000,0000,,Hanno tutte un vero carillon,\N che funziona con un timer.
+Dialogue: 0,0:11:37.88,0:11:40.01,Italics,,0000,0000,0000,,Finalmente l'ho trovata!
+Dialogue: 0,0:11:40.01,0:11:43.59,Italics,,0000,0000,0000,,{\fad(0,220)}Ho trovato la prova definitiva\N che l'avvocato Tatsumi è l'assassino!
+Dialogue: 0,0:11:47.51,0:11:49.39,sign_15018_137_Agenzia_investig,,0000,0000,0000,,{\fad(180,0)\fax-0.5\pos(372.609,70.334)\frz16.83}Agenzia investigativa Mori
+Dialogue: 0,0:11:48.10,0:11:49.41,Default,,0000,0000,0000,,Sei in ritardo!
+Dialogue: 0,0:11:49.41,0:11:51.27,Default,,0000,0000,0000,,Guarda che ora si è fatta!
+Dialogue: 0,0:11:51.27,0:11:54.27,Default,,0000,0000,0000,,Va bene, eri da qualche parte,\N ma dove di preciso?
+Dialogue: 0,0:11:54.27,0:11:56.40,Default,,0000,0000,0000,,M-Ma dov'è Kogoro?
+Dialogue: 0,0:11:56.40,0:11:58.45,Default,,0000,0000,0000,,Se n'è già andato.
+Dialogue: 0,0:11:58.44,0:12:03.15,sign_10177_88_Tatsumi,,0000,0000,0000,,{\move(190,58,500,58)\bord2\3c&HBADDEA&\clip(66,0,462,340)}Lanterna funeraria
+Dialogue: 0,0:11:58.45,0:12:00.15,sign_10177_88_Tatsumi,,0000,0000,0000,,{\clip(66,0,462,340)\fad(20,0)\fs16\bord1\3c&HB7A898&\move(374,72,478,72)}Tatsumi
+Dialogue: 0,0:12:07.57,0:12:11.08,Default,,0000,0000,0000,,Sei stato tu, hai ucciso tu Kazumi!
+Dialogue: 0,0:12:11.08,0:12:13.79,Default,,0000,0000,0000,,Sono della polizia, che succede qui?
+Dialogue: 0,0:12:14.29,0:12:15.83,Default,,0000,0000,0000,,Tu chi saresti?
+Dialogue: 0,0:12:16.08,0:12:19.75,Default,,0000,0000,0000,,{\fad(430,0)\p1\fscx400\fscy500\bord0\shad0\c&H704832&\1a&H84&\blur0.5\pos(205.06,235.2)}m -17 -3 l 18 -3 l 18 8 l -17 8
+Dialogue: 1,0:12:16.08,0:12:19.75,sign_3598_19_Sohei_Tatsumi__4,,0000,0000,0000,,{\fad(430,0)\blur0.5\pos(137.86,188.8)}Shunzo Hirose (30)
+Dialogue: 1,0:12:16.08,0:12:19.75,sign_3598_19_Sohei_Tatsumi__4,,0000,0000,0000,,{\fad(430,0)\blur0.5\fs14\pos(137.66,210.4)}- ingegnere progettista -
+Dialogue: 0,0:12:16.96,0:12:19.75,Default - Alt,,0000,0000,0000,,Mi chiamo Hirose, \Nsono un ingegnere progettista.
+Dialogue: 0,0:12:20.50,0:12:22.21,Default,,0000,0000,0000,,Sono l'uomo che cercavate.
+Dialogue: 0,0:12:22.84,0:12:25.01,Default,,0000,0000,0000,,Avevo una relazione con Kazumi, la vittima.
+Dialogue: 0,0:12:25.01,0:12:25.72,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,0:12:28.26,0:12:32.01,Default,,0000,0000,0000,,Ma non l'ho uccisa! \NPerché mai avrei dovuto ucciderla?
+Dialogue: 0,0:12:32.89,0:12:35.15,Default,,0000,0000,0000,,Era sul punto di divorziare da lui...
+Dialogue: 0,0:12:35.43,0:12:37.56,Default,,0000,0000,0000,,...per sposarsi con me!
+Dialogue: 0,0:12:38.27,0:12:40.19,Default,,0000,0000,0000,,Oh, è la prima volta che lo sento.
+Dialogue: 0,0:12:40.19,0:12:41.36,Default,,0000,0000,0000,,Non fare il finto tonto!
+Dialogue: 0,0:12:41.90,0:12:43.15,Default,,0000,0000,0000,,Lo sapevi benissimo.
+Dialogue: 0,0:12:44.24,0:12:45.82,Default,,0000,0000,0000,,Lo sapeva?
+Dialogue: 0,0:12:48.16,0:12:53.37,Default,,0000,0000,0000,,Anche se lo avessi saputo,\N perché avrei dovuto uccidere mia moglie?
+Dialogue: 0,0:12:53.74,0:12:58.62,Default,,0000,0000,0000,,Piuttosto, ho trattato molti casi\N di rapporti extraconiugali
+Dialogue: 0,0:12:58.83,0:13:02.04,Default,,0000,0000,0000,,che finiscono per trasformarsi in omicidi.
+Dialogue: 0,0:13:02.59,0:13:03.34,Default,,0000,0000,0000,,Viscido...
+Dialogue: 0,0:13:03.34,0:13:05.88,Default,,0000,0000,0000,,Fra l'altro, io ho un alibi.
+Dialogue: 0,0:13:05.88,0:13:07.97,Default,,0000,0000,0000,,Non avrei potuto ucciderla.
+Dialogue: 0,0:13:09.05,0:13:10.85,Default,,0000,0000,0000,,Mi sbaglio, detective Mori?
+Dialogue: 0,0:13:11.22,0:13:13.18,Default,,0000,0000,0000,,Sì, posso confermare.
+Dialogue: 0,0:13:14.97,0:13:16.81,Default,,0000,0000,0000,,Il tuo nome è Hirose, giusto?
+Dialogue: 0,0:13:16.81,0:13:18.64,Default,,0000,0000,0000,,Allora? Tu che mi dici, Hirose?
+Dialogue: 0,0:13:19.60,0:13:21.11,Default,,0000,0000,0000,,Dov'è il tuo alibi?
+Dialogue: 0,0:13:22.02,0:13:24.73,Default,,0000,0000,0000,,Dov'eri fra le 14:00 e le 15:00
+Dialogue: 0,0:13:24.73,0:13:26.45,Default,,0000,0000,0000,,del giorno in cui è stata uccisa?
+Dialogue: 0,0:13:26.78,0:13:29.41,Default,,0000,0000,0000,,I-Io...
+Dialogue: 0,0:13:31.37,0:13:33.33,Default,,0000,0000,0000,,Dov'eri?
+Dialogue: 0,0:13:35.24,0:13:37.16,Default,,0000,0000,0000,,Io sono stato incastrato.
+Dialogue: 0,0:13:37.50,0:13:38.54,Default,,0000,0000,0000,,Incastrato?
+Dialogue: 0,0:13:39.08,0:13:41.25,Default,,0000,0000,0000,,Ho ricevuto una lettera da Kazumi...
+Dialogue: 0,0:13:42.13,0:13:43.46,Default,,0000,0000,0000,,Questa.
+Dialogue: 0,0:13:47.92,0:13:50.68,Default,,0000,0000,0000,,"Ti aspetto in casa alle 14:30".
+Dialogue: 0,0:13:50.68,0:13:51.72,Default,,0000,0000,0000,,Firmato "Kazumi".
+Dialogue: 0,0:13:52.30,0:13:54.10,Default,,0000,0000,0000,,Ma non era in casa.
+Dialogue: 0,0:13:54.10,0:13:57.68,Default,,0000,0000,0000,,Ho citofonato ma non è venuto nessuno,\N quindi sono andato via.
+Dialogue: 0,0:13:58.77,0:14:00.77,Default,,0000,0000,0000,,Difficile da credere.
+Dialogue: 0,0:14:00.77,0:14:03.52,Default,,0000,0000,0000,,Era sul luogo del delitto\N nell'ora del delitto...
+Dialogue: 0,0:14:03.98,0:14:07.69,Default,,0000,0000,0000,,E poi, una lettera come questa\N potrebbe fabbricarla chiunque.
+Dialogue: 0,0:14:07.94,0:14:09.99,Default,,0000,0000,0000,,Non sai proprio quando arrenderti, eh?
+Dialogue: 0,0:14:09.99,0:14:12.91,Default,,0000,0000,0000,,È chiaro che sei tu l'assassino!
+Dialogue: 0,0:14:12.91,0:14:14.66,Default,,0000,0000,0000,,Ispettore, portatelo in centrale.
+Dialogue: 0,0:14:14.66,0:14:17.12,Default,,0000,0000,0000,,Ha rovinato il mio incarico!
+Dialogue: 0,0:14:17.12,0:14:17.62,Default,,0000,0000,0000,,Incarico?
+Dialogue: 0,0:14:17.83,0:14:19.21,Default,,0000,0000,0000,,V-Vi sbagliate...
+Dialogue: 0,0:14:19.58,0:14:20.92,Italics,,0000,0000,0000,,Tanto per cambiare!
+Dialogue: 0,0:14:21.42,0:14:24.67,Default,,0000,0000,0000,,Hirose, andiamo in centrale.
+Dialogue: 0,0:14:25.29,0:14:26.92,Italics,,0000,0000,0000,,Scusa, Kogoro!
+Dialogue: 0,0:14:32.97,0:14:34.09,Default,,0000,0000,0000,,Tutto bene?
+Dialogue: 0,0:14:34.09,0:14:35.85,Default,,0000,0000,0000,,Sto bene, grazie.
+Dialogue: 0,0:14:36.26,0:14:38.02,Default,,0000,0000,0000,,V-Vi sbagliate, non sono stato io!
+Dialogue: 0,0:14:38.02,0:14:39.56,Default,,0000,0000,0000,,Ha ragione.
+Dialogue: 0,0:14:40.68,0:14:45.73,Default,,0000,0000,0000,,Non è lui a non sapere\N quando è il caso di arrendersi...
+Dialogue: 0,0:14:45.73,0:14:47.02,Default,,0000,0000,0000,,...ma è lei, avvocato.
+Dialogue: 0,0:14:48.32,0:14:50.49,Default,,0000,0000,0000,,Che intendi dire, Mori?
+Dialogue: 0,0:14:50.49,0:14:52.66,Default,,0000,0000,0000,,Stai dicendo \Nche è stato l'avvocato Tatsumi?
+Dialogue: 0,0:14:52.99,0:14:54.74,Default,,0000,0000,0000,,Precisamente.
+Dialogue: 0,0:14:57.41,0:15:01.41,Default,,0000,0000,0000,,Ma che assurdità sta dicendo?
+Dialogue: 0,0:15:01.41,0:15:04.63,Default,,0000,0000,0000,,Infangherà la sua reputazione\N di gran detective, Mori!
+Dialogue: 0,0:15:04.92,0:15:09.38,Default,,0000,0000,0000,,Potrei dire lo stesso per lei,\N caro signor avvocato.
+Dialogue: 0,0:15:10.76,0:15:15.70,Default,,0000,0000,0000,,Ma ammetto che è stato un bel trucco,\N ha sfruttato tutti i punti ciechi.
+Dialogue: 0,0:15:15.70,0:15:17.93,Default,,0000,0000,0000,,Me l'ha fatta sotto al naso.
+Dialogue: 0,0:15:17.93,0:15:21.64,Default,,0000,0000,0000,,Ma il luogo del ritrovamento\N non è sempre quello del delitto.
+Dialogue: 0,0:15:22.56,0:15:26.23,Default,,0000,0000,0000,,In altre parole, l'omicidio\N non è avvenuto in casa dell'avvocato,
+Dialogue: 0,0:15:26.23,0:15:28.61,Default,,0000,0000,0000,,ma proprio in quell'hotel!
+Dialogue: 0,0:15:29.65,0:15:30.30,Default,,0000,0000,0000,,Non ci credo!
+Dialogue: 0,0:15:30.30,0:15:33.24,Default,,0000,0000,0000,,M-Ma di che stai parlando?
+Dialogue: 0,0:15:33.24,0:15:34.15,Default,,0000,0000,0000,,Mori,
+Dialogue: 0,0:15:34.15,0:15:36.62,Default,,0000,0000,0000,,ricordi la telefonata \Na cui ha risposto Conan?
+Dialogue: 0,0:15:36.62,0:15:40.54,Default,,0000,0000,0000,,L'abbiamo fatta analizzare\N e sappiamo che era la voce di una donna,
+Dialogue: 0,0:15:40.54,0:15:43.25,Default,,0000,0000,0000,,più precisamente della vittima,\N la signora Kazumi!
+Dialogue: 0,0:15:43.62,0:15:46.08,Default,,0000,0000,0000,,Certo, era proprio lei.
+Dialogue: 0,0:15:46.08,0:15:50.67,Default,,0000,0000,0000,,Questo perché è stata lei a chiamare\N l'avvocato Tatsumi, e l'ha fatto
+Dialogue: 0,0:15:50.67,0:15:52.88,Default,,0000,0000,0000,,dalla stanza proprio accanto alla sua!
+Dialogue: 0,0:15:53.42,0:15:54.34,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,0:15:54.84,0:15:55.82,Default,,0000,0000,0000,,La stanza accanto?
+Dialogue: 0,0:15:55.82,0:15:58.83,Default,,0000,0000,0000,,{\fad(0,500)}Quel giorno, l'avvocato Tatsumi...
+Dialogue: 0,0:15:58.83,0:16:04.56,Default,,0000,0000,0000,,Ha lasciato sua moglie nella stanza\N che usa sempre come sala d'attesa per i clienti.
+Dialogue: 0,0:16:04.89,0:16:09.15,Default,,0000,0000,0000,,Poi ha chiamato l'hotel\N a un orario che avevano prefissato
+Dialogue: 0,0:16:09.15,0:16:11.65,Default,,0000,0000,0000,,da un telefono cellulare.
+Dialogue: 0,0:16:11.65,0:16:15.28,Default,,0000,0000,0000,,Mentre lui ha lasciato \Nche un'altra persona rispondesse al telefono.
+Dialogue: 0,0:16:16.07,0:16:17.53,Flashback,,0000,0000,0000,,Sì, pronto?
+Dialogue: 0,0:16:17.91,0:16:23.54,Default,,0000,0000,0000,,{\fad(0,640)}Nessuno di noi avrebbe immaginato\N che quella persona si trovasse lì accanto.
+Dialogue: 0,0:16:24.46,0:16:27.50,Default,,0000,0000,0000,,Dopo aver finito di parlare con me,
+Dialogue: 0,0:16:27.50,0:16:31.46,Default,,0000,0000,0000,,è andato nella stanza accanto\N e ha ucciso sua moglie.
+Dialogue: 0,0:16:31.46,0:16:34.43,Default,,0000,0000,0000,,Poi ha messo il cadavere\N in un cesto dei panni sporchi
+Dialogue: 0,0:16:35.01,0:16:39.93,Default,,0000,0000,0000,,e lo ha fatto cadere \Ngiù per il condotto della biancheria.
+Dialogue: 0,0:16:41.47,0:16:44.60,Default,,0000,0000,0000,,In quella fascia oraria,\N gli impiegati sono tutti in pausa,
+Dialogue: 0,0:16:44.93,0:16:50.11,Default,,0000,0000,0000,,{\fad(0,480)}quindi nessuno avrebbe potuto notarla,\N dico bene, avvocato Tatsumi?
+Dialogue: 0,0:16:50.94,0:16:55.90,Default,,0000,0000,0000,,Ma sul sacco contenente il cadavere,\N è stata applicata un'etichetta,
+Dialogue: 0,0:16:55.90,0:16:58.58,Default,,0000,0000,0000,,fissata con un punto di spillatrice.
+Dialogue: 0,0:16:59.07,0:17:03.24,Default,,0000,0000,0000,,È lo stesso punto di spillatrice\N ritrovato sulla scena del delitto, ispettore.
+Dialogue: 0,0:17:03.24,0:17:05.08,Default,,0000,0000,0000,,Ora che mi ci fai pensare...
+Dialogue: 0,0:17:05.33,0:17:07.54,Default,,0000,0000,0000,,Ma perché il corpo era nella vasca?
+Dialogue: 0,0:17:08.00,0:17:10.08,Default,,0000,0000,0000,,Probabilmente ha avuto quest'idea
+Dialogue: 0,0:17:10.08,0:17:16.59,Default,,0000,0000,0000,,dopo aver notato che la vasca da bagno\N aveva dimensioni simili al bagagliaio.
+Dialogue: 0,0:17:16.59,0:17:19.01,Default,,0000,0000,0000,,Il corpo ormai era in rigor mortis,
+Dialogue: 0,0:17:19.01,0:17:22.26,Default,,0000,0000,0000,,perciò non avrebbe potuto\N lasciarlo in giro per casa.
+Dialogue: 0,0:17:22.76,0:17:28.69,Default,,0000,0000,0000,,Dopodiché, ha scritto quella lettera\N a Hirose per cercare di incastrarlo,
+Dialogue: 0,0:17:29.10,0:17:33.16,Default,,0000,0000,0000,,e per sfuggire alle accuse,\N ha ben pensato di rendere me il suo alibi.
+Dialogue: 0,0:17:33.16,0:17:35.61,Default,,0000,0000,0000,,Devo dire, un ottimo piano.
+Dialogue: 0,0:17:37.61,0:17:40.66,Default,,0000,0000,0000,,Lei mi delude, detective.
+Dialogue: 0,0:17:40.66,0:17:44.74,Default,,0000,0000,0000,,Dove sono le prove concrete \Nche sia stato io a ucciderla?
+Dialogue: 0,0:17:45.16,0:17:50.08,Default,,0000,0000,0000,,Senza, non otterrete un mandato\N né tantomeno si arriverà a un processo.
+Dialogue: 0,0:17:50.09,0:17:51.92,Default,,0000,0000,0000,,Ha ragione, Mori.
+Dialogue: 0,0:17:52.13,0:17:53.63,Default,,0000,0000,0000,,Le ho, le prove.
+Dialogue: 0,0:17:54.17,0:17:58.38,Default,,0000,0000,0000,,Ispettore, c'è qualcosa \Nche vorrei esibire come prova.
+Dialogue: 0,0:18:00.88,0:18:03.60,Default,,0000,0000,0000,,La cassetta di quella telefonata?
+Dialogue: 0,0:18:03.60,0:18:05.39,Default,,0000,0000,0000,,Parli di questa, giusto, Mori?
+Dialogue: 0,0:18:05.76,0:18:08.18,Default,,0000,0000,0000,,La cassetta della chiamata con mia moglie?
+Dialogue: 0,0:18:08.18,0:18:09.35,Default,,0000,0000,0000,,E cosa proverebbe?
+Dialogue: 0,0:18:09.35,0:18:11.60,Default,,0000,0000,0000,,Avvia la riproduzione.
+Dialogue: 0,0:18:12.19,0:18:13.98,Italics,,0000,0000,0000,,Sì, pronto?
+Dialogue: 0,0:18:13.98,0:18:15.94,Italics,,0000,0000,0000,,Ah, non sei tu, caro?
+Dialogue: 0,0:18:15.94,0:18:17.95,Italics,,0000,0000,0000,,Mi scusi, con chi parlo?
+Dialogue: 0,0:18:18.44,0:18:22.41,Italics,,0000,0000,0000,,Come con chi parli? Sono la moglie\N del signor Tatsumi, è ovvio.
+Dialogue: 0,0:18:22.41,0:18:23.87,Default,,0000,0000,0000,,M-Ma cos'è?!
+Dialogue: 0,0:18:23.87,0:18:24.91,Default,,0000,0000,0000,,Un carillon?
+Dialogue: 0,0:18:24.91,0:18:26.20,Default,,0000,0000,0000,,Shh! Silenzio.
+Dialogue: 0,0:18:26.20,0:18:27.25,Italics,,0000,0000,0000,,Ah, accidenti.
+Dialogue: 0,0:18:30.75,0:18:31.87,Italics,,0000,0000,0000,,Pronto, giovanotto?
+Dialogue: 0,0:18:31.87,0:18:33.54,Italics,,0000,0000,0000,,Mi passeresti mio marito?
+Dialogue: 0,0:18:33.54,0:18:35.75,Italics,,0000,0000,0000,,Sì, aspetti un secondo...
+Dialogue: 0,0:18:35.75,0:18:37.21,Default,,0000,0000,0000,,E questo è quanto.
+Dialogue: 0,0:18:38.88,0:18:40.88,Default,,0000,0000,0000,,Ora è chiaro?
+Dialogue: 0,0:18:40.88,0:18:46.26,Default,,0000,0000,0000,,Quell'hotel usa dei carillon\N al posto delle sveglie tradizionali.
+Dialogue: 0,0:18:46.26,0:18:49.18,Default,,0000,0000,0000,,In altre parole, sua moglie\N aveva impostato l'allarme
+Dialogue: 0,0:18:49.18,0:18:52.73,Default,,0000,0000,0000,,ma si era scordata di disattivarlo\N durante la chiamata.
+Dialogue: 0,0:18:53.44,0:18:56.94,Default,,0000,0000,0000,,Mi scusi, ma carillon come questi\N si possono trovare ovunque.
+Dialogue: 0,0:18:56.94,0:18:58.91,Default,,0000,0000,0000,,Non è sufficiente come prova.
+Dialogue: 0,0:18:58.91,0:18:59.99,Default,,0000,0000,0000,,Ispettore.
+Dialogue: 0,0:18:59.99,0:19:02.11,Default,,0000,0000,0000,,C'erano carillon sulla scena del delitto?
+Dialogue: 0,0:19:02.11,0:19:04.16,Default,,0000,0000,0000,,No, nessuno.
+Dialogue: 0,0:19:04.70,0:19:09.62,Default,,0000,0000,0000,,L'assassino potrebbe averlo portato via\N dopo l'omicidio.
+Dialogue: 0,0:19:09.62,0:19:11.21,Default,,0000,0000,0000,,Improbabile.
+Dialogue: 0,0:19:11.83,0:19:13.50,Default,,0000,0000,0000,,E perché mai?
+Dialogue: 0,0:19:13.50,0:19:15.67,Default,,0000,0000,0000,,Conan, la cassetta.
+Dialogue: 0,0:19:15.67,0:19:17.13,Default,,0000,0000,0000,,Subito!
+Dialogue: 0,0:19:17.84,0:19:18.38,Default,,0000,0000,0000,,Ecco.
+Dialogue: 0,0:19:18.80,0:19:24.18,Default,,0000,0000,0000,,Qui c'è la registrazione del carillon\N della stanza accanto a quella dell'avvocato.
+Dialogue: 0,0:19:27.01,0:19:29.35,Default,,0000,0000,0000,,Ora, ascoltate bene.
+Dialogue: 0,0:19:36.40,0:19:37.48,Default,,0000,0000,0000,,I-Impossibile!
+Dialogue: 0,0:19:38.07,0:19:40.45,Default,,0000,0000,0000,,Manca una nota!
+Dialogue: 0,0:19:40.45,0:19:44.40,Default,,0000,0000,0000,,Esatto, il carillon della stanza accanto
+Dialogue: 0,0:19:44.40,0:19:51.37,Default,,0000,0000,0000,,probabilmente ha una puntina in meno\N o una lamella spezzata.
+Dialogue: 0,0:19:51.70,0:19:57.33,Default,,0000,0000,0000,,In altre parole, si tratta di un carillon\N unico al mondo, avvocato Tatsumi!
+Dialogue: 0,0:19:58.42,0:20:02.80,Default,,0000,0000,0000,,Che dice, riascoltiamo per conferma\N la telefonata di prima?
+Dialogue: 0,0:20:03.55,0:20:05.39,Default,,0000,0000,0000,,Sarebbe uno spreco di tempo.
+Dialogue: 0,0:20:08.68,0:20:12.56,Default,,0000,0000,0000,,Pensate voi, un avvocato\N ricattato dalla propria moglie...
+Dialogue: 0,0:20:13.02,0:20:15.56,Default,,0000,0000,0000,,Ricattato? Da sua moglie?
+Dialogue: 0,0:20:15.56,0:20:17.85,Default,,0000,0000,0000,,Pretendeva 200 milioni di yen.
+Dialogue: 0,0:20:17.85,0:20:19.06,Default,,0000,0000,0000,,200 milioni?!
+Dialogue: 0,0:20:19.82,0:20:24.32,Default,,0000,0000,0000,,Ci sono voluti molti sforzi\N per raggiungere la posizione che ho oggi.
+Dialogue: 0,0:20:24.32,0:20:30.74,Default,,0000,0000,0000,,Ma per via del lavoro, ho avuto modo\N di conoscere i segreti di molte aziende.
+Dialogue: 0,0:20:31.12,0:20:33.04,Default,,0000,0000,0000,,Senza che li abbia mai richiesti,
+Dialogue: 0,0:20:33.04,0:20:36.37,Default,,0000,0000,0000,,mi sono arrivati dei soldi extra\N nella mia paga da consulente.
+Dialogue: 0,0:20:36.37,0:20:39.96,Default,,0000,0000,0000,,Senza girarci troppo attorno,\N c'era anche del denaro sporco.
+Dialogue: 0,0:20:39.96,0:20:42.28,Default,,0000,0000,0000,,Kazumi se n'era accorta.
+Dialogue: 0,0:20:42.28,0:20:44.55,Flashback,,0000,0000,0000,,Tu dammi il guadagno extra di un anno,
+Dialogue: 0,0:20:44.55,0:20:47.09,Flashback,,0000,0000,0000,,ossia 200 milioni, e io non dirò niente.
+Dialogue: 0,0:20:47.09,0:20:49.47,Flashback,,0000,0000,0000,,Puoi versarmeli\N come compenso per il divorzio.
+Dialogue: 0,0:20:49.47,0:20:53.18,Flashback,,0000,0000,0000,,Non è una grande somma,\N considerando che ne va della tua posizione.
+Dialogue: 0,0:20:53.56,0:20:58.31,Default,,0000,0000,0000,,Ma poi ha cominciato anche\N a uscire con quell'ingegnere...
+Dialogue: 0,0:20:58.31,0:21:00.15,Default,,0000,0000,0000,,E ho capito di non poterla perdonare.
+Dialogue: 0,0:21:00.81,0:21:04.03,Default,,0000,0000,0000,,"Farò come vuoi, ma a una condizione:
+Dialogue: 0,0:21:04.03,0:21:08.41,Default,,0000,0000,0000,,chiamami a questo orario stabilito,\N altrimenti non ti pagherò".
+Dialogue: 0,0:21:08.41,0:21:11.99,Default,,0000,0000,0000,,Ha accettato senza porsi domande.
+Dialogue: 0,0:21:11.99,0:21:14.54,Default,,0000,0000,0000,,Avrebbe ottenuto 200 milioni e il suo uomo.
+Dialogue: 0,0:21:14.54,0:21:15.87,Default,,0000,0000,0000,,Ovvio che lo avrebbe fatto.
+Dialogue: 0,0:21:16.41,0:21:19.92,Default,,0000,0000,0000,,Ma non avresti dovuto farla chiamare.
+Dialogue: 0,0:21:19.92,0:21:22.00,Default,,0000,0000,0000,,La registrazione era automatica,
+Dialogue: 0,0:21:22.00,0:21:25.09,Default,,0000,0000,0000,,ma avresti dovuto riascoltarla\N prima di darla alla polizia.
+Dialogue: 0,0:21:25.46,0:21:30.30,Default,,0000,0000,0000,,Questo trucco per il delitto perfetto,\N si è trasformato nella prova incriminante.
+Dialogue: 0,0:21:31.85,0:21:35.14,Default,,0000,0000,0000,,Era una scommessa con me stesso.
+Dialogue: 0,0:21:35.14,0:21:39.77,Default,,0000,0000,0000,,Per quanto un avvocato sia bravo,\N il momento della verità è una scommessa.
+Dialogue: 0,0:21:40.65,0:21:44.73,Default,,0000,0000,0000,,Fino ad oggi,\N non avevo mai perso queste scommesse.
+Dialogue: 0,0:21:45.19,0:21:49.99,Default,,0000,0000,0000,,Forse sarà un ottimo avvocato,\N ma non è stato un ottimo criminale.
+Dialogue: 0,0:21:49.99,0:21:52.20,Default,,0000,0000,0000,,È questa la verità, signor avvocato.
+Dialogue: 0,0:23:38.85,0:23:39.72,Default,,0000,0000,0000,,Ispettore!
+Dialogue: 0,0:23:40.06,0:23:42.06,Default,,0000,0000,0000,,Ottimo lavoro, Mori.
+Dialogue: 0,0:23:42.06,0:23:44.31,Default,,0000,0000,0000,,L'hai preso nonostante ti abbia ingannato.
+Dialogue: 0,0:23:44.31,0:23:46.19,Default,,0000,0000,0000,,Spero di lavorare di nuovo con te.
+Dialogue: 0,0:23:46.19,0:23:48.32,Default,,0000,0000,0000,,Ah, certo, vale anche per me...
+Dialogue: 0,0:23:48.32,0:23:50.94,Default,,0000,0000,0000,,Ingannato? Io? Da chi?
+Dialogue: 0,0:23:51.07,0:23:52.74,Default,,0000,0000,0000,,Mah, vabbè!
+Dialogue: 0,0:23:52.74,0:23:54.11,Italics,,0000,0000,0000,,Quanta pazienza...
+Dialogue: 0,0:23:54.11,0:23:57.32,Italics,,0000,0000,0000,,Così la sua reputazione\N non farà altro che migliorare...
+Dialogue: 0,0:24:01.37,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs23\b0\c&HCCEEEC&\fnArial\pos(265.97,282.8)}Fra poco l'indizio del prossimo caso
+Dialogue: 1,0:24:01.37,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs23\b0\c&HFFFFFF&\fnArial\pos(265.97,282.8)}Fra poco l'indizio del prossimo caso
+Dialogue: 0,0:24:01.37,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HCCEEEC&\fnArial\pos(160.442,94.133)}Anteprima
+Dialogue: 1,0:24:01.37,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HFFFFFF&\fnArial\pos(160.442,94.133)}Anteprima
+Dialogue: 0,0:24:03.75,0:24:05.79,Default,,0000,0000,0000,,{\pos(264,352)}L'assassino è sicuramente Matsuo!
+Dialogue: 0,0:24:06.17,0:24:09.09,Default,,0000,0000,0000,,{\pos(264,352)}Ma com'è andato dallo studio a lì
+Dialogue: 0,0:24:09.09,0:24:10.01,Default,,0000,0000,0000,,{\pos(264,352)}in soli 4 minuti?
+Dialogue: 0,0:24:10.84,0:24:14.93,Default,,0000,0000,0000,,{\pos(264,352)}Ma certo! Ho trovato il passaggio segreto!
+Dialogue: 0,0:24:15.43,0:24:19.06,Default,,0000,0000,0000,,{\pos(264,352)}Sto per iniziare il mio show investigativo
+Dialogue: 0,0:24:19.06,0:24:21.52,Default,,0000,0000,0000,,{\pos(264,352)}e non vorrei che te ne andassi proprio ora.
+Dialogue: 0,0:24:22.06,0:24:24.44,Default,,0000,0000,0000,,{\pos(264,352)}Il ruolo dell'assassino è tuo, Matsuo Takashi!
+Dialogue: 0,0:24:25.44,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\blur1\bord0.1\c&HEAF4F8&\fs19\pos(261.2,116.444)}Il caso dell'omicidio nello studio televisivo
+Dialogue: 0,0:24:26.27,0:24:27.90,Italics,,0000,0000,0000,,Nel prossimo episodio di Conan...
+Dialogue: 0,0:24:27.90,0:24:30.69,Italics,,0000,0000,0000,,"Il caso dell'omicidio nello studio televisivo".
+Dialogue: 0,0:24:47.05,0:24:49.78,Default,,0000,0000,0000,,Prossimo indizio per Conan:
+Dialogue: 0,0:24:49.78,0:24:50.98,Default,,0000,0000,0000,,Finestra.
+Dialogue: 0,0:24:51.48,0:24:56.81,Cartello BASE,,0000,0000,0000,,{\blur0.6\pos(264.58,272.8)}Non perdetevi il prossimo episodio
+Dialogue: 1,0:24:51.48,0:24:56.81,Cartello BASE,,0000,0000,0000,,{\blur0\c&HDFDFDF&\pos(264.58,272.8)}Non perdetevi il prossimo episodio
+Dialogue: 0,0:24:52.00,0:24:53.97,Default,,0000,0000,0000,,Nel prossimo episodio ci sarà una nuova opening!
+Dialogue: 0,0:24:53.97,0:24:56.60,Default,,0000,0000,0000,,Davvero? Che figata! Non vedo l'ora!

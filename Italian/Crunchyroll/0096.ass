@@ -1,0 +1,1654 @@
+[Script Info]
+Title: Italiano
+Original Script: cr_it  [http://www.crunchyroll.com/user/cr_it]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Default - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Flashback - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Flashback Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Flashback Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Cartello BASE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0010,0010,0010,1
+Style: Titolo episodio,Verdana,25,&H00D0B193,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,180,0,0,1,0,0,2,0010,0010,0010,1
+Style: Non perdetevi il prossimo episodio v2,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,75,130,0,0,1,0,0,2,0010,0010,0010,1
+Style: Cartello BASE -X-,Arial,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,75,100,0,0,1,0,0,2,0010,0010,0010,1
+Style: Cartello BASE -X2,Arial,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,60,160,0,0,1,0,0,2,0010,0010,0010,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 1,0:00:00.00,0:00:14.99,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs26\pos(443.141,143.497)\b0\c&H3A7CD6&}Speciale{\i1}!
+Dialogue: 0,0:00:00.00,0:00:14.99,Cartello BASE,,0000,0000,0000,,{\bord2\blur0.7\fs26\pos(443.141,143.497)\b0\c&H4385E0&\3c&HD5DAE2&}Speciale{\i1}!
+Dialogue: 0,0:00:02.24,0:00:04.13,Italics,,0000,0000,0000,,La lancetta dei secondi, \Nuna stella luminosa!
+Dialogue: 0,0:00:04.13,0:00:07.10,Italics,,0000,0000,0000,,Le deduzioni di Conan sono la medicina\N per chi è stanco dalla società moderna!
+Dialogue: 0,0:00:07.10,0:00:08.03,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\pos(378.711,278.679)\p1\c&HB8B39F&}m -161 27 l 143 -79 169 -26 -168 71
+Dialogue: 1,0:00:07.10,0:00:08.03,Cartello BASE,,0000,0000,0000,,{\fs26\fnComic Sans MS\pos(378.711,278.679)\blur0.5\c&H282312&\frz19.29}Con Shinichi allo spettacolo di magia...
+Dialogue: 9,0:00:07.50,0:00:10.99,Italics,,0000,0000,0000,,Oggi è il primo episodio speciale da due ore! \NProva anche tu a risolvere i due casi!
+Dialogue: 0,0:00:10.99,0:00:12.64,Italics,,0000,0000,0000,,Riesce a discernere l'unica verità,
+Dialogue: 0,0:00:12.64,0:00:14.51,Italics,,0000,0000,0000,,è un bambino, \Nma ha la mente di un adulto!
+Dialogue: 0,0:00:14.51,0:00:16.88,Italics,,0000,0000,0000,,Il suo nome? Detective Conan!
+Dialogue: 1,0:01:28.64,0:01:35.02,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs46\b0\c&H3A7CD6&\clip(81.26,0,561.112,360)\move(629.981,102.574,306.719,102.574,31,699)}Speciale{\i1}!
+Dialogue: 0,0:01:28.64,0:01:35.02,Cartello BASE,,0000,0000,0000,,{\bord3\blur1\fs46\b0\c&H4385E0&\3c&HD5DAE2&\clip(81.26,0,561.112,360)\move(629.981,102.574,306.719,102.574,31,699)}Speciale{\i1}!
+Dialogue: 1,0:01:45.94,0:01:52.04,Titolo episodio,,0000,0000,0000,,{\fad(1000,0)\blur0.5\c&HD8DCD9&\pos(238.574,85.752)}Detective alle strette!
+Dialogue: 0,0:01:45.94,0:01:52.04,Titolo episodio,,0000,0000,0000,,{\fad(1000,0)\blur6\bord0.2\3c&HC5CFA0&\c&HE5EBED&\pos(238.574,85.752)\3a&H78&}Detective alle strette!
+Dialogue: 1,0:01:45.94,0:01:52.04,Titolo episodio,,0000,0000,0000,,{\fad(1000,0)\blur0.5\c&HD8DCD9&\pos(341.44,283.135)}Due grandi casi uno dietro l'altro
+Dialogue: 0,0:01:45.94,0:01:52.04,Titolo episodio,,0000,0000,0000,,{\fad(1000,0)\blur6\bord0.2\c&HE5EBED&\3c&HC5CFA0&\3a&H9D&\pos(341.44,283.135)}Due grandi casi uno dietro l'altro
+Dialogue: 0,0:01:47.07,0:01:51.20,Italics,,0000,0000,0000,,{\pos(320,345.125)}"Detective alle strette!\NDue grandi casi uno dietro l'altro".
+Dialogue: 0,0:01:52.70,0:01:56.55,Cartello BASE,,0000,0000,0000,,{\fad(350,0)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H71330B&\1a&H84&\pos(320.106,256.828)}m -70 -31 l 68 -31 68 7 -70 7
+Dialogue: 1,0:01:52.70,0:01:56.55,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,0)\fs23\shad0\bord0\fnTrebuchet MS\pos(320.106,256.828)}Casa di Agasa
+Dialogue: 0,0:01:53.57,0:01:56.55,Italics - Alt,,0000,0000,0000,,Insomma! Ascoltami un po', Shin!
+Dialogue: 0,0:01:56.55,0:01:59.64,Default,,0000,0000,0000,,Sì, sì. Sono qui, mamma.
+Dialogue: 0,0:01:59.64,0:02:03.85,Default,,0000,0000,0000,,Quello stupido di Yusaku\N è tornato all'alba anche oggi
+Dialogue: 0,0:02:03.85,0:02:05.64,Default - Alt,,0000,0000,0000,,ed è totalmente ubriaco!
+Dialogue: 0,0:02:03.88,0:02:07.60,Cartello BASE,,0000,0000,0000,,{\fad(350,0)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H732E15&\1a&H75&\pos(482.307,304.092)}m -73 -42 l 71 -42 71 9 -73 9
+Dialogue: 1,0:02:03.88,0:02:07.60,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,0)\fs23\shad0\bord0\fnTrebuchet MS\pos(482.307,304.092)}Yukiko Kudo\N {\fs12}Mamma di Shinichi (Attrice)
+Dialogue: 0,0:02:05.64,0:02:07.60,Default - Alt,,0000,0000,0000,,Ah, mi fa proprio incavolare!
+Dialogue: 0,0:02:07.90,0:02:11.86,Default,,0000,0000,0000,,Devi farci l'abitudine. \NLo sai che papà è un famoso scrittore,
+Dialogue: 0,0:02:12.11,0:02:14.11,Italics,,0000,0000,0000,,quindi è normale che lo invitino a uscire.
+Dialogue: 0,0:02:14.11,0:02:17.95,Default,,0000,0000,0000,,E allora come me la spieghi \Nl'impronta di un bacio sulla camicia?!
+Dialogue: 0,0:02:17.95,0:02:21.32,Default - Alt,,0000,0000,0000,,Oh, che rabbia!\N Quasi, quasi lo tradisco anche io!
+Dialogue: 0,0:02:18.20,0:02:21.32,Cartello BASE,,0000,0000,0000,,{\fad(350,0)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H8D532F&\1a&H79&\pos(482.307,296.975)}m -67 -56 l 64 -56 64 7 -67 7
+Dialogue: 1,0:02:18.20,0:02:21.32,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,0)\fs23\shad0\bord0\fnTrebuchet MS\pos(482.307,296.975)}Yusaku Kudo\N {\fs12}Scrittore di gialli \Ndi fama mondiale
+Dialogue: 0,0:02:21.62,0:02:23.95,Default,,0000,0000,0000,,Ehi, datti una calmata!
+Dialogue: 0,0:02:23.95,0:02:25.91,Default,,0000,0000,0000,,Ah, scusa ma ora ho da fare.
+Dialogue: 0,0:02:25.91,0:02:26.87,Italics,,0000,0000,0000,,Aspetta, Shinichi!
+Dialogue: 0,0:02:28.83,0:02:32.42,Default,,0000,0000,0000,,Che succede? \NEra Yukiko al telefono, giusto?
+Dialogue: 0,0:02:32.42,0:02:35.42,Default,,0000,0000,0000,,Si stava lamentando con me\N dei suoi problemi coniugali.
+Dialogue: 0,0:02:35.42,0:02:38.59,Default,,0000,0000,0000,,Papà è tornato a casa ubriaco\N e lei è convinta che la tradisca...
+Dialogue: 0,0:02:38.59,0:02:40.34,Default,,0000,0000,0000,,L-La tradisce?!
+Dialogue: 0,0:02:40.55,0:02:42.68,Default,,0000,0000,0000,,Ha solo frainteso tutto.
+Dialogue: 0,0:02:42.68,0:02:45.61,Default,,0000,0000,0000,,Un uomo che pensa tutto il giorno\N a come risolvere misteri,
+Dialogue: 0,0:02:45.61,0:02:47.60,Default,,0000,0000,0000,,non sarebbe capace \Ndi fare una cosa del genere.
+Dialogue: 0,0:02:47.60,0:02:52.35,Default,,0000,0000,0000,,E poi, i loro litigi sono all'ordine del giorno.\N Non c'è nulla di cui preoccuparsi.
+Dialogue: 0,0:02:52.69,0:02:56.78,Default,,0000,0000,0000,,Già. L’amore non è bello\N se non è litigarello, però...
+Dialogue: 0,0:02:56.78,0:02:59.44,Default,,0000,0000,0000,,Piuttosto, a te come sta andando?
+Dialogue: 0,0:02:59.70,0:03:01.20,Default,,0000,0000,0000,,A me?
+Dialogue: 0,0:03:01.45,0:03:04.32,Default,,0000,0000,0000,,E dai, intendo con Ran!\N Va tutto bene tra voi?
+Dialogue: 0,0:03:05.37,0:03:10.16,Default,,0000,0000,0000,,Ogni volta che le telefono si arrabbia \Ne non fa altro che chiedermi quando torno.
+Dialogue: 0,0:03:10.16,0:03:14.50,Default,,0000,0000,0000,,E pensare che in realtà ci vediamo\N ogni santo giorno fino alla nausea.
+Dialogue: 0,0:03:18.26,0:03:19.63,Default,,0000,0000,0000,,Su, non fare così.
+Dialogue: 0,0:03:19.63,0:03:24.68,Default,,0000,0000,0000,,Perché non la smetti con i casi \Ne la porti da qualche parte?
+Dialogue: 0,0:03:24.68,0:03:27.35,Default,,0000,0000,0000,,L'autunno è la stagione dell'amore!
+Dialogue: 0,0:03:27.81,0:03:29.73,Default,,0000,0000,0000,,La stagione dell'amore, eh...
+Dialogue: 0,0:03:30.81,0:03:34.81,Cartello BASE,,0000,0000,0000,,{\an7\blur0.4\bord1\shad0\fscx100\fscy100\pos(190.005,37.025)\p1\c&H4D4D49&\3c&HA7C9D7&}m -103 -27 l 105 -27 105 8 -103 8
+Dialogue: 1,0:03:30.81,0:03:34.81,Cartello BASE,,0000,0000,0000,,{\fs17\blur0.5\b1\c&HD3D1DF&\pos(190.005,37.025)}A{*\c&HD4D2E0&}g{*\c&HD6D3E1&}e{*\c&HD7D4E2&}n{*\c&HD8D5E3&}z{*\c&HDAD6E4&}i{*\c&HDBD7E5&}a {*\c&HDDDAE7&}i{*\c&HDFDBE8&}n{*\c&HE0DCE9&}v{*\c&HE1DDEA&}e{*\c&HE3DEEB&}s{*\c&HE4DFEC&}t{*\c&HE5E0EE&}i{*\c&HE7E1EF&}g{*\c&HE8E2F0&}a{*\c&HE9E3F1&}t{*\c&HEBE4F2&}i{*\c&HECE5F3&}v{*\c&HEDE7F4&}a {*\c&HF0E9F6&}M{*\c&HF1EAF7&}o{*\c&HF2EBF8&}r{*\c&HF4ECF9&}i{\c&HF5EDFA&}
+Dialogue: 0,0:03:36.32,0:03:37.68,Default,,0000,0000,0000,,Sono tornato!
+Dialogue: 0,0:03:37.07,0:03:38.32,Default - Alt,,0000,0000,0000,,Imbecille!
+Dialogue: 0,0:03:38.32,0:03:39.90,Default,,0000,0000,0000,,Pensa agli affari tuoi!
+Dialogue: 0,0:03:39.90,0:03:42.24,Default - Alt,,0000,0000,0000,,Cos'è questo tono, eh?
+Dialogue: 0,0:03:40.45,0:03:45.20,Cartello BASE,,0000,0000,0000,,{\fad(350,0)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H7D3E2B&\1a&H6F&\pos(478.023,315.383)}m -71 -41 l 72 -41 72 13 -71 13
+Dialogue: 1,0:03:40.45,0:03:45.20,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,0)\fs23\shad0\bord0\fnTrebuchet MS\pos(478.993,317.324)}Eri Kisaki \N {\fs12}Madre di Ran (Avvocatessa)
+Dialogue: 0,0:03:42.24,0:03:45.20,Default - Alt,,0000,0000,0000,,Dovresti ringraziarmi \Nper averti trovato una cliente.
+Dialogue: 0,0:03:46.24,0:03:48.70,Default,,0000,0000,0000,,Non ho bisogno del tuo aiuto!
+Dialogue: 0,0:03:48.99,0:03:51.08,Default,,0000,0000,0000,,E allora fa' come credi.
+Dialogue: 0,0:03:51.08,0:03:56.46,Default,,0000,0000,0000,,Ma poi non venire a piangere da me \Nse ti ritrovi senza incarichi, grande detective.
+Dialogue: 0,0:03:56.46,0:04:01.10,Default,,0000,0000,0000,,Sì, certo! Grazie \Ndella premura, grande avvocatessa!
+Dialogue: 0,0:04:03.76,0:04:05.80,Italics,,0000,0000,0000,,Vedo che anche qui ci sono liti coniugali.
+Dialogue: 0,0:04:06.30,0:04:08.51,Italics,,0000,0000,0000,,Altro che stagione dell'amore...
+Dialogue: 0,0:04:11.64,0:04:14.00,Italics,,0000,0000,0000,,L'autunno è la stagione della fame.
+Dialogue: 0,0:04:14.81,0:04:18.40,Italics,,0000,0000,0000,,Ran, sbrigati a tornare a casa. Ho fame!
+Dialogue: 0,0:04:19.57,0:04:22.07,Cartello BASE,,0000,0000,0000,,{\an7\blur0.4\bord1\shad0\fscx100\fscy100\p1\c&H96BCC1&\3c&H2A414B&\pos(450.091,35.369)}m -103 -27 l 105 -27 105 8 -103 8
+Dialogue: 1,0:04:19.57,0:04:22.07,Cartello BASE,,0000,0000,0000,,{\fs17\blur0.5\b1\c&H1D3940&\pos(450.091,35.369)}A{*\c&H203C43&}g{*\c&H233F46&}e{*\c&H264249&}n{*\c&H29454C&}z{*\c&H2C474F&}i{*\c&H2F4A52&}a {*\c&H355058&}i{*\c&H38535B&}n{*\c&H3B565E&}v{*\c&H3E5961&}e{*\c&H415C64&}s{*\c&H445E66&}t{*\c&H476169&}i{*\c&H4A646C&}g{*\c&H4D676F&}a{*\c&H506A72&}t{*\c&H536D75&}i{*\c&H567078&}v{*\c&H59737B&}a {*\c&H5F7881&}M{*\c&H627B84&}o{*\c&H657E87&}r{*\c&H68818A&}i{\c&H6B848D&}
+Dialogue: 0,0:04:20.61,0:04:22.07,Default,,0000,0000,0000,,Sono a casa!
+Dialogue: 0,0:04:22.28,0:04:23.11,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:04:23.11,0:04:24.15,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:04:24.82,0:04:27.95,Default,,0000,0000,0000,,Che c'è? Cerchi Conan? \NSta dormendo sul divano.
+Dialogue: 0,0:04:27.95,0:04:29.03,Default,,0000,0000,0000,,Hai ragione.
+Dialogue: 0,0:04:30.04,0:04:33.04,Default,,0000,0000,0000,,Insomma! Ma guarda un po'\N dove si è appisolato!
+Dialogue: 0,0:04:35.00,0:04:36.04,Default,,0000,0000,0000,,Ho fame...
+Dialogue: 0,0:04:36.38,0:04:38.88,Default,,0000,0000,0000,,Sì, sì! Ora ti preparo qualcosa da mangiare!
+Dialogue: 0,0:04:38.88,0:04:42.01,Default,,0000,0000,0000,,Però, almeno quando dormi \Npuoi toglierteli gli occhiali!
+Dialogue: 0,0:04:44.63,0:04:48.19,Italics,,0000,0000,0000,,Questo volto... in passato \Nl'ho già visto da qualche parte...
+Dialogue: 0,0:04:56.81,0:04:59.11,Default,,0000,0000,0000,,Bentornata, Ran.
+Dialogue: 0,0:04:59.11,0:05:02.94,Default,,0000,0000,0000,,Eh?! Ridammi subito i miei occhiali!
+Dialogue: 0,0:05:04.49,0:05:07.32,Default,,0000,0000,0000,,Ora che ci penso, \Nli indossi ovunque, Conan.
+Dialogue: 0,0:05:07.32,0:05:10.70,Default,,0000,0000,0000,,Perfino quando dormi \Ne fai il bagno. Come mai?
+Dialogue: 0,0:05:10.70,0:05:14.71,Default,,0000,0000,0000,,N-Non è ovvio? Ci vedo male.
+Dialogue: 0,0:05:15.12,0:05:19.71,Default,,0000,0000,0000,,E-E poi, m-mi innervosisco senza.\N Non posso proprio farne a meno!
+Dialogue: 0,0:05:22.05,0:05:23.96,Default,,0000,0000,0000,,Scusate, è permesso?
+Dialogue: 0,0:05:24.59,0:05:27.72,Default,,0000,0000,0000,,Questa è l'agenzia investigativa Mori, giusto?
+Dialogue: 0,0:05:28.14,0:05:29.97,Default,,0000,0000,0000,,S-Sì!
+Dialogue: 0,0:05:29.97,0:05:36.02,Default,,0000,0000,0000,,Capisco. Quindi è lei la cliente\N che mi ha mandato quella là.
+Dialogue: 0,0:05:36.02,0:05:36.85,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:05:36.85,0:05:37.73,Default,,0000,0000,0000,,"Quella là"?
+Dialogue: 0,0:05:37.73,0:05:42.23,Default,,0000,0000,0000,,Eri Kisaki, tua madre. \NGiusto, Kogoro?
+Dialogue: 0,0:05:42.61,0:05:46.53,Default,,0000,0000,0000,,Eh? Non ci credo! \NLa mamma ti ha chiesto aiuto?!
+Dialogue: 0,0:05:46.53,0:05:49.70,Default,,0000,0000,0000,,Ah! Ma allora avete ricominciato a parlarvi!
+Dialogue: 0,0:05:49.70,0:05:52.11,Default,,0000,0000,0000,,Quindi tra un po' potreste ritornare insieme!
+Dialogue: 0,0:05:53.45,0:05:54.87,Default,,0000,0000,0000,,Ti ho scoperta, Ran.
+Dialogue: 0,0:05:56.33,0:06:00.63,Default,,0000,0000,0000,,Mi era sembrato strano che mi telefonasse.
+Dialogue: 0,0:06:00.63,0:06:04.88,Default,,0000,0000,0000,,I bambini non dovrebbero impicciarsi\N negli affari degli adulti!
+Dialogue: 0,0:06:04.88,0:06:09.97,Default,,0000,0000,0000,,Non ho fatto nulla di male, no?! \NVoglio solo che la mamma torni a casa presto!
+Dialogue: 0,0:06:11.14,0:06:12.97,Italics,,0000,0000,0000,,Secondo me, è meglio se rinunci.
+Dialogue: 0,0:06:13.31,0:06:16.22,Default,,0000,0000,0000,,Allora, cosa la porta qui?
+Dialogue: 0,0:06:16.73,0:06:17.93,Default - Alt,,0000,0000,0000,,Ecco...
+Dialogue: 0,0:06:16.76,0:06:22.44,Cartello BASE,,0000,0000,0000,,{\fad(550,0)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H815B48&\1a&H68&\pos(318.519,242.093)}m -102 -26 l 100 -26 100 3 -102 3
+Dialogue: 1,0:06:16.76,0:06:22.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(550,0)\fs24\shad0\bord0\fnTrebuchet MS\pos(318.519,242.093)}Nanae Tsukumo (42)
+Dialogue: 0,0:06:17.93,0:06:20.56,Default - Alt,,0000,0000,0000,,Ho dei dubbi sulla morte di mio marito
+Dialogue: 0,0:06:20.56,0:06:22.44,Default - Alt,,0000,0000,0000,,avvenuta una settimana fa...
+Dialogue: 0,0:06:22.69,0:06:25.69,Default,,0000,0000,0000,,La sua morte? È stato forse ucciso?
+Dialogue: 0,0:06:26.15,0:06:29.15,Default,,0000,0000,0000,,No, credo che si sia suicidato...
+Dialogue: 0,0:06:29.65,0:06:30.99,Default,,0000,0000,0000,,Crede?
+Dialogue: 0,0:06:30.99,0:06:31.91,Default,,0000,0000,0000,,Esatto.
+Dialogue: 0,0:06:32.66,0:06:38.01,Default,,0000,0000,0000,,Quel giorno di una settimana fa,\N ero uscita lasciandolo da solo a casa.
+Dialogue: 0,0:06:38.75,0:06:42.96,Default,,0000,0000,0000,,E quando sono rientrata, \Nnon riuscivo a trovarlo da nessuna parte.
+Dialogue: 0,0:06:42.96,0:06:46.84,Default,,0000,0000,0000,,Quindi, preoccupata, ho controllato \Nnel suo seminterrato...
+Dialogue: 0,0:06:49.22,0:06:52.58,Default,,0000,0000,0000,,e l'ho trovato lì, \Normai freddo e disteso sul pavimento!
+Dialogue: 0,0:06:54.26,0:06:55.76,Default,,0000,0000,0000,,È morto ingoiando del veleno...
+Dialogue: 0,0:06:55.97,0:06:57.89,Default,,0000,0000,0000,,Di che tipo?
+Dialogue: 0,0:06:57.89,0:07:01.56,Default,,0000,0000,0000,,I poliziotti lo hanno chiamato "aconitina".
+Dialogue: 0,0:07:01.56,0:07:02.82,Default,,0000,0000,0000,,Aconitina?
+Dialogue: 0,0:07:03.56,0:07:05.77,Default,,0000,0000,0000,,Se non sbaglio, è...
+Dialogue: 0,0:07:06.32,0:07:09.44,Default,,0000,0000,0000,,Un tipo di veleno \Nche blocca il sistema nervoso.
+Dialogue: 0,0:07:09.86,0:07:12.99,Default,,0000,0000,0000,,Si trova nelle radici\Ne nelle foglie dell'aconito.
+Dialogue: 0,0:07:12.99,0:07:15.08,Default,,0000,0000,0000,,Anche due milligrammi sono letali.
+Dialogue: 0,0:07:15.08,0:07:19.45,Default,,0000,0000,0000,,È un potente veleno che,\Nuna volta ingerito, uccide in pochi minuti.
+Dialogue: 0,0:07:19.83,0:07:21.75,Default,,0000,0000,0000,,M-Ma dove...
+Dialogue: 0,0:07:22.17,0:07:24.21,Default,,0000,0000,0000,,Si trova molto facilmente in montagna!
+Dialogue: 0,0:07:24.71,0:07:28.76,Default,,0000,0000,0000,,Dopo aver eliminato le tossine,\N l'aconito viene usato nella medicina cinese!
+Dialogue: 0,0:07:28.76,0:07:30.88,Default,,0000,0000,0000,,No! Non è quello che intendevo, Conan!
+Dialogue: 0,0:07:30.88,0:07:31.59,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:07:31.59,0:07:33.22,Default,,0000,0000,0000,,Come fai a sapere tutte queste cose?
+Dialogue: 0,0:07:33.47,0:07:39.22,Default,,0000,0000,0000,,{\fad(0,400)}D-Dalla TV! Ne ha parlato un mostro \Nnell'episodio di Kamen Yaiba dell'altro giorno!
+Dialogue: 0,0:07:39.22,0:07:43.73,Default,,0000,0000,0000,,Ha detto, "Ti ucciderò con l'acotina,\N un veleno che si ottiene dall'aconito!"
+Dialogue: 0,0:07:44.81,0:07:49.23,Default,,0000,0000,0000,,Che mostro premuroso, \Nspiega addirittura la composizione del veleno...
+Dialogue: 0,0:07:50.61,0:07:52.65,Italics,,0000,0000,0000,,Mai visto un mostro del genere.
+Dialogue: 0,0:07:53.03,0:07:57.41,Default,,0000,0000,0000,,Perciò, lo ha trovato da sola il corpo?
+Dialogue: 0,0:07:57.41,0:08:00.20,Default,,0000,0000,0000,,No, ero insieme ai tre allievi di mio marito.
+Dialogue: 0,0:08:00.50,0:08:01.54,Default,,0000,0000,0000,,Allievi?
+Dialogue: 0,0:08:02.33,0:08:05.85,Default,,0000,0000,0000,,{\fad(0,300)}Ecco, lui era un illusionista,\N e in effetti lo sono anche io.
+Dialogue: 0,0:08:06.71,0:08:11.55,Default - Alt,,0000,0000,0000,,Mio marito, Motoyasu Tsukumo,\N era famoso a livello mondiale.
+Dialogue: 0,0:08:07.55,0:08:11.55,Cartello BASE,,0000,0000,0000,,{\fad(350,0)\an7\blur1.3\bord0\shad0\fscx100\fscy100\pos(321.444,236.461)\p1\c&H74231E&\1a&H53&}m -96 -28 l 93 -28 93 7 -96 7
+Dialogue: 1,0:08:07.55,0:08:11.55,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,0)\fs24\shad0\bord0\fnTrebuchet MS\pos(321.444,236.461)}Motoyasu Tsukumo
+Dialogue: 0,0:08:11.72,0:08:13.43,Default,,0000,0000,0000,,Motoyasu Tsukumo?
+Dialogue: 0,0:08:13.43,0:08:18.10,Default,,0000,0000,0000,,Lo conosco! Al telegiornale hanno parlato\N della morte di un grande illusionista.
+Dialogue: 0,0:08:18.10,0:08:21.35,Default,,0000,0000,0000,,Beh, tu alla TV \Nguardi solo le corse dei cavalli, Kogoro.
+Dialogue: 0,0:08:21.35,0:08:25.22,Default,,0000,0000,0000,,Non ti ricordi? Molti anni fa\N siamo stati a un suo spettacolo di magia!
+Dialogue: 0,0:08:26.02,0:08:29.77,Default,,0000,0000,0000,,Ora che ci penso, dovrei avere \Nuna foto che abbiamo scattato insieme a lui!
+Dialogue: 0,0:08:29.77,0:08:34.32,Default,,0000,0000,0000,,È stata in quell'occasione \Nche ho conosciuto sua moglie Kisaki.
+Dialogue: 0,0:08:34.32,0:08:36.53,Default,,0000,0000,0000,,Quindi è per questo che è qui oggi?
+Dialogue: 0,0:08:36.82,0:08:43.43,Default,,0000,0000,0000,,Sì, da allora Kisaki ha lavorato\N con noi come nostra legale.
+Dialogue: 0,0:08:43.75,0:08:45.75,Italics,,0000,0000,0000,,Trovata! È questa qui!
+Dialogue: 0,0:08:47.38,0:08:49.25,Italics,,0000,0000,0000,,Un attimo, possibile...
+Dialogue: 0,0:08:59.30,0:09:00.60,Default,,0000,0000,0000,,Hai trovato la foto?
+Dialogue: 0,0:09:01.22,0:09:04.02,Default,,0000,0000,0000,,No, mi sa che mi sono sbagliata!
+Dialogue: 0,0:09:05.35,0:09:08.61,Default,,0000,0000,0000,,Senti, non credi che sia il caso\N di chiederle qualcosa sugli allievi?
+Dialogue: 0,0:09:09.61,0:09:11.15,Default,,0000,0000,0000,,Le dispiace?
+Dialogue: 0,0:09:11.15,0:09:12.61,Default,,0000,0000,0000,,Certo che no.
+Dialogue: 0,0:09:13.03,0:09:17.36,Default,,0000,0000,0000,,Il primo è Kazumi Sanada, lo consideriamo\N l'asso del nostro gruppo di illusionisti.
+Dialogue: 0,0:09:17.36,0:09:20.35,Default,,0000,0000,0000,,{\fad(0,400)}Probabilmente mio marito\N lo aveva scelto come suo successore.
+Dialogue: 0,0:09:21.12,0:09:25.54,Default,,0000,0000,0000,,Poi c'è Mako Miyoshi. \NUna ragazza molto abile e forte di carattere.
+Dialogue: 0,0:09:25.54,0:09:28.55,Default,,0000,0000,0000,,{\fad(0,100)}Attualmente è l'illusionista donna\N più dotata del Giappone.
+Dialogue: 0,0:09:29.40,0:09:31.55,Default,,0000,0000,0000,,L'ultimo è Yuji Momochi.
+Dialogue: 0,0:09:31.55,0:09:35.13,Default,,0000,0000,0000,,Non è da molto che lo abbiamo preso\N come allievo ed è inferiore agli altri,
+Dialogue: 0,0:09:35.13,0:09:36.78,Default,,0000,0000,0000,,ma credo che abbia molto talento.
+Dialogue: 0,0:09:38.09,0:09:42.01,Default,,0000,0000,0000,,Sono tutti bravi ragazzi \Nche sono venuti ad abitare a casa nostra
+Dialogue: 0,0:09:42.01,0:09:44.64,Default,,0000,0000,0000,,per fare pratica tutti i giorni.
+Dialogue: 0,0:09:45.14,0:09:47.64,Default,,0000,0000,0000,,E dov'erano quel giorno?
+Dialogue: 0,0:09:48.19,0:09:51.48,Default,,0000,0000,0000,,Erano con me \N allo spettacolo serale del Beika Hotel,
+Dialogue: 0,0:09:51.48,0:09:53.70,Default,,0000,0000,0000,,abbiamo presentato qualche trucco.
+Dialogue: 0,0:09:54.82,0:09:57.24,Default,,0000,0000,0000,,Sarebbe dovuto venire anche mio marito,
+Dialogue: 0,0:09:57.24,0:09:59.41,Default,,0000,0000,0000,,ma ha rifiutato perché era un lavoro da poco.
+Dialogue: 0,0:09:59.70,0:10:03.62,Default,,0000,0000,0000,,Però, tutti e tre erano a casa vostra\N prima di uscire per lo spettacolo, vero?
+Dialogue: 0,0:10:03.62,0:10:06.71,Default,,0000,0000,0000,,Perciò hanno avuto la possibilità\N di somministrargli il veleno, no?
+Dialogue: 0,0:10:06.71,0:10:07.87,Default,,0000,0000,0000,,E-Ehi...
+Dialogue: 0,0:10:08.33,0:10:11.88,Default,,0000,0000,0000,,Mio marito è morto \Nproprio durante lo spettacolo, piccolo.
+Dialogue: 0,0:10:11.88,0:10:15.38,Default,,0000,0000,0000,,E se gli avessero fatto assumere \Ndi nascosto una pillola?
+Dialogue: 0,0:10:16.01,0:10:17.51,Default,,0000,0000,0000,,Se fosse andata così,
+Dialogue: 0,0:10:17.51,0:10:20.80,Default,,0000,0000,0000,,una volta scoperto di essere stato avvelenato, \Navrebbe chiesto aiuto.
+Dialogue: 0,0:10:20.80,0:10:22.80,Default,,0000,0000,0000,,C'è un telefono in quel seminterrato,
+Dialogue: 0,0:10:22.80,0:10:25.39,Default,,0000,0000,0000,,e la porta si apre facilmente dall'interno...
+Dialogue: 0,0:10:25.64,0:10:27.14,Default,,0000,0000,0000,,Forse con un sonnifero?
+Dialogue: 0,0:10:27.32,0:10:31.07,Default,,0000,0000,0000,,L'autopsia non ha rivelato nulla del genere.
+Dialogue: 0,0:10:31.44,0:10:36.65,Default,,0000,0000,0000,,Non c'erano segni di strangolamento,\N le porte e le finestre erano chiuse a chiave,
+Dialogue: 0,0:10:36.65,0:10:39.40,Default,,0000,0000,0000,,non c'era alcuna traccia\N di intrusione dall'esterno.
+Dialogue: 0,0:10:39.82,0:10:42.41,Default,,0000,0000,0000,,Quindi non può che trattarsi di suicidio, no?
+Dialogue: 0,0:10:42.78,0:10:45.54,Default,,0000,0000,0000,,Già, così sembra.
+Dialogue: 0,0:10:45.54,0:10:49.41,Default,,0000,0000,0000,,Però, non riesco a credere \Nche mio marito si sia suicidato.
+Dialogue: 0,0:10:49.41,0:10:51.17,Default,,0000,0000,0000,,E come mai?
+Dialogue: 0,0:10:52.00,0:10:56.46,Default,,0000,0000,0000,,Domani è il compleanno\N di nostra figlia Ayano.
+Dialogue: 0,0:10:57.30,0:11:01.18,Default,,0000,0000,0000,,Le ha comprato il regalo un mese fa.
+Dialogue: 0,0:11:01.18,0:11:05.01,Default,,0000,0000,0000,,Non vedeva l'ora di darglielo.
+Dialogue: 0,0:11:05.81,0:11:08.06,Default,,0000,0000,0000,,Perché mai si sarebbe dovuto suicidare?!
+Dialogue: 0,0:11:08.68,0:11:10.77,Default,,0000,0000,0000,,Non è l'unica cosa strana.
+Dialogue: 0,0:11:11.14,0:11:15.82,Default,,0000,0000,0000,,Abbiamo trovato queste\N sulla scrivania del sotterraneo.
+Dialogue: 0,0:11:15.82,0:11:18.22,Default,,0000,0000,0000,,Eh? Delle carte?
+Dialogue: 0,0:11:19.11,0:11:22.53,Default,,0000,0000,0000,,L'asso e il Jack di picche attaccati insieme.
+Dialogue: 0,0:11:23.03,0:11:28.05,Default,,0000,0000,0000,,La polizia le aveva staccate pensando \Nche in mezzo potesse esserci scritto qualcosa.
+Dialogue: 0,0:11:28.66,0:11:32.54,Default,,0000,0000,0000,,Ma io le ho riattaccate\N per fargliele vedere.
+Dialogue: 0,0:11:33.00,0:11:35.34,Default,,0000,0000,0000,,Non faranno solo parte\Ndi un trucco di magia?
+Dialogue: 0,0:11:36.00,0:11:39.38,Default,,0000,0000,0000,,Però mio marito non usava\N le carte nei suoi spettacoli,
+Dialogue: 0,0:11:39.38,0:11:41.84,Default,,0000,0000,0000,,e non avevo mai visto nessuno metterle così!
+Dialogue: 0,0:11:42.13,0:11:45.30,Default,,0000,0000,0000,,Senti, perché non andiamo \Na controllare a casa della signora?
+Dialogue: 0,0:11:45.30,0:11:48.56,Default,,0000,0000,0000,,Perché "andiamo"? \NVuoi di nuovo starmi tra i piedi?
+Dialogue: 0,0:11:48.56,0:11:51.06,Default,,0000,0000,0000,,Andrò da solo!\N I bambini non devono ficcare il naso!
+Dialogue: 0,0:11:51.35,0:11:53.94,Default,,0000,0000,0000,,Che male c'è? Porta Conan con te!
+Dialogue: 0,0:11:54.48,0:11:59.29,Default,,0000,0000,0000,,Potrebbe esserti d'aiuto!\N D'altronde conosce un sacco di cose strane.
+Dialogue: 0,0:11:59.78,0:12:01.44,Default,,0000,0000,0000,,Però...
+Dialogue: 0,0:12:01.78,0:12:03.28,Default,,0000,0000,0000,,Giusto, Conan?
+Dialogue: 0,0:12:04.24,0:12:05.70,Default,,0000,0000,0000,,S-Sì.
+Dialogue: 0,0:12:05.70,0:12:08.54,Default,,0000,0000,0000,,E va bene! Ma fate i bravi, mi raccomando!
+Dialogue: 0,0:12:08.54,0:12:09.51,Default,,0000,0000,0000,,Promesso!
+Dialogue: 0,0:12:17.92,0:12:21.99,Cartello BASE,,0000,0000,0000,,{\fad(800,400)\an7\blur1\bord0\shad0\fscx100\fscy100\pos(406.873,259.906)\p1\c&HB9B19F&}m -225 70 l 95 -62 152 21 -67 119
+Dialogue: 1,0:12:17.92,0:12:21.99,Cartello BASE,,0000,0000,0000,,{\fad(800,400)\fs19\fnComic Sans MS\blur0.5\c&H282312&\pos(406.873,259.906)\frz21.48\frx8\fry4}Con Shinichi allo spettacolo di magia...
+Dialogue: 0,0:12:20.80,0:12:23.90,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\pos(378.711,278.679)\p1\c&HB8B39F&}m -161 27 l 143 -79 169 -26 -168 71
+Dialogue: 1,0:12:20.80,0:12:23.90,Cartello BASE,,0000,0000,0000,,{\fad(1300,0)\fs26\fnComic Sans MS\pos(378.711,278.679)\blur0.5\c&H282312&\frz19.29}Con Shinichi allo spettacolo di magia...
+Dialogue: 0,0:12:23.90,0:12:24.07,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\pos(378.711,278.679)\p1\c&HCEC7B4&\t(\c&HFDFDFF&)}m -161 27 l 143 -79 169 -26 -168 71
+Dialogue: 1,0:12:23.90,0:12:24.07,Cartello BASE,,0000,0000,0000,,{\fs26\fnComic Sans MS\pos(378.711,278.679)\blur0.5\c&H282312&\frz19.29\t(\c&HFDFDFD&)}Con Shinichi allo spettacolo di magia...
+Dialogue: 0,0:12:29.19,0:12:30.60,Default,,0000,0000,0000,,Wow!
+Dialogue: 0,0:12:30.91,0:12:33.41,Default,,0000,0000,0000,,Che splendida villa!
+Dialogue: 0,0:12:33.41,0:12:39.32,Default,,0000,0000,0000,,Mi sembra logico! Dopotutto il defunto, \NMotoyasu, era un illusionista di fama mondiale.
+Dialogue: 0,0:12:39.59,0:12:41.15,Default,,0000,0000,0000,,Giusto, Conan?
+Dialogue: 0,0:12:41.15,0:12:42.32,Default,,0000,0000,0000,,S-Sì.
+Dialogue: 0,0:12:42.65,0:12:45.95,Default,,0000,0000,0000,,Bene, può portarci nel seminterrato\N dove è morto suo marito?
+Dialogue: 0,0:12:45.95,0:12:46.57,Default,,0000,0000,0000,,Certo.
+Dialogue: 0,0:12:46.57,0:12:47.62,Default,,0000,0000,0000,,Fermi là!
+Dialogue: 0,0:12:48.66,0:12:49.89,Default,,0000,0000,0000,,Momochi.
+Dialogue: 0,0:12:50.33,0:12:52.75,Default,,0000,0000,0000,,Scusami, signorina.
+Dialogue: 0,0:12:53.83,0:12:55.25,Default,,0000,0000,0000,,P-Parli con me?
+Dialogue: 0,0:12:56.12,0:12:59.84,Default - Alt,,0000,0000,0000,,Sembra che tu abbia \Nqualcosa che ti preoccupa.
+Dialogue: 0,0:12:56.78,0:12:59.84,Cartello BASE,,0000,0000,0000,,{\fad(350,0)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H8F3D1E&\1a&H78&\pos(318.944,238.754)}m -86 -42 l 84 -42 84 3 -86 3
+Dialogue: 1,0:12:56.78,0:12:59.84,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,0)\fs23\shad0\bord0\fnTrebuchet MS\pos(317.827,238.382)}Yuji Momochi (25)\N{\fs15} Illusionista
+Dialogue: 0,0:12:59.84,0:13:01.05,Default,,0000,0000,0000,,Eh?!
+Dialogue: 0,0:13:01.59,0:13:04.34,Default,,0000,0000,0000,,È inutile cercare di nasconderlo. \NIo riesco a capirlo.
+Dialogue: 0,0:13:04.34,0:13:08.01,Default,,0000,0000,0000,,Dopotutto, hai una colomba tra i capelli!
+Dialogue: 0,0:13:08.01,0:13:09.80,Default,,0000,0000,0000,,Wow! Incredibile!
+Dialogue: 0,0:13:11.10,0:13:14.14,Default,,0000,0000,0000,,Bene, ora tocca a lei! \NÈ forse un nuovo allievo?
+Dialogue: 0,0:13:14.14,0:13:15.73,Default,,0000,0000,0000,,Chi? Io?
+Dialogue: 0,0:13:15.73,0:13:18.90,Default,,0000,0000,0000,,No! Lui è Kogoro Mori,\N il famoso detective.
+Dialogue: 0,0:13:18.90,0:13:21.32,Default,,0000,0000,0000,,Eh? Il famoso detective?!
+Dialogue: 0,0:13:21.32,0:13:23.32,Default,,0000,0000,0000,,E che cosa ci fa qui?
+Dialogue: 0,0:13:23.32,0:13:25.15,Default,,0000,0000,0000,,Ma come? Non è ovvio?
+Dialogue: 0,0:13:26.53,0:13:28.49,Default - Alt,,0000,0000,0000,,È di certo venuto fin qui per indagare
+Dialogue: 0,0:13:26.70,0:13:30.63,Cartello BASE,,0000,0000,0000,,{\fad(350,450)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H831E00&\1a&H7F&\pos(342.239,253.992)}m -87 -41 l 85 -41 85 4 -87 4
+Dialogue: 1,0:13:26.70,0:13:30.63,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,450)\fs23\shad0\bord0\fnTrebuchet MS\pos(342.239,253.992)}Mako Miyoshi (20) \N{\fs15}Illusionista
+Dialogue: 0,0:13:28.49,0:13:30.65,Default - Alt,,0000,0000,0000,,sulla morte del maestro Motoyasu.
+Dialogue: 0,0:13:32.62,0:13:34.37,Default,,0000,0000,0000,,Non è così, signor detective?
+Dialogue: 0,0:13:34.37,0:13:35.21,Default,,0000,0000,0000,,S-Sì.
+Dialogue: 0,0:13:35.21,0:13:36.16,Default,,0000,0000,0000,,Ragazzino...
+Dialogue: 0,0:13:37.42,0:13:39.95,Default,,0000,0000,0000,,e prosperosa fanciulla.
+Dialogue: 0,0:13:40.29,0:13:41.38,Default,,0000,0000,0000,,P-Prosperosa?
+Dialogue: 0,0:13:46.47,0:13:47.40,Italics,,0000,0000,0000,,Bianche...
+Dialogue: 0,0:13:49.89,0:13:50.72,Default,,0000,0000,0000,,Le hai viste?
+Dialogue: 0,0:13:50.72,0:13:51.93,Default,,0000,0000,0000,,Cosa?
+Dialogue: 0,0:13:52.47,0:13:54.93,Default,,0000,0000,0000,,Quando usi le colombe\N cerca di farne apparire tante!
+Dialogue: 0,0:13:55.44,0:13:56.08,Default,,0000,0000,0000,,Ok...
+Dialogue: 0,0:13:56.48,0:14:00.77,Default,,0000,0000,0000,,Ma cosa ci fa qui un detective?\N Il maestro non si è suicidato?
+Dialogue: 0,0:14:00.77,0:14:03.53,Default,,0000,0000,0000,,Forse perché non era tipo \Nda uccidersi da solo.
+Dialogue: 0,0:14:03.98,0:14:07.82,Default,,0000,0000,0000,,E poi anche quelle due strane carte\N restano un mistero, giusto?
+Dialogue: 0,0:14:07.82,0:14:08.70,Default,,0000,0000,0000,,Carte?
+Dialogue: 0,0:14:08.70,0:14:10.28,Default,,0000,0000,0000,,Si riferisce a queste.
+Dialogue: 0,0:14:10.28,0:14:15.33,Default,,0000,0000,0000,,Erano messe in questo modo strano \Nsulla scrivania del seminterrato dov'è morto.
+Dialogue: 0,0:14:17.00,0:14:22.04,Default,,0000,0000,0000,,Oh, l'asso e il Jack di picche\N attaccati insieme.
+Dialogue: 0,0:14:22.04,0:14:24.63,Default,,0000,0000,0000,,Non saranno servite per qualche trucco?
+Dialogue: 0,0:14:24.63,0:14:27.01,Default,,0000,0000,0000,,E poi, anche la polizia\N ha detto che si tratta di suicidio.
+Dialogue: 0,0:14:27.01,0:14:31.39,Default,,0000,0000,0000,,Già, già! Anche se metterete sottosopra\N la casa, non troverete un bel niente.
+Dialogue: 0,0:14:31.39,0:14:33.10,Default,,0000,0000,0000,,Aspetta! Ma che hai fatto?!
+Dialogue: 0,0:14:33.35,0:14:35.01,Default,,0000,0000,0000,,Alla fine, adesso...
+Dialogue: 0,0:14:37.81,0:14:39.77,Default - Alt,,0000,0000,0000,,c'è un'unica verità!
+Dialogue: 0,0:14:38.63,0:14:42.65,Cartello BASE,,0000,0000,0000,,{\fad(350,0)\an7\blur1.3\bord0\shad0\fscx100\fscy100\pos(326.586,259.92)\p1\c&H602A1E&\1a&H5F&}m -95 -39 l 92 -39 92 3 -95 3
+Dialogue: 1,0:14:38.63,0:14:42.65,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,0)\fs23\shad0\bord0\fnTrebuchet MS\pos(326.586,259.92)}Kazumi Sanada (27) \N{\fs15}Illusionista
+Dialogue: 0,0:14:39.77,0:14:42.65,Default - Alt,,0000,0000,0000,,Dei due geni ne è rimasto solo uno.
+Dialogue: 0,0:14:42.65,0:14:45.07,Default,,0000,0000,0000,,Maledetto! Hai distrutto\N un indizio importante!
+Dialogue: 0,0:14:45.07,0:14:49.57,Default,,0000,0000,0000,,Va tutto bene! Quelle vere \Nsi trovano nella tasca della tua giacca.
+Dialogue: 0,0:14:51.74,0:14:54.62,Default,,0000,0000,0000,,Un attimo, ma tu non sei...
+Dialogue: 0,0:14:54.91,0:14:58.91,Default,,0000,0000,0000,,È lui! Il prestigiatore geniale \Nche si è vestito da Kaito Kid
+Dialogue: 0,0:14:58.91,0:15:03.59,Default,,0000,0000,0000,,alla festa sul mare per il sessantesimo \Nanniversario del gruppo Suzuki!
+Dialogue: 0,0:15:03.59,0:15:05.30,Default,,0000,0000,0000,,Oh, hai ragione!
+Dialogue: 0,0:15:05.30,0:15:07.46,Default,,0000,0000,0000,,Kazumi Sanada, al vostro servizio.
+Dialogue: 0,0:15:07.46,0:15:13.72,Default,,0000,0000,0000,,Per non intaccare la tua reputazione, \Nsarebbe meglio che te ne andassi subito.
+Dialogue: 0,0:15:15.47,0:15:18.64,Default,,0000,0000,0000,,Il suo maestro è morto da poco \Ne lui sembra del tutto indifferente...
+Dialogue: 0,0:15:18.64,0:15:20.60,Default,,0000,0000,0000,,Non credo sia così...
+Dialogue: 0,0:15:20.89,0:15:25.65,Default,,0000,0000,0000,,Vede? Ha usato carte con dorsi diversi.
+Dialogue: 0,0:15:25.65,0:15:29.11,Default,,0000,0000,0000,,Un perfezionista come lui, \Nnon farebbe mai un errore del genere.
+Dialogue: 0,0:15:29.53,0:15:34.66,Default,,0000,0000,0000,,Per Sanada dev'essere davvero dura \Naccettare la morte del maestro...
+Dialogue: 0,0:15:34.66,0:15:38.12,Default,,0000,0000,0000,,Già, lo considerava come un padre.
+Dialogue: 0,0:15:38.33,0:15:40.33,Italics,,0000,0000,0000,,Quindi questi sono i suoi tre allievi...
+Dialogue: 0,0:15:40.33,0:15:41.80,Default,,0000,0000,0000,,Eh? Conan?
+Dialogue: 0,0:15:41.90,0:15:45.40,Cartello BASE,,0000,0000,0000,,{\fad(350,550)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H5C2F37&\1a&H56&\pos(191.85,310.165)}m -92 -41 l 90 -41 90 5 -92 5
+Dialogue: 1,0:15:41.90,0:15:45.40,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,550)\fs23\shad0\bord0\fnTrebuchet MS\pos(191.85,310.165)}Ayano Tsukumo (6) \N {\fs15}Figlia di Motoyasu Tsukumo
+Dialogue: 0,0:15:42.25,0:15:44.21,Default - Alt,,0000,0000,0000,,Tu sei nella sezione A, vero?
+Dialogue: 0,0:15:44.21,0:15:46.84,Default - Alt,,0000,0000,0000,,Cosa ci fai qui? Sei venuto a giocare con me?
+Dialogue: 0,0:15:46.84,0:15:49.71,Default,,0000,0000,0000,,No, siamo qui per una piccola faccenda.
+Dialogue: 0,0:15:49.71,0:15:50.63,Default,,0000,0000,0000,,Di che tipo?
+Dialogue: 0,0:15:50.88,0:15:54.14,Italics,,0000,0000,0000,,Capisco, quindi questa è casa sua.
+Dialogue: 0,0:15:55.26,0:16:00.54,Default,,0000,0000,0000,,Veramente qui sono io ad avere del lavoro\N da fare. Lui mi ha solo seguito, signorina.
+Dialogue: 0,0:16:01.60,0:16:04.37,Default,,0000,0000,0000,,Allora cosa ne dici di venire\N a fare compere con me?
+Dialogue: 0,0:16:04.37,0:16:05.10,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:16:05.10,0:16:08.15,Default,,0000,0000,0000,,Io e la mamma \Nstiamo per andare a comprare il vestito
+Dialogue: 0,0:16:08.15,0:16:10.40,Default,,0000,0000,0000,,che indosserò domani\N alla festa di compleanno!
+Dialogue: 0,0:16:10.40,0:16:13.49,Default,,0000,0000,0000,,Hai ricevuto anche tu il mio invito, vero?
+Dialogue: 0,0:16:13.31,0:16:15.59,Cartello BASE,,0000,0000,0000,,{\fad(400,400)\an7\blur1\bord0\shad0\fscx100\fscy100\pos(337.617,89.337)\p1\c&HDACCF5&}m -49 12 l 38 -32 44 -17 -36 27
+Dialogue: 1,0:16:13.31,0:16:15.59,Cartello BASE,,0000,0000,0000,,{\fad(400,400)\blur0.5\fs13\fnComic Sans MS\frz29.52\c&H38324B&\pos(337.617,89.337)}Per Conan Edogawa
+Dialogue: 0,0:16:13.31,0:16:15.59,Cartello BASE,,0000,0000,0000,,{\fad(400,400)\an7\blur1\bord0\shad0\fscx100\fscy100\pos(375.949,100.981)\p1\c&HDBCDF6&}m -19 -8 l 11 -19 15 -7 -22 13
+Dialogue: 1,0:16:13.31,0:16:15.59,Cartello BASE,,0000,0000,0000,,{\fad(400,400)\blur0.5\fs13\fnComic Sans MS\frz29.52\c&H38324B&\pos(375.949,100.981)}Ayano
+Dialogue: 0,0:16:13.49,0:16:15.32,Default,,0000,0000,0000,,Credo di sì...
+Dialogue: 0,0:16:15.32,0:16:17.28,Default,,0000,0000,0000,,Forza! Andiamo, Conan!
+Dialogue: 0,0:16:17.28,0:16:18.08,Default,,0000,0000,0000,,A-Aspetta!
+Dialogue: 0,0:16:18.08,0:16:19.62,Default,,0000,0000,0000,,No!
+Dialogue: 0,0:16:20.16,0:16:24.77,Default,,0000,0000,0000,,Scusami, ma adesso Conan è impegnato.\N Puoi rimandare a un'altra volta?
+Dialogue: 0,0:16:24.77,0:16:27.83,Default,,0000,0000,0000,,Che male c'è? I bambini \Ndevono stare con i bambini.
+Dialogue: 0,0:16:29.50,0:16:34.09,Default,,0000,0000,0000,,Ayano, perdonami. Oggi mi è\N impossibile venire a fare compere con te.
+Dialogue: 0,0:16:34.09,0:16:34.88,Default,,0000,0000,0000,,Eh?!
+Dialogue: 0,0:16:34.88,0:16:37.80,Default,,0000,0000,0000,,Però me lo avevi promesso! \NSei una bugiarda, mamma!
+Dialogue: 0,0:16:37.80,0:16:43.77,Default,,0000,0000,0000,,Come papà! Domani è il mio compleanno\N e lui è ancora all'estero!
+Dialogue: 0,0:16:43.77,0:16:46.86,Default,,0000,0000,0000,,Siete tutti dei bugiardi! Vi odio!
+Dialogue: 0,0:16:50.19,0:16:56.49,Default,,0000,0000,0000,,Cosa ne dici se ti accompagno io?\N Ti comprerò un bel completo per domani!
+Dialogue: 0,0:16:56.49,0:16:57.20,Default,,0000,0000,0000,,Ok!
+Dialogue: 0,0:16:57.82,0:16:59.70,Default,,0000,0000,0000,,Perdona il disturbo, Mako.
+Dialogue: 0,0:17:01.08,0:17:03.82,Default,,0000,0000,0000,,Forza, tornate tutti nelle gabbie!
+Dialogue: 0,0:17:04.96,0:17:06.12,Default,,0000,0000,0000,,Andiamo!
+Dialogue: 0,0:17:06.83,0:17:10.63,Default,,0000,0000,0000,,Non le ha ancora detto \Nche suo padre è morto?
+Dialogue: 0,0:17:10.63,0:17:13.88,Default,,0000,0000,0000,,Già, le abbiamo raccontato \Nche è all'estero per uno spettacolo.
+Dialogue: 0,0:17:14.30,0:17:18.14,Default,,0000,0000,0000,,Eh? Questa colomba\N non è mia. È di Mako.
+Dialogue: 0,0:17:18.14,0:17:21.60,Default,,0000,0000,0000,,Che strano, di solito non le confonde mai.
+Dialogue: 0,0:17:22.06,0:17:24.98,Default,,0000,0000,0000,,Dev'essere sconvolta anche lei \Nper la morte del maestro...
+Dialogue: 0,0:17:24.98,0:17:25.85,Default,,0000,0000,0000,,Santo cielo.
+Dialogue: 0,0:17:25.85,0:17:31.15,Default,,0000,0000,0000,,Gli illusionisti dovrebbero essere \Nin grado di nascondere i propri sentimenti.
+Dialogue: 0,0:17:31.15,0:17:34.61,Default,,0000,0000,0000,,A quanto pare, tu sei l'unico\N che non ne ha risentito!
+Dialogue: 0,0:17:34.61,0:17:37.36,Default,,0000,0000,0000,,Beh, sono entrato\N da poco nel gruppo, quindi...
+Dialogue: 0,0:17:37.78,0:17:39.99,Default,,0000,0000,0000,,Bene, vado a preparare la cena.
+Dialogue: 0,0:17:39.99,0:17:41.87,Default,,0000,0000,0000,,Oh, grazie mille.
+Dialogue: 0,0:17:42.12,0:17:44.00,Default,,0000,0000,0000,,Ci pensa sempre lui a cucinare?
+Dialogue: 0,0:17:44.00,0:17:48.17,Default,,0000,0000,0000,,È nostra usanza far preparare\N i pasti all'ultimo arrivato.
+Dialogue: 0,0:17:48.17,0:17:49.13,Default,,0000,0000,0000,,Capisco.
+Dialogue: 0,0:17:49.50,0:17:53.59,Default,,0000,0000,0000,,Ora direi di andare nella stanza\N sotterranea dov'è morto suo marito.
+Dialogue: 0,0:17:57.12,0:18:07.14,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\pos(378.711,278.679)\p1\c&HB8B39F&}m -161 27 l 143 -79 169 -26 -168 71
+Dialogue: 1,0:17:57.12,0:18:07.14,Cartello BASE,,0000,0000,0000,,{\fs26\fnComic Sans MS\pos(378.711,278.679)\blur0.5\c&H282312&\frz19.29}Con Shinichi allo spettacolo di magia...
+Dialogue: 0,0:18:11.23,0:18:14.94,Default,,0000,0000,0000,,Quindi, di che posto si tratta precisamente?
+Dialogue: 0,0:18:14.94,0:18:17.32,Default,,0000,0000,0000,,Era la camera speciale di mio marito.
+Dialogue: 0,0:18:17.32,0:18:21.62,Default,,0000,0000,0000,,Si rintanava sempre quaggiù \Nper ideare nuovi trucchi di magia.
+Dialogue: 0,0:18:21.62,0:18:24.66,Default,,0000,0000,0000,,Ultimamente la usavano anche i suoi allievi.
+Dialogue: 0,0:18:24.93,0:18:26.12,Default,,0000,0000,0000,,E quelle foto?
+Dialogue: 0,0:18:26.12,0:18:28.04,Default,,0000,0000,0000,,Sono gli ex allievi di mio marito.
+Dialogue: 0,0:18:28.04,0:18:32.42,Default,,0000,0000,0000,,Ha incorniciato le foto di quelli \Nche dopo averlo lasciato si sono distinti.
+Dialogue: 0,0:18:32.72,0:18:36.30,Default,,0000,0000,0000,,Signora, chi è \Nquel ragazzo con il cappello nero?
+Dialogue: 0,0:18:36.30,0:18:38.05,Default,,0000,0000,0000,,Ah, è Kinoshita.
+Dialogue: 0,0:18:38.97,0:18:41.18,Default,,0000,0000,0000,,Era un genio come se ne vedono pochi.
+Dialogue: 0,0:18:41.93,0:18:44.85,Default,,0000,0000,0000,,Sfortunatamente, è morto quattordici anni fa
+Dialogue: 0,0:18:44.85,0:18:47.06,Default,,0000,0000,0000,,durante una prova.
+Dialogue: 0,0:18:47.72,0:18:48.94,Default,,0000,0000,0000,,Come mai me lo hai chiesto?
+Dialogue: 0,0:18:48.94,0:18:52.02,Default,,0000,0000,0000,,Beh, perché \Nè l'unica foto senza polvere.
+Dialogue: 0,0:18:52.02,0:18:54.07,Default,,0000,0000,0000,,Sembra che qualcuno l'abbia pulita con cura.
+Dialogue: 0,0:18:54.82,0:19:00.07,Default,,0000,0000,0000,,Ah, hai ragione. Forse mio marito? \NDopotutto gli voleva molto bene.
+Dialogue: 0,0:19:00.66,0:19:05.58,Default,,0000,0000,0000,,Oh, quindi è questo il punto in cui \Nsi è avvelenato e poi è caduto a terra?
+Dialogue: 0,0:19:05.58,0:19:09.33,Default,,0000,0000,0000,,Sì. La stanza \Nè rimasta esattamente com'era.
+Dialogue: 0,0:19:09.33,0:19:12.86,Default,,0000,0000,0000,,Le due carte incollate si trovavano\N in cima alla pila che vede sulla scrivania.
+Dialogue: 0,0:19:12.86,0:19:15.74,Default,,0000,0000,0000,,E anche la colla con cui le ha attaccate.
+Dialogue: 0,0:19:22.01,0:19:24.35,Default,,0000,0000,0000,,Questo muro è insolitamente spesso.
+Dialogue: 0,0:19:24.35,0:19:29.89,Default,,0000,0000,0000,,Sì. Mio marito adorava la musica classica\N e l'ascoltava sempre quando era qui.
+Dialogue: 0,0:19:29.89,0:19:33.35,Default,,0000,0000,0000,,Aveva insonorizzato la camera \Nper poterla mettere anche a volume alto.
+Dialogue: 0,0:19:33.56,0:19:38.82,Default,,0000,0000,0000,,In pratica, anche se avesse urlato, \Nnessuno lo avrebbe sentito da fuori, giusto?
+Dialogue: 0,0:19:38.82,0:19:39.86,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:19:40.61,0:19:44.12,Default,,0000,0000,0000,,Tuttavia, la porta si apre \N in modo semplice dall'interno,
+Dialogue: 0,0:19:44.12,0:19:46.87,Default,,0000,0000,0000,,anche se viene chiusa dall'esterno.
+Dialogue: 0,0:19:47.32,0:19:51.79,Default,,0000,0000,0000,,Se avesse compreso di essere stato\N avvelenato, sarebbe uscito per cercare aiuto.
+Dialogue: 0,0:19:51.79,0:19:54.58,Default,,0000,0000,0000,,E invece lui è rimasto dentro questa stanza.
+Dialogue: 0,0:19:55.29,0:19:58.84,Default,,0000,0000,0000,,Signora, da qualsiasi parte\N la si guardi, si tratta senz'altro di suicidio.
+Dialogue: 0,0:19:58.84,0:19:59.59,Default,,0000,0000,0000,,Capisco...
+Dialogue: 0,0:19:59.59,0:20:01.09,Default,,0000,0000,0000,,Io ho i miei dubbi...
+Dialogue: 0,0:20:01.38,0:20:03.84,Default,,0000,0000,0000,,Guardate l'impronta del corpo.
+Dialogue: 0,0:20:04.43,0:20:07.31,Default,,0000,0000,0000,,Quando si è sdraiato aveva\N la braccia distese lungo i fianchi.
+Dialogue: 0,0:20:07.68,0:20:10.35,Default,,0000,0000,0000,,In TV dicono che quando\N qualcuno viene avvelenato
+Dialogue: 0,0:20:10.35,0:20:13.81,Default,,0000,0000,0000,,porta istintivamente le mani \Nal collo o al petto, in questo modo.
+Dialogue: 0,0:20:13.81,0:20:16.69,Default,,0000,0000,0000,,Ora che ci penso,\Nanche la polizia ha detto così,
+Dialogue: 0,0:20:16.69,0:20:19.32,Default,,0000,0000,0000,,che era una posizione strana \Nper chi muore avvelenato.
+Dialogue: 0,0:20:19.78,0:20:24.53,Default,,0000,0000,0000,,Quando ha visto il corpo, è proprio\N sicura che non fosse stato strangolato?
+Dialogue: 0,0:20:24.53,0:20:25.53,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:20:25.53,0:20:29.12,Default,,0000,0000,0000,,Dopo averlo trovato con i tre allievi, \N c'è stata un po' di confusione
+Dialogue: 0,0:20:29.12,0:20:30.87,Default,,0000,0000,0000,,ma abbiamo chiamato subito l'ambulanza,
+Dialogue: 0,0:20:30.87,0:20:34.08,Default,,0000,0000,0000,,ma nessuno ha trovato\N corde o qualcosa di simile.
+Dialogue: 0,0:20:34.67,0:20:37.84,Default,,0000,0000,0000,,Sentite, non è che lo hanno \Nstrangolato con un filo sottile?
+Dialogue: 0,0:20:37.84,0:20:40.46,Default,,0000,0000,0000,,Tipo quelli che si usano per i trucchi magici.
+Dialogue: 0,0:20:40.46,0:20:44.09,Default,,0000,0000,0000,,Impossibile, in quel caso \Nci sarebbero stati almeno dei segni sul collo.
+Dialogue: 0,0:20:44.09,0:20:47.85,Default,,0000,0000,0000,,E se ci fosse stato qualcosa di strano, \Nla polizia se ne sarebbe di certo accorta!
+Dialogue: 0,0:20:50.40,0:20:51.08,Italics,,0000,0000,0000,,Degli anelli?
+Dialogue: 0,0:20:52.10,0:20:55.90,Default,,0000,0000,0000,,Senti, quando è morto\N il signore portava questi anelli?
+Dialogue: 0,0:20:55.90,0:21:00.11,Default,,0000,0000,0000,,Sì. Il suo trucco migliore era far muovere \Ngli oggetti come fossero vivi,
+Dialogue: 0,0:21:00.11,0:21:02.46,Default,,0000,0000,0000,,con dei fili invisibili legati ai suoi anelli.
+Dialogue: 0,0:21:02.82,0:21:06.45,Default,,0000,0000,0000,,Sicuramente stava facendo pratica\N  anche quel giorno.
+Dialogue: 0,0:21:07.07,0:21:10.51,Default,,0000,0000,0000,,Però indossava solo gli anelli, \Ndei fili non c'era traccia.
+Dialogue: 0,0:21:10.51,0:21:12.45,Default,,0000,0000,0000,,Oh, grazie al cielo.
+Dialogue: 0,0:21:12.62,0:21:13.58,Default,,0000,0000,0000,,In che senso?
+Dialogue: 0,0:21:13.58,0:21:17.71,Default,,0000,0000,0000,,Beh, se il filo gli si fosse ingarbugliato \Nlegandogli le mani dietro la schiena
+Dialogue: 0,0:21:17.71,0:21:19.71,Default,,0000,0000,0000,,non sarebbe riuscito a muoversi.
+Dialogue: 0,0:21:20.71,0:21:25.01,Default,,0000,0000,0000,,Visto? Con le mani legate\N è difficile anche alzarsi.
+Dialogue: 0,0:21:25.55,0:21:28.47,Default,,0000,0000,0000,,E aprire la porta è quasi impossibile.
+Dialogue: 0,0:21:28.47,0:21:29.72,Default,,0000,0000,0000,,M-Ma certo!
+Dialogue: 0,0:21:30.14,0:21:33.93,Default,,0000,0000,0000,,Due degli anelli di suo marito \Nerano legati tra di loro con un filo!
+Dialogue: 0,0:21:33.93,0:21:35.94,Default,,0000,0000,0000,,Probabilmente quelli dei pollici!
+Dialogue: 0,0:21:35.94,0:21:39.40,Default,,0000,0000,0000,,Non è stato trovato nulla di strano \Nperché aveva gli anelli addosso.
+Dialogue: 0,0:21:39.40,0:21:43.00,Default,,0000,0000,0000,,Poi, è bastato tagliare il filo \Nprima dell'arrivo della polizia,
+Dialogue: 0,0:21:43.00,0:21:46.74,Default,,0000,0000,0000,,in questo modo è sembrato che avesse\N solo i normali segni lasciati dagli anelli.
+Dialogue: 0,0:21:47.11,0:21:50.95,Default,,0000,0000,0000,,Sua marito è stato avvelenato\N prima che lei e gli allievi usciste di casa.
+Dialogue: 0,0:21:50.95,0:21:54.33,Default,,0000,0000,0000,,E il filo è stata tagliato da qualcuno\N quando avete trovato il corpo,
+Dialogue: 0,0:21:54.33,0:21:55.87,Default,,0000,0000,0000,,approfittando della confusione.
+Dialogue: 0,0:21:55.87,0:21:58.25,Default,,0000,0000,0000,,Sta dicendo che mio marito...
+Dialogue: 0,0:21:58.25,0:22:01.62,Default,,0000,0000,0000,,Esatto! È stato assassinato!
+Dialogue: 0,0:22:02.19,0:22:06.51,Default,,0000,0000,0000,,Da uno dei tre ragazzi \Nche hanno trovato il corpo con lei!
+Dialogue: 0,0:22:07.01,0:22:08.26,Default,,0000,0000,0000,,Non ci credo...
+Dialogue: 0,0:22:08.47,0:22:11.35,Default,,0000,0000,0000,,E quelle carte cosa significano?
+Dialogue: 0,0:22:11.35,0:22:13.93,Default,,0000,0000,0000,,Intendo l'asso e il Jack di picche\N che erano là sopra.
+Dialogue: 0,0:22:13.93,0:22:17.56,Default,,0000,0000,0000,,Zitta! Ci stavo giusto\N per riflettere adesso!
+Dialogue: 0,0:22:17.56,0:22:20.31,Default,,0000,0000,0000,,E poi, in questa camera c'è un telefono.
+Dialogue: 0,0:22:20.31,0:22:24.28,Default,,0000,0000,0000,,Anche con i pollici bloccati, non sarebbe stato\N così difficile premere i bottoni.
+Dialogue: 0,0:22:24.28,0:22:26.61,Default,,0000,0000,0000,,Sì, hai ragione...
+Dialogue: 0,0:22:26.61,0:22:28.45,Default,,0000,0000,0000,,Ecco, in effetti il telefono...
+Dialogue: 0,0:22:29.32,0:22:34.45,Default,,0000,0000,0000,,Quando abbiamo trovato il corpo, mi sono\N precipitata di sopra a chiamare l'ambulanza.
+Dialogue: 0,0:22:34.45,0:22:38.46,Default,,0000,0000,0000,,Non mi ero accorta che il telefono \Ndella stanza era sepolto sotto le carte.
+Dialogue: 0,0:22:40.00,0:22:41.46,Italics,,0000,0000,0000,,Sepolto?
+Dialogue: 0,0:22:41.46,0:22:46.84,Default,,0000,0000,0000,,Ho capito! È stato l'assassino a farlo,\N per impedirgli di telefonare!
+Dialogue: 0,0:22:46.84,0:22:51.22,Default,,0000,0000,0000,,Ma era solo nascosto sotto delle carte, bastava\N cercarlo un po' per riuscire a trovarlo, no?
+Dialogue: 0,0:22:51.22,0:22:52.59,Default,,0000,0000,0000,,In effetti, hai ragione...
+Dialogue: 0,0:22:53.80,0:22:55.98,Italics,,0000,0000,0000,,Ecco qui il telefono in questione.
+Dialogue: 0,0:22:58.10,0:23:00.99,Default,,0000,0000,0000,,Ehi, Kogoro, \Nfammi un po' vedere quelle carte.
+Dialogue: 0,0:23:02.23,0:23:06.44,Default,,0000,0000,0000,,Lo vedi questo simbolo?\N È uguale identico a quelle due carte!
+Dialogue: 0,0:23:07.15,0:23:08.94,Default,,0000,0000,0000,,La ripetizione dell'ultimo numero?
+Dialogue: 0,0:23:08.94,0:23:12.91,Default,,0000,0000,0000,,Ho capito! Le carte contengono\N l'ultimo messaggio di suo marito!
+Dialogue: 0,0:23:12.91,0:23:15.45,Default,,0000,0000,0000,,Dobbiamo richiamare\N l'ultimo numero che ha composto!
+Dialogue: 0,0:23:15.87,0:23:19.21,Default,,0000,0000,0000,,Se la mia deduzione è corretta, \Nstiamo per parlare
+Dialogue: 0,0:23:19.21,0:23:22.58,Default,,0000,0000,0000,,con la persona a cui la vittima\N ha affidato il suo ultimo messaggio.
+Dialogue: 0,0:23:25.34,0:23:28.51,Italics,,0000,0000,0000,,Il numero da lei selezionato è inesistente.
+Dialogue: 0,0:23:28.51,0:23:29.22,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:23:29.22,0:23:33.97,Default,,0000,0000,0000,,Anche la polizia aveva trovato quel numero,\N ma visto che non ha alcun senso,
+Dialogue: 0,0:23:33.97,0:23:36.43,Default,,0000,0000,0000,,ha supposto che fosse solo\N uno scherzo di mia figlia.
+Dialogue: 0,0:23:36.97,0:23:37.93,Italics,,0000,0000,0000,,Ma cosa...
+Dialogue: 0,0:23:38.43,0:23:40.43,Italics,,0000,0000,0000,,Cosa significano questi numeri?!
+Dialogue: 0,0:23:40.81,0:23:43.40,Default,,0000,0000,0000,,Ehi, marmocchio, che stai scrivendo?
+Dialogue: 0,0:23:45.02,0:23:46.94,Default,,0000,0000,0000,,E quello che è? Un codice?
+Dialogue: 0,0:23:47.86,0:23:50.84,Default,,0000,0000,0000,,Uno, due, sei, otto, sette, \Nuno, tre, due, quattro, otto, nove...
+Dialogue: 0,0:23:51.57,0:23:52.74,Default,,0000,0000,0000,,Non disturbarlo!
+Dialogue: 0,0:23:53.95,0:23:55.62,Default,,0000,0000,0000,,Chi, scusa?
+Dialogue: 0,0:24:01.83,0:24:05.88,Italics,,0000,0000,0000,,Un attimo! Non sarà che si riferiscono a...
+Dialogue: 0,0:24:09.63,0:24:14.43,Italics,,0000,0000,0000,,{\fad(300,0)}Ma certo, ho capito! \NHo trovato come risolvere questo codice!
+Dialogue: 0,0:24:14.80,0:24:17.62,Italics,,0000,0000,0000,,Se ho ragione, questa parte vuol dire...
+Dialogue: 0,0:24:18.06,0:24:20.65,Italics,,0000,0000,0000,,Oh, no! È finita la mina!
+Dialogue: 0,0:24:20.65,0:24:22.44,Default,,0000,0000,0000,,Qualcuno ha mica una penna?
+Dialogue: 0,0:24:22.44,0:24:24.94,Default,,0000,0000,0000,,Se vuoi, c'è una stilografica nel cassetto.
+Dialogue: 0,0:24:25.98,0:24:30.03,Default,,0000,0000,0000,,Oh, che strano. \NMio marito la teneva sempre qui.
+Dialogue: 0,0:24:30.03,0:24:32.53,Default,,0000,0000,0000,,Mancano anche i pennarelli\N che usava nei suoi trucchi...
+Dialogue: 0,0:24:32.53,0:24:35.28,Default,,0000,0000,0000,,Per quanto tempo ancora\Nvuoi guardare quei numeri?
+Dialogue: 0,0:24:35.28,0:24:38.66,Default,,0000,0000,0000,,La polizia ha ragione, \Ndev'essere opera della bambina.
+Dialogue: 0,0:24:39.20,0:24:42.16,Default,,0000,0000,0000,,Però quel giorno l'ho portata\N con me allo spettacolo,
+Dialogue: 0,0:24:42.16,0:24:45.83,Default,,0000,0000,0000,,perciò deve averli composti \Nin un altro momento.
+Dialogue: 0,0:24:46.21,0:24:49.90,Default,,0000,0000,0000,,E se fosse così, \Nbisogna scoprire il motivo
+Dialogue: 0,0:24:49.90,0:24:51.84,Default,,0000,0000,0000,,per cui suo marito non ha usato il telefono.
+Dialogue: 0,0:24:52.34,0:24:53.34,Default,,0000,0000,0000,,Già...
+Dialogue: 0,0:24:53.34,0:24:56.25,Default,,0000,0000,0000,,Senti, hai detto \Nche la vittima è stata avvelenata
+Dialogue: 0,0:24:56.25,0:24:59.18,Default,,0000,0000,0000,,prima che la signora e gli altri\N uscissero di casa, giusto?
+Dialogue: 0,0:24:59.18,0:25:05.69,Default,,0000,0000,0000,,Già, probabilmente utilizzando una pillola \Nche si è dissolta durante l'ora dello spettacolo.
+Dialogue: 0,0:25:05.69,0:25:10.02,Default,,0000,0000,0000,,Quindi quell'uomo è rimasto\N per tutto il tempo qui da solo, giusto?
+Dialogue: 0,0:25:10.02,0:25:13.94,Default,,0000,0000,0000,,Al suo posto, avrei cercato di lasciare\N indizi per far arrivare gli altri al colpevole.
+Dialogue: 0,0:25:13.94,0:25:17.91,Default,,0000,0000,0000,,Ah, ma era impossibile!\N In questa stanza non ci sono penne!
+Dialogue: 0,0:25:17.91,0:25:20.45,Default,,0000,0000,0000,,C'era solamente questo telefono...
+Dialogue: 0,0:25:20.91,0:25:25.92,Default,,0000,0000,0000,,Che stupido. Se avesse potuto,\N la vittima lo avrebbe usato per chiedere aiuto.
+Dialogue: 0,0:25:25.92,0:25:29.92,Default,,0000,0000,0000,,Hai ragione! \NDubito che la linea fosse staccata.
+Dialogue: 0,0:25:29.92,0:25:31.59,Default,,0000,0000,0000,,S-Staccata?
+Dialogue: 0,0:25:32.71,0:25:33.84,Default,,0000,0000,0000,,Ho capito!
+Dialogue: 0,0:25:33.84,0:25:38.43,Default,,0000,0000,0000,,Quando l'assassino ha rinchiuso qui suo marito\N ha anche staccato il cavo della linea!
+Dialogue: 0,0:25:38.43,0:25:41.24,Default,,0000,0000,0000,,Poi l'ha riattaccata\Napprofittando della confusione
+Dialogue: 0,0:25:41.24,0:25:42.66,Default,,0000,0000,0000,,quando è stato trovato il corpo,
+Dialogue: 0,0:25:42.66,0:25:43.93,Default,,0000,0000,0000,,Però in quel momento...
+Dialogue: 0,0:25:43.93,0:25:46.81,Default,,0000,0000,0000,,I tre sospetti sono tutti degli illusionisti.
+Dialogue: 0,0:25:46.81,0:25:50.65,Default,,0000,0000,0000,,Per loro non ci vuole niente \Na fare un trucco furtivo come quello.
+Dialogue: 0,0:25:50.65,0:25:53.94,Default,,0000,0000,0000,,{\fad(0,600)}Ed è sempre stato l'assassino \Na nascondere il telefono sotto le carte.
+Dialogue: 0,0:25:54.32,0:25:55.61,Default,,0000,0000,0000,,Durante il ritrovamento,
+Dialogue: 0,0:25:55.61,0:26:00.32,Default,,0000,0000,0000,,se qualcuno avesse subito usato il telefono\N avrebbe capito che non c'era la linea.
+Dialogue: 0,0:26:00.32,0:26:04.95,Default,,0000,0000,0000,,Dopo essere stato avvelenato\N e rinchiuso in questa stanza,
+Dialogue: 0,0:26:04.95,0:26:07.46,Default,,0000,0000,0000,,suo marito voleva lasciare una prova.
+Dialogue: 0,0:26:08.17,0:26:12.46,Default,,0000,0000,0000,,Ma le penne erano scomparse\N e il telefono staccato.
+Dialogue: 0,0:26:12.46,0:26:14.93,Default,,0000,0000,0000,,La sua unica possibilità\N era lasciare un messaggio
+Dialogue: 0,0:26:14.93,0:26:18.05,Default,,0000,0000,0000,,sfruttando il tasto per comporre\N l'ultimo numero chiamato.
+Dialogue: 0,0:26:18.05,0:26:23.76,Default,,0000,0000,0000,,Anche senza linea, se la corrente è attaccata \Nsi può registrare l'ultimo numero chiamato.
+Dialogue: 0,0:26:23.76,0:26:30.48,Default,,0000,0000,0000,,Poi, per lasciarci un indizio, \Nha incollato e messo le carte sulla scrivania.
+Dialogue: 0,0:26:30.48,0:26:33.07,Default,,0000,0000,0000,,Quindi è stato davvero mio marito\N a comporre quel numero?
+Dialogue: 0,0:26:33.07,0:26:37.03,Default,,0000,0000,0000,,Già, e ha di nuovo nascosto\N il telefono sotto le carte
+Dialogue: 0,0:26:37.03,0:26:40.48,Default,,0000,0000,0000,,per impedire a qualcuno di usarlo\N subito dopo il ritrovamento del corpo,
+Dialogue: 0,0:26:40.48,0:26:42.43,Default,,0000,0000,0000,,o il numero si sarebbe cancellato.
+Dialogue: 0,0:26:42.43,0:26:44.16,Default,,0000,0000,0000,,E poi, se fosse stato in bella vista,
+Dialogue: 0,0:26:44.16,0:26:47.62,Default,,0000,0000,0000,,l'assassino avrebbe potuto capirlo \Ned eliminarlo di proposito.
+Dialogue: 0,0:26:47.62,0:26:51.08,Default,,0000,0000,0000,,Adesso non ci resta \Nche decifrare questo strano numero...
+Dialogue: 0,0:26:51.08,0:26:52.75,Default,,0000,0000,0000,,Ah, è per quello che io...
+Dialogue: 0,0:26:52.75,0:26:53.67,Default,,0000,0000,0000,,Ecco qui!
+Dialogue: 0,0:26:55.30,0:26:58.59,Default,,0000,0000,0000,,È la mia penna. Te ne serviva una \Nper scrivere qualcosa, no?
+Dialogue: 0,0:26:58.59,0:26:59.34,Default,,0000,0000,0000,,S-Sì.
+Dialogue: 0,0:26:59.88,0:27:03.55,Default,,0000,0000,0000,,Ho capito! Devi aver scoperto \Ndi nuovo qualcosa di interessante!
+Dialogue: 0,0:27:03.55,0:27:05.35,Default,,0000,0000,0000,,Ti va di dire anche noi di che si tratta?
+Dialogue: 0,0:27:05.64,0:27:08.44,Default,,0000,0000,0000,,N-Non è nulla di così incredibile.
+Dialogue: 0,0:27:08.84,0:27:12.48,Default,,0000,0000,0000,,Ma guardate il primo gruppo di numeri.
+Dialogue: 0,0:27:12.48,0:27:16.31,Default,,0000,0000,0000,,Uno, due, sei, otto, sette, uno.
+Dialogue: 0,0:27:17.11,0:27:19.95,Default,,0000,0000,0000,,Vedendoli così \Nsembra che non abbiano senso,
+Dialogue: 0,0:27:20.32,0:27:26.41,Default,,0000,0000,0000,,però se si uniscono uno, due, sei, otto, sette\N e di nuovo l'uno sulla tastiera del telefono,
+Dialogue: 0,0:27:26.41,0:27:28.95,Default,,0000,0000,0000,,mi sembra si crei una strana figura!
+Dialogue: 0,0:27:29.29,0:27:29.88,Default,,0000,0000,0000,,Una "D"!
+Dialogue: 0,0:27:31.00,0:27:32.88,Default,,0000,0000,0000,,È la lettera "D"!
+Dialogue: 0,0:27:33.25,0:27:35.59,Default,,0000,0000,0000,,Eh?! Quindi è la "D" quella?
+Dialogue: 0,0:27:35.59,0:27:40.38,Default,,0000,0000,0000,,Un attimo! Allora i prossimi numeri: tre, due,\N quattro, otto e nove, formano una "C"!
+Dialogue: 0,0:27:41.38,0:27:48.22,Default,,0000,0000,0000,,Ho capito! Queste sequenze\N di numeri creano quattro lettere!
+Dialogue: 0,0:27:48.22,0:27:55.19,Default,,0000,0000,0000,,Adesso interpretando uno, tre, cinque,\Nquattro, otto e uno, tre, nove, sette,
+Dialogue: 0,0:27:55.19,0:27:58.40,Default,,0000,0000,0000,,capiremo il messaggio \Nche ha lasciato suo marito in punto di morte!
+Dialogue: 0,0:28:01.11,0:28:03.24,Default,,0000,0000,0000,,"DCMAKO"?
+Dialogue: 0,0:28:03.24,0:28:05.62,Default,,0000,0000,0000,,"MAKO"? Forse indica la nostra Mako?
+Dialogue: 0,0:28:05.62,0:28:07.41,Default,,0000,0000,0000,,Sì, è possibile.
+Dialogue: 0,0:28:07.41,0:28:09.91,Default,,0000,0000,0000,,Quindi è stata lei a uccidere mio marito?!
+Dialogue: 0,0:28:09.91,0:28:12.83,Default,,0000,0000,0000,,No, è ancora presto per dirlo.
+Dialogue: 0,0:28:12.83,0:28:16.50,Default,,0000,0000,0000,,Potrebbe anche essere un messaggio\N che ha lasciato per lei,
+Dialogue: 0,0:28:16.84,0:28:20.30,Default,,0000,0000,0000,,anche perché non sappiamo \Ncosa significhi il "DC" davanti a "MAKO"....
+Dialogue: 0,0:28:20.30,0:28:24.51,Default,,0000,0000,0000,,Sei fantastico, hai capito\N il significato di quei numeri!
+Dialogue: 0,0:28:24.51,0:28:25.55,Default,,0000,0000,0000,,Bravissimo!
+Dialogue: 0,0:28:25.55,0:28:27.89,Default,,0000,0000,0000,,Già! Non per niente...
+Dialogue: 0,0:28:29.68,0:28:31.77,Default,,0000,0000,0000,,Fantastico, papà! \NSei proprio intelligente!
+Dialogue: 0,0:28:32.27,0:28:34.12,Default,,0000,0000,0000,,Suvvia, per così poco!
+Dialogue: 0,0:28:38.27,0:28:39.07,Italics,,0000,0000,0000,,Ran...
+Dialogue: 0,0:28:40.69,0:28:43.65,Default,,0000,0000,0000,,Ma cosa può significare questo "DC"?
+Dialogue: 0,0:28:43.65,0:28:48.33,Default,,0000,0000,0000,,Gli unici "DC" che conosco \Nsono il marchio DC, Washington DC...
+Dialogue: 0,0:28:48.33,0:28:49.95,Default,,0000,0000,0000,,Diretta continuità...
+Dialogue: 0,0:28:50.41,0:28:51.50,Default,,0000,0000,0000,,"Da capo"!
+Dialogue: 0,0:28:52.54,0:28:56.25,Default,,0000,0000,0000,,Mi riferisco al "DC" che si trova\N in fondo agli spartiti musicali!
+Dialogue: 0,0:28:56.25,0:28:58.29,Default,,0000,0000,0000,,Si legge "da capo"!
+Dialogue: 0,0:28:58.29,0:29:02.51,Default,,0000,0000,0000,,Ora che ci penso, mio marito \Nogni tanto suonava il piano,
+Dialogue: 0,0:29:02.51,0:29:04.80,Default,,0000,0000,0000,,quindi aveva spesso\N degli spartiti sotto mano.
+Dialogue: 0,0:29:05.22,0:29:07.78,Default,,0000,0000,0000,,E cosa significa questo "da capo"?
+Dialogue: 0,0:29:08.30,0:29:11.14,Default,,0000,0000,0000,,Che bisogna ricominciare dall'inizio\Ne ripetere.
+Dialogue: 0,0:29:11.14,0:29:13.31,Default,,0000,0000,0000,,R-Ripetere?!
+Dialogue: 0,0:29:13.64,0:29:16.77,Default,,0000,0000,0000,,Mako è uscita con sua figlia, giusto?
+Dialogue: 0,0:29:16.77,0:29:18.77,Default,,0000,0000,0000,,Sì, sono andate a fare compere.
+Dialogue: 0,0:29:18.77,0:29:20.73,Default,,0000,0000,0000,,Può contattarla in questo momento?
+Dialogue: 0,0:29:20.73,0:29:24.86,Default,,0000,0000,0000,,Sì, ha il suo cercapersone sempre con lei.
+Dialogue: 0,0:29:28.74,0:29:34.54,Default,,0000,0000,0000,,Oh, è la tua mamma.\N Vuole che torniamo subito a casa.
+Dialogue: 0,0:29:34.54,0:29:38.25,Default,,0000,0000,0000,,Eh? Ma io voglio restare ancora con te, Mako!
+Dialogue: 0,0:29:38.63,0:29:42.00,Default,,0000,0000,0000,,Dopotutto, mi hai detto che adesso\N mi porti in un posto bellissimo, no?
+Dialogue: 0,0:29:42.25,0:29:44.51,Default,,0000,0000,0000,,Certo, ti ci porto subito.
+Dialogue: 0,0:29:45.92,0:29:48.06,Default,,0000,0000,0000,,Nel posto più bello del mondo.
+Dialogue: 0,0:29:49.51,0:29:52.51,Default,,0000,0000,0000,,Eh?! Mako vuole...
+Dialogue: 0,0:29:52.51,0:29:55.60,Default,,0000,0000,0000,,Sì, probabilmente \Nha in mente di uccidere sua figlia.
+Dialogue: 0,0:29:55.60,0:29:58.19,Default,,0000,0000,0000,,Il "DC Mako" lasciato da suo marito
+Dialogue: 0,0:29:58.19,0:30:02.11,Default,,0000,0000,0000,,significa qualcosa come\N "Mako ucciderà di nuovo"!
+Dialogue: 0,0:30:02.11,0:30:03.19,Default,,0000,0000,0000,,Non ci credo!
+Dialogue: 0,0:30:03.19,0:30:06.15,Default,,0000,0000,0000,,Per adesso chiamiamo gli altri due allievi!
+Dialogue: 0,0:30:06.53,0:30:08.41,Default,,0000,0000,0000,,Dividiamoci e cerchiamole!
+Dialogue: 0,0:30:14.75,0:30:19.75,Default,,0000,0000,0000,,Ayano! Mako! Dove sei, Ayano?!
+Dialogue: 0,0:30:19.75,0:30:20.96,Default,,0000,0000,0000,,Ayano!
+Dialogue: 0,0:30:21.50,0:30:23.25,Default,,0000,0000,0000,,Ayano!
+Dialogue: 0,0:30:23.44,0:30:25.34,Default,,0000,0000,0000,,Ayano!
+Dialogue: 0,0:30:27.26,0:30:28.59,Default,,0000,0000,0000,,Niente da fare...
+Dialogue: 0,0:30:30.26,0:30:31.60,Default,,0000,0000,0000,,Dannazione, non si trovano!
+Dialogue: 0,0:30:32.64,0:30:33.43,Default,,0000,0000,0000,,Com'è andata?
+Dialogue: 0,0:30:33.43,0:30:35.35,Default,,0000,0000,0000,,Niente, non sono da nessuna parte!
+Dialogue: 0,0:30:35.35,0:30:38.35,Default,,0000,0000,0000,,Mi sa che non ci resta \Nche chiedere alla polizia di cercarle.
+Dialogue: 0,0:30:38.35,0:30:40.85,Default,,0000,0000,0000,,Però, per quale motivo\N Mako ha ucciso mio marito?
+Dialogue: 0,0:30:40.85,0:30:43.86,Default,,0000,0000,0000,,Forse ha qualcosa a che fare con quell'uomo.
+Dialogue: 0,0:30:44.27,0:30:49.66,Default,,0000,0000,0000,,Mi riferisco al ragazzo con il cappello nero\N di quella foto nel sotterraneo.
+Dialogue: 0,0:30:49.66,0:30:52.16,Default,,0000,0000,0000,,Lo sapevo, si tratta di Yoshiro Kinoshita.
+Dialogue: 0,0:30:52.16,0:30:56.75,Default,,0000,0000,0000,,K-Kinoshita? Quell'illusionista geniale\N che è morto quattordici anni fa?
+Dialogue: 0,0:30:56.75,0:30:59.41,Default,,0000,0000,0000,,Cosa intendi con "Lo sapevo", Sanada?!
+Dialogue: 0,0:30:59.41,0:31:03.29,Default,,0000,0000,0000,,L'ho vista una sera \Nche ero sceso nel sotterraneo.
+Dialogue: 0,0:31:03.96,0:31:07.55,Default,,0000,0000,0000,,Mako stringeva quella fotografia \Ncome se fosse molto importante per lei.
+Dialogue: 0,0:31:07.55,0:31:10.88,Default,,0000,0000,0000,,Avevo capito che c'era qualcosa dietro, \Nma non pensavo a un omicidio.
+Dialogue: 0,0:31:12.22,0:31:14.85,Default,,0000,0000,0000,,Sono proprio patetico...
+Dialogue: 0,0:31:14.85,0:31:17.56,Default,,0000,0000,0000,,Va bene il turbamento\N del ritrovamento del corpo,
+Dialogue: 0,0:31:17.56,0:31:19.83,Default,,0000,0000,0000,,ma non notarla mentre, davanti ai miei occhi,
+Dialogue: 0,0:31:19.83,0:31:22.81,Default,,0000,0000,0000,,tagliava i fili degli anelli \Ne riattaccava il cavo della linea...
+Dialogue: 0,0:31:22.81,0:31:24.57,Default,,0000,0000,0000,,Ma dai...
+Dialogue: 0,0:31:27.86,0:31:29.32,Default,,0000,0000,0000,,Mi avete scoperta, eh?
+Dialogue: 0,0:31:29.53,0:31:30.86,Default,,0000,0000,0000,,M-Mako!
+Dialogue: 0,0:31:30.86,0:31:31.78,Default,,0000,0000,0000,,Ayano!
+Dialogue: 0,0:31:32.66,0:31:33.50,Default,,0000,0000,0000,,Ayano!
+Dialogue: 0,0:31:33.50,0:31:36.41,Default,,0000,0000,0000,,Tranquilla, sta solo dormendo.
+Dialogue: 0,0:31:37.85,0:31:41.98,Default,,0000,0000,0000,,Anche se in realtà avrei voluto spingerla\N in un sonno molto più profondo,
+Dialogue: 0,0:31:41.98,0:31:43.42,Default,,0000,0000,0000,,come è successo a mio fratello.
+Dialogue: 0,0:31:44.38,0:31:45.42,Default,,0000,0000,0000,,Tuo fratello?
+Dialogue: 0,0:31:45.42,0:31:49.67,Default,,0000,0000,0000,,Sì, Yoshiro Kinoshita. \NL'illusionista di cui stavate parlando.
+Dialogue: 0,0:31:49.67,0:31:52.55,Default,,0000,0000,0000,,Era mio fratello di quattordici anni più grande.
+Dialogue: 0,0:31:52.55,0:31:53.95,Default,,0000,0000,0000,,Era un genio che a soli vent'anni
+Dialogue: 0,0:31:53.95,0:31:57.93,Default,,0000,0000,0000,,{\fad(0,700)}aveva già ricevuto tutti i riconoscimenti \Nche un illusionista può ottenere.
+Dialogue: 0,0:31:58.31,0:32:04.25,Default,,0000,0000,0000,,{\fad(0,100)}Era tutta la mia famiglia, visto che i nostri\N genitori erano morti quando ero molto piccola.
+Dialogue: 0,0:32:05.02,0:32:09.40,Default,,0000,0000,0000,,Ma quell'uomo lo ha tolto di mezzo\N come se fosse un insetto fastidioso!
+Dialogue: 0,0:32:09.94,0:32:13.70,Default,,0000,0000,0000,,Già, parlo proprio di Motoyasu Tsukumo \Nche era geloso del suo talento.
+Dialogue: 0,0:32:14.28,0:32:17.03,Default,,0000,0000,0000,,Non dire sciocchezze! \NMio marito non avrebbe mai...
+Dialogue: 0,0:32:17.03,0:32:19.21,Default,,0000,0000,0000,,Non sto mentendo! \NL'ho visto con i miei occhi!
+Dialogue: 0,0:32:20.29,0:32:24.00,Default,,0000,0000,0000,,Quel giorno di quattordici anni fa,\N l'ho visto manomettere le manette
+Dialogue: 0,0:32:24.00,0:32:26.17,Default,,0000,0000,0000,,che mio fratello usava negli spettacoli.
+Dialogue: 0,0:32:26.67,0:32:30.92,Default,,0000,0000,0000,,Subito dopo, mio fratello è morto\N annegato nella vasca durante le prove,
+Dialogue: 0,0:32:30.92,0:32:32.93,Default,,0000,0000,0000,,non era riuscito a liberarsi dalle manette.
+Dialogue: 0,0:32:35.84,0:32:41.43,Default,,0000,0000,0000,,Il caso, ovviamente, \Nè stato archiviato come incidente...
+Dialogue: 0,0:32:41.43,0:32:47.44,Default,,0000,0000,0000,,Capisco, quindi sei diventata sua allieva \Nper vendicare tuo fratello.
+Dialogue: 0,0:32:47.44,0:32:51.65,Default,,0000,0000,0000,,Già. Dopo essere stata adottata \Nda alcuni parenti ho cambiato cognome,
+Dialogue: 0,0:32:51.65,0:32:54.45,Default,,0000,0000,0000,,quindi sapevo che non se ne sarebbe accorto.
+Dialogue: 0,0:32:54.82,0:32:59.16,Default,,0000,0000,0000,,Mio fratello è stato ucciso proprio prima\N del mio settimo compleanno.
+Dialogue: 0,0:32:59.16,0:33:02.16,Default,,0000,0000,0000,,Da allora, ho passato quel giorno \Nsempre da sola.
+Dialogue: 0,0:33:02.79,0:33:07.75,Default,,0000,0000,0000,,Per questo ho deciso di ucciderlo \Npoco prima che sua figlia compisse sette anni.
+Dialogue: 0,0:33:09.00,0:33:12.13,Default,,0000,0000,0000,,Gli ho rivelato la mia identità\N poco dopo avergli dato il veleno,
+Dialogue: 0,0:33:12.13,0:33:18.30,Default,,0000,0000,0000,,ma visto che non si è scomposto,\N gli ho detto che avrei ucciso anche sua figlia.
+Dialogue: 0,0:33:18.30,0:33:21.31,Default,,0000,0000,0000,,In questo modo ha perso la testa...
+Dialogue: 0,0:33:21.31,0:33:27.19,Flashback,,0000,0000,0000,,Scusami! Per mantenere il mio status, \Nnon ho avuto altra scelta!
+Dialogue: 0,0:33:27.19,0:33:30.44,Flashback,,0000,0000,0000,,Puoi prenderti la mia vita. \NMa ti prego, risparmia mia figlia!
+Dialogue: 0,0:33:31.19,0:33:36.07,Default,,0000,0000,0000,,Certo, avevo pianificato di ucciderla. \NMa poi ho cambiato idea.
+Dialogue: 0,0:33:36.07,0:33:38.78,Default,,0000,0000,0000,,Dopotutto, lei non ha colpa.
+Dialogue: 0,0:33:39.74,0:33:42.24,Default,,0000,0000,0000,,Però era davvero stupido.
+Dialogue: 0,0:33:42.24,0:33:46.93,Default,,0000,0000,0000,,Quando gli ho detto che gli avrei mostrato\N un nuovo trucco, non si è insospettito
+Dialogue: 0,0:33:46.93,0:33:51.88,Default,,0000,0000,0000,,né quando gli ho messo gli anelli attaccati \Nné quando gli ho fatto prendere la pillola.
+Dialogue: 0,0:33:53.61,0:33:56.73,Default,,0000,0000,0000,,Non si direbbe che fosse\N il miglior illusionista del Giappone!
+Dialogue: 0,0:33:56.73,0:33:58.09,Default,,0000,0000,0000,,Non è così, Mako.
+Dialogue: 0,0:33:59.59,0:34:03.81,Default,,0000,0000,0000,,Lui sapeva che lo avresti ucciso.
+Dialogue: 0,0:34:03.81,0:34:06.05,Default,,0000,0000,0000,,N-Non è possibile!
+Dialogue: 0,0:34:06.52,0:34:11.48,Default,,0000,0000,0000,,Prima ho detto che ti avevo vista \Nstringere la foto di tuo fratello maggiore.
+Dialogue: 0,0:34:11.48,0:34:13.78,Default,,0000,0000,0000,,Beh, c'era anche il maestro \Ncon me quella volta.
+Dialogue: 0,0:34:14.44,0:34:20.28,Default,,0000,0000,0000,,E mi ha pregato di non dire niente a nessuno\N fino a quando non fosse arrivato il momento.
+Dialogue: 0,0:34:21.07,0:34:26.50,Default,,0000,0000,0000,,Hai vinto tu, Mako. \NIl tuo trucco ha fregato la polizia.
+Dialogue: 0,0:34:26.50,0:34:32.29,Default,,0000,0000,0000,,A questo punto, il suo messaggio \Nin punto di morte non costituisce alcuna prova.
+Dialogue: 0,0:34:33.50,0:34:35.00,Default,,0000,0000,0000,,Non prenderti gioco di me.
+Dialogue: 0,0:34:35.00,0:34:39.26,Default,,0000,0000,0000,,Visto come è andata, non ho più\N intenzione di salire sul palcoscenico.
+Dialogue: 0,0:34:39.26,0:34:43.31,Default,,0000,0000,0000,,Andrò a costituirmi alla polizia\N facendo calare il sipario su me stessa.
+Dialogue: 0,0:34:44.01,0:34:49.60,Default,,0000,0000,0000,,E poi, mi dispiace che farò provare\N ad Ayano quello che ho passato io.
+Dialogue: 0,0:34:53.32,0:34:57.19,Italics,,0000,0000,0000,,Dopodiché, abbiamo \Naccompagnato Mako dalla polizia.
+Dialogue: 0,0:34:57.57,0:35:02.20,Italics,,0000,0000,0000,,E ora stiamo tornando all'agenzia \Ndove ci attende la cena preparata da Ran.
+Dialogue: 0,0:35:03.95,0:35:06.95,Default,,0000,0000,0000,,Wow, è già mezzanotte passata.
+Dialogue: 0,0:35:06.95,0:35:08.96,Default,,0000,0000,0000,,Ho fame...
+Dialogue: 0,0:35:12.25,0:35:15.96,Default,,0000,0000,0000,,Oh, no! Mi sono dimenticata \Ndi fare la spesa per la cena!
+Dialogue: 0,0:35:17.30,0:35:21.80,Default,,0000,0000,0000,,Tranquillo! Io e Conan andiamo subito\N a comprare qualcosa al minimarket!
+Dialogue: 0,0:35:21.80,0:35:24.71,Default,,0000,0000,0000,,Fate presto! Vi aspetto a casa.
+Dialogue: 0,0:35:26.56,0:35:31.60,Default,,0000,0000,0000,,S-Senti, Ran, questa non è la strada \Nper arrivare al minimarket.
+Dialogue: 0,0:35:31.98,0:35:36.15,Default,,0000,0000,0000,,Se ti sei persa, ci conviene \Ntornare prima all'agenzia investigativa...
+Dialogue: 0,0:35:36.69,0:35:39.14,Default,,0000,0000,0000,,Sì, stiamo proprio tornando...
+Dialogue: 0,0:35:39.14,0:35:42.62,Cartello BASE,,0000,0000,0000,,{\fad(0,500)\an7\blur1\bord0\shad0\fscx100\fscy100\pos(446.207,57.9)\p1\c&H88A8A0&}m -20 -17 l 20 -17 20 2 -20 2
+Dialogue: 1,0:35:39.14,0:35:42.62,Cartello BASE,,0000,0000,0000,,{\fad(0,500)\blur0.8\fs16\pos(446.207,57.9)\fnTimes New Roman\c&H2C4937&\b1}Kudo
+Dialogue: 0,0:35:40.86,0:35:42.03,Default,,0000,0000,0000,,a casa tua!
+Dialogue: 0,0:35:46.20,0:35:50.37,Default,,0000,0000,0000,,M-Ma che stai dicendo?\N Qui ci abita Shinichi!
+Dialogue: 0,0:35:50.37,0:35:51.98,Default,,0000,0000,0000,,Su, smettila!
+Dialogue: 0,0:35:52.87,0:35:57.88,Default,,0000,0000,0000,,Già, è proprio in questo modo\N che mi hai fregata fino a oggi.
+Dialogue: 0,0:35:58.88,0:36:00.38,Default,,0000,0000,0000,,Non è così...
+Dialogue: 0,0:36:01.51,0:36:02.51,Default,,0000,0000,0000,,Shinichi?!
+Dialogue: 0,0:36:22.07,0:36:24.24,Default,,0000,0000,0000,,Sei proprio tu, vero, Shinichi?
+Dialogue: 0,0:36:26.70,0:36:31.00,Default,,0000,0000,0000,,M-Ma che stai dicendo?!\N È ovvio che non sono Shinichi!
+Dialogue: 0,0:36:31.00,0:36:33.08,Default,,0000,0000,0000,,No, so di non sbagliarmi!
+Dialogue: 0,0:36:33.08,0:36:38.17,Default,,0000,0000,0000,,Hai la sua capacità deduttiva, \Nil suo modo di agire e per di più sei anche stonato!
+Dialogue: 0,0:36:38.17,0:36:39.88,Default,,0000,0000,0000,,Sei uguale a lui!
+Dialogue: 0,0:36:39.88,0:36:42.47,Default,,0000,0000,0000,,Ma guardami, sono solo un bambino!
+Dialogue: 0,0:36:42.88,0:36:46.47,Default,,0000,0000,0000,,Probabilmente hai bevuto\Nqualche strano intruglio del professor Agasa!
+Dialogue: 0,0:36:46.47,0:36:49.39,Italics,,0000,0000,0000,,Mamma mia, il suo ragionamento fila!
+Dialogue: 0,0:36:49.89,0:36:53.89,Default,,0000,0000,0000,,Avanti, smettila di fare il finto tonto! \NCi sono un sacco di cose che voglio dirti!
+Dialogue: 0,0:36:54.91,0:36:57.25,Default,,0000,0000,0000,,Sono davvero, ma davvero tantissime!
+Dialogue: 0,0:36:58.61,0:37:00.15,Italics,,0000,0000,0000,,Si mette male...
+Dialogue: 0,0:37:00.73,0:37:02.20,Default,,0000,0000,0000,,Hai qualche prova?
+Dialogue: 0,0:37:03.07,0:37:05.63,Default,,0000,0000,0000,,Non dire cose strane \Nse non hai nemmeno una prova.
+Dialogue: 0,0:37:07.45,0:37:09.12,Default,,0000,0000,0000,,Ne ho una proprio qui...
+Dialogue: 0,0:37:13.04,0:37:16.83,Default,,0000,0000,0000,,Guarda qui! Non ho mai visto\N due persone assomigliarsi tanto!
+Dialogue: 0,0:37:17.21,0:37:18.75,Default,,0000,0000,0000,,M-Ma è perché...
+Dialogue: 0,0:37:18.75,0:37:21.96,Default,,0000,0000,0000,,È il momento di confessare, Shinichi!
+Dialogue: 0,0:37:21.96,0:37:23.55,Default,,0000,0000,0000,,Oh! Ran!
+Dialogue: 0,0:37:26.13,0:37:29.64,Default,,0000,0000,0000,,Cosa ci fai davanti a casa mia\N nel cuore della notte?
+Dialogue: 0,0:37:30.10,0:37:35.31,Default,,0000,0000,0000,,L-La madre di Shinichi... \NQuando è tornata da Los Angeles?
+Dialogue: 0,0:37:35.31,0:37:38.23,Default,,0000,0000,0000,,Proprio adesso, \Nho preso l'ultimo volo.
+Dialogue: 0,0:37:38.23,0:37:40.08,Default,,0000,0000,0000,,Ho delle faccende da sbrigare.
+Dialogue: 0,0:37:40.77,0:37:45.28,Italics,,0000,0000,0000,,Che guaio! Va a finire che mia madre\N si mette a dire qualcosa che non dovrebbe...
+Dialogue: 0,0:37:45.78,0:37:47.78,Default,,0000,0000,0000,,Oh? Chi c'è là dietro?
+Dialogue: 0,0:37:49.12,0:37:52.04,Default,,0000,0000,0000,,Tempismo perfetto! \NPosso chiedere conferma a tua madre,
+Dialogue: 0,0:37:53.54,0:37:55.41,Default,,0000,0000,0000,,la donna che ti ha messo al mondo!
+Dialogue: 0,0:38:01.21,0:38:02.21,Default,,0000,0000,0000,,Oh, santo cielo!
+Dialogue: 0,0:38:02.67,0:38:05.03,Default,,0000,0000,0000,,Ma tu sei Conan!\N Da quanto tempo che non ci vediamo!
+Dialogue: 0,0:38:06.48,0:38:08.34,Default,,0000,0000,0000,,L-Lo conosce?
+Dialogue: 0,0:38:08.34,0:38:09.05,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:38:09.05,0:38:14.18,Default,,0000,0000,0000,,È il nipote dello zio del cugino\N della figlia del fratello di mio nonno!
+Dialogue: 0,0:38:14.64,0:38:18.14,Default,,0000,0000,0000,,Ma io sapevo \Nche è un familiare del professor Agasa.
+Dialogue: 0,0:38:18.14,0:38:22.23,Default,,0000,0000,0000,,Esatto! Io e il professore\N siamo lontani parenti!
+Dialogue: 0,0:38:22.23,0:38:26.11,Default,,0000,0000,0000,,Però, non le sembra che somigli\N un po' troppo a Shinichi da piccolo?
+Dialogue: 0,0:38:26.11,0:38:30.20,Default,,0000,0000,0000,,Dici? A me sembra che Conan\N abbia un'aria un po' più intelligente.
+Dialogue: 0,0:38:30.57,0:38:33.16,Default,,0000,0000,0000,,La tua mamma è la signora Fumiyo, giusto?
+Dialogue: 0,0:38:33.16,0:38:33.95,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:38:35.91,0:38:37.46,Default,,0000,0000,0000,,Mi sento presa un po' in giro.
+Dialogue: 0,0:38:38.75,0:38:44.09,Default,,0000,0000,0000,,È assurdo che un bambino delle elementari \Nriesca a formulare quelle deduzioni!
+Dialogue: 0,0:38:44.38,0:38:47.97,Default,,0000,0000,0000,,D-Deve aver assorbito\N i modi di fare di Shinichi!
+Dialogue: 0,0:38:47.97,0:38:50.09,Default,,0000,0000,0000,,In passato veniva spesso a trovarci!
+Dialogue: 0,0:38:50.09,0:38:52.55,Default,,0000,0000,0000,,Stava sempre insieme a Shinichi?
+Dialogue: 0,0:38:52.55,0:38:53.35,Default,,0000,0000,0000,,Giusto?
+Dialogue: 0,0:38:53.35,0:38:55.60,Default,,0000,0000,0000,,Voglio tanto bene a Shinichi!
+Dialogue: 0,0:38:56.10,0:38:58.10,Default,,0000,0000,0000,,Nonostante questo...
+Dialogue: 0,0:38:58.60,0:39:04.15,Default,,0000,0000,0000,,Ran, prova un attimo a pensarci. \NShinichi si comporterebbe mai così?
+Dialogue: 0,0:39:05.73,0:39:07.61,Default,,0000,0000,0000,,Mi stai facendo paura, Ran.
+Dialogue: 0,0:39:07.61,0:39:09.99,Italics,,0000,0000,0000,,Mi stai facendo paura, Ran...
+Dialogue: 0,0:39:17.83,0:39:22.17,Default,,0000,0000,0000,,Scusami tanto, Conan! \NA quanto pare mi sono sbagliata!
+Dialogue: 0,0:39:22.17,0:39:24.38,Default,,0000,0000,0000,,Dimentica tutto quello che ho detto!
+Dialogue: 0,0:39:25.18,0:39:27.66,Default,,0000,0000,0000,,Per farmi perdonare,\N ti preparo una bella bistecca.
+Dialogue: 0,0:39:27.66,0:39:28.13,Default,,0000,0000,0000,,Evviva!
+Dialogue: 0,0:39:28.13,0:39:29.72,Default,,0000,0000,0000,,Oh, un attimo!
+Dialogue: 0,0:39:29.72,0:39:32.84,Default,,0000,0000,0000,,Posso tenerlo io per due o tre giorni?
+Dialogue: 0,0:39:32.84,0:39:34.74,Default,,0000,0000,0000,,Da domani sono in vacanza
+Dialogue: 0,0:39:34.74,0:39:37.10,Default,,0000,0000,0000,,ed è da parecchio \Nche non passo del tempo con lui.
+Dialogue: 0,0:39:39.48,0:39:41.39,Default,,0000,0000,0000,,Va bene, nessun problema.
+Dialogue: 0,0:39:42.10,0:39:43.77,Default,,0000,0000,0000,,Allora, a presto, Conan!
+Dialogue: 0,0:39:45.90,0:39:46.90,Default,,0000,0000,0000,,Buonanotte!
+Dialogue: 0,0:39:46.90,0:39:48.74,Default,,0000,0000,0000,,Buonanotte, Ran!
+Dialogue: 0,0:39:48.74,0:39:50.11,Default,,0000,0000,0000,,Fa' attenzione!
+Dialogue: 0,0:39:55.37,0:39:57.83,Default,,0000,0000,0000,,Allora, perché sei tornata?
+Dialogue: 0,0:39:58.20,0:40:01.58,Default,,0000,0000,0000,,Non dirmi che è per il litigio \Nche hai avuto nel pomeriggio con papà.
+Dialogue: 0,0:40:02.08,0:40:05.50,Default,,0000,0000,0000,,Oh, è questo il modo di parlare \Nalla persona che ti ha appena salvato la vita?
+Dialogue: 0,0:40:05.50,0:40:07.05,Default,,0000,0000,0000,,Salvato la vita?
+Dialogue: 0,0:40:07.05,0:40:09.09,Default,,0000,0000,0000,,Guarda che il professor Agasa me lo ha detto...
+Dialogue: 0,0:40:09.71,0:40:12.47,Default,,0000,0000,0000,,Hai fatto il bagno insieme a Ran!
+Dialogue: 0,0:40:12.47,0:40:14.01,Default,,0000,0000,0000,,Se non ci fossi stata io,
+Dialogue: 0,0:40:14.01,0:40:17.01,Default,,0000,0000,0000,,chissà cosa ti avrebbe fatto\N con le sue mosse di karate!
+Dialogue: 0,0:40:20.98,0:40:22.14,Default,,0000,0000,0000,,Non trovi?
+Dialogue: 0,0:40:24.94,0:40:28.57,Default,,0000,0000,0000,,Comunque, spero che tu \Nabbia detto a papà che sei venuta qui.
+Dialogue: 0,0:40:28.90,0:40:30.57,Default,,0000,0000,0000,,Certo che no!
+Dialogue: 0,0:40:30.57,0:40:31.99,Default,,0000,0000,0000,,Ma insomma!
+Dialogue: 0,0:40:31.99,0:40:35.75,Default,,0000,0000,0000,,Va tutto bene! \NMe ne starò un po' qui con te, Shin!
+Dialogue: 0,0:40:36.28,0:40:38.74,Default,,0000,0000,0000,,Santo cielo! Non mettermi in mezzo!
+Dialogue: 0,0:40:38.74,0:40:45.16,Default,,0000,0000,0000,,Ma vedi, a stare con la tua versione mignon, \Nmi sento di nuovo giovane anche io!
+Dialogue: 0,0:40:50.71,0:40:54.38,Default,,0000,0000,0000,,Bene! Adesso il mio piccolino\N cenerà con la sua mammina!
+Dialogue: 0,0:40:55.55,0:40:57.22,Default,,0000,0000,0000,,Lasciami!
+Dialogue: 0,0:41:24.83,0:41:26.08,Default,,0000,0000,0000,,Che sta succedendo?!
+Dialogue: 0,0:41:26.08,0:41:28.46,Default,,0000,0000,0000,,Oh, ti sei svegliato, Shin?
+Dialogue: 0,0:41:28.84,0:41:30.25,Default,,0000,0000,0000,,M-Mamma!
+Dialogue: 0,0:41:30.25,0:41:34.09,Default,,0000,0000,0000,,Sono tornata in Giappone\N anche perché avevo un impegno.
+Dialogue: 0,0:41:34.09,0:41:35.63,Default,,0000,0000,0000,,Che impegno?!
+Dialogue: 0,0:41:36.01,0:41:37.14,Default,,0000,0000,0000,,Ehi!
+Dialogue: 0,0:41:43.43,0:41:44.85,Default,,0000,0000,0000,,Yuki!
+Dialogue: 0,0:41:44.85,0:41:46.85,Default - Alt,,0000,0000,0000,,Che bello, sei venuta!
+Dialogue: 0,0:41:44.85,0:41:48.61,Cartello BASE,,0000,0000,0000,,{\an7\blur1.3\bord0\shad0\fscx100\fscy100\pos(306.25,258.462)\p1\c&H7F4751&\1a&H45&}m -103 -42 l 103 -42 103 5 -103 5
+Dialogue: 1,0:41:44.85,0:41:48.61,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs23\shad0\bord0\fnTrebuchet MS\pos(306.25,258.462)}Hiromi Yabuuchi (37)\N {\fs13}Vecchia compagna di scuola di Yukiko
+Dialogue: 0,0:41:46.85,0:41:48.61,Default - Alt,,0000,0000,0000,,Grazie, so che sei molto impegnata!
+Dialogue: 0,0:41:49.02,0:41:51.90,Default,,0000,0000,0000,,Non ho esitato a precipitarmi qui \Ndall'altra parte del mondo
+Dialogue: 0,0:41:51.90,0:41:54.24,Default,,0000,0000,0000,,per aiutare la mia carissima amica d'infanzia!
+Dialogue: 0,0:41:54.24,0:41:56.78,Default,,0000,0000,0000,,Oh? E dove sono Yusaku e Shinichi?
+Dialogue: 0,0:41:56.78,0:41:59.37,Default,,0000,0000,0000,,Oh, quei due sono sempre impegnati!
+Dialogue: 0,0:41:59.37,0:42:03.37,Default,,0000,0000,0000,,Ma non preoccuparti, \Nho portato lui al posto loro!
+Dialogue: 0,0:42:03.37,0:42:05.12,Default,,0000,0000,0000,,Eh? Non dirmi che è...
+Dialogue: 0,0:42:05.12,0:42:09.42,Default,,0000,0000,0000,,Esatto! Il mio secondo figlio \Nnato a Los Angeles, si chiama Conan!
+Dialogue: 0,0:42:09.42,0:42:10.42,Default,,0000,0000,0000,,Ehi, ehi!
+Dialogue: 0,0:42:10.42,0:42:12.75,Default,,0000,0000,0000,,È ancora piccolo, \Nma è parecchio intelligente!
+Dialogue: 0,0:42:13.17,0:42:16.93,Default,,0000,0000,0000,,Oh! Vedo che vai ancora\N molto d'accordo con tuo marito!
+Dialogue: 0,0:42:16.93,0:42:17.76,Default,,0000,0000,0000,,Certo!
+Dialogue: 0,0:42:20.79,0:42:23.87,Default,,0000,0000,0000,,Allora, cos'è che vuoi farmi controllare?
+Dialogue: 0,0:42:24.43,0:42:26.10,Default,,0000,0000,0000,,Il fatto è che...
+Dialogue: 0,0:42:26.43,0:42:29.35,Default,,0000,0000,0000,,Oh? Abbiamo ospiti, Hiromi?
+Dialogue: 0,0:42:29.35,0:42:31.02,Default,,0000,0000,0000,,Zio Yoshifusa!
+Dialogue: 0,0:42:31.69,0:42:35.65,Default,,0000,0000,0000,,È Yukiko! Da piccola\N veniva sempre a giocare da noi!
+Dialogue: 0,0:42:35.65,0:42:37.45,Default,,0000,0000,0000,,Lieta di rivederla!
+Dialogue: 0,0:42:38.70,0:42:41.78,Default - Alt,,0000,0000,0000,,Uhm, non mi ricordo di lei.
+Dialogue: 0,0:42:38.91,0:42:43.43,Cartello BASE,,0000,0000,0000,,{\fad(350,350)\an7\blur1.3\bord0\shad0\fscx100\fscy100\pos(323.182,254.435)\p1\c&H543D69&\1a&H36&}m -115 -40 l 113 -40 113 2 -115 2
+Dialogue: 1,0:42:38.91,0:42:43.43,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,350)\fs23\shad0\bord0\fnTrebuchet MS\pos(323.182,254.435)}Yoshifusa Yabuuchi (64) \N{\fs15}Zio di Hiromi
+Dialogue: 0,0:42:41.78,0:42:44.41,Default - Alt,,0000,0000,0000,,Ma ho vissuto\N per così tanto tempo in Brasile...
+Dialogue: 0,0:42:46.79,0:42:48.84,Default,,0000,0000,0000,,Fa' come se fossi a casa tua.
+Dialogue: 0,0:42:49.33,0:42:51.70,Default,,0000,0000,0000,,Forza! Andiamo, Carlos!
+Dialogue: 0,0:42:51.70,0:42:54.19,Cartello BASE,,0000,0000,0000,,{\fad(350,350)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&HBB676C&\1a&H50&\pos(299.745,253.822)}m -89 -38 l 88 -38 88 5 -89 5
+Dialogue: 1,0:42:51.70,0:42:54.19,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,350)\fs23\shad0\bord0\fnTrebuchet MS\pos(299.745,253.822)}Carlos (26) \N{\fs13}Un amico di Yoshifusa Yabuuchi
+Dialogue: 0,0:42:55.51,0:42:56.76,Default,,0000,0000,0000,,C-Carlos?
+Dialogue: 0,0:42:57.26,0:43:01.59,Default,,0000,0000,0000,,Lo zio ha detto che è un amico\N venuto con lui dal Brasile...
+Dialogue: 0,0:43:01.59,0:43:02.76,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:43:03.26,0:43:06.93,Default,,0000,0000,0000,,Ma dimmi, \Ncome ti è sembrato lo zio Yoshifusa?
+Dialogue: 0,0:43:06.93,0:43:07.73,Default,,0000,0000,0000,,In che senso?
+Dialogue: 0,0:43:07.73,0:43:10.27,Default,,0000,0000,0000,,Il volto, la sua voce... \NChe impressione ti ha fatto?
+Dialogue: 0,0:43:10.73,0:43:15.48,Default,,0000,0000,0000,,Uhm, in effetti \Nin passato giocavamo spesso con lui,
+Dialogue: 0,0:43:15.48,0:43:19.03,Default,,0000,0000,0000,,ma è andato in Brasile prima \Nche entrassi alle elementari, per cui...
+Dialogue: 0,0:43:19.24,0:43:22.95,Default,,0000,0000,0000,,Un attimo, quindi vuoi\N che indaghi su Yoshifusa?
+Dialogue: 0,0:43:22.95,0:43:26.79,Default,,0000,0000,0000,,Sì... È tornato dal Brasile tre giorni fa,
+Dialogue: 0,0:43:26.79,0:43:30.09,Default,,0000,0000,0000,,però a me sembra diverso da com'era prima.
+Dialogue: 0,0:43:30.62,0:43:37.21,Default,,0000,0000,0000,,Perché non lo fai incontrare a tuo padre? \NDopotutto Yoshifusa è suo fratello minore, no?
+Dialogue: 0,0:43:37.21,0:43:39.01,Default,,0000,0000,0000,,È impossibile.
+Dialogue: 0,0:43:39.72,0:43:44.55,Default,,0000,0000,0000,,Mio padre Yoshichika è morto\N lo scorso mese per colpa di un tumore.
+Dialogue: 0,0:43:44.55,0:43:46.35,Default,,0000,0000,0000,,U-Un tumore?
+Dialogue: 0,0:43:46.35,0:43:49.60,Default,,0000,0000,0000,,Esatto, e mia madre\N è mancata quindici anni fa.
+Dialogue: 0,0:43:49.60,0:43:53.94,Default,,0000,0000,0000,,Per di più gli amici dello zio \Nsono tutti morti giovani, per cui...
+Dialogue: 0,0:43:54.44,0:43:59.94,Default,,0000,0000,0000,,Noi due siamo le uniche ad averlo\N incontrarlo diverse volte in passato.
+Dialogue: 0,0:43:59.94,0:44:03.07,Default,,0000,0000,0000,,Ma perché sospetti di lui?
+Dialogue: 0,0:44:03.07,0:44:04.16,Default,,0000,0000,0000,,Per via dell'eredità.
+Dialogue: 0,0:44:04.57,0:44:05.95,Default,,0000,0000,0000,,Tesoro!
+Dialogue: 0,0:44:05.95,0:44:08.04,Default - Alt,,0000,0000,0000,,Abbiamo tutti sospetti su quell'uomo.
+Dialogue: 0,0:44:05.95,0:44:13.96,Cartello BASE,,0000,0000,0000,,{\an7\blur1.3\bord0\shad0\fscx100\fscy150\pos(329.9,249.981)\p1\c&H723C28&\1a&H66&}m -116 -39 l 113 -39 113 4 -116 4
+Dialogue: 1,0:44:05.95,0:44:13.96,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs23\shad0\bord0\fnTrebuchet MS\pos(329.9,249.981)}Hidekazu Yabuuchi (41) \N{\fs14} Marito di Hiromi\N(ha preso il cognome della moglie)
+Dialogue: 0,0:44:08.04,0:44:13.96,Default - Alt,,0000,0000,0000,,Temiamo sia un impostore venuto qui\N per rubare l'eredità di mio suocero.
+Dialogue: 0,0:44:14.42,0:44:17.55,Default,,0000,0000,0000,,Era un grande proprietario terriero, \Nquasi tutta la zona è sua.
+Dialogue: 0,0:44:17.55,0:44:19.33,Default,,0000,0000,0000,,L'eredità è molto grande.
+Dialogue: 0,0:44:19.84,0:44:23.97,Default,,0000,0000,0000,,L'avvocato ha detto \Nche ha lasciato un testamento,
+Dialogue: 1,0:44:21.10,0:44:26.92,Cartello BASE,,0000,0000,0000,,{\fad(1200,0)\c&H000101&\fs15\t(\fs32)\blur0.5\fnComic Sans MS\move(480.575,36.482,480.575,43.006,16,5814)}Testamento
+Dialogue: 0,0:44:21.10,0:44:31.98,Cartello BASE,,0000,0000,0000,,{\fad(1200,0)\an7\blur1\bord1.3\shad0\fscx100\fscy100\p1\c&HDADADA&\3c&H717171&\pos(477.234,42.413)}m -71 -35 l 77 -35 77 8 -71 8
+Dialogue: 0,0:44:24.55,0:44:28.49,Default,,0000,0000,0000,,e coloro che non saranno presenti\N durante la sua apertura,
+Dialogue: 3,0:44:26.92,0:44:31.98,Cartello BASE,,0000,0000,0000,,{\fs32\blur0.5\fnComic Sans MS\c&H000101&\pos(480.626,42.87)}Testamento
+Dialogue: 0,0:44:28.49,0:44:31.98,Default,,0000,0000,0000,,non prenderanno nemmeno un misero yen.
+Dialogue: 0,0:44:32.60,0:44:36.06,Default,,0000,0000,0000,,E quando ci sarà questa lettura?
+Dialogue: 0,0:44:36.06,0:44:38.98,Default,,0000,0000,0000,,Domani sera alle 22:00, \Nquando finirà il suo periodo di lutto.
+Dialogue: 0,0:44:38.98,0:44:43.28,Default - Alt,,0000,0000,0000,,In pratica, prima di allora\Ndovremo smascherare quel vecchio.
+Dialogue: 0,0:44:39.22,0:44:43.24,Cartello BASE,,0000,0000,0000,,{\fad(250,350)\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H572712&\1a&H66&\pos(300.633,253.294)}m -113 -41 l 111 -41 111 3 -113 3
+Dialogue: 1,0:44:39.22,0:44:43.24,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(250,350)\fs23\shad0\bord0\fnTrebuchet MS\pos(300.633,253.294)}Yoshiyuki Yabuuchi (32)\N {\fs14}Fratello di Hiromi
+Dialogue: 0,0:44:43.78,0:44:46.99,Cartello BASE,,0000,0000,0000,,{\fad(350,0)\an7\blur1.3\bord0\shad0\fscx100\fscy100\pos(213.797,313.13)\p1\c&H7B3A1D&\1a&H71&}m -106 -46 l 100 -46 100 10 -106 10
+Dialogue: 1,0:44:43.78,0:44:46.99,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(350,0)\fs23\shad0\bord0\fnTrebuchet MS\pos(213.797,313.13)}Keiko Yabuuchi (28)\N {\fs15}Moglie di Yoshiyuki
+Dialogue: 0,0:44:43.78,0:44:46.99,Default - Alt,,0000,0000,0000,,Oppure riceveremo\N una parte più piccola.
+Dialogue: 0,0:44:46.99,0:44:50.87,Default - Alt,,0000,0000,0000,,Potrebbe non solo ridursi, \Nma anche diventare nulla.
+Dialogue: 0,0:44:46.99,0:44:54.67,Cartello BASE,,0000,0000,0000,,{\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H7A333F&\1a&H6C&\pos(310.212,249.671)}m -109 -44 l 107 -44 107 6 -109 6
+Dialogue: 1,0:44:46.99,0:44:54.67,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs23\shad0\bord0\fnTrebuchet MS\pos(310.212,249.671)}Machiko Yabuuchi (39)\N {\fs14}Seconda moglie di Yoshichika
+Dialogue: 0,0:44:50.87,0:44:54.67,Default - Alt,,0000,0000,0000,,Tutto dipenderà da cosa\N ci sarà scritto nel testamento.
+Dialogue: 0,0:44:54.67,0:44:58.42,Default,,0000,0000,0000,,Comunque, prima di domani sera\Ndobbiamo fare qualcosa.
+Dialogue: 0,0:44:58.92,0:45:01.40,Italics,,0000,0000,0000,,Da dove sono arrivate tutte 'ste persone?
+Dialogue: 0,0:45:04.43,0:45:05.39,Default,,0000,0000,0000,,Accidenti!
+Dialogue: 0,0:45:06.55,0:45:09.56,Default,,0000,0000,0000,,Ma non c'è nemmeno una sua vecchia foto?
+Dialogue: 0,0:45:09.56,0:45:15.19,Default,,0000,0000,0000,,A quanto pare, lo zio Yoshifusa le ha portate\N tutte con sé quando è andato in Brasile.
+Dialogue: 0,0:45:18.40,0:45:21.14,Default,,0000,0000,0000,,Oh, forse è quest'uomo?
+Dialogue: 0,0:45:21.86,0:45:24.57,Default,,0000,0000,0000,,Guardate! Ci siete anche voi due, mamma.
+Dialogue: 0,0:45:24.57,0:45:25.95,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:45:26.36,0:45:29.87,Default,,0000,0000,0000,,Ah, è proprio lui! Quello al centro!
+Dialogue: 0,0:45:29.87,0:45:31.95,Default,,0000,0000,0000,,È sicuramente Yoshifusa!
+Dialogue: 0,0:45:32.29,0:45:35.83,Default,,0000,0000,0000,,Ma è troppo giovane, \Nnon ci è di nessun aiuto.
+Dialogue: 0,0:45:35.83,0:45:37.96,Default,,0000,0000,0000,,In più, porta anche un cappello.
+Dialogue: 0,0:45:38.67,0:45:40.50,Default,,0000,0000,0000,,Mamma mia, quanti ricordi!
+Dialogue: 0,0:45:40.50,0:45:43.34,Default,,0000,0000,0000,,Qui eravamo\Nal campionato cittadino di baseball!
+Dialogue: 0,0:45:44.05,0:45:46.59,Default,,0000,0000,0000,,Ricordi? Si era fatto una brutta ferita
+Dialogue: 0,0:45:46.59,0:45:49.76,Default,,0000,0000,0000,,per colpa di un corridore \Nche gli era saltato sulla gamba.
+Dialogue: 0,0:45:49.76,0:45:53.35,Default,,0000,0000,0000,,Già, all'ospedale \Ngli avevano messo non so quanti punti.
+Dialogue: 0,0:45:54.35,0:45:57.31,Default,,0000,0000,0000,,Perciò, dovrebbe ancora \Naverne la cicatrice, no?
+Dialogue: 0,0:45:57.31,0:45:58.10,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,0:45:59.69,0:46:01.90,Default,,0000,0000,0000,,Hiromi, in bocca al lupo!
+Dialogue: 0,0:46:01.90,0:46:02.69,Default,,0000,0000,0000,,Sì...
+Dialogue: 0,0:46:04.24,0:46:06.74,Default,,0000,0000,0000,,Zio, ti andrebbe un po' di tè?
+Dialogue: 0,0:46:06.74,0:46:08.40,Default,,0000,0000,0000,,Oh, grazie mille.
+Dialogue: 0,0:46:09.74,0:46:10.53,Default,,0000,0000,0000,,Brucia!
+Dialogue: 0,0:46:10.53,0:46:12.37,Default,,0000,0000,0000,,Scusami! Pulisco subito...
+Dialogue: 0,0:46:13.41,0:46:14.02,Default,,0000,0000,0000,,Non c'è!
+Dialogue: 0,0:46:14.41,0:46:16.21,Default,,0000,0000,0000,,La cicatrice non c'è!
+Dialogue: 0,0:46:16.21,0:46:17.08,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,0:46:17.08,0:46:18.42,Default,,0000,0000,0000,,Cicatrice?
+Dialogue: 0,0:46:18.83,0:46:21.92,Default,,0000,0000,0000,,Ah, intendi questa?
+Dialogue: 0,0:46:24.34,0:46:29.05,Default,,0000,0000,0000,,Trent'anni fa, durante una partita di baseball,
+Dialogue: 0,0:46:29.05,0:46:32.85,Default,,0000,0000,0000,,un corridore mi è saltato sulla gamba\N mentre ero in prima base.
+Dialogue: 0,0:46:32.85,0:46:36.23,Default,,0000,0000,0000,,Eh? Ma allora ce l'ha...
+Dialogue: 0,0:46:36.23,0:46:37.85,Default,,0000,0000,0000,,Quindi è proprio lui?
+Dialogue: 0,0:46:38.90,0:46:41.52,Default,,0000,0000,0000,,Come pensavo, dubitavate di me.
+Dialogue: 0,0:46:41.52,0:46:45.32,Default,,0000,0000,0000,,Mio fratello aveva ragione!\N Qui ci sono solo pochi di buono!
+Dialogue: 0,0:46:45.32,0:46:47.86,Default,,0000,0000,0000,,Ho fatto bene a portare Carlos con me!
+Dialogue: 0,0:46:47.86,0:46:48.86,Default,,0000,0000,0000,,In che senso?
+Dialogue: 0,0:46:48.86,0:46:52.62,Default,,0000,0000,0000,,È la guardia del corpo \Nche ho assunto in Brasile.
+Dialogue: 0,0:46:52.62,0:46:53.49,Default,,0000,0000,0000,,G-Guar...
+Dialogue: 0,0:46:53.49,0:46:54.87,Default,,0000,0000,0000,,Guardia del corpo?!
+Dialogue: 0,0:46:55.41,0:46:56.77,Default,,0000,0000,0000,,Perché arrivare a tanto?
+Dialogue: 0,0:46:57.46,0:47:02.47,Default,,0000,0000,0000,,Ne assumeresti una anche tu \Nse avessi ricevuto una lettera del genere!
+Dialogue: 0,0:47:03.29,0:47:05.09,Italics,,0000,0000,0000,,"Per te non c'è nessuna eredità.
+Dialogue: 0,0:47:05.09,0:47:07.38,Italics,,0000,0000,0000,,Se tieni alla vita, non tornare qui."
+Dialogue: 0,0:47:07.38,0:47:09.24,Default,,0000,0000,0000,,A-Alla vita?!
+Dialogue: 0,0:47:39.53,0:47:41.83,Default,,0000,0000,0000,,Q-Quando l'hai ricevuta?
+Dialogue: 0,0:47:41.83,0:47:46.88,Default,,0000,0000,0000,,Un mese fa. Qualcuno me l'ha spedita \Nal mio indirizzo in Brasile.
+Dialogue: 0,0:47:46.88,0:47:50.22,Default,,0000,0000,0000,,Ovviamente non c'era il nome del mittente.
+Dialogue: 0,0:47:51.38,0:47:54.18,Default,,0000,0000,0000,,Non mi è mai interessata \Nl'eredità di mio fratello,
+Dialogue: 0,0:47:54.18,0:47:56.43,Default,,0000,0000,0000,,ma ero curioso\Ndi vedere la faccia dei buffoni
+Dialogue: 0,0:47:56.43,0:48:00.13,Default,,0000,0000,0000,,che mi hanno mandato\Nquesta stupida lettera.
+Dialogue: 0,0:48:01.56,0:48:02.82,Italics,,0000,0000,0000,,Buffoni?
+Dialogue: 0,0:48:03.44,0:48:06.86,Default,,0000,0000,0000,,Bene, ora se siete soddisfatti,\N uscite subito da qui!
+Dialogue: 0,0:48:06.86,0:48:09.19,Default,,0000,0000,0000,,Senti, signore, \Nti va di insegnarmi dei kanji?
+Dialogue: 0,0:48:10.32,0:48:13.20,Default,,0000,0000,0000,,La mamma si rifiuta di farlo.
+Dialogue: 0,0:48:13.20,0:48:14.03,Default,,0000,0000,0000,,Smettila, Shin...
+Dialogue: 0,0:48:14.70,0:48:16.70,Default,,0000,0000,0000,,Volevo dire, Conan!
+Dialogue: 0,0:48:16.70,0:48:19.41,Default,,0000,0000,0000,,Come si scrive "felice anno nuovo"?
+Dialogue: 0,0:48:22.79,0:48:24.83,Default,,0000,0000,0000,,È-È mancino?!
+Dialogue: 0,0:48:26.38,0:48:28.67,Default,,0000,0000,0000,,Hai visto, Hiromi?
+Dialogue: 0,0:48:28.67,0:48:33.09,Default,,0000,0000,0000,,Sì, ma non mi ricordo \Nse lo zio fosse mancino o meno...
+Dialogue: 0,0:48:33.09,0:48:34.84,Default,,0000,0000,0000,,E tu, Yuki?
+Dialogue: 0,0:48:34.84,0:48:36.51,Default,,0000,0000,0000,,Per niente.
+Dialogue: 0,0:48:36.51,0:48:43.14,Default,,0000,0000,0000,,Però aveva quella cicatrice sulla gamba, \Nquindi credo sia il vero signor Yoshifusa.
+Dialogue: 0,0:48:43.52,0:48:46.16,Default,,0000,0000,0000,,No, magari qualcuno gli ha detto della ferita,
+Dialogue: 0,0:48:46.16,0:48:51.11,Default,,0000,0000,0000,,e lui ne ha fatta passare una sua\N per quella che cercavamo.
+Dialogue: 0,0:48:51.11,0:48:53.40,Default,,0000,0000,0000,,Quindi quel vecchio è un impostore?!
+Dialogue: 0,0:48:53.40,0:48:55.22,Default,,0000,0000,0000,,Io credo che sia quello vero.
+Dialogue: 0,0:48:56.28,0:49:00.62,Default,,0000,0000,0000,,Guardate la foto del signor Yoshifusa\N che abbiamo trovato prima.
+Dialogue: 0,0:49:01.29,0:49:06.13,Default,,0000,0000,0000,,Visto? Ha il guanto nella mano destra.\N Questo prova che è mancino.
+Dialogue: 0,0:49:06.83,0:49:07.92,Default,,0000,0000,0000,,In effetti...
+Dialogue: 0,0:49:07.92,0:49:10.21,Default,,0000,0000,0000,,E anche la sua scrittura è la stessa.
+Dialogue: 0,0:49:10.21,0:49:10.92,Default,,0000,0000,0000,,Scrittura?
+Dialogue: 0,0:49:10.92,0:49:14.51,Default,,0000,0000,0000,,Ho trovato questa cartolina\N insieme a quella fotografia.
+Dialogue: 0,0:49:14.51,0:49:19.35,Default,,0000,0000,0000,,È un biglietto d'auguri per il nuovo anno \Nche Yoshifuse ha spedito dal Brasile.
+Dialogue: 0,0:49:19.35,0:49:22.73,Default,,0000,0000,0000,,Qui ci sono gli ideogrammi\Nche gli ho fatto scrivere prima. Sono identici.
+Dialogue: 0,0:49:23.10,0:49:28.02,Default,,0000,0000,0000,,Un attimo, quindi gli hai chiesto\N di scrivertelo per controllare questa cosa?
+Dialogue: 0,0:49:28.02,0:49:30.78,Default,,0000,0000,0000,,Non per niente sei figlio di Yusaku Kudo,
+Dialogue: 0,0:49:30.78,0:49:32.86,Default,,0000,0000,0000,,uno dei migliori scrittori di gialli al mondo!
+Dialogue: 0,0:49:34.45,0:49:36.11,Default,,0000,0000,0000,,Lui è figlio mio! {\alpha&HFF&}Mio, chiaro?
+Dialogue: 0,0:49:36.11,0:49:36.60,Default,,0000,0000,0000,,Lui è figlio mio! Mi{\alpha&HFF&}o, chiaro?
+Dialogue: 0,0:49:36.60,0:49:37.09,Default,,0000,0000,0000,,Lui è figlio mio! Mio, {\alpha&HFF&}chiaro?
+Dialogue: 0,0:49:37.09,0:49:37.56,Default,,0000,0000,0000,,Lui è figlio mio! Mio, chia{\alpha&HFF&}ro?
+Dialogue: 0,0:49:37.56,0:49:38.12,Default,,0000,0000,0000,,Lui è figlio mio! Mio, chiaro?
+Dialogue: 0,0:49:38.87,0:49:39.91,Italics,,0000,0000,0000,,Sì...
+Dialogue: 0,0:49:42.29,0:49:43.33,Default,,0000,0000,0000,,Oh?
+Dialogue: 0,0:49:44.37,0:49:46.75,Default,,0000,0000,0000,,C'è ancora quel vecchio pozzo?
+Dialogue: 0,0:49:47.92,0:49:49.88,Default,,0000,0000,0000,,Nonostante quel brutto incidente...
+Dialogue: 0,0:49:49.88,0:49:50.88,Default,,0000,0000,0000,,Sì...
+Dialogue: 0,0:49:50.88,0:49:52.42,Default,,0000,0000,0000,,Incidente?
+Dialogue: 0,0:49:52.42,0:49:54.76,Default,,0000,0000,0000,,Mia madre è morta cadendoci dentro.
+Dialogue: 0,0:49:56.30,0:50:01.76,Default,,0000,0000,0000,,Quindici anni fa, in un giorno in cui\N aveva nevicato molto, mia madre è sparita.
+Dialogue: 0,0:50:01.76,0:50:04.31,Default,,0000,0000,0000,,L'abbiamo cercata ovunque, \Nma non siamo riusciti a trovarla.
+Dialogue: 0,0:50:04.31,0:50:07.19,Default,,0000,0000,0000,,Il mattimo dopo, \Npoco prima di chiamare la polizia,
+Dialogue: 0,0:50:07.19,0:50:10.98,Default,,0000,0000,0000,,abbiamo trovato il suo cadavere nel pozzo.
+Dialogue: 0,0:50:11.90,0:50:14.61,Default,,0000,0000,0000,,Avevamo deciso di distruggerlo\N visto che era pericoloso,
+Dialogue: 0,0:50:14.61,0:50:18.18,Default,,0000,0000,0000,,però mio suocero \Nper non dimenticarsi della moglie,
+Dialogue: 0,0:50:18.18,0:50:21.28,Default,,0000,0000,0000,,ha espresso il desiderio \Ndi lasciarlo integro fino alla sua morte.
+Dialogue: 0,0:50:21.74,0:50:25.20,Default,,0000,0000,0000,,Per questo è stato creato un recinto intorno?
+Dialogue: 0,0:50:25.20,0:50:30.00,Default,,0000,0000,0000,,Me ne sono occupato io,\N così che non ci cadesse nessun altro.
+Dialogue: 0,0:50:30.21,0:50:34.42,Default,,0000,0000,0000,,Ma i veri problemi \Nsorsero durante il funerale.
+Dialogue: 0,0:50:34.42,0:50:35.46,Default,,0000,0000,0000,,Al funerale?
+Dialogue: 0,0:50:35.46,0:50:39.05,Default,,0000,0000,0000,,Il fratello di mia madre \Nall'improvviso si mise a fare una scenata!
+Dialogue: 0,0:50:39.05,0:50:42.97,Default,,0000,0000,0000,,Insinuava che qualcuno di noi \Nl'avesse buttata là dentro!
+Dialogue: 0,0:50:42.97,0:50:44.93,Default,,0000,0000,0000,,E invece, com'era andata realmente?
+Dialogue: 0,0:50:45.64,0:50:49.65,Default,,0000,0000,0000,,La causa fu quella camelia \Nche lo zio Yoshifusa
+Dialogue: 0,0:50:49.65,0:50:52.94,Default,,0000,0000,0000,,aveva regalato ai miei genitori\N come regalo di nozze.
+Dialogue: 0,0:50:53.15,0:50:54.69,Default,,0000,0000,0000,,Una camelia?
+Dialogue: 0,0:50:54.69,0:50:57.28,Default,,0000,0000,0000,,Quell'albero di sasanqua vicino al pozzo.
+Dialogue: 0,0:50:57.28,0:51:02.08,Default,,0000,0000,0000,,La mamma era salita sul bordo del pozzo \Nper cogliere un fiore, ma poi scivolò.
+Dialogue: 0,0:51:02.91,0:51:07.91,Default,,0000,0000,0000,,Di certo voleva mostrarlo a noi, \Nquei fiori le piacevano moltissimo.
+Dialogue: 0,0:51:08.66,0:51:12.38,Default,,0000,0000,0000,,Quell'inverno avevano tardato a sbocciare,
+Dialogue: 0,0:51:12.38,0:51:15.47,Default,,0000,0000,0000,,e lei li stava aspettando \Ncon molta impazienza.
+Dialogue: 0,0:51:16.51,0:51:20.76,Default,,0000,0000,0000,,{\fad(0,400)}Nella sua mano, infatti, \Nfu trovato un fiore di camelia.
+Dialogue: 0,0:51:22.64,0:51:28.43,Default,,0000,0000,0000,,Però, il fratello di mia madre \Nnon accettò mai questa versione.
+Dialogue: 0,0:51:28.43,0:51:31.35,Default,,0000,0000,0000,,Sentite, ora che fine ha fatto?
+Dialogue: 0,0:51:31.35,0:51:32.48,Default,,0000,0000,0000,,Non ne ho idea.
+Dialogue: 0,0:51:32.48,0:51:37.49,Default,,0000,0000,0000,,Già allora era parecchio avanti\N con l'età, che sia già morto?
+Dialogue: 0,0:51:37.49,0:51:41.99,Default,,0000,0000,0000,,Un attimo! Però, se è ancora vivo,\N vorrà anche lui la sua parte di eredità, no?
+Dialogue: 0,0:51:41.99,0:51:46.33,Default,,0000,0000,0000,,Tranquillo, per legge non ne ha alcun diritto...
+Dialogue: 0,0:51:46.33,0:51:48.20,Default,,0000,0000,0000,,Non è detto.
+Dialogue: 0,0:51:48.45,0:51:53.23,Default,,0000,0000,0000,,Se mio marito ha scritto nel suo testamento\N che deve averne una parte anche lui,
+Dialogue: 0,0:51:53.23,0:51:54.71,Default,,0000,0000,0000,,allora sarà così.
+Dialogue: 0,0:51:54.71,0:51:59.92,Default,,0000,0000,0000,,Quindi c'è la possibilità che ce lo ritroviamo\N davanti entro le 22:00 di domani sera,
+Dialogue: 0,0:51:59.92,0:52:02.09,Default,,0000,0000,0000,,l'ora in cui verrà letto il testamento?!
+Dialogue: 0,0:52:02.09,0:52:02.89,Default,,0000,0000,0000,,Eh?!
+Dialogue: 0,0:52:03.30,0:52:08.43,Default,,0000,0000,0000,,Esatto. Se è ancora vivo, \Nquasi sicuramente si farà vivo.
+Dialogue: 0,0:52:08.43,0:52:13.15,Default,,0000,0000,0000,,In più, si porta dentro rancore\N verso di voi da ben quindici anni.
+Dialogue: 0,0:52:13.15,0:52:16.61,Default,,0000,0000,0000,,Comunque la faccenda non mi riguarda,
+Dialogue: 0,0:52:16.61,0:52:21.65,Default,,0000,0000,0000,,dopotutto quando è morta la sua prima moglie,\N io non facevo ancora parte della famiglia.
+Dialogue: 0,0:52:22.57,0:52:27.28,Default,,0000,0000,0000,,Giusto! Io ora devo andare\N al banchetto di nozze di un amico.
+Dialogue: 0,0:52:27.28,0:52:30.29,Default,,0000,0000,0000,,Occupati tu della casa, Hiromi.
+Dialogue: 0,0:52:31.00,0:52:32.75,Default,,0000,0000,0000,,Va bene, Machiko.
+Dialogue: 0,0:52:34.83,0:52:36.00,Default,,0000,0000,0000,,C-Chi va là?!
+Dialogue: 0,0:52:38.17,0:52:39.38,Default,,0000,0000,0000,,Che succede?
+Dialogue: 0,0:52:39.38,0:52:41.72,Default,,0000,0000,0000,,C'era qualcuno laggiù!
+Dialogue: 0,0:52:42.01,0:52:46.22,Default,,0000,0000,0000,,Un tipo sospetto ci stava guardando\N dallo spirarglio di quella porta di legno!
+Dialogue: 0,0:52:49.43,0:52:51.02,Default,,0000,0000,0000,,Non c'è nessuno.
+Dialogue: 0,0:52:51.02,0:52:53.48,Default,,0000,0000,0000,,Sicuro di non esserti sbagliato, ragazzino?
+Dialogue: 0,0:52:54.02,0:52:58.19,Default,,0000,0000,0000,,Che strano... \NEro sicuro che ci fosse qualcuno...
+Dialogue: 0,0:52:58.19,0:53:05.07,Default,,0000,0000,0000,,Non mi piace... Dite che era \Nproprio il fratello della defunta moglie?
+Dialogue: 0,0:53:07.62,0:53:12.12,Default,,0000,0000,0000,,Non dovevi! Oltre a ospitarmi mi stai \Nanche preparando una cena coi fiocchi!
+Dialogue: 0,0:53:12.12,0:53:16.21,Default,,0000,0000,0000,,Tranquilla! Il nabe è un piatto\N che si gusta meglio in compagnia!
+Dialogue: 0,0:53:16.54,0:53:20.25,Default,,0000,0000,0000,,Ma se ti sei portata \Ncon te un cambio di vestiti.
+Dialogue: 0,0:53:20.25,0:53:23.38,Default,,0000,0000,0000,,Avevi intenzione \Ndi fermarti qui fin dall'inizio...
+Dialogue: 0,0:53:23.92,0:53:27.51,Default,,0000,0000,0000,,Come, scusa? \NHai detto qualcosa, mio dolce Conan?
+Dialogue: 0,0:53:27.51,0:53:29.31,Default,,0000,0000,0000,,No, niente...
+Dialogue: 0,0:53:31.02,0:53:33.18,Default,,0000,0000,0000,,Chi potrebbe essere a quest'ora?
+Dialogue: 0,0:53:34.69,0:53:35.52,Default,,0000,0000,0000,,Pronto?
+Dialogue: 0,0:53:35.52,0:53:36.85,Italics,,0000,0000,0000,,Ah, sei tu, Hiromi?
+Dialogue: 0,0:53:37.16,0:53:40.02,Default,,0000,0000,0000,,Oh, Machiko. Che succede?
+Dialogue: 0,0:53:40.02,0:53:43.19,Italics,,0000,0000,0000,,Ho dimenticato di dirti una cosa,\N avevamo finito la legna per il bagno, vero?
+Dialogue: 0,0:53:43.19,0:53:46.61,Default,,0000,0000,0000,,Già, quindi oggi non sapevo \Nse era il caso o no di riempiere la vasca...
+Dialogue: 0,0:53:47.82,0:53:49.12,Default,,0000,0000,0000,,Machiko?!
+Dialogue: 0,0:53:51.12,0:53:53.37,Default,,0000,0000,0000,,Machiko, beviamoci un bicchierino!
+Dialogue: 0,0:53:53.37,0:53:56.87,Default,,0000,0000,0000,,Aspetta un attimo, ora sono al telefono!
+Dialogue: 0,0:53:56.87,0:53:58.21,Italics,,0000,0000,0000,,Oh, giusto!
+Dialogue: 0,0:53:58.21,0:54:02.55,Italics,,0000,0000,0000,,L'ho comprata io proprio \Nstamattina, la trovi vicino al magazzino.
+Dialogue: 0,0:54:02.55,0:54:03.17,Default,,0000,0000,0000,,Va bene.
+Dialogue: 0,0:54:03.17,0:54:05.67,Italics,,0000,0000,0000,,Beh, ci vediamo più tardi.
+Dialogue: 0,0:54:06.09,0:54:08.93,Default,,0000,0000,0000,,Mi sa che Machiko è già piuttosto ubriaca.
+Dialogue: 0,0:54:08.93,0:54:12.06,Default,,0000,0000,0000,,Santo cielo, e pensare che siamo\N ancora nel periodo di lutto di papà.
+Dialogue: 0,0:54:13.68,0:54:18.69,Default,,0000,0000,0000,,Oh! Una cena a base di nabe! \NOra sì che posso star tranquillo!
+Dialogue: 0,0:54:18.69,0:54:19.98,Default,,0000,0000,0000,,In che senso?
+Dialogue: 0,0:54:19.98,0:54:24.78,Default,,0000,0000,0000,,Non dovrò far assaggiare il cibo\N a Carlos per vedere se è avvelenato!
+Dialogue: 0,0:54:24.78,0:54:26.19,Default,,0000,0000,0000,,Insomma, zio!
+Dialogue: 0,0:54:26.40,0:54:29.97,Default,,0000,0000,0000,,Sono sicura che quella lettera \Nera solo uno scherzo!
+Dialogue: 0,0:54:30.82,0:54:32.20,Default,,0000,0000,0000,,Lo spero davvero.
+Dialogue: 0,0:54:36.00,0:54:38.66,Default,,0000,0000,0000,,Va bene la temperatura dell'acqua, Yuki?
+Dialogue: 0,0:54:38.66,0:54:40.71,Default,,0000,0000,0000,,Direi di sì!
+Dialogue: 0,0:54:40.71,0:54:44.17,Default,,0000,0000,0000,,Santo cielo,\N una vasca {\i1}goemon{\i0} di questi tempi?
+Dialogue: 0,0:54:44.17,0:54:46.72,Default,,0000,0000,0000,,E che male c'è? \NDà una bella atmosfera elegante.
+Dialogue: 0,0:54:47.05,0:54:50.94,Default,,0000,0000,0000,,Shin, cosa ne dici di fare un bel bagnetto\N con la tua mammina come ai vecchi tempi?
+Dialogue: 0,0:54:51.73,0:54:52.64,Default,,0000,0000,0000,,Scordatelo.
+Dialogue: 0,0:54:53.01,0:54:56.64,Default,,0000,0000,0000,,Senti, andresti a dire\N allo zio che la vasca è pronta?
+Dialogue: 0,0:54:56.64,0:54:59.69,Default,,0000,0000,0000,,In effetti, \Ngli è sempre piaciuto fare il bagno!
+Dialogue: 0,0:54:59.69,0:55:01.65,Default,,0000,0000,0000,,Era sempre lui ad entrare per primo!
+Dialogue: 0,0:55:02.00,0:55:06.78,Default,,0000,0000,0000,,Ma ce la farà Carlos a fare il bagno\N insieme a lui in una vasca tanto piccola?
+Dialogue: 0,0:55:06.78,0:55:08.28,Default,,0000,0000,0000,,Non dire sciocchezze!
+Dialogue: 0,0:55:08.28,0:55:11.20,Default,,0000,0000,0000,,Da quando è arrivato, \Nlo zio ha fatto il bagno tutte le sere
+Dialogue: 0,0:55:11.20,0:55:13.49,Default,,0000,0000,0000,,mentre Carlos è rimasto nella sala da pranzo.
+Dialogue: 0,0:55:13.49,0:55:17.41,Default,,0000,0000,0000,,Eh? Fa il bagno da solo \Nseparandosi dalla sua guardia del corpo?
+Dialogue: 0,0:55:19.87,0:55:25.42,Italics,,0000,0000,0000,,Ora capisco. Mentre lui fa il bagno,\N Carlos tiene d'occhio tutti gli altri...
+Dialogue: 0,0:55:25.88,0:55:28.42,Default,,0000,0000,0000,,Bene. Conto su di te, Carlos.
+Dialogue: 0,0:55:33.18,0:55:35.85,Default,,0000,0000,0000,,Pronto? Machiko?
+Dialogue: 0,0:55:35.85,0:55:38.27,Italics,,0000,0000,0000,,Allora? Hai trovato la legna?
+Dialogue: 0,0:55:38.27,0:55:41.56,Default,,0000,0000,0000,,Sì, lo zio è appena andato a fare il bagno!
+Dialogue: 0,0:55:41.56,0:55:42.98,Italics,,0000,0000,0000,,Eh? Davvero?
+Dialogue: 0,0:55:42.98,0:55:47.61,Italics,,0000,0000,0000,,Sono ancora alla festa. \NNon credo che tornerò prima delle 23:00.
+Dialogue: 0,0:55:47.61,0:55:51.20,Italics,,0000,0000,0000,,Mi spiace chiedertelo, però \Npotresti tenere l'acqua calda fino a quell'ora?
+Dialogue: 0,0:55:51.20,0:55:52.78,Default,,0000,0000,0000,,Certo!
+Dialogue: 0,0:55:58.29,0:56:00.04,Default,,0000,0000,0000,,Che bel bagno!
+Dialogue: 0,0:56:00.04,0:56:02.29,Default,,0000,0000,0000,,Bene, adesso vado io.
+Dialogue: 0,0:56:02.29,0:56:04.59,Default,,0000,0000,0000,,Allora dopo di te, andrò io.
+Dialogue: 0,0:56:08.34,0:56:10.55,Default,,0000,0000,0000,,Ah, com'era l'acqua?
+Dialogue: 0,0:56:10.55,0:56:13.18,Default,,0000,0000,0000,,Si sta un po' raffreddando.
+Dialogue: 0,0:56:13.18,0:56:15.93,Default,,0000,0000,0000,,In tal caso, sarà meglio\N che vada a regolare il fuoco.
+Dialogue: 0,0:56:15.93,0:56:16.60,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:56:16.85,0:56:18.14,Default,,0000,0000,0000,,Grazie dell'impegno!
+Dialogue: 0,0:56:18.14,0:56:19.39,Default,,0000,0000,0000,,Fa' come se fossi a casa tua!
+Dialogue: 0,0:56:23.60,0:56:28.07,Default,,0000,0000,0000,,Insomma! Perché con Ran\N il bagno lo hai fatto e con me no?!
+Dialogue: 0,0:56:34.45,0:56:36.03,Default,,0000,0000,0000,,Che succede, Hiromi?!
+Dialogue: 0,0:56:36.03,0:56:40.83,Default,,0000,0000,0000,,H-Ho appena visto uscire dalla porta sul retro\Nuno strano uomo con con occhiali da sole!
+Dialogue: 0,0:56:41.41,0:56:44.04,Italics,,0000,0000,0000,,Lo sapevo! \NPrima non me lo sono immaginato!
+Dialogue: 0,0:56:47.17,0:56:49.88,Default,,0000,0000,0000,,Ehi, non trovate che quel secchio sia strano?!
+Dialogue: 0,0:56:49.88,0:56:50.42,Default,,0000,0000,0000,,Eh?!
+Dialogue: 0,0:56:50.84,0:56:53.09,Default,,0000,0000,0000,,Vedete?! È fin troppo in alto!
+Dialogue: 0,0:56:56.01,0:56:58.31,Default,,0000,0000,0000,,Sembra ci sia rimasto qualcosa incastrato!
+Dialogue: 0,0:56:58.31,0:56:59.43,Default,,0000,0000,0000,,Tiriamo su!
+Dialogue: 0,0:57:00.77,0:57:02.43,Default,,0000,0000,0000,,È parecchio pesante!
+Dialogue: 0,0:57:06.27,0:57:08.07,Default,,0000,0000,0000,,Oh issa!
+Dialogue: 0,0:57:18.03,0:57:20.08,Default,,0000,0000,0000,,M-Machiko!
+Dialogue: 0,0:57:23.21,0:57:25.46,Default,,0000,0000,0000,,C-Com'è potuto succedere?!
+Dialogue: 0,0:57:25.46,0:57:28.21,Default,,0000,0000,0000,,C-Che si sia suicidata buttandosi nel pozzo?
+Dialogue: 0,0:57:30.30,0:57:34.97,Default,,0000,0000,0000,,No! A ucciderla è stata\N la pugnalata che ha sul petto!
+Dialogue: 0,0:57:34.97,0:57:36.72,Default,,0000,0000,0000,,C-Che hai detto?!
+Dialogue: 0,0:57:36.72,0:57:39.85,Default,,0000,0000,0000,,Quindi è stato uno di noi a farlo?!
+Dialogue: 0,0:57:39.85,0:57:41.60,Default,,0000,0000,0000,,N-Non è possibile!
+Dialogue: 0,0:57:41.60,0:57:46.56,Default,,0000,0000,0000,,L'ultima volta che Machiko ha telefonato\N erano più o meno le 21:00, vero?
+Dialogue: 0,0:57:46.56,0:57:50.23,Default,,0000,0000,0000,,Sì, ha chiamato dalla sala ricevimenti \Ndell'hotel vicino alla stazione.
+Dialogue: 0,0:57:50.23,0:57:53.07,Default,,0000,0000,0000,,Io sono entrata nella vasca dieci minuti fa.
+Dialogue: 0,0:57:53.57,0:57:57.28,Default,,0000,0000,0000,,Mentre facevo il bagno, \Nqualcuno ha lasciato la stanza?
+Dialogue: 0,0:57:58.24,0:58:00.12,Default,,0000,0000,0000,,No, nessuno.
+Dialogue: 0,0:58:00.70,0:58:04.29,Default,,0000,0000,0000,,Allora, non può essere stato uno di noi.
+Dialogue: 0,0:58:04.29,0:58:08.54,Default,,0000,0000,0000,,Da quell'albergo a qui \Nci vuole almeno un'ora di macchina.
+Dialogue: 0,0:58:08.54,0:58:10.93,Default,,0000,0000,0000,,In altre parole, \Nmentre stavo facendo il bagno,
+Dialogue: 0,0:58:10.93,0:58:15.42,Default,,0000,0000,0000,,lei dev'essere tornata a casa e qualcuno\N deve averla uccisa e gettata nel pozzo.
+Dialogue: 0,0:58:16.13,0:58:18.89,Default,,0000,0000,0000,,Certo, il discorso cambia\N se sospettate di me,
+Dialogue: 0,0:58:18.89,0:58:21.22,Default,,0000,0000,0000,,però io l'ho incontrata\N per la prima volta oggi.
+Dialogue: 0,0:58:21.22,0:58:23.33,Default,,0000,0000,0000,,Ma allora chi l'ha uccisa?!
+Dialogue: 0,0:58:23.77,0:58:27.10,Default,,0000,0000,0000,,Non potrebbe essere l'uomo con \Ngli occhiali scuri che hai visto poco fa?!
+Dialogue: 0,0:58:27.10,0:58:29.94,Default,,0000,0000,0000,,Ma perché mai avrebbe ucciso Machiko?!
+Dialogue: 0,0:58:32.19,0:58:34.15,Default,,0000,0000,0000,,C'è qualcosa nella sua tasca.
+Dialogue: 0,0:58:34.15,0:58:35.44,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,0:58:35.44,0:58:37.45,Default,,0000,0000,0000,,M-Ma questo è...
+Dialogue: 0,0:58:37.45,0:58:38.86,Default,,0000,0000,0000,,un fiore di camelia!
+Dialogue: 0,0:58:38.86,0:58:43.87,Default,,0000,0000,0000,,P-Perciò l'uomo che ho visto era davvero...
+Dialogue: 0,0:58:46.33,0:58:48.04,Default,,0000,0000,0000,,Lo stesso di quindici anni fa...
+Dialogue: 0,0:58:55.30,0:58:59.30,Default,,0000,0000,0000,,La vittima è Machiko Yabuuchi,\N di trentanove anni.
+Dialogue: 0,0:58:59.30,0:59:02.13,Default,,0000,0000,0000,,Era la seconda moglie del signor Yoshichika,
+Dialogue: 0,0:59:02.13,0:59:05.18,Default,,0000,0000,0000,,defunto in questa casa\N il mese scorso, esatto?
+Dialogue: 0,0:59:05.18,0:59:06.31,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:59:06.77,0:59:08.44,Default,,0000,0000,0000,,Ispettore Yamamura.
+Dialogue: 0,0:59:08.44,0:59:10.52,Default,,0000,0000,0000,,Non abbiamo ancora\N trovato l'arma del delitto,
+Dialogue: 0,0:59:10.52,0:59:14.90,Default,,0000,0000,0000,,ma a quanto pare è morta per colpa \Ndell'emorragia della ferita sul petto.
+Dialogue: 0,0:59:15.53,0:59:17.65,Default,,0000,0000,0000,,A-Ah, capisco...
+Dialogue: 0,0:59:18.45,0:59:22.87,Cartello BASE,,0000,0000,0000,,{\fad(350,250)\an7\blur1.3\bord0\shad0\fscx100\fscy100\pos(318.761,261.292)\p1\c&H712711&\1a&H7E&}m -102 -28 l 101 -28 101 6 -102 6
+Dialogue: 1,0:59:18.45,0:59:22.87,Cartello BASE,,0000,0000,0000,,{\fad(350,350)\blur0.5\fs23\shad0\bord0\fnTrebuchet MS\pos(318.761,261.292)}Ispettore Yamamura
+Dialogue: 0,0:59:18.49,0:59:23.41,Default - Alt,,0000,0000,0000,,Il corpo è stato trovato\N poco dopo le 22:00, giusto?
+Dialogue: 0,0:59:23.41,0:59:24.66,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:59:24.66,0:59:29.03,Default,,0000,0000,0000,,Il secchio era stranamente in alto,\N così abbiamo tirato la corda e...
+Dialogue: 0,0:59:29.75,0:59:32.25,Default,,0000,0000,0000,,dal pozzo è uscito il cadavere di Machiko.
+Dialogue: 0,0:59:35.42,0:59:37.55,Default,,0000,0000,0000,,Ehm, c'è qualcosa che non va?
+Dialogue: 0,0:59:38.13,0:59:42.44,Default,,0000,0000,0000,,No, no! Ho solo avuto un brivido\N immaginando la scena...
+Dialogue: 0,0:59:43.05,0:59:48.81,Default,,0000,0000,0000,,Ecco, quindi l'assassino dev'essere \Nuno di voi otto, che all'ora del delitto
+Dialogue: 0,0:59:48.81,0:59:52.21,Default,,0000,0000,0000,,eravate in questa in questa casa.
+Dialogue: 0,0:59:52.21,0:59:54.31,Default,,0000,0000,0000,,U-Un attimo!
+Dialogue: 0,0:59:54.31,1:00:00.36,Default,,0000,0000,0000,,Stasera era andata alla festa di matrimonio\N di un suo amico all'hotel vicino alla stazione,
+Dialogue: 0,1:00:00.36,1:00:04.32,Default,,0000,0000,0000,,e da lì ha telefonato \Na casa intorno alle 21:00.
+Dialogue: 0,1:00:05.45,1:00:08.83,Default,,0000,0000,0000,,Anche se avesse lasciato \Nla festa subito dopo la chiamata,
+Dialogue: 0,1:00:08.83,1:00:11.33,Default,,0000,0000,0000,,non è possibile\Nche sia arrivata qui prima delle 22:00.
+Dialogue: 0,1:00:11.33,1:00:13.54,Default,,0000,0000,0000,,E noi da prima delle 22:00 fino al ritrovamento
+Dialogue: 0,1:00:13.54,1:00:16.09,Default,,0000,0000,0000,,{\fad(0,800)}siamo stati tutti insieme nella stessa stanza.
+Dialogue: 0,1:00:16.09,1:00:18.55,Default,,0000,0000,0000,,{\fad(200,0)}perciò nessuno di noi può averla uccisa!
+Dialogue: 0,1:00:18.55,1:00:22.19,Default,,0000,0000,0000,,Esatto, l'unica a non essere\N con gli altri in quel momento ero io,
+Dialogue: 0,1:00:22.19,1:00:24.55,Default,,0000,0000,0000,,perché mi stavo facendo un bagno.
+Dialogue: 0,1:00:24.85,1:00:28.78,Default,,0000,0000,0000,,Eh?! Q-Quindi sei stata tu a ucciderla?!
+Dialogue: 0,1:00:28.78,1:00:34.27,Default,,0000,0000,0000,,No! Prima di oggi non avevo\N mai incontrato la signora Machiko.
+Dialogue: 0,1:00:34.27,1:00:35.90,Default,,0000,0000,0000,,Giusto, Conan?
+Dialogue: 0,1:00:35.90,1:00:36.90,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,1:00:36.90,1:00:40.75,Default,,0000,0000,0000,,È vero! Yukiko vive all'estero!
+Dialogue: 0,1:00:40.75,1:00:44.07,Default,,0000,0000,0000,,Oggi si trova qui \Nsolo perché l'ho invitata io.
+Dialogue: 0,1:00:44.66,1:00:49.08,Default,,0000,0000,0000,,"Yukiko"? Ah, un attimo,\N non dirmi che sei...
+Dialogue: 0,1:00:49.08,1:00:52.15,Default,,0000,0000,0000,,l'attrice Yukiko Fujimime?!
+Dialogue: 0,1:00:52.15,1:00:53.29,Default,,0000,0000,0000,,S-Sì...
+Dialogue: 0,1:00:53.29,1:00:55.42,Default,,0000,0000,0000,,Wow, pazzesco!
+Dialogue: 0,1:00:55.42,1:01:00.92,Default,,0000,0000,0000,,Guardavo tutte le settimane il tuo telefilm\N "La storia della pericolosa poliziotta"!
+Dialogue: 0,1:01:01.59,1:01:04.59,Default,,0000,0000,0000,,Sei stata tu a ispirare \Nla mia scelta di diventare un poliziotto.
+Dialogue: 0,1:01:04.59,1:01:05.85,Default,,0000,0000,0000,,Ma dai...
+Dialogue: 0,1:01:06.43,1:01:08.26,Default,,0000,0000,0000,,Questo ti rende ancora più sospetta.
+Dialogue: 0,1:01:08.26,1:01:08.97,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,1:01:09.47,1:01:13.77,Default,,0000,0000,0000,,Dopotutto sei brava\N a usare le pistole e i coltelli.
+Dialogue: 0,1:01:13.77,1:01:16.15,Default,,0000,0000,0000,,Faceva solo parte del mio personaggio!
+Dialogue: 0,1:01:16.15,1:01:18.86,Italics,,0000,0000,0000,,Ma c'è o ci fa questo poliziotto?
+Dialogue: 0,1:01:19.32,1:01:23.28,Default,,0000,0000,0000,,Ascolta, sei sicura \Nche a telefonare sia stata proprio Machiko?
+Dialogue: 0,1:01:23.28,1:01:25.28,Default,,0000,0000,0000,,Sì, era lei.
+Dialogue: 0,1:01:25.28,1:01:30.29,Default,,0000,0000,0000,,Ha risposto chiaramente alle mie domande, \Ne in sottofondo si sentiva il brusio della festa.
+Dialogue: 0,1:01:30.83,1:01:34.83,Default,,0000,0000,0000,,Visto?! Solo tu \Npui aver commesso l'omicidio!
+Dialogue: 0,1:01:34.83,1:01:36.25,Default,,0000,0000,0000,,Però, io...
+Dialogue: 0,1:01:36.25,1:01:39.08,Default,,0000,0000,0000,,C'è anche qualcun altro di sospetto!
+Dialogue: 0,1:01:40.42,1:01:42.84,Default,,0000,0000,0000,,Si aggira qua intorno da un po'!
+Dialogue: 0,1:01:42.84,1:01:47.43,Default,,0000,0000,0000,,È uno strano individuo con il volto coperto\N dagli occhiali da sole, un cappello e una sciarpa!
+Dialogue: 0,1:01:47.64,1:01:49.81,Default,,0000,0000,0000,,U-Uno strano individuo?
+Dialogue: 0,1:01:49.81,1:01:53.81,Default,,0000,0000,0000,,Dev'essere il fratello di nostra madre\N morta quindici anni fa.
+Dialogue: 0,1:01:54.23,1:01:58.98,Default,,0000,0000,0000,,È caduta nel pozzo \Ndopo aver cercato di cogliere una camelia.
+Dialogue: 0,1:01:59.86,1:02:03.82,Default,,0000,0000,0000,,{\fad(300,0)}Invece lui era convinto \Nche ce l'avesse spinta qualcuno.
+Dialogue: 0,1:02:06.70,1:02:12.87,Default,,0000,0000,0000,,Ma come me, anche Machiko\Nnon era parte della famiglia quindici anni fa!
+Dialogue: 0,1:02:12.87,1:02:14.98,Default,,0000,0000,0000,,Quindi perché mai avrebbe dovuto ucciderla?!
+Dialogue: 0,1:02:14.98,1:02:16.46,Default,,0000,0000,0000,,Bella domanda.
+Dialogue: 0,1:02:16.46,1:02:20.34,Default,,0000,0000,0000,,Qui dietro era molto buio, \Nmagari l'ha scambiata per qualcun altro?
+Dialogue: 0,1:02:20.34,1:02:25.09,Default,,0000,0000,0000,,Ehm, però non è detto che quell'uomo \Ncon gli occhiali da sole sia chi pensiate...
+Dialogue: 0,1:02:25.09,1:02:26.93,Default,,0000,0000,0000,,Ma non è da escludere.
+Dialogue: 0,1:02:28.05,1:02:30.55,Default,,0000,0000,0000,,Guarda questo fiore di camelia.
+Dialogue: 0,1:02:31.56,1:02:33.10,Default,,0000,0000,0000,,Viene da quell'albero?
+Dialogue: 0,1:02:33.10,1:02:37.56,Default,,0000,0000,0000,,Era nella tasca di questa signora.
+Dialogue: 0,1:02:41.69,1:02:43.50,Default,,0000,0000,0000,,Si può sapere perché stai tremando?
+Dialogue: 0,1:02:43.50,1:02:45.61,Default,,0000,0000,0000,,Non sei della sezione omicidi?
+Dialogue: 0,1:02:47.36,1:02:51.37,Default,,0000,0000,0000,,B-Beh, questo è il primo caso\N d'omicidio di cui mi occupo...
+Dialogue: 0,1:02:51.37,1:02:53.83,Default,,0000,0000,0000,,Nella sezione sta girando l'influenza,
+Dialogue: 0,1:02:53.83,1:02:56.37,Default,,0000,0000,0000,,e io ero l'unico che potevano mandare...
+Dialogue: 0,1:02:56.71,1:02:59.12,Default,,0000,0000,0000,,P-Perciò, non me la cavo bene con i cadaveri...
+Dialogue: 0,1:02:59.12,1:03:01.13,Default - Alt,,0000,0000,0000,,Ah, capisco.
+Dialogue: 0,1:02:59.12,1:03:01.13,Default,,0000,0000,0000,,Ah, capisco.
+Dialogue: 0,1:03:01.71,1:03:05.46,Default,,0000,0000,0000,,C-Comunque, per scoprire l'ora esatta\N in cui la vittima è tornata a casa,
+Dialogue: 0,1:03:05.46,1:03:09.01,Default,,0000,0000,0000,,non ci resta che rintracciare\N il taxi che l'ha accompagnata.
+Dialogue: 0,1:03:09.38,1:03:10.47,Default,,0000,0000,0000,,Taxi?
+Dialogue: 0,1:03:10.47,1:03:14.01,Default,,0000,0000,0000,,In realtà Machiko è uscita \Ncon la nostra macchina.
+Dialogue: 0,1:03:14.01,1:03:15.52,Default,,0000,0000,0000,,C-Con la macchina?
+Dialogue: 0,1:03:15.52,1:03:18.02,Default,,0000,0000,0000,,Non l'hai vista in giardino?
+Dialogue: 0,1:03:18.48,1:03:20.90,Default,,0000,0000,0000,,No, non c'era da nessuna parte.
+Dialogue: 0,1:03:22.44,1:03:24.86,Default,,0000,0000,0000,,Non c'è per davvero.
+Dialogue: 0,1:03:24.86,1:03:28.03,Default,,0000,0000,0000,,Che strano, di solito la posteggia qui.
+Dialogue: 0,1:03:28.49,1:03:31.20,Default,,0000,0000,0000,,Dove può averla lasciata?
+Dialogue: 0,1:03:31.20,1:03:34.03,Default,,0000,0000,0000,,Forse ha bevuto un po' troppo alla festa,
+Dialogue: 0,1:03:34.03,1:03:37.54,Default,,0000,0000,0000,,e ha deciso di prendere un taxi\N lasciando lì la macchina?
+Dialogue: 0,1:03:37.92,1:03:38.67,Default,,0000,0000,0000,,È possibile...
+Dialogue: 0,1:03:38.67,1:03:40.12,Default,,0000,0000,0000,,Ispettore Yamamura!
+Dialogue: 0,1:03:40.12,1:03:40.87,Default,,0000,0000,0000,,Sì?
+Dialogue: 0,1:03:42.13,1:03:45.34,Default,,0000,0000,0000,,Abbiamo trovato una macchina\N nel bosco dietro la casa.
+Dialogue: 0,1:03:45.34,1:03:47.13,Default,,0000,0000,0000,,N-Nel bosco?
+Dialogue: 0,1:03:48.01,1:03:49.72,Default,,0000,0000,0000,,Cosa ci fa una macchina lì?
+Dialogue: 0,1:03:54.76,1:04:00.10,Default,,0000,0000,0000,,È-È proprio la nostra macchina!\N Ma come mai è nel bosco?!
+Dialogue: 0,1:04:00.10,1:04:05.11,Default,,0000,0000,0000,,Forse l'assassino aveva in mente\N di utilizzarla ma poi ha cambiato idea?
+Dialogue: 0,1:04:05.61,1:04:11.49,Default,,0000,0000,0000,,Oppure, la signora è rimasta \Nsenza benzina o le si è spento il motore.
+Dialogue: 0,1:04:11.49,1:04:17.37,Default,,0000,0000,0000,,E mentre stava tornando a casa, è stata\N assalita dall'uomo che la stava aspettando!
+Dialogue: 0,1:04:18.33,1:04:24.17,Default,,0000,0000,0000,,Che strano. Si è messa subito in moto \Ne per di più le chiavi erano già inserite.
+Dialogue: 0,1:04:24.17,1:04:27.88,Default,,0000,0000,0000,,Di benzina ce n'è parecchia \Ne non sembra avere le gomme bucate...
+Dialogue: 0,1:04:28.13,1:04:31.84,Default,,0000,0000,0000,,La cosa più sospetta \Nè questa custodia vuota.
+Dialogue: 0,1:04:32.13,1:04:34.23,Default,,0000,0000,0000,,L'audiocassetta non c'è da nessuna parte.
+Dialogue: 0,1:04:34.59,1:04:37.85,Default,,0000,0000,0000,,Nel vano portaoggetti c'è solo il cellulare.
+Dialogue: 0,1:04:38.64,1:04:40.27,Default,,0000,0000,0000,,Ehi!
+Dialogue: 0,1:04:41.98,1:04:47.61,Default,,0000,0000,0000,,Questa notte dormirete tutti\N sotto sorveglianza della polizia.
+Dialogue: 0,1:04:48.15,1:04:52.07,Default,,0000,0000,0000,,Quell'uomo potrebbe essere ancora qui vicino.
+Dialogue: 0,1:04:55.32,1:04:59.33,Default,,0000,0000,0000,,Dannazione, ci tocca dormire tutti \Nnella stessa stanza e insieme alla polizia?
+Dialogue: 0,1:04:59.33,1:05:00.62,Default,,0000,0000,0000,,Che cosa terribile.
+Dialogue: 0,1:05:02.21,1:05:03.64,Default,,0000,0000,0000,,Dimmi, Shin.
+Dialogue: 0,1:05:04.54,1:05:06.17,Default,,0000,0000,0000,,Quanto hai capito finora?
+Dialogue: 0,1:05:07.29,1:05:08.44,Default,,0000,0000,0000,,Mah, chissà...
+Dialogue: 0,1:05:09.13,1:05:10.63,Default,,0000,0000,0000,,Avanti, dimmi tutto!
+Dialogue: 0,1:05:10.63,1:05:15.14,Default,,0000,0000,0000,,Se lasci che sia quell'ispettore imbranato\N a occuparsene, verrò arrestata come assassina!
+Dialogue: 0,1:05:15.14,1:05:16.80,Default,,0000,0000,0000,,Ci sono ancora troppi misteri!
+Dialogue: 0,1:05:17.72,1:05:23.39,Default,,0000,0000,0000,,L'uomo con gli occhiali da sole,\N la macchina lasciata nel bosco
+Dialogue: 0,1:05:23.73,1:05:25.60,Default,,0000,0000,0000,,e la custodia della cassetta vuota.
+Dialogue: 0,1:05:25.94,1:05:30.53,Default,,0000,0000,0000,,E poi mi impensierisce anche il fatto\Nche il corpo fosse legato alla corda del pozzo.
+Dialogue: 0,1:05:30.94,1:05:36.70,Default,,0000,0000,0000,,Se il cadavere è stato nascosto nel pozzo,\N perché il secchio ci invitava invece a trovarlo?
+Dialogue: 0,1:05:37.78,1:05:42.29,Default,,0000,0000,0000,,Già, in effetti ci sono ancora\N fin troppi misteri irrisolti.
+Dialogue: 0,1:05:43.20,1:05:44.41,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,1:05:45.17,1:05:47.42,Default,,0000,0000,0000,,Prima la porta del magazzino era aperta?
+Dialogue: 0,1:05:47.42,1:05:48.46,Default,,0000,0000,0000,,Boh...
+Dialogue: 0,1:05:58.72,1:05:59.93,Default,,0000,0000,0000,,F-Fermo!
+Dialogue: 0,1:06:00.31,1:06:02.93,Default,,0000,0000,0000,,Aspetta, Shin!
+Dialogue: 0,1:06:05.77,1:06:08.44,Default,,0000,0000,0000,,Avanti, torniamo in casa\N e andiamo a dormire.
+Dialogue: 0,1:06:08.77,1:06:10.36,Default,,0000,0000,0000,,Sbrighiamoci, Shin!
+Dialogue: 0,1:06:21.37,1:06:23.24,Default,,0000,0000,0000,,Ispettore Yamamura!
+Dialogue: 0,1:06:25.25,1:06:27.25,Default,,0000,0000,0000,,S-Sì?!
+Dialogue: 0,1:06:28.75,1:06:31.75,Default,,0000,0000,0000,,Abbiamo trovato l'arma del delitto nel pozzo!
+Dialogue: 0,1:06:31.75,1:06:32.84,Default,,0000,0000,0000,,Eh?!
+Dialogue: 0,1:06:34.30,1:06:36.80,Default,,0000,0000,0000,,Un coltello da cucina, eh?
+Dialogue: 0,1:06:36.80,1:06:40.30,Default,,0000,0000,0000,,Verificate subito\Nse la ferita della vittima combacia.
+Dialogue: 0,1:06:40.30,1:06:41.30,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,1:06:41.30,1:06:43.31,Default,,0000,0000,0000,,Cos'è quella cosa di plastica?
+Dialogue: 0,1:06:43.31,1:06:46.48,Default,,0000,0000,0000,,Oh, un impermeabile da donna.
+Dialogue: 0,1:06:46.48,1:06:49.06,Default,,0000,0000,0000,,Chissà perché\Nil coltello era avvolto qui dentro.
+Dialogue: 0,1:06:49.06,1:06:50.40,Default,,0000,0000,0000,,Un impermeabile?
+Dialogue: 0,1:06:50.40,1:06:54.94,Default,,0000,0000,0000,,No, non può! \NMi dispiace, ma non può entrare!
+Dialogue: 0,1:06:54.94,1:06:56.44,Default,,0000,0000,0000,,C'è qualche problema?
+Dialogue: 0,1:06:56.44,1:06:58.07,Default,,0000,0000,0000,,Quest'uomo vuole entrare a tutti i costi...
+Dialogue: 0,1:06:58.07,1:07:00.78,Default,,0000,0000,0000,,Le ho già detto che sono un avvocato!
+Dialogue: 0,1:07:00.78,1:07:01.91,Default,,0000,0000,0000,,Un avvocato?
+Dialogue: 0,1:07:01.91,1:07:07.41,Cartello BASE,,0000,0000,0000,,{\an7\blur1.3\bord0\shad0\fscx100\fscy100\p1\c&H65342C&\1a&H51&\pos(329.9,245.581)}m -155 -26 l 154 -26 154 4 -155 4
+Dialogue: 1,1:07:01.91,1:07:07.41,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs22\shad0\bord0\fnTrebuchet MS\pos(329.9,245.581)}L'avvocato dalla famiglia Yabuuchi
+Dialogue: 0,1:07:01.91,1:07:07.41,Default - Alt,,0000,0000,0000,,Sono qui per leggere\N il testamento del signor Yoshichika!
+Dialogue: 0,1:07:07.41,1:07:09.54,Default,,0000,0000,0000,,O-Oh, capisco...
+Dialogue: 0,1:07:10.50,1:07:12.54,Italics,,0000,0000,0000,,Finalmente ci siamo...
+Dialogue: 0,1:07:12.54,1:07:15.55,Default,,0000,0000,0000,,Eh?! Volete ritardare \Nla lettura del testamento?!
+Dialogue: 0,1:07:15.84,1:07:19.13,Default,,0000,0000,0000,,Sì, l'assassino non è ancora stato catturato
+Dialogue: 0,1:07:19.13,1:07:21.22,Default,,0000,0000,0000,,e non abbiamo finito di controllare la casa.
+Dialogue: 0,1:07:21.22,1:07:23.61,Default,,0000,0000,0000,,Quindi è meglio spostare\N l'apertura a un altro giorno...
+Dialogue: 0,1:07:23.61,1:07:25.14,Default,,0000,0000,0000,,Non dire sciocchezze!
+Dialogue: 0,1:07:25.15,1:07:27.56,Default,,0000,0000,0000,,Che diritto hai tu \Ndi prendere questa decisione?!
+Dialogue: 0,1:07:28.48,1:07:31.31,Default,,0000,0000,0000,,Ecco qui gli avidi di famiglia\N che fanno confusione.
+Dialogue: 0,1:07:31.31,1:07:33.52,Default,,0000,0000,0000,,Che hai detto?!
+Dialogue: 0,1:07:33.52,1:07:36.40,Default,,0000,0000,0000,,Vecchio, non prenderti gioco di me!
+Dialogue: 0,1:07:36.86,1:07:40.28,Default,,0000,0000,0000,,Hai capito?! \NDopotutto sei solo un impostore!
+Dialogue: 0,1:07:41.24,1:07:43.79,Default,,0000,0000,0000,,Il dolore è l'unico modo per farti ragionare?
+Dialogue: 0,1:07:50.75,1:07:52.70,Default,,0000,0000,0000,,S-Su, smettetela entrambi!
+Dialogue: 0,1:07:53.46,1:07:59.22,Default,,0000,0000,0000,,Allora, alla lettura del testamento \Nsarà presente anche la polizia, che ne dite?
+Dialogue: 0,1:07:59.63,1:08:02.22,Default,,0000,0000,0000,,Adesso, fate la pace!
+Dialogue: 0,1:08:02.47,1:08:04.22,Default,,0000,0000,0000,,Q-Quello era...
+Dialogue: 0,1:08:04.55,1:08:06.24,Default,,0000,0000,0000,,Jujitsu brasiliano.
+Dialogue: 0,1:08:06.88,1:08:09.23,Default,,0000,0000,0000,,Per di più eseguito in maniera impeccabile.
+Dialogue: 0,1:08:09.52,1:08:14.23,Default,,0000,0000,0000,,Quindi quel Carlos\N dev'essere ancora più abile di lui?
+Dialogue: 0,1:08:14.61,1:08:17.88,Default,,0000,0000,0000,,Ma se è tanto esperto\N nelle tecniche di auto-difesa,
+Dialogue: 0,1:08:17.88,1:08:19.99,Default,,0000,0000,0000,,perché ha assunto una guardia del corpo?
+Dialogue: 0,1:08:19.99,1:08:23.99,Default,,0000,0000,0000,,Bella domanda. Forse \Nperché la prudenza non è mai troppa.
+Dialogue: 0,1:08:33.33,1:08:38.59,Default,,0000,0000,0000,,Sto per esporvi \Nle ultime volontà di Yoshichika Yabuuchi.
+Dialogue: 0,1:08:38.96,1:08:41.17,Default,,0000,0000,0000,,Vi prego di ascoltare attentamente.
+Dialogue: 0,1:08:47.06,1:08:48.35,Default,,0000,0000,0000,,Che succede?
+Dialogue: 0,1:08:49.97,1:08:53.23,Italics,,0000,0000,0000,,Cos'è? Cos'è questo rumore?
+Dialogue: 0,1:08:54.65,1:08:57.48,Default,,0000,0000,0000,,Come mai quel registratore?
+Dialogue: 0,1:08:57.48,1:09:00.23,Default,,0000,0000,0000,,Il signor Yoshichika \Noltre al testamento scritto,
+Dialogue: 0,1:09:00.58,1:09:04.24,Default,,0000,0000,0000,,ha registrato una cassetta \Ncon lo stesso contenuto.
+Dialogue: 0,1:09:08.74,1:09:11.33,Default,,0000,0000,0000,,Eh? Non si sente niente.
+Dialogue: 0,1:09:11.33,1:09:14.46,Default,,0000,0000,0000,,Un attimo, ma quello \Nnon è il tasto di registrazione?!
+Dialogue: 0,1:09:14.46,1:09:15.79,Default,,0000,0000,0000,,Dobbiamo fermarlo!
+Dialogue: 0,1:09:22.05,1:09:22.84,Default,,0000,0000,0000,,A terra!
+Dialogue: 0,1:09:24.05,1:09:24.76,Default,,0000,0000,0000,,Attento!
+Dialogue: 0,1:09:27.39,1:09:28.93,Default,,0000,0000,0000,,Cos'è stato?!
+Dialogue: 0,1:09:32.85,1:09:36.35,Default,,0000,0000,0000,,L'armadietto! \NDa quell'armadietto è volata una freccia!
+Dialogue: 0,1:09:37.44,1:09:38.57,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,1:09:40.40,1:09:42.03,Default,,0000,0000,0000,,M-Ma questa è...
+Dialogue: 0,1:09:43.03,1:09:44.74,Default,,0000,0000,0000,,U-Una balestra!
+Dialogue: 0,1:09:46.95,1:09:49.16,Default,,0000,0000,0000,,E questo orologio...
+Dialogue: 0,1:09:50.12,1:09:51.95,Default,,0000,0000,0000,,U-Un dispositivo a tempo...
+Dialogue: 0,1:09:51.95,1:09:56.87,Default,,0000,0000,0000,,Quindi era impostato \Nper sparare a un'ora precisa.
+Dialogue: 0,1:09:57.71,1:09:59.84,Default,,0000,0000,0000,,C-Chi può essere stato?!
+Dialogue: 0,1:09:59.84,1:10:01.55,Default,,0000,0000,0000,,Chi ha preparato una cosa del genere?!
+Dialogue: 0,1:10:10.81,1:10:11.95,Default,,0000,0000,0000,,Chi è stato?!
+Dialogue: 0,1:10:12.77,1:10:15.39,Default,,0000,0000,0000,,Chi ha preparato questo congegno?!
+Dialogue: 0,1:10:15.39,1:10:18.90,Default,,0000,0000,0000,,Dev'essere opera dell'uomo\N che ieri è fuggito dalla porta sul retro!
+Dialogue: 0,1:10:19.82,1:10:23.84,Default,,0000,0000,0000,,Se si tratta davvero del fratello\N di nostra madre morta quindici anni fa,
+Dialogue: 0,1:10:23.84,1:10:27.41,Default,,0000,0000,0000,,sicuramente prova del rancore\N verso tutta la famiglia Yabuuchi.
+Dialogue: 0,1:10:27.80,1:10:28.94,Default,,0000,0000,0000,,Ho capito.
+Dialogue: 0,1:10:29.45,1:10:33.33,Default,,0000,0000,0000,,Sapeva che avremmo aperto\N il testamento in questa stanza,
+Dialogue: 0,1:10:33.79,1:10:36.12,Default,,0000,0000,0000,,perciò ha sistemato la balestra e la freccia qui.
+Dialogue: 0,1:10:37.38,1:10:40.13,Default,,0000,0000,0000,,Quindi gli andava bene\N colpire uno di noi a caso?
+Dialogue: 0,1:10:40.13,1:10:42.49,Default,,0000,0000,0000,,No, non credo proprio.
+Dialogue: 0,1:10:43.00,1:10:44.67,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,1:10:44.67,1:10:48.01,Default,,0000,0000,0000,,Guardate la stanza di fianco\N dove è andata a conficcarsi la freccia.
+Dialogue: 0,1:10:48.47,1:10:52.47,Default,,0000,0000,0000,,Il tatami è pieno di fori di frecce, giusto?
+Dialogue: 0,1:10:52.47,1:10:57.02,Default,,0000,0000,0000,,Questo prova che il colpevole ha fatto \Nvarie prove per trovare la traiettoria giusta.
+Dialogue: 0,1:10:57.81,1:11:01.36,Default,,0000,0000,0000,,Così da colpire la persona\N seduta in un certo posto.
+Dialogue: 0,1:11:04.19,1:11:05.71,Default,,0000,0000,0000,,Era stato deciso fin dall'inizio
+Dialogue: 0,1:11:05.71,1:11:08.66,Default,,0000,0000,0000,,che il testamento \Nsarebbe stato letto in questa stanza, giusto?
+Dialogue: 0,1:11:08.66,1:11:10.66,Default,,0000,0000,0000,,S-Sì.
+Dialogue: 0,1:11:11.16,1:11:12.74,Default,,0000,0000,0000,,Allora, non c'è alcun dubbio.
+Dialogue: 0,1:11:13.66,1:11:18.00,Default,,0000,0000,0000,,Però, giovanotto, non poteva sapere\N chi si sarebbe seduto lì, no?
+Dialogue: 0,1:11:18.00,1:11:19.37,Default,,0000,0000,0000,,E invece sì.
+Dialogue: 0,1:11:21.46,1:11:25.71,Default,,0000,0000,0000,,La freccia ha colpito\Nil posto a sedere più lontano dall'uscita,
+Dialogue: 0,1:11:23.53,1:11:31.17,Cartello BASE,,0000,0000,0000,,{\an7\blur0.5\bord0.5\shad0\fscx100\fscy100\pos(464.726,85.486)\p1\3c&H2C2C33&\c&HF5FDFB&}m -48 -37 l 47 -37 47 17 -48 17
+Dialogue: 1,1:11:23.53,1:11:31.17,Cartello BASE,,0000,0000,0000,,{\fs23\blur0.5\b1\fnVerdana\c&H000303&\pos(464.726,87.695)}Entrata
+Dialogue: 0,1:11:25.71,1:11:27.67,Default,,0000,0000,0000,,ovvero il "posto d'onore",
+Dialogue: 0,1:11:25.79,1:11:31.22,Cartello BASE,,0000,0000,0000,,{\an7\blur0.5\bord0.4\shad0\fscx100\fscy100\p1\c&HF5FDFB&\2c&H626262&\pos(188.224,222.403)}m -51 -59 l 46 -59 46 31 -51 31
+Dialogue: 1,1:11:25.79,1:11:31.22,Cartello BASE,,0000,0000,0000,,{\fs23\blur0.5\b1\fnVerdana\c&H000303&\pos(185.463,232.341)}Posto \Nd'onore
+Dialogue: 0,1:11:27.67,1:11:30.64,Default,,0000,0000,0000,,dove di solito si siede\N la persona più anziana.
+Dialogue: 0,1:11:27.79,1:11:31.22,Cartello BASE,,0000,0000,0000,,{\an7\blur0.3\bord0.5\shad0\fscx100\fscy100\pos(447.758,217.433)\p1\c&HF5FDFB&\3c&H404040&}m -43 -54 l 48 -54 48 40 -43 40
+Dialogue: 1,1:11:27.79,1:11:31.22,Cartello BASE,,0000,0000,0000,,{\fs23\blur0.5\b1\fnVerdana\c&H000303&\pos(450.519,233.445)}Posti \Nnormali
+Dialogue: 1,1:11:31.17,1:11:31.22,Cartello BASE,,0000,0000,0000,,{\fs23\blur0.5\b1\fnVerdana\c&H000303&\pos(464.726,87.695)\clip(m 115 48 l 451 48 462 49 470 56 481 71 485 77 493 87 500 104 473 360 115 360)}Entrata
+Dialogue: 0,1:11:31.17,1:11:31.22,Cartello BASE,,0000,0000,0000,,{\an7\blur0.5\bord0.5\shad0\fscx100\fscy100\pos(464.726,85.486)\p1\3c&H2C2C33&\c&HF5FDFB&\clip(m 115 48 l 451 48 462 49 470 56 481 71 485 77 493 87 500 104 473 360 115 360)}m -48 -37 l 47 -37 47 17 -48 17
+Dialogue: 0,1:11:31.59,1:11:35.81,Default,,0000,0000,0000,,In altre parole, il bersaglio \Ndella freccia era stato deciso fin dall'inizio...
+Dialogue: 0,1:11:36.06,1:11:40.31,Default,,0000,0000,0000,,Era destinata proprio a lei, signor Yoshifusa.
+Dialogue: 0,1:11:41.56,1:11:47.57,Default,,0000,0000,0000,,Santo cielo, quindi come pensavo  \Nc'era un altro stolto che voleva uccidermi.
+Dialogue: 0,1:11:47.82,1:11:50.36,Default,,0000,0000,0000,,Ma non c'è anche un'altra possibilità?
+Dialogue: 0,1:11:50.36,1:11:54.28,Default,,0000,0000,0000,,Può essere stato lo zio\N a sistemare quella freccia, no?
+Dialogue: 0,1:11:55.45,1:12:01.17,Default,,0000,0000,0000,,Non credo proprio. L'ha schivata all'ultimo\N solo dopo aver sentito la voce di Conan.
+Dialogue: 0,1:12:01.87,1:12:02.96,Flashback,,0000,0000,0000,,A terra!
+Dialogue: 0,1:12:05.38,1:12:10.17,Default,,0000,0000,0000,,Allora, dietro a entrambi gli incidenti \Nc'è quello strano uomo con gli occhiali da sole?!
+Dialogue: 0,1:12:10.17,1:12:13.22,Default,,0000,0000,0000,,Sì, è molto probabile.
+Dialogue: 0,1:12:14.39,1:12:18.18,Default,,0000,0000,0000,,Ehm, mi dispiace interrompervi...
+Dialogue: 0,1:12:18.60,1:12:21.94,Default,,0000,0000,0000,,Non dovremmo fermare\N il tasto di registrazione?
+Dialogue: 0,1:12:22.65,1:12:25.90,Default,,0000,0000,0000,,Oh, no! Mi sono dimenticato di bloccarlo!
+Dialogue: 0,1:12:25.90,1:12:29.40,Default,,0000,0000,0000,,Insomma, si sono cancellate\N tutte le ultime volontà di nostro padre?!
+Dialogue: 0,1:12:30.95,1:12:32.24,Default,,0000,0000,0000,,Maledetto...
+Dialogue: 0,1:12:32.24,1:12:33.45,Default,,0000,0000,0000,,Santo cielo, santo cielo!
+Dialogue: 0,1:12:33.45,1:12:36.95,Default,,0000,0000,0000,,Per sbaglio l'avevo inserita \Ndal lato B invece che da quello A.
+Dialogue: 0,1:12:36.95,1:12:40.58,Default,,0000,0000,0000,,In pratica, la registrazione\N è avvenuta sul lato B.
+Dialogue: 0,1:12:40.58,1:12:43.70,Default,,0000,0000,0000,,Il testamento è al sicuro sul lato A!
+Dialogue: 0,1:12:44.75,1:12:46.34,Default,,0000,0000,0000,,Santa pazienza...
+Dialogue: 0,1:12:46.34,1:12:48.92,Default,,0000,0000,0000,,Allora, avanti!\N Facci ascoltare subito le ultime volontà!
+Dialogue: 0,1:12:48.92,1:12:52.30,Default,,0000,0000,0000,,Un po' pazienza, la sto riavvolgendo adesso.
+Dialogue: 0,1:12:52.30,1:12:56.18,Default,,0000,0000,0000,,Comunque, se non scopriremo\N l'identità di quell'uomo misterioso,
+Dialogue: 0,1:12:56.18,1:12:58.18,Default,,0000,0000,0000,,non credo che riusciremo a risolvere il caso.
+Dialogue: 0,1:12:58.18,1:13:02.31,Default,,0000,0000,0000,,Già, tuttavia mi sono fatto un'idea\N su chi possa aver piazzato la freccia.
+Dialogue: 0,1:13:03.06,1:13:04.81,Default,,0000,0000,0000,,Di certo è stata quella persona.
+Dialogue: 0,1:13:04.81,1:13:08.78,Default,,0000,0000,0000,,I-Il colpevole si trova in questa stanza?!
+Dialogue: 0,1:13:08.78,1:13:09.82,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,1:13:09.82,1:13:13.20,Default,,0000,0000,0000,,E chi è? Avanti, dimmelo!
+Dialogue: 0,1:13:13.20,1:13:18.66,Default,,0000,0000,0000,,No! Ci sono ancora troppi misteri da risolvere,\N per il momento non posso anticiparti nulla!
+Dialogue: 0,1:13:18.66,1:13:20.12,Default,,0000,0000,0000,,Dai, almeno un piccolo indizio!
+Dialogue: 0,1:13:20.12,1:13:21.33,Default,,0000,0000,0000,,No!
+Dialogue: 0,1:13:21.33,1:13:23.08,Default,,0000,0000,0000,,Oh, capisco...
+Dialogue: 0,1:13:24.21,1:13:27.60,Default,,0000,0000,0000,,E va bene! Lo scoprirò da sola! \NChi ha bisogno di te, eh?
+Dialogue: 0,1:13:28.34,1:13:31.34,Default,,0000,0000,0000,,E dai, non mettere il broncio, mamma!
+Dialogue: 0,1:13:33.34,1:13:34.80,Default,,0000,0000,0000,,Ispettore Yamamura!
+Dialogue: 0,1:13:34.80,1:13:39.31,Default,,0000,0000,0000,,Abbiamo trovato una cassetta \Nsospetta vicino alla stufa del bagno!
+Dialogue: 0,1:13:39.31,1:13:40.81,Default,,0000,0000,0000,,U-Una cassetta?!
+Dialogue: 0,1:13:41.22,1:13:46.56,Default,,0000,0000,0000,,Ascoltatemi attentamente, rimanete\N in questa stanza fino al mio ritorno!
+Dialogue: 0,1:13:47.77,1:13:50.48,Default,,0000,0000,0000,,E-Eh? Dove sono Yukiko e il bambino?
+Dialogue: 0,1:13:50.86,1:13:52.65,Default,,0000,0000,0000,,Sono appena usciti.
+Dialogue: 0,1:13:52.65,1:13:53.24,Default,,0000,0000,0000,,Eh?!
+Dialogue: 0,1:13:54.45,1:13:58.26,Default,,0000,0000,0000,,Fermi, fermi! Non potete \Nandarvene in giro come vi pare e piace!
+Dialogue: 0,1:13:58.91,1:14:01.66,Default,,0000,0000,0000,,Allora, dov'era la cassetta?
+Dialogue: 0,1:14:01.66,1:14:04.46,Default,,0000,0000,0000,,E-Ecco, in mezzo a questa legna.
+Dialogue: 0,1:14:04.46,1:14:05.71,Default,,0000,0000,0000,,È proprio strano.
+Dialogue: 0,1:14:05.71,1:14:07.75,Default,,0000,0000,0000,,È stata Hiromi a occuparsi dell'acqua calda,
+Dialogue: 0,1:14:07.75,1:14:10.04,Default,,0000,0000,0000,,ma non ha detto nulla \Na proposito di una cassetta.
+Dialogue: 0,1:14:10.38,1:14:14.92,Default,,0000,0000,0000,,Oh, quelli della scientifica \Nci hanno riferito anche un'altra cosa strana.
+Dialogue: 0,1:14:14.92,1:14:16.34,Default,,0000,0000,0000,,Una cosa strana?
+Dialogue: 0,1:14:16.68,1:14:22.59,Default,,0000,0000,0000,,Sull'arma sono state trovate solo\N le impronte digitali e il sangue della vittima,
+Dialogue: 0,1:14:23.68,1:14:27.68,Default,,0000,0000,0000,,ma la cosa più assurda, \Nè che dalle impronte sembra che lei
+Dialogue: 0,1:14:27.68,1:14:29.74,Default,,0000,0000,0000,,{\fad(0,400)}abbia impugnata l'arma come una spada.
+Dialogue: 0,1:14:30.61,1:14:32.15,Default,,0000,0000,0000,,C-Come una spada?
+Dialogue: 0,1:14:32.15,1:14:33.32,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,1:14:33.32,1:14:35.24,Italics,,0000,0000,0000,,In effetti, è strano...
+Dialogue: 0,1:14:35.61,1:14:38.87,Italics,,0000,0000,0000,,Se avesse afferrato il manico\N dopo essere stata pugnalata,
+Dialogue: 0,1:14:38.87,1:14:40.66,Italics,,0000,0000,0000,,la lama sarebbe stata verso di lei.
+Dialogue: 0,1:14:41.45,1:14:45.62,Italics,,0000,0000,0000,,E anche se l'assassino gliel'avesse fatta\N impugnare per farlo sembrare un suicidio,
+Dialogue: 0,1:14:45.62,1:14:47.33,Italics,,0000,0000,0000,,non sarebbe stata in quella posizione.
+Dialogue: 0,1:14:47.79,1:14:54.63,Default,,0000,0000,0000,,Ah, ho anche contattato\N l'albergo dove si trovava la vittima.
+Dialogue: 0,1:14:54.63,1:14:56.09,Default,,0000,0000,0000,,Cos'hanno detto?
+Dialogue: 0,1:14:56.38,1:15:01.72,Default,,0000,0000,0000,,Sicuramente è stata alla festa, \Nperò non sanno dirci quando se n'è andata.
+Dialogue: 0,1:15:01.72,1:15:05.10,Default,,0000,0000,0000,,{\fad(0,500)}Ora che ci penso, \NHiromi ha detto una cosa strana.
+Dialogue: 0,1:15:05.68,1:15:10.94,Default,,0000,0000,0000,,{\fad(0,400)}Ovvero, che Machiko le aveva riferito\N che sarebbe tornata dopo le 23:00.
+Dialogue: 0,1:15:11.94,1:15:15.07,Default,,0000,0000,0000,,Perciò come mai era a casa\N poco dopo le 22:00?
+Dialogue: 0,1:15:16.03,1:15:16.94,Italics,,0000,0000,0000,,Un attimo!
+Dialogue: 0,1:15:19.45,1:15:23.28,Italics,,0000,0000,0000,,Usando questa porta\N si arriva subito dal bagno alla stufa.
+Dialogue: 0,1:15:23.91,1:15:28.83,Italics,,0000,0000,0000,,E quest'ultima si trova proprio di fianco\N al pozzo dove è stata trovata la vittima.
+Dialogue: 0,1:15:30.42,1:15:32.42,Italics,,0000,0000,0000,,Perciò quella cassetta...
+Dialogue: 0,1:15:33.34,1:15:34.25,Italics,,0000,0000,0000,,Possibile che...
+Dialogue: 0,1:15:35.17,1:15:38.01,Default,,0000,0000,0000,,Comunque, per prima cosa\N ascoltiamo il contenuto della cassetta.
+Dialogue: 0,1:15:45.14,1:15:47.27,Default,,0000,0000,0000,,Che stai facendo, mamma?
+Dialogue: 0,1:15:47.27,1:15:47.98,Default,,0000,0000,0000,,Senti...
+Dialogue: 0,1:15:47.98,1:15:53.65,Default,,0000,0000,0000,,Hai visto l'uomo con gli occhiali da sole\N spiarci da questa porta, giusto?
+Dialogue: 0,1:15:53.65,1:15:58.32,Default,,0000,0000,0000,,Già, e anche Hiromi lo ha visto fuggire da lì.
+Dialogue: 0,1:16:03.62,1:16:06.83,Default,,0000,0000,0000,,Che succede? Hai scoperto qualcosa?
+Dialogue: 0,1:16:07.37,1:16:09.00,Default,,0000,0000,0000,,Niente di niente!
+Dialogue: 0,1:16:10.00,1:16:12.83,Default,,0000,0000,0000,,Veloci, forza! Torniamo in casa!
+Dialogue: 0,1:16:12.83,1:16:17.26,Default,,0000,0000,0000,,Avanti! Andiamo ad ascoltare\N questa bella cassettina, Conan!
+Dialogue: 0,1:16:17.26,1:16:19.34,Default,,0000,0000,0000,,Smettila di parlare così!
+Dialogue: 0,1:16:19.67,1:16:22.51,Italics,,0000,0000,0000,,Machiko, beviamoci un bicchierino!
+Dialogue: 0,1:16:22.97,1:16:26.35,Default,,0000,0000,0000,,Sono i rumori della festa\N dove è andata Machiko!
+Dialogue: 0,1:16:26.35,1:16:29.14,Default,,0000,0000,0000,,Sul serio questa cassetta \Nera vicino alla stufa?
+Dialogue: 0,1:16:29.14,1:16:30.27,Default,,0000,0000,0000,,S-Sì.
+Dialogue: 0,1:16:30.27,1:16:36.27,Italics,,0000,0000,0000,,Quindi è proprio come pensavo! Ora ha senso \Nanche lo strano comportamento di Machiko.
+Dialogue: 0,1:16:36.61,1:16:41.63,Italics,,0000,0000,0000,,E a ucciderla è stata quella persona \Nche si è lasciata sfuggire quella strana frase.
+Dialogue: 0,1:16:43.24,1:16:45.79,Default,,0000,0000,0000,,Senti, mamma, ho bisogno del tuo aiuto.
+Dialogue: 0,1:16:46.62,1:16:48.29,Default,,0000,0000,0000,,Ho capito chi è l'assassino.
+Dialogue: 0,1:16:49.45,1:16:53.62,Default,,0000,0000,0000,,Grazie al mio modulatore vocale\N userò la tua voce per esporre la mia teoria...
+Dialogue: 0,1:16:54.46,1:16:55.63,Default,,0000,0000,0000,,Scordatelo.
+Dialogue: 0,1:16:56.13,1:16:56.67,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,1:16:56.67,1:17:00.46,Default,,0000,0000,0000,,Di che ti sorprendi?\N Prima non hai voluto dirmi niente.
+Dialogue: 0,1:17:00.46,1:17:02.72,Default,,0000,0000,0000,,Quindi ora vedi di cavartela da solo.
+Dialogue: 0,1:17:04.68,1:17:08.26,Default,,0000,0000,0000,,E poi io so una cosa\N che tu non hai ancora capito, Shin!
+Dialogue: 0,1:17:08.26,1:17:10.18,Default,,0000,0000,0000,,D-Di che si tratta?!
+Dialogue: 0,1:17:10.18,1:17:12.14,Default,,0000,0000,0000,,Chissà...
+Dialogue: 0,1:17:12.14,1:17:15.69,Default,,0000,0000,0000,,E va bene, allora non starmi tra i piedi.
+Dialogue: 0,1:17:16.44,1:17:21.44,Default,,0000,0000,0000,,Bene, adesso direi di ascoltare\N la cassetta con il testamento, che dite?
+Dialogue: 0,1:17:21.44,1:17:22.45,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,1:17:27.58,1:17:29.24,Default,,0000,0000,0000,,I-Ispettore?
+Dialogue: 0,1:17:29.83,1:17:34.87,Default,,0000,0000,0000,,O almeno mi piacerebbe farlo, ma prima \Nvoglio che ascoltiate la mia deduzione.
+Dialogue: 0,1:17:35.75,1:17:40.88,Default,,0000,0000,0000,,Adesso vi dirò chi è stato a commettere \Ni due incidenti avvenuti in questa casa.
+Dialogue: 0,1:17:40.88,1:17:41.96,Default,,0000,0000,0000,,C-Cosa?!
+Dialogue: 0,1:17:42.47,1:17:44.47,Default,,0000,0000,0000,,Iniziamo con il secondo incidente,
+Dialogue: 0,1:17:44.47,1:17:47.72,Default,,0000,0000,0000,,quello della balestra nascosta \Nche ha attentato alla vita di Yoshifusa.
+Dialogue: 0,1:17:48.68,1:17:52.64,Default,,0000,0000,0000,,Ehi, ma non era stata opera\N dell'individuo con gli occhiali da sole?
+Dialogue: 0,1:17:53.06,1:17:55.27,Default,,0000,0000,0000,,Lo pensavo anche io.
+Dialogue: 0,1:17:55.27,1:17:58.15,Default,,0000,0000,0000,,Fino a quando non ho sentito\N una certa frase da una certa persona.
+Dialogue: 0,1:17:58.61,1:18:00.15,Default,,0000,0000,0000,,Quale frase?
+Dialogue: 0,1:18:00.15,1:18:03.02,Default,,0000,0000,0000,,Perché non l'ascoltiamo? Si è registrata...
+Dialogue: 0,1:18:03.90,1:18:06.87,Default,,0000,0000,0000,,nel lato B di quella cassetta.
+Dialogue: 0,1:18:07.45,1:18:09.91,Default,,0000,0000,0000,,Signor avvocato, la faccia partire.
+Dialogue: 0,1:18:09.91,1:18:11.66,Default,,0000,0000,0000,,A-Assurdo...
+Dialogue: 0,1:18:14.46,1:18:16.81,Default,,0000,0000,0000,,A-Allora, cominciamo.
+Dialogue: 0,1:18:17.63,1:18:19.38,Italics,,0000,0000,0000,,A terra!
+Dialogue: 0,1:18:19.38,1:18:20.51,Italics,,0000,0000,0000,,Attento!
+Dialogue: 0,1:18:21.00,1:18:22.30,Italics,,0000,0000,0000,,Cos'è stato?!
+Dialogue: 0,1:18:22.30,1:18:25.97,Italics,,0000,0000,0000,,L'armadietto! \NDa quell'armadietto è volata una freccia!
+Dialogue: 0,1:18:25.97,1:18:26.63,Italics,,0000,0000,0000,,Cosa?!
+Dialogue: 0,1:18:27.18,1:18:29.05,Italics,,0000,0000,0000,,U-Una balestra!
+Dialogue: 0,1:18:29.05,1:18:30.76,Default,,0000,0000,0000,,A cosa ti riferisci?
+Dialogue: 0,1:18:30.76,1:18:32.64,Default,,0000,0000,0000,,Non vi sembra strano?
+Dialogue: 0,1:18:33.02,1:18:37.81,Default,,0000,0000,0000,,Come sappiamo, la freccia è uscita\N dallo spiraglio di quell'armadietto,
+Dialogue: 0,1:18:38.81,1:18:40.82,Default,,0000,0000,0000,,ha attraversato in un attimo la stanza
+Dialogue: 0,1:18:41.40,1:18:45.03,Default,,0000,0000,0000,,ed è uscita dalla nostra visuale\N forando la porta.
+Dialogue: 0,1:18:45.36,1:18:49.53,Default,,0000,0000,0000,,Eppure qualcuno ha capito subito\N che si trattava di una freccia,
+Dialogue: 0,1:18:50.28,1:18:54.12,Default,,0000,0000,0000,,prima ancora che aprissimo\N l'armadietto e trovassimo la balestra.
+Dialogue: 0,1:18:55.12,1:18:57.08,Default,,0000,0000,0000,,Perciò, com'è possibile?
+Dialogue: 0,1:18:57.46,1:19:00.08,Default,,0000,0000,0000,,Keiko, non dirmi che tu...
+Dialogue: 0,1:19:00.38,1:19:03.46,Default,,0000,0000,0000,,Beh, la risposta è semplice.
+Dialogue: 0,1:19:03.46,1:19:08.66,Default,,0000,0000,0000,,Ad aver predisposto\N la balestra sei stata tu, Keiko!
+Dialogue: 0,1:19:09.47,1:19:10.85,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,1:19:10.85,1:19:14.77,Default,,0000,0000,0000,,P-Però questo non basta \Na incastrarla come colpevole.
+Dialogue: 0,1:19:15.14,1:19:20.94,Default,,0000,0000,0000,,È vero, sono stata io! L'ho sistemata\N il giorno in cui è tornato Yoshifusa!
+Dialogue: 0,1:19:20.94,1:19:22.69,Default,,0000,0000,0000,,K-Keiko...
+Dialogue: 0,1:19:23.32,1:19:26.69,Default,,0000,0000,0000,,Ho preso un prestito senza dirti nulla.
+Dialogue: 0,1:19:27.11,1:19:30.41,Default,,0000,0000,0000,,Una grande somma,\N dagli interessi molto alti.
+Dialogue: 0,1:19:30.74,1:19:33.62,Default,,0000,0000,0000,,Ho pensato che con la mia porzione di eredità
+Dialogue: 0,1:19:33.62,1:19:37.41,Default,,0000,0000,0000,,sarei riuscita a saldarlo\N senza farti sapere nulla.
+Dialogue: 0,1:19:38.04,1:19:43.79,Default,,0000,0000,0000,,Ma quando ho saputo che lo zio \Nsarebbe tornato dal Brasile, ho perso la testa.
+Dialogue: 0,1:19:44.80,1:19:47.13,Default,,0000,0000,0000,,Non avevo intenzione di ucciderlo.
+Dialogue: 0,1:19:47.13,1:19:50.61,Default,,0000,0000,0000,,{\fad(0,400)}Volevo solo spaventarlo\N per farlo tornare in Brasile.
+Dialogue: 0,1:19:51.39,1:19:53.80,Default,,0000,0000,0000,,{\fad(0,600)}L'ho impostata in modo che lo mancasse...
+Dialogue: 0,1:19:54.72,1:19:58.14,Default,,0000,0000,0000,,Non pensavo \Nche gli sarebbe volata così vicina.
+Dialogue: 0,1:19:58.85,1:20:03.15,Default,,0000,0000,0000,,Però non cambia niente, \Nvisto che hai ucciso Machiko.
+Dialogue: 0,1:20:03.15,1:20:04.11,Default,,0000,0000,0000,,Eh?!
+Dialogue: 0,1:20:04.40,1:20:06.48,Default,,0000,0000,0000,,Anche quella è opera tua, vero?
+Dialogue: 0,1:20:06.48,1:20:09.65,Default,,0000,0000,0000,,N-No! Non sono stata io!
+Dialogue: 0,1:20:09.65,1:20:12.16,Default,,0000,0000,0000,,P-Però...
+Dialogue: 0,1:20:12.16,1:20:14.41,Default,,0000,0000,0000,,È vero, credetemi!
+Dialogue: 0,1:20:14.91,1:20:16.32,Default,,0000,0000,0000,,Ha ragione.
+Dialogue: 0,1:20:17.29,1:20:21.25,Default,,0000,0000,0000,,A uccidere e poi nascondere\N la signora Machiko nel pozzo,
+Dialogue: 0,1:20:21.71,1:20:23.00,Italics,,0000,0000,0000,,... è stato qualcun altro!
+Dialogue: 0,1:20:23.29,1:20:24.99,Italics,,0000,0000,0000,,C-Che hai detto?!
+Dialogue: 0,1:20:25.54,1:20:26.59,Default,,0000,0000,0000,,Chi allora?!
+Dialogue: 0,1:20:26.59,1:20:28.30,Default,,0000,0000,0000,,Chi è stato?!
+Dialogue: 0,1:20:28.67,1:20:32.30,Italics,,0000,0000,0000,,Bravo! Risolvi il mistero, Shinichi!
+Dialogue: 0,1:20:32.30,1:20:34.76,Default,,0000,0000,0000,,L'assassino è...
+Dialogue: 0,1:20:34.76,1:20:37.01,Italics,,0000,0000,0000,,Noi ti stiamo osservando!
+Dialogue: 0,1:20:44.06,1:20:44.94,Default,,0000,0000,0000,,Già.
+Dialogue: 0,1:20:44.94,1:20:50.19,Default,,0000,0000,0000,,Colui che ha ucciso Machiko\N e l'ha nascosta dentro al pozzo...
+Dialogue: 0,1:20:50.44,1:20:54.58,Default,,0000,0000,0000,,{\fad(0,300)}Ehi, ma non è stata opera\N del tizio con gli occhiali da sole?
+Dialogue: 0,1:20:54.91,1:20:58.87,Default,,0000,0000,0000,,Probabilmente si tratta del fratello \Ndi nostra madre, che quindici anni fa
+Dialogue: 0,1:20:58.87,1:21:02.96,Default,,0000,0000,0000,,se l'è presa con noi per la morte\N della sorella, caduta nel pozzo e annegata.
+Dialogue: 0,1:21:05.24,1:21:06.71,Default,,0000,0000,0000,,Aveva tutti i motivi per farlo,
+Dialogue: 0,1:21:06.71,1:21:09.71,Default,,0000,0000,0000,,quindi non possiamo catturarlo\Ne chiarire la faccenda?
+Dialogue: 0,1:21:10.13,1:21:12.97,Default,,0000,0000,0000,,No. Probabilmente\N quell'uomo è un detective
+Dialogue: 0,1:21:12.97,1:21:17.07,Default,,0000,0000,0000,,assunto da qualcuno per scoprire\N se Yoshifusa è un impostore o meno.
+Dialogue: 0,1:21:17.72,1:21:21.81,Default,,0000,0000,0000,,U-Un attimo, ma se non è lui\N il colpevole, vuol dire...
+Dialogue: 0,1:21:21.81,1:21:23.48,Default,,0000,0000,0000,,S-Stai insinuando che...
+Dialogue: 0,1:21:23.48,1:21:31.03,Default,,0000,0000,0000,,Esatto, l'assassino \Ndella signora Machiko è in questa stanza!
+Dialogue: 0,1:21:31.03,1:21:38.28,Default,,0000,0000,0000,,Ehi, abbiamo già detto più volte \N che lei ci ha telefonato alle 21:00 dall'hotel!
+Dialogue: 0,1:21:38.28,1:21:43.16,Default,,0000,0000,0000,,Anche partendo subito dopo la chiamata,\N non può essere arrivata prima delle 22:00!
+Dialogue: 0,1:21:43.16,1:21:47.25,Default,,0000,0000,0000,,E in quel momento eravamo tutti insieme\N in una stanza, non può essere stato uno di noi.
+Dialogue: 0,1:21:47.25,1:21:49.65,Default,,0000,0000,0000,,{\fad(0,400)}E se fosse andata così?
+Dialogue: 0,1:21:50.21,1:21:54.26,Default,,0000,0000,0000,,Poco dopo le 20:00 Machiko\N ha telefonato per la prima volta dalla festa,
+Dialogue: 0,1:21:54.26,1:21:56.76,Default,,0000,0000,0000,,e subito dopo ha lasciato l'albergo.
+Dialogue: 0,1:21:56.76,1:22:00.68,Default,,0000,0000,0000,,Appena passate le 21:00 \Nha parcheggiato nel bosco,
+Dialogue: 0,1:22:00.68,1:22:05.27,Default,,0000,0000,0000,,ha utilizzato lo stereo dell'auto \Nper riprodurre la cassetta registrata alla festa
+Dialogue: 0,1:22:05.27,1:22:06.77,Default,,0000,0000,0000,,e ha fatto la seconda telefonata.
+Dialogue: 0,1:22:07.48,1:22:11.32,Default,,0000,0000,0000,,In questo modo ha fatto credere a tutti\N di essere ancora al banchetto di nozze.
+Dialogue: 0,1:22:11.32,1:22:17.11,Default,,0000,0000,0000,,Ma lei è la vittima. \NQuindi perché mai doveva crearsi un alibi?
+Dialogue: 0,1:22:17.11,1:22:20.37,Default,,0000,0000,0000,,Perché la situazione \Nsi è inaspettatamente ribaltata.
+Dialogue: 0,1:22:20.37,1:22:21.12,Default,,0000,0000,0000,,Ribaltata?
+Dialogue: 0,1:22:21.12,1:22:23.18,Default,,0000,0000,0000,,In che senso?
+Dialogue: 0,1:22:24.04,1:22:30.25,Default,,0000,0000,0000,,Machiko si era studiata questo alibi perché\N aveva intenzione di uccidere una persona.
+Dialogue: 0,1:22:31.00,1:22:35.05,Default,,0000,0000,0000,,Però alla fine è successo il contrario,\N è stata uccisa dal suo bersagio.
+Dialogue: 0,1:22:35.47,1:22:36.86,Default,,0000,0000,0000,,Che hai detto?!
+Dialogue: 0,1:22:37.38,1:22:43.39,Default,,0000,0000,0000,,Ironia della sorte, il trucco \Nche ha usato per crearsi l'alibi
+Dialogue: 0,1:22:43.39,1:22:46.19,Default,,0000,0000,0000,,ha aiutato anche il suo assassino.
+Dialogue: 0,1:22:46.98,1:22:49.49,Default,,0000,0000,0000,,L'impermeabile trovato nel pozzo era suo.
+Dialogue: 0,1:22:49.61,1:22:55.12,Default,,0000,0000,0000,,Lo aveva indossato prima di compiere l'omicidio\N per proteggersi dagli schizzi di sangue.
+Dialogue: 0,1:22:56.45,1:22:58.78,Default,,0000,0000,0000,,E il fiore di camelia...
+Dialogue: 0,1:22:58.78,1:23:03.79,Default,,0000,0000,0000,,Ce lo aveva in tasca fin dall'inizio e aveva\N intenzione di lasciarlo vicino al cadavere
+Dialogue: 0,1:23:03.79,1:23:07.66,Default,,0000,0000,0000,,per farci credere che il delitto \Nfosse collegato a quello di quindici anni fa.
+Dialogue: 0,1:23:09.46,1:23:11.71,Default,,0000,0000,0000,,E la cassetta si trovava vicino alla stufa,
+Dialogue: 0,1:23:11.71,1:23:16.94,Default,,0000,0000,0000,,perché probabilmente le è caduta mentre\N stava adando dal suo bersaglio in bagno,
+Dialogue: 0,1:23:18.02,1:23:25.11,Default,,0000,0000,0000,,oppure quando il colpevole\Nha trascinato il suo cadavere verso il pozzo.
+Dialogue: 0,1:23:25.68,1:23:31.77,Default,,0000,0000,0000,,In ogni caso, la donna aveva comunque\N intenzione di bruciarla nel fuoco.
+Dialogue: 0,1:23:34.23,1:23:36.86,Default,,0000,0000,0000,,{\fad(200,0)}Il luogo dell'omicidio\N probabilmente è il bagno.
+Dialogue: 0,1:23:37.69,1:23:42.78,Default,,0000,0000,0000,,Là sarebbe stato semplice pulire\N tutto il sangue schizzato dopo il delitto.
+Dialogue: 0,1:23:42.78,1:23:47.79,Default,,0000,0000,0000,,Allora, si può sapere chi è la persona \Nche voleva uccidere mentre si faceva il bagno?!
+Dialogue: 0,1:23:48.04,1:23:53.79,Default,,0000,0000,0000,,Il bersaglio di Machiko \Nera qualcuno che si fa il bagno ogni giorno,
+Dialogue: 0,1:23:53.79,1:23:57.80,Default,,0000,0000,0000,,l'unica persona il cui turno \Ndi entrare nella vasca è sempre lo stesso.
+Dialogue: 0,1:23:57.80,1:23:58.79,Default,,0000,0000,0000,,Mi riferisco...
+Dialogue: 0,1:23:59.80,1:24:02.09,Default,,0000,0000,0000,,... proprio a te, Yoshifusa Yabuuchi!
+Dialogue: 0,1:24:03.60,1:24:06.39,Default,,0000,0000,0000,,L-Lo zio?! Non è possibile!
+Dialogue: 0,1:24:06.39,1:24:10.64,Default,,0000,0000,0000,,Mi sono ricordato di una tecnica \Nche esiste nel jujitsu brasiliano.
+Dialogue: 0,1:24:11.23,1:24:13.77,Default,,0000,0000,0000,,Permette di torcere la mano \Ndi un assalitore armato
+Dialogue: 0,1:24:14.24,1:24:16.65,Default,,0000,0000,0000,,e di farlo infilzare con la sua stessa lama.
+Dialogue: 0,1:24:17.03,1:24:22.36,Default,,0000,0000,0000,,Quando è stato aggredito da Machiko,\N Yoshifusa l'ha usata istintivamente!
+Dialogue: 0,1:24:22.70,1:24:27.75,Default,,0000,0000,0000,,Probabilmente la donna \Nvoleva aumentare la sua porzione di eredità.
+Dialogue: 0,1:24:28.08,1:24:33.45,Default,,0000,0000,0000,,M-Ma era legittima difesa, \Nquindi come mai Yoshifusa non ha parlato?
+Dialogue: 0,1:24:33.75,1:24:39.92,Default,,0000,0000,0000,,Perché le lettere minatorie \Nche ha ricevuto erano due.
+Dialogue: 0,1:24:40.17,1:24:44.26,Flashback,,0000,0000,0000,,Santo cielo, quindi come pensavo\Nc'era un altro stolto che voleva uccidermi.
+Dialogue: 0,1:24:44.60,1:24:49.31,Default,,0000,0000,0000,,Quella frase indicava chiaramente\N che era già stato assalito in precedenza.
+Dialogue: 0,1:24:49.31,1:24:52.90,Default,,0000,0000,0000,,In pratica, Machiko \Ngli aveva inviato una lettera minatoria.
+Dialogue: 0,1:24:52.90,1:24:56.15,Default,,0000,0000,0000,,Proprio come Keiko, \Ncolei che ha sistemato la balestra.
+Dialogue: 0,1:24:56.15,1:25:00.44,Default,,0000,0000,0000,,{\fad(0,500)}Presumo che abbia legato il corpo alla corda\N del pozzo per farcelo trovare facilmente
+Dialogue: 0,1:25:00.44,1:25:03.86,Default,,0000,0000,0000,,{\fad(300,0)}e intimidire il mittente dell'altra lettera.
+Dialogue: 0,1:25:03.86,1:25:07.99,Default,,0000,0000,0000,,In ogni caso, \Nsi tratta sempre di legittima difesa.
+Dialogue: 0,1:25:10.08,1:25:13.17,Default,,0000,0000,0000,,Cosa ne dici di confessare, Yoshifusa?
+Dialogue: 0,1:25:14.58,1:25:16.42,Default,,0000,0000,0000,,Hai ancora molto da imparare.
+Dialogue: 0,1:25:19.42,1:25:21.42,Default,,0000,0000,0000,,Ehi, e tu chi sei?!
+Dialogue: 0,1:25:25.51,1:25:27.01,Default,,0000,0000,0000,,L'uomo con gli occhiali da sole!
+Dialogue: 0,1:25:27.01,1:25:27.78,Italics,,0000,0000,0000,,Cosa?!
+Dialogue: 0,1:25:28.39,1:25:33.39,Default,,0000,0000,0000,,Ogni dubbio verrà sciolto solo dopo\N aver ascoltato la cassetta del testamento.
+Dialogue: 0,1:25:33.73,1:25:34.65,Default,,0000,0000,0000,,Avanti, si sbrighi.
+Dialogue: 0,1:25:35.02,1:25:36.40,Default,,0000,0000,0000,,V-Va bene...
+Dialogue: 0,1:25:37.90,1:25:43.20,Italics,,0000,0000,0000,,La mia eredità sarà divisa \Ntra le sei persone che sto per elencare:
+Dialogue: 0,1:25:43.20,1:25:48.28,Italics,,0000,0000,0000,,mia moglie Machiko, \Nmia figlia Hiromi e suo marito Hidekazu,
+Dialogue: 0,1:25:48.28,1:25:51.54,Italics,,0000,0000,0000,,mio figlio Yoshiyuki e sua moglie Keiko,
+Dialogue: 0,1:25:51.54,1:25:53.76,Italics,,0000,0000,0000,,e infine Carlos.
+Dialogue: 0,1:25:54.37,1:25:59.46,Default,,0000,0000,0000,,C-Carlos?! C-Cosa ci fa qui il suo nome?!
+Dialogue: 0,1:26:00.00,1:26:04.06,Italics,,0000,0000,0000,,Desidero che la mia eredità sia divisa \Nin parti uguali fra queste sei persone.
+Dialogue: 0,1:26:04.88,1:26:09.35,Default,,0000,0000,0000,,Ma è assurdo! \NPerché non c'è il tuo nome, zio?!
+Dialogue: 0,1:26:09.35,1:26:11.35,Default,,0000,0000,0000,,Normale che non ci sia.
+Dialogue: 0,1:26:12.10,1:26:17.10,Default,,0000,0000,0000,,Dopotutto, questo anziano signore venuto\N dal Brasile non è altri che la guardia del corpo
+Dialogue: 0,1:26:17.48,1:26:19.12,Default,,0000,0000,0000,,del giovane Carlos!
+Dialogue: 0,1:26:20.32,1:26:21.61,Italics,,0000,0000,0000,,Cosa?!
+Dialogue: 0,1:26:21.98,1:26:24.11,Default,,0000,0000,0000,,Allora, si può sapere chi è Carlos?!
+Dialogue: 0,1:26:25.65,1:26:31.02,Default,,0000,0000,0000,,È il figlio del vero Yoshifusa, \Navuto con una donna brasiliana.
+Dialogue: 0,1:26:31.49,1:26:33.08,Default,,0000,0000,0000,,F-Figlio?
+Dialogue: 0,1:26:33.58,1:26:37.08,Default,,0000,0000,0000,,Però, signor detective, \Ndove ha scoperto tutte queste cose?
+Dialogue: 0,1:26:37.08,1:26:39.59,Default,,0000,0000,0000,,No, io non sono un detective.
+Dialogue: 0,1:26:41.92,1:26:44.09,Default,,0000,0000,0000,,Sono un semplice scrittore di gialli.
+Dialogue: 0,1:26:44.55,1:26:45.84,Default,,0000,0000,0000,,Y-Yusaku!
+Dialogue: 0,1:26:45.84,1:26:48.45,Italics,,0000,0000,0000,,E-Eh?! P-Papà!
+Dialogue: 0,1:26:48.84,1:26:51.47,Default,,0000,0000,0000,,Yusaku, cosa ci fai qui?
+Dialogue: 0,1:26:51.47,1:26:53.25,Default,,0000,0000,0000,,Oh, nessun motivo in particolare.
+Dialogue: 0,1:26:54.73,1:26:57.89,Default,,0000,0000,0000,,Ma sul serio \Nquesto signore non è Yoshifusa?
+Dialogue: 0,1:26:58.31,1:27:01.19,Default,,0000,0000,0000,,È mancino e la scrittura è la stessa!
+Dialogue: 0,1:27:01.19,1:27:04.41,Default,,0000,0000,0000,,Al mondo esistono\N tantissime persone mancine.
+Dialogue: 0,1:27:04.99,1:27:06.99,Default,,0000,0000,0000,,Poi, normale che la scrittura sia uguale.
+Dialogue: 0,1:27:06.99,1:27:11.20,Default,,0000,0000,0000,,Dopotutto, quella cartolina la scrisse lui\N su richiesta del signor Yoshifusa.
+Dialogue: 0,1:27:12.53,1:27:17.54,Default,,0000,0000,0000,,Yoshifusa e questo signore \Ngestivano insieme una fattoria in Brasile.
+Dialogue: 0,1:27:18.62,1:27:23.30,Default,,0000,0000,0000,,Però dieci anni fa per colpa di un tornado, \Nquesto signore si era ferito a una gamba
+Dialogue: 0,1:27:23.30,1:27:26.02,Default,,0000,0000,0000,,e Yoshifusa aveva perso\N il suo braccio sinistro.
+Dialogue: 0,1:27:27.07,1:27:32.18,Default,,0000,0000,0000,,{\fad(300,0)}Da quel giorno è stato sempre lui a scrivere \Nle lettere e le comunicazioni per Yoshifusa.
+Dialogue: 0,1:27:33.76,1:27:36.31,Default,,0000,0000,0000,,Carlos fa parte degli eredi
+Dialogue: 0,1:27:36.31,1:27:40.56,Default,,0000,0000,0000,,perché Yoshichika ha avuto compassione\N del giovane, che prima ha perso la sua fattoria
+Dialogue: 0,1:27:40.56,1:27:43.65,Default,,0000,0000,0000,,e poi, sei mesi fa, \Nha perso il padre, morto per una malattia.
+Dialogue: 0,1:27:45.23,1:27:47.69,Default,,0000,0000,0000,,È tutto scritto qui,
+Dialogue: 0,1:27:48.36,1:27:51.66,Default,,0000,0000,0000,,in queste numerose lettere che erano\N in un pannello segreto nel magazzino.
+Dialogue: 0,1:27:53.20,1:27:55.62,Default,,0000,0000,0000,,Però perché si è finto Yoshifusa?
+Dialogue: 0,1:27:55.62,1:27:57.54,Default,,0000,0000,0000,,Forse voleva impossessarsi del denaro!
+Dialogue: 0,1:27:57.54,1:28:01.71,Default,,0000,0000,0000,,Per quanto uno possa essere avido, non avrebbe \Nmai interpretato il ruolo di una persona
+Dialogue: 0,1:28:01.71,1:28:03.54,Default,,0000,0000,0000,,che ha ricevuto minacce di morte.
+Dialogue: 0,1:28:04.21,1:28:06.92,Default,,0000,0000,0000,,Se si fosse scoperto\N che Carlos è il figlio di Yoshifusa,
+Dialogue: 0,1:28:06.92,1:28:09.84,Default,,0000,0000,0000,,sarebbe diventato lui \Nil bersaglio dei mittenti.
+Dialogue: 0,1:28:09.84,1:28:13.55,Default,,0000,0000,0000,,Così questo signore si è finto Yoshifusa.
+Dialogue: 0,1:28:14.26,1:28:17.81,Default,,0000,0000,0000,,In questo modo, \Nè stato preso di mira soltanto lui.
+Dialogue: 0,1:28:18.56,1:28:21.77,Default,,0000,0000,0000,,Lo prova il fatto \Nche quando andava a fare il bagno,
+Dialogue: 0,1:28:21.77,1:28:23.56,Default,,0000,0000,0000,,lasciava Carlos nell'altra stanza.
+Dialogue: 0,1:28:24.36,1:28:26.83,Default,,0000,0000,0000,,Far credere agli altri \Nche li stesse tenendo d'occhio
+Dialogue: 0,1:28:26.83,1:28:28.96,Default,,0000,0000,0000,,era il metodo migliore per tenerlo al sicuro.
+Dialogue: 0,1:28:29.57,1:28:32.49,Default,,0000,0000,0000,,Il piano di questo signore \Nera catturare chi lo aveva minacciato,
+Dialogue: 0,1:28:32.49,1:28:34.55,Default,,0000,0000,0000,,però ha finito con l'uccidere Machiko.
+Dialogue: 0,1:28:35.03,1:28:37.45,Default,,0000,0000,0000,,Certo, si trattava di legittima difesa,
+Dialogue: 0,1:28:37.45,1:28:41.08,Default,,0000,0000,0000,,ma denunciando la cosa sarebbe dovuto\N andare via con la polizia per l'interrogatorio.
+Dialogue: 0,1:28:41.58,1:28:46.14,Default,,0000,0000,0000,,Ma non poteva lasciare da solo Carlos \Ncon ancora in giro il secondo attentatore.
+Dialogue: 0,1:28:46.55,1:28:49.65,Default,,0000,0000,0000,,Perciò, ha sistemato il corpo\N nel pozzo per farlo trovare subito,
+Dialogue: 0,1:28:49.65,1:28:53.69,Default,,0000,0000,0000,,e aveva intenzione di raccontare tutto\N all'ispettore se si fosse mostrato all'atezza.
+Dialogue: 0,1:28:54.26,1:28:57.97,Default,,0000,0000,0000,,Ma purtroppo, se n'è presentato uno\N che era alla sua prima esperienza.
+Dialogue: 0,1:28:58.39,1:29:00.09,Default,,0000,0000,0000,,Non avendo altra scelta,
+Dialogue: 0,1:29:00.09,1:29:02.94,Default,,0000,0000,0000,,ha deciso di parlare \Nsolo dopo la lettura del testamento.
+Dialogue: 0,1:29:04.60,1:29:06.05,Default,,0000,0000,0000,,Capisco...
+Dialogue: 0,1:29:07.40,1:29:09.36,Default,,0000,0000,0000,,Ho sbagliato qualcosa,
+Dialogue: 0,1:29:09.36,1:29:12.11,Default,,0000,0000,0000,,Tanaka Hickson, \Ngiapponese-brasiliano di seconda generazione?
+Dialogue: 0,1:29:13.61,1:29:17.87,Default,,0000,0000,0000,,È tutto esattamente come ha detto.\N Non ha fatto alcun errore.
+Dialogue: 0,1:29:18.26,1:29:19.87,Default,,0000,0000,0000,,Visto che dovrà andare dalla polizia,
+Dialogue: 0,1:29:19.87,1:29:23.87,Default,,0000,0000,0000,,le presenterò un ispettore valido\N che conosco molto bene.
+Dialogue: 0,1:29:24.25,1:29:28.55,Default,,0000,0000,0000,,Sì, la ringrazio. \NSo di potermi fidare di lei.
+Dialogue: 0,1:29:32.55,1:29:35.63,Italics,,0000,0000,0000,,Due ore più tardi\N è arrivato l'ispettore Megure,
+Dialogue: 0,1:29:35.63,1:29:39.17,Italics,,0000,0000,0000,,Tanaka e Keiko sono stati portati \Nalla centrale di polizia di Gunma.
+Dialogue: 0,1:29:41.14,1:29:43.64,Italics,,0000,0000,0000,,Carlos, che non conosce bene il giapponese,
+Dialogue: 0,1:29:43.64,1:29:46.56,Italics,,0000,0000,0000,,ha seguito con lo sguardo triste\N la macchina che si allontanava...
+Dialogue: 0,1:29:47.52,1:29:51.57,Italics,,0000,0000,0000,,Ma quando mio padre gli ha detto in portoghese\N che il suo tutore sarebbe tornato presto,
+Dialogue: 0,1:29:51.57,1:29:53.41,Italics,,0000,0000,0000,,si è rallegrato come un bambino.
+Dialogue: 0,1:29:55.86,1:29:59.24,Italics,,0000,0000,0000,,A quanto pare, per tenerlo al sicuro,
+Dialogue: 0,1:29:59.24,1:30:01.79,Italics,,0000,0000,0000,,Tanaka non gli aveva detto dell'eredità
+Dialogue: 0,1:30:01.79,1:30:04.72,Italics,,0000,0000,0000,,e nemmeno che quella fosse\N la casa della famiglia di suo padre.
+Dialogue: 0,1:30:07.21,1:30:10.13,Italics,,0000,0000,0000,,Finalmente, questa lunga notte è finita.
+Dialogue: 0,1:30:12.34,1:30:15.55,Default,,0000,0000,0000,,Eh?! Stavi ascoltando\N tutto quello che dicevo?!
+Dialogue: 0,1:30:15.88,1:30:18.47,Default,,0000,0000,0000,,Sì, il professor Agasa \Nmi ha dato una trasmittente
+Dialogue: 0,1:30:18.47,1:30:21.77,Default,,0000,0000,0000,,che capta i suoni\N provenienti dal tuo farfallino.
+Dialogue: 0,1:30:21.77,1:30:24.31,Default,,0000,0000,0000,,Mi hai aiutato a risolvere il caso.
+Dialogue: 0,1:30:25.14,1:30:28.23,Default,,0000,0000,0000,,Anche io avrei scoperto\N la vera identità di quel vecchio
+Dialogue: 0,1:30:28.23,1:30:30.27,Default,,0000,0000,0000,,se avessi trovato quelle lettere.
+Dialogue: 0,1:30:30.27,1:30:35.61,Default,,0000,0000,0000,,No, io sapevo già che non era quello vero\N anche prima di trovarle.
+Dialogue: 0,1:30:35.61,1:30:36.53,Default,,0000,0000,0000,,E come?!
+Dialogue: 0,1:30:36.53,1:30:38.78,Default,,0000,0000,0000,,Dalla cicatrice sulla gamba.
+Dialogue: 0,1:30:38.78,1:30:42.24,Default,,0000,0000,0000,,Un mancino quando è\N in prima base allunga la gamba sinistra.
+Dialogue: 0,1:30:42.24,1:30:45.04,Default,,0000,0000,0000,,Mentre la cicatrice \Ndi quell'uomo era su quella destra.
+Dialogue: 0,1:30:45.41,1:30:50.71,Default,,0000,0000,0000,,La cosa mi ha insospettito, quindi ho rovistato\N nel magazzino e ho trovato quelle lettere.
+Dialogue: 0,1:30:52.05,1:30:56.05,Default,,0000,0000,0000,,Il tuo spirito d'osservazione\N è ancora parecchio scarso, Shinichi!
+Dialogue: 0,1:30:56.34,1:30:58.22,Default,,0000,0000,0000,,Ma guarda quante arie si dà!
+Dialogue: 0,1:30:58.22,1:31:01.56,Default,,0000,0000,0000,,Ti atteggi da figo anche se in realtà\N sei venuto fin qui per trovarmi.
+Dialogue: 0,1:31:01.93,1:31:04.82,Default,,0000,0000,0000,,Cos'era quel...\N"Sono un semplice scrittore di gialli"?!
+Dialogue: 0,1:31:04.82,1:31:08.56,Default,,0000,0000,0000,,Chi ti credi di essere? \NKogoro Akechi forse?
+Dialogue: 0,1:31:08.56,1:31:12.19,Default,,0000,0000,0000,,Terribile, terribile! \NNon sopporto proprio gli uomini così!
+Dialogue: 0,1:31:12.19,1:31:12.98,Default,,0000,0000,0000,,Yukiko.
+Dialogue: 0,1:31:15.99,1:31:16.95,Default,,0000,0000,0000,,Andiamo a casa.
+Dialogue: 0,1:31:19.61,1:31:21.87,Default,,0000,0000,0000,,Insomma, \Ncerca di metterti un po' nei miei panni!
+Dialogue: 0,1:31:22.12,1:31:24.74,Default,,0000,0000,0000,,"Andiamo a casa"? Tutto qui?!
+Dialogue: 0,1:31:28.25,1:31:31.84,Default,,0000,0000,0000,,Che aspetti, Shinichi?\NGuarda che ti lasciamo qui!
+Dialogue: 0,1:31:32.04,1:31:33.42,Default,,0000,0000,0000,,O-Oh, sì.
+Dialogue: 0,1:31:34.71,1:31:40.39,Italics,,0000,0000,0000,,Ad ogni modo, sia la lite coniugale \Nche l'omicidio sono stati risolti.
+Dialogue: 0,1:33:07.39,1:33:09.54,Cartello BASE,,0000,0000,0000,,{\an7\blur0.4\bord1\shad0\fscx100\fscy100\p1\c&H4D4D49&\3c&HA7C9D7&\move(190.005,37.025,190.005,-11.526,25,2110)}m -103 -27 l 105 -27 105 8 -103 8
+Dialogue: 1,1:33:07.39,1:33:09.54,Cartello BASE,,0000,0000,0000,,{\fs17\blur0.5\b1\c&HD3D1DF&\move(190.005,37.025,190.005,-11.526,25,2110)}A{*\c&HD4D2E0&}g{*\c&HD6D3E1&}e{*\c&HD7D4E2&}n{*\c&HD8D5E3&}z{*\c&HDAD6E4&}i{*\c&HDBD7E5&}a {*\c&HDDDAE7&}i{*\c&HDFDBE8&}n{*\c&HE0DCE9&}v{*\c&HE1DDEA&}e{*\c&HE3DEEB&}s{*\c&HE4DFEC&}t{*\c&HE5E0EE&}i{*\c&HE7E1EF&}g{*\c&HE8E2F0&}a{*\c&HE9E3F1&}t{*\c&HEBE4F2&}i{*\c&HECE5F3&}v{*\c&HEDE7F4&}a {*\c&HF0E9F6&}M{*\c&HF1EAF7&}o{*\c&HF2EBF8&}r{*\c&HF4ECF9&}i{\c&HF5EDFA&}
+Dialogue: 0,1:33:08.81,1:33:10.10,Default,,0000,0000,0000,,Ci vediamo, Shin!
+Dialogue: 0,1:33:10.10,1:33:11.64,Default,,0000,0000,0000,,Salutami Ran!
+Dialogue: 0,1:33:11.64,1:33:15.75,Default,,0000,0000,0000,,Oh, giusto! \NTi conviene stare molto attento a lei.
+Dialogue: 0,1:33:16.43,1:33:21.11,Default,,0000,0000,0000,,Nel suo ultimo sorriso\Nc'era qualcosa che non mi convinceva...
+Dialogue: 0,1:33:21.53,1:33:25.37,Default,,0000,0000,0000,,Ha ragione, non bisogna mai \Nsottovalutare le donne.
+Dialogue: 0,1:33:25.37,1:33:27.33,Default,,0000,0000,0000,,Oh, finalmente l'hai capito!
+Dialogue: 0,1:33:28.48,1:33:29.48,Default,,0000,0000,0000,,A presto!
+Dialogue: 0,1:33:31.93,1:33:33.85,Italics,,0000,0000,0000,,Stava scherzando... vero?
+Dialogue: 0,1:33:35.28,1:33:36.44,Default,,0000,0000,0000,,Sono...
+Dialogue: 0,1:33:38.05,1:33:39.01,Default,,0000,0000,0000,,... a casa?
+Dialogue: 0,1:33:39.67,1:33:42.22,Default,,0000,0000,0000,,L'ho saputo dal professor Agasa.
+Dialogue: 0,1:33:43.13,1:33:44.72,Default,,0000,0000,0000,,C-Che cosa?
+Dialogue: 0,1:33:45.09,1:33:49.71,Default,,0000,0000,0000,,Se te ne vai a dormire fuori da qualche parte, \Ndovresti almeno avvertirmi, non credi?!
+Dialogue: 0,1:33:51.32,1:33:51.98,Default,,0000,0000,0000,,Eh?
+Dialogue: 0,1:33:54.40,1:33:56.23,Default,,0000,0000,0000,,Ero preoccupata!
+Dialogue: 0,1:33:56.23,1:33:59.52,Default,,0000,0000,0000,,Ho chiamato un milione di volte \Na casa di Shinichi e non rispondeva nessuno!
+Dialogue: 0,1:33:59.52,1:34:00.59,Default,,0000,0000,0000,,Ma insomma!
+Dialogue: 0,1:34:00.59,1:34:02.21,Default,,0000,0000,0000,,S-Scusami...
+Dialogue: 0,1:34:05.40,1:34:07.46,Italics,,0000,0000,0000,,Non farmi prendere colpi del genere...
+Dialogue: 1,1:34:08.77,1:34:32.81,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HF5F2E3&\fnArial\1a&H73&\pos(192.69,94.656)}Anteprima
+Dialogue: 0,1:34:08.77,1:34:32.81,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HFDFDFD&\fnArial\1a&H73&\pos(192.69,94.656)}Anteprima
+Dialogue: 0,1:34:10.85,1:34:13.00,Italics,,0000,0000,0000,,Una siringa? \NCons'ha intenzione di fare?!
+Dialogue: 0,1:34:17.07,1:34:19.40,Italics,,0000,0000,0000,,Dannazione... Del cloroformio...
+Dialogue: 0,1:34:26.38,1:34:29.78,Italics,,0000,0000,0000,,Probabilmente ha avvelenato quel vino!
+Dialogue: 0,1:34:29.78,1:34:32.00,Italics,,0000,0000,0000,,Qual è il suo vero obiettivo?!
+Dialogue: 1,1:34:32.81,1:34:38.82,Titolo episodio,,0000,0000,0000,,{\bord0\fs18\blur0.6\c&HDBDFE5&\3c&HACC3DC&\pos(319.797,110.85)}Il caso dell'omicidio del vino d'addio
+Dialogue: 0,1:34:32.81,1:34:38.82,Titolo episodio,,0000,0000,0000,,{\fs18\blur0.5\bord0.1\c&HC1CDD8&\3c&H78A3F9&\pos(319.797,110.85)}Il caso dell'omicidio del vino d'addio
+Dialogue: 0,1:34:33.46,1:34:34.89,Italics,,0000,0000,0000,,Nel prossimo episodio di Conan...
+Dialogue: 0,1:34:34.89,1:34:37.28,Italics,,0000,0000,0000,,"Il caso dell'omicidio del vino d'addio".

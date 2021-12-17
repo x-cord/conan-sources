@@ -1,0 +1,410 @@
+[Script Info]
+Title: Italiano
+Original Script: cr_it  [http://www.crunchyroll.com/user/cr_it]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: OS,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0001,0001,0015,0
+Style: On Top,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0020,0020,0022,0
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Default - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Flashback - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Flashback Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Flashback Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Cartello BASE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0010,0010,0010,1
+Style: Titolo episodio,Verdana,25,&H00D0B193,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,180,0,0,1,0,0,2,0010,0010,0010,1
+Style: Non perdetevi il prossimo episodio v2,Arial,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,75,130,0,0,1,0,0,2,0010,0010,0010,1
+Style: Cartello BASE -X-,Arial,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,75,100,0,0,1,0,0,2,0010,0010,0010,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.93,0:00:04.40,Italics,,0000,0000,0000,,Gli incontri fortuiti sono misteriosi, \N ma ancor di più lo sono i casi!
+Dialogue: 0,0:00:04.40,0:00:06.42,Italics,,0000,0000,0000,,Sono contento di affrontarli con te!
+Dialogue: 0,0:00:06.42,0:00:10.09,Italics,,0000,0000,0000,,Oggi siamo in spiaggia, \Ncon coppiette di tutti i tipi.
+Dialogue: 0,0:00:10.09,0:00:11.65,Italics,,0000,0000,0000,,Riesce a discernere l'unica verità,
+Dialogue: 0,0:00:11.65,0:00:13.53,Italics,,0000,0000,0000,,è un bambino, \Nma ha la mente di un adulto!
+Dialogue: 0,0:00:13.53,0:00:15.99,Italics,,0000,0000,0000,,Il suo nome? Detective Conan!
+Dialogue: 0,0:01:51.10,0:01:57.08,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur0.6\bord0.2\3c&HE8E6E4&\c&HE5EBED&\pos(317.207,272.689)}Il caso dell'omicidio \N\N\N\N\N\N\N dell'escursione subacquea {\fs17}(prima parte)
+Dialogue: 1,0:01:51.10,0:01:57.08,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur0.7\bord0.3\3c&HE8E6E4&\c&HE5EBED&\pos(317.207,272.689)}Il caso dell'omicidio \N\N\N\N\N\N\N dell'escursione subacquea {\fs17}(prima parte)
+Dialogue: 0,0:01:51.84,0:01:55.99,Italics,,0000,0000,0000,,"Il caso dell'omicidio \N dell'escursione subacquea, prima parte".
+Dialogue: 0,0:01:57.08,0:01:59.05,Cartello BASE,,0000,0000,0000,,{\fnArial\bord1\fs14\fnArial\c&HEBD191&\fax-0.66\3c&H413203&\frz21.99\1a&H12&\pos(370.218,168.172)}Agenzia investigativa Mori
+Dialogue: 0,0:01:59.43,0:02:00.97,Default,,0000,0000,0000,,Ci hai pensato?
+Dialogue: 0,0:02:01.47,0:02:02.08,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:02:02.55,0:02:05.31,Default,,0000,0000,0000,,Esatto, sabato e domenica.
+Dialogue: 0,0:02:06.52,0:02:10.33,Default,,0000,0000,0000,,Eh? Davvero ti va bene? Grazie!
+Dialogue: 0,0:02:10.33,0:02:12.56,Default,,0000,0000,0000,,Che stai facendo, a quest'ora di notte?
+Dialogue: 0,0:02:13.15,0:02:15.19,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:02:15.19,0:02:18.20,Default,,0000,0000,0000,,Niente! Sto solo parlando con un'amica.
+Dialogue: 0,0:02:19.20,0:02:21.32,Default,,0000,0000,0000,,Va bene, allora. Buonanotte!
+Dialogue: 0,0:02:28.21,0:02:30.33,Default,,0000,0000,0000,,Buonanotte, Conan!
+Dialogue: 0,0:02:31.92,0:02:34.07,Italics,,0000,0000,0000,,Che le prende adesso?
+Dialogue: 0,0:02:35.59,0:02:39.38,Cartello BASE,,0000,0000,0000,,{\fad(1250,0)\fnArial\bord1\fs12\fnArial\c&HFFFFFF&\fax-0.86\3c&HC3BA94&\1a&H12&\frz29.23\pos(324.218,78.172)}Agenzia investigativa Mori
+Dialogue: 0,0:02:37.42,0:02:39.38,Default,,0000,0000,0000,,Vuoi andare a nuotare a Izu?
+Dialogue: 0,0:02:39.38,0:02:44.97,Default,,0000,0000,0000,,Sì, questo fine settimana! \NTu non hai impegni, vero?
+Dialogue: 0,0:02:44.97,0:02:48.98,Default,,0000,0000,0000,,Dicono che l'hotel è bellissimo \Ne la spiaggia privata è il massimo!
+Dialogue: 0,0:02:49.48,0:02:51.60,Default,,0000,0000,0000,,Anche il conto sarà il massimo, no?
+Dialogue: 0,0:02:51.60,0:02:56.44,Default,,0000,0000,0000,,È un bel po' che non mi prendo ferie, \Npreferirei restare qui a bere e dormire.
+Dialogue: 0,0:02:56.71,0:03:00.40,Italics,,0000,0000,0000,,Veramente dormi e bevi \Nanche quando non sei in ferie.
+Dialogue: 0,0:03:00.78,0:03:03.07,Default,,0000,0000,0000,,Ma ormai l'ho promesso...
+Dialogue: 0,0:03:03.07,0:03:04.37,Default,,0000,0000,0000,,Promesso?
+Dialogue: 0,0:03:04.37,0:03:05.56,Default,,0000,0000,0000,,A chi?
+Dialogue: 0,0:03:05.56,0:03:07.87,Default,,0000,0000,0000,,No, niente, è una cosa mia.
+Dialogue: 0,0:03:08.37,0:03:10.79,Default,,0000,0000,0000,,Anche tu vuoi andare a nuotare, vero Conan?!
+Dialogue: 0,0:03:10.79,0:03:12.08,Default,,0000,0000,0000,,Vero?!
+Dialogue: 0,0:03:12.67,0:03:14.21,Default,,0000,0000,0000,,S-Sì...
+Dialogue: 0,0:03:14.54,0:03:15.98,Default,,0000,0000,0000,,Non si fa così!
+Dialogue: 0,0:03:15.98,0:03:18.92,Default,,0000,0000,0000,,Così lo abitui fin da piccolo \Na pensare solo a divertirsi!
+Dialogue: 0,0:03:19.80,0:03:24.48,Default,,0000,0000,0000,,Ho sentito che la spiaggia dell'hotel \Nè sempre piena di vivaci ragazze in costume.
+Dialogue: 0,0:03:25.01,0:03:27.89,Default,,0000,0000,0000,,Ci saranno un sacco \Ndi universitarie e impiegate!
+Dialogue: 0,0:03:28.52,0:03:32.35,Italics,,0000,0000,0000,,Ma che dice? \NDi solito Ran si arrabbia a questi discorsi...
+Dialogue: 0,0:03:33.94,0:03:38.05,Default,,0000,0000,0000,,Beh, a dirla tutta,\Nultimamente ho lavorato più del solito.
+Dialogue: 0,0:03:38.05,0:03:39.57,Default,,0000,0000,0000,,Ogni tanto ci vuole una vacanza.
+Dialogue: 0,0:03:39.87,0:03:42.64,Default,,0000,0000,0000,,Evviva! Grazie, papà!
+Dialogue: 0,0:03:42.64,0:03:43.93,Default,,0000,0000,0000,,Ma no, figurati!
+Dialogue: 0,0:03:45.20,0:03:51.58,Italics,,0000,0000,0000,,Ehi! Kogoro è lo stesso di sempre, \Nma cosa è successo a Ran?
+Dialogue: 0,0:03:56.42,0:03:58.88,Default,,0000,0000,0000,,Wow! Che bello il mare!
+Dialogue: 0,0:03:58.88,0:04:03.72,Default,,0000,0000,0000,,Il mare vivace mi chiama!
+Dialogue: 0,0:04:07.26,0:04:12.10,Cartello BASE,,0000,0000,0000,,{\fad(280,0)\an7\blur1.3\bord0\shad0\fscx90\fscy100\p1\c&H96420C&\1a&H84&\pos(320.755,256.317)}m -91 -40 l 90 -40 90 2 -91 2
+Dialogue: 1,0:04:07.26,0:04:12.10,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(280,0)\fs20\shad0\bord0\fnTrebuchet MS\pos(320.286,256.429)}Izu \NQueen Hotel
+Dialogue: 0,0:04:12.48,0:04:16.06,Default,,0000,0000,0000,,L'hotel è bello come dicono.
+Dialogue: 0,0:04:19.52,0:04:21.78,Default,,0000,0000,0000,,Che c'è? Cerchi qualcuno?
+Dialogue: 0,0:04:21.78,0:04:24.53,Default,,0000,0000,0000,,Eh? No, non è niente.
+Dialogue: 0,0:04:24.53,0:04:27.24,Default,,0000,0000,0000,,Papà! Sbrighiamoci a fare il check-in!
+Dialogue: 0,0:04:27.62,0:04:30.45,Default,,0000,0000,0000,,Ah, sì. Dobbiamo darci una mossa.
+Dialogue: 0,0:04:32.79,0:04:35.42,Default,,0000,0000,0000,,Ha prenotato due stanze, giusto?
+Dialogue: 0,0:04:35.42,0:04:35.87,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:04:36.42,0:04:40.32,Default,,0000,0000,0000,,Ma dai, a che ci servono due stanze separate?
+Dialogue: 0,0:04:40.32,0:04:43.09,Default,,0000,0000,0000,,Non costava meno prenderne una sola?
+Dialogue: 0,0:04:43.09,0:04:46.97,Default,,0000,0000,0000,,Ma così saremmo d'intralcio.
+Dialogue: 0,0:04:46.97,0:04:51.27,Default,,0000,0000,0000,,No, niente! Piuttosto, cambiamoci \Ne andiamo in spiaggia!
+Dialogue: 0,0:04:51.27,0:04:55.06,Default,,0000,0000,0000,,Sì! Le fanciulle vivaci mi aspettano!
+Dialogue: 0,0:04:55.48,0:04:58.74,Italics,,0000,0000,0000,,Strano. C'è davvero qualcosa sotto.
+Dialogue: 0,0:05:06.23,0:05:08.07,Italics,,0000,0000,0000,,Quanto sole!
+Dialogue: 0,0:05:08.07,0:05:12.79,Default,,0000,0000,0000,,Ta-dà! Guarda, papà! \NIl costume che ho comprato ieri!
+Dialogue: 0,0:05:13.06,0:05:17.25,Default,,0000,0000,0000,,Shh! Abbassa la voce! \NNon voglio che si sappia che ho figli!
+Dialogue: 0,0:05:17.71,0:05:19.71,Default,,0000,0000,0000,,Cosa vorresti dire con quello?
+Dialogue: 0,0:05:19.71,0:05:23.26,Default,,0000,0000,0000,,Beh, ecco...
+Dialogue: 0,0:05:24.72,0:05:28.39,Default,,0000,0000,0000,,Ehilà! Dico a te, signorina dal bel fisico!
+Dialogue: 0,0:05:28.39,0:05:30.68,Default,,0000,0000,0000,,Se vuoi te la metto io la crema...
+Dialogue: 0,0:05:35.89,0:05:39.60,Default,,0000,0000,0000,,E-Eri? Che ci fai qui?
+Dialogue: 0,0:05:40.00,0:05:42.57,Default,,0000,0000,0000,,{\i1}Tu{\i0} che ci fai qui?
+Dialogue: 0,0:05:42.57,0:05:45.11,Default,,0000,0000,0000,,Wow! Che bella coincidenza!
+Dialogue: 0,0:05:45.11,0:05:48.53,Default,,0000,0000,0000,,Sembrate proprio due piccioncini, \Nuna coppia perfetta!
+Dialogue: 0,0:05:48.99,0:05:51.41,Default,,0000,0000,0000,,Ran, non dirmi che questa...
+Dialogue: 0,0:05:51.41,0:05:52.78,Default,,0000,0000,0000,,... è opera tua?
+Dialogue: 0,0:05:52.78,0:05:54.49,Default,,0000,0000,0000,,Eh? Cosa?
+Dialogue: 0,0:05:54.49,0:05:57.46,Default,,0000,0000,0000,,Per questo hai preso due stanze separate?
+Dialogue: 0,0:05:57.46,0:05:59.75,Default,,0000,0000,0000,,Eh? Che vuoi dire?
+Dialogue: 0,0:05:59.75,0:06:03.71,Italics,,0000,0000,0000,,Diamine. È talmente ovvio.
+Dialogue: 0,0:06:08.84,0:06:12.26,Default,,0000,0000,0000,,Su, smettetela di tenere il broncio voi due!
+Dialogue: 0,0:06:12.26,0:06:15.14,Default,,0000,0000,0000,,Scusate se ho organizzato \Nl'incontro di nascosto!
+Dialogue: 0,0:06:18.21,0:06:21.52,Default,,0000,0000,0000,,Godiamoci il mare di Izu! \NVa bene? Va bene?
+Dialogue: 0,0:06:24.86,0:06:26.99,Default,,0000,0000,0000,,Io me lo stavo godendo.
+Dialogue: 0,0:06:27.57,0:06:30.28,Default,,0000,0000,0000,,Finché non è arrivata \Nuna certa signora di mezz'età
+Dialogue: 0,0:06:30.28,0:06:32.70,Default,,0000,0000,0000,,con un costume inadatto alla sua età.
+Dialogue: 0,0:06:32.93,0:06:33.82,Default,,0000,0000,0000,,Ah, sì?
+Dialogue: 0,0:06:33.82,0:06:39.92,Default,,0000,0000,0000,,E chi è che stava sbavando e ululando\N dietro quella signora di mezz'età?
+Dialogue: 0,0:06:41.54,0:06:44.25,Default,,0000,0000,0000,,Su, smettetela voi due...
+Dialogue: 0,0:06:46.34,0:06:47.84,Default,,0000,0000,0000,,Vado in bagno.
+Dialogue: 0,0:06:49.22,0:06:51.47,Default,,0000,0000,0000,,Ah, papà! Aspetta!
+Dialogue: 0,0:06:52.01,0:06:55.60,Default,,0000,0000,0000,,Sarà in imbarazzo! Non ti vede da tanto!
+Dialogue: 0,0:06:55.60,0:06:56.90,Default,,0000,0000,0000,,Chissà.
+Dialogue: 0,0:06:57.33,0:07:02.65,Default,,0000,0000,0000,,A me sembra solo un uomo da poco \Nincapace di fare concessioni.
+Dialogue: 0,0:07:04.40,0:07:09.07,Default,,0000,0000,0000,,Eh? Non hai la fede! La porti sempre...
+Dialogue: 0,0:07:09.40,0:07:12.59,Default,,0000,0000,0000,,Ah, l'ho tolto di proposito.
+Dialogue: 0,0:07:12.59,0:07:16.62,Default,,0000,0000,0000,,Volevo vedere se lui se ne accorgeva.
+Dialogue: 0,0:07:16.62,0:07:20.29,Default,,0000,0000,0000,,Ho pensato che se se ne fosse accorto, \Nallora c'era ancora speranza.
+Dialogue: 0,0:07:21.04,0:07:22.75,Default,,0000,0000,0000,,Ma è tutto inutile.
+Dialogue: 0,0:07:22.75,0:07:24.50,Default,,0000,0000,0000,,Però questo...
+Dialogue: 0,0:07:25.17,0:07:27.50,Default,,0000,0000,0000,,La mia vita è tutta un fallimento.
+Dialogue: 0,0:07:27.50,0:07:31.84,Default,,0000,0000,0000,,Farei meglio ad accettare la separazione \Ne ricominciare tutto da capo.
+Dialogue: 0,0:07:31.84,0:07:33.51,Default,,0000,0000,0000,,Mamma!
+Dialogue: 0,0:07:33.89,0:07:37.10,Default,,0000,0000,0000,,Conan, non diventare come lui da adulto.
+Dialogue: 0,0:07:37.47,0:07:38.70,Default,,0000,0000,0000,,V-Va bene!
+Dialogue: 0,0:07:39.47,0:07:43.15,Italics,,0000,0000,0000,,Non credo che ci riuscirei neanche volendo.
+Dialogue: 0,0:07:46.98,0:07:50.28,Default,,0000,0000,0000,,Che sarà successo? \NCi sta mettendo un sacco.
+Dialogue: 0,0:07:51.57,0:07:54.74,Default,,0000,0000,0000,,Sarà in spiaggia a rimorchiare ragazze, no?
+Dialogue: 0,0:07:54.96,0:07:56.70,Default,,0000,0000,0000,,Ma no, figurati!
+Dialogue: 0,0:07:58.95,0:08:04.67,Default,,0000,0000,0000,,Che fortuna incontrare qui \N il famoso detective Kogoro Mori!
+Dialogue: 0,0:08:05.07,0:08:11.70,Default,,0000,0000,0000,,L'onore è tutto mio, \Ncon delle così belle ragazze come fan!
+Dialogue: 0,0:08:14.03,0:08:15.30,Default,,0000,0000,0000,,Che ti avevo detto?
+Dialogue: 0,0:08:15.30,0:08:16.80,Default,,0000,0000,0000,,È solo una coincidenza!
+Dialogue: 0,0:08:17.64,0:08:21.39,Default,,0000,0000,0000,,Le avrà incontrate per caso \Ntornando dal bagno, e poi...
+Dialogue: 0,0:08:21.98,0:08:24.35,Default,,0000,0000,0000,,Allora guarda le sue gambe.
+Dialogue: 0,0:08:25.06,0:08:28.44,Default,,0000,0000,0000,,Si era fatto la doccia prima, \Ne è sporco di sabbia fino alle ginocchia.
+Dialogue: 0,0:08:28.82,0:08:33.15,Default,,0000,0000,0000,,Non faccio fatica a immaginarmelo \Nin ginocchio sulla sabbia
+Dialogue: 0,0:08:33.15,0:08:35.41,Default,,0000,0000,0000,,a mettere la crema a quelle ragazze.
+Dialogue: 0,0:08:35.95,0:08:40.62,Default,,0000,0000,0000,,Chissà se le ha fatte venire qui \Nper farle vedere a me.
+Dialogue: 0,0:08:40.62,0:08:42.37,Default,,0000,0000,0000,,Che uomo patetico.
+Dialogue: 0,0:08:42.37,0:08:43.75,Default,,0000,0000,0000,,Non dirai sul serio...
+Dialogue: 0,0:08:44.10,0:08:45.87,Italics,,0000,0000,0000,,Non mi dire che...
+Dialogue: 0,0:08:46.23,0:08:49.34,Default,,0000,0000,0000,,Forse dovrei creare un fan club!
+Dialogue: 0,0:08:50.30,0:08:52.05,Italics,,0000,0000,0000,,No, è possibile.
+Dialogue: 0,0:08:52.51,0:08:54.38,Default,,0000,0000,0000,,Ehi, papà!
+Dialogue: 0,0:08:54.38,0:08:58.05,Default,,0000,0000,0000,,Oh, Ran! Queste ragazze \Ndicono di essere mie fan!
+Dialogue: 0,0:08:58.05,0:09:00.27,Default,,0000,0000,0000,,Vi presento la mia famiglia.
+Dialogue: 0,0:09:01.64,0:09:04.23,Default,,0000,0000,0000,,Bah! Non ne voglio più sapere nulla!
+Dialogue: 0,0:09:04.56,0:09:08.44,Default,,0000,0000,0000,,Vi presento le ragazze! \NLe ho incontrate poco fa in spiaggia.
+Dialogue: 0,0:09:08.56,0:09:12.40,Cartello BASE,,0000,0000,0000,,{\fad(200,200)\an7\blur1.3\bord0\shad0\fscx76\fscy100\p1\c&H96420C&\1a&H84&\pos(320.041,247.602)}m -91 -40 l 90 -40 90 2 -91 2
+Dialogue: 1,0:09:08.56,0:09:12.40,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(200,200)\fs20\shad0\bord0\fnTrebuchet MS\pos(319.429,247.714)}Kiwako Toda {\fs12}\N\NStudentessa universitaria
+Dialogue: 0,0:09:08.86,0:09:11.23,Default - Alt,,0000,0000,0000,,Kiwako Toda, studentessa universitaria.
+Dialogue: 0,0:09:11.23,0:09:12.48,Default - Alt,,0000,0000,0000,,Salve!
+Dialogue: 0,0:09:12.48,0:09:13.86,Default - Alt,,0000,0000,0000,,E lei è una sua collega,
+Dialogue: 0,0:09:13.19,0:09:17.41,Cartello BASE,,0000,0000,0000,,{\fad(200,0)\an7\blur1.3\bord0\shad0\fscx76\fscy100\p1\c&H96420C&\1a&H84&\pos(320.041,247.602)}m -91 -40 l 90 -40 90 2 -91 2
+Dialogue: 1,0:09:13.19,0:09:17.41,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(200,0)\fs19\shad0\bord0\fnTrebuchet MS\pos(319.429,247.714)}Harumi Matsuzaki {\fs12}\N\NStudentessa universitaria
+Dialogue: 0,0:09:13.86,0:09:16.03,Default - Alt,,0000,0000,0000,,Harumi Matsuzaki, stessa università.
+Dialogue: 0,0:09:16.03,0:09:17.41,Default - Alt,,0000,0000,0000,,Piacere!
+Dialogue: 0,0:09:17.83,0:09:21.12,Default,,0000,0000,0000,,Oh! Che carino! È suo figlio?
+Dialogue: 0,0:09:21.12,0:09:25.21,Default,,0000,0000,0000,,No, lui è figlio di conoscenti,\N si chiama Conan e vive con noi.
+Dialogue: 0,0:09:25.52,0:09:28.79,Default,,0000,0000,0000,,Mia figlia è quella dietro, Ran.
+Dialogue: 0,0:09:28.79,0:09:29.92,Default,,0000,0000,0000,,Molto lieta.
+Dialogue: 0,0:09:30.22,0:09:32.50,Default,,0000,0000,0000,,E quella lì in fondo è...
+Dialogue: 0,0:09:33.21,0:09:35.26,Default,,0000,0000,0000,,L'ex moglie, Eri.
+Dialogue: 0,0:09:35.72,0:09:37.97,Default,,0000,0000,0000,,Eh? Siete divorziati?
+Dialogue: 0,0:09:39.55,0:09:41.62,Default,,0000,0000,0000,,No, sta solo scherzando!
+Dialogue: 0,0:09:41.87,0:09:44.72,Default,,0000,0000,0000,,No, non necessariamente.
+Dialogue: 0,0:09:44.72,0:09:46.73,Default,,0000,0000,0000,,Ehi, vecchio!
+Dialogue: 0,0:09:46.73,0:09:50.94,Default - Alt,,0000,0000,0000,,Alla tua età non dovresti fare lo scemo \Ncon le mie amiche!
+Dialogue: 0,0:09:46.91,0:09:50.94,Cartello BASE,,0000,0000,0000,,{\fad(200,0)\an7\blur1.3\bord0\shad0\fscx76\fscy100\p1\c&H96420C&\1a&H84&\pos(320.041,247.602)}m -91 -40 l 90 -40 90 2 -91 2
+Dialogue: 1,0:09:46.91,0:09:50.94,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(200,0)\fs20\shad0\bord0\fnTrebuchet MS\pos(319.429,245.714)}Kunio Kawazu {\fs6}\N\N{\fs13}Studente universitario
+Dialogue: 0,0:09:51.27,0:09:54.82,Default,,0000,0000,0000,,Ehi, Masahiko! \NDi' qualcosa anche tu!
+Dialogue: 0,0:09:54.82,0:09:58.41,Default,,0000,0000,0000,,Questo sta giocando \Ncon la tua cara fidanzata e tua sorella!
+Dialogue: 0,0:09:58.41,0:10:02.03,Default - Alt,,0000,0000,0000,,Su, su, non c'è bisogno di innervosirsi.
+Dialogue: 1,0:09:58.41,0:10:02.70,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(200,200)\fs17.6\shad0\bord0\fnTrebuchet MS\pos(319.429,245.714)}Masahiko Matsuzaki {\fs7}\N\N{\fs12}Studente universitario
+Dialogue: 0,0:09:58.41,0:10:02.74,Cartello BASE,,0000,0000,0000,,{\fad(200,200)\an7\blur1.3\bord0\shad0\fscx76\fscy100\p1\c&H96420C&\1a&H84&\pos(320.041,247.602)}m -91 -40 l 90 -40 90 2 -91 2
+Dialogue: 0,0:10:02.03,0:10:05.75,Default - Alt,,0000,0000,0000,,E poi pare sia una celebrità, \Nnon c'è niente di strano.
+Dialogue: 0,0:10:06.08,0:10:07.58,Default,,0000,0000,0000,,Una celebrità?
+Dialogue: 0,0:10:07.58,0:10:12.71,Default,,0000,0000,0000,,È il famoso detective Kogoro Mori, \Nconosciuto come "Kogoro il Dormiente"!
+Dialogue: 0,0:10:13.09,0:10:17.42,Default,,0000,0000,0000,,Lo sapevo! Mi sembrava \Ndi averlo visto da qualche parte!
+Dialogue: 0,0:10:17.72,0:10:21.89,Default,,0000,0000,0000,,Sono così conosciuto? Che dire...
+Dialogue: 0,0:10:22.47,0:10:27.85,Default,,0000,0000,0000,,Finisco sempre su giornali e TV, \Ndevo stare attento a comportarmi bene.
+Dialogue: 0,0:10:28.44,0:10:30.19,Default,,0000,0000,0000,,Avete già pranzato?
+Dialogue: 0,0:10:30.19,0:10:31.44,Default,,0000,0000,0000,,No, non ancora.
+Dialogue: 0,0:10:31.44,0:10:34.57,Default,,0000,0000,0000,,Allora mangiate qualcosa con noi!
+Dialogue: 0,0:10:34.94,0:10:39.78,Default,,0000,0000,0000,,Dietro l'hotel \Nc'è un piccolo ristorante, che ne dite?
+Dialogue: 0,0:10:39.78,0:10:41.57,Default,,0000,0000,0000,,Oh! Buona idea!
+Dialogue: 0,0:10:41.57,0:10:42.49,Default,,0000,0000,0000,,Andiamo!
+Dialogue: 0,0:10:52.83,0:10:58.55,Default,,0000,0000,0000,,Oh, siete tutti nel club di scuba diving\Ndella vostra università?
+Dialogue: 0,0:10:58.82,0:11:02.76,Default,,0000,0000,0000,,Sì, anche stamattina \Nabbiamo fatto un'immersione!
+Dialogue: 0,0:11:03.03,0:11:08.98,Default,,0000,0000,0000,,Cos'era, l'ultima immersione da single\N prima di sposarvi la settimana prossima?
+Dialogue: 0,0:11:09.21,0:11:13.19,Default,,0000,0000,0000,,No, ci immergiamo anche domani, \Nnon era l'ultima volta.
+Dialogue: 0,0:11:13.56,0:11:18.90,Default,,0000,0000,0000,,Però mio fratello non sa nuotare,\N è stato difficile farlo entrare nel club.
+Dialogue: 0,0:11:19.26,0:11:20.72,Default,,0000,0000,0000,,Non sa nuotare?
+Dialogue: 0,0:11:20.72,0:11:21.45,Default,,0000,0000,0000,,Esatto.
+Dialogue: 0,0:11:21.45,0:11:23.87,Default,,0000,0000,0000,,Puoi fare immersioni anche se non sai nuotare.
+Dialogue: 0,0:11:23.87,0:11:26.12,Default,,0000,0000,0000,,Dopotutto c'è la bombola dell'ossigeno.
+Dialogue: 0,0:11:26.53,0:11:30.62,Default,,0000,0000,0000,,Masahiko è sempre stato negato, \Nfin da quando era bambino.
+Dialogue: 0,0:11:30.62,0:11:31.96,Default,,0000,0000,0000,,E dai, smettila!
+Dialogue: 0,0:11:31.96,0:11:38.17,Default,,0000,0000,0000,,Eh?! Lo conosci da allora? \NAllora voi due siete amici d'infanzia?
+Dialogue: 0,0:11:38.57,0:11:40.13,Default,,0000,0000,0000,,Sì, si può dire così.
+Dialogue: 0,0:11:40.43,0:11:43.50,Default,,0000,0000,0000,,Wow! Due amici d'infanzia che si sposano!
+Dialogue: 0,0:11:43.50,0:11:46.10,Default,,0000,0000,0000,,Proprio come mio padre e mia madre!
+Dialogue: 0,0:11:46.39,0:11:49.06,Default,,0000,0000,0000,,Vero? Vero? Vero?!
+Dialogue: 0,0:11:50.35,0:11:52.52,Default,,0000,0000,0000,,Amici d'infanzia, eh?
+Dialogue: 0,0:11:52.52,0:11:56.52,Default,,0000,0000,0000,,Molte coppie sono state ingannate \Nda queste dolci parole.
+Dialogue: 0,0:11:56.92,0:12:01.49,Default,,0000,0000,0000,,Unire fantasie e un amico fidato \Nè il colmo della stupidità.
+Dialogue: 0,0:12:01.83,0:12:04.70,Default,,0000,0000,0000,,Beh, non credo che ti servirà,
+Dialogue: 0,0:12:05.20,0:12:08.56,Default,,0000,0000,0000,,ma se mai mettessi in dubbio \Nla fedeltà di tua moglie,
+Dialogue: 0,0:12:08.56,0:12:10.41,Default,,0000,0000,0000,,chiama l'Agenzia investigativa Mori.
+Dialogue: 0,0:12:10.76,0:12:15.18,Default,,0000,0000,0000,,In caso di divorzio, se vuoi ottenere \Nalimenti consistenti da tuo marito,
+Dialogue: 0,0:12:15.18,0:12:17.21,Default,,0000,0000,0000,,chiama l'ufficio legale Kisaki.
+Dialogue: 0,0:12:19.23,0:12:20.17,Default,,0000,0000,0000,,Prego!
+Dialogue: 0,0:12:19.23,0:12:20.17,Default - Alt,,0000,0000,0000,,Prego!
+Dialogue: 0,0:12:20.17,0:12:22.05,Italics,,0000,0000,0000,,Che gelo...
+Dialogue: 0,0:12:22.05,0:12:25.30,Italics,,0000,0000,0000,,Come è finito qui il discorso?
+Dialogue: 0,0:12:25.97,0:12:30.10,Default,,0000,0000,0000,,Ora che ci penso, dov'è \Nl'altro vostro amico d'infanzia?
+Dialogue: 0,0:12:30.56,0:12:36.31,Default,,0000,0000,0000,,Oh, Hiroshi ha detto che dopo l'immersione \Nvoleva fare un po' di snorkeling qui vicino.
+Dialogue: 0,0:12:36.69,0:12:38.19,Default,,0000,0000,0000,,Snore-killing?
+Dialogue: 0,0:12:38.71,0:12:41.15,Default,,0000,0000,0000,,Un'immersione senza bombola.
+Dialogue: 0,0:12:41.61,0:12:44.11,Default,,0000,0000,0000,,Si immerge \Nsenza mangiare nemmeno un boccone?
+Dialogue: 0,0:12:44.51,0:12:49.58,Default,,0000,0000,0000,,Sì, è un tipo particolare, \Ndice di amare il mare più delle donne!
+Dialogue: 0,0:12:49.92,0:12:52.54,Default,,0000,0000,0000,,Di questo passo si sposerà con uno squalo!
+Dialogue: 0,0:12:53.50,0:12:55.25,Default,,0000,0000,0000,,Che cattiveria!
+Dialogue: 0,0:12:59.96,0:13:01.21,Default,,0000,0000,0000,,Scusa, Harumi.
+Dialogue: 0,0:13:01.21,0:13:05.51,Default,,0000,0000,0000,,Non è che mi andresti a prendere \N  un telo pulito dalla nostra stanza?
+Dialogue: 0,0:13:08.05,0:13:10.43,Default,,0000,0000,0000,,Ehi, Kiwako, non dirmi che stai andando...
+Dialogue: 0,0:13:10.72,0:13:14.39,Default,,0000,0000,0000,,Sì! Mi è venuta voglia di andare in acqua.
+Dialogue: 0,0:13:14.81,0:13:16.94,Default,,0000,0000,0000,,Ma hai bevuto, sei sicura?
+Dialogue: 0,0:13:16.94,0:13:20.36,Default,,0000,0000,0000,,Non devi farlo per forza oggi. \NNon è meglio domani?
+Dialogue: 0,0:13:20.36,0:13:24.53,Default,,0000,0000,0000,,Sta' tranquilla! Non ho bevuto molto.
+Dialogue: 0,0:13:24.53,0:13:26.82,Default,,0000,0000,0000,,Faccio solo un po' di snorkeling, nulla di che!
+Dialogue: 0,0:13:27.12,0:13:29.28,Default,,0000,0000,0000,,Vuoi che vengo anch'io?
+Dialogue: 0,0:13:29.62,0:13:32.45,Default,,0000,0000,0000,,Va bene così, voglio immergermi da sola.
+Dialogue: 0,0:13:34.00,0:13:36.21,Default,,0000,0000,0000,,A dopo, Harumi! Mi raccomando!
+Dialogue: 0,0:13:40.08,0:13:41.50,Default,,0000,0000,0000,,Kiwako...
+Dialogue: 0,0:13:52.93,0:13:55.39,Default,,0000,0000,0000,,Il mare si sta agitando.
+Dialogue: 0,0:13:55.39,0:13:57.27,Default,,0000,0000,0000,,Kiwako sarà a posto?
+Dialogue: 0,0:13:57.89,0:13:59.60,Default,,0000,0000,0000,,Oh, siete tutti qui?
+Dialogue: 0,0:13:59.98,0:14:02.57,Default,,0000,0000,0000,,Hiroshi! Eri con Kawazu?
+Dialogue: 0,0:14:02.57,0:14:05.65,Default,,0000,0000,0000,,Ci siamo incrociati in bagno.
+Dialogue: 0,0:14:05.23,0:14:09.53,Cartello BASE,,0000,0000,0000,,{\fad(180,0)\an7\blur1.3\bord0\shad0\fscx68\fscy100\p1\c&HBDA374&\1a&H21&\pos(241.469,249.46)}m -91 -40 l 90 -40 90 2 -91 2
+Dialogue: 1,0:14:05.23,0:14:09.53,Cartello BASE,,0000,0000,0000,,{\blur0.5\fad(200,0)\fs20\shad0\bord0\fnTrebuchet MS\pos(240.429,246.714)}Hiroshi Ito {\fs6}\N\N{\fs13}Studente universitario
+Dialogue: 0,0:14:05.65,0:14:08.40,Default - Alt,,0000,0000,0000,,Il posto di oggi era ottimo!
+Dialogue: 0,0:14:10.69,0:14:13.31,Default,,0000,0000,0000,,Oh? E la sposina dov'è?
+Dialogue: 0,0:14:13.31,0:14:15.16,Default,,0000,0000,0000,,Ancora in mare.
+Dialogue: 0,0:14:15.16,0:14:17.00,Default,,0000,0000,0000,,Ma come, non l'hai vista?
+Dialogue: 0,0:14:17.33,0:14:19.02,Default,,0000,0000,0000,,No, per niente.
+Dialogue: 0,0:14:19.79,0:14:22.96,Default,,0000,0000,0000,,Guardate, è lì! Ci sta salutando!
+Dialogue: 0,0:14:23.55,0:14:24.92,Default,,0000,0000,0000,,Kiwako!
+Dialogue: 0,0:14:29.43,0:14:31.39,Italics,,0000,0000,0000,,Qualcosa non va!
+Dialogue: 0,0:14:35.35,0:14:36.72,Default,,0000,0000,0000,,Un momento!
+Dialogue: 0,0:14:36.72,0:14:37.81,Default,,0000,0000,0000,,Sta annegando!
+Dialogue: 0,0:14:39.85,0:14:41.73,Default,,0000,0000,0000,,K-Kiwako!
+Dialogue: 0,0:14:51.53,0:14:52.87,Default,,0000,0000,0000,,Un momento!
+Dialogue: 0,0:14:52.87,0:14:54.03,Default,,0000,0000,0000,,Sta annegando!
+Dialogue: 0,0:14:55.87,0:14:57.58,Default,,0000,0000,0000,,K-Kiwako!
+Dialogue: 0,0:14:58.04,0:14:59.79,Default,,0000,0000,0000,,Kiwako!
+Dialogue: 0,0:14:59.08,0:14:59.79,Default - Alt,,0000,0000,0000,,Masahiko!
+Dialogue: 0,0:15:01.17,0:15:02.63,Default,,0000,0000,0000,,Aspetta, Masahiko!
+Dialogue: 0,0:15:05.75,0:15:07.46,Default,,0000,0000,0000,,Kiwako!
+Dialogue: 0,0:15:12.97,0:15:16.76,Default,,0000,0000,0000,,Stupido! Non sai nuotare, stanne fuori!
+Dialogue: 0,0:15:21.94,0:15:23.02,Default,,0000,0000,0000,,Va tutto bene.
+Dialogue: 0,0:15:23.02,0:15:24.31,Default,,0000,0000,0000,,Kiwako! Resta calma!
+Dialogue: 0,0:15:27.78,0:15:29.32,Default,,0000,0000,0000,,Dov'è Masahiko?
+Dialogue: 0,0:15:29.32,0:15:33.28,Default,,0000,0000,0000,,Tranquilla, è qui. \NÈ venuto a salvarti.
+Dialogue: 0,0:15:33.57,0:15:36.78,Default,,0000,0000,0000,,Oh... Che sollievo.
+Dialogue: 0,0:15:37.95,0:15:39.95,Default,,0000,0000,0000,,C-Cos'era quello?
+Dialogue: 0,0:15:42.50,0:15:44.21,Italics,,0000,0000,0000,,M-Ma quello è...
+Dialogue: 0,0:15:44.54,0:15:48.17,Default,,0000,0000,0000,,Ehi, rubacuori. \NOra puoi portarla tu!
+Dialogue: 0,0:15:48.17,0:15:53.13,Default,,0000,0000,0000,,Non preoccuparti, Masahiko! \NSarà stato solo un crampo alla gamba.
+Dialogue: 0,0:15:54.39,0:15:55.97,Default,,0000,0000,0000,,Un serpente marino!
+Dialogue: 0,0:15:56.27,0:15:57.93,Italics,,0000,0000,0000,,N-Non sarà stato quello?!
+Dialogue: 0,0:15:58.37,0:16:00.77,Default,,0000,0000,0000,,Diamine, ti avevo detto di lasciare stare!
+Dialogue: 0,0:16:01.14,0:16:05.48,Default,,0000,0000,0000,,Su, su. Le liti tra coniugi \Ntenetele per quando siete da soli!
+Dialogue: 0,0:16:06.35,0:16:09.19,Default,,0000,0000,0000,,Ehi, Kiwako. Mi stai ascoltando?
+Dialogue: 0,0:16:12.20,0:16:13.78,Default,,0000,0000,0000,,K-Kiwako!
+Dialogue: 0,0:16:18.37,0:16:19.79,Default,,0000,0000,0000,,K-Kiwako!
+Dialogue: 0,0:16:19.79,0:16:22.00,Default,,0000,0000,0000,,Che succede? Che le prende?
+Dialogue: 0,0:16:22.29,0:16:24.96,Default,,0000,0000,0000,,Ehi, svegliati! Sveglia!
+Dialogue: 0,0:16:24.96,0:16:26.42,Default,,0000,0000,0000,,Non la spostate!
+Dialogue: 0,0:16:27.42,0:16:30.88,Default,,0000,0000,0000,,Potrebbe essere stata morsa \Nda un serpente marino!
+Dialogue: 0,0:16:31.46,0:16:32.67,Default,,0000,0000,0000,,Un serpente marino?!
+Dialogue: 0,0:16:33.22,0:16:35.89,Default,,0000,0000,0000,,Ce n'era uno proprio accanto a noi prima!
+Dialogue: 0,0:16:35.89,0:16:39.60,Default,,0000,0000,0000,,S-Se è così, dovrebbe avere \Nsegni di morso da qualche parte...
+Dialogue: 0,0:16:40.93,0:16:43.60,Default,,0000,0000,0000,,L-La mano... La sinistra.
+Dialogue: 0,0:16:43.60,0:16:44.81,Default,,0000,0000,0000,,La mano sinistra?
+Dialogue: 0,0:16:45.27,0:16:47.27,Default,,0000,0000,0000,,Eccoli! Segni di un morso!
+Dialogue: 0,0:16:48.65,0:16:52.36,Default,,0000,0000,0000,,Allora l'ha davvero morsa un serpente?
+Dialogue: 0,0:16:52.56,0:16:55.71,Default,,0000,0000,0000,,Dobbiamo isolare la zona del morso \Ne succhiare via il veleno!
+Dialogue: 0,0:16:55.71,0:16:57.82,Default,,0000,0000,0000,,Avete qualcosa per legare?
+Dialogue: 0,0:16:58.45,0:16:59.74,Default,,0000,0000,0000,,Va bene un fazzoletto?
+Dialogue: 0,0:16:59.74,0:17:00.24,Default,,0000,0000,0000,,D'accordo!
+Dialogue: 0,0:17:07.79,0:17:11.50,Default,,0000,0000,0000,,Ma come sapevi \Nche era un serpente marino...
+Dialogue: 0,0:17:11.50,0:17:12.96,Default,,0000,0000,0000,,Ehi, ragazzino!
+Dialogue: 0,0:17:13.59,0:17:14.63,Default,,0000,0000,0000,,Che gli prende?
+Dialogue: 0,0:17:14.63,0:17:18.93,Default,,0000,0000,0000,,Ho visto io il serpente! \NCredo fosse lungo circa 40 centimetri!
+Dialogue: 0,0:17:19.43,0:17:20.35,Default,,0000,0000,0000,,Che succede?
+Dialogue: 0,0:17:20.35,0:17:21.76,Default,,0000,0000,0000,,Chiamate subito un'ambulanza!
+Dialogue: 0,0:17:22.05,0:17:25.98,Default,,0000,0000,0000,,Ma come, credevo \Nche l'avessero salvata dall'annegamento!
+Dialogue: 0,0:17:26.31,0:17:28.81,Default,,0000,0000,0000,,Kiwako è stata morsa alla mano \Nda un serpente marino!
+Dialogue: 0,0:17:29.00,0:17:30.48,Default,,0000,0000,0000,,U-Un serpente marino?!
+Dialogue: 0,0:17:30.48,0:17:32.53,Default,,0000,0000,0000,,Oh no, quelli sono velenosissimi!
+Dialogue: 0,0:17:32.83,0:17:34.63,Default,,0000,0000,0000,,Quindi sbrigatevi a chiamare!
+Dialogue: 0,0:17:41.13,0:17:42.29,Default,,0000,0000,0000,,E-Ehi!
+Dialogue: 0,0:17:42.83,0:17:46.33,Default,,0000,0000,0000,,Che vuole fare con quel tè freddo?
+Dialogue: 0,0:17:46.33,0:17:47.79,Default,,0000,0000,0000,,Il tannino.
+Dialogue: 0,0:17:47.79,0:17:52.75,Default,,0000,0000,0000,,Sciacquare la ferita con del tè,\N che contiene al suo interno il tannino,
+Dialogue: 0,0:17:52.75,0:17:56.47,Default,,0000,0000,0000,,è uno dei migliori rimedi d'emergenza\N per i morsi di serpente di mare.
+Dialogue: 0,0:17:56.47,0:17:59.39,Default,,0000,0000,0000,,Ovviamente se si decide \Ndi succhiare il veleno,
+Dialogue: 0,0:17:59.39,0:18:02.43,Default,,0000,0000,0000,,anche la persona che l'ha fatto \Ndeve lavarsi la bocca con il tè.
+Dialogue: 0,0:18:02.76,0:18:05.89,Default,,0000,0000,0000,,Ma come faceva quel ragazzino a saperlo?
+Dialogue: 0,0:18:06.23,0:18:09.65,Default,,0000,0000,0000,,Beh, è un bambino piuttosto sveglio.
+Dialogue: 0,0:18:09.65,0:18:14.61,Default,,0000,0000,0000,,Molto più utile di noi, \Nche ce ne stiamo qui a girarci i pollici.
+Dialogue: 0,0:18:15.33,0:18:20.82,Default,,0000,0000,0000,,Piuttosto il problema \Nè che non lo sappia un ex agente di polizia.
+Dialogue: 0,0:18:21.22,0:18:22.28,Default,,0000,0000,0000,,Come?
+Dialogue: 0,0:18:22.74,0:18:25.24,Default,,0000,0000,0000,,Io comunque chiamo l'ambulanza.
+Dialogue: 0,0:18:25.24,0:18:30.25,Default,,0000,0000,0000,,Tu va a chiedere al cuoco \Nse ha del tè verde, che è ricco di tannino.
+Dialogue: 0,0:18:30.83,0:18:33.21,Default,,0000,0000,0000,,Conto su di te, grande detective.
+Dialogue: 0,0:18:40.54,0:18:42.47,Default,,0000,0000,0000,,Kiwako... resisti!
+Dialogue: 0,0:18:43.01,0:18:46.52,Default,,0000,0000,0000,,Sono il fidanzato. \NPosso venire con voi in ospedale?
+Dialogue: 0,0:18:46.52,0:18:47.48,Default,,0000,0000,0000,,Prego.
+Dialogue: 0,0:18:50.27,0:18:52.73,Default,,0000,0000,0000,,Chi ha visto il serpente marino?
+Dialogue: 0,0:18:52.73,0:18:54.11,Default,,0000,0000,0000,,Io!
+Dialogue: 0,0:18:54.11,0:18:55.78,Default,,0000,0000,0000,,Sa che tipo di serpente era?
+Dialogue: 0,0:18:56.03,0:18:57.90,Default,,0000,0000,0000,,I-Il tipo?
+Dialogue: 0,0:18:57.90,0:19:01.49,Default,,0000,0000,0000,,Ecco, nell'ufficio dell'hotel \Nabbiamo un libro con delle foto...
+Dialogue: 0,0:19:01.83,0:19:04.95,Default,,0000,0000,0000,,Allora appena avete capito \Nfatelo sapere all'ospedale!
+Dialogue: 0,0:19:05.41,0:19:06.24,Default,,0000,0000,0000,,Va bene!
+Dialogue: 0,0:19:19.80,0:19:21.51,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs25\shad0\bord0\fnTrebuchet MS\c&H181518&\1a&H3E&\b1\frx42\fry336\fax-0.05\frz23.11\pos(316.428,81.857)}Ufficio
+Dialogue: 0,0:19:28.43,0:19:31.73,Default,,0000,0000,0000,,È questo! Sono sicura, era questo serpente!
+Dialogue: 0,0:19:31.73,0:19:33.15,Default,,0000,0000,0000,,Un krait di mare a bande!
+Dialogue: 0,0:19:33.15,0:19:35.02,Default,,0000,0000,0000,,Cosa ci fa uno di questi a Izu?
+Dialogue: 0,0:19:35.02,0:19:39.03,Default,,0000,0000,0000,,A volte qualcuno finisce qui\N con la corrente Kuroshio.
+Dialogue: 0,0:19:39.03,0:19:41.15,Default,,0000,0000,0000,,Il morso è indolore e senza gonfiore,
+Dialogue: 0,0:19:41.15,0:19:44.74,Default,,0000,0000,0000,,pare ci siano stati dei pescatori \Nche sono morti senza accorgersene.
+Dialogue: 0,0:19:44.74,0:19:49.33,Default,,0000,0000,0000,,E aprite questo tratto di mare al pubblico \Nanche con questi serpenti pericolosi in giro?!
+Dialogue: 0,0:19:49.33,0:19:50.41,Default,,0000,0000,0000,,N-No!
+Dialogue: 0,0:19:50.41,0:19:54.58,Default,,0000,0000,0000,,Quei pescatori sono stati morsi per caso \Nmentre maneggiavano reti da pesca
+Dialogue: 0,0:19:54.58,0:19:57.30,Default,,0000,0000,0000,,in cui per caso erano finiti i serpenti.
+Dialogue: 0,0:19:57.50,0:20:00.42,Default,,0000,0000,0000,,Ma stiamo comunque \Nparlando di serpenti marini!
+Dialogue: 0,0:20:00.42,0:20:02.76,Default,,0000,0000,0000,,Sicuramente capita \Nche attacchino la gente!
+Dialogue: 0,0:20:03.22,0:20:08.43,Default,,0000,0000,0000,,I krait sono serpenti tranquilli, \Nnon attaccano le persone senza motivo.
+Dialogue: 0,0:20:08.43,0:20:11.18,Default,,0000,0000,0000,,In vent'anni di attività di questo hotel
+Dialogue: 0,0:20:11.18,0:20:14.73,Default,,0000,0000,0000,,non è mai capitato, nemmeno una volta, \Nche un ospite venisse morso.
+Dialogue: 0,0:20:16.44,0:20:20.69,Default,,0000,0000,0000,,Mi scusi, ci sono dei serpenti marini \Nche hanno delle specie di ali?
+Dialogue: 0,0:20:21.07,0:20:24.16,Default,,0000,0000,0000,,Ali? No, non esiste un tipo del genere.
+Dialogue: 0,0:20:24.61,0:20:26.49,Default,,0000,0000,0000,,{\fad(0,300)}Che strano.
+Dialogue: 0,0:20:26.49,0:20:32.16,Default,,0000,0000,0000,,Quello che ho visto mi sembrava avesse \Ndelle piccole ali vicino alla testa.
+Dialogue: 0,0:20:32.16,0:20:35.37,Default,,0000,0000,0000,,Forse gli erano rimaste attaccate \Ndelle alghe o simili.
+Dialogue: 0,0:20:36.17,0:20:37.34,Default,,0000,0000,0000,,Può essere...
+Dialogue: 0,0:20:37.74,0:20:41.71,Default,,0000,0000,0000,,Che memoria a ricordare un dettaglio\N soltanto dopo un'occhiata!
+Dialogue: 0,0:20:41.71,0:20:43.30,Default,,0000,0000,0000,,Sei proprio mia figlia!
+Dialogue: 0,0:20:43.59,0:20:46.60,Default,,0000,0000,0000,,Mi è rimasto impresso \Nper lo shock, tutto qua!
+Dialogue: 0,0:20:46.60,0:20:49.01,Default,,0000,0000,0000,,Hai davvero un grande spirito d'osservazione!
+Dialogue: 0,0:20:49.39,0:20:53.01,Default,,0000,0000,0000,,Al contrario di una certa persona\N che non si è neanche accorta
+Dialogue: 0,0:20:53.01,0:20:55.73,Default,,0000,0000,0000,,che sua moglie non porta la fede.
+Dialogue: 0,0:20:55.73,0:20:59.02,Default,,0000,0000,0000,,Eh? Che c'entra ora la fede?
+Dialogue: 0,0:20:59.02,0:21:00.44,Default,,0000,0000,0000,,Niente.
+Dialogue: 0,0:21:02.90,0:21:06.84,Default,,0000,0000,0000,,L'unica possibilità che mi viene in mente\N è che sia stato un incidente,
+Dialogue: 0,0:21:06.84,0:21:09.08,Default,,0000,0000,0000,,avrà infilato la mano nella tana per scherzo.
+Dialogue: 0,0:21:09.08,0:21:10.24,Default,,0000,0000,0000,,Sì...
+Dialogue: 0,0:21:10.24,0:21:12.41,Default,,0000,0000,0000,,Comunque, io vado a telefonare all'ospedale.
+Dialogue: 0,0:21:19.25,0:21:20.67,Italics,,0000,0000,0000,,No, non è così.
+Dialogue: 0,0:21:22.17,0:21:25.55,Italics,,0000,0000,0000,,Quei segni di morsi... \Nnon sono frutto di un incidente!
+Dialogue: 0,0:21:27.26,0:21:33.35,Italics,,0000,0000,0000,,Qualcuno in mare ha tenuto il serpente \Nper la testa e l'ha costretto a mordere!
+Dialogue: 0,0:21:33.68,0:21:37.10,Italics,,0000,0000,0000,,Quindi chi è il colpevole \Ntra le persone che sono corse ad aiutarla?
+Dialogue: 0,0:21:37.65,0:21:40.40,Italics,,0000,0000,0000,,No, in quel momento \Nerano tutti a mani vuote.
+Dialogue: 0,0:21:40.90,0:21:43.19,Italics,,0000,0000,0000,,E poi sono accorsi \Nperché Kiwako stava annegando.
+Dialogue: 0,0:21:44.03,0:21:46.13,Default,,0000,0000,0000,,Nessuno è così folle
+Dialogue: 0,0:21:46.13,0:21:49.91,Italics,,0000,0000,0000,,da tenere un serpente marino\Nsenza sapere se qualcuno annegherà.
+Dialogue: 0,0:21:50.91,0:21:57.24,Italics,,0000,0000,0000,,Sarebbe naturale pensare che Kiwako \Nabbia cominciato ad annegare dopo il morso.
+Dialogue: 0,0:21:57.87,0:22:01.46,Italics,,0000,0000,0000,,Ma vorrebbe dire che l'unico \Nche poteva commettere il delitto è Hiroshi.
+Dialogue: 0,0:22:02.75,0:22:06.72,Italics,,0000,0000,0000,,Era in mare appena prima \Nche Kiwako cominciasse ad andare a fondo.
+Dialogue: 0,0:22:06.72,0:22:08.72,Italics,,0000,0000,0000,,Perciò poteva farla mordere.
+Dialogue: 0,0:22:09.68,0:22:12.99,Italics,,0000,0000,0000,,Ma quando abbiamo capito che era stata morsa,
+Dialogue: 0,0:22:12.99,0:22:14.47,Italics,,0000,0000,0000,,l'ha soccorsa in modo impeccabile.
+Dialogue: 0,0:22:15.27,0:22:20.52,Italics,,0000,0000,0000,,Se la sua intenzione fosse di ucciderla,\N che senso avrebbe cercare di salvarla?
+Dialogue: 0,0:22:21.73,0:22:27.65,Italics,,0000,0000,0000,,In ogni caso, il colpevole \Nè fra i quattro che si trovavano lì!
+Dialogue: 0,0:24:01.40,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HF5F6FA&\fnArial\1a&H4F&\pos(189.69,92.493)}Anteprima
+Dialogue: 1,0:24:01.40,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HE0DCCC&\fnArial\1a&H18&\pos(189.69,92.493)}Anteprima
+Dialogue: 0,0:24:02.08,0:24:03.75,Default,,0000,0000,0000,,Ti piaceva Kiwako?
+Dialogue: 0,0:24:04.64,0:24:06.79,Default,,0000,0000,0000,,In pratica è stato amore a prima vista.
+Dialogue: 0,0:24:07.04,0:24:11.00,Default,,0000,0000,0000,,Piuttosto, mi aiuti? \NNon trovo la tessera sanitaria di Kiwako.
+Dialogue: 0,0:24:12.05,0:24:14.30,Default,,0000,0000,0000,,Guarda in mezzo al telo \Nin fondo alla valigia.
+Dialogue: 0,0:24:20.72,0:24:25.44,Default,,0000,0000,0000,,Non è stato un incidente. \NQuesto delitto l'hai commesso tu!
+Dialogue: 0,0:24:25.44,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\fs18\blur0.5\bord0.1\c&HC1CDD8&\3c&H78A3F9&\pos(323.264,221.971)}Il caso dell'omicidio\N\N\N\N\N\N\N dell'escursione subacquea {\fs11}(seconda parte)
+Dialogue: 1,0:24:25.44,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\bord0\fs18\blur0.6\c&HDFDFDF&\3c&HACC3DC&\pos(323.264,221.971)}Il caso dell'omicidio\N\N\N\N\N\N\N dell'escursione subacquea {\fs11}(seconda parte)
+Dialogue: 0,0:24:26.22,0:24:27.65,Italics,,0000,0000,0000,,Nel prossimo episodio di Conan...
+Dialogue: 0,0:24:27.65,0:24:31.44,Italics,,0000,0000,0000,,“Il caso dell'omicidio \Ndell'escursione subacquea, seconda parte".
+Dialogue: 0,0:24:47.11,0:24:50.15,Default,,0000,0000,0000,,Prossimo indizio per Conan:
+Dialogue: 0,0:24:50.15,0:24:51.46,Default,,0000,0000,0000,,Anello.
+Dialogue: 0,0:24:51.46,0:24:53.35,Default - Alt,,0000,0000,0000,,Arriva la parte due! Chi è il colpevole?
+Dialogue: 0,0:24:51.46,0:24:58.03,Non perdetevi il prossimo episodio v2,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\p1\c&H6C2A0E&\1a&H76&\pos(318.441,300.026)}m -135 -28 l 135 -28 135 2 -135 2
+Dialogue: 1,0:24:51.46,0:24:58.03,Non perdetevi il prossimo episodio v2,,0000,0000,0000,,{\blur0.6\pos(318.441,300.026)}Non perdetevi il prossimo episodio
+Dialogue: 0,0:24:53.35,0:24:54.52,Default - Alt,,0000,0000,0000,,L'impiegato dell'hotel!
+Dialogue: 0,0:24:54.52,0:24:56.03,Default - Alt,,0000,0000,0000,,Perché io?!

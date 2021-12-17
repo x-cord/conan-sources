@@ -1,0 +1,377 @@
+[Script Info]
+Title: Italiano
+Original Script: cr_it  [http://www.crunchyroll.com/user/cr_it]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Default - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Flashback - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Flashback Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0010,0010,0020,1
+Style: Flashback Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0010,0010,0020,1
+Style: Cartello BASE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0010,0010,0010,1
+Style: Titolo episodio,Verdana,25,&H00D0B193,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,180,0,0,1,0,0,2,0010,0010,0010,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.24,0:00:03.48,Italics,,0000,0000,0000,,La lancetta dei secondi,\N una stella cadente,
+Dialogue: 0,0:00:03.48,0:00:05.23,Italics,,0000,0000,0000,,una bambola che cade e un vaso rotto!
+Dialogue: 0,0:00:05.43,0:00:08.69,Italics,,0000,0000,0000,,Le deduzioni che risolvono i casi\N salvano le persone dal cuore arido!
+Dialogue: 0,0:00:08.69,0:00:12.92,Italics,,0000,0000,0000,,Oggi seguiremo un'eccitante prima commisione! \NMa si trasformerà in qualcosa di spaventoso!
+Dialogue: 0,0:00:12.92,0:00:14.76,Italics,,0000,0000,0000,,Riesce a discernere l'unica verità...
+Dialogue: 0,0:00:14.76,0:00:16.71,Italics,,0000,0000,0000,,Il suo nome? Detective Conan!
+Dialogue: 1,0:01:50.99,0:01:57.09,Titolo episodio,,0000,0000,0000,,{\fs21\fad(700,0)\blur0.5\c&HE1E5E8&\pos(321.273,119.198)}Il {*\c&HE1E5E7&}ca{*\c&HE2E5E7&}so d{*\c&HE2E5E6&}ell{*\c&HE2E4E6&}'o{*\c&HE3E4E6&}m{*\c&HE3E4E5&}icidi{*\c&HE3E4E4&}o d{*\c&HE4E4E4&}ell{*\c&HE4E4E3&}a pri{*\c&HE4E4E2&}m{*\c&HE5E4E2&}a {*\c&HE5E3E2&}com{*\c&HE5E3E1&}miss{*\c&HE6E3E1&}io{*\c&HE6E3E0&}ne{\c&HE6E3E0&}
+Dialogue: 0,0:01:50.99,0:01:57.09,Titolo episodio,,0000,0000,0000,,{\fs21\fad(700,0)\blur1\bord0.3\3c&HE8E6E4&\c&HE5EBED&\pos(321.273,119.198)}Il caso dell'omicidio della prima commissione
+Dialogue: 0,0:01:51.92,0:01:55.05,Italics,,0000,0000,0000,,"Il caso dell'omicidio\N della prima commissione".
+Dialogue: 0,0:02:22.24,0:02:26.20,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad1\fscx100\fscy100\p1\c&HE1E4E1&\pos(21.14,51.119)}m 59 -53 l 539 -53 539 -2 59 -2
+Dialogue: 1,0:02:22.24,0:02:26.20,Cartello BASE,,0000,0000,0000,,{\fs18\blur0.5\c&H2C2C26&\fnVerdana\move(21.055,47.053,402.782,47.053,27,3947)\clip(79.689,0.356,559.956,330.119)}Distretto commerciale di Beika\N{\fs30\b1}Gara della prima commissione
+Dialogue: 0,0:02:28.38,0:02:34.21,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\pos(400.455,298.902)\p1\c&HCDDACC&}m -26 -9 l 79 -9 79 61 -26 61
+Dialogue: 1,0:02:28.38,0:02:34.21,Cartello BASE,,0000,0000,0000,,{\blur0.6\an1\fnVerdana\frz270.4\pos(400.455,298.902)\c&H070A15&}Grande detective\N\N{\fs30\b1}Kogoro Mori
+Dialogue: 4,0:02:28.66,0:02:32.17,Default,,0000,0000,0000,,Che bella giornata! \NGrazie al cielo oggi c'è il sole!
+Dialogue: 4,0:02:33.46,0:02:34.21,Default,,0000,0000,0000,,Ehi...
+Dialogue: 0,0:02:34.50,0:02:39.30,Default - Alt,,0000,0000,0000,,Puoi farcela! Puoi farcela!
+Dialogue: 0,0:02:34.50,0:02:39.30,Default,,0000,0000,0000,,In bocca al lupo!
+Dialogue: 0,0:02:48.68,0:02:52.69,Default,,0000,0000,0000,,Il primo gruppo \Nha appena lasciato il parco di Beika!
+Dialogue: 0,0:02:52.69,0:02:58.28,Default,,0000,0000,0000,,Noi giovani detective seguiremo\N il piccolo Wataru. Dove ci porterà?
+Dialogue: 0,0:02:58.44,0:03:00.32,Default,,0000,0000,0000,,Contiamo su di voi, bambini!
+Dialogue: 0,0:03:00.99,0:03:02.24,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:03:02.61,0:03:04.43,Default,,0000,0000,0000,,Fai delle belle riprese, Mitsuhiko!
+Dialogue: 0,0:03:04.43,0:03:05.99,Default,,0000,0000,0000,,Anche tu, Genta!
+Dialogue: 0,0:03:07.33,0:03:09.75,Default,,0000,0000,0000,,Su, Conan! \NNon rimanere indietro!
+Dialogue: 0,0:03:09.75,0:03:11.46,Default,,0000,0000,0000,,Tranquilla!
+Dialogue: 0,0:03:11.46,0:03:14.71,Italics,,0000,0000,0000,,Ma andiamo, \Nperché devo partecipare anche io?
+Dialogue: 0,0:03:14.70,0:03:26.56,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\pos(400.455,298.902)\p1\c&HCDDACC&}m -26 -9 l 79 -9 79 61 -26 61
+Dialogue: 1,0:03:14.70,0:03:26.56,Cartello BASE,,0000,0000,0000,,{\blur0.6\an1\fnVerdana\frz270.4\pos(400.455,298.902)\c&H070A15&}Grande detective\N\N{\fs30\b1}Kogoro Mori
+Dialogue: 4,0:03:17.59,0:03:20.55,Default,,0000,0000,0000,,I bambini sono tutti uguali, si sa.\N In bocca al lupo.
+Dialogue: 4,0:03:21.44,0:03:23.64,Default,,0000,0000,0000,,Papà, mostra un po' più di entusiasmo!
+Dialogue: 4,0:03:23.64,0:03:26.56,Default,,0000,0000,0000,,Nel distretto commerciale \Nci sono molti dei tuoi clienti migliori!
+Dialogue: 0,0:03:26.56,0:03:29.52,Cartello BASE,,0000,0000,0000,,{\an7\blur2\bord0\shad0\fscx100\fscy100\p1\c&HD0D4CC&\pos(151.658,291.378)}m -2 -20 l 41 -2 44 69 -6 70
+Dialogue: 1,0:03:26.56,0:03:29.52,Cartello BASE,,0000,0000,0000,,{\fs15\blur0.6\an1\fnVerdana\c&H070A15&\frx350\fry320\frz260.6\pos(154.477,291.836)}Grande detective\N\N{\fs20\b1}Kogoro Mori
+Dialogue: 0,0:03:27.81,0:03:29.02,Default,,0000,0000,0000,,Salve!
+Dialogue: 0,0:03:41.49,0:03:44.95,Default,,0000,0000,0000,,Perché abbiamo accettato questo incarico?
+Dialogue: 0,0:03:45.32,0:03:47.41,Default,,0000,0000,0000,,Non è ovvio?
+Dialogue: 0,0:03:47.41,0:03:52.87,Default,,0000,0000,0000,,Così ci faremo amare dal pubblico! \NHo fatto di tutto per farci avere questo lavoro!
+Dialogue: 0,0:03:52.87,0:03:56.59,Default,,0000,0000,0000,,Cosa?! Siamo stati noi \Na offrirci volontari?!
+Dialogue: 0,0:03:56.59,0:03:58.34,Default,,0000,0000,0000,,Non sei d'accordo, Conan?!
+Dialogue: 0,0:03:59.80,0:04:03.43,Italics,,0000,0000,0000,,I gruppi di detective \Ndi solito non fanno queste cose stupide...
+Dialogue: 0,0:04:10.02,0:04:13.69,Default,,0000,0000,0000,,Wataru sta per arrivare\N al fruttivendolo! Oh, no!
+Dialogue: 0,0:04:13.69,0:04:17.15,Default,,0000,0000,0000,,Non ha comprato i daikon!\NChe cosa farà adesso?!
+Dialogue: 0,0:04:19.86,0:04:25.11,Italics,,0000,0000,0000,,Alla squadra dei giovani detective è stato\Naffidato il compito di registrare l'evento.
+Dialogue: 0,0:04:25.11,0:04:27.55,Italics,,0000,0000,0000,,In seguito verrà mandato in onda\N da una TV locale
+Dialogue: 0,0:04:27.55,0:04:30.62,Italics,,0000,0000,0000,,e ai bambini verrà dato un premio\N in base al loro punteggio.
+Dialogue: 0,0:04:31.00,0:04:34.08,Italics,,0000,0000,0000,,Le regole sono semplici. \NDopo aver lasciato il parco di Beika
+Dialogue: 0,0:04:34.08,0:04:37.54,Italics,,0000,0000,0000,,devono raggiungere il distretto commerciale\N a 500 metri di distanza.
+Dialogue: 0,0:04:37.54,0:04:40.92,Italics,,0000,0000,0000,,Lì devono comprare \Ngli oggetti sulla lista e tornare indietro.
+Dialogue: 0,0:04:40.92,0:04:45.51,Italics,,0000,0000,0000,,Tuttavia, né gli spettatori né i genitori\N possono parlare con loro o aiutarli.
+Dialogue: 0,0:04:45.51,0:04:47.57,Italics,,0000,0000,0000,,Devono solo stare a guardare.
+Dialogue: 0,0:04:47.85,0:04:50.18,Italics,,0000,0000,0000,,Però è più difficile di quel che sembra.
+Dialogue: 0,0:04:50.18,0:04:54.48,Italics,,0000,0000,0000,,Alcuni bambini tornano indietro \Nper chiedere aiuto alla loro mamma,
+Dialogue: 0,0:04:54.94,0:04:56.52,Italics,,0000,0000,0000,,altri si perdono,
+Dialogue: 0,0:04:57.65,0:05:02.40,Italics,,0000,0000,0000,,altri ancora, invece delle cose della lista\N comprano giocattoli o caramelle.
+Dialogue: 0,0:05:03.03,0:05:06.36,Italics,,0000,0000,0000,,Alcuni vanno perfino nella sala giochi.
+Dialogue: 0,0:05:06.78,0:05:09.10,Default,,0000,0000,0000,,I bambini di oggi sono pessimi!
+Dialogue: 0,0:05:09.10,0:05:10.37,Default,,0000,0000,0000,,Mi vergogno a guardarli.
+Dialogue: 0,0:05:10.37,0:05:10.83,Default,,0000,0000,0000,,Davvero!
+Dialogue: 0,0:05:11.12,0:05:13.79,Default,,0000,0000,0000,,Guardate che siete anche voi dei mocciosi.
+Dialogue: 0,0:05:17.54,0:05:19.79,Default,,0000,0000,0000,,Forza, puoi farcela!
+Dialogue: 0,0:05:20.09,0:05:21.72,Default,,0000,0000,0000,,Adesso tocca al suo gruppo!
+Dialogue: 0,0:05:21.72,0:05:23.82,Default,,0000,0000,0000,,Quello è Hiroshi! Vive nella mia zona.
+Dialogue: 0,0:05:23.82,0:05:25.76,Default,,0000,0000,0000,,Guardate, non è ancora partito.
+Dialogue: 0,0:05:26.09,0:05:28.72,Default,,0000,0000,0000,,Avanti! Vinceremo noi!
+Dialogue: 0,0:05:29.14,0:05:30.68,Default,,0000,0000,0000,,Sta giocando da solo?
+Dialogue: 0,0:05:30.68,0:05:33.56,Default,,0000,0000,0000,,Ma che sta facendo?\N Insomma, muoviti!
+Dialogue: 0,0:05:33.56,0:05:38.31,Default,,0000,0000,0000,,Allora, Hiroshi deve comprare uno spazzolino, \Ndel tofu fritto e uno {\i1}shugi-bukuro{\i0}.
+Dialogue: 0,0:05:38.31,0:05:40.69,Default,,0000,0000,0000,,Cos'è uno {\i1}shugi-bukuro{\i0}?
+Dialogue: 0,0:05:40.69,0:05:41.94,Default,,0000,0000,0000,,Non ne ho idea.
+Dialogue: 0,0:05:41.94,0:05:45.90,Default,,0000,0000,0000,,Non è una borsa \Ndove ci sono re, alfieri e pedoni?
+Dialogue: 0,0:05:45.90,0:05:46.86,Default,,0000,0000,0000,,Esatto!
+Dialogue: 0,0:05:47.66,0:05:49.66,Italics,,0000,0000,0000,,Quello è lo "shogi"!
+Dialogue: 0,0:05:49.66,0:05:53.62,Italics,,0000,0000,0000,,Santo cielo! Forse dovreste partecipare\N anche voi, sarebbe una bella sfida.
+Dialogue: 0,0:05:55.37,0:05:56.50,Default,,0000,0000,0000,,È partito!
+Dialogue: 0,0:05:56.50,0:05:57.50,Default,,0000,0000,0000,,Seguiamolo!
+Dialogue: 0,0:05:57.50,0:05:57.92,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:06:08.59,0:06:10.01,Default,,0000,0000,0000,,Dove si è cacciato?
+Dialogue: 0,0:06:10.01,0:06:11.54,Default,,0000,0000,0000,,Non lo vedo da nessuna parte.
+Dialogue: 0,0:06:11.54,0:06:13.56,Default,,0000,0000,0000,,Non può essere andato così lontano.
+Dialogue: 0,0:06:14.01,0:06:16.77,Default,,0000,0000,0000,,Tu abiti qui vicino, vero?
+Dialogue: 0,0:06:16.77,0:06:18.06,Default,,0000,0000,0000,,Sì, esatto.
+Dialogue: 0,0:06:18.06,0:06:21.52,Default,,0000,0000,0000,,Quindi anche casa sua \Ndev'essere nei dintorni.
+Dialogue: 0,0:06:21.52,0:06:23.04,Default,,0000,0000,0000,,Possibile che...
+Dialogue: 0,0:06:23.04,0:06:24.73,Default,,0000,0000,0000,,È tornato a casa?!
+Dialogue: 0,0:06:24.98,0:06:28.95,Default,,0000,0000,0000,,Non è quello che intendevo.\N Hiroshi è figlio unico, giusto?
+Dialogue: 0,0:06:29.24,0:06:31.13,Default,,0000,0000,0000,,In effetti è così.
+Dialogue: 0,0:06:31.82,0:06:36.91,Italics,,0000,0000,0000,,Io ero come lui. \NGiocavo spesso da solo in quel modo.
+Dialogue: 0,0:06:37.23,0:06:39.37,Italics,,0000,0000,0000,,{\fad(200,0)}A casa mia o nei dintorni.
+Dialogue: 0,0:06:40.12,0:06:41.88,Flashback,,0000,0000,0000,,Sei tu il colpevole!
+Dialogue: 0,0:06:43.54,0:06:45.38,Flashback,,0000,0000,0000,,{\fad(0,600)}Complimenti per la deduzione!
+Dialogue: 0,0:06:45.71,0:06:50.34,Default,,0000,0000,0000,,Ayumi, sai se gioca spesso\N da qualche parte da solo qui vicino?
+Dialogue: 0,0:06:50.34,0:06:54.81,Default,,0000,0000,0000,,Nello spiazzo abbandonato!\N Lo vedo sempre divertirsi lì!
+Dialogue: 0,0:06:54.81,0:06:55.93,Default,,0000,0000,0000,,Andiamo a controllare!
+Dialogue: 0,0:06:55.93,0:06:56.51,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:07:01.06,0:07:02.23,Default,,0000,0000,0000,,Eccolo là!
+Dialogue: 0,0:07:03.23,0:07:04.69,Default,,0000,0000,0000,,Prendi questo!
+Dialogue: 0,0:07:07.57,0:07:09.53,Default,,0000,0000,0000,,Uffa, di nuovo!
+Dialogue: 0,0:07:16.74,0:07:19.00,Default,,0000,0000,0000,,Hiroshi è scomparso...
+Dialogue: 0,0:07:20.83,0:07:22.75,Italics,,0000,0000,0000,,Il solco di una bicicletta.
+Dialogue: 0,0:07:22.75,0:07:27.42,Italics,,0000,0000,0000,,Sembra fresco e in questo punto diventa\N più profondo. Dev'essere aumentato il peso.
+Dialogue: 0,0:07:27.42,0:07:30.88,Italics,,0000,0000,0000,,In altre parole, Hiroshi dev'esserci salito.
+Dialogue: 0,0:07:32.68,0:07:34.09,Default,,0000,0000,0000,,Eh? Conan?
+Dialogue: 0,0:07:34.09,0:07:35.60,Default,,0000,0000,0000,,Dove stai andando?!
+Dialogue: 0,0:07:35.60,0:07:36.68,Default,,0000,0000,0000,,Aspettaci!
+Dialogue: 0,0:07:39.64,0:07:41.60,Default,,0000,0000,0000,,Dove vuoi che ti porto, Hiroshi?
+Dialogue: 0,0:07:41.60,0:07:43.40,Default,,0000,0000,0000,,Vediamo...
+Dialogue: 0,0:07:51.82,0:07:52.91,Default,,0000,0000,0000,,Ciao, ciao!
+Dialogue: 0,0:07:52.91,0:07:53.74,Default,,0000,0000,0000,,Ciao!
+Dialogue: 0,0:08:05.17,0:08:06.13,Default,,0000,0000,0000,,Salve!
+Dialogue: 0,0:08:13.51,0:08:14.18,Default,,0000,0000,0000,,Eccolo là!
+Dialogue: 0,0:08:14.18,0:08:15.39,Default,,0000,0000,0000,,È proprio Hiroshi!
+Dialogue: 0,0:08:17.85,0:08:21.52,Default,,0000,0000,0000,,Ci ha salutati e si è messo a correre...
+Dialogue: 0,0:08:21.52,0:08:23.69,Default,,0000,0000,0000,,Ci sta forse prendendo in giro?
+Dialogue: 0,0:08:23.69,0:08:26.23,Default,,0000,0000,0000,,Non mi sembra il tipo...
+Dialogue: 0,0:08:28.73,0:08:33.07,Italics,,0000,0000,0000,,Un edificio abbandonato? \NCosa ci faceva là dentro?
+Dialogue: 0,0:08:33.07,0:08:34.74,Italics,,0000,0000,0000,,Giocava di nuovo da solo?
+Dialogue: 0,0:08:37.20,0:08:39.24,Default,,0000,0000,0000,,Finalmente ce l'ha fatta!
+Dialogue: 0,0:08:39.24,0:08:41.16,Default,,0000,0000,0000,,È un vero combinaguai!
+Dialogue: 0,0:08:41.54,0:08:43.79,Default,,0000,0000,0000,,Infine è arrivato\N al distretto commerciale!
+Dialogue: 0,0:08:43.79,0:08:47.04,Default,,0000,0000,0000,,Riuscirà a portare \Na termine la sua commissione?
+Dialogue: 0,0:08:47.04,0:08:48.63,Default,,0000,0000,0000,,La prima cosa è lo spazzolino!
+Dialogue: 0,0:08:51.64,0:08:54.38,Default,,0000,0000,0000,,Oh, no! Avrebbe dovuto comprarlo lì!
+Dialogue: 0,0:08:54.38,0:08:57.34,Default,,0000,0000,0000,,Forse vuole prima prendere il tofu fritto?
+Dialogue: 0,0:09:05.81,0:09:07.27,Default,,0000,0000,0000,,È senza speranze.
+Dialogue: 0,0:09:07.27,0:09:08.98,Default,,0000,0000,0000,,Insomma, Hiroshi...
+Dialogue: 0,0:09:25.46,0:09:26.32,Italics,,0000,0000,0000,,Ma questa...
+Dialogue: 0,0:09:26.68,0:09:28.83,Italics,,0000,0000,0000,,Qualcuno l'ha tagliata!
+Dialogue: 0,0:09:28.83,0:09:31.44,Default,,0000,0000,0000,,Che stai facendo, Conan?! Andiamo!
+Dialogue: 0,0:09:32.33,0:09:33.05,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:09:37.34,0:09:39.09,Default,,0000,0000,0000,,Una cartoleria?
+Dialogue: 0,0:09:39.09,0:09:41.47,Default,,0000,0000,0000,,Cosa vuole comprarci?
+Dialogue: 0,0:09:41.85,0:09:44.39,Default,,0000,0000,0000,,Uno {\i1}shugi-bukuro{\i0}, grazie!
+Dialogue: 0,0:09:44.39,0:09:46.31,Default,,0000,0000,0000,,Certo, arriva subito!
+Dialogue: 0,0:09:47.73,0:09:50.73,Default,,0000,0000,0000,,Eccolo qui! Sono 200 yen.
+Dialogue: 0,0:09:50.73,0:09:53.36,Default,,0000,0000,0000,,Quello sarebbe uno {\i1}shugi-bukuro{\i0}?!
+Dialogue: 0,0:09:53.36,0:09:54.98,Default,,0000,0000,0000,,Complimenti, Hiroshi!
+Dialogue: 0,0:09:54.98,0:09:56.49,Default,,0000,0000,0000,,È stata solo fortuna.
+Dialogue: 0,0:09:56.49,0:09:59.20,Default,,0000,0000,0000,,Gli mancano due cose! \NDa quale comincerà?
+Dialogue: 0,0:09:59.62,0:10:00.32,Default,,0000,0000,0000,,Ecco a te.
+Dialogue: 0,0:10:00.32,0:10:01.03,Default,,0000,0000,0000,,Grazie mille!
+Dialogue: 0,0:10:17.09,0:10:18.51,Default,,0000,0000,0000,,Hiroshi, attento!
+Dialogue: 0,0:10:22.05,0:10:23.35,Default,,0000,0000,0000,,Ehi!
+Dialogue: 0,0:10:23.35,0:10:25.02,Default,,0000,0000,0000,,Non faremo in tempo!
+Dialogue: 0,0:10:25.02,0:10:26.27,Italics,,0000,0000,0000,,E va bene!
+Dialogue: 0,0:10:28.27,0:10:28.98,Italics,,0000,0000,0000,,Vai!
+Dialogue: 0,0:10:37.38,0:10:39.15,Default,,0000,0000,0000,,C'è mancato poco...
+Dialogue: 0,0:10:41.28,0:10:44.12,Default,,0000,0000,0000,,Non ci credo! \NAvevo messo il freno a mano!
+Dialogue: 0,0:10:44.12,0:10:48.08,Italics,,0000,0000,0000,,Prima quella corda e ora questa macchina!\N Che sta succedendo?
+Dialogue: 0,0:10:48.46,0:10:49.84,Default,,0000,0000,0000,,Dov'è finito Hiroshi?
+Dialogue: 0,0:10:49.84,0:10:50.81,Default,,0000,0000,0000,,Ah, maledizione!
+Dialogue: 0,0:10:51.29,0:10:53.19,Default,,0000,0000,0000,,Lo abbiamo perso di nuovo di vista?!
+Dialogue: 0,0:10:53.19,0:10:56.17,Default,,0000,0000,0000,,È successo perché \Nnon stavi filmando come si deve!
+Dialogue: 0,0:10:56.17,0:10:57.42,Default,,0000,0000,0000,,Senti chi parla!
+Dialogue: 0,0:10:57.42,0:10:58.05,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,0:10:58.34,0:11:01.51,Italics,,0000,0000,0000,,C'è qualcuno che ha preso di mira Hiroshi?
+Dialogue: 0,0:11:01.97,0:11:03.00,Default,,0000,0000,0000,,Ehi, Conan!
+Dialogue: 0,0:11:03.00,0:11:03.80,Default,,0000,0000,0000,,Che succede?!
+Dialogue: 0,0:11:04.30,0:11:06.27,Default,,0000,0000,0000,,Cerchiamo Hiroshi!
+Dialogue: 0,0:11:20.45,0:11:22.99,Default,,0000,0000,0000,,Questo è il pupazzo di Yaiba di Hiroshi!
+Dialogue: 0,0:11:22.99,0:11:24.20,Default,,0000,0000,0000,,Ma lui dov'è?!
+Dialogue: 0,0:11:24.20,0:11:26.49,Default,,0000,0000,0000,,Finalmente ha cominciato le commissioni!
+Dialogue: 0,0:11:26.49,0:11:27.33,Default,,0000,0000,0000,,No!
+Dialogue: 0,0:11:27.33,0:11:32.46,Default,,0000,0000,0000,,Questo giocattolo è il suo tesoro. \NPerciò è strano che l'abbia lasciato qui!
+Dialogue: 0,0:11:32.46,0:11:34.89,Default,,0000,0000,0000,,Allora, dov'è finito?
+Dialogue: 0,0:11:35.21,0:11:36.46,Default,,0000,0000,0000,,Non ne ho idea!
+Dialogue: 0,0:11:36.46,0:11:40.05,Default,,0000,0000,0000,,Però quasi sicuramente \Nè stato portato via da qualcuno!
+Dialogue: 0,0:11:40.05,0:11:41.60,Default,,0000,0000,0000,,In altre parole, lo hanno rapito!
+Dialogue: 0,0:11:42.47,0:11:43.50,Default,,0000,0000,0000,,Che hai detto?!
+Dialogue: 0,0:11:43.50,0:11:44.23,Default,,0000,0000,0000,,Chi è stato?!
+Dialogue: 0,0:11:44.68,0:11:49.68,Default,,0000,0000,0000,,Non lo so! Ma prima qualcuno \Nha cercato di ucciderlo con dei falsi incidenti.
+Dialogue: 0,0:11:49.68,0:11:53.23,Default,,0000,0000,0000,,Però, ha fallito \Nentrambe le volte, quindi...
+Dialogue: 0,0:11:53.23,0:11:55.63,Default,,0000,0000,0000,,C-Che guaio!
+Dialogue: 0,0:11:55.63,0:11:57.23,Default,,0000,0000,0000,,Di questo passo, verrà ucciso!
+Dialogue: 0,0:11:57.23,0:11:59.20,Default,,0000,0000,0000,,Chiamiamo la polizia!
+Dialogue: 0,0:11:59.82,0:12:02.11,Default,,0000,0000,0000,,Però la mia è solo una teoria.
+Dialogue: 0,0:12:02.11,0:12:04.16,Default,,0000,0000,0000,,Potrebbero benissimo non credermi...
+Dialogue: 0,0:12:04.57,0:12:06.12,Default,,0000,0000,0000,,E allora, che facciamo?
+Dialogue: 0,0:12:06.74,0:12:08.83,Default,,0000,0000,0000,,Per prima cosa, troviamo Hiroshi!
+Dialogue: 0,0:12:08.83,0:12:10.47,Default,,0000,0000,0000,,Poi chiameremo la polizia!
+Dialogue: 0,0:12:11.33,0:12:13.12,Default,,0000,0000,0000,,Spero davvero di sbagliarmi...
+Dialogue: 0,0:12:35.15,0:12:36.61,Default,,0000,0000,0000,,N-Niente da fare!
+Dialogue: 0,0:12:36.61,0:12:38.14,Default,,0000,0000,0000,,Non era nemmeno da questo lato!
+Dialogue: 0,0:12:38.14,0:12:40.44,Default,,0000,0000,0000,,Mi sa che dovremmo andare\N davvero dalla polizia...
+Dialogue: 0,0:12:40.64,0:12:45.11,Italics,,0000,0000,0000,,Un attimo! Per quale motivo\N è stato preso di mira?!
+Dialogue: 0,0:12:45.11,0:12:47.41,Italics,,0000,0000,0000,,Capendolo, \Npotremmo scoprire dove si trova!
+Dialogue: 0,0:12:49.37,0:12:54.25,Default,,0000,0000,0000,,Genta, Mitsuhiko, fatemi vedere\N tutte le riprese che avete fatto a Hiroshi.
+Dialogue: 0,0:12:57.63,0:13:00.63,Default,,0000,0000,0000,,Allora? Allora? \NHanno registrato qualcosa di sospetto?
+Dialogue: 0,0:13:00.63,0:13:03.17,Default,,0000,0000,0000,,Io non mi sono accorto di nulla.
+Dialogue: 0,0:13:03.17,0:13:04.17,Default,,0000,0000,0000,,Nemmeno io...
+Dialogue: 0,0:13:06.76,0:13:08.60,Default,,0000,0000,0000,,No! Ancora più indietro!
+Dialogue: 0,0:13:10.39,0:13:12.43,Default,,0000,0000,0000,,Ancora di più, di più!
+Dialogue: 0,0:13:22.82,0:13:25.28,Default,,0000,0000,0000,,Fatemi rivedere\N questa parte e mettete in pausa!
+Dialogue: 0,0:13:30.41,0:13:31.24,Default,,0000,0000,0000,,Ho capito!
+Dialogue: 0,0:13:31.24,0:13:32.33,Default,,0000,0000,0000,,Cosa?
+Dialogue: 0,0:13:32.33,0:13:34.46,Default,,0000,0000,0000,,Cos'hai scoperto?
+Dialogue: 0,0:13:34.75,0:13:39.75,Default,,0000,0000,0000,,Guardate bene. Nelle riprese di Genta,\N sembra che Hiroshi stia salutando noi...
+Dialogue: 0,0:13:41.30,0:13:42.88,Default,,0000,0000,0000,,mentre in quelle di Mitsuhiko...
+Dialogue: 0,0:13:42.88,0:13:44.47,Default,,0000,0000,0000,,E quello cos'è?
+Dialogue: 0,0:13:44.47,0:13:45.80,Default,,0000,0000,0000,,Uno specchio concavo?
+Dialogue: 0,0:13:45.80,0:13:49.60,Default,,0000,0000,0000,,Quindi Hiroshi\N stava guardando quello specchio?
+Dialogue: 0,0:13:49.60,0:13:50.85,Default,,0000,0000,0000,,Esatto.
+Dialogue: 0,0:13:50.85,0:13:54.64,Default,,0000,0000,0000,,Più precisamente, stava salutando\N la persona che vi era riflessa.
+Dialogue: 0,0:14:06.36,0:14:07.11,Default,,0000,0000,0000,,Una finestra!
+Dialogue: 0,0:14:07.11,0:14:09.87,Default,,0000,0000,0000,,Ah! Ora ho capito anche io!
+Dialogue: 0,0:14:09.87,0:14:13.37,Default,,0000,0000,0000,,Stava salutando qualcuno \Nche era affacciato a quella finestra!
+Dialogue: 0,0:14:13.37,0:14:17.46,Default,,0000,0000,0000,,Esatto. Non si è fermato qui per giocare.
+Dialogue: 0,0:14:17.46,0:14:21.13,Default,,0000,0000,0000,,Doveva esserci qualche altro motivo.
+Dialogue: 0,0:14:21.13,0:14:25.59,Default,,0000,0000,0000,,Ma tutto questo cosa c'entra \Ncon il rapimento di Hiroshi?
+Dialogue: 0,0:14:26.22,0:14:28.43,Default,,0000,0000,0000,,È quello che scopriremo.
+Dialogue: 0,0:14:32.68,0:14:34.31,Default,,0000,0000,0000,,Però, mi sa che ho ragione!
+Dialogue: 0,0:14:35.60,0:14:37.06,Default,,0000,0000,0000,,Il cappellino di Hiroshi!
+Dialogue: 0,0:14:37.06,0:14:39.06,Default,,0000,0000,0000,,Vuol dire che è dentro l'edificio?
+Dialogue: 0,0:14:40.69,0:14:42.65,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs22\c&H223A3D&\b1\fnVerdana\pos(237.377,112.686)\frx14\fry32\frz337.5}Pericolo
+Dialogue: 0,0:14:40.69,0:14:42.65,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs18\frz339.4\c&H223A3D&\b1\fnVerdana\i0\frx16\fry36\pos(247.771,174.227)}Questo edificio verrà demolito
+Dialogue: 0,0:14:42.65,0:14:46.27,Italics,,0000,0000,0000,,Verrà demolito oggi! \NNon abbiamo molto tempo!
+Dialogue: 0,0:14:46.97,0:14:49.61,Italics,,0000,0000,0000,,E va bene! Entrerò da solo...
+Dialogue: 0,0:14:49.61,0:14:52.24,Default,,0000,0000,0000,,In marcia, squadra dei giovani detective!
+Dialogue: 0,0:14:52.24,0:14:53.41,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:15:04.88,0:15:07.30,Default,,0000,0000,0000,,Fate attenzione,\Nil pavimento è pericolante.
+Dialogue: 0,0:15:12.97,0:15:15.47,Default,,0000,0000,0000,,Sembra che non ci sia nessuno...
+Dialogue: 0,0:15:16.14,0:15:17.93,Default,,0000,0000,0000,,Controlliamo ai piani superiori.
+Dialogue: 0,0:15:17.93,0:15:20.64,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord2\shad3\fscx100\fscy100\pos(171.715,43.377)\p1\c&H0A2A2B&\3c&H2B3939&\4c&H030705&}m -71 -25 l 70 -25 70 5 -71 5
+Dialogue: 1,0:15:17.93,0:15:20.64,Cartello BASE,,0000,0000,0000,,{\blur0.5\pos(171.715,43.377)\c&H7F8368&\b1}Vietato entrare
+Dialogue: 0,0:15:21.52,0:15:23.23,Default,,0000,0000,0000,,Non possiamo andare oltre.
+Dialogue: 0,0:15:23.23,0:15:25.98,Default,,0000,0000,0000,,Almeno siamo sicuri \Nche più in su non c'è nessuno.
+Dialogue: 0,0:15:25.98,0:15:28.32,Default,,0000,0000,0000,,Però possiamo scendere.
+Dialogue: 0,0:15:28.82,0:15:29.90,Default,,0000,0000,0000,,Un seminterrato?!
+Dialogue: 0,0:15:35.44,0:15:37.49,Default,,0000,0000,0000,,Pensi davvero che sia quaggiù?
+Dialogue: 0,0:15:37.49,0:15:39.33,Default,,0000,0000,0000,,Hiroshi, sei qui?
+Dialogue: 0,0:15:39.33,0:15:42.58,Default,,0000,0000,0000,,È troppo buio, non vedo niente.
+Dialogue: 0,0:15:45.46,0:15:47.09,Default,,0000,0000,0000,,Hiroshi!
+Dialogue: 0,0:15:52.76,0:15:54.18,Default,,0000,0000,0000,,Un cadavere!
+Dialogue: 0,0:15:54.18,0:15:55.43,Default,,0000,0000,0000,,Dite che è morto anche Hiroshi?!
+Dialogue: 0,0:15:58.68,0:16:00.48,Default,,0000,0000,0000,,Tranquilli, è vivo.
+Dialogue: 0,0:16:02.14,0:16:03.92,Default,,0000,0000,0000,,Odore di anestetico!
+Dialogue: 0,0:16:04.48,0:16:07.78,Default,,0000,0000,0000,,Quindi è stato rapito \Ne portato qui dall'assassino!
+Dialogue: 0,0:16:07.78,0:16:10.94,Default,,0000,0000,0000,,M-Ma cosa ci fa qui un cadavere?
+Dialogue: 0,0:16:10.94,0:16:12.78,Default,,0000,0000,0000,,E Hiroshi cosa c'entra?
+Dialogue: 0,0:16:14.74,0:16:20.54,Default,,0000,0000,0000,,L'assassino voleva farlo sembrare un incidente,\N visto che oggi verrà demolito l'edificio.
+Dialogue: 0,0:16:16.44,0:16:20.92,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs24\c&H003980&\b1\fnVerdana\i0\frx12\fry6\t(\fs27)\pos(327.329,158.68)\frz353.6}Pericolo{il mio esperimento dello zoom!!!! va abbastaza bene, mi allenerò ancora :D}
+Dialogue: 0,0:16:16.44,0:16:20.92,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs23\c&H003980&\b1\fnVerdana\i0\frz353.6\frx12\fry6\t(\fs26)\move(317.245,223.919,317.245,233.137,35,4456)}Questo edificio verrà demolito
+Dialogue: 0,0:16:21.62,0:16:28.46,Default,,0000,0000,0000,,I piani superiori sono pericolanti, \Nquindi durante la demolizione
+Dialogue: 0,0:16:28.46,0:16:32.25,Default,,0000,0000,0000,,il seminterrato verrà coperto\N dalla macerie. Era questo il suo piano.
+Dialogue: 0,0:16:32.80,0:16:36.60,Default,,0000,0000,0000,,Ma poi è comparso Hiroshi.
+Dialogue: 0,0:16:37.47,0:16:38.68,Flashback,,0000,0000,0000,,Salve!
+Dialogue: 0,0:16:40.31,0:16:46.77,Default,,0000,0000,0000,,Visto il comportamento di Hiroshi, \Nnon credo che abbia visto l'omicidio.
+Dialogue: 0,0:16:46.77,0:16:50.99,Default,,0000,0000,0000,,Ma l'assassino non voleva correre rischi.
+Dialogue: 0,0:16:50.99,0:16:53.53,Default,,0000,0000,0000,,Così lo ha seguito\N nel distretto commerciale...
+Dialogue: 0,0:16:59.49,0:17:00.95,Default,,0000,0000,0000,,Però ha fallito.
+Dialogue: 0,0:17:01.54,0:17:06.38,Default,,0000,0000,0000,,Quindi ha deciso di far sembrare\N accidentale anche la sua morte.
+Dialogue: 0,0:17:07.25,0:17:08.34,Default,,0000,0000,0000,,Proprio così.
+Dialogue: 0,0:17:09.29,0:17:12.66,Default,,0000,0000,0000,,Siete molto intelligenti\N per essere solo dei mocciosi.
+Dialogue: 0,0:17:13.26,0:17:15.18,Default,,0000,0000,0000,,Ma questa è la vostra fine.
+Dialogue: 0,0:17:16.34,0:17:17.18,Default,,0000,0000,0000,,Oh, no!
+Dialogue: 0,0:17:27.48,0:17:29.44,Default,,0000,0000,0000,,Vuole uccidere anche noi!
+Dialogue: 0,0:17:29.44,0:17:31.07,Default,,0000,0000,0000,,Non ci credo!
+Dialogue: 0,0:17:31.07,0:17:32.65,Default,,0000,0000,0000,,Non possiamo permetterlo!
+Dialogue: 0,0:17:32.65,0:17:33.94,Default,,0000,0000,0000,,No!
+Dialogue: 4,0:17:36.41,0:17:39.12,Default,,0000,0000,0000,,Perché ci mettono così tanto?
+Dialogue: 0,0:17:36.41,0:17:47.37,Cartello BASE,,0000,0000,0000,,{\an7\blur1\bord0\shad0\fscx100\fscy100\pos(400.455,298.902)\p1\c&HCDDACC&}m -26 -9 l 79 -9 79 61 -26 61
+Dialogue: 1,0:17:36.41,0:17:47.37,Cartello BASE,,0000,0000,0000,,{\blur0.6\an1\fnVerdana\frz270.4\pos(400.455,298.902)\c&H070A15&}Grande detective\N\N{\fs30\b1}Kogoro Mori
+Dialogue: 4,0:17:39.12,0:17:43.33,Default,,0000,0000,0000,,Hiroshi non è ancora tornato.\N Cosa sarà successo?
+Dialogue: 4,0:17:43.33,0:17:47.37,Default,,0000,0000,0000,,Probabilmente stanno solo \Nperdendo tempo. I bambini sono tutti uguali.
+Dialogue: 0,0:17:49.04,0:17:51.34,Default,,0000,0000,0000,,Mi affido a voi, cominciamo.
+Dialogue: 0,0:18:00.10,0:18:01.72,Default,,0000,0000,0000,,Niente da fare. Non si muove.
+Dialogue: 0,0:18:02.06,0:18:05.14,Default,,0000,0000,0000,,Non voglio morire quaggiù!
+Dialogue: 0,0:18:05.14,0:18:07.06,Default,,0000,0000,0000,,Papà!
+Dialogue: 0,0:18:07.06,0:18:08.69,Default,,0000,0000,0000,,Ayumi, calmati!
+Dialogue: 0,0:18:08.69,0:18:12.90,Default,,0000,0000,0000,,È tutta colpa tua\N che non sei voluto andare dalla polizia, Conan!
+Dialogue: 0,0:18:12.90,0:18:16.90,Default,,0000,0000,0000,,Però sei stato tu \Na farci scendere quaggiù, Genta!
+Dialogue: 0,0:18:16.90,0:18:18.70,Default,,0000,0000,0000,,Sì, però...
+Dialogue: 0,0:18:21.58,0:18:22.99,Default,,0000,0000,0000,,Un terremoto?!
+Dialogue: 0,0:18:22.99,0:18:26.46,Default,,0000,0000,0000,,No! Hanno cominciato a demolire l'edificio!
+Dialogue: 0,0:18:39.59,0:18:40.84,Default,,0000,0000,0000,,È finita!
+Dialogue: 0,0:18:40.84,0:18:42.18,Default,,0000,0000,0000,,Non c'è più speranza!
+Dialogue: 0,0:18:42.18,0:18:43.06,Default,,0000,0000,0000,,Mamma!
+Dialogue: 0,0:18:52.31,0:18:55.07,Default,,0000,0000,0000,,Il rumore dell'acqua? Possibile che...
+Dialogue: 0,0:18:55.90,0:18:57.99,Default,,0000,0000,0000,,Ragazzi, riusciremo a sopravvivere!
+Dialogue: 0,0:19:07.25,0:19:11.75,Default,,0000,0000,0000,,Smettila di preoccuparti, vedrai\Nche torneranno! I bambini sono tutti uguali!
+Dialogue: 0,0:19:11.75,0:19:15.00,Default,,0000,0000,0000,,E se fosse successo loro qualcosa di brutto?
+Dialogue: 0,0:19:15.00,0:19:17.01,Default,,0000,0000,0000,,Andiamo a cercarli!
+Dialogue: 0,0:19:17.42,0:19:19.97,Default,,0000,0000,0000,,Smettila di tirarmi in questo modo!
+Dialogue: 0,0:19:21.97,0:19:23.43,Default,,0000,0000,0000,,Cos'è questo rumore?
+Dialogue: 0,0:19:39.36,0:19:40.65,Default,,0000,0000,0000,,Come avete fatto...
+Dialogue: 0,0:19:41.66,0:19:42.78,Default,,0000,0000,0000,,Sei sorpreso?
+Dialogue: 0,0:19:42.78,0:19:44.45,Default,,0000,0000,0000,,Non dovevi sottovalutarci!
+Dialogue: 0,0:19:44.45,0:19:46.79,Default,,0000,0000,0000,,Siamo la squadra dei giovani detective!
+Dialogue: 0,0:19:46.79,0:19:48.41,Default,,0000,0000,0000,,Ti è andata male, signore.
+Dialogue: 0,0:19:48.41,0:19:52.62,Default,,0000,0000,0000,,Speravi che finissimo schiacciati\N sotto le macerie insieme al cadavere,
+Dialogue: 0,0:19:52.62,0:19:57.00,Default,,0000,0000,0000,,ma visto che l'edificio era molto fragile\N si è rotto anche il muro del seminterrato,
+Dialogue: 0,0:19:57.00,0:19:59.88,Default,,0000,0000,0000,,aprendo una via per i tunnel di scarico...
+Dialogue: 0,0:20:19.74,0:20:22.56,Default,,0000,0000,0000,,Signore, aprirai un nuovo negozio, vero?
+Dialogue: 0,0:20:23.20,0:20:24.57,Default,,0000,0000,0000,,Che bello!
+Dialogue: 0,0:20:27.66,0:20:30.50,Default,,0000,0000,0000,,Del tofu fritto e uno spazzolino, grazie!
+Dialogue: 0,0:20:45.09,0:20:46.47,Default,,0000,0000,0000,,Cosa?
+Dialogue: 0,0:20:46.47,0:20:48.60,Default,,0000,0000,0000,,Che significa?
+Dialogue: 0,0:20:48.60,0:20:52.81,Default,,0000,0000,0000,,Ho capito, questo era il tuo minimarket?
+Dialogue: 0,0:20:52.81,0:20:54.19,Default,,0000,0000,0000,,Esatto.
+Dialogue: 0,0:20:55.40,0:20:59.53,Default,,0000,0000,0000,,Sono stato fregato da uno sporco \Nagente di borsa e mi sono riempito di debiti.
+Dialogue: 0,0:20:59.53,0:21:03.78,Default,,0000,0000,0000,,Non sapevo come fare a pagarli\N e la mia famiglia mi ha abbandonato.
+Dialogue: 0,0:21:04.10,0:21:06.22,Default,,0000,0000,0000,,{\fad(0,400)}La persona che ho ucciso \Nera proprio quell'agente.
+Dialogue: 0,0:21:10.04,0:21:13.71,Default,,0000,0000,0000,,Il negozio è stato\N prima sequestrato e poi chiuso.
+Dialogue: 0,0:21:15.21,0:21:18.46,Default,,0000,0000,0000,,Non era un minimarket così conosciuto...
+Dialogue: 0,0:21:18.46,0:21:21.21,Default,,0000,0000,0000,,se ne dimenticheranno tutti presto.
+Dialogue: 0,0:21:21.55,0:21:23.92,Default,,0000,0000,0000,,Però Hiroshi se lo ricordava!
+Dialogue: 0,0:21:23.92,0:21:27.68,Default,,0000,0000,0000,,Per la sua prima commissione\N è venuto proprio qui a fare compere!
+Dialogue: 0,0:21:30.14,0:21:31.60,Flashback,,0000,0000,0000,,Salve!
+Dialogue: 0,0:21:31.60,0:21:34.06,Default,,0000,0000,0000,,Ora capisco...
+Dialogue: 0,0:21:34.06,0:21:37.52,Default,,0000,0000,0000,,Già, proprio il bambino\N che stavi per uccidere.
+Dialogue: 0,0:21:37.86,0:21:41.03,Default,,0000,0000,0000,,Scusami, piccolo! Perdonami!
+Dialogue: 0,0:21:41.86,0:21:43.32,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:21:43.32,0:21:44.95,Default,,0000,0000,0000,,Che state combinando?!
+Dialogue: 0,0:21:45.82,0:21:50.16,Default,,0000,0000,0000,,Un altro successo\Nper la squadra dei giovani detective!
+Dialogue: 0,0:23:17.62,0:23:20.72,Default,,0000,0000,0000,,Wow! Quindi è andata così?
+Dialogue: 0,0:23:21.47,0:23:22.46,Default,,0000,0000,0000,,Complimenti!
+Dialogue: 0,0:23:23.21,0:23:27.88,Default,,0000,0000,0000,,Come pensavo,\N i bambini sono tutti uguali. Che noia.
+Dialogue: 0,0:23:27.88,0:23:31.01,Default,,0000,0000,0000,,Andrò a farmi un bel bagno, poi mi berrò \Nun bicchierino e me ne andrò a letto!
+Dialogue: 0,0:23:31.72,0:23:32.76,Default,,0000,0000,0000,,Papà!
+Dialogue: 0,0:23:34.72,0:23:36.40,Default,,0000,0000,0000,,Oh? Dov'è finito Hiroshi?
+Dialogue: 0,0:23:36.96,0:23:38.64,Default,,0000,0000,0000,,È sparito di nuovo?
+Dialogue: 0,0:23:38.64,0:23:39.89,Default,,0000,0000,0000,,Eccolo là!
+Dialogue: 0,0:23:44.15,0:23:46.23,Default,,0000,0000,0000,,Quali sono le altre due cose\N che deve comprare?
+Dialogue: 0,0:23:46.23,0:23:47.90,Default,,0000,0000,0000,,Dunque, il tofu fritto e...
+Dialogue: 0,0:23:47.90,0:23:49.19,Default,,0000,0000,0000,,Uno spazzolino!
+Dialogue: 0,0:23:49.19,0:23:51.66,Default,,0000,0000,0000,,Ottimo! Andiamo,\N squadra dei giovani detective!
+Dialogue: 0,0:23:52.22,0:23:54.24,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:23:55.74,0:24:00.58,Italics,,0000,0000,0000,,{\fad(0,600)}Che diavolo sto facendo?\NCome ho fatto a farmi coinvolgere?
+Dialogue: 1,0:24:01.40,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HF5F6FA&\fnArial\1a&H4F&\pos(192.69,91.038)}Anteprima
+Dialogue: 0,0:24:01.40,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HFDFDFD&\fnArial\1a&H4A&\pos(192.69,91.038)}Anteprima
+Dialogue: 0,0:24:01.84,0:24:03.63,Default,,0000,0000,0000,,Cosa stai guardando, Conan?
+Dialogue: 0,0:24:04.51,0:24:07.14,Default,,0000,0000,0000,,Il balcone di quell'appartamento.
+Dialogue: 0,0:24:10.56,0:24:12.38,Italics,,0000,0000,0000,,S-Si è buttata di sotto!
+Dialogue: 0,0:24:13.95,0:24:15.29,Italics,,0000,0000,0000,,Questo è un omicidio!
+Dialogue: 0,0:24:16.00,0:24:17.89,Italics,,0000,0000,0000,,La persona più sospetta è...
+Dialogue: 0,0:24:18.43,0:24:21.31,Italics,,0000,0000,0000,,quest'uomo che ha cercato\N d'impedirle di suicidarsi per telefono.
+Dialogue: 0,0:24:22.29,0:24:25.44,Italics,,0000,0000,0000,,Ma come ha fatto da così lontano?!
+Dialogue: 0,0:24:25.44,0:24:27.05,Italics,,0000,0000,0000,,Nel prossimo episodio di Conan...
+Dialogue: 1,0:24:25.44,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\bord0\fs18\blur0.6\c&HCED5D5&\3c&HACC3DC&\pos(323,114.293)}Il caso dell'omicidio dell'illustratrice
+Dialogue: 0,0:24:25.44,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\fs18\blur0.5\bord0.2\c&HC1CDD8&\3c&H6A95EB&\pos(323,114.293)}Il caso dell'omicidio dell'illustratrice
+Dialogue: 0,0:24:27.05,0:24:29.60,Italics,,0000,0000,0000,,"Il caso dell'omicidio dell'illustratrice".
+Dialogue: 0,0:24:46.79,0:24:48.83,Default,,0000,0000,0000,,Prossimo indizio per Conan:
+Dialogue: 0,0:24:49.21,0:24:51.45,Default,,0000,0000,0000,,Set per lenti a contatto.
+Dialogue: 0,0:24:51.45,0:24:57.28,Cartello BASE,,0000,0000,0000,,{\blur0.6\pos(322,286.074)}Non perdetevi il prossimo episodio
+Dialogue: 1,0:24:51.45,0:24:57.28,Cartello BASE,,0000,0000,0000,,{\blur0.5\c&HCBCFC3&\pos(322,286.074)}Non perdetevi il prossimo episodio
+Dialogue: 0,0:24:51.82,0:24:53.87,Default - Alt,,0000,0000,0000,,Il prossimo episodio è un po' più adulto.
+Dialogue: 0,0:24:53.87,0:24:57.28,Default - Alt,,0000,0000,0000,,Insomma, Conan! \NTu non devi vederla questa scena!

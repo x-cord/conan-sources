@@ -1,0 +1,461 @@
+[Script Info]
+Title: Italiano
+Original Script: cr_it  [http://www.crunchyroll.com/user/cr_it]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 528
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: OS,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0001,0001,0015,0
+Style: On Top,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0017,0017,0022,0
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Default - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Flashback - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Flashback Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Flashback Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Cartello BASE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0008,0008,0010,1
+Style: Titolo episodio,Verdana,25,&H00D0B193,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,180,0,0,1,0,0,2,0008,0008,0010,1
+Style: sign_4802_29_Hatamoto_Takashi,Verdana,12,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0192,0192,0020,1
+Style: sign_11799_123_Famiglia_Hatamot,Times New Roman,12,&H00163F4E,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0212,0212,0020,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.01,0:00:02.63,Default,,0000,0000,0000,,Mi chiamo Conan Edogawa.
+Dialogue: 0,0:00:02.63,0:00:05.67,Italics,,0000,0000,0000,,Sono il liceale Shinichi, \Nrimpicciolito da una pillola.
+Dialogue: 0,0:00:05.67,0:00:08.52,Italics,,0000,0000,0000,,Anche se sono piccolo, la mia mente\N è quella di un detective.
+Dialogue: 0,0:00:08.52,0:00:11.53,Italics,,0000,0000,0000,,Oggi vedremo la prima parte \Ndi un caso su una crociera.
+Dialogue: 0,0:00:11.53,0:00:13.51,Italics,,0000,0000,0000,,Riuscirete lo stesso a capire chi è l'assassino?
+Dialogue: 0,0:00:13.51,0:00:15.50,Italics,,0000,0000,0000,,La verità è sempre una sola!
+Dialogue: 1,0:01:46.00,0:01:52.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur1\bord0.1\c&HDEDCC8&\pos(263,122)}Il {*\c&HDDDBC7&}c{*\c&HDCDBC7&}as{*\c&HDCDAC6&}o {*\c&HDBDAC6&}d{*\c&HDBDAC5&}e{*\c&HDAD9C5&}ll{*\c&HD9D9C5&}e {*\c&HD9D8C4&}u{*\c&HD8D8C4&}c{*\c&HD8D8C3&}c{*\c&HD7D7C3&}is{*\c&HD7D7C2&}i{*\c&HD6D7C2&}o{*\c&HD6D6C2&}n{*\c&HD5D6C2&}i \N{*\c&HD4D5C1&}s{*\c&HD4D5C0&}ul{*\c&HD3D4C0&}la {*\c&HD2D4BF&}c{*\c&HD2D3BF&}r{*\c&HD1D3BE&}oc{*\c&HD0D2BE&}ie{*\c&HD0D2BD&}r{*\c&HCFD2BD&}a {*\c&HCFD1BC&}d{*\c&HCED1BC&}i {*\c&HCDD0BC&}l{*\c&HCDD0BB&}us{*\c&HCCCFBB&}s{*\c&HCCCFBA&}o {*\c&HCBCFBA&\fs18}({*\c&HCBCEB9&}p{*\c&HCACEB9&}ri{*\c&HC9CDB9&}m{*\c&HC9CDB8&}a {*\c&HC8CDB8&}p{*\c&HC8CCB7&}ar{*\c&HC7CCB7&}te{*\c&HC6CBB6&}){\c&HC6CBB6&}
+Dialogue: 0,0:01:46.00,0:01:52.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur1\bord0.5\c&HE6CABC&\pos(263,122)}Il caso delle uccisioni \Nsulla crociera di lusso {\fs18}(prima parte)
+Dialogue: 0,0:01:47.13,0:01:51.01,Italics,,0000,0000,0000,,"Il caso delle uccisioni \Nsulla crociera di lusso, prima parte".
+Dialogue: 0,0:02:00.14,0:02:01.72,Default,,0000,0000,0000,,Che vista mozzafiato!
+Dialogue: 0,0:02:02.60,0:02:05.85,Default,,0000,0000,0000,,Per un attimo mi ero preoccupata,\N ma invece ci è andata bene!
+Dialogue: 0,0:02:05.85,0:02:06.69,Default,,0000,0000,0000,,Già!
+Dialogue: 0,0:02:07.27,0:02:10.86,Default,,0000,0000,0000,,Kogoro ha sbagliato l'orario\N del traghetto di linea per il ritorno,
+Dialogue: 0,0:02:10.86,0:02:13.53,Default,,0000,0000,0000,,ma per fortuna ci hanno fatti salire\N su questa crociera!
+Dialogue: 0,0:02:14.32,0:02:18.95,Default,,0000,0000,0000,,Certo, sono contenta che questa nave\N fosse di passaggio sull'isola,
+Dialogue: 0,0:02:18.95,0:02:22.62,Default,,0000,0000,0000,,però abbiamo rischiato di rimanere \N lontani dal mondo per tre giorni!
+Dialogue: 0,0:02:23.00,0:02:27.63,Default,,0000,0000,0000,,Mi chiedo che tipo di persone\N possano prenotare un'intera crociera...
+Dialogue: 0,0:02:34.63,0:02:36.13,Default,,0000,0000,0000,,È successo qualcosa?
+Dialogue: 0,0:02:38.64,0:02:39.80,Default,,0000,0000,0000,,No, non è niente.
+Dialogue: 0,0:02:40.43,0:02:44.31,Default,,0000,0000,0000,,Ripensavo solo ai miei genitori,\N sono morti in un incidente l'anno scorso.
+Dialogue: 0,0:02:45.06,0:02:48.27,Default,,0000,0000,0000,,Avrei voluto mostrare loro\N il bel vestito che ho indossato oggi.
+Dialogue: 0,0:02:48.77,0:02:49.81,Default,,0000,0000,0000,,Il vestito?
+Dialogue: 0,0:02:50.69,0:02:51.73,Default,,0000,0000,0000,,Tutto bene, Natsue?
+Dialogue: 0,0:02:52.53,0:02:53.40,Default,,0000,0000,0000,,Takeshi!
+Dialogue: 0,0:02:54.40,0:02:56.90,Default,,0000,0000,0000,,Noi due ci siamo sposati oggi, sapete?
+Dialogue: 0,0:02:57.74,0:02:58.57,Default,,0000,0000,0000,,Sposati?
+Dialogue: 0,0:02:59.03,0:03:04.78,Default,,0000,0000,0000,,{\fad(470,0)\p1\blur1.3\bord0\shad0\fscx200\fscy200\c&HDD362F&\1a&H63&\pos(143,216.273)}m -14 7 l -14 30 l 34 30 l 34 7
+Dialogue: 0,0:02:59.03,0:03:04.78,Default,,0000,0000,0000,,{\fad(470,0)\p1\blur1.3\bord0\shad0\fscx200\fscy200\c&HDD362F&\1a&H6D&\pos(441.6,214.818)}m -14 7 l -14 30 l 34 30 l 34 7
+Dialogue: 1,0:02:59.03,0:03:04.78,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\fs10\blur0.3\pos(412.8,197.818)}Marito di Natsue
+Dialogue: 1,0:02:59.03,0:03:04.78,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\fs9\fscy110\blur0.3\pos(114.8,199.273)}Seconda figlia di Shoichi
+Dialogue: 1,0:02:59.03,0:03:04.78,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\an4\blur0.3\pos(369.867,213.818)}Takashi\N Hatamoto (24){\b1}
+Dialogue: 1,0:02:59.03,0:03:04.78,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\an4\blur0.3\pos(70,213.673)}Natsue \NHatamoto (22){\b1}
+Dialogue: 0,0:02:59.24,0:03:02.24,Default - Alt,,0000,0000,0000,,La cerimonia c'è stata stamane,\N sull'isola di Hatamoto,
+Dialogue: 0,0:03:02.24,0:03:04.78,Default - Alt,,0000,0000,0000,,la stessa dove vi trovavate voi!
+Dialogue: 0,0:03:05.66,0:03:07.62,Default,,0000,0000,0000,,Congratulazioni!
+Dialogue: 0,0:03:07.79,0:03:10.29,Default,,0000,0000,0000,,Ma perché proprio su quell'isola?
+Dialogue: 0,0:03:11.67,0:03:15.17,Default,,0000,0000,0000,,Gran parte di quell'isola\N appartiene alla famiglia Hatamoto,
+Dialogue: 0,0:03:15.17,0:03:17.97,Default,,0000,0000,0000,,e la onoriamo da diverse generazioni.
+Dialogue: 0,0:03:17.97,0:03:22.97,Default,,0000,0000,0000,,È tradizione che i nostri matrimoni\N si tengano lì.
+Dialogue: 0,0:03:23.60,0:03:25.68,Default,,0000,0000,0000,,Pezzo di idiota!
+Dialogue: 0,0:03:26.31,0:03:31.52,Default,,0000,0000,0000,,Avevamo nolleggiato per intero questa nave,\N perché c'è gente esterna alla famiglia?!
+Dialogue: 0,0:03:31.52,0:03:33.52,Default,,0000,0000,0000,,M-Mi dispiace tanto.
+Dialogue: 0,0:03:33.52,0:03:36.44,Default,,0000,0000,0000,,Quei signori erano in difficoltà, perciò...
+Dialogue: 0,0:03:37.57,0:03:39.66,Default,,0000,0000,0000,,Hai deciso di fare di testa tua, eh?
+Dialogue: 0,0:03:40.45,0:03:42.95,Default - Alt,,0000,0000,0000,,Ma che faccia tosta che hai
+Dialogue: 0,0:03:40.70,0:03:46.99,Default,,0000,0000,0000,,{\fad(470,0)\p1\bord0\shad0\fscx200\fscy200\c&HDD362F&\1a&H63&\blur1.3\pos(183.4,238.273)}m -14 7 l -14 30 l 34 30 l 34 7
+Dialogue: 0,0:03:40.70,0:03:46.99,Default,,0000,0000,0000,,{\fad(470,0)\p1\bord0\shad0\fscx200\fscy200\c&HDD362F&\1a&H6D&\blur1.3\pos(398.4,239)}m -14 7 l -14 30 l 34 30 l 34 7
+Dialogue: 1,0:03:40.70,0:03:46.99,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\fs10\fscx90\blur0.3\pos(370.4,219.2)}Capofamiglia Hatamoto
+Dialogue: 1,0:03:40.70,0:03:46.99,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\an4\blur0.3\pos(328,236.8)}Gouzo\N Hatamoto (72){\b1}
+Dialogue: 1,0:03:40.70,0:03:46.99,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\fs10\an6\blur0.3\pos(196.6,216.873)}Marito di Mariko \N/ genero
+Dialogue: 1,0:03:40.70,0:03:46.99,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\an4\blur0.3\pos(112.6,236.073)}Kitaro\N Hatamoto (47){\b1}
+Dialogue: 0,0:03:42.95,0:03:45.45,Default - Alt,,0000,0000,0000,,a prendere decisioni \Nsenza il mio consenso.
+Dialogue: 0,0:03:45.45,0:03:46.99,Default - Alt,,0000,0000,0000,,Non era mia intenzione!
+Dialogue: 0,0:03:47.71,0:03:49.37,Default,,0000,0000,0000,,Non farci caso.
+Dialogue: 0,0:03:49.37,0:03:52.96,Default,,0000,0000,0000,,Il nonno è di cattivo umore\N sin dalla cerimonia di stamane.
+Dialogue: 0,0:03:53.34,0:03:56.17,Default,,0000,0000,0000,,Esatto, da quando \Nha assaggiato i miei piatti.
+Dialogue: 0,0:03:56.17,0:03:57.42,Default,,0000,0000,0000,,Zio Joji!
+Dialogue: 0,0:03:57.42,0:04:02.09,Default,,0000,0000,0000,,So che non gli piace la cucina occidentale,\N ma non pensavo si arrabbiasse così tanto.
+Dialogue: 0,0:04:02.09,0:04:04.60,Flashback,,0000,0000,0000,,E tu lo chiami cibo, questo?!
+Dialogue: 0,0:04:04.97,0:04:08.10,Default - Alt,,0000,0000,0000,,Pare che non ci sappia ancora fare.
+Dialogue: 0,0:04:05.10,0:04:11.06,On Top,,0000,0000,0000,,{\fad(470,470)\p1\bord0\shad0\fscx210\fscy200\c&HDD362F&\1a&H6D&\blur1.3\pos(394.022,175.162)}m -14 7 l -14 30 l 34 30 l 34 7
+Dialogue: 1,0:04:05.10,0:04:11.06,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,470)\fs10\an4\pos(318.024,201.762)}Secondogenito\N famiglia Hatamoto
+Dialogue: 1,0:04:05.10,0:04:11.06,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,470)\an4\blur0.3\pos(318.58,222.74)}Joji Hatamoto (41){\b1}
+Dialogue: 0,0:04:08.10,0:04:09.85,Default - Alt,,0000,0000,0000,,Non è affatto vero.
+Dialogue: 0,0:04:09.85,0:04:11.56,Default - Alt,,0000,0000,0000,,Era tutto buonissimo!
+Dialogue: 0,0:04:11.56,0:04:15.15,Default,,0000,0000,0000,,E quel fiore sul petto cos'è,\N mio bel dongiovanni?
+Dialogue: 0,0:04:15.52,0:04:19.86,Default,,0000,0000,0000,,Ah, me lo ha messo Natsue\N dopo la fine del matrimonio.
+Dialogue: 0,0:04:19.86,0:04:23.07,Default,,0000,0000,0000,,È sempre stato il mio sogno\N sin da quando ero una bambina,
+Dialogue: 0,0:04:23.07,0:04:27.37,Default,,0000,0000,0000,,dare questo fiore tipico della mia isola\N alla persona per me più importante.
+Dialogue: 0,0:04:27.66,0:04:32.08,Default,,0000,0000,0000,,{\fad(470,0)\p1\bord0\shad0\fscx210\fscy200\c&HDD362F&\1a&H6D&\blur1.3\pos(319.311,181.949)}m -14 7 l -14 30 l 34 30 l 34 7
+Dialogue: 1,0:04:27.66,0:04:32.08,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\fs10\an4\blur0.3\pos(247.151,158.873)}Figlio unico di Kitaro
+Dialogue: 1,0:04:27.66,0:04:32.08,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\an4\blur0.3\pos(247.961,180.105)}Ichiro \NHatamoto (21){\b1}
+Dialogue: 0,0:04:27.70,0:04:29.87,Default - Alt,,0000,0000,0000,,Mi ritengo sconfitto, allora.
+Dialogue: 0,0:04:32.71,0:04:35.42,Default,,0000,0000,0000,,Tuo figlio poi non è tanto meglio di te.
+Dialogue: 0,0:04:35.42,0:04:38.54,Default,,0000,0000,0000,,Per quanto tempo ancora\N vuole giocare a fare l'artista?
+Dialogue: 0,0:04:38.88,0:04:41.38,Default,,0000,0000,0000,,Sei suo padre, vedi di farlo rinsavire!
+Dialogue: 0,0:04:41.38,0:04:44.01,Default,,0000,0000,0000,,Digli di abbandonare \Nquesto sogno irrealizzabile!
+Dialogue: 0,0:04:44.01,0:04:45.05,Default,,0000,0000,0000,,S-Sì...
+Dialogue: 0,0:04:45.51,0:04:46.51,Default,,0000,0000,0000,,Ehi, Takeshi.
+Dialogue: 0,0:04:47.01,0:04:48.27,Default,,0000,0000,0000,,S-Sì?
+Dialogue: 0,0:04:48.27,0:04:51.27,Default,,0000,0000,0000,,Ti devo parlare,\N vieni nella mia cabina più tardi.
+Dialogue: 0,0:04:51.64,0:04:52.47,Default,,0000,0000,0000,,C-Certo...
+Dialogue: 0,0:04:55.65,0:04:58.65,Default,,0000,0000,0000,,Porta pazienza, caro.
+Dialogue: 0,0:04:58.65,0:05:02.94,Default,,0000,0000,0000,,Presto o tardi se ne andrà,\N non gli resta moltissimo tempo.
+Dialogue: 0,0:05:03.41,0:05:10.16,Default,,0000,0000,0000,,{\fad(470,470)\p1\bord0\shad0\fscx210\fscy220\c&HDD362F&\1a&H6D&\blur1.3\pos(438.111,184.858)}m -14 7 l -14 30 l 34 30 l 34 7
+Dialogue: 1,0:05:03.41,0:05:10.16,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,470)\fs10\an6\blur0.3\pos(453.409,161.316)}Figlia maggiore\N e moglie di Kitaro
+Dialogue: 1,0:05:03.41,0:05:10.16,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,470)\an4\blur0.3\pos(364.27,186.215)}Mariko \NHatamoto (43){\b1}
+Dialogue: 0,0:05:03.86,0:05:08.33,Default - Alt,,0000,0000,0000,,E quando succedderà, \Nora che non c'è più mio fratello,
+Dialogue: 0,0:05:08.33,0:05:10.16,Default - Alt,,0000,0000,0000,,tutto il patrimonio Hatamoto sarà tuo!
+Dialogue: 0,0:05:10.16,0:05:13.91,Default,,0000,0000,0000,,Io non ne sarei così sicura, zietta.
+Dialogue: 0,0:05:14.83,0:05:16.42,Default,,0000,0000,0000,,Cosa vorresti insinuare?
+Dialogue: 0,0:05:16.42,0:05:19.38,Default - Alt,,0000,0000,0000,,Akie, mi nascondi qualcosa?
+Dialogue: 0,0:05:18.92,0:05:22.17,Default,,0000,0000,0000,,{\fad(470,0)\p1\bord0\shad0\fscx210\fscy220\c&HDD362F&\1a&H6D&\blur1.3\pos(440.533,213.788)}m -14 7 l -14 30 l 34 30 l 34 7
+Dialogue: 1,0:05:18.92,0:05:22.17,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\fs10\an6\blur0.3\pos(453.877,190.957)}Figlia di Shoichi\N e sorella di Natsue
+Dialogue: 1,0:05:18.92,0:05:22.17,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\an4\blur0.3\pos(366.337,214.256)}Akie \NHatamoto (26){\b1}
+Dialogue: 0,0:05:20.76,0:05:22.17,Default - Alt,,0000,0000,0000,,Non allarmarti, va bene?
+Dialogue: 0,0:05:26.60,0:05:29.64,Default,,0000,0000,0000,,Impossibile! Non può essere!
+Dialogue: 0,0:05:29.64,0:05:33.89,Default,,0000,0000,0000,,Pare che il nonno lo annuncerà\N pubblicamente, una volta a Tokyo.
+Dialogue: 0,0:05:34.85,0:05:37.19,Default - Alt,,0000,0000,0000,,Insomma, dateci un taglio.
+Dialogue: 0,0:05:34.85,0:05:39.77,Default,,0000,0000,0000,,{\fad(470,0)\p1\bord0\shad0\fscx210\fscy220\c&HDD362F&\1a&H6D&\blur1.3\pos(378.755,180.899)}m -14 7 l -14 30 l 34 30 l 34 7
+Dialogue: 1,0:05:34.85,0:05:39.77,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\fs10\an6\blur0.3\pos(394.59,158.246)}Marito di Akie\N / genero
+Dialogue: 1,0:05:34.85,0:05:39.77,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\an4\blur0.3\pos(302.955,181.367)}Tatsuo \NHatamoto (26){\b1}
+Dialogue: 0,0:05:37.19,0:05:39.77,Default - Alt,,0000,0000,0000,,Ma se continua a dire\N di essere sommerso da debiti.
+Dialogue: 0,0:05:41.65,0:05:44.74,Default,,0000,0000,0000,,Mancano ancora 24 ore\N prima che questa nave arrivi a Tokyo.
+Dialogue: 0,0:05:45.41,0:05:48.70,Default,,0000,0000,0000,,Vediamo di risolvere la cosa\N prima di attraccare.
+Dialogue: 0,0:05:58.54,0:05:59.38,Default,,0000,0000,0000,,Sono Takeshi.
+Dialogue: 0,0:05:59.38,0:06:00.38,Default,,0000,0000,0000,,Entra.
+Dialogue: 0,0:06:03.92,0:06:04.80,Default,,0000,0000,0000,,Scusa il disturbo.
+Dialogue: 0,0:06:05.93,0:06:09.60,Default,,0000,0000,0000,,Hai fatto uno splendido discorso\N stamane, al matrimonio.
+Dialogue: 0,0:06:09.60,0:06:11.89,Default,,0000,0000,0000,,Non mi stupisce\N che Natsue ti abbia scelto.
+Dialogue: 0,0:06:13.43,0:06:14.35,Default,,0000,0000,0000,,Grazie...
+Dialogue: 0,0:06:16.69,0:06:19.02,Default,,0000,0000,0000,,Quando sei in imbarazzo\N ti gratti la guancia...
+Dialogue: 0,0:06:19.02,0:06:20.06,Default,,0000,0000,0000,,Sei proprio come lui.
+Dialogue: 0,0:06:21.23,0:06:23.94,Default,,0000,0000,0000,,Proprio come tuo padre, Isao Zaiki!
+Dialogue: 0,0:06:25.82,0:06:29.28,Default,,0000,0000,0000,,Anche se hai falsificato i registri, \Nnon sei riuscito a ingannarmi.
+Dialogue: 0,0:06:29.28,0:06:32.83,Default,,0000,0000,0000,,So benissimo che ti sei unito\N alla nostra compagnia
+Dialogue: 0,0:06:32.83,0:06:36.67,Default,,0000,0000,0000,,e ti sei avvicinato a Natsue\N solo per vendicare tuo padre!
+Dialogue: 0,0:06:38.33,0:06:40.29,Default,,0000,0000,0000,,Qual è il tuo obiettivo?
+Dialogue: 0,0:06:40.63,0:06:41.75,Default,,0000,0000,0000,,Il denaro?
+Dialogue: 0,0:06:42.38,0:06:44.97,Default,,0000,0000,0000,,{\fad(0,590)}O forse la mia vita?
+Dialogue: 0,0:06:46.34,0:06:48.68,Default,,0000,0000,0000,,Che succede? Perché non rispondi?
+Dialogue: 0,0:06:49.05,0:06:50.80,Default,,0000,0000,0000,,Sputa il rospo!
+Dialogue: 0,0:06:52.76,0:07:00.23,Default,,0000,0000,0000,,{\p1\fscx400\fscy400\c&HC8EFFB&\bord1\shad0\3c&H2D5C6D&\pos(251.756,34.222)}m -22 15 l -22 38 l 26 38 l 26 15
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\pos(170.279,16.267)}Gouzo Hatamoto
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs9\pos(106.99,41.644)}Shoichi = Miyuki
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs9\pos(170.087,92.2)}Natsue = Takeshi
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs9\pos(99.374,91.7)}Akie = Tatsuo
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs9\pos(235.659,42.259)}Joji
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs9\pos(185.902,42.144)}Mariko = Kitaro
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs9\pos(186.265,64.711)}Ichiro
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs12\b1\pos(185.852,54.544)}|{\b0}
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs12\b1\fscy310\pos(106.99,74.644)}|{\b0}
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs12\b1\fscy50\pos(169.696,79.177)}|{\b0}
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs12\b1\fscy50\pos(170.102,21.844)}|{\b0}
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs12\b1\fscy\pos(235.7,32.421)}|{\b0}
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs12\b1\pos(107.093,31.967)}|{\b0}
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs12\b1\pos(186.164,31.428)}|{\b0}
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs12\b1\fscy50\pos(98.664,79.878)}|{\b0}
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs10\b0\fsp-1\pos(133.39,78.844)}------------------------------------------------
+Dialogue: 1,0:06:52.76,0:07:00.23,sign_11799_123_Famiglia_Hatamot,,0000,0000,0000,,{\fs10\b0\fsp-1\pos(170.723,26.399)}---------------------------------------------------------------------------------------
+Dialogue: 0,0:06:53.81,0:06:56.69,Default,,0000,0000,0000,,Questi sono i membri principali\N della famiglia Hatamoto.
+Dialogue: 0,0:06:57.39,0:07:00.23,Default,,0000,0000,0000,,Erano tutti presenti al tuo matrimonio?
+Dialogue: 0,0:07:00.77,0:07:05.69,Default,,0000,0000,0000,,Sì, escludendo Shoichi e Miyuki,\N i miei genitori defunti, siamo in nove.
+Dialogue: 0,0:07:06.45,0:07:09.49,Default,,0000,0000,0000,,Certo che Takeshi è proprio in ritardo.
+Dialogue: 0,0:07:09.49,0:07:12.74,Default,,0000,0000,0000,,Già, ancora non è tornato\N dalla cabina del nonno.
+Dialogue: 0,0:07:12.74,0:07:13.91,Default,,0000,0000,0000,,Forse è successo qualcosa?
+Dialogue: 0,0:07:14.41,0:07:18.08,Default,,0000,0000,0000,,Magari stanno facendo\N qualche discorso losco.
+Dialogue: 0,0:07:18.08,0:07:19.33,Default,,0000,0000,0000,,Akie!
+Dialogue: 0,0:07:24.92,0:07:26.63,Default,,0000,0000,0000,,Ti sei preso il tuo tempo, eh.
+Dialogue: 0,0:07:26.63,0:07:27.80,Default,,0000,0000,0000,,Scusa.
+Dialogue: 0,0:07:29.59,0:07:31.01,Default,,0000,0000,0000,,Papà non è ancora arrivato?
+Dialogue: 0,0:07:31.51,0:07:34.97,Default,,0000,0000,0000,,{\fad(470,0)\p1\bord0\shad0\fscx210\fscy220\c&HDD362F&\1a&H6D&\blur1.3\pos(422.955,182.111)}m -14 7 l -14 30 l 34 30 l 34 7
+Dialogue: 0,0:07:31.51,0:07:34.97,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\fs10\an6\blur0.3\pos(436.234,159.458)}Maggiordomo\N di famiglia
+Dialogue: 1,0:07:31.51,0:07:34.97,sign_4802_29_Hatamoto_Takashi,,0000,0000,0000,,{\fad(470,0)\an4\blur0.3\pos(348.175,182.579)}Kenji\NSuzuki (64){\b1}
+Dialogue: 0,0:07:31.55,0:07:34.97,Default - Alt,,0000,0000,0000,,Esatto, ma sono certo\N che sarà qui a momenti.
+Dialogue: 0,0:07:35.27,0:07:37.23,Default,,0000,0000,0000,,Sei in ritardo, Ichiro!
+Dialogue: 0,0:07:37.23,0:07:38.69,Default,,0000,0000,0000,,Te le sei lavate le mani?
+Dialogue: 0,0:07:38.69,0:07:39.27,Default,,0000,0000,0000,,Sì...
+Dialogue: 0,0:07:39.69,0:07:42.60,Default,,0000,0000,0000,,Senti, tu ce l'hai un ragazzo, Ran?
+Dialogue: 0,0:07:44.23,0:07:47.95,Default,,0000,0000,0000,,Certo che no, è ancora una ragazzina!
+Dialogue: 0,0:07:47.95,0:07:49.45,Default,,0000,0000,0000,,Che impertinente.
+Dialogue: 0,0:07:49.45,0:07:52.03,Default,,0000,0000,0000,,Ce l'ho anche io\N qualcuno che mi piace.
+Dialogue: 0,0:07:52.03,0:07:53.20,Default,,0000,0000,0000,,Giusto, Conan?
+Dialogue: 0,0:07:54.08,0:07:55.24,Default,,0000,0000,0000,,V-Vero...
+Dialogue: 0,0:07:55.99,0:07:57.91,Default,,0000,0000,0000,,E che tipo è?
+Dialogue: 0,0:07:58.87,0:08:04.63,Default,,0000,0000,0000,,Vediamo, è intelligente, bravo a calcio,\N è sempre disponibile ed è fighissimo!
+Dialogue: 0,0:08:06.67,0:08:08.50,Default,,0000,0000,0000,,Che hai da arrossire, tu?
+Dialogue: 0,0:08:08.97,0:08:12.05,Default,,0000,0000,0000,,Ed è un detective\N forse anche più in gamba di mio padre!
+Dialogue: 0,0:08:12.89,0:08:14.89,Default,,0000,0000,0000,,Quindi tuo padre è...
+Dialogue: 0,0:08:14.89,0:08:16.77,Default,,0000,0000,0000,,Ah, non te l'ho detto?
+Dialogue: 0,0:08:16.77,0:08:18.93,Default,,0000,0000,0000,,Sì, mio padre è un detective.
+Dialogue: 0,0:08:26.78,0:08:28.65,Default,,0000,0000,0000,,C-Che succede?
+Dialogue: 0,0:08:29.45,0:08:32.82,Default,,0000,0000,0000,,Non dirlo davanti a mio nonno,\N lui detesta gli investigatori.
+Dialogue: 0,0:08:32.82,0:08:35.95,Default,,0000,0000,0000,,Dice che odia chi si immischia\N negli affari degli altri.
+Dialogue: 0,0:08:37.49,0:08:39.91,Italics,,0000,0000,0000,,Direi che Kogoro rientra nella descrizione.
+Dialogue: 0,0:08:42.37,0:08:44.79,Default,,0000,0000,0000,,Signore? È ora di andare a tavola.
+Dialogue: 0,0:08:47.05,0:08:48.04,Default,,0000,0000,0000,,Un fiore?
+Dialogue: 0,0:08:52.43,0:08:54.84,Default,,0000,0000,0000,,Takeshi, sei proprio in ritardo!
+Dialogue: 0,0:08:55.76,0:08:59.05,Default,,0000,0000,0000,,Scusa, sono rimasto \Nun po' in cabina a pensare.
+Dialogue: 0,0:08:59.93,0:09:02.39,Default,,0000,0000,0000,,Va tutto bene? Ti vedo pallido.
+Dialogue: 0,0:09:03.85,0:09:05.86,Default,,0000,0000,0000,,Eh? Ma dov'è il fiore?
+Dialogue: 0,0:09:06.65,0:09:08.90,Default,,0000,0000,0000,,Che strano, dove mi sarà caduto?
+Dialogue: 0,0:09:11.45,0:09:13.86,Default,,0000,0000,0000,,Perdonate il disturbo, signore.
+Dialogue: 0,0:09:13.86,0:09:15.41,Default,,0000,0000,0000,,Vi stanno aspettando tut...
+Dialogue: 0,0:09:17.66,0:09:19.08,Default,,0000,0000,0000,,Chi è che ha urlato?!
+Dialogue: 0,0:09:19.08,0:09:20.41,Default,,0000,0000,0000,,Era il maggiordomo!
+Dialogue: 0,0:09:20.41,0:09:21.58,Default,,0000,0000,0000,,Veniva dalla cabina di papà!
+Dialogue: 0,0:09:24.50,0:09:25.63,Default,,0000,0000,0000,,Che succede, Suzuki?
+Dialogue: 0,0:09:36.85,0:09:38.93,Default,,0000,0000,0000,,Niente da fare, è morto.
+Dialogue: 0,0:09:38.93,0:09:39.68,Default,,0000,0000,0000,,No!
+Dialogue: 0,0:09:39.97,0:09:41.26,Default,,0000,0000,0000,,Nonno!
+Dialogue: 0,0:09:40.47,0:09:41.26,Default - Alt,,0000,0000,0000,,Ferma!
+Dialogue: 0,0:09:41.68,0:09:42.73,Default,,0000,0000,0000,,Che nessuno entri!
+Dialogue: 0,0:09:43.39,0:09:47.23,Default,,0000,0000,0000,,Non potrà entrare nessuno\N finché non lo dirò io.
+Dialogue: 0,0:09:51.28,0:09:55.57,Default,,0000,0000,0000,,Ipotizzo siano passati 40-50 minuti\N dalla morte di Gouzo.
+Dialogue: 0,0:09:56.16,0:10:00.08,Default,,0000,0000,0000,,A trovarlo sei stato tu, giusto, Suzuki?
+Dialogue: 0,0:10:00.08,0:10:01.04,Default,,0000,0000,0000,,S-Sì...
+Dialogue: 0,0:10:01.75,0:10:06.79,Default,,0000,0000,0000,,Dove ti trovavi 40-50 minuti fa,\N ossia intorno alle 20:00?
+Dialogue: 0,0:10:07.08,0:10:10.92,Default,,0000,0000,0000,,A quell'ora \Nstavo preparando la cena,
+Dialogue: 0,0:10:10.92,0:10:12.55,Default,,0000,0000,0000,,ero nella sala da pranzo.
+Dialogue: 0,0:10:12.55,0:10:17.76,Default,,0000,0000,0000,,Ho visto Suzuki tutto indaffarato\N intorno ai tavoli, ne sono certa.
+Dialogue: 0,0:10:18.10,0:10:22.81,Default,,0000,0000,0000,,E sei sicuro che quando hai trovato\N il cadavere, la stanza fosse chiusa a chiave?
+Dialogue: 0,0:10:22.81,0:10:23.68,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:10:23.68,0:10:25.98,Default,,0000,0000,0000,,E in quali modi si può chiudere la porta?
+Dialogue: 0,0:10:25.98,0:10:27.60,Default,,0000,0000,0000,,Si chiude facilmente dall'interno,
+Dialogue: 0,0:10:27.60,0:10:29.77,Default,,0000,0000,0000,,ma da fuori, serve questa chiave.
+Dialogue: 0,0:10:30.11,0:10:35.48,Default,,0000,0000,0000,,La finestra non si apre,\N perciò non si può utilizzare per entrare.
+Dialogue: 0,0:10:35.48,0:10:39.32,Default,,0000,0000,0000,,In altre parole, si tratta\N di un omicidio in una stanza chiusa a chiave.
+Dialogue: 0,0:10:39.78,0:10:41.24,Default,,0000,0000,0000,,Stanza chiusa a chiave?
+Dialogue: 0,0:10:41.24,0:10:44.29,Default,,0000,0000,0000,,Quindi il nonno si è suicidato?
+Dialogue: 0,0:10:44.62,0:10:46.37,Default,,0000,0000,0000,,Ma è strano.
+Dialogue: 0,0:10:46.37,0:10:50.63,Default,,0000,0000,0000,,Se si tratta davvero di un suicidio,\N manca qualcosa di essenziale...
+Dialogue: 0,0:10:52.46,0:10:53.79,Default,,0000,0000,0000,,Parlo dell'arma.
+Dialogue: 0,0:10:54.21,0:10:57.84,Default,,0000,0000,0000,,È morto dissanguato a seguito\N di una ferita fatale all'addome.
+Dialogue: 0,0:10:57.84,0:11:00.76,Default,,0000,0000,0000,,Ma non c'è nessun oggetto affilato\N intorno al cadavere.
+Dialogue: 0,0:11:01.22,0:11:04.06,Default,,0000,0000,0000,,E se avesse usato \Nun pezzo di ghiaccio affilato?
+Dialogue: 0,0:11:04.06,0:11:07.47,Default,,0000,0000,0000,,I romanzi gialli sono pieni\N di queste armi che poi svaniscono.
+Dialogue: 0,0:11:07.89,0:11:10.94,Default,,0000,0000,0000,,E perché uno che si suicida\N dovrebbe fare una cosa simile?
+Dialogue: 0,0:11:11.65,0:11:13.65,Default,,0000,0000,0000,,Deve averlo fatto per tormentarci.
+Dialogue: 0,0:11:14.32,0:11:19.07,Default,,0000,0000,0000,,Voleva che tutti noi Hatamoto\N litigassimo, sospettando l'uno dell'altro.
+Dialogue: 0,0:11:19.07,0:11:22.74,Default,,0000,0000,0000,,D'altra parte, ci odiava tutti quanti.
+Dialogue: 0,0:11:22.74,0:11:25.66,Default,,0000,0000,0000,,Certo, ad eccezione di Natsue.
+Dialogue: 0,0:11:25.66,0:11:27.16,Default,,0000,0000,0000,,A-Akie!
+Dialogue: 0,0:11:27.16,0:11:29.87,Default,,0000,0000,0000,,Beh, conoscendolo avrebbe potuto farlo...
+Dialogue: 0,0:11:29.87,0:11:32.67,Default,,0000,0000,0000,,E allora è suicidio, suicido vi dico!\N Direi che è deciso.
+Dialogue: 0,0:11:32.67,0:11:33.92,Default,,0000,0000,0000,,No, è un omicidio.
+Dialogue: 0,0:11:33.92,0:11:34.46,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,0:11:34.80,0:11:36.92,Default,,0000,0000,0000,,E anche uno piuttosto elementare da capire.
+Dialogue: 0,0:11:37.13,0:11:39.13,Default,,0000,0000,0000,,T-Ti intrometti di nuovo?!
+Dialogue: 0,0:11:39.13,0:11:42.18,Default,,0000,0000,0000,,Guarda bene il bordo della porta!
+Dialogue: 0,0:11:43.31,0:11:44.51,Default,,0000,0000,0000,,Vedi? C'è del sangue.
+Dialogue: 0,0:11:45.02,0:11:48.64,Default,,0000,0000,0000,,Se quel signore si fosse suicidato\N e la porta fosse stata chiusa,
+Dialogue: 0,0:11:48.64,0:11:51.31,Default,,0000,0000,0000,,allora non ci sarebbe stato del sangue\N in questo punto.
+Dialogue: 0,0:11:51.31,0:11:56.28,Default,,0000,0000,0000,,Perciò è più logico pensare\N che sia stato ucciso con la porta aperta.
+Dialogue: 0,0:11:56.28,0:12:02.32,Default,,0000,0000,0000,,Giusto, qualcuno lo ha accoltellato\N nel momento in cui ha aperto la porta.
+Dialogue: 0,0:12:02.32,0:12:04.62,Default,,0000,0000,0000,,Allora poi chi è stato a chiuderla?
+Dialogue: 0,0:12:05.62,0:12:07.45,Default,,0000,0000,0000,,In effetti...
+Dialogue: 0,0:12:07.45,0:12:09.24,Default,,0000,0000,0000,,Ehi, ma possiamo fidarci di te?
+Dialogue: 0,0:12:17.92,0:12:21.88,Default,,0000,0000,0000,,Ma certo, è stato lo stesso Gouzo\N a chiudere la porta a chiave!
+Dialogue: 0,0:12:23.22,0:12:28.60,Default,,0000,0000,0000,,Qualcuno lo ha accoltellato da fuori,\N e poi, per tentare di sfuggire,
+Dialogue: 0,0:12:28.60,0:12:30.98,Default,,0000,0000,0000,,si è chiuso a chiave nella sua stanza.
+Dialogue: 0,0:12:30.98,0:12:32.85,Default,,0000,0000,0000,,Ma subito dopo è morto, esaurendo le forze.
+Dialogue: 0,0:12:33.73,0:12:36.27,Default,,0000,0000,0000,,Capisco, ha senso.
+Dialogue: 0,0:12:36.73,0:12:39.90,Default,,0000,0000,0000,,Bravissimo, Kogoro! \NTu sì che sei un detective!
+Dialogue: 0,0:12:42.11,0:12:46.74,Default,,0000,0000,0000,,Fermi un attimo, questo vuol dire\N che tutti potrebbero averlo fatto fuori.
+Dialogue: 0,0:12:46.74,0:12:48.91,Default,,0000,0000,0000,,L'omicidio è avvenuto intorno alle 20:00.
+Dialogue: 0,0:12:48.91,0:12:53.25,Default,,0000,0000,0000,,Io, Ran, Conan e Natsue\N ci siamo seduti al tavolo verso le 19:30,
+Dialogue: 0,0:12:53.25,0:12:54.75,Default,,0000,0000,0000,,perciò siamo esclusi.
+Dialogue: 0,0:12:54.75,0:12:59.17,Default,,0000,0000,0000,,Lo stesso vale per Suzuki,\N che era lì vicino agli altri tavoli.
+Dialogue: 0,0:12:59.88,0:13:03.34,Default,,0000,0000,0000,,In breve, il colpevole non era\N in sala da pranzo a quell'ora.
+Dialogue: 0,0:13:04.18,0:13:08.10,Default,,0000,0000,0000,,E dunque, l'assassino è uno di voi sette.
+Dialogue: 0,0:13:14.44,0:13:15.65,Default,,0000,0000,0000,,Suzuki,
+Dialogue: 0,0:13:15.65,0:13:19.48,Default,,0000,0000,0000,,c'è qualcosa che hai notato\N quando sei entrato nella stanza?
+Dialogue: 0,0:13:19.48,0:13:21.90,Default,,0000,0000,0000,,No, niente in particolare...
+Dialogue: 0,0:13:21.90,0:13:25.45,Default,,0000,0000,0000,,Aspetta, ora che ci penso,\N c'era questo davanti alla porta.
+Dialogue: 0,0:13:26.03,0:13:26.83,Default,,0000,0000,0000,,Un fiore?
+Dialogue: 0,0:13:27.33,0:13:32.50,Default,,0000,0000,0000,,M-Ma quello è il fiore\N che avevo messo sulla giacca di Takeshi.
+Dialogue: 0,0:13:34.83,0:13:38.96,Default,,0000,0000,0000,,A pensarci bene, sei arrivato \Nparecchio in ritardo in sala da pranzo.
+Dialogue: 0,0:13:39.80,0:13:43.13,Default,,0000,0000,0000,,Non farti strane idea, Akie,\N ero solo nella mia cabina a pensare.
+Dialogue: 0,0:13:43.13,0:13:45.89,Default,,0000,0000,0000,,È inutile negarlo, Takeshi.
+Dialogue: 0,0:13:46.64,0:13:50.64,Default,,0000,0000,0000,,Prima sono passata per caso qui vicino\N e ho chiaramente sentito te e mio padre
+Dialogue: 0,0:13:50.64,0:13:52.89,Default,,0000,0000,0000,,urlarvi a vicenda!
+Dialogue: 0,0:13:54.85,0:13:57.52,Default,,0000,0000,0000,,Mi è quasi preso un colpo, sai?
+Dialogue: 0,0:13:58.65,0:14:03.24,Default,,0000,0000,0000,,Quando ho sentito \Nche in realtà sei il figlio di Isao Zaiki!
+Dialogue: 0,0:14:07.74,0:14:09.95,Default,,0000,0000,0000,,E chi sarebbe, questo Isao Zaiki?
+Dialogue: 0,0:14:11.24,0:14:16.04,Default,,0000,0000,0000,,Era il presidente della ditta Zaiki,\N si è suicidato 10 anni fa
+Dialogue: 0,0:14:16.04,0:14:18.42,Default,,0000,0000,0000,,dopo che Gouzo \Nha acquistato la sua compagnia.
+Dialogue: 0,0:14:19.09,0:14:23.22,Default,,0000,0000,0000,,L'anno seguente,\N morì di malattia anche sua moglie...
+Dialogue: 0,0:14:23.22,0:14:28.14,Default,,0000,0000,0000,,E il loro unico figlio, per quanto ne so,\N era stato affidato a qualche istituto...
+Dialogue: 0,0:14:28.80,0:14:31.26,Default,,0000,0000,0000,,Non avrei mai immaginato che fosse Takeshi!
+Dialogue: 0,0:14:31.26,0:14:33.31,Default,,0000,0000,0000,,È la verità, Takeshi?
+Dialogue: 0,0:14:34.06,0:14:35.10,Default,,0000,0000,0000,,Takeshi!
+Dialogue: 0,0:14:36.81,0:14:41.32,Default,,0000,0000,0000,,È vero, sono Takehiko Zaiki,\N il figlio di Isao Zaiki!
+Dialogue: 0,0:14:43.69,0:14:46.32,Default,,0000,0000,0000,,M-Ma io...
+Dialogue: 0,0:14:46.86,0:14:51.33,Default,,0000,0000,0000,,Ti sei avvicinato a Natsue\N per vendicare tuo padre?
+Dialogue: 0,0:14:51.33,0:14:53.75,Default,,0000,0000,0000,,Ti sei infiltrato nella famiglia Hatamoto
+Dialogue: 0,0:14:53.75,0:14:56.75,Default,,0000,0000,0000,,per trovare l'occasione\N di uccidere Gouzo, giusto?
+Dialogue: 0,0:14:57.25,0:15:01.09,Default,,0000,0000,0000,,E quell'opportunità\N si è finalmente presentata stanotte!
+Dialogue: 0,0:15:02.09,0:15:03.92,Default,,0000,0000,0000,,N-No! Non l'ho ucciso io!
+Dialogue: 0,0:15:07.43,0:15:08.64,Default,,0000,0000,0000,,Natsue, aspetta!
+Dialogue: 0,0:15:10.64,0:15:13.39,Default,,0000,0000,0000,,Pensavo fossi un bravo ragazzo,
+Dialogue: 0,0:15:13.39,0:15:15.68,Default,,0000,0000,0000,,però a quanto pare mi sbagliavo.
+Dialogue: 0,0:15:15.68,0:15:16.89,Default,,0000,0000,0000,,S-Signor Joji...
+Dialogue: 0,0:15:17.48,0:15:20.27,Default,,0000,0000,0000,,Che stupido a perdere il fiore\N sulla scena del delitto.
+Dialogue: 0,0:15:20.90,0:15:22.98,Default,,0000,0000,0000,,L'ho perso da un'altra parte!
+Dialogue: 0,0:15:23.78,0:15:26.44,Italics,,0000,0000,0000,,Ci sono tracce di sangue\N rimossi fuori dalla stanza.
+Dialogue: 0,0:15:26.90,0:15:30.12,Default,,0000,0000,0000,,Senti, ma quel fiore\N era proprio in questo punto?
+Dialogue: 0,0:15:30.12,0:15:32.37,Default,,0000,0000,0000,,Esatto, ragazzino.
+Dialogue: 0,0:15:35.58,0:15:37.08,Italics,,0000,0000,0000,,E questo?
+Dialogue: 0,0:15:38.75,0:15:40.04,Italics,,0000,0000,0000,,È un pezzo di pane!
+Dialogue: 0,0:15:40.58,0:15:43.34,Italics,,0000,0000,0000,,Un pezzo di pane sopra alla scia di sangue?
+Dialogue: 0,0:15:43.34,0:15:44.50,Italics,,0000,0000,0000,,Che vuol dire?
+Dialogue: 0,0:15:45.26,0:15:47.30,Default,,0000,0000,0000,,Senti, signor maggiordomo...
+Dialogue: 0,0:15:48.26,0:15:52.72,Default,,0000,0000,0000,,C'era del pane fra le portate\N del pranzo nuziale di stamattina?
+Dialogue: 0,0:15:53.35,0:15:57.77,Default,,0000,0000,0000,,Credo proprio di sì,\N era un menù di cucina francese.
+Dialogue: 0,0:15:57.77,0:16:02.98,Default,,0000,0000,0000,,A preparare il tutto è stato Joji,\N che gestisce un ristorante di cucina francese.
+Dialogue: 0,0:16:03.15,0:16:04.57,Default,,0000,0000,0000,,E hanno mangiato tutti?
+Dialogue: 0,0:16:04.57,0:16:06.99,Default,,0000,0000,0000,,Sì, tranne Gouzo.
+Dialogue: 0,0:16:07.65,0:16:09.86,Default,,0000,0000,0000,,Lui odiava il cibo occidentale,
+Dialogue: 0,0:16:09.86,0:16:14.33,Default,,0000,0000,0000,,e diceva che solo a guardare il pane,\N gli veniva la nausea.
+Dialogue: 0,0:16:14.33,0:16:18.33,Default,,0000,0000,0000,,Se Joji è uno chef, allora sicuramente\N avrà un coltello da cucina con sé.
+Dialogue: 0,0:16:18.33,0:16:21.67,Default,,0000,0000,0000,,Certo che sì, li usa spesso,\N ovviamente in cucina.
+Dialogue: 0,0:16:22.83,0:16:27.00,Default,,0000,0000,0000,,Dai, giovanotto, i bambini non dovrebbero\N immischiarsi in queste cose!
+Dialogue: 0,0:16:30.09,0:16:30.46,Default,,0000,0000,0000,,Entra qua.
+Dialogue: 0,0:16:31.05,0:16:33.97,Default,,0000,0000,0000,,Rinfrescati un po' le idee in questo magazzino.
+Dialogue: 0,0:16:35.18,0:16:38.47,Default,,0000,0000,0000,,Vi prego, aprite! Non sono stato io!
+Dialogue: 0,0:16:38.85,0:16:40.89,Default,,0000,0000,0000,,Ma chi vuoi prendere in giro, assassino?
+Dialogue: 0,0:16:40.89,0:16:43.86,Default,,0000,0000,0000,,Domani a Tokyo \Nne parlerai con la polizia,
+Dialogue: 0,0:16:43.86,0:16:44.94,Default,,0000,0000,0000,,perciò preparati!
+Dialogue: 0,0:16:45.73,0:16:49.49,Default,,0000,0000,0000,,Direi che ci sono sia le prove\N che l'incentivo, no, signor detective?
+Dialogue: 0,0:16:50.15,0:16:51.99,Default,,0000,0000,0000,,Sicuramente aveva un movente.
+Dialogue: 0,0:16:51.99,0:16:56.79,Default,,0000,0000,0000,,Se dovessimo trovare le sue impronte\N sull'arma del delitto, il caso sarebbe chiuso.
+Dialogue: 0,0:16:57.37,0:16:58.45,Default,,0000,0000,0000,,Ecco a lei.
+Dialogue: 0,0:16:58.45,0:16:59.75,Default,,0000,0000,0000,,Grazie.
+Dialogue: 0,0:17:00.41,0:17:01.96,Default,,0000,0000,0000,,E questo è per te, giovanotto.
+Dialogue: 0,0:17:01.96,0:17:03.21,Default,,0000,0000,0000,,Grazie!
+Dialogue: 0,0:17:03.88,0:17:06.21,Default,,0000,0000,0000,,Che fortuna, vero, zia Mariko?
+Dialogue: 0,0:17:06.59,0:17:09.59,Default,,0000,0000,0000,,Ora che Takeshi ha ucciso il nonno,
+Dialogue: 0,0:17:09.59,0:17:13.21,Default,,0000,0000,0000,,non ci sarà più quello stupido annuncio\N sulla sua eredità!
+Dialogue: 0,0:17:14.68,0:17:16.01,Default,,0000,0000,0000,,Hai ragione.
+Dialogue: 0,0:17:16.01,0:17:17.89,Default,,0000,0000,0000,,Adesso il gruppo Hatamoto sarà tuo,
+Dialogue: 0,0:17:17.97,0:17:20.89,Default,,0000,0000,0000,,visto che sei il marito \Ndella sua figlia più grande!
+Dialogue: 0,0:17:21.64,0:17:25.27,Default,,0000,0000,0000,,E anche tu, Ichiro, potrai disegnare\N quanto vuoi, senza tuo nonno fra i piedi.
+Dialogue: 0,0:17:25.81,0:17:29.23,Default,,0000,0000,0000,,E un giorno sarai tu\N a diventare il capo del gruppo Hatamoto...
+Dialogue: 0,0:17:29.23,0:17:31.49,Default,,0000,0000,0000,,M-Ma non ne ho intenzione...
+Dialogue: 0,0:17:32.03,0:17:35.95,Default,,0000,0000,0000,,Cos'è, vuoi monopolizzare\N l'intera eredità del nonno?
+Dialogue: 0,0:17:36.49,0:17:40.54,Default - Alt,,0000,0000,0000,,Tranquillo, tutti voi nipoti\N avrete la vostra part...
+Dialogue: 0,0:17:39.45,0:17:41.62,Default,,0000,0000,0000,,Dacci un taglio, Mariko.
+Dialogue: 0,0:17:41.62,0:17:43.87,Default,,0000,0000,0000,,Parlare di soldi \Nnella notte in cui è morto...
+Dialogue: 0,0:17:45.17,0:17:49.38,Default,,0000,0000,0000,,Ma che vuoi tu, che hai lasciato\N l'impresa familiare per diventare chef?
+Dialogue: 0,0:17:49.75,0:17:51.76,Default,,0000,0000,0000,,Guarda che io lo so...
+Dialogue: 0,0:17:52.26,0:17:55.30,Default,,0000,0000,0000,,So benissimo che papà si è rifiutato\N di darti i soldi
+Dialogue: 0,0:17:55.30,0:17:57.39,Default,,0000,0000,0000,,per l'apertura del tuo ristorante!
+Dialogue: 0,0:17:59.39,0:18:03.48,Default,,0000,0000,0000,,Li volevi anche tu i soldi, no?\N Allora sii onesto con te stesso.
+Dialogue: 0,0:18:03.48,0:18:04.31,Default,,0000,0000,0000,,Scusate...
+Dialogue: 0,0:18:04.94,0:18:07.90,Default,,0000,0000,0000,,Mi rincresce terribilmente\N comunicarvi questa cosa,
+Dialogue: 0,0:18:07.90,0:18:10.28,Default,,0000,0000,0000,,ma vostro padre \Nha lasciato un testamento
+Dialogue: 0,0:18:10.94,0:18:14.86,Default,,0000,0000,0000,,relativo al da farsi sul patrimonio,\N in caso fosse venuto a mancare.
+Dialogue: 0,0:18:14.86,0:18:16.20,Default,,0000,0000,0000,,Cosa?!
+Dialogue: 0,0:18:16.20,0:18:20.24,Default,,0000,0000,0000,,Credo che verrà letto nei prossimi giorni\N direttamente all'ufficio centrale.
+Dialogue: 0,0:18:20.74,0:18:22.33,Default,,0000,0000,0000,,Q-Quindi vuol dire che...
+Dialogue: 0,0:18:22.33,0:18:23.33,Default,,0000,0000,0000,,...tutto il patrimonio...
+Dialogue: 0,0:18:24.66,0:18:26.29,Default,,0000,0000,0000,,...andrà a Natsue?!
+Dialogue: 0,0:18:26.75,0:18:27.63,Default,,0000,0000,0000,,Esatto.
+Dialogue: 0,0:18:27.63,0:18:32.01,Default,,0000,0000,0000,,E il gruppo Hatamoto verrà affidato \Nalla persona che sceglierà Natsue.
+Dialogue: 0,0:18:32.96,0:18:34.17,Default,,0000,0000,0000,,N-Non può essere...
+Dialogue: 0,0:18:34.84,0:18:39.64,Default,,0000,0000,0000,,Cosa?! E allora per quale motivo\N mi sono sposato con Akie?!
+Dialogue: 0,0:18:40.26,0:18:43.85,Default,,0000,0000,0000,,Non mi avrai mica sposata\N solo per mettere le mani sui soldi?!
+Dialogue: 0,0:18:44.18,0:18:45.73,Default,,0000,0000,0000,,Certo che sì!
+Dialogue: 0,0:18:45.73,0:18:49.11,Default,,0000,0000,0000,,Altrimenti chi se ne starebbe\N con una tirchia maledetta come te?!
+Dialogue: 0,0:18:49.73,0:18:52.57,Default,,0000,0000,0000,,Ma da che pulpito! \NHa parlato il musicista fallito!
+Dialogue: 0,0:18:52.57,0:18:53.99,Default,,0000,0000,0000,,Trovati un vero lavoro!
+Dialogue: 0,0:19:01.95,0:19:02.87,Default,,0000,0000,0000,,Natsue?
+Dialogue: 0,0:19:03.70,0:19:06.16,Default,,0000,0000,0000,,Che ci fai, qui fuori?
+Dialogue: 0,0:19:07.17,0:19:10.38,Default,,0000,0000,0000,,Niente, stavo solo pensando.
+Dialogue: 0,0:19:13.00,0:19:14.30,Default,,0000,0000,0000,,Pensavi a Takeshi?
+Dialogue: 0,0:19:17.55,0:19:19.22,Default,,0000,0000,0000,,Io mi fidavo di lui...
+Dialogue: 0,0:19:20.14,0:19:22.51,Default,,0000,0000,0000,,Mi fidavo di Takeshi...
+Dialogue: 0,0:19:24.81,0:19:29.69,Default,,0000,0000,0000,,Come potevo immaginarmi \Nche volesse sposarmi solo per vendicarsi?
+Dialogue: 0,0:19:30.06,0:19:33.82,Default,,0000,0000,0000,,Ormai non riuscirò più a fidarmi di nessuno!
+Dialogue: 0,0:19:39.78,0:19:41.41,Default,,0000,0000,0000,,Io gli credo.
+Dialogue: 0,0:19:44.74,0:19:49.54,Default,,0000,0000,0000,,È solo una mia sensazione,\N ma Takeshi non mi sembra una cattiva persona.
+Dialogue: 0,0:19:49.54,0:19:51.50,Default,,0000,0000,0000,,D'altra parte l'hai scelto tu, no?
+Dialogue: 0,0:19:52.29,0:19:53.96,Default,,0000,0000,0000,,Non può essere così malvagio!
+Dialogue: 0,0:19:55.51,0:19:56.42,Default,,0000,0000,0000,,Ran...
+Dialogue: 0,0:19:59.84,0:20:01.01,Default,,0000,0000,0000,,Ehi, ma cosa...
+Dialogue: 0,0:20:02.18,0:20:05.22,Default,,0000,0000,0000,,Ehi, non avete sentito dei rumori strani?
+Dialogue: 0,0:20:06.43,0:20:07.98,Default,,0000,0000,0000,,Hai sentito qualcosa, Natsue?
+Dialogue: 0,0:20:07.98,0:20:09.31,Default,,0000,0000,0000,,No, niente...
+Dialogue: 0,0:20:09.89,0:20:12.06,Italics,,0000,0000,0000,,Non me lo sono immaginato.
+Dialogue: 0,0:20:12.06,0:20:13.86,Italics,,0000,0000,0000,,Prima qualcosa è caduto in acqua
+Dialogue: 0,0:20:13.86,0:20:15.82,Italics,,0000,0000,0000,,e poi c'è stato un inquietante rumore sordo.
+Dialogue: 0,0:20:15.82,0:20:16.99,Italics,,0000,0000,0000,,Venivano dal ponte!
+Dialogue: 0,0:20:18.53,0:20:19.45,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:20:20.20,0:20:22.62,Default,,0000,0000,0000,,Aspetta, Conan! Dove vai?
+Dialogue: 0,0:20:27.04,0:20:29.12,Default,,0000,0000,0000,,Fermi, ma che vi prende?
+Dialogue: 0,0:20:38.80,0:20:40.38,Default,,0000,0000,0000,,Credo che la causa della morte
+Dialogue: 0,0:20:40.38,0:20:42.59,Default,,0000,0000,0000,,sia un'emorragia interna \Na seguito di un trauma.
+Dialogue: 0,0:20:42.59,0:20:43.85,Default,,0000,0000,0000,,A giudicare dalla ferita,
+Dialogue: 0,0:20:43.85,0:20:46.64,Default,,0000,0000,0000,,l'arma del delitto\N potrebbe essere un tubo di ferro.
+Dialogue: 0,0:20:46.97,0:20:49.56,Default,,0000,0000,0000,,C-Chi potrebbe aver fatto\N una cosa tanto crudele?
+Dialogue: 0,0:20:49.89,0:20:52.06,Default,,0000,0000,0000,,N-Non sarà stato di nuovo Takeshi?!
+Dialogue: 0,0:20:52.06,0:20:54.06,Default,,0000,0000,0000,,Impossibile, è chiuso in quel magazzino.
+Dialogue: 0,0:20:54.98,0:20:56.19,Default,,0000,0000,0000,,Ehi, Conan!
+Dialogue: 0,0:21:00.24,0:21:01.15,Default,,0000,0000,0000,,La porta è aperta!
+Dialogue: 0,0:21:01.40,0:21:02.16,Default,,0000,0000,0000,,Spostati!
+Dialogue: 0,0:21:05.95,0:21:06.91,Default,,0000,0000,0000,,Non c'è!
+Dialogue: 0,0:22:43.26,0:22:44.63,Default,,0000,0000,0000,,Non era nel magazzino?!
+Dialogue: 0,0:22:45.05,0:22:49.10,Default,,0000,0000,0000,,L'avevamo rinchiuso chiudento il chiavistello,\N ma lì dentro non c'era.
+Dialogue: 0,0:22:49.64,0:22:56.31,Default,,0000,0000,0000,,Quindi è stato davvero Takeshi\N a uccidere mio padre e Tatsuo!
+Dialogue: 0,0:22:57.23,0:22:59.56,Default,,0000,0000,0000,,Il rumore che ha sentito Conan
+Dialogue: 0,0:22:59.56,0:23:02.28,Default,,0000,0000,0000,,era probabilmente causato \Ndal colpo inferto a Tatsuo.
+Dialogue: 0,0:23:03.07,0:23:08.11,Default,,0000,0000,0000,,Invece, la cosa che ha sentito cadere in acqua,\N poteva essere l'arma del delitto, oppure...
+Dialogue: 0,0:23:09.20,0:23:12.45,Default,,0000,0000,0000,,Lo stesso assassino che \Nsi è gettato in mare dopo aver capito
+Dialogue: 0,0:23:12.45,0:23:13.87,Default,,0000,0000,0000,,di non avere via di scampo.
+Dialogue: 0,0:23:15.08,0:23:16.33,Default,,0000,0000,0000,,Takeshi...
+Dialogue: 0,0:23:16.96,0:23:21.59,Default,,0000,0000,0000,,Ad ogni modo, la possibilità\N che l'assassino sia ancora a bordo è alta.
+Dialogue: 0,0:23:21.59,0:23:24.80,Default,,0000,0000,0000,,Perciò per ora torniamocene tutti\N in sala da pranzo.
+Dialogue: 0,0:23:25.38,0:23:28.26,Default,,0000,0000,0000,,Stai dicendo che Takeshi\N vuole uccidere anche me?!
+Dialogue: 0,0:23:28.97,0:23:30.39,Default,,0000,0000,0000,,Te ne sei dimenticata?
+Dialogue: 0,0:23:30.39,0:23:32.60,Default,,0000,0000,0000,,Il movente che c'è dietro i suoi crimini
+Dialogue: 0,0:23:32.60,0:23:37.10,Default,,0000,0000,0000,,è la vendetta verso Gouzo Hatamoto,\N che ha spinto suo padre al suicidio 10 anni fa!
+Dialogue: 0,0:23:37.10,0:23:39.23,Default,,0000,0000,0000,,Potrebbe anche darsi che...
+Dialogue: 0,0:23:39.71,0:23:44.19,Default,,0000,0000,0000,,...abbia intenzione di massacrare\N l'intera famiglia Hatamoto!
+Dialogue: 0,0:24:01.41,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs23\b0\c&HCCEEEC&\fnArial\pos(265.27,286)}Fra poco l'indizio del prossimo caso
+Dialogue: 1,0:24:01.41,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs23\b0\c&HFFFFFF&\fnArial\pos(265.27,286)}Fra poco l'indizio del prossimo caso
+Dialogue: 0,0:24:01.41,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HCCEEEC&\fnArial\pos(160.064,94.933)}Anteprima
+Dialogue: 1,0:24:01.41,0:24:25.44,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HFFFFFF&\fnArial\pos(160.064,94.933)}Anteprima
+Dialogue: 0,0:24:01.87,0:24:06.38,Default,,0000,0000,0000,,{\pos(264,352)}Io so benissimo che tu hai un altro uomo!
+Dialogue: 0,0:24:06.38,0:24:09.76,Default,,0000,0000,0000,,{\pos(264,352)}Sei quella che vuole di più di tutti l'eredità!
+Dialogue: 0,0:24:10.42,0:24:12.76,Default,,0000,0000,0000,,{\pos(264,352)}E persino Ichiro lo odiava
+Dialogue: 0,0:24:12.76,0:24:15.47,Default,,0000,0000,0000,,{\pos(264,352)}per aver distrutto un suo disegno premiato!
+Dialogue: 0,0:24:16.43,0:24:17.43,Default,,0000,0000,0000,,{\pos(264,352)}Ichiro!
+Dialogue: 0,0:24:18.72,0:24:19.60,Default,,0000,0000,0000,,{\pos(264,352)}La mia gamba!
+Dialogue: 0,0:24:19.60,0:24:21.31,Default,,0000,0000,0000,,{\pos(264,352)}Questo è il mio coltello...
+Dialogue: 0,0:24:22.44,0:24:25.44,Italics,,0000,0000,0000,,{\pos(264,352)}Tutti questi misteri sono collegati!
+Dialogue: 1,0:24:25.44,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\blur1\bord0.1\c&HDDFFFD&\fs20\pos(264.15,208.711)}Il caso delle uccisioni \N\N\N\Nsulla crociera di lusso {\fs15}(seconda parte)
+Dialogue: 0,0:24:25.44,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\fs20\blur2\bord0.1\c&HDDFFFD&\3c&H7EAEB1&\pos(264.15,208.711)}Il caso delle uccisioni \N\N\N\Nsulla crociera di lusso {\fs15}(seconda parte)
+Dialogue: 0,0:24:26.44,0:24:27.73,Italics,,0000,0000,0000,,Nel prossimo episodio di Conan...
+Dialogue: 0,0:24:27.73,0:24:30.90,Italics,,0000,0000,0000,,"Il caso delle uccisioni \Nsulla crociera di lusso, seconda parte".
+Dialogue: 0,0:24:47.21,0:24:49.42,Default,,0000,0000,0000,,{\pos(264,347.385)}Prossimo indizio per Conan:
+Dialogue: 0,0:24:49.42,0:24:51.49,Default,,0000,0000,0000,,{\pos(264,347.385)}Blocco da disegno.
+Dialogue: 0,0:24:51.49,0:24:57.01,Cartello BASE,,0000,0000,0000,,{\blur0.6\pos(264.58,272.8)}Non perdetevi il prossimo episodio
+Dialogue: 1,0:24:51.49,0:24:57.01,Cartello BASE,,0000,0000,0000,,{\blur0\c&HDFDFDF&\pos(264.58,272.8)}Non perdetevi il prossimo episodio
+Dialogue: 0,0:24:52.37,0:24:54.78,Default,,0000,0000,0000,,Il prossimo episodio sarà interessante fin dalla opening!
+Dialogue: 0,0:24:54.78,0:24:56.32,Default,,0000,0000,0000,,Figo!

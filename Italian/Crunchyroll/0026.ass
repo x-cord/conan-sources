@@ -1,0 +1,407 @@
+[Script Info]
+Title: Italiano
+Original Script: cr_it  [http://www.crunchyroll.com/user/cr_it]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 528
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: OS,Arial,18,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0001,0001,0015,0
+Style: On Top,Arial,20,&H00FFFFFF,&H0000FFFF,&H00000000,&H7F404040,-1,0,0,0,75,100,0,0,1,2,1,8,0017,0017,0022,0
+Style: Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Default - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Flashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Flashback - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Flashback Italics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,2,0008,0008,0020,1
+Style: Flashback Italics - Alt,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00542603,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0008,0008,0020,1
+Style: Cartello BASE,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0008,0008,0010,1
+Style: Titolo episodio,Verdana,25,&H00D0B193,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,180,0,0,1,0,0,2,0008,0008,0010,1
+Style: sign_4892_37_Masayoshi_Sakagu,Trebuchet MS,13,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,350.4,1,0,0,2,0125,0275,0233,1
+Style: sign_23091_202_Agenzia_investig,Times New Roman,13,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,17.08,1,0,0,2,0246,0122,0271,1
+Style: sign_25207_225_Stazione_di_poli,Verdana,19,&H00163256,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,2,0000,0246,0303,1
+Style: sign_27225_238_Agenzia_investig,Times New Roman,15,&H00000000,&H000000FF,&H00E0D5C1,&H00000000,0,0,0,0,100,100,0,25.44,1,1,0,2,0227,0115,0277,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:01.21,0:00:02.75,Default,,0000,0000,0000,,Il mio nome è Conan Edogawa!
+Dialogue: 0,0:00:02.75,0:00:05.67,Default,,0000,0000,0000,,Sono il liceale Shinichi, \Nrimpicciolito da una pillola.
+Dialogue: 0,0:00:05.67,0:00:08.25,Default,,0000,0000,0000,,Anche se piccolo, \Nho il cervello di un grande detective.
+Dialogue: 0,0:00:08.25,0:00:10.26,Default,,0000,0000,0000,,Il caso di oggi riguarda il cane John,
+Dialogue: 0,0:00:10.26,0:00:12.18,Default,,0000,0000,0000,,un pastore tedesco amato da tutti!
+Dialogue: 0,0:00:12.18,0:00:15.51,Default,,0000,0000,0000,,I cani non possono parlare, \Nma la verità è sempre una sola!
+Dialogue: 1,0:01:46.00,0:01:52.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur1\bord0.1\pos(258.852,113.429)\c&HDAC2BC&}Il {*\c&HD9C3BD&}ca{*\c&HD9C3BE&}s{*\c&HD8C4BE&}o {*\c&HD8C4BF&}d{*\c&HD7C5BF&}el {*\c&HD7C5C0&}c{*\c&HD6C6C0&}a{*\c&HD6C6C1&}ne {*\c&HD5C7C2&}Joh{*\c&HD4C8C3&}n{\c&HD4C8C3&}
+Dialogue: 0,0:01:46.08,0:01:52.09,Titolo episodio,,0000,0000,0000,,{\fad(700,0)\blur1\bord0.1\pos(258.852,113.429)\c&HDAC2BC&}Il caso del cane John
+Dialogue: 0,0:01:46.92,0:01:49.46,Italics,,0000,0000,0000,,"Il caso del cane John".
+Dialogue: 0,0:01:52.47,0:01:53.55,Default,,0000,0000,0000,,John!
+Dialogue: 0,0:01:53.55,0:01:55.05,Default,,0000,0000,0000,,Ehi, John!
+Dialogue: 0,0:01:55.05,0:01:57.01,Default,,0000,0000,0000,,John!
+Dialogue: 0,0:01:57.01,0:01:58.51,Default,,0000,0000,0000,,Vieni qui, John!
+Dialogue: 0,0:02:01.89,0:02:03.56,Default,,0000,0000,0000,,Eccolo!
+Dialogue: 0,0:02:03.56,0:02:05.35,Default,,0000,0000,0000,,John, quanto sei carino!
+Dialogue: 0,0:02:05.35,0:02:07.56,Default,,0000,0000,0000,,Quanti anni avrà ora?
+Dialogue: 0,0:02:07.56,0:02:10.69,Default,,0000,0000,0000,,Quando ero bambino era ancora un cucciolo.
+Dialogue: 0,0:02:10.69,0:02:12.77,Default,,0000,0000,0000,,Quindi ne avrà più o meno otto...
+Dialogue: 0,0:02:12.77,0:02:14.74,Default,,0000,0000,0000,,Di che stai parlando, Conan?
+Dialogue: 0,0:02:16.53,0:02:18.20,Default,,0000,0000,0000,,Ah no, niente!
+Dialogue: 0,0:02:18.20,0:02:20.70,Italics,,0000,0000,0000,,Accidenti!
+Dialogue: 0,0:02:21.45,0:02:25.54,Italics,,0000,0000,0000,,John, ora non sono più\N il liceale Shinichi Kudo,
+Dialogue: 0,0:02:25.54,0:02:27.96,Default,,0000,0000,0000,,ma l'alunno delle elementari \NConan Edogawa.
+Dialogue: 0,0:02:29.63,0:02:31.17,Default,,0000,0000,0000,,Oh, siete voi!
+Dialogue: 0,0:02:31.17,0:02:32.96,Default,,0000,0000,0000,,Buon pomeriggio!
+Dialogue: 0,0:02:32.96,0:02:34.38,Default,,0000,0000,0000,,Siamo di nuovo qui!
+Dialogue: 0,0:02:35.05,0:02:36.18,Default,,0000,0000,0000,,Non fa niente!
+Dialogue: 0,0:02:36.18,0:02:38.22,Default,,0000,0000,0000,,Forza, entrate!
+Dialogue: 0,0:02:38.22,0:02:39.39,Default,,0000,0000,0000,,Va bene!
+Dialogue: 1,0:02:40.68,0:02:43.14,Cartello BASE,,0000,0000,0000,,{\fad(200,185)\b1\c&HCBCDB8&\pos(262.067,326.667)}Alcuni giorni dopo
+Dialogue: 0,0:02:43.89,0:02:46.27,Default,,0000,0000,0000,,Da quanto tempo non mangiavamo fuori!
+Dialogue: 0,0:02:46.27,0:02:48.35,Default,,0000,0000,0000,,Era ottimo quel ristorante.
+Dialogue: 0,0:02:49.44,0:02:52.31,Default,,0000,0000,0000,,Guardate, questa è la casa del cane John!
+Dialogue: 0,0:02:53.07,0:02:54.82,Default,,0000,0000,0000,,La conosco!
+Dialogue: 0,0:02:54.82,0:02:58.45,Default,,0000,0000,0000,,Shinichi si fermava spesso qui\N al ritorno da scuola, alle elementari.
+Dialogue: 0,0:02:58.45,0:03:02.03,Default,,0000,0000,0000,,Teneva sempre da parte del pane \Ne lo dava a quel cane.
+Dialogue: 0,0:03:02.03,0:03:10.50,sign_4892_37_Masayoshi_Sakagu,,0000,0000,0000,,{\fax0.2\pos(212.467,127.889)\frz348.4}Masayoshi Sakaguchi
+Dialogue: 0,0:03:02.99,0:03:05.16,Default,,0000,0000,0000,,Masayoshi Sakaguchi?
+Dialogue: 0,0:03:05.16,0:03:07.92,Default,,0000,0000,0000,,Ho già sentito questo nome \Nda qualche parte...
+Dialogue: 0,0:03:07.92,0:03:09.63,Default,,0000,0000,0000,,Ha detto di essere avvocato.
+Dialogue: 0,0:03:09.63,0:03:10.50,Default,,0000,0000,0000,,Ah, sì.
+Dialogue: 0,0:03:11.13,0:03:16.30,Default,,0000,0000,0000,,È un famoso avvocato\N che si occupa di reati minorili.
+Dialogue: 0,0:03:16.30,0:03:17.59,Default,,0000,0000,0000,,Papà, senti.
+Dialogue: 0,0:03:17.59,0:03:21.85,Default,,0000,0000,0000,,Non era in questa casa \Nche uno studente delle medie si è suicidato
+Dialogue: 0,0:03:21.85,0:03:24.60,Default,,0000,0000,0000,,quando io ero in terza elementare?
+Dialogue: 0,0:03:28.94,0:03:30.31,Default,,0000,0000,0000,,Cos'è stato?!
+Dialogue: 0,0:03:33.19,0:03:35.02,Default,,0000,0000,0000,,Ehi! Cosa succede?!
+Dialogue: 0,0:03:37.86,0:03:38.86,Default,,0000,0000,0000,,Che è successo?!
+Dialogue: 0,0:03:38.86,0:03:40.45,Default,,0000,0000,0000,,Il cane! Il cane!
+Dialogue: 0,0:03:40.45,0:03:41.53,Default,,0000,0000,0000,,Cosa è successo a John?!
+Dialogue: 0,0:03:41.53,0:03:43.11,Default,,0000,0000,0000,,È saltato addosso a Takeshi!
+Dialogue: 0,0:03:45.41,0:03:46.74,Default,,0000,0000,0000,,Conan!
+Dialogue: 0,0:03:54.63,0:03:55.34,Default,,0000,0000,0000,,Fermo!
+Dialogue: 0,0:03:55.42,0:03:57.17,Default,,0000,0000,0000,,Togliti di mezzo, non dare fastidio!
+Dialogue: 0,0:04:03.80,0:04:05.47,Default,,0000,0000,0000,,John! Sono io, John!
+Dialogue: 0,0:04:13.98,0:04:15.77,Default,,0000,0000,0000,,Mi fai il solletico, John!
+Dialogue: 0,0:04:15.77,0:04:18.32,Italics,,0000,0000,0000,,Pronto? Che succede, Takeshi?!
+Dialogue: 0,0:04:18.32,0:04:19.11,Italics,,0000,0000,0000,,Pronto?!
+Dialogue: 0,0:04:19.11,0:04:20.99,Default,,0000,0000,0000,,Signore, sono Conan!
+Dialogue: 0,0:04:20.99,0:04:22.62,Italics,,0000,0000,0000,,Eh? Conan?!
+Dialogue: 0,0:04:22.62,0:04:24.33,Default,,0000,0000,0000,,Dove sei ora?!
+Dialogue: 0,0:04:24.33,0:04:26.79,Default,,0000,0000,0000,,Sono andato a Izu per lavoro.
+Dialogue: 0,0:04:26.79,0:04:29.79,Default,,0000,0000,0000,,Ho sentito Takeshi gridare. Cosa è...
+Dialogue: 0,0:04:33.46,0:04:36.92,Default,,0000,0000,0000,,Signore, torna subito a casa! \NJohn ha combinato un guaio serio!
+Dialogue: 0,0:04:42.55,0:04:46.22,Default,,0000,0000,0000,,La vittima è Takeshi Maehara, \Nventidue anni.
+Dialogue: 0,0:04:46.22,0:04:48.81,Default,,0000,0000,0000,,È uno studente universitario, \Nche vive qui accanto.
+Dialogue: 0,0:04:48.81,0:04:51.27,Default,,0000,0000,0000,,Il signor Sakaguchi \Ngli ha affidato la casa mentre è via.
+Dialogue: 0,0:04:51.27,0:04:52.31,Default,,0000,0000,0000,,Sì, esatto.
+Dialogue: 0,0:04:52.31,0:04:57.94,Default,,0000,0000,0000,,E poi Takeshi ha invitato lei,\N Sanae Sugita, per passare il tempo.
+Dialogue: 0,0:04:58.36,0:05:02.15,Default,,0000,0000,0000,,Allora, ci dica cos'è successo esattamente.
+Dialogue: 0,0:05:03.24,0:05:04.99,Default,,0000,0000,0000,,Sì...
+Dialogue: 0,0:05:04.99,0:05:08.08,Default,,0000,0000,0000,,Sono arrivata intorno alle otto.
+Dialogue: 0,0:05:12.83,0:05:15.63,Flashback,,0000,0000,0000,,Non ho mai visto un soggiorno così grande!
+Dialogue: 0,0:05:15.63,0:05:17.04,Flashback,,0000,0000,0000,,Sei contenta di essere venuta?
+Dialogue: 0,0:05:17.04,0:05:18.88,Flashback,,0000,0000,0000,,Contentissima!
+Dialogue: 0,0:05:20.42,0:05:21.17,Flashback,,0000,0000,0000,,Cavolo!
+Dialogue: 0,0:05:24.05,0:05:26.09,Flashback,,0000,0000,0000,,Uffa, avevo appena iniziato a divertirmi!
+Dialogue: 0,0:05:28.60,0:05:30.05,Flashback,,0000,0000,0000,,Pronto, casa Sakaguchi.
+Dialogue: 0,0:05:30.05,0:05:32.52,Flashback,,0000,0000,0000,,Ah, signor Sakaguchi.
+Dialogue: 0,0:05:32.52,0:05:34.60,Flashback,,0000,0000,0000,,No, nessun problema.
+Dialogue: 0,0:05:34.60,0:05:36.98,Flashback,,0000,0000,0000,,Come? John?
+Dialogue: 0,0:05:37.61,0:05:40.19,Flashback,,0000,0000,0000,,È in cima alle scale, \Nsta facendo il bravo.
+Dialogue: 0,0:05:40.82,0:05:43.11,Flashback,,0000,0000,0000,,Eh? Le devo passare John?
+Dialogue: 0,0:05:43.32,0:05:44.28,Flashback,,0000,0000,0000,,Va bene.
+Dialogue: 0,0:05:44.95,0:05:47.37,Flashback,,0000,0000,0000,,John! Ehi, John!
+Dialogue: 0,0:05:48.28,0:05:50.04,Flashback,,0000,0000,0000,,E vabbè.
+Dialogue: 0,0:06:06.09,0:06:08.01,Flashback,,0000,0000,0000,,C'è il tuo padrone qua.
+Dialogue: 0,0:06:24.45,0:06:26.61,Default,,0000,0000,0000,,E poi siamo arrivati noi...
+Dialogue: 0,0:06:26.61,0:06:29.28,Default,,0000,0000,0000,,Ma perché il cane \Navrebbe attaccato all'improvviso?
+Dialogue: 0,0:06:29.28,0:06:30.91,Default,,0000,0000,0000,,Non ne ho idea!
+Dialogue: 0,0:06:30.91,0:06:33.95,Default,,0000,0000,0000,,A me sembra che abbia attaccato Takeshi \Nsenza alcun motivo!
+Dialogue: 0,0:06:33.95,0:06:37.41,Default,,0000,0000,0000,,Impossibile! John non attaccherebbe  \Nsenza motivo!
+Dialogue: 0,0:06:37.41,0:06:40.04,Default,,0000,0000,0000,,Ma Takeshi non ha fatto nulla!
+Dialogue: 0,0:06:40.63,0:06:43.25,Default,,0000,0000,0000,,Ispettore, cosa ne sarà del cane?
+Dialogue: 0,0:06:43.25,0:06:45.47,Default,,0000,0000,0000,,È presto per le conclusioni,
+Dialogue: 0,0:06:45.47,0:06:49.47,Default,,0000,0000,0000,,ma se davvero, come dice lei, \Nha attaccato una persona senza ragione,
+Dialogue: 0,0:06:49.47,0:06:51.30,Default,,0000,0000,0000,,probabilmente dovrà essere soppresso.
+Dialogue: 0,0:06:51.81,0:06:54.51,Default,,0000,0000,0000,,Soppresso? Lo uccideranno?!
+Dialogue: 0,0:06:55.14,0:06:58.73,Default,,0000,0000,0000,,Come prima cosa, \Ndevo sentire il signor Sakaguchi...
+Dialogue: 0,0:07:06.49,0:07:08.82,Italics,,0000,0000,0000,,"Studente di prima media muore suicida".
+Dialogue: 0,0:07:08.82,0:07:10.36,Italics,,0000,0000,0000,,"La causa potrebbe essere il bullismo".
+Dialogue: 0,0:07:10.36,0:07:13.49,Italics,,0000,0000,0000,,"...Masato subiva bullismo \Nda un compagno di classe".
+Dialogue: 0,0:07:13.49,0:07:15.58,Italics,,0000,0000,0000,,Non dice il nome \No altri dettagli del bullo!
+Dialogue: 0,0:07:16.29,0:07:18.92,Italics,,0000,0000,0000,,John è un cane ben addestrato,
+Dialogue: 0,0:07:18.92,0:07:21.63,Italics,,0000,0000,0000,,non attaccherebbe mai senza motivo.
+Dialogue: 0,0:07:21.63,0:07:22.12,Italics,,0000,0000,0000,,Un momento!
+Dialogue: 0,0:07:23.38,0:07:27.59,Italics,,0000,0000,0000,,{\fad(0,690)}John ha attaccato la vittima subito dopo\N che gli ha accostato il telefono all'orecchio.
+Dialogue: 0,0:07:28.30,0:07:32.85,Italics,,0000,0000,0000,,E se il signor Sakaguchi gli avesse ordinato \Nper telefono di attaccare?
+Dialogue: 0,0:07:32.85,0:07:36.81,Italics,,0000,0000,0000,,Ma quell'uomo così gentile \Npotrebbe davvero fare una cosa del genere?
+Dialogue: 0,0:07:40.40,0:07:42.10,Default,,0000,0000,0000,,Dov'è John, ispettore?!
+Dialogue: 0,0:07:42.52,0:07:44.90,Default,,0000,0000,0000,,Non l'avrete già addormentato, vero?!
+Dialogue: 0,0:07:44.90,0:07:46.78,Default,,0000,0000,0000,,Non preoccuparti!
+Dialogue: 0,0:07:46.78,0:07:49.41,Default,,0000,0000,0000,,Per ora è sotto custodia della polizia,
+Dialogue: 0,0:07:49.41,0:07:51.07,Default,,0000,0000,0000,,ma non è stato ancora deciso niente.
+Dialogue: 0,0:07:52.87,0:07:56.25,Default,,0000,0000,0000,,Allora, ispettore. Che ha detto Sakaguchi?
+Dialogue: 0,0:07:56.25,0:07:59.54,Default,,0000,0000,0000,,Dice che non riesce a credere\N che John abbia attaccato qualcuno.
+Dialogue: 0,0:07:59.54,0:08:02.87,Default,,0000,0000,0000,,Neanche io!\NDi sicuro c'è una ragione...
+Dialogue: 0,0:08:02.87,0:08:05.42,Default,,0000,0000,0000,,Sta' zitto un po'.
+Dialogue: 0,0:08:05.42,0:08:07.09,Default,,0000,0000,0000,,Prego, ispettore.
+Dialogue: 0,0:08:07.59,0:08:12.85,Default,,0000,0000,0000,,Comunque ho chiesto a Sakaguchi \Ndel contenuto della telefonata...
+Dialogue: 0,0:08:14.01,0:08:17.30,Flashback,,0000,0000,0000,,Anzitutto, cos'ha detto \Nalla vittima al telefono?
+Dialogue: 0,0:08:18.81,0:08:22.10,Flashback,,0000,0000,0000,,Gli ho chiesto se fosse tutto a posto \Ne come stava John.
+Dialogue: 0,0:08:22.10,0:08:24.77,Flashback,,0000,0000,0000,,Poi gli ho chiesto di farmi parlare con John.
+Dialogue: 0,0:08:25.19,0:08:26.73,Flashback,,0000,0000,0000,,Come mai?
+Dialogue: 0,0:08:27.28,0:08:31.20,Flashback,,0000,0000,0000,,Gli auguro sempre la buonanotte, \Nquindi volevo farlo anche ieri.
+Dialogue: 0,0:08:31.20,0:08:33.12,Flashback,,0000,0000,0000,,Quindi gli ha dato la buonanotte?
+Dialogue: 0,0:08:33.12,0:08:38.28,Flashback,,0000,0000,0000,,Prima credo di avergli chiesto: \N"Come stai, John? Tutto bene, John?"
+Dialogue: 0,0:08:38.28,0:08:44.00,Flashback,,0000,0000,0000,,Poi all'improvviso ho sentito \N John abbaiare e Takeshi urlare...
+Dialogue: 0,0:08:45.46,0:08:48.29,Default,,0000,0000,0000,,Non ha detto nient'altro?
+Dialogue: 0,0:08:48.29,0:08:50.13,Default,,0000,0000,0000,,Precisamente.
+Dialogue: 0,0:08:50.13,0:08:53.76,Default,,0000,0000,0000,,Anche la ragazza che era lì con Takeshi \Nha riferito la stessa cosa.
+Dialogue: 0,0:08:53.76,0:08:55.89,Default,,0000,0000,0000,,Ran, e quella storia di cui parlavi ieri?
+Dialogue: 0,0:08:55.89,0:08:56.31,Default,,0000,0000,0000,,Cosa?
+Dialogue: 0,0:08:56.31,0:09:00.02,Default,,0000,0000,0000,,Il figlio di Sakaguchi \Nche si è suicidato tempo fa.
+Dialogue: 0,0:09:00.48,0:09:01.56,Default,,0000,0000,0000,,Ah, è vero.
+Dialogue: 0,0:09:02.19,0:09:05.36,Default,,0000,0000,0000,,Gliel'ho chiesto alla stazione di polizia.
+Dialogue: 0,0:09:05.36,0:09:07.35,Default,,0000,0000,0000,,Fu a causa del bullismo di un compagno.
+Dialogue: 0,0:09:07.86,0:09:13.49,Default,,0000,0000,0000,,Forse il bullo del figlio di Sakaguchi \Nera Takeshi Maehara, la vittima di ieri!
+Dialogue: 0,0:09:14.07,0:09:16.20,Default,,0000,0000,0000,,Il problema è quel "forse".
+Dialogue: 0,0:09:16.74,0:09:17.91,Italics,,0000,0000,0000,,Come pensavo.
+Dialogue: 0,0:09:17.91,0:09:21.50,Default,,0000,0000,0000,,L'ho chiesto direttamente a Sakaguchi.
+Dialogue: 0,0:09:21.50,0:09:24.04,Default,,0000,0000,0000,,Suo figlio Masato e Takeshi Maehara
+Dialogue: 0,0:09:24.04,0:09:25.63,Default,,0000,0000,0000,,erano compagni di classe alle medie.
+Dialogue: 0,0:09:26.50,0:09:30.13,Default,,0000,0000,0000,,Masato scrisse di Takeshi nel suo diario
+Dialogue: 0,0:09:30.13,0:09:32.09,Default,,0000,0000,0000,,poco prima di impiccarsi nella sua stanza.
+Dialogue: 0,0:09:32.97,0:09:37.64,Default,,0000,0000,0000,,Sakaguchi, dopo aver letto il diario,\N provò rancore nei confronti di Takeshi.
+Dialogue: 0,0:09:37.64,0:09:42.56,Default,,0000,0000,0000,,Dalla morte prematura della moglie,\N Masato era tutta la sua famiglia.
+Dialogue: 0,0:09:43.27,0:09:46.77,Default,,0000,0000,0000,,Ma quando ha visto Takeshi\N chiedere perdono in lacrime al funerale,
+Dialogue: 0,0:09:46.77,0:09:48.52,Default,,0000,0000,0000,,{\fad(0,690)}ha deciso di perdonarlo.
+Dialogue: 0,0:09:49.07,0:09:52.65,Default,,0000,0000,0000,,Takeshi era l'unico che sottoponeva Masato \Nad atti di bullismo?
+Dialogue: 0,0:09:53.15,0:09:54.32,Default,,0000,0000,0000,,A quanto pare.
+Dialogue: 0,0:09:54.32,0:09:57.62,Default,,0000,0000,0000,,Poco tempo dopo,\N Takeshi si è trasferito in Kansai
+Dialogue: 0,0:09:57.62,0:09:59.16,Default,,0000,0000,0000,,per via del lavoro del padre.
+Dialogue: 0,0:09:59.95,0:10:04.54,Default,,0000,0000,0000,,Poi due anni fa è tornato a Tokyo\N per frequentare qui l'università.
+Dialogue: 0,0:10:04.54,0:10:07.42,Default,,0000,0000,0000,,Si è trasferito nel condominio \Nvicino casa di Sakaguchi
+Dialogue: 0,0:10:07.42,0:10:08.71,Default,,0000,0000,0000,,quest'anno in primavera.
+Dialogue: 0,0:10:09.67,0:10:12.84,Default,,0000,0000,0000,,Un vero scherzo del destino.
+Dialogue: 0,0:10:13.47,0:10:17.14,Default,,0000,0000,0000,,Anche Sakaguchi pare sia rimasto sorpreso \Nda questo incontro inaspettato.
+Dialogue: 0,0:10:17.14,0:10:20.55,Default,,0000,0000,0000,,Ma ormai non provava più risentimenti\N  nei confronti di Takeshi.
+Dialogue: 0,0:10:20.97,0:10:25.52,Default,,0000,0000,0000,,{\fad(0,760)}A volte lo invitava anche a mangiare da lui.
+Dialogue: 0,0:10:26.02,0:10:30.11,Default,,0000,0000,0000,,Ma se avesse comunque \Nprovato rancore verso Takeshi...
+Dialogue: 0,0:10:30.40,0:10:31.94,Default,,0000,0000,0000,,Cosa vorresti dire?
+Dialogue: 0,0:10:31.94,0:10:37.03,Default,,0000,0000,0000,,Che Sakaguchi in segreto \Npotrebbe aver addestrato John ad attaccare
+Dialogue: 0,0:10:37.03,0:10:38.87,Default,,0000,0000,0000,,quando sente una particolare frase!
+Dialogue: 0,0:10:38.87,0:10:43.87,Default,,0000,0000,0000,,E la scorsa notte al telefono \Nha detto quella frase a John!
+Dialogue: 0,0:10:43.87,0:10:46.62,Flashback,,0000,0000,0000,,Come stai, John? Tutto bene, John?
+Dialogue: 0,0:10:53.71,0:10:57.22,Default,,0000,0000,0000,,Così facendo, si è compiuta\N la vendetta di Sakaguchi.
+Dialogue: 0,0:10:57.22,0:10:58.34,Default,,0000,0000,0000,,Impossibile.
+Dialogue: 0,0:10:59.26,0:11:00.18,Default,,0000,0000,0000,,E perché?
+Dialogue: 0,0:11:00.18,0:11:02.06,Default,,0000,0000,0000,,Hai già dimenticato?
+Dialogue: 0,0:11:02.06,0:11:04.35,Default,,0000,0000,0000,,Quando l'ho interrogato la scorsa notte,
+Dialogue: 0,0:11:05.06,0:11:07.77,Default,,0000,0000,0000,,ha ripetuto la frase \Nproprio davanti a John.
+Dialogue: 0,0:11:08.31,0:11:11.69,Default,,0000,0000,0000,,Ma il cane non ha avuto alcuna reazione.
+Dialogue: 0,0:11:12.98,0:11:16.73,Default,,0000,0000,0000,,Uffa! E io che ero così convinto!
+Dialogue: 0,0:11:16.73,0:11:20.53,Default,,0000,0000,0000,,Su con la vita Mori, non ti abbattere così.
+Dialogue: 0,0:11:32.46,0:11:33.34,Italics,,0000,0000,0000,,Masato...
+Dialogue: 0,0:11:39.30,0:11:40.93,Default,,0000,0000,0000,,Grazie per la visita, Conan!
+Dialogue: 0,0:11:40.93,0:11:44.64,Default,,0000,0000,0000,,Pensavo che senza John \Nsi sarebbe sentito solo.
+Dialogue: 0,0:11:45.56,0:11:46.60,Default,,0000,0000,0000,,Grazie.
+Dialogue: 0,0:11:46.60,0:11:52.15,Default,,0000,0000,0000,,Signore, John dorme sempre \Nin cima alle scale?
+Dialogue: 0,0:11:52.15,0:11:53.40,Default,,0000,0000,0000,,Sì, esatto.
+Dialogue: 0,0:11:53.40,0:11:55.23,Default,,0000,0000,0000,,Perché non dorme giù?
+Dialogue: 0,0:11:55.69,0:11:57.69,Default,,0000,0000,0000,,Vedi quella porta?
+Dialogue: 0,0:11:57.69,0:11:58.19,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:11:58.70,0:12:00.91,Default,,0000,0000,0000,,Quella era la stanza di mio figlio.
+Dialogue: 0,0:12:01.95,0:12:05.37,Default,,0000,0000,0000,,Masato adorava John.
+Dialogue: 0,0:12:05.37,0:12:09.46,Default,,0000,0000,0000,,Ma la sua defunta madre\N gli aveva proibito di farlo entrare lì,
+Dialogue: 0,0:12:09.46,0:12:12.50,Default,,0000,0000,0000,,perciò John dormiva sempre \Nda solo fuori dalla porta.
+Dialogue: 0,0:12:13.34,0:12:19.51,Default,,0000,0000,0000,,John aspetta ancora che mio figlio\N apra la porta per dargli il buongiorno.
+Dialogue: 0,0:12:19.51,0:12:22.14,Default,,0000,0000,0000,,{\fad(0,745)}Anche se ormai sono passati otto anni.
+Dialogue: 0,0:12:26.60,0:12:28.93,Italics,,0000,0000,0000,,Lì c'è il telefono fisso.
+Dialogue: 0,0:12:29.52,0:12:31.40,Italics,,0000,0000,0000,,È attaccato alla presa con il filo.
+Dialogue: 0,0:12:31.60,0:12:36.61,Default,,0000,0000,0000,,Ma ieri non c'era un cordless?
+Dialogue: 0,0:12:37.28,0:12:40.90,Default,,0000,0000,0000,,Sì, a volte lo scambio\N con il fisso dello studio.
+Dialogue: 0,0:12:40.90,0:12:42.32,Default,,0000,0000,0000,,Perché me lo chiedi?
+Dialogue: 0,0:12:42.32,0:12:44.53,Default,,0000,0000,0000,,No, così!
+Dialogue: 0,0:12:45.33,0:12:47.24,Italics,,0000,0000,0000,,Allora è vero...
+Dialogue: 0,0:12:53.58,0:12:54.84,Italics,,0000,0000,0000,,Un attimo!
+Dialogue: 0,0:12:54.84,0:12:58.67,Italics,,0000,0000,0000,,Anche allora l'orologio\N doveva aver suonato alle nove!
+Dialogue: 0,0:12:58.67,0:13:01.00,Italics,,0000,0000,0000,,Ci sono, ho capito!
+Dialogue: 0,0:13:01.00,0:13:04.93,Italics,,0000,0000,0000,,Ho capito come funziona l'ordine di attacco\N di Sakaguchi a John!
+Dialogue: 0,0:13:09.30,0:13:11.73,sign_23091_202_Agenzia_investig,,0000,0000,0000,,{\fad(200,0)\fax-0.3\pos(314.267,94.333)\frz17.67}Agenzia investigativa Mori
+Dialogue: 0,0:13:10.14,0:13:11.72,Default,,0000,0000,0000,,Il telefono era diverso?
+Dialogue: 0,0:13:11.72,0:13:12.40,Default,,0000,0000,0000,,Sì.
+Dialogue: 0,0:13:12.40,0:13:15.19,Default,,0000,0000,0000,,C'era il fisso attaccato alla presa.
+Dialogue: 0,0:13:15.44,0:13:18.57,Default,,0000,0000,0000,,Però ieri nel soggiorno c'era il cordless.
+Dialogue: 0,0:13:18.57,0:13:19.65,Default,,0000,0000,0000,,Chissà perché?
+Dialogue: 0,0:13:20.20,0:13:22.98,Default,,0000,0000,0000,,Perché? Non credo ci sia un motivo...
+Dialogue: 0,0:13:22.98,0:13:25.03,Default,,0000,0000,0000,,No, un motivo c'è.
+Dialogue: 0,0:13:25.03,0:13:29.33,Default,,0000,0000,0000,,Per Sakaguchi era necessario \Nche ci fosse il cordless!
+Dialogue: 0,0:13:30.50,0:13:31.29,Default,,0000,0000,0000,,Cosa intendi?
+Dialogue: 0,0:13:31.75,0:13:37.21,Default,,0000,0000,0000,,Semplice: è impossibile \Nportare un telefono fisso al piano sopra!
+Dialogue: 0,0:13:37.42,0:13:43.00,Default,,0000,0000,0000,,Perciò Sakaguchi ha lasciato in soggiorno\N solo il cordless, che si poteva trasportare.
+Dialogue: 0,0:13:43.47,0:13:48.89,Default,,0000,0000,0000,,Quindi pensi ancora che Sakaguchi \Nabbia commesso un omicidio usando John?
+Dialogue: 0,0:13:48.89,0:13:51.48,Default,,0000,0000,0000,,Con questa storia del telefono \Nne sono convinto!
+Dialogue: 0,0:13:51.48,0:13:54.64,Default,,0000,0000,0000,,Ma ancora non conosco l'ordine di attacco!
+Dialogue: 0,0:13:54.64,0:13:57.36,Default,,0000,0000,0000,,Ehi, il nostro orologio non suona, vero?
+Dialogue: 0,0:13:58.31,0:14:04.65,Default,,0000,0000,0000,,Quello del signor Sakaguchi\Nsuona ogni ora. Fa "{\i1}Don! Don!{\i0}"
+Dialogue: 0,0:14:04.65,0:14:06.20,Default,,0000,0000,0000,,L'orologio?!
+Dialogue: 0,0:14:06.20,0:14:07.24,Default,,0000,0000,0000,,Ora che ci penso,
+Dialogue: 0,0:14:07.24,0:14:09.83,Default,,0000,0000,0000,,erano le 21:00 precise \Nquando John ha attaccato Takeshi!
+Dialogue: 0,0:14:09.83,0:14:11.29,Default,,0000,0000,0000,,Ho capito tutto!
+Dialogue: 0,0:14:11.29,0:14:15.33,Default,,0000,0000,0000,,Il grande detective Kogoro Mori\N ha appena risolto il mistero!
+Dialogue: 0,0:14:19.30,0:14:21.88,Cartello BASE,,0000,0000,0000,,{\fad(500,0)\an1\blur1\shad0\fscx50\fscy100\p1\c&H6F6380&\\shad2\pos(70.504,71.143)}m -7 -30 l 500 -30 500 8 -5 8
+Dialogue: 1,0:14:19.30,0:14:21.88,sign_25207_225_Stazione_di_poli,,0000,0000,0000,,{\fad(500,0)\shad1\4c&H000000&\4a&HCA&\fscy120\pos(193.933,33)}Stazione di polizia di Beika
+Dialogue: 0,0:14:26.10,0:14:28.64,Default,,0000,0000,0000,,Cosa avete intenzione di fare?!
+Dialogue: 0,0:14:28.64,0:14:30.68,Default,,0000,0000,0000,,Solo un piccolo esperimento.
+Dialogue: 0,0:14:32.85,0:14:34.44,Default,,0000,0000,0000,,Quando glielo indico,
+Dialogue: 0,0:14:34.44,0:14:37.56,Default,,0000,0000,0000,,ripeta quello ha detto ieri\N a John al telefono!
+Dialogue: 0,0:14:37.86,0:14:38.98,Default,,0000,0000,0000,,V-Va bene.
+Dialogue: 0,0:15:06.51,0:15:07.88,Default,,0000,0000,0000,,Ora, signor Sakaguchi!
+Dialogue: 0,0:15:07.88,0:15:09.68,Default,,0000,0000,0000,,D-D'accordo.
+Dialogue: 0,0:15:09.68,0:15:12.93,Default,,0000,0000,0000,,Come stai, John? Tutto bene, John?
+Dialogue: 0,0:15:14.89,0:15:16.31,Default,,0000,0000,0000,,A voce più alta!
+Dialogue: 0,0:15:16.81,0:15:19.27,Default,,0000,0000,0000,,Come stai, John? Tutto bene, John?
+Dialogue: 0,0:15:21.65,0:15:23.69,Default,,0000,0000,0000,,I-Impossibile!
+Dialogue: 0,0:15:24.36,0:15:27.41,Italics,,0000,0000,0000,,La mia teoria era sbagliata?!
+Dialogue: 0,0:15:27.41,0:15:29.86,sign_27225_238_Agenzia_investig,,0000,0000,0000,,{\fax-0.4\3c&HE0D5C1&\3a&H7E&\pos(303.867,97.222)\bord2\frz26.72}Agenzia investigativa Mori
+Dialogue: 0,0:15:29.86,0:15:33.20,Default,,0000,0000,0000,,Ne ero così sicuro!
+Dialogue: 0,0:15:33.75,0:15:36.17,Default,,0000,0000,0000,,Tu pensi troppo, papà.
+Dialogue: 0,0:15:36.17,0:15:39.91,Default,,0000,0000,0000,,Usare l'amato cane del figlio morto\N per una vendetta...
+Dialogue: 0,0:15:39.91,0:15:42.80,Default,,0000,0000,0000,,Su questo non posso dire niente,
+Dialogue: 0,0:15:42.80,0:15:45.01,Default,,0000,0000,0000,,ma dalle nostre indagini
+Dialogue: 0,0:15:45.01,0:15:48.22,Default,,0000,0000,0000,,risulta che ogni domenica, \Nnegli ultimi tre mesi,
+Dialogue: 0,0:15:48.22,0:15:51.26,Default,,0000,0000,0000,,Sakaguchi sia andato con John \Nda qualche parte in auto.
+Dialogue: 0,0:15:52.14,0:15:57.98,Default,,0000,0000,0000,,Sakaguchi dice di aver portato John\N in spazi aperti per fargli fare movimento.
+Dialogue: 0,0:15:57.98,0:16:02.11,Default,,0000,0000,0000,,Ispettore! Ha sicuramente\N addestrato John in quell'occasione!
+Dialogue: 0,0:16:02.48,0:16:04.28,Default,,0000,0000,0000,,Ma non ne abbiamo le prove.
+Dialogue: 0,0:16:05.15,0:16:08.11,Default,,0000,0000,0000,,Inoltre, e mi dispiace dirlo...
+Dialogue: 0,0:16:08.66,0:16:12.08,Default,,0000,0000,0000,,ma è stato deciso \Ndi sopprimere John domani sera.
+Dialogue: 0,0:16:12.99,0:16:13.91,Default,,0000,0000,0000,,No!
+Dialogue: 0,0:16:13.91,0:16:15.87,Default,,0000,0000,0000,,Ordini dall'alto.
+Dialogue: 0,0:16:15.87,0:16:18.17,Default,,0000,0000,0000,,Anche Sakaguchi è stato informato.
+Dialogue: 0,0:16:24.84,0:16:26.51,Italics,,0000,0000,0000,,Shinichi...
+Dialogue: 0,0:16:26.51,0:16:28.29,Italics,,0000,0000,0000,,Dove sei?
+Dialogue: 0,0:16:29.22,0:16:30.64,Italics,,0000,0000,0000,,Di questo passo
+Dialogue: 0,0:16:30.64,0:16:33.85,Italics,,0000,0000,0000,,John, il cane che amavi tanto, sarà ucciso!
+Dialogue: 0,0:16:34.77,0:16:38.30,Italics,,0000,0000,0000,,Ti prego, Shinichi... Torna a casa.
+Dialogue: 0,0:16:38.30,0:16:42.36,Italics,,0000,0000,0000,,Sei tu l'unica persona che può salvare John!
+Dialogue: 0,0:16:49.07,0:16:51.57,Default,,0000,0000,0000,,Allora stasera uccideranno John?!
+Dialogue: 0,0:16:51.87,0:16:53.74,Default,,0000,0000,0000,,Ma è terribile!
+Dialogue: 0,0:16:53.74,0:16:55.62,Default,,0000,0000,0000,,Non c'è nulla che possiamo fare?!
+Dialogue: 0,0:16:55.62,0:16:58.41,Default,,0000,0000,0000,,Ci ho pensato tutta la notte,\N non ho chiuso occhio!
+Dialogue: 0,0:16:58.41,0:16:59.33,Default,,0000,0000,0000,,Però...
+Dialogue: 0,0:17:02.00,0:17:03.67,Default,,0000,0000,0000,,Bene! I prossimi!
+Dialogue: 0,0:17:04.25,0:17:05.42,Default,,0000,0000,0000,,Pronti.
+Dialogue: 0,0:17:07.46,0:17:08.67,Default,,0000,0000,0000,,Partenza...
+Dialogue: 0,0:17:13.47,0:17:14.56,Italics,,0000,0000,0000,,Ma certo!
+Dialogue: 0,0:17:15.39,0:17:16.77,Default,,0000,0000,0000,,Finalmente ho capito!
+Dialogue: 0,0:17:18.47,0:17:20.94,Default,,0000,0000,0000,,Cos'è che ha capito?
+Dialogue: 0,0:17:20.94,0:17:22.23,Default,,0000,0000,0000,,Boh...
+Dialogue: 0,0:17:26.23,0:17:27.90,Default,,0000,0000,0000,,Cos'altro volete ora?!
+Dialogue: 0,0:17:28.15,0:17:31.86,Default,,0000,0000,0000,,Vorremmo riprovare l'esperimento.
+Dialogue: 0,0:17:42.50,0:17:44.25,Italics,,0000,0000,0000,,Pronti...
+Dialogue: 0,0:17:46.96,0:17:48.26,Default,,0000,0000,0000,,Pronto?
+Dialogue: 0,0:18:06.98,0:18:08.11,Italics,,0000,0000,0000,,Partenza...
+Dialogue: 0,0:18:11.24,0:18:13.95,Default,,0000,0000,0000,,Bene, ripeta quelle parole!
+Dialogue: 0,0:18:26.17,0:18:27.71,Default,,0000,0000,0000,,Mi arrendo!
+Dialogue: 0,0:18:29.42,0:18:34.30,Default,,0000,0000,0000,,Ammette di aver addestrato John\N per fargli attaccare Takeshi Maehara?
+Dialogue: 0,0:18:35.09,0:18:38.43,Default,,0000,0000,0000,,Quel ragazzo non ricordava nulla!
+Dialogue: 0,0:18:39.35,0:18:42.27,Default,,0000,0000,0000,,Non si ricordava né di me né di Masato!
+Dialogue: 0,0:18:42.27,0:18:43.06,Default,,0000,0000,0000,,Proprio così.
+Dialogue: 0,0:18:43.06,0:18:47.86,Default,,0000,0000,0000,,Aveva completamente dimenticato\N la persona che aveva spinto al suicidio!
+Dialogue: 0,0:18:48.32,0:18:51.32,Default,,0000,0000,0000,,E poi si è trasferito nella casa accanto\N senza farsi problemi.
+Dialogue: 0,0:18:51.82,0:18:55.16,Default,,0000,0000,0000,,Io sono un avvocato\N specializzato in reati minorili!
+Dialogue: 0,0:18:55.16,0:18:59.37,Default,,0000,0000,0000,,Ho cominciato questo lavoro per aiutare \Ni giovani che avevano perso la via.
+Dialogue: 0,0:18:59.37,0:19:04.25,Default,,0000,0000,0000,,Perciò, quando otto anni fa\N l'ho visto piangere e scusarsi al funerale,
+Dialogue: 0,0:19:04.25,0:19:06.00,Default,,0000,0000,0000,,ho deciso di perdonarlo!
+Dialogue: 0,0:19:06.00,0:19:08.09,Default,,0000,0000,0000,,Era in prima media, ancora un bambino.
+Dialogue: 0,0:19:08.67,0:19:11.05,Default,,0000,0000,0000,,Pensavo che\N se si fosse pentito sinceramente,
+Dialogue: 0,0:19:11.05,0:19:14.05,Default,,0000,0000,0000,,{\fad(0,680)}Masato non sarebbe morto invano.
+Dialogue: 0,0:19:15.01,0:19:18.14,Default,,0000,0000,0000,,Ma quando l'ho rincontrato otto anni dopo,
+Dialogue: 0,0:19:18.14,0:19:20.93,Default,,0000,0000,0000,,non ricordava nulla della morte di Masato!
+Dialogue: 0,0:19:21.35,0:19:24.73,Default,,0000,0000,0000,,Non solo, non era cambiato per niente\N rispetto a otto anni fa!
+Dialogue: 0,0:19:25.52,0:19:27.31,Flashback,,0000,0000,0000,,Ridammi il portafoglio!
+Dialogue: 0,0:19:27.31,0:19:29.19,Flashback,,0000,0000,0000,,Lo prendo solo in prestito!
+Dialogue: 0,0:19:32.61,0:19:36.41,Flashback,,0000,0000,0000,,Non preoccuparti, prima o poi,\N quando mi gira, te li restituisco.
+Dialogue: 0,0:19:37.66,0:19:40.49,Flashback,,0000,0000,0000,,Non so quando succederà, però...
+Dialogue: 0,0:19:41.24,0:19:46.25,Default,,0000,0000,0000,,Davanti a quella scena\N è tornato tutto il mio rancore.
+Dialogue: 0,0:19:47.42,0:19:50.92,Default,,0000,0000,0000,,A cosa è servita la morte di Masato?!
+Dialogue: 0,0:19:50.92,0:19:54.50,Default,,0000,0000,0000,,Perché otto anni fa l'ho perdonato?!
+Dialogue: 0,0:19:54.50,0:19:56.72,Default,,0000,0000,0000,,Allora ha usato John...
+Dialogue: 0,0:19:56.72,0:19:57.76,Default,,0000,0000,0000,,Esatto!
+Dialogue: 0,0:19:57.76,0:19:59.43,Default,,0000,0000,0000,,Se la legge non poteva punirlo,
+Dialogue: 0,0:19:59.43,0:20:01.22,Default,,0000,0000,0000,,allora avrei reso io giustizia!
+Dialogue: 0,0:20:01.22,0:20:05.10,Default,,0000,0000,0000,,Sono sicuro che anche John \Nsia felice di aver vendicato Masato!
+Dialogue: 0,0:20:05.10,0:20:06.69,Default,,0000,0000,0000,,Questa è una crudeltà!
+Dialogue: 0,0:20:06.89,0:20:10.65,Default,,0000,0000,0000,,Non sei l'unico ad aver sofferto\N per la morte di Masato!
+Dialogue: 0,0:20:10.65,0:20:12.64,Default,,0000,0000,0000,,Si è chiesto quanto triste fosse John?!
+Dialogue: 0,0:20:12.98,0:20:14.65,Default,,0000,0000,0000,,L'hai detto tu stesso!
+Dialogue: 0,0:20:14.65,0:20:19.03,Default,,0000,0000,0000,,Che ancora adesso, John aspetta Masato\N davanti alla porta della sua stanza!
+Dialogue: 0,0:20:19.74,0:20:22.32,Default,,0000,0000,0000,,Pensi davvero \Nche il povero Masato sia felice
+Dialogue: 0,0:20:22.32,0:20:24.91,Default,,0000,0000,0000,,che il suo amato cane \Nvenga usato per uccidere?!
+Dialogue: 0,0:20:26.66,0:20:31.42,Default,,0000,0000,0000,,Signor Sakaguchi.\NIl bullismo è sicuramente deprecabile.
+Dialogue: 0,0:20:31.42,0:20:35.17,Default,,0000,0000,0000,,E comprendo l'odio \Nche provava verso Takeshi Maehara.
+Dialogue: 0,0:20:35.17,0:20:38.97,Default,,0000,0000,0000,,Ma si è mai chiesto cosa provasse John,
+Dialogue: 0,0:20:38.97,0:20:43.56,Default,,0000,0000,0000,,usato a sua insaputa \Ncome strumento di morte per la sua vendetta?
+Dialogue: 0,0:20:45.27,0:20:47.51,Default,,0000,0000,0000,,Cosa provasse John?
+Dialogue: 0,0:20:49.02,0:20:50.52,Default,,0000,0000,0000,,Vai, John.
+Dialogue: 0,0:20:55.28,0:20:56.69,Default,,0000,0000,0000,,Oh, John!
+Dialogue: 0,0:20:58.78,0:21:00.24,Default,,0000,0000,0000,,Signor Sakaguchi.
+Dialogue: 0,0:21:00.24,0:21:03.11,Default,,0000,0000,0000,,John si fida ancora di lei,\N e le vuole ancora bene.
+Dialogue: 0,0:21:03.70,0:21:06.58,Default,,0000,0000,0000,,Cerchi di comprendere quello che prova.
+Dialogue: 0,0:21:07.87,0:21:08.57,Default,,0000,0000,0000,,John!
+Dialogue: 0,0:21:08.57,0:21:11.54,Default,,0000,0000,0000,,Perdonami, John!
+Dialogue: 0,0:21:13.09,0:21:15.00,Default,,0000,0000,0000,,John!
+Dialogue: 0,0:22:53.06,0:22:55.56,Default,,0000,0000,0000,,Quindi non hanno più ucciso John?!
+Dialogue: 0,0:22:55.56,0:22:56.69,Default,,0000,0000,0000,,Esatto!
+Dialogue: 0,0:22:56.69,0:22:59.52,Default,,0000,0000,0000,,Andrà a vivere con dei parenti\N del signor Sakaguchi.
+Dialogue: 0,0:22:59.90,0:23:00.98,Default,,0000,0000,0000,,Evviva!
+Dialogue: 0,0:23:00.98,0:23:05.82,Default,,0000,0000,0000,,Tutto grazie a me,\N il grande detective Mori Kogoro.
+Dialogue: 0,0:23:07.66,0:23:11.24,Default,,0000,0000,0000,,Però ora non vivrà più in quella casa.
+Dialogue: 0,0:23:11.24,0:23:14.66,Default,,0000,0000,0000,,Che peccato. Gli volevamo così bene.
+Dialogue: 0,0:23:15.33,0:23:18.46,Default,,0000,0000,0000,,Potete sempre fare amicizia \Ncon un altro cane.
+Dialogue: 0,0:23:19.00,0:23:20.17,Default,,0000,0000,0000,,Guardate quello!
+Dialogue: 0,0:23:20.55,0:23:21.92,Default,,0000,0000,0000,,È proprio uguale a John!
+Dialogue: 0,0:23:21.92,0:23:23.63,Default,,0000,0000,0000,,È vero! Andiamo!
+Dialogue: 0,0:23:23.63,0:23:25.05,Default,,0000,0000,0000,,Sì!
+Dialogue: 0,0:23:29.35,0:23:33.31,Default,,0000,0000,0000,,Signorina, ha davvero uno splendido cane.
+Dialogue: 0,0:23:34.02,0:23:36.81,Default,,0000,0000,0000,,Sa, io amo molto i cani...
+Dialogue: 0,0:23:36.81,0:23:40.94,Default,,0000,0000,0000,,Che ne dice di andare\N a parlare di cani in quel caffè laggiù?
+Dialogue: 0,0:23:40.94,0:23:42.06,Default,,0000,0000,0000,,No, grazie...
+Dialogue: 0,0:23:42.06,0:23:43.40,Default,,0000,0000,0000,,Non dica così!
+Dialogue: 0,0:23:43.40,0:23:46.02,Default,,0000,0000,0000,,E dai! E dai!
+Dialogue: 0,0:23:49.37,0:23:50.45,Default,,0000,0000,0000,,Prendilo!
+Dialogue: 0,0:23:50.45,0:23:51.74,Default,,0000,0000,0000,,Bravo, vai!
+Dialogue: 0,0:23:53.45,0:23:55.25,Italics,,0000,0000,0000,,Fattela col cane la chiacchierata.
+Dialogue: 1,0:24:01.41,0:24:25.43,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HFFFFFF&\fnArial\pos(159.657,91.911)}Anteprima
+Dialogue: 0,0:24:01.41,0:24:25.43,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs30\b0\c&HFFFFFF&\fnArial\pos(159.657,91.911)}Anteprima
+Dialogue: 1,0:24:01.41,0:24:25.43,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs25\b0\c&HFFFFFF&\fnArial\pos(262.137,286.511)}Fra poco l'indizio del prossimo caso
+Dialogue: 0,0:24:01.41,0:24:25.43,Cartello BASE,,0000,0000,0000,,{\blur0.5\fs25\b0\c&HFFFFFF&\fnArial\pos(262.137,286.511)}Fra poco l'indizio del prossimo caso
+Dialogue: 0,0:24:01.78,0:24:05.95,Default,,0000,0000,0000,,{\pos(264,352)}Q-Quindi avete fatto il bagno insieme?!
+Dialogue: 0,0:24:05.95,0:24:07.21,Default,,0000,0000,0000,,{\pos(264,352)}Sì!
+Dialogue: 0,0:24:07.79,0:24:09.50,Default,,0000,0000,0000,,{\pos(264,352)}Ci siamo proprio divertiti
+Dialogue: 0,0:24:09.50,0:24:12.13,Default,,0000,0000,0000,,{\pos(264,352)}a insaponarci la schiena a vicenda!
+Dialogue: 0,0:24:12.71,0:24:13.96,Default,,0000,0000,0000,,{\pos(264,352)}Ti sanguina il naso?
+Dialogue: 0,0:24:13.96,0:24:15.50,Default,,0000,0000,0000,,{\pos(264,352)}Dev'essere per via dell'acqua calda.
+Dialogue: 0,0:24:16.30,0:24:18.38,Italics,,0000,0000,0000,,{\pos(264,352)}Se scopre chi sono, mi fa a fettine!
+Dialogue: 0,0:24:18.38,0:24:19.97,Italics,,0000,0000,0000,,{\pos(264,352)}Senza ombra di dubbio.
+Dialogue: 0,0:24:20.88,0:24:22.80,Default,,0000,0000,0000,,{\pos(264,352)}Quando ci si suicida,
+Dialogue: 0,0:24:22.80,0:24:25.14,Default,,0000,0000,0000,,{\pos(264,352)}si porta la pistola alla testa così e poi...
+Dialogue: 1,0:24:25.43,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\blur1\bord0.1\fs18\c&HDCF2F3&\pos(267.867,219.111)}Il caso dell'omicidio \N\N\N\N\N\N\Nalla rimpatriata di Kogoro {\fs16}(prima parte)
+Dialogue: 0,0:24:25.43,0:24:31.44,Titolo episodio,,0000,0000,0000,,{\blur1\bord0.1\fs18\c&HDCF2F3&\pos(267.867,219.111)}Il caso dell'omicidio \N\N\N\N\N\N\Nalla rimpatriata di Kogoro {\fs16}(prima parte)
+Dialogue: 0,0:24:26.14,0:24:27.52,Italics,,0000,0000,0000,,Nel prossimo episodio di Conan...
+Dialogue: 0,0:24:27.52,0:24:31.06,Italics,,0000,0000,0000,,"Il caso dell'omicidio \Nalla rimpatriata di Kogoro (prima parte)".
+Dialogue: 0,0:24:46.70,0:24:49.50,Default,,0000,0000,0000,,Prossimo indizio per Conan:
+Dialogue: 0,0:24:49.50,0:24:51.11,Default,,0000,0000,0000,,Una pistola.
+Dialogue: 0,0:24:51.48,0:24:54.21,Default,,0000,0000,0000,,{\pos(264,351.429)}Nel prossimo caso riuscirete\Na individuare il colpevole nella prima parte?
+Dialogue: 0,0:24:51.48,0:24:57.01,Cartello BASE,,0000,0000,0000,,{\blur0.6\pos(264.58,272.8)}Non perdetevi il prossimo episodio
+Dialogue: 1,0:24:51.48,0:24:57.01,Cartello BASE,,0000,0000,0000,,{\blur0\c&HDFDFDF&\pos(264.58,272.8)}Non perdetevi il prossimo episodio
