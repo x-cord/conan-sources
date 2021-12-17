@@ -1,0 +1,391 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.04,0:00:02.83,Default,,0,0,0,,SUNDAY MARKET\NPROMOTIONS D'ÉTÉ
+Dialogue: 0,0:00:08.29,0:00:09.34,Default,,0,0,0,,Il faut du pain.
+Dialogue: 0,0:00:10.30,0:00:11.59,Default,,0,0,0,,Il n'y a pas de grille-pain,
+Dialogue: 0,0:00:12.17,0:00:13.59,Default,,0,0,0,,prenons plutôt ça.
+Dialogue: 0,0:00:20.39,0:00:22.10,Default,,0,0,0,,Il fait de grosses courses.
+Dialogue: 0,0:00:22.81,0:00:24.56,Default,,0,0,0,,Il compte tout manger seul ?
+Dialogue: 0,0:00:24.73,0:00:28.73,Default,,0,0,0,,Sûrement pas,\Nil y a anguille sous roche.
+Dialogue: 0,0:00:28.94,0:00:29.52,Default,,0,0,0,,Oui.
+Dialogue: 0,0:00:46.67,0:00:49.00,Default,,0,0,0,,On s'est montés la tête pour rien.
+Dialogue: 0,0:00:49.34,0:00:52.05,Default,,0,0,0,,Il allait juste voir un ami.
+Dialogue: 0,0:00:52.21,0:00:54.59,Default,,0,0,0,,On s'est plantés, c'est nul.
+Dialogue: 0,0:00:55.88,0:00:58.01,Default,,0,0,0,,Je pense que vous vous trompez.
+Dialogue: 0,0:00:59.35,0:01:00.39,Default,,0,0,0,,Comment tu le sais ?
+Dialogue: 0,0:01:00.89,0:01:02.89,Default,,0,0,0,,Regardez, là.
+Dialogue: 0,0:01:03.35,0:01:07.02,Default,,0,0,0,,L'immeuble est neuf,\Npersonne n'y habite encore.
+Dialogue: 0,0:01:07.44,0:01:08.44,Default,,0,0,0,,Bien vu !
+Dialogue: 0,0:01:09.90,0:01:14.32,Default,,0,0,0,,Plus qu'à trouver l'étage\Noù se trouve l'inspecteur Chiba.
+Dialogue: 0,0:01:21.28,0:01:24.37,Default,,0,0,0,,Cherchons le film de protection\Nle plus usé...
+Dialogue: 0,0:01:25.96,0:01:27.96,Default,,0,0,0,,C'est celui du quatrième étage.
+Dialogue: 0,0:01:31.88,0:01:33.38,Default,,0,0,0,,De la même façon,
+Dialogue: 0,0:01:33.76,0:01:37.80,Default,,0,0,0,,il n'y a plus qu'à trouver la bâche\Nla plus abîmée.
+Dialogue: 0,0:01:40.01,0:01:41.47,Default,,0,0,0,,C'est forcément ici !
+Dialogue: 0,0:01:46.89,0:01:47.64,Default,,0,0,0,,Coucou !
+Dialogue: 0,0:01:49.52,0:01:50.81,Default,,0,0,0,,Qu'y a-t-il, Chiba ?
+Dialogue: 0,0:01:51.27,0:01:52.82,Default,,0,0,0,,Il y a aussi l'inspecteur Takagi !
+Dialogue: 0,0:01:53.32,0:01:54.23,Default,,0,0,0,,Bonjour !
+Dialogue: 0,0:01:54.40,0:01:57.20,Default,,0,0,0,,On a suivi l'inspecteur Chiba.
+Dialogue: 0,0:01:57.36,0:01:58.41,Default,,0,0,0,,Vous êtes en planque, hein ?
+Dialogue: 0,0:01:58.57,0:01:59.82,Default,,0,0,0,,On va vous aider !
+Dialogue: 0,0:02:03.58,0:02:05.00,ST_HAUT,,0,0,0,,{\i1}Le premier pas d'un long chemin,{\i0}
+Dialogue: 0,0:02:05.16,0:02:07.33,ST_HAUT,,0,0,0,,{\i1}1000 mystères résolus,\Nen route vers un nouveau monde !{\i0}
+Dialogue: 0,0:02:08.04,0:02:11.50,Default,,0,0,0,,{\i1}Infiltrés dans la planque,\Nles détectives s'attaquent à l'affaire !{\i0}
+Dialogue: 0,0:02:11.71,0:02:14.88,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:15.05,0:02:17.51,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:18.47,0:02:20.68,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:31.94,0:02:33.52,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:02:34.40,0:02:36.19,ST_HAUT,,0,0,0,,Directeur artistique :\NJunichi Higashi
+Dialogue: 0,0:02:39.74,0:02:41.61,ST_HAUT_GAUCHE,,0,0,0,,Direction du son :\NY. Urakami, K. Urakami
+Dialogue: 0,0:02:43.70,0:02:45.58,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:02:50.42,0:02:52.38,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Zero kara hajimete"
+Dialogue: 0,0:02:54.59,0:02:56.71,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:58.17,0:03:00.22,ST_HAUT,,0,0,0,,Projet initial : Takenori Ichihara,\NNaota Machida
+Dialogue: 0,0:03:08.02,0:03:10.10,ST_HAUT,,0,0,0,,Producteurs : Isato Yonekura,\NKiyoaki Terashima
+Dialogue: 0,0:03:17.32,0:03:19.53,ST_HAUT,,0,0,0,,Chefs producteurs :\NKana Sasaki, Keiichi Ishiyama
+Dialogue: 0,0:03:26.03,0:03:28.54,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:03:39.96,0:03:42.43,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:44.93,0:03:46.26,Default,,0,0,0,,{\i1}En Planque{\i0}
+Dialogue: 0,0:03:50.89,0:03:55.90,Default,,0,0,0,,C'est franchement embêtant\Nque vous débarquiez ici.
+Dialogue: 0,0:03:56.36,0:03:59.86,Default,,0,0,0,,Mais comment vous avez su\Nqu'on montait une planque ?
+Dialogue: 0,0:04:00.28,0:04:05.12,Default,,0,0,0,,Vous faisiez de grosses courses\Nà la supérette.
+Dialogue: 0,0:04:05.28,0:04:07.66,Default,,0,0,0,,C'était louche, donc on vous a suivi !
+Dialogue: 0,0:04:08.12,0:04:12.66,Default,,0,0,0,,Vous vous êtes arrêté\Nà l'entrée du bâtiment
+Dialogue: 0,0:04:13.54,0:04:16.17,Default,,0,0,0,,pour scruter celui d'en face.
+Dialogue: 0,0:04:17.42,0:04:19.55,Default,,0,0,0,,Vous le surveillez, c'est ça ?
+Dialogue: 0,0:04:21.63,0:04:22.63,Default,,0,0,0,,En effet.
+Dialogue: 0,0:04:22.97,0:04:26.14,Default,,0,0,0,,Mais on ne peut pas\Ns'occuper de vous,
+Dialogue: 0,0:04:26.51,0:04:28.01,Default,,0,0,0,,vous devez partir.
+Dialogue: 0,0:04:28.26,0:04:29.97,Default,,0,0,0,,On a du pain sur la planche.
+Dialogue: 0,0:04:31.89,0:04:34.56,Default,,0,0,0,,Le professeur\Nva venir nous chercher,
+Dialogue: 0,0:04:34.89,0:04:36.06,Default,,0,0,0,,on peut l'attendre ici ?
+Dialogue: 0,0:04:36.44,0:04:39.11,Default,,0,0,0,,Eh bien...\NQu'en penses-tu ?
+Dialogue: 0,0:04:41.61,0:04:42.74,Default,,0,0,0,,Dans ce cas,
+Dialogue: 0,0:04:43.11,0:04:45.53,Default,,0,0,0,,vous pouvez rester jusque-là.
+Dialogue: 0,0:04:46.16,0:04:48.03,Default,,0,0,0,,Super !
+Dialogue: 0,0:04:50.12,0:04:51.70,Default,,0,0,0,,Servez-vous.
+Dialogue: 0,0:04:52.37,0:04:53.87,Default,,0,0,0,,- Trop bien !\N- Merci !
+Dialogue: 0,0:04:57.25,0:05:01.50,Default,,0,0,0,,{\i1}Les résidents du 2e étage\Nsont les cibles de la surveillance ?{\i0}
+Dialogue: 0,0:05:02.67,0:05:05.93,Default,,0,0,0,,{\i1}Les appartements 301 et 305\Nsont vides,{\i0}
+Dialogue: 0,0:05:06.34,0:05:08.64,Default,,0,0,0,,{\i1}concentrons-nous sur le numéro 302.{\i0}
+Dialogue: 0,0:05:13.06,0:05:15.02,Default,,0,0,0,,{\i1}Ensuite le 303,{\i0}
+Dialogue: 0,0:05:15.56,0:05:18.31,Default,,0,0,0,,{\i1}mais il doit être sorti.{\i0}
+Dialogue: 0,0:05:20.02,0:05:22.23,Default,,0,0,0,,{\i1}Concernant le 304,{\i0}
+Dialogue: 0,0:05:23.78,0:05:25.99,Default,,0,0,0,,{\i1}il y a une femme seule.{\i0}
+Dialogue: 0,0:05:27.36,0:05:31.24,Default,,0,0,0,,Pourquoi vous ne surveillez\Nque le milieu du 2e étage ?
+Dialogue: 0,0:05:33.91,0:05:35.16,Default,,0,0,0,,Nous cherchons en fait
+Dialogue: 0,0:05:35.33,0:05:38.67,Default,,0,0,0,,l'auteur du braquage\Nd'une bijouterie.
+Dialogue: 0,0:05:39.00,0:05:41.63,Default,,0,0,0,,Celui de la semaine dernière ?
+Dialogue: 0,0:05:41.92,0:05:45.17,Default,,0,0,0,,Ils disaient aux infos\Nqu'un voleur
+Dialogue: 0,0:05:45.34,0:05:48.59,Default,,0,0,0,,avait pillé\Nune bijouterie de Haidô.
+Dialogue: 0,0:05:48.97,0:05:51.89,Default,,0,0,0,,Les résidents des côtés\Nont des alibis,
+Dialogue: 0,0:05:52.06,0:05:55.10,Default,,0,0,0,,l'un est à l'hôpital\Net l'autre en voyage.
+Dialogue: 0,0:05:55.43,0:05:58.60,Default,,0,0,0,,Et des trois autres,\Nqui est le coupable ?
+Dialogue: 0,0:05:59.10,0:06:02.32,Default,,0,0,0,,On a monté cette planque\Ncar on ne le sait pas encore.
+Dialogue: 0,0:06:02.82,0:06:06.86,Default,,0,0,0,,Mais comment avez-vous su\Nque le braqueur habitait ici ?
+Dialogue: 0,0:06:07.24,0:06:08.11,Default,,0,0,0,,Eh bien en fait,
+Dialogue: 0,0:06:08.99,0:06:12.53,Default,,0,0,0,,un cambrioleur en série\Na été arrêté en flagrant délit
+Dialogue: 0,0:06:12.70,0:06:14.37,Default,,0,0,0,,il y a quelques jours.
+Dialogue: 0,0:06:18.42,0:06:20.83,Default,,0,0,0,,Il avait des bagues dans son sac
+Dialogue: 0,0:06:21.00,0:06:24.13,Default,,0,0,0,,provenant de la fameuse bijouterie.
+Dialogue: 0,0:06:24.96,0:06:25.71,Default,,0,0,0,,Un rubis,
+Dialogue: 0,0:06:26.26,0:06:27.26,Default,,0,0,0,,un saphir,
+Dialogue: 0,0:06:27.59,0:06:28.55,Default,,0,0,0,,un onyx
+Dialogue: 0,0:06:28.97,0:06:30.43,Default,,0,0,0,,et un diamant.
+Dialogue: 0,0:06:31.22,0:06:34.06,Default,,0,0,0,,D'après le témoignage du voleur,
+Dialogue: 0,0:06:34.26,0:06:39.31,Default,,0,0,0,,il avait cambriolé\Ntous les appartements du 2e étage.
+Dialogue: 0,0:06:39.69,0:06:43.69,Default,,0,0,0,,Mais il ne se souvient pas\Nduquel elles provenaient.
+Dialogue: 0,0:06:44.07,0:06:45.82,Default,,0,0,0,,Ah, je vois...
+Dialogue: 0,0:06:46.15,0:06:48.57,Default,,0,0,0,,Il a eu les yeux\Nplus gros que le ventre.
+Dialogue: 0,0:07:06.38,0:07:09.22,Default,,0,0,0,,Il semble stressé par le téléphone.
+Dialogue: 0,0:07:09.72,0:07:13.09,Default,,0,0,0,,C'est le résident du 302,\NTsunahiko Kuwai.
+Dialogue: 0,0:07:13.64,0:07:16.47,Default,,0,0,0,,Il est comme ça depuis\Nnotre arrivée.
+Dialogue: 0,0:07:17.68,0:07:18.73,Default,,0,0,0,,Des suspects,
+Dialogue: 0,0:07:19.18,0:07:21.23,Default,,0,0,0,,c'est le résident le plus récent
+Dialogue: 0,0:07:21.60,0:07:23.31,Default,,0,0,0,,et on manque d'infos sur lui.
+Dialogue: 0,0:07:28.78,0:07:31.24,Default,,0,0,0,,Le monsieur du 303 est rentré !
+Dialogue: 0,0:07:32.70,0:07:35.70,Default,,0,0,0,,Il s'appelle Mitsuki Hanai.
+Dialogue: 0,0:07:36.03,0:07:38.24,ST_HAUT,,0,0,0,,Il est employé\Ndans une société commerciale.
+Dialogue: 0,0:07:38.87,0:07:42.08,Default,,0,0,0,,Il rentre chez lui en achetant\Nson dîner à la supérette,
+Dialogue: 0,0:07:42.67,0:07:44.92,Default,,0,0,0,,toujours à la même heure.
+Dialogue: 0,0:07:47.34,0:07:48.80,Default,,0,0,0,,Mais c'est étrange,
+Dialogue: 0,0:07:49.21,0:07:52.34,Default,,0,0,0,,pourquoi va-t-il\Ntout de suite sur le balcon ?
+Dialogue: 0,0:07:52.80,0:07:56.68,Default,,0,0,0,,Moi, je demande d'abord à maman\Nce qu'il y a au dîner.
+Dialogue: 0,0:07:57.01,0:07:59.77,Default,,0,0,0,,Non, Genta,\Nil faut d'abord se laver les mains !
+Dialogue: 0,0:08:00.77,0:08:01.98,Default,,0,0,0,,Oui, tu as raison.
+Dialogue: 0,0:08:02.89,0:08:03.56,Default,,0,0,0,,Regardez !
+Dialogue: 0,0:08:12.20,0:08:12.82,Default,,0,0,0,,Impossible...
+Dialogue: 0,0:08:13.24,0:08:14.86,Default,,0,0,0,,Reculez tous !
+Dialogue: 0,0:08:15.24,0:08:16.49,Default,,0,0,0,,Il est sur ses gardes.
+Dialogue: 0,0:08:16.78,0:08:19.04,Default,,0,0,0,,Il nous aurait remarqués ?
+Dialogue: 0,0:08:19.20,0:08:21.71,Default,,0,0,0,,- Chut, Genta.\N- Désolé...
+Dialogue: 0,0:08:22.00,0:08:24.12,Default,,0,0,0,,Non, c'est impossible.
+Dialogue: 0,0:08:24.62,0:08:26.50,Default,,0,0,0,,Il s'était tout de suite rendu
+Dialogue: 0,0:08:27.13,0:08:29.55,Default,,0,0,0,,sur le balcon hier aussi.
+Dialogue: 0,0:08:29.84,0:08:30.76,Default,,0,0,0,,En effet.
+Dialogue: 0,0:08:31.42,0:08:33.47,Default,,0,0,0,,M. Hanai est retourné à l'intérieur.
+Dialogue: 0,0:08:33.93,0:08:36.14,Default,,0,0,0,,La voisine est passée au salon.
+Dialogue: 0,0:08:38.64,0:08:40.06,ST_HAUT,,0,0,0,,La résidente du 304
+Dialogue: 0,0:08:40.22,0:08:42.39,ST_HAUT,,0,0,0,,s'appelle Kasumi Amano,\Nelle est...
+Dialogue: 0,0:08:42.56,0:08:44.44,ST_HAUT,,0,0,0,,Je sais ! Elle est prof de yoga !
+Dialogue: 0,0:08:44.60,0:08:45.52,ST_HAUT,,0,0,0,,Exactement.
+Dialogue: 0,0:08:49.40,0:08:50.32,Default,,0,0,0,,Quelqu'un a sonné.
+Dialogue: 0,0:08:50.86,0:08:52.69,Default,,0,0,0,,Je ne l'avais encore jamais vu.
+Dialogue: 0,0:08:52.86,0:08:54.74,Default,,0,0,0,,Ce serait son amoureux ?
+Dialogue: 0,0:08:54.99,0:08:56.99,Default,,0,0,0,,Ou le livreur d'anguille ?
+Dialogue: 0,0:08:57.57,0:08:58.83,Default,,0,0,0,,Je rigole.
+Dialogue: 0,0:08:59.41,0:09:03.75,Default,,0,0,0,,Mais comment trouver une preuve\Npour identifier le coupable ?
+Dialogue: 0,0:09:04.16,0:09:08.46,Default,,0,0,0,,Il doit rester des biens volés\Nlors du braquage,
+Dialogue: 0,0:09:09.09,0:09:12.21,Default,,0,0,0,,ça m'étonnerait qu'il ait eu\Nle temps de tout écouler.
+Dialogue: 0,0:09:12.88,0:09:16.26,Default,,0,0,0,,Le cambriolage qu'il a subi\Na dû le mettre sous pression,
+Dialogue: 0,0:09:16.59,0:09:19.43,Default,,0,0,0,,il va vouloir vite\Nse débarrasser des preuves.
+Dialogue: 0,0:09:19.85,0:09:21.97,Default,,0,0,0,,Attendons qu'il fasse une erreur.
+Dialogue: 0,0:09:23.22,0:09:25.98,Default,,0,0,0,,Mais qui sait quand ça arrivera ?
+Dialogue: 0,0:09:26.14,0:09:27.65,Default,,0,0,0,,On n'y peut rien !
+Dialogue: 0,0:09:27.81,0:09:29.73,Default,,0,0,0,,Il n'y a pas d'autre solution ?
+Dialogue: 0,0:09:34.78,0:09:35.70,Default,,0,0,0,,Bonne idée !
+Dialogue: 0,0:09:35.86,0:09:37.45,Default,,0,0,0,,Faisons comme ça !
+Dialogue: 0,0:09:38.91,0:09:41.03,Default,,0,0,0,,Hé Conan,\Nil serait temps de rentrer.
+Dialogue: 0,0:09:42.49,0:09:45.66,Default,,0,0,0,,Mais on risque\Nde manquer le professeur.
+Dialogue: 0,0:09:46.16,0:09:49.04,Default,,0,0,0,,Reste ici à l'attendre, alors.
+Dialogue: 0,0:09:49.33,0:09:52.59,Default,,0,0,0,,Nous, on va rentrer\Ncar il se fait tard !
+Dialogue: 0,0:09:53.25,0:09:55.09,Default,,0,0,0,,Ça ira, tous les trois ?
+Dialogue: 0,0:09:55.59,0:09:57.34,Default,,0,0,0,,Oui, pardon du dérangement !
+Dialogue: 0,0:09:57.76,0:10:00.01,Default,,0,0,0,,Prudence sur le chemin du retour.
+Dialogue: 0,0:10:00.39,0:10:02.60,Default,,0,0,0,,Ouais !\NÀ plus, Conan !
+Dialogue: 0,0:10:03.93,0:10:05.10,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:10:19.16,0:10:19.78,Default,,0,0,0,,Oui,
+Dialogue: 0,0:10:21.53,0:10:22.70,Default,,0,0,0,,je le sais bien.
+Dialogue: 0,0:10:23.83,0:10:24.74,Default,,0,0,0,,Quoi qu'il en coûte,
+Dialogue: 0,0:10:25.58,0:10:27.41,Default,,0,0,0,,ce sera aujourd'hui.
+Dialogue: 0,0:10:41.34,0:10:42.22,Default,,0,0,0,,Inspecteur Takagi.
+Dialogue: 0,0:10:42.85,0:10:44.64,Default,,0,0,0,,Ils comptent tous sortir ?
+Dialogue: 0,0:10:45.06,0:10:46.81,Default,,0,0,0,,Pour vendre la marchandise ?
+Dialogue: 0,0:10:46.98,0:10:49.02,Default,,0,0,0,,Curieuse coïncidence.
+Dialogue: 0,0:10:49.64,0:10:51.90,Default,,0,0,0,,On ne peut pas tous les suivre,
+Dialogue: 0,0:10:52.31,0:10:53.57,Default,,0,0,0,,j'appelle des renforts ?
+Dialogue: 0,0:10:53.82,0:10:55.98,Default,,0,0,0,,Pas sûr qu'ils arrivent à temps.
+Dialogue: 0,0:10:56.69,0:10:59.03,Default,,0,0,0,,{\i1}Bon sang, que puis-je faire ?{\i0}
+Dialogue: 0,0:10:59.74,0:11:02.20,Default,,0,0,0,,Commençons\Npar appeler l'inspecteur Meguri.
+Dialogue: 0,0:11:06.08,0:11:07.20,Default,,0,0,0,,{\i1}Ces canailles !{\i0}
+Dialogue: 0,0:11:17.09,0:11:18.59,Default,,0,0,0,,Tu nous vois, Conan ?
+Dialogue: 0,0:11:19.26,0:11:21.38,Default,,0,0,0,,On s'occupe de tout.
+Dialogue: 0,0:11:21.55,0:11:22.59,Default,,0,0,0,,{\i1}Qu'est-ce que vous fichez ?{\i0}
+Dialogue: 0,0:11:22.97,0:11:24.05,Default,,0,0,0,,{\i1}Revenez tout de suite !{\i0}
+Dialogue: 0,0:11:24.30,0:11:28.35,Default,,0,0,0,,T'inquiète pas, on va juste\Njeter un œil à l'intérieur.
+Dialogue: 0,0:11:28.52,0:11:30.56,Default,,0,0,0,,On a un plan !
+Dialogue: 0,0:11:32.73,0:11:33.61,Default,,0,0,0,,Genta !
+Dialogue: 0,0:11:36.32,0:11:37.61,Default,,0,0,0,,Reviens, tu m'entends !
+Dialogue: 0,0:11:38.28,0:11:41.32,Default,,0,0,0,,{\i1}Il y a quelqu'un devant le 302.{\i0}
+Dialogue: 0,0:11:41.49,0:11:43.57,Default,,0,0,0,,{\i1}Je sais que tu es là !{\i0}
+Dialogue: 0,0:11:43.91,0:11:44.82,Default,,0,0,0,,Ouvre !
+Dialogue: 0,0:11:46.87,0:11:48.08,Default,,0,0,0,,D'où tu sors, toi ?
+Dialogue: 0,0:11:48.33,0:11:51.08,Default,,0,0,0,,Eh bien, ma balle, elle...
+Dialogue: 0,0:11:51.25,0:11:54.42,Default,,0,0,0,,Elle est tombée sur le balcon et...
+Dialogue: 0,0:11:55.75,0:11:57.13,Default,,0,0,0,,Ah vraiment ?
+Dialogue: 0,0:11:57.63,0:12:00.22,Default,,0,0,0,,Tu tombes pile au bon moment,\Nmon garçon.
+Dialogue: 0,0:12:01.09,0:12:02.97,Default,,0,0,0,,Tu vas m'aider.
+Dialogue: 0,0:12:03.64,0:12:04.80,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:12:06.51,0:12:07.72,Default,,0,0,0,,{\i1}Excu... moi,{\i0}
+Dialogue: 0,0:12:07.89,0:12:09.72,Default,,0,0,0,,{\i1}ouvrez... vous plaît.{\i0}
+Dialogue: 0,0:12:09.89,0:12:12.02,Default,,0,0,0,,{\i1}Flûte, on n'entend pas bien !{\i0}
+Dialogue: 0,0:12:12.19,0:12:14.19,Default,,0,0,0,,Genta est entré.
+Dialogue: 0,0:12:18.94,0:12:21.49,Default,,0,0,0,,Ils ont l'air de se disputer.
+Dialogue: 0,0:12:22.15,0:12:26.45,Default,,0,0,0,,Les messieurs parlent\Nd'un truc bizarre, une "réédition".
+Dialogue: 0,0:12:26.78,0:12:27.74,Default,,0,0,0,,Je vais chercher
+Dialogue: 0,0:12:27.91,0:12:29.70,Default,,0,0,0,,{\i1}s'il y a des pierres précieuses.{\i0}
+Dialogue: 0,0:12:30.41,0:12:33.37,Default,,0,0,0,,ÉDITIONS NICHIBAI
+Dialogue: 0,0:12:33.54,0:12:34.42,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:12:35.71,0:12:36.75,Default,,0,0,0,,Mais bien sûr !
+Dialogue: 0,0:12:37.13,0:12:39.25,Default,,0,0,0,,M. Kuwae est sûrement écrivain
+Dialogue: 0,0:12:39.46,0:12:41.46,Default,,0,0,0,,et ce monsieur est son éditeur !
+Dialogue: 0,0:12:42.13,0:12:43.22,Default,,0,0,0,,Ça explique tout.
+Dialogue: 0,0:12:43.55,0:12:45.72,Default,,0,0,0,,Genta parlait de réédition
+Dialogue: 0,0:12:45.93,0:12:47.89,Default,,0,0,0,,et la pièce est impersonnelle...
+Dialogue: 0,0:12:48.22,0:12:50.64,Default,,0,0,0,,... car il la loue pour travailler.
+Dialogue: 0,0:12:52.06,0:12:55.48,Default,,0,0,0,,Il avait une valise car il était\Ninsatisfait de son travail
+Dialogue: 0,0:12:56.06,0:12:57.69,Default,,0,0,0,,et il envisageait de s'enfuir.
+Dialogue: 0,0:13:00.03,0:13:00.78,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:13:01.36,0:13:02.07,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:13:02.86,0:13:04.78,Default,,0,0,0,,Le petit Mitsuhiko a disparu !
+Dialogue: 0,0:13:05.32,0:13:06.78,Default,,0,0,0,,Reviens, Mitsuhiko !
+Dialogue: 0,0:13:07.07,0:13:08.49,Default,,0,0,0,,{\i1}Excusez-moi !{\i0}
+Dialogue: 0,0:13:09.16,0:13:12.20,Default,,0,0,0,,Mon frisbee est tombé\Nsur votre balcon.
+Dialogue: 0,0:13:14.54,0:13:15.75,Default,,0,0,0,,Quel frisbee ?
+Dialogue: 0,0:13:16.17,0:13:18.29,Default,,0,0,0,,Reste-là, je vais voir.
+Dialogue: 0,0:13:18.46,0:13:20.30,Default,,0,0,0,,Attendez, s'il vous plaît.
+Dialogue: 0,0:13:20.75,0:13:22.30,Default,,0,0,0,,Laisse tomber, Mitsuhiko !
+Dialogue: 0,0:13:22.46,0:13:24.30,Default,,0,0,0,,{\i1}Je vais te le chercher, c'est bon.{\i0}
+Dialogue: 0,0:13:24.63,0:13:25.80,Default,,0,0,0,,Eh bien, en fait...
+Dialogue: 0,0:13:26.09,0:13:29.05,Default,,0,0,0,,Vous avez l'air d'être tracassé.
+Dialogue: 0,0:13:29.72,0:13:30.81,Default,,0,0,0,,{\i1}Mitsuhiko !{\i0}
+Dialogue: 0,0:13:31.64,0:13:33.56,Default,,0,0,0,,Je vous ai vu tout à l'heure.
+Dialogue: 0,0:13:34.02,0:13:36.27,Default,,0,0,0,,Vous regardiez les alentours
+Dialogue: 0,0:13:36.60,0:13:39.56,Default,,0,0,0,,depuis votre balcon.
+Dialogue: 0,0:13:42.57,0:13:43.57,Default,,0,0,0,,Entre.
+Dialogue: 0,0:13:44.57,0:13:45.86,Default,,0,0,0,,J'espère que ça ira.
+Dialogue: 0,0:13:47.66,0:13:48.70,Default,,0,0,0,,Excusez-moi,
+Dialogue: 0,0:13:49.32,0:13:50.78,Default,,0,0,0,,en fait...
+Dialogue: 0,0:13:51.53,0:13:52.74,Default,,0,0,0,,Comment dire...
+Dialogue: 0,0:13:52.91,0:13:54.91,Default,,0,0,0,,Qu'es-tu vraiment venu faire ?
+Dialogue: 0,0:13:55.66,0:13:56.46,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:13:56.96,0:13:59.38,Default,,0,0,0,,Attends, tu ne serais pas...
+Dialogue: 0,0:14:00.29,0:14:01.92,Default,,0,0,0,,au courant pour mon Diamant ?
+Dialogue: 0,0:14:02.80,0:14:05.09,Default,,0,0,0,,Tu sais quelque chose ?
+Dialogue: 0,0:14:06.22,0:14:07.93,Default,,0,0,0,,Qu'as-tu vu sur mon balcon ?
+Dialogue: 0,0:14:08.34,0:14:10.01,Default,,0,0,0,,Mince, on est mal !
+Dialogue: 0,0:14:10.26,0:14:12.10,Default,,0,0,0,,Il faut faire diversion !
+Dialogue: 0,0:14:18.65,0:14:20.73,Default,,0,0,0,,C'est quoi, cette lumière ?
+Dialogue: 0,0:14:21.31,0:14:23.44,Default,,0,0,0,,Enfuis-toi, Mitsuhiko !
+Dialogue: 0,0:14:38.21,0:14:39.67,Default,,0,0,0,,Alors, c'était bien ça !
+Dialogue: 0,0:14:40.25,0:14:41.25,Default,,0,0,0,,Quoi donc ?
+Dialogue: 0,0:14:41.96,0:14:44.09,Default,,0,0,0,,Depuis quand a-t-il disparu ?
+Dialogue: 0,0:14:44.75,0:14:45.63,Default,,0,0,0,,Le petit Diamant.
+Dialogue: 0,0:14:46.76,0:14:48.84,Default,,0,0,0,,Vous voulez bien en parler ?
+Dialogue: 0,0:14:49.43,0:14:51.39,Default,,0,0,0,,Mais oui, j'ai compris !
+Dialogue: 0,0:14:51.93,0:14:54.10,Default,,0,0,0,,Voilà pourquoi\Nil scrutait les alentours !
+Dialogue: 0,0:14:55.72,0:14:56.93,Default,,0,0,0,,Il y a trois jours.
+Dialogue: 0,0:14:57.48,0:14:59.77,Default,,0,0,0,,Je n'ai pas fait attention
+Dialogue: 0,0:15:00.19,0:15:02.61,Default,,0,0,0,,en nettoyant sa cage\Net il s'est envolé.
+Dialogue: 0,0:15:03.61,0:15:05.90,Default,,0,0,0,,Il a dû avoir peur de quelque chose.
+Dialogue: 0,0:15:06.53,0:15:07.82,Default,,0,0,0,,C'est ma faute.
+Dialogue: 0,0:15:08.49,0:15:10.24,Default,,0,0,0,,Je me demande où il se trouve.
+Dialogue: 0,0:15:10.57,0:15:14.66,Default,,0,0,0,,J'espère qu'il va bien\Net qu'il n'a pas faim.
+Dialogue: 0,0:15:14.83,0:15:16.75,Default,,0,0,0,,Je suis mort d'inquiétude.
+Dialogue: 0,0:15:17.50,0:15:20.87,Default,,0,0,0,,Vous mettiez donc de la nourriture\Nsur la rambarde
+Dialogue: 0,0:15:21.12,0:15:23.13,Default,,0,0,0,,en espérant qu'il revienne.
+Dialogue: 0,0:15:23.84,0:15:26.30,Default,,0,0,0,,Oui, je le fais\Npar acquis de conscience,
+Dialogue: 0,0:15:26.55,0:15:29.88,Default,,0,0,0,,mais je garde malgré tout\Nespoir qu'il revienne.
+Dialogue: 0,0:15:30.72,0:15:34.26,Default,,0,0,0,,Toujours aucun signe de lui.
+Dialogue: 0,0:15:35.89,0:15:38.81,Default,,0,0,0,,J'allais justement\Nsortir pour le chercher.
+Dialogue: 0,0:15:39.43,0:15:40.56,Default,,0,0,0,,Vous le trouverez !
+Dialogue: 0,0:15:40.98,0:15:43.81,Default,,0,0,0,,Je suis certain qu'il va revenir !
+Dialogue: 0,0:15:44.69,0:15:45.65,Default,,0,0,0,,C'est gentil.
+Dialogue: 0,0:15:45.90,0:15:49.78,Default,,0,0,0,,Mais au fait,\Nil y avait une lumière en face !
+Dialogue: 0,0:15:50.32,0:15:54.45,Default,,0,0,0,,L'immeuble est en chantier,\Nce devait être les travaux.
+Dialogue: 0,0:15:54.95,0:15:56.12,Default,,0,0,0,,On est sauvés.
+Dialogue: 0,0:15:56.28,0:15:57.79,Default,,0,0,0,,On a pu l'enfumer.
+Dialogue: 0,0:16:00.71,0:16:01.71,Default,,0,0,0,,Maintenant, c'est Ayumi !
+Dialogue: 0,0:16:02.08,0:16:03.08,Default,,0,0,0,,Ayumi !
+Dialogue: 0,0:16:03.92,0:16:05.38,Default,,0,0,0,,{\i1}Tu m'entends, Conan ?{\i0}
+Dialogue: 0,0:16:05.75,0:16:09.63,Default,,0,0,0,,{\i1}Ce monsieur n'est peut-être pas\Nl'amoureux de la dame.{\i0}
+Dialogue: 0,0:16:10.17,0:16:13.22,Default,,0,0,0,,Ils ont l'air de se disputer,\Ntu les entends ?
+Dialogue: 0,0:16:13.80,0:16:15.60,Default,,0,0,0,,{\i1}Arrête de me donner des ordres !{\i0}
+Dialogue: 0,0:16:15.76,0:16:17.76,Default,,0,0,0,,{\i1}Je suis aussi pressée\Nque toi de vendre !{\i0}
+Dialogue: 0,0:16:17.97,0:16:20.56,Default,,0,0,0,,{\i1}C'est moi qui trouve les clients !{\i0}
+Dialogue: 0,0:16:20.85,0:16:22.81,Default,,0,0,0,,"Vendre" ? "Clients" ?
+Dialogue: 0,0:16:25.11,0:16:26.11,Default,,0,0,0,,{\i1}Oui ?{\i0}
+Dialogue: 0,0:16:28.40,0:16:29.23,Default,,0,0,0,,Tiens donc ?
+Dialogue: 0,0:16:29.44,0:16:30.32,Default,,0,0,0,,Bonsoir,
+Dialogue: 0,0:16:30.78,0:16:34.16,Default,,0,0,0,,excusez-moi, ma peluche\Nest tombée sur votre balcon.
+Dialogue: 0,0:16:34.78,0:16:36.53,Default,,0,0,0,,Vous alliez sortir ?
+Dialogue: 0,0:16:37.70,0:16:39.62,Default,,0,0,0,,Oui, j'allais au travail.
+Dialogue: 0,0:16:39.79,0:16:40.91,Default,,0,0,0,,Mais j'ai le temps.
+Dialogue: 0,0:16:41.41,0:16:45.83,Default,,0,0,0,,Au travail ? Cet homme\Nprend des leçons avec elle ?
+Dialogue: 0,0:16:46.00,0:16:49.17,Default,,0,0,0,,C'est peut-être son manager\Nou son associé ?
+Dialogue: 0,0:16:52.38,0:16:54.68,Default,,0,0,0,,Vous avez plein de tapis de yoga !
+Dialogue: 0,0:16:54.84,0:16:55.43,Default,,0,0,0,,Ah non !
+Dialogue: 0,0:16:57.47,0:17:00.43,Default,,0,0,0,,Évite de toucher à tout.
+Dialogue: 0,0:17:00.85,0:17:05.31,Default,,0,0,0,,Ce sont mes outils de travail,\Ntu vois ?
+Dialogue: 0,0:17:05.48,0:17:06.90,Default,,0,0,0,,Mes marchandises.
+Dialogue: 0,0:17:07.15,0:17:08.44,Default,,0,0,0,,Tu comprends ?
+Dialogue: 0,0:17:08.90,0:17:11.44,Default,,0,0,0,,C'est elle qui a conçu ces tapis.
+Dialogue: 0,0:17:12.03,0:17:15.70,ST_HAUT,,0,0,0,,On ne sait pas encore s'ils vont\Nse vendre, alors ça la stresse.
+Dialogue: 0,0:17:15.86,0:17:17.32,Default,,0,0,0,,Excuse-la.
+Dialogue: 0,0:17:17.74,0:17:19.16,Default,,0,0,0,,Ah bon...
+Dialogue: 0,0:17:19.37,0:17:22.20,Default,,0,0,0,,Pardon d'avoir voulu\Nles toucher sans savoir.
+Dialogue: 0,0:17:22.79,0:17:24.75,Default,,0,0,0,,Ouf, ce n'était que ça...
+Dialogue: 0,0:17:24.96,0:17:26.75,Default,,0,0,0,,C'est donc son associé ?
+Dialogue: 0,0:17:27.00,0:17:28.21,Default,,0,0,0,,Oui, apparemment.
+Dialogue: 0,0:17:36.43,0:17:38.01,Default,,0,0,0,,C'est bien ta peluche ?
+Dialogue: 0,0:17:40.06,0:17:43.14,Default,,0,0,0,,Tiens, ne la fais plus tomber\Nà l'avenir.
+Dialogue: 0,0:17:43.35,0:17:44.35,Default,,0,0,0,,Merci !
+Dialogue: 0,0:17:45.10,0:17:47.06,Default,,0,0,0,,Il est tard, rentre vite chez toi.
+Dialogue: 0,0:17:47.27,0:17:47.90,Default,,0,0,0,,Oui !
+Dialogue: 0,0:17:48.73,0:17:50.40,Default,,0,0,0,,Ce n'est pas eux non plus ?
+Dialogue: 0,0:17:50.57,0:17:53.65,Default,,0,0,0,,Ils n'ont rien de suspect à priori.
+Dialogue: 0,0:17:53.82,0:17:56.82,Default,,0,0,0,,Arrêtez vos bêtises\Net revenez ici !
+Dialogue: 0,0:17:57.11,0:17:58.07,Default,,0,0,0,,Compris.
+Dialogue: 0,0:17:58.49,0:17:59.53,Default,,0,0,0,,D'accord.
+Dialogue: 0,0:18:02.16,0:18:06.08,Default,,0,0,0,,On va rester en planque\Net surveiller la suite.
+Dialogue: 0,0:18:11.88,0:18:12.75,Default,,0,0,0,,{\i1}Ayumi ?{\i0}
+Dialogue: 0,0:18:13.42,0:18:14.76,Default,,0,0,0,,D'où venait cette voix ?
+Dialogue: 0,0:18:16.59,0:18:17.76,Default,,0,0,0,,Qu'est-ce que c'est ?
+Dialogue: 0,0:18:18.18,0:18:20.01,Default,,0,0,0,,J'ai cru qu'il émettait une voix.
+Dialogue: 0,0:18:20.64,0:18:22.47,Default,,0,0,0,,On aurait dit celle d'un enfant.
+Dialogue: 0,0:18:22.68,0:18:24.35,Default,,0,0,0,,Oui, tu as raison.
+Dialogue: 0,0:18:24.68,0:18:26.35,Default,,0,0,0,,Reste-là, Conan !
+Dialogue: 0,0:18:31.69,0:18:34.36,Default,,0,0,0,,Ce n'est pas\Nun simple jouet d'enfant.
+Dialogue: 0,0:18:34.53,0:18:36.65,Default,,0,0,0,,On s'en débarrasse par précaution ?
+Dialogue: 0,0:18:36.99,0:18:39.53,Default,,0,0,0,,Mais comment ?
+Dialogue: 0,0:18:40.45,0:18:42.24,Default,,0,0,0,,Si on le met dans l'eau,
+Dialogue: 0,0:18:42.41,0:18:44.91,Default,,0,0,0,,il devrait arrêter de fonctionner.
+Dialogue: 0,0:18:46.79,0:18:47.29,Default,,0,0,0,,Hé !
+Dialogue: 0,0:18:49.83,0:18:51.25,Default,,0,0,0,,Pourquoi tu t'enfuis ?
+Dialogue: 0,0:18:54.59,0:18:57.67,Default,,0,0,0,,Dis-moi,\Nqu'es-tu venue vraiment faire ici ?
+Dialogue: 0,0:18:58.30,0:18:59.55,Default,,0,0,0,,Qu'est-ce qui se passe ?
+Dialogue: 0,0:19:03.47,0:19:06.68,Default,,0,0,0,,Tu vas m'expliquer\Nce que tu fais là.
+Dialogue: 0,0:19:08.10,0:19:08.81,Default,,0,0,0,,Police !
+Dialogue: 0,0:19:11.15,0:19:13.44,Default,,0,0,0,,- Vous êtes suspectés...\N- N'approche pas !
+Dialogue: 0,0:19:14.23,0:19:16.32,Default,,0,0,0,,Si tu tiens à la vie de la gamine !
+Dialogue: 0,0:19:17.90,0:19:18.82,Default,,0,0,0,,Au secours !
+Dialogue: 0,0:19:19.36,0:19:20.70,Default,,0,0,0,,Ayumi !
+Dialogue: 0,0:19:20.86,0:19:22.16,Default,,0,0,0,,Inspecteur Chiba !
+Dialogue: 0,0:19:23.16,0:19:25.04,Default,,0,0,0,,Réceptionnez Ayumi !
+Dialogue: 0,0:19:25.66,0:19:26.41,Default,,0,0,0,,Je m'en occupe !
+Dialogue: 0,0:19:34.63,0:19:35.75,Default,,0,0,0,,File !
+Dialogue: 0,0:19:48.06,0:19:50.06,Default,,0,0,0,,- Ayumi !\N- Tu vas bien ?
+Dialogue: 0,0:19:52.52,0:19:54.36,Default,,0,0,0,,Merci, inspecteur Chiba !
+Dialogue: 0,0:19:56.94,0:19:57.78,Default,,0,0,0,,Je suis soulagé.
+Dialogue: 0,0:19:58.94,0:20:01.78,Default,,0,0,0,,Tu n'es pas blessée, Ayumi ?
+Dialogue: 0,0:20:02.36,0:20:05.37,Default,,0,0,0,,Je vais bien,\Nje n'ai mal nulle part.
+Dialogue: 0,0:20:05.62,0:20:07.37,Default,,0,0,0,,Et vous, vous allez bien ?
+Dialogue: 0,0:20:07.54,0:20:11.62,Default,,0,0,0,,J'ai un peu mal au dos,\Nmais rien de grave.
+Dialogue: 0,0:20:12.92,0:20:13.92,Default,,0,0,0,,Tant mieux, alors !
+Dialogue: 0,0:20:14.46,0:20:15.96,Default,,0,0,0,,Ayumi !
+Dialogue: 0,0:20:16.21,0:20:17.46,Default,,0,0,0,,Conan !
+Dialogue: 0,0:20:18.88,0:20:20.01,Default,,0,0,0,,Ouf.
+Dialogue: 0,0:20:44.49,0:20:45.74,Default,,0,0,0,,C'est moi !
+Dialogue: 0,0:20:53.75,0:20:57.21,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:20:59.75,0:21:02.47,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:22:06.24,0:22:08.57,ST_HAUT,,0,0,0,,QUELQUES JOURS PLUS TARD
+Dialogue: 0,0:22:08.74,0:22:10.12,Default,,0,0,0,,PAIN DU POLICIER\NPAIN MELON
+Dialogue: 0,0:22:10.28,0:22:11.70,Default,,0,0,0,,Bienvenue.
+Dialogue: 0,0:22:17.08,0:22:19.92,Default,,0,0,0,,Ce ne sera pas perdu,\Nmême si j'en prends trop.
+Dialogue: 0,0:22:25.17,0:22:26.30,Default,,0,0,0,,On a tout vu !
+Dialogue: 0,0:22:26.47,0:22:30.72,Default,,0,0,0,,Des beignets et du lait...\NVous êtes encore en planque !
+Dialogue: 0,0:22:31.05,0:22:33.26,Default,,0,0,0,,On va vous aider à nouveau !
+Dialogue: 0,0:22:33.97,0:22:36.89,Default,,0,0,0,,Vous vous méprenez,\Nc'est juste mon repas.
+Dialogue: 0,0:22:37.48,0:22:38.44,Default,,0,0,0,,C'est vrai ?
+Dialogue: 0,0:22:38.73,0:22:40.11,Default,,0,0,0,,Vrai de vrai.
+Dialogue: 0,0:22:40.81,0:22:44.11,Default,,0,0,0,,Et je vous rappelle\Nqu'on vous a bien grondés
+Dialogue: 0,0:22:44.28,0:22:46.19,Default,,0,0,0,,car vous vous êtes mis en danger !
+Dialogue: 0,0:22:48.74,0:22:50.53,Default,,0,0,0,,Oui, c'est vrai...
+Dialogue: 0,0:22:52.08,0:22:55.58,Default,,0,0,0,,Mais l'affaire a été résolue\Ngrâce à nous !
+Dialogue: 0,0:22:55.75,0:22:57.21,Default,,0,0,0,,C'est vrai, ça aussi !
+Dialogue: 0,0:22:57.62,0:23:00.96,Default,,0,0,0,,Et en cas de danger,\Nvous nous protégerez !
+Dialogue: 0,0:23:03.88,0:23:05.26,Default,,0,0,0,,C'est clair !
+Dialogue: 0,0:23:06.17,0:23:08.97,Default,,0,0,0,,{\i1}Je vous jure,\Nils sont irrécupérables.{\i0}
+Dialogue: 0,0:23:09.76,0:23:12.51,Default,,0,0,0,,On compte sur vous,\Ninspecteur Chiba !
+Dialogue: 0,0:23:12.72,0:23:14.39,Default,,0,0,0,,Aïeuh !
+Dialogue: 0,0:23:15.06,0:23:18.48,Default,,0,0,0,,On a mis nos récompenses\Ndans votre panier.
+Dialogue: 0,0:23:18.64,0:23:20.98,Default,,0,0,0,,On vous laisse tout payer !
+Dialogue: 0,0:23:21.19,0:23:23.73,Default,,0,0,0,,On est toujours prêts à aider !
+Dialogue: 0,0:23:25.86,0:23:28.61,Default,,0,0,0,,Je suis désolé, inspecteur Chiba.

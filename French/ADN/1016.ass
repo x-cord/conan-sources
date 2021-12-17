@@ -1,0 +1,309 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:45.75,0:00:47.17,Default,,0,0,0,,Vous êtes blessé ?
+Dialogue: 0,0:00:47.67,0:00:48.46,Default,,0,0,0,,Ça fait mal...
+Dialogue: 0,0:00:48.63,0:00:51.38,Default,,0,0,0,,Un mal de chien !\NVous croyez que je vais mourir ?
+Dialogue: 0,0:00:52.01,0:00:52.71,Default,,0,0,0,,Non,
+Dialogue: 0,0:00:53.01,0:00:54.55,Default,,0,0,0,,si on stoppe l'hémorragie.
+Dialogue: 0,0:00:55.22,0:00:56.26,Default,,0,0,0,,Mais comment ?
+Dialogue: 0,0:01:01.64,0:01:03.93,Default,,0,0,0,,J'ai besoin de votre écharpe.
+Dialogue: 0,0:01:05.27,0:01:06.06,Default,,0,0,0,,Tenez.
+Dialogue: 0,0:01:09.98,0:01:11.78,Default,,0,0,0,,On déclenche l'arrêt d'urgence ?
+Dialogue: 0,0:01:12.40,0:01:13.53,Default,,0,0,0,,Hein ? Ah oui !
+Dialogue: 0,0:01:28.46,0:01:30.46,Default,,0,0,0,,{\i1}Qu'y a-t-il ? Un problème ?{\i0}
+Dialogue: 0,0:01:30.63,0:01:31.67,Default,,0,0,0,,Il y a un blessé,
+Dialogue: 0,0:01:32.46,0:01:33.84,Default,,0,0,0,,{\i1}un des passagers.{\i0}
+Dialogue: 0,0:01:34.17,0:01:36.13,Default,,0,0,0,,{\i1}Appelez une ambulance et la police !{\i0}
+Dialogue: 0,0:01:37.09,0:01:39.14,Default,,0,0,0,,{\i1}Vite, le temps presse !{\i0}
+Dialogue: 0,0:01:39.80,0:01:40.30,Default,,0,0,0,,D'accord !
+Dialogue: 0,0:01:50.61,0:01:52.11,ST_HAUT,,0,0,0,,{\i1}Le premier pas d'un long chemin,{\i0}
+Dialogue: 0,0:01:52.27,0:01:54.36,ST_HAUT,,0,0,0,,{\i1}1 000 mystères résolus,\Nen route vers un nouveau monde !{\i0}
+Dialogue: 0,0:01:54.65,0:01:56.40,Default,,0,0,0,,{\i1}Une balle frappe le wagon,{\i0}
+Dialogue: 0,0:01:56.57,0:01:58.57,Default,,0,0,0,,{\i1}poursuivons le sniper disparu !{\i0}
+Dialogue: 0,0:01:58.95,0:02:02.03,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:02.20,0:02:04.62,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:05.54,0:02:07.71,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:19.01,0:02:20.59,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:02:21.47,0:02:23.26,ST_HAUT,,0,0,0,,Directeur artistique :\NJunichi Higashi
+Dialogue: 0,0:02:26.81,0:02:28.69,ST_HAUT_GAUCHE,,0,0,0,,Direction du son :\NY. Urakami, K. Urakami
+Dialogue: 0,0:02:30.77,0:02:32.65,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:02:37.49,0:02:39.45,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Zero kara hajimete"
+Dialogue: 0,0:02:41.66,0:02:43.78,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:45.24,0:02:47.29,ST_HAUT,,0,0,0,,Projet initial : Takenori Ichihara,\NNaota Machida
+Dialogue: 0,0:02:55.09,0:02:57.17,ST_HAUT,,0,0,0,,Producteurs : Isato Yonekura,\NKiyoaki Terashima
+Dialogue: 0,0:03:04.39,0:03:06.60,ST_HAUT,,0,0,0,,Chefs producteurs :\NKana Sasaki, Keiichi Ishiyama
+Dialogue: 0,0:03:13.10,0:03:15.61,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:03:27.04,0:03:29.50,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:45.60,0:03:48.60,Default,,0,0,0,,{\i1}Le Sniper et le Monorail\N(1re partie){\i0}
+Dialogue: 0,0:04:03.36,0:04:05.12,Default,,0,0,0,,Tout va bien ?\NComment va le blessé ?
+Dialogue: 0,0:04:05.41,0:04:09.12,Default,,0,0,0,,J'ai arrêté l'hémorragie,\Nil se repose.
+Dialogue: 0,0:04:09.74,0:04:12.41,Default,,0,0,0,,Allons chercher le tireur, tonton !
+Dialogue: 0,0:04:12.83,0:04:13.79,Default,,0,0,0,,C'était mon intention.
+Dialogue: 0,0:04:14.29,0:04:15.33,Default,,0,0,0,,Oh là !
+Dialogue: 0,0:04:15.50,0:04:16.96,Default,,0,0,0,,Préservez les lieux,
+Dialogue: 0,0:04:17.21,0:04:20.26,Default,,0,0,0,,ne touchez à rien\Njusqu'à l'arrivée de la police !
+Dialogue: 0,0:04:20.67,0:04:21.63,Default,,0,0,0,,Compris !
+Dialogue: 0,0:04:25.59,0:04:28.47,Default,,0,0,0,,{\i1}D'où venait le tir ?\NQuel est le sens du vent ?{\i0}
+Dialogue: 0,0:04:31.10,0:04:32.06,Default,,0,0,0,,On ne traîne pas !
+Dialogue: 0,0:04:32.39,0:04:33.60,Default,,0,0,0,,Attends !
+Dialogue: 0,0:04:34.23,0:04:37.11,Default,,0,0,0,,Allô ? Nous avons un tireur d'élite\Nle long du monorail !
+Dialogue: 0,0:04:37.27,0:04:41.11,Default,,0,0,0,,On pourra l'isoler sur l'île\Nsi vous posez des barrages,
+Dialogue: 0,0:04:41.86,0:04:42.86,Default,,0,0,0,,prenez les mesures !
+Dialogue: 0,0:04:43.32,0:04:44.61,Default,,0,0,0,,On va le coincer !
+Dialogue: 0,0:04:49.12,0:04:52.62,Default,,0,0,0,,Vous l'avez entendu, inspecteur ?\NQue faisons-nous ?
+Dialogue: 0,0:04:55.17,0:04:59.21,Default,,0,0,0,,Bien, dites à l'exploitant\Ndu monorail d'arrêter le trafic.
+Dialogue: 0,0:04:59.75,0:05:04.22,Default,,0,0,0,,Faites contrôler tous les passagers\Ndes gares de la baie de Tokyo
+Dialogue: 0,0:05:04.38,0:05:06.13,Default,,0,0,0,,par la régie des transports.
+Dialogue: 0,0:05:06.84,0:05:08.55,Default,,0,0,0,,Placez des barrages
+Dialogue: 0,0:05:08.72,0:05:10.89,Default,,0,0,0,,sur tous les ponts menant à l'île.
+Dialogue: 0,0:05:11.10,0:05:14.73,Default,,0,0,0,,Nous allons isoler la zone\Net coincer le tireur !
+Dialogue: 0,0:05:14.98,0:05:15.52,Default,,0,0,0,,À vos ordres !
+Dialogue: 0,0:05:34.87,0:05:37.17,Default,,0,0,0,,{\i1}Le monorail était dans ces environs{\i0}
+Dialogue: 0,0:05:37.33,0:05:40.09,Default,,0,0,0,,{\i1}quand l'homme a reçu la balle.{\i0}
+Dialogue: 0,0:05:46.34,0:05:50.30,Default,,0,0,0,,{\i1}La balle a traversé\Nla deuxième fenêtre du wagon.{\i0}
+Dialogue: 0,0:05:54.39,0:05:56.56,Default,,0,0,0,,{\i1}Elle a fini dans le bras de la victime.{\i0}
+Dialogue: 0,0:05:57.35,0:05:58.98,Default,,0,0,0,,{\i1}Avec l'angle de l'impact,{\i0}
+Dialogue: 0,0:05:59.15,0:05:59.81,Default,,0,0,0,,SENS DU TRAIN
+Dialogue: 0,0:06:00.44,0:06:01.98,Default,,0,0,0,,{\i1}la position de la victime{\i0}
+Dialogue: 0,0:06:02.69,0:06:06.57,Default,,0,0,0,,{\i1}et l'endroit\Noù se trouvait le monorail,{\i0}
+Dialogue: 0,0:06:07.36,0:06:10.91,Default,,0,0,0,,{\i1}on peut calculer\Nd'où le coup a été tiré.{\i0}
+Dialogue: 0,0:06:19.96,0:06:22.00,Default,,0,0,0,,{\i1}Le tir a sûrement été effectué...{\i0}
+Dialogue: 0,0:06:25.42,0:06:26.63,Default,,0,0,0,,depuis ce bâtiment !
+Dialogue: 0,0:06:27.05,0:06:29.01,Default,,0,0,0,,PASSAGE PIÉTONS ET VÉLOS
+Dialogue: 0,0:06:29.34,0:06:30.30,Default,,0,0,0,,Maintenant...
+Dialogue: 0,0:06:31.01,0:06:33.89,Default,,0,0,0,,Comment tu peux le savoir ?
+Dialogue: 0,0:06:34.35,0:06:38.39,Default,,0,0,0,,Eh bien, mon horoscope disait\Nque j'aurais de la chance.
+Dialogue: 0,0:06:38.94,0:06:41.15,Default,,0,0,0,,Je vois, ton horoscope...
+Dialogue: 0,0:06:41.60,0:06:43.40,Default,,0,0,0,,Tu te fiches de moi ?
+Dialogue: 0,0:06:43.73,0:06:47.65,Default,,0,0,0,,Tu penses que je crois\Nà ces inepties ?
+Dialogue: 0,0:06:50.24,0:06:52.91,Default,,0,0,0,,J'ai aperçu quelqu'un de suspect !
+Dialogue: 0,0:06:53.07,0:06:54.87,Default,,0,0,0,,Comment ? Tu es sûr ?
+Dialogue: 0,0:06:55.20,0:06:57.37,Default,,0,0,0,,Allez gamin, suis-moi !
+Dialogue: 0,0:07:01.29,0:07:04.21,Default,,0,0,0,,Attends-moi, tonton Kogorô !
+Dialogue: 0,0:07:10.26,0:07:14.14,Default,,0,0,0,,Excusez-moi, c'est une urgence !\NPouvez-vous ouvrir ?
+Dialogue: 0,0:07:14.30,0:07:17.22,Default,,0,0,0,,{\i1}Si on prend en compte\Nla hauteur du wagon,{\i0}
+Dialogue: 0,0:07:17.47,0:07:20.27,Default,,0,0,0,,{\i1}la balle a dû être tirée...{\i0}
+Dialogue: 0,0:07:25.07,0:07:28.32,Default,,0,0,0,,Tonton, c'est au 4e étage !\NLà où la fenêtre est ouverte !
+Dialogue: 0,0:07:28.53,0:07:29.94,Default,,0,0,0,,Quoi ? T'es sûr ?
+Dialogue: 0,0:07:31.32,0:07:34.20,Default,,0,0,0,,Oui, je l'ai vu depuis le monorail.
+Dialogue: 0,0:07:58.39,0:07:59.22,Default,,0,0,0,,C'est ouvert.
+Dialogue: 0,0:08:21.04,0:08:22.50,Default,,0,0,0,,Il n'y a personne.
+Dialogue: 0,0:08:23.92,0:08:24.79,Default,,0,0,0,,Il s'est enfui.
+Dialogue: 0,0:08:38.22,0:08:39.85,Default,,0,0,0,,C'est vide et en plus,
+Dialogue: 0,0:08:40.02,0:08:41.89,Default,,0,0,0,,il n'y a aucune trace.
+Dialogue: 0,0:08:42.43,0:08:45.27,Default,,0,0,0,,Concernant ce fameux suspect,
+Dialogue: 0,0:08:45.44,0:08:47.15,Default,,0,0,0,,tu as peut-être mal vu.
+Dialogue: 0,0:08:47.36,0:08:50.65,Default,,0,0,0,,{\i1}Je n'ai rien vu, surtout.{\i0}
+Dialogue: 0,0:09:26.81,0:09:30.32,Default,,0,0,0,,Il n'y a pas de doute,\Nil a tiré d'ici.
+Dialogue: 0,0:09:39.20,0:09:40.41,Default,,0,0,0,,À première vue,
+Dialogue: 0,0:09:40.66,0:09:43.08,Default,,0,0,0,,c'est l'appartement\Nd'un homme célibataire.
+Dialogue: 0,0:09:43.50,0:09:45.71,Default,,0,0,0,,Fouille tout de fond en comble,
+Dialogue: 0,0:09:46.00,0:09:47.54,Default,,0,0,0,,je vais voir dehors.
+Dialogue: 0,0:09:48.42,0:09:49.50,Default,,0,0,0,,Attends une minute !
+Dialogue: 0,0:09:49.83,0:09:51.84,Default,,0,0,0,,On n'a pas le droit d'être ici !
+Dialogue: 0,0:09:52.17,0:09:52.92,Default,,0,0,0,,Tu m'écoutes ?
+Dialogue: 0,0:09:55.63,0:09:57.18,Default,,0,0,0,,{\i1}Allô ? Takagi à l'appareil !{\i0}
+Dialogue: 0,0:09:57.47,0:09:58.72,Default,,0,0,0,,Qu'y a-t-il ?
+Dialogue: 0,0:09:59.14,0:10:00.97,Default,,0,0,0,,Nous sommes au monorail,
+Dialogue: 0,0:10:01.14,0:10:03.72,Default,,0,0,0,,les experts inspectent la rame.
+Dialogue: 0,0:10:04.18,0:10:06.60,Default,,0,0,0,,Comme vous l'avez proposé,
+Dialogue: 0,0:10:06.98,0:10:09.48,Default,,0,0,0,,nous avons clos toutes les routes.
+Dialogue: 0,0:10:09.81,0:10:13.40,Default,,0,0,0,,Vous avez découvert\Nde nouveaux éléments ?
+Dialogue: 0,0:10:13.90,0:10:16.61,ST_HAUT,,0,0,0,,En effet, la victime a 28 ans
+Dialogue: 0,0:10:17.07,0:10:20.20,ST_HAUT,,0,0,0,,et s'appelle Daisuke Maruta.
+Dialogue: 0,0:10:20.57,0:10:22.83,ST_HAUT,,0,0,0,,Il travaille dans le bâtiment.
+Dialogue: 0,0:10:23.12,0:10:27.08,Default,,0,0,0,,Il a été touché au bras gauche,\Nmais sa vie n'est pas en danger.
+Dialogue: 0,0:10:27.37,0:10:30.79,Default,,0,0,0,,La balle a été extraite\Net il récupère.
+Dialogue: 0,0:10:31.33,0:10:35.01,Default,,0,0,0,,En outre, il ne connaît\Naucun détenteur d'arme à feu
+Dialogue: 0,0:10:35.17,0:10:37.88,Default,,0,0,0,,et n'aurait rien fait\Nqui appellerait une vengeance.
+Dialogue: 0,0:10:38.43,0:10:41.14,Default,,0,0,0,,{\i1}En tout cas, c'est ce qu'il clame,{\i0}
+Dialogue: 0,0:10:41.30,0:10:43.60,Default,,0,0,0,,{\i1}je vais vérifier sa déclaration.{\i0}
+Dialogue: 0,0:10:43.89,0:10:44.68,Default,,0,0,0,,Compris,
+Dialogue: 0,0:10:44.89,0:10:47.77,Default,,0,0,0,,je vous contacte\Nsi je trouve le tireur.
+Dialogue: 0,0:10:55.65,0:10:58.95,Default,,0,0,0,,{\i1}Une chose lourde a été tirée,\Nil y a une légère trace.{\i0}
+Dialogue: 0,0:11:01.82,0:11:06.16,Default,,0,0,0,,TOBOGGAN D'ÉVACUATION
+Dialogue: 0,0:11:08.37,0:11:10.17,Default,,0,0,0,,Tiens, c'est Conan ?\NQu'est-ce que...
+Dialogue: 0,0:11:10.33,0:11:11.58,Default,,0,0,0,,{\i1}C'est moi, inspecteur.{\i0}
+Dialogue: 0,0:11:11.96,0:11:15.63,Default,,0,0,0,,M. Môri ? Pourquoi appelez-vous\Nde son téléphone ?
+Dialogue: 0,0:11:15.96,0:11:18.55,Default,,0,0,0,,Vous avez trouvé le coupable ?
+Dialogue: 0,0:11:18.97,0:11:20.76,Default,,0,0,0,,Non, pas encore mais...
+Dialogue: 0,0:11:20.93,0:11:23.39,Default,,0,0,0,,{\i1}Vous avez oublié\Nde me dire quelque chose ?{\i0}
+Dialogue: 0,0:11:23.55,0:11:25.81,Default,,0,0,0,,Eh bien... oui, en effet.
+Dialogue: 0,0:11:26.10,0:11:29.52,Default,,0,0,0,,{\i1}Il devait avoir tonton\Nau téléphone à l'instant.{\i0}
+Dialogue: 0,0:11:30.02,0:11:33.61,Default,,0,0,0,,Je voudrais que vous envoyiez\Nles experts quelque part.
+Dialogue: 0,0:11:36.57,0:11:38.03,Default,,0,0,0,,Je compte sur vous.
+Dialogue: 0,0:11:39.82,0:11:41.99,Default,,0,0,0,,Qu'est-ce que tu fiches là ?
+Dialogue: 0,0:11:42.36,0:11:44.49,Default,,0,0,0,,Rien de spécial, je te jure !
+Dialogue: 0,0:11:44.70,0:11:45.41,Default,,0,0,0,,En route,
+Dialogue: 0,0:11:45.74,0:11:49.00,Default,,0,0,0,,on perd notre temps ici !
+Dialogue: 0,0:11:55.63,0:11:56.63,Default,,0,0,0,,Voyons...
+Dialogue: 0,0:12:01.68,0:12:02.43,Default,,0,0,0,,Tonton.
+Dialogue: 0,0:12:03.43,0:12:04.26,Default,,0,0,0,,Un problème ?
+Dialogue: 0,0:12:04.80,0:12:06.64,Default,,0,0,0,,C'est quoi d'après toi ?
+Dialogue: 0,0:12:07.89,0:12:08.72,Default,,0,0,0,,Du sang...
+Dialogue: 0,0:12:09.14,0:12:10.93,Default,,0,0,0,,Les traces partent par là.
+Dialogue: 0,0:12:13.65,0:12:17.27,Default,,0,0,0,,Mais alors,\Nle tireur est dans cette direction !
+Dialogue: 0,0:12:17.44,0:12:18.15,Default,,0,0,0,,On fonce !
+Dialogue: 0,0:12:18.44,0:12:19.11,Default,,0,0,0,,J'arrive !
+Dialogue: 0,0:12:21.86,0:12:23.66,Default,,0,0,0,,Oh là ! Une minute !
+Dialogue: 0,0:12:24.74,0:12:26.57,Default,,0,0,0,,Qu'est-ce qui te prend ?
+Dialogue: 0,0:12:26.78,0:12:27.62,Default,,0,0,0,,Rappelle-toi,
+Dialogue: 0,0:12:27.95,0:12:30.66,Default,,0,0,0,,on cherche un tireur, pas vrai ?
+Dialogue: 0,0:12:31.04,0:12:32.54,Default,,0,0,0,,Oui, c'est bien ça.
+Dialogue: 0,0:12:32.75,0:12:36.13,Default,,0,0,0,,En quoi serait-il lié\Nà ces traces de sang ?
+Dialogue: 0,0:12:42.80,0:12:45.64,Default,,0,0,0,,CONTRÔLES EN COURS
+Dialogue: 0,0:12:45.80,0:12:48.64,ST_BAS_DROITE,,0,0,0,,CONTRÔLES EN COURS
+Dialogue: 0,0:12:51.81,0:12:54.64,ST_HAUT,,0,0,0,,ARRÊTEZ-VOUS
+Dialogue: 0,0:12:58.44,0:12:59.48,Default,,0,0,0,,C'est Takagi.
+Dialogue: 0,0:13:00.19,0:13:00.90,Default,,0,0,0,,Allô ?
+Dialogue: 0,0:13:01.23,0:13:04.78,Default,,0,0,0,,Vous aviez vu juste,\Nvous avez vraiment un sacré flair !
+Dialogue: 0,0:13:05.20,0:13:07.66,Default,,0,0,0,,De quoi parlez-vous ?
+Dialogue: 0,0:13:08.12,0:13:09.16,Default,,0,0,0,,C'est évident,
+Dialogue: 0,0:13:09.62,0:13:11.83,Default,,0,0,0,,je parle de l'appartement 505.
+Dialogue: 0,0:13:12.37,0:13:16.17,Default,,0,0,0,,Nous avons trouvé de la poudre\Ncomme vous l'aviez prédit !
+Dialogue: 0,0:13:16.62,0:13:17.63,Default,,0,0,0,,Comment ?
+Dialogue: 0,0:13:17.96,0:13:21.30,Default,,0,0,0,,Le tir a donc bien été effectué\Ndepuis l'appartement !
+Dialogue: 0,0:13:21.63,0:13:24.30,Default,,0,0,0,,{\i1}Oui, mais ce n'est pas tout.{\i0}
+Dialogue: 0,0:13:24.67,0:13:26.18,Default,,0,0,0,,En plus de la poudre,
+Dialogue: 0,0:13:26.47,0:13:30.06,Default,,0,0,0,,nous avons trouvé\Ndes traces au luminol.
+Dialogue: 0,0:13:31.31,0:13:32.27,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:13:34.48,0:13:36.94,Default,,0,0,0,,Du sang avait giclé\Nsur le plancher
+Dialogue: 0,0:13:37.10,0:13:38.44,Default,,0,0,0,,et avait été essuyé.
+Dialogue: 0,0:13:38.61,0:13:40.82,Default,,0,0,0,,Vu la quantité,\Nla victime est sûrement...
+Dialogue: 0,0:13:41.32,0:13:43.07,Default,,0,0,0,,{\i1}Une chose traînée au sol,{\i0}
+Dialogue: 0,0:13:43.57,0:13:45.28,Default,,0,0,0,,{\i1}un emballage plastique,{\i0}
+Dialogue: 0,0:13:45.53,0:13:48.57,Default,,0,0,0,,{\i1}la balle et les traces de sang\Nde l'appartement.{\i0}
+Dialogue: 0,0:13:51.49,0:13:55.08,Default,,0,0,0,,Ça veut dire que Conan\Nétait tombé juste.
+Dialogue: 0,0:13:55.25,0:13:57.25,Default,,0,0,0,,J'ai juste tiré au hasard.
+Dialogue: 0,0:13:57.67,0:13:58.54,Default,,0,0,0,,Tiré au hasard ?
+Dialogue: 0,0:13:58.71,0:14:00.25,Default,,0,0,0,,Oui, tiré au hasard.
+Dialogue: 0,0:14:00.79,0:14:05.09,Default,,0,0,0,,C'était aussi un coup du sort\Ns'il y avait du sang ?
+Dialogue: 0,0:14:05.38,0:14:06.68,Default,,0,0,0,,"Tirer" au hasard...
+Dialogue: 0,0:14:07.38,0:14:08.13,Default,,0,0,0,,"Coup" du sort ?
+Dialogue: 0,0:14:09.22,0:14:09.97,Default,,0,0,0,,La balle !
+Dialogue: 0,0:14:10.85,0:14:14.56,Default,,0,0,0,,Dites-moi, Takagi,\Nqu'en est-il de la balle ?
+Dialogue: 0,0:14:14.93,0:14:19.15,Default,,0,0,0,,Eh bien, le projectile extrait\Ndu bras de M. Maruta
+Dialogue: 0,0:14:19.31,0:14:21.11,Default,,0,0,0,,a été expertisé.
+Dialogue: 0,0:14:21.65,0:14:23.82,Default,,0,0,0,,C'est du calibre .30 7.62 mm,
+Dialogue: 0,0:14:23.98,0:14:26.70,Default,,0,0,0,,une balle chemisée Mauser
+Dialogue: 0,0:14:27.07,0:14:29.28,Default,,0,0,0,,de qualité militaire.
+Dialogue: 0,0:14:29.95,0:14:31.62,Default,,0,0,0,,Une balle de Tokarev.
+Dialogue: 0,0:14:32.16,0:14:35.75,Default,,0,0,0,,C'est possible de tirer au Tokarev\Nde si loin ?
+Dialogue: 0,0:14:36.04,0:14:38.71,Default,,0,0,0,,Je ne sais pas,\Nmais ça semble étrange
+Dialogue: 0,0:14:38.87,0:14:42.50,Default,,0,0,0,,d'utiliser un pistolet\Npour un tir de précision.
+Dialogue: 0,0:14:43.25,0:14:44.96,Default,,0,0,0,,Dans ce cas,
+Dialogue: 0,0:14:45.26,0:14:48.63,Default,,0,0,0,,la victime aurait reçu\Nune balle perdue ?
+Dialogue: 0,0:14:49.09,0:14:52.14,Default,,0,0,0,,Oui, c'est le scénario\Nle plus probable.
+Dialogue: 0,0:14:52.51,0:14:54.97,Default,,0,0,0,,Si on croise les différents éléments,
+Dialogue: 0,0:14:56.52,0:14:57.39,Default,,0,0,0,,le coupable
+Dialogue: 0,0:14:57.68,0:15:00.52,Default,,0,0,0,,aurait abattu quelqu'un au 505.
+Dialogue: 0,0:15:00.77,0:15:02.02,Default,,0,0,0,,La balle aurait
+Dialogue: 0,0:15:02.69,0:15:04.02,Default,,0,0,0,,continué sa course
+Dialogue: 0,0:15:04.65,0:15:06.36,Default,,0,0,0,,vers l'extérieur.
+Dialogue: 0,0:15:07.03,0:15:09.03,Default,,0,0,0,,Passant la fenêtre du monorail,
+Dialogue: 0,0:15:09.24,0:15:11.82,Default,,0,0,0,,elle aurait atteint\Nle bras de la victime.
+Dialogue: 0,0:15:13.87,0:15:16.29,Default,,0,0,0,,Ça vous semble possible ?
+Dialogue: 0,0:15:16.95,0:15:19.62,Default,,0,0,0,,Il y a cent mètres de distance.
+Dialogue: 0,0:15:20.21,0:15:22.17,Default,,0,0,0,,La balle a traversé un corps
+Dialogue: 0,0:15:22.50,0:15:26.05,Default,,0,0,0,,et une vitre,\Navant de toucher la personne.
+Dialogue: 0,0:15:26.67,0:15:27.71,Default,,0,0,0,,C'est possible.
+Dialogue: 0,0:15:28.26,0:15:32.05,Default,,0,0,0,,Le Tokarev est\Nun pistolet puissant, après tout.
+Dialogue: 0,0:15:32.47,0:15:34.64,Default,,0,0,0,,{\i1}Un pistolet et non un fusil ?{\i0}
+Dialogue: 0,0:15:35.51,0:15:38.06,Default,,0,0,0,,{\i1}Les deux n'ont pas la même balistique,{\i0}
+Dialogue: 0,0:15:38.22,0:15:41.56,Default,,0,0,0,,{\i1}la trajectoire a changé\Nen traversant le corps.{\i0}
+Dialogue: 0,0:15:42.15,0:15:43.69,Default,,0,0,0,,{\i1}Mais dans ce cas...{\i0}
+Dialogue: 0,0:15:44.40,0:15:46.36,Default,,0,0,0,,Ce n'est pas faisable normalement,
+Dialogue: 0,0:15:46.94,0:15:49.90,Default,,0,0,0,,mais si les étoiles s'alignent...
+Dialogue: 0,0:15:50.11,0:15:52.32,Default,,0,0,0,,{\i1}... ce n'est plus impossible.{\i0}
+Dialogue: 0,0:15:52.99,0:15:55.58,Default,,0,0,0,,{\i1}Voilà la vérité dans cette affaire.{\i0}
+Dialogue: 0,0:15:57.33,0:15:58.37,Default,,0,0,0,,Tu vois, tonton,
+Dialogue: 0,0:15:59.50,0:16:02.33,Default,,0,0,0,,on a le lien entre le sang\Net le coupable.
+Dialogue: 0,0:16:14.59,0:16:15.10,Default,,0,0,0,,{\i1}Trouvé !{\i0}
+Dialogue: 0,0:16:15.76,0:16:16.85,Default,,0,0,0,,C'est par là, tonton !
+Dialogue: 0,0:16:20.43,0:16:23.19,Default,,0,0,0,,Je veux bien suivre les traces,
+Dialogue: 0,0:16:23.35,0:16:26.52,Default,,0,0,0,,mais il ne risque pas de s'échapper\Nsi on traîne trop ?
+Dialogue: 0,0:16:26.69,0:16:28.53,Default,,0,0,0,,D'où vient cette odeur ?
+Dialogue: 0,0:16:52.30,0:16:54.47,Default,,0,0,0,,Cette femme est ligotée !
+Dialogue: 0,0:16:56.22,0:16:57.14,Default,,0,0,0,,Et cette odeur...
+Dialogue: 0,0:17:18.28,0:17:19.41,Default,,0,0,0,,C'est de l'essence !
+Dialogue: 0,0:17:25.50,0:17:28.00,Default,,0,0,0,,Bon sang, la porte est verrouillée !
+Dialogue: 0,0:17:28.34,0:17:30.38,Default,,0,0,0,,Je vais devoir briser la vitre !
+Dialogue: 0,0:17:36.43,0:17:37.30,Default,,0,0,0,,Dépêche !
+Dialogue: 0,0:17:41.97,0:17:42.85,Default,,0,0,0,,Bon sang !
+Dialogue: 0,0:17:44.77,0:17:45.94,Default,,0,0,0,,Cours, tonton !
+Dialogue: 0,0:18:20.22,0:18:21.14,Default,,0,0,0,,M. Môri !
+Dialogue: 0,0:18:22.10,0:18:24.31,Default,,0,0,0,,- Inspecteur Takagi.\N- Rien de cassé ?
+Dialogue: 0,0:18:24.93,0:18:26.43,Default,,0,0,0,,Non, nous allons bien.
+Dialogue: 0,0:18:26.98,0:18:29.44,Default,,0,0,0,,La femme a-t-elle\Nrévélé quelque chose ?
+Dialogue: 0,0:18:29.69,0:18:30.36,ST_HAUT,,0,0,0,,Oui,
+Dialogue: 0,0:18:30.81,0:18:32.94,ST_HAUT,,0,0,0,,mais elle était en état de choc.
+Dialogue: 0,0:18:33.82,0:18:35.94,Default,,0,0,0,,Elle marchait dans le quartier,
+Dialogue: 0,0:18:36.32,0:18:38.57,Default,,0,0,0,,on lui a mis\Nquelque chose sur la bouche
+Dialogue: 0,0:18:39.20,0:18:40.70,Default,,0,0,0,,et elle s'est évanouie.
+Dialogue: 0,0:18:42.45,0:18:44.54,Default,,0,0,0,,Elle était seule dans la voiture
+Dialogue: 0,0:18:44.70,0:18:47.62,Default,,0,0,0,,quand elle s'est réveillée.
+Dialogue: 0,0:18:48.04,0:18:51.04,Default,,0,0,0,,Elle sait qui aurait pu\Nvouloir l'enlever ?
+Dialogue: 0,0:18:51.38,0:18:53.34,Default,,0,0,0,,Elle n'en a aucune idée.
+Dialogue: 0,0:18:54.42,0:18:55.38,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:18:55.80,0:18:59.13,Default,,0,0,0,,J'ai vérifié les antécédents\Nde la victime,
+Dialogue: 0,0:18:59.47,0:19:00.84,Default,,0,0,0,,mais il n'y a rien
+Dialogue: 0,0:19:01.05,0:19:05.02,Default,,0,0,0,,qui puisse nous mener à son agresseur.
+Dialogue: 0,0:19:05.27,0:19:06.89,Default,,0,0,0,,Je vois... Merci.
+Dialogue: 0,0:19:07.06,0:19:08.94,Default,,0,0,0,,Je vous laisse.
+Dialogue: 0,0:19:10.44,0:19:12.11,Default,,0,0,0,,Aucun indice...
+Dialogue: 0,0:19:12.86,0:19:15.53,Default,,0,0,0,,Le tireur est vraiment impitoyable
+Dialogue: 0,0:19:15.69,0:19:18.03,Default,,0,0,0,,pour incendier ainsi une voiture.
+Dialogue: 0,0:19:18.86,0:19:22.32,Default,,0,0,0,,{\i1}Il a dû remarquer\Nqu'on était à ses trousses.{\i0}
+Dialogue: 0,0:19:23.20,0:19:25.99,Default,,0,0,0,,{\i1}Il aurait fait ça\Npour ralentir l'enquête ?{\i0}
+Dialogue: 0,0:19:26.87,0:19:29.75,Default,,0,0,0,,Du nouveau concernant la résidence ?
+Dialogue: 0,0:19:30.17,0:19:31.96,Default,,0,0,0,,Comme vous l'aviez deviné
+Dialogue: 0,0:19:32.13,0:19:35.55,Default,,0,0,0,,la victime a été emballée\Net traînée au sol...
+Dialogue: 0,0:19:36.00,0:19:37.67,Default,,0,0,0,,Mais inspecteur Takagi,
+Dialogue: 0,0:19:37.84,0:19:41.63,Default,,0,0,0,,pourquoi le tueur a sorti\Nsa victime de l'immeuble ?
+Dialogue: 0,0:19:42.05,0:19:43.18,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:19:43.47,0:19:46.35,Default,,0,0,0,,Pour nous priver des preuves,\Ngros bêta !
+Dialogue: 0,0:19:46.68,0:19:47.97,Default,,0,0,0,,Mais à ce sujet,
+Dialogue: 0,0:19:48.14,0:19:51.10,Default,,0,0,0,,vous ne pensez pas\Nqu'il prend plus de risques
+Dialogue: 0,0:19:51.27,0:19:53.56,Default,,0,0,0,,à déplacer ainsi la victime ?
+Dialogue: 0,0:19:53.73,0:19:55.61,Default,,0,0,0,,Vous marquez un point.
+Dialogue: 0,0:19:56.27,0:20:00.61,Default,,0,0,0,,Il avait peut-être une bonne raison\Nde prendre ce risque.
+Dialogue: 0,0:20:01.20,0:20:03.78,Default,,0,0,0,,Si vous étiez à sa place,\Nque feriez-vous ?
+Dialogue: 0,0:20:05.16,0:20:09.29,Default,,0,0,0,,Logiquement, je voudrais vite\Nme débarrasser du corps.
+Dialogue: 0,0:20:09.58,0:20:12.29,Default,,0,0,0,,Mais il ne l'a pas encore fait,\Noù va-t-il l'emmener ?
+Dialogue: 0,0:20:12.46,0:20:14.50,Default,,0,0,0,,Bonne question...
+Dialogue: 0,0:20:15.25,0:20:18.63,Default,,0,0,0,,Un gros paquet de cette taille\Nattire le regard
+Dialogue: 0,0:20:18.84,0:20:20.51,Default,,0,0,0,,en temps normal.
+Dialogue: 0,0:20:20.92,0:20:25.35,Default,,0,0,0,,Le seul endroit\Noù il n'éveillerait pas les soupçons...
+Dialogue: 0,0:20:27.43,0:20:29.47,Default,,0,0,0,,Mais oui, s'il va là-bas...
+Dialogue: 0,0:20:29.97,0:20:33.23,Default,,0,0,0,,{\i1}Oui, le seul endroit\Nde l'île artificielle{\i0}
+Dialogue: 0,0:20:33.40,0:20:36.31,Default,,0,0,0,,{\i1}où un gros paquet\Nne choquerait personne !{\i0}
+Dialogue: 0,0:20:36.94,0:20:40.69,Default,,0,0,0,,{\i1}Les traces de sang menaient\Ndans sa direction :{\i0}
+Dialogue: 0,0:20:45.91,0:20:48.41,Default,,0,0,0,,{\i1}le marché de Tokyo est !{\i0}
+Dialogue: 0,0:20:48.91,0:20:51.75,Default,,0,0,0,,MARCHÉ DE TOKYO EST
+Dialogue: 0,0:21:26.61,0:21:29.58,Default,,0,0,0,,Au marché,\Nun gros paquet ne choquera personne.
+Dialogue: 0,0:21:29.74,0:21:32.70,Default,,0,0,0,,On le prendra pour un thon
+Dialogue: 0,0:21:33.00,0:21:34.66,Default,,0,0,0,,ou une sériole.
+Dialogue: 0,0:21:35.08,0:21:38.79,Default,,0,0,0,,Mais dans quel but\Nle tueur serait venu ici ?
+Dialogue: 0,0:21:39.29,0:21:41.96,Default,,0,0,0,,C'est notre boulot de le découvrir
+Dialogue: 0,0:21:42.13,0:21:43.80,Default,,0,0,0,,et de l'arrêter, n'est-ce pas ?
+Dialogue: 0,0:22:03.94,0:22:06.99,Default,,0,0,0,,MARCHÉ DE TOKYO EST
+Dialogue: 0,0:22:17.79,0:22:19.08,Default,,0,0,0,,{\i1}Le coupable est ici,{\i0}
+Dialogue: 0,0:22:20.00,0:22:21.54,Default,,0,0,0,,{\i1}quelque part.{\i0}
+Dialogue: 0,0:22:30.55,0:22:32.89,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:35.27,0:22:37.56,ST_HAUT,,0,0,0,,Ran Môri : Wakana Yamazaki\NAi Haibara : Megumi Hayashibara
