@@ -1,0 +1,425 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:04.71,0:00:07.67,Default,,0,0,0,,Je vous souhaite à tous\Nune excellente année !
+Dialogue: 0,0:00:08.88,0:00:11.05,Default,,0,0,0,,En cette année 2022,
+Dialogue: 0,0:00:11.21,0:00:14.63,Default,,0,0,0,,la diffusion de {\i1}Détective Conan{\i0}
+Dialogue: 0,0:00:14.80,0:00:17.05,Default,,0,0,0,,entame sa 27e année grâce à vous !
+Dialogue: 0,0:00:18.10,0:00:21.89,Default,,0,0,0,,Une période difficile\Nperdure depuis deux ans,
+Dialogue: 0,0:00:22.18,0:00:26.06,Default,,0,0,0,,mais je souhaite\Nque l'on voie enfin le bout du tunnel.
+Dialogue: 0,0:00:26.73,0:00:28.77,Default,,0,0,0,,Prenez grand soin de vous.
+Dialogue: 0,0:00:28.94,0:00:30.36,Default,,0,0,0,,Je compte sur vous
+Dialogue: 0,0:00:30.53,0:00:34.53,Default,,0,0,0,,pour soutenir la série animée,\Nles films et {\i1}Shônen Sunday{\i0} !
+Dialogue: 0,0:00:35.41,0:00:36.87,Default,,0,0,0,,Pour la seconde fois...
+Dialogue: 0,0:00:37.53,0:00:39.70,Default,,0,0,0,,Bonne année !
+Dialogue: 0,0:00:41.95,0:00:45.62,ST_BAS_DROITE,,0,0,0,,{\i1}Au réveil surviennent l'amour de\Nla déduction et la joie d'une enquête !{\i0}
+Dialogue: 0,0:00:45.92,0:00:48.88,Default,,0,0,0,,{\i1}Taikô Meijin, infidèle ?\NUn plateau de shôgi près d'un corps !{\i0}
+Dialogue: 0,0:00:49.17,0:00:52.17,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:52.34,0:00:54.55,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:00:55.13,0:00:59.18,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:01.89,0:01:06.02,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:01:06.44,0:01:10.27,ST_HAUT,,0,0,0,,Directeur artistique :\NTakahiro Koyama
+Dialogue: 0,0:01:10.82,0:01:14.86,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:01:15.28,0:01:20.66,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Sleepless"
+Dialogue: 0,0:01:21.99,0:01:26.12,ST_HAUT_GAUCHE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:26.58,0:01:30.38,ST_HAUT,,0,0,0,,Projet initial :\NKazunori Ôshima, Masakazu Hakuya
+Dialogue: 0,0:01:30.84,0:01:34.51,ST_HAUT_GAUCHE,,0,0,0,,Producteurs : Takeshi Shioguchi,\NMasataka Tôdô
+Dialogue: 0,0:01:35.09,0:01:39.05,ST_HAUT_GAUCHE,,0,0,0,,Chefs producteurs : Kana Sasaki,\NKiyoaki Terashima
+Dialogue: 0,0:01:57.45,0:02:02.03,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:02:06.83,0:02:11.00,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:25.31,0:02:28.73,Default,,0,0,0,,{\i1}Le Plateau de shôgi\Nde Taikô Meijin (1er coup){\i0}
+Dialogue: 0,0:02:41.07,0:02:41.78,Default,,0,0,0,,J'oubliais !
+Dialogue: 0,0:02:41.99,0:02:44.12,Default,,0,0,0,,Qu'est-ce que tu as, Mitsuhiko ?
+Dialogue: 0,0:02:44.28,0:02:45.37,Default,,0,0,0,,Tu regardes quoi ?
+Dialogue: 0,0:02:45.74,0:02:47.08,Default,,0,0,0,,Juste un truc.
+Dialogue: 0,0:02:49.66,0:02:52.50,Default,,0,0,0,,Le Japon a gagné\Nle match joué cet après-midi !
+Dialogue: 0,0:02:52.67,0:02:54.21,Default,,0,0,0,,On en parle sur le Net !
+Dialogue: 0,0:02:54.38,0:02:55.34,Default,,0,0,0,,Sérieux ?
+Dialogue: 0,0:02:55.50,0:02:56.50,Default,,0,0,0,,Génial !
+Dialogue: 0,0:02:56.96,0:02:59.22,Default,,0,0,0,,J'avais zappé ce match.
+Dialogue: 0,0:02:59.59,0:03:02.05,Default,,0,0,0,,C'est rare, pour un footeux comme toi.
+Dialogue: 0,0:03:03.68,0:03:06.51,Default,,0,0,0,,Ça parle aussi de Higo, Haibara !
+Dialogue: 0,0:03:06.89,0:03:07.64,Default,,0,0,0,,C'est vrai ?
+Dialogue: 0,0:03:08.02,0:03:08.56,Default,,0,0,0,,Regarde !
+Dialogue: 0,0:03:08.98,0:03:12.35,Default,,0,0,0,,"Grosse prestation des double H\Navec les Samourai Blue" !
+Dialogue: 0,0:03:12.52,0:03:13.65,Default,,0,0,0,,Trop bien !
+Dialogue: 0,0:03:13.86,0:03:15.61,Default,,0,0,0,,La classe !
+Dialogue: 0,0:03:15.77,0:03:18.53,Default,,0,0,0,,C'est quoi,\Ncette histoire de double H ?
+Dialogue: 0,0:03:21.03,0:03:22.28,Default,,0,0,0,,Bah quoi ?
+Dialogue: 0,0:03:22.45,0:03:24.53,Default,,0,0,0,,- Tu l'ignores ?\N- Sérieux ?
+Dialogue: 0,0:03:25.62,0:03:26.79,Default,,0,0,0,,Désolé...
+Dialogue: 0,0:03:27.41,0:03:29.20,Default,,0,0,0,,Ce terme désigne le duo
+Dialogue: 0,0:03:30.33,0:03:32.25,ST_HAUT,,0,0,0,,formé par Hide, des Tokyo Spirits,
+Dialogue: 0,0:03:32.58,0:03:35.09,ST_HAUT,,0,0,0,,et Higo, joueur de Big Osaka.
+Dialogue: 0,0:03:35.25,0:03:38.71,ST_HAUT,,0,0,0,,Ce "double H" est un surnom récent.
+Dialogue: 0,0:03:39.09,0:03:41.22,Default,,0,0,0,,Ah, je comprends...
+Dialogue: 0,0:03:41.80,0:03:44.59,Default,,0,0,0,,Comme quoi,\Ntu ne sais pas tout sur tout.
+Dialogue: 0,0:03:44.76,0:03:46.22,Default,,0,0,0,,C'est pourtant archi-connu.
+Dialogue: 0,0:03:46.89,0:03:49.56,Default,,0,0,0,,Au fait, tu es toi aussi une "H",\NHaibara !
+Dialogue: 0,0:03:49.85,0:03:50.64,Default,,0,0,0,,Bien vu !
+Dialogue: 0,0:03:52.35,0:03:55.23,Default,,0,0,0,,{\i1}J'ai d'autres chats à fouetter,\Nen ce moment.{\i0}
+Dialogue: 0,0:03:55.56,0:03:59.40,Default,,0,0,0,,{\i1}Je dois trouver des informations\Nsur les Haneda.{\i0}
+Dialogue: 0,0:04:00.69,0:04:01.19,Default,,0,0,0,,{\i1}En tout cas,{\i0}
+Dialogue: 0,0:04:01.99,0:04:05.28,Default,,0,0,0,,{\i1}je me demande\Nà qui appartient la demeure{\i0}
+Dialogue: 0,0:04:05.70,0:04:08.20,Default,,0,0,0,,{\i1}où travaillait\Nla mère des quatre frères...{\i0}
+Dialogue: 0,0:04:08.37,0:04:12.25,Default,,0,0,0,,{\i1}Iori, le majordome, m'a donné l'info.{\i0}
+Dialogue: 0,0:04:12.79,0:04:15.63,Default,,0,0,0,,{\i1}Une célébrité que tu connais\Na habité cette demeure.{\i0}
+Dialogue: 0,0:04:15.83,0:04:16.96,Default,,0,0,0,,{\i1}Qui donc ?{\i0}
+Dialogue: 0,0:04:17.25,0:04:19.00,Default,,0,0,0,,{\i1}Le joueur de shôgi aux 6 couronnes.{\i0}
+Dialogue: 0,0:04:19.38,0:04:22.72,Default,,0,0,0,,{\i1}C'est la maison des Haneda,\Nla famille de Shûkichi !{\i0}
+Dialogue: 0,0:04:24.59,0:04:27.80,Default,,0,0,0,,{\i1}Le grand public n'est pas encore\Nau courant de ça.{\i0}
+Dialogue: 0,0:04:28.81,0:04:30.14,Default,,0,0,0,,{\i1}Je vois...{\i0}
+Dialogue: 0,0:04:31.64,0:04:33.31,Default,,0,0,0,,Shûkichi Haneda
+Dialogue: 0,0:04:33.48,0:04:36.40,Default,,0,0,0,,est le petit frère d'Akai\Net le grand frère de Sera.
+Dialogue: 0,0:04:37.31,0:04:39.94,Default,,0,0,0,,Il y a 17 ans de ça,
+Dialogue: 0,0:04:40.32,0:04:41.53,Default,,0,0,0,,son frère adoptif
+Dialogue: 0,0:04:41.69,0:04:44.57,Default,,0,0,0,,a été assassiné\Naux États-Unis via l'ingestion
+Dialogue: 0,0:04:44.74,0:04:46.61,Default,,0,0,0,,de l'APTX 4869.
+Dialogue: 0,0:04:46.95,0:04:48.28,Default,,0,0,0,,C'était Kôji Haneda.
+Dialogue: 0,0:04:49.16,0:04:49.99,Default,,0,0,0,,Autrement dit,
+Dialogue: 0,0:04:50.54,0:04:53.50,Default,,0,0,0,,Kôji Haneda,\Ndétenteur de quatre couronnes au shôgi,
+Dialogue: 0,0:04:54.21,0:04:57.21,Default,,0,0,0,,était le fils d'une famille fortunée...
+Dialogue: 0,0:04:58.17,0:05:00.05,Default,,0,0,0,,{\i1}Quand je tape "shôgi",{\i0}
+Dialogue: 0,0:05:00.50,0:05:03.63,ST_HAUT,,0,0,0,,{\i1}je tombe sans arrêt sur cette info.{\i0}
+Dialogue: 0,0:05:04.30,0:05:06.80,Default,,0,0,0,,{\i1}"L'enquête patine concernant Nishikido,{\i0}
+Dialogue: 0,0:05:06.97,0:05:10.14,Default,,0,0,0,,{\i1}"un joueur professionnel\Nde shôgi soupçonné de {\i0}yaochô
+Dialogue: 0,0:05:10.93,0:05:12.81,Default,,0,0,0,,{\i1}"et retrouvé mort."{\i0}
+Dialogue: 0,0:05:14.06,0:05:17.81,Default,,0,0,0,,{\i1}"La police déclare\Navoir trouvé près du corps{\i0}
+Dialogue: 0,0:05:17.98,0:05:20.36,Default,,0,0,0,,{\i1}"un plateau de shôgi dont un des pieds{\i0}
+Dialogue: 0,0:05:20.52,0:05:22.82,Default,,0,0,0,,{\i1}"manque à l'appel."{\i0}
+Dialogue: 0,0:05:23.61,0:05:25.82,Default,,0,0,0,,{\i1}Pourquoi seulement un pied ?{\i0}
+Dialogue: 0,0:05:26.24,0:05:26.86,Default,,0,0,0,,Conan ?
+Dialogue: 0,0:05:27.74,0:05:30.20,Default,,0,0,0,,C'est quoi, "yochô" ?
+Dialogue: 0,0:05:30.37,0:05:31.99,Default,,0,0,0,,Euh... Non, en fait...
+Dialogue: 0,0:05:32.16,0:05:34.08,Default,,0,0,0,,On dit "yaochô", Ayumi.
+Dialogue: 0,0:05:34.54,0:05:37.33,Default,,0,0,0,,C'est quand on fait exprès\Nde perdre à un jeu.
+Dialogue: 0,0:05:37.79,0:05:40.04,Default,,0,0,0,,À l'image de ce que fait Edogawa
+Dialogue: 0,0:05:40.21,0:05:42.42,Default,,0,0,0,,lors de vos parties de jeux vidéo.
+Dialogue: 0,0:05:44.09,0:05:45.97,Default,,0,0,0,,Tu le fais exprès ?
+Dialogue: 0,0:05:48.97,0:05:49.89,Default,,0,0,0,,Je suis grillé !
+Dialogue: 0,0:05:50.05,0:05:51.72,Default,,0,0,0,,T'es pas sympa !
+Dialogue: 0,0:05:51.89,0:05:54.93,Default,,0,0,0,,- Crapule !\N- {\i1}Ça n'a rien de volontaire...{\i0}
+Dialogue: 0,0:05:56.06,0:05:59.77,Default,,0,0,0,,D'où vient le terme {\i1}yaochô{\i0},\Nà votre avis ?
+Dialogue: 0,0:05:59.94,0:06:02.02,Default,,0,0,0,,Peut-être du sumo ?
+Dialogue: 0,0:06:02.44,0:06:05.24,Default,,0,0,0,,Moi, je pencherais pour le shôgi.
+Dialogue: 0,0:06:05.94,0:06:07.86,Default,,0,0,0,,Ça ne vient pas du shôgi,
+Dialogue: 0,0:06:11.07,0:06:12.53,Default,,0,0,0,,mais du go !
+Dialogue: 0,0:06:13.12,0:06:14.49,Default,,0,0,0,,Taikô Meijin !
+Dialogue: 0,0:06:15.45,0:06:18.37,Default,,0,0,0,,Jadis vivait un marchand\Nde légumes nommé "Chôbe".
+Dialogue: 0,0:06:19.00,0:06:21.29,Default,,0,0,0,,Tout le monde l'appelait "Yaochô".
+Dialogue: 0,0:06:22.17,0:06:24.71,Default,,0,0,0,,Voulant que ses amis\Ns'approvisionnent chez lui,
+Dialogue: 0,0:06:24.88,0:06:27.05,Default,,0,0,0,,il faisait exprès de perdre au go.
+Dialogue: 0,0:06:28.13,0:06:30.05,Default,,0,0,0,,Mais un jour,
+Dialogue: 0,0:06:30.22,0:06:34.22,Default,,0,0,0,,il rivalisa avec Shûgen Honin,\Nun redoutable joueur de go,
+Dialogue: 0,0:06:34.72,0:06:36.68,Default,,0,0,0,,ce qui fit que son entourage
+Dialogue: 0,0:06:36.85,0:06:39.31,Default,,0,0,0,,se rendit compte de son vrai niveau.
+Dialogue: 0,0:06:40.02,0:06:43.36,Default,,0,0,0,,Et depuis,\Nquand on fausse un jeu par profit,
+Dialogue: 0,0:06:43.52,0:06:47.74,Default,,0,0,0,,on parle de {\i1}yaochô{\i0},\Nsynonyme de "partie truquée".
+Dialogue: 0,0:06:51.16,0:06:52.70,Default,,0,0,0,,Dis, Taikô Meijin...
+Dialogue: 0,0:06:54.08,0:06:55.20,Default,,0,0,0,,Tu as déjà affronté
+Dialogue: 0,0:06:55.37,0:06:58.50,Default,,0,0,0,,ce M. Nishikido\Nqu'on a retrouvé mort ?
+Dialogue: 0,0:06:58.71,0:07:01.62,Default,,0,0,0,,Oui, à plusieurs reprises.
+Dialogue: 0,0:07:02.58,0:07:05.25,Default,,0,0,0,,Il ne m'a jamais fait\Nforte impression,
+Dialogue: 0,0:07:05.75,0:07:08.88,Default,,0,0,0,,mais une fois,\Nen revenant des toilettes...
+Dialogue: 0,0:07:10.59,0:07:13.09,Default,,0,0,0,,il a réalisé un coup fabuleux\Nqui m'a soufflé !
+Dialogue: 0,0:07:14.05,0:07:16.68,Default,,0,0,0,,Mais j'ai quand même fini par gagner !
+Dialogue: 0,0:07:18.31,0:07:19.68,Default,,0,0,0,,Au fait...
+Dialogue: 0,0:07:20.73,0:07:22.90,Default,,0,0,0,,Tu as un rendez-vous galant avec Yumi ?
+Dialogue: 0,0:07:24.56,0:07:25.11,Default,,0,0,0,,D'où tu...
+Dialogue: 0,0:07:25.48,0:07:29.11,Default,,0,0,0,,Bah, quand tu n'es pas en kimono,\Ntu as de la barbe.
+Dialogue: 0,0:07:29.53,0:07:31.36,Default,,0,0,0,,Mais aujourd'hui, tu es rasé !
+Dialogue: 0,0:07:31.82,0:07:32.95,Default,,0,0,0,,Bonne remarque.
+Dialogue: 0,0:07:33.11,0:07:34.74,Default,,0,0,0,,J'avais pas fait gaffe !
+Dialogue: 0,0:07:37.08,0:07:40.54,Default,,0,0,0,,Tu te trompes !\NJ'ai bien rendez-vous,
+Dialogue: 0,0:07:41.00,0:07:44.04,Default,,0,0,0,,mais il n'est pas galant !\NSur ce, à plus tard !
+Dialogue: 0,0:07:44.63,0:07:47.75,Default,,0,0,0,,Ce n'est pas un rendez-vous galant ?
+Dialogue: 0,0:07:47.96,0:07:50.26,Default,,0,0,0,,J'étais pourtant sûre que si !
+Dialogue: 0,0:07:54.26,0:07:56.14,Default,,0,0,0,,Qu'est-ce que tu fabriques, Yumi ?
+Dialogue: 0,0:07:57.22,0:07:58.52,Default,,0,0,0,,Ce que je fais ?
+Dialogue: 0,0:07:59.31,0:08:02.31,Default,,0,0,0,,Je prends Chûkichi en filature !
+Dialogue: 0,0:08:02.73,0:08:04.31,Default,,0,0,0,,Pourquoi faire ça ?
+Dialogue: 0,0:08:04.48,0:08:06.06,Default,,0,0,0,,Vous vous êtes disputés ?
+Dialogue: 0,0:08:06.48,0:08:07.19,Default,,0,0,0,,Non...
+Dialogue: 0,0:08:08.02,0:08:10.57,Default,,0,0,0,,Rien de ce genre-là...
+Dialogue: 0,0:08:10.82,0:08:14.36,Default,,0,0,0,,Chûkichi se comporte bizarrement,\Nces temps-ci.
+Dialogue: 0,0:08:15.16,0:08:18.12,Default,,0,0,0,,Il sort souvent furtivement\Nen étant bien sapé.
+Dialogue: 0,0:08:18.49,0:08:20.70,Default,,0,0,0,,Quand je l'interroge,\Nil noie le poisson.
+Dialogue: 0,0:08:21.91,0:08:25.00,Default,,0,0,0,,Maintenant qu'on vit ensemble,
+Dialogue: 0,0:08:25.17,0:08:28.00,Default,,0,0,0,,je prête attention\Nà n'importe quoi le concernant.
+Dialogue: 0,0:08:28.80,0:08:32.01,Default,,0,0,0,,Je dois me faire des idées,\Nmais ça me titille...
+Dialogue: 0,0:08:33.17,0:08:34.88,Default,,0,0,0,,Je suis sûre à 90 %.
+Dialogue: 0,0:08:39.22,0:08:40.43,Default,,0,0,0,,... que quoi ?
+Dialogue: 0,0:08:42.10,0:08:44.44,Default,,0,0,0,,Qu'il t'est infidèle.
+Dialogue: 0,0:08:45.35,0:08:46.35,Default,,0,0,0,,On est deux !
+Dialogue: 0,0:08:46.69,0:08:49.57,Default,,0,0,0,,Votre vie commune doit\Nen être à l'origine.
+Dialogue: 0,0:08:49.90,0:08:53.32,Default,,0,0,0,,Quand un homme réalise\Nque l'élue de son cœur est tout à lui,
+Dialogue: 0,0:08:53.61,0:08:57.45,Default,,0,0,0,,il se sent rassuré et tombe souvent\Ndans l'infidélité, paraît-il.
+Dialogue: 0,0:08:57.78,0:08:59.08,Default,,0,0,0,,{\i1}Comme tu y vas...{\i0}
+Dialogue: 0,0:09:00.20,0:09:02.08,Default,,0,0,0,,Maudit Chûkichi !
+Dialogue: 0,0:09:02.62,0:09:05.71,Default,,0,0,0,,Je vais devoir poursuivre ma filature !
+Dialogue: 0,0:09:06.62,0:09:07.96,Default,,0,0,0,,Bon courage.
+Dialogue: 0,0:09:09.46,0:09:10.71,Default,,0,0,0,,Hé, lâche-moi !
+Dialogue: 0,0:09:11.34,0:09:13.21,Default,,0,0,0,,Tu vas me fournir ton aide !
+Dialogue: 0,0:09:13.42,0:09:16.55,Default,,0,0,0,,On se fond mieux dans le décor\Navec un enfant !
+Dialogue: 0,0:09:17.34,0:09:18.76,Default,,0,0,0,,Elle l'a embarqué.
+Dialogue: 0,0:09:19.18,0:09:20.85,Default,,0,0,0,,Bonne chance, Conan !
+Dialogue: 0,0:09:25.14,0:09:26.31,Default,,0,0,0,,Bienvenue !
+Dialogue: 0,0:09:38.11,0:09:38.99,Default,,0,0,0,,À mon avis,
+Dialogue: 0,0:09:39.66,0:09:42.87,Default,,0,0,0,,il achète simplement des donuts.
+Dialogue: 0,0:09:43.04,0:09:43.62,Default,,0,0,0,,Possible.
+Dialogue: 0,0:09:44.25,0:09:46.62,Default,,0,0,0,,Reste à savoir à qui il les destine.
+Dialogue: 0,0:09:47.29,0:09:49.50,Default,,0,0,0,,Vu la quantité achetée,
+Dialogue: 0,0:09:50.13,0:09:53.05,Default,,0,0,0,,ça sent la beuverie chez des amis.
+Dialogue: 0,0:09:53.21,0:09:55.55,Default,,0,0,0,,Ou un rendez-vous avec une gloutonne !
+Dialogue: 0,0:09:57.13,0:09:58.01,Default,,0,0,0,,Peut-être.
+Dialogue: 0,0:10:00.72,0:10:01.51,Default,,0,0,0,,Mais dis-moi,
+Dialogue: 0,0:10:02.06,0:10:04.39,Default,,0,0,0,,tu as déjà rencontré ses parents ?
+Dialogue: 0,0:10:04.72,0:10:06.27,Default,,0,0,0,,Non, pas encore.
+Dialogue: 0,0:10:06.85,0:10:08.60,Default,,0,0,0,,Je sais qu'une famille richissime
+Dialogue: 0,0:10:08.85,0:10:12.61,Default,,0,0,0,,l'a adopté lorsqu'il rêvait\Nde devenir un joueur pro de shôgi.
+Dialogue: 0,0:10:13.23,0:10:16.86,Default,,0,0,0,,Le fils de cette famille\Nétait un génie de ce jeu,
+Dialogue: 0,0:10:17.24,0:10:19.11,Default,,0,0,0,,mais il est mort accidentellement.
+Dialogue: 0,0:10:20.03,0:10:24.66,Default,,0,0,0,,Ses parents ont demandé à Chûkichi\Nde réaliser le rêve de feu leur fils.
+Dialogue: 0,0:10:25.33,0:10:29.12,Default,,0,0,0,,{\i1}Kôji Haneda était bel et bien\Nle fils d'une riche famille.{\i0}
+Dialogue: 0,0:10:30.00,0:10:34.42,Default,,0,0,0,,{\i1}Taikô Meijin aurait été adopté\Nafin de réaliser son rêve ?{\i0}
+Dialogue: 0,0:10:35.51,0:10:38.55,Default,,0,0,0,,Mais la raison première\Nde cette adoption,
+Dialogue: 0,0:10:38.84,0:10:42.14,Default,,0,0,0,,c'était parce que Chûkichi\Nétait un fou de Shôgi.
+Dialogue: 0,0:10:43.68,0:10:47.31,Default,,0,0,0,,Tu as déjà rencontré\Nla vraie famille de Taikô Meijin ?
+Dialogue: 0,0:10:47.56,0:10:49.19,Default,,0,0,0,,Non, pas encore non plus !
+Dialogue: 0,0:10:49.64,0:10:53.73,Default,,0,0,0,,Apparemment, il a une mère,\Nun grand frère et une jeune sœur.
+Dialogue: 0,0:10:54.11,0:10:57.69,Default,,0,0,0,,Je parie que tout comme lui,\Nils sont insouciants.
+Dialogue: 0,0:10:58.24,0:11:02.20,Default,,0,0,0,,{\i1}Aucun d'entre eux\Nn'a ce trait de caractère...{\i0}
+Dialogue: 0,0:11:02.37,0:11:03.83,Default,,0,0,0,,Merci beaucoup !
+Dialogue: 0,0:11:03.99,0:11:04.66,Default,,0,0,0,,{\i1}Le voilà !{\i0}
+Dialogue: 0,0:11:08.37,0:11:09.96,Default,,0,0,0,,"Star Donut" ?
+Dialogue: 0,0:11:11.62,0:11:12.83,Default,,0,0,0,,Mais alors...
+Dialogue: 0,0:11:14.29,0:11:17.84,Default,,0,0,0,,{\i1}Ça alors !\NCe commerce est un {\i0}Star Donut{\i1} !{\i0}
+Dialogue: 0,0:11:18.97,0:11:21.09,Default,,0,0,0,,{\i1}Je l'avais repéré dans une revue,{\i0}
+Dialogue: 0,0:11:21.26,0:11:24.93,Default,,0,0,0,,{\i1}puis j'ai proposé à Chûkichi\Nd'aller y manger !{\i0}
+Dialogue: 0,0:11:25.72,0:11:26.93,Default,,0,0,0,,{\i1}Chûkichi...{\i0}
+Dialogue: 0,0:11:27.60,0:11:29.23,Default,,0,0,0,,{\i1}Tu me destines cet achat !{\i0}
+Dialogue: 0,0:11:29.48,0:11:30.77,Default,,0,0,0,,Ohé ! Les filles !
+Dialogue: 0,0:11:33.61,0:11:34.40,Default,,0,0,0,,{\i1}Des filles ?{\i0}
+Dialogue: 0,0:11:36.40,0:11:37.65,Default,,0,0,0,,{\i1}Il se paie le luxe...{\i0}
+Dialogue: 0,0:11:39.28,0:11:41.28,Default,,0,0,0,,{\i1}de me tromper doublement ?{\i0}
+Dialogue: 0,0:11:49.08,0:11:52.54,Default,,0,0,0,,{\i1}Ça alors !\NCe commerce est un {\i0}Star Donut{\i1} !{\i0}
+Dialogue: 0,0:11:53.58,0:11:55.67,Default,,0,0,0,,{\i1}Je l'avais repéré dans une revue,{\i0}
+Dialogue: 0,0:11:55.84,0:11:59.55,Default,,0,0,0,,{\i1}puis j'ai proposé à Chûkichi\Nd'aller y manger !{\i0}
+Dialogue: 0,0:12:00.34,0:12:01.55,Default,,0,0,0,,{\i1}Chûkichi...{\i0}
+Dialogue: 0,0:12:02.22,0:12:03.84,Default,,0,0,0,,{\i1}Tu me destines cet achat !{\i0}
+Dialogue: 0,0:12:04.09,0:12:05.39,Default,,0,0,0,,Ohé ! Les filles !
+Dialogue: 0,0:12:08.22,0:12:09.02,Default,,0,0,0,,{\i1}Des filles ?{\i0}
+Dialogue: 0,0:12:10.81,0:12:12.27,Default,,0,0,0,,{\i1}Il se paie le luxe...{\i0}
+Dialogue: 0,0:12:13.65,0:12:15.65,Default,,0,0,0,,{\i1}de me tromper doublement ?{\i0}
+Dialogue: 0,0:12:18.78,0:12:20.32,Default,,0,0,0,,Ça vient de chez {\i1}Star Donut{\i0} !
+Dialogue: 0,0:12:20.65,0:12:22.36,Default,,0,0,0,,Où se trouve ce commerce ?
+Dialogue: 0,0:12:22.57,0:12:23.82,Default,,0,0,0,,À deux pas d'ici !
+Dialogue: 0,0:12:23.99,0:12:26.91,Default,,0,0,0,,Alors comme ça,\Ntu connais cet endroit ?
+Dialogue: 0,0:12:27.08,0:12:28.41,Default,,0,0,0,,Eh oui !
+Dialogue: 0,0:12:28.58,0:12:31.58,Default,,0,0,0,,C'est moi qui t'en ai parlé\Ngrâce à une revue.
+Dialogue: 0,0:12:31.75,0:12:34.25,Default,,0,0,0,,Exactement, Yumi...
+Dialogue: 0,0:12:35.25,0:12:35.92,Default,,0,0,0,,Yumi ?
+Dialogue: 0,0:12:36.29,0:12:39.59,Default,,0,0,0,,Tu as l'air de prendre\Ndu bon temps, Chûkichi.
+Dialogue: 0,0:12:40.46,0:12:41.80,Default,,0,0,0,,C'est-à-dire ?
+Dialogue: 0,0:12:43.22,0:12:44.34,Default,,0,0,0,,"Yumi" ?
+Dialogue: 0,0:12:44.51,0:12:47.80,Default,,0,0,0,,Vous êtes la fameuse Yumi,\Nla petite amie de Taikô Meijin ?
+Dialogue: 0,0:12:47.97,0:12:50.47,Default,,0,0,0,,Ses yeux brillent,\Nquand il parle de vous !
+Dialogue: 0,0:12:51.93,0:12:52.93,Default,,0,0,0,,Bonjour...
+Dialogue: 0,0:12:53.14,0:12:55.48,Default,,0,0,0,,Je peux savoir ce qui t'amène ici ?
+Dialogue: 0,0:12:57.65,0:12:58.82,Default,,0,0,0,,Et avec Conan !
+Dialogue: 0,0:12:59.07,0:13:01.65,Default,,0,0,0,,C'est parce qu'elle était en train...
+Dialogue: 0,0:13:01.82,0:13:05.53,Default,,0,0,0,,Conan a insisté\Npour aller manger au Star Donut !
+Dialogue: 0,0:13:07.20,0:13:09.95,Default,,0,0,0,,Alors ?\NQu'est-ce que vous faites ensemble ?
+Dialogue: 0,0:13:11.29,0:13:15.04,Default,,0,0,0,,Tu fréquentes le groupe d'étude\Nde shôgi de ces filles ?
+Dialogue: 0,0:13:15.58,0:13:16.08,Default,,0,0,0,,Oui !
+Dialogue: 0,0:13:16.67,0:13:18.38,Default,,0,0,0,,Ce sont des joueuses pro.
+Dialogue: 0,0:13:18.71,0:13:21.71,Default,,0,0,0,,Elles cherchent constamment\Nà progresser au niveau supérieur,
+Dialogue: 0,0:13:21.88,0:13:23.59,Default,,0,0,0,,je me joins donc à elles.
+Dialogue: 0,0:13:27.05,0:13:27.68,Default,,0,0,0,,Enfin,
+Dialogue: 0,0:13:28.01,0:13:31.56,Default,,0,0,0,,c'est surtout\Nà la demande de son père.
+Dialogue: 0,0:13:31.72,0:13:32.27,Default,,0,0,0,,Eh oui !
+Dialogue: 0,0:13:32.60,0:13:34.23,Default,,0,0,0,,Son père ?
+Dialogue: 0,0:13:34.39,0:13:38.69,Default,,0,0,0,,Tu le connais ! C'est Chikara Katsumata,\Nle joueur que j'ai affronté
+Dialogue: 0,0:13:38.86,0:13:40.94,Default,,0,0,0,,à Yamanashi pour le titre de Meijin.
+Dialogue: 0,0:13:41.52,0:13:44.03,Default,,0,0,0,,{\i1}Bien, je vais dévoiler le coup scellé.{\i0}
+Dialogue: 0,0:13:47.20,0:13:48.03,Default,,0,0,0,,{\i1}Coup scellé :{\i0}
+Dialogue: 0,0:13:48.70,0:13:50.28,ST_HAUT,,0,0,0,,{\i1}5 f argent.{\i0}
+Dialogue: 0,0:13:50.45,0:13:51.41,ST_HAUT,,0,0,0,,CHIKARA KATSUMATA
+Dialogue: 0,0:13:58.00,0:13:58.58,Default,,0,0,0,,{\i1}Qu'y a-t-il ?{\i0}
+Dialogue: 0,0:14:00.38,0:14:01.59,Default,,0,0,0,,{\i1}Je m'octroie un délai.{\i0}
+Dialogue: 0,0:14:05.72,0:14:08.47,Default,,0,0,0,,{\i1}Hein ? M. Haneda\Na pris un taxi pour Tokyo ?{\i0}
+Dialogue: 0,0:14:09.14,0:14:09.89,Default,,0,0,0,,{\i1}Durant les parties,{\i0}
+Dialogue: 0,0:14:10.05,0:14:13.72,Default,,0,0,0,,{\i1}il y a une règle tacite :\Nne jamais toucher{\i0}
+Dialogue: 0,0:14:13.89,0:14:15.39,Default,,0,0,0,,{\i1}à son téléphone mobile.{\i0}
+Dialogue: 0,0:14:16.14,0:14:18.65,Default,,0,0,0,,{\i1}J'ignore ce qui lui est arrivé,{\i0}
+Dialogue: 0,0:14:18.98,0:14:22.27,Default,,0,0,0,,{\i1}mais il s'est octroyé un délai\Net a quitté la pièce.{\i0}
+Dialogue: 0,0:14:23.07,0:14:25.82,Default,,0,0,0,,{\i1}Ça veut dire\Nqu'il n'a pas renoncé à vaincre{\i0}
+Dialogue: 0,0:14:26.07,0:14:28.57,Default,,0,0,0,,{\i1}le vieux Chikara Katsumata.{\i0}
+Dialogue: 0,0:14:30.20,0:14:31.74,Default,,0,0,0,,{\i1}Attendons donc ce garçon qui,{\i0}
+Dialogue: 0,0:14:32.08,0:14:35.50,Default,,0,0,0,,{\i1}en me battant, deviendrait,\Nfort des 7 titres majeurs,{\i0}
+Dialogue: 0,0:14:35.66,0:14:36.96,Default,,0,0,0,,{\i1}un véritable dieu.{\i0}
+Dialogue: 0,0:14:37.66,0:14:39.12,Default,,0,0,0,,{\i1}Quel match ?{\i0}
+Dialogue: 0,0:14:39.29,0:14:42.25,Default,,0,0,0,,{\i1}Un match pour le titre de Meijin.{\i0}
+Dialogue: 0,0:14:42.42,0:14:43.50,Default,,0,0,0,,{\i1}Meijin ?{\i0}
+Dialogue: 0,0:14:43.84,0:14:45.71,Default,,0,0,0,,{\i1}Où et quand ?{\i0}
+Dialogue: 0,0:14:46.63,0:14:50.64,Default,,0,0,0,,{\i1}Il faudrait que je sois à 15 heures\Nà l'hôtel Tokiwa à Yamanashi.{\i0}
+Dialogue: 0,0:14:51.01,0:14:53.39,Default,,0,0,0,,{\i1}Dans une heure, donc...\NBref, c'est cuit.{\i0}
+Dialogue: 0,0:14:53.85,0:14:57.89,Default,,0,0,0,,{\i1}Chûkichi !\NTu prends cette voiture pour un tacot ?{\i0}
+Dialogue: 0,0:15:04.82,0:15:06.19,Default,,0,0,0,,{\i1}30 secondes.{\i0}
+Dialogue: 0,0:15:07.90,0:15:09.24,Default,,0,0,0,,{\i1}Merci d'avoir patienté.{\i0}
+Dialogue: 0,0:15:09.74,0:15:11.28,Default,,0,0,0,,{\i1}Moi, ça m'est égal...{\i0}
+Dialogue: 0,0:15:11.78,0:15:13.07,Default,,0,0,0,,{\i1}Mais toi, ça va aller ?{\i0}
+Dialogue: 0,0:15:13.32,0:15:15.83,Default,,0,0,0,,{\i1}Tu n'as plus à la pendule{\i0}
+Dialogue: 0,0:15:15.99,0:15:17.91,Default,,0,0,0,,{\i1}qu'une petite minute.{\i0}
+Dialogue: 0,0:15:18.66,0:15:21.42,Default,,0,0,0,,{\i1}Pas de problème.\NCette minute, aujourd'hui,{\i0}
+Dialogue: 0,0:15:21.79,0:15:23.71,Default,,0,0,0,,{\i1}me semble infinie.{\i0}
+Dialogue: 0,0:15:25.30,0:15:26.38,Default,,0,0,0,,Je m'en souviens...
+Dialogue: 0,0:15:26.80,0:15:28.55,ST_HAUT,,0,0,0,,Je m'appelle Mina Katsumata.
+Dialogue: 0,0:15:28.88,0:15:32.84,ST_HAUT,,0,0,0,,Mon père ne sait plus\Noù donner de la tête avec ses disciples.
+Dialogue: 0,0:15:33.35,0:15:35.56,Default,,0,0,0,,Il a du coup sollicité Meijin Haneda.
+Dialogue: 0,0:15:36.06,0:15:38.39,Default,,0,0,0,,Quant à elle, c'est ma rivale.
+Dialogue: 0,0:15:38.85,0:15:40.06,ST_HAUT,,0,0,0,,Je suis Shôko Uryû.
+Dialogue: 0,0:15:40.23,0:15:43.90,ST_HAUT,,0,0,0,,Je m'entraîne moi aussi\Npour obtenir le titre de Meijin !
+Dialogue: 0,0:15:44.44,0:15:47.15,Default,,0,0,0,,Vous ne jouez que tous les trois ?
+Dialogue: 0,0:15:47.32,0:15:49.69,Default,,0,0,0,,Non, il y a d'autres joueurs.
+Dialogue: 0,0:15:50.32,0:15:52.61,Default,,0,0,0,,Hishinuma semble être tout juste revenu.
+Dialogue: 0,0:15:52.82,0:15:53.78,Default,,0,0,0,,C'est vrai !
+Dialogue: 0,0:15:55.62,0:15:58.83,Default,,0,0,0,,Hishinuma !\NMeijin est venu avec sa petite amie !
+Dialogue: 0,0:15:59.00,0:16:00.16,Default,,0,0,0,,Quoi ? Sérieux ?
+Dialogue: 0,0:16:00.83,0:16:05.09,ST_HAUT,,0,0,0,,Je m'appelle Kôsuke Hishinuma,\Nle protégé de Meijin !
+Dialogue: 0,0:16:06.13,0:16:07.09,Default,,0,0,0,,Enchantée.
+Dialogue: 0,0:16:07.42,0:16:10.09,Default,,0,0,0,,Lui aussi fait partie\Ndu groupe d'étude !
+Dialogue: 0,0:16:10.55,0:16:14.64,Default,,0,0,0,,Je suis très honoré\Nde rencontrer la fameuse Yumi !
+Dialogue: 0,0:16:14.84,0:16:17.60,Default,,0,0,0,,C'est un grand fan de Taikô Meijin !
+Dialogue: 0,0:16:17.89,0:16:22.14,Default,,0,0,0,,Il a même adopté\Nsa coupe de cheveux en bataille !
+Dialogue: 0,0:16:23.77,0:16:24.40,Default,,0,0,0,,Ouais...
+Dialogue: 0,0:16:24.94,0:16:26.11,Default,,0,0,0,,Surprenant !
+Dialogue: 0,0:16:26.44,0:16:29.11,Default,,0,0,0,,{\i1}Cette coupe est naturelle\Nchez Chûkichi...{\i0}
+Dialogue: 0,0:16:30.94,0:16:32.74,Default,,0,0,0,,Il y a comme un souci...
+Dialogue: 0,0:16:32.90,0:16:35.28,Default,,0,0,0,,Je n'ai pas acheté assez de café.
+Dialogue: 0,0:16:35.78,0:16:38.58,Default,,0,0,0,,De toute façon,\Nil a perdu de sa saveur.
+Dialogue: 0,0:16:38.74,0:16:40.79,Default,,0,0,0,,Il a le même goût qu'un instantané.
+Dialogue: 0,0:16:41.25,0:16:42.12,Default,,0,0,0,,Tu trouves ?
+Dialogue: 0,0:16:42.29,0:16:42.83,Default,,0,0,0,,Oui.
+Dialogue: 0,0:16:44.54,0:16:45.63,Default,,0,0,0,,Juge par toi-même.
+Dialogue: 0,0:16:45.83,0:16:47.04,Default,,0,0,0,,Voyons voir ça.
+Dialogue: 0,0:16:49.21,0:16:51.67,Default,,0,0,0,,C'est vrai qu'il manque de saveur !
+Dialogue: 0,0:16:52.13,0:16:53.43,Default,,0,0,0,,Et puis, il est tiède !
+Dialogue: 0,0:16:54.93,0:16:57.26,Default,,0,0,0,,Ça convient à ma langue sensible.
+Dialogue: 0,0:16:58.51,0:17:01.43,Default,,0,0,0,,Comparé à ce café,\Nmes pains sont tout chauds,
+Dialogue: 0,0:17:02.02,0:17:03.60,Default,,0,0,0,,ils sortent à peine du four !
+Dialogue: 0,0:17:03.81,0:17:04.73,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:17:04.94,0:17:07.77,Default,,0,0,0,,C'est vrai !\NIls sont chauds et semblent délicieux !
+Dialogue: 0,0:17:08.86,0:17:09.48,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:17:11.36,0:17:14.03,Default,,0,0,0,,Où sont les pains\Ntout chauds au curry ?
+Dialogue: 0,0:17:14.57,0:17:17.45,Default,,0,0,0,,Désolée, il n'y en avait plus !
+Dialogue: 0,0:17:18.16,0:17:20.66,Default,,0,0,0,,Et toi, tu as acheté les glaces ?
+Dialogue: 0,0:17:22.16,0:17:24.37,Default,,0,0,0,,Le magasin n'était pas bondé,
+Dialogue: 0,0:17:24.54,0:17:27.04,Default,,0,0,0,,j'ai pu en acheter des super gelées !
+Dialogue: 0,0:17:27.75,0:17:28.29,Default,,0,0,0,,Teste !
+Dialogue: 0,0:17:28.92,0:17:29.79,Default,,0,0,0,,C'est froid !
+Dialogue: 0,0:17:30.21,0:17:32.09,Default,,0,0,0,,Arrête ça !
+Dialogue: 0,0:17:33.26,0:17:35.18,Default,,0,0,0,,Je me venge pour les pains au curry !
+Dialogue: 0,0:17:35.59,0:17:38.30,Default,,0,0,0,,Allons nous asseoir à l'intérieur.
+Dialogue: 0,0:17:38.47,0:17:41.47,Default,,0,0,0,,Je n'arrête pas de sonner\Ndepuis tout à l'heure,
+Dialogue: 0,0:17:41.64,0:17:43.43,Default,,0,0,0,,mais Genda ne répond pas.
+Dialogue: 0,0:17:43.68,0:17:45.73,Default,,0,0,0,,Qui est ce Genda ?
+Dialogue: 0,0:17:47.56,0:17:49.44,ST_HAUT,,0,0,0,,Yasukyo Genda, un joueur pro.
+Dialogue: 0,0:17:49.61,0:17:52.94,ST_HAUT,,0,0,0,,Il fait partie du groupe\Net il nous attend à l'appartement.
+Dialogue: 0,0:17:53.28,0:17:55.53,Default,,0,0,0,,Il s'est peut-être endormi ?
+Dialogue: 0,0:17:55.70,0:17:57.24,Default,,0,0,0,,Ça m'étonnerait !
+Dialogue: 0,0:17:57.41,0:18:00.78,Default,,0,0,0,,On a quitté l'appartement\Nil y a moins de 10 minutes.
+Dialogue: 0,0:18:01.33,0:18:04.45,Default,,0,0,0,,De toute façon,\Nj'ai un double des clés.
+Dialogue: 0,0:18:04.70,0:18:05.96,Default,,0,0,0,,Entrons !
+Dialogue: 0,0:18:06.21,0:18:08.96,Default,,0,0,0,,Allons-y, je m'inquiète pour lui.
+Dialogue: 0,0:18:12.38,0:18:13.51,Default,,0,0,0,,Bon, en route !
+Dialogue: 0,0:18:17.05,0:18:20.97,Default,,0,0,0,,Vous partagez le loyer\Nde cet appartement ?
+Dialogue: 0,0:18:21.35,0:18:23.39,Default,,0,0,0,,Oui, pour étudier le shôgi.
+Dialogue: 0,0:18:23.85,0:18:26.43,Default,,0,0,0,,Divisé par cinq,\Nle prix devient abordable !
+Dialogue: 0,0:18:29.52,0:18:33.32,Default,,0,0,0,,Par cinq ?\NTu contribues au loyer, Chûkichi ?
+Dialogue: 0,0:18:33.61,0:18:37.95,Default,,0,0,0,,Non, il y a un autre membre du groupe.
+Dialogue: 0,0:18:38.20,0:18:40.12,Default,,0,0,0,,Il semble souffrir de dépression.
+Dialogue: 0,0:18:40.28,0:18:41.53,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:18:49.04,0:18:50.63,Default,,0,0,0,,Toujours aucune réponse.
+Dialogue: 0,0:18:53.67,0:18:55.01,Default,,0,0,0,,C'est ouvert !
+Dialogue: 0,0:18:57.72,0:19:01.18,Default,,0,0,0,,Quel flemmard !\NIl aurait au moins pu fermer à clé !
+Dialogue: 0,0:19:01.55,0:19:04.10,Default,,0,0,0,,Genda, on est de retour !
+Dialogue: 0,0:19:04.51,0:19:05.77,Default,,0,0,0,,Genda !
+Dialogue: 0,0:19:06.52,0:19:07.81,Default,,0,0,0,,Tu es sourd, ou quoi ?
+Dialogue: 0,0:19:08.69,0:19:10.10,Default,,0,0,0,,Ohé ! Genda !
+Dialogue: 0,0:19:12.06,0:19:13.06,Default,,0,0,0,,Genda ?
+Dialogue: 0,0:19:15.44,0:19:16.65,Default,,0,0,0,,Genda !
+Dialogue: 0,0:19:17.94,0:19:19.32,Default,,0,0,0,,C'est bizarre...
+Dialogue: 0,0:19:21.53,0:19:23.20,Default,,0,0,0,,Il est introuvable.
+Dialogue: 0,0:19:23.58,0:19:25.37,Default,,0,0,0,,Il est sorti faire des courses ?
+Dialogue: 0,0:19:25.54,0:19:28.87,Default,,0,0,0,,Sans fermer la porte à clé ?\NC'est impensable.
+Dialogue: 0,0:19:29.04,0:19:29.75,Default,,0,0,0,,Et puis,
+Dialogue: 0,0:19:30.08,0:19:32.96,Default,,0,0,0,,s'il avait eu besoin d'un truc,\Nil aurait téléphoné.
+Dialogue: 0,0:19:33.71,0:19:35.17,Default,,0,0,0,,J'avoue...
+Dialogue: 0,0:19:37.05,0:19:38.26,Default,,0,0,0,,Genda ?
+Dialogue: 0,0:19:39.97,0:19:40.68,Default,,0,0,0,,Genda !
+Dialogue: 0,0:19:41.97,0:19:42.97,Default,,0,0,0,,Hishinuma ?
+Dialogue: 0,0:19:44.72,0:19:47.81,Default,,0,0,0,,Genda ! Ça va, Genda ?
+Dialogue: 0,0:19:48.43,0:19:50.56,Default,,0,0,0,,Qu'y a-t-il, Hishinuma ? Oh non !
+Dialogue: 0,0:19:50.89,0:19:51.64,Default,,0,0,0,,Genda !
+Dialogue: 0,0:19:52.35,0:19:54.48,Default,,0,0,0,,Dites-moi que c'est une blague !
+Dialogue: 0,0:19:55.44,0:19:57.11,Default,,0,0,0,,- Genda !\N- Genda !
+Dialogue: 0,0:19:57.28,0:19:57.82,Default,,0,0,0,,{\i1}Trop tard.{\i0}
+Dialogue: 0,0:19:57.98,0:19:59.94,Default,,0,0,0,,- {\i1}Il n'a plus de pouls{\i0}.\N- Genda !
+Dialogue: 0,0:20:00.61,0:20:01.74,Default,,0,0,0,,{\i1}On l'a étranglé ?{\i0}
+Dialogue: 0,0:20:01.99,0:20:02.74,Default,,0,0,0,,Genda !
+Dialogue: 0,0:20:03.20,0:20:05.58,Default,,0,0,0,,- Genda !\N- {\i1}Un plateau aux pieds manquants ?{\i0}
+Dialogue: 0,0:20:06.08,0:20:08.29,Default,,0,0,0,,{\i1}Il y a comme un air de déjà-vu !{\i0}
+Dialogue: 0,0:20:09.62,0:20:13.12,Default,,0,0,0,,Yumi !\NAppelle la police et une ambulance !
+Dialogue: 0,0:20:13.29,0:20:13.96,Default,,0,0,0,,Entendu !
+Dialogue: 0,0:20:16.38,0:20:18.05,Default,,0,0,0,,Allô ? Miwako ?
+Dialogue: 0,0:20:18.71,0:20:20.01,Default,,0,0,0,,Je crains le pire...
+Dialogue: 0,0:20:20.26,0:20:21.88,Default,,0,0,0,,Il ne réagit pas du tout...
+Dialogue: 0,0:20:22.05,0:20:23.76,Default,,0,0,0,,Ça donne quoi, Hishinuma ?
+Dialogue: 0,0:20:23.93,0:20:25.26,Default,,0,0,0,,Il ne respire pas !
+Dialogue: 0,0:20:26.10,0:20:27.06,Default,,0,0,0,,Oh, non !
+Dialogue: 0,0:20:27.26,0:20:28.85,Default,,0,0,0,,Il est mort ?
+Dialogue: 0,0:20:44.36,0:20:46.24,Default,,0,0,0,,Tiens le coup, Genda !
+Dialogue: 0,0:20:46.57,0:20:48.99,Default,,0,0,0,,Ouvre les yeux !
+Dialogue: 0,0:20:49.66,0:20:50.16,Default,,0,0,0,,Allez !
+Dialogue: 0,0:20:50.91,0:20:51.83,Default,,0,0,0,,Réagis !
+Dialogue: 0,0:21:03.63,0:21:05.55,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:21:06.22,0:21:08.14,ST_HAUT,,0,0,0,,Shûkichi Haneda : Toshiyuki Morikawa\NYumi Miyamoto : Yû Sugimoto
+Dialogue: 0,0:22:18.79,0:22:19.75,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:22:20.54,0:22:24.80,Default,,0,0,0,,Yumi soupçonnait d'infidélité\NShûkichi Haneda, son petit ami.
+Dialogue: 0,0:22:25.17,0:22:26.63,Default,,0,0,0,,Et en le filant,
+Dialogue: 0,0:22:27.51,0:22:29.43,Default,,0,0,0,,elle a su qu'avec de jeunes pro,
+Dialogue: 0,0:22:29.64,0:22:34.02,Default,,0,0,0,,il investissait cet appartement\Npour une étude du shôgi.
+Dialogue: 0,0:22:34.72,0:22:38.02,Default,,0,0,0,,Genda Yasukyo a été retrouvé assassiné
+Dialogue: 0,0:22:39.19,0:22:42.36,Default,,0,0,0,,dans l'une des pièces\Ndudit appartement.
+Dialogue: 0,0:22:43.07,0:22:45.32,Default,,0,0,0,,C'est un meurtre par strangulation.
+Dialogue: 0,0:22:46.15,0:22:48.32,Default,,0,0,0,,Des traces indiquent
+Dialogue: 0,0:22:48.66,0:22:50.91,Default,,0,0,0,,que la victime s'est débattue.
+Dialogue: 0,0:22:51.49,0:22:52.16,Default,,0,0,0,,Exact.
+Dialogue: 0,0:22:52.53,0:22:55.75,Default,,0,0,0,,Compte tenu des traces sur son cou,
+Dialogue: 0,0:22:56.12,0:22:58.54,Default,,0,0,0,,l'arme du crime est certainement
+Dialogue: 0,0:22:59.50,0:23:01.79,Default,,0,0,0,,ce câble électrique près de la victime.
+Dialogue: 0,0:23:03.00,0:23:04.67,Default,,0,0,0,,Tu me déçois, Yumi !
+Dialogue: 0,0:23:05.13,0:23:07.42,Default,,0,0,0,,Tu m'as soupçonné d'infidélité !
+Dialogue: 0,0:23:07.59,0:23:09.13,Default,,0,0,0,,C'est normal !
+Dialogue: 0,0:23:09.30,0:23:12.18,Default,,0,0,0,,Tu ne me disais jamais où tu allais !
+Dialogue: 0,0:23:12.80,0:23:15.93,Default,,0,0,0,,Tu te serais fâchée\Nsi tu me savais avec des filles !
+Dialogue: 0,0:23:16.47,0:23:20.69,Default,,0,0,0,,Je ne suis pas une femme\Nà l'esprit étriqué !
+Dialogue: 0,0:23:20.94,0:23:23.82,Default,,0,0,0,,{\i1}Bien sûr que si, et pas qu'un peu...{\i0}
+Dialogue: 0,0:23:24.23,0:23:26.32,Default,,0,0,0,,Vous deux !\NArrêtez de papoter !
+Dialogue: 0,0:23:26.69,0:23:27.24,Default,,0,0,0,,Compris !

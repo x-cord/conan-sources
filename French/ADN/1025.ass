@@ -1,0 +1,413 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.12,0:00:04.37,Default,,0,0,0,,{\i1}Suite au mail de Momiji Ôoka\Nenvoyé à Ran,{\i0}
+Dialogue: 0,0:00:04.75,0:00:08.63,Default,,0,0,0,,{\i1}Hattori et moi sommes entrés\Nen concurrence pour décoder un message,{\i0}
+Dialogue: 0,0:00:09.38,0:00:11.63,Default,,0,0,0,,{\i1}mais il y a eu match nul.{\i0}
+Dialogue: 0,0:00:13.55,0:00:15.39,Default,,0,0,0,,{\i1}Le message déchiffré{\i0}
+Dialogue: 0,0:00:15.76,0:00:17.68,Default,,0,0,0,,{\i1}nous a conduits dans un entrepôt...{\i0}
+Dialogue: 0,0:00:29.27,0:00:31.65,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:00:31.90,0:00:34.82,Default,,0,0,0,,{\i1}En route pour la résolution\Nd'énigmes tumultueuses !{\i0}
+Dialogue: 0,0:00:35.41,0:00:38.53,Default,,0,0,0,,{\i1}L'un des frères est le tueur !\NQuelle fin pour ce duel d'énigmes ?{\i0}
+Dialogue: 0,0:00:38.83,0:00:42.00,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:00:42.16,0:00:44.66,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:00:53.42,0:00:55.51,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:01:03.02,0:01:04.98,ST_HAUT,,0,0,0,,Directeur artistique : Junichi Higashi
+Dialogue: 0,0:01:05.14,0:01:07.40,ST_HAUT,,0,0,0,,Direction du son :\NY. Urakami, K. Urakami
+Dialogue: 0,0:01:11.32,0:01:12.94,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:01:27.37,0:01:29.17,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Yura yura"
+Dialogue: 0,0:01:43.60,0:01:45.48,Default,,0,0,0,,Projet initial : Takenori Ichihara\NNaota Machida
+Dialogue: 0,0:01:53.07,0:01:54.69,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:01:57.03,0:02:00.20,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:03.91,0:02:07.29,Default,,0,0,0,,{\i1}Le Défi de Momiji Ôoka (2e partie){\i0}
+Dialogue: 0,0:02:09.92,0:02:13.42,Default,,0,0,0,,La victime s'appelle\NBenzô Hamana, 42 ans.
+Dialogue: 0,0:02:13.84,0:02:16.05,Default,,0,0,0,,Il travaillait pour un grand magasin.
+Dialogue: 0,0:02:16.63,0:02:17.97,Default,,0,0,0,,Une chute mortelle...
+Dialogue: 0,0:02:18.43,0:02:21.05,Default,,0,0,0,,Il semble être tombé de là-haut.
+Dialogue: 0,0:02:21.22,0:02:21.89,Default,,0,0,0,,Oui.
+Dialogue: 0,0:02:22.30,0:02:24.85,Default,,0,0,0,,Suicide ou accident,\Ntelle est la question.
+Dialogue: 0,0:02:25.06,0:02:26.02,Default,,0,0,0,,C'est un meurtre.
+Dialogue: 0,0:02:27.23,0:02:28.44,Default,,0,0,0,,Regardez mieux.
+Dialogue: 0,0:02:28.89,0:02:33.06,Default,,0,0,0,,Observez les lunettes\Nà monture métallique posées sur sa tête.
+Dialogue: 0,0:02:33.98,0:02:36.03,Default,,0,0,0,,Le verre droit est fêlé,
+Dialogue: 0,0:02:36.19,0:02:39.65,ST_HAUT,,0,0,0,,mais le visage de la victime\Nn'est pas contusionné côté droit.
+Dialogue: 0,0:02:40.20,0:02:41.24,Default,,0,0,0,,C'est vrai !
+Dialogue: 0,0:02:41.41,0:02:42.70,Default,,0,0,0,,À mon avis,
+Dialogue: 0,0:02:43.87,0:02:46.41,Default,,0,0,0,,la victime a perdu\Nses lunettes en chutant,
+Dialogue: 0,0:02:47.12,0:02:48.08,Default,,0,0,0,,et étrangement,
+Dialogue: 0,0:02:48.25,0:02:52.25,Default,,0,0,0,,l'assassin les lui a ensuite\Nreplacées sur le visage.
+Dialogue: 0,0:02:53.71,0:02:56.34,Default,,0,0,0,,Tu confirmes, Shinichi ?
+Dialogue: 0,0:02:56.71,0:02:59.47,Default,,0,0,0,,Tu es au téléphone avec Kudô ?
+Dialogue: 0,0:03:00.01,0:03:02.30,Default,,0,0,0,,Quand vous êtes arrivés ici,
+Dialogue: 0,0:03:02.47,0:03:06.39,Default,,0,0,0,,ces messieurs étaient déjà là.\NMais qu'est-ce qui vous a amenés ?
+Dialogue: 0,0:03:06.56,0:03:07.68,Default,,0,0,0,,Un message codé.
+Dialogue: 0,0:03:08.43,0:03:10.85,Default,,0,0,0,,Il indique la cachette d'un trésor.
+Dialogue: 0,0:03:11.19,0:03:12.94,Default,,0,0,0,,- Un trésor ?\N- Oui.
+Dialogue: 0,0:03:13.61,0:03:14.81,Default,,0,0,0,,La mère de ces gens
+Dialogue: 0,0:03:14.98,0:03:18.44,Default,,0,0,0,,travaillait comme domestique\Ndans une demeure.
+Dialogue: 0,0:03:18.61,0:03:23.03,Default,,0,0,0,,Avant son décès, son employeur\Nlui avait offert un trésor.
+Dialogue: 0,0:03:23.62,0:03:27.62,Default,,0,0,0,,Elle a indiqué la cachette de celui-ci\Ndans un message en quatre codes
+Dialogue: 0,0:03:27.83,0:03:29.70,Default,,0,0,0,,remis séparément à ses fils.
+Dialogue: 0,0:03:30.41,0:03:34.04,Default,,0,0,0,,Mais après que les frères\Nse soient partagés l'énigme,
+Dialogue: 0,0:03:34.33,0:03:38.21,Default,,0,0,0,,Benzô, l'aîné,\Nn'a subitement plus donné signe de vie.
+Dialogue: 0,0:03:38.51,0:03:41.63,Default,,0,0,0,,Ma famille étant liée à l'employeur,
+Dialogue: 0,0:03:41.93,0:03:44.09,Default,,0,0,0,,on m'a demandé de déchiffrer les codes.
+Dialogue: 0,0:03:44.26,0:03:47.22,Default,,0,0,0,,J'ai alors requis les services\Nde Heiji et Kudô.
+Dialogue: 0,0:03:47.64,0:03:50.02,Default,,0,0,0,,En venant ici une fois l'énigme résolue,
+Dialogue: 0,0:03:50.18,0:03:52.19,Default,,0,0,0,,on est tombés sur ce trio,
+Dialogue: 0,0:03:52.81,0:03:56.65,Default,,0,0,0,,avec ce cadavre gisant à leurs pieds.
+Dialogue: 0,0:03:57.15,0:03:59.11,Default,,0,0,0,,Tous justifient leur présence ici
+Dialogue: 0,0:03:59.28,0:04:02.36,Default,,0,0,0,,par un mail signé de leur frère aîné.
+Dialogue: 0,0:04:02.90,0:04:06.24,Default,,0,0,0,,La logique voudrait\Nque le premier arrivé ait tué son frère
+Dialogue: 0,0:04:06.41,0:04:07.58,Default,,0,0,0,,en le poussant.
+Dialogue: 0,0:04:08.87,0:04:11.37,Default,,0,0,0,,Qui a mis les pieds ici en premier ?
+Dialogue: 0,0:04:11.62,0:04:13.08,Default,,0,0,0,,- Eh bien...\N- C'est...
+Dialogue: 0,0:04:14.25,0:04:17.96,ST_HAUT,,0,0,0,,J'admets être le premier\Narrivé sur les lieux,
+Dialogue: 0,0:04:18.13,0:04:20.05,Default,,0,0,0,,mais il était déjà mort !
+Dialogue: 0,0:04:20.21,0:04:22.76,Default,,0,0,0,,Je l'ai trouvé comme ça !
+Dialogue: 0,0:04:22.92,0:04:25.59,ST_HAUT,,0,0,0,,N'est-ce pas que j'ai raison ?
+Dialogue: 0,0:04:25.76,0:04:28.01,ST_HAUT,,0,0,0,,Comment tu veux que je le sache ?
+Dialogue: 0,0:04:28.18,0:04:29.35,Default,,0,0,0,,Ce qui est sûr,
+Dialogue: 0,0:04:29.51,0:04:32.64,Default,,0,0,0,,c'est que ce type était\Ndéjà là à mon arrivée,
+Dialogue: 0,0:04:32.81,0:04:35.48,Default,,0,0,0,,et que notre frère était mort !
+Dialogue: 0,0:04:36.48,0:04:39.65,ST_HAUT,,0,0,0,,Pour ma part,\Nj'ai débarqué après ces types !
+Dialogue: 0,0:04:39.82,0:04:42.28,Default,,0,0,0,,Ça prouve mon innocence !
+Dialogue: 0,0:04:42.74,0:04:44.36,Default,,0,0,0,,Pas forcément.
+Dialogue: 0,0:04:45.20,0:04:48.58,Default,,0,0,0,,Après avoir assassiné Benzô,
+Dialogue: 0,0:04:49.37,0:04:51.45,Default,,0,0,0,,vous auriez pu vous cacher ici
+Dialogue: 0,0:04:51.62,0:04:54.04,Default,,0,0,0,,et après la découverte du corps,
+Dialogue: 0,0:04:54.33,0:04:57.42,Default,,0,0,0,,surgir subitement,\Ncomme si de rien n'était.
+Dialogue: 0,0:04:57.96,0:05:01.59,Default,,0,0,0,,Mais dites-moi,\Nvous êtes distants, pour des frères...
+Dialogue: 0,0:05:01.76,0:05:03.38,Default,,0,0,0,,Vous dites "ce type"...
+Dialogue: 0,0:05:03.55,0:05:04.97,Default,,0,0,0,,Ça n'a rien d'étonnant.
+Dialogue: 0,0:05:05.38,0:05:09.26,Default,,0,0,0,,Nous avons été adoptés\Npar différentes familles il y a 30 ans.
+Dialogue: 0,0:05:09.64,0:05:11.47,Default,,0,0,0,,On ne s'était pas revus depuis.
+Dialogue: 0,0:05:11.85,0:05:14.56,Default,,0,0,0,,C'est limite notre première rencontre !
+Dialogue: 0,0:05:15.14,0:05:18.10,Default,,0,0,0,,Leur ressemblance ne saute pas aux yeux.
+Dialogue: 0,0:05:18.27,0:05:20.44,Default,,0,0,0,,Ils sont vraiment frères ?
+Dialogue: 0,0:05:21.19,0:05:22.28,Default,,0,0,0,,Un instant !
+Dialogue: 0,0:05:22.57,0:05:23.94,Default,,0,0,0,,Nous avons une photo !
+Dialogue: 0,0:05:24.11,0:05:25.53,Default,,0,0,0,,Ça prouvera nos identités.
+Dialogue: 0,0:05:26.74,0:05:27.45,Default,,0,0,0,,Regardez !
+Dialogue: 0,0:05:28.20,0:05:30.08,Default,,0,0,0,,Ces photos sont identiques.
+Dialogue: 0,0:05:30.49,0:05:33.66,Default,,0,0,0,,En plus,\Nils sont tout jeunes là-dessus !
+Dialogue: 0,0:05:33.95,0:05:36.08,Default,,0,0,0,,Difficile de faire le rapprochement.
+Dialogue: 0,0:05:36.58,0:05:38.71,Default,,0,0,0,,On ne peut pas faire mieux...
+Dialogue: 0,0:05:38.92,0:05:40.88,Default,,0,0,0,,Nous n'avons pas d'autre photo.
+Dialogue: 0,0:05:41.04,0:05:43.17,Default,,0,0,0,,Ça remonte à 30 ans...
+Dialogue: 0,0:05:43.96,0:05:45.22,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:05:46.17,0:05:49.05,Default,,0,0,0,,Y a-t-il une brûlure\Nsur la paume de la victime ?
+Dialogue: 0,0:05:49.30,0:05:50.60,Default,,0,0,0,,Une brûlure ?
+Dialogue: 0,0:05:53.97,0:05:57.48,Default,,0,0,0,,Il y a une drôle de brûlure\Nsur sa paume droite !
+Dialogue: 0,0:05:58.23,0:06:02.07,Default,,0,0,0,,Si ce sont ses frères,\Nils devraient avoir la même cicatrice.
+Dialogue: 0,0:06:02.98,0:06:04.82,Default,,0,0,0,,Montrez vos mains, voulez-vous ?
+Dialogue: 0,0:06:11.24,0:06:14.37,Default,,0,0,0,,Ce type de brûlure me dit quelque chose.
+Dialogue: 0,0:06:15.12,0:06:17.00,Default,,0,0,0,,Un gril pour grillades d'agneaux !
+Dialogue: 0,0:06:17.41,0:06:20.04,Default,,0,0,0,,Exact. Avant notre adoption,
+Dialogue: 0,0:06:20.21,0:06:24.63,Default,,0,0,0,,on nous avait invités dans la demeure\Noù travaillait notre mère,
+Dialogue: 0,0:06:24.92,0:06:26.80,Default,,0,0,0,,pour manger des grillades !
+Dialogue: 0,0:06:27.30,0:06:30.93,Default,,0,0,0,,Le goût de l'agneau\Nest un souvenir impérissable !
+Dialogue: 0,0:06:31.14,0:06:34.06,Default,,0,0,0,,Au moment de débarrasser\Nla table après le repas,
+Dialogue: 0,0:06:34.22,0:06:36.93,Default,,0,0,0,,quelqu'un a renversé le gril.
+Dialogue: 0,0:06:37.52,0:06:39.73,Default,,0,0,0,,Notre mère allait se brûler avec,
+Dialogue: 0,0:06:39.89,0:06:42.15,Default,,0,0,0,,on a alors tendu la main par réflexe.
+Dialogue: 0,0:06:42.81,0:06:45.65,Default,,0,0,0,,Il y a eu plus de peur que de mal.
+Dialogue: 0,0:06:45.90,0:06:47.82,Default,,0,0,0,,Son poids était conséquent.
+Dialogue: 0,0:06:48.24,0:06:52.53,Default,,0,0,0,,Tu m'étonnes ! Surtout qu'on avait\Npas mal carburé ce jour-là !
+Dialogue: 0,0:06:53.32,0:06:54.49,Default,,0,0,0,,Tout juste !
+Dialogue: 0,0:06:54.66,0:06:57.95,Default,,0,0,0,,Le gril était brûlant\Nquand on a sauvé maman !
+Dialogue: 0,0:06:58.37,0:07:00.00,Default,,0,0,0,,À propos de grillades d'agneau,
+Dialogue: 0,0:07:00.29,0:07:04.17,Default,,0,0,0,,il y avait un gril dédié à ce plat\Ndans un sac en papier.
+Dialogue: 0,0:07:04.46,0:07:06.09,Default,,0,0,0,,- Où ça ?\N- Euh...
+Dialogue: 0,0:07:06.59,0:07:09.80,Default,,0,0,0,,Là où la victime semble avoir chuté.
+Dialogue: 0,0:07:12.68,0:07:16.47,Default,,0,0,0,,Vous voulez savoir dans quel ordre\Nje les ai guidés vers l'entrepôt ?
+Dialogue: 0,0:07:16.89,0:07:21.06,Default,,0,0,0,,Je me souviens que l'homme barbu\Nest arrivé en premier.
+Dialogue: 0,0:07:21.31,0:07:23.65,Default,,0,0,0,,Mais concernant ces trois-là...
+Dialogue: 0,0:07:24.02,0:07:25.44,Default,,0,0,0,,Dommage...
+Dialogue: 0,0:07:26.82,0:07:29.28,Default,,0,0,0,,Puis-je m'en aller, à présent ?
+Dialogue: 0,0:07:29.44,0:07:32.86,Default,,0,0,0,,Je dois gérer une foule conséquente,\Naujourd'hui.
+Dialogue: 0,0:07:33.03,0:07:34.49,Default,,0,0,0,,Pourquoi donc ?
+Dialogue: 0,0:07:34.66,0:07:36.49,Default,,0,0,0,,Une fois par an a lieu un évènement
+Dialogue: 0,0:07:36.91,0:07:39.37,Default,,0,0,0,,qui fait fureur sur les réseaux sociaux.
+Dialogue: 0,0:07:40.04,0:07:41.25,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:07:42.08,0:07:43.54,Default,,0,0,0,,Dites-nous en plus !
+Dialogue: 0,0:07:44.75,0:07:45.96,Default,,0,0,0,,Mlle Momiji.
+Dialogue: 0,0:07:46.71,0:07:49.01,Default,,0,0,0,,Un problème épineux vient de survenir.
+Dialogue: 0,0:07:49.84,0:07:50.55,Default,,0,0,0,,Regardez.
+Dialogue: 0,0:07:51.80,0:07:55.80,Default,,0,0,0,,Un charmant paysage visible\Nune fois par an ? Ici et aujourd'hui ?
+Dialogue: 0,0:07:56.30,0:07:57.89,Default,,0,0,0,,C'est formidable, ça !
+Dialogue: 0,0:07:58.26,0:08:00.43,Default,,0,0,0,,D'après mes informations,
+Dialogue: 0,0:08:00.98,0:08:05.40,Default,,0,0,0,,M. Hattori souhaite déclarer\Nsa flamme dans un superbe paysage.
+Dialogue: 0,0:08:06.11,0:08:11.28,Default,,0,0,0,,S'il résout cette affaire avant M. Kudô,\Ngrisé par cette victoire,
+Dialogue: 0,0:08:11.86,0:08:13.91,Default,,0,0,0,,il risque de donner\Nson cœur à Mlle Kazuha
+Dialogue: 0,0:08:14.32,0:08:18.24,Default,,0,0,0,,avant même que vous ne l'ayez séduit.
+Dialogue: 0,0:08:18.79,0:08:21.04,Default,,0,0,0,,Cela ne doit surtout pas se produire.
+Dialogue: 0,0:08:21.50,0:08:24.54,Default,,0,0,0,,- {\i1}Kudô doit l'emporter.\N{\i0}- Je crève de chaud...
+Dialogue: 0,0:08:24.87,0:08:26.58,Default,,0,0,0,,Tu veux de l'eau, Conan ?
+Dialogue: 0,0:08:26.75,0:08:28.80,Default,,0,0,0,,Oui ! Merci !
+Dialogue: 0,0:08:29.17,0:08:33.59,Default,,0,0,0,,Ne pas connaître l'ordre d'arrivée\Ndu trio nous met dans l'impasse.
+Dialogue: 0,0:08:33.76,0:08:34.47,Default,,0,0,0,,Oui...
+Dialogue: 0,0:08:34.63,0:08:38.47,Default,,0,0,0,,Nous ignorons aussi pourquoi\Nla victime n'a plus donné signe de vie.
+Dialogue: 0,0:08:38.64,0:08:40.68,Default,,0,0,0,,J'en connais la cause.
+Dialogue: 0,0:08:41.02,0:08:44.44,Default,,0,0,0,,Il avait dit par mail avoir perdu\Nson portable à l'étranger,
+Dialogue: 0,0:08:44.89,0:08:47.65,Default,,0,0,0,,puis qu'il l'avait retrouvé à l'aéroport
+Dialogue: 0,0:08:47.81,0:08:49.48,Default,,0,0,0,,en rentrant au Japon.
+Dialogue: 0,0:08:49.77,0:08:50.90,Default,,0,0,0,,Il avait été surpris
+Dialogue: 0,0:08:51.07,0:08:55.36,Default,,0,0,0,,par la grosse quantité de mails\Nreçue de notre part entre-temps.
+Dialogue: 0,0:08:55.53,0:08:58.83,Default,,0,0,0,,Je ne sais pas vraiment\Npourquoi il nous a fait venir ici.
+Dialogue: 0,0:08:59.53,0:09:03.79,Default,,0,0,0,,Vous échangiez souvent\Ndes mails avec Benzô ?
+Dialogue: 0,0:09:03.96,0:09:07.83,Default,,0,0,0,,Oui, on s'envoyait même des cadeaux !
+Dialogue: 0,0:09:08.25,0:09:10.92,Default,,0,0,0,,Une fois, il m'a offert une montre
+Dialogue: 0,0:09:11.09,0:09:13.51,Default,,0,0,0,,au bracelet en cuir qu'il adorait !
+Dialogue: 0,0:09:13.76,0:09:15.47,Default,,0,0,0,,Il ne s'en servait plus.
+Dialogue: 0,0:09:15.93,0:09:17.97,Default,,0,0,0,,Moi, il m'a filé un blouson en cuir.
+Dialogue: 0,0:09:18.18,0:09:20.85,Default,,0,0,0,,En retour,\Nil a eu du chocolat et des noisettes.
+Dialogue: 0,0:09:21.01,0:09:23.02,Default,,0,0,0,,Il adorait ça quand on était gosses.
+Dialogue: 0,0:09:23.18,0:09:25.48,Default,,0,0,0,,J'ai été surpris qu'il me les renvoie !
+Dialogue: 0,0:09:25.81,0:09:28.44,Default,,0,0,0,,Il m'a fait le même coup !
+Dialogue: 0,0:09:28.94,0:09:32.19,Default,,0,0,0,,Petit, il aimait le crabe,\Nje lui ai donc offert des conserves,
+Dialogue: 0,0:09:32.36,0:09:34.49,Default,,0,0,0,,mais il m'a retourné le lot.
+Dialogue: 0,0:09:36.36,0:09:38.16,Default,,0,0,0,,Quelque chose m'interpelle...
+Dialogue: 0,0:09:38.66,0:09:39.24,Default,,0,0,0,,Mais quoi ?
+Dialogue: 0,0:09:39.66,0:09:40.99,Default,,0,0,0,,Conan...
+Dialogue: 0,0:09:42.62,0:09:46.25,Default,,0,0,0,,Tu as bien fourni tous les détails\Nde l'affaire à Kudô ?
+Dialogue: 0,0:09:46.87,0:09:47.67,Default,,0,0,0,,Oui.
+Dialogue: 0,0:09:48.17,0:09:51.63,Default,,0,0,0,,En cas de souci, adresse-toi à Iori,
+Dialogue: 0,0:09:52.17,0:09:53.05,Default,,0,0,0,,d'accord ?
+Dialogue: 0,0:09:53.34,0:09:54.71,Default,,0,0,0,,Pas la peine !
+Dialogue: 0,0:09:55.09,0:09:57.30,Default,,0,0,0,,C'est ce qu'a dit Shinichi !
+Dialogue: 0,0:09:57.47,0:09:59.84,Default,,0,0,0,,{\i1}Momiji prête main-forte à Kudô !{\i0}
+Dialogue: 0,0:10:00.76,0:10:02.51,Default,,0,0,0,,{\i1}Courage, Heiji !{\i0}
+Dialogue: 0,0:10:03.14,0:10:07.02,Default,,0,0,0,,{\i1}Du nerf ! Si je bats Kudô,\Nje profiterai de cet élan{\i0}
+Dialogue: 0,0:10:07.64,0:10:09.35,Default,,0,0,0,,{\i1}pour déclarer ma flamme à Kazuha{\i0}
+Dialogue: 0,0:10:10.40,0:10:13.07,Default,,0,0,0,,{\i1}sur un site romantique !{\i0}
+Dialogue: 0,0:10:13.90,0:10:17.74,Default,,0,0,0,,{\i1}Bizarre...\NJ'ai comme un mauvais pressentiment...{\i0}
+Dialogue: 0,0:10:18.32,0:10:20.03,Default,,0,0,0,,À propos de crabes...
+Dialogue: 0,0:10:20.49,0:10:24.20,Default,,0,0,0,,Il m'envoyait souvent\Ndes chips saveur crabe !
+Dialogue: 0,0:10:24.37,0:10:25.66,Default,,0,0,0,,Il adorait cette saveur !
+Dialogue: 0,0:10:25.91,0:10:28.79,Default,,0,0,0,,Ça signifie\Nqu'il ne détestait pas ce crustacé.
+Dialogue: 0,0:10:29.12,0:10:30.38,Default,,0,0,0,,{\i1}Des chips...{\i0}
+Dialogue: 0,0:10:31.71,0:10:34.34,Default,,0,0,0,,- {\i1}Qu'est-ce que tu as, Genta ?\N{\i0}- {\i1}Ça te gratte ?{\i0}
+Dialogue: 0,0:10:34.63,0:10:37.80,Default,,0,0,0,,{\i1}Oui, depuis que je mange ces chips.{\i0}
+Dialogue: 0,0:10:38.17,0:10:42.01,Default,,0,0,0,,{\i1}Tu es peut-être\Nallergique aux crustacés,{\i0}
+Dialogue: 0,0:10:42.18,0:10:44.18,Default,,0,0,0,,{\i1}évite de manger ces chips.{\i0}
+Dialogue: 0,0:10:47.68,0:10:49.69,Default,,0,0,0,,{\i1}Ça y est, j'ai compris !{\i0}
+Dialogue: 0,0:10:50.48,0:10:53.19,Default,,0,0,0,,{\i1}Ça explique la précipitation\Nde l'assassin.{\i0}
+Dialogue: 0,0:10:54.07,0:10:56.69,Default,,0,0,0,,{\i1}Hattori semble encore patauger.{\i0}
+Dialogue: 0,0:10:57.78,0:11:00.49,Default,,0,0,0,,{\i1}Et j'ai aussi le soutien de Ran...{\i0}
+Dialogue: 0,0:11:02.16,0:11:02.95,Default,,0,0,0,,{\i1}Une seconde...{\i0}
+Dialogue: 0,0:11:05.33,0:11:07.70,Default,,0,0,0,,{\i1}Je connais cette expression...{\i0}
+Dialogue: 0,0:11:17.01,0:11:18.97,Default,,0,0,0,,{\i1}Ce donut est trop bon !{\i0}
+Dialogue: 0,0:11:19.17,0:11:19.92,Default,,0,0,0,,{\i1}Oh que oui !{\i0}
+Dialogue: 0,0:11:23.93,0:11:25.85,Default,,0,0,0,,{\i1}C'est bon, prends-le !{\i0}
+Dialogue: 0,0:11:26.14,0:11:27.81,Default,,0,0,0,,{\i1}Merci, c'est sympa !{\i0}
+Dialogue: 0,0:11:31.98,0:11:35.11,Default,,0,0,0,,{\i1}Mange-le, toi !\NMoi, je n'ai plus faim !{\i0}
+Dialogue: 0,0:11:35.57,0:11:37.69,Default,,0,0,0,,{\i1}C'est vrai ? Merci !{\i0}
+Dialogue: 0,0:11:38.82,0:11:40.03,Default,,0,0,0,,{\i1}Son expression{\i0}
+Dialogue: 0,0:11:40.86,0:11:42.41,Default,,0,0,0,,{\i1}est la même que ce jour-là.{\i0}
+Dialogue: 0,0:11:43.24,0:11:45.95,Default,,0,0,0,,{\i1}Ça veut dire qu'en vérité...{\i0}
+Dialogue: 0,0:11:46.37,0:11:47.74,Default,,0,0,0,,Dis, Conan...
+Dialogue: 0,0:11:48.91,0:11:53.25,Default,,0,0,0,,Kudô vient de te révéler\Nla vérité sur cette affaire, non ?
+Dialogue: 0,0:11:54.88,0:11:59.01,Default,,0,0,0,,Iori m'a signalé\Nque ton expression avait changé.
+Dialogue: 0,0:11:59.17,0:12:02.51,Default,,0,0,0,,Euh... En fait,\Nil n'a pas encore résolu l'affaire,
+Dialogue: 0,0:12:02.84,0:12:06.76,Default,,0,0,0,,mais il a remarqué\Nun élément concernant la victime.
+Dialogue: 0,0:12:07.10,0:12:08.01,Default,,0,0,0,,D'après lui,
+Dialogue: 0,0:12:08.64,0:12:11.18,Default,,0,0,0,,Benzô serait devenu\Nallergique au crabe.
+Dialogue: 0,0:12:12.48,0:12:15.61,Default,,0,0,0,,Bien qu'amateur de ce crustacé,
+Dialogue: 0,0:12:15.77,0:12:18.73,Default,,0,0,0,,il a renvoyé les conserves\Nqu'on lui avait offertes.
+Dialogue: 0,0:12:18.98,0:12:21.19,Default,,0,0,0,,Et pour le chocolat et les noisettes ?
+Dialogue: 0,0:12:21.65,0:12:23.82,Default,,0,0,0,,Une allergie aux sucreries ?
+Dialogue: 0,0:12:24.82,0:12:26.91,Default,,0,0,0,,Comme si ça existait !
+Dialogue: 0,0:12:28.24,0:12:29.62,Default,,0,0,0,,Une allergie au métal !
+Dialogue: 0,0:12:31.62,0:12:35.38,Default,,0,0,0,,Une boîte de conserve\Ncontient du métal fondu.
+Dialogue: 0,0:12:35.75,0:12:38.75,Default,,0,0,0,,Le chocolat et les noix\Nintègrent des éléments métalliques,
+Dialogue: 0,0:12:38.92,0:12:40.80,Default,,0,0,0,,tels que le nickel et le cobalt.
+Dialogue: 0,0:12:41.34,0:12:45.39,Default,,0,0,0,,En plus, lorsqu'on assouplit\Nun produit en cuir pour le tannage,
+Dialogue: 0,0:12:45.55,0:12:48.35,Default,,0,0,0,,on utilise du chrome liquide.
+Dialogue: 0,0:12:48.68,0:12:49.68,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:12:49.85,0:12:52.10,Default,,0,0,0,,Mais où veux-tu en venir, au juste ?
+Dialogue: 0,0:12:52.60,0:12:55.90,Default,,0,0,0,,N'est-il pas étrange\Nque des lunettes en métal
+Dialogue: 0,0:12:56.06,0:12:59.07,Default,,0,0,0,,soient posées sur le visage de Benzô ?
+Dialogue: 0,0:12:59.86,0:13:03.99,Default,,0,0,0,,En effet. Pourquoi en porter\Ns'il y était allergique ?
+Dialogue: 0,0:13:04.61,0:13:06.70,Default,,0,0,0,,En fait, ce sont celles du coupable.
+Dialogue: 0,0:13:07.32,0:13:11.58,Default,,0,0,0,,Au moment de chuter, Benzô a saisi\Nles lunettes de son assassin.
+Dialogue: 0,0:13:12.29,0:13:15.83,Default,,0,0,0,,La paire s'est ensuite\Nabîmée en heurtant le sol.
+Dialogue: 0,0:13:16.21,0:13:20.34,Default,,0,0,0,,Résultat, le tueur a dû chausser\Nles lunettes de sa victime
+Dialogue: 0,0:13:20.67,0:13:24.17,Default,,0,0,0,,car les frères du défunt\Nn'allaient pas tarder à arriver.
+Dialogue: 0,0:13:24.72,0:13:27.93,Default,,0,0,0,,Autrement dit,\Nle responsable de la chute de Benzô
+Dialogue: 0,0:13:28.30,0:13:31.31,Default,,0,0,0,,est un suspect portant des lunettes.
+Dialogue: 0,0:13:31.64,0:13:33.27,Default,,0,0,0,,M. Saisuke Jinya !
+Dialogue: 0,0:13:33.93,0:13:35.81,Default,,0,0,0,,Vous êtes le seul dans ce cas !
+Dialogue: 0,0:13:36.73,0:13:39.86,Default,,0,0,0,,Pour quelle raison\Naurais-je assassiné mon frère ?
+Dialogue: 0,0:13:40.27,0:13:42.69,Default,,0,0,0,,On ne s'était pas revus depuis 30 ans !
+Dialogue: 0,0:13:43.15,0:13:45.28,Default,,0,0,0,,Et vous avez bien vu, non ?
+Dialogue: 0,0:13:45.49,0:13:49.12,Default,,0,0,0,,Cette brûlure reçue en sauvant\Nnotre mère quand j'étais petit
+Dialogue: 0,0:13:49.28,0:13:50.87,Default,,0,0,0,,atteste de mon identité !
+Dialogue: 0,0:13:51.45,0:13:54.87,Default,,0,0,0,,Si j'ai bonne mémoire,\Nquelqu'un a renversé le gril
+Dialogue: 0,0:13:55.04,0:13:57.62,Default,,0,0,0,,au moment de le débarrasser.
+Dialogue: 0,0:13:58.21,0:14:01.84,Default,,0,0,0,,Oui, notre mère avait failli se brûler !
+Dialogue: 0,0:14:02.21,0:14:06.68,Default,,0,0,0,,Mes frères et moi\Navons rattrapé ce gril brûlant !
+Dialogue: 0,0:14:09.22,0:14:10.85,Default,,0,0,0,,C'est faux.
+Dialogue: 0,0:14:11.39,0:14:14.85,Default,,0,0,0,,La vérité est que\Nvotre mère avait trébuché
+Dialogue: 0,0:14:15.02,0:14:18.48,Default,,0,0,0,,et allait se brûler\Navec le gril tombé sur le sol.
+Dialogue: 0,0:14:18.77,0:14:22.52,Default,,0,0,0,,Vous l'avez sauvée en mettant\Nvos mains entre son corps et le gril,
+Dialogue: 0,0:14:22.94,0:14:23.78,Default,,0,0,0,,n'est-ce pas ?
+Dialogue: 0,0:14:24.23,0:14:27.24,Default,,0,0,0,,Exact, d'où cette cicatrice.
+Dialogue: 0,0:14:27.65,0:14:31.07,Default,,0,0,0,,Nos mains sont restées sur le gril\Nle temps qu'elle se relève.
+Dialogue: 0,0:14:31.83,0:14:33.45,Default,,0,0,0,,"Son poids était conséquent"...
+Dialogue: 0,0:14:33.99,0:14:35.79,Default,,0,0,0,,On parlait du poids de maman.
+Dialogue: 0,0:14:36.29,0:14:38.46,Default,,0,0,0,,Elle était replète en ce temps-là.
+Dialogue: 0,0:14:40.21,0:14:42.96,Default,,0,0,0,,Vous avez raison !\NJe me suis trompé !
+Dialogue: 0,0:14:43.25,0:14:46.92,Default,,0,0,0,,Mais comme vous le voyez,\Nje porte une cicatrice !
+Dialogue: 0,0:14:48.76,0:14:51.39,Default,,0,0,0,,Pardon, j'ai renversé mon eau !
+Dialogue: 0,0:14:51.64,0:14:52.60,Default,,0,0,0,,Empoté !
+Dialogue: 0,0:14:52.76,0:14:53.85,Default,,0,0,0,,Mince alors !
+Dialogue: 0,0:14:54.14,0:14:57.10,Default,,0,0,0,,Ce n'est pas de l'eau,\Nmais du jus de citron !
+Dialogue: 0,0:14:57.27,0:15:00.02,Default,,0,0,0,,Vraiment ?\NJe dois vite essuyer ça !
+Dialogue: 0,0:15:00.60,0:15:03.73,Default,,0,0,0,,Vous paniquez car votre cicatrice\Nest due à l'application
+Dialogue: 0,0:15:04.77,0:15:07.11,Default,,0,0,0,,de jus d'agrumes sur votre paume,
+Dialogue: 0,0:15:07.28,0:15:09.40,Default,,0,0,0,,paume ensuite exposée au soleil.
+Dialogue: 0,0:15:11.41,0:15:12.78,Default,,0,0,0,,C'était de l'eau, en fait !
+Dialogue: 0,0:15:14.20,0:15:18.50,Default,,0,0,0,,Les substances chimiques liées\Nà la photosynthèse fruitière
+Dialogue: 0,0:15:18.66,0:15:20.33,Default,,0,0,0,,réagissent aux ultraviolets
+Dialogue: 0,0:15:20.50,0:15:24.25,Default,,0,0,0,,et provoquent ainsi\Nune phytophotodermatose.
+Dialogue: 0,0:15:24.59,0:15:27.38,Default,,0,0,0,,En outre,\Nvos oreilles charnues indiquent
+Dialogue: 0,0:15:27.55,0:15:29.59,Default,,0,0,0,,que vous n'êtes pas leur frère.
+Dialogue: 0,0:15:31.30,0:15:33.39,Default,,0,0,0,,Ce type d'oreilles est héréditaire.
+Dialogue: 0,0:15:33.97,0:15:37.35,Default,,0,0,0,,On n'en hérite que si\Nl'un des deux parents en est pourvu.
+Dialogue: 0,0:15:38.52,0:15:40.19,Default,,0,0,0,,Vous avez utilisé les infos
+Dialogue: 0,0:15:40.35,0:15:43.02,Default,,0,0,0,,recueillies auprès\Ndu vrai Saisuke, non ?
+Dialogue: 0,0:15:43.52,0:15:46.78,Default,,0,0,0,,Vous cherchiez à obtenir\Nune part du trésor.
+Dialogue: 0,0:15:47.65,0:15:48.28,Default,,0,0,0,,Oui...
+Dialogue: 0,0:15:49.32,0:15:52.03,Default,,0,0,0,,Côtoyer Saisuke\Nm'a poussé à imiter sa cicatrice
+Dialogue: 0,0:15:52.36,0:15:54.66,Default,,0,0,0,,parce que je la trouvais cool.
+Dialogue: 0,0:15:55.41,0:15:59.08,Default,,0,0,0,,À la fac, nous étions\Ndans un groupe de rock déjanté.
+Dialogue: 0,0:16:00.21,0:16:02.00,Default,,0,0,0,,Si j'ai bien compris,
+Dialogue: 0,0:16:02.29,0:16:04.79,Default,,0,0,0,,t'as buté Saisuke pour le trésor ?
+Dialogue: 0,0:16:05.00,0:16:06.80,Default,,0,0,0,,Tu te méprends !
+Dialogue: 0,0:16:07.25,0:16:09.84,Default,,0,0,0,,Saisuke a été emporté par la maladie
+Dialogue: 0,0:16:10.26,0:16:11.97,Default,,0,0,0,,il y a quelques jours.
+Dialogue: 0,0:16:12.38,0:16:14.68,Default,,0,0,0,,Il m'avait parlé du message codé
+Dialogue: 0,0:16:15.14,0:16:17.76,Default,,0,0,0,,et du trésor de sa mère\Navant de s'éteindre.
+Dialogue: 0,0:16:18.60,0:16:20.93,Default,,0,0,0,,Il brûlait d'envie de vous revoir,
+Dialogue: 0,0:16:21.23,0:16:23.48,Default,,0,0,0,,mais pensait\Nque vous ne le reconnaîtriez pas.
+Dialogue: 0,0:16:24.10,0:16:27.44,Default,,0,0,0,,En rangeant ses affaires\Naprès son décès,
+Dialogue: 0,0:16:27.73,0:16:30.78,Default,,0,0,0,,je suis tombé sur un mail\Nde Benzô sur son portable :
+Dialogue: 0,0:16:32.07,0:16:34.95,Default,,0,0,0,,"Le trésor est dans l'entrepôt n° 4\Ndu port de Haido.
+Dialogue: 0,0:16:35.24,0:16:38.70,Default,,0,0,0,,"Je vous y attendrai,\Nprévenez-moi de votre venue."
+Dialogue: 0,0:16:39.87,0:16:42.16,Default,,0,0,0,,On se ressemblait physiquement.
+Dialogue: 0,0:16:42.79,0:16:45.96,Default,,0,0,0,,Et j'avais cette cicatrice,\Nalors je suis venu ici
+Dialogue: 0,0:16:46.13,0:16:49.63,Default,,0,0,0,,en usurpant son identité\Navec l'espoir de profiter du trésor.
+Dialogue: 0,0:16:51.13,0:16:54.09,Default,,0,0,0,,{\i1}Regarde !\NOn s'est fait ça en rattrapant le gril !{\i0}
+Dialogue: 0,0:16:55.64,0:16:57.60,Default,,0,0,0,,{\i1}Qui êtes-vous ?{\i0}
+Dialogue: 0,0:16:58.10,0:16:59.97,Default,,0,0,0,,{\i1}Vous n'êtes pas Saisuke !{\i0}
+Dialogue: 0,0:17:01.02,0:17:02.31,Default,,0,0,0,,{\i1}Où est-il ?{\i0}
+Dialogue: 0,0:17:02.64,0:17:03.73,Default,,0,0,0,,{\i1}Je...{\i0}
+Dialogue: 0,0:17:04.10,0:17:06.48,Default,,0,0,0,,{\i1}Ne bougez pas, j'appelle la police !{\i0}
+Dialogue: 0,0:17:07.36,0:17:08.40,Default,,0,0,0,,{\i1}La police ?{\i0}
+Dialogue: 0,0:17:08.82,0:17:12.28,Default,,0,0,0,,{\i1}Mes frères ne vont pas tarder,\Nvous allez le regretter !{\i0}
+Dialogue: 0,0:17:12.78,0:17:14.03,Default,,0,0,0,,{\i1}Sale escroc !{\i0}
+Dialogue: 0,0:17:14.49,0:17:15.57,Default,,0,0,0,,{\i1}Attendez !{\i0}
+Dialogue: 0,0:17:15.82,0:17:17.32,Default,,0,0,0,,{\i1}Je vais vous expliquer !{\i0}
+Dialogue: 0,0:17:17.82,0:17:18.74,Default,,0,0,0,,{\i1}Lâchez-moi !{\i0}
+Dialogue: 0,0:17:26.17,0:17:29.13,Default,,0,0,0,,Je n'avais pas l'intention de le tuer !
+Dialogue: 0,0:17:29.59,0:17:31.71,Default,,0,0,0,,Je voulais juste une part du trésor !
+Dialogue: 0,0:17:32.21,0:17:35.01,Default,,0,0,0,,Juste une part de bonheur,\Nrien d'autre...
+Dialogue: 0,0:17:35.51,0:17:38.39,Default,,0,0,0,,Ce trésor n'est pas divisible.
+Dialogue: 0,0:17:39.60,0:17:43.89,Default,,0,0,0,,Il vient pourtant\Nd'une personne fortunée !
+Dialogue: 0,0:17:44.35,0:17:47.56,Default,,0,0,0,,Exact, mais il s'agit\Nd'un précieux souvenir
+Dialogue: 0,0:17:47.73,0:17:52.44,Default,,0,0,0,,qui a valu aux quatre frères\Nleur cicatrice en protégeant leur mère :
+Dialogue: 0,0:17:52.78,0:17:55.45,Default,,0,0,0,,le fameux gril apporté par Benzô
+Dialogue: 0,0:17:55.61,0:17:57.95,Default,,0,0,0,,avant qu'il ne chute mortellement.
+Dialogue: 0,0:18:00.28,0:18:03.87,Default,,0,0,0,,Leur mère désirait probablement\Nqu'ils partagent à nouveau
+Dialogue: 0,0:18:04.20,0:18:07.96,Default,,0,0,0,,tous ensemble\Ndes grillades d'agneau sur ce gril
+Dialogue: 0,0:18:08.12,0:18:11.46,Default,,0,0,0,,afin de revivre ces bons\Nmoments familiaux d'il y a 30 ans.
+Dialogue: 0,0:18:12.05,0:18:15.17,Default,,0,0,0,,Alors si notre frère\Nnous a fait venir ici...
+Dialogue: 0,0:18:15.38,0:18:18.18,Default,,0,0,0,,C'était pour qu'on mange\Ndes grillades d'agneau.
+Dialogue: 0,0:18:18.64,0:18:21.85,Default,,0,0,0,,Ignorant ça,\Net dévoré par la convoitise,
+Dialogue: 0,0:18:22.01,0:18:24.31,Default,,0,0,0,,vous avez fini par vous brûler.
+Dialogue: 0,0:18:25.06,0:18:28.10,Default,,0,0,0,,Vous vous êtes brûlé\Nles ailes en devenant un meurtrier !
+Dialogue: 0,0:18:32.15,0:18:33.02,Default,,0,0,0,,{\i1}Heiji...{\i0}
+Dialogue: 0,0:18:33.53,0:18:34.94,Default,,0,0,0,,{\i1}Il transpire la classe !{\i0}
+Dialogue: 0,0:18:35.53,0:18:38.24,Default,,0,0,0,,{\i1}Il n'est pas mon futur mari pour rien !{\i0}
+Dialogue: 0,0:18:39.28,0:18:42.08,Default,,0,0,0,,Mettons le plan à exécution, Iori.
+Dialogue: 0,0:18:42.49,0:18:44.20,Default,,0,0,0,,Tout de suite, Mlle Momiji.
+Dialogue: 0,0:18:46.16,0:18:49.33,Default,,0,0,0,,{\i1}Parfait !\NJe suis encore dans les temps !{\i0}
+Dialogue: 0,0:18:50.08,0:18:51.13,Default,,0,0,0,,Kazuha ! Suis-moi !
+Dialogue: 0,0:18:52.63,0:18:54.46,Default,,0,0,0,,Où tu m'emmènes, Heiji ?
+Dialogue: 0,0:19:06.52,0:19:08.81,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama
+Dialogue: 0,0:19:11.23,0:19:13.48,ST_HAUT,,0,0,0,,Heiji Hattori : Ryô Horikawa\NKazuha Tooyama : Yûko Miyamura
+Dialogue: 0,0:20:19.88,0:20:22.55,Default,,0,0,0,,Heiji ! Où tu me conduis ?
+Dialogue: 0,0:20:22.80,0:20:24.05,Default,,0,0,0,,Heiji !
+Dialogue: 0,0:20:33.23,0:20:35.31,Default,,0,0,0,,Quel magnifique coucher de soleil !
+Dialogue: 0,0:20:36.56,0:20:39.94,Default,,0,0,0,,Idiote !\NRegarde plutôt les deux navires
+Dialogue: 0,0:20:40.24,0:20:41.36,Default,,0,0,0,,qui sont devant !
+Dialogue: 0,0:20:42.15,0:20:45.95,Default,,0,0,0,,Le blanc au premier plan, et l'autre\Nderrière avec la cheminée rouge
+Dialogue: 0,0:20:46.12,0:20:49.49,Default,,0,0,0,,ne se croisent dans ce port\Nqu'une fois par an.
+Dialogue: 0,0:20:50.08,0:20:54.21,Default,,0,0,0,,En résumé, c'est le seul jour de l'année\Noù la combinaison des deux
+Dialogue: 0,0:20:54.37,0:20:56.21,Default,,0,0,0,,forme un cœur.
+Dialogue: 0,0:20:56.88,0:20:59.75,Default,,0,0,0,,C'est le moment\Nde dévoiler mes sentiments !
+Dialogue: 0,0:21:00.55,0:21:04.13,Default,,0,0,0,,Kazuha ! Je vais te dire\Nce que j'ai sur le cœur !
+Dialogue: 0,0:21:04.47,0:21:06.01,Default,,0,0,0,,Ouvre grand tes oreilles !
+Dialogue: 0,0:21:06.76,0:21:07.60,Default,,0,0,0,,Kazuha ?
+Dialogue: 0,0:21:08.68,0:21:10.22,Default,,0,0,0,,Où es-tu passée ?
+Dialogue: 0,0:21:10.56,0:21:11.56,Default,,0,0,0,,Hattori !
+Dialogue: 0,0:21:12.73,0:21:13.35,Default,,0,0,0,,Kudô ?
+Dialogue: 0,0:21:13.85,0:21:15.19,Default,,0,0,0,,Si tu cherches Kazuha,
+Dialogue: 0,0:21:15.35,0:21:19.36,Default,,0,0,0,,elle est descendue après qu'Iori\Nlui a glissé un mot à l'oreille.
+Dialogue: 0,0:21:20.69,0:21:22.28,Default,,0,0,0,,Qu'est-ce que tu fiches ici ?
+Dialogue: 0,0:21:22.78,0:21:25.36,Default,,0,0,0,,Vu que tu n'avais rien remarqué,
+Dialogue: 0,0:21:25.74,0:21:27.49,Default,,0,0,0,,je suis venu te prévenir.
+Dialogue: 0,0:21:29.58,0:21:30.54,Default,,0,0,0,,La lose...
+Dialogue: 0,0:21:32.04,0:21:34.04,Default,,0,0,0,,Regarde, elle est là-bas.
+Dialogue: 0,0:21:35.25,0:21:36.17,Default,,0,0,0,,{\i1}Lovely!{\i0}
+Dialogue: 0,0:21:39.71,0:21:42.17,Default,,0,0,0,,Encore une photo, mesdemoiselles.
+Dialogue: 0,0:21:43.21,0:21:47.30,Default,,0,0,0,,Iori a dit qu'il avait appelé Heiji,\Nmais il n'est pas là.
+Dialogue: 0,0:21:47.72,0:21:52.06,Default,,0,0,0,,Les garçons ne s'intéressent pas\Naux sites romantiques.
+Dialogue: 0,0:21:53.52,0:21:57.19,Default,,0,0,0,,À quoi joue Kazuha ?\NEt dire que j'allais lui...
+Dialogue: 0,0:21:57.56,0:21:58.81,Default,,0,0,0,,... dévoiler tes sentiments.
+Dialogue: 0,0:21:59.27,0:22:02.61,Default,,0,0,0,,Tu te goures !\NJe me suis juste emballé...
+Dialogue: 0,0:22:03.32,0:22:06.91,Default,,0,0,0,,En fait, c'était une blague !\NC'était marrant, hein ?
+Dialogue: 0,0:22:07.11,0:22:08.24,Default,,0,0,0,,{\i1}Quel boulet !{\i0}
+Dialogue: 0,0:22:08.95,0:22:09.91,Default,,0,0,0,,Oublions ça.
+Dialogue: 0,0:22:10.41,0:22:13.45,Default,,0,0,0,,Cette fois,\Ntu m'as laissé résoudre cette affaire.
+Dialogue: 0,0:22:13.83,0:22:17.37,Default,,0,0,0,,J'avais une dette envers toi\Npour le voyage scolaire.
+Dialogue: 0,0:22:17.75,0:22:20.71,Default,,0,0,0,,N'empêche,\Nje ne comprends pas les femmes.
+Dialogue: 0,0:22:21.42,0:22:24.17,Default,,0,0,0,,Plus un mystère est épais...
+Dialogue: 0,0:22:24.55,0:22:25.84,Default,,0,0,0,,... plus on veut le résoudre.
+Dialogue: 0,0:22:26.47,0:22:27.76,Default,,0,0,0,,C'est ça, un détective.
+Dialogue: 0,0:22:28.43,0:22:29.43,Default,,0,0,0,,C'est clair.
+Dialogue: 0,0:22:32.14,0:22:32.72,Default,,0,0,0,,En tout cas,
+Dialogue: 0,0:22:33.47,0:22:36.77,Default,,0,0,0,,je me demande à qui\Nappartient la demeure
+Dialogue: 0,0:22:37.35,0:22:39.77,Default,,0,0,0,,où travaillait\Nla mère des quatre frères...
+Dialogue: 0,0:22:39.94,0:22:43.90,Default,,0,0,0,,Iori, le majordome, m'a donné l'info.
+Dialogue: 0,0:22:44.28,0:22:47.07,Default,,0,0,0,,Une célébrité que tu connais\Na habité cette demeure.
+Dialogue: 0,0:22:47.40,0:22:48.49,Default,,0,0,0,,Qui donc ?
+Dialogue: 0,0:22:48.82,0:22:50.57,Default,,0,0,0,,Le joueur de shôgi aux 6 couronnes.
+Dialogue: 0,0:22:50.99,0:22:54.24,Default,,0,0,0,,C'est la maison des Haneda,\Nla famille de Shûkichi !
+Dialogue: 0,0:22:56.16,0:22:59.29,Default,,0,0,0,,Le grand public n'est\Npas encore au courant de ça.
+Dialogue: 0,0:23:00.46,0:23:01.75,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:23:03.21,0:23:07.97,Default,,0,0,0,,{\i1}Shûkichi Haneda est le petit frère\Nd'Akai et le grand frère de Sera.{\i0}
+Dialogue: 0,0:23:08.84,0:23:11.51,Default,,0,0,0,,{\i1}Il y a 17 ans de ça,{\i0}
+Dialogue: 0,0:23:11.85,0:23:13.05,Default,,0,0,0,,{\i1}son frère adoptif{\i0}
+Dialogue: 0,0:23:13.22,0:23:16.18,Default,,0,0,0,,{\i1}a été assassiné\Naux États-Unis via l'ingestion{\i0}
+Dialogue: 0,0:23:16.35,0:23:18.23,Default,,0,0,0,,{\i1}de l'APTX 4869.{\i0}
+Dialogue: 0,0:23:18.52,0:23:19.77,Default,,0,0,0,,{\i1}C'était Kôji Haneda.{\i0}
+Dialogue: 0,0:23:20.73,0:23:21.48,Default,,0,0,0,,{\i1}Autrement dit,{\i0}
+Dialogue: 0,0:23:22.06,0:23:25.07,Default,,0,0,0,,{\i1}Kôji Haneda,\Ndétenteur de quatre couronnes au shôgi,{\i0}
+Dialogue: 0,0:23:25.78,0:23:28.65,Default,,0,0,0,,{\i1}était le fils d'une famille fortunée...{\i0}

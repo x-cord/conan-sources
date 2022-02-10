@@ -1,0 +1,425 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.87,0:00:02.29,Default,,0,0,0,,{\i1}En rentrant de l'école,{\i0}
+Dialogue: 0,0:00:02.46,0:00:05.83,Default,,0,0,0,,{\i1}Yumi Miyamoto m'a embarqué\Ndans sa filature de Shûkichi Haneda,{\i0}
+Dialogue: 0,0:00:06.50,0:00:08.59,Default,,0,0,0,,{\i1}qu'elle soupçonnait d'infidélité.{\i0}
+Dialogue: 0,0:00:09.96,0:00:11.97,Default,,0,0,0,,{\i1}Toutefois,{\i0}
+Dialogue: 0,0:00:12.13,0:00:14.43,Default,,0,0,0,,{\i1}Meijin fréquentait juste de jeunes pro{\i0}
+Dialogue: 0,0:00:14.59,0:00:17.14,Default,,0,0,0,,{\i1}qui étudiaient le shôgi\Ndans un appartement.{\i0}
+Dialogue: 0,0:00:18.10,0:00:21.60,Default,,0,0,0,,{\i1}En nous rendant\Ndans ledit appartement...{\i0}
+Dialogue: 0,0:00:25.06,0:00:26.48,Default,,0,0,0,,{\i1}C'est ouvert !{\i0}
+Dialogue: 0,0:00:27.61,0:00:31.07,Default,,0,0,0,,{\i1}Quel flemmard !\NIl aurait au moins pu fermer à clé !{\i0}
+Dialogue: 0,0:00:32.24,0:00:33.45,Default,,0,0,0,,{\i1}Genda ?{\i0}
+Dialogue: 0,0:00:35.16,0:00:35.86,Default,,0,0,0,,{\i1}Genda !{\i0}
+Dialogue: 0,0:00:37.16,0:00:38.16,Default,,0,0,0,,{\i1}Hishinuma ?{\i0}
+Dialogue: 0,0:00:39.95,0:00:43.04,Default,,0,0,0,,{\i1}Genda ! Ça va, Genda ?{\i0}
+Dialogue: 0,0:00:43.62,0:00:45.75,Default,,0,0,0,,{\i1}Qu'y a-t-il, Hishinuma ? Oh non !{\i0}
+Dialogue: 0,0:00:46.08,0:00:46.92,Default,,0,0,0,,{\i1}Genda !{\i0}
+Dialogue: 0,0:00:47.58,0:00:49.71,Default,,0,0,0,,{\i1}Dites-moi que c'est une blague !{\i0}
+Dialogue: 0,0:00:50.17,0:00:51.46,Default,,0,0,0,,{\i1}Je crains le pire...{\i0}
+Dialogue: 0,0:00:51.76,0:00:53.38,Default,,0,0,0,,{\i1}Il ne réagit pas du tout...{\i0}
+Dialogue: 0,0:00:53.55,0:00:55.22,Default,,0,0,0,,{\i1}Ça donne quoi, Hishinuma ?{\i0}
+Dialogue: 0,0:00:55.38,0:00:56.76,Default,,0,0,0,,{\i1}Il ne respire pas !{\i0}
+Dialogue: 0,0:00:57.59,0:00:58.55,Default,,0,0,0,,{\i1}Oh, non !{\i0}
+Dialogue: 0,0:00:58.76,0:01:00.39,Default,,0,0,0,,{\i1}Il est mort ?{\i0}
+Dialogue: 0,0:01:11.94,0:01:13.82,Default,,0,0,0,,{\i1}Tiens le coup, Genda !{\i0}
+Dialogue: 0,0:01:14.15,0:01:16.57,Default,,0,0,0,,{\i1}Ouvre les yeux !{\i0}
+Dialogue: 0,0:01:17.24,0:01:17.74,Default,,0,0,0,,{\i1}Allez !{\i0}
+Dialogue: 0,0:01:18.49,0:01:19.45,Default,,0,0,0,,{\i1}Réagis !{\i0}
+Dialogue: 0,0:01:26.37,0:01:29.67,ST_BAS_DROITE,,0,0,0,,{\i1}Au réveil surviennent l'amour de\Nla déduction et la joie d'une enquête !{\i0}
+Dialogue: 0,0:01:30.21,0:01:32.00,Default,,0,0,0,,{\i1}Quel coup va sortir Taikô Meijin ?{\i0}
+Dialogue: 0,0:01:32.46,0:01:35.76,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:35.92,0:01:38.39,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:39.09,0:01:43.14,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:45.85,0:01:49.98,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:01:50.40,0:01:54.23,ST_HAUT,,0,0,0,,Directeur artistique :\NTakahiro Koyama
+Dialogue: 0,0:01:54.78,0:01:58.82,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:01:59.24,0:02:04.62,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Sleepless"
+Dialogue: 0,0:02:05.95,0:02:10.08,ST_HAUT_GAUCHE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:02:10.54,0:02:14.34,ST_HAUT,,0,0,0,,Projet initial :\NKazunori Ôshima, Masakazu Hakuya
+Dialogue: 0,0:02:14.80,0:02:18.47,ST_HAUT_GAUCHE,,0,0,0,,Producteurs : Takeshi Shioguchi,\NMasataka Tôdô
+Dialogue: 0,0:02:19.05,0:02:23.01,ST_HAUT_GAUCHE,,0,0,0,,Chefs producteurs : Kana Sasaki,\NKiyoaki Terashima
+Dialogue: 0,0:02:41.41,0:02:45.99,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:02:50.79,0:02:54.96,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:10.56,0:03:13.81,Default,,0,0,0,,{\i1}Le Plateau de shôgi\Nde Taikô Meijin (2e coup){\i0}
+Dialogue: 0,0:03:17.03,0:03:17.57,Default,,0,0,0,,Alors ?
+Dialogue: 0,0:03:18.19,0:03:21.32,Default,,0,0,0,,Est-ce exact qu'avant l'arrivée\Nde Meijin Haneda,
+Dialogue: 0,0:03:21.74,0:03:22.70,Default,,0,0,0,,Yumi et Conan,
+Dialogue: 0,0:03:23.45,0:03:27.41,Default,,0,0,0,,vous étiez sortis faire les courses\Nen laissant seul M. Genda ?
+Dialogue: 0,0:03:28.29,0:03:29.04,Default,,0,0,0,,Oui.
+Dialogue: 0,0:03:29.37,0:03:33.00,Default,,0,0,0,,Il disait vouloir préparer\Ndes amuse-gueules.
+Dialogue: 0,0:03:33.17,0:03:34.46,Default,,0,0,0,,C'était de coutume.
+Dialogue: 0,0:03:35.09,0:03:36.88,Default,,0,0,0,,Quel genre d'amuse-gueules ?
+Dialogue: 0,0:03:37.50,0:03:41.68,Default,,0,0,0,,Des canapés de crackers\Nau fromage ou au jambon cru.
+Dialogue: 0,0:03:42.34,0:03:45.47,Default,,0,0,0,,Ça nous permet de jouer\Nsans nous salir les mains.
+Dialogue: 0,0:03:46.22,0:03:49.85,ST_HAUT,,0,0,0,,J'imagine que durant\Nnos 10 minutes d'absence,
+Dialogue: 0,0:03:50.02,0:03:52.10,ST_HAUT,,0,0,0,,quelqu'un a dû venir l'assassiner.
+Dialogue: 0,0:03:52.81,0:03:55.40,Default,,0,0,0,,- La porte n'était pas verrouillée.\N- À mon avis,
+Dialogue: 0,0:03:55.98,0:03:59.61,Default,,0,0,0,,Genda l'a ouverte,\Npensant que nous étions revenus.
+Dialogue: 0,0:04:01.99,0:04:04.16,Default,,0,0,0,,L'un d'entre vous aurait très bien pu
+Dialogue: 0,0:04:04.32,0:04:07.33,Default,,0,0,0,,feindre de partir\Net revenir l'assassiner.
+Dialogue: 0,0:04:07.95,0:04:09.45,Default,,0,0,0,,Je n'y crois pas !
+Dialogue: 0,0:04:09.95,0:04:12.04,ST_HAUT,,0,0,0,,Je suis allé acheter du café chaud
+Dialogue: 0,0:04:12.21,0:04:14.92,ST_HAUT,,0,0,0,,dans un commerce dédié\Nà deux pas d'ici.
+Dialogue: 0,0:04:15.71,0:04:17.46,Default,,0,0,0,,Il avait légèrement tiédi,
+Dialogue: 0,0:04:17.79,0:04:19.55,Default,,0,0,0,,mais vous confirmez ?
+Dialogue: 0,0:04:20.09,0:04:20.84,Default,,0,0,0,,Oui.
+Dialogue: 0,0:04:21.42,0:04:23.26,Default,,0,0,0,,Il avait perdu de sa saveur,
+Dialogue: 0,0:04:23.43,0:04:26.09,Default,,0,0,0,,nous l'avons donc bu\Ndans le hall de l'immeuble.
+Dialogue: 0,0:04:26.64,0:04:30.97,Default,,0,0,0,,Vous auriez très bien pu préparer\Ndu café instantané
+Dialogue: 0,0:04:31.14,0:04:33.10,Default,,0,0,0,,avec l'eau chaude du robinet...
+Dialogue: 0,0:04:33.27,0:04:34.48,Default,,0,0,0,,Impossible.
+Dialogue: 0,0:04:35.02,0:04:39.23,Default,,0,0,0,,Le chauffe-eau est en panne,\Nnous n'avons que de l'eau froide.
+Dialogue: 0,0:04:39.73,0:04:42.86,Default,,0,0,0,,Nous devions faire appel à un plombier.
+Dialogue: 0,0:04:43.40,0:04:45.82,Default,,0,0,0,,Avez-vous une bouilloire électrique ?
+Dialogue: 0,0:04:45.99,0:04:49.08,Default,,0,0,0,,Je l'ai cassée il y a quelque temps...
+Dialogue: 0,0:04:49.24,0:04:50.87,Default,,0,0,0,,Et cette cuisinière ?
+Dialogue: 0,0:04:51.45,0:04:53.87,Default,,0,0,0,,Vous pouvez y chauffer de l'eau, non ?
+Dialogue: 0,0:04:54.29,0:04:56.12,Default,,0,0,0,,Je vous l'accorde.
+Dialogue: 0,0:04:56.92,0:04:57.75,Default,,0,0,0,,Un instant !
+Dialogue: 0,0:04:58.13,0:05:01.38,Default,,0,0,0,,Quand nous avons trouvé Genda,\NHishinuma et Mina
+Dialogue: 0,0:05:01.67,0:05:04.88,Default,,0,0,0,,ont posé leurs courses\Nsur la cuisinière.
+Dialogue: 0,0:05:05.30,0:05:07.51,Default,,0,0,0,,Vérifiez le dessous des sacs.
+Dialogue: 0,0:05:12.64,0:05:15.94,Default,,0,0,0,,Je ne vois rien d'étrange.
+Dialogue: 0,0:05:16.14,0:05:18.90,Default,,0,0,0,,La cuisinière n'a donc pas été utilisée.
+Dialogue: 0,0:05:19.73,0:05:22.65,Default,,0,0,0,,Nous nous sommes absentés\Nenviron 10 minutes.
+Dialogue: 0,0:05:23.15,0:05:27.53,Default,,0,0,0,,Cette cuisinière restant encore chaude\N15 minutes après utilisation,
+Dialogue: 0,0:05:27.74,0:05:29.91,Default,,0,0,0,,les sacs auraient dû roussir ou fondre.
+Dialogue: 0,0:05:30.24,0:05:31.16,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:05:31.74,0:05:34.04,Default,,0,0,0,,Qui a acheté ces pains ?
+Dialogue: 0,0:05:34.20,0:05:35.54,Default,,0,0,0,,C'est moi !
+Dialogue: 0,0:05:35.91,0:05:38.92,ST_HAUT,,0,0,0,,Ils proviennent\Nd'une boulangerie proche d'ici.
+Dialogue: 0,0:05:39.13,0:05:42.05,ST_HAUT,,0,0,0,,Je raffole de ses pains\Net en achète souvent.
+Dialogue: 0,0:05:42.50,0:05:45.59,Default,,0,0,0,,Qui nous dit\Nque ce n'est pas un achat en amont ?
+Dialogue: 0,0:05:45.88,0:05:48.43,Default,,0,0,0,,Ces pains sortaient tout juste du four !
+Dialogue: 0,0:05:48.59,0:05:51.51,Default,,0,0,0,,Je confirme,\Nils semblaient d'ailleurs délicieux.
+Dialogue: 0,0:05:52.06,0:05:56.14,Default,,0,0,0,,Dommage toutefois\Nqu'il n'y en avait pas au curry.
+Dialogue: 0,0:05:56.52,0:05:59.10,Default,,0,0,0,,Cet aliment est victime de son succès.
+Dialogue: 0,0:06:00.02,0:06:02.90,Default,,0,0,0,,Je note l'absence d'un micro-ondes,
+Dialogue: 0,0:06:03.40,0:06:05.49,Default,,0,0,0,,impossible de réchauffer les pains.
+Dialogue: 0,0:06:06.36,0:06:09.41,Default,,0,0,0,,Puis-je savoir ce que\Nvous avez acheté, Mlle Uryû ?
+Dialogue: 0,0:06:09.78,0:06:10.78,Default,,0,0,0,,Bien sûr.
+Dialogue: 0,0:06:11.32,0:06:15.20,ST_HAUT,,0,0,0,,Des crèmes glacées d'une boutique\Ndu quartier récemment ouverte.
+Dialogue: 0,0:06:15.54,0:06:18.79,Default,,0,0,0,,Elles rencontrent\Nun franc succès parmi nous.
+Dialogue: 0,0:06:19.29,0:06:23.04,Default,,0,0,0,,Vous parlez des glaces fondues\Nde cette boîte ?
+Dialogue: 0,0:06:23.59,0:06:27.22,Default,,0,0,0,,Oui. Je n'ai pas pris soin\Nde les mettre au congélateur.
+Dialogue: 0,0:06:27.92,0:06:31.18,Default,,0,0,0,,Elles étaient très froides\Nquand je les ai achetées.
+Dialogue: 0,0:06:31.68,0:06:32.35,Default,,0,0,0,,Oui !
+Dialogue: 0,0:06:32.93,0:06:34.76,Default,,0,0,0,,Rien ne vous empêchait par avance
+Dialogue: 0,0:06:34.93,0:06:37.60,Default,,0,0,0,,d'en mettre discrètement\Ndans le congélateur.
+Dialogue: 0,0:06:38.10,0:06:39.44,Default,,0,0,0,,Avant de sortir,
+Dialogue: 0,0:06:39.60,0:06:42.61,Default,,0,0,0,,nous avons dressé\Nensemble un inventaire,
+Dialogue: 0,0:06:42.86,0:06:44.86,Default,,0,0,0,,et il n'y avait pas de glaces.
+Dialogue: 0,0:06:45.40,0:06:48.82,Default,,0,0,0,,De plus, nous sommes venus ici\Nensemble après s'être rejoints
+Dialogue: 0,0:06:48.99,0:06:50.86,Default,,0,0,0,,à la maison du shôgi.
+Dialogue: 0,0:06:51.32,0:06:52.82,Default,,0,0,0,,Aucun d'entre nous
+Dialogue: 0,0:06:52.99,0:06:55.99,Default,,0,0,0,,n'a pu laisser\Nquelque chose ici au préalable.
+Dialogue: 0,0:06:56.33,0:06:59.12,Default,,0,0,0,,Hishinuma avait les mains vides,
+Dialogue: 0,0:06:59.62,0:07:03.38,Default,,0,0,0,,tandis que Mina et moi\Nn'avions qu'un petit sac à main.
+Dialogue: 0,0:07:05.21,0:07:06.13,Default,,0,0,0,,Dans ce cas,
+Dialogue: 0,0:07:07.46,0:07:09.13,Default,,0,0,0,,la piste d'un tueur extérieur
+Dialogue: 0,0:07:09.97,0:07:12.14,Default,,0,0,0,,est à privilégier. En outre,
+Dialogue: 0,0:07:13.09,0:07:15.76,Default,,0,0,0,,ça sent les meurtres\Nen série à plein nez.
+Dialogue: 0,0:07:16.64,0:07:18.06,Default,,0,0,0,,Des meurtres en série ?
+Dialogue: 0,0:07:19.02,0:07:21.06,ST_HAUT,,0,0,0,,Cet après-midi, on a annoncé
+Dialogue: 0,0:07:21.23,0:07:24.19,ST_HAUT,,0,0,0,,que Kimiharu Nishikido,\Njoueur de shôgi suspecté de triche,
+Dialogue: 0,0:07:24.94,0:07:27.57,Default,,0,0,0,,avait été retrouvé mort\Navec près de lui
+Dialogue: 0,0:07:27.73,0:07:31.78,Default,,0,0,0,,un plateau de shôgi amputé d'un pied.
+Dialogue: 0,0:07:32.61,0:07:33.37,Default,,0,0,0,,Et là,
+Dialogue: 0,0:07:33.74,0:07:36.49,Default,,0,0,0,,on a un plateau\Navec deux pieds en moins
+Dialogue: 0,0:07:36.66,0:07:38.16,Default,,0,0,0,,près du corps de M Genda.
+Dialogue: 0,0:07:39.20,0:07:42.25,Default,,0,0,0,,Les médias ont sorti\Nl'autre info il y a 2 ou 3 heures,
+Dialogue: 0,0:07:42.50,0:07:44.83,Default,,0,0,0,,je ne crois pas à un imitateur.
+Dialogue: 0,0:07:45.34,0:07:48.34,Default,,0,0,0,,Connaissiez-vous M. Nishikido ?
+Dialogue: 0,0:07:49.01,0:07:52.34,Default,,0,0,0,,Non, aucun de nous trois,
+Dialogue: 0,0:07:53.05,0:07:55.51,Default,,0,0,0,,mais Genda et lui
+Dialogue: 0,0:07:55.68,0:07:57.47,Default,,0,0,0,,semblaient bons amis.
+Dialogue: 0,0:07:58.60,0:08:02.73,Default,,0,0,0,,Nishikido était le fondateur\Nde ce groupe d'étude.
+Dialogue: 0,0:08:03.31,0:08:06.69,Default,,0,0,0,,Genda et lui en faisaient partie,
+Dialogue: 0,0:08:07.36,0:08:10.94,ST_HAUT,,0,0,0,,tout comme Yûhei Kishimoto,\Ntombé récemment en dépression,
+Dialogue: 0,0:08:11.61,0:08:15.95,ST_HAUT,,0,0,0,,et Kinji Uryû, passé pro\Nen même temps que moi.
+Dialogue: 0,0:08:17.28,0:08:17.95,Default,,0,0,0,,Uryû ?
+Dialogue: 0,0:08:18.24,0:08:19.91,Default,,0,0,0,,Oui, il s'avère que ce joueur
+Dialogue: 0,0:08:20.08,0:08:22.62,Default,,0,0,0,,est le grand frère de Shôko.
+Dialogue: 0,0:08:23.25,0:08:27.34,Default,,0,0,0,,J'ai entendu parler\Nde ces quatre joueurs.
+Dialogue: 0,0:08:28.09,0:08:31.97,Default,,0,0,0,,On les disait remarquablement doués.
+Dialogue: 0,0:08:32.38,0:08:35.30,Default,,0,0,0,,Pourquoi est-ce que ce Nishikido
+Dialogue: 0,0:08:35.47,0:08:37.47,Default,,0,0,0,,s'est retiré du groupe d'étude ?
+Dialogue: 0,0:08:39.26,0:08:41.35,Default,,0,0,0,,Il a dû enchaîner les victoires
+Dialogue: 0,0:08:41.52,0:08:43.73,Default,,0,0,0,,et être promu plus vite que les autres.
+Dialogue: 0,0:08:44.31,0:08:48.11,Default,,0,0,0,,Quand on progresse, on veut\Naffronter des joueurs plus forts.
+Dialogue: 0,0:08:48.69,0:08:49.77,Default,,0,0,0,,Au fait...
+Dialogue: 0,0:08:50.23,0:08:53.28,Default,,0,0,0,,À quoi est due\Nla dépression de M. Kishimoto ?
+Dialogue: 0,0:08:54.11,0:08:55.28,Default,,0,0,0,,Eh bien...
+Dialogue: 0,0:08:56.24,0:08:57.41,Default,,0,0,0,,Selon moi,
+Dialogue: 0,0:08:58.20,0:09:01.66,Default,,0,0,0,,c'est parce que Kinji, mon frère,\Ns'est donné la mort.
+Dialogue: 0,0:09:02.41,0:09:03.50,Default,,0,0,0,,Un suicide ?
+Dialogue: 0,0:09:03.79,0:09:04.66,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:09:05.62,0:09:07.42,Default,,0,0,0,,Je n'en ai aucune idée.
+Dialogue: 0,0:09:07.75,0:09:09.09,Default,,0,0,0,,C'est incompréhensible !
+Dialogue: 0,0:09:09.25,0:09:12.55,Default,,0,0,0,,Il était en pleine forme\Net alignait les victoires !
+Dialogue: 0,0:09:12.84,0:09:15.34,Default,,0,0,0,,Il se disait sûr d'accéder\Nau rang supérieur,
+Dialogue: 0,0:09:15.63,0:09:17.59,Default,,0,0,0,,nous avions même fêté ça !
+Dialogue: 0,0:09:17.89,0:09:20.68,Default,,0,0,0,,Je précise\Nque Mina sortait avec mon frère.
+Dialogue: 0,0:09:21.18,0:09:24.10,Default,,0,0,0,,La cause de ce suicide\Nest donc inconnue.
+Dialogue: 0,0:09:24.56,0:09:27.10,Default,,0,0,0,,Oui. Peu de temps avant sa disparition,
+Dialogue: 0,0:09:27.27,0:09:30.32,Default,,0,0,0,,la fédération de shôgi\Nl'avait convoqué.
+Dialogue: 0,0:09:30.69,0:09:33.23,Default,,0,0,0,,Et depuis le suicide de Kinji,
+Dialogue: 0,0:09:33.40,0:09:36.40,Default,,0,0,0,,Kishimoto est tombé en dépression.
+Dialogue: 0,0:09:36.78,0:09:39.99,Default,,0,0,0,,Il paraît qu'il appréciait\Nénormément Kinji.
+Dialogue: 0,0:09:40.70,0:09:41.53,Default,,0,0,0,,Par la suite,
+Dialogue: 0,0:09:41.74,0:09:45.71,Default,,0,0,0,,le groupe manquant de membres,\Non m'a sollicité,
+Dialogue: 0,0:09:45.91,0:09:48.33,Default,,0,0,0,,et moi, j'ai invité ces demoiselles.
+Dialogue: 0,0:09:48.88,0:09:50.29,Default,,0,0,0,,À vrai dire,
+Dialogue: 0,0:09:50.46,0:09:53.34,Default,,0,0,0,,c'était surtout\Npour leur remonter le moral,
+Dialogue: 0,0:09:53.71,0:09:56.22,Default,,0,0,0,,la mort de Kinji\Nles ayant terriblement minées.
+Dialogue: 0,0:09:56.97,0:09:57.93,Default,,0,0,0,,En tous cas,
+Dialogue: 0,0:09:58.13,0:10:01.30,Default,,0,0,0,,il va nous falloir interroger\Nce M. Kishimoto.
+Dialogue: 0,0:10:02.14,0:10:05.27,Default,,0,0,0,,Il sait peut-être pourquoi\NM. Uryû s'est suicidé,
+Dialogue: 0,0:10:06.18,0:10:10.23,Default,,0,0,0,,et si ce geste est lié\Nà nos deux meurtres.
+Dialogue: 0,0:10:10.40,0:10:11.94,Default,,0,0,0,,La liste pourrait s'allonger.
+Dialogue: 0,0:10:13.07,0:10:14.69,Default,,0,0,0,,Le plateau de shôgi
+Dialogue: 0,0:10:15.11,0:10:16.82,Default,,0,0,0,,comporte encore deux pieds.
+Dialogue: 0,0:10:17.95,0:10:20.49,Default,,0,0,0,,Les meurtres vont continuer ?
+Dialogue: 0,0:10:20.82,0:10:22.74,Default,,0,0,0,,- Oh non !\N- C'est une blague ?
+Dialogue: 0,0:10:23.74,0:10:24.62,Default,,0,0,0,,Dis donc !
+Dialogue: 0,0:10:24.95,0:10:27.46,Default,,0,0,0,,N'angoisse pas les gens comme ça !
+Dialogue: 0,0:10:27.71,0:10:31.46,Default,,0,0,0,,Je suis sûr que Shinichi\Naurait dit la même chose !
+Dialogue: 0,0:10:32.46,0:10:35.30,Default,,0,0,0,,L'un de vous connaît\Nl'adresse de M. Kishimoto ?
+Dialogue: 0,0:10:35.46,0:10:37.80,Default,,0,0,0,,Pas précisément...
+Dialogue: 0,0:10:38.13,0:10:40.84,Default,,0,0,0,,Mais il habite près d'un bain public.
+Dialogue: 0,0:10:41.34,0:10:42.26,Default,,0,0,0,,Un bain public ?
+Dialogue: 0,0:10:42.47,0:10:43.97,Default,,0,0,0,,Laissez-moi vous montrer.
+Dialogue: 0,0:10:44.56,0:10:48.27,Default,,0,0,0,,C'est à côté\Nd'une cheminée noire visible... Tiens ?
+Dialogue: 0,0:10:48.94,0:10:50.35,Default,,0,0,0,,De la fumée...
+Dialogue: 0,0:10:50.94,0:10:53.90,Default,,0,0,0,,Kishimoto habite dans les environs !
+Dialogue: 0,0:10:55.82,0:10:58.65,Default,,0,0,0,,- C'est pas vrai !\N- C'est la prochaine cible ?
+Dialogue: 0,0:10:58.82,0:10:59.99,Default,,0,0,0,,Mais pourquoi ?
+Dialogue: 0,0:11:00.24,0:11:02.45,Default,,0,0,0,,Rendons-nous sur place !
+Dialogue: 0,0:11:02.91,0:11:05.29,Default,,0,0,0,,Regagnez vos domiciles\Net n'en sortez pas !
+Dialogue: 0,0:11:05.87,0:11:08.16,Default,,0,0,0,,Évitez tout comportement imprudent !
+Dialogue: 0,0:11:08.75,0:11:11.79,Default,,0,0,0,,Considérez-vous\Ncomme cibles potentielles !
+Dialogue: 0,0:11:16.34,0:11:17.26,Default,,0,0,0,,Inspecteur Yuminaga !
+Dialogue: 0,0:11:17.96,0:11:18.76,Default,,0,0,0,,Briefez-nous !
+Dialogue: 0,0:11:19.30,0:11:21.59,Default,,0,0,0,,Le feu a pu être maîtrisé,
+Dialogue: 0,0:11:21.76,0:11:24.14,Default,,0,0,0,,mais on a une victime carbonisée.
+Dialogue: 0,0:11:24.97,0:11:27.64,Default,,0,0,0,,Ses tissus ne présentant\Naucun signe de vie,
+Dialogue: 0,0:11:27.81,0:11:30.60,Default,,0,0,0,,elle semblait\Ndéjà morte avant l'incendie,
+Dialogue: 0,0:11:30.94,0:11:34.15,Default,,0,0,0,,mais la baisse minime\Nde la température du rectum
+Dialogue: 0,0:11:34.36,0:11:37.40,Default,,0,0,0,,suggère qu'elle était encore\Nen vie peu avant le drame,
+Dialogue: 0,0:11:38.15,0:11:39.65,Default,,0,0,0,,d'après le légiste.
+Dialogue: 0,0:11:40.20,0:11:41.78,Default,,0,0,0,,Elle était alors en vie
+Dialogue: 0,0:11:42.20,0:11:45.33,Default,,0,0,0,,lors du meurtre du joueur\Ndans l'appartement de Beika ?
+Dialogue: 0,0:11:45.66,0:11:48.08,Default,,0,0,0,,Megure m'a parlé de cette affaire.
+Dialogue: 0,0:11:48.50,0:11:51.21,Default,,0,0,0,,Un plateau de shôgi\Na été retrouvé sur place.
+Dialogue: 0,0:11:51.46,0:11:54.58,Default,,0,0,0,,Figurez que c'est aussi le cas ici.
+Dialogue: 0,0:11:56.09,0:11:59.09,Default,,0,0,0,,Trois de ses pieds manquent à l'appel.
+Dialogue: 0,0:11:59.51,0:12:01.76,Default,,0,0,0,,Ce sont bien des meurtres en série !
+Dialogue: 0,0:12:02.05,0:12:04.09,Default,,0,0,0,,On l'a tué juste après M. Genda...
+Dialogue: 0,0:12:04.84,0:12:05.76,Default,,0,0,0,,Dommage,
+Dialogue: 0,0:12:05.93,0:12:09.22,Default,,0,0,0,,on ne peut plus l'interroger\Nsur le suicide de M. Uryû.
+Dialogue: 0,0:12:09.56,0:12:11.48,Default,,0,0,0,,Trouvons quelqu'un d'autre !
+Dialogue: 0,0:12:11.69,0:12:12.31,Default,,0,0,0,,Dites !
+Dialogue: 0,0:12:13.35,0:12:16.48,Default,,0,0,0,,Vous pouvez me dire\Nce que Conan fait ici ?
+Dialogue: 0,0:12:17.27,0:12:21.24,ST_HAUT,,0,0,0,,Il s'est glissé\Ndans la voiture à notre insu...
+Dialogue: 0,0:12:28.24,0:12:30.45,Default,,0,0,0,,Désolé de débarquer à l'improviste.
+Dialogue: 0,0:12:31.08,0:12:33.58,Default,,0,0,0,,Voilà donc ton nouvel appartement...
+Dialogue: 0,0:12:34.50,0:12:35.04,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:12:35.63,0:12:39.05,Default,,0,0,0,,Je lis sur ton visage\Nque ma présence te surprend.
+Dialogue: 0,0:12:39.75,0:12:43.30,Default,,0,0,0,,Je suis venu te conseiller\Nde te dénoncer à la police.
+Dialogue: 0,0:12:44.43,0:12:45.84,Default,,0,0,0,,Je te sais coupable.
+Dialogue: 0,0:12:46.34,0:12:50.22,Default,,0,0,0,,C'est toi qui as tué Genda\Ndans l'appartement de Beika.
+Dialogue: 0,0:12:56.23,0:12:59.73,Default,,0,0,0,,{\i1}Ces meurtres en série ciblant\Ndes joueurs pro de shôgi{\i0}
+Dialogue: 0,0:13:00.28,0:13:01.61,Default,,0,0,0,,{\i1}ont pour point commun{\i0}
+Dialogue: 0,0:13:02.36,0:13:05.74,Default,,0,0,0,,{\i1}un plateau de shôgi\Nlaissé à chaque fois sur les lieux.{\i0}
+Dialogue: 0,0:13:06.45,0:13:10.29,Default,,0,0,0,,{\i1}Soupçonné de parties truquées,\NM. Nishikido disparaît,{\i0}
+Dialogue: 0,0:13:10.45,0:13:12.45,Default,,0,0,0,,{\i1}puis est retrouvé battu à mort{\i0}
+Dialogue: 0,0:13:12.95,0:13:15.71,Default,,0,0,0,,{\i1}avec un plateau\Nau pied manquant près de lui.{\i0}
+Dialogue: 0,0:13:16.79,0:13:18.21,Default,,0,0,0,,{\i1}M. Genda est mort étranglé{\i0}
+Dialogue: 0,0:13:18.38,0:13:22.46,Default,,0,0,0,,{\i1}dans un appartement de Beika.\NNon loin de sa tête gît un plateau{\i0}
+Dialogue: 0,0:13:22.84,0:13:25.43,Default,,0,0,0,,{\i1}avec deux pieds en moins.{\i0}
+Dialogue: 0,0:13:26.43,0:13:28.14,Default,,0,0,0,,{\i1}Et dans la foulée,{\i0}
+Dialogue: 0,0:13:28.55,0:13:30.93,Default,,0,0,0,,{\i1}un incendie éclate chez M. Kishimoto.{\i0}
+Dialogue: 0,0:13:31.10,0:13:33.10,Default,,0,0,0,,{\i1}On y découvre son corps carbonisé{\i0}
+Dialogue: 0,0:13:33.64,0:13:36.98,Default,,0,0,0,,{\i1}et un plateau\Navec trois pieds manquants.{\i0}
+Dialogue: 0,0:13:37.90,0:13:41.15,Default,,0,0,0,,{\i1}Trois suspects\Nsur les lieux du deuxième crime.{\i0}
+Dialogue: 0,0:13:41.32,0:13:45.45,Default,,0,0,0,,{\i1}Ils laissent seul M. Genda, la victime,\Npour aller faire des courses.{\i0}
+Dialogue: 0,0:13:46.49,0:13:48.37,Default,,0,0,0,,{\i1}Pour M. Kôsuke Hishinuma,{\i0}
+Dialogue: 0,0:13:48.53,0:13:51.49,Default,,0,0,0,,{\i1}du café chaud\Nissu d'un commerce dédié.{\i0}
+Dialogue: 0,0:13:52.33,0:13:55.46,Default,,0,0,0,,{\i1}Pour Mina Katsumata,\Ndes pains tout chauds.{\i0}
+Dialogue: 0,0:13:56.41,0:14:00.00,Default,,0,0,0,,{\i1}Quant à Shôko Uryû, des crèmes glacées.{\i0}
+Dialogue: 0,0:14:00.17,0:14:01.96,Default,,0,0,0,,{\i1}Tels étaient leurs achats.{\i0}
+Dialogue: 0,0:14:03.34,0:14:05.05,Default,,0,0,0,,{\i1}Le café de M. Hishinuma{\i0}
+Dialogue: 0,0:14:05.22,0:14:08.09,Default,,0,0,0,,{\i1}a été consommé\Ndans le hall de l'immeuble.{\i0}
+Dialogue: 0,0:14:08.55,0:14:11.01,Default,,0,0,0,,{\i1}Il était tiède\Net manquait de saveur.{\i0}
+Dialogue: 0,0:14:12.10,0:14:12.93,Default,,0,0,0,,{\i1}Dans ce cas,{\i0}
+Dialogue: 0,0:14:13.10,0:14:16.81,Default,,0,0,0,,{\i1}il aurait pu préparer\Nun instantané avec de l'eau chaude,{\i0}
+Dialogue: 0,0:14:17.52,0:14:21.36,Default,,0,0,0,,{\i1}sauf que le chauffe-eau\Net la bouilloire étaient hors d'usage.{\i0}
+Dialogue: 0,0:14:22.19,0:14:26.40,Default,,0,0,0,,{\i1}La cuisinière était froide, et rien\Nn'indique que de l'eau a bouilli.{\i0}
+Dialogue: 0,0:14:27.53,0:14:30.87,Default,,0,0,0,,{\i1}Même déduction\Npour les pains tout chauds de Mina.{\i0}
+Dialogue: 0,0:14:31.74,0:14:33.83,Default,,0,0,0,,{\i1}Cet appartement n'a pas de micro-ondes,{\i0}
+Dialogue: 0,0:14:33.99,0:14:36.45,Default,,0,0,0,,{\i1}donc impossible de les réchauffer.{\i0}
+Dialogue: 0,0:14:37.46,0:14:40.13,Default,,0,0,0,,{\i1}Les glaces achetées par Shôko{\i0}
+Dialogue: 0,0:14:40.29,0:14:41.88,Default,,0,0,0,,{\i1}semblaient très froides,{\i0}
+Dialogue: 0,0:14:42.63,0:14:44.21,Default,,0,0,0,,{\i1}mais avec une glacière,{\i0}
+Dialogue: 0,0:14:44.46,0:14:47.88,Default,,0,0,0,,{\i1}elle aurait pu garder au frais\Ndes glaces achetées par avance.{\i0}
+Dialogue: 0,0:14:49.05,0:14:52.22,Default,,0,0,0,,{\i1}Mais le trio est arrivé\Nà l'appartement sans grand-chose.{\i0}
+Dialogue: 0,0:14:52.51,0:14:55.10,Default,,0,0,0,,{\i1}Cette piste semble improbable.{\i0}
+Dialogue: 0,0:14:56.14,0:15:00.10,Default,,0,0,0,,{\i1}De plus, seuls M. Genda et Mina\Navaient les clés de l'appartement.{\i0}
+Dialogue: 0,0:15:00.60,0:15:02.48,Default,,0,0,0,,{\i1}Shôko ne pouvait pas venir avant{\i0}
+Dialogue: 0,0:15:02.65,0:15:05.65,Default,,0,0,0,,{\i1}pour y déposer une glacière.{\i0}
+Dialogue: 0,0:15:06.19,0:15:10.41,Default,,0,0,0,,{\i1}Même chose\Npour Hishinuma avec un thermos.{\i0}
+Dialogue: 0,0:15:11.24,0:15:15.12,Default,,0,0,0,,{\i1}Déjà, ces trois-là pouvaient-ils\Nassassiner M. Kishimoto ?{\i0}
+Dialogue: 0,0:15:16.66,0:15:18.96,Default,,0,0,0,,{\i1}Nous avons découvert\Nle corps de M. Genda{\i0}
+Dialogue: 0,0:15:19.12,0:15:21.58,Default,,0,0,0,,{\i1}dans un appartement de Beika.{\i0}
+Dialogue: 0,0:15:22.13,0:15:25.84,Default,,0,0,0,,{\i1}Entre l'arrivée de la police,\Nl'enquête menée sur place,{\i0}
+Dialogue: 0,0:15:26.42,0:15:29.76,Default,,0,0,0,,{\i1}la question sur le lieu\Noù habite M. Kishimoto,{\i0}
+Dialogue: 0,0:15:30.68,0:15:32.97,Default,,0,0,0,,{\i1}le regard par la fenêtre\Npour le localiser,{\i0}
+Dialogue: 0,0:15:33.22,0:15:36.68,Default,,0,0,0,,{\i1}et la constatation de l'incendie\Nchez M. Kishimoto,{\i0}
+Dialogue: 0,0:15:36.89,0:15:37.97,Default,,0,0,0,,{\i1}3 heures ont passé.{\i0}
+Dialogue: 0,0:15:39.52,0:15:40.64,Default,,0,0,0,,{\i1}Ces trois joueurs{\i0}
+Dialogue: 0,0:15:40.98,0:15:43.19,Default,,0,0,0,,{\i1}ont toujours été à nos côtés.{\i0}
+Dialogue: 0,0:15:44.19,0:15:48.19,Default,,0,0,0,,{\i1}L'inspecteur Yuminaga a dit\Nque M. Kishimoto semblait déjà mort{\i0}
+Dialogue: 0,0:15:48.57,0:15:51.07,Default,,0,0,0,,{\i1}au moment où l'incendie a éclaté,{\i0}
+Dialogue: 0,0:15:52.03,0:15:54.70,Default,,0,0,0,,{\i1}mais a précisé\Nque la température de son rectum{\i0}
+Dialogue: 0,0:15:54.87,0:15:57.24,Default,,0,0,0,,{\i1}était encore relativement élevée,{\i0}
+Dialogue: 0,0:15:58.20,0:16:02.25,Default,,0,0,0,,{\i1}suggérant ainsi qu'il était encore\Nen vie peu avant l'incendie.{\i0}
+Dialogue: 0,0:16:02.92,0:16:06.46,Default,,0,0,0,,{\i1}Aucune de ces trois personnes\Nne peut donc l'avoir tué...{\i0}
+Dialogue: 0,0:16:06.88,0:16:09.21,Default,,0,0,0,,C'est impossible !
+Dialogue: 0,0:16:09.59,0:16:11.72,Default,,0,0,0,,Explique-toi, Genta !
+Dialogue: 0,0:16:12.09,0:16:16.18,Default,,0,0,0,,Avant-hier, la figurine n° 1\Nest sortie de cette tirette de {\i1}Yaiba{\i0} !
+Dialogue: 0,0:16:16.35,0:16:17.93,Default,,0,0,0,,et hier, la n° 2 !
+Dialogue: 0,0:16:18.10,0:16:21.10,Default,,0,0,0,,J'étais sûr\Nque la n° 3 sortirait aujourd'hui,
+Dialogue: 0,0:16:21.64,0:16:24.10,Default,,0,0,0,,mais j'ai encore tiré la n° 1 !
+Dialogue: 0,0:16:24.27,0:16:28.27,Default,,0,0,0,,Cette machine\Nne crache jamais la n° 3, ou quoi ?
+Dialogue: 0,0:16:28.44,0:16:32.61,Default,,0,0,0,,Genta ! Dans la vie, tout ne marche\Npas dans l'ordre que l'on souhaite !
+Dialogue: 0,0:16:33.20,0:16:35.74,Default,,0,0,0,,Secouons-la pour voir si ça sort !
+Dialogue: 0,0:16:36.32,0:16:37.37,Default,,0,0,0,,On va te gronder !
+Dialogue: 0,0:16:37.53,0:16:40.12,Default,,0,0,0,,- T'inquiète !\N- Ne brutalise pas la machine !
+Dialogue: 0,0:16:40.66,0:16:41.50,Default,,0,0,0,,Bah alors ?
+Dialogue: 0,0:16:42.25,0:16:45.04,Default,,0,0,0,,Tu t'intéresses à ces jouets ?
+Dialogue: 0,0:16:45.21,0:16:47.96,Default,,0,0,0,,Non, ce n'est pas ma tasse de thé.
+Dialogue: 0,0:16:48.67,0:16:49.63,Default,,0,0,0,,Tu vas la casser !
+Dialogue: 0,0:16:49.80,0:16:50.46,Default,,0,0,0,,Saleté !
+Dialogue: 0,0:16:50.63,0:16:53.63,Default,,0,0,0,,{\i1}J'ai l'impression d'avoir reçu\Nun indice crucial...{\i0}
+Dialogue: 0,0:16:56.68,0:16:57.43,Default,,0,0,0,,{\i1}Un appel...{\i0}
+Dialogue: 0,0:16:58.72,0:16:59.68,Default,,0,0,0,,{\i1}C'est Yumi.{\i0}
+Dialogue: 0,0:17:00.72,0:17:01.47,Default,,0,0,0,,Allô ?
+Dialogue: 0,0:17:01.93,0:17:03.56,Default,,0,0,0,,Yumi ? Un problème ?
+Dialogue: 0,0:17:03.73,0:17:05.06,Default,,0,0,0,,- Lâche-moi !\N- Stop !
+Dialogue: 0,0:17:05.23,0:17:05.77,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:17:07.06,0:17:09.48,Default,,0,0,0,,{\i1}Taikô Meijin n'est pas rentré ?{\i0}
+Dialogue: 0,0:17:10.19,0:17:11.11,Default,,0,0,0,,{\i1}Depuis hier ?{\i0}
+Dialogue: 0,0:17:11.53,0:17:12.15,Default,,0,0,0,,C'est ça.
+Dialogue: 0,0:17:12.65,0:17:17.07,Default,,0,0,0,,Hier, il m'a dit qu'il rentrerait tard\Ncar il allait voir quelqu'un,
+Dialogue: 0,0:17:17.53,0:17:20.12,Default,,0,0,0,,je me suis du coup\Nendormie sans l'attendre.
+Dialogue: 0,0:17:20.83,0:17:22.25,Default,,0,0,0,,Il n'était pas là au réveil.
+Dialogue: 0,0:17:22.83,0:17:26.67,Default,,0,0,0,,Je pensais qu'il était rentré\Net ressorti tôt le matin,
+Dialogue: 0,0:17:27.00,0:17:29.50,Default,,0,0,0,,mais personne n'a de ses nouvelles.
+Dialogue: 0,0:17:30.09,0:17:32.30,Default,,0,0,0,,Tu t'es adressée aux trois joueurs ?
+Dialogue: 0,0:17:32.80,0:17:35.30,Default,,0,0,0,,{\i1}Oui, je leur ai téléphoné,{\i0}
+Dialogue: 0,0:17:35.47,0:17:37.68,Default,,0,0,0,,{\i1}mais ils ignorent où il est.{\i0}
+Dialogue: 0,0:17:37.97,0:17:41.26,Default,,0,0,0,,{\i1}J'ai pensé que tu pourrais m'éclairer,\Nd'où mon appel.{\i0}
+Dialogue: 0,0:17:42.72,0:17:44.89,Default,,0,0,0,,{\i1}J'y pense...{\i0}
+Dialogue: 0,0:17:45.10,0:17:49.06,Default,,0,0,0,,{\i1}Taikô Meijin faisait une drôle de tête\Nlors de la découverte du corps.{\i0}
+Dialogue: 0,0:17:49.86,0:17:51.94,Default,,0,0,0,,{\i1}Il aurait remarqué quelque chose ?{\i0}
+Dialogue: 0,0:17:52.53,0:17:55.65,Default,,0,0,0,,{\i1}Quand vous avez quitté\Nla scène de crime,{\i0}
+Dialogue: 0,0:17:55.82,0:17:58.70,Default,,0,0,0,,{\i1}tu n'as rien vu d'étrange\Nchez Taikô Meijin ?{\i0}
+Dialogue: 0,0:18:00.24,0:18:02.54,Default,,0,0,0,,Rien de particulier,
+Dialogue: 0,0:18:03.16,0:18:06.54,Default,,0,0,0,,mais au moment de quitter\Ntous ensemble l'immeuble,
+Dialogue: 0,0:18:06.75,0:18:09.46,Default,,0,0,0,,il a subitement dit\Navoir oublié un truc,
+Dialogue: 0,0:18:09.63,0:18:12.09,Default,,0,0,0,,et est remonté dans l'appartement.
+Dialogue: 0,0:18:12.59,0:18:16.26,Default,,0,0,0,,À son retour,\Nje lui ai demandé ce qu'il avait oublié,
+Dialogue: 0,0:18:16.42,0:18:18.30,Default,,0,0,0,,mais il a prétexté une méprise.
+Dialogue: 0,0:18:18.89,0:18:21.60,Default,,0,0,0,,{\i1}Bizarre... Pourquoi cette attitude ?{\i0}
+Dialogue: 0,0:18:21.89,0:18:24.89,Default,,0,0,0,,{\i1}Mais bref, je vais chercher ailleurs.{\i0}
+Dialogue: 0,0:18:25.43,0:18:26.10,Default,,0,0,0,,{\i1}Attends !{\i0}
+Dialogue: 0,0:18:27.23,0:18:30.48,Default,,0,0,0,,Cette suspicion d'infidélité\Na dû le secouer.
+Dialogue: 0,0:18:30.65,0:18:33.19,Default,,0,0,0,,Surtout qu'il n'en était rien...
+Dialogue: 0,0:18:33.48,0:18:36.44,Default,,0,0,0,,Ne me prenez pas le chou\Njuste pour une filature !
+Dialogue: 0,0:18:37.40,0:18:39.11,Default,,0,0,0,,C'est quand même pas rien...
+Dialogue: 0,0:18:39.28,0:18:40.95,Default,,0,0,0,,Tu n'es pas détective...
+Dialogue: 0,0:18:41.32,0:18:44.54,Default,,0,0,0,,Vous avez l'air de bien\Nvous entendre, tous les deux.
+Dialogue: 0,0:18:45.25,0:18:46.20,Default,,0,0,0,,Pas vraiment...
+Dialogue: 0,0:18:46.37,0:18:49.25,Default,,0,0,0,,On a encore eu un désaccord, hier soir.
+Dialogue: 0,0:18:49.42,0:18:51.13,Default,,0,0,0,,C'a viré à la grosse dispute.
+Dialogue: 0,0:18:51.29,0:18:54.88,Default,,0,0,0,,Tu m'as ri au nez\Nquand j'ai versé sur mon riz
+Dialogue: 0,0:18:55.05,0:18:56.84,Default,,0,0,0,,le ragoût à la crème !
+Dialogue: 0,0:18:57.01,0:19:00.43,Default,,0,0,0,,Bah, ça ne se fait pas,\Nce n'est pas du curry !
+Dialogue: 0,0:19:00.68,0:19:04.51,Default,,0,0,0,,Ça finit dans l'estomac,\Net ça fait de la vaisselle en moins !
+Dialogue: 0,0:19:04.89,0:19:07.18,Default,,0,0,0,,{\i1}Je jalouse ces tourtereaux...{\i0}
+Dialogue: 0,0:19:15.15,0:19:15.65,Default,,0,0,0,,Où suis-je ?
+Dialogue: 0,0:19:16.86,0:19:19.65,Default,,0,0,0,,{\i1}J'ai débarqué à son domicile,\Nhier soir...{\i0}
+Dialogue: 0,0:19:20.66,0:19:23.78,Default,,0,0,0,,{\i1}Je suis venu te conseiller\Nde te dénoncer à la police.{\i0}
+Dialogue: 0,0:19:24.41,0:19:27.45,Default,,0,0,0,,{\i1}Papotons tranquillement, veux-tu ?{\i0}
+Dialogue: 0,0:19:33.00,0:19:37.38,Default,,0,0,0,,{\i1}Un coup de Taser m'a mis K.-O,\Net me voilà prisonnier.{\i0}
+Dialogue: 0,0:19:38.51,0:19:40.38,Default,,0,0,0,,{\i1}J'ai les mains liées dans le dos,{\i0}
+Dialogue: 0,0:19:40.55,0:19:43.22,Default,,0,0,0,,{\i1}mais j'ai mon portable\Ndans ma poche arrière.{\i0}
+Dialogue: 0,0:19:44.35,0:19:46.22,Default,,0,0,0,,{\i1}Je peux m'en saisir,{\i0}
+Dialogue: 0,0:19:46.64,0:19:48.89,Default,,0,0,0,,{\i1}mais ça va être coton pour téléphoner.{\i0}
+Dialogue: 0,0:19:50.73,0:19:52.56,Default,,0,0,0,,{\i1}Je te sens sur les nerfs.{\i0}
+Dialogue: 0,0:19:53.65,0:19:56.82,Default,,0,0,0,,{\i1}Tu attends\Nle fameux communiqué de la police,{\i0}
+Dialogue: 0,0:19:57.94,0:20:01.53,Default,,0,0,0,,{\i1}mais j'ai fait en sorte\Nde déjouer ton plan !{\i0}
+Dialogue: 0,0:20:09.00,0:20:10.91,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NAi Haibara : Megumi Hayashibara
+Dialogue: 0,0:20:11.58,0:20:13.50,ST_HAUT,,0,0,0,,Shûkichi Haneda : Toshiyuki Morikawa\NYumi Miyamoto : Yû Sugimoto
+Dialogue: 0,0:21:24.03,0:21:25.07,Default,,0,0,0,,Quelle surprise !
+Dialogue: 0,0:21:25.24,0:21:25.95,Default,,0,0,0,,RÉSULTATS EN HAUSSE
+Dialogue: 0,0:21:26.11,0:21:28.83,Default,,0,0,0,,Me téléphoner\Nn'est pas dans tes habitudes.
+Dialogue: 0,0:21:29.28,0:21:30.62,Default,,0,0,0,,{\i1}C'est Shinichi ?{\i0}
+Dialogue: 0,0:21:31.12,0:21:33.66,Default,,0,0,0,,Quoi ? Shûkichi a disparu ?
+Dialogue: 0,0:21:33.87,0:21:36.17,Default,,0,0,0,,Et ce,\Naprès avoir été mêlé à un meurtre ?
+Dialogue: 0,0:21:36.67,0:21:39.34,Default,,0,0,0,,Oui, il doit savoir qui est l'assassin
+Dialogue: 0,0:21:39.79,0:21:41.92,Default,,0,0,0,,et s'est rendu chez lui.
+Dialogue: 0,0:21:42.76,0:21:45.26,Default,,0,0,0,,Les suspects\Nsont trois joueurs de shôgi,
+Dialogue: 0,0:21:45.43,0:21:47.43,Default,,0,0,0,,il a dû inciter le tueur à se rendre.
+Dialogue: 0,0:21:48.30,0:21:51.10,Default,,0,0,0,,Dis-m'en plus sur cette affaire.
+Dialogue: 0,0:21:51.51,0:21:52.85,Default,,0,0,0,,Ça pique ma curiosité.
+Dialogue: 0,0:21:53.27,0:21:54.64,Default,,0,0,0,,Mets le haut-parleur,
+Dialogue: 0,0:21:54.81,0:21:58.77,Default,,0,0,0,,histoire que j'en profite aussi.\NJ'ai du temps à tuer.
+Dialogue: 0,0:21:58.98,0:22:01.23,Default,,0,0,0,,C'est le moment de profiter à fond
+Dialogue: 0,0:22:01.40,0:22:03.61,Default,,0,0,0,,du talent du roi de la déduction !
+Dialogue: 0,0:22:04.69,0:22:05.78,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:22:06.11,0:22:07.66,Default,,0,0,0,,À chaque nouvelle victime,
+Dialogue: 0,0:22:07.82,0:22:10.87,Default,,0,0,0,,un des pieds\Ndu plateau de shôgi disparaît.
+Dialogue: 0,0:22:11.24,0:22:16.04,Default,,0,0,0,,J'espère que tu as remarqué\Nque ces disparitions étaient un leurre.
+Dialogue: 0,0:22:16.21,0:22:16.83,Default,,0,0,0,,{\i1}Oui.{\i0}
+Dialogue: 0,0:22:17.21,0:22:20.88,Default,,0,0,0,,{\i1}Mais comme je vous l'ai dit,\Nles suspects ont tous un alibi.{\i0}
+Dialogue: 0,0:22:21.25,0:22:22.84,Default,,0,0,0,,Selon toi, le frère d'Akai
+Dialogue: 0,0:22:23.00,0:22:25.88,Default,,0,0,0,,aurait remarqué quelque chose.
+Dialogue: 0,0:22:26.34,0:22:28.22,Default,,0,0,0,,{\i1}Qu'est-ce qui te fait penser ça ?{\i0}
+Dialogue: 0,0:22:28.89,0:22:29.76,Default,,0,0,0,,Quand Meijin
+Dialogue: 0,0:22:30.39,0:22:32.18,Default,,0,0,0,,s'est décalé pour voir le corps,
+Dialogue: 0,0:22:32.35,0:22:35.73,Default,,0,0,0,,il a posé sa main\Nsur le plan de travail de la cuisine,
+Dialogue: 0,0:22:36.27,0:22:39.19,Default,,0,0,0,,puis l'a retirée,\Ncomme s'il avait touché quelque chose.
+Dialogue: 0,0:22:40.02,0:22:42.65,Default,,0,0,0,,J'ignore si c'était chaud ou froid,
+Dialogue: 0,0:22:42.94,0:22:44.94,Default,,0,0,0,,mais son regard a changé.
+Dialogue: 0,0:22:45.24,0:22:48.32,Default,,0,0,0,,{\i1}Qu'y avait-il sur le plan de travail\Nà ce moment ?{\i0}
+Dialogue: 0,0:22:48.49,0:22:50.28,Default,,0,0,0,,Rien de bien important :
+Dialogue: 0,0:22:50.99,0:22:52.91,Default,,0,0,0,,deux bacs à glaçons,
+Dialogue: 0,0:22:53.08,0:22:55.66,Default,,0,0,0,,un mixeur et un grille-pain.
+Dialogue: 0,0:22:58.42,0:22:59.79,Default,,0,0,0,,La réponse est là.
+Dialogue: 0,0:23:00.42,0:23:03.80,Default,,0,0,0,,Un de ces trois objets\Na permis au coupable
+Dialogue: 0,0:23:03.96,0:23:05.84,Default,,0,0,0,,de se forger un alibi.
+Dialogue: 0,0:23:07.47,0:23:08.55,Default,,0,0,0,,N'importe quoi...
+Dialogue: 0,0:23:11.39,0:23:12.26,Default,,0,0,0,,Mais oui !
+Dialogue: 0,0:23:12.89,0:23:15.85,Default,,0,0,0,,En tous cas, le temps presse.
+Dialogue: 0,0:23:16.31,0:23:17.56,Default,,0,0,0,,Rejoins Akai
+Dialogue: 0,0:23:18.14,0:23:20.90,Default,,0,0,0,,et assurez-vous que son frère est sauf.
+Dialogue: 0,0:23:22.27,0:23:25.07,Default,,0,0,0,,Je compte sur toi, Conan Edogawa.
+Dialogue: 0,0:23:25.53,0:23:27.36,Default,,0,0,0,,Je serai à la hauteur !

@@ -1,0 +1,403 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.00,0:00:03.29,Default,,0,0,0,,{\i1}Sera s'est rapprochée de Haibara{\i0}
+Dialogue: 0,0:00:03.46,0:00:06.38,Default,,0,0,0,,{\i1}car elle la suspecte d'avoir rajeuni.{\i0}
+Dialogue: 0,0:00:07.42,0:00:09.46,Default,,0,0,0,,{\i1}Afin d'esquiver cette investigation,{\i0}
+Dialogue: 0,0:00:09.71,0:00:11.09,Default,,0,0,0,,{\i1}nous avons décidé de suivre{\i0}
+Dialogue: 0,0:00:11.92,0:00:13.59,Default,,0,0,0,,{\i1}le professeur Agasa{\i0}
+Dialogue: 0,0:00:13.97,0:00:17.01,Default,,0,0,0,,{\i1}chez un expert en antiquités,\Naccompagné par Subaru.{\i0}
+Dialogue: 0,0:00:19.18,0:00:20.06,Default,,0,0,0,,{\i1}Hélas...{\i0}
+Dialogue: 0,0:00:20.77,0:00:22.23,Default,,0,0,0,,{\i1}M. Nishitsu !{\i0}
+Dialogue: 0,0:00:23.39,0:00:24.52,Default,,0,0,0,,{\i1}M. Nishitsu !{\i0}
+Dialogue: 0,0:00:25.19,0:00:26.02,Default,,0,0,0,,{\i1}Qu'y a-t-il ?{\i0}
+Dialogue: 0,0:00:26.69,0:00:28.06,Default,,0,0,0,,{\i1}Qui vous a fait ça ?{\i0}
+Dialogue: 0,0:00:29.11,0:00:30.36,Default,,0,0,0,,{\i1}Ceci...{\i0}
+Dialogue: 0,0:00:31.57,0:00:32.57,Default,,0,0,0,,{\i1}Ce plateau...{\i0}
+Dialogue: 0,0:00:33.15,0:00:33.86,Default,,0,0,0,,{\i1}Il est...{\i0}
+Dialogue: 0,0:00:34.70,0:00:35.57,Default,,0,0,0,,{\i1}authentique.{\i0}
+Dialogue: 0,0:00:37.99,0:00:38.70,Default,,0,0,0,,{\i1}Ça alors !{\i0}
+Dialogue: 0,0:00:39.33,0:00:40.49,Default,,0,0,0,,{\i1}Une grue !{\i0}
+Dialogue: 0,0:00:42.33,0:00:44.79,Default,,0,0,0,,{\i1}Je dois appeler\Nune ambulance et la police !{\i0}
+Dialogue: 0,0:00:45.08,0:00:47.29,Default,,0,0,0,,{\i1}Mince !\NMon portable est dans la voiture !{\i0}
+Dialogue: 0,0:00:47.75,0:00:50.80,Default,,0,0,0,,{\i1}Tenez le coup,\Nje reviens tout de suite !{\i0}
+Dialogue: 0,0:00:58.30,0:00:59.05,Default,,0,0,0,,{\i1}C'est là !{\i0}
+Dialogue: 0,0:01:03.48,0:01:04.31,Default,,0,0,0,,{\i1}C'est fou !{\i0}
+Dialogue: 0,0:01:07.60,0:01:09.77,Default,,0,0,0,,{\i1}Trop tard, il est mort.{\i0}
+Dialogue: 0,0:01:10.44,0:01:11.78,Default,,0,0,0,,{\i1}Conan...{\i0}
+Dialogue: 0,0:01:13.32,0:01:15.53,Default,,0,0,0,,{\i1}Je ne vois aucun plateau.{\i0}
+Dialogue: 0,0:01:15.70,0:01:16.20,Default,,0,0,0,,{\i1}Quoi ?{\i0}
+Dialogue: 0,0:01:17.61,0:01:18.70,Default,,0,0,0,,{\i1}À quoi ça rime ?{\i0}
+Dialogue: 0,0:01:19.62,0:01:23.70,Default,,0,0,0,,{\i1}Je vais tout d'abord inspecter\Nle dos du plateau de M. Tôjima.{\i0}
+Dialogue: 0,0:01:24.33,0:01:27.92,Default,,0,0,0,,{\i1}Le propriétaire du plateau ensanglanté{\i0}
+Dialogue: 0,0:01:28.08,0:01:30.04,Default,,0,0,0,,{\i1}sera notre principal suspect.{\i0}
+Dialogue: 0,0:01:31.34,0:01:33.84,Default,,0,0,0,,- {\i1}Il y a une trace de sang !\N{\i0}- {\i1}Pardon ?{\i0}
+Dialogue: 0,0:01:34.34,0:01:37.30,ST_HAUT,,0,0,0,,{\i1}Tout est clair, vous êtes l'assassin.{\i0}
+Dialogue: 0,0:01:37.93,0:01:39.72,Default,,0,0,0,,{\i1}Je conteste ! Je suis innocent !{\i0}
+Dialogue: 0,0:01:40.05,0:01:41.26,Default,,0,0,0,,{\i1}Allons, allons !{\i0}
+Dialogue: 0,0:01:41.43,0:01:44.72,Default,,0,0,0,,{\i1}Vérifions les autres plateaux\Nafin d'être sûrs.{\i0}
+Dialogue: 0,0:01:48.94,0:01:50.11,Default,,0,0,0,,{\i1}Incroyable...{\i0}
+Dialogue: 0,0:01:50.48,0:01:53.65,Default,,0,0,0,,{\i1}Le dos de chacun porte\Nune trace de sang !{\i0}
+Dialogue: 0,0:01:55.28,0:01:56.44,Default,,0,0,0,,{\i1}Comment l'expliquer ?{\i0}
+Dialogue: 0,0:01:56.61,0:01:57.95,Default,,0,0,0,,{\i1}Aucune idée...{\i0}
+Dialogue: 0,0:01:58.11,0:02:02.41,Default,,0,0,0,,{\i1}Le coupable a dû remarquer\Nla trace de sang au dos du plateau{\i0}
+Dialogue: 0,0:02:02.91,0:02:04.08,Default,,0,0,0,,{\i1}et malin comme il est,{\i0}
+Dialogue: 0,0:02:04.24,0:02:07.62,Default,,0,0,0,,{\i1}il a reproduit cette tache sanguine\Nsur les autres.{\i0}
+Dialogue: 0,0:02:08.08,0:02:11.29,Default,,0,0,0,,{\i1}Le but était de brouiller les pistes.{\i0}
+Dialogue: 0,0:02:12.54,0:02:14.00,ST_HAUT,,0,0,0,,{\i1}Le premier pas d'un long chemin,{\i0}
+Dialogue: 0,0:02:14.17,0:02:16.30,ST_HAUT,,0,0,0,,{\i1}1 000 mystères résolus,\Nen route vers un nouveau monde !{\i0}
+Dialogue: 0,0:02:16.46,0:02:18.05,Default,,0,0,0,,{\i1}Du sang cache le vrai plateau.{\i0}
+Dialogue: 0,0:02:18.22,0:02:20.14,Default,,0,0,0,,{\i1}À l'aube d'une vérité et d'un mystère !{\i0}
+Dialogue: 0,0:02:20.55,0:02:23.93,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:24.10,0:02:26.47,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:02:27.43,0:02:29.69,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:40.91,0:02:42.53,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:02:43.41,0:02:45.16,ST_HAUT,,0,0,0,,Directeur artistique :\NJunichi Higashi
+Dialogue: 0,0:02:48.75,0:02:50.62,ST_HAUT_GAUCHE,,0,0,0,,Direction du son :\NY. Urakami, K. Urakami
+Dialogue: 0,0:02:52.71,0:02:54.59,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:02:59.42,0:03:01.38,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Zero kara hajimete"
+Dialogue: 0,0:03:03.60,0:03:05.72,ST_HAUT,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:03:07.18,0:03:09.23,ST_HAUT,,0,0,0,,Projet initial : Takenori Ichihara,\NNaota Machida
+Dialogue: 0,0:03:17.03,0:03:19.11,ST_HAUT,,0,0,0,,Producteurs : Isato Yonekura,\NKiyoaki Terashima
+Dialogue: 0,0:03:26.33,0:03:28.54,ST_HAUT,,0,0,0,,Chefs producteurs :\NKana Sasaki, Keiichi Ishiyama
+Dialogue: 0,0:03:35.04,0:03:37.55,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:03:48.97,0:03:51.43,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:03:54.35,0:03:57.23,Default,,0,0,0,,{\i1}Le Plateau antique indissimulable\N(3e partie){\i0}
+Dialogue: 0,0:04:00.99,0:04:02.07,Default,,0,0,0,,Messieurs !
+Dialogue: 0,0:04:03.61,0:04:07.20,Default,,0,0,0,,Attendre plus longtemps\Nne fera pas avancer les choses !
+Dialogue: 0,0:04:08.28,0:04:09.24,Default,,0,0,0,,C'est que...
+Dialogue: 0,0:04:09.45,0:04:11.37,Default,,0,0,0,,Je me permets de prendre congé.
+Dialogue: 0,0:04:11.66,0:04:13.12,Default,,0,0,0,,Je m'y oppose !
+Dialogue: 0,0:04:15.04,0:04:16.50,Default,,0,0,0,,Les choses sont claires :
+Dialogue: 0,0:04:16.67,0:04:19.92,Default,,0,0,0,,l'assassin qui a frappé M. Nishitsu\Nà la tête avec une lance,
+Dialogue: 0,0:04:20.09,0:04:24.38,Default,,0,0,0,,puis l'a achevé en lui plantant\Ncette arme dans le dos
+Dialogue: 0,0:04:25.34,0:04:28.43,Default,,0,0,0,,figure vraisemblablement\Nparmi vous trois !
+Dialogue: 0,0:04:29.01,0:04:31.52,Default,,0,0,0,,Vous allez encore rester ici un moment.
+Dialogue: 0,0:04:33.52,0:04:35.52,Default,,0,0,0,,Et jusqu'à quand, exactement ?
+Dialogue: 0,0:04:35.94,0:04:38.44,Default,,0,0,0,,Aucun expert ne viendra aujourd'hui,
+Dialogue: 0,0:04:38.69,0:04:41.28,Default,,0,0,0,,comment allez-vous\Ntrouver l'assassin ?
+Dialogue: 0,0:04:42.03,0:04:43.49,Default,,0,0,0,,Encore un peu de patience,
+Dialogue: 0,0:04:43.65,0:04:47.78,Default,,0,0,0,,nous avons fait appel à un expert\Nissu d'une autre région.
+Dialogue: 0,0:04:56.96,0:04:57.79,Default,,0,0,0,,Inspecteur Megure !
+Dialogue: 0,0:04:59.38,0:05:01.17,Default,,0,0,0,,Selon les femmes de ménage,
+Dialogue: 0,0:05:01.76,0:05:05.30,Default,,0,0,0,,la victime prévoyait de montrer\Nce paquet à ses clients du jour
+Dialogue: 0,0:05:05.68,0:05:09.64,Default,,0,0,0,,et de leur livrer\Nde surprenantes explications.
+Dialogue: 0,0:05:10.10,0:05:14.10,Default,,0,0,0,,Peut-être nous aidera-t-il à résoudre\Nle problème du fameux plateau ?
+Dialogue: 0,0:05:15.48,0:05:18.02,Default,,0,0,0,,Une inscription figure dessus.
+Dialogue: 0,0:05:18.19,0:05:20.32,Default,,0,0,0,,Cette calligraphie est illisible.
+Dialogue: 0,0:05:20.82,0:05:22.53,Default,,0,0,0,,Ah, c'est la boîte
+Dialogue: 0,0:05:22.69,0:05:25.32,Default,,0,0,0,,de la petite assiette\Nque j'ai fait expertiser.
+Dialogue: 0,0:05:25.65,0:05:27.11,Default,,0,0,0,,La boîte d'une assiette ?
+Dialogue: 0,0:05:27.28,0:05:31.08,Default,,0,0,0,,Tout à fait. La partie\Navec l'inscription est un couvercle.
+Dialogue: 0,0:05:31.24,0:05:33.83,Default,,0,0,0,,Faites-le glisser\Nvers le haut pour l'ouvrir.
+Dialogue: 0,0:05:34.83,0:05:35.75,Default,,0,0,0,,Comme ceci ?
+Dialogue: 0,0:05:37.96,0:05:42.09,Default,,0,0,0,,Effectivement, elle contient\Nune petite assiette antique.
+Dialogue: 0,0:05:42.25,0:05:43.17,Default,,0,0,0,,Inspecteur...
+Dialogue: 0,0:05:43.76,0:05:46.09,Default,,0,0,0,,Pourrais-je y jeter un œil ?
+Dialogue: 0,0:05:47.34,0:05:51.18,Default,,0,0,0,,Je n'y vois pas d'inconvénient,\Nelle ne semble pas liée à cette affaire.
+Dialogue: 0,0:05:51.39,0:05:52.18,Default,,0,0,0,,Merci.
+Dialogue: 0,0:05:59.40,0:05:59.94,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:06:00.52,0:06:03.15,Default,,0,0,0,,La peinture au dos s'est écaillée !
+Dialogue: 0,0:06:03.53,0:06:06.44,Default,,0,0,0,,Il y a des sortes de fêlures.
+Dialogue: 0,0:06:07.07,0:06:08.70,Default,,0,0,0,,Voilà qui est étrange.
+Dialogue: 0,0:06:08.86,0:06:10.37,Default,,0,0,0,,Quand je l'ai trouvée,
+Dialogue: 0,0:06:10.53,0:06:13.58,Default,,0,0,0,,elle n'était pas dans cet état.
+Dialogue: 0,0:06:15.83,0:06:17.08,Default,,0,0,0,,{\i1}J'ai saisi...{\i0}
+Dialogue: 0,0:06:17.83,0:06:18.83,Default,,0,0,0,,Professeur !
+Dialogue: 0,0:06:19.50,0:06:21.79,Default,,0,0,0,,Quand vous avez retourné le plateau,
+Dialogue: 0,0:06:22.13,0:06:25.09,Default,,0,0,0,,dans quelle position était\Nla grue sculptée ?
+Dialogue: 0,0:06:26.55,0:06:29.09,Default,,0,0,0,,Laisse-moi réfléchir...
+Dialogue: 0,0:06:34.76,0:06:35.72,Default,,0,0,0,,À mon avis...
+Dialogue: 0,0:06:36.43,0:06:37.52,Default,,0,0,0,,comme ça !
+Dialogue: 0,0:06:41.86,0:06:43.65,Default,,0,0,0,,Inspecteur Takagi !
+Dialogue: 0,0:06:43.82,0:06:46.78,Default,,0,0,0,,Retournez à nouveau\Nles trois plateaux !
+Dialogue: 0,0:06:47.99,0:06:49.11,Default,,0,0,0,,Encore ?
+Dialogue: 0,0:06:50.24,0:06:52.62,Default,,0,0,0,,Retournez-les encore à l'horizontale.
+Dialogue: 0,0:07:04.54,0:07:05.75,Default,,0,0,0,,C'est fait.
+Dialogue: 0,0:07:06.09,0:07:07.38,Default,,0,0,0,,Inspecteur Chiba !
+Dialogue: 0,0:07:08.59,0:07:09.63,Default,,0,0,0,,Oui, Conan ?
+Dialogue: 0,0:07:10.55,0:07:12.51,Default,,0,0,0,,Est-ce que sur l'un des coussins...
+Dialogue: 0,0:07:15.18,0:07:16.06,Default,,0,0,0,,Oui !
+Dialogue: 0,0:07:16.39,0:07:19.31,Default,,0,0,0,,Une seule boîte était souillée\Nde sang à cet endroit.
+Dialogue: 0,0:07:21.10,0:07:22.31,Default,,0,0,0,,{\i1}J'y vois clair...{\i0}
+Dialogue: 0,0:07:23.40,0:07:24.94,Default,,0,0,0,,{\i1}Je sais ce qu'il en est !{\i0}
+Dialogue: 0,0:07:26.69,0:07:29.44,Default,,0,0,0,,Nous aimerions nous en aller.
+Dialogue: 0,0:07:29.94,0:07:33.78,Default,,0,0,0,,M'éterniser sur le lieu d'un meurtre\Nme donne la chair de poule.
+Dialogue: 0,0:07:34.12,0:07:36.33,Default,,0,0,0,,Et puis, observez les tatamis !
+Dialogue: 0,0:07:37.24,0:07:41.25,Default,,0,0,0,,Du sang a éclaboussé nos boîtes !
+Dialogue: 0,0:07:43.12,0:07:47.25,Default,,0,0,0,,Laissez-nous repartir\Navec nos plateaux.
+Dialogue: 0,0:07:47.59,0:07:50.34,Default,,0,0,0,,Vous reprendrez\Nl'interrogatoire un autre jour.
+Dialogue: 0,0:07:51.13,0:07:52.97,Default,,0,0,0,,Patientez encore un peu !
+Dialogue: 0,0:07:53.13,0:07:57.26,Default,,0,0,0,,Un expert plutôt compétent\Nen matière d'antiquités est en route.
+Dialogue: 0,0:07:57.97,0:08:01.06,Default,,0,0,0,,"Plutôt compétent", dites-vous ?\NVous plaisantez ?
+Dialogue: 0,0:08:01.48,0:08:04.77,Default,,0,0,0,,Si le plateau présent dans ma boîte\Nest certifié comme authentique,
+Dialogue: 0,0:08:04.94,0:08:08.82,Default,,0,0,0,,on me soupçonnera\Nd'être l'assassin de M. Nishitsu !
+Dialogue: 0,0:08:09.28,0:08:14.20,Default,,0,0,0,,Vous comptez confier une tâche\Naussi cruciale à un amateur ?
+Dialogue: 0,0:08:14.61,0:08:16.45,Default,,0,0,0,,Je partage leur avis.
+Dialogue: 0,0:08:16.91,0:08:20.54,Default,,0,0,0,,Je désire ardemment le vrai plateau,
+Dialogue: 0,0:08:20.70,0:08:23.62,Default,,0,0,0,,mais pas au point\Nde commettre un meurtre.
+Dialogue: 0,0:08:23.79,0:08:25.17,Default,,0,0,0,,Messieurs-dame !
+Dialogue: 0,0:08:26.17,0:08:27.88,Default,,0,0,0,,Et si je vous disais
+Dialogue: 0,0:08:28.04,0:08:31.59,Default,,0,0,0,,qu'il est possible d'identifier\Nle vrai plateau sans expert,
+Dialogue: 0,0:08:32.55,0:08:33.09,Default,,0,0,0,,hein ?
+Dialogue: 0,0:08:35.14,0:08:37.60,Default,,0,0,0,,Remémorez-vous vos paroles, Pr Agasa.
+Dialogue: 0,0:08:38.05,0:08:41.22,Default,,0,0,0,,Frappé à la tête avec une lance,
+Dialogue: 0,0:08:41.43,0:08:45.60,Default,,0,0,0,,M. Hôgen Nishitsu a désigné le vrai\Nplateau avec son doigt ensanglanté.
+Dialogue: 0,0:08:46.44,0:08:47.11,Default,,0,0,0,,Exact.
+Dialogue: 0,0:08:47.86,0:08:51.11,Default,,0,0,0,,M. Nishitsu a laissé\Nune trace de sang sur ce plateau
+Dialogue: 0,0:08:51.53,0:08:55.24,Default,,0,0,0,,et quand vous l'avez retourné\Nlatéralement,
+Dialogue: 0,0:08:55.91,0:08:59.37,Default,,0,0,0,,vous avez remarqué que le bec\Nde la grue sculptée
+Dialogue: 0,0:08:59.53,0:09:03.25,Default,,0,0,0,,était orienté dans le même sens\Nque la trace de sang.
+Dialogue: 0,0:09:03.91,0:09:06.75,Default,,0,0,0,,C'est bien ce qu'il m'a semblé.
+Dialogue: 0,0:09:07.08,0:09:10.00,Default,,0,0,0,,Nous avons déjà procédé\Nà la vérification !
+Dialogue: 0,0:09:10.42,0:09:13.55,Default,,0,0,0,,J'ai placé les plateaux\Navec la trace de sang vers le nord
+Dialogue: 0,0:09:13.80,0:09:16.09,Default,,0,0,0,,et les ai retournés par le côté,
+Dialogue: 0,0:09:16.34,0:09:20.31,Default,,0,0,0,,mais aucune grue\Nn'avait le bec indiquant le nord.
+Dialogue: 0,0:09:21.18,0:09:23.77,Default,,0,0,0,,Je propose une nouvelle tentative !
+Dialogue: 0,0:09:24.14,0:09:28.02,Default,,0,0,0,,Quand vous avez retourné le plateau,\Nle sang indiquait le nord-est.
+Dialogue: 0,0:09:28.44,0:09:31.86,Default,,0,0,0,,Sur une horloge, ça correspond à 1 h 30.
+Dialogue: 0,0:09:32.32,0:09:33.57,Default,,0,0,0,,Tout à fait.
+Dialogue: 0,0:09:34.15,0:09:37.91,Default,,0,0,0,,Retournez à nouveau les plateaux\Nen vous basant là-dessus.
+Dialogue: 0,0:09:39.91,0:09:40.87,Default,,0,0,0,,Cette fois-ci,
+Dialogue: 0,0:09:41.49,0:09:44.29,Default,,0,0,0,,orientez les traces de sang vers 1 h 30.
+Dialogue: 0,0:09:45.08,0:09:47.62,Default,,0,0,0,,En les retournant horizontalement...
+Dialogue: 0,0:09:53.17,0:09:56.88,Default,,0,0,0,,Eh oui...\NEn les retournant dans cette position,
+Dialogue: 0,0:09:57.09,0:10:01.01,Default,,0,0,0,,le seul plateau avec une grue\Ndont le bec indique 1 h 30
+Dialogue: 0,0:10:01.85,0:10:05.89,Default,,0,0,0,,est celui qui provient\Nde votre boîte...
+Dialogue: 0,0:10:13.40,0:10:17.11,Default,,0,0,0,,Eh oui...\NEn les retournant dans cette position,
+Dialogue: 0,0:10:17.28,0:10:21.20,Default,,0,0,0,,le seul plateau avec une grue\Ndont le bec indique 1 h 30
+Dialogue: 0,0:10:21.99,0:10:25.95,Default,,0,0,0,,est celui qui provient de votre boîte...
+Dialogue: 0,0:10:28.62,0:10:30.00,Default,,0,0,0,,M. Motoyuki Tôjima !
+Dialogue: 0,0:10:31.67,0:10:32.96,Default,,0,0,0,,Je suis perdu, là...
+Dialogue: 0,0:10:33.13,0:10:36.46,Default,,0,0,0,,Tout à l'heure, aucun bec\Nn'était orienté dans le même sens
+Dialogue: 0,0:10:36.63,0:10:38.68,Default,,0,0,0,,que les traces de sang...
+Dialogue: 0,0:10:38.84,0:10:41.72,Default,,0,0,0,,Celles-ci\Nétaient orientées vers le nord.
+Dialogue: 0,0:10:42.39,0:10:45.18,Default,,0,0,0,,Imaginons qu'une assiette\Nporte une trace.
+Dialogue: 0,0:10:45.52,0:10:47.48,Default,,0,0,0,,En la retournant à l'horizontale,
+Dialogue: 0,0:10:47.64,0:10:50.27,Default,,0,0,0,,si une marque se situe au même endroit,
+Dialogue: 0,0:10:50.69,0:10:53.06,Default,,0,0,0,,on a alors tendance\Nà croire que ces traces
+Dialogue: 0,0:10:53.23,0:10:55.86,Default,,0,0,0,,sont orientées du même côté,
+Dialogue: 0,0:10:56.32,0:10:58.86,Default,,0,0,0,,chose exacte seulement\Nsi elles indiquent le nord.
+Dialogue: 0,0:11:01.28,0:11:03.41,Default,,0,0,0,,Avant le geste du professeur,
+Dialogue: 0,0:11:03.70,0:11:05.16,Default,,0,0,0,,la trace était au nord-est.
+Dialogue: 0,0:11:05.83,0:11:09.79,Default,,0,0,0,,Sa position indiquant\N1 h 30 sur une horloge
+Dialogue: 0,0:11:10.42,0:11:13.25,Default,,0,0,0,,signifie que le bec\Nde la grue marque 10 h 30.
+Dialogue: 0,0:11:13.84,0:11:15.84,Default,,0,0,0,,S'il n'est pas orienté\Nvers le nord-ouest,
+Dialogue: 0,0:11:16.00,0:11:18.67,Default,,0,0,0,,sa position différera\Nune fois retourné.
+Dialogue: 0,0:11:19.67,0:11:23.18,Default,,0,0,0,,Alors en retournant le plateau\Navec la trace orientée au nord,
+Dialogue: 0,0:11:23.60,0:11:27.27,Default,,0,0,0,,il était logique que le bec\Nne pointe pas dans cette direction.
+Dialogue: 0,0:11:27.64,0:11:30.31,Default,,0,0,0,,Tout s'explique... En conclusion,
+Dialogue: 0,0:11:30.69,0:11:32.65,Default,,0,0,0,,celui qui a assassiné M. Nishitsu
+Dialogue: 0,0:11:32.94,0:11:36.19,Default,,0,0,0,,et placé le vrai plateau\Ndans sa propre boîte,
+Dialogue: 0,0:11:36.94,0:11:38.53,Default,,0,0,0,,c'est M. Motoyuki Tôjima !
+Dialogue: 0,0:11:39.32,0:11:40.90,Default,,0,0,0,,Pourquoi m'accusez-vous ?
+Dialogue: 0,0:11:41.32,0:11:42.70,Default,,0,0,0,,Ce dénommé Agasa
+Dialogue: 0,0:11:42.86,0:11:46.08,Default,,0,0,0,,a appris de la bouche de M. Nishitsu\Nquel était le vrai plateau.
+Dialogue: 0,0:11:46.62,0:11:49.58,Default,,0,0,0,,On ne sait pas\Nsi le tueur en a eu vent !
+Dialogue: 0,0:11:50.37,0:11:53.46,Default,,0,0,0,,Afin de perturber l'enquête,
+Dialogue: 0,0:11:53.63,0:11:56.63,Default,,0,0,0,,le coupable a peut-être souillé\Nles autres plateaux,
+Dialogue: 0,0:11:56.88,0:12:00.22,Default,,0,0,0,,puis les a simplement\Nremis dans leur boîte !
+Dialogue: 0,0:12:01.47,0:12:04.97,Default,,0,0,0,,Du coup, la présence\Ndu vrai plateau dans ma boîte
+Dialogue: 0,0:12:05.14,0:12:08.01,Default,,0,0,0,,signifie qu'il m'appartient\Ndepuis le début !
+Dialogue: 0,0:12:08.18,0:12:10.68,Default,,0,0,0,,Cessez de débiter des âneries !
+Dialogue: 0,0:12:10.85,0:12:12.89,Default,,0,0,0,,Vous êtes un mauvais perdant.
+Dialogue: 0,0:12:13.06,0:12:13.98,Default,,0,0,0,,Mais...
+Dialogue: 0,0:12:14.15,0:12:15.36,Default,,0,0,0,,Je suis d'accord !
+Dialogue: 0,0:12:15.81,0:12:18.11,Default,,0,0,0,,Vous êtes vraiment un mauvais perdant !
+Dialogue: 0,0:12:18.57,0:12:19.11,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:12:19.48,0:12:22.86,Default,,0,0,0,,Les deux autres clients\Nn'en avaient pas la capacité !
+Dialogue: 0,0:12:23.78,0:12:25.37,Default,,0,0,0,,De faire quoi, Conan ?
+Dialogue: 0,0:12:25.70,0:12:28.99,Default,,0,0,0,,Rappelez-vous que l'assassin
+Dialogue: 0,0:12:29.16,0:12:32.96,Default,,0,0,0,,a frappé l'expert à la tête\Navec cette longue et lourde lance.
+Dialogue: 0,0:12:33.12,0:12:33.75,Default,,0,0,0,,Exact.
+Dialogue: 0,0:12:34.08,0:12:37.79,Default,,0,0,0,,M. Chôno et Mme Sakamaki\Nmanquent de forces.
+Dialogue: 0,0:12:38.21,0:12:40.38,Default,,0,0,0,,En brandissant une arme aussi lourde,
+Dialogue: 0,0:12:40.55,0:12:43.97,Default,,0,0,0,,ils auraient titubé\Net fait crisser les tatamis,
+Dialogue: 0,0:12:44.13,0:12:46.14,Default,,0,0,0,,ce qui aurait alerté M. Nishitsu.
+Dialogue: 0,0:12:46.47,0:12:47.14,Default,,0,0,0,,Du bruit ?
+Dialogue: 0,0:12:47.39,0:12:48.68,Default,,0,0,0,,Vous ne croyez pas ?
+Dialogue: 0,0:12:49.51,0:12:51.52,Default,,0,0,0,,Ça me paraît plausible, oui...
+Dialogue: 0,0:12:53.60,0:12:56.65,Default,,0,0,0,,Laisse-moi t'apprendre une chose,\Nmon petit.
+Dialogue: 0,0:12:57.19,0:13:01.53,Default,,0,0,0,,L'appareil de M. Nishitsu\Nfonctionnait mal, vois-tu.
+Dialogue: 0,0:13:02.19,0:13:06.24,Default,,0,0,0,,Alors même si le tueur avait fait\Ngrincer les tatamis en chancelant,
+Dialogue: 0,0:13:06.61,0:13:09.33,Default,,0,0,0,,M. Nishitsu n'aurait rien remarqué !
+Dialogue: 0,0:13:09.62,0:13:10.99,Default,,0,0,0,,D'où vous sortez ça ?
+Dialogue: 0,0:13:12.50,0:13:16.08,Default,,0,0,0,,Comment vous savez\Nque son appareil était détraqué ?
+Dialogue: 0,0:13:16.25,0:13:17.63,Default,,0,0,0,,Expliquez-nous.
+Dialogue: 0,0:13:18.38,0:13:22.51,Default,,0,0,0,,Il vous l'aurait dit avant\Nque vous ne l'agressiez ?
+Dialogue: 0,0:13:22.88,0:13:25.26,Default,,0,0,0,,Mais non, voyons...
+Dialogue: 0,0:13:25.59,0:13:28.26,Default,,0,0,0,,{\i1}Vous m'avez peut-être appelé ?{\i0}
+Dialogue: 0,0:13:29.01,0:13:30.51,Default,,0,0,0,,{\i1}Si oui, toutes mes excuses.{\i0}
+Dialogue: 0,0:13:31.06,0:13:34.02,Default,,0,0,0,,{\i1}Mon appareil auditif\Ns'est encore détraqué.{\i0}
+Dialogue: 0,0:13:36.14,0:13:39.23,Default,,0,0,0,,Nous avons appris\Npour le dysfonctionnement de l'appareil
+Dialogue: 0,0:13:39.40,0:13:41.98,Default,,0,0,0,,grâce au mail du professeur, non ?
+Dialogue: 0,0:13:42.28,0:13:42.82,Default,,0,0,0,,Exact.
+Dialogue: 0,0:13:43.53,0:13:46.15,Default,,0,0,0,,Dans la demi-heure\Nprécédant notre arrivée ici,
+Dialogue: 0,0:13:46.45,0:13:50.24,Default,,0,0,0,,M. Nishitsu n'a pas consulté\Nle mail du professeur.
+Dialogue: 0,0:13:50.95,0:13:54.75,Default,,0,0,0,,S'il n'a pas entendu la notification,
+Dialogue: 0,0:13:54.91,0:13:58.58,Default,,0,0,0,,c'est certainement dû au dérèglement\Nde son appareil auditif.
+Dialogue: 0,0:14:00.59,0:14:01.71,Default,,0,0,0,,M. Tôjima...
+Dialogue: 0,0:14:02.71,0:14:05.26,Default,,0,0,0,,Laissez-moi vous rafraîchir la mémoire.
+Dialogue: 0,0:14:05.51,0:14:07.68,Default,,0,0,0,,Vous aviez déclaré ne pas savoir
+Dialogue: 0,0:14:07.84,0:14:09.97,Default,,0,0,0,,qu'il portait un appareil auditif.
+Dialogue: 0,0:14:11.97,0:14:16.23,Default,,0,0,0,,Étant donné qu'il conversait\Nnormalement avec vous tous,
+Dialogue: 0,0:14:16.77,0:14:21.23,Default,,0,0,0,,vous seul connaissiez le vice\Nde l'appareil, comme Conan l'a expliqué.
+Dialogue: 0,0:14:30.95,0:14:33.24,Default,,0,0,0,,Je ne comptais pas lui ôter la vie.
+Dialogue: 0,0:14:33.74,0:14:37.46,Default,,0,0,0,,Une grosse somme est requise\Npour soigner ma fille gravement malade.
+Dialogue: 0,0:14:37.96,0:14:39.75,Default,,0,0,0,,J'avais pour dernier espoir
+Dialogue: 0,0:14:40.08,0:14:42.63,Default,,0,0,0,,ce plateau trouvé dans un entrepôt...
+Dialogue: 0,0:14:43.25,0:14:47.38,Default,,0,0,0,,Mais deux autres clients\Nen avaient apporté des similaires.
+Dialogue: 0,0:14:47.88,0:14:49.55,Default,,0,0,0,,Ne tenant plus en place,
+Dialogue: 0,0:14:49.72,0:14:53.01,Default,,0,0,0,,je suis venu en 1er pour connaître\Nle résultat de l'expertise...
+Dialogue: 0,0:14:53.39,0:14:54.68,Default,,0,0,0,,{\i1}Regardez plutôt ça.{\i0}
+Dialogue: 0,0:14:55.18,0:14:57.64,Default,,0,0,0,,{\i1}Contemplez\Ncette épaisseur et cet éclat !{\i0}
+Dialogue: 0,0:14:58.35,0:15:01.44,Default,,0,0,0,,{\i1}Ce plateau en laque sculptée\Nest authentique !{\i0}
+Dialogue: 0,0:15:02.27,0:15:03.15,Default,,0,0,0,,{\i1}Malheureusement,{\i0}
+Dialogue: 0,0:15:03.57,0:15:06.48,Default,,0,0,0,,{\i1}il ne s'agit pas du vôtre.{\i0}
+Dialogue: 0,0:15:07.78,0:15:08.95,Default,,0,0,0,,{\i1}Erreur...{\i0}
+Dialogue: 0,0:15:10.07,0:15:11.16,Default,,0,0,0,,{\i1}Toutefois...{\i0}
+Dialogue: 0,0:15:11.70,0:15:13.53,Default,,0,0,0,,{\i1}Ce plateau m'appartient !{\i0}
+Dialogue: 0,0:15:18.71,0:15:19.66,Default,,0,0,0,,5 000 000 yens...
+Dialogue: 0,0:15:20.50,0:15:23.92,Default,,0,0,0,,C'est tout ce qu'il manquait\Npour l'opération de ma fille !
+Dialogue: 0,0:15:24.42,0:15:28.21,Default,,0,0,0,,Votre plateau\Naurait largement fait l'affaire.
+Dialogue: 0,0:15:29.34,0:15:33.93,Default,,0,0,0,,Les deux autres plateaux n'étaient pas\Ndes faux, mais plutôt des essais.
+Dialogue: 0,0:15:34.68,0:15:36.85,Default,,0,0,0,,Durant sa jeunesse, un célèbre artiste
+Dialogue: 0,0:15:37.06,0:15:40.35,Default,,0,0,0,,a dû sculpter ces splendeurs\Nen s'inspirant du vrai.
+Dialogue: 0,0:15:41.10,0:15:42.90,Default,,0,0,0,,Ils n'égalent pas l'original,
+Dialogue: 0,0:15:43.06,0:15:46.27,Default,,0,0,0,,mais doivent tout de même\Nvaloir des millions de yens.
+Dialogue: 0,0:15:46.82,0:15:47.86,Default,,0,0,0,,Ça alors...
+Dialogue: 0,0:15:49.28,0:15:53.07,Default,,0,0,0,,J'ai donc tué un homme pour rien ?
+Dialogue: 0,0:15:58.87,0:16:00.33,Default,,0,0,0,,J'ai besoin de savoir !
+Dialogue: 0,0:16:00.50,0:16:03.08,Default,,0,0,0,,Quelle boîte abrite le vrai plateau ?
+Dialogue: 0,0:16:03.25,0:16:05.38,Default,,0,0,0,,Dans la mienne, j'espère !
+Dialogue: 0,0:16:07.05,0:16:08.00,Default,,0,0,0,,À ce propos...
+Dialogue: 0,0:16:10.92,0:16:11.76,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:16:11.93,0:16:14.51,Default,,0,0,0,,Vous avez oublié\Ndans quelle boîte il était ?
+Dialogue: 0,0:16:14.84,0:16:15.85,Default,,0,0,0,,Vraiment ?
+Dialogue: 0,0:16:16.10,0:16:17.22,Default,,0,0,0,,Oui...
+Dialogue: 0,0:16:17.64,0:16:20.89,Default,,0,0,0,,J'avoue avoir mis le vrai dans ma boîte.
+Dialogue: 0,0:16:23.35,0:16:25.94,Default,,0,0,0,,Dans ce cas,\Nle plateau doit me revenir,
+Dialogue: 0,0:16:26.15,0:16:28.23,Default,,0,0,0,,par respect pour mon grand âge.
+Dialogue: 0,0:16:28.44,0:16:29.86,Default,,0,0,0,,Petit plaisantin !
+Dialogue: 0,0:16:30.03,0:16:30.74,Default,,0,0,0,,Dites !
+Dialogue: 0,0:16:31.61,0:16:34.82,Default,,0,0,0,,Je sais dans quelle boîte\Nse trouve le vrai.
+Dialogue: 0,0:16:36.53,0:16:37.49,Default,,0,0,0,,C'est vrai, ça ?
+Dialogue: 0,0:16:37.66,0:16:39.29,Default,,0,0,0,,Oui, c'est fastoche.
+Dialogue: 0,0:16:39.66,0:16:43.67,Default,,0,0,0,,Quand M. Tôyama a frappé M. Nishitsu...
+Dialogue: 0,0:16:44.54,0:16:47.54,Default,,0,0,0,,le sang a éclaboussé toutes les boîtes,
+Dialogue: 0,0:16:47.71,0:16:51.05,Default,,0,0,0,,d'où le sang\Nsur les contenants et les plateaux.
+Dialogue: 0,0:16:51.97,0:16:53.80,Default,,0,0,0,,Oui, tu as vu juste.
+Dialogue: 0,0:16:54.22,0:16:56.05,Default,,0,0,0,,Réfléchissez bien.
+Dialogue: 0,0:16:56.51,0:16:57.80,Default,,0,0,0,,Quand il a été frappé,
+Dialogue: 0,0:16:57.97,0:17:01.43,Default,,0,0,0,,M. Nishitsu se trouvait\Ndevant le vrai plateau,
+Dialogue: 0,0:17:01.77,0:17:05.81,Default,,0,0,0,,ce qui veut dire que sa boîte était vide\Nà ce moment-là.
+Dialogue: 0,0:17:06.31,0:17:07.61,Default,,0,0,0,,À mon avis,
+Dialogue: 0,0:17:07.77,0:17:11.32,Default,,0,0,0,,une large partie du coussin\Nde la boîte est ensanglantée.
+Dialogue: 0,0:17:11.86,0:17:15.57,Default,,0,0,0,,Le propriétaire\Ndu vrai plateau est M. Chôno.
+Dialogue: 0,0:17:17.03,0:17:18.03,Default,,0,0,0,,Hourra !
+Dialogue: 0,0:17:19.45,0:17:21.95,Default,,0,0,0,,Comment vais-je\Nannoncer ça à mon patron ?
+Dialogue: 0,0:17:22.50,0:17:23.46,Default,,0,0,0,,N'ayez crainte.
+Dialogue: 0,0:17:23.62,0:17:27.96,Default,,0,0,0,,Je veux bien prêter mon plateau\Nà votre musée, si nécessaire.
+Dialogue: 0,0:17:28.34,0:17:31.13,Default,,0,0,0,,Soyez raisonnable sur le prix !
+Dialogue: 0,0:17:31.30,0:17:35.51,Default,,0,0,0,,Le résultat de l'expertise\Nde mon assiette reste une énigme.
+Dialogue: 0,0:17:36.26,0:17:38.47,Default,,0,0,0,,Autant faire appel à un autre expert.
+Dialogue: 0,0:17:38.64,0:17:40.85,Default,,0,0,0,,Cela ne sera pas nécessaire.
+Dialogue: 0,0:17:41.93,0:17:44.43,Default,,0,0,0,,La réponse\Nest inscrite sur la boite.
+Dialogue: 0,0:17:44.81,0:17:46.52,Default,,0,0,0,,Tu peux lire ces caractères ?
+Dialogue: 0,0:17:46.69,0:17:47.35,Default,,0,0,0,,Oui.
+Dialogue: 0,0:17:47.90,0:17:49.52,Default,,0,0,0,,"Qui cache trop rend apparent."
+Dialogue: 0,0:17:50.23,0:17:53.11,Default,,0,0,0,,Plus on tente\Nde dissimuler quelque chose,
+Dialogue: 0,0:17:53.28,0:17:55.99,Default,,0,0,0,,plus cela vire\Nau secret de Polichinelle.
+Dialogue: 0,0:17:56.36,0:17:57.86,Default,,0,0,0,,Tel est le sens de ce proverbe.
+Dialogue: 0,0:17:58.45,0:18:01.99,Default,,0,0,0,,Puisque que cette maxime\Nest signée "Kurisuke",
+Dialogue: 0,0:18:02.79,0:18:05.66,Default,,0,0,0,,j'imagine que votre oncle
+Dialogue: 0,0:18:05.83,0:18:08.25,Default,,0,0,0,,a recollé une petite assiette
+Dialogue: 0,0:18:08.42,0:18:10.79,Default,,0,0,0,,qu'il avait involontairement brisée,
+Dialogue: 0,0:18:10.96,0:18:13.71,Default,,0,0,0,,mais par crainte d'être démasqué,
+Dialogue: 0,0:18:14.17,0:18:17.51,Default,,0,0,0,,il a repeint toute l'assiette\Navec une couleur identique.
+Dialogue: 0,0:18:17.68,0:18:22.10,Default,,0,0,0,,La supercherie fut toutefois découverte,\Net il se prit un énorme savon.
+Dialogue: 0,0:18:22.81,0:18:24.47,Default,,0,0,0,,Par la suite,
+Dialogue: 0,0:18:24.68,0:18:28.19,Default,,0,0,0,,M. Kurisuke mit l'assiette\Ndans cette boîte et écrivit ce proverbe
+Dialogue: 0,0:18:28.40,0:18:30.15,Default,,0,0,0,,en guise de leçon.
+Dialogue: 0,0:18:31.36,0:18:34.19,Default,,0,0,0,,Si une partie\Nde la peinture est écaillée,
+Dialogue: 0,0:18:34.44,0:18:38.61,Default,,0,0,0,,c'est parce que M. Nishitsu\Na passé du dissolvant sur l'assiette.
+Dialogue: 0,0:18:38.78,0:18:41.53,Default,,0,0,0,,Voilà donc le fin mot de l'histoire...
+Dialogue: 0,0:18:42.74,0:18:43.79,Default,,0,0,0,,En tout cas,
+Dialogue: 0,0:18:44.24,0:18:46.33,Default,,0,0,0,,"qui cache trop rend apparent"...
+Dialogue: 0,0:18:47.04,0:18:51.17,Default,,0,0,0,,Ce proverbe s'applique\Nparfaitement à vous deux !
+Dialogue: 0,0:19:00.59,0:19:02.89,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NHiroshi Agasa : Kenichi Ogara
+Dialogue: 0,0:19:05.31,0:19:07.56,ST_HAUT,,0,0,0,,Ai Haibara : Megumi Hayashibara\NMasumi Sera : Noriko Hidaka
+Dialogue: 0,0:20:19.42,0:20:21.97,Default,,0,0,0,,Ma foi, je me suis bien éclatée !
+Dialogue: 0,0:20:22.38,0:20:23.13,Default,,0,0,0,,À plus !
+Dialogue: 0,0:20:27.22,0:20:30.23,Default,,0,0,0,,Je sens qu'on la reverra.\NJ'aimerais qu'elle nous lâche !
+Dialogue: 0,0:20:30.73,0:20:31.81,Default,,0,0,0,,Quelle plaie !
+Dialogue: 0,0:20:34.31,0:20:35.48,Default,,0,0,0,,C'est fâcheux.
+Dialogue: 0,0:20:35.86,0:20:38.61,Default,,0,0,0,,Je la vois mal venir fréquemment.
+Dialogue: 0,0:20:39.28,0:20:41.32,Default,,0,0,0,,J'ai réussi à faire diversion.
+Dialogue: 0,0:20:41.78,0:20:46.62,Default,,0,0,0,,{\i1}Qu'entends-tu\Npar "rétablir le cours du temps" ?{\i0}
+Dialogue: 0,0:20:47.37,0:20:51.37,Default,,0,0,0,,{\i1}Le mot "rétablir" suggère\Nque quelque chose a déraillé.{\i0}
+Dialogue: 0,0:20:51.96,0:20:55.88,Default,,0,0,0,,{\i1}Mais je sens\Nque ce n'est pas toi qui es concernée...{\i0}
+Dialogue: 0,0:20:56.04,0:20:58.17,Default,,0,0,0,,{\i1}Ce ne sont pas tes oignons !{\i0}
+Dialogue: 0,0:20:59.30,0:21:00.88,Default,,0,0,0,,J'ai comme le sentiment
+Dialogue: 0,0:21:01.05,0:21:04.05,Default,,0,0,0,,qu'elle aussi a un secret\Nqu'elle veut garder enfoui.
+Dialogue: 0,0:21:04.88,0:21:06.26,Default,,0,0,0,,À ce propos...
+Dialogue: 0,0:21:06.43,0:21:07.35,Default,,0,0,0,,Ne t'en fais pas.
+Dialogue: 0,0:21:07.93,0:21:09.64,Default,,0,0,0,,J'ai une belle idée en tête.
+Dialogue: 0,0:21:13.64,0:21:17.15,Default,,0,0,0,,{\i1}J'aurai du mal à y croire\Ntant que je ne l'aurai pas vue.{\i0}
+Dialogue: 0,0:21:20.53,0:21:22.65,Default,,0,0,0,,{\i1}Ce n'est pas ça...{\i0}
+Dialogue: 0,0:21:23.86,0:21:26.91,Default,,0,0,0,,{\i1}Je voulais lui révéler que Mary,\Nla mère de Sera et la sienne,{\i0}
+Dialogue: 0,0:21:27.37,0:21:29.66,Default,,0,0,0,,{\i1}avait ingéré l'APTX 4869{\i0}
+Dialogue: 0,0:21:29.99,0:21:32.91,Default,,0,0,0,,{\i1}et rajeuni au point de retrouver{\i0}
+Dialogue: 0,0:21:33.08,0:21:35.12,Default,,0,0,0,,{\i1}son corps de collégienne.{\i0}
+Dialogue: 0,0:21:36.79,0:21:39.00,Default,,0,0,0,,{\i1}Mais en fait,\Nje voulais m'assurer{\i0}
+Dialogue: 0,0:21:39.92,0:21:41.67,Default,,0,0,0,,{\i1}de l'identité de Mary.{\i0}
+Dialogue: 0,0:21:43.30,0:21:46.84,Default,,0,0,0,,{\i1}Cette Anglaise à la fois intelligente\Net douée pour le combat{\i0}
+Dialogue: 0,0:21:47.55,0:21:50.93,Default,,0,0,0,,{\i1}se fait appeler\Nla "sœur hors territoire".{\i0}
+Dialogue: 0,0:21:52.06,0:21:55.23,Default,,0,0,0,,{\i1}Si on retire T, E et R de "sister",{\i0}
+Dialogue: 0,0:21:55.39,0:21:57.73,Default,,0,0,0,,{\i1}qui veut dire "sœur" en anglais,{\i0}
+Dialogue: 0,0:21:58.15,0:21:59.40,Default,,0,0,0,,{\i1}et supprime T, E et R,{\i0}
+Dialogue: 0,0:21:59.56,0:22:02.82,Default,,0,0,0,,{\i1}l'abréviation de "territory",\Nqui signifie "territoire",{\i0}
+Dialogue: 0,0:22:03.86,0:22:05.99,Default,,0,0,0,,{\i1}on obtient "SIS", autrement dit,{\i0}
+Dialogue: 0,0:22:06.15,0:22:08.45,Default,,0,0,0,,{\i1}"Secret Intelligence Service",{\i0}
+Dialogue: 0,0:22:09.32,0:22:11.53,Default,,0,0,0,,{\i1}aussi connu sous le nom de "MI6",{\i0}
+Dialogue: 0,0:22:11.70,0:22:14.58,Default,,0,0,0,,{\i1}les services secrets britanniques.{\i0}
+Dialogue: 0,0:22:15.83,0:22:19.29,Default,,0,0,0,,{\i1}Si elle m'a volontairement\Nindiqué l'appellation codée{\i0}
+Dialogue: 0,0:22:19.46,0:22:21.21,Default,,0,0,0,,{\i1}"sœur hors territoire",{\i0}
+Dialogue: 0,0:22:21.75,0:22:23.34,Default,,0,0,0,,{\i1}c'était pour me tester,{\i0}
+Dialogue: 0,0:22:25.51,0:22:27.97,Default,,0,0,0,,{\i1}histoire de savoir si je peux être{\i0}
+Dialogue: 0,0:22:28.51,0:22:30.35,Default,,0,0,0,,{\i1}un allié fiable et compétent ?{\i0}
+Dialogue: 0,0:22:35.23,0:22:36.64,Default,,0,0,0,,50-50 ?
+Dialogue: 0,0:22:37.23,0:22:38.60,Default,,0,0,0,,Mon tic de langage ?
+Dialogue: 0,0:22:38.94,0:22:41.23,Default,,0,0,0,,Oui, tu l'emploies de temps en temps,
+Dialogue: 0,0:22:41.69,0:22:43.44,Default,,0,0,0,,ce "50-50".
+Dialogue: 0,0:22:43.61,0:22:44.19,Default,,0,0,0,,Exact.
+Dialogue: 0,0:22:45.03,0:22:48.03,Default,,0,0,0,,Ça vient de Tsutomu, ton père.
+Dialogue: 0,0:22:48.57,0:22:52.70,Default,,0,0,0,,D'ailleurs,\Nton défunt frère aîné l'employait aussi.
+Dialogue: 0,0:22:53.16,0:22:54.33,Default,,0,0,0,,Shûichi ?
+Dialogue: 0,0:22:56.20,0:22:58.46,Default,,0,0,0,,Parle-moi plutôt de l'antidote.
+Dialogue: 0,0:22:59.25,0:23:00.67,Default,,0,0,0,,Tu penses l'obtenir ?
+Dialogue: 0,0:23:02.09,0:23:04.09,Default,,0,0,0,,Pas dans l'immédiat, non.
+Dialogue: 0,0:23:04.50,0:23:06.46,Default,,0,0,0,,Je suis confrontée\Nà un drôle d'obstacle.
+Dialogue: 0,0:23:06.92,0:23:08.17,Default,,0,0,0,,Un drôle d'obstacle ?
+Dialogue: 0,0:23:08.47,0:23:08.97,Default,,0,0,0,,Oui.
+Dialogue: 0,0:23:09.26,0:23:12.76,Default,,0,0,0,,C'est un étudiant qui vit\Nnon loin de chez le professeur.
+Dialogue: 0,0:23:15.14,0:23:17.35,Default,,0,0,0,,Il t'intrigue tant que ça ?
+Dialogue: 0,0:23:18.48,0:23:20.02,Default,,0,0,0,,On peut dire ça...
+Dialogue: 0,0:23:20.98,0:23:22.52,Default,,0,0,0,,{\i1}C'est 50-50.{\i0}
+Dialogue: 0,0:23:22.94,0:23:24.82,Default,,0,0,0,,{\i1}Tu es toi aussi en tort.{\i0}
+Dialogue: 0,0:23:26.19,0:23:27.36,Default,,0,0,0,,{\i1}Je me fais des idées...{\i0}

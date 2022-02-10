@@ -1,0 +1,319 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.20,0:00:04.00,Default,,0,0,0,,{\i1}Durant notre trajet\Nvers une station de ski,{\i0}
+Dialogue: 0,0:00:04.58,0:00:07.17,Default,,0,0,0,,{\i1}nous avons aidé\Nà dégager une voiture enlisée.{\i0}
+Dialogue: 0,0:00:08.13,0:00:11.92,Default,,0,0,0,,{\i1}Par la suite, Kengo Ishibashi,\Nle conducteur du véhicule,{\i0}
+Dialogue: 0,0:00:12.34,0:00:15.22,Default,,0,0,0,,{\i1}poignarda le docteur Yokoyama,\Nson passager.{\i0}
+Dialogue: 0,0:00:16.01,0:00:17.05,Default,,0,0,0,,{\i1}Ayumi assista{\i0}
+Dialogue: 0,0:00:17.76,0:00:21.60,Default,,0,0,0,,{\i1}par hasard à ce meurtre\Ndepuis un télésiège de la station.{\i0}
+Dialogue: 0,0:00:22.39,0:00:25.06,Default,,0,0,0,,{\i1}Résultat, les Detective Boys\Nfurent traqués{\i0}
+Dialogue: 0,0:00:25.73,0:00:28.27,Default,,0,0,0,,{\i1}par Kengo Ishibashi, l'assassin.{\i0}
+Dialogue: 0,0:00:40.49,0:00:41.16,Default,,0,0,0,,{\i1}Là-bas...{\i0}
+Dialogue: 0,0:00:45.83,0:00:46.88,Default,,0,0,0,,{\i1}Une cabane !{\i0}
+Dialogue: 0,0:00:47.04,0:00:48.63,Default,,0,0,0,,{\i1}Ça tombe à pic !{\i0}
+Dialogue: 0,0:01:00.97,0:01:02.60,Default,,0,0,0,,{\i1}Bien joué.{\i0}
+Dialogue: 0,0:01:03.06,0:01:04.93,Default,,0,0,0,,{\i1}Mettons-nous en route !{\i0}
+Dialogue: 0,0:01:05.10,0:01:06.35,Default,,0,0,0,,{\i1}Ça marche !{\i0}
+Dialogue: 0,0:01:09.90,0:01:12.28,Default,,0,0,0,,{\i1}Je les aurai, ces blancs-becs !{\i0}
+Dialogue: 0,0:01:13.78,0:01:17.45,ST_BAS_DROITE,,0,0,0,,{\i1}Au réveil surviennent l'amour de\Nla déduction et la joie d'une enquête !{\i0}
+Dialogue: 0,0:01:17.61,0:01:20.33,Default,,0,0,0,,{\i1}Le meurtrier se rapproche\Ndans la tempête !{\i0}
+Dialogue: 0,0:01:20.49,0:01:23.95,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:24.12,0:01:26.50,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:27.08,0:01:31.13,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:01:33.84,0:01:37.97,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:01:38.39,0:01:42.22,ST_HAUT,,0,0,0,,Directeur artistique :\NTakahiro Koyama
+Dialogue: 0,0:01:42.76,0:01:46.81,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:01:47.23,0:01:52.61,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Sleepless"
+Dialogue: 0,0:01:53.94,0:01:58.07,ST_HAUT_GAUCHE,,0,0,0,,Éditeur : Terumitsu Okada
+Dialogue: 0,0:01:58.53,0:02:02.33,ST_HAUT,,0,0,0,,Projet initial :\NKazunori Ôshima, Masakazu Hakuya
+Dialogue: 0,0:02:02.78,0:02:06.45,ST_HAUT_GAUCHE,,0,0,0,,Producteurs : Takeshi Shioguchi,\NMasataka Tôdô
+Dialogue: 0,0:02:07.04,0:02:11.00,ST_HAUT_GAUCHE,,0,0,0,,Chefs producteurs : Kana Sasaki,\NKiyoaki Terashima
+Dialogue: 0,0:02:29.39,0:02:33.98,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:02:38.78,0:02:42.95,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:58.38,0:03:00.68,Default,,0,0,0,,{\i1}Le Voile blanc (2e partie){\i0}
+Dialogue: 0,0:03:04.51,0:03:05.93,Default,,0,0,0,,{\i1}Annonce à des enfants égarés.{\i0}
+Dialogue: 0,0:03:06.81,0:03:09.48,Default,,0,0,0,,{\i1}Conan Edogawa, Genta Kojima,{\i0}
+Dialogue: 0,0:03:09.93,0:03:13.15,Default,,0,0,0,,{\i1}Mitsuhiko Tsuburaya et Ayumi Yoshida,{\i0}
+Dialogue: 0,0:03:13.52,0:03:14.90,Default,,0,0,0,,{\i1}habitants de Beika,{\i0}
+Dialogue: 0,0:03:15.69,0:03:17.61,Default,,0,0,0,,{\i1}sont attendus par leur chaperon.{\i0}
+Dialogue: 0,0:03:17.98,0:03:21.11,Default,,0,0,0,,{\i1}Ils sont priés de se rendre\Nau bureau d'accueil.{\i0}
+Dialogue: 0,0:03:23.41,0:03:25.03,Default,,0,0,0,,Personne à l'horizon...
+Dialogue: 0,0:03:25.20,0:03:29.50,Default,,0,0,0,,Où ont-ils bien pu passer ?
+Dialogue: 0,0:03:29.87,0:03:32.04,Default,,0,0,0,,Voulez-vous que je les relance ?
+Dialogue: 0,0:03:32.54,0:03:33.79,Default,,0,0,0,,Oui, s'il vous plaît.
+Dialogue: 0,0:03:33.96,0:03:36.96,Default,,0,0,0,,Si jamais vous avez\Ndes nouvelles d'eux...
+Dialogue: 0,0:03:37.13,0:03:40.63,Default,,0,0,0,,Je vous téléphonerai immédiatement,
+Dialogue: 0,0:03:40.80,0:03:41.93,Default,,0,0,0,,n'ayez crainte.
+Dialogue: 0,0:03:42.18,0:03:44.26,Default,,0,0,0,,Je vous remercie d'avance.
+Dialogue: 0,0:03:49.27,0:03:51.56,Default,,0,0,0,,{\i1}Le correspondant\Nque vous cherchez à joindre...{\i0}
+Dialogue: 0,0:03:51.73,0:03:54.94,Default,,0,0,0,,Mais où diable êtes-vous, les enfants ?
+Dialogue: 0,0:04:16.71,0:04:18.50,ST_HAUT,,0,0,0,,Ce ne sont que des mioches.
+Dialogue: 0,0:04:19.30,0:04:22.13,Default,,0,0,0,,Ils n'ont pas pris soin\Nd'effacer leurs traces.
+Dialogue: 0,0:04:22.88,0:04:24.05,Default,,0,0,0,,Patron...
+Dialogue: 0,0:04:24.43,0:04:27.14,ST_HAUT,,0,0,0,,Vous comptez vraiment\Néliminer ces petits ?
+Dialogue: 0,0:04:27.80,0:04:30.14,Default,,0,0,0,,Je ne peux plus faire machine arrière.
+Dialogue: 0,0:04:30.97,0:04:33.64,Default,,0,0,0,,J'ai déjà un meurtre à mon actif.
+Dialogue: 0,0:04:37.61,0:04:39.15,Default,,0,0,0,,Vous allez tous les tuer ?
+Dialogue: 0,0:04:39.90,0:04:42.40,Default,,0,0,0,,Oui, je ne veux aucun survivant.
+Dialogue: 0,0:04:42.74,0:04:45.20,Default,,0,0,0,,Si je les enterre dans la neige\Ncomme Yokoyama,
+Dialogue: 0,0:04:45.36,0:04:48.41,Default,,0,0,0,,leurs corps ne seront découverts\Nqu'au printemps.
+Dialogue: 0,0:04:49.66,0:04:53.54,Default,,0,0,0,,Bordel... Je sens que ce travail\Nva nous donner mauvaise conscience.
+Dialogue: 0,0:04:54.58,0:04:56.88,Default,,0,0,0,,Si vous les aviez tout de suite coincés,
+Dialogue: 0,0:04:57.21,0:04:59.50,Default,,0,0,0,,on ne serait pas dans cette galère.
+Dialogue: 0,0:05:00.50,0:05:01.50,Default,,0,0,0,,Pardon !
+Dialogue: 0,0:05:02.30,0:05:03.30,Default,,0,0,0,,Hâtons-nous.
+Dialogue: 0,0:05:04.05,0:05:06.68,Default,,0,0,0,,Il faut les rattraper\Navant que la neige s'intensifie,
+Dialogue: 0,0:05:06.89,0:05:08.14,Default,,0,0,0,,sinon leurs traces...
+Dialogue: 0,0:05:09.97,0:05:10.89,Default,,0,0,0,,Elles ont disparu !
+Dialogue: 0,0:05:11.47,0:05:12.64,Default,,0,0,0,,Ça alors !
+Dialogue: 0,0:05:13.18,0:05:15.64,Default,,0,0,0,,Encore un coup de ce blanc-bec !
+Dialogue: 0,0:05:16.14,0:05:19.27,Default,,0,0,0,,"Appelle-moi d'urgence. Agasa."
+Dialogue: 0,0:05:19.44,0:05:20.65,Default,,0,0,0,,Envoyons ça.
+Dialogue: 0,0:05:23.19,0:05:24.78,Default,,0,0,0,,J'espère en tous cas
+Dialogue: 0,0:05:25.03,0:05:28.41,Default,,0,0,0,,qu'ils ne sont pas\Nune nouvelle fois dans le pétrin.
+Dialogue: 0,0:05:39.71,0:05:42.13,Default,,0,0,0,,Il fait un peu froid, ici.
+Dialogue: 0,0:05:42.30,0:05:46.30,Default,,0,0,0,,Oui, mais c'est toujours mieux\Nque d'être dehors !
+Dialogue: 0,0:05:47.01,0:05:51.01,Default,,0,0,0,,Je suis d'accord, mais combien\Nde temps va-t-on rester ici ?
+Dialogue: 0,0:05:51.30,0:05:53.97,Default,,0,0,0,,J'ai effacé nos traces\Nmenant ici avec le snowboard,
+Dialogue: 0,0:05:54.14,0:05:56.10,Default,,0,0,0,,on devrait être à l'abri un moment,
+Dialogue: 0,0:05:57.02,0:05:59.77,Default,,0,0,0,,mais on peut se faire\Nrattraper à tout instant.
+Dialogue: 0,0:06:00.31,0:06:04.61,Default,,0,0,0,,Cela dit, si on fait la bêtise\Nde partir, on risque l'accident.
+Dialogue: 0,0:06:05.07,0:06:07.36,Default,,0,0,0,,Le temps risque de se détériorer,
+Dialogue: 0,0:06:07.53,0:06:10.49,Default,,0,0,0,,difficile de prendre une décision.
+Dialogue: 0,0:06:11.49,0:06:15.50,Default,,0,0,0,,{\i1}Que faire ?\NEt si j'allais seul à l'autre cabane ?{\i0}
+Dialogue: 0,0:06:15.83,0:06:16.91,Default,,0,0,0,,{\i1}Ou alors...{\i0}
+Dialogue: 0,0:06:17.50,0:06:21.42,Default,,0,0,0,,{\i1}Bon sang !\NSi seulement j'avais du réseau...{\i0}
+Dialogue: 0,0:06:25.84,0:06:26.63,Default,,0,0,0,,Ça sonne !
+Dialogue: 0,0:06:28.26,0:06:30.93,Default,,0,0,0,,Je vous en prie, professeur !\NDécrochez !
+Dialogue: 0,0:06:31.14,0:06:31.97,Default,,0,0,0,,{\i1}Allô ?{\i0}
+Dialogue: 0,0:06:32.14,0:06:33.18,Default,,0,0,0,,C'est moi, professeur !
+Dialogue: 0,0:06:33.64,0:06:34.76,Default,,0,0,0,,Il a décroché !
+Dialogue: 0,0:06:34.93,0:06:35.72,Default,,0,0,0,,Génial !
+Dialogue: 0,0:06:36.31,0:06:38.81,Default,,0,0,0,,{\i1}Où êtes-vous ?\NTout le monde va bien ?{\i0}
+Dialogue: 0,0:06:39.35,0:06:42.77,Default,,0,0,0,,Taisez-vous et écoutez-moi,\Nle réseau est instable !
+Dialogue: 0,0:06:43.15,0:06:44.86,Default,,0,0,0,,On est poursuivis !
+Dialogue: 0,0:06:45.36,0:06:48.28,Default,,0,0,0,,Ishibashi et ses acolytes\Nsont à nos trousses !
+Dialogue: 0,0:06:48.53,0:06:49.49,Default,,0,0,0,,{\i1}Comment ?{\i0}
+Dialogue: 0,0:06:49.95,0:06:52.12,Default,,0,0,0,,Nous sommes pris en chasse !
+Dialogue: 0,0:06:52.28,0:06:54.41,Default,,0,0,0,,Venez vite nous aider !
+Dialogue: 0,0:06:54.58,0:06:56.12,Default,,0,0,0,,On compte sur vous !
+Dialogue: 0,0:06:56.29,0:06:57.20,Default,,0,0,0,,Silence !
+Dialogue: 0,0:06:58.33,0:07:02.67,Default,,0,0,0,,La cause de cette chasse à l'homme\Nvient du fait qu'Ayumi
+Dialogue: 0,0:07:02.83,0:07:06.59,Default,,0,0,0,,a vu Ishibashi poignarder\Nquelqu'un depuis le télésiège !
+Dialogue: 0,0:07:07.26,0:07:11.59,Default,,0,0,0,,{\i1}On est actuellement...\Ncabane... haut...{\i0}
+Dialogue: 0,0:07:12.22,0:07:13.93,Default,,0,0,0,,{\i1}Le temps se...{\i0}
+Dialogue: 0,0:07:14.14,0:07:16.43,Default,,0,0,0,,{\i1}Appelez... tout de suite !{\i0}
+Dialogue: 0,0:07:17.14,0:07:19.43,Default,,0,0,0,,{\i1}Désolé, tu... fois ?{\i0}
+Dialogue: 0,0:07:19.64,0:07:21.06,Default,,0,0,0,,{\i1}Je n'ai... entendu...{\i0}
+Dialogue: 0,0:07:21.56,0:07:22.56,Default,,0,0,0,,La police !
+Dialogue: 0,0:07:22.73,0:07:25.73,Default,,0,0,0,,Faites venir la police\Net les secours dans la cabane !
+Dialogue: 0,0:07:25.94,0:07:28.99,Default,,0,0,0,,Ishibashi et ses sbires\Nrôdent dans les environs !
+Dialogue: 0,0:07:29.57,0:07:31.65,Default,,0,0,0,,{\i1}À propos d'Ishi...{\i0}
+Dialogue: 0,0:07:32.36,0:07:33.03,Default,,0,0,0,,{\i1}Hein ?{\i0}
+Dialogue: 0,0:07:33.45,0:07:34.41,Default,,0,0,0,,{\i1}Je...{\i0}
+Dialogue: 0,0:07:35.08,0:07:37.29,Default,,0,0,0,,{\i1}Professeur ! Professeur !{\i0}
+Dialogue: 0,0:07:40.16,0:07:42.25,Default,,0,0,0,,Pas de chance, ç'a coupé !
+Dialogue: 0,0:07:49.51,0:07:52.05,Default,,0,0,0,,Tu as quand même pu\Nparler au professeur !
+Dialogue: 0,0:07:52.76,0:07:54.89,Default,,0,0,0,,Vu l'instabilité de la ligne,
+Dialogue: 0,0:07:55.10,0:07:57.10,Default,,0,0,0,,pas sûr qu'il ait tout compris.
+Dialogue: 0,0:07:57.39,0:08:00.68,Default,,0,0,0,,Tu veux dire que les secours\Npourraient ne pas venir ?
+Dialogue: 0,0:08:00.85,0:08:04.19,Default,,0,0,0,,Oui, cette possibilité\Nn'est pas à écarter.
+Dialogue: 0,0:08:04.35,0:08:05.52,Default,,0,0,0,,Oh non !
+Dialogue: 0,0:08:05.86,0:08:08.48,Default,,0,0,0,,J'ai faim, moi...
+Dialogue: 0,0:08:09.44,0:08:11.32,Default,,0,0,0,,La tempête s'accentue.
+Dialogue: 0,0:08:15.20,0:08:16.87,Default,,0,0,0,,Il n'y a pas à s'inquiéter !
+Dialogue: 0,0:08:17.16,0:08:20.00,Default,,0,0,0,,Il a raison !\NOn va nous sortir de là !
+Dialogue: 0,0:08:20.37,0:08:22.21,Default,,0,0,0,,Et puis, on est tous ensemble !
+Dialogue: 0,0:08:23.79,0:08:24.54,Default,,0,0,0,,Oui !
+Dialogue: 0,0:08:30.13,0:08:32.17,Default,,0,0,0,,La tempête de neige a gagné en force.
+Dialogue: 0,0:08:32.34,0:08:35.26,Default,,0,0,0,,Où sont passés ces marmots ?
+Dialogue: 0,0:08:55.74,0:08:56.53,Default,,0,0,0,,Partons d'ici.
+Dialogue: 0,0:08:57.62,0:08:59.91,Default,,0,0,0,,Tu veux qu'on affronte cette tempête ?
+Dialogue: 0,0:09:00.41,0:09:01.16,Default,,0,0,0,,Oui.
+Dialogue: 0,0:09:01.87,0:09:02.95,Default,,0,0,0,,Pourquoi ?
+Dialogue: 0,0:09:03.75,0:09:05.67,Default,,0,0,0,,Premièrement,
+Dialogue: 0,0:09:06.08,0:09:09.00,Default,,0,0,0,,j'ai peur que cette cabane\Nne résiste pas.
+Dialogue: 0,0:09:09.38,0:09:12.30,Default,,0,0,0,,Honnêtement,\Nje doute qu'elle essuie cette tempête.
+Dialogue: 0,0:09:13.17,0:09:16.22,Default,,0,0,0,,Deuxièmement,\Nnos poursuivants se rapprochent.
+Dialogue: 0,0:09:16.80,0:09:20.97,Default,,0,0,0,,Et troisièmement, l'autre cabane\Ndispose d'un téléphone fixe.
+Dialogue: 0,0:09:21.56,0:09:22.52,Default,,0,0,0,,Un téléphone ?
+Dialogue: 0,0:09:23.52,0:09:24.10,Default,,0,0,0,,Oui.
+Dialogue: 0,0:09:24.52,0:09:26.44,Default,,0,0,0,,Sur le chemin menant à la station,
+Dialogue: 0,0:09:26.60,0:09:29.98,Default,,0,0,0,,j'ai vu des fils téléphoniques\Npasser par cette cabane.
+Dialogue: 0,0:09:30.52,0:09:33.99,Default,,0,0,0,,Qui dit ligne fixe,\Ndit pas de problème de réseau !
+Dialogue: 0,0:09:34.32,0:09:37.99,Default,,0,0,0,,En clair, on pourra appeler à l'aide !
+Dialogue: 0,0:09:39.32,0:09:41.41,Default,,0,0,0,,Oui, s'il y a du courant.
+Dialogue: 0,0:09:41.79,0:09:43.79,Default,,0,0,0,,Si on atteint cette cabane,
+Dialogue: 0,0:09:43.95,0:09:45.79,Default,,0,0,0,,on devrait pouvoir endurer ce froid.
+Dialogue: 0,0:09:51.46,0:09:53.92,Default,,0,0,0,,On n'a pas le temps de tergiverser !
+Dialogue: 0,0:09:54.63,0:09:58.30,Default,,0,0,0,,On ne voit rien dehors, tu sais !
+Dialogue: 0,0:09:59.01,0:10:00.14,Default,,0,0,0,,J'ai la solution !
+Dialogue: 0,0:10:10.77,0:10:12.40,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:10:12.57,0:10:15.07,Default,,0,0,0,,Avec ça, on ne risque pas de s'égarer !
+Dialogue: 0,0:10:15.24,0:10:16.61,Default,,0,0,0,,Bien joué, Conan !
+Dialogue: 0,0:10:17.07,0:10:20.57,Default,,0,0,0,,Mais attention à la tempête !\NRestons prudents !
+Dialogue: 0,0:10:21.16,0:10:21.87,Default,,0,0,0,,Ouais !
+Dialogue: 0,0:10:35.38,0:10:36.51,Default,,0,0,0,,Un voile blanc !
+Dialogue: 0,0:10:36.97,0:10:39.38,Default,,0,0,0,,C'est fichu, on ne voit rien du tout !
+Dialogue: 0,0:10:39.88,0:10:41.39,Default,,0,0,0,,C'est tout blanc !
+Dialogue: 0,0:10:41.59,0:10:42.39,Default,,0,0,0,,Conan !
+Dialogue: 0,0:10:42.97,0:10:44.14,Default,,0,0,0,,Du calme !
+Dialogue: 0,0:10:44.64,0:10:48.94,Default,,0,0,0,,Avançons prudemment\Nen se reposant sur la corde ! Compris ?
+Dialogue: 0,0:10:49.52,0:10:50.06,Default,,0,0,0,,Ouais !
+Dialogue: 0,0:10:50.69,0:10:51.19,Default,,0,0,0,,Oui !
+Dialogue: 0,0:10:51.94,0:10:52.44,Default,,0,0,0,,Entendu !
+Dialogue: 0,0:10:56.90,0:10:58.90,Default,,0,0,0,,L'autre cabane est par là.
+Dialogue: 0,0:10:59.40,0:11:00.28,Default,,0,0,0,,En route !
+Dialogue: 0,0:11:25.01,0:11:26.47,Default,,0,0,0,,{\i1}La visibilité est nulle.{\i0}
+Dialogue: 0,0:11:26.89,0:11:29.68,Default,,0,0,0,,{\i1}Heureusement\Nqu'il y a la corde et ces lunettes.{\i0}
+Dialogue: 0,0:11:38.15,0:11:39.19,Default,,0,0,0,,Attention !
+Dialogue: 0,0:12:08.56,0:12:09.64,Default,,0,0,0,,Aïe !
+Dialogue: 0,0:12:11.69,0:12:12.94,Default,,0,0,0,,Mes lunettes !
+Dialogue: 0,0:12:14.40,0:12:15.69,Default,,0,0,0,,La corde est rompue !
+Dialogue: 0,0:12:16.40,0:12:17.27,Default,,0,0,0,,Ayumi ?
+Dialogue: 0,0:12:18.23,0:12:18.94,Default,,0,0,0,,Genta !
+Dialogue: 0,0:12:20.07,0:12:21.03,Default,,0,0,0,,Mitsuhiko !
+Dialogue: 0,0:12:23.86,0:12:25.03,Default,,0,0,0,,Ayumi !
+Dialogue: 0,0:12:25.57,0:12:28.12,Default,,0,0,0,,Genta ! Mitsuhiko !
+Dialogue: 0,0:12:28.45,0:12:30.37,Default,,0,0,0,,Répondez si vous m'entendez !
+Dialogue: 0,0:12:31.04,0:12:33.75,Default,,0,0,0,,Les amis !
+Dialogue: 0,0:12:38.29,0:12:40.88,Default,,0,0,0,,Je devrais pouvoir\Nm'en sortir tout seul,
+Dialogue: 0,0:12:41.34,0:12:42.26,Default,,0,0,0,,mais pas eux !
+Dialogue: 0,0:12:46.51,0:12:47.55,Default,,0,0,0,,Un appel masqué ?
+Dialogue: 0,0:12:48.51,0:12:50.18,Default,,0,0,0,,{\i1}Salut, blanc-bec.{\i0}
+Dialogue: 0,0:12:50.81,0:12:51.52,Default,,0,0,0,,Ishibashi ?
+Dialogue: 0,0:12:52.14,0:12:55.81,Default,,0,0,0,,Tu te demandes d'où je tiens\Nton numéro, pas vrai ?
+Dialogue: 0,0:12:56.44,0:12:58.23,Default,,0,0,0,,Le professeur vous l'a donné.
+Dialogue: 0,0:12:58.73,0:13:00.36,Default,,0,0,0,,Ça n'a rien de sorcier.
+Dialogue: 0,0:13:00.53,0:13:02.32,Default,,0,0,0,,{\i1}Petit effronté.{\i0}
+Dialogue: 0,0:13:02.86,0:13:06.41,Default,,0,0,0,,J'arrive bientôt,\Ntu ne paies rien pour attendre !
+Dialogue: 0,0:13:06.95,0:13:08.24,Default,,0,0,0,,{\i1}Tu ne seras pas le seul.{\i0}
+Dialogue: 0,0:13:08.53,0:13:10.74,Default,,0,0,0,,{\i1}Tes amis y passeront aussi.{\i0}
+Dialogue: 0,0:13:10.91,0:13:14.25,Default,,0,0,0,,{\i1}Vous finirez tous enfouis sous la neige,\Ncrois-moi !{\i0}
+Dialogue: 0,0:13:14.75,0:13:18.67,Default,,0,0,0,,Tu es plutôt futé,\Nmais tu restes un mioche !
+Dialogue: 0,0:13:19.34,0:13:22.34,Default,,0,0,0,,Malgré tous tes efforts,\Ntu ne pourras rien faire !
+Dialogue: 0,0:13:22.88,0:13:26.97,Default,,0,0,0,,Tu finiras six pieds sous terre,\Nchose qui ne sera pas mon cas !
+Dialogue: 0,0:13:27.47,0:13:29.97,Default,,0,0,0,,{\i1}Tu n'es qu'un môme, blanc-bec !{\i0}
+Dialogue: 0,0:13:30.18,0:13:33.31,Default,,0,0,0,,{\i1}Un enfant faiblard\Ncapable de rien du tout !{\i0}
+Dialogue: 0,0:13:37.98,0:13:39.23,Default,,0,0,0,,Patron...
+Dialogue: 0,0:13:39.86,0:13:41.73,Default,,0,0,0,,Il a raccroché...
+Dialogue: 0,0:13:41.90,0:13:43.40,Default,,0,0,0,,Sale gosse !
+Dialogue: 0,0:13:43.57,0:13:46.57,Default,,0,0,0,,Son effronterie ne connaît donc\Naucune limite ?
+Dialogue: 0,0:13:47.20,0:13:48.03,Default,,0,0,0,,Merde !
+Dialogue: 0,0:13:48.24,0:13:51.28,Default,,0,0,0,,Je pensais pouvoir appeler,\Nmais la batterie a lâché !
+Dialogue: 0,0:13:51.66,0:13:53.04,Default,,0,0,0,,Retrouvons les autres !
+Dialogue: 0,0:13:54.33,0:13:55.16,Default,,0,0,0,,Réfléchis !
+Dialogue: 0,0:13:56.00,0:13:57.87,Default,,0,0,0,,Il me faut d'abord mes lunettes.
+Dialogue: 0,0:13:58.50,0:13:59.96,Default,,0,0,0,,Vers où sont-elles tombées ?
+Dialogue: 0,0:14:00.71,0:14:02.80,Default,,0,0,0,,Calculons ma distance de projection !
+Dialogue: 0,0:14:04.84,0:14:05.97,Default,,0,0,0,,Elles sont par là !
+Dialogue: 0,0:14:07.01,0:14:10.05,Default,,0,0,0,,Vous m'entendez, les amis ?\NRestez où vous êtes !
+Dialogue: 0,0:14:10.64,0:14:12.64,Default,,0,0,0,,Je vais venir vous chercher !
+Dialogue: 0,0:14:19.52,0:14:22.36,Default,,0,0,0,,Ma jambe... Je suis blessé ?
+Dialogue: 0,0:14:25.07,0:14:26.19,Default,,0,0,0,,J'arrive !
+Dialogue: 0,0:14:40.38,0:14:41.50,Default,,0,0,0,,{\i1}C'est par là !{\i0}
+Dialogue: 0,0:14:43.00,0:14:43.92,Default,,0,0,0,,{\i1}Où sont-elles ?{\i0}
+Dialogue: 0,0:14:44.55,0:14:45.67,Default,,0,0,0,,{\i1}Dans quelle zone ?{\i0}
+Dialogue: 0,0:14:46.63,0:14:49.18,Default,,0,0,0,,{\i1}Je suis sûr qu'elles sont par là !{\i0}
+Dialogue: 0,0:14:50.05,0:14:51.47,Default,,0,0,0,,{\i1}Je dois faire vite,{\i0}
+Dialogue: 0,0:14:52.10,0:14:53.68,Default,,0,0,0,,{\i1}ou ils mourront tous de froid !{\i0}
+Dialogue: 0,0:15:00.23,0:15:00.94,Default,,0,0,0,,{\i1}Enfin !{\i0}
+Dialogue: 0,0:15:03.02,0:15:04.27,Default,,0,0,0,,Je dois me dépêcher...
+Dialogue: 0,0:15:09.24,0:15:10.91,Default,,0,0,0,,Hé, attends !
+Dialogue: 0,0:15:11.70,0:15:13.07,Default,,0,0,0,,Pas maintenant !
+Dialogue: 0,0:15:13.41,0:15:16.62,Default,,0,0,0,,Allez !\NRemets-toi en route quelques instants !
+Dialogue: 0,0:15:16.83,0:15:17.83,Default,,0,0,0,,Sois sympa !
+Dialogue: 0,0:15:25.13,0:15:26.00,Default,,0,0,0,,Les copains...
+Dialogue: 0,0:15:33.43,0:15:36.26,Default,,0,0,0,,J'ai faim...
+Dialogue: 0,0:15:40.39,0:15:41.60,Default,,0,0,0,,J'ai froid...
+Dialogue: 0,0:15:42.60,0:15:45.73,Default,,0,0,0,,Si ça se trouve,
+Dialogue: 0,0:15:46.40,0:15:48.07,Default,,0,0,0,,je vais mourir ici...
+Dialogue: 0,0:15:48.44,0:15:50.74,Default,,0,0,0,,À l'aide, s'il vous plaît...
+Dialogue: 0,0:16:10.38,0:16:11.47,Default,,0,0,0,,Conan...
+Dialogue: 0,0:16:20.10,0:16:21.27,Default,,0,0,0,,C'est mort...
+Dialogue: 0,0:16:21.89,0:16:23.60,Default,,0,0,0,,Je n'en peux plus...
+Dialogue: 0,0:16:50.80,0:16:51.72,Default,,0,0,0,,Ayumi !
+Dialogue: 0,0:16:52.72,0:16:54.26,Default,,0,0,0,,Désolé d'avoir tardé !
+Dialogue: 0,0:16:54.55,0:16:56.85,Default,,0,0,0,,Conan ! Je le savais !
+Dialogue: 0,0:16:57.51,0:17:00.02,Default,,0,0,0,,J'étais sûre que tu viendrais !
+Dialogue: 0,0:17:00.52,0:17:01.18,Default,,0,0,0,,Eh oui !
+Dialogue: 0,0:17:09.61,0:17:11.53,Default,,0,0,0,,Pardon pour l'attente, Genta !
+Dialogue: 0,0:17:13.45,0:17:14.49,Default,,0,0,0,,J'ai poireauté !
+Dialogue: 0,0:17:24.87,0:17:27.33,Default,,0,0,0,,Tu as bien tenu le coup, Mitsuhiko !
+Dialogue: 0,0:17:28.04,0:17:29.96,Default,,0,0,0,,C'était trois fois rien !
+Dialogue: 0,0:17:46.52,0:17:47.44,Default,,0,0,0,,{\i1}Il s'est éteint !{\i0}
+Dialogue: 0,0:17:49.36,0:17:51.57,Default,,0,0,0,,{\i1}Ça va le faire, on va avancer comme ça !{\i0}
+Dialogue: 0,0:18:06.04,0:18:06.79,Default,,0,0,0,,La cabane !
+Dialogue: 0,0:18:07.50,0:18:09.42,Default,,0,0,0,,On est sauvés !
+Dialogue: 0,0:18:09.58,0:18:10.54,Default,,0,0,0,,Hourra !
+Dialogue: 0,0:18:17.13,0:18:20.05,Default,,0,0,0,,{\i1}On devrait pouvoir\Ns'en sortir, à présent.{\i0}
+Dialogue: 0,0:18:27.89,0:18:31.11,Default,,0,0,0,,Bon, entrons nous réchauffer\Net téléphoner !
+Dialogue: 0,0:18:31.65,0:18:32.19,Default,,0,0,0,,OK !
+Dialogue: 0,0:18:48.54,0:18:49.46,Default,,0,0,0,,Conan !
+Dialogue: 0,0:18:52.92,0:18:53.96,Default,,0,0,0,,Attention !
+Dialogue: 0,0:19:05.14,0:19:06.77,Default,,0,0,0,,Bien, en route !
+Dialogue: 0,0:19:14.77,0:19:16.23,Default,,0,0,0,,Hé, Conan !
+Dialogue: 0,0:19:16.40,0:19:18.03,Default,,0,0,0,,Réponds-nous !
+Dialogue: 0,0:19:18.19,0:19:19.28,Default,,0,0,0,,Conan !
+Dialogue: 0,0:19:22.99,0:19:25.20,Default,,0,0,0,,Conan ! Conan !
+Dialogue: 0,0:19:25.37,0:19:26.58,Default,,0,0,0,,Conan !
+Dialogue: 0,0:19:26.75,0:19:30.17,Default,,0,0,0,,Réponds-nous, Conan !
+Dialogue: 0,0:19:42.59,0:19:45.18,Default,,0,0,0,,HÔPITAL CENTRAL D'OKUYAMA
+Dialogue: 0,0:19:52.10,0:19:54.31,Default,,0,0,0,,Les amis... Où suis-je ?
+Dialogue: 0,0:19:54.69,0:19:56.57,Default,,0,0,0,,Te voilà enfin réveillé.
+Dialogue: 0,0:19:57.03,0:19:58.44,Default,,0,0,0,,Tu es à l'hôpital.
+Dialogue: 0,0:19:59.15,0:20:00.28,Default,,0,0,0,,À l'hôpital ?
+Dialogue: 0,0:20:00.95,0:20:02.99,Default,,0,0,0,,Tu as oublié, ou quoi ?
+Dialogue: 0,0:20:03.32,0:20:06.03,Default,,0,0,0,,Un bloc de neige\Ns'est effondré sur toi !
+Dialogue: 0,0:20:06.53,0:20:07.83,Default,,0,0,0,,De la neige ?
+Dialogue: 0,0:20:08.29,0:20:09.58,Default,,0,0,0,,Ah bon ?
+Dialogue: 0,0:20:11.96,0:20:13.79,Default,,0,0,0,,Professeur ! Et le meurtre ?
+Dialogue: 0,0:20:14.25,0:20:15.63,Default,,0,0,0,,Qu'en est-il d'Ishibashi ?
+Dialogue: 0,0:20:17.63,0:20:20.09,Default,,0,0,0,,Pense plutôt à te reposer !
+Dialogue: 0,0:20:20.38,0:20:21.72,Default,,0,0,0,,Facile à dire...
+Dialogue: 0,0:20:22.13,0:20:23.68,Default,,0,0,0,,Tu peux être tranquille !
+Dialogue: 0,0:20:23.89,0:20:26.72,Default,,0,0,0,,Le professeur a fait du bon travail !
+Dialogue: 0,0:20:27.35,0:20:31.60,Default,,0,0,0,,Ça n'a pas été facile,\Naprès ton coup de téléphone !
+Dialogue: 0,0:20:32.48,0:20:34.40,Default,,0,0,0,,J'ai appelé la police
+Dialogue: 0,0:20:34.56,0:20:38.78,Default,,0,0,0,,et accouru vers la cabane\Navec une équipe de sauveteurs.
+Dialogue: 0,0:20:39.61,0:20:43.74,Default,,0,0,0,,C'est toi qui nous as menés\Njusqu'à cette cabane !
+Dialogue: 0,0:20:44.91,0:20:49.29,Default,,0,0,0,,La victime a été retrouvée\Nà l'endroit indiqué par Ayumi.
+Dialogue: 0,0:20:49.54,0:20:54.12,Default,,0,0,0,,Un mandat d'arrêt a pu être émis\Ncontre Ishibashi et sa clique.
+Dialogue: 0,0:20:54.92,0:20:55.75,Default,,0,0,0,,Et donc ?
+Dialogue: 0,0:20:56.13,0:20:57.21,Default,,0,0,0,,Rassure-toi.
+Dialogue: 0,0:20:57.50,0:20:59.67,Default,,0,0,0,,Tous les trois ont été arrêtés.
+Dialogue: 0,0:21:00.30,0:21:03.09,Default,,0,0,0,,Perdus au cœur de la tempête de neige,
+Dialogue: 0,0:21:03.26,0:21:07.35,Default,,0,0,0,,les sauveteurs les ont secourus,\Net ils se sont rendus.
+Dialogue: 0,0:21:13.10,0:21:14.81,Default,,0,0,0,,Il s'est endormi.
+Dialogue: 0,0:21:15.06,0:21:17.11,Default,,0,0,0,,Il doit être mort de fatigue.
+Dialogue: 0,0:21:17.31,0:21:19.52,Default,,0,0,0,,Il n'a même pas un petit creux ?
+Dialogue: 0,0:21:20.03,0:21:22.78,Default,,0,0,0,,Il s'est débrouillé comme un chef\Ndans cette tempête.
+Dialogue: 0,0:21:38.00,0:21:39.67,ST_HAUT,,0,0,0,,Conan : Minami Takayama\NMitsuhiko Tsuburaya : Ikue Otani
+Dialogue: 0,0:21:43.51,0:21:45.59,Default,,0,0,0,,Ayumi Yoshida : Yukiko Iwai\NGenta Kojima : Wataru Takagi
+Dialogue: 0,0:22:55.70,0:22:57.87,Default,,0,0,0,,Tous les malfrats ont été arrêtés.
+Dialogue: 0,0:22:58.16,0:22:59.29,Default,,0,0,0,,Super, non ?
+Dialogue: 0,0:22:59.54,0:23:01.96,Default,,0,0,0,,Oui, et tout ça pendant que je dormais.
+Dialogue: 0,0:23:02.71,0:23:06.51,Default,,0,0,0,,Les complices d'Ishibashi\Ntravaillaient dans sa société.
+Dialogue: 0,0:23:06.80,0:23:09.72,Default,,0,0,0,,Ils se sont montrés bavards\Npour avoir une peine réduite.
+Dialogue: 0,0:23:10.18,0:23:13.22,Default,,0,0,0,,Il a osé commettre un meurtre\Npour un médicament
+Dialogue: 0,0:23:13.39,0:23:15.60,Default,,0,0,0,,censé sauver des vies...
+Dialogue: 0,0:23:19.10,0:23:20.98,Default,,0,0,0,,Et c'est reparti...
+Dialogue: 0,0:23:21.48,0:23:23.36,Default,,0,0,0,,Que fait-on, professeur ?
+Dialogue: 0,0:23:24.73,0:23:27.44,Default,,0,0,0,,Je serais bien tenté\Nde passer mon chemin,
+Dialogue: 0,0:23:28.28,0:23:29.82,Default,,0,0,0,,mais aidons-les quand même.

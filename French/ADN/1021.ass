@@ -1,0 +1,373 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:14.55,0:00:16.97,ST_HAUT,,0,0,0,,Un coup sur l'occiput\Navec un objet contondant ?
+Dialogue: 0,0:00:17.55,0:00:19.10,Default,,0,0,0,,Encore toi ?
+Dialogue: 0,0:00:19.72,0:00:21.56,Default,,0,0,0,,Le hasard m'a amené ici...
+Dialogue: 0,0:00:21.73,0:00:23.06,Default,,0,0,0,,Drôle de coïncidence.
+Dialogue: 0,0:00:25.15,0:00:28.69,Default,,0,0,0,,Sache que l'arme est introuvable,\Nmais on penche
+Dialogue: 0,0:00:28.90,0:00:30.48,Default,,0,0,0,,pour une barre de fer.
+Dialogue: 0,0:00:30.69,0:00:33.95,Default,,0,0,0,,Le meurtre remonte sans doute\Nà hier soir, vers 19 h.
+Dialogue: 0,0:00:34.90,0:00:36.95,Default,,0,0,0,,La victime s'appelle Takeshi Mitsumoto.
+Dialogue: 0,0:00:37.62,0:00:40.20,ST_HAUT,,0,0,0,,Il avait très mauvaise réputation.
+Dialogue: 0,0:00:40.74,0:00:42.20,Default,,0,0,0,,{\i1}C'était un voyou ?{\i0}
+Dialogue: 0,0:00:42.79,0:00:45.12,Default,,0,0,0,,Le mobile serait la rancune ?
+Dialogue: 0,0:00:45.71,0:00:46.54,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:00:47.67,0:00:48.92,Default,,0,0,0,,Vous avez du nouveau ?
+Dialogue: 0,0:00:49.29,0:00:50.00,Default,,0,0,0,,Oui !
+Dialogue: 0,0:00:50.34,0:00:52.92,Default,,0,0,0,,Hier soir, aux alentours de 19 h,
+Dialogue: 0,0:00:53.21,0:00:56.30,Default,,0,0,0,,quelqu'un a vu un homme\Nquitter précipitamment le parc.
+Dialogue: 0,0:00:56.63,0:00:59.97,Default,,0,0,0,,Ce témoin oculaire\Nconnaissait l'individu.
+Dialogue: 0,0:01:00.64,0:01:02.60,Default,,0,0,0,,L'homme qui a quitté le parc
+Dialogue: 0,0:01:02.93,0:01:05.35,Default,,0,0,0,,est une brute dénommée Hosaka.
+Dialogue: 0,0:01:07.02,0:01:08.44,Default,,0,0,0,,Yorimitsu Hosaka !
+Dialogue: 0,0:01:09.02,0:01:12.78,Default,,0,0,0,,Il traînait souvent\Navec Takeshi Mitsumoto.
+Dialogue: 0,0:01:12.94,0:01:15.49,Default,,0,0,0,,Ils faisaient les 400 coups ensemble.
+Dialogue: 0,0:01:17.74,0:01:18.45,Default,,0,0,0,,Je rêve !
+Dialogue: 0,0:01:20.78,0:01:22.33,ST_HAUT,,0,0,0,,C'est Yorimitsu Hosaka.
+Dialogue: 0,0:01:23.37,0:01:26.08,Default,,0,0,0,,On l'a poignardé au niveau du thorax.
+Dialogue: 0,0:01:26.58,0:01:27.96,Default,,0,0,0,,La rigidité cadavérique
+Dialogue: 0,0:01:28.33,0:01:32.05,Default,,0,0,0,,indique un décès remontant\Nà 17 ou 18 heures.
+Dialogue: 0,0:01:33.67,0:01:35.47,Default,,0,0,0,,{\i1}Il a du sang sur l'index.{\i0}
+Dialogue: 0,0:01:37.30,0:01:38.30,Default,,0,0,0,,{\i1}Se pourrait-il que...{\i0}
+Dialogue: 0,0:01:40.97,0:01:44.89,Default,,0,0,0,,Ce ne serait pas un ultime message\Ndésignant son meurtrier ?
+Dialogue: 0,0:01:46.14,0:01:47.77,Default,,0,0,0,,"Shida" ?
+Dialogue: 0,0:01:48.10,0:01:49.27,Default,,0,0,0,,Shida...
+Dialogue: 0,0:01:50.56,0:01:52.11,Default,,0,0,0,,Yasuho Shida !
+Dialogue: 0,0:01:52.27,0:01:55.86,Default,,0,0,0,,Il traînait toujours\Navec Mitsumoto et Hosaka !
+Dialogue: 0,0:01:56.53,0:02:00.66,Default,,0,0,0,,Et tout comme eux,\Nil a la réputation d'être un voyou.
+Dialogue: 0,0:02:12.71,0:02:13.46,Default,,0,0,0,,SHIDA
+Dialogue: 0,0:02:13.63,0:02:14.30,Default,,0,0,0,,C'est ici.
+Dialogue: 0,0:02:24.89,0:02:26.47,Default,,0,0,0,,Pourquoi...
+Dialogue: 0,0:02:31.10,0:02:33.52,Default,,0,0,0,,{\i1}Un trio de voyous assassinés...{\i0}
+Dialogue: 0,0:02:33.98,0:02:35.28,Default,,0,0,0,,{\i1}À quoi ça rime ?{\i0}
+Dialogue: 0,0:02:44.28,0:02:46.70,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:02:47.41,0:02:50.75,Default,,0,0,0,,{\i1}En route pour la résolution\Nd'énigmes tumultueuses !{\i0}
+Dialogue: 0,0:02:50.92,0:02:54.13,Default,,0,0,0,,{\i1}Un trio de voyous forme\Nune ronde dans cette affaire !{\i0}
+Dialogue: 0,0:02:54.29,0:02:57.13,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:02:57.30,0:02:59.67,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:03:08.43,0:03:10.52,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:03:18.03,0:03:19.99,ST_HAUT,,0,0,0,,Directeur artistique : Junichi Higashi
+Dialogue: 0,0:03:20.15,0:03:22.41,ST_HAUT,,0,0,0,,Direction du son :\NY. Urakami, K. Urakami
+Dialogue: 0,0:03:26.33,0:03:27.95,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:03:42.38,0:03:44.18,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Yura yura"
+Dialogue: 0,0:03:58.61,0:04:00.49,Default,,0,0,0,,Projet initial : Takenori Ichihara\NNaota Machida
+Dialogue: 0,0:04:08.08,0:04:09.70,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:04:12.04,0:04:15.21,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:04:19.30,0:04:21.42,Default,,0,0,0,,{\i1}La Ronde des amis malfaisants{\i0}
+Dialogue: 0,0:04:28.51,0:04:31.06,ST_HAUT,,0,0,0,,YASUHO SHIDA
+Dialogue: 0,0:04:31.43,0:04:33.31,Default,,0,0,0,,Il semble avoir été empoisonné.
+Dialogue: 0,0:04:33.77,0:04:36.90,Default,,0,0,0,,Que signifient ces morts en série ?
+Dialogue: 0,0:04:37.06,0:04:39.36,Default,,0,0,0,,Vu sa présence près du lieu du crime,
+Dialogue: 0,0:04:39.52,0:04:43.57,Default,,0,0,0,,il est probable que Yorimitsu Hosaka\Nait tué Takeshi Mitsumoto.
+Dialogue: 0,0:04:44.45,0:04:48.78,Default,,0,0,0,,Dans un ultime message, Hosaka désigne\NYasuho Shida comme son meurtrier.
+Dialogue: 0,0:04:49.66,0:04:52.08,Default,,0,0,0,,Mais quelqu'un a aussi liquidé Shida...
+Dialogue: 0,0:04:52.75,0:04:53.96,Default,,0,0,0,,Quel sac de nœuds !
+Dialogue: 0,0:04:56.29,0:05:00.17,Default,,0,0,0,,{\i1}Le meurtre de M. Shida\Nn'est pas lié à un conflit{\i0}
+Dialogue: 0,0:05:00.38,0:05:01.71,Default,,0,0,0,,{\i1}avec ses camarades ?{\i0}
+Dialogue: 0,0:05:02.34,0:05:04.22,Default,,0,0,0,,Cette bouteille contenait le poison.
+Dialogue: 0,0:05:05.84,0:05:08.85,Default,,0,0,0,,Shida buvait quotidiennement en journée.
+Dialogue: 0,0:05:09.01,0:05:10.60,Default,,0,0,0,,Le poison a dû être versé
+Dialogue: 0,0:05:10.93,0:05:15.23,Default,,0,0,0,,en toute discrétion par son meurtrier\Nentre hier soir et aujourd'hui.
+Dialogue: 0,0:05:16.14,0:05:18.56,Default,,0,0,0,,{\i1}Les deux autres auraient\Ndonc pu le faire.{\i0}
+Dialogue: 0,0:05:19.23,0:05:22.15,Default,,0,0,0,,{\i1}Mais dans ce cas, quel serait le motif ?{\i0}
+Dialogue: 0,0:05:29.78,0:05:30.49,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:05:32.24,0:05:35.12,Default,,0,0,0,,Dix liasses d'un million,\Nsoit 10 millions de yens !
+Dialogue: 0,0:05:35.87,0:05:37.12,Default,,0,0,0,,10 millions de plus !
+Dialogue: 0,0:05:37.79,0:05:38.58,Default,,0,0,0,,Ici aussi !
+Dialogue: 0,0:05:39.79,0:05:43.38,Default,,0,0,0,,J'ignore le chiffre exact,\Nmais on avoisine les 30 millions.
+Dialogue: 0,0:05:43.84,0:05:48.09,Default,,0,0,0,,{\i1}30 millions de yens\Nrépartis dans trois sacs.{\i0}
+Dialogue: 0,0:05:49.22,0:05:50.55,Default,,0,0,0,,{\i1}Ce serait l'argent du...{\i0}
+Dialogue: 0,0:05:51.22,0:05:52.81,Default,,0,0,0,,J'ai compris !
+Dialogue: 0,0:05:54.31,0:05:56.85,Default,,0,0,0,,L'assassin de Shida\Nconvoitait cet argent !
+Dialogue: 0,0:05:57.19,0:06:00.81,Default,,0,0,0,,Je suis persuadé qu'un témoin\Na vu un individu suspect
+Dialogue: 0,0:06:01.52,0:06:04.32,Default,,0,0,0,,se faufiler ici\Npour empoisonner la bouteille !
+Dialogue: 0,0:06:07.49,0:06:09.82,Default,,0,0,0,,{\i1}Ce serait trop beau...{\i0}
+Dialogue: 0,0:06:16.25,0:06:18.29,Default,,0,0,0,,Vérifions les images d'hier soir.
+Dialogue: 0,0:06:19.33,0:06:21.84,Default,,0,0,0,,Voilà Shida qui sort du bâtiment A.
+Dialogue: 0,0:06:22.38,0:06:24.59,Default,,0,0,0,,Il entre dans une supérette.
+Dialogue: 0,0:06:27.22,0:06:29.22,Default,,0,0,0,,C'est Takeshi Mitsumoto !
+Dialogue: 0,0:06:29.38,0:06:31.55,Default,,0,0,0,,C'est à ce moment\Nqu'il a usé du poison ?
+Dialogue: 0,0:06:32.18,0:06:36.31,Default,,0,0,0,,Le meurtre de M. Shida semble lié\Nà un conflit avec ses amis.
+Dialogue: 0,0:06:36.64,0:06:40.56,Default,,0,0,0,,- Mais...\N- Pourquoi se sont-ils entre-tués ?
+Dialogue: 0,0:06:41.10,0:06:41.90,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:06:42.06,0:06:46.32,Default,,0,0,0,,Il n'y aurait pas un lien\Nentre les 30 millions, le trio,
+Dialogue: 0,0:06:46.90,0:06:49.07,Default,,0,0,0,,et ce qui s'est passé à Haido ?
+Dialogue: 0,0:06:50.57,0:06:52.07,Default,,0,0,0,,Ça y est, j'y suis !
+Dialogue: 0,0:06:52.62,0:06:54.37,Default,,0,0,0,,Tu penses à ce cambriolage ?
+Dialogue: 0,0:06:54.74,0:06:58.12,Default,,0,0,0,,Oui. Il y a 3 jours,\Nun financier de Haido s'est fait voler
+Dialogue: 0,0:06:58.29,0:07:00.42,Default,,0,0,0,,30 millions de yens en liquide
+Dialogue: 0,0:07:00.75,0:07:02.92,Default,,0,0,0,,par trois hommes encagoulés.
+Dialogue: 0,0:07:03.13,0:07:04.88,Default,,0,0,0,,C'était Shida et ses acolytes !
+Dialogue: 0,0:07:05.21,0:07:09.76,Default,,0,0,0,,Ensuite, ils se sont partagé\Nle butin en trois parts égales,
+Dialogue: 0,0:07:10.43,0:07:13.89,Default,,0,0,0,,mais la cupidité les a gagnés.\NRésultat, hier soir...
+Dialogue: 0,0:07:19.77,0:07:22.27,Default,,0,0,0,,M. Hosaka a tué M. Mitsumoto,
+Dialogue: 0,0:07:22.44,0:07:24.65,Default,,0,0,0,,puis emporté la part de sa victime.
+Dialogue: 0,0:07:24.98,0:07:26.94,Default,,0,0,0,,{\i1}T'inquiète pas, Mitsumoto.{\i0}
+Dialogue: 0,0:07:27.11,0:07:29.28,Default,,0,0,0,,{\i1}Je vais bien m'éclater avec ta thune.{\i0}
+Dialogue: 0,0:07:31.40,0:07:34.16,Default,,0,0,0,,Sauf que M. Shida\Navait eu la même idée...
+Dialogue: 0,0:07:36.62,0:07:38.33,Default,,0,0,0,,{\i1}Te bile pas, Hosaka.{\i0}
+Dialogue: 0,0:07:38.50,0:07:41.08,Default,,0,0,0,,{\i1}Je vais bien m'amuser\Navec votre pognon.{\i0}
+Dialogue: 0,0:07:41.71,0:07:44.54,Default,,0,0,0,,SHIDA
+Dialogue: 0,0:07:46.88,0:07:48.84,Default,,0,0,0,,Il a tué M. Hosaka,
+Dialogue: 0,0:07:49.01,0:07:51.63,Default,,0,0,0,,mettant ainsi la main\Nsur 20 millions de yens,
+Dialogue: 0,0:07:52.01,0:07:54.76,Default,,0,0,0,,mais M. Mitsumoto, la première victime,
+Dialogue: 0,0:07:54.93,0:07:57.31,Default,,0,0,0,,avait manigancé la même chose.
+Dialogue: 0,0:07:57.89,0:07:59.81,Default,,0,0,0,,{\i1}Si je pique ta part,{\i0}
+Dialogue: 0,0:08:00.27,0:08:03.35,Default,,0,0,0,,{\i1}tu tenteras de la récupérer\Ntant que tu seras en vie !{\i0}
+Dialogue: 0,0:08:04.48,0:08:07.57,Default,,0,0,0,,Ignorant que M. Mitsumoto\Navait empoisonné la bouteille,
+Dialogue: 0,0:08:07.73,0:08:09.86,Default,,0,0,0,,M. Shida porta un toast...
+Dialogue: 0,0:08:11.36,0:08:13.82,Default,,0,0,0,,SHIDA
+Dialogue: 0,0:08:16.99,0:08:19.58,Default,,0,0,0,,C'est bien ça, tonton ?
+Dialogue: 0,0:08:20.66,0:08:23.08,Default,,0,0,0,,Je pense que ça s'est déroulé ainsi.
+Dialogue: 0,0:08:23.37,0:08:26.58,Default,,0,0,0,,Du coup, le dernier mot\Nde M. Shida prend tout son sens.
+Dialogue: 0,0:08:27.00,0:08:28.75,Default,,0,0,0,,{\i1}Pourquoi...{\i0}
+Dialogue: 0,0:08:29.67,0:08:33.26,Default,,0,0,0,,"Et moi qui avais réussi\Nà choper tout le pognon...
+Dialogue: 0,0:08:33.43,0:08:35.34,Default,,0,0,0,,"Pourquoi ça finit comme ça ?"
+Dialogue: 0,0:08:35.97,0:08:39.26,Default,,0,0,0,,Ces trois malfrats\Nse sont entre-déchirés par cupidité
+Dialogue: 0,0:08:39.43,0:08:41.73,Default,,0,0,0,,et ont finalement tous trouvé la mort.
+Dialogue: 0,0:08:42.27,0:08:46.94,Default,,0,0,0,,Leurs noms les prédestinaient\Nà former cette ronde mortelle !
+Dialogue: 0,0:08:48.06,0:08:49.36,Default,,0,0,0,,Hosaka Yorimitsu...
+Dialogue: 0,0:08:49.90,0:08:51.32,Default,,0,0,0,,Mitsumoto Takeshi...
+Dialogue: 0,0:08:51.90,0:08:53.24,Default,,0,0,0,,Shida Yasuho !
+Dialogue: 0,0:08:53.74,0:08:55.74,Default,,0,0,0,,Leurs noms s'emboîtent !
+Dialogue: 0,0:08:59.87,0:09:02.16,Default,,0,0,0,,Bien vu, même si ça ne sert à rien.
+Dialogue: 0,0:09:02.75,0:09:05.67,Default,,0,0,0,,Cet emboîtement\Nest une pure coïncidence.
+Dialogue: 0,0:09:05.87,0:09:08.67,Default,,0,0,0,,La lumière est faite\Nsur ces trois meurtres.
+Dialogue: 0,0:09:15.59,0:09:17.84,Default,,0,0,0,,Tous les trois se sont entre-tués ?
+Dialogue: 0,0:09:18.18,0:09:20.39,Default,,0,0,0,,Ça paraît cohérent,
+Dialogue: 0,0:09:20.81,0:09:23.85,Default,,0,0,0,,mais meurtre par objet contondant,\Narme blanche,
+Dialogue: 0,0:09:24.14,0:09:25.44,Default,,0,0,0,,et empoisonnement.
+Dialogue: 0,0:09:25.60,0:09:28.69,Default,,0,0,0,,Pourquoi le mode opératoire\Ndiffère-t-il à chaque fois ?
+Dialogue: 0,0:09:29.06,0:09:30.02,Default,,0,0,0,,Pardon ?
+Dialogue: 0,0:09:30.57,0:09:32.57,Default,,0,0,0,,Il y avait trois assassins,
+Dialogue: 0,0:09:32.73,0:09:34.69,Default,,0,0,0,,logique que ça varie !
+Dialogue: 0,0:09:36.57,0:09:40.20,Default,,0,0,0,,Une similitude m'aurait paru\Npourtant plus naturelle.
+Dialogue: 0,0:09:42.24,0:09:43.83,Default,,0,0,0,,Je dois trop cogiter...
+Dialogue: 0,0:09:52.42,0:09:53.59,Default,,0,0,0,,Drôle d'attitude.
+Dialogue: 0,0:09:58.18,0:09:59.22,Default,,0,0,0,,Un souci, mon grand ?
+Dialogue: 0,0:10:02.39,0:10:03.35,ST_HAUT,,0,0,0,,En fait...
+Dialogue: 0,0:10:03.56,0:10:05.52,ST_HAUT,,0,0,0,,MAMORU NISHIKAWA\N(6 ANS)
+Dialogue: 0,0:10:07.85,0:10:10.31,Default,,0,0,0,,C'est noté ! Merci pour l'info !
+Dialogue: 0,0:10:12.19,0:10:12.94,Default,,0,0,0,,Un problème ?
+Dialogue: 0,0:10:13.73,0:10:15.28,Default,,0,0,0,,Je pense que oui.
+Dialogue: 0,0:10:15.65,0:10:17.28,Default,,0,0,0,,C'était Mamoru Nishikawa.
+Dialogue: 0,0:10:17.45,0:10:20.28,Default,,0,0,0,,Il habite l'étage au-dessus\Nde celui de Shida.
+Dialogue: 0,0:10:20.49,0:10:23.16,Default,,0,0,0,,Il a vu un type louche,\Nhier soir, vers 20 h.
+Dialogue: 0,0:10:26.00,0:10:29.67,Default,,0,0,0,,Cet homme imposant porteur\Nd'un masque et de lunettes de soleil
+Dialogue: 0,0:10:30.25,0:10:32.71,Default,,0,0,0,,tentait d'entrer chez Shida,
+Dialogue: 0,0:10:32.88,0:10:34.71,Default,,0,0,0,,et quand Mamoru l'a surpris...
+Dialogue: 0,0:10:35.09,0:10:36.76,Default,,0,0,0,,{\i1}Tu n'as rien vu, pigé ?{\i0}
+Dialogue: 0,0:10:39.43,0:10:42.64,Default,,0,0,0,,Cet homme pourrait être\Nle véritable assassin.
+Dialogue: 0,0:10:43.39,0:10:44.35,Default,,0,0,0,,Je vois...
+Dialogue: 0,0:10:44.51,0:10:46.14,Default,,0,0,0,,Cette info jette le trouble.
+Dialogue: 0,0:10:46.52,0:10:49.89,Default,,0,0,0,,Quel est le lien\Nentre cet homme et notre affaire ?
+Dialogue: 0,0:10:50.56,0:10:53.40,Default,,0,0,0,,Le trio ne s'est pas entre-tué.
+Dialogue: 0,0:10:53.94,0:10:56.11,Default,,0,0,0,,Cet homme a éliminé Mitsumoto,
+Dialogue: 0,0:10:56.57,0:10:57.82,Default,,0,0,0,,idem pour Hosaka.
+Dialogue: 0,0:10:58.24,0:11:01.41,Default,,0,0,0,,Il a aussi empoisonné\Nla bouteille de Shida,
+Dialogue: 0,0:11:02.20,0:11:04.91,Default,,0,0,0,,après avoir été aperçu par Mamoru.
+Dialogue: 0,0:11:07.66,0:11:08.91,Default,,0,0,0,,Il a déposé chez Shida
+Dialogue: 0,0:11:09.33,0:11:12.83,Default,,0,0,0,,les dix millions de Hosaka\Net ceux de Mitsumoto,
+Dialogue: 0,0:11:13.63,0:11:17.17,Default,,0,0,0,,histoire de simuler\Ndes crimes mutuels dus à la cupidité.
+Dialogue: 0,0:11:17.80,0:11:21.51,Default,,0,0,0,,Tout ceci expliquerait\Nles modes opératoires différents.
+Dialogue: 0,0:11:22.05,0:11:26.18,Default,,0,0,0,,Il s'est diversifié afin\Nde faire croire à trois assassins !
+Dialogue: 0,0:11:27.68,0:11:28.85,Default,,0,0,0,,Je comprends !
+Dialogue: 0,0:11:29.02,0:11:30.19,Default,,0,0,0,,Ça se tient !
+Dialogue: 0,0:11:30.69,0:11:33.23,Default,,0,0,0,,En fait,\Nil s'agirait de meurtres en série
+Dialogue: 0,0:11:33.40,0:11:36.48,Default,,0,0,0,,maquillés en règlement de compte\Nentre trois individus.
+Dialogue: 0,0:11:37.32,0:11:38.86,Default,,0,0,0,,C'est plausible !
+Dialogue: 0,0:11:39.03,0:11:41.74,Default,,0,0,0,,D'où te vient\Ncette clairvoyance, Chiba ?
+Dialogue: 0,0:11:42.66,0:11:45.24,Default,,0,0,0,,Ce n'est qu'un éclair de génie...
+Dialogue: 0,0:11:45.78,0:11:47.58,Default,,0,0,0,,Mais, inspecteur Chiba...
+Dialogue: 0,0:11:48.12,0:11:50.12,Default,,0,0,0,,Si je suis votre déduction,
+Dialogue: 0,0:11:50.46,0:11:54.92,Default,,0,0,0,,on comprend que cet homme\Nest l'auteur de l'ultime message,
+Dialogue: 0,0:11:55.71,0:11:59.51,Default,,0,0,0,,mais qu'en est-il de l'attitude suspecte\Nde MM. Hosaka et Mitsumoto ?
+Dialogue: 0,0:12:01.76,0:12:05.51,Default,,0,0,0,,Il les a habilement manipulés\Npour parvenir à ce résultat.
+Dialogue: 0,0:12:06.01,0:12:10.52,Default,,0,0,0,,Je doute que quelqu'un soit capable\Nd'un tel degré de manipulation.
+Dialogue: 0,0:12:11.60,0:12:13.02,Default,,0,0,0,,Nous le retrouverons.
+Dialogue: 0,0:12:13.69,0:12:17.73,Default,,0,0,0,,Il y a sûrement un homme imposant\Nvindicatif envers le trio,
+Dialogue: 0,0:12:18.27,0:12:20.03,Default,,0,0,0,,X, le véritable assassin !
+Dialogue: 0,0:12:20.74,0:12:22.99,Default,,0,0,0,,Explorer cette piste\Nme paraît judicieux.
+Dialogue: 0,0:12:23.15,0:12:24.36,Default,,0,0,0,,Séparons-nous !
+Dialogue: 0,0:12:27.24,0:12:28.41,Default,,0,0,0,,Dis, tonton...
+Dialogue: 0,0:12:28.58,0:12:32.16,Default,,0,0,0,,Peut-être que quelqu'un en voulait\Nà cette bande de malfrats,
+Dialogue: 0,0:12:32.71,0:12:34.67,Default,,0,0,0,,mais de là à les tuer...
+Dialogue: 0,0:12:34.83,0:12:38.29,Default,,0,0,0,,Et puis, les éliminer tous les trois,\Nce n'est pas rien !
+Dialogue: 0,0:12:38.84,0:12:42.72,Default,,0,0,0,,Ils ont dû commettre un acte\Nqui a rendu extrêmement rancunier
+Dialogue: 0,0:12:43.01,0:12:44.22,Default,,0,0,0,,ce fameux X !
+Dialogue: 0,0:12:44.55,0:12:48.97,Default,,0,0,0,,Mais que devient le "pourquoi"\Nprononcé par M. Shida ?
+Dialogue: 0,0:12:51.77,0:12:52.98,Default,,0,0,0,,Va savoir...
+Dialogue: 0,0:13:01.23,0:13:01.86,Default,,0,0,0,,Inspecteur !
+Dialogue: 0,0:13:02.40,0:13:04.11,Default,,0,0,0,,On tient un profil correspondant.
+Dialogue: 0,0:13:08.74,0:13:10.62,Default,,0,0,0,,Notre homme était absent,
+Dialogue: 0,0:13:10.91,0:13:13.29,Default,,0,0,0,,mais il est imposant\Net mesure 1,80 m.
+Dialogue: 0,0:13:13.46,0:13:16.42,Default,,0,0,0,,Il semble avoir\Ndes griefs contre le trio.
+Dialogue: 0,0:13:16.71,0:13:17.75,Default,,0,0,0,,Qui est-il ?
+Dialogue: 0,0:13:18.25,0:13:20.80,Default,,0,0,0,,Le dernier mot prononcé\Npar Shida avant sa mort
+Dialogue: 0,0:13:20.96,0:13:23.63,Default,,0,0,0,,se révèle être le véritable\Nmessage ultime
+Dialogue: 0,0:13:24.09,0:13:26.63,Default,,0,0,0,,qui désigne le vrai coupable !
+Dialogue: 0,0:13:27.05,0:13:28.51,Default,,0,0,0,,Comment ça ?
+Dialogue: 0,0:13:33.48,0:13:35.69,Default,,0,0,0,,Au collège,\Nle trio était dans la même classe.
+Dialogue: 0,0:13:35.85,0:13:37.48,Default,,0,0,0,,Leur professeur principal
+Dialogue: 0,0:13:37.77,0:13:39.48,Default,,0,0,0,,s'appelait Kôkichi Minamide.
+Dialogue: 0,0:13:39.98,0:13:43.36,Default,,0,0,0,,Le trio avait l'habitude\Nde le surnommer "Pourquoi".
+Dialogue: 0,0:13:44.03,0:13:45.07,Default,,0,0,0,,"Pourquoi" ?
+Dialogue: 0,0:13:58.50,0:14:00.17,Default,,0,0,0,,Tous étaient déjà délinquants,
+Dialogue: 0,0:14:00.88,0:14:04.05,Default,,0,0,0,,et M. Minamide mit tout en œuvre\Npour les remettre
+Dialogue: 0,0:14:04.21,0:14:05.88,Default,,0,0,0,,dans le droit chemin.
+Dialogue: 0,0:14:06.59,0:14:10.89,Default,,0,0,0,,Malheureusement,\N20 années ont passé sans rien y changer.
+Dialogue: 0,0:14:12.26,0:14:14.81,Default,,0,0,0,,Plus tard,\NM. Minamide apprit par hasard
+Dialogue: 0,0:14:14.97,0:14:18.85,Default,,0,0,0,,que la bande avait dérobé\N30 millions yens, et pensa :
+Dialogue: 0,0:14:19.56,0:14:22.77,Default,,0,0,0,,"Jusqu'à quel point\Nallez-vous empoisonner la société ?
+Dialogue: 0,0:14:23.40,0:14:25.57,Default,,0,0,0,,"Je vais devoir vous éliminer !"
+Dialogue: 0,0:14:26.70,0:14:30.24,Default,,0,0,0,,En tant qu'ex-professeur principal,\Nil estima être en devoir
+Dialogue: 0,0:14:30.41,0:14:31.91,Default,,0,0,0,,de tous les tuer !
+Dialogue: 0,0:14:32.41,0:14:36.87,Default,,0,0,0,,Il a déguisé son acte en meurtres\Nmutuels sur fond d'argent volé
+Dialogue: 0,0:14:37.62,0:14:41.71,Default,,0,0,0,,afin d'enseigner aux enfants\Nque tous ceux qui s'adonnent au mal
+Dialogue: 0,0:14:42.38,0:14:46.17,Default,,0,0,0,,finissent inlassablement\Npar s'auto-détruire !
+Dialogue: 0,0:14:47.38,0:14:49.22,Default,,0,0,0,,Bien que retraité depuis longtemps,
+Dialogue: 0,0:14:49.68,0:14:54.10,Default,,0,0,0,,m'est d'avis que M. Kôkichi Minamide\Nreste un enseignant dans l'âme !
+Dialogue: 0,0:14:55.02,0:14:58.60,Default,,0,0,0,,Usant d'un prétexte habile,\Ncet ancien professeur principal
+Dialogue: 0,0:14:58.77,0:15:00.98,Default,,0,0,0,,a pu manœuvrer Hosaka et Mitsumoto.
+Dialogue: 0,0:15:01.48,0:15:04.57,Default,,0,0,0,,{\i1}Ce suspect coche toutes les cases...{\i0}
+Dialogue: 0,0:15:05.03,0:15:08.03,Default,,0,0,0,,Sa démonstration tient la route.
+Dialogue: 0,0:15:09.20,0:15:10.57,Default,,0,0,0,,Il est absent, non ?
+Dialogue: 0,0:15:11.11,0:15:12.62,Default,,0,0,0,,Oui, et ça m'intrigue.
+Dialogue: 0,0:15:13.16,0:15:16.08,Default,,0,0,0,,Ses voisins ne l'ont pas revu\Ndepuis hier.
+Dialogue: 0,0:15:16.37,0:15:17.41,Default,,0,0,0,,Minute...
+Dialogue: 0,0:15:17.62,0:15:21.46,Default,,0,0,0,,Il se serait suicidé\Naprès avoir tué ses anciens élèves ?
+Dialogue: 0,0:15:24.04,0:15:25.46,Default,,0,0,0,,Que me voulez-vous ?
+Dialogue: 0,0:15:28.59,0:15:31.18,Default,,0,0,0,,Seriez-vous M. Kôkichi Minamide ?
+Dialogue: 0,0:15:31.63,0:15:32.30,ST_HAUT,,0,0,0,,Lui-même.
+Dialogue: 0,0:15:32.68,0:15:36.26,ST_HAUT,,0,0,0,,Vous êtes de la police ?\NJ'ai croisé un voisin,
+Dialogue: 0,0:15:36.43,0:15:39.18,Default,,0,0,0,,il m'a dit qu'on me cherchait.
+Dialogue: 0,0:15:40.02,0:15:43.06,Default,,0,0,0,,J'étais depuis hier\Nà Spa Land Utamaro.
+Dialogue: 0,0:15:43.23,0:15:45.57,Default,,0,0,0,,Vive le spa aux pierres chaudes !
+Dialogue: 0,0:15:47.19,0:15:49.11,Default,,0,0,0,,Spa Land Utamaro ?
+Dialogue: 0,0:15:50.07,0:15:51.40,Default,,0,0,0,,Je vais vérifier ça !
+Dialogue: 0,0:15:54.16,0:15:57.79,Default,,0,0,0,,Nous avons des questions\Nsur les meurtres de Takeshi Mitsumoto
+Dialogue: 0,0:15:58.66,0:16:00.16,Default,,0,0,0,,et de Yasuho Shida.
+Dialogue: 0,0:16:01.12,0:16:03.54,Default,,0,0,0,,Mitsumoto et Shida...
+Dialogue: 0,0:16:07.17,0:16:08.00,Default,,0,0,0,,Qui sont-ils ?
+Dialogue: 0,0:16:09.84,0:16:13.01,Default,,0,0,0,,Vous étiez leur professeur principal,\Nil y a 20 ans !
+Dialogue: 0,0:16:13.34,0:16:16.26,Default,,0,0,0,,Des anciens élèves sous ma direction ?
+Dialogue: 0,0:16:16.64,0:16:18.97,Default,,0,0,0,,Je n'ai aucun souvenir d'eux !
+Dialogue: 0,0:16:20.85,0:16:23.94,Default,,0,0,0,,Son alibi entre hier midi\Net aujourd'hui est véridique.
+Dialogue: 0,0:16:24.31,0:16:25.61,Default,,0,0,0,,Il a un alibi ?
+Dialogue: 0,0:16:26.90,0:16:28.78,Default,,0,0,0,,Tout tombe à l'eau !
+Dialogue: 0,0:16:29.69,0:16:31.53,Default,,0,0,0,,Quelle mouche l'a piqué ?
+Dialogue: 0,0:16:31.90,0:16:35.53,Default,,0,0,0,,Si ce n'est pas M. Minamide,\Nqui est X, le vrai coupable ?
+Dialogue: 0,0:16:36.74,0:16:38.79,Default,,0,0,0,,Il faut lui mettre le grappin dessus !
+Dialogue: 0,0:16:39.37,0:16:42.29,Default,,0,0,0,,Trouvez l'homme imposant\Nqui en voulait au trio !
+Dialogue: 0,0:16:42.46,0:16:43.21,Default,,0,0,0,,Compris !
+Dialogue: 0,0:16:44.08,0:16:44.79,Default,,0,0,0,,Allez !
+Dialogue: 0,0:16:45.08,0:16:45.75,Default,,0,0,0,,Je m'y colle !
+Dialogue: 0,0:16:49.59,0:16:54.09,Default,,0,0,0,,{\i1}Le hic, c'est que personne\Nne remplit aussi bien les conditions{\i0}
+Dialogue: 0,0:16:54.38,0:16:55.55,Default,,0,0,0,,{\i1}que cet ex-prof...{\i0}
+Dialogue: 0,0:16:56.34,0:16:56.97,Default,,0,0,0,,{\i1}Minute !{\i0}
+Dialogue: 0,0:17:00.06,0:17:01.27,ST_HAUT,,0,0,0,,NISHIKAWA
+Dialogue: 0,0:17:01.77,0:17:05.27,Default,,0,0,0,,Oui !\NEn revenant des courses, hier soir...
+Dialogue: 0,0:17:09.61,0:17:11.28,Default,,0,0,0,,{\i1}Tu n'as rien vu, pigé ?{\i0}
+Dialogue: 0,0:17:11.99,0:17:15.53,Default,,0,0,0,,Je l'ai juste vu s'acharner\Nsur la porte.
+Dialogue: 0,0:17:15.95,0:17:18.07,Default,,0,0,0,,Il n'avait pas à m'engueuler !
+Dialogue: 0,0:17:18.24,0:17:20.29,Default,,0,0,0,,Les adultes sont bizarres !
+Dialogue: 0,0:17:25.21,0:17:28.92,Default,,0,0,0,,{\i1}Alors qu'il tentait de savoir\Ns'il y avait quelqu'un,{\i0}
+Dialogue: 0,0:17:29.09,0:17:31.00,Default,,0,0,0,,{\i1}il fut surpris par quelque chose.{\i0}
+Dialogue: 0,0:17:33.09,0:17:34.51,Default,,0,0,0,,{\i1}Si ça se trouve...{\i0}
+Dialogue: 0,0:17:35.38,0:17:36.80,Default,,0,0,0,,{\i1}Si c'est avéré,{\i0}
+Dialogue: 0,0:17:37.09,0:17:39.80,Default,,0,0,0,,{\i1}alors on a fait fausse route !{\i0}
+Dialogue: 0,0:17:41.39,0:17:43.64,Default,,0,0,0,,{\i1}Je dois retrouver cet individu !{\i0}
+Dialogue: 0,0:17:44.81,0:17:46.27,Default,,0,0,0,,{\i1}Logiquement,{\i0}
+Dialogue: 0,0:17:47.48,0:17:48.73,Default,,0,0,0,,{\i1}ça devrait être...{\i0}
+Dialogue: 0,0:17:49.11,0:17:51.19,Default,,0,0,0,,{\i1}A et K !{\i0}
+Dialogue: 0,0:18:03.62,0:18:07.04,Default,,0,0,0,,Hier, vous avez menacé\Nun enfant, pas vrai ?
+Dialogue: 0,0:18:08.92,0:18:11.09,Default,,0,0,0,,Il vous a vu en situation fâcheuse.
+Dialogue: 0,0:18:11.25,0:18:13.30,Default,,0,0,0,,Ou plutôt, honteuse.
+Dialogue: 0,0:18:18.64,0:18:19.59,Default,,0,0,0,,J'avais raison.
+Dialogue: 0,0:18:22.43,0:18:24.56,Default,,0,0,0,,L'homme masqué aux lunettes de soleil !
+Dialogue: 0,0:18:26.60,0:18:30.56,Default,,0,0,0,,C'est bien lui !\NTu avais entièrement raison, tonton !
+Dialogue: 0,0:18:31.40,0:18:32.19,Default,,0,0,0,,M. Môri ?
+Dialogue: 0,0:18:32.36,0:18:33.69,Default,,0,0,0,,Expliquez-nous !
+Dialogue: 0,0:18:33.86,0:18:34.82,Default,,0,0,0,,Je...
+Dialogue: 0,0:18:35.28,0:18:37.57,Default,,0,0,0,,Par où commencer...
+Dialogue: 0,0:18:38.24,0:18:40.99,Default,,0,0,0,,Il fait beau, aujourd'hui !
+Dialogue: 0,0:18:45.87,0:18:48.54,Default,,0,0,0,,Oui !\NL'homme mentionné par Mamoru
+Dialogue: 0,0:18:48.71,0:18:50.46,Default,,0,0,0,,c'est M. Kitahara.
+Dialogue: 0,0:18:51.46,0:18:53.04,Default,,0,0,0,,X, le vrai assassin !
+Dialogue: 0,0:18:53.88,0:18:55.01,Default,,0,0,0,,Il y a erreur.
+Dialogue: 0,0:18:55.92,0:18:58.22,ST_HAUT,,0,0,0,,J'étais venu demander\Nà ma jeune mariée de fille
+Dialogue: 0,0:18:58.63,0:19:01.80,ST_HAUT,,0,0,0,,de m'héberger\Npendant deux ou trois jours,
+Dialogue: 0,0:19:02.05,0:19:02.72,Default,,0,0,0,,sauf que...
+Dialogue: 0,0:19:03.01,0:19:03.97,Default,,0,0,0,,hier soir...
+Dialogue: 0,0:19:05.35,0:19:08.35,Default,,0,0,0,,Sa fille habite\Nl'appartement 402 du bâtiment K.
+Dialogue: 0,0:19:08.98,0:19:10.98,Default,,0,0,0,,Mais il a eu un souci de mémoire.
+Dialogue: 0,0:19:11.60,0:19:13.98,Default,,0,0,0,,Il a confondu le bâtiment K avec le A.
+Dialogue: 0,0:19:14.61,0:19:17.24,Default,,0,0,0,,{\i1}Elle est forcément là,\Nje l'ai avertie.{\i0}
+Dialogue: 0,0:19:17.40,0:19:20.07,Default,,0,0,0,,{\i1}Elle me reprocherait quelque chose ?{\i0}
+Dialogue: 0,0:19:22.82,0:19:24.91,Default,,0,0,0,,Il comprit son erreur\Nen lisant la plaque,
+Dialogue: 0,0:19:25.08,0:19:27.04,Default,,0,0,0,,et fut aussi vu par Mamoru...
+Dialogue: 0,0:19:27.41,0:19:29.00,Default,,0,0,0,,{\i1}Tu n'as rien vu, pigé ?{\i0}
+Dialogue: 0,0:19:31.92,0:19:35.63,Default,,0,0,0,,Je craignais que ma fille et son mari\Nme rient au nez en l'apprenant.
+Dialogue: 0,0:19:35.80,0:19:40.63,Default,,0,0,0,,Je suis sincèrement navré\Nd'avoir menacé un enfant.
+Dialogue: 0,0:19:41.30,0:19:42.47,Default,,0,0,0,,Autrement dit...
+Dialogue: 0,0:19:42.68,0:19:46.72,Default,,0,0,0,,M. Kitahara n'a aucun rapport\Navec notre affaire.
+Dialogue: 0,0:19:47.02,0:19:49.77,Default,,0,0,0,,Alors pourquoi dissimuler votre visage ?
+Dialogue: 0,0:19:50.39,0:19:52.73,Default,,0,0,0,,J'ai contracté un léger rhume.
+Dialogue: 0,0:19:53.23,0:19:54.98,Default,,0,0,0,,Quant aux lunettes, un coiffeur
+Dialogue: 0,0:19:55.36,0:19:56.61,Default,,0,0,0,,m'a rasé le sourcil...
+Dialogue: 0,0:19:57.48,0:19:59.40,Default,,0,0,0,,Il est étranger à ces meurtres.
+Dialogue: 0,0:19:59.65,0:20:02.61,Default,,0,0,0,,Qui a bien pu tuer\NShida et ses acolytes, alors ?
+Dialogue: 0,0:20:03.37,0:20:04.78,Default,,0,0,0,,Ça coule de source...
+Dialogue: 0,0:20:08.83,0:20:09.58,Default,,0,0,0,,J'écoute.
+Dialogue: 0,0:20:10.79,0:20:11.33,Default,,0,0,0,,Oui.
+Dialogue: 0,0:20:12.42,0:20:13.46,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:20:16.46,0:20:20.42,Default,,0,0,0,,Des armes ont été retrouvées\Nprès des scènes de crime.
+Dialogue: 0,0:20:21.17,0:20:22.72,Default,,0,0,0,,Non loin du parc,
+Dialogue: 0,0:20:22.88,0:20:27.31,Default,,0,0,0,,on a une barre de fer imprégnée\Ndu sang et des cheveux de Mitsumoto.
+Dialogue: 0,0:20:27.93,0:20:30.35,Default,,0,0,0,,On a retrouvé près du domicile de Hosaka
+Dialogue: 0,0:20:30.52,0:20:32.89,Default,,0,0,0,,un couteau taché du sang de celui-ci.
+Dialogue: 0,0:20:33.23,0:20:36.90,Default,,0,0,0,,Les empreintes figurant\Nsur ces objets ont été analysées.
+Dialogue: 0,0:20:37.32,0:20:38.98,Default,,0,0,0,,La barre porte celles de Hosaka,
+Dialogue: 0,0:20:39.48,0:20:41.57,Default,,0,0,0,,et le couteau, celles de Shida.
+Dialogue: 0,0:20:41.78,0:20:43.20,Default,,0,0,0,,Qu'est-ce que ça signifie ?
+Dialogue: 0,0:20:43.74,0:20:45.70,Default,,0,0,0,,On retrouvera très bientôt
+Dialogue: 0,0:20:46.03,0:20:50.50,Default,,0,0,0,,le sac ou la boîte contenant\Nle poison qui a servi à tuer Shida.
+Dialogue: 0,0:20:50.95,0:20:53.46,Default,,0,0,0,,Les empreintes\Nde Mitsumoto y figureront.
+Dialogue: 0,0:20:54.37,0:20:55.33,Default,,0,0,0,,Sérieusement ?
+Dialogue: 0,0:20:55.83,0:20:59.50,Default,,0,0,0,,Vu les empreintes sur les armes,\Nil n'y a qu'une explication.
+Dialogue: 0,0:21:00.55,0:21:03.43,Default,,0,0,0,,Takeshi Mitsumoto a été tué\Npar Yorimitsu Hosaka,
+Dialogue: 0,0:21:03.72,0:21:06.30,Default,,0,0,0,,lui-même éliminé par Yasuho Shida !
+Dialogue: 0,0:21:06.55,0:21:10.35,Default,,0,0,0,,Et enfin, Takeshi Mitsumoto\Na sans doute refroidi Shida.
+Dialogue: 0,0:21:11.18,0:21:12.35,Default,,0,0,0,,En d'autres mots...
+Dialogue: 0,0:21:13.02,0:21:15.35,Default,,0,0,0,,L'assassin X n'existe pas !
+Dialogue: 0,0:21:15.73,0:21:19.02,Default,,0,0,0,,Le 1er raisonnement\Ndémontrant que le trio s'est entre-tué
+Dialogue: 0,0:21:19.19,0:21:20.61,Default,,0,0,0,,était le bon.
+Dialogue: 0,0:21:21.28,0:21:25.11,Default,,0,0,0,,On a tourné en rond\Npour revenir au point de départ !
+Dialogue: 0,0:21:25.86,0:21:29.74,Default,,0,0,0,,Gardez cette erreur à l'esprit\Npour ne plus la reproduire.
+Dialogue: 0,0:21:30.29,0:21:32.70,Default,,0,0,0,,Vous et moi sommes\Ndes pros de la déduction,
+Dialogue: 0,0:21:33.04,0:21:37.38,Default,,0,0,0,,mais une surinterprétation peut\Nnous mener dans une mauvaise direction.
+Dialogue: 0,0:21:37.75,0:21:41.59,Default,,0,0,0,,Un innocent ne doit jamais\Nse retrouver accusé.
+Dialogue: 0,0:21:42.09,0:21:44.67,Default,,0,0,0,,Ce serait une très fâcheuse erreur.
+Dialogue: 0,0:21:55.44,0:21:57.77,ST_HAUT,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:22:00.15,0:22:02.53,ST_HAUT,,0,0,0,,Inspecteur Megure : Chafûrin\NInspecteur Takagi : Wataru Takagi
+Dialogue: 0,0:23:15.18,0:23:18.52,Default,,0,0,0,,Je sens qu'une folle affaire\Nde meurtres va éclater ici.
+Dialogue: 0,0:23:19.23,0:23:20.48,Default,,0,0,0,,Il n'y a pas trois,
+Dialogue: 0,0:23:20.90,0:23:24.82,Default,,0,0,0,,mais cinq noms qui s'emboîtent !
+Dialogue: 0,0:23:26.07,0:23:27.28,Default,,0,0,0,,Tonton...
+Dialogue: 0,0:23:27.57,0:23:29.61,Default,,0,0,0,,Arrête de surinterpréter !

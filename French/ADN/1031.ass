@@ -1,0 +1,356 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,2,200,200,75,1
+Style: ST_BAS_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,1,200,0,75,1
+Style: ST_BAS_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,3,0,200,75,1
+Style: ST_HAUT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,8,200,200,75,1
+Style: ST_HAUT_GAUCHE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,7,200,0,75,1
+Style: ST_HAUT_ALT,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3,2,2,200,200,150,1
+Style: ST_HAUT_DROITE,Arial,60,&H00FFFFFF,&H000000FF,&H00000000,&HAA000000,-1,0,0,0,100,100,0,0,1,3.5,1.5,9,0,200,75,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.79,0:00:05.54,Default,,0,0,0,,{\i1}De retour d'un rapport d'enquête,{\i0}
+Dialogue: 0,0:00:05.75,0:00:08.09,Default,,0,0,0,,{\i1}Tonton a rencontré un amnésique.{\i0}
+Dialogue: 0,0:00:08.75,0:00:11.09,ST_HAUT,,0,0,0,,{\i1}Son nom : Ritsuo Esaka.{\i0}
+Dialogue: 0,0:00:11.67,0:00:14.47,Default,,0,0,0,,{\i1}Il avait perdu la mémoire\Nun an plus tôt{\i0}
+Dialogue: 0,0:00:15.05,0:00:17.51,ST_HAUT,,0,0,0,,{\i1}et vivait en tant que "Tarô Kôneru",{\i0}
+Dialogue: 0,0:00:17.93,0:00:20.35,ST_HAUT,,0,0,0,,{\i1}mais sa chute\Ndans les escaliers d'une gare{\i0}
+Dialogue: 0,0:00:20.60,0:00:23.89,ST_HAUT,,0,0,0,,{\i1}causa la perte de ses souvenirs\Nliés à cette identité.{\i0}
+Dialogue: 0,0:00:25.35,0:00:26.27,Default,,0,0,0,,{\i1}À la place,{\i0}
+Dialogue: 0,0:00:26.77,0:00:29.07,Default,,0,0,0,,{\i1}ses souvenirs antérieurs{\i0}
+Dialogue: 0,0:00:29.44,0:00:31.32,Default,,0,0,0,,{\i1}commencèrent à resurgir...{\i0}
+Dialogue: 0,0:00:33.90,0:00:34.82,Default,,0,0,0,,{\i1}M. Esaka ?{\i0}
+Dialogue: 0,0:00:36.20,0:00:39.08,Default,,0,0,0,,{\i1}Tout porte à croire\Nqu'il s'agit d'un suicide.{\i0}
+Dialogue: 0,0:00:39.66,0:00:40.74,Default,,0,0,0,,{\i1}Un suicide ?{\i0}
+Dialogue: 0,0:00:51.25,0:00:53.63,ST_HAUT,,0,0,0,,D'après le manga de Gôshô Aoyama\N(Weekly Shônen Sunday)
+Dialogue: 0,0:00:54.01,0:00:57.14,Default,,0,0,0,,{\i1}En route pour la résolution\Nd'énigmes tumultueuses !{\i0}
+Dialogue: 0,0:00:57.59,0:01:00.81,Default,,0,0,0,,{\i1}L'accès aux souvenirs perdus\Ndévoile la vérité !{\i0}
+Dialogue: 0,0:01:01.14,0:01:04.10,Default,,0,0,0,,{\i1}Déceleur de la vérité, un cerveau\Nd'adulte dans un corps d'enfant...{\i0}
+Dialogue: 0,0:01:04.27,0:01:06.81,Default,,0,0,0,,{\i1}Voici Détective Conan !{\i0}
+Dialogue: 0,0:01:15.40,0:01:17.49,ST_HAUT,,0,0,0,,Character design : Masatomo Sudô
+Dialogue: 0,0:01:25.00,0:01:26.96,ST_HAUT,,0,0,0,,Directeur artistique : Junichi Higashi
+Dialogue: 0,0:01:27.12,0:01:29.38,ST_HAUT,,0,0,0,,Direction du son :\NY. Urakami, K. Urakami
+Dialogue: 0,0:01:33.30,0:01:34.92,ST_HAUT,,0,0,0,,Musique : Katsuo Ôno
+Dialogue: 0,0:01:49.35,0:01:51.15,ST_HAUT,,0,0,0,,Générique d'ouverture :\N"Yura yura"
+Dialogue: 0,0:02:05.58,0:02:07.46,Default,,0,0,0,,Projet initial : Takenori Ichihara\NNaota Machida
+Dialogue: 0,0:02:15.05,0:02:16.67,ST_HAUT,,0,0,0,,Réalisateurs : Yasuichiro Yamamoto,\NNobuharu Kamanaka
+Dialogue: 0,0:02:19.01,0:02:22.18,ST_HAUT,,0,0,0,,Production :\NTMS ENTERTAINMENT CO., LTD.
+Dialogue: 0,0:02:26.27,0:02:28.94,Default,,0,0,0,,{\i1}Une année de trou noir (2e partie){\i0}
+Dialogue: 0,0:02:32.11,0:02:35.07,Default,,0,0,0,,Est-ce réellement un suicide ?
+Dialogue: 0,0:02:35.57,0:02:37.44,Default,,0,0,0,,Sûr et certain. Takagi.
+Dialogue: 0,0:02:37.82,0:02:38.53,Default,,0,0,0,,Compris !
+Dialogue: 0,0:02:38.86,0:02:43.41,Default,,0,0,0,,Il a bu un café empoisonné\Ndans cet appartement fermé à clé.
+Dialogue: 0,0:02:43.87,0:02:48.16,Default,,0,0,0,,Les deux clés remises\Npar le propriétaire étaient ici.
+Dialogue: 0,0:02:48.33,0:02:49.16,Default,,0,0,0,,Ensuite...
+Dialogue: 0,0:02:49.62,0:02:51.29,Default,,0,0,0,,Sur cet ordinateur,
+Dialogue: 0,0:02:51.92,0:02:55.00,Default,,0,0,0,,figure un texte s'apparentant\Nà un ultime message.
+Dialogue: 0,0:02:57.05,0:03:00.43,Default,,0,0,0,,Il se serait souvenu\Nd'une erreur passée
+Dialogue: 0,0:03:00.84,0:03:02.30,Default,,0,0,0,,en recouvrant la mémoire ?
+Dialogue: 0,0:03:03.39,0:03:04.26,Default,,0,0,0,,Par ailleurs,
+Dialogue: 0,0:03:04.43,0:03:08.22,Default,,0,0,0,,nous espérons en apprendre plus\Navec cet objet trouvé sur la table.
+Dialogue: 0,0:03:08.56,0:03:11.39,Default,,0,0,0,,C'est son portable acheté récemment.
+Dialogue: 0,0:03:11.81,0:03:15.15,Default,,0,0,0,,Son historique contient\Ndeux appels passés hier soir.
+Dialogue: 0,0:03:15.69,0:03:19.40,Default,,0,0,0,,L'un était adressé\Nà l'entreprise de BTP Hida.
+Dialogue: 0,0:03:19.65,0:03:22.41,Default,,0,0,0,,Il y avait travaillé pendant un an.
+Dialogue: 0,0:03:22.95,0:03:24.91,Default,,0,0,0,,Elle appartient à M. Hida.
+Dialogue: 0,0:03:25.20,0:03:28.79,Default,,0,0,0,,L'autre appel était adressé\Nà une agence de bulletins météo.
+Dialogue: 0,0:03:30.16,0:03:32.00,Default,,0,0,0,,Une agence de bulletins météo ?
+Dialogue: 0,0:03:32.33,0:03:35.88,Default,,0,0,0,,Apparemment,\Nil désirait une information.
+Dialogue: 0,0:03:36.50,0:03:39.09,Default,,0,0,0,,Il voulait savoir\Nsi la foudre était tombée
+Dialogue: 0,0:03:39.34,0:03:42.05,Default,,0,0,0,,à Wakabadai six mois plus tôt,\Nvers le 10 juin.
+Dialogue: 0,0:03:42.34,0:03:45.22,Default,,0,0,0,,On lui a répondu que c'était le cas
+Dialogue: 0,0:03:45.43,0:03:47.68,Default,,0,0,0,,dans la soirée du 10 juin.
+Dialogue: 0,0:03:48.31,0:03:50.43,Default,,0,0,0,,Pour l'appel passé à l'entreprise Hida,
+Dialogue: 0,0:03:50.68,0:03:53.06,Default,,0,0,0,,il désirait savoir sur quel chantier
+Dialogue: 0,0:03:53.23,0:03:56.56,Default,,0,0,0,,il se trouvait le 10 juin,\Nsoit 6 mois plus tôt.
+Dialogue: 0,0:03:56.77,0:03:59.82,Default,,0,0,0,,M. Hida, le patron,\Na épluché le registre,
+Dialogue: 0,0:03:59.98,0:04:02.07,Default,,0,0,0,,et lui a répondu "Wakabadai".
+Dialogue: 0,0:04:03.91,0:04:07.41,Default,,0,0,0,,Les deux appels nous mènent\Nau 10 juin à Wakabadai !
+Dialogue: 0,0:04:08.20,0:04:08.79,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:04:09.83,0:04:10.75,Default,,0,0,0,,On dirait...
+Dialogue: 0,0:04:11.29,0:04:13.25,Default,,0,0,0,,Cette affaire a débuté à cette date !
+Dialogue: 0,0:04:14.75,0:04:17.75,Default,,0,0,0,,Esaka était à Wakabadai ce jour-là.
+Dialogue: 0,0:04:18.50,0:04:22.84,Default,,0,0,0,,Donc, l'individu qui a assassiné\NAkira Kisugi il y a six mois...
+Dialogue: 0,0:04:24.38,0:04:25.30,Default,,0,0,0,,Ce serait lui ?
+Dialogue: 0,0:04:25.76,0:04:28.30,Default,,0,0,0,,En clair, Ritsuo Esaka
+Dialogue: 0,0:04:35.94,0:04:37.98,Default,,0,0,0,,se trouvait ce jour-là à Wakabadai.
+Dialogue: 0,0:04:38.15,0:04:41.15,Default,,0,0,0,,Il a tué Akira Kisugi\Npour une raison indéterminée,
+Dialogue: 0,0:04:41.32,0:04:44.61,Default,,0,0,0,,puis a enterré son corps\Ndans les proches montagnes.
+Dialogue: 0,0:04:44.86,0:04:47.24,Default,,0,0,0,,Il avait oublié son acte...
+Dialogue: 0,0:04:47.78,0:04:49.95,Default,,0,0,0,,Mais la foudre le lui a rappelé.
+Dialogue: 0,0:04:50.29,0:04:52.45,Default,,0,0,0,,Je me souviens de ses paroles...
+Dialogue: 0,0:04:53.20,0:04:56.71,Default,,0,0,0,,{\i1}Le vague souvenir\Nd'une scène intrigante me revient.{\i0}
+Dialogue: 0,0:04:57.54,0:05:00.09,Default,,0,0,0,,{\i1}Qu'est-ce donc, au juste ?\NFoudre...{\i0}
+Dialogue: 0,0:05:00.80,0:05:01.76,Default,,0,0,0,,{\i1}Chien...{\i0}
+Dialogue: 0,0:05:02.46,0:05:04.67,Default,,0,0,0,,La signification du chien m'échappe.
+Dialogue: 0,0:05:05.01,0:05:08.09,Default,,0,0,0,,Un souvenir lui est revenu,\Nmais perplexe, il s'est renseigné.
+Dialogue: 0,0:05:09.10,0:05:11.68,Default,,0,0,0,,Ensuite,\Npris de remords pour son meurtre...
+Dialogue: 0,0:05:14.56,0:05:16.98,Default,,0,0,0,,{\i1}Tout ceci est cohérent.{\i0}
+Dialogue: 0,0:05:26.45,0:05:28.74,Default,,0,0,0,,L'appartement était fermé à clé,
+Dialogue: 0,0:05:29.12,0:05:31.70,Default,,0,0,0,,mais l'entrebâilleur\Nbloquait-il la porte ?
+Dialogue: 0,0:05:31.91,0:05:34.75,Default,,0,0,0,,Non, ce n'était pas le cas.
+Dialogue: 0,0:05:34.91,0:05:37.42,Default,,0,0,0,,Mais bon, les deux clés étaient ici.
+Dialogue: 0,0:05:37.83,0:05:41.80,Default,,0,0,0,,L'une dans le tiroir d'un bureau,\Net l'autre, dans cette poche.
+Dialogue: 0,0:05:44.01,0:05:45.17,Default,,0,0,0,,Écoutez !
+Dialogue: 0,0:05:46.05,0:05:49.93,Default,,0,0,0,,Faut-il informer le Q.G. du lien\Nentre Esaka et le meurtre de Kisugi ?
+Dialogue: 0,0:05:50.30,0:05:53.22,Default,,0,0,0,,Pas encore,\Nce ne sont que des spéculations.
+Dialogue: 0,0:05:53.39,0:05:57.48,Default,,0,0,0,,Peut-être était-il une victime\Nd'Akira Kisugi, cet escroc récidiviste.
+Dialogue: 0,0:05:57.77,0:06:00.61,Default,,0,0,0,,Possible.\NRecoupons nos informations.
+Dialogue: 0,0:06:04.07,0:06:04.98,Default,,0,0,0,,Tonton !
+Dialogue: 0,0:06:06.40,0:06:09.61,Default,,0,0,0,,À mon avis,\Nla scène qui intriguait tant M. Esaka
+Dialogue: 0,0:06:10.12,0:06:13.95,Default,,0,0,0,,s'est déroulée\Nce fameux jour à Wakabadai.
+Dialogue: 0,0:06:14.49,0:06:16.75,Default,,0,0,0,,Peut-être a-t-il vu Akira Kisugi
+Dialogue: 0,0:06:17.41,0:06:19.21,Default,,0,0,0,,se disputer avec l'assassin !
+Dialogue: 0,0:06:21.13,0:06:24.71,Default,,0,0,0,,Ça expliquerait alors la tentative\Nde meurtre sur sa personne.
+Dialogue: 0,0:06:25.21,0:06:26.80,Default,,0,0,0,,Tu te fais des idées !
+Dialogue: 0,0:06:27.34,0:06:29.30,Default,,0,0,0,,Pense aux mots de ses proches.
+Dialogue: 0,0:06:29.76,0:06:32.55,Default,,0,0,0,,{\i1}Cette tentative de meurtre\Nsort de ton imagination !{\i0}
+Dialogue: 0,0:06:32.76,0:06:33.89,Default,,0,0,0,,{\i1}Je ne vois que ça.{\i0}
+Dialogue: 0,0:06:34.51,0:06:36.39,Default,,0,0,0,,Mais imaginons qu'elle était réelle
+Dialogue: 0,0:06:36.85,0:06:41.19,Default,,0,0,0,,et que le coupable ait voulu faire taire\NM. Esaka, un témoin gênant ?
+Dialogue: 0,0:06:42.98,0:06:47.28,Default,,0,0,0,,Il n'avait pas réussi son coup,\Njusqu'à hier.
+Dialogue: 0,0:06:48.03,0:06:51.11,Default,,0,0,0,,Tu sais, quand M. Esaka\Na bu le café empoisonné,
+Dialogue: 0,0:06:51.61,0:06:53.99,Default,,0,0,0,,il n'était pas seul !
+Dialogue: 0,0:06:57.45,0:07:00.46,Default,,0,0,0,,Une seule tasse\Nest posée différemment !
+Dialogue: 0,0:07:01.54,0:07:02.42,Default,,0,0,0,,Exact.
+Dialogue: 0,0:07:02.96,0:07:04.29,Default,,0,0,0,,Ce qui veut dire ?
+Dialogue: 0,0:07:04.75,0:07:06.50,Default,,0,0,0,,Le tueur l'a sans doute posée.
+Dialogue: 0,0:07:17.14,0:07:21.56,Default,,0,0,0,,M. Esaka ne s'est pas suicidé,\Non l'a assassiné pour le faire taire.
+Dialogue: 0,0:07:22.10,0:07:23.98,Default,,0,0,0,,Lui collant un meurtre sur le dos,
+Dialogue: 0,0:07:24.48,0:07:26.11,Default,,0,0,0,,son meurtrier a ensuite fui.
+Dialogue: 0,0:07:26.48,0:07:30.07,Default,,0,0,0,,Il a usé d'un artifice pour la serrure,\Nou alors...
+Dialogue: 0,0:07:30.65,0:07:31.99,Default,,0,0,0,,AGENCE IMMOBILIÈRE ÔDAI
+Dialogue: 0,0:07:32.16,0:07:32.95,Default,,0,0,0,,Hop !
+Dialogue: 0,0:07:35.03,0:07:36.95,Default,,0,0,0,,Si le tueur est entré chez M. Esaka,
+Dialogue: 0,0:07:37.37,0:07:40.25,Default,,0,0,0,,c'est sans doute\Nparce qu'ils se connaissaient.
+Dialogue: 0,0:07:40.66,0:07:41.71,Default,,0,0,0,,Une piste ?
+Dialogue: 0,0:07:42.17,0:07:46.13,Default,,0,0,0,,Si Esaka a bien vu\Nle coupable il y a six mois,
+Dialogue: 0,0:07:46.42,0:07:49.55,Default,,0,0,0,,il ne doit pas être\Nle seul dans ce cas !
+Dialogue: 0,0:07:52.68,0:07:54.93,Default,,0,0,0,,Il figure au centre de cette photo.
+Dialogue: 0,0:07:56.64,0:08:00.27,Default,,0,0,0,,Il est venu sur le chantier\Ndu quartier il y a six mois...
+Dialogue: 0,0:08:00.52,0:08:02.60,Default,,0,0,0,,Ah, je me souviens de lui !
+Dialogue: 0,0:08:02.77,0:08:03.52,Default,,0,0,0,,Racontez-moi !
+Dialogue: 0,0:08:03.81,0:08:05.77,Default,,0,0,0,,Il fuyait désespérément un chien !
+Dialogue: 0,0:08:06.40,0:08:07.15,Default,,0,0,0,,Un chien ?
+Dialogue: 0,0:08:07.52,0:08:11.49,Default,,0,0,0,,Il courait en hurlant\Net a sauté sur ce poteau électrique.
+Dialogue: 0,0:08:17.83,0:08:19.95,Default,,0,0,0,,{\i1}Pardon ! Mille excuses !{\i0}
+Dialogue: 0,0:08:28.92,0:08:32.38,Default,,0,0,0,,Un chien et la foudre !\NÇa s'est passé ici !
+Dialogue: 0,0:08:32.76,0:08:35.43,Default,,0,0,0,,Il a vu quelque chose\Ndans cette direction ?
+Dialogue: 0,0:08:35.93,0:08:38.81,Default,,0,0,0,,Oui, mais pas moi...
+Dialogue: 0,0:08:44.23,0:08:48.31,Default,,0,0,0,,Ils sont passés dans cette rue\Ntransversale pile à ce moment !
+Dialogue: 0,0:08:57.57,0:09:00.58,Default,,0,0,0,,Ils venaient du côté\Ndu domicile d'Akira Kisugi,
+Dialogue: 0,0:09:00.74,0:09:02.79,Default,,0,0,0,,ou alors, de ce temple ?
+Dialogue: 0,0:09:03.50,0:09:06.33,Default,,0,0,0,,En tous cas,\NAkira Kisugi est passé par ici
+Dialogue: 0,0:09:06.96,0:09:09.04,Default,,0,0,0,,en se disputant avec son assassin !
+Dialogue: 0,0:09:09.46,0:09:12.42,Default,,0,0,0,,Et Esaka a assisté à la scène.
+Dialogue: 0,0:09:12.88,0:09:15.05,Default,,0,0,0,,Qui est ce meurtrier et où est-il ?
+Dialogue: 0,0:09:15.76,0:09:18.76,Default,,0,0,0,,Le corps qu'il avait enterré\Nayant été découvert,
+Dialogue: 0,0:09:19.01,0:09:22.64,Default,,0,0,0,,le coupable s'est empressé\Nde réduire au silence M. Esaka.
+Dialogue: 0,0:09:23.18,0:09:25.89,Default,,0,0,0,,Mais pourquoi ne pas\Nl'avoir fait avant ?
+Dialogue: 0,0:09:26.48,0:09:29.11,Default,,0,0,0,,Ça me fait penser\Nqu'on a failli tuer Esaka
+Dialogue: 0,0:09:29.27,0:09:31.19,Default,,0,0,0,,3 jours après la découverte du corps.
+Dialogue: 0,0:09:31.52,0:09:35.70,Default,,0,0,0,,Je sais ! Il ne pouvait rien faire\Ncar il ignorait où le trouver !
+Dialogue: 0,0:09:36.28,0:09:39.49,Default,,0,0,0,,Mais M. Esaka s'étant présenté\Nà lui 3 jours plus tard,
+Dialogue: 0,0:09:39.66,0:09:40.83,Default,,0,0,0,,il a tenté de le tuer !
+Dialogue: 0,0:09:41.45,0:09:42.49,Default,,0,0,0,,En résumé,
+Dialogue: 0,0:09:43.12,0:09:45.58,Default,,0,0,0,,le coupable habite à Kôneru.
+Dialogue: 0,0:09:45.91,0:09:47.54,Default,,0,0,0,,Oui, ça tient la route.
+Dialogue: 0,0:09:47.71,0:09:50.71,Default,,0,0,0,,Tu le savais depuis le début, hein ?
+Dialogue: 0,0:09:52.88,0:09:54.59,Default,,0,0,0,,Les habitants de Kôneru ?
+Dialogue: 0,0:09:54.96,0:09:58.05,Default,,0,0,0,,Oui, des suspects figurant sur la liste.
+Dialogue: 0,0:09:58.68,0:10:02.85,Default,,0,0,0,,Parmi les victimes d'escroquerie\Nqui en voulaient à Akira Kisugi,
+Dialogue: 0,0:10:03.18,0:10:05.48,Default,,0,0,0,,il doit y avoir\Ndes habitants de Kôneru !
+Dialogue: 0,0:10:05.93,0:10:07.94,Default,,0,0,0,,Non, aucun.
+Dialogue: 0,0:10:08.10,0:10:08.81,Default,,0,0,0,,Personne ?
+Dialogue: 0,0:10:15.28,0:10:16.57,Default,,0,0,0,,Je ne comprends pas.
+Dialogue: 0,0:10:16.90,0:10:18.24,Default,,0,0,0,,Il y en a forcément !
+Dialogue: 0,0:10:18.95,0:10:21.16,Default,,0,0,0,,On va les débusquer nous-mêmes !
+Dialogue: 0,0:10:21.66,0:10:23.66,Default,,0,0,0,,Agir à l'aveugle ne donnera rien.
+Dialogue: 0,0:10:24.24,0:10:25.54,Default,,0,0,0,,Pas faux...
+Dialogue: 0,0:10:27.16,0:10:29.79,Default,,0,0,0,,Le Bon Samaritain doit avoir des infos !
+Dialogue: 0,0:10:30.42,0:10:31.67,Default,,0,0,0,,Mais oui, M. Kinbara !
+Dialogue: 0,0:10:34.84,0:10:37.55,Default,,0,0,0,,Vivement qu'il pousse.
+Dialogue: 0,0:10:37.80,0:10:41.01,Default,,0,0,0,,D'ici quelques années,\Nà nous le {\i1}hanami{\i0} à domicile.
+Dialogue: 0,0:10:45.47,0:10:47.64,Default,,0,0,0,,Un {\i1}hanami{\i0} dans ce jardin...
+Dialogue: 0,0:10:48.06,0:10:50.35,Default,,0,0,0,,Ce sera magnifique.
+Dialogue: 0,0:10:51.77,0:10:54.44,Default,,0,0,0,,D'ici là, tu auras retrouvé la santé.
+Dialogue: 0,0:10:55.78,0:10:56.78,Default,,0,0,0,,M. Môri !
+Dialogue: 0,0:11:07.00,0:11:08.79,Default,,0,0,0,,Tarô est décédé ?
+Dialogue: 0,0:11:09.12,0:11:11.04,Default,,0,0,0,,Elle le saura tôt ou tard,
+Dialogue: 0,0:11:11.33,0:11:14.42,Default,,0,0,0,,mais je souhaitais ménager\Nvotre épouse et sa santé.
+Dialogue: 0,0:11:15.17,0:11:17.80,Default,,0,0,0,,On l'a sans doute tué\Npour le faire taire !
+Dialogue: 0,0:11:18.42,0:11:20.59,Default,,0,0,0,,Mais pourquoi donc ?
+Dialogue: 0,0:11:20.93,0:11:24.05,Default,,0,0,0,,Rappelez-vous l'affaire\Nsur l'homme retrouvé mort
+Dialogue: 0,0:11:24.22,0:11:26.64,Default,,0,0,0,,dans les montagnes de Wakabadai.
+Dialogue: 0,0:11:27.43,0:11:30.19,Default,,0,0,0,,Je pense que des habitants de Kôneru
+Dialogue: 0,0:11:30.69,0:11:33.27,Default,,0,0,0,,ont été escroqués par Akira Kisugi.
+Dialogue: 0,0:11:33.90,0:11:35.86,Default,,0,0,0,,En avez-vous eu vent ?
+Dialogue: 0,0:11:36.52,0:11:38.53,Default,,0,0,0,,Non, ça ne me dit rien.
+Dialogue: 0,0:11:39.36,0:11:40.90,Default,,0,0,0,,L'un d'eux a tué Tarô ?
+Dialogue: 0,0:11:41.49,0:11:44.49,Default,,0,0,0,,Dites,\Nj'aurais un service à vous demander.
+Dialogue: 0,0:11:44.91,0:11:47.70,Default,,0,0,0,,J'aimerais interroger\Nles trois autres personnes.
+Dialogue: 0,0:11:49.91,0:11:51.00,Default,,0,0,0,,Tarô est mort ?
+Dialogue: 0,0:11:51.58,0:11:53.00,Default,,0,0,0,,Oui.
+Dialogue: 0,0:11:53.38,0:11:56.75,Default,,0,0,0,,J'aimerais savoir\Nsi un souvenir vous revient
+Dialogue: 0,0:11:56.92,0:11:57.96,Default,,0,0,0,,à son sujet.
+Dialogue: 0,0:11:58.38,0:12:01.30,Default,,0,0,0,,Non, rien ne me vient à l'esprit.
+Dialogue: 0,0:12:01.47,0:12:03.09,Default,,0,0,0,,Vous me prenez de court.
+Dialogue: 0,0:12:03.26,0:12:05.55,Default,,0,0,0,,Je ne vois pas non plus.
+Dialogue: 0,0:12:06.22,0:12:10.23,Default,,0,0,0,,En tout cas,\Nje vous aiderai en mémoire de Tarô !
+Dialogue: 0,0:12:11.06,0:12:12.27,Default,,0,0,0,,Dis donc !
+Dialogue: 0,0:12:12.44,0:12:15.40,Default,,0,0,0,,On n'est ni policiers, ni détectives !
+Dialogue: 0,0:12:15.56,0:12:16.82,Default,,0,0,0,,Mais...
+Dialogue: 0,0:12:17.23,0:12:20.65,Default,,0,0,0,,Je sais ! M. Môri pourrait\Nnous montrer la marche à suivre !
+Dialogue: 0,0:12:21.40,0:12:22.74,Default,,0,0,0,,S'il vous plaît !
+Dialogue: 0,0:12:22.90,0:12:25.74,Default,,0,0,0,,On va se démener\Npour rendre hommage à Tarô !
+Dialogue: 0,0:12:26.20,0:12:28.28,Default,,0,0,0,,Faisons-lui honneur.
+Dialogue: 0,0:12:28.58,0:12:29.54,Default,,0,0,0,,On est prêts !
+Dialogue: 0,0:12:30.29,0:12:31.16,Default,,0,0,0,,Les amis...
+Dialogue: 0,0:12:32.16,0:12:33.00,Default,,0,0,0,,Pour commencer,
+Dialogue: 0,0:12:33.37,0:12:35.88,Default,,0,0,0,,enquêtez sur tous les éléments
+Dialogue: 0,0:12:36.04,0:12:37.42,Default,,0,0,0,,vous paraissant suspects !
+Dialogue: 0,0:12:38.00,0:12:39.25,Default,,0,0,0,,{\i1}Je le débusquerai.{\i0}
+Dialogue: 0,0:12:40.01,0:12:43.01,Default,,0,0,0,,{\i1}Je retrouverai l'assassin de M. Esaka !{\i0}
+Dialogue: 0,0:12:59.65,0:13:01.03,Default,,0,0,0,,{\i1}Un parking à vélos ?{\i0}
+Dialogue: 0,0:13:02.94,0:13:03.99,Default,,0,0,0,,Avant-hier ?
+Dialogue: 0,0:13:04.32,0:13:06.61,Default,,0,0,0,,Oui, vers 13 h.
+Dialogue: 0,0:13:06.91,0:13:10.87,Default,,0,0,0,,Avez-vous vu quelqu'un\Ns'enfuir au niveau du feu ?
+Dialogue: 0,0:13:11.41,0:13:15.29,Default,,0,0,0,,Je ne peux pas te répondre,\Nj'étais chez moi à cause d'un rhume.
+Dialogue: 0,0:13:15.71,0:13:17.63,Default,,0,0,0,,Vous étiez absent...
+Dialogue: 0,0:13:17.96,0:13:21.76,Default,,0,0,0,,C'est M. Umino ou M. Kinbara\Nqui m'a probablement remplacé.
+Dialogue: 0,0:13:22.09,0:13:24.55,Default,,0,0,0,,Je vois ! M. Kinbara travaille ici !
+Dialogue: 0,0:13:24.72,0:13:26.76,Default,,0,0,0,,Il gère les bicyclettes !
+Dialogue: 0,0:13:27.39,0:13:29.47,Default,,0,0,0,,M. Umino ou M. Kinbara, c'est ça ?
+Dialogue: 0,0:13:29.89,0:13:31.89,Default,,0,0,0,,Voyons voir... Ce jour-là...
+Dialogue: 0,0:13:32.60,0:13:36.52,Default,,0,0,0,,J'ai une autre question\Nconcernant cette affaire.
+Dialogue: 0,0:13:37.56,0:13:40.77,Default,,0,0,0,,Parmi les victimes\Ndes arnaques de Kisugi,
+Dialogue: 0,0:13:41.19,0:13:44.15,Default,,0,0,0,,y avait-il un dénommé "Doigaki" ?
+Dialogue: 0,0:13:44.32,0:13:47.86,Default,,0,0,0,,BISTROT YAKITORI
+Dialogue: 0,0:13:54.95,0:13:56.67,Default,,0,0,0,,{\i1}Il doit y en avoir une ici...{\i0}
+Dialogue: 0,0:13:56.83,0:13:59.54,Default,,0,0,0,,BOUTIQUE DE RÉPARATION
+Dialogue: 0,0:13:59.71,0:14:00.92,Default,,0,0,0,,{\i1}J'avais vu juste !{\i0}
+Dialogue: 0,0:14:01.38,0:14:03.51,Default,,0,0,0,,On n'a trouvé aucun indice.
+Dialogue: 0,0:14:03.84,0:14:06.47,Default,,0,0,0,,Normal, on est des citoyens quelconques.
+Dialogue: 0,0:14:06.80,0:14:10.26,Default,,0,0,0,,Détective est un métier très difficile.
+Dialogue: 0,0:14:10.43,0:14:11.68,Default,,0,0,0,,M. Hida !
+Dialogue: 0,0:14:12.68,0:14:13.47,Default,,0,0,0,,Quoi ?
+Dialogue: 0,0:14:15.73,0:14:17.35,Default,,0,0,0,,C'est exact. Pourquoi ?
+Dialogue: 0,0:14:17.73,0:14:21.23,Default,,0,0,0,,Je ne sais pas, mais mon tonton\Nvoulait une confirmation !
+Dialogue: 0,0:14:22.40,0:14:24.36,Default,,0,0,0,,On a fait chou blanc.
+Dialogue: 0,0:14:25.07,0:14:27.49,Default,,0,0,0,,Tu avais raison, tonton !
+Dialogue: 0,0:14:27.82,0:14:28.70,Default,,0,0,0,,Sur quoi ?
+Dialogue: 0,0:14:31.03,0:14:33.08,Default,,0,0,0,,Au fait, qu'ont donné...
+Dialogue: 0,0:14:35.91,0:14:37.91,Default,,0,0,0,,vos recherches ?
+Dialogue: 0,0:14:40.04,0:14:40.79,Default,,0,0,0,,Mais c'est...
+Dialogue: 0,0:14:41.33,0:14:42.13,Default,,0,0,0,,Le fameux...
+Dialogue: 0,0:14:42.59,0:14:44.05,Default,,0,0,0,,Kogorô l'Endormi !
+Dialogue: 0,0:14:44.75,0:14:46.46,Default,,0,0,0,,Je tiens d'abord à m'excuser.
+Dialogue: 0,0:14:47.13,0:14:51.26,Default,,0,0,0,,Je vous ai orientés vers une piste\Nne menant pas au meurtrier.
+Dialogue: 0,0:14:51.93,0:14:55.31,Default,,0,0,0,,Et pour cause,\Nce n'est pas lui qu'avait escroqué
+Dialogue: 0,0:14:55.56,0:14:57.43,Default,,0,0,0,,Akira Kisugi.
+Dialogue: 0,0:15:00.85,0:15:04.61,Default,,0,0,0,,Figurez-vous que le 10 juin,\Ndate du meurtre d'Akira Kisugi,
+Dialogue: 0,0:15:05.03,0:15:07.65,Default,,0,0,0,,l'un d'entre vous était sur place,
+Dialogue: 0,0:15:08.11,0:15:10.03,Default,,0,0,0,,à Wakabadai,
+Dialogue: 0,0:15:11.24,0:15:15.04,Default,,0,0,0,,pour commémorer les 3 ans\Ndu décès de M. Katsuhiro Doigaki.
+Dialogue: 0,0:15:15.79,0:15:17.25,Default,,0,0,0,,Qui est ce Doigaki ?
+Dialogue: 0,0:15:17.70,0:15:19.25,Default,,0,0,0,,Inconnu au bataillon.
+Dialogue: 0,0:15:19.71,0:15:21.71,Default,,0,0,0,,C'était le frère de votre épouse,
+Dialogue: 0,0:15:22.25,0:15:23.71,Default,,0,0,0,,M. Takuzô Kinbara.
+Dialogue: 0,0:15:28.67,0:15:31.59,Default,,0,0,0,,Un employé du parking à vélos\Ns'en est rappelé.
+Dialogue: 0,0:15:32.47,0:15:34.55,Default,,0,0,0,,{\i1}Voyons voir... Ce jour-là...{\i0}
+Dialogue: 0,0:15:34.76,0:15:38.18,Default,,0,0,0,,{\i1}M. Kinbara était\Nbien absent le 10 juin ?{\i0}
+Dialogue: 0,0:15:38.39,0:15:41.81,Default,,0,0,0,,{\i1}Ça me revient !\NIl m'a parlé d'un service commémoratif{\i0}
+Dialogue: 0,0:15:41.98,0:15:44.94,Default,,0,0,0,,{\i1}pour le frère de sa femme\Ndans un temple situé{\i0}
+Dialogue: 0,0:15:45.11,0:15:46.07,Default,,0,0,0,,{\i1}à Wakabadai !{\i0}
+Dialogue: 0,0:15:46.32,0:15:49.78,Default,,0,0,0,,{\i1}Un escroc lui a extorqué\Ntoutes ses économies,{\i0}
+Dialogue: 0,0:15:49.94,0:15:51.70,Default,,0,0,0,,{\i1}et l'anxiété l'a tué.{\i0}
+Dialogue: 0,0:15:52.70,0:15:56.03,Default,,0,0,0,,Le fait que le temple familial\Nde votre épouse
+Dialogue: 0,0:15:56.45,0:16:00.79,Default,,0,0,0,,se trouve à Wakabadai, là où vivait\NAkira Kisugi, était un hasard.
+Dialogue: 0,0:16:03.12,0:16:04.63,Default,,0,0,0,,Vous l'avez croisé.
+Dialogue: 0,0:16:11.09,0:16:12.38,ST_HAUT,,0,0,0,,AKIRA KISUGI (38 ANS)
+Dialogue: 0,0:16:13.18,0:16:17.22,Default,,0,0,0,,{\i1}J'ai oublié quelque chose.\NPatiente dans la salle de thé du temple.{\i0}
+Dialogue: 0,0:16:17.51,0:16:18.31,Default,,0,0,0,,{\i1}D'accord.{\i0}
+Dialogue: 0,0:16:22.19,0:16:25.19,Default,,0,0,0,,Vous l'avez harcelé\Npour qu'il s'excuse.
+Dialogue: 0,0:16:26.15,0:16:27.27,Default,,0,0,0,,Et c'est là que...
+Dialogue: 0,0:16:30.15,0:16:30.94,Default,,0,0,0,,{\i1}Tarô !{\i0}
+Dialogue: 0,0:16:48.92,0:16:50.84,Default,,0,0,0,,Tant que le corps restait caché,
+Dialogue: 0,0:16:51.46,0:16:54.09,Default,,0,0,0,,vous n'aviez pas à vous soucier
+Dialogue: 0,0:16:54.51,0:16:56.55,Default,,0,0,0,,qu'Esaka ait vu votre altercation.
+Dialogue: 0,0:16:57.85,0:16:59.22,Default,,0,0,0,,Six mois plus tard,
+Dialogue: 0,0:16:59.51,0:17:02.85,Default,,0,0,0,,Esaka a soudainement\Ndisparu de Kôneru,
+Dialogue: 0,0:17:03.14,0:17:05.77,Default,,0,0,0,,chose qui vous a intimement soulagé.
+Dialogue: 0,0:17:07.15,0:17:10.19,Default,,0,0,0,,Malheureusement,\Nle corps de Kisugi fut découvert,
+Dialogue: 0,0:17:10.94,0:17:12.40,Default,,0,0,0,,et trois jours plus tard,
+Dialogue: 0,0:17:12.86,0:17:15.70,Default,,0,0,0,,vous avez vu Esaka\Nréapparaître à Kôneru.
+Dialogue: 0,0:17:17.78,0:17:19.58,Default,,0,0,0,,Vous pensiez qu'il était là
+Dialogue: 0,0:17:20.66,0:17:23.62,Default,,0,0,0,,pour vous interroger\Nsur la mort de Kisugi.
+Dialogue: 0,0:17:29.42,0:17:30.17,Default,,0,0,0,,{\i1}Ça va ?{\i0}
+Dialogue: 0,0:17:30.71,0:17:31.92,Default,,0,0,0,,{\i1}Je patientais au feu,{\i0}
+Dialogue: 0,0:17:32.67,0:17:35.43,Default,,0,0,0,,{\i1}quand on m'a subitement\Npoussé dans le dos !{\i0}
+Dialogue: 0,0:17:35.93,0:17:37.43,Default,,0,0,0,,{\i1}J'ai failli être écrasé !{\i0}
+Dialogue: 0,0:17:38.47,0:17:40.43,Default,,0,0,0,,Vous vouliez le faire taire.
+Dialogue: 0,0:17:41.18,0:17:44.93,Default,,0,0,0,,{\i1}Tu as recouvré la mémoire,\Nmais d'un autre côté...{\i0}
+Dialogue: 0,0:17:45.27,0:17:48.10,Default,,0,0,0,,{\i1}... tes souvenirs liés\Nà cette année se sont envolés.{\i0}
+Dialogue: 0,0:17:48.56,0:17:52.73,Default,,0,0,0,,Vous avez appris\Npour son amnésie d'un an, mais...
+Dialogue: 0,0:17:53.57,0:17:57.07,Default,,0,0,0,,{\i1}Le vague souvenir\Nd'une scène intrigante me revient.{\i0}
+Dialogue: 0,0:17:57.91,0:18:00.49,Default,,0,0,0,,{\i1}Qu'est-ce donc, au juste ?\NFoudre...{\i0}
+Dialogue: 0,0:18:01.20,0:18:01.95,Default,,0,0,0,,{\i1}Chien...{\i0}
+Dialogue: 0,0:18:02.66,0:18:04.54,Default,,0,0,0,,Vous avez flairé le danger !
+Dialogue: 0,0:18:05.83,0:18:10.00,Default,,0,0,0,,De plus, M. Hida vous a parlé\Nde l'étrange question qu'il avait posée.
+Dialogue: 0,0:18:10.63,0:18:14.01,Default,,0,0,0,,La résurgence de ses souvenirs\Nvous a fait paniquer.
+Dialogue: 0,0:18:14.96,0:18:18.09,Default,,0,0,0,,Je lui ai effectivement parlé\Nde ce coup de fil.
+Dialogue: 0,0:18:18.80,0:18:20.60,Default,,0,0,0,,C'est là que vous avez eu l'idée
+Dialogue: 0,0:18:21.30,0:18:24.27,Default,,0,0,0,,de faire de lui\Nl'assassin d'Akira Kisugi.
+Dialogue: 0,0:18:25.23,0:18:27.77,Default,,0,0,0,,Hier soir, vous êtes allé chez lui,
+Dialogue: 0,0:18:29.56,0:18:30.69,Default,,0,0,0,,l'avez empoisonné,
+Dialogue: 0,0:18:31.19,0:18:32.73,Default,,0,0,0,,maquillé cela en suicide,
+Dialogue: 0,0:18:34.03,0:18:35.57,Default,,0,0,0,,et fermé avec une clé répliquée.
+Dialogue: 0,0:18:39.66,0:18:43.37,Default,,0,0,0,,Cette clé m'a convaincu\Nde votre culpabilité.
+Dialogue: 0,0:18:44.24,0:18:46.16,Default,,0,0,0,,Décider d'user d'un double de clé
+Dialogue: 0,0:18:46.54,0:18:48.96,Default,,0,0,0,,impliquait un moment\Npour le faire fabriquer.
+Dialogue: 0,0:18:53.96,0:18:56.38,Default,,0,0,0,,{\i1}Je retourne un instant chez moi.{\i0}
+Dialogue: 0,0:18:56.84,0:18:59.72,Default,,0,0,0,,{\i1}Je dois m'assurer que Tae\Na pris ses médicaments.{\i0}
+Dialogue: 0,0:19:00.09,0:19:02.35,Default,,0,0,0,,J'ai eu confirmation de sa création
+Dialogue: 0,0:19:02.51,0:19:05.14,Default,,0,0,0,,chez un serrurier-cordonnier du coin.
+Dialogue: 0,0:19:09.27,0:19:11.02,Default,,0,0,0,,Parlons du corps de Kisugi.
+Dialogue: 0,0:19:11.60,0:19:14.86,Default,,0,0,0,,Un cheveu était enroulé\Nautour de ses doigts.
+Dialogue: 0,0:19:15.32,0:19:17.03,Default,,0,0,0,,Et ce n'est pas le sien.
+Dialogue: 0,0:19:17.57,0:19:21.87,Default,,0,0,0,,Il a dû atterrir sur lui\Nlors de la dispute avec son assassin.
+Dialogue: 0,0:19:24.70,0:19:27.12,Default,,0,0,0,,Un comparatif indiquera\Nson propriétaire.
+Dialogue: 0,0:19:33.17,0:19:34.92,Default,,0,0,0,,Aujourd'hui,
+Dialogue: 0,0:19:35.09,0:19:37.92,Default,,0,0,0,,en venant m'annoncer\Nqu'on avait sans doute tué Tarô
+Dialogue: 0,0:19:38.34,0:19:42.05,Default,,0,0,0,,pour le faire taire,\Nje me suis dit que j'étais cuit.
+Dialogue: 0,0:19:44.18,0:19:46.93,Default,,0,0,0,,Vos déductions sont tout à fait justes.
+Dialogue: 0,0:19:47.47,0:19:50.52,Default,,0,0,0,,{\i1}T'es-tu rappelé\Nde cette scène intrigante ?{\i0}
+Dialogue: 0,0:19:50.77,0:19:54.52,Default,,0,0,0,,{\i1}Un chien a aboyé,\Net la foudre est tombée...{\i0}
+Dialogue: 0,0:19:55.94,0:19:59.19,Default,,0,0,0,,{\i1}J'ai eu l'impression de voir\Ncet homme à ce moment-là.{\i0}
+Dialogue: 0,0:19:59.36,0:20:01.28,Default,,0,0,0,,DÉCOUVERTE DU CORPS D'UN HOMME
+Dialogue: 0,0:20:01.45,0:20:03.07,Default,,0,0,0,,{\i1}Pourrais-je avoir du sucre ?{\i0}
+Dialogue: 0,0:20:03.24,0:20:04.70,Default,,0,0,0,,{\i1}Oui, bien sûr !{\i0}
+Dialogue: 0,0:20:10.29,0:20:12.46,Default,,0,0,0,,{\i1}Cet homme se disputait avec quelqu'un,{\i0}
+Dialogue: 0,0:20:12.92,0:20:14.96,Default,,0,0,0,,{\i1}une personne qui m'est familière...{\i0}
+Dialogue: 0,0:20:19.09,0:20:20.97,Default,,0,0,0,,{\i1}La mémoire t'est revenue...{\i0}
+Dialogue: 0,0:20:28.22,0:20:31.98,Default,,0,0,0,,{\i1}Je doute que tu fermes les yeux,\Nmais écoute-moi, au moins.{\i0}
+Dialogue: 0,0:20:35.52,0:20:36.61,Default,,0,0,0,,{\i1}Allez-y.{\i0}
+Dialogue: 0,0:20:39.65,0:20:40.49,Default,,0,0,0,,{\i1}Au fait...{\i0}
+Dialogue: 0,0:20:54.87,0:20:57.88,Default,,0,0,0,,Je suis sincèrement navré pour lui.
+Dialogue: 0,0:21:00.80,0:21:03.13,Default,,0,0,0,,Mais pourquoi l'avoir tué, alors ?
+Dialogue: 0,0:21:10.27,0:21:12.48,Default,,0,0,0,,J'avais peur de me faire arrêter !
+Dialogue: 0,0:21:15.77,0:21:18.69,Default,,0,0,0,,Je ne craignais pas d'être condamné,
+Dialogue: 0,0:21:20.32,0:21:21.90,Default,,0,0,0,,ce qui m'effrayait...
+Dialogue: 0,0:21:22.44,0:21:25.28,Default,,0,0,0,,... c'était de laisser seule\Nvotre femme, n'est-ce pas ?
+Dialogue: 0,0:21:25.74,0:21:27.28,Default,,0,0,0,,Sa santé est fragile.
+Dialogue: 0,0:21:56.81,0:21:58.90,Default,,0,0,0,,Conan Edogawa : Minami Takayama\NKogorô Môri : Rikiya Koyama
+Dialogue: 0,0:21:59.48,0:22:01.57,Default,,0,0,0,,Inspecteur Megure : Chafûrin\NInspecteur Takagi : Wataru Takagi
+Dialogue: 0,0:23:03.00,0:23:06.46,Default,,0,0,0,,Je prendrai soin de votre épouse\Njusqu'à votre retour !
+Dialogue: 0,0:23:06.63,0:23:07.63,Default,,0,0,0,,Promis !
+Dialogue: 0,0:23:22.02,0:23:22.52,Default,,0,0,0,,Tiens ?
+Dialogue: 0,0:23:23.86,0:23:26.74,Default,,0,0,0,,J'ai comme un trou de mémoire, moi !
+Dialogue: 0,0:23:30.16,0:23:31.45,Default,,0,0,0,,{\i1}Ne t'en fais pas !{\i0}
