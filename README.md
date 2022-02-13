@@ -516,7 +516,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0402**||x|x|x|x|||x||||||x|||
 |**0403**||x|x|x|x|||x||||||x|||
 |**0404**||x|x|x|x|||x||||||x|||
-|**0405**||x|x|x|x|||x||||||x|||
+|**0405**||x|x|x|x|||x||x||||x|||
 |**0406**||x|x|x|x|||x||||||x|||
 |**0407**||x|x|x|x|||x||||||x|||
 |**0408**||x|x|x|x|||x||||||x|||
