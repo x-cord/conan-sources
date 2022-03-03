@@ -29,6 +29,8 @@ for directory in glob.glob("*/"):
                 ep = f"{int(ep):04d}"
             if "Magic Kaito 1412" in file:
                 ep += file.split("Magic Kaito 1412")[1]
+            if "The Scarlet Alibi" in file:
+                ep = "The Scarlet Alibi"
             if "Remastered" in file:
                 ep += " RM"
             if ep not in headers:

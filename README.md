@@ -1253,7 +1253,4 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**TV 04**||||||||||x||||x|||
 |**TV 05**||||||x|x|||x||||x|||
 |**TV 06**||||||x|x|||x||||x|||
-|**The Scarlet Alibi 1**||||||||||x|||||||
-|**The Scarlet Alibi 2**||||||||||x|||||||
-|**The Scarlet Alibi 3**||||||||||x|||||||
-|**The Scarlet Alibi 4**||||||||||x|||||||
+|**The Scarlet Alibi**||||||x||||x|||||||
