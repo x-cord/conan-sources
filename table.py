@@ -33,6 +33,10 @@ for directory in glob.glob("*/"):
                 ep = "The Scarlet Alibi"
             if "Remastered" in file:
                 ep += " RM"
+            if " Alt" in file:
+                ep = ep.replace(" Alt", "")
+            if "Trailer" in file:
+                continue
             if ep not in headers:
                 headers[ep] = {}
             headers[ep][directory] = True
