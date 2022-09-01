@@ -1220,15 +1220,11 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Magic Kaito 1412 11**||||||||||||||||x|||||||
 |**Magic Kaito 1412 12**||||||||||||||||x|||||||
 |**Movie 01**|||x|x||x|x|x||x||x||||x|||||||
-|**Movie 01 RM**||||||||||||x|||||||||||
 |**Movie 02**|||x|x||x|x|x||x||x|||||x|||x||x|
-|**Movie 02 RM**||||||||||||x|||||||||||
 |**Movie 03**|||x|x||x|x|x||x||x||||x|x|||x||x|
 |**Movie 04**|||x|x||x|x|x||x||x||||x|x|||x|||
 |**Movie 05**||||x||x|x|x||x||x||||||||x||x|
-|**Movie 05 RM**||||||||||||x|||||||||||
 |**Movie 06**||||x||x|x|x||x||x||||||||x||x|
-|**Movie 06 RM**||||||||||||x|||||||||||
 |**Movie 07**|||x|x||x|x|x||x||x||||||||x||x|
 |**Movie 08**|||x|x||x|x|x||x||x|||||x|||x||x|
 |**Movie 09**|||x|x||x|x|x||x||x||||||||x||x|
