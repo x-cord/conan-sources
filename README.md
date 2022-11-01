@@ -1242,7 +1242,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Movie 21**|||x|x||x|x|x||x||x|||||x|||x||x|
 |**Movie 22**|||x|x|x|x|x|x||x||x||||||||x||x|
 |**Movie 23**|||x|x||x||x||x||x||||||||x||x|
-|**Movie 24**|||x||||||||||||||||||||
+|**Movie 24**|||x|||x|||||||||||||||||
 |**OVA 01**|||x|x|x|||||||x|||||x||||||
 |**OVA 02**|||x|x|x|||||||x|||||x||||||
 |**OVA 03**|||x|x|x|||||||x|||||x||||||
