@@ -63,7 +63,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 **TV:** 1-123  
 
 **Japanese**  
-**TV:** 1-386, 388-414, 416-965, 973-1025  
+**TV:** 1-965, 973-1025  
 **Movie:** 1-17, 19-23  
 **OVA:** 1-12  
 **TV Special:** 2-6  
@@ -502,7 +502,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0384**|||x|x|x|x||||x||x|x||||x||||||
 |**0385**|||x|x|x|x||||x||x|x||||x||||||
 |**0386**|||x|x|x|x||||x||x|x||||x||||||
-|**0387**|||x|x|x|x||||x|||x||||x||||||
+|**0387**|||x|x|x|x||||x||x|x||||x||||||
 |**0388**|||x|x|x|x||||x||x|x||||x||||||
 |**0389**|||x|x|x|x||||x||x|x||||x||||||
 |**0390**|||x|x|x|x||||x||x|x||||x||||||
@@ -530,7 +530,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**0412**|||x|x|x|x||||x||x|||||x||||||
 |**0413**|||x|x|x|x||||x||x|||||x||||||
 |**0414**|||x|x|x|x||||x||x|||||x||||||
-|**0415**|||x|x|x|x||||x|||||||x||||||
+|**0415**|||x|x|x|x||||x||x|||||x||||||
 |**0416**|||x|x|x|x||||x||x|||||x||||||
 |**0417**|||x|x|x|x||||x||x|||||x||||||
 |**0418**|||x|x|x|x||||x||x|||||x||||||
