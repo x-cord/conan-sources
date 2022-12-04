@@ -12,6 +12,10 @@ def ep_range(s):
 for directory in glob.glob("*/"):
     directory = directory.strip("/")
     directories.add(directory)
+
+for directory in glob.glob("*/"):
+    detailed = "Japanese" not in directories
+    directory = directory.strip("/")
     files = glob.glob(f"{glob.escape(directory)}/**/*.[asv][srt][sta]", recursive=True)
     for file in files:
         file = file.split("/")[-1]
@@ -31,7 +35,7 @@ for directory in glob.glob("*/"):
                 ep += file.split("Magic Kaito 1412")[1]
             if "The Scarlet Alibi" in file:
                 ep = "The Scarlet Alibi"
-            if "Remastered" in file:
+            if "Remastered" in file and detailed:
                 ep += " RM"
             if " Alt" in file:
                 ep = ep.replace(" Alt", "")
