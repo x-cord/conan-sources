@@ -43,7 +43,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 **TV Special:** 5-6  
 
 **French**  
-**TV:** 1024-1037, 761-1023  
+**TV:** 761-1037  
 **Movie:** 1-22  
 **TV Special:** 5-6  
 
@@ -75,13 +75,13 @@ Regenerate the relevant tables by running `table.py` from each directory.
 **TV:** 1-400, 451-468  
 
 **Malay**  
-**TV:** 512-574, 483-511  
+**TV:** 483-574  
 
 **Polish**  
 **TV:** 748-753  
 
 **Portuguese**  
-**TV:** 1-123, 644-647, 136-137, 648-719, 722-726, 729, 731, 220-276, 732  
+**TV:** 1-123, 136-137, 220-276, 644-719, 722-726, 729, 731-732  
 **Movie:** 1, 3-4, 11-13, 15-17, 19  
 **OVA:** 6-12  
 **TV Special:** 3  
