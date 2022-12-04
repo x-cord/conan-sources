@@ -1,3 +1,28 @@
+## Ranges
+**Global**  
+**TV:** 1-123, 644-647, 136-137, 648-719, 722-726, 729, 731, 220-276, 732  
+**Movie:** 1, 3-4, 11-13, 15-17, 19  
+**OVA:** 6-12  
+**TV Special:** 3  
+**Magic Kaito 1412:** 1-12  
+
+**Crunchyroll**  
+**TV:** 1-123  
+
+**Liga do Sul**  
+**TV:** 732, 644-719, 722-726, 729, 731, 220-276  
+**Movie:** 1, 15-17, 19  
+**OVA:** 6-12  
+**Magic Kaito 1412:** 1-12  
+
+**Onmitsu Fansub**  
+**Movie:** 11-13  
+
+**Saikou**  
+**TV:** 136-137  
+**Movie:** 3-4  
+**TV Special:** 3  
+
 ## Breakdown
 ||Crunchyroll|Liga do Sul|Onmitsu Fansub|Saikou|
 |---|:-:|:-:|:-:|:-:|

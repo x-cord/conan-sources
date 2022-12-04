@@ -1,3 +1,29 @@
+## Ranges
+**Global**  
+**TV:** 1-1048  
+**Movie:** 1-24  
+**TV Special:** 5-6  
+
+**Bilibili**  
+**TV:** 1-1048  
+**Movie:** 1-23  
+**TV Special:** 5-6  
+
+**CATCHPLAY**  
+**Movie:** 1-14, 21-24  
+
+**Crunchyroll**  
+**TV:** 1-123, 754-1001  
+
+**Netflix**  
+**TV:** 748-753  
+
+**UTB**  
+**TV:** 128-131, 150-156, 158-420  
+
+**VIU**  
+**TV:** 294-1048  
+
 ## Breakdown
 ||Bilibili|CATCHPLAY|Crunchyroll|Netflix|UTB|VIU|
 |---|:-:|:-:|:-:|:-:|:-:|:-:|

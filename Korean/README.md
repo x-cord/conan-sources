@@ -1,3 +1,10 @@
+## Ranges
+**Global**  
+**TV:** 1-400, 451-468  
+
+**kitsunekko-encfix-srt**  
+**TV:** 1-400, 451-468  
+
 ## Breakdown
 ||kitsunekko-encfix-srt|
 |---|:-:|

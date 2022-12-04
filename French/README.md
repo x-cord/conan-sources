@@ -1,3 +1,19 @@
+## Ranges
+**Global**  
+**TV:** 1024-1037, 761-1023  
+**Movie:** 1-22  
+**TV Special:** 5-6  
+
+**ADN**  
+**TV:** 1024-1037, 761-1023  
+
+**Black Box**  
+**Movie:** 1-22  
+**TV Special:** 5-6  
+
+**KAZE**  
+**Movie:** 1  
+
 ## Breakdown
 ||ADN|Black Box|Eurozoom|KAZE|
 |---|:-:|:-:|:-:|:-:|

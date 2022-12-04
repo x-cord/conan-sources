@@ -1,3 +1,17 @@
+## Ranges
+**Global**  
+**TV:** 1-1048  
+**Movie:** 1-23  
+**TV Special:** 5-6  
+
+**Bilibili**  
+**TV:** 1-1048  
+**Movie:** 1-23  
+**TV Special:** 5-6  
+
+**VIU**  
+**TV:** 294-1048  
+
 ## Breakdown
 ||Bilibili|VIU|
 |---|:-:|:-:|

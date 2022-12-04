@@ -1,3 +1,10 @@
+## Ranges
+**Global**  
+**TV:** 748-753  
+
+**Netflix**  
+**TV:** 748-753  
+
 ## Breakdown
 ||Netflix|
 |---|:-:|

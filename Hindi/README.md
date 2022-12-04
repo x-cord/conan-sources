@@ -1,3 +1,10 @@
+## Ranges
+**Global**  
+**TV:** 1-10  
+
+**Bilibili**  
+**TV:** 1-10  
+
 ## Breakdown
 ||Bilibili|
 |---|:-:|

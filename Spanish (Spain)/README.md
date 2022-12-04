@@ -1,3 +1,13 @@
+## Ranges
+**Global**  
+**TV:** 1-123  
+
+**Amazon**  
+**TV:** 1-97  
+
+**Crunchyroll**  
+**TV:** 1-123  
+
 ## Breakdown
 ||Amazon|Crunchyroll|
 |---|:-:|:-:|

@@ -1,3 +1,16 @@
+## Ranges
+**Global**  
+**TV:** 748-753  
+**Movie:** 2-3, 5-23  
+**TV Special:** 5-6  
+
+**Bilibili**  
+**Movie:** 2-3, 5-23  
+**TV Special:** 5-6  
+
+**Netflix**  
+**TV:** 748-753  
+
 ## Breakdown
 ||Bilibili|Netflix|
 |---|:-:|:-:|

@@ -1,3 +1,13 @@
+## Ranges
+**Global**  
+**TV:** 1-123, 748-753  
+
+**Crunchyroll**  
+**TV:** 1-123  
+
+**Netflix**  
+**TV:** 748-753  
+
 ## Breakdown
 ||Crunchyroll|Netflix|
 |---|:-:|:-:|

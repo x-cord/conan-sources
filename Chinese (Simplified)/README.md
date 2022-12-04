@@ -1,3 +1,23 @@
+## Ranges
+**Global**  
+**TV:** 1-600  
+**Movie:** 1-23  
+**OVA:** 1-12  
+**TV Special:** 5-6  
+
+**APTX4869**  
+**OVA:** 1-12  
+
+**Bilibili**  
+**Movie:** 1-23  
+**TV Special:** 5-6  
+
+**SilverBullet**  
+**Movie:** 22  
+
+**zimuku**  
+**TV:** 1-600  
+
 ## Breakdown
 ||APTX4869|Bilibili|SilverBullet|zimuku|
 |---|:-:|:-:|:-:|:-:|

@@ -1,3 +1,21 @@
+## Ranges
+**Global**  
+**TV:** 1-278, 371-925  
+**Movie:** 1-4, 7-24  
+**OVA:** 1-6  
+**TV Special:** 5-6  
+
+**Alfa Pictures**  
+**Movie:** 24  
+
+**LlPnF**  
+**OVA:** 1-6  
+
+**Super3**  
+**TV:** 1-278, 371-925  
+**Movie:** 1-4, 7-23  
+**TV Special:** 5-6  
+
 ## Breakdown
 ||Alfa Pictures|LlPnF|Super3|
 |---|:-:|:-:|:-:|

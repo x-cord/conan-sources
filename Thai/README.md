@@ -1,3 +1,12 @@
+## Ranges
+**Global**  
+**Movie:** 2-23  
+**TV Special:** 5-6  
+
+**Bilibili**  
+**Movie:** 2-23  
+**TV Special:** 5-6  
+
 ## Breakdown
 ||Bilibili|
 |---|:-:|

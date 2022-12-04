@@ -1,3 +1,39 @@
+## Ranges
+**Global**  
+**TV:** 1-633, 738-760  
+**Movie:** 2-4, 8, 12, 18-21  
+**OVA:** 1-12  
+**TV Special:** 2-6  
+**Magic File:** 2  
+**Drama SP:** 1  
+
+**Crunchyroll**  
+**TV:** 1-123  
+
+**fansubs.ru**  
+**TV:** 512-633, 128, 176-178, 738-760, 379, 390-391, 401-511  
+**Movie:** 2-4, 8, 12, 18-21  
+**OVA:** 1-12  
+**TV Special:** 3, 5-6  
+**Magic File:** 2  
+**Drama SP:** 1  
+
+**fansubs.ru-2806**  
+**TV:** 1-30  
+
+**fansubs.ru-4166**  
+**TV:** 10, 12, 20, 38-389, 392-400  
+
+**RuMagician**  
+**TV:** 1-38  
+**TV Special:** 2, 4  
+
+**ShinkaDan**  
+**TV:** 1-46  
+**Movie:** 19  
+**OVA:** 12  
+**TV Special:** 5-6  
+
 ## Breakdown
 ||Crunchyroll|RuMagician|ShinkaDan|fansubs.ru|fansubs.ru-2806|fansubs.ru-4166|
 |---|:-:|:-:|:-:|:-:|:-:|:-:|

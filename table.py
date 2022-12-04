@@ -1,3 +1,4 @@
+import itertools
 import glob
 import os
 import re
@@ -6,8 +7,21 @@ headers = list(map("{:04d}".format, range(1,1001))) + list(map("Movie {:02d}".fo
 headers = {k: {} for k in headers}
 directories = set()
 
+priority = ["", "Movie", "OVA", "TV", "Magic File"]
+
 def ep_range(s):
     return sum(((list(range(*[int(j) + k for k,j in enumerate(i.split("-"))])) if "-" in i else [int(i)]) for i in s.split(",")), [])
+
+def mkranges(list_num):
+    groups = (list(x) for _, x in itertools.groupby(list_num, lambda x, c=itertools.count(): x - next(c)))
+    return ", ".join("-".join(map(str, (item[0], item[-1])[:len(item)])) for item in groups)
+
+def mktitle(title):
+    if title == "TV":
+        title = "TV Special"
+    elif title == "":
+        title = "TV"
+    return title
 
 for directory in glob.glob("*/"):
     directory = directory.strip("/")
@@ -52,14 +66,54 @@ directories.sort()
 values = ["|"+("|".join([""] + directories))+"|", "|"+("|".join(["---"] + [":-:"]*len(directories)))+"|"]
 partial = "Japanese" not in directories
 
+ranges = {}
+
 for ep, dirs in headers.items():
     val = [f"**{ep}**"]
     for directory in directories:
         val.append("x" if directory in dirs else "")
+        if directory in dirs:
+            if " " not in ep:
+                ep = " " + ep
+            title, epnum = ep.rsplit(" ", 1)
+            try:
+                enums = ep_range(re.sub("[a-z]", "", epnum))
+            except Exception:
+                enums = [epnum]
+            for enum in enums:
+                if isinstance(enum, str) and not enum.isnumeric():
+                    continue
+                if directory not in ranges:
+                    ranges[directory] = {}
+                if "Global" not in ranges:
+                    ranges["Global"] = {}
+                if title not in ranges[directory]:
+                    ranges[directory][title] = set()
+                if title not in ranges["Global"]:
+                    ranges["Global"][title] = set()
+                ranges[directory][title].add(int(enum))
+                ranges["Global"][title].add(int(enum))
     jv = "|".join(val)
     if partial and jv == "|".join(val[:1] + [""]*(len(val)-1)):
         continue
     values.append("|"+jv+"|")
 
+print("## Ranges", end="")
+
+if partial:
+    print(f"\n**Global**  ")
+    for title, trange in sorted(ranges["Global"].items(), key=lambda x:str(priority.index(x[0])) if x[0] in priority else x[0].lower()):
+        print(f"**{mktitle(title)}:**", mkranges(trange), " ")
+
+for directory, titles in sorted(ranges.items(), key=lambda x:x[0].lower()):
+    if directory == "Global":
+        continue
+    print(f"\n**{directory}**  ")
+    for title, trange in sorted(titles.items(), key=lambda x:str(priority.index(x[0])) if x[0] in priority else x[0].lower()):
+        print(f"**{mktitle(title)}:**", mkranges(trange), " ")
+
+print()
+
 print("## Breakdown")
 print("\n".join(values))
+

@@ -1,3 +1,12 @@
+## Ranges
+**Global**  
+**Movie:** 1-23  
+**TV Special:** 3, 5-6  
+
+**Scene**  
+**Movie:** 1-23  
+**TV Special:** 3, 5-6  
+
 ## Breakdown
 ||Scene|
 |---|:-:|

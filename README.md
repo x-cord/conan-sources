@@ -13,6 +13,106 @@ The episode number is followed by a/b/c/d for specials split into multiple parts
 Respect the established directory structure.  
 Regenerate the relevant tables by running `table.py` from each directory.
 
+## Ranges
+**Arabic**  
+**TV:** 1-123, 748-753  
+
+**Bulgarian**  
+**TV:** 748-753  
+
+**Catalan**  
+**TV:** 1-278, 371-925  
+**Movie:** 1-4, 7-24  
+**OVA:** 1-6  
+**TV Special:** 5-6  
+
+**Chinese (Simplified)**  
+**TV:** 1-600  
+**Movie:** 1-23  
+**OVA:** 1-12  
+**TV Special:** 5-6  
+
+**Chinese (Traditional)**  
+**TV:** 1-52, 55, 60, 63-71, 73-82, 84-129, 132-165, 174, 176-193, 196-200, 203-207, 212-213, 217-219, 222-224, 228-232, 236-244, 246-247, 253-276, 279-286, 289-306, 309-328, 331-500  
+**Movie:** 22  
+**OVA:** 1-12  
+
+**English**  
+**TV:** 1-1048  
+**Movie:** 1-24  
+**TV Special:** 5-6  
+
+**French**  
+**TV:** 1024-1037, 761-1023  
+**Movie:** 1-22  
+**TV Special:** 5-6  
+
+**German**  
+**Movie:** 1-23  
+**TV Special:** 3, 5-6  
+
+**Hindi**  
+**TV:** 1-10  
+
+**Indonesian**  
+**TV:** 1-1048  
+**Movie:** 1-23  
+**TV Special:** 5-6  
+
+**Italian**  
+**TV:** 1-123  
+
+**Japanese**  
+**TV:** 1-386, 388-414, 416-965, 973-1025  
+**Movie:** 1-17, 19-23  
+**OVA:** 1-12  
+**TV Special:** 2-6  
+**Magic File:** 2, 6  
+**Gosho Aoyama's Collection of Short Stories:** 1-7  
+**Magic Kaito:** 1-8, 10-12  
+
+**Korean**  
+**TV:** 1-400, 451-468  
+
+**Malay**  
+**TV:** 512-574, 483-511  
+
+**Polish**  
+**TV:** 748-753  
+
+**Portuguese**  
+**TV:** 1-123, 644-647, 136-137, 648-719, 722-726, 729, 731, 220-276, 732  
+**Movie:** 1, 3-4, 11-13, 15-17, 19  
+**OVA:** 6-12  
+**TV Special:** 3  
+**Magic Kaito 1412:** 1-12  
+
+**Russian**  
+**TV:** 1-633, 738-760  
+**Movie:** 2-4, 8, 12, 18-21  
+**OVA:** 1-12  
+**TV Special:** 2-6  
+**Magic File:** 2  
+**Drama SP:** 1  
+
+**Spanish (Latin America)**  
+**TV:** 1-123  
+
+**Spanish (Spain)**  
+**TV:** 1-123  
+
+**Thai**  
+**Movie:** 2-23  
+**TV Special:** 5-6  
+
+**Turkish**  
+**TV:** 748-753  
+
+**Vietnamese**  
+**TV:** 748-753  
+**Movie:** 2-3, 5-23  
+**TV Special:** 5-6  
+
 ## Breakdown
 ||Arabic|Bulgarian|Catalan|Chinese (Simplified)|Chinese (Traditional)|English|French|German|Hindi|Indonesian|Italian|Japanese|Korean|Malay|Polish|Portuguese|Russian|Spanish (Latin America)|Spanish (Spain)|Thai|Turkish|Vietnamese|
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
