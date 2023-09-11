@@ -1,0 +1,394 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Coffee,Trebuchet MS,22,&H003C34AB,&H000000FF,&H0090C4D8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: TwoWeeks,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H0035312C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0065,0
+Style: Hospital,Trebuchet MS,18,&H00908BC4,&H000000FF,&H00FEFFFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0090,0
+Style: Suguro,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00B16A78,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0065,0020,0062,0
+Style: Sayaka,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H009F7563,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0365,0062,0
+Style: Makiura,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00883B4A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0035,0062,0
+Style: Kanda,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H008B3D61,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: Oshikawa,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H0097647C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: Restaurant,Trebuchet MS,16,&H00C0C6CF,&H000000FF,&H003C3B52,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0125,0020,0115,0
+Style: Restaurant2,Trebuchet MS,22,&H00FEF8F3,&H000000FF,&H00956D40,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Omori,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H006C3545,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0080,0020,0062,0
+Style: Hanai,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H008C6074,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: Bookstore,Trebuchet MS,18,&H00AFCFBE,&H000000FF,&H005A8460,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0060,0020,0060,0
+Style: LifeInsurance,Trebuchet MS,20,&H00A6281E,&H000000FF,&H00DBE2E1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Policy,Trebuchet MS,22,&H003F3734,&H000000FF,&H00C3ADAA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: SuicideNote,Trebuchet MS,18,&H00232323,&H000000FF,&H00EEEEEE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:04.19,Coffee,SIGN,0000,0000,0000,,Coffee Poirot
+Dialogue: 0,0:00:03.92,0:00:05.73,DCMain,CONAN,0000,0000,0000,,I'm home!
+Dialogue: 0,0:00:04.19,0:00:05.73,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:00:09.96,0:00:13.03,DCMain,CONAN,0000,0000,0000,,Is something wrong? You're frowning.
+Dialogue: 0,0:00:13.58,0:00:19.54,DCMain,KOGORO,0000,0000,0000,,Apparently Suguro Takayuki's \Nghost has appeared.
+Dialogue: 0,0:00:19.54,0:00:22.54,DCMain,CONAN,0000,0000,0000,,Suguro-san's ghost?
+Dialogue: 0,0:00:22.54,0:00:28.54,Hospital,SIGN,0000,0000,0000,,{\pos(357.334,104.666)\frz356.7}{\fad(3000,1)}Beika Central Hospital
+Dialogue: 0,0:00:22.66,0:00:26.58,TwoWeeks,SIGN,0000,0000,0000,,{\fad(375,375)}Two Weeks Earlier
+Dialogue: 0,0:00:23.71,0:00:28.54,DCItalic,CONAN,0000,0000,0000,,{\an8}We met Suguro Takayuki-san \Nabout two weeks earlier.
+Dialogue: 0,0:00:30.01,0:00:31.21,DCFlashback,KOGORO,0000,0000,0000,,Hup.
+Dialogue: 0,0:00:32.45,0:00:35.55,DCFlashback,CONAN,0000,0000,0000,,I'm glad they don't need surgery.
+Dialogue: 0,0:00:35.94,0:00:39.96,DCFlashback,KOGORO,0000,0000,0000,,And they made it sound \Nlike the end of the world.
+Dialogue: 0,0:00:39.96,0:00:42.45,DCFlashback,KOGORO,0000,0000,0000,,It was just plain old food poisoning.
+Dialogue: 0,0:00:48.82,0:00:52.03,DCFlashbackItalics,KOGORO,0000,0000,0000,,I shouldn't laugh out loud at a hospital.
+Dialogue: 0,0:00:52.03,0:00:55.31,DCFlashback,SUGURO,0000,0000,0000,,{\an8}You're the great detective \NMori-san, aren't you?
+Dialogue: 0,0:00:52.16,0:00:56.07,Suguro,SIGN,0000,0000,0000,,{\fad(415,415)}Suguro Takayuki (42) \NAccounting Firm Manager
+Dialogue: 0,0:00:55.64,0:00:57.11,DCFlashback,SUGURO,0000,0000,0000,,{\an8}Are you here visiting someone today?
+Dialogue: 0,0:00:57.11,0:01:00.37,DCFlashback,KOGORO,0000,0000,0000,,Yes, I'm visiting an acquaintance.
+Dialogue: 0,0:01:00.37,0:01:02.37,DCFlashback,SUGURO,0000,0000,0000,,I see.
+Dialogue: 0,0:01:00.49,0:01:04.25,Sayaka,SIGN,0000,0000,0000,,{\fad(415,1)}Suguro Sayaka (30) \NSuguro's Wife
+Dialogue: 0,0:01:02.37,0:01:04.25,DCFlashback,SAYAKA,0000,0000,0000,,More importantly, honey...
+Dialogue: 0,0:01:04.37,0:01:07.63,Makiura,SIGN,0000,0000,0000,,{\fad(415,1)}Makiura Tateru (33) \NSuguro's Secretary
+Dialogue: 0,0:01:04.80,0:01:07.63,DCFlashback,MAKIURA,0000,0000,0000,,{\an8}What were the results of \Nyour exam, Suguro-sensei?
+Dialogue: 0,0:01:09.95,0:01:13.51,DCFlashback,SUGURO,0000,0000,0000,,Apparently I've got six months left to live.
+Dialogue: 0,0:01:13.51,0:01:14.63,DCFlashback,SAYAKA,0000,0000,0000,,What?
+Dialogue: 0,0:01:15.07,0:01:17.38,DCFlashback,MAKIURA,0000,0000,0000,,Six months to live?
+Dialogue: 0,0:01:20.39,0:01:22.74,DCFlashback,SUGURO,0000,0000,0000,,Now that I'm in this position,
+Dialogue: 0,0:01:22.74,0:01:27.39,DCFlashback,SUGURO,0000,0000,0000,,I'm glad you insisted I take out \Na life insurance policy,
+Dialogue: 0,0:01:27.39,0:01:29.40,DCFlashback,SUGURO,0000,0000,0000,,even though I was opposed to it.
+Dialogue: 0,0:01:29.74,0:01:32.91,DCFlashback,SUGURO,0000,0000,0000,,As an accountant whose only \Nstrength was his dependability,
+Dialogue: 0,0:01:32.91,0:01:34.90,DCFlashback,SUGURO,0000,0000,0000,,I never amassed a fortune,
+Dialogue: 0,0:01:35.36,0:01:40.74,DCFlashback,SUGURO,0000,0000,0000,,but I can at least leave my wife \NSayaka with an insurance payout.
+Dialogue: 0,0:01:42.00,0:01:44.25,DCFlashback,SUGURO,0000,0000,0000,,Don't look at me like that.
+Dialogue: 0,0:01:44.95,0:01:50.76,DCFlashback,SUGURO,0000,0000,0000,,I'll make it all the way through \Nthe remaining time I have left.
+Dialogue: 0,0:01:55.07,0:01:57.13,DCFlashback,KOGORO,0000,0000,0000,,He's a strong optimistic man.
+Dialogue: 0,0:01:57.80,0:01:58.87,DCFlashback,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:02:00.14,0:02:02.38,DCItalic,CONAN,0000,0000,0000,,However, several days later...
+Dialogue: 0,0:02:02.86,0:02:05.89,DCFlashback,TAKAGI,0000,0000,0000,,Nobody saw anyone suspicious.
+Dialogue: 0,0:02:06.25,0:02:08.39,DCFlashback,KOGORO,0000,0000,0000,,Inspector, good evening.
+Dialogue: 0,0:02:09.02,0:02:10.88,DCFlashback,MEGURE,0000,0000,0000,,You again?
+Dialogue: 0,0:02:10.88,0:02:12.94,DCFlashback,KOGORO,0000,0000,0000,,I just happened to be passing by.
+Dialogue: 0,0:02:15.02,0:02:16.82,DCFlashback,KOGORO,0000,0000,0000,,So, what happened?
+Dialogue: 0,0:02:16.82,0:02:17.75,DCFlashback,SAYAKA,0000,0000,0000,,Honey!
+Dialogue: 0,0:02:17.75,0:02:18.82,DCFlashback,MAKIURA,0000,0000,0000,,Sensei!
+Dialogue: 0,0:02:21.90,0:02:23.33,DCFlashback,KOGORO,0000,0000,0000,,S-Suguro-san?!
+Dialogue: 0,0:02:31.86,0:02:32.96,DCFlashback,SAYAKA,0000,0000,0000,,Mori-san?
+Dialogue: 0,0:02:32.96,0:02:35.53,DCFlashback,KOGORO,0000,0000,0000,,So this is your home?
+Dialogue: 0,0:02:35.53,0:02:38.84,DCFlashback,KOGORO,0000,0000,0000,,By the way, what happened to your husband?
+Dialogue: 0,0:02:38.84,0:02:40.51,DCFlashback,SAYAKA,0000,0000,0000,,He's been murdered.
+Dialogue: 0,0:02:41.35,0:02:42.51,DCFlashback,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:02:45.72,0:02:47.52,DCMain,CONAN,0000,0000,0000,,Mysterious clouds block your field of view!
+Dialogue: 0,0:02:47.52,0:02:49.34,DCMain,CONAN,0000,0000,0000,,Clear them away with deductive \Nreasoning and the sky sparkles!
+Dialogue: 0,0:02:49.34,0:02:51.22,DCMain,CONAN,0000,0000,0000,,Rumors about a ghost spread throughout town.
+Dialogue: 0,0:02:51.22,0:02:53.30,DCMain,CONAN,0000,0000,0000,,The moment of his revenge \Ncloses in on the culprit.
+Dialogue: 0,0:02:53.30,0:02:54.95,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:54.95,0:02:56.86,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:56.86,0:02:59.40,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:41.01,0:04:47.01,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(396,1)}The Ghost's Revenge
+Dialogue: 0,0:04:41.82,0:04:44.23,DCMain,CONAN,0000,0000,0000,,"The Ghost's Revenge!"
+Dialogue: 0,0:04:50.81,0:04:55.94,DCFlashback,MAKIURA,0000,0000,0000,,Suguro-sensei asked me and the missus \Nto do something this morning at nine.
+Dialogue: 0,0:04:56.22,0:04:59.19,DCFlashback,MAKIURA,0000,0000,0000,,We left the house, and when \Nwe returned this evening,
+Dialogue: 0,0:05:02.36,0:05:05.11,DCFlashback,MAKIURA,0000,0000,0000,,he was in the bathroom...
+Dialogue: 0,0:05:05.91,0:05:09.32,DCFlashback,TAKAGI,0000,0000,0000,,Since he didn't leave a note and \Njudging by the state of the scene,
+Dialogue: 0,0:05:09.32,0:05:11.38,DCFlashback,TAKAGI,0000,0000,0000,,it's likely he killed himself.
+Dialogue: 0,0:05:11.83,0:05:15.29,DCFlashback,TAKAGI,0000,0000,0000,,Perhaps he lost hope because he \Nwas told he had six months to live.
+Dialogue: 0,0:05:15.29,0:05:18.54,DCFlashback,SAYAKA,0000,0000,0000,,There's no way my husband killed himself.
+Dialogue: 0,0:05:18.54,0:05:21.67,DCFlashback,MAKIURA,0000,0000,0000,,He wasn't a weak man who would've lost hope.
+Dialogue: 0,0:05:21.96,0:05:24.17,DCFlashback,KOGORO,0000,0000,0000,,I got the same impression about him.
+Dialogue: 0,0:05:25.96,0:05:30.64,DCFlashback,MEGURE,0000,0000,0000,,Which means the culprit carried \NSuguro into the bathroom,
+Dialogue: 0,0:05:30.64,0:05:34.54,DCFlashback,MEGURE,0000,0000,0000,,placed his left hand in the filled tub,
+Dialogue: 0,0:05:34.54,0:05:36.98,DCFlashback,MEGURE,0000,0000,0000,,and cut his wrist with a razor.
+Dialogue: 0,0:05:37.36,0:05:41.82,DCFlashback,MEGURE,0000,0000,0000,,It's likely that this was a murder \Nmade to look like a suicide.
+Dialogue: 0,0:05:41.82,0:05:42.82,DCFlashback,BOTH,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:45.10,0:05:48.25,DCFlashback,MEGURE,0000,0000,0000,,Which begs the question, who did it and why?
+Dialogue: 0,0:05:48.25,0:05:49.50,DCFlashback,POLICE,0000,0000,0000,,You can't go in there.
+Dialogue: 0,0:05:50.47,0:05:51.54,DCFlashback,KANDA,0000,0000,0000,,I'm a friend.
+Dialogue: 0,0:05:53.53,0:05:54.58,DCFlashback,SAYAKA,0000,0000,0000,,Kanda-san?
+Dialogue: 0,0:05:55.98,0:05:57.58,DCFlashback,TAKAGI,0000,0000,0000,,You know each other?
+Dialogue: 0,0:05:57.58,0:06:00.08,DCFlashback,SAYAKA,0000,0000,0000,,He's my husband's best friend.
+Dialogue: 0,0:06:00.21,0:06:04.13,Kanda,SIGN,0000,0000,0000,,{\fad(415,415)}Kanda Yoji (42) \NSuguro's Friend
+Dialogue: 0,0:06:00.48,0:06:04.78,DCFlashback,KANDA,0000,0000,0000,,{\an8}He called me last night to \Nask me to come here today.
+Dialogue: 0,0:06:05.27,0:06:07.84,DCFlashback,KANDA,0000,0000,0000,,When I arrived, I was told he'd been killed.
+Dialogue: 0,0:06:08.46,0:06:11.14,DCFlashback,KANDA,0000,0000,0000,,Maybe he ran into some trouble with someone.
+Dialogue: 0,0:06:14.52,0:06:16.73,DCFlashback,KANDA,0000,0000,0000,,During our phone call...
+Dialogue: 0,0:06:17.57,0:06:19.53,DCFlashbackItalics,SUGURO,0000,0000,0000,,I told him he wouldn't get away with it!
+Dialogue: 0,0:06:19.53,0:06:21.14,DCFlashback,KANDA,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:06:21.14,0:06:23.05,DCFlashbackItalics,SUGURO,0000,0000,0000,,Just come over tomorrow!
+Dialogue: 0,0:06:24.50,0:06:29.61,DCFlashback,KANDA,0000,0000,0000,,He sounded so aggravated when he said it.
+Dialogue: 0,0:06:30.40,0:06:32.45,DCFlashback,KANDA,0000,0000,0000,,He was such an earnest guy.
+Dialogue: 0,0:06:32.94,0:06:35.87,DCFlashback,KANDA,0000,0000,0000,,Maybe he couldn't forgive \Nsomething terrible someone had done.
+Dialogue: 0,0:06:35.87,0:06:39.25,DCFlashback,TAKAGI,0000,0000,0000,,Perhaps Suguro-san sent his wife \Nand secretary away from the house
+Dialogue: 0,0:06:39.25,0:06:41.58,DCFlashback,TAKAGI,0000,0000,0000,,and invited over that person \Nto voice his grievances.
+Dialogue: 0,0:06:42.18,0:06:45.26,DCFlashbackItalics,SUGURO,0000,0000,0000,,Unacceptable! You'll never \Nget away with this!
+Dialogue: 0,0:06:45.76,0:06:48.51,DCFlashback,TAKAGI,0000,0000,0000,,But it backfired and they killed him?
+Dialogue: 0,0:06:48.51,0:06:50.49,DCFlashback,SAYAKA,0000,0000,0000,,That must be what happened.
+Dialogue: 0,0:06:50.49,0:06:53.01,DCFlashback,MAKIURA,0000,0000,0000,,He couldn't stand any kind \Nof immoral behavior.
+Dialogue: 0,0:06:53.46,0:06:56.27,DCFlashback,MEGURE,0000,0000,0000,,Any idea who that person might be?
+Dialogue: 0,0:06:58.24,0:06:59.73,DCFlashback,SAYAKA,0000,0000,0000,,I'm not sure.
+Dialogue: 0,0:06:59.73,0:07:01.02,DCFlashback,MAKIURA,0000,0000,0000,,Not off the top of my head.
+Dialogue: 0,0:07:04.15,0:07:07.80,DCFlashback,KOGORO,0000,0000,0000,,Did this fall over during their argument?
+Dialogue: 0,0:07:09.05,0:07:12.16,DCFlashback,KOGORO,0000,0000,0000,,Suguro looks so happy in this photo.
+Dialogue: 0,0:07:12.55,0:07:16.72,DCFlashback,KANDA,0000,0000,0000,,He treasured his younger wife Sayaka-san,
+Dialogue: 0,0:07:16.72,0:07:20.66,DCFlashback,KANDA,0000,0000,0000,,and he was proud to call the trustworthy \NMakiura-kun his secretary.
+Dialogue: 0,0:07:21.46,0:07:22.34,DCFlashback,CHIBA,0000,0000,0000,,Inspector.
+Dialogue: 0,0:07:23.54,0:07:30.35,DCFlashback,CHIBA,0000,0000,0000,,The wife and secretary have alibis for \NSuguro's estimated time of death of 11AM.
+Dialogue: 0,0:07:30.35,0:07:33.58,DCFlashback,KOGORO,0000,0000,0000,,That's what you've been looking into?
+Dialogue: 0,0:07:33.58,0:07:35.29,DCFlashback,CHIBA,0000,0000,0000,,When a husband is murdered,
+Dialogue: 0,0:07:35.29,0:07:38.30,DCFlashback,CHIBA,0000,0000,0000,,it's normal to suspect the wife \Ndid it for the insurance money.
+Dialogue: 0,0:07:38.30,0:07:40.35,DCFlashback,MEGURE,0000,0000,0000,,I doubt that's true in this case.
+Dialogue: 0,0:07:40.35,0:07:44.98,DCFlashback,MEGURE,0000,0000,0000,,The money would've been hers \Nif she waited six months.
+Dialogue: 0,0:07:44.98,0:07:48.94,DCFlashback,MEGURE,0000,0000,0000,,More importantly, we need to figure out \Nwho Suguro-san said he couldn't forgive.
+Dialogue: 0,0:07:48.94,0:07:49.99,DCFlashback,BOTH,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:07:52.05,0:07:56.00,DCItalic,CONAN,0000,0000,0000,,But they failed to turn up any notable leads.
+Dialogue: 0,0:07:56.91,0:07:59.91,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:07:56.91,0:07:59.91,DCItalic,CONAN,0000,0000,0000,,And today, several days later...
+Dialogue: 0,0:07:59.91,0:08:02.92,DCMain,CONAN,0000,0000,0000,,Suguro-san's ghost?
+Dialogue: 0,0:08:03.25,0:08:07.83,DCMain,KOGORO,0000,0000,0000,,Rumors that his ghost appeared \Nhave spread throughout town.
+Dialogue: 0,0:08:07.83,0:08:10.55,DCMain,KOGORO,0000,0000,0000,,He appears before his wife and secretary.
+Dialogue: 0,0:08:11.57,0:08:14.66,DCMain,SUGURO,0000,0000,0000,,My grudge prevents me from moving on.
+Dialogue: 0,0:08:14.66,0:08:19.83,DCMain,SUGURO,0000,0000,0000,,I'm taking my murderer with me.
+Dialogue: 0,0:08:20.56,0:08:23.87,DCMain,KOGORO,0000,0000,0000,,It's ridiculous. Ghosts don't exist.
+Dialogue: 0,0:08:24.39,0:08:28.07,DCMain,KOGORO,0000,0000,0000,,Who would spread a strange rumor \Nlike that, and for what purpose?
+Dialogue: 0,0:08:28.56,0:08:31.05,DCItalic,CONAN,0000,0000,0000,,He's right. What do they stand to gain?
+Dialogue: 0,0:08:32.57,0:08:35.70,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:08:36.05,0:08:38.07,DCMain,KOGORO,0000,0000,0000,,Have they made progress \Nin their investigation?
+Dialogue: 0,0:08:43.39,0:08:44.71,DCMain,CONAN,0000,0000,0000,,It's those two.
+Dialogue: 0,0:08:50.71,0:08:53.90,DCMain,KOGORO,0000,0000,0000,,Inspector, who is that?
+Dialogue: 0,0:08:55.08,0:09:00.10,DCMain,MEGURE,0000,0000,0000,,Oshikawa Masato. He was \Na suspect in Suguro's murder.
+Dialogue: 0,0:09:00.10,0:09:01.62,DCMain,KOGORO,0000,0000,0000,,He was a suspect?
+Dialogue: 0,0:09:02.18,0:09:05.94,DCMain,MEGURE,0000,0000,0000,,We received some information the day \Nbefore yesterday pointing to him.
+Dialogue: 0,0:09:06.60,0:09:10.94,DCItalic,SAYAKA,0000,0000,0000,,I finally remembered one person it could be.
+Dialogue: 0,0:09:11.39,0:09:15.19,DCItalic,MAKIURA,0000,0000,0000,,Six months ago, someone nearly \Ndefrauded a client of our accounting firm
+Dialogue: 0,0:09:15.19,0:09:17.95,DCItalic,MAKIURA,0000,0000,0000,,of a large sum of money.
+Dialogue: 0,0:09:18.50,0:09:23.45,DCItalic,MAKIURA,0000,0000,0000,,At the time, Suguro-sensei aggressively \Ntold them they wouldn't get away with it.
+Dialogue: 0,0:09:23.82,0:09:26.46,DCItalic,MAKIURA,0000,0000,0000,,He was a realtor named Oshikawa Masato.
+Dialogue: 0,0:09:26.99,0:09:29.21,DCItalic,TAKAGI,0000,0000,0000,,We'll check him out right away.
+Dialogue: 0,0:09:29.33,0:09:33.21,Oshikawa,SIGN,0000,0000,0000,,{\fad(415,415)}Oshikawa Masato (38) \NRealtor
+Dialogue: 0,0:09:29.54,0:09:31.60,DCItalic,OSHIKAWA,0000,0000,0000,,{\an8}Yeah, I resented him.
+Dialogue: 0,0:09:31.60,0:09:35.22,DCItalic,OSHIKAWA,0000,0000,0000,,{\an8}He suddenly stormed into my office \Nand embarrassed me.
+Dialogue: 0,0:09:35.70,0:09:38.06,DCItalic,OSHIKAWA,0000,0000,0000,,But apparently someone killed him.
+Dialogue: 0,0:09:38.06,0:09:40.99,DCItalic,OSHIKAWA,0000,0000,0000,,I guess someone resented \Nhim even more than I did.
+Dialogue: 0,0:09:43.78,0:09:45.81,DCMain,MEGURE,0000,0000,0000,,He was a tough and brazen man.
+Dialogue: 0,0:09:45.81,0:09:48.73,DCMain,MEGURE,0000,0000,0000,,He seemed plenty suspicious to us.
+Dialogue: 0,0:09:48.73,0:09:54.09,DCMain,MEGURE,0000,0000,0000,,While we were looking for decisive \Nevidence, he killed himself.
+Dialogue: 0,0:09:55.01,0:09:57.61,DCMain,MEGURE,0000,0000,0000,,The estimated time of death \Nis late last night.
+Dialogue: 0,0:09:58.20,0:10:02.53,DCMain,MEGURE,0000,0000,0000,,He died after cutting his left wrist \Nwith a razor and sticking in the tub.
+Dialogue: 0,0:10:03.21,0:10:04.12,DCMain,KOGORO,0000,0000,0000,,That's...
+Dialogue: 0,0:10:04.67,0:10:07.01,DCMain,MEGURE,0000,0000,0000,,The same way Suguro died.
+Dialogue: 0,0:10:07.01,0:10:10.12,DCMain,TAKAGI,0000,0000,0000,,After killing Suguro, \Nthe police caught up to him.
+Dialogue: 0,0:10:10.12,0:10:12.13,DCMain,TAKAGI,0000,0000,0000,,Believing he couldn't escape, he gave up.
+Dialogue: 0,0:10:12.56,0:10:17.88,DCMain,CHIBA,0000,0000,0000,,We believe he may have used the same \Nmethod as a confession of his guilt.
+Dialogue: 0,0:10:17.88,0:10:21.72,DCMain,CONAN,0000,0000,0000,,But would a tough, brazen man kill himself
+Dialogue: 0,0:10:21.72,0:10:25.64,DCMain,CONAN,0000,0000,0000,,when the police hadn't found \Ndecisive evidence?
+Dialogue: 0,0:10:27.82,0:10:29.77,DCMain,SAYAKA,0000,0000,0000,,It's our fault.
+Dialogue: 0,0:10:30.22,0:10:32.36,DCMain,MEGURE,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:10:32.77,0:10:36.72,DCMain,MAKIURA,0000,0000,0000,,We believed Oshikawa Masato was \Nthe culprit, but we lacked evidence.
+Dialogue: 0,0:10:36.72,0:10:38.65,DCMain,MAKIURA,0000,0000,0000,,So we decided to use a ghost.
+Dialogue: 0,0:10:40.34,0:10:44.03,DCMain,MAKIURA,0000,0000,0000,,We'd heard Oshikawa believed in ghosts,
+Dialogue: 0,0:10:44.46,0:10:48.57,DCMain,MAKIURA,0000,0000,0000,,so yesterday, we spread the rumor \Nthat Suguro-sensei's ghost
+Dialogue: 0,0:10:48.57,0:10:50.29,DCMain,MAKIURA,0000,0000,0000,,was seeking revenge on his killer.
+Dialogue: 0,0:10:52.65,0:10:54.92,DCMain,KOGORO,0000,0000,0000,,You spread the rumors yourselves?
+Dialogue: 0,0:10:55.28,0:10:58.31,DCMain,MAKIURA,0000,0000,0000,,We were certain Oshikawa \Nwould be frightened by the rumor
+Dialogue: 0,0:10:58.31,0:11:00.43,DCMain,MAKIURA,0000,0000,0000,,and turn himself in if he did it.
+Dialogue: 0,0:11:00.43,0:11:02.68,DCMain,MEGURE,0000,0000,0000,,Does that mean Oshikawa
+Dialogue: 0,0:11:02.68,0:11:06.10,DCMain,KOGORO,0000,0000,0000,,killed himself to escape \Nhis fear of the ghost?
+Dialogue: 0,0:11:08.60,0:11:11.24,Restaurant,SIGN,0000,0000,0000,,Manpuku Restaurant
+Dialogue: 0,0:11:09.01,0:11:11.42,DCMain,OMORI,0000,0000,0000,,Does that mean it's my fault?
+Dialogue: 0,0:11:14.74,0:11:17.61,DCMain,MEGURE,0000,0000,0000,,Could you tell us more \Nabout that at the station?
+Dialogue: 0,0:11:18.28,0:11:21.35,DCMain,KOGORO,0000,0000,0000,,Looks like the answer revealed itself.
+Dialogue: 0,0:11:21.35,0:11:26.62,DCMain,KOGORO,0000,0000,0000,,Now we know who killed Suguro and who \Nwas behind the rumor about the ghost.
+Dialogue: 0,0:11:32.62,0:11:33.71,DCMain,KOGORO,0000,0000,0000,,What's wrong?
+Dialogue: 0,0:11:33.71,0:11:36.83,DCMain,CONAN,0000,0000,0000,,Did Oshikawa really do it?
+Dialogue: 0,0:11:36.83,0:11:37.89,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:11:37.89,0:11:41.22,DCMain,KOGORO,0000,0000,0000,,He got scared of the ghost and \Nkilled himself because he was the culprit.
+Dialogue: 0,0:11:41.22,0:11:42.83,DCMain,CONAN,0000,0000,0000,,Still.
+Dialogue: 0,0:11:42.83,0:11:45.68,DCMain,CONAN,0000,0000,0000,,Come to think of it, that guy \Nsaid something curious.
+Dialogue: 0,0:11:48.14,0:11:49.64,DCMain,KOGORO,0000,0000,0000,,Hey, where are you going?
+Dialogue: 0,0:11:49.64,0:11:51.64,Restaurant2,SIGN,0000,0000,0000,,Manpuku Restaurant
+Dialogue: 0,0:11:52.28,0:11:55.04,DCMain,OMORI,0000,0000,0000,,Could it have been my fault?
+Dialogue: 0,0:11:56.15,0:12:01.65,DCMain,CONAN,0000,0000,0000,,You're the one who told Oshikawa-san \Nabout the ghost rumor, aren't you?
+Dialogue: 0,0:12:01.78,0:12:05.70,Omori,SIGN,0000,0000,0000,,{\fad(415,415)}Omori Fukusuke (30) \NRestaurant Owner
+Dialogue: 0,0:12:02.06,0:12:05.96,DCMain,OMORI,0000,0000,0000,,{\an8}I-If he killed himself because of it, \Nthen it's probably my fault,
+Dialogue: 0,0:12:05.96,0:12:07.53,DCMain,OMORI,0000,0000,0000,,but he didn't seem like he would.
+Dialogue: 0,0:12:08.33,0:12:11.87,DCItalic,OSHIKAWA,0000,0000,0000,,His ghost declared revenge on me, huh?
+Dialogue: 0,0:12:11.87,0:12:14.54,DCItalic,OMORI,0000,0000,0000,,Maybe he's planning to tear you apart.
+Dialogue: 0,0:12:14.54,0:12:18.50,DCItalic,OSHIKAWA,0000,0000,0000,,I bet the culprit would be \Ntoo scared to sleep.
+Dialogue: 0,0:12:19.90,0:12:23.88,DCMain,OMORI,0000,0000,0000,,He laughed like it was none of his concern.
+Dialogue: 0,0:12:24.69,0:12:27.26,DCMain,KOGORO,0000,0000,0000,,He was probably doing his best to act tough.
+Dialogue: 0,0:12:27.68,0:12:30.08,DCMain,CONAN,0000,0000,0000,,He wasn't just acting tough.
+Dialogue: 0,0:12:30.84,0:12:33.02,DCMain,CONAN,0000,0000,0000,,It probably really wasn't any of his concern.
+Dialogue: 0,0:12:36.05,0:12:39.52,DCMain,CONAN,0000,0000,0000,,Because he wasn't the one \Nwho killed Suguro-san.
+Dialogue: 0,0:12:47.18,0:12:50.62,DCMain,KOGORO,0000,0000,0000,,If Oshikawa wasn't the culprit,
+Dialogue: 0,0:12:50.62,0:12:53.46,DCMain,KOGORO,0000,0000,0000,,does that mean his death \Nwasn't a suicide, but murder?
+Dialogue: 0,0:12:53.46,0:12:58.79,DCMain,CONAN,0000,0000,0000,,Whoever actually killed Suguro-san \Nwas probably trying to frame him.
+Dialogue: 0,0:12:59.39,0:13:02.07,DCMain,KOGORO,0000,0000,0000,,Then who's the real culprit?
+Dialogue: 0,0:13:02.07,0:13:07.55,DCMain,KOGORO,0000,0000,0000,,Oshikawa was the only suspicious person \Nthe wife and secretary could think of.
+Dialogue: 0,0:13:08.61,0:13:12.25,DCMain,KOGORO,0000,0000,0000,,What about the woman \Nwe met at Suguro's funeral,
+Dialogue: 0,0:13:12.25,0:13:15.06,DCMain,KOGORO,0000,0000,0000,,who previously worked as their housekeeper?
+Dialogue: 0,0:13:15.60,0:13:19.52,Hanai,SIGN,0000,0000,0000,,{\fad(415,415)}Hanai Tokuko (38) \NFormer Housekeeper
+Dialogue: 0,0:13:16.42,0:13:20.48,DCMain,TOKUKO,0000,0000,0000,,{\an8}As far as I know, there wasn't anyone \Nwho had a dispute with the husband.
+Dialogue: 0,0:13:20.91,0:13:25.99,DCMain,KOGORO,0000,0000,0000,,You can't think of anyone who found \NSuguro's existence offensive?
+Dialogue: 0,0:13:27.43,0:13:28.62,DCMain,CONAN,0000,0000,0000,,Is something the matter?
+Dialogue: 0,0:13:28.62,0:13:31.81,DCMain,TOKUKO,0000,0000,0000,,In that regard, those two fit the bill.
+Dialogue: 0,0:13:31.81,0:13:33.48,DCMain,KOGORO,0000,0000,0000,,Who?
+Dialogue: 0,0:13:33.48,0:13:38.77,DCMain,TOKUKO,0000,0000,0000,,I stopped working at that house \Nbecause I felt sorry for the husband.
+Dialogue: 0,0:13:38.77,0:13:41.29,DCMain,TOKUKO,0000,0000,0000,,I first saw it about two years ago.
+Dialogue: 0,0:13:42.87,0:13:47.46,DCMain,TOKUKO,0000,0000,0000,,That's probably when it started.
+Dialogue: 0,0:13:47.94,0:13:49.93,DCMain,KOGORO,0000,0000,0000,,So those two are a couple.
+Dialogue: 0,0:13:51.68,0:13:53.68,Bookstore,SIGN,0000,0000,0000,,Kanda Bookstore
+Dialogue: 0,0:13:52.12,0:13:57.08,DCMain,KANDA,0000,0000,0000,,Yes, Suguro took out a life \Ninsurance policy about a year ago
+Dialogue: 0,0:13:57.08,0:13:59.03,DCMain,KANDA,0000,0000,0000,,at Makiura-kun's recommendation.
+Dialogue: 0,0:13:59.03,0:14:02.22,DCMain,KANDA,0000,0000,0000,,I believe it had a special accident clause.
+Dialogue: 0,0:14:02.22,0:14:03.32,DCMain,KOGORO,0000,0000,0000,,I knew it!
+Dialogue: 0,0:14:03.32,0:14:07.07,DCItalic,CONAN,0000,0000,0000,,He's right, but there are still \Na few things we don't know.
+Dialogue: 0,0:14:07.07,0:14:10.32,DCMain,KOGORO,0000,0000,0000,,All right. I've figured it all out.
+Dialogue: 0,0:14:10.72,0:14:13.33,DCItalic,CONAN,0000,0000,0000,,What? All of it?
+Dialogue: 0,0:14:13.33,0:14:15.33,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:14:19.25,0:14:22.71,DCMain,KOGORO,0000,0000,0000,,Those two definitely killed Suguro.
+Dialogue: 0,0:14:23.30,0:14:27.55,LifeInsurance,SIGN,0000,0000,0000,,Tokusa Direct Life Insurance
+Dialogue: 0,0:14:24.78,0:14:30.46,DCMain,KOGORO,0000,0000,0000,,The fact that Sayaka the wife and Makiura \Nthe secretary have alibis proves it.
+Dialogue: 0,0:14:30.46,0:14:32.32,DCMain,KOGORO,0000,0000,0000,,They used some kind of trick.
+Dialogue: 0,0:14:33.81,0:14:36.68,DCItalic,CONAN,0000,0000,0000,,Has he really figured it all out?
+Dialogue: 0,0:14:36.68,0:14:37.77,DCMain,KOGORO,0000,0000,0000,,Hup.
+Dialogue: 0,0:14:37.77,0:14:43.44,DCItalic,CONAN,0000,0000,0000,,Oh, jeez. This guy's drinking\Nall he wants since Ran's not home.
+Dialogue: 0,0:14:46.92,0:14:53.41,DCMain,KOGORO,0000,0000,0000,,Unbeknownst to Suguro, the two of them \Nbecame a couple at least two years ago.
+Dialogue: 0,0:14:53.81,0:15:00.80,DCMain,KOGORO,0000,0000,0000,,And if Makiura recommended Suguro take out \Na life insurance policy one year later,
+Dialogue: 0,0:15:00.80,0:15:03.13,DCMain,KOGORO,0000,0000,0000,,then it's obvious what he was going for.
+Dialogue: 0,0:15:06.67,0:15:09.98,DCMain,KOGORO,0000,0000,0000,,He was working with Sayaka \Nto get Suguro out of the way
+Dialogue: 0,0:15:10.42,0:15:13.59,DCMain,KOGORO,0000,0000,0000,,and claim the life insurance money.
+Dialogue: 0,0:15:14.08,0:15:18.43,DCMain,KOGORO,0000,0000,0000,,He'd almost certainly get \Nthe insurance money if he killed him,
+Dialogue: 0,0:15:18.43,0:15:22.02,DCMain,KOGORO,0000,0000,0000,,but it'd be suspicious if he did it \Nright after the policy was taken out.
+Dialogue: 0,0:15:22.02,0:15:25.69,DCMain,KOGORO,0000,0000,0000,,And while he was waiting for his opportunity, \Nsomething unexpected occurred...
+Dialogue: 0,0:15:27.13,0:15:30.70,DCItalic,SUGURO,0000,0000,0000,,Apparently I've got six months left to live.
+Dialogue: 0,0:15:31.37,0:15:37.22,DCMain,KOGORO,0000,0000,0000,,The life insurance policy Suguro \Ntook out had a special accident clause.
+Dialogue: 0,0:15:37.72,0:15:41.32,DCMain,KOGORO,0000,0000,0000,,If the policyholder is killed \Nor dies in an accident,
+Dialogue: 0,0:15:41.32,0:15:45.65,DCMain,KOGORO,0000,0000,0000,,the beneficiary receives double the payout.
+Dialogue: 0,0:15:45.65,0:15:48.03,DCMain,KOGORO,0000,0000,0000,,In other words, he'd lose money \Nif he died of an illness.
+Dialogue: 0,0:15:48.03,0:15:52.97,DCMain,KOGORO,0000,0000,0000,,He needed Suguro to become a murder victim.
+Dialogue: 0,0:15:53.38,0:15:54.97,DCMain,CONAN,0000,0000,0000,,About that...
+Dialogue: 0,0:15:54.97,0:15:58.35,DCMain,KOGORO,0000,0000,0000,,The two of them carried out \Nthe plan they'd laid in advance
+Dialogue: 0,0:15:58.35,0:16:00.27,DCMain,KOGORO,0000,0000,0000,,before he could die of an illness.
+Dialogue: 0,0:16:03.61,0:16:07.58,DCMain,KOGORO,0000,0000,0000,,They used a trick to\Nfabricate their alibis, too.
+Dialogue: 0,0:16:07.58,0:16:10.78,DCMain,KOGORO,0000,0000,0000,,They needed someone \Nto play the culprit in their murder.
+Dialogue: 0,0:16:11.42,0:16:13.78,DCItalic,SAYAKA,0000,0000,0000,,I finally remembered one person it could be.
+Dialogue: 0,0:16:14.35,0:16:17.53,DCItalic,MAKIURA,0000,0000,0000,,He was a realtor named Oshikawa Masato.
+Dialogue: 0,0:16:17.85,0:16:22.36,DCMain,KOGORO,0000,0000,0000,,In order to conclude the investigation \Nquickly before they gave themselves away,
+Dialogue: 0,0:16:22.36,0:16:24.54,DCMain,KOGORO,0000,0000,0000,,they spread that rumor
+Dialogue: 0,0:16:25.41,0:16:29.15,DCMain,KOGORO,0000,0000,0000,,and made it look like \NOshikawa killed himself
+Dialogue: 0,0:16:29.15,0:16:31.35,DCMain,KOGORO,0000,0000,0000,,because he feared the victim's \Nghost as the culprit.
+Dialogue: 0,0:16:32.51,0:16:35.30,DCMain,KOGORO,0000,0000,0000,,And that's the truth.
+Dialogue: 0,0:16:35.30,0:16:37.05,DCMain,CONAN,0000,0000,0000,,Wow, mister.
+Dialogue: 0,0:16:37.47,0:16:40.36,DCMain,KOGORO,0000,0000,0000,,I told you I'd figured it all out.
+Dialogue: 0,0:16:42.10,0:16:45.27,DCMain,CONAN,0000,0000,0000,,Which means you know how the culprits \Nfabricated their alibis, too, right?
+Dialogue: 0,0:16:45.27,0:16:48.08,DCMain,KOGORO,0000,0000,0000,,What? How am I supposed to know that?
+Dialogue: 0,0:16:48.08,0:16:50.45,DCMain,KOGORO,0000,0000,0000,,Actually, I don't need to know.
+Dialogue: 0,0:16:50.45,0:16:56.03,DCMain,KOGORO,0000,0000,0000,,Once I name them as the culprits, \Nthey'll confess to everything.
+Dialogue: 0,0:16:56.03,0:16:59.61,DCMain,CONAN,0000,0000,0000,,Does that mean you haven't \Nsolved that mystery either?
+Dialogue: 0,0:16:59.61,0:17:01.79,DCMain,KOGORO,0000,0000,0000,,What mystery?
+Dialogue: 0,0:17:01.79,0:17:07.13,DCMain,CONAN,0000,0000,0000,,Normally the culprit would make Suguro-san's\Ndeath look like an accident, right?
+Dialogue: 0,0:17:07.13,0:17:11.62,DCMain,CONAN,0000,0000,0000,,Like pretending he tripped he or something.
+Dialogue: 0,0:17:11.62,0:17:14.85,DCMain,CONAN,0000,0000,0000,,The special accident clause \Napplies to accidental deaths,
+Dialogue: 0,0:17:14.85,0:17:17.21,DCMain,CONAN,0000,0000,0000,,and there would be no need to frame anyone.
+Dialogue: 0,0:17:17.21,0:17:23.02,DCMain,CONAN,0000,0000,0000,,It would be way easier, so why didn't \NSayaka-san and Makiura-san go with that?
+Dialogue: 0,0:17:23.02,0:17:26.15,DCMain,KOGORO,0000,0000,0000,,Huh? It probably just didn't occur to them.
+Dialogue: 0,0:17:28.37,0:17:30.65,DCMain,KOGORO,0000,0000,0000,,I'm going out for a drink.
+Dialogue: 0,0:17:30.65,0:17:32.70,DCMain,KOGORO,0000,0000,0000,,I've gotta pump myself up.
+Dialogue: 0,0:17:32.70,0:17:35.71,DCMain,KOGORO,0000,0000,0000,,After all, I'm revealing my \Nbrilliant detective skills tomorrow.
+Dialogue: 0,0:17:38.97,0:17:40.18,DCMain,KOGORO,0000,0000,0000,,See you later!
+Dialogue: 0,0:17:41.31,0:17:45.53,DCMain,CONAN,0000,0000,0000,,Is he really planning to reveal \Nthat hole-ridden deduction of his?
+Dialogue: 0,0:17:45.53,0:17:47.11,DCMain,CONAN,0000,0000,0000,,Whatever.
+Dialogue: 0,0:17:47.83,0:17:50.09,Policy,SIGN,0000,0000,0000,,Life insurance cannot be collected in the event of a suicide within three years of signing the contract.
+Dialogue: 0,0:17:51.08,0:17:52.09,DCMain,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:17:52.81,0:17:57.44,DCItalic,KANDA,0000,0000,0000,,He sounded so aggravated when he said it.
+Dialogue: 0,0:17:58.79,0:18:02.66,DCMain,CONAN,0000,0000,0000,,Is it possible that it wasn't Oshikawa Masato \Nwho Suguro-san said he couldn't forgive?
+Dialogue: 0,0:18:03.97,0:18:07.55,DCMain,CONAN,0000,0000,0000,,So that's why his wrist \Nwas cut in the bathroom.
+Dialogue: 0,0:18:16.57,0:18:19.91,DCMain,MEGURE,0000,0000,0000,,In other words, you're saying the \Nculprit wasn't Oshikawa Masato.
+Dialogue: 0,0:18:20.26,0:18:21.44,DCMain,KOGORO,0000,0000,0000,,It was these two.
+Dialogue: 0,0:18:21.44,0:18:25.63,DCMain,KOGORO,0000,0000,0000,,Sayaka-san the wife and Makiura-san \Nthe secretary killed Suguro Takayuki.
+Dialogue: 0,0:18:25.63,0:18:30.17,DCMain,KOGORO,0000,0000,0000,,They even killed Oshikawa-san and made \Nit look a suicide in order to frame him.
+Dialogue: 0,0:18:30.17,0:18:31.24,DCMain,MAKIURA,0000,0000,0000,,No!
+Dialogue: 0,0:18:30.60,0:18:31.93,DCMain,SAYAKA,0000,0000,0000,,You're wrong!
+Dialogue: 0,0:18:31.93,0:18:35.01,DCMain,KOGORO,0000,0000,0000,,After killing two men, \Nyou should gracefully accept—
+Dialogue: 0,0:18:39.77,0:18:42.18,DCMain,KOGORO,0000,0000,0000,,Since the situation can be read that way,
+Dialogue: 0,0:18:42.74,0:18:45.52,DCMain,KOGORO,0000,0000,0000,,it would be wise to fess up.
+Dialogue: 0,0:18:45.52,0:18:49.94,DCMain,KOGORO,0000,0000,0000,,Otherwise, you'll be held accountable \Nfor the murder of Suguro you didn't commit.
+Dialogue: 0,0:18:52.23,0:18:53.65,DCMain,BOTH,0000,0000,0000,,They didn't do it?
+Dialogue: 0,0:18:54.02,0:18:55.43,DCMain,MEGURE,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:18:55.43,0:18:59.65,DCMain,MEGURE,0000,0000,0000,,You just said yourself \Nthat these two killed Suguro.
+Dialogue: 0,0:19:00.37,0:19:08.16,DCMain,KOGORO,0000,0000,0000,,You probably have evidence that you \Ndidn't kill Suguro, don't you?
+Dialogue: 0,0:19:09.44,0:19:11.73,DCMain,SAYAKA,0000,0000,0000,,Looks like this is as far as we go.
+Dialogue: 0,0:19:11.73,0:19:12.93,DCMain,MAKIURA,0000,0000,0000,,You're right.
+Dialogue: 0,0:19:13.48,0:19:16.56,DCMain,MAKIURA,0000,0000,0000,,This was on Suguro-sensei's desk.
+Dialogue: 0,0:19:17.74,0:19:18.88,DCMain,MEGURE,0000,0000,0000,,A letter?
+Dialogue: 0,0:19:21.09,0:19:22.06,DCMain,MEGURE,0000,0000,0000,,This is...
+Dialogue: 0,0:19:22.06,0:19:25.03,DCMain,KOGORO,0000,0000,0000,,So Suguro did leave a note.
+Dialogue: 0,0:19:25.87,0:19:30.25,DCMain,KOGORO,0000,0000,0000,,That's right, Inspector. He wasn't killed.
+Dialogue: 0,0:19:30.25,0:19:32.40,DCMain,KOGORO,0000,0000,0000,,Suguro committed suicide.
+Dialogue: 0,0:19:33.55,0:19:34.55,DCMain,BOTH,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:35.08,0:19:38.21,DCMain,KOGORO,0000,0000,0000,,Suguro probably figured out
+Dialogue: 0,0:19:38.21,0:19:40.86,DCMain,KOGORO,0000,0000,0000,,that his beloved wife \NSayaka-san and Makiura-san,
+Dialogue: 0,0:19:40.86,0:19:42.82,DCMain,KOGORO,0000,0000,0000,,who he trusted completely, \Nwere in a relationship.
+Dialogue: 0,0:19:43.62,0:19:47.01,DCMain,KOGORO,0000,0000,0000,,He was referring to these two when he told \Nhis friend Kanda-san over the phone
+Dialogue: 0,0:19:47.01,0:19:50.19,DCMain,KOGORO,0000,0000,0000,,that he couldn't forgive them.
+Dialogue: 0,0:19:50.60,0:19:52.26,DCMain,KOGORO,0000,0000,0000,,Once he realized they \Nwere in a relationship,
+Dialogue: 0,0:19:52.26,0:19:57.13,DCMain,KOGORO,0000,0000,0000,,Suguro knew immediately why he was \Nmade to take out an insurance policy.
+Dialogue: 0,0:19:57.13,0:19:59.84,DCMain,KOGORO,0000,0000,0000,,They planned to kill him \Nand make it look like an accident
+Dialogue: 0,0:19:59.84,0:20:01.76,DCMain,KOGORO,0000,0000,0000,,so they could collect the insurance money.
+Dialogue: 0,0:20:04.06,0:20:06.63,DCMain,KOGORO,0000,0000,0000,,That's why Suguro decided to kill himself.
+Dialogue: 0,0:20:07.00,0:20:09.55,DCMain,KOGORO,0000,0000,0000,,There would be no insurance \Npayout if he killed himself
+Dialogue: 0,0:20:07.01,0:20:12.27,DCNote,SIGN,0000,0000,0000,,{\fs12\c&H000000&\3c&HF0F7F6&\pos(464,69.556)}Life insurance cannot be collected in the event \Nof a suicide within three years of signing the contract.
+Dialogue: 0,0:20:09.55,0:20:12.27,DCMain,KOGORO,0000,0000,0000,,within three years of signing the contract.
+Dialogue: 0,0:20:12.70,0:20:13.63,DCMain,MIKURA,0000,0000,0000,,That's right.
+Dialogue: 0,0:20:14.17,0:20:16.79,DCMain,MIKURA,0000,0000,0000,,We won't even receive the standard \Npayout, much less double the payout
+Dialogue: 0,0:20:16.79,0:20:18.78,DCMain,MIKURA,0000,0000,0000,,from the special accident clause.
+Dialogue: 0,0:20:19.17,0:20:25.00,DCMain,KOGORO,0000,0000,0000,,Suguro-san probably invited Kanda-san \Nover to the house the next day
+Dialogue: 0,0:20:25.00,0:20:27.28,DCMain,KOGORO,0000,0000,0000,,so he could see your disappointment.
+Dialogue: 0,0:20:29.15,0:20:33.78,DCMain,KOGORO,0000,0000,0000,,The day of his suicide, he sent \Nthe two of you out of the house...
+Dialogue: 0,0:20:33.78,0:20:36.17,DCItalic,SUGURO,0000,0000,0000,,You'll pay for betraying me!
+Dialogue: 0,0:20:38.35,0:20:42.30,DCMain,KOGORO,0000,0000,0000,,...and used a stereotypical method \Nthat could only be interpreted as a suicide.
+Dialogue: 0,0:20:42.73,0:20:45.80,DCMain,KOGORO,0000,0000,0000,,When you returned home, \Nyou were shocked and panicked.
+Dialogue: 0,0:20:45.80,0:20:49.99,DCMain,KOGORO,0000,0000,0000,,You could hide the letter, but you \Ncouldn't make it look like an accident.
+Dialogue: 0,0:20:49.99,0:20:52.52,DCMain,KOGORO,0000,0000,0000,,However, you couldn't let \Nhis death be ruled a suicide.
+Dialogue: 0,0:20:53.26,0:20:56.77,DCMain,MAKIURA,0000,0000,0000,,So we had to make it look like a murder.
+Dialogue: 0,0:20:57.23,0:21:00.76,DCMain,KOGORO,0000,0000,0000,,But because of that, you needed \Nsomeone to be the culprit,
+Dialogue: 0,0:21:00.76,0:21:04.13,DCMain,KOGORO,0000,0000,0000,,so you were forced to kill Oshikawa-san.
+Dialogue: 0,0:21:08.42,0:21:10.90,DCMain,MEGURE,0000,0000,0000,,You should've given up on \Ncollecting the insurance money
+Dialogue: 0,0:21:10.90,0:21:13.16,DCMain,MEGURE,0000,0000,0000,,when Suguro killed himself.
+Dialogue: 0,0:21:13.16,0:21:16.48,DCMain,SAYAKA,0000,0000,0000,,We couldn't. Not after reading \Nthat infuriating note.
+Dialogue: 0,0:21:16.48,0:21:18.36,DCMain,KOGORO,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:21:18.36,0:21:21.30,DCMain,KOGORO,0000,0000,0000,,Did he describe all resentment \Nhe had against you in the note?
+Dialogue: 0,0:21:23.54,0:21:27.34,DCMain,SAYAKA,0000,0000,0000,,He wrote in his note,
+Dialogue: 0,0:21:28.13,0:21:31.72,DCMain,SAYAKA,0000,0000,0000,,"I'm killing myself so things \Ndon't go your way."
+Dialogue: 0,0:21:32.05,0:21:34.73,DCMain,SAYAKA,0000,0000,0000,,"It must be frustrating \Nnot getting what you want."
+Dialogue: 0,0:21:34.73,0:21:35.90,DCItalic,SUGURO,0000,0000,0000,,Serves you right.
+Dialogue: 0,0:21:34.73,0:21:40.48,SuicideNote,SIGN,0000,0000,0000,,Suicide Note \NI'm killing myself so things don't go your way \NIt must be frustrating not getting what you want \NServes you right. \NWhat are you gonna do, cry about it? \NScrew off, both of you.
+Dialogue: 0,0:21:35.90,0:21:37.86,DCItalic,SUGURO,0000,0000,0000,,What are you gonna do, cry about it?
+Dialogue: 0,0:21:37.86,0:21:40.90,DCItalic,SUGURO,0000,0000,0000,,Screw off, both of you.
+Dialogue: 0,0:21:41.22,0:21:43.48,DCMain,SAYAKA,0000,0000,0000,,That's what his note said.
+Dialogue: 0,0:21:45.89,0:21:50.24,DCMain,KOGORO,0000,0000,0000,,Whatever the reason, you were \Nmanipulated by your own selfish desires,
+Dialogue: 0,0:21:51.06,0:21:55.41,DCMain,KOGORO,0000,0000,0000,,and ended up killing someone \Nwho had nothing to do with this.
+Dialogue: 0,0:21:55.89,0:21:58.50,DCMain,KOGORO,0000,0000,0000,,I can only describe your actions as foolish.
+Dialogue: 0,0:23:25.20,0:23:28.13,DCMain,KOGORO,0000,0000,0000,,Only crooks try to use insurance.
+Dialogue: 0,0:23:28.13,0:23:31.00,DCMain,KOGORO,0000,0000,0000,,When I bet on horses, I don't buy backups.
+Dialogue: 0,0:23:31.00,0:23:34.41,DCMain,KOGORO,0000,0000,0000,,I go all in on one horse and win.
+Dialogue: 0,0:23:39.21,0:23:42.40,DCItalic,CONAN,0000,0000,0000,,He's got no luck with horses or insurance.
+Dialogue: 0,0:23:42.40,0:23:43.99,DCMain,KOGORO,0000,0000,0000,,I should invest in some insurance...

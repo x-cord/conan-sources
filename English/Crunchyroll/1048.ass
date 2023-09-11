@@ -1,0 +1,403 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Chef,Trebuchet MS,16,&H007C6D6F,&H000000FF,&H00F2F2EE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Bio,Trebuchet MS,12,&H007C6D6F,&H000000FF,&H00F2F2EE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0040,0
+Style: Wakabayashi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A95E63,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0063,0
+Style: Hirasawa,Trebuchet MS,14,&H00FFFFFF,&H000000FF,&H00AC5366,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0041,0105,0
+Style: Mukai,Trebuchet MS,14,&H00FFFFFF,&H000000FF,&H00B97781,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0240,0020,0082,0
+Style: Kamio,Trebuchet MS,14,&H00FFFFFF,&H000000FF,&H00B97781,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0480,0020,0096,0
+Style: Beppu,Trebuchet MS,14,&H00FFFFFF,&H000000FF,&H00783239,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0227,0020,0060,0
+Style: Ami,Trebuchet MS,14,&H00FFFFFF,&H000000FF,&H00A96577,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0500,0035,0060,0
+Style: Rental,Trebuchet MS,22,&H004A403F,&H000000FF,&H00B8B9B6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0100,0020,0018,0
+Style: Iwami,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H008D4541,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0130,0062,0
+Style: RedSheep,Trebuchet MS,24,&H00573511,&H000000FF,&H00E0D7CF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: LaMucho,Trebuchet MS,22,&H00606056,&H000000FF,&H00D6E4E2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0200,0020,0018,0
+Style: Closed,Trebuchet MS,16,&H00606056,&H000000FF,&H00D6E4E2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0025,0050,0
+Style: FifthAnn,Trebuchet MS,22,&H005354A3,&H000000FF,&H0091B3D1,&H00000000,0,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCMain_Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 1048 "The \NRed Sheep's Eerie Game (Part Two)"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[op]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,IWAMI,0000,0000,0000,,[ed]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,MEGURE,0000,0000,0000,,[eyecatch]
+Dialogue: 0,0:00:00.92,0:00:08.02,DCMain,CONAN,0000,0000,0000,,The Red Sheep game was simply a game meant \Nto test a boyfriend's love for his girlfriend.
+Dialogue: 0,0:00:08.58,0:00:12.90,DCMain,CONAN,0000,0000,0000,,But Ran and I discovered \Nthe scene of a murder,
+Dialogue: 0,0:00:12.90,0:00:14.71,DCMain,CONAN,0000,0000,0000,,thought to be committed by someone \Nwearing a red sheep costume.
+Dialogue: 0,0:00:15.24,0:00:19.74,Chef,SIGN,0000,0000,0000,,"Chef" Aged 45
+Dialogue: 0,0:00:15.24,0:00:19.74,Bio,SIGN,0000,0000,0000,,Nice to meet you. \NI work as a chef at a restaurant. \NAsk me anything about cooking. \NI look forward to hearing from you.
+Dialogue: 0,0:00:15.53,0:00:19.74,DCMain,CONAN,0000,0000,0000,,{\an8}The victim was La Mucho \Nhead cook Wakabayashi-san.
+Dialogue: 0,0:00:16.84,0:00:19.74,Wakabayashi,SIGN,0000,0000,0000,,{\fad(415,1)}Wakabayashi Tetsusaburo (45) \N"La Mucho" Owner and Head Cook
+Dialogue: 0,0:00:20.01,0:00:25.96,DCMain,CONAN,0000,0000,0000,,The red sheep kidnapped Anri, \Na woman he met on a dating app.
+Dialogue: 0,0:00:26.08,0:00:30.59,Hirasawa,SIGN TOP LEFT,0000,0000,0000,,{\fad(415,1)}Hirasawa Motojiro (40) \N"La Mucho" Co-owner
+Dialogue: 0,0:00:26.08,0:00:30.59,Mukai,SIGN TOP MIDDLE,0000,0000,0000,,{\fad(415,1)}Mukai Kokichi (45) \N"La Mucho" \NAssistant Head Cook
+Dialogue: 0,0:00:26.08,0:00:30.59,Kamio,SIGN TOP RIGHT,0000,0000,0000,,{\fad(415,1)}Kamio Daiki (25) \N"La Mucho" Cook
+Dialogue: 0,0:00:26.08,0:00:30.59,Beppu,SIGN BOTTOM LEFT,0000,0000,0000,,{\fad(415,1)}Beppu Ryota (20) \N"La Mucho" Employee
+Dialogue: 0,0:00:26.08,0:00:30.59,Ami,SIGN BOTTOM RIGHT,0000,0000,0000,,{\fad(415,1)}Takigawa Ami (20) \N"La Mucho" \NEmployee
+Dialogue: 0,0:00:26.26,0:00:30.26,DCMain,CONAN,0000,0000,0000,,{\an1}The sheep demanded a ransom, \Nand then he was murdered.
+Dialogue: 0,0:00:34.22,0:00:35.97,Rental,SIGN,0000,0000,0000,,Beika Costume Rental Storeroom
+Dialogue: 0,0:00:36.27,0:00:37.57,DCMain,CONAN,0000,0000,0000,,This is the place.
+Dialogue: 0,0:00:48.40,0:00:49.55,DCMain,CONAN,0000,0000,0000,,Ow...
+Dialogue: 0,0:01:00.04,0:01:01.66,DCItalic,CONAN,0000,0000,0000,,The red sheep.
+Dialogue: 0,0:01:09.40,0:01:10.73,DCItalic,CONAN,0000,0000,0000,,This is it.
+Dialogue: 0,0:01:11.26,0:01:13.51,DCItalic,CONAN,0000,0000,0000,,These horns scraped the ceiling.
+Dialogue: 0,0:01:14.16,0:01:17.38,DCMain,KOGORO,0000,0000,0000,,Is the red sheep the only \Ncostume that's been taken?
+Dialogue: 0,0:01:17.62,0:01:18.46,DCMain,IWAMI,0000,0000,0000,,{\an8}Yeah.
+Dialogue: 0,0:01:18.09,0:01:21.97,Iwami,SIGN,0000,0000,0000,,{\fad(375,348)}Iwami Hideto (50) \NBeika Costume Rental \NCompany President
+Dialogue: 0,0:01:18.46,0:01:21.56,DCMain,IWAMI,0000,0000,0000,,{\an8}It wasn't popular at all before.
+Dialogue: 0,0:01:21.56,0:01:25.02,DCMain,IWAMI,0000,0000,0000,,It was only rented once three weeks ago.
+Dialogue: 0,0:01:25.40,0:01:27.27,DCMain,KOGORO,0000,0000,0000,,Three weeks ago?
+Dialogue: 0,0:01:27.46,0:01:31.02,DCMain,CONAN,0000,0000,0000,,That's around the time the \Nred sheep video was uploaded.
+Dialogue: 0,0:01:31.46,0:01:33.65,DCMain,KOGORO,0000,0000,0000,,Do you know who rented it?
+Dialogue: 0,0:01:33.96,0:01:36.57,DCMain,IWAMI,0000,0000,0000,,Yeah, I still have the records.
+Dialogue: 0,0:01:37.34,0:01:38.45,DCMain,IWAMI,0000,0000,0000,,This is him.
+Dialogue: 0,0:01:38.45,0:01:39.37,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:01:40.62,0:01:41.92,RedSheep,SIGN,0000,0000,0000,,Red Sheep
+Dialogue: 0,0:01:41.92,0:01:43.99,RedSheep,SIGN,0000,0000,0000,,Hirasawa Motojiro
+Dialogue: 0,0:01:44.24,0:01:46.33,DCMain,KOGORO,0000,0000,0000,,Hirasawa Motojiro?
+Dialogue: 0,0:01:48.42,0:01:50.54,DCItalic,CONAN,0000,0000,0000,,Hirasawa Motojiro?
+Dialogue: 0,0:01:50.54,0:01:52.71,DCItalic,CONAN,0000,0000,0000,,The co-owner of the restaurant?
+Dialogue: 0,0:01:56.78,0:01:58.19,DCMain,CONAN,0000,0000,0000,,It comes to visit after falling asleep!
+Dialogue: 0,0:01:58.19,0:02:00.36,DCMain,CONAN,0000,0000,0000,,Fall in love with logical deduction \Nand the pleasure of solving mysteries!
+Dialogue: 0,0:02:00.36,0:02:01.85,DCMain,CONAN,0000,0000,0000,,In both of our memories resides a red sheep.
+Dialogue: 0,0:02:01.85,0:02:03.67,DCMain,CONAN,0000,0000,0000,,What truth will we find within the costume?
+Dialogue: 0,0:02:03.67,0:02:05.29,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:05.29,0:02:07.12,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:07.12,0:02:09.43,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:52.00,0:03:58.00,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(398,1)}The Red Sheep's Eerie Game \N(Part Two)
+Dialogue: 0,0:03:52.48,0:03:55.83,DCMain,CONAN,0000,0000,0000,,"The Red Sheep's Eerie Game, Part Two!"
+Dialogue: 0,0:03:58.00,0:04:00.01,LaMucho,SIGN,0000,0000,0000,,La Mucho
+Dialogue: 0,0:03:59.12,0:04:03.39,DCMain,MEGURE,0000,0000,0000,,Mori-kun, is it true you've \Nfigured out who the culprit is?
+Dialogue: 0,0:04:00.01,0:04:02.01,Closed,SIGN,0000,0000,0000,,Temporarily Closed
+Dialogue: 0,0:04:03.39,0:04:05.01,DCMain,KOGORO,0000,0000,0000,,Yes, Inspector.
+Dialogue: 0,0:04:05.38,0:04:07.76,DCMain,KOGORO,0000,0000,0000,,I've tracked down some decisive evidence.
+Dialogue: 0,0:04:09.60,0:04:13.12,DCMain,HIRASAWA,0000,0000,0000,,Detective, if you've called us here,
+Dialogue: 0,0:04:13.12,0:04:17.40,DCMain,HIRASAWA,0000,0000,0000,,does that mean one of us killed Wakabayashi?
+Dialogue: 0,0:04:18.00,0:04:19.25,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:04:19.74,0:04:23.45,DCMain,KOGORO,0000,0000,0000,,You're the one who killed \NWakabayashi Tetsusaburo.
+Dialogue: 0,0:04:24.09,0:04:25.86,DCMain,KOGORO,0000,0000,0000,,Hirasawa Motojiro-san.
+Dialogue: 0,0:04:26.47,0:04:28.49,DCMain,HIRASAWA,0000,0000,0000,,What? W-Wait a minute.
+Dialogue: 0,0:04:29.06,0:04:32.00,DCMain,KOGORO,0000,0000,0000,,Hirasawa-san, three weeks ago,
+Dialogue: 0,0:04:32.38,0:04:37.75,DCMain,KOGORO,0000,0000,0000,,you rented this red sheep costume \Nfrom Beika Costume Rental.
+Dialogue: 0,0:04:38.03,0:04:38.88,DCMain,HIRASAWA,0000,0000,0000,,What?
+Dialogue: 0,0:04:39.29,0:04:42.51,DCMain,KOGORO,0000,0000,0000,,Your name was in the rental company records.
+Dialogue: 0,0:04:42.81,0:04:45.04,DCMain,HIRASAWA,0000,0000,0000,,I did rent that costume,
+Dialogue: 0,0:04:45.04,0:04:47.89,DCMain,HIRASAWA,0000,0000,0000,,but I didn't kill Wakabayashi.
+Dialogue: 0,0:04:48.20,0:04:51.64,DCMain,KOGORO,0000,0000,0000,,Then why did you rent this costume?
+Dialogue: 0,0:04:55.24,0:04:58.96,DCMain,HIRASAWA,0000,0000,0000,,This year is the restaurant's \Nfifth anniversary.
+Dialogue: 0,0:04:58.96,0:05:03.90,DCMain,HIRASAWA,0000,0000,0000,,I thought I'd use the red sheep \Nfor our anniversary event.
+Dialogue: 0,0:04:59.73,0:05:03.90,FifthAnn,SIGN SIGN,0000,0000,0000,,{\fad(915,1)}La Mucho Fifth Anniversary
+Dialogue: 0,0:05:04.27,0:05:08.58,DCMain,RAN,0000,0000,0000,,But wasn't this costume used \Nat a festival ten years ago?
+Dialogue: 0,0:05:08.58,0:05:10.66,DCMain,RAN,0000,0000,0000,,Why would you use something so old?
+Dialogue: 0,0:05:11.22,0:05:14.58,DCMain,HIRASAWA,0000,0000,0000,,Because I designed this costume.
+Dialogue: 0,0:05:14.87,0:05:15.58,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:05:16.71,0:05:20.21,DCMain,MEGURE,0000,0000,0000,,I thought your primary \Nbusiness was spatial design.
+Dialogue: 0,0:05:21.03,0:05:23.99,DCMain,HIRASAWA,0000,0000,0000,,Back then, I did anything and everything.
+Dialogue: 0,0:05:23.99,0:05:26.77,DCMain,HIRASAWA,0000,0000,0000,,I was the one wearing the costume, too.
+Dialogue: 0,0:05:26.77,0:05:29.68,DCMain,HIRASAWA,0000,0000,0000,,So I felt a kind of attachment to it.
+Dialogue: 0,0:05:29.68,0:05:32.72,DCMain,HIRASAWA,0000,0000,0000,,I didn't want to forget how \Nmuch I struggled back then.
+Dialogue: 0,0:05:33.18,0:05:37.71,DCMain,HIRASAWA,0000,0000,0000,,But when I told Wakabayashi I \Nwanted to use it for our event...
+Dialogue: 0,0:05:37.71,0:05:39.42,DCItalic,WAKABAYASHI,0000,0000,0000,,What are you thinking?!
+Dialogue: 0,0:05:39.42,0:05:43.73,DCItalic,WAKABAYASHI,0000,0000,0000,,This creepy costume isn't appropriate \Nfor our restaurant's image!
+Dialogue: 0,0:05:44.22,0:05:47.30,DCMain,HIRASAWA,0000,0000,0000,,He was unusually strongly \Nopposed to the idea.
+Dialogue: 0,0:05:47.30,0:05:49.11,DCMain,HIRASAWA,0000,0000,0000,,I tearfully backed down from the idea.
+Dialogue: 0,0:05:49.41,0:05:51.92,DCMain,KOGORO,0000,0000,0000,,So you killed Wakabayashi-san \Nbecause you resented him for that?
+Dialogue: 0,0:05:51.92,0:05:52.83,DCMain,HIRASAWA,0000,0000,0000,,As if!
+Dialogue: 0,0:05:53.22,0:05:55.66,DCMain,HIRASAWA,0000,0000,0000,,Wakabayashi and I were co-owners.
+Dialogue: 0,0:05:55.66,0:05:57.62,DCMain,HIRASAWA,0000,0000,0000,,He was important to me \Nas my business partner.
+Dialogue: 0,0:05:57.98,0:06:02.00,DCMain,CONAN,0000,0000,0000,,If you were partners, then you must \Nknow everything about Wakabayashi-san.
+Dialogue: 0,0:06:02.33,0:06:03.16,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:03.16,0:06:08.18,DCMain,CONAN,0000,0000,0000,,The threatening message on Wakabayashi-san's \Ncomputer was received at 10PM.
+Dialogue: 0,0:06:08.58,0:06:11.15,DCMain,CONAN,0000,0000,0000,,Banks would've been closed by then.
+Dialogue: 0,0:06:11.15,0:06:14.93,DCMain,CONAN,0000,0000,0000,,How could he have gotten 50 million yen?
+Dialogue: 0,0:06:16.40,0:06:17.29,DCMain,MEGURE,0000,0000,0000,,In other words,
+Dialogue: 0,0:06:17.29,0:06:22.19,DCMain,MEGURE,0000,0000,0000,,the culprit knew Wakabayashi-san could \Nimmediately access a large sum of money.
+Dialogue: 0,0:06:22.76,0:06:24.94,DCMain,HIRASAWA,0000,0000,0000,,I-I have no idea what you're talking about.
+Dialogue: 0,0:06:25.18,0:06:32.70,DCMain,CONAN,0000,0000,0000,,But I saw you glance toward the kitchen when \Nyou heard the ransom was 50 million yen.
+Dialogue: 0,0:06:30.97,0:06:32.13,DCMain_Top,HIRASAWA,0000,0000,0000,,50 million?
+Dialogue: 0,0:06:34.64,0:06:39.32,DCMain,CONAN,0000,0000,0000,,You looked without thinking because you knew \Nthere was 50 million yen in the kitchen, right?
+Dialogue: 0,0:06:40.82,0:06:42.85,DCMain,KOGORO,0000,0000,0000,,50 million yen in the kitchen?
+Dialogue: 0,0:06:44.58,0:06:49.00,DCMain,TAKAGI,0000,0000,0000,,Inspector, there are marks on the \Nfloor indicating this shelf was moved.
+Dialogue: 0,0:06:54.10,0:06:56.14,DCMain,KOGORO,0000,0000,0000,,Inspector, there's a hidden safe.
+Dialogue: 0,0:07:00.14,0:07:02.90,DCMain,TAKAGI,0000,0000,0000,,There's no cash inside.
+Dialogue: 0,0:07:03.08,0:07:05.84,DCMain,TAKAGI,0000,0000,0000,,There is this one notebook, though.
+Dialogue: 0,0:07:07.48,0:07:10.38,DCMain,TAKAGI,0000,0000,0000,,It looks like an account book.
+Dialogue: 0,0:07:10.38,0:07:12.66,DCMain,MEGURE,0000,0000,0000,,Could this be a secret account book?
+Dialogue: 0,0:07:14.93,0:07:16.83,DCMain,HIRASAWA,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:07:16.83,0:07:22.67,DCMain,HIRASAWA,0000,0000,0000,,Every year, we under-reported \Nour profits and hid it as cash.
+Dialogue: 0,0:07:22.97,0:07:25.51,DCMain,MEGURE,0000,0000,0000,,In other words, tax evasion.
+Dialogue: 0,0:07:25.51,0:07:26.56,DCMain,HIRASAWA,0000,0000,0000,,Yes.
+Dialogue: 0,0:07:26.56,0:07:30.92,DCMain,HIRASAWA,0000,0000,0000,,But only Wakabayashi and I knew about it.
+Dialogue: 0,0:07:31.21,0:07:36.41,DCMain,KOGORO,0000,0000,0000,,Which means you wanted to keep the 50 million \Nyen you made from dodging taxes to yourself,
+Dialogue: 0,0:07:36.41,0:07:41.94,DCMain,KOGORO,0000,0000,0000,,so you kidnapped Wakabayashi-san's \Ngirlfriend and threatened him as the Red Sheep.
+Dialogue: 0,0:07:42.21,0:07:44.72,DCMain,MEGURE,0000,0000,0000,,Well, Hirasawa-san?
+Dialogue: 0,0:07:46.14,0:07:49.24,DCMain,CONAN,0000,0000,0000,,But if Hirasawa-san's the culprit,
+Dialogue: 0,0:07:49.24,0:07:52.70,DCMain,CONAN,0000,0000,0000,,I doubt he would've used his own \Nname when he rented the costume.
+Dialogue: 0,0:07:53.23,0:07:54.11,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:07:54.11,0:07:58.78,DCMain,CONAN,0000,0000,0000,,And it was a couple weeks ago that people \Nstarted talking about the red sheep.
+Dialogue: 0,0:07:58.78,0:08:03.62,DCMain,CONAN,0000,0000,0000,,Since the costume was returned three \Nweeks ago, the timing's a little off.
+Dialogue: 0,0:08:05.11,0:08:06.60,DCMain,KOGORO,0000,0000,0000,,You're right.
+Dialogue: 0,0:08:07.62,0:08:12.47,DCMain,KOGORO,0000,0000,0000,,The rental company owner said the costume had \Nbeen taken several times after it was returned.
+Dialogue: 0,0:08:12.74,0:08:14.27,DCMain,IWAMI,0000,0000,0000,,For the past few weeks,
+Dialogue: 0,0:08:14.27,0:08:17.72,DCMain,IWAMI,0000,0000,0000,,I've noticed signs showing it's been removed \Nfrom the storeroom a few times during the night.
+Dialogue: 0,0:08:18.03,0:08:22.31,DCMain,KOGORO,0000,0000,0000,,Maybe someone's trying to frame Hirasawa-san.
+Dialogue: 0,0:08:22.31,0:08:24.31,DCMain,HIRASAWA,0000,0000,0000,,Come to think of it...
+Dialogue: 0,0:08:25.73,0:08:29.36,DCMain,HIRASAWA,0000,0000,0000,,Didn't I ask you to hold onto the \Ncardboard box the costume was stored in?
+Dialogue: 0,0:08:29.63,0:08:31.88,DCMain,HIRASAWA,0000,0000,0000,,I told you a delivery service \Nwas coming by to pick it up.
+Dialogue: 0,0:08:31.88,0:08:33.43,DCMain,RYOTA,0000,0000,0000,,Huh? Oh, right.
+Dialogue: 0,0:08:33.43,0:08:35.89,DCMain,RYOTA,0000,0000,0000,,This costume was inside that box?
+Dialogue: 0,0:08:35.89,0:08:38.62,DCMain,AMI,0000,0000,0000,,There was no way for us to know that.
+Dialogue: 0,0:08:38.62,0:08:43.28,DCMain,CONAN,0000,0000,0000,,Hirasawa-san, did you remember to \Nput a shipping slip on the box?
+Dialogue: 0,0:08:43.28,0:08:44.04,DCMain,HIRASAWA,0000,0000,0000,,Yes.
+Dialogue: 0,0:08:44.19,0:08:47.79,DCMain,CONAN,0000,0000,0000,,Shipping slips have a field \Nfor the package's contents.
+Dialogue: 0,0:08:47.79,0:08:49.42,DCMain,CONAN,0000,0000,0000,,What did you write there?
+Dialogue: 0,0:08:50.42,0:08:52.92,DCMain,HIRASAWA,0000,0000,0000,,I believe I wrote "one costume."
+Dialogue: 0,0:08:53.19,0:08:55.31,DCMain,RYOTA,0000,0000,0000,,I-I don't remember that.
+Dialogue: 0,0:08:55.31,0:08:57.18,DCMain,AMI,0000,0000,0000,,I never saw any slip.
+Dialogue: 0,0:08:57.56,0:09:01.81,DCMain,KOGORO,0000,0000,0000,,The storeroom used to store the costumes \Nis old, and the door isn't even locked.
+Dialogue: 0,0:09:01.81,0:09:04.81,DCMain,KOGORO,0000,0000,0000,,It would be easy to take a \Ncostume if you wanted to.
+Dialogue: 0,0:09:04.98,0:09:09.82,DCMain,RYOTA,0000,0000,0000,,But there would've been no way for us \Nto know the storeroom's lock was broken.
+Dialogue: 0,0:09:10.02,0:09:11.43,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:11.43,0:09:14.58,DCMain,CONAN,0000,0000,0000,,All he said was that the \Nstoreroom isn't locked.
+Dialogue: 0,0:09:14.58,0:09:17.07,DCMain,CONAN,0000,0000,0000,,He never mentioned it was broken.
+Dialogue: 0,0:09:19.15,0:09:20.95,DCMain,KOGORO,0000,0000,0000,,The kid's right.
+Dialogue: 0,0:09:21.40,0:09:24.62,DCMain,KOGORO,0000,0000,0000,,There's a padlock on the storeroom door,
+Dialogue: 0,0:09:24.62,0:09:26.25,DCMain,KOGORO,0000,0000,0000,,but it comes undone easily.
+Dialogue: 0,0:09:26.97,0:09:29.61,DCMain,KOGORO,0000,0000,0000,,Only the culprit would know that.
+Dialogue: 0,0:09:30.41,0:09:32.60,DCMain,AMI,0000,0000,0000,,Y-You tricked him.
+Dialogue: 0,0:09:32.60,0:09:34.99,DCMain,AMI,0000,0000,0000,,All he did was accidentally \Nsay the wrong thing.
+Dialogue: 0,0:09:34.99,0:09:38.00,DCMain,RYOTA,0000,0000,0000,,Ami, we can't keep lying.
+Dialogue: 0,0:09:38.00,0:09:39.51,DCMain,AMI,0000,0000,0000,,Ryota...
+Dialogue: 0,0:09:40.14,0:09:43.64,DCMain,RYOTA,0000,0000,0000,,Mr. Detective, we're the red sheep.
+Dialogue: 0,0:09:44.62,0:09:46.89,DCMain,RYOTA,0000,0000,0000,,Ami would wear the red sheep costume.
+Dialogue: 0,0:09:49.50,0:09:51.40,DCMain,RYOTA,0000,0000,0000,,And I would film it.
+Dialogue: 0,0:09:51.85,0:09:53.90,DCMain,RYOTA,0000,0000,0000,,We uploaded the videos \Nto a video sharing site.
+Dialogue: 0,0:09:54.29,0:09:57.40,DCMain,KOGORO,0000,0000,0000,,So it really was you guys.
+Dialogue: 0,0:09:58.24,0:09:59.91,DCItalic,CONAN,0000,0000,0000,,It's all clear now.
+Dialogue: 0,0:10:00.36,0:10:05.91,DCItalic,CONAN,0000,0000,0000,,The red sheep Ran and I saw scraped \Nthe ceiling with its horns,
+Dialogue: 0,0:10:06.41,0:10:10.87,DCItalic,CONAN,0000,0000,0000,,but the horns of the red sheep on the video \Nsharing site don't reach the ceiling.
+Dialogue: 0,0:10:11.66,0:10:18.05,DCItalic,CONAN,0000,0000,0000,,In other words, Wakabayashi-san \Nwas killed by someone taller.
+Dialogue: 0,0:10:18.45,0:10:20.49,DCMain,HIRASAWA,0000,0000,0000,,How could you do this?
+Dialogue: 0,0:10:20.49,0:10:22.32,DCMain,AMI,0000,0000,0000,,This is your fault.
+Dialogue: 0,0:10:22.32,0:10:25.45,DCMain,AMI,0000,0000,0000,,We heard you were going to make us \Nhand out fliers in that costume,
+Dialogue: 0,0:10:25.45,0:10:28.63,DCMain,AMI,0000,0000,0000,,so we ruined the sheep's image.
+Dialogue: 0,0:10:28.63,0:10:29.65,DCMain,HIRASAWA,0000,0000,0000,,What?
+Dialogue: 0,0:10:30.00,0:10:32.14,DCMain,RYOTA,0000,0000,0000,,We only meant to do it once,
+Dialogue: 0,0:10:32.14,0:10:35.90,DCMain,RYOTA,0000,0000,0000,,but since our video got popular, \Nwe started having fun with it.
+Dialogue: 0,0:10:36.09,0:10:37.04,DCMain,KOGORO,0000,0000,0000,,Hold on.
+Dialogue: 0,0:10:37.04,0:10:40.83,DCMain,KOGORO,0000,0000,0000,,Who told you you'd be handing \Nout fliers in costume?
+Dialogue: 0,0:10:40.83,0:10:41.68,DCMain,AMI,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:41.68,0:10:44.96,DCMain,KOGORO,0000,0000,0000,,Hirasawa-san, did you tell anyone about that?
+Dialogue: 0,0:10:44.96,0:10:47.82,DCMain,HIRASAWA,0000,0000,0000,,No, only Wakabayashi.
+Dialogue: 0,0:10:47.82,0:10:49.80,DCMain,HIRASAWA,0000,0000,0000,,I didn't tell anyone else.
+Dialogue: 0,0:10:51.06,0:10:55.18,DCMain,KOGORO,0000,0000,0000,,Which means you eavesdropped \Non their conversation.
+Dialogue: 0,0:10:55.18,0:10:55.92,DCMain,AMI,0000,0000,0000,,What?
+Dialogue: 0,0:10:56.10,0:10:59.72,DCMain,KOGORO,0000,0000,0000,,I bet you heard about the 50 million \Nyen in the hidden safe then, too.
+Dialogue: 0,0:10:59.72,0:11:05.81,DCMain,TAKAGI,0000,0000,0000,,Um, Mori-san, weren't they with \Nyou when the murder occurred?
+Dialogue: 0,0:11:06.88,0:11:10.91,DCMain,AMI,0000,0000,0000,,Y-Yeah, that's right. We've got an alibi.
+Dialogue: 0,0:11:11.27,0:11:16.02,DCMain,MEGURE,0000,0000,0000,,Then who killed Wakabayashi-san?
+Dialogue: 0,0:11:23.24,0:11:27.91,DCMain,KOGORO,0000,0000,0000,,It's true that someone else may \Nhave carried out the murder.
+Dialogue: 0,0:11:27.91,0:11:32.50,DCMain,KOGORO,0000,0000,0000,,But these two definitely kidnapped Anri-san,
+Dialogue: 0,0:11:32.99,0:11:35.20,DCMain,KOGORO,0000,0000,0000,,and demanded 50 million \Nyen from Wakabayashi-san.
+Dialogue: 0,0:11:35.20,0:11:39.51,DCMain,KOGORO,0000,0000,0000,,This red sheep in the video \Nis definitely you, right?
+Dialogue: 0,0:11:39.74,0:11:41.18,DCMain,AMI,0000,0000,0000,,No.
+Dialogue: 0,0:11:41.18,0:11:43.64,DCMain,KOGORO,0000,0000,0000,,What? Don't lie to me.
+Dialogue: 0,0:11:43.64,0:11:47.14,DCMain,KOGORO,0000,0000,0000,,You just said you were the red sheep.
+Dialogue: 0,0:11:47.14,0:11:50.76,DCMain,AMI,0000,0000,0000,,I'm telling you, I'm that sheep,
+Dialogue: 0,0:11:50.76,0:11:53.02,DCMain,AMI,0000,0000,0000,,but I'm not this sheep.
+Dialogue: 0,0:11:53.49,0:11:55.88,DCMain,KOGORO,0000,0000,0000,,There is no that sheep or this sheep.
+Dialogue: 0,0:11:56.38,0:12:00.31,DCMain,KOGORO,0000,0000,0000,,Counting all those sheep \Nwould put me to sleep.
+Dialogue: 0,0:12:00.76,0:12:05.28,DCMain,KOGORO,0000,0000,0000,,You know, like one sheep, \Ntwo sheep, three sheep.
+Dialogue: 0,0:12:02.95,0:12:05.28,DCItalic,CONAN,0000,0000,0000,,{\an8}Hold on a second.
+Dialogue: 0,0:12:05.75,0:12:06.92,DCMain,KOGORO,0000,0000,0000,,Besides—
+Dialogue: 0,0:12:09.21,0:12:11.62,DCMain,KOGORO,0000,0000,0000,,The sheep, the sheep!
+Dialogue: 0,0:12:14.12,0:12:15.29,DCMain,KOGORO,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:12:15.53,0:12:18.80,DCMain,KOGORO,0000,0000,0000,,Everyone, please allow \Nme to make a correction.
+Dialogue: 0,0:12:19.94,0:12:24.93,DCMain,KOGORO,0000,0000,0000,,The red sheep featured in the threatening \Nmessage on the tablet is not Ami-san.
+Dialogue: 0,0:12:25.14,0:12:27.43,DCMain,TAKAGI,0000,0000,0000,,What? It's not Ami-san?
+Dialogue: 0,0:12:27.83,0:12:28.99,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:12:29.50,0:12:32.39,DCMain,MEGURE,0000,0000,0000,,Mori-kun, what do you mean by that?
+Dialogue: 0,0:12:32.39,0:12:37.94,DCMain,KOGORO,0000,0000,0000,,Ami-san isn't the red sheep, but \Nthe girlfriend being held hostage.
+Dialogue: 0,0:12:38.29,0:12:38.64,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:12:38.64,0:12:39.44,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:12:39.90,0:12:40.69,DCMain,HIRASAWA,0000,0000,0000,,What?
+Dialogue: 0,0:12:41.93,0:12:43.73,DCMain,RYOTA,0000,0000,0000,,Ami is the hostage?
+Dialogue: 0,0:12:43.73,0:12:44.75,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:12:44.75,0:12:47.20,DCMain,KOGORO,0000,0000,0000,,The woman named Anri-san who met \NWakabayashi-san on a dating app
+Dialogue: 0,0:12:47.63,0:12:53.46,DCMain,KOGORO,0000,0000,0000,,and became his girlfriend \Nwas actually Ami-san.
+Dialogue: 0,0:12:55.78,0:12:57.96,DCMain,RYOTA,0000,0000,0000,,Wh-What are you talking about?
+Dialogue: 0,0:12:58.20,0:13:00.16,DCMain,RYOTA,0000,0000,0000,,I'm Ami's boyfriend.
+Dialogue: 0,0:13:00.64,0:13:03.22,DCMain,RYOTA,0000,0000,0000,,She can't be the head cook's girlfriend.
+Dialogue: 0,0:13:03.64,0:13:08.22,DCMain,KOGORO,0000,0000,0000,,Wakabayashi-san didn't know the faces \Nor names of the part-time employees.
+Dialogue: 0,0:13:08.48,0:13:14.23,DCMain,KOGORO,0000,0000,0000,,In other words, he wouldn't have noticed \Nif Ami-san called herself Anri instead.
+Dialogue: 0,0:13:14.83,0:13:16.65,DCMain,RYOTA,0000,0000,0000,,Ami, say it's not true.
+Dialogue: 0,0:13:17.55,0:13:21.73,DCMain,TAKAGI,0000,0000,0000,,Then who is the red sheep in this message?
+Dialogue: 0,0:13:22.22,0:13:23.49,DCMain,KOGORO,0000,0000,0000,,Hirasawa-san,
+Dialogue: 0,0:13:23.49,0:13:28.24,DCMain,KOGORO,0000,0000,0000,,didn't you say you made Wakabayashi-san's \Ntitle at this restaurant head cook?
+Dialogue: 0,0:13:28.55,0:13:31.99,DCMain,HIRASAWA,0000,0000,0000,,Yes, although he wasn't happy about it.
+Dialogue: 0,0:13:32.20,0:13:37.37,DCMain,KOGORO,0000,0000,0000,,Perhaps because of that, he called \Nhimself "Chef" on the dating app.
+Dialogue: 0,0:13:37.37,0:13:43.51,DCMain,KOGORO,0000,0000,0000,,And there are two people here who \Naccidentally called him chef.
+Dialogue: 0,0:13:43.76,0:13:45.00,DCMain,KOGORO,0000,0000,0000,,One is Ami-san.
+Dialogue: 0,0:13:45.76,0:13:49.67,DCItalic,AMI,0000,0000,0000,,Yeah. We've never spoken to the chef.
+Dialogue: 0,0:13:49.67,0:13:52.64,DCItalic,AMI,0000,0000,0000,,I doubt he even knew what we looked like.
+Dialogue: 0,0:13:52.86,0:13:56.39,DCMain,KOGORO,0000,0000,0000,,And the other one is you, Kamio-san.
+Dialogue: 0,0:13:56.82,0:13:57.89,DCMain,KAMIO,0000,0000,0000,,Huh?
+Dialogue: 0,0:13:58.14,0:14:00.94,DCItalic,KAMIO,0000,0000,0000,,I recommended it to him a month ago.
+Dialogue: 0,0:14:01.20,0:14:04.19,DCItalic,KAMIO,0000,0000,0000,,The chef didn't have any \Nopportunities to meet women.
+Dialogue: 0,0:14:04.96,0:14:07.87,DCMain,KAMIO,0000,0000,0000,,Chef and head cook are \Npractically the same thing.
+Dialogue: 0,0:14:07.87,0:14:10.95,DCMain,KAMIO,0000,0000,0000,,You think I did it just \Nbecause I called him chef?
+Dialogue: 0,0:14:11.19,0:14:12.66,DCMain,KOGORO,0000,0000,0000,,That's not the only reason.
+Dialogue: 0,0:14:12.66,0:14:16.45,DCMain,KOGORO,0000,0000,0000,,Conan, could you use the costume's \Nhead to explain it to them?
+Dialogue: 0,0:14:16.69,0:14:18.21,DCMain,CONAN,0000,0000,0000,,Sure thing.
+Dialogue: 0,0:14:19.25,0:14:25.46,DCMain,CONAN,0000,0000,0000,,The head of this costume has a helmet \Ninside so it's easier to wear.
+Dialogue: 0,0:14:25.66,0:14:28.22,DCMain,CONAN,0000,0000,0000,,Kamio-san, could you put this on?
+Dialogue: 0,0:14:28.44,0:14:30.64,DCMain,KAMIO,0000,0000,0000,,What? But...
+Dialogue: 0,0:14:30.81,0:14:34.64,DCMain,MEGURE,0000,0000,0000,,Kamio-san, please follow \NConan-kun's instructions.
+Dialogue: 0,0:14:35.81,0:14:36.78,DCMain,KAMIO,0000,0000,0000,,Okay.
+Dialogue: 0,0:14:39.01,0:14:42.60,DCMain,CONAN,0000,0000,0000,,Hold still and don't move your hands.
+Dialogue: 0,0:14:51.24,0:14:52.53,DCMain,RYOTA,0000,0000,0000,,Kamio-san...
+Dialogue: 0,0:14:54.65,0:14:58.29,DCMain,KOGORO,0000,0000,0000,,Kamio-san, that hairstyle you're \Nso proud of has been ruined.
+Dialogue: 0,0:14:58.54,0:15:01.29,DCMain,KAMIO,0000,0000,0000,,What? Aw, come on.
+Dialogue: 0,0:15:01.81,0:15:05.40,DCMain,KOGORO,0000,0000,0000,,Yesterday, your hair was \Nflattened in the same way.
+Dialogue: 0,0:15:05.40,0:15:06.05,DCMain,KAMIO,0000,0000,0000,,Oh...
+Dialogue: 0,0:15:08.76,0:15:13.01,DCMain,KOGORO,0000,0000,0000,,I remember it clearly because \Nyou kept messing with your hair.
+Dialogue: 0,0:15:14.06,0:15:18.31,DCMain,KAMIO,0000,0000,0000,,Yesterday my hair was like that because \NI rode by bike to the restaurant.
+Dialogue: 0,0:15:18.64,0:15:23.06,DCMain,KOGORO,0000,0000,0000,,Didn't you say you hadn't ridden \Nyour bike since the accident?
+Dialogue: 0,0:15:23.62,0:15:26.07,DCItalic,KAMIO,0000,0000,0000,,I was home all day.
+Dialogue: 0,0:15:26.35,0:15:29.57,DCItalic,KAMIO,0000,0000,0000,,I haven't ridden my bike since the accident.
+Dialogue: 0,0:15:29.91,0:15:31.99,DCMain,HIRASAWA,0000,0000,0000,,You're right. He did say that.
+Dialogue: 0,0:15:32.25,0:15:35.49,DCMain,KOGORO,0000,0000,0000,,And finally, there's one last \Ndecisive piece of evidence.
+Dialogue: 0,0:15:35.49,0:15:39.34,DCMain,KOGORO,0000,0000,0000,,Detective Takagi, could you \Nexamine Kamio-san's watch?
+Dialogue: 0,0:15:39.34,0:15:41.81,DCMain,TAKAGI,0000,0000,0000,,Got it. Excuse me.
+Dialogue: 0,0:15:42.81,0:15:44.26,DCMain,KOGORO,0000,0000,0000,,Look closely.
+Dialogue: 0,0:15:44.26,0:15:47.22,DCMain,KOGORO,0000,0000,0000,,Are there red fibers stuck in the band?
+Dialogue: 0,0:15:48.32,0:15:51.63,DCMain,TAKAGI,0000,0000,0000,,There does seem to be something \Nthat looks like thin red string.
+Dialogue: 0,0:15:51.94,0:15:56.64,DCMain,KOGORO,0000,0000,0000,,Those are nylon fibers covering \Nthe surface of this costume.
+Dialogue: 0,0:15:57.14,0:16:03.40,DCMain,KOGORO,0000,0000,0000,,They would only be stuck to his \Nwatch's band if he wore this costume.
+Dialogue: 0,0:16:04.36,0:16:06.81,DCMain,KAMIO,0000,0000,0000,,It's because I just wore the head.
+Dialogue: 0,0:16:06.81,0:16:08.02,DCMain,KAMIO,0000,0000,0000,,It just got there.
+Dialogue: 0,0:16:08.32,0:16:12.78,DCMain,KOGORO,0000,0000,0000,,No, I believe Conan told \Nyou not to move your hands.
+Dialogue: 0,0:16:13.03,0:16:14.48,DCMain,MEGURE,0000,0000,0000,,He's right.
+Dialogue: 0,0:16:14.48,0:16:17.28,DCMain,MEGURE,0000,0000,0000,,You haven't touched the costume.
+Dialogue: 0,0:16:19.46,0:16:24.12,DCMain,KOGORO,0000,0000,0000,,Kamio-san, you probably bugged the kitchen
+Dialogue: 0,0:16:24.12,0:16:26.17,DCMain,KOGORO,0000,0000,0000,,to gather information about the restaurant.
+Dialogue: 0,0:16:26.64,0:16:30.29,DCMain,KOGORO,0000,0000,0000,,That's how you learned about \Nthe hidden 50 million yen.
+Dialogue: 0,0:16:31.22,0:16:32.13,DCMain,KAMIO,0000,0000,0000,,Ami.
+Dialogue: 0,0:16:33.84,0:16:35.68,DCMain,AMI,0000,0000,0000,,The jig is up.
+Dialogue: 0,0:16:35.68,0:16:41.01,DCMain,KAMIO,0000,0000,0000,,Damn it. I should've quit this restaurant \Nand its crappy wages sooner.
+Dialogue: 0,0:16:43.66,0:16:46.19,DCMain,RYOTA,0000,0000,0000,,Ami, you're with Kamio-san?
+Dialogue: 0,0:16:46.84,0:16:49.52,DCMain,AMI,0000,0000,0000,,Yes, since a long time ago.
+Dialogue: 0,0:16:50.05,0:16:52.36,DCMain,AMI,0000,0000,0000,,I was just having a little fun with you.
+Dialogue: 0,0:16:52.36,0:16:57.41,DCMain,AMI,0000,0000,0000,,I used the Red Sheep game to lure you \Nto the park so I'd have an alibi.
+Dialogue: 0,0:16:57.79,0:16:59.83,DCMain,RYOTA,0000,0000,0000,,B-But...
+Dialogue: 0,0:17:00.18,0:17:03.05,DCMain,MEGURE,0000,0000,0000,,Then Mori-kun is correct?
+Dialogue: 0,0:17:04.59,0:17:08.59,DCMain,KAMIO,0000,0000,0000,,It's true that Ami and I planned \Nto steal 50 million yen
+Dialogue: 0,0:17:08.82,0:17:10.94,DCMain,KAMIO,0000,0000,0000,,from the chef and sent him \Na threatening message.
+Dialogue: 0,0:17:11.85,0:17:14.91,DCMain,KAMIO,0000,0000,0000,,But that's the only part \Nthat went according to plan.
+Dialogue: 0,0:17:14.91,0:17:17.34,DCMain,KAMIO,0000,0000,0000,,We never got the ransom money.
+Dialogue: 0,0:17:17.94,0:17:20.35,DCMain,KAMIO,0000,0000,0000,,We didn't kill the chef either!
+Dialogue: 0,0:17:20.64,0:17:22.78,DCMain,TAKAGI,0000,0000,0000,,You're still insisting you didn't do it?
+Dialogue: 0,0:17:22.78,0:17:26.27,DCMain,TAKAGI,0000,0000,0000,,Conan-kun and Ran-san saw \Nyou fleeing the scene.
+Dialogue: 0,0:17:26.51,0:17:30.52,DCMain,RAN,0000,0000,0000,,I clearly saw a red sheep carrying \Na black bag running away.
+Dialogue: 0,0:17:30.76,0:17:33.21,DCMain,KAMIO,0000,0000,0000,,I'm telling you, that wasn't me!
+Dialogue: 0,0:17:33.21,0:17:35.03,DCMain,KAMIO,0000,0000,0000,,It really wasn't.
+Dialogue: 0,0:17:35.27,0:17:36.78,DCMain,MEGURE,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:17:37.31,0:17:39.85,DCMain,KAMIO,0000,0000,0000,,After Ami headed to Beika Park,
+Dialogue: 0,0:17:39.85,0:17:44.24,DCMain,KAMIO,0000,0000,0000,,I put the costume in the trunk \Nof our car and took a break.
+Dialogue: 0,0:17:44.80,0:17:45.99,DCMain,KAMIO,0000,0000,0000,,But then...
+Dialogue: 0,0:17:49.62,0:17:52.30,DCMain,KAMIO,0000,0000,0000,,When I woke up, the sheep was gone.
+Dialogue: 0,0:17:52.60,0:17:53.46,DCMain,TAKAGI,0000,0000,0000,,Gone?
+Dialogue: 0,0:17:53.64,0:17:54.76,DCMain,KAMIO,0000,0000,0000,,That's right.
+Dialogue: 0,0:17:54.76,0:17:56.84,DCMain,KAMIO,0000,0000,0000,,The red sheep had vanished.
+Dialogue: 0,0:17:59.68,0:18:04.31,DCItalic,CONAN,0000,0000,0000,,The red sheep and 50 million yen vanished?
+Dialogue: 0,0:18:05.81,0:18:07.12,DCItalic,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:18:07.12,0:18:08.38,DCItalic,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:18:33.24,0:18:35.62,DCMain,KOGORO,0000,0000,0000,,Inspector, I've secured the area.
+Dialogue: 0,0:18:35.62,0:18:37.17,DCMain,KOGORO,0000,0000,0000,,Come on in.
+Dialogue: 0,0:18:39.81,0:18:42.67,DCMain,MEGURE,0000,0000,0000,,You're the one who killed \NWakabayashi Tetsusaburo-san
+Dialogue: 0,0:18:42.67,0:18:45.45,DCMain,MEGURE,0000,0000,0000,,and stole the 50 million yen, aren't you?
+Dialogue: 0,0:18:45.45,0:18:47.43,DCMain,IWAMI,0000,0000,0000,,Wh-What are you...?
+Dialogue: 0,0:18:49.84,0:18:54.69,DCMain,CONAN,0000,0000,0000,,Apparently 50 million yen in cash \Nweighs about five kilos, so...
+Dialogue: 0,0:18:58.64,0:18:59.64,DCMain,CONAN,0000,0000,0000,,Ow...
+Dialogue: 0,0:19:02.09,0:19:05.25,DCMain,CONAN,0000,0000,0000,,Just that penguin was hanging \Nlower than the other costumes.
+Dialogue: 0,0:19:05.25,0:19:07.58,DCMain,CONAN,0000,0000,0000,,I hit my head on it.
+Dialogue: 0,0:19:15.05,0:19:18.97,DCMain,IWAMI,0000,0000,0000,,I was trying to catch the culprit.
+Dialogue: 0,0:19:20.22,0:19:21.47,DCMain,KOGORO,0000,0000,0000,,The culprit?
+Dialogue: 0,0:19:24.13,0:19:30.13,DCMain,IWAMI,0000,0000,0000,,I staked out this place so I could \Ncatch the scoundrel taking costumes
+Dialogue: 0,0:19:30.13,0:19:31.98,DCMain,IWAMI,0000,0000,0000,,in the middle of the night \Nwithout paying a rental fee.
+Dialogue: 0,0:19:32.92,0:19:36.73,DCMain,IWAMI,0000,0000,0000,,That's when I happened to overhear their plan
+Dialogue: 0,0:19:38.23,0:19:42.24,DCMain,IWAMI,0000,0000,0000,,to steal 50 million yen from \Na man named Wakabayashi.
+Dialogue: 0,0:19:46.02,0:19:49.42,DCMain,IWAMI,0000,0000,0000,,My company's about to go bankrupt,
+Dialogue: 0,0:19:49.42,0:19:52.97,DCMain,IWAMI,0000,0000,0000,,and they're trying to get their hands on a \Nhuge sum of money like it's some kind of game.
+Dialogue: 0,0:19:52.97,0:19:56.42,DCMain,IWAMI,0000,0000,0000,,I figured there'd be nothing \Nwrong with swiping that money,
+Dialogue: 0,0:19:56.42,0:19:58.00,DCMain,IWAMI,0000,0000,0000,,so I followed them.
+Dialogue: 0,0:20:10.92,0:20:15.19,DCMain,IWAMI,0000,0000,0000,,He wouldn't know who I was \Nif I wore the costume.
+Dialogue: 0,0:20:15.78,0:20:18.10,DCItalic,RED SHEEP,0000,0000,0000,,Leave the money there and back away.
+Dialogue: 0,0:20:20.47,0:20:24.95,DCMain,IWAMI,0000,0000,0000,,He obediently placed the 50 \Nmillion yen in front of me.
+Dialogue: 0,0:20:25.13,0:20:29.62,DCMain,MEGURE,0000,0000,0000,,Why did you kill Wakabayashi-san \Nafter you got the money?
+Dialogue: 0,0:20:31.48,0:20:35.88,DCMain,IWAMI,0000,0000,0000,,Because when I opened the \Nbag to check its contents,
+Dialogue: 0,0:20:36.57,0:20:38.50,DCMain,IWAMI,0000,0000,0000,,I found a knife inside.
+Dialogue: 0,0:20:38.86,0:20:40.42,DCMain,KOGORO,0000,0000,0000,,There was a knife inside the bag?
+Dialogue: 0,0:20:40.61,0:20:45.93,DCMain,CONAN,0000,0000,0000,,Wakabayashi-san hid his own \Nknife in there for self-defense.
+Dialogue: 0,0:20:46.31,0:20:49.68,DCMain,IWAMI,0000,0000,0000,,When I looked up without thinking...
+Dialogue: 0,0:21:09.74,0:21:12.65,DCMain,IWAMI,0000,0000,0000,,I didn't mean to kill him.
+Dialogue: 0,0:21:13.59,0:21:17.07,DCMain,IWAMI,0000,0000,0000,,If only... If only he hadn't seen my face.
+Dialogue: 0,0:22:57.35,0:23:01.19,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:23:03.69,0:23:05.54,DCMain,CONAN,0000,0000,0000,,What's wrong with him?
+Dialogue: 0,0:23:05.54,0:23:07.94,DCMain,RAN,0000,0000,0000,,Apparently he can't sleep at night.
+Dialogue: 0,0:23:08.26,0:23:10.70,DCMain,RAN,0000,0000,0000,,He keeps seeing a sheep in his dreams.
+Dialogue: 0,0:23:10.70,0:23:12.24,DCMain,CONAN,0000,0000,0000,,A sheep?
+Dialogue: 0,0:23:12.24,0:23:16.73,DCMain,RAN,0000,0000,0000,,Even Dad was scared of \Nthat red sheep after all.
+Dialogue: 0,0:23:16.73,0:23:19.96,DCMain,RAN,0000,0000,0000,,He keeps telling someone \Nto go away in his sleep.
+Dialogue: 0,0:23:20.84,0:23:22.00,DCMain,KOGORO,0000,0000,0000,,Stay away.
+Dialogue: 0,0:23:22.90,0:23:23.94,DCMain,KOGORO,0000,0000,0000,,Go away.
+Dialogue: 0,0:23:25.39,0:23:26.83,DCMain,KOGORO,0000,0000,0000,,Go away.
+Dialogue: 0,0:23:28.02,0:23:29.75,DCMain,KOGORO,0000,0000,0000,,Stay away from me.
+Dialogue: 0,0:23:30.28,0:23:31.72,DCMain,KOGORO,0000,0000,0000,,Stay away.
+Dialogue: 0,0:23:33.00,0:23:36.54,DCItalic,CONAN,0000,0000,0000,,I... have a feeling this is something else.
+Dialogue: 0,0:23:39.96,0:23:43.72,DCMain,KOGORO,0000,0000,0000,,Keep uncorking those bottles, \Nmy pretty little lambs!
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.26,0:23:48.68,DCMain,TAKAGI,0000,0000,0000,,They pressured Yamakabe, who became \Nsuccessful selling imported goods,
+Dialogue: 0,0:23:48.68,0:23:51.49,DCMain,TAKAGI,0000,0000,0000,,to publish an autobiography.
+Dialogue: 0,0:23:51.73,0:23:54.58,DCMain,MEGURE,0000,0000,0000,,We found something rather incriminating
+Dialogue: 0,0:23:54.58,0:23:56.70,DCMain,MEGURE,0000,0000,0000,,left behind in the vehicle \Nused to transport the body.
+Dialogue: 0,0:23:56.92,0:24:01.71,DCMain,KOGORO,0000,0000,0000,,The gas tank of Temukai's car was \Nfull when the accident happened?
+Dialogue: 0,0:24:02.40,0:24:05.00,DCMain,MEGURE,0000,0000,0000,,It's been a while, Temukai-kun.
+Dialogue: 0,0:24:07.30,0:24:09.01,DCMain,KOGORO,0000,0000,0000,,We can save the inspector!
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,SIGN,0000,0000,0000,,The Threat to Megure's Police Career
+Dialogue: 0,0:24:09.33,0:24:13.88,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The \NThreat to Megure's Police Career!"
+Dialogue: 0,0:24:30.03,0:24:34.95,Hint,SIGN,0000,0000,0000,,Clay
+Dialogue: 0,0:24:30.26,0:24:32.48,DCMain,MEGURE,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.48,0:24:33.84,DCMain,CONAN,0000,0000,0000,,Clay!
+Dialogue: 0,0:24:34.95,0:24:36.14,DCMain,RAN,0000,0000,0000,,{\an8}Dad, wake up.
+Dialogue: 0,0:24:34.95,0:24:39.95,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.14,0:24:37.92,DCMain,KOGORO,0000,0000,0000,,{\an8}If this is a dream, don't wake me up.
+Dialogue: 0,0:24:37.92,0:24:39.38,DCMain,CONAN,0000,0000,0000,,{\an8}Take your time.

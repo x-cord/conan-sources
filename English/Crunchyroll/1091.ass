@@ -1,0 +1,443 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Beika,Times New Roman,22,&H00AEE1E3,&H000000FF,&H003D647B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,6,0020,0020,0020,0
+Style: DiamondBanner,Trebuchet MS,18,&H00AE6462,&H000000FF,&H00FCFEEB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: MaskBanner,Trebuchet MS,18,&H00A0E6F7,&H000000FF,&H005A64BC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: Episode1,Times New Roman,20,&H00FEF3ED,&H000000FF,&H0084BFD2,&H004F5655,-1,0,0,0,100,100,0,0,1,0,2,9,0020,0130,0020,0
+Style: Restaurant,Trebuchet MS,18,&H0084C0D2,&H000000FF,&H007F7D4C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0060,0
+Style: Tea,Trebuchet MS,16,&H00C3D7D3,&H000000FF,&H0087945D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: Gallery,Trebuchet MS,18,&H00ACB5CA,&H000000FF,&H005B6781,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: Clothes,Trebuchet MS,18,&H00B7C1C8,&H000000FF,&H00E7FCFB,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0140,0020,0050,0
+Style: Starting,Trebuchet MS,20,&H0065FEF8,&H000000FF,&H00935EC4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Exhibition,Times New Roman,22,&H00B4F7EB,&H000000FF,&H0082652C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: TopPhone,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00CD562A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: BottomPhone,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00CD562A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0020,0020,0
+Style: Takahashi,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H009E6B7A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0040,0020,0062,0
+Style: Episode6,Times New Roman,24,&H00FEF3ED,&H000000FF,&H0084BFD2,&H004F5655,-1,0,0,0,100,100,0,0,1,0,2,8,0020,0120,0060,0
+Style: Karaoke,Trebuchet MS,22,&H005041A5,&H000000FF,&H00D5D2D5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: CeilingMan,Trebuchet MS,18,&H00474F4C,&H000000FF,&H00E3EAE9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: MenLooking,Trebuchet MS,18,&H00474F4C,&H000000FF,&H00E3EAE9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: List1,Trebuchet MS,18,&H00474F4C,&H000000FF,&H00E3EAE9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0080,0020,0015,0
+Style: List2,Trebuchet MS,18,&H00474F4C,&H000000FF,&H00E3EAE9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0080,0020,0063,0
+Style: List3,Trebuchet MS,18,&H00474F4C,&H000000FF,&H00E3E2DE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0080,0020,0120,0
+Style: List4,Trebuchet MS,18,&H00474F4C,&H000000FF,&H00D3CBC6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0080,0020,0175,0
+Style: List5,Trebuchet MS,18,&H00474F4C,&H000000FF,&H00CDC5C2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0080,0020,0120,0
+Style: List6,Trebuchet MS,18,&H00474F4C,&H000000FF,&H00C5C2B7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0080,0020,0070,0
+Style: List7,Trebuchet MS,18,&H00474F4C,&H000000FF,&H00C5C2B7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0020,0020,0070,0
+Style: Face,Trebuchet MS,26,&H00942D2F,&H000000FF,&H00FAE7E0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0200,0060,0
+Style: Mask,Trebuchet MS,26,&H002817BC,&H000000FF,&H00EBE9F0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Danny's,Trebuchet MS,22,&H004B52D4,&H000000FF,&H00CAE6FC,&H007FFFF2,-1,0,0,0,100,100,0,0,1,2,2,9,0020,0020,0020,0
+Style: Danny's2,Trebuchet MS,22,&H004B52D4,&H000000FF,&H00CAE6FC,&H007FFFF2,-1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCMain_Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:04.98,DiamondBanner,SIGN TOP RIGHT,0000,0000,0000,,Now Open \NWorld Mask Exhibition \NFrom non-woven fabric masks \Nto gas masks \NUntil 7/23
+Dialogue: 0,0:00:00.00,0:00:04.98,MaskBanner,SIGN TOP LEFT,0000,0000,0000,,Located on 6F \NHarry Murzabayev \NDiamond Collection \NStarting 8/1
+Dialogue: 0,0:00:01.17,0:00:02.63,DCMain,BOTH,0000,0000,0000,,Wow!
+Dialogue: 0,0:00:01.90,0:00:04.98,Beika,SIGN GOLD BOTTOM RIGHT,0000,0000,0000,,Bei
+Dialogue: 0,0:00:02.63,0:00:04.98,DCMain,SONOKO,0000,0000,0000,,The Beika Department Store \Nnever fails to impress.
+Dialogue: 0,0:00:05.37,0:00:08.38,DCMain,SONOKO,0000,0000,0000,,Unlike other department stores, \Nit's crowded with people.
+Dialogue: 0,0:00:08.38,0:00:09.37,DCMain,RAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:00:09.68,0:00:12.18,DCMain,SONOKO,0000,0000,0000,,By the way, where's the kid today?
+Dialogue: 0,0:00:13.52,0:00:17.50,DCMain,RAN,0000,0000,0000,,I invited him, but he said \Nhe's meeting the professor.
+Dialogue: 0,0:00:19.28,0:00:20.90,DCMain,CONAN,0000,0000,0000,,Hey, Professor!
+Dialogue: 0,0:00:21.99,0:00:22.78,DCMain,CONAN,0000,0000,0000,,It's starting!
+Dialogue: 0,0:00:22.78,0:00:24.16,DCMain,DELIVERYMAN,0000,0000,0000,,{\an8}Thank you.
+Dialogue: 0,0:00:24.16,0:00:26.27,DCMain,AGASA,0000,0000,0000,,I'll be right there.
+Dialogue: 0,0:00:29.79,0:00:32.88,DCMain,CONAN,0000,0000,0000,,Should you be eating pizza?
+Dialogue: 0,0:00:32.88,0:00:34.11,DCMain,AGASA,0000,0000,0000,,You know what they say.
+Dialogue: 0,0:00:34.11,0:00:36.89,DCMain,AGASA,0000,0000,0000,,"When the cat's away, the mice will play."
+Dialogue: 0,0:00:37.93,0:00:39.39,Episode1,SIGN,0000,0000,0000,,{\fad(460,1)}Episode 1
+Dialogue: 0,0:00:39.39,0:00:40.83,DCMain,SONOKO,0000,0000,0000,,Oh, yeah?
+Dialogue: 0,0:00:40.83,0:00:44.88,DCMain,SONOKO,0000,0000,0000,,Then us two girls should enjoy \Ntoday to our hearts' content.
+Dialogue: 0,0:00:44.88,0:00:45.88,DCMain,RAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:01:23.44,0:01:26.11,DCMain,SONOKO,0000,0000,0000,,Department stores are awesome.
+Dialogue: 0,0:01:26.42,0:01:27.86,DCMain,SONOKO,0000,0000,0000,,Wait. Huh?
+Dialogue: 0,0:01:27.86,0:01:29.53,DCMain,RAN,0000,0000,0000,,Is something the matter?
+Dialogue: 0,0:01:29.53,0:01:31.15,DCMain,SONOKO,0000,0000,0000,,Look over there!
+Dialogue: 0,0:01:33.41,0:01:36.20,DCMain,RAN,0000,0000,0000,,Ayumi-chan! Ai-chan!
+Dialogue: 0,0:01:37.46,0:01:40.03,DCMain,AYUMI,0000,0000,0000,,Ran-oneesan and Sonoko-oneesan.
+Dialogue: 0,0:01:40.41,0:01:41.44,DCMain,AYUMI,0000,0000,0000,,Hello.
+Dialogue: 0,0:01:41.77,0:01:43.22,DCMain,RAN,0000,0000,0000,,Hello.
+Dialogue: 0,0:01:43.22,0:01:45.04,DCMain,SONOKO,0000,0000,0000,,What are you two doing?
+Dialogue: 0,0:01:45.41,0:01:49.92,DCMain,HAIBARA,0000,0000,0000,,Yoshida-san said she wanted to check \Nour clothes for her piano recital.
+Dialogue: 0,0:01:49.92,0:01:52.55,DCMain,HAIBARA,0000,0000,0000,,I'm here as her guardian and advisor.
+Dialogue: 0,0:01:55.92,0:01:57.84,DCMain,AYUMI,0000,0000,0000,,Look at that.
+Dialogue: 0,0:02:07.82,0:02:09.72,DCMain,CONAN,0000,0000,0000,,Beyond detective skills capable \Nof identifying the truth
+Dialogue: 0,0:02:09.72,0:02:11.89,DCMain,CONAN,0000,0000,0000,,is the power to lead us \Nto what we should believe.
+Dialogue: 0,0:02:11.89,0:02:13.82,DCMain,CONAN,0000,0000,0000,,The girls get together, \Nbut there's trouble brewing!
+Dialogue: 0,0:02:13.82,0:02:15.68,DCMain,CONAN,0000,0000,0000,,Unlike desserts and candies, \Nthere's nothing sweet about it!
+Dialogue: 0,0:02:15.68,0:02:17.29,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:17.29,0:02:19.13,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:19.13,0:02:21.77,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:02.98,0:04:08.97,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(370,1)}Girls Day Mystery
+Dialogue: 0,0:04:03.66,0:04:05.79,DCMain,CONAN,0000,0000,0000,,"Girls Day Mystery!"
+Dialogue: 0,0:04:08.97,0:04:12.98,Restaurant,SIGN OVER DOOR,0000,0000,0000,,Beika Department Store Restaurant
+Dialogue: 0,0:04:09.90,0:04:12.98,DCMain,RAN,0000,0000,0000,,Anyway, what a coincidence.
+Dialogue: 0,0:04:10.05,0:04:12.98,Tea,SIGN FOLDING,0000,0000,0000,,{\pos(329,228)}Summer Afternoon \NTea Available Now
+Dialogue: 0,0:04:12.98,0:04:19.16,DCMain,SATO,0000,0000,0000,,I know. We rarely run into \Neach other unless there's a case.
+Dialogue: 0,0:04:19.16,0:04:21.75,DCMain,SONOKO,0000,0000,0000,,Detective Sato, what are you doing \Nat the Beika Department Store?
+Dialogue: 0,0:04:22.32,0:04:28.62,DCMain,SATO,0000,0000,0000,,I'm obviously here to get limited edition \Npear sweets from Tadano Fruits Parlor.
+Dialogue: 0,0:04:29.56,0:04:32.04,DCMain,AYUMI,0000,0000,0000,,Detective Sato, you like cakes?
+Dialogue: 0,0:04:32.37,0:04:37.09,DCMain,SATO,0000,0000,0000,,Not really, but when I saw them \Nfeatured on a morning TV show,
+Dialogue: 0,0:04:37.09,0:04:39.17,DCMain,SATO,0000,0000,0000,,I got the urge to try them.
+Dialogue: 0,0:04:39.49,0:04:41.17,DCMain,BOTH,0000,0000,0000,,I know what you mean!
+Dialogue: 0,0:04:41.17,0:04:45.50,DCMain,SONOKO,0000,0000,0000,,Don't food reports make your stomach growl?
+Dialogue: 0,0:04:45.50,0:04:50.59,DCMain,RAN,0000,0000,0000,,And the harder a place is to visit, \Nthe hungrier it makes you.
+Dialogue: 0,0:04:50.59,0:04:51.68,DCMain,SATO,0000,0000,0000,,Exactly.
+Dialogue: 0,0:04:51.68,0:04:55.81,DCMain,AYUMI,0000,0000,0000,,In other words, everyone loves tasty foods.
+Dialogue: 0,0:04:55.81,0:04:57.56,DCMain,ALL,0000,0000,0000,,That's right.
+Dialogue: 0,0:05:00.96,0:05:06.08,DCMain,RAN,0000,0000,0000,,Wow, so Inspector Megure has a playful side.
+Dialogue: 0,0:05:06.08,0:05:07.78,DCMain,SATO,0000,0000,0000,,Funny, right?
+Dialogue: 0,0:05:08.58,0:05:12.45,DCMain,SONOKO,0000,0000,0000,,Speaking of funny, we saw \Nsomeone weird earlier.
+Dialogue: 0,0:05:12.45,0:05:13.70,DCMain,SATO,0000,0000,0000,,Someone weird?
+Dialogue: 0,0:05:14.02,0:05:18.40,DCMain,SONOKO,0000,0000,0000,,Yeah. While we were checking out \Nclothes on the third floor...
+Dialogue: 0,0:05:21.59,0:05:22.34,DCFlashback,GREEN SHIRT,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:05:22.34,0:05:23.96,DCFlashback,SONOKO,0000,0000,0000,,No, excuse me.
+Dialogue: 0,0:05:30.62,0:05:31.70,DCFlashback,SONOKO,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:05:31.70,0:05:34.89,DCFlashback,RAN,0000,0000,0000,,Yeah. Don't you think \Nthat guy's acting weird?
+Dialogue: 0,0:05:34.89,0:05:35.85,DCFlashback,SONOKO,0000,0000,0000,,Weird how?
+Dialogue: 0,0:05:35.85,0:05:37.87,DCFlashback,RAN,0000,0000,0000,,He's not looking at any clothes.
+Dialogue: 0,0:05:37.87,0:05:39.36,DCFlashback,SONOKO,0000,0000,0000,,Hey, you're right.
+Dialogue: 0,0:05:39.36,0:05:43.36,DCFlashback,RAN,0000,0000,0000,,He's looking at the ceiling \Nwhile mumbling to himself.
+Dialogue: 0,0:05:43.36,0:05:44.91,DCFlashback,SONOKO,0000,0000,0000,,I wonder what he's doing.
+Dialogue: 0,0:05:47.43,0:05:49.98,DCMain,SATO,0000,0000,0000,,Maybe he was checking the AC.
+Dialogue: 0,0:05:49.98,0:05:53.58,DCMain,AYUMI,0000,0000,0000,,We saw someone like that, too.
+Dialogue: 0,0:05:53.58,0:05:55.32,DCMain,AYUMI,0000,0000,0000,,Right, Ai-chan?
+Dialogue: 0,0:05:55.32,0:05:56.30,DCMain,HAIBARA,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:56.30,0:06:00.91,DCMain,HAIBARA,0000,0000,0000,,We saw him at the art gallery by the \Nchildren's clothing section on the sixth floor.
+Dialogue: 0,0:05:56.84,0:06:03.00,Gallery,SIGN,0000,0000,0000,,{\fad(920,1)}Art Gallery
+Dialogue: 0,0:06:00.91,0:06:01.94,DCFlashback,AYUMI,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:01.94,0:06:03.00,DCFlashback,HAIBARA,0000,0000,0000,,What is it?
+Dialogue: 0,0:06:03.00,0:06:07.51,Clothes,SIGN,0000,0000,0000,,Children's Clothes
+Dialogue: 0,0:06:03.84,0:06:06.97,DCFlashback,AYUMI,0000,0000,0000,,Don't you think that guy's acting weird?
+Dialogue: 0,0:06:07.51,0:06:11.27,DCFlashback,AYUMI,0000,0000,0000,,He keeps looking at the walls \Ninstead of the paintings.
+Dialogue: 0,0:06:12.94,0:06:14.77,DCFlashback,HAIBARA,0000,0000,0000,,You're right. That is weird.
+Dialogue: 0,0:06:14.77,0:06:17.03,DCFlashback,HAIBARA,0000,0000,0000,,He's muttering, too.
+Dialogue: 0,0:06:17.03,0:06:18.52,DCFlashback,AYUMI,0000,0000,0000,,Maybe he's really into walls.
+Dialogue: 0,0:06:21.51,0:06:24.29,DCFlashback,HAIBARA,0000,0000,0000,,Well, there's no accounting for taste.
+Dialogue: 0,0:06:24.29,0:06:26.23,DCFlashback,HAIBARA,0000,0000,0000,,There's nothing wrong with liking walls.
+Dialogue: 0,0:06:26.23,0:06:27.41,DCFlashback,AYUMI,0000,0000,0000,,You're right.
+Dialogue: 0,0:06:28.95,0:06:30.78,DCMain,SATO,0000,0000,0000,,A wall fanatic, huh?
+Dialogue: 0,0:06:30.78,0:06:34.03,DCMain,RAN,0000,0000,0000,,Now that I think of it, \Nthere was that guy, too.
+Dialogue: 0,0:06:34.03,0:06:36.29,DCMain,SONOKO,0000,0000,0000,,Oh, the guy on the roof.
+Dialogue: 0,0:06:36.59,0:06:37.54,DCMain,SATO,0000,0000,0000,,The roof?
+Dialogue: 0,0:06:37.54,0:06:38.79,DCMain,RAN,0000,0000,0000,,Yes.
+Dialogue: 0,0:06:38.79,0:06:41.28,DCMain,RAN,0000,0000,0000,,Just before we ran into each other,
+Dialogue: 0,0:06:41.28,0:06:44.55,DCMain,RAN,0000,0000,0000,,there was a man looking up the sky \Nand mumbling to himself.
+Dialogue: 0,0:06:44.55,0:06:46.46,DCFlashback,RAN,0000,0000,0000,,There's another weird guy over there.
+Dialogue: 0,0:06:46.46,0:06:47.55,DCFlashback,SONOKO,0000,0000,0000,,Another one?
+Dialogue: 0,0:06:47.98,0:06:52.55,DCFlashback,RAN,0000,0000,0000,,Look. It's like he's measuring the direction \Nof the wind while muttering to himself.
+Dialogue: 0,0:06:56.47,0:07:00.56,DCMain,SATO,0000,0000,0000,,I might've seen someone acting strange, too.
+Dialogue: 0,0:07:00.56,0:07:02.45,DCMain,RAN,0000,0000,0000,,You, too?
+Dialogue: 0,0:07:02.45,0:07:03.31,DCMain,SATO,0000,0000,0000,,Yes.
+Dialogue: 0,0:07:03.61,0:07:07.62,DCMain,SATO,0000,0000,0000,,I saw him while getting in line \Nfor the limited edition sweets.
+Dialogue: 0,0:07:08.82,0:07:12.84,DCMain,SATO,0000,0000,0000,,He was mumbling to himself \Nwhile pushing a stroller.
+Dialogue: 0,0:07:14.04,0:07:17.04,DCMain,RAN,0000,0000,0000,,But that alone doesn't sound strange.
+Dialogue: 0,0:07:17.04,0:07:19.33,DCMain,SATO,0000,0000,0000,,I know, but when I got a closer look,
+Dialogue: 0,0:07:20.02,0:07:24.84,DCMain,SATO,0000,0000,0000,,I noticed the stroller was empty.
+Dialogue: 0,0:07:24.84,0:07:26.09,DCMain,RAN,0000,0000,0000,,Yikes.
+Dialogue: 0,0:07:28.40,0:07:31.54,DCMain,SONOKO,0000,0000,0000,,C-Coincidences sure can be unsettling, huh?
+Dialogue: 0,0:07:31.54,0:07:33.46,DCMain,HAIBARA,0000,0000,0000,,Is it really a coincidence?
+Dialogue: 0,0:07:33.46,0:07:35.10,DCMain,SONOKO,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:07:35.47,0:07:38.89,DCMain,HAIBARA,0000,0000,0000,,One or two might be a coincidence,
+Dialogue: 0,0:07:38.89,0:07:43.66,DCMain,HAIBARA,0000,0000,0000,,but we've seen four people muttering \Nto themselves while looking around.
+Dialogue: 0,0:07:44.12,0:07:46.61,DCMain,HAIBARA,0000,0000,0000,,Do you really think that's a coincidence?
+Dialogue: 0,0:07:49.61,0:07:55.87,DCMain,HAIBARA,0000,0000,0000,,Maybe their muttering was them \Ncommunicating with each other over the radio.
+Dialogue: 0,0:07:56.84,0:07:58.70,DCMain,SATO,0000,0000,0000,,They could be casing the place.
+Dialogue: 0,0:07:59.71,0:08:04.90,DCMain,AYUMI,0000,0000,0000,,What? That man wasn't a \Nwall fanatic, but a thief?!
+Dialogue: 0,0:08:04.90,0:08:06.01,DCMain,HAIBARA,0000,0000,0000,,Yeah, right.
+Dialogue: 0,0:08:06.01,0:08:11.29,DCMain,SONOKO,0000,0000,0000,,M-Maybe those thieves' target is this.
+Dialogue: 0,0:08:10.34,0:08:10.98,Starting,SIGN,0000,0000,0000,,Starting 8/1 \Nat Beika Department Store 6th Floor
+Dialogue: 0,0:08:12.09,0:08:18.35,DCMain,RAN,0000,0000,0000,,"Harry Murzabayev Design Diamond \NCollection Special Exhibition."
+Dialogue: 0,0:08:18.35,0:08:25.85,DCMain,SATO,0000,0000,0000,,Apparently they're displaying diamonds \Nover 100 carats not for sale in stores.
+Dialogue: 0,0:08:26.31,0:08:27.61,DCItalic,HAIBARA,0000,0000,0000,,Seriously?
+Dialogue: 0,0:08:27.61,0:08:29.64,DCMain,RAN,0000,0000,0000,,Isn't that exhibition on the 6th floor,
+Dialogue: 0,0:08:29.64,0:08:34.74,DCMain,RAN,0000,0000,0000,,where Ai-chan and Ayumi-chan saw \Nthe weird man at the art gallery?
+Dialogue: 0,0:08:34.74,0:08:38.37,DCMain,SONOKO,0000,0000,0000,,This must be their target, then.
+Dialogue: 0,0:08:38.37,0:08:41.88,DCMain,HAIBARA,0000,0000,0000,,We can't say for certain \Nthat it's not a coinci—
+Dialogue: 0,0:08:41.88,0:08:45.25,DCMain,SATO,0000,0000,0000,,In any case, let's conduct \Na proper investigation first.
+Dialogue: 0,0:08:45.25,0:08:49.21,DCMain,SATO,0000,0000,0000,,If this really is just a coincidence, \Nthen we can laugh about it later.
+Dialogue: 0,0:08:49.21,0:08:50.34,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:50.34,0:08:51.96,DCMain,HAIBARA,0000,0000,0000,,Really?
+Dialogue: 0,0:08:53.55,0:08:55.15,DCMain,SONOKO,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:08:55.15,0:08:58.22,DCMain,RAN,0000,0000,0000,,I thought I'd let Shinichi know.
+Dialogue: 0,0:08:58.22,0:09:01.13,DCMain,AYUMI,0000,0000,0000,,We should call Conan-kun, too.
+Dialogue: 0,0:09:01.13,0:09:03.73,DCMain,HAIBARA,0000,0000,0000,,What? Uh, sure.
+Dialogue: 0,0:09:11.73,0:09:14.74,TopPhone,PHONE TOP,0000,0000,0000,,Yoshida Ayumi \NIncoming Call
+Dialogue: 0,0:09:11.73,0:09:14.74,BottomPhone,PHONE BOTTOM,0000,0000,0000,,Mori Ran \NIncoming Call
+Dialogue: 0,0:09:11.74,0:09:14.39,DCItalic,TV MAN,0000,0000,0000,,Miss, are you all right? Miss!
+Dialogue: 0,0:09:15.71,0:09:17.25,DCMain,RAN,0000,0000,0000,,He's not answering.
+Dialogue: 0,0:09:17.25,0:09:18.99,DCMain,AYUMI,0000,0000,0000,,Conan-kun's not answering either.
+Dialogue: 0,0:09:19.75,0:09:21.74,DCMain,HAIBARA,0000,0000,0000,,Why don't you send them a message instead?
+Dialogue: 0,0:09:21.74,0:09:23.23,DCMain,BOTH,0000,0000,0000,,Good idea.
+Dialogue: 0,0:09:24.25,0:09:27.50,MaskBanner,SIGN TOP RIGHT,0000,0000,0000,,Now Open \NWorld Mask Exhibition \NFrom non-woven fabric masks \Nto gas masks
+Dialogue: 0,0:09:24.25,0:09:27.50,DiamondBanner,SIGN TOP LEFT,0000,0000,0000,,Located on 6F \NHarry Murzabayev \NDiamond Collection \NStarting 8/1
+Dialogue: 0,0:09:25.41,0:09:26.79,DCMain,TAKAHASHI,0000,0000,0000,,I see.
+Dialogue: 0,0:09:26.89,0:09:27.51,DCMain,TAKAHASHI,0000,0000,0000,,{\an8}Well...
+Dialogue: 0,0:09:27.54,0:09:33.01,DCMain,TAKAHASHI,0000,0000,0000,,{\an8}There certainly are several valuable \Ndiamonds in the Murzabayev Collection.
+Dialogue: 0,0:09:27.75,0:09:31.59,Takahashi,SIGN,0000,0000,0000,,{\fad(370,370)}Takahashi Kazuo (28) \NSecurity Guard
+Dialogue: 0,0:09:33.01,0:09:37.18,DCMain,TAKAHASHI,0000,0000,0000,,It'd make sense if someone \Nwere trying to steal them.
+Dialogue: 0,0:09:37.76,0:09:40.76,DCMain,SONOKO,0000,0000,0000,,There's a mask exhibition on right now,
+Dialogue: 0,0:09:40.76,0:09:48.22,DCMain,SONOKO,0000,0000,0000,,but after this, this entire floor will be \Nfilled with Murzabayev diamonds.
+Dialogue: 0,0:09:49.43,0:09:52.39,DCMain,TAKAHASHI,0000,0000,0000,,Let's check the security camera footage.
+Dialogue: 0,0:09:52.39,0:09:53.65,DCMain,SONOKO,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:55.97,0:09:57.09,DCMain,TAKAHASHI,0000,0000,0000,,Detective?
+Dialogue: 0,0:09:57.45,0:09:59.45,DCMain,TAKAHASHI,0000,0000,0000,,Has something caught your attention?
+Dialogue: 0,0:09:59.45,0:10:02.17,DCMain,SATO,0000,0000,0000,,No, it's nothing.
+Dialogue: 0,0:10:04.48,0:10:06.71,DCMain,TAKAHASHI,0000,0000,0000,,You're certain it was these four?
+Dialogue: 0,0:10:06.71,0:10:07.86,DCMain,RAN,0000,0000,0000,,Yes.
+Dialogue: 0,0:10:07.86,0:10:09.27,DCMain,SONOKO,0000,0000,0000,,That's definitely them.
+Dialogue: 0,0:10:09.27,0:10:11.96,DCMain,AYUMI,0000,0000,0000,,That guy's the wall fanatic.
+Dialogue: 0,0:10:12.84,0:10:14.21,DCMain,SATO,0000,0000,0000,,These men...
+Dialogue: 0,0:10:15.22,0:10:21.31,DCMain,TAKAHASHI,0000,0000,0000,,We shouldn't judge customers by their \Nappearances, but they do look suspicious.
+Dialogue: 0,0:10:21.31,0:10:23.93,DCMain,SONOKO,0000,0000,0000,,How's security here?
+Dialogue: 0,0:10:23.93,0:10:28.39,DCMain,TAKAHASHI,0000,0000,0000,,During business hours, there are 40 \Nguards on duty watching every floor.
+Dialogue: 0,0:10:28.39,0:10:34.40,DCMain,TAKAHASHI,0000,0000,0000,,After business hours, the exits are locked, \Nand only the service entrance remains open.
+Dialogue: 0,0:10:34.81,0:10:38.84,DCMain,TAKAHASHI,0000,0000,0000,,It goes without saying that every \Nvisitor is checked thoroughly.
+Dialogue: 0,0:10:39.22,0:10:42.59,DCMain,TAKAHASHI,0000,0000,0000,,The six guards on duty keep an eye \Non the monitors at all times.
+Dialogue: 0,0:10:42.59,0:10:45.66,DCMain,TAKAHASHI,0000,0000,0000,,Once every three hours, \Nthey patrol the building.
+Dialogue: 0,0:10:46.36,0:10:51.17,DCMain,TAKAHASHI,0000,0000,0000,,Furthermore, during the Murzabayev exhibition, \Nwe plan to double the number of guards.
+Dialogue: 0,0:10:51.17,0:10:54.56,DCMain,SATO,0000,0000,0000,,Are these all the security camera feeds?
+Dialogue: 0,0:10:54.56,0:10:59.17,DCMain,TAKAHASHI,0000,0000,0000,,Yes. There are no blind spots. \NWe won't miss a thing.
+Dialogue: 0,0:10:59.60,0:11:02.70,DCMain,TAKAHASHI,0000,0000,0000,,If the sensors installed on every \Ndoor detect anything unusual,
+Dialogue: 0,0:11:02.70,0:11:05.43,DCMain,TAKAHASHI,0000,0000,0000,,backup is called right away.
+Dialogue: 0,0:11:05.43,0:11:08.18,DCMain,SATO,0000,0000,0000,,Where is the security footage stored?
+Dialogue: 0,0:11:08.55,0:11:10.63,DCMain,TAKAHASHI,0000,0000,0000,,On the cloud.
+Dialogue: 0,0:11:10.63,0:11:14.94,DCMain,TAKAHASHI,0000,0000,0000,,Even if this room is attacked, the data \Nisn't here, so there's nothing to worry about.
+Dialogue: 0,0:11:14.94,0:11:17.67,DCMain,RAN,0000,0000,0000,,What about the roof?
+Dialogue: 0,0:11:18.40,0:11:20.88,DCMain,TAKAHASHI,0000,0000,0000,,The roof is locked, too.
+Dialogue: 0,0:11:20.88,0:11:26.32,DCMain,RAN,0000,0000,0000,,That man seemed to be measuring \Nthe wind direction on the roof.
+Dialogue: 0,0:11:27.81,0:11:29.58,DCMain,RAN,0000,0000,0000,,It was around here.
+Dialogue: 0,0:11:30.35,0:11:33.08,DCMain,SONOKO,0000,0000,0000,,Does he mean to fly here from that building?
+Dialogue: 0,0:11:33.46,0:11:35.34,DCMain,SONOKO,0000,0000,0000,,It's not like he's Kid-sama.
+Dialogue: 0,0:11:35.77,0:11:38.94,DCMain,TAKAHASHI,0000,0000,0000,,Understood. I'll tighten \Nsecurity on the roof, too,
+Dialogue: 0,0:11:38.94,0:11:42.25,DCMain,TAKAHASHI,0000,0000,0000,,and send images of the men to all personnel.
+Dialogue: 0,0:11:42.25,0:11:44.08,DCMain,SATO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:11:47.93,0:11:49.39,DCMain,AYUMI,0000,0000,0000,,Hey, that's him.
+Dialogue: 0,0:11:49.81,0:11:52.27,DCMain,RAN,0000,0000,0000,,It's the suspicious man Detective Sato saw.
+Dialogue: 0,0:11:52.62,0:11:54.27,DCMain,SONOKO,0000,0000,0000,,That's not all.
+Dialogue: 0,0:11:54.54,0:11:57.52,DCMain,AYUMI,0000,0000,0000,,The rest of them are here, too.
+Dialogue: 0,0:11:57.83,0:11:59.23,DCMain,RAN,0000,0000,0000,,What should we do?
+Dialogue: 0,0:11:59.60,0:12:01.28,DCMain,SONOKO,0000,0000,0000,,Let's arrest them.
+Dialogue: 0,0:12:01.28,0:12:02.59,DCMain,HAIBARA,0000,0000,0000,,We can't.
+Dialogue: 0,0:12:02.59,0:12:06.02,DCMain,HAIBARA,0000,0000,0000,,They're certainly suspicious, but \Nthey haven't done anything yet.
+Dialogue: 0,0:12:06.02,0:12:07.46,DCMain,SONOKO,0000,0000,0000,,You're kidding, right?
+Dialogue: 0,0:12:07.46,0:12:10.31,DCMain,SONOKO,0000,0000,0000,,Are we really going to let them go?
+Dialogue: 0,0:12:11.80,0:12:14.04,DCMain,SATO,0000,0000,0000,,We can question them, but that's it.
+Dialogue: 0,0:12:14.04,0:12:15.95,DCMain,SONOKO,0000,0000,0000,,Should we follow them?
+Dialogue: 0,0:12:15.95,0:12:18.30,DCMain,RAN,0000,0000,0000,,How? We don't have a car.
+Dialogue: 0,0:12:18.79,0:12:23.93,DCMain,SONOKO,0000,0000,0000,,We really can't do anything even though \Nthose suspicious men are right in front of us?
+Dialogue: 0,0:12:23.93,0:12:25.03,DCMain,AYUMI,0000,0000,0000,,I know.
+Dialogue: 0,0:12:25.93,0:12:28.58,DCMain,AYUMI,0000,0000,0000,,I've got a good idea.
+Dialogue: 0,0:12:30.19,0:12:33.53,DCMain,CONAN,0000,0000,0000,,I see. So that's how it is.
+Dialogue: 0,0:12:33.94,0:12:36.85,DCMain,AGASA,0000,0000,0000,,Did you figure something out, Shinichi?
+Dialogue: 0,0:12:36.85,0:12:41.39,DCMain,CONAN,0000,0000,0000,,Yeah. Both the culprit \Nand the trick they used.
+Dialogue: 0,0:12:41.39,0:12:42.94,DCMain,CONAN,0000,0000,0000,,All of it.
+Dialogue: 0,0:12:42.94,0:12:46.44,DCMain,AGASA,0000,0000,0000,,But episode five just ended.
+Dialogue: 0,0:12:42.94,0:12:49.91,Episode6,SIGN,0000,0000,0000,,Next Time, Episode 6
+Dialogue: 0,0:12:46.44,0:12:48.85,DCMain,AGASA,0000,0000,0000,,There are still five more episodes.
+Dialogue: 0,0:12:55.78,0:12:57.25,DCMain,AYUMI,0000,0000,0000,,Hey, that's him.
+Dialogue: 0,0:12:57.58,0:13:00.13,DCMain,RAN,0000,0000,0000,,It's the suspicious man Detective Sato saw.
+Dialogue: 0,0:13:00.49,0:13:02.13,DCMain,SONOKO,0000,0000,0000,,That's not all.
+Dialogue: 0,0:13:02.47,0:13:05.38,DCMain,AYUMI,0000,0000,0000,,The rest of them are here, too.
+Dialogue: 0,0:13:05.69,0:13:06.98,DCMain,RAN,0000,0000,0000,,What should we do?
+Dialogue: 0,0:13:07.49,0:13:09.14,DCMain,SONOKO,0000,0000,0000,,Let's arrest them.
+Dialogue: 0,0:13:09.14,0:13:10.48,DCMain,HAIBARA,0000,0000,0000,,We can't.
+Dialogue: 0,0:13:10.48,0:13:13.86,DCMain,HAIBARA,0000,0000,0000,,They're certainly suspicious, but \Nthey haven't done anything yet.
+Dialogue: 0,0:13:13.86,0:13:15.31,DCMain,SONOKO,0000,0000,0000,,You're kidding, right?
+Dialogue: 0,0:13:15.31,0:13:18.14,DCMain,SONOKO,0000,0000,0000,,Are we really going to let them go?
+Dialogue: 0,0:13:19.65,0:13:21.90,DCMain,SATO,0000,0000,0000,,We can question them, but that's it.
+Dialogue: 0,0:13:21.90,0:13:23.84,DCMain,SONOKO,0000,0000,0000,,Should we follow them?
+Dialogue: 0,0:13:23.84,0:13:26.15,DCMain,RAN,0000,0000,0000,,How? We don't have a car.
+Dialogue: 0,0:13:26.65,0:13:31.79,DCMain,SONOKO,0000,0000,0000,,We really can't do anything even though \Nthose suspicious men are right in front us?
+Dialogue: 0,0:13:31.79,0:13:32.85,DCMain,AYUMI,0000,0000,0000,,I know.
+Dialogue: 0,0:13:33.79,0:13:36.34,DCMain,AYUMI,0000,0000,0000,,I've got a good idea.
+Dialogue: 0,0:13:37.04,0:13:40.04,Karaoke,SIGN WINDOW RIGHT,0000,0000,0000,,Karaoke Torigami
+Dialogue: 0,0:13:37.99,0:13:40.04,DCMain,ALL,0000,0000,0000,,A rehearsal?
+Dialogue: 0,0:13:40.04,0:13:41.80,DCMain,AYUMI,0000,0000,0000,,That's right.
+Dialogue: 0,0:13:41.80,0:13:44.16,DCMain,RAN,0000,0000,0000,,What does that mean, Ayumi-chan?
+Dialogue: 0,0:13:44.16,0:13:52.15,DCMain,AYUMI,0000,0000,0000,,Well, we'll imagine how we think \Nthose men will rob the exhibition,
+Dialogue: 0,0:13:52.15,0:13:54.43,DCMain,AYUMI,0000,0000,0000,,and tell the department store man \Nwhat we come up with.
+Dialogue: 0,0:13:54.78,0:13:57.76,DCMain,SONOKO,0000,0000,0000,,I see. If we know what \Nthey'll do beforehand,
+Dialogue: 0,0:13:57.76,0:13:59.73,DCMain,SONOKO,0000,0000,0000,,then it's easier to come up \Nwith countermeasures.
+Dialogue: 0,0:13:59.73,0:14:02.48,DCMain,SATO,0000,0000,0000,,It's a good way to review the case, too.
+Dialogue: 0,0:14:02.48,0:14:08.95,DCMain,HAIBARA,0000,0000,0000,,Either way, I'm surprised karaoke shops \Nrent out white boards these days.
+Dialogue: 0,0:14:09.38,0:14:13.22,DCMain,RAN,0000,0000,0000,,Apparently, they rent their rooms out \Nfor meetings on weekday afternoons
+Dialogue: 0,0:14:13.22,0:14:15.70,DCMain,RAN,0000,0000,0000,,and when they have fewer customers.
+Dialogue: 0,0:14:15.70,0:14:17.21,DCMain,HAIBARA,0000,0000,0000,,Huh...
+Dialogue: 0,0:14:17.70,0:14:23.47,DCMain,SATO,0000,0000,0000,,Okay, everyone. Try to remember \Neverything you can about those men.
+Dialogue: 0,0:14:23.91,0:14:26.02,DCMain,SATO,0000,0000,0000,,I'll write it out on the white board.
+Dialogue: 0,0:14:27.69,0:14:31.63,DCMain,SONOKO,0000,0000,0000,,Since that man was looking at \Nthe ceiling while muttering...
+Dialogue: 0,0:14:32.25,0:14:34.47,DCMain,RAN,0000,0000,0000,,Oh, right. Security cameras.
+Dialogue: 0,0:14:34.47,0:14:38.48,DCMain,SATO,0000,0000,0000,,I see. If he was checking \Nfor security cameras,
+Dialogue: 0,0:14:38.76,0:14:42.37,DCMain,SATO,0000,0000,0000,,it's likely they were scoping out \Nthe security systems, too.
+Dialogue: 0,0:14:42.37,0:14:44.62,DCMain,AYUMI,0000,0000,0000,,There was a man looking at the walls.
+Dialogue: 0,0:14:44.62,0:14:46.42,DCMain,SATO,0000,0000,0000,,Looking at walls.
+Dialogue: 0,0:14:46.42,0:14:51.24,DCMain,HAIBARA,0000,0000,0000,,The head of security said there were \Nsensors installed on every door.
+Dialogue: 0,0:14:51.24,0:14:55.24,CeilingMan,SIGN,0000,0000,0000,,Man looking at ceiling
+Dialogue: 0,0:14:51.59,0:14:56.87,DCMain,SATO,0000,0000,0000,,I see. Maybe they intend to avoid the sensors \Nby breaking in through the wall.
+Dialogue: 0,0:14:57.25,0:15:00.75,DCMain,RAN,0000,0000,0000,,There was a man measuring \Nthe wind direction on the roof.
+Dialogue: 0,0:15:00.75,0:15:05.00,DCMain,SATO,0000,0000,0000,,Then we should assume they'll \Ntry to sneak in from above.
+Dialogue: 0,0:15:05.00,0:15:10.16,DCMain,SONOKO,0000,0000,0000,,Since all four of them left in a car, maybe \Nthey plan to make their getaway in a car?
+Dialogue: 0,0:15:10.16,0:15:11.26,DCMain,SATO,0000,0000,0000,,You're right.
+Dialogue: 0,0:15:11.26,0:15:17.43,MenLooking,SIGN,0000,0000,0000,,Man looking at ceiling \NMan looking at walls \NMan measuring wind \Ndirection on roof \NMan pushing stroller
+Dialogue: 0,0:15:11.26,0:15:17.43,DCMain,SATO,0000,0000,0000,,Which means the man pushing the stroller \Nwas checking out local traffic conditions.
+Dialogue: 0,0:15:17.76,0:15:19.56,DCMain,AYUMI,0000,0000,0000,,They all had a nasty look in their eyes.
+Dialogue: 0,0:15:19.56,0:15:21.69,DCMain,SONOKO,0000,0000,0000,,They were wearing flashy clothes!
+Dialogue: 0,0:15:21.69,0:15:23.66,DCMain,AYUMI,0000,0000,0000,,They had weird hairstyles!
+Dialogue: 0,0:15:23.66,0:15:26.37,DCMain,SONOKO,0000,0000,0000,,They had weird stickers on their car!
+Dialogue: 0,0:15:26.37,0:15:27.44,DCMain,SATO,0000,0000,0000,,What?
+Dialogue: 0,0:15:28.10,0:15:33.57,DCMain,HAIBARA,0000,0000,0000,,Also, he said all the security camera \Nfootage was stored on the cloud.
+Dialogue: 0,0:15:33.57,0:15:35.98,DCMain,SATO,0000,0000,0000,,Yes, that's what he said.
+Dialogue: 0,0:15:35.98,0:15:38.57,DCMain,HAIBARA,0000,0000,0000,,In other words, the building is secure,
+Dialogue: 0,0:15:38.57,0:15:41.30,DCMain,HAIBARA,0000,0000,0000,,but it's connected to the outside \Nthrough the internet.
+Dialogue: 0,0:15:41.30,0:15:42.27,DCMain,SATO,0000,0000,0000,,I see.
+Dialogue: 0,0:15:42.27,0:15:46.26,DCMain,SATO,0000,0000,0000,,In other words, it's possible to sneak in \Nthrough that connection and hack the system.
+Dialogue: 0,0:15:46.70,0:15:50.61,DCMain,SONOKO,0000,0000,0000,,How does a grade school kid know that?
+Dialogue: 0,0:15:51.37,0:15:52.84,DCMain,HAIBARA,0000,0000,0000,,It's common sense.
+Dialogue: 0,0:15:54.84,0:15:59.06,List1,SIGN,0000,0000,0000,,Man looking at ceiling → might be checking security cameras
+Dialogue: 0,0:15:54.84,0:15:59.06,List2,SIGN,0000,0000,0000,,Man looking at walls → might break in through a wall
+Dialogue: 0,0:15:54.84,0:15:59.06,List3,SIGN,0000,0000,0000,,Man measuring wind direction on roof → sneak in from above?
+Dialogue: 0,0:15:54.84,0:15:59.06,List4,SIGN,0000,0000,0000,,Man pushing stroller → checking traffic conditions for getaway?
+Dialogue: 0,0:15:54.84,0:15:59.06,List5,SIGN,0000,0000,0000,,Scary expressions  Flashy clothes
+Dialogue: 0,0:15:54.84,0:15:59.06,List6,SIGN,0000,0000,0000,,Unique hairstyles  Weird stickers on car
+Dialogue: 0,0:15:56.73,0:15:59.06,DCMain,SATO,0000,0000,0000,,That should do it.
+Dialogue: 0,0:15:59.58,0:16:01.82,DCMain,AYUMI,0000,0000,0000,,Then let's rehearse.
+Dialogue: 0,0:16:02.24,0:16:07.58,DCMain,SONOKO,0000,0000,0000,,We'll pretend we're those thieves \Nand let our imaginations run wild.
+Dialogue: 0,0:16:07.99,0:16:08.69,DCMain,RAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:16:09.11,0:16:09.87,DCMain,SATO,0000,0000,0000,,Okay.
+Dialogue: 0,0:16:10.90,0:16:12.20,DCMain,HAIBARA,0000,0000,0000,,Fine.
+Dialogue: 0,0:16:12.93,0:16:15.33,DCMain,AYUMI,0000,0000,0000,,Let the rehearsal begin.
+Dialogue: 0,0:16:18.20,0:16:21.71,DCMain,SATO,0000,0000,0000,,The thieves attempt to enter from the skies.
+Dialogue: 0,0:16:32.13,0:16:36.72,DCMain,HAIBARA,0000,0000,0000,,First they hack into the security \Nsystem and turn off the alarm.
+Dialogue: 0,0:16:36.72,0:16:39.22,DCMain,SONOKO,0000,0000,0000,,They incapacitate the guards.
+Dialogue: 0,0:16:42.84,0:16:48.77,DCMain,SATO,0000,0000,0000,,They avoid the sensors on the doors, \Ndestroy a wall, and enter the building.
+Dialogue: 0,0:16:49.90,0:16:54.40,DCMain,RAN,0000,0000,0000,,They acquire the diamonds \Nas quickly as possible and flee.
+Dialogue: 0,0:16:54.40,0:16:58.00,DCMain,AYUMI,0000,0000,0000,,And the jewel heist was a huge success.
+Dialogue: 0,0:16:59.94,0:17:02.48,DCMain,SONOKO,0000,0000,0000,,W-We actually succeeded.
+Dialogue: 0,0:17:02.48,0:17:06.07,DCMain,SATO,0000,0000,0000,,Now we need to come up \Nwith a way to stop that.
+Dialogue: 0,0:17:06.07,0:17:11.90,DCMain,RAN,0000,0000,0000,,If they mean to enter from the skies, \Ncouldn't security guards be posted on the roof?
+Dialogue: 0,0:17:11.90,0:17:15.18,DCMain,SATO,0000,0000,0000,,That's it. We'll stop their \Nscheme before it starts.
+Dialogue: 0,0:17:16.82,0:17:19.43,DCMain,AYUMI,0000,0000,0000,,Either way, that diamond is amazing.
+Dialogue: 0,0:17:19.43,0:17:23.89,DCMain,AYUMI,0000,0000,0000,,It'd be hard to play the piano wearing that.
+Dialogue: 0,0:17:25.45,0:17:27.95,Exhibition,SIGN,0000,0000,0000,,Special Exhibition
+Dialogue: 0,0:17:26.36,0:17:27.94,DCMain,HAIBARA,0000,0000,0000,,A large diamond...
+Dialogue: 0,0:17:29.13,0:17:30.07,DCMain,HAIBARA,0000,0000,0000,,That's it.
+Dialogue: 0,0:17:31.13,0:17:32.82,DCMain,RAN,0000,0000,0000,,What is it, Ai-chan?
+Dialogue: 0,0:17:32.82,0:17:36.93,DCMain,HAIBARA,0000,0000,0000,,What do the thieves intend to do \Nwith the diamonds they steal?
+Dialogue: 0,0:17:36.93,0:17:37.74,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:17:38.15,0:17:41.91,DCMain,SONOKO,0000,0000,0000,,Sell them for money, right?
+Dialogue: 0,0:17:41.91,0:17:47.09,DCMain,HAIBARA,0000,0000,0000,,But wouldn't it be easy to track them down \Nif they tried to sell such famous diamonds?
+Dialogue: 0,0:17:47.09,0:17:52.31,DCMain,SATO,0000,0000,0000,,I see. That said, if they got them \Nre-polished so they're harder to track,
+Dialogue: 0,0:17:52.31,0:17:54.62,DCMain,SATO,0000,0000,0000,,it would reduce their value significantly.
+Dialogue: 0,0:17:54.62,0:17:58.68,DCMain,HAIBARA,0000,0000,0000,,Right. And remember what \Nthe head of security said earlier?
+Dialogue: 0,0:17:58.68,0:18:03.31,DCFlashback,TAKAHASHI,0000,0000,0000,,Furthermore, during the Murzabayev exhibition, \Nwe plan to double the number of guards.
+Dialogue: 0,0:18:03.31,0:18:07.92,DCMain,HAIBARA,0000,0000,0000,,In other words, checking current \Nsecurity conditions is pointless.
+Dialogue: 0,0:18:07.92,0:18:11.82,DCMain,SATO,0000,0000,0000,,Which means they're after \Nwhat's on display now.
+Dialogue: 0,0:18:12.49,0:18:13.39,DCMain,RAN,0000,0000,0000,,But...
+Dialogue: 0,0:18:13.39,0:18:16.57,DCMain,SONOKO,0000,0000,0000,,The current exhibition is \Nthe World Mask Exhibition.
+Dialogue: 0,0:18:17.63,0:18:18.70,DCMain,SATO,0000,0000,0000,,Masks?
+Dialogue: 0,0:18:19.20,0:18:21.20,List7,SIGN,0000,0000,0000,,Scary expressions \NUnique hairstyles
+Dialogue: 0,0:18:21.20,0:18:24.13,DCMain,SATO,0000,0000,0000,,I see. So that's how it is.
+Dialogue: 0,0:18:24.13,0:18:25.45,DCMain,SONOKO,0000,0000,0000,,What is it?
+Dialogue: 0,0:18:25.45,0:18:27.97,DCMain,RAN,0000,0000,0000,,Did you figure something out?
+Dialogue: 0,0:18:29.16,0:18:33.49,DCMain,SATO,0000,0000,0000,,Yes. I know what they're after.
+Dialogue: 0,0:18:35.47,0:18:36.97,DCMain,CONAN,0000,0000,0000,,They're the culprit.
+Dialogue: 0,0:18:36.97,0:18:39.72,DCMain,AGASA,0000,0000,0000,,What? Really, Shinichi?
+Dialogue: 0,0:18:39.72,0:18:42.88,DCMain,CONAN,0000,0000,0000,,Yeah. I'm sure of it.
+Dialogue: 0,0:18:42.88,0:18:47.54,DCMain,AGASA,0000,0000,0000,,B-But that's not who you said it was earlier...
+Dialogue: 0,0:18:57.18,0:18:58.23,DCMain,SATO,0000,0000,0000,,Hold it right there.
+Dialogue: 0,0:18:59.01,0:19:02.62,DCMain,SATO,0000,0000,0000,,All three of you are \Nunder arrest for burglary.
+Dialogue: 0,0:19:03.25,0:19:07.83,DCMain,SATO,0000,0000,0000,,Your friend downstairs in the getaway \Ncar is being arrested now, too.
+Dialogue: 0,0:19:11.52,0:19:13.08,DCMain,MAN,0000,0000,0000,,B-But how?
+Dialogue: 0,0:19:13.38,0:19:17.09,DCMain,SONOKO,0000,0000,0000,,We saw you guys casing \Nthe store this afternoon.
+Dialogue: 0,0:19:24.30,0:19:27.47,DCMain,MAN,0000,0000,0000,,Yeah, but how'd you know \Nwe'd be coming tonight?
+Dialogue: 0,0:19:27.88,0:19:32.35,DCMain,SATO,0000,0000,0000,,Because you're after the pro \Nwrestling mask on display
+Dialogue: 0,0:19:32.69,0:19:35.73,DCMain,SATO,0000,0000,0000,,at the World Mask Exhibition \Nthat ends tomorrow.
+Dialogue: 0,0:19:36.84,0:19:41.15,DCMain,SATO,0000,0000,0000,,Once the exhibition ends, you'll \Nlose your chance to steal it.
+Dialogue: 0,0:19:41.15,0:19:46.66,DCMain,SATO,0000,0000,0000,,That mask is a masterpiece made by \Nthe famous Mexican mask-maker Morela.
+Dialogue: 0,0:19:47.11,0:19:54.67,DCMain,SATO,0000,0000,0000,,Legendary Mexican pro wrestling champion \NEl Desto wore that mask in his title match.
+Dialogue: 0,0:19:55.10,0:19:58.06,DCMain,SATO,0000,0000,0000,,It's priceless.
+Dialogue: 0,0:19:58.06,0:20:01.22,DCMain,MAN,0000,0000,0000,,But how'd you know we were after that?
+Dialogue: 0,0:20:01.22,0:20:04.68,DCMain,AYUMI,0000,0000,0000,,Because of your hair.
+Dialogue: 0,0:20:06.39,0:20:10.80,DCMain,SONOKO,0000,0000,0000,,All four of you have your hair \Nstyled like pro wrestlers.
+Dialogue: 0,0:20:10.80,0:20:13.56,DCMain,SONOKO,0000,0000,0000,,We knew right away that \Nyou like pro wrestling.
+Dialogue: 0,0:20:13.56,0:20:17.19,DCMain,RAN,0000,0000,0000,,I actually thought it was \Na bit of a stretch.
+Dialogue: 0,0:20:17.57,0:20:21.95,DCMain,SATO,0000,0000,0000,,That said, when it's all four of you, \Nit can't be overlooked.
+Dialogue: 0,0:20:23.10,0:20:24.32,DCMain,SATO,0000,0000,0000,,And besides...
+Dialogue: 0,0:20:24.32,0:20:29.33,DCMain,SATO,0000,0000,0000,,There were stickers on the car you got into \Nafter you finished casing the building.
+Dialogue: 0,0:20:31.08,0:20:34.60,DCMain,SATO,0000,0000,0000,,"Beware of Bears" and "I Love Caras".
+Dialogue: 0,0:20:34.60,0:20:39.92,DCMain,SATO,0000,0000,0000,,"Caras" refers not to karasu, or crows, \Nbut the Spanish word for face.
+Dialogue: 0,0:20:37.59,0:20:39.80,Face,SIGN,0000,0000,0000,,Face
+Dialogue: 0,0:20:39.84,0:20:43.59,Mask,SIGN,0000,0000,0000,,Mask
+Dialogue: 0,0:20:40.52,0:20:43.59,DCMain,SATO,0000,0000,0000,,In other words, the masks \Nworn by pro wrestlers.
+Dialogue: 0,0:20:44.07,0:20:50.72,DCMain,SATO,0000,0000,0000,,The only thing pro wrestling mask \Nfans would be after is Morela's mask.
+Dialogue: 0,0:20:52.90,0:20:56.48,DCMain,SATO,0000,0000,0000,,Now give yourselves up and come quietly.
+Dialogue: 0,0:21:04.55,0:21:05.86,DCMain,AYUMI,0000,0000,0000,,We did it!
+Dialogue: 0,0:21:06.29,0:21:08.74,DCMain,SONOKO,0000,0000,0000,,The Five Detective Girls have won!
+Dialogue: 0,0:21:14.08,0:21:15.69,DCItalic,RAN,0000,0000,0000,,A later investigation revealed
+Dialogue: 0,0:21:15.69,0:21:23.39,DCItalic,RAN,0000,0000,0000,,they were the Masked Leotards crime group \Nthat had been causing a sensation.
+Dialogue: 0,0:22:44.71,0:22:46.55,Danny's,SIGN,0000,0000,0000,,Danny's Restaurant
+Dialogue: 0,0:22:45.66,0:22:47.02,DCMain,SONOKO,0000,0000,0000,,Now then.
+Dialogue: 0,0:22:47.02,0:22:52.55,DCMain,SONOKO,0000,0000,0000,,A toast to us for stopping the mask theft \Non our own before it happened.
+Dialogue: 0,0:22:52.55,0:22:53.81,DCMain,SONOKO,0000,0000,0000,,Cheers!
+Dialogue: 0,0:22:54.18,0:22:56.05,DCMain,ALL,0000,0000,0000,,Cheers!
+Dialogue: 0,0:22:56.59,0:23:02.40,DCMain,RAN,0000,0000,0000,,Anyway, I'm amazed we prevented a \Ncrime without Shinichi or my dad's help.
+Dialogue: 0,0:23:02.83,0:23:05.19,DCMain,AYUMI,0000,0000,0000,,Conan-kun wasn't here either.
+Dialogue: 0,0:23:05.19,0:23:06.41,DCMain,HAIBARA,0000,0000,0000,,You're right.
+Dialogue: 0,0:23:06.41,0:23:10.61,DCMain,SATO,0000,0000,0000,,Either way, Ai-chan, I was \Nimpressed by your insight.
+Dialogue: 0,0:23:10.61,0:23:12.46,DCMain,HAIBARA,0000,0000,0000,,It was just a coincidence.
+Dialogue: 0,0:23:12.46,0:23:13.91,DCMain,SATO,0000,0000,0000,,Are you sure about that?
+Dialogue: 0,0:23:14.45,0:23:17.65,DCMain,SATO,0000,0000,0000,,Should the five of us get together again?
+Dialogue: 0,0:23:17.65,0:23:20.16,DCMain,SONOKO,0000,0000,0000,,Great idea. That sounds awesome.
+Dialogue: 0,0:23:20.68,0:23:23.17,DCMain,HAIBARA,0000,0000,0000,,What if there's another case?
+Dialogue: 0,0:23:23.94,0:23:28.07,DCMain,BOTH,0000,0000,0000,,Then we'll solve that one, too.
+Dialogue: 0,0:23:25.42,0:23:44.94,Danny's2,SIGN,0000,0000,0000,,Danny's Restaurant
+Dialogue: 0,0:23:34.73,0:23:36.70,DCMain,CONAN,0000,0000,0000,,Don't underestimate a detective.
+Dialogue: 0,0:23:36.70,0:23:41.58,DCMain,AGASA,0000,0000,0000,,Shinichi, the culprit in this drama \Nisn't who you said it was.
+Dialogue: 0,0:23:41.58,0:23:42.58,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.84,0:23:48.19,DCMain,CONAN,0000,0000,0000,,Another stakeout?
+Dialogue: 0,0:23:48.19,0:23:50.47,DCMain,TAKAGI,0000,0000,0000,,Wh-What are you doing here?
+Dialogue: 0,0:23:50.47,0:23:53.32,DCMain,MITSUHIKO,0000,0000,0000,,We saw a window with open blinds.
+Dialogue: 0,0:23:53.69,0:23:55.83,DCMain,CONAN,0000,0000,0000,,So, what's the case about?
+Dialogue: 0,0:23:56.89,0:23:58.06,DCMain,MITSUHIKO,0000,0000,0000,,Someone exited the building.
+Dialogue: 0,0:24:00.46,0:24:01.59,DCMain,TAKAGI,0000,0000,0000,,Oh, no.
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,SIGN,0000,0000,0000,,Stakeout 2
+Dialogue: 0,0:24:09.33,0:24:12.85,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Stakeout 2!"
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,SIGN,0000,0000,0000,,Cake
+Dialogue: 0,0:24:30.30,0:24:32.34,DCMain,HAIBARA,0000,0000,0000,,Next Conan's hint.
+Dialogue: 0,0:24:32.93,0:24:34.32,DCMain,CONAN,0000,0000,0000,,Cake!
+Dialogue: 0,0:24:34.91,0:24:36.66,DCMain,SATO,0000,0000,0000,,{\an8}Next time let's go to a cake buffet.
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,SIGN,0000,0000,0000,,{\pos(362,312)}Don't miss the next episode.
+Dialogue: 0,0:24:36.66,0:24:37.86,DCMain,ALL,0000,0000,0000,,{\an8}I'm in!
+Dialogue: 0,0:24:37.86,0:24:39.87,DCMain,CONAN,0000,0000,0000,,{\an8}I pray that nothing happens.

@@ -1,0 +1,427 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Tanning,Trebuchet MS,22,&H005B4D3F,&H000000FF,&H00CCC9B9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Tanning2,Trebuchet MS,26,&H005D5447,&H000000FF,&H00F4E7D9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Tsunoda,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H0079355B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: Nishitani,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00BD7D86,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: Tanning3,Trebuchet MS,22,&H00000104,&H000000FF,&H00D0B162,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0060,0020,0060,0
+Style: Ozawa,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H009F4F3E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0025,0062,0
+Style: Nagano,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H008A556C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0025,0062,0
+Style: Club,Trebuchet MS,22,&H003E423D,&H000000FF,&H00DEE5DD,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0038,0
+Style: Randy,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H0084576B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0025,0020,0055,0
+Style: Station,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0065,0
+Style: Station2,Times New Roman,22,&H006CA4BF,&H000000FF,&H00444F4C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0095,0
+Style: Club2,Trebuchet MS,22,&H003E423D,&H000000FF,&H00DEE5DD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0120,0020,0
+Style: Nagano2,Trebuchet MS,22,&H0022231E,&H000000FF,&H00767C71,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0120,0020,0018,0
+Style: Coffee,Trebuchet MS,26,&H006760DD,&H000000FF,&H0051443A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Shrine,Trebuchet MS,22,&H0046514A,&H000000FF,&H00B8C4BD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0070,0020,0
+Style: Club - Copy,Trebuchet MS,18,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCMain_Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.78,0:00:06.80,DCMain,AYUMI,0000,0000,0000,,June 15th. Today I went shopping \Nwith the Detective Boys.
+Dialogue: 0,0:00:06.80,0:00:09.03,DCMain,AYUMI,0000,0000,0000,,Suddenly, out of nowhere...
+Dialogue: 0,0:00:09.70,0:00:11.45,DCMain,TSUNODA,0000,0000,0000,,Help!
+Dialogue: 0,0:00:11.45,0:00:17.35,DCMain,AYUMI,0000,0000,0000,,And that's how the third case \Nof my illustrated diary began.
+Dialogue: 0,0:00:18.89,0:00:20.73,DCMain,CONAN,0000,0000,0000,,Beyond detective skills capable \Nof identifying the truth
+Dialogue: 0,0:00:20.73,0:00:22.87,DCMain,CONAN,0000,0000,0000,,is the power to lead us \Nto what we should believe.
+Dialogue: 0,0:00:22.87,0:00:24.65,DCMain,CONAN,0000,0000,0000,,Ayumi's drawings document the case!
+Dialogue: 0,0:00:24.65,0:00:26.85,DCMain,CONAN,0000,0000,0000,,The pursuit of beauty leads to tragedy!
+Dialogue: 0,0:00:26.85,0:00:28.47,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:28.47,0:00:30.45,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:00:30.45,0:00:33.00,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:13.98,0:02:19.99,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(390,1)}The Case of Ayumi's Illustrated Diary 3
+Dialogue: 0,0:02:14.46,0:02:17.55,DCMain,CONAN,0000,0000,0000,,"The Case of Ayumi's Illustrated Diary 3!"
+Dialogue: 0,0:02:19.99,0:02:23.49,Tanning,SIGN,0000,0000,0000,,Tanning Salon Kurosawa
+Dialogue: 0,0:02:20.95,0:02:23.49,DCMain,TSUNODA,0000,0000,0000,,Someone come quickly!
+Dialogue: 0,0:02:25.49,0:02:28.25,Tanning2,SIGN,0000,0000,0000,,Tanning Salon
+Dialogue: 0,0:02:26.06,0:02:27.12,DCMain,HAIBARA,0000,0000,0000,,A tanning salon?
+Dialogue: 0,0:02:27.12,0:02:28.75,DCMain,TSUNODA,0000,0000,0000,,S-Someone help!
+Dialogue: 0,0:02:36.54,0:02:37.46,DCMain,BOTH,0000,0000,0000,,Ayumi-chan!
+Dialogue: 0,0:02:37.92,0:02:41.72,Tsunoda,SIGN,0000,0000,0000,,{\fad(390,1)}Tsunoda Yasuo (18) \NSalon Employee
+Dialogue: 0,0:02:38.61,0:02:41.72,DCMain,TSUNODA,0000,0000,0000,,{\an8}S-Sorry, miss. Are you all right?
+Dialogue: 0,0:02:42.43,0:02:43.17,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:02:43.17,0:02:45.11,DCMain,CONAN,0000,0000,0000,,Did something happen, mister?
+Dialogue: 0,0:02:45.75,0:02:49.23,DCMain,TSUNODA,0000,0000,0000,,Nishitani-san is dead in the back!
+Dialogue: 0,0:02:49.63,0:02:51.75,DCMain,CONAN,0000,0000,0000,,Haibara, call the police and an ambulance.
+Dialogue: 0,0:02:51.75,0:02:52.71,DCMain,HAIBARA,0000,0000,0000,,Got it.
+Dialogue: 0,0:02:52.71,0:02:53.85,DCMain,CONAN,0000,0000,0000,,Take me to him.
+Dialogue: 0,0:02:54.57,0:02:56.61,DCMain,TSUNODA,0000,0000,0000,,What? Hey, wait.
+Dialogue: 0,0:02:59.97,0:03:01.49,DCMain,MITSUHIKO,0000,0000,0000,,It's dark in here.
+Dialogue: 0,0:03:01.49,0:03:03.58,DCMain,AYUMI,0000,0000,0000,,We can't see anything like this.
+Dialogue: 0,0:03:03.58,0:03:06.88,DCMain,GENTA,0000,0000,0000,,Mister, where's the light switch?
+Dialogue: 0,0:03:05.30,0:03:05.99,DCItalic,CONAN,0000,0000,0000,,{\an8}Is this...?
+Dialogue: 0,0:03:06.88,0:03:08.25,DCMain,TSUNODA,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:03:09.50,0:03:12.37,DCMain,TSUNODA,0000,0000,0000,,Nishitani-san's dead back there.
+Dialogue: 0,0:03:13.04,0:03:16.50,DCMain,TSUNODA,0000,0000,0000,,Room number nine, third \Nfrom the back on the right.
+Dialogue: 0,0:03:16.93,0:03:18.49,DCMain,CONAN,0000,0000,0000,,You guys wait here.
+Dialogue: 0,0:03:18.49,0:03:19.51,DCMain,ALL,0000,0000,0000,,Aw, what?
+Dialogue: 0,0:03:31.44,0:03:34.77,Nishitani,SIGN,0000,0000,0000,,{\fad(390,1)}Nishitani Shin (19) \NBeika International University Student
+Dialogue: 0,0:03:32.36,0:03:34.42,DCItalic,CONAN,0000,0000,0000,,{\an8}It's no use. He's already dead.
+Dialogue: 0,0:03:35.14,0:03:36.55,DCItalic,CONAN,0000,0000,0000,,But what's this?
+Dialogue: 0,0:03:36.97,0:03:39.32,DCItalic,CONAN,0000,0000,0000,,There's something all over his body.
+Dialogue: 0,0:03:43.20,0:03:44.61,DCMain,CONAN,0000,0000,0000,,What is this?
+Dialogue: 0,0:03:44.61,0:03:47.80,DCMain,TSUNODA,0000,0000,0000,,It's called tanning gel.
+Dialogue: 0,0:03:47.80,0:03:50.39,DCMain,TSUNODA,0000,0000,0000,,You apply it to get a nice even tan.
+Dialogue: 0,0:03:50.77,0:03:54.25,DCMain,AYUMI,0000,0000,0000,,Hey, what's that glowing machine?
+Dialogue: 0,0:03:54.25,0:03:57.37,DCMain,TSUNODA,0000,0000,0000,,That's a tanning machine.
+Dialogue: 0,0:03:57.37,0:04:00.52,DCMain,TSUNODA,0000,0000,0000,,It's used to artificially tan.
+Dialogue: 0,0:04:00.52,0:04:01.66,DCMain,AYUMI,0000,0000,0000,,Huh...
+Dialogue: 0,0:04:01.66,0:04:03.51,DCMain,CONAN,0000,0000,0000,,I told you guys to wait.
+Dialogue: 0,0:04:03.51,0:04:06.89,DCMain,GENTA,0000,0000,0000,,But why would someone bother getting a tan?
+Dialogue: 0,0:04:06.89,0:04:09.77,DCMain,CONAN,0000,0000,0000,,Because being tan makes you look healthy.
+Dialogue: 0,0:04:10.13,0:04:15.90,DCMain,HAIBARA,0000,0000,0000,,And judging by the dead man's build, \Nhe was probably a bodybuilder.
+Dialogue: 0,0:04:15.90,0:04:18.32,DCMain,ALL,0000,0000,0000,,A bodybuilder?
+Dialogue: 0,0:04:18.32,0:04:22.33,DCMain,TSUNODA,0000,0000,0000,,That's someone who builds \Ntheir muscles, like us.
+Dialogue: 0,0:04:22.72,0:04:27.54,DCMain,TSUNODA,0000,0000,0000,,A dark tan makes the shadows \Nbeneath your muscles more visible.
+Dialogue: 0,0:04:27.97,0:04:31.66,DCMain,TSUNODA,0000,0000,0000,,And a nice dark tan makes \Nyour muscles look more defined.
+Dialogue: 0,0:04:31.66,0:04:34.92,DCMain,AYUMI,0000,0000,0000,,Why do they have to be well-defined?
+Dialogue: 0,0:04:35.29,0:04:40.22,DCMain,CONAN,0000,0000,0000,,Well, because bodybuilders compete \Nin contests overseen by judges.
+Dialogue: 0,0:04:40.22,0:04:45.55,DCMain,HAIBARA,0000,0000,0000,,They all go to tanning salons to make \Nthemselves look as good as possible.
+Dialogue: 0,0:04:45.55,0:04:47.28,DCMain,AYUMI,0000,0000,0000,,I see.
+Dialogue: 0,0:04:48.05,0:04:51.60,Tanning3,SIGN,0000,0000,0000,,Tanning Salon Kurosawa
+Dialogue: 0,0:04:48.83,0:04:51.52,DCMain,AYUMI,0000,0000,0000,,Including the victim Nishitani Shin-san,
+Dialogue: 0,0:04:52.08,0:04:55.40,DCMain,AYUMI,0000,0000,0000,,there were four people at the salon \Nwhen the incident occurred.
+Dialogue: 0,0:04:55.85,0:04:59.02,DCMain,AYUMI,0000,0000,0000,,There was store employee Tsunoda Yasuo-san,
+Dialogue: 0,0:04:59.02,0:05:02.92,DCMain,AYUMI,0000,0000,0000,,and customers Ozawa Masaru-san \Nand Nagano Takeshi-san.
+Dialogue: 0,0:05:02.92,0:05:06.99,DCMain,AYUMI,0000,0000,0000,,They were all very tan and very muscular.
+Dialogue: 0,0:05:07.90,0:05:12.58,DCMain,AYUMI,0000,0000,0000,,After receiving Ai-chan's call, Detectives \NTakagi and Chiba came to the salon
+Dialogue: 0,0:05:12.58,0:05:15.08,DCMain,AYUMI,0000,0000,0000,,and began investigating the case.
+Dialogue: 0,0:05:15.08,0:05:18.83,DCMain,TAKAGI,0000,0000,0000,,Ozawa-san, what's your relationship \Nwith the late Nishitani-san?
+Dialogue: 0,0:05:19.04,0:05:22.96,Ozawa,SIGN,0000,0000,0000,,{\fad(390,390)}Ozawa Masaru (21) \NStudent Champion
+Dialogue: 0,0:05:19.16,0:05:23.87,DCMain,OZAWA,0000,0000,0000,,{\an8}As fellow bodybuilders, we spoke sometimes,
+Dialogue: 0,0:05:23.87,0:05:25.97,DCMain,OZAWA,0000,0000,0000,,but we weren't especially close.
+Dialogue: 0,0:05:25.97,0:05:30.51,DCMain,TAKAGI,0000,0000,0000,,So you wouldn't know if anyone resented him \Nor he was involved in any kind of trouble?
+Dialogue: 0,0:05:30.51,0:05:33.43,DCMain,OZAWA,0000,0000,0000,,I'm not sure. I never heard \Nanything like that.
+Dialogue: 0,0:05:33.43,0:05:39.45,DCMain,TSUNODA,0000,0000,0000,,Not to be tasteless, but Ozawa-san is a \Nthree-time student bodybuilding champion.
+Dialogue: 0,0:05:39.45,0:05:43.65,DCMain,TSUNODA,0000,0000,0000,,It's not as though Nishitani-san \Nwas particularly promising.
+Dialogue: 0,0:05:43.65,0:05:45.11,DCMain,TAKAGI,0000,0000,0000,,I see.
+Dialogue: 0,0:05:45.65,0:05:49.78,DCMain,AYUMI,0000,0000,0000,,Why do you guys pose every \Ntime you say something?
+Dialogue: 0,0:05:49.78,0:05:54.35,DCMain,OZAWA,0000,0000,0000,,Oh, this? Because there's a \Nbodybuilding contest coming up.
+Dialogue: 0,0:05:54.35,0:05:57.38,DCMain,TSUNODA,0000,0000,0000,,Our minds are totally occupied \Nwith last minute checks.
+Dialogue: 0,0:05:57.38,0:06:01.67,DCMain,TSUNODA,0000,0000,0000,,Though I'm sure Ozawa-san \Nwill win, of course.
+Dialogue: 0,0:06:02.90,0:06:05.23,DCMain,OZAWA,0000,0000,0000,,We won't know that until the contest.
+Dialogue: 0,0:06:05.76,0:06:09.18,Nagano,SIGN,0000,0000,0000,,{\fad(390,1)}Nagano Takeshi (20) \NStudent
+Dialogue: 0,0:06:06.09,0:06:09.18,DCMain,NAGANO,0000,0000,0000,,{\an8}Nice to meet you. I'm Nagano Takeshi.
+Dialogue: 0,0:06:09.56,0:06:13.32,DCMain,TSUNODA,0000,0000,0000,,Nagano-san is said to be Ozawa-san's rival.
+Dialogue: 0,0:06:13.32,0:06:19.19,DCMain,NAGANO,0000,0000,0000,,Ozawa-san is a great athlete, \Nbut I'll win the next contest.
+Dialogue: 0,0:06:19.19,0:06:22.06,DCMain,TAKAGI,0000,0000,0000,,Did you know Nishitani-san?
+Dialogue: 0,0:06:22.06,0:06:25.45,DCMain,NAGANO,0000,0000,0000,,Yes. He was my junior at school.
+Dialogue: 0,0:06:25.45,0:06:27.82,DCMain,NAGANO,0000,0000,0000,,He was a good guy.
+Dialogue: 0,0:06:27.82,0:06:29.70,DCMain,CONAN,0000,0000,0000,,Which university do you attend?
+Dialogue: 0,0:06:30.18,0:06:32.12,DCMain,NAGANO,0000,0000,0000,,Beika International University.
+Dialogue: 0,0:06:32.57,0:06:36.34,DCMain,TSUNODA,0000,0000,0000,,The school's bodybuilding club \Nis called "Beikoku Body".
+Dialogue: 0,0:06:36.34,0:06:38.88,DCMain,TSUNODA,0000,0000,0000,,It's famous in the bodybuilding community.
+Dialogue: 0,0:06:38.88,0:06:42.84,DCMain,TAKAGI,0000,0000,0000,,Did you notice anything unusual \Nabout Nishitani-san recently?
+Dialogue: 0,0:06:42.84,0:06:44.62,DCMain,NAGANO,0000,0000,0000,,Well...
+Dialogue: 0,0:06:44.62,0:06:48.97,DCMain,NAGANO,0000,0000,0000,,Come to think of it, he \Nrecently said he was broke.
+Dialogue: 0,0:06:48.97,0:06:52.01,DCMain,NAGANO,0000,0000,0000,,Apparently he made a rather large purchase.
+Dialogue: 0,0:06:52.01,0:06:54.14,DCMain,CONAN,0000,0000,0000,,A large purchase?
+Dialogue: 0,0:06:54.14,0:06:56.77,DCMain,TAKAGI,0000,0000,0000,,Did you hear what he bought?
+Dialogue: 0,0:06:56.77,0:06:58.89,DCMain,NAGANO,0000,0000,0000,,No, I wasn't told.
+Dialogue: 0,0:06:58.89,0:07:00.55,DCMain,TAKAGI,0000,0000,0000,,I see.
+Dialogue: 0,0:07:00.55,0:07:02.65,DCMain,NAGANO,0000,0000,0000,,Anyway, I can't believe it.
+Dialogue: 0,0:07:03.07,0:07:07.40,DCMain,NAGANO,0000,0000,0000,,Everyone liked Nishitani. \NI can't imagine anyone hating him.
+Dialogue: 0,0:07:09.91,0:07:11.63,DCMain,CHIBA,0000,0000,0000,,Takagi-san, do you have a minute?
+Dialogue: 0,0:07:11.63,0:07:12.63,DCMain,TAKAGI,0000,0000,0000,,Sure.
+Dialogue: 0,0:07:14.04,0:07:17.35,DCMain,CHIBA,0000,0000,0000,,The cause of death was poisoning.
+Dialogue: 0,0:07:17.80,0:07:22.17,DCMain,CHIBA,0000,0000,0000,,Poison was found in the gel \Nrubbed on his body.
+Dialogue: 0,0:07:22.67,0:07:26.17,DCMain,CHIBA,0000,0000,0000,,We found poison in the gel container, too.
+Dialogue: 0,0:07:26.17,0:07:28.22,DCMain,TAKAGI,0000,0000,0000,,What about the containers \Nin the other rooms?
+Dialogue: 0,0:07:28.22,0:07:30.59,DCMain,CHIBA,0000,0000,0000,,We found nothing unusual in them.
+Dialogue: 0,0:07:30.59,0:07:35.18,DCMain,CONAN,0000,0000,0000,,Then how did the culprit poison the gel?
+Dialogue: 0,0:07:35.18,0:07:36.87,DCMain,TAKAGI,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:07:36.87,0:07:40.58,DCMain,CONAN,0000,0000,0000,,When we arrived, this hallway was dark.
+Dialogue: 0,0:07:40.58,0:07:41.44,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:07:43.29,0:07:45.06,DCMain,TAKAGI,0000,0000,0000,,It certainly is dark.
+Dialogue: 0,0:07:45.06,0:07:48.29,DCMain,CHIBA,0000,0000,0000,,It would be difficult to see \Nsomeone's face in this darkness.
+Dialogue: 0,0:07:48.29,0:07:49.49,DCMain,CONAN,0000,0000,0000,,Right?
+Dialogue: 0,0:07:49.49,0:07:52.22,DCMain,CONAN,0000,0000,0000,,Since there's only one entrance,
+Dialogue: 0,0:07:52.22,0:07:54.67,DCMain,CONAN,0000,0000,0000,,it would've been difficult \Nto enter before Nishitani-san
+Dialogue: 0,0:07:54.67,0:07:58.49,DCMain,CONAN,0000,0000,0000,,and poison the gel without being noticed.
+Dialogue: 0,0:07:58.49,0:08:02.02,DCMain,CONAN,0000,0000,0000,,But even if the culprit \Nwaited for him in this hallway,
+Dialogue: 0,0:08:02.02,0:08:05.62,DCMain,CONAN,0000,0000,0000,,there would've been no point \Nif they couldn't see his face.
+Dialogue: 0,0:08:06.62,0:08:07.88,DCMain,TAKAGI,0000,0000,0000,,You're right.
+Dialogue: 0,0:08:08.24,0:08:12.75,DCMain,CONAN,0000,0000,0000,,In other words, in order \Nto poison Nishitani-san,
+Dialogue: 0,0:08:12.75,0:08:18.14,DCMain,CONAN,0000,0000,0000,,the culprit had to know beforehand \Nwhich room he would enter.
+Dialogue: 0,0:08:18.14,0:08:21.52,DCMain,GETNA,0000,0000,0000,,I see! So the culprit can see the future.
+Dialogue: 0,0:08:21.52,0:08:25.81,DCMain,MITSUHIKO,0000,0000,0000,,No, the culprit can move very quickly.
+Dialogue: 0,0:08:25.81,0:08:28.57,DCMain,AYUMI,0000,0000,0000,,I think the culprit can turn invisible.
+Dialogue: 0,0:08:28.57,0:08:30.07,DCMain,CONAN,0000,0000,0000,,Seriously?
+Dialogue: 0,0:08:30.07,0:08:34.02,DCMain,HAIBARA,0000,0000,0000,,There's one person who knew which \Nroom Nishitani-san would enter
+Dialogue: 0,0:08:34.02,0:08:38.20,DCMain,HAIBARA,0000,0000,0000,,without using a superpower.
+Dialogue: 0,0:08:38.20,0:08:39.33,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:40.33,0:08:42.33,DCMain,TSUNODA,0000,0000,0000,,I don't know anything about that.
+Dialogue: 0,0:08:42.33,0:08:46.52,DCMain,CHIBA,0000,0000,0000,,But you showed customers \Nto their rooms, didn't you?
+Dialogue: 0,0:08:46.52,0:08:50.42,DCMain,TSUNODA,0000,0000,0000,,That doesn't mean I did it.
+Dialogue: 0,0:08:50.71,0:08:56.18,DCMain,TAKAGI,0000,0000,0000,,Then why was there poisoned \Ngel only in that room?
+Dialogue: 0,0:08:56.58,0:09:00.43,DCMain,TSUNODA,0000,0000,0000,,Don't ask me. Maybe it was a coincidence.
+Dialogue: 0,0:09:00.43,0:09:04.31,DCMain,NAGANO,0000,0000,0000,,That would make this \Nan indiscriminate murder.
+Dialogue: 0,0:09:04.31,0:09:07.93,DCMain,OZAWA,0000,0000,0000,,Scary. I was in the room next door.
+Dialogue: 0,0:09:07.93,0:09:10.82,DCMain,OZAWA,0000,0000,0000,,Maybe they were trying to kill me.
+Dialogue: 0,0:09:11.23,0:09:16.20,DCMain,CONAN,0000,0000,0000,,Mister, are the rooms at this salon \Ndifferent from each other in any way?
+Dialogue: 0,0:09:16.20,0:09:19.06,DCMain,TSUNODA,0000,0000,0000,,Rooms seven, eight, and nine in the back
+Dialogue: 0,0:09:19.06,0:09:23.28,DCMain,TSUNODA,0000,0000,0000,,have high-powered machines \Nmeant for advanced tanners,
+Dialogue: 0,0:09:23.28,0:09:25.58,DCMain,TSUNODA,0000,0000,0000,,but the remaining rooms are the same.
+Dialogue: 0,0:09:26.79,0:09:30.84,DCMain,NAGANO,0000,0000,0000,,But Nishitani typically used \Nstandard machines to tan.
+Dialogue: 0,0:09:31.24,0:09:35.63,DCMain,TSUNODA,0000,0000,0000,,That's right. He suddenly asked to start \Nusing the high-powered machines today.
+Dialogue: 0,0:09:36.06,0:09:38.17,DCMain,CHIBA,0000,0000,0000,,Why didn't you mention that?
+Dialogue: 0,0:09:38.17,0:09:40.14,DCMain,TSUNODA,0000,0000,0000,,Because you didn't ask!
+Dialogue: 0,0:09:40.14,0:09:41.34,DCMain,TAKAGI,0000,0000,0000,,Now, now.
+Dialogue: 0,0:09:41.34,0:09:42.51,DCMain,NAGANO,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:09:42.51,0:09:46.15,DCMain,NAGANO,0000,0000,0000,,Do you think we could leave soon?
+Dialogue: 0,0:09:46.15,0:09:47.89,DCMain,OZAWA,0000,0000,0000,,We need to hit the gym.
+Dialogue: 0,0:09:47.89,0:09:49.45,DCMain,CHIBA,0000,0000,0000,,But...
+Dialogue: 0,0:09:49.45,0:09:52.15,DCMain,NAGANO,0000,0000,0000,,The contest's in two weeks.
+Dialogue: 0,0:09:52.15,0:09:57.82,DCMain,OZAWA,0000,0000,0000,,All we do is go back and forth \Nbetween home and the gym.
+Dialogue: 0,0:09:57.82,0:10:03.70,DCMain,TAKAGI,0000,0000,0000,,Very well, but make sure \Nyou're reachable at all times.
+Dialogue: 0,0:10:04.55,0:10:05.88,DCMain,NAGANO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:10:05.88,0:10:07.72,DCMain,OZAWA,0000,0000,0000,,Excuse us.
+Dialogue: 0,0:10:11.94,0:10:14.39,DCMain,TAKAGI,0000,0000,0000,,Chiba, you're in charge here.
+Dialogue: 0,0:10:14.39,0:10:18.18,DCMain,TAKAGI,0000,0000,0000,,I'm going to ask around the university \Nthe victim attended.
+Dialogue: 0,0:10:18.18,0:10:19.47,DCMain,CHIBA,0000,0000,0000,,Got it.
+Dialogue: 0,0:10:24.56,0:10:25.97,DCMain,TAKAGI,0000,0000,0000,,So, kids...
+Dialogue: 0,0:10:26.32,0:10:28.40,DCMain,TAKAGI,0000,0000,0000,,Why exactly did you come with me?
+Dialogue: 0,0:10:28.40,0:10:29.91,DCMain,HAIBARA,0000,0000,0000,,What's the problem?
+Dialogue: 0,0:10:29.91,0:10:31.26,DCMain,TAKAGI,0000,0000,0000,,But...
+Dialogue: 0,0:10:31.26,0:10:32.29,DCMain,MITSUHIKO,0000,0000,0000,,Are you sure you want us to leave?
+Dialogue: 0,0:10:32.29,0:10:35.28,DCMain,MTISUHIKO,0000,0000,0000,,Ayumi-chan is logging this incident \Nin her illustrated diary again.
+Dialogue: 0,0:10:35.28,0:10:36.55,DCMain,TAKAGI,0000,0000,0000,,What? Really?
+Dialogue: 0,0:10:36.55,0:10:37.99,DCMain,AYUMI,0000,0000,0000,,Yeah, look.
+Dialogue: 0,0:10:37.99,0:10:43.74,DCMain,GENTA,0000,0000,0000,,Ayumi's illustrated diary \Nonce helped you solve a case.
+Dialogue: 0,0:10:46.10,0:10:48.88,DCMain,TAKAGI,0000,0000,0000,,Try to be as quiet as possible.
+Dialogue: 0,0:10:49.25,0:10:51.50,Club,SIGN,0000,0000,0000,,Bodybuilding Club
+Dialogue: 0,0:10:49.91,0:10:51.50,DCMain,MOORE,0000,0000,0000,,What?
+Dialogue: 0,0:10:51.50,0:10:55.00,DCMain,MOORE,0000,0000,0000,,{\an8}Nishitani-san is dead?! How?!
+Dialogue: 0,0:10:51.71,0:10:55.00,Randy,SIGN,0000,0000,0000,,{\fad(390,1)}Randy Moore (33) \NCoach
+Dialogue: 0,0:10:55.00,0:10:56.66,DCMain,TAKAGI,0000,0000,0000,,He was poisoned.
+Dialogue: 0,0:10:56.66,0:10:57.54,DCMain,MOORE,0000,0000,0000,,What?!
+Dialogue: 0,0:10:57.54,0:11:03.60,DCMain,TAKAGI,0000,0000,0000,,So I have a few questions for you \Nsince you were his coach.
+Dialogue: 0,0:11:03.60,0:11:08.02,DCMain,MOORE,0000,0000,0000,,Very well. Ask me anything.
+Dialogue: 0,0:11:08.33,0:11:12.32,DCMain,TAKAGI,0000,0000,0000,,Do you know if anyone resented Nishitani-san
+Dialogue: 0,0:11:12.32,0:11:16.02,DCMain,TAKAGI,0000,0000,0000,,or if he was involved in any trouble?
+Dialogue: 0,0:11:16.44,0:11:19.27,DCMain,MOORE,0000,0000,0000,,No! He was a nice guy.
+Dialogue: 0,0:11:19.27,0:11:21.79,DCMain,MOORE,0000,0000,0000,,Everyone loved him.
+Dialogue: 0,0:11:21.79,0:11:24.41,DCMain,MOORE,0000,0000,0000,,The idea that anyone hated him is nonsense.
+Dialogue: 0,0:11:24.41,0:11:29.36,DCMain,TAKAGI,0000,0000,0000,,I heard Nishitani-san wasn't \Na very high-level bodybuilder.
+Dialogue: 0,0:11:30.54,0:11:34.04,DCMain,MOORE,0000,0000,0000,,It's not fair to compare him \Nto the champion or Nagano-san.
+Dialogue: 0,0:11:34.04,0:11:36.69,DCMain,AYUMI,0000,0000,0000,,What's so different about them?
+Dialogue: 0,0:11:36.69,0:11:39.55,DCMain,MOORE,0000,0000,0000,,Oh, are you detectives as well?
+Dialogue: 0,0:11:39.55,0:11:43.08,DCMain,GENTA,0000,0000,0000,,We're the Detective Boys.
+Dialogue: 0,0:11:43.08,0:11:45.55,DCMain,ALL,0000,0000,0000,,Nice to meet you!
+Dialogue: 0,0:11:47.84,0:11:51.81,DCMain,TAKAGI,0000,0000,0000,,What was Nishitani-san and \NNagano-san's relationship like?
+Dialogue: 0,0:11:52.23,0:11:56.37,DCMain,MOORE,0000,0000,0000,,Nishitani-san looked up to Nagano-san.
+Dialogue: 0,0:11:56.37,0:12:02.36,DCMain,MOORE,0000,0000,0000,,Whenever Nagano-san started a new \Ntraining program, he seemed to copy it.
+Dialogue: 0,0:12:02.36,0:12:04.62,DCMain,CONAN,0000,0000,0000,,Excuse me, Coach Moore.
+Dialogue: 0,0:12:04.62,0:12:05.73,DCMain,MOORE,0000,0000,0000,,What is it?
+Dialogue: 0,0:12:05.73,0:12:09.93,DCMain,CONAN,0000,0000,0000,,Just to confirm, it's unlikely anyone \Nwould've tried to kill Nishitani-san
+Dialogue: 0,0:12:09.93,0:12:13.62,DCMain,CONAN,0000,0000,0000,,over his bodybuilding capabilities, right?
+Dialogue: 0,0:12:14.37,0:12:21.26,DCMain,MOORE,0000,0000,0000,,It's true that some people are willing \Nto take out the competition to get ahead.
+Dialogue: 0,0:12:21.66,0:12:25.93,DCMain,MOORE,0000,0000,0000,,But I'm talking about top-level competitors.
+Dialogue: 0,0:12:25.93,0:12:29.62,DCMain,MOORE,0000,0000,0000,,He wasn't at that level yet.
+Dialogue: 0,0:12:30.32,0:12:31.96,DCMain,TAKAGI,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:12:31.96,0:12:33.56,DCMain,TAKAGI,0000,0000,0000,,Hello, Chiba?
+Dialogue: 0,0:12:34.17,0:12:34.90,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:12:35.46,0:12:37.35,DCMain,TAKAGI,0000,0000,0000,,Got it. I'll head back right away.
+Dialogue: 0,0:12:37.35,0:12:38.77,DCMain,MITSUHIKO,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:12:39.56,0:12:43.94,DCMain,TAKAGI,0000,0000,0000,,They found new evidence. \NSomething really significant.
+Dialogue: 0,0:12:44.47,0:12:47.94,DCMain,AYUMI,0000,0000,0000,,We received a call saying there was \Na huge development in the case.
+Dialogue: 0,0:12:48.63,0:12:50.43,DCMain,AYUMI,0000,0000,0000,,Who was the culprit?
+Dialogue: 0,0:12:50.43,0:12:54.78,DCMain,AYUMI,0000,0000,0000,,What was going to happen \Nto our investigation?
+Dialogue: 0,0:12:59.50,0:13:01.96,Station,SIGN,0000,0000,0000,,{\fad(210,1)}Beika Police Station
+Dialogue: 0,0:12:59.50,0:13:01.96,Station2,SIGN GOLD,0000,0000,0000,,{\fad(210,1)}MPD Beika Police Station
+Dialogue: 0,0:13:00.01,0:13:02.37,DCMain,TSUNODA,0000,0000,0000,,{\an8}I told you, it wasn't me!
+Dialogue: 0,0:13:02.37,0:13:04.34,DCMain,TSUNODA,0000,0000,0000,,How many times do I have to tell you that?
+Dialogue: 0,0:13:04.70,0:13:06.75,DCMain,CHIBA,0000,0000,0000,,So you say,
+Dialogue: 0,0:13:07.16,0:13:09.53,DCMain,CHIBA,0000,0000,0000,,but given how dark that hallway is,
+Dialogue: 0,0:13:09.53,0:13:13.60,DCMain,CHIBA,0000,0000,0000,,you're the only one who could have \Nshown the victim to the poisoned room.
+Dialogue: 0,0:13:13.93,0:13:17.08,DCMain,TSUNODA,0000,0000,0000,,I-I'm being falsely accused. I just...
+Dialogue: 0,0:13:17.08,0:13:21.65,DCMain,CHIBA,0000,0000,0000,,You were just embezzling \Nthe salon's profits, weren't you?
+Dialogue: 0,0:13:25.40,0:13:29.61,DCMain,CHIBA,0000,0000,0000,,It's obvious when you compare the salon's \Nbooks against your bank account balance.
+Dialogue: 0,0:13:30.38,0:13:34.08,DCMain,CHIBA,0000,0000,0000,,If anything, I can't believe \Nit wasn't discovered sooner.
+Dialogue: 0,0:13:34.08,0:13:37.67,DCMain,TSUNODA,0000,0000,0000,,B-But I didn't kill Nishitani-san.
+Dialogue: 0,0:13:38.33,0:13:39.54,DCMain,CHIBA,0000,0000,0000,,Then how about this?
+Dialogue: 0,0:13:40.67,0:13:43.77,DCMain,TSUNODA,0000,0000,0000,,Th-That's tanning gel, isn't it?
+Dialogue: 0,0:13:43.77,0:13:45.93,DCMain,CHIBA,0000,0000,0000,,Yes, poisoned tanning gel.
+Dialogue: 0,0:13:45.93,0:13:46.90,DCMain,TSUNODA,0000,0000,0000,,What?
+Dialogue: 0,0:13:46.90,0:13:49.43,DCMain,CHIBA,0000,0000,0000,,We found it in your bag.
+Dialogue: 0,0:13:49.92,0:13:50.73,DCMain,TSUNODA,0000,0000,0000,,You're lying!
+Dialogue: 0,0:13:50.73,0:13:51.98,DCMain,CHIBA,0000,0000,0000,,It's true.
+Dialogue: 0,0:13:51.98,0:13:53.77,DCMain,TSUNODA,0000,0000,0000,,But...
+Dialogue: 0,0:13:53.77,0:13:56.47,DCMain,TSUNODA,0000,0000,0000,,That's impossible! I didn't do it!
+Dialogue: 0,0:13:56.47,0:14:01.21,DCMain,CHIBA,0000,0000,0000,,In any case, I've already reported \Nyour embezzling to division two.
+Dialogue: 0,0:14:01.21,0:14:03.74,DCMain,CHIBA,0000,0000,0000,,They should be arriving with a warrant soon.
+Dialogue: 0,0:14:03.74,0:14:07.07,DCMain,CHIBA,0000,0000,0000,,{\an8}You should confess to \Nthe murder before then.
+Dialogue: 0,0:14:04.50,0:14:07.90,DCMain,TAKAGI,0000,0000,0000,,I guess the case is solved, then.
+Dialogue: 0,0:14:07.07,0:14:09.24,DCMain,TSUNODA,0000,0000,0000,,{\an8}I'm telling you, I didn't kill anyone.
+Dialogue: 0,0:14:07.90,0:14:11.07,DCMain,AYUMI,0000,0000,0000,,But he says he didn't do it.
+Dialogue: 0,0:14:09.24,0:14:11.07,DCMain,TSUNODA,0000,0000,0000,,{\an8}You have to believe me.
+Dialogue: 0,0:14:11.45,0:14:14.33,DCMain,TAKAGI,0000,0000,0000,,But we've got all the evidence.
+Dialogue: 0,0:14:14.33,0:14:18.77,DCMain,GENTA,0000,0000,0000,,I guess we didn't need Ayumi's \Nillustrated diary this time.
+Dialogue: 0,0:14:18.77,0:14:20.80,DCMain,MITSUHIKO,0000,0000,0000,,It's a little disappointing.
+Dialogue: 0,0:14:20.80,0:14:25.34,DCMain,HAIBARA,0000,0000,0000,,Is it? Isn't this how most cases go?
+Dialogue: 0,0:14:25.80,0:14:30.25,DCMain,AYUMI,0000,0000,0000,,And so, it seemed as though the \Ncase had been solved all too easily.
+Dialogue: 0,0:14:31.50,0:14:34.94,DCMain,AYUMI,0000,0000,0000,,But Conan-kun seemed dissatisfied \Nwith how it turned out,
+Dialogue: 0,0:14:35.31,0:14:38.10,DCNote,SIGN,0000,0000,0000,,Illustrated Diary
+Dialogue: 0,0:14:36.33,0:14:41.08,DCMain,AYUMI,0000,0000,0000,,so I'll keep writing in my diary.
+Dialogue: 0,0:14:41.71,0:14:44.13,DCMain,AYUMI,0000,0000,0000,,Conan-kun reviewed the case.
+Dialogue: 0,0:14:44.13,0:14:48.28,DCItalic,CONAN,0000,0000,0000,,There's no motive. Why would \Nsomeone kill Nishitani-san?
+Dialogue: 0,0:14:49.17,0:14:51.28,DCItalic,CONAN,0000,0000,0000,,What about the lights in the hallway?
+Dialogue: 0,0:14:51.28,0:14:53.49,DCItalic,CONAN,0000,0000,0000,,Is there some meaning behind that?
+Dialogue: 0,0:14:54.25,0:15:00.62,DCItalic,CONAN,0000,0000,0000,,It Tsunoda-san isn't the culprit, then \Nhow did the culprit poison the gel?
+Dialogue: 0,0:15:02.94,0:15:04.79,DCMain,AYUMI,0000,0000,0000,,Conan-kun.
+Dialogue: 0,0:15:05.31,0:15:06.34,DCMain,CONAN,0000,0000,0000,,Ayumi-chan.
+Dialogue: 0,0:15:06.34,0:15:08.55,DCMain,AYUMI,0000,0000,0000,,Conan-kun, look at this.
+Dialogue: 0,0:15:10.00,0:15:11.05,DCMain,CONAN,0000,0000,0000,,Sure.
+Dialogue: 0,0:15:14.80,0:15:16.39,Club - Copy,SIGN,0000,0000,0000,,June 15th. \NToday I went shopping\N with the Detective Boys.
+Dialogue: 0,0:15:14.83,0:15:17.56,DCMain,CONAN,0000,0000,0000,,Come to think of it, you're right.
+Dialogue: 0,0:15:17.56,0:15:20.83,DCMain,CONAN,0000,0000,0000,,We were going shopping then.
+Dialogue: 0,0:15:19.06,0:15:21.90,Tanning3,SIGN,0000,0000,0000,,Tanning Salon Kurosawa
+Dialogue: 0,0:15:20.83,0:15:23.78,DCMain,HAIBARA,0000,0000,0000,,We never got to complete \Nour shopping trip, though.
+Dialogue: 0,0:15:23.78,0:15:25.00,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:25.32,0:15:29.89,DCMain,GENTA,0000,0000,0000,,Anyway, they were all so muscular.
+Dialogue: 0,0:15:29.89,0:15:33.45,DCMain,MITSUHIKO,0000,0000,0000,,I know. Not only that, \Nbut they were all so tan.
+Dialogue: 0,0:15:33.85,0:15:39.20,DCMain,AYUMI,0000,0000,0000,,I'd definitely mix them up if I saw them \Nstanding next to each other from behind.
+Dialogue: 0,0:15:40.37,0:15:41.69,DCMain,CONAN,0000,0000,0000,,You'd mix them up?
+Dialogue: 0,0:15:41.69,0:15:42.57,DCMain,AYUMI,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:42.57,0:15:44.46,DCMain,AYUMI,0000,0000,0000,,Yeah...
+Dialogue: 0,0:15:44.46,0:15:46.07,DCItalic,CONAN,0000,0000,0000,,Mix them up...
+Dialogue: 0,0:15:57.53,0:15:58.69,DCItalic,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:15:59.61,0:16:02.02,DCItalic,CONAN,0000,0000,0000,,Weren't the body's teeth...?
+Dialogue: 0,0:16:04.89,0:16:06.94,DCItalic,CONAN,0000,0000,0000,,And those lights...
+Dialogue: 0,0:16:11.22,0:16:13.53,DCMain,CONAN,0000,0000,0000,,I see. So that's how it is.
+Dialogue: 0,0:16:13.85,0:16:15.69,DCMain,HAIBARA,0000,0000,0000,,Looks like you figured something out.
+Dialogue: 0,0:16:15.69,0:16:21.52,DCMain,CONAN,0000,0000,0000,,Yeah. There's still a lot I need \Nto confirm, but I'm certain of it.
+Dialogue: 0,0:16:21.52,0:16:23.36,DCMain,CONAN,0000,0000,0000,,Thanks, Ayumi-chan.
+Dialogue: 0,0:16:23.36,0:16:25.55,DCMain,CONAN,0000,0000,0000,,Your illustrated diary helped me \Nmake a breakthrough.
+Dialogue: 0,0:16:26.35,0:16:27.54,DCMain,AYUMI,0000,0000,0000,,Sure!
+Dialogue: 0,0:16:28.81,0:16:32.05,DCMain,CONAN,0000,0000,0000,,But this case isn't over yet.
+Dialogue: 0,0:16:34.05,0:16:36.05,Club2,SIGN,0000,0000,0000,,Bodybuilding Club \NChanging Room
+Dialogue: 0,0:16:46.69,0:16:50.94,Nagano2,SIGN,0000,0000,0000,,Nagano
+Dialogue: 0,0:16:55.81,0:17:00.13,DCMain,CONAN,0000,0000,0000,,I figured you'd show up soon \Nsince the contest is coming up.
+Dialogue: 0,0:17:00.90,0:17:02.94,DCMain,CONAN,0000,0000,0000,,It's too bad, though.
+Dialogue: 0,0:17:02.94,0:17:06.00,DCMain,CONAN,0000,0000,0000,,Did you really have to do all of this?
+Dialogue: 0,0:17:06.56,0:17:09.96,DCMain,CONAN,0000,0000,0000,,Three-time student bodybuilding champion,
+Dialogue: 0,0:17:11.97,0:17:13.74,DCMain,CONAN,0000,0000,0000,,Ozawa Masaru-san.
+Dialogue: 0,0:17:13.74,0:17:15.80,DCMain,OZAWA,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:17:15.80,0:17:19.47,DCMain,OZAWA,0000,0000,0000,,I just came here to see Nagano-kun.
+Dialogue: 0,0:17:19.47,0:17:21.85,DCMain,CONAN,0000,0000,0000,,With a poisoned bottle?
+Dialogue: 0,0:17:23.49,0:17:25.42,DCMain,OZAWA,0000,0000,0000,,I-I don't know what you're talking about.
+Dialogue: 0,0:17:25.42,0:17:30.34,DCMain,CONAN,0000,0000,0000,,Ozawa-san, being a three-time \Nchampion must be hard.
+Dialogue: 0,0:17:30.34,0:17:31.11,DCMain,OZAWA,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:31.63,0:17:34.36,DCMain,CONAN,0000,0000,0000,,Remember what tanning salon \Nemployee Tsunoda-san said?
+Dialogue: 0,0:17:34.94,0:17:38.13,DCFlashback,TSUNODA,0000,0000,0000,,Our minds are totally occupied \Nwith last minute checks.
+Dialogue: 0,0:17:38.13,0:17:42.94,DCFlashback,TSUNODA,0000,0000,0000,,Though I'm sure Ozawa-san \Nwill win, of course.
+Dialogue: 0,0:17:42.94,0:17:46.30,DCMain,CONAN,0000,0000,0000,,He made it sound like \Nyou were expected to win.
+Dialogue: 0,0:17:46.91,0:17:52.80,DCFlashback,NAGANO,0000,0000,0000,,Ozawa-san is a great athlete, \Nbut I'll win the next contest.
+Dialogue: 0,0:17:53.33,0:17:55.70,DCMain,CONAN,0000,0000,0000,,You've got a rival claiming \Nhe'll beat you, too.
+Dialogue: 0,0:17:55.70,0:17:58.64,DCMain,CONAN,0000,0000,0000,,You must be under a lot of pressure.
+Dialogue: 0,0:17:59.06,0:18:00.64,DCMain,OZAWA,0000,0000,0000,,Well, yeah.
+Dialogue: 0,0:18:00.64,0:18:03.52,DCMain,CONAN,0000,0000,0000,,So you decided to take your rival out.
+Dialogue: 0,0:18:05.91,0:18:11.08,DCMain,CONAN,0000,0000,0000,,That day, you waited in one of \Nthe three advanced tanning rooms
+Dialogue: 0,0:18:11.08,0:18:13.78,DCMain,CONAN,0000,0000,0000,,for your target to arrive.
+Dialogue: 0,0:18:13.78,0:18:21.35,DCMain,CONAN,0000,0000,0000,,After confirming he arrived, you entered \Nthe two vacant advanced tanning rooms
+Dialogue: 0,0:18:21.35,0:18:26.54,DCMain,CONAN,0000,0000,0000,,and swapped out the provided tanning \Ngel with your own poisoned gel.
+Dialogue: 0,0:18:26.91,0:18:30.04,DCMain,CONAN,0000,0000,0000,,You waited for your target to enter a room
+Dialogue: 0,0:18:30.04,0:18:33.55,DCMain,CONAN,0000,0000,0000,,and retrieved the poisoned gel \Nfrom the vacant room.
+Dialogue: 0,0:18:34.19,0:18:39.05,DCMain,CONAN,0000,0000,0000,,While Tsunoda-san was panicking \Nover finding a dead body,
+Dialogue: 0,0:18:39.05,0:18:43.71,DCMain,CONAN,0000,0000,0000,,you slipped the poisoned gel bottle \Nyou retrieved into Tsunoda-san's bag.
+Dialogue: 0,0:18:43.71,0:18:45.55,DCMain,OZAWA,0000,0000,0000,,W-Wait a minute.
+Dialogue: 0,0:18:45.55,0:18:50.06,DCMain,OZAWA,0000,0000,0000,,There was no way for me to know when\NNishitani-san would come to the tanning salon.
+Dialogue: 0,0:18:50.06,0:18:55.64,DCMain,CONAN,0000,0000,0000,,You couldn't know exactly, \Nbut if you were both regulars,
+Dialogue: 0,0:18:55.64,0:18:58.07,DCMain,CONAN,0000,0000,0000,,you could guess approximately \Nwhen he'd arrive.
+Dialogue: 0,0:18:58.07,0:19:05.08,DCMain,HAIBARA,0000,0000,0000,,According to the salon's records, you \Nvisited the salon three days in a row.
+Dialogue: 0,0:19:06.45,0:19:09.73,DCMain,OZAWA,0000,0000,0000,,M-Maybe so, but you're the one who said
+Dialogue: 0,0:19:09.73,0:19:13.21,DCMain,OZAWA,0000,0000,0000,,you couldn't see people's \Nfaces in that dark hallway.
+Dialogue: 0,0:19:13.21,0:19:16.96,DCMain,OZAWA,0000,0000,0000,,Besides, I don't have a motive.
+Dialogue: 0,0:19:16.96,0:19:20.80,DCMain,OZAWA,0000,0000,0000,,Nagano-kun might've made sense, but \Nthere's no reason for me to kill Nishitani-kun,
+Dialogue: 0,0:19:20.80,0:19:22.56,DCMain,OZAWA,0000,0000,0000,,who still had a long way \Nto go as a bodybuilder.
+Dialogue: 0,0:19:22.56,0:19:23.45,DCMain,CONAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:19:23.85,0:19:27.02,DCMain,CONAN,0000,0000,0000,,That was the biggest question.
+Dialogue: 0,0:19:27.86,0:19:31.23,DCMain,CONAN,0000,0000,0000,,You don't have a motive \Nto kill Nishitani-san.
+Dialogue: 0,0:19:33.06,0:19:34.29,DCMain,CONAN,0000,0000,0000,,The black lights.
+Dialogue: 0,0:19:34.29,0:19:35.11,DCMain,OZAWA,0000,0000,0000,,What?
+Dialogue: 0,0:19:36.46,0:19:40.12,DCMain,CONAN,0000,0000,0000,,Because of the black lights \Nilluminating that dark hallway,
+Dialogue: 0,0:19:40.57,0:19:45.86,DCMain,CONAN,0000,0000,0000,,you mistook Nishitani-san for \NNagano-san, your actual target.
+Dialogue: 0,0:19:47.29,0:19:50.98,DCMain,GENTA,0000,0000,0000,,Hey, Haibara. What's a black light?
+Dialogue: 0,0:19:50.98,0:19:54.67,DCMain,HAIBARA,0000,0000,0000,,It's a kind of light that emits light \Nthat's mostly invisible to humans.
+Dialogue: 0,0:19:55.15,0:19:59.55,DCMain,HAIBARA,0000,0000,0000,,When you shine a black light on \Nfluorescent objects, it makes them glow.
+Dialogue: 0,0:19:59.55,0:20:04.15,DCMain,HAIBARA,0000,0000,0000,,During the meteor hunter case, \NEdogawa-kun instructed us
+Dialogue: 0,0:20:04.15,0:20:07.93,DCMain,HAIBARA,0000,0000,0000,,on how to make a light that \Nwould make fluorescent ink glow.
+Dialogue: 0,0:20:08.35,0:20:09.93,DCMain,ALL,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:20:10.32,0:20:16.44,DCMain,CONAN,0000,0000,0000,,Two years ago, Nagano-san replaced most \Nof his teeth with hybrid ceramic implants.
+Dialogue: 0,0:20:16.98,0:20:26.45,DCMain,CONAN,0000,0000,0000,,The resin used in hybrid ceramic implants \Nsometimes glows under a black light.
+Dialogue: 0,0:20:26.84,0:20:32.20,DCMain,CONAN,0000,0000,0000,,So you attempted to identify \NNagano-san by his teeth,
+Dialogue: 0,0:20:32.82,0:20:34.83,DCMain,CONAN,0000,0000,0000,,but you didn't know...
+Dialogue: 0,0:20:34.83,0:20:38.06,DCMain,CONAN,0000,0000,0000,,Nishitani-san, who looked up to Nagano-san,
+Dialogue: 0,0:20:38.06,0:20:45.09,DCMain,CONAN,0000,0000,0000,,recently had most of his own teeth replaced \Nwith hybrid ceramic implants recently.
+Dialogue: 0,0:20:45.61,0:20:50.47,DCMain,HAIBARA,0000,0000,0000,,The big purchase he made was those implants.
+Dialogue: 0,0:20:50.80,0:20:53.48,DCMain,CONAN,0000,0000,0000,,So you made a mistake.
+Dialogue: 0,0:20:54.32,0:20:57.25,DCMain,CONAN,0000,0000,0000,,You saw Nishitani-san's teeth \Nglowing in the darkness
+Dialogue: 0,0:20:57.25,0:20:59.21,DCMain,CONAN,0000,0000,0000,,and thought he was Nagano-san.
+Dialogue: 0,0:21:03.13,0:21:05.41,DCMain,OZAWA,0000,0000,0000,,You kids don't get it.
+Dialogue: 0,0:21:05.90,0:21:07.91,DCMain,OZAWA,0000,0000,0000,,You don't know how hard it is \Nto have people coming for you.
+Dialogue: 0,0:21:08.30,0:21:11.41,DCMain,OZAWA,0000,0000,0000,,The fear of being ousted.
+Dialogue: 0,0:21:12.91,0:21:15.96,DCMain,OZAWA,0000,0000,0000,,It makes you willing to do anything
+Dialogue: 0,0:21:16.42,0:21:19.84,DCMain,OZAWA,0000,0000,0000,,to stay on top!
+Dialogue: 0,0:21:20.39,0:21:21.42,DCMain,HAIBARA,0000,0000,0000,,Look out!
+Dialogue: 0,0:21:30.87,0:21:32.60,DCMain,CONAN,0000,0000,0000,,You're right. I don't understand...
+Dialogue: 0,0:21:34.60,0:21:37.96,DCMain,CONAN,0000,0000,0000,,how a killer feels.
+Dialogue: 0,0:21:38.71,0:21:41.16,DCMain,AYUMI,0000,0000,0000,,And so, the case was solved.
+Dialogue: 0,0:21:41.83,0:21:47.09,DCMain,AYUMI,0000,0000,0000,,Detectives Takagi and Chiba \Narrived to arrest Ozawa-san.
+Dialogue: 0,0:23:08.11,0:23:18.66,Coffee,SIGN,0000,0000,0000,,Poirot
+Dialogue: 0,0:23:09.00,0:23:12.19,DCMain,AYUMI,0000,0000,0000,,Today we had Detective Chiba treat us
+Dialogue: 0,0:23:12.19,0:23:15.52,DCMain,AYUMI,0000,0000,0000,,since it must be hard on Detective \NTakagi's wallet to treat us all the time.
+Dialogue: 0,0:23:16.10,0:23:18.66,DCMain,CHIBA,0000,0000,0000,,Thanks for waiting. This \Nis what we're having today.
+Dialogue: 0,0:23:19.78,0:23:25.31,DCMain,CHIBA,0000,0000,0000,,Special high protein low calorie \Nchicken, broccoli, and egg whites.
+Dialogue: 0,0:23:26.07,0:23:31.43,DCMain,CHIBA,0000,0000,0000,,It's a bodybuilder approved muscle-building \Nmeal that's good for losing weight, too.
+Dialogue: 0,0:23:31.43,0:23:34.16,DCMain,AYUMI,0000,0000,0000,,Muscle-building meal?
+Dialogue: 0,0:23:34.16,0:23:36.64,DCItalic,AYUMI,0000,0000,0000,,Then if we eat this,
+Dialogue: 0,0:23:37.91,0:23:40.03,DCItalic,AYUMI,0000,0000,0000,,will we end up looking like this?
+Dialogue: 0,0:23:40.03,0:23:41.33,DCMain,CHIBA,0000,0000,0000,,Nice bulk!
+Dialogue: 0,0:23:41.33,0:23:43.16,DCMain,TAKAGI,0000,0000,0000,,Washboard abs!
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:49.95,0:23:51.03,DCMain,CULPRIT,0000,0000,0000,,Hand over your money!
+Dialogue: 0,0:23:54.37,0:23:55.66,DCMain,CULPRIT,0000,0000,0000,,Hand it over!
+Dialogue: 0,0:23:59.97,0:24:01.72,Shrine,SIGN,0000,0000,0000,,Shrine
+Dialogue: 0,0:24:02.14,0:24:03.71,DCMain,MITSUHIKO,0000,0000,0000,,What happened?!
+Dialogue: 0,0:24:04.05,0:24:07.59,DCMain,WOMAN,0000,0000,0000,,Someone pushed this man \Ndown the stairs and fled.
+Dialogue: 0,0:24:07.59,0:24:08.63,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:24:08.96,0:24:13.32,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The \NUnfortunate and Suspicious Victim!"
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,SIGN,0000,0000,0000,,The Unfortunate and Suspicious Victim
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,SIGN,0000,0000,0000,,Daypack
+Dialogue: 0,0:24:30.35,0:24:32.52,DCMain,HAIBARA,0000,0000,0000,,Next Conan's hint.
+Dialogue: 0,0:24:32.52,0:24:34.30,DCMain,CONAN,0000,0000,0000,,A daypack!
+Dialogue: 0,0:24:34.91,0:24:36.30,DCMain,AYUMI,0000,0000,0000,,{\an8}I have my illustrated diary.
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,SIGN,0000,0000,0000,,{\pos(364.429,314.571)}Don't miss the next episode.
+Dialogue: 0,0:24:36.30,0:24:37.16,DCMain,MITSUHIKO,0000,0000,0000,,{\an8}I have Holmes.
+Dialogue: 0,0:24:37.16,0:24:38.74,DCMain,GENTA,0000,0000,0000,,{\an8}And I've got the eel bowl case.
+Dialogue: 0,0:24:38.74,0:24:39.91,DCMain,CONAN,0000,0000,0000,,{\an8}Yeah, that never happened.

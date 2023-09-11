@@ -1,0 +1,367 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: RestListing,Trebuchet MS,16,&H00818280,&H000000FF,&H00F0F0EE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0300,0020,0088,0
+Style: RESO,Trebuchet MS,20,&H00423D44,&H000000FF,&H00D2CDCA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Gourmet,Trebuchet MS,20,&H00CFCCCF,&H000000FF,&H00585459,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0096,0
+Style: Yamaura,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00A4767A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0175,0020,0062,0
+Style: Disgusting,Trebuchet MS,22,&H003E347C,&H000000FF,&H00C2C4C4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: CloseShop,Trebuchet MS,22,&H00444A49,&H000000FF,&H00E3EBE7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0020,0020,0060,0
+Style: DoNotEnter,Trebuchet MS,20,&H00443C31,&H000000FF,&H00E6ECE9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Flour,Trebuchet MS,20,&H00091419,&H000000FF,&H00849AA7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Nakano,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00B7737C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0070,0062,0
+Style: Yonezawa,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H0095436D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0080,0062,0
+Style: Kusumi,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H008C5061,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0055,0020,0062,0
+Style: RESO2,Trebuchet MS,20,&H00271D26,&H000000FF,&H00716D79,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0100,0020,0055,0
+Style: Gourmet2,Trebuchet MS,20,&H00372C39,&H000000FF,&H006B6B78,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0122,0
+Style: FireDept,Trebuchet MS,18,&H00212C36,&H000000FF,&H00A5BBE3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Police,Trebuchet MS,26,&H00928F9D,&H000000FF,&H00353240,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Sushi,Trebuchet MS,18,&H002D356E,&H000000FF,&H00AECDE2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0075,0105,0
+Style: Sakura,Trebuchet MS,20,&H004E3F6C,&H000000FF,&H00D5D1DD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0100,0020,0115,0
+Style: Creative,Trebuchet MS,20,&H002C516B,&H000000FF,&H00BFE7FC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: PoliceTape,Trebuchet MS,14,&H00203D5D,&H000000FF,&H006ED3FA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0100,0020,0020,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:09.73,0:00:12.45,RestListing,SIGN RIGHT,0000,0000,0000,,Italian Izakaya RESO \NSakura Sushi | Creative Cuisine Seventy-Seven\N Beika Gourmet Restaurant Street
+Dialogue: 0,0:00:11.53,0:00:14.49,RESO,SIGN LEFT,0000,0000,0000,,RESO Italian Izakaya
+Dialogue: 0,0:00:12.45,0:00:14.49,Gourmet,SIGN FAR LEFT,0000,0000,0000,,Beika Gourmet Restaurant Street
+Dialogue: 0,0:00:14.96,0:00:17.49,DCMain,YAMAURA,0000,0000,0000,,Bon appetite.
+Dialogue: 0,0:00:19.88,0:00:21.00,DCMain,CONAN,0000,0000,0000,,Wow.
+Dialogue: 0,0:00:21.00,0:00:22.62,DCMain,KOGORO,0000,0000,0000,,That's the stuff.
+Dialogue: 0,0:00:22.62,0:00:24.67,DCMain,KOGORO,0000,0000,0000,,This is what I wanted to eat.
+Dialogue: 0,0:00:24.87,0:00:27.67,Yamaura,SIGN,0000,0000,0000,,{\fad(375,1)}Yamaura Takashi (53) \NItalian Restaurant RESO Owner
+Dialogue: 0,0:00:38.98,0:00:41.89,DCMain,KOGORO,0000,0000,0000,,Fantastic. Bon appetite!
+Dialogue: 0,0:00:41.89,0:00:45.77,DCMain,CONAN,0000,0000,0000,,Mister, "bon appetite" \Nmeans "enjoy your meal."
+Dialogue: 0,0:00:45.77,0:00:47.88,DCMain,KOGORO,0000,0000,0000,,What? Is that right?
+Dialogue: 0,0:00:52.39,0:00:55.95,DCMain,KOGORO,0000,0000,0000,,The wine is great, too. Bon appetite.
+Dialogue: 0,0:00:57.32,0:01:00.78,DCMain,YAMAURA,0000,0000,0000,,Since you haven't been here in a while, \Nmake sure you eat your fill.
+Dialogue: 0,0:01:00.78,0:01:03.50,DCMain,KOGORO,0000,0000,0000,,Sorry I haven't stopped by.
+Dialogue: 0,0:01:03.50,0:01:06.74,DCMain,YAMAURA,0000,0000,0000,,It's fine. You're busy, right?
+Dialogue: 0,0:01:06.74,0:01:09.26,DCMain,YAMAURA,0000,0000,0000,,I've seen you on the news, Sleeping Kogoro.
+Dialogue: 0,0:01:09.26,0:01:11.01,DCMain,KOGORO,0000,0000,0000,,Oh, please.
+Dialogue: 0,0:01:11.01,0:01:13.71,DCMain,YAMAURA,0000,0000,0000,,I heard you solved another \Ndifficult case the other day.
+Dialogue: 0,0:01:14.19,0:01:16.01,DCMain,YAMAURA,0000,0000,0000,,You're doing great work.
+Dialogue: 0,0:01:16.38,0:01:19.04,DCMain,KOGORO,0000,0000,0000,,I don't remember any of it, though.
+Dialogue: 0,0:01:21.14,0:01:26.67,DCMain,YAMAURA,0000,0000,0000,,The great detective once caught someone \Nwho dined and dashed at this restaurant.
+Dialogue: 0,0:01:26.67,0:01:27.85,DCMain,CONAN,0000,0000,0000,,Wow.
+Dialogue: 0,0:01:28.23,0:01:34.03,DCMain,YAMAURA,0000,0000,0000,,And he threw a rampaging \Ndrunk waving around a bottle.
+Dialogue: 0,0:01:36.28,0:01:38.99,DCMain,YAMAURA,0000,0000,0000,,At least, that much was okay.
+Dialogue: 0,0:01:38.99,0:01:42.81,DCMain,YAMAURA,0000,0000,0000,,But he threw him so hard, \Nhe destroyed the wall.
+Dialogue: 0,0:01:45.13,0:01:45.96,DCMain,KOGORO,0000,0000,0000,,What was that?
+Dialogue: 0,0:01:55.58,0:01:57.69,DCMain,CONAN,0000,0000,0000,,Beyond detective skills \Ncapable of identifying the truth...
+Dialogue: 0,0:01:57.69,0:01:59.89,DCMain,CONAN,0000,0000,0000,,...is the power to lead us \Nto what we should believe.
+Dialogue: 0,0:01:59.89,0:02:02.03,DCMain,CONAN,0000,0000,0000,,Sadness hangs about this retro alley.
+Dialogue: 0,0:02:02.03,0:02:03.91,DCMain,CONAN,0000,0000,0000,,They key to solving the case \Nuses a medal system.
+Dialogue: 0,0:02:03.91,0:02:05.55,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:05.55,0:02:07.27,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:07.27,0:02:09.95,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:51.00,0:03:57.00,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(370,1)}The Alley of Sad Betrayal
+Dialogue: 0,0:03:51.59,0:03:54.30,DCMain,CONAN,0000,0000,0000,,"The Alley of Sad Betrayal!"
+Dialogue: 0,0:04:08.93,0:04:10.43,DCMain,YAMAURA,0000,0000,0000,,Hey, you.
+Dialogue: 0,0:04:11.06,0:04:14.94,DCMain,YAMAURA,0000,0000,0000,,What do you think you're doing \Nknocking down the wall while we're open?
+Dialogue: 0,0:04:14.94,0:04:18.57,DCMain,DRIVER,0000,0000,0000,,I was hired by the owner of this place.
+Dialogue: 0,0:04:19.39,0:04:20.97,DCMain,YAMAURA,0000,0000,0000,,Him again?
+Dialogue: 0,0:04:20.97,0:04:23.48,DCMain,YAMAURA,0000,0000,0000,,He's not getting away with this today.
+Dialogue: 0,0:04:24.57,0:04:26.99,Disgusting,SIGN,0000,0000,0000,,Disgusting - Do Not Enter
+Dialogue: 0,0:04:24.57,0:04:26.99,CloseShop,SIGN,0000,0000,0000,,Close Your Shop!! / Coward Soba
+Dialogue: 0,0:04:30.96,0:04:31.45,DCMain,YAMAURA,0000,0000,0000,,Kusumi!
+Dialogue: 0,0:04:31.45,0:04:33.29,DoNotEnter,SIGN,0000,0000,0000,,Do Not Enter
+Dialogue: 0,0:04:31.45,0:04:33.29,DCMain,YAMAURA,0000,0000,0000,,You jerk!
+Dialogue: 0,0:04:33.29,0:04:34.87,Flour,SIGN,0000,0000,0000,,Domestic Soba Flour
+Dialogue: 0,0:04:34.87,0:04:36.57,DCMain,YAMAURA,0000,0000,0000,,I've had enough of your crap.
+Dialogue: 0,0:04:36.57,0:04:37.63,DCMain,KOGORO,0000,0000,0000,,Yama-chan.
+Dialogue: 0,0:04:40.06,0:04:41.67,DCMain,KOGORO,0000,0000,0000,,Violence is wrong.
+Dialogue: 0,0:04:46.48,0:04:48.14,DCMain,FUMIO,0000,0000,0000,,Hey!
+Dialogue: 0,0:04:48.72,0:04:52.10,Nakano,SIGN,0000,0000,0000,,{\fad(370,370)}Nakano Fumio (42) \NSushi Sakura-ya Owner
+Dialogue: 0,0:04:48.83,0:04:52.56,DCMain,FUMIO,0000,0000,0000,,{\an8}Why are you causing a commotion \Noutside my store?
+Dialogue: 0,0:04:54.85,0:04:57.90,Yonezawa,SIGN,0000,0000,0000,,{\fad(370,1)}Yonezawa Yuji (37) \NCreative Cuisine "Seventy-Seven" Owner
+Dialogue: 0,0:04:55.14,0:04:57.90,DCMain,YONEZAWA,0000,0000,0000,,{\an8}This goes way beyond simple harassment.
+Dialogue: 0,0:04:57.90,0:05:03.09,DCMain,KUSUMI,0000,0000,0000,,Words weren't enough to \Nmake some people move out.
+Dialogue: 0,0:05:03.09,0:05:05.03,DCMain,YONEZAWA,0000,0000,0000,,So now you're using force.
+Dialogue: 0,0:05:08.39,0:05:11.91,DCMain,KUSUMI,0000,0000,0000,,{\an8}If you don't like it, then why don't you \Ngive me your signatures already?
+Dialogue: 0,0:05:08.53,0:05:11.91,Kusumi,SIGN,0000,0000,0000,,{\fad(370,391)}Kusumi Hiroyuki (29) \NAlley Owner
+Dialogue: 0,0:05:12.56,0:05:16.69,DCMain,KUSUMI,0000,0000,0000,,Actually, I wouldn't mind if you \Nwent ahead and dropped dead,
+Dialogue: 0,0:05:16.69,0:05:18.67,DCMain,KUSUMI,0000,0000,0000,,like that soba shop owner.
+Dialogue: 0,0:05:18.67,0:05:19.92,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:05:20.42,0:05:22.43,DCMain,YAMAURA,0000,0000,0000,,You killed him, didn't you?
+Dialogue: 0,0:05:22.43,0:05:23.68,DCMain,FUMIO,0000,0000,0000,,That's right.
+Dialogue: 0,0:05:23.68,0:05:27.59,DCMain,FUMIO,0000,0000,0000,,Your harassment made the \Nold man's health deteriorate.
+Dialogue: 0,0:05:28.41,0:05:33.99,DCMain,KUSUMI,0000,0000,0000,,He always drank with his customers \Nuntil he was in a stupor.
+Dialogue: 0,0:05:33.99,0:05:36.48,DCMain,KUSUMI,0000,0000,0000,,He was a total alcoholic.
+Dialogue: 0,0:05:36.48,0:05:40.99,DCMain,YAMAURA,0000,0000,0000,,Some people looked forward to \Ndrinking with the old man.
+Dialogue: 0,0:05:40.99,0:05:42.86,DCMain,YAMAURA,0000,0000,0000,,Not that you'd understand.
+Dialogue: 0,0:05:43.17,0:05:48.96,DCMain,KUSUMI,0000,0000,0000,,No, I don't understand people who \Nget drunk in this old-fashioned alley.
+Dialogue: 0,0:05:48.96,0:05:53.12,DCMain,KUSUMI,0000,0000,0000,,Oh, forgive me. I meant "dingy alley."
+Dialogue: 0,0:05:53.12,0:05:57.14,DCMain,FUMIO,0000,0000,0000,,To you, this might be a \Ndingy old-fashioned alley,
+Dialogue: 0,0:05:57.14,0:05:59.50,DCMain,FUMIO,0000,0000,0000,,but it's an important place to us.
+Dialogue: 0,0:05:59.50,0:06:03.31,DCMain,KUSUMI,0000,0000,0000,,There you go again. Are you \Nplaying the sympathy card now?
+Dialogue: 0,0:06:03.31,0:06:04.98,DCMain,KUSUMI,0000,0000,0000,,I can't stand it.
+Dialogue: 0,0:06:04.98,0:06:10.58,DCMain,KOGORO,0000,0000,0000,,Now, now. Out of respect \Nfor the Sleeping Kogoro...
+Dialogue: 0,0:06:10.58,0:06:14.26,DCMain,KUSUMI,0000,0000,0000,,What? This is none of your \Nbusiness. Stay out of this.
+Dialogue: 0,0:06:15.29,0:06:21.57,DCMain,KOGORO,0000,0000,0000,,Not even the owner should be demolishing \Na shop that hasn't been vacated.
+Dialogue: 0,0:06:22.93,0:06:24.41,DCMain,KUSUMI,0000,0000,0000,,Oh, please.
+Dialogue: 0,0:06:24.41,0:06:27.90,DCMain,KUSUMI,0000,0000,0000,,I simply mistook it for \Nan empty shop at the end.
+Dialogue: 0,0:06:28.38,0:06:31.85,DCMain,KOGORO,0000,0000,0000,,You think the police will believe that excuse?
+Dialogue: 0,0:06:31.85,0:06:34.74,DCMain,KOGORO,0000,0000,0000,,You've been harassing them \Nuntil now, haven't you?
+Dialogue: 0,0:06:35.38,0:06:37.50,DCMain,KUSUMI,0000,0000,0000,,Who the heck are you?
+Dialogue: 0,0:06:37.91,0:06:39.04,DCMain,KOGORO,0000,0000,0000,,I am...
+Dialogue: 0,0:06:39.04,0:06:42.00,DCMain,ALL,0000,0000,0000,,The great detective Mori Kogoro-sensei!
+Dialogue: 0,0:06:48.26,0:06:51.21,DCMain,KUSUMI,0000,0000,0000,,Fine, fine. I'm out of here.
+Dialogue: 0,0:06:52.01,0:06:55.63,DCMain,KUSUMI,0000,0000,0000,,We'll just be moving stuff out today.
+Dialogue: 0,0:06:55.63,0:06:58.46,DCMain,KUSUMI,0000,0000,0000,,Bring the light truck around.
+Dialogue: 0,0:06:58.46,0:07:00.02,DCMain,DRIVER,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:07:00.65,0:07:02.40,DCMain,YONEZAWA,0000,0000,0000,,Nice work, Mori-san.
+Dialogue: 0,0:07:02.40,0:07:06.02,DCMain,FUMIO,0000,0000,0000,,We got to see you show off your skills again.
+Dialogue: 0,0:07:06.02,0:07:09.40,DCMain,YAMAURA,0000,0000,0000,,You're our hero.
+Dialogue: 0,0:07:09.40,0:07:12.59,DCMain,KOGORO,0000,0000,0000,,O-Oh, yeah? Well, you know,
+Dialogue: 0,0:07:12.59,0:07:16.00,DCMain,KOGORO,0000,0000,0000,,you can count on Mori Kogoro \Nwhen you're in trouble.
+Dialogue: 0,0:07:20.47,0:07:23.42,DCMain,CONAN,0000,0000,0000,,I need to go to the bathroom.
+Dialogue: 0,0:07:23.42,0:07:26.75,DCMain,YAMAURA,0000,0000,0000,,In that case, take this with you.
+Dialogue: 0,0:07:29.58,0:07:30.81,DCMain,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:07:30.81,0:07:32.76,DCMain,YAMAMURA,0000,0000,0000,,One of this alley's medals.
+Dialogue: 0,0:07:33.23,0:07:34.62,DCMain,YAMAURA,0000,0000,0000,,The bathroom's back there.
+Dialogue: 0,0:07:34.62,0:07:36.89,DCMain,YAMAURA,0000,0000,0000,,Take a right at the dead end.
+Dialogue: 0,0:07:37.31,0:07:40.09,DCMain,YAMAURA,0000,0000,0000,,Insert the medal to unlock the door.
+Dialogue: 0,0:07:40.09,0:07:41.39,DCMain,CONAN,0000,0000,0000,,Huh.
+Dialogue: 0,0:07:47.04,0:07:48.57,DCMain,CONAN,0000,0000,0000,,Hup.
+Dialogue: 0,0:08:04.37,0:08:05.64,DCMain,CONAN,0000,0000,0000,,Huh.
+Dialogue: 0,0:08:07.88,0:08:10.38,RESO2,SIGN RIGHT,0000,0000,0000,,RESO Italian Izakaya
+Dialogue: 0,0:08:07.88,0:08:10.38,Gourmet2,SIGN LEFT,0000,0000,0000,,Beika Gourmet Restaurant Street
+Dialogue: 0,0:08:17.96,0:08:20.86,DCItalic,CONAN,0000,0000,0000,,It's not even six yet.
+Dialogue: 0,0:08:22.61,0:08:24.23,DCMain,KOGORO,0000,0000,0000,,Ow!
+Dialogue: 0,0:08:24.89,0:08:26.97,DCMain,YAMAURA,0000,0000,0000,,Oh, you're awake.
+Dialogue: 0,0:08:28.49,0:08:30.23,DCMain,YAMAURA,0000,0000,0000,,I bought some wine.
+Dialogue: 0,0:08:30.74,0:08:32.80,DCMain,KOGORO,0000,0000,0000,,This is what I've been waiting for.
+Dialogue: 0,0:08:32.80,0:08:36.19,DCMain,KOGORO,0000,0000,0000,,But first, I'm going to take a leak.
+Dialogue: 0,0:08:41.98,0:08:43.83,DCMain,KOGORO,0000,0000,0000,,Let's see...
+Dialogue: 0,0:08:50.84,0:08:51.74,DCMain,KOGORO,0000,0000,0000,,Whoa!
+Dialogue: 0,0:08:55.53,0:08:56.98,DCMain,KOGORO,0000,0000,0000,,Hey.
+Dialogue: 0,0:09:01.09,0:09:02.35,DCMain,KOGORO,0000,0000,0000,,Wake up.
+Dialogue: 0,0:09:03.05,0:09:05.60,DCMain,KOGORO,0000,0000,0000,,Someone call an ambulance!
+Dialogue: 0,0:09:12.61,0:09:15.02,DCMain,YONEZAWA,0000,0000,0000,,They say he tripped and hit his head.
+Dialogue: 0,0:09:15.02,0:09:19.49,DCMain,YAMAURA,0000,0000,0000,,Again? I told him the tiles here are slippery.
+Dialogue: 0,0:09:21.73,0:09:23.00,DCItalic,CONAN,0000,0000,0000,,What's that smell?
+Dialogue: 0,0:09:23.00,0:09:25.50,FireDept,SIGN,0000,0000,0000,,Toto Fire Department
+Dialogue: 0,0:09:27.38,0:09:29.22,DCMain,YAMAURA,0000,0000,0000,,Sorry for scaring you.
+Dialogue: 0,0:09:29.65,0:09:32.37,DCMain,YAMAURA,0000,0000,0000,,Shall we head back to the restaurant \Nand have some dessert?
+Dialogue: 0,0:09:32.37,0:09:33.26,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:33.71,0:09:37.19,DCMain,KOGORO,0000,0000,0000,,Sorry, Yama-chan. You got a medal?
+Dialogue: 0,0:09:37.19,0:09:38.89,DCMain,YAMAURA,0000,0000,0000,,I've got one.
+Dialogue: 0,0:09:39.32,0:09:41.18,DCMain,CONAN,0000,0000,0000,,What happened to the one you took earlier?
+Dialogue: 0,0:09:41.18,0:09:44.85,DCMain,KOGORO,0000,0000,0000,,Huh? I used it, obviously.
+Dialogue: 0,0:09:45.25,0:09:46.56,DCItalic,CONAN,0000,0000,0000,,He what?
+Dialogue: 0,0:09:51.78,0:09:53.07,DCMain,CONAN,0000,0000,0000,,Don't go in there.
+Dialogue: 0,0:09:53.50,0:09:56.11,DCMain,KOGORO,0000,0000,0000,,What? But I'm about to wet myself.
+Dialogue: 0,0:09:56.60,0:09:58.49,DCMain,CONAN,0000,0000,0000,,This wasn't an accident.
+Dialogue: 0,0:09:58.90,0:10:00.87,DCMain,CONAN,0000,0000,0000,,It was a crime targeting Kusumi-san!
+Dialogue: 0,0:10:01.35,0:10:02.40,DCMain,KOGORO,0000,0000,0000,,What?!
+Dialogue: 0,0:10:11.59,0:10:15.05,DCNote,SIGN,0000,0000,0000,,{\fad(210,1)\c&H000000&\3c&HFFFFFF&}Metropolitan Police Department
+Dialogue: 0,0:10:28.06,0:10:34.02,DCMain,MEGURE,0000,0000,0000,,I see. This bathroom unlocks \Nwhen you insert a medal.
+Dialogue: 0,0:10:35.07,0:10:39.07,DCMain,MEGURE,0000,0000,0000,,It automatically locks \Nwhen the door is closed.
+Dialogue: 0,0:10:40.99,0:10:46.62,DCMain,MEGURE,0000,0000,0000,,And medals can't be inserted \Nwhile someone is inside.
+Dialogue: 0,0:10:46.62,0:10:49.35,DCMain,CONAN,0000,0000,0000,,Yeah, but I thought it was odd
+Dialogue: 0,0:10:49.35,0:10:55.38,DCMain,CONAN,0000,0000,0000,,that he was able to insert a coin \Nwhile Kusumi-san was inside.
+Dialogue: 0,0:10:56.01,0:10:57.51,DCMain,MEGURE,0000,0000,0000,,Which means...
+Dialogue: 0,0:10:58.39,0:11:04.22,DCMain,TAKAGI,0000,0000,0000,,The only conceivable explanation is that \Nsomeone was with him and left the bathroom,
+Dialogue: 0,0:11:04.60,0:11:07.57,DCMain,TAKAGI,0000,0000,0000,,leaving the unconscious Kusumi-san inside.
+Dialogue: 0,0:11:10.77,0:11:13.53,DCMain,TAKAGI,0000,0000,0000,,In other words, this wasn't an accident,
+Dialogue: 0,0:11:13.53,0:11:19.40,DCMain,TAKAGI,0000,0000,0000,,but a murder plotted \Nby someone at the alley.
+Dialogue: 0,0:11:19.40,0:11:21.15,DCMain,ALL,0000,0000,0000,,B-But...
+Dialogue: 0,0:11:22.91,0:11:28.19,DCMain,MEGURE,0000,0000,0000,,He was apparently making unreasonable \Ndemands for you to move out.
+Dialogue: 0,0:11:28.19,0:11:30.41,DCMain,MEGURE,0000,0000,0000,,That sounds like a motive.
+Dialogue: 0,0:11:31.18,0:11:33.13,DCMain,YAMAURA,0000,0000,0000,,W-Wait a minute.
+Dialogue: 0,0:11:33.13,0:11:34.79,DCMain,YONEZAWA,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:11:34.79,0:11:39.26,DCMain,FUMIO,0000,0000,0000,,A member of our alley would never do that.
+Dialogue: 0,0:11:39.26,0:11:42.02,DCMain,TAKAGI,0000,0000,0000,,That's what we're going to investigate.
+Dialogue: 0,0:11:42.02,0:11:45.39,DCMain,TAKAGI,0000,0000,0000,,During the 15 minutes between 5:30 \Nwhen Conan-kun went to the bathroom
+Dialogue: 0,0:11:45.39,0:11:51.92,DCMain,TAKAGI,0000,0000,0000,,and 5:45 when Mori-san \Ndiscovered the falling victim,
+Dialogue: 0,0:11:51.92,0:11:56.02,DCMain,TAKAGI,0000,0000,0000,,where were you and what were you doing?
+Dialogue: 0,0:11:56.51,0:12:00.08,DCMain,YAMAURA,0000,0000,0000,,I was at my restaurant with Mori-san.
+Dialogue: 0,0:12:00.08,0:12:04.78,DCMain,YAAMURA,0000,0000,0000,,After Conan-kun returned from the bathroom, \NI went shopping at a nearby liquor store.
+Dialogue: 0,0:12:05.21,0:12:06.91,DCMain,TAKAGI,0000,0000,0000,,While your restaurant was open?
+Dialogue: 0,0:12:07.37,0:12:11.46,DCMain,YAMAURA,0000,0000,0000,,Yes. Mori-san drank all our house wine.
+Dialogue: 0,0:12:11.91,0:12:16.35,DCMain,MEGURE,0000,0000,0000,,You were drinking since early in the evening?
+Dialogue: 0,0:12:16.35,0:12:17.59,DCMain,KOGORO,0000,0000,0000,,Oh, you know...
+Dialogue: 0,0:12:19.21,0:12:21.47,DCMain,YAMAURA,0000,0000,0000,,I've got the receipt.
+Dialogue: 0,0:12:22.09,0:12:25.34,DCMain,YONEZAWA,0000,0000,0000,,I was placing orders for \Ningredients over the phone.
+Dialogue: 0,0:12:25.80,0:12:28.40,DCMain,TAKAGI,0000,0000,0000,,That was a rather long phone call.
+Dialogue: 0,0:12:28.40,0:12:35.35,DCMain,YONEZAWA,0000,0000,0000,,I buy meat, fish, alcohol, and vegetables \Nfrom their respective producers.
+Dialogue: 0,0:12:35.71,0:12:39.61,DCMain,MEGURE,0000,0000,0000,,I see. That sounds like it would take a while.
+Dialogue: 0,0:12:41.12,0:12:43.49,DCMain,YONEZAWA,0000,0000,0000,,It's in my call history.
+Dialogue: 0,0:12:43.49,0:12:46.52,DCMain,YONEZAWA,0000,0000,0000,,You can go ahead and check it now.
+Dialogue: 0,0:12:47.35,0:12:48.33,DCMain,TAKAGI,0000,0000,0000,,What about you?
+Dialogue: 0,0:12:48.33,0:12:51.33,DCMain,FUMIO,0000,0000,0000,,I was prepping before opening my shop.
+Dialogue: 0,0:12:51.85,0:12:54.17,DCMain,TAKAGI,0000,0000,0000,,Is there anyone who can corroborate that?
+Dialogue: 0,0:12:54.17,0:12:59.17,DCMain,FUMIO,0000,0000,0000,,No. It's a small shop, \Nso I obviously run it alone.
+Dialogue: 0,0:12:59.52,0:13:03.48,DCMain,MEGURE,0000,0000,0000,,Which means you're the only one \Nwithout an alibi.
+Dialogue: 0,0:13:03.48,0:13:05.30,DCMain,FUMIO,0000,0000,0000,,It wasn't me!
+Dialogue: 0,0:13:05.30,0:13:09.63,DCMain,FUMIO,0000,0000,0000,,If anything, don't you think it's strange \Nthat you have an alibi for that hour?
+Dialogue: 0,0:13:09.63,0:13:10.47,DCMain,YONEZAWA,0000,0000,0000,,What?
+Dialogue: 0,0:13:10.47,0:13:13.17,DCMain,FUMIO,0000,0000,0000,,Kogoro-kun, say something.
+Dialogue: 0,0:13:13.17,0:13:13.98,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:13:13.98,0:13:16.35,DCMain,MEGURE,0000,0000,0000,,Where are you going, Mori-kun?
+Dialogue: 0,0:13:16.35,0:13:18.92,DCMain,KOGORO,0000,0000,0000,,Well, you know...
+Dialogue: 0,0:13:19.70,0:13:21.37,DCMain,MEGURE,0000,0000,0000,,What is it?
+Dialogue: 0,0:13:21.37,0:13:23.49,DCMain,KOGORO,0000,0000,0000,,I'm going to the bathroom.
+Dialogue: 0,0:13:23.49,0:13:26.49,DCMain,KOGORO,0000,0000,0000,,I've been holding it this whole time \Nsince I can't use this one.
+Dialogue: 0,0:13:28.85,0:13:30.19,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:13:30.86,0:13:34.36,DCMain,TAKAGI,0000,0000,0000,,Inspector, Chiba called me from the hospital.
+Dialogue: 0,0:13:34.36,0:13:38.12,DCMain,TAKAGI,0000,0000,0000,,The victim had a contusion \Non the side of his head.
+Dialogue: 0,0:13:38.57,0:13:39.88,DCItalic,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:13:40.18,0:13:45.23,DCMain,TAKAGI,0000,0000,0000,,After knocking out Kusumi-san by \Nstriking him on the side of the head,
+Dialogue: 0,0:13:45.23,0:13:50.59,DCMain,TAKAGI,0000,0000,0000,,perhaps the culprit struck the front \Nof his head against the door
+Dialogue: 0,0:13:50.59,0:13:52.39,DCMain,TAKAGI,0000,0000,0000,,so it would look like he tripped.
+Dialogue: 0,0:13:52.39,0:13:55.16,DCMain,MEGURE,0000,0000,0000,,It's likely.
+Dialogue: 0,0:13:55.16,0:13:58.90,DCMain,MEGURE,0000,0000,0000,,Excuse us, but we'll be \Nchecking the inside of your shop.
+Dialogue: 0,0:13:59.52,0:14:04.07,DCMain,MEGURE,0000,0000,0000,,If you're the culprit, you'll have \Nhidden the weapon somewhere.
+Dialogue: 0,0:14:06.07,0:14:09.07,Sushi,SIGN LEFT,0000,0000,0000,,Sakura Sushi
+Dialogue: 0,0:14:09.07,0:14:12.08,Sakura,SIGN RIGHT,0000,0000,0000,,Sakura
+Dialogue: 0,0:14:15.30,0:14:17.83,DCItalic,CONAN,0000,0000,0000,,Something's not right.
+Dialogue: 0,0:14:27.84,0:14:31.34,Creative,SIGNS,0000,0000,0000,,Creative Cuisine Seventy-Seven
+Dialogue: 0,0:14:39.15,0:14:44.44,DCItalic,CONAN,0000,0000,0000,,If Fumio-san is the culprit, \Nwhy did she close the door?
+Dialogue: 0,0:14:41.69,0:14:44.44,PoliceTape,SIGN,0000,0000,0000,,Do Not Enter
+Dialogue: 0,0:14:45.17,0:14:46.68,DCItalic,CONAN,0000,0000,0000,,If she hadn't closed the door,
+Dialogue: 0,0:14:46.68,0:14:50.81,DCItalic,CONAN,0000,0000,0000,,Kusumi-san's murder might've \Nbeen written off as an accident.
+Dialogue: 0,0:14:56.10,0:14:56.95,DCMain,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:15:01.43,0:15:04.71,DCItalic,CONAN,0000,0000,0000,,It's the soba flour that \Nwas on Kusumi-san's jacket.
+Dialogue: 0,0:15:08.21,0:15:09.05,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:15:13.08,0:15:13.97,DCMain,CONAN,0000,0000,0000,,But why?
+Dialogue: 0,0:15:16.45,0:15:18.98,DCItalic,CONAN,0000,0000,0000,,I see. I've figured it out.
+Dialogue: 0,0:15:19.40,0:15:24.86,DCItalic,CONAN,0000,0000,0000,,I know what the weapon is \Nand who's the true culprit
+Dialogue: 0,0:15:25.44,0:15:28.84,DCItalic,CONAN,0000,0000,0000,,who tried to frame Fumio-san.
+Dialogue: 0,0:15:33.55,0:15:34.37,DCMain,TAKAGI,0000,0000,0000,,Inspector.
+Dialogue: 0,0:15:35.34,0:15:38.62,DCMain,MEGURE,0000,0000,0000,,There isn't a speck of dust on it \Neven thought it was in the back.
+Dialogue: 0,0:15:38.62,0:15:41.20,DCMain,TAKAGI,0000,0000,0000,,Like it's just been wiped clean.
+Dialogue: 0,0:15:41.20,0:15:44.45,DCMain,TAKAGI,0000,0000,0000,,It's possible someone wiped \Naway the sweat and hair
+Dialogue: 0,0:15:44.45,0:15:46.90,DCMain,TAKAGI,0000,0000,0000,,that may have stuck to it \Nwhen they struck Kusumi-san.
+Dialogue: 0,0:15:46.90,0:15:48.73,DCMain,FUMIO,0000,0000,0000,,You can't be serious.
+Dialogue: 0,0:15:50.55,0:15:51.51,DCMain,CONAN,0000,0000,0000,,Wait.
+Dialogue: 0,0:15:53.26,0:15:57.51,DCMain,TAKAGI,0000,0000,0000,,What? Mori-san said someone else did it?
+Dialogue: 0,0:15:58.17,0:16:00.76,DCMain,KOGORO,0000,0000,0000,,There's something I'd \Nlike to discuss with you.
+Dialogue: 0,0:16:00.76,0:16:02.14,DCMain,CONAN,0000,0000,0000,,Huh? Mister...
+Dialogue: 0,0:16:02.46,0:16:05.68,DCMain,MEGURE,0000,0000,0000,,I thought he found the culprit.
+Dialogue: 0,0:16:05.68,0:16:07.65,DCItalic,CONAN,0000,0000,0000,,Well, I guess this is convenient.
+Dialogue: 0,0:16:07.65,0:16:10.42,DCMain,YONEZAWA,0000,0000,0000,,Why the formality?
+Dialogue: 0,0:16:10.42,0:16:12.70,DCMain,KOGORO,0000,0000,0000,,Curry, huh? Brings back memories.
+Dialogue: 0,0:16:12.70,0:16:15.84,DCMain,KOGORO,0000,0000,0000,,You fed me curry often \Nwhen I didn't have money.
+Dialogue: 0,0:16:15.84,0:16:18.03,DCMain,YONEZAWA,0000,0000,0000,,Yeah, back when this was a board house.
+Dialogue: 0,0:16:18.42,0:16:20.66,DCMain,KOGORO,0000,0000,0000,,Now it's on your menu.
+Dialogue: 0,0:16:20.66,0:16:23.91,DCMain,KOGORO,0000,0000,0000,,It smells as amazing as ever.
+Dialogue: 0,0:16:23.91,0:16:25.72,DCMain,YONEZAWA,0000,0000,0000,,It's not ready yet.
+Dialogue: 0,0:16:25.72,0:16:27.64,DCMain,YONEZAWA,0000,0000,0000,,I'm about to put the roux in.
+Dialogue: 0,0:16:27.64,0:16:32.36,DCMain,KOGORO,0000,0000,0000,,Speaking of smells, didn't Kusumi-san \Nsmell like rotten vegetables?
+Dialogue: 0,0:16:32.77,0:16:34.70,DCMain,YONEZAWA,0000,0000,0000,,I didn't notice.
+Dialogue: 0,0:16:34.70,0:16:38.05,DCMain,YONEZAWA,0000,0000,0000,,Maybe he was cleaning up \Nsome rotten ingredients.
+Dialogue: 0,0:16:38.68,0:16:43.94,DCMain,KOGORO,0000,0000,0000,,It was pretty strong, but I guess you \Nwouldn't notice if you smelled the same way.
+Dialogue: 0,0:16:44.32,0:16:45.06,DCMain,YONEZAWA,0000,0000,0000,,What?
+Dialogue: 0,0:16:46.31,0:16:49.25,DCMain,KOGORO,0000,0000,0000,,If you're making curry, then \Nyou must've used some, right?
+Dialogue: 0,0:16:49.25,0:16:53.40,DCMain,KOGORO,0000,0000,0000,,Asafoetida, a spice that \Nsmells like rotten vegetables.
+Dialogue: 0,0:16:53.40,0:16:56.77,DCMain,KOGORO,0000,0000,0000,,You said it's such a powerful spice \Npeople call it "devil's dung"
+Dialogue: 0,0:16:56.77,0:16:58.16,DCMain,KOGORO,0000,0000,0000,,and let me take a whiff.
+Dialogue: 0,0:17:00.40,0:17:05.08,DCMain,KOGORO,0000,0000,0000,,And when heated, it becomes the \Ndelicious smell of cooked onions.
+Dialogue: 0,0:17:06.10,0:17:11.49,DCMain,KOGORO,0000,0000,0000,,You're the one who was in the \Nbathroom with Kusumi-san, aren't you?
+Dialogue: 0,0:17:11.94,0:17:15.09,DCMain,KOGORO,0000,0000,0000,,Tell me the truth about what happened.
+Dialogue: 0,0:17:15.98,0:17:19.78,DCMain,YONEZAWA,0000,0000,0000,,Impressive, Detective. You remembered.
+Dialogue: 0,0:17:19.78,0:17:25.28,DCMain,YONEZAWA,0000,0000,0000,,Is what I'd like to say, but you saw \Nthe argument I had with Kusumi.
+Dialogue: 0,0:17:25.28,0:17:27.35,DCMain,YONEZAWA,0000,0000,0000,,The smell got on him then.
+Dialogue: 0,0:17:29.02,0:17:31.52,DCMain,YONEZAWA,0000,0000,0000,,Besides, I've got an alibi.
+Dialogue: 0,0:17:32.47,0:17:35.84,DCMain,KOGORO,0000,0000,0000,,You used to do it all the time \Nwhile accepting reservations.
+Dialogue: 0,0:17:36.51,0:17:39.39,DCFlashback,YONEZAWA,0000,0000,0000,,Three people an hour from now?
+Dialogue: 0,0:17:39.39,0:17:41.56,DCFlashback,YONEZAWA,0000,0000,0000,,Yes. Yes.
+Dialogue: 0,0:17:42.20,0:17:45.66,DCMain,KOGORO,0000,0000,0000,,You'd hold your phone between \Nyour shoulder and cheek.
+Dialogue: 0,0:17:47.21,0:17:50.69,DCMain,YONEZAWA,0000,0000,0000,,If I did it, then what's the weapon?
+Dialogue: 0,0:17:50.69,0:17:53.10,DCMain,MEGURE,0000,0000,0000,,That's right, Mori-kun.
+Dialogue: 0,0:17:53.10,0:17:54.51,DCMain,KOGORO,0000,0000,0000,,Inspector?
+Dialogue: 0,0:17:54.51,0:18:01.10,DCMain,TAKAGI,0000,0000,0000,,You weren't there, but we found a bottle we \Nbelieve is the weapon in Fumio-san's shop.
+Dialogue: 0,0:18:01.10,0:18:03.31,DCMain,FUMIO,0000,0000,0000,,I didn't do it!
+Dialogue: 0,0:18:03.31,0:18:05.81,DCMain,YAMAURA,0000,0000,0000,,What's going on, Detective?
+Dialogue: 0,0:18:05.81,0:18:10.44,DCMain,KOGORO,0000,0000,0000,,What? Well, uh...
+Dialogue: 0,0:18:11.01,0:18:14.32,DCItalic,CONAN,0000,0000,0000,,I don't have a choice. Sorry, old man.
+Dialogue: 0,0:18:16.19,0:18:17.61,DCMain,KOGORO,0000,0000,0000,,Asafoetida!
+Dialogue: 0,0:18:19.32,0:18:21.57,DCMain,TAKAGI,0000,0000,0000,,He's sleeping now?
+Dialogue: 0,0:18:21.57,0:18:24.58,DCMain,KOGORO,0000,0000,0000,,The bottle isn't the weapon.
+Dialogue: 0,0:18:25.06,0:18:26.83,DCMain,MEGURE,0000,0000,0000,,Then what is it?
+Dialogue: 0,0:18:26.83,0:18:29.52,DCMain,KOGORO,0000,0000,0000,,It's right in front of you.
+Dialogue: 0,0:18:29.52,0:18:30.88,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:18:30.88,0:18:33.96,DCMain,KOGORO,0000,0000,0000,,It's hard frozen bread dough.
+Dialogue: 0,0:18:33.96,0:18:37.13,DCMain,KOGORO,0000,0000,0000,,Though it's beginning to thaw.
+Dialogue: 0,0:18:37.13,0:18:38.47,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:18:38.86,0:18:44.97,DCMain,KOGORO,0000,0000,0000,,Even if fingerprints get on it, \Nnothing will be left once it's baked.
+Dialogue: 0,0:18:45.59,0:18:50.23,DCMain,KOGORO,0000,0000,0000,,That's why you took it to the bathroom \Nwithout even wrapping it in plastic.
+Dialogue: 0,0:18:51.24,0:18:52.48,DCMain,YONEZAWA,0000,0000,0000,,Where's the proof?
+Dialogue: 0,0:18:52.84,0:18:54.34,DCMain,KOGORO,0000,0000,0000,,Oh, I've got proof.
+Dialogue: 0,0:18:54.34,0:19:00.24,DCMain,KOGORO,0000,0000,0000,,You left behind a huge piece of evidence \Nby trying not to leave any behind.
+Dialogue: 0,0:19:00.84,0:19:05.49,DCMain,CONAN,0000,0000,0000,,Look. This powder was on \Nthe ground near the bathroom.
+Dialogue: 0,0:19:05.49,0:19:06.67,DCMain,MEGURE,0000,0000,0000,,Powder?
+Dialogue: 0,0:19:06.67,0:19:11.25,DCMain,TAKAGI,0000,0000,0000,,You mean there was flour typically \Nsprinkled on bread dough on the ground?
+Dialogue: 0,0:19:11.25,0:19:16.03,DCMain,YONEZAWA,0000,0000,0000,,Unfortunately, I think that's soba flour.
+Dialogue: 0,0:19:16.63,0:19:21.76,DCMain,YONEZAWA,0000,0000,0000,,Kusumi's jacket was covered in soba flour, \Nso of course it was on the ground.
+Dialogue: 0,0:19:21.76,0:19:25.64,DCMain,CONAN,0000,0000,0000,,There was soba flour everywhere, \Nbut this is different.
+Dialogue: 0,0:19:25.64,0:19:27.68,DCMain,YONEZAWA,0000,0000,0000,,Different how?
+Dialogue: 0,0:19:28.13,0:19:29.68,DCMain,CONAN,0000,0000,0000,,Watch this.
+Dialogue: 0,0:19:32.50,0:19:33.69,DCMain,CONAN,0000,0000,0000,,There.
+Dialogue: 0,0:19:33.69,0:19:36.32,DCMain,YONEZAWA,0000,0000,0000,,What? So, what?
+Dialogue: 0,0:19:36.32,0:19:41.57,DCMain,CONAN,0000,0000,0000,,I see. Since you only knead \Nbread dough, you don't know.
+Dialogue: 0,0:19:42.30,0:19:46.12,DCMain,CONAN,0000,0000,0000,,Soba flour doesn't become sticky even \Nwhen you knead it with cold water.
+Dialogue: 0,0:19:46.12,0:19:49.20,DCMain,CONAN,0000,0000,0000,,That's why they use hot water to make soba.
+Dialogue: 0,0:19:51.41,0:19:53.20,DCMain,KOGORO,0000,0000,0000,,Tell me.
+Dialogue: 0,0:19:53.74,0:19:59.44,DCMain,KOGORO,0000,0000,0000,,Why was there wheat flour mixed in with \Nthe soba flour on Kusumi-san's clothes?
+Dialogue: 0,0:20:01.18,0:20:03.43,DCMain,YONEZAWA,0000,0000,0000,,I can't believe some flour did me in.
+Dialogue: 0,0:20:03.43,0:20:05.21,DCMain,KOGORO,0000,0000,0000,,It wasn't just the flour.
+Dialogue: 0,0:20:05.63,0:20:08.02,DCMain,KOGORO,0000,0000,0000,,I thought it was strange from the start.
+Dialogue: 0,0:20:08.46,0:20:11.81,DCMain,KOGORO,0000,0000,0000,,Why did the culprit close the door?
+Dialogue: 0,0:20:12.16,0:20:16.06,DCMain,KOGORO,0000,0000,0000,,If the door hadn't been closed, this case \Nlikely would've been treated as an accident.
+Dialogue: 0,0:20:18.17,0:20:25.45,DCMain,KOGORO,0000,0000,0000,,Closing the door was necessary because \Nthe culprit wanted to frame Fumio-chan.
+Dialogue: 0,0:20:28.56,0:20:31.23,DCMain,YONEZAWA,0000,0000,0000,,You knew all that?
+Dialogue: 0,0:20:31.91,0:20:35.71,DCMain,YONEZAWA,0000,0000,0000,,You certainly are a great detective.
+Dialogue: 0,0:20:36.64,0:20:37.71,DCMain,KOGORO,0000,0000,0000,,Yonezawa...
+Dialogue: 0,0:20:41.24,0:20:44.52,DCMain,YONEZAWA,0000,0000,0000,,That's right. I killed him.
+Dialogue: 0,0:20:45.19,0:20:50.84,DCMain,YONEZAWA,0000,0000,0000,,I killed the jerk who harassed \Nthe soba shop owner to death.
+Dialogue: 0,0:20:52.45,0:20:56.09,DCMain,YONEZAWA,0000,0000,0000,,I told Kusumi I wanted to speak to \Nhim where we wouldn't be seen.
+Dialogue: 0,0:20:56.68,0:20:58.82,DCMain,YONEZAWA,0000,0000,0000,,After striking his head,
+Dialogue: 0,0:20:58.82,0:21:03.18,DCMain,YONEZAWA,0000,0000,0000,,I hit his head against the door \Nfor the old man,
+Dialogue: 0,0:21:03.18,0:21:05.95,DCMain,YONEZAWA,0000,0000,0000,,went outside, and closed the door.
+Dialogue: 0,0:21:06.86,0:21:07.82,DCMain,KOGORO,0000,0000,0000,,You mean...
+Dialogue: 0,0:21:07.82,0:21:12.08,DCMain,YONEZAWA,0000,0000,0000,,That's right. I'm the one who \Nput the fake weapon there.
+Dialogue: 0,0:21:12.46,0:21:17.33,DCMain,YAMAURA,0000,0000,0000,,But why frame our friend Fumio-chan?
+Dialogue: 0,0:21:17.33,0:21:21.13,DCMain,FUMIO,0000,0000,0000,,Probably because he heard I was \Nmoving to the train station building.
+Dialogue: 0,0:21:21.13,0:21:22.21,DCMain,YAMAURA,0000,0000,0000,,What?
+Dialogue: 0,0:21:22.21,0:21:27.09,DCMain,FUMIO,0000,0000,0000,,After saying we'd protect the old man's \Nalley together, I betrayed the group.
+Dialogue: 0,0:21:27.73,0:21:32.10,DCMain,YONEZAWA,0000,0000,0000,,Both you and I got our start here.
+Dialogue: 0,0:21:32.10,0:21:36.04,DCMain,YONEZAWA,0000,0000,0000,,The old man taught us everything \Nwe know about business.
+Dialogue: 0,0:21:36.56,0:21:41.98,DCMain,YONEZAWA,0000,0000,0000,,How could you face the old man \Nafter being first to leave?
+Dialogue: 0,0:21:43.46,0:21:47.11,DCMain,KOGORO,0000,0000,0000,,But the one who disgraced himself most is...
+Dialogue: 0,0:21:47.96,0:21:51.36,DCMain,YONEZAWA,0000,0000,0000,,Yeah. That's right, Detective.
+Dialogue: 0,0:21:51.36,0:21:52.75,DCMain,YONEZAWA,0000,0000,0000,,It's me.
+Dialogue: 0,0:23:27.91,0:23:29.77,DCMain,KOGORO,0000,0000,0000,,So this is it.
+Dialogue: 0,0:23:29.77,0:23:32.38,DCMain,KOGORO,0000,0000,0000,,I used to come here when I was broke.
+Dialogue: 0,0:23:32.38,0:23:35.15,DCMain,KOGORO,0000,0000,0000,,They fed me oden all the time.
+Dialogue: 0,0:23:36.10,0:23:38.78,DCMain,KOGORO,0000,0000,0000,,Oden-den-den, Oden-den-den!
+Dialogue: 0,0:23:36.89,0:23:39.19,DCItalic,CONAN,0000,0000,0000,,Here, too?
+Dialogue: 0,0:23:39.19,0:23:42.79,DCItalic,CONAN,0000,0000,0000,,How many alleys does \Nthe old man remember fondly?

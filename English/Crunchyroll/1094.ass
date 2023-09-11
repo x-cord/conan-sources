@@ -1,0 +1,361 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Murata,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H007C323C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0060,0020,0062,0
+Style: Yanagimachi,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H007C352F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0090,0295,0062,0
+Style: Ichihashi,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H008B5168,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0030,0020,0062,0
+Style: Code,Trebuchet MS,18,&H000B0B0B,&H000000FF,&H00D7D7D7,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Letters,Trebuchet MS,20,&H000B0B0B,&H000000FF,&H00D7D7D7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Library,Trebuchet MS,24,&H00454845,&H000000FF,&H00F5F8F5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Mori,Trebuchet MS,22,&H00EEE6DE,&H000000FF,&H005A503D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0090,0
+Style: Coffee,Trebuchet MS,22,&H008C86E7,&H000000FF,&H00514938,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0095,0020,0160,0
+Style: Beika,Trebuchet MS,22,&H00E8E6E2,&H000000FF,&H007A513A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: Class,Trebuchet MS,24,&H00636560,&H000000FF,&H00F6F8F1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Reunion3,Times New Roman,22,&H00484E46,&H000000FF,&H00E7EFEC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0200,0020,0020,0
+Style: ArtPlacard,Trebuchet MS,16,&H004F534F,&H000000FF,&H00E3E4E1,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Miyano,Trebuchet MS,18,&H0072777C,&H000000FF,&H00D3D6D3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0170,0020,0
+Style: Capsule,Trebuchet MS,22,&H0003070C,&H000000FF,&H00C2CDD4,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: PhotoMessage,Trebuchet MS,22,&H0000001C,&H000000FF,&H00E5E3E1,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Reunion2,Times New Roman,22,&H006F685C,&H000000FF,&H00E7EFEC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Reunion,Trebuchet MS,22,&H009DEFED,&H000000FF,&H00586740,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.95,0:00:04.85,DCMain,CONAN,0000,0000,0000,,We arrived at school to \Ntake care of the animals,
+Dialogue: 0,0:00:04.85,0:00:06.61,Murata,SIGN,0000,0000,0000,,Murata Sho (25) \NFormer Class President
+Dialogue: 0,0:00:05.27,0:00:09.47,DCMain,CONAN,0000,0000,0000,,{\an8}where we met three members of Teitan \NElementary School's 19th graduating class.
+Dialogue: 0,0:00:06.61,0:00:08.36,Yanagimachi,SIGN,0000,0000,0000,,Yanagimachi Gaku (25) \NFormer Class Vice-President
+Dialogue: 0,0:00:08.36,0:00:10.11,Ichihashi,SIGN,0000,0000,0000,,Ichihashi Seiko (25) \NClass Secretary
+Dialogue: 0,0:00:10.11,0:00:12.76,DCMain,CONAN,0000,0000,0000,,The three of them were \Nsearching for the time capsule
+Dialogue: 0,0:00:12.76,0:00:16.78,DCMain,CONAN,0000,0000,0000,,left behind by their classmate \NMiyano Akemi-san, but...
+Dialogue: 0,0:00:14.41,0:00:15.49,Code,SIGN,0000,0000,0000,,Librarian Miyano Akemi
+Dialogue: 0,0:00:19.92,0:00:21.94,DCItalic,CONAN,0000,0000,0000,,Beyond detective skills capable \Nof identifying the truth
+Dialogue: 0,0:00:21.94,0:00:24.07,DCItalic,CONAN,0000,0000,0000,,is the power to lead us \Nto what we should believe.
+Dialogue: 0,0:00:24.07,0:00:27.96,DCItalic,CONAN,0000,0000,0000,,The code Miyano Akemi left behind \Ntravels across time to reach Haibara!
+Dialogue: 0,0:00:27.96,0:00:29.70,DCItalic,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:29.70,0:00:31.62,DCItalic,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:00:31.62,0:00:34.17,DCItalic,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:14.98,0:02:20.99,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(375,1)}Miyano Akemi's Time Capsule \N(Part Two)
+Dialogue: 0,0:02:15.23,0:02:18.61,DCMain,CONAN,0000,0000,0000,,"Miyano Akemi's Time Capsule, Part Two!"
+Dialogue: 0,0:02:23.33,0:02:26.00,DCMain,YANAGIMACHI,0000,0000,0000,,The next part of the code is "plane attack."
+Dialogue: 0,0:02:26.33,0:02:29.25,DCMain,YANAGIMACHI,0000,0000,0000,,An attack on a plane is called a hijacking.
+Dialogue: 0,0:02:29.71,0:02:33.00,DCMain,YANAGIMACHI,0000,0000,0000,,Since that's a jack that \Nhappens at high altitude,
+Dialogue: 0,0:02:33.51,0:02:39.51,DCMain,YANAGIMACHI,0000,0000,0000,,I thought it might mean the power \Njack for the clock in the auditorium.
+Dialogue: 0,0:02:39.88,0:02:41.46,DCMain,SEIKO,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:02:41.46,0:02:43.01,DCMain,MURATA,0000,0000,0000,,I see.
+Dialogue: 0,0:02:43.50,0:02:44.81,DCMain,SEIKO,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:02:46.01,0:02:47.47,DCMain,MURATA,0000,0000,0000,,Don't fall.
+Dialogue: 0,0:02:49.15,0:02:52.21,DCMain,YANAGIMACHI,0000,0000,0000,,High places are no problem for firefighters.
+Dialogue: 0,0:02:57.57,0:02:59.22,DCMain,SEIKO,0000,0000,0000,,Well?
+Dialogue: 0,0:02:59.22,0:03:01.08,DCMain,MURATA,0000,0000,0000,,Is there anything written up there?
+Dialogue: 0,0:03:06.70,0:03:11.21,DCMain,YANAGIMACHI,0000,0000,0000,,It's hard to read because of \Nall the dust, but there's an "u."
+Dialogue: 0,0:03:11.21,0:03:14.70,DCMain,KOBAYASHI,0000,0000,0000,,Combined with the first letter \Nwe found, we have "yo-u."
+Dialogue: 0,0:03:14.70,0:03:15.96,DCMain,KOBAYASHI,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:03:15.96,0:03:19.70,DCMain,WAKASA,0000,0000,0000,,We'll know once we have \Nthe remaining three letters.
+Dialogue: 0,0:03:21.33,0:03:28.43,DCMain,MURATA,0000,0000,0000,,The third code is "artist don't go," \Nso we came to the art room.
+Dialogue: 0,0:03:29.95,0:03:35.47,DCMain,SEIKO,0000,0000,0000,,But where should we look?
+Dialogue: 0,0:03:41.85,0:03:44.36,DCMain,YANAGIMACHI,0000,0000,0000,,What is it, kid?
+Dialogue: 0,0:03:45.60,0:03:47.03,DCMain,CONAN,0000,0000,0000,,Oh, you know.
+Dialogue: 0,0:03:47.88,0:03:50.04,DCMain,MURATA,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:03:50.04,0:03:55.36,DCMain,MURATA,0000,0000,0000,,Speaking of "don't go," we were prohibited \Nfrom drawing landscapes on the roof.
+Dialogue: 0,0:03:55.36,0:03:57.31,DCMain,SEIKO,0000,0000,0000,,I remember that.
+Dialogue: 0,0:03:57.31,0:04:02.39,DCMain,SEIKO,0000,0000,0000,,Someone nearly fell when the wind \Ncaught their drafting board.
+Dialogue: 0,0:04:02.39,0:04:04.77,DCMain,SEIKO,0000,0000,0000,,If the code's telling us not to \Ngo up to the roof to draw,
+Dialogue: 0,0:04:04.77,0:04:07.68,DCMain,SEIKO,0000,0000,0000,,then maybe there's something \Nwritten on the door to the roof.
+Dialogue: 0,0:04:07.68,0:04:09.47,DCMain,MURATA,0000,0000,0000,,Let's go, Yanagimachi.
+Dialogue: 0,0:04:09.83,0:04:10.77,DCMain,YANAGIMACHI,0000,0000,0000,,Sure.
+Dialogue: 0,0:04:16.52,0:04:18.27,DCMain,KOBAYASHI,0000,0000,0000,,Come on, Conan-kun.
+Dialogue: 0,0:04:21.40,0:04:24.41,Letters,SIGN PHOTO,0000,0000,0000,,Gu
+Dialogue: 0,0:04:26.66,0:04:29.16,Letters,SIGN DOORKNOB,0000,0000,0000,,Gu
+Dialogue: 0,0:04:27.07,0:04:29.16,DCMain,MURATA,0000,0000,0000,,There's a "gu".
+Dialogue: 0,0:04:29.16,0:04:34.16,DCMain,MURATA,0000,0000,0000,,There's a "gu" on the bottom of \Nthe doorknob of the door to the roof.
+Dialogue: 0,0:04:34.16,0:04:38.29,DCMain,SEIKO,0000,0000,0000,,I'm surprised it wasn't \Nscrubbed away after 13 years.
+Dialogue: 0,0:04:38.61,0:04:41.49,DCMain,KOBAYASHI,0000,0000,0000,,After that incident, the door was locked,
+Dialogue: 0,0:04:41.49,0:04:44.05,DCMain,KOBAYASHI,0000,0000,0000,,and hardly anyone was \Nallowed on the roof anymore.
+Dialogue: 0,0:04:44.05,0:04:47.30,DCMain,KOBAYASHI,0000,0000,0000,,Maybe it's because nobody \Ntouched the doorknob anymore.
+Dialogue: 0,0:04:47.30,0:04:50.73,DCMain,SEIKO,0000,0000,0000,,Oh, right. Akemi must've known that.
+Dialogue: 0,0:04:50.73,0:04:52.18,DCMain,SEIKO,0000,0000,0000,,Smart girl.
+Dialogue: 0,0:04:52.54,0:04:57.06,DCMain,YANAGIMACHI,0000,0000,0000,,Next is the fourth code, "doctor don't lie."
+Dialogue: 0,0:04:57.06,0:05:02.12,DCMain,SEIKO,0000,0000,0000,,I think I might know what that means.
+Dialogue: 0,0:05:06.54,0:05:07.70,DCMain,YANAGIMACHI,0000,0000,0000,,Hey, Ichihashi.
+Dialogue: 0,0:05:10.74,0:05:15.48,DCMain,MURATA,0000,0000,0000,,Is there really something down there?
+Dialogue: 0,0:05:16.54,0:05:20.04,Letters,SIGN FLOOR,0000,0000,0000,,Shi
+Dialogue: 0,0:05:17.99,0:05:20.04,DCMain,SEIKO,0000,0000,0000,,Found it.
+Dialogue: 0,0:05:20.45,0:05:22.34,DCMain,SEIKO,0000,0000,0000,,It's dark and hard to see,
+Dialogue: 0,0:05:22.75,0:05:26.09,DCMain,SEIKO,0000,0000,0000,,but there's a "shi" written \Nbehind one of the legs of the bed.
+Dialogue: 0,0:05:26.09,0:05:30.26,DCMain,YANAGIMACHI,0000,0000,0000,,But how'd you get under the bed \Nfrom "doctor don't lie?"
+Dialogue: 0,0:05:30.26,0:05:37.60,DCMain,SEIKO,0000,0000,0000,,Lots of kids faked being sick so \Nthey could lie in bed and skip class.
+Dialogue: 0,0:05:37.60,0:05:43.47,DCMain,KOBAYASHI,0000,0000,0000,,I see. So it means "don't lie \Nto the school nurse."
+Dialogue: 0,0:05:40.11,0:05:42.11,Letters,SIGN SCALE,0000,0000,0000,,Shi
+Dialogue: 0,0:05:42.11,0:05:44.11,Letters,SIGN SCALE,0000,0000,0000,,Shi
+Dialogue: 0,0:05:44.11,0:05:49.53,DCMain,YANAGIMACHI,0000,0000,0000,,When you string together the four letters \Nwe've found so far, you get "yougushi".
+Dialogue: 0,0:05:49.53,0:05:53.63,DCMain,MURATA,0000,0000,0000,,Even if we can't figure out \Nthe last code about charm 89...
+Dialogue: 0,0:05:53.63,0:05:56.19,DCMain,SEIKO,0000,0000,0000,,It's obviously tool shed (yougusitsu).
+Dialogue: 0,0:05:56.19,0:05:57.12,DCMain,YANAGIMACHI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:57.12,0:06:00.93,DCMain,MURATA,0000,0000,0000,,Then let's head there and \Nlook for the time capsule.
+Dialogue: 0,0:06:00.93,0:06:02.55,DCMain,KOBAYASHI,0000,0000,0000,,Oh, but...
+Dialogue: 0,0:06:03.49,0:06:06.63,DCMain,KOBAYASHI,0000,0000,0000,,I believe that tool shed was...
+Dialogue: 0,0:06:06.63,0:06:09.26,Library,SIGN,0000,0000,0000,,Library
+Dialogue: 0,0:06:07.52,0:06:09.26,DCMain,KOBAYASHI,0000,0000,0000,,Just like I thought.
+Dialogue: 0,0:06:09.60,0:06:12.26,DCMain,KOBAYASHI,0000,0000,0000,,The tool shed that was \Nlocated on the edge of the yard
+Dialogue: 0,0:06:12.26,0:06:17.14,DCMain,KOBAYASHI,0000,0000,0000,,was removed ten years ago due to \Ndeterioration and replaced with a bathroom.
+Dialogue: 0,0:06:17.47,0:06:19.08,DCMain,MURATA,0000,0000,0000,,What?
+Dialogue: 0,0:06:19.47,0:06:20.92,DCMain,YANAGIMACHI,0000,0000,0000,,Seriously?
+Dialogue: 0,0:06:20.92,0:06:24.03,DCMain,SEIKO,0000,0000,0000,,Does that mean the time \Ncapsule is gone, too?
+Dialogue: 0,0:06:24.03,0:06:25.07,DCMain,KOBAYASHI,0000,0000,0000,,Probably.
+Dialogue: 0,0:06:27.23,0:06:30.42,DCMain,WAKASA,0000,0000,0000,,But why did we look that up \Non the computer in the library?
+Dialogue: 0,0:06:30.42,0:06:34.40,DCMain,KOBAYASHI,0000,0000,0000,,There are other computers \Nwith school documents on them,
+Dialogue: 0,0:06:34.40,0:06:38.16,DCMain,KOBAYASHI,0000,0000,0000,,but this is the only one that \Ndoesn't require a password.
+Dialogue: 0,0:06:38.16,0:06:40.02,DCMain,WAKASA,0000,0000,0000,,I see.
+Dialogue: 0,0:06:40.64,0:06:45.17,DCMain,WAKASA,0000,0000,0000,,Either way, that's a rather old computer.
+Dialogue: 0,0:06:45.17,0:06:46.61,DCMain,KOBAYASHI,0000,0000,0000,,Yes.
+Dialogue: 0,0:06:47.30,0:06:52.26,DCMain,KOBAYASHI,0000,0000,0000,,Though it was brand new back \Nwhen I was a school librarian.
+Dialogue: 0,0:06:53.05,0:06:58.81,DCMain,KOBAYASHI,0000,0000,0000,,This reminds me of how \NI used to organize books here.
+Dialogue: 0,0:07:03.93,0:07:10.95,DCItalic,CONAN,0000,0000,0000,,I see. That's why "Librarian Miyano \NAkemi" was oriented that way.
+Dialogue: 0,0:07:06.44,0:07:10.95,Code,SIGN,0000,0000,0000,,Librarian Miyano Akemi \N\NShow me a Monet \NPlane attack \NArtist don't go \NDoctor don't lie \NDon't burn charm 89
+Dialogue: 0,0:07:11.86,0:07:16.05,DCItalic,CONAN,0000,0000,0000,,I figured it out. I know \Nwhere the time capsule is,
+Dialogue: 0,0:07:16.05,0:07:20.33,DCItalic,CONAN,0000,0000,0000,,and that they've been \Ninterfering with our search.
+Dialogue: 0,0:07:21.52,0:07:23.18,DCFlashback,AKEMI,0000,0000,0000,,Be brave.
+Dialogue: 0,0:07:25.32,0:07:28.09,DCFlashback,AKEMI,0000,0000,0000,,Be brave.
+Dialogue: 0,0:07:31.59,0:07:35.35,Mori,SIGN TOP LEFT,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:07:31.59,0:07:35.35,Coffee,SIGN BOTTOM LEFT,0000,0000,0000,,Coffee Poirot
+Dialogue: 0,0:07:34.04,0:07:36.44,DCMain,WAKITA,0000,0000,0000,,Okay, that's ten standard combos.
+Dialogue: 0,0:07:35.35,0:07:38.85,Beika,SIGN,0000,0000,0000,,Beika Irohazushi
+Dialogue: 0,0:07:36.44,0:07:38.85,DCMain,WAKITA,0000,0000,0000,,To Teitan Elementary School, right?
+Dialogue: 0,0:07:39.95,0:07:44.44,DCMain,MURATA,0000,0000,0000,,It's unfortunate, but we'd better \Nreport this to the rest of the class.
+Dialogue: 0,0:07:44.78,0:07:49.94,DCMain,MURATA,0000,0000,0000,,The tool shed where the time \Ncapsule was hidden was removed,
+Dialogue: 0,0:07:50.30,0:07:53.70,DCMain,MURATA,0000,0000,0000,,so we can't find it anymore.
+Dialogue: 0,0:07:53.70,0:08:00.83,DCMain,YANAGIMACHI,0000,0000,0000,,Then why don't we try to remember what \Nwe put in it and tell the rest of the class?
+Dialogue: 0,0:08:01.33,0:08:05.33,DCMain,SEIKO,0000,0000,0000,,That's a good idea, even \Nif it is a little embarrassing.
+Dialogue: 0,0:08:05.68,0:08:09.68,DCMain,MURATA,0000,0000,0000,,We'll head back to the classroom \Nwhere the reunion's being held.
+Dialogue: 0,0:08:10.40,0:08:12.48,DCMain,CONAN,0000,0000,0000,,It's a shame, though.
+Dialogue: 0,0:08:12.48,0:08:13.63,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:08:13.63,0:08:15.63,DCMain,CONAN,0000,0000,0000,,About the tool shed.
+Dialogue: 0,0:08:15.63,0:08:19.72,DCMain,CONAN,0000,0000,0000,,This computer is old, but it's still useful.
+Dialogue: 0,0:08:19.72,0:08:22.27,DCMain,CONAN,0000,0000,0000,,It's a shame to get rid of \Nsomething just because it's old.
+Dialogue: 0,0:08:22.27,0:08:27.63,DCMain,CONAN,0000,0000,0000,,Look. The positions of the keys on \Nthis keyboard are mostly the same,
+Dialogue: 0,0:08:27.63,0:08:31.03,DCMain,CONAN,0000,0000,0000,,so you could use it for years \Nwithout replacing it.
+Dialogue: 0,0:08:32.56,0:08:34.03,DCItalic,CULPRIT,0000,0000,0000,,The keyboard!
+Dialogue: 0,0:08:34.03,0:08:38.48,DCMain,KOBAYASHI,0000,0000,0000,,Well, the tool shed leaked \Nand was in terrible shape.
+Dialogue: 0,0:08:38.48,0:08:39.94,DCMain,CONAN,0000,0000,0000,,Oh, I see.
+Dialogue: 0,0:08:40.79,0:08:45.69,DCMain,WAKASA,0000,0000,0000,,Why don't you return to your \Nfriends at the animal shed?
+Dialogue: 0,0:08:45.69,0:08:46.92,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:46.92,0:08:50.95,DCMain,CONAN,0000,0000,0000,,They contacted me using our \Ndetective badges earlier.
+Dialogue: 0,0:08:50.95,0:08:55.18,DCMain,CONAN,0000,0000,0000,,They're almost done caring for the rabbits, \Nso they suggested we go home together.
+Dialogue: 0,0:08:55.66,0:08:57.68,DCMain,CONAN,0000,0000,0000,,See you later, Sensei.
+Dialogue: 0,0:08:58.25,0:08:59.69,DCMain,KOBAYASHI,0000,0000,0000,,Okay!
+Dialogue: 0,0:09:00.31,0:09:04.26,DCMain,SEIKO,0000,0000,0000,,Kids these days carry detective badges?
+Dialogue: 0,0:09:04.56,0:09:06.64,DCMain,KOBAYASHI,0000,0000,0000,,Just those kids.
+Dialogue: 0,0:09:12.30,0:09:14.70,DCMain,CONAN,0000,0000,0000,,It's me. How are things over there?
+Dialogue: 0,0:09:15.83,0:09:18.72,DCMain,AYUMI,0000,0000,0000,,We finally heard from Conan-kun.
+Dialogue: 0,0:09:18.72,0:09:20.19,DCMain,GENTA,0000,0000,0000,,Took you long enough.
+Dialogue: 0,0:09:20.19,0:09:23.58,DCMain,MITSUHIKO,0000,0000,0000,,We finished caring for \Nanimals a long time ago.
+Dialogue: 0,0:09:23.96,0:09:27.63,DCMain,HAIBARA,0000,0000,0000,,So, where's the time capsule?
+Dialogue: 0,0:09:27.63,0:09:29.63,DCItalic,CONAN,0000,0000,0000,,We haven't found it yet, but...
+Dialogue: 0,0:09:30.68,0:09:34.83,DCMain,CONAN,0000,0000,0000,,You guys are going to look for it.
+Dialogue: 0,0:09:39.51,0:09:42.97,Class,SIGN,0000,0000,0000,,{\fad(210,1)}Class 6-A
+Dialogue: 0,0:09:41.10,0:09:42.97,Reunion3,SIGN,0000,0000,0000,,19th Graduating Class \NClass Reunion
+Dialogue: 0,0:10:08.90,0:10:10.19,DCItalic,CULPRIT,0000,0000,0000,,Damn it.
+Dialogue: 0,0:10:13.03,0:10:14.33,DCItalic,CULPRIT,0000,0000,0000,,Where is it?
+Dialogue: 0,0:10:17.60,0:10:20.87,DCItalic,CULPRIT,0000,0000,0000,,Where should I look?
+Dialogue: 0,0:10:22.22,0:10:24.56,DCMain,CONAN,0000,0000,0000,,I knew it was you.
+Dialogue: 0,0:10:30.06,0:10:33.48,DCMain,CONAN,0000,0000,0000,,Our search was being obstructed by
+Dialogue: 0,0:10:34.65,0:10:38.75,DCMain,CONAN,0000,0000,0000,,Yanagimachi Gaku-san the firefighter.
+Dialogue: 0,0:10:40.32,0:10:43.18,DCMain,YANAGIMACHI,0000,0000,0000,,O-Obstructed? What are you talking about?
+Dialogue: 0,0:10:43.18,0:10:47.95,DCMain,YANAGIMACHI,0000,0000,0000,,I just realized where the time \Ncapsule's actually hidden.
+Dialogue: 0,0:10:48.44,0:10:53.33,DCMain,CONAN,0000,0000,0000,,But you did obstruct our search \Nby planting a bunch of fake answers.
+Dialogue: 0,0:10:53.33,0:10:54.13,DCMain,YANAGIMACHI,0000,0000,0000,,What?
+Dialogue: 0,0:10:54.13,0:10:58.51,DCMain,CONAN,0000,0000,0000,,The third code is "artist don't go."
+Dialogue: 0,0:10:58.51,0:11:02.01,DCMain,CONAN,0000,0000,0000,,Because drawing on the roof was prohibited,
+Dialogue: 0,0:11:02.01,0:11:06.01,DCMain,CONAN,0000,0000,0000,,there was a "gu" written on the \Ndoorknob of the door to the roof.
+Dialogue: 0,0:11:06.34,0:11:11.39,DCMain,CONAN,0000,0000,0000,,But there was also a "gu" written next to \Nthe number seven on the clock in the art room
+Dialogue: 0,0:11:11.39,0:11:17.53,DCMain,CONAN,0000,0000,0000,,so we'd find it even if we thought the answer \Nwas 197 (i-ku-na, "don't go"), or 19:07.
+Dialogue: 0,0:11:17.53,0:11:22.03,DCMain,CONAN,0000,0000,0000,,The same goes for the fourth \Ncode, "doctor don't lie."
+Dialogue: 0,0:11:22.64,0:11:28.16,DCMain,CONAN,0000,0000,0000,,Because some students faked being sick so \Nthey could lie in bed at the nurse's office,
+Dialogue: 0,0:11:28.16,0:11:31.29,DCMain,CONAN,0000,0000,0000,,there was a "shi" beneath the bed.
+Dialogue: 0,0:11:31.71,0:11:35.79,DCMain,CONAN,0000,0000,0000,,But there was also a "shi" \Non the back of the scale.
+Dialogue: 0,0:11:35.79,0:11:42.05,DCMain,CONAN,0000,0000,0000,,I'm sure some students stretched as tall \Nas they could to lie about their height.
+Dialogue: 0,0:11:43.80,0:11:46.81,ArtPlacard,SIGN,0000,0000,0000,,Class 6-A \NMurata Sho
+Dialogue: 0,0:11:43.80,0:11:46.81,DCMain,CONAN,0000,0000,0000,,The first code is "show me a Monet,"
+Dialogue: 0,0:11:46.81,0:11:50.56,DCMain,CONAN,0000,0000,0000,,and we found a "yo" on the wall behind \Nthe painting in the principal's office.
+Dialogue: 0,0:11:51.31,0:11:55.72,DCMain,CONAN,0000,0000,0000,,But there wasn't anything written \Nthere when I looked earlier.
+Dialogue: 0,0:11:57.43,0:12:03.10,DCMain,CONAN,0000,0000,0000,,In other words, you left fake answers
+Dialogue: 0,0:12:03.10,0:12:05.63,DCMain,CONAN,0000,0000,0000,,in all the places you thought \Nthe code could refer to
+Dialogue: 0,0:12:06.04,0:12:09.61,DCMain,CONAN,0000,0000,0000,,when we first split up and \Nsearched around the school,
+Dialogue: 0,0:12:09.61,0:12:15.17,DCMain,CONAN,0000,0000,0000,,knowing someone would find \Nthem on our second search.
+Dialogue: 0,0:12:15.17,0:12:22.26,DCMain,CONAN,0000,0000,0000,,That's why you didn't write an \Nanswer for "don't burn charm 89."
+Dialogue: 0,0:12:22.26,0:12:26.29,DCMain,CONAN,0000,0000,0000,,Since the previous letters were yo-u-gu-shi,
+Dialogue: 0,0:12:26.29,0:12:29.68,DCMain,CONAN,0000,0000,0000,,you figured we'd assume \Nit meant the tool shed.
+Dialogue: 0,0:12:29.68,0:12:33.94,DCMain,CONAN,0000,0000,0000,,And once we learned that shed \Nwas torn down ten years ago,
+Dialogue: 0,0:12:33.94,0:12:38.38,DCMain,CONAN,0000,0000,0000,,you expected us to give up the search.
+Dialogue: 0,0:12:39.41,0:12:44.34,DCMain,CONAN,0000,0000,0000,,But there was one place where you couldn't \Nwrite a letter during our first search.
+Dialogue: 0,0:12:44.70,0:12:50.70,DCMain,CONAN,0000,0000,0000,,That's the hijack that could be deduced \Nfrom the second code, "plane attack."
+Dialogue: 0,0:12:51.32,0:12:54.01,DCMain,CONAN,0000,0000,0000,,In other words, a power jack located up high.
+Dialogue: 0,0:12:54.36,0:12:56.81,DCMain,CONAN,0000,0000,0000,,The power jack for the clock \Nin the auditorium.
+Dialogue: 0,0:12:58.13,0:13:03.59,DCMain,CONAN,0000,0000,0000,,If you'd climbed a ladder to write \Nsomething up there during our first search,
+Dialogue: 0,0:13:03.59,0:13:05.88,DCMain,CONAN,0000,0000,0000,,someone would've found it suspicious,
+Dialogue: 0,0:13:05.88,0:13:09.98,DCMain,CONAN,0000,0000,0000,,but if you climbed the ladder yourself later \Nand said there was an "u" written there,
+Dialogue: 0,0:13:09.98,0:13:13.89,DCMain,CONAN,0000,0000,0000,,it's unlikely anyone would \Nclimb back up to check.
+Dialogue: 0,0:13:16.90,0:13:19.00,DCMain,CONAN,0000,0000,0000,,But you couldn't have \Nplanted these fake answers
+Dialogue: 0,0:13:19.00,0:13:24.90,DCMain,CONAN,0000,0000,0000,,unless you knew Miyano Akemi-san, the \Nperson who wrote this code, wouldn't show up.
+Dialogue: 0,0:13:24.90,0:13:28.08,DCMain,CONAN,0000,0000,0000,,If she revealed the real answer, \Nyou'd be exposed.
+Dialogue: 0,0:13:28.91,0:13:35.56,DCMain,CONAN,0000,0000,0000,,Since you're the one who sent out the class \Nreunion invitations, you knew, didn't you?
+Dialogue: 0,0:13:36.00,0:13:40.04,DCMain,CONAN,0000,0000,0000,,That Miyano Akemi-san \Nwouldn't be able to attend.
+Dialogue: 0,0:13:41.85,0:13:42.92,DCMain,YANAGIMACHI,0000,0000,0000,,Yeah...
+Dialogue: 0,0:13:44.92,0:13:50.18,DCMain,YANAGIMACHI,0000,0000,0000,,Since Akemi didn't respond, \NI visited her apartment.
+Dialogue: 0,0:13:50.18,0:13:55.10,Miyano,SIGN MAILBOX,0000,0000,0000,,Miyano
+Dialogue: 0,0:13:51.23,0:13:54.70,DCMain,YANAGIMACHI,0000,0000,0000,,It looked like she hadn't been home in days.
+Dialogue: 0,0:13:57.53,0:14:00.06,DCMain,KOBAYASHI,0000,0000,0000,,But why would you do this?
+Dialogue: 0,0:14:01.69,0:14:03.07,DCMain,YANAGIMACHI,0000,0000,0000,,I was scared.
+Dialogue: 0,0:14:03.62,0:14:11.30,DCMain,YANAGIMACHI,0000,0000,0000,,I was scared Akemi would reveal that I \Nsnuck into the school with some local punks
+Dialogue: 0,0:14:11.30,0:14:16.63,DCMain,YANAGIMACHI,0000,0000,0000,,and caused the fire in the music \Nroom by playing with fireworks.
+Dialogue: 0,0:14:18.31,0:14:20.58,DCMain,MURATA,0000,0000,0000,,Is that true?
+Dialogue: 0,0:14:20.58,0:14:25.97,DCMain,YANAGIMACHI,0000,0000,0000,,Yeah. Akemi happened to be at \Nschool and discovered us, so we ran.
+Dialogue: 0,0:14:25.97,0:14:28.88,DCMain,YANAGIMACHI,0000,0000,0000,,The music room next door \Nprobably caught fire
+Dialogue: 0,0:14:28.88,0:14:31.51,DCMain,YANAGIMACHI,0000,0000,0000,,because we didn't extinguish \Nour flames properly.
+Dialogue: 0,0:14:32.88,0:14:39.77,DCMain,YANAGIMACHI,0000,0000,0000,,So there's probably a \Nnote in the time capsule
+Dialogue: 0,0:14:40.10,0:14:46.28,DCMain,YANAGIMACHI,0000,0000,0000,,about how a current firefighter \Nis actually an arsonist.
+Dialogue: 0,0:14:47.97,0:14:51.78,DCMain,YANAGIMACHI,0000,0000,0000,,On the day of our graduation, \NAkemi told me...
+Dialogue: 0,0:14:52.60,0:14:55.77,DCFlashback,AKEMI,0000,0000,0000,,Be brave, Yanagimachi-kun.
+Dialogue: 0,0:14:56.15,0:14:57.54,DCMain,YANAGIMACHI,0000,0000,0000,,That's what she said.
+Dialogue: 0,0:14:58.25,0:15:02.15,DCMain,YANAGIMACHI,0000,0000,0000,,She was probably telling me \Nto turn myself in.
+Dialogue: 0,0:15:02.54,0:15:05.80,DCMain,WAKASA,0000,0000,0000,,And that's why you \Ninterfered with our search?
+Dialogue: 0,0:15:08.83,0:15:15.06,DCMain,SEIKO,0000,0000,0000,,I was planning to swipe Akemi's message \Nif we found the time capsule, too.
+Dialogue: 0,0:15:15.44,0:15:16.98,DCMain,MURATA,0000,0000,0000,,Ichihashi...
+Dialogue: 0,0:15:17.66,0:15:21.48,DCMain,SEIKO,0000,0000,0000,,I once copied Akemi's answers \Nfor a Japanese language test
+Dialogue: 0,0:15:21.48,0:15:23.56,DCMain,SEIKO,0000,0000,0000,,because she sat in front of me.
+Dialogue: 0,0:15:24.00,0:15:29.05,DCMain,SEIKO,0000,0000,0000,,A teacher asked to meet with us over it.
+Dialogue: 0,0:15:31.58,0:15:33.32,DCMain,MURATA,0000,0000,0000,,Me, too, actually.
+Dialogue: 0,0:15:34.33,0:15:39.07,DCMain,MURATA,0000,0000,0000,,Akemi-chan painted the same location \Nas my painting that won an award.
+Dialogue: 0,0:15:39.41,0:15:44.33,DCMain,MURATA,0000,0000,0000,,Even though hers was clearly \Nbetter, only I won an award.
+Dialogue: 0,0:15:44.80,0:15:48.84,DCMain,MURATA,0000,0000,0000,,She probably wrote about \Nthat in her message.
+Dialogue: 0,0:15:52.29,0:15:54.34,DCMain,CONAN,0000,0000,0000,,There's no way she'd do any of that!
+Dialogue: 0,0:15:57.18,0:16:03.56,DCMain,CONAN,0000,0000,0000,,She was kind, considerate, and \Npopular with the whole class.
+Dialogue: 0,0:16:04.05,0:16:09.32,DCMain,CONAN,0000,0000,0000,,She'd never leave a negative \Nmessage like that!
+Dialogue: 0,0:16:12.38,0:16:15.85,DCMain,MURATA,0000,0000,0000,,But we won't know unless we \Nfind and open the time capsule.
+Dialogue: 0,0:16:15.85,0:16:17.75,DCMain,CONAN,0000,0000,0000,,We've already found it.
+Dialogue: 0,0:16:17.75,0:16:18.45,DCMain,SEIKO,0000,0000,0000,,What?
+Dialogue: 0,0:16:18.86,0:16:20.33,DCMain,CONAN,0000,0000,0000,,Unlike the rest of the letters,
+Dialogue: 0,0:16:20.33,0:16:27.59,Code,SIGN,0000,0000,0000,,{\fad(1,730)}Librarian Miyano Akemi \N\NShow me a Monet \NPlane attack \NArtist don't go \NDoctor don't lie \NDon't burn charm 89
+Dialogue: 0,0:16:20.65,0:16:26.92,DCMain,CONAN,0000,0000,0000,,"Librarian Miyano Akemi" was \Noriented differently, right?
+Dialogue: 0,0:16:26.92,0:16:31.39,DCMain,CONAN,0000,0000,0000,,That's meant to represent herself \Ndoing her job as a school librarian.
+Dialogue: 0,0:16:31.39,0:16:37.10,DCMain,CONAN,0000,0000,0000,,So her name is the chair, \Nand the code is the keyboard.
+Dialogue: 0,0:16:37.10,0:16:43.00,DCMain,CONAN,0000,0000,0000,,If you rotate the keyboard \N90 degrees clockwise
+Dialogue: 0,0:16:43.00,0:16:47.90,DCMain,CONAN,0000,0000,0000,,and connect the keys for \Nmo-ne-mi-se-ra-re-ru (show me a Monet),
+Dialogue: 0,0:16:49.63,0:16:50.61,DCMain,CONAN,0000,0000,0000,,you get "shi."
+Dialogue: 0,0:16:50.61,0:16:53.64,DCMain,CONAN,0000,0000,0000,,Hi-ko-u-ki-o-so-e (plane attack)
+Dialogue: 0,0:16:55.08,0:16:56.11,DCMain,CONAN,0000,0000,0000,,is "i."
+Dialogue: 0,0:16:56.11,0:17:00.55,DCMain,CONAN,0000,0000,0000,,If you read the last bit of e-ka-ki-i-ku-na \N(artist don't go) as yu-ku-na,
+Dialogue: 0,0:17:02.31,0:17:03.37,DCMain,CONAN,0000,0000,0000,,you get "ku."
+Dialogue: 0,0:17:04.80,0:17:07.88,DCMain,CONAN,0000,0000,0000,,The fourth code, I-sha-u-so-ko-ku-na,
+Dialogue: 0,0:17:10.03,0:17:11.05,DCMain,CONAN,0000,0000,0000,,is "ko."
+Dialogue: 0,0:17:12.46,0:17:17.90,DCMain,CONAN,0000,0000,0000,,The 8 and 9 in 8-9-no-o-ma-mo-ri-ya-ku-na \N(don't burn charm 89) are the function keys.
+Dialogue: 0,0:17:17.90,0:17:20.56,DCMain,CONAN,0000,0000,0000,,When compared against the library's computer,
+Dialogue: 0,0:17:23.08,0:17:23.84,DCMain,CONAN,0000,0000,0000,,you get "ya."
+Dialogue: 0,0:17:25.64,0:17:28.90,DCMain,CONAN,0000,0000,0000,,String them together, and you get
+Dialogue: 0,0:17:29.56,0:17:32.32,DCMain,CONAN,0000,0000,0000,,animal shed (shiikugoya).
+Dialogue: 0,0:17:35.03,0:17:36.53,DCMain,KOBAYASHI,0000,0000,0000,,I see.
+Dialogue: 0,0:17:36.53,0:17:40.59,DCMain,CONAN,0000,0000,0000,,And you came here because \Nyou figured that out, right?
+Dialogue: 0,0:17:40.59,0:17:42.29,DCMain,YANAGIMACHI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:17:42.29,0:17:44.47,DCMain,KOBAYASHI,0000,0000,0000,,So, where's the capsule?
+Dialogue: 0,0:17:44.47,0:17:45.96,DCMain,GENTA,0000,0000,0000,,We found it.
+Dialogue: 0,0:17:45.96,0:17:48.49,DCMain,AYUMI,0000,0000,0000,,It was taped to the roof of the shed.
+Dialogue: 0,0:17:48.49,0:17:52.05,DCMain,MITSUHIKO,0000,0000,0000,,It was hidden behind a false roof.
+Dialogue: 0,0:17:52.05,0:17:55.25,DCMain,CONAN,0000,0000,0000,,And just in case it fell...
+Dialogue: 0,0:17:55.25,0:17:58.83,DCMain,HAIBARA,0000,0000,0000,,This note was taped to the lid of the box.
+Dialogue: 0,0:17:56.38,0:17:59.14,Capsule,SIGN,0000,0000,0000,,This is the 19th graduating class' time capsule! Please contact a teacher if found.
+Dialogue: 0,0:17:59.79,0:18:02.51,DCMain,MURATA,0000,0000,0000,,Th-Then what about Akemi-chan's message?
+Dialogue: 0,0:18:02.51,0:18:04.48,DCMain,CONAN,0000,0000,0000,,It was written right here,
+Dialogue: 0,0:18:05.86,0:18:08.76,DCMain,CONAN,0000,0000,0000,,on the back of a group photo.
+Dialogue: 0,0:18:10.56,0:18:15.90,PhotoMessage,SIGN,0000,0000,0000,,I hope all our dreams come true \NClass 6-A Miyano Akemi
+Dialogue: 0,0:18:11.51,0:18:15.56,DCMain,CONAN,0000,0000,0000,,It says, "I hope all our dreams come true."
+Dialogue: 0,0:18:22.18,0:18:23.59,DCMain,SEIKO,0000,0000,0000,,Akemi...
+Dialogue: 0,0:18:27.97,0:18:29.29,DCMain,MURATA,0000,0000,0000,,Akemi-chan...
+Dialogue: 0,0:18:30.84,0:18:33.80,DCFlashback,AKEMI,0000,0000,0000,,Be brave, Yanagimachi-kun.
+Dialogue: 0,0:18:34.34,0:18:35.45,DCMain,YANAGIMACHI,0000,0000,0000,,Akemi...
+Dialogue: 0,0:18:39.22,0:18:41.93,PhotoMessage,SIGN,0000,0000,0000,,{\fad(710,1)}I hope all our dreams come true \NClass 6-A Miyano Akemi
+Dialogue: 0,0:18:42.58,0:18:46.20,DCMain,CONAN,0000,0000,0000,,Come to think of it, the teachers \Nsaid the fire in the music room
+Dialogue: 0,0:18:46.20,0:18:49.96,DCMain,CONAN,0000,0000,0000,,was caused by the old \NAC unit short-circuiting.
+Dialogue: 0,0:18:49.96,0:18:50.81,DCMain,YANAGIMACHI,0000,0000,0000,,What?
+Dialogue: 0,0:18:51.13,0:18:56.25,DCMain,YANAGIMACHI,0000,0000,0000,,Then why did Akemi tell me to be brave?
+Dialogue: 0,0:18:56.25,0:19:00.86,DCMain,CONAN,0000,0000,0000,,Maybe she was telling you to find \Nthe courage to stop hanging out
+Dialogue: 0,0:19:00.86,0:19:05.08,DCMain,CONAN,0000,0000,0000,,with the bad influences you \Nlit those fireworks with.
+Dialogue: 0,0:19:05.48,0:19:09.33,DCMain,YANAGIMACHI,0000,0000,0000,,I see. Sounds like something she'd say.
+Dialogue: 0,0:19:09.97,0:19:13.78,DCMain,SEIKO,0000,0000,0000,,Now that I think about it, \Nafter we met with the teacher,
+Dialogue: 0,0:19:13.78,0:19:18.09,DCMain,SEIKO,0000,0000,0000,,Akemi frequently invited me to \Nstudy with her in the library,
+Dialogue: 0,0:19:18.09,0:19:22.34,DCMain,SEIKO,0000,0000,0000,,and my grades improved.
+Dialogue: 0,0:19:22.68,0:19:27.35,DCMain,MURATA,0000,0000,0000,,Then maybe she didn't submit \Nher own painting to the contest
+Dialogue: 0,0:19:27.64,0:19:30.91,DCMain,MURATA,0000,0000,0000,,so I'd gain confidence.
+Dialogue: 0,0:19:33.19,0:19:36.40,DCMain,MURATA,0000,0000,0000,,I'd better tell her the next time I see her
+Dialogue: 0,0:19:36.40,0:19:40.29,DCMain,MURATA,0000,0000,0000,,that I'm taking another shot \Nat becoming an artist.
+Dialogue: 0,0:19:43.36,0:19:47.62,Reunion2,SIGN,0000,0000,0000,,19th Graduating Class \NClass Reunion
+Dialogue: 0,0:19:44.24,0:19:47.62,DCMain,BOY B,0000,0000,0000,,When I grow up,
+Dialogue: 0,0:19:48.02,0:19:53.37,DCMain,BOY B,0000,0000,0000,,I want to be Japan's first... president.
+Dialogue: 0,0:19:53.37,0:19:55.63,Reunion,SIGN,0000,0000,0000,,19th Graduating Class \NClass Reunion
+Dialogue: 0,0:19:56.49,0:19:58.85,DCMain,GIRL A,0000,0000,0000,,Are you kids getting enough to eat?
+Dialogue: 0,0:19:59.18,0:20:03.52,DCMain,BOY B,0000,0000,0000,,Don't be shy. You guys found \Nthe time capsule for us.
+Dialogue: 0,0:20:04.08,0:20:06.64,DCMain,MITSUHIKO,0000,0000,0000,,Okay, thank you.
+Dialogue: 0,0:20:07.05,0:20:11.64,DCMain,HAIBARA,0000,0000,0000,,Well? Hand over my sister's letter.
+Dialogue: 0,0:20:11.64,0:20:13.46,DCMain,HAIBARA,0000,0000,0000,,You swiped it, didn't you?
+Dialogue: 0,0:20:13.77,0:20:18.28,DCMain,CONAN,0000,0000,0000,,Actually, we searched the time \Ncapsule pretty thoroughly,
+Dialogue: 0,0:20:18.28,0:20:20.03,DCMain,CONAN,0000,0000,0000,,but we didn't find a letter.
+Dialogue: 0,0:20:20.03,0:20:21.09,DCMain,HAIBARA,0000,0000,0000,,What?
+Dialogue: 0,0:20:21.53,0:20:25.20,DCMain,CONAN,0000,0000,0000,,There was a photo, though.
+Dialogue: 0,0:20:23.40,0:20:25.20,PhotoMessage,SIGN,0000,0000,0000,,I love you Shiho
+Dialogue: 0,0:20:28.33,0:20:29.89,DCMain,CONAN,0000,0000,0000,,It's just a joke.
+Dialogue: 0,0:20:29.87,0:20:32.16,PhotoMessage,SIGN,0000,0000,0000,,I love you Shiho
+Dialogue: 0,0:20:30.36,0:20:36.75,DCMain,CONAN,0000,0000,0000,,If you remove the sticker on the back, \Nyou'll see what your sister said 13 years ago.
+Dialogue: 0,0:20:40.02,0:20:42.08,DCFlashback,AKEMI,0000,0000,0000,,Dear Shiho, my younger sister.
+Dialogue: 0,0:20:42.88,0:20:47.33,DCFlashbackItalics,AKEMI,0000,0000,0000,,Since you've got such a high IQ, I'm sure \Nour parents will make you study abroad,
+Dialogue: 0,0:20:47.33,0:20:51.63,DCFlashbackItalics,AKEMI,0000,0000,0000,,and take over their research someday.
+Dialogue: 0,0:20:52.06,0:20:53.90,DCFlashbackItalics,AKEMI,0000,0000,0000,,But remember this.
+Dialogue: 0,0:20:54.32,0:21:00.65,DCFlashbackItalics,AKEMI,0000,0000,0000,,Even if we can't be together, \NDad, Mom, and I all love you.
+Dialogue: 0,0:21:03.14,0:21:07.66,DCFlashbackItalics,AKEMI,0000,0000,0000,,Mom said a silver bullet \Nis the bullet of justice.
+Dialogue: 0,0:21:07.97,0:21:13.02,DCFlashbackItalics,AKEMI,0000,0000,0000,,So like that bullet, I hope \Nyou fly straight and true
+Dialogue: 0,0:21:13.02,0:21:16.16,DCFlashbackItalics,AKEMI,0000,0000,0000,,toward whatever you think is right.
+Dialogue: 0,0:21:16.74,0:21:20.06,DCFlashbackItalics,AKEMI,0000,0000,0000,,I hope these words reach my sister someday.
+Dialogue: 0,0:21:20.06,0:21:21.19,DCFlashbackItalics,AKEMI,0000,0000,0000,,Akemi.
+Dialogue: 0,0:21:22.37,0:21:23.77,DCItalic,HAIBARA,0000,0000,0000,,Onee-chan...
+Dialogue: 0,0:22:49.47,0:22:50.22,DCMain,CONAN,0000,0000,0000,,Hey.
+Dialogue: 0,0:22:51.46,0:22:52.65,DCMain,HAIBARA,0000,0000,0000,,Someone's there...
+Dialogue: 0,0:22:53.22,0:22:56.05,DCMain,HAIBARA,0000,0000,0000,,Someone's outside the classroom.
+Dialogue: 0,0:23:00.85,0:23:02.15,DCMain,MURATA,0000,0000,0000,,Is something wrong?
+Dialogue: 0,0:23:02.15,0:23:05.08,DCMain,CONAN,0000,0000,0000,,D-Did you see someone\Nsuspicious here just now?
+Dialogue: 0,0:23:05.08,0:23:07.56,DCMain,MURATA,0000,0000,0000,,We didn't see anyone like that. Right?
+Dialogue: 0,0:23:07.56,0:23:08.40,DCMain,YANAGIMACHI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:23:09.60,0:23:11.60,DCItalic,CONAN,0000,0000,0000,,Maybe Haibara imagined it.
+Dialogue: 0,0:23:12.01,0:23:14.96,DCItalic,CONAN,0000,0000,0000,,She's been on edge since this morning.
+Dialogue: 0,0:23:15.41,0:23:17.17,DCMain,YANAGIMACHI,0000,0000,0000,,I guess there was a pizza delivery guy.
+Dialogue: 0,0:23:17.17,0:23:18.83,DCMain,MURATA,0000,0000,0000,,And a sushi delivery guy.
+Dialogue: 0,0:23:18.83,0:23:20.42,DCMain,MAN A,0000,0000,0000,,Ah, here they are.
+Dialogue: 0,0:23:20.94,0:23:22.71,DCMain,YANAGIMACHI,0000,0000,0000,,Here's the extra food we ordered.
+Dialogue: 0,0:23:22.71,0:23:23.91,DCMain,GIRL,0000,0000,0000,,I'm so hungry.
+Dialogue: 0,0:23:23.91,0:23:25.71,DCMain,BOY,0000,0000,0000,,Yeah, I've been craving that stuff.
+Dialogue: 0,0:23:33.68,0:23:38.93,DCItalic,WAKITA,0000,0000,0000,,Miyano Akemi was part of Teitan \NElementary School's 19th graduating class.
+Dialogue: 0,0:23:39.75,0:23:42.36,DCItalic,WAKITA,0000,0000,0000,,But the dead don't attend parties.

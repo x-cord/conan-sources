@@ -1,0 +1,447 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Kuwano,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007C312F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0345,0064,0
+Style: Kajiyama,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007C312F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0135,0020,0064,0
+Style: RoadClosed,Trebuchet MS,18,&H005946E4,&H000000FF,&H00FDFDFC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0137,0065,0
+Style: CarvingContest,Trebuchet MS,18,&H00DBC8C1,&H000000FF,&H00762353,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0385,0020,0018,0
+Style: Cafe,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00030406,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0015,0
+Style: Closed,Trebuchet MS,18,&H00272826,&H000000FF,&H00ECECEC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0035,0
+Style: Eyewitness,Trebuchet MS,16,&H00593E2C,&H000000FF,&H00F5F4F2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0080,0
+Style: Views,Trebuchet MS,14,&H008E7E74,&H000000FF,&H00F5F4F2,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0125,0047,0
+Style: Like/Dislike,Trebuchet MS,14,&H008E7E74,&H000000FF,&H00F5F4F2,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0025,0020,0015,0
+Style: Kono,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A75F60,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0090,0064,0
+Style: Kashiyama,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H007E2D36,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0025,0020,0064,0
+Style: Mizunuma,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00945B70,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0060,0064,0
+Style: RoadClosed2,Trebuchet MS,18,&H00764D63,&H000000FF,&H00BB917E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0180,0175,0
+Style: ShoppingCenter,Trebuchet MS,22,&H00FAFBFA,&H000000FF,&H00316D33,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0020,0018,0
+Style: Supermarket,Trebuchet MS,22,&H00FFFFFE,&H000000FF,&H005C96F3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0080,0
+Style: Books,Trebuchet MS,22,&H009D68E9,&H000000FF,&H00BFF8FF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0065,0085,0
+Style: Apology,Trebuchet MS,16,&H00F4C4A3,&H000000FF,&H00AF7141,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0015,0
+Style: Construction,Trebuchet MS,18,&H00C58E5A,&H000000FF,&H00EAC5B2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0035,0
+Style: Liquor,Times New Roman,16,&H005F5E2A,&H000000FF,&H00B5AD5B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0050,0020,0135,0
+Style: RealEstate,Times New Roman,16,&H00FFFFFF,&H000000FF,&H0097F76A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0200,0020,0120,0
+Style: RoadClosed3,Trebuchet MS,18,&H005946E4,&H000000FF,&H00FDFDFC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0145,0115,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 1039 \N"The Flying Jack-o'-lantern"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[op]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,AZUSA,0000,0000,0000,,[ed]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,AZUSA,0000,0000,0000,,[eyecatch]
+Dialogue: 0,0:00:01.84,0:00:05.78,DCMain,KAJIYAMA,0000,0000,0000,,{\an8}Whew, we just barely caught the last train.
+Dialogue: 0,0:00:03.39,0:00:07.36,Kuwano,SIGN LEFT,0000,0000,0000,,{\fad(250,460)}Kuwano (30) \NOfficer Worker
+Dialogue: 0,0:00:03.39,0:00:07.36,Kajiyama,SIGN RIGHT,0000,0000,0000,,{\fad(250,460)}Kajiyama (30) \NOffice Worker
+Dialogue: 0,0:00:05.78,0:00:07.98,DCMain,KAJIYAMA,0000,0000,0000,,{\an8}Not that it matters since \NI've got tomorrow off.
+Dialogue: 0,0:00:08.35,0:00:10.48,DCMain,KUWANO,0000,0000,0000,,You're lucky.
+Dialogue: 0,0:00:10.48,0:00:12.99,DCMain,KUWANO,0000,0000,0000,,I have to be up early tomorrow.
+Dialogue: 0,0:00:15.24,0:00:18.24,RoadClosed,SIGN,0000,0000,0000,,Road Closed
+Dialogue: 0,0:00:15.74,0:00:18.24,DCMain,KUWANO,0000,0000,0000,,The wind's awfully strong today.
+Dialogue: 0,0:00:18.56,0:00:21.75,DCMain,SECURITY GUARD,0000,0000,0000,,The ground is uneven. Watch your step.
+Dialogue: 0,0:00:22.34,0:00:23.77,DCMain,KUWANO,0000,0000,0000,,Good evening.
+Dialogue: 0,0:00:23.77,0:00:25.50,DCMain,KAJIYAMA,0000,0000,0000,,The wind's strong today, isn't it?
+Dialogue: 0,0:00:26.63,0:00:27.86,DCMain,KAJIYAMA,0000,0000,0000,,Yikes.
+Dialogue: 0,0:00:28.47,0:00:30.00,DCMain,KAJIYAMA,0000,0000,0000,,What's this thing?
+Dialogue: 0,0:00:30.32,0:00:31.76,DCMain,KAJIYAMA,0000,0000,0000,,It's creepy.
+Dialogue: 0,0:00:31.97,0:00:36.76,DCMain,KUWANO,0000,0000,0000,,The shopping center is holding a \Njack-o'-lantern carving contest on Halloween.
+Dialogue: 0,0:00:36.76,0:00:39.01,CarvingContest,SIGN,0000,0000,0000,,Halloween \NJack-o'-lantern Carving Contest \NBeika City Shopping Center
+Dialogue: 0,0:00:37.27,0:00:38.69,DCMain,KUWANO,0000,0000,0000,,See?
+Dialogue: 0,0:00:39.26,0:00:41.25,DCMain,KAJIYAMA,0000,0000,0000,,Huh, really?
+Dialogue: 0,0:00:45.64,0:00:46.48,DCMain,KAJIYAMA,0000,0000,0000,,What is it?
+Dialogue: 0,0:00:46.48,0:00:48.20,DCMain,KUWANO,0000,0000,0000,,Did something just...?
+Dialogue: 0,0:00:53.00,0:00:53.90,DCMain,KAJIYAMA,0000,0000,0000,,What is that?
+Dialogue: 0,0:01:07.86,0:01:09.38,DCMain,CONAN,0000,0000,0000,,It comes to visit after falling asleep!
+Dialogue: 0,0:01:09.38,0:01:11.58,DCMain,CONAN,0000,0000,0000,,Fall in love with logical deduction \Nand the pleasure of solving mysteries!
+Dialogue: 0,0:01:11.58,0:01:13.03,DCMain,CONAN,0000,0000,0000,,It's a Halloween supernatural phenomenon!
+Dialogue: 0,0:01:13.03,0:01:14.77,DCMain,CONAN,0000,0000,0000,,What's the truth behind the flying pumpkins?
+Dialogue: 0,0:01:14.77,0:01:16.47,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:16.47,0:01:18.16,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:18.16,0:01:20.72,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:02.95,0:03:08.95,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(399,1)}The Flying Jack-o'-lantern
+Dialogue: 0,0:03:03.88,0:03:06.30,DCMain,CONAN,0000,0000,0000,,"The Flying Jack-o'-lantern!"
+Dialogue: 0,0:03:10.96,0:03:12.71,Cafe,SIGN,0000,0000,0000,,Café Poirot
+Dialogue: 0,0:03:10.96,0:03:12.71,Closed,SIGN,0000,0000,0000,,We will be closed until this afternoon
+Dialogue: 0,0:03:14.27,0:03:17.26,DCMain,AZUSA,0000,0000,0000,,I'm sorry, but we're closed \Nuntil this afternoon.
+Dialogue: 0,0:03:17.85,0:03:18.61,DCMain,AZUSA,0000,0000,0000,,Huh?
+Dialogue: 0,0:03:21.21,0:03:22.94,DCMain,AZUSA,0000,0000,0000,,Oh, it's you, Conan-kun.
+Dialogue: 0,0:03:22.94,0:03:25.85,DCMain,CONAN,0000,0000,0000,,Kogoro-no-ojisan and Ran-neechan went out.
+Dialogue: 0,0:03:26.16,0:03:28.39,DCMain,CONAN,0000,0000,0000,,They told me to stay here.
+Dialogue: 0,0:03:28.39,0:03:30.48,DCMain,AZUSA,0000,0000,0000,,That's fine. Come in.
+Dialogue: 0,0:03:30.95,0:03:31.54,DCMain,AZUSA,0000,0000,0000,,Here.
+Dialogue: 0,0:03:31.54,0:03:35.23,DCMain,AZUSA,0000,0000,0000,,You're good with your usual \Nseat and milk tea, right?
+Dialogue: 0,0:03:35.46,0:03:37.73,DCMain,CONAN,0000,0000,0000,,Yeah, thanks.
+Dialogue: 0,0:03:42.99,0:03:45.66,DCMain,CONAN,0000,0000,0000,,Are those pumpkins for Halloween?
+Dialogue: 0,0:03:45.98,0:03:47.58,DCMain,AZUSA,0000,0000,0000,,Impressive as always, Conan-kun.
+Dialogue: 0,0:03:47.88,0:03:48.79,DCMain,AZUSA,0000,0000,0000,,That's right.
+Dialogue: 0,0:03:48.79,0:03:52.56,DCMain,AZUSA,0000,0000,0000,,I asked a farmer I know \Nto share some with me.
+Dialogue: 0,0:03:52.97,0:03:54.83,DCMain,AZUSA,0000,0000,0000,,Here you go.
+Dialogue: 0,0:03:54.83,0:03:55.46,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:03:55.85,0:03:58.57,DCMain,AZUSA,0000,0000,0000,,You can give me a hand in \Nexchange for your milk tea.
+Dialogue: 0,0:03:59.93,0:04:05.11,DCMain,CONAN,0000,0000,0000,,Halloween was originally an ancient \NCeltic religious celebration, right?
+Dialogue: 0,0:04:05.11,0:04:07.98,DCMain,AZUSA,0000,0000,0000,,They held their harvest \Nfestival on October 31st.
+Dialogue: 0,0:04:07.98,0:04:10.98,DCMain,AZUSA,0000,0000,0000,,It's the day the souls of their ancestors \Nand evil spirits would visit.
+Dialogue: 0,0:04:11.24,0:04:14.98,DCMain,AZUSA,0000,0000,0000,,They used turnips to ward off evil spirits.
+Dialogue: 0,0:04:15.14,0:04:17.38,DCMain,CONAN,0000,0000,0000,,And it's said that when the tradition \Ncame to the United States,
+Dialogue: 0,0:04:17.38,0:04:20.99,DCMain,CONAN,0000,0000,0000,,it became pumpkins instead because \Nthey were easier to acquire.
+Dialogue: 0,0:04:21.47,0:04:22.84,DCMain,CONAN,0000,0000,0000,,Here, all done.
+Dialogue: 0,0:04:23.31,0:04:24.70,DCMain,AZUSA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:04:25.72,0:04:28.09,DCMain,AZUSA,0000,0000,0000,,You know a lot about Halloween, Conan-kun.
+Dialogue: 0,0:04:28.09,0:04:30.74,DCMain,CONAN,0000,0000,0000,,I saw it on TV the other day.
+Dialogue: 0,0:04:31.22,0:04:35.96,DCMain,AZUSA,0000,0000,0000,,Then you must know these pumpkins \Nare called jack-o'-lanterns, right?
+Dialogue: 0,0:04:36.73,0:04:39.69,DCMain,AZUSA,0000,0000,0000,,A scoundrel named Jack makes a deal
+Dialogue: 0,0:04:39.69,0:04:44.27,DCMain,AZUSA,0000,0000,0000,,with the Devil that he'll \Nnever go to Hell when he dies.
+Dialogue: 0,0:04:44.97,0:04:47.68,DCMain,AZUSA,0000,0000,0000,,Later, when Jack dies,
+Dialogue: 0,0:04:47.68,0:04:52.27,DCMain,AZUSA,0000,0000,0000,,he's not allowed into Heaven because of \Nall the wicked deeds he committed in life.
+Dialogue: 0,0:04:52.52,0:04:55.02,DCMain,AZUSA,0000,0000,0000,,Because of his agreement, \Nhe can't go to Hell either.
+Dialogue: 0,0:04:55.76,0:04:57.27,DCMain,AZUSA,0000,0000,0000,,So with no other options,
+Dialogue: 0,0:04:57.27,0:05:02.56,DCMain,AZUSA,0000,0000,0000,,Jack wanders forever, carrying with \Nhim the lantern the Devil gave him.
+Dialogue: 0,0:05:04.49,0:05:08.05,DCMain,AZUSA,0000,0000,0000,,Oh, right. Conan-kun, do you know \Nabout the jack-o'-lantern ghost
+Dialogue: 0,0:05:08.05,0:05:09.99,DCMain,AZUSA,0000,0000,0000,,that appeared around here last night?
+Dialogue: 0,0:05:09.99,0:05:10.78,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:05:10.78,0:05:11.82,DCItalic,MAN,0000,0000,0000,,Yeah!
+Dialogue: 0,0:05:11.82,0:05:13.01,DCItalic,WOMAN,0000,0000,0000,,Hey, what's that?
+Dialogue: 0,0:05:13.01,0:05:13.74,DCItalic,MAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:14.56,0:05:15.78,DCItalic,MAN,0000,0000,0000,,What are those?
+Dialogue: 0,0:05:15.78,0:05:16.99,DCItalic,WOMAN,0000,0000,0000,,{\an8}I'm scared.
+Dialogue: 0,0:05:15.87,0:05:18.79,Eyewitness,SIGN,0000,0000,0000,,{\fad(1120,1)\frz356}[Eye-witness Account] Jack-o'-lantern Ghost!
+Dialogue: 0,0:05:15.87,0:05:18.79,Views,SIGN,0000,0000,0000,,{\fad(1120,1)\frz356}308 views
+Dialogue: 0,0:05:15.87,0:05:18.79,Like/Dislike,SIGN,0000,0000,0000,,{\fad(1120,1)\frz356}Like   Dislike
+Dialogue: 0,0:05:16.99,0:05:18.79,DCItalic,MAN,0000,0000,0000,,{\an8}Aren't those jack-o'-lanterns?
+Dialogue: 0,0:05:19.14,0:05:22.12,DCMain,AZUSA,0000,0000,0000,,Apparently quite a few people \Nsaw them late last night.
+Dialogue: 0,0:05:22.12,0:05:23.30,DCMain,CONAN,0000,0000,0000,,Huh.
+Dialogue: 0,0:05:25.05,0:05:27.53,DCMain,AZUSA,0000,0000,0000,,Making these was easier than I expected.
+Dialogue: 0,0:05:27.53,0:05:30.05,DCMain,AZUSA,0000,0000,0000,,Maybe I didn't need to close \Nthe shop this morning.
+Dialogue: 0,0:05:30.32,0:05:32.43,DCMain,CONAN,0000,0000,0000,,By the way, where's Amuro-san?
+Dialogue: 0,0:05:34.42,0:05:36.84,DCMain,AZUSA,0000,0000,0000,,He called a few days ago.
+Dialogue: 0,0:05:36.84,0:05:40.01,DCMain,AZUSA,0000,0000,0000,,He asked for some time off.
+Dialogue: 0,0:05:40.01,0:05:43.82,DCMain,AZUSA,0000,0000,0000,,He left me to run the café \Non my own. Selfish, right?
+Dialogue: 0,0:05:44.23,0:05:49.57,DCMain,AZUSA,0000,0000,0000,,I wish I could put a collar on \Nhim and keep him at the shop.
+Dialogue: 0,0:05:52.22,0:05:54.08,DCMain,AZUSA,0000,0000,0000,,Hey, Conan-kun.
+Dialogue: 0,0:05:55.37,0:05:59.45,DCMain,AZUSA,0000,0000,0000,,You and Amuro-san are close, right?
+Dialogue: 0,0:06:00.84,0:06:01.96,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:02.51,0:06:04.71,DCMain,CONAN,0000,0000,0000,,What about it?
+Dialogue: 0,0:06:05.35,0:06:08.71,DCMain,AZUSA,0000,0000,0000,,Is Amuro-san...?
+Dialogue: 0,0:06:20.94,0:06:22.89,DCMain,TAMIE,0000,0000,0000,,Azusa-san, it's an emergency.
+Dialogue: 0,0:06:23.85,0:06:25.15,DCMain,TOMOMI,0000,0000,0000,,Tamie-san, calm down.
+Dialogue: 0,0:06:26.58,0:06:28.32,DCMain,TAMIE,0000,0000,0000,,They've been stolen.
+Dialogue: 0,0:06:28.49,0:06:29.42,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:06:29.82,0:06:31.82,Cafe,SIGN,0000,0000,0000,,Café Poirot
+Dialogue: 0,0:06:29.82,0:06:31.82,Closed,SIGN,0000,0000,0000,,We are closed today
+Dialogue: 0,0:06:32.47,0:06:33.44,DCMain,AZUSA,0000,0000,0000,,Here you go.
+Dialogue: 0,0:06:35.30,0:06:37.87,DCMain,AZUSA,0000,0000,0000,,These people are café regulars.
+Dialogue: 0,0:06:38.23,0:06:40.05,DCMain,AZUSA,0000,0000,0000,,This is Tamie-san.
+Dialogue: 0,0:06:40.05,0:06:41.62,DCMain,AZUSA,0000,0000,0000,,She's a preschool teacher.
+Dialogue: 0,0:06:41.62,0:06:45.76,DCMain,AZUSA,0000,0000,0000,,{\an8}She was in the hospital for six months \Nand was just released last week.
+Dialogue: 0,0:06:42.08,0:06:46.05,Kono,SIGN,0000,0000,0000,,{\fad(250,460)}Kono Tamie (50) \NPreschool Teacher
+Dialogue: 0,0:06:46.25,0:06:48.79,DCMain,TAMIE,0000,0000,0000,,I'm going back to work at \Nthe preschool next week.
+Dialogue: 0,0:06:48.79,0:06:51.72,DCMain,TAMIE,0000,0000,0000,,I can't wait to see the children's smiles.
+Dialogue: 0,0:06:52.20,0:06:54.97,DCMain,CONAN,0000,0000,0000,,Did you all meet each other here?
+Dialogue: 0,0:06:55.12,0:06:59.23,DCMain,TOMOMI,0000,0000,0000,,{\an8}No, we're neighbors who live in the area.
+Dialogue: 0,0:06:55.56,0:06:59.14,Kashiyama,SIGN,0000,0000,0000,,{\fad(250,460)}Kashiyama Tomomi (29) \NHousewife
+Dialogue: 0,0:06:59.44,0:07:03.11,Mizunuma,SIGN,0000,0000,0000,,{\fad(250,460)}Mizunuma Satoshi (60) \NFormer University Professor
+Dialogue: 0,0:06:59.44,0:07:03.23,DCMain,MIZUNUMA,0000,0000,0000,,{\an8}Our houses are next door to each \Nother, so we get along nicely.
+Dialogue: 0,0:07:03.47,0:07:07.74,DCMain,TAMIE,0000,0000,0000,,This year the three of us planned \Nto carve jack-o'-lanterns
+Dialogue: 0,0:07:07.74,0:07:09.37,DCMain,TAMIE,0000,0000,0000,,for the shopping center's contest.
+Dialogue: 0,0:07:09.37,0:07:14.12,DCMain,TAMIE,0000,0000,0000,,Azusa-san shared three \Nof her pumpkins with us.
+Dialogue: 0,0:07:14.68,0:07:16.74,DCMain,AZUSA,0000,0000,0000,,And those were stolen?
+Dialogue: 0,0:07:17.37,0:07:18.17,DCMain,TAMIE,0000,0000,0000,,That's right.
+Dialogue: 0,0:07:18.17,0:07:20.80,DCMain,TAMIE,0000,0000,0000,,Yesterday afternoon after \Nreceiving the pumpkins,
+Dialogue: 0,0:07:20.80,0:07:23.81,DCMain,TAMIE,0000,0000,0000,,we gathered at my house and \Ncarved jack-o'-lanterns.
+Dialogue: 0,0:07:23.81,0:07:26.05,DCMain,MIZUNUMA,0000,0000,0000,,Since it was our first time,
+Dialogue: 0,0:07:26.05,0:07:29.02,DCMain,MIZUNUMA,0000,0000,0000,,we thought Tamie-san could show us how.
+Dialogue: 0,0:07:29.02,0:07:31.83,DCMain,TOMOMI,0000,0000,0000,,Tamie-san is a master carver
+Dialogue: 0,0:07:31.83,0:07:34.49,DCMain,TOMOMI,0000,0000,0000,,who's won the jack-o'-lantern carving \Ncontest three years in a row.
+Dialogue: 0,0:07:34.49,0:07:37.14,DCMain,AZUSA,0000,0000,0000,,It's certainly terrible if \Nyour pumpkin was stolen.
+Dialogue: 0,0:07:37.48,0:07:40.43,DCMain,TAMIE,0000,0000,0000,,It wasn't just mine that was stolen.
+Dialogue: 0,0:07:40.43,0:07:43.60,DCMain,TAMIE,0000,0000,0000,,Their pumpkins were taken, too.
+Dialogue: 0,0:07:42.24,0:07:43.60,DCMain,TAMIE,0000,0000,0000,,{\a6}Wait up!
+Dialogue: 0,0:07:43.95,0:07:47.09,DCMain,MIZUNUMA,0000,0000,0000,,I understand stealing \NTamie-san's jack-o'-lantern.
+Dialogue: 0,0:07:47.09,0:07:50.71,DCMain,MIZUNUMA,0000,0000,0000,,But you couldn't even attempt to flatter \Nus by claiming ours were any good.
+Dialogue: 0,0:07:50.71,0:07:53.34,DCMain,TOMOMI,0000,0000,0000,,I think it was a nasty prank.
+Dialogue: 0,0:07:55.00,0:07:59.43,DCMain,TAMIE,0000,0000,0000,,I always take my winning \Njack-o'-lanterns to the preschool.
+Dialogue: 0,0:07:59.43,0:08:01.58,DCMain,TAMIE,0000,0000,0000,,The children love them.
+Dialogue: 0,0:08:02.46,0:08:05.27,DCMain,TAMIE,0000,0000,0000,,I was glad I was released from the hospital
+Dialogue: 0,0:08:05.27,0:08:09.59,DCMain,TAMIE,0000,0000,0000,,just in time to carve a \Njack-o'-lantern this year, but...
+Dialogue: 0,0:08:11.53,0:08:14.01,DCMain,AZUSA,0000,0000,0000,,Three stolen pumpkins...
+Dialogue: 0,0:08:14.51,0:08:18.10,DCMain,CONAN,0000,0000,0000,,People saw three ghosts around here, right?
+Dialogue: 0,0:08:18.26,0:08:19.82,DCMain,TAMIE,0000,0000,0000,,I heard about that, too.
+Dialogue: 0,0:08:19.82,0:08:22.36,DCMain,TAMIE,0000,0000,0000,,Last night some jack-o'-lantern \Nghosts appeared, right?
+Dialogue: 0,0:08:22.36,0:08:23.89,DCMain,MIZUNUMA,0000,0000,0000,,Ghosts?
+Dialogue: 0,0:08:23.89,0:08:25.85,DCMain,TOMOMI,0000,0000,0000,,Do ghosts really exist?
+Dialogue: 0,0:08:26.74,0:08:30.11,DCMain,CONAN,0000,0000,0000,,Unable to go to Heaven or Hell,
+Dialogue: 0,0:08:30.42,0:08:33.74,DCMain,CONAN,0000,0000,0000,,carrying the lantern the Devil gave to him...
+Dialogue: 0,0:08:35.29,0:08:36.24,DCMain,AZUSA,0000,0000,0000,,Conan-kun?
+Dialogue: 0,0:08:36.60,0:08:38.94,DCItalic,CONAN,0000,0000,0000,,Jack still wanders the Earth.
+Dialogue: 0,0:08:41.05,0:08:44.23,DCMain,CONAN,0000,0000,0000,,Azusa-san, let's check things out.
+Dialogue: 0,0:08:47.66,0:08:49.50,DCMain,AZUSA,0000,0000,0000,,This is Tamie-san's house.
+Dialogue: 0,0:08:50.29,0:08:54.88,DCMain,AZUSA,0000,0000,0000,,To the right is Tomomi-san's house,
+Dialogue: 0,0:08:55.13,0:08:57.89,DCMain,AZUSA,0000,0000,0000,,and to the left is Mizunuma-san's house.
+Dialogue: 0,0:08:58.28,0:09:01.39,DCMain,TOMOMI,0000,0000,0000,,I live with my husband and daughter.
+Dialogue: 0,0:09:01.39,0:09:03.81,DCMain,TOMOMI,0000,0000,0000,,My daughter attends Tamie-san's preschool.
+Dialogue: 0,0:09:03.81,0:09:06.96,DCMain,TOMOMI,0000,0000,0000,,She's very excited to see Tamie-san.
+Dialogue: 0,0:09:06.96,0:09:09.27,DCMain,TAMIE,0000,0000,0000,,I'm looking forward to it, too.
+Dialogue: 0,0:09:09.50,0:09:14.53,DCMain,MIZUNUMA,0000,0000,0000,,I was a university professor \Nuntil I retired last year.
+Dialogue: 0,0:09:14.53,0:09:18.58,DCMain,MIZUNUMA,0000,0000,0000,,My wife passed away two years ago, and \Nmy only son lives at his company's dorm.
+Dialogue: 0,0:09:18.58,0:09:21.03,DCMain,MIZUNUMA,0000,0000,0000,,I currently enjoy a nice easy life on my own.
+Dialogue: 0,0:09:21.39,0:09:25.44,DCMain,AZUSA,0000,0000,0000,,Where were your pumpkins \Nbefore they were stolen?
+Dialogue: 0,0:09:25.89,0:09:28.67,DCMain,MIZUNUMA,0000,0000,0000,,Mine was on top of the gatepost.
+Dialogue: 0,0:09:28.83,0:09:32.17,DCMain,TOMOMI,0000,0000,0000,,Mine was also on top of \Nthe entrance gatepost.
+Dialogue: 0,0:09:32.33,0:09:36.17,DCMain,TAMIE,0000,0000,0000,,Mine was on top of a table \Nin front of the front door.
+Dialogue: 0,0:09:36.37,0:09:40.34,DCMain,CONAN,0000,0000,0000,,Around what time last night was the \Nlast time you saw your pumpkins?
+Dialogue: 0,0:09:40.82,0:09:46.06,DCMain,TAMIE,0000,0000,0000,,I saw mine around ten last night
+Dialogue: 0,0:09:46.06,0:09:49.96,DCMain,TAMIE,0000,0000,0000,,when I locked the front \Ngate and went back inside.
+Dialogue: 0,0:09:51.11,0:09:55.18,DCMain,TOMOMI,0000,0000,0000,,My husband came home after eight.
+Dialogue: 0,0:09:55.18,0:09:56.95,DCMain,TOMOMI,0000,0000,0000,,That's the last time I saw mine.
+Dialogue: 0,0:09:57.32,0:10:00.32,DCMain,TOMOMI,0000,0000,0000,,My daughter and I went to sleep after that.
+Dialogue: 0,0:10:01.34,0:10:06.61,DCMain,MIZUNUMA,0000,0000,0000,,Last night my son suddenly \Nstopped by with some coworkers.
+Dialogue: 0,0:10:06.61,0:10:09.08,DCMain,MIZUNUMA,0000,0000,0000,,I saw mine when I let them in.
+Dialogue: 0,0:10:09.08,0:10:11.21,DCMain,MIZUNUMA,0000,0000,0000,,I think it was just before seven.
+Dialogue: 0,0:10:11.49,0:10:14.21,DCMain,MIZUNUMA,0000,0000,0000,,We were up all night after that.
+Dialogue: 0,0:10:14.41,0:10:17.72,DCMain,MIZUNUMA,0000,0000,0000,,My son's coworkers just left.
+Dialogue: 0,0:10:19.20,0:10:24.97,DCMain,AZUSA,0000,0000,0000,,So the pumpkins were there until \Naround ten when Tamie-san saw them.
+Dialogue: 0,0:10:25.29,0:10:28.48,DCMain,CONAN,0000,0000,0000,,I wonder how the culprit \Ncarried off the pumpkins.
+Dialogue: 0,0:10:28.86,0:10:33.11,DCMain,CONAN,0000,0000,0000,,I think it would be difficult to \Ncarry three large pumpkins at once.
+Dialogue: 0,0:10:33.34,0:10:35.38,DCMain,AZUSA,0000,0000,0000,,Maybe they used a car.
+Dialogue: 0,0:10:35.38,0:10:37.36,DCMain,TAMIE,0000,0000,0000,,I don't think that's possible.
+Dialogue: 0,0:10:37.66,0:10:41.62,DCMain,TAMIE,0000,0000,0000,,Last night they were doing some construction \Nwork on a gas pipe at that corner over there.
+Dialogue: 0,0:10:41.95,0:10:47.76,DCMain,TAMIE,0000,0000,0000,,The notice we received said the road \Nwould be closed to vehicles after 10PM.
+Dialogue: 0,0:10:46.92,0:10:48.37,RoadClosed2,SIGN,0000,0000,0000,,{\fad(460,1)}Road Closed
+Dialogue: 0,0:10:48.64,0:10:51.22,DCMain,AZUSA,0000,0000,0000,,Could they have ridden \Na bicycle or motorcycle?
+Dialogue: 0,0:10:51.22,0:10:55.38,DCMain,MIZUNUMA,0000,0000,0000,,I don't think I heard a \Nmotorcycle drive by yesterday.
+Dialogue: 0,0:10:55.59,0:10:58.38,DCMain,TOMOMI,0000,0000,0000,,But the wind was really strong last night.
+Dialogue: 0,0:10:59.00,0:11:02.14,DCMain,TOMOMI,0000,0000,0000,,It was howling. It scared me.
+Dialogue: 0,0:11:02.48,0:11:06.14,DCMain,TOMOMI,0000,0000,0000,,Even the carving contest poster that \Nwas up over there was blown away.
+Dialogue: 0,0:11:13.92,0:11:19.90,DCMain,CONAN,0000,0000,0000,,Maybe we can figure out who did it \Nif we see that camera's footage.
+Dialogue: 0,0:11:20.50,0:11:23.66,DCMain,AZUSA,0000,0000,0000,,You're right. Let's go ask.
+Dialogue: 0,0:11:23.98,0:11:27.38,DCMain,TAMIE,0000,0000,0000,,I'm sorry. I'm feeling a little tired.
+Dialogue: 0,0:11:27.38,0:11:29.41,DCMain,TOMOMI,0000,0000,0000,,Tamie-san, are you all right?
+Dialogue: 0,0:11:29.75,0:11:31.18,DCMain,TAMIE,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:11:31.18,0:11:32.80,DCMain,TOMOMI,0000,0000,0000,,Don't push yourself too hard.
+Dialogue: 0,0:11:32.80,0:11:34.72,DCMain,TOMOMI,0000,0000,0000,,You should take a break.
+Dialogue: 0,0:11:34.72,0:11:36.41,DCMain,TOMOMI,0000,0000,0000,,I'll go with her.
+Dialogue: 0,0:11:36.90,0:11:39.44,DCMain,MIZUNUMA,0000,0000,0000,,Shall we go, then?
+Dialogue: 0,0:11:39.44,0:11:40.68,DCMain,AZUSA,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:55.40,0:11:59.07,Kajiyama,SIGN,0000,0000,0000,,{\fad(250,460)\pos(289,293.6)}Kokubo Masashi (35) \NJack-o'-lantern Carving \NContest Committee Member
+Dialogue: 0,0:11:56.67,0:11:59.44,DCMain,KOKUBO,0000,0000,0000,,{\an8}All right. Now we can see the footage.
+Dialogue: 0,0:11:59.87,0:12:04.08,DCMain,KOKUBO,0000,0000,0000,,I installed the camera because lately people \Nhave been drawing graffiti on my fence.
+Dialogue: 0,0:12:04.62,0:12:07.94,DCMain,CONAN,0000,0000,0000,,Could you show us the footage \Nfrom after ten last night?
+Dialogue: 0,0:12:07.94,0:12:08.95,DCMain,KOKUBO,0000,0000,0000,,Got it.
+Dialogue: 0,0:12:09.65,0:12:10.70,DCMain,KOKUBO,0000,0000,0000,,Here you go.
+Dialogue: 0,0:12:12.26,0:12:14.61,DCMain,AZUSA,0000,0000,0000,,There's a lot of traffic.
+Dialogue: 0,0:12:14.61,0:12:17.06,DCMain,KOKUBO,0000,0000,0000,,It's a shortcut from the station.
+Dialogue: 0,0:12:20.64,0:12:23.38,DCMain,AZUSA,0000,0000,0000,,Everyone looks suspicious to me.
+Dialogue: 0,0:12:23.60,0:12:28.37,DCMain,CONAN,0000,0000,0000,,You'd need a large bag or something \Nto hide three pumpkins.
+Dialogue: 0,0:12:28.81,0:12:32.03,DCMain,CONAN,0000,0000,0000,,But no one's carrying anything like that.
+Dialogue: 0,0:12:32.03,0:12:32.81,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:12:33.09,0:12:34.18,DCMain,CONAN,0000,0000,0000,,Could you rewind a little?
+Dialogue: 0,0:12:34.18,0:12:35.01,DCMain,KOKUBO,0000,0000,0000,,Sure.
+Dialogue: 0,0:12:37.86,0:12:42.91,DCMain,KUKUBO,0000,0000,0000,,That's Kajiyama-kun and Kuwano-kun who \Nlive in the apartment building over there.
+Dialogue: 0,0:12:43.36,0:12:46.49,DCMain,AZUSA,0000,0000,0000,,Are they running from something?
+Dialogue: 0,0:12:47.22,0:12:48.93,DCMain,AZUSA,0000,0000,0000,,They seem to be in a big hurry.
+Dialogue: 0,0:12:52.88,0:12:54.54,DCMain,KAJIYAMA,0000,0000,0000,,Oh, last night?
+Dialogue: 0,0:12:54.98,0:12:57.79,DCMain,KAJIYAMA,0000,0000,0000,,It was quite the surprise.
+Dialogue: 0,0:12:57.99,0:13:00.55,DCMain,CONAN,0000,0000,0000,,Are you talking about the \Njack-o'-lantern ghosts?
+Dialogue: 0,0:13:00.72,0:13:01.45,DCMain,KAJIYAMA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:01.45,0:13:05.67,DCMain,KAJIYAMA,0000,0000,0000,,I was walking with my coworker \NKuwano when they suddenly appeared.
+Dialogue: 0,0:13:06.16,0:13:08.80,DCMain,CONAN,0000,0000,0000,,How many ghosts were there?
+Dialogue: 0,0:13:09.10,0:13:11.26,DCMain,KAJIYAMA,0000,0000,0000,,There were three things.
+Dialogue: 0,0:13:11.26,0:13:14.31,DCMain,KAJIYAMA,0000,0000,0000,,Wait, do I really mean three ghosts?
+Dialogue: 0,0:13:14.55,0:13:18.06,DCMain,CONAN,0000,0000,0000,,Where did the ghosts come from \Nand which way did they go?
+Dialogue: 0,0:13:18.36,0:13:21.40,DCMain,KAJIYAMA,0000,0000,0000,,That's actually about all I remember.
+Dialogue: 0,0:13:21.40,0:13:23.07,DCMain,KAJIYAMA,0000,0000,0000,,I had a lot to drink last night.
+Dialogue: 0,0:13:23.31,0:13:25.70,DCMain,CONAN,0000,0000,0000,,What about the coworker \Nyou said you were with?
+Dialogue: 0,0:13:26.31,0:13:27.95,DCMain,KAJIYAMA,0000,0000,0000,,He's got work today.
+Dialogue: 0,0:13:28.49,0:13:30.95,DCMain,KAJIYAMA,0000,0000,0000,,I talked to him on the phone this morning,
+Dialogue: 0,0:13:31.20,0:13:33.92,DCMain,KAJIYAMA,0000,0000,0000,,and he said he didn't remember \Nanything about last night.
+Dialogue: 0,0:13:34.41,0:13:36.20,DCMain,CONAN,0000,0000,0000,,While you were running from the ghosts,
+Dialogue: 0,0:13:36.20,0:13:39.21,DCMain,CONAN,0000,0000,0000,,did you see the pumpkins in \Nfront of a row of houses?
+Dialogue: 0,0:13:42.10,0:13:43.96,DCMain,KAJIYAMA,0000,0000,0000,,Sorry, I can't remember.
+Dialogue: 0,0:13:45.97,0:13:48.22,ShoppingCenter,SIGN GREEN,0000,0000,0000,,Beika City Shopping Center
+Dialogue: 0,0:13:45.97,0:13:48.22,Supermarket,SIGN ORANGE,0000,0000,0000,,Supermarket Tatamaru
+Dialogue: 0,0:13:48.45,0:13:52.21,DCMain,MIZUNUMA,0000,0000,0000,,So we still don't know what the \Nflying jack-o'-lanterns really were.
+Dialogue: 0,0:13:52.21,0:13:53.47,DCMain,AZUSA,0000,0000,0000,,Sounds like it.
+Dialogue: 0,0:13:57.46,0:13:58.47,DCMain,AZUSA,0000,0000,0000,,What's that?
+Dialogue: 0,0:14:02.90,0:14:04.59,DCMain,KOKUBO,0000,0000,0000,,The wind's strong today.
+Dialogue: 0,0:14:04.59,0:14:06.49,DCMain,KOKUBO,0000,0000,0000,,Keep a firm grip or you'll lose it.
+Dialogue: 0,0:14:06.49,0:14:07.41,DCMain,GIRL,0000,0000,0000,,Thank you.
+Dialogue: 0,0:14:07.41,0:14:08.70,DCMain,MOTHER,0000,0000,0000,,Thank you.
+Dialogue: 0,0:14:13.33,0:14:20.46,Books,SIGN PINK,0000,0000,0000,,Beika Books
+Dialogue: 0,0:14:15.09,0:14:16.08,DCMain,CONAN,0000,0000,0000,,Hey, mister.
+Dialogue: 0,0:14:16.08,0:14:17.54,DCMain,KOKUBO,0000,0000,0000,,Hey, it's you guys again.
+Dialogue: 0,0:14:17.54,0:14:19.26,DCMain,KOKUBO,0000,0000,0000,,Did you meet up with Kajiyama-kun?
+Dialogue: 0,0:14:19.26,0:14:22.09,DCMain,CONAN,0000,0000,0000,,Where can you buy those balloons?
+Dialogue: 0,0:14:22.33,0:14:27.34,DCMain,KOKUBO,0000,0000,0000,,Those? We give them out to people \Nwho shop at the shopping center.
+Dialogue: 0,0:14:27.34,0:14:28.64,DCMain,KOKUBO,0000,0000,0000,,They're pretty popular.
+Dialogue: 0,0:14:28.64,0:14:31.55,DCMain,KOKUBO,0000,0000,0000,,The ones I made yesterday \Nwere gone right away.
+Dialogue: 0,0:14:31.98,0:14:34.31,DCMain,CONAN,0000,0000,0000,,You make those balloons?
+Dialogue: 0,0:14:34.47,0:14:37.88,DCMain,KOKUBO,0000,0000,0000,,I'm a committee member for this year's \Njack-o'-lantern carving contest.
+Dialogue: 0,0:14:37.88,0:14:40.39,DCMain,KOKUBO,0000,0000,0000,,I put up posters and make balloons.
+Dialogue: 0,0:14:40.39,0:14:41.69,DCMain,KOKUBO,0000,0000,0000,,It's a lot of work.
+Dialogue: 0,0:14:41.69,0:14:43.32,DCMain,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:14:43.77,0:14:49.32,DCMain,KOKUBO,0000,0000,0000,,I didn't get home until late last night \Nsince I was putting up these posters.
+Dialogue: 0,0:14:50.02,0:14:52.87,DCMain,KOKUBO,0000,0000,0000,,I thought I'd take my car,
+Dialogue: 0,0:14:52.87,0:14:55.33,DCMain,KOKUBO,0000,0000,0000,,but there was a road I couldn't enter \Nbecause of some gas construction.
+Dialogue: 0,0:14:55.33,0:14:58.20,Apology,SIGN,0000,0000,0000,,We apologize for the inconvenience
+Dialogue: 0,0:14:55.33,0:14:58.20,Construction,SIGN,0000,0000,0000,,Gas Construction Underway
+Dialogue: 0,0:14:55.84,0:15:00.49,DCMain,KOKUBO,0000,0000,0000,,Since I walked the rest of \Nthe way, I was exhausted.
+Dialogue: 0,0:15:00.49,0:15:04.30,DCMain,CONAN,0000,0000,0000,,Did you put up one of those posters \Nacross from Tamie-san's house?
+Dialogue: 0,0:15:04.30,0:15:05.93,DCMain,KOKUBO,0000,0000,0000,,Yeah, I did.
+Dialogue: 0,0:15:05.93,0:15:10.71,DCMain,KOKUBO,0000,0000,0000,,But it was gone when I checked this morning.
+Dialogue: 0,0:15:11.38,0:15:14.66,DCMain,KOKUBO,0000,0000,0000,,The wind must've blown it away.
+Dialogue: 0,0:15:14.66,0:15:18.10,DCMain,CONAN,0000,0000,0000,,Around what time did you put up the poster?
+Dialogue: 0,0:15:18.10,0:15:21.35,DCMain,KOKUBO,0000,0000,0000,,I think it was between ten and eleven.
+Dialogue: 0,0:15:22.46,0:15:24.11,DCMain,CONAN,0000,0000,0000,,Could I get one of those balloons?
+Dialogue: 0,0:15:24.49,0:15:27.53,DCMain,KOKUBO,0000,0000,0000,,Sorry, but like I said, they're popular.
+Dialogue: 0,0:15:28.09,0:15:29.99,DCMain,KOKUBO,0000,0000,0000,,I'm all out of balloons for today.
+Dialogue: 0,0:15:30.14,0:15:32.81,DCMain,KOKUBO,0000,0000,0000,,Could you come back tomorrow?
+Dialogue: 0,0:15:32.81,0:15:35.16,DCMain,CONAN,0000,0000,0000,,Where do you keep the balloons you've made?
+Dialogue: 0,0:15:35.34,0:15:37.04,DCMain,KOKUBO,0000,0000,0000,,They're in my car at my house.
+Dialogue: 0,0:15:38.64,0:15:41.54,DCItalic,CONAN,0000,0000,0000,,I see. So that's how it is.
+Dialogue: 0,0:15:41.54,0:15:45.04,Liquor,SIGN BLUE,0000,0000,0000,,Beika Liquor
+Dialogue: 0,0:15:41.54,0:15:45.04,RealEstate,SIGN GREEN,0000,0000,0000,,Beika Real Estate
+Dialogue: 0,0:15:41.69,0:15:44.39,DCMain,KOKUBO,0000,0000,0000,,Well, I've got to prepare \Nfor tomorrow. See you later.
+Dialogue: 0,0:15:46.12,0:15:48.05,DCMain,CONAN,0000,0000,0000,,Azusa-san, Mizunuma-san.
+Dialogue: 0,0:15:49.10,0:15:52.30,DCMain,CONAN,0000,0000,0000,,I know who took your pumpkins.
+Dialogue: 0,0:16:01.53,0:16:03.19,DCMain,TOMOMI,0000,0000,0000,,Thank you for waiting.
+Dialogue: 0,0:16:04.61,0:16:06.96,DCMain,TOMOMI,0000,0000,0000,,Tamie-san's still not feeling well.
+Dialogue: 0,0:16:06.96,0:16:09.94,DCMain,TOMOMI,0000,0000,0000,,I think we should have her rest at home.
+Dialogue: 0,0:16:10.13,0:16:11.21,DCMain,AZUSA,0000,0000,0000,,I see.
+Dialogue: 0,0:16:11.21,0:16:14.60,DCMain,AZUSA,0000,0000,0000,,Anyway, Conan-kun, did you \Nreally figure out who did it?
+Dialogue: 0,0:16:14.60,0:16:15.33,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:16:15.33,0:16:19.95,DCMain,CONAN,0000,0000,0000,,The culprit was after Tamie-san's \Njack-o'-lantern after all.
+Dialogue: 0,0:16:20.29,0:16:22.75,DCMain,CONAN,0000,0000,0000,,Right, Mizunuma-san?
+Dialogue: 0,0:16:24.34,0:16:26.17,DCMain,AZUSA,0000,0000,0000,,What do you mean, Conan-kun?
+Dialogue: 0,0:16:26.17,0:16:29.41,DCMain,AZUSA,0000,0000,0000,,Why would Mizunuma-san want to \Ntake Tamie-san's jack-o'-lantern?
+Dialogue: 0,0:16:29.41,0:16:32.32,DCMain,CONAN,0000,0000,0000,,Honestly, I don't know \Nwhat his motive was yet,
+Dialogue: 0,0:16:32.32,0:16:35.61,DCMain,CONAN,0000,0000,0000,,but considering the circumstances \Nbefore and after they disappeared,
+Dialogue: 0,0:16:35.61,0:16:38.93,DCMain,CONAN,0000,0000,0000,,there are a lot of things that make \Nit look like Mizunuma-san did it.
+Dialogue: 0,0:16:39.41,0:16:41.94,DCMain,CONAN,0000,0000,0000,,First, where did the culprit go?
+Dialogue: 0,0:16:41.94,0:16:44.44,DCMain,CONAN,0000,0000,0000,,The pumpkins were taken after 10PM.
+Dialogue: 0,0:16:44.99,0:16:49.75,DCMain,CONAN,0000,0000,0000,,If they went that way, the gas construction \Nworkers would've seen their face.
+Dialogue: 0,0:16:46.19,0:16:51.19,RoadClosed3,SIGN,0000,0000,0000,,Road Closed
+Dialogue: 0,0:16:50.45,0:16:53.45,DCMain,CONAN,0000,0000,0000,,If they went this way,
+Dialogue: 0,0:16:53.45,0:16:56.95,DCMain,CONAN,0000,0000,0000,,they would've been seen by the security \Ncamera at Kokubo-san's house.
+Dialogue: 0,0:16:57.27,0:16:58.77,DCMain,CONAN,0000,0000,0000,,Then there're the pumpkins.
+Dialogue: 0,0:16:58.77,0:17:01.79,DCMain,CONAN,0000,0000,0000,,Where did the culprit hide three pumpkins?
+Dialogue: 0,0:17:02.57,0:17:08.05,DCMain,CONAN,0000,0000,0000,,Mizunuma-san probably originally planned \Nto keep the pumpkins in his house.
+Dialogue: 0,0:17:08.81,0:17:12.10,DCMain,CONAN,0000,0000,0000,,Since he lives alone, they'd be easy to hide.
+Dialogue: 0,0:17:12.10,0:17:14.84,DCMain,CONAN,0000,0000,0000,,But something unexpected happened yesterday.
+Dialogue: 0,0:17:15.21,0:17:18.60,DCMain,CONAN,0000,0000,0000,,His son brought a couple of coworkers home.
+Dialogue: 0,0:17:19.02,0:17:22.37,DCMain,CONAN,0000,0000,0000,,They would've found it suspicious if he \Nentered the house with three pumpkins,
+Dialogue: 0,0:17:22.37,0:17:26.10,DCMain,CONAN,0000,0000,0000,,so he had to find a new hiding place.
+Dialogue: 0,0:17:26.99,0:17:30.86,DCMain,CONAN,0000,0000,0000,,Kokubo-san's garage is across from the \Nfence surrounding Mizunuma-san's house.
+Dialogue: 0,0:17:31.13,0:17:34.36,DCMain,CONAN,0000,0000,0000,,There are two cars parked in the garage,
+Dialogue: 0,0:17:34.70,0:17:38.11,DCMain,CONAN,0000,0000,0000,,and they're filled with \Njack-o'-lantern balloons.
+Dialogue: 0,0:17:38.52,0:17:39.61,DCMain,AZUSA,0000,0000,0000,,I see.
+Dialogue: 0,0:17:39.61,0:17:41.78,DCMain,AZUSA,0000,0000,0000,,The best place to hide \Na leaf is in the forest.
+Dialogue: 0,0:17:41.78,0:17:43.15,DCMain,AZUSA,0000,0000,0000,,That's what you're saying, right?
+Dialogue: 0,0:17:43.15,0:17:46.66,DCMain,CONAN,0000,0000,0000,,The balloons inside the cars \Nwill be distributed tomorrow.
+Dialogue: 0,0:17:46.66,0:17:48.12,DCMain,CONAN,0000,0000,0000,,He just needs to find an opportunity
+Dialogue: 0,0:17:48.45,0:17:52.16,DCMain,CONAN,0000,0000,0000,,before then to move the pumpkins \Nfrom the car into his house.
+Dialogue: 0,0:17:52.16,0:17:54.35,DCMain,CONAN,0000,0000,0000,,That was probably Mizunuma-san's thinking.
+Dialogue: 0,0:17:54.35,0:17:58.13,DCMain,MIZUNUMA,0000,0000,0000,,But I can't climb over that fence.
+Dialogue: 0,0:17:58.57,0:18:01.01,DCMain,CONAN,0000,0000,0000,,You probably could with \Nsomething to stand on,
+Dialogue: 0,0:18:01.31,0:18:04.64,DCMain,CONAN,0000,0000,0000,,like the table in your yard.
+Dialogue: 0,0:18:04.96,0:18:07.64,DCMain,CONAN,0000,0000,0000,,There were footprints on \Nit when I looked earlier.
+Dialogue: 0,0:18:08.09,0:18:12.65,DCMain,CONAN,0000,0000,0000,,You probably used this table \Nto climb over the fence.
+Dialogue: 0,0:18:12.83,0:18:16.47,DCMain,MIZUNUMA,0000,0000,0000,,It wouldn't be impossible with my hands free,
+Dialogue: 0,0:18:16.47,0:18:20.16,DCMain,MIZUNUMA,0000,0000,0000,,but wasn't the culprit \Ncarrying three pumpkins?
+Dialogue: 0,0:18:20.57,0:18:22.78,DCMain,MIZUNUMA,0000,0000,0000,,My hands would be full.
+Dialogue: 0,0:18:23.02,0:18:25.04,DCMain,MIZUNUMA,0000,0000,0000,,I couldn't climb the fence like that.
+Dialogue: 0,0:18:25.45,0:18:28.04,DCMain,CONAN,0000,0000,0000,,You could if you had an accomplice.
+Dialogue: 0,0:18:31.43,0:18:32.29,DCMain,CONAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:18:32.89,0:18:33.55,DCMain,AZUSA,0000,0000,0000,,What?
+Dialogue: 0,0:18:35.54,0:18:38.80,DCMain,CONAN,0000,0000,0000,,It would've been possible \Nwith Tomomi-san's help.
+Dialogue: 0,0:18:39.04,0:18:42.04,DCMain,TOMOMI,0000,0000,0000,,But... I didn't do anything...
+Dialogue: 0,0:18:42.04,0:18:45.06,DCMain,MIZUNUMA,0000,0000,0000,,What makes you say that?
+Dialogue: 0,0:18:45.60,0:18:50.95,DCMain,CONAN,0000,0000,0000,,Tomomi-san said she put her daughter \Nto bed at eight and then went to sleep.
+Dialogue: 0,0:18:50.95,0:18:53.06,DCMain,CONAN,0000,0000,0000,,But she's probably lying about that.
+Dialogue: 0,0:18:54.59,0:18:58.65,DCMain,CONAN,0000,0000,0000,,There was a jack-o'-lantern \Ncarving contest poster
+Dialogue: 0,0:18:58.65,0:19:01.36,DCMain,CONAN,0000,0000,0000,,on that utility pole that was blown away.
+Dialogue: 0,0:19:01.79,0:19:03.80,DCMain,CONAN,0000,0000,0000,,Kokubo-san put up the poster.
+Dialogue: 0,0:19:04.52,0:19:07.94,DCMain,CONAN,0000,0000,0000,,The gas construction started at 10PM,
+Dialogue: 0,0:19:07.94,0:19:12.36,DCMain,CONAN,0000,0000,0000,,so Kokubo-san must've put \Nthe poster up after 10PM.
+Dialogue: 0,0:19:12.87,0:19:16.88,DCMain,CONAN,0000,0000,0000,,By morning, the poster had been blown away.
+Dialogue: 0,0:19:17.32,0:19:20.30,DCMain,CONAN,0000,0000,0000,,Since Tomomi-san went to bed at eight,
+Dialogue: 0,0:19:20.30,0:19:24.07,DCMain,CONAN,0000,0000,0000,,she had no opportunity to see the \Nposter in front of Tamie-san's house.
+Dialogue: 0,0:19:24.57,0:19:29.39,DCMain,CONAN,0000,0000,0000,,So how did you know a jack-o'-lantern \Ncarving contest poster had been put up?
+Dialogue: 0,0:19:31.51,0:19:35.88,DCMain,CONAN,0000,0000,0000,,After receiving the pumpkins from Tomomi-san,
+Dialogue: 0,0:19:35.88,0:19:40.99,DCMain,CONAN,0000,0000,0000,,Mizunuma-san probably removed three \Njack-o'-lantern balloons from the car
+Dialogue: 0,0:19:41.34,0:19:43.98,DCMain,CONAN,0000,0000,0000,,in Kokubo-san's garage and swapped \Nin the three real pumpkins.
+Dialogue: 0,0:19:46.64,0:19:50.82,DCMain,CONAN,0000,0000,0000,,There must've been a strong \Ngust when Mizunuma-san
+Dialogue: 0,0:19:50.82,0:19:55.63,DCMain,CONAN,0000,0000,0000,,climbed down from the fence that blew \Naway the jack-o'-lantern balloons.
+Dialogue: 0,0:19:56.91,0:20:02.58,DCMain,CONAN,0000,0000,0000,,Those were probably the jack-o'-lantern \Nghosts Kajiyama-san and Kuwano-san saw.
+Dialogue: 0,0:20:03.43,0:20:08.97,DCMain,AZUSA,0000,0000,0000,,But why did they steal all three \Npumpkins, including their own?
+Dialogue: 0,0:20:09.23,0:20:12.23,DCMain,CONAN,0000,0000,0000,,Probably because of that.
+Dialogue: 0,0:20:12.82,0:20:14.23,DCMain,AZUSA,0000,0000,0000,,The security camera...
+Dialogue: 0,0:20:14.45,0:20:18.63,DCMain,CONAN,0000,0000,0000,,They considered the possibility \Nthe footage would be checked.
+Dialogue: 0,0:20:18.63,0:20:23.40,DCMain,CONAN,0000,0000,0000,,A single pumpkin could \Nbe placed inside a bag.
+Dialogue: 0,0:20:23.89,0:20:29.38,DCMain,AZUSA,0000,0000,0000,,They did it so suspicion \Nwouldn't fall on passersby?
+Dialogue: 0,0:20:30.98,0:20:34.86,DCMain,CONAN,0000,0000,0000,,If Mizunuma-san's son and his coworkers \Nwere here until a moment ago,
+Dialogue: 0,0:20:34.86,0:20:38.00,DCMain,CONAN,0000,0000,0000,,then the pumpkins are still \Ninside Kokubo-san's car, right?
+Dialogue: 0,0:20:40.68,0:20:42.05,DCMain,MIZUNUMA,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:20:42.05,0:20:46.33,DCMain,TOMOMI,0000,0000,0000,,The boy is right. Mizunuma-san \Nand I hid the pumpkins.
+Dialogue: 0,0:20:46.33,0:20:48.51,DCMain,TOMOMI,0000,0000,0000,,But there's a reason for it.
+Dialogue: 0,0:20:48.90,0:20:50.63,DCMain,AZUSA,0000,0000,0000,,Could you tell us?
+Dialogue: 0,0:20:55.40,0:20:56.83,DCMain,TAMIE,0000,0000,0000,,Coming.
+Dialogue: 0,0:20:57.93,0:20:59.27,DCMain,TAMIE,0000,0000,0000,,Who is it?
+Dialogue: 0,0:20:59.65,0:21:02.56,DCMain,ALL,0000,0000,0000,,Happy Halloween!
+Dialogue: 0,0:21:03.01,0:21:05.28,DCMain,ALL,0000,0000,0000,,Surprise!
+Dialogue: 0,0:21:05.51,0:21:09.16,DCMain,TAMIE,0000,0000,0000,,Oh, my. Is this for me?
+Dialogue: 0,0:21:09.34,0:21:11.58,DCMain,CONAN,0000,0000,0000,,So that's why.
+Dialogue: 0,0:21:11.58,0:21:15.16,DCMain,TOMOMI,0000,0000,0000,,Remember how we told you Tamie-san's \Njack-o'-lanterns are popular?
+Dialogue: 0,0:21:15.50,0:21:18.31,DCMain,TOMOMI,0000,0000,0000,,But this year Tamie-san was in the hospital.
+Dialogue: 0,0:21:18.31,0:21:21.20,DCMain,TOMOMI,0000,0000,0000,,We thought she wouldn't be able to carve one.
+Dialogue: 0,0:21:21.20,0:21:27.52,DCMain,TOMOMI,0000,0000,0000,,So the preschool children decided to make \Na jack-o'-lantern to give to Tamie-san.
+Dialogue: 0,0:21:27.52,0:21:33.30,DCMain,MIZUNUMA,0000,0000,0000,,But Tamie-san was released early, and she \Nfully intended to carve a jack-o'-lantern.
+Dialogue: 0,0:21:33.30,0:21:37.40,DCMain,MIZUNUMA,0000,0000,0000,,She even got Azusa-san to \Nshare her pumpkins with her.
+Dialogue: 0,0:21:37.40,0:21:41.65,DCMain,TOMOMI,0000,0000,0000,,We decided to hide it so as not \Nto disappoint the children.
+Dialogue: 0,0:21:41.92,0:21:44.26,DCMain,TOMOMI,0000,0000,0000,,We never thought this would happen.
+Dialogue: 0,0:21:44.77,0:21:47.59,DCMain,MIZUNUMA,0000,0000,0000,,We're sorry for what we did.
+Dialogue: 0,0:21:48.04,0:21:49.16,DCMain,TOMOMI,0000,0000,0000,,We're sorry.
+Dialogue: 0,0:21:49.68,0:21:53.69,DCMain,CONAN,0000,0000,0000,,Azusa-san and I will handle \Nthe jack-o'-lanterns you hid.
+Dialogue: 0,0:21:53.69,0:21:55.05,DCMain,AZUSA,0000,0000,0000,,You can count on us.
+Dialogue: 0,0:21:55.05,0:21:56.32,DCMain,TOMOMI,0000,0000,0000,,But...
+Dialogue: 0,0:21:57.07,0:21:58.29,DCMain,TOMOMI,0000,0000,0000,,We're sorry.
+Dialogue: 0,0:21:58.29,0:22:00.17,DCMain,MIZUNUMA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:22:03.04,0:22:07.38,DCMain,AZUSA,0000,0000,0000,,I'm glad this year's Halloween \Nturned out happy this year.
+Dialogue: 0,0:23:30.82,0:23:35.18,DCItalic,CONAN,0000,0000,0000,,Apparently the shopping center's Halloween \Njack-o'-lantern carving contest was a huge success.
+Dialogue: 0,0:23:36.16,0:23:37.43,DCItalic,CONAN,0000,0000,0000,,However, during that time,
+Dialogue: 0,0:23:38.37,0:23:43.48,DCItalic,CONAN,0000,0000,0000,,we were caught up in a horrifying \Nplot taking place in Shibuya...
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:50.02,0:23:51.74,DCMain,CONAN,0000,0000,0000,,I'm going to go check things out.
+Dialogue: 0,0:23:55.28,0:23:56.20,DCMain,ALL,0000,0000,0000,,What?!
+Dialogue: 0,0:23:56.36,0:23:58.75,DCMain,MAN,0000,0000,0000,,While I was tied up and rolling around,
+Dialogue: 0,0:23:58.75,0:24:00.96,DCMain,MAN,0000,0000,0000,,they were talking about a bomb.
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,SIGN,0000,0000,0000,,The Case of Ayumi's Illustrated Diary 2
+Dialogue: 0,0:24:09.22,0:24:13.58,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The \NCase of Ayumi's Illustrated Diary 2!"
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,TEXT,0000,0000,0000,,Bump
+Dialogue: 0,0:24:30.26,0:24:32.40,DCMain,AZUSA,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.40,0:24:34.23,DCMain,CONAN,0000,0000,0000,,A bump!
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.22,0:24:36.88,DCMain,AZUSA,0000,0000,0000,,{\an8}What's happening in Shibuya?
+Dialogue: 0,0:24:36.88,0:24:38.63,DCMain,CONAN,0000,0000,0000,,{\an8}We'll be waiting for you \Nat the movie theater!

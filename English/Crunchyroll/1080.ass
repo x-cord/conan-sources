@@ -1,0 +1,433 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Prize,Trebuchet MS,22,&H0001355E,&H000000FF,&H000ADCFA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Tour,Trebuchet MS,18,&H00D9EDFF,&H000000FF,&H00186EEF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Winners,Trebuchet MS,26,&H009766F2,&H000000FF,&H00051531,&H00D4BD40,-1,0,0,0,100,100,0,0,1,2,2,8,0100,0020,0020,0
+Style: Sale,Trebuchet MS,26,&H0066F9FC,&H000000FF,&H008D31EB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Agasa,Trebuchet MS,16,&H00C1C0DE,&H000000FF,&H0033269F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,0115,0020,0120,0
+Style: Agasa2,Trebuchet MS,16,&H00C1C0DE,&H000000FF,&H0033269F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,0085,0020,0102,0
+Style: ATM,Times New Roman,20,&H00DCDBCD,&H000000FF,&H008B5224,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: BankATM,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00354A9D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0150,0
+Style: Pin,Trebuchet MS,16,&H001B1B20,&H000000FF,&H00F7F4F0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Cancel,Trebuchet MS,16,&H00A39C91,&H000000FF,&H00ECE7E2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0080,0020,0
+Style: TotoBank,Trebuchet MS,16,&H00CFC9E6,&H000000FF,&H00505193,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0250,0130,0
+Style: Service,Trebuchet MS,18,&H00766DAA,&H000000FF,&H00D4D6CF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0360,0145,0
+Style: Apologize,Trebuchet MS,22,&H00FF0007,&H000000FF,&H00FFF7F7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: TotoBank2,Trebuchet MS,18,&H0092876B,&H000000FF,&H003A384D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0225,0050,0
+Style: Cheetah,Trebuchet MS,22,&H0019100F,&H000000FF,&H00BB8570,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0040,0020,0150,0
+Style: TotoBank3,Trebuchet MS,18,&H00C6C5E1,&H000000FF,&H004A5397,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0170,0020,0150,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.56,0:00:03.69,Prize,SIGN,0000,0000,0000,,{\fad(85,1)}Grand Prize
+Dialogue: 0,0:00:00.70,0:00:03.06,DCItalic,MALE ANNOUNCER,0000,0000,0000,,And the grand prize is...
+Dialogue: 0,0:00:04.06,0:00:07.52,Tour,SIGN,0000,0000,0000,,Hachijo-jima Whale Watching Tour
+Dialogue: 0,0:00:04.53,0:00:08.04,DCItalic,FEMALE ANNOUNCER,0000,0000,0000,,A Hachijo-jima Whale Watching Tour!
+Dialogue: 0,0:00:09.73,0:00:12.65,Winners,SIGN,0000,0000,0000,,{\fad(250,1)}Groups of Two \NTen Winners
+Dialogue: 0,0:00:10.53,0:00:12.65,DCItalic,FEMALE ANNOUNCER,0000,0000,0000,,Up to ten pairs could win.
+Dialogue: 0,0:00:13.96,0:00:18.51,DCItalic,MALE ANNOUNCER,0000,0000,0000,,This winter, come play the lottery at the Beika\NDepartment Store and meet some whales.
+Dialogue: 0,0:00:18.51,0:00:20.75,DCItalic,MALE ANNOUNCER,0000,0000,0000,,Any purchase will earn you a chance to play.
+Dialogue: 0,0:00:20.75,0:00:23.05,DCItalic,FEMALE ANNOUNCER,0000,0000,0000,,One play per customer.
+Dialogue: 0,0:00:23.05,0:00:24.34,DCItalic,BOTH,0000,0000,0000,,Get yours soon!
+Dialogue: 0,0:00:24.75,0:00:28.00,DCItalic,MALE ANNOUNCER,0000,0000,0000,,Beika Department Store Winter Mega Sale!
+Dialogue: 0,0:00:25.83,0:00:28.00,Sale,SIGN,0000,0000,0000,,{\fad(1090,1)}Winter Mega Sale
+Dialogue: 0,0:00:28.28,0:00:30.70,DCMain,AGASA,0000,0000,0000,,Win a whale watching tour in a lottery?
+Dialogue: 0,0:00:30.70,0:00:34.74,DCMain,HAIBARA,0000,0000,0000,,Come to think of it, those kids \Nwanted to go on this tour.
+Dialogue: 0,0:00:34.74,0:00:35.96,DCMain,HAIBARA,0000,0000,0000,,They invited me to go with them.
+Dialogue: 0,0:00:35.96,0:00:37.25,DCMain,CONAN,0000,0000,0000,,You, too?
+Dialogue: 0,0:00:37.80,0:00:40.51,DCMain,CONAN,0000,0000,0000,,They invited me to go with them \Nto the department store today, too.
+Dialogue: 0,0:00:40.51,0:00:42.77,DCMain,HAIBARA,0000,0000,0000,,Oh, you're not going?
+Dialogue: 0,0:00:42.77,0:00:46.02,DCMain,CONAN,0000,0000,0000,,Nah. I'm not interested.
+Dialogue: 0,0:00:47.03,0:00:48.77,DCMain,HAIBARA,0000,0000,0000,,I'll pass, too.
+Dialogue: 0,0:00:50.18,0:00:52.63,DCMain,CONAN,0000,0000,0000,,Well, I should get going.
+Dialogue: 0,0:00:52.63,0:00:53.84,DCMain,AGASA,0000,0000,0000,,I want to go.
+Dialogue: 0,0:00:53.84,0:00:54.78,DCMain,BOTH,0000,0000,0000,,Huh?
+Dialogue: 0,0:00:54.78,0:00:59.54,DCMain,AGASA,0000,0000,0000,,Every man dreams of seeing whales.
+Dialogue: 0,0:00:59.54,0:01:01.66,DCMain,CONAN,0000,0000,0000,,Th-They do?
+Dialogue: 0,0:01:01.66,0:01:04.61,DCMain,AGASA,0000,0000,0000,,All right. The three of us are \Ngoing to the department store.
+Dialogue: 0,0:01:04.61,0:01:06.38,DCMain,CONAN,0000,0000,0000,,We're going, too?
+Dialogue: 0,0:01:06.38,0:01:09.51,DCMain,AGASA,0000,0000,0000,,They said each customer only \Ngets to play the lottery once.
+Dialogue: 0,0:01:09.51,0:01:13.30,DCMain,AGASA,0000,0000,0000,,We'll have better odds if more of us go.
+Dialogue: 0,0:01:13.30,0:01:14.69,DCMain,AGASA,0000,0000,0000,,I'll get my wallet.
+Dialogue: 0,0:01:14.69,0:01:18.68,DCMain,HAIBARA,0000,0000,0000,,Hey, wait. Isn't your scheduled \Ndelivery arriving soon?
+Dialogue: 0,0:01:19.05,0:01:23.06,DCMain,AGASA,0000,0000,0000,,Oh, right. The tools I need \Nfor inventing are arriving.
+Dialogue: 0,0:01:23.53,0:01:25.68,DCMain,HAIBARA,0000,0000,0000,,You can play the lottery tomorrow.
+Dialogue: 0,0:01:25.68,0:01:27.46,DCMain,AGASA,0000,0000,0000,,But...
+Dialogue: 0,0:01:27.46,0:01:30.94,DCMain,AGASA,0000,0000,0000,,If we don't go soon, they might \Nrun out of whale watching tour slots.
+Dialogue: 0,0:01:49.89,0:01:52.63,DCMain,HAIBARA,0000,0000,0000,,You're hopeless.
+Dialogue: 0,0:01:52.63,0:01:53.84,DCMain,CONAN,0000,0000,0000,,We're going?
+Dialogue: 0,0:01:53.84,0:01:54.78,DCMain,HAIBARA,0000,0000,0000,,Yes.
+Dialogue: 0,0:01:54.78,0:01:56.22,DCMain,AGASA,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:01:56.22,0:02:00.24,DCMain,AGASA,0000,0000,0000,,Could you withdraw cash for me \Nlike you always do?
+Dialogue: 0,0:01:56.34,0:02:01.22,Agasa,SIGN,0000,0000,0000,,Agasa Hiroshi
+Dialogue: 0,0:02:00.24,0:02:01.60,DCMain,HAIBARA,0000,0000,0000,,Got it.
+Dialogue: 0,0:02:02.78,0:02:04.43,DCMain,HAIBARA,0000,0000,0000,,Let's go.
+Dialogue: 0,0:02:04.43,0:02:05.85,DCMain,CONAN,0000,0000,0000,,What? Me, too?
+Dialogue: 0,0:02:08.58,0:02:11.02,DCMain,AGASA,0000,0000,0000,,You'd better win that tour.
+Dialogue: 0,0:02:11.02,0:02:15.03,DCMain,AGASA,0000,0000,0000,,I'll get some beach toys ready while I wait.
+Dialogue: 0,0:02:15.03,0:02:18.80,DCMain,CONAN,0000,0000,0000,,Hey, that card looks new.
+Dialogue: 0,0:02:18.80,0:02:23.03,DCMain,HAIBARA,0000,0000,0000,,It is. I recently swapped it \Nout for my old card.
+Dialogue: 0,0:02:23.03,0:02:26.00,Agasa2,SIGN,0000,0000,0000,,Agasa Hiroshi
+Dialogue: 0,0:02:23.62,0:02:24.94,DCMain,CONAN,0000,0000,0000,,Huh.
+Dialogue: 0,0:02:26.86,0:02:28.82,DCMain,CONAN,0000,0000,0000,,Beyond detective skills \Ncapable of identifying the truth
+Dialogue: 0,0:02:28.82,0:02:30.86,DCMain,CONAN,0000,0000,0000,,is the power to lead us \Nto what we should believe.
+Dialogue: 0,0:02:30.86,0:02:32.73,DCMain,CONAN,0000,0000,0000,,A whale watching tour and \Nan international organization!
+Dialogue: 0,0:02:32.73,0:02:34.61,DCMain,CONAN,0000,0000,0000,,A dark shadow closes in on Haibara!
+Dialogue: 0,0:02:34.61,0:02:36.24,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:02:36.24,0:02:38.17,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:02:38.17,0:02:40.72,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:21.99,0:04:27.99,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(370,1)}The Cameras Targeting Haibara
+Dialogue: 0,0:04:22.70,0:04:24.97,DCMain,CONAN,0000,0000,0000,,"The Cameras Targeting Haibara!"
+Dialogue: 0,0:04:27.99,0:04:29.99,DCMain,RAN,0000,0000,0000,,What? Now?
+Dialogue: 0,0:04:29.99,0:04:33.92,DCMain,SONOKO,0000,0000,0000,,The department store is \Nholding a sale right now.
+Dialogue: 0,0:04:33.92,0:04:36.77,DCMain,RAN,0000,0000,0000,,You sure do love sales.
+Dialogue: 0,0:04:37.38,0:04:38.12,DCMain,SONOKO,0000,0000,0000,,Ran.
+Dialogue: 0,0:04:38.12,0:04:38.88,DCMain,RAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:38.88,0:04:42.35,DCMain,SONOKO,0000,0000,0000,,Every woman loves a good bargain.
+Dialogue: 0,0:04:42.35,0:04:44.25,DCMain,RAN,0000,0000,0000,,Th-They do?
+Dialogue: 0,0:04:44.63,0:04:48.64,ATM,SIGN,0000,0000,0000,,Meiwa Toto Bank ATM
+Dialogue: 0,0:04:45.45,0:04:48.16,DCMain,RAN,0000,0000,0000,,Could I withdraw some cash first?
+Dialogue: 0,0:04:50.08,0:04:52.33,DCMain,SONOKO,0000,0000,0000,,Are you going shopping for sales, too?
+Dialogue: 0,0:04:52.33,0:04:55.39,DCMain,RAN,0000,0000,0000,,More like I have to go shopping for dinner.
+Dialogue: 0,0:04:58.65,0:05:00.58,DCMain,SONOKO,0000,0000,0000,,Must be tough cooking every day.
+Dialogue: 0,0:05:00.58,0:05:02.15,DCMain,RAN,0000,0000,0000,,I'm used to it.
+Dialogue: 0,0:05:04.65,0:05:07.44,DCMain,SONOKO,0000,0000,0000,,I bet you'll make a good wife.
+Dialogue: 0,0:05:07.44,0:05:10.18,DCMain,RAN,0000,0000,0000,,Don't tease me.
+Dialogue: 0,0:05:10.82,0:05:11.74,DCMain,RAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:12.27,0:05:13.75,DCMain,RAN,0000,0000,0000,,Oh, no. Why?
+Dialogue: 0,0:05:13.75,0:05:15.23,DCMain,SONOKO,0000,0000,0000,,What? What's wrong?
+Dialogue: 0,0:05:15.23,0:05:18.93,DCMain,RAN,0000,0000,0000,,I don't know, but the machine \Nsuddenly stopped working.
+Dialogue: 0,0:05:18.93,0:05:20.25,DCMain,SONOKO,0000,0000,0000,,Oh, come on.
+Dialogue: 0,0:05:22.63,0:05:25.26,ATM,SIGN,0000,0000,0000,,Meiwa Bank ATM
+Dialogue: 0,0:05:24.20,0:05:25.26,DCMain,GENTA,0000,0000,0000,,Took you long enough.
+Dialogue: 0,0:05:25.26,0:05:28.01,DCMain,GENTA,0000,0000,0000,,Let's get over to the department \Nstore so we can play the lottery.
+Dialogue: 0,0:05:28.01,0:05:31.23,DCMain,CONAN,0000,0000,0000,,You can't play unless you buy \Nsomething at the department store.
+Dialogue: 0,0:05:31.23,0:05:32.14,DCMain,AYUMI,0000,0000,0000,,Don't worry.
+Dialogue: 0,0:05:32.77,0:05:34.84,DCMain,AYUMI,0000,0000,0000,,We brought our allowances.
+Dialogue: 0,0:05:34.84,0:05:37.61,DCMain,MITSUHIKO,0000,0000,0000,,After all, you can buy anything \Nfor a chance to play once.
+Dialogue: 0,0:05:37.61,0:05:40.38,DCMain,GENTA,0000,0000,0000,,I'm gonna buy Kamen Yaiba chocolate.
+Dialogue: 0,0:05:40.38,0:05:42.32,DCMain,AYUMI,0000,0000,0000,,Let's go, Ai-chan.
+Dialogue: 0,0:05:42.32,0:05:45.19,DCMain,HAIBARA,0000,0000,0000,,Hold on. I have to withdraw some money first.
+Dialogue: 0,0:05:49.81,0:05:50.62,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:50.62,0:05:52.35,DCMain,CONAN,0000,0000,0000,,What's the matter, mister?
+Dialogue: 0,0:05:53.62,0:05:57.50,DCMain,KOGORO,0000,0000,0000,,I'm not sure what happened, but \Nwhen I tried to make a withdrawal,
+Dialogue: 0,0:05:57.50,0:06:00.01,DCMain,KOGORO,0000,0000,0000,,the machine suddenly stopped working.
+Dialogue: 0,0:06:00.63,0:06:05.18,DCMain,KOGORO,0000,0000,0000,,The machine ate my card \Nand won't give it back.
+Dialogue: 0,0:06:03.21,0:06:05.84,BankATM,SIGN RED,0000,0000,0000,,Bank ATM
+Dialogue: 0,0:06:05.84,0:06:07.09,Pin,SIGN LEFT,0000,0000,0000,,PIN Code \NPlease enter PIN code \NPIN Code
+Dialogue: 0,0:06:05.84,0:06:07.09,Cancel,SIGN RIGHT,0000,0000,0000,,Cancel
+Dialogue: 0,0:06:09.73,0:06:13.01,DCMain,KOGORO,0000,0000,0000,,Damn it. The next race is starting soon.
+Dialogue: 0,0:06:13.01,0:06:14.85,DCMain,CONAN,0000,0000,0000,,Mister, are you betting on the horses again?
+Dialogue: 0,0:06:14.85,0:06:17.06,DCMain,CONAN,0000,0000,0000,,You'll get in trouble with Ran-neechan.
+Dialogue: 0,0:06:17.06,0:06:20.29,DCMain,KOGORO,0000,0000,0000,,Shut up! You kids shouldn't be here anyway.
+Dialogue: 0,0:06:20.29,0:06:21.48,DCMain,KOGORO,0000,0000,0000,,Get out of here.
+Dialogue: 0,0:06:21.48,0:06:23.53,DCMain,CONAN,0000,0000,0000,,Mister, have you forgotten?
+Dialogue: 0,0:06:23.53,0:06:26.17,DCMain,CONAN,0000,0000,0000,,Several years ago, in just three hours,
+Dialogue: 0,0:06:26.17,0:06:30.86,DCMain,CONAN,0000,0000,0000,,1.8 billion yen was withdrawn \Nfrom ATMs all over Japan.
+Dialogue: 0,0:06:30.86,0:06:32.37,DCMain,KOGORO,0000,0000,0000,,1.8?!
+Dialogue: 0,0:06:32.78,0:06:36.77,DCMain,CONAN,0000,0000,0000,,It was because a South African \Nbank was hacked.
+Dialogue: 0,0:06:36.77,0:06:38.13,DCMain,AYUMI,0000,0000,0000,,Hacked?
+Dialogue: 0,0:06:38.13,0:06:41.88,DCMain,MITSUHIKO,0000,0000,0000,,That's when bad people steal \Ninformation from computers.
+Dialogue: 0,0:06:41.88,0:06:46.02,DCMain,CONAN,0000,0000,0000,,The stolen personal information \Nwas used to create fake cards.
+Dialogue: 0,0:06:46.02,0:06:51.74,DCMain,CONAN,0000,0000,0000,,The incident occurred when \Nthose were used, so maybe...
+Dialogue: 0,0:06:51.74,0:06:54.39,DCMain,KOGORO,0000,0000,0000,,Has my personal information \Nbeen stolen, too?
+Dialogue: 0,0:06:54.39,0:06:55.85,DCMain,CONAN,0000,0000,0000,,Maybe.
+Dialogue: 0,0:06:56.65,0:06:59.20,DCMain,CONAN,0000,0000,0000,,With the skills of an international hacker,
+Dialogue: 0,0:06:59.20,0:07:02.15,DCMain,CONAN,0000,0000,0000,,apparently it's possible to hack \Ninto a security camera system
+Dialogue: 0,0:07:02.51,0:07:06.02,DCMain,CONAN,0000,0000,0000,,and observe you from overseas.
+Dialogue: 0,0:07:06.36,0:07:09.92,DCMain,CONAN,0000,0000,0000,,Be careful you don't get caught up \Nin any international crimes.
+Dialogue: 0,0:07:09.92,0:07:12.77,DCMain,MITSUHIKO,0000,0000,0000,,What happened to that international hacker?
+Dialogue: 0,0:07:13.23,0:07:16.42,DCMain,CONAN,0000,0000,0000,,I think that Interpol is \Nstill investigating the case.
+Dialogue: 0,0:07:16.42,0:07:17.91,DCMain,AYUMI,0000,0000,0000,,Interpol?
+Dialogue: 0,0:07:17.91,0:07:22.17,DCMain,HAIBARA,0000,0000,0000,,It's an international police organization \Nwith members from all over the world.
+Dialogue: 0,0:07:44.31,0:07:46.33,DCMain,CONAN,0000,0000,0000,,The ATM is currently...
+Dialogue: 0,0:07:56.67,0:08:00.36,DCMain,MITSUHIKO,0000,0000,0000,,Huh? Haibara-san, you're not \Ngoing to make a withdrawal?
+Dialogue: 0,0:08:00.36,0:08:02.00,DCMain,HAIBARA,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:08:03.10,0:08:04.21,DCMain,HACKER,0000,0000,0000,,Haibara...
+Dialogue: 0,0:08:05.28,0:08:07.63,DCMain,HAIBARA,0000,0000,0000,,Hey, what was that for?
+Dialogue: 0,0:08:07.63,0:08:10.60,DCMain,AYUMI,0000,0000,0000,,Huh? That man's card...
+Dialogue: 0,0:08:11.44,0:08:12.76,DCMain,AYUMI,0000,0000,0000,,It's black.
+Dialogue: 0,0:08:15.52,0:08:19.53,ATM,SIGN,0000,0000,0000,,Toto Meiwa Bank ATM
+Dialogue: 0,0:08:16.93,0:08:18.11,DCMain,CONAN,0000,0000,0000,,Hey, wait.
+Dialogue: 0,0:08:19.52,0:08:21.22,DCMain,MITSUHIKO,0000,0000,0000,,I'll go after him, too.
+Dialogue: 0,0:08:21.22,0:08:24.38,DCMain,AYUMI,0000,0000,0000,,That man used a weird \Ncard to withdraw money.
+Dialogue: 0,0:08:24.38,0:08:25.71,DCMain,GENTA,0000,0000,0000,,Could it be?
+Dialogue: 0,0:08:25.71,0:08:26.32,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:26.32,0:08:27.80,DCMain,MITSUHIKO,0000,0000,0000,,It must be, right?
+Dialogue: 0,0:08:27.80,0:08:28.41,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:08:28.41,0:08:30.92,DCMain,MITSUHIKO,0000,0000,0000,,The international hacker will be captured...
+Dialogue: 0,0:08:30.92,0:08:31.74,DCMain,GENTA,0000,0000,0000,,By us.
+Dialogue: 0,0:08:31.87,0:08:33.20,DCMain,AYUMI,0000,0000,0000,,By us.
+Dialogue: 0,0:08:33.20,0:08:35.58,DCMain,ALL,0000,0000,0000,,The Detective Boys!
+Dialogue: 0,0:08:36.03,0:08:38.32,DCMain,CONAN,0000,0000,0000,,Wait, guys.
+Dialogue: 0,0:08:38.32,0:08:42.93,DCMain,HAIBARA,0000,0000,0000,,This is your fault for mentioning \Nthat in front of those kids.
+Dialogue: 0,0:08:42.93,0:08:44.31,DCMain,CONAN,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:08:45.67,0:08:47.80,DCMain,FEMALE BANK EMPLOYEE,0000,0000,0000,,Thank you for waiting.
+Dialogue: 0,0:08:47.80,0:08:50.17,DCMain,FEMALE BANK EMPLOYEE,0000,0000,0000,,Are you Mori-sama? We received your call.
+Dialogue: 0,0:08:50.17,0:08:51.82,DCMain,KOGORO,0000,0000,0000,,What's going on here?
+Dialogue: 0,0:08:51.82,0:08:54.93,DCMain,KOGORO,0000,0000,0000,,I can't withdraw any money, \Nand I can't get my card back.
+Dialogue: 0,0:08:54.93,0:09:00.85,DCMain,FEMALE BANK EMPLOYEE,0000,0000,0000,,I'm sorry. Several ATMs in \Nthis area are out of service.
+Dialogue: 0,0:09:00.85,0:09:04.02,DCMain,CONAN,0000,0000,0000,,For now, we'd better find that man.
+Dialogue: 0,0:09:04.02,0:09:07.64,DCMain,HAIBARA,0000,0000,0000,,You think he's an international hacker, too?
+Dialogue: 0,0:09:07.64,0:09:12.87,DCMain,CONAN,0000,0000,0000,,No, but he was surprised \Nwhen he saw your face.
+Dialogue: 0,0:09:12.87,0:09:16.51,DCMain,HAIBARA,0000,0000,0000,,What? Well, it did seem that way.
+Dialogue: 0,0:09:16.51,0:09:18.12,DCMain,HAIBARA,0000,0000,0000,,But he was a total stranger.
+Dialogue: 0,0:09:18.12,0:09:21.87,DCMain,CONAN,0000,0000,0000,,He's not a member of the \NBlack Organization, is he?
+Dialogue: 0,0:09:21.87,0:09:25.62,DCMain,HAIBARA,0000,0000,0000,,No, he didn't seem like it.
+Dialogue: 0,0:09:25.62,0:09:27.95,DCMain,HAIBARA,0000,0000,0000,,You're probably overthinking it.
+Dialogue: 0,0:09:27.95,0:09:30.53,DCMain,CONAN,0000,0000,0000,,In any case, you should go home.
+Dialogue: 0,0:09:30.53,0:09:32.09,DCMain,HAIBARA,0000,0000,0000,,You're letting it bother you too much.
+Dialogue: 0,0:09:32.09,0:09:33.38,DCMain,CONAN,0000,0000,0000,,Just do it.
+Dialogue: 0,0:09:41.72,0:09:43.10,DCMain,CONAN,0000,0000,0000,,Hey, guys.
+Dialogue: 0,0:09:43.10,0:09:44.44,DCItalic,CONAN,0000,0000,0000,,Where are you now?
+Dialogue: 0,0:09:43.10,0:09:47.10,TotoBank,SIGN,0000,0000,0000,,Toto Bank
+Dialogue: 0,0:09:44.44,0:09:47.10,DCMain,MITSUHIKO,0000,0000,0000,,We're pursuing the international hacker.
+Dialogue: 0,0:09:48.81,0:09:50.39,DCMain,GENTA,0000,0000,0000,,He's entering the bank.
+Dialogue: 0,0:09:50.39,0:09:51.36,DCItalic,CONAN,0000,0000,0000,,The bank?
+Dialogue: 0,0:09:51.83,0:09:53.86,DCItalic,CONAN,0000,0000,0000,,So they're near Beika Park.
+Dialogue: 0,0:09:56.13,0:09:56.99,DCMain,AYUMI,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:56.99,0:09:58.73,DCMain,MITSUHIKO,0000,0000,0000,,There's nobody here.
+Dialogue: 0,0:09:59.28,0:10:02.03,DCMain,GENTA,0000,0000,0000,,But this is the only entrance.
+Dialogue: 0,0:10:02.03,0:10:05.29,Service,SIGN,0000,0000,0000,,Window Service \NSuspended
+Dialogue: 0,0:10:02.70,0:10:04.85,DCMain,AYUMI,0000,0000,0000,,And the bank is closed.
+Dialogue: 0,0:10:05.29,0:10:06.79,DCMain,MITSUHIKO,0000,0000,0000,,Could it be?
+Dialogue: 0,0:10:09.07,0:10:10.50,DCMain,ALL,0000,0000,0000,,He vanished?
+Dialogue: 0,0:10:13.88,0:10:16.67,Agasa,SIGN,0000,0000,0000,,Mori Ran
+Dialogue: 0,0:10:14.09,0:10:16.67,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,I'm sorry for the inconvenience.
+Dialogue: 0,0:10:16.67,0:10:21.80,DCMain,SONOKO,0000,0000,0000,,Does that mean we can't \Nwithdraw money from this ATM?
+Dialogue: 0,0:10:21.80,0:10:23.68,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,I'm terribly sorry.
+Dialogue: 0,0:10:24.31,0:10:29.11,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,It's possible all the ATMs \Nin this area are out of service
+Dialogue: 0,0:10:25.31,0:10:28.69,Apologize,SIGN,0000,0000,0000,,We apologize for the inconvenience \NThis ATM is currently out of service
+Dialogue: 0,0:10:29.11,0:10:30.17,DCItalic,HAIBARA,0000,0000,0000,,What?
+Dialogue: 0,0:10:37.82,0:10:39.80,DCMain,MAN 1,0000,0000,0000,,I can't see her face.
+Dialogue: 0,0:10:40.32,0:10:41.82,DCMain,MAN 2,0000,0000,0000,,Let's give it a try.
+Dialogue: 0,0:10:45.45,0:10:46.87,DCMain,MAN 2,0000,0000,0000,,It's not working.
+Dialogue: 0,0:10:46.87,0:10:49.62,DCMain,MAN 2,0000,0000,0000,,This camera's position makes it difficult.
+Dialogue: 0,0:10:49.62,0:10:53.00,DCMain,MAN 1,0000,0000,0000,,Damn. We won't be able to make our report.
+Dialogue: 0,0:11:02.83,0:11:03.69,DCMain,GENTA,0000,0000,0000,,Conan.
+Dialogue: 0,0:11:03.69,0:11:06.60,DCMain,AYUMI,0000,0000,0000,,The international hacker disappeared.
+Dialogue: 0,0:11:08.98,0:11:11.60,DCMain,MITSUHIKO,0000,0000,0000,,The bank closes at three.
+Dialogue: 0,0:11:11.60,0:11:15.58,DCMain,MITSUHIKO,0000,0000,0000,,It should already have been \Nclosed when that man arrived.
+Dialogue: 0,0:11:15.58,0:11:17.24,DCMain,MITSUHIKO,0000,0000,0000,,What could have happened?
+Dialogue: 0,0:11:18.12,0:11:19.88,DCMain,MITSUHIKO,0000,0000,0000,,What is it, Genta-kun?
+Dialogue: 0,0:11:19.88,0:11:23.39,DCMain,GENTA,0000,0000,0000,,If we keep hanging around here, they might \Nrun out of whale watching tour spots.
+Dialogue: 0,0:11:23.39,0:11:25.80,DCMain,AYUMI,0000,0000,0000,,But what about the international hacker?
+Dialogue: 0,0:11:25.80,0:11:28.46,DCMain,GENTA,0000,0000,0000,,The whales are more important.
+Dialogue: 0,0:11:28.46,0:11:31.25,DCMain,GENTA,0000,0000,0000,,Huh? Where's Haibara?
+Dialogue: 0,0:11:31.67,0:11:35.21,DCMain,CONAN,0000,0000,0000,,Oh, she went home because \Nshe had something to do.
+Dialogue: 0,0:11:35.21,0:11:37.16,DCMain,AYUMI,0000,0000,0000,,What? Why?
+Dialogue: 0,0:11:37.79,0:11:41.13,DCMain,AYUMI,0000,0000,0000,,Does it have something to do \Nwith the international hacker?
+Dialogue: 0,0:11:41.13,0:11:44.89,DCMain,CONAN,0000,0000,0000,,No, of course not.
+Dialogue: 0,0:11:47.81,0:11:50.56,DCMain,MITSUHIKO,0000,0000,0000,,Haibara-san, where are you right now?
+Dialogue: 0,0:11:50.56,0:11:52.27,DCMain,HAIBARA,0000,0000,0000,,Unfortunately...
+Dialogue: 0,0:11:54.06,0:11:57.85,DCMain,RAN,0000,0000,0000,,Now this is a problem. \NWhat am I going to do about dinner?
+Dialogue: 0,0:11:58.49,0:12:01.58,DCMain,RAN,0000,0000,0000,,Oh, well. I'll have to make do \Nwith whatever we've got left.
+Dialogue: 0,0:12:02.04,0:12:05.08,DCMain,SONOKO,0000,0000,0000,,Nice thinking, Ran. You're \Nthe perfect housewife.
+Dialogue: 0,0:12:05.08,0:12:07.58,DCMain,RAN,0000,0000,0000,,There you go again. Don't flatter me.
+Dialogue: 0,0:12:07.58,0:12:09.64,DCMain,HAIBARA,0000,0000,0000,,I'm going to pass on playing the lottery
+Dialogue: 0,0:12:09.64,0:12:12.08,DCMain,HAIBARA,0000,0000,0000,,and go home today since \NI can't withdraw any money.
+Dialogue: 0,0:12:12.08,0:12:15.35,DCMain,MITSUHIKO,0000,0000,0000,,Aw, darn.
+Dialogue: 0,0:12:16.25,0:12:17.87,DCMain,AYUMI,0000,0000,0000,,The international hacker!
+Dialogue: 0,0:12:18.30,0:12:23.22,TotoBank2,SIGN,0000,0000,0000,,Toto Bank
+Dialogue: 0,0:12:20.60,0:12:23.22,DCMain,GENTA,0000,0000,0000,,Hey, wait. What about the whales?
+Dialogue: 0,0:12:31.53,0:12:33.34,DCMain,AGASA,0000,0000,0000,,Ai-kun, do you mind?
+Dialogue: 0,0:12:34.94,0:12:36.98,DCMain,AGASA,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:12:38.87,0:12:40.36,DCMain,AGASA,0000,0000,0000,,Coming.
+Dialogue: 0,0:12:40.73,0:12:42.07,DCMain,AGASA,0000,0000,0000,,Yes?
+Dialogue: 0,0:12:40.73,0:12:43.24,Cheetah,SIGN,0000,0000,0000,,Cheetah Delivery
+Dialogue: 0,0:12:42.07,0:12:43.24,DCMain,DELIVERMAN,0000,0000,0000,,Package for you.
+Dialogue: 0,0:13:01.25,0:13:01.97,DCMain,CONAN,0000,0000,0000,,Haibara!
+Dialogue: 0,0:13:02.06,0:13:03.24,DCMain,MITSUHIKO,0000,0000,0000,,Haibara-san!
+Dialogue: 0,0:13:02.06,0:13:03.24,DCMain,GENTA,0000,0000,0000,,Haibara!
+Dialogue: 0,0:13:03.24,0:13:04.01,DCMain,AYUMI,0000,0000,0000,,Ai-chan!
+Dialogue: 0,0:13:04.67,0:13:06.43,DCMain,HACKER,0000,0000,0000,,Haibara...
+Dialogue: 0,0:13:10.17,0:13:11.49,DCMain,CONAN,0000,0000,0000,,Haibara, are you okay?
+Dialogue: 0,0:13:11.49,0:13:12.67,DCMain,HAIBARA,0000,0000,0000,,Y-Yes...
+Dialogue: 0,0:13:12.67,0:13:13.38,DCMain,AYUMI,0000,0000,0000,,Ai-chan.
+Dialogue: 0,0:13:13.38,0:13:14.47,DCMain,MITSUHIKO,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:13:14.47,0:13:16.39,DCMain,GENTA,0000,0000,0000,,Hey, he's getting away.
+Dialogue: 0,0:13:17.73,0:13:19.19,DCMain,CONAN,0000,0000,0000,,Stop!
+Dialogue: 0,0:13:23.05,0:13:23.82,DCMain,CONAN,0000,0000,0000,,You're...
+Dialogue: 0,0:13:23.82,0:13:25.54,DCMain,MITSUHIKO,0000,0000,0000,,We'll go after him.
+Dialogue: 0,0:13:25.54,0:13:28.06,DCMain,AYUMI,0000,0000,0000,,Ai-chan, stay there.
+Dialogue: 0,0:13:28.06,0:13:30.24,DCMain,GENTA,0000,0000,0000,,We're going to play that lottery later.
+Dialogue: 0,0:13:30.24,0:13:32.53,DCMain,HAIBARA,0000,0000,0000,,Don't! Wait...
+Dialogue: 0,0:13:32.53,0:13:33.25,DCMain,CONAN,0000,0000,0000,,Haibara.
+Dialogue: 0,0:13:33.25,0:13:35.75,DCMain,HAIBARA,0000,0000,0000,,Stop the kids.
+Dialogue: 0,0:13:35.75,0:13:38.00,DCMain,CONAN,0000,0000,0000,,Does that mean he was...?
+Dialogue: 0,0:13:38.00,0:13:39.72,DCMain,HAIBARA,0000,0000,0000,,I don't know.
+Dialogue: 0,0:13:39.72,0:13:44.51,DCMain,HAIBARA,0000,0000,0000,,It didn't feel like he was, but...
+Dialogue: 0,0:13:45.49,0:13:49.76,DCMain,CONAN,0000,0000,0000,,You don't know every member \Nof the Black Organization.
+Dialogue: 0,0:13:50.34,0:13:52.01,DCMain,CONAN,0000,0000,0000,,Go back to the professor's house.
+Dialogue: 0,0:13:52.01,0:13:53.10,DCMain,CONAN,0000,0000,0000,,Got it?
+Dialogue: 0,0:13:54.65,0:13:55.77,DCMain,HAIBARA,0000,0000,0000,,Edogawa-kun!
+Dialogue: 0,0:13:55.77,0:13:58.27,DCMain,GENTA,0000,0000,0000,,What did that guy do?
+Dialogue: 0,0:13:58.27,0:14:03.02,DCMain,MITSUHIKO,0000,0000,0000,,I'm not sure, but I do know that \NHaibara-san was afraid of him.
+Dialogue: 0,0:14:03.02,0:14:05.40,DCMain,MITSUHIKO,0000,0000,0000,,For Haibara-san.
+Dialogue: 0,0:14:06.87,0:14:09.54,DCMain,AYUMI,0000,0000,0000,,I can't keep running.
+Dialogue: 0,0:14:09.54,0:14:10.41,DCMain,GENTA,0000,0000,0000,,Me neither.
+Dialogue: 0,0:14:10.41,0:14:12.53,DCMain,MITSUHIKO,0000,0000,0000,,I won't let him escape.
+Dialogue: 0,0:14:27.91,0:14:31.01,DCMain,MITSUHIKO,0000,0000,0000,,He's entering some kind of building.
+Dialogue: 0,0:14:31.34,0:14:33.35,DCMain,CONAN,0000,0000,0000,,Wait, Mitsuhiko. Stay there.
+Dialogue: 0,0:14:35.36,0:14:37.06,DCMain,MITSUHIKO,0000,0000,0000,,He opened the door. He's going inside.
+Dialogue: 0,0:14:37.06,0:14:39.06,DCMain,CONAN,0000,0000,0000,,Whatever you do, don't go in there.
+Dialogue: 0,0:14:43.47,0:14:44.97,DCMain,MITSUHIKO,0000,0000,0000,,Conan-kun, I'm sorry.
+Dialogue: 0,0:14:49.45,0:14:51.07,DCMain,CONAN,0000,0000,0000,,Mitsuhiko!
+Dialogue: 0,0:14:55.01,0:14:56.58,DCMain,MITSUHIKO,0000,0000,0000,,Um...
+Dialogue: 0,0:15:01.86,0:15:03.34,DCMain,HACKER,0000,0000,0000,,Yeah, I found her.
+Dialogue: 0,0:15:04.07,0:15:07.45,DCMain,HACKER,0000,0000,0000,,I've acquired some photos. \NBring up those images again.
+Dialogue: 0,0:15:07.84,0:15:10.22,DCMain,MAN 2,0000,0000,0000,,This should work.
+Dialogue: 0,0:15:10.22,0:15:13.50,DCMain,HACKER,0000,0000,0000,,Now we can use facial recognition.
+Dialogue: 0,0:15:15.88,0:15:21.27,DCMain,MITSUHIKO,0000,0000,0000,,He's using some kind of software \Nto compare photos of Haibara-san
+Dialogue: 0,0:15:21.27,0:15:24.30,DCItalic,MITSUHIKO,0000,0000,0000,,against security camera images.
+Dialogue: 0,0:15:27.75,0:15:30.95,DCItalic,CONAN,0000,0000,0000,,They're using software to \Ncompare images of Haibara's face?
+Dialogue: 0,0:15:32.19,0:15:33.83,DCItalic,CONAN,0000,0000,0000,,Could it be facial recognition?
+Dialogue: 0,0:15:34.20,0:15:37.29,DCItalic,CONAN,0000,0000,0000,,Will Haibara's identity be exposed?
+Dialogue: 0,0:15:41.39,0:15:45.14,DCFlashback,KOGORO,0000,0000,0000,,When I tried to make a withdrawal, \Nthe machine suddenly stopped working.
+Dialogue: 0,0:15:46.54,0:15:47.78,DCFlashback,HACKER,0000,0000,0000,,Haibara...
+Dialogue: 0,0:15:47.78,0:15:50.32,DCFlashback,MITSUHIKO,0000,0000,0000,,The bank closes at three.
+Dialogue: 0,0:15:50.32,0:15:53.91,DCFlashback,MITSUHIKO,0000,0000,0000,,It should already have been closed \Nwhen that man arrived.
+Dialogue: 0,0:15:53.91,0:15:58.24,DCFlashback,HAIBARA,0000,0000,0000,,It is. I recently swapped it \Nout for my old card.
+Dialogue: 0,0:16:01.10,0:16:02.56,DCItalic,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:16:09.23,0:16:11.71,DCMain,AGASA,0000,0000,0000,,Ah, Shinichi. What is it?
+Dialogue: 0,0:16:12.37,0:16:15.74,DCMain,AGASA,0000,0000,0000,,No, isn't Ai-kun with you?
+Dialogue: 0,0:16:15.74,0:16:18.56,DCMain,CONAN,0000,0000,0000,,I see. She's not back yet.
+Dialogue: 0,0:16:18.56,0:16:20.50,DCMain,AGASA,0000,0000,0000,,Did something happen to her?
+Dialogue: 0,0:16:20.50,0:16:22.52,DCMain,CONAN,0000,0000,0000,,No, it's nothing.
+Dialogue: 0,0:16:22.52,0:16:26.50,DCMain,CONAN,0000,0000,0000,,Haibara said you replaced your cash card.
+Dialogue: 0,0:16:26.50,0:16:30.01,DCMain,AGASA,0000,0000,0000,,That's right. When I went \Nto the bath the other day...
+Dialogue: 0,0:16:30.01,0:16:32.39,DCItalic,FEMALE BANK EMPLOYEE,0000,0000,0000,,I'm sorry.
+Dialogue: 0,0:16:32.39,0:16:36.10,DCItalic,FEMALE BANK EMPLOYEE,0000,0000,0000,,Your card was slightly cracked,
+Dialogue: 0,0:16:36.10,0:16:38.88,DCItalic,FEMALE BANK EMPLOYEE,0000,0000,0000,,which prevented the machine from reading it.
+Dialogue: 0,0:16:38.88,0:16:44.70,DCItalic,FEMALE BANK EMPLOYEE,0000,0000,0000,,We'd appreciate it if you could replace it \Nwith a new card as soon as possible.
+Dialogue: 0,0:16:44.70,0:16:47.77,DCItalic,AGASA,0000,0000,0000,,In that case, could I get a replacement today?
+Dialogue: 0,0:16:47.77,0:16:53.93,DCItalic,MALE BANK EMPLOYEE,0000,0000,0000,,Also, we checked for \Nunauthorized uses on your card,
+Dialogue: 0,0:16:53.93,0:17:00.11,DCItalic,MALE BANK EMPLOYEE,0000,0000,0000,,and found that a grade-school-aged girl \Nused your card to withdraw money.
+Dialogue: 0,0:17:00.54,0:17:06.04,DCMain,AGASA,0000,0000,0000,,I told them I had my daughter \Nuse my card to make a withdrawal.
+Dialogue: 0,0:17:06.04,0:17:09.42,DCMain,CONAN,0000,0000,0000,,I see. So that's how it is.
+Dialogue: 0,0:17:09.42,0:17:12.67,DCMain,CONAN,0000,0000,0000,,Professor, come to the following \Nlocation right away.
+Dialogue: 0,0:17:15.50,0:17:18.43,DCMain,HACKER,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:17:18.43,0:17:19.33,DCMain,MAN 2,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:17:19.33,0:17:20.31,DCMain,HACKER,0000,0000,0000,,It's a child.
+Dialogue: 0,0:17:20.31,0:17:22.38,DCMain,HACKER,0000,0000,0000,,There's a child in the building.
+Dialogue: 0,0:17:23.64,0:17:24.71,DCMain,HACKER,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:17:26.67,0:17:28.62,DCMain,HACKER,0000,0000,0000,,How'd you get in here?
+Dialogue: 0,0:17:30.15,0:17:30.77,DCMain,HACKER,0000,0000,0000,,Hey.
+Dialogue: 0,0:17:33.65,0:17:35.78,DCMain,MITSUHIKO,0000,0000,0000,,Help me!
+Dialogue: 0,0:17:37.18,0:17:38.54,DCMain,CONAN,0000,0000,0000,,Mitsuhiko!
+Dialogue: 0,0:17:38.54,0:17:40.16,DCMain,CONAN,0000,0000,0000,,Mitsuhiko, are you okay?
+Dialogue: 0,0:17:40.16,0:17:41.53,DCMain,MAN 2,0000,0000,0000,,What's going on?
+Dialogue: 0,0:17:43.29,0:17:45.74,DCMain,MITSUHIKO,0000,0000,0000,,What? A bank?
+Dialogue: 0,0:17:45.74,0:17:46.54,DCMain,CONAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:17:46.54,0:17:50.50,TotoBank3,SIGN,0000,0000,0000,,Toto Bank
+Dialogue: 0,0:17:46.97,0:17:50.50,DCMain,CONAN,0000,0000,0000,,This is the Toto Bank Beika Park Branch,
+Dialogue: 0,0:17:50.50,0:17:54.84,DCMain,CONAN,0000,0000,0000,,and these guys are bank employees.
+Dialogue: 0,0:17:54.84,0:17:58.01,DCMain,MAN 2,0000,0000,0000,,That's right. We're this branch's \Ntechnical staff.
+Dialogue: 0,0:17:58.41,0:18:02.22,DCMain,HACKER,0000,0000,0000,,And this is where we view \Nsecurity camera footage
+Dialogue: 0,0:18:02.22,0:18:05.27,DCMain,HACKER,0000,0000,0000,,from the Toto Bank branch in Beika City.
+Dialogue: 0,0:18:05.27,0:18:09.23,DCMain,MAN 2,0000,0000,0000,,The technical staff checks the footage here.
+Dialogue: 0,0:18:09.77,0:18:13.65,DCMain,HACKER,0000,0000,0000,,More importantly, you tripped. \NAre you all right?
+Dialogue: 0,0:18:13.65,0:18:16.31,DCMain,MITSUHIKO,0000,0000,0000,,Yes, I'm fine.
+Dialogue: 0,0:18:16.69,0:18:19.41,DCMain,MITSUHIKO,0000,0000,0000,,I'm sorry for entering the building \Nwithout your permission.
+Dialogue: 0,0:18:19.41,0:18:24.48,DCMain,HACKER,0000,0000,0000,,There's nothing wrong with playing detective, \Nbut you shouldn't follow people around.
+Dialogue: 0,0:18:24.48,0:18:26.42,DCMain,BOTH,0000,0000,0000,,We're sorry.
+Dialogue: 0,0:18:26.42,0:18:32.06,DCMain,MITSUHIKO,0000,0000,0000,,Why were you looking at images of \NHaibara-san on the monitors in this room?
+Dialogue: 0,0:18:32.06,0:18:33.65,DCMain,CONAN,0000,0000,0000,,Probably because they noticed
+Dialogue: 0,0:18:33.65,0:18:39.55,DCMain,CONAN,0000,0000,0000,,she was trying to use the professor's \Ncard to make a withdrawal.
+Dialogue: 0,0:18:39.55,0:18:41.05,DCMain,HACKER,0000,0000,0000,,That's right.
+Dialogue: 0,0:18:41.63,0:18:46.56,DCMain,HACKER,0000,0000,0000,,We were notified that a young girl \Nwas using Agasa-sama's card.
+Dialogue: 0,0:18:47.06,0:18:51.65,DCMain,HACKER,0000,0000,0000,,We thought the girl and Agasa-sama \Nmight have committed
+Dialogue: 0,0:18:51.65,0:18:55.35,DCMain,HACKER,0000,0000,0000,,or gotten involved in some kind of crime.
+Dialogue: 0,0:18:55.35,0:18:57.61,DCMain,HACKER,0000,0000,0000,,I jumped to conclusions.
+Dialogue: 0,0:18:57.61,0:19:02.24,DCMain,CONAN,0000,0000,0000,,That's why you took photos of Haibara \Nto run facial recognition on here.
+Dialogue: 0,0:19:02.24,0:19:04.86,DCMain,HACKER,0000,0000,0000,,We went too far. I'm sorry.
+Dialogue: 0,0:19:04.86,0:19:09.27,DCMain,CONAN,0000,0000,0000,,Come to think of it, you used a \Nblack card to withdraw money.
+Dialogue: 0,0:19:09.27,0:19:11.04,DCMain,HACKER,0000,0000,0000,,Oh, that?
+Dialogue: 0,0:19:11.42,0:19:14.17,DCMain,HACKER,0000,0000,0000,,At our bank, whenever there's a problem,
+Dialogue: 0,0:19:14.17,0:19:18.12,DCMain,HACKER,0000,0000,0000,,we use that card to examine \Nthe ATM where the error occurred,
+Dialogue: 0,0:19:18.12,0:19:20.60,DCMain,HACKER,0000,0000,0000,,and share the information on these devices.
+Dialogue: 0,0:19:22.97,0:19:24.97,DCMain,MAN 2,0000,0000,0000,,Hello? Yes.
+Dialogue: 0,0:19:25.70,0:19:27.26,DCMain,MAN 2,0000,0000,0000,,Yes, understood.
+Dialogue: 0,0:19:28.29,0:19:31.06,DCMain,MAN 2,0000,0000,0000,,Your ride is here.
+Dialogue: 0,0:19:36.57,0:19:43.49,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,We've confirmed the card you handed over \Nis linked to Agasa-sama's bank account.
+Dialogue: 0,0:19:43.49,0:19:47.45,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,We're terribly sorry for doubting you.
+Dialogue: 0,0:19:49.50,0:19:54.18,DCMain,AGASA,0000,0000,0000,,I said this girl was my daughter \Nwhen asked about our relationship,
+Dialogue: 0,0:19:54.18,0:19:57.00,DCMain,AGASA,0000,0000,0000,,but she's actually a relative's child.
+Dialogue: 0,0:19:57.00,0:20:01.31,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,You were allowing a relative's \Nchild to use your cash card?
+Dialogue: 0,0:20:01.31,0:20:05.33,DCMain,AGASA,0000,0000,0000,,When I can't be bothered to \Ngo withdraw money myself.
+Dialogue: 0,0:20:05.33,0:20:07.51,DCMain,AGASA,0000,0000,0000,,Is that against the rules after all?
+Dialogue: 0,0:20:08.05,0:20:12.77,DCMain,CONAN,0000,0000,0000,,But even grade school kids can open \Nbank accounts and use cash cards.
+Dialogue: 0,0:20:12.77,0:20:15.21,DCMain,FEMALE BANK EMPLOYEE,0000,0000,0000,,As long as its their account.
+Dialogue: 0,0:20:15.21,0:20:17.82,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,At our bank, we allow children
+Dialogue: 0,0:20:17.82,0:20:22.39,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,to use their parents' cash cards \Nat ATMs with their consent,
+Dialogue: 0,0:20:22.39,0:20:25.68,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,but we'd appreciate if you didn't allow \Nyour relative's child to use your card.
+Dialogue: 0,0:20:25.68,0:20:27.74,DCMain,AGASA,0000,0000,0000,,But...
+Dialogue: 0,0:20:27.74,0:20:30.70,DCMain,AGASA,0000,0000,0000,,She's a relative's child, but she's special.
+Dialogue: 0,0:20:31.05,0:20:35.51,DCMain,AGASA,0000,0000,0000,,She's not my child, but she's more \Nimportant to me than anyone.
+Dialogue: 0,0:20:36.08,0:20:39.46,DCMain,AGASA,0000,0000,0000,,She's the only family I have.
+Dialogue: 0,0:20:49.06,0:20:50.59,DCMain,AGASA,0000,0000,0000,,Ai-kun.
+Dialogue: 0,0:20:52.27,0:20:55.52,DCMain,AGASA,0000,0000,0000,,I'm sorry. I'll be more careful in the future.
+Dialogue: 0,0:20:55.52,0:20:59.32,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,We're sorry for the trouble we caused.
+Dialogue: 0,0:20:59.32,0:21:02.12,DCMain,HACKER,0000,0000,0000,,Sorry for scaring you.
+Dialogue: 0,0:21:02.12,0:21:03.74,DCMain,HAIBARA,0000,0000,0000,,It's fine.
+Dialogue: 0,0:21:03.74,0:21:08.43,DCMain,HAIBARA,0000,0000,0000,,Besides, it's our fault \Nfor breaking the bank's rules.
+Dialogue: 0,0:21:09.18,0:21:10.49,DCMain,HACKER,0000,0000,0000,,How mature of you.
+Dialogue: 0,0:21:11.04,0:21:15.50,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,The ATM error that occurred \Nearlier has been resolved.
+Dialogue: 0,0:21:15.50,0:21:19.14,DCMain,MALE BANK EMPLOYEE,0000,0000,0000,,We appreciate your continued patronage.
+Dialogue: 0,0:21:15.50,0:21:21.50,TotoBank2,SIGN,0000,0000,0000,,Toto Bank
+Dialogue: 0,0:21:21.50,0:21:23.59,DCMain,MITSUHIKO,0000,0000,0000,,We were able to make our withdrawals.
+Dialogue: 0,0:21:23.59,0:21:25.95,DCMain,AYUMI,0000,0000,0000,,Now we can finally go \Nto the department store.
+Dialogue: 0,0:21:25.95,0:21:30.60,DCMain,GENTA,0000,0000,0000,,All right. Let's win a whale \Nwatching trip in the lottery.
+Dialogue: 0,0:21:30.60,0:21:32.15,DCMain,MITSUHIKO,0000,0000,0000,,Yeah!
+Dialogue: 0,0:21:36.15,0:21:40.40,DCMain,HAIBARA,0000,0000,0000,,I'll be sure to play for you, too, \Nmy dear professor.
+Dialogue: 0,0:21:40.90,0:21:42.30,DCMain,AGASA,0000,0000,0000,,Ai-kun...
+Dialogue: 0,0:21:42.30,0:21:44.76,DCMain,HAIBARA,0000,0000,0000,,So be a good boy and wait at home.
+Dialogue: 0,0:21:44.76,0:21:48.27,DCMain,AGASA,0000,0000,0000,,Sure. I'm looking forward to it.
+Dialogue: 0,0:23:10.30,0:23:14.01,DCMain,AYUMI,0000,0000,0000,,What? We can use the bank's ATMs, too?
+Dialogue: 0,0:23:14.01,0:23:18.91,DCMain,MITSUHIKO,0000,0000,0000,,Yes. Apparently even grade school children \Ncan have bank accounts and cash cards.
+Dialogue: 0,0:23:18.91,0:23:21.90,DCMain,GENTA,0000,0000,0000,,Really? I had no idea.
+Dialogue: 0,0:23:22.42,0:23:25.40,DCMain,HAIBARA,0000,0000,0000,,I can't, though.
+Dialogue: 0,0:23:25.40,0:23:26.92,DCMain,CONAN,0000,0000,0000,,Not in your current condition.
+Dialogue: 0,0:23:28.40,0:23:33.41,DCItalic,CONAN,0000,0000,0000,,Not until we take down the Black Organization\Nand return to our original forms.
+Dialogue: 0,0:23:35.99,0:23:42.61,DCItalic,CONAN,0000,0000,0000,,But I never thought that would happen \Nto Haibara because of said organization.
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:47.13,0:23:48.36,DCMain,WOMAN,0000,0000,0000,,Pan-kun!
+Dialogue: 0,0:23:49.19,0:23:54.30,DCMain,ALL,0000,0000,0000,,Help! Someone help!
+Dialogue: 0,0:23:54.30,0:23:58.70,DCMain,CONAN,0000,0000,0000,,Do you know why you were attacked?
+Dialogue: 0,0:23:58.70,0:24:02.27,DCMain,WOMAN,0000,0000,0000,,I'm not rich or anything.
+Dialogue: 0,0:24:02.27,0:24:07.95,DCMain,MAN,0000,0000,0000,,There's no time. I must do \Nsomething before it's too late.
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,SIGN,0000,0000,0000,,My Beloved Dog Pan-kun Is a Good Boy
+Dialogue: 0,0:24:09.51,0:24:14.34,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "My \NBeloved Dog Pan-kun is a Good Boy!"
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,SIGN,0000,0000,0000,,Apple Pie
+Dialogue: 0,0:24:30.68,0:24:32.66,DCMain,AGASA,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.66,0:24:34.91,DCMain,CONAN,0000,0000,0000,,Apple pie!
+Dialogue: 0,0:24:34.91,0:24:37.54,DCMain,HAIBARA,0000,0000,0000,,{\an8}What's going to happen with \Nthe whale watching tour?
+Dialogue: 0,0:24:34.91,0:24:40.03,Don'tMiss,SIGN,0000,0000,0000,,{\pos(363,315)}Don't miss the next episode.
+Dialogue: 0,0:24:37.54,0:24:39.87,DCMain,CONAN,0000,0000,0000,,{\an8}Come see us at the movies!

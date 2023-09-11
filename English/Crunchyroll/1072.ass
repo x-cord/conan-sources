@@ -1,0 +1,420 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: MPD,Trebuchet MS,20,&H006F95AB,&H000000FF,&H0029464D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0465,0020,0130,0
+Style: Nichiuri,Trebuchet MS,18,&H001FB1DC,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0150,0018,0
+Style: Morita,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00A77088,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0090,0062,0
+Style: Kiryu,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H009F5548,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0030,0062,0
+Style: Kanzawa,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00A45B75,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0070,0020,0062,0
+Style: Saiko,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H009F7361,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0025,0020,0075,0
+Style: Mori2,Trebuchet MS,22,&H00171009,&H000000FF,&H006F4C35,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Mori,Trebuchet MS,22,&H001D1B0E,&H00263D3C,&H00935E39,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Toto,Trebuchet MS,16,&H00FFFDF3,&H000000FF,&H00FAEFBE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0292,0052,0
+Style: Standby,Trebuchet MS,16,&H00E8CCAC,&H000000FF,&H00977330,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0020,0194,0100,0
+Style: Toto2,Trebuchet MS,18,&H00FFFDF3,&H000000FF,&H00FAEFBE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0335,0072,0
+Style: Standby2,Trebuchet MS,18,&H00FBE8B0,&H000000FF,&H009E7C41,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0020,0140,0083,0
+Style: KeepGoing,Trebuchet MS,18,&H00262B2C,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0120,0020,0130,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCMain_Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[op]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,VERMOUTH,0000,0000,0000,,[ed]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,YUSAKU/KID,0000,0000,0000,,[eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,DETECTIVE CONAN EPISODE 1072 "Kudo \NYusaku's Detective Show (Part Two)"
+Dialogue: 0,0:00:01.03,0:00:07.86,DCMain,CONAN,0000,0000,0000,,My dad was supposed to solve a series \Nof locked room murders on a TV special,
+Dialogue: 0,0:00:03.48,0:00:05.19,Nichiuri,SIGN,0000,0000,0000,,Nichiuri
+Dialogue: 0,0:00:05.19,0:00:07.86,MPD,SIGN,0000,0000,0000,,Metropolitan Police Department
+Dialogue: 0,0:00:08.57,0:00:11.07,DCMain,CONAN,0000,0000,0000,,but he got sick and stuck in bed.
+Dialogue: 0,0:00:11.80,0:00:14.40,DCMain,CONAN,0000,0000,0000,,My mom who planned to \Ndisguise herself as my dad
+Dialogue: 0,0:00:14.40,0:00:18.53,DCMain,CONAN,0000,0000,0000,,and solve the mystery in his \Nplace ended up stuck in bed, too.
+Dialogue: 0,0:00:19.84,0:00:22.18,DCFlashbackItalics,CONAN,0000,0000,0000,,This is definitely food poisoning.
+Dialogue: 0,0:00:22.18,0:00:26.39,DCFlashbackItalics,CONAN,0000,0000,0000,,I need to turn down the TV show \Nand get them to a hospital.
+Dialogue: 0,0:00:29.00,0:00:32.24,DCFlashbackItalics,CONAN,0000,0000,0000,,Crap, the TV staff are here.
+Dialogue: 0,0:00:32.24,0:00:34.64,DCFlashbackItalics,CONAN,0000,0000,0000,,My voice changer's not done charging.
+Dialogue: 0,0:00:35.89,0:00:39.34,DCFlashback,CONAN,0000,0000,0000,,S-Sorry, but today we're...
+Dialogue: 0,0:00:39.34,0:00:40.06,DCFlashback,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:00:42.44,0:00:43.93,DCFlashback,CONAN,0000,0000,0000,,Y-You...
+Dialogue: 0,0:00:44.27,0:00:45.29,DCFlashback,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:00:45.29,0:00:46.69,DCFlashback,YUSAKU,0000,0000,0000,,Come on, now.
+Dialogue: 0,0:00:47.04,0:00:51.97,DCFlashback,YUSAKU,0000,0000,0000,,I came to help because I couldn't \Nignore the trouble Kudo Yusaku was in,
+Dialogue: 0,0:00:51.97,0:00:53.44,DCFlashback,YUSAKU,0000,0000,0000,,and this is the welcome I get?
+Dialogue: 0,0:00:53.57,0:00:55.74,DCFlashback,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:00:55.96,0:00:57.52,DCFlashback,CONAN,0000,0000,0000,,You really are Kaito Kid.
+Dialogue: 0,0:00:59.29,0:01:03.70,DCFlashback,YUSAKU/KID,0000,0000,0000,,Well, if I'm not welcome, \Nthen I'll be leaving.
+Dialogue: 0,0:01:03.95,0:01:05.36,DCFlashback,CONAN,0000,0000,0000,,No, wait!
+Dialogue: 0,0:01:06.86,0:01:10.18,DCFlashback,CONAN,0000,0000,0000,,I-If you want to repay the favor,
+Dialogue: 0,0:01:10.18,0:01:13.73,DCFlashback,CONAN,0000,0000,0000,,then I'm not opposed to the idea.
+Dialogue: 0,0:01:15.32,0:01:16.97,DCFlashback,YUSAKU/KID,0000,0000,0000,,You tsundere brat.
+Dialogue: 0,0:01:18.00,0:01:22.22,DCFlashback,YUSAKU/KID,0000,0000,0000,,Why don't you summarize the case for me?
+Dialogue: 0,0:01:22.54,0:01:23.36,DCFlashback,CONAN,0000,0000,0000,,Sure.
+Dialogue: 0,0:01:24.65,0:01:26.38,DCMain,CONAN,0000,0000,0000,,Mysterious clouds block your field of view!
+Dialogue: 0,0:01:26.38,0:01:28.09,DCMain,CONAN,0000,0000,0000,,Clear them away with deductive \Nreasoning and the sky sparkles!
+Dialogue: 0,0:01:28.09,0:01:30.15,DCMain,CONAN,0000,0000,0000,,Solving a case on live TV!
+Dialogue: 0,0:01:30.15,0:01:31.98,DCMain,CONAN,0000,0000,0000,,Dark shadows approach behind the scenes!
+Dialogue: 0,0:01:31.98,0:01:33.63,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:33.63,0:01:35.32,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:35.32,0:01:38.03,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:19.97,0:03:25.97,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(375,1)}Kudo Yusaku's Detective Show \N(Part Two)
+Dialogue: 0,0:03:20.45,0:03:23.73,DCMain,CONAN,0000,0000,0000,,"Kudo Yusaku's Detective Show, Part Two!"
+Dialogue: 0,0:03:26.84,0:03:32.48,DCMain,CONAN,0000,0000,0000,,{\an8}The first victim was Morita Atsumi-san, \Nwho worked for a clothing maker.
+Dialogue: 0,0:03:29.07,0:03:32.48,Morita,SIGN,0000,0000,0000,,{\fad(375,1)}Morita Atsumi (24) \NClothing Maker Employee
+Dialogue: 0,0:03:32.94,0:03:36.73,DCMain,CONAN,0000,0000,0000,,She was killed in the \Nbathroom of her apartment.
+Dialogue: 0,0:03:37.19,0:03:42.23,DCMain,CONAN,0000,0000,0000,,She died when someone pushed her and \Nshe struck the back of her head.
+Dialogue: 0,0:03:42.23,0:03:43.03,DCMain,YUSAKU/KID,0000,0000,0000,,Yikes!
+Dialogue: 0,0:03:43.50,0:03:45.59,DCMain,YUSAKU/KID,0000,0000,0000,,This is pretty brutal.
+Dialogue: 0,0:03:45.59,0:03:49.08,DCMain,CONAN,0000,0000,0000,,The body was discovered \Nby Morita-san's friend,
+Dialogue: 0,0:03:49.08,0:03:52.02,DCMain,CONAN,0000,0000,0000,,the announcer you just met, \NYumekawa Saiko-san.
+Dialogue: 0,0:03:52.02,0:03:55.22,DCMain,YUSAKU/KID,0000,0000,0000,,What? She found the body?
+Dialogue: 0,0:03:55.22,0:03:56.04,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:56.46,0:04:01.01,DCMain,CONAN,0000,0000,0000,,Yumekawa-san received a message from \NMorita-san asking for help
+Dialogue: 0,0:04:01.01,0:04:02.68,DCMain,CONAN,0000,0000,0000,,and went to her apartment.
+Dialogue: 0,0:04:02.88,0:04:07.27,DCMain,CONAN,0000,0000,0000,,She found her murdered in the bathroom, \Nwhich was locked from the inside.
+Dialogue: 0,0:04:07.81,0:04:09.06,DCMain,YUSAKU/KID,0000,0000,0000,,I see.
+Dialogue: 0,0:04:09.49,0:04:13.13,DCMain,YUSAKU/KID,0000,0000,0000,,So it's a thumb-turn lock.
+Dialogue: 0,0:04:14.56,0:04:18.65,DCMain,YUSAKU/KID,0000,0000,0000,,Most of the stuff on the shelf next \Nto the sink has been knocked down.
+Dialogue: 0,0:04:19.25,0:04:25.20,DCMain,YUSAKU/KID,0000,0000,0000,,Makeup, hair clips, and a shopping bag \Nare scattered in front of the door.
+Dialogue: 0,0:04:25.88,0:04:27.47,DCMain,CONAN,0000,0000,0000,,Notice anything?
+Dialogue: 0,0:04:27.47,0:04:28.70,DCMain,YUSAKU/KID,0000,0000,0000,,What?
+Dialogue: 0,0:04:28.70,0:04:33.46,DCMain,CONAN,0000,0000,0000,,Didn't you say you're good at solving \Ncases involving contraptions?
+Dialogue: 0,0:04:35.37,0:04:38.31,DCMain,YUSAKU/KID,0000,0000,0000,,The only question I have \Nis why are there hair clips
+Dialogue: 0,0:04:38.31,0:04:41.96,DCMain,YUSAKU/KID,0000,0000,0000,,on the floor when the \Nvictim's hair is very short?
+Dialogue: 0,0:04:43.26,0:04:44.24,DCMain,YUSAKU/KID,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:04:44.24,0:04:47.15,DCMain,CONAN,0000,0000,0000,,Have you lost your touch?
+Dialogue: 0,0:04:47.15,0:04:49.89,DCMain,YUSAKU/KID,0000,0000,0000,,Shut up. Show me the next one.
+Dialogue: 0,0:04:50.60,0:04:54.14,DCMain,CONAN,0000,0000,0000,,{\an8}The next victim was permanent \Npart-timer Kiryu Taiji-san (31).
+Dialogue: 0,0:04:51.23,0:04:54.14,Kiryu,SIGN,0000,0000,0000,,{\fad(375,1)}Kiryu Taiji (31) \NPermanent Part-timer
+Dialogue: 0,0:04:54.40,0:04:58.88,DCMain,CONAN,0000,0000,0000,,He was killed in the \Nentryway of his apartment.
+Dialogue: 0,0:04:58.88,0:05:03.28,DCMain,YUSAKU/KID,0000,0000,0000,,And this room full of \Ngarbage was locked, too?
+Dialogue: 0,0:05:03.67,0:05:06.16,DCMain,YUSAKU/KID,0000,0000,0000,,This door also uses a thumb-turn lock.
+Dialogue: 0,0:05:06.16,0:05:09.95,DCMain,YUSAKU/KID,0000,0000,0000,,Huh? But the other rooms are pretty tidy.
+Dialogue: 0,0:05:10.86,0:05:12.70,DCMain,CONAN,0000,0000,0000,,You noticed that, too?
+Dialogue: 0,0:05:12.70,0:05:13.94,DCMain,YUSAKU/KID,0000,0000,0000,,Yeah.
+Dialogue: 0,0:05:13.94,0:05:17.55,DCMain,YUSAKU/KID,0000,0000,0000,,Maybe someone deliberately opened a garbage \Nbag and scattered trash around the place.
+Dialogue: 0,0:05:17.55,0:05:21.09,DCMain,YUSAKU/KID,0000,0000,0000,,Judging by how tidy the \Ndolls on the shelf are,
+Dialogue: 0,0:05:21.40,0:05:24.84,DCMain,YUSAKU/KID,0000,0000,0000,,the victim seems like he \Nactually kept things clean.
+Dialogue: 0,0:05:25.70,0:05:31.85,DCMain,YUSAKU/KID,0000,0000,0000,,He seems to have made those dolls himself, \Nso it's possible he just kept those tidy.
+Dialogue: 0,0:05:32.18,0:05:36.31,DCMain,CONAN,0000,0000,0000,,They're figures for an online \Ngame called {\i1}Dungeon Holmes{\i0}.
+Dialogue: 0,0:05:36.31,0:05:40.40,DCMain,CONAN,0000,0000,0000,,The giant magnifying glass she's \Ncarrying is her trademark.
+Dialogue: 0,0:05:40.40,0:05:41.86,DCMain,YUSAKU/KID,0000,0000,0000,,Huh.
+Dialogue: 0,0:05:41.86,0:05:44.23,DCMain,CONAN,0000,0000,0000,,So, have you figured it out yet?
+Dialogue: 0,0:05:45.66,0:05:50.91,DCMain,YUSAKU/KID,0000,0000,0000,,Well, the disposable chopsticks on top of the \Ntrash bags in the entryway caught my attention.
+Dialogue: 0,0:05:50.91,0:05:52.91,DCMain,YUSAKU/KID,0000,0000,0000,,They're upside down in their pouch,
+Dialogue: 0,0:05:52.91,0:05:55.83,DCMain,YUSAKU/KID,0000,0000,0000,,and the bottom of the pouch is folded oddly.
+Dialogue: 0,0:05:57.62,0:05:58.93,DCMain,CONAN,0000,0000,0000,,That's all?
+Dialogue: 0,0:05:58.93,0:06:01.88,DCMain,YUSAKU/KID,0000,0000,0000,,I'm telling you, I'm a \Nthief, not a detective.
+Dialogue: 0,0:06:02.21,0:06:05.13,DCMain,YUSAKU/KID,0000,0000,0000,,So, who's the third victim?
+Dialogue: 0,0:06:05.65,0:06:08.76,DCMain,CONAN,0000,0000,0000,,{\an8}Kanzawa Koretsugu-san, who ran a bakery.
+Dialogue: 0,0:06:05.73,0:06:08.76,Kanzawa,SIGN,0000,0000,0000,,{\fad(375,1)}Kanzawa Koretsugu (47) \NBakery Manager
+Dialogue: 0,0:06:09.21,0:06:12.57,DCMain,CONAN,0000,0000,0000,,He was killed in the kitchen \Nat his home in Beika City.
+Dialogue: 0,0:06:12.57,0:06:15.10,DCMain,CONAN,0000,0000,0000,,His wife, who he's separated \Nfrom, came to visit.
+Dialogue: 0,0:06:15.29,0:06:19.45,DCMain,CONAN,0000,0000,0000,,She discovered the body in the kitchen, \Nwhich was locked from the inside.
+Dialogue: 0,0:06:20.10,0:06:24.72,DCMain,YUSAKU/KID,0000,0000,0000,,And of course this kitchen \Nhas a thumb-turn lock, too.
+Dialogue: 0,0:06:25.70,0:06:28.80,DCMain,YUSAKU/KID,0000,0000,0000,,The victim's clothes are covered in blood.
+Dialogue: 0,0:06:28.80,0:06:30.15,DCMain,YUSAKU/KID,0000,0000,0000,,Was he stabbed?
+Dialogue: 0,0:06:30.15,0:06:30.98,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:31.50,0:06:34.58,DCMain,CONAN,0000,0000,0000,,See the bloody knife on the \Nfloor in front of the door?
+Dialogue: 0,0:06:35.06,0:06:37.55,DCMain,CONAN,0000,0000,0000,,First he was stabbed in the back with it.
+Dialogue: 0,0:06:37.55,0:06:40.71,DCMain,CONAN,0000,0000,0000,,When he turned around, he \Nwas stabbed in the stomach.
+Dialogue: 0,0:06:41.00,0:06:44.34,DCMain,YUSAKU/KID,0000,0000,0000,,How was the second victim killed?
+Dialogue: 0,0:06:44.82,0:06:46.17,DCMain,CONAN,0000,0000,0000,,He was strangled.
+Dialogue: 0,0:06:46.17,0:06:49.12,DCMain,CONAN,0000,0000,0000,,After knocking out the \Nvictim with a stun gun,
+Dialogue: 0,0:06:49.12,0:06:52.53,DCMain,CONAN,0000,0000,0000,,the culprit strangled him from \Nbehind using some kind of rope.
+Dialogue: 0,0:06:52.53,0:06:55.18,DCMain,CONAN,0000,0000,0000,,But he regained consciousness \Nduring the attack,
+Dialogue: 0,0:06:55.18,0:06:59.64,DCMain,CONAN,0000,0000,0000,,and fought back so hard the culprit's \Nskin got stuck under his nails.
+Dialogue: 0,0:06:59.64,0:07:01.23,DCMain,YUSAKU/KID,0000,0000,0000,,I see.
+Dialogue: 0,0:07:01.52,0:07:03.86,DCMain,CONAN,0000,0000,0000,,So, notice anything?
+Dialogue: 0,0:07:05.48,0:07:10.61,DCMain,YUSAKU/KID,0000,0000,0000,,At the first crime scene, there was a bag \Ncontaining something in front of the door.
+Dialogue: 0,0:07:11.09,0:07:15.12,DCMain,YUSAKU/KID,0000,0000,0000,,At the second crime scene, there was a \Nconvenience store bag containing something.
+Dialogue: 0,0:07:15.51,0:07:19.33,DCMain,YUSAKU/KID,0000,0000,0000,,There were bags containing \Nsomething at both scenes,
+Dialogue: 0,0:07:19.33,0:07:21.75,DCMain,YUSAKU/KID,0000,0000,0000,,but there was no bag at \Nthe third crime scene.
+Dialogue: 0,0:07:22.46,0:07:26.00,DCMain,YUSAKU/KID,0000,0000,0000,,But you could say in its place, \Nthere's a frying pan instead.
+Dialogue: 0,0:07:26.33,0:07:30.13,DCMain,YUSAKU/KID,0000,0000,0000,,Strangely, the pan on the floor is black,
+Dialogue: 0,0:07:30.13,0:07:34.26,DCMain,YUSAKU/KID,0000,0000,0000,,but for some reason all the cooking \Nutensils hanging from the wall are silver.
+Dialogue: 0,0:07:34.57,0:07:35.68,DCMain,CONAN,0000,0000,0000,,And?
+Dialogue: 0,0:07:35.90,0:07:38.42,DCMain,YUSAKU/KID,0000,0000,0000,,Huh? That's all I've got.
+Dialogue: 0,0:07:38.42,0:07:41.67,DCMain,CONAN,0000,0000,0000,,Seriously? So you can't solve it?
+Dialogue: 0,0:07:41.67,0:07:44.69,DCMain,YUSAKU/KID,0000,0000,0000,,Who cares? You already know the answer.
+Dialogue: 0,0:07:44.91,0:07:47.88,DCMain,YUSAKU/KID,0000,0000,0000,,Tell me the culprit's \Nidentity and trick already.
+Dialogue: 0,0:07:47.88,0:07:50.94,DCMain,CONAN,0000,0000,0000,,First, the culprit is...
+Dialogue: 0,0:07:50.94,0:07:51.89,DCMain,BOTH,0000,0000,0000,,Huh?
+Dialogue: 0,0:07:51.89,0:07:53.57,DCMain,YUSAKU,0000,0000,0000,,Come in.
+Dialogue: 0,0:07:54.44,0:08:00.08,DCMain,TV STAFF,0000,0000,0000,,Excuse me. Kudo-sensei, we're ready. \NCould you come out here, please?
+Dialogue: 0,0:08:00.25,0:08:03.20,DCMain,YUSAKU,0000,0000,0000,,Sure. I'll be right there.
+Dialogue: 0,0:08:03.20,0:08:04.58,DCMain,TV STAFF,0000,0000,0000,,Thank you.
+Dialogue: 0,0:08:05.03,0:08:07.90,DCMain,CONAN,0000,0000,0000,,We have no choice. We'll do it live.
+Dialogue: 0,0:08:07.90,0:08:10.70,DCMain,CONAN,0000,0000,0000,,I'll transmit my voice to this earphone.
+Dialogue: 0,0:08:11.23,0:08:12.98,DCMain,CONAN,0000,0000,0000,,Just say what I tell you to say.
+Dialogue: 0,0:08:13.80,0:08:14.93,DCMain,YUSAKU/ID,0000,0000,0000,,Roger that.
+Dialogue: 0,0:08:14.93,0:08:19.26,Mori2,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:08:15.84,0:08:21.06,DCItalic,TV MAN,0000,0000,0000,,The mystery deepens in this \Nseries of locked room murders.
+Dialogue: 0,0:08:20.86,0:08:22.27,DCMain,RAN,0000,0000,0000,,{\an8}It's started.
+Dialogue: 0,0:08:21.06,0:08:25.33,DCItalic,TV MAN,0000,0000,0000,,Tonight we're broadcasting with \Nthe special advisor on the case.
+Dialogue: 0,0:08:25.78,0:08:27.94,DCItalic,TV MAN,0000,0000,0000,,Reporter Yumekawa-san.
+Dialogue: 0,0:08:28.16,0:08:31.99,Saiko,SIGN,0000,0000,0000,,{\fad(375,1)}Yumekawa Saiko \NNewbie Announcer
+Dialogue: 0,0:08:28.17,0:08:29.48,DCItalic,SAIKO,0000,0000,0000,,{\an8}Hello.
+Dialogue: 0,0:08:29.48,0:08:32.57,DCItalic,SAIKO,0000,0000,0000,,{\an8}I'm currently at the home of world-renowned \Nmystery author Kudo Yusaku-sensei.
+Dialogue: 0,0:08:32.78,0:08:36.30,DCMain,RAN,0000,0000,0000,,Conan-kun said he'd be staying \Nover at the professor's house.
+Dialogue: 0,0:08:36.30,0:08:38.33,DCMain,RAN,0000,0000,0000,,He's not watching this in person, is he?
+Dialogue: 0,0:08:38.80,0:08:43.96,DCItalic,KOGORO,0000,0000,0000,,Why in the world would they ask a writer to \Nsolve a case instead of a great detective?
+Dialogue: 0,0:08:44.28,0:08:48.33,DCMain,SAIKO,0000,0000,0000,,Let's get Kudo Yusaku-sensei's thoughts
+Dialogue: 0,0:08:48.33,0:08:51.46,DCMain,SAIKO,0000,0000,0000,,on the series of locked room murders.
+Dialogue: 0,0:08:51.91,0:08:55.89,DCMain,SAIKO,0000,0000,0000,,People are calling this a serial murder case,
+Dialogue: 0,0:08:55.89,0:08:58.47,DCMain,SAIKO,0000,0000,0000,,but the victims were killed \Nusing different methods,
+Dialogue: 0,0:08:58.47,0:09:01.38,DCMain,SAIKO,0000,0000,0000,,and there's no connection \Nbetween any of the victims.
+Dialogue: 0,0:09:01.38,0:09:04.35,DCMain,SAIKO,0000,0000,0000,,Were they really all killed \Nby the same person?
+Dialogue: 0,0:09:04.94,0:09:07.35,DCMain,YUSAKU,0000,0000,0000,,Yes, certainly.
+Dialogue: 0,0:09:07.52,0:09:12.26,DCMain,CONAN,0000,0000,0000,,{\an8}After all, the same locked room \Ntrick was used in all three cases.
+Dialogue: 0,0:09:09.01,0:09:13.92,DCMain,YUSAKU,0000,0000,0000,,After all, the same locked room \Ntrick was used in all three cases.
+Dialogue: 0,0:09:13.92,0:09:14.86,DCMain,CONAN,0000,0000,0000,,Furthermore...
+Dialogue: 0,0:09:15.22,0:09:19.37,DCMain,YUSAKU,0000,0000,0000,,Furthermore, all three victims \Nwere in fact connected.
+Dialogue: 0,0:09:19.37,0:09:21.93,DCMain,SAIKO,0000,0000,0000,,What? Th-They were?
+Dialogue: 0,0:09:21.93,0:09:27.04,DCMain,YUSAKU,0000,0000,0000,,Yes. Since they're police \Nphotos, I'm unable to show you,
+Dialogue: 0,0:09:27.31,0:09:31.80,DCMain,YUSAKU,0000,0000,0000,,but there was a logo featuring \Na magnifying glass
+Dialogue: 0,0:09:31.95,0:09:35.42,DCMain,YUSAKU,0000,0000,0000,,printed on the towel hanging from \Nthe shelf at the first crime scene.
+Dialogue: 0,0:09:35.81,0:09:39.56,DCMain,YUSAKU,0000,0000,0000,,At the second scene were several figures
+Dialogue: 0,0:09:39.56,0:09:43.29,DCMain,YUSAKU,0000,0000,0000,,holding magnifying glasses \Nmade by the victim himself.
+Dialogue: 0,0:09:43.71,0:09:49.31,DCMain,YUSAKU,0000,0000,0000,,The same magnifying glass design \Nwas on the third victim's watch.
+Dialogue: 0,0:09:49.31,0:09:54.69,DCMain,YUSAKU,0000,0000,0000,,This magnifying glass is the trademark \Nof online game {\i1}Dungeon Holmes{\i0}.
+Dialogue: 0,0:09:55.18,0:10:00.42,DCMain,YUSAKU,0000,0000,0000,,All three victims probably \Nplayed the game together.
+Dialogue: 0,0:10:00.42,0:10:04.58,DCMain,SAIKO,0000,0000,0000,,R-Really? I had no idea that game existed.
+Dialogue: 0,0:10:04.91,0:10:08.87,DCMain,YUSAKU,0000,0000,0000,,Oh? I doubt there's any way \Nyou're not familiar with it.
+Dialogue: 0,0:10:10.13,0:10:14.56,DCMain,YUSAKU,0000,0000,0000,,After all, you suddenly swapped \Nyour mic to your other hand
+Dialogue: 0,0:10:14.56,0:10:16.80,DCMain,YUSAKU,0000,0000,0000,,so you could hide your left wrist
+Dialogue: 0,0:10:17.20,0:10:20.36,DCMain,YUSAKU,0000,0000,0000,,and the very same watch that's on it.
+Dialogue: 0,0:10:21.06,0:10:24.59,DCMain,SAIKO,0000,0000,0000,,Th-This watch was a gift from Atsumi.
+Dialogue: 0,0:10:24.59,0:10:27.18,DCMain,SAIKO,0000,0000,0000,,I'm just wearing it because \Nthe design was interesting.
+Dialogue: 0,0:10:27.46,0:10:29.53,DCMain,YUSAKU,0000,0000,0000,,Don't play dumb.
+Dialogue: 0,0:10:29.53,0:10:34.57,DCMain,YUSAKU,0000,0000,0000,,After all, the culprit behind \Nthese serial murders is you,
+Dialogue: 0,0:10:35.17,0:10:37.39,DCMain,YUSAKU,0000,0000,0000,,Yumekawa Saiko-san.
+Dialogue: 0,0:10:38.34,0:10:39.06,DCMain,YUSAKU/KID,0000,0000,0000,,What?
+Dialogue: 0,0:10:46.50,0:10:50.00,Mori,SIGN,0000,0000,0000,,{\fad(210,1)}Mori Detective Agency
+Dialogue: 0,0:10:47.54,0:10:50.96,DCItalic,SAIKO,0000,0000,0000,,Th-This watch was a gift from Atsumi.
+Dialogue: 0,0:10:51.16,0:10:53.75,DCItalic,SAIKO,0000,0000,0000,,I'm just wearing it because \Nthe design was interesting.
+Dialogue: 0,0:10:53.93,0:10:55.82,DCItalic,YUSAKU,0000,0000,0000,,Don't play dumb.
+Dialogue: 0,0:10:55.82,0:11:01.02,DCItalic,YUSAKU,0000,0000,0000,,After all, the culprit behind \Nthese serial murders is you,
+Dialogue: 0,0:11:01.02,0:11:02.84,DCItalic,YUSAKU,0000,0000,0000,,Yumekawa Saiko-san.
+Dialogue: 0,0:11:03.40,0:11:04.18,DCItalic,SAIKO,0000,0000,0000,,What?
+Dialogue: 0,0:11:04.99,0:11:06.40,DCMain,BOTH,0000,0000,0000,,What?!
+Dialogue: 0,0:11:06.39,0:11:08.64,Toto,SIGN TOP LEFT,0000,0000,0000,,Toto TV
+Dialogue: 0,0:11:06.39,0:11:08.64,Standby,SIGN BOTTOM RIGHT,0000,0000,0000,,Please Stand By
+Dialogue: 0,0:11:07.17,0:11:08.64,DCMain,RAN,0000,0000,0000,,It cut out.
+Dialogue: 0,0:11:11.41,0:11:15.44,DCMain,SAIKO,0000,0000,0000,,Um, Kudo-sensei? You're joking, aren't you?
+Dialogue: 0,0:11:15.61,0:11:17.15,DCMain,YUSAKU,0000,0000,0000,,What? Oh, um...
+Dialogue: 0,0:11:18.50,0:11:19.86,DCMain,YUSAKU,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:11:20.05,0:11:24.07,DCMain,YUSAKU/KID,0000,0000,0000,,You should've told me from the \Nstart that she was the culprit.
+Dialogue: 0,0:11:24.31,0:11:26.05,DCMain,CONAN,0000,0000,0000,,What was I supposed to do?
+Dialogue: 0,0:11:26.05,0:11:28.50,DCMain,CONAN,0000,0000,0000,,The show started before I \Nhad the chance to tell you.
+Dialogue: 0,0:11:28.97,0:11:31.67,DCMain,CONAN,0000,0000,0000,,In any case, just say what I tell you to say.
+Dialogue: 0,0:11:31.81,0:11:32.92,DCMain,YUSAKU/KID,0000,0000,0000,,Fine.
+Dialogue: 0,0:11:33.18,0:11:35.23,DCMain,YUSAKU,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:11:35.23,0:11:41.88,DCMain,SAIKO,0000,0000,0000,,I suddenly hid this watch because I \Ndidn't want you to unfairly suspect me.
+Dialogue: 0,0:11:42.11,0:11:46.35,DCMain,SAIKO,0000,0000,0000,,If you're accusing me, \Nthen show me the evidence.
+Dialogue: 0,0:11:46.52,0:11:49.68,DCMain,YUSAKU,0000,0000,0000,,Let's put a pin in the culprit's identity.
+Dialogue: 0,0:11:50.28,0:11:53.28,DCMain,YUSAKU,0000,0000,0000,,I'll begin by proving this \Nseries of locked room murders
+Dialogue: 0,0:11:53.28,0:11:56.31,DCMain,YUSAKU,0000,0000,0000,,were committed by the same person
+Dialogue: 0,0:11:56.48,0:12:00.07,DCMain,YUSAKU,0000,0000,0000,,by explaining the locked room trick.
+Dialogue: 0,0:12:00.07,0:12:02.07,Toto2,SIGN TOP LEFT,0000,0000,0000,,Toto TV
+Dialogue: 0,0:12:00.07,0:12:02.07,Standby2,SIGN BOTTOM RIGHT,0000,0000,0000,,Please Stand By
+Dialogue: 0,0:12:02.26,0:12:04.07,DCMain,RAN,0000,0000,0000,,I wonder what happened.
+Dialogue: 0,0:12:05.06,0:12:08.33,DCMain,KOGORO,0000,0000,0000,,The higher-ups probably \Nshut down the broadcast
+Dialogue: 0,0:12:08.65,0:12:11.01,DCMain,KOGORO,0000,0000,0000,,when one of their employees \Nwas accused of murder.
+Dialogue: 0,0:12:11.01,0:12:11.82,DCMain,RAN,0000,0000,0000,,Yeah...
+Dialogue: 0,0:12:11.82,0:12:13.71,DCItalic,TV MAN,0000,0000,0000,,We apologize for the inconvenience.
+Dialogue: 0,0:12:14.21,0:12:18.18,DCItalic,TV MAN,0000,0000,0000,,The show has been interrupted \Nby technical difficulties,
+Dialogue: 0,0:12:18.18,0:12:20.93,DCItalic,TV MAN,0000,0000,0000,,so the live broadcast will be ending.
+Dialogue: 0,0:12:19.71,0:12:20.93,DCMain,RAN,0000,0000,0000,,{\an8}What?
+Dialogue: 0,0:12:20.93,0:12:22.04,DCMain,KOGORO,0000,0000,0000,,Seriously?
+Dialogue: 0,0:12:22.04,0:12:23.97,DCItalic,TV MAN,0000,0000,0000,,Or so I thought, but...
+Dialogue: 0,0:12:23.97,0:12:27.10,KeepGoing,SIGN,0000,0000,0000,,Keep going!!
+Dialogue: 0,0:12:24.40,0:12:29.64,DCItalic,TV MAN,0000,0000,0000,,We will continue the broadcast as scheduled.
+Dialogue: 0,0:12:30.64,0:12:33.35,DCItalic,YUSAKU,0000,0000,0000,,These are sets of the \Narea in front of the door
+Dialogue: 0,0:12:33.35,0:12:37.11,DCItalic,YUSAKU,0000,0000,0000,,at the three crime scenes \NI had set up beforehand.
+Dialogue: 0,0:12:37.82,0:12:41.62,DCMain,YUSAKU,0000,0000,0000,,As you can see, all three are rather untidy.
+Dialogue: 0,0:12:42.20,0:12:46.87,DCMain,YUSAKU,0000,0000,0000,,Besides that, the three crime scenes \Nhave three things in common.
+Dialogue: 0,0:12:47.05,0:12:52.88,DCMain,YUSAKU,0000,0000,0000,,First, there's a thumb-turn lock \Nabove the handle of each door.
+Dialogue: 0,0:12:52.88,0:12:55.71,DCMain,YUSAKU,0000,0000,0000,,Second, there's a hair clip,
+Dialogue: 0,0:12:55.71,0:13:00.67,DCMain,YUSAKU,0000,0000,0000,,chopsticks upside down \Ninside an oddly bent pouch,
+Dialogue: 0,0:13:01.19,0:13:03.05,DCMain,YUSAKU,0000,0000,0000,,and tongs at each scene.
+Dialogue: 0,0:13:03.30,0:13:09.06,DCMain,YUSAKU,0000,0000,0000,,They're all things that can be used to \Ngrip something and hang something off of.
+Dialogue: 0,0:13:09.06,0:13:11.06,DCMain,YUSAKU,0000,0000,0000,,And finally,
+Dialogue: 0,0:13:11.45,0:13:17.61,DCMain,YUSAKU,0000,0000,0000,,there's something bag-like that \Ncould be attached to those
+Dialogue: 0,0:13:17.61,0:13:21.24,DCMain,YUSAKU,0000,0000,0000,,and filled with something with some weight.
+Dialogue: 0,0:13:21.93,0:13:25.38,DCMain,SAIKO,0000,0000,0000,,B-But there's no bag in the kitchen \Nat the third crime scene.
+Dialogue: 0,0:13:25.38,0:13:31.41,DCMain,YUSAKU,0000,0000,0000,,Believing it would be suspicious if bags \Nwere present at all three scenes, you—
+Dialogue: 0,0:13:31.57,0:13:34.77,DCMain,YUSAKU,0000,0000,0000,,Rather, the culprit used \Na frying pan instead.
+Dialogue: 0,0:13:34.77,0:13:35.91,DCMain,YUSAKU,0000,0000,0000,,As proof,
+Dialogue: 0,0:13:36.25,0:13:41.17,DCMain,YUSAKU,0000,0000,0000,,the other cooking utensils \Nin the photos are all silver,
+Dialogue: 0,0:13:41.41,0:13:44.92,DCMain,YUSAKU,0000,0000,0000,,but the one on the floor in \Nfront of the door was black.
+Dialogue: 0,0:13:45.21,0:13:49.54,DCMain,CONAN,0000,0000,0000,,Unlike the bags, the length of \Nthe pan couldn't be adjusted,
+Dialogue: 0,0:13:45.69,0:13:47.80,DCMain,YUSAKU,0000,0000,0000,,{\an8}Unlike the bags, the length of \Nthe pan couldn't be adjusted,
+Dialogue: 0,0:13:47.80,0:13:51.62,DCMain,YUSAKU,0000,0000,0000,,{\an8}so the culprit purchased a pan of the exact \Nright length as well as tongs beforehand
+Dialogue: 0,0:13:49.54,0:13:53.78,DCMain,CONAN,0000,0000,0000,,so the culprit purchased a pan of the exact \Nright length as well as tongs beforehand
+Dialogue: 0,0:13:51.62,0:13:53.68,DCMain,YUSAKU,0000,0000,0000,,{\an8}and brought them to the crime scene.
+Dialogue: 0,0:13:53.78,0:13:55.56,DCMain,CONAN,0000,0000,0000,,and brought them to the crime scene.
+Dialogue: 0,0:13:55.86,0:13:57.82,DCMain,YUSAKU,0000,0000,0000,,But don't take my word for it.
+Dialogue: 0,0:13:57.82,0:14:01.57,DCMain,YUSAKU,0000,0000,0000,,Allow me to demonstrate how you can \Nactually lock a room using these objects.
+Dialogue: 0,0:14:02.57,0:14:04.78,DCMain,RAN,0000,0000,0000,,What do you think, Dad?
+Dialogue: 0,0:14:04.78,0:14:06.62,DCMain,RAN,0000,0000,0000,,Will it really work?
+Dialogue: 0,0:14:06.62,0:14:09.57,DCMain,KOGORO,0000,0000,0000,,Who cares? If it doesn't, \Nhe'll embarrass himself.
+Dialogue: 0,0:14:10.34,0:14:19.34,DCItalic,YUSAKU,0000,0000,0000,,First, attach the hair clip, chopsticks, \Nand tongs to the thumb-turns on the doors.
+Dialogue: 0,0:14:19.34,0:14:24.00,DCMain,YUSAKU,0000,0000,0000,,Hang the handles of the bags off their \Nends and place them on top of the handles.
+Dialogue: 0,0:14:24.61,0:14:29.86,DCMain,YUSAKU,0000,0000,0000,,Hang the ring on the end of the pan \Noff the tongs, and you're ready.
+Dialogue: 0,0:14:30.26,0:14:37.02,DCMain,YUSAKU,0000,0000,0000,,Carefully exit the rooms so the objects \Ndon't fall off the handles and close the doors.
+Dialogue: 0,0:14:37.02,0:14:39.27,DCMain,YUSAKU,0000,0000,0000,,If you turn the handles,
+Dialogue: 0,0:14:39.68,0:14:44.90,DCMain,YUSAKU,0000,0000,0000,,the objects on top of them fall, causing \Nthe thumb-turns to rotate, and...
+Dialogue: 0,0:14:46.73,0:14:48.06,DCMain,RAN,0000,0000,0000,,Wow.
+Dialogue: 0,0:14:48.06,0:14:50.53,DCMain,KOGORO,0000,0000,0000,,The doors actually locked.
+Dialogue: 0,0:14:52.37,0:14:54.05,DCMain,SAIKO,0000,0000,0000,,A-And?
+Dialogue: 0,0:14:54.05,0:14:56.62,DCMain,SAIKO,0000,0000,0000,,Why do you think I did it?
+Dialogue: 0,0:14:56.91,0:14:59.96,DCMain,YUSAKU,0000,0000,0000,,You made several mistakes.
+Dialogue: 0,0:14:59.96,0:15:02.00,DCMain,YUSAKU,0000,0000,0000,,The black frying pan is one,
+Dialogue: 0,0:15:02.27,0:15:08.88,DCMain,YUSAKU,0000,0000,0000,,but you also ransacked the room to camouflage \Nthe bag and hair clip you used in your trick.
+Dialogue: 0,0:15:09.30,0:15:13.56,DCMain,YUSAKU,0000,0000,0000,,However, even though the second \Nand third shelves were ransacked,
+Dialogue: 0,0:15:13.56,0:15:16.26,DCMain,YUSAKU,0000,0000,0000,,for some reason the first shelf wasn't.
+Dialogue: 0,0:15:16.46,0:15:20.00,DCMain,YUSAKU,0000,0000,0000,,There was a bath brush on the floor.
+Dialogue: 0,0:15:20.00,0:15:29.78,DCMain,YUSAKU,0000,0000,0000,,I can easily imagine a short person using it \Nto make it look like the work of a tall person.
+Dialogue: 0,0:15:30.31,0:15:36.79,DCMain,YUSAKU,0000,0000,0000,,Scattering trash around Kiryu-san's apartment \Nto camouflage the bag and chopsticks was fine,
+Dialogue: 0,0:15:36.96,0:15:39.77,DCMain,YUSAKU,0000,0000,0000,,but you went too far when \Nyou opened the trash bags
+Dialogue: 0,0:15:39.77,0:15:42.63,DCMain,YUSAKU,0000,0000,0000,,to put empty cup noodle \Ncontainers on the table.
+Dialogue: 0,0:15:43.04,0:15:49.56,DCMain,YUSAKU,0000,0000,0000,,All the chopsticks in the containers were \Nleaning on the left side of the cup.
+Dialogue: 0,0:15:50.03,0:15:52.55,DCMain,YUSAKU,0000,0000,0000,,This is something left-handed people do,
+Dialogue: 0,0:15:52.55,0:15:54.68,DCMain,YUSAKU,0000,0000,0000,,but Kiryu-san was right-handed.
+Dialogue: 0,0:15:55.25,0:15:58.06,DCMain,YUSAKU,0000,0000,0000,,You're left-handed, aren't you?
+Dialogue: 0,0:15:58.21,0:15:58.89,DCMain,SAIKO,0000,0000,0000,,What?
+Dialogue: 0,0:15:58.89,0:16:03.54,DCMain,YUSAKU,0000,0000,0000,,Most announcers use their dominant \Nhand to point their mic at someone.
+Dialogue: 0,0:16:04.86,0:16:09.00,DCMain,YUSAKU,0000,0000,0000,,That watch on your left hand \Nis also for left-handed people.
+Dialogue: 0,0:16:09.00,0:16:12.61,DCMain,YUSAKU,0000,0000,0000,,The crown is on the opposite side that \Nit would be for a right-handed watch.
+Dialogue: 0,0:16:12.79,0:16:18.18,DCMain,YUSAKU,0000,0000,0000,,Furthermore, most people wear watches on their \Nnon-dominant hand so it doesn't get in the way.
+Dialogue: 0,0:16:18.18,0:16:20.70,DCMain,YUSAKU,0000,0000,0000,,Additionally, judging by its size,
+Dialogue: 0,0:16:20.70,0:16:24.87,DCMain,YUSAKU,0000,0000,0000,,it's unnatural for even a woman \Nto wear it facing inwards.
+Dialogue: 0,0:16:25.12,0:16:31.46,DCMain,YUSAKU,0000,0000,0000,,You probably did that because Kiryu-san \Nfought back during the second murder.
+Dialogue: 0,0:16:31.46,0:16:33.63,DCMain,SAIKO,0000,0000,0000,,Yes, that's right.
+Dialogue: 0,0:16:34.01,0:16:38.51,DCMain,SAIKO,0000,0000,0000,,If only he'd died while still \Npassed out from the stun gun.
+Dialogue: 0,0:16:39.00,0:16:40.89,DCMain,SAIKO,0000,0000,0000,,But he fought back so fiercely.
+Dialogue: 0,0:16:41.54,0:16:44.45,DCMain,SAIKO,0000,0000,0000,,I thought a bandage would seem suspicious,
+Dialogue: 0,0:16:44.45,0:16:48.30,DCMain,SAIKO,0000,0000,0000,,so I used my watch to hide \Nit, but it was still obvious.
+Dialogue: 0,0:16:49.98,0:16:55.24,DCMain,SAIKO,0000,0000,0000,,I killed them because I told \Nthem through in-game chat
+Dialogue: 0,0:16:55.24,0:16:57.57,DCMain,SAIKO,0000,0000,0000,,that I wanted to test the locked \Nroom trick I'd come up with.
+Dialogue: 0,0:16:57.57,0:17:02.75,DCMain,SAIKO,0000,0000,0000,,All three of them said it worked on their \Ndoors at home and complimented my idea.
+Dialogue: 0,0:17:03.30,0:17:07.05,DCMain,SAIKO,0000,0000,0000,,A scriptwriter was having \Ntrouble coming up with a trick,
+Dialogue: 0,0:17:07.05,0:17:09.92,DCMain,SAIKO,0000,0000,0000,,so I thought it was an opportunity \Nto make a name for myself.
+Dialogue: 0,0:17:10.77,0:17:16.11,DCMain,SAIKO,0000,0000,0000,,But Atsumi used the trick in the online \Nnovel she'd been writing for fun.
+Dialogue: 0,0:17:16.58,0:17:19.55,DCMain,SAIKO,0000,0000,0000,,I asked her to delete it \Nright away and pushed her,
+Dialogue: 0,0:17:19.55,0:17:23.30,DCMain,SAIKO,0000,0000,0000,,but she hit her head on the \Nsink and stopped moving.
+Dialogue: 0,0:17:23.30,0:17:25.90,DCMain,SAIKO,0000,0000,0000,,I used the locked room trick \Nbecause I had no other choice,
+Dialogue: 0,0:17:26.50,0:17:31.07,DCMain,SAIKO,0000,0000,0000,,but the other two began to \Nsuspect my trick had been used,
+Dialogue: 0,0:17:31.07,0:17:35.13,DCMain,SAIKO,0000,0000,0000,,so I told them, "If it's not you or me, \Nthen the culprit must be the other guy."
+Dialogue: 0,0:17:35.13,0:17:36.82,DCMain,SAIKO,0000,0000,0000,,"Let's meet up to discuss it."
+Dialogue: 0,0:17:37.30,0:17:41.94,DCMain,SAIKO,0000,0000,0000,,Then I met them at their \Nhomes and killed them.
+Dialogue: 0,0:17:46.09,0:17:49.64,DCMain,SAIKO,0000,0000,0000,,Oh, you're quite prepared.
+Dialogue: 0,0:17:49.64,0:17:53.80,DCMain,YUSAKU,0000,0000,0000,,More importantly, why did you \Nagree to report on this case?
+Dialogue: 0,0:17:54.14,0:18:00.05,DCMain,YUSAKU,0000,0000,0000,,You could've said you weren't over \Nthe shock of losing a friend.
+Dialogue: 0,0:18:01.42,0:18:04.81,DCMain,SAIKO,0000,0000,0000,,I couldn't sleep because I was \Nworried I'd be found out eventually.
+Dialogue: 0,0:18:05.40,0:18:11.45,DCMain,SAIKO,0000,0000,0000,,I thought I'd be able to sleep soundly \Nif I could fool Kudo Yusaku face to face.
+Dialogue: 0,0:18:13.18,0:18:17.45,DCMain,MEGURE,0000,0000,0000,,I was shocked when I received \Nyour call, Yusaku-kun.
+Dialogue: 0,0:18:18.23,0:18:24.20,DCMain,MEGURE,0000,0000,0000,,This afternoon your wife called to say you \Ncouldn't come to the MPD because you were sick.
+Dialogue: 0,0:18:24.44,0:18:27.64,DCMain,YUSAKU,0000,0000,0000,,As you can see, I've recovered,
+Dialogue: 0,0:18:27.64,0:18:30.58,DCMain,YUSAKU,0000,0000,0000,,but now my wife's stuck in bed.
+Dialogue: 0,0:18:30.84,0:18:36.59,DCMain,MEGURE,0000,0000,0000,,Section 2's Nakamori actually said he \Nwanted to come so he could thank you.
+Dialogue: 0,0:18:37.06,0:18:39.70,DCMain,MEGURE,0000,0000,0000,,But he doesn't have time for that anymore.
+Dialogue: 0,0:18:39.70,0:18:41.51,DCMain,YUSAKU,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:18:41.70,0:18:44.78,DCMain,MEGURE,0000,0000,0000,,Oh, right. You haven't seen the news.
+Dialogue: 0,0:18:44.78,0:18:48.48,DCMain,MEGURE,0000,0000,0000,,Kaito Kid just appeared in Shibuya earlier—
+Dialogue: 0,0:18:48.65,0:18:50.65,DCMain,CONAN,0000,0000,0000,,What? That's not possible.
+Dialogue: 0,0:18:50.92,0:18:54.27,DCMain,MEGURE,0000,0000,0000,,C-Conan-kun? What are you doing here?
+Dialogue: 0,0:18:54.49,0:18:56.88,DCMain,CONAN,0000,0000,0000,,I just happened to stop by.
+Dialogue: 0,0:18:56.88,0:19:00.28,DCMain,CONAN,0000,0000,0000,,Anyway, the Kid spotted in \NShibuya was an impostor.
+Dialogue: 0,0:19:00.28,0:19:02.66,DCMain,CONAN,0000,0000,0000,,Right, Kudo Yusaku-san?
+Dialogue: 0,0:19:04.74,0:19:11.29,DCMain,MEGURE,0000,0000,0000,,But Nakamori-kun said tonight's \NKid was definitely him.
+Dialogue: 0,0:19:11.70,0:19:12.95,DCItalic,CONAN,0000,0000,0000,,Seriously?
+Dialogue: 0,0:19:12.95,0:19:17.90,DCItalic,CONAN,0000,0000,0000,,If that was the real Kid, then who's \Nbeen disguising himself as Dad?
+Dialogue: 0,0:19:34.47,0:19:38.17,DCMain,GIN,0000,0000,0000,,You're late, Vermouth.
+Dialogue: 0,0:19:39.85,0:19:41.54,DCMain,VERMOUTH,0000,0000,0000,,Sorry.
+Dialogue: 0,0:19:41.54,0:19:45.07,DCMain,VERMOUTH,0000,0000,0000,,Rum asked me for a favor.
+Dialogue: 0,0:19:45.74,0:19:49.20,DCMain,VERMOUTH,0000,0000,0000,,Someone who might become a \Nthreat to the organization
+Dialogue: 0,0:19:49.20,0:19:51.46,DCMain,VERMOUTH,0000,0000,0000,,is staying in Japan for some reason,
+Dialogue: 0,0:19:51.59,0:19:54.14,DCMain,VERMOUTH,0000,0000,0000,,so I went to investigate.
+Dialogue: 0,0:19:54.14,0:19:57.02,DCMain,VODKA,0000,0000,0000,,So, what was he like?
+Dialogue: 0,0:19:57.02,0:19:59.09,DCMain,VERMOUTH,0000,0000,0000,,Disappointing.
+Dialogue: 0,0:19:59.79,0:20:02.00,DCMain,VERMOUTH,0000,0000,0000,,We could kill him anytime.
+Dialogue: 0,0:20:03.06,0:20:04.93,DCMain,GIN,0000,0000,0000,,You didn't kill him?
+Dialogue: 0,0:20:05.10,0:20:07.86,DCMain,VERMOUTH,0000,0000,0000,,No, not today.
+Dialogue: 0,0:20:08.61,0:20:10.43,DCMain,VERMOUTH,0000,0000,0000,,But if necessary,
+Dialogue: 0,0:20:11.22,0:20:12.70,DCMain,VERMOUTH,0000,0000,0000,,I'll kill him anytime.
+Dialogue: 0,0:21:34.56,0:21:36.31,DCMain,CONAN,0000,0000,0000,,Hey, wake up!
+Dialogue: 0,0:21:36.67,0:21:39.81,DCMain,CONAN,0000,0000,0000,,Vermouth might've been \Nhere until a moment ago!
+Dialogue: 0,0:21:39.81,0:21:45.63,DCMain,CONAN,0000,0000,0000,,It's possible you got sick because \NVermouth poisoned you with something!
+Dialogue: 0,0:21:48.55,0:21:49.32,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:52.94,0:21:54.70,DCItalic,CONAN,0000,0000,0000,,Akai-san?
+Dialogue: 0,0:21:55.17,0:21:58.58,DCItalic,CONAN,0000,0000,0000,,Dad? Mom, too? Why?
+Dialogue: 0,0:21:59.28,0:22:01.84,DCMain,AKAI,0000,0000,0000,,Jodie and Camel, status?
+Dialogue: 0,0:22:02.36,0:22:07.34,DCMain,JODIE,0000,0000,0000,,No bugs or hidden cameras in the study.
+Dialogue: 0,0:22:07.76,0:22:10.14,DCMain,CAMEL,0000,0000,0000,,Nothing in the other rooms either.
+Dialogue: 0,0:22:10.40,0:22:13.78,DCMain,JODIE,0000,0000,0000,,I knew we could count on a \Nbest-selling author's plan.
+Dialogue: 0,0:22:13.78,0:22:16.14,DCItalic,CAMEL,0000,0000,0000,,We managed to fool her.
+Dialogue: 0,0:22:16.14,0:22:19.11,DCItalic,AKAI,0000,0000,0000,,We can't let our guard down yet.
+Dialogue: 0,0:22:19.50,0:22:21.11,DCMain,CONAN,0000,0000,0000,,What's going on?
+Dialogue: 0,0:22:21.44,0:22:25.47,DCMain,YUKIKO,0000,0000,0000,,When I told Yusaku someone's \Nbeen watching us lately,
+Dialogue: 0,0:22:25.47,0:22:29.45,DCMain,YUKIKO,0000,0000,0000,,he suggested we do something to attract \Nattention to see how they'd respond.
+Dialogue: 0,0:22:29.63,0:22:34.23,DCMain,YUSAKU,0000,0000,0000,,Then a suspicious flier for an Italian \Nrestaurant showed up in our mailbox.
+Dialogue: 0,0:22:34.23,0:22:36.38,DCMain,YUSAKU,0000,0000,0000,,We went to check it out, and sure enough,
+Dialogue: 0,0:22:36.38,0:22:40.21,DCMain,YUSAKU,0000,0000,0000,,the food tasted a little \Nodd, so we had it examined.
+Dialogue: 0,0:22:40.49,0:22:45.34,DCMain,YUSAKU,0000,0000,0000,,There was distigmine bromide in the food.
+Dialogue: 0,0:22:45.56,0:22:47.40,DCMain,CONAN,0000,0000,0000,,So you didn't eat it?
+Dialogue: 0,0:22:47.40,0:22:50.39,DCMain,YUKIKO,0000,0000,0000,,No, we pretended to eat \Nit and stuffed it my bag.
+Dialogue: 0,0:22:50.76,0:22:53.81,DCMain,YUKIKO,0000,0000,0000,,Because of it, my favorite bag was a mess.
+Dialogue: 0,0:22:53.97,0:22:58.38,DCMain,YUSAKU,0000,0000,0000,,The symptoms of distigmine bromide \Nconsumption resemble food poisoning,
+Dialogue: 0,0:22:58.38,0:23:03.60,DCMain,YUSAKU,0000,0000,0000,,nausea, vomiting, stomach pain, \Ndiarrhea, and perspiration.
+Dialogue: 0,0:23:03.82,0:23:08.49,DCMain,YUSAKU,0000,0000,0000,,So we pretended to have those \Nsymptoms to lure in their allies
+Dialogue: 0,0:23:08.85,0:23:15.54,DCMain,YUSAKU,0000,0000,0000,,and showed them we're completely \Nunguarded and have nothing to hide.
+Dialogue: 0,0:23:15.54,0:23:18.00,DCMain,CONAN,0000,0000,0000,,You should've told me that.
+Dialogue: 0,0:23:18.26,0:23:22.29,DCMain,YUSAKU,0000,0000,0000,,"To fool your enemies, you \Nmust first fool your friends."
+Dialogue: 0,0:23:24.26,0:23:28.30,DCMain,YUKIKO,0000,0000,0000,,And Sharon seems to like you.
+Dialogue: 0,0:23:29.01,0:23:33.82,DCMain,AKAI,0000,0000,0000,,At least the fear they'll \Nattack this place is gone now.
+Dialogue: 0,0:23:33.82,0:23:36.88,DCMain,YUSAKU,0000,0000,0000,,Yeah. Now just have to prepare
+Dialogue: 0,0:23:37.40,0:23:41.27,DCMain,YUSAKU,0000,0000,0000,,for them to make a major play.
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.23,0:23:46.55,DCMain,GENTA,0000,0000,0000,,You got here quick.
+Dialogue: 0,0:23:46.55,0:23:50.13,DCMain,TAKAGI,0000,0000,0000,,I was in the area gathering \Ninformation when I heard sirens.
+Dialogue: 0,0:23:50.13,0:23:51.61,DCMain,CONAN,0000,0000,0000,,Someone was robbed.
+Dialogue: 0,0:23:51.61,0:23:56.70,DCMain,MEGURE,0000,0000,0000,,A man's body was found nearby \Nat an izakaya in Haido City.
+Dialogue: 0,0:23:57.21,0:24:00.71,DCMain,MAN,0000,0000,0000,,Does that mean he's the purse-snatcher?
+Dialogue: 0,0:24:00.94,0:24:02.54,DCMain,MITSUHIKO,0000,0000,0000,,Could it be?
+Dialogue: 0,0:24:02.54,0:24:06.21,DCMain,CONAN,0000,0000,0000,,Yeah, this case didn't just happen.
+Dialogue: 0,0:24:07.17,0:24:08.96,DCMain,CONAN,0000,0000,0000,,It was a premeditated murder.
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,SIGN,0000,0000,0000,,The Detective Boys' Pursuit \Nof the Purse-snatcher
+Dialogue: 0,0:24:09.28,0:24:14.38,DCMain,CONNA,0000,0000,0000,,The next episode of Conan is "The Detective \NBoys' Pursuit of the Purse-snatcher!"
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,SIGN,0000,0000,0000,,Apartment Complex
+Dialogue: 0,0:24:30.59,0:24:32.09,DCMain,KOGORO,0000,0000,0000,,Here's the next Conan's hint!
+Dialogue: 0,0:24:32.62,0:24:33.99,DCMain,CONAN,0000,0000,0000,,An apartment complex!
+Dialogue: 0,0:24:34.91,0:24:36.27,DCMain,RAN,0000,0000,0000,,{\an8}Mystery writers are amazing.
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.27,0:24:37.76,DCMain,KOGORO,0000,0000,0000,,{\an8}But great detective are a world "apart."
+Dialogue: 0,0:24:37.76,0:24:39.64,DCMain,CONAN,0000,0000,0000,,{\an8}I think you might be confused.

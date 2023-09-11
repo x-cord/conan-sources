@@ -1,0 +1,354 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: DCNameCards,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AB6370,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0322,0062,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.80,0:00:06.48,DCMain,CONAN,0000,0000,0000,,On the way home from reporting on a case, \Nthe old man met a man suffering from memory loss.
+Dialogue: 0,0:00:06.81,0:00:09.44,DCMain,CONAN,0000,0000,0000,,{\an8}His name was Esaka Ritsuo.
+Dialogue: 0,0:00:08.02,0:00:09.44,DCNameCards,SIGN,0000,0000,0000,,{\fad(446,1)\pos(247,298)\3c&HAB6370&}Esaka Ritsuo (28)\NMan with Memory Loss
+Dialogue: 0,0:00:09.70,0:00:15.88,DCMain,CONAN,0000,0000,0000,,{\an8}He lost his memories a year earlier \Nand was living as Koneru Taro,
+Dialogue: 0,0:00:12.99,0:00:14.91,DCNameCards,SIGN,0000,0000,0000,,{\fad(398,1)\3c&H894158&\pos(486,296)}Kinbara Takuzo (71)\NBicycle Parking Lot Employee
+Dialogue: 0,0:00:15.03,0:00:16.41,DCNameCards,SIGN,0000,0000,0000,,{\fad(402,1)\3c&HAB6E65&\pos(275,296)}Hida Keisuke (53)\NConstruction Company Manager
+Dialogue: 0,0:00:15.88,0:00:22.09,DCMain,CONAN,0000,0000,0000,,{\an8}but when he fell down the stairs at a train \Nstation, he forgot the life he lived as Koneru Taro.
+Dialogue: 0,0:00:16.53,0:00:17.91,DCNameCards,SIGN,0000,0000,0000,,{\fad(403,1)\3c&H874054&\pos(313,296)}Mizutani Toko (26)\NBank Employee
+Dialogue: 0,0:00:18.03,0:00:19.49,DCNameCards,SIGN,0000,0000,0000,,{\fad(405,1)\3c&H9A4258&\pos(247,297)}Chimura Mamoru (20)\NCram School Student
+Dialogue: 0,0:00:19.58,0:00:21.16,DCNameCards,SIGN,0000,0000,0000,,{\fad(439,1)\3c&H964A64&\pos(514,296)}Kinbara Tae (70)\NTakuzo's Wife
+Dialogue: 0,0:00:23.42,0:00:29.36,DCMain,CONAN,0000,0000,0000,,Instead, he remembered bits of his \Nmemories as Esaka Ritsuo, but...
+Dialogue: 0,0:00:26.04,0:00:27.46,DCMain,SIGN TOP,0000,0000,0000,,{\an8\b1\fnArial\fs30\c&HA5A3A1&\3c&H050303&\shad1}Missing Man Found Dead
+Dialogue: 0,0:00:26.04,0:00:27.46,DCMain,SIGN RIGHT,0000,0000,0000,,{\an9\pos(634,167)\fnArial\b1\shad0\c&H050303&\3c&HA5A3A1&\bord3\fs22}Body Found in Wakabadai \NMountains Identified
+Dialogue: 0,0:00:26.04,0:00:27.46,DCMain,SIGN PHOTO,0000,0000,0000,,{\an1\fs18\shad0\frz1.109\pos(155,250)\c&H050303&\3c&HA5A3A1&\bord2.5}Kisugi Akira-san (38) Found Dead
+Dialogue: 0,0:00:31.94,0:00:33.13,DCMain,CONAN,0000,0000,0000,,Esaka-san?
+Dialogue: 0,0:00:34.24,0:00:37.03,DCMain,MEGURE,0000,0000,0000,,Judging by the circumstances,\Nit was almost certainly a suicide.
+Dialogue: 0,0:00:37.68,0:00:39.01,DCMain,KOGORO,0000,0000,0000,,Suicide?
+Dialogue: 0,0:00:52.01,0:00:53.70,DCMain,CONAN,0000,0000,0000,,Finally arriving after \Nswaying back and forth,
+Dialogue: 0,0:00:53.70,0:00:55.32,DCMain,CONAN,0000,0000,0000,,draw close to mysteries and \Nbegin deducing the truth!
+Dialogue: 0,0:00:55.48,0:00:59.16,DCMain,CONAN,0000,0000,0000,,When the door to his lost memories opens, \Nwhat truth will he see beyond it?
+Dialogue: 0,0:00:59.16,0:01:00.62,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:00.62,0:01:02.33,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:02.33,0:01:04.93,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:37.01,0:02:43.01,DCEpTitle,EPTITLE,0000,0000,0000,,{\pos(320,51)\fad(397,1)}The Blank Year \N(Part Two)
+Dialogue: 0,0:02:37.62,0:02:40.58,DCMain,SIGN,0000,0000,0000,,"The Blank Year, Part Two!"
+Dialogue: 0,0:02:43.49,0:02:46.64,DCMain,KOGORO,0000,0000,0000,,You're sure it was a suicide?
+Dialogue: 0,0:02:46.95,0:02:47.91,DCMain,MEGURE,0000,0000,0000,,Yeah.
+Dialogue: 0,0:02:47.91,0:02:49.18,DCMain,MEGURE,0000,0000,0000,,Takagi-kun.
+Dialogue: 0,0:02:49.18,0:02:50.22,DCMain,TAKAGI,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:02:50.22,0:02:55.19,DCMain,TAKAGI,0000,0000,0000,,This apartment, in which he drank \Nthe poisoned coffee, was locked.
+Dialogue: 0,0:02:55.19,0:03:00.74,DCMain,TAKAGI,0000,0000,0000,,Both of the keys he received from the \Nlandlord were inside the room. And...
+Dialogue: 0,0:03:01.06,0:03:06.50,DCMain,MEGURE,0000,0000,0000,,What we believe is a suicide \Nnote was left on that computer.
+Dialogue: 0,0:03:04.62,0:03:06.95,DCMain,SIGN,0000,0000,0000,,{\an8\fnArial\bord2\shad0\pos(321,132)\c&H543631&\3c&HF9F7F5&}Though it's been six months, I can't escape my guilt.\NThe only apology I can offer is death.
+Dialogue: 0,0:03:08.48,0:03:13.81,DCMain,KOGORO,0000,0000,0000,,Did he recall a mistake he made in the \Npast when his lost memories returned?
+Dialogue: 0,0:03:14.59,0:03:19.89,DCMain,MEGURE,0000,0000,0000,,Ideally we'll learn something from \Nthis, which was left on the table.
+Dialogue: 0,0:03:19.89,0:03:22.97,DCMain,KOGORO,0000,0000,0000,,The new phone he just bought \Nto replace his lost phone?
+Dialogue: 0,0:03:23.21,0:03:26.72,DCMain,MEGURE,0000,0000,0000,,Its history showed two calls made yesterday.
+Dialogue: 0,0:03:27.03,0:03:30.95,DCMain,MEGURE,0000,0000,0000,,The first call was made to the Hida \NIndustries construction company.
+Dialogue: 0,0:03:30.95,0:03:33.98,DCMain,KOGORO,0000,0000,0000,,That's the company he \Nworked at this past year.
+Dialogue: 0,0:03:34.28,0:03:36.48,DCMain,CONAN,0000,0000,0000,,That must Hida-san's company.
+Dialogue: 0,0:03:36.48,0:03:40.36,DCMain,MEGURE,0000,0000,0000,,The other call was made to a \Nweather information service.
+Dialogue: 0,0:03:40.65,0:03:43.69,DCMain,KOGORO,0000,0000,0000,,What? A weather information service?
+Dialogue: 0,0:03:43.69,0:03:47.33,DCMain,CHIBA,0000,0000,0000,,Apparently he called to ask a question.
+Dialogue: 0,0:03:47.99,0:03:50.37,DCMain,CHIBA,0000,0000,0000,,He wanted to know if six \Nmonths ago around June 10th
+Dialogue: 0,0:03:50.78,0:03:53.66,DCMain,CHIBA,0000,0000,0000,,if any lightning strikes were reported \Noutside the city in Wakabadai.
+Dialogue: 0,0:03:53.66,0:03:59.10,DCMain,CHIBA,0000,0000,0000,,The person answering the phone responded \Nthat there were on the evening of the 10th.
+Dialogue: 0,0:03:59.74,0:04:04.62,DCMain,TAKAGI,0000,0000,0000,,He called Hida Industries to \Nconfirm what site he worked
+Dialogue: 0,0:04:04.62,0:04:08.11,DCMain,TAKAGI,0000,0000,0000,,at six months ago on June 10th.
+Dialogue: 0,0:04:08.11,0:04:13.64,DCMain,TAKAGI,0000,0000,0000,,The manager Hida examined the records \Nand responded that he was at Wakabadai.
+Dialogue: 0,0:04:14.97,0:04:19.07,DCMain,CONAN,0000,0000,0000,,Both answers point to Wakabadai on June 10th.
+Dialogue: 0,0:04:19.55,0:04:20.40,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:04:21.30,0:04:22.32,DCMain,CONAN,0000,0000,0000,,Isn't this...?
+Dialogue: 0,0:04:22.32,0:04:24.82,DCMain,SIGN TOP,0000,0000,0000,,{\an8\b1\fnArial\fs30\c&HA5A3A1&\3c&H050303&\shad1\pos(370,2)\frz319.3}Missing Man Found Dead
+Dialogue: 0,0:04:22.32,0:04:24.82,DCMain,SIGN RIGHT,0000,0000,0000,,{\an9\fnArial\b1\shad0\c&H050303&\3c&HA5A3A1&\bord3\fs18\pos(519,220)\frz317.6}Body Found in Wakabadai \NMountains Identified
+Dialogue: 0,0:04:22.32,0:04:24.82,DCMain,SIGN PHOTO,0000,0000,0000,,{\an1\fs12\shad0\c&H050303&\3c&HA5A3A1&\bord2.5\frz315.5\pos(123,35)}Kisugi Akira-san (38) Found Dead
+Dialogue: 0,0:04:22.65,0:04:24.82,DCMain,CONAN,0000,0000,0000,,It's the day this incident occurred.
+Dialogue: 0,0:04:26.18,0:04:29.33,DCMain,KOGORO,0000,0000,0000,,On that day, Esaka-kun went to \NWakabadai, where the crime took place.
+Dialogue: 0,0:04:29.88,0:04:34.46,DCMain,KOGORO,0000,0000,0000,,If he's guilty of something that happened six \Nmonths ago, in the case of Kisugi Akira's murder...
+Dialogue: 0,0:04:34.72,0:04:35.46,DCMain,TAKAGI,0000,0000,0000,,He's...
+Dialogue: 0,0:04:35.73,0:04:36.88,DCMain,CHIBA,0000,0000,0000,,The culprit?
+Dialogue: 0,0:04:37.16,0:04:39.88,DCMain,MEGURE,0000,0000,0000,,In other words, on that day Esaka Ritsuo...
+Dialogue: 0,0:04:47.40,0:04:52.68,DCMain,MEGURE,0000,0000,0000,,He was working in Wakabadai, \Nand for some reason,
+Dialogue: 0,0:04:52.68,0:04:56.24,DCMain,MEGURE,0000,0000,0000,,he murdered Kisugi Akira and buried \Nthe body in the nearby mountains.
+Dialogue: 0,0:04:56.24,0:04:59.14,DCMain,MEGURE,0000,0000,0000,,He'd forgotten that he'd done that.
+Dialogue: 0,0:04:59.14,0:05:01.65,DCMain,KOGORO,0000,0000,0000,,But the thunder made him remember.
+Dialogue: 0,0:05:01.65,0:05:04.03,DCMain,KOGORO,0000,0000,0000,,Also, he mentioned something.
+Dialogue: 0,0:05:04.48,0:05:08.27,DCItalic,ESAKA,0000,0000,0000,,I felt like I remembered a scene \Nof particular interest to me.
+Dialogue: 0,0:05:08.92,0:05:13.54,DCItalic,ESAKA,0000,0000,0000,,{\fad(1,394)}I wonder what it was. Thunder... dogs...
+Dialogue: 0,0:05:13.80,0:05:16.38,DCMain,KOGORO,0000,0000,0000,,We still don't know the \Nsignificance of the dog, though.
+Dialogue: 0,0:05:16.38,0:05:19.61,DCMain,KOGORO,0000,0000,0000,,He remembered something, but still \Nhad doubts, so he called to ask.
+Dialogue: 0,0:05:20.45,0:05:23.55,DCMain,KOGORO,0000,0000,0000,,And then, feeling remorseful \Nabout killing a person...
+Dialogue: 0,0:05:25.87,0:05:28.48,DCItalic,CONAN,0000,0000,0000,,That explanation does fit, but...
+Dialogue: 0,0:05:37.84,0:05:40.41,DCMain,CONAN,0000,0000,0000,,You said the room was locked.
+Dialogue: 0,0:05:40.41,0:05:43.23,DCMain,CONAN,0000,0000,0000,,Was the door chain on the \Nfront door locked, too?
+Dialogue: 0,0:05:43.23,0:05:46.31,DCMain,TAKAGI,0000,0000,0000,,No, the chain wasn't locked,
+Dialogue: 0,0:05:46.31,0:05:48.99,DCMain,TAKAGI,0000,0000,0000,,but both keys were here.
+Dialogue: 0,0:05:49.20,0:05:53.37,DCMain,TAKAGI,0000,0000,0000,,One in the back of the desk drawer, \Nand one in that jacket pocket.
+Dialogue: 0,0:05:55.53,0:05:56.79,DCMain,CONAN,0000,0000,0000,,Hey, listen...
+Dialogue: 0,0:05:57.46,0:06:01.66,DCMain,CHIBA,0000,0000,0000,,Shall I tell the Kisugi murder \Ninvestigation HQ about Esaka?
+Dialogue: 0,0:06:01.66,0:06:04.69,DCMain,MEGURE,0000,0000,0000,,It's still only a possibility.
+Dialogue: 0,0:06:04.69,0:06:09.05,DCMain,TAKAGI,0000,0000,0000,,Kisugi Akira was a con artist. It's \Npossible he was one of his victims.
+Dialogue: 0,0:06:09.94,0:06:12.22,DCMain,MEGURE,0000,0000,0000,,Let's review the information we have.
+Dialogue: 0,0:06:15.43,0:06:16.56,DCMain,CONAN,0000,0000,0000,,Hey, listen.
+Dialogue: 0,0:06:17.83,0:06:21.19,DCMain,CONAN,0000,0000,0000,,Remember the scene of interest \NEsaka-san mentioned?
+Dialogue: 0,0:06:21.49,0:06:25.75,DCMain,CONAN,0000,0000,0000,,Maybe Esaka-san saw something \Nat Wakabadai that day,
+Dialogue: 0,0:06:25.75,0:06:30.82,DCMain,CONAN,0000,0000,0000,,like Kisugi Akira and the culprit fighting.
+Dialogue: 0,0:06:31.20,0:06:32.06,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:32.52,0:06:36.51,DCMain,CONAN,0000,0000,0000,,That would also explain \Nthe attempt on his life.
+Dialogue: 0,0:06:36.51,0:06:38.37,DCMain,KOGORO,0000,0000,0000,,That was just—
+Dialogue: 0,0:06:38.72,0:06:40.87,DCMain,CONAN,0000,0000,0000,,Remember what Hida-san and the others said?
+Dialogue: 0,0:06:41.21,0:06:44.12,DCItalic,HIDA,0000,0000,0000,,You're probably imagining that \Nsomeone tried to kill you.
+Dialogue: 0,0:06:44.12,0:06:45.63,DCItalic,KINBARA,0000,0000,0000,,I can only assume that's the case.
+Dialogue: 0,0:06:45.86,0:06:48.21,DCMain,CONAN,0000,0000,0000,,But what if it were true
+Dialogue: 0,0:06:48.21,0:06:52.76,DCMain,CONAN,0000,0000,0000,,and the culprit was trying to silence \NEsaka-san, the inconvenient witness?
+Dialogue: 0,0:06:53.04,0:06:54.05,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:06:54.39,0:06:58.93,DCMain,CONAN,0000,0000,0000,,Their attempts hadn't worked until \Nnow, but they succeeded yesterday.
+Dialogue: 0,0:06:59.43,0:07:05.57,DCMain,CONAN,0000,0000,0000,,After all, there was someone here when \NEsaka-san drank the poisoned coffee.
+Dialogue: 0,0:07:07.17,0:07:08.44,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:07:08.77,0:07:12.20,DCMain,CONAN,0000,0000,0000,,Only one of the cups is placed \Ndifferently on the shelf.
+Dialogue: 0,0:07:12.39,0:07:13.99,DCMain,KOGORO,0000,0000,0000,,Y-You're right.
+Dialogue: 0,0:07:14.41,0:07:15.87,DCMain,KOGORO,0000,0000,0000,,Which means...
+Dialogue: 0,0:07:16.18,0:07:18.12,DCMain,CONAN,0000,0000,0000,,The culprit probably put it there.
+Dialogue: 0,0:07:28.60,0:07:30.09,DCMain,CONAN,0000,0000,0000,,Esaka-san didn't kill himself.
+Dialogue: 0,0:07:30.09,0:07:35.55,DCMain,CONAN,0000,0000,0000,,He was murdered for his silence \Nand framed as the culprit.
+Dialogue: 0,0:07:35.85,0:07:37.84,DCMain,CONAN,0000,0000,0000,,Then the culprit fled.
+Dialogue: 0,0:07:37.84,0:07:41.68,DCMain,CONAN,0000,0000,0000,,They must've used some kind of \Ntrick to lock the room, or else...
+Dialogue: 0,0:07:46.48,0:07:51.82,DCMain,CONAN,0000,0000,0000,,If Esaka-san let them into his home, \Nthen maybe he knew the culprit.
+Dialogue: 0,0:07:52.06,0:07:53.43,DCMain,KOGORO,0000,0000,0000,,But we need clues.
+Dialogue: 0,0:07:53.43,0:07:57.76,DCMain,KOGORO,0000,0000,0000,,If Esaka-kun saw the culprit six months ago,
+Dialogue: 0,0:07:57.76,0:08:01.21,DCMain,KOGORO,0000,0000,0000,,then there might be someone who saw that.
+Dialogue: 0,0:08:04.05,0:08:06.40,DCMain,KOGORO,0000,0000,0000,,I'd like to ask you about \Nthis man in the middle.
+Dialogue: 0,0:08:08.08,0:08:11.86,DCMain,CONAN,0000,0000,0000,,He came to the construction site \Ndown the road six months ago.
+Dialogue: 0,0:08:11.86,0:08:14.11,DCMain,WOMAN A,0000,0000,0000,,Oh, I remember him.
+Dialogue: 0,0:08:14.11,0:08:15.09,DCMain,CONAN,0000,0000,0000,,Did you see something?
+Dialogue: 0,0:08:15.30,0:08:17.35,DCMain,WOMAN A,0000,0000,0000,,He was frantically fleeing from a dog.
+Dialogue: 0,0:08:17.73,0:08:18.72,DCMain,BOTH,0000,0000,0000,,A dog?
+Dialogue: 0,0:08:18.91,0:08:23.14,DCMain,WOMAN A,0000,0000,0000,,He came screaming and running and \Njumped right up on that utility pole.
+Dialogue: 0,0:08:29.15,0:08:31.56,DCItalic,OWNER A,0000,0000,0000,,I'm sorry!
+Dialogue: 0,0:08:36.01,0:08:36.66,DCItalic,ESAKA,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:40.29,0:08:41.71,DCMain,KOGORO,0000,0000,0000,,Dogs and thunder...
+Dialogue: 0,0:08:41.71,0:08:44.05,DCMain,KOGORO,0000,0000,0000,,It happened then, right here.
+Dialogue: 0,0:08:44.05,0:08:47.00,DCMain,CONAN,0000,0000,0000,,He saw something off in \Nthat direction, right?
+Dialogue: 0,0:08:47.29,0:08:50.38,DCMain,WOMAN A,0000,0000,0000,,I didn't see anything.
+Dialogue: 0,0:08:55.61,0:09:00.10,DCMain,KOGORO,0000,0000,0000,,They passed by on that side street then.
+Dialogue: 0,0:09:08.96,0:09:12.20,DCMain,CONAN,0000,0000,0000,,They either came from this direction where \NKisugi Akira's residence is located,
+Dialogue: 0,0:09:12.20,0:09:14.41,DCMain,CONAN,0000,0000,0000,,or this direction from the temple.
+Dialogue: 0,0:09:14.93,0:09:20.62,DCMain,CONAN,0000,0000,0000,,In any case, Kisugi Akira and the culprit \Nmust've passed through here while fighting.
+Dialogue: 0,0:09:20.89,0:09:24.09,DCMain,KOGORO,0000,0000,0000,,And because Esaka-kun witnessed that...
+Dialogue: 0,0:09:24.09,0:09:26.62,DCMain,KOGORO,0000,0000,0000,,Exactly who is the culprit?
+Dialogue: 0,0:09:27.17,0:09:30.31,DCMain,CONAN,0000,0000,0000,,Since the body they buried was discovered,
+Dialogue: 0,0:09:30.31,0:09:34.42,DCMain,CONAN,0000,0000,0000,,the culprit attempted to \Nsilence Esaka-san in a hurry.
+Dialogue: 0,0:09:34.42,0:09:37.63,DCMain,CONAN,0000,0000,0000,,But why didn't they do it right away?
+Dialogue: 0,0:09:37.97,0:09:42.76,DCMain,KOGORO,0000,0000,0000,,Come to think of it, he was nearly killed \Nthree days after the body was discovered.
+Dialogue: 0,0:09:42.93,0:09:47.22,DCMain,CONAN,0000,0000,0000,,That's it. They couldn't kill him \Nbecause they didn't know where he was.
+Dialogue: 0,0:09:47.74,0:09:52.57,DCMain,CONAN,0000,0000,0000,,But because Esaka-san visited them three \Ndays later, they made an attempt on his life.
+Dialogue: 0,0:09:52.85,0:09:57.01,DCMain,KOGORO,0000,0000,0000,,Which means the culprit lives in Koneru.
+Dialogue: 0,0:09:57.01,0:09:59.08,DCMain,CONAN,0000,0000,0000,,That would explain it.
+Dialogue: 0,0:09:59.08,0:10:02.58,DCMain,KOGORO,0000,0000,0000,,You knew that from that start, didn't you?
+Dialogue: 0,0:10:03.62,0:10:06.37,DCMain,SIGN,0000,0000,0000,,{\an8\fs20\bord2\shad0\c&H597F8B&\3c&H423A33&\shad1\4c&H464C46&}Metropolitan Police Department \N{\fs18}Wakabadai Station
+Dialogue: 0,0:10:04.26,0:10:06.37,DCMain,POLICE A,0000,0000,0000,,Residents of Koneru?
+Dialogue: 0,0:10:06.37,0:10:09.63,DCMain,SIGN,0000,0000,0000,,{\an9\c&H222C2D&\3c&H657C91&\shad0\bord3}Abandoned Murdered Body Case \NSpecial Investigation HQ
+Dialogue: 0,0:10:06.37,0:10:09.63,DCMain,KOGORO,0000,0000,0000,,Yes, among the list of suspects.
+Dialogue: 0,0:10:09.99,0:10:14.57,DCMain,KOGORO,0000,0000,0000,,There must be residents \Nof Koneru who were conned
+Dialogue: 0,0:10:14.57,0:10:17.13,DCMain,KOGORO,0000,0000,0000,,by Kisugi Akira and had a grudge against him.
+Dialogue: 0,0:10:17.38,0:10:19.54,DCMain,POLICE A,0000,0000,0000,,No, not a single one.
+Dialogue: 0,0:10:19.54,0:10:20.39,DCMain,KOGORO,0000,0000,0000,,No?
+Dialogue: 0,0:10:26.74,0:10:28.33,DCMain,CONAN,0000,0000,0000,,But why?
+Dialogue: 0,0:10:28.33,0:10:29.98,DCMain,KOGORO,0000,0000,0000,,There must be someone.
+Dialogue: 0,0:10:30.49,0:10:32.73,DCMain,KOGORO,0000,0000,0000,,If they haven't found anyone, then \Nwe'll just have to do it ourselves.
+Dialogue: 0,0:10:33.04,0:10:35.23,DCMain,CONAN,0000,0000,0000,,There's not much point in searching randomly.
+Dialogue: 0,0:10:35.64,0:10:37.24,DCMain,KOGORO,0000,0000,0000,,You're not wrong.
+Dialogue: 0,0:10:38.48,0:10:41.37,DCMain,KOGORO,0000,0000,0000,,Maybe the neighborhood \Nsteward knows something.
+Dialogue: 0,0:10:41.81,0:10:43.37,DCMain,CONAN,0000,0000,0000,,You mean Kinbara-san.
+Dialogue: 0,0:10:46.22,0:10:49.11,DCMain,TAE,0000,0000,0000,,I'm excited to watch it grow.
+Dialogue: 0,0:10:49.11,0:10:52.58,DCMain,KINBARA,0000,0000,0000,,In a few years, we'll be able to view \Nflowers from within our own home.
+Dialogue: 0,0:10:56.85,0:10:59.22,DCMain,TAE,0000,0000,0000,,A flower viewing in this yard...
+Dialogue: 0,0:10:59.48,0:11:01.93,DCMain,TAE,0000,0000,0000,,I'm sure that'll be beautiful.
+Dialogue: 0,0:11:03.16,0:11:05.95,DCMain,KINBARA,0000,0000,0000,,You'll be better by then, too.
+Dialogue: 0,0:11:07.26,0:11:08.36,DCMain,KINBARA,0000,0000,0000,,Mori-san?
+Dialogue: 0,0:11:14.23,0:11:17.98,DCMain,SIGN,0000,0000,0000,,{\an7\fnTimesNewRoman\shad0\c&H2B2D28&\3c&H8D9694&\b1}Kinbara Takuzo & Tae
+Dialogue: 0,0:11:18.39,0:11:20.36,DCMain,KINBARA,0000,0000,0000,,Taro-kun is dead?
+Dialogue: 0,0:11:20.58,0:11:25.99,DCMain,KOGORO,0000,0000,0000,,I'm sure she'll find out sooner or later, but \NI didn't want your frail wife to hear about it.
+Dialogue: 0,0:11:26.50,0:11:29.37,DCMain,KOGORO,0000,0000,0000,,It's possible he was killed for his silence.
+Dialogue: 0,0:11:29.81,0:11:32.17,DCMain,KINBARA,0000,0000,0000,,But why?
+Dialogue: 0,0:11:32.17,0:11:38.42,DCMain,CONAN,0000,0000,0000,,A man was murdered in the \Nmountains of Wakabadai.
+Dialogue: 0,0:11:38.81,0:11:45.21,DCMain,KOGORO,0000,0000,0000,,There should be victims of Kisugi Akira \Nhere in Koneru who were conned by him.
+Dialogue: 0,0:11:45.21,0:11:47.85,DCMain,KOGORO,0000,0000,0000,,Have you heard anything?
+Dialogue: 0,0:11:47.85,0:11:50.11,DCMain,KINBARA,0000,0000,0000,,I haven't heard anything like that.
+Dialogue: 0,0:11:50.81,0:11:52.69,DCMain,KINBARA,0000,0000,0000,,They killed Taro-kun?
+Dialogue: 0,0:11:52.90,0:11:59.30,DCMain,KOGORO,0000,0000,0000,,Anyway, could we ask the \Nothers about it, too?
+Dialogue: 0,0:12:00.02,0:12:01.22,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:12:01.22,0:12:02.82,DCMain,HIDA,0000,0000,0000,,Taro-kun was killed?
+Dialogue: 0,0:12:03.00,0:12:09.70,DCMain,KOGORO,0000,0000,0000,,Yes. I wanted to ask if there's \Nanything you can recall about him.
+Dialogue: 0,0:12:11.03,0:12:12.81,DCMain,HIDA,0000,0000,0000,,Recall about him?
+Dialogue: 0,0:12:12.81,0:12:14.62,DCMain,TOKO,0000,0000,0000,,Not off the top of my head.
+Dialogue: 0,0:12:14.62,0:12:17.08,DCMain,MAMORU,0000,0000,0000,,I can't think of anything.
+Dialogue: 0,0:12:17.66,0:12:21.79,DCMain,TOKO,0000,0000,0000,,But if it's for Taro-san, \Nwe'll do what we can to help.
+Dialogue: 0,0:12:22.51,0:12:23.80,DCMain,HIDA,0000,0000,0000,,Whoa, whoa.
+Dialogue: 0,0:12:23.80,0:12:27.08,DCMain,MAMORU,0000,0000,0000,,We're not police or private investigators.
+Dialogue: 0,0:12:27.08,0:12:28.24,DCMain,TOKO,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:12:28.24,0:12:32.23,DCMain,TOKO,0000,0000,0000,,I know. Mori-san can teach us.
+Dialogue: 0,0:12:32.82,0:12:34.25,DCMain,TOKO,0000,0000,0000,,Please.
+Dialogue: 0,0:12:34.25,0:12:37.20,DCMain,HIDA,0000,0000,0000,,All right. Let's do what we can for Taro-kun.
+Dialogue: 0,0:12:37.47,0:12:39.92,DCMain,MAMORU,0000,0000,0000,,I'd feel bad for Taro-san \Nif we left things like this.
+Dialogue: 0,0:12:39.92,0:12:41.11,DCMain,TOKO,0000,0000,0000,,We'll do our best.
+Dialogue: 0,0:12:41.64,0:12:42.66,DCMain,KINBARA,0000,0000,0000,,Guys...
+Dialogue: 0,0:12:43.52,0:12:49.12,DCMain,KOGORO,0000,0000,0000,,We'll begin by searching anywhere \Nyou find even a little suspicious.
+Dialogue: 0,0:12:49.32,0:12:54.62,DCItalic,CONAN,0000,0000,0000,,We'll find some trace of the \Nculprit who killed Esaka-san.
+Dialogue: 0,0:13:11.24,0:13:12.79,DCItalic,CONAN,0000,0000,0000,,A bicycle parking lot?
+Dialogue: 0,0:13:14.47,0:13:15.69,DCMain,OLD MAN A,0000,0000,0000,,The day before yesterday?
+Dialogue: 0,0:13:15.84,0:13:18.34,DCMain,CONAN,0000,0000,0000,,It was around 1PM.
+Dialogue: 0,0:13:18.34,0:13:22.82,DCMain,CONAN,0000,0000,0000,,Did you see anyone running \Naway from that traffic light?
+Dialogue: 0,0:13:22.82,0:13:25.33,DCMain,OLD MAN A,0000,0000,0000,,There's no point in asking me.
+Dialogue: 0,0:13:25.33,0:13:27.23,DCMain,OLD MAN A,0000,0000,0000,,I was out sick with a cold.
+Dialogue: 0,0:13:27.23,0:13:29.32,DCMain,CONAN,0000,0000,0000,,So you weren't here the day before yesterday.
+Dialogue: 0,0:13:29.52,0:13:33.45,DCMain,OLD MAN A,0000,0000,0000,,I think Umino-san or \NKinbara-san was here instead.
+Dialogue: 0,0:13:33.66,0:13:38.46,DCMain,CONAN,0000,0000,0000,,Oh, right. Kinbara-san is \Na bicycle attendant, too.
+Dialogue: 0,0:13:38.89,0:13:41.33,DCMain,EMPLOYEE A,0000,0000,0000,,It must've been Umino-san or Kinbara-san.
+Dialogue: 0,0:13:41.33,0:13:43.71,DCMain,EMPLOYEE A,0000,0000,0000,,Let's see. On that day...
+Dialogue: 0,0:13:44.07,0:13:48.16,DCMain,KOGORO,0000,0000,0000,,Actually, I wanted to ask \Nyou about something else.
+Dialogue: 0,0:13:49.05,0:13:55.85,DCMain,KOGORO,0000,0000,0000,,Is there anyone named Doigaki-san \Namong Kisugi Akira's con victims?
+Dialogue: 0,0:13:55.85,0:14:02.48,DCMain,SIGN,0000,0000,0000,,{\an8\fnTimesNewRoman\fs30\shad0\c&HA79EA4&\3c&H57524B&}Yakitori Izakaya
+Dialogue: 0,0:14:06.56,0:14:08.36,DCItalic,CONAN,0000,0000,0000,,There should be one at a hardware store.
+Dialogue: 0,0:14:11.24,0:14:12.62,DCItalic,CONAN,0000,0000,0000,,They do have one.
+Dialogue: 0,0:14:12.91,0:14:15.27,DCMain,HIDA,0000,0000,0000,,No clues, huh?
+Dialogue: 0,0:14:15.27,0:14:18.25,DCMain,MAMORU,0000,0000,0000,,Probably because we're regular people.
+Dialogue: 0,0:14:18.25,0:14:21.90,DCMain,TOKO,0000,0000,0000,,Being a detective is hard work.
+Dialogue: 0,0:14:21.90,0:14:23.63,DCMain,CONAN,0000,0000,0000,,Hey, Hida-san.
+Dialogue: 0,0:14:24.18,0:14:25.19,DCMain,HIDA,0000,0000,0000,,What is it?
+Dialogue: 0,0:14:27.29,0:14:29.05,DCMain,HIDA,0000,0000,0000,,Yeah, I talked to him. What about it?
+Dialogue: 0,0:14:29.26,0:14:32.93,DCMain,CONAN,0000,0000,0000,,I don't know, but Kogoro-no-ojisan \Nwanted me to check with you.
+Dialogue: 0,0:14:33.91,0:14:36.18,DCMain,KOGORO,0000,0000,0000,,Why can't we find anything?
+Dialogue: 0,0:14:36.61,0:14:39.19,DCMain,CONAN,0000,0000,0000,,Mister, apparently you were right.
+Dialogue: 0,0:14:39.40,0:14:40.45,DCMain,KOGORO,0000,0000,0000,,About what?
+Dialogue: 0,0:14:42.54,0:14:44.77,DCMain,KOGORO,0000,0000,0000,,By the way, did you all find anything?
+Dialogue: 0,0:14:47.36,0:14:49.68,DCMain,KOGORO,0000,0000,0000,,Find-diddly-ind anything?
+Dialogue: 0,0:14:51.57,0:14:52.49,DCMain,TOKO,0000,0000,0000,,Is this...
+Dialogue: 0,0:14:52.84,0:14:53.83,DCMain,MAMORU,0000,0000,0000,,The rumored...
+Dialogue: 0,0:14:54.12,0:14:55.74,DCMain,HIDA,0000,0000,0000,,Sleeping Kogoro?
+Dialogue: 0,0:14:56.27,0:14:58.13,DCMain,KOGORO,0000,0000,0000,,First, I must apologize to all of you.
+Dialogue: 0,0:14:58.69,0:15:03.13,DCMain,KOGORO,0000,0000,0000,,We never would've found the culprit \Nfollowing the course I set you on
+Dialogue: 0,0:15:03.45,0:15:09.13,DCMain,KOGORO,0000,0000,0000,,because it wasn't the culprit themselves who \Nwas a victim of Kisugi Akira's con artistry.
+Dialogue: 0,0:15:09.13,0:15:10.36,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:15:12.43,0:15:16.49,DCMain,KOGORO,0000,0000,0000,,By the way, on June 10th, when \NKisugi Akira was murdered,
+Dialogue: 0,0:15:16.49,0:15:21.66,DCMain,KOGORO,0000,0000,0000,,one of you was at Wakabadai \Nwhere the crime took place
+Dialogue: 0,0:15:22.74,0:15:26.63,DCMain,KOGORO,0000,0000,0000,,in order to attend the second anniversary\N ceremony of Doigaki Katsuhiro-san's death.
+Dialogue: 0,0:15:27.24,0:15:28.94,DCMain,HIDA,0000,0000,0000,,Doigaki?
+Dialogue: 0,0:15:29.32,0:15:30.95,DCMain,BOTH,0000,0000,0000,,Who's that?
+Dialogue: 0,0:15:31.21,0:15:35.45,DCMain,KOGORO,0000,0000,0000,,He's your wife's younger brother, \Nisn't he, Kinbara Takuzo-san?
+Dialogue: 0,0:15:40.23,0:15:43.42,DCMain,KOGORO,0000,0000,0000,,A bicycle parking lot employee remembered.
+Dialogue: 0,0:15:43.98,0:15:46.26,DCItalic,EMPLOYEE A,0000,0000,0000,,Let's see. On that day...
+Dialogue: 0,0:15:46.26,0:15:49.91,DCItalic,CONAN,0000,0000,0000,,Kinbara-san took June 10th off, right?
+Dialogue: 0,0:15:49.91,0:15:51.40,DCItalic,EMPLOYEE A,0000,0000,0000,,I remember now.
+Dialogue: 0,0:15:51.40,0:15:53.43,DCItalic,EMPLOYEE A,0000,0000,0000,,Kinbara-san said a memorial \Nservice for his wife's brother
+Dialogue: 0,0:15:53.58,0:15:57.83,DCItalic,EMPLOYEE A,0000,0000,0000,,was being held at a temple in Wakabadai.
+Dialogue: 0,0:15:57.83,0:16:03.56,DCItalic,KINBARA,0000,0000,0000,,He worried himself to death after an evil \Nman tricked him out of all of his savings.
+Dialogue: 0,0:16:04.17,0:16:07.94,DCMain,KOGORO,0000,0000,0000,,It was a total coincidence that \Nyour wife's family temple
+Dialogue: 0,0:16:07.94,0:16:12.43,DCMain,KOGORO,0000,0000,0000,,was located in Wakabadai \Nwhere Kisugi Akira lived.
+Dialogue: 0,0:16:14.60,0:16:16.45,DCMain,KOGORO,0000,0000,0000,,That's where you ran into him.
+Dialogue: 0,0:16:22.25,0:16:24.08,DCNameCards,SIGN,0000,0000,0000,,{\fad(440,1)\3c&H80393F&\pos(329,296)}Kisugi Akira (38)\NSerial Con Artist
+Dialogue: 0,0:16:24.66,0:16:26.28,DCItalic,KINBARA,0000,0000,0000,,I forgot something.
+Dialogue: 0,0:16:26.28,0:16:29.04,DCItalic,KINBARA,0000,0000,0000,,Wait for me at the temple tea house.
+Dialogue: 0,0:16:29.04,0:16:30.06,DCItalic,TAE,0000,0000,0000,,Okay.
+Dialogue: 0,0:16:33.66,0:16:38.97,DCMain,KOGORO,0000,0000,0000,,You demanded that he apologize, \Nand you were seen by...
+Dialogue: 0,0:16:40.07,0:16:40.97,DCItalic,ESAKA,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:41.65,0:16:42.68,DCItalic,KINBARA,0000,0000,0000,,Taro-kun?
+Dialogue: 0,0:17:00.44,0:17:02.55,DCMain,KOGORO,0000,0000,0000,,As long as the body wasn't discovered,
+Dialogue: 0,0:17:03.10,0:17:08.17,DCMain,KOGORO,0000,0000,0000,,you didn't need to worry that \NEsaka-kun saw you fighting.
+Dialogue: 0,0:17:09.38,0:17:14.58,DCMain,KOGORO,0000,0000,0000,,When Esaka-kun vanished suddenly \Nfrom Koneru six months later,
+Dialogue: 0,0:17:14.58,0:17:17.38,DCMain,KOGORO,0000,0000,0000,,I'm sure you were secretly relieved.
+Dialogue: 0,0:17:18.65,0:17:21.89,DCMain,KOGORO,0000,0000,0000,,But the body you buried was \Ndiscovered, and three days later,
+Dialogue: 0,0:17:22.49,0:17:27.47,DCMain,KOGORO,0000,0000,0000,,you saw Esaka-kun, who you thought had \Ndisappeared from the neighborhood.
+Dialogue: 0,0:17:29.32,0:17:35.29,DCMain,KOGORO,0000,0000,0000,,Believing he'd come to ask you \Nabout Kisugi Akira's death...
+Dialogue: 0,0:17:40.92,0:17:41.71,DCItalic,KOGORO,0000,0000,0000,,What happened?
+Dialogue: 0,0:17:42.25,0:17:47.23,DCItalic,ESAKA,0000,0000,0000,,While I was waiting for the light to \Nchange, someone suddenly pushed my back.
+Dialogue: 0,0:17:47.23,0:17:48.99,DCItalic,ESAKA,0000,0000,0000,,I was nearly hit by a car.
+Dialogue: 0,0:17:49.94,0:17:52.13,DCMain,KOGORO,0000,0000,0000,,You planned to silence him.
+Dialogue: 0,0:17:52.61,0:17:56.63,DCItalic,TAE,0000,0000,0000,,Your amnesia's been cured, and instead...
+Dialogue: 0,0:17:56.86,0:17:59.89,DCItalic,KINBARA,0000,0000,0000,,You lost your memories of the past year.
+Dialogue: 0,0:18:00.11,0:18:04.40,DCMain,KOGORO,0000,0000,0000,,And though you learned Esaka-kun had \Nlost his memories of the past year...
+Dialogue: 0,0:18:05.10,0:18:08.77,DCItalic,ESAKA,0000,0000,0000,,I felt like I remembered a scene \Nof particular interest to me.
+Dialogue: 0,0:18:09.44,0:18:13.65,DCItalic,ESAKA,0000,0000,0000,,I wonder what it was. Thunder... dogs...
+Dialogue: 0,0:18:14.09,0:18:16.28,DCMain,KOGORO,0000,0000,0000,,You realized he was dangerous.
+Dialogue: 0,0:18:17.30,0:18:21.66,DCMain,KOGORO,0000,0000,0000,,When you heard from Hida-san that \Nhe was asking weird questions,
+Dialogue: 0,0:18:22.17,0:18:25.73,DCMain,KOGORO,0000,0000,0000,,you believed Esaka-kun was remembering \Nwhat happened and panicked.
+Dialogue: 0,0:18:26.51,0:18:29.79,DCMain,HIDA,0000,0000,0000,,I did tell him about the phone call, but...
+Dialogue: 0,0:18:30.30,0:18:35.90,DCMain,KOGORO,0000,0000,0000,,That's when you came up with the idea of \Nframing him for Kisugi Akira's murder.
+Dialogue: 0,0:18:36.73,0:18:39.55,DCMain,KOGORO,0000,0000,0000,,Last night you visited Esaka-kun.
+Dialogue: 0,0:18:41.11,0:18:44.44,DCMain,KOGORO,0000,0000,0000,,You poisoned him and made \Nit look like a suicide,
+Dialogue: 0,0:18:45.53,0:18:47.23,DCMain,KOGORO,0000,0000,0000,,and used a spare key to lock his apartment.
+Dialogue: 0,0:18:51.17,0:18:55.15,DCMain,KOGORO,0000,0000,0000,,That key convinced me that you did it.
+Dialogue: 0,0:18:55.69,0:19:00.66,DCMain,KOGORO,0000,0000,0000,,I believed that if you had a \Nspare key, you must've made it.
+Dialogue: 0,0:19:05.49,0:19:08.23,DCItalic,KINBARA,0000,0000,0000,,I'm going to pop home for a minute.
+Dialogue: 0,0:19:08.23,0:19:11.54,DCItalic,KINBARA,0000,0000,0000,,{\fad(1,474)}I'm worried if she's remembered \Nto take her medicine.
+Dialogue: 0,0:19:11.54,0:19:16.84,DCMain,KOGORO,0000,0000,0000,,When I checked with the nearby hardware \Nstore, you had indeed made a spare key then.
+Dialogue: 0,0:19:12.75,0:19:16.84,DCMain,SIGN,0000,0000,0000,,{\fad(652,1)\an9\bord2\shad0\fnTimesNewRoman\c&HB7C7D2&\3c&H557782&}Minor Repairs & Spare Keys
+Dialogue: 0,0:19:20.81,0:19:26.74,DCMain,KOGORO,0000,0000,0000,,Apparently a single hair was \Nstuck to Kisugi Akira's body.
+Dialogue: 0,0:19:26.74,0:19:29.01,DCMain,KOGORO,0000,0000,0000,,It wasn't his.
+Dialogue: 0,0:19:29.01,0:19:33.73,DCMain,KOGORO,0000,0000,0000,,The culprit's hair must've gotten stuck to the \Nbody when they fought just prior to his murder.
+Dialogue: 0,0:19:36.29,0:19:38.99,DCMain,KOGORO,0000,0000,0000,,I'm sure a comparison would \Nmake it clear whose it is.
+Dialogue: 0,0:19:44.69,0:19:52.24,DCMain,KINBARA,0000,0000,0000,,Today, when you said it was possible that \NTaro-kun had been killed for his silence,
+Dialogue: 0,0:19:52.24,0:19:53.75,DCMain,KINBARA,0000,0000,0000,,I knew it was over.
+Dialogue: 0,0:19:55.68,0:19:58.63,DCMain,KINBARA,0000,0000,0000,,Everything you've said is correct, Mori-san.
+Dialogue: 0,0:19:59.03,0:20:02.25,DCItalic,KINBARA,0000,0000,0000,,{\fad(84,1)}Have you remembered that \Nscene that was bothering you?
+Dialogue: 0,0:20:02.25,0:20:06.26,DCItalic,ESAKA,0000,0000,0000,,A dog barked at me, and \Nthen lightning struck.
+Dialogue: 0,0:20:07.46,0:20:10.89,DCItalic,ESAKA,0000,0000,0000,,I feel like I saw this man then, too.
+Dialogue: 0,0:20:10.89,0:20:14.77,DCMain,SIGN TOP,0000,0000,0000,,{\an8\b1\fnArial\fs30\c&HA5A3A1&\3c&H050303&\shad1\pos(354,43)\frz340.8}Missing Man Found Dead
+Dialogue: 0,0:20:10.89,0:20:14.77,DCMain,SIGN RIGHT,0000,0000,0000,,{\an9\fnArial\b1\shad0\c&H050303&\3c&HA5A3A1&\bord3\fs18\frz338.7\pos(502,209)}Body Found in Wakabadai \NMountains Identified
+Dialogue: 0,0:20:10.89,0:20:14.77,DCMain,SIGN PHOTO,0000,0000,0000,,{\an1\fs12\shad0\c&H050303&\3c&HA5A3A1&\bord2.5\frz337.3\pos(126,149)}Kisugi Akira-san (38) Found Dead
+Dialogue: 0,0:20:12.97,0:20:14.90,DCItalic,KINBARA,0000,0000,0000,,Could I have some sugar?
+Dialogue: 0,0:20:14.90,0:20:16.40,DCItalic,ESAKA,0000,0000,0000,,Oh, sorry.
+Dialogue: 0,0:20:21.83,0:20:24.41,DCItalic,ESAKA,0000,0000,0000,,This man was fighting with someone.
+Dialogue: 0,0:20:24.41,0:20:26.66,DCItalic,ESAKA,0000,0000,0000,,Someone I know well.
+Dialogue: 0,0:20:30.66,0:20:32.66,DCItalic,KINBARA,0000,0000,0000,,So you do remember.
+Dialogue: 0,0:20:39.77,0:20:43.68,DCItalic,KINBARA,0000,0000,0000,,I doubt you'd be willing to let this slide, \Nbut there's something I want to tell you.
+Dialogue: 0,0:20:47.01,0:20:48.43,DCItalic,ESAKA,0000,0000,0000,,Tell me what?
+Dialogue: 0,0:20:51.15,0:20:52.18,DCItalic,ESAKA,0000,0000,0000,,By the way...
+Dialogue: 0,0:21:06.45,0:21:09.70,DCMain,KINBARA,0000,0000,0000,,I'm sorry for what I did to Taro-kun.
+Dialogue: 0,0:21:12.37,0:21:14.83,DCMain,HIDA,0000,0000,0000,,Then, why did you do it?
+Dialogue: 0,0:21:21.79,0:21:24.34,DCMain,KINBARA,0000,0000,0000,,I was afraid of being arrested.
+Dialogue: 0,0:21:27.29,0:21:30.43,DCMain,KINBARA,0000,0000,0000,,Not of being arrested and punished.
+Dialogue: 0,0:21:31.78,0:21:33.52,DCMain,KINBARA,0000,0000,0000,,I was afraid of...
+Dialogue: 0,0:21:34.05,0:21:38.98,DCMain,KOGORO,0000,0000,0000,,Leaving your frail wife alone.
+Dialogue: 0,0:23:14.50,0:23:19.33,DCMain,HIDA,0000,0000,0000,,I'll look after your wife until you're back.
+Dialogue: 0,0:23:33.49,0:23:34.19,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:35.34,0:23:38.55,DCMain,KOGORO,0000,0000,0000,,What's the last thing I remember?
+Dialogue: 0,0:23:41.73,0:23:43.19,DCItalic,CONAN,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:48.82,0:23:53.20,DCMain,MAN,0000,0000,0000,,Hello. I'm Kasuga-sensei's \Napprentice Komiyama Yoshio.
+Dialogue: 0,0:23:56.79,0:23:57.95,DCMain,CONAN,0000,0000,0000,,There they are.
+Dialogue: 0,0:24:00.40,0:24:04.13,DCMain,WOMAN,0000,0000,0000,,I was scouted to model for \Nthem around here, too.
+Dialogue: 0,0:24:04.73,0:24:06.79,DCMain,KOGORO,0000,0000,0000,,That better be true.
+Dialogue: 0,0:24:06.99,0:24:09.05,DCMain,CONAN,0000,0000,0000,,It definitely is.
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,SIGN,0000,0000,0000,,Mori Ran, the Model
+Dialogue: 0,0:24:09.71,0:24:13.62,DCMain,CONAN,0000,0000,0000,,The next episode of Conan \Nis "Mori Ran, the Model!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,SIGN,0000,0000,0000,,Signature
+Dialogue: 0,0:24:30.54,0:24:32.92,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.92,0:24:34.52,DCMain,CONAN,0000,0000,0000,,A signature!
+Dialogue: 0,0:24:34.99,0:24:36.17,DCMain,KOGORO,0000,0000,0000,,{\an8}Ran's doing modeling work?
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.17,0:24:36.49,DCMain,CONAN,0000,0000,0000,,{\an8}Yup.
+Dialogue: 0,0:24:36.49,0:24:38.56,DCMain,KOGORO,0000,0000,0000,,{\an8}Surely people find the model's \Nfather just as attractive.
+Dialogue: 0,0:24:38.56,0:24:39.71,DCMain,CONAN,0000,0000,0000,,{\an8}I don't think so.

@@ -1,0 +1,391 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Sumito,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H009E6F94,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0030,0044,0
+Style: Natsukawa,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0095554F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0060,0020,0064,0
+Style: Haruyama,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006E2B36,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0035,0063,0
+Style: Fuyuki,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00A0737D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0210,0020,0063,0
+Style: Miyako,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0093485C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0420,0063,0
+Style: The Next Day,Trebuchet MS,23,&H00FFF7FB,&H000000FF,&H00404B52,&H00000000,0,0,0,0,100,100,0,0,1,1,1,8,0246,0244,0263,0
+Style: Komoto,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0075354E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0246,0238,0047,0
+Style: Incoming Call,Arial,24,&H00FCFEF8,&H000000FF,&H00D1C3B9,&H00000000,-1,0,0,0,100,100,0,3.576,1,2,0,8,0224,0244,0081,0
+Style: sign_30246_309_Incoming_Call_Fr,Arial,20,&H00FCFEF8,&H000000FF,&H008B6147,&H00000000,-1,0,0,0,100,100,0,4.735,3,0,0,8,0237,0199,0171,0
+Style: Withheld,Arial,18,&H00FCFEF8,&H000000FF,&H00D1C3B9,&H00000000,-1,0,0,0,100,100,0,3.576,1,2,0,2,0070,0020,0050,0
+Style: Police,Times New Roman,22,&H0077F3FA,&H000000FF,&H00627C8C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Phone2,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H008B8780,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: The Shimodas,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00985D55,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0090,0045,0
+Style: Jinichi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AF7B74,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0130,0020,0064,0
+Style: Hotel,Trebuchet MS,22,&H00EDFAF8,&H000000FF,&H004B5559,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: NameList,Trebuchet MS,18,&H006D7170,&H000000FF,&H009FA4A3,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: The Shimodas - Copy,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00985D55,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0050,0020,0045,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 1008 \N"Out For Revenge (Part Two)"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,MEGURE,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:00.69,0:00:05.35,DCMain,CONAN,0000,0000,0000,,{\an8}A man named Haruyama Junpei-san was \Nbrutally murdered with a knife.
+Dialogue: 0,0:00:02.89,0:00:05.35,Haruyama,SIGN,0000,0000,0000,,{\fad(250,1)}Haruyama Junpei (37)\NCafé Manager
+Dialogue: 0,0:00:06.10,0:00:10.03,DCMain,CONAN,0000,0000,0000,,{\an8}A man named Natsukawa Yoji-san \Nwas killed using the same method.
+Dialogue: 0,0:00:08.23,0:00:10.03,Natsukawa,SIGN,0000,0000,0000,,{\fad(250,1)}Natsukawa Yoji (40)\NInvestment Consultant
+Dialogue: 0,0:00:10.96,0:00:14.16,DCMain,CONAN,0000,0000,0000,,Ten years ago, the two murder victims,
+Dialogue: 0,0:00:14.16,0:00:17.95,DCMain,CONAN,0000,0000,0000,,{\an8}along with Fuyuki Ryuzaburo-san \Nand Akiba Miyako-san,
+Dialogue: 0,0:00:14.95,0:00:17.95,Fuyuki,SIGN,0000,0000,0000,,{\fad(250,1)}Fuyuki Ryuzaburo (40)\NFinance Business Manager
+Dialogue: 0,0:00:14.95,0:00:17.95,Miyako,SIGN,0000,0000,0000,,{\fad(250,1)}Akiba Miyako (42)\NReal Estate Business Manager
+Dialogue: 0,0:00:17.95,0:00:21.95,DCMain,CONAN,0000,0000,0000,,cheated a man named Komoto Takashi \Nout of a large sum of money.
+Dialogue: 0,0:00:22.87,0:00:26.13,DCMain,CONAN,0000,0000,0000,,{\an8}Komoto Takashi learned that he \Ndidn't have long left to live
+Dialogue: 0,0:00:23.96,0:00:26.13,Komoto,SIGN,0000,0000,0000,,{\fad(250,1)}Komoto Takashi (40)
+Dialogue: 0,0:00:26.29,0:00:29.30,DCMain,CONAN,0000,0000,0000,,and has been seeking revenge \Nagainst the four of them.
+Dialogue: 0,0:00:30.09,0:00:35.68,DCMain,CONAN,0000,0000,0000,,However, Komoto accidentally fell off \Na cliff and was believed to have died.
+Dialogue: 0,0:00:37.55,0:00:42.96,DCMain,CONAN,0000,0000,0000,,But two days later, Akiba Miyako-san \Nwas killed using the same method.
+Dialogue: 0,0:00:44.56,0:00:47.12,DCMain,MEGURE,0000,0000,0000,,Stabbed repeatedly with a knife.
+Dialogue: 0,0:00:47.12,0:00:48.81,DCMain,MEGURE,0000,0000,0000,,Same method.
+Dialogue: 0,0:00:49.63,0:00:50.93,DCMain,MEGURE,0000,0000,0000,,T.K.?
+Dialogue: 0,0:00:53.09,0:00:54.73,DCMain,CHIBA,0000,0000,0000,,Komoto Takashi.
+Dialogue: 0,0:00:55.47,0:00:59.95,DCMain,MEGURE,0000,0000,0000,,Akiba-san was murdered \Nlast night around 11 PM.
+Dialogue: 0,0:00:59.95,0:01:06.08,DCMain,MEGURE,0000,0000,0000,,Komoto Takashi's fingerprints were found \Non the lighter left next to the body.
+Dialogue: 0,0:01:06.39,0:01:10.80,DCMain,KOGORO,0000,0000,0000,,So Komoto survived his fall from that cliff.
+Dialogue: 0,0:01:10.80,0:01:14.59,DCMain,MEGURE,0000,0000,0000,,And he has resumed his revenge murders.
+Dialogue: 0,0:01:14.98,0:01:16.13,DCMain,FUYUKI,0000,0000,0000,,Save me.
+Dialogue: 0,0:01:16.37,0:01:17.20,DCMain,FUYUKI,0000,0000,0000,,Please!
+Dialogue: 0,0:01:20.76,0:01:22.77,Incoming Call,SIGN,0000,0000,0000,,Incoming Call
+Dialogue: 0,0:01:20.76,0:01:22.77,sign_30246_309_Incoming_Call_Fr,SIGN,0000,0000,0000,,Incoming Call From\N Number-Withheld \N\NPublic Telephone
+Dialogue: 0,0:01:20.76,0:01:22.77,Withheld,SIGN,0000,0000,0000,,Number-Withheld Call Settings
+Dialogue: 0,0:01:24.97,0:01:26.11,DCMain,FUYUKI,0000,0000,0000,,Hello?
+Dialogue: 0,0:01:26.66,0:01:27.99,DCItalic,KOMOTO,0000,0000,0000,,It's Komoto.
+Dialogue: 0,0:01:28.50,0:01:30.02,DCMain,FUYUKI,0000,0000,0000,,K-Komoto?
+Dialogue: 0,0:01:32.06,0:01:35.03,DCItalic,KOMOTO,0000,0000,0000,,You're the last one left, Fuyuki.
+Dialogue: 0,0:01:35.26,0:01:38.83,DCItalic,KOMOTO,0000,0000,0000,,You'll pay for deceiving me ten years ago.
+Dialogue: 0,0:01:39.31,0:01:41.43,DCMain,FUYUKI,0000,0000,0000,,S-Spare me, Komoto!
+Dialogue: 0,0:01:41.43,0:01:43.98,DCMain,FUYUKI,0000,0000,0000,,I was wrong. I'll return your money.
+Dialogue: 0,0:01:43.98,0:01:46.67,DCMain,FUYUKI,0000,0000,0000,,I'll return ten times what we took, okay?
+Dialogue: 0,0:01:46.67,0:01:48.70,DCItalic,KOMOTO,0000,0000,0000,,Money, money, money.
+Dialogue: 0,0:01:49.04,0:01:51.18,DCItalic,KOMOTO,0000,0000,0000,,You think you can erase your sins with money.
+Dialogue: 0,0:01:51.68,0:01:55.24,DCItalic,KOMOTO,0000,0000,0000,,No wonder you think you can buy \Nyour own life with money, too.
+Dialogue: 0,0:01:55.65,0:01:58.20,DCItalic,KOMOTO,0000,0000,0000,,You're the same scumbag you ever were.
+Dialogue: 0,0:01:59.42,0:02:01.06,DCMain,FUYUKI,0000,0000,0000,,K-Komoto?
+Dialogue: 0,0:02:01.55,0:02:03.69,DCMain,FUYUKI,0000,0000,0000,,Komoto, hello? Komoto!
+Dialogue: 0,0:02:03.69,0:02:05.77,DCMain,FUYUKI,0000,0000,0000,,Spare me, Komoto!
+Dialogue: 0,0:02:06.12,0:02:07.35,DCMain,MEGURE,0000,0000,0000,,Find him.
+Dialogue: 0,0:02:07.35,0:02:09.77,DCMain,MEGURE,0000,0000,0000,,Do whatever it takes to find Komoto.
+Dialogue: 0,0:02:10.07,0:02:10.77,DCMain,BOTH,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:02:12.47,0:02:16.15,DCMain,KOGORO,0000,0000,0000,,So his revenge wasn't over yet.
+Dialogue: 0,0:02:16.45,0:02:21.48,DCMain,CONAN,0000,0000,0000,,Yeah, but why did he bother \Nto call him this time?
+Dialogue: 0,0:02:23.30,0:02:26.16,DCMain,KOGORO,0000,0000,0000,,Because he's the one he hated the most.
+Dialogue: 0,0:02:26.42,0:02:30.41,DCMain,KOGORO,0000,0000,0000,,He's the one who suggested they swindle him.
+Dialogue: 0,0:02:31.26,0:02:33.61,DCItalic,CONAN,0000,0000,0000,,That's true, but...
+Dialogue: 0,0:02:34.89,0:02:36.64,DCItalic,CONAN,0000,0000,0000,,Something's not right.
+Dialogue: 0,0:02:53.98,0:02:55.44,DCMain,EMPLOYEE,0000,0000,0000,,What is that?
+Dialogue: 0,0:02:58.20,0:03:01.45,DCMain,KOGORO,0000,0000,0000,,What? You found Komoto's body?
+Dialogue: 0,0:03:02.00,0:03:04.95,DCMain,KOGORO,0000,0000,0000,,Yes. The fingerprints are \Ndefinitely a match, you say?
+Dialogue: 0,0:03:05.56,0:03:08.39,DCMain,KOGORO,0000,0000,0000,,Understood. I'll head there immediately.
+Dialogue: 0,0:03:09.44,0:03:11.16,DCMain,CONAN,0000,0000,0000,,A journey of a thousand miles \Nstarts with the first step!
+Dialogue: 0,0:03:11.16,0:03:13.47,DCMain,CONAN,0000,0000,0000,,Solve 1,000 mysteries and enter a new world!
+Dialogue: 0,0:03:13.47,0:03:15.37,DCMain,CONAN,0000,0000,0000,,The suspect is missing, \Nand the mystery deepens!
+Dialogue: 0,0:03:15.37,0:03:17.26,DCMain,CONAN,0000,0000,0000,,This revenge story takes a surprising turn!
+Dialogue: 0,0:03:17.26,0:03:18.87,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:03:18.87,0:03:20.70,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:03:20.70,0:03:23.26,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:05:04.95,0:05:10.95,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(396,1)}Out For Revenge \N(Part Two)
+Dialogue: 0,0:05:05.76,0:05:07.99,DCMain,CONAN,0000,0000,0000,,"Out For Revenge, Part Two!"
+Dialogue: 0,0:05:10.95,0:05:13.45,Police,SIGN,0000,0000,0000,,MPD Beika Police Station
+Dialogue: 0,0:05:11.43,0:05:13.45,DCMain,TAKAGI,0000,0000,0000,,The autopsy determined \Nthat the cause of death
+Dialogue: 0,0:05:13.45,0:05:16.96,DCMain,TAKAGI,0000,0000,0000,,was a cerebral contusion \Ncaused by a blow to the head.
+Dialogue: 0,0:05:17.17,0:05:21.20,DCMain,TAKAGI,0000,0000,0000,,Additionally, bruises and broken \Nbones were found all over the body.
+Dialogue: 0,0:05:21.20,0:05:24.50,DCMain,TAKAGI,0000,0000,0000,,We believe he fell to his death \Nfrom a rather high height.
+Dialogue: 0,0:05:26.17,0:05:29.89,DCMain,TAKAGI,0000,0000,0000,,The estimated time of death is the \Nafternoon of the day before yesterday.
+Dialogue: 0,0:05:32.04,0:05:34.20,DCMain,KOGORO,0000,0000,0000,,The afternoon of the day before yesterday?
+Dialogue: 0,0:05:35.14,0:05:36.39,DCMain,KOGORO,0000,0000,0000,,Could it be?
+Dialogue: 0,0:05:36.54,0:05:41.91,DCMain,TAKAGI,0000,0000,0000,,Yes. That's the time Komoto \Nfell at Shikigawa Valley.
+Dialogue: 0,0:05:41.91,0:05:44.82,DCMain,KOGORO,0000,0000,0000,,So he really did die then.
+Dialogue: 0,0:05:45.18,0:05:46.70,DCMain,FUYUKI,0000,0000,0000,,I-In that case...
+Dialogue: 0,0:05:46.95,0:05:50.86,DCMain,CHIBA,0000,0000,0000,,What was the body doing at a development \Nsite in a completely different area?
+Dialogue: 0,0:05:50.86,0:05:55.70,DCMain,MEGURE,0000,0000,0000,,And who killed Akiba Miyako-san last night?
+Dialogue: 0,0:05:58.03,0:06:00.95,DCItalic,CONAN,0000,0000,0000,,If he died when he fell, then...
+Dialogue: 0,0:06:03.17,0:06:06.59,DCMain,KOGORO,0000,0000,0000,,There's only one conceivable explanation.
+Dialogue: 0,0:06:07.02,0:06:09.51,DCMain,MEGURE,0000,0000,0000,,And what's that, Mori-kun?
+Dialogue: 0,0:06:10.03,0:06:16.01,DCMain,KOGORO,0000,0000,0000,,Komoto Takashi's revenge against \Nthe four of them was interrupted.
+Dialogue: 0,0:06:16.45,0:06:19.52,DCMain,KOGORO,0000,0000,0000,,A "Mr. X" is carrying on Komoto's will
+Dialogue: 0,0:06:20.18,0:06:22.77,DCMain,KOGORO,0000,0000,0000,,and carrying out his revenge for him.
+Dialogue: 0,0:06:23.72,0:06:25.28,DCMain,MEGURE,0000,0000,0000,,Carrying out his revenge?
+Dialogue: 0,0:06:26.79,0:06:27.78,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:06:27.99,0:06:32.68,DCMain,KOGORO,0000,0000,0000,,And in order to complete \Nit as Komoto's revenge,
+Dialogue: 0,0:06:32.68,0:06:36.08,DCMain,KOGORO,0000,0000,0000,,they used the same method \Nto kill Akiba Miyako-san,
+Dialogue: 0,0:06:36.60,0:06:38.99,DCMain,KOGORO,0000,0000,0000,,left Komoto's possession at the crime scene,
+Dialogue: 0,0:06:38.99,0:06:42.30,DCMain,KOGORO,0000,0000,0000,,and pretended to be Komoto \Nwhen they called Fuyuki.
+Dialogue: 0,0:06:42.71,0:06:43.84,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:06:43.84,0:06:45.55,DCMain,MEGURE,0000,0000,0000,,It's certainly possible.
+Dialogue: 0,0:06:47.65,0:06:52.15,DCMain,KOGORO,0000,0000,0000,,Komoto's accomplice Mr. X \Nprobably accompanied him
+Dialogue: 0,0:06:52.15,0:06:54.27,DCMain,KOGORO,0000,0000,0000,,to the valley where he fell.
+Dialogue: 0,0:06:54.93,0:07:01.31,DCMain,KOGORO,0000,0000,0000,,They quickly retrieved Komoto's \Nbody after he fell to his death,
+Dialogue: 0,0:07:01.67,0:07:04.82,DCMain,KOGORO,0000,0000,0000,,and hid it at the development \Nsite so it wouldn't be discovered
+Dialogue: 0,0:07:05.58,0:07:10.32,DCMain,KOGORO,0000,0000,0000,,so that we'd believe Komoto was alive \Nand continuing to carry out his revenge.
+Dialogue: 0,0:07:10.90,0:07:15.17,DCMain,CHIBA,0000,0000,0000,,That would explain why the body was buried.
+Dialogue: 0,0:07:15.17,0:07:18.46,DCMain,TAKAGI,0000,0000,0000,,And why Komoto's belongings \Nwere at the crime scene.
+Dialogue: 0,0:07:19.94,0:07:23.71,DCMain,KOGORO,0000,0000,0000,,So, who is his collaborator Mr. X?
+Dialogue: 0,0:07:24.52,0:07:27.64,DCMain,KOGORO,0000,0000,0000,,Based on the fact that they're \Ncarrying out his revenge
+Dialogue: 0,0:07:27.64,0:07:30.46,DCMain,KOGORO,0000,0000,0000,,and have committed the \Nheinous crime of murder,
+Dialogue: 0,0:07:30.46,0:07:35.14,DCMain,KOGORO,0000,0000,0000,,it must be someone who feels deeply \Nindebted to Komoto Takashi.
+Dialogue: 0,0:07:35.14,0:07:37.35,DCMain,CHIBA,0000,0000,0000,,So they're returning a favor.
+Dialogue: 0,0:07:37.70,0:07:42.85,DCMain,MEGURE,0000,0000,0000,,All right. Investigate Komoto's \Nacquaintances based on Mori-kun's reasoning.
+Dialogue: 0,0:07:43.01,0:07:43.80,DCMain,TAKAGI,0000,0000,0000,,Yes, sir!
+Dialogue: 0,0:07:43.80,0:07:45.15,DCMain,MEGURE,0000,0000,0000,,Also, Chiba.
+Dialogue: 0,0:07:45.35,0:07:48.59,DCMain,MEGURE,0000,0000,0000,,Guard Fuyuki closely.
+Dialogue: 0,0:07:48.59,0:07:49.78,DCMain,CHIBA,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:07:56.41,0:08:03.44,DCMain,CONAN,0000,0000,0000,,But even if Mr. X was indebted to \NKomoto, would he commit murder for him?
+Dialogue: 0,0:08:03.44,0:08:07.04,DCMain,KOGORO,0000,0000,0000,,Mr. X must be incredibly conscientious.
+Dialogue: 0,0:08:15.55,0:08:18.06,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:08:15.93,0:08:17.81,DCMain,KOGORO,0000,0000,0000,,I-Inspector?
+Dialogue: 0,0:08:18.18,0:08:21.71,DCMain,KOGORO,0000,0000,0000,,Have you already identified Mr. X?
+Dialogue: 0,0:08:21.71,0:08:24.23,DCMain,MEGURE,0000,0000,0000,,No, not yet.
+Dialogue: 0,0:08:25.78,0:08:30.15,DCMain,MEGURE,0000,0000,0000,,It turns out that Mr. X called Fuyuki again.
+Dialogue: 0,0:08:33.09,0:08:34.36,DCItalic,PHONE,0000,0000,0000,,Is that you, Fuyuki?
+Dialogue: 0,0:08:34.78,0:08:38.04,DCItalic,PHONE,0000,0000,0000,,I'm sure you already know \Nthat I'm not Komoto.
+Dialogue: 0,0:08:38.62,0:08:43.62,Phone2,SIGN,0000,0000,0000,,In Call \NIncoming Call From\N Number-Withheld \N\NPublic Telephone \NNumber-Withheld Call Settings
+Dialogue: 0,0:08:39.25,0:08:43.62,DCItalic,PHONE,0000,0000,0000,,I got revenge on a woman named \NAkiba Miyako for Komoto.
+Dialogue: 0,0:08:44.10,0:08:48.46,DCItalic,PHONE,0000,0000,0000,,But taking a person's life has left \Na terrible aftertaste in my mouth.
+Dialogue: 0,0:08:48.46,0:08:50.13,DCItalic,FUYUKI,0000,0000,0000,,Y-You mean...
+Dialogue: 0,0:08:50.42,0:08:52.16,DCItalic,PHONE,0000,0000,0000,,Anyway, I have a suggestion.
+Dialogue: 0,0:08:52.16,0:08:56.39,DCItalic,PHONE,0000,0000,0000,,When I called this morning, you said \Nyou'd pay as much as I wanted, right?
+Dialogue: 0,0:08:57.44,0:08:59.58,DCItalic,FUYUKI,0000,0000,0000,,Yeah, I did. I'll pay any amount.
+Dialogue: 0,0:08:59.58,0:09:00.68,DCItalic,FUYUKI,0000,0000,0000,,How much do you want?
+Dialogue: 0,0:09:02.00,0:09:04.18,DCItalic,PHONE,0000,0000,0000,,You really are a scumbag.
+Dialogue: 0,0:09:04.18,0:09:05.38,DCItalic,FUYUKI,0000,0000,0000,,What?
+Dialogue: 0,0:09:05.38,0:09:09.66,DCItalic,PHONE,0000,0000,0000,,Nevermind. I'll contact you later \Nregarding the amount and handoff method.
+Dialogue: 0,0:09:14.81,0:09:16.57,DCMain,TAKAGI,0000,0000,0000,,It's odd, isn't it?
+Dialogue: 0,0:09:16.57,0:09:19.79,DCMain,TAKAGI,0000,0000,0000,,Mr. X is supposed to be carrying \Non Komoto's will to repay a favor,
+Dialogue: 0,0:09:19.79,0:09:21.66,DCMain,TAKAGI,0000,0000,0000,,but he's demanding cash now.
+Dialogue: 0,0:09:21.86,0:09:25.16,DCMain,MEGURE,0000,0000,0000,,Maybe that was his real motive.
+Dialogue: 0,0:09:26.39,0:09:28.08,DCMain,KOGORO,0000,0000,0000,,No, Inspector.
+Dialogue: 0,0:09:28.28,0:09:29.59,DCMain,KOGORO,0000,0000,0000,,This is a trap.
+Dialogue: 0,0:09:30.54,0:09:31.59,DCMain,MEGURE,0000,0000,0000,,A trap?
+Dialogue: 0,0:09:31.59,0:09:32.73,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:09:32.73,0:09:36.24,DCMain,KOGORO,0000,0000,0000,,He intends to make Fuyuki let \Nhis guard down by convincing him
+Dialogue: 0,0:09:36.24,0:09:38.22,DCMain,KOGORO,0000,0000,0000,,that he'll be spared in exchange \Nfor money, and then kill him.
+Dialogue: 0,0:09:38.59,0:09:39.97,DCMain,TAKAGI,0000,0000,0000,,So that's how it is.
+Dialogue: 0,0:09:40.44,0:09:42.97,DCMain,KOGORO,0000,0000,0000,,This is an opportunity \Nto arrest him, Inspector.
+Dialogue: 0,0:09:43.32,0:09:48.23,DCMain,KOGORO,0000,0000,0000,,We'll allow him to believe that we've fallen \Nfor his trap and catch him with his pants down.
+Dialogue: 0,0:09:49.35,0:09:53.41,DCItalic,CONAN,0000,0000,0000,,The old man's deduction \Nisn't impossible, but...
+Dialogue: 0,0:09:54.15,0:09:57.61,The Next Day,SIGN,0000,0000,0000,,{\fad(415,420)}The Next Day
+Dialogue: 0,0:10:12.72,0:10:17.10,DCMain,KOGORO,0000,0000,0000,,He won't be able to escape with \Nthis much security in the area.
+Dialogue: 0,0:10:23.50,0:10:25.32,DCMain,FUYUKI,0000,0000,0000,,Hey, officer.
+Dialogue: 0,0:10:26.57,0:10:29.27,DCMain,FUYUKI,0000,0000,0000,,He said he'd let me go if I paid him.
+Dialogue: 0,0:10:29.45,0:10:32.40,DCMain,CHIBA,0000,0000,0000,,I'm telling you, that could be a trap.
+Dialogue: 0,0:10:36.26,0:10:37.32,DCMain,CONAN,0000,0000,0000,,Hey, mister.
+Dialogue: 0,0:10:38.51,0:10:43.49,DCMain,CONAN,0000,0000,0000,,Just waiting for him to attack doesn't \Nfeel very detective-like, does it?
+Dialogue: 0,0:10:44.86,0:10:46.50,DCMain,KOGORO,0000,0000,0000,,Now that you mention it,
+Dialogue: 0,0:10:47.03,0:10:49.92,DCMain,KOGORO,0000,0000,0000,,it doesn't give me an opportunity \Nto show off my detective skills.
+Dialogue: 0,0:10:50.48,0:10:53.29,DCMain,KOGORO,0000,0000,0000,,All right. I'll go find him.
+Dialogue: 0,0:10:53.29,0:10:54.50,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:00.42,0:11:01.20,DCMain,TAKAGI,0000,0000,0000,,Inspector.
+Dialogue: 0,0:11:01.75,0:11:03.16,DCMain,TAKAGI,0000,0000,0000,,A man is approaching.
+Dialogue: 0,0:11:03.76,0:11:05.55,DCMain,TAKAGI,0000,0000,0000,,He's got something wrapped \Naround his stomach.
+Dialogue: 0,0:11:07.04,0:11:09.00,DCMain,FUYUKI,0000,0000,0000,,He's got a bomb wrapped around his stomach?
+Dialogue: 0,0:11:13.44,0:11:15.02,DCMain,CHIBA,0000,0000,0000,,That's Mr. X?
+Dialogue: 0,0:11:18.99,0:11:21.27,DCMain,MAN,0000,0000,0000,,Ow! What are you doing?
+Dialogue: 0,0:11:21.27,0:11:22.24,DCMain,TAKAGI,0000,0000,0000,,I've removed it!
+Dialogue: 0,0:11:22.42,0:11:24.74,DCMain,MAN,0000,0000,0000,,That's a back brace!
+Dialogue: 0,0:11:25.88,0:11:28.75,DCMain,MAN,0000,0000,0000,,Give it back, please!
+Dialogue: 0,0:11:30.95,0:11:32.01,DCMain,KOGORO,0000,0000,0000,,Let's go, kid.
+Dialogue: 0,0:11:32.01,0:11:32.75,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:11:33.25,0:11:37.73,DCMain,KOGORO,0000,0000,0000,,We'll find them if we look into \Neveryone who feels indebted to Komoto.
+Dialogue: 0,0:11:37.73,0:11:40.76,DCMain,CONAN,0000,0000,0000,,But is that really the right \Ndirection to investigate?
+Dialogue: 0,0:11:41.87,0:11:47.39,DCMain,KOGORO,0000,0000,0000,,Mr. X could only have heard about Komoto's \Nrevenge plot from Komoto himself.
+Dialogue: 0,0:11:47.54,0:11:49.32,DCMain,CONAN,0000,0000,0000,,Yeah, but...
+Dialogue: 0,0:11:49.32,0:11:53.66,DCMain,KOGORO,0000,0000,0000,,You'd only tell someone who \Nfelt deeply indebted to you
+Dialogue: 0,0:11:53.66,0:11:55.40,DCMain,KOGORO,0000,0000,0000,,about your plans to kill someone.
+Dialogue: 0,0:11:56.26,0:11:58.13,DCMain,KOGORO,0000,0000,0000,,He wouldn't bother retrieving a dead body
+Dialogue: 0,0:11:58.13,0:12:02.64,DCMain,KOGORO,0000,0000,0000,,or burying one in the mountains \Nunless he felt indebted to him.
+Dialogue: 0,0:12:06.30,0:12:08.03,DCItalic,CONAN,0000,0000,0000,,Retrieve a dead body?
+Dialogue: 0,0:12:08.45,0:12:09.20,DCItalic,CONAN,0000,0000,0000,,Wait a minute.
+Dialogue: 0,0:12:09.20,0:12:11.41,DCItalic,CONAN,0000,0000,0000,,What if he had still been alive then?
+Dialogue: 0,0:12:12.04,0:12:13.34,DCItalic,CONAN,0000,0000,0000,,That would mean...
+Dialogue: 0,0:12:16.06,0:12:22.42,DCMain,CONAN,0000,0000,0000,,Didn't you say then that someone else \Nwas there watching when he fell,
+Dialogue: 0,0:12:22.42,0:12:25.30,DCMain,CONAN,0000,0000,0000,,but that person disappeared at some point?
+Dialogue: 0,0:12:25.47,0:12:27.80,The Shimodas - Copy,SIGN,0000,0000,0000,,{\fad(483,1_}The Uedas
+Dialogue: 0,0:12:25.68,0:12:26.91,DCMain,UEDA HUSBAND,0000,0000,0000,,{\a6}Yeah.
+Dialogue: 0,0:12:26.91,0:12:30.06,DCMain,UEDA HUSBAND,0000,0000,0000,,{\a6}When I looked below the cliff,
+Dialogue: 0,0:12:30.29,0:12:32.56,DCMain,UEDA HUSBAND,0000,0000,0000,,there was someone fishing in the river.
+Dialogue: 0,0:12:33.09,0:12:36.62,DCMain,UEDA HUSBAND,0000,0000,0000,,I thought he must've seen it, too.
+Dialogue: 0,0:12:36.62,0:12:40.57,DCMain,UEDA WIFE,0000,0000,0000,,But by the time we got down \Nthe river, he was gone.
+Dialogue: 0,0:12:40.79,0:12:43.20,DCMain,CONAN,0000,0000,0000,,Do you know who he was?
+Dialogue: 0,0:12:43.67,0:12:45.12,DCMain,UEDA HUSBAND,0000,0000,0000,,No idea.
+Dialogue: 0,0:12:45.80,0:12:49.08,DCMain,UEDA WIFE,0000,0000,0000,,It was our first time going there.
+Dialogue: 0,0:12:50.45,0:12:52.76,DCMain,SHIMODA HUSBAND,0000,0000,0000,,He works at the hospital.
+Dialogue: 0,0:12:52.76,0:12:53.58,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:12:53.91,0:12:57.32,DCMain,SHIMODA HUSBAND,0000,0000,0000,,{\an8}He works at Shikigawa General Hospital.
+Dialogue: 0,0:12:54.54,0:12:57.96,The Shimodas,SIGN,0000,0000,0000,,{\fad(250,392)}The Shimodas
+Dialogue: 0,0:12:57.32,0:13:00.59,DCMain,SHIMODA WIFE,0000,0000,0000,,{\a6}He took care of me when \NI was in the hospital.
+Dialogue: 0,0:13:00.90,0:13:03.59,DCMain,SHIMODA WIFE,0000,0000,0000,,He's a very nice man named Otosaka-san.
+Dialogue: 0,0:13:03.90,0:13:05.42,DCMain,CONAN,0000,0000,0000,,Otosaka-san?
+Dialogue: 0,0:13:09.89,0:13:12.79,DCMain,OTOSAKA,0000,0000,0000,,Give me some more time.
+Dialogue: 0,0:13:13.27,0:13:16.10,DCMain,OTOSAKA,0000,0000,0000,,I've got something in mind. \NI promise I'll return it.
+Dialogue: 0,0:13:16.69,0:13:20.11,Jinichi,SIGN,0000,0000,0000,,{\fad(250,460)}Otosaka Jinichi (25) \NHospital Employee
+Dialogue: 0,0:13:19.20,0:13:20.62,DCMain,AKO,0000,0000,0000,,{\an8}Otosaka-san.
+Dialogue: 0,0:13:21.74,0:13:22.57,DCMain,OTOSAKA,0000,0000,0000,,Yes?
+Dialogue: 0,0:13:22.57,0:13:25.45,DCMain,AKO,0000,0000,0000,,There's a child here to see you.
+Dialogue: 0,0:13:26.05,0:13:27.74,DCMain,OTOSAKA,0000,0000,0000,,What? A child?
+Dialogue: 0,0:13:32.99,0:13:36.96,DCMain,OTOSAKA,0000,0000,0000,,I'm Otosaka. Are you the \None who wanted to see me?
+Dialogue: 0,0:13:37.25,0:13:41.96,DCMain,CONAN,0000,0000,0000,,The great Detective Mori \NKogoro asked me to come here.
+Dialogue: 0,0:13:43.41,0:13:45.06,DCMain,OTOSAKA,0000,0000,0000,,Mori Kogoro-san?
+Dialogue: 0,0:13:45.95,0:13:46.75,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:52.51,0:13:55.35,Hotel,SIGN,0000,0000,0000,,{\fad(210,1)}Shikigawa General Hospital
+Dialogue: 0,0:13:53.46,0:13:57.62,DCMain,OTOSAKA,0000,0000,0000,,Yeah, I was working that afternoon.
+Dialogue: 0,0:13:57.62,0:14:00.61,DCMain,OTOSAKA,0000,0000,0000,,I went fishing there in the morning.
+Dialogue: 0,0:14:01.31,0:14:04.36,DCMain,OTOSAKA,0000,0000,0000,,But I didn't see anyone fall.
+Dialogue: 0,0:14:04.95,0:14:08.15,DCMain,OTOSAKA,0000,0000,0000,,It must've happened after I left.
+Dialogue: 0,0:14:08.29,0:14:11.94,DCMain,CONAN,0000,0000,0000,,I see. I thought you might've seen something.
+Dialogue: 0,0:14:11.94,0:14:14.13,DCMain,CONAN,0000,0000,0000,,I'll let Kogoro-no-ojisan know.
+Dialogue: 0,0:14:18.60,0:14:22.13,DCMain,CONAN,0000,0000,0000,,Really? Sounds like Otosaka-san \Nis having a hard time.
+Dialogue: 0,0:14:22.45,0:14:24.02,DCMain,AKO,0000,0000,0000,,Don't tell anyone, though.
+Dialogue: 0,0:14:24.02,0:14:24.71,DCMain,CONAN,0000,0000,0000,,I won't.
+Dialogue: 0,0:14:24.87,0:14:28.17,DCMain,CONAN,0000,0000,0000,,By the way, it sounds like \Nhe goes fishing often.
+Dialogue: 0,0:14:28.17,0:14:29.34,DCMain,CONAN,0000,0000,0000,,He goes by car, right?
+Dialogue: 0,0:14:29.51,0:14:34.64,DCMain,AKO,0000,0000,0000,,Yeah, probably. He always parks his \Ncar at the very end over there.
+Dialogue: 0,0:14:37.89,0:14:42.78,DCItalic,CONAN,0000,0000,0000,,If he drives this car to \Nwork, then on the way here...
+Dialogue: 0,0:14:43.32,0:14:46.74,The Next Day,SIGN,0000,0000,0000,,{\fad(415,420)}Shikigawa Valley
+Dialogue: 0,0:14:51.73,0:14:54.20,DCMain,SIGN,0000,0000,0000,,Otosaka-san, over here.
+Dialogue: 0,0:14:55.37,0:14:58.00,DCMain,TAKAGI,0000,0000,0000,,Huh? Didn't I run into you at the hospital?
+Dialogue: 0,0:14:58.00,0:15:00.09,DCMain,OTOSAKA,0000,0000,0000,,Ah, you're that police officer.
+Dialogue: 0,0:15:00.09,0:15:02.01,DCMain,TAKAGI,0000,0000,0000,,What are you doing here?
+Dialogue: 0,0:15:02.01,0:15:04.25,DCMain,OTOSAKAI,0000,0000,0000,,Actually, I'm not sure.
+Dialogue: 0,0:15:04.48,0:15:08.26,DCMain,CONAN,0000,0000,0000,,Kogoro-no-ojisan asked me to \Nbring Otosaka-san here, too.
+Dialogue: 0,0:15:14.66,0:15:15.51,DCMain,KOGORO,0000,0000,0000,,Inspector.
+Dialogue: 0,0:15:15.77,0:15:19.62,DCMain,MEGURE,0000,0000,0000,,Why did you ask us to come here, Mori-kun?
+Dialogue: 0,0:15:19.62,0:15:22.00,DCMain,KOGORO,0000,0000,0000,,What? I didn't—
+Dialogue: 0,0:15:23.37,0:15:27.53,DCMain,KOGORO,0000,0000,0000,,X^2 plus Y^2 squared equals... equals...
+Dialogue: 0,0:15:28.36,0:15:33.53,DCMain,KOGORO,0000,0000,0000,,Otosaka Jinichi-kun, when you \Nwere fishing here three days ago,
+Dialogue: 0,0:15:34.08,0:15:38.27,DCMain,KOGORO,0000,0000,0000,,a man named Komoto Takashi suddenly \Nfell right before your eyes.
+Dialogue: 0,0:15:42.80,0:15:45.92,DCMain,OTOSAKA,0000,0000,0000,,I told you, it was after I left that he fell.
+Dialogue: 0,0:15:46.25,0:15:51.75,DCMain,KOGORO,0000,0000,0000,,No. Komoto screamed and fell \Nright before your eyes.
+Dialogue: 0,0:15:52.46,0:15:57.50,DCMain,KOGORO,0000,0000,0000,,He was badly injured but still alive, \Nso you fished him out of the river.
+Dialogue: 0,0:15:58.10,0:16:02.85,DCMain,KOGORO,0000,0000,0000,,Believing it would be faster to drive him to \Nthe hospital rather than call an ambulance,
+Dialogue: 0,0:16:02.85,0:16:06.90,DCMain,KOGORO,0000,0000,0000,,you rushed towards the hospital at the \Nfoot of the mountain where you work.
+Dialogue: 0,0:16:10.06,0:16:14.07,DCMain,KOGORO,0000,0000,0000,,On the way there, Komoto \Nlikely made a request.
+Dialogue: 0,0:16:16.14,0:16:17.81,DCItalic,KOMOTO,0000,0000,0000,,Don't take me to the hospital.
+Dialogue: 0,0:16:17.81,0:16:19.16,DCItalic,OTOSAKA,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:16:19.93,0:16:22.54,DCItalic,KOMOTO,0000,0000,0000,,I don't have long to live anyway.
+Dialogue: 0,0:16:24.02,0:16:28.17,DCItalic,KOMOTO,0000,0000,0000,,More importantly, I want \Nyou to hear my story.
+Dialogue: 0,0:16:28.54,0:16:29.62,DCItalic,KOMOTO,0000,0000,0000,,Please.
+Dialogue: 0,0:16:31.17,0:16:36.93,NameList,SIGN,0000,0000,0000,,Haruyama Junpei \NNatsukawa Yoji \NAkiba Miyako \NFuyuki Ryuzaburo
+Dialogue: 0,0:16:31.58,0:16:36.76,DCMain,KOGORO,0000,0000,0000,,Komoto described the revenge killings he \Nhad committed against the four so far.
+Dialogue: 0,0:16:37.58,0:16:41.93,DCMain,KOGORO,0000,0000,0000,,Then he lamented the fact that \Nhe'd been unable to complete it.
+Dialogue: 0,0:16:42.30,0:16:45.44,DCMain,KOMOTO,0000,0000,0000,,Damn it. I was so close.
+Dialogue: 0,0:16:45.81,0:16:47.62,DCItalic,OTOSAKA,0000,0000,0000,,K-Komoto-san?
+Dialogue: 0,0:16:51.08,0:16:52.29,DCMain,TAKAGI,0000,0000,0000,,You mean...
+Dialogue: 0,0:16:52.29,0:16:56.95,DCMain,MEGURE,0000,0000,0000,,Otosaka-kun is the Mr. X \Ncarrying out Komoto's revenge?
+Dialogue: 0,0:16:57.23,0:16:58.45,DCMain,FUYUKI,0000,0000,0000,,It's you?
+Dialogue: 0,0:17:00.92,0:17:01.99,DCMain,KOGORO,0000,0000,0000,,That's right.
+Dialogue: 0,0:17:01.99,0:17:06.47,DCMain,KOGORO,0000,0000,0000,,Normally you wouldn't tell anyone \Nabout your plan to kill someone,
+Dialogue: 0,0:17:06.47,0:17:08.32,DCMain,KOGORO,0000,0000,0000,,but it's different if you're dying.
+Dialogue: 0,0:17:08.96,0:17:13.59,DCMain,KOGORO,0000,0000,0000,,It's human nature to want to tell \Nsomeone about your unfulfilled desires.
+Dialogue: 0,0:17:16.12,0:17:20.10,DCMain,KOGORO,0000,0000,0000,,Having learned about Komoto \NTakashi's revenge plot,
+Dialogue: 0,0:17:20.64,0:17:23.60,DCMain,KOGORO,0000,0000,0000,,Otosaka-kun came up with a way \Nto use that to his advantage.
+Dialogue: 0,0:17:24.08,0:17:27.10,DCMain,KOGORO,0000,0000,0000,,He decided to blackmail Fuyuki.
+Dialogue: 0,0:17:27.40,0:17:28.17,DCMain,FUYUKI,0000,0000,0000,,What?
+Dialogue: 0,0:17:30.13,0:17:35.47,DCMain,KOGORO,0000,0000,0000,,He never had any intention of \Ncarrying on Komoto Takashi's will.
+Dialogue: 0,0:17:38.93,0:17:43.63,DCMain,KOGORO,0000,0000,0000,,He killed Akiba Miyako-san to ensure \Nthat he'd get money from Fuyuki.
+Dialogue: 0,0:17:44.14,0:17:46.64,DCMain,KOGORO,0000,0000,0000,,Once three of them were dead,
+Dialogue: 0,0:17:46.64,0:17:52.25,DCMain,KOGORO,0000,0000,0000,,the terrified Fuyuki wouldn't hesitate \Nto pay to save his own life.
+Dialogue: 0,0:17:52.73,0:17:58.76,DCMain,MEGURE,0000,0000,0000,,So he killed Akiba Miyako-san \Njust to stoke Fuyuki's fear.
+Dialogue: 0,0:18:00.62,0:18:05.02,DCMain,KOGORO,0000,0000,0000,,You seem to be having trouble \Npaying off your debt.
+Dialogue: 0,0:18:07.12,0:18:12.25,DCMain,KOGORO,0000,0000,0000,,After burying and hiding Komoto Takashi's \Nbody, you killed Akiba Miyako-san.
+Dialogue: 0,0:18:12.87,0:18:16.03,DCMain,KOGORO,0000,0000,0000,,You made it look like \Npart of Komoto's revenge,
+Dialogue: 0,0:18:16.03,0:18:18.22,DCMain,KOGORO,0000,0000,0000,,and then placed a threatening call.
+Dialogue: 0,0:18:18.22,0:18:19.55,DCItalic,OTOSAKA,0000,0000,0000,,It's Komoto.
+Dialogue: 0,0:18:20.00,0:18:22.25,DCItalic,OTOSAKA,0000,0000,0000,,You're the last one left, Fuyuki.
+Dialogue: 0,0:18:22.25,0:18:23.74,DCItalic,FUYUKI,0000,0000,0000,,I'll return your money.
+Dialogue: 0,0:18:23.74,0:18:26.04,DCItalic,FUYUKI,0000,0000,0000,,I'll return ten times what we took, okay?
+Dialogue: 0,0:18:26.80,0:18:29.78,DCMain,KOGORO,0000,0000,0000,,He made exactly the request \Nyou wanted him to make.
+Dialogue: 0,0:18:30.37,0:18:33.19,DCMain,KOGORO,0000,0000,0000,,However, that's when things \Nwent wrong for you.
+Dialogue: 0,0:18:34.08,0:18:36.05,DCMain,KOGORO,0000,0000,0000,,The body you'd hidden was discovered,
+Dialogue: 0,0:18:36.05,0:18:38.66,DCMain,KOGORO,0000,0000,0000,,so you couldn't pretend to be Komoto anymore.
+Dialogue: 0,0:18:39.34,0:18:42.49,DCMain,KOGORO,0000,0000,0000,,You revealed that you were an agent \Ncarrying out Komoto's revenge
+Dialogue: 0,0:18:42.49,0:18:44.88,DCMain,KOGORO,0000,0000,0000,,and openly demanded money.
+Dialogue: 0,0:18:45.68,0:18:47.98,DCMain,KOGORO,0000,0000,0000,,We read too deeply into the situation \Nwhen we assumed it was a trap.
+Dialogue: 0,0:18:48.28,0:18:51.46,DCMain,KOGORO,0000,0000,0000,,It was in fact his actual goal.
+Dialogue: 0,0:18:55.63,0:18:59.63,DCMain,OTOSAKA,0000,0000,0000,,Mori-san, your theory doesn't have \Na scrap of evidence to back it up.
+Dialogue: 0,0:19:00.09,0:19:03.49,DCMain,OTOSAKA,0000,0000,0000,,In the first place, I never \Nrescued anyone named Komoto.
+Dialogue: 0,0:19:03.83,0:19:06.66,DCMain,KOGORO,0000,0000,0000,,Then what were you doing then
+Dialogue: 0,0:19:07.30,0:19:11.33,DCMain,KOGORO,0000,0000,0000,,at the convenience store parking \Nlot between here and the hospital?
+Dialogue: 0,0:19:13.24,0:19:17.84,DCMain,KOGORO,0000,0000,0000,,I found the security camera footage.
+Dialogue: 0,0:19:27.66,0:19:32.35,DCMain,KOGORO,0000,0000,0000,,You got in the rear passenger seat and \Nremained parked for over ten minutes.
+Dialogue: 0,0:19:32.48,0:19:34.48,DCMain,KOGORO,0000,0000,0000,,What were you doing?
+Dialogue: 0,0:19:35.51,0:19:38.78,DCMain,KOGORO,0000,0000,0000,,Komoto Takashi fell from \Nthis cliff around noon.
+Dialogue: 0,0:19:38.78,0:19:41.64,DCMain,KOGORO,0000,0000,0000,,The estimated time of death \Nis around that same time.
+Dialogue: 0,0:19:42.64,0:19:45.80,DCMain,KOGORO,0000,0000,0000,,But since you were working that afternoon,
+Dialogue: 0,0:19:45.80,0:19:50.39,DCMain,KOGORO,0000,0000,0000,,there wasn't enough time for you to start \Nyour shift after visiting that development site.
+Dialogue: 0,0:19:51.08,0:19:55.25,DCMain,KOGORO,0000,0000,0000,,In other words, you hid the \Nbody after you finished work.
+Dialogue: 0,0:19:55.76,0:20:01.26,DCMain,KOGORO,0000,0000,0000,,Which means Komoto's body was in your \Ncar when you started your shift.
+Dialogue: 0,0:20:02.01,0:20:08.14,DCMain,TAKAGI,0000,0000,0000,,You mean the body I was \Nlooking for was nearby then?
+Dialogue: 0,0:20:08.31,0:20:09.00,DCMain,KOGORO,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:09.38,0:20:13.65,DCMain,KOGORO,0000,0000,0000,,It was probably hidden \Nout of sight in his car.
+Dialogue: 0,0:20:14.51,0:20:21.57,DCMain,TAKAGI,0000,0000,0000,,Then we should be able to find Komoto \NTakashi's hair or blood in his car if we search it.
+Dialogue: 0,0:20:21.72,0:20:22.80,DCMain,MEGURE,0000,0000,0000,,Yeah.
+Dialogue: 0,0:20:22.80,0:20:25.32,DCMain,MEGURE,0000,0000,0000,,That would prove that he abandoned the body.
+Dialogue: 0,0:20:27.44,0:20:30.36,DCMain,KOGORO,0000,0000,0000,,We should be able to find something belonging
+Dialogue: 0,0:20:30.36,0:20:33.08,DCMain,KOGORO,0000,0000,0000,,to the culprit at the scene of \NAkiba Miyako-san's murder, too.
+Dialogue: 0,0:20:34.72,0:20:37.21,DCMain,KOGORO,0000,0000,0000,,If we compare them against yours,
+Dialogue: 0,0:20:37.21,0:20:39.87,DCMain,KOGORO,0000,0000,0000,,I'm sure of them will be a match.
+Dialogue: 0,0:20:45.66,0:20:48.20,DCMain,OTOSAKA,0000,0000,0000,,Everything you've said is correct, Mori-san.
+Dialogue: 0,0:20:48.66,0:20:51.18,DCMain,OTOSAKA,0000,0000,0000,,I tried to blackmail this scumbag.
+Dialogue: 0,0:20:52.17,0:20:53.18,DCMain,FUYUKI,0000,0000,0000,,You jerk.
+Dialogue: 0,0:20:53.64,0:20:57.69,DCMain,OTOSAKA,0000,0000,0000,,Both you and that Akiba \Nwoman are terrible people.
+Dialogue: 0,0:20:57.91,0:21:02.94,DCMain,MEGURE,0000,0000,0000,,That doesn't make it okay to \Nmurder to blackmail someone.
+Dialogue: 0,0:21:11.24,0:21:15.74,DCMain,OTOSAKA,0000,0000,0000,,I'm not in debt because I \Nblew my money having fun.
+Dialogue: 0,0:21:16.19,0:21:20.05,DCMain,OTOSAKA,0000,0000,0000,,I know people who are in \Ntrouble. Several of them.
+Dialogue: 0,0:21:20.80,0:21:22.36,DCMain,OTOSAKA,0000,0000,0000,,I had to help them.
+Dialogue: 0,0:21:25.48,0:21:27.82,DCMain,MEGURE,0000,0000,0000,,Perhaps he's not lying.
+Dialogue: 0,0:21:27.82,0:21:32.05,DCMain,KOGORO,0000,0000,0000,,He probably rescued Komoto \NTakashi from the river
+Dialogue: 0,0:21:32.05,0:21:35.39,DCMain,KOGORO,0000,0000,0000,,and attempted to take him to the hospital \Nout of the goodness of his heart, but...
+Dialogue: 0,0:21:35.87,0:21:36.92,DCMain,MEGURE,0000,0000,0000,,Yeah.
+Dialogue: 0,0:21:36.92,0:21:40.90,DCMain,MEGURE,0000,0000,0000,,He stepped off the right path when \Nhe decided to use Komoto's death.
+Dialogue: 0,0:21:40.90,0:21:44.56,DCMain,MEGURE,0000,0000,0000,,The fact is, he did something unforgivable.
+Dialogue: 0,0:21:46.01,0:21:47.41,DCMain,FUYUKI,0000,0000,0000,,What a stupid man.
+Dialogue: 0,0:21:47.63,0:21:52.16,DCMain,MEGURE,0000,0000,0000,,This all began because of the misdeeds \Nyou committed ten years ago.
+Dialogue: 0,0:21:52.53,0:21:56.48,DCMain,MEGURE,0000,0000,0000,,Surely you don't think you'll \Nescape your own guilt.
+Dialogue: 0,0:23:27.32,0:23:31.36,DCMain,KOGORO,0000,0000,0000,,I guess I solved another case, huh?
+Dialogue: 0,0:23:31.36,0:23:33.39,DCMain,KOGORO,0000,0000,0000,,Anyway, who the heck is Otosaka?
+Dialogue: 0,0:23:34.06,0:23:38.26,DCMain,KOGORO,0000,0000,0000,,I must be a great detective if I identified \Nhim as the culprit without knowing who he is.
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:49.34,0:23:50.64,DCMain,GENTA,0000,0000,0000,,Hey, Conan.
+Dialogue: 0,0:23:51.13,0:23:52.96,DCMain,MITSUHIKO,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:23:53.93,0:23:54.78,DCMain,CONAN,0000,0000,0000,,Nothing.
+Dialogue: 0,0:23:55.01,0:23:57.29,DCMain,AYUMI,0000,0000,0000,,Miss, are you Yamaki Shinobu-san?
+Dialogue: 0,0:23:59.29,0:24:01.72,DCMain,RISA,0000,0000,0000,,Shinobu is my older brother.
+Dialogue: 0,0:24:01.72,0:24:03.67,DCMain,ALL,0000,0000,0000,,What? Your brother?
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,The Lost Article That Smells Like a Case
+Dialogue: 0,0:24:09.38,0:24:13.37,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The Lost \NArticle That Smells Like a Case!"
+Dialogue: 0,0:24:30.03,0:24:34.95,Hint,TEXT,0000,0000,0000,,Perfume
+Dialogue: 0,0:24:30.52,0:24:31.71,DCMain,TAKAGI,0000,0000,0000,,Conan-kun!
+Dialogue: 0,0:24:31.71,0:24:33.14,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.14,0:24:34.95,DCMain,CONAN,0000,0000,0000,,Perfume!
+Dialogue: 0,0:24:34.95,0:24:39.95,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.15,0:24:36.24,DCMain,KOGORO,0000,0000,0000,,{\an8}It's supposed to rain tomorrow.
+Dialogue: 0,0:24:36.24,0:24:37.96,DCMain,CONAN,0000,0000,0000,,{\an8}I said perfume, not typhoon.
+Dialogue: 0,0:24:37.96,0:24:39.63,DCMain,KOGORO,0000,0000,0000,,{\an8}Maybe a muddy racetrack will bring me luck.

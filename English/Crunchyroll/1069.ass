@@ -1,0 +1,423 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Cafe,Trebuchet MS,22,&H007C78B9,&H000000FF,&H005E432F,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Mori,Trebuchet MS,22,&H00684D46,&H000000FF,&H00EDE0DC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Profile,Trebuchet MS,16,&H0072554D,&H000000FF,&H00F1F0EC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Nagamine,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00863B40,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0210,0020,0062,0
+Style: Mayako,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00863B40,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0140,0020,0062,0
+Style: Kuraun Park,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0030,0020,0070,0
+Style: MPD,Trebuchet MS,30,&H003D403E,&H000000FF,&H00F1F1DF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Kyoko,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00863B40,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0050,0020,0045,0
+Style: Aragaki,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00743053,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0110,0062,0
+Style: Kuraun Park 2,Trebuchet MS,22,&H001B270F,&H000000FF,&H00456944,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0110,0018,0
+Style: Mori 2,Trebuchet MS,14,&H00659597,&H000000FF,&H00434D45,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0035,0020,0060,0
+Style: Mori 3,Trebuchet MS,22,&H002E3C68,&H000000FF,&H00719BD4,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,TAKAGI,0000,0000,0000,,[eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,DETECTIVE CONAN EPISODE 1069 "The \NSweet Voice Heard Through the Phone"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,BIKE WOMAN,0000,0000,0000,,[ed]
+Dialogue: 0,0:00:00.06,0:00:05.06,Cafe,SIGN,0000,0000,0000,,{\fad(915,1)}Café Poirot
+Dialogue: 0,0:00:01.98,0:00:08.98,Mori,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:00:03.28,0:00:05.58,DCMain,KOGORO,0000,0000,0000,,Hello, Mori Detective Agency.
+Dialogue: 0,0:00:06.41,0:00:08.98,DCMain,KOGORO,0000,0000,0000,,Ah, Nagamine-san.
+Dialogue: 0,0:00:09.34,0:00:12.02,DCMain,KOGORO,0000,0000,0000,,We're meeting today at three, correct?
+Dialogue: 0,0:00:12.02,0:00:13.49,DCMain,KOGORO,0000,0000,0000,,I'll be waiting for you.
+Dialogue: 0,0:00:13.66,0:00:16.99,DCItalic,MAYAKO,0000,0000,0000,,Actually, I got lost on my way there.
+Dialogue: 0,0:00:17.23,0:00:19.64,DCItalic,MAYAKO,0000,0000,0000,,I'm going to be about five minutes late.
+Dialogue: 0,0:00:21.09,0:00:23.30,DCMain,KOGORO,0000,0000,0000,,There's no rush.
+Dialogue: 0,0:00:23.30,0:00:26.43,DCMain,KOGORO,0000,0000,0000,,I've cleared my schedule for you today.
+Dialogue: 0,0:00:24.50,0:00:26.46,Profile,SIGN,0000,0000,0000,,Posts 27   Followers 31   Following 64
+Dialogue: 0,0:00:24.50,0:00:29.17,Profile,SIGN,0000,0000,0000,,Posts   TMSTV   Saved   Tagged
+Dialogue: 0,0:00:28.60,0:00:32.01,DCItalic,MAYAKO,0000,0000,0000,,Actually, Mori-san, I have a request.
+Dialogue: 0,0:00:32.21,0:00:33.83,DCMain,KOGORO,0000,0000,0000,,What is it?
+Dialogue: 0,0:00:33.83,0:00:36.44,DCItalic,MAYAKO,0000,0000,0000,,Please call me Mayako.
+Dialogue: 0,0:00:36.44,0:00:37.31,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:00:37.31,0:00:39.51,DCMain,KOGORO,0000,0000,0000,,But we've never met before. Are you sure?
+Dialogue: 0,0:00:39.96,0:00:44.02,DCItalic,MAYAKO,0000,0000,0000,,Yes. I think it'll help me be more honest.
+Dialogue: 0,0:00:44.02,0:00:48.81,DCMain,KOGORO,0000,0000,0000,,Very well. In that case, \NI'll call you Mayako-san.
+Dialogue: 0,0:00:48.81,0:00:52.81,DCItalic,CONAN,0000,0000,0000,,The old man always fawns \Nover his female clients.
+Dialogue: 0,0:00:52.81,0:00:56.47,DCItalic,CONAN,0000,0000,0000,,It's rare that I don't, but I've got \Na bad feeling about this client, too.
+Dialogue: 0,0:00:57.66,0:00:59.58,DCMain,CONAN,0000,0000,0000,,Mysterious clouds block your field of view!
+Dialogue: 0,0:00:59.58,0:01:01.39,DCMain,CONAN,0000,0000,0000,,Clear them away with deductive \Nreasoning and the sky sparkles!
+Dialogue: 0,0:01:01.39,0:01:03.17,DCMain,CONAN,0000,0000,0000,,The client has a beautiful voice
+Dialogue: 0,0:01:03.17,0:01:05.33,DCMain,CONAN,0000,0000,0000,,and sweet whispers call forth a case!
+Dialogue: 0,0:01:05.33,0:01:07.04,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:07.04,0:01:08.84,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:08.84,0:01:11.42,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:53.02,0:02:59.03,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(375,1)}The Sweet Voice Heard Through the Phone
+Dialogue: 0,0:02:53.60,0:02:56.43,DCMain,CONAN,0000,0000,0000,,"The Sweet Voice Heard Through the Phone!"
+Dialogue: 0,0:02:59.03,0:03:01.03,Mori,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:03:03.40,0:03:05.61,DCMain,KOGORO,0000,0000,0000,,It's been 30 minutes since then.
+Dialogue: 0,0:03:05.61,0:03:08.82,DCMain,CONAN,0000,0000,0000,,Nagamine Mayako-san is late.
+Dialogue: 0,0:03:08.82,0:03:09.98,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:09.98,0:03:11.54,DCMain,KOGORO,0000,0000,0000,,Maybe she got lost—
+Dialogue: 0,0:03:13.00,0:03:16.18,DCMain,KOGORO,0000,0000,0000,,How do you know the client's name?
+Dialogue: 0,0:03:16.18,0:03:18.17,DCMain,CONAN,0000,0000,0000,,I know more than just her name.
+Dialogue: 0,0:03:18.17,0:03:23.82,DCMain,CONAN,0000,0000,0000,,One year ago, Nagamine Mayako-san married \Nher former boss Nagamine Haruhiko-san.
+Dialogue: 0,0:03:23.43,0:03:25.43,Profile,SIGN,0000,0000,0000,,Posts 27   Followers 31   Following 64 \NSelf-improvement   Loves Cute Things   Read More \NTranslate
+Dialogue: 0,0:03:23.82,0:03:25.43,DCMain,CONAN,0000,0000,0000,,Now she's a housewife.
+Dialogue: 0,0:03:25.61,0:03:30.06,DCMain,CONAN,0000,0000,0000,,Her husband's been divorced once, and rumors of his \Ninfidelity have continued even after their marriage.
+Dialogue: 0,0:03:30.06,0:03:31.93,DCMain,KOGORO,0000,0000,0000,,How do you know all that?
+Dialogue: 0,0:03:31.93,0:03:35.44,DCMain,CONAN,0000,0000,0000,,Because you were speaking loudly \Non the phone yesterday, too.
+Dialogue: 0,0:03:36.31,0:03:39.34,DCMain,CONAN,0000,0000,0000,,She's coming today about \Nher husband again, right?
+Dialogue: 0,0:03:39.34,0:03:41.13,DCMain,KOGORO,0000,0000,0000,,Yeah...
+Dialogue: 0,0:03:41.13,0:03:43.82,DCMain,KOGORO,0000,0000,0000,,But not about his infidelity.
+Dialogue: 0,0:03:44.48,0:03:48.58,DCMain,KOGORO,0000,0000,0000,,She's worried he might be involved \Nin some criminal activity.
+Dialogue: 0,0:03:48.58,0:03:49.62,DCMain,CONAN,0000,0000,0000,,Criminal activity?
+Dialogue: 0,0:03:50.26,0:03:54.33,DCMain,KOGORO,0000,0000,0000,,She recently saw Nagamine-san bring home \Na suitcase in the middle of the night
+Dialogue: 0,0:03:54.73,0:03:57.57,DCMain,KOGORO,0000,0000,0000,,{\an8}and hide it in their garage.
+Dialogue: 0,0:03:55.97,0:03:58.63,Nagamine,SIGN,0000,0000,0000,,{\fad(335,375)}Nagamine Haruhiko (40) \NOffice Worker
+Dialogue: 0,0:03:59.88,0:04:02.15,DCMain,KOGORO,0000,0000,0000,,After he left,
+Dialogue: 0,0:04:02.15,0:04:07.28,DCMain,KOGORO,0000,0000,0000,,{\an8}she got out the hidden suitcase and \Nattempted to examine its contents,
+Dialogue: 0,0:04:03.47,0:04:05.05,Mayako,SIGN,0000,0000,0000,,{\fad(375,1)}Nagamine Mayako (31) \NHousewife
+Dialogue: 0,0:04:07.28,0:04:09.97,DCMain,KOGORO,0000,0000,0000,,but it was locked.
+Dialogue: 0,0:04:09.97,0:04:10.89,DCMain,KOGORO,0000,0000,0000,,However...
+Dialogue: 0,0:04:11.45,0:04:12.18,DCMain,CONAN,0000,0000,0000,,However?
+Dialogue: 0,0:04:12.57,0:04:16.44,DCMain,KOGORO,0000,0000,0000,,However, the suitcase was \Napparently quite heavy.
+Dialogue: 0,0:04:22.43,0:04:26.32,DCMain,RAN,0000,0000,0000,,Excuse me, but are you looking for someone?
+Dialogue: 0,0:04:50.25,0:04:52.27,DCMain,KOGORO,0000,0000,0000,,Hello, Mori Detective Agency.
+Dialogue: 0,0:04:52.27,0:04:54.03,DCMain,KOGORO,0000,0000,0000,,Oh, Mayako-san.
+Dialogue: 0,0:04:54.03,0:04:57.56,DCItalic,MAYAKO,0000,0000,0000,,I'm sorry. I know I'm nearby, but...
+Dialogue: 0,0:04:58.13,0:04:59.65,DCMain,KOGORO,0000,0000,0000,,I'll go meet you.
+Dialogue: 0,0:04:59.65,0:05:01.40,DCMain,KOGORO,0000,0000,0000,,What can you see from there?
+Dialogue: 0,0:05:01.40,0:05:02.83,DCItalic,MAYAKO,0000,0000,0000,,Let's see...
+Dialogue: 0,0:05:03.70,0:05:04.93,DCMain,KOGORO,0000,0000,0000,,What's the matter?
+Dialogue: 0,0:05:04.93,0:05:07.75,DCItalic,MAYAKO,0000,0000,0000,,I just spotted my husband.
+Dialogue: 0,0:05:07.75,0:05:08.99,DCMain,KOGORO,0000,0000,0000,,Your husband?
+Dialogue: 0,0:05:09.24,0:05:13.13,DCItalic,MAYAKO,0000,0000,0000,,It is him. He followed me.
+Dialogue: 0,0:05:13.13,0:05:15.12,DCMain,KOGORO,0000,0000,0000,,Mayako-san, stay where you are.
+Dialogue: 0,0:05:15.39,0:05:16.80,DCItalic,MAYAKO,0000,0000,0000,,No, I can't.
+Dialogue: 0,0:05:16.80,0:05:20.33,DCItalic,MAYAKO,0000,0000,0000,,It would be disastrous if he \Nfound out I was visiting you.
+Dialogue: 0,0:05:20.33,0:05:22.65,DCItalic,MAYAKO,0000,0000,0000,,I'll head to your office once I've lost him.
+Dialogue: 0,0:05:22.65,0:05:24.43,DCItalic,MAYAKO,0000,0000,0000,,Please wait a little longer.
+Dialogue: 0,0:05:29.35,0:05:30.59,DCMain,KOGORO,0000,0000,0000,,She's in trouble.
+Dialogue: 0,0:05:30.59,0:05:32.88,DCMain,KOGORO,0000,0000,0000,,Nagamine-san is following her.
+Dialogue: 0,0:05:32.88,0:05:36.60,DCMain,CONAN,0000,0000,0000,,Then you should've stayed on the \Nline with her instead of hanging up.
+Dialogue: 0,0:05:36.60,0:05:41.06,DCMain,KOGORO,0000,0000,0000,,I can't, because Mayako-san \Ncalled me from a pay phone.
+Dialogue: 0,0:05:41.06,0:05:42.61,DCMain,CONAN,0000,0000,0000,,A pay phone?
+Dialogue: 0,0:05:43.21,0:05:47.61,DCMain,KOGORO,0000,0000,0000,,Apparently her husband has a short temper.
+Dialogue: 0,0:05:48.70,0:05:52.62,DCMain,KOGORO,0000,0000,0000,,There's no telling what he'd do to her if \Nhe found out she was meeting a detective.
+Dialogue: 0,0:05:53.50,0:05:56.28,DCMain,KOGORO,0000,0000,0000,,He also thoroughly checks her phone,
+Dialogue: 0,0:05:56.77,0:06:00.77,DCMain,KOGORO,0000,0000,0000,,so she always uses pay phones to call me.
+Dialogue: 0,0:06:00.77,0:06:02.38,DCMain,RAN,0000,0000,0000,,I'm home.
+Dialogue: 0,0:06:03.53,0:06:05.41,DCMain,CONAN,0000,0000,0000,,What's the matter, Ran-neechan?
+Dialogue: 0,0:06:06.41,0:06:10.58,DCMain,RAN,0000,0000,0000,,I just saw a pretty lady \Nwho looked lost, but...
+Dialogue: 0,0:06:10.58,0:06:11.85,DCMain,KOGORO,0000,0000,0000,,A pretty lady?
+Dialogue: 0,0:06:13.02,0:06:15.13,DCMain,CONAN,0000,0000,0000,,Was this her?
+Dialogue: 0,0:06:15.13,0:06:17.23,DCMain,RAN,0000,0000,0000,,Yeah, that's her.
+Dialogue: 0,0:06:17.54,0:06:18.45,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:06:18.45,0:06:22.65,DCMain,RAN,0000,0000,0000,,A suspicious man wearing \Na hat was following her.
+Dialogue: 0,0:06:22.65,0:06:25.15,DCMain,KOGORO,0000,0000,0000,,Was that this guy?
+Dialogue: 0,0:06:26.24,0:06:29.49,DCMain,RAN,0000,0000,0000,,Since he was wearing a hat, \NI couldn't see his face.
+Dialogue: 0,0:06:29.64,0:06:35.27,DCMain,KOGORO,0000,0000,0000,,If the woman you saw was Mayako-san, then the \Nman wearing the hat must've been Nagamine-san.
+Dialogue: 0,0:06:37.67,0:06:38.62,DCMain,KOGORO,0000,0000,0000,,Hello?
+Dialogue: 0,0:06:38.62,0:06:40.00,DCItalic,MAYAKO,0000,0000,0000,,Mori-san, I'm...
+Dialogue: 0,0:06:40.36,0:06:42.50,DCItalic,MAYAKO,0000,0000,0000,,currently at Kuraun Park.
+Dialogue: 0,0:06:42.84,0:06:44.50,DCItalic,CONAN,0000,0000,0000,,Kuraun Park?
+Dialogue: 0,0:06:44.72,0:06:47.48,DCItalic,MAYAKO,0000,0000,0000,,My husband is still nearby.
+Dialogue: 0,0:06:47.48,0:06:50.01,DCItalic,MAYAKO,0000,0000,0000,,If he finds me, he might kill me.
+Dialogue: 0,0:06:51.48,0:06:52.88,DCMain,KOGORO,0000,0000,0000,,What was that?
+Dialogue: 0,0:06:53.88,0:06:54.89,DCMain,KOGORO,0000,0000,0000,,Mayako-san!
+Dialogue: 0,0:06:57.27,0:07:03.27,Mori 2,SIGN,0000,0000,0000,,{\pos(35,44.8)}Mori Detective Agency
+Dialogue: 0,0:06:57.81,0:07:00.15,DCMain,KOGORO,0000,0000,0000,,Mayako-san is at Kuraun Park.
+Dialogue: 0,0:07:00.15,0:07:01.49,DCMain,KOGORO,0000,0000,0000,,I'm going to help her.
+Dialogue: 0,0:07:01.49,0:07:02.70,DCMain,CONAN,0000,0000,0000,,Mister!
+Dialogue: 0,0:07:01.49,0:07:02.70,DCMain,RAN,0000,0000,0000,,Dad!
+Dialogue: 0,0:07:03.37,0:07:05.86,Kuraun Park,SIGN,0000,0000,0000,,{\fad(375,1)}Kuraun Park
+Dialogue: 0,0:07:09.84,0:07:11.76,DCMain,KOGORO,0000,0000,0000,,Mayako-san!
+Dialogue: 0,0:07:14.08,0:07:15.84,DCMain,RAN,0000,0000,0000,,Dad!
+Dialogue: 0,0:07:15.84,0:07:17.60,DCMain,KOGORO,0000,0000,0000,,Ran, help her.
+Dialogue: 0,0:07:19.29,0:07:20.62,DCMain,RAN,0000,0000,0000,,Are you all right?
+Dialogue: 0,0:07:20.62,0:07:21.42,DCMain,BIKE LADY,0000,0000,0000,,Yes.
+Dialogue: 0,0:07:24.86,0:07:27.10,DCMain,KOGORO,0000,0000,0000,,Mayako-san!
+Dialogue: 0,0:07:31.75,0:07:32.60,DCMain,KOGORO,0000,0000,0000,,Who's there?
+Dialogue: 0,0:07:37.54,0:07:39.10,DCMain,KOGORO,0000,0000,0000,,Is that you, Nagamine-san?
+Dialogue: 0,0:07:40.97,0:07:41.82,DCMain,KOGORO,0000,0000,0000,,Hey!
+Dialogue: 0,0:07:42.30,0:07:43.37,DCMain,KOGORO,0000,0000,0000,,Nagamine!
+Dialogue: 0,0:07:47.68,0:07:48.53,DCMain,KOGORO,0000,0000,0000,,Mayako-san.
+Dialogue: 0,0:07:55.30,0:07:57.24,DCMain,KOGORO,0000,0000,0000,,Ran, don't touch that.
+Dialogue: 0,0:07:58.33,0:07:59.08,DCMain,RAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:08:00.89,0:08:02.84,DCMain,CONAN,0000,0000,0000,,Ran-neechan, there's blood on your hand.
+Dialogue: 0,0:08:02.84,0:08:03.71,DCMain,RAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:08:04.26,0:08:05.46,DCMain,RAN,0000,0000,0000,,You're right.
+Dialogue: 0,0:08:05.78,0:08:07.46,DCMain,KOGORO,0000,0000,0000,,Are you okay, Ran?
+Dialogue: 0,0:08:07.69,0:08:12.60,DCMain,RAN,0000,0000,0000,,Yeah. I don't seem to \Nbe injured, so I'm fine.
+Dialogue: 0,0:08:13.08,0:08:14.72,DCMain,RAN,0000,0000,0000,,I wonder when this happened.
+Dialogue: 0,0:08:15.09,0:08:18.97,DCItalic,CONAN,0000,0000,0000,,The culprit seems to have gone looking \Nthrough her bag for something.
+Dialogue: 0,0:08:35.13,0:08:38.64,DCMain,TAKAGI,0000,0000,0000,,The victim is Nagamine \NMayako-san, 31 years old.
+Dialogue: 0,0:08:38.64,0:08:42.00,DCMain,TAKAGI,0000,0000,0000,,She's a housewife who lives \Nrather far away from here.
+Dialogue: 0,0:08:42.32,0:08:45.89,DCMain,TAKAGI,0000,0000,0000,,Mori-san can explain what she was doing \Nat this park so far away from her home.
+Dialogue: 0,0:08:45.89,0:08:47.50,DCMain,MEGURE,0000,0000,0000,,You again?
+Dialogue: 0,0:08:47.96,0:08:52.20,DCMain,KOGORO,0000,0000,0000,,Inspector, Mayako-san—rather, she was...
+Dialogue: 0,0:08:52.20,0:08:55.26,DCMain,CONAN,0000,0000,0000,,Someone rifled through the victim's bag.
+Dialogue: 0,0:08:55.46,0:08:57.14,DCMain,CONAN,0000,0000,0000,,Was anything taken?
+Dialogue: 0,0:08:57.30,0:09:03.14,DCMain,TAKAGI,0000,0000,0000,,Her wallet and valuables were still \Nthere, so I doubt anything was taken.
+Dialogue: 0,0:09:03.46,0:09:04.62,DCMain,CONAN,0000,0000,0000,,What about her phone?
+Dialogue: 0,0:09:05.14,0:09:07.81,DCMain,TAKAGI,0000,0000,0000,,We didn't find one inside her bag or pockets.
+Dialogue: 0,0:09:07.81,0:09:09.86,DCMain,CONAN,0000,0000,0000,,You should search her bag more thoroughly.
+Dialogue: 0,0:09:09.86,0:09:12.65,DCMain,KOGORO,0000,0000,0000,,Hey! The adults are talking.
+Dialogue: 0,0:09:12.65,0:09:15.65,MPD,SIGN,0000,0000,0000,,MPD
+Dialogue: 0,0:09:15.87,0:09:18.66,DCMain,MEGURE,0000,0000,0000,,I see. I understand what happened.
+Dialogue: 0,0:09:18.99,0:09:22.53,DCMain,KOGORO,0000,0000,0000,,The culprit is undoubtedly her \Nhusband Nagamine Haruhiko.
+Dialogue: 0,0:09:22.53,0:09:24.41,DCMain,KOGORO,0000,0000,0000,,I got a clear look at his face.
+Dialogue: 0,0:09:24.41,0:09:29.37,DCMain,MEGURE,0000,0000,0000,,Was it also Nagamine who knocked \Nover that woman's bike and fled?
+Dialogue: 0,0:09:29.37,0:09:31.55,DCMain,KOGORO,0000,0000,0000,,No, that was someone else.
+Dialogue: 0,0:09:31.83,0:09:32.92,DCMain,MEGURE,0000,0000,0000,,Someone else?
+Dialogue: 0,0:09:33.32,0:09:37.06,DCMain,RAN,0000,0000,0000,,I believe that man was following Mayako-san.
+Dialogue: 0,0:09:37.06,0:09:38.34,DCMain,RAN,0000,0000,0000,,I saw him.
+Dialogue: 0,0:09:38.85,0:09:43.04,DCMain,TAKAGI,0000,0000,0000,,Then it's possible that man is the culprit.
+Dialogue: 0,0:09:43.04,0:09:45.39,DCMain,KOGORO,0000,0000,0000,,But based on our phone conversation,
+Dialogue: 0,0:09:45.39,0:09:48.35,DCMain,KOGORO,0000,0000,0000,,the culprit could only be Nagamine.
+Dialogue: 0,0:09:48.73,0:09:50.54,DCMain,MEGURE,0000,0000,0000,,What about the woman on the bike?
+Dialogue: 0,0:09:50.54,0:09:52.89,DCMain,TAKAGI,0000,0000,0000,,{\an8}She suffered minor injuries.
+Dialogue: 0,0:09:52.49,0:09:56.36,Kyoko,SIGN,0000,0000,0000,,{\fad(375,375)}Yufunezawa Kyoko (31)
+Dialogue: 0,0:09:52.89,0:09:55.35,DCMain,TAKAGI,0000,0000,0000,,{\an8}I'm thinking about her asking her
+Dialogue: 0,0:09:55.35,0:09:57.86,DCMain,TAKAGI,0000,0000,0000,,{\an8}if she can provide any clues regarding \Nthe man who bumped into her.
+Dialogue: 0,0:10:03.95,0:10:04.73,DCMain,POLICE,0000,0000,0000,,Inspector.
+Dialogue: 0,0:10:05.44,0:10:06.85,DCMain,KOGORO,0000,0000,0000,,Nagamine!
+Dialogue: 0,0:10:06.85,0:10:10.16,DCMain,POLICE,0000,0000,0000,,He was wandering around wearing bloody \Nclothes, so we brought him here.
+Dialogue: 0,0:10:10.64,0:10:14.80,DCMain,NAGAMINE,0000,0000,0000,,I didn't kill her! I'm here \Nbecause Mayako invited me here.
+Dialogue: 0,0:10:15.10,0:10:18.80,DCMain,KOGORO,0000,0000,0000,,Liar! Mayako-san just happened to flee here.
+Dialogue: 0,0:10:19.06,0:10:20.31,DCMain,NAGAMINE,0000,0000,0000,,It's true.
+Dialogue: 0,0:10:20.31,0:10:22.90,DCMain,NAGAMINE,0000,0000,0000,,We got into a little argument \Nover my relationships with women.
+Dialogue: 0,0:10:22.90,0:10:25.47,DCMain,NAGAMINE,0000,0000,0000,,She asked me to come here so \Nwe could discuss a divorce.
+Dialogue: 0,0:10:25.87,0:10:28.98,DCMain,NAGAMINE,0000,0000,0000,,When I arrived, Mayako was on the ground.
+Dialogue: 0,0:10:31.46,0:10:34.03,DCMain,TAKAGI,0000,0000,0000,,Let's go over it one more time.
+Dialogue: 0,0:10:34.03,0:10:38.12,DCMain,TAKAGI,0000,0000,0000,,The man who bumped into you \Nwas wearing a black felt hat,
+Dialogue: 0,0:10:38.12,0:10:40.54,DCMain,TAKAGI,0000,0000,0000,,and his mouth was hidden behind his clothes.
+Dialogue: 0,0:10:42.94,0:10:44.90,DCMain,TAKAGI,0000,0000,0000,,Who are you?
+Dialogue: 0,0:11:05.96,0:11:07.06,DCMain,NAGAMINE,0000,0000,0000,,You!
+Dialogue: 0,0:11:07.44,0:11:08.89,DCMain,TAKAGI,0000,0000,0000,,You know him?
+Dialogue: 0,0:11:09.27,0:11:12.15,DCMain,ARAGAKI,0000,0000,0000,,I'm Aragaki Ippei, his junior coworker.
+Dialogue: 0,0:11:12.35,0:11:16.19,Aragaki,SIGN,0000,0000,0000,,{\fad(375,375)}Aragaki Ippei (25) \NHaruhiko's Junior Coworker
+Dialogue: 0,0:11:12.40,0:11:15.54,DCMain,NAGAMINE,0000,0000,0000,,{\an8}Why were you following Mayako?
+Dialogue: 0,0:11:15.54,0:11:17.15,DCMain,ARAGAKI,0000,0000,0000,,{\an8}The president ordered me to.
+Dialogue: 0,0:11:17.15,0:11:18.02,DCMain,NAGAMINE,0000,0000,0000,,What?
+Dialogue: 0,0:11:18.86,0:11:20.82,DCMain,MEGURE,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:11:21.09,0:11:26.57,DCMain,ARAGAKI,0000,0000,0000,,The company discovered that he embezzled \Nroughly 100 million yen from the company.
+Dialogue: 0,0:11:26.57,0:11:27.70,DCMain,KOGORO,0000,0000,0000,,100 million?
+Dialogue: 0,0:11:30.00,0:11:32.35,DCMain,ARAGAKI,0000,0000,0000,,Since it would affect the \Ncredibility of our company,
+Dialogue: 0,0:11:32.35,0:11:38.13,DCMain,ARAGAKI,0000,0000,0000,,I was ordered to recover the money he \Nembezzled before we reported it to the police.
+Dialogue: 0,0:11:39.09,0:11:43.51,DCMain,ARAGAKI,0000,0000,0000,,I visited his home, but \Nonly his was wife there.
+Dialogue: 0,0:11:43.70,0:11:46.35,DCMain,MEGURE,0000,0000,0000,,Did you tell Mayako-san \Nabout the embezzlement?
+Dialogue: 0,0:11:46.35,0:11:47.66,DCMain,ARAGAKI,0000,0000,0000,,I did.
+Dialogue: 0,0:11:47.66,0:11:50.27,DCMain,ARAGAKI,0000,0000,0000,,She didn't seem to know anything about it,
+Dialogue: 0,0:11:50.45,0:11:54.28,DCMain,ARAGAKI,0000,0000,0000,,but while staking out their \Nhome, I saw her leave.
+Dialogue: 0,0:11:54.28,0:11:56.41,DCMain,ARAGAKI,0000,0000,0000,,I thought she might be meeting him.
+Dialogue: 0,0:11:56.41,0:11:58.53,DCMain,RAN,0000,0000,0000,,So that's why you followed her.
+Dialogue: 0,0:11:59.23,0:12:03.97,DCMain,KOGORO,0000,0000,0000,,Mayako-san was coming to discuss \Nthe embezzlement with me today,
+Dialogue: 0,0:12:03.97,0:12:06.62,DCMain,KOGORO,0000,0000,0000,,so you decided to shut her up.
+Dialogue: 0,0:12:06.75,0:12:08.15,DCMain,NAGAMINE,0000,0000,0000,,Wait a minute!
+Dialogue: 0,0:12:08.15,0:12:11.79,DCMain,NAGAMINE,0000,0000,0000,,If I'm going to be accused of murder, \Nthen I'll tell you everything.
+Dialogue: 0,0:12:16.34,0:12:19.55,DCMain,NAGAMINE,0000,0000,0000,,It's true that I embezzled \Nmoney from my company.
+Dialogue: 0,0:12:19.98,0:12:21.92,DCMain,MEGURE,0000,0000,0000,,Where is the money now?
+Dialogue: 0,0:12:22.41,0:12:27.93,DCMain,NAGAMINE,0000,0000,0000,,I packed it in a suitcase and hid \Nit in my garage, but it's gone now.
+Dialogue: 0,0:12:28.15,0:12:29.99,DCMain,MEGURE,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:12:30.51,0:12:33.40,DCMain,NAGAMINE,0000,0000,0000,,Mayako-san said she gave it \Nto a friend to hold onto.
+Dialogue: 0,0:12:33.40,0:12:36.06,DCMain,NAGAMINE,0000,0000,0000,,She was probably planning \Nto split it with them.
+Dialogue: 0,0:12:36.65,0:12:37.98,DCMain,KOGORO,0000,0000,0000,,You're lying!
+Dialogue: 0,0:12:38.24,0:12:39.69,DCMain,NAGAMINE,0000,0000,0000,,I see.
+Dialogue: 0,0:12:39.69,0:12:42.29,DCMain,NAGAMINE,0000,0000,0000,,So you and Mayako were working together.
+Dialogue: 0,0:12:42.29,0:12:43.49,DCMain,KOGORO,0000,0000,0000,,What was that?!
+Dialogue: 0,0:12:44.65,0:12:46.49,DCMain,CONAN,0000,0000,0000,,Mister, do you have a minute?
+Dialogue: 0,0:12:46.49,0:12:47.99,DCMain,KOGORO,0000,0000,0000,,What is it?
+Dialogue: 0,0:12:48.18,0:12:50.99,DCMain,CONAN,0000,0000,0000,,Did you know the name of this park?
+Dialogue: 0,0:12:51.24,0:12:56.04,DCMain,RAN,0000,0000,0000,,Come to think of it, I learned \Ntoday that it's called Kuraun Park.
+Dialogue: 0,0:12:56.04,0:13:00.13,DCMain,RAN,0000,0000,0000,,Everyone calls it Jizo Park \Nsince it has jizo statues.
+Dialogue: 0,0:13:00.13,0:13:07.76,Kuraun Park 2,SIGN,0000,0000,0000,,Kuraun Park
+Dialogue: 0,0:13:00.34,0:13:04.76,DCMain,CONAN,0000,0000,0000,,Earlier I saw the name of the park \Nengraved in a pillar at the entrance,
+Dialogue: 0,0:13:04.76,0:13:08.92,DCMain,CONAN,0000,0000,0000,,but at a glance, you wouldn't be \Nable to read it as Kuraun Park.
+Dialogue: 0,0:13:08.92,0:13:11.26,DCMain,CONAN,0000,0000,0000,,I doubt Mayako-san would've \Nknown the name of the park
+Dialogue: 0,0:13:11.48,0:13:15.30,DCMain,CONAN,0000,0000,0000,,if it was her first time \Nin this part of the city.
+Dialogue: 0,0:13:16.65,0:13:20.52,DCMain,CONAN,0000,0000,0000,,But the woman on the phone \Nclearly said Kuraun Park.
+Dialogue: 0,0:13:20.69,0:13:24.03,DCFlashbackItalics,MAYAKO,0000,0000,0000,,Mori-san, I'm currently at Kuraun Park.
+Dialogue: 0,0:13:24.38,0:13:26.21,DCMain,KOGORO,0000,0000,0000,,Y-You're right...
+Dialogue: 0,0:13:26.21,0:13:28.28,DCMain,MEGURE,0000,0000,0000,,Conan-kun, what does that mean?
+Dialogue: 0,0:13:28.49,0:13:33.16,DCMain,CONAN,0000,0000,0000,,It means the woman who you spoke with \Nover the phone wasn't Mayako-san.
+Dialogue: 0,0:13:33.16,0:13:34.70,DCMain,KOGORO,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:13:34.97,0:13:39.00,DCMain,CONAN,0000,0000,0000,,You've never met Mayako-san before, right?
+Dialogue: 0,0:13:39.58,0:13:44.09,DCMain,KOGORO,0000,0000,0000,,That's true, but we've spoken \Nover the phone several times.
+Dialogue: 0,0:13:44.09,0:13:47.22,DCMain,KOGORO,0000,0000,0000,,I was talking to her moments \Nbefore she was killed.
+Dialogue: 0,0:13:47.60,0:13:49.30,DCMain,KOGORO,0000,0000,0000,,You know that.
+Dialogue: 0,0:13:49.30,0:13:51.22,DCMain,CONAN,0000,0000,0000,,But since you've never met,
+Dialogue: 0,0:13:51.38,0:13:54.90,DCMain,CONAN,0000,0000,0000,,you wouldn't know if that \Nwas really her voice.
+Dialogue: 0,0:13:55.68,0:14:00.48,DCMain,RAN,0000,0000,0000,,But Conan-kun, I saw Mayako-san \Nwhen she was lost.
+Dialogue: 0,0:14:01.05,0:14:05.86,DCMain,CONAN,0000,0000,0000,,I believe the woman you saw was Mayako-san,
+Dialogue: 0,0:14:06.21,0:14:09.51,DCMain,CONAN,0000,0000,0000,,but she wasn't on her way to \Nthe detective agency then.
+Dialogue: 0,0:14:09.51,0:14:12.74,DCMain,CONAN,0000,0000,0000,,She was probably looking for Kuraun Park.
+Dialogue: 0,0:14:13.72,0:14:17.29,DCMain,KOGORO,0000,0000,0000,,Wait a minute. Then who \Nhave I been talking to?
+Dialogue: 0,0:14:17.52,0:14:21.04,DCMain,CONAN,0000,0000,0000,,Probably Mayako-san's murderer.
+Dialogue: 0,0:14:21.33,0:14:22.48,DCMain,KOGORO,0000,0000,0000,,The murderer?
+Dialogue: 0,0:14:23.50,0:14:28.80,DCMain,KOGORO,0000,0000,0000,,Are you saying I've been talking to \NMayako-san's murderer this whole time?
+Dialogue: 0,0:14:29.04,0:14:32.21,DCMain,CONAN,0000,0000,0000,,Looking at it that way might \Nallow us to solve the case.
+Dialogue: 0,0:14:32.21,0:14:34.06,DCMain,KOGORO,0000,0000,0000,,N-No way.
+Dialogue: 0,0:14:39.94,0:14:42.31,DCMain,KOGORO,0000,0000,0000,,I see. I've figured it out.
+Dialogue: 0,0:14:42.52,0:14:43.57,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:14:43.79,0:14:46.28,DCMain,KOGORO,0000,0000,0000,,Mayako-san and the culprit \Nclosely resembled each other.
+Dialogue: 0,0:14:46.28,0:14:48.07,DCMain,KOGORO,0000,0000,0000,,In other words, they're twins.
+Dialogue: 0,0:14:48.28,0:14:49.45,DCMain,BOTH,0000,0000,0000,,Twins?
+Dialogue: 0,0:14:49.61,0:14:53.02,DCItalic,CONAN,0000,0000,0000,,You're way off the mark, old man.
+Dialogue: 0,0:14:54.05,0:14:57.29,DCMain,KOGORO,0000,0000,0000,,Twins are identical in appearance and voice.
+Dialogue: 0,0:14:57.29,0:14:59.96,DCMain,KOGORO,0000,0000,0000,,It wouldn't have been impossible to \Nfool the great detective Mori Kogoro—
+Dialogue: 0,0:15:01.77,0:15:03.82,DCMain,KOGORO,0000,0000,0000,,No, no!
+Dialogue: 0,0:15:03.82,0:15:05.93,DCMain,KOGORO,0000,0000,0000,,I can't help if it's \Nhappening at Kuraun Park!
+Dialogue: 0,0:15:05.93,0:15:07.17,DCMain,MEGURE,0000,0000,0000,,Mori-kun?
+Dialogue: 0,0:15:09.07,0:15:11.18,DCMain,KOGORO,0000,0000,0000,,Excuse me, Inspector.
+Dialogue: 0,0:15:11.47,0:15:14.43,DCMain,KOGORO,0000,0000,0000,,I've finally solved the case.
+Dialogue: 0,0:15:14.70,0:15:16.43,DCMain,MEGURE,0000,0000,0000,,Solved the case?
+Dialogue: 0,0:15:16.78,0:15:21.32,DCMain,KOGORO,0000,0000,0000,,The person I'd been speaking to over the \Nphone was probably Mayako-san's killer
+Dialogue: 0,0:15:21.32,0:15:24.24,DCMain,KOGORO,0000,0000,0000,,and not Mayako-san herself.
+Dialogue: 0,0:15:25.10,0:15:31.57,DCMain,KOGORO,0000,0000,0000,,The culprit planned to kill Mayako-san \Nat this park from the start.
+Dialogue: 0,0:15:31.57,0:15:33.70,DCMain,MEGURE,0000,0000,0000,,Why at this park?
+Dialogue: 0,0:15:33.87,0:15:37.78,DCMain,KOGORO,0000,0000,0000,,Because my detective agency is nearby.
+Dialogue: 0,0:15:37.78,0:15:39.20,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:15:39.61,0:15:42.07,DCMain,KOGORO,0000,0000,0000,,The culprit spoke with me \Nover the phone numerous times
+Dialogue: 0,0:15:42.07,0:15:45.25,DCMain,KOGORO,0000,0000,0000,,and created the impression that \Nthey were Nagamine Mayako-san.
+Dialogue: 0,0:15:45.79,0:15:47.09,DCMain,KOGORO,0000,0000,0000,,And then...
+Dialogue: 0,0:15:51.35,0:15:54.90,DCMain,KOGORO,0000,0000,0000,,They killed Mayako-san with a knife \Nafter inviting her to the park,
+Dialogue: 0,0:15:59.24,0:16:05.02,DCMain,KOGORO,0000,0000,0000,,and pretended they were calling to say they \Nwere about to be killed from the crime scene.
+Dialogue: 0,0:16:02.52,0:16:05.02,Mori 2,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:16:05.81,0:16:08.06,DCMain,KOGORO,0000,0000,0000,,Then they left the park
+Dialogue: 0,0:16:11.40,0:16:14.45,DCMain,KOGORO,0000,0000,0000,,and Nagamine-san arrived.
+Dialogue: 0,0:16:21.45,0:16:23.16,DCFlashback,KOGORO,0000,0000,0000,,Mayako-san!
+Dialogue: 0,0:16:31.70,0:16:34.73,DCFlashback,KOGORO,0000,0000,0000,,Mayako-san! Mayako-san!
+Dialogue: 0,0:16:35.55,0:16:38.81,DCMain,KOGORO,0000,0000,0000,,Then I arrived and discovered Mayako-san.
+Dialogue: 0,0:16:39.18,0:16:42.67,DCMain,KOGORO,0000,0000,0000,,Even though I hadn't witnessed the murder,
+Dialogue: 0,0:16:42.67,0:16:45.47,DCMain,KOGORO,0000,0000,0000,,I'd be convinced Nagamine-san killed her.
+Dialogue: 0,0:16:46.18,0:16:47.25,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:16:47.25,0:16:50.57,DCMain,MEGURE,0000,0000,0000,,They attempted to frame Nagamine-san
+Dialogue: 0,0:16:50.57,0:16:54.45,DCMain,MEGURE,0000,0000,0000,,by having a detective like \Nyou testify that he did it.
+Dialogue: 0,0:16:54.67,0:16:58.94,DCMain,KOGORO,0000,0000,0000,,Conan, could you ask Detective Takagi \Nto do what I told you earlier?
+Dialogue: 0,0:16:58.94,0:17:00.20,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:17:00.65,0:17:02.06,DCMain,CONAN,0000,0000,0000,,Detective Takagi.
+Dialogue: 0,0:17:02.06,0:17:03.46,DCMain,TAKAGI,0000,0000,0000,,Yeah?
+Dialogue: 0,0:17:04.09,0:17:05.07,DCMain,CONAN,0000,0000,0000,,Listen...
+Dialogue: 0,0:17:06.74,0:17:10.77,DCMain,BIKE WOMAN,0000,0000,0000,,Can I leave now?
+Dialogue: 0,0:17:10.77,0:17:13.88,DCMain,TAKAGI,0000,0000,0000,,Thank you for your cooperation.
+Dialogue: 0,0:17:13.88,0:17:15.97,DCMain,TAKAGI,0000,0000,0000,,You can leave for today.
+Dialogue: 0,0:17:19.64,0:17:22.12,DCMain,MEGURE,0000,0000,0000,,Takagi-kun, what's that sound?
+Dialogue: 0,0:17:22.12,0:17:25.52,DCMain,TAKAGI,0000,0000,0000,,It's Mayako-san's phone.
+Dialogue: 0,0:17:25.52,0:17:32.27,DCMain,TAKAGI,0000,0000,0000,,While thoroughly searching her bag earlier,
+Dialogue: 0,0:17:33.66,0:17:35.49,DCMain,TAKAGI,0000,0000,0000,,I found this beneath the false bottom.
+Dialogue: 0,0:17:35.74,0:17:38.74,DCMain,TAKAGI,0000,0000,0000,,Conan-kun just told me to make a call.
+Dialogue: 0,0:17:42.26,0:17:49.00,DCMain,KOGORO,0000,0000,0000,,The culprit used pay phones to call me, but \Nthey sent directions to Mayako-san's phone.
+Dialogue: 0,0:17:49.66,0:17:53.81,DCMain,KOGORO,0000,0000,0000,,The last call she received today \Nmust have been from the culprit.
+Dialogue: 0,0:17:53.81,0:17:58.25,DCMain,KOGORO,0000,0000,0000,,That's why I had Detective \NTakagi call back that number.
+Dialogue: 0,0:17:58.25,0:18:00.15,DCMain,BIKE WOMAN,0000,0000,0000,,I had nothing to do with this.
+Dialogue: 0,0:18:00.15,0:18:02.51,DCMain,BIKE WOMAN,0000,0000,0000,,I found this phone in the area.
+Dialogue: 0,0:18:02.79,0:18:06.64,DCMain,KOGORO,0000,0000,0000,,I recognize your voice.
+Dialogue: 0,0:18:07.97,0:18:10.52,DCMain,KOGORO,0000,0000,0000,,And the sound of the bells on your earrings.
+Dialogue: 0,0:18:12.69,0:18:16.90,DCMain,KOGORO,0000,0000,0000,,It wasn't Mayako-san I was speaking \Nwith over the phone, but you.
+Dialogue: 0,0:18:18.14,0:18:21.00,DCMain,KOGORO,0000,0000,0000,,Detective Takagi, don't let her leave.
+Dialogue: 0,0:18:21.00,0:18:22.20,DCMain,TAKAGI,0000,0000,0000,,Stop her!
+Dialogue: 0,0:18:34.50,0:18:35.59,DCMain,NAGAMINE,0000,0000,0000,,You!
+Dialogue: 0,0:18:35.85,0:18:38.34,DCMain,KOGORO,0000,0000,0000,,Who is she?
+Dialogue: 0,0:18:38.73,0:18:43.02,DCMain,NAGAMINE,0000,0000,0000,,Kyoko, the woman I was \Nmarried to before Mayako.
+Dialogue: 0,0:18:43.02,0:18:44.35,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:18:44.64,0:18:49.07,DCMain,NAGAMINE,0000,0000,0000,,So you're Mayako's friend?
+Dialogue: 0,0:18:49.07,0:18:51.67,DCMain,BIKE WOMAN,0000,0000,0000,,That's right. Surprised?
+Dialogue: 0,0:18:53.99,0:18:56.92,DCMain,BIKE WOMAN,0000,0000,0000,,When Mayako learned you were \Nhiding 100 million yen,
+Dialogue: 0,0:18:56.92,0:18:58.74,DCMain,BIKE WOMAN,0000,0000,0000,,she asked me for advice.
+Dialogue: 0,0:18:58.74,0:19:02.69,DCMain,BIKE WOMAN,0000,0000,0000,,So I instructed her to \Ninvite you to this park.
+Dialogue: 0,0:19:05.90,0:19:07.97,DCMain,KOGORO,0000,0000,0000,,Then you killed Mayako-san
+Dialogue: 0,0:19:07.97,0:19:14.17,DCMain,KOGORO,0000,0000,0000,,and framed Nagamine-san in an attempt \Nto keep the money for yourself.
+Dialogue: 0,0:19:14.63,0:19:15.92,DCMain,BIKE WOMAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:19:15.92,0:19:19.92,DCMain,BIKE WOMAN,0000,0000,0000,,I thought a famous detective \Nwould back me up.
+Dialogue: 0,0:19:20.77,0:19:23.64,DCFlashback,BIKE WOMAN,0000,0000,0000,,Actually, Mori-san, I have a request.
+Dialogue: 0,0:19:24.06,0:19:25.80,DCFlashback,KOGORO,0000,0000,0000,,What is it?
+Dialogue: 0,0:19:25.80,0:19:28.47,DCFlashbackItalics,BIKE WOMAN,0000,0000,0000,,Please call me Mayako.
+Dialogue: 0,0:19:35.65,0:19:39.26,DCFlashback,BIKE WOMAN,0000,0000,0000,,Kuraun Park is right at the next corner.
+Dialogue: 0,0:19:39.26,0:19:41.31,DCFlashback,BIKE WOMAN,0000,0000,0000,,I'll be there soon. Wait for me.
+Dialogue: 0,0:19:41.31,0:19:44.88,DCFlashback,MAYAKO,0000,0000,0000,,Haruhiko doesn't know you're coming.
+Dialogue: 0,0:19:44.88,0:19:46.10,DCFlashback,MAYAKO,0000,0000,0000,,He'll be so surprised.
+Dialogue: 0,0:19:46.10,0:19:47.25,DCFlashback,BIKE WOMAN,0000,0000,0000,,You're right.
+Dialogue: 0,0:19:47.25,0:19:49.32,DCFlashback,BIKE WOMAN,0000,0000,0000,,Let's teach him a lesson together.
+Dialogue: 0,0:19:49.78,0:19:50.96,DCFlashback,MAYAKO,0000,0000,0000,,See you later.
+Dialogue: 0,0:19:56.16,0:19:58.86,DCMain,BIKE WOMAN,0000,0000,0000,,Everything would've gone according to plan...
+Dialogue: 0,0:19:59.95,0:20:02.72,DCMain,BIKE WOMAN,0000,0000,0000,,if you hadn't followed Mayako.
+Dialogue: 0,0:20:09.41,0:20:11.84,DCMain,BIKE WOMAN,0000,0000,0000,,That ruined everything.
+Dialogue: 0,0:20:11.84,0:20:15.26,DCMain,BIKE WOMAN,0000,0000,0000,,Anyway, I'm impressed, Detective.
+Dialogue: 0,0:20:15.26,0:20:16.68,DCMain,BIKE WOMAN,0000,0000,0000,,How did you know?
+Dialogue: 0,0:20:17.19,0:20:18.89,DCMain,KOGORO,0000,0000,0000,,There was blood on Ran's hand
+Dialogue: 0,0:20:18.89,0:20:23.49,DCMain,KOGORO,0000,0000,0000,,even though she hadn't touched \Nanything at the crime scene.
+Dialogue: 0,0:20:23.88,0:20:25.94,DCMain,KOGORO,0000,0000,0000,,Conan, explain.
+Dialogue: 0,0:20:25.94,0:20:27.30,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:20:27.71,0:20:30.25,DCMain,CONAN,0000,0000,0000,,Ran-neechan got blood on her hand
+Dialogue: 0,0:20:31.00,0:20:34.92,DCMain,CONAN,0000,0000,0000,,when she grabbed your bike's \Nhandlebars to pick it up.
+Dialogue: 0,0:20:35.57,0:20:38.05,DCMain,CONAN,0000,0000,0000,,The blood that got on the culprit's hands
+Dialogue: 0,0:20:38.05,0:20:40.92,DCMain,CONAN,0000,0000,0000,,when they stabbed Mayako-san \Nwas on the handlebars.
+Dialogue: 0,0:20:44.85,0:20:46.61,DCMain,NAGAMINE,0000,0000,0000,,Why would you do this?
+Dialogue: 0,0:20:47.48,0:20:52.31,DCMain,BIKE WOMAN,0000,0000,0000,,I hated Mayako for taking \Nmy happiness from me.
+Dialogue: 0,0:20:52.52,0:20:53.53,DCMain,BIKE WOMAN,0000,0000,0000,,And you, too.
+Dialogue: 0,0:20:54.01,0:20:55.84,DCMain,BIKE WOMAN,0000,0000,0000,,Enough that I wanted to kill you.
+Dialogue: 0,0:20:57.09,0:20:58.54,DCMain,BIKE WOMAN,0000,0000,0000,,Do you remember?
+Dialogue: 0,0:20:58.54,0:21:02.07,DCMain,BIKE WOMAN,0000,0000,0000,,When I called you back \Nwhen we were married...
+Dialogue: 0,0:21:02.29,0:21:03.65,DCFlashback,NAGAMINE,0000,0000,0000,,Mayako?
+Dialogue: 0,0:21:03.65,0:21:06.82,DCFlashback,NAGAMINE,0000,0000,0000,,Don't worry. I told my wife \NI'm on a business trip.
+Dialogue: 0,0:21:07.13,0:21:10.66,DCMain,BIKE WOMAN,0000,0000,0000,,You mistook me for Mayako and lied to me.
+Dialogue: 0,0:21:10.66,0:21:13.83,DCMain,BIKE WOMAN,0000,0000,0000,,You told me all about your \Nplans to go on a trip with her.
+Dialogue: 0,0:21:14.31,0:21:17.84,DCMain,BIKE WOMAN,0000,0000,0000,,So I figured you wouldn't notice
+Dialogue: 0,0:21:17.84,0:21:20.91,DCMain,BIKE WOMAN,0000,0000,0000,,if I pretended to be Mayako on the phone.
+Dialogue: 0,0:22:54.68,0:23:00.14,Mori 3,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:22:54.98,0:23:00.79,DCMain,KOGORO,0000,0000,0000,,Anyway, Nagamine-san really \Nscrewed up by mixing up
+Dialogue: 0,0:23:00.79,0:23:03.51,DCMain,KOGORO,0000,0000,0000,,his wife's and mistress' \Nvoices over the phone.
+Dialogue: 0,0:23:03.51,0:23:07.67,DCMain,CONAN,0000,0000,0000,,You thought it was Mayako-san's voice, too.
+Dialogue: 0,0:23:07.67,0:23:10.88,DCMain,KOGORO,0000,0000,0000,,I'd never met her before. You can't blame me.
+Dialogue: 0,0:23:10.88,0:23:14.31,DCMain,KOGORO,0000,0000,0000,,I'd never confuse the voice \Nof a woman I'd met with—
+Dialogue: 0,0:23:14.31,0:23:16.16,DCMain,KOGORO,0000,0000,0000,,Hello, Mori Detective Agency.
+Dialogue: 0,0:23:16.67,0:23:19.33,DCItalic,VOICE,0000,0000,0000,,Hello, darling. It's me.
+Dialogue: 0,0:23:19.59,0:23:20.72,DCMain,KOGORO,0000,0000,0000,,Me who?
+Dialogue: 0,0:23:23.41,0:23:24.32,DCMain,KOGORO,0000,0000,0000,,Is that you, Eri?
+Dialogue: 0,0:23:24.78,0:23:26.69,DCMain,RAN,0000,0000,0000,,It's me, Dad.
+Dialogue: 0,0:23:26.69,0:23:27.63,DCMain,KOGORO,0000,0000,0000,,Ran?
+Dialogue: 0,0:23:27.78,0:23:31.15,DCMain,RAN,0000,0000,0000,,I can't believe you thought \NI was Mom. Are you okay?
+Dialogue: 0,0:23:31.73,0:23:33.51,DCMain,KOGORO,0000,0000,0000,,You impersonated her on purpose.
+Dialogue: 0,0:23:34.06,0:23:36.70,DCMain,KOGORO,0000,0000,0000,,It's only natural for a daughter \Nto sound like her mother.
+Dialogue: 0,0:23:36.70,0:23:39.79,DCMain,KOGORO,0000,0000,0000,,Don't play dumb pranks on me. Hmph!
+Dialogue: 0,0:23:40.69,0:23:41.96,DCItalic,CONAN,0000,0000,0000,,He's hopeless.
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:46.48,0:23:47.84,DCMain,WOMAN,0000,0000,0000,,Is someone there?
+Dialogue: 0,0:23:52.88,0:23:55.62,DCMain,SATO,0000,0000,0000,,At first glance, this seems \Nlike an unfortunate accident.
+Dialogue: 0,0:23:55.62,0:23:58.79,DCMain,SATO,0000,0000,0000,,But all of this was planned
+Dialogue: 0,0:23:59.11,0:24:00.75,DCMain,SATO,0000,0000,0000,,without your knowledge, Mai-san.
+Dialogue: 0,0:24:01.30,0:24:02.54,DCMain,WOMAN,0000,0000,0000,,You're kidding, right?
+Dialogue: 0,0:24:02.81,0:24:09.05,DCMain,WOMAN,0000,0000,0000,,Riko, how could you make \Nme kill Yusuke over that?
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,SIGN,0000,0000,0000,,The Surprise That Leads to Tragedy
+Dialogue: 0,0:24:09.63,0:24:13.62,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "The \NSurprise That Leads to Tragedy!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,SIGN,0000,0000,0000,,Handkerchief
+Dialogue: 0,0:24:30.33,0:24:32.65,DCMain,RAN,0000,0000,0000,,Next Conan's hint.
+Dialogue: 0,0:24:32.65,0:24:34.15,DCMain,CONAN,0000,0000,0000,,A handkerchief!
+Dialogue: 0,0:24:34.99,0:24:36.32,DCMain,TAKAGI,0000,0000,0000,,{\an8}Hello, this is Takagi.
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.32,0:24:38.06,DCMain,KOGORO,0000,0000,0000,,{\an8}I bet you like eel bowls, don't you?
+Dialogue: 0,0:24:38.06,0:24:39.73,DCMain,CONAN,0000,0000,0000,,{\an8}You're not wrong.

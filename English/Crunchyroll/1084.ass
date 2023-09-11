@@ -1,0 +1,420 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Aizawa,Trebuchet MS,22,&H004B4056,&H000000FF,&H009AB8FA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: Ai,Trebuchet MS,22,&H004B4056,&H000000FF,&H009AB8FA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Safety,Trebuchet MS,22,&H001F1B0D,&H000000FF,&H00494D70,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0045,0
+Style: Kenzo,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00A46365,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0035,0020,0062,0
+Style: Bando,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00934E4A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0160,0020,0062,0
+Style: Hospital,Trebuchet MS,16,&H00402814,&H000000FF,&H0086623E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0135,0020,0165,0
+Style: Kadome,Trebuchet MS,18,&H00503D41,&H000000FF,&H00DFCE95,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0045,0120,0
+Style: Wash,Trebuchet MS,22,&H00BB915E,&H000000FF,&H00D6D7D5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: Ryochi,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00835263,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0025,0020,0062,0
+Style: Reiji,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00786D71,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0050,0062,0
+Style: Treatment,Trebuchet MS,18,&H00383B38,&H000000FF,&H00D7D8D5,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0080,0020,0020,0
+Style: Kadome2,Trebuchet MS,26,&H00564844,&H000000FF,&H00B09F7B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0175,0020,0020,0
+Style: Ai2,Trebuchet MS,18,&H004D4032,&H000000FF,&H00E1DACE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Aizawa2,Trebuchet MS,22,&H00443653,&H000000FF,&H009A9FDE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0047,0020,0020,0
+Style: Aizawa3,Trebuchet MS,22,&H00636055,&H000000FF,&H00B7B2A5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Aizawa4,Trebuchet MS,22,&H004A4138,&H000000FF,&H00C8C9A0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:03.77,0:00:06.48,Aizawa,SIGNS,0000,0000,0000,,{\an8}Ai\NAizawa Foods
+Dialogue: 0,0:00:08.48,0:00:10.65,Safety,SIGN ABOVE DOOR @ 00:09,0000,0000,0000,,Safety First
+Dialogue: 0,0:00:14.70,0:00:17.74,Kenzo,SIGN,0000,0000,0000,,{\fad(370,1)}Aizawa Kenzo (72) \NAizawa Foods Company President
+Dialogue: 0,0:00:46.43,0:00:49.32,DCMain,BANDO,0000,0000,0000,,Sir, are you in here?
+Dialogue: 0,0:00:50.44,0:00:52.07,DCMain,BANDO,0000,0000,0000,,S-Sir?
+Dialogue: 0,0:00:52.69,0:00:54.53,DCMain,BANDO,0000,0000,0000,,Are you all right, sir?
+Dialogue: 0,0:00:56.29,0:00:59.37,DCMain,BANDO,0000,0000,0000,,{\an8}Your body's freezing. We need \Nto get you to the hospital.
+Dialogue: 0,0:00:56.36,0:00:59.37,Bando,SIGN,0000,0000,0000,,{\fad(370,1)}Bando Masaru (69) \NAizawa Foods Managing Director
+Dialogue: 0,0:01:02.86,0:01:03.79,DCMain,BANDO,0000,0000,0000,,Sir?
+Dialogue: 0,0:01:07.83,0:01:10.41,DCMain,BANDO,0000,0000,0000,,S-Sir!
+Dialogue: 0,0:01:11.77,0:01:13.82,DCMain,CONAN,0000,0000,0000,,Beyond detective skills \Ncapable of identifying the truth
+Dialogue: 0,0:01:13.82,0:01:16.17,DCMain,CONAN,0000,0000,0000,,is the power to lead us \Nto what we should believe.
+Dialogue: 0,0:01:16.17,0:01:17.87,DCMain,CONAN,0000,0000,0000,,A rift forms between a father and his sons.
+Dialogue: 0,0:01:17.87,0:01:19.77,DCMain,CONAN,0000,0000,0000,,Trapped within are love and hate.
+Dialogue: 0,0:01:19.77,0:01:21.41,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:21.41,0:01:23.35,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:23.35,0:01:25.76,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:06.95,0:03:12.96,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(370,1)}The Freezing Cold Men
+Dialogue: 0,0:03:07.62,0:03:09.76,DCMain,CONAN,0000,0000,0000,,"The Freezing Cold Men!"
+Dialogue: 0,0:03:12.96,0:03:15.46,Hospital,SIGN LEFT,0000,0000,0000,,Beika Chuo Hospital
+Dialogue: 0,0:03:12.96,0:03:15.46,Kadome,SIGN RIGHT,0000,0000,0000,,Kadome
+Dialogue: 0,0:03:14.28,0:03:16.66,DCMain,KOGORO,0000,0000,0000,,I'm glad it wasn't serious.
+Dialogue: 0,0:03:15.46,0:03:17.71,Wash,SIGN,0000,0000,0000,,Wash your hands!
+Dialogue: 0,0:03:16.66,0:03:19.47,DCMain,RAN,0000,0000,0000,,I can't believe you made such a fuss \Nover a little cut from a knife.
+Dialogue: 0,0:03:21.23,0:03:22.22,DCMain,RAN,0000,0000,0000,,It's embarrassing.
+Dialogue: 0,0:03:25.37,0:03:27.97,DCMain,REIJI,0000,0000,0000,,You can't be serious, bro!
+Dialogue: 0,0:03:32.40,0:03:34.48,DCMain,RAN,0000,0000,0000,,Hey, what are you doing?
+Dialogue: 0,0:03:35.03,0:03:35.93,DCMain,KOGORO,0000,0000,0000,,Hey.
+Dialogue: 0,0:03:35.93,0:03:36.94,DCMain,CONAN,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:03:37.57,0:03:40.06,DCMain,RYOICHI,0000,0000,0000,,Yes, I'm fine.
+Dialogue: 0,0:03:42.11,0:03:44.82,Ryochi,SIGN,0000,0000,0000,,{\fad(370,1)}Aizawa Ryoichi (33) \NKenzo's Older Son
+Dialogue: 0,0:03:42.39,0:03:44.82,DCMain,RYOICHI,0000,0000,0000,,{\an8}You resort to violence the \Nmoment you get upset, huh?
+Dialogue: 0,0:03:44.82,0:03:47.69,DCMain,RYOICHI,0000,0000,0000,,Reiji, are you the one \Nwho attacked our father, too?
+Dialogue: 0,0:03:47.70,0:03:51.21,DCMain,REIJI,0000,0000,0000,,{\an8}I thought {\i1}you'd{\i0} finally done something.
+Dialogue: 0,0:03:48.04,0:03:51.21,Reiji,SIGN,0000,0000,0000,,{\fad(370,1)}Aizawa Reiji (29) \NKenzo's Younger Son
+Dialogue: 0,0:03:51.21,0:03:54.21,DCMain,BANDO,0000,0000,0000,,Both of you, the president \Nis still being treated.
+Dialogue: 0,0:03:54.21,0:03:55.96,Treatment,SIGN,0000,0000,0000,,Treatment Room
+Dialogue: 0,0:03:58.72,0:04:00.97,DCMain,KOGORO,0000,0000,0000,,What exactly happened?
+Dialogue: 0,0:04:00.97,0:04:04.53,DCMain,CONAN,0000,0000,0000,,This man is the great detective Mori Kogoro.
+Dialogue: 0,0:04:04.53,0:04:06.39,DCMain,CONAN,0000,0000,0000,,You can tell him anything.
+Dialogue: 0,0:04:10.04,0:04:12.41,DCMain,RYOICHI,0000,0000,0000,,Just discussing what happened is free, right?
+Dialogue: 0,0:04:12.41,0:04:13.98,DCMain,KOGORO,0000,0000,0000,,Well, yes.
+Dialogue: 0,0:04:13.98,0:04:15.85,DCMain,RYOICHI,0000,0000,0000,,Why not, Bando-san?
+Dialogue: 0,0:04:16.44,0:04:18.48,DCItalic,CONAN,0000,0000,0000,,He's rather shrewd.
+Dialogue: 0,0:04:18.92,0:04:20.34,DCMain,BANDO,0000,0000,0000,,But...
+Dialogue: 0,0:04:20.34,0:04:23.55,DCMain,REIJI,0000,0000,0000,,Tell him. I don't mind.
+Dialogue: 0,0:04:24.51,0:04:27.12,DCItalic,CONAN,0000,0000,0000,,And he reeks of liquor.
+Dialogue: 0,0:04:31.37,0:04:35.87,DCMain,BANDO,0000,0000,0000,,We work for a small food company \Ncalled Aizawa Foods.
+Dialogue: 0,0:04:35.87,0:04:37.50,DCMain,RYOICHI,0000,0000,0000,,Our father is the president.
+Dialogue: 0,0:04:37.50,0:04:40.85,DCMain,RYOICHI,0000,0000,0000,,Bando-san, who's been his right-hand man \Nfor years, is the senior executive director.
+Dialogue: 0,0:04:40.85,0:04:42.63,DCMain,RYOICHI,0000,0000,0000,,My brother and I are managing directors.
+Dialogue: 0,0:04:42.63,0:04:47.21,DCMain,REIJI,0000,0000,0000,,Why are you going on about titles \Nwhen we're the only employees?
+Dialogue: 0,0:04:47.21,0:04:50.68,DCMain,REIJI,0000,0000,0000,,After all, somebody fired all the others.
+Dialogue: 0,0:04:50.68,0:04:52.89,DCMain,RYOICHI,0000,0000,0000,,I simply removed what we didn't need.
+Dialogue: 0,0:04:55.44,0:04:59.16,DCMain,BANDO,0000,0000,0000,,I had today off, so I spent \Nthe whole day sleeping at home.
+Dialogue: 0,0:04:59.16,0:05:01.09,DCMain,BANDO,0000,0000,0000,,I think it was around 7PM
+Dialogue: 0,0:05:01.09,0:05:04.93,DCMain,BANDO,0000,0000,0000,,when noticed I'd forgotten my phone \Nat the office and went to get it.
+Dialogue: 0,0:05:04.93,0:05:07.82,DCMain,BANDO,0000,0000,0000,,The president's briefcase was still there,
+Dialogue: 0,0:05:07.82,0:05:10.92,DCMain,BANDO,0000,0000,0000,,and when I went to the refrigerated \Nwarehouse to check on him, he was...
+Dialogue: 0,0:05:11.47,0:05:12.97,DCMain,KOGORO,0000,0000,0000,,Refrigerated warehouse?
+Dialogue: 0,0:05:12.97,0:05:15.62,DCMain,RYOICHI,0000,0000,0000,,The refrigerated warehouse \Nwe use to store products.
+Dialogue: 0,0:05:15.62,0:05:18.91,DCMain,REIJI,0000,0000,0000,,Even the safety features are \Nrusted on that run-down thing
+Dialogue: 0,0:05:18.91,0:05:21.43,DCMain,REIJI,0000,0000,0000,,because my brother's so stingy.
+Dialogue: 0,0:05:21.43,0:05:23.97,DCMain,RYOICHI,0000,0000,0000,,We don't have the money to buy a new one.
+Dialogue: 0,0:05:23.97,0:05:28.67,DCMain,BANDO,0000,0000,0000,,In any case, the president has always \Ninspected the office and locked up
+Dialogue: 0,0:05:28.67,0:05:30.41,DCMain,BANDO,0000,0000,0000,,after everyone else has gone home.
+Dialogue: 0,0:05:30.41,0:05:32.14,DCMain,KOGORO,0000,0000,0000,,And during his inspection—
+Dialogue: 0,0:05:34.37,0:05:36.13,DCMain,BANDO,0000,0000,0000,,Doctor, how is he?
+Dialogue: 0,0:05:38.13,0:05:40.06,DCMain,KENZO,0000,0000,0000,,I was just taking a nap.
+Dialogue: 0,0:05:40.06,0:05:42.32,Kadome2,SIGN,0000,0000,0000,,Kadome
+Dialogue: 0,0:05:40.75,0:05:42.32,DCMain,KOGORO,0000,0000,0000,,A nap, huh?
+Dialogue: 0,0:05:42.32,0:05:45.21,DCMain,KENZO,0000,0000,0000,,Yes. It was an accident.
+Dialogue: 0,0:05:45.21,0:05:47.24,DCMain,RYOICHI,0000,0000,0000,,Doctor, how is our father?
+Dialogue: 0,0:05:47.24,0:05:50.15,DCMain,DOCTOR,0000,0000,0000,,He's fine. He should be able \Nto go home tomorrow.
+Dialogue: 0,0:05:50.15,0:05:51.19,DCMain,BANDO,0000,0000,0000,,That's great.
+Dialogue: 0,0:05:51.19,0:05:53.29,DCMain,KENZO,0000,0000,0000,,I must've been tired.
+Dialogue: 0,0:05:53.29,0:05:56.08,DCMain,KENZO,0000,0000,0000,,I only meant to take a quick \Nbreak during my inspection.
+Dialogue: 0,0:05:56.08,0:05:58.67,DCMain,KENZO,0000,0000,0000,,How embarrassing.
+Dialogue: 0,0:06:00.08,0:06:02.27,DCMain,DOCTOR,0000,0000,0000,,Please be careful.
+Dialogue: 0,0:06:02.27,0:06:05.48,DCMain,DOCTOR,0000,0000,0000,,Ten minutes later, and \Nit would've been too late.
+Dialogue: 0,0:06:06.34,0:06:09.91,DCMain,KENZO,0000,0000,0000,,You saved me again, Masaru.
+Dialogue: 0,0:06:09.91,0:06:11.10,DCMain,BANDO,0000,0000,0000,,Sir...
+Dialogue: 0,0:06:11.10,0:06:13.97,DCMain,CONAN,0000,0000,0000,,You took a break inside \Nthe refrigerated warehouse?
+Dialogue: 0,0:06:13.97,0:06:15.26,DCMain,KENZO,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:06:15.26,0:06:18.31,DCMain,RYOICHI,0000,0000,0000,,This has made things clear. \NWe can't have a senile president.
+Dialogue: 0,0:06:18.31,0:06:20.50,DCMain,RYOICHI,0000,0000,0000,,You have to quit. You're causing problems.
+Dialogue: 0,0:06:20.50,0:06:22.79,DCMain,REIJI,0000,0000,0000,,I agree. You were napping?
+Dialogue: 0,0:06:22.79,0:06:25.88,DCMain,REIJI,0000,0000,0000,,It would've been better if \Nyou'd stayed asleep forever.
+Dialogue: 0,0:06:25.88,0:06:27.29,DCMain,RAN,0000,0000,0000,,You shouldn't say that.
+Dialogue: 0,0:06:27.29,0:06:28.11,DCMain,BANDO,0000,0000,0000,,Boys.
+Dialogue: 0,0:06:29.86,0:06:31.09,DCMain,REIJI,0000,0000,0000,,What?
+Dialogue: 0,0:06:31.09,0:06:34.85,DCMain,REIJI,0000,0000,0000,,You're not going to yell \Nlike you always do? Creepy.
+Dialogue: 0,0:06:35.87,0:06:39.21,DCMain,KENZO,0000,0000,0000,,I'm tired. Please leave me alone, everyone.
+Dialogue: 0,0:06:39.21,0:06:40.50,DCMain,DOCTOR,0000,0000,0000,,I should go.
+Dialogue: 0,0:06:40.50,0:06:43.17,DCMain,CONAN,0000,0000,0000,,Is your hand okay?
+Dialogue: 0,0:06:45.30,0:06:51.54,DCMain,CONAN,0000,0000,0000,,I bang on the bathroom door in the morning \Nwhen the old man is inside so he'll open it.
+Dialogue: 0,0:06:51.54,0:06:53.80,DCMain,CONAN,0000,0000,0000,,That's how you got that, right?
+Dialogue: 0,0:06:54.13,0:06:58.20,DCMain,KOGORO,0000,0000,0000,,How odd. It's as though \Nsomeone trapped you inside.
+Dialogue: 0,0:06:58.20,0:07:02.56,DCMain,KENZO,0000,0000,0000,,As if. I know, I must've hit it \Non the floor when I fell asleep.
+Dialogue: 0,0:07:02.56,0:07:07.19,DCMain,CONAN,0000,0000,0000,,Wow, you broke your fall with your \Nhand even though you were asleep?
+Dialogue: 0,0:07:07.19,0:07:09.07,DCMain,RYOICHI,0000,0000,0000,,It certainly is strange.
+Dialogue: 0,0:07:09.37,0:07:12.09,DCMain,CONAN,0000,0000,0000,,Maybe you didn't actually take a nap.
+Dialogue: 0,0:07:12.09,0:07:13.95,DCMain,KENZO,0000,0000,0000,,Why would I lie about that?
+Dialogue: 0,0:07:13.95,0:07:17.33,Kadome2,SIGN,0000,0000,0000,,Kadome
+Dialogue: 0,0:07:13.95,0:07:17.33,DCMain,KOGORO,0000,0000,0000,,Because you don't want this \Nto become a legal case.
+Dialogue: 0,0:07:17.33,0:07:19.33,DCMain,KENZO,0000,0000,0000,,That's nonsense!
+Dialogue: 0,0:07:22.93,0:07:25.96,DCMain,RYOICHI,0000,0000,0000,,Mori-san, I have a request.
+Dialogue: 0,0:07:33.72,0:07:37.22,Ai2,SIGN CIRCLE,0000,0000,0000,,{\fs30\pos(315,108)}Aizawa Foods
+Dialogue: 0,0:07:33.72,0:07:37.22,Ai2,SIGN CIRCLE,0000,0000,0000,,{\pos(316,41)}Ai
+Dialogue: 0,0:07:33.72,0:07:37.22,Ai2,SIGN CIRCLE,0000,0000,0000,,{\fs14\pos(316,207)\3c&H716256&\c&H4C3C2A&}Safety First
+Dialogue: 0,0:07:34.14,0:07:37.22,DCMain,KOGORO,0000,0000,0000,,I see. So this is the refrigerated warehouse.
+Dialogue: 0,0:07:37.22,0:07:41.48,DCMain,RYOICHI,0000,0000,0000,,As you said, we've kept everything \Nthe same as it was yesterday.
+Dialogue: 0,0:07:41.93,0:07:44.68,DCMain,CONAN,0000,0000,0000,,Didn't you just get out of the hospital?
+Dialogue: 0,0:07:44.68,0:07:46.44,DCMain,CONAN,0000,0000,0000,,You should be resting.
+Dialogue: 0,0:07:46.44,0:07:47.90,DCMain,KENZO,0000,0000,0000,,I can't.
+Dialogue: 0,0:07:47.90,0:07:53.06,DCMain,REIJI,0000,0000,0000,,That's odd, though. My stingy \Nbrother hired a detective?
+Dialogue: 0,0:07:53.06,0:07:54.92,DCMain,REIJI,0000,0000,0000,,What are you planning?
+Dialogue: 0,0:07:54.92,0:07:56.39,DCMain,RYOICHI,0000,0000,0000,,When it comes to risk management,
+Dialogue: 0,0:07:56.39,0:07:59.25,DCMain,RYOICHI,0000,0000,0000,,you end up paying for it later \Nif you're stingy to begin with.
+Dialogue: 0,0:07:59.25,0:08:01.00,DCMain,RYOICHI,0000,0000,0000,,You're a perfect example.
+Dialogue: 0,0:08:01.00,0:08:03.30,DCMain,RYOICHI,0000,0000,0000,,If you'd been disciplined \Nproperly as a child—
+Dialogue: 0,0:08:03.30,0:08:05.08,DCMain,REIJI,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:08:05.08,0:08:06.54,DCMain,CONAN,0000,0000,0000,,Hey, look at this.
+Dialogue: 0,0:08:07.89,0:08:09.84,DCMain,KOGORO,0000,0000,0000,,Is this the only lock?
+Dialogue: 0,0:08:09.84,0:08:12.57,DCMain,RYOICHI,0000,0000,0000,,Yes. It can only be locked from the outside.
+Dialogue: 0,0:08:12.57,0:08:15.43,DCMain,CONAN,0000,0000,0000,,Was it locked when you found the president?
+Dialogue: 0,0:08:15.43,0:08:18.94,DCMain,KOGORO,0000,0000,0000,,I see. If this was an accident, \Nthen it shouldn't have been locked.
+Dialogue: 0,0:08:18.94,0:08:20.68,DCMain,KOGORO,0000,0000,0000,,But if someone locked it, then...
+Dialogue: 0,0:08:20.68,0:08:22.49,DCMain,BANDO,0000,0000,0000,,Let's see...
+Dialogue: 0,0:08:22.99,0:08:24.44,DCMain,BANDO,0000,0000,0000,,I don't remember.
+Dialogue: 0,0:08:24.44,0:08:26.79,DCMain,RYOICHI,0000,0000,0000,,Bando-san, be honest.
+Dialogue: 0,0:08:28.05,0:08:30.19,DCMain,BANDO,0000,0000,0000,,It was locked.
+Dialogue: 0,0:08:33.45,0:08:36.19,DCMain,RAN,0000,0000,0000,,So someone locked the president inside?
+Dialogue: 0,0:08:36.19,0:08:38.26,DCMain,KOGORO,0000,0000,0000,,Where's the key to this padlock?
+Dialogue: 0,0:08:38.26,0:08:42.08,DCMain,RYOICHI,0000,0000,0000,,In the office. Anyone from our company \Nwould have been able to use it.
+Dialogue: 0,0:08:42.42,0:08:44.84,DCMain,KOGORO,0000,0000,0000,,So the culprit is one of you.
+Dialogue: 0,0:08:46.05,0:08:47.93,DCMain,CONAN,0000,0000,0000,,What about former employees?
+Dialogue: 0,0:08:47.93,0:08:51.02,DCMain,CONAN,0000,0000,0000,,They were all fired, right? \NMaybe they resented that.
+Dialogue: 0,0:08:51.02,0:08:52.18,DCMain,KENZO,0000,0000,0000,,That's impossible.
+Dialogue: 0,0:08:52.18,0:08:53.70,DCMain,CONAN,0000,0000,0000,,Why?
+Dialogue: 0,0:08:53.70,0:08:54.88,DCMain,KENZO,0000,0000,0000,,Because...
+Dialogue: 0,0:08:54.88,0:08:57.76,DCMain,CONAN,0000,0000,0000,,It sounds like you know who the culprit is.
+Dialogue: 0,0:09:09.71,0:09:11.62,DCMain,BANDO,0000,0000,0000,,Are you all right, sir?
+Dialogue: 0,0:09:12.03,0:09:14.86,DCMain,KENZO,0000,0000,0000,,Yeah. I just felt a little dizzy.
+Dialogue: 0,0:09:23.38,0:09:25.29,DCMain,KOGORO,0000,0000,0000,,It's freezing.
+Dialogue: 0,0:09:28.53,0:09:30.72,DCMain,KOGORO,0000,0000,0000,,Someone must've done it on purpose.
+Dialogue: 0,0:09:30.72,0:09:32.93,DCMain,RAN,0000,0000,0000,,Dad, we should call the police.
+Dialogue: 0,0:09:32.93,0:09:34.05,DCMain,KENZO,0000,0000,0000,,Don't!
+Dialogue: 0,0:09:34.05,0:09:36.83,DCMain,KENZO,0000,0000,0000,,For our small company, trust is everything.
+Dialogue: 0,0:09:36.83,0:09:38.51,DCMain,KENZO,0000,0000,0000,,We're already in debt.
+Dialogue: 0,0:09:38.51,0:09:41.36,DCMain,KENZO,0000,0000,0000,,The police merely showing up \Nwould destroy us.
+Dialogue: 0,0:09:41.36,0:09:46.16,DCMain,KOGORO,0000,0000,0000,,But you got lucky when \Nyou were rescued yesterday.
+Dialogue: 0,0:09:46.16,0:09:47.81,DCMain,KOGORO,0000,0000,0000,,The next time...
+Dialogue: 0,0:09:49.33,0:09:52.24,DCMain,BANDO,0000,0000,0000,,The president has labored for decades
+Dialogue: 0,0:09:52.24,0:09:55.22,DCMain,BANDO,0000,0000,0000,,trying to protect the company \Nthe previous president gave to him.
+Dialogue: 0,0:09:55.22,0:09:58.28,DCMain,BANDO,0000,0000,0000,,I've watched him this whole time.
+Dialogue: 0,0:09:58.28,0:10:00.78,DCMain,BANDO,0000,0000,0000,,Please take his feelings into account.
+Dialogue: 0,0:10:02.10,0:10:05.30,DCMain,CONAN,0000,0000,0000,,You're doing it for the company? \NIs that really the only reason?
+Dialogue: 0,0:10:06.01,0:10:10.07,DCMain,CONAN,0000,0000,0000,,Are you sure you're not protecting \Nsomething more important than the company?
+Dialogue: 0,0:10:10.07,0:10:12.29,DCMain,REIJI,0000,0000,0000,,Our dad doesn't have anything like that.
+Dialogue: 0,0:10:12.29,0:10:16.45,DCMain,REIJI,0000,0000,0000,,He's only ever cared about the company. \NWhen our mother collapsed...
+Dialogue: 0,0:10:17.30,0:10:21.55,DCMain,RAN,0000,0000,0000,,Maybe that's why he's protecting \Nhis family this time.
+Dialogue: 0,0:10:21.55,0:10:26.91,DCMain,RYOICHI,0000,0000,0000,,Come to think of it, you got into a shouting \Nmatch with Dad yesterday afternoon.
+Dialogue: 0,0:10:26.91,0:10:29.48,DCMain,REIJI,0000,0000,0000,,I wouldn't go this far over an argument.
+Dialogue: 0,0:10:29.48,0:10:31.25,DCMain,REIJI,0000,0000,0000,,And I've got an alibi.
+Dialogue: 0,0:10:31.25,0:10:34.95,DCMain,REIJI,0000,0000,0000,,I was drinking all evening \Nat a place called Club L.
+Dialogue: 0,0:10:34.95,0:10:38.46,DCMain,KOGORO,0000,0000,0000,,That's a high-class club \Nwith beautiful women.
+Dialogue: 0,0:10:39.39,0:10:40.68,DCMain,KOGORO,0000,0000,0000,,I'm so jealous.
+Dialogue: 0,0:10:40.68,0:10:41.54,DCMain,RAN,0000,0000,0000,,Dad.
+Dialogue: 0,0:10:41.54,0:10:42.82,DCItalic,CONAN,0000,0000,0000,,You perv.
+Dialogue: 0,0:10:42.82,0:10:45.77,DCMain,REIJI,0000,0000,0000,,I've made a reservation \Nagain today. I gotta go.
+Dialogue: 0,0:10:45.77,0:10:48.44,DCMain,BANDO,0000,0000,0000,,Reiji-san, please tone down your partying.
+Dialogue: 0,0:10:48.44,0:10:49.29,DCMain,REIJI,0000,0000,0000,,Out of my way!
+Dialogue: 0,0:10:58.48,0:11:03.69,DCMain,CONAN,0000,0000,0000,,Ryoichi-san, is the door left open when \Nthe president conducts his inspection?
+Dialogue: 0,0:11:03.69,0:11:07.43,DCMain,RYOICHI,0000,0000,0000,,No, he closes it so the cold air \Ndoesn't get out.
+Dialogue: 0,0:11:11.23,0:11:13.06,DCItalic,CONAN,0000,0000,0000,,It really {\i0}is{\i1} freezing.
+Dialogue: 0,0:11:19.40,0:11:20.94,DCMain,KENZO,0000,0000,0000,,Come on. Haven't you seen enough?
+Dialogue: 0,0:11:20.94,0:11:21.99,DCMain,KOGORO,0000,0000,0000,,But...
+Dialogue: 0,0:11:21.99,0:11:23.99,DCMain,KENZO,0000,0000,0000,,Get out of here.
+Dialogue: 0,0:11:23.99,0:11:27.49,Aizawa2,SIGN,0000,0000,0000,,{\an8}Aizawa Foods
+Dialogue: 0,0:11:25.53,0:11:27.49,DCMain,KOGORO,0000,0000,0000,,The case is coming into focus.
+Dialogue: 0,0:11:27.88,0:11:29.92,DCMain,KOGORO,0000,0000,0000,,Reiji-san is most suspicious.
+Dialogue: 0,0:11:29.92,0:11:31.49,DCMain,RAN,0000,0000,0000,,But he has an alibi.
+Dialogue: 0,0:11:31.49,0:11:33.40,DCMain,RYOICHI,0000,0000,0000,,Reiji goes there all the time.
+Dialogue: 0,0:11:33.40,0:11:35.90,DCMain,RYOICHI,0000,0000,0000,,I'm sure they'd help him fake an alibi.
+Dialogue: 0,0:11:35.90,0:11:37.25,DCMain,RAN,0000,0000,0000,,Then...
+Dialogue: 0,0:11:37.25,0:11:39.51,DCMain,CONAN,0000,0000,0000,,Ryoichi-san, what's your alibi?
+Dialogue: 0,0:11:40.63,0:11:42.81,DCMain,CONAN,0000,0000,0000,,We haven't heard yours yet.
+Dialogue: 0,0:11:42.81,0:11:46.46,DCMain,RYOICHI,0000,0000,0000,,After leaving the company at five, \NI was working from home the whole time.
+Dialogue: 0,0:11:46.46,0:11:48.80,DCMain,KOGORO,0000,0000,0000,,Can anyone verify that?
+Dialogue: 0,0:11:48.80,0:11:49.93,DCMain,RYOICHI,0000,0000,0000,,No.
+Dialogue: 0,0:11:49.93,0:11:53.37,DCMain,CONAN,0000,0000,0000,,Why didn't you work at the office?
+Dialogue: 0,0:11:53.37,0:11:54.40,DCMain,RYOICHI,0000,0000,0000,,Because...
+Dialogue: 0,0:11:54.40,0:11:56.12,DCMain,RYOICHI,0000,0000,0000,,It doesn't matter.
+Dialogue: 0,0:11:56.12,0:12:00.19,DCMain,RYOICHI,0000,0000,0000,,Besides, if I were the culprit, \NI wouldn't have hired a detective.
+Dialogue: 0,0:12:00.19,0:12:02.65,DCMain,RYOICHI,0000,0000,0000,,Isn't that right, Detective Mori?
+Dialogue: 0,0:12:02.65,0:12:07.32,DCMain,KOGORO,0000,0000,0000,,That's right. And you stay out of this, kid!
+Dialogue: 0,0:12:07.32,0:12:08.91,DCMain,CONAN,0000,0000,0000,,Okay...
+Dialogue: 0,0:12:09.50,0:12:11.50,DCMain,HOSTRESS,0000,0000,0000,,Well? Do you think it'll work?
+Dialogue: 0,0:12:11.50,0:12:13.33,DCMain,REIJI,0000,0000,0000,,Tonight's the night.
+Dialogue: 0,0:12:13.33,0:12:16.62,DCMain,REIJI,0000,0000,0000,,If it comes to it, I'm prepared \Nto do what I have to do.
+Dialogue: 0,0:12:17.42,0:12:20.95,DCMain,BANDO,0000,0000,0000,,What? What time did Ryoichi-san \Narrive at the hospital?
+Dialogue: 0,0:12:21.80,0:12:24.44,DCMain,BANDO,0000,0000,0000,,Come to think of it, he arrived pretty early.
+Dialogue: 0,0:12:24.44,0:12:26.25,DCMain,CONAN,0000,0000,0000,,He didn't come from home?
+Dialogue: 0,0:12:26.25,0:12:29.38,DCMain,BANDO,0000,0000,0000,,No. That would've taken him longer.
+Dialogue: 0,0:12:29.38,0:12:32.01,DCMain,BANDO,0000,0000,0000,,Does Mori-san suspect Ryoichi-san?
+Dialogue: 0,0:12:32.01,0:12:33.90,DCMain,CONAN,0000,0000,0000,,But he doesn't have a motive.
+Dialogue: 0,0:12:33.90,0:12:37.49,DCMain,BANDO,0000,0000,0000,,Actually, Ryoichi-san is eager \Nto take over the company.
+Dialogue: 0,0:12:37.49,0:12:40.07,DCMain,BANDO,0000,0000,0000,,He'd mercilessly get rid \Nof anything in his way,
+Dialogue: 0,0:12:40.51,0:12:43.18,DCMain,BANDO,0000,0000,0000,,even if that's his father.
+Dialogue: 0,0:12:50.49,0:12:53.21,Aizawa3,SIGN,0000,0000,0000,,{\fad(210,10}Aizawa Foods
+Dialogue: 0,0:12:53.52,0:12:57.21,DCMain,BANDO,0000,0000,0000,,I can't believe those adorable \Nchildren ended up like that.
+Dialogue: 0,0:12:58.07,0:13:00.46,DCMain,BANDO,0000,0000,0000,,Oh, I'm sorry. I couldn't help myself.
+Dialogue: 0,0:13:03.88,0:13:06.13,DCMain,CONAN,0000,0000,0000,,Wow, these look good!
+Dialogue: 0,0:13:06.95,0:13:07.71,DCMain,BANDO,0000,0000,0000,,Hey.
+Dialogue: 0,0:13:07.71,0:13:11.65,DCMain,KOGORO,0000,0000,0000,,Sorry. The kid wouldn't listen.
+Dialogue: 0,0:13:11.65,0:13:13.37,DCMain,CONAN,0000,0000,0000,,Where did these come from?
+Dialogue: 0,0:13:13.37,0:13:15.24,DCMain,KENZO,0000,0000,0000,,They're from my former employees.
+Dialogue: 0,0:13:15.24,0:13:17.35,DCMain,KOGORO,0000,0000,0000,,Even though you fired them?
+Dialogue: 0,0:13:17.35,0:13:19.77,DCMain,KENZO,0000,0000,0000,,They were all picked up by Kadome.
+Dialogue: 0,0:13:19.77,0:13:22.35,DCMain,KOGORO,0000,0000,0000,,Kadome? That's a major company.
+Dialogue: 0,0:13:22.86,0:13:25.03,DCMain,RAN,0000,0000,0000,,They've got a factory next to the hospital.
+Dialogue: 0,0:13:25.03,0:13:27.73,DCMain,KOGORO,0000,0000,0000,,I'm surprised they hired all of them.
+Dialogue: 0,0:13:27.73,0:13:30.03,DCMain,BANDO,0000,0000,0000,,The president's got a lot \Nof personal magnetism.
+Dialogue: 0,0:13:31.79,0:13:33.38,DCMain,CONAN,0000,0000,0000,,That's it.
+Dialogue: 0,0:13:33.91,0:13:37.26,DCMain,CONAN,0000,0000,0000,,Ran-neechan, earlier Kogoro-no-ojisan said...
+Dialogue: 0,0:13:39.33,0:13:42.92,DCMain,RAN,0000,0000,0000,,Sure, but Dad could've asked me himself.
+Dialogue: 0,0:13:44.97,0:13:46.80,DCMain,CONAN,0000,0000,0000,,Is that your briefcase?
+Dialogue: 0,0:13:48.05,0:13:52.81,DCMain,KENZO,0000,0000,0000,,Yeah. I remembered I forgot to inspect \Nan area and left it there in my rush.
+Dialogue: 0,0:13:54.56,0:13:56.38,DCMain,CONAN,0000,0000,0000,,It's still new.
+Dialogue: 0,0:13:56.38,0:13:58.56,DCMain,KENZO,0000,0000,0000,,My birthday was two days ago.
+Dialogue: 0,0:13:58.96,0:14:01.19,DCMain,KENZO,0000,0000,0000,,It was a gift from my sons.
+Dialogue: 0,0:14:03.69,0:14:06.38,DCMain,RYOICHI,0000,0000,0000,,Your brown briefcase was run down.
+Dialogue: 0,0:14:06.38,0:14:08.70,DCMain,RYOICHI,0000,0000,0000,,The president's briefcase \Nis the company's face.
+Dialogue: 0,0:14:08.70,0:14:11.23,DCMain,RYOICHI,0000,0000,0000,,You need to look sharp for the rest of us.
+Dialogue: 0,0:14:11.23,0:14:12.65,DCMain,KENZO,0000,0000,0000,,Sorry.
+Dialogue: 0,0:14:12.65,0:14:14.85,DCMain,CONAN,0000,0000,0000,,Did you throw a birthday party two days ago?
+Dialogue: 0,0:14:14.85,0:14:18.96,DCMain,KENZO,0000,0000,0000,,Yeah, with just the three of us \Nfor the first time in a while.
+Dialogue: 0,0:14:21.71,0:14:25.27,DCMain,KENZO,0000,0000,0000,,He's got a short temper, \Nbut he's a good guy at heart.
+Dialogue: 0,0:14:25.27,0:14:28.34,DCMain,CONAN,0000,0000,0000,,So why did you think \NReiji-san is the culprit?
+Dialogue: 0,0:14:30.09,0:14:33.37,DCMain,BANDO,0000,0000,0000,,I mean, just look at \Nhow he dresses and speaks.
+Dialogue: 0,0:14:35.04,0:14:37.85,DCMain,BANDO,0000,0000,0000,,Why don't you come clean?
+Dialogue: 0,0:14:37.85,0:14:42.73,DCMain,KOGORO,0000,0000,0000,,So you saw Reiji-san lock you in \Nand heard his voice, too.
+Dialogue: 0,0:14:42.73,0:14:45.23,DCMain,CONAN,0000,0000,0000,,Was that really Reiji-san, though?
+Dialogue: 0,0:14:51.25,0:14:52.34,DCMain,BANDO,0000,0000,0000,,Ryoichi-san.
+Dialogue: 0,0:14:52.84,0:14:54.48,DCMain,RYOICHI,0000,0000,0000,,I'm going to go look for Reiji.
+Dialogue: 0,0:15:01.25,0:15:04.25,Aizawa4,SIGN,0000,0000,0000,,Aizawa Foods
+Dialogue: 0,0:15:12.57,0:15:13.81,DCMain,CONAN,0000,0000,0000,,Ryoichi-san.
+Dialogue: 0,0:15:15.51,0:15:18.15,DCMain,CONAN,0000,0000,0000,,Even in that cold refrigerated warehouse,
+Dialogue: 0,0:15:18.15,0:15:22.21,DCMain,CONAN,0000,0000,0000,,you're so proper you never put \Nyour hands in your pockets,
+Dialogue: 0,0:15:22.21,0:15:24.65,DCMain,CONAN,0000,0000,0000,,but you just left with \Nyour hands in your pockets.
+Dialogue: 0,0:15:24.65,0:15:27.13,DCMain,CONAN,0000,0000,0000,,What are you hiding?
+Dialogue: 0,0:15:27.13,0:15:28.40,DCMain,RYOICHI,0000,0000,0000,,Who exactly are you?
+Dialogue: 0,0:15:35.43,0:15:38.77,DCMain,REIJI,0000,0000,0000,,You're still here, kid?
+Dialogue: 0,0:15:38.77,0:15:39.54,DCMain,RYOICHI,0000,0000,0000,,Reiji.
+Dialogue: 0,0:15:49.55,0:15:52.30,DCMain,CONAN,0000,0000,0000,,Let's all head back. The old man says—
+Dialogue: 0,0:15:52.30,0:15:54.68,DCMain,KOGORO,0000,0000,0000,,I know who the culprit is?
+Dialogue: 0,0:15:54.68,0:15:56.29,DCMain,RYOICHI,0000,0000,0000,,You don't?
+Dialogue: 0,0:15:56.29,0:15:57.68,DCMain,REIJI,0000,0000,0000,,What's going on here?
+Dialogue: 0,0:15:57.68,0:16:00.20,DCMain,REIJI,0000,0000,0000,,That kid said you were calling us.
+Dialogue: 0,0:16:00.20,0:16:01.69,DCMain,KOGORO,0000,0000,0000,,Actually, I...
+Dialogue: 0,0:16:01.69,0:16:04.15,DCMain,RYOICHI,0000,0000,0000,,Who is the culprit? \NYou figured it out, didn't you?
+Dialogue: 0,0:16:05.23,0:16:06.78,DCMain,KOGORO,0000,0000,0000,,I figured it out...
+Dialogue: 0,0:16:11.44,0:16:16.83,DCMain,KOGORO,0000,0000,0000,,Yes, I finally figured out who trapped the \Npresident inside the refrigerated warehouse.
+Dialogue: 0,0:16:16.83,0:16:18.08,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:16:18.42,0:16:23.60,DCMain,KOGORO,0000,0000,0000,,Sir, you saw Reiji-san close the door.
+Dialogue: 0,0:16:23.60,0:16:25.94,DCMain,REIJI,0000,0000,0000,,What? Are you serious?
+Dialogue: 0,0:16:25.94,0:16:28.34,DCMain,KOGORO,0000,0000,0000,,And you've been protecting Reiji-san.
+Dialogue: 0,0:16:30.09,0:16:31.97,DCMain,KOGORO,0000,0000,0000,,But it's strange.
+Dialogue: 0,0:16:33.46,0:16:38.60,DCMain,KOGORO,0000,0000,0000,,The door should've been closed during your \Ninspection so the cold air wouldn't escape.
+Dialogue: 0,0:16:38.60,0:16:42.12,DCMain,KOGORO,0000,0000,0000,,He could've just locked the closed door.
+Dialogue: 0,0:16:42.12,0:16:46.40,DCMain,KOGORO,0000,0000,0000,,But the culprit chose to open \Nthe door so he'd be seen.
+Dialogue: 0,0:16:46.40,0:16:50.98,DCMain,KOGORO,0000,0000,0000,,Why is that? So you'd see him, of course.
+Dialogue: 0,0:16:52.24,0:16:54.20,DCMain,KOGORO,0000,0000,0000,,When the crime occurred,
+Dialogue: 0,0:16:54.20,0:16:56.51,DCMain,KOGORO,0000,0000,0000,,the strong light from the setting sun \Nwas shining in through the door.
+Dialogue: 0,0:16:56.51,0:17:00.37,DCMain,KOGORO,0000,0000,0000,,In other words, you couldn't see the \Nculprit's face because it was backlit.
+Dialogue: 0,0:17:00.89,0:17:05.55,DCMain,KOGORO,0000,0000,0000,,All you saw was a silhouette \Nwith a distinctive hairstyle.
+Dialogue: 0,0:17:05.55,0:17:07.42,DCMain,KENZO,0000,0000,0000,,Th-That's exactly right.
+Dialogue: 0,0:17:07.42,0:17:11.46,DCMain,RAN,0000,0000,0000,,I see. Since they have similar builds, \Nhe could disguise himself as Reiji-san.
+Dialogue: 0,0:17:11.46,0:17:15.76,DCMain,BANDO,0000,0000,0000,,But didn't the president \Nhear Reiji-san's voice?
+Dialogue: 0,0:17:15.76,0:17:17.89,DCMain,KOGORO,0000,0000,0000,,Ryoichi-san can explain that.
+Dialogue: 0,0:17:23.68,0:17:26.88,DCItalic,REIJI,0000,0000,0000,,Later, Dad! I never want \Nto see your face again!
+Dialogue: 0,0:17:28.14,0:17:31.16,DCMain,KOGORO,0000,0000,0000,,That's probably an edited \Nversion of a secret recording
+Dialogue: 0,0:17:31.16,0:17:33.82,DCMain,KOGORO,0000,0000,0000,,of Reiji-san's argument with the president.
+Dialogue: 0,0:17:33.82,0:17:35.37,DCMain,REIJI,0000,0000,0000,,Bro...
+Dialogue: 0,0:17:35.79,0:17:37.06,DCMain,KENZO,0000,0000,0000,,No, you're wrong.
+Dialogue: 0,0:17:37.49,0:17:40.06,DCMain,KENZO,0000,0000,0000,,I thought about it again,
+Dialogue: 0,0:17:40.06,0:17:44.88,DCMain,KENZO,0000,0000,0000,,and both Ryoichi and Reiji \Nhave flaws, but it wasn't them.
+Dialogue: 0,0:17:44.88,0:17:48.33,DCMain,KENZO,0000,0000,0000,,They aren't the kind of people to do this.
+Dialogue: 0,0:17:48.67,0:17:49.79,DCMain,KENZO,0000,0000,0000,,It's impossible!
+Dialogue: 0,0:17:50.62,0:17:51.59,DCMain,RYOICHI,0000,0000,0000,,Dad...
+Dialogue: 0,0:17:53.09,0:17:55.80,DCMain,KOGORO,0000,0000,0000,,I'm impressed. You're absolutely right.
+Dialogue: 0,0:17:55.80,0:17:58.97,DCMain,KOGORO,0000,0000,0000,,Ryoichi-san was framed as well
+Dialogue: 0,0:17:59.45,0:18:01.72,DCMain,KOGORO,0000,0000,0000,,by the person who hid that in his desk.
+Dialogue: 0,0:18:03.17,0:18:06.78,DCMain,KOGORO,0000,0000,0000,,If he were the culprit, he would've \Ntossed it in the river earlier,
+Dialogue: 0,0:18:06.78,0:18:11.61,DCMain,KOGORO,0000,0000,0000,,but he didn't because it proves \NReiji-san's innocence.
+Dialogue: 0,0:18:13.90,0:18:15.36,DCMain,REIJI,0000,0000,0000,,Bro...
+Dialogue: 0,0:18:15.36,0:18:18.22,DCMain,RYOICHI,0000,0000,0000,,It's evidence that will lead us to the truth.
+Dialogue: 0,0:18:18.22,0:18:19.76,DCMain,RAN,0000,0000,0000,,Then who did it?
+Dialogue: 0,0:18:19.76,0:18:22.99,DCMain,KOGORO,0000,0000,0000,,The culprit went through all this \Neffort to convince the president
+Dialogue: 0,0:18:22.99,0:18:26.48,DCMain,KOGORO,0000,0000,0000,,that Reiji-san is the culprit.
+Dialogue: 0,0:18:26.48,0:18:30.33,DCMain,KOGORO,0000,0000,0000,,His plan assumed the president would survive.
+Dialogue: 0,0:18:30.33,0:18:35.40,DCMain,KOGORO,0000,0000,0000,,In other words, the culprit is Bando-san, \Nwho rescued the president.
+Dialogue: 0,0:18:37.16,0:18:41.45,DCMain,KOGORO,0000,0000,0000,,You're far apart in age, but your build \Nis roughly the same as Reiji-san's.
+Dialogue: 0,0:18:41.45,0:18:43.87,DCMain,BANDO,0000,0000,0000,,That's your only reason? \NYou can't be serious.
+Dialogue: 0,0:18:43.87,0:18:46.39,DCMain,BANDO,0000,0000,0000,,How can you assert I did it?
+Dialogue: 0,0:18:46.69,0:18:48.03,DCMain,KOGORO,0000,0000,0000,,The briefcase.
+Dialogue: 0,0:18:48.03,0:18:48.99,DCMain,BANDO,0000,0000,0000,,The briefcase?
+Dialogue: 0,0:18:48.99,0:18:51.16,DCMain,KOGORO,0000,0000,0000,,You claimed the following.
+Dialogue: 0,0:18:51.16,0:18:53.67,DCItalic,BANDO,0000,0000,0000,,The president's briefcase was still there,
+Dialogue: 0,0:18:53.67,0:18:55.40,DCItalic,BANDO,0000,0000,0000,,and when I went to the \Nrefrigerated warehouse...
+Dialogue: 0,0:18:55.95,0:18:59.54,DCMain,BANDO,0000,0000,0000,,Wh-What's wrong with that? \NThat really was the president's briefcase.
+Dialogue: 0,0:18:59.54,0:19:03.16,DCMain,KOGORO,0000,0000,0000,,Yes, but when and how did you learn that?
+Dialogue: 0,0:19:04.75,0:19:08.09,DCMain,KOGORO,0000,0000,0000,,The president just received \Nthat briefcase two days ago
+Dialogue: 0,0:19:08.09,0:19:10.13,DCMain,KOGORO,0000,0000,0000,,at a party attended only by his family.
+Dialogue: 0,0:19:10.74,0:19:15.09,DCMain,KOGORO,0000,0000,0000,,In other words, since you were sleeping \Nat home yesterday on your day off,
+Dialogue: 0,0:19:15.09,0:19:19.63,DCMain,KOGORO,0000,0000,0000,,you never had the opportunity \Nto learn that it was his.
+Dialogue: 0,0:19:20.05,0:19:22.18,DCMain,KOGORO,0000,0000,0000,,You'd only know if you were the culprit
+Dialogue: 0,0:19:22.79,0:19:26.93,DCMain,KOGORO,0000,0000,0000,,and saw the president carrying it \Nbefore you attacked him.
+Dialogue: 0,0:19:31.89,0:19:35.49,DCMain,BANDO,0000,0000,0000,,That's right. I'm responsible for everything.
+Dialogue: 0,0:19:35.49,0:19:36.44,DCMain,KENZO,0000,0000,0000,,But why?
+Dialogue: 0,0:19:36.44,0:19:41.47,DCMain,BANDO,0000,0000,0000,,It's your fault for saying you'd \Nleave the company to your sons.
+Dialogue: 0,0:19:41.47,0:19:44.32,DCMain,BANDO,0000,0000,0000,,You even tried to get me to retire.
+Dialogue: 0,0:19:44.32,0:19:48.25,DCMain,KENZO,0000,0000,0000,,We're both getting too old. \NIt's time for us to retire.
+Dialogue: 0,0:19:48.25,0:19:49.76,DCMain,KENZO,0000,0000,0000,,They'll be fine—
+Dialogue: 0,0:19:49.76,0:19:51.21,DCMain,BANDO,0000,0000,0000,,They won't be fine!
+Dialogue: 0,0:19:51.21,0:19:53.08,DCMain,BANDO,0000,0000,0000,,That's what I tried to show you.
+Dialogue: 0,0:19:53.38,0:19:55.55,DCMain,KOGORO,0000,0000,0000,,That's why you came up with this plan?
+Dialogue: 0,0:19:55.55,0:19:58.71,DCMain,BANDO,0000,0000,0000,,The president thought this \Ncompany would run smoothly
+Dialogue: 0,0:19:58.71,0:20:00.22,DCMain,BANDO,0000,0000,0000,,with Ryoichi and Reiji running it together.
+Dialogue: 0,0:20:00.70,0:20:04.09,DCMain,BANDO,0000,0000,0000,,But if either one lost his trust, \Nneither one would take over.
+Dialogue: 0,0:20:04.09,0:20:07.00,DCMain,BANDO,0000,0000,0000,,I'd be the only one \Nthe president could rely on.
+Dialogue: 0,0:20:07.00,0:20:08.35,DCMain,BANDO,0000,0000,0000,,Then the company would be mine.
+Dialogue: 0,0:20:08.72,0:20:11.16,DCMain,KENZO,0000,0000,0000,,So you were trying to take over the company.
+Dialogue: 0,0:20:11.16,0:20:14.70,DCMain,BANDO,0000,0000,0000,,You make it sound so awful. \NI did it for the company.
+Dialogue: 0,0:20:14.70,0:20:19.11,DCMain,BANDO,0000,0000,0000,,This company would do so much better \Nif I took control and not these youngsters!
+Dialogue: 0,0:20:19.85,0:20:25.24,DCMain,KOGORO,0000,0000,0000,,So when I first suspected \NReiji-san and then Ryoichi-san,
+Dialogue: 0,0:20:25.65,0:20:28.04,DCMain,KOGORO,0000,0000,0000,,you tried to frame Ryoichi-san.
+Dialogue: 0,0:20:28.04,0:20:30.38,DCMain,KENZO,0000,0000,0000,,But if an employee were \Narrested, the company—
+Dialogue: 0,0:20:30.38,0:20:32.37,DCMain,BANDO,0000,0000,0000,,You're wrong about that.
+Dialogue: 0,0:20:32.37,0:20:35.28,DCMain,BANDO,0000,0000,0000,,Ryoichi the heartless \Nand Reiji the delinquent.
+Dialogue: 0,0:20:35.28,0:20:38.51,DCMain,BANDO,0000,0000,0000,,Getting rid of those two would \Nimprove public trust in the company.
+Dialogue: 0,0:20:38.51,0:20:41.20,DCMain,BANDO,0000,0000,0000,,I did it because I care about \Nthis company more than anyone else.
+Dialogue: 0,0:20:41.20,0:20:44.49,DCMain,KOGORO,0000,0000,0000,,Even though you nearly killed the president?
+Dialogue: 0,0:20:44.91,0:20:46.69,DCMain,KOGORO,0000,0000,0000,,You did it for your own ego.
+Dialogue: 0,0:20:49.45,0:20:50.67,DCMain,BANDO,0000,0000,0000,,Damn it.
+Dialogue: 0,0:20:50.67,0:20:54.14,DCMain,KOGORO,0000,0000,0000,,You're not the one who truly \Ncares about the company.
+Dialogue: 0,0:20:54.14,0:20:55.40,DCMain,BANDO,0000,0000,0000,,What?
+Dialogue: 0,0:20:55.40,0:21:02.78,DCMain,KOGORO,0000,0000,0000,,I had Ran confirm that Ryoichi-san visited \Nthe Kadome factory yesterday evening.
+Dialogue: 0,0:21:02.78,0:21:04.30,DCMain,KOGORO,0000,0000,0000,,And not just yesterday evening.
+Dialogue: 0,0:21:04.30,0:21:07.09,DCMain,KOGORO,0000,0000,0000,,You've been going there since before \Nthey accepted your former employees.
+Dialogue: 0,0:21:07.09,0:21:10.53,DCMain,BANDO,0000,0000,0000,,So it wasn't because of the \Npresident's personal magnetism.
+Dialogue: 0,0:21:10.53,0:21:13.29,DCMain,KENZO,0000,0000,0000,,That's the kind of man Ryoichi is.
+Dialogue: 0,0:21:14.93,0:21:16.65,DCMain,BANDO,0000,0000,0000,,But what about Reiji?
+Dialogue: 0,0:21:16.65,0:21:18.76,DCMain,KOGORO,0000,0000,0000,,Reiji-san, your coat.
+Dialogue: 0,0:21:24.92,0:21:26.42,DCMain,BANDO,0000,0000,0000,,That outfit...
+Dialogue: 0,0:21:26.42,0:21:27.93,DCMain,KENZO,0000,0000,0000,,You were entertaining clients.
+Dialogue: 0,0:21:27.93,0:21:30.05,DCMain,KOGORO,0000,0000,0000,,And the grime on your forehead...
+Dialogue: 0,0:21:32.60,0:21:34.81,DCMain,REIJI,0000,0000,0000,,Groveling before clients is no big deal.
+Dialogue: 0,0:21:38.31,0:21:40.82,DCMain,REIJI,0000,0000,0000,,I got a huge contract for us.
+Dialogue: 0,0:21:41.20,0:21:42.70,DCMain,REIJI,0000,0000,0000,,Don't worry, Dad.
+Dialogue: 0,0:21:42.70,0:21:45.80,DCMain,RYOICHI,0000,0000,0000,,We promise we'll restore this \Ncompany to its former glory.
+Dialogue: 0,0:21:45.80,0:21:46.80,DCMain,KENZO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:21:47.75,0:21:52.33,DCMain,KOGORO,0000,0000,0000,,Looks like the president's \Njudgment was correct, Bando-san.
+Dialogue: 0,0:23:16.33,0:23:19.54,Aizawa,SIGN,0000,0000,0000,,{\c&H4C3C2A&\3c&HBD9B77&}Aizawa Foods
+Dialogue: 0,0:23:16.33,0:23:19.54,Aizawa,SIGN,0000,0000,0000,,{\fs24\3c&H856D4A&\c&H4C3C2A&\pos(186,25)\frz358.2}Aizawa Foods
+Dialogue: 0,0:23:20.74,0:23:22.38,DCMain,CONAN,0000,0000,0000,,I think I caught a cold.
+Dialogue: 0,0:23:22.38,0:23:25.54,DCMain,KOGORO,0000,0000,0000,,That refrigerated warehouse sure was cold.
+Dialogue: 0,0:23:25.54,0:23:26.50,DCMain,RAN,0000,0000,0000,,Here.
+Dialogue: 0,0:23:26.50,0:23:27.75,DCMain,CONAN,0000,0000,0000,,Thanks.
+Dialogue: 0,0:23:28.21,0:23:29.59,DCMain,CONAN,0000,0000,0000,,Hot!
+Dialogue: 0,0:23:29.98,0:23:30.89,DCMain,CONAN,0000,0000,0000,,Here.
+Dialogue: 0,0:23:35.39,0:23:38.51,DCMain,RAN,0000,0000,0000,,I'm thirsty after working up a sweat.
+Dialogue: 0,0:23:39.17,0:23:43.26,DCMain,CONAN,0000,0000,0000,,She's got all the energy you'd expect \Nfrom a karate club captain.

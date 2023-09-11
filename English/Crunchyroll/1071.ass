@@ -1,0 +1,408 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: MPD,Trebuchet MS,20,&H006F95AB,&H000000FF,&H0029464D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0465,0020,0130,0
+Style: 8PM,Trebuchet MS,18,&H006A6B70,&H000000FF,&H00DFE0E2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0101,0
+Style: Nichiuri,Trebuchet MS,22,&H001FB1DC,&H000000FF,&H00E7E9E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: 3Days,Trebuchet MS,22,&H00FAFDF8,&H000000FF,&H0041493D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0090,0
+Style: Pharmacy,Trebuchet MS,22,&H00FFFAF0,&H000000FF,&H008C4B38,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Kudo,Trebuchet MS,14,&H007B6E72,&H000000FF,&H00C1C8C9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0078,0020,0065,0
+Style: Saiko,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H009F7361,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0385,0062,0
+Style: Morita,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00AE6D81,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: Kiryu,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H009F5548,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0050,0062,0
+Style: Kanzawa,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00A05E76,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0080,0020,0062,0
+Style: Mori,Trebuchet MS,22,&H004291C6,&H00263D3C,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Mori2,Trebuchet MS,22,&H00171009,&H000000FF,&H006F4C35,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,DETECTIVE CONAN EPISODE 1071 "Kudo \NYusaku's Detective Show (Part One)"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[op]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,SIGN,0000,0000,0000,,[ed]
+Dialogue: 0,0:00:04.65,0:00:11.10,DCMain,REPORTER,0000,0000,0000,,World-renowned mystery author Kudo Yusaku has \Njust exited the Metropolitan Police Department.
+Dialogue: 0,0:00:11.10,0:00:13.29,DCMain,REPORTER,0000,0000,0000,,Sensei! Kudo-sensei!
+Dialogue: 0,0:00:14.78,0:00:16.78,DCMain,REPORTER,0000,0000,0000,,Impressive as always, Kudo-sensei!
+Dialogue: 0,0:00:17.02,0:00:23.60,DCMain,REPORTER,0000,0000,0000,,They say you were the first to determine \Nthe victim faked being robbed by Kaito Kid.
+Dialogue: 0,0:00:23.60,0:00:24.71,DCMain,YUSAKU,0000,0000,0000,,Not at all.
+Dialogue: 0,0:00:24.71,0:00:27.59,MPD,SIGN,0000,0000,0000,,{\fad(1,438)}Metropolitan \NPolice Department
+Dialogue: 0,0:00:24.87,0:00:29.29,DCMain,YUSAKU,0000,0000,0000,,I simply offered some advice at the \Nrequest of a police inspector I know.
+Dialogue: 0,0:00:29.29,0:00:34.59,DCMain,YUSAKU,0000,0000,0000,,The letter and robbery itself \Nwere far too sloppy for Kid.
+Dialogue: 0,0:00:34.98,0:00:39.09,DCMain,YUSAKU,0000,0000,0000,,I'm sure the museum owner who was arrested
+Dialogue: 0,0:00:39.09,0:00:41.22,DCMain,YUSAKU,0000,0000,0000,,for fraud this morning \Nwill confess to everything.
+Dialogue: 0,0:00:41.65,0:00:45.65,DCMain,YUSAKU,0000,0000,0000,,He pretended the jewels he \Nsold were stolen by Kid,
+Dialogue: 0,0:00:45.65,0:00:52.74,DCMain,YUSAKU,0000,0000,0000,,and he planned to collect the insurance \Nmoney for the jewels as well.
+Dialogue: 0,0:00:52.94,0:00:57.80,DCMain,REPORTER,0000,0000,0000,,Did you come to the MPD \Ntoday to confirm that?
+Dialogue: 0,0:00:57.80,0:00:59.24,DCMain,YUSAKU,0000,0000,0000,,No, actually.
+Dialogue: 0,0:00:59.24,0:01:03.67,DCMain,YUSAKU,0000,0000,0000,,I was asked by a different inspector \Nfor advice on another matter.
+Dialogue: 0,0:01:03.67,0:01:05.50,DCMain,REPORTER,0000,0000,0000,,Another case?
+Dialogue: 0,0:01:05.97,0:01:10.95,DCMain,YUSAKU,0000,0000,0000,,Regarding the locked room murders that \Nhave taken place over the last month.
+Dialogue: 0,0:01:10.95,0:01:16.57,DCMain,YUSAKU,0000,0000,0000,,There're no apparent connection between the \Nages and professions of the three victims,
+Dialogue: 0,0:01:16.57,0:01:19.17,DCMain,YUSAKU,0000,0000,0000,,and they were killed by different methods,
+Dialogue: 0,0:01:19.17,0:01:23.52,DCMain,YUSAKU,0000,0000,0000,,so I was told they're unsure if they \Nwere killed by the same culprit.
+Dialogue: 0,0:01:24.47,0:01:28.66,DCMain,REPORTER,0000,0000,0000,,Those murders everyone's \Ntalking about right now?
+Dialogue: 0,0:01:28.66,0:01:30.98,DCMain,REPORTER,0000,0000,0000,,You're involved in that as well?
+Dialogue: 0,0:01:31.46,0:01:33.50,DCMain,YUSAKU,0000,0000,0000,,As an advisor.
+Dialogue: 0,0:01:33.50,0:01:38.48,DCMain,YUSAKU,0000,0000,0000,,I actually returned to Japan to \Ntake on less work and recharge,
+Dialogue: 0,0:01:38.48,0:01:39.99,DCMain,YUSAKU,0000,0000,0000,,but I have absolutely nothing to do.
+Dialogue: 0,0:01:40.27,0:01:43.33,DCMain,REPORTER,0000,0000,0000,,Do you think you'll be \Nable to solve the case?
+Dialogue: 0,0:01:43.33,0:01:44.33,DCMain,YUSAKU,0000,0000,0000,,Yes.
+Dialogue: 0,0:01:44.33,0:01:49.55,DCMain,YUSAKU,0000,0000,0000,,I was just given a summary of the \Ncase and shown crime scene photos,
+Dialogue: 0,0:01:49.55,0:01:54.03,DCMain,YUSAKU,0000,0000,0000,,so I was able to solve the locked room \Ntrick by the time I got down here.
+Dialogue: 0,0:01:54.77,0:01:55.54,DCMain,REPORTER,0000,0000,0000,,What?
+Dialogue: 0,0:01:56.24,0:01:57.80,DCMain,ALL,0000,0000,0000,,What?!
+Dialogue: 0,0:01:57.98,0:02:01.63,DCMain,YUSAKU,0000,0000,0000,,I haven't identified the culprit yet,
+Dialogue: 0,0:02:01.63,0:02:05.47,DCMain,YUSAKU,0000,0000,0000,,but I believe I'll know by \Nthis weekend's TV special.
+Dialogue: 0,0:02:05.88,0:02:06.64,DCMain,REPORTER,0000,0000,0000,,What?
+Dialogue: 0,0:02:07.22,0:02:10.90,DCMain,REPORTER,0000,0000,0000,,T-TV special?
+Dialogue: 0,0:02:10.90,0:02:12.86,DCMain,YUSAKU,0000,0000,0000,,You mean you don't know?
+Dialogue: 0,0:02:13.29,0:02:15.50,DCMain,YUSAKU,0000,0000,0000,,Next Saturday at 8PM,
+Dialogue: 0,0:02:15.50,0:02:19.11,DCMain,YUSAKU,0000,0000,0000,,I'll solve the mystery on \N"Emergency Live Broadcast!
+Dialogue: 0,0:02:17.46,0:02:22.49,8PM,SIGN,0000,0000,0000,,{\fad(540,175)}8PM | [Emergency Live Broadcast!] \NLocked Room Murders Solved!
+Dialogue: 0,0:02:19.11,0:02:25.87,DCMain,YUSAKU,0000,0000,0000,,Locked Room Murders Solved!" \Nbroadcast by Toto TV.
+Dialogue: 0,0:02:26.20,0:02:29.58,DCMain,YUSAKU,0000,0000,0000,,Until I saw the crime \Nscene photos at the MPD,
+Dialogue: 0,0:02:29.58,0:02:33.95,DCMain,YUSAKU,0000,0000,0000,,I planned to deduce what might be \Npossible based on the information I had.
+Dialogue: 0,0:02:33.95,0:02:37.00,DCMain,REPORTER,0000,0000,0000,,Th-That's not my station,\Nbut I'm looking forward to it.
+Dialogue: 0,0:02:37.00,0:02:41.01,DCMain,YUSAKU,0000,0000,0000,,Oh, you're from Nichiuri TV.
+Dialogue: 0,0:02:37.63,0:02:41.01,Nichiuri,SIGN,0000,0000,0000,,Nichiuri TV
+Dialogue: 0,0:02:41.01,0:02:43.04,DCMain,YUSAKU,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:02:43.04,0:02:44.15,DCMain,REPORTER,0000,0000,0000,,It's fine.
+Dialogue: 0,0:02:44.15,0:02:46.28,DCMain,YUSAKU,0000,0000,0000,,Well, I should get going.
+Dialogue: 0,0:02:46.28,0:02:47.39,DCMain,REPORTER,0000,0000,0000,,Wait, Sensei.
+Dialogue: 0,0:02:47.85,0:02:49.77,DCMain,REPORTER,0000,0000,0000,,One last question.
+Dialogue: 0,0:02:50.20,0:02:53.92,DCMain,REPORTER,0000,0000,0000,,This time you proved Kid \Nhad been falsely accused,
+Dialogue: 0,0:02:53.92,0:02:55.98,DCMain,REPORTER,0000,0000,0000,,but do you have a message for him?
+Dialogue: 0,0:02:57.40,0:02:59.15,DCMain,YUSAKU,0000,0000,0000,,Well...
+Dialogue: 0,0:02:59.55,0:03:03.22,DCMain,YUSAKU,0000,0000,0000,,If you're grateful for what I did,
+Dialogue: 0,0:03:03.22,0:03:06.54,DCItalic,YUSAKU,0000,0000,0000,,I'd appreciate it if you could buy my novel.
+Dialogue: 0,0:03:07.08,0:03:13.06,DCItalic,YUSAKU,0000,0000,0000,,If you gave me your address, I \Ncould deliver you a copy myself.
+Dialogue: 0,0:03:16.56,0:03:18.33,DCMain,CONAN,0000,0000,0000,,Mysterious clouds block your field of view!
+Dialogue: 0,0:03:18.33,0:03:20.03,DCMain,CONAN,0000,0000,0000,,Clear them away with deductive \Nreasoning and the sky sparkles!
+Dialogue: 0,0:03:20.03,0:03:22.14,DCMain,CONAN,0000,0000,0000,,A locked room mystery has \Nthe world in an uproar!
+Dialogue: 0,0:03:22.14,0:03:24.00,DCMain,CONAN,0000,0000,0000,,The mystery will be solved on live TV!
+Dialogue: 0,0:03:24.00,0:03:25.73,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:03:25.73,0:03:27.48,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:03:27.48,0:03:30.05,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:05:11.95,0:05:17.96,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(403,1)}Kudo Yusaku's Detective Show \N(Part One)
+Dialogue: 0,0:05:12.46,0:05:15.89,DCMain,CONAN,0000,0000,0000,,"Kudo Yusaku's Detective Show, Part One!"
+Dialogue: 0,0:05:17.96,0:05:21.59,Pharmacy,SIGN,0000,0000,0000,,Beika Pharmacy
+Dialogue: 0,0:05:18.17,0:05:21.59,3Days,SIGN,0000,0000,0000,,{\fad(375,1)}3 Days Later...
+Dialogue: 0,0:05:20.52,0:05:21.59,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:05:22.02,0:05:25.97,DCMain,CONAN,0000,0000,0000,,He dramatically announced during a TV \Ninterview that he'd solve the case,
+Dialogue: 0,0:05:25.97,0:05:28.35,DCMain,CONAN,0000,0000,0000,,but he's stuck in bed with a stomachache?
+Dialogue: 0,0:05:28.35,0:05:32.85,DCMain,YUKIKO,0000,0000,0000,,Yup. Yu-chan isn't feeling any better.
+Dialogue: 0,0:05:33.10,0:05:35.98,DCMain,CONAN,0000,0000,0000,,Did he eat something bad?
+Dialogue: 0,0:05:35.98,0:05:40.82,DCMain,YUKIKO,0000,0000,0000,,Well, last night Yusaku and I \Nvisited the Italian restaurant
+Dialogue: 0,0:05:40.82,0:05:43.01,DCMain,YUKIKO,0000,0000,0000,,that left a flier in our mailbox.
+Dialogue: 0,0:05:43.55,0:05:46.20,DCMain,YUKIKO,0000,0000,0000,,He's been feeling under \Nthe weather ever since.
+Dialogue: 0,0:05:46.38,0:05:48.82,DCMain,CONAN,0000,0000,0000,,Then he should go to the hospital.
+Dialogue: 0,0:05:49.04,0:05:54.05,DCMain,YUKIKO,0000,0000,0000,,He's planning to go if he's still \Nnot feeling better tomorrow.
+Dialogue: 0,0:05:54.05,0:05:57.71,DCMain,CONAN,0000,0000,0000,,Don't blame me if his stomachache \Ngets worse because he took his time.
+Dialogue: 0,0:05:57.71,0:06:01.09,DCMain,YUKIKO,0000,0000,0000,,But the TV staff are coming over tonight.
+Dialogue: 0,0:06:02.40,0:06:04.42,DCMain,CONAN,0000,0000,0000,,For the program he mentioned on TV,
+Dialogue: 0,0:06:04.42,0:06:08.47,DCMain,CONAN,0000,0000,0000,,"Emergency Live Broadcast! \NLocked Room Murders Solved!"
+Dialogue: 0,0:06:08.47,0:06:10.73,DCMain,CONAN,0000,0000,0000,,You should turn them down.
+Dialogue: 0,0:06:10.73,0:06:13.01,DCMain,CONAN,0000,0000,0000,,Dad's not feeling well.
+Dialogue: 0,0:06:13.24,0:06:18.54,DCMain,YUKIKO,0000,0000,0000,,But the producer is the person who \Nfirst adapted Yu-chan's novel for TV.
+Dialogue: 0,0:06:18.54,0:06:20.27,DCMain,YUKIKO,0000,0000,0000,,It's hard to say no to him.
+Dialogue: 0,0:06:20.42,0:06:22.82,DCMain,YUKIKO,0000,0000,0000,,That's why we invited you, Shin-chan.
+Dialogue: 0,0:06:23.01,0:06:23.91,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:06:23.91,0:06:25.85,DCMain,CONAN,0000,0000,0000,,How does that follow?
+Dialogue: 0,0:06:25.85,0:06:27.57,DCMain,CONAN,0000,0000,0000,,Wait, could it be?
+Dialogue: 0,0:06:27.91,0:06:30.02,DCMain,CONAN,0000,0000,0000,,Are you going to disguise yourself as Dad
+Dialogue: 0,0:06:30.02,0:06:32.62,DCMain,CONAN,0000,0000,0000,,and have me provide his voice \Nusing my voice changer?
+Dialogue: 0,0:06:34.54,0:06:37.91,DCMain,YUKIKO,0000,0000,0000,,Yu-chan was supposed to go \Nto the MPD this afternoon
+Dialogue: 0,0:06:37.91,0:06:41.17,DCMain,YUKIKO,0000,0000,0000,,and explain the truth behind the case,
+Dialogue: 0,0:06:41.17,0:06:43.54,DCMain,YUKIKO,0000,0000,0000,,but he got sick before then.
+Dialogue: 0,0:06:43.54,0:06:44.96,DCMain,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:06:45.31,0:06:48.72,DCMain,CONAN,0000,0000,0000,,Since Dad hasn't told you the solution yet,
+Dialogue: 0,0:06:48.72,0:06:51.74,DCMain,CONAN,0000,0000,0000,,you invited me over to \Nshow me the case documents,
+Dialogue: 0,0:06:51.74,0:06:55.35,DCMain,CONAN,0000,0000,0000,,so I could solve the case for the show.
+Dialogue: 0,0:06:55.66,0:06:57.45,DCMain,YUKIKO,0000,0000,0000,,Ding ding ding!
+Dialogue: 0,0:06:57.45,0:06:59.77,DCMain,YUKIKO,0000,0000,0000,,I knew you'd figure it out. \NYou're absolutely correct.
+Dialogue: 0,0:07:00.42,0:07:01.55,DCMain,CONAN,0000,0000,0000,,Unbelievable.
+Dialogue: 0,0:07:02.26,0:07:03.62,DCMain,CONAN,0000,0000,0000,,Fine.
+Dialogue: 0,0:07:03.62,0:07:06.57,DCMain,CONAN,0000,0000,0000,,So, when do the TV staff arrive?
+Dialogue: 0,0:07:06.87,0:07:11.30,DCMain,YUKIKO,0000,0000,0000,,The broadcast starts at eight, but they \Nsaid they'd come over around six to set up.
+Dialogue: 0,0:07:11.74,0:07:13.85,DCMain,CONAN,0000,0000,0000,,That's four hours from now.
+Dialogue: 0,0:07:13.85,0:07:15.34,DCMain,YUKIKO,0000,0000,0000,,It's all right.
+Dialogue: 0,0:07:15.34,0:07:18.50,DCMain,YUKIKO,0000,0000,0000,,It should be a piece of \Ncake for you to solve.
+Dialogue: 0,0:07:18.50,0:07:20.64,DCMain,CONAN,0000,0000,0000,,You're really not worried about this.
+Dialogue: 0,0:07:20.64,0:07:25.16,DCMain,YUKIKO,0000,0000,0000,,Yu-chan solved the case in three minutes,
+Dialogue: 0,0:07:25.16,0:07:28.21,DCMain,YUKIKO,0000,0000,0000,,so four hours should be plenty for you.
+Dialogue: 0,0:07:28.21,0:07:29.81,DCMain,CONAN,0000,0000,0000,,Yeah, yeah.
+Dialogue: 0,0:07:30.84,0:07:34.34,Kudo,SIGN,0000,0000,0000,,Kudo
+Dialogue: 0,0:07:32.02,0:07:33.77,DCMain,CONAN,0000,0000,0000,,Wow, you're right.
+Dialogue: 0,0:07:34.59,0:07:36.80,DCMain,CONAN,0000,0000,0000,,Dad's really out of it.
+Dialogue: 0,0:07:36.80,0:07:38.34,DCMain,YUKIKO,0000,0000,0000,,Right?
+Dialogue: 0,0:07:38.34,0:07:40.90,DCMain,YUKIKO,0000,0000,0000,,At least he's hydrating.
+Dialogue: 0,0:07:43.38,0:07:46.89,DCMain,CONAN,0000,0000,0000,,You better go to the hospital tomorrow \Neven if he's feeling better.
+Dialogue: 0,0:07:46.89,0:07:47.86,DCMain,YUKIKO,0000,0000,0000,,We will.
+Dialogue: 0,0:07:48.15,0:07:52.15,DCMain,CONAN,0000,0000,0000,,By the way, where's \NSubaru—I mean, Akai-san?
+Dialogue: 0,0:07:52.61,0:07:57.88,DCMain,YUKIKO,0000,0000,0000,,He had some kind of FBI business to \Ntake care of and isn't here right now.
+Dialogue: 0,0:07:57.88,0:08:02.41,DCMain,YUKIKO,0000,0000,0000,,If he were here, I might not have \Nbothered to invite you over.
+Dialogue: 0,0:08:03.40,0:08:09.92,DCMain,CONAN,0000,0000,0000,,Why don't you summarize the serial \Nlocked room murders for me, then?
+Dialogue: 0,0:08:10.63,0:08:14.43,DCMain,YUKIKO,0000,0000,0000,,The first murder took place 20 days ago.
+Dialogue: 0,0:08:14.64,0:08:19.93,DCMain,YUKIKO,0000,0000,0000,,As you know, the body was discovered \Nby that new announcer...
+Dialogue: 0,0:08:20.36,0:08:26.44,DCMain,CONAN,0000,0000,0000,,{\an8}Yumekawa Saiko, who frequently conducts \Ninterviews using a pink mic, right?
+Dialogue: 0,0:08:23.02,0:08:26.44,Saiko,SIGN,0000,0000,0000,,{\fad(375,1)}Yumekawa Saiko \NNewbie Announcer
+Dialogue: 0,0:08:26.44,0:08:27.64,DCMain,YUKIKO,0000,0000,0000,,That's right.
+Dialogue: 0,0:08:27.64,0:08:32.34,DCMain,YUKIKO,0000,0000,0000,,She's coming tonight for the special.
+Dialogue: 0,0:08:32.34,0:08:37.35,DCMain,YUKIKO,0000,0000,0000,,{\an8}The murder victim was her friend \NMorita Atsumi-san, 24 years old,
+Dialogue: 0,0:08:36.53,0:08:39.95,Morita,SIGN,0000,0000,0000,,{\fad(375,1)}Morita Atsumi (24) \NClothing Making Employee
+Dialogue: 0,0:08:37.35,0:08:39.71,DCMain,YUKIKO,0000,0000,0000,,{\an8}who worked for a clothing maker.
+Dialogue: 0,0:08:40.30,0:08:42.08,DCMain,YUKIKO,0000,0000,0000,,The day she found the body,
+Dialogue: 0,0:08:42.08,0:08:46.46,DCMain,YUKIKO,0000,0000,0000,,Yumekawa-san suddenly received a message \Nfrom Morita-san asking for help.
+Dialogue: 0,0:08:46.98,0:08:50.31,DCMain,YUKIKO,0000,0000,0000,,She rushed to Morita-san's apartment,
+Dialogue: 0,0:08:50.31,0:08:53.13,DCMain,YUKIKO,0000,0000,0000,,but no one answered when \Nshe rang the doorbell.
+Dialogue: 0,0:08:53.13,0:08:55.14,DCMain,YUKIKO,0000,0000,0000,,Since the door was locked,
+Dialogue: 0,0:08:55.14,0:08:58.85,DCMain,YUKIKO,0000,0000,0000,,she explained the situation to the \Nproperty manager and had him unlock it.
+Dialogue: 0,0:08:59.69,0:09:04.39,DCMain,CONAN,0000,0000,0000,,That makes this a locked room? Maybe \Nshe gave a spare key to someone.
+Dialogue: 0,0:09:05.53,0:09:08.78,DCMain,YUKIKO,0000,0000,0000,,Yumekawa-san had a spare key,
+Dialogue: 0,0:09:08.78,0:09:11.16,DCMain,YUKIKO,0000,0000,0000,,but the locked room wasn't the entryway.
+Dialogue: 0,0:09:11.16,0:09:13.09,DCMain,YUKIKO,0000,0000,0000,,It was the bathroom where she found the body.
+Dialogue: 0,0:09:13.09,0:09:14.15,DCMain,CONAN,0000,0000,0000,,The bathroom?
+Dialogue: 0,0:09:14.49,0:09:15.38,DCMain,YUKIKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:15.38,0:09:21.33,DCMain,YUKIKO,0000,0000,0000,,Morita-san died when someone pushed her \Nand the back of her head hit the sink.
+Dialogue: 0,0:09:21.33,0:09:24.91,DCMain,YUKIKO,0000,0000,0000,,The bathroom door was locked.
+Dialogue: 0,0:09:25.42,0:09:29.81,DCMain,YUKIKO,0000,0000,0000,,The door could only be \Nlocked from the inside.
+Dialogue: 0,0:09:29.81,0:09:30.54,DCMain,CONAN,0000,0000,0000,,Here it is.
+Dialogue: 0,0:09:30.89,0:09:35.05,DCMain,CONAN,0000,0000,0000,,So it's a thumb-turn lock.
+Dialogue: 0,0:09:35.27,0:09:38.41,DCMain,CONAN,0000,0000,0000,,The scene looks like a mess.
+Dialogue: 0,0:09:38.41,0:09:39.18,DCMain,YUKIKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:40.00,0:09:43.33,DCMain,YUKIKO,0000,0000,0000,,Most of the items on the \Nshelf had been knocked down,
+Dialogue: 0,0:09:43.33,0:09:47.66,DCMain,YUKIKO,0000,0000,0000,,and on the floor there was a bag containing \Nlotion, a hairdryer, a toothbrush,
+Dialogue: 0,0:09:47.66,0:09:52.36,DCMain,YUKIKO,0000,0000,0000,,makeup, hair clips, and a bath brush.
+Dialogue: 0,0:09:53.16,0:09:56.66,DCMain,YUKIKO,0000,0000,0000,,When the police broke down the door,
+Dialogue: 0,0:09:56.66,0:10:00.66,DCMain,YUKIKO,0000,0000,0000,,the items on the floor \Nwere pushed to the side.
+Dialogue: 0,0:10:02.61,0:10:04.69,DCMain,YUKIKO,0000,0000,0000,,The next murder happened ten days later.
+Dialogue: 0,0:10:04.69,0:10:06.96,DCMain,YUKIKO,0000,0000,0000,,Kiryu Taiji-san, a 31-year-old \Npermanent part-timer,
+Dialogue: 0,0:10:07.25,0:10:10.83,DCMain,YUKIKO,0000,0000,0000,,was killed in his apartment.
+Dialogue: 0,0:10:11.08,0:10:15.42,Kiryu,SIGN,0000,0000,0000,,{\fad(375,375)}Kiryu Taiji (31) \NPermanent Part-timer
+Dialogue: 0,0:10:11.33,0:10:13.26,DCMain,YUKIKO,0000,0000,0000,,{\an8}I say part-timer,
+Dialogue: 0,0:10:13.26,0:10:17.85,DCMain,YUKIKO,0000,0000,0000,,{\an8}but he was a recluse living off \Nthe money his parents sent him.
+Dialogue: 0,0:10:18.46,0:10:22.85,DCMain,YUKIKO,0000,0000,0000,,The body was found just inside the entryway.
+Dialogue: 0,0:10:23.23,0:10:26.29,DCMain,YUKIKO,0000,0000,0000,,Apparently the place was so full of trash
+Dialogue: 0,0:10:26.29,0:10:29.62,DCMain,YUKIKO,0000,0000,0000,,that it was hard to tell \Nwhere the entryway ended
+Dialogue: 0,0:10:29.62,0:10:31.61,DCMain,YUKIKO,0000,0000,0000,,and where the rest of the apartment began.
+Dialogue: 0,0:10:32.58,0:10:36.44,DCMain,CONAN,0000,0000,0000,,There's a lot of stuff on the floor in \Nfront of the door at this scene, too.
+Dialogue: 0,0:10:36.44,0:10:37.36,DCMain,YUKIKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:37.92,0:10:42.99,DCMain,YUKIKO,0000,0000,0000,,Convenience store bags, half-empty plastic \Nbottles, empty cup noodle containers,
+Dialogue: 0,0:10:42.99,0:10:44.61,DCMain,YUKIKO,0000,0000,0000,,and disposable chopsticks.
+Dialogue: 0,0:10:46.46,0:10:47.54,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:47.54,0:10:51.12,DCMain,CONAN,0000,0000,0000,,There's a photo of his apartment \Nafter the entryway photo.
+Dialogue: 0,0:10:51.53,0:10:53.48,DCMain,CONAN,0000,0000,0000,,It looks pretty tidy.
+Dialogue: 0,0:10:53.48,0:10:57.23,DCMain,CONAN,0000,0000,0000,,Well, there are empty cup \Nnoodle containers on the table
+Dialogue: 0,0:10:57.23,0:10:59.43,DCMain,CONAN,0000,0000,0000,,and garbage bags scattered around,
+Dialogue: 0,0:10:59.43,0:11:03.12,DCMain,CONAN,0000,0000,0000,,but the figures and games \Non the shelf are organized.
+Dialogue: 0,0:11:05.12,0:11:09.50,DCMain,CONAN,0000,0000,0000,,It feels like someone opened a \Ngarbage bag and threw trash around.
+Dialogue: 0,0:11:10.18,0:11:11.54,DCMain,YUKIKO,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:11:11.54,0:11:14.76,DCMain,YUKIKO,0000,0000,0000,,He made all the dolls on the shelf himself.
+Dialogue: 0,0:11:14.76,0:11:17.89,DCMain,YUKIKO,0000,0000,0000,,They're characters from \Nsome kind of online game.
+Dialogue: 0,0:11:17.89,0:11:18.40,DCMain,YUKIKO,0000,0000,0000,,Look.
+Dialogue: 0,0:11:18.64,0:11:20.99,DCMain,YUKIKO,0000,0000,0000,,See the photo on the shelf?
+Dialogue: 0,0:11:21.32,0:11:25.83,DCMain,YUKIKO,0000,0000,0000,,He won a silver medal at a figure-making \Ncontest with that doll.
+Dialogue: 0,0:11:26.40,0:11:30.46,DCMain,CONAN,0000,0000,0000,,That's Rock, a character from \Nonline game {\i1}Dungeon Holmes{\i0}.
+Dialogue: 0,0:11:30.65,0:11:32.81,DCMain,YUKIKO,0000,0000,0000,,What? Shin-chan, you know what that is?
+Dialogue: 0,0:11:32.81,0:11:33.77,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:11:33.77,0:11:38.45,DCMain,CONAN,0000,0000,0000,,You enter dungeons as a group \Nand solve mysteries with Rock.
+Dialogue: 0,0:11:38.45,0:11:39.59,DCMain,YUKIKO,0000,0000,0000,,Huh.
+Dialogue: 0,0:11:39.97,0:11:43.34,DCMain,CONAN,0000,0000,0000,,So, how was he killed?
+Dialogue: 0,0:11:43.51,0:11:47.33,DCMain,YUKIKO,0000,0000,0000,,There was a small burn \Non the back of his neck
+Dialogue: 0,0:11:47.33,0:11:50.14,DCMain,YUKIKO,0000,0000,0000,,and signs that he'd been \Nstrangled with a rope.
+Dialogue: 0,0:11:50.14,0:11:52.28,DCMain,YUKIKO,0000,0000,0000,,It seems like he was knocked \Nout with a stun gun
+Dialogue: 0,0:11:52.28,0:11:54.52,DCMain,YUKIKO,0000,0000,0000,,and then strangled from behind.
+Dialogue: 0,0:11:54.94,0:11:58.44,DCMain,YUKIKO,0000,0000,0000,,But he regained consciousness \Nduring the attack and fought back.
+Dialogue: 0,0:11:58.44,0:12:03.07,DCMain,YUKIKO,0000,0000,0000,,There were bits of the culprit's \Nskin stuck under his fingernails.
+Dialogue: 0,0:12:03.07,0:12:05.20,DCMain,CONAN,0000,0000,0000,,They found that kind of evidence?
+Dialogue: 0,0:12:05.42,0:12:10.01,DCMain,YUKIKO,0000,0000,0000,,Yeah, but they still don't \Nknow whose skin it is.
+Dialogue: 0,0:12:11.60,0:12:13.93,DCMain,YUKIKO,0000,0000,0000,,The third murder took place the next day.
+Dialogue: 0,0:12:13.93,0:12:20.22,DCMain,YUKIKO,0000,0000,0000,,{\an8}The victim was Kanzawa Koretsugu-san, \N47 years old, who runs a bakery.
+Dialogue: 0,0:12:16.88,0:12:20.51,Kanzawa,SIGN,0000,0000,0000,,{\fad(375,1)}Kanzawa Koretsugu (47) \NBakery Manager
+Dialogue: 0,0:12:20.88,0:12:24.84,DCMain,YUKIKO,0000,0000,0000,,He was killed in the kitchen \Nof a house in Beika City.
+Dialogue: 0,0:12:24.84,0:12:27.14,DCMain,YUKIKO,0000,0000,0000,,He was stabbed to death.
+Dialogue: 0,0:12:27.59,0:12:29.82,DCMain,YUKIKO,0000,0000,0000,,After stabbing him in the back with a knife,
+Dialogue: 0,0:12:29.82,0:12:32.89,DCMain,YUKIKO,0000,0000,0000,,the culprit stabbed him again in \Nthe stomach when he turned around.
+Dialogue: 0,0:12:33.24,0:12:36.02,DCMain,CONAN,0000,0000,0000,,Did he live alone?
+Dialogue: 0,0:12:36.54,0:12:37.81,DCMain,YUKIKO,0000,0000,0000,,No?
+Dialogue: 0,0:12:37.81,0:12:40.64,DCMain,YUKIKO,0000,0000,0000,,He was married, but they were separated.
+Dialogue: 0,0:12:40.64,0:12:43.78,DCMain,YUKIKO,0000,0000,0000,,His wife went back to her \Nparents' house in Kyushu.
+Dialogue: 0,0:12:44.01,0:12:50.25,DCMain,YUKIKO,0000,0000,0000,,When his wife visited to discuss \Ndivorce, she found his body.
+Dialogue: 0,0:12:50.25,0:12:50.91,DCMain,CONAN,0000,0000,0000,,Whoa!
+Dialogue: 0,0:12:51.22,0:12:54.92,DCMain,CONAN,0000,0000,0000,,There's junk in front of the door again.
+Dialogue: 0,0:12:55.07,0:12:59.06,DCMain,CONAN,0000,0000,0000,,There's the knife used as a weapon, \Na ladle, tongs, a spatula,
+Dialogue: 0,0:12:59.06,0:12:59.92,DCMain,CONAN,0000,0000,0000,,and a frying pan.
+Dialogue: 0,0:13:00.45,0:13:02.52,DCMain,CONAN,0000,0000,0000,,They're all cooking utensils.
+Dialogue: 0,0:13:02.52,0:13:06.72,DCMain,YUKIKO,0000,0000,0000,,Kanzawa-san baked test products at home
+Dialogue: 0,0:13:06.72,0:13:09.64,DCMain,YUKIKO,0000,0000,0000,,and had all kinds of utensils.
+Dialogue: 0,0:13:09.93,0:13:10.93,DCMain,CONAN,0000,0000,0000,,You're right.
+Dialogue: 0,0:13:11.38,0:13:14.81,DCMain,CONAN,0000,0000,0000,,There are several frying pans and \Nother utensils hanging on the wall.
+Dialogue: 0,0:13:15.42,0:13:18.09,DCMain,CONAN,0000,0000,0000,,It looks like a restaurant kitchen.
+Dialogue: 0,0:13:18.54,0:13:21.57,DCMain,CONAN,0000,0000,0000,,Was this kitchen locked from the inside, too?
+Dialogue: 0,0:13:21.57,0:13:22.41,DCMain,YUKIKO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:13:22.97,0:13:26.20,DCMain,YUKIKO,0000,0000,0000,,Like the first case, the room \Ncouldn't be locked from the outside,
+Dialogue: 0,0:13:26.40,0:13:29.41,DCMain,YUKIKO,0000,0000,0000,,but he'd been stabbed to \Ndeath inside the kitchen.
+Dialogue: 0,0:13:30.32,0:13:34.01,DCMain,YUKIKO,0000,0000,0000,,The second victim Kiryu-san \Nalso wasn't the kind of person
+Dialogue: 0,0:13:34.01,0:13:37.46,DCMain,YUKIKO,0000,0000,0000,,to hand out spare keys except to his parents,
+Dialogue: 0,0:13:37.46,0:13:42.48,DCMain,YUKIKO,0000,0000,0000,,so Yu-chan said the police thought all \Nthree cases were basically locked rooms.
+Dialogue: 0,0:13:43.38,0:13:47.35,DCMain,YUKIKO,0000,0000,0000,,Well, the media are just saying \Nthese three cases were committed
+Dialogue: 0,0:13:47.35,0:13:50.85,DCMain,YUKIKO,0000,0000,0000,,by the same culprit to stir up excitement.
+Dialogue: 0,0:13:51.03,0:13:55.49,DCMain,YUKIKO,0000,0000,0000,,They might just be three similar cases \Nthat happened to occur one after another.
+Dialogue: 0,0:13:55.49,0:13:56.37,DCMain,CONAN,0000,0000,0000,,No.
+Dialogue: 0,0:13:57.87,0:14:01.20,DCMain,CONAN,0000,0000,0000,,This is a series of murders \Ncommitted by the same killer.
+Dialogue: 0,0:14:01.20,0:14:04.69,DCMain,CONAN,0000,0000,0000,,They used the same locked \Nroom trick all three times.
+Dialogue: 0,0:14:05.23,0:14:06.57,DCMain,YUKIKO,0000,0000,0000,,No way.
+Dialogue: 0,0:14:07.03,0:14:09.46,DCMain,YUKIKO,0000,0000,0000,,You figured out the trick, too?
+Dialogue: 0,0:14:09.46,0:14:11.74,DCMain,CONAN,0000,0000,0000,,Yeah, it was easy.
+Dialogue: 0,0:14:12.01,0:14:14.05,DCMain,YUKIKO,0000,0000,0000,,If you solved the locked room trick,
+Dialogue: 0,0:14:14.05,0:14:15.72,DCMain,YUKIKO,0000,0000,0000,,then even if we can't identify the culprit,
+Dialogue: 0,0:14:15.72,0:14:17.37,DCMain,YUKIKO,0000,0000,0000,,we can still keep up appearances.
+Dialogue: 0,0:14:17.72,0:14:18.46,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:18.46,0:14:20.46,DCMain,CONAN,0000,0000,0000,,Oh, I guess...
+Dialogue: 0,0:14:20.91,0:14:24.08,DCMain,YUKIKO,0000,0000,0000,,Then I'll go disguise myself as Kudo Yusaku.
+Dialogue: 0,0:14:24.08,0:14:28.17,DCMain,YUKIKO,0000,0000,0000,,There's more information in there, \Nso skim it while I'm gone.
+Dialogue: 0,0:14:28.32,0:14:29.38,DCMain,CONAN,0000,0000,0000,,Yeah, sure.
+Dialogue: 0,0:14:31.85,0:14:36.41,DCItalic,CONAN,0000,0000,0000,,I'm pretty sure I know \Nwho the culprit is, too.
+Dialogue: 0,0:14:42.46,0:14:44.11,DCMain,CONAN,0000,0000,0000,,Hey, Mom.
+Dialogue: 0,0:14:45.34,0:14:47.94,DCMain,CONAN,0000,0000,0000,,How long does it take you \Nto disguise yourself?
+Dialogue: 0,0:14:49.16,0:14:52.75,DCMain,CONAN,0000,0000,0000,,Hurry up. The TV staff will be here soon.
+Dialogue: 0,0:14:53.23,0:14:54.41,DCMain,CONAN,0000,0000,0000,,Hey, Mom.
+Dialogue: 0,0:14:55.40,0:14:57.68,DCMain,CONAN,0000,0000,0000,,At least answer me.
+Dialogue: 0,0:14:59.80,0:15:00.58,DCMain,CONAN,0000,0000,0000,,What's wrong, Mom?
+Dialogue: 0,0:15:01.49,0:15:02.08,DCMain,CONAN,0000,0000,0000,,Are you okay?
+Dialogue: 0,0:15:02.76,0:15:08.09,DCMain,YUKIKO,0000,0000,0000,,I'm fine. I was just taking a nap.
+Dialogue: 0,0:15:08.81,0:15:10.01,DCMain,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:15:10.01,0:15:13.35,DCMain,CONAN,0000,0000,0000,,Did you eat the same \Nthing Dad had last night?
+Dialogue: 0,0:15:13.35,0:15:19.35,DCMain,YUKIKO,0000,0000,0000,,Of course I did. We're married, after all.
+Dialogue: 0,0:15:22.56,0:15:25.04,DCItalic,CONAN,0000,0000,0000,,This is definitely food poisoning.
+Dialogue: 0,0:15:25.04,0:15:29.22,DCItalic,CONAN,0000,0000,0000,,I need to turn down the TV show \Nand get them to a hospital.
+Dialogue: 0,0:15:31.81,0:15:35.00,DCItalic,CONAN,0000,0000,0000,,Crap, the TV staff are here.
+Dialogue: 0,0:15:35.00,0:15:37.45,DCItalic,CONAN,0000,0000,0000,,My voice changer's not done charging.
+Dialogue: 0,0:15:38.16,0:15:40.41,DCItalic,CONAN,0000,0000,0000,,I'll have to explain the situation \Nand ask them to leave.
+Dialogue: 0,0:15:41.90,0:15:45.22,DCMain,CONAN,0000,0000,0000,,S-Sorry, but today we're...
+Dialogue: 0,0:15:45.22,0:15:46.04,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:15:48.53,0:15:49.92,DCItalic,CONAN,0000,0000,0000,,Y-You...
+Dialogue: 0,0:15:50.68,0:15:51.68,DCItalic,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:15:56.44,0:15:58.06,DCMain,RAN,0000,0000,0000,,I'm home.
+Dialogue: 0,0:15:56.72,0:15:58.68,Mori,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:15:58.95,0:16:02.69,DCMain,RAN,0000,0000,0000,,Sorry I'm late. I'll get \Ndinner ready right away.
+Dialogue: 0,0:16:03.45,0:16:05.97,DCMain,KOGORO,0000,0000,0000,,There's no rush.
+Dialogue: 0,0:16:05.97,0:16:09.82,DCMain,RAN,0000,0000,0000,,Yeah, but I want to take my time watching \Nthe special that starts at eight.
+Dialogue: 0,0:16:10.38,0:16:15.82,DCMain,KOGORO,0000,0000,0000,,Special? Oh, the one about \Nthe locked room murders.
+Dialogue: 0,0:16:15.82,0:16:20.09,DCMain,RAN,0000,0000,0000,,Yeah, "Locked Room Murders Solved!"
+Dialogue: 0,0:16:20.09,0:16:24.76,DCMain,RAN,0000,0000,0000,,Shinichi's dad is going to solve \Nthe case, so I can't miss it.
+Dialogue: 0,0:16:24.76,0:16:26.73,DCMain,RAN,0000,0000,0000,,I'll make something right away.
+Dialogue: 0,0:16:31.12,0:16:35.84,DCItalic,KOGORO,0000,0000,0000,,Why did they reach out to a novelist \Nand not a great detective?
+Dialogue: 0,0:16:38.13,0:16:40.68,DCMain,CONAN,0000,0000,0000,,A-Are you...?
+Dialogue: 0,0:16:40.68,0:16:42.06,DCMain,YUSAKU,0000,0000,0000,,Come on, now.
+Dialogue: 0,0:16:42.48,0:16:47.34,DCMain,YUSAKU,0000,0000,0000,,I came to help because I couldn't \Nignore the trouble Kudo Yusaku was in,
+Dialogue: 0,0:16:47.34,0:16:48.82,DCMain,YUSAKU,0000,0000,0000,,and this is the welcome I get?
+Dialogue: 0,0:16:50.34,0:16:55.07,DCMain,YUSAKU,0000,0000,0000,,I'm here to repay him for clearing the \Nfalse accusations made against me.
+Dialogue: 0,0:16:55.33,0:16:59.05,DCMain,CONAN,0000,0000,0000,,I knew it. You really are Kaito Kid.
+Dialogue: 0,0:17:00.97,0:17:05.33,DCMain,YUSAKU/KID,0000,0000,0000,,Well, if I'm not welcome, \Nthen I'll be leaving.
+Dialogue: 0,0:17:05.60,0:17:06.90,DCMain,CONAN,0000,0000,0000,,No, wait!
+Dialogue: 0,0:17:08.44,0:17:11.90,DCMain,CONAN,0000,0000,0000,,I-If you want to repay the favor,
+Dialogue: 0,0:17:11.90,0:17:15.59,DCMain,CONAN,0000,0000,0000,,then I'm not opposed to the idea.
+Dialogue: 0,0:17:16.88,0:17:18.60,DCMain,YUSAKU/KID,0000,0000,0000,,You tsundere brat.
+Dialogue: 0,0:17:18.81,0:17:22.94,DCMain,CONAN,0000,0000,0000,,In any case, the TV staff will be \Narriving in less than ten minutes.
+Dialogue: 0,0:17:22.94,0:17:26.21,DCMain,CONAN,0000,0000,0000,,I'll explain the case to you. Come inside.
+Dialogue: 0,0:17:28.05,0:17:29.46,DCMain,YUSAKU/KID,0000,0000,0000,,Roger that.
+Dialogue: 0,0:17:35.95,0:17:40.37,DCMain,CONAN,0000,0000,0000,,By the way, how'd you know my dad is sick?
+Dialogue: 0,0:17:40.50,0:17:45.09,DCMain,YUSAKU/KID,0000,0000,0000,,I happened to overhear your \Nconversation at the pharmacy,
+Dialogue: 0,0:17:45.09,0:17:48.37,DCMain,YUSAKU/KID,0000,0000,0000,,while I was following you \Nso I could repay the favor.
+Dialogue: 0,0:17:48.92,0:17:53.07,DCMain,YUSAKU/KID,0000,0000,0000,,I didn't think his wife would be ill, too.
+Dialogue: 0,0:17:53.07,0:17:57.95,DCMain,CONAN,0000,0000,0000,,Yeah. It seems to be food poisoning, so \NI'm having them rest in their bedroom.
+Dialogue: 0,0:17:59.50,0:18:02.43,DCMain,CONAN,0000,0000,0000,,Crap, the TV staff are here.
+Dialogue: 0,0:18:02.93,0:18:06.11,DCMain,CONAN,0000,0000,0000,,The case documents are in \Nthe tablet on the desk.
+Dialogue: 0,0:18:06.11,0:18:09.94,DCMain,CONAN,0000,0000,0000,,Read those while I deal with the staff.
+Dialogue: 0,0:18:10.20,0:18:13.53,DCMain,YUSAKU/KID,0000,0000,0000,,Say, do you live here?
+Dialogue: 0,0:18:16.11,0:18:18.99,DCMain,YUSAKU/KID,0000,0000,0000,,In that case, I don't \Nmind receiving the staff.
+Dialogue: 0,0:18:21.08,0:18:24.45,DCMain,CONAN,0000,0000,0000,,Whatever you do, don't say \Nanything uncalled for.
+Dialogue: 0,0:18:24.96,0:18:27.21,DCMain,YUSAKU/KID,0000,0000,0000,,Sure thing. You can count on me.
+Dialogue: 0,0:18:28.57,0:18:30.21,DCMain,SAIKO,0000,0000,0000,,Good evening.
+Dialogue: 0,0:18:30.61,0:18:33.60,DCMain,SAIKO,0000,0000,0000,,I'm Yumekawa Saiko of Toto TV.
+Dialogue: 0,0:18:33.60,0:18:37.01,DCMain,SAIKO,0000,0000,0000,,I'm looking forward to this \Nevening's live broadcast.
+Dialogue: 0,0:18:37.01,0:18:40.69,DCMain,YUSAKU,0000,0000,0000,,Well, well. So you're Yumekawa-san?
+Dialogue: 0,0:18:40.69,0:18:42.39,DCMain,YUSAKU,0000,0000,0000,,You're beautiful.
+Dialogue: 0,0:18:44.56,0:18:51.40,DCMain,SAIKO,0000,0000,0000,,Didn't we meet the other day when I came \Nhere to discuss the program schedule?
+Dialogue: 0,0:18:51.66,0:18:56.61,DCMain,YUSAKU,0000,0000,0000,,Ah, I meant I hardly recognize you.
+Dialogue: 0,0:18:56.61,0:19:00.45,DCMain,YUSAKU,0000,0000,0000,,Young women grow more beautiful by the day.
+Dialogue: 0,0:19:01.81,0:19:03.02,DCMain,SAIKO,0000,0000,0000,,Oh, my.
+Dialogue: 0,0:19:09.49,0:19:15.21,DCMain,CONAN,0000,0000,0000,,Let's have them start getting ready \Nfor the broadcast, Yusaku-ojisan.
+Dialogue: 0,0:19:15.21,0:19:17.55,DCMain,YUSAKU,0000,0000,0000,,Ah, yes.
+Dialogue: 0,0:19:18.08,0:19:20.60,DCMain,SAIKO,0000,0000,0000,,We'll be borrowing your study.
+Dialogue: 0,0:19:21.62,0:19:23.05,DCMain,YUSAKU,0000,0000,0000,,Go right ahead.
+Dialogue: 0,0:19:23.88,0:19:26.41,DCItalic,CONAN,0000,0000,0000,,Don't do anything uncalled for.
+Dialogue: 0,0:19:42.62,0:19:44.70,DCMain,SAIKO,0000,0000,0000,,Kudo-sensei.
+Dialogue: 0,0:19:45.24,0:19:48.40,DCMain,SAIKO,0000,0000,0000,,It will take some time to finish \Nsetting up the equipment.
+Dialogue: 0,0:19:48.40,0:19:50.38,DCMain,SAIKO,0000,0000,0000,,Could you get your makeup \Ndone in another room?
+Dialogue: 0,0:19:50.38,0:19:54.88,DCMain,YUSAKU,0000,0000,0000,,Actually, I did my own \Nmakeup. I'm good to go.
+Dialogue: 0,0:19:55.04,0:19:57.13,DCMain,SAIKO,0000,0000,0000,,Y-You did?
+Dialogue: 0,0:19:57.50,0:20:01.08,DCItalic,CONAN,0000,0000,0000,,His disguise will be exposed if \Nsomeone tries to do his makeup.
+Dialogue: 0,0:20:01.08,0:20:02.91,DCMain,SAIKO,0000,0000,0000,,By the way, Kudo-sensei.
+Dialogue: 0,0:20:03.54,0:20:05.79,DCMain,SAIKO,0000,0000,0000,,I've been wondering about something.
+Dialogue: 0,0:20:05.79,0:20:07.96,DCMain,SAIKO,0000,0000,0000,,I feel like I've seen this boy before.
+Dialogue: 0,0:20:07.96,0:20:09.47,DCMain,YUSAKU,0000,0000,0000,,Oh, he's...
+Dialogue: 0,0:20:09.85,0:20:13.74,DCMain,CONAN,0000,0000,0000,,I'm Edogawa Conan, the famous Kid Killer.
+Dialogue: 0,0:20:16.00,0:20:18.41,DCMain,YUSAKU,0000,0000,0000,,He's an acquaintance's child.
+Dialogue: 0,0:20:18.41,0:20:22.00,DCMain,YUSAKU,0000,0000,0000,,He wanted to see how the \Nprogram was broadcast.
+Dialogue: 0,0:20:22.00,0:20:23.57,DCMain,SAIKO,0000,0000,0000,,I see.
+Dialogue: 0,0:20:24.32,0:20:26.90,DCMain,SAIKO,0000,0000,0000,,By the way, where's your wife?
+Dialogue: 0,0:20:26.90,0:20:31.63,DCMain,SAIKO,0000,0000,0000,,She said she wanted to make an appearance \Nduring our meeting the other day.
+Dialogue: 0,0:20:31.63,0:20:32.97,DCMain,YUSAKU,0000,0000,0000,,Oh, uh...
+Dialogue: 0,0:20:32.97,0:20:36.29,DCMain,CONAN,0000,0000,0000,,Yukiko-obasan is sick in bed.
+Dialogue: 0,0:20:36.48,0:20:38.45,DCMain,SAIKO,0000,0000,0000,,Sh-She is?
+Dialogue: 0,0:20:38.94,0:20:40.13,DCMain,SAIKO,0000,0000,0000,,That's too bad.
+Dialogue: 0,0:20:40.66,0:20:42.63,DCMain,SAIKO,0000,0000,0000,,Please tell her I hope she gets well soon.
+Dialogue: 0,0:20:42.88,0:20:44.63,DCMain,YUSAKU,0000,0000,0000,,Thank you.
+Dialogue: 0,0:20:44.99,0:20:48.53,DCMain,SAIKO,0000,0000,0000,,I'll let you know once we're ready.
+Dialogue: 0,0:20:48.53,0:20:49.89,DCMain,YUSAKU,0000,0000,0000,,Understood.
+Dialogue: 0,0:21:18.40,0:21:19.32,DCMain,YUSAKU/KID,0000,0000,0000,,How are they?
+Dialogue: 0,0:21:19.32,0:21:25.30,DCMain,CONAN,0000,0000,0000,,They seem to be doing better, but I \Nneed to get them to a hospital soon.
+Dialogue: 0,0:21:25.79,0:21:32.27,DCMain,YUSAKU/KID,0000,0000,0000,,The quickest way would be to skip the \NTV broadcast and call an ambulance.
+Dialogue: 0,0:21:33.06,0:21:38.26,DCMain,YUSAKU/KID,0000,0000,0000,,That said, I can't allow the \Nman who saved me to lose face.
+Dialogue: 0,0:21:39.60,0:21:43.90,DCMain,YUSAKU/KID,0000,0000,0000,,Why don't you summarize the case for me?
+Dialogue: 0,0:21:44.18,0:21:45.03,DCMain,CONAN,0000,0000,0000,,Sure.
+Dialogue: 0,0:21:46.61,0:21:50.95,DCMain,CONAN,0000,0000,0000,,The first victim was \Nclothing maker employee...
+Dialogue: 0,0:21:57.46,0:22:00.46,Mori2,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.22,0:23:50.07,DCMain,YUSAKU/KID,0000,0000,0000,,At the first crime scene, there was a bag \Ncontaining something in front of the door.
+Dialogue: 0,0:23:50.54,0:23:54.57,DCMain,YUSAKU/KID,0000,0000,0000,,At the second crime scene, there was a \Nconvenience store bag containing something.
+Dialogue: 0,0:23:54.82,0:23:57.33,DCMain,YUSAKU/KID,0000,0000,0000,,But there was no bag at \Nthe third crime scene.
+Dialogue: 0,0:23:57.52,0:24:00.04,DCMain,CONAN,0000,0000,0000,,We have no choice. We'll do it live.
+Dialogue: 0,0:24:00.04,0:24:02.56,DCMain,CONAN,0000,0000,0000,,I'll transmit my voice to this earphone.
+Dialogue: 0,0:24:03.64,0:24:05.49,DCMain,YUSAKU,0000,0000,0000,,Don't play dumb.
+Dialogue: 0,0:24:05.49,0:24:08.96,DCMain,YUSAKU,0000,0000,0000,,After all, the culprit behind \Nthese serial murders is...
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,SIGN,0000,0000,0000,,Kudo Yusaku's Detective Show \N(Part Two)
+Dialogue: 0,0:24:09.25,0:24:13.89,DCMain,SIGN,0000,0000,0000,,The next episode of Conan is "Kudo \NYusaku's Detective Show, Part Two!"
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,SIGN,0000,0000,0000,,In Front of the Door
+Dialogue: 0,0:24:30.50,0:24:32.73,DCMain,RAN,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.73,0:24:34.91,DCMain,CONAN,0000,0000,0000,,In front of the door!
+Dialogue: 0,0:24:34.91,0:24:36.59,DCMain,RAN,0000,0000,0000,,{\an8}Dad, you've had too much to drink.
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.59,0:24:38.11,DCMain,KOGORO,0000,0000,0000,,{\an8}Who cares? It's New Year's.
+Dialogue: 0,0:24:38.11,0:24:39.71,DCMain,CONAN,0000,0000,0000,,{\an8}Actually, it's almost February.

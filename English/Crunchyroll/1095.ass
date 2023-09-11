@@ -1,0 +1,404 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Takako,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00933C66,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0060,0020,0062,0
+Style: Hiroshi,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00823E47,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0030,0062,0
+Style: DiveShop,Trebuchet MS,14,&H00A97E23,&H000000FF,&H00DEC9C4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0180,0130,0
+Style: Nakajima,Trebuchet MS,18,&H0060462B,&H000000FF,&H00FDEDC9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Email,Trebuchet MS,14,&H00826559,&H000000FF,&H00FAFBF9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0120,0
+Style: History,Trebuchet MS,22,&H005F382A,&H000000FF,&H00FAFBF9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Construction,Trebuchet MS,22,&H00AF5F2E,&H000000FF,&H00F4EEEA,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0040,0
+Style: Floors,Trebuchet MS,16,&H00484A45,&H000000FF,&H00C5C6C2,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Kasai,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H008C4262,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0080,0062,0
+Style: Nishimura,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H0095555C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0080,0062,0
+Style: DiveShop2,Trebuchet MS,14,&H00B09A6B,&H000000FF,&H00E5CCCB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0160,0020,0130,0
+Style: DiveShop3,Trebuchet MS,18,&H00A37C12,&H000000FF,&H00E6CDC6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0040,0110,0
+Style: Yamauchi,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00BA6E72,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0120,0020,0062,0
+Style: Ryu,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H007F5876,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0070,0020,0062,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCMain_Top,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:02.94,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:00:01.16,0:00:02.94,DCMain,KOGORO,0000,0000,0000,,Your husband is missing?
+Dialogue: 0,0:00:02.94,0:00:08.01,DCMain,TAKAKO,0000,0000,0000,,{\an8}Yes. I suddenly stopped \Nhearing from him three days ago.
+Dialogue: 0,0:00:05.94,0:00:09.73,Takako,SIGN,0000,0000,0000,,{\fad(370,370)}Nakajima Takako (30) \NHousewife
+Dialogue: 0,0:00:08.56,0:00:11.44,DCMain,TAKAKO,0000,0000,0000,,{\an8}I checked everywhere I could \Nthink of, but couldn't find him.
+Dialogue: 0,0:00:11.44,0:00:13.26,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:00:14.16,0:00:18.12,Hiroshi,SIGN,0000,0000,0000,,{\fad(370,394)}Nakajima Hiroshi (36) \NSalaryman
+Dialogue: 0,0:00:14.33,0:00:17.71,DCMain,TAKAKO,0000,0000,0000,,{\an8}We've been married for four years.
+Dialogue: 0,0:00:17.71,0:00:19.45,DCMain,TAKAKO,0000,0000,0000,,{\an8}He's a very earnest man.
+Dialogue: 0,0:00:20.34,0:00:23.28,DCMain,TAKAKO,0000,0000,0000,,I can't believe he'd \Ndisappear without a word.
+Dialogue: 0,0:00:23.28,0:00:25.44,DCMain,KOGORO,0000,0000,0000,,Have you contacted the police?
+Dialogue: 0,0:00:25.44,0:00:31.59,DCMain,TAKAKO,0000,0000,0000,,Of course, but they said foul play seemed \Nunlikely and didn't take me seriously.
+Dialogue: 0,0:00:31.59,0:00:34.96,DCMain,KOGORO,0000,0000,0000,,So that's why you came to me.
+Dialogue: 0,0:00:34.96,0:00:36.03,DCMain,TAKAKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:00:36.03,0:00:40.85,DCMain,TAKAKO,0000,0000,0000,,I heard there's no case the great \Ndetective Mori Kogoro-san can't solve.
+Dialogue: 0,0:00:41.24,0:00:44.35,DCMain,TAKAKO,0000,0000,0000,,Won't you please find my husband?
+Dialogue: 0,0:00:46.45,0:00:48.87,DCMain,TAKAKO,0000,0000,0000,,I'm so worried about him.
+Dialogue: 0,0:00:49.29,0:00:51.90,DCMain,TAKAKO,0000,0000,0000,,Where is he now, and what is he doing?
+Dialogue: 0,0:00:51.90,0:00:53.74,DCMain,TAKAKO,0000,0000,0000,,Just thinking about it...
+Dialogue: 0,0:00:53.74,0:00:58.97,DCMain,KOGORO,0000,0000,0000,,I couldn't turn down a request \Nfrom such a beautiful lady.
+Dialogue: 0,0:00:58.97,0:01:00.08,DCMain,TAKAKO,0000,0000,0000,,You mean...
+Dialogue: 0,0:01:00.66,0:01:03.58,DCMain,KOGORO,0000,0000,0000,,Yes. I'll take on this job!
+Dialogue: 0,0:01:03.96,0:01:05.58,DCMain,TAKAKO,0000,0000,0000,,Thank you!
+Dialogue: 0,0:01:08.82,0:01:10.81,DCItalic,CONAN,0000,0000,0000,,Beyond detective skills capable \Nof identifying the truth
+Dialogue: 0,0:01:10.81,0:01:12.86,DCItalic,CONAN,0000,0000,0000,,is the power to lead us \Nto what we should believe.
+Dialogue: 0,0:01:12.86,0:01:14.79,DCItalic,CONAN,0000,0000,0000,,We're suddenly hired to \Nfind a missing person.
+Dialogue: 0,0:01:14.79,0:01:16.92,DCItalic,CONAN,0000,0000,0000,,There's a truth to this husband \Nnot even his wife knows about.
+Dialogue: 0,0:01:16.92,0:01:18.54,DCItalic,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:18.54,0:01:20.49,DCItalic,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:20.49,0:01:23.25,DCItalic,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:03.95,0:03:09.96,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(370,1)}The Missing Man's Dream
+Dialogue: 0,0:03:04.55,0:03:06.86,DCMain,CONAN,0000,0000,0000,,"The Missing Man's Dream"
+Dialogue: 0,0:03:10.79,0:03:13.52,DCMain,KOGORO,0000,0000,0000,,Nakajima Hiroshi, 36 years old.
+Dialogue: 0,0:03:13.52,0:03:15.96,DCMain,KOGORO,0000,0000,0000,,Works at an apparel company.
+Dialogue: 0,0:03:15.96,0:03:19.40,DCMain,KOGORO,0000,0000,0000,,But his clothes are kind of drab.
+Dialogue: 0,0:03:19.40,0:03:24.41,DCMain,CONAN,0000,0000,0000,,His wife left some things that \Nmight serve as clues, right?
+Dialogue: 0,0:03:24.41,0:03:25.42,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:03:26.00,0:03:32.73,DCMain,KOGORO,0000,0000,0000,,Business cards, three framed photos, a \Nlaptop, and a note written by his wife.
+Dialogue: 0,0:03:33.13,0:03:36.69,DCMain,CONAN,0000,0000,0000,,Is this photo from their honeymoon?
+Dialogue: 0,0:03:35.98,0:03:39.74,DiveShop,SIGN SHIRT,0000,0000,0000,,Dive Shop \NOcean Blue
+Dialogue: 0,0:03:36.69,0:03:39.73,DCMain,CONAN,0000,0000,0000,,This photo is from went they went diving.
+Dialogue: 0,0:03:40.13,0:03:43.46,DCMain,CONAN,0000,0000,0000,,Who's this person next to Nakajima-san?
+Dialogue: 0,0:03:43.46,0:03:45.74,DCMain,KOGORO,0000,0000,0000,,According to the wife's note,
+Dialogue: 0,0:03:46.24,0:03:48.99,DCMain,KOGORO,0000,0000,0000,,that's his coworker Nishimura-san.
+Dialogue: 0,0:03:49.56,0:03:53.25,DCMain,KOGORO,0000,0000,0000,,And this is Nakajima-san's \Nyounger brother Ryu-san.
+Dialogue: 0,0:03:53.25,0:03:54.66,DCMain,CONAN,0000,0000,0000,,Huh.
+Dialogue: 0,0:03:54.66,0:03:58.17,DCMain,KOGORO,0000,0000,0000,,Let's see what's on his computer.
+Dialogue: 0,0:03:57.46,0:03:58.17,Nakajima,SIGN,0000,0000,0000,,{\fad(335,1)}Nakajima Hiroshi
+Dialogue: 0,0:03:58.56,0:04:01.42,DCMain,KOGORO,0000,0000,0000,,Let's see. The password is...
+Dialogue: 0,0:04:01.42,0:04:04.93,Nakajima,SIGN,0000,0000,0000,,Nakajima Hiroshi
+Dialogue: 0,0:04:01.42,0:04:04.93,DCMain,KOGORO,0000,0000,0000,,"HIRAKE_50."
+Dialogue: 0,0:04:05.93,0:04:07.22,DCMain,CONAN,0000,0000,0000,,We got in.
+Dialogue: 0,0:04:07.22,0:04:08.85,DCMain,KOGORO,0000,0000,0000,,What's in his email?
+Dialogue: 0,0:04:08.85,0:04:12.73,Email,SIGN LEFT,0000,0000,0000,,Inbox \NDrafts \NSent \NSpam \NTrash \NOutbox
+Dialogue: 0,0:04:09.48,0:04:12.73,DCMain,KOGORO,0000,0000,0000,,Seriously? He doesn't use it at all.
+Dialogue: 0,0:04:12.73,0:04:15.58,DCMain,CONAN,0000,0000,0000,,Then what about his browser history?
+Dialogue: 0,0:04:15.58,0:04:16.73,DCMain,KOGORO,0000,0000,0000,,Right.
+Dialogue: 0,0:04:17.31,0:04:20.06,DCMain,KOGORO,0000,0000,0000,,His history's totally empty, too.
+Dialogue: 0,0:04:17.46,0:04:21.87,History,SIGN,0000,0000,0000,,All History
+Dialogue: 0,0:04:20.06,0:04:22.92,DCMain,KOGORO,0000,0000,0000,,The most recent item is from six months ago.
+Dialogue: 0,0:04:22.92,0:04:29.74,DCMain,KOGORO,0000,0000,0000,,An online cruiser store, luxury cars, \Nluxury watches, and cottages.
+Dialogue: 0,0:04:28.24,0:04:29.74,Construction,SIGN TOP,0000,0000,0000,,Nakayama Oi Construction
+Dialogue: 0,0:04:29.74,0:04:34.97,DCMain,CONAN,0000,0000,0000,,All luxury goods a regular \Nemployee couldn't afford.
+Dialogue: 0,0:04:34.97,0:04:38.75,DCMain,KOGORO,0000,0000,0000,,Well, looking is free. Now then.
+Dialogue: 0,0:04:39.27,0:04:41.76,DCMain,KOGORO,0000,0000,0000,,Let's visit his office.
+Dialogue: 0,0:04:48.03,0:04:50.14,DCMain,KOGORO,0000,0000,0000,,This is it.
+Dialogue: 0,0:04:59.93,0:05:01.57,DCMain,KOGORO,0000,0000,0000,,Let's see.
+Dialogue: 0,0:05:02.17,0:05:06.74,DCMain,KOGORO,0000,0000,0000,,Lyphard & Roberto, Inc.
+Dialogue: 0,0:05:04.57,0:05:07.07,Floors,SIGN,0000,0000,0000,,9F (Ltd.) Eclipse Arabian \N8F St. Simon Corporation \N7F Lyphard & Roberto, Inc. \N6F Godolphin & Mitcham \N5F Tsukitomo Man o' War, Inc. \N4F TPD Sunday Holdings \N3F Halo \N2F Tag Diary, Inc. \N1F Entrance
+Dialogue: 0,0:05:07.53,0:05:09.83,DCMain,KOGORO,0000,0000,0000,,Found it. It's on the seventh floor.
+Dialogue: 0,0:05:12.58,0:05:13.83,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:05:13.83,0:05:16.08,DCMain,KOGORO,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:05:16.08,0:05:20.84,DCMain,JUNKO,0000,0000,0000,,{\an8}Like I said, there's no one named Nakajima \Nemployed in our accounting department.
+Dialogue: 0,0:05:16.33,0:05:20.17,Kasai,SIGN,0000,0000,0000,,{\fad(370,370)}Kasai Junko (24) \NReceptionist
+Dialogue: 0,0:05:20.84,0:05:26.55,DCMain,KOGORO,0000,0000,0000,,That can't be right. I know \NI was told he works here.
+Dialogue: 0,0:05:26.55,0:05:28.34,DCMain,JUNKO,0000,0000,0000,,I don't know what to say to that.
+Dialogue: 0,0:05:28.34,0:05:31.39,DCMain,KOGORO,0000,0000,0000,,This is your company's \Nbusiness card, isn't it?
+Dialogue: 0,0:05:31.39,0:05:33.10,DCMain,JUNKO,0000,0000,0000,,Yes, but...
+Dialogue: 0,0:05:33.10,0:05:37.44,DCMain,CONAN,0000,0000,0000,,Then let's ask to talk to \Nhis coworker Nishimura-san.
+Dialogue: 0,0:05:37.44,0:05:39.10,DCMain,KOGORO,0000,0000,0000,,Yeah, you're right.
+Dialogue: 0,0:05:42.13,0:05:44.11,DCMain,NISHIMURA,0000,0000,0000,,Oh, Nakajima-san?
+Dialogue: 0,0:05:44.32,0:05:47.70,Nishimura,SIGN,0000,0000,0000,,{\fad(370,370)}Nishimura Masa (35) \NSalaryman
+Dialogue: 0,0:05:44.84,0:05:47.86,DCMain,NISHIMURA,0000,0000,0000,,{\an8}Nakajima-san quit six months ago.
+Dialogue: 0,0:05:48.18,0:05:49.30,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:05:49.30,0:05:52.17,DCMain,KOGORO,0000,0000,0000,,He quit? Is that true?
+Dialogue: 0,0:05:52.17,0:05:53.37,DCMain,NISHIMURA,0000,0000,0000,,Yes.
+Dialogue: 0,0:05:53.37,0:05:55.57,DCMain,NISHIMURA,0000,0000,0000,,I wasn't told anything about it.
+Dialogue: 0,0:05:55.57,0:05:58.00,DCMain,NISHIMURA,0000,0000,0000,,I first learned about it when he left.
+Dialogue: 0,0:05:58.00,0:06:02.67,DCMain,CONAN,0000,0000,0000,,I thought you were close with Nakajima-san.
+Dialogue: 0,0:06:02.67,0:06:06.26,DCMain,NISHIMURA,0000,0000,0000,,He taught me a lot when \NI joined the company.
+Dialogue: 0,0:06:06.65,0:06:09.64,DCMain,NISHIMURA,0000,0000,0000,,But recently, he'd been busy.
+Dialogue: 0,0:06:09.64,0:06:11.89,DCMain,NISHIMURA,0000,0000,0000,,We hadn't kept in touch.
+Dialogue: 0,0:06:11.89,0:06:15.88,DCMain,NISHIMURA,0000,0000,0000,,I can understand why he'd want to quit \Nwith no managerial position at his age,
+Dialogue: 0,0:06:15.88,0:06:18.51,DCMain,NISHIMURA,0000,0000,0000,,and no real work to do.
+Dialogue: 0,0:06:18.51,0:06:22.63,DCMain,KOGORO,0000,0000,0000,,Do you have any idea where he might be?
+Dialogue: 0,0:06:22.63,0:06:24.19,DCMain,NISHIMURA,0000,0000,0000,,I don't know.
+Dialogue: 0,0:06:24.19,0:06:26.22,DCMain,NISHIMURA,0000,0000,0000,,In any case, he's an earnest guy.
+Dialogue: 0,0:06:26.22,0:06:29.53,DCMain,NISHIMURA,0000,0000,0000,,All he did was travel between \Nhome and work every day.
+Dialogue: 0,0:06:33.31,0:06:36.79,DCMain,CONAN,0000,0000,0000,,What do you think this means, Mister?
+Dialogue: 0,0:06:36.79,0:06:37.79,DCMain,KOGORO,0000,0000,0000,,Who knows?
+Dialogue: 0,0:06:38.26,0:06:43.12,DCMain,KOGORO,0000,0000,0000,,This was supposed to be a plain old search, \Nbut it's becoming a pain in the rear.
+Dialogue: 0,0:06:43.12,0:06:44.67,DCMain,JUNKO,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:06:45.49,0:06:49.55,DCMain,JUNKO,0000,0000,0000,,You're the great detective \NMori Kogoro-san, aren't you?
+Dialogue: 0,0:06:49.92,0:06:51.72,DCMain,KOGORO,0000,0000,0000,,Well, yes.
+Dialogue: 0,0:06:52.03,0:06:54.22,DCMain,CONAN,0000,0000,0000,,The receptionist from earlier?
+Dialogue: 0,0:06:54.22,0:06:58.73,DCMain,JUNKO,0000,0000,0000,,There's actually something I wanted to \Ntell you regarding Nakajima-san.
+Dialogue: 0,0:06:58.73,0:07:02.18,DCMain,KOGORO,0000,0000,0000,,Then you knew Nakajima-san.
+Dialogue: 0,0:07:02.18,0:07:03.65,DCMain,JUNKO,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:07:03.97,0:07:05.99,DCMain,JUNKO,0000,0000,0000,,The truth is, six months ago...
+Dialogue: 0,0:07:06.63,0:07:08.93,DCFlashback,BOSS,0000,0000,0000,,Nakajima-kun, calm down.
+Dialogue: 0,0:07:08.93,0:07:11.03,DCFlashback,NAKAJIMA,0000,0000,0000,,I'm always calm.
+Dialogue: 0,0:07:11.03,0:07:12.66,DCFlashback,BOSS,0000,0000,0000,,Then why?
+Dialogue: 0,0:07:13.03,0:07:16.20,DCFlashback,NAKAJIMA,0000,0000,0000,,I can't work at a company \Nthat's this exploitative!
+Dialogue: 0,0:07:16.20,0:07:17.37,DCFlashback,BOSS,0000,0000,0000,,What?
+Dialogue: 0,0:07:17.37,0:07:20.02,DCFlashback,NAKAJIMA,0000,0000,0000,,I quit!
+Dialogue: 0,0:07:26.50,0:07:29.14,DCMain,KOGORO,0000,0000,0000,,So that happened?
+Dialogue: 0,0:07:29.14,0:07:33.76,DCMain,JUNKO,0000,0000,0000,,Yes. I couldn't officially say anything \Nthat would hurt the company.
+Dialogue: 0,0:07:34.21,0:07:36.39,DCMain,JUNKO,0000,0000,0000,,Was it useful, though?
+Dialogue: 0,0:07:36.39,0:07:38.44,DCMain,KOGORO,0000,0000,0000,,Yes, of course.
+Dialogue: 0,0:07:38.44,0:07:43.96,DCMain,JUNKO,0000,0000,0000,,Great. Then I can brag to everyone \Nthat I helped solve the case.
+Dialogue: 0,0:07:43.96,0:07:44.98,DCMain,JUNKO,0000,0000,0000,,See you later.
+Dialogue: 0,0:07:45.65,0:07:48.40,DCItalic,CONAN,0000,0000,0000,,We haven't solved it yet, though.
+Dialogue: 0,0:07:48.76,0:07:54.60,DCMain,KOGORO,0000,0000,0000,,An allegedly earnest man spoke sharply \Nto his boss and suddenly quit, huh?
+Dialogue: 0,0:07:54.60,0:07:56.28,DCMain,CONAN,0000,0000,0000,,What are we going to do next?
+Dialogue: 0,0:07:56.28,0:07:58.33,DCMain,KOGORO,0000,0000,0000,,I don't know where to begin.
+Dialogue: 0,0:07:58.33,0:08:01.29,DCMain,CONAN,0000,0000,0000,,Then why not make a phone call?
+Dialogue: 0,0:08:01.29,0:08:02.21,DCMain,KOGORO,0000,0000,0000,,A phone call?
+Dialogue: 0,0:08:02.21,0:08:04.18,DCMain,CONAN,0000,0000,0000,,To Ocean Blue.
+Dialogue: 0,0:08:03.79,0:08:10.21,DiveShop2,SIGN,0000,0000,0000,,{\fad(420,1)}Dive Shop \NOcean Blue
+Dialogue: 0,0:08:04.18,0:08:10.21,DCMain,CONAN,0000,0000,0000,,The dive shop Nakajima-san and \NNishimura-san visited together in that photo.
+Dialogue: 0,0:08:14.72,0:08:17.47,DiveShop3,SIGN,0000,0000,0000,,Dive Shop \NOcean Blue
+Dialogue: 0,0:08:16.20,0:08:17.47,DCMain,YAMAUCHI,0000,0000,0000,,Hello?
+Dialogue: 0,0:08:17.79,0:08:20.56,DCMain,YAMAUCHI,0000,0000,0000,,{\an8}This is Dive Shop Ocean Blue.
+Dialogue: 0,0:08:18.31,0:08:22.18,Yamauchi,SIGN,0000,0000,0000,,{\fad(370,370)}Yamauchi Isao (56) \NDive Shop Manager
+Dialogue: 0,0:08:20.87,0:08:22.92,DCMain,YAMAUCHI,0000,0000,0000,,What? A detective?
+Dialogue: 0,0:08:22.92,0:08:25.35,DCMain,YAMAUCHI,0000,0000,0000,,What does a detective want with us?
+Dialogue: 0,0:08:25.35,0:08:31.70,DCMain,KOGORO,0000,0000,0000,,I believe someone named Nakajima \NHiroshi was one of your customers.
+Dialogue: 0,0:08:31.70,0:08:34.82,DCItalic,YAMAUCHI,0000,0000,0000,,Oh, Hiro-chan. I remember him well.
+Dialogue: 0,0:08:34.82,0:08:36.99,DCItalic,YAMAUCHI,0000,0000,0000,,After all, he used to work for us.
+Dialogue: 0,0:08:37.67,0:08:39.56,DCMain,YAMAUCHI,0000,0000,0000,,He loved sharks.
+Dialogue: 0,0:08:39.56,0:08:44.50,DCMain,YAMAUCHI,0000,0000,0000,,Every year when he came to our shop, he told \Nus to take him someplace there were sharks.
+Dialogue: 0,0:08:44.50,0:08:49.25,DCMain,KOGORO,0000,0000,0000,,Has Nakajima-san visited you recently?
+Dialogue: 0,0:08:49.25,0:08:53.70,DCMain,YAMAUCHI,0000,0000,0000,,No. The last time he \Ncame was four years ago.
+Dialogue: 0,0:08:53.70,0:08:57.16,DCMain,YAMAUCHI,0000,0000,0000,,Diving is expensive.
+Dialogue: 0,0:08:57.16,0:09:02.64,DCMain,YAMAUCHI,0000,0000,0000,,He complained it's tough to keep diving \Nas a salaryman with only 2,000 yen to spend.
+Dialogue: 0,0:09:02.64,0:09:06.40,DCMain,KOGORO,0000,0000,0000,,I see. Thank you for the information.
+Dialogue: 0,0:09:06.88,0:09:10.27,DCMain,CONAN,0000,0000,0000,,Hey, Mister. Something's not right.
+Dialogue: 0,0:09:10.27,0:09:16.10,DCMain,CONAN,0000,0000,0000,,The wife acted like it was totally natural \Nto know her husband's computer password,
+Dialogue: 0,0:09:16.10,0:09:21.16,DCMain,CONAN,0000,0000,0000,,and 2,000 yen for spending \Nmoney seems a little stingy.
+Dialogue: 0,0:09:21.51,0:09:25.16,DCMain,KOGORO,0000,0000,0000,,Yeah. We'll need to look into it.
+Dialogue: 0,0:09:25.16,0:09:26.33,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:27.65,0:09:31.42,DCMain,RYU,0000,0000,0000,,I haven't spoken with my \Nbrother in several weeks.
+Dialogue: 0,0:09:31.63,0:09:35.51,Ryu,SIGN,0000,0000,0000,,{\fad(370,370)}Nakajima Ryu (28) \NSelf-employed
+Dialogue: 0,0:09:31.96,0:09:37.05,DCMain,RYU,0000,0000,0000,,{\an8}Since Takako-san reached out \Nto me, I'd heard he was missing.
+Dialogue: 0,0:09:37.44,0:09:39.37,DCMain,KOGORO,0000,0000,0000,,Have you heard from your brother?
+Dialogue: 0,0:09:39.69,0:09:45.52,DCMain,RYU,0000,0000,0000,,No. I tried calling him, \Nbut he didn't answer.
+Dialogue: 0,0:09:45.94,0:09:49.31,DCMain,CONAN,0000,0000,0000,,You don't seem that worried.
+Dialogue: 0,0:09:50.76,0:09:54.57,DCMain,RYU,0000,0000,0000,,I'm not worried exactly. \NI just figured it was possible.
+Dialogue: 0,0:09:54.57,0:09:56.28,DCMain,KOGORO,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:09:56.28,0:10:00.79,DCMain,RYU,0000,0000,0000,,Takako-san is stricter than she looks.
+Dialogue: 0,0:10:01.13,0:10:04.08,DCMain,RYU,0000,0000,0000,,My brother had been under \Nher thumb for some time.
+Dialogue: 0,0:10:04.08,0:10:10.26,DCMain,RYU,0000,0000,0000,,She held the purse strings, and my brother \Nwas only given 2,000 yen a month to spend.
+Dialogue: 0,0:10:10.58,0:10:13.92,DCMain,RYU,0000,0000,0000,,Whenever he went out, he \Ntold her where he was going,
+Dialogue: 0,0:10:13.92,0:10:20.63,DCMain,RYU,0000,0000,0000,,sent photos of whoever he met with, \Nand contacted her every two hours.
+Dialogue: 0,0:10:20.63,0:10:24.35,DCMain,RYU,0000,0000,0000,,He said there were a bunch more rules, too.
+Dialogue: 0,0:10:24.35,0:10:31.10,DCMain,KOGORO,0000,0000,0000,,I see. In other words, you're not \Nsurprised your brother went missing.
+Dialogue: 0,0:10:31.47,0:10:34.86,DCMain,RYU,0000,0000,0000,,No. If anything, \NI'm surprised it took this long.
+Dialogue: 0,0:10:36.50,0:10:40.97,DCMain,KOGORO,0000,0000,0000,,It's sounding less like something happened \Nto him and more like he ran away.
+Dialogue: 0,0:10:40.97,0:10:41.99,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:42.44,0:10:46.24,DCMain,CONAN,0000,0000,0000,,Nakajima-san had a reason to do that.
+Dialogue: 0,0:10:47.25,0:10:49.62,DCMain,TAKAKO,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:10:49.62,0:10:54.88,DCMain,KOGORO,0000,0000,0000,,In other words, six months ago, \Nyour husband quit his job.
+Dialogue: 0,0:10:54.88,0:10:56.25,DCMain,TAKAKO,0000,0000,0000,,No...
+Dialogue: 0,0:10:56.63,0:10:58.70,DCMain,TAKAKO,0000,0000,0000,,No, that can't be possible.
+Dialogue: 0,0:10:58.70,0:11:01.00,DCMain,KOGORO,0000,0000,0000,,But it's the truth.
+Dialogue: 0,0:11:01.00,0:11:01.76,DCMain,TAKAKO,0000,0000,0000,,You're lying!
+Dialogue: 0,0:11:01.76,0:11:05.10,DCMain,TAKAKO,0000,0000,0000,,I know everything about him.
+Dialogue: 0,0:11:05.10,0:11:09.07,DCMain,TAKAKO,0000,0000,0000,,He always went to work at the same time \Nand came home at the same time.
+Dialogue: 0,0:11:09.07,0:11:12.07,DCMain,TAKAKO,0000,0000,0000,,His salary was deposited \Nsame as always, too.
+Dialogue: 0,0:11:12.77,0:11:16.44,DCMain,TAKAKO,0000,0000,0000,,He was definitely going to work,
+Dialogue: 0,0:11:16.44,0:11:19.61,DCMain,TAKAKO,0000,0000,0000,,and he'd never doing anything \Nwithout my knowledge.
+Dialogue: 0,0:11:20.82,0:11:22.61,DCMain,TAKAKO,0000,0000,0000,,It's impossible!
+Dialogue: 0,0:11:23.28,0:11:28.75,DCMain,KOGORO,0000,0000,0000,,Forgive me, but an unemployed person can \Nleave the house according to schedule.
+Dialogue: 0,0:11:28.75,0:11:32.29,DCMain,KOGORO,0000,0000,0000,,It's even possible to make deposits \Nunder a different name, too.
+Dialogue: 0,0:11:32.29,0:11:36.42,DCMain,TAKAKO,0000,0000,0000,,But it doesn't make sense. After all, \Nhe was going to the office.
+Dialogue: 0,0:11:36.42,0:11:38.80,DCMain,CONAN,0000,0000,0000,,How do you know that?
+Dialogue: 0,0:11:39.80,0:11:43.68,DCMain,CONAN,0000,0000,0000,,Were you keeping an eye on your husband?
+Dialogue: 0,0:11:47.60,0:11:53.69,DCMain,TAKAKO,0000,0000,0000,,Yes, I was. I was tracking \Nthe GPS on his phone.
+Dialogue: 0,0:11:54.33,0:11:58.44,DCMain,TAKAKO,0000,0000,0000,,So I know he'd been going to \Nthe office until three days ago.
+Dialogue: 0,0:11:58.93,0:12:04.32,DCMain,TAKAKO,0000,0000,0000,,But three days ago, his phone \Nlost power in the evening.
+Dialogue: 0,0:12:04.32,0:12:07.20,DCMain,TAKAKO,0000,0000,0000,,That had never happened before.
+Dialogue: 0,0:12:07.20,0:12:11.28,DCMain,KOGORO,0000,0000,0000,,I see. So that's why you hired me.
+Dialogue: 0,0:12:11.28,0:12:12.21,DCMain,TAKAKO,0000,0000,0000,,That's right!
+Dialogue: 0,0:12:12.21,0:12:14.41,DCMain,TAKAKO,0000,0000,0000,,Now that you know, get out of here.
+Dialogue: 0,0:12:14.41,0:12:16.63,DCMain,TAKAKO,0000,0000,0000,,Hurry up and find him.
+Dialogue: 0,0:12:18.13,0:12:23.13,DCMain,KOGORO,0000,0000,0000,,By the way, what will you do \Nonce you've found your husband?
+Dialogue: 0,0:12:25.03,0:12:26.89,DCMain,TAKAKO,0000,0000,0000,,Get out!
+Dialogue: 0,0:12:27.99,0:12:34.05,DCMain,CONAN,0000,0000,0000,,Nakajima-san used his controlling wife's \Nhabits against her to lead a double life.
+Dialogue: 0,0:12:34.05,0:12:36.18,DCMain,KOGORO,0000,0000,0000,,He quit his job six months ago,
+Dialogue: 0,0:12:36.18,0:12:39.15,DCMain,KOGORO,0000,0000,0000,,and continued depositing his \Nsalary into his wife's account.
+Dialogue: 0,0:12:39.52,0:12:44.53,DCMain,KOGORO,0000,0000,0000,,She hadn't found out until now \Nbecause he planned it very carefully.
+Dialogue: 0,0:12:44.53,0:12:47.03,DCMain,CONAN,0000,0000,0000,,I wonder what he was doing.
+Dialogue: 0,0:12:47.03,0:12:48.44,DCMain,KOGORO,0000,0000,0000,,I don't know.
+Dialogue: 0,0:12:48.44,0:12:54.41,DCMain,KOGORO,0000,0000,0000,,But it seemed to be going well, so why \Ndid he turn off his phone three days ago?
+Dialogue: 0,0:12:54.72,0:12:59.81,DCMain,CONAN,0000,0000,0000,,Either he didn't need to hide it anymore, \Nor something unexpected happened.
+Dialogue: 0,0:12:59.81,0:13:01.92,DCMain,KOGORO,0000,0000,0000,,Yeah. It's a mystery.
+Dialogue: 0,0:13:01.92,0:13:04.64,DCMain,CONAN,0000,0000,0000,,Then let's go find out.
+Dialogue: 0,0:13:04.64,0:13:11.56,DCMain,CONAN,0000,0000,0000,,You already know where Nakajima-san was \Ngoing without his wife's knowledge, right?
+Dialogue: 0,0:13:11.56,0:13:14.85,DCMain,KOGORO,0000,0000,0000,,What? Well, yeah.
+Dialogue: 0,0:13:14.85,0:13:19.80,DCMain,CONAN,0000,0000,0000,,Normally a GPS only displays a flat map.
+Dialogue: 0,0:13:19.80,0:13:24.26,DCMain,CONAN,0000,0000,0000,,So by placing the device on a different \Nfloor in the same building as his office,
+Dialogue: 0,0:13:24.26,0:13:26.85,DCMain,CONAN,0000,0000,0000,,he made her believe he was at the office.
+Dialogue: 0,0:13:27.28,0:13:30.46,DCMain,CONAN,0000,0000,0000,,In other words, Nakajima-san \Nwas going to the basement
+Dialogue: 0,0:13:30.46,0:13:34.37,DCMain,CONAN,0000,0000,0000,,of the building where \Nhis office was located.
+Dialogue: 0,0:13:34.37,0:13:37.12,DCMain,KOGORO,0000,0000,0000,,Wh-Why would he go to the basement?
+Dialogue: 0,0:13:37.46,0:13:39.47,DCMain,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:13:39.47,0:13:43.32,DCMain,CONAN,0000,0000,0000,,Because only the basement floors \Nwere blank on the directory,
+Dialogue: 0,0:13:43.32,0:13:47.05,DCMain,CONAN,0000,0000,0000,,but there was no space for rent sign.
+Dialogue: 0,0:13:47.05,0:13:52.18,DCMain,KOGORO,0000,0000,0000,,In other words, someone is renting them, \Nbut there's no company there.
+Dialogue: 0,0:13:52.18,0:13:54.60,DCMain,CONAN,0000,0000,0000,,You'd need a really good reason \Nnot to rent out space
+Dialogue: 0,0:13:54.60,0:13:58.37,DCMain,CONAN,0000,0000,0000,,in an office building located \Nin such a nice district, right?
+Dialogue: 0,0:13:58.37,0:14:02.32,DCMain,KOGORO,0000,0000,0000,,But an ordinary salaryman couldn't \Nafford something like that.
+Dialogue: 0,0:14:02.77,0:14:05.32,DCMain,CONAN,0000,0000,0000,,That's why we're going to check it out.
+Dialogue: 0,0:14:15.29,0:14:16.67,DCMain,KOGORO,0000,0000,0000,,This is it.
+Dialogue: 0,0:14:18.07,0:14:19.83,DCMain,CONAN,0000,0000,0000,,It's not locked.
+Dialogue: 0,0:14:26.88,0:14:29.66,DCMain,KOGORO,0000,0000,0000,,Wh-What is this?!
+Dialogue: 0,0:14:46.69,0:14:51.39,DCMain,KOGORO,0000,0000,0000,,Wh-What is this huge aquarium?
+Dialogue: 0,0:14:54.45,0:14:55.33,DCMain,CONAN,0000,0000,0000,,Mister.
+Dialogue: 0,0:14:57.91,0:14:59.92,DCMain,KOGORO,0000,0000,0000,,A video camera and phone.
+Dialogue: 0,0:15:00.44,0:15:02.42,DCMain,CONAN,0000,0000,0000,,The phone's broken.
+Dialogue: 0,0:15:02.42,0:15:05.27,DCMain,KOGORO,0000,0000,0000,,So that's why the power turned off.
+Dialogue: 0,0:15:05.27,0:15:06.81,DCMain,CONAN,0000,0000,0000,,What about the camera?
+Dialogue: 0,0:15:06.81,0:15:07.67,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:11.25,0:15:13.77,DCItalic,NAKAJIMA,0000,0000,0000,,My name is Nakajima Hiroshi.
+Dialogue: 0,0:15:13.77,0:15:16.49,DCItalic,NAKAJIMA,0000,0000,0000,,I just became unemployed two days ago.
+Dialogue: 0,0:15:16.49,0:15:23.69,DCItalic,NAKAJIMA,0000,0000,0000,,But I believe this is my first step towards \Nliving my one life without regrets.
+Dialogue: 0,0:15:27.13,0:15:28.49,DCItalic,NAKAJIMA,0000,0000,0000,,Behold.
+Dialogue: 0,0:15:28.89,0:15:33.28,DCItalic,NAKAJIMA,0000,0000,0000,,In this empty space, I'm about \Nto create my very own secret base.
+Dialogue: 0,0:15:33.28,0:15:35.16,DCItalic,NAKAJIMA,0000,0000,0000,,I need to start with the foundation.
+Dialogue: 0,0:15:35.85,0:15:40.16,DCItalic,NAKAJIMA,0000,0000,0000,,I'll reinforce the frame so the weight \Nof the water doesn't destroy it.
+Dialogue: 0,0:15:40.85,0:15:43.48,DCItalic,NAKAJIMA,0000,0000,0000,,Then I'll install the acrylic panel walls.
+Dialogue: 0,0:15:43.48,0:15:45.42,DCItalic,NAKAJIMA,0000,0000,0000,,I'll need to carefully consider the layout.
+Dialogue: 0,0:15:46.17,0:15:49.45,DCItalic,NAKAJIMA,0000,0000,0000,,I'll add water while keeping \Na close eye on salinity.
+Dialogue: 0,0:15:50.07,0:15:52.43,DCItalic,NAKAJIMA,0000,0000,0000,,I'll install filters and heaters, too.
+Dialogue: 0,0:15:52.43,0:15:56.81,DCMain,KOGORO,0000,0000,0000,,Isn't this taking the idea a bit too far?
+Dialogue: 0,0:15:56.81,0:15:59.69,DCItalic,NAKAJIMA,0000,0000,0000,,Finally, I'll add the fish.
+Dialogue: 0,0:16:00.45,0:16:04.31,DCItalic,NAKAJIMA,0000,0000,0000,,Don't forget the hammerhead \Nsharks. I love those.
+Dialogue: 0,0:16:04.31,0:16:08.20,DCItalic,NAKAJIMA,0000,0000,0000,,Now my secret aquarium is complete.
+Dialogue: 0,0:16:08.20,0:16:11.64,DCItalic,NAKAJIMA,0000,0000,0000,,After six months, it's finally done.
+Dialogue: 0,0:16:11.64,0:16:14.70,DCItalic,NAKAJIMA,0000,0000,0000,,I bet people will be surprised \Nwhen they see this.
+Dialogue: 0,0:16:14.70,0:16:18.09,DCMain,KOGORO,0000,0000,0000,,Where'd he get the money to build this?
+Dialogue: 0,0:16:18.67,0:16:20.20,DCMain,NAKAJIMA,0000,0000,0000,,Let me explain.
+Dialogue: 0,0:16:20.80,0:16:26.20,DCItalic,NAKAJIMA,0000,0000,0000,,I put all my allowance from every month \Ntowards the year end lottery.
+Dialogue: 0,0:16:26.20,0:16:30.06,DCItalic,NAKAJIMA,0000,0000,0000,,And last year, I finally won.
+Dialogue: 0,0:16:30.06,0:16:31.95,DCItalic,NAKAJIMA,0000,0000,0000,,My winnings totaled...
+Dialogue: 0,0:16:32.50,0:16:33.72,DCItalic,NAKAJIMA,0000,0000,0000,,one billion yen!
+Dialogue: 0,0:16:33.72,0:16:34.97,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:16:34.97,0:16:36.47,DCMain,KOGORO,0000,0000,0000,,S-Seriously?
+Dialogue: 0,0:16:37.29,0:16:39.94,DCItalic,NAKAJIMA,0000,0000,0000,,After carefully considering \Nhow to spend the money,
+Dialogue: 0,0:16:39.94,0:16:45.83,DCItalic,NAKAJIMA,0000,0000,0000,,I decided to build a personal aquarium \Nin the same building as my former office.
+Dialogue: 0,0:16:45.83,0:16:50.30,DCItalic,NAKAJIMA,0000,0000,0000,,One that would allow me to swim \Nwith the fish, not just observe them.
+Dialogue: 0,0:16:50.30,0:16:56.21,DCItalic,NAKAJIMA,0000,0000,0000,,I'm recording the process in hopes \Nof someday releasing it publicly.
+Dialogue: 0,0:16:56.21,0:16:57.35,DCItalic,NAKAJIMA,0000,0000,0000,,See you later.
+Dialogue: 0,0:17:02.20,0:17:06.38,DCMain,KOGORO,0000,0000,0000,,I see. So he made his fading \Ndream a reality in this place
+Dialogue: 0,0:17:06.38,0:17:09.96,DCMain,KOGORO,0000,0000,0000,,while avoiding his wife's hounding.
+Dialogue: 0,0:17:09.96,0:17:13.56,DCMain,KOGORO,0000,0000,0000,,He built the palace of his dreams.
+Dialogue: 0,0:17:15.38,0:17:17.09,DCMain,CONAN,0000,0000,0000,,Mister, look.
+Dialogue: 0,0:17:21.90,0:17:24.68,DCMain,KOGORO,0000,0000,0000,,That's Nakajima-san. Damn it.
+Dialogue: 0,0:17:42.98,0:17:47.37,DCMain,CHIBA,0000,0000,0000,,This is amazing. It's like a proper aquarium.
+Dialogue: 0,0:17:47.37,0:17:50.34,DCMain,KOGORO,0000,0000,0000,,It's what's left of a \Nmiddle-aged man's dreams.
+Dialogue: 0,0:17:50.34,0:17:52.74,DCMain,CHIBA,0000,0000,0000,,You know what happened to the victim?
+Dialogue: 0,0:17:52.74,0:17:54.95,DCMain,KOGORO,0000,0000,0000,,Yeah, more or less.
+Dialogue: 0,0:17:54.95,0:17:56.97,DCMain,TAKAGI,0000,0000,0000,,Do you even know who killed him?
+Dialogue: 0,0:17:56.97,0:18:00.71,DCMain,KOGORO,0000,0000,0000,,No, not even I—
+Dialogue: 0,0:18:01.80,0:18:04.66,DCMain,KOGORO,0000,0000,0000,,Not even I know that.
+Dialogue: 0,0:18:02.84,0:18:03.64,DCMain,TAKAGI,0000,0000,0000,,{\an8}Mori-san?
+Dialogue: 0,0:18:06.19,0:18:11.23,DCMain,KOGORO,0000,0000,0000,,Please have Nishimura Masa, who works on \Nthe seventh floor, come here immediately.
+Dialogue: 0,0:18:11.23,0:18:13.02,DCMain,KOGORO,0000,0000,0000,,He's the one who killed him.
+Dialogue: 0,0:18:13.02,0:18:14.74,DCMain,CHIBA,0000,0000,0000,,G-Got it.
+Dialogue: 0,0:18:14.74,0:18:17.40,DCMain,TAKAGI,0000,0000,0000,,You're identifying the culprit \Nright off the bat today.
+Dialogue: 0,0:18:17.40,0:18:21.82,DCMain,KOGORO,0000,0000,0000,,I'd like you to confirm a few things, too.
+Dialogue: 0,0:18:22.98,0:18:27.04,DCMain,NISHIMURA,0000,0000,0000,,Why was I suddenly called down here?
+Dialogue: 0,0:18:27.83,0:18:29.96,DCMain,NISHIMURA,0000,0000,0000,,What is this place, anyway?
+Dialogue: 0,0:18:30.61,0:18:33.30,DCMain,KOGORO,0000,0000,0000,,Why don't you drop the act?
+Dialogue: 0,0:18:33.75,0:18:39.09,DCMain,KOGORO,0000,0000,0000,,We already know you killed \NNakajima Hiroshi-san.
+Dialogue: 0,0:18:39.09,0:18:41.34,DCMain,NISHIMURA,0000,0000,0000,,Wh-What are you talking about?
+Dialogue: 0,0:18:41.34,0:18:47.23,DCMain,KOGORO,0000,0000,0000,,At first you supported \NNakajima-san's proposal.
+Dialogue: 0,0:18:47.23,0:18:49.20,DCMain,KOGORO,0000,0000,0000,,Of course you did.
+Dialogue: 0,0:18:49.20,0:18:53.61,DCMain,KOGORO,0000,0000,0000,,You loved diving, and you'd \Nget to do it for free every day.
+Dialogue: 0,0:18:54.20,0:19:00.99,DCMain,KOGORO,0000,0000,0000,,But then you learned Nakajima-san won \Na massive fortune and wanted a share.
+Dialogue: 0,0:19:00.99,0:19:05.87,DCMain,KOGORO,0000,0000,0000,,You probably threatened \Nto expose him to his wife.
+Dialogue: 0,0:19:07.72,0:19:09.88,DCMain,KOGORO,0000,0000,0000,,The discussion went south from there,
+Dialogue: 0,0:19:09.88,0:19:15.38,DCMain,KOGORO,0000,0000,0000,,and you attacked Nakajima-san \Ninside this aquarium and killed him.
+Dialogue: 0,0:19:16.92,0:19:19.37,DCMain,NISHIMURA,0000,0000,0000,,That's just speculation.
+Dialogue: 0,0:19:19.37,0:19:24.72,DCMain,NISHIMURA,0000,0000,0000,,I didn't know about his secret base, \Nand I've never been here before.
+Dialogue: 0,0:19:24.72,0:19:29.16,DCMain,NISHIMURA,0000,0000,0000,,If you still insist I did it, \Nthen show me the evidence.
+Dialogue: 0,0:19:29.16,0:19:32.40,DCMain,KOGORO,0000,0000,0000,,The evidence is right there \Non that video camera.
+Dialogue: 0,0:19:33.38,0:19:35.34,DCMain,TAKAGI,0000,0000,0000,,On the video camera?
+Dialogue: 0,0:19:35.34,0:19:37.15,DCMain,CONAN,0000,0000,0000,,Look closely.
+Dialogue: 0,0:19:37.56,0:19:41.60,DCMain,CONAN,0000,0000,0000,,At first, he's filming with a tripod.
+Dialogue: 0,0:19:41.60,0:19:46.41,DCMain,CONAN,0000,0000,0000,,But by the end, see? \NSomeone's holding the camera.
+Dialogue: 0,0:19:46.41,0:19:48.49,DCMain,TAKAGI,0000,0000,0000,,Y-You're right.
+Dialogue: 0,0:19:48.49,0:19:53.92,DCMain,KOGORO,0000,0000,0000,,In other words, it was filmed by \Nsomeone who helped build this place.
+Dialogue: 0,0:19:54.76,0:19:57.67,DCMain,KOGORO,0000,0000,0000,,Nishimura-san, by your hands.
+Dialogue: 0,0:19:58.82,0:20:00.12,DCMain,NISHIMURA,0000,0000,0000,,I'm being falsely accused.
+Dialogue: 0,0:20:00.12,0:20:02.18,DCMain,NISHIMURA,0000,0000,0000,,I've never seen this video before.
+Dialogue: 0,0:20:02.18,0:20:06.18,DCMain,KOGORO,0000,0000,0000,,Then how did you know \Nthis was his secret base?
+Dialogue: 0,0:20:06.18,0:20:09.04,DCFlashback,NISHIMURA,0000,0000,0000,,That's just speculation.
+Dialogue: 0,0:20:09.04,0:20:14.19,DCFlashback,NISHIMURA,0000,0000,0000,,I didn't know about his secret base, \Nand I've never been here before.
+Dialogue: 0,0:20:14.87,0:20:18.34,DCMain,KOGORO,0000,0000,0000,,Only someone who saw \Nthat video or filmed it
+Dialogue: 0,0:20:18.77,0:20:23.32,DCMain,KOGORO,0000,0000,0000,,would know this was \NNakajima-san's secret base.
+Dialogue: 0,0:20:23.32,0:20:25.99,DCMain,NISHIMURA,0000,0000,0000,,I don't know what you're \Ntalking about it. It wasn't me.
+Dialogue: 0,0:20:25.99,0:20:27.74,DCMain,NISHIMURA,0000,0000,0000,,I didn't do it!
+Dialogue: 0,0:20:28.66,0:20:30.62,DCMain,KOGORO,0000,0000,0000,,Then what is that?
+Dialogue: 0,0:20:31.86,0:20:33.25,DCMain,KOGORO,0000,0000,0000,,That's your earring.
+Dialogue: 0,0:20:34.18,0:20:37.10,DCMain,KOGORO,0000,0000,0000,,You dropped it when you \Ntussled in the water.
+Dialogue: 0,0:20:39.68,0:20:42.47,DCMain,KOGORO,0000,0000,0000,,It seems you hadn't noticed.
+Dialogue: 0,0:20:42.79,0:20:45.77,DCMain,KOGORO,0000,0000,0000,,According to this building's \Nsecurity camera footage,
+Dialogue: 0,0:20:45.77,0:20:51.77,DCMain,KOGORO,0000,0000,0000,,three days ago when you took paid time off, \Nyou came to this building for some reason.
+Dialogue: 0,0:20:52.25,0:20:54.81,DCMain,KOGORO,0000,0000,0000,,You had earrings in both ears \Nwhen you entered,
+Dialogue: 0,0:20:55.49,0:20:57.83,DCMain,KOGORO,0000,0000,0000,,but one was missing when you left.
+Dialogue: 0,0:20:58.35,0:21:01.66,DCMain,KOGORO,0000,0000,0000,,Furthermore, you arrived before and left \Nafter Nakajima-san's estimated time of death.
+Dialogue: 0,0:21:02.15,0:21:06.04,DCMain,KOGORO,0000,0000,0000,,What that signifies is plain as day.
+Dialogue: 0,0:21:07.16,0:21:10.98,DCMain,KOGORO,0000,0000,0000,,You can't talk your way \Nout of this, Nishimura-san.
+Dialogue: 0,0:21:13.26,0:21:15.15,DCMain,NISHIMURA,0000,0000,0000,,It's his fault.
+Dialogue: 0,0:21:15.62,0:21:19.59,DCMain,NISHIMURA,0000,0000,0000,,He could've helped me a little.
+Dialogue: 0,0:22:55.01,0:22:56.67,DCMain,TAKAKO,0000,0000,0000,,One billion yen...
+Dialogue: 0,0:23:00.64,0:23:02.28,DCMain,TAKAKO,0000,0000,0000,,One billion yen.
+Dialogue: 0,0:23:03.26,0:23:05.99,DCMain,TAKAKO,0000,0000,0000,,I'm a billionaire!
+Dialogue: 0,0:23:10.68,0:23:12.17,DCMain,CONAN,0000,0000,0000,,Hey, Mister.
+Dialogue: 0,0:23:12.17,0:23:12.91,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:13.56,0:23:17.91,DCMain,CONAN,0000,0000,0000,,Nakajima-san's secret base \Nwas pretty expensive.
+Dialogue: 0,0:23:17.91,0:23:23.27,DCMain,KOGORO,0000,0000,0000,,Yeah. He managed to use \Nup all one billion yen.
+Dialogue: 0,0:23:23.27,0:23:25.20,DCMain,CONAN,0000,0000,0000,,Then his wife...
+Dialogue: 0,0:23:25.20,0:23:28.18,DCMain,KOGORO,0000,0000,0000,,...won't get a single penny.
+Dialogue: 0,0:23:28.90,0:23:30.30,DCMain,CONAN,0000,0000,0000,,That's too bad.
+Dialogue: 0,0:23:30.30,0:23:31.43,DCMain,KOGORO,0000,0000,0000,,Yup.
+Dialogue: 0,0:23:32.18,0:23:35.81,DCMain,KOGORO,0000,0000,0000,,I'm hungry. Wanna get \Nsome conveyor belt sushi?
+Dialogue: 0,0:23:35.81,0:23:37.93,DCMain,CONAN,0000,0000,0000,,I don't feel like fish right now.
+Dialogue: 0,0:23:37.93,0:23:39.47,DCMain,KOGORO,0000,0000,0000,,Then let's get ramen.
+Dialogue: 0,0:23:39.47,0:23:41.29,DCMain,CONAN,0000,0000,0000,,I'd rather have yakiniku.
+Dialogue: 0,0:23:41.29,0:23:43.31,DCMain,KOGORO,0000,0000,0000,,We can pick up some instant \Nnoodles on the way home.
+Dialogue: 0,0:23:43.31,0:23:44.94,DCMain,CONAN,0000,0000,0000,,I'd rather have yakiniku.
+Dialogue: 0,0:23:44.94,0:23:47.69,DCMain,SIDEBURNS,0000,0000,0000,,You must really love Holmes.
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:47.69,0:23:51.20,DCMain,MITSUHIKO,0000,0000,0000,,I know. Let's investigate \Nthe burglary ourselves.
+Dialogue: 0,0:23:51.56,0:23:58.45,DCMain,MITSUHIKO,0000,0000,0000,,The person I just spoke to said they go \Nto the park to play the trumpet every day.
+Dialogue: 0,0:23:58.45,0:24:03.71,DCMain,HAIBARA,0000,0000,0000,,Then Kimishima-san would've known \Nexactly when they'd be out of the house.
+Dialogue: 0,0:24:05.46,0:24:06.96,DCMain,CONAN,0000,0000,0000,,Pigeons?
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,SIGN,0000,0000,0000,,Tsuburaya Mitsuhiko's Detective Notes 2
+Dialogue: 0,0:24:09.29,0:24:14.10,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Tsuburaya \NMitsuhiko's Detective Notes 2!"
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,SIGN,0000,0000,0000,,Birdhouse
+Dialogue: 0,0:24:30.55,0:24:33.33,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.33,0:24:34.91,DCMain,CONAN,0000,0000,0000,,A birdhouse!
+Dialogue: 0,0:24:34.91,0:24:37.89,DCMain,KOGORO,0000,0000,0000,,{\an8}If I won a billion yen, I'd keep it \Na secret from Ran, and...
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,SIGN,0000,0000,0000,,{\pos(364,315)}Don't miss the next episode.
+Dialogue: 0,0:24:37.89,0:24:39.87,DCMain,CONAN,0000,0000,0000,,{\an8}She'd find out in ten seconds.

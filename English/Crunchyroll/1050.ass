@@ -1,0 +1,437 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Oi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00853445,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0320,0062,0
+Style: Yuzan,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00B76268,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0110,0020,0062,0
+Style: Yuka,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H008E4D75,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: Yuichiro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00833B44,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0065,0062,0
+Style: IceCream,Trebuchet MS,16,&H001F3837,&H000000FF,&H00E3FFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0110,0020,0046,0
+Style: 30C,Trebuchet MS,16,&H001F3837,&H000000FF,&H00E3FFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0410,0157,0
+Style: SoftServe,Trebuchet MS,16,&H001F3837,&H000000FF,&H00E3FFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0070,0060,0
+Style: 5-7,Trebuchet MS,16,&H001F3837,&H000000FF,&H00E3FFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0062,0078,0
+Style: Yujiro,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0081334C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: Yuzaburo,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00794748,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0155,0062,0
+Style: Envelope,Trebuchet MS,22,&H00010106,&H000000FF,&H006F99B7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: DossierYuzaburo1,Trebuchet MS,18,&H0054543D,&H000000FF,&H00FDFFFE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,3,0020,0057,0147,0
+Style: DossierYuzaburo2,Trebuchet MS,12,&H0054543D,&H000000FF,&H00FDFFFE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0378,0020,0102,0
+Style: DossierYuzaburo3,Trebuchet MS,14,&H0054543D,&H000000FF,&H00FDFFFE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,1,0420,0020,0028,0
+Style: DossierYujiro1,Trebuchet MS,18,&H0054543D,&H000000FF,&H00FDFFFE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0020,0020,0147,0
+Style: DossierYujiro2,Trebuchet MS,12,&H0054543D,&H000000FF,&H00FDFFFE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0020,0022,0102,0
+Style: DossierYujiro3,Trebuchet MS,13,&H0054543D,&H000000FF,&H00FDFFFE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,1,0240,0020,0030,0
+Style: DossierYuichiro1,Trebuchet MS,18,&H0054543D,&H000000FF,&H00FDFFFE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,1,0062,0020,0147,0
+Style: DossierYuichiro2,Trebuchet MS,12,&H0054543D,&H000000FF,&H00FDFFFE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,0020,0385,0102,0
+Style: DossierYuichiro3,Trebuchet MS,12,&H0054543D,&H000000FF,&H00FDFFFE,&H00000000,0,0,0,0,100,100,0,0,1,0,0,1,0060,0020,0012,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:02.95,0:00:04.48,DCItalic,YUZAN,0000,0000,0000,,Listen up, boys.
+Dialogue: 0,0:00:05.19,0:00:12.49,DCItalic,YUZAN,0000,0000,0000,,Do you know what you should value \Nmost in life going forward?
+Dialogue: 0,0:00:14.08,0:00:15.50,DCItalic,YUJIRO,0000,0000,0000,,I don't know.
+Dialogue: 0,0:00:15.50,0:00:16.99,DCItalic,YUICHIRO,0000,0000,0000,,What is it?
+Dialogue: 0,0:00:17.53,0:00:18.99,DCItalic,YUZAN,0000,0000,0000,,I'll tell you.
+Dialogue: 0,0:00:21.38,0:00:22.61,DCItalic,YUZAN,0000,0000,0000,,It is...
+Dialogue: 0,0:00:28.72,0:00:30.43,DCMain,CONAN,0000,0000,0000,,Mysterious clouds block your field of view!
+Dialogue: 0,0:00:30.43,0:00:32.28,DCMain,CONAN,0000,0000,0000,,Clear them away with deductive \Nreasoning and the sky sparkles!
+Dialogue: 0,0:00:32.28,0:00:34.21,DCMain,CONAN,0000,0000,0000,,A luxurious mansion built on a remote island!
+Dialogue: 0,0:00:34.21,0:00:36.27,DCMain,CONAN,0000,0000,0000,,A case swirls around an inheritance dispute!
+Dialogue: 0,0:00:36.27,0:00:38.01,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:38.01,0:00:39.83,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:00:39.83,0:00:42.39,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:23.99,0:02:30.00,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(404,1}Intrigue at Morikawa Mansion \N(Part One)
+Dialogue: 0,0:02:24.58,0:02:27.93,DCMain,CONAN,0000,0000,0000,,"Intrigue at Morikawa Mansion, Part One!"
+Dialogue: 0,0:02:37.11,0:02:41.14,DCMain,RAN,0000,0000,0000,,Wow, the entire island is your property?
+Dialogue: 0,0:02:41.35,0:02:45.28,Oi,SIGN,0000,0000,0000,,{\fad(375,415)}Oi Hiroki (36) \NLawyer
+Dialogue: 0,0:02:41.51,0:02:44.64,DCMain,OI,0000,0000,0000,,{\an8}The owner Morikawa Yuzan made \Nsignificant contributions
+Dialogue: 0,0:02:44.64,0:02:47.02,DCMain,OI,0000,0000,0000,,{\an8}to the development and advancement \Nof soft serve ice cream.
+Dialogue: 0,0:02:47.27,0:02:50.06,DCMain,OI,0000,0000,0000,,In a single generation,
+Dialogue: 0,0:02:50.06,0:02:52.77,DCMain,OI,0000,0000,0000,,he created the massive joint \Nventure company Morikawa Holdings.
+Dialogue: 0,0:02:52.96,0:02:56.78,DCMain,KOGORO,0000,0000,0000,,And Chairman Morikawa \Nhimself invited us here.
+Dialogue: 0,0:02:57.04,0:03:02.86,DCMain,CONAN,0000,0000,0000,,I wonder what such a wealthy \Nman wants you to do.
+Dialogue: 0,0:03:03.53,0:03:05.05,DCMain,OI,0000,0000,0000,,There it is.
+Dialogue: 0,0:03:05.05,0:03:08.54,DCMain,OI,0000,0000,0000,,That's Morikawa Yuzan's mansion.
+Dialogue: 0,0:03:11.73,0:03:14.04,DCMain,YUZAN,0000,0000,0000,,I'm dying soon.
+Dialogue: 0,0:03:14.32,0:03:15.42,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:03:15.90,0:03:20.17,DCMain,OI,0000,0000,0000,,{\an8}Yuzan's entire body has been \Nconsumed by late-stage cancer.
+Dialogue: 0,0:03:20.39,0:03:23.90,Yuzan,SIGN,0000,0000,0000,,{\fad(375,415)}Morikawa Yuzan (68) \NMorikawa Group Chairman
+Dialogue: 0,0:03:20.55,0:03:24.05,DCMain,OI,0000,0000,0000,,{\an8}He's been told he doesn't have long to live.
+Dialogue: 0,0:03:24.26,0:03:25.89,DCMain,KOGORO,0000,0000,0000,,B-But...
+Dialogue: 0,0:03:26.13,0:03:31.39,DCMain,YUZAN,0000,0000,0000,,So I thought I'd gather my \Nrelatives and rewrite my will.
+Dialogue: 0,0:03:31.67,0:03:32.72,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:03:32.72,0:03:37.04,DCMain,OI,0000,0000,0000,,That's why he invited you, the \Ngreat detective Mori Kogoro.
+Dialogue: 0,0:03:37.04,0:03:39.03,DCMain,KOGORO,0000,0000,0000,,What do you want me to do?
+Dialogue: 0,0:03:39.57,0:03:44.67,DCMain,OI,0000,0000,0000,,We want you to use your exceptional \Nobservational skills to evaluate the candidates.
+Dialogue: 0,0:03:44.67,0:03:50.32,DCMain,OI,0000,0000,0000,,We'd like you to advise us on how to \Ndistribute his legacy based on your assessment.
+Dialogue: 0,0:03:50.92,0:03:52.31,DCMain,KOGORO,0000,0000,0000,,You want my advice?
+Dialogue: 0,0:03:52.31,0:03:56.62,DCMain,OI,0000,0000,0000,,The aggregate market value of his legacy \Nis several tens of billions of yen.
+Dialogue: 0,0:03:56.62,0:03:57.21,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:03:57.40,0:04:02.22,DCMain,OI,0000,0000,0000,,Make sure you don't overlook any \Npart of their true character.
+Dialogue: 0,0:04:02.49,0:04:05.88,DCMain,YUZAN,0000,0000,0000,,By the time I rewrite my will tomorrow,
+Dialogue: 0,0:04:05.88,0:04:11.60,DCMain,YUZAN,0000,0000,0000,,I'd like you to select the one person \Nworthy of inheriting my legacy.
+Dialogue: 0,0:04:14.76,0:04:15.78,DCMain,OI,0000,0000,0000,,Come in.
+Dialogue: 0,0:04:15.78,0:04:17.11,DCMain,YUKA,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:04:19.60,0:04:23.21,DCMain,OI,0000,0000,0000,,This woman manages everything \Nconcerning this house.
+Dialogue: 0,0:04:23.21,0:04:26.62,DCMain,YUKA,0000,0000,0000,,{\an8}My name is Shito Yuka. Call me Yuka.
+Dialogue: 0,0:04:23.36,0:04:26.99,Yuka,SIGN,0000,0000,0000,,{\fad(375,1)}Shito Yuka (24) \NChief Butler
+Dialogue: 0,0:04:27.28,0:04:29.17,DCMain,YUKA,0000,0000,0000,,This is the gallery.
+Dialogue: 0,0:04:29.71,0:04:31.62,DCMain,YUKA,0000,0000,0000,,This is the dining room.
+Dialogue: 0,0:04:34.57,0:04:36.50,DCMain,YUKA,0000,0000,0000,,This is the tank room.
+Dialogue: 0,0:04:36.75,0:04:38.84,DCMain,CONAN,0000,0000,0000,,That's a big tank.
+Dialogue: 0,0:04:38.84,0:04:41.67,DCMain,RAN,0000,0000,0000,,Do those all contain soft serve?
+Dialogue: 0,0:04:41.67,0:04:43.28,DCMain,YUICHIRO,0000,0000,0000,,That's right.
+Dialogue: 0,0:04:43.28,0:04:46.62,DCMain,YUICHIRO,0000,0000,0000,,Anyway, have some soft serve.
+Dialogue: 0,0:04:46.62,0:04:47.76,DCMain,KOGORO,0000,0000,0000,,Who are you?
+Dialogue: 0,0:04:48.04,0:04:51.25,DCMain,YUKA,0000,0000,0000,,{\an8}This is Morikawa Yuichiro, the eldest son.
+Dialogue: 0,0:04:49.07,0:04:52.99,Yuichiro,SIGN,0000,0000,0000,,{\fad(375,415)}Morikawa Yuichiro (33) \NSelf-employed
+Dialogue: 0,0:04:51.25,0:04:53.93,DCMain,YUKA,0000,0000,0000,,{\an8}He researches soft serve.
+Dialogue: 0,0:04:54.14,0:04:56.41,DCMain,YUICHIRO,0000,0000,0000,,Have some before it melts.
+Dialogue: 0,0:04:56.41,0:04:57.73,DCMain,CONAN,0000,0000,0000,,Thank you.
+Dialogue: 0,0:04:58.00,0:05:00.30,DCMain,KOGORO,0000,0000,0000,,Thanks for the food.
+Dialogue: 0,0:05:00.30,0:05:01.84,DCMain,YUICHIRO,0000,0000,0000,,Wait!
+Dialogue: 0,0:05:01.84,0:05:04.70,DCMain,YUICHIRO,0000,0000,0000,,The first bite always tastes the best.
+Dialogue: 0,0:05:04.70,0:05:07.27,DCMain,YUICHIRO,0000,0000,0000,,Focus carefully while you eat it.
+Dialogue: 0,0:05:08.66,0:05:10.70,DCMain,BOTH,0000,0000,0000,,Thanks for the food.
+Dialogue: 0,0:05:15.12,0:05:16.17,DCMain,KOGORO,0000,0000,0000,,Yum!
+Dialogue: 0,0:05:16.33,0:05:17.97,DCMain,BOTH,0000,0000,0000,,It's so good!
+Dialogue: 0,0:05:18.64,0:05:20.30,DCMain,YUKA,0000,0000,0000,,That's because it's freshly made
+Dialogue: 0,0:05:20.30,0:05:23.30,DCMain,YUKA,0000,0000,0000,,using carefully selected ingredients \Nand cutting-edge machinery.
+Dialogue: 0,0:05:24.92,0:05:29.51,DCMain,KOGORO,0000,0000,0000,,I'm impressed. You can tell the Morikawa \Nfamily is particular about its ice cream.
+Dialogue: 0,0:05:29.51,0:05:30.75,DCMain,YUICHIRO,0000,0000,0000,,No.
+Dialogue: 0,0:05:31.36,0:05:34.62,DCMain,YUICHIRO,0000,0000,0000,,It's not ice cream, it's soft serve.
+Dialogue: 0,0:05:34.85,0:05:47.07,IceCream,SIGN,0000,0000,0000,,{\fad(710,1)}Ice Cream
+Dialogue: 0,0:05:34.85,0:05:47.07,30C,SIGN,0000,0000,0000,,{\fad(710,1)}Rapidly Frozen \Nat -30°C
+Dialogue: 0,0:05:35.20,0:05:40.25,DCMain,YUICHIRO,0000,0000,0000,,Ice cream is rapidly frozen \Nat negative 30 degrees.
+Dialogue: 0,0:05:40.25,0:05:45.27,DCMain,YUICHIRO,0000,0000,0000,,In contrast, soft serve is frozen between \Nnegative 5 and negative 7 degrees.
+Dialogue: 0,0:05:42.37,0:05:47.07,SoftServe,SIGN,0000,0000,0000,,{\fad(710,1)}Soft Serve
+Dialogue: 0,0:05:42.40,0:05:47.07,5-7,SIGN,0000,0000,0000,,{\fad(710,1)}-5°C ~ -7°C
+Dialogue: 0,0:05:45.27,0:05:47.07,DCMain,YUICHIRO,0000,0000,0000,,It's totally different.
+Dialogue: 0,0:05:47.38,0:05:49.62,DCMain,RAN,0000,0000,0000,,I see.
+Dialogue: 0,0:05:49.62,0:05:53.72,DCMain,YUICHIRO,0000,0000,0000,,Well, we've got plenty. \NHave as much as you'd like.
+Dialogue: 0,0:05:53.72,0:05:56.96,DCMain,YUICHIRO,0000,0000,0000,,We've got all kinds of \Nflavors available, too.
+Dialogue: 0,0:05:57.30,0:06:03.59,DCMain,KOGORO,0000,0000,0000,,By the way, Yuichiro-san, do you \Nwork for your father's company?
+Dialogue: 0,0:06:03.96,0:06:07.06,DCMain,YUICHIRO,0000,0000,0000,,No, I'm not associated with the company.
+Dialogue: 0,0:06:07.06,0:06:11.02,DCMain,YUICHIRO,0000,0000,0000,,I independently research soft serve.
+Dialogue: 0,0:06:11.02,0:06:12.60,DCMain,KOGORO,0000,0000,0000,,What exactly do you research?
+Dialogue: 0,0:06:13.07,0:06:15.56,DCMain,YUICHIRO,0000,0000,0000,,The potential of soft serve.
+Dialogue: 0,0:06:15.56,0:06:20.10,DCMain,YUICHIRO,0000,0000,0000,,I research and develop \Nnew flavors and toppings.
+Dialogue: 0,0:06:20.44,0:06:21.87,DCMain,KOGORO,0000,0000,0000,,I see.
+Dialogue: 0,0:06:21.87,0:06:24.23,DCMain,KOGORO,0000,0000,0000,,So, what kind of flavors \Nare you working on now?
+Dialogue: 0,0:06:24.48,0:06:26.72,DCMain,YUICHIRO,0000,0000,0000,,That's still a secret.
+Dialogue: 0,0:06:26.72,0:06:29.95,DCMain,YUICHIRO,0000,0000,0000,,I hope you'll try it once it's ready.
+Dialogue: 0,0:06:31.00,0:06:32.62,DCMain,YUKA,0000,0000,0000,,This is the reception room.
+Dialogue: 0,0:06:33.81,0:06:35.24,DCMain,YUKA,0000,0000,0000,,Allow me to introduce you.
+Dialogue: 0,0:06:35.24,0:06:40.88,DCMain,YUKA,0000,0000,0000,,This is Morikawa Yujiro the second son \Nand Morikawa Yuzaburo-san the third son.
+Dialogue: 0,0:06:41.38,0:06:45.17,Yujiro,SIGN,0000,0000,0000,,{\fad(375,308)}Morikawa Yujiro (31) \NMorikawa Holdings Executive
+Dialogue: 0,0:06:41.45,0:06:42.93,DCMain,YUJIRO,0000,0000,0000,,{\an8}Nice to meet you.
+Dialogue: 0,0:06:42.93,0:06:46.00,DCMain,YUJIRO,0000,0000,0000,,{\an8}So, you're the famous detective?
+Dialogue: 0,0:06:46.27,0:06:48.01,DCMain,KOGORO,0000,0000,0000,,Yes, I'm Mori Kogoro.
+Dialogue: 0,0:06:48.01,0:06:53.68,DCMain,YUZABURO,0000,0000,0000,,{\an8}What was Dad thinking hiring a detective?
+Dialogue: 0,0:06:48.26,0:06:52.09,Yuzaburo,SIGN,0000,0000,0000,,{\fad(375,415)}Morikawa Yuzaburo (27) \NMorikawa Livestock Rancher
+Dialogue: 0,0:06:54.16,0:06:58.35,DCMain,YUZABURO,0000,0000,0000,,Instead of being so stingy, he should \Njust split it evenly three ways.
+Dialogue: 0,0:06:58.53,0:07:00.37,DCMain,YUJIRO,0000,0000,0000,,He can't do that.
+Dialogue: 0,0:07:00.37,0:07:05.65,DCMain,YUJIRO,0000,0000,0000,,I doubt he wants to leave his legacy \Nto someone as unreliable as you.
+Dialogue: 0,0:07:06.66,0:07:11.16,DCMain,YUZABURO,0000,0000,0000,,Didn't you say you lost \Na ton of money on stocks?
+Dialogue: 0,0:07:11.40,0:07:18.54,DCMain,YUJIRO,0000,0000,0000,,If I inherited everything, I'd be able to \Nprotect all the company's assets and land.
+Dialogue: 0,0:07:18.80,0:07:20.70,DCMain,YUZABURO,0000,0000,0000,,You must be joking!
+Dialogue: 0,0:07:20.70,0:07:23.58,DCMain,YUZABURO,0000,0000,0000,,You're not capable of accounting, bro.
+Dialogue: 0,0:07:24.54,0:07:25.75,DCMain,YUJIRO,0000,0000,0000,,What did you say?!
+Dialogue: 0,0:07:25.75,0:07:27.34,DCMain,YUICHIRO,0000,0000,0000,,Stop it, you two!
+Dialogue: 0,0:07:27.70,0:07:29.01,DCMain,YUICHIRO,0000,0000,0000,,There are guests here!
+Dialogue: 0,0:07:29.48,0:07:30.26,DCMain,YUICHIRO,0000,0000,0000,,Yujiro!
+Dialogue: 0,0:07:30.86,0:07:31.97,DCMain,YUICHIRO,0000,0000,0000,,Cut it out!
+Dialogue: 0,0:07:31.97,0:07:33.22,DCMain,YUJIRO,0000,0000,0000,,Don't talk down to me!
+Dialogue: 0,0:07:33.71,0:07:38.22,DCMain,YUJIRO,0000,0000,0000,,This is only happening because \Nyou won't settle down.
+Dialogue: 0,0:07:38.73,0:07:40.81,DCMain,YUZABURO,0000,0000,0000,,You can't start acting like \Nthe eldest when it suits you!
+Dialogue: 0,0:07:41.05,0:07:42.66,DCMain,YUICHIRO,0000,0000,0000,,What was that?
+Dialogue: 0,0:07:42.66,0:07:44.03,DCMain,YUKA,0000,0000,0000,,Enough of this!
+Dialogue: 0,0:07:47.37,0:07:51.06,DCMain,YUKA,0000,0000,0000,,I'm sorry you had to see that.
+Dialogue: 0,0:07:52.06,0:07:53.27,DCMain,KOGORO,0000,0000,0000,,It's fine.
+Dialogue: 0,0:08:04.48,0:08:07.06,DCMain,YUKA,0000,0000,0000,,You'll be staying here.
+Dialogue: 0,0:08:07.06,0:08:09.59,DCMain,YUKA,0000,0000,0000,,I've had your luggage \Nbrought up to your room.
+Dialogue: 0,0:08:13.96,0:08:16.09,DCMain,RAN,0000,0000,0000,,What a wonderful room.
+Dialogue: 0,0:08:16.73,0:08:19.35,DCMain,RAN,0000,0000,0000,,Is this a soft serve machine?
+Dialogue: 0,0:08:19.35,0:08:22.89,DCMain,YUKA,0000,0000,0000,,Special soft serve machines have \Nbeen installed in every room
+Dialogue: 0,0:08:22.89,0:08:27.46,DCMain,YUKA,0000,0000,0000,,so you can eat soft serve anytime, anywhere.
+Dialogue: 0,0:08:29.27,0:08:30.50,DCMain,YUKA,0000,0000,0000,,Would you like to make some?
+Dialogue: 0,0:08:30.50,0:08:31.24,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:08:31.73,0:08:32.90,DCMain,YUKA,0000,0000,0000,,Go ahead.
+Dialogue: 0,0:08:33.76,0:08:35.94,DCMain,YUKA,0000,0000,0000,,Yes, that's it.
+Dialogue: 0,0:08:39.85,0:08:42.05,DCMain,YUKA,0000,0000,0000,,There's a trick to creating \Nthe perfect swirl.
+Dialogue: 0,0:08:45.70,0:08:47.08,DCMain,YUKA,0000,0000,0000,,Like this.
+Dialogue: 0,0:08:47.34,0:08:49.03,DCMain,RAN,0000,0000,0000,,You're great at that.
+Dialogue: 0,0:08:49.03,0:08:51.65,DCMain,YUKA,0000,0000,0000,,You get good at it working \Nhere, like it or not.
+Dialogue: 0,0:08:52.13,0:08:54.34,DCMain,YUKA,0000,0000,0000,,Here you are, Mr. Detective.
+Dialogue: 0,0:08:56.21,0:08:57.09,DCMain,KOGORO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:08:57.50,0:08:59.70,DCMain,YUKA,0000,0000,0000,,Dinner will be served at six.
+Dialogue: 0,0:08:59.70,0:09:02.06,DCMain,YUKA,0000,0000,0000,,Make yourselves at home until then.
+Dialogue: 0,0:09:08.10,0:09:11.67,DCMain,KOGORO,0000,0000,0000,,Time to take it easy until dinner.
+Dialogue: 0,0:09:12.22,0:09:14.76,DCMain,RAN,0000,0000,0000,,Conan-kun, where are you going?
+Dialogue: 0,0:09:15.45,0:09:17.40,DCMain,CONAN,0000,0000,0000,,I'm going for a walk.
+Dialogue: 0,0:09:22.30,0:09:23.87,DCMain,YUZABURO,0000,0000,0000,,Hello? Yeah.
+Dialogue: 0,0:09:24.81,0:09:26.42,DCMain,YUZABURO,0000,0000,0000,,I know.
+Dialogue: 0,0:09:26.42,0:09:29.75,DCMain,YUZABURO,0000,0000,0000,,It's all right. I'm about to \Ncome into a bunch of money.
+Dialogue: 0,0:09:30.05,0:09:31.00,DCMain,YUZABURO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:31.00,0:09:33.88,DCMain,YUZABURO,0000,0000,0000,,Yeah, I'm telling you, just a little...
+Dialogue: 0,0:09:34.73,0:09:37.61,DCMain,YUZABURO,0000,0000,0000,,Hello? I'll call you back later.
+Dialogue: 0,0:09:47.98,0:09:48.84,DCMain,YUICHIRO,0000,0000,0000,,Yes?
+Dialogue: 0,0:09:48.84,0:09:55.01,DCMain,CONAN,0000,0000,0000,,Yuichiro-san, were those ingredients \Nfor your new soft serve?
+Dialogue: 0,0:09:55.01,0:09:56.79,DCMain,YUICHIRO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:56.79,0:09:58.57,DCMain,CONAN,0000,0000,0000,,How do you make it?
+Dialogue: 0,0:09:58.85,0:10:01.12,DCMain,CONAN,0000,0000,0000,,I wanna see.
+Dialogue: 0,0:10:02.29,0:10:06.82,DCMain,YUICHIRO,0000,0000,0000,,Sorry, but recipes under development \Nare top secret information.
+Dialogue: 0,0:10:06.82,0:10:11.50,DCMain,YUICHIRO,0000,0000,0000,,I can't even allow a \Nchild to see them. Sorry.
+Dialogue: 0,0:10:11.69,0:10:12.96,DCMain,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:10:12.96,0:10:14.88,DCMain,CONAN,0000,0000,0000,,Then it can't be helped.
+Dialogue: 0,0:10:15.28,0:10:23.01,DCMain,YUICHIRO,0000,0000,0000,,But I promise you'll be the first to eat \Nmy new soft cream once it's finished.
+Dialogue: 0,0:10:23.25,0:10:26.50,DCMain,CONAN,0000,0000,0000,,Okay. I'm looking forward to it.
+Dialogue: 0,0:10:26.50,0:10:27.39,DCMain,YUICHIRO,0000,0000,0000,,Sure.
+Dialogue: 0,0:10:28.34,0:10:30.30,DCMain,YUJIRO,0000,0000,0000,,Can't you do something about that?
+Dialogue: 0,0:10:30.30,0:10:31.65,DCMain,YUKA,0000,0000,0000,,You're bothering me.
+Dialogue: 0,0:10:31.90,0:10:35.12,DCMain,YUJIRO,0000,0000,0000,,My father trusts you most.
+Dialogue: 0,0:10:35.12,0:10:37.63,DCMain,YUJIRO,0000,0000,0000,,Can't you put in a good word for me?
+Dialogue: 0,0:10:37.63,0:10:39.66,DCMain,YUKA,0000,0000,0000,,I don't know what to say to that.
+Dialogue: 0,0:10:40.04,0:10:47.13,DCMain,YUJIRO,0000,0000,0000,,If I inherit his legacy, \NI'll give you 3%—no, 5%.
+Dialogue: 0,0:10:47.13,0:10:50.49,DCMain,YUJIRO,0000,0000,0000,,I know. Why don't you become my wife?
+Dialogue: 0,0:10:50.49,0:10:51.99,DCMain,YUKA,0000,0000,0000,,Please stop.
+Dialogue: 0,0:10:51.99,0:10:53.49,DCMain,CONAN,0000,0000,0000,,Hey, miss.
+Dialogue: 0,0:10:54.24,0:10:56.21,DCMain,CONAN,0000,0000,0000,,What are you doing over there?
+Dialogue: 0,0:10:56.21,0:10:58.80,DCMain,YUJIRO,0000,0000,0000,,Think about it.
+Dialogue: 0,0:11:00.57,0:11:02.30,DCMain,YUKA,0000,0000,0000,,Thanks for rescuing me.
+Dialogue: 0,0:11:02.46,0:11:03.70,DCMain,CONAN,0000,0000,0000,,It's fine.
+Dialogue: 0,0:11:03.70,0:11:05.78,DCMain,YUKA,0000,0000,0000,,I hate how things are now.
+Dialogue: 0,0:11:05.78,0:11:07.87,DCMain,YUKA,0000,0000,0000,,It didn't used to be like this.
+Dialogue: 0,0:11:07.87,0:11:09.81,DCMain,CONAN,0000,0000,0000,,Be like what?
+Dialogue: 0,0:11:10.25,0:11:13.08,DCMain,YUKA,0000,0000,0000,,Despite how they seem, they used to be close.
+Dialogue: 0,0:11:13.08,0:11:17.48,DCMain,YUKA,0000,0000,0000,,But as the company grew, they \Nstarted arguing with each other.
+Dialogue: 0,0:11:18.17,0:11:23.37,DCMain,YUKA,0000,0000,0000,,And since they learned their father is \Nsick, all they think about is money.
+Dialogue: 0,0:11:23.65,0:11:25.12,DCMain,CONAN,0000,0000,0000,,What about you?
+Dialogue: 0,0:11:25.53,0:11:29.02,DCMain,YUKA,0000,0000,0000,,I've been with the family since \Nmy father worked for them.
+Dialogue: 0,0:11:29.76,0:11:32.97,DCMain,YUKA,0000,0000,0000,,The master of the house has been \Nkind to me since I was a child.
+Dialogue: 0,0:11:32.97,0:11:34.24,DCMain,CONAN,0000,0000,0000,,Huh.
+Dialogue: 0,0:11:34.24,0:11:36.88,DCMain,CONAN,0000,0000,0000,,If only they could all get along.
+Dialogue: 0,0:11:37.27,0:11:38.58,DCMain,YUKA,0000,0000,0000,,Seriously.
+Dialogue: 0,0:11:38.58,0:11:43.51,DCMain,YUKA,0000,0000,0000,,They should be thinking about their \Nfather right now, not themselves.
+Dialogue: 0,0:12:03.72,0:12:06.87,DCMain,RAN,0000,0000,0000,,Everyone seems on edge.
+Dialogue: 0,0:12:06.87,0:12:08.45,DCMain,KOGORO,0000,0000,0000,,Y-You're right.
+Dialogue: 0,0:12:08.75,0:12:11.08,DCMain,CONAN,0000,0000,0000,,Where's Yujiro-san?
+Dialogue: 0,0:12:11.28,0:12:16.13,DCMain,YUICHIRO,0000,0000,0000,,I've been looking for him, \Nbut I can't find him.
+Dialogue: 0,0:12:17.50,0:12:20.52,DCMain,YUZABURO,0000,0000,0000,,Are you sure you're not thinking \Nit would be convenient
+Dialogue: 0,0:12:20.52,0:12:24.16,DCMain,YUZABURO,0000,0000,0000,,if he never came back so you'd have \None less rival to contend with?
+Dialogue: 0,0:12:24.16,0:12:26.01,DCMain,YUICHIRO,0000,0000,0000,,Shut it, Yuzaburo.
+Dialogue: 0,0:12:26.49,0:12:29.58,DCMain,YUZABURO,0000,0000,0000,,Unlike you, I'm an honest man.
+Dialogue: 0,0:12:29.58,0:12:34.48,DCMain,YUZABURO,0000,0000,0000,,Why don't you show the detective \Nover there what you're really like?
+Dialogue: 0,0:12:34.69,0:12:35.69,DCMain,KOGORO,0000,0000,0000,,Oh?
+Dialogue: 0,0:12:35.69,0:12:38.80,DCMain,KOGORO,0000,0000,0000,,Yuichiro-san, are you hiding something?
+Dialogue: 0,0:12:38.80,0:12:40.65,DCMain,YUICHIRO,0000,0000,0000,,No, nothing.
+Dialogue: 0,0:12:41.12,0:12:42.38,DCMain,YUZABURO,0000,0000,0000,,I don't know about that.
+Dialogue: 0,0:12:43.71,0:12:48.03,DCItalic,YUZAN,0000,0000,0000,,You're still arguing with \Neverything going on right now?
+Dialogue: 0,0:12:49.01,0:12:49.83,DCMain,YUICHIRO,0000,0000,0000,,Father.
+Dialogue: 0,0:12:50.87,0:12:52.75,DCMain,YUZABURO,0000,0000,0000,,How are you feeling?
+Dialogue: 0,0:12:55.04,0:12:56.50,DCItalic,YUZAN,0000,0000,0000,,I'm not dying yet.
+Dialogue: 0,0:12:57.93,0:13:00.73,DCMain,YUICHIRO,0000,0000,0000,,I'm sorry. Yujiro hasn't shown up yet.
+Dialogue: 0,0:13:00.73,0:13:03.17,DCMain,YUZABURO,0000,0000,0000,,We told him to be punctual.
+Dialogue: 0,0:13:03.17,0:13:05.88,DCItalic,YUZAN,0000,0000,0000,,We have guests, too. Unbelievable.
+Dialogue: 0,0:13:06.65,0:13:10.50,DCMain,RAN,0000,0000,0000,,They very obviously started \Nspeaking more politely.
+Dialogue: 0,0:13:10.50,0:13:15.00,DCMain,KOGORO,0000,0000,0000,,I would, too, if I had a chance \Nat inheriting billions of yen.
+Dialogue: 0,0:13:15.00,0:13:15.77,DCMain,RAN,0000,0000,0000,,Seriously?
+Dialogue: 0,0:13:16.18,0:13:19.81,DCItalic,YUZAN,0000,0000,0000,,Detective Mori, I'm sorry I'm \Nspeaking to you through a monitor,
+Dialogue: 0,0:13:19.81,0:13:21.53,DCItalic,YUZAN,0000,0000,0000,,but I hope you'll forgive me.
+Dialogue: 0,0:13:21.88,0:13:24.62,DCMain,KOGORO,0000,0000,0000,,Don't worry about it.
+Dialogue: 0,0:13:24.62,0:13:27.65,DCItalic,YUZAN,0000,0000,0000,,In that case, please enjoy your dinner.
+Dialogue: 0,0:13:27.65,0:13:28.78,DCItalic,YUZAN,0000,0000,0000,,Begin the meal.
+Dialogue: 0,0:13:29.36,0:13:30.68,DCMain,YUKA,0000,0000,0000,,Very well.
+Dialogue: 0,0:13:39.37,0:13:41.21,DCMain,YUKA,0000,0000,0000,,This is a soft serve rice bowl.
+Dialogue: 0,0:13:41.61,0:13:42.71,DCMain,ALL,0000,0000,0000,,What?!
+Dialogue: 0,0:13:50.10,0:13:51.77,DCMain,KOGORO,0000,0000,0000,,Whoa, whoa...
+Dialogue: 0,0:13:53.96,0:13:57.35,DCMain,YUKA,0000,0000,0000,,Sir, dinner has concluded.
+Dialogue: 0,0:13:59.20,0:14:04.86,DCMain,OI,0000,0000,0000,,The will shall be rewritten \Ntomorrow afternoon.
+Dialogue: 0,0:14:05.60,0:14:09.61,DCMain,OI,0000,0000,0000,,Make sure you're present for the occasion.
+Dialogue: 0,0:14:12.77,0:14:16.28,DCMain,RAN,0000,0000,0000,,They said they'd rewrite the will tomorrow.
+Dialogue: 0,0:14:16.28,0:14:19.53,DCMain,RAN,0000,0000,0000,,What kind of advice are \Nyou going to give them?
+Dialogue: 0,0:14:19.53,0:14:23.63,DCMain,KOGORO,0000,0000,0000,,Who knows? They all seem to \Nhave something wrong with them.
+Dialogue: 0,0:14:24.06,0:14:27.23,DCMain,KOGORO,0000,0000,0000,,And now one of them is missing.
+Dialogue: 0,0:14:30.14,0:14:32.26,DCMain,KOGORO,0000,0000,0000,,What will be, will be.
+Dialogue: 0,0:14:43.11,0:14:44.86,DossierYuzaburo1,SIGN RIGHT,0000,0000,0000,,Morikawa Yuzaburo (27)
+Dialogue: 0,0:14:43.11,0:14:44.86,DossierYuzaburo2,SIGN RIGHT,0000,0000,0000,,Third Son of the Morikawa Family \NMorikawa Livestock Rancher
+Dialogue: 0,0:14:43.11,0:14:44.86,DossierYuzaburo3,SIGN RIGHT,0000,0000,0000,,· Manages Morikawa Ranch \N·Wants inheritance to \Nbe split evenly between \Nthe three brothers
+Dialogue: 0,0:14:43.11,0:14:44.86,DossierYujiro1,SIGN MIDDLE,0000,0000,0000,,Morikawa Yujiro (31)
+Dialogue: 0,0:14:43.11,0:14:44.86,DossierYujiro2,SIGN MIDDLE,0000,0000,0000,,Second Son of the Morikawa Family \NMorikawa Holdings Executive
+Dialogue: 0,0:14:43.11,0:14:44.86,DossierYujiro3,SIGN MIDDLE,0000,0000,0000,,· Suffered a large loss investing \Nin stocks \N· Thinks he should inherit the \Nentire legacy
+Dialogue: 0,0:14:43.11,0:14:44.86,DossierYuichiro1,SIGN LEFT,0000,0000,0000,,Morikawa Yuichiro (33)
+Dialogue: 0,0:14:43.11,0:14:44.86,DossierYuichiro2,SIGN LEFT,0000,0000,0000,,Eldest Son of the Morikawa Family \NSoft Serve Researcher
+Dialogue: 0,0:14:43.11,0:14:44.86,DossierYuichiro3,SIGN LEFT,0000,0000,0000,,· Researches and develops \Nnew soft serve flavors \Nand toppings \N· Will soon complete the \Nnew soft serve flavor \Nhe is researching
+Dialogue: 0,0:14:52.29,0:14:53.33,DCMain,YUZABURO,0000,0000,0000,,What's that sound?
+Dialogue: 0,0:15:13.54,0:15:17.02,DCMain,OI,0000,0000,0000,,So Yuzaburo is missing this morning as well.
+Dialogue: 0,0:15:17.02,0:15:19.92,DCMain,YUICHIRO,0000,0000,0000,,What are those two doing?
+Dialogue: 0,0:15:19.92,0:15:21.23,DCMain,CONAN,0000,0000,0000,,It's weird, don't you think?
+Dialogue: 0,0:15:21.54,0:15:22.23,DCMain,YUICHIRO,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:22.77,0:15:26.98,DCMain,CONAN,0000,0000,0000,,Today's the day the will is being rewritten.
+Dialogue: 0,0:15:27.48,0:15:29.36,DCMain,YUICHIRO,0000,0000,0000,,You're right.
+Dialogue: 0,0:15:30.04,0:15:31.33,DCMain,KOGORO,0000,0000,0000,,Let's check on them.
+Dialogue: 0,0:15:31.33,0:15:32.31,DCMain,YUICHIRO,0000,0000,0000,,Yes.
+Dialogue: 0,0:15:32.31,0:15:34.21,DCMain,YUICHIRO,0000,0000,0000,,Yuka-san, bring us the master key.
+Dialogue: 0,0:15:34.21,0:15:34.99,DCMain,YUKA,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:15:35.61,0:15:38.07,DCMain,KOGORO,0000,0000,0000,,We'll check Yujiro-san's room first.
+Dialogue: 0,0:15:46.11,0:15:47.84,DCMain,RAN,0000,0000,0000,,No one's here?
+Dialogue: 0,0:15:52.35,0:15:53.86,DCMain,CONAN,0000,0000,0000,,There's nobody in here.
+Dialogue: 0,0:15:54.34,0:15:55.63,DCMain,KOGORO,0000,0000,0000,,Or over here.
+Dialogue: 0,0:15:55.63,0:15:58.45,DCMain,KOGORO,0000,0000,0000,,I don't see any signs of \Nsuspicious activity either.
+Dialogue: 0,0:15:58.45,0:15:59.63,DCMain,YUICHIRO,0000,0000,0000,,Let's go.
+Dialogue: 0,0:16:00.40,0:16:02.60,DCMain,YUICHIRO,0000,0000,0000,,We'll check Yuzaburo's room next.
+Dialogue: 0,0:16:12.51,0:16:13.69,DCMain,YUICHIRO,0000,0000,0000,,Yuzaburo!
+Dialogue: 0,0:16:13.69,0:16:15.12,DCMain,CONAN,0000,0000,0000,,Don't go in there!
+Dialogue: 0,0:16:19.28,0:16:21.25,DCMain,KOGORO,0000,0000,0000,,It's no use. He's dead.
+Dialogue: 0,0:16:21.57,0:16:22.79,DCMain,YUKA,0000,0000,0000,,No...
+Dialogue: 0,0:16:24.87,0:16:29.80,DCItalic,CONAN,0000,0000,0000,,All the windows are fixed, \Nand the room was locked.
+Dialogue: 0,0:16:30.15,0:16:31.22,DCItalic,CONAN,0000,0000,0000,,Which means...
+Dialogue: 0,0:16:32.26,0:16:34.18,DCMain,KOGORO,0000,0000,0000,,It's a locked room murder.
+Dialogue: 0,0:16:34.46,0:16:35.59,DCMain,RAN,0000,0000,0000,,Locked room...
+Dialogue: 0,0:16:36.18,0:16:40.00,DCMain,KOGORO,0000,0000,0000,,There are no signs of a struggle \Nor obvious wounds on the body.
+Dialogue: 0,0:16:40.57,0:16:43.86,DCMain,KOGORO,0000,0000,0000,,He's curled up in a crouched position.
+Dialogue: 0,0:16:43.86,0:16:45.23,DCMain,CONAN,0000,0000,0000,,Hey, mister.
+Dialogue: 0,0:16:45.42,0:16:46.18,DCMain,KOGORO,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:46.18,0:16:47.34,DCMain,CONAN,0000,0000,0000,,Look at this.
+Dialogue: 0,0:16:48.02,0:16:49.22,DCMain,CONAN,0000,0000,0000,,Right here.
+Dialogue: 0,0:16:50.55,0:16:52.78,DCMain,KOGORO,0000,0000,0000,,Looks like someone scratched the door.
+Dialogue: 0,0:16:53.26,0:16:55.17,DCMain,YUICHIRO,0000,0000,0000,,That's odd, though.
+Dialogue: 0,0:16:55.17,0:16:57.46,DCMain,YUICHIRO,0000,0000,0000,,The key is on the counter,
+Dialogue: 0,0:16:57.46,0:17:02.66,DCMain,YUICHIRO,0000,0000,0000,,and he should've been able to open the \Ndoor from inside the room without the key.
+Dialogue: 0,0:17:03.24,0:17:04.91,DCMain,CONAN,0000,0000,0000,,Yuka-san, call the police.
+Dialogue: 0,0:17:05.11,0:17:06.87,DCMain,YUKA,0000,0000,0000,,O-Okay.
+Dialogue: 0,0:17:06.87,0:17:08.46,DCMain,OI,0000,0000,0000,,You can't.
+Dialogue: 0,0:17:09.28,0:17:10.67,DCMain,KOGORO,0000,0000,0000,,What are you talking about?
+Dialogue: 0,0:17:11.22,0:17:16.02,DCMain,OI,0000,0000,0000,,The police will not be allowed to intervene \Nuntil the will has been rewritten.
+Dialogue: 0,0:17:16.65,0:17:19.18,DCMain,OI,0000,0000,0000,,Yuzan insisted upon this requirement.
+Dialogue: 0,0:17:19.45,0:17:22.81,DCMain,KOGORO,0000,0000,0000,,Don't be absurd. I don't care \Nif that's what Yuzan wants.
+Dialogue: 0,0:17:22.81,0:17:25.26,DCMain,OI,0000,0000,0000,,You're free to call them,
+Dialogue: 0,0:17:25.26,0:17:29.44,DCMain,OI,0000,0000,0000,,but it would be considered \Na breach of contract.
+Dialogue: 0,0:17:29.44,0:17:40.20,Envelope,SIGN,0000,0000,0000,,Morikawa Yuzan
+Dialogue: 0,0:17:29.77,0:17:33.29,DCMain,OI,0000,0000,0000,,Your signature is on this contract.
+Dialogue: 0,0:17:33.29,0:17:38.94,DCMain,OI,0000,0000,0000,,Did you not agree to prioritize \Nthe rewriting of the will,
+Dialogue: 0,0:17:38.94,0:17:40.20,DCMain,OI,0000,0000,0000,,Detective Mori?
+Dialogue: 0,0:17:41.66,0:17:44.50,DCMain,OI,0000,0000,0000,,We are employed by Yuzan.
+Dialogue: 0,0:17:44.86,0:17:48.38,DCMain,OI,0000,0000,0000,,Yuichiro is a candidate \Nto inherit his legacy.
+Dialogue: 0,0:17:48.38,0:17:51.75,DCMain,OI,0000,0000,0000,,You don't object to Yuzan's wishes, do you?
+Dialogue: 0,0:17:53.49,0:17:57.13,DCMain,OI,0000,0000,0000,,I'm not telling you not to solve the case,
+Dialogue: 0,0:17:57.13,0:17:59.76,DCMain,OI,0000,0000,0000,,nor am I saying we won't call the police.
+Dialogue: 0,0:18:00.22,0:18:04.02,DCMain,OI,0000,0000,0000,,I'm simply stating that rewriting \Nthe will is our top priority.
+Dialogue: 0,0:18:04.37,0:18:05.81,DCMain,KOGORO,0000,0000,0000,,I understand.
+Dialogue: 0,0:18:05.81,0:18:11.02,DCMain,KOGORO,0000,0000,0000,,In that case, I shall find the \Nculprit who killed Yuzaburo.
+Dialogue: 0,0:18:11.27,0:18:13.93,DCMain,OI,0000,0000,0000,,I'm hoping you do, Detective.
+Dialogue: 0,0:18:13.93,0:18:15.75,DCMain,OI,0000,0000,0000,,This place is a remote island anyway.
+Dialogue: 0,0:18:15.75,0:18:20.58,DCMain,OI,0000,0000,0000,,It would take two days for the police \Nto arrive even if we called them.
+Dialogue: 0,0:18:22.29,0:18:26.03,DCMain,YUKA,0000,0000,0000,,Yes, the master key is strictly managed.
+Dialogue: 0,0:18:26.56,0:18:30.42,DCMain,YUKA,0000,0000,0000,,It was kept in the same place \Nuntil we used it earlier.
+Dialogue: 0,0:18:30.88,0:18:34.17,DCItalic,CONAN,0000,0000,0000,,Not only are all the windows fixed,
+Dialogue: 0,0:18:34.17,0:18:36.78,DCItalic,CONAN,0000,0000,0000,,but there aren't any signs someone \Nbroke into the room either.
+Dialogue: 0,0:18:37.36,0:18:39.84,DCItalic,CONAN,0000,0000,0000,,The room was locked,
+Dialogue: 0,0:18:39.84,0:18:42.93,DCItalic,CONAN,0000,0000,0000,,and the master key was kept \Nunder strict management.
+Dialogue: 0,0:18:43.47,0:18:46.30,DCItalic,CONAN,0000,0000,0000,,Judging by the layout and neighboring rooms,
+Dialogue: 0,0:18:46.30,0:18:50.35,DCItalic,CONAN,0000,0000,0000,,it seems unlikely that there are \Nsecret passageways or doors.
+Dialogue: 0,0:18:51.17,0:18:52.94,DCItalic,CONAN,0000,0000,0000,,It's a completely closed room.
+Dialogue: 0,0:18:53.65,0:18:56.94,DCItalic,CONAN,0000,0000,0000,,Which means the keys to solving \Nthis locked room mystery
+Dialogue: 0,0:18:57.48,0:19:00.45,DCItalic,CONAN,0000,0000,0000,,are the scratches left \Non the inside of the door
+Dialogue: 0,0:19:00.97,0:19:02.96,DCItalic,CONAN,0000,0000,0000,,and the location of the body.
+Dialogue: 0,0:19:10.06,0:19:10.92,DCItalic,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:19:15.13,0:19:16.64,DCItalic,CONAN,0000,0000,0000,,Black fragments?
+Dialogue: 0,0:19:24.09,0:19:25.77,DCMain,YUZAN,0000,0000,0000,,How long have you been there?
+Dialogue: 0,0:19:25.77,0:19:27.40,DCMain,CONAN,0000,0000,0000,,I just got here.
+Dialogue: 0,0:19:27.40,0:19:28.64,DCMain,YUZAN,0000,0000,0000,,What do you want?
+Dialogue: 0,0:19:29.03,0:19:32.90,DCMain,CONAN,0000,0000,0000,,Mister, you expected this \Nto happen, didn't you?
+Dialogue: 0,0:19:34.53,0:19:36.65,DCMain,YUZAN,0000,0000,0000,,To some degree, yes.
+Dialogue: 0,0:19:38.33,0:19:41.16,DCMain,CONAN,0000,0000,0000,,Is the motive money after all?
+Dialogue: 0,0:19:41.16,0:19:43.48,DCMain,YUZAN,0000,0000,0000,,Money leads people astray,
+Dialogue: 0,0:19:43.48,0:19:46.26,DCMain,YUZAN,0000,0000,0000,,both those who have it and those who don't.
+Dialogue: 0,0:19:46.26,0:19:49.65,DCMain,YUZAN,0000,0000,0000,,Those who have money build \Nwalls to protect it,
+Dialogue: 0,0:19:49.65,0:19:53.04,DCMain,YUZAN,0000,0000,0000,,while those who don't easily break laws
+Dialogue: 0,0:19:53.04,0:19:56.67,DCMain,YUZAN,0000,0000,0000,,and hurt people to get their hands on it.
+Dialogue: 0,0:19:57.01,0:20:00.55,DCMain,CONAN,0000,0000,0000,,Is that why you invited Detective Mori here?
+Dialogue: 0,0:20:00.55,0:20:03.30,DCMain,YUZAN,0000,0000,0000,,Who knows?
+Dialogue: 0,0:20:04.69,0:20:06.93,DCMain,CONAN,0000,0000,0000,,Hey, what's that?
+Dialogue: 0,0:20:07.45,0:20:08.79,DCMain,YUZAN,0000,0000,0000,,This?
+Dialogue: 0,0:20:08.79,0:20:13.56,DCMain,YUZAN,0000,0000,0000,,This remote allowed me to move \Nmy bed and turn on the TV.
+Dialogue: 0,0:20:14.04,0:20:16.56,DCMain,CONAN,0000,0000,0000,,It's got a lot of buttons \Nfor that, don't you think?
+Dialogue: 0,0:20:16.92,0:20:21.14,DCMain,YUZAN,0000,0000,0000,,I had it custom-made so I could \Nreach hard-to-scratch places.
+Dialogue: 0,0:20:23.08,0:20:26.42,DCItalic,CONAN,0000,0000,0000,,Everyone in this mansion is a suspect.
+Dialogue: 0,0:20:26.95,0:20:31.08,DCItalic,CONAN,0000,0000,0000,,And one of them, Yujiro-san, is missing.
+Dialogue: 0,0:20:31.66,0:20:33.35,DCItalic,CONAN,0000,0000,0000,,Who is the culprit?
+Dialogue: 0,0:20:33.35,0:20:34.96,DCItalic,CONAN,0000,0000,0000,,Or is it...?
+Dialogue: 0,0:20:38.42,0:20:39.84,DCMain,RAN,0000,0000,0000,,Conan-kun.
+Dialogue: 0,0:20:40.06,0:20:42.34,DCMain,CONAN,0000,0000,0000,,Ran-neechan, what are you doing?
+Dialogue: 0,0:20:42.76,0:20:45.49,DCMain,RAN,0000,0000,0000,,I thought I'd make some soft serve.
+Dialogue: 0,0:20:45.49,0:20:48.22,DCMain,RAN,0000,0000,0000,,I'll make some for you, too.
+Dialogue: 0,0:20:48.78,0:20:50.60,DCMain,CONAN,0000,0000,0000,,Okay, thanks.
+Dialogue: 0,0:20:50.60,0:20:52.32,DCMain,RAN,0000,0000,0000,,You pull this, and...
+Dialogue: 0,0:20:52.32,0:20:53.29,DCMain,RAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:20:54.31,0:20:55.23,DCMain,CONAN,0000,0000,0000,,Come in.
+Dialogue: 0,0:20:56.98,0:20:58.65,DCMain,YUKA,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:20:58.65,0:21:02.24,DCMain,YUKA,0000,0000,0000,,May I clean your room?
+Dialogue: 0,0:21:02.53,0:21:03.76,DCMain,CONAN,0000,0000,0000,,Sure.
+Dialogue: 0,0:21:05.58,0:21:07.20,DCMain,YUKA,0000,0000,0000,,Is something the matter?
+Dialogue: 0,0:21:07.20,0:21:10.54,DCMain,RAN,0000,0000,0000,,The soft serve isn't dispensing.
+Dialogue: 0,0:21:10.85,0:21:12.40,DCMain,YUKA,0000,0000,0000,,Oh, I'm sorry.
+Dialogue: 0,0:21:12.40,0:21:13.85,DCMain,YUKA,0000,0000,0000,,Let me take a look.
+Dialogue: 0,0:21:18.21,0:21:20.04,DCMain,CONAN,0000,0000,0000,,Hey, Yuka-san.
+Dialogue: 0,0:21:20.27,0:21:22.55,DCMain,CONAN,0000,0000,0000,,Could you tell me how that machine works?
+Dialogue: 0,0:21:23.16,0:21:23.82,DCMain,YUKA,0000,0000,0000,,What?
+Dialogue: 0,0:21:23.82,0:21:25.30,DCMain,YUKA,0000,0000,0000,,Sure.
+Dialogue: 0,0:21:25.69,0:21:28.59,DCMain,CONAN,0000,0000,0000,,You use that to adjust \Nthe temperature, right?
+Dialogue: 0,0:21:28.59,0:21:29.55,DCMain,YUKA,0000,0000,0000,,Yes.
+Dialogue: 0,0:21:29.55,0:21:34.01,DCMain,YUKA,0000,0000,0000,,Since it's made to handle both \Nsoft serve and ice cream,
+Dialogue: 0,0:21:34.01,0:21:36.95,DCMain,YUKA,0000,0000,0000,,the temperature goes all \Nthe way down to -50°.
+Dialogue: 0,0:21:36.95,0:21:39.81,DCMain,CONAN,0000,0000,0000,,By the way, what's the highest temperature?
+Dialogue: 0,0:21:40.29,0:21:44.32,DCMain,YUKA,0000,0000,0000,,I think I heard it goes up to 40°.
+Dialogue: 0,0:21:45.72,0:21:47.41,DCMain,CONAN,0000,0000,0000,,Hey, Yuka-san.
+Dialogue: 0,0:21:47.41,0:21:50.70,DCMain,CONAN,0000,0000,0000,,You made a weird face \Nwhen you inserted the key
+Dialogue: 0,0:21:50.70,0:21:52.58,DCMain,CONAN,0000,0000,0000,,into the lock of Yuzaburo-san's room.
+Dialogue: 0,0:21:53.13,0:21:54.73,DCMain,YUKA,0000,0000,0000,,Oh, that?
+Dialogue: 0,0:21:54.73,0:21:57.71,DCMain,YUKA,0000,0000,0000,,The keyhole was sticky for some reason.
+Dialogue: 0,0:21:58.19,0:21:59.31,DCItalic,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:21:59.31,0:22:00.06,DCMain,RAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:22:00.06,0:22:00.96,DCMain,RAN,0000,0000,0000,,What is this?
+Dialogue: 0,0:22:02.01,0:22:04.26,DCMain,CONAN,0000,0000,0000,,Ran-neechan, is something wrong?
+Dialogue: 0,0:22:06.49,0:22:09.02,DCMain,YUKA,0000,0000,0000,,I-It should be vanilla soft serve.
+Dialogue: 0,0:22:09.70,0:22:10.69,DCMain,YUKA,0000,0000,0000,,Why?
+Dialogue: 0,0:22:12.43,0:22:13.33,DCMain,CONAN,0000,0000,0000,,What is this?
+Dialogue: 0,0:22:13.89,0:22:14.68,DCMain,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:23:44.94,0:24:08.96,DCEpPreview,,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.16,0:23:48.32,DCMain,KOGORO,0000,0000,0000,,Yes, this is definitely a serial murder case.
+Dialogue: 0,0:23:48.32,0:23:49.86,DCMain,KOGORO,0000,0000,0000,,Oi-san, you still won't change your mind?
+Dialogue: 0,0:23:52.48,0:23:53.87,DCMain,YUICHIRO,0000,0000,0000,,It's done.
+Dialogue: 0,0:23:54.20,0:23:55.87,DCItalic,CONAN,0000,0000,0000,,Could it really be?
+Dialogue: 0,0:23:56.32,0:23:57.40,DCMain,CONAN,0000,0000,0000,,Yuka-san.
+Dialogue: 0,0:23:57.40,0:23:59.25,DCMain,YUKA,0000,0000,0000,,What is it?
+Dialogue: 0,0:23:59.25,0:24:02.25,DCMain,CONAN,0000,0000,0000,,What do you love most in this world?
+Dialogue: 0,0:24:02.56,0:24:03.90,DCMain,YUKA,0000,0000,0000,,Naturally, that would be...
+Dialogue: 0,0:24:08.96,0:24:14.97,DCNextEp,SIGN,0000,0000,0000,,Intrigue at Morikawa Mansion \N(Part Two)
+Dialogue: 0,0:24:09.38,0:24:13.97,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Intrigue \Nat Morikawa Mansion, Part Two!"
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,SIGN,0000,0000,0000,,Soft Serve
+Dialogue: 0,0:24:30.52,0:24:32.80,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.80,0:24:34.91,DCMain,RAN,0000,0000,0000,,Soft serve!
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.13,0:24:36.38,DCMain,RAN,0000,0000,0000,,{\an8}Three day weekend coming up!
+Dialogue: 0,0:24:36.38,0:24:37.95,DCMain,KOGORO,0000,0000,0000,,{\an8}Take Tuesday off, and \Nit's a four day weekend!
+Dialogue: 0,0:24:37.95,0:24:39.62,DCMain,CONAN,0000,0000,0000,,{\an8}Yeah, isn't that obvious?

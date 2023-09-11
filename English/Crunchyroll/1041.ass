@@ -1,0 +1,491 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: DCNameCards,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AB6370,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0322,0062,0
+Style: Takezawa Watch Store,Arial,24,&H00EDEDEC,&H000000FF,&H00C3C7D0,&H00888A8A,0,0,0,0,100,100,0,0,1,1,2,8,0197,0177,0104,0
+Style: North Kanto Ramen,Trebuchet MS,22,&H00CBCD92,&H000000FF,&H00B4ECFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0003,0420,0009,0
+Style: Tableware,Arial,24,&H00ADA99F,&H000000FF,&H00ECF1DF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0216,0298,0000,0
+Style: Station Name Signs,Trebuchet MS,24,&H00313230,&H000000FF,&H00D0D0CE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0483,0091,0132,0
+Style: sign_10196_122_Midoridai_Statio,Trebuchet MS,24,&H00313230,&H000000FF,&H00D0D0CE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0365,0069,0154,0
+Style: MPD Midoridai Police Station,Arial,24,&H005A89C9,&H000000FF,&H004F4F6C,&H0004224A,0,0,0,0,100,100,0,0,1,2,2,8,0151,0151,0018,0
+Style: Telephone Book,Arial,24,&H00E7E9E4,&H000000FF,&H0053A446,&H00000000,-1,0,0,0,100,100,0,0,3,2,0,7,0020,0418,0018,0
+Style: Shikabone City,Arial,24,&H00000000,&H000000FF,&H0074BDDE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0019,0432,0046,0
+Style: Kanieda Akira,Arial,30,&H000F1518,&H000000FF,&H0099A2A7,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0211,0211,0018,0
+Style: The Next Day,Trebuchet MS,24,&H00E4E5EA,&H000000FF,&H00000000,&H0002080D,0,0,0,0,100,100,0,0,1,2,1,2,0245,0239,0070,0
+Style: To Beika City,TimesNewRoman,26,&H00FCF6F1,&H000000FF,&H00513326,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0108,0342,0291,0
+Style: Current Time,TimesNewRoman,18,&H00AB6EAC,&H000000FF,&H00462F1A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0122,0386,0229,0
+Style: Destination,TimesNewRoman,24,&H00F2EEE9,&H000000FF,&H0049251B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0424,0052,0294,0
+Style: Sawabukuro,TimesNewRoman,24,&H00F2EEE9,&H000000FF,&H0049251B,&H00000000,-1,0,0,0,100,100,0,0,3,2,0,2,0415,0045,0168,0
+Style: Midoridai Apartments,Arial,30,&H004A4633,&H000000FF,&H009A937C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0153,0153,0018,0
+Style: Incoming Call,Arial,30,&H00FAF3F0,&H000000FF,&H007C6755,&H00000000,-1,0,0,0,100,100,0,29.17,1,2,0,8,0336,0090,0078,0
+Style: sign_16628_218_Stops_At_Every_S,TimesNewRoman,24,&H00F2EEE9,&H000000FF,&H0049251B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0609,0000,0148,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode \N1041 "The Unstated Alibi"
+Dialogue: 0,0:00:00.51,0:00:02.35,DCMain,GENTA,0000,0000,0000,,Hey, all ones.
+Dialogue: 0,0:00:02.31,0:00:08.82,Takezawa Watch Store,SIGN,0000,0000,0000,,{\fad(359,1)}Takezawa Watch Store
+Dialogue: 0,0:00:02.70,0:00:05.28,DCMain,MITSUHIKO,0000,0000,0000,,Yes, it's 1:11.
+Dialogue: 0,0:00:05.28,0:00:07.28,DCMain,MITSUHIKO,0000,0000,0000,,What's so special about that?
+Dialogue: 0,0:00:07.28,0:00:08.82,DCMain,GENTA,0000,0000,0000,,It means I'm lucky today.
+Dialogue: 0,0:00:08.82,0:00:16.82,North Kanto Ramen,SIGN,0000,0000,0000,,{\blur1}North Kanto Ramen
+Dialogue: 0,0:00:09.03,0:00:10.69,DCMain,MITSUHIKO,0000,0000,0000,,D-Does it?
+Dialogue: 0,0:00:10.69,0:00:13.49,DCMain,GENTA,0000,0000,0000,,I might be having eel \Nbowls for dinner tonight.
+Dialogue: 0,0:00:13.49,0:00:16.22,DCMain,CONAN,0000,0000,0000,,We're leaving you guys behind.
+Dialogue: 0,0:00:17.12,0:00:18.87,DCMain,AYUMI,0000,0000,0000,,That was a police officer.
+Dialogue: 0,0:00:18.87,0:00:21.30,DCMain,HAIBARA,0000,0000,0000,,It felt like he was rushing to a crime scene.
+Dialogue: 0,0:00:21.30,0:00:23.09,DCMain,CONAN,0000,0000,0000,,Maybe something happened.
+Dialogue: 0,0:00:25.42,0:00:28.33,DCMain,POLICE,0000,0000,0000,,Calm down. Calm down, okay?
+Dialogue: 0,0:00:28.33,0:00:32.17,DCMain,POLICE,0000,0000,0000,,Take your time. Tell me what happened.
+Dialogue: 0,0:00:32.40,0:00:38.43,DCMain,OLD WOMAN,0000,0000,0000,,I was pushed by a strange young woman \Nfrom the top of these stone steps.
+Dialogue: 0,0:00:38.63,0:00:39.81,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:00:40.13,0:00:42.68,DCMain,POLICE,0000,0000,0000,,Did anyone see what happened?
+Dialogue: 0,0:00:44.77,0:00:46.21,DCMain,POLICE,0000,0000,0000,,No, huh?
+Dialogue: 0,0:00:46.21,0:00:48.77,DCMain,POLICE,0000,0000,0000,,"A young woman" isn't enough \Nof a description to go off of.
+Dialogue: 0,0:00:48.77,0:00:49.61,DCItalic,CONAN,0000,0000,0000,,That guy...
+Dialogue: 0,0:00:50.05,0:00:51.66,DCMain,CONAN,0000,0000,0000,,Hey, Mister.
+Dialogue: 0,0:00:52.23,0:00:55.33,DCMain,CONAN,0000,0000,0000,,Did you happen to see someone suspicious?
+Dialogue: 0,0:00:55.33,0:00:55.99,DCMain,USUI,0000,0000,0000,,What?
+Dialogue: 0,0:00:56.20,0:00:57.87,DCMain,POLICE,0000,0000,0000,,Did you see the culprit?
+Dialogue: 0,0:00:57.87,0:01:01.90,DCMain,USUI,0000,0000,0000,,Uh, no. I didn't see anything.
+Dialogue: 0,0:01:01.90,0:01:02.62,DCMain,USUI,0000,0000,0000,,Well, bye.
+Dialogue: 0,0:01:04.46,0:01:06.18,DCMain,POLICE,0000,0000,0000,,He didn't, huh?
+Dialogue: 0,0:01:06.18,0:01:08.63,DCMain,AYUMI,0000,0000,0000,,It seemed like he wanted to say something.
+Dialogue: 0,0:01:08.86,0:01:11.30,DCMain,CONAN,0000,0000,0000,,Maybe he really did see something.
+Dialogue: 0,0:01:11.30,0:01:13.51,DCMain,HAIBARA,0000,0000,0000,,Then why did he say he didn't?
+Dialogue: 0,0:01:13.90,0:01:16.73,DCMain,CONAN,0000,0000,0000,,Maybe he doesn't want to get \Ninvolved with the police?
+Dialogue: 0,0:01:16.73,0:01:17.97,DCMain,BOTH,0000,0000,0000,,Why not?
+Dialogue: 0,0:01:17.97,0:01:19.26,DCMain,CONAN,0000,0000,0000,,For example...
+Dialogue: 0,0:01:20.58,0:01:26.00,DCMain,CONAN,0000,0000,0000,,Maybe he himself has done something wrong.
+Dialogue: 0,0:01:27.77,0:01:29.41,DCMain,CONAN,0000,0000,0000,,It comes to visit after falling asleep!
+Dialogue: 0,0:01:29.41,0:01:31.58,DCMain,CONAN,0000,0000,0000,,Fall in love with logical deduction \Nand the pleasure of solving mysteries!
+Dialogue: 0,0:01:31.58,0:01:33.22,DCMain,CONAN,0000,0000,0000,,The witness refuses to speak.
+Dialogue: 0,0:01:33.22,0:01:34.91,DCMain,CONAN,0000,0000,0000,,What is the truth behind \Nthis series of cases?
+Dialogue: 0,0:01:34.91,0:01:36.49,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:36.60,0:01:38.39,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:38.39,0:01:40.74,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:22.97,0:03:28.97,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(399,1)}The Unstated Alibi
+Dialogue: 0,0:03:23.56,0:03:25.55,DCMain,CONAN,0000,0000,0000,,"The Unstated Alibi!"
+Dialogue: 0,0:03:33.98,0:03:36.62,DCMain,MITSUHIKO,0000,0000,0000,,If he's about to get up to something...
+Dialogue: 0,0:03:36.62,0:03:38.61,DCMain,GENTA,0000,0000,0000,,Then we'll stop him.
+Dialogue: 0,0:03:39.19,0:03:42.11,DCMain,HAIBARA,0000,0000,0000,,He's a man wearing a black down \Njacket with a medium build.
+Dialogue: 0,0:03:42.38,0:03:44.66,DCMain,AYUMI,0000,0000,0000,,He has a shaved head.
+Dialogue: 0,0:03:44.66,0:03:46.93,DCMain,PASSERBY MAN,0000,0000,0000,,Haven't seen him.
+Dialogue: 0,0:03:46.93,0:03:47.81,DCMain,CONAN,0000,0000,0000,,Hey.
+Dialogue: 0,0:03:48.27,0:03:50.63,DCMain,CONAN,0000,0000,0000,,We figured it out. He's over there.
+Dialogue: 0,0:03:51.31,0:03:53.04,DCMain,CHISATO,0000,0000,0000,,Oh, him?
+Dialogue: 0,0:03:53.28,0:03:55.22,DCMain,CHISATO,0000,0000,0000,,Apparently his name is Kanieda-san.
+Dialogue: 0,0:03:55.22,0:03:57.05,DCMain,CHISATO,0000,0000,0000,,He lives in Shikabone City.
+Dialogue: 0,0:03:57.05,0:03:59.63,DCMain,HAIBARA,0000,0000,0000,,Shikabone is rather far away from here.
+Dialogue: 0,0:03:59.63,0:04:00.42,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:00.66,0:04:03.62,DCMain,CONAN,0000,0000,0000,,Even by car, it's about an \Nhour away from Beika City.
+Dialogue: 0,0:04:03.62,0:04:05.18,DCMain,CONAN,0000,0000,0000,,Is he a regular?
+Dialogue: 0,0:04:05.44,0:04:07.67,DCMain,CHISATO,0000,0000,0000,,I think today was his first time here.
+Dialogue: 0,0:04:07.67,0:04:10.17,DCMain,CONAN,0000,0000,0000,,Then why do you know his name?
+Dialogue: 0,0:04:10.17,0:04:11.60,DCMain,CHISATO,0000,0000,0000,,We got a call.
+Dialogue: 0,0:04:12.16,0:04:17.36,DCItalic,MAN,0000,0000,0000,,There should be a man named Kanieda \Nfrom Shikabone City there.
+Dialogue: 0,0:04:17.68,0:04:19.55,DCItalic,CHISATO,0000,0000,0000,,One moment, please.
+Dialogue: 0,0:04:20.04,0:04:24.20,DCItalic,CHISATO,0000,0000,0000,,Is there a Kanieda-sama \Nfrom Shikabone City here?
+Dialogue: 0,0:04:24.20,0:04:26.33,DCItalic,USUI,0000,0000,0000,,Yes, that's me!
+Dialogue: 0,0:04:26.33,0:04:28.16,DCItalic,USUI,0000,0000,0000,,Kanieda from Shikabone City.
+Dialogue: 0,0:04:28.61,0:04:31.29,DCItalic,USUI,0000,0000,0000,,I'm Kanieda from Shikabone City.
+Dialogue: 0,0:04:31.58,0:04:35.29,DCItalic,USUI,0000,0000,0000,,Hello? Yes, good seeing \Nyou the other day. What?
+Dialogue: 0,0:04:35.53,0:04:39.76,DCItalic,USUI,0000,0000,0000,,I see. In that case, we'll have \Nto reschedule for another day.
+Dialogue: 0,0:04:39.76,0:04:41.17,DCItalic,USUI,0000,0000,0000,,Yes, bye.
+Dialogue: 0,0:04:41.96,0:04:44.70,DCMain,CHISATO,0000,0000,0000,,They were supposed to meet at one, \Nbut he couldn't make it anymore.
+Dialogue: 0,0:04:44.70,0:04:46.67,DCMain,CHISATO,0000,0000,0000,,That's probably what the call was about.
+Dialogue: 0,0:04:46.67,0:04:49.18,DCMain,CHISATO,0000,0000,0000,,After all, he left immediately after that.
+Dialogue: 0,0:04:49.33,0:04:54.08,DCMain,CONAN,0000,0000,0000,,Did that person do anything strange \Nbesides receive a phone call?
+Dialogue: 0,0:04:54.08,0:04:57.30,DCMain,CHISATO,0000,0000,0000,,Strange? Not really.
+Dialogue: 0,0:04:58.56,0:05:01.44,DCMain,CHISATO,0000,0000,0000,,If you're looking for that man,
+Dialogue: 0,0:05:01.86,0:05:03.65,DCMain,CHISATO,0000,0000,0000,,could you deliver this lighter to him?
+Dialogue: 0,0:05:03.65,0:05:05.34,DCMain,CHISATO,0000,0000,0000,,He forgot it here.
+Dialogue: 0,0:05:05.34,0:05:06.35,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:05:07.74,0:05:09.33,DCMain,MITSUHIKO,0000,0000,0000,,About that...
+Dialogue: 0,0:05:09.33,0:05:13.58,DCMain,GENTA,0000,0000,0000,,We have no idea what he's doing.
+Dialogue: 0,0:05:13.90,0:05:15.48,DCMain,CONAN,0000,0000,0000,,What do you mean by that?
+Dialogue: 0,0:05:15.48,0:05:16.08,DCMain,MITSUHIKO,0000,0000,0000,,Well...
+Dialogue: 0,0:05:16.21,0:05:21.46,DCMain,SIGN,0000,0000,0000,,{\fad(272,1)\an9\fs30\b1\fnVerdana\bord3\shad0\c&HD1D4E6&\3c&H808EF2&}Yasuda Pork Buns
+Dialogue: 0,0:05:16.69,0:05:19.82,DCMain,MITSUHIKO,0000,0000,0000,,First he headed to the shopping center.
+Dialogue: 0,0:05:19.82,0:05:21.46,DCItalic,USUI,0000,0000,0000,,So good.
+Dialogue: 0,0:05:21.69,0:05:26.13,DCItalic,USUI,0000,0000,0000,,Oh, it's so good. I've never \Ntasted anything so good.
+Dialogue: 0,0:05:26.31,0:05:28.60,DCItalic,USUI,0000,0000,0000,,So good.
+Dialogue: 0,0:05:29.26,0:05:31.43,DCMain,SIGN,0000,0000,0000,,{\an8\fs30\b1\shad1\bord2\3c&HEBF4F9&\c&H7985BB&}100{\c&HBC87C3&}-yen {\c&H87B9E1&}S{\c&HC3CC83&}hop
+Dialogue: 0,0:05:29.73,0:05:33.45,DCMain,MITSUHIKO,0000,0000,0000,,Next he headed to a 100-yen shop.
+Dialogue: 0,0:05:35.66,0:05:37.94,DCItalic,USUI,0000,0000,0000,,These are pretty decent.
+Dialogue: 0,0:05:37.94,0:05:47.95,Tableware,SIGN,0000,0000,0000,,Tableware
+Dialogue: 0,0:05:38.17,0:05:40.11,DCItalic,USUI,0000,0000,0000,,How much are these?
+Dialogue: 0,0:05:40.11,0:05:43.17,DCItalic,USUI,0000,0000,0000,,No, wait. Everything's 100 yen, right?
+Dialogue: 0,0:05:43.17,0:05:46.56,DCItalic,USUI,0000,0000,0000,,What a dumb question. Excuse me.
+Dialogue: 0,0:05:47.95,0:05:51.41,DCMain,MITSUHIKO,0000,0000,0000,,Then he wandered around the area for a while.
+Dialogue: 0,0:05:51.71,0:05:53.91,DCItalic,USUI,0000,0000,0000,,What a cute baby.
+Dialogue: 0,0:05:54.32,0:05:56.60,DCItalic,USUI,0000,0000,0000,,They look so smart, too.
+Dialogue: 0,0:05:56.60,0:05:58.67,DCItalic,USUI,0000,0000,0000,,There, there.
+Dialogue: 0,0:05:59.30,0:06:06.29,DCMain,MITSUHIKO,0000,0000,0000,,He wandered around Beika City for about \Nan hour while closely watching the time.
+Dialogue: 0,0:06:06.29,0:06:08.29,DCItalic,USUI,0000,0000,0000,,Hello? Yes.
+Dialogue: 0,0:06:08.29,0:06:11.12,DCItalic,USUI,0000,0000,0000,,Yes. I see. Yes.
+Dialogue: 0,0:06:08.29,0:06:13.68,DCItalic,ANNOUNCE,0000,0000,0000,,{\an8}An inbound train stopping at \NMidoridai will be arriving shortly.
+Dialogue: 0,0:06:13.97,0:06:16.77,DCMain,MITSUHIKO,0000,0000,0000,,Then he got on the train and left.
+Dialogue: 0,0:06:19.02,0:06:21.21,DCMain,GENTA,0000,0000,0000,,Totally nonsensical, right?
+Dialogue: 0,0:06:21.21,0:06:23.77,DCMain,MITSUHIKO,0000,0000,0000,,Normally someone doing something \Nwrong would sneak around
+Dialogue: 0,0:06:23.77,0:06:27.95,DCMain,MITSUHIKO,0000,0000,0000,,and avoid being seen, \Nbut he did the opposite.
+Dialogue: 0,0:06:28.56,0:06:31.99,DCMain,CONAN,0000,0000,0000,,He repeatedly took actions \Nto draw attention to himself.
+Dialogue: 0,0:06:32.83,0:06:35.67,DCMain,AYUMI,0000,0000,0000,,And we talked to lots of people,
+Dialogue: 0,0:06:35.67,0:06:39.19,DCMain,AYUMI,0000,0000,0000,,but nobody mentioned anything \Nthat sounded like a case.
+Dialogue: 0,0:06:39.19,0:06:43.79,DCMain,HAIBARA,0000,0000,0000,,It's possible we just imagined \Nhe was up to no good.
+Dialogue: 0,0:06:43.79,0:06:47.97,DCMain,CONAN,0000,0000,0000,,No, there's something odd \Nabout that Kanieda guy.
+Dialogue: 0,0:06:48.62,0:06:50.78,DCMain,CONAN,0000,0000,0000,,He had a cell phone, right?
+Dialogue: 0,0:06:50.78,0:06:53.71,DCMain,CONAN,0000,0000,0000,,So why did he receive a call at a café?
+Dialogue: 0,0:06:54.66,0:06:57.09,DCMain,CONAN,0000,0000,0000,,And he got on an inbound train.
+Dialogue: 0,0:06:57.09,0:06:59.67,DCMain,CONAN,0000,0000,0000,,He should've headed in the opposite \Ndirection if he were going home to Shikabone City.
+Dialogue: 0,0:07:01.00,0:07:05.28,DCMain,CONAN,0000,0000,0000,,And since that train stopped one \Nstation over at Midoridai...
+Dialogue: 0,0:07:01.73,0:07:05.23,Station Name Signs,SIGN,0000,0000,0000,,{\pos(517,228)}Beika
+Dialogue: 0,0:07:01.73,0:07:05.23,Station Name Signs,SIGN,0000,0000,0000,,{\fs22\pos(323,227)\3c&HF7FCFA&}Midoridai
+Dialogue: 0,0:07:01.73,0:07:05.23,Station Name Signs,SIGN,0000,0000,0000,,{\pos(114,228)\3c&HE7E7E7&}Kokubo
+Dialogue: 0,0:07:05.23,0:07:06.98,sign_10196_122_Midoridai_Statio,SIGN,0000,0000,0000,,{\pos(469,176)\fs30\c&H766944&\3c&HFFFFFF&}Midoridai Station
+Dialogue: 0,0:07:09.98,0:07:13.34,DCMain,CONAN,0000,0000,0000,,Maybe he's planning to do \Nsomething here in Midoridai.
+Dialogue: 0,0:07:13.59,0:07:15.60,DCMain,MITUSHIKO,0000,0000,0000,,But where should we look for him?
+Dialogue: 0,0:07:15.60,0:07:18.67,DCMain,CONAN,0000,0000,0000,,We could try talking to the police, but...
+Dialogue: 0,0:07:19.57,0:07:20.66,DCMain,CONAN,0000,0000,0000,,What's that?
+Dialogue: 0,0:07:25.34,0:07:26.88,DCMain,MITSUHIKO,0000,0000,0000,,That was him.
+Dialogue: 0,0:07:26.88,0:07:29.55,DCMain,AYUMI,0000,0000,0000,,But if he's with the police, then...
+Dialogue: 0,0:07:29.55,0:07:32.40,DCMain,GENTA,0000,0000,0000,,Does that mean he did something?
+Dialogue: 0,0:07:32.40,0:07:36.06,DCMain,CONAN,0000,0000,0000,,They're probably headed to \Nthe Midoridai police station.
+Dialogue: 0,0:07:37.54,0:07:40.45,DCMain,CONAN,0000,0000,0000,,{\an8}What? His name is Usui-san?
+Dialogue: 0,0:07:38.97,0:07:41.89,DCNameCards,SIGN,0000,0000,0000,,{\fad(405,1)\pos(255,314)\3c&H8B4958&}Usui Eiichi (35)
+Dialogue: 0,0:07:40.45,0:07:41.89,DCMain,TAKAGI,0000,0000,0000,,{\an8}Yeah.
+Dialogue: 0,0:07:42.10,0:07:45.40,DCMain,TAKAGI,0000,0000,0000,,Usui Eiichi-san, who lives here in Midoridai.
+Dialogue: 0,0:07:45.40,0:07:48.15,DCMain,TAKAGI,0000,0000,0000,,We even checked his drivers license.
+Dialogue: 0,0:07:48.47,0:07:52.65,DCMain,HAIBARA,0000,0000,0000,,Then why did he lie about being \NKanieda from Shikabone City?
+Dialogue: 0,0:07:53.04,0:07:54.47,DCMain,CONAN,0000,0000,0000,,There's that, too.
+Dialogue: 0,0:07:54.47,0:07:58.66,DCMain,CONAN,0000,0000,0000,,Detective Takagi, why did \Nthe police pick him up?
+Dialogue: 0,0:08:00.09,0:08:03.17,DCMain,TAKAGI,0000,0000,0000,,He's a person of interest in an injury case.
+Dialogue: 0,0:08:03.17,0:08:04.17,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:08:04.54,0:08:07.70,DCMain,TAKAGI,0000,0000,0000,,Just now, behind Midoridai Park, a \Nwoman who lives nearby found a man
+Dialogue: 0,0:08:08.17,0:08:13.80,DCMain,TAKAGI,0000,0000,0000,,who'd been struck on the \Nback of the head with a log.
+Dialogue: 0,0:08:14.05,0:08:17.55,DCMain,TAKAGI,0000,0000,0000,,The victim is Hachiya \NTakeru-san from Midoridai.
+Dialogue: 0,0:08:18.14,0:08:19.10,DCItalic,HACHIYA,0000,0000,0000,,{\an8}Damn it.
+Dialogue: 0,0:08:18.85,0:08:22.85,DCNameCards,SIGN,0000,0000,0000,,{\fad(440,474)\pos(359,315)\3c&HA36362&}Hachiya Takeru (45)
+Dialogue: 0,0:08:19.10,0:08:22.68,DCItalic,HACHIYA,0000,0000,0000,,{\an8}I don't know who it was, but they \Nsuddenly hit me from behind.
+Dialogue: 0,0:08:22.68,0:08:25.46,DCItalic,HACHIYA,0000,0000,0000,,{\an8}Quick slacking off, officers!
+Dialogue: 0,0:08:25.46,0:08:29.07,DCItalic,HACHIYA,0000,0000,0000,,Go find the culprit and bring him to me!
+Dialogue: 0,0:08:29.83,0:08:33.89,DCMain,TAKAGI,0000,0000,0000,,According to his neighbors, \Nhe's not a very nice person.
+Dialogue: 0,0:08:34.41,0:08:38.33,DCItalic,MEGURE,0000,0000,0000,,The man got into a rather \Nfierce argument with Hachiya?
+Dialogue: 0,0:08:38.62,0:08:42.58,DCNameCards,SIGN,0000,0000,0000,,{\fad(440,434)\3c&H934E5D&\pos(262,314)}Kakimoto Sueko (28)
+Dialogue: 0,0:08:39.24,0:08:41.71,DCItalic,SUEKO,0000,0000,0000,,{\an8}Several days earlier, outside the station.
+Dialogue: 0,0:08:42.22,0:08:45.54,DCItalic,SUEKO,0000,0000,0000,,I'd seen the man several times before,
+Dialogue: 0,0:08:45.54,0:08:47.70,DCItalic,SUEKO,0000,0000,0000,,so I figured he was a resident of Midoridai.
+Dialogue: 0,0:08:47.70,0:08:48.71,DCItalic,CHIBA,0000,0000,0000,,Inspector.
+Dialogue: 0,0:08:49.32,0:08:51.63,DCItalic,CHIBA,0000,0000,0000,,We found this on the pen on the ground.
+Dialogue: 0,0:08:52.82,0:08:54.13,DCItalic,MEGURE,0000,0000,0000,,E.U.?
+Dialogue: 0,0:08:54.47,0:08:56.17,DCMain,TAKAGI,0000,0000,0000,,Eiichi Usui.
+Dialogue: 0,0:08:56.17,0:09:00.14,DCMain,TAKAGI,0000,0000,0000,,He's the man we identified as \Nour primary person of interest.
+Dialogue: 0,0:09:00.62,0:09:04.39,DCMain,USUI,0000,0000,0000,,I admit I got into a fight with Hachiya \Nbecause I have a grudge against him.
+Dialogue: 0,0:09:04.65,0:09:09.62,DCMain,USUI,0000,0000,0000,,But I just lost this somewhere, \Nand I haven't been to the park.
+Dialogue: 0,0:09:09.62,0:09:14.99,DCMain,MEGURE,0000,0000,0000,,Then where were you and what were you doing \Ntoday around 1PM when Hachiya was attacked?
+Dialogue: 0,0:09:15.15,0:09:17.74,DCMain,USUI,0000,0000,0000,,W-Well, I...
+Dialogue: 0,0:09:18.09,0:09:19.99,DCMain,MEGURE,0000,0000,0000,,Why can't you tell us?
+Dialogue: 0,0:09:21.82,0:09:24.00,DCMain,USUI,0000,0000,0000,,I can't remember.
+Dialogue: 0,0:09:25.26,0:09:29.08,DCMain,USUI,0000,0000,0000,,I know. At exactly that time, \NI experienced temporary amnesia.
+Dialogue: 0,0:09:31.83,0:09:34.46,DCMain,TAKAGI,0000,0000,0000,,It's probably him.
+Dialogue: 0,0:09:34.46,0:09:37.00,DCMain,TAKAGI,0000,0000,0000,,His lie is extremely unconvincing.
+Dialogue: 0,0:09:37.00,0:09:41.72,DCMain,CONAN,0000,0000,0000,,Wait. Hachiya was attacked around 1PM today?
+Dialogue: 0,0:09:41.98,0:09:45.10,DCMain,TAKAGI,0000,0000,0000,,Yeah, according to Hachiya-san's testimony.
+Dialogue: 0,0:09:45.62,0:09:47.73,DCMain,CONAN,0000,0000,0000,,Then he's innocent.
+Dialogue: 0,0:09:47.90,0:09:48.89,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:09:48.89,0:09:50.46,DCMain,HAIBARA,0000,0000,0000,,He has an alibi.
+Dialogue: 0,0:09:50.46,0:09:52.98,DCMain,MITSUHIKO,0000,0000,0000,,He was in Beika City around that time.
+Dialogue: 0,0:09:52.98,0:09:54.03,DCMain,GENTA,0000,0000,0000,,That's right.
+Dialogue: 0,0:09:54.03,0:09:54.78,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:54.78,0:09:55.73,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:09:55.73,0:09:59.32,DCMain,CONAN,0000,0000,0000,,He forgot something in Beika \NCity while he was there.
+Dialogue: 0,0:09:59.93,0:10:02.70,DCMain,CONAN,0000,0000,0000,,His fingerprints should be on this.
+Dialogue: 0,0:10:03.45,0:10:05.70,DCMain,MEGURE,0000,0000,0000,,What? The kids saw him?
+Dialogue: 0,0:10:05.70,0:10:06.94,DCMain,CHIBA,0000,0000,0000,,They're witnesses?
+Dialogue: 0,0:10:07.51,0:10:08.90,DCMain,USUI,0000,0000,0000,,Did something happen?
+Dialogue: 0,0:10:08.90,0:10:13.34,DCMain,MEGURE,0000,0000,0000,,Someone claims to have seen you in \NBeika City when the incident occurred.
+Dialogue: 0,0:10:13.52,0:10:18.01,DCMain,USUI,0000,0000,0000,,N-No! I've never been to Beika City!
+Dialogue: 0,0:10:20.67,0:10:23.45,DCMain,CONAN,0000,0000,0000,,What? He denied it?!
+Dialogue: 0,0:10:23.45,0:10:24.39,DCMain,TAKAGI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:24.39,0:10:26.27,DCMain,TAKAGI,0000,0000,0000,,He said it must've been someone else.
+Dialogue: 0,0:10:26.77,0:10:27.40,DCMain,CONAN,0000,0000,0000,,But...
+Dialogue: 0,0:10:27.40,0:10:28.77,DCMain,FORENSICS,0000,0000,0000,,Excuse me, Takagi-san.
+Dialogue: 0,0:10:32.50,0:10:35.08,DCMain,TAKAGI,0000,0000,0000,,I see. Thank you.
+Dialogue: 0,0:10:36.03,0:10:42.25,DCMain,TAKAGI,0000,0000,0000,,None of Usui-san's fingerprints \Nwere on the lighter you turned in.
+Dialogue: 0,0:10:42.25,0:10:43.16,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:10:43.35,0:10:48.91,DCMain,TAKAGI,0000,0000,0000,,In other words, the man you saw in \NBeika City wasn't Usui Eiichi-san,
+Dialogue: 0,0:10:49.38,0:10:51.08,DCMain,TAKAGI,0000,0000,0000,,but someone else.
+Dialogue: 0,0:10:52.42,0:10:54.88,MPD Midoridai Police Station,SIGN,0000,0000,0000,,MPD {\c&H5878B2&}Midoridai {\c&H4F6FA9&}Police {\c&H4674A8&}Station
+Dialogue: 0,0:10:52.75,0:10:54.83,DCMain,MITSUHIKO,0000,0000,0000,,But it was definitely him.
+Dialogue: 0,0:10:54.83,0:10:56.54,DCMain,BOTH,0000,0000,0000,,Yeah.
+Dialogue: 0,0:10:56.54,0:11:01.84,DCMain,HAIBARA,0000,0000,0000,,Then why won't Usui say he \Nhas an alibi when he does?
+Dialogue: 0,0:11:02.49,0:11:04.96,DCMain,CONAN,0000,0000,0000,,There must be some reason he can't.
+Dialogue: 0,0:11:05.84,0:11:06.89,DCMain,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:11:07.95,0:11:08.69,DCMain,CONAN,0000,0000,0000,,Found it.
+Dialogue: 0,0:11:08.98,0:11:11.02,Telephone Book,SIGN,0000,0000,0000,,Telephone Book
+Dialogue: 0,0:11:08.98,0:11:11.02,Shikabone City,SIGN,0000,0000,0000,,Shikabone City
+Dialogue: 0,0:11:09.21,0:11:13.56,DCMain,CONAN,0000,0000,0000,,There really is a Kanieda \Nfrom Shikabone City.
+Dialogue: 0,0:11:13.56,0:11:14.48,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:11:14.48,0:11:18.49,Kanieda Akira,SIGN,0000,0000,0000,,{\blur1}Kanieda Akira
+Dialogue: 0,0:11:14.87,0:11:16.44,DCMain,HAIBARA,0000,0000,0000,,Looks like there's only one.
+Dialogue: 0,0:11:16.95,0:11:18.49,DCMain,CONAN,0000,0000,0000,,Kanieda Akira...
+Dialogue: 0,0:11:19.45,0:11:21.80,DCMain,CONAN,0000,0000,0000,,If we check out this person,
+Dialogue: 0,0:11:22.43,0:11:26.94,DCMain,CONAN,0000,0000,0000,,we may be able to figure out why Usui \NEiichi is behaving so mysteriously.
+Dialogue: 0,0:11:31.54,0:11:33.50,The Next Day,SIGN,0000,0000,0000,,{\fad(192,1)}The Next Day
+Dialogue: 0,0:11:33.50,0:11:36.00,To Beika City,SIGN,0000,0000,0000,,To Beika City
+Dialogue: 0,0:11:33.50,0:11:36.00,Current Time,SIGN,0000,0000,0000,,Current Time
+Dialogue: 0,0:11:33.50,0:11:36.00,Destination,SIGN,0000,0000,0000,,Destination
+Dialogue: 0,0:11:33.50,0:11:36.00,Sawabukuro,SIGN,0000,0000,0000,,{\pos(506,199)\3c&H844527&}Sawabukuro
+Dialogue: 0,0:11:33.50,0:11:36.00,Destination,SIGN,0000,0000,0000,,{\pos(669,90)}Local Express
+Dialogue: 0,0:11:33.50,0:11:36.00,sign_16628_218_Stops_At_Every_S,SIGN,0000,0000,0000,,{\pos(605,150)\3c&H3B2418&}Stops At Every Station
+Dialogue: 0,0:11:33.70,0:11:36.00,DCMain,GENTA,0000,0000,0000,,Hey, all ones again today.
+Dialogue: 0,0:11:36.33,0:11:38.78,DCMain,GENTA,0000,0000,0000,,I really am lucky.
+Dialogue: 0,0:11:38.78,0:11:40.99,DCMain,CONAN,0000,0000,0000,,Hey, hurry up. Let's go.
+Dialogue: 0,0:11:40.99,0:11:42.23,DCMain,MITSUHIKO,0000,0000,0000,,Coming.
+Dialogue: 0,0:11:42.23,0:11:44.59,DCMain,GENTA,0000,0000,0000,,Huh? They're leaving. Hey, wait.
+Dialogue: 0,0:11:44.59,0:11:47.68,DCMain,SIGN,0000,0000,0000,,{\an8\fs30\fnTimesNewRoman\bord1\shad0\c&H302E75&\3c&HA5939A&\blur2\move(332,55,872,55)}Kanieda Stamps and Seals
+Dialogue: 0,0:11:45.32,0:11:49.51,DCMain,CONAN,0000,0000,0000,,What? Your neighbor Kanieda \NAkira-san is in the hospital?
+Dialogue: 0,0:11:49.51,0:11:55.11,DCMain,TONE,0000,0000,0000,,Yeah, apparently he was hit by a car \Nyesterday afternoon on the other side of the station.
+Dialogue: 0,0:11:55.44,0:11:57.00,DCMain,CONAN,0000,0000,0000,,A traffic accident...
+Dialogue: 0,0:11:57.00,0:12:00.80,DCMain,TONE,0000,0000,0000,,If you kids have business with \NAkira-kun, why don't you come with me?
+Dialogue: 0,0:12:00.80,0:12:02.20,DCMain,CONAN,0000,0000,0000,,Would that be all right?
+Dialogue: 0,0:12:02.20,0:12:05.12,DCMain,TONE,0000,0000,0000,,I was just on my way to visit him.
+Dialogue: 0,0:12:05.62,0:12:11.62,DCMain,SIGN,0000,0000,0000,,{\an8\b1\fnArial\bord2\shad1\c&H8A8F86&\3c&HE3E7DA&\4c&HA4A396&\frz19.2\move(177,49,373,37)}Shikabone City General Hospital
+Dialogue: 0,0:12:06.68,0:12:09.25,DCMain,TONE,0000,0000,0000,,According to the nurse, \Nhe's not seriously injured,
+Dialogue: 0,0:12:09.25,0:12:11.62,DCMain,TONE,0000,0000,0000,,but he still hasn't regained consciousness.
+Dialogue: 0,0:12:13.01,0:12:15.04,DCMain,TONE,0000,0000,0000,,Excuse us, Akira-kun.
+Dialogue: 0,0:12:15.69,0:12:17.98,DCMain,CONAN,0000,0000,0000,,{\an8}What? This is him?
+Dialogue: 0,0:12:16.79,0:12:20.05,DCNameCards,SIGN,0000,0000,0000,,{\fad(404,1)\3c&HBE8174&\pos(321,315)}Kanieda Akira (36)
+Dialogue: 0,0:12:17.98,0:12:20.05,DCMain,TONE,0000,0000,0000,,{\an8}This is Kanieda Akira-kun.
+Dialogue: 0,0:12:20.56,0:12:22.06,DCMain,MITSUHIKO,0000,0000,0000,,They look similar, don't they?
+Dialogue: 0,0:12:22.06,0:12:24.47,DCMain,GENTA,0000,0000,0000,,He and that Usui guy...
+Dialogue: 0,0:12:24.47,0:12:26.05,DCMain,AYUMI,0000,0000,0000,,Look exactly alike.
+Dialogue: 0,0:12:26.33,0:12:30.24,DCMain,TONE,0000,0000,0000,,Anyway, what was he doing on \Nthe south side of the station?
+Dialogue: 0,0:12:30.24,0:12:32.07,DCMain,TONE,0000,0000,0000,,He thinks it's bad luck.
+Dialogue: 0,0:12:32.07,0:12:33.36,DCMain,CONAN,0000,0000,0000,,Bad luck?
+Dialogue: 0,0:12:34.97,0:12:40.36,DCMain,TONE,0000,0000,0000,,Akira-kun's been living with his \Nmother since his father passed away.
+Dialogue: 0,0:12:40.36,0:12:45.57,DCMain,SIGN,0000,0000,0000,,{\fad(316,1)\an8\fs12\bord2\shad0\fnArial\c&H809E56&\3c&HD8DCD8&\move(425,73,425,191)}Shikabone City Saruwatari Dental Care
+Dialogue: 0,0:12:40.78,0:12:45.85,DCMain,TONE,0000,0000,0000,,About a year ago, his mother had some \Ndentures made by a well-known dentist
+Dialogue: 0,0:12:45.85,0:12:50.08,DCMain,TONE,0000,0000,0000,,{\an8}named Saruwatari-sensei on the \Nsouth side of the station.
+Dialogue: 0,0:12:45.99,0:12:49.95,DCNameCards,SIGN,0000,0000,0000,,{\fad(442,432)\pos(486,315)\3c&HB98276&}Saruwatari Kanzo (40)
+Dialogue: 0,0:12:50.62,0:12:53.33,DCMain,TONE,0000,0000,0000,,But shortly afterwards, something \Nunfortunate happened.
+Dialogue: 0,0:12:54.21,0:12:56.01,DCItalic,KANIEDA,0000,0000,0000,,Mom, I'm home.
+Dialogue: 0,0:12:57.83,0:13:01.31,DCItalic,KANIEDA,0000,0000,0000,,You'll catch a cold if you nap there.
+Dialogue: 0,0:13:01.31,0:13:02.84,DCItalic,KANIEDA,0000,0000,0000,,Hey, Mom.
+Dialogue: 0,0:13:04.12,0:13:05.34,DCItalic,KANIEDA,0000,0000,0000,,Mom?
+Dialogue: 0,0:13:06.02,0:13:09.79,DCItalic,KANIEDA,0000,0000,0000,,Mom! Wake up! Mom!
+Dialogue: 0,0:13:09.79,0:13:14.35,DCMain,TONE,0000,0000,0000,,She fell asleep while wearing the dentures \Nand they got caught in her throat.
+Dialogue: 0,0:13:14.54,0:13:17.45,DCMain,TONE,0000,0000,0000,,She didn't wake up after that.
+Dialogue: 0,0:13:18.18,0:13:19.52,DCItalic,KANIEDA,0000,0000,0000,,It wasn't an accident!
+Dialogue: 0,0:13:19.94,0:13:21.81,DCItalic,KANIEDA,0000,0000,0000,,It wasn't an accident.
+Dialogue: 0,0:13:21.81,0:13:23.83,DCItalic,KANIEDA,0000,0000,0000,,Those dentures were poorly made.
+Dialogue: 0,0:13:24.45,0:13:26.95,DCItalic,KANIEDA,0000,0000,0000,,That quack Saruwatari killed my mom.
+Dialogue: 0,0:13:27.12,0:13:30.45,DCItalic,TONE,0000,0000,0000,,That's what you call unjustified \Nresentment, Akira-kun.
+Dialogue: 0,0:13:31.07,0:13:34.14,DCItalic,KANIEDA,0000,0000,0000,,That quack killed my mom.
+Dialogue: 0,0:13:36.46,0:13:38.63,DCMain,TONE,0000,0000,0000,,Because that dentist is over there...
+Dialogue: 0,0:13:38.63,0:13:41.56,DCMain,HAIBARA,0000,0000,0000,,He'd consider the south side \Nof the station unlucky.
+Dialogue: 0,0:13:41.56,0:13:43.00,DCMain,HAIBARA,0000,0000,0000,,Then why did he go there?
+Dialogue: 0,0:13:44.73,0:13:48.76,DCMain,CONAN,0000,0000,0000,,You said Kanieda-san's accident \Nhappened yesterday afternoon.
+Dialogue: 0,0:13:49.09,0:13:51.23,DCMain,CONAN,0000,0000,0000,,Did it happen to be around one?
+Dialogue: 0,0:13:51.23,0:13:54.54,DCMain,TONE,0000,0000,0000,,Yeah, I heard it was just after one.
+Dialogue: 0,0:13:54.54,0:13:55.73,DCMain,CONAN,0000,0000,0000,,I knew it.
+Dialogue: 0,0:13:55.73,0:13:59.77,DCMain,CONAN,0000,0000,0000,,That's the same time Usui-san started \Nwandering around Beika City.
+Dialogue: 0,0:14:00.10,0:14:03.36,DCMain,GENTA,0000,0000,0000,,That's around the time we \Nsaw all ones on the clock.
+Dialogue: 0,0:14:03.36,0:14:05.19,DCMain,MITUSHIKO,0000,0000,0000,,So, what about it?
+Dialogue: 0,0:14:05.86,0:14:09.05,DCMain,CONAN,0000,0000,0000,,If I'm right, then...
+Dialogue: 0,0:14:10.32,0:14:13.41,DCMain,CONAN,0000,0000,0000,,When Kanieda Akira-san was \Ntransported here by ambulance,
+Dialogue: 0,0:14:13.71,0:14:15.83,DCMain,CONAN,0000,0000,0000,,did he have any possessions on him?
+Dialogue: 0,0:14:15.83,0:14:17.41,DCMain,NURSE,0000,0000,0000,,Possessions?
+Dialogue: 0,0:14:21.50,0:14:23.07,DCMain,MITSUHIKO,0000,0000,0000,,What are these?
+Dialogue: 0,0:14:23.62,0:14:25.41,DCMain,AYUMI,0000,0000,0000,,Gloves and rope?
+Dialogue: 0,0:14:25.41,0:14:28.43,DCMain,GENTA,0000,0000,0000,,Was he planning on doing some kind of work?
+Dialogue: 0,0:14:29.10,0:14:30.33,DCMain,HAIBARA,0000,0000,0000,,Could it be?
+Dialogue: 0,0:14:30.33,0:14:32.42,DCMain,CONAN,0000,0000,0000,,Yeah, probably.
+Dialogue: 0,0:14:32.68,0:14:34.43,DCMain,SIGN,0000,0000,0000,,{\fad(275,1)\bord2\shad0\fnArial\c&H5F7A3B&\3c&HDEDCD9&\pos(323,82)\blur1}Shikabone City Saruwatari Dental Care
+Dialogue: 0,0:14:32.68,0:14:34.43,DCMain,SIGN,0000,0000,0000,,{\fad(275,1)\bord2\shad0\fnArial\c&H808886&\3c&HF3F3ED&\pos(161,166)}Hours
+Dialogue: 0,0:14:32.68,0:14:34.43,DCMain,SIGN,0000,0000,0000,,{\fad(275,1)\bord2\shad0\fnArial\c&H808886&\3c&HF0F2ED&\fs13\pos(131,226)}Appointments Accepted\NUntil Noon
+Dialogue: 0,0:14:32.68,0:14:34.43,DCMain,SIGN,0000,0000,0000,,{\fad(275,1)\bord2\shad0\fnArial\c&H808886&\3c&HF0F2ED&\fs13\pos(131,260)}Afternoon Appointments\NFrom 14:00
+Dialogue: 0,0:14:35.31,0:14:37.43,DCMain,CONAN,0000,0000,0000,,Saruwatari-sensei lives alone,
+Dialogue: 0,0:14:37.97,0:14:41.69,DCMain,CONAN,0000,0000,0000,,And he apparently always eats \Nlunch at home next door.
+Dialogue: 0,0:14:41.98,0:14:44.44,DCMain,HAIBARA,0000,0000,0000,,Then like you suspected...
+Dialogue: 0,0:14:44.73,0:14:47.94,DCMain,CONAN,0000,0000,0000,,Yeah, he was probably aiming for that window.
+Dialogue: 0,0:14:49.95,0:14:51.95,Midoridai Apartments,SIGN,0000,0000,0000,,{\fad(189,1)\pos(320,29)}Midoridai Apartments
+Dialogue: 0,0:14:52.28,0:14:54.45,DCMain,CONAN,0000,0000,0000,,I got the landlord's testimony.
+Dialogue: 0,0:14:54.64,0:14:56.92,DCMain,CONAN,0000,0000,0000,,Usui-san suddenly shaved his head the day
+Dialogue: 0,0:14:56.92,0:14:59.35,DCMain,CONAN,0000,0000,0000,,before yesterday even though \Nhe'd worn it long before.
+Dialogue: 0,0:15:01.04,0:15:04.04,MPD Midoridai Police Station,SIGN,0000,0000,0000,,{\pos(334,16)\c&H719FAF&\3c&H756A63&\4c&H3B414D&}MPD {\c&H558393&}Midoridai {\c&H528690&}Police {\c&H75A0A4&}Station
+Dialogue: 0,0:15:01.37,0:15:09.10,DCMain,MEGURE,0000,0000,0000,,I don't know why, but these \Nchildren insist on seeing you.
+Dialogue: 0,0:15:11.93,0:15:14.05,DCMain,USUI,0000,0000,0000,,Uh, have we met?
+Dialogue: 0,0:15:14.30,0:15:17.35,DCMain,CONAN,0000,0000,0000,,We met yesterday in Beika City.
+Dialogue: 0,0:15:18.22,0:15:19.43,DCMain,TAKAGI,0000,0000,0000,,You mean...
+Dialogue: 0,0:15:19.68,0:15:23.16,DCMain,CONAN,0000,0000,0000,,We weren't wrong. It really was him.
+Dialogue: 0,0:15:23.16,0:15:26.59,DCMain,USUI,0000,0000,0000,,But I've never been to Beika City.
+Dialogue: 0,0:15:26.59,0:15:29.44,DCMain,CONAN,0000,0000,0000,,Kanieda Akira-san asked \Nyou to lie, didn't he?
+Dialogue: 0,0:15:29.87,0:15:34.95,DCMain,CONAN,0000,0000,0000,,He wanted you to be his double \Nin his plot to kill the dentist.
+Dialogue: 0,0:15:38.41,0:15:41.46,DCMain,MEGURE,0000,0000,0000,,I see. So he was plotting a murder.
+Dialogue: 0,0:15:41.69,0:15:42.61,DCMain,CONAN,0000,0000,0000,,Yes.
+Dialogue: 0,0:15:42.61,0:15:44.14,DCMain,CONAN,0000,0000,0000,,It may have been unjustified,
+Dialogue: 0,0:15:44.14,0:15:48.39,DCMain,CONAN,0000,0000,0000,,but Kanieda-san couldn't \Nforgive Saruwatari-sensei
+Dialogue: 0,0:15:48.39,0:15:51.30,DCMain,CONAN,0000,0000,0000,,and attempted to avenge his mother.
+Dialogue: 0,0:15:51.66,0:15:55.49,DCMain,CONAN,0000,0000,0000,,But suspicion would've fallen \Non him due to his motive.
+Dialogue: 0,0:15:55.49,0:16:00.81,DCMain,CONAN,0000,0000,0000,,That's when he happened to see Usui-san and \Ncame up with a way to avoid being caught.
+Dialogue: 0,0:16:01.33,0:16:03.71,DCMain,CONAN,0000,0000,0000,,He attempted to fabricate an \Nalibi for the time of the crime
+Dialogue: 0,0:16:03.71,0:16:06.77,DCMain,CONAN,0000,0000,0000,,by using this man who looks just like him.
+Dialogue: 0,0:16:07.36,0:16:10.37,DCMain,MEGURE,0000,0000,0000,,So you're an accomplice to a murder plot.
+Dialogue: 0,0:16:10.37,0:16:11.82,DCMain,USUI,0000,0000,0000,,You're lying.
+Dialogue: 0,0:16:12.02,0:16:16.20,DCMain,CONAN,0000,0000,0000,,You seem to be unemployed, so \Nyou probably did it for money.
+Dialogue: 0,0:16:17.55,0:16:19.56,DCItalic,KANIEDA,0000,0000,0000,,I've got a way to get rich quick
+Dialogue: 0,0:16:20.23,0:16:22.23,DCItalic,KANIEDA,0000,0000,0000,,that only works for you.
+Dialogue: 0,0:16:23.15,0:16:26.08,DCItalic,KANIEDA,0000,0000,0000,,Here's your advance payment. Take it.
+Dialogue: 0,0:16:26.46,0:16:28.84,DCItalic,KANIEDA,0000,0000,0000,,If I'm successful, I'll pay you double.
+Dialogue: 0,0:16:29.48,0:16:31.43,DCItalic,KANIEDA,0000,0000,0000,,Not a bad deal, right?
+Dialogue: 0,0:16:33.00,0:16:33.93,DCMain,USUI,0000,0000,0000,,You're lying!
+Dialogue: 0,0:16:34.73,0:16:37.01,DCMain,CONAN,0000,0000,0000,,Yesterday, on the day of the planned murder,
+Dialogue: 0,0:16:37.01,0:16:41.38,DCMain,CONAN,0000,0000,0000,,Kanieda-san had Usui-san cut his \Nlong hair to look like his own
+Dialogue: 0,0:16:41.38,0:16:44.89,DCMain,CONAN,0000,0000,0000,,and sent far away from \NShikabone City to Beika City.
+Dialogue: 0,0:16:45.26,0:16:48.40,DCMain,CONAN,0000,0000,0000,,He had him enter a café \Nhe'd picked out beforehand
+Dialogue: 0,0:16:48.91,0:16:51.40,DCMain,CONAN,0000,0000,0000,,and waited for the right \Ntime to place a call.
+Dialogue: 0,0:16:51.63,0:16:56.91,DCItalic,KANIEDA,0000,0000,0000,,There should be a man named Kanieda \Nfrom Shikabone City there.
+Dialogue: 0,0:16:56.91,0:16:58.81,DCItalic,USUI,0000,0000,0000,,Yes, that's me!
+Dialogue: 0,0:16:58.81,0:17:00.54,DCItalic,USUI,0000,0000,0000,,Kanieda from Shikabone City.
+Dialogue: 0,0:17:01.08,0:17:03.79,DCMain,CONAN,0000,0000,0000,,That allowed him to create \Nnumerous witnesses for the alibi.
+Dialogue: 0,0:17:04.12,0:17:08.54,DCMain,CONAN,0000,0000,0000,,Furthermore, by leaving behind \Na lighter with his fingerprints,
+Dialogue: 0,0:17:08.54,0:17:10.88,DCMain,CONAN,0000,0000,0000,,he had physical evidence as a backup.
+Dialogue: 0,0:17:11.30,0:17:15.30,DCMain,CONAN,0000,0000,0000,,With his fake alibi secured,
+Dialogue: 0,0:17:15.61,0:17:18.33,DCMain,CONAN,0000,0000,0000,,Kanieda-san headed out to \Nmurder Saruwatari-sensei.
+Dialogue: 0,0:17:19.94,0:17:23.40,DCMain,CONAN,0000,0000,0000,,That dentist accepts appointments \Nuntil noon, right?
+Dialogue: 0,0:17:24.39,0:17:28.10,DCMain,SIGN,0000,0000,0000,,{\fad(153,1)\bord2\shad0\fnArial\c&H898AAB&\3c&HDFDFEC&\blur1\pos(316,93)}Shikabone City Saruwatari Dental Care
+Dialogue: 0,0:17:24.39,0:17:28.10,DCMain,SIGN,0000,0000,0000,,{\fad(153,1)\bord2\shad0\fnArial\c&H898AAB&\3c&HDFDFEC&\pos(131,185)}Hours
+Dialogue: 0,0:17:24.39,0:17:28.10,DCMain,SIGN,0000,0000,0000,,{\fad(153,1)\bord2\shad0\fnArial\c&H898AAB&\3c&HDFDFEC&\fs11.5\pos(111,256)}Appointments Accepted \NUntil Noon
+Dialogue: 0,0:17:24.39,0:17:28.10,DCMain,SIGN,0000,0000,0000,,{\fad(153,1)\bord2\shad0\fnArial\c&H898AAB&\3c&HDFDFEC&\fs11.5\pos(111,292)}Afternoon Appointments \NFrom 14:00
+Dialogue: 0,0:17:25.05,0:17:30.90,DCMain,CONAN,0000,0000,0000,,Even if his appointments ran over, \Nhe'd be done by 1PM at the latest,
+Dialogue: 0,0:17:30.90,0:17:33.31,DCMain,CONAN,0000,0000,0000,,and then eat lunch at home.
+Dialogue: 0,0:17:33.61,0:17:36.64,DCMain,CONAN,0000,0000,0000,,Kanieda-san would sneak into his \Nhome and kill him using that rope.
+Dialogue: 0,0:17:38.84,0:17:41.20,DCMain,CONAN,0000,0000,0000,,That was the plan, wasn't it?
+Dialogue: 0,0:17:41.42,0:17:45.36,DCMain,HAIBARA,0000,0000,0000,,If the dentist didn't show up after 2PM \Nwhen his afternoon appointments started,
+Dialogue: 0,0:17:45.36,0:17:49.02,DCMain,HAIBARA,0000,0000,0000,,naturally someone would go check \Non him and discover the body.
+Dialogue: 0,0:17:49.02,0:17:54.01,DCMain,CONAN,0000,0000,0000,,Since he clearly would've been killed \Nduring his lunch between 1PM to 2PM,
+Dialogue: 0,0:17:54.01,0:17:57.31,DCMain,CONAN,0000,0000,0000,,you just needed to fabricate an \Nalibi for that one hour period.
+Dialogue: 0,0:17:58.14,0:18:04.22,DCMain,CONAN,0000,0000,0000,,Meanwhile, you witnessed an old woman being \Npushed down some steps in Beika City.
+Dialogue: 0,0:18:04.66,0:18:07.29,DCMain,CONAN,0000,0000,0000,,But you couldn't testify.
+Dialogue: 0,0:18:07.29,0:18:11.64,DCMain,CONAN,0000,0000,0000,,If you came forward as a witness, the \Npolice would ask for your identity.
+Dialogue: 0,0:18:11.64,0:18:14.23,DCMain,CONAN,0000,0000,0000,,Even if you wanted to claim to be \NKanieda Akira from Shikabone City,
+Dialogue: 0,0:18:14.51,0:18:16.74,DCMain,CONAN,0000,0000,0000,,the name on your license would be different.
+Dialogue: 0,0:18:16.87,0:18:19.49,DCMain,AYUMI,0000,0000,0000,,So you said you didn't see anything and ran.
+Dialogue: 0,0:18:19.49,0:18:22.99,DCMain,GENTA,0000,0000,0000,,You kept fabricating Kanieda-san's alibi.
+Dialogue: 0,0:18:23.16,0:18:27.62,DCMain,MITSUHIKO,0000,0000,0000,,And repeatedly took actions people \Naround town would remember.
+Dialogue: 0,0:18:30.69,0:18:37.51,DCMain,HAIBARA,0000,0000,0000,,You hid the fact that you had an alibi \Nbecause the alibi itself was part of an evil scheme.
+Dialogue: 0,0:18:37.93,0:18:41.58,DCMain,CHIBA,0000,0000,0000,,You didn't want to be suspected \Nof injuring Hachiya-san...
+Dialogue: 0,0:18:41.58,0:18:44.36,DCMain,TAKAGI,0000,0000,0000,,But you hid it, believing it was better
+Dialogue: 0,0:18:44.36,0:18:46.81,DCMain,TAKAGI,0000,0000,0000,,than the police discovering \Nyou were helping a murderer.
+Dialogue: 0,0:18:47.61,0:18:50.66,DCMain,CONAN,0000,0000,0000,,Your scheme was all for nothing, though.
+Dialogue: 0,0:18:51.17,0:18:54.04,DCMain,CONAN,0000,0000,0000,,While heading to Saruwatari-sensei's house,
+Dialogue: 0,0:18:54.04,0:18:59.00,DCMain,CONAN,0000,0000,0000,,Kanieda-san was involved in a traffic \Naccident and never managed to attack the dentist.
+Dialogue: 0,0:18:59.00,0:18:59.82,DCMain,USUI,0000,0000,0000,,What?
+Dialogue: 0,0:18:59.82,0:19:00.74,DCMain,BOTH,0000,0000,0000,,Huh?
+Dialogue: 0,0:19:02.08,0:19:03.95,DCMain,USUI,0000,0000,0000,,What?!
+Dialogue: 0,0:19:04.23,0:19:11.17,DCMain,USUI,0000,0000,0000,,You mean I could've said from the start that \NI was fabricating an alibi in Beika City?
+Dialogue: 0,0:19:11.50,0:19:14.37,DCMain,USUI,0000,0000,0000,,Then what have I been doing \Nthese past three days?
+Dialogue: 0,0:19:14.37,0:19:16.21,DCMain,USUI,0000,0000,0000,,Man, I'm beat.
+Dialogue: 0,0:19:21.05,0:19:22.14,DCMain,MEGURE,0000,0000,0000,,You fool!
+Dialogue: 0,0:19:22.49,0:19:26.14,DCMain,MEGURE,0000,0000,0000,,It was a coincidence that you didn't \Nbecome an accomplice to a murderer!
+Dialogue: 0,0:19:30.35,0:19:32.20,DCMain,USUI,0000,0000,0000,,You're absolutely correct.
+Dialogue: 0,0:19:33.15,0:19:37.73,Incoming Call,SIGN,0000,0000,0000,,Incoming Call
+Dialogue: 0,0:19:34.18,0:19:35.49,DCMain,USUI,0000,0000,0000,,My phone...
+Dialogue: 0,0:19:35.49,0:19:36.85,DCMain,MEGURE,0000,0000,0000,,You can answer it.
+Dialogue: 0,0:19:36.85,0:19:37.73,DCMain,USUI,0000,0000,0000,,Okay.
+Dialogue: 0,0:19:41.36,0:19:42.91,DCMain,USUI,0000,0000,0000,,Hello?
+Dialogue: 0,0:19:43.68,0:19:44.58,DCMain,USUI,0000,0000,0000,,Yes.
+Dialogue: 0,0:19:45.15,0:19:47.26,DCMain,USUI,0000,0000,0000,,Yes, sounds good.
+Dialogue: 0,0:19:47.75,0:19:50.11,DCMain,USUI,0000,0000,0000,,Yes. Bye.
+Dialogue: 0,0:19:51.18,0:19:52.92,DCMain,USUI,0000,0000,0000,,That was Kanieda-san.
+Dialogue: 0,0:19:53.20,0:19:54.62,DCMain,USUI,0000,0000,0000,,He's decided not to get revenge
+Dialogue: 0,0:19:54.62,0:19:58.55,DCMain,USUI,0000,0000,0000,,because he believes it was divine \Npunishment that he was struck by a car.
+Dialogue: 0,0:19:59.45,0:20:02.68,DCMain,USUI,0000,0000,0000,,I'm terribly sorry for the trouble I caused.
+Dialogue: 0,0:20:04.13,0:20:06.92,DCMain,MEGURE,0000,0000,0000,,In any case, we'll be \Nputting this on the record.
+Dialogue: 0,0:20:07.74,0:20:11.64,DCMain,MEGURE,0000,0000,0000,,Takagi and Chiba, go talk to Kanieda.
+Dialogue: 0,0:20:11.64,0:20:12.44,DCMain,BOTH,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:20:12.61,0:20:16.53,DCMain,MITSUHIKO,0000,0000,0000,,But now we're back to square \None with the injury case.
+Dialogue: 0,0:20:16.53,0:20:20.02,DCMain,GENTA,0000,0000,0000,,Seriously. Who's the culprit in that case?
+Dialogue: 0,0:20:20.02,0:20:24.82,DCMain,CONAN,0000,0000,0000,,If Usui-san's pen was at the crime scene \Neven though he never went to the park,
+Dialogue: 0,0:20:24.82,0:20:26.82,DCMain,CONAN,0000,0000,0000,,then the culprit must've put it there.
+Dialogue: 0,0:20:27.31,0:20:29.32,DCMain,CONAN,0000,0000,0000,,And the only person who had the \Nopportunity to do that was...
+Dialogue: 0,0:20:30.68,0:20:31.61,DCMain,CHIBA,0000,0000,0000,,Could it be?
+Dialogue: 0,0:20:31.61,0:20:33.07,DCMain,TAKAGI,0000,0000,0000,,The woman who found the body.
+Dialogue: 0,0:20:33.07,0:20:34.27,DCMain,MEGURE,0000,0000,0000,,It was her?
+Dialogue: 0,0:20:35.16,0:20:41.07,DCMain,SUEKO,0000,0000,0000,,I got the idea when I saw that Usui guy \Narguing with Hachiya a few days ago.
+Dialogue: 0,0:20:41.07,0:20:46.13,DCMain,SUEKO,0000,0000,0000,,I could get back at Hachiya \Nand frame him for it.
+Dialogue: 0,0:20:46.13,0:20:51.43,DCMain,SUEKO,0000,0000,0000,,I picked up the ball point pen he \Ndropped then and used it yesterday.
+Dialogue: 0,0:20:51.90,0:20:53.79,DCMain,SUEKO,0000,0000,0000,,Even if Usui had an alibi,
+Dialogue: 0,0:20:53.79,0:20:57.69,DCMain,SUEKO,0000,0000,0000,,I figured you guys would \Ndo something about it.
+Dialogue: 0,0:20:58.09,0:21:00.73,DCMain,SUEKO,0000,0000,0000,,"He must've employed some \Nkind of clever trick."
+Dialogue: 0,0:21:00.73,0:21:02.15,DCMain,SUEKO,0000,0000,0000,,That's what you thought, right?
+Dialogue: 0,0:21:07.97,0:21:09.70,DCMain,MEGURE,0000,0000,0000,,I feel dizzy...
+Dialogue: 0,0:22:30.20,0:22:34.74,MPD Midoridai Police Station,SIGN,0000,0000,0000,,{\pos(334,16)\c&H4B76B1&\3c&H575B7F&\4c&H3B414D&}MPD {\c&H3E77B6&}Midoridai {\c&H4C79B0&}Police {\c&H4A70AE&\4c&H343A5D&}Station
+Dialogue: 0,0:22:30.50,0:22:33.10,DCMain,GENTA,0000,0000,0000,,From now on, you'd better \Nstick to proper jobs.
+Dialogue: 0,0:22:33.10,0:22:36.97,DCMain,USUI,0000,0000,0000,,I will. I'm really sorry for the \Ntrouble I caused you kids, too.
+Dialogue: 0,0:22:36.97,0:22:42.73,DCMain,CONAN,0000,0000,0000,,By the way, didn't you see the culprit who \Npushed the old woman down the stone steps?
+Dialogue: 0,0:22:42.73,0:22:43.77,DCMain,MITSUHIKO,0000,0000,0000,,That's right.
+Dialogue: 0,0:22:43.77,0:22:44.52,DCMain,AYUMI,0000,0000,0000,,Did you see them?
+Dialogue: 0,0:22:44.52,0:22:47.84,DCMain,USUI,0000,0000,0000,,No, I really didn't see anyone. After all...
+Dialogue: 0,0:22:54.22,0:22:57.01,DCItalic,OLD WOMAN,0000,0000,0000,,Hup.
+Dialogue: 0,0:22:58.12,0:23:03.06,DCItalic,OLD WOMAN,0000,0000,0000,,{\fad(1,846)}I've been pushed! Someone help!
+Dialogue: 0,0:23:03.33,0:23:05.17,DCMain,CONAN,0000,0000,0000,,You mean she was lying?
+Dialogue: 0,0:23:05.17,0:23:08.57,DCMain,USUI,0000,0000,0000,,Yeah, but why would she do that?
+Dialogue: 0,0:23:10.01,0:23:13.92,DCMain,GENTA,0000,0000,0000,,Maybe she's the troublemaker grandma \Neveryone's been talking about.
+Dialogue: 0,0:23:13.92,0:23:16.18,DCMain,AYUMI,0000,0000,0000,,I've heard about her, too!
+Dialogue: 0,0:23:16.18,0:23:19.35,DCMain,MITSUHIKO,0000,0000,0000,,She's the old woman who delights \Nin causing a commotion
+Dialogue: 0,0:23:19.35,0:23:21.58,DCMain,MITSUHIKO,0000,0000,0000,,when nothing has actually happened, right?
+Dialogue: 0,0:23:22.26,0:23:23.59,DCMain,HAIBARA,0000,0000,0000,,Apparently.
+Dialogue: 0,0:23:25.16,0:23:28.81,DCMain,CONAN,0000,0000,0000,,Then we'd better tell that \Npolice officer about her.
+Dialogue: 0,0:23:28.81,0:23:31.72,DCMain,CONAN,0000,0000,0000,,He's probably still looking for the culprit.
+Dialogue: 0,0:23:31.95,0:23:33.77,DCMain,AYUMI,0000,0000,0000,,Oh, but...
+Dialogue: 0,0:23:33.77,0:23:37.09,DCMain,MITSUHIKO,0000,0000,0000,,We solved three whole cases in one day.
+Dialogue: 0,0:23:37.09,0:23:40.17,DCMain,GENTA,0000,0000,0000,,The Detective Boys are on fire.
+Dialogue: 0,0:23:40.17,0:23:42.50,DCMain,GENTA,0000,0000,0000,,It must be because I saw all ones.
+Dialogue: 0,0:23:42.50,0:23:43.94,DCMain,CONAN,0000,0000,0000,,{\fad(1,936)}Don't get ahead of yourself.
+Dialogue: 0,0:23:44.94,0:24:07.96,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.20,0:23:48.44,DCMain,HAGIWARA,0000,0000,0000,,Dude, that's an RX-7 FD3S.
+Dialogue: 0,0:23:48.64,0:23:51.71,DCMain,MOROFUSHI,0000,0000,0000,,Oh? Zero, do you feel like \Ngoing for a ride now, too?
+Dialogue: 0,0:23:52.18,0:23:53.56,DCMain,MOROFUSHI,0000,0000,0000,,After all, you're both zero.
+Dialogue: 0,0:23:54.07,0:23:55.47,DCMain,FURUYA,0000,0000,0000,,N-No.
+Dialogue: 0,0:23:56.04,0:24:01.31,DCMain,HAGIWARA,0000,0000,0000,,What if these brakes are the gates to ruin?
+Dialogue: 0,0:24:02.12,0:24:04.96,DCMain,MATSUDA,0000,0000,0000,,Don't bite your tongue.
+Dialogue: 0,0:24:05.25,0:24:07.96,DCMain,HAGIWARA,0000,0000,0000,,Step on it, Zero!
+Dialogue: 0,0:24:07.96,0:24:14.97,DCNextEp,SIGN,0000,0000,0000,,Police Academy Arc Wild Police Story\NCASE. Hagiwara Kenji
+Dialogue: 0,0:24:08.40,0:24:09.74,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is
+Dialogue: 0,0:24:09.74,0:24:14.31,DCMain,CONAN,0000,0000,0000,,"Police Academy Arc Wild Police \NStory CASE. Hagiwara Kenji!"
+Dialogue: 0,0:24:29.98,0:24:34.91,DCMain,SIGN,0000,0000,0000,,{\an8\bord2\shad0\fnTimesNewRoman\pos(327,36)\blur1\3c&HDDDFE4&\c&H14151E&\b1}Onizuka Classroom
+Dialogue: 0,0:24:29.98,0:24:34.91,DCMain,SIGN,0000,0000,0000,,{\b1\fnArial\bord2\shad0\pos(321,125)\c&HE9EBE5&\3c&H1D1D29&}Lightning Speed
+Dialogue: 0,0:24:29.98,0:24:34.91,DCMain,SIGN,0000,0000,0000,,{\an7\fs12\bord2\shad0\blur1\c&H171B21&\3c&HC4C9C5&\b1\fnTimesNewRoman\pos(319,186)}Instructor Onizuka Hachizo
+Dialogue: 0,0:24:29.98,0:24:34.91,DCMain,SIGN,0000,0000,0000,,{\an9\fs12\bord2\shad0\blur1\c&H171B21&\3c&HC4C9C5&\b1\fnTimesNewRoman\pos(473,233)}Assistant Instructor Matsumoto Naota
+Dialogue: 0,0:24:29.98,0:24:34.91,Hint,SIGN,0000,0000,0000,,{\pos(319,309)}Lightning Speed
+Dialogue: 0,0:24:30.13,0:24:31.66,DCMain,GENTA,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.46,0:24:34.53,DCMain,CONAN,0000,0000,0000,,Lightning speed!
+Dialogue: 0,0:24:34.91,0:24:36.46,DCMain,CONAN,0000,0000,0000,,{\an8}Things you can't say, huh?
+Dialogue: 0,0:24:34.91,0:24:39.91,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.46,0:24:38.18,DCMain,HAIBARA,0000,0000,0000,,{\an8}We've got a few.
+Dialogue: 0,0:24:38.18,0:24:39.47,DCMain,CONAN,0000,0000,0000,,{\an8}You mean too many.

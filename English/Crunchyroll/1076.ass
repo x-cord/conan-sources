@@ -1,0 +1,385 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Headquarters,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00201B1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0110,0
+Style: Utagawa,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00A16362,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0060,0020,0062,0
+Style: Later,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00201B1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0070,0
+Style: Komoda,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00854F4F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0045,0
+Style: Izumi,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H0074343C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0060,0020,0062,0
+Style: Otake,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00B8787E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: ShowingOff,Trebuchet MS,18,&H00625039,&H000000FF,&H00EFF0ED,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Forsensics,Trebuchet MS,22,&H004D4132,&H000000FF,&H00E9DEC7,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: PrintsTop,Times New Roman,16,&H00848686,&H000000FF,&H00EEEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: PrintsSide,Times New Roman,16,&H00848686,&H000000FF,&H00EEEEEE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0180,0
+Style: Award,Trebuchet MS,18,&H008A8A8A,&H000000FF,&H00E3E3E3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Award2,Trebuchet MS,18,&H008A8A8A,&H000000FF,&H00E3E3E3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Park,Trebuchet MS,18,&H004B483E,&H000000FF,&H00F8F6E9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Stamp,Times New Roman,22,&H003E236E,&H000000FF,&H00E3E3E3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0120,0018,0
+Style: Ceremony,Trebuchet MS,22,&H00858C99,&H000000FF,&H00DDEBF9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Grad,Trebuchet MS,22,&H000D0C0E,&H000000FF,&H0036667A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Bloom,Trebuchet MS,16,&H00111A1D,&H000000FF,&H00E5E5E5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Instructor,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0095,0
+Style: Asst,Trebuchet MS,10,&H00111A1D,&H000000FF,&H00E5E5E5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,1,0020,0020,0160,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:02.27,0:00:05.98,Headquarters,SIGN,0000,0000,0000,,{\fad(750,1)}Utagawa Corporate Headquarters
+Dialogue: 0,0:00:03.19,0:00:05.98,DCMain,UTAGAWA,0000,0000,0000,,{\an8}At this rate, I'll be forced into bankruptcy.
+Dialogue: 0,0:00:10.07,0:00:13.74,Utagawa,SIGN,0000,0000,0000,,{\fad(375,1)}Utagawa Tosuke (42) \NUtagawa Corporation CEO
+Dialogue: 0,0:00:10.94,0:00:13.74,DCMain,UTAGAWA,0000,0000,0000,,{\an8}It's time to go big or go home.
+Dialogue: 0,0:00:21.50,0:00:24.75,Later,SIGN,0000,0000,0000,,{\fad(680,1)}10 Days Later
+Dialogue: 0,0:00:29.05,0:00:31.34,DCMain,MEGURE,0000,0000,0000,,You're here again?
+Dialogue: 0,0:00:31.80,0:00:34.22,DCMain,CONAN,0000,0000,0000,,We couldn't help it this time.
+Dialogue: 0,0:00:34.22,0:00:37.80,DCMain,KOGORO,0000,0000,0000,,We're the ones who discovered the body.
+Dialogue: 0,0:00:37.80,0:00:39.35,DCMain,MEGURE,0000,0000,0000,,I see.
+Dialogue: 0,0:00:41.38,0:00:44.80,DCMain,TAKAGI,0000,0000,0000,,We've identified the victim \Nbased on his license.
+Dialogue: 0,0:00:44.80,0:00:47.18,DCMain,TAKAGI,0000,0000,0000,,{\an8}Komoda Akira-san, 25 years old.
+Dialogue: 0,0:00:44.94,0:00:49.11,Komoda,SIGN,0000,0000,0000,,{\fad(375,771)\pos(321,315)}Komoda Akira (25)
+Dialogue: 0,0:00:47.18,0:00:49.11,DCMain,TAKAGI,0000,0000,0000,,{\an8}He was a resident here in Beika City.
+Dialogue: 0,0:00:49.11,0:00:52.13,DCMain,TOMOE,0000,0000,0000,,So his name was Komoda.
+Dialogue: 0,0:00:52.13,0:00:53.61,DCMain,CONAN,0000,0000,0000,,You knew him?
+Dialogue: 0,0:00:53.61,0:00:59.30,DCMain,TOMOE,0000,0000,0000,,{\an8}Not really. He visited my \Napartment yesterday morning.
+Dialogue: 0,0:00:53.86,0:00:57.66,Izumi,SIGN,0000,0000,0000,,{\fad(375,375)}Izumi Tomoe (70) \NApartment Landlady
+Dialogue: 0,0:00:59.30,0:01:01.62,DCMain,TOMOE,0000,0000,0000,,Okay, okay. We're going.
+Dialogue: 0,0:01:01.62,0:01:05.21,DCMain,TAKAGI,0000,0000,0000,,He was struck once on the head \Nwith this metal pipe.
+Dialogue: 0,0:01:05.21,0:01:10.01,DCMain,TAKAGI,0000,0000,0000,,The estimated time of death \Nis around 9PM last night,
+Dialogue: 0,0:01:10.01,0:01:12.93,DCMain,TAKAGI,0000,0000,0000,,but this is the most notable detail.
+Dialogue: 0,0:01:15.17,0:01:17.13,DCMain,MEGURE,0000,0000,0000,,A dying message?
+Dialogue: 0,0:01:17.13,0:01:20.26,DCMain,KOGORO,0000,0000,0000,,Normally a victim writes the culprit's name.
+Dialogue: 0,0:01:21.28,0:01:24.43,DCMain,CHIBA,0000,0000,0000,,But it also looks like the numbers 1-1-2.
+Dialogue: 0,0:01:25.09,0:01:29.15,DCMain,TAKAGI,0000,0000,0000,,It could also be read as \Nthe hiragana for "i" or letter "z".
+Dialogue: 0,0:01:29.15,0:01:31.02,DCMain,TAKAGI,0000,0000,0000,,We have no idea what it means.
+Dialogue: 0,0:01:31.79,0:01:35.34,DCItalic,CONAN,0000,0000,0000,,What was he trying to tell us?
+Dialogue: 0,0:01:37.68,0:01:39.42,DCMain,CONAN,0000,0000,0000,,Mysterious clouds block your field of view!
+Dialogue: 0,0:01:39.42,0:01:41.17,DCMain,CONAN,0000,0000,0000,,Clear them away with deductive \Nreasoning and the sky sparkles!
+Dialogue: 0,0:01:41.17,0:01:43.13,DCMain,CONAN,0000,0000,0000,,A charismatic CEO's sweet seduction!
+Dialogue: 0,0:01:43.13,0:01:44.88,DCMain,CONAN,0000,0000,0000,,His life depends on this performance!
+Dialogue: 0,0:01:44.88,0:01:46.53,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:46.53,0:01:48.41,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:48.41,0:01:51.38,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:32.98,0:03:38.98,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(375,1)}The Charismatic CEO's Secret Plan
+Dialogue: 0,0:03:33.63,0:03:36.45,DCMain,CONAN,0000,0000,0000,,"The Charismatic CEO's Secret Plan!"
+Dialogue: 0,0:03:39.73,0:03:43.99,DCMain,MEGURE,0000,0000,0000,,Was there anyone who hated Komoda-san?
+Dialogue: 0,0:03:44.52,0:03:47.87,DCMain,OTAKE,0000,0000,0000,,I don't know much about him.
+Dialogue: 0,0:03:48.08,0:03:51.71,Otake,SIGN,0000,0000,0000,,{\fad(375,375)}Otake Minoru (60) \NApartment Manager
+Dialogue: 0,0:03:48.38,0:03:50.88,DCMain,OTAKE,0000,0000,0000,,{\an8}He didn't seem to be working.
+Dialogue: 0,0:03:50.88,0:03:53.59,DCMain,CONAN,0000,0000,0000,,{\an8}Komoda-san didn't have a job?
+Dialogue: 0,0:03:53.59,0:03:58.17,DCMain,OTAKE,0000,0000,0000,,He just hung around every day \Nat the big park down the street.
+Dialogue: 0,0:03:59.53,0:04:02.37,DCMain,KOGORO,0000,0000,0000,,How did he pay for his living expenses?
+Dialogue: 0,0:04:02.37,0:04:05.14,DCMain,OTOKE,0000,0000,0000,,Who knows? He was behind on rent, too.
+Dialogue: 0,0:04:06.39,0:04:09.14,DCMain,OTAKE,0000,0000,0000,,Come to think of it, \Nyesterday afternoon he said...
+Dialogue: 0,0:04:09.14,0:04:13.22,DCFlashback,KOMODA,0000,0000,0000,,I'll pay off all my unpaid rent tomorrow.
+Dialogue: 0,0:04:13.22,0:04:16.65,DCFlashback,KOMODA,0000,0000,0000,,I found a way to make some big money.
+Dialogue: 0,0:04:16.65,0:04:20.86,DCMain,KOGORO,0000,0000,0000,,Perhaps Komoda-san made a \Nliving by blackmailing people.
+Dialogue: 0,0:04:20.86,0:04:23.57,DCMain,MEGURE,0000,0000,0000,,And he attempted to blackmail someone, but...
+Dialogue: 0,0:04:23.57,0:04:26.11,DCMain,CHIBA,0000,0000,0000,,His would-be victim killed him.
+Dialogue: 0,0:04:26.11,0:04:30.46,DCMain,TAKAGI,0000,0000,0000,,If that's the case, then who did he blackmail?
+Dialogue: 0,0:04:33.07,0:04:33.91,DCMain,OTOKE,0000,0000,0000,,Oh!
+Dialogue: 0,0:04:34.32,0:04:36.67,DCMain,CONAN,0000,0000,0000,,Did something come to mind?
+Dialogue: 0,0:04:36.67,0:04:40.17,DCMain,OTAKE,0000,0000,0000,,He looked at the magazine \NI was reading and said...
+Dialogue: 0,0:04:40.17,0:04:42.39,DCFlashback,KOMODA,0000,0000,0000,,Hey, there he is.
+Dialogue: 0,0:04:42.39,0:04:43.54,DCFlashback,OTAKE,0000,0000,0000,,Who?
+Dialogue: 0,0:04:44.13,0:04:47.68,DCFlashback,KOMODA,0000,0000,0000,,He's filthy rich. He should \Nexpect to be a target.
+Dialogue: 0,0:04:49.05,0:04:52.31,DCMain,OTAKE,0000,0000,0000,,I believe this was the article.
+Dialogue: 0,0:04:52.31,0:04:59.57,ShowingOff,SIGN RIGHT,0000,0000,0000,,Showing off his treasures \NUtagawa enjoys tuning up antique music boxes
+Dialogue: 0,0:04:53.21,0:04:57.32,DCMain,MEGURE,0000,0000,0000,,"CEO of the Utagawa Corporation, which \Nengages in a broad range of business,
+Dialogue: 0,0:04:57.32,0:04:59.57,DCMain,MEGURE,0000,0000,0000,,Utagawa Tosuke."
+Dialogue: 0,0:04:59.57,0:05:04.43,DCMain,CONAN,0000,0000,0000,,Maybe Komoda-san tried to \Nblackmail this Utagawa-san.
+Dialogue: 0,0:05:05.21,0:05:07.70,DCMain,KOGORO,0000,0000,0000,,He must've sniffed out some dirt on him.
+Dialogue: 0,0:05:08.45,0:05:10.62,DCMain,MEGURE,0000,0000,0000,,Let's go check it out.
+Dialogue: 0,0:05:10.62,0:05:11.83,DCMain,BOTH,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:05:15.19,0:05:16.83,DCMain,UTAGAWA,0000,0000,0000,,Komoda Akira?
+Dialogue: 0,0:05:17.21,0:05:19.90,DCMain,UTAGAWA,0000,0000,0000,,I don't know him.
+Dialogue: 0,0:05:22.19,0:05:24.86,DCMain,KOGORO,0000,0000,0000,,That's a suspicious laugh.
+Dialogue: 0,0:05:24.86,0:05:27.27,DCMain,CONAN,0000,0000,0000,,And it sounds like he's lying.
+Dialogue: 0,0:05:27.27,0:05:33.44,DCMain,MEGURE,0000,0000,0000,,Once again, last night around 9PM \Nyou were alone at your home.
+Dialogue: 0,0:05:33.44,0:05:36.52,DCMain,MEGURE,0000,0000,0000,,In other words, you have \Nno one to verify your alibi.
+Dialogue: 0,0:05:36.85,0:05:38.75,DCMain,UTAGAWA,0000,0000,0000,,I'm single, after all.
+Dialogue: 0,0:05:41.51,0:05:44.94,DCMain,FEMALE SECRETARY,0000,0000,0000,,Sir, you shouldn't keep them \Nwaiting any longer.
+Dialogue: 0,0:05:45.58,0:05:50.07,DCMain,UTAGAWA,0000,0000,0000,,What am I supposed to do? \NThese officers won't let me go.
+Dialogue: 0,0:05:54.15,0:05:56.78,DCMain,MEGURE,0000,0000,0000,,Excuse us for interrupting \Nyour busy schedule.
+Dialogue: 0,0:05:57.99,0:06:00.40,DCMain,UTAGAWA,0000,0000,0000,,Come back any time.
+Dialogue: 0,0:06:08.49,0:06:11.70,DCMain,MEGURE,0000,0000,0000,,He certainly feels suspicious.
+Dialogue: 0,0:06:11.70,0:06:15.27,DCMain,TAKAGI,0000,0000,0000,,But since we don't know what \NKomoda-san was using to blackmail him,
+Dialogue: 0,0:06:15.27,0:06:17.84,DCMain,TAKAGI,0000,0000,0000,,we can't ask him about it.
+Dialogue: 0,0:06:19.57,0:06:24.23,DCMain,CONAN,0000,0000,0000,,Come to think of it, Komoda-san said he \Nfound the information yesterday, right?
+Dialogue: 0,0:06:24.23,0:06:29.46,DCMain,CONAN,0000,0000,0000,,Maybe it has something to do with \Nthat person we met at the crime scene.
+Dialogue: 0,0:06:30.16,0:06:32.41,DCMain,KOGORO,0000,0000,0000,,What does? Hey!
+Dialogue: 0,0:06:44.44,0:06:45.60,DCMain,KOGORO,0000,0000,0000,,What's going on?
+Dialogue: 0,0:06:46.26,0:06:48.13,DCMain,KOGORO,0000,0000,0000,,Hey, wait. Hey.
+Dialogue: 0,0:06:48.13,0:06:50.57,DCMain,TOMOE,0000,0000,0000,,Okay, Sally-chan.
+Dialogue: 0,0:06:50.57,0:06:52.18,DCMain,CONAN,0000,0000,0000,,I've been looking for you.
+Dialogue: 0,0:06:52.18,0:06:54.18,DCMain,TOMOE,0000,0000,0000,,Oh, the boy from this morning.
+Dialogue: 0,0:06:54.62,0:06:59.85,DCMain,CONAN,0000,0000,0000,,You said earlier that Komoda-san \Nvisited you yesterday morning, right?
+Dialogue: 0,0:06:59.85,0:07:01.44,DCMain,CONAN,0000,0000,0000,,Why did he come to visit you?
+Dialogue: 0,0:07:01.44,0:07:07.11,DCMain,TOMOE,0000,0000,0000,,He came to ask about Innami Juichi-san, \None of my former residents.
+Dialogue: 0,0:07:08.09,0:07:10.45,DCMain,TOMOE,0000,0000,0000,,Come to think of it, \NI'd forgotten to take it down.
+Dialogue: 0,0:07:11.95,0:07:14.07,DCMain,BOTH,0000,0000,0000,,Innami Juichi...
+Dialogue: 0,0:07:14.84,0:07:17.37,DCMain,CONAN,0000,0000,0000,,What did you two talk about?
+Dialogue: 0,0:07:17.37,0:07:19.33,DCMain,TOMOE,0000,0000,0000,,Let's see...
+Dialogue: 0,0:07:19.97,0:07:23.33,DCFlashback,TOMOE,0000,0000,0000,,Innami-san had been gone for about ten days.
+Dialogue: 0,0:07:23.79,0:07:29.34,DCFlashback,TOMOE,0000,0000,0000,,When he finally came back last night, \Nhe said he was moving.
+Dialogue: 0,0:07:29.76,0:07:32.12,DCFlashback,KOMODA,0000,0000,0000,,Did he say where he was moving to?
+Dialogue: 0,0:07:32.12,0:07:34.20,DCFlashback,TOMOE,0000,0000,0000,,He said he'd let me know later.
+Dialogue: 0,0:07:35.22,0:07:37.74,DCFlashback,TOMOE,0000,0000,0000,,The company he worked for \Npreviously went bankrupt,
+Dialogue: 0,0:07:37.74,0:07:42.85,DCFlashback,TOMOE,0000,0000,0000,,so maybe he found a new job \Nwith an employee dorm.
+Dialogue: 0,0:07:43.62,0:07:45.56,DCFlashback,KOMODA,0000,0000,0000,,And now he's disappearing, huh?
+Dialogue: 0,0:07:47.98,0:07:54.72,DCMain,KOGORO,0000,0000,0000,,Does this Innami Juichi-san fellow have \Nanything to do with Utagawa-san's blackmailing?
+Dialogue: 0,0:07:55.50,0:07:58.72,DCMain,CONAN,0000,0000,0000,,I wonder what kind of person Innami-san is.
+Dialogue: 0,0:07:58.72,0:08:02.58,DCMain,TOMOE,0000,0000,0000,,Would you like to see? I have video of him.
+Dialogue: 0,0:08:03.51,0:08:06.54,DCMain,TOMOE,0000,0000,0000,,There was a big accident \Nin the neighborhood last month.
+Dialogue: 0,0:08:06.54,0:08:12.17,DCMain,TOMOE,0000,0000,0000,,I was interviewed for TV \Nbecause I happened to witness it.
+Dialogue: 0,0:08:12.17,0:08:14.83,DCMain,TOMOE,0000,0000,0000,,Look, that's me.
+Dialogue: 0,0:08:15.75,0:08:17.80,DCItalic,TV REPORTER,0000,0000,0000,,Could you tell us what you saw?
+Dialogue: 0,0:08:18.17,0:08:19.69,DCItalic,TOMOE,0000,0000,0000,,I was so shocked.
+Dialogue: 0,0:08:19.69,0:08:24.12,DCItalic,TOMOE,0000,0000,0000,,It suddenly came speeding through, \Nand then there was a terrible crash.
+Dialogue: 0,0:08:24.12,0:08:27.46,DCItalic,TOMOE,0000,0000,0000,,But the real trouble started after that.
+Dialogue: 0,0:08:27.46,0:08:29.44,DCMain,TOMOE,0000,0000,0000,,This is Innami-san.
+Dialogue: 0,0:08:30.82,0:08:32.16,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:08:32.16,0:08:34.99,DCMain,KOGORO,0000,0000,0000,,If there's a man who looks \Nexactly like Utagawa-san,
+Dialogue: 0,0:08:34.99,0:08:38.53,DCMain,KOGORO,0000,0000,0000,,and Komoda-san was looking for him...
+Dialogue: 0,0:08:38.53,0:08:41.33,DCMain,CONAN,0000,0000,0000,,You said Innami-san \Nsuddenly moved out, right?
+Dialogue: 0,0:08:41.33,0:08:44.08,DCMain,TOMOE,0000,0000,0000,,Yes, the other night.
+Dialogue: 0,0:08:44.94,0:08:48.26,DCFlashback,INNAMI,0000,0000,0000,,You can dispose of all my belongings.
+Dialogue: 0,0:08:48.26,0:08:51.34,DCFlashback,TOMOE,0000,0000,0000,,That's fine, but this is rather sudden.
+Dialogue: 0,0:08:54.27,0:08:57.87,DCMain,CONAN,0000,0000,0000,,And nobody knows where \NInnami-san's been since.
+Dialogue: 0,0:09:00.25,0:09:02.35,DCMain,KOGORO,0000,0000,0000,,So that's how it is.
+Dialogue: 0,0:09:04.60,0:09:07.10,DCMain,MEGURE,0000,0000,0000,,He really does look just like him.
+Dialogue: 0,0:09:08.52,0:09:13.31,DCMain,CONAN,0000,0000,0000,,Maybe Komoda-san was using \NInnami-san to blackmail him.
+Dialogue: 0,0:09:13.31,0:09:15.04,DCMain,MEGURE,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:09:15.04,0:09:19.15,DCMain,KOGORO,0000,0000,0000,,Utagawa-san hired this man \Nwho looks just like him
+Dialogue: 0,0:09:19.15,0:09:22.80,DCMain,KOGORO,0000,0000,0000,,to be his substitute to fabricate alibis.
+Dialogue: 0,0:09:22.80,0:09:27.37,DCMain,KOGORO,0000,0000,0000,,Utagawa-san must've been up to no good.
+Dialogue: 0,0:09:27.37,0:09:32.88,DCMain,MEGURE,0000,0000,0000,,And Komoda-san somehow found out \Nabout it and blackmailed Utagawa-san.
+Dialogue: 0,0:09:32.88,0:09:34.09,DCMain,MEGURE,0000,0000,0000,,It's certainly possible.
+Dialogue: 0,0:09:34.09,0:09:39.14,DCMain,KOGORO,0000,0000,0000,,Since he was being blackmailed, \Nit must've been something criminal.
+Dialogue: 0,0:09:39.14,0:09:44.25,DCMain,TAKAGI,0000,0000,0000,,If that's the case, then Utagawa-san \Nmust be a pretty terrible person.
+Dialogue: 0,0:09:44.25,0:09:49.15,DCMain,TAKAGI,0000,0000,0000,,Not only was he committing crimes,\Nbut he killed his blackmailer Komoda-san.
+Dialogue: 0,0:09:49.15,0:09:52.65,DCMain,CONAN,0000,0000,0000,,Were those the only things he was doing?
+Dialogue: 0,0:09:52.65,0:09:54.96,DCMain,MEGURE,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:09:54.96,0:09:58.86,DCMain,KOGORO,0000,0000,0000,,Once Utagawa-san was through using \NInnami Juichi-san as his substitute,
+Dialogue: 0,0:09:58.86,0:10:00.82,DCMain,KOGORO,0000,0000,0000,,he became a nuisance.
+Dialogue: 0,0:10:01.22,0:10:04.32,DCMain,KOGORO,0000,0000,0000,,Perhaps he secretly killed him.
+Dialogue: 0,0:10:05.13,0:10:08.83,DCMain,KOGORO,0000,0000,0000,,But if he suddenly went missing, \Nit could spell trouble for him.
+Dialogue: 0,0:10:09.74,0:10:12.84,DCMain,KOGORO,0000,0000,0000,,So he disguised himself as Innami-san...
+Dialogue: 0,0:10:13.60,0:10:16.40,DCFlashback,INNAMI,0000,0000,0000,,You can dispose of all my belongings.
+Dialogue: 0,0:10:17.14,0:10:19.59,DCMain,KOGORO,0000,0000,0000,,And told the landlady he was moving.
+Dialogue: 0,0:10:20.44,0:10:26.60,DCMain,CONAN,0000,0000,0000,,It doesn't make sense for him to suddenly \Nmove without telling her his new address.
+Dialogue: 0,0:10:26.60,0:10:30.05,DCMain,TAKAGI,0000,0000,0000,,Then I feel sorry for Innami-san.
+Dialogue: 0,0:10:30.05,0:10:34.53,DCMain,CHIBA,0000,0000,0000,,Utagawa-san might have a hand \Nin three different crimes.
+Dialogue: 0,0:10:34.53,0:10:40.52,DCMain,MEGURE,0000,0000,0000,,If we can prove he did even one of them, \Nit might lead us to proving the other two,
+Dialogue: 0,0:10:40.52,0:10:42.62,DCMain,MEGURE,0000,0000,0000,,but we don't have any evidence.
+Dialogue: 0,0:10:42.62,0:10:47.25,DCMain,CONAN,0000,0000,0000,,Wouldn't using a substitute leave some \Nkind of suspicious evidence behind?
+Dialogue: 0,0:10:47.25,0:10:51.75,DCMain,KOGORO,0000,0000,0000,,But we don't know when and where \NUtagawa-san used his substitute.
+Dialogue: 0,0:10:51.75,0:10:53.75,DCMain,CONAN,0000,0000,0000,,We can probably narrow it down.
+Dialogue: 0,0:10:54.33,0:10:57.97,DCMain,CONAN,0000,0000,0000,,He told the landlady he was \Nmoving two nights ago,
+Dialogue: 0,0:10:57.97,0:11:00.03,DCMain,CONAN,0000,0000,0000,,so it would've been that day \Nor the day before.
+Dialogue: 0,0:11:00.03,0:11:06.90,DCMain,CONAN,0000,0000,0000,,And when using a substitute, the more \Npeople to verify your alibi, the better.
+Dialogue: 0,0:11:06.90,0:11:10.02,DCMain,CONAN,0000,0000,0000,,He would've made him appear \Nin front of a bunch of people.
+Dialogue: 0,0:11:11.42,0:11:13.62,DCMain,MEGURE,0000,0000,0000,,Contact the Utagawa Corporation.
+Dialogue: 0,0:11:13.62,0:11:18.78,DCMain,MEGURE,0000,0000,0000,,See if the CEO attended any large \Nevents on the 9th or the day before.
+Dialogue: 0,0:11:19.19,0:11:20.17,DCMain,TAKAGI,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:11:24.49,0:11:26.28,DCMain,TAKAGI,0000,0000,0000,,Thank you.
+Dialogue: 0,0:11:27.11,0:11:29.11,DCMain,TAKAGI,0000,0000,0000,,Only one event fit the description.
+Dialogue: 0,0:11:29.11,0:11:32.72,DCMain,TAKAGI,0000,0000,0000,,On the evening of the 9th, \Nthere was an award ceremony
+Dialogue: 0,0:11:32.72,0:11:37.67,DCMain,TAKAGI,0000,0000,0000,,for a photo contest held by the Utagawa \NCorporation which Utagawa attended.
+Dialogue: 0,0:11:37.67,0:11:39.75,DCMain,CONAN,0000,0000,0000,,An award ceremony...
+Dialogue: 0,0:11:39.75,0:11:41.43,DCMain,KOGORO,0000,0000,0000,,That must've been when it happened.
+Dialogue: 0,0:11:42.14,0:11:47.43,DCMain,KOGORO,0000,0000,0000,,He had his substitute Innami-san attend \Nwhile Utagawa was off getting up to no good.
+Dialogue: 0,0:11:47.74,0:11:50.43,DCMain,MEGURE,0000,0000,0000,,But we need evidence that \Nhe fabricated his alibi.
+Dialogue: 0,0:11:50.43,0:11:55.94,DCMain,CONAN,0000,0000,0000,,The event sponsors hand the winner \Ntheir award at award ceremonies, right?
+Dialogue: 0,0:11:56.38,0:11:57.44,DCMain,MEGURE,0000,0000,0000,,That's it.
+Dialogue: 0,0:11:57.44,0:11:59.19,Forsensics,SIGN,0000,0000,0000,,Forensics Department
+Dialogue: 0,0:11:59.19,0:12:02.20,PrintsTop,SIGN TOP,0000,0000,0000,,{\frz3.975\pos(115,29)}Thumb               Index              Middle                Ring                Pinkie
+Dialogue: 0,0:11:59.19,0:12:02.20,PrintsSide,SIGN LEFT,0000,0000,0000,,Right Hand \NFingerprints \N\NLeft hand \NFingerprints
+Dialogue: 0,0:11:59.50,0:12:02.20,DCMain,TAKAGI,0000,0000,0000,,We'll compare Utagawa's fingerprints...
+Dialogue: 0,0:12:02.20,0:12:07.95,Award,SIGN RIGHT,0000,0000,0000,,Award Certificate \NTsukinari Toshiya
+Dialogue: 0,0:12:02.20,0:12:07.95,Award2,SIGN LEFT,0000,0000,0000,,Utagawa Corporation \NCEO Utagawa Tosuke
+Dialogue: 0,0:12:02.54,0:12:07.95,DCMain,CHIBA,0000,0000,0000,,Against the sponsor's fingerprints on \Nthis award we borrowed from the winner.
+Dialogue: 0,0:12:07.95,0:12:12.71,DCMain,MEGURE,0000,0000,0000,,If they belong to different people, then \Nwe can prove he fabricated his alibi.
+Dialogue: 0,0:12:18.03,0:12:19.09,DCMain,FORENSICS,0000,0000,0000,,It's a match.
+Dialogue: 0,0:12:19.09,0:12:21.09,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:12:26.09,0:12:30.75,DCMain,MEGURE,0000,0000,0000,,So the award ceremony was attended \Nnot by the substitute Innami-san,
+Dialogue: 0,0:12:30.75,0:12:32.60,DCMain,MEGURE,0000,0000,0000,,but by the real Utagawa.
+Dialogue: 0,0:12:32.60,0:12:35.17,DCMain,KOGORO,0000,0000,0000,,We narrowed it down to the wrong event.
+Dialogue: 0,0:12:35.17,0:12:36.86,DCMain,CONAN,0000,0000,0000,,Are you sure about that?
+Dialogue: 0,0:12:36.86,0:12:39.73,DCMain,KOGORO,0000,0000,0000,,But the fingerprints were a match.
+Dialogue: 0,0:12:40.46,0:12:43.81,DCItalic,CONAN,0000,0000,0000,,So he didn't use a substitute? Then...
+Dialogue: 0,0:12:45.33,0:12:46.68,DCItalic,CONAN,0000,0000,0000,,Could it be?
+Dialogue: 0,0:12:46.68,0:12:48.74,DCItalic,CONAN,0000,0000,0000,,That would explain everything.
+Dialogue: 0,0:12:49.30,0:12:53.00,DCItalic,CONAN,0000,0000,0000,,Komoda-san's message was \Na person's name after all.
+Dialogue: 0,0:12:55.01,0:12:56.98,DCItalic,CONAN,0000,0000,0000,,And it was probably...
+Dialogue: 0,0:13:03.61,0:13:06.83,DCMain,KOGORO,0000,0000,0000,,Komoda-san's apartment is this way, right?
+Dialogue: 0,0:13:06.83,0:13:08.72,DCMain,KOGORO,0000,0000,0000,,You want to visit it again?
+Dialogue: 0,0:13:08.72,0:13:14.98,DCMain,CONAN,0000,0000,0000,,Maybe Komoda-san's dying message is \Nthe number 11 and the kanji "otsu".
+Dialogue: 0,0:13:15.39,0:13:18.23,DCMain,CONAN,0000,0000,0000,,11 refers to Innami-san.
+Dialogue: 0,0:13:15.39,0:13:18.23,DCNote,SIGN,0000,0000,0000,,{\c&H4F5657&\fs30\b1\3c&HD3E6F3&}11 = ju-ichi = Innami Juichi
+Dialogue: 0,0:13:18.60,0:13:22.88,DCMain,CONAN,0000,0000,0000,,Maybe Komoda-san was trying to \Nsay something about Innami-san.
+Dialogue: 0,0:13:22.88,0:13:24.74,DCMain,KOGORO,0000,0000,0000,,What does "otsu" mean, then?
+Dialogue: 0,0:13:25.42,0:13:27.99,DCMain,CONAN,0000,0000,0000,,Remember what the manager said earlier?
+Dialogue: 0,0:13:28.89,0:13:34.19,DCFlashback,OTAKE,0000,0000,0000,,He just hung around every day \Nat the big park down the street.
+Dialogue: 0,0:13:35.00,0:13:38.50,DCMain,CONAN,0000,0000,0000,,This must be that park.
+Dialogue: 0,0:13:38.50,0:13:41.50,Park,SIGN,0000,0000,0000,,Otohime Park Map
+Dialogue: 0,0:13:38.82,0:13:41.50,DCMain,CONAN,0000,0000,0000,,He was trying to write "Otohime Park".
+Dialogue: 0,0:13:45.35,0:13:49.30,DCMain,KOGORO,0000,0000,0000,,In other words, while hanging \Naround this park as he always did,
+Dialogue: 0,0:13:49.30,0:13:53.02,DCMain,KOGORO,0000,0000,0000,,Komoda-san witnessed an event
+Dialogue: 0,0:13:53.02,0:13:58.77,DCMain,KOGORO,0000,0000,0000,,that had something to do with \NInnami-san and Utagawa-san.
+Dialogue: 0,0:13:58.77,0:14:02.52,DCMain,CONAN,0000,0000,0000,,That might be what he used to blackmail him.
+Dialogue: 0,0:14:02.52,0:14:05.89,DCMain,KOGORO,0000,0000,0000,,Someone that would make him a lot of money?
+Dialogue: 0,0:14:06.66,0:14:07.53,DCMain,KOGORO,0000,0000,0000,,Could it be?
+Dialogue: 0,0:14:22.99,0:14:25.30,DCMain,CONAN,0000,0000,0000,,Looks like someone filled in a hole.
+Dialogue: 0,0:14:25.30,0:14:26.55,DCMain,KOGORO,0000,0000,0000,,Hup.
+Dialogue: 0,0:14:35.84,0:14:36.98,DCMain,KOGORO,0000,0000,0000,,I knew it.
+Dialogue: 0,0:14:42.31,0:14:46.10,DCMain,KOGORO,0000,0000,0000,,Komoda-san was trying to tell us \Nthat Innami-san was killed
+Dialogue: 0,0:14:46.10,0:14:50.23,DCMain,KOGORO,0000,0000,0000,,and buried at this park by Utagawa-san.
+Dialogue: 0,0:14:50.23,0:14:51.25,DCMain,CONAN,0000,0000,0000,,No, actually—
+Dialogue: 0,0:14:51.25,0:14:54.79,DCMain,KOGORO,0000,0000,0000,,He happened to witness the murder \Nand blackmailed Utagawa-san.
+Dialogue: 0,0:14:55.84,0:14:58.00,DCItalic,CONAN,0000,0000,0000,,I'll let him talk for now.
+Dialogue: 0,0:14:58.33,0:14:59.94,DCMain,MEGURE,0000,0000,0000,,Get him autopsied.
+Dialogue: 0,0:14:59.94,0:15:02.19,DCMain,MEGURE,0000,0000,0000,,Chiba, go with the body.
+Dialogue: 0,0:15:02.19,0:15:02.88,DCMain,CHIBA,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:15:05.38,0:15:07.45,DCMain,CHIBA,0000,0000,0000,,What? The Inspector did?
+Dialogue: 0,0:15:07.45,0:15:11.01,DCMain,CONAN,0000,0000,0000,,Yeah. He asked you to look into that, too.
+Dialogue: 0,0:15:11.01,0:15:15.82,DCMain,MEGURE,0000,0000,0000,,We found the body, but we don't have \Nany evidence proving Utagawa-san did it.
+Dialogue: 0,0:15:15.82,0:15:17.06,DCMain,TAKAGI,0000,0000,0000,,You're right.
+Dialogue: 0,0:15:17.06,0:15:19.77,DCMain,CONAN,0000,0000,0000,,In that case, I've got a good idea.
+Dialogue: 0,0:15:23.02,0:15:23.90,Stamp,SIGN,0000,0000,0000,,Utagawa Tosuke
+Dialogue: 0,0:15:26.33,0:15:29.21,DCMain,TAKAGI,0000,0000,0000,,I apologize for bothering you again.
+Dialogue: 0,0:15:29.21,0:15:33.30,DCMain,TAKAGI,0000,0000,0000,,I think I dropped something \Nwhen I was here earlier.
+Dialogue: 0,0:15:36.91,0:15:39.11,DCMain,TAKAGI,0000,0000,0000,,Hello? Yes?
+Dialogue: 0,0:15:39.11,0:15:41.80,DCMain,TAKAGI,0000,0000,0000,,The information Komoda Akira \Nwas using for blackmail?
+Dialogue: 0,0:15:41.80,0:15:44.30,DCMain,TAKAGI,0000,0000,0000,,You might know where it is?
+Dialogue: 0,0:15:45.42,0:15:48.33,DCMain,TAKAGI,0000,0000,0000,,I'll head back right away. Excuse me.
+Dialogue: 0,0:15:50.22,0:15:53.35,DCMain,UTAGAWA,0000,0000,0000,,That's not good. Before they find it...
+Dialogue: 0,0:16:10.07,0:16:12.58,DCMain,MEGURE,0000,0000,0000,,You're too late, Utagawa-san.
+Dialogue: 0,0:16:13.07,0:16:16.22,DCMain,MEGURE,0000,0000,0000,,I'm sure you planned to hide it elsewhere,
+Dialogue: 0,0:16:16.22,0:16:19.58,DCMain,MEGURE,0000,0000,0000,,but we've already retrieved \NInnami Juichi-san's body.
+Dialogue: 0,0:16:19.58,0:16:24.83,DCMain,TAKAGI,0000,0000,0000,,I visited you so you'd rush off to the \Ncrime scene known only to the culprit.
+Dialogue: 0,0:16:24.83,0:16:27.09,DCMain,KOGORO,0000,0000,0000,,And you led us right to it.
+Dialogue: 0,0:16:27.09,0:16:31.67,DCMain,UTAGAWA,0000,0000,0000,,Innami-kun had to die.
+Dialogue: 0,0:16:31.67,0:16:33.55,DCMain,KOGORO,0000,0000,0000,,But why?
+Dialogue: 0,0:16:34.43,0:16:35.83,DCMain,MEGURE,0000,0000,0000,,Mori-kun?
+Dialogue: 0,0:16:35.83,0:16:40.31,DCMain,MEGURE,0000,0000,0000,,He's already confessing. \NYou don't need to sleep.
+Dialogue: 0,0:16:40.60,0:16:43.40,DCMain,KOGORO,0000,0000,0000,,Listen to me, Inspector.
+Dialogue: 0,0:16:43.40,0:16:48.28,DCMain,KOGORO,0000,0000,0000,,It was ten days ago that Utagawa \NTosuke-san conspired to commit a crime
+Dialogue: 0,0:16:48.28,0:16:50.32,DCMain,KOGORO,0000,0000,0000,,and carry it out.
+Dialogue: 0,0:16:50.87,0:16:53.09,DCMain,KOGORO,0000,0000,0000,,He even planned how he'd get away with it.
+Dialogue: 0,0:16:53.59,0:16:58.20,DCMain,KOGORO,0000,0000,0000,,He learned there was a man who looked \Njust like him through that news story.
+Dialogue: 0,0:16:58.94,0:17:03.96,DCMain,KOGORO,0000,0000,0000,,He scouted Innami Juichi-san, \Nwho happened to be looking for work.
+Dialogue: 0,0:17:03.96,0:17:07.03,DCMain,KOGORO,0000,0000,0000,,He invited him to stay \Nat his house for training.
+Dialogue: 0,0:17:07.03,0:17:11.46,DCMain,KOGORO,0000,0000,0000,,He had him copy his voice, \Nthe way he spoke, and his mannerisms.
+Dialogue: 0,0:17:11.46,0:17:14.47,DCMain,KOGORO,0000,0000,0000,,He had him memorize \Ninformation about himself
+Dialogue: 0,0:17:14.47,0:17:19.28,DCMain,KOGORO,0000,0000,0000,,and had Innami-san attend \Nthe award ceremony on the 9th
+Dialogue: 0,0:17:14.47,0:17:20.72,Ceremony,SIGN,0000,0000,0000,,Utagawa Corporation \NPhoto Contest Award Ceremony
+Dialogue: 0,0:17:19.28,0:17:24.53,DCMain,KOGORO,0000,0000,0000,,as his substitute \Nwhile he carried out his plan.
+Dialogue: 0,0:17:25.23,0:17:26.92,DCMain,MEGURE,0000,0000,0000,,Wait a minute, Mori-kun.
+Dialogue: 0,0:17:26.92,0:17:30.23,DCMain,TAKAGI,0000,0000,0000,,The fingerprint analysis \Nproved that wasn't possible.
+Dialogue: 0,0:17:30.23,0:17:35.74,DCMain,KOGORO,0000,0000,0000,,Everything went according to \NUtagawa-san's plan up until that point.
+Dialogue: 0,0:17:36.14,0:17:38.49,DCMain,KOGORO,0000,0000,0000,,His plan ended there.
+Dialogue: 0,0:17:38.49,0:17:44.70,DCMain,KOGORO,0000,0000,0000,,Immediately afterwards, Utagawa-san \Nwas killed by Innami Juichi-san.
+Dialogue: 0,0:17:46.83,0:17:48.41,DCMain,MEGURE,0000,0000,0000,,He what?
+Dialogue: 0,0:17:49.91,0:17:52.10,DCMain,UTAGAWA,0000,0000,0000,,What are you talking about, Mori-san?
+Dialogue: 0,0:17:52.10,0:17:53.71,DCMain,UTAGAWA,0000,0000,0000,,I'm Utagawa.
+Dialogue: 0,0:17:59.22,0:18:00.16,DCMain,MEGURE,0000,0000,0000,,Hello?
+Dialogue: 0,0:18:00.72,0:18:01.97,DCMain,MEGURE,0000,0000,0000,,What?
+Dialogue: 0,0:18:02.38,0:18:05.18,DCMain,MEGURE,0000,0000,0000,,It's Chiba, who's attending the autopsy.
+Dialogue: 0,0:18:05.18,0:18:09.65,DCMain,MEGURE,0000,0000,0000,,Dental records showed the body \Nbelongs to Utagawa Tosuke-san.
+Dialogue: 0,0:18:09.65,0:18:10.98,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:18:10.98,0:18:14.67,DCMain,KOGORO,0000,0000,0000,,That's right. He's Innami Juichi-san.
+Dialogue: 0,0:18:14.67,0:18:19.74,DCMain,KOGORO,0000,0000,0000,,He used Utagawa-san's proposal to act as his\Nsubstitute to claim his wealth for himself.
+Dialogue: 0,0:18:20.32,0:18:23.14,DCMain,KOGORO,0000,0000,0000,,He's still continuing to \Npretend to be Utagawa-san.
+Dialogue: 0,0:18:23.14,0:18:24.15,DCMain,UTAGAWA,0000,0000,0000,,What are you—
+Dialogue: 0,0:18:24.15,0:18:26.28,DCMain,KOGORO,0000,0000,0000,,You gave yourself away.
+Dialogue: 0,0:18:27.07,0:18:28.83,DCMain,KOGORO,0000,0000,0000,,I'm talking about your dominant hand.
+Dialogue: 0,0:18:29.29,0:18:33.50,DCMain,KOGORO,0000,0000,0000,,Utagawa-san was right-handed, \Nand Innami-san was left-handed.
+Dialogue: 0,0:18:33.90,0:18:35.51,DCMain,KOGORO,0000,0000,0000,,Utagawa-san was right-handed.
+Dialogue: 0,0:18:36.65,0:18:44.06,DCMain,KOGORO,0000,0000,0000,,You pretended to be right-handed, \Nbut during an emergency...
+Dialogue: 0,0:18:46.10,0:18:47.60,DCMain,MEGURE,0000,0000,0000,,He used his left hand.
+Dialogue: 0,0:18:52.06,0:18:53.36,DCMain,INNAMI,0000,0000,0000,,I see.
+Dialogue: 0,0:18:53.36,0:18:56.86,DCMain,KOGORO,0000,0000,0000,,In other words, we never \Nmet the real Utagawa-san.
+Dialogue: 0,0:18:57.32,0:19:02.04,DCMain,KOGORO,0000,0000,0000,,You'd already swapped places.
+Dialogue: 0,0:19:02.04,0:19:05.29,DCMain,TAKAGI,0000,0000,0000,,I see. If he's Innami-san...
+Dialogue: 0,0:19:05.29,0:19:07.87,DCMain,MEGURE,0000,0000,0000,,Then of course the fingerprints matched.
+Dialogue: 0,0:19:08.21,0:19:13.63,DCMain,KOGORO,0000,0000,0000,,You probably plotted to take \NUtagawa-san's place since he scouted you.
+Dialogue: 0,0:19:14.50,0:19:16.38,DCMain,KOGORO,0000,0000,0000,,After acting as his substitute,
+Dialogue: 0,0:19:16.38,0:19:20.63,DCMain,KOGORO,0000,0000,0000,,you asked Utagawa-san for a ride and \Ndragged him into this park on the route.
+Dialogue: 0,0:19:26.14,0:19:29.32,DCMain,KOGORO,0000,0000,0000,,You killed him and buried the body.
+Dialogue: 0,0:19:29.32,0:19:34.15,DCMain,KOGORO,0000,0000,0000,,And Komoda Akira-san, who happened \Nto be here, witnessed the event.
+Dialogue: 0,0:19:36.25,0:19:38.65,DCFlashbackItalics,KOMODA,0000,0000,0000,,Two guys with the same face? But why?
+Dialogue: 0,0:19:41.11,0:19:44.16,DCMain,KOGORO,0000,0000,0000,,Komoda-san, who had witnessed a murder,
+Dialogue: 0,0:19:47.09,0:19:48.70,DCMain,KOGORO,0000,0000,0000,,followed you.
+Dialogue: 0,0:19:50.46,0:19:52.50,DCFlashback,KOMODA,0000,0000,0000,,And now he's disappearing, huh?
+Dialogue: 0,0:19:53.76,0:19:58.27,DCMain,KOGORO,0000,0000,0000,,When he learned Innami-san suddenly \Nmoved away, he figured it out.
+Dialogue: 0,0:19:59.17,0:20:01.66,DCMain,KOGORO,0000,0000,0000,,Innami-san erased his own existence
+Dialogue: 0,0:20:01.66,0:20:06.85,DCMain,KOGORO,0000,0000,0000,,so he could become the wealthy \Nbusinessman Utagawa-san.
+Dialogue: 0,0:20:07.47,0:20:10.07,DCMain,KOGORO,0000,0000,0000,,Komoda-san decided to blackmail you.
+Dialogue: 0,0:20:10.95,0:20:15.11,DCMain,KOGORO,0000,0000,0000,,You pretended to comply with his \Ndemands, but killed him instead.
+Dialogue: 0,0:20:15.11,0:20:16.41,DCFlashback,EMPLOYEE,0000,0000,0000,,Thank you.
+Dialogue: 0,0:20:21.61,0:20:22.80,DCFlashback,KOMODA,0000,0000,0000,,Ow...
+Dialogue: 0,0:20:33.55,0:20:37.78,DCMain,KOGORO,0000,0000,0000,,Komoda-san tried to tell us \Nthe name of Utagawa-san's murderer
+Dialogue: 0,0:20:37.78,0:20:40.30,DCMain,KOGORO,0000,0000,0000,,and the body's location.
+Dialogue: 0,0:20:42.37,0:20:46.54,DCMain,TAKAGI,0000,0000,0000,,In other words, Komoda-san \Nblackmailed not Utagawa-san,
+Dialogue: 0,0:20:46.54,0:20:49.26,DCMain,TAKAGI,0000,0000,0000,,but Innami-san instead.
+Dialogue: 0,0:20:49.26,0:20:54.77,DCMain,MEGURE,0000,0000,0000,,And Utagawa-san didn't kill Innami-san. \NIt was the other way around.
+Dialogue: 0,0:20:54.77,0:20:56.78,DCMain,KOGORO,0000,0000,0000,,That leaves just one mystery.
+Dialogue: 0,0:20:57.54,0:21:03.78,DCMain,KOGORO,0000,0000,0000,,What did Utagawa-san do when he \Nhad you fabricate an alibi for him?
+Dialogue: 0,0:21:05.22,0:21:09.28,DCMain,INNAMI,0000,0000,0000,,Nothing at all. After all...
+Dialogue: 0,0:21:10.04,0:21:13.04,DCFlashback,UTAGAWA,0000,0000,0000,,At this rate, my busy \Nschedule's going to kill me.
+Dialogue: 0,0:21:13.59,0:21:15.97,DCFlashback,UTAGAWA,0000,0000,0000,,I need time off.
+Dialogue: 0,0:21:15.97,0:21:22.54,DCFlashback,UTAGAWA,0000,0000,0000,,I'd like you to act as my substitute \Nevery now and then so I can take a break.
+Dialogue: 0,0:21:25.62,0:21:27.30,DCMain,INNAMI,0000,0000,0000,,So I said...
+Dialogue: 0,0:21:29.71,0:21:34.06,DCFlashback,INNAMI,0000,0000,0000,,I'll give you the eternal break you desire.
+Dialogue: 0,0:21:37.31,0:21:40.78,DCMain,INNAMI,0000,0000,0000,,And I became the top \Nexecutive of a corporation,
+Dialogue: 0,0:21:40.78,0:21:43.60,DCMain,INNAMI,0000,0000,0000,,like I'd dreamed of becoming \Nsince I was a kid.
+Dialogue: 0,0:21:43.60,0:21:45.57,DCMain,INNAMI,0000,0000,0000,,It was give and take.
+Dialogue: 0,0:21:45.57,0:21:50.07,DCMain,MEGURE,0000,0000,0000,,You think that excuses what \Nyou've done? You killed two men.
+Dialogue: 0,0:21:52.67,0:21:57.47,DCMain,MEGURE,0000,0000,0000,,He was killed by the substitute he hired \Nso he could have time for himself.
+Dialogue: 0,0:21:57.47,0:21:59.68,DCMain,MEGURE,0000,0000,0000,,Poor Utagawa-san.
+Dialogue: 0,0:22:01.16,0:22:06.01,DCItalic,CONAN,0000,0000,0000,,It's impossible to live someone else's life.
+Dialogue: 0,0:23:26.34,0:23:28.95,DCMain,KOGORO,0000,0000,0000,,It'd be convenient if I had a doppelgänger.
+Dialogue: 0,0:23:28.95,0:23:34.62,DCMain,KOGORO,0000,0000,0000,,I'd make him solve cases \Nwhile I got all the credit.
+Dialogue: 0,0:23:36.44,0:23:37.81,DCMain,KOGORO,0000,0000,0000,,Just kidding.
+Dialogue: 0,0:23:37.81,0:23:40.01,DCMain,CONAN,0000,0000,0000,,You're already doing that.
+Dialogue: 0,0:23:40.01,0:23:42.55,DCMain,CONAN,0000,0000,0000,,I'm not your stand-in, though.
+Dialogue: 0,0:23:44.98,0:24:08.00,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:57.41,0:24:00.41,Grad,SIGN,0000,0000,0000,,Graduation Ceremony \NMPD Police Academy
+Dialogue: 0,0:24:00.41,0:24:02.71,DCMain,ONIZUKA,0000,0000,0000,,It's time to present the diplomas.
+Dialogue: 0,0:24:03.77,0:24:06.79,DCMain,ONIZUKA,0000,0000,0000,,Graduating class representative Furuya Rei.
+Dialogue: 0,0:24:06.79,0:24:08.00,DCMain,REI,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:24:08.00,0:24:15.01,DCNextEp,SIGN,0000,0000,0000,,Police Academy Arc Wild Police Story \NCASE. Furuya Rei
+Dialogue: 0,0:24:08.50,0:24:14.23,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Police Academy \NArc Wild Police Story CASE. Furuya Rei!"
+Dialogue: 1,0:24:30.03,0:24:33.25,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:30.03,0:24:34.95,Bloom,SIGN,0000,0000,0000,,{\pos(321.778,40.222)}Onizuka's Class
+Dialogue: 0,0:24:30.03,0:24:34.95,Instructor,SIGN,0000,0000,0000,,Cherry Blossoms in Full Bloom
+Dialogue: 0,0:24:30.03,0:24:34.95,Asst,SIGN,0000,0000,0000,,{\pos(435.111,225.778)}Instructor Onizuka Hachizo\NAssistant Instructor Matsumoto Naota
+Dialogue: 0,0:24:30.03,0:24:34.95,Hint,SIGN,0000,0000,0000,,{\pos(321.778,304.889)}Cherry Blossoms in Full Bloom
+Dialogue: 1,0:24:33.25,0:24:34.95,DCMain,CONAN,0000,0000,0000,,Cherry Blossoms in Full Bloom!
+Dialogue: 0,0:24:34.95,0:24:36.72,DCMain,TAKAGI,0000,0000,0000,,{\an8}Conan-kun, next week...
+Dialogue: 0,0:24:34.95,0:24:39.95,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.72,0:24:38.72,DCMain,CONAN,0000,0000,0000,,{\an8}Those guys are coming back.

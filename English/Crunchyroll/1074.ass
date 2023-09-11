@@ -1,0 +1,422 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: LocationSigns,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00201B1B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0070,0
+Style: Oi,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H006E2A32,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0110,0062,0
+Style: Makoto,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H009A3A38,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0310,0020,0062,0
+Style: Kaede,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H0092547D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0022,0020,0062,0
+Style: Kobayashi,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00BD797F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: Daiehara,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00734153,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0035,0062,0
+Style: Ban,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00A8504F,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0022,0062,0
+Style: SMarket,Trebuchet MS,14,&H00FFFFFF,&H000000FF,&H00949884,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0140,0020,0027,0
+Style: KMarket,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00949884,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0042,0085,0
+Style: LocationSigns2,Trebuchet MS,22,&H00EBF4F6,&H000000FF,&H00201B1B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0055,0
+Style: Kan,Trebuchet MS,16,&H003A3132,&H000000FF,&H00E0D4D4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Kan2,Trebuchet MS,22,&H00414040,&H000000FF,&H00CED3D2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0035,0020,0048,0
+Style: GrandPrix,Trebuchet MS,22,&H0069ADD5,&H000000FF,&H00473F42,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: KingArthur,Trebuchet MS,14,&H008C9398,&H000000FF,&H002C323C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0040,0020,0115,0
+Style: KingArthur2,Trebuchet MS,16,&H009EA2AB,&H000000FF,&H002C323C,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0035,0
+Style: Izakaya,Trebuchet MS,22,&H002B3437,&H000000FF,&H00CCEEE9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Koba,Trebuchet MS,18,&H002F2F31,&H000000FF,&H00FDFEFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0320,0040,0
+Style: Izu,Trebuchet MS,18,&H002F2F31,&H000000FF,&H00FDFEFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0135,0075,0
+Style: Ban2,Trebuchet MS,18,&H002F2F31,&H000000FF,&H00FDFEFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0058,0025,0
+Style: Daie,Trebuchet MS,18,&H002F2F31,&H000000FF,&H00FDFEFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0320,0040,0
+Style: Fuji,Trebuchet MS,18,&H002F2F31,&H000000FF,&H00FDFEFE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0030,0060,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,DETECTIVE CONAN EPISODE 1074 "The Boiled \NFugu Mystery Tour Showdown (Mojiko & Kura Part)"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[ed]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[eyecatch]
+Dialogue: 0,0:00:04.85,0:00:09.92,DCMain,CONAN,0000,0000,0000,,Wasn't this job referred \Nto you by the lawyer Oi,
+Dialogue: 0,0:00:09.92,0:00:12.74,DCMain,CONAN,0000,0000,0000,,who we met during Morikawa-san's \Ninheritance dispute?
+Dialogue: 0,0:00:12.90,0:00:13.82,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:00:13.82,0:00:17.37,DCMain,KOGORO,0000,0000,0000,,Like last time, I'm being paid a fortune.
+Dialogue: 0,0:00:17.64,0:00:21.17,DCMain,KOGORO,0000,0000,0000,,The client is a long-standing restaurant.
+Dialogue: 0,0:00:21.17,0:00:22.68,DCMain,CONAN,0000,0000,0000,,They're in Shimonoseki.
+Dialogue: 0,0:00:22.68,0:00:24.79,DCMain,RAN,0000,0000,0000,,And it's a long-standing \Nrestaurant, which means...
+Dialogue: 0,0:00:25.05,0:00:27.49,DCMain,CONAN,0000,0000,0000,,Fugu sashimi and boiled fugu.
+Dialogue: 0,0:00:27.49,0:00:29.97,DCMain,RAN,0000,0000,0000,,Whitebait and jellied fish.
+Dialogue: 0,0:00:29.97,0:00:31.33,DCMain,CONAN,0000,0000,0000,,Porridge to round it off.
+Dialogue: 0,0:00:31.33,0:00:32.80,DCMain,KOGORO,0000,0000,0000,,And fish fin sake.
+Dialogue: 0,0:00:33.55,0:00:36.47,DCMain,ALL,0000,0000,0000,,I'm so excited!
+Dialogue: 0,0:00:40.57,0:00:43.49,LocationSigns,,0000,0000,0000,,{\fad(375,1)}JR Shin-Shimonoseki Station
+Dialogue: 0,0:00:46.07,0:00:48.78,Oi,,0000,0000,0000,,{\fad(375,1)}Oi Hiroki (36)\NLawyer
+Dialogue: 0,0:00:46.71,0:00:48.77,DCMain,OI,0000,0000,0000,,{\an8}Thank you for coming.
+Dialogue: 0,0:00:48.77,0:00:50.27,DCMain,OI,0000,0000,0000,,I've been waiting for you.
+Dialogue: 0,0:00:50.44,0:00:51.93,DCMain,RAN,0000,0000,0000,,Hello.
+Dialogue: 0,0:00:51.93,0:00:54.41,DCMain,OI,0000,0000,0000,,Detective Mori, Ran-san,
+Dialogue: 0,0:00:54.41,0:00:58.41,DCMain,OI,0000,0000,0000,,and Edogawa Conan-kun, the little detective.
+Dialogue: 0,0:01:01.48,0:01:03.17,DCMain,CONAN,0000,0000,0000,,Mysterious clouds block your field of view!
+Dialogue: 0,0:01:03.17,0:01:04.87,DCMain,CONAN,0000,0000,0000,,Clear them away with deductive \Nreasoning and the sky sparkles!
+Dialogue: 0,0:01:04.87,0:01:06.57,DCMain,CONAN,0000,0000,0000,,Exquisite delicacies and mysteries,
+Dialogue: 0,0:01:06.57,0:01:08.72,DCMain,CONAN,0000,0000,0000,,swirling around the Kanmon Channel!
+Dialogue: 0,0:01:08.72,0:01:10.51,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:10.51,0:01:12.35,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:12.35,0:01:15.04,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:57.03,0:03:03.03,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(375,1)}The Boiled Fugu Mystery Tour Showdown \N(Mojiko & Kura Part)
+Dialogue: 0,0:02:57.54,0:03:02.22,DCMain,CONAN,0000,0000,0000,,"The Boiled Fugu Mystery Tour \NShowdown, Mojiko & Kura Part!"
+Dialogue: 0,0:03:07.05,0:03:08.37,DCMain,OI,0000,0000,0000,,Shimonoseki.
+Dialogue: 0,0:03:08.90,0:03:12.88,DCMain,OI,0000,0000,0000,,The largest city in Yamaguchi, located \Non the westernmost end of Honshu.
+Dialogue: 0,0:03:13.10,0:03:17.40,DCMain,OI,0000,0000,0000,,As everyone knows, it's the home \Nof Japan's greatest fugu dishes.
+Dialogue: 0,0:03:17.40,0:03:21.07,DCMain,OI,0000,0000,0000,,The Kanmon Channel dividing \NShimonoseki from Northern Kyushu
+Dialogue: 0,0:03:21.07,0:03:23.56,DCMain,OI,0000,0000,0000,,is known as one of Japan's \Nthree great tidal currents.
+Dialogue: 0,0:03:23.56,0:03:26.43,DCMain,OI,0000,0000,0000,,The tide's speed reaches ten knots,
+Dialogue: 0,0:03:26.64,0:03:30.56,LocationSigns,SIGN,0000,0000,0000,,{\fad(375,375)}Hinoyama Park Summit
+Dialogue: 0,0:03:26.74,0:03:30.38,DCMain,OI,0000,0000,0000,,{\an8}making it difficult to navigate \Nboats through the channel.
+Dialogue: 0,0:03:31.13,0:03:33.19,DCMain,RAN,0000,0000,0000,,The tides are surging like crazy.
+Dialogue: 0,0:03:33.19,0:03:34.94,DCMain,RAN,0000,0000,0000,,What a magnificent sight.
+Dialogue: 0,0:03:35.08,0:03:39.65,DCMain,CONAN,0000,0000,0000,,Apparently ten knots is about \N18.5 kilometers per hour.
+Dialogue: 0,0:03:39.65,0:03:42.55,DCMain,OI,0000,0000,0000,,Conan-kun, this time the \Nclient is a fugu restaurant
+Dialogue: 0,0:03:42.55,0:03:45.95,DCMain,OI,0000,0000,0000,,that's been in business in \NShimonoseki for over a century.
+Dialogue: 0,0:03:46.22,0:03:49.12,DCMain,OI,0000,0000,0000,,He's the fourth generation owner \Nof the Izumiya restaurant,
+Dialogue: 0,0:03:49.12,0:03:51.25,DCMain,OI,0000,0000,0000,,and he's requested that...
+Dialogue: 0,0:03:53.82,0:03:59.05,DCMain,KOGORO,0000,0000,0000,,Could you describe the nature \Nof the job to me, please?
+Dialogue: 0,0:03:59.33,0:04:01.88,DCMain,OI,0000,0000,0000,,Oh, excuse me.
+Dialogue: 0,0:04:12.58,0:04:16.27,DCMain,IZUMIYA,0000,0000,0000,,This is organic boiled fugu from Shimonoseki.
+Dialogue: 0,0:04:16.62,0:04:21.96,DCMain,RAN,0000,0000,0000,,I heard fugu is called "fuku" in Shimonoseki.
+Dialogue: 0,0:04:21.96,0:04:24.53,DCMain,IZUMIYA,0000,0000,0000,,Ah, you know your stuff.
+Dialogue: 0,0:04:25.16,0:04:27.21,DCMain,KAEDE,0000,0000,0000,,Go ahead.
+Dialogue: 0,0:04:27.21,0:04:28.95,DCMain,ALL,0000,0000,0000,,Thank you!
+Dialogue: 0,0:04:34.91,0:04:36.96,DCMain,BOTH,0000,0000,0000,,So good!
+Dialogue: 0,0:04:34.91,0:04:36.96,DCMain,RAN,0000,0000,0000,,It's delicious.
+Dialogue: 0,0:04:36.96,0:04:40.01,DCMain,KOGORO,0000,0000,0000,,Organic food sure tastes different.
+Dialogue: 0,0:04:40.51,0:04:43.13,DCMain,RAN,0000,0000,0000,,It tastes so clean and refined.
+Dialogue: 0,0:04:46.37,0:04:50.81,DCMain,IZUMIYA,0000,0000,0000,,We'd actually like your help \Nwith the boiled fugu pot.
+Dialogue: 0,0:04:51.13,0:04:51.93,DCMain,KOGORO,0000,0000,0000,,What?
+Dialogue: 0,0:04:53.39,0:04:56.77,Makoto,SIGN,0000,0000,0000,,{\fad(375,375)}Izumiya Makoto (58) \NRestaurant Owner
+Dialogue: 0,0:04:53.57,0:05:00.65,DCMain,IZUMIYA,0000,0000,0000,,{\an8}The Izumiya family has been operating \Nthis restaurant since the Tokugawa Era.
+Dialogue: 0,0:05:01.29,0:05:07.49,DCMain,IZUMIYA,0000,0000,0000,,There's a special pot we've been using \Nsince the restaurant was founded.
+Dialogue: 0,0:05:08.17,0:05:13.45,DCMain,IZUMIYA,0000,0000,0000,,It was made by a celebrated potter \Nand is valuable as a work of art.
+Dialogue: 0,0:05:13.45,0:05:19.25,DCMain,IZUMIYA,0000,0000,0000,,Recently we'd been storing it in our vault \Noutside of special occasions, but...
+Dialogue: 0,0:05:19.71,0:05:23.26,DCMain,KAEDE,0000,0000,0000,,{\an8}The pot was stolen the other day.
+Dialogue: 0,0:05:19.75,0:05:23.26,Kaede,SIGN,0000,0000,0000,,{\fad(375,1)}Izumiya Kaede (22) \NMakoto's Daughter
+Dialogue: 0,0:05:25.17,0:05:32.96,DCMain,IZUMIYA,0000,0000,0000,,Please find our family treasure \Nand bring it back to us.
+Dialogue: 0,0:05:34.55,0:05:37.21,DCMain,KOGORO,0000,0000,0000,,I see. I understand.
+Dialogue: 0,0:05:37.21,0:05:38.56,DCMain,KOGORO,0000,0000,0000,,You can count on me.
+Dialogue: 0,0:05:39.01,0:05:40.73,DCMain,IZUMIYA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:05:41.33,0:05:44.23,DCMain,KAEDE,0000,0000,0000,,This is a photo of said pot.
+Dialogue: 0,0:05:46.31,0:05:48.74,DCMain,KOGORO,0000,0000,0000,,I see. So this is the pot.
+Dialogue: 0,0:05:49.02,0:05:52.24,DCMain,OI,0000,0000,0000,,The pot was stolen on February 19th.
+Dialogue: 0,0:05:52.24,0:05:57.57,DCMain,OI,0000,0000,0000,,We believe it was stolen \Nbetween 19:00 and 20:00,
+Dialogue: 0,0:05:57.57,0:06:02.25,DCMain,OI,0000,0000,0000,,when the restaurant is busiest \Nand nobody is at home.
+Dialogue: 0,0:06:02.53,0:06:08.38,DCMain,OI,0000,0000,0000,,The thieves destroyed the \Nsafe and stole only the pot.
+Dialogue: 0,0:06:08.59,0:06:12.39,DCMain,KOGORO,0000,0000,0000,,By the way, what is the \Napproximate value of this pot?
+Dialogue: 0,0:06:12.86,0:06:17.18,DCMain,KAEDE,0000,0000,0000,,Works made by the same potter are worth \Nno less than several million yen.
+Dialogue: 0,0:06:17.18,0:06:22.02,DCMain,KAEDE,0000,0000,0000,,But its value isn't the reason \Nwe're determined to get it back.
+Dialogue: 0,0:06:22.29,0:06:24.27,DCMain,RAN,0000,0000,0000,,Then why?
+Dialogue: 0,0:06:24.83,0:06:27.03,DCMain,IZUMIYA,0000,0000,0000,,Because of the broth.
+Dialogue: 0,0:06:27.56,0:06:28.45,DCMain,KOGORO,0000,0000,0000,,The broth?
+Dialogue: 0,0:06:28.77,0:06:34.20,DCMain,IZUMIYA,0000,0000,0000,,The umami of the fuku has seeped \Ninto the surface of that pot
+Dialogue: 0,0:06:34.66,0:06:40.47,DCMain,IZUMIYA,0000,0000,0000,,that's been used to cook only the finest \Nfuku since the restaurant was established.
+Dialogue: 0,0:06:40.47,0:06:42.03,DCMain,IZUMIYA,0000,0000,0000,,Even if the same ingredients were used,
+Dialogue: 0,0:06:42.03,0:06:44.21,DCMain,IZUMIYA,0000,0000,0000,,the depth of the flavor would \Nbe different in another pot.
+Dialogue: 0,0:06:45.57,0:06:49.47,DCMain,KAEDE,0000,0000,0000,,That pot is steeped with \Nflavor and tradition.
+Dialogue: 0,0:06:50.63,0:06:53.45,DCMain,IZUMIYA,0000,0000,0000,,We're lost without that pot.
+Dialogue: 0,0:06:54.29,0:06:59.20,DCMain,OI,0000,0000,0000,,Additionally, Izumiya-san \Nwill be participating
+Dialogue: 0,0:06:59.20,0:07:01.69,DCMain,OI,0000,0000,0000,,in this weekend's "Boiled Fugu Grand Prix,"
+Dialogue: 0,0:07:01.69,0:07:04.77,DCMain,OI,0000,0000,0000,,with his fourth consecutive \Nchampionship on the line.
+Dialogue: 0,0:07:04.94,0:07:06.82,DCMain,RAN,0000,0000,0000,,"Boiled Fugu Grand Prix?"
+Dialogue: 0,0:07:06.97,0:07:08.78,DCMain,IZUMIYA,0000,0000,0000,,Famous restaurants from Tokyo, Osaka,
+Dialogue: 0,0:07:08.78,0:07:13.66,DCMain,IZUMIYA,0000,0000,0000,,and all around the country get \Ntogether to compete at this event.
+Dialogue: 0,0:07:14.42,0:07:20.21,DCMain,IZUMIYA,0000,0000,0000,,Those within the fuku culinary scene believe \Nwinning this event to be the highest honor.
+Dialogue: 0,0:07:20.45,0:07:24.21,DCMain,KOGORO,0000,0000,0000,,Do you have any idea who \Nmight've stolen the pot?
+Dialogue: 0,0:07:27.58,0:07:29.36,DCMain,OI,0000,0000,0000,,Allow me to explain.
+Dialogue: 0,0:07:29.36,0:07:32.97,DCMain,OI,0000,0000,0000,,The police investigation identified \Nfour possible suspects.
+Dialogue: 0,0:07:33.76,0:07:39.42,DCMain,OI,0000,0000,0000,,{\an8}The first is Kobayashi Yasushi, \Nwho works in a restaurant.
+Dialogue: 0,0:07:37.81,0:07:41.64,Kobayashi,SIGN,0000,0000,0000,,{\fad(375,375)}Kobayashi Yasushi (27) \NPart-time Employee
+Dialogue: 0,0:07:39.42,0:07:43.06,DCMain,OI,0000,0000,0000,,{\an8}He was arrested two years \Nago when he robbed Izumiya.
+Dialogue: 0,0:07:43.63,0:07:49.49,DCMain,OI,0000,0000,0000,,{\an8}The second is Fujii Shinichi, who manages \Na Japanese restaurant chain called Kan.
+Dialogue: 0,0:07:48.07,0:07:51.86,Kobayashi,SIGN,0000,0000,0000,,{\fad(375,375)}Fujii Shinichi (43) \NRestaurant Chain Company Manager
+Dialogue: 0,0:07:49.49,0:07:53.91,DCMain,OI,0000,0000,0000,,{\an8}He previously failed to buy out Izumiya.
+Dialogue: 0,0:07:54.38,0:08:00.41,DCMain,OI,0000,0000,0000,,{\an8}The third is Daiehara Satoru, who runs \Nthe restaurant King Arthur in Moji.
+Dialogue: 0,0:07:56.41,0:08:00.25,Daiehara,SIGN,0000,0000,0000,,{\fad(375,375)}Daiehara Satoru (34) \NRestaurant Owner and Chef
+Dialogue: 0,0:08:00.85,0:08:03.17,DCMain,RAN,0000,0000,0000,,He's a business rival.
+Dialogue: 0,0:08:03.53,0:08:08.44,DCMain,OI,0000,0000,0000,,He knows of the Izumiya's treasured pot.
+Dialogue: 0,0:08:08.44,0:08:11.42,DCMain,OI,0000,0000,0000,,{\an8}Finally, there's Ban Keisuke.
+Dialogue: 0,0:08:10.34,0:08:14.18,Ban,SIGN,0000,0000,0000,,{\fad(375,375)}Ban Keisuke (24) \NFormer Izumiya Restaurant Employee
+Dialogue: 0,0:08:11.42,0:08:15.47,DCMain,OI,0000,0000,0000,,{\an8}He previously worked at \NIzumiya, but was fired.
+Dialogue: 0,0:08:15.80,0:08:18.30,DCMain,KAEDE,0000,0000,0000,,That pot is our family's treasure.
+Dialogue: 0,0:08:18.30,0:08:24.09,DCMain,KAEDE,0000,0000,0000,,My father can't confidently compete in \Nthe Boiled Fugu Grand Prix without it.
+Dialogue: 0,0:08:24.09,0:08:27.86,DCMain,IZUMIYA,0000,0000,0000,,Mori-san, please help us.
+Dialogue: 0,0:08:28.28,0:08:31.87,DCMain,KOGORO,0000,0000,0000,,I see. In that case, you can count on me.
+Dialogue: 0,0:08:31.87,0:08:37.37,DCMain,KOGORO,0000,0000,0000,,The great Mori Kogoro shall \Nrecover your treasured pot.
+Dialogue: 0,0:08:41.46,0:08:44.37,DCMain,RAN,0000,0000,0000,,Dad, you said they could count on you,
+Dialogue: 0,0:08:44.65,0:08:46.79,DCMain,RAN,0000,0000,0000,,but do you know who the culprit is?
+Dialogue: 0,0:08:46.96,0:08:50.81,DCMain,CONAN,0000,0000,0000,,We're on our way to investigate \Nthat now. Right, mister?
+Dialogue: 0,0:08:50.81,0:08:51.67,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:52.02,0:08:56.05,DCMain,KOGORO,0000,0000,0000,,Anyway, just how well-prepared \Nis that lawyer?
+Dialogue: 0,0:08:56.05,0:09:02.56,SMarket,SIGN,0000,0000,0000,,Shimonoseki Marketplace
+Dialogue: 0,0:08:56.05,0:09:02.56,KMarket,SIGN,0000,0000,0000,,Lively Karato Marketplace
+Dialogue: 0,0:08:56.59,0:09:02.56,DCMain,KOGORO,0000,0000,0000,,He even acquired police documents and \Npersonal information on the suspects.
+Dialogue: 0,0:09:07.68,0:09:09.57,DCMain,CONAN,0000,0000,0000,,That's Kamon Wharf.
+Dialogue: 0,0:09:09.77,0:09:13.65,LocationSigns2,SIGN,0000,0000,0000,,{\fad(375,375)}Kamon Wharf
+Dialogue: 0,0:09:09.79,0:09:14.19,DCMain,KOGORO,0000,0000,0000,,{\an8}Kobayashi Yasushi, the man who robbed \NIzumiya two years ago, works there.
+Dialogue: 0,0:09:21.59,0:09:24.20,DCMain,KOBAYASHI,0000,0000,0000,,Are you the one who wanted to see me?
+Dialogue: 0,0:09:24.58,0:09:26.96,DCMain,KOGORO,0000,0000,0000,,You're Kobayashi Yasushi-san, correct?
+Dialogue: 0,0:09:26.96,0:09:28.31,DCMain,KOBAYASHI,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:09:29.38,0:09:33.88,DCMain,KOBAYASHI,0000,0000,0000,,A detective? I wish you hadn't \Nbothered me at my job.
+Dialogue: 0,0:09:34.40,0:09:37.13,DCMain,KOBAYASHI,0000,0000,0000,,I already talked to the police.
+Dialogue: 0,0:09:37.82,0:09:43.06,DCMain,KOGORO,0000,0000,0000,,Don't worry, I'll leave as soon \Nas you answer my questions.
+Dialogue: 0,0:09:43.06,0:09:46.13,DCMain,KOBAYASHI,0000,0000,0000,,Make it quick.
+Dialogue: 0,0:09:46.13,0:09:51.35,DCMain,KOGORO,0000,0000,0000,,Then allow me to be direct. Did you do it?
+Dialogue: 0,0:09:52.44,0:09:55.97,DCMain,KOBAYASHI,0000,0000,0000,,I was arrested two years ago when \NI broke into that restaurant.
+Dialogue: 0,0:09:55.97,0:10:00.62,DCMain,KOBAYASHI,0000,0000,0000,,Why would I do something so \Nrisky when I'm on probation?!
+Dialogue: 0,0:10:00.62,0:10:03.78,DCMain,KOGORO,0000,0000,0000,,Do you have a verifiable alibi \Nfor when the crime took place?
+Dialogue: 0,0:10:03.78,0:10:06.12,DCMain,KOBAYASHI,0000,0000,0000,,I was with my coworker Kato!
+Dialogue: 0,0:10:06.39,0:10:09.50,DCMain,KOBAYASHI,0000,0000,0000,,He even testified to the police!
+Dialogue: 0,0:10:09.50,0:10:12.29,DCMain,KOGORO,0000,0000,0000,,What were you doing with your coworker?!
+Dialogue: 0,0:10:12.47,0:10:13.89,DCMain,KOBAYASHI,0000,0000,0000,,Shopping!
+Dialogue: 0,0:10:13.89,0:10:15.13,DCMain,KOBAYASHI,0000,0000,0000,,Damn it!
+Dialogue: 0,0:10:15.13,0:10:19.68,DCMain,KOBAYASHI,0000,0000,0000,,I've been stuck living this life ever \Nsince that incident two years ago!
+Dialogue: 0,0:10:20.21,0:10:23.60,DCMain,KOBAYASHI,0000,0000,0000,,Because of the information I was \Nfed then, my life has been...
+Dialogue: 0,0:10:24.47,0:10:25.47,DCMain,CONAN,0000,0000,0000,,What information?
+Dialogue: 0,0:10:25.88,0:10:27.51,DCMain,KOBAYASHI,0000,0000,0000,,Mind your own business.
+Dialogue: 0,0:10:27.51,0:10:28.77,DCMain,KOBAYASHI,0000,0000,0000,,We're done, right?
+Dialogue: 0,0:10:28.77,0:10:31.69,DCMain,KOBAYASHI,0000,0000,0000,,If you've got no other questions, \Nthen get out of here.
+Dialogue: 0,0:10:31.69,0:10:33.18,DCMain,EMPLOYEE A,0000,0000,0000,,Hey, Kobayashi.
+Dialogue: 0,0:10:33.18,0:10:34.59,DCMain,KOBAYASHI,0000,0000,0000,,Coming!
+Dialogue: 0,0:10:35.07,0:10:37.49,LocationSigns,SIGN,0000,0000,0000,,{\fad(375,1)}JR Kokura Station
+Dialogue: 0,0:10:37.88,0:10:42.38,DCMain,KOGORO,0000,0000,0000,,The next suspect runs a \Ncompany near Kokura Castle.
+Dialogue: 0,0:10:42.38,0:10:46.43,DCMain,RAN,0000,0000,0000,,Since Kokura Castle is right next \Nto the station, we can walk there.
+Dialogue: 0,0:10:49.62,0:10:52.54,LocationSigns,SIGN,0000,0000,0000,,{\fad(375,1)}Kokura Castle
+Dialogue: 0,0:10:55.05,0:10:56.30,Kan,SIGN,0000,0000,0000,,Japanese Restaurant Kan
+Dialogue: 0,0:10:58.92,0:11:01.55,DCMain,FUJII,0000,0000,0000,,So you're the famous detective.
+Dialogue: 0,0:11:01.55,0:11:08.06,Kan2,SIGN,0000,0000,0000,,Kan
+Dialogue: 0,0:11:01.76,0:11:06.70,DCMain,KOGORO,0000,0000,0000,,You're restaurant chain Kan owner \NFujii Shinichi-san, correct?
+Dialogue: 0,0:11:06.70,0:11:08.06,DCMain,FUJII,0000,0000,0000,,Yes, that's me.
+Dialogue: 0,0:11:08.29,0:11:12.98,DCMain,KOGORO,0000,0000,0000,,I heard you failed to purchase Izumiya.
+Dialogue: 0,0:11:13.36,0:11:14.57,DCMain,FUJII,0000,0000,0000,,Yes.
+Dialogue: 0,0:11:14.57,0:11:18.83,DCMain,FUJII,0000,0000,0000,,I thought I made them a good offer,
+Dialogue: 0,0:11:18.83,0:11:20.52,DCMain,FUJII,0000,0000,0000,,but they rejected the deal.
+Dialogue: 0,0:11:20.52,0:11:22.99,DCMain,KOGORO,0000,0000,0000,,Why did you try to buy Izumiya?
+Dialogue: 0,0:11:23.33,0:11:26.74,DCMain,FUJII,0000,0000,0000,,The restaurant industry is like \Nthe late-Tokugawa Era revolution.
+Dialogue: 0,0:11:27.50,0:11:31.16,DCMain,FUJII,0000,0000,0000,,Just as former rivals Satsuma \Nand Choshu formed an alliance,
+Dialogue: 0,0:11:31.16,0:11:36.75,DCMain,FUJII,0000,0000,0000,,true victory awaits beyond our expectations.
+Dialogue: 0,0:11:37.38,0:11:43.05,GrandPrix,SIGN,0000,0000,0000,,{\pos(384,5)}Boiled Fugu Grand Prix {\fs16\blur1\c&H3C5DE3&\3c&HEBEBF8&}Open!
+Dialogue: 0,0:11:37.53,0:11:38.93,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:11:38.93,0:11:43.05,DCMain,CONAN,0000,0000,0000,,Your restaurant's participating in \Nthe Boiled Fugu Grand Prix, too.
+Dialogue: 0,0:11:43.28,0:11:45.30,DCMain,FUJII,0000,0000,0000,,You've got a sharp eye, kid.
+Dialogue: 0,0:11:45.30,0:11:48.75,DCMain,FUJII,0000,0000,0000,,I thought it'd be better to \Nwin over my rival Izumiya-san
+Dialogue: 0,0:11:48.75,0:11:51.84,DCMain,FUJII,0000,0000,0000,,rather than make an enemy out of him.
+Dialogue: 0,0:11:52.61,0:11:56.71,DCMain,KOGORO,0000,0000,0000,,By the way, what's your alibi for \Nbetween 7PM and 8PM on February 19th
+Dialogue: 0,0:11:56.71,0:11:59.32,DCMain,KOGORO,0000,0000,0000,,when the theft took place?
+Dialogue: 0,0:11:59.56,0:12:03.24,DCMain,FUJII,0000,0000,0000,,I was entertaining guests that night.
+Dialogue: 0,0:12:03.24,0:12:07.24,DCMain,FUJII,0000,0000,0000,,The restaurant staff and company president \NI was hosting should be able to verify that.
+Dialogue: 0,0:12:10.27,0:12:12.87,DCMain,KOGORO,0000,0000,0000,,Thank you for your cooperation.
+Dialogue: 0,0:12:11.37,0:12:12.87,Kan,SIGN,0000,0000,0000,,Japanese Restaurant Kan
+Dialogue: 0,0:12:13.04,0:12:15.71,DCMain,FUJII,0000,0000,0000,,Not at all. Don't worry about it.
+Dialogue: 0,0:12:15.71,0:12:17.68,DCMain,CONAN,0000,0000,0000,,Where are we going next?
+Dialogue: 0,0:12:17.68,0:12:19.89,DCMain,KOGORO,0000,0000,0000,,To the King Arthur restaurant.
+Dialogue: 0,0:12:19.89,0:12:22.26,DCMain,KOGORO,0000,0000,0000,,It should be nearby.
+Dialogue: 0,0:12:22.46,0:12:25.64,DCMain,FUJII,0000,0000,0000,,Is Daiehara-san a suspect as well?
+Dialogue: 0,0:12:25.94,0:12:27.64,DCMain,RAN,0000,0000,0000,,Do you know him?
+Dialogue: 0,0:12:27.84,0:12:30.18,DCMain,FUJII,0000,0000,0000,,Yes. We work in the same industry, after all.
+Dialogue: 0,0:12:30.18,0:12:31.64,DCMain,FUJII,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:12:31.64,0:12:34.09,DCMain,FUJII,0000,0000,0000,,If you suspect us,
+Dialogue: 0,0:12:34.09,0:12:38.02,DCMain,FUJII,0000,0000,0000,,then you'll have to solve the \Nmystery of the Kanmon Channel.
+Dialogue: 0,0:12:38.40,0:12:40.63,DCMain,CONAN,0000,0000,0000,,The mystery of the Kanmon Channel?
+Dialogue: 0,0:12:46.25,0:12:48.53,DCMain,CONAN,0000,0000,0000,,The mystery of the Kanmon Channel?
+Dialogue: 0,0:12:48.71,0:12:52.04,DCMain,FUJII,0000,0000,0000,,Apparently the police examined \Nthe security camera footage...
+Dialogue: 0,0:12:52.33,0:12:56.79,DCMain,FUJII,0000,0000,0000,,{\an8}...of the Kanmon Tunnel footpath, roadway,
+Dialogue: 0,0:12:52.50,0:12:56.37,LocationSigns,SIGN,0000,0000,0000,,{\fad(375,375)}Kanmon Tunnel
+Dialogue: 0,0:12:57.13,0:13:00.30,DCMain,FUJII,0000,0000,0000,,Shin-Shimonoseki and Shimonoseki \Nstation platforms,
+Dialogue: 0,0:13:00.38,0:13:02.30,LocationSigns,SIGN,0000,0000,0000,,{\fad(375,1)}Mojiko Retro
+Dialogue: 0,0:13:00.60,0:13:05.80,DCMain,FUJII,0000,0000,0000,,{\an8}and ports from the day of the theft.
+Dialogue: 0,0:13:06.13,0:13:10.68,DCMain,FUJII,0000,0000,0000,,We didn't appear in any \Nof the camera footage.
+Dialogue: 0,0:13:12.19,0:13:14.93,DCMain,FUJII,0000,0000,0000,,In other words, if you want to arrest us,
+Dialogue: 0,0:13:14.93,0:13:21.94,DCMain,FUJII,0000,0000,0000,,you'll have to explain how \Nwe got to Honshu from Kyushu,
+Dialogue: 0,0:13:21.94,0:13:24.57,DCMain,FUJII,0000,0000,0000,,without appearing on any security cameras.
+Dialogue: 0,0:13:25.32,0:13:27.52,DCMain,KOBAYASHI,0000,0000,0000,,It's me, Kobayashi.
+Dialogue: 0,0:13:27.52,0:13:29.20,DCMain,KOBAYASHI,0000,0000,0000,,I was just visited by a detective.
+Dialogue: 0,0:13:29.50,0:13:31.42,DCMain,KOBAYASHI,0000,0000,0000,,Yeah, I know.
+Dialogue: 0,0:13:31.42,0:13:33.76,DCMain,KOBAYASHI,0000,0000,0000,,I'm counting on you.
+Dialogue: 0,0:13:33.76,0:13:35.30,DCMain,KOBAYASHI,0000,0000,0000,,You'd better not betray me.
+Dialogue: 0,0:13:36.33,0:13:39.46,LocationSigns,SIGN,0000,0000,0000,,{\fad(375,1)}Kanmonkaikyo Museum
+Dialogue: 0,0:13:46.22,0:13:49.72,KingArthur,SIGN,0000,0000,0000,,King Arthur
+Dialogue: 0,0:13:46.72,0:13:49.72,DCMain,RAN,0000,0000,0000,,Wow, what a stylish restaurant.
+Dialogue: 0,0:13:50.12,0:13:51.98,DCMain,DAIEHARA,0000,0000,0000,,Thank you.
+Dialogue: 0,0:13:51.98,0:13:57.98,DCMain,DAIEHARA,0000,0000,0000,,Here we develop new dishes that are a \Nfusion of Western and Japanese cuisine.
+Dialogue: 0,0:13:58.45,0:14:01.37,DCMain,KOGORO,0000,0000,0000,,Daiehara-san, forgive me,
+Dialogue: 0,0:14:01.37,0:14:06.95,DCMain,KOGORO,0000,0000,0000,,but you apparently asked Izumiya-san \Nto give you his family's treasured pot.
+Dialogue: 0,0:14:06.95,0:14:07.99,DCMain,DAIEHARA,0000,0000,0000,,Yes.
+Dialogue: 0,0:14:07.99,0:14:12.42,DCMain,DAIEHARA,0000,0000,0000,,I was impressed by the boiled fugu \Ndish I ate that was made in that pot.
+Dialogue: 0,0:14:12.42,0:14:15.16,DCMain,KOGORO,0000,0000,0000,,Did you think he'd give it to you?
+Dialogue: 0,0:14:15.16,0:14:19.71,DCMain,DAIEHARA,0000,0000,0000,,No, I expected him to say \Nno, which he did in fact do.
+Dialogue: 0,0:14:19.87,0:14:24.04,DCMain,KOGORO,0000,0000,0000,,By the way, what's your alibi \Nfor the day of the theft?
+Dialogue: 0,0:14:24.04,0:14:26.72,DCMain,DAIEHARA,0000,0000,0000,,My restaurant was closed that day.
+Dialogue: 0,0:14:27.02,0:14:32.49,DCMain,DAIEHARA,0000,0000,0000,,I was visiting my contracted farmers in \NNorthern Kyushu in search of new ingredients.
+Dialogue: 0,0:14:32.49,0:14:35.98,DCMain,KOGORO,0000,0000,0000,,I'd like to get the contact \Ninformation of those farms later.
+Dialogue: 0,0:14:35.98,0:14:37.61,DCMain,DAIEHARA,0000,0000,0000,,Very well.
+Dialogue: 0,0:14:37.61,0:14:44.47,DCMain,KOGORO,0000,0000,0000,,Also, do you have anything that would \Nprove you were visiting the farms?
+Dialogue: 0,0:14:44.47,0:14:48.81,DCMain,DAIEHARA,0000,0000,0000,,In that case, how about this photo?
+Dialogue: 0,0:14:48.81,0:14:54.87,DCMain,DAIEHARA,0000,0000,0000,,You can see this photo was taken in \Nthe evening of the day of the theft.
+Dialogue: 0,0:14:55.04,0:14:59.45,DCMain,KOGORO,0000,0000,0000,,I see. That's what you call a perfect alibi.
+Dialogue: 0,0:14:59.45,0:15:02.80,DCMain,DAIEHARA,0000,0000,0000,,I needed photos for a magazine article.
+Dialogue: 0,0:15:02.80,0:15:04.88,DCMain,RAN,0000,0000,0000,,You injured your foot.
+Dialogue: 0,0:15:05.89,0:15:07.57,DCMain,DAIEHARA,0000,0000,0000,,It's embarrassing to admit,
+Dialogue: 0,0:15:07.57,0:15:12.14,DCMain,DAIEHARA,0000,0000,0000,,but I carelessly broke \Nmy foot three months ago.
+Dialogue: 0,0:15:12.31,0:15:15.64,DCMain,DAIEHARA,0000,0000,0000,,I just got the cast off the other day.
+Dialogue: 0,0:15:16.20,0:15:20.02,DCMain,KOGORO,0000,0000,0000,,I see. Could I get a copy \Nof this photo as well?
+Dialogue: 0,0:15:20.31,0:15:22.45,DCMain,DAIEHARA,0000,0000,0000,,Yes, I'll send it to you right away.
+Dialogue: 0,0:15:22.45,0:15:26.27,DCMain,DAIEHARA,0000,0000,0000,,I'll send you the medical certificate \Nfor my injury later as well.
+Dialogue: 0,0:15:28.34,0:15:29.85,DCMain,KOGORO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:15:30.64,0:15:32.46,DCMain,KOGORO,0000,0000,0000,,Well, excuse us.
+Dialogue: 0,0:15:32.36,0:15:36.16,KingArthur2,SIGN,0000,0000,0000,,{\pos(203,35)}King Arthur
+Dialogue: 0,0:15:32.46,0:15:36.16,DCMain,DAIEHARA,0000,0000,0000,,I hope you'll stop by to eat next time.
+Dialogue: 0,0:15:36.33,0:15:37.89,DCMain,RAN,0000,0000,0000,,We will.
+Dialogue: 0,0:15:37.89,0:15:40.77,DCMain,RAN,0000,0000,0000,,I'd love to eat at a stylish \Nrestaurant like this one.
+Dialogue: 0,0:15:40.77,0:15:42.85,DCMain,KOGORO,0000,0000,0000,,Another time.
+Dialogue: 0,0:15:42.85,0:15:44.29,DCMain,RAN,0000,0000,0000,,Jeez.
+Dialogue: 0,0:15:48.13,0:15:52.05,LocationSigns,SIGN,0000,0000,0000,,{\fad(375,375)}Chofu Moritei
+Dialogue: 0,0:16:04.81,0:16:08.69,DCMain,BAN,0000,0000,0000,,Yes, I was fired from Izumiya,
+Dialogue: 0,0:16:08.86,0:16:11.95,DCMain,BAN,0000,0000,0000,,but that doesn't mean I would rob them.
+Dialogue: 0,0:16:12.16,0:16:15.06,DCMain,KOGORO,0000,0000,0000,,By the way, why were you fired?
+Dialogue: 0,0:16:15.06,0:16:18.72,DCMain,BAN,0000,0000,0000,,Izumiya didn't tell you?
+Dialogue: 0,0:16:18.72,0:16:20.33,DCMain,KOGORO,0000,0000,0000,,So, what was the reason?
+Dialogue: 0,0:16:21.02,0:16:24.46,DCMain,BAN,0000,0000,0000,,K-Kaede approached me.
+Dialogue: 0,0:16:24.76,0:16:25.58,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:16:26.07,0:16:28.66,DCMain,BAN,0000,0000,0000,,She wouldn't leave me alone.
+Dialogue: 0,0:16:28.66,0:16:32.23,DCMain,BAN,0000,0000,0000,,When I told her I couldn't go out with her \Nbecause it would interfere with my job,
+Dialogue: 0,0:16:32.23,0:16:35.47,DCMain,BAN,0000,0000,0000,,for some reason I was fired.
+Dialogue: 0,0:16:35.77,0:16:37.22,DCMain,KOGORO,0000,0000,0000,,Is that really true?
+Dialogue: 0,0:16:38.04,0:16:40.89,DCMain,BAN,0000,0000,0000,,I doubt Kaede would say that.
+Dialogue: 0,0:16:41.20,0:16:44.44,DCMain,KOGORO,0000,0000,0000,,By the way, what's your \Nalibi for February 19th?
+Dialogue: 0,0:16:44.90,0:16:49.82,DCMain,BAN,0000,0000,0000,,I was drinking at an izakaya \Ncalled Uzushio that day.
+Dialogue: 0,0:16:49.82,0:16:53.83,DCMain,BAN,0000,0000,0000,,I'm a regular there, so the \Nstaff would remember me.
+Dialogue: 0,0:17:16.86,0:17:17.72,DCMain,OI,0000,0000,0000,,Hello?
+Dialogue: 0,0:17:18.13,0:17:21.62,DCItalic,CONAN,0000,0000,0000,,We talked to all the suspects.
+Dialogue: 0,0:17:21.62,0:17:24.14,DCMain,OI,0000,0000,0000,,Did you figure out who did it?
+Dialogue: 0,0:17:24.14,0:17:28.70,DCItalic,CONAN,0000,0000,0000,,Not yet. First we're going \Nto verify their alibis.
+Dialogue: 0,0:17:28.70,0:17:32.61,DCMain,OI,0000,0000,0000,,I see. I appreciate your continued efforts.
+Dialogue: 0,0:17:32.88,0:17:34.56,DCMain,CONAN,0000,0000,0000,,Got it. See you later.
+Dialogue: 0,0:17:34.56,0:17:37.11,DCMain,KOGORO,0000,0000,0000,,What are you doing? We'll leave you behind.
+Dialogue: 0,0:17:37.26,0:17:39.61,DCMain,CONAN,0000,0000,0000,,Mister, where are you going \Nto start your investigation?
+Dialogue: 0,0:17:39.61,0:17:41.37,DCMain,KOGORO,0000,0000,0000,,Isn't it obvious?
+Dialogue: 0,0:17:43.72,0:17:45.04,DCMain,KOGORO,0000,0000,0000,,At the izakaya.
+Dialogue: 0,0:17:46.54,0:17:49.29,Izakaya,SIGN,0000,0000,0000,,Izakaya Uzushio
+Dialogue: 0,0:17:47.38,0:17:49.29,DCMain,MANAGER,0000,0000,0000,,Ban-chan, huh?
+Dialogue: 0,0:17:49.61,0:17:52.92,DCMain,MANAGER,0000,0000,0000,,He was here that day.
+Dialogue: 0,0:17:53.39,0:17:58.17,DCMain,MANAGER,0000,0000,0000,,I remember it well since he \Nkept buying expensive drinks.
+Dialogue: 0,0:17:58.17,0:18:01.93,DCMain,MANAGER,0000,0000,0000,,He said his friend won some money \Nat the races and was treating him.
+Dialogue: 0,0:18:02.30,0:18:05.18,DCMain,KOGORO,0000,0000,0000,,Do you remember what time he arrived?
+Dialogue: 0,0:18:06.65,0:18:08.73,DCMain,MANAGER,0000,0000,0000,,What time was it?
+Dialogue: 0,0:18:08.73,0:18:10.94,DCMain,MANAGER,0000,0000,0000,,Do you remember, Eri-chan?
+Dialogue: 0,0:18:10.94,0:18:15.34,DCMain,ERIKO,0000,0000,0000,,I'm not sure. I know it was at night.
+Dialogue: 0,0:18:15.34,0:18:18.61,DCMain,RAN,0000,0000,0000,,It's pretty important that \Nwe know what time he arrived.
+Dialogue: 0,0:18:19.06,0:18:22.89,DCMain,MANAGER,0000,0000,0000,,Since you came all the way from Tokyo,
+Dialogue: 0,0:18:22.89,0:18:25.25,DCMain,MANAGER,0000,0000,0000,,why don't you stay for dinner?
+Dialogue: 0,0:18:25.40,0:18:28.87,DCMain,ERIKO,0000,0000,0000,,Today's specials are Spanish \Nmackerel and monkfish liver.
+Dialogue: 0,0:18:33.30,0:18:35.51,DCMain,KOGORO,0000,0000,0000,,The problem is their alibis.
+Dialogue: 0,0:18:36.12,0:18:38.44,DCMain,KOGORO,0000,0000,0000,,Even an alibi that seems \Nperfect at first glance...
+Dialogue: 0,0:18:38.44,0:18:42.89,DCMain,KOGORO,0000,0000,0000,,could be using some kind \Nof trick to hide a lie.
+Dialogue: 0,0:18:43.12,0:18:44.73,DCMain,MANAGER,0000,0000,0000,,I see.
+Dialogue: 0,0:18:44.73,0:18:47.98,DCMain,MANAGER,0000,0000,0000,,That's an astute observation, Mr. Detective.
+Dialogue: 0,0:18:47.98,0:18:53.65,DCMain,CONAN,0000,0000,0000,,Mister, what kind of reputations \Ndo Fujii-san and Daiehara-san have?
+Dialogue: 0,0:18:54.72,0:18:57.87,DCMain,MANAGER,0000,0000,0000,,Fujii-san's place is pretty successful.
+Dialogue: 0,0:18:57.87,0:19:00.54,DCMain,MANAGER,0000,0000,0000,,If he wins the Boiled Fugu Grand Prix,
+Dialogue: 0,0:19:00.54,0:19:03.20,DCMain,MANAGER,0000,0000,0000,,his profits will probably increase even more.
+Dialogue: 0,0:19:03.40,0:19:06.17,DCMain,ERIKO,0000,0000,0000,,Daiehara-san's restaurant is stylish.
+Dialogue: 0,0:19:06.17,0:19:07.87,DCMain,ERIKO,0000,0000,0000,,It'd be a great place to go on a date.
+Dialogue: 0,0:19:07.87,0:19:09.87,Izakaya,SIGN,0000,0000,0000,,Izakaya Uzushio
+Dialogue: 0,0:19:14.13,0:19:16.98,DCMain,KOGORO,0000,0000,0000,,In other words, the alibis are the key.
+Dialogue: 0,0:19:16.98,0:19:20.46,DCMain,MANAGER,0000,0000,0000,,I see. Of course, Mr. Detective.
+Dialogue: 0,0:19:20.46,0:19:23.85,DCMain,KOGORO,0000,0000,0000,,Honshu's here, and Northern Kyushu is here.
+Dialogue: 0,0:19:24.02,0:19:29.07,DCMain,KOGORO,0000,0000,0000,,Kobayashi, Fujii, Daiehara, and Ban are here.
+Dialogue: 0,0:19:29.07,0:19:31.55,DCMain,KOGORO,0000,0000,0000,,And Izumiya is here.
+Dialogue: 0,0:19:31.27,0:19:35.61,Koba,SIGN,0000,0000,0000,,{\fad(460,436)\pos(252,16)}Kobayashi
+Dialogue: 0,0:19:31.27,0:19:35.61,Fuji,SIGN,0000,0000,0000,,{\fad(460,436)\pos(528,271)}Daiehara
+Dialogue: 0,0:19:31.27,0:19:35.61,Daie,SIGN,0000,0000,0000,,{\fad(460,436)\pos(243,295)}Fujii
+Dialogue: 0,0:19:31.27,0:19:35.61,Ban2,SIGN,0000,0000,0000,,{\fad(460,436)\pos(540,50)}Ban
+Dialogue: 0,0:19:31.27,0:19:35.61,Izu,SIGN,0000,0000,0000,,{\fad(460,436)\pos(332,49)}Izumiya
+Dialogue: 0,0:19:31.55,0:19:35.82,DCMain,KOGORO,0000,0000,0000,,{\an5}These are the places they claimed \Nto be on the day of the theft.
+Dialogue: 0,0:19:36.56,0:19:41.57,DCMain,KOGORO,0000,0000,0000,,Though they all have alibis, \Nthey also all have motives.
+Dialogue: 0,0:19:41.86,0:19:44.42,DCItalic,CONAN,0000,0000,0000,,The old man is right.
+Dialogue: 0,0:19:44.42,0:19:47.96,DCItalic,CONAN,0000,0000,0000,,There are two culprits on either \Nside of the Kanmon Channel,
+Dialogue: 0,0:19:47.96,0:19:51.08,DCItalic,CONAN,0000,0000,0000,,and there's something suspicious \Nabout each one of them.
+Dialogue: 0,0:19:51.90,0:19:56.33,DCMain,KOGORO,0000,0000,0000,,Was it Kobayashi, Fujii, Daiehara, or Ban?
+Dialogue: 0,0:19:57.36,0:20:00.76,DCMain,KOGORO,0000,0000,0000,,But perhaps there's another possibility.
+Dialogue: 0,0:20:01.21,0:20:01.93,DCMain,MANAGER,0000,0000,0000,,What?
+Dialogue: 0,0:20:03.30,0:20:05.15,DCMain,KOGORO,0000,0000,0000,,Izumiya could've faked it himself,
+Dialogue: 0,0:20:05.15,0:20:10.81,DCMain,KOGORO,0000,0000,0000,,or it might've been his daughter Kaede.
+Dialogue: 0,0:20:11.04,0:20:12.93,DCMain,ERIKO,0000,0000,0000,,Really?
+Dialogue: 0,0:20:12.93,0:20:15.98,DCMain,KOGORO,0000,0000,0000,,I'm just saying it's possible.
+Dialogue: 0,0:20:16.38,0:20:19.33,DCMain,MANAGER,0000,0000,0000,,So, who did it?
+Dialogue: 0,0:20:19.33,0:20:20.99,DCMain,ERIKO,0000,0000,0000,,I wanna know.
+Dialogue: 0,0:20:20.99,0:20:34.83,Izakaya,SIGN,0000,0000,0000,,Izakaya Uzushio
+Dialogue: 0,0:20:21.35,0:20:25.47,DCMain,KOGORO,0000,0000,0000,,My detective skills are \Ntelling me the culprit is...
+Dialogue: 0,0:20:25.47,0:20:27.51,DCMain,KOGORO,0000,0000,0000,,Mumble, mumble.
+Dialogue: 0,0:20:27.51,0:20:28.84,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:20:28.84,0:20:32.66,DCMain,CONAN,0000,0000,0000,,He named the culprit in \Nhis drunken ramblings.
+Dialogue: 0,0:20:32.66,0:20:34.83,DCMain,RAN,0000,0000,0000,,This fried fuku is so good.
+Dialogue: 0,0:20:38.13,0:20:40.36,DCMain,BOTH,0000,0000,0000,,Thank you for coming.
+Dialogue: 0,0:20:42.46,0:20:44.84,DCMain,KOGORO,0000,0000,0000,,I think our hotel was that way.
+Dialogue: 0,0:20:49.68,0:20:52.60,LocationSigns,SIGN,0000,0000,0000,,{\fad(460,1)}Kaikyo Yume Tower
+Dialogue: 0,0:20:50.27,0:20:52.60,DCMain,CONAN,0000,0000,0000,,{\an8}Hello, Oi-san?
+Dialogue: 0,0:20:53.05,0:20:55.67,DCMain,OI,0000,0000,0000,,I thought I'd report on a development.
+Dialogue: 0,0:20:55.67,0:20:59.36,DCMain,OI,0000,0000,0000,,Apparently Izumiya received an anonymous tip.
+Dialogue: 0,0:20:59.63,0:21:00.89,DCItalic,CONAN,0000,0000,0000,,A tip?
+Dialogue: 0,0:21:00.89,0:21:01.80,DCMain,OI,0000,0000,0000,,Yes.
+Dialogue: 0,0:21:01.80,0:21:04.06,DCMain,OI,0000,0000,0000,,According to the tip,
+Dialogue: 0,0:21:04.06,0:21:10.12,DCMain,OI,0000,0000,0000,,the coworker who verified \NKobayashi Yasushi's alibi lied.
+Dialogue: 0,0:21:10.34,0:21:13.65,DCItalic,CONAN,0000,0000,0000,,You're saying they received a phone call now?
+Dialogue: 0,0:21:13.65,0:21:16.41,DCMain,OI,0000,0000,0000,,Yes, that would seem to be the case.
+Dialogue: 0,0:21:16.41,0:21:19.50,DCItalic,CONAN,0000,0000,0000,,Oi-san, I actually have a request.
+Dialogue: 0,0:21:19.99,0:21:21.50,DCItalic,OI,0000,0000,0000,,Go ahead. I'm listening.
+Dialogue: 0,0:21:23.84,0:21:24.55,DCMain,RAN,0000,0000,0000,,What was that?
+Dialogue: 0,0:21:30.39,0:21:31.89,DCMain,RAN,0000,0000,0000,,Hold it right there!
+Dialogue: 0,0:21:31.89,0:21:33.64,DCMain,KOGORO,0000,0000,0000,,Hey, Ran!
+Dialogue: 0,0:21:33.64,0:21:34.86,DCItalic,OI,0000,0000,0000,,Is something the matter?
+Dialogue: 0,0:21:34.86,0:21:37.52,DCMain,CONAN,0000,0000,0000,,The culprit might've approached us.
+Dialogue: 0,0:21:38.43,0:21:39.77,DCMain,CONAN,0000,0000,0000,,Sorry. I'm hanging up.
+Dialogue: 0,0:21:41.06,0:21:42.60,DCMain,RAN,0000,0000,0000,,Stop!
+Dialogue: 0,0:21:50.56,0:21:51.95,DCMain,RAN,0000,0000,0000,,Where did they go?
+Dialogue: 0,0:21:57.21,0:21:59.78,DCMain,KOGORO,0000,0000,0000,,I shouldn't have run right after a meal.
+Dialogue: 0,0:22:00.45,0:22:01.33,DCMain,KOGORO,0000,0000,0000,,Damn it.
+Dialogue: 0,0:22:01.33,0:22:02.70,DCMain,KOGORO,0000,0000,0000,,Where did they go?
+Dialogue: 0,0:22:02.70,0:22:05.97,DCMain,CULPRIT,0000,0000,0000,,Don't go sticking your nose \Nany deeper into the case.
+Dialogue: 0,0:22:12.95,0:22:14.17,DCMain,RAN,0000,0000,0000,,Dad!
+Dialogue: 0,0:22:14.17,0:22:15.73,DCMain,RAN,0000,0000,0000,,Dad!
+Dialogue: 0,0:22:16.18,0:22:18.48,DCMain,RAN,0000,0000,0000,,Dad? Dad?
+Dialogue: 0,0:22:18.69,0:22:20.69,DCMain,RAN,0000,0000,0000,,Dad!
+Dialogue: 0,0:22:21.28,0:22:22.70,DCItalic,CONAN,0000,0000,0000,,Damn.
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.44,0:23:51.53,DCMain,CONAN,0000,0000,0000,,By the way, are you glad Izumiya-san's \Nspecial pot went missing?
+Dialogue: 0,0:23:51.81,0:23:54.28,DCMain,FUJII,0000,0000,0000,,I'm not a good man.
+Dialogue: 0,0:23:54.61,0:23:56.66,DCMain,OI,0000,0000,0000,,He's probably heading towards...
+Dialogue: 0,0:23:56.98,0:24:00.66,DCMain,DAIEHARA,0000,0000,0000,,As long as I'm participating, \Nof course I don't want to lose.
+Dialogue: 0,0:24:01.12,0:24:04.93,DCMain,RAN,0000,0000,0000,,"Soon you shall learn that beneath \Nthe waves of the Mimosuso River
+Dialogue: 0,0:24:04.93,0:24:07.58,DCMain,RAN,0000,0000,0000,,there lies another city."
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,SIGN,0000,0000,0000,,The Boiled Fugu Mystery Tour Showdown \N(Shimonoseki Part)
+Dialogue: 0,0:24:09.58,0:24:10.92,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is
+Dialogue: 0,0:24:10.92,0:24:14.74,DCMain,CONAN,0000,0000,0000,,"The Boiled Fugu Mystery Tour \NShowdown, Shimonoseki Part!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,SIGN,0000,0000,0000,,Battle of Dan-no-ura
+Dialogue: 0,0:24:30.91,0:24:32.73,DCMain,KOGORO,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.73,0:24:34.99,DCMain,CONAN,0000,0000,0000,,The Battle of Dan-no-ura!
+Dialogue: 0,0:24:34.99,0:24:37.24,DCMain,RAN,0000,0000,0000,,{\an8}They say eating fugu is good luck.
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:37.24,0:24:39.54,DCMain,CONAN,0000,0000,0000,,{\an8}But it's also like playing \NRussian roulette...

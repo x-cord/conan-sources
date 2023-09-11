@@ -1,0 +1,401 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Wada,Trebuchet MS,16,&H00FFF0F4,&H000000FF,&H0090606A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0205,0063,0
+Style: Nishino,Trebuchet MS,16,&H00FFF0F4,&H000000FF,&H00834048,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0355,0020,0064,0
+Style: Fujide,Trebuchet MS,16,&H00FFF0F4,&H000000FF,&H006E2932,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0225,0063,0
+Style: Koura,Trebuchet MS,16,&H00FFF0F4,&H000000FF,&H006C2E3A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0320,0063,0
+Style: Kawasaki,Trebuchet MS,16,&H00FFF0F4,&H000000FF,&H00975B6B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0110,0064,0
+Style: Sumito,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H009E6F94,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0030,0044,0
+Style: Text,Trebuchet MS,16,&H005C351B,&H000000FF,&H00F1F3F1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: 1,Trebuchet MS,16,&H00787878,&H000000FF,&H00EBEBEC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0020,0020,0160,0
+Style: 2,Trebuchet MS,16,&H00787878,&H000000FF,&H00EBEBEC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0020,0020,0030,0
+Style: 3,Trebuchet MS,16,&H00787878,&H000000FF,&H00EBEBEC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0110,0
+Style: 4,Trebuchet MS,16,&H00787878,&H000000FF,&H00EBEBEC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0055,0050,0
+Style: 5,Trebuchet MS,16,&H00787878,&H000000FF,&H00EBEBEC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0090,0100,0
+Style: 6,Trebuchet MS,16,&H00787878,&H000000FF,&H00EBEBEC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0145,0
+Style: 7,Trebuchet MS,16,&H00787878,&H000000FF,&H00EBEBEC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,1,0020,0020,0145,0
+Style: 8,Trebuchet MS,16,&H00787878,&H000000FF,&H00EBEBEC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0060,0
+Style: 9,Trebuchet MS,16,&H00787878,&H000000FF,&H00EBEBEC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0055,0
+Style: Headline,Trebuchet MS,22,&H0046454A,&H000000FF,&H00BBBBBB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 1005 "The \N36-Cell Perfect Game (Part Three)"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:01.05,0:00:04.52,DCMain,CONAN,0000,0000,0000,,We received a letter from someone \Nnamed Nichihara Taisei-san
+Dialogue: 0,0:00:04.52,0:00:09.48,DCMain,CONAN,0000,0000,0000,,asking us to investigate why \Nhis friend committed suicide,
+Dialogue: 0,0:00:09.90,0:00:13.30,DCMain,CONAN,0000,0000,0000,,and came to an abandoned church \Ndeep in the mountains of Nagano.
+Dialogue: 0,0:00:15.21,0:00:21.00,DCMain,CONAN,0000,0000,0000,,However, Nichihara Taisei-san was the \Nman who killed himself at the church.
+Dialogue: 0,0:00:22.04,0:00:25.75,DCMain,CONAN,0000,0000,0000,,At the instructions of the \Nculprit who gathered us here,
+Dialogue: 0,0:00:26.13,0:00:28.80,DCMain,CONAN,0000,0000,0000,,we searched the abandoned church for codes.
+Dialogue: 0,0:00:29.50,0:00:31.67,Wada,SIGN,0000,0000,0000,,{\fad(250,1)}Wada Kohei (28)\NOffice Worker
+Dialogue: 0,0:00:29.76,0:00:31.67,DCMain,CONAN,0000,0000,0000,,{\an8}But Wada-san was murdered,
+Dialogue: 0,0:00:32.16,0:00:36.15,DCMain,CONAN,0000,0000,0000,,{\an8}followed by Kawasaki-san.
+Dialogue: 0,0:00:34.05,0:00:35.51,Kawasaki,SIGN,0000,0000,0000,,{\fad(250,1)}Kawasaki Yosuke (28)\NBank Employee
+Dialogue: 0,0:00:39.54,0:00:41.12,DCMain,CONAN,0000,0000,0000,,A journey of a thousand miles \Nstarts with the first step!
+Dialogue: 0,0:00:41.12,0:00:43.38,DCMain,CONAN,0000,0000,0000,,Solve 1,000 mysteries and enter a new world!
+Dialogue: 0,0:00:43.38,0:00:44.89,DCMain,CONAN,0000,0000,0000,,A snowy mountain lodge mystery!
+Dialogue: 0,0:00:45.09,0:00:47.31,DCMain,CONAN,0000,0000,0000,,Amuro and Wakita work \Ntogether to solve the code!
+Dialogue: 0,0:00:47.48,0:00:49.08,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:49.08,0:00:50.94,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:00:50.94,0:00:53.60,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:35.00,0:02:41.01,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(405,1)}The 36-Cell Perfect Game \N(Part Three)
+Dialogue: 0,0:02:35.46,0:02:39.03,DCMain,CONAN,0000,0000,0000,,"The 36-Cell Perfect Game, Part Three!"
+Dialogue: 0,0:02:47.91,0:02:51.35,DCMain,KOGORO,0000,0000,0000,,Which letter are we supposed to start with?
+Dialogue: 0,0:02:56.12,0:02:58.15,DCMain,KOGORO,0000,0000,0000,,I have no idea.
+Dialogue: 0,0:03:04.14,0:03:06.79,DCMain,AMURO,0000,0000,0000,,If only we had a hint.
+Dialogue: 0,0:03:06.83,0:03:09.71,Nishino,RIGHT,0000,0000,0000,,{\fad(250,460)}Nishino Sumiya (28)\NBartender
+Dialogue: 0,0:03:06.83,0:03:09.71,Koura,LEFT,0000,0000,0000,,{\fad(250,460)}Koura Ikue (27)\NOffice Worker
+Dialogue: 0,0:03:07.10,0:03:09.40,DCMain,NISHONO,0000,0000,0000,,A hint?
+Dialogue: 0,0:03:09.40,0:03:10.79,DCMain,KOURA,0000,0000,0000,,There's nothing like that.
+Dialogue: 0,0:03:10.83,0:03:13.42,Fujide,SIGN,0000,0000,0000,,{\fad(250,460)}Fujide Raito (27)\NHigh School Teacher
+Dialogue: 0,0:03:14.03,0:03:15.79,DCMain,WAKITA,0000,0000,0000,,You know, it's kind of annoying.
+Dialogue: 0,0:03:16.32,0:03:20.30,DCMain,WAKITA,0000,0000,0000,,If you'd tell us about the club \Nyou've kept secret from us,
+Dialogue: 0,0:03:20.58,0:03:24.60,DCMain,WAKITA,0000,0000,0000,,I think it might help us solve the code.
+Dialogue: 0,0:03:25.17,0:03:27.22,DCMain,NISHINO,0000,0000,0000,,We don't mind telling you.
+Dialogue: 0,0:03:27.22,0:03:29.04,DCMain,KOURA,0000,0000,0000,,Just don't laugh.
+Dialogue: 0,0:03:29.04,0:03:32.59,DCMain,FUJIDE,0000,0000,0000,,Most people make fun of us \Nwhen we tell them about it.
+Dialogue: 0,0:03:34.87,0:03:36.57,DCMain,WAKITA,0000,0000,0000,,Sounds like your phone has service.
+Dialogue: 0,0:03:37.68,0:03:39.69,DCMain,KOGORO,0000,0000,0000,,Hello? Hello?
+Dialogue: 0,0:03:40.17,0:03:42.49,DCMain,YAMATO,0000,0000,0000,,It's Yamato with the Nagano police.
+Dialogue: 0,0:03:44.42,0:03:48.32,DCMain,YAMATO,0000,0000,0000,,It'll take another hour to \Nclear the tunnel of snow.
+Dialogue: 0,0:03:48.32,0:03:51.12,DCMain,YAMATO,0000,0000,0000,,We'll be able to come get \Nyou in three more hours.
+Dialogue: 0,0:03:51.35,0:03:53.41,DCItalic,YAMATO,0000,0000,0000,,Sit tight until then.
+Dialogue: 0,0:03:53.96,0:03:56.10,DCMain,KOGORO,0000,0000,0000,,Hey, wait!
+Dialogue: 0,0:03:58.35,0:04:02.66,DCMain,KOGORO,0000,0000,0000,,He said they'll be here in three \Nhours and to sit tight until then.
+Dialogue: 0,0:04:03.22,0:04:04.51,DCMain,KOURA,0000,0000,0000,,Three hours...
+Dialogue: 0,0:04:04.79,0:04:06.01,DCMain,NISHINO,0000,0000,0000,,You can't be serious!
+Dialogue: 0,0:04:07.37,0:04:11.49,DCMain,NISHINO,0000,0000,0000,,How are we supposed to \Nsit tight for three hours
+Dialogue: 0,0:04:11.49,0:04:13.73,DCMain,NISHINO,0000,0000,0000,,when there might be a murderer \Nlurking in the area?
+Dialogue: 0,0:04:14.22,0:04:20.20,DCMain,NISHINO,0000,0000,0000,,Someone else could be killed \Nsomehow during those three hours!
+Dialogue: 0,0:04:20.20,0:04:25.61,DCMain,KOURA,0000,0000,0000,,Maybe so, but the first victim \NWada-kun headed to the toilet
+Dialogue: 0,0:04:25.61,0:04:30.49,DCMain,KOURA,0000,0000,0000,,where the crossbow trap was \Nset because you drew his name.
+Dialogue: 0,0:04:31.05,0:04:33.25,DCMain,KOURA,0000,0000,0000,,And when Kawasaki-kun was \Npoisoned in front of the bath
+Dialogue: 0,0:04:33.25,0:04:36.25,DCMain,KOURA,0000,0000,0000,,because he went to investigate \Na suspicious noise,
+Dialogue: 0,0:04:36.42,0:04:41.60,DCMain,KOURA,0000,0000,0000,,you're the one who decided how \Nwe'd choose which pair would go.
+Dialogue: 0,0:04:42.05,0:04:44.59,DCMain,NISHINO,0000,0000,0000,,You think I'm responsible?
+Dialogue: 0,0:04:44.78,0:04:48.98,DCMain,CONAN,0000,0000,0000,,Was it Nishino-san who \Nsuggested the method used
+Dialogue: 0,0:04:48.98,0:04:52.16,DCMain,CONAN,0000,0000,0000,,to choose Nishino-san and \NKawasaki-san's pair to investigate?
+Dialogue: 0,0:04:52.16,0:04:53.10,DCMain,WAKITA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:04:54.38,0:04:59.03,DCMain,WAKITA,0000,0000,0000,,He emptied two out of three mint cases.
+Dialogue: 0,0:04:59.44,0:05:05.24,DCMain,WAKITA,0000,0000,0000,,The pair that drew the case with \Nmints would go check things out.
+Dialogue: 0,0:05:05.48,0:05:09.35,DCMain,WAKITA,0000,0000,0000,,Naturally, with his ability \Nto pick out losers,
+Dialogue: 0,0:05:09.35,0:05:12.60,DCMain,WAKITA,0000,0000,0000,,Master Kogoro selected an \Nempty case right off the bat.
+Dialogue: 0,0:05:12.60,0:05:14.00,DCMain,KOGORO,0000,0000,0000,,About that...
+Dialogue: 0,0:05:14.45,0:05:18.13,DCMain,KOGORO,0000,0000,0000,,I felt like no matter which case I \Npicked, none of them would be losers.
+Dialogue: 0,0:05:18.37,0:05:19.14,DCItalic,CONAN,0000,0000,0000,,What?
+Dialogue: 0,0:05:20.01,0:05:21.65,DCMain,AMURO,0000,0000,0000,,You mean it was a sham?
+Dialogue: 0,0:05:21.65,0:05:23.78,DCMain,KOGORO,0000,0000,0000,,I didn't say that.
+Dialogue: 0,0:05:23.78,0:05:25.05,DCMain,NISHINO,0000,0000,0000,,Whoa, whoa, whoa.
+Dialogue: 0,0:05:25.31,0:05:29.55,DCMain,NISHINO,0000,0000,0000,,Are you trying to frame me?
+Dialogue: 0,0:05:32.74,0:05:34.84,DCMain,NISHINO,0000,0000,0000,,I can't trust any of you anymore!
+Dialogue: 0,0:05:37.17,0:05:39.52,DCMain,NISHINO,0000,0000,0000,,I'll protect myself!
+Dialogue: 0,0:05:41.45,0:05:42.90,DCMain,KOURA,0000,0000,0000,,Wait, Nishino-kun!
+Dialogue: 0,0:05:43.53,0:05:44.56,DCMain,AMURO,0000,0000,0000,,Let's go.
+Dialogue: 0,0:05:52.74,0:05:55.01,DCMain,KOURA,0000,0000,0000,,Nishino-kun, open the door.
+Dialogue: 0,0:05:55.80,0:05:58.83,DCMain,FUJIDE,0000,0000,0000,,We don't think you did it.
+Dialogue: 0,0:05:58.83,0:06:00.22,DCMain,NISHINO,0000,0000,0000,,Shut up!
+Dialogue: 0,0:06:00.22,0:06:03.25,DCMain,NISHINO,0000,0000,0000,,I'm not opening this door \Nuntil the police arrive!
+Dialogue: 0,0:06:03.49,0:06:05.02,DCMain,NISHINO,0000,0000,0000,,I'm going to survive!
+Dialogue: 0,0:06:05.02,0:06:06.87,DCMain,NISHINO,0000,0000,0000,,Nobody's going to kill me!
+Dialogue: 0,0:06:07.39,0:06:10.14,DCMain,KOGORO,0000,0000,0000,,Well, he'll be safe locked inside the study.
+Dialogue: 0,0:06:10.89,0:06:16.77,DCMain,AMURO,0000,0000,0000,,As long as the murderer isn't \Nalready hiding in there.
+Dialogue: 0,0:06:20.43,0:06:23.40,DCMain,WAKITA,0000,0000,0000,,Anyway, don't you think it's odd?
+Dialogue: 0,0:06:24.42,0:06:28.61,DCMain,WAKITA,0000,0000,0000,,Why was the detective Master \NKogoro invited here?
+Dialogue: 0,0:06:29.10,0:06:34.25,DCMain,WAKITA,0000,0000,0000,,If the culprit wanted to avenge Nichihara \NTaisei who killed himself here,
+Dialogue: 0,0:06:34.25,0:06:37.08,DCMain,WAKITA,0000,0000,0000,,they only needed to invite you guys.
+Dialogue: 0,0:06:37.84,0:06:42.13,DCMain,WAKITA,0000,0000,0000,,Inviting a detective here would \Nget in the way of their own plans.
+Dialogue: 0,0:06:43.92,0:06:48.13,DCMain,CONAN,0000,0000,0000,,Now that you mention it, the letter \Nsaid to bring a group of four, right?
+Dialogue: 0,0:06:48.32,0:06:52.84,DCMain,AMURO,0000,0000,0000,,Including us, nine people were invited here.
+Dialogue: 0,0:06:52.84,0:06:55.89,DCMain,AMURO,0000,0000,0000,,Perhaps the number nine \Nhas some significance.
+Dialogue: 0,0:06:56.27,0:07:01.83,DCMain,KOGORO,0000,0000,0000,,One of the benefits of the number nine \Nis that it's easier to create lots.
+Dialogue: 0,0:07:02.30,0:07:03.86,DCMain,KOGORO,0000,0000,0000,,Compared to five or seven,
+Dialogue: 0,0:07:03.86,0:07:07.44,DCMain,KOGORO,0000,0000,0000,,it's easier to create nine equally-sized \Npieces from a single sheet of paper.
+Dialogue: 0,0:07:07.67,0:07:12.70,DCMain,WAKITA,0000,0000,0000,,It's the same if you use \Ntwo sheets to make lots.
+Dialogue: 0,0:07:13.84,0:07:15.49,DCMain,KOGORO,0000,0000,0000,,What else is related to the number nine?
+Dialogue: 0,0:07:15.92,0:07:18.20,DCMain,KOGORO,0000,0000,0000,,Mahjong's nine gates.
+Dialogue: 0,0:07:18.98,0:07:21.21,DCMain,CONAN,0000,0000,0000,,Beethoven's 9th.
+Dialogue: 0,0:07:21.74,0:07:23.71,DCMain,WAKITA,0000,0000,0000,,The nine-tailed fox.
+Dialogue: 0,0:07:24.26,0:07:26.46,DCMain,AMURO,0000,0000,0000,,Nine-ball pool.
+Dialogue: 0,0:07:30.50,0:07:31.84,DCItalic,ALL,0000,0000,0000,,Nine!
+Dialogue: 0,0:07:32.06,0:07:34.34,DCItalic,CONAN,0000,0000,0000,,That's it. So that's how it is.
+Dialogue: 0,0:07:34.89,0:07:40.48,DCItalic,CONAN,0000,0000,0000,,The culprit wanted nine people to \Nshow up for a variety of reasons.
+Dialogue: 0,0:07:42.35,0:07:47.91,DCItalic,CONAN,0000,0000,0000,,Which means that fourth code indicates \Nwhere the next crime scene will be.
+Dialogue: 0,0:07:49.01,0:07:50.99,DCItalic,CONAN,0000,0000,0000,,I see exactly what's going on now.
+Dialogue: 0,0:07:51.66,0:07:55.49,DCItalic,CONAN,0000,0000,0000,,I know whose life will be ended next,
+Dialogue: 0,0:07:56.09,0:08:02.75,DCItalic,CONAN,0000,0000,0000,,and the identity of the murderer \Nwho intends to kill them.
+Dialogue: 0,0:08:16.03,0:08:17.30,DCMain,KOURA,0000,0000,0000,,Nishino-kun.
+Dialogue: 0,0:08:17.58,0:08:19.37,DCMain,KOURA,0000,0000,0000,,Come on out.
+Dialogue: 0,0:08:19.37,0:08:21.71,DCMain,KOURA,0000,0000,0000,,Don't stay locked up inside the study.
+Dialogue: 0,0:08:22.94,0:08:25.19,DCMain,KOURA,0000,0000,0000,,It's safer for all of us to stick together.
+Dialogue: 0,0:08:25.70,0:08:28.65,DCMain,KOURA,0000,0000,0000,,Nobody thinks you did it, Nishino-kun!
+Dialogue: 0,0:08:28.65,0:08:29.82,DCMain,NISHINO,0000,0000,0000,,Of course I didn't do it.
+Dialogue: 0,0:08:30.33,0:08:35.57,DCMain,NISHINO,0000,0000,0000,,I'm the one who drew the lot that sent Wada \Nto the toilet where the crossbow was rigged,
+Dialogue: 0,0:08:35.84,0:08:37.64,DCMain,NISHINO,0000,0000,0000,,but I couldn't have cheated.
+Dialogue: 0,0:08:38.56,0:08:41.25,DCMain,NISHINO,0000,0000,0000,,When we went to investigate \Nthe strange sound,
+Dialogue: 0,0:08:41.53,0:08:45.75,DCMain,NISHINO,0000,0000,0000,,Kawasaki's expression changed when \Nhe received a text from someone,
+Dialogue: 0,0:08:46.13,0:08:51.32,DCMain,NISHINO,0000,0000,0000,,and he ran off to the bath \Nwhere he was poisoned,
+Dialogue: 0,0:08:51.32,0:08:53.51,DCMain,NISHINO,0000,0000,0000,,but that wasn't my fault.
+Dialogue: 0,0:08:53.90,0:08:57.51,DCMain,NISHINO,0000,0000,0000,,So I'm not leaving this room \Nuntil the police arrive.
+Dialogue: 0,0:08:58.27,0:09:00.49,DCMain,NISHINO,0000,0000,0000,,You guys will try to pin it on me.
+Dialogue: 0,0:09:00.49,0:09:01.01,DCMain,FUJIDE,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:02.13,0:09:05.81,DCItalic,FUJIDE,0000,0000,0000,,A text? From Nishino, who's \Nholed up in the study right now?
+Dialogue: 0,0:09:08.06,0:09:10.82,Text,SIGN,0000,0000,0000,,No subject \NI know who did it! I'll tell you who it is, so come to \Nthe study through the ceiling without anyone noticing you. \NNishino Sumiya
+Dialogue: 0,0:09:09.21,0:09:10.82,DCItalic,FUJIDE,0000,0000,0000,,He figured out who did it?
+Dialogue: 0,0:09:17.97,0:09:19.14,DCItalic,FUJIDE,0000,0000,0000,,I think...
+Dialogue: 0,0:09:21.93,0:09:24.33,DCItalic,FUJIDE,0000,0000,0000,,the study should be around here.
+Dialogue: 0,0:09:29.76,0:09:30.65,DCMain,NISHINO,0000,0000,0000,,You came.
+Dialogue: 0,0:09:31.09,0:09:34.48,DCMain,NISHINO,0000,0000,0000,,I'll bring some tables and chairs over so \Nit's easier for you to get down. Wait there.
+Dialogue: 0,0:09:41.11,0:09:43.87,DCMain,FUJIDE,0000,0000,0000,,So, who's the culprit?
+Dialogue: 0,0:09:43.87,0:09:46.06,DCMain,NISHINO,0000,0000,0000,,First, take a look at this paper.
+Dialogue: 0,0:09:48.44,0:09:50.61,DCMain,FUJIDE,0000,0000,0000,,You found a new code?
+Dialogue: 0,0:09:50.94,0:09:53.87,DCMain,FUJIDE,0000,0000,0000,,Unfortunately, I can't read it.
+Dialogue: 0,0:09:53.87,0:09:54.44,DCMain,FUJIDE,0000,0000,0000,,Huh?
+Dialogue: 0,0:09:56.01,0:09:57.25,DCMain,NISHINO,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:09:57.25,0:09:59.16,DCMain,NISHINO,0000,0000,0000,,Don't poison me!
+Dialogue: 0,0:09:59.16,0:09:59.87,DCMain,FUJIDE,0000,0000,0000,,Hey.
+Dialogue: 0,0:10:00.06,0:10:02.83,DCMain,NISHINO,0000,0000,0000,,I don't want to die!
+Dialogue: 0,0:10:03.18,0:10:05.68,DCMain,NISHINO,0000,0000,0000,,Don't kill me!
+Dialogue: 0,0:10:06.57,0:10:09.08,DCMain,KOGORO,0000,0000,0000,,Then don't swallow it.
+Dialogue: 0,0:10:09.63,0:10:10.13,DCMain,NISHINO,0000,0000,0000,,Huh?
+Dialogue: 0,0:10:10.50,0:10:12.50,DCMain,KOGORO,0000,0000,0000,,That capsule in your right hand.
+Dialogue: 0,0:10:18.89,0:10:20.03,DCMain,KOGORO,0000,0000,0000,,That poison.
+Dialogue: 0,0:10:22.61,0:10:24.12,DCMain,NISHINO,0000,0000,0000,,Wh-What?
+Dialogue: 0,0:10:24.12,0:10:31.46,DCMain,WAKITA,0000,0000,0000,,That's the plastic bottle you \Ngot from Fujide-san's bag.
+Dialogue: 0,0:10:31.83,0:10:35.53,DCMain,WAKITA,0000,0000,0000,,Naturally, Fujide-san's \Nfingerprints are on it.
+Dialogue: 0,0:10:35.76,0:10:40.03,DCMain,WAKITA,0000,0000,0000,,If we testify that we heard your \Nscreams from outside the room,
+Dialogue: 0,0:10:40.47,0:10:44.03,DCMain,WAKITA,0000,0000,0000,,the police would probably think
+Dialogue: 0,0:10:44.30,0:10:50.54,DCMain,WAKITA,0000,0000,0000,,that Fujide-san snuck in here through \Nthe ceiling and poisoned you.
+Dialogue: 0,0:10:51.14,0:10:55.68,DCMain,WAKITA,0000,0000,0000,,Even if Fujide-san claims that he received \Na text from you telling him to come here,
+Dialogue: 0,0:10:55.68,0:10:59.20,DCMain,WAKITA,0000,0000,0000,,if you leave the phone used to \Nsend that message in this room,
+Dialogue: 0,0:10:59.20,0:11:03.05,DCMain,WAKITA,0000,0000,0000,,they'd assume he sent that text to himself.
+Dialogue: 0,0:11:03.66,0:11:06.53,DCMain,NISHINO,0000,0000,0000,,No, you're wrong.
+Dialogue: 0,0:11:06.53,0:11:11.06,DCMain,NISHINO,0000,0000,0000,,I just panicked because you all \Ncame down from the ceiling.
+Dialogue: 0,0:11:12.00,0:11:16.94,DCMain,NISHINO,0000,0000,0000,,And like I said earlier, it was a coincidence \Nthat Wada and Kawasaki were killed.
+Dialogue: 0,0:11:17.31,0:11:20.45,DCMain,AMURO,0000,0000,0000,,No, it was inevitable.
+Dialogue: 0,0:11:20.84,0:11:23.35,DCMain,AMURO,0000,0000,0000,,You made Wada-san head to the toilet
+Dialogue: 0,0:11:23.35,0:11:27.78,DCMain,AMURO,0000,0000,0000,,where the crossbow was rigged using a trick.
+Dialogue: 0,0:11:27.78,0:11:29.16,DCMain,NISHINO,0000,0000,0000,,A trick?
+Dialogue: 0,0:11:29.76,0:11:31.16,DCMain,AMURO,0000,0000,0000,,When you don't have scissors,
+Dialogue: 0,0:11:31.58,0:11:34.10,DCMain,AMURO,0000,0000,0000,,cutting one sheet of paper \Ninto nine equal pieces
+Dialogue: 0,0:11:34.10,0:11:38.95,DCMain,AMURO,0000,0000,0000,,creates one piece with four \Ntorn edges in the center.
+Dialogue: 0,0:11:39.85,0:11:43.18,DCMain,AMURO,0000,0000,0000,,By giving that piece to Wada-san and \Nmaking him write his name on it,
+Dialogue: 0,0:11:43.94,0:11:45.92,DCMain,AMURO,0000,0000,0000,,even after putting it inside the tissue box,
+Dialogue: 0,0:11:46.18,0:11:51.22,DCMain,AMURO,0000,0000,0000,,you could identify it using the torn edges.
+Dialogue: 0,0:11:51.95,0:11:54.79,DCMain,KOURA,0000,0000,0000,,I thought he drew them \Nrelatively quickly, though.
+Dialogue: 0,0:11:55.25,0:11:59.72,DCMain,AMURO,0000,0000,0000,,Since eight out of nine sheets have untorn \Nedges, he prioritized choosing those,
+Dialogue: 0,0:11:59.72,0:12:06.45,DCMain,AMURO,0000,0000,0000,,and left the person he wanted to \Nsend to the bathroom for last.
+Dialogue: 0,0:12:07.14,0:12:11.20,DCMain,NISHINO,0000,0000,0000,,But what about the mint cases?
+Dialogue: 0,0:12:12.73,0:12:18.17,DCMain,NISHINO,0000,0000,0000,,Because the last remaining case happened to \Ncontain mints, Kawasaki and I were chosen.
+Dialogue: 0,0:12:18.36,0:12:19.82,DCMain,CONAN,0000,0000,0000,,Hey, Mister.
+Dialogue: 0,0:12:19.82,0:12:23.80,DCMain,CONAN,0000,0000,0000,,You said you felt like all \Nthe cases were losers, right?
+Dialogue: 0,0:12:24.97,0:12:25.66,DCMain,KOGORO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:25.66,0:12:28.39,DCMain,KOGORO,0000,0000,0000,,None of the cases gave me a bad feeling.
+Dialogue: 0,0:12:28.73,0:12:30.55,DCMain,CONAN,0000,0000,0000,,Of course they didn't.
+Dialogue: 0,0:12:31.04,0:12:34.77,DCMain,CONAN,0000,0000,0000,,After all, all the cases were empty then.
+Dialogue: 0,0:12:38.45,0:12:39.91,DCMain,FUJIDE,0000,0000,0000,,What do you mean?
+Dialogue: 0,0:12:39.91,0:12:41.74,DCMain,CONAN,0000,0000,0000,,It's a simple trick.
+Dialogue: 0,0:12:41.90,0:12:46.02,DCMain,CONAN,0000,0000,0000,,If I shake the case using my left hand,
+Dialogue: 0,0:12:46.02,0:12:47.83,DCMain,CONAN,0000,0000,0000,,it doesn't make a sound, but \Nwhen I shake it with my right...
+Dialogue: 0,0:12:48.77,0:12:50.87,DCMain,CONAN,0000,0000,0000,,See? It makes a noise.
+Dialogue: 0,0:12:51.84,0:12:53.05,DCMain,KOURA,0000,0000,0000,,You're right.
+Dialogue: 0,0:12:53.05,0:13:01.05,DCMain,CONAN,0000,0000,0000,,It's because I have a spare case with \Nmints tucked inside my right sleeve.
+Dialogue: 0,0:13:06.28,0:13:12.85,DCMain,CONAN,0000,0000,0000,,Since Nishino-san said he brought plenty of \Nsnacks, he probably had spare mints, too.
+Dialogue: 0,0:13:13.10,0:13:18.12,DCMain,NISHINO,0000,0000,0000,,K-Kawasaki and I only went to check things out
+Dialogue: 0,0:13:18.12,0:13:20.36,DCMain,NISHINO,0000,0000,0000,,because we heard the sound of glass breaking.
+Dialogue: 0,0:13:20.88,0:13:25.85,DCMain,KOGORO,0000,0000,0000,,If you set the ringtone of a phone you \Nhid in this abandoned church beforehand
+Dialogue: 0,0:13:25.85,0:13:28.34,DCMain,KOGORO,0000,0000,0000,,to the sound of breaking glass,
+Dialogue: 0,0:13:28.34,0:13:30.37,DCMain,KOGORO,0000,0000,0000,,you could've made it ring anytime.
+Dialogue: 0,0:13:30.37,0:13:34.92,DCMain,NISHINO,0000,0000,0000,,Maybe so, but it's true that \Nwhen we went to investigate,
+Dialogue: 0,0:13:34.92,0:13:40.75,DCMain,NISHINO,0000,0000,0000,,Kawasaki's expression changed after seeing \Na text from someone, and then he ran off.
+Dialogue: 0,0:13:41.17,0:13:45.90,DCMain,NISHINO,0000,0000,0000,,When Kawasaki was poisoned \Nin the bath and shouted,
+Dialogue: 0,0:13:45.90,0:13:48.31,DCMain,NISHINO,0000,0000,0000,,I was with you guys.
+Dialogue: 0,0:13:49.07,0:13:54.64,DCMain,AMURO,0000,0000,0000,,You swiped Kawasaki-san's phone \Nand poured honey on the screen,
+Dialogue: 0,0:13:55.22,0:13:59.15,DCMain,AMURO,0000,0000,0000,,so that Kawasaki-san would remove his gloves
+Dialogue: 0,0:13:59.52,0:14:01.40,DCMain,AMURO,0000,0000,0000,,and touch it when he received a text.
+Dialogue: 0,0:14:01.89,0:14:04.74,DCMain,AMURO,0000,0000,0000,,With honey on his fingers,
+Dialogue: 0,0:14:04.74,0:14:08.91,DCMain,AMURO,0000,0000,0000,,he'd be forced to run into the \Nnearby bath and wash his hands.
+Dialogue: 0,0:14:09.33,0:14:10.41,DCMain,CONAN,0000,0000,0000,,Come to think of it,
+Dialogue: 0,0:14:10.68,0:14:14.54,DCMain,CONAN,0000,0000,0000,,Kawasaki-san held his handkerchief in \Nhis mouth when he washed his hands.
+Dialogue: 0,0:14:14.76,0:14:20.21,DCMain,WAKITA,0000,0000,0000,,By swiping that handkerchief and applying \Npoison to the section he'd bite,
+Dialogue: 0,0:14:20.85,0:14:25.00,DCMain,WAKITA,0000,0000,0000,,since Kawasaki-san drank water \Nafter every activity he completed,
+Dialogue: 0,0:14:25.67,0:14:29.93,DCMain,WAKITA,0000,0000,0000,,he'd swallow the poison on his \Nlips along with the water.
+Dialogue: 0,0:14:31.13,0:14:34.08,DCMain,NISHINO,0000,0000,0000,,Whoa, whoa, whoa.
+Dialogue: 0,0:14:34.31,0:14:37.73,DCMain,NISHINO,0000,0000,0000,,You guys have been going on about tricks, \Nslight of hand, and swiping objects,
+Dialogue: 0,0:14:38.14,0:14:40.35,DCMain,NISHINO,0000,0000,0000,,but it's not like I'm a \Nprofessional pickpocket.
+Dialogue: 0,0:14:40.35,0:14:44.44,DCMain,KOGORO,0000,0000,0000,,You're a magician, aren't you?
+Dialogue: 0,0:14:44.65,0:14:45.31,DCMain,NISHINO,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:48.44,0:14:53.12,DCMain,KOGORO,0000,0000,0000,,A magician-turned-pickpocket I arrested \Nlong ago happened to say the same thing.
+Dialogue: 0,0:14:53.36,0:14:54.37,DCMain,NISHINO,0000,0000,0000,,Hold on.
+Dialogue: 0,0:14:54.74,0:14:59.08,DCMain,NISHINO,0000,0000,0000,,There's an odd stain on the top card.
+Dialogue: 0,0:14:59.50,0:15:03.99,DCMain,KOGORO,0000,0000,0000,,When holding a deck of cards face down,
+Dialogue: 0,0:15:04.52,0:15:06.96,DCMain,KOGORO,0000,0000,0000,,he referred to the deck's \N"top" and "bottom" cards.
+Dialogue: 0,0:15:07.63,0:15:11.47,DCMain,KOGORO,0000,0000,0000,,I'm sure a magician could \Nswipe a phone or handkerchief.
+Dialogue: 0,0:15:11.82,0:15:14.64,DCMain,KOGORO,0000,0000,0000,,While receiving a drink from Fujide-san,
+Dialogue: 0,0:15:15.07,0:15:19.85,DCMain,KOGORO,0000,0000,0000,,you apparently put a stack of \Nblank code sheets in his bag.
+Dialogue: 0,0:15:20.40,0:15:23.36,DCMain,NISHINO,0000,0000,0000,,I don't know what you're talking about.
+Dialogue: 0,0:15:23.96,0:15:27.21,DCMain,AMURO,0000,0000,0000,,You invited nine people \Nto this abandoned church
+Dialogue: 0,0:15:27.21,0:15:32.24,DCMain,AMURO,0000,0000,0000,,because you wanted nine \Nlots for the first trick,
+Dialogue: 0,0:15:32.61,0:15:35.29,DCMain,AMURO,0000,0000,0000,,but also because it's the \Nkey to deciphering the code.
+Dialogue: 0,0:15:35.98,0:15:37.48,DCMain,AMURO,0000,0000,0000,,That's right.
+Dialogue: 0,0:15:38.67,0:15:39.75,DCMain,AMURO,0000,0000,0000,,It's baseball.
+Dialogue: 0,0:15:39.94,0:15:44.24,DCMain,AMURO,0000,0000,0000,,You initially called Wada-san the wife,
+Dialogue: 0,0:15:44.24,0:15:46.48,DCMain,AMURO,0000,0000,0000,,probably because he was the catcher.
+Dialogue: 0,0:15:47.75,0:15:52.26,DCMain,AMURO,0000,0000,0000,,In other words, in high school, \Nyou were on a baseball team.
+Dialogue: 0,0:15:54.24,0:15:58.64,DCMain,AMURO,0000,0000,0000,,If baseball is the key word, then \Nthat code can be solved easily.
+Dialogue: 0,0:15:59.31,0:16:03.11,DCMain,AMURO,0000,0000,0000,,In high school baseball, the players' numbers \Nare determined by their defensive positions.
+Dialogue: 0,0:16:03.54,0:16:08.34,DCMain,AMURO,0000,0000,0000,,If the square thickly outlined in \Nthe middle represents the infield,
+Dialogue: 0,0:16:08.53,0:16:13.41,1,SIGN,0000,0000,0000,,{\fad(85,1)}1 Pitcher
+Dialogue: 0,0:16:08.85,0:16:12.91,DCMain,AMURO,0000,0000,0000,,then you simply read the nine letters \Nin the order of the player numbers.
+Dialogue: 0,0:16:08.91,0:16:13.41,2,SIGN,0000,0000,0000,,{\fad(85,1)}2 Catcher
+Dialogue: 0,0:16:09.29,0:16:13.41,3,SIGN,0000,0000,0000,,{\fad(85,1)}3 First
+Dialogue: 0,0:16:09.66,0:16:13.41,4,SIGN,0000,0000,0000,,{\fad(85,1)}4 Second
+Dialogue: 0,0:16:10.04,0:16:13.41,5,SIGN,0000,0000,0000,,{\fad(85,1)}5 Third
+Dialogue: 0,0:16:10.41,0:16:13.41,6,SIGN,0000,0000,0000,,{\fad(85,1)}6 Shortstop
+Dialogue: 0,0:16:10.79,0:16:13.41,7,SIGN,0000,0000,0000,,{\fad(85,1)}7 Left
+Dialogue: 0,0:16:11.16,0:16:13.41,8,SIGN,0000,0000,0000,,{\fad(85,1)}8 Center
+Dialogue: 0,0:16:11.54,0:16:13.41,9,SIGN,0000,0000,0000,,{\fad(85,1)}9 Right
+Dialogue: 0,0:16:13.92,0:16:18.60,DCMain,AMURO,0000,0000,0000,,Based on that, the code \Nwe first received reads,
+Dialogue: 0,0:16:19.25,0:16:21.16,DCMain,AMURO,0000,0000,0000,,"It's time to play ball."
+Dialogue: 0,0:16:23.22,0:16:24.77,DCItalic,NISHINO,0000,0000,0000,,Yeesh!
+Dialogue: 0,0:16:24.77,0:16:27.79,DCItalic,WADA,0000,0000,0000,,The deck collapsed, and all the cars \Nhave fallen to the bottom of the ravine.
+Dialogue: 0,0:16:28.00,0:16:32.75,DCMain,AMURO,0000,0000,0000,,The code we found next stuck \Nto the chapel door reads,
+Dialogue: 0,0:16:33.21,0:16:35.05,DCMain,AMURO,0000,0000,0000,,"One out in the toilet."
+Dialogue: 0,0:16:37.56,0:16:41.26,DCMain,AMURO,0000,0000,0000,,The code we found in the \Nrooms we searched reads,
+Dialogue: 0,0:16:41.71,0:16:43.31,DCMain,AMURO,0000,0000,0000,,"Two outs in the bath."
+Dialogue: 0,0:16:45.86,0:16:48.48,DCMain,AMURO,0000,0000,0000,,The code found next to \NKawasaki-san's body reads,
+Dialogue: 0,0:16:48.89,0:16:50.38,DCMain,AMURO,0000,0000,0000,,"Three outs in the study."
+Dialogue: 0,0:16:53.34,0:16:58.51,DCMain,AMURO,0000,0000,0000,,And the code you just handed Fujide-san \Nsignifying a perfect crime reads,
+Dialogue: 0,0:16:58.92,0:17:00.70,DCMain,AMURO,0000,0000,0000,,"Perfect game."
+Dialogue: 0,0:17:01.25,0:17:07.80,DCMain,AMURO,0000,0000,0000,,By hiding the blank code sheets in Fujide-san's \Nbag, you wanted to make us believe
+Dialogue: 0,0:17:07.80,0:17:17.03,DCMain,AMURO,0000,0000,0000,,that after gathering his high school \Nclassmates here, killing himself and two others,
+Dialogue: 0,0:17:17.50,0:17:23.35,DCMain,AMURO,0000,0000,0000,,and leaving behind an indecipherable \Ncode at the crime scenes,
+Dialogue: 0,0:17:24.00,0:17:26.51,DCMain,AMURO,0000,0000,0000,,Fujide Raito-san was gloating over \Ncommitting the perfect crime.
+Dialogue: 0,0:17:27.53,0:17:31.36,DCMain,AMURO,0000,0000,0000,,Later, once the police discovered that the \Nvictims were on the same baseball team,
+Dialogue: 0,0:17:31.36,0:17:33.99,DCMain,AMURO,0000,0000,0000,,this code would be solved eventually.
+Dialogue: 0,0:17:33.99,0:17:36.11,DCMain,KOGORO,0000,0000,0000,,I don't get it, though.
+Dialogue: 0,0:17:36.40,0:17:39.49,DCMain,KOGORO,0000,0000,0000,,I understand you inviting Fujide-san \Nso you could frame him,
+Dialogue: 0,0:17:39.65,0:17:42.03,DCMain,KOGORO,0000,0000,0000,,but why invite Ikue-san?
+Dialogue: 0,0:17:42.03,0:17:44.50,DCMain,KOGORO,0000,0000,0000,,Was it just to have nine people?
+Dialogue: 0,0:17:45.18,0:17:47.40,DCMain,NISHINO,0000,0000,0000,,I wanted to show Ikue
+Dialogue: 0,0:17:48.37,0:17:53.38,DCMain,NISHINO,0000,0000,0000,,that Fujide, the man you dumped your \Nhigh school boyfriend Nichihara for,
+Dialogue: 0,0:17:53.66,0:17:55.88,DCMain,NISHINO,0000,0000,0000,,is unbelievably evil.
+Dialogue: 0,0:17:55.88,0:17:58.89,DCMain,FUJIDE,0000,0000,0000,,E-Evil? What are you talking about?
+Dialogue: 0,0:18:00.17,0:18:02.39,DCMain,NISHINO,0000,0000,0000,,I'm sure you guys have heard
+Dialogue: 0,0:18:03.04,0:18:07.57,DCMain,NISHINO,0000,0000,0000,,about the nine-error five-inning \Nmercy ruled perfect game.
+Dialogue: 0,0:18:07.57,0:18:10.41,DCMain,KOGORO,0000,0000,0000,,Yeah, between Nagano Kawanaka Academy
+Dialogue: 0,0:18:09.45,0:18:13.37,Headline,TOP RIGHT SIGN,0000,0000,0000,,{\fad(1000,210)}Sports \N9 Consecutive Errors, 5 Inning \NMercy Ruled Perfect Game!!
+Dialogue: 0,0:18:10.41,0:18:13.53,DCMain,KOGORO,0000,0000,0000,,and the high school attached \Nto Shinano University.
+Dialogue: 0,0:18:14.12,0:18:18.91,DCMain,KOGORO,0000,0000,0000,,Were you guys members of the Kawanaka \NAcademy baseball team that lost that game?
+Dialogue: 0,0:18:19.09,0:18:22.72,DCMain,NISHINO,0000,0000,0000,,Yeah. I didn't play
+Dialogue: 0,0:18:22.72,0:18:26.30,DCMain,NISHINO,0000,0000,0000,,because I was injured in the \Nquarterfinal regional preliminary game,
+Dialogue: 0,0:18:26.30,0:18:29.21,DCMain,NISHINO,0000,0000,0000,,but I could tell from the other side of the TV
+Dialogue: 0,0:18:29.71,0:18:33.68,DCMain,NISHINO,0000,0000,0000,,that these guys lost that game on purpose!
+Dialogue: 0,0:18:34.56,0:18:35.67,DCMain,KOGORO,0000,0000,0000,,They threw the game?
+Dialogue: 0,0:18:35.86,0:18:39.75,DCMain,NISHINO,0000,0000,0000,,Wada, Kawasaki, and Fujide were \Ncommitting errors like crazy.
+Dialogue: 0,0:18:39.75,0:18:43.49,DCMain,NISHINO,0000,0000,0000,,Since they got into Shinano University, \Nthey must've had a secret agreement.
+Dialogue: 0,0:18:43.93,0:18:47.30,DCMain,NISHINO,0000,0000,0000,,The Shinano University high \Nschool lost in the finals,
+Dialogue: 0,0:18:47.30,0:18:51.19,DCMain,NISHINO,0000,0000,0000,,but they became famous for their strength \Nin academics and sports after that game.
+Dialogue: 0,0:18:51.58,0:18:56.44,DCMain,NISHINO,0000,0000,0000,,And at that time, our team's \Nace was Nichihara Taisei.
+Dialogue: 0,0:18:56.93,0:18:59.80,DCMain,NISHINO,0000,0000,0000,,Since he was a kid, he pitched crazy fast.
+Dialogue: 0,0:18:59.80,0:19:05.11,DCMain,NISHINO,0000,0000,0000,,People thought he'd be drafted, but \Nhis reputation tanked after that game.
+Dialogue: 0,0:19:05.11,0:19:06.45,DCMain,NISHINO,0000,0000,0000,,When he wasn't drafted,
+Dialogue: 0,0:19:06.64,0:19:08.81,DCMain,NISHINO,0000,0000,0000,,he unsuccessfully tried \Nto join non-association
+Dialogue: 0,0:19:08.81,0:19:11.26,DCMain,NISHINO,0000,0000,0000,,and independent leagues \Nand ended up a free agent,
+Dialogue: 0,0:19:11.82,0:19:16.84,DCMain,NISHINO,0000,0000,0000,,so he hung himself in this church where \Nwe used to play baseball as kids.
+Dialogue: 0,0:19:17.96,0:19:23.89,DCMain,NISHINO,0000,0000,0000,,All because they threw the game \Nand I wasn't there to stop it!
+Dialogue: 0,0:19:24.28,0:19:25.89,DCMain,KOURA,0000,0000,0000,,Is that true?
+Dialogue: 0,0:19:26.53,0:19:28.89,DCMain,FUJIDE,0000,0000,0000,,It's true that we lost on purpose.
+Dialogue: 0,0:19:29.70,0:19:31.54,DCMain,FUJIDE,0000,0000,0000,,But it wasn't to get into college.
+Dialogue: 0,0:19:31.54,0:19:33.10,DCMain,FUJIDE,0000,0000,0000,,We did it for Nicchi.
+Dialogue: 0,0:19:33.10,0:19:35.78,DCMain,NISHINO,0000,0000,0000,,Huh? What are you talking about?
+Dialogue: 0,0:19:36.40,0:19:41.38,DCMain,FUJIDE,0000,0000,0000,,We won the first game 1-0 in extra \Ninnings at the bottom of the 14th.
+Dialogue: 0,0:19:41.38,0:19:45.76,DCMain,FUJIDE,0000,0000,0000,,The second game ended in \Na tie after 15 innings,
+Dialogue: 0,0:19:46.03,0:19:50.50,DCMain,FUJIDE,0000,0000,0000,,and we barely won the \Nrematch 1-0 in 13 innings.
+Dialogue: 0,0:19:50.96,0:19:53.31,DCMain,FUJIDE,0000,0000,0000,,Because he played 42 innings
+Dialogue: 0,0:19:53.31,0:19:56.25,DCMain,FUJIDE,0000,0000,0000,,and threw roughly 1,000 pitches \Nin such a short amount of time,
+Dialogue: 0,0:19:56.72,0:19:59.28,DCMain,FUJIDE,0000,0000,0000,,Nicchi's shoulder was at its limit.
+Dialogue: 0,0:20:00.07,0:20:03.56,DCMain,FUJIDE,0000,0000,0000,,We didn't intend to lose from the beginning,
+Dialogue: 0,0:20:03.56,0:20:06.26,DCMain,FUJIDE,0000,0000,0000,,but once we started to \Nfall behind, Wada said,
+Dialogue: 0,0:20:06.81,0:20:10.15,DCMain,FUJIDE,0000,0000,0000,,"Let's get the mercy rule invoked \Nfor the sake of Nicchi's future."
+Dialogue: 0,0:20:10.58,0:20:13.90,DCMain,FUJIDE,0000,0000,0000,,"He'd insist on pitching \Nuntil the end otherwise."
+Dialogue: 0,0:20:14.76,0:20:17.83,DCMain,FUJIDE,0000,0000,0000,,But Nicchi's shoulder was already shot.
+Dialogue: 0,0:20:17.83,0:20:20.40,DCMain,KOURA,0000,0000,0000,,He's the one who dumped me.
+Dialogue: 0,0:20:20.40,0:20:23.53,DCMain,KOURA,0000,0000,0000,,He said he couldn't make me happy \Nwith his body the way it was.
+Dialogue: 0,0:20:24.60,0:20:26.03,DCMain,NISHINO,0000,0000,0000,,No...
+Dialogue: 0,0:20:26.26,0:20:30.30,DCMain,FUJIDE,0000,0000,0000,,It was a coincidence that we \Ngot into Shinano University.
+Dialogue: 0,0:20:30.30,0:20:35.04,DCMain,KOURA,0000,0000,0000,,We all apologized to him after the \Ngame, but because you weren't there...
+Dialogue: 0,0:20:37.99,0:20:39.21,DCMain,NISHINO,0000,0000,0000,,What...
+Dialogue: 0,0:20:42.32,0:20:44.68,DCMain,NISHINO,0000,0000,0000,,What have I done?
+Dialogue: 0,0:20:48.55,0:20:53.66,DCItalic,CONAN,0000,0000,0000,,The murderer didn't speak a word \Nafter that, but outside the church,
+Dialogue: 0,0:20:53.66,0:20:55.84,DCItalic,CONAN,0000,0000,0000,,the blizzard continued to blow,
+Dialogue: 0,0:20:56.48,0:21:00.56,DCItalic,CONAN,0000,0000,0000,,as though it was sobbing his remorse for him.
+Dialogue: 0,0:22:23.85,0:22:27.57,DCItalic,CONAN,0000,0000,0000,,Three hours later, the blizzard \Nstopped, and dawn broke.
+Dialogue: 0,0:22:28.08,0:22:31.32,DCItalic,CONAN,0000,0000,0000,,Nagano police cars arrived in droves.
+Dialogue: 0,0:22:32.40,0:22:35.26,DCMain,YAMATO,0000,0000,0000,,I can't believe two people were killed.
+Dialogue: 0,0:22:35.26,0:22:36.58,DCMain,KOGORO,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:22:36.58,0:22:38.96,DCMain,YUI,0000,0000,0000,,Conan-kun, good to see you again.
+Dialogue: 0,0:22:39.78,0:22:42.45,DCMain,YAMATO,0000,0000,0000,,So, who are those two guys behind you?
+Dialogue: 0,0:22:43.10,0:22:46.46,DCMain,AMURO,0000,0000,0000,,I'm Mori-sensei's number \None student Amuro Toru.
+Dialogue: 0,0:22:46.46,0:22:49.48,DCMain,WAKITA,0000,0000,0000,,And I'm his number two \Nstudent Wakita Kanenori.
+Dialogue: 0,0:22:50.49,0:22:53.36,DCItalic,YAMATO,0000,0000,0000,,This bum has two students?
+Dialogue: 0,0:22:53.36,0:22:56.16,DCItalic,YUI,0000,0000,0000,,Wow, just like Komon-sama.
+Dialogue: 0,0:22:56.16,0:22:59.39,DCMain,YAMATO,0000,0000,0000,,Komei, let's start inspecting \Nthe crime scene.
+Dialogue: 0,0:23:07.74,0:23:08.53,DCMain,TAKAAKI,0000,0000,0000,,Oh?
+Dialogue: 0,0:23:09.38,0:23:11.15,DCMain,TAKAAKI,0000,0000,0000,,We meet again,
+Dialogue: 0,0:23:13.32,0:23:14.62,DCMain,TAKAAKI,0000,0000,0000,,Mori-san.
+Dialogue: 0,0:23:14.62,0:23:16.95,DCMain,KOGORO,0000,0000,0000,,I haven't seen you since the Kid case.
+Dialogue: 0,0:23:18.40,0:23:20.60,DCMain,TAKAAKI,0000,0000,0000,,Who are those two?
+Dialogue: 0,0:23:20.60,0:23:23.13,DCMain,KOGORO,0000,0000,0000,,They're my students.
+Dialogue: 0,0:23:23.81,0:23:26.50,DCMain,YAMATO,0000,0000,0000,,Komei, what are you doing \Nchatting over there?
+Dialogue: 0,0:23:26.70,0:23:28.05,DCMain,YAMATO,0000,0000,0000,,Hurry up.
+Dialogue: 0,0:23:28.05,0:23:29.51,DCMain,TAKAAKI,0000,0000,0000,,You're right.
+Dialogue: 0,0:23:29.79,0:23:31.53,DCMain,TAKAAKI,0000,0000,0000,,Every moment is precious.
+Dialogue: 0,0:23:31.53,0:23:34.26,DCMain,TAKAAKI,0000,0000,0000,,Not a moment should be wasted.
+Dialogue: 0,0:23:37.89,0:23:41.76,DCItalic,TAKAAKI,0000,0000,0000,,As they say, time is money.
+Dialogue: 0,0:23:44.98,0:23:47.48,DCNote,SIGN,0000,0000,0000,,I'll kill Sasano \NPrepare yourself
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,TEXT,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.36,0:23:46.76,DCMain,KOGORO,0000,0000,0000,,A death threat?
+Dialogue: 0,0:23:46.76,0:23:50.49,DCMain,MAN,0000,0000,0000,,Yes. That's what I wanted \Nto talk to you about.
+Dialogue: 0,0:23:50.49,0:23:53.49,DCMain,MAN,0000,0000,0000,,Apparently everyone has a \Ngrudge against the president.
+Dialogue: 0,0:23:53.72,0:23:56.24,DCMain,CONAN,0000,0000,0000,,That guy with the mustache \Nmust be the second.
+Dialogue: 0,0:23:57.02,0:23:59.75,DCMain,CONAN,0000,0000,0000,,That mustache looks just like \Nthe current president's.
+Dialogue: 0,0:24:02.73,0:24:04.75,DCMain,KOGORO,0000,0000,0000,,This is a murder.
+Dialogue: 0,0:24:05.14,0:24:07.50,DCMain,WOMAN,0000,0000,0000,,Tachikawa-san, I'm scared.
+Dialogue: 0,0:24:07.79,0:24:09.01,DCItalic,CONAN,0000,0000,0000,,Damn it.
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,Who Poisoned the Victim
+Dialogue: 0,0:24:09.54,0:24:13.26,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is, \N"Who Poisoned the Victim!"
+Dialogue: 0,0:24:30.03,0:24:34.95,Hint,TEXT,0000,0000,0000,,Facial Hair
+Dialogue: 0,0:24:30.97,0:24:32.69,DCMain,AMURO,0000,0000,0000,,Next Conan's hint.
+Dialogue: 0,0:24:33.18,0:24:34.45,DCMain,CONAN,0000,0000,0000,,Facial hair!
+Dialogue: 0,0:24:34.95,0:24:36.40,DCMain,KOGORO,0000,0000,0000,,{\an8}I accidentally cut my mustache!
+Dialogue: 0,0:24:34.95,0:24:39.95,Don'tMiss,TEXT,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.40,0:24:38.27,DCMain,WAKITA,0000,0000,0000,,{\an8}Stick some seaweed on your face.
+Dialogue: 0,0:24:38.27,0:24:39.24,DCMain,CONAN,0000,0000,0000,,{\an8}Good idea.

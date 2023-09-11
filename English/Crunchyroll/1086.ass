@@ -1,0 +1,413 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Shrine,Times New Roman,16,&H005B524C,&H000000FF,&H00EFEDE6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0020,0
+Style: Shrine2,Times New Roman,16,&H00877C79,&H000000FF,&H00E0D6D3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Shrine3,Times New Roman,18,&H00898080,&H000000FF,&H00E0D6D3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,0020,0100,0140,0
+Style: Shamoto,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00BE7081,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0030,0062,0
+Style: Kawano,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00B36E60,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0040,0062,0
+Style: Jinnai,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H008B5269,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0062,0
+Style: Prayers,Trebuchet MS,16,&H00402777,&H000000FF,&H00BDA3ED,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Prayers2,Trebuchet MS,22,&H00402777,&H000000FF,&H00BDA3ED,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0080,0020,0020,0
+Style: PoliceBox,Trebuchet MS,14,&H0083837C,&H000000FF,&H00C8C3BD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0110,0042,0
+Style: Haido,Trebuchet MS,18,&H00232845,&H000000FF,&H004B56B4,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0092,0020,0025,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.93,0:00:05.10,DCItalic,CONAN,0000,0000,0000,,Ran and Kazuha-chan \Nbrought me to Haido Shrine.
+Dialogue: 0,0:00:05.10,0:00:06.86,Shrine3,SIGN,0000,0000,0000,,Haido Shrine
+Dialogue: 0,0:00:05.61,0:00:07.96,DCItalic,CONAN,0000,0000,0000,,While waiting in line to receive stamps,
+Dialogue: 0,0:00:07.96,0:00:11.32,DCItalic,CONAN,0000,0000,0000,,I spotted Hattori hiding \Nhis face with a fox mask.
+Dialogue: 0,0:00:12.21,0:00:16.22,DCItalic,CONAN,0000,0000,0000,,Apparently he came to receive \Nhis own matchmaking stamp.
+Dialogue: 0,0:00:16.82,0:00:21.37,DCItalic,CONAN,0000,0000,0000,,Having purchased their charms and received \Ntheir stamps, the girls met up with us.
+Dialogue: 0,0:00:21.70,0:00:26.66,DCItalic,CONAN,0000,0000,0000,,Using my bowtie voice changer, \NHattori managed to fool them, but...
+Dialogue: 0,0:00:29.27,0:00:30.52,DCMain,HEIJI/KOMOTO,0000,0000,0000,,That scream...
+Dialogue: 0,0:00:30.52,0:00:32.24,DCMain,CONAN,0000,0000,0000,,It might've come from the rear steps.
+Dialogue: 0,0:00:34.09,0:00:41.10,Prayers2,SIGN,0000,0000,0000,,Matchmaking Prayers
+Dialogue: 0,0:00:34.47,0:00:41.10,DCMain,TAKAGI,0000,0000,0000,,The victim was MPD Investigation \NAssistance Police Lieutenant
+Dialogue: 0,0:00:41.51,0:00:44.85,DCMain,TAKAGI,0000,0000,0000,,Hidaka Soshi, 31 years old.
+Dialogue: 0,0:00:44.85,0:00:50.98,DCMain,SATO,0000,0000,0000,,His job was to memorize the faces of \Nwanted criminals and find and arrest them.
+Dialogue: 0,0:00:50.98,0:00:57.02,DCMain,SATO,0000,0000,0000,,If he said "three of them", then that \Nmeans there were three wanted criminals.
+Dialogue: 0,0:00:57.43,0:01:04.87,DCMain,SATO,0000,0000,0000,,Which means it's safe to assume one of you \Nthree wanted criminals here at Haido Shrine
+Dialogue: 0,0:01:04.87,0:01:10.00,DCMain,SATO,0000,0000,0000,,killed Lieutenant Hidaka.
+Dialogue: 0,0:01:12.85,0:01:14.82,DCItalic,CONAN,0000,0000,0000,,Beyond detective skills capable \Nof identifying the truth
+Dialogue: 0,0:01:14.82,0:01:17.03,DCItalic,CONAN,0000,0000,0000,,is the power to lead us \Nto what we should believe.
+Dialogue: 0,0:01:17.03,0:01:18.89,DCItalic,CONAN,0000,0000,0000,,Heiji exercises his detective \Nskills from behind a mask.
+Dialogue: 0,0:01:18.89,0:01:20.60,DCItalic,CONAN,0000,0000,0000,,What is the truth about \Nthe disappearing weapon?
+Dialogue: 0,0:01:20.60,0:01:22.29,DCItalic,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:22.29,0:01:24.25,DCItalic,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:24.25,0:01:26.92,DCItalic,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:07.95,0:03:13.96,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(375,1)}The Inauspicious Matchmaking \N(Part Two)
+Dialogue: 0,0:03:08.53,0:03:11.32,DCMain,CONAN,0000,0000,0000,,"The Inauspicious Matchmaking, Part Two!"
+Dialogue: 0,0:03:14.93,0:03:19.64,DCMain,SATO,0000,0000,0000,,Anyway, why did the three of them remain \Nat the shrine instead of running away?
+Dialogue: 0,0:03:20.91,0:03:25.36,DCMain,TAKAGI,0000,0000,0000,,It seems that each of them \Nhad a reason for staying.
+Dialogue: 0,0:03:26.25,0:03:32.31,DCMain,TAKAGI,0000,0000,0000,,Shamoto Tsurumi the shoplifter was tied \Nto a lamppost at the bicycle parking area
+Dialogue: 0,0:03:32.31,0:03:36.57,DCMain,TAKAGI,0000,0000,0000,,{\an8}using handcuffs and a bicycle cable lock.
+Dialogue: 0,0:03:32.52,0:03:36.44,Shamoto,SIGN,0000,0000,0000,,{\fad(375,375)}Shamoto Tsurumi (30) \NPickpocket and Shoplifter
+Dialogue: 0,0:03:36.57,0:03:39.66,DCMain,SATO,0000,0000,0000,,She was tied up with a bicycle cable lock?
+Dialogue: 0,0:03:39.66,0:03:42.92,DCMain,TAKAGI,0000,0000,0000,,Yes. The bicycle lot is just over there.
+Dialogue: 0,0:03:42.92,0:03:44.00,DCMain,TAKAGI,0000,0000,0000,,Would you like to take a look?
+Dialogue: 0,0:03:44.00,0:03:45.20,DCMain,SATO,0000,0000,0000,,Sure.
+Dialogue: 0,0:03:46.63,0:03:47.58,DCMain,SATO,0000,0000,0000,,I see.
+Dialogue: 0,0:03:47.98,0:03:53.33,DCMain,SATO,0000,0000,0000,,The handcuff chain was passed \Nthrough the cable lock, like this.
+Dialogue: 0,0:03:53.33,0:03:58.40,DCMain,TAKAGI,0000,0000,0000,,Both the handcuffs and cable belonged \Nto the victim Lieutenant Hidaka.
+Dialogue: 0,0:03:58.40,0:04:02.24,DCMain,SATO,0000,0000,0000,,But he could've handcuffed her \Ndirectly to the lamppost.
+Dialogue: 0,0:04:02.24,0:04:03.80,DCMain,SATO,0000,0000,0000,,Why did he use the cable?
+Dialogue: 0,0:04:03.80,0:04:07.74,DCMain,TSURUMI,0000,0000,0000,,That police officer did it \Nout of consideration for me.
+Dialogue: 0,0:04:08.35,0:04:14.35,DCMain,TSURUMI,0000,0000,0000,,At first he handcuffed me to the lamppost so \Nhe could pursue another wanted criminal,
+Dialogue: 0,0:04:14.35,0:04:17.36,DCMain,TSURUMI,0000,0000,0000,,but some kids who came to \Npark their bike mocked me.
+Dialogue: 0,0:04:17.76,0:04:20.66,DCFlashback,KID 1,0000,0000,0000,,This lady's handcuffed to the lamppost!
+Dialogue: 0,0:04:20.66,0:04:22.61,DCFlashback,KID 2,0000,0000,0000,,Did you do something bad?
+Dialogue: 0,0:04:22.61,0:04:26.74,DCMain,TSURUMI,0000,0000,0000,,So he used his bicycle cable lock instead.
+Dialogue: 0,0:04:27.15,0:04:29.88,DCMain,TSURUMI,0000,0000,0000,,If I leaned against the lamppost \Nwith my arms crossed,
+Dialogue: 0,0:04:29.88,0:04:32.62,DCMain,TSURUMI,0000,0000,0000,,it'd look like I was waiting for someone.
+Dialogue: 0,0:04:32.62,0:04:37.45,DCMain,SATO,0000,0000,0000,,Then you were handcuffed here \Nwhen the murder took place?
+Dialogue: 0,0:04:37.45,0:04:39.27,DCMain,TSURUMI,0000,0000,0000,,Yeah, that's right.
+Dialogue: 0,0:04:39.27,0:04:45.51,DCMain,TSURUMI,0000,0000,0000,,There's a police box across from the bike \Nlot exit, so I didn't feel like trying to run.
+Dialogue: 0,0:04:42.01,0:04:45.51,PoliceBox,SIGN,0000,0000,0000,,Haido Shrine Police Box
+Dialogue: 0,0:04:45.51,0:04:51.02,DCMain,SATO,0000,0000,0000,,But why didn't Lieutenant Hidaka \Nask for backup from the police box?
+Dialogue: 0,0:04:51.02,0:04:56.95,DCMain,TAKAGI,0000,0000,0000,,He did, but on their way here, the officer \Nwas instructed to go somewhere else.
+Dialogue: 0,0:04:56.95,0:04:59.90,DCMain,TAKAGI,0000,0000,0000,,There was a fight at the shrine entrance.
+Dialogue: 0,0:05:01.01,0:05:04.28,DCMain,KAWANO,0000,0000,0000,,I'm the one who started that fight.
+Dialogue: 0,0:05:04.62,0:05:08.29,DCMain,KAWANO,0000,0000,0000,,While hurrying through this torii gate,
+Dialogue: 0,0:05:08.29,0:05:13.54,DCMain,KAWANO,0000,0000,0000,,I bumped into some thugs \Nand got into a fight.
+Dialogue: 0,0:05:13.54,0:05:18.54,DCMain,KAWANO,0000,0000,0000,,{\an8}The police box officer showed up \Nwhile we were going at it.
+Dialogue: 0,0:05:13.87,0:05:17.79,Kawano,SIGN,0000,0000,0000,,{\fad(375,375)}Kawano Torahiko (38) \NDriving Without a License and Hit-and-Run
+Dialogue: 0,0:05:18.95,0:05:23.92,DCMain,SATO,0000,0000,0000,,You were in a hurry because you realized \NLieutenant Hidaka spotted you, right?
+Dialogue: 0,0:05:23.92,0:05:30.55,DCMain,KAWANO,0000,0000,0000,,Yeah. I got the sense he was a cop when \NI saw him chasing after that shoplifter.
+Dialogue: 0,0:05:30.87,0:05:35.90,DCMain,SATO,0000,0000,0000,,Then why didn't you sidestep \Nthose thugs and leave?
+Dialogue: 0,0:05:35.90,0:05:38.98,DCMain,SATO,0000,0000,0000,,Aren't you a former boxer?
+Dialogue: 0,0:05:39.30,0:05:42.52,DCMain,KAWANO,0000,0000,0000,,Those thugs got cheeky with me.
+Dialogue: 0,0:05:42.52,0:05:45.42,DCMain,KAWANO,0000,0000,0000,,I blew my top.
+Dialogue: 0,0:05:45.42,0:05:50.93,DCMain,HEIJI/KOMOTO,0000,0000,0000,,You weren't trying to use the thugs' \Nblood to hide the police officer's blood
+Dialogue: 0,0:05:50.93,0:05:55.50,DCMain,HEIJI/KOMOTO,0000,0000,0000,,that got on you when you \Nstruck him, were you?
+Dialogue: 0,0:05:55.50,0:05:56.83,DCMain,KAWANO,0000,0000,0000,,What did you say?
+Dialogue: 0,0:05:56.83,0:06:00.05,DCMain,KAWANO,0000,0000,0000,,Why would I use a flag, anyway?
+Dialogue: 0,0:06:00.05,0:06:02.91,DCMain,KAWANO,0000,0000,0000,,I'd hit him with my fists.
+Dialogue: 0,0:06:02.91,0:06:07.55,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Maybe you've lost your boxing skills \Nand couldn't land a punch on him.
+Dialogue: 0,0:06:07.55,0:06:11.00,DCMain,KAWANO,0000,0000,0000,,I'll smash your face and that stupid mask.
+Dialogue: 0,0:06:11.00,0:06:13.56,DCMain,KAZUHA,0000,0000,0000,,Hey, don't provoke him.
+Dialogue: 0,0:06:13.91,0:06:14.78,DCMain,KAZUHA,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:15.26,0:06:17.00,DCMain,HEIJI/KOMOTO,0000,0000,0000,,I see.
+Dialogue: 0,0:06:17.00,0:06:19.26,DCMain,KAWANO,0000,0000,0000,,Ow, ow, ow!
+Dialogue: 0,0:06:19.26,0:06:21.84,DCMain,SATO,0000,0000,0000,,Do you understand the position you're in?
+Dialogue: 0,0:06:21.84,0:06:23.94,DCMain,TAKAGI,0000,0000,0000,,More importantly, who is he?
+Dialogue: 0,0:06:24.29,0:06:25.87,DCMain,TAKAGI,0000,0000,0000,,Why is he still wearing a mask?
+Dialogue: 0,0:06:25.87,0:06:27.95,DCMain,KAZUHA,0000,0000,0000,,He's my friend.
+Dialogue: 0,0:06:27.95,0:06:31.82,DCMain,KAZUHA,0000,0000,0000,,He burnt his face badly, \Nso he can't remove his mask.
+Dialogue: 0,0:06:31.82,0:06:33.70,DCMain,TAKAGI,0000,0000,0000,,I see.
+Dialogue: 0,0:06:34.20,0:06:40.33,DCMain,JINNAI,0000,0000,0000,,I didn't run. Or rather, \NI didn't think a cop had found me.
+Dialogue: 0,0:06:40.80,0:06:47.09,DCMain,JINNAI,0000,0000,0000,,{\an8}I was wandering the temple grounds \Nlooking for my wallet I left somewhere.
+Dialogue: 0,0:06:42.17,0:06:46.05,Jinnai,SIGN,0000,0000,0000,,{\fad(375,375)}Jinnai Kyoma (29) \NMarriage Fraudster
+Dialogue: 0,0:06:47.09,0:06:48.49,DCMain,SATO,0000,0000,0000,,Your wallet?
+Dialogue: 0,0:06:48.49,0:06:54.10,DCMain,JINNAI,0000,0000,0000,,Yes. I had cash, my cash card, \Nand car keys in there.
+Dialogue: 0,0:06:54.10,0:06:57.79,DCMain,JINNAI,0000,0000,0000,,But then this police officer stopped me.
+Dialogue: 0,0:06:57.79,0:06:58.73,DCMain,SATO,0000,0000,0000,,I see.
+Dialogue: 0,0:06:59.54,0:07:00.55,DCMain,SATO,0000,0000,0000,,In other words,
+Dialogue: 0,0:07:00.55,0:07:07.05,DCMain,SATO,0000,0000,0000,,there's another wanted criminal \NLieutenant Hidaka found at this shrine,
+Dialogue: 0,0:07:07.05,0:07:11.91,DCMain,SATO,0000,0000,0000,,and you just happened to be caught?
+Dialogue: 0,0:07:12.45,0:07:17.13,DCMain,JINNAI,0000,0000,0000,,Yes. They may have already fled, though.
+Dialogue: 0,0:07:17.13,0:07:21.86,DCMain,CONAN,0000,0000,0000,,You've got an awful lot of mud \Nsplattered up your pant legs.
+Dialogue: 0,0:07:21.86,0:07:26.93,DCMain,HEIJI/KOMOTO,0000,0000,0000,,You're right. This is what happens when \Nyou run through a street with melted snow.
+Dialogue: 0,0:07:27.69,0:07:32.13,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Why'd you have to run if you were just \Nwandering around looking for something?
+Dialogue: 0,0:07:32.13,0:07:34.45,DCMain,JINNAI,0000,0000,0000,,Because...
+Dialogue: 0,0:07:34.45,0:07:38.12,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Oh? You've got something on your \Nface beneath your right eye.
+Dialogue: 0,0:07:38.12,0:07:38.89,DCMain,JINNAI,0000,0000,0000,,What?
+Dialogue: 0,0:07:38.89,0:07:41.64,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Oh, that's a mole.
+Dialogue: 0,0:07:43.82,0:07:47.52,DCMain,SATO,0000,0000,0000,,By the way, why did you come to this shrine?
+Dialogue: 0,0:07:47.87,0:07:50.17,DCMain,JINNAI,0000,0000,0000,,For work, you could say.
+Dialogue: 0,0:07:50.17,0:07:53.95,DCMain,JINNAI,0000,0000,0000,,I came to purchase a matchmaking \Ncharm to use as a fraud tool.
+Dialogue: 0,0:07:53.95,0:07:58.21,DCMain,JINNAI,0000,0000,0000,,People open their hearts to you \Nif you give them one as a gift.
+Dialogue: 0,0:07:58.21,0:08:00.13,DCMain,KAZUHA,0000,0000,0000,,This guy sucks.
+Dialogue: 0,0:08:00.13,0:08:00.95,DCMain,RAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:08:01.40,0:08:07.28,DCMain,JINNAI,0000,0000,0000,,I bought my charm, but as I was leaving, \NI noticed my wallet was missing.
+Dialogue: 0,0:08:07.28,0:08:10.36,DCMain,JINNAI,0000,0000,0000,,I think I had about 100,000 yen in it.
+Dialogue: 0,0:08:10.36,0:08:12.47,DCMain,TSURUMI,0000,0000,0000,,Yeah, right.
+Dialogue: 0,0:08:12.47,0:08:15.23,DCMain,TSURUMI,0000,0000,0000,,You only had 3,000 yen in there.
+Dialogue: 0,0:08:15.23,0:08:17.12,DCMain,JINNAI,0000,0000,0000,,What? How do you know that?
+Dialogue: 0,0:08:17.12,0:08:20.60,DCMain,TSURUMI,0000,0000,0000,,Because I swiped your wallet.
+Dialogue: 0,0:08:21.18,0:08:23.37,DCMain,TSURUMI,0000,0000,0000,,I threw away your wallet and cards,
+Dialogue: 0,0:08:23.37,0:08:28.36,DCMain,TSURUMI,0000,0000,0000,,but I kept the keys in my pocket so \NI could break into your car later.
+Dialogue: 0,0:08:28.36,0:08:31.27,DCMain,TSURUMI,0000,0000,0000,,I'm admitting it now \Nbefore I'm found out later.
+Dialogue: 0,0:08:31.27,0:08:35.72,DCMain,JINNAI,0000,0000,0000,,You bitch. I couldn't leave even though \NI wanted to because of you.
+Dialogue: 0,0:08:35.72,0:08:37.57,DCMain,SATO,0000,0000,0000,,You couldn't leave even though you wanted to?
+Dialogue: 0,0:08:37.57,0:08:40.62,DCMain,JINNAI,0000,0000,0000,,Uh, I mean...
+Dialogue: 0,0:08:41.36,0:08:46.08,DCMain,SATO,0000,0000,0000,,But according to police records, \NI thought you quit pickpocketing.
+Dialogue: 0,0:08:46.08,0:08:49.53,DCMain,TSURUMI,0000,0000,0000,,Yeah. I hadn't shoplifted in a while either
+Dialogue: 0,0:08:49.53,0:08:53.13,DCMain,TSURUMI,0000,0000,0000,,because I found a good man \Nto take care of me.
+Dialogue: 0,0:08:53.96,0:08:58.72,DCMain,TSURUMI,0000,0000,0000,,But he broke his leg in a traffic \Naccident and can't work anymore.
+Dialogue: 0,0:08:59.14,0:09:01.90,DCMain,TSURUMI,0000,0000,0000,,I came to this shrine that \Nattracts lots of people
+Dialogue: 0,0:09:01.90,0:09:04.98,DCMain,TSURUMI,0000,0000,0000,,to pick a few pockets and make some money.
+Dialogue: 0,0:09:04.98,0:09:07.85,DCMain,SATO,0000,0000,0000,,Where did that traffic accident take place?
+Dialogue: 0,0:09:07.85,0:09:10.25,DCMain,TSURUMI,0000,0000,0000,,At an intersection in Toriya City Block 1.
+Dialogue: 0,0:09:10.62,0:09:15.19,DCMain,SATO,0000,0000,0000,,Then the person who ran over \Nyour man was probably this guy.
+Dialogue: 0,0:09:15.19,0:09:16.41,DCMain,KAWANO,0000,0000,0000,,Wait, no—
+Dialogue: 0,0:09:16.78,0:09:18.41,DCMain,TSURUMI,0000,0000,0000,,What?!
+Dialogue: 0,0:09:18.41,0:09:21.94,DCMain,TSURUMI,0000,0000,0000,,It's your fault this is happening to me!
+Dialogue: 0,0:09:18.41,0:09:22.18,DCMain,TAKAGI,0000,0000,0000,,{\an8}Hey, wait. Shamoto-san, don't do that.
+Dialogue: 0,0:09:22.18,0:09:23.70,DCMain,KAWANO,0000,0000,0000,,Sorry about that.
+Dialogue: 0,0:09:23.70,0:09:25.16,DCMain,TSURUMI,0000,0000,0000,,How dare you!
+Dialogue: 0,0:09:23.70,0:09:25.16,DCMain,TAKAGI,0000,0000,0000,,{\an8}Ow, ow, ow!
+Dialogue: 0,0:09:25.16,0:09:27.86,DCMain,TAKAGI,0000,0000,0000,,{\an8}Why are you kicking me?
+Dialogue: 0,0:09:25.78,0:09:28.52,DCMain,SATO,0000,0000,0000,,So, why did you come here?
+Dialogue: 0,0:09:28.52,0:09:31.80,DCMain,KAWANO,0000,0000,0000,,I came to get a stamp for my little sister.
+Dialogue: 0,0:09:32.34,0:09:36.15,DCMain,KAWANO,0000,0000,0000,,A young man cast her aside \Nafter she spent a fortune on him.
+Dialogue: 0,0:09:36.15,0:09:37.98,DCMain,KAWANO,0000,0000,0000,,She was pretty down about it.
+Dialogue: 0,0:09:38.50,0:09:41.76,DCMain,KAWANO,0000,0000,0000,,Wait a minute. You're that guy!
+Dialogue: 0,0:09:41.76,0:09:45.46,DCMain,KAWANO,0000,0000,0000,,You look {\i1}exactly{\i0} like the guy in \Nthe photo my sister showed me!
+Dialogue: 0,0:09:45.46,0:09:47.31,DCMain,JINNAI,0000,0000,0000,,I-I don't know what you're talking about.
+Dialogue: 0,0:09:47.71,0:09:51.12,DCMain,TSURUMI,0000,0000,0000,,You need to take responsibility \Nfor what you did to me first!
+Dialogue: 0,0:09:51.12,0:09:52.32,DCMain,JINNAI,0000,0000,0000,,Don't act so self-important!
+Dialogue: 0,0:09:52.32,0:09:53.95,DCMain,JINNAI,0000,0000,0000,,Give me back my car keys!
+Dialogue: 0,0:09:53.95,0:09:56.32,DCMain,KAWANO,0000,0000,0000,,You'd better take responsibility, \Nyou marriage fraudster!
+Dialogue: 0,0:09:58.25,0:10:00.25,DCMain,KAZUHA,0000,0000,0000,,I-It's a three-way deadlock.
+Dialogue: 0,0:10:00.25,0:10:02.33,DCMain,RAN,0000,0000,0000,,Their conversation is like a \Ngame of rock-paper-scissors.
+Dialogue: 0,0:10:02.93,0:10:04.32,DCItalic,CONAN,0000,0000,0000,,They're right.
+Dialogue: 0,0:10:04.33,0:10:06.83,Shrine,SIGN WHITE,0000,0000,0000,,Haido Shrine
+Dialogue: 0,0:10:04.33,0:10:06.83,Prayers,SIGN PINK,0000,0000,0000,,Matchmaking Prayers
+Dialogue: 0,0:10:06.06,0:10:10.20,DCMain,SATO,0000,0000,0000,,The question is, where's that flagpole \Nthat still hasn't been found?
+Dialogue: 0,0:10:10.20,0:10:11.08,DCMain,TAKAGI,0000,0000,0000,,Yes.
+Dialogue: 0,0:10:11.08,0:10:15.84,Prayers2,SIGN,0000,0000,0000,,Matchmaking Shrine
+Dialogue: 0,0:10:11.92,0:10:19.09,DCMain,SATO,0000,0000,0000,,The blood on the discarded flag \Nmatched the victim Lieutenant Hidaka's.
+Dialogue: 0,0:10:19.59,0:10:25.72,DCMain,SATO,0000,0000,0000,,If the culprit is one of those three, then \Nit should be somewhere around the shrine.
+Dialogue: 0,0:10:25.72,0:10:31.14,DCMain,TAKAGI,0000,0000,0000,,M-Maybe there really was another culprit.
+Dialogue: 0,0:10:31.14,0:10:36.17,DCMain,SATO,0000,0000,0000,,If they took the flagpole with \Nthem, that would make sense.
+Dialogue: 0,0:10:36.17,0:10:41.11,DCMain,CONAN,0000,0000,0000,,Maybe they put it in this box \Nnext to the snowmen.
+Dialogue: 0,0:10:41.58,0:10:47.20,DCMain,CONAN,0000,0000,0000,,Look. There's a bunch of unassembled \Npoles and flags in here.
+Dialogue: 0,0:10:47.60,0:10:52.97,DCMain,SATO,0000,0000,0000,,We had forensics examine that right \Naway, but they didn't find any blood.
+Dialogue: 0,0:10:52.97,0:10:54.21,DCMain,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:10:54.21,0:10:58.17,DCMain,HEIJI/KOMOTO,0000,0000,0000,,But why were these things left here?
+Dialogue: 0,0:10:58.17,0:11:04.75,DCMain,SATO,0000,0000,0000,,Because Kawano started a fight at the \Nentrance while they were being assembled,
+Dialogue: 0,0:11:04.75,0:11:08.23,DCMain,SATO,0000,0000,0000,,the workers left to watch the fight.
+Dialogue: 0,0:11:08.64,0:11:13.48,DCMain,SATO,0000,0000,0000,,That's why no one saw Lieutenant \NHidaka fall down the steps.
+Dialogue: 0,0:11:13.89,0:11:15.23,DCItalic,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:11:15.57,0:11:20.24,DCMain,KAZUHA,0000,0000,0000,,Anyway, it's cute how there are \Nlittle snowmen all around the place.
+Dialogue: 0,0:11:20.78,0:11:23.12,DCMain,RAN,0000,0000,0000,,Maybe the neighborhood kids made them.
+Dialogue: 0,0:11:30.02,0:11:32.41,DCMain,SATO,0000,0000,0000,,It's a capsule toy capsule.
+Dialogue: 0,0:11:32.41,0:11:37.50,DCMain,SATO,0000,0000,0000,,When we were kids, we'd use \Noranges for our snowmen's eyes.
+Dialogue: 0,0:11:38.41,0:11:41.68,DCItalic,HEIJI,0000,0000,0000,,What was that thudding sound?
+Dialogue: 0,0:11:42.03,0:11:44.43,DCItalic,CONAN,0000,0000,0000,,It sounded like something \Nfalling on the snow.
+Dialogue: 0,0:11:45.23,0:11:47.62,DCMain,TAKAGI,0000,0000,0000,,Whoa! Be careful.
+Dialogue: 0,0:11:47.62,0:11:49.77,DCMain,TAKAGI,0000,0000,0000,,The ground's still frozen here and there.
+Dialogue: 0,0:11:50.08,0:11:51.52,DCItalic,BOTH,0000,0000,0000,,Frozen?
+Dialogue: 0,0:11:51.52,0:11:52.87,DCMain,SATO,0000,0000,0000,,Thank you.
+Dialogue: 0,0:11:52.87,0:11:56.23,DCMain,HEIJI/KOMOTO,0000,0000,0000,,There was a tap at the \Ntop of the steps, right?
+Dialogue: 0,0:11:56.23,0:11:59.60,DCMain,TAKAGI,0000,0000,0000,,Yes, I believe there was a faucet.
+Dialogue: 0,0:12:02.05,0:12:04.92,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Which means it isn't missing.
+Dialogue: 0,0:12:04.92,0:12:06.45,DCMain,HEIJI/KOMOTO,0000,0000,0000,,We just didn't notice.
+Dialogue: 0,0:12:06.45,0:12:07.24,DCMain,CONAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:12:08.22,0:12:11.61,DCMain,CONAN,0000,0000,0000,,The weapon's right in front of our eyes.
+Dialogue: 0,0:12:13.30,0:12:17.00,DCItalic,RAN,0000,0000,0000,,These two definitely feel like them.
+Dialogue: 0,0:12:18.14,0:12:21.84,DCItalic,RAN,0000,0000,0000,,This person is Hattori-kun.
+Dialogue: 0,0:12:26.55,0:12:30.02,Shrine2,SIGN,0000,0000,0000,,{\fad(210,1)}Haido Shrine
+Dialogue: 0,0:12:27.26,0:12:30.02,DCMain,KAWANO,0000,0000,0000,,Give me a break.
+Dialogue: 0,0:12:30.02,0:12:35.27,Prayers,SIGN,0000,0000,0000,,Matchmaking Prayers
+Dialogue: 0,0:12:30.02,0:12:35.27,DCMain,KAWANO,0000,0000,0000,,We might be wanted criminals \Nthat murdered cop was pursuing,
+Dialogue: 0,0:12:35.61,0:12:37.46,DCMain,KAWANO,0000,0000,0000,,but you still haven't found the weapon
+Dialogue: 0,0:12:37.46,0:12:41.71,DCMain,KAWANO,0000,0000,0000,,used to strike and knock \Nhim down the steps, right?
+Dialogue: 0,0:12:41.71,0:12:43.96,DCMain,JINNAI,0000,0000,0000,,It's a flagpole, right?
+Dialogue: 0,0:12:43.96,0:12:45.13,DCMain,TSURUMI,0000,0000,0000,,Then—
+Dialogue: 0,0:12:45.13,0:12:46.20,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Nah.
+Dialogue: 0,0:12:46.52,0:12:50.72,DCMain,HEIJI/KOMOTO,0000,0000,0000,,The flagpole was a red herring \Nplanted by the culprit.
+Dialogue: 0,0:12:50.72,0:12:51.83,DCMain,JINNAI,0000,0000,0000,,A deception?
+Dialogue: 0,0:12:51.83,0:12:55.75,DCMain,HEIJI/KOMOTO,0000,0000,0000,,After Lieutenant Hidaka \Nfell down the steps and died,
+Dialogue: 0,0:12:55.75,0:12:57.83,DCMain,HEIJI/KOMOTO,0000,0000,0000,,in order to hide the actual weapon,
+Dialogue: 0,0:12:57.83,0:13:01.09,DCMain,HEIJI/KOMOTO,0000,0000,0000,,they removed the flag \Nfrom a nearby flagpole,
+Dialogue: 0,0:13:01.42,0:13:05.84,DCMain,HEIJI/KOMOTO,0000,0000,0000,,rubbed the lieutenant's blood \Non it, and left it on the steps.
+Dialogue: 0,0:13:06.23,0:13:11.10,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Then they put the flagpole in the box \Nfilled with other identical poles and fled.
+Dialogue: 0,0:13:12.03,0:13:18.62,DCMain,HEIJI/KOMOTO,0000,0000,0000,,It'd look like the weapon used to strike \Nthe lieutenant was a bloody flagpole.
+Dialogue: 0,0:13:19.10,0:13:22.69,DCMain,HEIJI/KOMOTO,0000,0000,0000,,And if there were no bloody poles in the box,
+Dialogue: 0,0:13:23.09,0:13:26.86,DCMain,HEIJI/KOMOTO,0000,0000,0000,,it'd look like the culprit \Nfled with the weapon.
+Dialogue: 0,0:13:26.86,0:13:31.46,DCMain,KAZUHA,0000,0000,0000,,Wow, Hyoga-kun. It's a waste of \Nyour talents for you to be an idol.
+Dialogue: 0,0:13:32.35,0:13:35.04,DCMain,RAN,0000,0000,0000,,Kazuha-chan, he's probably...
+Dialogue: 0,0:13:36.04,0:13:39.15,DCMain,KAZUHA,0000,0000,0000,,That masked man is Heiji, right?
+Dialogue: 0,0:13:39.15,0:13:39.96,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:13:41.46,0:13:43.78,DCMain,RAN,0000,0000,0000,,Wh-When did you notice?
+Dialogue: 0,0:13:43.78,0:13:45.22,DCMain,KAZUHA,0000,0000,0000,,From the start.
+Dialogue: 0,0:13:45.92,0:13:48.47,DCMain,KAZUHA,0000,0000,0000,,His voice may be different, \Nbut I recognized him instantly.
+Dialogue: 0,0:13:48.47,0:13:52.97,DCMain,RAN,0000,0000,0000,,But you said he sounded like \NKomoto Hyoga-kun of the Naniwa Kids.
+Dialogue: 0,0:13:53.27,0:13:59.23,DCMain,KAZUHA,0000,0000,0000,,I don't know how he's changing his \Nvoice, but that's not Hyoga-kun's.
+Dialogue: 0,0:13:59.59,0:14:01.26,DCMain,KAZUHA,0000,0000,0000,,I'm pretending I haven't noticed
+Dialogue: 0,0:14:01.26,0:14:04.86,DCMain,KAZUHA,0000,0000,0000,,so he'll let his guard down and \Ndo whatever he was going to do.
+Dialogue: 0,0:14:06.73,0:14:12.63,DCItalic,RAN,0000,0000,0000,,I see. Kazuha-chan's doing this so \NHattori-kun will tell her how he feels.
+Dialogue: 0,0:14:13.21,0:14:14.38,DCItalic,KAZUHA,0000,0000,0000,,Heiji...
+Dialogue: 0,0:14:15.87,0:14:19.66,DCMain,TSURUMI,0000,0000,0000,,Then where's the real weapon?
+Dialogue: 0,0:14:19.66,0:14:22.04,DCMain,CONAN,0000,0000,0000,,Huh? You didn't hear that?
+Dialogue: 0,0:14:22.04,0:14:23.12,DCMain,KAWANO,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:23.12,0:14:26.29,DCMain,CONAN,0000,0000,0000,,Didn't you hear that thudding noise?
+Dialogue: 0,0:14:26.29,0:14:27.17,DCMain,JINNAI,0000,0000,0000,,What noise?
+Dialogue: 0,0:14:27.64,0:14:32.72,DCMain,CONAN,0000,0000,0000,,And after that, the snowman wearing \Nthe bucket lost one of its eyes, right?
+Dialogue: 0,0:14:34.41,0:14:41.69,DCMain,CONAN,0000,0000,0000,,Which means whatever was inside that \Nbucket fell on the snowman's head.
+Dialogue: 0,0:14:43.93,0:14:46.21,DCMain,TAKAGI,0000,0000,0000,,Whatever was inside the bucket?
+Dialogue: 0,0:14:46.99,0:14:50.36,DCMain,TAKAGI,0000,0000,0000,,A-A bucket-shaped block of ice?
+Dialogue: 0,0:14:51.05,0:14:55.94,DCMain,SATO,0000,0000,0000,,Which means a bucket full of frozen \Nwater was placed on its head,
+Dialogue: 0,0:14:55.94,0:14:59.29,DCMain,SATO,0000,0000,0000,,and the block fell on its head \Nonce the ice melted.
+Dialogue: 0,0:14:59.69,0:15:03.00,DCMain,HEIJI/KOMOTO,0000,0000,0000,,No one would put a bucket \Nlike that on a snowman's head,
+Dialogue: 0,0:15:03.48,0:15:08.72,DCMain,HEIJI/KOMOTO,0000,0000,0000,,so it was probably originally \Nleft by that faucet.
+Dialogue: 0,0:15:08.72,0:15:14.22,DCMain,HEIJI/KOMOTO,0000,0000,0000,,The culprit was nearly caught by the \Nlieutenant at the top of the steps
+Dialogue: 0,0:15:14.22,0:15:17.64,DCMain,HEIJI/KOMOTO,0000,0000,0000,,and swung around the bucket \Nthey grabbed without thinking.
+Dialogue: 0,0:15:19.17,0:15:23.49,DCMain,HEIJI/KOMOTO,0000,0000,0000,,It hit the lieutenant's head, \Nand he fell down the steps.
+Dialogue: 0,0:15:24.39,0:15:30.46,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Realizing they had to hide the weapon, \Nthey put the bucket on a snowman,
+Dialogue: 0,0:15:30.46,0:15:34.42,DCMain,HEIJI/KOMOTO,0000,0000,0000,,and made it look like \Nthe weapon was a flagpole
+Dialogue: 0,0:15:34.42,0:15:36.58,DCMain,HEIJI/KOMOTO,0000,0000,0000,,using the method I described earlier.
+Dialogue: 0,0:15:37.48,0:15:41.13,DCMain,SATO,0000,0000,0000,,But any three of them
+Dialogue: 0,0:15:42.62,0:15:44.63,DCMain,SATO,0000,0000,0000,,could have done that.
+Dialogue: 0,0:15:44.63,0:15:47.17,DCMain,KAWANO,0000,0000,0000,,I couldn't have done that.
+Dialogue: 0,0:15:47.17,0:15:48.88,DCMain,KAWANO,0000,0000,0000,,That was only possible
+Dialogue: 0,0:15:48.88,0:15:52.95,DCMain,KAWANO,0000,0000,0000,,because people gathered to see the \Nfight I started at the shrine entrance
+Dialogue: 0,0:15:52.95,0:15:55.68,DCMain,KAWANO,0000,0000,0000,,so there was no one left here.
+Dialogue: 0,0:15:55.68,0:15:56.55,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:57.10,0:16:00.06,DCMain,HEIJI/KOMOTO,0000,0000,0000,,You're innocent. Besides, you're left-handed.
+Dialogue: 0,0:16:01.01,0:16:02.38,DCMain,TAKAGI,0000,0000,0000,,Left-handed?
+Dialogue: 0,0:16:02.38,0:16:04.44,DCMain,SATO,0000,0000,0000,,The contusion on the victim's forehead
+Dialogue: 0,0:16:04.85,0:16:07.44,DCMain,SATO,0000,0000,0000,,ran from top right to bottom left.
+Dialogue: 0,0:16:07.44,0:16:09.69,DCMain,TAKAGI,0000,0000,0000,,Y-You're right.
+Dialogue: 0,0:16:09.69,0:16:13.87,DCMain,TAKAGI,0000,0000,0000,,Which means it's likely \Nthe culprit is right-handed.
+Dialogue: 0,0:16:13.87,0:16:19.73,DCMain,HEIJI/KOMOTO,0000,0000,0000,,When I provoked you, you entered \Na southpaw boxing stance.
+Dialogue: 0,0:16:20.40,0:16:22.62,DCMain,HEIJI/KOMOTO,0000,0000,0000,,And you, marriage fraudster.
+Dialogue: 0,0:16:22.62,0:16:23.75,Haido,SIGN,0000,0000,0000,,Haido Shrine
+Dialogue: 0,0:16:23.75,0:16:25.37,DCMain,HEIJI/KOMOTO,0000,0000,0000,,So are you.
+Dialogue: 0,0:16:25.37,0:16:27.75,DCMain,HEIJI/KOMOTO,0000,0000,0000,,When I said you had something \Nbeneath your right eye,
+Dialogue: 0,0:16:28.19,0:16:30.01,DCMain,HEIJI/KOMOTO,0000,0000,0000,,you reached for it with your left hand.
+Dialogue: 0,0:16:30.01,0:16:32.76,DCMain,HEIJI/KOMOTO,0000,0000,0000,,In other words, you're left-handed.
+Dialogue: 0,0:16:33.67,0:16:37.92,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Which leaves you, the \Nright-handed pickpocket
+Dialogue: 0,0:16:37.92,0:16:40.77,DCMain,HEIJI/KOMOTO,0000,0000,0000,,who touched her glasses with her right hand.
+Dialogue: 0,0:16:41.16,0:16:43.27,DCMain,HEIJI/KOMOTO,0000,0000,0000,,You're the only one left.
+Dialogue: 0,0:16:43.27,0:16:46.64,DCMain,TSURUMI,0000,0000,0000,,What? The world is full \Nof right-handed people.
+Dialogue: 0,0:16:46.64,0:16:48.77,DCMain,TSURUMI,0000,0000,0000,,How does that make me the culprit?
+Dialogue: 0,0:16:49.22,0:16:51.38,DCMain,TSURUMI,0000,0000,0000,,Besides, I couldn't have done it.
+Dialogue: 0,0:16:51.38,0:16:55.32,DCMain,TSURUMI,0000,0000,0000,,I was handcuffed to a lamppost \Nat the bike lot the whole time.
+Dialogue: 0,0:16:55.32,0:16:57.57,DCMain,TSURUMI,0000,0000,0000,,I couldn't move.
+Dialogue: 0,0:16:57.57,0:17:04.44,DCMain,SATO,0000,0000,0000,,But if you're lying, you could've swiped \NLieutenant Hidaka's handcuffs after he died
+Dialogue: 0,0:17:04.44,0:17:08.08,DCMain,SATO,0000,0000,0000,,and cuffed yourself to the lamppost.
+Dialogue: 0,0:17:08.08,0:17:11.85,DCMain,TSURUMI,0000,0000,0000,,Maybe if I'd only been \Nhandcuffed to the lamppost,
+Dialogue: 0,0:17:11.85,0:17:17.76,DCMain,TSURUMI,0000,0000,0000,,but the handcuffs on me were passed \Nthrough the cop's bicycle cable lock.
+Dialogue: 0,0:17:18.16,0:17:23.19,DCMain,TSURUMI,0000,0000,0000,,I was tied to the lamppost \Nwhen you arrive, right?
+Dialogue: 0,0:17:23.19,0:17:24.89,DCMain,TAKAGI,0000,0000,0000,,Yes...
+Dialogue: 0,0:17:24.89,0:17:29.56,DCMain,TSURUMI,0000,0000,0000,,Then tell that masked man \Nthat I couldn't have done it.
+Dialogue: 0,0:17:29.56,0:17:31.01,DCMain,CONAN,0000,0000,0000,,It's not impossible.
+Dialogue: 0,0:17:31.57,0:17:37.89,DCMain,CONAN,0000,0000,0000,,Want to see if it really can be done \Nusing that cable lock at the bike lot?
+Dialogue: 0,0:17:41.40,0:17:44.33,DCMain,CONAN,0000,0000,0000,,This is how she was tied to the post, right?
+Dialogue: 0,0:17:44.33,0:17:46.12,DCMain,TAKAGI,0000,0000,0000,,Y-Yes.
+Dialogue: 0,0:17:46.12,0:17:48.46,DCMain,CONAN,0000,0000,0000,,Now take the gap in the cuffs, and...
+Dialogue: 0,0:17:48.46,0:17:51.11,DCMain,TAKAGI,0000,0000,0000,,Pass the cable up through the bottom.
+Dialogue: 0,0:17:51.11,0:17:54.21,DCMain,CONAN,0000,0000,0000,,Pass your fist through the loop in the cable,
+Dialogue: 0,0:17:54.79,0:17:57.06,DCMain,CONAN,0000,0000,0000,,and simply pull the cable through.
+Dialogue: 0,0:17:57.49,0:17:59.57,DCMain,TAKAGI,0000,0000,0000,,Simply pull it through?
+Dialogue: 0,0:17:59.57,0:18:01.85,DCMain,TAKAGI,0000,0000,0000,,What? Wow, it came off.
+Dialogue: 0,0:18:02.41,0:18:05.48,DCMain,SATO,0000,0000,0000,,I'm impressed you knew about this, Conan-kun.
+Dialogue: 0,0:18:05.48,0:18:08.23,DCMain,CONAN,0000,0000,0000,,I saw it on a magic show on TV.
+Dialogue: 0,0:18:08.23,0:18:11.73,PoliceBox,SIGN,0000,0000,0000,,Haido Shrine Police Box
+Dialogue: 0,0:18:08.23,0:18:11.73,DCMain,SATO,0000,0000,0000,,Since there was a police box \Nright across from the bike lot
+Dialogue: 0,0:18:12.16,0:18:17.24,DCMain,SATO,0000,0000,0000,,and Lieutenant Hidaka had notified \Nthem, it was risky to use that exit.
+Dialogue: 0,0:18:17.24,0:18:22.37,DCMain,SATO,0000,0000,0000,,So you walked across the \Nshrine to another exit,
+Dialogue: 0,0:18:22.83,0:18:24.69,DCMain,SATO,0000,0000,0000,,but Lieutenant Hidaka found you.
+Dialogue: 0,0:18:24.69,0:18:28.62,DCMain,SATO,0000,0000,0000,,You ran up the steps to get away \Nfrom him, but he nearly caught you.
+Dialogue: 0,0:18:28.62,0:18:34.63,DCMain,SATO,0000,0000,0000,,In order to escape, you used the bucket full \Nof frozen water at the faucet by the stairs
+Dialogue: 0,0:18:35.16,0:18:39.13,DCMain,SATO,0000,0000,0000,,to strike Lieutenant Hidaka, knocking \Nhim down the steps and killing him.
+Dialogue: 0,0:18:39.49,0:18:43.32,DCMain,SATO,0000,0000,0000,,You could've fled then, but it was probable
+Dialogue: 0,0:18:43.32,0:18:46.64,DCMain,SATO,0000,0000,0000,,Lieutenant Hidaka had informed \Nsomeone he caught you.
+Dialogue: 0,0:18:46.64,0:18:51.15,DCMain,SATO,0000,0000,0000,,You'd inevitably be wanted for murder.
+Dialogue: 0,0:18:51.15,0:18:57.65,DCMain,SATO,0000,0000,0000,,So like this boy said, you hid the weapon \Nand returned to the bike lot.
+Dialogue: 0,0:18:57.65,0:19:00.61,DCMain,SATO,0000,0000,0000,,You thought you wouldn't \Nbe suspected if you claimed
+Dialogue: 0,0:19:00.61,0:19:02.78,DCMain,SATO,0000,0000,0000,,you were handcuffed to \Nthe lamppost the whole time.
+Dialogue: 0,0:19:03.55,0:19:09.41,DCMain,SATO,0000,0000,0000,,But if the contusion on Lieutenant Hidaka's \Nforehead matches the shape of the bucket
+Dialogue: 0,0:19:09.88,0:19:13.22,DCMain,SATO,0000,0000,0000,,and his blood and fingerprints \Nare found on the bucket,
+Dialogue: 0,0:19:13.22,0:19:17.32,DCMain,SATO,0000,0000,0000,,you won't be able to \Ntalk your way out of this.
+Dialogue: 0,0:19:17.32,0:19:18.90,DCMain,SATO,0000,0000,0000,,Prepare yourself.
+Dialogue: 0,0:19:22.89,0:19:25.93,DCMain,TSURUMI,0000,0000,0000,,Damn. Damn, damn.
+Dialogue: 0,0:19:26.27,0:19:28.65,DCMain,TSURUMI,0000,0000,0000,,I should've just run.
+Dialogue: 0,0:19:28.65,0:19:31.58,DCMain,TSURUMI,0000,0000,0000,,If I'd have run away instead of pulling \Nthis stunt, I'd be—
+Dialogue: 0,0:19:31.58,0:19:32.93,DCMain,HEIJI/KOMOTO,0000,0000,0000,,It would've ended the same way.
+Dialogue: 0,0:19:32.93,0:19:37.23,DCMain,HEIJI/KOMOTO,0000,0000,0000,,These days everyone carries a tiny \Ncamera in the form of a smartphone.
+Dialogue: 0,0:19:37.58,0:19:42.20,DCMain,HEIJI,0000,0000,0000,,You'd end up arrested after someone \Ntook a picture and reported you.
+Dialogue: 0,0:19:42.89,0:19:46.16,DCMain,HEIJI/KOMOTO,0000,0000,0000,,You can try to sneak around, but \Nyou'll be discovered right away.
+Dialogue: 0,0:19:46.16,0:19:47.92,DCMain,HEIJI/KOMOTO,0000,0000,0000,,There's nowhere for you to run.
+Dialogue: 0,0:19:53.64,0:19:59.76,DCItalic,CONAN,0000,0000,0000,,No one wants to hear that from a guy \Nwearing a mask to run away from Kazuha-chan.
+Dialogue: 0,0:21:20.63,0:21:25.39,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Now that the case has been solved, \NI'd better get my stamp.
+Dialogue: 0,0:21:25.83,0:21:27.39,DCMain,CONAN,0000,0000,0000,,More importantly, Hattori.
+Dialogue: 0,0:21:27.39,0:21:28.01,DCMain,HEIJI/KOMOTO,0000,0000,0000,,Huh?
+Dialogue: 0,0:21:28.01,0:21:32.27,DCMain,CONAN,0000,0000,0000,,What kind of name do you think \Na "ridiculous" name would be?
+Dialogue: 0,0:21:32.27,0:21:34.02,DCMain,HEIJI/KOMOTO,0000,0000,0000,,A ridiculous name?
+Dialogue: 0,0:21:34.40,0:21:37.00,DCMain,HEIJI/KOMOTO,0000,0000,0000,,I know one guy who's got one.
+Dialogue: 0,0:21:37.64,0:21:38.65,DCMain,CONAN,0000,0000,0000,,Who?
+Dialogue: 0,0:21:39.48,0:21:42.65,DCMain,HEIJI,0000,0000,0000,,Edogawa Conan. It's you.
+Dialogue: 0,0:21:42.65,0:21:45.40,DCMain,CONAN,0000,0000,0000,,Not me.
+Dialogue: 0,0:21:45.78,0:21:52.25,DCMain,HEIJI,0000,0000,0000,,If not you, then there's that guy \Nyou mentioned before, Doito Katsuki.
+Dialogue: 0,0:21:52.25,0:21:56.13,DCMain,HEIJI,0000,0000,0000,,When you rearrange the letters, \Nit spells Kaito Kid.
+Dialogue: 0,0:21:56.13,0:21:58.17,DCMain,HEIJI,0000,0000,0000,,That's a ridiculous name.
+Dialogue: 0,0:21:58.65,0:22:00.72,DCItalic,CONAN,0000,0000,0000,,An anagram, huh?
+Dialogue: 0,0:22:01.29,0:22:04.80,DCMain,KAZUHA,0000,0000,0000,,Hyoga-kun, you're getting \Nalong great with Conan-kun.
+Dialogue: 0,0:22:04.80,0:22:09.30,DCMain,RAN,0000,0000,0000,,You'd better get in line soon, or you \Nwon't be able to get your stamp.
+Dialogue: 0,0:22:09.30,0:22:11.24,DCMain,CONAN,0000,0000,0000,,Y-You're right.
+Dialogue: 0,0:22:12.87,0:22:15.60,DCMain,WOMAN 1,0000,0000,0000,,It's Komoto Hyoga-kun of the Naniwa Kids!
+Dialogue: 0,0:22:14.62,0:22:15.60,DCMain,WOMAN 2,0000,0000,0000,,No way!
+Dialogue: 0,0:22:15.60,0:22:16.84,DCMain,WOMAN 3,0000,0000,0000,,What?
+Dialogue: 0,0:22:16.84,0:22:21.08,DCMain,WOMAN 4,0000,0000,0000,,Did you come to get a stamp so \Nyou'll end up with Usagi-chan?
+Dialogue: 0,0:22:21.08,0:22:23.33,DCMain,KOMOTO,0000,0000,0000,,Oh, no.
+Dialogue: 0,0:22:23.33,0:22:26.23,DCMain,KOMOTO,0000,0000,0000,,I've always enjoyed collecting stamps.
+Dialogue: 0,0:22:26.23,0:22:28.61,DCMain,KOMOTO,0000,0000,0000,,I just secretly came to get one.
+Dialogue: 0,0:22:29.68,0:22:32.24,DCMain,CONAN,0000,0000,0000,,He sounds different.
+Dialogue: 0,0:22:32.24,0:22:33.87,DCMain,HEIJI/KOMOTO,0000,0000,0000,,You're right.
+Dialogue: 0,0:22:35.12,0:22:40.04,DCMain,HEIJI/KOMOTO,0000,0000,0000,,No, wait. I can explain...
+Dialogue: 0,0:22:40.43,0:22:42.25,DCMain,KAZUHA,0000,0000,0000,,Give it up.
+Dialogue: 0,0:22:42.25,0:22:46.38,DCMain,KAZUHA,0000,0000,0000,,The jig was up from the start, Heiji!
+Dialogue: 0,0:22:49.32,0:22:53.10,DCMain,HEIJI,0000,0000,0000,,Yeah, that's right. I came to get a stamp.
+Dialogue: 0,0:22:54.29,0:22:59.60,DCMain,HEIJI,0000,0000,0000,,I need the matchmaking \Ngods' help with someone.
+Dialogue: 0,0:23:00.84,0:23:02.80,DCMain,KAZUHA,0000,0000,0000,,Help with...
+Dialogue: 0,0:23:03.23,0:23:04.61,DCMain,KAZUHA,0000,0000,0000,,who, exactly?
+Dialogue: 0,0:23:04.61,0:23:05.64,DCMain,HEIJI,0000,0000,0000,,What?
+Dialogue: 0,0:23:07.24,0:23:10.78,DCMain,KAZUHA,0000,0000,0000,,Who are you trying to get matched with?
+Dialogue: 0,0:23:10.78,0:23:12.41,DCItalic,CONAN,0000,0000,0000,,Whoa, whoa, whoa.
+Dialogue: 0,0:23:12.41,0:23:13.99,DCItalic,RAN,0000,0000,0000,,It's obviously you, Kazuha-chan.
+Dialogue: 0,0:23:14.33,0:23:18.61,DCMain,KAZUHA,0000,0000,0000,,I'm like your older sister.
+Dialogue: 0,0:23:18.61,0:23:21.42,DCMain,KAZUHA,0000,0000,0000,,I-I think I've got a right to know.
+Dialogue: 0,0:23:21.94,0:23:25.55,DCMain,HEIJI,0000,0000,0000,,Sister? Don't be gross, idiot.
+Dialogue: 0,0:23:25.55,0:23:27.40,DCMain,HEIJI,0000,0000,0000,,You're not my older sister.
+Dialogue: 0,0:23:27.40,0:23:29.51,DCMain,KAZUHA,0000,0000,0000,,You're the gross one.
+Dialogue: 0,0:23:29.51,0:23:32.44,DCMain,KAZUHA,0000,0000,0000,,What were you doing sneaking \Naround with a mask on?
+Dialogue: 0,0:23:32.44,0:23:34.76,DCMain,HEIJI,0000,0000,0000,,I-I'll do what I want.
+Dialogue: 0,0:23:34.76,0:23:39.02,DCMain,RAN,0000,0000,0000,,Oh, come on. We're at a matchmaking shrine.
+Dialogue: 0,0:23:39.02,0:23:42.46,DCItalic,CONAN,0000,0000,0000,,Yeah, what you really need is \Nsomething to ward off misfortune.
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:47.99,0:23:50.24,DCMain,CONAN,0000,0000,0000,,It's no use. He's already dead.
+Dialogue: 0,0:23:50.87,0:23:55.18,DCMain,BLUE SHIRT,0000,0000,0000,,As fellow bodybuilders, we spoke sometimes,
+Dialogue: 0,0:23:55.18,0:23:57.24,DCMain,BLUE SHIRT,0000,0000,0000,,\Nbut we weren't especially close.
+Dialogue: 0,0:23:57.70,0:24:02.12,DCMain,RED SHIRT,0000,0000,0000,,It's not as though Nishitani-san \Nwas particularly promising.
+Dialogue: 0,0:24:02.55,0:24:05.63,DCMain,TEAL SHIRT,0000,0000,0000,,I'll win the next one.
+Dialogue: 0,0:24:06.63,0:24:09.01,DCMain,CONAN,0000,0000,0000,,I see. So that's how it is.
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,SIGN,0000,0000,0000,,The Case of Ayumi's Illustrated Diary 3
+Dialogue: 0,0:24:09.37,0:24:13.89,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Case of Ayumi's Illustrated Diary 3!"
+Dialogue: 0,0:24:30.03,0:24:34.95,Hint,SIGN,0000,0000,0000,,Teeth
+Dialogue: 0,0:24:30.52,0:24:33.04,DCMain,KAZUHA,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.04,0:24:34.95,DCMain,CONAN,0000,0000,0000,,Teeth!
+Dialogue: 0,0:24:34.95,0:24:37.02,DCMain,KAZUHA,0000,0000,0000,,{\an8}He's so aggravating!
+Dialogue: 0,0:24:34.95,0:24:39.94,Don'tMiss,SIGN,0000,0000,0000,,{\pos(365,314)}Don't miss the next episode.
+Dialogue: 0,0:24:37.02,0:24:38.29,DCMain,RAN,0000,0000,0000,,{\an8}I don't think you need to be...
+Dialogue: 0,0:24:38.29,0:24:39.91,DCMain,CONAN,0000,0000,0000,,{\an8}...mad about it.

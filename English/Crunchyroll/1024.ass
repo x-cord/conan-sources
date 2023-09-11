@@ -1,0 +1,453 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0050,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Jingusukan,Trebuchet MS,18,&H004F1FD3,&H000000FF,&H0017175B,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Coupon,Times New Roman,18,&H00191F2C,&H000000FF,&H0099EAF3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0040,0
+Style: Messages,Trebuchet MS,16,&H00583825,&H000000FF,&H00F5F4F2,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Treasure,Trebuchet MS,18,&H00694940,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: 3Hours,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0240,0020,0030,0
+Style: Treasure2,Trebuchet MS,18,&H00211D1C,&H000000FF,&H00D4D0CC,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Football,Trebuchet MS,22,&H00585040,&H000000FF,&H00EACAC1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Football2,Trebuchet MS,22,&H002D1B17,&H000000FF,&H00DCCFCC,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0020,0018,0
+Style: Football3,Trebuchet MS,22,&H002D1B17,&H000000FF,&H00CDCCB0,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0160,0100,0
+Style: Foot,Trebuchet MS,22,&H002D1B17,&H000000FF,&H00F5F2E9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,3,0020,0140,0130,0
+Style: Ball,Trebuchet MS,22,&H002D1B17,&H000000FF,&H00F5F2E9,&H00000000,0,0,0,0,100,100,0,0,1,2,0,9,0020,0135,0100,0
+Style: Football4,Trebuchet MS,22,&H006F4738,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0110,0
+Style: Ball2,Trebuchet MS,22,&H00393C36,&H000000FF,&H00FDFFF3,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0100,0
+Style: Treasure3,Trebuchet MS,18,&H00694940,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0030,0
+Style: ReadableCode,Trebuchet MS,16,&H0064382B,&H000000FF,&H00F7FAFD,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0130,0
+Style: Harbor,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0065,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 1024 "Ooka \NMomiji's Challenge (Part One)"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[op]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,MOMIJI,0000,0000,0000,,[ed]
+Dialogue: 0,0:00:02.87,0:00:03.77,DCMain,MOMIJI,0000,0000,0000,,Iori.
+Dialogue: 0,0:00:04.36,0:00:07.82,DCMain,MOMIJI,0000,0000,0000,,Could we listen to that again \Nto confirm what he said?
+Dialogue: 0,0:00:07.82,0:00:11.43,DCMain,IORI,0000,0000,0000,,Of course, Momiji-ojosama.
+Dialogue: 0,0:00:14.26,0:00:17.44,DCItalic,MOMIJI,0000,0000,0000,,Do you really mean that, Heiji-kun?
+Dialogue: 0,0:00:17.44,0:00:19.12,DCItalic,HEIJI,0000,0000,0000,,Don't make me say it again!
+Dialogue: 0,0:00:19.84,0:00:23.46,DCItalic,HEIJI,0000,0000,0000,,If anything like that ever happens, \NI'll do whatever you want!
+Dialogue: 0,0:00:36.99,0:00:38.61,DCMain,CONAN,0000,0000,0000,,Finally arriving after \Nswaying back and forth,
+Dialogue: 0,0:00:38.61,0:00:40.14,DCMain,CONAN,0000,0000,0000,,draw close to mysteries and \Nbegin deducing the truth!
+Dialogue: 0,0:00:40.41,0:00:42.25,DCMain,CONAN,0000,0000,0000,,Momiji issues a mystery solving battle!
+Dialogue: 0,0:00:42.25,0:00:43.48,DCMain,CONAN,0000,0000,0000,,The treasure's location is written in code!
+Dialogue: 0,0:00:43.86,0:00:45.44,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:45.44,0:00:47.21,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:00:47.21,0:00:49.84,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:21.99,0:02:28.00,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(402,1)}Ooka Momiji's Challenge \N(Part One)
+Dialogue: 0,0:02:22.48,0:02:26.05,DCMain,CONAN,0000,0000,0000,,"Ooka Momiji's Challenge, Part One!"
+Dialogue: 0,0:02:28.00,0:02:29.71,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:02:28.83,0:02:30.25,DCMain,RAN,0000,0000,0000,,I'm home.
+Dialogue: 0,0:02:32.00,0:02:35.00,DCMain,RAN,0000,0000,0000,,What should I make for dinner?
+Dialogue: 0,0:02:35.82,0:02:39.66,DCMain,RAN,0000,0000,0000,,I already spent a lot this \Nmonth, so I need to save money.
+Dialogue: 0,0:02:41.18,0:02:44.31,Jingusukan,SIGN,0000,0000,0000,,Jingisukan Beika
+Dialogue: 0,0:02:41.18,0:02:44.31,Coupon,SIGN,0000,0000,0000,,Coupon
+Dialogue: 0,0:02:42.06,0:02:44.31,DCMain,RAN,0000,0000,0000,,A coupon for jingisukan.
+Dialogue: 0,0:02:44.72,0:02:46.43,DCMain,RAN,0000,0000,0000,,Summer vacation starts tomorrow.
+Dialogue: 0,0:02:46.43,0:02:49.12,DCMain,RAN,0000,0000,0000,,We can build up our strength \Nto fight the summer heat.
+Dialogue: 0,0:02:51.56,0:02:52.54,DCMain,RAN,0000,0000,0000,,A text?
+Dialogue: 0,0:02:53.94,0:02:56.11,Messages,SIGN,0000,0000,0000,,Messages \NOoka Momiji \NDad \NDad \NConan-kun \NSonoko \NDad \NConan-kun \NNozomi
+Dialogue: 0,0:02:54.64,0:02:56.18,DCMain,RAN,0000,0000,0000,,From M-Momiji-san?
+Dialogue: 0,0:02:56.11,0:02:58.69,Messages,SIGN,0000,0000,0000,,From Ooka Momiji\N Subj: No subject \NDear Mori Ran-sama, This is Ooka Momiji.\N I apologize for the sudden message, \Nbut I'd like Kudo Shinichi-kun,\N whom I met in Kyoto, to decipher\N a code for me. I've sent you a picture of the code.
+Dialogue: 0,0:02:56.84,0:02:58.69,DCMain,RAN,0000,0000,0000,,"Dear Mori Ran-sama."
+Dialogue: 0,0:02:58.92,0:03:01.42,DCMain,RAN,0000,0000,0000,,"This is Ooka Momiji."
+Dialogue: 0,0:03:01.90,0:03:07.36,DCItalic,MOMIJI,0000,0000,0000,,I apologize for the sudden message, \Nbut I'd like Kudo Shinichi-kun,
+Dialogue: 0,0:03:07.36,0:03:09.81,DCItalic,MOMIJI,0000,0000,0000,,whom I met in Kyoto, to \Ndecipher a code for me.
+Dialogue: 0,0:03:09.81,0:03:12.47,DCItalic,MOMIJI,0000,0000,0000,,I've sent you pictures of the code.
+Dialogue: 0,0:03:13.33,0:03:14.34,DCMain,RAN,0000,0000,0000,,A code?
+Dialogue: 0,0:03:14.34,0:03:15.84,DCMain,SIGN,0000,0000,0000,,Attachments
+Dialogue: 0,0:03:15.84,0:03:23.59,Treasure,SIGN,0000,0000,0000,,The treasure is here! \NFrom your football-loving mother
+Dialogue: 0,0:03:24.76,0:03:26.97,DCMain,RAN,0000,0000,0000,,"A housekeeper who worked for a wealthy man
+Dialogue: 0,0:03:26.97,0:03:30.60,DCMain,RAN,0000,0000,0000,,for many years passed away at \Nhis mansion the other day."
+Dialogue: 0,0:03:31.01,0:03:35.40,DCMain,RAN,0000,0000,0000,,"Just before she died, she sent \Nthis code to her four sons."
+Dialogue: 0,0:03:35.40,0:03:40.48,DCItalic,MOMIJI,0000,0000,0000,,Apparently she wanted to \Nleave the incredible treasure
+Dialogue: 0,0:03:40.48,0:03:42.61,DCItalic,MOMIJI,0000,0000,0000,,her employer gave her to her sons.
+Dialogue: 0,0:03:43.47,0:03:49.34,DCItalic,MOMIJI,0000,0000,0000,,She loved mysteries and sent each \Nof her sons a different code,
+Dialogue: 0,0:03:49.34,0:03:52.62,DCItalic,MOMIJI,0000,0000,0000,,so they'd have to work together \Nto find the treasure.
+Dialogue: 0,0:03:52.99,0:03:55.73,DCItalic,MOMIJI,0000,0000,0000,,However, after the brothers shared \Ntheir codes with each other,
+Dialogue: 0,0:03:55.73,0:03:58.63,DCItalic,MOMIJI,0000,0000,0000,,correspondence from the \Neldest son suddenly stopped.
+Dialogue: 0,0:03:59.28,0:04:02.26,DCItalic,MOMIJI,0000,0000,0000,,Believing the eldest brother may \Nhave already solved the code,
+Dialogue: 0,0:04:02.26,0:04:05.74,DCItalic,MOMIJI,0000,0000,0000,,and encountered some kind of trouble \Nat the treasure's location,
+Dialogue: 0,0:04:05.74,0:04:09.49,DCItalic,MOMIJI,0000,0000,0000,,the three brothers reached out \Nto the wealthy man's family.
+Dialogue: 0,0:04:09.49,0:04:12.25,DCItalic,MOMIJI,0000,0000,0000,,As the Ooka family has a \Nrelationship with them,
+Dialogue: 0,0:04:12.25,0:04:14.87,DCItalic,MOMIJI,0000,0000,0000,,the family reached out to us \Nto ask us to decipher the code.
+Dialogue: 0,0:04:16.10,0:04:21.87,DCItalic,MOMIJI,0000,0000,0000,,I heard Kudo Shinichi-kun is a \Nfamous high school detective.
+Dialogue: 0,0:04:21.87,0:04:24.93,DCItalic,MOMIJI,0000,0000,0000,,I wanted to message him directly, but \NI don't have his contact information,
+Dialogue: 0,0:04:24.93,0:04:30.91,DCItalic,MOMIJI,0000,0000,0000,,so I messaged you instead \Nsince we exchanged numbers.
+Dialogue: 0,0:04:30.91,0:04:39.71,Messages,SIGN,0000,0000,0000,,I happen to have plans to go to Tokyo today. \NI'll fill you \Nin on the details today at 4PM\N on the Haido Chuo Building roof. \NBest regards, Ooka Momiji
+Dialogue: 0,0:04:31.22,0:04:34.35,DCMain,RAN,0000,0000,0000,,"I happen to have plans \Nto go to Tokyo today."
+Dialogue: 0,0:04:34.35,0:04:38.98,DCMain,RAN,0000,0000,0000,,"I'll fill you in on the details today at \N4PM on the Haido Chuo Building roof."
+Dialogue: 0,0:04:40.43,0:04:42.52,DCMain,RAN,0000,0000,0000,,That's only three hours from now!
+Dialogue: 0,0:04:42.52,0:04:44.34,DCMain,RAN,0000,0000,0000,,I need to call Shinichi right away.
+Dialogue: 0,0:04:49.54,0:04:53.98,DCItalic,RAN,0000,0000,0000,,But I'm still too embarrassed \Nto speak to him directly...
+Dialogue: 0,0:04:53.98,0:04:58.23,DCNote,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:04:54.57,0:04:56.33,DCMain,RAN,0000,0000,0000,,I guess I can text him.
+Dialogue: 0,0:04:56.33,0:04:58.23,DCMain,RAN,0000,0000,0000,,I have to send him the code anyway.
+Dialogue: 0,0:04:59.08,0:05:02.36,DCMain,ALL,0000,0000,0000,,Summer vacation starts tomorrow!
+Dialogue: 0,0:05:02.60,0:05:05.60,DCMain,GENTA,0000,0000,0000,,Let's play tons of games \Nat the professor's house!
+Dialogue: 0,0:05:05.60,0:05:06.85,DCMain,AYUMI,0000,0000,0000,,Yeah!
+Dialogue: 0,0:05:06.85,0:05:08.37,DCMain,MITSUHIKO,0000,0000,0000,,Let's enjoy our vacation!
+Dialogue: 0,0:05:08.37,0:05:11.12,Treasure,SIGN,0000,0000,0000,,The treasure is here! \NFrom your football-loving mother
+Dialogue: 0,0:05:12.66,0:05:13.80,DCMain,AYUMI,0000,0000,0000,,Conan-kun.
+Dialogue: 0,0:05:13.80,0:05:14.54,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:14.70,0:05:18.41,DCMain,AYUMI,0000,0000,0000,,Quit scowling and play games with us.
+Dialogue: 0,0:05:18.41,0:05:19.67,DCMain,CONAN,0000,0000,0000,,Yeah, sure.
+Dialogue: 0,0:05:19.83,0:05:21.16,DCMain,HAIBARA,0000,0000,0000,,It's all right.
+Dialogue: 0,0:05:21.16,0:05:24.17,DCMain,HAIBARA,0000,0000,0000,,He's currently engrossed in another game.
+Dialogue: 0,0:05:24.46,0:05:26.76,DCMain,HAIBARA,0000,0000,0000,,The game of deciphering a code.
+Dialogue: 0,0:05:26.76,0:05:28.18,DCMain,CONAN,0000,0000,0000,,Yeah, I guess.
+Dialogue: 0,0:05:28.33,0:05:30.62,DCMain,AGASA,0000,0000,0000,,Where'd you get that code?
+Dialogue: 0,0:05:30.62,0:05:33.55,DCMain,CONAN,0000,0000,0000,,Ran sent it to me.
+Dialogue: 0,0:05:33.55,0:05:35.77,DCMain,CONAN,0000,0000,0000,,Sounds like there's a story behind it.
+Dialogue: 0,0:05:35.77,0:05:37.93,DCMain,AGASA,0000,0000,0000,,Have you solved it yet?
+Dialogue: 0,0:05:37.93,0:05:39.69,DCMain,CONAN,0000,0000,0000,,No, I still have no idea.
+Dialogue: 0,0:05:39.90,0:05:41.84,DCMain,MITSUHIKO,0000,0000,0000,,What's wrong, Genta-kun?
+Dialogue: 0,0:05:41.84,0:05:43.01,DCMain,AYUMI,0000,0000,0000,,Are you itchy?
+Dialogue: 0,0:05:43.01,0:05:46.81,DCMain,GENTA,0000,0000,0000,,I suddenly started feeling itchy \Nafter eating these crackers.
+Dialogue: 0,0:05:46.81,0:05:49.32,DCMain,AYUMI,0000,0000,0000,,They're ordinary shrimp-flavored crackers.
+Dialogue: 0,0:05:49.32,0:05:54.20,DCMain,HAIBARA,0000,0000,0000,,Kojima-kun, do you ever feel itchy \Nafter touching shrimp or crab?
+Dialogue: 0,0:05:54.45,0:05:58.49,DCMain,GENTA,0000,0000,0000,,Huh? Everyone gets itchy from peeling shrimp.
+Dialogue: 0,0:05:58.49,0:05:59.46,DCMain,GENTA,0000,0000,0000,,Right?
+Dialogue: 0,0:05:59.46,0:06:01.05,DCMain,AYUMI,0000,0000,0000,,No, not at all.
+Dialogue: 0,0:06:01.05,0:06:02.38,DCMain,MITSUHIKO,0000,0000,0000,,I don't get itchy.
+Dialogue: 0,0:06:02.74,0:06:06.78,DCMain,HAIBARA,0000,0000,0000,,Kojima-kun, you might be \Nallergic to shellfish.
+Dialogue: 0,0:06:06.78,0:06:08.88,DCMain,HAIBARA,0000,0000,0000,,You shouldn't eat any more of those crackers.
+Dialogue: 0,0:06:08.88,0:06:12.13,DCMain,GENTA,0000,0000,0000,,What? But I love these!
+Dialogue: 0,0:06:12.13,0:06:13.64,DCMain,AYUMI,0000,0000,0000,,No eating them!
+Dialogue: 0,0:06:13.64,0:06:15.85,DCMain,MITSUHIKO,0000,0000,0000,,How many did you eat?
+Dialogue: 0,0:06:16.29,0:06:20.66,DCMain,GENTA,0000,0000,0000,,First I had three, then I had two more.
+Dialogue: 0,0:06:20.66,0:06:25.11,DCMain,GENTA,0000,0000,0000,,Since one was taken from me \Njust now, I've only eaten four.
+Dialogue: 0,0:06:26.53,0:06:31.84,DCMain,HAIBARA,0000,0000,0000,,Sounds like your addition and subtraction \Nabilities need fixing, too.
+Dialogue: 0,0:06:31.84,0:06:33.66,DCMain,CONAN,0000,0000,0000,,Addition and subtraction...
+Dialogue: 0,0:06:33.92,0:06:34.70,DCMain,HAIBARA,0000,0000,0000,,What?
+Dialogue: 0,0:06:35.44,0:06:37.70,DCMain,CONAN,0000,0000,0000,,Uh, nothing.
+Dialogue: 0,0:06:37.70,0:06:39.46,DCMain,SIGN,0000,0000,0000,,Mori Detective Agency
+Dialogue: 0,0:06:41.61,0:06:44.96,DCItalic,RAN,0000,0000,0000,,Shinichi still hasn't responded yet.
+Dialogue: 0,0:06:45.27,0:06:49.22,DCItalic,RAN,0000,0000,0000,,I have to start heading to the Haido Chuo \NBuilding soon or I won't make it in time.
+Dialogue: 0,0:06:49.97,0:06:52.01,DCItalic,RAN,0000,0000,0000,,Maybe I'll call him after all.
+Dialogue: 0,0:06:52.53,0:06:53.93,DCMain,CONAN,0000,0000,0000,,I'm home.
+Dialogue: 0,0:06:53.93,0:06:55.14,DCMain,RAN,0000,0000,0000,,Welcome back.
+Dialogue: 0,0:06:55.40,0:06:57.60,DCMain,CONAN,0000,0000,0000,,Shinichi-niichan called me.
+Dialogue: 0,0:06:57.84,0:06:58.60,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:06:58.73,0:07:04.42,DCMain,CONAN,0000,0000,0000,,He said he's too busy to go to the Haido Chuo \NBuilding, so he asked me to go with you instead.
+Dialogue: 0,0:07:04.42,0:07:06.36,DCMain,CONAN,0000,0000,0000,,I'll go put my backpack away.
+Dialogue: 0,0:07:06.36,0:07:07.87,DCMain,RAN,0000,0000,0000,,Okay...
+Dialogue: 0,0:07:09.47,0:07:11.99,DCItalic,RAN,0000,0000,0000,,Why did he call Conan-kun instead of me?
+Dialogue: 0,0:07:14.49,0:07:19.39,DCItalic,RAN,0000,0000,0000,,Maybe Shinichi's too embarrassed \Nto call me directly, too.
+Dialogue: 0,0:07:25.49,0:07:29.74,DCMain,CONAN,0000,0000,0000,,That tall building is the \NHaido Chuo Building, right?
+Dialogue: 0,0:07:29.74,0:07:30.76,DCMain,RAN,0000,0000,0000,,Yeah.
+Dialogue: 0,0:07:33.77,0:07:39.36,DCMain,SERVANT,0000,0000,0000,,Excuse me. You're Kudo Shinichi-sama's \Ncompanion Ran Mori-sama, aren't you?
+Dialogue: 0,0:07:43.07,0:07:43.90,DCMain,SERVANT,0000,0000,0000,,Come in.
+Dialogue: 0,0:07:43.90,0:07:44.77,DCMain,RAN,0000,0000,0000,,Thank you.
+Dialogue: 0,0:07:47.75,0:07:49.99,DCMain,RAN,0000,0000,0000,,Hattori-kun and Kazuha-chan?
+Dialogue: 0,0:07:51.15,0:07:53.74,DCMain,RAN,0000,0000,0000,,What are you two doing here?
+Dialogue: 0,0:07:54.00,0:07:55.91,DCMain,HEIJI,0000,0000,0000,,I could ask you the same thing.
+Dialogue: 0,0:07:55.91,0:07:58.88,DCMain,KAZUHA,0000,0000,0000,,Did Momiji invite you here, too?
+Dialogue: 0,0:07:58.88,0:08:00.28,DCMain,RAN,0000,0000,0000,,Yeah, she did.
+Dialogue: 0,0:08:00.28,0:08:04.41,DCMain,KAZUHA,0000,0000,0000,,Does that mean Momiji asked \NKudo-kun to solve a code?
+Dialogue: 0,0:08:04.41,0:08:07.04,DCMain,RAN,0000,0000,0000,,Yeah, she did.
+Dialogue: 0,0:08:07.25,0:08:09.69,DCMain,KAZUHA,0000,0000,0000,,I knew it!
+Dialogue: 0,0:08:09.69,0:08:14.46,DCMain,HEIJI,0000,0000,0000,,Which means this is a contest \Nbetween me and Kudo.
+Dialogue: 0,0:08:16.16,0:08:17.30,DCMain,RAN,0000,0000,0000,,What's going on?
+Dialogue: 0,0:08:17.55,0:08:21.32,DCMain,KAZUHA,0000,0000,0000,,This afternoon, at our school gate...
+Dialogue: 0,0:08:22.36,0:08:25.81,3Hours,SIGN,0000,0000,0000,,{\fad(460,460)}3 Hours Earlier...
+Dialogue: 0,0:08:22.96,0:08:24.39,DCMain,HEIJI,0000,0000,0000,,It's finally over.
+Dialogue: 0,0:08:24.39,0:08:25.50,DCMain,MOMIJI,0000,0000,0000,,Heiji-kun.
+Dialogue: 0,0:08:26.44,0:08:29.32,DCMain,MOMIJI,0000,0000,0000,,Congratulations on finishing \Nyour first semester.
+Dialogue: 0,0:08:29.32,0:08:31.27,DCMain,HEIJI,0000,0000,0000,,It's you, Momiji.
+Dialogue: 0,0:08:31.92,0:08:32.82,DCMain,HEIJI,0000,0000,0000,,What's up?
+Dialogue: 0,0:08:33.49,0:08:38.03,DCMain,MOMIJI,0000,0000,0000,,I'd like you to do something \Nfor me, Heiji-kun.
+Dialogue: 0,0:08:38.83,0:08:41.08,Treasure2,SIGN,0000,0000,0000,,The treasure is here! \NFrom your football-loving mother
+Dialogue: 0,0:08:39.36,0:08:41.08,DCMain,HEIJI,0000,0000,0000,,I see.
+Dialogue: 0,0:08:41.36,0:08:47.71,DCMain,HEIJI,0000,0000,0000,,I bet you're worried something might've \Nhappened to the eldest brother who solved the code,
+Dialogue: 0,0:08:48.03,0:08:51.96,DCMain,HEIJI,0000,0000,0000,,so you want me to solve it \Nand go check things out.
+Dialogue: 0,0:08:52.46,0:08:56.16,DCMain,HEIJI,0000,0000,0000,,But the eldest brother probably \Nran off with the treasure
+Dialogue: 0,0:08:56.16,0:08:58.35,DCMain,HEIJI,0000,0000,0000,,so he could keep it to himself, \Nso there's no point in solving this.
+Dialogue: 0,0:08:58.93,0:09:00.40,DCMain,MOMIJI,0000,0000,0000,,I see.
+Dialogue: 0,0:09:01.02,0:09:03.85,DCMain,MOMIJI,0000,0000,0000,,So you can't solve it either.
+Dialogue: 0,0:09:03.85,0:09:05.81,DCMain,HEIJI,0000,0000,0000,,I didn't say that!
+Dialogue: 0,0:09:05.81,0:09:08.36,DCMain,HEIJI,0000,0000,0000,,I could solve this thing faster than anyone!
+Dialogue: 0,0:09:09.35,0:09:10.86,DCMain,MOMIJI,0000,0000,0000,,Anyone?
+Dialogue: 0,0:09:11.19,0:09:15.74,DCMain,MOMIJI,0000,0000,0000,,If there's a high school student \Nwho can solve this code before you,
+Dialogue: 0,0:09:15.74,0:09:18.37,DCMain,MOMIJI,0000,0000,0000,,will you do me a favor?
+Dialogue: 0,0:09:18.70,0:09:20.45,DCMain,HEIJI,0000,0000,0000,,Sure, fine.
+Dialogue: 0,0:09:20.45,0:09:21.99,DCMain,KAZUHA,0000,0000,0000,,Heiji!
+Dialogue: 0,0:09:22.33,0:09:25.41,DCMain,MOMIJI,0000,0000,0000,,Do you really mean that, Heiji-kun?
+Dialogue: 0,0:09:25.62,0:09:27.58,DCMain,HEIJI,0000,0000,0000,,Don't make me say it again!
+Dialogue: 0,0:09:27.58,0:09:30.75,DCMain,HEIJI,0000,0000,0000,,If anything like that ever happens, \NI'll do whatever you want!
+Dialogue: 0,0:09:30.97,0:09:31.88,DCMain,MOMIJI,0000,0000,0000,,Iori.
+Dialogue: 0,0:09:31.88,0:09:35.25,DCMain,IORI,0000,0000,0000,,Yes, miss. I recorded the audio.
+Dialogue: 0,0:09:35.74,0:09:37.76,DCItalic,HEIJI,0000,0000,0000,,I'll do whatever you want!
+Dialogue: 0,0:09:39.43,0:09:46.22,DCMain,MOMIJI,0000,0000,0000,,I'll fill you in on the details today \Nat 4PM on the Haido Chuo Building roof.
+Dialogue: 0,0:09:48.46,0:09:51.08,DCMain,KAZUHA,0000,0000,0000,,4PM? That's just three hours from now!
+Dialogue: 0,0:09:51.08,0:09:52.72,DCMain,KAZUHA,0000,0000,0000,,Hey, Momiji!
+Dialogue: 0,0:09:52.72,0:09:54.69,DCMain,IORI,0000,0000,0000,,It's all right.
+Dialogue: 0,0:09:55.36,0:09:58.49,DCMain,IORI,0000,0000,0000,,We've already acquired \Ntickets to Haneda for you.
+Dialogue: 0,0:09:58.49,0:10:00.91,DCMain,KAZUHA,0000,0000,0000,,That's not the problem here.
+Dialogue: 0,0:10:01.28,0:10:04.20,DCMain,IORI,0000,0000,0000,,It's up to you whether \Nor not you want to come.
+Dialogue: 0,0:10:04.84,0:10:09.54,DCMain,IORI,0000,0000,0000,,But understand that if you don't, \Nit will mean Momiji-ojosama wins.
+Dialogue: 0,0:10:12.25,0:10:16.10,DCMain,KAZUHA,0000,0000,0000,,After he said that, we flew here in a hurry.
+Dialogue: 0,0:10:16.10,0:10:17.66,DCMain,RAN,0000,0000,0000,,Isn't that a bad thing?
+Dialogue: 0,0:10:17.66,0:10:20.30,DCMain,RAN,0000,0000,0000,,Doesn't Momiji-san have \Nfeelings for Hattori-kun?
+Dialogue: 0,0:10:20.54,0:10:24.50,DCMain,KAZUHA,0000,0000,0000,,Exactly. She'll obviously \Nask Heiji to marry her.
+Dialogue: 0,0:10:24.50,0:10:29.81,DCMain,KAZUHA,0000,0000,0000,,Heiji said she probably wants to play karuta \Nwith him again like when they were kids, but...
+Dialogue: 0,0:10:29.81,0:10:35.57,DCMain,RAN,0000,0000,0000,,I see. I was wondering why she asked \NShinichi instead of Hattori-kun.
+Dialogue: 0,0:10:35.57,0:10:41.07,DCMain,KAZUHA,0000,0000,0000,,Anyway, Ran-chan, I hate to \Nask you to do this, but...
+Dialogue: 0,0:10:41.36,0:10:45.24,DCMain,KAZUHA,0000,0000,0000,,Could you ask Kudo-kun to \Nlet Heiji win this time?
+Dialogue: 0,0:10:45.24,0:10:48.74,DCItalic,MOMIJI,0000,0000,0000,,Little Miss Leaf, don't you think \Nthat would be against the rules?
+Dialogue: 0,0:10:48.74,0:10:50.33,DCMain,KAZUHA,0000,0000,0000,,Th-That's Momiji's voice.
+Dialogue: 0,0:10:50.50,0:10:51.79,DCMain,KAZUHA,0000,0000,0000,,Where are you?
+Dialogue: 0,0:10:52.91,0:10:53.87,DCMain,RAN,0000,0000,0000,,Kazuha-chan.
+Dialogue: 0,0:10:54.52,0:10:57.96,DCMain,RAN,0000,0000,0000,,There's something on your \Ncollar. It looks like a brooch.
+Dialogue: 0,0:10:58.44,0:11:00.28,DCMain,KAZUHA,0000,0000,0000,,A mic and speaker?
+Dialogue: 0,0:11:01.41,0:11:02.64,DCMain,KAZUHA,0000,0000,0000,,He must've stuck it on me then!
+Dialogue: 0,0:11:02.64,0:11:04.36,DCItalic,KAZUHA,0000,0000,0000,,Hey, Momiji!
+Dialogue: 0,0:11:04.36,0:11:06.22,DCItalic,IORI,0000,0000,0000,,It's all right.
+Dialogue: 0,0:11:06.44,0:11:09.60,DCMain,KAZUHA,0000,0000,0000,,Momiji's butler must've secretly \Nattached it to me then!
+Dialogue: 0,0:11:09.99,0:11:12.28,DCMain,KAZUHA,0000,0000,0000,,Momiji, you're listening, aren't you?!
+Dialogue: 0,0:11:12.28,0:11:14.40,DCMain,KAZUHA,0000,0000,0000,,Quit sneaking around and show yourself!
+Dialogue: 0,0:11:14.40,0:11:16.67,DCItalic,MOMIJI,0000,0000,0000,,In that case, perhaps I shall.
+Dialogue: 0,0:11:18.24,0:11:20.27,DCMain,KAZUHA,0000,0000,0000,,Come on, Momiji!
+Dialogue: 0,0:11:23.81,0:11:25.59,DCMain,RAN,0000,0000,0000,,H-Hey, Kazuha-chan.
+Dialogue: 0,0:11:26.19,0:11:31.16,DCMain,RAN,0000,0000,0000,,Isn't this circle drawn on the floor...?
+Dialogue: 0,0:11:55.01,0:11:58.07,DCMain,MOMIJI,0000,0000,0000,,Thank you for waiting, everyone.
+Dialogue: 0,0:11:59.13,0:12:01.07,DCMain,MOMIJI,0000,0000,0000,,I am Ooka Momiji.
+Dialogue: 0,0:12:03.09,0:12:04.92,DCMain,HEIJI,0000,0000,0000,,Skip the formal greeting.
+Dialogue: 0,0:12:04.92,0:12:07.24,DCMain,HEIJI,0000,0000,0000,,Fill us in on those details you promised us.
+Dialogue: 0,0:12:07.64,0:12:11.25,DCMain,MOMIJI,0000,0000,0000,,Those details are only \Na few additional words.
+Dialogue: 0,0:12:11.91,0:12:16.50,DCMain,MOMIJI,0000,0000,0000,,The message "From your football-loving \Nmother" was written on the code,
+Dialogue: 0,0:12:16.82,0:12:18.79,DCMain,MOMIJI,0000,0000,0000,,but she apparently never \Nwatched a football,
+Dialogue: 0,0:12:18.79,0:12:23.87,DCMain,MOMIJI,0000,0000,0000,,or in other words, a soccer \Ngame once in her life.
+Dialogue: 0,0:12:32.70,0:12:34.50,DCMain,HEIJI,0000,0000,0000,,Sh-She'd never seen...
+Dialogue: 0,0:12:34.50,0:12:36.15,DCMain,CONAN,0000,0000,0000,,...a soccer game?
+Dialogue: 0,0:12:36.58,0:12:39.40,DCItalic,HEIJI,0000,0000,0000,,Which means we should \Nfocus our attention on...
+Dialogue: 0,0:12:39.61,0:12:42.65,DCItalic,CONAN,0000,0000,0000,,...the word "football" at the end of the code.
+Dialogue: 0,0:12:44.17,0:12:48.16,DCItalic,HEIJI,0000,0000,0000,,In the first three codes, the characters \Nspelling "foot" are a little thicker.
+Dialogue: 0,0:12:46.45,0:12:48.16,Football,SIGN,0000,0000,0000,,{\fad(208,1)}Foot{\b0}ball{\b1} \NFoot{\b0}ball {\b1}\NFoot{\b0}ball{\b1}
+Dialogue: 0,0:12:48.16,0:12:52.77,DCItalic,CONAN,0000,0000,0000,,But in the final code, the "ba"\N are a little thicker.
+Dialogue: 0,0:12:50.58,0:12:53.16,Football2,SIGN,0000,0000,0000,,{\fad(208,1)\b0}Foot{\b1}ba{\b0}ll{\b1}
+Dialogue: 0,0:12:55.05,0:12:55.96,DCItalic,BOTH,0000,0000,0000,,Why?
+Dialogue: 0,0:12:56.72,0:13:01.30,DCMain,MOMIJI,0000,0000,0000,,Huh? I don't see Kudo Shinichi-kun.
+Dialogue: 0,0:13:01.55,0:13:03.30,DCMain,MOMIJI,0000,0000,0000,,What happened to him?
+Dialogue: 0,0:13:03.30,0:13:09.18,DCMain,RAN,0000,0000,0000,,I sent him the pictures of the code, \Nbut he said he was too busy to come,
+Dialogue: 0,0:13:09.38,0:13:13.06,DCMain,RAN,0000,0000,0000,,so Conan-kun and I came in his place.
+Dialogue: 0,0:13:13.06,0:13:19.69,DCMain,MOMIJI,0000,0000,0000,,But doesn't Kudo-kun's absence give \NHeiji-kun a significant advantage?
+Dialogue: 0,0:13:19.69,0:13:25.27,DCMain,CONAN,0000,0000,0000,,It'll be fine. I'm on a call \Nwith Shinichi-niichan right now.
+Dialogue: 0,0:13:25.70,0:13:28.07,DCItalic,RAN,0000,0000,0000,,Seriously, why Conan-kun?
+Dialogue: 0,0:13:31.38,0:13:32.83,DCMain,MOMIJI,0000,0000,0000,,Fine, then.
+Dialogue: 0,0:13:33.28,0:13:36.42,DCMain,MOMIJI,0000,0000,0000,,Now that you have all the information \Nyou need to solve the code,
+Dialogue: 0,0:13:36.99,0:13:39.29,DCMain,MOMIJI,0000,0000,0000,,ready, go!
+Dialogue: 0,0:13:40.70,0:13:43.30,DCMain,MOMIJI,0000,0000,0000,,Please let me know once \Nyou've solved the code.
+Dialogue: 0,0:13:43.71,0:13:49.45,DCMain,MOMIJI,0000,0000,0000,,Whoever tells me the answer \Nfirst will be the winner.
+Dialogue: 0,0:13:49.45,0:13:56.31,DCMain,IORI,0000,0000,0000,,I'd like to remind you that a man's \Nsafety depends on you solving this code.
+Dialogue: 0,0:13:56.31,0:13:59.49,DCMain,IORI,0000,0000,0000,,We'd like you to solve it \Nas quickly as possible.
+Dialogue: 0,0:14:00.07,0:14:02.82,DCMain,IORI,0000,0000,0000,,Additionally, in the event that \NHattori-sama loses to Kudo-sama,
+Dialogue: 0,0:14:03.56,0:14:07.13,DCMain,IORI,0000,0000,0000,,don't forget that Hattori-sama has agreed
+Dialogue: 0,0:14:07.89,0:14:10.32,DCMain,IORI,0000,0000,0000,,to fulfill a request from Momiji-ojosama.
+Dialogue: 0,0:14:10.62,0:14:12.34,DCMain,HEIJI,0000,0000,0000,,Yeah, I know.
+Dialogue: 0,0:14:12.99,0:14:16.33,DCMain,CONAN,0000,0000,0000,,Hattori, what's this about a request?
+Dialogue: 0,0:14:16.98,0:14:19.73,DCMain,HEIJI,0000,0000,0000,,I'm sure it's no big deal. \NDon't worry about it.
+Dialogue: 0,0:14:19.73,0:14:20.92,DCMain,CONAN,0000,0000,0000,,Oh, really?
+Dialogue: 0,0:14:21.12,0:14:24.42,DCMain,MOMIJI,0000,0000,0000,,In that case, everyone, shall \Nwe get something to eat?
+Dialogue: 0,0:14:24.42,0:14:27.44,DCMain,MOMIJI,0000,0000,0000,,After all, they say you can't \Nfight on an empty stomach.
+Dialogue: 0,0:14:28.57,0:14:33.16,DCMain,RAN,0000,0000,0000,,But, Momiji-san, why are we starting in Tokyo?
+Dialogue: 0,0:14:33.16,0:14:38.89,DCMain,MOMIJI,0000,0000,0000,,Because before her death, the \Nhousekeeper who made the code
+Dialogue: 0,0:14:38.89,0:14:42.98,DCMain,MOMIJI,0000,0000,0000,,was working at a wealthy man's mansion \Nlocated in Tokyo's Haido City.
+Dialogue: 0,0:14:43.17,0:14:49.37,DCMain,MOMIJI,0000,0000,0000,,I thought the treasure she received from \Nher master must be in Tokyo as well.
+Dialogue: 0,0:14:49.37,0:14:52.99,DCMain,KAZUHA,0000,0000,0000,,Wouldn't it be hidden at the mansion, then?
+Dialogue: 0,0:14:52.99,0:14:58.00,DCMain,MOMIJI,0000,0000,0000,,Since it would inconvenience her master \Nto have her sons search his mansion,
+Dialogue: 0,0:14:58.24,0:15:02.50,DCMain,MOMIJI,0000,0000,0000,,the housekeeper's letter said \Nthe treasure wasn't there.
+Dialogue: 0,0:15:02.74,0:15:06.50,DCMain,RAN,0000,0000,0000,,Then maybe it's at the home of \Nthat housekeeper and her sons.
+Dialogue: 0,0:15:06.97,0:15:11.59,DCMain,MOMIJI,0000,0000,0000,,They sold their home when the \Nhousekeeper's husband passed away,
+Dialogue: 0,0:15:11.59,0:15:13.73,DCMain,MOMIJI,0000,0000,0000,,and it's no longer there.
+Dialogue: 0,0:15:13.73,0:15:17.06,DCMain,MOMIJI,0000,0000,0000,,After that, she put her sons up for adoption
+Dialogue: 0,0:15:17.06,0:15:21.39,DCMain,MOMIJI,0000,0000,0000,,and began working as a live-in \Nhousekeeper at the mansion.
+Dialogue: 0,0:15:21.82,0:15:26.71,DCMain,MOMIJI,0000,0000,0000,,After the four sons were \Nseparated as children,
+Dialogue: 0,0:15:26.71,0:15:29.93,DCMain,MOMIJI,0000,0000,0000,,they apparently haven't met once in 30 years.
+Dialogue: 0,0:15:29.93,0:15:31.28,DCMain,HEIJI,0000,0000,0000,,Huh.
+Dialogue: 0,0:15:31.62,0:15:35.34,DCMain,MOMIJI,0000,0000,0000,,I heard only their mother the housekeeper
+Dialogue: 0,0:15:35.34,0:15:39.79,DCMain,MOMIJI,0000,0000,0000,,and the eldest son exchanged messages \Nwith the three younger brothers.
+Dialogue: 0,0:15:39.79,0:15:43.26,DCMain,KAZUHA,0000,0000,0000,,Then maybe some bad guy who \Nheard about the treasure
+Dialogue: 0,0:15:43.26,0:15:46.84,DCMain,KAZUHA,0000,0000,0000,,pretended to be one of the \Nbrothers so he could swipe it?
+Dialogue: 0,0:15:46.84,0:15:48.30,DCMain,MOMIJI,0000,0000,0000,,I wouldn't worry about that.
+Dialogue: 0,0:15:49.01,0:15:51.71,DCMain,MOMIJI,0000,0000,0000,,Apparently the four brothers
+Dialogue: 0,0:15:51.71,0:15:54.55,DCMain,MOMIJI,0000,0000,0000,,have a rather obvious mark \Non the palms of their hands.
+Dialogue: 0,0:15:54.93,0:15:56.43,DCItalic,HEIJI,0000,0000,0000,,An obvious...
+Dialogue: 0,0:15:56.43,0:15:57.77,DCItalic,CONAN,0000,0000,0000,,...mark?
+Dialogue: 0,0:15:58.38,0:16:04.25,DCMain,MOMIJI,0000,0000,0000,,It's a burn scar from when the \Nfour brothers were children.
+Dialogue: 0,0:16:04.25,0:16:05.39,DCMain,RAN,0000,0000,0000,,A burn?
+Dialogue: 0,0:16:05.39,0:16:06.82,DCMain,KAZUHA,0000,0000,0000,,All four brothers?
+Dialogue: 0,0:16:07.02,0:16:12.05,DCMain,MOMIJI,0000,0000,0000,,Supposedly they were protecting \Ntheir mother from a serious burn.
+Dialogue: 0,0:16:12.05,0:16:13.18,DCMain,RAN,0000,0000,0000,,Huh.
+Dialogue: 0,0:16:13.18,0:16:15.82,DCMain,KAZUHA,0000,0000,0000,,Sounds like an honorable injury, then.
+Dialogue: 0,0:16:18.03,0:16:19.21,DCMain,IORI,0000,0000,0000,,Excuse me, Ran-sama.
+Dialogue: 0,0:16:19.21,0:16:19.83,DCMain,RAN,0000,0000,0000,,Yes?
+Dialogue: 0,0:16:19.83,0:16:25.10,DCMain,IORI,0000,0000,0000,,Forgive me, but we've been walking \Nfor ten minutes and 30 seconds.
+Dialogue: 0,0:16:25.10,0:16:27.64,DCMain,IORI,0000,0000,0000,,Have we still not arrived at our destination?
+Dialogue: 0,0:16:27.64,0:16:29.84,DCMain,RAN,0000,0000,0000,,We should be there soon.
+Dialogue: 0,0:16:30.00,0:16:34.11,DCMain,RAN,0000,0000,0000,,When I went with some friends the \Nother day, it was really good.
+Dialogue: 0,0:16:34.11,0:16:35.84,DCMain,RAN,0000,0000,0000,,That's it right there.
+Dialogue: 0,0:16:36.21,0:16:37.85,DCMain,RAN,0000,0000,0000,,That pancake shop.
+Dialogue: 0,0:16:38.09,0:16:41.41,DCMain,RAN,0000,0000,0000,,That store's pancakes are really good.
+Dialogue: 0,0:16:41.41,0:16:43.54,DCMain,KAZUHA,0000,0000,0000,,But there's a huge line.
+Dialogue: 0,0:16:43.54,0:16:46.85,DCMain,MOMIJI,0000,0000,0000,,Tokyoites are so patient.
+Dialogue: 0,0:16:46.85,0:16:47.86,DCMain,RAN,0000,0000,0000,,We sure are.
+Dialogue: 0,0:16:48.35,0:16:51.06,DCMain,RAN,0000,0000,0000,,It's normal to wait an hour \Nin line at a popular shop.
+Dialogue: 0,0:16:51.06,0:16:54.31,DCMain,KAZUHA,0000,0000,0000,,No, Ran-chan. That's an insult \Ncoming from a Kyoto woman.
+Dialogue: 0,0:16:54.31,0:16:54.86,DCMain,RAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:54.86,0:16:59.17,DCMain,KAZUHA,0000,0000,0000,,What she actually means is, "look at \Nthese idle people wasting their time."
+Dialogue: 0,0:16:59.17,0:17:00.46,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:17:00.46,0:17:02.12,DCMain,MOMIJI,0000,0000,0000,,It's not an insult.
+Dialogue: 0,0:17:02.12,0:17:06.00,DCMain,MOMIJI,0000,0000,0000,,I'm dropping a hint so she can figure \Nit out herself before she gets hurt.
+Dialogue: 0,0:17:06.54,0:17:08.38,DCItalic,KAZUHA,0000,0000,0000,,That's even more hurtful.
+Dialogue: 0,0:17:08.74,0:17:12.73,DCMain,MOMIJI,0000,0000,0000,,If only they'd add the time spent in \Nline plus the fatigue from standing
+Dialogue: 0,0:17:12.73,0:17:17.39,DCMain,MOMIJI,0000,0000,0000,,and subtract that from the food's price.
+Dialogue: 0,0:17:17.55,0:17:18.48,DCMain,HEIJI,0000,0000,0000,,Add...
+Dialogue: 0,0:17:18.96,0:17:20.03,DCMain,CONAN,0000,0000,0000,,And subtract...
+Dialogue: 0,0:17:21.70,0:17:23.52,DCMain,BOTH,0000,0000,0000,,Haido Harbor Warehouse 4!
+Dialogue: 0,0:17:23.52,0:17:24.33,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:17:24.60,0:17:28.10,DCMain,CONAN,0000,0000,0000,,That's where the treasure \Nis, Shinichi-niichan?
+Dialogue: 0,0:17:28.50,0:17:30.36,DCMain,MOMIJI,0000,0000,0000,,How did you arrive at that conclusion?
+Dialogue: 0,0:17:30.54,0:17:35.11,DCMain,HEIJI,0000,0000,0000,,The key to solving the code was \Nin the word football after all.
+Dialogue: 0,0:17:35.49,0:17:39.91,DCMain,HEIJI,0000,0000,0000,,In the first three codes, the \Ncharacters spelling foot were bolded.
+Dialogue: 0,0:17:37.16,0:17:41.99,Football3,SIGN,0000,0000,0000,,{\fad(208,208)\b1}Foot{\b0}ball
+Dialogue: 0,0:17:39.91,0:17:45.12,DCMain,HEIJI,0000,0000,0000,,The character for foot can also mean add.
+Dialogue: 0,0:17:41.79,0:17:43.50,Foot,SIGN,0000,0000,0000,,{\fad(208,208)}"Foot (Ashi)"
+Dialogue: 0,0:17:43.29,0:17:45.12,Ball,SIGN,0000,0000,0000,,{\fad(208,208)}"Add (Tase)"
+Dialogue: 0,0:17:45.45,0:17:49.72,DCMain,HEIJI,0000,0000,0000,,When you lay the three codes over each other,
+Dialogue: 0,0:17:49.72,0:17:51.61,DCMain,HEIJI,0000,0000,0000,,they form a series of odd characters.
+Dialogue: 0,0:17:52.92,0:17:55.55,DCMain,KAZUHA,0000,0000,0000,,But I can't read what it says.
+Dialogue: 0,0:17:55.73,0:17:59.05,DCMain,CONAN,0000,0000,0000,,That's why you need the \Narrows from the fourth code.
+Dialogue: 0,0:17:59.45,0:18:03.62,DCMain,CONAN,0000,0000,0000,,In the fourth code, the characters \Nspelling ball are bolded.
+Dialogue: 0,0:18:01.55,0:18:03.56,Football4,SIGN,0000,0000,0000,,{\b0}Foot{\b1}ba{\b0}ll{\b1}
+Dialogue: 0,0:18:03.56,0:18:04.28,Ball2,SIGN,0000,0000,0000,,Ball
+Dialogue: 0,0:18:03.62,0:18:06.56,DCMain,CONAN,0000,0000,0000,,Ba sounds like bow here, so \Nyou're meant to subtract.
+Dialogue: 0,0:18:04.28,0:18:05.18,Ball2,SIGN,0000,0000,0000,,Bow
+Dialogue: 0,0:18:05.18,0:18:07.31,Ball2,SIGN,0000,0000,0000,,Subtract
+Dialogue: 0,0:18:06.56,0:18:10.53,DCMain,CONAN,0000,0000,0000,,Which means we have to erase the \Narrows from the odd characters
+Dialogue: 0,0:18:07.31,0:18:17.82,Treasure3,SIGN,0000,0000,0000,,The treasure is here! \NFrom your football-loving mother
+Dialogue: 0,0:18:10.53,0:18:13.57,DCMain,CONAN,0000,0000,0000,,made from overlaying the first three codes,
+Dialogue: 0,0:18:13.57,0:18:17.82,DCMain,CONAN,0000,0000,0000,,which turns them into characters we can read.
+Dialogue: 0,0:18:13.65,0:18:17.82,ReadableCode,SIGN,0000,0000,0000,,Haido kou no dai 4 souko (Haido Harbor Warehouse 4)
+Dialogue: 0,0:18:17.96,0:18:19.98,DCMain,CONAN,0000,0000,0000,,That's what Shinichi-niichan said.
+Dialogue: 0,0:18:19.98,0:18:20.52,DCMain,KAZUHA,0000,0000,0000,,Huh.
+Dialogue: 0,0:18:20.52,0:18:21.57,DCMain,RAN,0000,0000,0000,,You're right.
+Dialogue: 0,0:18:21.84,0:18:25.58,DCMain,RAN,0000,0000,0000,,It says, "Haido Harbor Warehouse 4."
+Dialogue: 0,0:18:25.73,0:18:31.28,DCMain,HEIJI,0000,0000,0000,,In other words, we'll find the treasure \Nif we go to Warehouse 4 at Haido Harbor.
+Dialogue: 0,0:18:31.28,0:18:35.18,DCMain,KAZUHA,0000,0000,0000,,Since both of them solved \Nit at the same time,
+Dialogue: 0,0:18:35.18,0:18:38.07,DCMain,KAZUHA,0000,0000,0000,,doesn't that mean there's \Nno winner of this contest?
+Dialogue: 0,0:18:38.90,0:18:40.22,DCMain,IORI,0000,0000,0000,,Are you sure?
+Dialogue: 0,0:18:41.26,0:18:45.95,DCMain,IORI,0000,0000,0000,,If Kudo-sama told Conan-sama the \Nanswer after solving the code,
+Dialogue: 0,0:18:45.95,0:18:48.48,DCMain,IORI,0000,0000,0000,,and Conan-sama then explained it to us,
+Dialogue: 0,0:18:48.66,0:18:52.04,DCMain,IORI,0000,0000,0000,,then doesn't that mean Kudo-sama solved \Nit slightly sooner than Hattori-sama
+Dialogue: 0,0:18:52.04,0:18:54.98,DCMain,IORI,0000,0000,0000,,who explained the solution \Nafter solving it himself?
+Dialogue: 0,0:18:55.16,0:18:57.99,DCMain,MOMIJI,0000,0000,0000,,You're right! Excellent observation, Iori!
+Dialogue: 0,0:18:57.99,0:19:00.14,DCMain,HEIJI,0000,0000,0000,,No way. As soon as he \Nsolved the code, Kudo—
+Dialogue: 0,0:19:00.14,0:19:02.91,DCMain,CONAN,0000,0000,0000,,Yeah. I think Shinichi-niichan \Nsolved it a little quicker than—
+Dialogue: 0,0:19:03.16,0:19:06.13,DCMain,HEIJI,0000,0000,0000,,Watch it, Kudo! I'll expose \Nyour true identity for real!
+Dialogue: 0,0:19:06.13,0:19:07.58,DCMain,CONAN,0000,0000,0000,,I'm kidding.
+Dialogue: 0,0:19:07.78,0:19:12.13,DCMain,CONAN,0000,0000,0000,,I unintentionally spoke at the same time as \NHattori-niichan because his shouting surprised me,
+Dialogue: 0,0:19:12.13,0:19:14.21,DCMain,CONAN,0000,0000,0000,,but they solved it at \Nbasically the same time.
+Dialogue: 0,0:19:14.71,0:19:16.26,DCMain,MOMIJI,0000,0000,0000,,That's a problem.
+Dialogue: 0,0:19:16.90,0:19:19.47,DCMain,IORI,0000,0000,0000,,Then how about this?
+Dialogue: 0,0:19:19.90,0:19:23.24,DCMain,IORI,0000,0000,0000,,We'll head to Warehouse 4 at Haido Harbor.
+Dialogue: 0,0:19:23.24,0:19:27.47,DCMain,IORI,0000,0000,0000,,Whoever determines why correspondence from
+Dialogue: 0,0:19:27.47,0:19:30.73,DCMain,IORI,0000,0000,0000,,the eldest brother suddenly \Nstopped will be the winner.
+Dialogue: 0,0:19:31.92,0:19:34.48,DCMain,HEIJI,0000,0000,0000,,What's with you guys, anyway?
+Dialogue: 0,0:19:34.86,0:19:38.48,DCMain,HEIJI,0000,0000,0000,,You didn't have these cars ready because \Nyou expected this to happen, did you?
+Dialogue: 0,0:19:38.63,0:19:42.49,DCMain,CONAN,0000,0000,0000,,The car behind us the girls are \Nriding in is yours, too, right?
+Dialogue: 0,0:19:42.86,0:19:45.24,DCMain,IORI,0000,0000,0000,,That will be revealed in due time.
+Dialogue: 0,0:19:46.05,0:19:47.62,DCMain,KAZUHA,0000,0000,0000,,Hey, Momiji.
+Dialogue: 0,0:19:47.75,0:19:51.50,DCMain,KAZUHA,0000,0000,0000,,It's a good thing the boys solved \Nthe code so quickly this time,
+Dialogue: 0,0:19:51.86,0:19:56.75,DCMain,KAZUHA,0000,0000,0000,,but what were you going to do if they couldn't \Nsolve it after you came all the way to Tokyo?
+Dialogue: 0,0:19:58.86,0:20:01.13,DCMain,MOMIJI,0000,0000,0000,,I don't know. What would I have done?
+Dialogue: 0,0:20:02.48,0:20:04.64,DCItalic,KAZUHA,0000,0000,0000,,You hadn't thought about that?
+Dialogue: 0,0:20:04.81,0:20:08.14,Harbor,SIGN,0000,0000,0000,,{\fad(460,1)}Haido Harbor
+Dialogue: 0,0:20:04.85,0:20:08.14,DCMain,SECURITY,0000,0000,0000,,{\an8}Ah, you solved the code, did you?
+Dialogue: 0,0:20:08.45,0:20:11.42,DCMain,SECURITY,0000,0000,0000,,Allow me to show you to Warehouse 4.
+Dialogue: 0,0:20:12.64,0:20:14.19,DCMain,HEIJI,0000,0000,0000,,I see.
+Dialogue: 0,0:20:14.19,0:20:16.15,DCMain,HEIJI,0000,0000,0000,,So you were told to escort \Npeople to the warehouse
+Dialogue: 0,0:20:16.15,0:20:18.28,DCMain,HEIJI,0000,0000,0000,,if they made it here \Nand showed you the code.
+Dialogue: 0,0:20:18.28,0:20:19.15,DCMain,SECURITY,0000,0000,0000,,Yes.
+Dialogue: 0,0:20:19.55,0:20:23.13,DCMain,HEIJI,0000,0000,0000,,Did someone besides us show up?
+Dialogue: 0,0:20:23.13,0:20:26.91,DCMain,SECURITY,0000,0000,0000,,A man with a beard showed \Nup early this morning.
+Dialogue: 0,0:20:27.04,0:20:29.98,DCMain,SECURITY,0000,0000,0000,,After him, another man showed up.
+Dialogue: 0,0:20:29.98,0:20:33.41,DCMain,SECURITY,0000,0000,0000,,And just now, two men showed \Nup one after another.
+Dialogue: 0,0:20:33.60,0:20:35.61,DCMain,HEIJI,0000,0000,0000,,Four people came here?
+Dialogue: 0,0:20:35.61,0:20:38.35,DCMain,KAZUHA,0000,0000,0000,,Maybe it was the four brothers.
+Dialogue: 0,0:20:38.35,0:20:40.86,DCMain,RAN,0000,0000,0000,,Yeah. They must've all solved the code.
+Dialogue: 0,0:20:41.73,0:20:43.30,DCMain,SECURITY,0000,0000,0000,,We're here.
+Dialogue: 0,0:20:43.44,0:20:45.37,DCMain,SECURITY,0000,0000,0000,,That's Warehouse 4.
+Dialogue: 0,0:20:48.80,0:20:51.06,DCMain,HEIJI,0000,0000,0000,,Hello. Anyone here?
+Dialogue: 0,0:20:52.73,0:20:55.80,DCMain,HEIJI,0000,0000,0000,,Seriously? If you're here, \Nyou should've said...
+Dialogue: 0,0:20:58.82,0:21:01.25,DCMain,HEIJI,0000,0000,0000,,What's going on here?! Explain!
+Dialogue: 0,0:21:01.25,0:21:02.92,DCMain,SUGURU,0000,0000,0000,,I-I don't know.
+Dialogue: 0,0:21:02.92,0:21:06.82,DCMain,SUGURU,0000,0000,0000,,I came here at my brother's instructions \Nand found him like this.
+Dialogue: 0,0:21:07.21,0:21:09.82,DCMain,KATSUNOBU,0000,0000,0000,,I also came here because I received \Na message from my brother.
+Dialogue: 0,0:21:09.82,0:21:11.33,DCMain,SAISUKE,0000,0000,0000,,M-Me, too.
+Dialogue: 0,0:21:11.65,0:21:17.33,DCMain,CONAN,0000,0000,0000,,Then you guys must be three of four brothers \Nwho received a code from their mother.
+Dialogue: 0,0:21:17.95,0:21:21.88,DCMain,HEIJI,0000,0000,0000,,Which means the dead guy \Nis the eldest brother.
+Dialogue: 0,0:21:22.07,0:21:24.64,DCMain,SUGURU,0000,0000,0000,,Who are you people?
+Dialogue: 0,0:21:24.64,0:21:31.51,DCMain,IORI,0000,0000,0000,,We were hired to solve the code in order \Nto confirm the well-being of your brother.
+Dialogue: 0,0:21:31.83,0:21:32.87,DCMain,SUGURU,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:21:32.87,0:21:35.17,DCMain,SAISUKE,0000,0000,0000,,Mom worked as a housekeeper.
+Dialogue: 0,0:21:35.17,0:21:36.77,DCMain,KATSUNOBU,0000,0000,0000,,You're connected to the mansion somehow.
+Dialogue: 0,0:21:37.05,0:21:41.27,DCMain,IORI,0000,0000,0000,,Do you have any idea why your \Nbrother ended up like this?
+Dialogue: 0,0:21:41.53,0:21:45.54,DCMain,SUGURU,0000,0000,0000,,He probably lost his footing up there.
+Dialogue: 0,0:21:45.54,0:21:47.44,DCMain,SAISUKE,0000,0000,0000,,And then fell to his death.
+Dialogue: 0,0:21:47.96,0:21:50.50,DCMain,KATSUNOBU,0000,0000,0000,,We don't know if it was an \Naccident or suicide, though.
+Dialogue: 0,0:21:50.97,0:21:53.93,DCMain,CONAN,0000,0000,0000,,Has anyone touched the body?
+Dialogue: 0,0:21:53.93,0:21:56.04,DCMain,SAISUKE,0000,0000,0000,,No, we haven't.
+Dialogue: 0,0:21:56.29,0:21:59.29,DCMain,HEIJI,0000,0000,0000,,Then this wasn't an accident or a suicide.
+Dialogue: 0,0:21:59.61,0:22:01.04,DCMain,HEIJI,0000,0000,0000,,It was a murder.
+Dialogue: 0,0:22:01.04,0:22:02.30,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:22:02.44,0:22:08.56,DCMain,HEIJI,0000,0000,0000,,And it seems like one of you \Nthree brothers is the culprit.
+Dialogue: 0,0:22:09.82,0:22:12.74,DCMain,RAN,0000,0000,0000,,This is hardly the time for a contest.
+Dialogue: 0,0:22:12.74,0:22:14.22,DCMain,KAZUHA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:22:14.22,0:22:15.31,DCMain,MOMIJI,0000,0000,0000,,No.
+Dialogue: 0,0:22:15.97,0:22:22.00,DCMain,MOMIJI,0000,0000,0000,,Wouldn't whoever arrives at the truth \Nbehind this case be the winner?
+Dialogue: 0,0:23:44.98,0:24:09.01,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.29,0:23:46.90,DCMain,MEGURE,0000,0000,0000,,So he fell to his death.
+Dialogue: 0,0:23:47.13,0:23:49.99,DCMain,TAKAGI,0000,0000,0000,,We don't know yet if it was \Nan accident or suicide.
+Dialogue: 0,0:23:50.14,0:23:51.11,DCMain,HEIJI,0000,0000,0000,,It was murder.
+Dialogue: 0,0:23:51.37,0:23:52.11,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:23:52.47,0:23:58.12,DCMain,HEIJI,0000,0000,0000,,All three of them claim they came here \Nbecause their murdered eldest brother texted them.
+Dialogue: 0,0:23:58.64,0:24:03.87,DCMain,HEIJI,0000,0000,0000,,Normally you'd assume whoever arrived first \Npushed the eldest brother and killed him.
+Dialogue: 0,0:24:04.46,0:24:07.21,DCMain,MEGURE,0000,0000,0000,,Who arrived first?
+Dialogue: 0,0:24:07.21,0:24:07.95,DCMain,BROTHER A,0000,0000,0000,,Well...
+Dialogue: 0,0:24:07.95,0:24:09.01,DCMain,BROTHER B,0000,0000,0000,,It was...
+Dialogue: 0,0:24:09.01,0:24:15.01,DCNextEp,TEXT,0000,0000,0000,,Ooka Momiji's Challenge \N(Part Two)
+Dialogue: 0,0:24:09.51,0:24:14.45,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is "Ooka \NMomiji's Challenge, Part Two!"
+Dialogue: 0,0:24:30.03,0:24:31.37,DCMain,CONAN,0000,0000,0000,,Heiji-niichan, ready, and...
+Dialogue: 0,0:24:30.03,0:24:34.95,Hint,SIGN,0000,0000,0000,,Jingisukan
+Dialogue: 0,0:24:31.37,0:24:33.49,DCMain,BOTH,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:33.49,0:24:34.95,DCMain,CONAN,0000,0000,0000,,Jingisukan!
+Dialogue: 0,0:24:34.95,0:24:39.95,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.42,0:24:37.77,DCMain,HEIJI,0000,0000,0000,,{\an8}This is a ridiculous contest \NI've gotten caught up in!
+Dialogue: 0,0:24:37.77,0:24:39.32,DCMain,CONAN,0000,0000,0000,,{\an8}I'm the one who should be saying that.

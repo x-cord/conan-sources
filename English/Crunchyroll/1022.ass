@@ -1,0 +1,448 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Museum,Trebuchet MS,18,&H004A485A,&H000000FF,&H00C0F1FD,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0090,0020,0018,0
+Style: Reception,Trebuchet MS,22,&H00020307,&H000000FF,&H0033467A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Weekday,Trebuchet MS,16,&H00000211,&H000000FF,&H00314E77,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0050,0
+Style: Oolong,Times New Roman,18,&H00656561,&H000000FF,&H00CDDFE5,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: Kowata,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0094617E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0030,0020,0062,0
+Style: Closed,Trebuchet MS,22,&H00211C20,&H000000FF,&H00AFD5D9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0180,0020,0140,0
+Style: Ishikawa,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0094617E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0120,0062,0
+Style: Yuko,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00905A6D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0323,0020,0062,0
+Style: Uchida,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00AA5F6B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0100,0020,0044,0
+Style: Yamada,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0082373D,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0375,0062,0
+Style: RapSheet,Trebuchet MS,14,&H005B382F,&H000000FF,&H00F4F3F1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Date/Time,Trebuchet MS,18,&H0004080E,&H000000FF,&H009EBBC4,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Reviews,Trebuchet MS,18,&H0004080E,&H000000FF,&H009EBBC4,&H00000000,-1,0,0,0,100,100,0,0,1,4,0,7,0020,0020,0050,0
+Style: Locations,Trebuchet MS,22,&H00ECE4E6,&H000000FF,&H0024140D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: LocationsRed,Trebuchet MS,22,&H001E0AED,&H000000FF,&H0024140D,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Prayer,Trebuchet MS,16,&H0061391B,&H000000FF,&H00A994D0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0110,0020,0150,0
+Style: Prayer2,Trebuchet MS,16,&H0061391B,&H000000FF,&H00A994D0,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0115,0080,0
+Style: NorthExit,Trebuchet MS,16,&H00623624,&H000000FF,&H00F7F3F8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0080,0020,0
+Style: Taxi,Trebuchet MS,16,&H00623624,&H000000FF,&H00F7F3F8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0083,0020,0130,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,TAKAGI,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,TAKAGI,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode \N1022 "The Cursed Museum"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,CONAN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:03.23,0:00:05.95,Museum,SIGN,0000,0000,0000,,{\fad(1,1125)}Ancient Oriental Culture Museum
+Dialogue: 0,0:00:05.95,0:00:08.48,Reception,SIGN,0000,0000,0000,,{\fad(1,1290)}Reception
+Dialogue: 0,0:00:05.95,0:00:08.54,Weekday,SIGN,0000,0000,0000,,{\fad(1,1290)}Entry Fee \NWeekday \NAdults 600 yen \NChildren 300 yen \N\NWeekend \NAdults 700 yen \NChildren 350 yen
+Dialogue: 0,0:00:09.94,0:00:11.67,DCMain,RAN,0000,0000,0000,,Tutankhamun.
+Dialogue: 0,0:00:13.24,0:00:14.97,DCMain,SONOKO,0000,0000,0000,,The Sphinx.
+Dialogue: 0,0:00:16.99,0:00:18.82,DCMain,CONAN,0000,0000,0000,,The Rosetta Stone.
+Dialogue: 0,0:00:20.30,0:00:21.42,DCMain,RAN,0000,0000,0000,,And finally...
+Dialogue: 0,0:00:23.70,0:00:25.58,DCMain,RAN,0000,0000,0000,,The Screaming Mummy.
+Dialogue: 0,0:00:28.65,0:00:32.01,DCMain,SONOKO,0000,0000,0000,,Ancient Egypt sure is mysterious.
+Dialogue: 0,0:00:32.76,0:00:38.01,DCMain,CONAN,0000,0000,0000,,But isn't everything on \Ndisplay here a replica?
+Dialogue: 0,0:00:38.36,0:00:42.64,DCMain,CONAN,0000,0000,0000,,Why did we bother coming to this \Nmuseum on the way home from school?
+Dialogue: 0,0:00:45.13,0:00:46.13,DCMain,SONOKO,0000,0000,0000,,Curious?
+Dialogue: 0,0:00:46.13,0:00:47.27,DCMain,RAN,0000,0000,0000,,We're here...
+Dialogue: 0,0:00:49.97,0:00:51.28,DCMain,SONOKO,0000,0000,0000,,For these!
+Dialogue: 0,0:00:51.76,0:00:56.53,DCMain,SONOKO,0000,0000,0000,,These Egyptian god keychains are super \Npopular among our classmates right now.
+Dialogue: 0,0:00:56.69,0:00:59.09,DCMain,RAN,0000,0000,0000,,And you can only buy them here.
+Dialogue: 0,0:00:59.09,0:01:00.83,DCMain,SONOKO,0000,0000,0000,,That's right.
+Dialogue: 0,0:01:00.83,0:01:03.60,DCItalic,CONAN,0000,0000,0000,,Super popular, huh?
+Dialogue: 0,0:01:17.12,0:01:18.78,DCMain,CONAN,0000,0000,0000,,Finally arriving after \Nswaying back and forth,
+Dialogue: 0,0:01:18.78,0:01:20.89,DCMain,CONAN,0000,0000,0000,,draw close to mysteries and \Nbegin deducing the truth!
+Dialogue: 0,0:01:20.89,0:01:23.52,DCMain,CONAN,0000,0000,0000,,The mystery of the cursed statue \Nreturns to life at the museum!
+Dialogue: 0,0:01:24.01,0:01:25.61,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:01:25.61,0:01:27.29,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:01:27.29,0:01:29.92,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:03:01.91,0:03:07.91,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(397,1)}The Cursed Museum
+Dialogue: 0,0:03:02.60,0:03:04.85,DCMain,CONAN,0000,0000,0000,,"The Cursed Museum!"
+Dialogue: 0,0:03:09.37,0:03:13.17,DCMain,SONOKO,0000,0000,0000,,This one's good, but it's \Nhard to say no to this one.
+Dialogue: 0,0:03:13.46,0:03:14.42,Oolong,SIGN,0000,0000,0000,,Oolong Tea
+Dialogue: 0,0:03:14.76,0:03:17.20,DCMain,RAN,0000,0000,0000,,Don't you think this one's cute, too?
+Dialogue: 0,0:03:18.18,0:03:19.55,DCMain,SONOKO,0000,0000,0000,,{\an8}Hey, not bad.
+Dialogue: 0,0:03:18.56,0:03:21.44,DCItalic,CONAN,0000,0000,0000,,I doubt we'll be leaving for a while.
+Dialogue: 0,0:03:19.55,0:03:20.64,DCMain,RAN,0000,0000,0000,,{\an8}Right?
+Dialogue: 0,0:03:22.99,0:03:23.93,DCMain,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:03:25.03,0:03:26.08,DCMain,CONAN,0000,0000,0000,,A notebook?
+Dialogue: 0,0:03:29.46,0:03:33.69,DCMain,CONAN,0000,0000,0000,,Ah, they have guests write \Nreviews and requests in here.
+Dialogue: 0,0:03:34.41,0:03:39.69,DCMain,KOWATA,0000,0000,0000,,Some of the reviews are quite \Nharsh, but they're quite helpful.
+Dialogue: 0,0:03:40.10,0:03:41.20,DCMain,CONAN,0000,0000,0000,,Uh...
+Dialogue: 0,0:03:42.30,0:03:43.58,DCMain,KOWATA,0000,0000,0000,,Oh, excuse me.
+Dialogue: 0,0:03:43.53,0:03:46.95,Kowata,SIGN,0000,0000,0000,,{\fad(250,460)}Kowata Ken (56) \NMuseum Director
+Dialogue: 0,0:03:43.58,0:03:49.56,DCMain,KOWATA,0000,0000,0000,,{\an8}I'm Kowata, the director of the \NAncient Oriental Culture Museum.
+Dialogue: 0,0:03:49.56,0:03:51.46,DCMain,KOWATA,0000,0000,0000,,Nice to meet you.
+Dialogue: 0,0:03:51.92,0:03:54.46,DCItalic,CONAN,0000,0000,0000,,So it's his taste that's \Nreflected in this place.
+Dialogue: 0,0:03:54.81,0:04:00.01,DCMain,KOWATA,0000,0000,0000,,We'll be closing soon, but \Nenjoy yourself until then.
+Dialogue: 0,0:04:00.01,0:04:02.13,DCMain,KOWATA,0000,0000,0000,,Kids are very welcome here.
+Dialogue: 0,0:04:14.14,0:04:15.40,Closed,SIGN,0000,0000,0000,,Closed
+Dialogue: 0,0:04:16.98,0:04:18.90,DCMain,SONOKO,0000,0000,0000,,Okay, I'm getting this one.
+Dialogue: 0,0:04:19.12,0:04:21.40,DCMain,SONOKO,0000,0000,0000,,Anubis is mine.
+Dialogue: 0,0:04:22.84,0:04:24.41,DCItalic,CONAN,0000,0000,0000,,They finally made up their minds.
+Dialogue: 0,0:04:24.58,0:04:26.32,DCMain,RAN,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:04:27.13,0:04:28.53,DCMain,KOWATA,0000,0000,0000,,Have you made up your minds?
+Dialogue: 0,0:04:29.57,0:04:30.64,DCMain,SONOKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:04:30.64,0:04:32.44,DCMain,RAN,0000,0000,0000,,We'd like these, please.
+Dialogue: 0,0:04:32.44,0:04:33.56,DCMain,KOWATA,0000,0000,0000,,Sure thing.
+Dialogue: 0,0:04:33.56,0:04:34.46,DCMain,KOWATA,0000,0000,0000,,Oh...
+Dialogue: 0,0:04:34.46,0:04:36.66,DCMain,KOWATA,0000,0000,0000,,{\an8}Ishikawa-kun, could you handle the register?
+Dialogue: 0,0:04:35.29,0:04:38.46,Ishikawa,SIGN,0000,0000,0000,,{\fad(250,1)}Ishikawa Takuto (25) \NMuseum Employee
+Dialogue: 0,0:04:36.66,0:04:38.03,DCMain,ISHIKAWA,0000,0000,0000,,{\an8}Yes, sir.
+Dialogue: 0,0:04:42.61,0:04:43.96,DCMain,ISHIKAWA,0000,0000,0000,,This way, please.
+Dialogue: 0,0:04:43.96,0:04:44.94,DCMain,SONOKO,0000,0000,0000,,Okay.
+Dialogue: 0,0:04:49.59,0:04:50.28,DCMain,RAN,0000,0000,0000,,What was that?
+Dialogue: 0,0:04:50.28,0:04:51.55,DCMain,SONOKO,0000,0000,0000,,What was that sound?
+Dialogue: 0,0:04:51.55,0:04:53.06,DCMain,RAN,0000,0000,0000,,Conan-kun!
+Dialogue: 0,0:04:57.53,0:04:59.50,DCMain,RAN,0000,0000,0000,,Conan-kun, what's wrong?
+Dialogue: 0,0:05:02.45,0:05:04.07,DCMain,SONOKO,0000,0000,0000,,C-Could it be?
+Dialogue: 0,0:05:04.36,0:05:06.70,DCMain,CONAN,0000,0000,0000,,Ran-neechan, call the police.
+Dialogue: 0,0:05:06.70,0:05:08.07,DCMain,RAN,0000,0000,0000,,Got it.
+Dialogue: 0,0:05:12.17,0:05:13.46,DCMain,KOWATA,0000,0000,0000,,It's the curse.
+Dialogue: 0,0:05:15.42,0:05:18.17,DCMain,KOWATA,0000,0000,0000,,It's Anubis' curse.
+Dialogue: 0,0:05:35.32,0:05:37.23,DCMain,SONOKO,0000,0000,0000,,Hey, Detective Takagi.
+Dialogue: 0,0:05:37.98,0:05:40.74,DCMain,SONOKO,0000,0000,0000,,Was this an accident or a murder?
+Dialogue: 0,0:05:40.74,0:05:43.34,DCMain,TAKAGI,0000,0000,0000,,We don't know yet.
+Dialogue: 0,0:05:43.34,0:05:44.94,DCMain,KOWATA,0000,0000,0000,,It's the curse.
+Dialogue: 0,0:05:45.24,0:05:48.03,DCMain,KOWATA,0000,0000,0000,,It's clearly Anubis' curse.
+Dialogue: 0,0:05:48.88,0:05:50.30,DCMain,SONOKO,0000,0000,0000,,What curse?
+Dialogue: 0,0:05:50.30,0:05:53.61,DCMain,KOWATA,0000,0000,0000,,Look at the object he's \Nholding in his right hand.
+Dialogue: 0,0:05:55.44,0:05:56.83,DCMain,RAN,0000,0000,0000,,A-A feather?
+Dialogue: 0,0:05:57.83,0:06:00.06,DCMain,SONOKO,0000,0000,0000,,Is that an ostrich feather?
+Dialogue: 0,0:06:00.06,0:06:01.39,DCMain,KOWATA,0000,0000,0000,,Indeed it is.
+Dialogue: 0,0:06:01.39,0:06:04.84,DCMain,RAN,0000,0000,0000,,Wh-What's so special about ostrich feathers?
+Dialogue: 0,0:06:05.02,0:06:06.37,DCMain,SONOKO,0000,0000,0000,,The Book of the Dead.
+Dialogue: 0,0:06:07.02,0:06:08.26,DCMain,KOWATA,0000,0000,0000,,That's right.
+Dialogue: 0,0:06:08.26,0:06:10.09,DCMain,RAN,0000,0000,0000,,Th-The Book of the Dead?
+Dialogue: 0,0:06:10.26,0:06:14.22,DCMain,KOWATA,0000,0000,0000,,The Book of the Dead is a \Nguidebook to the afterlife.
+Dialogue: 0,0:06:14.22,0:06:18.76,DCMain,KOWATA,0000,0000,0000,,It describes how the dead \Nreach the afterlife.
+Dialogue: 0,0:06:18.76,0:06:22.48,DCMain,CHIBA,0000,0000,0000,,What does that have to \Ndo with ostrich feathers?
+Dialogue: 0,0:06:22.71,0:06:25.98,DCMain,KOWATA,0000,0000,0000,,The dead are judged after their death.
+Dialogue: 0,0:06:26.21,0:06:29.74,DCMain,KOWATA,0000,0000,0000,,Their own heart is placed \Non one side of Ra's scales.
+Dialogue: 0,0:06:29.74,0:06:33.58,DCMain,KOWATA,0000,0000,0000,,An ostrich feather is \Nplaced on the other side.
+Dialogue: 0,0:06:33.58,0:06:38.75,DCMain,KOWATA,0000,0000,0000,,If the deceased's heart is tainted by \Nsin, the scales tip out of balance.
+Dialogue: 0,0:06:39.08,0:06:43.40,DCMain,KOWATA,0000,0000,0000,,If the deceased is judged innocent,\Nthe way to the afterlife opens to them.
+Dialogue: 0,0:06:43.40,0:06:51.06,DCMain,KOWATA,0000,0000,0000,,However, if they're guilty, the \Nbeast Ammit consumes their soul.
+Dialogue: 0,0:06:54.40,0:06:57.39,DCMain,SONOKO,0000,0000,0000,,And presiding over that judgment is...
+Dialogue: 0,0:06:57.79,0:07:05.02,DCMain,KOWATA,0000,0000,0000,,God of the Underworld and \Nmummification, Anubis.
+Dialogue: 0,0:07:07.84,0:07:08.96,DCMain,ISHIKAWA,0000,0000,0000,,I've heard about this.
+Dialogue: 0,0:07:08.96,0:07:12.63,DCMain,ISHIKAWA,0000,0000,0000,,A bunch of archaeologists \Ndied mysterious deaths.
+Dialogue: 0,0:07:12.63,0:07:14.83,DCMain,SONOKO,0000,0000,0000,,That's the curse of the pharaohs.
+Dialogue: 0,0:07:15.47,0:07:20.33,DCMain,KOWATA,0000,0000,0000,,Anubis must've judged this person guilty.
+Dialogue: 0,0:07:20.57,0:07:23.26,DCMain,SONOKO,0000,0000,0000,,Does that mean Anubis is the culprit?
+Dialogue: 0,0:07:23.26,0:07:30.34,DCMain,CHIBA,0000,0000,0000,,Does that mean the Anubis statue happened \Nto fall as the victim was passing by it?
+Dialogue: 0,0:07:30.62,0:07:33.16,DCMain,CONAN,0000,0000,0000,,Don't you think it's odd, though?
+Dialogue: 0,0:07:33.92,0:07:37.60,DCMain,CONAN,0000,0000,0000,,There's a wound on the back of his head.
+Dialogue: 0,0:07:37.88,0:07:43.43,DCMain,TAKAGI,0000,0000,0000,,Yes. Forensics said further investigation \Nis required to determine
+Dialogue: 0,0:07:43.43,0:07:46.33,DCMain,TAKAGI,0000,0000,0000,,if he got that when he was \Nstruck by the falling statue.
+Dialogue: 0,0:07:46.33,0:07:48.78,DCMain,CONAN,0000,0000,0000,,Then what about that broken pedestal?
+Dialogue: 0,0:07:49.81,0:07:53.55,DCMain,CONAN,0000,0000,0000,,The broken leg is a different \Ncolor from the other ones.
+Dialogue: 0,0:07:53.55,0:07:54.62,DCMain,CHIBA,0000,0000,0000,,You're right.
+Dialogue: 0,0:07:55.57,0:07:59.26,DCMain,CHIBA,0000,0000,0000,,Was only this leg made using a weaker wood?
+Dialogue: 0,0:07:59.26,0:08:02.65,DCMain,TAKAGI,0000,0000,0000,,Which means after a certain \Namount of time had passed,
+Dialogue: 0,0:08:02.65,0:08:08.91,DCMain,TAKAGI,0000,0000,0000,,the wood could no longer bear the weight \Nof the statue, causing it to fall.
+Dialogue: 0,0:08:10.56,0:08:12.85,DCMain,CONAN,0000,0000,0000,,It's an improvised timer.
+Dialogue: 0,0:08:13.74,0:08:19.18,DCMain,TAKAGI,0000,0000,0000,,In other words, the culprit could've rigged \Nthis in order to fabricate an alibi.
+Dialogue: 0,0:08:19.48,0:08:20.97,DCMain,RAN,0000,0000,0000,,Y-You mean...
+Dialogue: 0,0:08:20.97,0:08:26.19,DCMain,TAKAGI,0000,0000,0000,,Yes. It's likely that this wasn't \Nan accident, but a murder.
+Dialogue: 0,0:08:26.61,0:08:30.19,DCMain,TAKAGI,0000,0000,0000,,Director, we'd like to check \Nyour security camera footage.
+Dialogue: 0,0:08:30.19,0:08:31.46,DCMain,KOWATA,0000,0000,0000,,O-Okay.
+Dialogue: 0,0:08:32.85,0:08:37.52,DCMain,CHIBA,0000,0000,0000,,By the way, how many employees \Nare there aside from yourself?
+Dialogue: 0,0:08:37.52,0:08:39.56,DCMain,KOWATA,0000,0000,0000,,Just Ishikawa-kun.
+Dialogue: 0,0:08:39.56,0:08:42.96,DCMain,KOWATA,0000,0000,0000,,Nothing beats low labor costs.
+Dialogue: 0,0:08:48.40,0:08:49.56,DCMain,CONAN,0000,0000,0000,,That's him.
+Dialogue: 0,0:08:49.56,0:08:55.47,DCMain,CHIBA,0000,0000,0000,,We determined from his wallet that the \Nvictim was Uchida Hiroaki-san, 47 years old.
+Dialogue: 0,0:08:55.94,0:08:58.24,DCMain,CHIBA,0000,0000,0000,,He worked in construction.
+Dialogue: 0,0:08:58.24,0:09:03.14,DCMain,CHIBA,0000,0000,0000,,We've already contacted his \Nwife, and she's on her way here.
+Dialogue: 0,0:09:03.14,0:09:08.77,DCMain,CHIBA,0000,0000,0000,,Additionally, we believe this \Nwoman is his wife Uchida Yuko-san.
+Dialogue: 0,0:09:09.93,0:09:13.77,DCMain,KOWATA,0000,0000,0000,,She's been coming here a lot recently.
+Dialogue: 0,0:09:13.77,0:09:14.52,DCMain,TAKAGI,0000,0000,0000,,What?
+Dialogue: 0,0:09:14.52,0:09:18.78,DCMain,KOWATA,0000,0000,0000,,I offered her an annual pass, \Nbut she declined my offer.
+Dialogue: 0,0:09:19.00,0:09:20.78,DCMain,TAKAGI,0000,0000,0000,,I-I see.
+Dialogue: 0,0:09:21.53,0:09:22.80,DCMain,TAKAGI,0000,0000,0000,,Keep playing the tape.
+Dialogue: 0,0:09:22.80,0:09:23.62,DCMain,ISHIKAWA,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:25.21,0:09:26.29,DCMain,TAKAGI,0000,0000,0000,,Stop.
+Dialogue: 0,0:09:26.64,0:09:27.58,DCMain,TAKAGI,0000,0000,0000,,Who is that?
+Dialogue: 0,0:09:28.18,0:09:30.29,DCMain,KOWATA,0000,0000,0000,,That's Yamada-san, a regular.
+Dialogue: 0,0:09:30.54,0:09:34.05,DCMain,KOWATA,0000,0000,0000,,He's one of a few guests \Nwho have an annual pass.
+Dialogue: 0,0:09:34.70,0:09:36.22,DCMain,TAKAGI,0000,0000,0000,,Keep playing the tape.
+Dialogue: 0,0:09:36.22,0:09:37.30,DCMain,ISHIKAWA,0000,0000,0000,,Okay.
+Dialogue: 0,0:09:43.29,0:09:45.31,DCMain,KOWATA,0000,0000,0000,,Nobody came to the museum after this.
+Dialogue: 0,0:09:45.94,0:09:50.30,DCItalic,CONAN,0000,0000,0000,,In other words, one of them is the culprit.
+Dialogue: 0,0:09:54.56,0:09:57.37,DCMain,YUKO,0000,0000,0000,,That's definitely my husband.
+Dialogue: 0,0:09:57.37,0:09:59.02,DCMain,YUKO,0000,0000,0000,,How did this happen?
+Dialogue: 0,0:09:59.02,0:10:03.19,DCMain,TAKAGI,0000,0000,0000,,You came to this museum today, didn't you?
+Dialogue: 0,0:10:03.19,0:10:03.83,DCMain,YUKO,0000,0000,0000,,Yes.
+Dialogue: 0,0:10:03.99,0:10:07.50,Yuko,SIGN,0000,0000,0000,,{\fad(250,460)}Uchida Yuko (33) \NUchida Hiroaki's Wife
+Dialogue: 0,0:10:04.22,0:10:06.50,DCMain,TAKAGI,0000,0000,0000,,{\an8}Did something happen inside the museum?
+Dialogue: 0,0:10:06.50,0:10:07.96,DCMain,YUKO,0000,0000,0000,,I don't know.
+Dialogue: 0,0:10:07.96,0:10:13.30,DCMain,YUKO,0000,0000,0000,,{\an8}He suddenly showed up while I \Nwas viewing the exhibits inside.
+Dialogue: 0,0:10:11.84,0:10:13.30,Uchida,SIGN,0000,0000,0000,,{\fad(168,1)}Uchida Hiroaki (47)
+Dialogue: 0,0:10:13.95,0:10:17.74,DCMain,YUKO,0000,0000,0000,,We got into an argument, \Nand I left before him.
+Dialogue: 0,0:10:19.18,0:10:22.81,DCMain,YUKO,0000,0000,0000,,I don't know what happened \Nafter we parted ways.
+Dialogue: 0,0:10:22.81,0:10:25.15,DCMain,TAKAGI,0000,0000,0000,,Why did you get into an argument?
+Dialogue: 0,0:10:25.15,0:10:27.77,DCMain,YUKO,0000,0000,0000,,He was a very controlling person.
+Dialogue: 0,0:10:28.16,0:10:31.90,DCMain,YUKO,0000,0000,0000,,He was angry that I came \Nhere without his permission.
+Dialogue: 0,0:10:32.09,0:10:35.53,DCMain,CONAN,0000,0000,0000,,Does that mean your husband followed you?
+Dialogue: 0,0:10:35.53,0:10:40.38,DCMain,YUKO,0000,0000,0000,,He'd make it sound like \Nhe caught me cheating,
+Dialogue: 0,0:10:40.38,0:10:44.85,DCMain,YUKO,0000,0000,0000,,but as far as I'm concerned, he \Nwas acting like a nasty stalker.
+Dialogue: 0,0:10:44.85,0:10:46.04,DCMain,CHIBA,0000,0000,0000,,Then...
+Dialogue: 0,0:10:46.26,0:10:49.87,DCMain,YUKO,0000,0000,0000,,I can't say we were a happy couple.
+Dialogue: 0,0:10:49.87,0:10:52.47,DCMain,YUKO,0000,0000,0000,,I was considering divorce.
+Dialogue: 0,0:10:52.47,0:10:54.77,DCMain,SONOKO,0000,0000,0000,,Are you sure you should be saying that?
+Dialogue: 0,0:10:54.77,0:10:57.65,DCMain,YUKO,0000,0000,0000,,You'd figure it out if I lied.
+Dialogue: 0,0:10:57.65,0:10:59.55,DCMain,YUKO,0000,0000,0000,,It's better to be honest.
+Dialogue: 0,0:11:00.05,0:11:05.31,DCMain,TAKAGI,0000,0000,0000,,Just to be sure, could we \Ncheck your phone's history?
+Dialogue: 0,0:11:05.56,0:11:09.02,DCMain,YUKO,0000,0000,0000,,I'm sorry. I don't have a cell phone.
+Dialogue: 0,0:11:09.02,0:11:09.96,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:11:09.96,0:11:12.18,DCMain,SONOKO,0000,0000,0000,,That's unusual in this day and age.
+Dialogue: 0,0:11:12.80,0:11:14.94,DCMain,YAMADA,0000,0000,0000,,That woman is the culprit!
+Dialogue: 0,0:11:15.15,0:11:18.53,Yamada,SIGN,0000,0000,0000,,{\fad(399,395)}Yamada Kiyoshi (72) \NMuseum Regular
+Dialogue: 0,0:11:15.27,0:11:16.56,DCMain,YAMADA,0000,0000,0000,,I saw them.
+Dialogue: 0,0:11:16.56,0:11:18.32,DCMain,TAKAGI,0000,0000,0000,,What did you see?
+Dialogue: 0,0:11:18.32,0:11:20.69,DCMain,YAMADA,0000,0000,0000,,I saw them arguing.
+Dialogue: 0,0:11:20.69,0:11:22.98,DCMain,YAMADA,0000,0000,0000,,They threatened to kill them.
+Dialogue: 0,0:11:22.98,0:11:24.30,DCMain,SONOKO,0000,0000,0000,,Who did?
+Dialogue: 0,0:11:24.30,0:11:26.14,DCMain,YAMADA,0000,0000,0000,,The husband.
+Dialogue: 0,0:11:26.14,0:11:30.89,DCMain,YAMADA,0000,0000,0000,,They even said, "You'll \Nnever get away with it!"
+Dialogue: 0,0:11:30.89,0:11:32.41,DCMain,RAN,0000,0000,0000,,Who did?
+Dialogue: 0,0:11:32.41,0:11:35.92,DCMain,YAMADA,0000,0000,0000,,That was the husband, too.
+Dialogue: 0,0:11:37.99,0:11:41.22,DCMain,YAMADA,0000,0000,0000,,It makes no difference who said it.
+Dialogue: 0,0:11:41.22,0:11:43.61,DCMain,YAMADA,0000,0000,0000,,The culprit is definitely the wife!
+Dialogue: 0,0:11:43.61,0:11:46.81,DCMain,TAKAGI,0000,0000,0000,,You also don't have an alibi.
+Dialogue: 0,0:11:46.99,0:11:51.69,DCMain,YAMADA,0000,0000,0000,,Fool! Who's got the time \Nto bludgeon a stranger?
+Dialogue: 0,0:11:52.72,0:11:56.44,DCMain,KOWATA,0000,0000,0000,,I told you, it's Anubis' curse.
+Dialogue: 0,0:11:56.62,0:12:00.80,DCMain,CHIBA,0000,0000,0000,,We're asking for your alibi for \Nwhen the incident took place.
+Dialogue: 0,0:12:00.80,0:12:05.61,DCMain,TAKAGI,0000,0000,0000,,What were you doing around 3PM, 30 \Nminutes before the body was discovered?
+Dialogue: 0,0:12:05.61,0:12:08.80,DCMain,ISHIKAWA,0000,0000,0000,,I was repairing a mirror.
+Dialogue: 0,0:12:08.80,0:12:12.02,DCMain,ISHIKAWA,0000,0000,0000,,After that, I met up with the \Ndirector and some guests.
+Dialogue: 0,0:12:12.02,0:12:14.96,DCMain,KOWATA,0000,0000,0000,,I believe I was preparing \Nto close the museum.
+Dialogue: 0,0:12:15.20,0:12:17.44,DCMain,TAKAGI,0000,0000,0000,,In other words, you were both alone.
+Dialogue: 0,0:12:17.44,0:12:19.08,DCMain,ISHIKAWA,0000,0000,0000,,Yes.
+Dialogue: 0,0:12:19.08,0:12:22.47,DCMain,CONAN,0000,0000,0000,,Ishikawa-san, how long have \Nyou been working here?
+Dialogue: 0,0:12:22.76,0:12:25.99,DCMain,ISHIKAWA,0000,0000,0000,,Who, me? I think it's been about two years.
+Dialogue: 0,0:12:25.99,0:12:27.30,DCMain,CONAN,0000,0000,0000,,Huh.
+Dialogue: 0,0:12:27.30,0:12:29.02,DCMain,SONOKO,0000,0000,0000,,I can't believe he doesn't \Nknow the difference
+Dialogue: 0,0:12:29.02,0:12:32.48,DCMain,SONOKO,0000,0000,0000,,between the pharaohs and Anubis \Nafter working here for two years.
+Dialogue: 0,0:12:33.74,0:12:37.65,DCMain,CHIBA,0000,0000,0000,,Ultimately, nobody had a solid alibi.
+Dialogue: 0,0:12:37.65,0:12:41.02,DCMain,TAKAGI,0000,0000,0000,,Let's look into the backgrounds \Nof the victim and suspects.
+Dialogue: 0,0:12:41.02,0:12:44.07,DCMain,TAKAGI,0000,0000,0000,,We may discover a surprising connection.
+Dialogue: 0,0:12:44.07,0:12:45.49,DCMain,CHIBA,0000,0000,0000,,You're right.
+Dialogue: 0,0:12:54.22,0:12:58.75,DCMain,TAKAGI,0000,0000,0000,,This Uchida man is unbelievable.
+Dialogue: 0,0:12:58.75,0:13:11.52,RapSheet,SIGN,0000,0000,0000,,Committed acts of violence against romantic partner \NViolated partner's privacy with controlling behavior \NNumerous other incidents of harassment \N\N\NHas been seeing women other than his partner for several years \NAccording to the women, he has \Nbeen seeing multiple women \N\N\NHas been taken into police \Ncustody for fights numerous times \NNo major incidents, but always inflicted \Nminor injuries on the other parties \N\N\NDeeply in debt \NBorrowing money from \Nmultiple financial companies \NAlso owes a significant amount \Nof money to acquaintances
+Dialogue: 0,0:12:59.00,0:13:04.26,DCMain,TAKAGI,0000,0000,0000,,On top of his countless minor offensives, he \Nhas a history of cheating, brawling, and debt.
+Dialogue: 0,0:13:06.83,0:13:07.63,DCMain,TAKAGI,0000,0000,0000,,Hello?
+Dialogue: 0,0:13:07.63,0:13:10.26,DCItalic,KOWATA,0000,0000,0000,,Detective, I know who did it.
+Dialogue: 0,0:13:10.26,0:13:11.52,DCMain,TAKAGI,0000,0000,0000,,You do?
+Dialogue: 0,0:13:12.10,0:13:18.72,DCMain,KOWATA,0000,0000,0000,,Yes. I'm confirming it \Nnow, but it must be them.
+Dialogue: 0,0:13:18.72,0:13:20.82,DCItalic,TAKAGI,0000,0000,0000,,Who is it?
+Dialogue: 0,0:13:21.05,0:13:23.91,DCMain,KOWATA,0000,0000,0000,,Well, actually...
+Dialogue: 0,0:13:24.78,0:13:25.83,DCItalic,KOWATA,0000,0000,0000,,What are you—
+Dialogue: 0,0:13:26.97,0:13:29.03,DCMain,TAKAGI,0000,0000,0000,,What's the matter? Sir?
+Dialogue: 0,0:13:29.71,0:13:30.70,DCMain,TAKAGI,0000,0000,0000,,Sir?!
+Dialogue: 0,0:13:35.84,0:13:38.88,DCMain,RAN,0000,0000,0000,,Sonoko, are we really going back there?
+Dialogue: 0,0:13:39.14,0:13:41.66,DCMain,SONOKO,0000,0000,0000,,I'm Mystery Queen Sonoko.
+Dialogue: 0,0:13:41.66,0:13:44.12,DCMain,SONOKO,0000,0000,0000,,Of course I'm curious to know \Nhow yesterday turned out.
+Dialogue: 0,0:13:44.12,0:13:45.10,DCMain,RAN,0000,0000,0000,,I guess so.
+Dialogue: 0,0:13:45.10,0:13:47.53,DCMain,CHIBA,0000,0000,0000,,{\an8}Please calm down.
+Dialogue: 0,0:13:46.10,0:13:47.08,DCMain,RAN,0000,0000,0000,,Hey, look.
+Dialogue: 0,0:13:47.53,0:13:48.22,DCMain,KOWATA,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:13:48.69,0:13:50.85,DCMain,KOWATA,0000,0000,0000,,D-Don't touch me!
+Dialogue: 0,0:13:50.85,0:13:52.58,DCMain,KOWATA,0000,0000,0000,,I am Anubis!
+Dialogue: 0,0:13:52.58,0:13:55.83,DCMain,KOWATA,0000,0000,0000,,I am the god of the Underworld who \Njudges the souls of the dead!
+Dialogue: 0,0:13:55.83,0:13:56.67,DCMain,SONOKO,0000,0000,0000,,This voice...
+Dialogue: 0,0:13:56.67,0:13:57.85,DCMain,RAN,0000,0000,0000,,Is that the director?
+Dialogue: 0,0:13:58.25,0:14:00.76,DCMain,KOWATA,0000,0000,0000,,{\an8}Present your heart to me!
+Dialogue: 0,0:13:59.16,0:14:00.76,DCMain,RAN,0000,0000,0000,,What's going on here?
+Dialogue: 0,0:14:00.76,0:14:03.26,DCMain,TAKAGI,0000,0000,0000,,I received a call from the \Ndirector this morning.
+Dialogue: 0,0:14:03.26,0:14:04.60,DCMain,TAKAGI,0000,0000,0000,,He said he knew who the culprit was.
+Dialogue: 0,0:14:04.60,0:14:05.10,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:14:05.10,0:14:09.11,DCMain,TAKAGI,0000,0000,0000,,But before he could tell me \Ntheir name, the call ended.
+Dialogue: 0,0:14:09.11,0:14:11.37,DCMain,TAKAGI,0000,0000,0000,,I rushed here and found him like this.
+Dialogue: 0,0:14:11.76,0:14:14.13,DCMain,KOWATA,0000,0000,0000,,His soul was tainted!
+Dialogue: 0,0:14:14.13,0:14:18.87,DCMain,KOWATA,0000,0000,0000,,His soul tainted by lies \Nwas consumed by Ammit!
+Dialogue: 0,0:14:19.26,0:14:21.34,DCMain,TAKAGI,0000,0000,0000,,Take him to the station.
+Dialogue: 0,0:14:21.34,0:14:21.96,DCMain,CHIBA,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:14:21.96,0:14:23.38,DCMain,KOWATA,0000,0000,0000,,Hey, what are you doing?
+Dialogue: 0,0:14:23.61,0:14:25.84,DCMain,KOWATA,0000,0000,0000,,How dare you put your hands on a god!
+Dialogue: 0,0:14:26.01,0:14:28.34,DCMain,CHIBA,0000,0000,0000,,Please stop struggling.
+Dialogue: 0,0:14:26.61,0:14:28.34,DCMain,KOWATA,0000,0000,0000,,{\an8}You mustn't touch me!
+Dialogue: 0,0:14:28.34,0:14:30.71,DCMain,KOWATA,0000,0000,0000,,Inside that cursed notebook is...
+Dialogue: 0,0:14:30.71,0:14:31.64,DCMain,KOWATA,0000,0000,0000,,No! Let go!
+Dialogue: 0,0:14:31.64,0:14:33.72,DCMain,KOWATA,0000,0000,0000,,If you look at it, you'll be cursed!
+Dialogue: 0,0:14:33.72,0:14:38.85,DCMain,KOWATA,0000,0000,0000,,The only thing the cursed can do is pray!
+Dialogue: 0,0:14:41.41,0:14:43.85,DCMain,RAN,0000,0000,0000,,Conan-kun, don't. You'll be cursed.
+Dialogue: 0,0:14:43.85,0:14:45.06,DCMain,CONAN,0000,0000,0000,,I'll be fine.
+Dialogue: 0,0:14:45.59,0:14:50.46,DCItalic,CONAN,0000,0000,0000,,Judging by his behavior, there must be \Nsomething about the culprit in this notebook.
+Dialogue: 0,0:14:52.16,0:14:54.66,Date/Time,SIGN,0000,0000,0000,,Date | Time
+Dialogue: 0,0:14:52.16,0:14:54.66,Reviews,SIGN,0000,0000,0000,,Today I got to see the Book of the \NDead. The hieroglyphs are arranged \Nin such an orderly manner, like the \Nbricks in the wall at Tokyo Station. \NBy the way, the sun rising over the \NLibyan Desert was magical. \N\NI had fun. I'll be back. \NNext time I'll bring my friends. \N\NI came with my mommy and \Nmy daddy. I liked Anubis.
+Dialogue: 0,0:14:52.90,0:14:54.20,DCItalic,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:14:55.22,0:14:56.74,DCItalic,CONAN,0000,0000,0000,,So that's how it is.
+Dialogue: 0,0:14:58.54,0:15:02.36,DCMain,TAKAGI,0000,0000,0000,,But Conan-kun, why are we \Ngoing to Tokyo Station?
+Dialogue: 0,0:15:02.36,0:15:09.17,DCMain,CONAN,0000,0000,0000,,This notebook is full of reviews from lots of \Npeople, and Uchida Yuko-san's are among them.
+Dialogue: 0,0:15:09.17,0:15:10.05,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:15:10.05,0:15:14.12,DCMain,CONAN,0000,0000,0000,,She didn't write her name, but the \Ninitials are the same, so it must be her.
+Dialogue: 0,0:15:14.73,0:15:18.58,DCMain,CONAN,0000,0000,0000,,If you look back through reviews \Nwritten in the same handwriting,
+Dialogue: 0,0:15:20.06,0:15:23.17,DCMain,CONAN,0000,0000,0000,,you'll find that Yuko-san \Nhas left 17 reviews.
+Dialogue: 0,0:15:24.01,0:15:26.84,DCMain,CONAN,0000,0000,0000,,At first glance, the remarks seem harmless,
+Dialogue: 0,0:15:27.44,0:15:31.44,DCMain,CONAN,0000,0000,0000,,but if you read them carefully, you'll \Nnotice they have something in common.
+Dialogue: 0,0:15:32.66,0:15:34.55,DCMain,SONOKO,0000,0000,0000,,What's that?
+Dialogue: 0,0:15:34.55,0:15:36.89,DCMain,RAN,0000,0000,0000,,"It was raining in Shibuya."
+Dialogue: 0,0:15:36.89,0:15:40.68,DCMain,RAN,0000,0000,0000,,"Shinjuku at night reminds \Nme of Cairo at night."
+Dialogue: 0,0:15:42.04,0:15:44.64,DCMain,RAN,0000,0000,0000,,"Flowers were blooming \Nby the river in Meguro."
+Dialogue: 0,0:15:44.64,0:15:46.99,DCMain,RAN,0000,0000,0000,,"The cicadas in Shakujii Park were..."
+Dialogue: 0,0:15:47.62,0:15:48.42,DCMain,RAN,0000,0000,0000,,I know!
+Dialogue: 0,0:15:48.68,0:15:50.22,DCMain,RAN,0000,0000,0000,,She's meeting someone.
+Dialogue: 0,0:15:49.71,0:15:50.72,Locations,SIGN,0000,0000,0000,,{\fad(540,1)}Shinjuku
+Dialogue: 0,0:15:50.22,0:15:53.53,DCMain,RAN,0000,0000,0000,,There's always the name of a \Nlocation in each of her comments.
+Dialogue: 0,0:15:50.85,0:15:51.72,LocationsRed,SIGN,0000,0000,0000,,Yoyogi
+Dialogue: 0,0:15:51.72,0:15:52.68,LocationsRed,SIGN,0000,0000,0000,,Daikanyama
+Dialogue: 0,0:15:52.68,0:15:53.65,LocationsRed,SIGN,0000,0000,0000,,Shibuya
+Dialogue: 0,0:15:53.65,0:15:54.76,LocationsRed,SIGN,0000,0000,0000,,Shinjuku
+Dialogue: 0,0:15:54.01,0:15:57.67,DCMain,SONOKO,0000,0000,0000,,Come to think of it, she said \Nshe didn't have a cell phone.
+Dialogue: 0,0:15:54.84,0:15:56.44,LocationsRed,SIGN,0000,0000,0000,,Shakujii Park
+Dialogue: 0,0:15:56.44,0:15:57.39,LocationsRed,SIGN,0000,0000,0000,,Shibuya
+Dialogue: 0,0:15:57.39,0:15:58.47,LocationsRed,SIGN,0000,0000,0000,,Shinjuku
+Dialogue: 0,0:15:57.67,0:15:59.22,DCMain,TAKAGI,0000,0000,0000,,So it's a code.
+Dialogue: 0,0:15:58.47,0:15:58.93,LocationsRed,SIGN,0000,0000,0000,,Shinjuku
+Dialogue: 0,0:15:59.22,0:16:01.90,DCMain,CONAN,0000,0000,0000,,Also, look at the dates of the comments.
+Dialogue: 0,0:16:01.90,0:16:05.28,DCMain,RAN,0000,0000,0000,,The dates? But all the comments have dates.
+Dialogue: 0,0:16:05.90,0:16:08.32,DCMain,RAN,0000,0000,0000,,The dates and times go back and forth.
+Dialogue: 0,0:16:08.32,0:16:08.94,DCMain,RAN,0000,0000,0000,,I know.
+Dialogue: 0,0:16:08.94,0:16:13.18,DCMain,RAN,0000,0000,0000,,This isn't when she wrote the comment, \Nit's when she's meeting someone.
+Dialogue: 0,0:16:14.32,0:16:17.26,DCMain,SONOKO,0000,0000,0000,,The last one is 11 o'clock on the ninth.
+Dialogue: 0,0:16:18.49,0:16:20.33,DCMain,SONOKO,0000,0000,0000,,We only have 20 more minutes!
+Dialogue: 0,0:16:20.33,0:16:21.37,DCMain,TAKAGI,0000,0000,0000,,Let's hurry!
+Dialogue: 0,0:16:23.68,0:16:28.48,DCMain,RAN,0000,0000,0000,,We're here, but where are supposed \Nto look? Tokyo Station is huge.
+Dialogue: 0,0:16:29.64,0:16:31.45,DCMain,TAKAGI,0000,0000,0000,,This certainly is a problem.
+Dialogue: 0,0:16:31.45,0:16:35.89,DCMain,TAKAGI,0000,0000,0000,,I've requested backup, but we \Nneed to narrow it down somehow.
+Dialogue: 0,0:16:36.52,0:16:39.76,DCItalic,CONAN,0000,0000,0000,,Where is she? Where are they meeting?
+Dialogue: 0,0:16:42.95,0:16:44.52,DCMain,TAKAGI,0000,0000,0000,,15 more minutes.
+Dialogue: 0,0:16:48.61,0:16:49.76,DCMain,TAKAGI,0000,0000,0000,,Ten more minutes.
+Dialogue: 0,0:16:50.42,0:16:54.45,DCItalic,CONAN,0000,0000,0000,,Damn it. Which words indicate \Nwhere they're meeting?
+Dialogue: 0,0:16:55.12,0:16:59.16,DCItalic,YUKO,0000,0000,0000,,Today I got to see the Book of the Dead.
+Dialogue: 0,0:16:59.16,0:17:02.19,DCItalic,YUKO,0000,0000,0000,,The hieroglyphs are arranged \Nin such an orderly manner,
+Dialogue: 0,0:17:02.19,0:17:05.00,DCItalic,YUKO,0000,0000,0000,,like the bricks in the wall at Tokyo Station.
+Dialogue: 0,0:17:05.70,0:17:10.71,DCItalic,YUKO,0000,0000,0000,,By the way, the sun rising over \Nthe Libyan Desert was magical.
+Dialogue: 0,0:17:14.44,0:17:16.84,DCItalic,YUKO,0000,0000,0000,,When the deceased watched their hearts
+Dialogue: 0,0:17:16.84,0:17:19.43,DCItalic,YUKO,0000,0000,0000,,weighed against an ostrich \Nfeather on Anubis' scale,
+Dialogue: 0,0:17:19.43,0:17:23.18,DCItalic,YUKO,0000,0000,0000,,all they could do was pray.
+Dialogue: 0,0:17:23.71,0:17:26.92,DCItalic,YUKO,0000,0000,0000,,That's why I'll begin by praying, too.
+Dialogue: 0,0:17:27.66,0:17:28.52,DCMain,SONOKO,0000,0000,0000,,Let me see that.
+Dialogue: 0,0:17:30.88,0:17:32.65,DCMain,RAN,0000,0000,0000,,What's the Libyan Desert?
+Dialogue: 0,0:17:32.65,0:17:36.51,DCMain,SONOKO,0000,0000,0000,,It's a part of the Sahara \NDesert in southwestern Egypt.
+Dialogue: 0,0:17:36.51,0:17:40.24,DCMain,RAN,0000,0000,0000,,Huh, I guess Yuko-san's been to Egypt.
+Dialogue: 0,0:17:40.24,0:17:41.69,DCMain,TAKAGI,0000,0000,0000,,H-Hold on.
+Dialogue: 0,0:17:41.69,0:17:42.41,DCMain,RAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:17:42.71,0:17:48.09,DCMain,TAKAGI,0000,0000,0000,,I reviewed some records last night, \Nand she's never been to Egypt.
+Dialogue: 0,0:17:48.09,0:17:50.79,DCMain,TAKAGI,0000,0000,0000,,She doesn't even have a passport.
+Dialogue: 0,0:17:50.79,0:17:51.59,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:17:51.59,0:17:52.59,DCMain,CONAN,0000,0000,0000,,That's it.
+Dialogue: 0,0:17:52.85,0:17:53.44,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:17:53.44,0:17:58.36,DCMain,CONAN,0000,0000,0000,,Sonoko-neechan, you said the Libyan \NDesert is in southwestern Egypt, right?
+Dialogue: 0,0:17:58.36,0:17:59.47,DCMain,SONOKO,0000,0000,0000,,Y-Yeah.
+Dialogue: 0,0:17:59.77,0:18:04.22,DCMain,CONAN,0000,0000,0000,,Then it's impossible for the sun \Nto rise over the Libyan Desert.
+Dialogue: 0,0:18:04.57,0:18:05.60,DCMain,SONOKO,0000,0000,0000,,Oh, yeah.
+Dialogue: 0,0:18:05.60,0:18:07.73,DCMain,RAN,0000,0000,0000,,Then this is part of the code, too?
+Dialogue: 0,0:18:07.95,0:18:12.73,DCMain,CONAN,0000,0000,0000,,See how it says "I'll begin \Nby praying" before that?
+Dialogue: 0,0:18:13.02,0:18:14.73,DCMain,RAN,0000,0000,0000,,Yeah, I see it.
+Dialogue: 0,0:18:15.16,0:18:16.99,DCMain,CONAN,0000,0000,0000,,That's where it starts.
+Dialogue: 0,0:18:17.32,0:18:19.61,DCMain,TAKAGI,0000,0000,0000,,Where it starts?
+Dialogue: 0,0:18:19.61,0:18:23.60,DCMain,CONAN,0000,0000,0000,,At Tokyo Station, there are \Nfacilities for praying here.
+Dialogue: 0,0:18:21.00,0:18:24.88,Prayer,SIGN,0000,0000,0000,,Prayer Room
+Dialogue: 0,0:18:23.60,0:18:24.87,DCMain,TAKAGI,0000,0000,0000,,The prayer room.
+Dialogue: 0,0:18:25.32,0:18:29.00,DCMain,CONAN,0000,0000,0000,,And since the Libyan Desert \Nis in southwestern Egypt,
+Dialogue: 0,0:18:29.00,0:18:31.55,Prayer2,SIGN,0000,0000,0000,,Prayer Room
+Dialogue: 0,0:18:29.00,0:18:35.26,Taxi,SIGN,0000,0000,0000,,Taxi Stand
+Dialogue: 0,0:18:29.29,0:18:33.70,DCMain,CONAN,0000,0000,0000,,if you head southwest from the prayer room...
+Dialogue: 0,0:18:31.55,0:18:35.26,NorthExit,SIGN,0000,0000,0000,,Marunouchi Subway \NNorth Exit
+Dialogue: 0,0:18:33.70,0:18:35.26,DCMain,RAN,0000,0000,0000,,The taxi stand.
+Dialogue: 0,0:18:54.76,0:18:56.94,DCMain,SONOKO,0000,0000,0000,,What? What is Ishikawa-san doing here?
+Dialogue: 0,0:19:10.64,0:19:14.71,DCMain,SONOKO,0000,0000,0000,,Ishikawa-san, I knew you would come here.
+Dialogue: 0,0:19:16.83,0:19:21.00,DCMain,SONOKO,0000,0000,0000,,This case started with the \Ndiscord between the Uchidas.
+Dialogue: 0,0:19:21.00,0:19:24.57,DCMain,SONOKO,0000,0000,0000,,After witnessing their argument,
+Dialogue: 0,0:19:24.57,0:19:27.47,DCMain,SONOKO,0000,0000,0000,,Yuko-san's lover decided to commit \Na crime in order to protect her.
+Dialogue: 0,0:19:27.79,0:19:30.39,DCMain,YUKO,0000,0000,0000,,You're wrong! I'm the one who killed him!
+Dialogue: 0,0:19:30.87,0:19:32.95,DCMain,SONOKO,0000,0000,0000,,A woman couldn't have committed this crime.
+Dialogue: 0,0:19:33.57,0:19:35.52,DCMain,SONOKO,0000,0000,0000,,Even if you dropped the \Nfeather in the hallway
+Dialogue: 0,0:19:35.94,0:19:40.03,DCMain,SONOKO,0000,0000,0000,,and attacked him from \Nbehind as he picked it up,
+Dialogue: 0,0:19:40.54,0:19:44.53,DCMain,SONOKO,0000,0000,0000,,it would've been difficult \Nfor you to drag the body
+Dialogue: 0,0:19:44.53,0:19:48.39,DCMain,SONOKO,0000,0000,0000,,or tamper with the two-meter \Ntall Anubis statue's platform,
+Dialogue: 0,0:19:48.39,0:19:51.55,DCMain,SONOKO,0000,0000,0000,,even though it's a replica, in \Nsuch a short amount of time.
+Dialogue: 0,0:19:52.23,0:19:54.37,DCMain,YUKO,0000,0000,0000,,No! I did it!
+Dialogue: 0,0:19:54.37,0:19:57.47,DCMain,SONOKO,0000,0000,0000,,No, you had nothing to do with the murder.
+Dialogue: 0,0:19:57.47,0:19:59.42,DCMain,TAKAGI,0000,0000,0000,,How do you know that?
+Dialogue: 0,0:19:59.58,0:20:01.60,DCMain,SONOKO,0000,0000,0000,,It was written in the notebook.
+Dialogue: 0,0:20:01.60,0:20:04.54,DCMain,TAKAGI,0000,0000,0000,,What? Wh-Where?
+Dialogue: 0,0:20:05.56,0:20:08.07,DCMain,SONOKO,0000,0000,0000,,It wasn't written explicitly.
+Dialogue: 0,0:20:09.05,0:20:10.18,DCMain,RAN,0000,0000,0000,,What was it, then?
+Dialogue: 0,0:20:10.49,0:20:14.74,DCMain,SONOKO,0000,0000,0000,,Her final note was written \Nin her usual handwriting.
+Dialogue: 0,0:20:15.54,0:20:17.78,DCMain,SONOKO,0000,0000,0000,,If she'd been involved in the murder,
+Dialogue: 0,0:20:17.78,0:20:21.09,DCMain,SONOKO,0000,0000,0000,,it would've affected her handwriting.
+Dialogue: 0,0:20:21.09,0:20:22.52,DCMain,TAKAGI,0000,0000,0000,,You're right.
+Dialogue: 0,0:20:22.52,0:20:27.30,DCMain,RAN,0000,0000,0000,,Come to think of it, Ishikawa-san \Nmixed up Anubis and the pharaohs...
+Dialogue: 0,0:20:27.30,0:20:32.51,DCMain,SONOKO,0000,0000,0000,,But that was a lie meant to direct \Nsuspicion away from himself.
+Dialogue: 0,0:20:33.48,0:20:37.75,DCMain,SONOKO,0000,0000,0000,,He pretended to be ignorant \Nso we wouldn't suspect him.
+Dialogue: 0,0:20:37.75,0:20:41.34,DCMain,RAN,0000,0000,0000,,Is he responsible for the \Ndirector's curse, too?
+Dialogue: 0,0:20:41.34,0:20:44.80,DCMain,RAN,0000,0000,0000,,You showed up just before the director
+Dialogue: 0,0:20:45.33,0:20:48.30,DCMain,RAN,0000,0000,0000,,could tell Detective Takagi the \Nculprit's name, didn't you?
+Dialogue: 0,0:20:50.68,0:20:52.42,DCMain,SONOKO,0000,0000,0000,,When you explained the \Nsituation to the director,
+Dialogue: 0,0:20:52.42,0:20:56.25,DCMain,SONOKO,0000,0000,0000,,he felt sorry for you two and had second \Nthoughts about telling the truth.
+Dialogue: 0,0:20:57.18,0:21:02.42,DCMain,SONOKO,0000,0000,0000,,So he pretended to be cursed \Nby Anubis to avoid testifying.
+Dialogue: 0,0:21:03.17,0:21:07.06,DCMain,TAKAGI,0000,0000,0000,,I see. Then he wouldn't \Nhave to perjure himself.
+Dialogue: 0,0:21:07.87,0:21:09.93,DCMain,ISHIKAWA,0000,0000,0000,,You're right.
+Dialogue: 0,0:21:09.93,0:21:12.33,DCMain,ISHIKAWA,0000,0000,0000,,I'm responsible for everything.
+Dialogue: 0,0:21:12.69,0:21:15.21,DCMain,ISHIKAWA,0000,0000,0000,,I know I've caused trouble for the director.
+Dialogue: 0,0:21:16.08,0:21:19.91,DCMain,ISHIKAWA,0000,0000,0000,,But Uchida Hiroaki deserved to die!
+Dialogue: 0,0:21:19.91,0:21:20.85,DCMain,TAKAGI,0000,0000,0000,,You're wrong.
+Dialogue: 0,0:21:20.85,0:21:21.46,DCMain,BOTH,0000,0000,0000,,What?
+Dialogue: 0,0:21:22.54,0:21:27.96,DCMain,TAKAGI,0000,0000,0000,,Violence, controlling behavior, violations \Nof privacy, and all manner of harassment.
+Dialogue: 0,0:21:27.96,0:21:33.98,DCMain,TAKAGI,0000,0000,0000,,I know Uchida-san was having affairs with \Nmultiple women for several years, too.
+Dialogue: 0,0:21:34.29,0:21:35.72,DCMain,YUKO,0000,0000,0000,,I was in hell.
+Dialogue: 0,0:21:35.72,0:21:40.02,DCMain,YUKO,0000,0000,0000,,Ishikawa-san saved me from that hell.
+Dialogue: 0,0:21:40.02,0:21:41.46,DCMain,ISHIKAWA,0000,0000,0000,,Yuko-san...
+Dialogue: 0,0:21:41.46,0:21:42.78,DCMain,TAKAGI,0000,0000,0000,,However,
+Dialogue: 0,0:21:43.69,0:21:48.15,DCMain,TAKAGI,0000,0000,0000,,that doesn't make it right \Nto take a person's life.
+Dialogue: 0,0:23:17.02,0:23:22.15,DCMain,SONOKO,0000,0000,0000,,Hey, apparently a Aztec culture museum is \Nopening on the other side of the station.
+Dialogue: 0,0:23:22.15,0:23:23.56,DCMain,SONOKO,0000,0000,0000,,Want to check it out sometime?
+Dialogue: 0,0:23:23.56,0:23:24.46,DCMain,RAN,0000,0000,0000,,What?
+Dialogue: 0,0:23:24.84,0:23:27.63,DCMain,CONAN,0000,0000,0000,,What about Ancient Oriental culture?
+Dialogue: 0,0:23:28.34,0:23:32.89,DCMain,SONOKO,0000,0000,0000,,That's old news. Aztec culture is in now.
+Dialogue: 0,0:23:34.13,0:23:38.81,DCMain,SONOKO,0000,0000,0000,,The Incan Empire, Machu Picchu, \NLake Titicaca, Quetzalcoatl.
+Dialogue: 0,0:23:39.60,0:23:40.88,DCMain,SONOKO,0000,0000,0000,,It's so romantic.
+Dialogue: 0,0:23:41.42,0:23:42.94,DCMain,CONAN,0000,0000,0000,,Do you even know what those words mean?
+Dialogue: 0,0:23:44.90,0:24:08.92,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:47.14,0:23:49.78,DCMain,MAN A,0000,0000,0000,,Looks like you need a little educating.
+Dialogue: 0,0:23:49.78,0:23:53.66,DCMain,MAN A,0000,0000,0000,,I'll show you what a real story looks like.
+Dialogue: 0,0:23:53.87,0:23:59.41,DCMain,MAN B,0000,0000,0000,,Michiko-san, apparently it's \Npossible that you've been poisoned.
+Dialogue: 0,0:23:59.70,0:24:00.66,DCMain,WOMAN,0000,0000,0000,,What?
+Dialogue: 0,0:24:04.76,0:24:05.92,DCItalic,CONAN,0000,0000,0000,,I see.
+Dialogue: 0,0:24:06.34,0:24:07.76,DCItalic,CONAN,0000,0000,0000,,So that's how it is!
+Dialogue: 0,0:24:08.92,0:24:14.93,DCNextEp,SIGN,0000,0000,0000,,The Whistling Bookstore 3
+Dialogue: 0,0:24:09.44,0:24:13.71,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Whistling Bookstore 3!"
+Dialogue: 0,0:24:29.94,0:24:34.86,Hint,SIGN,0000,0000,0000,,Spine of a Book
+Dialogue: 0,0:24:30.14,0:24:32.62,DCMain,BOTH,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.62,0:24:34.86,DCMain,CONAN,0000,0000,0000,,The spine of a book!
+Dialogue: 0,0:24:34.86,0:24:36.32,DCMain,RAN,0000,0000,0000,,{\an8}Conan-kun, what are you reading?
+Dialogue: 0,0:24:34.86,0:24:39.87,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:36.32,0:24:37.33,DCMain,SONOKO,0000,0000,0000,,{\an8}Volume 99?
+Dialogue: 0,0:24:37.33,0:24:39.18,DCMain,CONAN,0000,0000,0000,,{\an8}Volume 100 is coming out soon!

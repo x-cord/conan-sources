@@ -1,0 +1,421 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0020,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0110,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: Sachiko,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00B36E6C,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0030,0020,0062,0
+Style: Yamada,Trebuchet MS,16,&H00656769,&H000000FF,&H00D8D9DB,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0110,0080,0
+Style: Sachiko'sPosts,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00C57B2E,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0098,0020,0050,0
+Style: YamadaProfile,Trebuchet MS,20,&H00BF2F1B,&H000000FF,&H00FEE1BF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0030,0105,0
+Style: Post1,Trebuchet MS,18,&H005A3C1A,&H000000FF,&H00FFE0BF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,4,0020,0020,0070,0
+Style: JewelryStore,Trebuchet MS,22,&H005C351B,&H000000FF,&H00F1CBB1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,9,0020,0130,0020,0
+Style: Cameras,Trebuchet MS,16,&H00603527,&H000000FF,&H00F0ECE8,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Vet,Trebuchet MS,22,&H0028486D,&H000000FF,&H00D6E4F6,&H00DDC5BC,-1,0,0,0,100,100,0,0,1,2,2,8,0020,0020,0020,0
+Style: Post2,Trebuchet MS,18,&H006B7573,&H000000FF,&H0098A6A6,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,4,0020,0020,0070,0
+Style: Tanaka,Trebuchet MS,18,&H001D1E1C,&H000000FF,&H00E0E0DE,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0020,0
+Style: Post3,Trebuchet MS,18,&H00583625,&H000000FF,&H00DED7D1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0050,0
+Style: Comment#,Trebuchet MS,18,&H00D14635,&H000000FF,&H00DED7D1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0020,0
+Style: Post4,Trebuchet MS,18,&H00583625,&H000000FF,&H00DED7D1,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0120,0
+Style: DCFlashback,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCFlashbackItalics,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00A80D0B,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:02.25,0:00:04.30,DCMain,GENTA,0000,0000,0000,,Here it comes, Mitsuhiko.
+Dialogue: 0,0:00:04.30,0:00:06.99,DCMain,GENTA,0000,0000,0000,,Try catching my full-power pitch!
+Dialogue: 0,0:00:06.99,0:00:10.11,DCMain,MITSUHIKO,0000,0000,0000,,I'll catch it with all my might!
+Dialogue: 0,0:00:10.11,0:00:11.35,DCMain,GENTA,0000,0000,0000,,Go!
+Dialogue: 0,0:00:12.25,0:00:14.17,DCMain,AYUMI,0000,0000,0000,,Good luck, both of you.
+Dialogue: 0,0:00:14.17,0:00:15.36,DCMain,BOTH,0000,0000,0000,,Thanks.
+Dialogue: 0,0:00:20.75,0:00:22.23,DCMain,CULPRIT A,0000,0000,0000,,Down, down.
+Dialogue: 0,0:00:22.23,0:00:23.87,DCMain,CULPRIT A,0000,0000,0000,,Be a good boy and quiet down.
+Dialogue: 0,0:00:24.25,0:00:25.50,DCMain,GENTA,0000,0000,0000,,What's going on?
+Dialogue: 0,0:00:32.03,0:00:32.97,DCMain,SACHIKO,0000,0000,0000,,Pan-kun?
+Dialogue: 0,0:00:33.88,0:00:35.23,DCMain,AYUMI,0000,0000,0000,,He ran away.
+Dialogue: 0,0:00:35.23,0:00:37.76,DCMain,MITSUHIKO,0000,0000,0000,,That dog abandoned his owner.
+Dialogue: 0,0:00:41.91,0:00:43.85,DCMain,CONAN,0000,0000,0000,,Beyond detective skills \Ncapable of identifying the truth
+Dialogue: 0,0:00:43.85,0:00:46.08,DCMain,CONAN,0000,0000,0000,,is the power to lead us \Nto what we should believe.
+Dialogue: 0,0:00:46.08,0:00:47.52,DCMain,CONAN,0000,0000,0000,,A dog with too much freedom
+Dialogue: 0,0:00:47.52,0:00:49.64,DCMain,CONAN,0000,0000,0000,,runs towards a surprising truth!
+Dialogue: 0,0:00:49.64,0:00:51.32,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:00:51.32,0:00:53.21,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:00:53.21,0:00:55.85,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:02:37.01,0:02:43.01,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(370,1)}My Beloved Dog Pan-kun is a Good Boy
+Dialogue: 0,0:02:37.26,0:02:40.64,DCMain,CONAN,0000,0000,0000,,"My Beloved Dog Pan-kun is a Good Boy!"
+Dialogue: 0,0:02:45.74,0:02:46.94,DCMain,SACHIKO,0000,0000,0000,,Pan-kun?
+Dialogue: 0,0:02:47.77,0:02:50.02,DCMain,CONAN,0000,0000,0000,,Guys, make as much noise as you can.
+Dialogue: 0,0:02:50.39,0:02:54.11,DCMain,ALL,0000,0000,0000,,Someone help!
+Dialogue: 0,0:02:54.11,0:02:58.61,DCMain,ALL,0000,0000,0000,,He's gonna kill us! Help!
+Dialogue: 0,0:02:59.95,0:03:01.22,DCMain,SAHICKO,0000,0000,0000,,Pan-kun...
+Dialogue: 0,0:03:03.78,0:03:06.37,DCMain,SACHIKO,0000,0000,0000,,Thank you so much for saving me.
+Dialogue: 0,0:03:07.20,0:03:09.11,DCMain,SACHIKO,0000,0000,0000,,That was so scary.
+Dialogue: 0,0:03:09.11,0:03:11.37,DCMain,MITSUHIKO,0000,0000,0000,,I'm glad you weren't hurt.
+Dialogue: 0,0:03:11.83,0:03:15.75,Sachiko,SIGN,0000,0000,0000,,{\fad(370,370)}Yamada Sachiko (28) \NHousewife
+Dialogue: 0,0:03:11.87,0:03:15.39,DCMain,SACHIKO,0000,0000,0000,,{\an8}I know. It's all thanks to you kids.
+Dialogue: 0,0:03:20.77,0:03:22.43,DCMain,AYUMI,0000,0000,0000,,He came back.
+Dialogue: 0,0:03:22.43,0:03:25.14,DCMain,SACHIKO,0000,0000,0000,,Pan-kun, you're all right.
+Dialogue: 0,0:03:25.14,0:03:26.47,DCMain,SACHIKO,0000,0000,0000,,I'm so glad.
+Dialogue: 0,0:03:26.89,0:03:29.89,DCMain,HAIBARA,0000,0000,0000,,That dog does whatever it wants.
+Dialogue: 0,0:03:37.29,0:03:41.86,DCMain,CONAN,0000,0000,0000,,Miss, do you know why you were attacked?
+Dialogue: 0,0:03:42.12,0:03:45.25,DCMain,SACHIKO,0000,0000,0000,,I have no idea.
+Dialogue: 0,0:03:45.25,0:03:51.87,DCMain,SACHIKO,0000,0000,0000,,I'm not rich, nor do I \Nhave any special skills.
+Dialogue: 0,0:03:53.37,0:03:59.03,DCMain,SACHIKO,0000,0000,0000,,The only reason I can think of \Nis that I'm just so attractive.
+Dialogue: 0,0:04:02.27,0:04:03.88,DCMain,SACHIKO,0000,0000,0000,,Just kidding.
+Dialogue: 0,0:04:04.27,0:04:07.82,DCMain,HAIBARA,0000,0000,0000,,She just looks like an \Nordinary dog person to me.
+Dialogue: 0,0:04:08.64,0:04:11.01,DCMain,MITSUHIKO,0000,0000,0000,,Anyway, I'm glad you're all right.
+Dialogue: 0,0:04:11.01,0:04:12.89,DCMain,GENTA,0000,0000,0000,,Thanks to us.
+Dialogue: 0,0:04:12.89,0:04:15.83,DCMain,CONAN,0000,0000,0000,,We'll report this to the police, \Nbut you should be careful, too.
+Dialogue: 0,0:04:15.83,0:04:17.46,DCMain,SACHIKO,0000,0000,0000,,I will. Thank you.
+Dialogue: 0,0:04:17.46,0:04:20.79,DCMain,SACHIKO,0000,0000,0000,,But next time, this boy will protect me.
+Dialogue: 0,0:04:20.79,0:04:24.04,DCMain,SACHIKO,0000,0000,0000,,After all, Pan-kun is a good boy.
+Dialogue: 0,0:04:27.41,0:04:29.42,DCMain,SACHIKO,0000,0000,0000,,Well, goodbye.
+Dialogue: 0,0:04:30.51,0:04:31.66,DCMain,SACHIKO,0000,0000,0000,,Too fast!
+Dialogue: 0,0:04:31.66,0:04:33.66,DCMain,ALL,0000,0000,0000,,Goodbye.
+Dialogue: 0,0:04:34.11,0:04:39.86,DCMain,CULPRIT A,0000,0000,0000,,There's no time. I must do \Nsomething before it's too late.
+Dialogue: 0,0:04:41.31,0:04:44.68,DCMain,AYUMI,0000,0000,0000,,I wonder why that lady was attacked.
+Dialogue: 0,0:04:44.68,0:04:50.18,DCMain,CONAN,0000,0000,0000,,Her attacker was wearing a ski mask, and \Nit didn't seem like a crime of opportunity.
+Dialogue: 0,0:04:50.18,0:04:52.60,DCMain,GENTA,0000,0000,0000,,It's obvious.
+Dialogue: 0,0:04:52.60,0:04:55.19,DCMain,GENTA,0000,0000,0000,,The culprit wanted her brooch.
+Dialogue: 0,0:04:55.19,0:04:58.52,DCMain,HAIBARA,0000,0000,0000,,It did look like a large emerald.
+Dialogue: 0,0:04:58.52,0:05:02.21,DCMain,HAIBARA,0000,0000,0000,,If it's not fake, it would \Nbe pretty expensive.
+Dialogue: 0,0:05:02.21,0:05:04.50,DCMain,GENTA,0000,0000,0000,,It was fake?
+Dialogue: 0,0:05:04.50,0:05:09.95,DCMain,HAIBARA,0000,0000,0000,,We can safely assume a flawless \Nemerald that size is fake.
+Dialogue: 0,0:05:09.95,0:05:12.78,DCMain,MITSUHIKO,0000,0000,0000,,Then he must've been her stalker.
+Dialogue: 0,0:05:12.78,0:05:16.96,DCMain,MITSUHIKO,0000,0000,0000,,He was wearing a ski mask because \Nhe was waiting for her there.
+Dialogue: 0,0:05:16.96,0:05:21.07,DCMain,CONAN,0000,0000,0000,,When the victim herself didn't \Nrealize she has a stalker?
+Dialogue: 0,0:05:21.07,0:05:23.18,DCMain,CONAN,0000,0000,0000,,Don't you think that's a little far-fetched?
+Dialogue: 0,0:05:23.18,0:05:30.47,DCMain,HAIBARA,0000,0000,0000,,You're right. She didn't seem anxious \Nat all or like she was being followed.
+Dialogue: 0,0:05:30.47,0:05:32.47,DCMain,AYUMI,0000,0000,0000,,Then it must be the dog.
+Dialogue: 0,0:05:32.47,0:05:33.62,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:05:33.62,0:05:37.48,DCMain,AYUMI,0000,0000,0000,,It's really cute, so maybe \Na thief wanted to steal it.
+Dialogue: 0,0:05:37.48,0:05:40.98,DCMain,HAIBARA,0000,0000,0000,,It didn't seem like a breed \Nyou'd bother to steal.
+Dialogue: 0,0:05:40.98,0:05:45.54,DCMain,MITSUHIKO,0000,0000,0000,,It's unlikely to be stolen without a pedigree.
+Dialogue: 0,0:05:45.54,0:05:47.93,DCMain,GENTA,0000,0000,0000,,Then why was she attacked?
+Dialogue: 0,0:05:47.93,0:05:48.74,DCMain,MITSUHIKO,0000,0000,0000,,Huh?
+Dialogue: 0,0:05:48.74,0:05:50.64,DCMain,CONAN,0000,0000,0000,,It's curious, isn't it?
+Dialogue: 0,0:05:51.93,0:05:53.82,DCMain,CONAN,0000,0000,0000,,Then let's look into it.
+Dialogue: 0,0:05:53.82,0:05:55.29,DCMain,ALL,0000,0000,0000,,Yeah!
+Dialogue: 0,0:05:55.29,0:05:58.15,DCMain,CONAN,0000,0000,0000,,Hurry. She can't have gone far yet.
+Dialogue: 0,0:05:58.15,0:06:02.85,DCMain,HAIBARA,0000,0000,0000,,Since she was walking her dog in this park, \Nshe must not live too far away.
+Dialogue: 0,0:06:07.01,0:06:09.63,DCMain,GENTA,0000,0000,0000,,Where did she go?
+Dialogue: 0,0:06:10.87,0:06:12.39,DCMain,AYUMI,0000,0000,0000,,Look.
+Dialogue: 0,0:06:12.82,0:06:15.39,DCMain,SACHIKO,0000,0000,0000,,Pan-kun, don't go up there.
+Dialogue: 0,0:06:16.18,0:06:17.39,DCMain,SACHIKO,0000,0000,0000,,Okay, okay.
+Dialogue: 0,0:06:17.39,0:06:20.95,DCMain,AYUMI,0000,0000,0000,,Looks like her name is Yamada-san.
+Dialogue: 0,0:06:17.39,0:06:20.95,DCMain,SACHIKO,0000,0000,0000,,{\an8}Now, now. Don't bite the sofa.
+Dialogue: 0,0:06:17.39,0:06:21.40,Yamada,SIGN,0000,0000,0000,,Yamada Goro, Sachiko, \Nand Pan
+Dialogue: 0,0:06:21.40,0:06:23.53,DCMain,MITSUHIKO,0000,0000,0000,,Nothing seems out of the ordinary.
+Dialogue: 0,0:06:23.53,0:06:27.70,DCMain,HAIBARA,0000,0000,0000,,Looks like that dog misbehaving \Nis business as usual.
+Dialogue: 0,0:06:27.70,0:06:28.44,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:28.15,0:06:29.67,Post1,SIGN,0000,0000,0000,,Pan's Profile \NFavorite foods: \N"Magical Smith Apple Pie"
+Dialogue: 0,0:06:28.15,0:06:31.03,Sachiko'sPosts,SIGN,0000,0000,0000,,Yamada Sachiko-san's Posts
+Dialogue: 0,0:06:28.15,0:06:31.03,YamadaProfile,SIGN,0000,0000,0000,,Yamada Sachiko
+Dialogue: 0,0:06:28.44,0:06:30.53,DCMain,CONAN,0000,0000,0000,,Oh, is that Yamada-san's \Nsocial media profile?
+Dialogue: 0,0:06:29.67,0:06:31.67,Post1,SIGN,0000,0000,0000,,Pan-kun jumping on \Na Magical Smith Apple Pie \NNice [heart]
+Dialogue: 0,0:06:30.53,0:06:35.25,DCMain,HAIBARA,0000,0000,0000,,Most of her newest posts are about Pan-kun.
+Dialogue: 0,0:06:31.67,0:06:34.92,Post1,SIGN,0000,0000,0000,,He's learned to destroy \NDaddy's pillow [heart] \NNice work, Pan-kun
+Dialogue: 0,0:06:34.92,0:06:36.92,Post1,SIGN,0000,0000,0000,,The yard is full of holes! \N(Good job digging them [heart]) \NI found Pan-kun's treasure inside, \Nas well as Daddy's shoes.
+Dialogue: 0,0:06:35.25,0:06:37.05,DCMain,GENTA,0000,0000,0000,,And she calls him a good boy?
+Dialogue: 0,0:06:36.92,0:06:39.43,Post1,SIGN,0000,0000,0000,,Cleaning together [heart]
+Dialogue: 0,0:06:37.05,0:06:41.17,DCMain,MITSUHIKO,0000,0000,0000,,That dog gets away with everything.
+Dialogue: 0,0:06:39.43,0:06:41.17,Post1,SIGN,0000,0000,0000,,The dog food...
+Dialogue: 0,0:06:42.28,0:06:44.55,DCItalic,SACHIKO,0000,0000,0000,,Pan-kun, those are Daddy's shoes.
+Dialogue: 0,0:06:44.55,0:06:46.18,DCMain,AYUMI,0000,0000,0000,,But he's cute.
+Dialogue: 0,0:06:46.18,0:06:47.76,DCMain,HAIBARA,0000,0000,0000,,Y-Yeah...
+Dialogue: 0,0:06:48.76,0:06:49.76,DCMain,AYUMI,0000,0000,0000,,Huh?
+Dialogue: 0,0:06:50.63,0:06:52.02,DCMain,ALL,0000,0000,0000,,What?
+Dialogue: 0,0:06:53.22,0:06:55.12,DCMain,CULPRIT A,0000,0000,0000,,Get the dog.
+Dialogue: 0,0:06:55.12,0:06:56.35,DCMain,CULPRIT B,0000,0000,0000,,G-Got it.
+Dialogue: 0,0:07:00.09,0:07:01.21,DCMain,SACHIKO,0000,0000,0000,,Pan-kun!
+Dialogue: 0,0:07:02.56,0:07:04.26,DCMain,AYUMI,0000,0000,0000,,He ran away again.
+Dialogue: 0,0:07:04.26,0:07:07.23,DCMain,HAIBARA,0000,0000,0000,,He wouldn't make a very good guard dog.
+Dialogue: 0,0:07:07.23,0:07:10.90,DCMain,CONAN,0000,0000,0000,,Why don't you guys give up?
+Dialogue: 0,0:07:10.90,0:07:14.40,DCMain,CULPRIT A,0000,0000,0000,,Give up? What are you talking about, kid?
+Dialogue: 0,0:07:14.40,0:07:15.53,DCMain,CULPRIT B,0000,0000,0000,,Don't underestimate us!
+Dialogue: 0,0:07:15.53,0:07:16.46,DCMain,CONAN,0000,0000,0000,,Guys.
+Dialogue: 0,0:07:16.46,0:07:19.02,DCMain,CULPRIT A,0000,0000,0000,,Make any noise, and you'll pay for it!
+Dialogue: 0,0:07:19.02,0:07:22.41,DCMain,HAIBARA,0000,0000,0000,,Don't bother. We've already called the police.
+Dialogue: 0,0:07:22.41,0:07:25.96,DCMain,GENTA,0000,0000,0000,,If you don't calm down, you'll regret it.
+Dialogue: 0,0:07:25.96,0:07:29.13,DCMain,CULPRIT A,0000,0000,0000,,Damn it! You'll be the ones \Nwho will regret doing this!
+Dialogue: 0,0:07:29.13,0:07:29.99,DCMain,CULPRIT A,0000,0000,0000,,Do it.
+Dialogue: 0,0:07:30.59,0:07:32.24,DCMain,CULPRIT B,0000,0000,0000,,No hard feelings.
+Dialogue: 0,0:07:33.04,0:07:35.85,DCMain,CONAN,0000,0000,0000,,Mister, your shoes are untied.
+Dialogue: 0,0:07:35.85,0:07:36.76,DCMain,CULPRIT B,0000,0000,0000,,What? Seriously?
+Dialogue: 0,0:07:37.46,0:07:39.02,DCMain,CULPRIT B,0000,0000,0000,,They're not untied.
+Dialogue: 0,0:07:40.14,0:07:43.40,DCMain,GENTA,0000,0000,0000,,Try catching my full-power pitch!
+Dialogue: 0,0:07:43.81,0:07:46.57,DCMain,MITSUHIKO,0000,0000,0000,,And mine!
+Dialogue: 0,0:07:48.87,0:07:52.38,DCMain,CULPRIT A,0000,0000,0000,,Hey, don't let a couple \Nof kids take you down.
+Dialogue: 0,0:07:52.38,0:07:53.79,DCMain,CONAN,0000,0000,0000,,What will you do now?
+Dialogue: 0,0:08:04.82,0:08:07.04,DCMain,CULPRIT A,0000,0000,0000,,Y-You'll pay for this!
+Dialogue: 0,0:08:11.23,0:08:12.61,DCMain,CONAN,0000,0000,0000,,Now then.
+Dialogue: 0,0:08:19.63,0:08:21.93,DCMain,CONAN,0000,0000,0000,,Who are these guys?
+Dialogue: 0,0:08:31.28,0:08:34.82,DCNote,SIGN,0000,0000,0000,,Takahashi Hajime (22) \NUnemployed
+Dialogue: 0,0:08:32.08,0:08:34.82,DCMain,CHIBA,0000,0000,0000,,Takahashi Hajime, 22 years old, unemployed.
+Dialogue: 0,0:08:35.12,0:08:37.04,DCMain,CHIBA,0000,0000,0000,,A minor criminal with \Nthree previous offenses.
+Dialogue: 0,0:08:37.58,0:08:38.60,DCMain,CHIBA,0000,0000,0000,,Takagi-san.
+Dialogue: 0,0:08:40.27,0:08:41.95,DCMain,CHIBA,0000,0000,0000,,This man's ski mask resembles
+Dialogue: 0,0:08:41.95,0:08:46.50,DCMain,CHIBA,0000,0000,0000,,the ones worn by the culprits who \Nrobbed the jewelry store two days ago.
+Dialogue: 0,0:08:46.94,0:08:48.35,DCMain,TAKAGI,0000,0000,0000,,Is that right?
+Dialogue: 0,0:08:48.35,0:08:52.34,DCMain,CHIBA,0000,0000,0000,,A gem-studded tiara and armband were stolen.
+Dialogue: 0,0:08:52.87,0:08:55.26,DCMain,CHIBA,0000,0000,0000,,They're worth several million yen.
+Dialogue: 0,0:08:55.26,0:08:57.01,JewelryStore,SIGN,0000,0000,0000,,Kaneko Jewelry Store
+Dialogue: 0,0:08:55.26,0:08:57.01,DCMain,CHIBA,0000,0000,0000,,These are the items.
+Dialogue: 0,0:08:58.39,0:08:59.76,Cameras,SIGN,0000,0000,0000,,Kaneko Jewelry \NStore Camera 1-7
+Dialogue: 0,0:08:58.39,0:08:59.76,DCMain,CHIBA,0000,0000,0000,,Look at this.
+Dialogue: 0,0:08:59.76,0:09:02.96,DCMain,CHIBA,0000,0000,0000,,This is footage from the Kaneko \NJewelry Store security cameras.
+Dialogue: 0,0:09:03.71,0:09:06.40,DCMain,TAKAGI,0000,0000,0000,,They certainly do look similar. \NSo do their builds.
+Dialogue: 0,0:09:06.93,0:09:12.28,DCMain,CHIBA,0000,0000,0000,,Later, a passerby, who heard the owner \Nshouting, attempted to catch the culprits,
+Dialogue: 0,0:09:12.28,0:09:15.13,DCMain,CHIBA,0000,0000,0000,,and was stabbed with a knife instead.
+Dialogue: 0,0:09:16.91,0:09:21.41,DCMain,CONAN,0000,0000,0000,,The Kaneko Jewelry Store was robbed again?
+Dialogue: 0,0:09:21.73,0:09:25.31,DCMain,CHIBA,0000,0000,0000,,Yeah. Apparently they've tightened security.
+Dialogue: 0,0:09:25.31,0:09:28.01,DCMain,CHIBA,0000,0000,0000,,I wonder why they keep getting robbed?
+Dialogue: 0,0:09:29.59,0:09:31.93,DCMain,TAKAGI,0000,0000,0000,,Wait, you kids again?
+Dialogue: 0,0:09:31.93,0:09:33.80,DCMain,GENTA,0000,0000,0000,,What does that mean?
+Dialogue: 0,0:09:33.80,0:09:36.66,DCMain,GENTA,0000,0000,0000,,We're the ones who caught the culprit.
+Dialogue: 0,0:09:36.66,0:09:38.22,DCMain,AYUMI,0000,0000,0000,,Yeah.
+Dialogue: 0,0:09:38.22,0:09:42.18,DCMain,MITSUHIKO,0000,0000,0000,,Not only that, but we \Nchased off the thieves twice.
+Dialogue: 0,0:09:42.46,0:09:46.05,DCMain,HAIBARA,0000,0000,0000,,At the very least, we've \Nbeen more useful than Pan-kun.
+Dialogue: 0,0:09:48.54,0:09:51.40,DCMain,CHIBA,0000,0000,0000,,Good work, kids.
+Dialogue: 0,0:09:51.40,0:09:53.07,DCMain,TAKAGI,0000,0000,0000,,Thanks for everything.
+Dialogue: 0,0:09:53.43,0:09:54.32,DCMain,ALL,0000,0000,0000,,You're welcome!
+Dialogue: 0,0:09:54.84,0:09:57.88,DCMain,CONAN,0000,0000,0000,,So, do you think he'll talk?
+Dialogue: 0,0:09:57.88,0:10:03.98,DCMain,TAKAGI,0000,0000,0000,,He hasn't said anything so far, but \Nwe'll take our time questioning him.
+Dialogue: 0,0:10:03.98,0:10:08.89,DCMain,CONAN,0000,0000,0000,,Like Mitsuhiko-said, Yamada-san \Nhas been attacked twice today.
+Dialogue: 0,0:10:08.89,0:10:11.62,DCMain,CONAN,0000,0000,0000,,I wonder why she was attacked.
+Dialogue: 0,0:10:11.62,0:10:16.01,DCMain,CHIBA,0000,0000,0000,,You're right. We'll put a \Nsecurity detail on Yamada-san.
+Dialogue: 0,0:10:16.01,0:10:20.80,DCMain,TAKAGI,0000,0000,0000,,So she might be connected \Nto the jewel thieves somehow.
+Dialogue: 0,0:10:21.12,0:10:24.31,DCMain,CONAN,0000,0000,0000,,Do you think the culprit \Nwho fled will be back?
+Dialogue: 0,0:10:24.31,0:10:31.42,DCMain,TAKAGI,0000,0000,0000,,They say things come in threes, but \NI doubt he'd do anything that reckless.
+Dialogue: 0,0:10:33.29,0:10:35.69,DCMain,SACHIKO,0000,0000,0000,,I made some tea. Would you like some?
+Dialogue: 0,0:10:35.69,0:10:39.95,DCMain,CONAN,0000,0000,0000,,Uh, this is a crime scene.
+Dialogue: 0,0:10:42.45,0:10:44.45,DCMain,AYUMI,0000,0000,0000,,Good boy, Pan-kun.
+Dialogue: 0,0:10:46.01,0:10:49.08,DCMain,SACHIKO,0000,0000,0000,,We should be fine out here. Have some.
+Dialogue: 0,0:10:49.08,0:10:51.21,DCMain,BOTH,0000,0000,0000,,Thanks for the food!
+Dialogue: 0,0:10:51.21,0:10:55.16,DCMain,CONAN,0000,0000,0000,,Miss, are you sure you don't know \Nwhy you were attacked?
+Dialogue: 0,0:10:55.16,0:11:03.23,DCMain,SACHIKO,0000,0000,0000,,Well, my husband runs a normal company, \Nand we haven't won the lottery.
+Dialogue: 0,0:11:03.23,0:11:04.64,DCMain,SACHIKO,0000,0000,0000,,I wonder why?
+Dialogue: 0,0:11:05.64,0:11:10.43,DCMain,HAIBARA,0000,0000,0000,,And you haven't been followed \Nrecently or anything like that?
+Dialogue: 0,0:11:10.43,0:11:13.47,DCMain,SACHIKO,0000,0000,0000,,No, I haven't received any \Nweird silent phone calls either.
+Dialogue: 0,0:11:13.95,0:11:18.57,DCMain,HAIBARA,0000,0000,0000,,Does Pan-kun have any special talents?
+Dialogue: 0,0:11:18.57,0:11:22.57,DCMain,SACHIKO,0000,0000,0000,,Of course. After all, Pan-kun is a good boy.
+Dialogue: 0,0:11:24.21,0:11:26.58,DCMain,MITSUHIKO,0000,0000,0000,,What exactly does he do?
+Dialogue: 0,0:11:26.58,0:11:30.75,DCMain,SACHIKO,0000,0000,0000,,He wags his tail whenever \Nyou call him a good boy.
+Dialogue: 0,0:11:33.60,0:11:35.50,DCMain,HAIBARA,0000,0000,0000,,This doesn't seem to be it.
+Dialogue: 0,0:11:35.98,0:11:39.67,DCMain,CONAN,0000,0000,0000,,Did anything unusual happen two days ago?
+Dialogue: 0,0:11:39.67,0:11:43.59,DCMain,SACHIKO,0000,0000,0000,,Two days ago? Not especially.
+Dialogue: 0,0:11:45.21,0:11:50.12,DCMain,SACHIKO,0000,0000,0000,,Come to think of it, Pan-kun took \Nhis own leash and went missing,
+Dialogue: 0,0:11:50.12,0:11:51.56,DCMain,SACHIKO,0000,0000,0000,,but he came back right away.
+Dialogue: 0,0:11:51.93,0:11:55.32,DCMain,CONAN,0000,0000,0000,,What time was that? For how long?
+Dialogue: 0,0:11:55.72,0:11:59.42,DCMain,SACHIKO,0000,0000,0000,,It was around 2PM, for about ten minutes.
+Dialogue: 0,0:11:59.42,0:12:04.32,DCMain,SACHIKO,0000,0000,0000,,But he always goes missing, so it \Ndidn't feel out of the ordinary.
+Dialogue: 0,0:12:04.85,0:12:08.10,DCItalic,CONAN,0000,0000,0000,,That's the same time the \Njewelry store was robbed.
+Dialogue: 0,0:12:08.81,0:12:10.60,DCMain,HAIBARA,0000,0000,0000,,What are you thinking?
+Dialogue: 0,0:12:11.66,0:12:14.71,DCMain,CONAN,0000,0000,0000,,That Yamada-san has nothing \Nto do with the case after all.
+Dialogue: 0,0:12:14.71,0:12:18.66,DCMain,CONAN,0000,0000,0000,,Like Ayumi-chan said, the culprits \Nare probably after Pan-kun.
+Dialogue: 0,0:12:18.66,0:12:20.34,DCMain,HAIBARA,0000,0000,0000,,Then...
+Dialogue: 0,0:12:20.85,0:12:25.13,DCMain,CONAN,0000,0000,0000,,He doesn't have a pedigree and \Ncan't perform any special tricks,
+Dialogue: 0,0:12:25.13,0:12:27.35,DCMain,CONAN,0000,0000,0000,,but considering Pan-kun's personality...
+Dialogue: 0,0:12:28.14,0:12:29.35,DCMain,HAIBARA,0000,0000,0000,,He ate something he shouldn't have?
+Dialogue: 0,0:12:29.74,0:12:35.58,DCMain,CONAN,0000,0000,0000,,But the items stolen from the jewelry store \Nweren't things that could be swallowed.
+Dialogue: 0,0:12:36.12,0:12:38.69,DCMain,HAIBARA,0000,0000,0000,,Then what do they want?
+Dialogue: 0,0:12:41.11,0:12:42.90,DCMain,AYUMI,0000,0000,0000,,Is something wrong, Pan-kun?
+Dialogue: 0,0:12:46.92,0:12:48.99,DCMain,GENTA,0000,0000,0000,,Pan-kun's escaped!
+Dialogue: 0,0:12:50.66,0:12:52.16,DCMain,SACHIKO,0000,0000,0000,,Pan!
+Dialogue: 0,0:12:58.01,0:12:59.09,DCMain,AYUMI,0000,0000,0000,,Pan-kun!
+Dialogue: 0,0:13:00.66,0:13:03.51,DCMain,SACHIKO,0000,0000,0000,,Pan-kun! Pan-kun!
+Dialogue: 0,0:13:03.51,0:13:06.75,DCMain,AYUMI,0000,0000,0000,,What are we doing to do? \NHe's been dognapped.
+Dialogue: 0,0:13:06.75,0:13:09.89,DCMain,MITSUHIKO,0000,0000,0000,,The thieves were after Pan-kun.
+Dialogue: 0,0:13:14.54,0:13:15.79,DCMain,CONAN,0000,0000,0000,,What's this?
+Dialogue: 0,0:13:17.27,0:13:18.84,DCMain,CONAN,0000,0000,0000,,It's apple pie.
+Dialogue: 0,0:13:24.51,0:13:25.80,DCMain,SACHIKO,0000,0000,0000,,Pan-kun...
+Dialogue: 0,0:13:27.99,0:13:30.74,DCMain,CHIBA,0000,0000,0000,,They say third time's the charm.
+Dialogue: 0,0:13:30.74,0:13:35.05,DCMain,TAKAGI,0000,0000,0000,,If they were that desperate to steal the dog,
+Dialogue: 0,0:13:35.05,0:13:38.08,DCMain,TAKAGI,0000,0000,0000,,then we should assume \Nhe swallowed the jewels.
+Dialogue: 0,0:13:38.08,0:13:41.46,DCMain,SACHIKO,0000,0000,0000,,Pan-kun! Oh, Pan-kun!
+Dialogue: 0,0:13:41.46,0:13:44.93,DCMain,TAKAGI,0000,0000,0000,,The culprits acquired what they wanted.
+Dialogue: 0,0:13:44.93,0:13:47.09,DCMain,TAKAGI,0000,0000,0000,,Your dog might be...
+Dialogue: 0,0:13:47.57,0:13:51.78,DCMain,SACHIKO,0000,0000,0000,,Pan-kun! What's going to happen to Pan-kun?!
+Dialogue: 0,0:13:52.26,0:13:56.94,DCMain,CHIBA,0000,0000,0000,,If the culprits suspect he \Nswallowed something, then...
+Dialogue: 0,0:13:56.94,0:14:01.02,DCMain,SACHIKO,0000,0000,0000,,You mean Pan-kun's not coming home? No...
+Dialogue: 0,0:14:01.68,0:14:03.19,DCMain,AYUMI,0000,0000,0000,,That won't happen.
+Dialogue: 0,0:14:03.19,0:14:04.09,DCMain,MITSUHIKO,0000,0000,0000,,Huh?
+Dialogue: 0,0:14:04.09,0:14:07.86,DCMain,AYUMI,0000,0000,0000,,Conan-kun will rescue Pan-kun. Right?
+Dialogue: 0,0:14:12.28,0:14:13.62,DCMain,CONAN,0000,0000,0000,,Oh, right.
+Dialogue: 0,0:14:13.62,0:14:16.01,DCMain,ALL,0000,0000,0000,,Conan-kun.
+Dialogue: 0,0:14:16.01,0:14:18.93,DCMain,CONAN,0000,0000,0000,,We shouldn't give up yet.
+Dialogue: 0,0:14:18.93,0:14:20.44,DCMain,AYUMI,0000,0000,0000,,You mean...
+Dialogue: 0,0:14:20.44,0:14:24.08,DCMain,CONAN,0000,0000,0000,,Detective Takagi, I'd like you \Nto look into something.
+Dialogue: 0,0:14:26.76,0:14:32.51,Vet,SIGN,0000,0000,0000,,Bow-meow Animal Hospital
+Dialogue: 0,0:14:28.92,0:14:32.51,DCMain,DIRECTOR,0000,0000,0000,,I don't see any foreign objects.
+Dialogue: 0,0:14:32.51,0:14:34.26,DCMain,CULPRIT A,0000,0000,0000,,That can't be!
+Dialogue: 0,0:14:34.26,0:14:36.52,DCMain,CULPRIT A,0000,0000,0000,,It should be in his stomach!
+Dialogue: 0,0:14:36.52,0:14:39.07,DCMain,DIRECTOR,0000,0000,0000,,You keep saying that, but...
+Dialogue: 0,0:14:39.07,0:14:43.04,DCMain,CULPRIT A,0000,0000,0000,,It should be inside this boy.
+Dialogue: 0,0:14:44.17,0:14:45.78,DCMain,CULPRIT A,0000,0000,0000,,What's going on?
+Dialogue: 0,0:14:46.22,0:14:48.61,DCMain,CONAN,0000,0000,0000,,Looks like you didn't \Nfind what you expected.
+Dialogue: 0,0:14:48.61,0:14:51.24,DCMain,CULPRIT A,0000,0000,0000,,What? You're that kid.
+Dialogue: 0,0:14:51.24,0:14:54.59,DCMain,CULPRIT A,0000,0000,0000,,How'd you know I was here?
+Dialogue: 0,0:14:54.59,0:14:57.59,DCMain,CONAN,0000,0000,0000,,Because you kept attacking her.
+Dialogue: 0,0:14:58.54,0:15:03.96,DCMain,CONAN,0000,0000,0000,,There was a reason you kept attacking her \Ndespite her being on her guard.
+Dialogue: 0,0:15:04.45,0:15:06.46,DCMain,CONAN,0000,0000,0000,,But no matter how much \NYamada-san thought about it,
+Dialogue: 0,0:15:06.46,0:15:09.22,DCMain,CONAN,0000,0000,0000,,she couldn't figure out \Nwhy she was being attacked.
+Dialogue: 0,0:15:09.22,0:15:11.28,DCMain,CONAN,0000,0000,0000,,So what if it was Pan-kun?
+Dialogue: 0,0:15:11.28,0:15:13.97,DCMain,CONAN,0000,0000,0000,,But we had nothing conclusive pointing to him.
+Dialogue: 0,0:15:14.37,0:15:19.01,DCMain,CONAN,0000,0000,0000,,That's when these attacks were \Nlinked to the jewelry store robbery
+Dialogue: 0,0:15:19.01,0:15:21.38,DCMain,CONAN,0000,0000,0000,,you and your accomplice \Ncommitted two days ago.
+Dialogue: 0,0:15:22.03,0:15:23.94,DCMain,CONAN,0000,0000,0000,,You have a dog and a jewel heist.
+Dialogue: 0,0:15:23.94,0:15:28.17,DCMain,CONAN,0000,0000,0000,,Anyone's first assumption would be \Nthat the dog ate the jewels,
+Dialogue: 0,0:15:28.17,0:15:33.30,DCMain,CONAN,0000,0000,0000,,but all the stolen jewels \Nwere too large to be stolen.
+Dialogue: 0,0:15:33.30,0:15:35.24,DCMain,CONAN,0000,0000,0000,,So was there something else?
+Dialogue: 0,0:15:35.72,0:15:39.03,DCMain,CONAN,0000,0000,0000,,Something you were willing \Nto take risks to acquire.
+Dialogue: 0,0:15:39.03,0:15:41.41,DCMain,CONAN,0000,0000,0000,,It's your knife, isn't it?
+Dialogue: 0,0:15:41.41,0:15:43.42,DCMain,CULPRIT A,0000,0000,0000,,H-How did you know that?!
+Dialogue: 0,0:15:43.77,0:15:47.91,DCMain,CONAN,0000,0000,0000,,The switchblade in the \Nsecurity camera footage
+Dialogue: 0,0:15:47.91,0:15:51.48,DCMain,CONAN,0000,0000,0000,,and the knife you used to \Nattack Pan-kun were different.
+Dialogue: 0,0:15:51.48,0:15:56.33,DCMain,CONAN,0000,0000,0000,,Also, the footage showed \Nyou cutting your own hand.
+Dialogue: 0,0:15:56.33,0:15:59.18,DCMain,CONAN,0000,0000,0000,,That means your blood is on the knife.
+Dialogue: 0,0:16:00.79,0:16:04.11,DCMain,CONAN,0000,0000,0000,,But the knife wasn't in Pan-kun's stomach.
+Dialogue: 0,0:16:04.50,0:16:06.44,DCMain,CONAN,0000,0000,0000,,Where could it have gone?
+Dialogue: 0,0:16:06.44,0:16:08.29,DCMain,CONAN,0000,0000,0000,,How strange.
+Dialogue: 0,0:16:08.29,0:16:10.44,DCMain,CULPRIT A,0000,0000,0000,,Who the hell are you?
+Dialogue: 0,0:16:10.44,0:16:12.65,DCMain,CULPRIT A,0000,0000,0000,,How do you know all that?
+Dialogue: 0,0:16:12.65,0:16:18.03,DCMain,CONAN,0000,0000,0000,,It wasn't me, it was the great detective \NKogoro-no-ojisan who figured it out.
+Dialogue: 0,0:16:18.50,0:16:20.54,DCMain,CHIBA,0000,0000,0000,,He's certainly a great detective.
+Dialogue: 0,0:16:21.05,0:16:26.94,DCMain,CONAN,0000,0000,0000,,Come to think of it, I hadn't told you yet \Nhow we knew you were here.
+Dialogue: 0,0:16:27.46,0:16:30.67,DCMain,CONAN,0000,0000,0000,,It's because you're a dog person.
+Dialogue: 0,0:16:30.67,0:16:32.92,DCMain,CULPRIT A,0000,0000,0000,,H-How do you know that?
+Dialogue: 0,0:16:32.92,0:16:35.88,DCMain,CONAN,0000,0000,0000,,You used a net for capturing animals.
+Dialogue: 0,0:16:35.88,0:16:40.20,DCMain,CONAN,0000,0000,0000,,You bought specialized equipment \Nso you wouldn't hurt the dog.
+Dialogue: 0,0:16:40.64,0:16:45.44,DCMain,CONAN,0000,0000,0000,,In other words, you never \Nintended to use violent methods.
+Dialogue: 0,0:16:45.92,0:16:51.94,DCMain,CONAN,0000,0000,0000,,You even used apple pie, Pan-kun's \Nfavorite food, to lure him to you.
+Dialogue: 0,0:16:52.32,0:16:55.50,DCMain,CONAN,0000,0000,0000,,You can imagine what a culprit would \Ndo with a dog after stealing him
+Dialogue: 0,0:16:55.50,0:16:58.68,DCMain,CONAN,0000,0000,0000,,if he thought he swallowed something.
+Dialogue: 0,0:16:58.68,0:17:01.04,DCMain,HAIBARA,0000,0000,0000,,An owner would take their dog \Nto the vet immediately
+Dialogue: 0,0:17:01.04,0:17:03.72,DCMain,HAIBARA,0000,0000,0000,,if they thought they swallowed something.
+Dialogue: 0,0:17:03.72,0:17:09.96,DCMain,CONAN,0000,0000,0000,,So we had the police look for an animal \Nhospital with a blue car parked outside of it.
+Dialogue: 0,0:17:10.38,0:17:12.91,DCMain,CULPRIT A,0000,0000,0000,,So you know everything, huh?
+Dialogue: 0,0:17:14.46,0:17:17.39,DCMain,CULPRIT A,0000,0000,0000,,Then did you expect this?
+Dialogue: 0,0:17:19.60,0:17:21.67,DCMain,CULPRIT A,0000,0000,0000,,Nobody move!
+Dialogue: 0,0:17:21.67,0:17:25.75,DCMain,CULPRIT A,0000,0000,0000,,You, officer! Get me a getaway car!
+Dialogue: 0,0:17:25.75,0:17:27.14,DCMain,TAKAGI,0000,0000,0000,,Don't do anything stupid!
+Dialogue: 0,0:17:27.14,0:17:29.48,DCMain,TAKAGI,0000,0000,0000,,You'll only regret this!
+Dialogue: 0,0:17:29.48,0:17:32.65,DCMain,CULPRIT A,0000,0000,0000,,Shut up! My life is full of regrets!
+Dialogue: 0,0:17:32.65,0:17:35.60,DCMain,CULPRIT A,0000,0000,0000,,I've been desperate from the start!
+Dialogue: 0,0:17:35.60,0:17:39.03,DCMain,CULPRIT A,0000,0000,0000,,I know, why don't you get me \Nsome getaway cash, too?
+Dialogue: 0,0:17:39.03,0:17:41.99,DCMain,CULPRIT A,0000,0000,0000,,A million yen in cash, with \Nnon-sequential serial numbers!
+Dialogue: 0,0:17:42.29,0:17:45.52,DCMain,GENTA,0000,0000,0000,,I feel like I've heard all those lines before.
+Dialogue: 0,0:17:45.52,0:17:48.75,DCMain,MITSUHIKO,0000,0000,0000,,He watches too many cop dramas.
+Dialogue: 0,0:17:48.75,0:17:50.21,DCMain,CULPRIT A,0000,0000,0000,,Hurry up!
+Dialogue: 0,0:17:55.40,0:17:57.04,DCMain,AYUMI,0000,0000,0000,,He ran away again.
+Dialogue: 0,0:17:58.75,0:18:01.88,DCMain,CULPRIT A,0000,0000,0000,,Come on, officer. Give me your keys.
+Dialogue: 0,0:18:01.88,0:18:03.89,DCMain,CULPRIT A,0000,0000,0000,,And I want everyone outside.
+Dialogue: 0,0:18:13.19,0:18:15.03,DCFlashbackItalics,SACHIKO,0000,0000,0000,,You're such a good boy, Pan-kun.
+Dialogue: 0,0:18:17.66,0:18:20.16,DCMain,CULPRIT A,0000,0000,0000,,Don't do anything stupid.
+Dialogue: 0,0:18:21.22,0:18:24.66,DCItalic,CONAN,0000,0000,0000,,I can't use my tranquilizer \Nwatch with these two around.
+Dialogue: 0,0:18:24.66,0:18:26.02,DCItalic,CONAN,0000,0000,0000,,What should I do?
+Dialogue: 0,0:18:29.47,0:18:30.57,DCMain,ALL,0000,0000,0000,,Pan-kun!
+Dialogue: 0,0:18:30.57,0:18:31.63,DCMain,AYUMI,0000,0000,0000,,He's back.
+Dialogue: 0,0:18:32.31,0:18:35.42,DCMain,CULPRIT A,0000,0000,0000,,Quit it! Stop! Down!
+Dialogue: 0,0:18:35.78,0:18:38.22,DCMain,CULPRIT A,0000,0000,0000,,Be a good boy! Down!
+Dialogue: 0,0:18:40.30,0:18:41.73,DCMain,GENTA,0000,0000,0000,,All right!
+Dialogue: 0,0:18:41.73,0:18:42.72,DCMain,CONAN,0000,0000,0000,,Detective Takagi.
+Dialogue: 0,0:18:42.72,0:18:44.01,DCMain,TAKAGI,0000,0000,0000,,Got it.
+Dialogue: 0,0:18:48.61,0:18:53.88,DCMain,TAKAGI,0000,0000,0000,,By the way, I love dogs, too!
+Dialogue: 0,0:18:56.54,0:19:00.20,DCMain,CHIBA,0000,0000,0000,,Thief apprehended red-handed at 14:53.
+Dialogue: 0,0:19:01.27,0:19:03.86,DCMain,CHIBA,0000,0000,0000,,By the way, I'm a cat person.
+Dialogue: 0,0:19:03.86,0:19:05.86,DCMain,HAIBARA,0000,0000,0000,,Nobody asked.
+Dialogue: 0,0:19:10.09,0:19:12.40,DCMain,SACHIKO,0000,0000,0000,,Good boy, Pan-kun.
+Dialogue: 0,0:19:13.46,0:19:16.64,DCMain,AYUMI,0000,0000,0000,,Wow, Pan-kun. You did great.
+Dialogue: 0,0:19:16.64,0:19:18.15,DCMain,SACHIKO,0000,0000,0000,,I told you so.
+Dialogue: 0,0:19:18.15,0:19:20.71,DCMain,SACHIKO,0000,0000,0000,,My dog is a very good boy.
+Dialogue: 0,0:19:21.72,0:19:26.68,DCMain,CHIBA,0000,0000,0000,,Could you ask him to let \Ngo of that shoe, then?
+Dialogue: 0,0:19:26.68,0:19:28.73,DCMain,CHIBA,0000,0000,0000,,That's evidence.
+Dialogue: 0,0:19:28.73,0:19:30.38,DCMain,SACHIKO,0000,0000,0000,,Come on, Pan-kun.
+Dialogue: 0,0:19:30.38,0:19:32.76,DCMain,SACHIKO,0000,0000,0000,,Be a good boy and let go of the shoe.
+Dialogue: 0,0:19:33.16,0:19:34.02,DCMain,SACHIKO,0000,0000,0000,,Come on.
+Dialogue: 0,0:19:35.53,0:19:39.04,DCMain,SACHIKO,0000,0000,0000,,Come on, Pan-kun. Be a good boy.
+Dialogue: 0,0:19:39.04,0:19:42.05,DCMain,GENTA,0000,0000,0000,,He's definitely not letting go.
+Dialogue: 0,0:19:43.32,0:19:45.66,DCMain,AYUMI,0000,0000,0000,,Pan-kun never changes.
+Dialogue: 0,0:19:45.66,0:19:48.71,DCMain,MITSUHIKO,0000,0000,0000,,That's case closed.
+Dialogue: 0,0:19:48.71,0:19:50.51,DCMain,CONAN,0000,0000,0000,,No, not yet.
+Dialogue: 0,0:20:00.37,0:20:02.17,DCMain,GENTA,0000,0000,0000,,What's he doing?
+Dialogue: 0,0:20:02.17,0:20:03.93,DCMain,CONAN,0000,0000,0000,,Just watch.
+Dialogue: 0,0:20:12.50,0:20:13.69,DCMain,BOTH,0000,0000,0000,,What's that?
+Dialogue: 0,0:20:13.69,0:20:15.43,DCMain,AYUMI,0000,0000,0000,,It's a bunch of junk.
+Dialogue: 0,0:20:15.43,0:20:17.94,DCMain,GENTA,0000,0000,0000,,But to Pan-kun, they're treasures.
+Dialogue: 0,0:20:18.31,0:20:19.69,DCMain,HAIBARA,0000,0000,0000,,So you knew.
+Dialogue: 0,0:20:19.69,0:20:22.45,Post2,SIGN,0000,0000,0000,,He's learned to destroy \NDaddy's pillow [heart] \NNice work, Pan-kun
+Dialogue: 0,0:20:19.69,0:20:25.20,DCMain,CONAN,0000,0000,0000,,Yeah, because there were photos of him \Nstealing shoes and digging holes on social media.
+Dialogue: 0,0:20:25.59,0:20:29.38,DCMain,CONAN,0000,0000,0000,,And Yamada-san's yard had a wooden floor.
+Dialogue: 0,0:20:29.38,0:20:32.46,DCMain,CONAN,0000,0000,0000,,I figured you installed it to stop Pan-kun.
+Dialogue: 0,0:20:32.82,0:20:34.96,DCMain,SACHIKO,0000,0000,0000,,Wow, how did you know?
+Dialogue: 0,0:20:34.96,0:20:40.23,DCMain,CONAN,0000,0000,0000,,Pan-kun would dig holes elsewhere \Nonce he couldn't dig holes in the yard.
+Dialogue: 0,0:20:40.23,0:20:42.49,DCMain,HAIBARA,0000,0000,0000,,And he chose this park.
+Dialogue: 0,0:20:42.49,0:20:43.94,DCMain,CONAN,0000,0000,0000,,That's right.
+Dialogue: 0,0:20:52.10,0:20:53.10,DCMain,CONAN,0000,0000,0000,,Let's go.
+Dialogue: 0,0:20:56.05,0:20:57.61,DCMain,MITSUHIKO,0000,0000,0000,,There's no knife.
+Dialogue: 0,0:20:57.61,0:20:59.03,DCMain,AYUMI,0000,0000,0000,,Look.
+Dialogue: 0,0:21:07.80,0:21:08.88,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:21:10.24,0:21:11.62,DCMain,HAIBARA,0000,0000,0000,,It's not here.
+Dialogue: 0,0:21:15.99,0:21:17.77,DCMain,SACHIKO,0000,0000,0000,,Pan-kun, come here.
+Dialogue: 0,0:21:20.27,0:21:21.87,DCMain,MITSUHIKO,0000,0000,0000,,We found it.
+Dialogue: 0,0:21:21.87,0:21:23.54,DCMain,HAIBARA,0000,0000,0000,,Looks like the knife in question.
+Dialogue: 0,0:21:23.54,0:21:26.32,DCMain,CONAN,0000,0000,0000,,Third time's the charm again.
+Dialogue: 0,0:21:27.13,0:21:28.33,DCMain,CONAN,0000,0000,0000,,Okay.
+Dialogue: 0,0:21:29.10,0:21:30.68,DCMain,AYUMI,0000,0000,0000,,Dig here, doggy.
+Dialogue: 0,0:21:30.68,0:21:34.03,DCMain,HAIBARA,0000,0000,0000,,This dog's always causing trouble.
+Dialogue: 0,0:21:36.39,0:21:39.95,DCMain,CONAN,0000,0000,0000,,Later, the knife was collected as evidence,
+Dialogue: 0,0:21:36.39,0:21:42.15,Tanaka,SIGN,0000,0000,0000,,Tanaka Ichiro (24) Unemployed
+Dialogue: 0,0:21:40.32,0:21:45.99,DCMain,CONAN,0000,0000,0000,,and all the stolen jewels were found \Nat the culprit Tanaka Ichiro's home.
+Dialogue: 0,0:23:07.92,0:23:10.90,DCMain,ALL,0000,0000,0000,,Awoo!
+Dialogue: 0,0:23:11.50,0:23:12.95,DCMain,HAIBARA,0000,0000,0000,,Look at this.
+Dialogue: 0,0:23:12.95,0:23:13.74,DCMain,CONAN,0000,0000,0000,,Huh?
+Dialogue: 0,0:23:13.74,0:23:15.12,Post3,SIGN,0000,0000,0000,,Pan-kun is a Good Boy.
+Dialogue: 0,0:23:13.74,0:23:21.00,Post3,SIGN,0000,0000,0000,,Wow, genius dog! \NSo cute! Pan-kun is great \NWhat?! He attacked a \Nknife-wielding criminal!!?
+Dialogue: 0,0:23:14.41,0:23:15.75,DCMain,CONAN,0000,0000,0000,,What is this?
+Dialogue: 0,0:23:15.13,0:23:20.37,Comment#,SIGN,0000,0000,0000,,Comments
+Dialogue: 0,0:23:15.75,0:23:21.00,DCMain,HAIBARA,0000,0000,0000,,People are calling him the great dog \Nwho solved a tough case.
+Dialogue: 0,0:23:16.45,0:23:21.00,Post4,SIGN,0000,0000,0000,,So cool \NNice [heart] \NSuper awesome \NPan-kun the Great
+Dialogue: 0,0:23:22.77,0:23:25.00,DCMain,CONAN,0000,0000,0000,,They're calling that Pan-kun great?
+Dialogue: 0,0:23:25.44,0:23:28.76,DCMain,HAIBARA,0000,0000,0000,,Well, it's true that he helped.
+Dialogue: 0,0:23:28.76,0:23:34.96,DCMain,CONAN,0000,0000,0000,,It's not clear if he was helping the vet \Nor just wanted the shoe, though.
+Dialogue: 0,0:23:34.96,0:23:38.02,DCMain,SACHIKO,0000,0000,0000,,My Pan-kun is a good boy.
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.50,0:23:48.03,DCMain,ASCOT CHEF,0000,0000,0000,,Bon appetite.
+Dialogue: 0,0:23:50.28,0:23:54.29,DCMain,WOMAN CHEF,0000,0000,0000,,To you, this might be \Na dingy old-fashioned alley,
+Dialogue: 0,0:23:54.29,0:23:56.78,DCMain,WOMAN CHEF,0000,0000,0000,,but it's an important place to us.
+Dialogue: 0,0:23:59.65,0:24:00.54,DCMain,KOGORO,0000,0000,0000,,Whoa!
+Dialogue: 0,0:24:02.52,0:24:04.67,DCMain,CONAN,0000,0000,0000,,This wasn't an accident.
+Dialogue: 0,0:24:04.67,0:24:07.17,DCMain,CONAN,0000,0000,0000,,It was a crime targeting Kusumi-san.
+Dialogue: 0,0:24:07.98,0:24:09.05,DCMain,KOGORO,0000,0000,0000,,What?!
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,SIGN,0000,0000,0000,,The Alley of Sad Betrayal
+Dialogue: 0,0:24:09.59,0:24:14.09,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Alley of Sad Betrayal!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,SIGN,0000,0000,0000,,Medals
+Dialogue: 0,0:24:30.39,0:24:32.67,DCMain,HAIBARA,0000,0000,0000,,Next Conan's hint.
+Dialogue: 0,0:24:32.67,0:24:34.34,DCMain,CONAN,0000,0000,0000,,Medals!
+Dialogue: 0,0:24:34.99,0:24:37.10,DCMain,CONAN,0000,0000,0000,,{\an8}We have Pan-kun to thank \Nfor solving this case.
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:37.10,0:24:38.70,DCMain,HAIBARA,0000,0000,0000,,{\an8}What a good boy.
+Dialogue: 0,0:24:38.70,0:24:39.95,DCMain,CONAN,0000,0000,0000,,{\an8}Shut up.

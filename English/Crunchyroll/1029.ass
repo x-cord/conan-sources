@@ -1,0 +1,404 @@
+[Script Info]
+Title: English (US)
+Original Script: TMS  [http://www.crunchyroll.com/user/TMS]
+Original Translation: 
+Original Editing: 
+Original Timing: 
+Synch Point: 
+Script Updated By: 
+Update Details: 
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 640
+PlayResY: 360
+Timer: 0.0000
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,Strikeout,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0010,0010,0010,1
+Style: DCMain,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCItalic,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,2,0020,0020,0018,0
+Style: DCNote,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+Style: DCEpTitle,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H00FCFFFF,&H00D4A947,-1,0,0,0,100,100,0,0,1,0,0,8,0010,0010,0050,1
+Style: DCEpPreview,Trebuchet MS,19,&H00CECECE,&H000000FF,&H00717375,&H00D4A947,-1,0,0,0,100,100,0,0,1,1,0,7,0032,0010,0050,1
+Style: DCNextEp,Trebuchet MS,24,&H00FFFFFF,&H000000FF,&H005C685F,&H00D4A947,-1,0,0,0,100,100,0,0,1,2,0,8,0010,0010,0110,1
+Style: Hint,Trebuchet MS,22,&H00151622,&H000000FF,&H00F0F6FE,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0010,0010,0120,0
+Style: Don'tMiss,Trebuchet MS,22,&H00FFFFFF,&H000000FF,&H00000000,&H00FFFFFF,0,0,0,0,100,100,0,0,1,2,1,2,0010,0040,0050,0
+Style: SeveralYears,Trebuchet MS,18,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,0020,0020,0100,0
+Style: Furuya,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00924F53,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0060,0020,0045,0
+Style: Matsuda,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00995561,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0045,0
+Style: Morofushi,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H006C2A2B,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0260,0045,0
+Style: Academy,Trebuchet MS,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0020,0065,0
+Style: Onizuka,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00B26A6A,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0030,0062,0
+Style: Date,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H00883943,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0185,0045,0
+Style: Hajiwara,Trebuchet MS,16,&H00FFFFFF,&H000000FF,&H0065262E,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0255,0045,0
+Style: Instructor,Trebuchet MS,16,&H00191A14,&H000000FF,&H00FAFBF4,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,0020,0080,0150,0
+Style: Headline,Trebuchet MS,22,&H00B2A596,&H000000FF,&H00562C1A,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: Reference,Trebuchet MS,22,&H000D1211,&H000000FF,&H00869699,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,0020,0100,0018,0
+Style: CaseFile1,Times New Roman,22,&H006B3524,&H000000FF,&H00F3EDE9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0018,0
+Style: CaseFile2,Times New Roman,14,&H006B3524,&H000000FF,&H00F3EDE9,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,0020,0020,0045,0
+Style: AcademyArc,Times New Roman,22,&H00951F0B,&H000000FF,&H00FFF9F6,&H00000000,-1,-1,0,0,100,100,0,0,1,2,0,8,0020,0020,0018,0
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,MATSUDA,0000,0000,0000,,[Eyecatch]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,,0000,0000,0000,,Detective Conan Episode 1029 "Police Academy \NArc Wild Police Story CASE. Matsuda Jinpei"
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,SIGN,0000,0000,0000,,[OP]
+Dialogue: 0,0:00:00.00,0:00:00.00,DCMain,DATE,0000,0000,0000,,[ED]
+Dialogue: 0,0:00:02.16,0:00:06.23,DCItalic,CONAN,0000,0000,0000,,Spring, the season when new things begin.
+Dialogue: 0,0:00:06.68,0:00:12.94,DCItalic,CONAN,0000,0000,0000,,This is the story of a group of new police \Nrecruits who joined the academy in the spring.
+Dialogue: 0,0:00:15.83,0:00:18.99,SeveralYears,SIGN,0000,0000,0000,,{\fad(920,1)}Several Years Earlier
+Dialogue: 0,0:00:43.59,0:00:49.31,DCMain,FURUYA,0000,0000,0000,,{\an8}I'm surprised you're still \Nstanding after taking my punches.
+Dialogue: 0,0:00:47.10,0:00:49.94,Furuya,SIGN,0000,0000,0000,,{\fad(250,1)}Furuya Rei (22)
+Dialogue: 0,0:00:53.53,0:00:55.45,Matsuda,SIGN,0000,0000,0000,,{\fad(250,1)}Matsuda Jinpei (22)
+Dialogue: 0,0:00:53.64,0:00:56.01,DCMain,MATSUDA,0000,0000,0000,,{\an8}I could say the same thing.
+Dialogue: 0,0:00:59.94,0:01:01.37,DCMain,MATSUDA,0000,0000,0000,,Blondie!
+Dialogue: 0,0:01:10.57,0:01:13.39,DCMain,FURUYA,0000,0000,0000,,I don't know what it is about \Nme that you don't like,
+Dialogue: 0,0:01:13.39,0:01:16.88,DCMain,FURUYA,0000,0000,0000,,but I have to become a police officer.
+Dialogue: 0,0:01:17.27,0:01:18.89,DCMain,FURUYA,0000,0000,0000,,Don't get in my way.
+Dialogue: 0,0:01:19.09,0:01:20.76,DCMain,MATSUDA,0000,0000,0000,,There it is.
+Dialogue: 0,0:01:21.13,0:01:25.77,DCMain,MATSUDA,0000,0000,0000,,That I-love-cops attitude \Nis what I hate about you.
+Dialogue: 0,0:01:26.00,0:01:27.82,DCMain,FURUYA,0000,0000,0000,,That's ridiculous.
+Dialogue: 0,0:01:27.82,0:01:32.82,DCMain,FURUYA,0000,0000,0000,,You joined this academy so you \Ncould become a police officer, too.
+Dialogue: 0,0:02:08.45,0:02:10.78,DCMain,MOROFUSHI,0000,0000,0000,,{\an8}Who could it be at this hour?
+Dialogue: 0,0:02:08.48,0:02:11.94,Morofushi,SIGN,0000,0000,0000,,Morofushi Hiromitsu (22)
+Dialogue: 0,0:02:10.78,0:02:12.52,DCMain,MOROFUSHI,0000,0000,0000,,{\an8}It's two in the morning.
+Dialogue: 0,0:02:14.84,0:02:16.94,DCMain,MOROFUSHI,0000,0000,0000,,Huh? There's nobody here.
+Dialogue: 0,0:02:20.11,0:02:22.59,DCMain,MOROFUSHI,0000,0000,0000,,Huh? Z-Zero?
+Dialogue: 0,0:02:22.59,0:02:27.38,DCMain,FURUYA,0000,0000,0000,,Sorry, Hiro. I ran out of band-aids.
+Dialogue: 0,0:02:27.38,0:02:29.67,DCMain,FURUYA,0000,0000,0000,,If you've got any, could \Nyou share some with me?
+Dialogue: 0,0:02:30.14,0:02:32.36,DCMain,MOROFUSHI,0000,0000,0000,,H-How'd you get those injuries?
+Dialogue: 0,0:02:32.36,0:02:35.01,DCMain,FURUYA,0000,0000,0000,,Someone picked a fight \Nwith me, so I fought back.
+Dialogue: 0,0:02:35.01,0:02:37.24,DCMain,MOROFUSHI,0000,0000,0000,,They really got you good.
+Dialogue: 0,0:02:37.94,0:02:40.90,DCMain,MOROFUSHI,0000,0000,0000,,So, think you'll be able \Nto get along with them?
+Dialogue: 0,0:02:40.90,0:02:43.20,DCMain,FURUYA,0000,0000,0000,,What? You must be joking.
+Dialogue: 0,0:02:43.20,0:02:45.80,DCMain,MOROFUSHI,0000,0000,0000,,Wait in my room.
+Dialogue: 0,0:02:45.80,0:02:47.64,DCMain,MOROFUSHI,0000,0000,0000,,I'll go get the medicine \Nbox from the infirmary.
+Dialogue: 0,0:02:48.92,0:02:51.33,DCMain,FURUYA,0000,0000,0000,,Thanks. I owe you one.
+Dialogue: 0,0:03:02.97,0:03:04.41,DCMain,CONAN,0000,0000,0000,,Finally arriving after \Nswaying back and forth,
+Dialogue: 0,0:03:04.57,0:03:06.54,DCMain,CONAN,0000,0000,0000,,draw close to mysteries and \Nbegin deducing the truth!
+Dialogue: 0,0:03:06.54,0:03:08.24,DCMain,CONAN,0000,0000,0000,,This is the adolescence of \NAmuro Toru and his friends,
+Dialogue: 0,0:03:08.24,0:03:09.91,DCMain,CONAN,0000,0000,0000,,and the story of their unbreakable bond!
+Dialogue: 0,0:03:09.91,0:03:11.54,DCMain,CONAN,0000,0000,0000,,Always determining the one truth
+Dialogue: 0,0:03:11.54,0:03:13.26,DCMain,CONAN,0000,0000,0000,,with the body of a child \Nand the mind of an adult,
+Dialogue: 0,0:03:12.33,0:03:17.50,AcademyArc,SIGN,0000,0000,0000,,{\fad(210,1)}Police Academy Arc
+Dialogue: 0,0:03:13.26,0:03:15.86,DCMain,CONAN,0000,0000,0000,,his name is Detective Conan!
+Dialogue: 0,0:04:48.01,0:04:54.02,DCEpTitle,EPTITLE,0000,0000,0000,,{\fad(403,1)}Police Academy Arc Wild Police Story \NCASE. Matsuda Jinpei
+Dialogue: 0,0:04:48.49,0:04:53.34,DCMain,CONAN,0000,0000,0000,,"Police Academy Arc Wild Police \NStory CASE. Matsuda Jinpei!"
+Dialogue: 0,0:04:55.06,0:04:58.15,Academy,SIGN,0000,0000,0000,,{\fad(460,460)}Metropolitan Police Department Police Academy
+Dialogue: 0,0:04:56.04,0:04:58.14,DCItalic,CONAN,0000,0000,0000,,{\an8}The Metropolitan Police \NDepartment Police Academy.
+Dialogue: 0,0:04:58.86,0:05:02.48,DCItalic,CONAN,0000,0000,0000,,Welcoming new students primarily \Nin April and October,
+Dialogue: 0,0:05:02.48,0:05:08.53,DCItalic,CONAN,0000,0000,0000,,it's a vocational school where roughly 1,200 \Nstudents annually receive instruction and training,
+Dialogue: 0,0:05:08.80,0:05:10.93,DCItalic,CONAN,0000,0000,0000,,in order to become fully-fledged \Nlaw enforcement officers.
+Dialogue: 0,0:05:11.88,0:05:14.04,DCMain,DATE,0000,0000,0000,,Assemble in three columns!
+Dialogue: 0,0:05:14.69,0:05:18.19,DCMain,DATE,0000,0000,0000,,Onizuka's class, attention!
+Dialogue: 0,0:05:19.92,0:05:23.05,Onizuka,SIGN,0000,0000,0000,,{\fad(250,1)}Onizuka Hachizo (48) \NRookie Class Instructor
+Dialogue: 0,0:05:21.65,0:05:24.93,DCMain,ONIZUKA,0000,0000,0000,,{\an8}What happened to your \Nfaces, Matsuda and Furuya?
+Dialogue: 0,0:05:24.93,0:05:26.26,DCMain,MATSUDA,0000,0000,0000,,You wanna hear the story?
+Dialogue: 0,0:05:26.43,0:05:29.14,DCMain,ONIZUKA,0000,0000,0000,,Yes, I'd love to hear it.
+Dialogue: 0,0:05:29.97,0:05:33.39,Date,SIGN,0000,0000,0000,,{\fad(250,460)}Date Wataru (22)
+Dialogue: 0,0:05:30.24,0:05:34.52,DCMain,DATE,0000,0000,0000,,{\an8}Last night, a bunch of cockroaches \Nappeared in the room.
+Dialogue: 0,0:05:34.82,0:05:38.90,DCMain,DATE,0000,0000,0000,,They were so caught up in exterminating \Nthem that they hit their heads on desks.
+Dialogue: 0,0:05:39.17,0:05:41.32,DCMain,DATE,0000,0000,0000,,They had a terrible time.
+Dialogue: 0,0:05:41.60,0:05:43.53,DCMain,ONIZUKA,0000,0000,0000,,I see. However—
+Dialogue: 0,0:05:43.74,0:05:48.76,DCMain,DATE,0000,0000,0000,,That said, as punishment for \Ndamaging school furnishings,
+Dialogue: 0,0:05:48.76,0:05:52.17,DCMain,DATE,0000,0000,0000,,Onizuka's class will run an extra lap.
+Dialogue: 0,0:05:52.17,0:05:53.12,DCMain,DATE,0000,0000,0000,,Let's go.
+Dialogue: 0,0:05:53.12,0:05:53.86,DCMain,BOTH,0000,0000,0000,,Got it.
+Dialogue: 0,0:05:54.62,0:05:55.62,DCMain,ONIZUKA,0000,0000,0000,,Hey, wait.
+Dialogue: 0,0:05:55.62,0:05:58.04,DCMain,ONIZUKA,0000,0000,0000,,Two columns. Start running.
+Dialogue: 0,0:05:58.04,0:05:59.63,DCMain,ONIZUKA,0000,0000,0000,,Wait. I'm not done talking to you.
+Dialogue: 0,0:06:02.17,0:06:03.67,DCMain,HAGIWARA,0000,0000,0000,,Hey, Jinpei-chan.
+Dialogue: 0,0:06:03.86,0:06:05.52,DCMain,HAGIWARA,0000,0000,0000,,{\an8}What happened to your face?
+Dialogue: 0,0:06:03.96,0:06:07.42,Hajiwara,SIGN,0000,0000,0000,,{\fad(250,1)}Hagiwara Kenji (22)
+Dialogue: 0,0:06:05.52,0:06:07.98,DCMain,HAGIWARA,0000,0000,0000,,{\an8}You've ruined your good looks.
+Dialogue: 0,0:06:07.98,0:06:09.46,DCMain,MATSUDA,0000,0000,0000,,Shut up, Hagi.
+Dialogue: 0,0:06:09.46,0:06:13.75,DCMain,HAGIWARA,0000,0000,0000,,You even lost your false \Ntooth. It's hilarious.
+Dialogue: 0,0:06:14.64,0:06:17.10,DCMain,HAGIWARA,0000,0000,0000,,That Furuya guy's pretty tough.
+Dialogue: 0,0:06:17.43,0:06:21.86,DCMain,HAGIWARA,0000,0000,0000,,He put up quite a fight, and you \Nwere trained by your pro boxer dad.
+Dialogue: 0,0:06:22.09,0:06:24.61,DCMain,HAGIWARA,0000,0000,0000,,So, who won?
+Dialogue: 0,0:06:25.68,0:06:26.99,DCMain,MATSUDA,0000,0000,0000,,Well, obviously...
+Dialogue: 0,0:06:27.31,0:06:28.42,DCMain,BOTH,0000,0000,0000,,I did.
+Dialogue: 0,0:06:28.94,0:06:33.19,DCMain,MATSUDA,0000,0000,0000,,What? Are you sure getting hit too many \Ntimes didn't make you lose your mind?
+Dialogue: 0,0:06:33.19,0:06:34.58,DCMain,FURUYA,0000,0000,0000,,Are you talking about yourself?
+Dialogue: 0,0:06:34.58,0:06:36.24,DCMain,MATSUDA,0000,0000,0000,,What was that?
+Dialogue: 0,0:06:36.73,0:06:39.62,DCMain,DATE,0000,0000,0000,,I don't know what happened between you guys,
+Dialogue: 0,0:06:40.20,0:06:42.66,DCMain,DATE,0000,0000,0000,,but invite me to join you next time.
+Dialogue: 0,0:06:43.51,0:06:45.38,DCMain,ONIZUKA,0000,0000,0000,,Hey, idiots!
+Dialogue: 0,0:06:45.38,0:06:47.29,DCMain,ONIZUKA,0000,0000,0000,,You'd better be running properly!
+Dialogue: 0,0:06:47.29,0:06:55.64,DCMain,ALL,0000,0000,0000,,{\an8}One, two. One, two. One, two.
+Dialogue: 0,0:06:47.75,0:06:52.89,DCMain,INSTRUCTOR,0000,0000,0000,,Instructor Onizuka, you've taken \Non some troublesome students.
+Dialogue: 0,0:06:52.89,0:06:55.64,DCMain,INSTRUCTOR,0000,0000,0000,,Not only that, but five at once.
+Dialogue: 0,0:06:55.92,0:06:56.85,DCMain,ONIZUKA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:06:57.67,0:07:00.00,DCMain,ONIZUKA,0000,0000,0000,,I drew the short end of the stick this time.
+Dialogue: 0,0:07:00.00,0:07:02.77,DCMain,ONIZUKA,0000,0000,0000,,They're a peculiar bunch.
+Dialogue: 0,0:07:03.41,0:07:05.40,DCMain,ONIZUKA,0000,0000,0000,,With A's in all subjects,
+Dialogue: 0,0:07:05.40,0:07:10.22,DCMain,ONIZUKA,0000,0000,0000,,he entered the academy with exceptional grades \Nunprecedented even in the academy's long history.
+Dialogue: 0,0:07:10.22,0:07:14.95,DCMain,ONIZUKA,0000,0000,0000,,Perhaps because of his overly \Nserious attitude and hair,
+Dialogue: 0,0:07:14.95,0:07:18.04,DCMain,ONIZUKA,0000,0000,0000,,class representative Furuya can't stop \Ngetting into fights with other students.
+Dialogue: 0,0:07:18.56,0:07:23.92,DCMain,ONIZUKA,0000,0000,0000,,Morofushi, whose older brother is an \Nexcellent officer with the Nagano police,
+Dialogue: 0,0:07:23.92,0:07:27.80,DCMain,ONIZUKA,0000,0000,0000,,has a strong sense of justice but is \Nstill traumatized by his parents' case.
+Dialogue: 0,0:07:28.62,0:07:33.47,DCMain,ONIZUKA,0000,0000,0000,,Second to Furuya in overall ability, \NDate has leadership qualities,
+Dialogue: 0,0:07:33.47,0:07:37.31,DCMain,ONIZUKA,0000,0000,0000,,but can't let go of his father's \Nretirement from the force.
+Dialogue: 0,0:07:37.66,0:07:42.75,DCMain,ONIZUKA,0000,0000,0000,,Hagiwara has exceptional observational \Nand communication skills,
+Dialogue: 0,0:07:42.75,0:07:47.82,DCMain,ONIZUKA,0000,0000,0000,,but he only uses them to chase skirts.
+Dialogue: 0,0:07:48.24,0:07:49.93,DCMain,ONIZUKA,0000,0000,0000,,Finally, there's Matsuda.
+Dialogue: 0,0:07:49.93,0:07:52.77,DCMain,ONIZUKA,0000,0000,0000,,He made up for his poor interview \Nwith his studies, practical skills,
+Dialogue: 0,0:07:52.77,0:07:56.39,DCMain,ONIZUKA,0000,0000,0000,,and high level of specialized knowledge,
+Dialogue: 0,0:07:56.39,0:08:00.83,DCMain,ONIZUKA,0000,0000,0000,,but his outrageous behavior and \Nlack of cooperativeness are fatal.
+Dialogue: 0,0:08:02.94,0:08:05.11,DCMain,ONIZUKA,0000,0000,0000,,I'm worried about the future.
+Dialogue: 0,0:08:05.84,0:08:11.59,DCMain,ONIZUKA,0000,0000,0000,,Anyway, police gather eyewitness information \Nfrom the area around the crime scene.
+Dialogue: 0,0:08:11.59,0:08:15.34,Instructor,SIGN,0000,0000,0000,,{\fnTimesNewRoman\fs22\bord2\shad0\frz5.427\c&H171708&\3c&HFFFFFA&\pos(295,208)\blur1}Instructor Onizuka
+Dialogue: 0,0:08:11.86,0:08:15.34,DCMain,ONIZUKA,0000,0000,0000,,Does anyone know what you should \Nbe careful of while doing this?
+Dialogue: 0,0:08:15.65,0:08:16.25,DCMain,FURUYA,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:08:16.82,0:08:18.69,DCMain,ONIZUKA,0000,0000,0000,,Tell me, Furuya.
+Dialogue: 0,0:08:18.69,0:08:19.47,DCMain,FURUYA,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:08:20.04,0:08:22.53,DCMain,FURUYA,0000,0000,0000,,It's important to note that \Nwith eyewitness information,
+Dialogue: 0,0:08:22.53,0:08:25.73,DCMain,FURUYA,0000,0000,0000,,the stress of being present \Nduring a crime, preconceptions,
+Dialogue: 0,0:08:25.99,0:08:31.82,DCMain,FURUYA,0000,0000,0000,,or leading questions from the police \Ncan twist a witness' testimony.
+Dialogue: 0,0:08:32.44,0:08:35.41,DCMain,FURUYA,0000,0000,0000,,Because of this, rather than \Nblindly believing their testimony,
+Dialogue: 0,0:08:35.41,0:08:37.93,DCMain,FURUYA,0000,0000,0000,,it's necessary to obtain supporting evidence.
+Dialogue: 0,0:08:37.93,0:08:40.49,DCMain,ONIZUKA,0000,0000,0000,,Exactly. Impressive as always, Furuya.
+Dialogue: 0,0:08:40.68,0:08:43.50,DCMain,MATSUDA,0000,0000,0000,,It's questionable if this academy's graduates
+Dialogue: 0,0:08:43.50,0:08:47.69,DCMain,MATSUDA,0000,0000,0000,,are actually capable of doing that.
+Dialogue: 0,0:08:47.69,0:08:49.22,DCMain,ONIZUKA,0000,0000,0000,,Hey, Matsuda!
+Dialogue: 0,0:08:49.22,0:08:52.13,DCMain,ONIZUKA,0000,0000,0000,,What do you think the police are?
+Dialogue: 0,0:08:52.55,0:08:54.30,DCMain,MATSUDA,0000,0000,0000,,Well, obviously...
+Dialogue: 0,0:08:54.74,0:08:58.55,DCMain,MATSUDA,0000,0000,0000,,They serve the people with \Na sense of pride and duty,
+Dialogue: 0,0:08:58.92,0:09:03.68,DCMain,MATSUDA,0000,0000,0000,,respect human rights, justly and \Nconsiderately carry out their duties,
+Dialogue: 0,0:09:04.14,0:09:07.85,DCMain,MATSUDA,0000,0000,0000,,fairly uphold the law, \Nstrengthen cooperation,
+Dialogue: 0,0:09:08.19,0:09:13.15,DCMain,MATSUDA,0000,0000,0000,,cultivate their character, raise their \Nskills, work on improving themselves,
+Dialogue: 0,0:09:13.38,0:09:17.59,DCMain,MATSUDA,0000,0000,0000,,and maintain a lifestyle of \Nintegrity and reliability.
+Dialogue: 0,0:09:17.59,0:09:20.53,DCMain,MATSUDA,0000,0000,0000,,That's what police officers do, right?
+Dialogue: 0,0:09:21.87,0:09:23.56,DCMain,ONIZUKA,0000,0000,0000,,As long as you understand.
+Dialogue: 0,0:09:24.14,0:09:26.54,DCMain,ONIZUKA,0000,0000,0000,,That's all for today's lecture.
+Dialogue: 0,0:09:26.91,0:09:29.96,DCMain,ONIZUKA,0000,0000,0000,,Make sure you review the \Nmaterial on your own.
+Dialogue: 0,0:09:31.48,0:09:35.55,DCMain,WOMAN,0000,0000,0000,,Here you go. One chicken and egg stir \Nfry meal with a small serving of rice.
+Dialogue: 0,0:09:35.89,0:09:36.71,DCMain,MOROFUSHI,0000,0000,0000,,Thank you.
+Dialogue: 0,0:09:43.53,0:09:46.31,DCMain,MATSUDA,0000,0000,0000,,You're going to sit there? Hey.
+Dialogue: 0,0:09:46.86,0:09:49.72,DCMain,MOROFUSHI,0000,0000,0000,,If no one's sitting here, doesn't \Nthat mean this seat is open?
+Dialogue: 0,0:09:50.77,0:09:51.68,DCMain,FURUYA,0000,0000,0000,,Here.
+Dialogue: 0,0:09:52.31,0:09:54.71,DCMain,FURUYA,0000,0000,0000,,You've been spacing out a lot recently.
+Dialogue: 0,0:09:55.47,0:09:56.40,DCMain,MOROFUSHI,0000,0000,0000,,Thanks.
+Dialogue: 0,0:09:56.75,0:09:59.04,DCMain,MATSUDA,0000,0000,0000,,Why are you sitting here, too?
+Dialogue: 0,0:09:59.04,0:10:01.77,DCMain,FURUYA,0000,0000,0000,,What? Isn't this seat open?
+Dialogue: 0,0:10:01.77,0:10:04.15,DCMain,DATE,0000,0000,0000,,Man, I'm hungry.
+Dialogue: 0,0:10:04.15,0:10:07.16,DCMain,MOROFUSHI,0000,0000,0000,,Team leader, I don't want \Nthis. You can have it.
+Dialogue: 0,0:10:07.16,0:10:08.61,DCMain,DATE,0000,0000,0000,,You don't?
+Dialogue: 0,0:10:08.61,0:10:11.77,DCMain,MOROFUSHI,0000,0000,0000,,Yeah. I don't have much \Nof an appetite right now.
+Dialogue: 0,0:10:11.77,0:10:13.67,DCMain,DATE,0000,0000,0000,,Then don't mind if I do.
+Dialogue: 0,0:10:14.24,0:10:17.04,DCMain,HAGIWARA,0000,0000,0000,,Hey, have you got any sauce at this table?
+Dialogue: 0,0:10:17.04,0:10:18.09,DCMain,DATE,0000,0000,0000,,Here.
+Dialogue: 0,0:10:18.59,0:10:21.72,DCMain,DATE,0000,0000,0000,,I thought procuring supplies \Nwas your specialty.
+Dialogue: 0,0:10:21.89,0:10:25.40,DCMain,HAGIWARA,0000,0000,0000,,For some reason all the other tables are out.
+Dialogue: 0,0:10:25.40,0:10:26.62,DCMain,HAGIWARA,0000,0000,0000,,Thanks.
+Dialogue: 0,0:10:27.77,0:10:30.90,DCMain,HAGIWARA,0000,0000,0000,,Jinpei-chan, you're ruining your good looks.
+Dialogue: 0,0:10:31.35,0:10:32.46,DCMain,MATSUDA,0000,0000,0000,,What are you doing?
+Dialogue: 0,0:10:32.46,0:10:34.65,DCMain,HAGIWARA,0000,0000,0000,,You shouldn't rub that with those hands.
+Dialogue: 0,0:10:35.00,0:10:36.54,DCMain,MATSUDA,0000,0000,0000,,Mind your own business.
+Dialogue: 0,0:10:36.54,0:10:40.32,DCMain,HAGIWARA,0000,0000,0000,,Here. Do it yourself, then.
+Dialogue: 0,0:10:40.80,0:10:44.17,DCMain,HAGIWARA,0000,0000,0000,,That's it. Men shouldn't quibble.
+Dialogue: 0,0:10:44.17,0:10:46.10,DCMain,ALL,0000,0000,0000,,Hagiwara-kun!
+Dialogue: 0,0:10:46.10,0:10:47.37,DCMain,HAGIWARA,0000,0000,0000,,Yes?
+Dialogue: 0,0:10:47.61,0:10:49.68,DCMain,WOMAN A,0000,0000,0000,,Can we eat lunch with you?
+Dialogue: 0,0:10:49.68,0:10:51.25,DCMain,HAGIWARA,0000,0000,0000,,Of course.
+Dialogue: 0,0:10:51.64,0:10:53.26,DCMain,HAGIWARA,0000,0000,0000,,{\an8}Here's the sauce.
+Dialogue: 0,0:10:51.84,0:10:55.55,DCMain,FURUYA,0000,0000,0000,,What's with the change of heart \Nyou had during class earlier?
+Dialogue: 0,0:10:53.26,0:10:56.42,DCMain,HAGIWARA,0000,0000,0000,,{\an8}All the tables are out, so you can use this.
+Dialogue: 0,0:10:56.76,0:11:01.80,DCMain,FURUYA,0000,0000,0000,,If I recall correctly, \Nyou hate police officers.
+Dialogue: 0,0:11:03.79,0:11:05.83,DCMain,FURUYA,0000,0000,0000,,Don't tell me you're hot-and-cold for them.
+Dialogue: 0,0:11:06.84,0:11:09.98,DCMain,MAN A,0000,0000,0000,,You can't seriously be \Nblond at a police academy.
+Dialogue: 0,0:11:09.98,0:11:11.29,DCMain,MAN B,0000,0000,0000,,Leave it.
+Dialogue: 0,0:11:11.29,0:11:12.68,DCMain,MATSUDA,0000,0000,0000,,I'm not.
+Dialogue: 0,0:11:13.86,0:11:16.32,DCMain,MATSUDA,0000,0000,0000,,I still hate them at heart.
+Dialogue: 0,0:11:20.13,0:11:24.93,DCMain,MATSUDA,0000,0000,0000,,Police officers can eat shit.
+Dialogue: 0,0:11:33.75,0:11:34.67,DCMain,FURUYA,0000,0000,0000,,Found it.
+Dialogue: 0,0:11:34.67,0:11:36.67,Headline,SIGN,0000,0000,0000,,{\an8\fs30\b1\bord3\shad0\frz4.266\pos(343,83)\c&HBAAB9A&\3c&H6D3B19&}Suspect Matsuda Arrested
+Dialogue: 0,0:11:34.67,0:11:36.67,Headline,SIGN,0000,0000,0000,,{\an3\b1\bord3\shad0\fnTimesNewRoman\c&H5E2602&\3c&HC0B8A7&\blur1}Pro Boxer \NMatsuda Jotaro
+Dialogue: 0,0:11:34.67,0:11:36.67,Headline,SIGN,0000,0000,0000,,{\an7\b1\bord3\shad0\fnTimesNewRoman\c&H5E2602&\3c&HC0B8A7&\blur1\frz4.575\fs28\pos(300,186)}Murder
+Dialogue: 0,0:11:35.19,0:11:36.21,DCMain,FURUYA,0000,0000,0000,,This is it.
+Dialogue: 0,0:11:36.67,0:11:40.67,DCMain,FURUYA,0000,0000,0000,,Pro boxer Matsuda Jotaro, \Narrested for murder.
+Dialogue: 0,0:11:41.68,0:11:45.03,DCMain,MOROFUSHI,0000,0000,0000,,That case caused quite an uproar at the time.
+Dialogue: 0,0:11:45.03,0:11:46.05,DCMain,FURUYA,0000,0000,0000,,Hiro.
+Dialogue: 0,0:11:46.05,0:11:49.56,Reference,SIGN,0000,0000,0000,,Reference Room
+Dialogue: 0,0:11:46.87,0:11:49.56,DCMain,MOROFUSHI,0000,0000,0000,,You're looking into Matsuda's father, huh?
+Dialogue: 0,0:11:49.76,0:11:54.27,DCMain,FURUYA,0000,0000,0000,,Yeah. I wanted to know why \Nhe hates cops so much.
+Dialogue: 0,0:11:54.87,0:11:58.82,DCMain,MOROFUSHI,0000,0000,0000,,I heard about it from \NMatsuda's friend Hagiwara.
+Dialogue: 0,0:11:58.82,0:12:00.69,DCMain,MOROFUSHI,0000,0000,0000,,Apparently it was a mistaken arrest.
+Dialogue: 0,0:12:00.90,0:12:02.95,DCMain,FURUYA,0000,0000,0000,,What? A mistaken arrest?
+Dialogue: 0,0:12:03.44,0:12:07.07,DCMain,MOROFUSHI,0000,0000,0000,,On his way home from the gym,
+Dialogue: 0,0:12:07.07,0:12:09.95,DCMain,MOROFUSHI,0000,0000,0000,,Matsuda's pro boxer father saw \Nsome men engaged in a scuffle.
+Dialogue: 0,0:12:10.43,0:12:15.31,DCMain,MOROFUSHI,0000,0000,0000,,Because he had a title match coming up, he \Navoided getting involved and left the area.
+Dialogue: 0,0:12:15.31,0:12:19.46,DCMain,MOROFUSHI,0000,0000,0000,,But the next day, one of the men \Nwas found dead at the scene.
+Dialogue: 0,0:12:20.30,0:12:22.20,DCMain,MOROFUSHI,0000,0000,0000,,Because witnesses claimed to have seen
+Dialogue: 0,0:12:22.20,0:12:25.50,DCMain,MOROFUSHI,0000,0000,0000,,Matsuda's father near the area \Nwhen the crime took place,
+Dialogue: 0,0:12:26.17,0:12:29.02,DCMain,MOROFUSHI,0000,0000,0000,,the victim was a former boxer \Nwho had history with him,
+Dialogue: 0,0:12:29.47,0:12:33.22,DCMain,MOROFUSHI,0000,0000,0000,,and the victim was bludgeoned to death, \Nthe police arrested Matsuda' father.
+Dialogue: 0,0:12:35.00,0:12:38.45,DCMain,MOROFUSHI,0000,0000,0000,,Later, the true culprit was arrested, \Nand he was cleared of charges,
+Dialogue: 0,0:12:38.45,0:12:41.31,DCMain,MOROFUSHI,0000,0000,0000,,but his scheduled title match was called off.
+Dialogue: 0,0:12:41.31,0:12:45.89,DCMain,MOROFUSHI,0000,0000,0000,,He quit boxing and drowned himself \Nin drink like a changed man.
+Dialogue: 0,0:12:47.61,0:12:50.97,DCMain,FURUYA,0000,0000,0000,,I see. So that's why he hates the police.
+Dialogue: 0,0:12:51.57,0:12:55.21,DCMain,FURUYA,0000,0000,0000,,But why would he want to \Nbecome a police officer?
+Dialogue: 0,0:12:55.21,0:13:00.11,DCMain,MOROFUSHI,0000,0000,0000,,Who knows? Even Hagiwara admitted \Nthat was a mystery to him.
+Dialogue: 0,0:13:00.11,0:13:02.17,DCMain,FURUYA,0000,0000,0000,,Whoops, look at the time.
+Dialogue: 0,0:13:02.17,0:13:04.63,DCMain,FURUYA,0000,0000,0000,,It's a bit early, but shall \Nwe head to the classroom?
+Dialogue: 0,0:13:04.93,0:13:07.00,DCMain,MOROFUSHI,0000,0000,0000,,You go on without me, Zero.
+Dialogue: 0,0:13:08.29,0:13:11.33,DCMain,MOROFUSHI,0000,0000,0000,,There's something I want to look up here.
+Dialogue: 0,0:13:11.33,0:13:13.64,DCMain,FURUYA,0000,0000,0000,,I see. Don't be late.
+Dialogue: 0,0:13:13.64,0:13:15.64,CaseFile1,SIGN,0000,0000,0000,,Nagano Family Murdered
+Dialogue: 0,0:13:13.64,0:13:15.64,CaseFile2,SIGN,0000,0000,0000,,Case Type: Murder \NLocation: Nagano Prefecture, Family Home \NDamage Report: One Man and \NWoman (Married Couple) Dead \NCase Status: Unsolved
+Dialogue: 0,0:13:21.13,0:13:21.97,DCItalic,FURUYA,0000,0000,0000,,Hiro...
+Dialogue: 0,0:13:22.82,0:13:26.91,DCMain,ONIZUKA,0000,0000,0000,,Listen closely. What you're \Nholding right now is a Sakura.
+Dialogue: 0,0:13:27.38,0:13:31.32,DCMain,ONIZUKA,0000,0000,0000,,This five-round revolver is the official \Nfirearm of the Japanese police.
+Dialogue: 0,0:13:31.97,0:13:35.41,DCMain,ONIZUKA,0000,0000,0000,,In this shooting test, you'll \Nfire four sets of five rounds.
+Dialogue: 0,0:13:35.41,0:13:38.17,DCMain,ONIZUKA,0000,0000,0000,,Your score will be the total \Nof your two best sets.
+Dialogue: 0,0:13:38.39,0:13:40.67,DCMain,ONIZUKA,0000,0000,0000,,A score of less than 70 is a failing grade.
+Dialogue: 0,0:13:46.17,0:13:48.28,DCMain,HAGIWARA,0000,0000,0000,,Five shots practically right in the middle.
+Dialogue: 0,0:13:48.28,0:13:49.89,DCMain,HAGIWARA,0000,0000,0000,,Nice shooting, Furuya-chan.
+Dialogue: 0,0:13:50.18,0:13:55.82,DCMain,ONIZUKA,0000,0000,0000,,Furuya, you've got a knack for shooting, but don't \Nforget that there's always someone better than you.
+Dialogue: 0,0:13:55.82,0:13:59.32,DCMain,ONIZUKA,0000,0000,0000,,There's a genius who scored full \Npoints on his first test—
+Dialogue: 0,0:13:59.32,0:14:04.15,DCMain,ONIZUKA,0000,0000,0000,,in other words, he fired all \N20 shots right into the middle.
+Dialogue: 0,0:14:05.95,0:14:11.32,DCMain,DATE,0000,0000,0000,,He must currently be a top \Ncop in Division 1, then.
+Dialogue: 0,0:14:11.64,0:14:17.83,DCMain,ONIZUKA,0000,0000,0000,,Actually, he quit the force and currently \Nruns a detective agency in Beika City.
+Dialogue: 0,0:14:19.77,0:14:22.28,DCMain,MATSUDA,0000,0000,0000,,Damn it, I can't hit the thing at all.
+Dialogue: 0,0:14:22.28,0:14:23.92,DCMain,ONIZUKA,0000,0000,0000,,What's wrong, Matsuda?
+Dialogue: 0,0:14:23.92,0:14:27.22,DCMain,ONIZUKA,0000,0000,0000,,You're quick to fight, but handling \Na gun's too difficult for you?
+Dialogue: 0,0:14:27.43,0:14:30.47,DCMain,MATSUDA,0000,0000,0000,,Are you sure someone didn't drop this gun?
+Dialogue: 0,0:14:32.70,0:14:36.01,DCMain,MATSUDA,0000,0000,0000,,Revolvers are sensitive to being dropped.
+Dialogue: 0,0:14:36.01,0:14:39.35,DCMain,MATSUDA,0000,0000,0000,,Maybe the cylinder stop's broken.
+Dialogue: 0,0:14:39.53,0:14:41.77,DCMain,ONIZUKA,0000,0000,0000,,Don't be ridiculous! Hurry up and shoot!
+Dialogue: 0,0:14:42.28,0:14:45.06,DCMain,ONIZUKA,0000,0000,0000,,You're always quibbling over everything.
+Dialogue: 0,0:14:45.06,0:14:46.40,DCMain,DATE,0000,0000,0000,,H-Hey, Matsuda.
+Dialogue: 0,0:14:50.22,0:14:54.17,DCMain,MATSUDA,0000,0000,0000,,I knew it. The cylinder stop's broken.
+Dialogue: 0,0:14:54.17,0:14:57.00,DCMain,MATSUDA,0000,0000,0000,,The barrel and cylinder \Nwere out of alignment, too.
+Dialogue: 0,0:14:57.00,0:14:58.99,DCMain,MATSUDA,0000,0000,0000,,No wonder I couldn't hit anything.
+Dialogue: 0,0:14:58.99,0:15:02.07,DCMain,ONIZUKA,0000,0000,0000,,Matsuda, put that thing \Nback together immediately!
+Dialogue: 0,0:15:02.07,0:15:02.79,DCMain,MATSUDA,0000,0000,0000,,Huh?
+Dialogue: 0,0:15:02.99,0:15:06.17,DCMain,HAGIWARA,0000,0000,0000,,Yeesh, he's at it again.
+Dialogue: 0,0:15:06.17,0:15:07.07,DCMain,FURUYA,0000,0000,0000,,Again?
+Dialogue: 0,0:15:07.07,0:15:07.92,DCMain,HAGIWARA,0000,0000,0000,,Yeah.
+Dialogue: 0,0:15:08.30,0:15:10.93,DCMain,HAGIWARA,0000,0000,0000,,Jinpei-chan's an analysis fiend.
+Dialogue: 0,0:15:10.93,0:15:15.47,DCMain,HAGIWARA,0000,0000,0000,,He's always had to analyze \Neverything since he was a kid.
+Dialogue: 0,0:15:15.93,0:15:19.98,DCMain,HAGIWARA,0000,0000,0000,,Because of it, he knows a lot \Nabout gadgets, especially bombs.
+Dialogue: 0,0:15:20.20,0:15:22.77,DCMain,ONIZUKA,0000,0000,0000,,The shooting test is canceled!
+Dialogue: 0,0:15:23.05,0:15:25.02,DCMain,ONIZUKA,0000,0000,0000,,Return your firearms immediately!
+Dialogue: 0,0:15:25.02,0:15:27.53,DCMain,ONIZUKA,0000,0000,0000,,Matsuda, stay there!
+Dialogue: 0,0:15:28.05,0:15:31.39,DCMain,ONIZUKA,0000,0000,0000,,What? One bullet hasn't been returned?
+Dialogue: 0,0:15:31.39,0:15:32.16,DCMain,ASSSITANT,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:15:32.39,0:15:37.41,DCMain,ASSSITANT,0000,0000,0000,,I recounted all the guns, but \NI came up one round short.
+Dialogue: 0,0:15:37.86,0:15:42.92,DCMain,ASSSITANT,0000,0000,0000,,Well, I say all of them, but I still \Nhaven't collected Matsuda's gun.
+Dialogue: 0,0:15:42.92,0:15:46.44,DCMain,ONIZUKA,0000,0000,0000,,Matsuda! Why haven't you \Nput it back together yet?
+Dialogue: 0,0:15:46.44,0:15:49.59,DCMain,MATSUDA,0000,0000,0000,,What? You're the one who \Ntold me to stay here.
+Dialogue: 0,0:15:50.16,0:15:53.03,DCMain,ONIZUKA,0000,0000,0000,,Forget it. Just hand over \Nthe bullet you swiped.
+Dialogue: 0,0:15:53.03,0:15:55.14,DCMain,MATSUDA,0000,0000,0000,,I don't have any bullets on me.
+Dialogue: 0,0:15:55.14,0:15:58.43,DCMain,MATSUDA,0000,0000,0000,,I fired all my rounds. I even \Nhandled over my empty cartridges.
+Dialogue: 0,0:15:58.43,0:16:00.02,DCMain,ONIZUKA,0000,0000,0000,,Don't lie to me!
+Dialogue: 0,0:16:00.02,0:16:01.19,DCMain,MATSUDA,0000,0000,0000,,Huh?
+Dialogue: 0,0:16:01.19,0:16:05.62,DCMain,DATE,0000,0000,0000,,Now, now. Out of consideration for your \Nteam leader, let's lay down our arms.
+Dialogue: 0,0:16:05.62,0:16:07.77,DCMain,DATE,0000,0000,0000,,I promise we'll return the bullet.
+Dialogue: 0,0:16:07.96,0:16:09.95,DCMain,FOREMAN,0000,0000,0000,,Excuse me, Instructor Onizuka.
+Dialogue: 0,0:16:09.95,0:16:14.45,DCMain,FOREMAN,0000,0000,0000,,Is it all right if I check \Non the roof repairs?
+Dialogue: 0,0:16:14.45,0:16:16.22,DCMain,ONIZUKA,0000,0000,0000,,Sure, I'll show you the way.
+Dialogue: 0,0:16:16.92,0:16:20.64,DCMain,ONIZUKA,0000,0000,0000,,You'd better make him turn \Nin that bullet voluntarily.
+Dialogue: 0,0:16:20.64,0:16:21.49,DCMain,DATE,0000,0000,0000,,Yes, sir.
+Dialogue: 0,0:16:21.49,0:16:24.59,DCMain,MATSUDA,0000,0000,0000,,What? You think I did it, too?
+Dialogue: 0,0:16:25.18,0:16:26.54,DCMain,DATE,0000,0000,0000,,It wasn't you, right?
+Dialogue: 0,0:16:26.82,0:16:27.64,DCMain,MATSUDA,0000,0000,0000,,No.
+Dialogue: 0,0:16:27.64,0:16:29.87,DCMain,DATE,0000,0000,0000,,Then hold your head high.
+Dialogue: 0,0:16:29.87,0:16:33.93,DCMain,DATE,0000,0000,0000,,I'll uncover the true culprit and \Nmake them turn themselves in.
+Dialogue: 0,0:16:34.37,0:16:36.39,DCMain,FURUYA,0000,0000,0000,,You're too soft on him, team leader.
+Dialogue: 0,0:16:36.39,0:16:41.37,DCMain,FURUYA,0000,0000,0000,,Make him prove his own innocence, \Nor he'll end up like his father.
+Dialogue: 0,0:16:41.37,0:16:44.56,DCMain,MATSUDA,0000,0000,0000,,You don't know the first thing about my dad.
+Dialogue: 0,0:16:44.96,0:16:47.91,DCMain,FURUYA,0000,0000,0000,,Yeah, so why don't you tell me about him?
+Dialogue: 0,0:16:47.91,0:16:51.82,DCMain,FURUYA,0000,0000,0000,,While you're at it, you can tell me why \Nyou're trying to become a cop, too.
+Dialogue: 0,0:16:53.16,0:16:54.95,DCMain,MATSUDA,0000,0000,0000,,Sure, I'll tell you,
+Dialogue: 0,0:16:55.12,0:16:58.78,DCMain,MATSUDA,0000,0000,0000,,after I knock you on your ass!
+Dialogue: 0,0:17:18.44,0:17:21.06,DCMain,MAN D,0000,0000,0000,,This isn't good. The lifeline's \Nwrapped around the instructor's neck.
+Dialogue: 0,0:17:21.36,0:17:24.29,DCMain,MAN E,0000,0000,0000,,The worker who fell looks unconscious.
+Dialogue: 0,0:17:24.29,0:17:26.52,DCMain,WOMAN D,0000,0000,0000,,We're going to go get help!
+Dialogue: 0,0:17:26.74,0:17:28.15,DCMain,MAN F,0000,0000,0000,,Will you make it in time?
+Dialogue: 0,0:17:28.41,0:17:30.29,DCMain,MAN E,0000,0000,0000,,We have to climb up to the \Nroof and cut the rope!
+Dialogue: 0,0:17:30.29,0:17:32.15,DCMain,MAN F,0000,0000,0000,,You idiot, there's no time for that!
+Dialogue: 0,0:17:32.39,0:17:34.38,DCMain,MAN G,0000,0000,0000,,But at this rate, the instructor...
+Dialogue: 0,0:17:34.38,0:17:37.78,DCMain,DATE,0000,0000,0000,,You guys know what to do, right?
+Dialogue: 0,0:17:38.11,0:17:39.16,DCMain,MATSUDA,0000,0000,0000,,Get a gun.
+Dialogue: 0,0:17:39.46,0:17:40.16,DCMain,HAGIWARA,0000,0000,0000,,Find a bullet.
+Dialogue: 0,0:17:40.59,0:17:41.66,DCMain,FURUYA,0000,0000,0000,,Take the shot.
+Dialogue: 0,0:17:41.96,0:17:43.41,DCMain,DATE,0000,0000,0000,,I'll be the foundation.
+Dialogue: 0,0:17:43.89,0:17:47.17,DCMain,MOROFUSHI,0000,0000,0000,,Does that make me the \Nsupporting rod on top of you?
+Dialogue: 0,0:17:47.37,0:17:49.83,DCMain,DATE,0000,0000,0000,,Yeah! Come on, guys!
+Dialogue: 0,0:17:50.90,0:17:51.75,DCMain,DATE,0000,0000,0000,,Let's go!
+Dialogue: 0,0:17:54.25,0:17:55.26,DCMain,DATE,0000,0000,0000,,Morofushi!
+Dialogue: 0,0:17:59.98,0:18:02.10,DCMain,MOROFUSHI,0000,0000,0000,,You should be able to breathe \Na little easier now.
+Dialogue: 0,0:18:02.40,0:18:04.47,DCMain,MOROFUSHI,0000,0000,0000,,Our friends are will be here to help us soon.
+Dialogue: 0,0:18:04.66,0:18:07.23,DCMain,DATE,0000,0000,0000,,Try not to die until then.
+Dialogue: 0,0:18:07.68,0:18:08.94,DCMain,FURUYA,0000,0000,0000,,How long?
+Dialogue: 0,0:18:08.94,0:18:09.82,DCMain,MATSUDA,0000,0000,0000,,Huh?
+Dialogue: 0,0:18:09.82,0:18:13.46,DCMain,FURUYA,0000,0000,0000,,How long does it take you \Nto assemble that gun?
+Dialogue: 0,0:18:13.98,0:18:16.36,DCMain,MATSUDA,0000,0000,0000,,Well, generally...
+Dialogue: 0,0:18:19.52,0:18:20.78,DCMain,MATSUDA,0000,0000,0000,,One round.
+Dialogue: 0,0:18:21.25,0:18:24.72,DCMain,FURUYA,0000,0000,0000,,One round? Three minutes? That long?
+Dialogue: 0,0:18:24.72,0:18:29.46,DCMain,MATSUDA,0000,0000,0000,,Yeah. Just assembling the thing \Nwouldn't take me 30 seconds.
+Dialogue: 0,0:18:29.80,0:18:32.35,DCMain,MATSUDA,0000,0000,0000,,But not only is the gun broken to begin with,
+Dialogue: 0,0:18:32.36,0:18:36.37,DCMain,MATSUDA,0000,0000,0000,,it needs to be precise enough to \Nfire accurately without test firing.
+Dialogue: 0,0:18:37.20,0:18:42.10,DCMain,MATSUDA,0000,0000,0000,,We need you to shoot that rope \Nwith a single shot, blondie.
+Dialogue: 0,0:18:42.70,0:18:46.85,DCMain,MATSUDA,0000,0000,0000,,You'll use the bullet \NHagiwara's finding right now.
+Dialogue: 0,0:18:47.19,0:18:49.18,DCMain,HAGIWARA,0000,0000,0000,,Excuse me.
+Dialogue: 0,0:18:49.73,0:18:52.52,DCMain,HAGIWARA,0000,0000,0000,,Huh? What's this?
+Dialogue: 0,0:18:52.82,0:18:56.90,DCMain,HAGIWARA,0000,0000,0000,,Hey, there's a bullet lying right here.
+Dialogue: 0,0:19:09.46,0:19:10.37,DCItalic,HAGIWARA,0000,0000,0000,,Bingo.
+Dialogue: 0,0:19:11.28,0:19:13.10,DCMain,MAN H,0000,0000,0000,,H-Huh? It's still here.
+Dialogue: 0,0:19:13.10,0:19:16.01,DCMain,HAGIWARA,0000,0000,0000,,You're the one who swiped \Nthe bullet, aren't you?
+Dialogue: 0,0:19:16.01,0:19:20.59,DCMain,MAN H,0000,0000,0000,,S-Sorry. I wanted something to remember \Nmy first firearms training by.
+Dialogue: 0,0:19:23.87,0:19:24.55,DCMain,MATSUDA,0000,0000,0000,,Damn it.
+Dialogue: 0,0:19:24.94,0:19:27.17,DCMain,MATSUDA,0000,0000,0000,,Something's still not right.
+Dialogue: 0,0:19:27.17,0:19:28.66,DCMain,FURUYA,0000,0000,0000,,Don't panic.
+Dialogue: 0,0:19:29.22,0:19:34.18,DCMain,FURUYA,0000,0000,0000,,A person's respiratory center stops \Nfunctioning within a minute of being strangled,
+Dialogue: 0,0:19:34.91,0:19:37.82,DCMain,FURUYA,0000,0000,0000,,but the heart continues to \Nbeat for several minutes.
+Dialogue: 0,0:19:38.09,0:19:42.76,DCMain,FURUYA,0000,0000,0000,,Even if their heart stops, as long as lifesaving \Nmeasures are performed within three minutes,
+Dialogue: 0,0:19:42.76,0:19:47.58,DCMain,FURUYA,0000,0000,0000,,it's entirely possible to save a \Nperson without any brain damage.
+Dialogue: 0,0:19:47.82,0:19:50.12,DCMain,HAGIWARA,0000,0000,0000,,Let's go, Furuya-chan!
+Dialogue: 0,0:19:50.46,0:19:51.96,DCMain,HAGIWARA,0000,0000,0000,,Catch!
+Dialogue: 0,0:19:54.97,0:19:58.09,DCMain,MATSUDA,0000,0000,0000,,Take this, too. The gun's perfect.
+Dialogue: 0,0:19:58.97,0:20:02.18,DCMain,MATSUDA,0000,0000,0000,,If you miss, I'll kill you, Zero.
+Dialogue: 0,0:20:15.82,0:20:17.27,DCMain,WOMAN D,0000,0000,0000,,Sir, we brought help!
+Dialogue: 0,0:20:26.90,0:20:30.04,DCMain,DATE,0000,0000,0000,,Sir! Instructor Onizuka!
+Dialogue: 0,0:22:04.67,0:22:08.32,DCMain,FURUYA,0000,0000,0000,,There was a serious violation \Nof firearm handling rules,
+Dialogue: 0,0:22:08.32,0:22:13.08,DCMain,FURUYA,0000,0000,0000,,but at Instructor Onizuka's recommendation, \Nthey're going to overlook this incident.
+Dialogue: 0,0:22:13.74,0:22:15.07,DCMain,MATSUDA,0000,0000,0000,,Of course they are.
+Dialogue: 0,0:22:15.07,0:22:18.39,DCMain,MATSUDA,0000,0000,0000,,We dragged him back from the brink of death.
+Dialogue: 0,0:22:18.81,0:22:22.65,DCMain,FURUYA,0000,0000,0000,,Apparently your father \Nwas arrested mistakenly.
+Dialogue: 0,0:22:23.98,0:22:27.03,DCMain,MTASUDA,0000,0000,0000,,Hagi told you, didn't he? \NHe's got a big mouth.
+Dialogue: 0,0:22:27.35,0:22:30.76,DCMain,FURUYA,0000,0000,0000,,I'm sorry about the mistaken \Narrest, but in that case—
+Dialogue: 0,0:22:30.76,0:22:36.16,DCMain,MATSUDA,0000,0000,0000,,It's likely the murder wouldn't have \Noccurred if he'd stopped the fight, right?
+Dialogue: 0,0:22:36.74,0:22:38.84,DCMain,MATSUDA,0000,0000,0000,,I know that,
+Dialogue: 0,0:22:39.52,0:22:45.71,DCMain,MATSUDA,0000,0000,0000,,but I can't forgive the police for acting like \Nnothing happened after crushing my dad's dream.
+Dialogue: 0,0:22:46.08,0:22:50.06,DCMain,FURUYA,0000,0000,0000,,So, why do you want to \Nbecome a police officer?
+Dialogue: 0,0:22:50.06,0:22:52.52,DCMain,MATSUDA,0000,0000,0000,,That's obvious.
+Dialogue: 0,0:22:52.52,0:22:56.06,DCMain,MATSUDA,0000,0000,0000,,Because I want to kick his ass and \Ndispel these pent-up feelings.
+Dialogue: 0,0:22:58.00,0:23:02.55,DCMain,MATSUDA,0000,0000,0000,,The boss of the MPD—the chief of police.
+Dialogue: 0,0:23:06.63,0:23:08.26,DCMain,MATSUDA,0000,0000,0000,,What's so funny?
+Dialogue: 0,0:23:08.26,0:23:11.24,DCMain,FURUYA,0000,0000,0000,,That won't be easy.
+Dialogue: 0,0:23:11.24,0:23:14.33,DCMain,MATSUDA,0000,0000,0000,,Why are you trying to become a cop, anyway?
+Dialogue: 0,0:23:16.64,0:23:18.83,DCMain,FURUYA,0000,0000,0000,,So I can find someone.
+Dialogue: 0,0:23:19.49,0:23:25.18,DCMain,FURUYA,0000,0000,0000,,I'm looking for a woman very dear \Nto me who suddenly disappeared.
+Dialogue: 0,0:23:27.28,0:23:31.34,DCMain,MATSUDA,0000,0000,0000,,A woman? You're surprisingly shallow.
+Dialogue: 0,0:23:36.10,0:23:37.10,DCMain,FURUYA,0000,0000,0000,,Right?
+Dialogue: 0,0:23:45.02,0:24:09.05,DCEpPreview,SIGN,0000,0000,0000,,Episode Preview
+Dialogue: 0,0:23:45.22,0:23:49.53,DCMain,ESAKA,0000,0000,0000,,Please find the past that's \Nbeen erased from my memory.
+Dialogue: 0,0:23:50.01,0:23:51.78,DCMain,KOGORO,0000,0000,0000,,Find the past?
+Dialogue: 0,0:23:51.96,0:23:55.28,DCMain,CONAN,0000,0000,0000,,Maybe it's just a misunderstanding.
+Dialogue: 0,0:23:55.53,0:23:58.95,DCMain,KANEHARA,0000,0000,0000,,It's all right. You don't \Nhave to try so hard.
+Dialogue: 0,0:23:59.26,0:24:00.71,DCMain,ALL,0000,0000,0000,,Yeah.
+Dialogue: 0,0:24:01.15,0:24:02.50,DCMain,CONAN,0000,0000,0000,,What happened?
+Dialogue: 0,0:24:03.22,0:24:07.59,DCMain,MEGURE,0000,0000,0000,,Apparently they regretted \Nsome bad choices they made.
+Dialogue: 0,0:24:09.05,0:24:15.05,DCNextEp,SIGN,0000,0000,0000,,The Blank Year \N(Part One)
+Dialogue: 0,0:24:09.42,0:24:13.69,DCMain,CONAN,0000,0000,0000,,The next episode of Conan is \N"The Blank Year, Part One!"
+Dialogue: 0,0:24:30.07,0:24:34.99,Hint,SIGN,0000,0000,0000,,Dog
+Dialogue: 0,0:24:30.40,0:24:32.58,DCMain,BOTH,0000,0000,0000,,Next Conan's hint!
+Dialogue: 0,0:24:32.58,0:24:33.97,DCMain,CONAN,0000,0000,0000,,A dog!
+Dialogue: 0,0:24:34.99,0:24:39.99,Don'tMiss,SIGN,0000,0000,0000,,Don't miss the next episode.
+Dialogue: 0,0:24:35.18,0:24:36.25,DCMain,MATSUDA,0000,0000,0000,,{\an8}When's the next part?
+Dialogue: 0,0:24:36.25,0:24:37.47,DCMain,DATE,0000,0000,0000,,{\an8}Is it my turn next?
+Dialogue: 0,0:24:37.47,0:24:39.27,DCMain,AMURO,0000,0000,0000,,{\an8}You'll just have to wait and see.

@@ -1,7 +1,7 @@
 ## Ranges
 **Global**  
 **TV:** 1-600  
-**Movie:** 1-23  
+**Movie:** 1-23, 25  
 **OVA:** 1-12  
 **TV Special:** 5-6  
 
@@ -9,7 +9,7 @@
 **OVA:** 1-12  
 
 **Bilibili**  
-**Movie:** 1-23  
+**Movie:** 1-23, 25  
 **TV Special:** 5-6  
 
 **SilverBullet**  
@@ -645,6 +645,7 @@
 |**Movie 21**||x|||
 |**Movie 22**||x|x||
 |**Movie 23**||x|||
+|**Movie 25**||x|||
 |**OVA 01**|x||||
 |**OVA 02**|x||||
 |**OVA 03**|x||||
