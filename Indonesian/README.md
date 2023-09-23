@@ -3,11 +3,15 @@
 **TV:** 1-1048, 1051-1052, 1057-1058, 1062, 1065-1066, 1068  
 **Movie:** 1-23, 25  
 **TV Special:** 5-6  
+**Magic Kaito:** 1-12  
+**Magic Kaito 1412:** 1-24  
 
 **Bilibili**  
 **TV:** 1-1048, 1051-1052, 1057-1058, 1062, 1065-1066, 1068  
 **Movie:** 1-23, 25  
 **TV Special:** 5-6  
+**Magic Kaito:** 1-12  
+**Magic Kaito 1412:** 1-24  
 
 **VIU**  
 **TV:** 294-1048  
@@ -1072,6 +1076,42 @@
 |**1066**|x||
 |**1068**|x||
 |**Lupin III vs Detective Conan The Movie**|x||
+|**Magic Kaito 01**|x||
+|**Magic Kaito 02**|x||
+|**Magic Kaito 03**|x||
+|**Magic Kaito 04**|x||
+|**Magic Kaito 05**|x||
+|**Magic Kaito 06**|x||
+|**Magic Kaito 07**|x||
+|**Magic Kaito 08**|x||
+|**Magic Kaito 09**|x||
+|**Magic Kaito 10**|x||
+|**Magic Kaito 11**|x||
+|**Magic Kaito 12**|x||
+|**Magic Kaito 1412 01**|x||
+|**Magic Kaito 1412 02**|x||
+|**Magic Kaito 1412 03**|x||
+|**Magic Kaito 1412 04**|x||
+|**Magic Kaito 1412 05**|x||
+|**Magic Kaito 1412 06**|x||
+|**Magic Kaito 1412 07**|x||
+|**Magic Kaito 1412 08**|x||
+|**Magic Kaito 1412 09**|x||
+|**Magic Kaito 1412 10**|x||
+|**Magic Kaito 1412 11**|x||
+|**Magic Kaito 1412 12**|x||
+|**Magic Kaito 1412 13**|x||
+|**Magic Kaito 1412 14**|x||
+|**Magic Kaito 1412 15**|x||
+|**Magic Kaito 1412 16**|x||
+|**Magic Kaito 1412 17**|x||
+|**Magic Kaito 1412 18**|x||
+|**Magic Kaito 1412 19**|x||
+|**Magic Kaito 1412 20**|x||
+|**Magic Kaito 1412 21**|x||
+|**Magic Kaito 1412 22**|x||
+|**Magic Kaito 1412 23**|x||
+|**Magic Kaito 1412 24**|x||
 |**Movie 01**|x||
 |**Movie 02**|x||
 |**Movie 03**|x||
