@@ -31,11 +31,13 @@ Regenerate the relevant tables by running `table.py` from each directory.
 **Movie:** 1-23, 25  
 **OVA:** 1-12  
 **TV Special:** 5-6  
+**Magic Kaito 1412:** 1-24  
 
 **Chinese (Traditional)**  
 **TV:** 1-52, 55, 60, 63-71, 73-82, 84-129, 132-165, 174, 176-193, 196-200, 203-207, 212-213, 217-219, 222-224, 228-232, 236-244, 246-247, 253-276, 279-286, 289-306, 309-328, 331-500  
 **Movie:** 22  
 **OVA:** 1-12  
+**Magic Kaito 1412:** 1-24  
 
 **English**  
 **TV:** 1-1096  
@@ -1237,30 +1239,30 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Magic Kaito 10**||||||x||||x||x|||||||||||
 |**Magic Kaito 11**||||||x||||x||x|||||||||||
 |**Magic Kaito 12**||||||x||||x||x|||||||||||
-|**Magic Kaito 1412 01**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 02**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 03**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 04**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 05**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 06**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 07**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 08**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 09**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 10**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 11**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 12**||||||x||||x||||||x||||x|||
-|**Magic Kaito 1412 13**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 14**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 15**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 16**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 17**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 18**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 19**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 20**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 21**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 22**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 23**||||||x||||x||||||||||x|||
-|**Magic Kaito 1412 24**||||||x||||x||||||||||x|||
+|**Magic Kaito 1412 01**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 02**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 03**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 04**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 05**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 06**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 07**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 08**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 09**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 10**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 11**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 12**||||x|x|x||||x||||||x||||x|||
+|**Magic Kaito 1412 13**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 14**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 15**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 16**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 17**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 18**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 19**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 20**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 21**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 22**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 23**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 24**||||x|x|x||||x||||||||||x|||
 |**Movie 01**|||x|x||x|x|x||x||x||||x|||||||
 |**Movie 02**|||x|x||x|x|x||x||x|||||x|||x||x|
 |**Movie 03**|||x|x||x|x|x||x||x||||x|x|||x||x|
