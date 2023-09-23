@@ -18,6 +18,7 @@
 
 **Crunchyroll**  
 **TV:** 1-123, 754-1096  
+**Magic Kaito 1412:** 1-24  
 
 **Netflix**  
 **TV:** 748-753  
@@ -1140,30 +1141,30 @@
 |**Magic Kaito 10**|x||||||
 |**Magic Kaito 11**|x||||||
 |**Magic Kaito 12**|x||||||
-|**Magic Kaito 1412 01**|x||||||
-|**Magic Kaito 1412 02**|x||||||
-|**Magic Kaito 1412 03**|x||||||
-|**Magic Kaito 1412 04**|x||||||
-|**Magic Kaito 1412 05**|x||||||
-|**Magic Kaito 1412 06**|x||||||
-|**Magic Kaito 1412 07**|x||||||
-|**Magic Kaito 1412 08**|x||||||
-|**Magic Kaito 1412 09**|x||||||
-|**Magic Kaito 1412 10**|x||||||
-|**Magic Kaito 1412 11**|x||||||
-|**Magic Kaito 1412 12**|x||||||
-|**Magic Kaito 1412 13**|x||||||
-|**Magic Kaito 1412 14**|x||||||
-|**Magic Kaito 1412 15**|x||||||
-|**Magic Kaito 1412 16**|x||||||
-|**Magic Kaito 1412 17**|x||||||
-|**Magic Kaito 1412 18**|x||||||
-|**Magic Kaito 1412 19**|x||||||
-|**Magic Kaito 1412 20**|x||||||
-|**Magic Kaito 1412 21**|x||||||
-|**Magic Kaito 1412 22**|x||||||
-|**Magic Kaito 1412 23**|x||||||
-|**Magic Kaito 1412 24**|x||||||
+|**Magic Kaito 1412 01**|x||x||||
+|**Magic Kaito 1412 02**|x||x||||
+|**Magic Kaito 1412 03**|x||x||||
+|**Magic Kaito 1412 04**|x||x||||
+|**Magic Kaito 1412 05**|x||x||||
+|**Magic Kaito 1412 06**|x||x||||
+|**Magic Kaito 1412 07**|x||x||||
+|**Magic Kaito 1412 08**|x||x||||
+|**Magic Kaito 1412 09**|x||x||||
+|**Magic Kaito 1412 10**|x||x||||
+|**Magic Kaito 1412 11**|x||x||||
+|**Magic Kaito 1412 12**|x||x||||
+|**Magic Kaito 1412 13**|x||x||||
+|**Magic Kaito 1412 14**|x||x||||
+|**Magic Kaito 1412 15**|x||x||||
+|**Magic Kaito 1412 16**|x||x||||
+|**Magic Kaito 1412 17**|x||x||||
+|**Magic Kaito 1412 18**|x||x||||
+|**Magic Kaito 1412 19**|x||x||||
+|**Magic Kaito 1412 20**|x||x||||
+|**Magic Kaito 1412 21**|x||x||||
+|**Magic Kaito 1412 22**|x||x||||
+|**Magic Kaito 1412 23**|x||x||||
+|**Magic Kaito 1412 24**|x||x||||
 |**Movie 01**|x|x|||||
 |**Movie 02**|x|x|||||
 |**Movie 03**|x|x|||||
