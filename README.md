@@ -73,7 +73,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 **Movie:** 1-17, 19-23  
 **OVA:** 1-12  
 **TV Special:** 2-6  
-**Magic File:** 2, 6  
+**Magic File:** 2, 4, 6  
 **Gosho Aoyama's Collection of Short Stories:** 1-7  
 **Magic Kaito:** 1-8, 10-12  
 
@@ -1226,6 +1226,7 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Gosho Aoyama's Collection of Short Stories 7**||||||||||||x|||||||||||
 |**Lupin III vs Detective Conan The Movie**||||x||x||x||x||x||||x|x|||x||x|
 |**Magic File 02**||||||||||||x|||||x||||||
+|**Magic File 04**||||||||||||x|||||||||||
 |**Magic File 06**||||||||||||x|||||||||||
 |**Magic Kaito 01**||||||x||||x||x|||||||||||
 |**Magic Kaito 02**||||||x||||x||x|||||||||||

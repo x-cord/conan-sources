@@ -5,7 +5,7 @@
 **Movie:** 1-17, 19-23  
 **OVA:** 1-12  
 **TV Special:** 2-6  
-**Magic File:** 2, 6  
+**Magic File:** 2, 4, 6  
 **Gosho Aoyama's Collection of Short Stories:** 1-7  
 **Magic Kaito:** 1-8, 10-12  
 
@@ -43,7 +43,7 @@
 **Movie:** 1-13, 19-23  
 **OVA:** 1-12  
 **TV Special:** 2-6  
-**Magic File:** 2, 6  
+**Magic File:** 2, 4, 6  
 **Gosho Aoyama's Collection of Short Stories:** 1-7  
 
 **SummerHuo&ZJCONAN**  
@@ -1205,6 +1205,7 @@
 |**Gosho Aoyama's Collection of Short Stories 7**|||||x|||||
 |**Lupin III vs Detective Conan The Movie**|||||x|||||
 |**Magic File 02**|||||x|||||
+|**Magic File 04**|||||x|||||
 |**Magic File 06**|||||x|||||
 |**Magic Kaito 01**||||x|||x|||
 |**Magic Kaito 02**||||x|||x|||
