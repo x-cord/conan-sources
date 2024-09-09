@@ -12,7 +12,9 @@ priority = ["", " (Remastered)", "Movie", "Movie (Remastered)", "OVA", "OVA (Rem
 def ep_range(s):
     return sum(((list(range(*[int(j) + k for k,j in enumerate(i.split("-"))])) if "-" in i else [int(i)]) for i in s.split(",")), [])
 
-def mkranges(list_num):
+def mkranges(list_num, invert=False):
+    if invert:
+        list_num = set(range(min(list_num), max(list_num))) - set(list_num)
     groups = (list(x) for _, x in itertools.groupby(list_num, lambda x, c=itertools.count(): x - next(c)))
     return ", ".join("-".join(map(str, (item[0], item[-1])[:len(item)])) for item in groups)
 
