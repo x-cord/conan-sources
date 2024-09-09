@@ -70,12 +70,13 @@ Regenerate the relevant tables by running `table.py` from each directory.
 
 **Japanese**  
 **TV:** 1-965, 973-1025  
-**Movie:** 1-17, 19-23  
+**Movie:** 1-26  
 **OVA:** 1-12  
 **TV Special:** 2-6  
 **Magic File:** 2, 4, 6  
 **Gosho Aoyama's Collection of Short Stories:** 1-7  
-**Magic Kaito:** 1-8, 10-12  
+**Magic Kaito:** 1-12  
+**Magic Kaito 1412:** 1-24  
 
 **Korean**  
 **TV:** 1-400, 451-468  
@@ -1236,34 +1237,34 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Magic Kaito 06**||||||x||||x||x|||||||||||
 |**Magic Kaito 07**||||||x||||x||x|||||||||||
 |**Magic Kaito 08**||||||x||||x||x|||||||||||
-|**Magic Kaito 09**||||||x||||x|||||||||||||
+|**Magic Kaito 09**||||||x||||x||x|||||||||||
 |**Magic Kaito 10**||||||x||||x||x|||||||||||
 |**Magic Kaito 11**||||||x||||x||x|||||||||||
 |**Magic Kaito 12**||||||x||||x||x|||||||||||
-|**Magic Kaito 1412 01**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 02**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 03**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 04**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 05**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 06**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 07**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 08**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 09**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 10**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 11**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 12**||||x|x|x||||x||||||x||||x|||
-|**Magic Kaito 1412 13**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 14**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 15**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 16**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 17**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 18**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 19**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 20**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 21**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 22**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 23**||||x|x|x||||x||||||||||x|||
-|**Magic Kaito 1412 24**||||x|x|x||||x||||||||||x|||
+|**Magic Kaito 1412 01**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 02**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 03**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 04**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 05**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 06**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 07**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 08**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 09**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 10**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 11**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 12**||||x|x|x||||x||x||||x||||x|||
+|**Magic Kaito 1412 13**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 14**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 15**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 16**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 17**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 18**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 19**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 20**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 21**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 22**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 23**||||x|x|x||||x||x||||||||x|||
+|**Magic Kaito 1412 24**||||x|x|x||||x||x||||||||x|||
 |**Movie 01**|||x|x||x|x|x||x||x||||x|||||||
 |**Movie 02**|||x|x||x|x|x||x||x|||||x|||x||x|
 |**Movie 03**|||x|x||x|x|x||x||x||||x|x|||x||x|
@@ -1281,14 +1282,15 @@ Regenerate the relevant tables by running `table.py` from each directory.
 |**Movie 15**|||x|x||x|x|x||x||x||||x||||x||x|
 |**Movie 16**|||x|x||x|x|x||x||x||||x||||x||x|
 |**Movie 17**|||x|x||x|x|x||x||x||||x||||x||x|
-|**Movie 18**|||x|x||x|x|x||x|||||||x|||x||x|
+|**Movie 18**|||x|x||x|x|x||x||x|||||x|||x||x|
 |**Movie 19**|||x|x||x|x|x||x||x||||x|x|||x||x|
 |**Movie 20**|||x|x||x|x|x||x||x|||||x|||x||x|
 |**Movie 21**|||x|x||x|x|x||x||x|||||x|||x||x|
 |**Movie 22**|||x|x|x|x|x|x||x||x||||||||x||x|
 |**Movie 23**|||x|x||x||x||x||x||||||||x||x|
-|**Movie 24**|||x|||x|||||||||||||||||
-|**Movie 25**||||x||x||||x|||||||||||||
+|**Movie 24**|||x|||x||||||x|||||||||||
+|**Movie 25**||||x||x||||x||x|||||||||||
+|**Movie 26**||||||||||||x|||||||||||
 |**OVA 01**|||x|x|x|||||||x|||||x||||||
 |**OVA 02**|||x|x|x|||||||x|||||x||||||
 |**OVA 03**|||x|x|x|||||||x|||||x||||||
